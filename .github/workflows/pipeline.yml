@@ -1,14 +1,14 @@
 name: pipeline
 
-# Hourly: discover → verify → summarise → commit data/ to main. Vercel's Git
-# integration builds and deploys every push to main; runs where nothing visible
-# changed are committed with "[skip vercel]" (see vercel.json ignoreCommand), so
-# the site redeploys only on real changes or every 2 hours (fresh "checked" time).
-# Private repo = 2,000 free Actions minutes/month → hourly fits (~1,400 min).
-# If the repo is public (unlimited minutes), change the cron to '7,37 * * * *'.
+# Every 3 hours: discover → verify → summarise → translate → commit data/ to main.
+# Vercel's Git integration builds and deploys every push to main; runs where nothing
+# visible changed are committed with "[skip vercel]" (see vercel.json ignoreCommand).
+# Budget: private repo = 2,000 free Actions minutes/month; 8 runs/day × ~6 min ≈ 1,500.
+# The pipeline needs no npm packages (plain Node), so there is no install step.
+# Hourly would need ~4,000 min: only if the repo goes public (unlimited minutes).
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 */3 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -17,6 +17,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: read # to see whether a run just happened (the Vercel /api/tick backup may have started one)
   id-token: write # proves to /api/inbox that this repo's workflow is asking (reader reports)
 
 jobs:
@@ -31,20 +32,27 @@ jobs:
         if: env.HAS_AI != 'true'
         run: echo "::notice::Add GEMINI_API_KEY (or ANTHROPIC_API_KEY) as a repo secret to start the pipeline."
 
+      # GitHub's timer and the Vercel /api/tick backup can both fire: run once per window.
+      - name: Skip if a run started in the last 100 minutes
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(gh run list -R "$GITHUB_REPOSITORY" --workflow pipeline.yml --limit 5 --json databaseId,createdAt             --jq "[.[] | select(.databaseId != ${{ github.run_id }})][0].createdAt // empty")
+          if [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 6000 ]; then
+            echo "Run started at $last; skipping this one."; echo "SKIP=true" >> "$GITHUB_ENV"
+          fi
+
       - uses: actions/checkout@v4
-        if: env.HAS_AI == 'true'
+        if: env.HAS_AI == 'true' && env.SKIP != 'true'
 
       - uses: actions/setup-node@v4
-        if: env.HAS_AI == 'true'
+        if: env.HAS_AI == 'true' && env.SKIP != 'true'
         with:
           node-version: 24
-          cache: npm
-
-      - if: env.HAS_AI == 'true'
-        run: npm ci --ignore-scripts
 
       - name: Pipeline
-        if: env.HAS_AI == 'true'
+        if: env.HAS_AI == 'true' && env.SKIP != 'true'
         env:
           AI_PROVIDER: ${{ vars.AI_PROVIDER }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -58,11 +66,11 @@ jobs:
 
       - name: Decide whether this commit deploys
         id: gate
-        if: env.HAS_AI == 'true'
+        if: env.HAS_AI == 'true' && env.SKIP != 'true'
         run: node scripts/should-deploy.ts
 
       - name: Commit data to main
-        if: env.HAS_AI == 'true'
+        if: env.HAS_AI == 'true' && env.SKIP != 'true'
         run: |
           if [ "${{ steps.gate.outputs.deploy }}" = "true" ]; then
             echo "{\"at\": \"$(date -u +%FT%TZ)\"}" > data/deploy.json
@@ -86,5 +94,5 @@ jobs:
           exit 1
 
       - name: Ping IndexNow
-        if: env.HAS_AI == 'true' && steps.gate.outputs.deploy == 'true'
+        if: env.HAS_AI == 'true' && env.SKIP != 'true' && steps.gate.outputs.deploy == 'true'
         run: node scripts/indexnow.ts # search engines fetch later; no need to burn 4 billed minutes waiting

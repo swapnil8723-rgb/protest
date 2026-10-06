@@ -7,16 +7,95 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/:cc(in|us|gb|pk|bd|np|ke|id)/:region/:city", "destination": "/city/:cc/:region/:city", "permanent": true }
+    {
+      "source": "/:cc(in|us|gb|pk|bd|np|ke|id)/:region/:city",
+      "destination": "/city/:cc/:region/:city",
+      "permanent": true
+    }
   ],
   "headers": [
-    { "source": "/fonts/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
-    { "source": "/_astro/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
-    { "source": "/(geo|maps)/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] },
-    { "source": "/cards/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=1800" }] },
-    { "source": "/(.*)", "headers": [
-      { "key": "X-Content-Type-Options", "value": "nosniff" },
-      { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
-    ] }
+    {
+      "source": "/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/_astro/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(geo|maps)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    },
+    {
+      "source": "/cards/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=1800"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/tick",
+      "schedule": "50 0 * * *"
+    },
+    {
+      "path": "/api/tick",
+      "schedule": "50 3 * * *"
+    },
+    {
+      "path": "/api/tick",
+      "schedule": "50 6 * * *"
+    },
+    {
+      "path": "/api/tick",
+      "schedule": "50 9 * * *"
+    },
+    {
+      "path": "/api/tick",
+      "schedule": "50 12 * * *"
+    },
+    {
+      "path": "/api/tick",
+      "schedule": "50 15 * * *"
+    },
+    {
+      "path": "/api/tick",
+      "schedule": "50 18 * * *"
+    },
+    {
+      "path": "/api/tick",
+      "schedule": "50 21 * * *"
+    }
   ]
 }
