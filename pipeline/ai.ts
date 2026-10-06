@@ -1,5 +1,5 @@
 // One-line provider switch (PLAN): AI_PROVIDER=gemini | anthropic | replay.
-//  gemini    — Google AI Studio free tier; model from GEMINI_MODEL (default gemini-2.5-flash)
+//  gemini    — Google AI Studio free tier; gemini-2.5-flash, falls back to 2.5-flash-lite on quota
 //  anthropic — Claude Haiku 4.5 (ANTHROPIC_API_KEY); ~$10–30/month at Phase-1 volume
 //  replay    — answers from files in AI_REPLAY_DIR; unanswered prompts are queued there.
 //              Used by tests and for writing launch summaries by hand.
@@ -58,12 +58,18 @@ export function makeAi(state: State): Ai {
     lastCall = Date.now();
   };
 
+  // Best free-tier model first; when its daily quota runs out (or Google retires it) the run
+  // continues on the next one. Override with GEMINI_MODEL / GEMINI_FALLBACK.
+  const geminiModels = [
+    process.env.GEMINI_MODEL || 'gemini-2.5-flash',
+    ...(process.env.GEMINI_FALLBACK || 'gemini-2.5-flash-lite').split(',').filter(Boolean),
+  ];
   const gemini = async (system: string, prompt: string, schema: object) => {
     const key = process.env.GEMINI_API_KEY;
     if (!key) throw new Error('GEMINI_API_KEY not set');
-    const model = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
     for (let attempt = 0; ; attempt++) {
-      await pace(4500); // free tier ≈ 15 requests/minute
+      const model = geminiModels[0];
+      await pace(6500); // free tier ≈ 10 requests/minute on Flash
       const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
         method: 'POST',
         headers: { 'content-type': 'application/json', 'x-goog-api-key': key },
@@ -74,12 +80,20 @@ export function makeAi(state: State): Ai {
         }),
         signal: AbortSignal.timeout(120000),
       });
+      const body: any = await res.json().catch(() => ({}));
+      const msg = String(body?.error?.message ?? '');
+      const outOfQuota = res.status === 429 && /per ?day|daily|PerDay/i.test(msg + JSON.stringify(body?.error?.details ?? ''));
+      if ((res.status === 404 || outOfQuota || (res.status === 429 && attempt >= 3)) && geminiModels.length > 1) {
+        console.warn(`gemini: ${model} unavailable (${res.status}), switching to ${geminiModels[1]}`);
+        geminiModels.shift();
+        attempt = -1;
+        continue;
+      }
       if ((res.status === 429 || res.status >= 500) && attempt < 3) {
         await sleep(15000 * (attempt + 1));
         continue;
       }
-      const body: any = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(`gemini ${res.status}: ${body?.error?.message ?? ''}`.slice(0, 300));
+      if (!res.ok) throw new Error(`gemini ${res.status}: ${msg}`.slice(0, 300));
       const text = body?.candidates?.[0]?.content?.parts?.map((p: any) => p.text ?? '').join('') ?? '';
       return parseJson(text);
     }
