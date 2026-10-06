@@ -26,6 +26,6 @@ const tone = serious ? 'serious-surface' : s.kind === 'YES' ? 'bg-lime text-blac
 </section>
 <style>
   .shadow-hard { box-shadow: 6px 6px 0 var(--shadow-ink); }
-  :root:not([data-theme='light']) .still.bg-surface-2 { border-color: #2e2e40; }
-  :root:not([data-theme='light']) .still.bg-lime { box-shadow: 6px 6px 0 var(--violet); }
+  :root[data-theme='dark'] .still.bg-surface-2 { border-color: #2e2e40; }
+  :root[data-theme='dark'] .still.bg-lime { box-shadow: 6px 6px 0 var(--violet); }
 </style>

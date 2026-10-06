@@ -22,8 +22,8 @@ loud colour, thick outlines, chunky stickers, hard shadows — and underneath it
 
 ## 3. Colour
 
-Dark is the default (`color-scheme: dark`) for everyone, per the plan; cream light mode is opt-in via the header
-toggle (`data-theme="light"`, remembered in localStorage).
+Cream light is the default (`color-scheme: light`, owner's decision 6 Oct 2026); dark is opt-in via the header
+toggle (`data-theme="dark"`, remembered in localStorage).
 
 | Token | Dark | Light (cream) | Use |
 |---|---|---|---|

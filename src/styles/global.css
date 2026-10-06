@@ -10,17 +10,17 @@
 @font-face { font-family: 'Inter Variable'; font-weight: 100 900; font-display: swap; src: url('/fonts/noto-deva.woff2') format('woff2'); unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF; }
 @font-face { font-family: 'JetBrains Mono'; font-weight: 500; font-display: swap; src: url('/fonts/jetbrains-500.woff2') format('woff2'); }
 
-/* ── Tokens (DESIGN.md §3). Dark is the default; [data-theme=light] is cream. ── */
+/* ── Tokens (DESIGN.md §3). Cream light is the default; [data-theme=dark] is opt-in (header toggle). ── */
 :root {
-  color-scheme: dark;
-  --bg: #0b0b12;
-  --surface: #16161f;
-  --surface-2: #1f1f2b;
-  --ink: #f6f4ff;
-  --muted: #a7a3bc;
-  --line: #000;
-  --hairline: #2b2b3a;
-  --link: #00e5ff;
+  color-scheme: light;
+  --bg: #fff8ec;
+  --surface: #ffffff;
+  --surface-2: #fff1d6;
+  --ink: #0b0b12;
+  --muted: #57546a;
+  --line: #0b0b12;
+  --hairline: #e9dec8;
+  --link: #6d28d9;
   --violet: #7c3aed;
   --pink: #ff3d81;
   --lime: #c6ff00;
@@ -31,23 +31,23 @@
   --serious-bg: #f3f4f6;
   --serious-ink: #1f2937;
   --serious-line: #9ca3af;
-  --ocean: #12121e;
-  --land: #34344d;
-  --shadow-ink: #000;
-}
-:root[data-theme='light'] {
-  color-scheme: light;
-  --bg: #fff8ec;
-  --surface: #ffffff;
-  --surface-2: #fff1d6;
-  --ink: #0b0b12;
-  --muted: #57546a;
-  --line: #0b0b12;
-  --hairline: #e9dec8;
-  --link: #6d28d9;
   --ocean: #fff1d6;
   --land: #f4e2bf;
   --shadow-ink: #0b0b12;
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0b0b12;
+  --surface: #16161f;
+  --surface-2: #1f1f2b;
+  --ink: #f6f4ff;
+  --muted: #a7a3bc;
+  --line: #000;
+  --hairline: #2b2b3a;
+  --link: #00e5ff;
+  --ocean: #12121e;
+  --land: #34344d;
+  --shadow-ink: #000;
 }
 
 @theme inline {
@@ -112,7 +112,7 @@
     outline-offset: 3px;
     border-radius: 6px;
   }
-  :root[data-theme='light'] :focus-visible { outline-color: var(--violet); }
+  :root:not([data-theme='dark']) :focus-visible { outline-color: var(--violet); }
   ::selection { background: var(--pink); color: var(--black); }
 }
 
@@ -135,7 +135,7 @@
     box-shadow: 6px 6px 0 var(--vibe);
     transition: transform 160ms ease, box-shadow 160ms ease;
   }
-  :root:not([data-theme='light']) .card { border-color: #2e2e40; }
+  :root[data-theme='dark'] .card { border-color: #2e2e40; }
   .card.tilt { transform: rotate(var(--tilt, 0deg)); }
   .card.lift:hover, .card.lift:focus-within {
     transform: rotate(0deg) translate(-2px, -4px);
@@ -148,7 +148,7 @@
   .v-wrapped-up { --vibe: var(--lime); }
   /* Reader report (not verified yet): orange, dashed — reads as "pinned up, not checked" */
   .v-reader { --vibe: var(--reader); }
-  .card.reader, :root:not([data-theme='light']) .card.reader { border: 3px dashed var(--reader); }
+  .card.reader, :root[data-theme='dark'] .card.reader { border: 3px dashed var(--reader); }
 
   /* Serious Mode: no colour, no tilt, no motion, no jokes */
   .card.serious, .serious-surface {
@@ -203,7 +203,7 @@
     text-decoration: none; cursor: pointer; transition: transform 120ms ease, box-shadow 120ms ease;
   }
   .btn-primary { background: var(--violet); color: #fff; box-shadow: 4px 4px 0 var(--black); }
-  :root:not([data-theme='light']) .btn-primary { box-shadow: 4px 4px 0 var(--pink); }
+  :root[data-theme='dark'] .btn-primary { box-shadow: 4px 4px 0 var(--pink); }
   .btn-ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
   .btn-candy { background: var(--yellow); color: var(--black); box-shadow: 4px 4px 0 var(--black); }
   .btn:hover { transform: translate(-1px, -2px); }

@@ -41,12 +41,14 @@ if (lastRun && Date.now() - Date.parse(lastRun) > 5 * 3.6e6) {
 }
 
 document.getElementById('theme')?.addEventListener('click', () => {
+  // Light (cream) is the default; dark is the opt-in, remembered per browser.
   const root = document.documentElement;
-  const light = root.dataset.theme !== 'light';
-  if (light) root.dataset.theme = 'light';
+  const dark = root.dataset.theme !== 'dark';
+  if (dark) root.dataset.theme = 'dark';
   else delete root.dataset.theme;
+  document.querySelector<HTMLMetaElement>('meta[name=theme-color]')?.setAttribute('content', dark ? '#0B0B12' : '#FFF8EC');
   try {
-    localStorage.setItem('theme', light ? 'light' : 'dark');
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
   } catch {}
 });
 

@@ -38,7 +38,7 @@ const img = image.startsWith('http') ? image : SITE + image;
     {!noindex && langs.length > 1 && <link rel="alternate" hreflang="x-default" href={url('en')} />}
     {noindex && <meta name="robots" content="noindex, follow" />}
     {!noindex && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
-    <meta name="theme-color" content="#0B0B12" />
+    <meta name="theme-color" content="#FFF8EC" />
     <link rel="icon" href="/favicon.ico" sizes="32x32 48x48" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -64,7 +64,7 @@ const img = image.startsWith('http') ? image : SITE + image;
     {(lang === 'hi' || lang === 'mr') && <link rel="preload" href="/fonts/baloo2-deva.woff2" as="font" type="font/woff2" crossorigin />}
     {jsonLd.map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
     <script is:inline>
-      try { if (localStorage.getItem('theme') === 'light') document.documentElement.dataset.theme = 'light'; } catch {}
+      try { if (localStorage.getItem('theme') === 'dark') { document.documentElement.dataset.theme = 'dark'; document.querySelector('meta[name=theme-color]').content = '#0B0B12'; } } catch {}
     </script>
     <slot name="head" />
   </head>
