@@ -4,6 +4,7 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "ignoreCommand": "git log -1 --pretty=%s | grep -qF '[skip vercel]'",
+  "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
     { "source": "/fonts/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
