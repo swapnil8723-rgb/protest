@@ -72,7 +72,9 @@ jobs:
           fi
           git add data
           if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
-          git -c user.name="loud-pipeline" -c user.email="pipeline@users.noreply.github.com" commit -q -m "$msg"
+          # Vercel Hobby only deploys commits authored by the account owner, so the
+          # pipeline commits as the repo owner (override with repo variables if needed).
+          git -c user.name="${{ vars.COMMIT_NAME || github.repository_owner }}" -c user.email="${{ vars.COMMIT_EMAIL || 'swapnil.8723@gmail.com' }}" commit -q -m "$msg"
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
           exit 1
 
