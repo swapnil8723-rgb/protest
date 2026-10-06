@@ -13,7 +13,7 @@ const vibes = [
   ['Serious', 's-tense', `Any reported death, serious injury or hospitalisation, or ${RULES.massArrests}+ arrests or detentions — and protests that are about a death, suicide or sexual violence. The card turns grey and every joke is removed.`],
 ];
 const steps = [
-  ['Listen', 'Every 30 minutes we pull the GDELT 2.0 event feed (news articles its coders tag as protests, every 15 minutes, worldwide) plus RSS feeds from major Indian newsrooms.'],
+  ['Listen', 'Every hour we pull the GDELT 2.0 event feed (news articles its coders tag as protests, every 15 minutes, worldwide) plus RSS feeds from major Indian newsrooms.'],
   ['Read', 'We open each article once and read it. Its text is used only in memory to judge and summarise. We never store or republish it.'],
   ['Judge', 'An AI classifier checks each article: is this a real, physical protest (not a diplomatic "protest", an opinion piece or an election rally), where did it happen, and is it new or part of one we already track?'],
   ['Place', `The city is matched against the GeoNames gazetteer. Pins sit on the city centre, never on a street, venue or live route. If a place is ambiguous, we drop it rather than guess.`],
@@ -39,7 +39,7 @@ const steps = [
     </p>
 
     <section class="mt-14" aria-labelledby="pipeline">
-      <h2 id="pipeline" class="text-[32px] sm:text-[40px]">From headline to card, every 30 minutes</h2>
+      <h2 id="pipeline" class="text-[32px] sm:text-[40px]">From headline to card, every hour</h2>
       <ol class="mt-7 grid gap-4">
         {steps.map(([t, d], i) => (
           <li class="flex gap-4 rounded-[18px] border-2 border-hairline bg-surface p-5">

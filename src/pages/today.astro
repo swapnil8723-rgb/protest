@@ -13,7 +13,7 @@ const causes = allCauses.filter((c) => list.some((e) => e.causes.includes(c)));
 ---
 <Base
   title={`Protests today (${today}): live list of protests around the world`}
-  description={`${live.length} protests live right now across ${new Set(live.map((e) => e.place.country)).size} countries. Each one explained in three lines: why, what they want, and whether it is still on. Updated every 30 minutes.`}
+  description={`${live.length} protests live right now across ${new Set(live.map((e) => e.place.country)).size} countries. Each one explained in three lines: why, what they want, and whether it is still on. Updated every hour.`}
   path="/today"
   jsonLd={[itemList(list, 'Protests today'), breadcrumbs([['Home', '/'], ['Protests today', '/today']])]}
 >

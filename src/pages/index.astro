@@ -39,7 +39,7 @@ const causes = [...new Map(events.flatMap((e) => e.causes).map((c) => [c, 0])).k
       <div class="relative z-10">
         <p class="flex flex-wrap items-center gap-2">
           <span class="sticker s-heating-up live"><span class="dot" aria-hidden="true"></span>Live</span>
-          <span class="mono text-muted">updated <time data-rel datetime={lastRunAt}>recently</time> · checked every 30 min</span>
+          <span class="mono text-muted">updated <time data-rel datetime={lastRunAt}>recently</time> · checked every hour</span>
         </p>
         <h1 class="hero mt-5">
           Where the world is getting <span class="loud">LOUD</span> right now.

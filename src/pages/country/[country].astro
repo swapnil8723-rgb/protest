@@ -26,7 +26,7 @@ const title = `${c.name} protests today: live tracker & latest updates (${month}
 ---
 <Base
   title={title}
-  description={metaDesc(`${lede} Every protest in ${c.name} explained in three lines, with sources and whether it is still on. Updated every 30 minutes.`)}
+  description={metaDesc(`${lede} Every protest in ${c.name} explained in three lines, with sources and whether it is still on. Updated every hour.`)}
   path={`/country/${c.slug}`}
   jsonLd={[itemList(all, `Protests in ${c.name}`), breadcrumbs([['Home', '/'], [c.name, `/country/${c.slug}`]])]}
 >

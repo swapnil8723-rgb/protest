@@ -24,7 +24,7 @@ const lede = live.length
 ---
 <Base
   title={`${place.city} protest today: live updates & what's happening (${month})`}
-  description={metaDesc(`${lede} Each protest in ${place.city}, ${place.region || c.name} explained in three lines with sources. Updated every 30 minutes.`)}
+  description={metaDesc(`${lede} Each protest in ${place.city}, ${place.region || c.name} explained in three lines with sources. Updated every hour.`)}
   path={path}
   jsonLd={[itemList(list, `Protests in ${place.city}`), breadcrumbs([['Home', '/'], [c.name, countryUrl(c)], [place.city, path]])]}
 >
