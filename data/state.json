@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-06",
-  "count": 19
+  "count": 36
  },
  "runs": [
   {
@@ -207,8 +207,37 @@
     "classify: new candidate e8d4db29af8 \"Cornell students rally over alleged gang rape and sexual violence\" (Ithaca)",
     "classify: new candidate e263f739f64 \"Boston protesters rally against US foreign policy and ICE activity\" (Boston)"
    ]
+  },
+  {
+   "at": "2026-10-06T09:44:00.243Z",
+   "ms": 314440,
+   "discovered": 113,
+   "fetched": 111,
+   "classified": 98,
+   "protests": 58,
+   "summarized": 7,
+   "published": 17,
+   "live": 6,
+   "aiCalls": 17,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 22 files, 88 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 50 protest-word items",
+    "fetch: 111 ok, 2 failed",
+    "classify: new candidate e956a24a75e \"Traders protest Khyber Pakhtunkhwa government's focus on politics.\" (Peshawar)",
+    "classify: new candidate e8a670713ee \"JNU students' hunger strike against disciplinary action and campus issues.\" (Delhi)",
+    "classify: new candidate ee572737944 \"French high school students protest conditions, block schools nationwide.\" (Lens)",
+    "classify: new candidate ed80b47f9a9 \"Students protest RSS leader's presence at Central University of Kerala event.\" (Kasaragod)",
+    "classify: new candidate e23ea43eee1 \"Tens of thousands march in Barcelona for housing relief\" (Barcelona)",
+    "classify: new candidate e0dc15d2bc2 \"Edinburgh University staff strike over job cuts and program closures\" (Edinburgh)",
+    "classify: new candidate ed03c339bd0 \"Thousands protest outside Trump rally in Grand Island\" (Grand Island)",
+    "classify: new candidate e3a16cb1927 \"Tipra Motha Party supporters clash with police at counting centre\" (Khowai)",
+    "summary: ee2b3011454 judged not real: The sources describe a protest that is scheduled to occur on October 10, 2026, but has not yet taken place.",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 1 waiting"
+   ]
   }
  ],
- "gdeltCursor": "20261006041500",
- "lastRunAt": "2026-10-06T04:08:46.737Z"
+ "gdeltCursor": "20261006094500",
+ "lastRunAt": "2026-10-06T09:44:00.243Z"
 }
