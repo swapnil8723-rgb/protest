@@ -3,7 +3,7 @@
  "slug": "barcelona-housing-relief-protest-oct-2026",
  "stage": "live",
  "title": "Thousands march in Barcelona for housing relief, clashes with police reported",
- "seoTitle": "Barcelona housing relief protest",
+ "seoTitle": "Barcelona housing protest turns violent",
  "place": {
   "city": "Barcelona",
   "region": "Catalonia",
@@ -15,7 +15,9 @@
  },
  "scope": "local",
  "causes": [
-  "housing"
+  "housing",
+  "anti-government",
+  "governance"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-05",
@@ -30,73 +32,83 @@
  "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "Protesters are responding to Spain's housing crisis and the government's legislative defeat on emergency housing measures.",
-  "want": "Protesters demand government action and relief measures to address the housing crisis.",
-  "changed": "Oct 5: Clashes between protesters and police resulted in injuries and arrests after the demonstration."
+  "why": "Protesters demonstrated against Spain's housing crisis, which was highlighted by a legislative defeat for emergency housing measures and an eviction.",
+  "want": "Demands included housing relief, a 50% reduction in rent limits, an end to short-term leases, and a halt to evictions.",
+  "changed": "Oct 5: Clashes erupted in Barcelona between protesters and police after a demonstration for housing rights, leading to arrests and injuries."
  },
- "summary": "Tens of thousands of people marched in Barcelona on October 5, 2026, to protest Spain's housing crisis. The demonstration, organized by the Tenants' Union of Catalonia, began in Urquinaona Square. Protesters demanded housing relief measures after the government's emergency housing proposals were defeated in parliament. After the official protest ended, clashes occurred between demonstrators and police near the city's stock exchange. During the confrontations, some protesters threw objects and set bins on fire, while police retaliated. Police reported approximately 20,000 participants, while organizers claimed around 120,000 people attended. Nearly 30 officers were injured, and 13 individuals were arrested during the unrest.",
+ "summary": "Tens of thousands of people marched in Barcelona on October 5 to protest Spain's housing crisis, hours after Prime Minister Pedro Sánchez called an early election. The demonstration, organized by the Tenants' Union of Catalonia and major trade unions, called for housing relief, including a 50% reduction in rent limits, an end to short-term leases, and an immediate halt to evictions. While the main march concluded peacefully, groups of individuals clashed with police, throwing objects and setting fires. Police responded with baton charges and dispersal operations, leading to arrests and injuries among officers.",
  "organizers": [
-  "Tenants’ Union of Catalonia"
+  "Sindicat de Llogateres",
+  "major trade unions"
  ],
  "demands": [
   "Housing relief",
-  "Measures against the housing crisis",
-  "Reduction of evictions",
-  "Fight against real estate speculation"
+  "50% reduction in rent limits",
+  "End to short-term leases",
+  "Immediate halt to evictions",
+  "More protections for tenants"
  ],
- "response": "Police blocked demonstrators from advancing, leading to clashes where officers retaliated against thrown objects and fires. The government's emergency housing measures were defeated in parliament by right-wing parties.",
+ "response": "Police engaged in baton charges and dispersal operations, responding to objects thrown by protesters and street fires. The Mossos d'Esquadra police force confirmed 13 arrests and reported 28 officers sustained minor injuries.",
  "numbers": {
   "crowd": {
    "value": 20000,
    "text": "Around 120,000 people flooded the streets to demand measures against the housing crisis according to the organisers…",
    "sources": [
-    2
+    2,
+    3
    ]
   },
   "arrests": {
    "value": 13,
-   "text": "13 people including a minor were arrested in the clashes last night in the Catalan capital’s city centre.",
+   "text": "13 people including a minor were arrested in the clashes last night",
    "sources": [
-    2
+    2,
+    3
    ]
   },
   "injuries": {
-   "value": 30,
+   "value": 28,
    "text": "Nearly 30 officers were injured",
    "sources": [
-    2
+    2,
+    3
    ]
   }
  },
  "updates": [
   {
    "at": "2026-10-05",
-   "text": "Tens of thousands marched in Barcelona to demand housing relief after the government's emergency housing measures were defeated in parliament.",
+   "text": "Tens of thousands of people marched in Barcelona to demand housing relief after the government's emergency housing measures were defeated in parliament.",
    "sources": [
     1,
-    2
+    2,
+    3,
+    4
    ]
   },
   {
    "at": "2026-10-05",
-   "text": "Clashes erupted between protesters and police after the official demonstration ended, with objects thrown and bins set on fire.",
+   "text": "After the official demonstration concluded, groups of protesters clashed with police, throwing objects and setting fire to bins.",
    "sources": [
     1,
-    2
+    2,
+    3,
+    4
    ]
   },
   {
    "at": "2026-10-05",
-   "text": "Police reported 20,000 participants, while organizers claimed 120,000 attended the protest.",
+   "text": "Police conducted baton charges and dispersal operations, with clashes continuing until midnight.",
    "sources": [
-    2
+    3
    ]
   },
   {
-   "at": "2026-10-05",
-   "text": "Nearly 30 officers were injured and 13 people, including a minor, were arrested during the clashes.",
+   "at": "2026-10-06",
+   "text": "Authorities reported 13 arrests, including a minor, and 28 police officers sustained minor injuries during the unrest.",
    "sources": [
-    2
+    2,
+    3
    ]
   }
  ],
@@ -114,27 +126,41 @@
    "publisher": "dailymail.com",
    "title": "Protesters battle Spanish police as demonstrations over the country's housing crisis escalate into violence hours after socialist PM announced snap election",
    "publishedAt": "2026-10-06T07:46:48.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.surinenglish.com/spain/violence-erupts-central-barcelona-following-major-housing-20261006124713-nt.html",
+   "publisher": "surinenglish.com",
+   "title": "Violence erupts in central Barcelona following major housing demonstration | Sur in English",
+   "publishedAt": "2026-10-06T10:47:13.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.dw.com/en/spain-approves-new-emergency-housing-measures/a-79564344",
+   "publisher": "dw.com",
+   "title": "Spain's Pedro Sanchez pushes emergency housing plan",
+   "publishedAt": "2026-10-06T13:06:15.145Z"
   }
  ],
  "conflicts": [
-  "Police said 20,000 attended; organisers claimed 120,000."
+  "Police estimated 20,000 attendees; organisers claimed 120,000 attendees."
  ],
- "confidence": 0.55,
- "publishers": 2,
- "reports24h": 2,
+ "confidence": 0.76,
+ "publishers": 4,
+ "reports24h": 4,
  "reportsPrev24h": 0,
- "reports48h": 2,
+ "reports48h": 4,
  "firstSeenAt": "2026-10-06T09:45:11.335Z",
- "lastReportAt": "2026-10-06T07:46:48.000Z",
- "lastCheckedAt": "2026-10-06T11:38:45.883Z",
- "updatedAt": "2026-10-06T09:49:13.702Z",
+ "lastReportAt": "2026-10-06T13:06:15.145Z",
+ "lastCheckedAt": "2026-10-06T14:49:28.836Z",
+ "updatedAt": "2026-10-06T14:49:08.420Z",
  "endedOn": "2026-10-05",
  "responseSources": [
-  1,
-  2
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-06T09:49:13.702Z",
- "summaryOf": "23c5ff60f71a"
+ "summarizedAt": "2026-10-06T14:49:08.420Z",
+ "summaryOf": "66b9c1386cfd"
 }

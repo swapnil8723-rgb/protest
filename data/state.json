@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-06",
-  "count": 134
+  "count": 150
  },
  "runs": [
   {
@@ -373,8 +373,39 @@
     "translate: 17 events"
    ],
    "translated": 17
+  },
+  {
+   "at": "2026-10-06T14:44:57.671Z",
+   "ms": 588510,
+   "discovered": 53,
+   "fetched": 52,
+   "classified": 42,
+   "protests": 27,
+   "summarized": 6,
+   "published": 17,
+   "live": 6,
+   "aiCalls": 16,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261006140000 http://data.gdeltproject.org/gdeltv2/20261006140000.export.CSV.zip → 404",
+    "gdelt: 20261006141500 http://data.gdeltproject.org/gdeltv2/20261006141500.export.CSV.zip → 404",
+    "gdelt: 20261006143000 http://data.gdeltproject.org/gdeltv2/20261006143000.export.CSV.zip → 404",
+    "gdelt: 20261006144500 http://data.gdeltproject.org/gdeltv2/20261006144500.export.CSV.zip → 404",
+    "gdelt: 12 files, 39 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 45 protest-word items",
+    "fetch: 52 ok, 1 failed",
+    "classify: new candidate eb27616a809 \"MJK cadres protest bad road conditions in Tirunelveli.\" (Tirunelveli)",
+    "classify: new candidate e5779cdb657 \"Jharkhand Congress workers clash with police over CEC resignation.\" (Ranchi)",
+    "classify: new candidate e2e5f7b63ff \"Residents protest quarry dust and noise pollution\" (Naivasha)",
+    "classify: new candidate e694f36a575 \"Families protest over labourers' deaths, demand compensation\" (Ariyalur)",
+    "summary: e8a87129019 judged not real: The sources report a scheduled protest, not a physical action that has already occurred.",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261006114500",
- "lastRunAt": "2026-10-06T11:37:43.318Z"
+ "gdeltCursor": "20261006144500",
+ "lastRunAt": "2026-10-06T14:44:57.671Z"
 }
