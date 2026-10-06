@@ -36,7 +36,7 @@ export function englishCard(e: ProtestEvent) {
 }
 
 /** Bump when the translation prompt changes, so every card is translated again. */
-const PROMPT_VERSION = 2;
+const PROMPT_VERSION = 3;
 export const englishHash = (e: ProtestEvent) => sha(JSON.stringify([PROMPT_VERSION, englishCard(e)]), 16);
 
 const MAX_TRIES = 3;
@@ -48,17 +48,21 @@ export const needsTranslation = (e: ProtestEvent) =>
 /** Site languages this event has no translation for yet. */
 const absent = (e: ProtestEvent) => TRANSLATE_TO.filter((l) => !e.i18n?.[l.code]);
 
+const filled = (x: unknown) => String(x ?? '').trim().length >= 2;
+
 /** Why one language's answer cannot be used, or '' if it lines up with the English. */
 export function mismatch(e: ProtestEvent, t: TranslatedCard[string] | undefined): string {
   if (!t || typeof t !== 'object') return 'missing';
   const src = englishCard(e);
   for (const k of ['demands', 'updates', 'conflicts'] as const) {
-    const items = Array.isArray(t[k]) ? t[k].filter((x) => clip(x, 10)) : null; // stray empty items are not items
+    const items = Array.isArray(t[k]) ? t[k].filter(filled) : null; // stray empty items are not items
     if (!items || items.length !== src[k].length) return `${k} ${items?.length ?? '?'}/${src[k].length}`;
   }
-  if (clip(t.title, 140).length < 4) return 'title';
-  if (src.summary && clip(t.summary, 10).length < 4) return `summary empty (keys: ${Object.keys(t).join(' ')})`;
-  if (src.why && !clip(t.why, 10)) return 'why';
+  if (!filled(t.title)) return 'title';
+  // Plain length checks: never clip-then-measure (a summary starting "2 अक्टूबर…" or "À Bengaluru…"
+  // clips to almost nothing at a word boundary).
+  if (src.summary && String(t.summary ?? '').trim().length < Math.min(40, src.summary.length / 4)) return 'summary empty';
+  if (src.why && !filled(t.why)) return 'why';
   return '';
 }
 
@@ -67,7 +71,7 @@ export function toEventText(e: ProtestEvent, t: TranslatedCard[string] | undefin
   if (mismatch(e, t)) return null;
   t = t!;
   const src = englishCard(e);
-  const arr = (a: string[]) => a.filter((x) => clip(x, 10)).map((x) => clip(x, 400));
+  const arr = (a: string[]) => a.filter(filled).map((x) => clip(x, 400));
   const demands = arr(t.demands);
   const updates = arr(t.updates);
   const conflicts = arr(t.conflicts);

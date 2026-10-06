@@ -39,6 +39,10 @@ test('translation: lines up with the English or is dropped', () => {
   assert.equal(toEventText(e, card({ demands: ['MSP'] })), null); // one demand missing
   assert.equal(toEventText(e, card({ updates: [] })), null);
   assert.equal(toEventText(e, card({ title: '' })), null);
+  // regression: summaries that start with a short word plus a date are real summaries
+  assert.ok(toEventText({ ...e, summary: 'On October 2, farmers marched in Pune for better prices.' }, card({ summary: '2 अक्टूबर को पुणे में किसानों ने बेहतर दामों के लिए मार्च किया।' })));
+  assert.ok(toEventText({ ...e, summary: 'In Bengaluru, the chief minister staged a sit-in.' }, card({ summary: 'À Bengaluru, le ministre en chef a organisé un sit-in.' })));
+  assert.equal(toEventText({ ...e, summary: 'On October 2, farmers marched in Pune for better prices.' }, card({ summary: '' })), null);
   assert.equal(toEventText(e, card())!.numbers.crowd, 'सैकड़ों किसान');
   assert.equal(toEventText(e, card())!.numbers.arrests, undefined); // no English figure → none invented
 });
