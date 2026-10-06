@@ -52,6 +52,15 @@ export const LIMITS = {
   summarySources: 10,
 };
 
+/** Languages the site is published in besides English (src/i18n has the interface text). */
+export const TRANSLATE_TO = [
+  { code: 'hi', name: 'Hindi', note: 'Devanagari script, neutral standard Hindi as in Hindi newspapers' },
+  { code: 'mr', name: 'Marathi', note: 'Devanagari script, standard Marathi as in Marathi newspapers' },
+  { code: 'es', name: 'Spanish', note: 'neutral international Spanish' },
+  { code: 'fr', name: 'French', note: 'standard French with French typography (space before : ; ? !)' },
+  { code: 'de', name: 'German', note: 'standard German' },
+] as const;
+
 /** Rules the score/publish steps apply. Mirrors /how-we-know — change both together. */
 export const RULES = {
   minPublishers: 2, // independent publishers before an event can be shown
@@ -64,4 +73,5 @@ export const RULES = {
   readerDelayMinutes: 60, // a reader report waits at least this long before its check
   readerPerRun: 25, // reader reports checked per run (one AI call each)
   readerHideAfterDays: 7, // unconfirmed reader reports leave the site this long after they wrap up
+  translatePerRun: Number(process.env.TRANSLATE_PER_RUN || 30), // events translated per run (one AI call each)
 };

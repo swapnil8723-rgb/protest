@@ -1,13 +1,21 @@
 ---
 import Vibe from './Vibe.astro';
 import Meter from './Meter.astro';
-import { countryOf, eventUrl, isUnverified, loudness, type ProtestEvent } from '../lib/data';
+import { cname, countryOf, eventUrl, isUnverified, loudness, type ProtestEvent } from '../lib/data';
 import { fmtDay, isSerious, pct, tilt } from '../lib/format';
+import { langOf, useT } from '../i18n';
+import { loc } from '../i18n/event';
 interface Props { e: ProtestEvent; tiltCard?: boolean; headingLevel?: 'h2' | 'h3' }
-const { e, tiltCard = true, headingLevel = 'h3' } = Astro.props;
+const { e: raw, tiltCard = true, headingLevel = 'h3' } = Astro.props;
+const lang = langOf(Astro.url);
+const t = useT(lang);
+const e = loc(raw, lang);
 const serious = isSerious(e);
 const reader = isUnverified(e);
 const H = headingLevel;
+// An untranslated card on a translated page is marked with its language, for screen readers and fonts.
+const textLang = lang !== 'en' && e === raw ? 'en' : undefined;
+const c = (s: string) => t(`cause.${s}` as 'cause.water'); // the .cause sticker adds the #
 ---
 <article
   class:list={['card lift flex h-full flex-col p-5', reader ? 'reader v-reader' : `v-${e.vibe}`, { serious, tilt: tiltCard && !serious }]}
@@ -15,29 +23,29 @@ const H = headingLevel;
 >
   <div class="flex items-center justify-between gap-3">
     <Vibe e={e} />
-    {reader ? <span class="mono text-muted">{e.isOngoing ? 'says: still on' : e.status === 'scheduled' ? 'says: coming up' : 'ended'}</span> : <Meter level={loudness(e)} />}
+    {reader ? <span class="mono text-muted">{e.isOngoing ? t('card.readerOn') : e.status === 'scheduled' ? t('card.readerSoon') : t('card.readerEnded')}</span> : <Meter level={loudness(e)} />}
   </div>
-  <H class="mt-4 text-[22px] leading-[1.05]">
-    <a href={eventUrl(e)} class="no-underline after:absolute after:inset-0 after:content-['']">{e.title}</a>
+  <H class="mt-4 text-[22px] leading-[1.05]" lang={textLang}>
+    <a href={eventUrl(raw, lang)} class="no-underline after:absolute after:inset-0 after:content-['']">{e.title}</a>
   </H>
   <p class="muted mt-2 text-[14px] font-semibold text-muted">
-    {e.place.city}, {countryOf(e).name} · {e.kind === 'multi-day' ? `since ${fmtDay(e.startedOn, false)}` : fmtDay(e.startedOn, false)}
+    {e.place.city}, {cname(countryOf(e), lang)} · {e.kind === 'multi-day' ? t('card.since', { date: fmtDay(e.startedOn, false, lang) }) : fmtDay(e.startedOn, false, lang)}
   </p>
-  <p class="mt-3 line-clamp-3 text-[15px] leading-snug">{e.tea.why}</p>
+  <p class="mt-3 line-clamp-3 text-[15px] leading-snug" lang={textLang}>{e.tea.why}</p>
   <div class="mt-auto pt-4">
     {e.causes.length > 0 && (
-      <ul class="mb-3 flex flex-wrap gap-1.5" aria-label="Causes">
-        {e.causes.slice(0, 3).map((c) => <li class="cause">{c}</li>)}
+      <ul class="mb-3 flex flex-wrap gap-1.5" aria-label={t('card.causes')}>
+        {e.causes.slice(0, 3).map((x) => <li class="cause">{c(x)}</li>)}
       </ul>
     )}
     {reader ? (
       <p class="mono muted text-muted">
-        Not verified yet · sent <time data-rel datetime={e.lastReportAt}>{fmtDay(e.lastReportAt.slice(0, 10), false)}</time>
+        {t('card.reader')} <time data-rel datetime={e.lastReportAt}>{fmtDay(e.lastReportAt.slice(0, 10), false, lang)}</time>
       </p>
     ) : (
       <p class="mono muted text-muted">
-        {e.publishers} sources · {pct(e.confidence)} sure · <time data-rel datetime={e.lastReportAt}>{fmtDay(e.lastReportAt.slice(0, 10), false)}</time>
-        {e.origin === 'reader' && <span> · first flagged by a reader</span>}
+        {t('card.meta', { n: e.publishers, pct: pct(e.confidence) })} · <time data-rel datetime={e.lastReportAt}>{fmtDay(e.lastReportAt.slice(0, 10), false, lang)}</time>
+        {e.origin === 'reader' && <span> · {t('card.firstFlagged')}</span>}
       </p>
     )}
   </div>

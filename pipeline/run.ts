@@ -5,7 +5,7 @@
 import { SITE } from '../src/site.ts';
 import { makeAi, OverBudget } from './ai.ts';
 import { fetchPage, type Page } from './article.ts';
-import { byIso, LIMITS } from './config.ts';
+import { byIso, LIMITS, TRANSLATE_TO } from './config.ts';
 import { classify } from './classify.ts';
 import { discoverDays, discoverRecent, type GdeltHit } from './gdelt.ts';
 import { discoverRss, type RssItem } from './rss.ts';
@@ -14,7 +14,8 @@ import { loadArticles, loadEvents, loadState, saveArticles, saveEvents, saveStat
 import { reserveSlugs, summarize, visible } from './summarize.ts';
 import { fileInbox, httpInbox, processReaderReports, scoreReaders } from './reader.ts';
 import { pollDecisions, reviewerConfigured, sendReviews } from './telegram.ts';
-import type { RunLog } from './types.ts';
+import { translate } from './translate.ts';
+import type { ProtestEvent, RunLog } from './types.ts';
 import { hostOf, nowIso, pool, PROTEST_WORDS } from './util.ts';
 
 // undici can throw an internal assertion from a socket callback when a server ends a
@@ -51,7 +52,8 @@ const articles = loadArticles();
 const events = loadEvents();
 reserveSlugs(events.values());
 const ai = makeAi(state);
-const before = new Map([...events.values()].map((e) => [e.id, JSON.stringify([visible(e), e.published, e.vibe, e.isOngoing])]));
+const snap = (e: ProtestEvent) => JSON.stringify([visible(e), e.published, e.vibe, e.isOngoing, e.i18n?.of]);
+const before = new Map([...events.values()].map((e) => [e.id, snap(e)]));
 const run: RunLog = { at: nowIso(), ms: 0, discovered: 0, fetched: 0, classified: 0, protests: 0, summarized: 0, published: 0, live: 0, aiCalls: 0, notes };
 log(`run: AI provider ${ai.name}, reviewer ${reviewerConfigured() ? 'telegram' : 'none (strict auto-publish)'}`);
 
@@ -169,6 +171,12 @@ try {
   // 7. Score, review, save — always, so partial progress is kept.
   score(events, articles, { reviewer: reviewerConfigured() });
   scoreReaders(events);
+  // 8. Translate cards whose English changed (after scoring, so first-time publishes get it now).
+  try {
+    run.translated = (await translate(ai, events, log)).length;
+  } catch (e) {
+    log(`translate: stopped: ${(e as Error).message}`);
+  }
   try {
     await sendReviews(events, SITE, log);
   } catch (e) {
@@ -176,13 +184,14 @@ try {
   }
   const changed: string[] = [];
   for (const e of events.values()) {
-    const now = JSON.stringify([visible(e), e.published, e.vibe, e.isOngoing]);
-    if (before.get(e.id) === now) continue;
+    if (before.get(e.id) === snap(e)) continue;
     // Unconfirmed reader reports are noindex: list pages change, their own page is not pinged.
     if (e.published && e.slug && e.origin === 'reader' && e.stage !== 'live') changed.push('/today');
     else if (e.published && e.slug) {
       const cc = byIso.get(e.place.country)!;
-      changed.push(`/p/${e.slug}`, `/country/${cc.slug}`, `/${cc.iso}/${e.place.regionSlug}/${e.place.citySlug}`);
+      const paths = [`/p/${e.slug}`, `/country/${cc.slug}`, `/city/${cc.iso}/${e.place.regionSlug}/${e.place.citySlug}`];
+      changed.push(...paths);
+      for (const l of TRANSLATE_TO) if (e.i18n?.[l.code]) changed.push(...paths.map((p) => `/${l.code}${p}`));
     }
   }
   if (changed.length) changed.push('/', '/today');

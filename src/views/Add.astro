@@ -1,0 +1,193 @@
+---
+import Base from '../layouts/Base.astro';
+import { COUNTRIES } from '../../pipeline/config.ts';
+import { cname } from '../lib/data';
+import { breadcrumbs } from '../lib/seo';
+import { CONTACT } from '../site';
+import { href, langOf, useT } from '../i18n';
+
+const lang = langOf(Astro.url);
+const t = useT(lang);
+const today = new Date().toISOString().slice(0, 10);
+const min = new Date(Date.now() - 30 * 864e5).toISOString().slice(0, 10);
+const max = new Date(Date.now() + 14 * 864e5).toISOString().slice(0, 10);
+// Pre-select the country a visitor of this language most likely means.
+const homeCountry = ({ hi: 'in', mr: 'in', es: 'es', fr: 'fr', de: 'de', en: 'in' } as const)[lang];
+const sticker = `<span class="sticker s-reader align-middle"><span class="dot" aria-hidden="true"></span>${t('vibe.reader')}</span>`;
+const errors = Object.fromEntries(
+  ['title', 'city', 'why', 'link', 'date', 'agree', 'form', 'generic', 'offline', 'fast', 'country', 'limit', 'busy', 'long'].map((k) => [k, t(`add.err.${k}` as 'add.err.form')]),
+);
+const mail = `<a class="underline" href="mailto:${CONTACT}">${CONTACT}</a>`;
+---
+<Base
+  title={t('add.title')}
+  description={t('add.description')}
+  path="/add"
+  jsonLd={[breadcrumbs([[t('crumb.home'), href(lang, '/')], [t('add.crumb'), href(lang, '/add')]])]}
+>
+  <div class="wrap max-w-3xl pt-10">
+    <p class="eyebrow">{t('add.eyebrow')}</p>
+    <h1 class="mt-3 text-[44px] sm:text-[68px]">{t('add.h1')}</h1>
+    <p class="mt-4 text-[18px] leading-relaxed text-muted" set:html={t('add.lede', { sticker })} />
+
+    <ul class="mt-6 grid gap-2 rounded-[18px] border-2 border-hairline bg-surface p-5 text-[15px]">
+      {(['add.rule1', 'add.rule2', 'add.rule3', 'add.rule4'] as const).map((k) => (
+        <li class="flex gap-2"><span aria-hidden="true">✓</span><span set:html={t(k)} /></li>
+      ))}
+    </ul>
+
+    <form id="add-form" class="card mt-8 grid gap-5 p-5 sm:p-7" style="--vibe: var(--reader)" novalidate data-errors={JSON.stringify(errors)} data-sending={t('add.sending')} data-send={t('add.send')}>
+      <p class="text-[14px] text-muted">{t('add.lang')}</p>
+      <label class="field">
+        <span class="lbl">{t('add.what')} <em>*</em></span>
+        <input name="title" required minlength="8" maxlength="120" placeholder={t('add.whatPh')} />
+      </label>
+
+      <div class="grid gap-5 sm:grid-cols-3">
+        <label class="field">
+          <span class="lbl">{t('add.city')} <em>*</em></span>
+          <input name="city" required maxlength="80" autocomplete="address-level2" placeholder={t('add.cityPh')} />
+        </label>
+        <label class="field">
+          <span class="lbl">{t('add.region')}</span>
+          <input name="region" maxlength="80" autocomplete="address-level1" placeholder={t('add.regionPh')} />
+        </label>
+        <label class="field">
+          <span class="lbl">{t('add.country')} <em>*</em></span>
+          <select name="country" required>
+            {COUNTRIES.map((c) => <option value={c.iso} selected={c.iso === homeCountry}>{cname(c, lang)}</option>)}
+          </select>
+        </label>
+      </div>
+
+      <div class="grid gap-5 sm:grid-cols-[200px_1fr]">
+        <label class="field">
+          <span class="lbl">{t('add.started')} <em>*</em></span>
+          <input type="date" name="startedOn" required value={today} min={min} max={max} />
+        </label>
+        <fieldset class="field">
+          <legend class="lbl">{t('add.stillOn')} <em>*</em></legend>
+          <div class="mt-1 flex flex-wrap gap-2">
+            <label class="pill"><input type="radio" name="stillOn" value="yes" checked /> <span>{t('add.yes')}</span></label>
+            <label class="pill"><input type="radio" name="stillOn" value="soon" /> <span>{t('add.soon')}</span></label>
+            <label class="pill"><input type="radio" name="stillOn" value="no" /> <span>{t('add.ended')}</span></label>
+          </div>
+        </fieldset>
+      </div>
+
+      <label class="field">
+        <span class="lbl">{t('add.why')} <em>*</em></span>
+        <textarea name="why" required minlength="20" maxlength="600" rows="3" placeholder={t('add.whyPh')}></textarea>
+      </label>
+      <label class="field">
+        <span class="lbl">{t('add.want')}</span>
+        <textarea name="want" maxlength="600" rows="2" placeholder={t('add.wantPh')}></textarea>
+      </label>
+      <div class="grid gap-5 sm:grid-cols-2">
+        <label class="field">
+          <span class="lbl">{t('add.org')}</span>
+          <input name="organisers" maxlength="160" placeholder={t('add.orgPh')} />
+        </label>
+        <label class="field">
+          <span class="lbl">{t('add.link')}</span>
+          <input type="url" name="link" maxlength="500" inputmode="url" placeholder="https://" />
+        </label>
+      </div>
+
+      <!-- Bots fill every field; people never see this one. -->
+      <label class="hp" aria-hidden="true">Website <input name="website" tabindex="-1" autocomplete="off" /></label>
+
+      <label class="flex items-start gap-3 text-[15px]">
+        <input type="checkbox" name="agree" required class="mt-1 h-5 w-5 shrink-0 accent-[#ff8a00]" />
+        <span>{t('add.agree')}</span>
+      </label>
+
+      <p id="add-error" class="rounded-xl border-2 border-pink bg-surface-2 p-3 font-semibold" role="alert" hidden></p>
+      <button type="submit" class="btn btn-candy justify-self-start" style="box-shadow: 4px 4px 0 var(--black)">{t('add.send')}</button>
+    </form>
+
+    <div id="add-done" class="card mt-8 p-6 sm:p-8" style="--vibe: var(--lime)" hidden tabindex="-1">
+      <p class="display text-[34px] leading-tight">{t('add.doneTitle')}</p>
+      <p class="mt-3 text-[17px]" set:html={t('add.doneText')} />
+      <div class="mt-5 flex flex-wrap gap-3">
+        <a href={href(lang, '/today')} class="btn btn-primary">{t('home.seeToday')}</a>
+        <button type="button" id="add-another" class="btn btn-ghost">{t('add.another')}</button>
+      </div>
+    </div>
+
+    <p class="mt-8 text-[14px] text-muted" set:html={t('add.footnote', { n: COUNTRIES.length, email: mail })} />
+  </div>
+</Base>
+
+<style>
+  .field { display: grid; gap: 6px; min-width: 0; }
+  .lbl { font-weight: 700; font-size: 15px; }
+  .lbl em { color: var(--reader); font-style: normal; }
+  .field input:not([type='radio']), .field select, .field textarea {
+    width: 100%; min-height: 48px; padding: 10px 12px; border-radius: 12px; font-size: 16px;
+    background: var(--bg); color: var(--ink); border: 2px solid var(--hairline);
+  }
+  .field textarea { resize: vertical; line-height: 1.45; }
+  .field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--reader); }
+  .field input::placeholder, .field textarea::placeholder { color: var(--muted); opacity: 0.8; }
+  fieldset.field { border: 0; padding: 0; margin: 0; }
+  .pill { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 14px; border-radius: 999px; border: 2px solid var(--hairline); font-weight: 600; cursor: pointer; }
+  .pill:has(input:checked) { background: var(--reader); color: var(--black); border-color: var(--black); }
+  .pill input { accent-color: var(--black); }
+  .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+</style>
+
+<script>
+  const form = document.getElementById('add-form') as HTMLFormElement;
+  const err = document.getElementById('add-error')!;
+  const done = document.getElementById('add-done')!;
+  const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+  const msg: Record<string, string> = JSON.parse(form.dataset.errors || '{}');
+  let started = Date.now();
+
+  const fail = (text: string) => {
+    err.textContent = text;
+    err.hidden = false;
+    err.scrollIntoView({ block: 'center', behavior: 'smooth' });
+  };
+
+  form.addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    err.hidden = true;
+    if (!form.checkValidity()) {
+      const bad = form.querySelector<HTMLElement>(':invalid');
+      const name = bad?.getAttribute('name') ?? '';
+      bad?.focus();
+      return fail(msg[name === 'startedOn' ? 'date' : name] ?? msg.form);
+    }
+    const data = Object.fromEntries(new FormData(form).entries()) as Record<string, string>;
+    btn.disabled = true;
+    btn.textContent = form.dataset.sending ?? '…';
+    try {
+      const res = await fetch('/api/report', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ ...data, ms: Date.now() - started, lang: document.documentElement.lang }),
+      });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) return fail(msg[body.code] ?? body.error ?? msg.generic);
+      form.hidden = true;
+      done.hidden = false;
+      done.focus();
+      done.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    } catch {
+      fail(msg.offline);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = form.dataset.send ?? 'Send';
+    }
+  });
+
+  document.getElementById('add-another')!.addEventListener('click', () => {
+    form.reset();
+    started = Date.now();
+    done.hidden = true;
+    form.hidden = false;
+    form.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  });
+</script>

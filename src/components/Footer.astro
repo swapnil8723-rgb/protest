@@ -1,34 +1,43 @@
 ---
 import Logo from './Logo.astro';
-import { COUNTRIES, countryUrl, lastRunAt } from '../lib/data';
-import { BRAND, CONTACT, TAGLINE } from '../site';
+import { cname, COUNTRIES, countryUrl, lastRunAt } from '../lib/data';
+import { BRAND, CONTACT } from '../site';
+import { href, LANG_INFO, LANGS, langOf, useT, type Lang } from '../i18n';
+interface Props { path: string; langs: readonly Lang[] }
+const { path, langs } = Astro.props;
+const lang = langOf(Astro.url);
+const t = useT(lang);
 ---
 <footer class="mt-24 border-t border-hairline">
   <div class="wrap grid gap-10 py-12 md:grid-cols-[1.3fr_1fr_1fr]">
     <div>
-      <a href="/" class="inline-flex items-center gap-2 no-underline"><Logo size={30} /><span class="display text-2xl">{BRAND}</span></a>
-      <p class="mt-3 max-w-sm text-muted">{TAGLINE} A neutral protest tracker: every card cites at least two independent newsrooms.</p>
-      <p class="mono mt-4 text-muted">Pipeline last ran <time data-rel datetime={lastRunAt}>{lastRunAt.slice(0, 16).replace('T', ' ')} UTC</time></p>
+      <a href={href(lang, '/')} class="inline-flex items-center gap-2 no-underline"><Logo size={30} /><span class="display text-2xl">{BRAND}</span></a>
+      <p class="mt-3 max-w-sm text-muted">{t('tagline')} {t('footer.about')}</p>
+      <p class="mono mt-4 text-muted">{t('footer.lastRun')} <time data-rel datetime={lastRunAt}>{lastRunAt.slice(0, 16).replace('T', ' ')} UTC</time></p>
+      <p class="eyebrow mb-2 mt-6">{t('footer.languages')}</p>
+      <ul class="flex flex-wrap gap-x-3 gap-y-1 text-[15px]">
+        {LANGS.map((l) => <li><a href={href(l, langs.includes(l) ? path : '/')} hreflang={l} lang={l} class:list={['no-underline hover:underline', { 'font-bold': l === lang }]}>{LANG_INFO[l].native}</a></li>)}
+      </ul>
     </div>
-    <nav aria-label="Countries">
-      <p class="eyebrow mb-3">Protests by country</p>
+    <nav aria-label={t('footer.byCountry')}>
+      <p class="eyebrow mb-3">{t('footer.byCountry')}</p>
       <ul class="grid grid-cols-2 gap-x-4 gap-y-1.5 text-[15px]">
-        {COUNTRIES.map((c) => <li><a href={countryUrl(c)} class="no-underline hover:underline">{c.name}</a></li>)}
+        {COUNTRIES.map((c) => <li><a href={countryUrl(c, lang)} class="no-underline hover:underline">{cname(c, lang)}</a></li>)}
       </ul>
     </nav>
-    <nav aria-label="About">
-      <p class="eyebrow mb-3">The receipts</p>
+    <nav aria-label={t('footer.receipts')}>
+      <p class="eyebrow mb-3">{t('footer.receipts')}</p>
       <ul class="grid gap-1.5 text-[15px]">
-        <li><a href="/today" class="no-underline hover:underline">Protests today</a></li>
-        <li><a href="/add" class="no-underline hover:underline">Add a protest</a></li>
-        <li><a href="/how-we-know" class="no-underline hover:underline">How we know (methods &amp; corrections)</a></li>
-        <li><a href="/feed.xml" class="no-underline hover:underline">RSS feed</a></li>
-        <li><a href={`mailto:${CONTACT}`} class="no-underline hover:underline">Corrections: {CONTACT}</a></li>
+        <li><a href={href(lang, '/today')} class="no-underline hover:underline">{t('footer.today')}</a></li>
+        <li><a href={href(lang, '/add')} class="no-underline hover:underline">{t('footer.add')}</a></li>
+        <li><a href={href(lang, '/how-we-know')} class="no-underline hover:underline">{t('footer.how')}</a></li>
+        <li><a href="/feed.xml" class="no-underline hover:underline">{t('footer.rss')}</a></li>
+        <li><a href={`mailto:${CONTACT}`} class="no-underline hover:underline">{t('footer.corrections')} {CONTACT}</a></li>
       </ul>
     </nav>
   </div>
   <div class="wrap flex flex-wrap items-center justify-between gap-2 border-t border-hairline py-5 text-[13px] text-muted">
-    <span>Made loud, checked twice. Summaries are original; we link to the reporting.</span>
-    <span>Map: Natural Earth (India's official boundaries) · Places: GeoNames (CC BY 4.0)</span>
+    <span>{t('footer.made')}</span>
+    <span>{t('footer.credits')}</span>
   </div>
 </footer>

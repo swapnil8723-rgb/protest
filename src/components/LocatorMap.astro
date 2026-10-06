@@ -2,8 +2,12 @@
 // Static country map (shared /maps/<iso>.svg) with city-centre pins on top. Zero JS.
 import { pinFor, MAP_W, MAP_H } from '../lib/geo';
 import { eventUrl, type ProtestEvent } from '../lib/data';
+import { langOf, useT } from '../i18n';
+import { loc } from '../i18n/event';
 interface Props { iso: string; events: ProtestEvent[]; label: string; links?: boolean }
 const { iso, events, label, links = false } = Astro.props;
+const lang = langOf(Astro.url);
+const t = useT(lang);
 const pins = events
   .map((e) => ({ e, p: pinFor(iso, e.place.lng, e.place.lat) }))
   .filter((x): x is { e: ProtestEvent; p: { x: number; y: number } } => !!x.p);
@@ -14,13 +18,14 @@ const pins = events
   </svg>
   {pins.map(({ e, p }) => {
     const cls = ['pin-dot', e.severity === 'serious' ? 'serious' : e.isOngoing ? 'live' : 'past'];
+    const title = loc(e, lang).title;
     return links ? (
-      <a href={eventUrl(e)} class="pin" style={`left:${p.x}%;top:${p.y}%`} aria-label={e.title} title={e.title}><span class:list={cls}></span></a>
+      <a href={eventUrl(e, lang)} class="pin" style={`left:${p.x}%;top:${p.y}%`} aria-label={title} title={title}><span class:list={cls}></span></a>
     ) : (
       <span class="pin" style={`left:${p.x}%;top:${p.y}%`} aria-hidden="true"><span class:list={cls}></span></span>
     );
   })}
-  <figcaption class="mono absolute bottom-2 left-3 text-muted">Pins sit on city centres, never on gathering points</figcaption>
+  <figcaption class="mono absolute bottom-2 left-3 text-muted">{t('map.caption')}</figcaption>
 </figure>
 <style>
   .locator { --map-nb: var(--surface); --map-line: var(--hairline); --map-me: var(--land); --map-me-line: var(--ink); }

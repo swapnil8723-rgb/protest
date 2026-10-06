@@ -1,0 +1,95 @@
+---
+import Base from '../layouts/Base.astro';
+import { COUNTRIES } from '../../pipeline/config.ts';
+import { CONTACT } from '../site';
+import { breadcrumbs, org } from '../lib/seo';
+import { cname, events, lastRunAt } from '../lib/data';
+import { href, langOf, useT } from '../i18n';
+import { howContent } from '../i18n/how';
+
+const lang = langOf(Astro.url);
+const t = useT(lang);
+const h = howContent(lang);
+const intro = h.intro.replace('{n}', String(events.length)).replace('{countries}', COUNTRIES.map((c) => cname(c, lang)).join(', '));
+const mail = `<a class="prose-link" href="mailto:${CONTACT}?subject=Correction">${CONTACT}</a>`;
+---
+<Base
+  title={h.title}
+  description={h.description}
+  path="/how-we-know"
+  jsonLd={[{ '@context': 'https://schema.org', ...org }, breadcrumbs([[t('crumb.home'), href(lang, '/')], [h.h1, href(lang, '/how-we-know')]])]}
+>
+  <article class="wrap max-w-4xl pt-10">
+    <p class="eyebrow">{h.eyebrow}</p>
+    <h1 class="mt-3 text-[44px] sm:text-[72px]">{h.h1}</h1>
+    <p class="mt-5 text-[19px] leading-relaxed sm:text-[21px]" set:html={intro} />
+
+    <section class="mt-14" aria-labelledby="pipeline">
+      <h2 id="pipeline" class="text-[32px] sm:text-[40px]">{h.pipelineH}</h2>
+      <ol class="mt-7 grid gap-4">
+        {h.steps.map(([name, d], i) => (
+          <li class="flex gap-4 rounded-[18px] border-2 border-hairline bg-surface p-5">
+            <span class="display grid h-11 w-11 shrink-0 place-items-center rounded-xl border-2 border-black bg-yellow text-[20px] text-black">{i + 1}</span>
+            <span><strong class="display block text-[22px]">{name}</strong><span class="mt-1 block">{d}</span></span>
+          </li>
+        ))}
+      </ol>
+      <p class="mono mt-4 text-muted">{h.lastRun} <time data-rel datetime={lastRunAt}>{t('time.recently')}</time>.</p>
+    </section>
+
+    <section class="mt-16" aria-labelledby="vibes">
+      <h2 id="vibes" class="text-[32px] sm:text-[40px]">{h.vibesH}</h2>
+      <dl class="mt-7 grid gap-4">
+        {h.vibes.map(([n, cls, d]) => (
+          <div class="flex flex-col gap-2 sm:flex-row sm:items-start sm:gap-5">
+            <dt class="sm:w-44"><span class:list={['sticker', cls]}><span class="dot" aria-hidden="true"></span>{n}</span></dt>
+            <dd>{d}</dd>
+          </div>
+        ))}
+      </dl>
+      <p class="mt-6" set:html={h.stillOn} />
+    </section>
+
+    <section class="mt-16" aria-labelledby="confidence">
+      <h2 id="confidence" class="text-[32px] sm:text-[40px]">{h.confidenceH}</h2>
+      <p class="mt-4">{h.confidenceIntro}</p>
+      <ul class="mono mt-4 grid gap-1.5 rounded-[18px] border-2 border-hairline bg-surface p-5 text-[14px]">
+        {h.confidence.map((x) => <li>{x}</li>)}
+      </ul>
+      <p class="mt-4">{h.confidenceOutro}</p>
+    </section>
+
+    <section class="mt-16" aria-labelledby="reader-reports">
+      <h2 id="reader-reports" class="text-[32px] sm:text-[40px]">{h.readerH}</h2>
+      <p class="mt-4" set:html={h.readerIntro.replace('{add}', href(lang, '/add'))} />
+      <ol class="mt-5 grid gap-2 rounded-[18px] border-[3px] border-dashed border-reader bg-surface p-5">
+        {h.reader.map((x) => <li set:html={x} />)}
+      </ol>
+      <p class="mt-4">{h.readerOutro}</p>
+    </section>
+
+    <section class="mt-16" aria-labelledby="rules">
+      <h2 id="rules" class="text-[32px] sm:text-[40px]">{h.rulesH}</h2>
+      <ul class="mt-6 grid gap-3 text-[17px]">
+        {h.rules.map((x) => <li set:html={x} />)}
+      </ul>
+    </section>
+
+    <section class="mt-16" aria-labelledby="limits">
+      <h2 id="limits" class="text-[32px] sm:text-[40px]">{h.limitsH}</h2>
+      <p class="mt-4">{h.limits}</p>
+    </section>
+
+    <section class="mt-16" aria-labelledby="corrections">
+      <h2 id="corrections" class="text-[32px] sm:text-[40px]">{h.correctionsH}</h2>
+      <p class="mt-4" set:html={h.corrections.replace('{email}', mail)} />
+    </section>
+
+    <section class="mt-16" aria-labelledby="credits">
+      <h2 id="credits" class="text-[32px] sm:text-[40px]">{h.creditsH}</h2>
+      <ul class="mt-4 grid gap-1.5">
+        {h.credits.map((x) => <li set:html={x} />)}
+      </ul>
+    </section>
+  </article>
+</Base>

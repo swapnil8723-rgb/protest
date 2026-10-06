@@ -59,6 +59,7 @@ export interface SourceRef {
 export interface Figure {
   value: number; // best single number the sources state
   text: string; // as phrased, e.g. "about 5,000", "over 160"
+  en?: string; // site only: the English phrasing when `text` is a translation
   sources: number[]; // receipt numbers
 }
 
@@ -66,6 +67,22 @@ export interface Update {
   at: string; // ISO date (or datetime) the development happened/was reported
   text: string;
   sources: number[];
+}
+
+/** Site languages besides English (pipeline/translate.ts writes these). */
+export type TransLang = 'hi' | 'mr' | 'es' | 'fr' | 'de';
+
+/** The reader-facing text of an event in one language. Arrays line up with the English ones. */
+export interface EventText {
+  title: string;
+  seoTitle: string;
+  tea: { why: string; want: string; changed: string };
+  summary: string;
+  demands: string[];
+  response: string;
+  updates: string[];
+  conflicts: string[];
+  numbers: { crowd?: string; arrests?: string; injuries?: string; deaths?: string };
 }
 
 /** A protest sent in through the "Add a protest" form (pipeline/reader.ts). */
@@ -87,6 +104,8 @@ export interface ProtestEvent {
    *  once newsrooms confirm it (stage 'live') it is a normal card, "first flagged by a reader". */
   origin?: 'news' | 'reader';
   reader?: ReaderInfo;
+  /** Translations of the visible text; `of` = hash of the English it was made from. */
+  i18n?: { of: string; at: string } & Partial<Record<TransLang, EventText>>;
   title: string; // neutral headline, ≤ 90 chars
   seoTitle: string; // ≤ 48 chars, used in <title>
   place: Place;
@@ -153,5 +172,6 @@ export interface RunLog {
   published: number;
   live: number;
   aiCalls: number;
+  translated?: number;
   notes: string[];
 }

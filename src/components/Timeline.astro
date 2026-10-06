@@ -2,17 +2,20 @@
 import Ref from './Ref.astro';
 import type { ProtestEvent } from '../lib/data';
 import { fmtDay } from '../lib/format';
+import { langOf, useT } from '../i18n';
 interface Props { e: ProtestEvent }
 const { e } = Astro.props;
+const lang = langOf(Astro.url);
+const t = useT(lang);
 const updates = [...e.updates].reverse(); // newest first
 ---
 {updates.length > 0 && (
   <section aria-labelledby="timeline">
-    <h2 id="timeline" class="display text-[26px]">Timeline</h2>
+    <h2 id="timeline" class="display text-[26px]">{t('timeline.title')}</h2>
     <ol class="mt-4 grid gap-3">
       {updates.map((u, i) => (
         <li class="flex gap-3">
-          <time datetime={u.at} class="mono w-[56px] shrink-0 pt-3 text-right text-muted">{fmtDay(u.at, false)}</time>
+          <time datetime={u.at} class="mono w-[56px] shrink-0 pt-3 text-right text-muted">{fmtDay(u.at, false, lang)}</time>
           <p class:list={['bubble', { first: i === 0 }]}>{u.text}<Ref n={u.sources} /></p>
         </li>
       ))}

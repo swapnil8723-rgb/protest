@@ -1,29 +1,36 @@
 ---
 import Logo from './Logo.astro';
-import { COUNTRIES, countryUrl, inCountry, liveVerified as live } from '../lib/data';
+import { cname, COUNTRIES, countryUrl, inCountry, liveVerified as live } from '../lib/data';
+import { href, LANG_INFO, LANGS, langOf, useT, type Lang } from '../i18n';
+interface Props { path: string; langs: readonly Lang[] }
+const { path, langs } = Astro.props;
+const lang = langOf(Astro.url);
+const t = useT(lang);
+// The same page in another language, or that language's home when this page has no translation.
+const other = (l: Lang) => href(l, langs.includes(l) ? path : '/');
 ---
 <header class="sticky top-0 z-40 border-b border-hairline bg-bg/95">
-  <div class="wrap flex h-[60px] items-center gap-3">
-    <a href="/" class="flex items-center gap-2 no-underline" aria-label="LOUD home">
+  <div class="wrap flex h-[60px] items-center gap-2 sm:gap-3">
+    <a href={href(lang, '/')} class="flex shrink-0 items-center gap-2 no-underline" aria-label="LOUD">
       <Logo size={34} />
       <span class="display text-[26px] leading-none tracking-[-0.05em]">LOUD</span>
     </a>
-    <a href="/today" class="ml-1 hidden items-center gap-2 rounded-full border-2 border-black bg-pink px-3 py-1 text-[13px] font-bold text-black no-underline sm:inline-flex" aria-label={`${live.length} protests live now`}>
+    <a href={href(lang, '/today')} class="ml-1 hidden items-center gap-2 rounded-full border-2 border-black bg-pink px-3 py-1 text-[13px] font-bold text-black no-underline sm:inline-flex" aria-label={t('nav.liveAria', { n: live.length })}>
       <span class="relative inline-block h-2 w-2 rounded-full bg-black live-dot"></span>
-      {live.length} live
+      {t('nav.live', { n: live.length })}
     </a>
-    <nav class="ml-auto flex items-center gap-1 text-[15px] font-semibold" aria-label="Main">
-      <a href="/today" class="rounded-lg px-3 py-2 no-underline hover:bg-surface-2">Today</a>
-      <details class="relative">
-        <summary class="cursor-pointer list-none rounded-lg px-3 py-2 hover:bg-surface-2 [&::-webkit-details-marker]:hidden">Countries</summary>
+    <nav class="ml-auto flex items-center gap-0.5 text-[15px] font-semibold sm:gap-1" aria-label="Main">
+      <a href={href(lang, '/today')} class="rounded-lg px-2.5 py-2 no-underline hover:bg-surface-2 sm:px-3">{t('nav.today')}</a>
+      <details class="relative hidden min-[420px]:block">
+        <summary class="cursor-pointer list-none rounded-lg px-2.5 py-2 hover:bg-surface-2 sm:px-3 [&::-webkit-details-marker]:hidden">{t('nav.countries')}</summary>
         <div class="card absolute right-0 top-12 z-50 w-64 p-2" style="--vibe: var(--yellow)">
           <ul class="grid gap-0.5">
             {COUNTRIES.map((c) => {
               const n = inCountry(c.iso).filter((e) => e.isOngoing).length;
               return (
                 <li>
-                  <a href={countryUrl(c)} class="flex items-center justify-between rounded-lg px-3 py-2 no-underline hover:bg-surface-2">
-                    <span>{c.name}</span>
+                  <a href={countryUrl(c, lang)} class="flex items-center justify-between rounded-lg px-3 py-2 no-underline hover:bg-surface-2">
+                    <span>{cname(c, lang)}</span>
                     {n > 0 && <span class="mono rounded-full bg-pink px-2 text-black">{n}</span>}
                   </a>
                 </li>
@@ -32,9 +39,24 @@ import { COUNTRIES, countryUrl, inCountry, liveVerified as live } from '../lib/d
           </ul>
         </div>
       </details>
-      <a href="/how-we-know" class="hidden rounded-lg px-3 py-2 no-underline hover:bg-surface-2 lg:inline-block">How we know</a>
-      <a href="/add" class="ml-1 hidden items-center rounded-xl border-2 border-black bg-yellow px-3 py-1.5 text-[14px] font-bold text-black no-underline sm:inline-flex">+ Add</a>
-      <button type="button" id="theme" class="ml-1 grid h-10 w-10 place-items-center rounded-xl border-2 border-hairline hover:bg-surface-2" aria-label="Switch light or dark mode" title="Light / dark">
+      <a href={href(lang, '/how-we-know')} class="hidden rounded-lg px-3 py-2 no-underline hover:bg-surface-2 lg:inline-block">{t('nav.how')}</a>
+      <a href={href(lang, '/add')} class="ml-1 hidden items-center rounded-xl border-2 border-black bg-yellow px-3 py-1.5 text-[14px] font-bold text-black no-underline sm:inline-flex">{t('nav.add')}</a>
+      <details class="relative">
+        <summary class="grid h-10 min-w-10 cursor-pointer list-none place-items-center rounded-xl border-2 border-hairline px-2 text-[13px] font-bold uppercase hover:bg-surface-2 [&::-webkit-details-marker]:hidden" aria-label={t('nav.language')} title={t('nav.language')}>{lang}</summary>
+        <div class="card absolute right-0 top-12 z-50 w-48 p-2" style="--vibe: var(--cyan)">
+          <ul class="grid gap-0.5">
+            {LANGS.map((l) => (
+              <li>
+                <a href={other(l)} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined} class:list={['flex items-center justify-between rounded-lg px-3 py-2 no-underline hover:bg-surface-2', { 'bg-surface-2': l === lang }]}>
+                  <span>{LANG_INFO[l].native}</span>
+                  <span class="mono uppercase text-muted">{l}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </details>
+      <button type="button" id="theme" class="ml-0.5 grid h-10 w-10 place-items-center rounded-xl border-2 border-hairline hover:bg-surface-2" aria-label={t('nav.theme')} title={t('nav.theme')}>
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
       </button>
     </nav>

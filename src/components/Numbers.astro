@@ -2,30 +2,38 @@
 import Ref from './Ref.astro';
 import type { ProtestEvent } from '../lib/data';
 import { fmtNum } from '../lib/format';
+import { langOf, useT } from '../i18n';
 interface Props { e: ProtestEvent }
 const { e } = Astro.props;
+const lang = langOf(Astro.url);
+const t = useT(lang);
 const items = (
   [
-    ['Crowd', e.numbers.crowd],
-    ['Arrests / detentions', e.numbers.arrests],
-    ['Injuries', e.numbers.injuries],
-    ['Deaths', e.numbers.deaths],
+    [t('numbers.crowd'), e.numbers.crowd],
+    [t('numbers.arrests'), e.numbers.arrests],
+    [t('numbers.injuries'), e.numbers.injuries],
+    [t('numbers.deaths'), e.numbers.deaths],
   ] as const
 ).filter(([, f]) => f);
-const plus = (t: string) => (/^(over|more than|at least|upwards of)/i.test(t) ? '+' : '');
-// "hundreds" / "thousands" are stored as lower bounds; never show them as exact numbers.
-const shown = (v: number, t: string) =>
-  /hundreds/i.test(t) ? '100s' : /tens of thousands/i.test(t) ? '10,000s' : /thousands/i.test(t) ? '1,000s' : /dozens/i.test(t) ? 'Dozens' : fmtNum(v) + plus(t);
+// "hundreds" etc. are lower bounds, never exact numbers. Decided from the English phrasing
+// (f.en when the text shown is a translation).
+const vague = (v: number, s: string) =>
+  /tens of thousands/i.test(s) ? (lang === 'en' ? '10,000s' : `${fmtNum(10000, lang)}+`)
+  : /hundreds/i.test(s) ? (lang === 'en' ? '100s' : '100+')
+  : /thousands/i.test(s) ? (lang === 'en' ? '1,000s' : `${fmtNum(1000, lang)}+`)
+  : /dozens/i.test(s) ? t('numbers.dozens')
+  : fmtNum(v, lang) + (/^(over|more than|at least|upwards of)/i.test(s) ? '+' : '');
+const shown = (f: { value: number; text: string; en?: string }) => vague(f.value, f.en ?? f.text);
 ---
 {items.length > 0 && (
   <section aria-labelledby="numbers">
-    <h2 id="numbers" class="display text-[26px]">The numbers</h2>
-    <p class="mt-1 text-[14px] text-muted">Only figures a source states, with who said it. Estimates often differ.</p>
+    <h2 id="numbers" class="display text-[26px]">{t('numbers.title')}</h2>
+    <p class="mt-1 text-[14px] text-muted">{t('numbers.note')}</p>
     <dl class="mt-3 grid grid-cols-2 gap-3 lg:grid-cols-4">
       {items.map(([k, f]) => (
         <div class="rounded-[16px] border-2 border-hairline bg-surface p-4">
           <dt class="eyebrow">{k}</dt>
-          <dd class="display mt-1 text-[34px] leading-none">{shown(f!.value, f!.text)}</dd>
+          <dd class="display mt-1 text-[34px] leading-none">{shown(f!)}</dd>
           <dd class="mt-1.5 text-[13px] leading-snug text-muted">{f!.text}<Ref n={f!.sources} /></dd>
         </div>
       ))}

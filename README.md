@@ -48,6 +48,12 @@ connected to it — every push to `main` deploys.
 
 Actions minutes: a private repo gets 2,000/month, so the pipeline runs hourly. Make the repo public to run it every 30 minutes.
 
+## Languages
+English, हिन्दी, मराठी, Español, Français, Deutsch. Interface text lives in `src/i18n/`; protest cards are translated by the
+pipeline (one AI call per changed card, all five languages at once) from the already-checked English. A card shows in
+English on a language page until its translation exists. Add a language: a dictionary in `src/i18n/`, an entry in
+`LANGS`/`LANG_INFO`, `pipeline/config.ts` `TRANSLATE_TO`, and `src/i18n/how.ts`.
+
 ## Reader reports ("Add a protest")
 `/add` posts to `api/report.ts`, which stores the report in a private Vercel Blob store (created and linked to the
 project; `BLOB_READ_WRITE_TOKEN` and `READER_SALT` are Vercel env vars). The hourly pipeline fetches reports through

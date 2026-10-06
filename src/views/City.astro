@@ -1,0 +1,54 @@
+---
+import Base from '../layouts/Base.astro';
+import EventCard from '../components/EventCard.astro';
+import { cname, country, countryUrl, lastRunAt, type ProtestEvent } from '../lib/data';
+import { metaDesc, monthYear } from '../lib/format';
+import { breadcrumbs, itemList } from '../lib/seo';
+import { href, inCountry, langOf, useT } from '../i18n';
+import { loc } from '../i18n/event';
+
+const { list } = Astro.props as { list: ProtestEvent[] };
+const lang = langOf(Astro.url);
+const t = useT(lang);
+const { place } = list[0];
+const c = country(place.country);
+const cn = cname(c, lang);
+const live = list.filter((e) => e.isOngoing);
+const past = list.filter((e) => !e.isOngoing);
+const path = `/city/${place.country}/${place.regionSlug}/${place.citySlug}`;
+const month = monthYear(new Date().toISOString().slice(0, 10), lang);
+const lede = live.length
+  ? t('city.ledeLive', { n: live.length, city: place.city, top: live.map((e) => loc(e, lang).title).slice(0, 2).join('; ') })
+  : t('city.ledeQuiet', { city: place.city });
+---
+<Base
+  title={t('city.title', { city: place.city, month })}
+  description={metaDesc(`${lede} ${t('city.descTail', { city: place.city, region: place.region || cn })}`)}
+  path={path}
+  jsonLd={[itemList(list, t('city.h1', { city: place.city }), lang), breadcrumbs([[t('crumb.home'), href(lang, '/')], [cn, countryUrl(c, lang)], [place.city, href(lang, path)]])]}
+>
+  <div class="wrap pt-10">
+    <nav aria-label="Breadcrumb" class="mono text-muted"><a href={href(lang, '/')} class="hover:underline">{t('crumb.home')}</a> / <a href={countryUrl(c, lang)} class="hover:underline">{cn}</a> / {place.city}</nav>
+    <p class="eyebrow mt-6">{place.region ? `${place.region}, ` : ''}{cn} · {t('home.updated')} <time data-rel datetime={lastRunAt}>{t('time.recently')}</time></p>
+    <h1 class="mt-3 text-[44px] sm:text-[72px]">{t('city.h1', { city: place.city })}</h1>
+    <p class="mt-5 max-w-3xl text-[18px] leading-relaxed sm:text-[20px]">{lede}</p>
+
+    <section class="mt-12" aria-labelledby="live">
+      <h2 id="live" class="text-[32px] sm:text-[40px]">{t('city.stillOn', { city: place.city })}</h2>
+      {live.length ? (
+        <div class="mt-7 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{live.map((e) => <EventCard e={e} />)}</div>
+      ) : (
+        <p class="mt-4 text-[18px] text-muted">{t('today.empty')}</p>
+      )}
+    </section>
+
+    {past.length > 0 && (
+      <section class="mt-16" aria-labelledby="past">
+        <h2 id="past" class="text-[32px] sm:text-[40px]">{t('city.recent')}</h2>
+        <div class="mt-7 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{past.map((e) => <EventCard e={e} tiltCard={false} />)}</div>
+      </section>
+    )}
+
+    <p class="mt-14"><a href={countryUrl(c, lang)} class="btn btn-ghost">{t('city.all', { country: cn, in: inCountry(c.iso, lang, c.name) })}</a></p>
+  </div>
+</Base>

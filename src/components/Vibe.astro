@@ -1,11 +1,12 @@
 ---
-import type { ProtestEvent } from '../lib/data';
-import { isUnverified } from '../lib/data';
+import { isUnverified, type ProtestEvent } from '../lib/data';
 import { vibeClass, vibeLabel } from '../lib/format';
+import { langOf, useT } from '../i18n';
 interface Props { e: ProtestEvent; class?: string }
 const { e, class: cls = '' } = Astro.props;
+const lang = langOf(Astro.url);
 const reader = isUnverified(e);
 const v = reader ? 'reader' : vibeClass(e);
 const pulsing = !reader && e.isOngoing && (v === 'heating-up' || v === 'peak-loud');
 ---
-<span class:list={['sticker', `s-${v}`, { live: pulsing }, cls]}><span class="dot" aria-hidden="true"></span>{reader ? 'Reader report' : vibeLabel(e)}</span>
+<span class:list={['sticker', `s-${v}`, { live: pulsing }, cls]}><span class="dot" aria-hidden="true"></span>{reader ? useT(lang)('vibe.reader') : vibeLabel(e, lang)}</span>

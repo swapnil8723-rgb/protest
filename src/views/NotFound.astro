@@ -1,0 +1,21 @@
+---
+// One 404 page for every language (the host serves it for any missing URL), so it speaks English
+// and offers the other languages' homes.
+import Base from '../layouts/Base.astro';
+import { href, LANG_INFO, OTHER_LANGS, useT } from '../i18n';
+const t = useT('en');
+---
+<Base title={t('404.title')} path="/404" noindex langs={['en']}>
+  <div class="wrap grid min-h-[60vh] place-content-center py-20 text-center">
+    <p class="sticker s-heating-up mx-auto"><span class="dot" aria-hidden="true"></span>404</p>
+    <h1 class="mt-6 text-[48px] sm:text-[80px]">{t('404.h1')}</h1>
+    <p class="mx-auto mt-4 max-w-md text-[18px] text-muted">{t('404.text')}</p>
+    <div class="mt-8 flex flex-wrap justify-center gap-3">
+      <a href="/today" class="btn btn-primary">{t('home.seeToday')}</a>
+      <a href="/" class="btn btn-ghost">{t('404.back')}</a>
+    </div>
+    <ul class="mt-8 flex flex-wrap justify-center gap-x-4 gap-y-1 text-[15px]">
+      {OTHER_LANGS.map((l) => <li><a href={href(l, '/')} lang={l} class="underline underline-offset-2">{LANG_INFO[l].native}</a></li>)}
+    </ul>
+  </div>
+</Base>

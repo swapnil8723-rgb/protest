@@ -1,0 +1,80 @@
+---
+import Base from '../layouts/Base.astro';
+import EventCard from '../components/EventCard.astro';
+import LocatorMap from '../components/LocatorMap.astro';
+import { cities, cname, countryUrl, inCountry, lastRunAt, type Country } from '../lib/data';
+import { metaDesc, monthYear } from '../lib/format';
+import { breadcrumbs, itemList } from '../lib/seo';
+import { href, inCountry as inC, langOf, useT } from '../i18n';
+import { loc } from '../i18n/event';
+
+const { c } = Astro.props as { c: Country };
+const lang = langOf(Astro.url);
+const t = useT(lang);
+const country = cname(c, lang);
+const inPhrase = inC(c.iso, lang, c.name);
+const all = inCountry(c.iso);
+const live = all.filter((e) => e.isOngoing);
+const past = all.filter((e) => !e.isOngoing);
+const month = monthYear(new Date().toISOString().slice(0, 10), lang);
+const cityList = [...cities]
+  .filter(([k]) => k.startsWith(c.iso + '/'))
+  .map(([k, list]) => ({ url: href(lang, `/city/${k}`), name: list[0].place.city, n: list.length, live: list.filter((e) => e.isOngoing).length }))
+  .sort((a, b) => b.live - a.live || b.n - a.n);
+const liveCities = [...new Set(live.map((e) => e.place.city))];
+const where = liveCities.length
+  ? t('country.where', { cities: liveCities.slice(0, 4).join(', ') + (liveCities.length > 4 ? t('country.andMore', { n: liveCities.length - 4 }) : '') })
+  : '';
+const vars = { country, in: inPhrase };
+const lede = live.length
+  ? t('country.ledeLive', { ...vars, n: live.length, where, top: loc(live[0], lang).title })
+  : `${t('country.ledeQuiet', vars)} ${past.length ? t('country.ledePast', { n: past.length }) : ''}`.trim();
+---
+<Base
+  title={t('country.title', { ...vars, month })}
+  description={metaDesc(`${lede} ${t('country.descTail', vars)}`)}
+  path={`/country/${c.slug}`}
+  jsonLd={[itemList(all, t('country.listName', vars), lang), breadcrumbs([[t('crumb.home'), href(lang, '/')], [country, countryUrl(c, lang)]])]}
+>
+  <div class="wrap pt-10">
+    <nav aria-label="Breadcrumb" class="mono text-muted"><a href={href(lang, '/')} class="hover:underline">{t('crumb.home')}</a> / {country}</nav>
+    <div class="mt-4 grid items-start gap-8 lg:grid-cols-[1.1fr_1fr]">
+      <div>
+        <p class="eyebrow">{t('today.updated')} <time data-rel datetime={lastRunAt}>{t('time.recently')}</time></p>
+        <h1 class="mt-3 text-[44px] sm:text-[68px]">{t('country.h1', vars)}</h1>
+        <p class="mt-5 max-w-2xl text-[18px] leading-relaxed sm:text-[20px]">{lede}</p>
+        <dl class="mt-6 flex gap-8">
+          <div><dt class="eyebrow">{t('country.live')}</dt><dd class="display text-[40px] leading-none">{live.length}</dd></div>
+          <div><dt class="eyebrow">{t('country.tracked')}</dt><dd class="display text-[40px] leading-none">{all.length}</dd></div>
+          <div><dt class="eyebrow">{t('country.cities')}</dt><dd class="display text-[40px] leading-none">{new Set(all.map((e) => e.place.citySlug)).size}</dd></div>
+        </dl>
+        {cityList.length > 0 && (
+          <div class="mt-7">
+            <p class="eyebrow">{t('country.cityPages')}</p>
+            <ul class="mt-2 flex flex-wrap gap-2">
+              {cityList.map((x) => <li><a href={x.url} class="cause !px-3.5 !py-2">{x.name.toLowerCase()}{x.live > 0 && <span class="mono ml-2 rounded-full bg-pink px-1.5 text-black">{x.live}</span>}</a></li>)}
+            </ul>
+          </div>
+        )}
+      </div>
+      <LocatorMap iso={c.iso} events={all} label={t('country.map', { country, n: all.length })} links />
+    </div>
+
+    <section class="mt-14" aria-labelledby="live">
+      <h2 id="live" class="text-[32px] sm:text-[40px]">{t('country.liveIn', vars)}</h2>
+      {live.length ? (
+        <div class="mt-7 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{live.map((e) => <EventCard e={e} />)}</div>
+      ) : (
+        <p class="mt-4 text-[18px] text-muted">{t('today.empty')}</p>
+      )}
+    </section>
+
+    {past.length > 0 && (
+      <section class="mt-16" aria-labelledby="past">
+        <h2 id="past" class="text-[32px] sm:text-[40px]">{t('country.wrapped')}</h2>
+        <p class="mt-2 text-muted">{t('country.archive')}</p>
+        <div class="mt-7 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{past.slice(0, 24).map((e) => <EventCard e={e} tiltCard={false} />)}</div>
+      </section>
+    )}
+  </div>
+</Base>

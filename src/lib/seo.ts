@@ -3,6 +3,8 @@
 import { BRAND, SITE } from '../site';
 import type { ProtestEvent } from '../../pipeline/types.ts';
 import { byIso } from '../../pipeline/config.ts';
+import { countryName, href, LANG_INFO, type Lang } from '../i18n/index.ts';
+import { hasLang, loc } from '../i18n/event.ts';
 
 export const org = {
   '@type': 'NewsMediaOrganization',
@@ -37,9 +39,10 @@ const EVENT_STATUS: Record<string, string> = {
   'called-off': 'https://schema.org/EventCancelled',
 };
 
-export function eventJsonLd(e: ProtestEvent) {
-  const url = `${SITE}/p/${e.slug}`;
-  const country = byIso.get(e.place.country)!;
+export function eventJsonLd(raw: ProtestEvent, lang: Lang = 'en') {
+  const e = loc(raw, lang);
+  const url = `${SITE}${href(lang, `/p/${e.slug}`)}`;
+  const country = { name: countryName(e.place.country, lang, byIso.get(e.place.country)!.name) };
   const image = [`${SITE}/cards/${e.slug}-og.png`];
   const place = {
     '@type': 'Place',
@@ -75,17 +78,18 @@ export function eventJsonLd(e: ProtestEvent) {
     contentLocation: place,
     isBasedOn: e.sources.map((s) => s.url),
     articleSection: 'Protests',
+    inLanguage: LANG_INFO[lang].locale.split('-u-')[0],
     keywords: [e.place.city, country.name, ...e.causes, 'protest'].join(', '),
   };
   return { '@context': 'https://schema.org', '@graph': [article, event, org] };
 }
 
-export function itemList(events: ProtestEvent[], name: string) {
+export function itemList(events: ProtestEvent[], name: string, lang: Lang = 'en') {
   return {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     name,
     numberOfItems: events.length,
-    itemListElement: events.slice(0, 50).map((e, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE}/p/${e.slug}`, name: e.title })),
+    itemListElement: events.slice(0, 50).map((e, i) => ({ '@type': 'ListItem', position: i + 1, url: `${SITE}${href(hasLang(e, lang) ? lang : 'en', `/p/${e.slug}`)}`, name: loc(e, lang).title })),
   };
 }

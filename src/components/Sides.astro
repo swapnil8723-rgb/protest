@@ -1,22 +1,24 @@
 ---
 import Ref from './Ref.astro';
 import type { ProtestEvent } from '../lib/data';
+import { langOf, useT } from '../i18n';
 interface Props { e: ProtestEvent }
 const { e } = Astro.props;
+const t = useT(langOf(Astro.url));
 ---
 <section aria-labelledby="sides" class="grid gap-4 sm:grid-cols-2">
-  <h2 id="sides" class="sr-only">Both sides</h2>
+  <h2 id="sides" class="sr-only">{t('sides.sr')}</h2>
   <div class="rounded-[18px] border-2 border-hairline bg-surface p-5">
-    <p class="eyebrow">What protesters want</p>
+    <p class="eyebrow">{t('sides.want')}</p>
     {e.demands.length ? (
       <ul class="mt-2 grid gap-1.5">
         {e.demands.map((d) => <li class="flex gap-2"><span aria-hidden="true" class="mt-[10px] h-1.5 w-1.5 shrink-0 rounded-full bg-pink"></span><span>{d}</span></li>)}
       </ul>
-    ) : <p class="mt-2 text-muted">Demands not stated in the sources.</p>}
-    {e.organizers.length > 0 && <p class="mt-3 text-[14px] text-muted"><strong class="font-semibold text-ink">Organised by:</strong> {e.organizers.join(', ')}</p>}
+    ) : <p class="mt-2 text-muted">{t('sides.noDemands')}</p>}
+    {e.organizers.length > 0 && <p class="mt-3 text-[14px] text-muted"><strong class="font-semibold text-ink">{t('sides.organised')}</strong> {e.organizers.join(', ')}</p>}
   </div>
   <div class="rounded-[18px] border-2 border-hairline bg-surface p-5">
-    <p class="eyebrow">What authorities say</p>
+    <p class="eyebrow">{t('sides.authorities')}</p>
     <p class="mt-2">{e.response}<Ref n={e.responseSources ?? []} /></p>
   </div>
 </section>

@@ -1,33 +1,41 @@
 ---
 import '../styles/global.css';
-import { BRAND, DESCRIPTION, SITE } from '../site';
+import { BRAND, SITE } from '../site';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { lastRunAt } from '../lib/data';
+import { clientStrings, href, LANG_INFO, LANGS, langOf, useT, type Lang } from '../i18n';
 
 interface Props {
   title: string;
   description?: string;
-  path: string; // canonical path, e.g. "/p/slug"
+  path: string; // the English path, e.g. "/p/slug"; the language prefix is added here
   image?: string; // absolute or root-relative OG image
   imageAlt?: string;
   jsonLd?: object[];
   noindex?: boolean;
   type?: 'website' | 'article';
   modified?: string;
+  /** Languages this page exists in (event pages only exist once translated). */
+  langs?: readonly Lang[];
 }
-const { title, description = DESCRIPTION, path, image = '/og-default.png', imageAlt = `${BRAND} — live protest tracker`, jsonLd = [], noindex = false, type = 'website', modified } = Astro.props;
-const canonical = SITE + (path === '/' ? '' : path);
+const lang = langOf(Astro.url);
+const t = useT(lang);
+const { title, description = t('home.description'), path, image = '/og-default.png', imageAlt = `${BRAND}: ${t('tagline')}`, jsonLd = [], noindex = false, type = 'website', modified, langs = LANGS } = Astro.props;
+const url = (l: Lang) => SITE + (href(l, path) === '/' ? '' : href(l, path));
+const canonical = url(lang);
 const img = image.startsWith('http') ? image : SITE + image;
 ---
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {!noindex && langs.length > 1 && langs.map((l) => <link rel="alternate" hreflang={l} href={url(l)} />)}
+    {!noindex && langs.length > 1 && <link rel="alternate" hreflang="x-default" href={url('en')} />}
     {noindex && <meta name="robots" content="noindex, follow" />}
     {!noindex && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
     <meta name="theme-color" content="#0B0B12" />
@@ -35,7 +43,7 @@ const img = image.startsWith('http') ? image : SITE + image;
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <link rel="alternate" type="application/rss+xml" title={`${BRAND} — new protests`} href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title={t('rss.title')} href="/feed.xml" />
     <meta property="og:site_name" content={BRAND} />
     <meta property="og:type" content={type} />
     <meta property="og:title" content={title} />
@@ -45,13 +53,15 @@ const img = image.startsWith('http') ? image : SITE + image;
     <meta property="og:image:alt" content={imageAlt} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content={LANG_INFO[lang].og} />
+    {langs.filter((l) => l !== lang).map((l) => <meta property="og:locale:alternate" content={LANG_INFO[l].og} />)}
     {modified && <meta property="article:modified_time" content={modified} />}
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={img} />
     <link rel="preload" href="/fonts/bricolage-800.woff2" as="font" type="font/woff2" crossorigin />
+    {(lang === 'hi' || lang === 'mr') && <link rel="preload" href="/fonts/baloo2-deva.woff2" as="font" type="font/woff2" crossorigin />}
     {jsonLd.map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
     <script is:inline>
       try { if (localStorage.getItem('theme') === 'light') document.documentElement.dataset.theme = 'light'; } catch {}
@@ -59,12 +69,13 @@ const img = image.startsWith('http') ? image : SITE + image;
     <slot name="head" />
   </head>
   <body data-last-run={lastRunAt}>
-    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 btn btn-candy">Skip to content</a>
-    <Header />
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 btn btn-candy">{t('skip')}</a>
+    <Header path={path} langs={langs} />
     <main id="main">
       <slot />
     </main>
-    <Footer />
+    <Footer path={path} langs={langs} />
+    <script type="application/json" id="i18n" set:html={JSON.stringify(clientStrings(lang))} />
     <script>
       import '../scripts/live.ts';
     </script>

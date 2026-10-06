@@ -24,6 +24,13 @@ function init(root: HTMLElement) {
   const ctx = canvas.getContext('2d')!;
   const drawer = root.querySelector<HTMLElement>('[data-drawer]')!;
   const pins: Pin[] = JSON.parse(document.getElementById('pins')!.textContent || '[]');
+  const S: { getTea: string; readSummary: string; close: string } = (() => {
+    try {
+      return JSON.parse(document.getElementById('i18n')?.textContent || '');
+    } catch {
+      return { getTea: 'Get the tea →', readSummary: 'Read the summary', close: 'Close' };
+    }
+  })();
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   const proj = geoOrthographic().precision(0.6).clipAngle(90);
@@ -262,13 +269,13 @@ function init(root: HTMLElement) {
     const top = el('div', 'flex items-center justify-between gap-3');
     top.append(el('span', `sticker s-${p.serious ? 'tense' : p.vibe}`, p.label));
     const x = el('button', 'drawer-x', '×');
-    x.setAttribute('aria-label', 'Close');
+    x.setAttribute('aria-label', S.close);
     x.addEventListener('click', closeDrawer);
     top.append(x);
     const h = el('a', 'display mt-3 block text-[22px] leading-[1.05] no-underline', p.title) as HTMLAnchorElement;
     h.href = p.url;
     drawer.append(top, h, el('p', 'muted mt-1 text-[14px] font-semibold text-muted', p.place), el('p', 'mt-2 text-[15px] leading-snug', p.why));
-    const go = el('a', 'btn btn-primary mt-4 w-full', p.serious ? 'Read the summary' : 'Get the tea →') as HTMLAnchorElement;
+    const go = el('a', 'btn btn-primary mt-4 w-full', p.serious ? S.readSummary : S.getTea) as HTMLAnchorElement;
     go.href = p.url;
     drawer.append(go);
     root.querySelector('[data-count]')!.textContent = `${i + 1} / ${pins.length}`;

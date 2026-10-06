@@ -5,6 +5,8 @@ import path from 'node:path';
 import { byIso, COUNTRIES, type Country } from '../../pipeline/config.ts';
 import { loadEvents } from '../../pipeline/store.ts';
 import type { ProtestEvent, State } from '../../pipeline/types.ts';
+import { countryName, href, type Lang } from '../i18n/index.ts';
+import { hasLang } from '../i18n/event.ts';
 
 export type { ProtestEvent, Country };
 export { COUNTRIES, byIso };
@@ -54,8 +56,11 @@ export const sourcesChecked24h = (state.runs ?? [])
 
 export const country = (iso: string) => byIso.get(iso)!;
 export const countryOf = (e: ProtestEvent) => byIso.get(e.place.country)!;
-export const eventUrl = (e: ProtestEvent) => `/p/${e.slug}`;
-export const countryUrl = (c: Country) => `/country/${c.slug}`;
+/** Country name in the page language. */
+export const cname = (c: Country, lang: Lang = 'en') => countryName(c.iso, lang, c.name);
+/** An event's page in `lang`, or the English page while it has no translation yet. */
+export const eventUrl = (e: ProtestEvent, lang: Lang = 'en') => href(hasLang(e, lang) ? lang : 'en', `/p/${e.slug}`);
+export const countryUrl = (c: Country, lang: Lang = 'en') => href(lang, `/country/${c.slug}`);
 export const cityKey = (e: ProtestEvent) => `${e.place.country}/${e.place.regionSlug}/${e.place.citySlug}`;
 
 /** City pages exist only for cities with ≥ 2 published events (no thin pages). */
@@ -64,7 +69,7 @@ export const cities = (() => {
   for (const e of verified) (m.get(cityKey(e)) ?? m.set(cityKey(e), []).get(cityKey(e))!).push(e);
   return new Map([...m].filter(([, list]) => list.length >= 2));
 })();
-export const cityUrl = (e: ProtestEvent) => (cities.has(cityKey(e)) ? `/${cityKey(e)}` : null);
+export const cityUrl = (e: ProtestEvent, lang: Lang = 'en') => (cities.has(cityKey(e)) ? href(lang, `/city/${cityKey(e)}`) : null);
 
 export const inCountry = (iso: string) => events.filter((e) => e.place.country === iso);
 

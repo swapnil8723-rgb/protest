@@ -1,0 +1,105 @@
+---
+import Base from '../layouts/Base.astro';
+import Vibe from '../components/Vibe.astro';
+import StillOn from '../components/StillOn.astro';
+import Tea from '../components/Tea.astro';
+import Sides from '../components/Sides.astro';
+import Numbers from '../components/Numbers.astro';
+import Timeline from '../components/Timeline.astro';
+import Receipts from '../components/Receipts.astro';
+import ShareBar from '../components/ShareBar.astro';
+import LocatorMap from '../components/LocatorMap.astro';
+import EventCard from '../components/EventCard.astro';
+import { cname, countryOf, countryUrl, cityUrl, isUnverified, related, type ProtestEvent } from '../lib/data';
+import { fmtDay, isSerious, metaDesc } from '../lib/format';
+import { breadcrumbs, eventJsonLd } from '../lib/seo';
+import { href, LANGS, langOf, useT } from '../i18n';
+import { hasLang, loc } from '../i18n/event';
+
+const { e: raw } = Astro.props as { e: ProtestEvent };
+const lang = langOf(Astro.url);
+const t = useT(lang);
+const e = loc(raw, lang);
+const c = countryOf(e);
+const country = cname(c, lang);
+const city = cityUrl(e, lang);
+const serious = isSerious(e);
+const reader = isUnverified(e);
+const date = fmtDay(e.startedOn, true, lang);
+const title = t('event.title', { title: e.seoTitle || e.title, date });
+const description = metaDesc(`${e.tea.why} ${e.tea.want}`);
+const crumbs: [string, string][] = [
+  [t('crumb.home'), href(lang, '/')],
+  [country, countryUrl(c, lang)],
+  ...(city ? [[e.place.city, city] as [string, string]] : []),
+  [e.seoTitle || e.title, href(lang, `/p/${e.slug}`)],
+];
+const more = related(e);
+const scopeNote = e.scope === 'nationwide' ? t('event.nationwide', { city: e.place.city }) : e.scope === 'multi-city' ? t('event.multiCity', { city: e.place.city }) : `${e.place.city}${e.place.region && e.place.region !== e.place.city ? ', ' + e.place.region : ''}`;
+const langs = LANGS.filter((l) => hasLang(raw, l));
+---
+<Base
+  title={title}
+  description={description}
+  path={`/p/${e.slug}`}
+  langs={langs}
+  image={reader ? undefined : `/cards/${e.slug}-og.png`}
+  imageAlt={`${e.title}: ${e.tea.why}`}
+  type="article"
+  modified={lang === 'en' ? e.updatedAt : e.i18n?.at ?? e.updatedAt}
+  jsonLd={reader ? [breadcrumbs(crumbs)] : [eventJsonLd(raw, lang), breadcrumbs(crumbs)]}
+  noindex={reader}
+>
+  <article class="wrap pt-6 sm:pt-10">
+    <nav aria-label="Breadcrumb" class="mono text-muted">
+      <ol class="flex flex-wrap items-center gap-x-2 gap-y-1">
+        {crumbs.slice(0, -1).map(([n, p]) => <li class="flex items-center gap-2"><a href={p} class="hover:underline">{n}</a><span aria-hidden="true">/</span></li>)}
+      </ol>
+    </nav>
+
+    <header class="mt-4 max-w-4xl">
+      <div class="flex flex-wrap items-center gap-2">
+        <Vibe e={e} />
+        {e.causes.map((x) => <a href={`${href(lang, '/today')}?cause=${x}`} class="cause" rel="nofollow">{t(`cause.${x}` as 'cause.water')}</a>)}
+      </div>
+      <h1 class="mt-4 text-[34px] sm:text-[52px] lg:text-[60px]">{e.title}</h1>
+      <p class="mt-3 text-[15px] font-semibold text-muted">
+        {scopeNote}, {country} · {e.kind === 'multi-day' ? t('card.since', { date }) : date}
+      </p>
+    </header>
+
+    {reader && (
+      <p class="mt-6 max-w-4xl rounded-[18px] border-[3px] border-dashed border-reader bg-surface p-4 text-[15px] leading-snug sm:text-[16px]">
+        <strong class="font-bold">{t('reader.banner')}</strong> {t('reader.bannerText')}
+      </p>
+    )}
+
+    <div class="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-10">
+      <div class="grid min-w-0 content-start gap-8">
+        <StillOn e={e} />
+        <Tea e={e} />
+        <ShareBar e={e} />
+        <Sides e={e} />
+        <Numbers e={e} />
+        <section aria-labelledby="story">
+          <h2 id="story" class="display text-[26px]">{t('story.title')}</h2>
+          <p class="mt-3 max-w-[68ch] text-[17px] leading-[1.7] sm:text-[18px]">{e.summary}</p>
+        </section>
+        <Timeline e={e} />
+        <LocatorMap iso={e.place.country} events={[e]} label={t('event.map', { country, city: e.place.city })} />
+      </div>
+      <aside class="min-w-0 lg:sticky lg:top-[84px] lg:self-start" aria-label={t('receipts.title')}>
+        <Receipts e={e} />
+      </aside>
+    </div>
+
+    {more.length > 0 && (
+      <section class="mt-16" aria-labelledby="more">
+        <h2 id="more" class="text-[30px] sm:text-[36px]">{serious ? t('event.related') : t('event.more')}</h2>
+        <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {more.map((o) => <EventCard e={o} />)}
+        </div>
+      </section>
+    )}
+  </article>
+</Base>

@@ -275,3 +275,53 @@ export const readerSchema = {
   },
   required: ['decision', 'reason', 'title', 'why', 'want', 'summary', 'organizers', 'demands', 'causes', 'slug_words'],
 } as const;
+
+// ── Translations (site languages) ─────────────────────────────────────────────
+
+export function translatePrompt(source: object, langs: readonly { code: string; name: string; note: string }[]): string {
+  return `Translate this protest card from English into: ${langs.map((l) => `${l.code} = ${l.name} (${l.note})`).join('; ')}.
+
+Rules:
+- Translate faithfully. Add nothing, drop nothing, keep every number, date and attribution ("police said", "according to") exactly.
+- Keep the same neutral, plain tone. No adjectives the English does not have.
+- Names of people, organisations, parties and places: use the usual spelling in that language's press (for Hindi/Marathi, the usual Devanagari spelling; keep well-known acronyms like BJP, AAP, ECI in Latin letters if that is how that press writes them).
+- Arrays must have exactly the same number of items, in the same order, as the English.
+- Keep it short: titles stay headline length, "seo_title" ≤ 60 characters.
+- Write numbers with Western digits (0-9) in every language.
+
+ENGLISH CARD (JSON):
+${JSON.stringify(source, null, 1)}
+
+Return JSON: one object per language code, each with the same keys as the English card.`;
+}
+
+const textCard = {
+  type: 'object',
+  properties: {
+    title: { type: 'string' },
+    seo_title: { type: 'string' },
+    why: { type: 'string' },
+    want: { type: 'string' },
+    changed: { type: 'string' },
+    summary: { type: 'string' },
+    demands: { type: 'array', items: { type: 'string' } },
+    response: { type: 'string' },
+    updates: { type: 'array', items: { type: 'string' } },
+    conflicts: { type: 'array', items: { type: 'string' } },
+    crowd: { type: 'string' },
+    arrests: { type: 'string' },
+    injuries: { type: 'string' },
+    deaths: { type: 'string' },
+  },
+  required: ['title', 'seo_title', 'why', 'want', 'changed', 'summary', 'demands', 'response', 'updates', 'conflicts', 'crowd', 'arrests', 'injuries', 'deaths'],
+} as const;
+
+export function translateSchema(codes: readonly string[]) {
+  return { type: 'object', properties: Object.fromEntries(codes.map((c) => [c, textCard])), required: [...codes] };
+}
+
+export type TranslatedCard = Record<string, {
+  title: string; seo_title: string; why: string; want: string; changed: string; summary: string;
+  demands: string[]; response: string; updates: string[]; conflicts: string[];
+  crowd: string; arrests: string; injuries: string; deaths: string;
+}>;

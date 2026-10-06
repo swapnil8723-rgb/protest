@@ -1,14 +1,23 @@
 // The only script every page loads (~1 KB): relative times, a stale-data warning,
-// the theme toggle and the share buttons.
+// the theme toggle and the share buttons. Words come from the page's #i18n block.
+
+const S: { locale: string; justNow: string; stale: string; copied: string } = (() => {
+  try {
+    return JSON.parse(document.getElementById('i18n')?.textContent || '');
+  } catch {
+    return { locale: 'en-US', justNow: 'just now', stale: 'Heads up: our checks paused {ago}. Statuses below may be out of date.', copied: 'Copied!' };
+  }
+})();
+const rtf = new Intl.RelativeTimeFormat(S.locale, { numeric: 'always', style: 'long' });
 
 function ago(iso: string): string {
   const s = Math.max(0, (Date.now() - Date.parse(iso)) / 1000);
-  if (s < 90) return 'just now';
+  if (s < 90) return S.justNow;
   const m = s / 60;
-  if (m < 60) return `${Math.round(m)} min ago`;
+  if (m < 60) return rtf.format(-Math.round(m), 'minute');
   const h = m / 60;
-  if (h < 36) return `${Math.round(h)} h ago`;
-  return `${Math.round(h / 24)} days ago`;
+  if (h < 36) return rtf.format(-Math.round(h), 'hour');
+  return rtf.format(-Math.round(h / 24), 'day');
 }
 
 function tick() {
@@ -26,7 +35,7 @@ if (lastRun && Date.now() - Date.parse(lastRun) > 3 * 3.6e6) {
   const bar = document.createElement('div');
   bar.setAttribute('role', 'status');
   bar.className = 'stale-bar';
-  bar.textContent = `Heads up: our checks paused ${ago(lastRun)}. Statuses below may be out of date.`;
+  bar.textContent = S.stale.replace('{ago}', ago(lastRun));
   document.body.prepend(bar);
 }
 
@@ -49,7 +58,7 @@ for (const btn of document.querySelectorAll<HTMLButtonElement>('[data-share-stor
     const title = btn.dataset.title!;
     const label = btn.querySelector('span');
     const old = label?.textContent;
-    if (label) label.textContent = 'Making your card…';
+    if (label) label.textContent = '…';
     try {
       const blob = await (await fetch(src)).blob();
       const file = new File([blob], src.split('/').pop()!, { type: 'image/png' });
@@ -80,8 +89,9 @@ for (const btn of document.querySelectorAll<HTMLButtonElement>('[data-copy]')) {
       }
       await navigator.clipboard.writeText(btn.dataset.copy!);
       if (label) {
-        label.textContent = 'Copied!';
-        setTimeout(() => (label.textContent = 'Copy link'), 1600);
+        const old = label.textContent;
+        label.textContent = S.copied;
+        setTimeout(() => (label.textContent = old), 1600);
       }
     } catch {}
   });
