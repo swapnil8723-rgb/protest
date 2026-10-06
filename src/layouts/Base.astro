@@ -1,0 +1,72 @@
+---
+import '../styles/global.css';
+import { BRAND, DESCRIPTION, SITE } from '../site';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { lastRunAt } from '../lib/data';
+
+interface Props {
+  title: string;
+  description?: string;
+  path: string; // canonical path, e.g. "/p/slug"
+  image?: string; // absolute or root-relative OG image
+  imageAlt?: string;
+  jsonLd?: object[];
+  noindex?: boolean;
+  type?: 'website' | 'article';
+  modified?: string;
+}
+const { title, description = DESCRIPTION, path, image = '/og-default.png', imageAlt = `${BRAND} — live protest tracker`, jsonLd = [], noindex = false, type = 'website', modified } = Astro.props;
+const canonical = SITE + (path === '/' ? '' : path);
+const img = image.startsWith('http') ? image : SITE + image;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    {!noindex && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
+    <meta name="theme-color" content="#0B0B12" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32 48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="alternate" type="application/rss+xml" title={`${BRAND} — new protests`} href="/feed.xml" />
+    <meta property="og:site_name" content={BRAND} />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={img} />
+    <meta property="og:image:alt" content={imageAlt} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+    {modified && <meta property="article:modified_time" content={modified} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={img} />
+    <link rel="preload" href="/fonts/bricolage-800.woff2" as="font" type="font/woff2" crossorigin />
+    {jsonLd.map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
+    <script is:inline>
+      try { if (localStorage.getItem('theme') === 'light') document.documentElement.dataset.theme = 'light'; } catch {}
+    </script>
+    <slot name="head" />
+  </head>
+  <body data-last-run={lastRunAt}>
+    <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 btn btn-candy">Skip to content</a>
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    <script>
+      import '../scripts/live.ts';
+    </script>
+  </body>
+</html>

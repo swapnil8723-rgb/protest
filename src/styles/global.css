@@ -1,0 +1,231 @@
+@import "tailwindcss";
+
+/* Self-hosted Latin subsets (OFL), stable URLs so the display face can be preloaded. */
+@font-face { font-family: 'Bricolage Grotesque'; font-weight: 800; font-display: swap; src: url('/fonts/bricolage-800.woff2') format('woff2'); }
+@font-face { font-family: 'Bricolage Grotesque'; font-weight: 700; font-display: swap; src: url('/fonts/bricolage-700.woff2') format('woff2'); }
+@font-face { font-family: 'Inter Variable'; font-weight: 100 900; font-display: swap; src: url('/fonts/inter-var.woff2') format('woff2-variations'); }
+@font-face { font-family: 'JetBrains Mono'; font-weight: 500; font-display: swap; src: url('/fonts/jetbrains-500.woff2') format('woff2'); }
+
+/* ── Tokens (DESIGN.md §3). Dark is the default; [data-theme=light] is cream. ── */
+:root {
+  color-scheme: dark;
+  --bg: #0b0b12;
+  --surface: #16161f;
+  --surface-2: #1f1f2b;
+  --ink: #f6f4ff;
+  --muted: #a7a3bc;
+  --line: #000;
+  --hairline: #2b2b3a;
+  --link: #00e5ff;
+  --violet: #7c3aed;
+  --pink: #ff3d81;
+  --lime: #c6ff00;
+  --cyan: #00e5ff;
+  --yellow: #ffd60a;
+  --black: #0b0b12;
+  --serious-bg: #f3f4f6;
+  --serious-ink: #1f2937;
+  --serious-line: #9ca3af;
+  --ocean: #12121e;
+  --land: #34344d;
+  --shadow-ink: #000;
+}
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #fff8ec;
+  --surface: #ffffff;
+  --surface-2: #fff1d6;
+  --ink: #0b0b12;
+  --muted: #57546a;
+  --line: #0b0b12;
+  --hairline: #e9dec8;
+  --link: #6d28d9;
+  --ocean: #fff1d6;
+  --land: #f4e2bf;
+  --shadow-ink: #0b0b12;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-hairline: var(--hairline);
+  --color-violet: var(--violet);
+  --color-pink: var(--pink);
+  --color-lime: var(--lime);
+  --color-cyan: var(--cyan);
+  --color-yellow: var(--yellow);
+  --color-black: var(--black);
+  --color-serious-bg: var(--serious-bg);
+  --color-serious-ink: var(--serious-ink);
+  --color-serious-line: var(--serious-line);
+  --font-display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* ── Base ── */
+@layer base {
+  html {
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 76px;
+  }
+  body {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.6;
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  @media (min-width: 1024px) {
+    body { font-size: 18px; }
+  }
+  h1, h2, h3, .display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    line-height: 0.95;
+    text-wrap: balance;
+  }
+  a { color: inherit; }
+  .prose-link, main p a {
+    color: var(--link);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+  }
+  :focus-visible {
+    outline: 3px solid var(--cyan);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  :root[data-theme='light'] :focus-visible { outline-color: var(--violet); }
+  ::selection { background: var(--pink); color: var(--black); }
+}
+
+/* ── Components (DESIGN.md §6) ── */
+@layer components {
+  .wrap { width: 100%; max-width: 1180px; margin-inline: auto; padding-inline: 16px; }
+  @media (min-width: 768px) { .wrap { padding-inline: 28px; } }
+
+  .mono { font-family: var(--font-mono); font-weight: 500; font-size: 13px; letter-spacing: 0; font-variant-numeric: tabular-nums; }
+
+  /* Sticker card: 3px outline + hard shadow in the card's vibe colour */
+  .card {
+    --vibe: var(--violet);
+    position: relative;
+    background: var(--surface);
+    border: 3px solid var(--line);
+    border-radius: 18px;
+    box-shadow: 6px 6px 0 var(--vibe);
+    transition: transform 160ms ease, box-shadow 160ms ease;
+  }
+  :root:not([data-theme='light']) .card { border-color: #2e2e40; }
+  .card.tilt { transform: rotate(var(--tilt, 0deg)); }
+  .card.lift:hover, .card.lift:focus-within {
+    transform: rotate(0deg) translate(-2px, -4px);
+    box-shadow: 8px 10px 0 var(--vibe);
+  }
+  @media (max-width: 400px) { .card.tilt { transform: none; } }
+
+  .v-heating-up, .v-peak-loud { --vibe: var(--pink); }
+  .v-cooling-down { --vibe: var(--cyan); }
+  .v-wrapped-up { --vibe: var(--lime); }
+
+  /* Serious Mode: no colour, no tilt, no motion, no jokes */
+  .card.serious, .serious-surface {
+    --vibe: transparent;
+    background: var(--serious-bg);
+    color: var(--serious-ink);
+    border: 1.5px solid var(--serious-line);
+    box-shadow: none;
+    transform: none !important;
+  }
+  .card.serious .muted, .serious-surface .muted { color: #4b5563; }
+  .card.serious a { color: var(--serious-ink); }
+
+  .sticker {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-family: var(--font-display); font-weight: 800; font-size: 12px; letter-spacing: 0.04em; line-height: 1;
+    text-transform: uppercase; color: var(--black);
+    padding: 6px 10px 6px 9px; border: 2px solid var(--black); border-radius: 999px;
+    white-space: nowrap;
+  }
+  .sticker .dot { width: 7px; height: 7px; border-radius: 99px; background: var(--black); position: relative; }
+  .sticker.live .dot::after {
+    content: ''; position: absolute; inset: -4px; border-radius: 99px; border: 2px solid var(--black);
+    animation: pulse 1.8s ease-out infinite;
+  }
+  .s-heating-up, .s-peak-loud { background: var(--pink); }
+  .s-cooling-down { background: var(--cyan); }
+  .s-wrapped-up { background: var(--lime); }
+  .s-tense { background: var(--serious-bg); color: var(--serious-ink); border: 1.5px solid var(--serious-line); }
+  .s-tense .dot { background: #6b7280; }
+  .s-soon { background: var(--yellow); }
+
+  .cause {
+    display: inline-flex; align-items: center; font-size: 13px; font-weight: 600; line-height: 1;
+    padding: 6px 10px; border-radius: 999px; background: var(--surface-2); border: 1.5px solid var(--hairline);
+    color: var(--ink); text-decoration: none; white-space: nowrap;
+  }
+  .cause::before { content: '#'; color: var(--muted); margin-right: 1px; }
+  .serious .cause, .serious-surface .cause { background: #fff; border-color: #d1d5db; color: var(--serious-ink); }
+  button.cause[aria-pressed='true'] { background: var(--yellow); color: var(--black); border-color: var(--black); }
+  button.cause[aria-pressed='true']::before { color: var(--black); }
+
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px;
+    padding: 0 20px; border-radius: 14px; border: 3px solid var(--black);
+    font-family: var(--font-display); font-weight: 800; font-size: 16px; letter-spacing: -0.01em;
+    text-decoration: none; cursor: pointer; transition: transform 120ms ease, box-shadow 120ms ease;
+  }
+  .btn-primary { background: var(--violet); color: #fff; box-shadow: 4px 4px 0 var(--black); }
+  :root:not([data-theme='light']) .btn-primary { box-shadow: 4px 4px 0 var(--pink); }
+  .btn-ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
+  .btn-candy { background: var(--yellow); color: var(--black); box-shadow: 4px 4px 0 var(--black); }
+  .btn:hover { transform: translate(-1px, -2px); }
+  .btn:active { transform: translate(2px, 2px); box-shadow: 0 0 0 var(--black); }
+
+  .meter { display: inline-flex; align-items: flex-end; gap: 2px; height: 14px; }
+  .meter i { display: block; width: 4px; border-radius: 1px; background: var(--hairline); }
+  .meter i.on { background: var(--vibe, var(--pink)); }
+  .meter i:nth-child(1) { height: 30%; } .meter i:nth-child(2) { height: 48%; } .meter i:nth-child(3) { height: 66%; }
+  .meter i:nth-child(4) { height: 84%; } .meter i:nth-child(5) { height: 100%; }
+  .serious .meter i.on { background: #6b7280; }
+
+  .eyebrow { font-family: var(--font-mono); font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+
+  .marquee { display: flex; width: max-content; animation: marquee 60s linear infinite; }
+  .marquee:hover { animation-play-state: paused; }
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.6); opacity: 0.9; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .marquee { width: auto; flex-wrap: wrap; }
+  .marquee [aria-hidden='true'] { display: none; }
+}
+
+.stale-bar {
+  background: var(--yellow); color: var(--black); font-weight: 600; font-size: 14px;
+  text-align: center; padding: 8px 16px; border-bottom: 3px solid var(--black);
+}
+
+/* Unlayered on purpose: must beat Tailwind's utilities layer inside Serious Mode
+   surfaces, where the dark-theme muted colour would fail contrast (#4b5563 on #f3f4f6 = 7:1). */
+.serious .text-muted,
+.serious-surface .text-muted,
+.serious .muted { color: #4b5563; }
+.serious .text-ink, .serious-surface .text-ink { color: var(--serious-ink); }

@@ -1,0 +1,9 @@
+---
+import type { ProtestEvent } from '../lib/data';
+import { vibeClass, vibeLabel } from '../lib/format';
+interface Props { e: ProtestEvent; class?: string }
+const { e, class: cls = '' } = Astro.props;
+const v = vibeClass(e);
+const pulsing = e.isOngoing && (v === 'heating-up' || v === 'peak-loud');
+---
+<span class:list={['sticker', `s-${v}`, { live: pulsing }, cls]}><span class="dot" aria-hidden="true"></span>{vibeLabel(e)}</span>

@@ -1,0 +1,33 @@
+---
+// Static country map (shared /maps/<iso>.svg) with city-centre pins on top. Zero JS.
+import { pinFor, MAP_W, MAP_H } from '../lib/geo';
+import { eventUrl, type ProtestEvent } from '../lib/data';
+interface Props { iso: string; events: ProtestEvent[]; label: string; links?: boolean }
+const { iso, events, label, links = false } = Astro.props;
+const pins = events
+  .map((e) => ({ e, p: pinFor(iso, e.place.lng, e.place.lat) }))
+  .filter((x): x is { e: ProtestEvent; p: { x: number; y: number } } => !!x.p);
+---
+<figure class="locator relative overflow-hidden rounded-2xl border-2 border-hairline bg-surface-2">
+  <svg viewBox={`0 0 ${MAP_W} ${MAP_H}`} class="block h-auto w-full" role="img" aria-label={label}>
+    <use href={`/maps/${iso}.svg#map`} />
+  </svg>
+  {pins.map(({ e, p }) => {
+    const cls = ['pin-dot', e.severity === 'serious' ? 'serious' : e.isOngoing ? 'live' : 'past'];
+    return links ? (
+      <a href={eventUrl(e)} class="pin" style={`left:${p.x}%;top:${p.y}%`} aria-label={e.title} title={e.title}><span class:list={cls}></span></a>
+    ) : (
+      <span class="pin" style={`left:${p.x}%;top:${p.y}%`} aria-hidden="true"><span class:list={cls}></span></span>
+    );
+  })}
+  <figcaption class="mono absolute bottom-2 left-3 text-muted">Pins sit on city centres, never on gathering points</figcaption>
+</figure>
+<style>
+  .locator { --map-nb: var(--surface); --map-line: var(--hairline); --map-me: var(--land); --map-me-line: var(--ink); }
+  .pin { position: absolute; width: 0; height: 0; }
+  a.pin::before { content: ''; position: absolute; left: -16px; top: -16px; width: 32px; height: 32px; }
+  .pin-dot { position: absolute; left: -7px; top: -7px; width: 14px; height: 14px; border-radius: 99px; background: var(--pink); border: 2.5px solid #0b0b12; }
+  .pin-dot.live::after { content: ''; position: absolute; inset: -8px; border-radius: 99px; border: 2.5px solid var(--pink); animation: pulse 1.8s ease-out infinite; }
+  .pin-dot.past { background: var(--lime); }
+  .pin-dot.serious { background: #9ca3af; }
+</style>

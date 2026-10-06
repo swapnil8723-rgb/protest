@@ -1,0 +1,184 @@
+// The 30-minute pipeline: discover → fetch → classify → summarize → score → review → save.
+// usage: node pipeline/run.ts                 (normal run, GitHub Actions)
+//        node pipeline/run.ts --backfill=5   (launch: last 5 days of GDELT daily files)
+//        node pipeline/run.ts --no-discover  (re-process what is already stored)
+import { SITE } from '../src/site.ts';
+import { makeAi, OverBudget } from './ai.ts';
+import { fetchPage, type Page } from './article.ts';
+import { byIso, LIMITS } from './config.ts';
+import { classify } from './classify.ts';
+import { discoverDays, discoverRecent, type GdeltHit } from './gdelt.ts';
+import { discoverRss, type RssItem } from './rss.ts';
+import { score } from './score.ts';
+import { loadArticles, loadEvents, loadState, saveArticles, saveEvents, saveState, writeChanged } from './store.ts';
+import { reserveSlugs, summarize, visible } from './summarize.ts';
+import { pollDecisions, reviewerConfigured, sendReviews } from './telegram.ts';
+import type { RunLog } from './types.ts';
+import { hostOf, nowIso, pool, PROTEST_WORDS } from './util.ts';
+
+// undici can throw an internal assertion from a socket callback when a server ends a
+// response mid-parse (seen on a few news sites). It is isolated to that request; the
+// fetch itself rejects via its timeout, so keep the run alive instead of crashing.
+process.on('uncaughtException', (err: any) => {
+  if (err?.code === 'ERR_ASSERTION' && String(err.stack).includes('undici')) return console.warn('undici assertion ignored');
+  console.error(err);
+  process.exit(1);
+});
+
+const args = Object.fromEntries(process.argv.slice(2).map((a) => a.replace(/^--/, '').split('=')).map(([k, v]) => [k, v ?? 'true']));
+const t0 = Date.now();
+const notes: string[] = [];
+const log = (s: string) => {
+  notes.push(s);
+  console.log(s);
+};
+
+/** Drop tracking params and fragments so the same story isn't stored twice. */
+export function cleanUrl(u: string): string {
+  try {
+    const url = new URL(u);
+    url.hash = '';
+    for (const k of [...url.searchParams.keys()]) if (/^(utm_|fbclid|gclid|ref$|cmp|from$|ito$)/i.test(k)) url.searchParams.delete(k);
+    return url.toString();
+  } catch {
+    return u;
+  }
+}
+
+const state = loadState();
+const articles = loadArticles();
+const events = loadEvents();
+reserveSlugs(events.values());
+const ai = makeAi(state);
+const before = new Map([...events.values()].map((e) => [e.id, JSON.stringify([visible(e), e.published, e.vibe, e.isOngoing])]));
+const run: RunLog = { at: nowIso(), ms: 0, discovered: 0, fetched: 0, classified: 0, protests: 0, summarized: 0, published: 0, live: 0, aiCalls: 0, notes };
+log(`run: AI provider ${ai.name}, reviewer ${reviewerConfigured() ? 'telegram' : 'none (strict auto-publish)'}`);
+
+try {
+  // 1. Human decisions first, so an Approve tapped 10 minutes ago publishes now.
+  try {
+    await pollDecisions(state, events, log);
+  } catch (e) {
+    log(`telegram poll: ${(e as Error).message}`);
+  }
+
+  // 2. Discover
+  if (args['no-discover'] !== 'true') {
+    let hits: GdeltHit[] = [];
+    if (args.backfill) {
+      const days = Array.from({ length: Number(args.backfill) }, (_, i) => new Date(Date.now() - (i + 1) * 864e5).toISOString().slice(0, 10)).reverse();
+      hits = await discoverDays(days, log);
+      // Today so far is not in a daily file yet: walk today's 15-minute files from 00:00 UTC.
+      const midnight = new Date(new Date().toISOString().slice(0, 10) + 'T00:00:00Z').getTime() - 15 * 60e3;
+      const r = await discoverRecent(new Date(midnight).toISOString().replace(/[-:T]/g, '').slice(0, 14), log);
+      hits.push(...r.hits);
+      state.gdeltCursor = r.cursor;
+    } else {
+      const r = await discoverRecent(state.gdeltCursor, log);
+      hits = r.hits;
+      state.gdeltCursor = r.cursor;
+      log(`gdelt: ${r.files} files, ${hits.length} protest URLs`);
+    }
+    const rss: RssItem[] = await discoverRss(log, args.backfill ? 24 * Number(args.backfill) : 72);
+    log(`rss: ${rss.length} protest-word items`);
+    const now = nowIso();
+    for (const h of hits) {
+      const url = cleanUrl(h.url);
+      const a = articles.get(url);
+      if (a) {
+        a.gdelt ??= { codes: [], fips: h.fips, place: h.place, articles: 0 };
+        for (const c of h.codes) if (!a.gdelt.codes.includes(c)) a.gdelt.codes.push(c);
+        a.gdelt.articles = Math.max(a.gdelt.articles, h.articles);
+        continue;
+      }
+      articles.set(url, {
+        url, publisher: hostOf(url), via: 'gdelt', firstSeenAt: h.added < now ? h.added : now, fetch: 'new',
+        gdelt: { codes: h.codes, fips: h.fips, place: h.place, articles: h.articles },
+      });
+      run.discovered++;
+    }
+    for (const r of rss) {
+      const url = cleanUrl(r.url);
+      if (articles.has(url)) continue;
+      const seen = r.publishedAt && r.publishedAt < now ? r.publishedAt : now;
+      articles.set(url, { url, publisher: hostOf(url), via: 'rss', firstSeenAt: seen, title: r.title, description: r.description, publishedAt: r.publishedAt, fetch: 'new' });
+      run.discovered++;
+    }
+  }
+
+  // 3. Fetch new articles (newest first), cheap keyword gate before any AI.
+  const pages = new Map<string, Page>();
+  const fresh = [...articles.values()].filter((a) => a.fetch === 'new').sort((a, b) => (a.firstSeenAt < b.firstSeenAt ? 1 : -1));
+  const cap = args.backfill ? 5000 : LIMITS.fetchPerRun;
+  let n = 0;
+  await pool(fresh.slice(0, cap), LIMITS.fetchConcurrency, async (a) => {
+    if (++n % 100 === 0) console.log(`fetch: ${n}/${Math.min(cap, fresh.length)}`);
+    try {
+      const p = await fetchPage(a.url);
+      a.title = p.title || a.title;
+      a.description = p.description || a.description;
+      a.publishedAt = p.publishedAt || a.publishedAt;
+      a.lang = p.lang;
+      a.fetch = 'ok';
+      pages.set(a.url, p);
+      run.fetched++;
+      if (!PROTEST_WORDS.test(`${a.title} ${a.description} ${p.text.slice(0, 1500)}`)) {
+        a.cls = { at: nowIso(), isProtest: false, reason: 'no protest vocabulary' };
+      } else if (a.publishedAt && Date.now() - Date.parse(a.publishedAt) > 12 * 864e5) {
+        a.cls = { at: nowIso(), isProtest: false, reason: 'article older than 12 days' };
+      }
+    } catch (e) {
+      a.fetch = 'failed';
+      a.fetchError = (e as Error).message.slice(0, 120);
+    }
+  });
+  log(`fetch: ${run.fetched} ok, ${fresh.slice(0, cap).filter((a) => a.fetch === 'failed').length} failed`);
+
+  // 4. Classify (articles fetched in an earlier run but not yet judged are re-read).
+  const todo = [...articles.values()].filter((a) => a.fetch === 'ok' && !a.cls).sort((a, b) => (a.firstSeenAt < b.firstSeenAt ? -1 : 1));
+  await pool(todo.filter((a) => !pages.has(a.url)), LIMITS.fetchConcurrency, async (a) => {
+    try {
+      pages.set(a.url, await fetchPage(a.url));
+    } catch {
+      /* classify from title + description */
+    }
+  });
+  const c = await classify(ai, todo, pages, events, log);
+  run.classified = c.classified;
+  run.protests = c.protests;
+
+  // 5. Summaries for events with ≥ 2 independent publishers and new sources
+  run.summarized = (await summarize(ai, events, articles, log)).length;
+} catch (e) {
+  if (e instanceof OverBudget) log(`AI budget: ${e.message} — remaining work waits for tomorrow`);
+  else throw e;
+} finally {
+  // 6. Score, review, save — always, so partial progress is kept.
+  score(events, articles, { reviewer: reviewerConfigured() });
+  try {
+    await sendReviews(events, SITE, log);
+  } catch (e) {
+    log(`telegram send: ${(e as Error).message}`);
+  }
+  const changed: string[] = [];
+  for (const e of events.values()) {
+    const now = JSON.stringify([visible(e), e.published, e.vibe, e.isOngoing]);
+    if (before.get(e.id) === now) continue;
+    if (e.published && e.slug) {
+      const cc = byIso.get(e.place.country)!;
+      changed.push(`/p/${e.slug}`, `/country/${cc.slug}`, `/${cc.iso}/${e.place.regionSlug}/${e.place.citySlug}`);
+    }
+  }
+  if (changed.length) changed.push('/', '/today');
+  writeChanged(changed);
+  saveEvents(events);
+  saveArticles(articles, events);
+  run.published = [...events.values()].filter((e) => e.published).length;
+  run.live = [...events.values()].filter((e) => e.published && e.isOngoing).length;
+  run.aiCalls = ai.calls;
+  run.ms = Date.now() - t0;
+  state.lastRunAt = run.at;
+  state.runs.push({ ...run, notes: notes.slice(-40) });
+  saveState(state);
+  console.log(`done in ${(run.ms / 1000).toFixed(1)}s — discovered ${run.discovered}, fetched ${run.fetched}, classified ${run.classified}, protests ${run.protests}, summarized ${run.summarized}, published ${run.published} (${run.live} live), AI calls ${run.aiCalls}`);
+}

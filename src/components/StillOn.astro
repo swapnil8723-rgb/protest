@@ -1,0 +1,26 @@
+---
+import type { ProtestEvent } from '../lib/data';
+import { lastRunAt } from '../lib/data';
+import { stillOn } from '../lib/format';
+interface Props { e: ProtestEvent }
+const { e } = Astro.props;
+const s = stillOn(e);
+const serious = e.severity === 'serious';
+const tone = serious ? 'serious-surface' : s.verdict === 'YES' ? 'bg-lime text-black' : s.verdict === 'SOON' ? 'bg-yellow text-black' : 'bg-surface-2';
+---
+<section aria-labelledby="still-on" class:list={['still rounded-[22px] border-[3px] border-black p-5 sm:p-6', tone, { 'shadow-hard': !serious }]}>
+  <h2 id="still-on" class="eyebrow opacity-80" style="color: inherit">Is it still on?</h2>
+  <p class="mt-1 flex flex-wrap items-baseline gap-x-4 gap-y-1">
+    <span class="display text-[64px] leading-[0.85] sm:text-[88px]">{s.verdict}</span>
+    <span class="text-[18px] font-semibold leading-snug sm:text-[20px]">{s.line}</span>
+  </p>
+  <p class="mono mt-3 opacity-80">
+    Last report <time data-rel datetime={e.lastReportAt}>{e.lastReportAt.slice(0, 16).replace('T', ' ')} UTC</time>
+    · checked <time data-rel datetime={lastRunAt}>{lastRunAt.slice(0, 16).replace('T', ' ')} UTC</time>
+  </p>
+</section>
+<style>
+  .shadow-hard { box-shadow: 6px 6px 0 var(--shadow-ink); }
+  :root:not([data-theme='light']) .still.bg-surface-2 { border-color: #2e2e40; }
+  :root:not([data-theme='light']) .still.bg-lime { box-shadow: 6px 6px 0 var(--violet); }
+</style>

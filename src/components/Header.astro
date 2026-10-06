@@ -1,0 +1,44 @@
+---
+import Logo from './Logo.astro';
+import { COUNTRIES, countryUrl, inCountry, live } from '../lib/data';
+---
+<header class="sticky top-0 z-40 border-b border-hairline bg-bg/95">
+  <div class="wrap flex h-[60px] items-center gap-3">
+    <a href="/" class="flex items-center gap-2 no-underline" aria-label="LOUD home">
+      <Logo size={34} />
+      <span class="display text-[26px] leading-none tracking-[-0.05em]">LOUD</span>
+    </a>
+    <a href="/today" class="ml-1 hidden items-center gap-2 rounded-full border-2 border-black bg-pink px-3 py-1 text-[13px] font-bold text-black no-underline sm:inline-flex" aria-label={`${live.length} protests live now`}>
+      <span class="relative inline-block h-2 w-2 rounded-full bg-black live-dot"></span>
+      {live.length} live
+    </a>
+    <nav class="ml-auto flex items-center gap-1 text-[15px] font-semibold" aria-label="Main">
+      <a href="/today" class="rounded-lg px-3 py-2 no-underline hover:bg-surface-2">Today</a>
+      <details class="relative">
+        <summary class="cursor-pointer list-none rounded-lg px-3 py-2 hover:bg-surface-2 [&::-webkit-details-marker]:hidden">Countries</summary>
+        <div class="card absolute right-0 top-12 z-50 w-64 p-2" style="--vibe: var(--yellow)">
+          <ul class="grid gap-0.5">
+            {COUNTRIES.map((c) => {
+              const n = inCountry(c.iso).filter((e) => e.isOngoing).length;
+              return (
+                <li>
+                  <a href={countryUrl(c)} class="flex items-center justify-between rounded-lg px-3 py-2 no-underline hover:bg-surface-2">
+                    <span>{c.name}</span>
+                    {n > 0 && <span class="mono rounded-full bg-pink px-2 text-black">{n}</span>}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </details>
+      <a href="/how-we-know" class="hidden rounded-lg px-3 py-2 no-underline hover:bg-surface-2 md:inline-block">How we know</a>
+      <button type="button" id="theme" class="ml-1 grid h-10 w-10 place-items-center rounded-xl border-2 border-hairline hover:bg-surface-2" aria-label="Switch light or dark mode" title="Light / dark">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+<style>
+  .live-dot::after { content: ''; position: absolute; inset: -4px; border-radius: 99px; border: 2px solid #0b0b12; animation: pulse 1.8s ease-out infinite; }
+</style>

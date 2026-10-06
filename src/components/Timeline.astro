@@ -1,0 +1,25 @@
+---
+import Ref from './Ref.astro';
+import type { ProtestEvent } from '../lib/data';
+import { fmtDay } from '../lib/format';
+interface Props { e: ProtestEvent }
+const { e } = Astro.props;
+const updates = [...e.updates].reverse(); // newest first
+---
+{updates.length > 0 && (
+  <section aria-labelledby="timeline">
+    <h2 id="timeline" class="display text-[26px]">Timeline</h2>
+    <ol class="mt-4 grid gap-3">
+      {updates.map((u, i) => (
+        <li class="flex gap-3">
+          <time datetime={u.at} class="mono w-[56px] shrink-0 pt-3 text-right text-muted">{fmtDay(u.at, false)}</time>
+          <p class:list={['bubble', { first: i === 0 }]}>{u.text}<Ref n={u.sources} /></p>
+        </li>
+      ))}
+    </ol>
+  </section>
+)}
+<style>
+  .bubble { position: relative; padding: 10px 14px; border-radius: 4px 18px 18px 18px; background: var(--surface-2); border: 1.5px solid var(--hairline); max-width: 62ch; }
+  .bubble.first { background: var(--surface); border: 2px solid var(--ink); }
+</style>

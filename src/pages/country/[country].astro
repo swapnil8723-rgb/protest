@@ -1,0 +1,74 @@
+---
+import Base from '../../layouts/Base.astro';
+import EventCard from '../../components/EventCard.astro';
+import LocatorMap from '../../components/LocatorMap.astro';
+import { cities, COUNTRIES, inCountry, lastRunAt, type Country } from '../../lib/data';
+import { metaDesc, monthYear } from '../../lib/format';
+import { breadcrumbs, itemList } from '../../lib/seo';
+
+export function getStaticPaths() {
+  return COUNTRIES.map((c) => ({ params: { country: c.slug }, props: { c } }));
+}
+const { c } = Astro.props as { c: Country };
+const all = inCountry(c.iso);
+const live = all.filter((e) => e.isOngoing);
+const past = all.filter((e) => !e.isOngoing);
+const month = monthYear(new Date().toISOString().slice(0, 10));
+const cityList = [...cities]
+  .filter(([k]) => k.startsWith(c.iso + '/'))
+  .map(([k, list]) => ({ url: `/${k}`, name: list[0].place.city, n: list.length, live: list.filter((e) => e.isOngoing).length }))
+  .sort((a, b) => b.live - a.live || b.n - a.n);
+const liveCities = [...new Set(live.map((e) => e.place.city))];
+const lede = live.length
+  ? `${live.length} protest${live.length === 1 ? ' is' : 's are'} live in ${c.name} right now${liveCities.length ? `, in ${liveCities.slice(0, 4).join(', ')}${liveCities.length > 4 ? ` and ${liveCities.length - 4} more` : ''}` : ''}. The loudest: ${live[0].title}.`
+  : `No protests are live in ${c.name} right now. Suspiciously quiet. ${past.length ? `Below: the ${past.length} we tracked recently.` : ''}`;
+const title = `${c.name} protests today: live tracker & latest updates (${month})`;
+---
+<Base
+  title={title}
+  description={metaDesc(`${lede} Every protest in ${c.name} explained in three lines, with sources and whether it is still on. Updated every 30 minutes.`)}
+  path={`/country/${c.slug}`}
+  jsonLd={[itemList(all, `Protests in ${c.name}`), breadcrumbs([['Home', '/'], [c.name, `/country/${c.slug}`]])]}
+>
+  <div class="wrap pt-10">
+    <nav aria-label="Breadcrumb" class="mono text-muted"><a href="/" class="hover:underline">Home</a> / {c.name}</nav>
+    <div class="mt-4 grid items-start gap-8 lg:grid-cols-[1.1fr_1fr]">
+      <div>
+        <p class="eyebrow">Updated <time data-rel datetime={lastRunAt}>recently</time></p>
+        <h1 class="mt-3 text-[44px] sm:text-[68px]">{c.name} protests today</h1>
+        <p class="mt-5 max-w-2xl text-[18px] leading-relaxed sm:text-[20px]">{lede}</p>
+        <dl class="mt-6 flex gap-8">
+          <div><dt class="eyebrow">Live</dt><dd class="display text-[40px] leading-none">{live.length}</dd></div>
+          <div><dt class="eyebrow">Tracked</dt><dd class="display text-[40px] leading-none">{all.length}</dd></div>
+          <div><dt class="eyebrow">Cities</dt><dd class="display text-[40px] leading-none">{new Set(all.map((e) => e.place.citySlug)).size}</dd></div>
+        </dl>
+        {cityList.length > 0 && (
+          <div class="mt-7">
+            <p class="eyebrow">City pages</p>
+            <ul class="mt-2 flex flex-wrap gap-2">
+              {cityList.map((x) => <li><a href={x.url} class="cause !px-3.5 !py-2">{x.name.toLowerCase()}{x.live > 0 && <span class="mono ml-2 rounded-full bg-pink px-1.5 text-black">{x.live}</span>}</a></li>)}
+            </ul>
+          </div>
+        )}
+      </div>
+      <LocatorMap iso={c.iso} events={all} label={`Map of ${c.name} with ${all.length} protest locations`} links />
+    </div>
+
+    <section class="mt-14" aria-labelledby="live">
+      <h2 id="live" class="text-[32px] sm:text-[40px]">Live in {c.name}</h2>
+      {live.length ? (
+        <div class="mt-7 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{live.map((e) => <EventCard e={e} />)}</div>
+      ) : (
+        <p class="mt-4 text-[18px] text-muted">No protests here. Suspiciously quiet.</p>
+      )}
+    </section>
+
+    {past.length > 0 && (
+      <section class="mt-16" aria-labelledby="past">
+        <h2 id="past" class="text-[32px] sm:text-[40px]">Recently wrapped up</h2>
+        <p class="mt-2 text-muted">Archive pages stay up, so you can always check what happened.</p>
+        <div class="mt-7 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{past.slice(0, 24).map((e) => <EventCard e={e} tiltCard={false} />)}</div>
+      </section>
+    )}
+  </div>
+</Base>

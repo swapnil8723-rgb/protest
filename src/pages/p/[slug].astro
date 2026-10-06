@@ -1,0 +1,87 @@
+---
+import Base from '../../layouts/Base.astro';
+import Vibe from '../../components/Vibe.astro';
+import StillOn from '../../components/StillOn.astro';
+import Tea from '../../components/Tea.astro';
+import Sides from '../../components/Sides.astro';
+import Numbers from '../../components/Numbers.astro';
+import Timeline from '../../components/Timeline.astro';
+import Receipts from '../../components/Receipts.astro';
+import ShareBar from '../../components/ShareBar.astro';
+import LocatorMap from '../../components/LocatorMap.astro';
+import EventCard from '../../components/EventCard.astro';
+import { events, countryOf, countryUrl, cityUrl, related, type ProtestEvent } from '../../lib/data';
+import { fmtDay, isSerious, metaDesc } from '../../lib/format';
+import { breadcrumbs, eventJsonLd } from '../../lib/seo';
+
+export function getStaticPaths() {
+  return events.map((e) => ({ params: { slug: e.slug }, props: { e } }));
+}
+const { e } = Astro.props as { e: ProtestEvent };
+const c = countryOf(e);
+const city = cityUrl(e);
+const serious = isSerious(e);
+const date = fmtDay(e.startedOn);
+const title = `${e.seoTitle || e.title} (${date}): is it still on?`;
+const description = metaDesc(`${e.tea.why} ${e.tea.want}`);
+const crumbs: [string, string][] = [['Home', '/'], [c.name, countryUrl(c)], ...(city ? [[e.place.city, city] as [string, string]] : []), [e.seoTitle || e.title, `/p/${e.slug}`]];
+const more = related(e);
+const scopeNote = e.scope === 'nationwide' ? `Nationwide · pinned on ${e.place.city}` : e.scope === 'multi-city' ? `Several cities · pinned on ${e.place.city}` : `${e.place.city}${e.place.region && e.place.region !== e.place.city ? ', ' + e.place.region : ''}`;
+---
+<Base
+  title={title}
+  description={description}
+  path={`/p/${e.slug}`}
+  image={`/cards/${e.slug}-og.png`}
+  imageAlt={`${e.title}: ${e.tea.why}`}
+  type="article"
+  modified={e.updatedAt}
+  jsonLd={[eventJsonLd(e), breadcrumbs(crumbs)]}
+>
+  <article class="wrap pt-6 sm:pt-10">
+    <nav aria-label="Breadcrumb" class="mono text-muted">
+      <ol class="flex flex-wrap items-center gap-x-2 gap-y-1">
+        {crumbs.slice(0, -1).map(([n, p]) => <li class="flex items-center gap-2"><a href={p} class="hover:underline">{n}</a><span aria-hidden="true">/</span></li>)}
+      </ol>
+    </nav>
+
+    <header class="mt-4 max-w-4xl">
+      <div class="flex flex-wrap items-center gap-2">
+        <Vibe e={e} />
+        {e.causes.map((x) => <a href={`/today?cause=${x}`} class="cause" rel="nofollow">{x}</a>)}
+      </div>
+      <h1 class="mt-4 text-[34px] sm:text-[52px] lg:text-[60px]">{e.title}</h1>
+      <p class="mt-3 text-[15px] font-semibold text-muted">
+        {scopeNote}, {c.name} · {e.kind === 'multi-day' ? `since ${date}` : date}
+      </p>
+    </header>
+
+    <div class="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-10">
+      <div class="grid min-w-0 content-start gap-8">
+        <StillOn e={e} />
+        <Tea e={e} />
+        <ShareBar e={e} />
+        <Sides e={e} />
+        <Numbers e={e} />
+        <section aria-labelledby="story">
+          <h2 id="story" class="display text-[26px]">The full story</h2>
+          <p class="mt-3 max-w-[68ch] text-[17px] leading-[1.7] sm:text-[18px]">{e.summary}</p>
+        </section>
+        <Timeline e={e} />
+        <LocatorMap iso={e.place.country} events={[e]} label={`Map of ${c.name} with a pin on ${e.place.city}`} />
+      </div>
+      <aside class="min-w-0 lg:sticky lg:top-[84px] lg:self-start" aria-label="Sources">
+        <Receipts e={e} />
+      </aside>
+    </div>
+
+    {more.length > 0 && (
+      <section class="mt-16" aria-labelledby="more">
+        <h2 id="more" class="text-[30px] sm:text-[36px]">{serious ? 'Related protests' : 'More like this'}</h2>
+        <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {more.map((o) => <EventCard e={o} />)}
+        </div>
+      </section>
+    )}
+  </article>
+</Base>

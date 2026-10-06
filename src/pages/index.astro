@@ -1,0 +1,192 @@
+---
+import Base from '../layouts/Base.astro';
+import EventCard from '../components/EventCard.astro';
+import { COUNTRIES, countryOf, countryUrl, eventUrl, events, inCountry, live, lastRunAt, wrapped } from '../lib/data';
+import { isSerious, vibeClass, vibeLabel } from '../lib/format';
+import { itemList, org, website } from '../lib/seo';
+import { BRAND, DESCRIPTION } from '../site';
+
+const pins = events
+  .filter((e) => e.isOngoing || Date.now() - Date.parse(e.lastReportAt) < 4 * 864e5)
+  .slice(0, 120)
+  .map((e) => ({
+    lat: e.place.lat,
+    lng: e.place.lng,
+    vibe: vibeClass(e),
+    serious: isSerious(e),
+    title: e.title,
+    url: eventUrl(e),
+    place: `${e.place.city}, ${countryOf(e).name}`,
+    why: e.tea.why,
+    label: vibeLabel(e),
+  }));
+const liveCountries = new Set(live.map((e) => e.place.country)).size;
+const loudest = live.slice(0, 6);
+const india = events.filter((e) => e.place.country === 'in').slice(0, 4);
+const recentlyWrapped = wrapped.slice(0, 4);
+const ticker = (live.length ? live : events).slice(0, 14);
+const totalSources = events.reduce((n, e) => n + e.sources.length, 0);
+const causes = [...new Map(events.flatMap((e) => e.causes).map((c) => [c, 0])).keys()].map((c) => [c, events.filter((e) => e.causes.includes(c)).length] as const).sort((a, b) => b[1] - a[1]).slice(0, 14);
+---
+<Base
+  title={`${BRAND}: Live protest map & tracker. Protests today, explained`}
+  description={DESCRIPTION}
+  path="/"
+  jsonLd={[website, { '@context': 'https://schema.org', ...org }, itemList(live, 'Protests happening now')]}
+>
+  <section class="relative overflow-hidden border-b border-hairline">
+    <div class="wrap grid items-center gap-6 pb-10 pt-8 lg:grid-cols-[1.05fr_1fr] lg:gap-4 lg:pb-16 lg:pt-14">
+      <div class="relative z-10">
+        <p class="flex flex-wrap items-center gap-2">
+          <span class="sticker s-heating-up live"><span class="dot" aria-hidden="true"></span>Live</span>
+          <span class="mono text-muted">updated <time data-rel datetime={lastRunAt}>recently</time> · checked every 30 min</span>
+        </p>
+        <h1 class="hero mt-5">
+          Where the world is getting <span class="loud">LOUD</span> right now.
+        </h1>
+        <p class="mt-5 max-w-[34rem] text-[18px] leading-relaxed text-muted sm:text-[20px]">
+          Every protest explained in 10 seconds: what's happening, why, what they want, and <strong class="text-ink">whether it's still on</strong>. Every card is checked against at least two independent newsrooms.
+        </p>
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href="/today" class="btn btn-primary">See today's protests</a>
+          <a href="/how-we-know" class="btn btn-ghost">How we know</a>
+        </div>
+        <dl class="mt-8 grid max-w-md grid-cols-3 gap-3">
+          <div><dt class="eyebrow">Live now</dt><dd class="display text-[40px] leading-none">{live.length}</dd></div>
+          <div><dt class="eyebrow">Countries</dt><dd class="display text-[40px] leading-none">{liveCountries}</dd></div>
+          <div><dt class="eyebrow">Receipts</dt><dd class="display text-[40px] leading-none">{totalSources}</dd></div>
+        </dl>
+      </div>
+
+      <div class="globe-wrap relative" data-globe>
+        <canvas class="globe aspect-square w-full touch-none select-none" aria-label={`Globe with ${pins.length} protest locations. Use the buttons or the list below to explore.`} role="img"></canvas>
+        <p data-status class="sr-only" aria-live="polite"></p>
+        <div class="absolute bottom-2 left-1/2 flex -translate-x-1/2 items-center gap-2 rounded-full border-2 border-black bg-surface px-2 py-1.5 shadow-[4px_4px_0_#000]">
+          <button type="button" data-prev class="globe-btn" aria-label="Previous protest">‹</button>
+          <span data-count class="mono min-w-[56px] text-center">{pins.length} pins</span>
+          <button type="button" data-next class="globe-btn" aria-label="Next protest">›</button>
+          <span class="mx-1 h-5 w-px bg-hairline" aria-hidden="true"></span>
+          <button type="button" data-zoom-out class="globe-btn" aria-label="Zoom out">−</button>
+          <button type="button" data-zoom-in class="globe-btn" aria-label="Zoom in">+</button>
+        </div>
+        <div data-drawer hidden aria-live="polite"></div>
+        <script type="application/json" id="pins" set:html={JSON.stringify(pins)} />
+      </div>
+    </div>
+
+    {ticker.length > 0 && (
+      <div class="overflow-hidden border-t-[3px] border-black bg-yellow py-2.5 text-black" aria-label="Latest protests">
+        <div class="marquee">
+          {[0, 1].map((copy) => (
+            <ul class="flex shrink-0 items-center" aria-hidden={copy === 1 ? 'true' : undefined}>
+              {ticker.map((e) => (
+                <li class="flex items-center gap-2 px-5 text-[15px] font-bold whitespace-nowrap">
+                  <span aria-hidden="true">●</span>
+                  <a href={eventUrl(e)} class="no-underline hover:underline" tabindex={copy === 1 ? -1 : undefined}>
+                    <span class="uppercase">{e.place.city}</span> · {e.seoTitle?.replace(new RegExp(`^${e.place.city}\\s*`, 'i'), '') || e.title} · {vibeLabel(e)}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          ))}
+        </div>
+      </div>
+    )}
+  </section>
+
+  <section class="wrap mt-14" aria-labelledby="loudest">
+    <div class="flex flex-wrap items-end justify-between gap-3">
+      <h2 id="loudest" class="text-[34px] sm:text-[44px]">Loudest right now</h2>
+      <a href="/today" class="font-semibold underline underline-offset-4">All {live.length} live protests →</a>
+    </div>
+    {loudest.length ? (
+      <div class="mt-8 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{loudest.map((e) => <EventCard e={e} />)}</div>
+    ) : (
+      <p class="mt-6 text-[18px] text-muted">No protests live right now. Suspiciously quiet.</p>
+    )}
+  </section>
+
+  {india.length > 0 && (
+    <section class="wrap mt-20" aria-labelledby="india">
+      <div class="flex flex-wrap items-end justify-between gap-3">
+        <h2 id="india" class="text-[34px] sm:text-[44px]">India this week</h2>
+        <a href="/country/india" class="font-semibold underline underline-offset-4">India protest tracker →</a>
+      </div>
+      <div class="mt-8 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">{india.map((e) => <EventCard e={e} />)}</div>
+    </section>
+  )}
+
+  <section class="wrap mt-20" aria-labelledby="countries">
+    <h2 id="countries" class="text-[34px] sm:text-[44px]">Pick a country</h2>
+    <ul class="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+      {COUNTRIES.map((c, i) => {
+        const all = inCountry(c.iso);
+        const n = all.filter((e) => e.isOngoing).length;
+        return (
+          <li>
+            <a href={countryUrl(c)} class:list={['country-tile card lift flex items-center justify-between gap-3 p-4 no-underline', ['v-heating-up', 'v-cooling-down', 'v-wrapped-up'][i % 3]]}>
+              <span>
+                <span class="display block text-[20px] leading-tight">{c.name}</span>
+                <span class="mono text-muted">{n} live · {all.length} tracked</span>
+              </span>
+              <span class="mono grid h-10 w-10 shrink-0 place-items-center rounded-full border-2 border-black bg-surface-2 text-[12px] uppercase">{c.iso}</span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+
+  {causes.length > 0 && (
+    <section class="wrap mt-20" aria-labelledby="causes">
+      <h2 id="causes" class="text-[34px] sm:text-[44px]">What people are mad about</h2>
+      <ul class="mt-6 flex flex-wrap gap-2.5">
+        {causes.map(([c, n]) => <li><a href={`/today?cause=${c}`} rel="nofollow" class="cause !px-4 !py-2.5 !text-[15px]">{c}<span class="mono ml-2 text-muted">{n}</span></a></li>)}
+      </ul>
+    </section>
+  )}
+
+  {recentlyWrapped.length > 0 && (
+    <section class="wrap mt-20" aria-labelledby="wrapped">
+      <h2 id="wrapped" class="text-[34px] sm:text-[44px]">Recently wrapped up</h2>
+      <div class="mt-8 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">{recentlyWrapped.map((e) => <EventCard e={e} />)}</div>
+    </section>
+  )}
+
+  <section class="wrap mt-24" aria-labelledby="trust">
+    <div class="card grid gap-8 p-6 sm:p-10 lg:grid-cols-[1fr_2fr]" style="--vibe: var(--violet)">
+      <div>
+        <p class="eyebrow">Funny UI, serious facts</p>
+        <h2 id="trust" class="mt-3 text-[34px] sm:text-[44px]">How we know</h2>
+      </div>
+      <ol class="grid gap-6 sm:grid-cols-3">
+        <li><p class="display text-[48px] leading-none text-pink">2+</p><p class="mt-2 font-semibold">independent newsrooms before anything goes live. One report stays hidden.</p></li>
+        <li><p class="display text-[48px] leading-none text-cyan">%</p><p class="mt-2 font-semibold">A confidence score on every card, with every source linked.</p></li>
+        <li><p class="display text-[48px] leading-none text-lime">0</p><p class="mt-2 font-semibold">jokes when people are hurt. Serious Mode switches on automatically.</p></li>
+      </ol>
+      <a href="/how-we-know" class="btn btn-primary lg:col-start-2 lg:justify-self-start">Read the method</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero { font-size: clamp(44px, 8.4vw, 104px); line-height: 0.9; letter-spacing: -0.045em; }
+  .loud {
+    display: inline-block; background: var(--pink); color: #0b0b12; padding: 0 0.12em; margin: 0 0.02em;
+    border: 4px solid #0b0b12; border-radius: 0.18em; transform: rotate(-3deg); box-shadow: 6px 6px 0 #0b0b12;
+  }
+  :root:not([data-theme='light']) .loud { box-shadow: 6px 6px 0 var(--cyan); }
+  .globe-wrap { max-width: 640px; justify-self: center; width: 100%; }
+  .globe { cursor: grab; opacity: 0.25; transition: opacity 600ms ease; }
+  .globe-wrap:global(.ready) .globe { opacity: 1; }
+  .globe:active { cursor: grabbing; }
+  .globe-btn { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 99px; font: 800 20px/1 var(--font-display); }
+  .globe-btn:hover { background: var(--surface-2); }
+  [data-drawer]:not([hidden]) { position: absolute; left: 50%; bottom: 64px; transform: translateX(-50%); width: min(360px, 92%); padding: 18px; z-index: 5; }
+  :global(.drawer-x) { width: 34px; height: 34px; border-radius: 99px; font-size: 24px; line-height: 1; }
+  :global(.drawer-x:hover) { background: var(--surface-2); }
+</style>
+
+<script>
+  import '../scripts/globe.ts';
+</script>

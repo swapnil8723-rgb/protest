@@ -1,0 +1,7 @@
+---
+interface Props { level: number }
+const { level } = Astro.props;
+---
+<span class="meter" role="img" aria-label={`Loudness ${level} of 5`} title={`Loudness ${level}/5 — based on how many reports in the last 48 hours`}>
+  {[1, 2, 3, 4, 5].map((i) => <i class:list={{ on: i <= level }} />)}
+</span>

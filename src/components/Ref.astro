@@ -1,0 +1,10 @@
+---
+// Superscript receipt links: [1][3] jump to the source in Receipts.
+interface Props { n: number[] }
+const { n } = Astro.props;
+---
+{n.length > 0 && <sup class="ml-0.5 whitespace-nowrap">{n.map((i) => <a href={`#src-${i}`} class="ref" aria-label={`Source ${i}`}>{i}</a>)}</sup>}
+<style>
+  .ref { display: inline-grid; place-items: center; min-width: 18px; height: 18px; margin-left: 2px; padding: 0 4px; border-radius: 6px; font: 600 11px/1 var(--font-mono); background: var(--surface-2); border: 1px solid var(--hairline); color: var(--ink); text-decoration: none; vertical-align: 2px; }
+  .ref:hover { background: var(--yellow); color: #0b0b12; }
+</style>
