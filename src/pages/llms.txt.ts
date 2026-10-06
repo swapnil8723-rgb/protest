@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { BRAND, DESCRIPTION, SITE } from '../site';
-import { COUNTRIES, countryOf, events } from '../lib/data';
+import { COUNTRIES, countryOf, verified as events } from '../lib/data';
 
 // llms.txt: a plain map of the site for AI answer engines.
 export const GET: APIRoute = () => {

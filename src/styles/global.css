@@ -22,6 +22,7 @@
   --lime: #c6ff00;
   --cyan: #00e5ff;
   --yellow: #ffd60a;
+  --reader: #ff8a00;
   --black: #0b0b12;
   --serious-bg: #f3f4f6;
   --serious-ink: #1f2937;
@@ -58,6 +59,7 @@
   --color-lime: var(--lime);
   --color-cyan: var(--cyan);
   --color-yellow: var(--yellow);
+  --color-reader: var(--reader);
   --color-black: var(--black);
   --color-serious-bg: var(--serious-bg);
   --color-serious-ink: var(--serious-ink);
@@ -138,6 +140,9 @@
   .v-heating-up, .v-peak-loud { --vibe: var(--pink); }
   .v-cooling-down { --vibe: var(--cyan); }
   .v-wrapped-up { --vibe: var(--lime); }
+  /* Reader report (not verified yet): orange, dashed — reads as "pinned up, not checked" */
+  .v-reader { --vibe: var(--reader); }
+  .card.reader, :root:not([data-theme='light']) .card.reader { border: 3px dashed var(--reader); }
 
   /* Serious Mode: no colour, no tilt, no motion, no jokes */
   .card.serious, .serious-surface {
@@ -169,6 +174,7 @@
   .s-tense { background: var(--serious-bg); color: var(--serious-ink); border: 1.5px solid var(--serious-line); }
   .s-tense .dot { background: #6b7280; }
   .s-soon { background: var(--yellow); }
+  .s-reader { background: var(--reader); border-style: dashed; }
 
   .cause {
     display: inline-flex; align-items: center; font-size: 13px; font-weight: 600; line-height: 1;

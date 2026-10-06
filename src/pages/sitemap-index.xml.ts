@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { SITE } from '../site';
-import { COUNTRIES, events } from '../lib/data';
+import { COUNTRIES, verified as events } from '../lib/data';
 
 // One sitemap per country (PLAN: "auto sitemap split by country") + one for hub pages.
 const latest = (iso?: string) =>

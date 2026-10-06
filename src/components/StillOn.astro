@@ -1,11 +1,12 @@
 ---
 import type { ProtestEvent } from '../lib/data';
-import { lastRunAt } from '../lib/data';
+import { isUnverified, lastRunAt } from '../lib/data';
 import { stillOn } from '../lib/format';
 interface Props { e: ProtestEvent }
 const { e } = Astro.props;
 const s = stillOn(e);
 const serious = e.severity === 'serious';
+const reader = isUnverified(e);
 const tone = serious ? 'serious-surface' : s.verdict === 'YES' ? 'bg-lime text-black' : s.verdict === 'SOON' ? 'bg-yellow text-black' : 'bg-surface-2';
 ---
 <section aria-labelledby="still-on" class:list={['still rounded-[22px] border-[3px] border-black p-5 sm:p-6', tone, { 'shadow-hard': !serious }]}>
@@ -14,8 +15,9 @@ const tone = serious ? 'serious-surface' : s.verdict === 'YES' ? 'bg-lime text-b
     <span class="display text-[64px] leading-[0.85] sm:text-[88px]">{s.verdict}</span>
     <span class="text-[18px] font-semibold leading-snug sm:text-[20px]">{s.line}</span>
   </p>
+  {reader && <p class="mt-2 text-[15px] font-semibold">That's what the reader who sent it says. No newsroom has confirmed it yet.</p>}
   <p class="mono mt-3 opacity-80">
-    Last report <time data-rel datetime={e.lastReportAt}>{e.lastReportAt.slice(0, 16).replace('T', ' ')} UTC</time>
+    {reader ? 'Sent' : 'Last report'} <time data-rel datetime={e.lastReportAt}>{e.lastReportAt.slice(0, 16).replace('T', ' ')} UTC</time>
     · checked <time data-rel datetime={lastRunAt}>{lastRunAt.slice(0, 16).replace('T', ' ')} UTC</time>
   </p>
 </section>

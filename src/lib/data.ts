@@ -13,10 +13,15 @@ const dataDir = path.resolve(process.env.DATA_DIR || 'data');
 
 const VIBE_ORDER = { 'peak-loud': 0, tense: 1, 'heating-up': 2, 'cooling-down': 3, 'wrapped-up': 4 } as const;
 
+/** Sent in by a reader and not yet confirmed by two newsrooms (orange "Reader report" card). */
+export const isUnverified = (e: ProtestEvent) => e.origin === 'reader' && e.stage !== 'live';
+
+/** Everything shown on the site, verified first. */
 export const events: ProtestEvent[] = [...loadEvents(dataDir).values()]
-  .filter((e) => e.published && e.slug && e.stage === 'live')
+  .filter((e) => e.published && e.slug && (e.stage === 'live' || e.origin === 'reader'))
   .sort((a, b) => {
     if (a.isOngoing !== b.isOngoing) return a.isOngoing ? -1 : 1;
+    if (isUnverified(a) !== isUnverified(b)) return isUnverified(a) ? 1 : -1;
     if (a.isOngoing) {
       const v = VIBE_ORDER[a.vibe] - VIBE_ORDER[b.vibe];
       if (v) return v;
@@ -25,7 +30,11 @@ export const events: ProtestEvent[] = [...loadEvents(dataDir).values()]
     return a.lastReportAt < b.lastReportAt ? 1 : -1;
   });
 
+/** Newsroom-verified only: sitemaps, news sitemap, feed, llms.txt, city pages, related. */
+export const verified = events.filter((e) => !isUnverified(e));
+export const readerReports = events.filter(isUnverified);
 export const live = events.filter((e) => e.isOngoing);
+export const liveVerified = verified.filter((e) => e.isOngoing);
 export const wrapped = events.filter((e) => !e.isOngoing);
 
 const state: Partial<State> = (() => {
@@ -52,7 +61,7 @@ export const cityKey = (e: ProtestEvent) => `${e.place.country}/${e.place.region
 /** City pages exist only for cities with ≥ 2 published events (no thin pages). */
 export const cities = (() => {
   const m = new Map<string, ProtestEvent[]>();
-  for (const e of events) (m.get(cityKey(e)) ?? m.set(cityKey(e), []).get(cityKey(e))!).push(e);
+  for (const e of verified) (m.get(cityKey(e)) ?? m.set(cityKey(e), []).get(cityKey(e))!).push(e);
   return new Map([...m].filter(([, list]) => list.length >= 2));
 })();
 export const cityUrl = (e: ProtestEvent) => (cities.has(cityKey(e)) ? `/${cityKey(e)}` : null);
@@ -65,7 +74,7 @@ export function related(e: ProtestEvent, n = 4): ProtestEvent[] {
     o.causes.filter((c) => e.causes.includes(c)).length * 2 +
     (o.place.country === e.place.country ? 1 : 0) +
     (o.isOngoing ? 1 : 0);
-  return events
+  return verified
     .filter((o) => o.id !== e.id)
     .map((o) => [o, score(o)] as const)
     .filter(([, s]) => s >= 2)

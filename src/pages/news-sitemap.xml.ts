@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { BRAND, SITE } from '../site';
-import { events } from '../lib/data';
+import { verified as events } from '../lib/data';
 
 // Google News sitemap: only pages first published in the last 48 hours.
 const esc = (s: string) => s.replace(/[<>&'"]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' })[c]!);

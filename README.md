@@ -48,6 +48,13 @@ connected to it — every push to `main` deploys.
 
 Actions minutes: a private repo gets 2,000/month, so the pipeline runs hourly. Make the repo public to run it every 30 minutes.
 
+## Reader reports ("Add a protest")
+`/add` posts to `api/report.ts`, which stores the report in a private Vercel Blob store (created and linked to the
+project; `BLOB_READ_WRITE_TOKEN` and `READER_SALT` are Vercel env vars). The hourly pipeline fetches reports through
+`api/inbox.ts`, authenticated by GitHub Actions' OIDC token, so no secret needs copying. Reports at least an hour old get
+the automatic check and appear as orange "Reader report" cards. Turn the step off with repo variable `READER_REPORTS=off`.
+Blob's free tier allows roughly 2,000 writes a month; past that the form says "busy" until the next month (no charge on Hobby).
+
 ## Telegram review (optional, recommended)
 Create a bot with @BotFather and message it once. Get your chat id from
 `https://api.telegram.org/bot<TOKEN>/getUpdates`. Flagged events (deaths, serious injuries, 100+ arrests, top 10 live,

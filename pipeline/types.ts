@@ -68,11 +68,25 @@ export interface Update {
   sources: number[];
 }
 
+/** A protest sent in through the "Add a protest" form (pipeline/reader.ts). */
+export interface ReaderInfo {
+  submittedAt: string;
+  checkedAt: string; // when the automatic check passed
+  link?: string; // the link the reader gave, if any
+  linkHost?: string;
+  linkOk?: boolean; // the link opened and is about this protest
+  count: number; // readers who sent the same protest
+}
+
 export interface ProtestEvent {
   id: string;
   slug: string;
   /** Hidden until it has enough independent publishers and a summary. */
   stage: 'candidate' | 'live';
+  /** 'reader' = sent by a reader. Shown, labelled unverified, while stage is 'candidate';
+   *  once newsrooms confirm it (stage 'live') it is a normal card, "first flagged by a reader". */
+  origin?: 'news' | 'reader';
+  reader?: ReaderInfo;
   title: string; // neutral headline, ≤ 90 chars
   seoTitle: string; // ≤ 48 chars, used in <title>
   place: Place;

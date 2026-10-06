@@ -128,7 +128,8 @@ async function cached(key: string, make: () => Promise<Buffer>, dest: string) {
 }
 
 const t0 = Date.now();
-const events = [...loadEvents().values()].filter((e) => e.published && e.slug);
+// Unconfirmed reader reports get no share card (their pages use the generic image).
+const events = [...loadEvents().values()].filter((e) => e.published && e.slug && e.stage === 'live');
 let drawn = 0;
 for (const e of events) {
   const content = JSON.stringify([VERSION, SITE_HOST, e.title, e.tea, e.vibe, e.status, e.isOngoing, e.severity, e.publishers, e.confidence, e.place.city, e.startedOn, e.kind]);

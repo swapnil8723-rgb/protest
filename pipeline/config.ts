@@ -61,4 +61,7 @@ export const RULES = {
   reviewTopN: 10, // biggest live events need review (once)
   peakTopShare: 0.1, // top 10% of live events by report volume → Peak loud
   minPeakVolume: 6, // ...and at least this many reports in 48h
+  readerDelayMinutes: 60, // a reader report waits at least this long before its check
+  readerPerRun: 25, // reader reports checked per run (one AI call each)
+  readerHideAfterDays: 7, // unconfirmed reader reports leave the site this long after they wrap up
 };

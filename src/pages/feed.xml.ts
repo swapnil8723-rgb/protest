@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { BRAND, DESCRIPTION, SITE } from '../site';
-import { countryOf, events } from '../lib/data';
+import { countryOf, verified as events } from '../lib/data';
 
 const esc = (s: string) => s.replace(/[<>&]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;' })[c]!);
 

@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import EventCard from '../components/EventCard.astro';
-import { COUNTRIES, countryOf, countryUrl, eventUrl, events, inCountry, live, lastRunAt, wrapped } from '../lib/data';
+import { COUNTRIES, countryOf, countryUrl, eventUrl, events, inCountry, isUnverified, live, liveVerified, lastRunAt, wrapped } from '../lib/data';
 import { isSerious, vibeClass, vibeLabel } from '../lib/format';
 import { itemList, org, website } from '../lib/seo';
 import { BRAND, DESCRIPTION } from '../site';
@@ -12,15 +12,15 @@ const pins = events
   .map((e) => ({
     lat: e.place.lat,
     lng: e.place.lng,
-    vibe: vibeClass(e),
+    vibe: isUnverified(e) ? 'reader' : vibeClass(e),
     serious: isSerious(e),
     title: e.title,
     url: eventUrl(e),
     place: `${e.place.city}, ${countryOf(e).name}`,
     why: e.tea.why,
-    label: vibeLabel(e),
+    label: isUnverified(e) ? 'Reader report' : vibeLabel(e),
   }));
-const liveCountries = new Set(live.map((e) => e.place.country)).size;
+const liveCountries = new Set(liveVerified.map((e) => e.place.country)).size;
 const loudest = live.slice(0, 6);
 const india = events.filter((e) => e.place.country === 'in').slice(0, 4);
 const recentlyWrapped = wrapped.slice(0, 4);
@@ -49,10 +49,11 @@ const causes = [...new Map(events.flatMap((e) => e.causes).map((c) => [c, 0])).k
         </p>
         <div class="mt-7 flex flex-wrap gap-3">
           <a href="/today" class="btn btn-primary">See today's protests</a>
+          <a href="/add" class="btn btn-candy">+ Add a protest</a>
           <a href="/how-we-know" class="btn btn-ghost">How we know</a>
         </div>
         <dl class="mt-8 grid max-w-md grid-cols-3 gap-3">
-          <div><dt class="eyebrow">Live now</dt><dd class="display text-[40px] leading-none">{live.length}</dd></div>
+          <div><dt class="eyebrow">Live now</dt><dd class="display text-[40px] leading-none">{liveVerified.length}</dd></div>
           <div><dt class="eyebrow">Countries</dt><dd class="display text-[40px] leading-none">{liveCountries}</dd></div>
           <div><dt class="eyebrow">Receipts</dt><dd class="display text-[40px] leading-none">{totalSources}</dd></div>
         </dl>

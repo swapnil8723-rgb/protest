@@ -51,6 +51,11 @@ const causes = allCauses.filter((c) => list.some((e) => e.causes.includes(c)));
       ))}
     </ul>
     <p id="empty" class="mt-10 text-[20px] font-semibold" hidden>No protests here. Suspiciously quiet.</p>
+
+    <div class="card mt-14 flex flex-col items-start gap-4 p-6 sm:flex-row sm:items-center sm:justify-between" style="--vibe: var(--reader)">
+      <p class="text-[18px] font-semibold">Something happening near you that isn't here?</p>
+      <a href="/add" class="btn btn-candy shrink-0">+ Add a protest</a>
+    </div>
   </div>
 </Base>
 

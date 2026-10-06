@@ -1,4 +1,4 @@
-// The 30-minute pipeline: discover → fetch → classify → summarize → score → review → save.
+// The hourly pipeline: discover → fetch → classify → summarize → reader reports → score → review → save.
 // usage: node pipeline/run.ts                 (normal run, GitHub Actions)
 //        node pipeline/run.ts --backfill=5   (launch: last 5 days of GDELT daily files)
 //        node pipeline/run.ts --no-discover  (re-process what is already stored)
@@ -12,6 +12,7 @@ import { discoverRss, type RssItem } from './rss.ts';
 import { score } from './score.ts';
 import { loadArticles, loadEvents, loadState, saveArticles, saveEvents, saveState, writeChanged } from './store.ts';
 import { reserveSlugs, summarize, visible } from './summarize.ts';
+import { fileInbox, httpInbox, processReaderReports, scoreReaders } from './reader.ts';
 import { pollDecisions, reviewerConfigured, sendReviews } from './telegram.ts';
 import type { RunLog } from './types.ts';
 import { hostOf, nowIso, pool, PROTEST_WORDS } from './util.ts';
@@ -149,12 +150,25 @@ try {
 
   // 5. Summaries for events with ≥ 2 independent publishers and new sources
   run.summarized = (await summarize(ai, events, articles, log)).length;
+
+  // 6. Reader reports from the "Add a protest" form, at least an hour old.
+  const inbox = process.env.READER_INBOX_FILE ? fileInbox(process.env.READER_INBOX_FILE) : httpInbox(SITE);
+  if (inbox && process.env.READER_REPORTS !== 'off') {
+    try {
+      const r = await processReaderReports(ai, events, inbox, log);
+      log(`reader: ${r.published.length} published, ${r.held.length} held, ${r.merged.length} duplicates, ${r.rejected.length} rejected, ${r.waiting} waiting`);
+    } catch (e) {
+      if (e instanceof OverBudget) throw e;
+      log(`reader: inbox unavailable: ${(e as Error).message}`);
+    }
+  }
 } catch (e) {
   if (e instanceof OverBudget) log(`AI budget: ${e.message} — remaining work waits for tomorrow`);
   else throw e;
 } finally {
-  // 6. Score, review, save — always, so partial progress is kept.
+  // 7. Score, review, save — always, so partial progress is kept.
   score(events, articles, { reviewer: reviewerConfigured() });
+  scoreReaders(events);
   try {
     await sendReviews(events, SITE, log);
   } catch (e) {
@@ -164,7 +178,9 @@ try {
   for (const e of events.values()) {
     const now = JSON.stringify([visible(e), e.published, e.vibe, e.isOngoing]);
     if (before.get(e.id) === now) continue;
-    if (e.published && e.slug) {
+    // Unconfirmed reader reports are noindex: list pages change, their own page is not pinged.
+    if (e.published && e.slug && e.origin === 'reader' && e.stage !== 'live') changed.push('/today');
+    else if (e.published && e.slug) {
       const cc = byIso.get(e.place.country)!;
       changed.push(`/p/${e.slug}`, `/country/${cc.slug}`, `/${cc.iso}/${e.place.regionSlug}/${e.place.citySlug}`);
     }

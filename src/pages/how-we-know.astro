@@ -10,6 +10,7 @@ const vibes = [
   ['Peak loud', 's-peak-loud', `In the top ${RULES.peakTopShare * 100}% of live protests by report volume (and at least ${RULES.minPeakVolume} reports in 48 hours).`],
   ['Cooling down', 's-cooling-down', 'Report volume flat or falling over the last 24 hours.'],
   ['Wrapped up', 's-wrapped-up', `Sources say it ended, was called off or demands were met, or there have been no new reports for ${RULES.wrapAfterHours} hours. One-day marches wrap at the end of their local day.`],
+  ['Reader report', 's-reader', `Sent in by a reader through "Add a protest" and not confirmed by newsrooms yet. Shown after an automatic check, at least ${RULES.readerDelayMinutes} minutes after it was sent. Orange dashed card, no confidence score, not shown to search engines.`],
   ['Serious', 's-tense', `Any reported death, serious injury or hospitalisation, or ${RULES.massArrests}+ arrests or detentions — and protests that are about a death, suicide or sexual violence. The card turns grey and every joke is removed.`],
 ];
 const steps = [
@@ -75,7 +76,21 @@ const steps = [
         <li>−5 points if an "ongoing" protest has had no report for 72 hours</li>
         <li>capped between 30% and 97%: we are never 100% sure</li>
       </ul>
-      <p class="mt-4">Single-source reports are never shown. Below {Math.round(RULES.reviewConfidence * 100)}%, a card stays hidden until a human approves it.</p>
+      <p class="mt-4">Single-source news reports are never shown (reader reports are the labelled exception below). Below {Math.round(RULES.reviewConfidence * 100)}%, a card stays hidden until a human approves it.</p>
+    </section>
+
+    <section class="mt-16" aria-labelledby="reader-reports">
+      <h2 id="reader-reports" class="text-[32px] sm:text-[40px]">Reader reports</h2>
+      <p class="mt-4">Anyone can <a class="prose-link" href="/add">add a protest</a>. Newsrooms miss things, especially small, local and rural protests. Reader reports are tips, and we label them that way.</p>
+      <ol class="mt-5 grid gap-2 rounded-[18px] border-[3px] border-dashed border-reader bg-surface p-5">
+        <li><strong>1. Wait.</strong> A report waits at least {RULES.readerDelayMinutes} minutes, then our next hourly check picks it up.</li>
+        <li><strong>2. Basic checks.</strong> The country is one we track, the date is within the last 30 days or the next 2 weeks, and the city exists in GeoNames. Its pin sits on the city centre.</li>
+        <li><strong>3. Link check.</strong> If the reader shared a link, we open it and check that it is about the same protest.</li>
+        <li><strong>4. AI check.</strong> Is it a real protest action? Is it free of hate, calls for violence, spam and private people's names? It is rewritten in our neutral style. Claims of deaths, injuries, arrests or violence are held back until newsrooms confirm them.</li>
+        <li><strong>5. Duplicates.</strong> If we already track it, the report is added to that card instead of creating a new one.</li>
+        <li><strong>6. Upgrade or expire.</strong> Once {RULES.minPublishers} independent newsrooms report it, it becomes a normal verified card marked "first flagged by a reader". Unconfirmed reports leave the site {RULES.readerHideAfterDays} days after they wrap up.</li>
+      </ol>
+      <p class="mt-4">Reader reports have no confidence score, no share card, and are hidden from search engines and our news feeds. We never ask for your name or email. Your IP address is only used, scrambled with a daily key, to limit reports to 3 per day, and is never stored.</p>
     </section>
 
     <section class="mt-16" aria-labelledby="rules">

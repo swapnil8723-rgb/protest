@@ -14,12 +14,15 @@ The humour lives in the interface and the brand, never in how protesters, victim
 6. Original text only. AI writes fresh summaries and links out; never copy article text or photos.
 7. Confidence on every card. Show source count, a confidence score and "last verified" time. Unverified single-source reports stay hidden.
 
+Owner decision (6 Oct 2026) on rule 7: reader reports from `/add` are the one exception to "single-source stays hidden". They show only after the automatic check (`pipeline/reader.ts`), always labelled "Reader report · not verified yet" (orange dashed card), noindex, no confidence score, no share card, never with claims of harm (those are held for newsrooms), and expire if newsrooms never confirm them.
+
 House interpretation of rule 4: organisations, parties, elected officials and police/government spokespeople may be named; ordinary participants, students, the injured, detained or dead are never named.
 
 ## Architecture
 - **Pipeline** (`pipeline/`, plain Node 22+ TypeScript, no build step): `run.ts` = discover (GDELT + RSS) → fetch article → keyword gate → AI classify → geocode (GeoNames gazetteer) → match/create event → AI summary (≥ 2 independent publishers) → deterministic score (`score.ts`) → Telegram review → save.
 - **Data** lives in `./data` on `main`, committed hourly by the pipeline. `events/<id>.json` is the site's only input. Article text is never written to `data/`.
 - **Site** (`src/`, Astro 7 static + Tailwind 4): reads `data/` at build. Domain/brand only in `src/site.ts`.
+- **Reader reports**: `/add` form → `api/report.ts` (Vercel function) → private Vercel Blob store `loud-reader-inbox` (`queue/<day>/<iphash>-<n>.json`, 3/IP/day) → pipeline reads `api/inbox.ts` with the workflow's GitHub OIDC token (no shared secret) → `pipeline/reader.ts` checks reports ≥ 60 min old, publishes as `origin: 'reader'`, `stage: 'candidate'`; newsroom confirmation upgrades them via `summarize()`.
 - **Deploy**: `.github/workflows/pipeline.yml` hourly → pipeline → commit `data/` to `main` → Vercel Git integration builds (`[skip vercel]` commits are ignored, see `vercel.json`) → IndexNow.
 
 ## Rules for changing things

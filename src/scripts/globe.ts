@@ -45,7 +45,7 @@ function init(root: HTMLElement) {
   function readColors() {
     const cs = getComputedStyle(document.documentElement);
     const v = (n: string) => cs.getPropertyValue(n).trim();
-    return { ocean: v('--ocean'), land: v('--land'), line: v('--hairline'), ink: v('--ink'), pink: v('--pink'), cyan: v('--cyan'), lime: v('--lime'), violet: v('--violet'), muted: v('--muted') };
+    return { ocean: v('--ocean'), land: v('--land'), line: v('--hairline'), ink: v('--ink'), pink: v('--pink'), reader: v('--reader'), cyan: v('--cyan'), lime: v('--lime'), violet: v('--violet'), muted: v('--muted') };
   }
   new MutationObserver(() => {
     colors = readColors();
@@ -63,7 +63,7 @@ function init(root: HTMLElement) {
   }
 
   const vibeColor = (p: Pin) =>
-    p.serious ? '#9CA3AF' : p.vibe === 'cooling-down' ? colors.cyan : p.vibe === 'wrapped-up' ? colors.lime : colors.pink;
+    p.serious ? '#9CA3AF' : p.vibe === 'reader' ? colors.reader : p.vibe === 'cooling-down' ? colors.cyan : p.vibe === 'wrapped-up' ? colors.lime : colors.pink;
 
   function draw(t: number) {
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);

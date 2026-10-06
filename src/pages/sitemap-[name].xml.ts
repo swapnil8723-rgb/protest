@@ -1,6 +1,6 @@
 import type { APIRoute, GetStaticPaths } from 'astro';
 import { SITE } from '../site';
-import { cities, COUNTRIES, events } from '../lib/data';
+import { cities, COUNTRIES, verified as events } from '../lib/data';
 
 export const getStaticPaths: GetStaticPaths = () => [{ params: { name: 'pages' } }, ...COUNTRIES.map((c) => ({ params: { name: c.slug } }))];
 
@@ -12,7 +12,7 @@ export const GET: APIRoute = ({ params }) => {
   let body = '';
   if (params.name === 'pages') {
     const n = newest(events);
-    body = url('/', n) + url('/today', n) + url('/how-we-know') + COUNTRIES.map((c) => url(`/country/${c.slug}`, newest(events.filter((e) => e.place.country === c.iso)))).join('');
+    body = url('/', n) + url('/today', n) + url('/how-we-know') + url('/add') + COUNTRIES.map((c) => url(`/country/${c.slug}`, newest(events.filter((e) => e.place.country === c.iso)))).join('');
   } else {
     const c = COUNTRIES.find((x) => x.slug === params.name)!;
     body = events.filter((e) => e.place.country === c.iso).map((e) => url(`/p/${e.slug}`, e.updatedAt, `/cards/${e.slug}-og.png`)).join('');

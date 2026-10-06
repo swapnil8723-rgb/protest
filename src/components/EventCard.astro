@@ -1,20 +1,21 @@
 ---
 import Vibe from './Vibe.astro';
 import Meter from './Meter.astro';
-import { countryOf, eventUrl, loudness, type ProtestEvent } from '../lib/data';
+import { countryOf, eventUrl, isUnverified, loudness, type ProtestEvent } from '../lib/data';
 import { fmtDay, isSerious, pct, tilt } from '../lib/format';
 interface Props { e: ProtestEvent; tiltCard?: boolean; headingLevel?: 'h2' | 'h3' }
 const { e, tiltCard = true, headingLevel = 'h3' } = Astro.props;
 const serious = isSerious(e);
+const reader = isUnverified(e);
 const H = headingLevel;
 ---
 <article
-  class:list={['card lift flex h-full flex-col p-5', `v-${e.vibe}`, { serious, tilt: tiltCard && !serious }]}
+  class:list={['card lift flex h-full flex-col p-5', reader ? 'reader v-reader' : `v-${e.vibe}`, { serious, tilt: tiltCard && !serious }]}
   style={serious ? undefined : `--tilt: ${tilt(e.slug)}`}
 >
   <div class="flex items-center justify-between gap-3">
     <Vibe e={e} />
-    <Meter level={loudness(e)} />
+    {reader ? <span class="mono text-muted">{e.isOngoing ? 'says: still on' : e.status === 'scheduled' ? 'says: coming up' : 'ended'}</span> : <Meter level={loudness(e)} />}
   </div>
   <H class="mt-4 text-[22px] leading-[1.05]">
     <a href={eventUrl(e)} class="no-underline after:absolute after:inset-0 after:content-['']">{e.title}</a>
@@ -29,8 +30,15 @@ const H = headingLevel;
         {e.causes.slice(0, 3).map((c) => <li class="cause">{c}</li>)}
       </ul>
     )}
-    <p class="mono muted text-muted">
-      {e.publishers} sources · {pct(e.confidence)} sure · <time data-rel datetime={e.lastReportAt}>{fmtDay(e.lastReportAt.slice(0, 10), false)}</time>
-    </p>
+    {reader ? (
+      <p class="mono muted text-muted">
+        Not verified yet · sent <time data-rel datetime={e.lastReportAt}>{fmtDay(e.lastReportAt.slice(0, 10), false)}</time>
+      </p>
+    ) : (
+      <p class="mono muted text-muted">
+        {e.publishers} sources · {pct(e.confidence)} sure · <time data-rel datetime={e.lastReportAt}>{fmtDay(e.lastReportAt.slice(0, 10), false)}</time>
+        {e.origin === 'reader' && <span> · first flagged by a reader</span>}
+      </p>
+    )}
   </div>
 </article>

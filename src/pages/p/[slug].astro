@@ -10,7 +10,7 @@ import Receipts from '../../components/Receipts.astro';
 import ShareBar from '../../components/ShareBar.astro';
 import LocatorMap from '../../components/LocatorMap.astro';
 import EventCard from '../../components/EventCard.astro';
-import { events, countryOf, countryUrl, cityUrl, related, type ProtestEvent } from '../../lib/data';
+import { events, countryOf, countryUrl, cityUrl, isUnverified, related, type ProtestEvent } from '../../lib/data';
 import { fmtDay, isSerious, metaDesc } from '../../lib/format';
 import { breadcrumbs, eventJsonLd } from '../../lib/seo';
 
@@ -21,6 +21,7 @@ const { e } = Astro.props as { e: ProtestEvent };
 const c = countryOf(e);
 const city = cityUrl(e);
 const serious = isSerious(e);
+const reader = isUnverified(e);
 const date = fmtDay(e.startedOn);
 const title = `${e.seoTitle || e.title} (${date}): is it still on?`;
 const description = metaDesc(`${e.tea.why} ${e.tea.want}`);
@@ -32,11 +33,12 @@ const scopeNote = e.scope === 'nationwide' ? `Nationwide · pinned on ${e.place.
   title={title}
   description={description}
   path={`/p/${e.slug}`}
-  image={`/cards/${e.slug}-og.png`}
+  image={reader ? undefined : `/cards/${e.slug}-og.png`}
   imageAlt={`${e.title}: ${e.tea.why}`}
   type="article"
   modified={e.updatedAt}
-  jsonLd={[eventJsonLd(e), breadcrumbs(crumbs)]}
+  jsonLd={reader ? [breadcrumbs(crumbs)] : [eventJsonLd(e), breadcrumbs(crumbs)]}
+  noindex={reader}
 >
   <article class="wrap pt-6 sm:pt-10">
     <nav aria-label="Breadcrumb" class="mono text-muted">
@@ -55,6 +57,12 @@ const scopeNote = e.scope === 'nationwide' ? `Nationwide · pinned on ${e.place.
         {scopeNote}, {c.name} · {e.kind === 'multi-day' ? `since ${date}` : date}
       </p>
     </header>
+
+    {reader && (
+      <p class="mt-6 max-w-4xl rounded-[18px] border-[3px] border-dashed border-reader bg-surface p-4 text-[15px] leading-snug sm:text-[16px]">
+        <strong class="font-bold">Reader report · not verified yet.</strong> A reader sent this to {'LOUD'}. It passed our automatic check, but no newsroom has reported it so far. Treat it as a tip, not a fact. It becomes a normal card once two independent newsrooms confirm it.
+      </p>
+    )}
 
     <div class="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-10">
       <div class="grid min-w-0 content-start gap-8">
