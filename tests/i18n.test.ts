@@ -54,8 +54,14 @@ test('translation: runs once per English version, keeps good languages', async (
   assert.ok(e.i18n?.hi && e.i18n.fr);
   assert.equal(e.i18n?.de, undefined); // still misaligned after the retry: German page stays English
   assert.equal(e.i18n?.of, englishHash(e));
+  assert.deepEqual(e.i18n?.missing, ['de']);
+  await translate(ai, events, () => {}); // next runs ask only for German again, up to 3 tries
+  assert.equal(calls, 4);
+  assert.ok(e.i18n?.hi); // earlier languages kept
   await translate(ai, events, () => {});
-  assert.equal(calls, 2); // English unchanged → no new call
+  assert.equal(calls, 6);
+  await translate(ai, events, () => {});
+  assert.equal(calls, 6); // gave up after 3 tries; English unchanged → no new call
   e.tea = { ...e.tea, changed: 'Oct 6: talks began.' };
   assert.equal(needsTranslation(e), true);
 });

@@ -105,7 +105,7 @@ export interface ProtestEvent {
   origin?: 'news' | 'reader';
   reader?: ReaderInfo;
   /** Translations of the visible text; `of` = hash of the English it was made from. */
-  i18n?: { of: string; at: string } & Partial<Record<TransLang, EventText>>;
+  i18n?: { of: string; at: string; missing?: TransLang[]; tries?: number } & Partial<Record<TransLang, EventText>>;
   title: string; // neutral headline, ≤ 90 chars
   seoTitle: string; // ≤ 48 chars, used in <title>
   place: Place;

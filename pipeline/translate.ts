@@ -39,9 +39,11 @@ export function englishCard(e: ProtestEvent) {
 const PROMPT_VERSION = 2;
 export const englishHash = (e: ProtestEvent) => sha(JSON.stringify([PROMPT_VERSION, englishCard(e)]), 16);
 
-/** Shown on the site and not yet translated from its current English. */
+const MAX_TRIES = 3;
+/** Shown on the site and not yet (fully) translated from its current English. */
 export const needsTranslation = (e: ProtestEvent) =>
-  e.published && !!e.slug && (e.stage === 'live' || e.origin === 'reader') && e.i18n?.of !== englishHash(e);
+  e.published && !!e.slug && (e.stage === 'live' || e.origin === 'reader') &&
+  (e.i18n?.of !== englishHash(e) || (!!e.i18n?.missing?.length && (e.i18n.tries ?? 1) < MAX_TRIES));
 
 /** Why one language's answer cannot be used, or '' if it lines up with the English. */
 export function mismatch(e: ProtestEvent, t: TranslatedCard[string] | undefined): string {
@@ -52,7 +54,7 @@ export function mismatch(e: ProtestEvent, t: TranslatedCard[string] | undefined)
     if (!items || items.length !== src[k].length) return `${k} ${items?.length ?? '?'}/${src[k].length}`;
   }
   if (clip(t.title, 140).length < 4) return 'title';
-  if (src.summary && clip(t.summary, 10).length < 4) return 'summary';
+  if (src.summary && clip(t.summary, 10).length < 4) return `summary empty (keys: ${Object.keys(t).join(' ')})`;
   if (src.why && !clip(t.why, 10)) return 'why';
   return '';
 }
@@ -87,15 +89,18 @@ export async function translate(ai: Ai, events: Map<string, ProtestEvent>, log: 
     .filter(needsTranslation)
     .sort((a, b) => (a.isOngoing !== b.isOngoing ? (a.isOngoing ? -1 : 1) : a.lastReportAt < b.lastReportAt ? 1 : -1))
     .slice(0, max);
-  const codes = TRANSLATE_TO.map((l) => l.code);
   const done: string[] = [];
   for (const e of due) {
     const hash = englishHash(e);
+    // Same English as last time: only the languages still missing are asked for again.
+    const again = e.i18n?.of === hash;
+    const langs = again ? TRANSLATE_TO.filter((l) => e.i18n!.missing?.includes(l.code)) : [...TRANSLATE_TO];
+    const codes = langs.map((l) => l.code);
     const ask = async (langs: typeof TRANSLATE_TO[number][], attempt: number) =>
       ai.json<TranslatedCard>('translate', SYSTEM, translatePrompt(englishCard(e), langs), translateSchema(langs.map((l) => l.code)), `${e.id}-${hash}${attempt ? `-r${attempt}` : ''}`);
     let out: TranslatedCard;
     try {
-      out = await ask([...TRANSLATE_TO], 0);
+      out = await ask(langs, again ? 10 + (e.i18n!.tries ?? 1) : 0);
     } catch (err) {
       if (err instanceof Pending) continue;
       if (err instanceof OverBudget) throw err;
@@ -103,26 +108,32 @@ export async function translate(ai: Ai, events: Map<string, ProtestEvent>, log: 
       continue;
     }
     // One retry, in a smaller call, for the languages whose answer did not line up.
-    const retry = TRANSLATE_TO.filter((l) => mismatch(e, out?.[l.code]));
+    const retry = langs.filter((l) => mismatch(e, out?.[l.code]));
     if (retry.length) {
       try {
-        const again = await ask(retry, 1);
-        for (const l of retry) if (!mismatch(e, again?.[l.code])) out[l.code] = again[l.code];
+        const second = await ask(retry, again ? 20 + (e.i18n!.tries ?? 1) : 1);
+        for (const l of retry) if (!mismatch(e, second?.[l.code])) out[l.code] = second[l.code];
       } catch (err) {
         if (err instanceof OverBudget) throw err;
       }
     }
-    const next: NonNullable<ProtestEvent['i18n']> = { of: hash, at: nowIso() };
+    // Keep earlier good translations of this English; add what came back now.
+    const next: NonNullable<ProtestEvent['i18n']> = again ? { ...e.i18n!, at: nowIso(), tries: (e.i18n!.tries ?? 1) + 1 } : { of: hash, at: nowIso(), tries: 1 };
+    const missing: TransLang[] = [];
     const bad: string[] = [];
     for (const code of codes) {
       const text = toEventText(e, out?.[code]);
       if (text) next[code as TransLang] = text;
-      else bad.push(`${code} (${mismatch(e, out?.[code])})`);
+      else {
+        missing.push(code as TransLang);
+        bad.push(`${code} (${mismatch(e, out?.[code])})`);
+      }
     }
+    next.missing = missing.length ? missing : undefined;
     if (bad.length) log(`translate: ${e.id} dropped ${bad.join(', ')}`);
     e.i18n = next;
     done.push(e.id);
   }
-  if (done.length) log(`translate: ${done.length} events into ${codes.join(', ')}`);
+  if (done.length) log(`translate: ${done.length} events`);
   return done;
 }
