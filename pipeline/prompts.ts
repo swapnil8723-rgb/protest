@@ -288,6 +288,8 @@ Rules:
 - Arrays must have exactly the same number of items, in the same order, as the English.
 - Keep it short: titles stay headline length, "seo_title" ≤ 60 characters.
 - Write numbers with Western digits (0-9) in every language.
+- Vague amounts stay exactly as vague as the English: "millions" is not "lakhs", "hundreds" is not "dozens". Use lakh/crore only where the English says lakh/crore.
+- One output item per English item: never merge, split, drop or add list items. If an English list is empty, return an empty list.
 
 ENGLISH CARD (JSON):
 ${JSON.stringify(source, null, 1)}

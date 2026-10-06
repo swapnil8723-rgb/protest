@@ -35,6 +35,7 @@ const card = (over: object = {}) => ({
 test('translation: lines up with the English or is dropped', () => {
   const e = liveEvent();
   assert.ok(toEventText(e, card()));
+  assert.ok(toEventText(e, card({ demands: ["MSP", "", "क़र्ज़ माफ़ी"] }))); // stray empty item ignored
   assert.equal(toEventText(e, card({ demands: ['MSP'] })), null); // one demand missing
   assert.equal(toEventText(e, card({ updates: [] })), null);
   assert.equal(toEventText(e, card({ title: '' })), null);
@@ -49,12 +50,12 @@ test('translation: runs once per English version, keeps good languages', async (
   const ai = { name: 'fake', calls: 0, async json() { calls++; return { hi: card(), mr: card(), es: card(), fr: card(), de: card({ demands: [] }) } as any; } } as Ai;
   assert.equal(needsTranslation(e), true);
   await translate(ai, events, () => {});
-  assert.equal(calls, 1);
+  assert.equal(calls, 2); // one call for all five, one retry for the language that did not line up
   assert.ok(e.i18n?.hi && e.i18n.fr);
-  assert.equal(e.i18n?.de, undefined); // misaligned answer dropped; German page stays English
+  assert.equal(e.i18n?.de, undefined); // still misaligned after the retry: German page stays English
   assert.equal(e.i18n?.of, englishHash(e));
   await translate(ai, events, () => {});
-  assert.equal(calls, 1); // English unchanged → no new call
+  assert.equal(calls, 2); // English unchanged → no new call
   e.tea = { ...e.tea, changed: 'Oct 6: talks began.' };
   assert.equal(needsTranslation(e), true);
 });

@@ -41,17 +41,30 @@ export const englishHash = (e: ProtestEvent) => sha(JSON.stringify(englishCard(e
 export const needsTranslation = (e: ProtestEvent) =>
   e.published && !!e.slug && (e.stage === 'live' || e.origin === 'reader') && e.i18n?.of !== englishHash(e);
 
+/** Why one language's answer cannot be used, or '' if it lines up with the English. */
+export function mismatch(e: ProtestEvent, t: TranslatedCard[string] | undefined): string {
+  if (!t || typeof t !== 'object') return 'missing';
+  const src = englishCard(e);
+  for (const k of ['demands', 'updates', 'conflicts'] as const) {
+    const items = Array.isArray(t[k]) ? t[k].filter((x) => clip(x, 10)) : null; // stray empty items are not items
+    if (!items || items.length !== src[k].length) return `${k} ${items?.length ?? '?'}/${src[k].length}`;
+  }
+  if (clip(t.title, 140).length < 4) return 'title';
+  if (src.summary && clip(t.summary, 10).length < 4) return 'summary';
+  if (src.why && !clip(t.why, 10)) return 'why';
+  return '';
+}
+
 /** Turn one language's answer into EventText, or null if it does not line up. */
 export function toEventText(e: ProtestEvent, t: TranslatedCard[string] | undefined): EventText | null {
-  if (!t || typeof t !== 'object') return null;
+  if (mismatch(e, t)) return null;
+  t = t!;
   const src = englishCard(e);
-  const arr = (a: unknown, n: number) => (Array.isArray(a) && a.length === n ? a.map((x) => clip(x, 400)) : null);
-  const demands = arr(t.demands, src.demands.length);
-  const updates = arr(t.updates, src.updates.length);
-  const conflicts = arr(t.conflicts, src.conflicts.length);
-  if (!demands || !updates || !conflicts) return null;
+  const arr = (a: string[]) => a.filter((x) => clip(x, 10)).map((x) => clip(x, 400));
+  const demands = arr(t.demands);
+  const updates = arr(t.updates);
+  const conflicts = arr(t.conflicts);
   const title = clip(t.title, 140);
-  if (title.length < 4 || (src.summary && clip(t.summary, 10).length < 4) || (src.why && !clip(t.why, 10))) return null;
   const num = (k: 'crowd' | 'arrests' | 'injuries' | 'deaths') => (src[k] ? clip(t[k], 160) || undefined : undefined);
   return {
     title,
@@ -76,23 +89,35 @@ export async function translate(ai: Ai, events: Map<string, ProtestEvent>, log: 
   const done: string[] = [];
   for (const e of due) {
     const hash = englishHash(e);
+    const ask = async (langs: typeof TRANSLATE_TO[number][], attempt: number) =>
+      ai.json<TranslatedCard>('translate', SYSTEM, translatePrompt(englishCard(e), langs), translateSchema(langs.map((l) => l.code)), `${e.id}-${hash}${attempt ? `-r${attempt}` : ''}`);
     let out: TranslatedCard;
     try {
-      out = await ai.json<TranslatedCard>('translate', SYSTEM, translatePrompt(englishCard(e), TRANSLATE_TO), translateSchema(codes), `${e.id}-${hash}`);
+      out = await ask([...TRANSLATE_TO], 0);
     } catch (err) {
       if (err instanceof Pending) continue;
       if (err instanceof OverBudget) throw err;
       log(`translate: ${e.id} failed: ${(err as Error).message}`);
       continue;
     }
+    // One retry, in a smaller call, for the languages whose answer did not line up.
+    const retry = TRANSLATE_TO.filter((l) => mismatch(e, out?.[l.code]));
+    if (retry.length) {
+      try {
+        const again = await ask(retry, 1);
+        for (const l of retry) if (!mismatch(e, again?.[l.code])) out[l.code] = again[l.code];
+      } catch (err) {
+        if (err instanceof OverBudget) throw err;
+      }
+    }
     const next: NonNullable<ProtestEvent['i18n']> = { of: hash, at: nowIso() };
     const bad: string[] = [];
     for (const code of codes) {
       const text = toEventText(e, out?.[code]);
       if (text) next[code as TransLang] = text;
-      else bad.push(code);
+      else bad.push(`${code} (${mismatch(e, out?.[code])})`);
     }
-    if (bad.length) log(`translate: ${e.id} dropped ${bad.join(', ')} (did not match the English)`);
+    if (bad.length) log(`translate: ${e.id} dropped ${bad.join(', ')}`);
     e.i18n = next;
     done.push(e.id);
   }
