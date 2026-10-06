@@ -35,7 +35,9 @@ export function englishCard(e: ProtestEvent) {
   };
 }
 
-export const englishHash = (e: ProtestEvent) => sha(JSON.stringify(englishCard(e)), 16);
+/** Bump when the translation prompt changes, so every card is translated again. */
+const PROMPT_VERSION = 2;
+export const englishHash = (e: ProtestEvent) => sha(JSON.stringify([PROMPT_VERSION, englishCard(e)]), 16);
 
 /** Shown on the site and not yet translated from its current English. */
 export const needsTranslation = (e: ProtestEvent) =>
