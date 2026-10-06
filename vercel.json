@@ -3,7 +3,7 @@
   "framework": "astro",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "ignoreCommand": "git log -1 --pretty=%B | grep -qF '[skip vercel]'",
+  "ignoreCommand": "git log -1 --pretty=%s | grep -qF '[skip vercel]'",
   "trailingSlash": false,
   "headers": [
     { "source": "/fonts/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
