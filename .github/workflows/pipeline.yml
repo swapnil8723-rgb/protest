@@ -1,18 +1,15 @@
 name: pipeline
 
-# Every 30 minutes: discover → verify → summarise → build → deploy.
-# Offset from :00/:30 because GitHub's scheduler is busiest on the hour.
+# Hourly: discover → verify → summarise → commit data/ to main. Vercel's Git
+# integration builds and deploys every push to main; runs where nothing visible
+# changed are committed with "[skip vercel]" (see vercel.json ignoreCommand), so
+# the site redeploys only on real changes or every 2 hours (fresh "checked" time).
+# Private repo = 2,000 free Actions minutes/month → hourly fits (~1,400 min).
+# If the repo is public (unlimited minutes), change the cron to '7,37 * * * *'.
 on:
   schedule:
-    - cron: '7,37 * * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
-    inputs:
-      deploy:
-        description: Force a deploy even if nothing changed
-        type: boolean
-        default: false
-  push:
-    branches: [main]
 
 concurrency:
   group: pipeline
@@ -24,37 +21,29 @@ permissions:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 20
     env:
-      SITE_URL: ${{ vars.SITE_URL || 'https://protesttracker.online' }}
+      SITE_URL: ${{ vars.SITE_URL || 'https://protest.vercel.app' }}
+      HAS_AI: ${{ secrets.GEMINI_API_KEY != '' || secrets.ANTHROPIC_API_KEY != '' }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Skip until an AI key is configured
+        if: env.HAS_AI != 'true'
+        run: echo "::notice::Add GEMINI_API_KEY (or ANTHROPIC_API_KEY) as a repo secret to start the pipeline."
 
-      - name: Check out the data branch into ./data
-        run: |
-          if git ls-remote --exit-code --heads origin data >/dev/null; then
-            git clone --depth 1 --branch data "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" data
-          else
-            mkdir data && git -C data init -b data
-            git -C data remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
-          fi
+      - uses: actions/checkout@v4
+        if: env.HAS_AI == 'true'
 
       - uses: actions/setup-node@v4
+        if: env.HAS_AI == 'true'
         with:
           node-version: 24
           cache: npm
 
-      - run: npm ci
-
-      - name: Restore rendered share cards
-        uses: actions/cache@v4
-        with:
-          path: .cache/cards
-          key: cards-${{ github.run_id }}
-          restore-keys: cards-
+      - if: env.HAS_AI == 'true'
+        run: npm ci --ignore-scripts
 
       - name: Pipeline
-        if: github.event_name != 'push'
+        if: env.HAS_AI == 'true'
         env:
           AI_PROVIDER: ${{ vars.AI_PROVIDER }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -64,34 +53,26 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: node pipeline/run.ts
 
-      - name: Decide whether to deploy
+      - name: Decide whether this commit deploys
         id: gate
-        env:
-          FORCE_DEPLOY: ${{ github.event_name == 'push' || inputs.deploy }}
+        if: env.HAS_AI == 'true'
         run: node scripts/should-deploy.ts
 
-      - name: Build
-        if: steps.gate.outputs.deploy == 'true'
-        run: npm run build
-
-      - name: Deploy to Cloudflare Pages
-        if: steps.gate.outputs.deploy == 'true'
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Commit data to main
+        if: env.HAS_AI == 'true'
         run: |
-          npx --yes wrangler@4 pages deploy dist --project-name="${{ vars.CF_PAGES_PROJECT || 'loud' }}" --branch=main --commit-dirty=true
-          echo "{\"at\": \"$(date -u +%FT%TZ)\"}" > data/deploy.json
+          if [ "${{ steps.gate.outputs.deploy }}" = "true" ]; then
+            echo "{\"at\": \"$(date -u +%FT%TZ)\"}" > data/deploy.json
+            msg="data: $(date -u +%FT%TZ)"
+          else
+            msg="data: $(date -u +%FT%TZ) [skip vercel]"
+          fi
+          git add data
+          if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
+          git -c user.name="loud-pipeline" -c user.email="pipeline@users.noreply.github.com" commit -q -m "$msg"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
+          exit 1
 
       - name: Ping IndexNow
-        if: steps.gate.outputs.deploy == 'true'
-        run: node scripts/indexnow.ts
-
-      - name: Commit data
-        if: always()
-        run: |
-          cd data
-          git add -A
-          if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
-          git -c user.name="loud-pipeline" -c user.email="pipeline@users.noreply.github.com" commit -q -m "data $(date -u +%FT%TZ)"
-          git push -q origin data
+        if: env.HAS_AI == 'true' && steps.gate.outputs.deploy == 'true'
+        run: sleep 240 && node scripts/indexnow.ts

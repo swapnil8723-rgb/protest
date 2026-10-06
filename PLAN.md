@@ -9,8 +9,8 @@ Oct 5, 2026 · @Swapnil sawandkar
 | Original plan | Built as | Why |
 |---|---|---|
 | protest.citylens.lol subdomain | **protesttracker.online** (brand stays **LOUD**) — set only in `src/site.ts` | Exact-match "protest tracker" domain, $1.99 first year / $27 renewal. `loud.online` is premium ($550/yr renewal). |
-| Next.js + shadcn on Vercel Hobby | **Astro 7 static + Tailwind 4**, deployed to **Cloudflare Pages** by direct upload from GitHub Actions | Pure static HTML = best Core Web Vitals and zero server cost. Cloudflare Pages free tier allows commercial use (Vercel Hobby does not). Direct uploads avoid the 500-builds/month Git-build limit. |
-| Supabase Postgres + PostGIS | **Git as the database**: JSON files on an orphan `data` branch, committed by the pipeline | No idle-pause, no 500 MB cap, full history/audit trail of every change to every event, nothing to keep alive. ~100s of events fit easily. |
+| Next.js + shadcn on Vercel Hobby | **Astro 7 static + Tailwind 4** on **Vercel** (Git integration, project `protest`) | Pure static HTML = best Core Web Vitals and zero server cost. Vercel builds every push to `main`; pipeline commits that change nothing visible carry `[skip vercel]`. Note: Hobby is non-commercial — move to Cloudflare Pages or Vercel Pro before ads. |
+| Supabase Postgres + PostGIS | **Git as the database**: JSON files in `data/` on `main`, committed by the pipeline | No idle-pause, no 500 MB cap, full history/audit trail of every change to every event, nothing to keep alive. ~100s of events fit easily. |
 | Mapbox GL globe, India worldview | **Own canvas globe** (d3-geo orthographic) on **Natural Earth "IND" point-of-view boundaries** | $0 forever (no 50k-load cap, no token), ~35 KB JS, J&K / Ladakh / Arunachal shown per India's official position, and it can be styled exactly to the design system. Pins are city centroids only. |
 | GDELT city = event location | **GDELT is URL discovery only.** Each article is fetched, classified and located from its own text; city resolved against a GeoNames gazetteer | Sampling 4 Oct 2026: GDELT placed the Mumbai Thackeray march in "Shiv, Rajasthan" and "Garjana, Bangladesh", coded "Pakistan lodges protest with India" and a Trump rally as protests. Accuracy needs article-level checks. |
 | "≥2 sources" | **≥2 independent publishers**, after removing syndication farms and near-identical wire copies | Big News Network sites (asiabulletin.com, austinglobe.com…) re-post the same wire story and would fake corroboration. |
@@ -104,7 +104,7 @@ articles batched per call, provider behind a one-line switch.
 |---|---|---|
 | AI summaries | Gemini free tier | limits block updates → Claude Haiku (~$10–30/mo) |
 | Pipeline jobs | GitHub Actions (public repo = unlimited minutes) | never in Phase 1 |
-| Hosting | Cloudflare Pages free | never in Phase 1 |
+| Hosting | Vercel Hobby (non-commercial) | before ads: Cloudflare Pages (free, commercial OK) or Vercel Pro |
 | Map | own globe | never |
 | Review alerts | Telegram Bot API | never |
 | Domain | protesttracker.online | $1.99 first year, $27 renewal |

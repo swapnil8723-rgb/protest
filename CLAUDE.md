@@ -18,9 +18,9 @@ House interpretation of rule 4: organisations, parties, elected officials and po
 
 ## Architecture
 - **Pipeline** (`pipeline/`, plain Node 22+ TypeScript, no build step): `run.ts` = discover (GDELT + RSS) → fetch article → keyword gate → AI classify → geocode (GeoNames gazetteer) → match/create event → AI summary (≥ 2 independent publishers) → deterministic score (`score.ts`) → Telegram review → save.
-- **Data** lives in `./data` (gitignored on `main`; the CI checks out the orphan `data` branch there). `events/<id>.json` is the site's only input. Article text is never written to `data/`.
+- **Data** lives in `./data` on `main`, committed hourly by the pipeline. `events/<id>.json` is the site's only input. Article text is never written to `data/`.
 - **Site** (`src/`, Astro 7 static + Tailwind 4): reads `data/` at build. Domain/brand only in `src/site.ts`.
-- **Deploy**: `.github/workflows/pipeline.yml` every 30 min → pipeline → commit `data` → build → Cloudflare Pages direct upload → IndexNow.
+- **Deploy**: `.github/workflows/pipeline.yml` hourly → pipeline → commit `data/` to `main` → Vercel Git integration builds (`[skip vercel]` commits are ignored, see `vercel.json`) → IndexNow.
 
 ## Rules for changing things
 - Vibe/status/confidence/review numbers live in `pipeline/config.ts` `RULES` and are explained on `/how-we-know` — change both together.
