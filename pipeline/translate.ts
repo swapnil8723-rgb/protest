@@ -43,7 +43,10 @@ const MAX_TRIES = 3;
 /** Shown on the site and not yet (fully) translated from its current English. */
 export const needsTranslation = (e: ProtestEvent) =>
   e.published && !!e.slug && (e.stage === 'live' || e.origin === 'reader') &&
-  (e.i18n?.of !== englishHash(e) || (!!e.i18n?.missing?.length && (e.i18n.tries ?? 1) < MAX_TRIES));
+  (e.i18n?.of !== englishHash(e) || (absent(e).length > 0 && (e.i18n.tries ?? 1) < MAX_TRIES));
+
+/** Site languages this event has no translation for yet. */
+const absent = (e: ProtestEvent) => TRANSLATE_TO.filter((l) => !e.i18n?.[l.code]);
 
 /** Why one language's answer cannot be used, or '' if it lines up with the English. */
 export function mismatch(e: ProtestEvent, t: TranslatedCard[string] | undefined): string {
@@ -94,7 +97,7 @@ export async function translate(ai: Ai, events: Map<string, ProtestEvent>, log: 
     const hash = englishHash(e);
     // Same English as last time: only the languages still missing are asked for again.
     const again = e.i18n?.of === hash;
-    const langs = again ? TRANSLATE_TO.filter((l) => e.i18n!.missing?.includes(l.code)) : [...TRANSLATE_TO];
+    const langs = again ? absent(e) : [...TRANSLATE_TO];
     const codes = langs.map((l) => l.code);
     const ask = async (langs: typeof TRANSLATE_TO[number][], attempt: number) =>
       ai.json<TranslatedCard>('translate', SYSTEM, translatePrompt(englishCard(e), langs), translateSchema(langs.map((l) => l.code)), `${e.id}-${hash}${attempt ? `-r${attempt}` : ''}`);
