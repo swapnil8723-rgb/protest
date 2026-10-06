@@ -25,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
-      SITE_URL: ${{ vars.SITE_URL || 'https://protesttracker.vercel.app' }}
+      SITE_URL: ${{ vars.SITE_URL || 'https://protesttracker.online' }}
       HAS_AI: ${{ secrets.GEMINI_API_KEY != '' || secrets.ANTHROPIC_API_KEY != '' }}
     steps:
       - name: Skip until an AI key is configured

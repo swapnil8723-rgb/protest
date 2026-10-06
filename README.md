@@ -35,8 +35,9 @@ npm run build && npm run preview           # http://127.0.0.1:4321
 
 ## Go live
 
-Already done: code on GitHub (`swapnil8723-rgb/protest`, data in `data/` on `main`) and a Vercel project
-connected to it — every push to `main` deploys.
+Live at **https://protesttracker.online** (domain at Namecheap: A `@` → 76.76.21.21, CNAME `www` → cname.vercel-dns.com;
+`www` and `protesttracker.vercel.app` redirect to it). Code on GitHub (`swapnil8723-rgb/protest`, data in `data/` on `main`),
+Vercel project `protest` connected to it — every push to `main` deploys.
 
 1. **Gemini key** (free): https://aistudio.google.com/apikey → GitHub repo → Settings → Secrets → Actions →
    `GEMINI_API_KEY`. The hourly workflow starts doing work as soon as this exists.

@@ -8,6 +8,17 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/((?!api/).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "protesttracker.vercel.app"
+        }
+      ],
+      "destination": "https://protesttracker.online/$1",
+      "permanent": true
+    },
+    {
       "source": "/:cc(in|us|gb|pk|bd|np|ke|id)/:region/:city",
       "destination": "/city/:cc/:region/:city",
       "permanent": true
