@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-06",
-  "count": 150
+  "count": 171
  },
  "runs": [
   {
@@ -404,8 +404,38 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-06T20:22:03.054Z",
+   "ms": 513311,
+   "discovered": 114,
+   "fetched": 111,
+   "classified": 97,
+   "protests": 57,
+   "summarized": 7,
+   "published": 19,
+   "live": 6,
+   "aiCalls": 21,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 23 files, 102 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 48 protest-word items",
+    "fetch: 111 ok, 3 failed",
+    "classify: new candidate ef5c0cbd6c8 \"Sanitation workers strike over regularisation, job security\" (Mandsaur)",
+    "classify: new candidate edc4df8c2be \"Dalit Mahasabha protests for Kambala event in Mysuru\" (Mysuru)",
+    "classify: new candidate e5c6ae656c4 \"Congress, AAP, Left plan march to Delhi CEO's office\" (Delhi)",
+    "classify: new candidate ea011bfafe6 \"BJP workers protest outside police station over bomb attack.\" (Khardah)",
+    "classify: new candidate e176ef75861 \"ASHA workers protest for ₹15,000 monthly pay and better conditions.\" (Karwar)",
+    "classify: new candidate e6e3f301937 \"Allahabad University students protest fee hikes and inadequate facilities.\" (Prayagraj)",
+    "classify: new candidate e3d2f0afda6 \"Protesters demand FIR against police officer for molestation\" (Delhi)",
+    "classify: new candidate e9ece98d390 \"MP Congress protests detention of Rahul, Priyanka Gandhi\" (Bhopal)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261006144500",
- "lastRunAt": "2026-10-06T14:44:57.671Z"
+ "gdeltCursor": "20261006203000",
+ "lastRunAt": "2026-10-06T20:22:03.054Z"
 }
