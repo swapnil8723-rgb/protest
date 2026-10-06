@@ -32,6 +32,7 @@ House interpretation of rule 4: organisations, parties, elected officials and po
 - Never publish a number without a source (`summarize.ts` drops it) and never show single-publisher events.
 - A slug never changes once set (URLs are forever). Wrapped-up events stay as archive pages.
 - Maps: `scripts/build-map.ts` erases India's area from every other country (Natural Earth IND view overlaps). Re-run the PoK/Aksai Chin/Tawang point checks after touching it.
+- Mobile first (most readers are on phones): every tap target ≥ 44 px, no sideways scroll at 320–414 px in any language (German/French words are long). Check with `npm run preview` + `PORT=4321 npm run audit:mobile` before shipping UI changes.
 - Motion: only the three animations in DESIGN.md §7, all off under `prefers-reduced-motion`.
 
 ## Commands

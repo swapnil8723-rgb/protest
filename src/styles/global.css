@@ -127,6 +127,8 @@
   .card {
     --vibe: var(--violet);
     position: relative;
+    min-width: 0; /* a long word (German!) must not stretch the card past the screen */
+    overflow-wrap: break-word;
     background: var(--surface);
     border: 3px solid var(--line);
     border-radius: 18px;
@@ -187,6 +189,10 @@
   }
   .cause::before { content: '#'; color: var(--muted); margin-right: 1px; }
   .serious .cause, .serious-surface .cause { background: #fff; border-color: #d1d5db; color: var(--serious-ink); }
+  /* Breadcrumbs stay compact; their links get an invisible 44px touch area. */
+  nav[aria-label='Breadcrumb'] a { position: relative; }
+  nav[aria-label='Breadcrumb'] a::after { content: ''; position: absolute; inset: -14px -6px; }
+  button.cause, a.cause { min-height: 44px; padding-inline: 14px; cursor: pointer; } /* thumbs, not cursors */
   button.cause[aria-pressed='true'] { background: var(--yellow); color: var(--black); border-color: var(--black); }
   button.cause[aria-pressed='true']::before { color: var(--black); }
 

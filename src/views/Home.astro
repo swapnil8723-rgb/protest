@@ -67,9 +67,9 @@ const india_ = COUNTRIES.find((c) => c.iso === 'in')!;
       <div class="globe-wrap relative" data-globe>
         <canvas class="globe aspect-square w-full touch-none select-none" aria-label={t('home.globe', { n: pins.length })} role="img"></canvas>
         <p data-status class="sr-only" aria-live="polite"></p>
-        <div class="absolute bottom-2 left-1/2 flex -translate-x-1/2 items-center gap-2 rounded-full border-2 border-black bg-surface px-2 py-1.5 shadow-[4px_4px_0_#000]">
+        <div class="absolute bottom-2 left-1/2 flex -translate-x-1/2 items-center gap-1 rounded-full border-2 border-black bg-surface px-1.5 py-1 shadow-[4px_4px_0_#000]">
           <button type="button" data-prev class="globe-btn" aria-label={t('home.prev')}>‹</button>
-          <span data-count class="mono min-w-[56px] text-center">{pins.length} {t('globe.pins')}</span>
+          <span data-count class="mono min-w-[56px] whitespace-nowrap px-1 text-center">{pins.length} {t('globe.pins')}</span>
           <button type="button" data-next class="globe-btn" aria-label={t('home.next')}>›</button>
           <span class="mx-1 h-5 w-px bg-hairline" aria-hidden="true"></span>
           <button type="button" data-zoom-out class="globe-btn" aria-label={t('home.zoomOut')}>−</button>
@@ -103,7 +103,7 @@ const india_ = COUNTRIES.find((c) => c.iso === 'in')!;
   <section class="wrap mt-14" aria-labelledby="loudest">
     <div class="flex flex-wrap items-end justify-between gap-3">
       <h2 id="loudest" class="text-[34px] sm:text-[44px]">{t('home.loudest')}</h2>
-      <a href={href(lang, '/today')} class="font-semibold underline underline-offset-4">{t('home.allLive', { n: live.length })}</a>
+      <a href={href(lang, '/today')} class="inline-flex min-h-11 items-center font-semibold underline underline-offset-4">{t('home.allLive', { n: live.length })}</a>
     </div>
     {loudest.length ? (
       <div class="mt-8 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{loudest.map((e) => <EventCard e={e} />)}</div>
@@ -116,7 +116,7 @@ const india_ = COUNTRIES.find((c) => c.iso === 'in')!;
     <section class="wrap mt-20" aria-labelledby="india">
       <div class="flex flex-wrap items-end justify-between gap-3">
         <h2 id="india" class="text-[34px] sm:text-[44px]">{t('home.india')}</h2>
-        <a href={countryUrl(india_, lang)} class="font-semibold underline underline-offset-4">{t('home.indiaLink')}</a>
+        <a href={countryUrl(india_, lang)} class="inline-flex min-h-11 items-center font-semibold underline underline-offset-4">{t('home.indiaLink')}</a>
       </div>
       <div class="mt-8 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">{india.map((e) => <EventCard e={e} />)}</div>
     </section>
@@ -131,11 +131,11 @@ const india_ = COUNTRIES.find((c) => c.iso === 'in')!;
         return (
           <li>
             <a href={countryUrl(c, lang)} class:list={['country-tile card lift flex items-center justify-between gap-3 p-4 no-underline', ['v-heating-up', 'v-cooling-down', 'v-wrapped-up'][i % 3]]}>
-              <span>
-                <span class="display block text-[20px] leading-tight">{cname(c, lang)}</span>
+              <span class="min-w-0">
+                <span class="display block text-[18px] leading-tight [overflow-wrap:anywhere] sm:text-[20px]">{cname(c, lang)}</span>
                 <span class="mono text-muted">{t('home.tile', { live: n, all: all.length })}</span>
               </span>
-              <span class="mono grid h-10 w-10 shrink-0 place-items-center rounded-full border-2 border-black bg-surface-2 text-[12px] uppercase">{c.iso}</span>
+              <span class="mono hidden h-10 w-10 shrink-0 place-items-center rounded-full border-2 border-black bg-surface-2 text-[12px] uppercase sm:grid" aria-hidden="true">{c.iso}</span>
             </a>
           </li>
         );
@@ -186,10 +186,10 @@ const india_ = COUNTRIES.find((c) => c.iso === 'in')!;
   .globe { cursor: grab; opacity: 0.25; transition: opacity 600ms ease; }
   .globe-wrap:global(.ready) .globe { opacity: 1; }
   .globe:active { cursor: grabbing; }
-  .globe-btn { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 99px; font: 800 20px/1 var(--font-display); }
+  .globe-btn { display: grid; flex-shrink: 0; place-items: center; width: 44px; height: 44px; border-radius: 99px; font: 800 22px/1 var(--font-display); }
   .globe-btn:hover { background: var(--surface-2); }
   [data-drawer]:not([hidden]) { position: absolute; left: 50%; bottom: 64px; transform: translateX(-50%); width: min(360px, 92%); padding: 18px; z-index: 5; }
-  :global(.drawer-x) { width: 34px; height: 34px; border-radius: 99px; font-size: 24px; line-height: 1; }
+  :global(.drawer-x) { width: 44px; height: 44px; border-radius: 99px; font-size: 24px; line-height: 1; }
   :global(.drawer-x:hover) { background: var(--surface-2); }
 </style>
 

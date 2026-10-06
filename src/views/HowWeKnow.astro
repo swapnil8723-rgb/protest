@@ -21,7 +21,7 @@ const mail = `<a class="prose-link" href="mailto:${CONTACT}?subject=Correction">
 >
   <article class="wrap max-w-4xl pt-10">
     <p class="eyebrow">{h.eyebrow}</p>
-    <h1 class="mt-3 text-[44px] sm:text-[72px]">{h.h1}</h1>
+    <h1 class="mt-3 text-[clamp(32px,10.5vw,44px)] sm:text-[72px]">{h.h1}</h1>
     <p class="mt-5 text-[19px] leading-relaxed sm:text-[21px]" set:html={intro} />
 
     <section class="mt-14" aria-labelledby="pipeline">
@@ -30,7 +30,7 @@ const mail = `<a class="prose-link" href="mailto:${CONTACT}?subject=Correction">
         {h.steps.map(([name, d], i) => (
           <li class="flex gap-4 rounded-[18px] border-2 border-hairline bg-surface p-5">
             <span class="display grid h-11 w-11 shrink-0 place-items-center rounded-xl border-2 border-black bg-yellow text-[20px] text-black">{i + 1}</span>
-            <span><strong class="display block text-[22px]">{name}</strong><span class="mt-1 block">{d}</span></span>
+            <span class="min-w-0 [overflow-wrap:anywhere]"><strong class="display block text-[22px]">{name}</strong><span class="mt-1 block">{d}</span></span>
           </li>
         ))}
       </ol>

@@ -19,7 +19,8 @@
     "gazetteer": "node scripts/build-gazetteer.ts",
     "icons": "node scripts/icons.ts",
     "shot": "node scripts/shot.ts",
-    "astro": "astro"
+    "astro": "astro",
+    "audit:mobile": "node scripts/mobile-audit.ts / /today /add /how-we-know /hi /hi/today /de/today /fr/add"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
