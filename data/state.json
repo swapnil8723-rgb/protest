@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-06",
-  "count": 114
+  "count": 134
  },
  "runs": [
   {
@@ -350,8 +350,31 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-06T11:37:43.318Z",
+   "ms": 706818,
+   "discovered": 12,
+   "fetched": 10,
+   "classified": 9,
+   "protests": 5,
+   "summarized": 2,
+   "published": 17,
+   "live": 6,
+   "aiCalls": 20,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 2 files, 9 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 60 protest-word items",
+    "fetch: 10 ok, 2 failed",
+    "classify: new candidate ea9add5a8f6 \"CPI(M) protests early toll collection at Nattika\" (Thrissur)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 17 events"
+   ],
+   "translated": 17
   }
  ],
- "gdeltCursor": "20261006111500",
- "lastRunAt": "2026-10-06T11:09:40.642Z"
+ "gdeltCursor": "20261006114500",
+ "lastRunAt": "2026-10-06T11:37:43.318Z"
 }
