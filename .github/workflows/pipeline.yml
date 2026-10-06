@@ -87,4 +87,4 @@ jobs:
 
       - name: Ping IndexNow
         if: env.HAS_AI == 'true' && steps.gate.outputs.deploy == 'true'
-        run: sleep 240 && node scripts/indexnow.ts
+        run: node scripts/indexnow.ts # search engines fetch later; no need to burn 4 billed minutes waiting
