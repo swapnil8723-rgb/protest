@@ -1,7 +1,7 @@
 {
  "aiCalls": {
-  "day": "2026-10-06",
-  "count": 171
+  "day": "2026-10-07",
+  "count": 14
  },
  "runs": [
   {
@@ -434,8 +434,32 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-07T00:45:52.718Z",
+   "ms": 362532,
+   "discovered": 67,
+   "fetched": 67,
+   "classified": 48,
+   "protests": 29,
+   "summarized": 6,
+   "published": 21,
+   "live": 7,
+   "aiCalls": 14,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 17 files, 63 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 41 protest-word items",
+    "fetch: 67 ok, 0 failed",
+    "classify: new candidate ef92c4e18f1 \"Protesters arrested protecting trees for border wall\" (Nogales)",
+    "classify: new candidate e9378c4c09e \"UCLA students plan pro-Palestine demonstration\" (Los Angeles)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261006203000",
- "lastRunAt": "2026-10-06T20:22:03.054Z"
+ "gdeltCursor": "20261007004500",
+ "lastRunAt": "2026-10-07T00:45:52.718Z"
 }
