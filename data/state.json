@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-07",
-  "count": 38
+  "count": 75
  },
  "runs": [
   {
@@ -490,8 +490,38 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-07T18:58:29.283Z",
+   "ms": 997245,
+   "discovered": 180,
+   "fetched": 177,
+   "classified": 132,
+   "protests": 79,
+   "summarized": 15,
+   "published": 24,
+   "live": 5,
+   "aiCalls": 37,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 3 older files skipped (cap)",
+    "gdelt: 32 files, 152 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 44 protest-word items",
+    "fetch: 177 ok, 3 failed",
+    "classify: new candidate ec529984a73 \"Detained immigrants launch hunger strike against prolonged detention\" (Folkston)",
+    "classify: new candidate e016069a233 \"Essex activists plan unity march against racism and far right\" (Chelmsford)",
+    "classify: new candidate e3266bc6b98 \"Textile merchants protest proposed UPI charge in Kochi\" (Kochi)",
+    "classify: new candidate efaa87577b9 \"Contract health employees strike for regularisation and full salaries\" (Visakhapatnam)",
+    "classify: new candidate edfc98d0ff8 \"SFI protests Kerala Higher Education Minister over alleged police excesses\" (Thiruvananthapuram)",
+    "classify: new candidate e5635531dfd \"Left student groups' convention and ABVP protest at Jadavpur University\" (Kolkata)",
+    "summary: edcb3f2ede7 judged not real: The sources describe a scheduled protest for October 10, not a physical protest action that has occurred.",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 10 events"
+   ],
+   "translated": 10
   }
  ],
- "gdeltCursor": "20261007101500",
- "lastRunAt": "2026-10-07T10:20:39.056Z"
+ "gdeltCursor": "20261007190000",
+ "lastRunAt": "2026-10-07T18:58:29.283Z"
 }
