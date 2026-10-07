@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-07",
-  "count": 14
+  "count": 38
  },
  "runs": [
   {
@@ -458,8 +458,40 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-07T10:20:39.056Z",
+   "ms": 544969,
+   "discovered": 127,
+   "fetched": 121,
+   "classified": 99,
+   "protests": 59,
+   "summarized": 9,
+   "published": 22,
+   "live": 5,
+   "aiCalls": 24,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 6 older files skipped (cap)",
+    "gdelt: 32 files, 107 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 41 protest-word items",
+    "fetch: 121 ok, 6 failed",
+    "classify: new candidate e552fe71390 \"Activists protest restaurant after white nationalists spotted\" (Portland)",
+    "classify: new candidate ee0c950fd1b \"Protesters in Magdeburg against far-right speaker election\" (Magdeburg)",
+    "classify: new candidate e410101e631 \"Civil society to hold tribunal in Bengaluru over voter deletions\" (Bengaluru)",
+    "classify: new candidate edcdfd29789 \"Washingtonians protest Amazon data center plan\" (Walla Walla)",
+    "classify: new candidate e1d56f7f234 \"RGPV staff protest proposal to split university\" (Bhopal)",
+    "classify: new candidate edcb3f2ede7 \"Cockroach Janta Party plans protest for CEC's resignation\" (Delhi)",
+    "classify: new candidate eeaccb53971 \"GMC Jagtial medical students protest delayed campus and facilities\" (Jagtial)",
+    "classify: new candidate ef1e0c0cf6d \"Himachal Congress protests Rahul Gandhi's detention in Shimla\" (Shimla)",
+    "summary: ee2b3011454 judged not real: The sources describe a protest that is scheduled for October 10, 2026, not one that has already occurred or is currently ongoing.",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261007004500",
- "lastRunAt": "2026-10-07T00:45:52.718Z"
+ "gdeltCursor": "20261007101500",
+ "lastRunAt": "2026-10-07T10:20:39.056Z"
 }
