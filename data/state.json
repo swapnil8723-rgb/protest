@@ -1,7 +1,7 @@
 {
  "aiCalls": {
-  "day": "2026-10-07",
-  "count": 75
+  "day": "2026-10-08",
+  "count": 21
  },
  "runs": [
   {
@@ -520,8 +520,40 @@
     "translate: 10 events"
    ],
    "translated": 10
+  },
+  {
+   "at": "2026-10-08T01:02:36.161Z",
+   "ms": 503937,
+   "discovered": 98,
+   "fetched": 90,
+   "classified": 65,
+   "protests": 29,
+   "summarized": 8,
+   "published": 24,
+   "live": 4,
+   "aiCalls": 21,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 24 files, 91 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 32 protest-word items",
+    "fetch: 90 ok, 8 failed",
+    "classify: new candidate ef9a11cd9d6 \"BJP workers protest AAP government over alleged corruption\" (Mohali)",
+    "classify: new candidate ed3ac63e1b0 \"Weavers rally against imitation Maheshwari sarees\" (Maheshwar)",
+    "classify: new candidate ef6ea62d4a2 \"Edinburgh University students, staff rally for divestment from Gaza-linked firms\" (Edinburgh)",
+    "classify: new candidate e7043889698 \"Rochester organizations to rally against sexual violence\" (Rochester)",
+    "classify: new candidate e4fd3b12c44 \"Protesters gather near Trump event in San Antonio\" (San Antonio)",
+    "classify: new candidate e4d126d41e8 \"BJP protests Punjab government over alleged corruption\" (Amritsar)",
+    "classify: new candidate e9953e03aae \"AAP protests CBI raids and BJP outside party office\" (Ludhiana)",
+    "classify: new candidate e4723da2d35 \"Indore sanitation workers strike for regularisation and equal pay\" (Indore)",
+    "classify: new candidate e99dac3aac8 \"Jewish organizations condemn planned Oct. 7 demonstration\" (Philadelphia)",
+    "summary: edcb3f2ede7 judged not real: The protest is scheduled for October 10, 2026, which is in the future relative to the current date of October 8, 2026.",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261007190000",
- "lastRunAt": "2026-10-07T18:58:29.283Z"
+ "gdeltCursor": "20261008010000",
+ "lastRunAt": "2026-10-08T01:02:36.161Z"
 }
