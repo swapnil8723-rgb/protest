@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-08",
-  "count": 21
+  "count": 58
  },
  "runs": [
   {
@@ -552,8 +552,42 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-08T10:40:22.221Z",
+   "ms": 532764,
+   "discovered": 138,
+   "fetched": 133,
+   "classified": 113,
+   "protests": 70,
+   "summarized": 15,
+   "published": 30,
+   "live": 5,
+   "aiCalls": 37,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 7 older files skipped (cap)",
+    "gdelt: 32 files, 113 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 44 protest-word items",
+    "fetch: 133 ok, 5 failed",
+    "classify: new candidate e87887fd0fd \"Chico State students rally against sexual assault\" (Chico)",
+    "classify: new candidate ef896b25e08 \"Congress plans democracy protection meetings in Kerala\" (Thiruvananthapuram)",
+    "classify: new candidate e2555303760 \"INDIA bloc parties hold bandh over mining law\" (Bhubaneswar)",
+    "classify: new candidate eb221623c72 \"Allahabad University students march for women's safety\" (Prayagraj)",
+    "classify: new candidate e5dff5baebf \"Southwark Council protest in Parliament Square over budget cuts\" (London)",
+    "classify: new candidate eeb8a4dcb8a \"Pro-Palestine demonstration in Berlin\" (Berlin)",
+    "classify: new candidate e9cbc40f2eb \"Thousands march in Madrid over eviction death\" (Madrid)",
+    "classify: new candidate e8a78c29caa \"Protesters gather outside Fresno ICE office\" (Fresno)",
+    "classify: new candidate ef31aebc2cd \"Karnataka Congress protests over detention of opposition leaders\" (Bengaluru)",
+    "classify: new candidate e66910aa8e9 \"Anti-migrant protest in Glasgow\" (Glasgow)",
+    "classify: new candidate eae395e7ded \"Batam residents protest water shortages\" (Batam)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 12 events"
+   ],
+   "translated": 12
   }
  ],
- "gdeltCursor": "20261008010000",
- "lastRunAt": "2026-10-08T01:02:36.161Z"
+ "gdeltCursor": "20261008104500",
+ "lastRunAt": "2026-10-08T10:40:22.221Z"
 }
