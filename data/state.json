@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-09",
-  "count": 74
+  "count": 100
  },
  "runs": [
   {
@@ -680,8 +680,40 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-09T16:16:26.564Z",
+   "ms": 267366,
+   "discovered": 92,
+   "fetched": 88,
+   "classified": 75,
+   "protests": 52,
+   "summarized": 11,
+   "published": 34,
+   "live": 8,
+   "aiCalls": 26,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 17 files, 65 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 62 protest-word items",
+    "fetch: 88 ok, 4 failed",
+    "classify: new candidate e5688c7071a \"Students rally and march against police violence\" (Jackson)",
+    "classify: new candidate e19fb91dc57 \"Anti-racists protest against proposed burqa ban\" (Edinburgh)",
+    "classify: new candidate e0b6e8d13c6 \"BJP plans protest against AAP government in Chandigarh over corruption\" (Chandigarh)",
+    "classify: new candidate e985f0a66e0 \"Mother protests bail for accused police in Sivaganga court\" (Sivaganga)",
+    "classify: new candidate e18e056a7e0 \"Family and crowd protest teenager death in Faridabad\" (Faridabad)",
+    "classify: new candidate e4610f2a63a \"Youth protest in Srinagar over Delhi assault on Kashmiri youth\" (Srinagar)",
+    "classify: new candidate eca4031df09 \"Textile workers protest in Surat for 8-hour workdays\" (Surat)",
+    "classify: new candidate e9bb8fe225d \"Sugarcane farmers threaten highway blockade in Karnataka\" (Kalaburagi)",
+    "classify: new candidate e2505af30a7 \"Demonstrators protest sexual assault across US cities\" (Washington)",
+    "classify: new candidate e833372a22c \"Student and youth groups protest in Hosapete against SIR\" (Hosapete)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 8 events"
+   ],
+   "translated": 8
   }
  ],
- "gdeltCursor": "20261009120000",
- "lastRunAt": "2026-10-09T11:51:15.675Z"
+ "gdeltCursor": "20261009161500",
+ "lastRunAt": "2026-10-09T16:16:26.564Z"
 }

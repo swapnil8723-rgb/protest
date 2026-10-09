@@ -1,9 +1,9 @@
 {
  "id": "e8c0830f3c9",
- "slug": "",
- "stage": "candidate",
+ "slug": "kota-rtu-student-death-protest-oct-2026",
+ "stage": "live",
  "title": "Students protest at Rajasthan Technical University over student death",
- "seoTitle": "",
+ "seoTitle": "Kota RTU student death protest",
  "place": {
   "city": "Kota",
   "region": "Rajasthan",
@@ -17,37 +17,93 @@
  "causes": [
   "students",
   "education",
-  "health"
+  "justice"
  ],
- "kind": "one-day",
+ "kind": "multi-day",
  "startedOn": "2026-10-08",
- "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": true,
+ "status": "called-off",
+ "vibe": "wrapped-up",
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious",
+  "low-confidence"
+ ],
+ "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Students protested after a first-year student died in his hostel room, alleging administrative negligence and lack of prompt medical help.",
+  "want": "Protesters demanded the removal of the chief warden, improved campus infrastructure, and better medical facilities.",
+  "changed": "Oct 9: Students called off their protest after the vice-chancellor provided a written assurance on their demands following talks."
  },
- "summary": "",
+ "summary": "Students at Rajasthan Technical University in Kota launched demonstrations following the death of a first-year student found unresponsive in his hostel room. Protesters alleged the student died from a snakebite due to campus negligence and complained that medical staff and dispensary services were unavailable. They staged an overnight sit-in at the university gate, demanding the removal of chief warden D.K. Yadav, infrastructure upgrades, and written assurances from the administration. Police attempted to disperse the crowd, with authorities stating force was used after stone-throwing occurred. The university removed the chief warden and Vice-Chancellor Prof Nimit Choudhary later held talks in the presence of the additional district magistrate, eventually providing a written assurance that led students to call off the agitation and hold a candle march.",
  "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
+ "demands": [
+  "Remove chief warden D.K. Yadav",
+  "Address campus infrastructure and hostel conditions",
+  "Improve medical facilities and dispensary availability",
+  "Provide written assurance from the university administration"
+ ],
+ "response": "According to police and university officials, officers attempted to persuade students to disperse and used force when the situation escalated. The university removed chief warden D.K. Yadav and Vice-Chancellor Prof Nimit Choudhary later agreed to provide written assurances during talks.",
+ "numbers": {
+  "deaths": {
+   "value": 1,
+   "text": "A first-year student was found dead in his hostel room.",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-10-09",
+   "text": "A five-foot-long venomous snake was found in a hostel bathroom, triggering panic before being rescued.",
+   "sources": [
+    2
+   ]
+  },
+  {
+   "at": "2026-10-09",
+   "text": "Students called off their multi-day protest after receiving written assurances from the vice-chancellor.",
+   "sources": [
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.hindustantimes.com/india-news/students-death-triggers-protests-at-kota-s-rajasthan-technical-university-101791540322922.html",
+   "publisher": "hindustantimes.com",
+   "title": "Student’s death triggers protests at Kota’s Rajasthan Technical University",
+   "publishedAt": "2026-10-09T10:05:22.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://timesofindia.indiatimes.com/city/jaipur/rtu-students-protest-over-snakebite-death-enters-second-day/articleshow/134835355.cms",
+   "publisher": "timesofindia.indiatimes.com",
+   "title": "RTU students call off protest after VC gives written assurance on demands",
+   "publishedAt": "2026-10-09T14:05:00.000Z"
+  }
+ ],
  "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
+ "confidence": 0.75,
+ "publishers": 2,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 2,
  "firstSeenAt": "2026-10-09T10:44:09.231Z",
- "lastReportAt": "2026-10-09T10:44:09.231Z",
- "lastCheckedAt": "2026-10-09T10:44:09.231Z",
- "updatedAt": "2026-10-09T10:44:09.231Z"
+ "lastReportAt": "2026-10-09T14:05:00.000Z",
+ "lastCheckedAt": "2026-10-09T16:19:33.081Z",
+ "updatedAt": "2026-10-09T16:19:31.753Z",
+ "endedOn": "2026-10-09",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": true,
+ "summarizedAt": "2026-10-09T16:19:31.753Z",
+ "summaryOf": "3303e9362ee9"
 }
