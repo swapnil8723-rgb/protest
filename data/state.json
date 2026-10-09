@@ -1,7 +1,7 @@
 {
  "aiCalls": {
-  "day": "2026-10-08",
-  "count": 58
+  "day": "2026-10-09",
+  "count": 31
  },
  "runs": [
   {
@@ -586,8 +586,47 @@
     "translate: 12 events"
    ],
    "translated": 12
+  },
+  {
+   "at": "2026-10-09T01:15:02.439Z",
+   "ms": 309972,
+   "discovered": 128,
+   "fetched": 115,
+   "classified": 91,
+   "protests": 51,
+   "summarized": 13,
+   "published": 31,
+   "live": 8,
+   "aiCalls": 31,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 26 older files skipped (cap)",
+    "gdelt: 32 files, 97 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 47 protest-word items",
+    "fetch: 115 ok, 13 failed",
+    "classify: new candidate eb25e8cec7a \"Raijor Dal protests in Guwahati over flood compensation\" (Guwahati)",
+    "classify: new candidate ec91eb2737d \"Congress protests in Udaipur against electoral roll revision\" (Udaipur)",
+    "classify: new candidate ef7a8261c26 \"Tamil Nadu Congress protests Rahul Gandhi's arrest and demands CEC removal\" (Chennai)",
+    "classify: new candidate e57367ce168 \"Indian opposition demonstrates for third day against poll chief and police\" (Bengaluru)",
+    "classify: new candidate e34889816e5 \"Women's groups protest outside Windham State Prison against trans inmates\" (Windham)",
+    "classify: new candidate e4c2ad10efc \"Congress protests police action against opposition leaders in Guwahati\" (Guwahati)",
+    "classify: new candidate e773b8e3857 \"Delhi BJP women's wing protests outside Congress HQ\" (Delhi)",
+    "classify: new candidate e29752e53f9 \"California public sector union announces one-day strike\" (Sacramento)",
+    "classify: new candidate eb50751a690 \"Samajwadi Party march in Prayagraj demanding CEC removal\" (Prayagraj)",
+    "classify: new candidate e02bb455ecc \"CJP volunteers detained in Bhopal ahead of Delhi protest\" (Bhopal)",
+    "classify: new candidate eef396cdfbb \"Faith and tribal leaders rally against border wall in Tucson\" (Tucson)",
+    "classify: new candidate edca7cb6fd0 \"CJP youth movement members detained ahead of Delhi protest\" (Bengaluru)",
+    "classify: new candidate e2bddf03378 \"Protesters rally in New York City against sexual violence\" (New York City)",
+    "classify: new candidate e2a08847315 \"Demonstrators hold anti-ICE protest in New York City\" (New York City)",
+    "classify: new candidate e130fec92dd \"Demonstrators rally in Philadelphia in support of Cornell survivor\" (Philadelphia)",
+    "classify: new candidate e84ed022974 \"Congress workers stage dharna at Rajghat over police action\" (Delhi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 10 events"
+   ],
+   "translated": 10
   }
  ],
- "gdeltCursor": "20261008104500",
- "lastRunAt": "2026-10-08T10:40:22.221Z"
+ "gdeltCursor": "20261009011500",
+ "lastRunAt": "2026-10-09T01:15:02.439Z"
 }
