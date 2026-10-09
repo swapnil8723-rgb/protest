@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-09",
-  "count": 31
+  "count": 59
  },
  "runs": [
   {
@@ -625,8 +625,40 @@
     "translate: 10 events"
    ],
    "translated": 10
+  },
+  {
+   "at": "2026-10-09T10:39:35.670Z",
+   "ms": 635739,
+   "discovered": 173,
+   "fetched": 172,
+   "classified": 145,
+   "protests": 65,
+   "summarized": 9,
+   "published": 32,
+   "live": 7,
+   "aiCalls": 28,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 6 older files skipped (cap)",
+    "gdelt: 32 files, 129 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 62 protest-word items",
+    "fetch: 172 ok, 1 failed",
+    "classify: new candidate eb3963df696 \"Nadapparai residents stage sit-in over land acquisition\" (Vellore)",
+    "classify: new candidate ed38f659448 \"Lawyers rally in Lahore for Imran Khan release\" (Lahore)",
+    "classify: new candidate e2ee1ac9e78 \"INDIA bloc protest in Faridabad against Chief Election Commissioner\" (Faridabad)",
+    "classify: new candidate e9a671b590c \"Rally on National Mall against sexual violence\" (Washington)",
+    "classify: new candidate ed08f139a03 \"AISF members detained in Itarsi ahead of Delhi protest\" (Itarsi)",
+    "classify: new candidate ebb9298c037 \"Protest against Hunter Nation rally in Green Bay\" (Green Bay)",
+    "classify: new candidate e2b850b5560 \"Villagers stage Jal Satyagraha over irrigation project displacement\" (Panna)",
+    "classify: new candidate e869aa55b70 \"Job aspirants protest in Patna over recruitment\" (Patna)",
+    "classify: new candidate e8c0830f3c9 \"Students protest at Rajasthan Technical University over student death\" (Kota)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261009011500",
- "lastRunAt": "2026-10-09T01:15:02.439Z"
+ "gdeltCursor": "20261009104500",
+ "lastRunAt": "2026-10-09T10:39:35.670Z"
 }
