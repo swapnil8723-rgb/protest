@@ -165,7 +165,7 @@ try {
     }
   }
 } catch (e) {
-  if (e instanceof OverBudget) log(`AI budget: ${e.message} — remaining work waits for tomorrow`);
+  if (e instanceof OverBudget) log(`AI budget: ${e.message} — remaining work waits for a later run`);
   else throw e;
 } finally {
   // 7. Score, review, save — always, so partial progress is kept.

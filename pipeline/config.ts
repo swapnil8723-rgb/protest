@@ -50,6 +50,8 @@ export const LIMITS = {
   gdeltMaxFiles: Number(process.env.GDELT_MAX_FILES || 32),
   /** Max sources sent to the summary call. */
   summarySources: 10,
+  /** No new AI call starts after this many minutes, so the run saves well inside the workflow's 20-minute timeout. */
+  aiMinutesPerRun: Number(process.env.AI_MINUTES_PER_RUN || 13),
 };
 
 /** Languages the site is published in besides English (src/i18n has the interface text). */

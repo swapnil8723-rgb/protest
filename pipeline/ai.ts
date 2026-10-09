@@ -1,5 +1,5 @@
 // One-line provider switch (PLAN): AI_PROVIDER=gemini | anthropic | replay.
-//  gemini    — Google AI Studio free tier; gemini-2.5-flash, falls back to 2.5-flash-lite on quota
+//  gemini    — Google AI Studio free tier; gemini-2.5-flash, falls back to 2.5-flash-lite on quota or overload
 //  anthropic — Claude Haiku 4.5 (ANTHROPIC_API_KEY); ~$10–30/month at Phase-1 volume
 //  replay    — answers from files in AI_REPLAY_DIR; unanswered prompts are queued there.
 //              Used by tests and for writing launch summaries by hand.
@@ -45,7 +45,14 @@ export function makeAi(state: State): Ai {
   const today = new Date().toISOString().slice(0, 10);
   if (state.aiCalls.day !== today) state.aiCalls = { day: today, count: 0 };
 
+  // A run killed by the workflow timeout saves nothing, so AI work stops at a deadline instead.
+  const deadline = Date.now() + LIMITS.aiMinutesPerRun * 6e4;
+  const checkTime = () => {
+    if (Date.now() > deadline) throw new OverBudget(`run time cap ${LIMITS.aiMinutesPerRun} min reached`);
+  };
+
   const budget = () => {
+    checkTime();
     if (state.aiCalls.count >= LIMITS.aiCallsPerDay) throw new OverBudget(`daily AI cap ${LIMITS.aiCallsPerDay} reached`);
     state.aiCalls.count++;
     ai.calls++;
@@ -83,7 +90,9 @@ export function makeAi(state: State): Ai {
       const body: any = await res.json().catch(() => ({}));
       const msg = String(body?.error?.message ?? '');
       const outOfQuota = res.status === 429 && /per ?day|daily|PerDay/i.test(msg + JSON.stringify(body?.error?.details ?? ''));
-      if ((res.status === 404 || outOfQuota || (res.status === 429 && attempt >= 3)) && geminiModels.length > 1) {
+      // 503 "high demand" can last for hours: one retry, then the lighter model (retrying alone cost ~10 min per call).
+      const overloaded = res.status >= 500 && attempt >= 1;
+      if ((res.status === 404 || outOfQuota || overloaded || (res.status === 429 && attempt >= 3)) && geminiModels.length > 1) {
         console.warn(`gemini: ${model} unavailable (${res.status}), switching to ${geminiModels[1]}`);
         geminiModels.shift();
         attempt = -1;
@@ -91,6 +100,7 @@ export function makeAi(state: State): Ai {
       }
       if ((res.status === 429 || res.status >= 500) && attempt < 3) {
         await sleep(15000 * (attempt + 1));
+        checkTime();
         continue;
       }
       if (!res.ok) throw new Error(`gemini ${res.status}: ${msg}`.slice(0, 300));
@@ -121,6 +131,7 @@ export function makeAi(state: State): Ai {
       });
       if ((res.status === 429 || res.status === 529 || res.status >= 500) && attempt < 3) {
         await sleep(10000 * (attempt + 1));
+        checkTime();
         continue;
       }
       const body: any = await res.json().catch(() => ({}));
