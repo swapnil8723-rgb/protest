@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-09",
-  "count": 59
+  "count": 74
  },
  "runs": [
   {
@@ -657,8 +657,31 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-09T11:51:15.675Z",
+   "ms": 180092,
+   "discovered": 30,
+   "fetched": 30,
+   "classified": 26,
+   "protests": 14,
+   "summarized": 7,
+   "published": 33,
+   "live": 8,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 5 files, 23 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 59 protest-word items",
+    "fetch: 30 ok, 0 failed",
+    "classify: new candidate ebee4e1862d \"Hindu outfits protest over alleged cattle slaughter\" (Bhopal)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261009104500",
- "lastRunAt": "2026-10-09T10:39:35.670Z"
+ "gdeltCursor": "20261009120000",
+ "lastRunAt": "2026-10-09T11:51:15.675Z"
 }
