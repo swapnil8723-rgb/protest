@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-09",
-  "count": 107
+  "count": 126
  },
  "runs": [
   {
@@ -741,8 +741,35 @@
     "translate: 2 events"
    ],
    "translated": 2
+  },
+  {
+   "at": "2026-10-09T21:53:17.011Z",
+   "ms": 181658,
+   "discovered": 41,
+   "fetched": 36,
+   "classified": 54,
+   "protests": 29,
+   "summarized": 8,
+   "published": 35,
+   "live": 7,
+   "aiCalls": 19,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 14 files, 36 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 60 protest-word items",
+    "fetch: 36 ok, 5 failed",
+    "classify: new candidate e66f418e37e \"Residents protest airport compound wall construction in Coimbatore\" (Coimbatore)",
+    "classify: new candidate ef57cac274f \"Farmers in Kollam call hill-region hartal over ESA draft\" (Kollam)",
+    "classify: new candidate eab083b9a9f \"Student organization protests USF immigration enforcement agreement\" (Tampa)",
+    "classify: new candidate e58b01d8946 \"Opposition leaders allege police house arrest ahead of CJP protest\" (Gurugram)",
+    "classify: new candidate ee8873f2430 \"Students and residents protest Republican candidate in Madison\" (Madison)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261009183000",
- "lastRunAt": "2026-10-09T18:23:33.463Z"
+ "gdeltCursor": "20261009220000",
+ "lastRunAt": "2026-10-09T21:53:17.011Z"
 }
