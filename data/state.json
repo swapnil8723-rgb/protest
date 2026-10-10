@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-10",
-  "count": 25
+  "count": 37
  },
  "runs": [
   {
@@ -821,8 +821,31 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-10T06:25:20.515Z",
+   "ms": 216357,
+   "discovered": 65,
+   "fetched": 65,
+   "classified": 59,
+   "protests": 39,
+   "summarized": 4,
+   "published": 36,
+   "live": 9,
+   "aiCalls": 12,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 8 files, 51 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 88 protest-word items",
+    "fetch: 65 ok, 0 failed",
+    "classify: new candidate e4000d0657e \"YouTuber detained ahead of CJP protest against CEC\" (Gurugram)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261010043000",
- "lastRunAt": "2026-10-10T04:27:50.564Z"
+ "gdeltCursor": "20261010063000",
+ "lastRunAt": "2026-10-10T06:25:20.515Z"
 }
