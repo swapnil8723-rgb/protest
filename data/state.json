@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-10",
-  "count": 93
+  "count": 116
  },
  "runs": [
   {
@@ -926,8 +926,42 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-10T16:16:23.825Z",
+   "ms": 206081,
+   "discovered": 109,
+   "fetched": 105,
+   "classified": 94,
+   "protests": 65,
+   "summarized": 9,
+   "published": 41,
+   "live": 10,
+   "aiCalls": 23,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 80 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 91 protest-word items",
+    "fetch: 105 ok, 4 failed",
+    "classify: new candidate ee728cb2e2a \"Activists shift anti-CEC demonstration to Pune after release\" (Pune)",
+    "classify: new candidate e3abb7c5ade \"INDIA bloc leaders protest under Save Democracy Week in Srinagar\" (Srinagar)",
+    "classify: new candidate efa0925f7c5 \"College professors protest college affiliation and university act in Patna\" (Patna)",
+    "classify: new candidate e4ecd695d12 \"Police constable black-flag protest over hospital negligence\" (Chennai)",
+    "classify: new candidate e354e096ef1 \"Left parties call for Tamil Nadu protests over Delhi crackdown\" (Chennai)",
+    "classify: new candidate e89e7d9fa64 \"CPI(M) marches in Kochi against Delhi protest crackdown\" (Kochi)",
+    "classify: new candidate e090606eeeb \"Pro-Palestinian demonstrators rally in London\" (London)",
+    "classify: new candidate ee7193b2f76 \"CPI(M) torchlight protest in Madurai condemning Delhi arrests\" (Madurai)",
+    "classify: new candidate e1064866d93 \"Farmer outfits protest in Hisar over youth detentions\" (Hisar)",
+    "classify: new candidate ef7e6ffa5a8 \"Students detained protesting near Election Commission in Bengaluru\" (Bengaluru)",
+    "classify: new candidate e3065beae96 \"RJD and AISA hold demonstrations in Ranchi over roll revision\" (Ranchi)",
+    "classify: new candidate e3ef07ecd15 \"Pro-Palestine march in Edinburgh\" (Edinburgh)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261010130000",
- "lastRunAt": "2026-10-10T13:05:10.076Z"
+ "gdeltCursor": "20261010161500",
+ "lastRunAt": "2026-10-10T16:16:23.825Z"
 }
