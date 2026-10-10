@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-10",
-  "count": 129
+  "count": 138
  },
  "runs": [
   {
@@ -984,8 +984,33 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-10T18:03:07.041Z",
+   "ms": 102867,
+   "discovered": 15,
+   "fetched": 13,
+   "classified": 13,
+   "protests": 12,
+   "summarized": 3,
+   "published": 42,
+   "live": 9,
+   "aiCalls": 9,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 2 files, 9 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 99 protest-word items",
+    "fetch: 13 ok, 2 failed",
+    "classify: new candidate e5b42bb4e63 \"Protest in Bengaluru demands Bedti-Aghanashini project cancellation\" (Bengaluru)",
+    "classify: new candidate e07b54c1b91 \"Protesters demonstrate in Berlin against German government policies\" (Berlin)",
+    "summary: e354e096ef1 only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261010173000",
- "lastRunAt": "2026-10-10T17:22:00.443Z"
+ "gdeltCursor": "20261010180000",
+ "lastRunAt": "2026-10-10T18:03:07.041Z"
 }
