@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-10",
-  "count": 37
+  "count": 60
  },
  "runs": [
   {
@@ -844,8 +844,37 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-10T09:55:39.237Z",
+   "ms": 219846,
+   "discovered": 124,
+   "fetched": 122,
+   "classified": 115,
+   "protests": 103,
+   "summarized": 8,
+   "published": 38,
+   "live": 9,
+   "aiCalls": 23,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 14 files, 92 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 105 protest-word items",
+    "fetch: 122 ok, 2 failed",
+    "classify: new candidate e5292de9425 \"Tushar Gandhi detained in Mumbai ahead of CJP solidarity protest\" (Mumbai)",
+    "classify: new candidate ed8395a3c07 \"Rajasthan police detain individuals heading to CJP protest in Delhi\" (Jaipur)",
+    "classify: new candidate e61a8e8a9aa \"YouTuber Dhruv Rathee detained ahead of CJP protest in Delhi\" (Delhi)",
+    "classify: new candidate ec415e51fce \"AISF and AIYF cadres arrested in Chennai anti-CEC protest\" (Chennai)",
+    "classify: new candidate e0bc76ab8f5 \"BJP Mahila Morcha protests outside Congress office in Lucknow\" (Lucknow)",
+    "classify: new candidate e7eca23d908 \"INDIA bloc announces protest in Delhi over voting rights\" (Delhi)",
+    "classify: new candidate e595a1b95a5 \"Union workers and drivers rally against robotaxis in Washington\" (Washington)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261010063000",
- "lastRunAt": "2026-10-10T06:25:20.515Z"
+ "gdeltCursor": "20261010100000",
+ "lastRunAt": "2026-10-10T09:55:39.237Z"
 }
