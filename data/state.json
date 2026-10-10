@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-10",
-  "count": 60
+  "count": 84
  },
  "runs": [
   {
@@ -873,8 +873,34 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-10T11:30:56.955Z",
+   "ms": 237845,
+   "discovered": 69,
+   "fetched": 68,
+   "classified": 64,
+   "protests": 47,
+   "summarized": 10,
+   "published": 40,
+   "live": 8,
+   "aiCalls": 24,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 6 files, 49 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 115 protest-word items",
+    "fetch: 68 ok, 1 failed",
+    "classify: new candidate e92eb154fbb \"Left and Congress protest in Vijayawada demanding CEC resignation\" (Vijayawada)",
+    "classify: new candidate eca2d9219bb \"Opposition leaders detained in Delhi and Chandigarh over CEC protests\" (Chandigarh)",
+    "classify: new candidate e74370b3837 \"British government blocks contentious march in Northern Ireland\" (Portadown)",
+    "classify: new candidate ef8e011f75b \"BJP Mahila Morcha marches in Delhi demanding MP and professor expulsion\" (Delhi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 8 events"
+   ],
+   "translated": 8
   }
  ],
- "gdeltCursor": "20261010100000",
- "lastRunAt": "2026-10-10T09:55:39.237Z"
+ "gdeltCursor": "20261010113000",
+ "lastRunAt": "2026-10-10T11:30:56.955Z"
 }
