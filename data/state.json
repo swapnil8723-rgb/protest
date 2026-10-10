@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-10",
-  "count": 138
+  "count": 160
  },
  "runs": [
   {
@@ -1009,8 +1009,35 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-10T21:48:27.017Z",
+   "ms": 274796,
+   "discovered": 56,
+   "fetched": 56,
+   "classified": 54,
+   "protests": 39,
+   "summarized": 10,
+   "published": 43,
+   "live": 8,
+   "aiCalls": 22,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 15 files, 44 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 104 protest-word items",
+    "fetch: 56 ok, 0 failed",
+    "classify: new candidate e3c2d0d43f6 \"Villagers confront police over detention of local representative\" (Rohtak)",
+    "classify: new candidate e1bb391e751 \"Congress burning of election chief effigy in Phagwara\" (Phagwara)",
+    "classify: new candidate e4ae85b5635 \"Demonstrators in Guwahati protest against CEC Gyanesh Kumar\" (Guwahati)",
+    "classify: new candidate e05b163fb6e \"Sacked power operator climbs pole and cuts power in Satna protest\" (Satna)",
+    "classify: new candidate e12bf632add \"Sonam Wangchuk warns of fresh protest over Delhi detentions\" (Srinagar)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261010180000",
- "lastRunAt": "2026-10-10T18:03:07.041Z"
+ "gdeltCursor": "20261010214500",
+ "lastRunAt": "2026-10-10T21:48:27.017Z"
 }
