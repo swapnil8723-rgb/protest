@@ -17,56 +17,48 @@
  "causes": [
   "students",
   "elections",
-  "justice"
+  "governance"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-08",
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence",
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Students and activists traveled to join a demonstration in New Delhi against alleged irregularities in electoral rolls.",
-  "want": "Demanding the resignation of Chief Election Commissioner Gyanesh Kumar, withdrawal of the Special Intensive Revision, and electoral reforms.",
-  "changed": "Oct 9: The Madhya Pradesh High Court ordered authorities to produce the detained students by October 13, leading to their release."
+  "why": "Students and activists travelled toward New Delhi to join a planned demonstration at Jantar Mantar.",
+  "want": "Protesters demanded the resignation of Chief Election Commissioner Gyanesh Kumar and the cancellation of the Special Intensive Revision of electoral rolls.",
+  "changed": "Oct 9: Madhya Pradesh Police released detained students from a hotel, while the High Court issued notices to authorities."
  },
- "summary": "Madhya Pradesh Government Railway Police detained students and activists traveling from Pune to New Delhi at Itarsi railway station. The travelers, affiliated with the All India Students Federation and other groups, intended to participate in a demonstration called by the Cockroach Janta Party at Jantar Mantar to demand the resignation of Chief Election Commissioner Gyanesh Kumar and electoral reforms. Organisers and participants alleged that police forcibly removed them from the Goa Express train without permission and subjected them to mistreatment, confining them in a private resort instead of a police station. Police stated the detention was based on orders from above under Section 172 of the BNSS because the protesters lacked permission. Following a habeas corpus petition, the Madhya Pradesh High Court directed the state to produce the students by October 13, after which authorities released them on Friday evening.",
+ "summary": "Authorities in Madhya Pradesh intercepted and detained students traveling by train toward New Delhi to participate in a demonstration organized by the Cockroach Janata Party. Members of the All India Students Federation were among those removed from the Goa Express at Itarsi railway station by Government Railway Police. Officials cited orders from above and section 172 of the BNSS to prevent individuals from attending the planned gathering at Jantar Mantar. The demonstration aimed to call for the resignation of Chief Election Commissioner Gyanesh Kumar and oppose the electoral roll revision. Family members filed a habeas corpus petition, prompting the Madhya Pradesh High Court to issue notices to state and police authorities.",
  "organizers": [
   "All India Students Federation",
-  "Cockroach Janta Party"
+  "Cockroach Janata Party"
  ],
  "demands": [
   "Resignation of Chief Election Commissioner Gyanesh Kumar",
-  "Withdrawal of the Special Intensive Revision of electoral rolls",
-  "Electoral reforms"
+  "Cancellation of the Special Intensive Revision of electoral rolls"
  ],
- "response": "Police stated they detained the students under Section 172 of the BNSS following orders from above because they lacked permission to protest. Police later claimed the students were released on Friday. The Madhya Pradesh High Court issued a notice asking authorities to produce the detainees.",
+ "response": "Police stated the individuals lacked permission and were intercepted under BNSS Section 172 following orders from above. While some officials claimed the travelers were released, others noted they were held in a hotel or resort.",
  "numbers": {
-  "crowd": {
-   "value": 14,
-   "text": "14 students, activists from Pune",
-   "sources": [
-    2,
-    4
-   ]
-  },
   "arrests": {
    "value": 14,
-   "text": "detained 14 students at Itarsi Junction railway station",
+   "text": "The Madhya Pradesh Government Railway Police (GRP) have detained 14 students at Itarsi Junction railway station.",
    "sources": [
-    1,
-    2,
-    4
+    2
    ]
   }
  },
  "updates": [
   {
    "at": "2026-10-08",
-   "text": "Police removed students from the Goa Express train at Itarsi station and took them into custody.",
+   "text": "Madhya Pradesh Police intercepted and removed students from a train at Itarsi railway station.",
    "sources": [
     2,
     4
@@ -74,18 +66,9 @@
   },
   {
    "at": "2026-10-09",
-   "text": "The Madhya Pradesh High Court issued a habeas corpus notice directing the state to produce the detained students on or before October 13.",
+   "text": "Police claimed the detained students were released but kept at a private hotel, while the High Court issued a notice.",
    "sources": [
-    2,
-    4
-   ]
-  },
-  {
-   "at": "2026-10-09",
-   "text": "Authorities released the detained students on Friday evening, and they decided to return to Pune instead of continuing to Delhi.",
-   "sources": [
-    2,
-    4
+    2
    ]
   }
  ],
@@ -112,164 +95,162 @@
   },
   {
    "n": 4,
-   "url": "https://timesofindia.indiatimes.com/city/pune/14-students-activists-from-pune-detained-on-way-to-delhi-protest-released-after-madhya-pradesh-direction/articleshow/134842433.cms",
+   "url": "https://timesofindia.indiatimes.com/city/bhopal/when-road-to-protest-ends-at-a-railway-stop/articleshow/134852793.cms",
    "publisher": "timesofindia.indiatimes.com",
-   "title": "14 students, activists from Pune detained on way to Delhi protest, released after Madhya Pradesh direction",
-   "publishedAt": "2026-10-09T19:48:00.000Z"
+   "title": "When road to protest ends at a railway stop",
+   "publishedAt": "2026-10-10T11:20:00.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.91,
+ "conflicts": [
+  "AISF alleged 22 students were detained, while police records and reports stated 14 or 15 students were held at Itarsi."
+ ],
+ "confidence": 0.76,
  "publishers": 4,
- "reports24h": 3,
+ "reports24h": 4,
  "reportsPrev24h": 2,
- "reports48h": 5,
+ "reports48h": 6,
  "firstSeenAt": "2026-10-09T10:43:00.185Z",
- "lastReportAt": "2026-10-09T19:48:00.000Z",
- "lastCheckedAt": "2026-10-10T11:33:40.551Z",
- "updatedAt": "2026-10-09T21:55:00.915Z",
+ "lastReportAt": "2026-10-10T11:20:00.000Z",
+ "lastCheckedAt": "2026-10-10T13:06:34.765Z",
+ "updatedAt": "2026-10-10T13:06:33.625Z",
  "responseSources": [
   2,
+  3,
   4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-09T21:55:00.915Z",
- "summaryOf": "57def651848f",
+ "summarizedAt": "2026-10-10T13:06:33.625Z",
+ "summaryOf": "3f677bb52fa2",
  "endedOn": "2026-10-09",
  "publishedAt": "2026-10-09T21:55:14.595Z",
  "i18n": {
-  "of": "47101bae2b37712a",
-  "at": "2026-10-09T21:56:18.521Z",
+  "of": "0f496d6984f7d368",
+  "at": "2026-10-10T13:07:04.834Z",
   "tries": 1,
   "hi": {
-   "title": "दिल्ली प्रदर्शन के लिए जाते समय AISF के सदस्यों और छात्रों को इटारसी में हिरासत में लिया गया",
-   "seoTitle": "दिल्ली जाते रास्ते में इटारसी में छात्र हिरासत में",
+   "title": "AISF के सदस्य और छात्र दिल्ली प्रदर्शन के लिए जाते समय इटारसी में हिरासत में लिए गए",
+   "seoTitle": "दिल्ली जाते समय इटारसी में छात्र हिरासत में",
    "tea": {
-    "why": "छात्र और कार्यकर्ता मतदाता सूचियों में कथित अनियमितताओं के खिलाफ नई दिल्ली में एक प्रदर्शन में शामिल होने के लिए यात्रा कर रहे थे।",
-    "want": "मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे, विशेष गहन पुनरीक्षण को वापस लेने और चुनावी सुधारों की मांग की जा रही है।",
-    "changed": "9 अक्टूबर: मध्य प्रदेश उच्च न्यायालय ने अधिकारियों को 13 अक्टूबर तक हिरासत में लिए गए छात्रों को पेश करने का आदेश दिया, जिसके बाद उन्हें रिहा कर दिया गया।"
+    "why": "छात्र और कार्यकर्ता जंतर-मंतर पर एक नियोजित प्रदर्शन में शामिल होने के लिए नई दिल्ली की ओर यात्रा कर रहे थे।",
+    "want": "प्रदर्शनकारियों ने मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे और मतदाता सूचियों के विशेष गहन पुनरीक्षण को रद्द करने की मांग की।",
+    "changed": "9 अक्टूबर: मध्य प्रदेश पुलिस ने हिरासत में लिए गए छात्रों को एक होटल से रिहा कर दिया, जबकि उच्च न्यायालय ने अधिकारियों को नोटिस जारी किया।"
    },
-   "summary": "मध्य प्रदेश राजकीय रेलवे पुलिस ने पुणे से नई दिल्ली जा रहे छात्रों और कार्यकर्ताओं को इटारसी रेलवे स्टेशन पर हिरासत में लिया। ऑल इंडिया स्टूडेंट्स फेडरेशन और अन्य समूहों से जुड़े ये यात्री, मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे और चुनावी सुधारों की मांग को लेकर जंतर-मंतर पर कॉकरोच जनता पार्टी द्वारा बुलाए गए प्रदर्शन में भाग लेने का इरादा रखते थे। आयोजकों और प्रतिभागियों ने आरोप लगाया कि पुलिस ने बिना अनुमति के उन्हें गोवा एक्सप्रेस ट्रेन से जबरन उतार दिया और उनके साथ दुर्व्यवहार किया, तथा उन्हें पुलिस स्टेशन के बजाय एक निजी रिसॉर्ट में बंद कर दिया। पुलिस ने कहा कि यह हिरासत ऊपर से मिले आदेशों के तहत बीएनएसएस की धारा 172 के आधार पर थी क्योंकि प्रदर्शनकारियों के पास अनुमति नहीं थी। बंदी प्रत्यक्षीकरण याचिका के बाद, मध्य प्रदेश उच्च न्यायालय ने राज्य को 13 अक्टूबर तक छात्रों को पेश करने का निर्देश दिया, जिसके बाद अधिकारियों ने शुक्रवार शाम को उन्हें रिहा कर दिया।",
+   "summary": "मध्य प्रदेश में अधिकारियों ने कॉकरोच जनता पार्टी द्वारा आयोजित प्रदर्शन में भाग लेने के लिए ट्रेन से नई दिल्ली की ओर यात्रा कर रहे छात्रों को रोका और हिरासत में लिया। ऑल इंडिया स्टूडेंट्स फेडरेशन के सदस्य उन लोगों में शामिल थे जिन्हें सरकारी रेलवे पुलिस द्वारा इटारसी रेलवे स्टेशन पर गोवा एक्सप्रेस से उतार लिया गया। अधिकारियों ने जंतर-मंतर पर नियोजित सभा में व्यक्तियों को शामिल होने से रोकने के लिए ऊपर से आदेशों और बीएनएसएस की धारा 172 का हवाला दिया। इस प्रदर्शन का उद्देश्य मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे की मांग करना और मतदाता सूची पुनरीक्षण का विरोध करना था। परिजनों ने बंदी प्रत्यक्षीकरण याचिका दायर की, जिसके चलते मध्य प्रदेश उच्च न्यायालय ने राज्य और पुलिस अधिकारियों को नोटिस जारी किए।",
    "demands": [
     "मुख्य चुनाव आयुक्त ज्ञानेश कुमार का इस्तीफा",
-    "मतदाता सूचियों के विशेष गहन पुनरीक्षण की वापसी",
-    "चुनावी सुधार"
+    "मतदाता सूचियों के विशेष गहन पुनरीक्षण को रद्द करना"
    ],
-   "response": "पुलिस ने बताया कि उन्होंने ऊपर से मिले आदेशों के बाद बीएनएसएस की धारा 172 के तहत छात्रों को हिरासत में लिया क्योंकि उनके पास प्रदर्शन करने की अनुमति नहीं थी। पुलिस ने बाद में दावा किया कि छात्रों को शुक्रवार को रिहा कर दिया गया। मध्य प्रदेश उच्च न्यायालय ने अधिकारियों को हिरासत में लिए गए लोगों को पेश करने के लिए नोटिस जारी किया।",
+   "response": "पुलिस ने बताया कि व्यक्तियों के पास अनुमति नहीं थी और ऊपर से आए आदेशों के बाद बीएनएसएस धारा 172 के तहत उन्हें रोका गया। जबकि कुछ अधिकारियों ने दावा किया कि यात्रियों को रिहा कर दिया गया था, अन्य ने उल्लेख किया कि उन्हें एक होटल या रिजॉर्ट में रखा गया था।",
    "updates": [
-    "पुलिस ने इटारसी स्टेशन पर गोवा एक्सप्रेस ट्रेन से छात्रों को उतारा और उन्हें हिरासत में ले लिया।",
-    "मध्य प्रदेश उच्च न्यायालय ने एक बंदी प्रत्यक्षीकरण नोटिस जारी कर राज्य को 13 अक्टूबर को या उससे पहले हिरासत में लिए गए छात्रों को पेश करने का निर्देश दिया।",
-    "अधिकारियों ने शुक्रवार शाम को हिरासत में लिए गए छात्रों को रिहा कर दिया, और उन्होंने दिल्ली जाने के बजाय पुणे लौटने का फैसला किया।"
+    "मध्य प्रदेश पुलिस ने इटारसी रेलवे स्टेशन पर एक ट्रेन से छात्रों को रोका और नीचे उतारा।",
+    "पुलिस ने दावा किया कि हिरासत में लिए गए छात्रों को रिहा कर दिया गया था लेकिन एक निजी होटल में रखा गया था, जबकि उच्च न्यायालय ने नोटिस जारी किया।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "AISF ने आरोप लगाया कि 22 छात्रों को हिरासत में लिया गया, जबकि पुलिस रिकॉर्ड और रिपोर्टों में कहा गया कि इटारसी में 14 या 15 छात्रों को रोका गया था।"
+   ],
    "numbers": {
-    "crowd": "पुणे के 14 छात्र और कार्यकर्ता",
-    "arrests": "इटारसी जंक्शन रेलवे स्टेशन पर 14 छात्रों को हिरासत में लिया गया"
+    "arrests": "मध्य प्रदेश सरकारीय रेलवे पुलिस (GRP) ने इटारसी जंक्शन रेलवे स्टेशन पर 14 छात्रों को हिरासत में लिया है।"
    }
   },
   "mr": {
-   "title": "दिल्ली आंदोलनासाठी जात असताना AISF चे सदस्य आणि विद्यार्थ्यांना इटारसी येथे ताब्यात घेण्यात आले",
-   "seoTitle": "दिल्लीला जाताना इटारसी येथे विद्यार्थी ताब्यात",
+   "title": "AISF चे सदस्य आणि विद्यार्थी दिल्ली आंदोलनासाठी जात असताना इटारसी येथे ताब्यात",
+   "seoTitle": "दिल्लीकडे जाताना इटारसी येथे विद्यार्थी ताब्यात",
    "tea": {
-    "why": "मतदारयाद्यांमधील कथित अनियमिततांविरोधात नवी दिल्ली येथे एका निदर्शनात सहभागी होण्यासाठी विद्यार्थी आणि कार्यकर्ते प्रवास करत होते.",
-    "want": "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची, विशेष सखोल पुनरावृत्ती मागे घेण्याची आणि निवडणूक सुधारणांची मागणी.",
-    "changed": "9 ऑक्टोबर: मध्य प्रदेश उच्च न्यायालयाने प्राधिकाऱ्यांना 13 ऑक्टोबरपर्यंत ताब्यात घेतलेल्या विद्यार्थ्यांना हजर करण्याचे आदेश दिले, ज्यामुळे त्यांची सुटका झाली."
+    "why": "विद्यार्थी आणि कार्यकर्ते जंतरमंतर येथील नियोजित निदर्शनांमध्ये सामील होण्यासाठी नवी दिल्लीकडे प्रवास करत होते.",
+    "want": "आंदोलकांनी मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची आणि मतदारयाद्यांच्या विशेष कसून फेरतपासणीच्या रद्दीकरणाची मागणी केली.",
+    "changed": "9 ऑक्टोबर: मध्य प्रदेश पोलिसांनी ताब्यात घेतलेल्या विद्यार्थ्यांना एका हॉटेलमधून सोडले, तर उच्च न्यायालयाने अधिकाऱ्यांना नोटीस बजावली."
    },
-   "summary": "मध्य प्रदेश शासकीय लोहमार्ग पोलिसांनी पुण्यातून नवी दिल्लीला जाणाऱ्या विद्यार्थी आणि कार्यकर्त्यांना इटारसी रेल्वे स्थानकावर ताब्यात घेतले. ऑल इंडिया स्टुडंट्स फेडरेशन आणि इतर गटांशी संबंधित हे प्रवासी, मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांचा राजीनामा आणि निवडणूक सुधारणांची मागणी करण्यासाठी जंतरमंतर येथे कॉकरोच जनता पार्टीने बोलावलेल्या निदर्शनात सहभागी होण्याचा विचार करत होते. आयोजक and सहभागींनी आरोप केला की पोलिसांनी त्यांना परवानगीशिवाय गोवा एक्सप्रेस ट्रेनमधून बळजबरीने खाली उतरवले आणि त्यांच्याशी गैरव्यवहार केला, त्यांना पोलिस ठाण्याऐवजी खाजगी रिसॉर्टमध्ये डांबून ठेवले. पोलिसांनी सांगितले की ही अटक वरून आलेल्या आदेशांनुसार बीएनएसएसच्या कलम 172 अंतर्गत होती कारण निदर्शकांकडे परवानगी नव्हती. हेबेअस कॉर्पस याचिकेनंतर, मध्य प्रदेश उच्च न्यायालयाने राज्याला 13 ऑक्टोबरपर्यंत विद्यार्थ्यांना हजर करण्याचे निर्देश दिले, त्यानंतर प्राधिकाऱ्यांनी शुक्रवारी संध्याकाळी त्यांची सुटका केली.",
+   "summary": "मध्य प्रदेशातील अधिकाऱ्यांनी कॉकरोच जनता पार्टीने आयोजित केलेल्या निदर्शनात सहभागी होण्यासाठी ट्रेनने नवी दिल्लीकडे जाणाऱ्या विद्यार्थ्यांना अडवले आणि ताब्यात घेतले. ऑल इंडिया स्टुडंट्स फेडरेशनचे सदस्य त्या लोकांमध्ये समाविष्ट होते ज्यांना सरकारी रेल्वे पोलिसांनी इटारसी रेल्वे स्थानकावर गोवा एक्सप्रेसमधून खाली उतरवले. जंतरमंतर येथील नियोजित जमवाजमवीला व्यक्तींना उपस्थित राहण्यापासून रोखण्यासाठी अधिकाऱ्यांनी वरून आलेले आदेश आणि बीएनएसएसचे कलम 172 यांचा हवाला दिला. या निदर्शनाचे उद्दिष्ट मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची मागणी करणे आणि मतदारयादी फेरतपासणीला विरोध करणे हा होता. कुटुंबीयांनी हेबियस कॉर्पस याचिका दाखल केली, ज्यामुळे मध्य प्रदेश उच्च न्यायालयाने राज्य आणि पोलीस अधिकाऱ्यांना नोटीस जारी केली.",
    "demands": [
     "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांचा राजीनामा",
-    "मतदारयाद्यांची विशेष सखोल पुनरावृत्ती मागे घेणे",
-    "निवडणूक सुधारणा"
+    "मतदारयाद्यांच्या विशेष कसून फेरतपासणीचे रद्दीकरण"
    ],
-   "response": "पोलिसांनी सांगितले की त्यांनी आंदोलनाची परवानगी नसल्यामुळे वरून आलेल्या आदेशांनुसार बीएनएसएसच्या कलम 172 अंतर्गत विद्यार्थ्यांना ताब्यात घेतले. पोलिसांनी नंतर दावा केला की विद्यार्थ्यांना शुक्रवारी सोडण्यात आले. मध्य प्रदेश उच्च न्यायालयाने ताब्यात घेतलेल्या व्यक्तींना हजर करण्यास सांगणारी नोटीस जारी केली.",
+   "response": "पोलिसांनी सांगितले की व्यक्तींकडे परवानगी नव्हती आणि वरून आलेल्या आदेशांनुसार बीएनएसएस कलम 172 अंतर्गत त्यांना अडवण्यात आले. काही अधिकाऱ्यांनी प्रवाशांची सुटका झाल्याचा दावा केला, तर काहींनी नमूद केले की त्यांना एका हॉटेलमध्ये किंवा रिसॉर्टमध्ये ठेवण्यात आले होते.",
    "updates": [
-    "पोलिसांनी इटारसी स्थानकावर गोवा एक्सप्रेस ट्रेनमधून विद्यार्थ्यांना खाली उतरवले आणि त्यांना ताब्यात घेतले.",
-    "मध्य प्रदेश उच्च न्यायालयाने हेबेअस कॉर्पस नोटीस जारी करून राज्याला 13 ऑक्टोबर रोजी किंवा त्यापूर्वी ताब्यात घेतलेल्या विद्यार्थ्यांना हजर करण्याचे निर्देश दिले.",
-    "प्राधिकाऱ्यांनी शुक्रवारी संध्याकाळी ताब्यात घेतलेल्या विद्यार्थ्यांची सुटका केली आणि त्यांनी दिल्लीला जाण्याऐवजी पुण्यात परतण्याचा निर्णय घेतला."
+    "मध्य प्रदेश पोलिसांनी इटारसी रेल्वे स्थानकावर ट्रेनमधून विद्यार्थ्यांना अडवले आणि खाली उतरवले.",
+    "पोलिसांनी दावा केला की ताब्यात घेतलेल्या विद्यार्थ्यांना सोडण्यात आले परंतु एका खाजगी हॉटेलमध्ये ठेवण्यात आले, तर उच्च न्यायालयाने नोटीस जारी केली."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "AISF ने आरोप केला की 22 विद्यार्थ्यांना ताब्यात घेण्यात आले, तर पोलीस रेकॉर्ड आणि अहवालांनुसार इटारसी येथे 14 किंवा 15 विद्यार्थ्यांना रोखण्यात आले होते."
+   ],
    "numbers": {
-    "crowd": "पुणे येथील 14 विद्यार्थी आणि कार्यकर्ते",
-    "arrests": "इटारसी जंक्शन रेल्वे स्थानकावर 14 विद्यार्थ्यांना ताब्यात घेतले"
+    "arrests": "मध्य प्रदेश शासकीय रेल्वे पोलिसांनी (GRP) इटारसी जंक्शन रेल्वे स्थानकावर 14 विद्यार्थ्यांना ताब्यात घेतले आहे."
    }
   },
   "es": {
    "title": "Miembros de AISF y estudiantes detenidos en Itarsi mientras viajaban a una protesta en Delhi",
-   "seoTitle": "Estudiantes detenidos en Itarsi rumbo a Delhi",
+   "seoTitle": "Estudiantes de Itarsi detenidos rumbo a Delhi",
    "tea": {
-    "why": "Estudiantes y activistas viajaban para unirse a una manifestación en Nueva Delhi contra presuntas irregularidades en los padrones electorales.",
-    "want": "Exigen la dimisión del comisario jefe de elecciones Gyanesh Kumar, la retirada de la revisión intensiva especial y reformas electorales.",
-    "changed": "9 de octubre: El Tribunal Superior de Madhya Pradesh ordenó a las autoridades presentar a los estudiantes detenidos antes del 13 de octubre, lo que llevó a su liberación."
+    "why": "Estudiantes y activistas viajaron hacia Nueva Delhi para unirse a una manifestación planificada en Jantar Mantar.",
+    "want": "Los manifestantes exigieron la dimisión del comisario jefe electoral Gyanesh Kumar y la cancelación de la Revisión Intensiva Especial de las listas electorales.",
+    "changed": "9 de oct: La policía de Madhya Pradesh liberó a los estudiantes detenidos de un hotel, mientras que el Tribunal Superior emitió notificaciones a las autoridades."
    },
-   "summary": "La Policía Ferroviaria Gubernamental de Madhya Pradesh detuvo en la estación de tren de Itarsi a estudiantes y activistas que viajaban de Pune a Nueva Delhi. Los viajeros, afiliados a la Federación de Estudiantes de All India y otros grupos, tenían la intención de participar en una manifestación convocada por el Partido Cockroach Janta en Jantar Mantar para exigir la dimisión del comisario jefe de elecciones Gyanesh Kumar y reformas electorales. Los organizadores y participantes alegaron que la policía los sacó por la fuerza del tren Goa Express sin permiso y los sometió a malos tratos, confinándolos en un complejo privado en lugar de una comisaría. La policía declaró que la detención se basó en órdenes superiores en virtud de la sección 172 del BNSS porque los manifestantes carecían de permiso. Tras un recurso de hábeas corpus, el Tribunal Superior de Madhya Pradesh ordenó al estado presentar a los estudiantes antes del 13 de octubre, tras lo cual las autoridades los pusieron en libertad el viernes por la tarde.",
+   "summary": "Las autoridades de Madhya Pradesh interceptaron y detuvieron a estudiantes que viajaban en tren hacia Nueva Delhi para participar en una manifestación organizada por el Partido Cockroach Janata. Miembros de la Federación de Estudiantes de Toda la India se encontraban entre los bajados del Goa Express en la estación de tren de Itarsi por la Policía Ferroviaria Gubernamental. Los funcionarios citaron órdenes superiores y la sección 172 del BNSS para impedir que las personas asistieran a la concentración planificada en Jantar Mantar. La manifestación tenía como objetivo pedir la dimisión del comisario jefe electoral Gyanesh Kumar y oponerse a la revisión de las listas electorales. Los familiares presentaron un recurso de hábeas corpus, lo que impulsó al Tribunal Superior de Madhya Pradesh a emitir notificaciones a las autoridades estatales y policiales.",
    "demands": [
-    "Dimisión del comisario jefe de elecciones Gyanesh Kumar",
-    "Retirada de la revisión intensiva especial de los padrones electorales",
-    "Reformas electorales"
+    "Dimisión del comisario jefe electoral Gyanesh Kumar",
+    "Cancelación de la Revisión Intensiva Especial de las listas electorales"
    ],
-   "response": "La policía declaró que detuvo a los estudiantes en virtud de la sección 172 del BNSS siguiendo órdenes superiores porque no tenían permiso para protestar. La policía afirmó posteriormente que los estudiantes fueron liberados el viernes. El Tribunal Superior de Madhya Pradesh emitió una notificación pidiendo a las autoridades que presentaran a los detenidos.",
+   "response": "La policía declaró que los individuos carecían de permiso y fueron interceptados bajo la sección 172 del BNSS tras órdenes superiores. Mientras algunos funcionarios afirmaron que los viajeros fueron liberados, otros señalaron que fueron retenidos en un hotel o complejo turístico.",
    "updates": [
-    "La policía sacó a los estudiantes del tren Goa Express en la estación de Itarsi y los puso bajo custodia.",
-    "El Tribunal Superior de Madhya Pradesh emitió una notificación de hábeas corpus ordenando al estado presentar a los estudiantes detenidos el 13 de octubre o antes.",
-    "Las autoridades liberaron a los estudiantes detenidos el viernes por la tarde, y decidieron regresar a Pune en lugar de continuar hacia Delhi."
+    "La policía de Madhya Pradesh interceptó y bajó a los estudiantes de un tren en la estación de tren de Itarsi.",
+    "La policía afirmó que los estudiantes detenidos fueron liberados pero retenidos en un hotel privado, mientras que el Tribunal Superior emitió una notificación."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "AISF alegó que 22 estudiantes fueron detenidos, mientras que los registros policiales e informes indicaron que 14 o 15 estudiantes fueron retenidos en Itarsi."
+   ],
    "numbers": {
-    "crowd": "14 estudiantes y activistas de Pune",
-    "arrests": "detuvo a 14 estudiantes en la estación de tren de Itarsi Junction"
+    "arrests": "La Policía Ferroviaria Gubernamental (GRP) de Madhya Pradesh ha detenido a 14 estudiantes en la estación de tren de Itarsi Junction."
    }
   },
   "fr": {
-   "title": "Des membres de l'AISF et des étudiants détenus à Itarsi alors qu'ils se rendaient à une manifestation à Delhi",
-   "seoTitle": "Des étudiants détenus à Itarsi en route vers Delhi",
+   "title": "Des membres de l'AISF et des étudiants interpellés à Itarsi alors qu'ils se rendaient à une manifestation à Delhi",
+   "seoTitle": "Étudiants d'Itarsi arrêtés en route vers Delhi",
    "tea": {
-    "why": "Des étudiants et des militants voyageaient pour se joindre à une manifestation à New Delhi contre de prétendues irrégularités dans les listes électorales.",
-    "want": "Exigeant la démission du commissaire électoral en chef Gyanesh Kumar, le retrait de la révision intensive spéciale et des réformes électorales.",
-    "changed": "9 octobre : La Haute Cour du Madhya Pradesh a ordonné aux autorités de présenter les étudiants détenus d'ici le 13 octobre, ce qui a conduit à leur libération."
+    "why": "Des étudiants et des militants se sont rendus vers New Delhi pour se joindre à une manifestation prévue à Jantar Mantar.",
+    "want": "Les manifestants ont exigé la démission du commissaire électoral en chef Gyanesh Kumar et l'annulation de la révision intensive spéciale des listes électorales.",
+    "changed": "9 oct. : La police du Madhya Pradesh a libéré les étudiants détenus d'un hôtel, tandis que la Haute Cour a émis des avis aux autorités."
    },
-   "summary": "La police ferroviaire gouvernementale du Madhya Pradesh a détenu des étudiants et des militants voyageant de Pune à New Delhi à la gare ferroviaire d'Itarsi. Les voyageurs, affiliés à la Fédération des étudiants de l'Inde et à d'autres groupes, avaient l'intention de participer à une manifestation appelée par le parti Cockroach Janta à Jantar Mantar pour exiger la démission du commissaire électoral en chef Gyanesh Kumar et des réformes électorales. Les organisateurs et les participants ont allégué que la police les avait sortis de force du train Goa Express sans permission et les avait soumis à de mauvais traitements, les confinant dans un complexe privé au lieu d'un poste de police. La police a déclaré que la détention était fondée sur des ordres venus d'en haut en vertu de l'article 172 du BNSS parce que les manifestants n'avaient pas d'autorisation. À la suite d'un recours pour habeas corpus, la Haute Cour du Madhya Pradesh a ordonné à l'état de présenter les étudiants d'ici le 13 octobre, après quoi les autorités les ont libérés vendredi soir.",
+   "summary": "Les autorités du Madhya Pradesh ont intercepté et détenu des étudiants voyageant en train vers New Delhi pour participer à une manifestation organisée par le parti Cockroach Janata. Des membres de la Fédération des étudiants de toute l'Inde figuraient parmi ceux sortis du Goa Express à la gare ferroviaire d'Itarsi par la police ferroviaire gouvernementale. Les fonctionnaires ont invoqué des ordres venus d'en haut et l'article 172 du BNSS pour empêcher des individus d'assister au rassemblement prévu à Jantar Mantar. La manifestation visait à appeler à la démission du commissaire électoral en chef Gyanesh Kumar et à s'opposer à la révision des listes électorales. Des membres des familles ont déposé un recours en habeas corpus, poussant la Haute Cour du Madhya Pradesh à émettre des avis aux autorités étatiques et policières.",
    "demands": [
     "Démission du commissaire électoral en chef Gyanesh Kumar",
-    "Retrait de la révision intensive spéciale des listes électorales",
-    "Réformes électorales"
+    "Annulation de la révision intensive spéciale des listes électorales"
    ],
-   "response": "La police a déclaré avoir détenu les étudiants en vertu de l'article 172 du BNSS à la suite d'ordres venus d'en haut parce qu'ils n'avaient pas l'autorisation de manifester. La police a ensuite affirmé que les étudiants avaient été libérés vendredi. La Haute Cour du Madhya Pradesh a émis un avis demandant aux autorités de présenter les détenus.",
+   "response": "La police a déclaré que les individus n'avaient pas d'autorisation et ont été interceptés en vertu de l'article 172 du BNSS suite à des ordres venus d'en haut. Alors que certains fonctionnaires ont affirmé que les voyageurs avaient été libérés, d'autres ont noté qu'ils étaient retenus dans un hôtel ou un complexe hôtelier.",
    "updates": [
-    "La police a fait descendre les étudiants du train Goa Express à la gare d'Itarsi et les a placés en garde à vue.",
-    "La Haute Cour du Madhya Pradesh a émis un avis d'habeas corpus enjoignant à l'état de présenter les étudiants détenus le 13 octobre ou avant.",
-    "Les autorités ont libéré les étudiants détenus vendredi soir, et ils ont décidé de retourner à Pune au lieu de continuer vers Delhi."
+    "La police du Madhya Pradesh a intercepté et fait descendre des étudiants d'un train à la gare ferroviaire d'Itarsi.",
+    "La police a affirmé que les étudiants détenus avaient été libérés mais gardés dans un hôtel privé, tandis que la Haute Cour a émis un avis."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "L'AISF a allégué que 22 étudiants avaient été détenus, tandis que les dossiers de police et les rapports ont indiqué que 14 ou 15 étudiants avaient été retenus à Itarsi."
+   ],
    "numbers": {
-    "crowd": "14 étudiants et militants de Pune",
-    "arrests": "a détenu 14 étudiants à la gare ferroviaire d'Itarsi Junction"
+    "arrests": "La police ferroviaire gouvernementale (GRP) du Madhya Pradesh a détenu 14 étudiants à la gare ferroviaire d'Itarsi Junction."
    }
   },
   "de": {
-   "title": "AISF-Mitglieder und Studenten in Itarsi festgehalten auf dem Weg zu Protest in Delhi",
-   "seoTitle": "Studenten auf dem Weg nach Delhi in Itarsi festgenommen",
+   "title": "AISF-Mitglieder und Studierende bei der Fahrt zu Protesten nach Delhi in Itarsi festgehalten",
+   "seoTitle": "Itarsi-Studierende auf dem Weg nach Delhi festgehalten",
    "tea": {
-    "why": "Studenten und Aktivisten reisten an, um sich einer Demonstration in Neu-Delhi gegen mutmaßliche Unregelmäßigkeiten in den Wählerverzeichnissen anzuschließen.",
-    "want": "Forderung nach dem Rücktritt des Chefwahlleiters Gyanesh Kumar, der Rücknahme der speziellen intensiven Überarbeitung und Wahlreformen.",
-    "changed": "9. Oktober: Der High Court von Madhya Pradesh ordnete an, dass die Behörden die festgehaltenen Studenten bis zum 13. Oktober vorführen müssen, was zu ihrer Freilassung führte."
+    "why": "Studierende und Aktivisten reisten nach Neu-Delhi, um sich einer geplanten Demonstration in Jantar Mantar anzuschließen.",
+    "want": "Demonstrierende forderten den Rücktritt des Chefwahlleiters Gyanesh Kumar und die Annulierung der speziellen intensiven Überarbeitung der Wählerverzeichnisse.",
+    "changed": "9. Okt.: Die Polizei von Madhya Pradesh entließ festgehaltene Studierende aus einem Hotel, während der High Court Vorladungen an die Behörden erließ."
    },
-   "summary": "Die staatliche Eisenbahnpolizei von Madhya Pradesh hielt Studenten und Aktivisten, die von Pune nach Neu-Delhi reisten, am Bahnhof Itarsi fest. Die Reisenden, die dem All India Students Federation und anderen Gruppen angehörften, hatten die Absicht, an einer von der Cockroach Janta Party in Jantar Mantar einberufenen Demonstration teilzunehmen, um den Rücktritt des Chefwahlleiters Gyanesh Kumar und Wahlreformen zu fordern. Organisatoren und Teilnehmer behaupteten, dass die Polizei sie ohne Erlaubnis gewaltsam aus dem Goa-Express-Zug geholt und schlecht behandelt habe, wobei sie in einem privaten Resort statt auf einer Polizeistation festgehalten wurden. Die Polizei erklärte, die Ingewahrsamnahme sei auf Anweisungen von oben gemäß Paragraf 172 des BNSS erfolgt, da den Demonstrierenden die Erlaubnis fehlte. Nach einem Habeas-Corpus-Antrag wies der High Court von Madhya Pradesh den Staat an, die Studenten bis zum 13. Oktober vorzuführen, woraufhin die Behörden sie am Freitagabend freiließen.",
+   "summary": "Behörden in Madhya Pradesh fingen Studierende ab und hielten sie fest, die mit dem Zug nach Neu-Delhi reisten, um an einer von der Cockroach Janata Party organisierten Demonstration teilzunehmen. Mitglieder der All India Students Federation gehörten zu den Personen, die von der staatlichen Eisenbahnpolizei am Bahnhof Itarsi aus dem Goa Express geholt wurden. Beamte beriefen sich auf Anweisungen von oben und Paragraf 172 des BNSS, um Personen daran zu hinder, an der geplanten Versammlung in Jantar Mantar teilzunehmen. Die Demonstration zielte darauf ab, zum Rücktritt des Chefwahlleiters Gyanesh Kumar aufzurufen und sich gegen die Überarbeitung des Wählerverzeichnisses zu stellen. Familienangehörige reichten einen Habeas-Corpus-Antrag ein, was den High Court von Madhya Pradesh veranlasste, Mitteilungen an die Landes- und Polizeibehörden zu erlassen.",
    "demands": [
     "Rücktritt des Chefwahlleiters Gyanesh Kumar",
-    "Rücknahme der speziellen intensiven Überarbeitung der Wählerverzeichnisse",
-    "Wahlreformen"
+    "Annulierung der speziellen intensiven Überarbeitung der Wählerverzeichnisse"
    ],
-   "response": "Die Polizei erklärte, sie habe die Studenten gemäß Paragraf 172 des BNSS auf Anweisung von oben festgehalten, da sie keine Genehmigung für den Protest hatten. Die Polizei behauptete später, die Studenten seien am Freitag freigelassen worden. Der High Court von Madhya Pradesh erließ eine Mitteilung, in der die Behörden aufgefordert wurden, die Inhaftierten vorzuführen.",
+   "response": "Die Polizei erklärte, die Personen hätten keine Erlaubnis besessen und seien gemäß Paragraf 172 des BNSS nach Anweisungen von oben abgefangen worden. Während einige Beamte behaupteten, die Reisenden seien freigelassen worden, merkten andere an, sie seien in einem Hotel oder Resort festgehalten worden.",
    "updates": [
-    "Die Polizei holte Studenten am Bahnhof Itarsi aus dem Goa-Express-Zug und nahm sie in Gewahrsam.",
-    "Der High Court von Madhya Pradesh erließ eine Habe-Corpus-Verfügung, in der der Staat angewiesen wurde, die festgehaltenen Studenten am oder vor dem 13. Oktober vorzuführen.",
-    "Die Behörden ließen die festgehaltenen Studenten am Freitagabend frei, und sie beschlossen, nach Pune zurückzukehren, anstatt weiter nach Delhi zu reisen."
+    "Die Polizei von Madhya Pradesh fing Studierende am Bahnhof Itarsi ab und holte sie aus einem Zug.",
+    "Die Polizei behauptete, die festgehaltenen Studierenden seien freigelassen, aber in einem privaten Hotel festgehalten worden, während der High Court eine Mitteilung erließ."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Die AISF behauptete, 22 Studierende seien festgehalten worden, während Polizeiakten und Berichte angaben, 14 oder 15 Studierende seien in Itarsi festgehalten worden."
+   ],
    "numbers": {
-    "crowd": "14 Studenten, Aktivisten aus Pune",
-    "arrests": "nahm 14 Studenten am Bahnhof Itarsi Junction in Gewahrsam"
+    "arrests": "Die staatliche Eisenbahnpolizei (GRP) von Madhya Pradesh hat 14 Studierende am Bahnhof Itarsi Junction festgehalten."
    }
   }
  }

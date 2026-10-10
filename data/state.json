@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-10",
-  "count": 84
+  "count": 93
  },
  "runs": [
   {
@@ -899,8 +899,35 @@
     "translate: 8 events"
    ],
    "translated": 8
+  },
+  {
+   "at": "2026-10-10T13:05:10.076Z",
+   "ms": 114907,
+   "discovered": 36,
+   "fetched": 36,
+   "classified": 33,
+   "protests": 19,
+   "summarized": 3,
+   "published": 40,
+   "live": 8,
+   "aiCalls": 9,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 6 files, 21 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 113 protest-word items",
+    "fetch: 36 ok, 0 failed",
+    "classify: new candidate e77764551bf \"AAP and CJP activists protest in Bhubaneswar demanding CEC resignation\" (Bhubaneswar)",
+    "classify: new candidate e18d4110c9c \"Candidates protest postponed recruitment exam in Dhaka\" (Dhaka)",
+    "classify: new candidate ec26bfdf189 \"BJP and Congress supporters clash during Guwahati protest\" (Guwahati)",
+    "classify: new candidate e52a94358c1 \"UP minister criticizes CJP protest amid ongoing demonstrations\" (Lucknow)",
+    "classify: new candidate e3ba570e6ab \"Rahul Gandhi urges youth to continue protesting during Delhi rallies\" (Chennai)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261010113000",
- "lastRunAt": "2026-10-10T11:30:56.955Z"
+ "gdeltCursor": "20261010130000",
+ "lastRunAt": "2026-10-10T13:05:10.076Z"
 }
