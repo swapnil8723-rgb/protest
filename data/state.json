@@ -1,7 +1,7 @@
 {
  "aiCalls": {
-  "day": "2026-10-09",
-  "count": 126
+  "day": "2026-10-10",
+  "count": 12
  },
  "runs": [
   {
@@ -768,8 +768,36 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-10T00:55:54.832Z",
+   "ms": 162551,
+   "discovered": 35,
+   "fetched": 34,
+   "classified": 29,
+   "protests": 19,
+   "summarized": 5,
+   "published": 35,
+   "live": 7,
+   "aiCalls": 12,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261010003000 http://data.gdeltproject.org/gdeltv2/20261010003000.export.CSV.zip → 404",
+    "gdelt: 12 files, 22 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 65 protest-word items",
+    "fetch: 34 ok, 1 failed",
+    "classify: new candidate e11ecfbbec2 \"Protesters demonstrate outside Hillel at University of Oregon\" (Eugene)",
+    "classify: new candidate e16e9f71a03 \"CJP activists detained in Rajasthan ahead of Delhi protest\" (Alwar)",
+    "classify: new candidate e46c6a19928 \"Protesters in Santa Cruz rally against sexual violence\" (Santa Cruz)",
+    "classify: new candidate eacb4e912e6 \"Muslim mob protests and sets fire to Christian's home\" (Narang Mandi)",
+    "classify: new candidate e68df8395ef \"School support staff rally and strike in London over pay\" (London)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261009220000",
- "lastRunAt": "2026-10-09T21:53:17.011Z"
+ "gdeltCursor": "20261010010000",
+ "lastRunAt": "2026-10-10T00:55:54.832Z"
 }
