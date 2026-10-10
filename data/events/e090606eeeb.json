@@ -23,27 +23,37 @@
  "status": "ongoing",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "top-10"
+ ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Demonstrators gathered in central London to show support for Palestinians.",
-  "want": "Demonstrators marched in support of Palestinians.",
-  "changed": "Oct 10: Police made several arrests after protesters climbed a memorial and carried placards."
+  "why": "Demonstrators gathered in central London for a pro-Palestine protest near the anniversary of the terror attack on Israel.",
+  "want": "Palestinian solidarity and support.",
+  "changed": "Oct 10: Metropolitan Police reported 20 arrests during the demonstration."
  },
- "summary": "Thousands of demonstrators, many carrying flags and wearing keffiyehs, gathered on the Embankment in central London and marched toward Whitehall for a rally. The event was organised by the Palestine Coalition. Concurrently, a small counter-protest by a group called Stop the Hate took place near New Scotland Yard. The Metropolitan Police deployed a significant presence, imposing strict conditions on the route and timing, and invoked Public Order Act powers requiring individuals to remove face coverings used to conceal identity. Police reported multiple arrests, including individuals suspected of criminal damage after climbing the Battle of Britain memorial and others carrying placards supporting a proscribed organisation.",
+ "summary": "Thousands of demonstrators gathered on the Victoria Embankment in central London for a pro-Palestine protest, marching to Whitehall for a rally. The event was organised by the Palestine Coalition. A counter-protest by Stop The Hate also took place near New Scotland Yard, with the two groups separated by metal barriers and police lines. According to the Metropolitan Police, 20 arrests were made during the demonstration, including individuals detained for criminal damage after climbing on the Battle of Britain memorial, breaching protest conditions, refusing to remove face coverings, displaying placards supporting Palestine Action, public order offences, assaulting a police officer, and breach of the peace. The police had imposed conditions on the march and counter-protest to minimise disruption, using Public Order Act powers regarding face coverings.",
  "organizers": [
-  "Palestine Coalition",
-  "Stop the Hate"
+  "Palestine Coalition"
  ],
  "demands": [],
- "response": "According to the Metropolitan Police, officers were deployed in large numbers, imposed route conditions, and warned participants about face-covering regulations. Police reported making several arrests for alleged criminal damage at a memorial and for supporting a proscribed organisation.",
- "numbers": {},
+ "response": "The Metropolitan Police deployed a significant presence, imposed conditions under the Public Order Act, required individuals to remove face coverings, separated the main protest from a counter-protest by Stop The Hate, and made 20 arrests.",
+ "numbers": {
+  "arrests": {
+   "value": 20,
+   "text": "A total of 20 arrests have been made during a pro-Palestine protest in central London, the Metropolitan Police have…",
+   "sources": [
+    1,
+    3
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-10-10",
-   "text": "Protesters gathered on the Victoria Embankment around midday and marched toward Whitehall.",
+   "text": "Thousands of demonstrators gathered on the Victoria Embankment and marched to Whitehall for a rally.",
    "sources": [
     1,
     3
@@ -51,7 +61,7 @@
   },
   {
    "at": "2026-10-10",
-   "text": "Metropolitan Police reported several arrests for criminal damage and supporting a proscribed organisation.",
+   "text": "The Metropolitan Police reported that 20 arrests were made during the demonstration.",
    "sources": [
     1,
     3
@@ -75,125 +85,134 @@
   },
   {
    "n": 3,
-   "url": "https://www.dunmowbroadcast.co.uk/news/national/26625460.several-arrests-made-thousands-descend-london-pro-palestine-protest/",
-   "publisher": "dunmowbroadcast.co.uk",
+   "url": "https://www.nwemail.co.uk/news/national/26625460.several-arrests-made-thousands-descend-london-pro-palestine-protest/",
+   "publisher": "nwemail.co.uk",
    "title": "Several arrests made as thousands descend on London for pro-Palestine protest",
-   "publishedAt": "2026-10-10T16:22:11.000Z"
+   "publishedAt": "2026-10-10T18:12:18.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.8,
  "publishers": 3,
- "reports24h": 2,
+ "reports24h": 4,
  "reportsPrev24h": 0,
- "reports48h": 2,
+ "reports48h": 4,
  "firstSeenAt": "2026-10-10T16:17:27.043Z",
- "lastReportAt": "2026-10-10T16:18:51.202Z",
- "lastCheckedAt": "2026-10-10T16:18:51.202Z",
- "updatedAt": "2026-10-10T16:18:36.524Z",
- "endedOn": "2026-10-10",
+ "lastReportAt": "2026-10-10T17:23:30.918Z",
+ "lastCheckedAt": "2026-10-10T17:23:30.918Z",
+ "updatedAt": "2026-10-10T17:23:16.602Z",
  "responseSources": [
   1,
   3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-10T16:18:36.524Z",
- "summaryOf": "3fdce1adb776",
+ "summarizedAt": "2026-10-10T17:23:16.602Z",
+ "summaryOf": "23f1e5fa19f1",
  "publishedAt": "2026-10-10T16:18:51.202Z",
  "i18n": {
-  "of": "e8ff12e5317050ba",
-  "at": "2026-10-10T16:19:00.548Z",
+  "of": "a5ee512d6fe72c71",
+  "at": "2026-10-10T17:23:52.455Z",
   "tries": 1,
   "hi": {
-   "title": "लंदन के केंद्र में फिलिस्तीन समर्थक प्रदर्शनकारियों की रैली",
+   "title": "केंद्रीय लंदन में फिलिस्तीन समर्थक प्रदर्शनकारियों की रैली",
    "seoTitle": "लंदन फिलिस्तीन समर्थक रैली",
    "tea": {
-    "why": "फिलिस्तीनियों के समर्थन में प्रदर्शनकारी मध्य लंदन में एकत्र हुए।",
-    "want": "प्रदर्शनकारियों ने फिलिस्तीनियों के समर्थन में मार्च निकाला।",
-    "changed": "10 अक्टूबर: एक स्मारक पर चढ़ने और तख्तियां ले जाने के बाद पुलिस ने कई गिरफ्तारियां कीं।"
+    "why": "इजराइल पर हुए आतंकवादी हमले की बरसी के करीब केंद्रीय लंदन में प्रदर्शनकारी फिलिस्तीन समर्थक विरोध प्रदर्शन के लिए एकत्र हुए।",
+    "want": "फिलिस्तीनी एकजुटता और समर्थन।",
+    "changed": "10 अक्टूबर: मेट्रोपॉलिटन पुलिस ने प्रदर्शन के दौरान 20 गिरफ्तारियों की सूचना दी।"
    },
-   "summary": "हजारों प्रदर्शनकारी, जिनमें से कई झंडे लिए हुए थे और केफिये पहने हुए थे, मध्य लंदन में एम्बैंकमेंट पर एकत्र हुए और एक रैली के लिए व्हाइटहॉल की ओर मार्च किया। इस आयोजन का संगठन पैलेटाइन कोलिशन द्वारा किया गया था। साथ ही, स्टॉप द हेट नामक समूह द्वारा न्यू स्कॉटलैंड यार्ड के पास एक छोटा प्रति-विरोध प्रदर्शन हुआ। मेट्रोपॉलिटन पुलिस ने एक बड़ी उपस्थिति तैनात की, मार्ग और समय पर कड़ी शर्तें लगाईं, और पब्लिक ऑर्डर एक्ट की शक्तियों का आह्वान किया जिसके तहत व्यक्तियों को पहचान छुपाने के लिए उपयोग किए जाने वाले चेहरे के आवरण हटाने की आवश्यकता थी। पुलिस ने कई गिरफ्तारियों की सूचना दी, जिसमें बैटल ऑफ ब्रिटेन स्मारक पर चढ़ने के बाद आपराधिक क्षति के संदेह वाले व्यक्ति और प्रतिबंधित संगठन का समर्थन करने वाली तख्तियां ले जाने वाले अन्य लोग शामिल हैं।",
+   "summary": "फिलिस्तीन समर्थक विरोध प्रदर्शन के लिए हजारों प्रदर्शनकारी केंद्रीय लंदन में विक्टोरिया एम्बैंकमेंट पर एकत्र हुए और एक रैली के लिए व्हाइटहॉल की ओर मार्च किया। इस आयोजन का समन्वय पैलेस्टीन कोएलिशन द्वारा किया गया था। स्टॉप द हेट द्वारा एक प्रति-विरोध प्रदर्शन भी न्यू स्कॉटलैंड यार्ड के पास आयोजित किया गया, जिसमें दोनों समूहों को धातु की बैरियर और पुलिस लाइनों द्वारा अलग रखा गया था। मेट्रोपॉलिटन पुलिस के अनुसार, प्रदर्शन के दौरान 20 गिरफ्तारियां की गईं, जिनमें बैटल ऑफ ब्रिटेन स्मारक पर चढ़ने के बाद आपराधिक क्षति, विरोध प्रदर्शन की शर्तों का उल्लंघन, चेहरे को ढकने वाले आवरण को हटाने से इनकार करने, पैलेस्टीन एक्शन का समर्थन करने वाले प्लेकार्ड प्रदर्शित करने, सार्वजनिक व्यवस्था के अपराधों, पुलिस अधिकारी पर हमला करने और शांति भंग करने के लिए हिरासत में लिए गए व्यक्ति शामिल थे। पुलिस ने व्यवधान को कम करने के लिए मार्च और प्रति-विरोध प्रदर्शन पर शर्तें लगाई थीं, जिसमें चेहरे को ढकने वाले आवरण के संबंध में पब्लिक ऑर्डर एक्ट की शक्तियों का उपयोग किया गया था।",
    "demands": [],
-   "response": "मेट्रोपॉलिटन पुलिस के अनुसार, बड़ी संख्या में अधिकारियों को तैनात किया गया था, मार्ग की शर्तें लगाई गईं, और प्रतिभागियों को चेहरा ढंकने के नियमों के बारे में चेतावनी दी गई। पुलिस ने एक स्मारक पर कथित आपराधिक क्षति और एक प्रतिबंधित संगठन का समर्थन करने के लिए कई गिरफ्तारियां करने की सूचना दी।",
+   "response": "मेट्रोपॉलिटन पुलिस ने एक बड़ी उपस्थिति तैनात की, पब्लिक ऑर्डर एक्ट के तहत शर्तें लगाईं, व्यक्तियों को चेहरे को ढकने वाले आवरण हटाने के लिए कहा, मुख्य विरोध प्रदर्शन को स्टॉप द हेट के प्रति-विरोध प्रदर्शन से अलग किया और 20 गिरफ्तारियां कीं।",
    "updates": [
-    "प्रदर्शनकारी दोपहर के आसपास विक्टोरिया एम्बैंकमेंट पर एकत्र हुए और व्हाइटहॉल की ओर मार्च किया।",
-    "मेट्रोपॉलिटन पुलिस ने आपराधिक क्षति और प्रतिबंधित संगठन का समर्थन करने के लिए कई गिरफ्तारियों की सूचना दी।"
+    "हजारों प्रदर्शनकारी विक्टोरिया एम्बैंकमेंट पर एकत्र हुए और रैली के लिए व्हाइटहॉल तक मार्च किया।",
+    "मेट्रोपॉलिटन पुलिस ने सूचना दी कि प्रदर्शन के दौरान 20 गिरफ्तारियां की गईं।"
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "arrests": "केंद्रीय लंदन में फिलिस्तीन समर्थक विरोध प्रदर्शन के दौरान कुल 20 गिरफ्तारियां की गई हैं, मेट्रोपॉलिटन पुलिस ने यह जानकारी दी…"
+   }
   },
   "mr": {
-   "title": "लंडनच्या मध्यवर्ती भागात पॅलेस्टाईन समर्थकांचे आंदोलन",
-   "seoTitle": "लंडन पॅलेस्टाईन समर्थक मोर्चा",
+   "title": "मध्य लंडनमध्ये पॅलेस्टाईन समर्थक निदर्शकांचे रॅली",
+   "seoTitle": "लंडन पॅलेस्टाईन समर्थक रॅली",
    "tea": {
-    "why": "पॅलेस्टाईनच्या समर्थनासाठी निदर्शक लंडनच्या मध्यवर्ती भागात जमले.",
-    "want": "निदर्शकांनी पॅलेस्टाईनच्या समर्थनात मोर्चा काढला.",
-    "changed": "10 ऑक्टोबर: एका स्मारकावर चढल्यानंतर आणि फलक बाळगल्यानंतर पोलिसांनी अनेक गिरफ्तार्या केल्या."
+    "why": "इस्रायलवरील दहशतवादी हल्ल्याच्या वर्धापनदिनाजवळ पॅलेस्टाईन समर्थक आंदोलनासाठी हजारो निदर्शक मध्य लंडनमध्ये जमले.",
+    "want": "पॅलेस्टाईनची एकता आणि पाठिंबा.",
+    "changed": "10 ऑक्टोबर: मेट्रोपॉलिटन पोलिसांनी निदर्शनादरम्यान 20 जणांच्या अटकेची नोंद केली."
    },
-   "summary": "हजारो निदर्शक, ज्यांपैकी अनेकजण झेंडे बाळगून होते आणि केफिये परिधान केले होते, लंडनच्या मध्यवर्ती भागातील एम्बँकमेंटवर जमले आणि एका रॅलीसाठी व्हाईटहॉलच्या दिशेने मार्च केले. या कार्यक्रमाचे आयोजन पॅलेस्टाईन कोलिशनने केले होते. त्याच वेळी, स्टॉप द हेट नावाच्या गटाकडून न्यू स्कॉटलंड यार्ड जवळ एक लहान निदर्शनांना विरोध करणारा उपक्रम झाला. मेट्रोपॉलिटन पोलिसांची मोठी उपस्थिती तैनात करण्यात आली, मार्गावर आणि वेळेवर कडक अटी लादल्या गेल्या, आणि पब्लिक ऑर्डर कायद्याच्या अधिकारांचा वापर करून व्यक्तींना ओळख लपवण्यासाठी वापरले जाणारे चेहऱ्याचे आवरण काढणे बंधनकारक केले गेले. बॅटल ऑफ ब्रिटेन स्मारकावर चढल्यानंतर गुन्हेगारी नुकसानीचा संशय असलेल्या व्यक्ती आणि बंदी घातलेल्या संस्थेचे समर्थन करणारे फलक बाळगणाऱ्या इतरांसह अनेक गिरफ्तार्या झाल्याची माहिती पोलिसांनी दिली.",
+   "summary": "पॅलेस्टाईन समर्थक निदर्शनासाठी हजारो निदर्शक मध्य लंडनमधील व्हिक्टोरिया एम्बँकमेंटवर जमले आणि रॅलीसाठी व्हाईतोहॉलकडे मार्च केला. या कार्यक्रमाचे आयोजन पॅलेस्टाईन कोएलिशनने केले होते. न्यू स्कॉटलैंड यार्डजवळ स्टॉप द हेट द्वारे एक काउंटर-प्रोटेस्ट देखील आयोजित केला गेला, ज्यामध्ये दोन्ही गटांना मेटल बॅरियर आणि पोलिस लाईन्सद्वारे वेगळे ठेवण्यात आले होते. मेट्रोपॉलिटन पोलिसांच्या मते, निदर्शनादरम्यान 20 गिरफ्तार्या करण्यात आल्या, ज्यात बॅटल ऑफ ब्रिटन स्मारकावर चढून नुकसान केल्यामुळे, निदर्शनांच्या अटींचे उल्लंघन केल्यामुळे, चेहऱ्याचे आवरण काढण्यास नकार दिल्यामुळे, पॅलेस्टाईन ॲक्शनचे समर्थन करणारे फलक झळकावल्यामुळे, सार्वजनिक शांततेचा भंग केल्यामुळे, पोलिसांवर हल्ला केल्यामुळे आणि शांततेचा भंग केल्यामुळे ताब्यात घेतलेल्या व्यक्तींचा समावेश आहे. पोलिसांनी व्यत्यय कमी करण्यासाठी मार्च आणि काउंटर-प्रोटेस्टवर अटी लादल्या होत्या, ज्यामध्ये चेहऱ्याच्या आवरणाबाबत पब्लिक ऑर्डर कायद्याच्या अधिकारांचा वापर केला गेला.",
    "demands": [],
-   "response": "मेट्रोपॉलिटन पोलिसांच्या मते, मोठ्या संख्येने अधिकारी तैनात केले गेले, मार्गावरील अटी लादल्या गेल्या आणि सहभागींना चेहऱ्याचे आवरण झाकण्याच्या नियमांबद्दल चेतावणी देण्यात आली. एका स्मारकावर कथित गुन्हेगारी नुकसान आणि बंदी घातलेल्या संस्थेचे समर्थन केल्याप्रकरणी पोलिसांनी अनेक गिरफ्तार्या केल्याची माहिती दिली.",
+   "response": "मेट्रोपॉलिटन पोलिसांनी मोठा फौजफाटा तैनात केला, पब्लिक ऑर्डर कायद्यांतर्गत अटी लादल्या, व्यक्तींना चेहऱ्याचे आवरण काढण्यास सांगितले, मुख्य निदर्शनाला स्टॉप द हेटच्या काउंटर-प्रोटेस्टपासून वेगळे केले आणि 20 गिरफ्तार्या केल्या.",
    "updates": [
-    "निदर्शक दुपारी विक्टोरिया एम्बैंकमेंटवर जमले आणि व्हाईटहॉलच्या दिशेने मार्च केले.",
-    "मेट्रोपॉलिटन पोलिसांनी गुन्हेगारी नुकसान आणि बंदी घातलेल्या संस्थेचे समर्थन केल्याप्रकरणी अनेक गिरफ्तार्या झाल्याची माहिती दिली."
+    "हजारो निदर्शक व्हिक्टोरिया एम्बँकमेंटवर जमले आणि रॅलीसाठी व्हाईतोहॉलकडे मार्च केला.",
+    "मेट्रोपॉलिटन पोलिसांनी कळवले की निदर्शनादरम्यान 20 गिरफ्तार्या करण्यात आल्या."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "arrests": "मध्य लंडनमधील पॅलेस्टाईन समर्थक निदर्शनादरम्यान एकूण 20 गिरफ्तार्या करण्यात आल्या आहेत, असे मेट्रोपॉलिटन पोलिसांनी सांगितले आहे…"
+   }
   },
   "es": {
-   "title": "Manifestantes propalestinos se concentran en el centro de Londres",
-   "seoTitle": "Concentración propalestina en Londres",
+   "title": "Manifestantes propalestinos se manifiestan en el centro de Londres",
+   "seoTitle": "Manifestación propalestina en Londres",
    "tea": {
-    "why": "Los manifestantes se reunieron en el centro de Londres para mostrar su apoyo a los palestinos.",
-    "want": "Los manifestantes marcharon en apoyo a los palestinos.",
-    "changed": "10 de octubre: La policía realizó varias detenciones después de que los manifestantes se subieran a un monumento y llevaran pancartas."
+    "why": "Los manifestantes se reunieron en el centro de Londres para una protesta propalestina cerca del aniversario del ataque terrorista contra Israel.",
+    "want": "Solidaridad y apoyo palestino.",
+    "changed": "10 de octubre: La Policía Metropolitana informó de 20 detenciones durante la manifestación."
    },
-   "summary": "Miles de manifestantes, muchos de ellos con banderas y kufiyas, se reunieron en el Embankment, en el centro de Londres, y marcharon hacia Whitehall para realizar una concentración. El evento fue organizado por la Palestine Coalition. Simultáneamente, tuvo lugar una pequeña contramanifestación de un grupo llamado Stop the Hate cerca de New Scotland Yard. La Policía Metropolitana desplegó una presencia significativa, impuso condiciones estrictas sobre la ruta y el horario, e invocó los poderes de la Ley de Orden Público que exigen a las personas quitarse las cubiertas faciales utilizadas para ocultar la identidad. La policía informó de múltiples detenciones, incluidas personas sospechosas de daños criminales tras subirse al monumento de la Batalla de Inglaterra y otras que llevaban pancartas en apoyo a una organización proscrita.",
+   "summary": "Miles de manifestantes se reunieron en el Victoria Embankment en el centro de Londres para una protesta propalestina, marchando hacia Whitehall para un mitin. El evento fue organizado por la Coalición por Palestina. Una contramanifestación de Stop The Hate también tuvo lugar cerca de New Scotland Yard, estando los dos grupos separados por vallas metálicas y cordones policiales. Según la Policía Metropolitana, se realizaron 20 detenciones durante la manifestación, incluyendo a personas detenidas por daños criminales tras subirse al monumento de la Batalla de Grite Bretaña, infringir las condiciones de la protesta, negarse a quitarse las cubiertas faciales, mostrar pancartas de apoyo a Palestine Action, delitos de orden público, agresión a un oficial de policía y alteración del orden público. La policía había impuesto condiciones a la marcha y a la contramanifestación para minimizar las interrupciones, utilizando los poderes de la Ley de Orden Público en relación con las cubiertas faciales.",
    "demands": [],
-   "response": "Según la Policía Metropolitana, los agentes se desplegaron en gran número, impusieron condiciones a la ruta y advirtieron a los participantes sobre las normas de cobertura facial. La policía informó de varias detenciones por presuntos daños criminales en un monumento y por apoyar a una organización proscrita.",
+   "response": "La Policía Metropolitana desplegó una presencia significativa, impuso condiciones bajo la Ley de Orden Público, exigió a los individuos que se quitaran las cubiertas faciales, separó la protesta principal de una contramanifestación organizada por Stop The Hate y realizó 20 detenciones.",
    "updates": [
-    "Los manifestantes se reunieron en el Victoria Embankment alrededor del mediodía y marcharon hacia Whitehall.",
-    "La Policía Metropolitana informó de varias detenciones por daños criminales y por apoyar a una organización proscrita."
+    "Miles de manifestantes se reunieron en el Victoria Embankment y marcharon hacia Whitehall para un mitin.",
+    "La Policía Metropolitana informó que se realizaron 20 detenciones durante la manifestación."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "arrests": "Se han realizado un total de 20 detenciones durante una protesta propalestina en el centro de Londres, informó la Policía Metropolitana..."
+   }
   },
   "fr": {
    "title": "Des manifestants pro-palestiniens se rassemblent dans le centre de Londres",
    "seoTitle": "Rassemblement pro-palestinien à Londres",
    "tea": {
-    "why": "Des manifestants se sont rassemblés dans le centre de Londres pour témoigner de leur soutien aux Palestiniens.",
-    "want": "Des manifestants ont défilé en soutien aux Palestiniens.",
-    "changed": "10 oct. : La police a procédé à plusieurs arrestations après que des manifestants sont montés sur un mémorial et ont brandi des pancartes."
+    "why": "Des manifestants se sont rassemblés dans le centre de Londres pour une manifestation pro-palestinienne près de l'anniversaire de l'attaque terroriste contre Israël.",
+    "want": "La solidarité et le soutien aux Palestiniens.",
+    "changed": "10 oct. : La police métropolitaine a signalé 20 arrestations lors de la manifestation."
    },
-   "summary": "Des milliers de manifestants, dont beaucoup portaient des drapeaux et des keffiehs, se sont rassemblés sur l'Embankment dans le centre de Londres et ont marché vers Whitehall pour un rassemblement. L'événement a été organisé par la Palestine Coalition. En même temps, une petite contre-manifestation menée par un groupe nommé Stop the Hate s'est déroulée près de New Scotland Yard. La police métropolitaine a déployé une présence importante, imposant des conditions strictes sur l'itinéraire et l'horaire, et a invoqué les pouvoirs de la loi sur l'ordre public exigeant des individus qu'ils retirent les couvre-visages utilisés pour dissimuler leur identité. La police a fait état de multiples arrestations, notamment des personnes soupçonnées de dommages criminels après être montées sur le mémorial de la bataille d'Angleterre et d'autres portant des pancartes soutenant une organisation interdite.",
+   "summary": "Des milliers de manifestants se sont rassemblés sur le Victoria Embankment dans le centre de Londres pour une manifestation pro-palestinienne, marchant vers Whitehall pour un rassemblement. L'événement a été organisé par la Palestine Coalition. Une contre-manifestation organisée par Stop The Hate a également eu lieu près de New Scotland Yard, les deux groupes étant séparés par des barrières métalliques et des cordons de police. Selon la police métropolitaine, 20 arrestations ont été effectuées lors de la manifestation, incluant des individus interpellés pour dégradations criminelles après être montés sur le monument de la Bataille d'Angleterre, violation des conditions de manifestation, refus de retirer des couvre-visages, affichage de pancartes soutenant Palestine Action, infractions à l'ordre public, agression d'un officier de police et trouble à l'ordre public. La police avait imposé des conditions à la marche et à la contre-manifestation pour minimiser les perturbations, en utilisant les pouvoirs de la loi sur l'ordre public concernant les couvre-visages.",
    "demands": [],
-   "response": "Selon la police métropolitaine, des agents ont été déployés en grand nombre, ont imposé des conditions d'itinéraire et ont averti les participants concernant la réglementation sur le couvre-visage. La police a indiqué avoir procédé à plusieurs arrestations pour des dommages criminels présumés sur un mémorial et pour avoir soutenu une organisation interdite.",
+   "response": "La police métropolitaine a déployé une présence importante, imposé des conditions en vertu de la loi sur l'ordre public, exigé que les individus retirent leurs couvre-visages, séparé la manifestation principale d'une contre-manifestation par Stop The Hate et procédé à 20 arrestations.",
    "updates": [
-    "Des manifestants se sont rassemblés sur le Victoria Embankment vers midi et ont marché vers Whitehall.",
-    "La police métropolitaine a fait état de plusieurs arrestations pour dommages criminels et soutien à une organisation interdite."
+    "Des milliers de manifestants se sont rassemblés sur le Victoria Embankment et ont marché vers Whitehall pour un rassemblement.",
+    "La police métropolitaine a signalé que 20 arrestations avaient été effectuées lors de la manifestation."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "arrests": "Un total de 20 arrestations a été effectué lors d'une manifestation pro-palestinienne dans le centre de Londres, a indiqué la police métropolitaine..."
+   }
   },
   "de": {
-   "title": "Pro-palästinensische Demonstrierende versammeln sich im Zentrum von London",
+   "title": "Pro-palästinensische Demonstranten versammeln sich im Zentrum von London",
    "seoTitle": "Pro-palästinensische Kundgebung in London",
    "tea": {
-    "why": "Demonstrierende versammelten sich im Zentrum von London, um ihre Unterstützung für die Palästinenser zu zeigen.",
-    "want": "Demonstrierende marschierten zur Unterstützung der Palästinenser.",
-    "changed": "10. Okt.: Die Polizei nahm mehrere Festnahmen vor, nachdem Protestierende auf ein Denkmal geklettert waren und Plakate trugen."
+    "why": "Demonstranten versammelten sich im Zentrum von London zu einer pro-palästinensischen Protestaktion nahe dem Jahrestag des Terrorangriffs auf Israel.",
+    "want": "Palästinensische Solidarität und Unterstützung.",
+    "changed": "10. Okt.: Die Metropolitan Police meldete 20 Festnahmen während der Demonstration."
    },
-   "summary": "Tausende Demonstrierende, von denen viele Flaggen trugen und Keffiyehs trugen, versammelten sich am Embankment im Zentrum von London und marschierten zu einer Kundgebung nach Whitehall. Die Veranstaltung wurde von der Palestine Coalition organisiert. Gleichzeitig fand eine kleine Gegenkundgebung einer Gruppe namens Stop the Hate in der Nähe von New Scotland Yard statt. Die Metropolitan Police entfaltete eine starke Präsenz, erließ strenge Auflagen für Route und Timing und berief sich auf Befugnisse des Gesetzes zur öffentlichen Ordnung, die Personen dazu verpflichten, Gesichtsbedeckungen abzunehmen, die zur Verschleierung der Identität genutzt werden. Die Polizei meldete mehrere Festnahmen, darunter Personen, die wegen Sachbeschädigung verdächtigt werden, nachdem sie auf das Denkmal der Luftschlacht um England geklettert waren, sowie andere, die Plakate zur Unterstützung einer verbotenen Organisation trugen.",
+   "summary": "Tausende Demonstranten versammelten sich auf dem Victoria Embankment im Zentrum von London zu einer pro-palästinensischen Protestaktion und zogen für eine Kundgebung nach Whitehall. Die Veranstaltung wurde von der Palestine Coalition organisiert. Eine Gegenkundgebung von Stop The Hate fand ebenfalls in der Nähe von New Scotland Yard statt, wobei die beiden Gruppen durch Metallabsperrungen und Polizeiketten getrennt wurden. Nach Angaben der Metropolitan Police wurden während der Demonstration 20 Festnahmen vorgenommen, darunter Personen, die wegen Sachbeschädigung nach dem Besteigen des Battle of Britain Memorials, Verstosses gegen Protestauflagen, Weigerung, Gesichtsbedeckungen abzunehmen, Zeigens von Plakaten zur Unterstützung von Palestine Action, Verstosses gegen die öffentliche Ordnung, Angriffs auf einen Polizisten und Störung des Friedens festgehalten wurden. Die Polizei hatte Auflagen für den Marsch und die Gegenkundgebung erlassen, um Störungen zu minimieren, und dabei die Befugnisse des Public Order Act in Bezug auf Gesichtsbedeckungen genutzt.",
    "demands": [],
-   "response": "Nach Angaben der Metropolitan Police wurden Beamte in großer Zahl eingesetzt, Routenauflagen erlassen und die Teilnehmenden vor Vorschriften bezüglich Gesichtsbedeckungen gewarnt. Die Polizei meldete mehrere Festnahmen wegen mutmaßlicher Sachbeschädigung an einem Denkmal und der Unterstützung einer verbotenen Organisation.",
+   "response": "Die Metropolitan Police entfaltete eine erhebliche Präsenz, erliess Auflagen nach dem Public Order Act, forderte Personen auf, Gesichtsbedeckungen abzunehmen, trennte den Hauptprotest von einer Gegenkundgebung durch Stop The Hate und nahm 20 Festnahmen vor.",
    "updates": [
-    "Demonstrierende versammelten sich gegen Mittag am Victoria Embankment und marschierten nach Whitehall.",
-    "Die Metropolitan Police meldete mehrere Festnahmen wegen Sachbeschädigung und der Unterstützung einer verbotenen Organisation."
+    "Tausende Demonstranten versammelten sich auf dem Victoria Embankment und zogen für eine Kundgebung nach Whitehall.",
+    "Die Metropolitan Police berichtete, dass während der Demonstration 20 Festnahmen vorgenommen wurden."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "arrests": "Insgesamt 20 Festnahmen wurden während eines pro-palästinensischen Protests im Zentrum von London vorgenommen, so die Metropolitan Police…"
+   }
   }
  }
 }

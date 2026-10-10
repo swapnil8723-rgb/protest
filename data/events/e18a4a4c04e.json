@@ -16,47 +16,45 @@
  "scope": "local",
  "causes": [
   "students",
-  "palestine",
-  "war-peace"
+  "war-peace",
+  "palestine"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-07",
  "status": "ended",
  "vibe": "wrapped-up",
- "severity": "serious",
- "review": "pending",
- "reviewReasons": [
-  "serious"
- ],
+ "severity": "normal",
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated on the third anniversary of the October 7 Hamas attacks on Israel to voice support for Palestinians in Gaza.",
-  "want": "Demonstrators called for an end to what they described as a genocide in Gaza.",
-  "changed": "Oct 7: Metropolitan Police reported eleven arrests total, including five for inciting racial hatred in Camden and two at the central London student march."
+  "why": "Protesters demonstrated on the third anniversary of the October 7 Hamas attacks on Israel to support Palestine and protest the war in Gaza.",
+  "want": "Participants demanded an end to what they described as a genocide in Gaza.",
+  "changed": "Oct 7: Eleven people were arrested during pro-Palestinian demonstrations in London, including five outside the Board of Deputies in Camden and others at student-led…"
  },
- "summary": "On October 7, 2026, marking the third anniversary of the Hamas attacks on Israel, student-led pro-Palestinian demonstrations took place in central London. Organised by groups including the University of London Coalition, participants gathered to march from King's College London towards Russell Square, demanding an end to the war in Gaza. The timing of the march drew fierce criticism from Jewish community organizations, government officials, and police due to its coincidence with a day of mourning. The Metropolitan Police had urged organizers to reschedule and subsequently imposed strict conditions, including a banned route and prohibition of face coverings. Counter-demonstrators carrying Israeli flags met the march near Russell Square, leading to minor scuffles. According to the Metropolitan Police, a total of eleven people were arrested across various protests in the capital, including five individuals detained outside the Board of Deputies in Camden for allegedly chanting slogans calling for intifada.",
+ "summary": "On October 7, 2026, students and activists in London staged pro-Palestinian demonstrations coinciding with the third anniversary of the Hamas attacks on Israel. Organised in part by groups like the University of London Coalition, the march ran from King's College London toward Russell Square, drawing around 100 participants. The timing drew widespread condemnation from government officials, Jewish community organisations, and Jewish student leaders, who argued that holding the protest on the anniversary caused unnecessary distress and provocation. The Metropolitan Police urged organisers to reschedule and placed strict conditions on the route, banning face coverings. Counter-demonstrators carrying Israeli flags met the march at Russell Square, leading to minor clashes and verbal confrontations before the protest concluded. Across London, police reported multiple arrests, including individuals detained for breaching conditions, common assault, and alleged racial hatred during a separate spontaneous protest outside the Board of Deputies in Camden.",
  "organizers": [
   "University of London Coalition"
  ],
  "demands": [
-  "End the genocide in Gaza"
+  "End to the genocide in Gaza"
  ],
- "response": "According to the Metropolitan Police, officers could not legally ban the march without a high risk of serious disorder, but they imposed strict conditions including a designated route, bans on face coverings, and an early dispersal time. Police also urged students to reschedule.",
+ "response": "The Metropolitan Police urged demonstrators to reschedule, imposed conditions including banned face coverings and prescribed routes, and arrested multiple individuals for breaches and alleged racial hatred. Government ministers criticized the timing.",
  "numbers": {
   "crowd": {
    "value": 100,
-   "text": "Around 100 pro-Palestine protesters marched",
+   "text": "around 100 pro-Palestine protesters",
    "sources": [
     5,
-    7,
     8,
-    9
+    9,
+    10
    ]
   },
   "arrests": {
    "value": 11,
-   "text": "Eleven people were arrested as several pro-Palestinian demonstrations were held in London on Wednesday",
+   "text": "Eleven people were arrested",
    "sources": [
     5
    ]
@@ -65,22 +63,40 @@
  "updates": [
   {
    "at": "2026-10-07",
-   "text": "Police made five arrests outside the Board of Deputies in Camden for inciting racial hatred over intifada chants.",
+   "text": "Five people were arrested outside the Board of Deputies in Camden for allegedly chanting slogans calling for intifada.",
    "sources": [
     5,
     6,
-    7,
-    8
+    8,
+    9
    ]
   },
   {
    "at": "2026-10-07",
-   "text": "Around 100 student demonstrators marched from Lincoln's Inn Fields towards Russell Square amid counter-protests.",
+   "text": "Around 100 protesters marched from King's College London toward Russell Square under police conditions.",
+   "sources": [
+    4,
+    5,
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "at": "2026-10-07",
+   "text": "Counter-demonstrators carrying Israeli flags gathered at Russell Square, leading to minor scuffles and verbal clashes.",
    "sources": [
     5,
-    7,
     8,
-    9
+    9,
+    10
+   ]
+  },
+  {
+   "at": "2026-10-07",
+   "text": "Police confirmed a total of eleven arrests related to the day's demonstrations in London.",
+   "sources": [
+    5
    ]
   }
  ],
@@ -129,20 +145,27 @@
   },
   {
    "n": 7,
+   "url": "https://www.dailymail.com/news/article-16190169/Sadiq-Khan-condemns-actions-Israel-October-7.html",
+   "publisher": "dailymail.com",
+   "title": "Sadiq Khan condemns 'reprehensible' actions of Israel in statement on third anniversary of October 7 attacks",
+   "publishedAt": "2026-10-07T14:52:30.000Z"
+  },
+  {
+   "n": 8,
    "url": "https://www.mirror.co.uk/news/uk-news/october-7-palestine-protest-arrest-37746366",
    "publisher": "mirror.co.uk",
    "title": "Five people arrested at pro-Palestine protest in London on October 7 anniversary",
    "publishedAt": "2026-10-07T17:21:58.000Z"
   },
   {
-   "n": 8,
+   "n": 9,
    "url": "https://www.warringtonguardian.co.uk/news/national/26615563.clashes-arrests-amid-demos-anniversary-october-7-attacks/",
    "publisher": "warringtonguardian.co.uk",
    "title": "Clashes and arrests amid demos on anniversary of October 7 attacks",
    "publishedAt": "2026-10-07T19:42:12.000Z"
   },
   {
-   "n": 9,
+   "n": 10,
    "url": "https://www.spiked-online.com/2026/10/07/londons-7-october-celebrations-exposed-the-patheticness-of-the-gaza-cult/",
    "publisher": "spiked-online.com",
    "title": "London’s 7 October celebrations exposed the patheticness of the Gaza cult",
@@ -151,143 +174,154 @@
  ],
  "conflicts": [],
  "confidence": 0.95,
- "publishers": 9,
+ "publishers": 10,
  "reports24h": 0,
  "reportsPrev24h": 0,
  "reports48h": 0,
  "firstSeenAt": "2026-10-06T04:10:26.894Z",
  "lastReportAt": "2026-10-07T19:42:12.000Z",
- "lastCheckedAt": "2026-10-10T16:18:51.202Z",
- "updatedAt": "2026-10-10T16:18:11.051Z",
+ "lastCheckedAt": "2026-10-10T17:23:30.918Z",
+ "updatedAt": "2026-10-10T17:23:10.975Z",
  "responseSources": [
   1,
-  2,
-  3,
   4,
-  5
+  5,
+  6,
+  8,
+  9
  ],
  "seriousInjuries": false,
- "sensitive": true,
- "summarizedAt": "2026-10-10T16:18:11.051Z",
- "summaryOf": "3690a2ed7980",
+ "sensitive": false,
+ "summarizedAt": "2026-10-10T17:23:10.975Z",
+ "summaryOf": "4037917bef4c",
  "publishedAt": "2026-10-07T00:49:09.381Z",
  "i18n": {
-  "of": "2f83679905da22ce",
-  "at": "2026-10-10T16:19:49.763Z",
+  "of": "198cd8b2730e1b7b",
+  "at": "2026-10-10T17:24:22.600Z",
   "tries": 1,
   "hi": {
    "title": "7 अक्टूबर की बरसी पर लंदन में छात्रों का फिलिस्तीन के समर्थन में मार्च",
-   "seoTitle": "फिलिस्तीन के लिए लंदन में छात्र मार्च",
+   "seoTitle": "लंदन में फिलिस्तीन के लिए छात्र मार्च",
    "tea": {
-    "why": "गाजा में फिलिस्तीनियों के समर्थन में इजराइल पर 7 अक्टूबर के हमास हमलों की तीसरी बरसी पर प्रदर्शनकारियों ने प्रदर्शन किया।",
-    "want": "प्रदर्शनकारियों ने गाजा में जिसे उन्होंने नरसंहार बताया है, उसे समाप्त करने की मांग की।",
-    "changed": "7 अक्टूबर: मेट्रोपॉलिटन पुलिस ने कुल ग्यारह गिरफ्तारियों की सूचना दी, जिसमें कैमडन में नस्लीय घृणा भड़काने के लिए पांच और मध्य लंदन छात्र मार्च में दो लोग शामिल हैं।"
+    "why": "इजराइल पर 7 अक्टूबर के हमास हमलों की तीसरी बरसी पर प्रदर्शनकारियों ने फिलिस्तीन का समर्थन करने और गाजा में युद्ध के खिलाफ प्रदर्शन किया।",
+    "want": "प्रतिभागियों ने गाजा में जिसे उन्होंने नरसंहार बताया है, उसे समाप्त करने की मांग की।",
+    "changed": "7 अक्टूबर: लंदन में फिलिस्तीन समर्थक प्रदर्शनों के दौरान 11 लोगों को गिरफ्तार किया गया, जिनमें कैमडन में बोर्ड ऑफ डेप्युटीज के बाहर पांच और छात्र-नेतृत्व वाले अन्य प्रदर्शनों के लोग शामिल थे…"
    },
-   "summary": "7 अक्टूबर 2026 को, इजराइल पर हमास के हमलों की तीसरी बरसी के अवसर पर, मध्य लंदन में छात्र-नेतृत्व वाले फिलिस्तीन समर्थक प्रदर्शन हुए। यूनिवर्सिटी ऑफ लंदन कोएलिशन सहित समूहों द्वारा आयोजित, प्रतिभागी किंग्स कॉलेज लंदन से रसेल स्क्वायर की ओर मार्च करने के लिए एकत्र हुए, और गाजा में युद्ध को समाप्त करने की मांग की। मार्च के समय ने शोक के दिन के साथ इसके मेल खाने के कारण यहूदी समुदाय के संगठनों, सरकारी अधिकारियों और पुलिस की कड़ी आलोचना को आकर्षित किया। मेट्रोपॉलिटन पुलिस ने आयोजकों से पुनर्निर्धारित करने का आग्रह किया था और बाद में एक प्रतिबंधित मार्ग और चेहरे को ढंकने पर प्रतिबंध सहित कड़ी शर्तें लगाईं। इजरायली झंडे लेकर चल रहे जवाबी प्रदर्शनकारियों ने रसेल स्क्वायर के पास मार्च का सामना किया, जिससे मामूली झड़पें हुईं। मेट्रोपॉलिटन पुलिस के अनुसार, राजधानी में विभिन्न प्रदर्शनों में कुल ग्यारह लोगों को गिरफ्तार किया गया, जिसमें कैमडन में बोर्ड ऑफ डेप्युटीज के बाहर कथित तौर पर इंतिफादा का आह्वान करने वाले नारे लगाने के लिए पांच व्यक्ति हिरासत में शामिल हैं।",
+   "summary": "7 अक्टूबर 2026 को, लंदन में छात्रों और कार्यकर्ताओं ने इजराइल पर हमास के हमलों की तीसरी बरसी के अवसर पर फिलिस्तीन समर्थक प्रदर्शन किए। यूनिवर्सिटी ऑफ लंदन कोएलिशन जैसे समूहों द्वारा आंशिक रूप से आयोजित यह मार्च किंग्स कॉलेज लंदन से रसेल स्क्वायर की ओर बढ़ा, जिसमें लगभग 100 प्रतिभागी शामिल हुए। इस समय-सीमा की सरकारी अधिकारियों, यहूदी समुदाय के संगठनों और यहूदी छात्र नेताओं द्वारा व्यापक निंदा की गई, जिन्होंने तर्क दिया कि बरसी पर विरोध प्रदर्शन आयोजित करने से अनावश्यक पीड़ा और उकसावा पैदा हुआ। मेट्रोपॉलिटन पुलिस ने आयोजकों से कार्यक्रम दोबारा तय करने का आग्रह किया और चेहरे को ढकने पर प्रतिबंध लगाने के साथ मार्ग पर कड़ी शर्तें लागू कीं। इजरायली झंडे लेकर चल रहे जवाबी प्रदर्शनकारियों ने रसेल स्क्वायर पर मार्च का सामना किया, जिसके कारण विरोध प्रदर्शन समाप्त होने से पहले मामूली झड़पें और मौखिक टकराव हुआ। पूरे लंदन में, पुलिस ने कई गिरफ्तारियों की सूचना दी, जिनमें शर्तों का उल्लंघन करने, सामान्य मारपीट और कैमडन में बोर्ड ऑफ डेप्युटीज के बाहर एक अलग स्वतःस्फूर्त विरोध प्रदर्शन के दौरान कथित नस्लीय घृणा के लिए हिरासत में लिए गए लोग शामिल हैं।",
    "demands": [
-    "गाजा में नरसंहार समाप्त हो"
+    "गाजा में नरसंहार का अंत"
    ],
-   "response": "मेट्रोपॉलिटन पुलिस के अनुसार, अधिकारी गंभीर उपद्रव के उच्च जोखिम के बिना कानूनी रूप से मार्च पर प्रतिबंध नहीं लगा सकते थे, लेकिन उन्होंने एक निर्धारित मार्ग, चेहरे को ढंकने पर प्रतिबंध और एक समय सीमा सहित कड़ी शर्तें लगाईं। पुलिस ने छात्रों से पुनर्निर्धारित करने का भी आग्रह किया।",
+   "response": "मेट्रोपॉलिटन पुलिस ने प्रदर्शनकारियों से कार्यक्रम को पुनर्निर्धारित करने का आग्रह किया, चेहरे को ढकने पर प्रतिबंध और निर्धारित मार्गों सहित शर्तें लगाईं, और उल्लंघनों तथा कथित नस्लीय घृणा के लिए कई व्यक्तियों को गिरफ्तार किया। सरकारी मंत्रियों ने इस समय-सीमा की आलोचना की।",
    "updates": [
-    "पुलिस ने कैमडन में बोर्ड ऑफ डेप्युटीज के बाहर इंतिफादा के नारों पर नस्लीय घृणा भड़काने के लिए पांच गिरफ्तारियां कीं।",
-    "लगभग 100 छात्र प्रदर्शनकारियों ने जवाबी विरोध प्रदर्शनों के बीच लिंकन इन फील्ड्स से रसेल स्क्वायर की ओर मार्च किया।"
+    "इंटिफादा का आह्वान करने वाले नारे कथित तौर पर लगाने के लिए कैमडन में बोर्ड ऑफ डेप्युटीज के बाहर पांच लोगों को गिरफ्तार किया गया।",
+    "पुलिस की शर्तों के तहत लगभग 100 प्रदर्शनकारियों ने किंग्स कॉलेज लंदन से रसेल स्क्वायर की ओर मार्च किया।",
+    "इजरायली झंडे लिए हुए जवाबी प्रदर्शनकारी रसेल स्क्वायर पर एकत्र हुए, जिसके कारण मामूली हाथापाई और मौखिक झड़पें हुईं।",
+    "पुलिस ने लंदन में दिन के प्रदर्शनों से संबंधित कुल 11 गिरफ्तारियों की पुष्टि की।"
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "लगभग 100 फिलिस्तीन समर्थक प्रदर्शनकारियों ने मार्च किया",
-    "arrests": "बुधवार को लंदन में कई फिलिस्तीन समर्थक प्रदर्शन आयोजित होने पर ग्यारह लोगों को गिरफ्तार किया गया"
+    "crowd": "लगभग 100 फिलिस्तीन समर्थक प्रदर्शनकारी",
+    "arrests": "11 लोगों को गिरफ्तार किया गया"
    }
   },
   "mr": {
-   "title": "७ ऑक्टोबरच्या वर्धापनदिनानिमित्त लंडनमध्ये विद्यार्थ्यांचा पॅलेस्टाईनसाठी मोर्चा",
-   "seoTitle": "पॅलेस्टाईनसाठी लंडनमध्ये विद्यार्थी मोर्चा",
+   "title": "ऑक्टोबर ७ च्या वर्धापनदिनानिमित्त लंडनमध्ये विद्यार्थ्यांचा पॅलेस्टाईनसाठी मोर्चा",
+   "seoTitle": "लंडनमध्ये पॅलेस्टाईनसाठी विद्यार्थी मोर्चा",
    "tea": {
-    "why": "गाझा मधील पॅलेस्टाईनच्या बाजूने आवाज उठवण्यासाठी इस्रायलवरील ७ ऑक्टोबरच्या हमास हल्ल्यांच्या तिसऱ्या वर्धापनदिनानिमित्त निदर्शकांनी निदर्शने केली.",
-    "want": "निदर्शकांनी गाझामध्ये ज्याचे वर्णन त्यांनी नरसंहार असे केले आहे, तो संपवण्याची मागणी केली.",
-    "changed": "७ ऑक्टोबर: मेट्रोपॉलिटन पोलिसांनी एकूण अकरा जणांना अटक केल्याची माहिती दिली, ज्यामध्ये कॅमडनमध्ये जातीय द्वेष भडकवल्याप्रकरणी पाच जण आणि मध्य लंडनच्या विद्यार्थी मोर्चानंतर दोन जण समाविष्ट आहेत."
+    "why": "इस्त्रायलवरील ७ ऑक्टोबरच्या हमास हल्ल्यांच्या तिसऱ्या वर्धापनदिनानिमित्त निदर्शकांनी पॅलेस्टाईनला पाठिंबा देण्यासाठी आणि गाझा युद्धाच्या निषेधार्थ निदर्शने केली.",
+    "want": "सहभागांनी गाझातील ज्याचे वर्णन त्यांनी नरसंहार असे केले, तो संपवण्याची मागणी केली.",
+    "changed": "७ ऑक्टोबर: लंडनमधील पॅलेस्टाईन समर्थक निदर्शनांदरम्यान अकरा लोकांना अटक करण्यात आली, ज्यात कॅमडनमधील बोर्ड ऑफ डेप्युटीजच्या बाहेर पाच जण आणि विद्यार्थी-नेतृत्वाखालील इतर जणांचा समावेश आहे…"
    },
-   "summary": "७ ऑक्टोबर २०२६ रोजी इस्रायलवरील हमास हल्ल्यांच्या तिसऱ्या वर्धापनदिनानिमित्त मध्य लंडनमध्ये विद्यार्थी-नेतृत्वाखालील पॅलेस्टाईन समर्थक निदर्शने झाली. युनिव्हर्सिटी ऑफ लंडन कोएलिशनसह विविध गटांद्वारे आयोजित, सहभागी किंग्स कॉलेज लंडनपासून रसेल स्क्वेअरच्या दिशेने मार्च करण्यासाठी जमले आणि गाझातील युद्ध संपवण्याची मागणी केली. शोकाच्या दिवसाशी हा मोर्चा जुळून आल्यामुळे या मोर्च्याच्या वेळेवर ज्यू समुदाय संस्था, सरकारी अधिकारी आणि पोलिसांकडून तीव्र टीका झाली. मेट्रोपॉलिटन पोलिसांनी आयोजकांना मोर्चाची तारीख बदलण्याचे आवाहन केले होते आणि त्यानंतर प्रतिबंधित मार्ग व चेहरा झाकण्यावर बंदी यासह कडक अटी लादल्या. इस्रायली झेंडे हातात घेतलेल्या प्रति-निदर्शकांनी रसेल स्क्वेअरजवळ मोर्च्याला गाठले, ज्यामुळे किरकोळ बाचाबाची झाली. मेट्रोपॉलिटन पोलिसांनुसार, राजधान्यातील विविध निदर्शनांदरम्यान एकूण अकरा जणांना अटक करण्यात आली, ज्यामध्ये कॅमडनमधील बोर्ड ऑफ डेप्युटीजच्या बाहेर कथितपणे इंतिफादाचे नारे दिल्याबद्दल पाच जणांना ताब्यात घेण्यात आले.",
+   "summary": "७ ऑक्टोबर २०२६ रोजी, लंडनमध्ये विद्यार्थी आणि कार्यकर्त्यांनी इस्त्रायलवर हमासच्या हल्ल्यांच्या तिसऱ्या वर्धापनदिनानिमित्त पॅलेस्टाईन समर्थक निदर्शने केली. युनिव्हर्सिटी ऑफ लंडन कोएलिशन सारख्या गटांद्वारे अंशतः आयोजित केलेला हा मोर्चा किंग्स कॉलेज लंडनपासून रसेल स्क्वेअरच्या दिशेने निघाला, ज्यामध्ये सुमारे १०० सहभागी झाले होते. या वेळेमुळे सरकारी अधिकारी, ज्यू समुदाय संस्था आणि ज्यू विद्यार्थी नेत्यांकडून मोठ्या प्रमाणावर निषेध व्यक्त झाला, ज्यांनी असा युक्तिवाद केला की वर्धापनदिनानिमित्त निषेध नोंदवल्यामुळे अनावश्यक त्रास आणि प्रक्षोभ निर्माण झाला. मेट्रोपॉलिटन पोलिसांनी आयोजकांना कार्यक्रम पुन्हा निश्चित करण्याचे आवाहन केले आणि चेहऱ्याचे आवरण बंदी घालण्यासह मार्गावर कडक अटी लादल्या. इस्त्रायली झेंडे घेऊन जाणाऱ्या निदर्शकांच्या विरोधात असलेल्या लोकांनी रसेल स्क्वेअर येथे मोर्चा गाठला, ज्यामुळे निषेध संपण्यापूर्वी किरकोळ चकमकी आणि तोंडी बाचाबाची झाली. संपूर्ण लंडनमधील पोलिसांनी अटींचे उल्लंघन, सामान्य मारामारी आणि कॅमडनमधील बोर्ड ऑफ डेप्युटीजच्या बाहेरील स्वतंत्र उत्स्फूर्त निदर्शनादरम्यान कथित वांशिक द्वेष यासाठी ताब्यात घेतलेल्या व्यक्तींसह अनेक अटींवर झालेल्या अटकेची नोंद केली.",
    "demands": [
-    "गाझामधील नरसंहार संपवा"
+    "गाझातील नरसंहार संपवावा"
    ],
-   "response": "मेट्रोपॉलिटन पोलिसांनुसार, गंभीर दंगलीच्या उच्च जोखमीशिवाय अधिकारी कायद्यानुसार मोर्चावर बंदी घालू शकले नाहीत, परंतु त्यांनी ठरवलेला मार्ग, चेहऱ्यावरील आवरणांवर बंदी आणि लवकर विखुरण्याची वेळ यासह कडक अटी लादल्या. पोलिसांनी विद्यार्थ्यांना तारीख बदलण्याचे आवाहनही केले.",
+   "response": "मेट्रोपॉलिटन पोलिसांनी निदर्शकांना कार्यक्रम पुनर्निधारित करण्याचे आवाहन केले, चेहऱ्याचे आवरण बंदी आणि ठरवून दिलेले मार्ग यासह अटी लादल्या आणि उल्लंघनांसाठी व कथित वांशिक द्वेषासाठी अनेक व्यक्तींना अटक केली. सरकारी मंत्र्यांनी या वेळेवर टीका केली.",
    "updates": [
-    "इंतिफादाच्या घोषणाबाजीवरून जातीय द्वेष भडकवल्याप्रकरणी पोलिसांनी कॅमडनमधील बोर्ड ऑफ डेप्युटीजच्या बाहेर पाच जणांना अटक केली.",
-    "प्रति-निदर्शनांच्या दरम्यान सुमारे १०० विद्यार्थी निदर्शकांनी लिंकन्स इन फील्ड्सपासून रसेल स्क्वेअरच्या दिशेने मार्च केला."
+    "इंटिफादाचे आवाहन करणारे नारे कथितपणे दिल्याबद्दल कॅमडनमधील बोर्ड ऑफ डेप्युटीजच्या बाहेर पाच लोकांना अटक करण्यात आली.",
+    "पोलीस अटींनुसार सुमारे १०० निदर्शकांनी किंग्स कॉलेज लंडनपासून रसेल स्क्वेअरपर्यंत मोर्चा काढला.",
+    "इस्त्रायली झेंडे घेऊन असलेले प्रति-निर्दशक रसेल स्क्वेअरवर जमले, ज्यामुळे किरकोळ हाणामारी आणि तोंडी चकमकी झाल्या.",
+    "पोलिसांनी लंडनमधील दिवसाच्या निदर्शनांशी संबंधित एकूण अकरा जणांच्या अटकेची पुष्टी केली."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "सुमारे १०० पॅलेस्टाईन समर्थक निदर्शकांनी मार्च केला",
-    "arrests": "बुधवारी लंडनमध्ये अनेक पॅलेस्टाईन समर्थक निदर्शने आयोजित केली गेली असताना अकरा जणांना अटक करण्यात आली"
+    "crowd": "सुमारे १०० पॅलेस्टाईन समर्थक निदशक",
+    "arrests": "अकरा लोकांना अटक करण्यात आली"
    }
   },
   "es": {
    "title": "Estudiantes de Londres marchan por Palestina en el aniversario del 7 de octubre",
-   "seoTitle": "Marcha de estudiantes en Londres por Palestina",
+   "seoTitle": "Marcha estudiantil por Palestina en Londres",
    "tea": {
-    "why": "Los manifestantes se manifestaron en el tercer aniversario de los ataques de Hamás del 7 de octubre contra Israel para expresar su apoyo a los palestinos en Gaza.",
-    "want": "Los manifestantes exigieron el fin de lo que describieron como un genocidio en Gaza.",
-    "changed": "7 de octubre: La Policía Metropolitana informó de once detenciones en total, incluidas cinco por incitar al odio racial en Camden y dos en la marcha estudiantil en el centro de Londres."
+    "why": "Los manifestantes se manifestaron en el tercer aniversario de los ataques de Hamás del 7 de octubre contra Israel para apoyar a Palestina y protestar contra la guerra en Gaza.",
+    "want": "Los participantes exigieron el fin de lo que describieron como un genocidio en Gaza.",
+    "changed": "7 de octubre: Once personas fueron arrestadas durante las manifestaciones pro-palestinas en Londres, incluidas cinco frente a la Junta de Diputados en Camden y otras en eventos liderados por estudiantes…"
    },
-   "summary": "El 7 de octubre de 2026, con motivo del tercer aniversario de los ataques de Hamás contra Israel, se llevaron a cabo manifestaciones pro-palestinas lideradas por estudiantes en el centro de Londres. Organizadas por grupos que incluyen la Coalición de la Universidad de Londres, los participantes se reunieron para marchar desde el King's College de Londres hacia Russell Square, exigiendo el fin de la guerra en Gaza. El momento de la marcha generó duras críticas por parte de organizaciones de la comunidad judía, funcionarios gubernamentales y la policía debido a su coincidencia con un día de luto. La Policía Metropolitana había instado a los organizadores a reprogramar y posteriormente impuso condiciones estrictas, incluida una ruta prohibida y la prohibición de cubrirse el rostro. Contramanifestantes que portaban banderas israelíes se encontraron con la marcha cerca de Russell Square, lo que provocó escaramuzas menores. Según la Policía Metropolitana, un total de once personas fueron arrestadas en varias protestas en la capital, incluidos cinco individuos detenidos frente a la Junta de Diputados en Camden por supuestamente corear eslóganes pidiendo la intifada.",
+   "summary": "El 7 de octubre de 2026, estudiantes y activistas en Londres organizaron manifestaciones pro-palestinas coincidiendo con el tercer aniversario de los ataques de Hamás contra Israel. Organizada en parte por grupos como la Coalición de la Universidad de Londres, la marcha transcurrió desde el King's College de Londres hacia Russell Square, atrayendo a unos 100 participantes. El momento elegido provocó una condena generalizada por parte de funcionarios gubernamentales, organizaciones de la comunidad judía y líderes estudiantiles judíos, quienes argumentaron que realizar la protesta en el aniversario causó angustia y provocación innecesarias. La Policía Metropolitana instó a los organizadores a reprogramar y estableció condiciones estrictas sobre la ruta, prohibiendo cubrirse el rostro. Contramanifestantes que portaban banderas israelíes se encontraron con la marcha en Russell Square, lo que provocó enfrentamientos menores y confrontaciones verbales antes de que concluyera la protesta. En todo Londres, la policía informó de múltiples arrestos, incluidos individuos detenidos por incumplir las condiciones, agresión común y presunto odio racial durante una protesta espontánea separada frente a la Junta de Diputados en Camden.",
    "demands": [
-    "Poner fin al genocidio en Gaza"
+    "Fin del genocidio en Gaza"
    ],
-   "response": "Según la Policía Metropolitana, los agentes no podían prohibir legalmente la marcha sin un alto riesgo de disturbios graves, pero impusieron condiciones estrictas que incluían una ruta designada, prohibiciones de cubrirse el rostro y una hora temprana de dispersión. La policía también instó a los estudiantes a reprogramar.",
+   "response": "La Policía Metropolitana instó a los manifestantes a reprogramar, impuso condiciones que incluyeron la prohibición de cubrirse el rostro y rutas prescritas, y arrestó a múltiples personas por incumplimientos y presunto odio racial. Ministros del gobierno criticaron el momento elegido.",
    "updates": [
-    "La policía realizó cinco arrestos frente a la Junta de Diputados en Camden por incitar al odio racial debido a cánticos sobre la intifada.",
-    "Alrededor de 100 manifestantes estudiantiles marcharon desde Lincoln's Inn Fields hacia Russell Square en medio de contramanifestaciones."
+    "Cinco personas fueron arrestadas frente a la Junta de Diputados en Camden por presuntamente corear consignas pidiendo una intifada.",
+    "Alrededor de 100 manifestantes marcharon desde el King's College de Londres hacia Russell Square bajo condiciones policiales.",
+    "Contramanifestantes que portaban banderas israelíes se reunieron en Russell Square, lo que dio lugar a refriegas menores y enfrentamientos verbales.",
+    "La policía confirmó un total de once arrestos relacionados con las manifestaciones del día en Londres."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Alrededor de 100 manifestantes pro-Palestina marcharon",
-    "arrests": "Once personas fueron arrestadas mientras se realizaban varias protestas pro-palestinas en Londres el miércoles"
+    "crowd": "alrededor de 100 manifestantes pro-Palestina",
+    "arrests": "Once personas fueron arrestadas"
    }
   },
   "fr": {
-   "title": "Des étudiants de Londres manifestent pour la Palestine lors de l'anniversaire du 7 octobre",
-   "seoTitle": "Marche étudiante à Londres pour la Palestine",
+   "title": "Des étudiants de Londres manifestent pour la Palestine le jour de l'anniversaire du 7 octobre",
+   "seoTitle": "Manifestation étudiante à Londres pour la Palestine",
    "tea": {
-    "why": "Des manifestants ont défilé lors du troisième anniversaire des attaques du Hamas du 7 octobre contre Israel pour exprimer leur soutien aux Palestiniens a Gaza.",
-    "want": "Les manifestants ont appelé a la fin de ce qu'ils ont qualifié de génocide a Gaza.",
-    "changed": "7 octobre : La police métropolitaine a fait état de onze arrestations au total, dont cinq pour incitation a la haine raciale a Camden et deux lors de la marche étudiante dans le centre de Londres."
+    "why": "Des manifestants ont défilé lors du troisième anniversaire des attaques du Hamas du 7 octobre contre Israël pour soutenir la Palestine et protester contre la guerre à Gaza.",
+    "want": "Les participants ont exigé la fin de ce qu'ils ont qualifié de génocide à Gaza.",
+    "changed": "7 oct. : Onze personnes ont été arrêtées lors de manifestations pro-palestiniennes à Londres, dont cinq devant le Board of Deputies à Camden et d'autres lors d'événements menés par des étudiants…"
    },
-   "summary": "Le 7 octobre 2026, marquant le troisième anniversaire des attaques du Hamas contre Israel, des manifestations pro-palestiniennes menées par des étudiants ont eu lieu dans le centre de Londres. Organisés par des groupes incluant la Coalition de l'Université de Londres, les participants se sont rassemblés pour marcher du King's College de Londres vers Russell Square, exigeant la fin de la guerre a Gaza. Le timing de la marche a suscité de vives critiques de la part d'organisations de la communauté juive, de responsables gouvernementaux et de la police en raison de sa coïncidence avec un jour de deuil. La police métropolitaine avait instamment demandé aux organisateurs de reporter l'événement et avait ensuite imposé des conditions strictes, incluant un itinéraire interdit et l'interdiction de se dissimuler le visage. Des contre-manifestants portant des drapeaux israéliens ont croisé la marche près de Russell Square, entraînant des échauffourées mineures. Selon la police métropolitaine, un total de onze personnes ont été arrêtées lors de diverses manifestations dans la capitale, dont cinq individus interpellés devant le Board of Deputies a Camden pour avoir prétendument entonné des slogans appelant a l'intifada.",
+   "summary": "Le 7 octobre 2026, des étudiants et des militants à Londres ont organisé des manifestations pro-palestiniennes coïncidant avec le troisième anniversaire des attaques du Hamas contre Israël. Organisée en partie par des groupes tels que la University of London Coalition, la marche est partie du King's College London pour se diriger vers Russell Square, rassemblant environ 100 participants. Le choix du moment a suscité une large condamnation de la part de responsables gouvernementaux, d'organisations de la communauté juive et de dirigeants étudiants juifs, qui ont soutenu que la tenue de la manifestation le jour de l'anniversaire provoquait une détresse et une provocation inutiles. La police métropolitaine a instamment demandé aux organisateurs de reporter l'événement et a imposé des conditions strictes sur l'itinéraire, interdisant les couvre-visages. Des contre-manifestants portant des drapeaux israéliens ont croisé la marche à Russell Square, entraînant des heurts mineurs et des confrontations verbales avant la fin de la manifestation. À travers Londres, la police a fait état de multiples arrestations, incluant des individus interpellés pour non-respect des conditions, agression simple et haine raciale présumée lors d'une manifestation spontanée distincte devant le Board of Deputies à Camden.",
    "demands": [
-    "Mettre fin au génocide a Gaza"
+    "Fin du génocide à Gaza"
    ],
-   "response": "Selon la police métropolitaine, les agents ne pouvaient pas interdire légalement la marche sans un risque élevé de troubles graves, mais ils ont imposé des conditions strictes incluant un itinéraire désigné, des interdictions de se dissimuler le visage et une heure de dispersion matinale. La police a également exhorté les étudiants a reporter l'événement.",
+   "response": "La police métropolitaine a exhorté les manifestants à reporter l'événement, a imposé des conditions comprenant l'interdiction des couvre-visages et des itinéraires prescrits, et a arrêté plusieurs personnes pour infractions et haine raciale présumée. Des ministres du gouvernement ont critiqué le choix du moment.",
    "updates": [
-    "La police a procédé a cinq arrestations devant le Board of Deputies a Camden pour incitation a la haine raciale en raison de chants sur l'intifada.",
-    "Environ 100 manifestants étudiants ont marché de Lincoln's Inn Fields vers Russell Square au milieu de contre-manifestations."
+    "Cinq personnes ont été arrêtées devant le Board of Deputies à Camden pour avoir prétendument scandé des slogans appelant à l'intifada.",
+    "Environ 100 manifestants ont défilé du King's College London vers Russell Square sous conditions policières.",
+    "Des contre-manifestants portant des drapeaux israéliens se sont rassemblés à Russell Square, provoquant des échauffourées mineures et des affrontements verbaux.",
+    "La police a confirmé un total de onze arrestations liées aux manifestations de la journée à Londres."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Environ 100 manifestants pro-Palestine ont marché",
-    "arrests": "Onze personnes ont été arrêtées alors que plusieurs manifestations pro-palestiniennes se tenaient a Londres mercredi"
+    "crowd": "environ 100 manifestants pro-Palestine",
+    "arrests": "Onze personnes ont été arrêtées"
    }
   },
   "de": {
-   "title": "Londoner Studierende demonstrieren zum Jahrestag des 7. Oktober für Palästina",
+   "title": "Londoner Studenten marschieren zum Jahrestag des 7. Oktober für Palästina",
    "seoTitle": "Londoner Studentenmarsch für Palästina",
    "tea": {
-    "why": "Demonstranten protestierten am dritten Jahrestag der Hamas-Angriffe auf Israel vom 7. Oktober, um ihre Unterstützung für die Palästinenser in Gaza auszudrücken.",
-    "want": "Demonstranten forderten ein Ende dessen, was sie als Völkermord in Gaza bezeichneten.",
-    "changed": "7. Oktober: Die Metropolitan Police meldete insgesamt elf Festnahmen, darunter fünf wegen Aufruhrs zum Rassenhass in Camden und zwei beim zentralen Londoner Studentenmarsch."
+    "why": "Demonstranten protestierten am dritten Jahrestag der Hamas-Angriffe auf Israel vom 7. Oktober, um Palästina zu unterstützen und gegen den Krieg in Gaza zu demonstrieren.",
+    "want": "Die Teilnehmer forderten ein Ende dessen, was sie als Völkermord in Gaza bezeichneten.",
+    "changed": "7. Okt.: Elf Personen wurden bei pro-palästinensischen Demonstrationen in London festgenommen, darunter fünf vor dem Board of Deputies in Camden und weitere bei studentisch geführten Aktionen…"
    },
-   "summary": "Am 7. Oktober 2026, anlässlich des dritten Jahrestags der Hamas-Angriffe auf Israel, fanden von Studierenden angeführte pro-palästinensische Kundgebungen im Zentrum von London statt. Organisiert von Gruppen wie der University of London Coalition, versammelten sich die Teilnehmer zu einem Marsch vom King's College London in Richtung Russell Square und forderten ein Ende des Krieges in Gaza. Das Timing des Marsches stieß bei jüdischen Gemeinschaftsorganisationen, Regierungsbeamten und der Polizei aufgrund der Überschneidung mit einem Trauertag auf scharfe Kritik. Die Metropolitan Police hatte die Organisatoren gedrängt, den Termin zu verlegen, und verhängte daraufhin strengste Auflagen, darunter eine verbotene Route und ein Verbot von Gesichtsmaskierungen. Gegendemonstranten mit israelischen Flaggen trafen nahe dem Russell Square auf den Marsch, was zu kleineren Handgemengen führte. Nach Angaben der Metropolitan Police wurden im Rahmen verschiedener Proteste in der Hauptstadt insgesamt elf Personen festgenommen, darunter fünf Personen, die vor dem Board of Deputies in Camden festgenommen wurden, weil sie angeblich Parolen gerufen hatten, die zur Intifada aufriefen.",
+   "summary": "Am 7. Oktober 2026 veranstalteten Studenten und Aktivisten in London pro-palästinensische Demonstrationen, die mit dem dritten Jahrestag der Hamas-Angriffe auf Israel zusammenfielen. Der teilweise von Gruppen wie der University of London Coalition organisierte Marsch führte vom King's College London zum Russell Square und zog rund 100 Teilnehmer an. Der Zeitpunkt stieß auf breite Verurteilung durch Regierungsbeamte, Organisationen der jüdischen Gemeinschaft und jüdische Studentenführer, die argumentierten, dass die Durchführung des Protests am Jahrestag unnötige Bedrängnis und Provokation verursachte. Die Londoner Polizei drängte die Organisatoren zu einer Verlegung und knüpfte strenge Auflagen an die Route, einschließlich eines Verbots von Gesichtsmasken. Gegendemonstranten mit israelischen Flaggen trafen am Russell Square auf den Marsch, was zu kleineren Zusammenstößen und verbalen Konfrontationen führte, bevor die Demonstration endete. In ganz London meldete die Polizei mehrere Festnahmen, darunter Personen, die wegen Verstößen gegen Auflagen, tätlicher Beleidigung und mutmaßlichen Rassenhasses bei einer separaten, spontanen Protestaktion vor dem Board of Deputies in Camden festgehalten wurden.",
    "demands": [
-    "Beendet den Völkermord in Gaza"
+    "Ende des Völkermords in Gaza"
    ],
-   "response": "Nach Angaben der Metropolitan Police konnten die Beamten den Marsch nicht ohne ein hohes Risiko schwerer Ausschreitungen legal verbieten, aber sie verhängten strenge Auflagen, darunter eine festgelegte Route, Verbote von Gesichtsmaskierungen und eine frühe Auflösungszeit. Die Polizei forderte die Studierenden zudem auf, den Termin zu verlegen.",
+   "response": "Die Londoner Polizei forderte die Demonstranten auf, den Termin zu verschieben, erließ Auflagen wie ein Verbot von Gesichtsmasken und vorgeschriebene Routen und nahm mehrere Personen wegen Verstößen und mutmaßlichen Rassenhasses fest. Regierungsminister kritisierten den gewählten Zeitpunkt.",
    "updates": [
-    "Die Polizei nahm fünf Festnahmen vor dem Board of Deputies in Camden wegen Aufruhrs zum Rassenhass aufgrund von Intifada-Sprechchören vor.",
-    "Etwa 100 studentische Demonstranten marschierten inmitten von Gegenprotesten vom Lincoln's Inn Fields zum Russell Square."
+    "Fünf Personen wurden vor dem Board of Deputies in Camden festgenommen, weil sie angeblich Parolen zur Unterstützung der Intifada gerufen hatten.",
+    "Rund 100 Demonstranten marschierten unter Polizeiauflagen vom King's College London zum Russell Square.",
+    "Gegendemonstranten mit israelischen Flaggen versammelten sich am Russell Square, was zu kleineren Handgemengen und verbalen Auseinandersetzungen führte.",
+    "Die Polizei bestätigte insgesamt elf Festnahmen im Zusammenhang mit den Demonstrationen des Tages in London."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Etwa 100 pro-palästinensische Demonstranten marschierten",
-    "arrests": "Elf Personen wurden festgenommen, als am Mittwoch mehrere pro-palästinensische Demonstrationen in London stattfanden"
+    "crowd": "rund 100 pro-palästinensische Demonstranten",
+    "arrests": "Elf Personen wurden festgenommen"
    }
   }
  },

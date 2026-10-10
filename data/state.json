@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-10",
-  "count": 116
+  "count": 129
  },
  "runs": [
   {
@@ -960,8 +960,32 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-10T17:22:00.443Z",
+   "ms": 142285,
+   "discovered": 29,
+   "fetched": 29,
+   "classified": 26,
+   "protests": 21,
+   "summarized": 6,
+   "published": 41,
+   "live": 10,
+   "aiCalls": 13,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 5 files, 22 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 96 protest-word items",
+    "fetch: 29 ok, 0 failed",
+    "classify: new candidate ec98eb43b6a \"BKU farmers protest across Uttar Pradesh demanding CEC resignation\" (Lucknow)",
+    "classify: new candidate ea65e77bb77 \"Farmers leader hospitalised during indefinite hunger strike in Baran\" (Baran)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261010161500",
- "lastRunAt": "2026-10-10T16:16:23.825Z"
+ "gdeltCursor": "20261010173000",
+ "lastRunAt": "2026-10-10T17:22:00.443Z"
 }
