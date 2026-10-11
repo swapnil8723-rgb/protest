@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-11",
-  "count": 111
+  "count": 126
  },
  "runs": [
   {
@@ -1216,8 +1216,38 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-11T19:28:42.277Z",
+   "ms": 151184,
+   "discovered": 49,
+   "fetched": 44,
+   "classified": 38,
+   "protests": 25,
+   "summarized": 6,
+   "published": 49,
+   "live": 11,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261011193000 http://data.gdeltproject.org/gdeltv2/20261011193000.export.CSV.zip → 404",
+    "gdelt: 13 files, 39 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 78 protest-word items",
+    "fetch: 44 ok, 5 failed",
+    "classify: new candidate e2a5e80d10f \"Students and activists protest at Dharna Chowk against SIR\" (Hyderabad)",
+    "classify: new candidate ec7d88e55b0 \"BJP announces Assembly march demanding leadership resignations\" (Thiruvananthapuram)",
+    "classify: new candidate eb37fab1465 \"Students protest at IIIT Ranchi after student found dead\" (Ranchi)",
+    "classify: new candidate ee2553b85f7 \"CJP leaders allege surveillance while traveling to Delhi anti-SIR protest\" (Ranchi)",
+    "classify: new candidate e2cc36b5009 \"Villagers stage dharna against house demolitions in Kosmi village\" (Budhni)",
+    "classify: new candidate e13d253af4a \"Congress leaders head to Delhi to protest against CEC over SIR\" (Ranchi)",
+    "classify: new candidate eac247ecbf5 \"I.N.D.I.A. bloc march to Supreme Court over electoral rolls\" (Delhi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261011161500",
- "lastRunAt": "2026-10-11T16:16:24.628Z"
+ "gdeltCursor": "20261011193000",
+ "lastRunAt": "2026-10-11T19:28:42.277Z"
 }
