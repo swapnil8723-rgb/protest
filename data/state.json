@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-11",
-  "count": 31
+  "count": 46
  },
  "runs": [
   {
@@ -1089,8 +1089,35 @@
     "translate: 8 events"
    ],
    "translated": 8
+  },
+  {
+   "at": "2026-10-11T05:53:18.319Z",
+   "ms": 146258,
+   "discovered": 43,
+   "fetched": 42,
+   "classified": 41,
+   "protests": 23,
+   "summarized": 6,
+   "published": 45,
+   "live": 8,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 6 files, 35 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 106 protest-word items",
+    "fetch: 42 ok, 1 failed",
+    "classify: new candidate ea994e32011 \"CM Rekha Gupta accuses opposition of chaos during Delhi protests\" (Delhi)",
+    "classify: new candidate e5dff05958d \"Delhi markets reopen amid fresh protest calls at Jantar Mantar\" (Delhi)",
+    "classify: new candidate ed68f957d3d \"CJP continues anti-CEC protests in Delhi for second day\" (Delhi)",
+    "classify: new candidate e7bd82e2ea3 \"Rickshaw drivers attacked during transport protest in Dhaka\" (Dhaka)",
+    "classify: new candidate e8feefb3370 \"Youtuber Dhruv Rathee released after detention ahead of Delhi protest\" (Delhi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261011043000",
- "lastRunAt": "2026-10-11T04:27:47.975Z"
+ "gdeltCursor": "20261011060000",
+ "lastRunAt": "2026-10-11T05:53:18.319Z"
 }
