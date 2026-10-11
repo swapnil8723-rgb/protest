@@ -22,6 +22,16 @@
       "source": "/:cc(in|us|gb|pk|bd|np|ke|id)/:region/:city",
       "destination": "/city/:cc/:region/:city",
       "permanent": true
+    },
+    {
+      "source": "/p/delhi-cjp-election-protest-oct-2026",
+      "destination": "/p/delhi-cjp-cec-protest-oct-2026",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(hi|mr|es|fr|de)/p/delhi-cjp-election-protest-oct-2026",
+      "destination": "/:lang/p/delhi-cjp-cec-protest-oct-2026",
+      "permanent": true
     }
   ],
   "headers": [

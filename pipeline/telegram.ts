@@ -58,7 +58,7 @@ export async function sendReviews(events: Map<string, ProtestEvent>, site: strin
   if (!reviewerConfigured()) return 0;
   let sent = 0;
   for (const e of events.values()) {
-    if (e.stage !== 'live' || e.review !== 'pending') continue;
+    if (e.stage !== 'live' || e.review !== 'pending' || e.mergedInto) continue;
     const sig = e.reviewReasons.join(',');
     if (e.telegram?.sig === sig) continue;
     const country = byIso.get(e.place.country)?.name ?? e.place.country;

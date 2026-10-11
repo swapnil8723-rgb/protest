@@ -121,6 +121,7 @@ export interface ProtestEvent {
   reviewReasons: string[];
   approvedFor?: string[]; // reasons a human already cleared
   notReal?: string; // summary step judged the sources not to describe a real protest
+  mergedInto?: string; // id of the event this duplicate was folded into (scripts/merge-events.ts); its URL redirects there
   isOngoing: boolean;
   published: boolean;
 

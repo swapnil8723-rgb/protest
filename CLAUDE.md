@@ -31,7 +31,7 @@ House interpretation of rule 4: organisations, parties, elected officials and po
 - Vibe/status/confidence/review numbers live in `pipeline/config.ts` `RULES` and are explained on `/how-we-know` — change both together.
 - Prompts (`pipeline/prompts.ts`) encode the tone rules; never loosen them to get more events published.
 - Never publish a number without a source (`summarize.ts` drops it) and never show single-publisher events.
-- A slug never changes once set (URLs are forever). Wrapped-up events stay as archive pages.
+- A slug never changes once set (URLs are forever). Wrapped-up events stay as archive pages. Duplicates: `node scripts/merge-events.ts <keepId> <dropId>` (moves articles, hides the duplicate, adds 301s in vercel.json); then run the pipeline to re-summarise.
 - Maps: `scripts/build-map.ts` erases India's area from every other country (Natural Earth IND view overlaps). Re-run the PoK/Aksai Chin/Tawang point checks after touching it.
 - Mobile first (most readers are on phones): every tap target ≥ 44 px, no sideways scroll at 320–414 px in any language (German/French words are long). Check with `npm run preview` + `PORT=4321 npm run audit:mobile` before shipping UI changes.
 - Motion: only the three animations in DESIGN.md §7, all off under `prefers-reduced-motion`.

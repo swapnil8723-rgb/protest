@@ -182,6 +182,16 @@ test('score: serious mode, one-day wrap, quiet wrap, review gates', () => {
   assert.equal(withReviewer.published, false);
 });
 
+test('a merged duplicate stays hidden and is never matched again', () => {
+  const now = Date.parse('2026-10-05T12:00:00Z');
+  const keep = liveEvent({ kind: 'multi-day', lastReportAt: '2026-10-05T10:00:00Z' });
+  const dup = liveEvent({ kind: 'multi-day', lastReportAt: '2026-10-05T10:00:00Z', published: true, mergedInto: keep.id });
+  score(new Map([keep, dup].map((e) => [e.id, e])), new Map(), { now, reviewer: false });
+  assert.equal(keep.published, true);
+  assert.equal(dup.published, false); // merged pages come down; vercel.json redirects them
+  assert.equal(findSimilar([dup], dup.title, place, '2026-10-04'), undefined);
+});
+
 test('confidence formula', () => {
   const e = liveEvent({});
   e.publishers = 2;

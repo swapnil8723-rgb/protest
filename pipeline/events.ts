@@ -69,7 +69,7 @@ export function findSimilar(events: Iterable<ProtestEvent>, label: string, place
   let bestScore = 0;
   for (const e of events) {
     if (e.place.country !== place.country || e.place.citySlug !== place.citySlug) continue;
-    if (e.review === 'rejected') continue;
+    if (e.review === 'rejected' || e.mergedInto) continue;
     const s = Math.max(titleSimilarity(label, e.title), titleSimilarity(label, e.seoTitle || ''));
     // A near-identical label is the same campaign even across a few weeks (a rally
     // announced for later in the month); a loosely similar one must be close in time.

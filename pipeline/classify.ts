@@ -15,7 +15,7 @@ const causeSet = new Set<string>(CAUSES);
 
 export function knownEvents(events: Map<string, ProtestEvent>): KnownEvent[] {
   return [...events.values()]
-    .filter((e) => e.review !== 'rejected' && !e.notReal && hoursSince(e.lastReportAt) < 10 * 24)
+    .filter((e) => e.review !== 'rejected' && !e.notReal && !e.mergedInto && hoursSince(e.lastReportAt) < 10 * 24)
     .sort((a, b) => (a.lastReportAt < b.lastReportAt ? 1 : -1))
     .slice(0, 150)
     .map((e) => ({ id: e.id, title: e.title, city: e.place.city, country: e.place.country, startedOn: e.startedOn, status: e.status }));
@@ -100,6 +100,7 @@ export async function classify(
       const date = cls.date || a.publishedAt?.slice(0, 10) || today;
       const label = cls.storyLabel || 'Protest';
       let ev = cls.matchEventId ? events.get(cls.matchEventId) : undefined;
+      if (ev?.mergedInto) ev = events.get(ev.mergedInto);
       // One page per city: a matching campaign in another city gets its own event.
       if (ev && (ev.place.country !== place.country || ev.place.citySlug !== place.citySlug)) ev = undefined;
       if (!ev) ev = fresh.get(`${cls.storyKey}|${place.citySlug}`);

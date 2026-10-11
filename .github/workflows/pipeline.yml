@@ -9,9 +9,6 @@ name: pipeline
 on:
   schedule:
     - cron: '17 */3 * * *'
-    # Protest day boost, 10 Oct 2026 (Cockroach Janta Party, Delhi): hourly 06:17 IST to 01:17 IST (~20 extra runs, ~180 min).
-    # REMOVE after 11 Oct — cron has no year, so this would fire again on 10 Oct 2027.
-    - cron: '47 0-19 10 10 *'
   workflow_dispatch:
 
 concurrency:

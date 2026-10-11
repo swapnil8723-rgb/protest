@@ -39,7 +39,7 @@ export function score(events: Map<string, ProtestEvent>, articles: Map<string, A
   for (const a of articles.values()) if (a.eventId) (byEvent.get(a.eventId) ?? byEvent.set(a.eventId, []).get(a.eventId)!).push(a);
 
   for (const e of events.values()) {
-    if (e.stage !== 'live') continue;
+    if (e.stage !== 'live' || e.mergedInto) continue;
     const arts = (byEvent.get(e.id) ?? []).filter((a) => a.fetch === 'ok');
     const times = arts.map((a) => Date.parse(reportedAt(a))).filter(Number.isFinite);
     const within = (from: number, to: number) => times.filter((t) => now - t >= from * 3.6e6 && now - t < to * 3.6e6).length;
@@ -75,7 +75,7 @@ export function score(events: Map<string, ProtestEvent>, articles: Map<string, A
   }
 
   // Vibes need the whole live set (Peak loud = top 10%).
-  const live = [...events.values()].filter((e) => e.stage === 'live' && e.isOngoing && e.review !== 'rejected');
+  const live = [...events.values()].filter((e) => e.stage === 'live' && e.isOngoing && e.review !== 'rejected' && !e.mergedInto);
   const ranked = [...live].sort((a, b) => b.reports48h - a.reports48h);
   const peakN = Math.max(1, Math.round(ranked.length * RULES.peakTopShare));
   const peak = new Set(ranked.slice(0, peakN).filter((e) => e.reports48h >= RULES.minPeakVolume).map((e) => e.id));
@@ -83,6 +83,10 @@ export function score(events: Map<string, ProtestEvent>, articles: Map<string, A
 
   for (const e of events.values()) {
     if (e.stage !== 'live') continue;
+    if (e.mergedInto) {
+      e.published = false; // folded into another event; its URL redirects there (vercel.json)
+      continue;
+    }
     if (e.status === 'scheduled') e.vibe = 'heating-up';
     else if (!e.isOngoing) e.vibe = 'wrapped-up';
     else if (e.severity === 'serious') e.vibe = 'tense';

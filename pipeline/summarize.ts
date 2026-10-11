@@ -60,7 +60,7 @@ export async function summarize(
     (byEvent.get(a.eventId) ?? byEvent.set(a.eventId, []).get(a.eventId)!).push(a);
   }
   const due = [...events.values()]
-    .filter((e) => e.review !== 'rejected')
+    .filter((e) => e.review !== 'rejected' && !e.mergedInto)
     .map((e) => ({ e, arts: byEvent.get(e.id) ?? [] }))
     .filter(({ e, arts }) => independentGroups(arts).length >= RULES.minPublishers && e.summaryOf !== sourceHash(arts))
     // live events first (readers are waiting), then the best-sourced candidates
