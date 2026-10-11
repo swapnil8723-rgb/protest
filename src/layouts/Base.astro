@@ -4,6 +4,7 @@ import { BRAND, SITE } from '../site';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { lastRunAt } from '../lib/data';
+import Analytics from '@vercel/analytics/astro';
 import { clientStrings, href, LANG_INFO, LANGS, langOf, useT, type Lang } from '../i18n';
 
 interface Props {
@@ -79,5 +80,6 @@ const img = image.startsWith('http') ? image : SITE + image;
     <script>
       import '../scripts/live.ts';
     </script>
+    <Analytics />
   </body>
 </html>
