@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-11",
-  "count": 50
+  "count": 74
  },
  "runs": [
   {
@@ -1138,8 +1138,35 @@
     "translate: 1 events"
    ],
    "translated": 1
+  },
+  {
+   "at": "2026-10-11T10:10:36.950Z",
+   "ms": 240606,
+   "discovered": 94,
+   "fetched": 92,
+   "classified": 88,
+   "protests": 70,
+   "summarized": 9,
+   "published": 46,
+   "live": 10,
+   "aiCalls": 24,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 16 files, 68 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 111 protest-word items",
+    "fetch: 92 ok, 2 failed",
+    "classify: new candidate e4235cb0f46 \"Farmers protest for irrigation water release in Jangaon\" (Jangaon)",
+    "classify: new candidate e2269000ab4 \"Osmania junior doctors announce protest over working conditions\" (Hyderabad)",
+    "classify: new candidate e2d89b1e0c4 \"Animal rights activists hold vigil outside food manufacturing plant\" (Hereford)",
+    "classify: new candidate e25472718d8 \"Congress leaders to meet CJI over protest curbs\" (Bengaluru)",
+    "classify: new candidate eac92cb1da9 \"Vizag residents and farmers protest Google data center\" (Visakhapatnam)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261011061500",
- "lastRunAt": "2026-10-11T06:14:00.406Z"
+ "gdeltCursor": "20261011101500",
+ "lastRunAt": "2026-10-11T10:10:36.950Z"
 }
