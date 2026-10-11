@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-11",
-  "count": 90
+  "count": 111
  },
  "runs": [
   {
@@ -1191,8 +1191,33 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-11T16:16:24.628Z",
+   "ms": 301987,
+   "discovered": 67,
+   "fetched": 66,
+   "classified": 57,
+   "protests": 26,
+   "summarized": 9,
+   "published": 48,
+   "live": 11,
+   "aiCalls": 21,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 47 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 67 protest-word items",
+    "fetch: 66 ok, 1 failed",
+    "classify: new candidate e75321f6627 \"Demonstration in Hyderabad against Delhi police crackdown\" (Hyderabad)",
+    "classify: new candidate e9209d1ccb8 \"DYFI and SFI protest in Coimbatore demanding CEC resignation\" (Coimbatore)",
+    "classify: new candidate e1a22866cb6 \"Students hold candle march in Nashik against CEC\" (Nashik)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261011130000",
- "lastRunAt": "2026-10-11T12:57:07.936Z"
+ "gdeltCursor": "20261011161500",
+ "lastRunAt": "2026-10-11T16:16:24.628Z"
 }
