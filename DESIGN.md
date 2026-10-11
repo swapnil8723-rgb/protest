@@ -17,7 +17,8 @@ loud colour, thick outlines, chunky stickers, hard shadows — and underneath it
 3. **Premium = restraint in the details.** Loud palette, but one accent per component, generous whitespace,
    tight type, perfectly aligned 4px grid, no gradients on text, no glassmorphism, no emoji in UI chrome.
 4. **Serious Mode is a hard switch, not a theme.** Deaths, serious injuries or mass arrests → the component
-   drops colour, tilt, stickers, motion and jokes. Grey on white. Same layout, quieter voice.
+   drops colour, tilt, stickers, motion and jokes. Grey on white. Same layout, quieter voice. One exception (owner
+   decision, 11 Oct 2026): a 2px `--serious-alert` red border and a red SERIOUS label, so serious events stand out.
 5. **Colour never carries meaning alone.** Every status has its word; every number has its unit and its source.
 
 ## 3. Colour
@@ -41,7 +42,8 @@ toggle (`data-theme="dark"`, remembered in localStorage).
 | `--yellow` | `#FFD60A` | `#FFD60A` | The Tea card, stickers |
 | `--serious-bg` | `#F3F4F6` | `#F3F4F6` | Serious Mode surface |
 | `--serious-ink` | `#1F2937` | `#1F2937` | Serious Mode text |
-| `--serious-line` | `#9CA3AF` | `#9CA3AF` | Serious Mode borders |
+| `--serious-line` | `#9CA3AF` | `#9CA3AF` | Serious Mode inner lines |
+| `--serious-alert` | `#B91C1C` | `#B91C1C` | Serious Mode card border + SERIOUS label (5.9:1 on `--serious-bg`) |
 
 **Rules**
 - Neon fills always carry **black** text (`#0B0B12`). Contrast: black on pink 6.2:1, lime 17.7:1, cyan 13.6:1, yellow 14.9:1; white on violet 5.7:1.
@@ -57,7 +59,7 @@ toggle (`data-theme="dark"`, remembered in localStorage).
 | Peak loud | pink + volume meter maxed | PEAK LOUD | top 10% of live events by report volume |
 | Cooling down | cyan | COOLING DOWN | report volume falling for 24h |
 | Wrapped up | lime | WRAPPED UP | no reports 48h, or ended / called off / demands met |
-| Tense | — Serious Mode | SERIOUS | deaths, serious injuries or mass arrests reported |
+| Tense | red outline (Serious Mode) | SERIOUS (+ " · WRAPPED UP" once over) | deaths, serious injuries or mass arrests reported |
 
 ## 5. Type
 | Role | Family | Settings |

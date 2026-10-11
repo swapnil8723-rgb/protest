@@ -31,6 +31,7 @@
   --serious-bg: #f3f4f6;
   --serious-ink: #1f2937;
   --serious-line: #9ca3af;
+  --serious-alert: #b91c1c; /* owner decision 11 Oct 2026: red border + red SERIOUS label */
   --ocean: #fff1d6;
   --land: #f4e2bf;
   --shadow-ink: #0b0b12;
@@ -68,6 +69,7 @@
   --color-serious-bg: var(--serious-bg);
   --color-serious-ink: var(--serious-ink);
   --color-serious-line: var(--serious-line);
+  --color-serious-alert: var(--serious-alert);
   --font-display: 'Bricolage Grotesque', ui-sans-serif, system-ui, sans-serif;
   --font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -150,12 +152,12 @@
   .v-reader { --vibe: var(--reader); }
   .card.reader, :root[data-theme='dark'] .card.reader { border: 3px dashed var(--reader); }
 
-  /* Serious Mode: no colour, no tilt, no motion, no jokes */
-  .card.serious, .serious-surface {
+  /* Serious Mode: grey surface, one red signal (border + label), no tilt, no motion, no jokes */
+  .card.serious, .serious-surface, :root[data-theme='dark'] .card.serious {
     --vibe: transparent;
     background: var(--serious-bg);
     color: var(--serious-ink);
-    border: 1.5px solid var(--serious-line);
+    border: 2px solid var(--serious-alert);
     box-shadow: none;
     transform: none !important;
   }
@@ -177,8 +179,8 @@
   .s-heating-up, .s-peak-loud { background: var(--pink); }
   .s-cooling-down { background: var(--cyan); }
   .s-wrapped-up { background: var(--lime); }
-  .s-tense { background: var(--serious-bg); color: var(--serious-ink); border: 1.5px solid var(--serious-line); }
-  .s-tense .dot { background: #6b7280; }
+  .s-tense { background: var(--serious-bg); color: var(--serious-alert); border: 1.5px solid var(--serious-alert); }
+  .s-tense .dot { background: var(--serious-alert); }
   .s-soon { background: var(--yellow); }
   .s-reader { background: var(--reader); border-style: dashed; }
 

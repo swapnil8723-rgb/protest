@@ -16,6 +16,8 @@ The humour lives in the interface and the brand, never in how protesters, victim
 
 Owner decision (6 Oct 2026) on rule 7: reader reports from `/add` are the one exception to "single-source stays hidden". They show only after the automatic check (`pipeline/reader.ts`), always labelled "Reader report · not verified yet" (orange dashed card), noindex, no confidence score, no share card, never with claims of harm (those are held for newsrooms), and expire if newsrooms never confirm them.
 
+Owner decision (11 Oct 2026) on rule 2: Serious Mode keeps its grey surface but gets a red border and a red SERIOUS label (`--serious-alert`); no other colour, stickers, tilt, motion or jokes come back.
+
 House interpretation of rule 4: organisations, parties, elected officials and police/government spokespeople may be named; ordinary participants, students, the injured, detained or dead are never named.
 
 ## Architecture
