@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-11",
-  "count": 74
+  "count": 90
  },
  "runs": [
   {
@@ -1165,8 +1165,34 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-11T12:57:07.936Z",
+   "ms": 159811,
+   "discovered": 55,
+   "fetched": 54,
+   "classified": 50,
+   "protests": 23,
+   "summarized": 5,
+   "published": 46,
+   "live": 9,
+   "aiCalls": 16,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 42 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 95 protest-word items",
+    "fetch: 54 ok, 1 failed",
+    "classify: new candidate eec97152351 \"Pro-Palestinian demonstrators rally across US cities calling for end to Gaza war\" (Washington)",
+    "classify: new candidate e8175b69d24 \"SRFTI students continue class boycott for campus security\" (Kolkata)",
+    "classify: new candidate e70342ec217 \"Manipur groups call shutdown against state merger with India\" (Guwahati)",
+    "summary: e07b54c1b91 only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261011101500",
- "lastRunAt": "2026-10-11T10:10:36.950Z"
+ "gdeltCursor": "20261011130000",
+ "lastRunAt": "2026-10-11T12:57:07.936Z"
 }
