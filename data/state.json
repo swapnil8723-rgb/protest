@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-12",
-  "count": 51
+  "count": 76
  },
  "runs": [
   {
@@ -1319,8 +1319,37 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-12T10:57:49.377Z",
+   "ms": 321567,
+   "discovered": 87,
+   "fetched": 85,
+   "classified": 75,
+   "protests": 30,
+   "summarized": 10,
+   "published": 53,
+   "live": 12,
+   "aiCalls": 25,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 61 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 84 protest-word items",
+    "fetch: 85 ok, 2 failed",
+    "classify: new candidate e7728a49e38 \"Delhi High Court lawyers wear black ribbons in protest\" (Delhi)",
+    "classify: new candidate e62a36f2866 \"SFI, DYFI and May 17 Movement protest in Chennai\" (Chennai)",
+    "classify: new candidate eb1ba8d3476 \"Youth Congress workers show black flags to minister in Shivamogga\" (Shivamogga)",
+    "classify: new candidate ef4d07e6258 \"AAP supporters protest inside gurdwara premises\" (Delhi)",
+    "classify: new candidate ecfcd318356 \"Congress workers protest in Hubballi demanding CEC resignation\" (Hubballi)",
+    "classify: new candidate e267b8521bc \"Trinamool Congress announces Kolkata rally demanding CEC resignation\" (Kolkata)",
+    "classify: new candidate e4db9a97350 \"Residents and environmentalists protest commercial construction in Karachi\" (Karachi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 8 events"
+   ],
+   "translated": 8
   }
  ],
- "gdeltCursor": "20261012074500",
- "lastRunAt": "2026-10-12T07:44:01.630Z"
+ "gdeltCursor": "20261012110000",
+ "lastRunAt": "2026-10-12T10:57:49.377Z"
 }
