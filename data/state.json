@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-12",
-  "count": 18
+  "count": 32
  },
  "runs": [
   {
@@ -1270,8 +1270,34 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-12T04:27:46.468Z",
+   "ms": 140947,
+   "discovered": 46,
+   "fetched": 45,
+   "classified": 41,
+   "protests": 22,
+   "summarized": 5,
+   "published": 50,
+   "live": 10,
+   "aiCalls": 14,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261012041500 http://data.gdeltproject.org/gdeltv2/20261012041500.export.CSV.zip → 404",
+    "gdelt: 20261012043000 http://data.gdeltproject.org/gdeltv2/20261012043000.export.CSV.zip → 404",
+    "gdelt: 15 files, 28 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 74 protest-word items",
+    "fetch: 45 ok, 1 failed",
+    "classify: new candidate ed45fe7af13 \"RTI activists hold annual procession disrupted by confrontation\" (Beawar)",
+    "classify: new candidate eb12a99ebe0 \"Congress leaders head to Delhi to protest against CEC over SIR\" (Delhi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261012004500",
- "lastRunAt": "2026-10-12T00:36:05.527Z"
+ "gdeltCursor": "20261012043000",
+ "lastRunAt": "2026-10-12T04:27:46.468Z"
 }
