@@ -1,7 +1,7 @@
 {
  "aiCalls": {
-  "day": "2026-10-11",
-  "count": 126
+  "day": "2026-10-12",
+  "count": 18
  },
  "runs": [
   {
@@ -1246,8 +1246,32 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-12T00:36:05.527Z",
+   "ms": 190288,
+   "discovered": 45,
+   "fetched": 44,
+   "classified": 37,
+   "protests": 22,
+   "summarized": 7,
+   "published": 50,
+   "live": 10,
+   "aiCalls": 18,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 21 files, 40 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 78 protest-word items",
+    "fetch: 44 ok, 1 failed",
+    "classify: new candidate ef285d8ba36 \"PTI protest march in Khyber Pakhtunkhwa\" (Peshawar)",
+    "classify: new candidate e09ae8a7be4 \"Court orders release of CJP activists detained in Panaji\" (Panjim)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261011193000",
- "lastRunAt": "2026-10-11T19:28:42.277Z"
+ "gdeltCursor": "20261012004500",
+ "lastRunAt": "2026-10-12T00:36:05.527Z"
 }

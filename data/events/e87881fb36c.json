@@ -17,76 +17,87 @@
  "causes": [
   "elections",
   "governance",
-  "anti-government"
+  "corruption"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-11",
  "status": "ended",
  "vibe": "wrapped-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters and opposition leaders are demonstrating against the detention of demonstrators and the Special Intensive Revision of electoral rolls.",
-  "want": "Demonstrators demand the resignation of Chief Election Commissioner Gyanesh Kumar and the cancellation of the Special Intensive Revision.",
-  "changed": "Oct 11: Political leaders Aaditya Thackeray and Amit Thackeray joined protests outside Shivaji Park and the police station following widespread detentions."
+  "why": "Demonstrators protested against alleged irregularities in the special intensive revision of electoral rolls and police detentions.",
+  "want": "Protesters demanded the resignation of Chief Election Commissioner Gyanesh Kumar and the cancellation of the special intensive revision.",
+  "changed": "Oct 11: Police detained around 300 protesters in Mumbai near Shivaji Park, who were later released."
  },
- "summary": "Political tensions and demonstrations unfolded in Mumbai as opposition leaders and citizens gathered near Shivaji Park to support the Cockroach Janta Party's campaign demanding the resignation of Chief Election Commissioner Gyanesh Kumar and the withdrawal of the Special Intensive Revision of electoral rolls. With no prior police permission granted for the gathering, Mumbai Police heavily deployed personnel and detained numerous protesters, social activists, and political workers. The situation escalated outside Shivaji Park and near Shiv Sena Bhavan as party functionaries confronted police over the actions. Prominent political figures, including Shiv Sena (UBT) leader Aaditya Thackeray and Maharashtra Navnirman Sena leader Amit Thackeray, arrived at the scene to protest the detentions, with Aaditya Thackeray warning authorities of potential state-wide strikes if party workers continued to face manhandling.",
+ "summary": "On October 11, 2026, demonstrations took place in Mumbai near Shivaji Park supporting the Cockroach Janta Party's campaign demanding the resignation of Chief Election Commissioner Gyanesh Kumar and the cancellation of the special intensive revision of electoral rolls. The Mumbai Police prevented protesters from assembling and detained dozens of individuals, including social activist Anjali Damania. Political leaders from Shiv Sena (UBT) and the Maharashtra Navnirman Sena, including Aaditya Thackeray and Amit Thackeray, joined the demonstrations and staged protests outside the police station following the detentions. Aaditya Thackeray warned of a statewide bandh if workers were manhandled. According to reports, around 300 detained protesters were subsequently released while the registration of first information reports was underway.",
  "organizers": [
   "Cockroach Janta Party",
-  "Shiv Sena (UBT)",
+  "Shiv Sena (Uddhav Balasaheb Thackeray)",
   "Maharashtra Navnirman Sena"
  ],
  "demands": [
   "Resignation of Chief Election Commissioner Gyanesh Kumar",
   "Cancellation of the Special Intensive Revision of electoral rolls",
-  "Release of all detained protesters and political workers"
+  "Release of detained demonstrators",
+  "Protection of voting rights"
  ],
- "response": "According to the sources, Mumbai Police denied permission for the gathering, deployed heavy forces around Shivaji Park, and detained numerous demonstrators and political workers. Police stated that legal action would be taken against those protesting without permission.",
- "numbers": {},
+ "response": "The Mumbai Police prevented assemblies without permission, deployed heavily around Shivaji Park, and detained protesters and political workers. The zonal Deputy Commissioner of Police stated that around 300 detained protesters were released while FIR registration was underway.",
+ "numbers": {
+  "arrests": {
+   "value": 300,
+   "text": "Around 300 protesters detained during a demonstration in support of the Cockroach Janta Party CJP in Mumbai on Sunday…",
+   "sources": [
+    5
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-10-11",
-   "text": "Mumbai Police detained several demonstrators near Shivaji Park who gathered to protest against CEC Gyanesh Kumar.",
-   "sources": [
-    1,
-    3,
-    4
-   ]
-  },
-  {
-   "at": "2026-10-11",
-   "text": "Shiv Sena (UBT) leader Aaditya Thackeray and MNS leader Amit Thackeray arrived at the protest site and police station to demand the release of detainees.",
+   "text": "Mumbai Police detained several demonstrators near Shivaji Park and outside Shiv Sena Bhavan to prevent unauthorized gatherings.",
    "sources": [
     1,
     2,
-    4
+    3
    ]
   },
   {
    "at": "2026-10-11",
-   "text": "Aaditya Thackeray warned of a Maharashtra bandh if party workers were manhandled by police during the demonstrations.",
+   "text": "Shiv Sena (UBT) and MNS leaders Aaditya Thackeray and Amit Thackeray joined supporters at Shivaji Park to protest against the police actions.",
    "sources": [
-    1
+    2,
+    4,
+    5
+   ]
+  },
+  {
+   "at": "2026-10-11",
+   "text": "Authorities announced that approximately 300 detained protesters in Mumbai were released as legal processing continued.",
+   "sources": [
+    5
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://scroll.in/latest/1096322/cec-protests-in-maharashtra-and-goa-demonstrators-detained-barred-from-assembling",
+   "publisher": "scroll.in",
+   "title": "CEC protests: In Maharashtra and Goa, demonstrators detained, barred from assembling",
+   "publishedAt": "2026-10-11T15:01:00.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://www.freepressjournal.in/mumbai/mumbai-cjp-protest-shiv-sena-ubt-leader-aaditya-thackeray-warns-of-maharashtra-bandh-over-detentions-amit-thackeray-confronts-police",
    "publisher": "freepressjournal.in",
    "title": "Mumbai CJP Protest: Shiv Sena (UBT) Leader Aaditya Thackeray Warns Of Maharashtra Bandh Over Detentions; Amit Thackeray Confronts Police",
    "publishedAt": "2026-10-11T15:34:44.000Z"
-  },
-  {
-   "n": 2,
-   "url": "https://economictimes.indiatimes.com/news/politics-and-nation/bjp-is-scared-of-indian-citizens-aaditya-thackeray-amit-thackeray-protest-against-detention-of-protesters-in-mumbai/articleshow/134872988.cms",
-   "publisher": "economictimes.indiatimes.com",
-   "title": "\"BJP is scared of Indian citizens\": Aaditya Thackeray, Amit Thackeray protest against detention of protesters in Mumbai",
-   "publishedAt": "2026-10-11T15:40:00.000Z"
   },
   {
    "n": 3,
@@ -101,146 +112,178 @@
    "publisher": "rediff.com",
    "title": "Thackeray cousins throng Shivaji Park to back CJP stir against CEC",
    "publishedAt": "2026-10-11T18:11:30.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.mid-day.com/mumbai/mumbai-news/article/watch-election-commission-row-300-detained-protesters-released-in-mumbai-aaditya-amit-thackeray-join-stir-23654504",
+   "publisher": "mid-day.com",
+   "title": "WATCH | Election Commission row: 300 detained protesters released in Mumbai; Aaditya, Amit Thackeray join stir",
+   "publishedAt": "2026-10-11T21:25:00.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://timesofindia.indiatimes.com/india/protests-against-sir-cec-intensify-several-detained-in-mumbai-pune/articleshow/134879721.cms",
+   "publisher": "timesofindia.indiatimes.com",
+   "title": "Protests against SIR-CEC intensify, several detained in Mumbai, Pune",
+   "publishedAt": "2026-10-11T22:53:00.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.91,
- "publishers": 4,
- "reports24h": 5,
- "reportsPrev24h": 0,
- "reports48h": 5,
+ "confidence": 0.95,
+ "publishers": 6,
+ "reports24h": 7,
+ "reportsPrev24h": 1,
+ "reports48h": 8,
  "firstSeenAt": "2026-10-11T01:05:56.749Z",
- "lastReportAt": "2026-10-11T18:11:30.000Z",
- "lastCheckedAt": "2026-10-11T19:30:23.757Z",
- "updatedAt": "2026-10-11T19:30:16.598Z",
+ "lastReportAt": "2026-10-11T22:53:00.000Z",
+ "lastCheckedAt": "2026-10-12T00:38:09.705Z",
+ "updatedAt": "2026-10-12T00:38:02.293Z",
  "responseSources": [
   1,
+  2,
   3,
-  4
+  4,
+  5
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-11T19:30:16.598Z",
- "summaryOf": "d38af792b794",
+ "summarizedAt": "2026-10-12T00:38:02.293Z",
+ "summaryOf": "fc72ab649150",
  "publishedAt": "2026-10-11T19:30:23.757Z",
  "i18n": {
-  "of": "42fd4dbd8d51bbfd",
-  "at": "2026-10-11T19:31:04.453Z",
+  "of": "5c987404d2057b13",
+  "at": "2026-10-12T00:39:07.863Z",
   "tries": 1,
   "hi": {
-   "title": "हिरासत और सीईसी के इस्तीफे की मांग को लेकर मुंबई में विरोध प्रदर्शन",
-   "seoTitle": "सीईसी ज्ञानेश कुमार के खिलाफ मुंबई में प्रदर्शन",
+   "title": "मुंबई में हिरासत और मुख्य चुनाव आयुक्त के इस्तीफे की मांग को लेकर प्रदर्शन",
+   "seoTitle": "मुख्य चुनाव आयुक्त ज्ञानेश कुमार के खिलाफ मुंबई प्रदर्शन",
    "tea": {
-    "why": "प्रदर्शनकारी और विपक्षी नेता प्रदर्शनकारियों की हिरासत और मतदाता सूचियों के विशेष गहन पुनरीक्षण के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शनकारियों ने मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे और विशेष गहन पुनरीक्षण को रद्द करने की मांग की है।",
-    "changed": "11 अक्टूबर: व्यापक हिरासत के बाद राजनीतिक नेता आदित्य ठाकरे और अमित ठाकरे शिवाजी पार्क और पुलिस स्टेशन के बाहर विरोध प्रदर्शन में शामिल हुए।"
+    "why": "प्रदर्शनकारियों ने मतदाता सूचियों के विशेष गहन पुनरीक्षण में कथित अनियमितताओं और पुलिस द्वारा हिरासत में लिए जाने के खिलाफ प्रदर्शन किया।",
+    "want": "प्रदर्शनकारियों ने मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे और विशेष गहन पुनरीक्षण को रद्द करने की मांग की।",
+    "changed": "11 अक्टूबर: मुंबई में शिवाजी पार्क के पास पुलिस ने करीब 300 प्रदर्शनकारियों को हिरासत में लिया, जिन्हें बाद में रिहा कर दिया गया।"
    },
-   "summary": "मुंबई में राजनीतिक तनाव और प्रदर्शन उस समय देखने को मिले जब विपक्षी नेताओं और नागरिकों ने मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे और मतदाता सूचियों के विशेष गहन पुनरीक्षण को वापस लेने की मांग वाले कॉकरोच जनता पार्टी के अभियान का समर्थन करने के लिए शिवाजी पार्क के पास इकट्ठा हुए। सभा के लिए पहले से कोई पुलिस अनुमति न मिलने के कारण मुंबई पुलिस ने भारी बल तैनात किया और कई प्रदर्शनकारियों, सामाजिक कार्यकर्ताओं तथा राजनीतिक कार्यकर्ताओं को हिरासत में लिया। स्थिति तब और बढ़ गई जब शिवाजी पार्क के बाहर और शिव सेना भवन के पास पार्टी पदाधिकारियों ने पुलिस की कार्रवाई का विरोध किया। शिव सेना (यूबीटी) के नेता आदित्य ठाकरे और महाराष्ट्र नवसेना निर्माण सेना के नेता अमित ठाकरे सहित प्रमुख राजनीतिक हस्तियां हिरासत के विरोध में मौके पर पहुंचीं, और आदित्य ठाकरे ने अधिकारियों को चेतावनी दी कि यदि पार्टी कार्यकर्ताओं के साथ दुर्व्यवहार जारी रहा तो राज्यव्यापी हड़ताल हो सकती है।",
+   "summary": "11 अक्टूबर 2026 को कॉकरोच जनता पार्टी के मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे और मतदाता सूचियों के विशेष गहन पुनरीक्षण को रद्द करने की मांग वाले अभियान के समर्थन में मुंबई में शिवाजी पार्क के पास प्रदर्शन हुए। मुंबई पुलिस ने प्रदर्शनकारियों को एकत्र होने से रोका और सामाजिक कार्यकर्ता अंजलि दमानिया सहित दर्जनों लोगों को हिरासत में लिया। शिवसेना (उद्धव बालासाहेब ठाकरे) और महाराष्ट्र नवनिर्माण सेना के राजनीतिक नेताओं, जिनमें आदित्य ठाकरे और अमित ठाकरे शामिल हैं, ने प्रदर्शनों में हिस्सा लिया और हिरासत में लिए जाने के बाद पुलिस स्टेशन के बाहर विरोध प्रदर्शन किया। आदित्य ठाकरे ने चेतावनी दी कि यदि कार्यकर्ताओं के साथ दुर्व्यवहार किया गया तो राज्यव्यापी बंद बुलाया जाएगा। रिपोर्ट के अनुसार, प्रथम सूचना रिपोर्ट दर्ज किए जाने की प्रक्रिया के दौरान हिरासत में लिए गए लगभग 300 प्रदर्शनकारियों को बाद में रिहा कर दिया गया।",
    "demands": [
     "मुख्य चुनाव आयुक्त ज्ञानेश कुमार का इस्तीफा",
-    "मतदाता सूचियों के विशेष गहन पुनरीक्षण को रद्द करना",
-    "सभी हिरासत में लिए गए प्रदर्शनकारियों और राजनीतिक कार्यकर्ताओं की रिहाई"
+    "मतदाता सूचियों का विशेष गहन पुनरीक्षण रद्द करना",
+    "हिरासत में लिए गए प्रदर्शनकारियों की रिहाई",
+    "voting rights की सुरक्षा"
    ],
-   "response": "सूत्रों के अनुसार, मुंबई पुलिस ने सभा की अनुमति देने से इनकार कर दिया, शिवाजी पार्क के आसपास भारी बल तैनात किया और कई प्रदर्शनकारियों तथा राजनीतिक कार्यकर्ताओं को हिरासत में लिया। पुलिस ने कहा कि बिना अनुमति के विरोध प्रदर्शन करने वालों के खिलाफ कानूनी कार्रवाई की जाएगी।",
+   "response": "मुंबई पुलिस ने बिना अनुमति के सभाओं को रोका, शिवाजी पार्क के आसपास भारी सुरक्षा बल तैनात किया और प्रदर्शनकारियों तथा राजनीतिक कार्यकर्ताओं को हिरासत में लिया। क्षेत्रीय पुलिस उपायुक्त ने कहा कि प्रथम सूचना रिपोर्ट दर्ज होने की प्रक्रिया के दौरान हिरासत में लिए गए लगभग 300 प्रदर्शनकारियों को रिहा कर दिया गया।",
    "updates": [
-    "मुंबई पुलिस ने शिवाजी पार्क के पास कई प्रदर्शनकारियों को हिरासत में लिया जो सीईसी ज्ञानेश कुमार के खिलाफ विरोध प्रदर्शन करने के लिए इकट्ठा हुए थे।",
-    "शिव सेना (यूबीटी) के नेता आदित्य ठाकरे और मनसे नेता अमित ठाकरे बंदियों की रिहाई की मांग के लिए विरोध स्थल और पुलिस स्टेशन पहुंचे।",
-    "आदित्य ठाकरे ने चेतावनी दी कि यदि प्रदर्शन के दौरान पुलिस द्वारा पार्टी कार्यकर्ताओं के साथ दुर्व्यवहार किया गया तो महाराष्ट्र बंद किया जाएगा।"
+    "मुंबई पुलिस ने अनधिकृत सभाओं को रोकने के लिए शिवाजी पार्क के पास और शिवसेना भवन के बाहर कई प्रदर्शनकारियों को हिरासत में लिया।",
+    "शिवसेना (उद्धव बालासाहेब ठाकरे) और मनसे नेताओं आदित्य ठाकरे और अमित ठाकरे ने पुलिस कार्रवाई के विरोध में शिवाजी पार्क में समर्थकों के साथ भाग लिया।",
+    "अधिकारियों ने घोषणा की कि मुंबई में हिरासत में लिए गए लगभग 300 प्रदर्शनकारियों को कानूनी प्रक्रिया जारी रहने के दौरान रिहा कर दिया गया।"
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "arrests": "रविवार को मुंबई में कॉकरोच जनता पार्टी सीजेपी के समर्थन में एक प्रदर्शन के दौरान करीब 300 प्रदर्शनकारियों को हिरासत में लिया गया..."
+   }
   },
   "mr": {
-   "title": "तात्कालिक स्थानबद्धता आणि मुख्य निवडणूक आयुक्तांच्या राजीनाम्याच्या मागणीसाठी मुंबईत निदर्शने",
-   "seoTitle": "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्याविरोधात मुंबईत आंदोलन",
+   "title": "मुंबईत कोठडीत ठेवणे आणि मुख्य निवडणूक आयुक्तांच्या राजीनाम्याच्या मागणीसाठी आंदोलने",
+   "seoTitle": "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्याविरोधात मुंबई आंदोलन",
    "tea": {
-    "why": "निदर्शक आणि विरोधी पक्षनेते आंदोलकांच्या स्थानबद्धतेच्या आणि मतदारयाद्यांच्या विशेष कसून पुनरीक्षणाच्या विरोधात निदर्शने करत आहेत.",
-    "want": "निदर्शक मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची आणि विशेष कसून पुनर्रचना रद्द करण्याची मागणी करत आहेत.",
-    "changed": "११ ऑक्टोबर: मोठ्या प्रमाणावर स्थानबद्धता झाल्यानंतर राजकीय नेते आदित्य ठाकरे आणि अमित ठाकरे शिवाजी पार्क आणि पोलीस ठाण्याबाहेर आंदोलनात सहभागी झाले."
+    "why": "मतदार याद्यांच्या विशेष सखोल फेरआढाव्यात कथित अनियमितता आणि पोलिसांनी ताब्यात घेतल्याच्या विरोधात निदर्शकांनी निदर्शने केली.",
+    "want": "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची आणि विशेष सखोल फेरआढावा रद्द करण्याची मागणी निदर्शकांनी केली.",
+    "changed": "११ ऑक्टोबर: मुंबईत शिवाजी पार्कजवळ पोलिसांनी सुमारे ३०० निदर्शकांना ताब्यात घेतले, ज्यांना नंतर सोडून देण्यात आले."
    },
-   "summary": "मुंबईत राजकीय तणाव आणि निदर्शने पाहायला मिळाली जेव्हा विरोधी पक्षनेते आणि नागरिक कॉकरोच जनता पार्टीच्या मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची आणि मतदारयाद्यांच्या विशेष कसून पुनर्रचना मागे घेण्याची मागणी करणाऱ्या मोहिमेला पाठिंबा देण्यासाठी शिवाजी पार्कजवळ जमले. मेळाव्यासाठी कोणतीही पूर्व पोलीस परवानगी मिळालेली नसताना, मुंबई पुलिसने मोठ्या प्रमाणावर पोलीस फौजफाटा तैनात केला आणि अनेक निदर्शक, सामाजिक कार्यकर्ते आणि राजकीय कार्यकर्त्यांना स्थानबद्ध केले. शिवाजी पार्क बाहेर आणि शिवसेना भवनजवळ पक्षाच्या पदाधिकाऱ्यांनी पोलिसांच्या कारवाईविरोधात आक्रमक भूमिका घेतल्याने परिस्थिती चिघळली. शिवसेना (उद्धव बाळासाहेब ठाकरे) पक्षाचे नेते आदित्य ठाकरे आणि महाराष्ट्र नवनिर्माण सेनेचे नेते अमित ठाकरे यांच्यासह प्रमुख राजकीय व्यक्ती स्थानबद्धतेचा निषेध करण्यासाठी घटनास्थळी पोहोचल्या, आणि आदित्य ठाकरे यांनी अधिकाऱ्यांना इशारा दिला की जर पक्षाच्या कार्यकर्त्यांना मारहाण सुरूच राहिली तर राज्यव्यापी बंद पुकारला जाऊ शकतो.",
+   "summary": "११ ऑक्टोबर २०२६ रोजी मुंबईत शिवाजी पार्कजवळ कॉकरोच जनता पार्टीच्या मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची आणि मतदार याद्यांचा विशेष सखोल फेरआढावा रद्द करण्याची मागणी करणाऱ्या अभियानाच्या समर्थनार्थ निदर्शने झाली. मुंबई पोलिसांनी निदर्शकांना एकत्र येण्यापासून रोखले आणि सामाजिक कार्यकर्त्या अंजलि दमानिया यांच्यासह डझनभर व्यक्तींना ताब्यात घेतले. शिवसेना (उबाठा) आणि महाराष्ट्र नवनिर्माण सेनेचे राजकीय नेते, ज्यात आदित्य ठाकरे आणि अमित ठाकरे यांचा समावेश आहे, त्यांनी निदर्शनांमध्ये सहभाग घेतला आणि ताब्यात घेतल्यानंतर पोलीस ठाण्याबाहेर आंदोलन केले. कार्यकर्त्यांशी धक्काबुक्की झाल्यास राज्यव्यापी बंद पुकारण्याचा इशारा आदित्य ठाकरे यांनी दिला. वृत्तानुसार, प्रथम माहिती अहवाल नोंदवण्याचे काम सुरू असताना ताब्यात घेतलेले सुमारे ३०० निदर्शक नंतर सोडून देण्यात आले.",
    "demands": [
     "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांचा राजीनामा",
-    "मतदारयाद्यांचे विशेष कसून पुनर्रचना रद्द करणे",
-    "सर्व स्थानबद्ध निदर्शक आणि राजकीय कार्यकर्त्यांची सुटका"
+    "मतदार याद्यांचा विशेष सखोल फेरआढावा रद्द करणे",
+    "ताम्यात घेतलेल्या निदर्शकांची सुटका",
+    "मतदानाच्या हक्कांचे संरक्षण"
    ],
-   "response": "सूत्रांच्या मّهणण्यानुसार, मुंबई पोलिसांनी मेळाव्यासाठी परवानगी नाकारली, शिवाजी पार्कभोवती मोठा फौजफाटा तैनात केला आणि अनेक निदर्शकांना व राजकीय कार्यकर्त्यांना स्थानबद्ध केले. पोलिसांनी सांगितले की विनापरवानगी निदर्शने करणाऱ्यांवर कायदेशीर कारवाई केली जाईल.",
+   "response": "मुंबई पोलिसांनी परवानगीशिवाय होणाऱ्या सभांना प्रतिबंध केला, शिवाजी पार्कभोवती मोठा फौजफाटा तैनात केला आणि निदर्शक व राजकीय कार्यकर्त्यांना ताब्यात घेतले. प्रादेशिक पोलीस उपायुक्त यांनी सांगितले की, प्रथम माहिती अहवाल नोंदवण्याचे काम सुरू असताना ताब्यात घेतलेले सुमारे ३०० निदर्शक सोडून देण्यात आले.",
    "updates": [
-    "मुंबई पोलिसांनी मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या विरोधात निदर्शने करण्यासाठी जमलेल्या शिवाजी पार्कजवळील अनेक निदर्शकांना स्थानबद्ध केले.",
-    "शिवसेना (उबाठा) नेते आदित्य ठाकरे आणि मनसे नेते अमित ठाकरे स्थानबद्ध केलेल्यांच्या सुटकेची मागणी करण्यासाठी आंदोलनाचे ठिकाण आणि पोलीस ठाण्यात पोहोचले.",
-    "आदित्य ठाकरे यांनी इशारा दिला की जर आंदोलनादरम्यान पोलिसांनी पक्षाच्या कार्यकर्त्यांना मारहाण केली तर महाराष्ट्र बंद पाळला जाईल."
+    "अनधिकृत जमावबंदी रोखण्यासाठी मुंबई पोलिसांनी शिवाजी पार्कजवळ आणि शिवसेना भवनाबाहेर अनेक निदर्शकांना ताब्यात घेतले.",
+    "पोलीस कारवाईच्या निषेधार्थ शिवसेना (उबाठा) आणि मनसेचे नेते आदित्य ठाकरे व अमित ठाकरे यांनी शिवाजी पार्कवर समर्थकांसह सहभाग घेतला.",
+    "कायदेशीर प्रक्रिया सुरू असताना मुंबईतील जवळपास ३०० ताब्यात घेतलेल्या निदर्शकांना सोडून देण्यात आले, असे अधिकाऱ्यांनी जाहीर केले."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "arrests": "रविवारी मुंबईत कॉकरोच जनता पार्टी सीजेपीच्या समर्थनाunter निदर्शनादरम्यान सुमारे ३०० निदर्शकांना ताब्यात घेतले..."
+   }
   },
   "es": {
-   "title": "Protestas en Bombay por detenciones y demanda de dimisión del CEC",
-   "seoTitle": "Protesta en Bombay contra el CEC Gyanesh Kumar",
+   "title": "Protestas en Mumbai por detenciones y demanda de dimisión del CEC",
+   "seoTitle": "Protesta en Mumbai contra el CEC Gyanesh Kumar",
    "tea": {
-    "why": "Manifestantes y líderes de la oposición se manifiestan contra la detención de manifestantes y la Revisión Intensiva Especial de las listas electorales.",
-    "want": "Los manifestantes exigen la dimisión del Comisionado Jefe de Elecciones Gyanesh Kumar y la cancelación de la Revisión Intensiva Especial.",
-    "changed": "11 de oct.: Los líderes políticos Aaditya Thackeray y Amit Thackeray se sumaron a las protestas frente a Shivaji Park y a la comisaría tras detenciones generalizadas."
+    "why": "Los manifestantes protestaron contra supuestas irregularidades en la revisión intensiva especial de las listas electorales y las detenciones policiales.",
+    "want": "Los manifestantes exigieron la dimisión del comisario electoral jefe Gyanesh Kumar y la cancelación de la revisión intensiva especial.",
+    "changed": "11 de oct.: La policía detuvo a unos 300 manifestantes en Mumbai cerca de Shivaji Park, quienes fueron liberados más tarde."
    },
-   "summary": "La tensión política y las manifestaciones se desataron en Bombay cuando líderes opositores y ciudadanos se reunieron cerca de Shivaji Park para respaldar la campaña del Partido Cockroach Janta que exige la dimisión del Comisionado Jefe de Elecciones Gyanesh Kumar y la retirada de la Revisión Intensiva Especial de las listas electorales. Al no haberse concedido autorización policial previa para la concentración, la policía de Bombay desplegó numerosos efectivos y detuvo a numerosos manifestantes, activistas sociales y trabajadores políticos. La situación escaló frente a Shivaji Park y cerca de Shiv Sena Bhavan cuando funcionarios del partido se enfrentaron a la policía por las acciones. Destacadas figuras políticas, incluidos el líder de Shiv Sena (UBT) Aaditya Thackeray y el líder de Maharashtra Navnirman Sena Amit Thackeray, acudieron al lugar para protestar por las detenciones, y Aaditya Thackeray advirtió a las autoridades sobre posibles huelgas en todo el estado si los trabajadores del partido seguían sufriendo malos tratos.",
+   "summary": "El 11 de octubre de 2026, se produjeron manifestaciones en Mumbai cerca de Shivaji Park en apoyo a la campaña del Cockroach Janta Party que exigía la dimisión del comisario electoral jefe Gyanesh Kumar y la cancelación de la revisión intensiva especial de las listas electorales. La Policía de Mumbai impidió que los manifestantes se congregaran y detuvo a decenas de personas, incluida la activista social Anjali Damania. Líderes políticos de Shiv Sena (UBT) y del Maharashtra Navnirman Sena, incluidos Aaditya Thackeray y Amit Thackeray, se unieron a las manifestaciones y protestaron frente a la comisaría tras las detenciones. Aaditya Thackeray advirtió de un cierre estatal si los trabajadores eran maltratados. Según los informes, unos 300 manifestantes detenidos fueron puestos en libertad posteriormente mientras se tramitaban los informes de primera información.",
    "demands": [
-    "Dimisión del Comisionado Jefe de Elecciones Gyanesh Kumar",
-    "Cancelación de la Revisión Intensiva Especial de las listas electorales",
-    "Liberación de todos los manifestantes y trabajadores políticos detenidos"
+    "Dimisión del comisario electoral jefe Gyanesh Kumar",
+    "Cancelación de la revisión intensiva especial de las listas electorales",
+    "Liberación de los manifestantes detenidos",
+    "Protección de los derechos de voto"
    ],
-   "response": "Según fuentes, la policía de Bombay denegó el permiso para la concentración, desplegó fuertes fuerzas alrededor de Shivaji Park y detuvo a numerosos manifestantes y trabajadores políticos. La policía declaró que se emprenderían acciones legales contra quienes se manifestaran sin autorización.",
+   "response": "La Policía de Mumbai impidió concentraciones sin permiso, se desplegó fuertemente alrededor de Shivaji Park y detuvo a manifestantes y trabajadores políticos. El comisario adjunto de policía zonal declaró que unos 300 manifestantes detenidos fueron liberados mientras se tramitaban los registros de FIR.",
    "updates": [
-    "La policía de Bombay detuvo a varios manifestantes cerca de Shivaji Park que se habían reunido para protestar contra el CEC Gyanesh Kumar.",
-    "El líder de Shiv Sena (UBT) Aaditya Thackeray y el líder de MNS Amit Thackeray llegaron al lugar de la protesta y a la comisaría para exigir la liberación de los detenidos.",
-    "Aaditya Thackeray advirtió sobre un cierre patronal en Maharashtra si los trabajadores del partido sufrían malos tratos por parte de la policía durante las manifestaciones."
+    "La Policía de Mumbai detuvo a varios manifestantes cerca de Shivaji Park y frente a Shiv Sena Bhavan para impedir concentraciones no autorizadas.",
+    "Los líderes de Shiv Sena (UBT) y MNS, Aaditya Thackeray y Amit Thackeray, se unieron a los simpatizantes en Shivaji Park para protestar contra las acciones policiales.",
+    "Las autoridades anunciaron que aproximadamente 300 manifestantes detenidos en Mumbai fueron puestos en libertad mientras continuaban los trámites legales."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "arrests": "Alrededor de 300 manifestantes detenidos durante una manifestación en apoyo al Cockroach Janta Party CJP en Mumbai el domingo..."
+   }
   },
   "fr": {
-   "title": "Manifestations à Bombay contre les détentions et pour la démission du CEC",
+   "title": "Manifestations à Bombay contre des détentions et pour la démission du CEC",
    "seoTitle": "Manifestation à Bombay contre le CEC Gyanesh Kumar",
    "tea": {
-    "why": "Des manifestants et des dirigeants de l'opposition protestent contre la détention de manifestants et la révision intensive spéciale des listes électorales.",
-    "want": "Les manifestants exigent la démission du commissaire électoral en chef Gyanesh Kumar et l'annulation de la révision intensive spéciale.",
-    "changed": "11 oct. : Les dirigeants politiques Aaditya Thackeray et Amit Thackeray se sont joins aux manifestations devant Shivaji Park et le commissariat de police à la suite d'arrestations généralisées."
+    "why": "Des manifestants ont protesté contre de prétendues irrégularités dans la révision intensive spéciale des listes électorales et contre des détentions policières.",
+    "want": "Les manifestants ont exigé la démission du commissaire électoral en chef Gyanesh Kumar ainsi que l'annulation de la révision intensive spéciale.",
+    "changed": "11 oct. : La police a interpellé environ 300 manifestants à Bombay près de Shivaji Park, qui ont été relâchés par la suite."
    },
-   "summary": "Des tensions politiques et des manifestations ont éclaté à Bombay alors que des dirigeants de l'opposition et des citoyens se sont rassemblés près de Shivaji Park pour soutenir la campagne du parti Cockroach Janta exigeant la démission du commissaire électoral en chef Gyanesh Kumar et le retrait de la révision intensive spéciale des listes électorales. Aucune autorisation de police préalable n'ayant été accordée pour le rassemblement, la police de Bombay a lourdement déployé des forces et a interpellé de nombreux manifestants, militants sociaux et travailleurs politiques. La situation a dégénéré devant Shivaji Park et près de Shiv Sena Bhavan lorsque des responsables du parti ont confronté la police au sujet de ces actions. Des personnalités politiques de premier plan, notamment le dirigeant du Shiv Sena (UBT) Aaditya Thackeray et le dirigeant du Maharashtra Navnirman Sena Amit Thackeray, sont arrivées sur les lieux pour protester contre les détentions, Aaditya Thackeray avertissant les autorités de grèves potentielles à l'échelle de l'État si les travailleurs du parti continuaient de faire l'objet de brutalités.",
+   "summary": "Le 11 octobre 2026, des rassemblements ont eu lieu à Bombay près de Shivaji Park en soutien à la campagne du Cockroach Janta Party réclamant la démission du commissaire électoral en chef Gyanesh Kumar et l'annulation de la révision intensive spéciale des listes électorales. La police de Bombay a empêché les manifestants de se regrouper et a interpellé des dizaines de personnes, dont la militante sociale Anjali Damania. Des responsables politiques du Shiv Sena (UBT) et du Maharashtra Navnirman Sena, notamment Aaditya Thackeray et Amit Thackeray, ont rejoint les rassemblements et ont manifesté devant le poste de police à la suite des interpellations. Aaditya Thackeray a averti qu'une grève générale à l'échelle de l'État aurait lieu si les militants étaient brutalisés. Selon les rapports, environ 300 manifestants interpellés ont ensuite été libérés tandis que l'enregistrement des rapports d'information préliminaire était en cours.",
    "demands": [
     "Démission du commissaire électoral en chef Gyanesh Kumar",
     "Annulation de la révision intensive spéciale des listes électorales",
-    "Libération de tous les manifestants et travailleurs politiques détenus"
+    "Libération des manifestants interpellés",
+    "Protection des droits de vote"
    ],
-   "response": "Selon des sources, la police de Bombay a refusé l'autorisation pour le rassemblement, a déployé des forces importantes autour de Shivaji Park et a interpellé de nombreux manifestants et travailleurs politiques. La police a déclaré que des mesures juridiques seraient prises contre ceux qui manifesteraient sans autorisation.",
+   "response": "La police de Bombay a empêché les rassemblements non autorisés, s'est déployée en nombre autour de Shivaji Park et a interpellé des manifestants et des militants politiques. Le commissaire adjoint de police de la zone a déclaré qu'environ 300 manifestants interpellés avaient été libérés pendant que l'enregistrement des FIR était en cours.",
    "updates": [
-    "La police de Bombay a arrêté plusieurs manifestants près de Shivaji Park qui s'étaient rassemblés pour protester contre le CEC Gyanesh Kumar.",
-    "Le dirigeant du Shiv Sena (UBT) Aaditya Thackeray et le dirigeant du MNS Amit Thackeray sont arrivés sur le site de la manifestation et au poste de police pour exiger la libération des personnes détenues.",
-    "Aaditya Thackeray a mis en garde contre un blocage dans le Maharashtra si les travailleurs du parti étaient brutalisés par la police lors des manifestations."
+    "La police de Bombay a interpellé plusieurs manifestants près de Shivaji Park et devant le Shiv Sena Bhavan afin d'empêcher les rassemblements non autorisés.",
+    "Les dirigeants du Shiv Sena (UBT) et du MNS, Aaditya Thackeray et Amit Thackeray, ont rejoint leurs partisans à Shivaji Park pour protester contre les actions de la police.",
+    "Les autorités ont annoncé qu'environ 300 manifestants interpellés à Bombay avaient été libérés alors que les procédures judiciaires se poursuivaient."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "arrests": "Environ 300 manifestants interpellés lors d'un rassemblement de soutien au Cockroach Janta Party CJP à Bombay dimanche..."
+   }
   },
   "de": {
-   "title": "Proteste in Mumbai wegen Festnahmen und Forderung nach Rücktritt des CEC",
+   "title": "Proteste in Mumbai wegen Festnahmen und Forderung nach CEC-Rücktritt",
    "seoTitle": "Mumbai-Protest gegen CEC Gyanesh Kumar",
    "tea": {
-    "why": "Demonstranten und Oppositionsführer demonstrieren gegen die Festnahme von Demonstranten und die spezielle intensive Überarbeitung der Wählerverzeichnisse.",
-    "want": "Demonstranten fordern den Rücktritt des Chef-Wahlkommissars Gyanesh Kumar und die Aufhebung der speziellen intensiven Überarbeitung.",
-    "changed": "11. Okt.: Die politischen Führer Aaditya Thackeray und Amit Thackeray schlossen sich nach massenhaften Festnahmen den Protesten vor dem Shivaji Park und der Polizeistation an."
+    "why": "Demonstranten protestierten gegen angeblich unregelmäßige Abläufe bei der speziellen intensiven Überarbeitung von Wählerverzeichnissen und gegen polizeiliche Festnahmen.",
+    "want": "Demonstranten forderten den Rücktritt des obersten Wahlkommissars Gyanesh Kumar sowie die Einstellung der speziellen intensiven Überarbeitung.",
+    "changed": "11. Okt.: Die Polizei nahm in Mumbai nahe des Shivaji Park rund 300 Demonstranten fest, die später wieder freigelassen wurden."
    },
-   "summary": "Politische Spannungen und Demonstrationen brachen in Mumbai aus, als sich Oppositionsführer und Bürger in der Nähe des Shivaji Park versammelten, um die Kampagne der Cockroach Janta Party zu unterstützen, die den Rücktritt des Chef-Wahlkommissars Gyanesh Kumar und die Rücknahme der speziellen intensiven Überarbeitung der Wählerverzeichnisse fordert. Da keine vorherige Polizeigenehmigung für die Versammlung erteilt worden war, setzte die Polizei von Mumbai starke Kräfte ein und nahm zahlreiche Demonstranten, soziale Aktivisten und politische Mitarbeiter fest. Die Situation eskalierte vor dem Shivaji Park und in der Nähe des Shiv Sena Bhavan, als Parteifunktionäre die Polizei wegen der Maßnahmen konfrontierten. Prominente politische Persönlichkeiten, darunter der Führer der Shiv Sena (UBT) Aaditya Thackeray und der Führer des Maharashtra Navnirman Sena Amit Thackeray, trafen am Ort ein, um gegen die Festnahmen zu protestieren, wobei Aaditya Thackeray die Behörden vor potenziellen landesweiten Streiks warnte, falls Parteimitarbeiter weiterhin körperlich angegangen würden.",
+   "summary": "Am 11. Oktober 2026 fanden in Mumbai nahe dem Shivaji Park Kundgebungen statt zur Unterstützung der Kampagne der Cockroach Janta Party, die den Rücktritt des obersten Wahlkommissars Gyanesh Kumar und die Annullierung der speziellen intensiven Überarbeitung von Wählerverzeichnissen forderte. Die Polizei von Mumbai hinderte Demonstranten daran, sich zu versammeln, und nahm Dutzende Personen fest, darunter die Sozialaktivistin Anjali Damania. Politische Vertreter von Shiv Sena (UBT) und des Maharashtra Navnirman Sena, darunter Aaditya Thackeray und Amit Thackeray, schlossen sich den Kundgebungen an und protestierten nach den Festnahmen vor dem Polizeirevier. Aaditya Thackeray warnte vor einem bundesstaatlichen Generalstreik, falls die Parteiarbeiter misshandelt würden. Berichten zufolge wurden rund 300 festgenommene Demonstranten im Anschluss wieder freigelassen, während die Registrierung der Erstanzeigen noch im Gange war.",
    "demands": [
-    "Rücktritt des Chef-Wahlkommissars Gyanesh Kumar",
-    "Aufhebung der speziellen intensiven Überarbeitung der Wählerverzeichnisse",
-    "Freilassung aller festgenommenen Demonstranten und politischen Mitarbeiter"
+    "Rücktritt des obersten Wahlkommissars Gyanesh Kumar",
+    "Annullierung der speziellen intensiven Überarbeitung von Wählerverzeichnissen",
+    "Freilassung der festgenommenen Demonstranten",
+    "Schutz des Wahlrechts"
    ],
-   "response": "Kreisen zufolge lehnte die Polizei von Mumbai die Genehmigung für die Versammlung ab, postierte starke Kräfte rund um den Shivaji Park und nahm zahlreiche Demonstranten und politische Mitarbeiter fest. Die Polizei erklärte, dass rechtliche Schritte gegen diejenigen eingeleitet würden, die ohne Genehmigung demonstrieren.",
+   "response": "Die Polizei von Mumbai verhinderte nicht genehmigte Versammlungen, zog rund um den Shivaji Park starke Kräfte zusammen und nahm Demonstranten sowie politische Aktivisten fest. Der zonale stellvertretende Polizeikommissar erklärte, dass rund 300 festgenommene Demonstranten während der laufenden FIR-Registrierung freigelassen wurden.",
    "updates": [
-    "Die Polizei von Mumbai nahm mehrere Demonstranten in der Nähe des Shivaji Park fest, die sich versammelt hatten, um gegen den CEC Gyanesh Kumar zu protestieren.",
-    "Der Führer der Shiv Sena (UBT) Aaditya Thackeray und der MNS-Führer Amit Thackeray trafen am Protestort und auf der Polizeiwache ein, um die Freilassung der Inhaftierten zu fordern.",
-    "Aaditya Thackeray warnte vor einem Maharashtra-Streik, falls Parteimitarbeiter während der Demonstrationen von der Polizei misshandelt würden."
+    "Die Polizei von Mumbai nahm mehrere Demonstranten in der Nähe des Shivaji Park und vor dem Shiv Sena Bhavan fest, um nicht genehmigte Versammlungen zu verhindern.",
+    "Die Führungspersönlichkeiten von Shiv Sena (UBT) und MNS, Aaditya Thackeray und Amit Thackeray, schlossen sich den Anhängern am Shivaji Park an, um gegen das Vorgehen der Polizei zu protestieren.",
+    "Die Behörden gaben bekannt, dass ungefähr 300 festgenommene Demonstranten in Mumbai freigelassen wurden, während die rechtliche Bearbeitung fortgesetzt wurde."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "arrests": "Rund 300 Demonstranten während einer Kundgebung zur Unterstützung der Cockroach Janta Party CJP in Mumbai am Sonntag festgenommen..."
+   }
   }
- }
+ },
+ "endedOn": "2026-10-11"
 }
