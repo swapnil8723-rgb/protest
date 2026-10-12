@@ -1,7 +1,7 @@
 {
  "aiCalls": {
   "day": "2026-10-12",
-  "count": 126
+  "count": 139
  },
  "runs": [
   {
@@ -1415,8 +1415,34 @@
     "translate: 9 events"
    ],
    "translated": 9
+  },
+  {
+   "at": "2026-10-12T21:17:56.709Z",
+   "ms": 132409,
+   "discovered": 38,
+   "fetched": 37,
+   "classified": 33,
+   "protests": 11,
+   "summarized": 6,
+   "published": 55,
+   "live": 11,
+   "aiCalls": 13,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 7 files, 23 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 77 protest-word items",
+    "fetch: 37 ok, 1 failed",
+    "classify: new candidate e243ecc4328 \"Congress Mahila Sangathan protests against CEC at Himachal Bhawan\" (Delhi)",
+    "classify: new candidate e9d2d8e7856 \"BJP Mahila Morcha tries to gherao Congress office in Srinagar\" (Srinagar)",
+    "classify: new candidate eb8e69c4c73 \"Lawyers protest police misconduct in Nagpur\" (Nagpur)",
+    "classify: new candidate e22cbd87daa \"BJP Mahila Morcha protests in Panaji and Margao against MP\" (Panjim)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261012193000",
- "lastRunAt": "2026-10-12T19:28:43.017Z"
+ "gdeltCursor": "20261012211500",
+ "lastRunAt": "2026-10-12T21:17:56.709Z"
 }
