@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-13",
-  "count": 95
+  "count": 141
  },
  "runs": [
-  {
-   "at": "2026-10-06T09:44:00.243Z",
-   "ms": 314440,
-   "discovered": 113,
-   "fetched": 111,
-   "classified": 98,
-   "protests": 58,
-   "summarized": 7,
-   "published": 17,
-   "live": 6,
-   "aiCalls": 17,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 22 files, 88 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 50 protest-word items",
-    "fetch: 111 ok, 2 failed",
-    "classify: new candidate e956a24a75e \"Traders protest Khyber Pakhtunkhwa government's focus on politics.\" (Peshawar)",
-    "classify: new candidate e8a670713ee \"JNU students' hunger strike against disciplinary action and campus issues.\" (Delhi)",
-    "classify: new candidate ee572737944 \"French high school students protest conditions, block schools nationwide.\" (Lens)",
-    "classify: new candidate ed80b47f9a9 \"Students protest RSS leader's presence at Central University of Kerala event.\" (Kasaragod)",
-    "classify: new candidate e23ea43eee1 \"Tens of thousands march in Barcelona for housing relief\" (Barcelona)",
-    "classify: new candidate e0dc15d2bc2 \"Edinburgh University staff strike over job cuts and program closures\" (Edinburgh)",
-    "classify: new candidate ed03c339bd0 \"Thousands protest outside Trump rally in Grand Island\" (Grand Island)",
-    "classify: new candidate e3a16cb1927 \"Tipra Motha Party supporters clash with police at counting centre\" (Khowai)",
-    "summary: ee2b3011454 judged not real: The sources describe a protest that is scheduled to occur on October 10, 2026, but has not yet taken place.",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 1 waiting"
-   ]
-  },
   {
    "at": "2026-10-06T10:15:35.157Z",
    "ms": 750960,
@@ -1408,8 +1379,53 @@
     "AI budget: run time cap 13 min reached — remaining work waits for a later run"
    ],
    "translated": 0
+  },
+  {
+   "at": "2026-10-13T21:53:17.742Z",
+   "ms": 394385,
+   "discovered": 96,
+   "fetched": 93,
+   "classified": 136,
+   "protests": 55,
+   "summarized": 18,
+   "published": 65,
+   "live": 14,
+   "aiCalls": 46,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20 files, 80 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 61 protest-word items",
+    "fetch: 93 ok, 3 failed",
+    "classify: new candidate ed638d5a701 \"Uttarakhand Congress protests appointment of Sikkim governor\" (Dehradun)",
+    "classify: new candidate e85df9cd8fc \"Women protest transgender inmates in women's prison\" (Framingham)",
+    "classify: new candidate e200fdc8f26 \"Transport pensioners stage sit-in protest in Madurai\" (Madurai)",
+    "classify: new candidate eb1be1703fd \"French students protest learning conditions nationwide\" (Saint-Denis)",
+    "classify: new candidate ec2ae9122ef \"Greta Thunberg joins school protests in France\" (Saint-Denis)",
+    "classify: new candidate eb2a8e2c518 \"INDIA bloc protests in Kalaburagi against SIR and CEC\" (Kalaburagi)",
+    "classify: new candidate e5563bec7c0 \"Karshaka Sangham to hold night march in Kollam\" (Kollam)",
+    "classify: new candidate e8d93304a28 \"Madurai GRH sanitation workers protest over wages and security\" (Madurai)",
+    "classify: new candidate e3da417d5e0 \"BGUS protest outside DCP office over loudspeaker rules\" (Hyderabad)",
+    "classify: new candidate ed5a9738965 \"CJP and AISA protest in Bengaluru against Delhi police action\" (Bengaluru)",
+    "classify: new candidate ee1f7555eea \"DYFI march in Manjeri against UDF healthcare policies\" (Malappuram)",
+    "classify: new candidate e98b826bd2d \"CPI(M) demonstration in Coimbatore for civic issues\" (Coimbatore)",
+    "classify: new candidate ef403d5d815 \"Students and ABVP protest college holiday cancellation\" (Bengaluru)",
+    "classify: new candidate e3994292128 \"Students demonstrate in Lyon over school resources\" (Lyon)",
+    "classify: new candidate ef1277fe0c1 \"Bus drivers continue strike over wages and hours\" (Sharonville)",
+    "classify: new candidate ee4486942e6 \"Pastor arrested after prayer protest outside Chinese embassy\" (Washington)",
+    "classify: new candidate ef4bc06899e \"Lawyers demand probe into police action against protesters\" (Bengaluru)",
+    "classify: new candidate e338e6446d5 \"Jamia students start hunger strike for union elections\" (Delhi)",
+    "classify: new candidate ef8edb0b564 \"Lawyers protest in Kishangarh over police officer slapping advocate\" (Kishangarh)",
+    "classify: new candidate e90ee52d29e \"Congress workers burn effigy and protest over crop damage and power cuts\" (Alirajpur)",
+    "classify: new candidate e98bbee233e \"Planned No Kings protests against administration policies in NYC\" (New York City)",
+    "classify: new candidate e638b5f80fa \"Supporters protest outside fundraiser in Las Cruces\" (Las Cruces)",
+    "classify: new candidate e3627e19883 \"No Kings rally to promote early voter turnout\" (The Dalles)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 16 events"
+   ],
+   "translated": 16
   }
  ],
- "gdeltCursor": "20261013170000",
- "lastRunAt": "2026-10-13T16:58:55.313Z"
+ "gdeltCursor": "20261013220000",
+ "lastRunAt": "2026-10-13T21:53:17.742Z"
 }
