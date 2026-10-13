@@ -1,25 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-13",
-  "count": 65
+  "count": 88
  },
  "runs": [
-  {
-   "at": "2026-10-06T02:43:25.196Z",
-   "ms": 2952,
-   "discovered": 0,
-   "fetched": 0,
-   "classified": 0,
-   "protests": 0,
-   "summarized": 29,
-   "published": 15,
-   "live": 8,
-   "aiCalls": 0,
-   "notes": [
-    "run: AI provider replay, reviewer none (strict auto-publish)",
-    "fetch: 0 ok, 0 failed"
-   ]
-  },
   {
    "at": "2026-10-06T04:08:46.737Z",
    "ms": 381330,
@@ -1400,8 +1384,40 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-13T13:48:42.713Z",
+   "ms": 596627,
+   "discovered": 92,
+   "fetched": 90,
+   "classified": 65,
+   "protests": 26,
+   "summarized": 10,
+   "published": 60,
+   "live": 12,
+   "aiCalls": 23,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 14 files, 61 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 68 protest-word items",
+    "fetch: 90 ok, 2 failed",
+    "classify: new candidate ecf4b9208a0 \"Thane journalists protest against MNS leader's remarks\" (Thane)",
+    "classify: new candidate e5e31616f63 \"NSUI stages flash protest at Rajiv Chowk metro station demanding CEC resignation\" (Delhi)",
+    "classify: new candidate ec192a09859 \"Family and supporters protest in Mansa demanding justice for activist\" (Mansa)",
+    "classify: new candidate ef94e02eb5a \"French students and activists protest school conditions in Saint-Denis\" (Saint-Denis)",
+    "classify: new candidate e2753e436a2 \"Private bus operators announce march to Secretariat\" (Thiruvananthapuram)",
+    "classify: new candidate e217a1acfbf \"Family protests outside hospital demanding justice for worker\" (Chennai)",
+    "classify: new candidate eca9d247979 \"Advocates protest against Rahul Gandhi over remarks on judiciary\" (Hyderabad)",
+    "classify: new candidate e1242886165 \"NSUI stages dharna at police station\" (Delhi)",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: new candidate edcd20b21b2 \"Contract teachers to hold dharna for job security and regularisation\" (Hyderabad)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261013101500",
- "lastRunAt": "2026-10-13T10:10:45.547Z"
+ "gdeltCursor": "20261013134500",
+ "lastRunAt": "2026-10-13T13:48:42.713Z"
 }
