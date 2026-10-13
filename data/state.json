@@ -1,44 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-13",
-  "count": 88
+  "count": 95
  },
  "runs": [
-  {
-   "at": "2026-10-06T04:08:46.737Z",
-   "ms": 381330,
-   "discovered": 120,
-   "fetched": 118,
-   "classified": 91,
-   "protests": 46,
-   "summarized": 11,
-   "published": 17,
-   "live": 7,
-   "aiCalls": 19,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 10 older files skipped (cap)",
-    "gdelt: 32 files, 101 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 36 protest-word items",
-    "fetch: 118 ok, 2 failed",
-    "classify: new candidate e85d263f6d7 \"Pro-Left members boycott Calicut varsity doctorate ceremony\" (Kozhikode)",
-    "classify: new candidate effe0efe70e \"Rajaka community protests in Visakhapatnam seeking SC status\" (Visakhapatnam)",
-    "classify: new candidate ee2b3011454 \"CJP announces Oct 10 protest against CEC at Jantar Mantar\" (Delhi)",
-    "classify: new candidate e47f4297545 \"Tamil Nadu MLHPs hunger strike for regularisation and better pay\" (Chennai)",
-    "classify: new candidate e3eaec31a9f \"Congress leaders protest arrest of former AIT chairman\" (Amritsar)",
-    "classify: new candidate e2bb3bc111d \"Parents protest bullying at Okeechobee County School Board\" (Okeechobee)",
-    "classify: new candidate e18a4a4c04e \"Students plan pro-Palestine march in London on October 7\" (London)",
-    "classify: new candidate e3bae230dfe \"BJP workers to protest in Ludhiana over sanitation worker hiring\" (Ludhiana)",
-    "classify: new candidate e082fc2db56 \"Rally and march in East London supporting Bogdan Syrotiuk\" (London)",
-    "classify: new candidate e3d0335d6f5 \"White supremacists rally against noncitizens joining police force\" (Danbury)",
-    "classify: new candidate e9f30997577 \"Locals protest filming of pro-ICE movie\" (Livingston)",
-    "classify: new candidate eb1e081b0b0 \"Anti-Israel groups plan 'resistance' rally in NYC\" (New York City)",
-    "classify: new candidate e44c6ebb945 \"INDIA bloc MPs march to ECI headquarters against 'vote theft'\" (Delhi)",
-    "classify: new candidate e8d4db29af8 \"Cornell students rally over alleged gang rape and sexual violence\" (Ithaca)",
-    "classify: new candidate e263f739f64 \"Boston protesters rally against US foreign policy and ICE activity\" (Boston)"
-   ]
-  },
   {
    "at": "2026-10-06T09:44:00.243Z",
    "ms": 314440,
@@ -1416,8 +1381,35 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-13T16:58:55.313Z",
+   "ms": 795146,
+   "discovered": 76,
+   "fetched": 73,
+   "classified": 9,
+   "protests": 4,
+   "summarized": 0,
+   "published": 60,
+   "live": 12,
+   "aiCalls": 7,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 63 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 51 protest-word items",
+    "fetch: 73 ok, 3 failed",
+    "classify: batch failed: The operation was aborted due to timeout",
+    "classify: batch failed: The operation was aborted due to timeout",
+    "classify: batch failed: The operation was aborted due to timeout",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: new candidate e106fa6f515 \"Makkal Adhikaram members block train demanding CEC resignation\" (Chennai)",
+    "AI budget: run time cap 13 min reached — remaining work waits for a later run"
+   ],
+   "translated": 0
   }
  ],
- "gdeltCursor": "20261013134500",
- "lastRunAt": "2026-10-13T13:48:42.713Z"
+ "gdeltCursor": "20261013170000",
+ "lastRunAt": "2026-10-13T16:58:55.313Z"
 }
