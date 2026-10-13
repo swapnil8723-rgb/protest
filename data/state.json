@@ -1,7 +1,7 @@
 {
  "aiCalls": {
-  "day": "2026-10-12",
-  "count": 139
+  "day": "2026-10-13",
+  "count": 9
  },
  "runs": [
   {
@@ -1441,8 +1441,37 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-13T01:05:22.684Z",
+   "ms": 116959,
+   "discovered": 51,
+   "fetched": 50,
+   "classified": 35,
+   "protests": 11,
+   "summarized": 3,
+   "published": 55,
+   "live": 11,
+   "aiCalls": 9,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 16 files, 41 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 70 protest-word items",
+    "fetch: 50 ok, 1 failed",
+    "classify: new candidate e39325f5038 \"Students plan walkout over school flag policy in Sonoma\" (Sonoma)",
+    "classify: new candidate e5646977c7c \"Assam BJP launches Jan Jagaran processions against Congress over SIR\" (Guwahati)",
+    "classify: new candidate e564a0c541b \"Dock workers and stakeholders stage hunger strike in Chattogram\" (Chattogram)",
+    "classify: new candidate ee92d7b9c51 \"Milwaukee French Immersion School community protests teacher cuts\" (Milwaukee)",
+    "classify: new candidate e0550d335c7 \"Groups plan No Kings protests in Athens and Huntsville\" (Athens)",
+    "classify: new candidate e8ef8a9325d \"French high school students protest conditions nationwide\" (Aubagne)",
+    "classify: new candidate e2081c894d9 \"Lawyers scuffle with police during protest in Lahore\" (Lahore)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261012211500",
- "lastRunAt": "2026-10-12T21:17:56.709Z"
+ "gdeltCursor": "20261013011500",
+ "lastRunAt": "2026-10-13T01:05:22.684Z"
 }
