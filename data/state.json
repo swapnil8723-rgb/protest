@@ -1,54 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-13",
-  "count": 44
+  "count": 65
  },
  "runs": [
-  {
-   "at": "2026-10-06T02:29:06.013Z",
-   "ms": 2284,
-   "discovered": 0,
-   "fetched": 0,
-   "classified": 0,
-   "protests": 0,
-   "summarized": 0,
-   "published": 0,
-   "live": 0,
-   "aiCalls": 0,
-   "notes": [
-    "run: AI provider replay, reviewer none (strict auto-publish)",
-    "fetch: 0 ok, 0 failed",
-    "summary: ebac63dfc0e queued for answer (summary-ebac63dfc0e-d055ddfc40cf)",
-    "summary: ed964b0250c queued for answer (summary-ed964b0250c-3baf0ee84987)",
-    "summary: e0b7c4d62c1 queued for answer (summary-e0b7c4d62c1-c11640a43a97)",
-    "summary: e09a79205b8 queued for answer (summary-e09a79205b8-034c90bb625b)",
-    "summary: e2051c6b95d queued for answer (summary-e2051c6b95d-544d5a68e044)",
-    "summary: ed0cd0e54b9 queued for answer (summary-ed0cd0e54b9-04b8c5bfeab5)",
-    "summary: e18b19af925 queued for answer (summary-e18b19af925-84594f0b1491)",
-    "summary: e1132f535a0 queued for answer (summary-e1132f535a0-3356128ab1a6)",
-    "summary: e5aa85bf223 queued for answer (summary-e5aa85bf223-9f9d479eb1dd)",
-    "summary: e601f7ebf5f queued for answer (summary-e601f7ebf5f-04bdb68b961f)",
-    "summary: eac1de65fcb queued for answer (summary-eac1de65fcb-a97dd5db1d93)",
-    "summary: eb557a96a20 queued for answer (summary-eb557a96a20-668a28520aa4)",
-    "summary: ecac05f938c queued for answer (summary-ecac05f938c-c13fb95af92c)",
-    "summary: e21cb214593 queued for answer (summary-e21cb214593-c5c6e00f1434)",
-    "summary: ebff1642b42 queued for answer (summary-ebff1642b42-42d2dd2fedbc)",
-    "summary: ee034864327 queued for answer (summary-ee034864327-93d5674e8cff)",
-    "summary: ee7f5d2be2d queued for answer (summary-ee7f5d2be2d-5000bd994f1d)",
-    "summary: e1258492bf2 queued for answer (summary-e1258492bf2-ef243f242b70)",
-    "summary: e1fa96f2d0e queued for answer (summary-e1fa96f2d0e-e81aff169961)",
-    "summary: e30e046e739 queued for answer (summary-e30e046e739-06973de9e805)",
-    "summary: e67b767b02a queued for answer (summary-e67b767b02a-f244a7c5e6de)",
-    "summary: e69e15a60a6 queued for answer (summary-e69e15a60a6-d6ebb211f251)",
-    "summary: e73bc2a7fed queued for answer (summary-e73bc2a7fed-9295e17def3c)",
-    "summary: e7b2b5ec4c1 queued for answer (summary-e7b2b5ec4c1-e9d846c3f1be)",
-    "summary: e97f9888d88 queued for answer (summary-e97f9888d88-075c68d15df1)",
-    "summary: eba0983c907 queued for answer (summary-eba0983c907-986ace697fa3)",
-    "summary: eba6b01c9b1 queued for answer (summary-eba6b01c9b1-cc785ef141aa)",
-    "summary: ece35c61a42 queued for answer (summary-ece35c61a42-78143afbef33)",
-    "summary: ef04e9eef18 queued for answer (summary-ef04e9eef18-c28910729498)"
-   ]
-  },
   {
    "at": "2026-10-06T02:43:25.196Z",
    "ms": 2952,
@@ -1415,8 +1370,38 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-13T10:10:45.547Z",
+   "ms": 402796,
+   "discovered": 78,
+   "fetched": 78,
+   "classified": 65,
+   "protests": 30,
+   "summarized": 8,
+   "published": 58,
+   "live": 11,
+   "aiCalls": 21,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 65 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 68 protest-word items",
+    "fetch: 78 ok, 0 failed",
+    "classify: new candidate e23f9381c9b \"Chennai auto-rickshaw drivers hold candlelight march for fare revision\" (Chennai)",
+    "classify: new candidate e81b5627a18 \"Student groups hold protest in Patna demanding CEC resignation\" (Patna)",
+    "classify: new candidate ef470f72bf6 \"Indigenous movement demonstrates on overpass in Decatur\" (Decatur)",
+    "classify: new candidate ef0424f97b3 \"Sugarcane farmers block highways in Karnataka demanding higher prices\" (Belagavi)",
+    "classify: new candidate e11bfc6be4a \"Baloch group holds protest rally in Hannover against human rights abuses\" (Hannover)",
+    "classify: new candidate edcd5ff384a \"Students and youths protest in Patna against electoral rolls and CEC\" (Patna)",
+    "classify: new candidate edc1257c8f1 \"Family protests outside police station over fatal toddy poisoning in Mumbai\" (Mumbai)",
+    "classify: new candidate e66ab49a6b5 \"Supreme Court lawyers protest over detention of colleagues\" (Delhi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261013070000",
- "lastRunAt": "2026-10-13T06:50:49.624Z"
+ "gdeltCursor": "20261013101500",
+ "lastRunAt": "2026-10-13T10:10:45.547Z"
 }
