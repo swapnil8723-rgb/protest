@@ -1,63 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-13",
-  "count": 9
+  "count": 26
  },
  "runs": [
-  {
-   "at": "2026-10-05T17:35:51.496Z",
-   "ms": 30838421,
-   "discovered": 1197,
-   "fetched": 1065,
-   "classified": 0,
-   "protests": 0,
-   "summarized": 0,
-   "published": 0,
-   "live": 0,
-   "aiCalls": 0,
-   "notes": [
-    "classify: batch queued for answer (classify-c1ccaf795ea3d658)",
-    "classify: batch queued for answer (classify-7b30067ec8e39037)",
-    "classify: batch queued for answer (classify-a6f8227e0f6a9caa)",
-    "classify: batch queued for answer (classify-fced76972a194c9a)",
-    "classify: batch queued for answer (classify-9a65a02762822b5e)",
-    "classify: batch queued for answer (classify-297432710f9d6ea9)",
-    "classify: batch queued for answer (classify-acb582c32c40f548)",
-    "classify: batch queued for answer (classify-a398126e6b1f59b5)",
-    "classify: batch queued for answer (classify-cb2fb65d342761d7)",
-    "classify: batch queued for answer (classify-cfa7d00f30bf2338)",
-    "classify: batch queued for answer (classify-ad3f7c0e1399777e)",
-    "classify: batch queued for answer (classify-29ed7dd4fc268799)",
-    "classify: batch queued for answer (classify-bb585149fde0f673)",
-    "classify: batch queued for answer (classify-60fdbb39fe56685c)",
-    "classify: batch queued for answer (classify-af88ce0e2c093c82)",
-    "classify: batch queued for answer (classify-10ccc481b15edffd)",
-    "classify: batch queued for answer (classify-df0a9238646ef1b9)",
-    "classify: batch queued for answer (classify-758d46cab1390b4e)",
-    "classify: batch queued for answer (classify-67caf7059b6099ec)",
-    "classify: batch queued for answer (classify-fa89c6c972419260)",
-    "classify: batch queued for answer (classify-3f4a6813df7f1298)",
-    "classify: batch queued for answer (classify-5db51369254c16dd)",
-    "classify: batch queued for answer (classify-88204f7a01bf9b48)",
-    "classify: batch queued for answer (classify-670d55285620f176)",
-    "classify: batch queued for answer (classify-9397565c05e17e03)",
-    "classify: batch queued for answer (classify-439502db82504838)",
-    "classify: batch queued for answer (classify-c41de084fd9e931c)",
-    "classify: batch queued for answer (classify-46a50da631ebf042)",
-    "classify: batch queued for answer (classify-49de3e6182a20127)",
-    "classify: batch queued for answer (classify-535df736a3491fbb)",
-    "classify: batch queued for answer (classify-05228d962664e2d2)",
-    "classify: batch queued for answer (classify-6727f10fdb2a5e50)",
-    "classify: batch queued for answer (classify-b247211468eea897)",
-    "classify: batch queued for answer (classify-aaeb43e9ece03e3e)",
-    "classify: batch queued for answer (classify-6666c9d9ae6cd4e5)",
-    "classify: batch queued for answer (classify-9f1a0992dc577e0a)",
-    "classify: batch queued for answer (classify-3c50c68d589fa2ad)",
-    "classify: batch queued for answer (classify-e9cd57ea27cfb88e)",
-    "classify: batch queued for answer (classify-4561d9e14e641fa1)",
-    "classify: batch queued for answer (classify-fc1ce4be7e41b6ed)"
-   ]
-  },
   {
    "at": "2026-10-06T02:27:40.903Z",
    "ms": 13168,
@@ -1470,8 +1416,36 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-13T04:27:46.591Z",
+   "ms": 211241,
+   "discovered": 56,
+   "fetched": 53,
+   "classified": 48,
+   "protests": 24,
+   "summarized": 7,
+   "published": 56,
+   "live": 10,
+   "aiCalls": 17,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 40 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 70 protest-word items",
+    "fetch: 53 ok, 3 failed",
+    "classify: new candidate e1a93303d1c \"States hold voter enrolment camps amid protests over SIR and CEC\" (Delhi)",
+    "classify: new candidate ec8805e156e \"Supporters stage protest demanding justice for late singer Zubeen Garg\" (Sonepur)",
+    "classify: new candidate e5019cbc9ea \"AAP leaders announce one-day hunger strike against CEC\" (Delhi)",
+    "classify: new candidate e54b7c88c8f \"BJP Mahila Morcha protests across Gujarat against Congress MP\" (Ahmedabad)",
+    "classify: new candidate eb3193e68a8 \"Students protest exams during Dasara in Mangaluru\" (Mangaluru)",
+    "classify: new candidate e18be341870 \"CJP volunteers stage flash protest at Jantar Mantar\" (Delhi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261013011500",
- "lastRunAt": "2026-10-13T01:05:22.684Z"
+ "gdeltCursor": "20261013043000",
+ "lastRunAt": "2026-10-13T04:27:46.591Z"
 }
