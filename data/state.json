@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-14",
-  "count": 27
+  "count": 44
  },
  "runs": [
-  {
-   "at": "2026-10-06T10:58:15.456Z",
-   "ms": 321203,
-   "discovered": 17,
-   "fetched": 16,
-   "classified": 15,
-   "protests": 9,
-   "summarized": 3,
-   "published": 17,
-   "live": 7,
-   "aiCalls": 8,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 2 files, 7 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 57 protest-word items",
-    "fetch: 16 ok, 1 failed",
-    "classify: new candidate ea3bb745439 \"NSUI protests in Bengaluru demanding CEC's resignation\" (Bengaluru)",
-    "classify: new candidate e8a87129019 \"CJP plans agitation in Delhi for CEC's resignation\" (Delhi)",
-    "classify: new candidate e4faffb62a2 \"Youth Congress activists clash with police over airport fee hike\" (Thiruvananthapuram)",
-    "summary: e44c6ebb945 failed: The operation was aborted due to timeout",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 2 events"
-   ],
-   "translated": 2
-  },
   {
    "at": "2026-10-06T11:09:40.642Z",
    "ms": 371636,
@@ -1414,8 +1388,33 @@
     "translate: 9 events"
    ],
    "translated": 9
+  },
+  {
+   "at": "2026-10-14T07:44:02.508Z",
+   "ms": 194815,
+   "discovered": 45,
+   "fetched": 43,
+   "classified": 41,
+   "protests": 16,
+   "summarized": 7,
+   "published": 65,
+   "live": 13,
+   "aiCalls": 17,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 33 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 54 protest-word items",
+    "fetch: 43 ok, 2 failed",
+    "classify: new candidate e2caa556b3b \"108 ambulance workers threaten strike over shortages\" (Bengaluru)",
+    "classify: new candidate e4fdbadd31b \"Garment workers block highway in Dhaka demanding wage hike\" (Dhaka)",
+    "classify: new candidate ec2ecff891c \"Demonstrators gather in Wasilla to protest President Trump\" (Wasilla)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261014043000",
- "lastRunAt": "2026-10-14T04:27:47.656Z"
+ "gdeltCursor": "20261014074500",
+ "lastRunAt": "2026-10-14T07:44:02.508Z"
 }
