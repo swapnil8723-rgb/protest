@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-14",
-  "count": 44
+  "count": 58
  },
  "runs": [
-  {
-   "at": "2026-10-06T11:09:40.642Z",
-   "ms": 371636,
-   "discovered": 6,
-   "fetched": 5,
-   "classified": 5,
-   "protests": 2,
-   "summarized": 2,
-   "published": 17,
-   "live": 6,
-   "aiCalls": 17,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 1 files, 4 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 52 protest-word items",
-    "fetch: 5 ok, 1 failed",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: e0b7c4d62c1 dropped hi (summary empty (keys: title seo_title why want changed summary demands response updates conflicts crowd arrests injuries deaths)), mr (summary empty (keys: title seo_title why want changed summary demands response updates conflicts crowd arrests injuries deaths))",
-    "translate: ecac05f938c dropped es (summary empty (keys: title seo_title why want changed summary demands response updates conflicts crowd arrests injuries deaths)), fr (summary empty (keys: title seo_title why want changed summary demands response updates conflicts crowd arrests injuries deaths))",
-    "translate: e44c6ebb945 dropped hi (summary empty (keys: title seo_title why want changed summary demands response updates conflicts crowd arrests injuries deaths)), mr (summary empty (keys: title seo_title why want changed summary demands response updates conflicts crowd arrests injuries deaths))",
-    "translate: e2051c6b95d dropped hi (summary empty (keys: title seo_title why want changed summary demands response updates conflicts crowd arrests injuries deaths)), mr (summary empty (keys: title seo_title why want changed summary demands response updates conflicts crowd arrests injuries deaths))",
-    "translate: ec09c1d2b27 dropped hi (summary empty (keys: title seo_title why want changed summary demands response updates conflicts crowd arrests injuries deaths)), mr (summary empty (keys: title seo_title why want changed summary demands response updates conflicts crowd arrests injuries deaths))",
-    "translate: e18b19af925 dropped fr (summary empty (keys: title seo_title why want changed summary demands response updates conflicts crowd arrests injuries deaths))",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-06T11:37:43.318Z",
    "ms": 706818,
@@ -1413,8 +1385,34 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-14T11:59:16.528Z",
+   "ms": 203184,
+   "discovered": 80,
+   "fetched": 77,
+   "classified": 60,
+   "protests": 15,
+   "summarized": 5,
+   "published": 65,
+   "live": 12,
+   "aiCalls": 14,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 17 files, 62 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 44 protest-word items",
+    "fetch: 77 ok, 3 failed",
+    "classify: new candidate e1b9f19782f \"Press Club of India holds silent march over journalist detentions\" (Delhi)",
+    "classify: new candidate e398e4ac1c5 \"CPI(M) marches to Nedumbassery police station over accident case\" (Kochi)",
+    "classify: new candidate e5578097c69 \"UK diaspora groups hold emergency protest in London\" (London)",
+    "classify: new candidate ecfd39ada83 \"Women stage silent protest in Chennai over Delhi police action\" (Chennai)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261014074500",
- "lastRunAt": "2026-10-14T07:44:02.508Z"
+ "gdeltCursor": "20261014120000",
+ "lastRunAt": "2026-10-14T11:59:16.528Z"
 }
