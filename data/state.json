@@ -1,39 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-14",
-  "count": 88
+  "count": 103
  },
  "runs": [
-  {
-   "at": "2026-10-06T20:22:03.054Z",
-   "ms": 513311,
-   "discovered": 114,
-   "fetched": 111,
-   "classified": 97,
-   "protests": 57,
-   "summarized": 7,
-   "published": 19,
-   "live": 6,
-   "aiCalls": 21,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 23 files, 102 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 48 protest-word items",
-    "fetch: 111 ok, 3 failed",
-    "classify: new candidate ef5c0cbd6c8 \"Sanitation workers strike over regularisation, job security\" (Mandsaur)",
-    "classify: new candidate edc4df8c2be \"Dalit Mahasabha protests for Kambala event in Mysuru\" (Mysuru)",
-    "classify: new candidate e5c6ae656c4 \"Congress, AAP, Left plan march to Delhi CEO's office\" (Delhi)",
-    "classify: new candidate ea011bfafe6 \"BJP workers protest outside police station over bomb attack.\" (Khardah)",
-    "classify: new candidate e176ef75861 \"ASHA workers protest for ₹15,000 monthly pay and better conditions.\" (Karwar)",
-    "classify: new candidate e6e3f301937 \"Allahabad University students protest fee hikes and inadequate facilities.\" (Prayagraj)",
-    "classify: new candidate e3d2f0afda6 \"Protesters demand FIR against police officer for molestation\" (Delhi)",
-    "classify: new candidate e9ece98d390 \"MP Congress protests detention of Rahul, Priyanka Gandhi\" (Bhopal)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-07T00:45:52.718Z",
    "ms": 362532,
@@ -1414,8 +1384,39 @@
     "translate: 2 events"
    ],
    "translated": 2
+  },
+  {
+   "at": "2026-10-14T21:45:16.508Z",
+   "ms": 157907,
+   "discovered": 65,
+   "fetched": 59,
+   "classified": 39,
+   "protests": 16,
+   "summarized": 5,
+   "published": 67,
+   "live": 11,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 18 files, 57 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 49 protest-word items",
+    "fetch: 59 ok, 6 failed",
+    "classify: new candidate e382685f918 \"TVK and INDIA bloc protest in Chennai against CEC and SIR\" (Chennai)",
+    "classify: new candidate eb7d20b1d19 \"Protesters interrupt War Secretary Pete Hegseth at Army event\" (Washington)",
+    "classify: new candidate e384921eec3 \"Supporters march in Manipur and hold sit-in for Congress MP\" (Imphal)",
+    "classify: new candidate e3b88475284 \"BJP holds Jan Jagaran rallies in Assam targeting INDIA bloc\" (Guwahati)",
+    "classify: new candidate ec5fe94f046 \"Protests erupt in Austin over parking dispute\" (Austin)",
+    "classify: new candidate ee2a18dd82c \"Residents protest housing costs and mass tourism\" (Barcelona)",
+    "classify: new candidate e5b3d531e76 \"Students protest campus rape culture at UC Davis\" (Davis)",
+    "summary: ec2ecff891c only 1 independent publisher(s) on-story — not applied",
+    "summary: ee2a18dd82c only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261014171500",
- "lastRunAt": "2026-10-14T17:16:27.328Z"
+ "gdeltCursor": "20261014214500",
+ "lastRunAt": "2026-10-14T21:45:16.508Z"
 }
