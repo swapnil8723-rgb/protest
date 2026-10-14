@@ -1,39 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-13",
-  "count": 146
+  "day": "2026-10-14",
+  "count": 27
  },
  "runs": [
-  {
-   "at": "2026-10-06T10:36:04.411Z",
-   "ms": 820679,
-   "discovered": 6,
-   "fetched": 6,
-   "classified": 5,
-   "protests": 4,
-   "summarized": 3,
-   "published": 17,
-   "live": 7,
-   "aiCalls": 31,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 1 files, 5 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 51 protest-word items",
-    "fetch: 6 ok, 0 failed",
-    "reader: rejected 8acb97e6b0fddc35-1.json: check: Automated system test, not a real protest.",
-    "reader: 0 published, 0 held, 0 duplicates, 1 rejected, 0 waiting",
-    "translate: e44c6ebb945 dropped hi (summary), mr (summary)",
-    "translate: ed964b0250c dropped hi (summary), mr (summary)",
-    "translate: ecac05f938c dropped es (summary), fr (summary)",
-    "translate: e2051c6b95d dropped hi (summary), mr (summary)",
-    "translate: ec09c1d2b27 dropped hi (summary), mr (summary)",
-    "translate: eac1de65fcb dropped hi (summary), mr (summary)",
-    "translate: e18b19af925 dropped es (summary), fr (summary)",
-    "translate: 17 events into hi, mr, es, fr, de"
-   ],
-   "translated": 17
-  },
   {
    "at": "2026-10-06T10:58:15.456Z",
    "ms": 321203,
@@ -1416,8 +1386,36 @@
     "translate: 2 events"
    ],
    "translated": 2
+  },
+  {
+   "at": "2026-10-14T04:27:47.656Z",
+   "ms": 258461,
+   "discovered": 84,
+   "fetched": 81,
+   "classified": 66,
+   "protests": 25,
+   "summarized": 12,
+   "published": 65,
+   "live": 14,
+   "aiCalls": 27,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 23 files, 76 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 62 protest-word items",
+    "fetch: 81 ok, 3 failed",
+    "classify: new candidate e3c35d6fe91 \"BJP launches Jan Jagaran processions in Nalbari\" (Nalbari)",
+    "classify: new candidate eb8574db396 \"Advocates hold press conference supporting ICE detainee hunger strike\" (Atlanta)",
+    "classify: new candidate e378712f297 \"Hundreds protest in Ithaca over Cornell University sexual assault handling\" (Ithaca)",
+    "classify: new candidate e88c710df1a \"Uttar Pradesh MBBS doctors protest over pay and salary arrears\" (Lucknow)",
+    "classify: new candidate e8ff83718e2 \"Boston Common rally stands in solidarity with sexual assault survivors\" (Boston)",
+    "classify: new candidate e0849d1ea53 \"Operation Save America anti-abortion demonstrations in Little Rock\" (Little Rock)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 9 events"
+   ],
+   "translated": 9
   }
  ],
- "gdeltCursor": "20261013224500",
- "lastRunAt": "2026-10-13T22:49:49.026Z"
+ "gdeltCursor": "20261014043000",
+ "lastRunAt": "2026-10-14T04:27:47.656Z"
 }
