@@ -1,32 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-14",
-  "count": 58
+  "count": 82
  },
  "runs": [
-  {
-   "at": "2026-10-06T11:37:43.318Z",
-   "ms": 706818,
-   "discovered": 12,
-   "fetched": 10,
-   "classified": 9,
-   "protests": 5,
-   "summarized": 2,
-   "published": 17,
-   "live": 6,
-   "aiCalls": 20,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 2 files, 9 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 60 protest-word items",
-    "fetch: 10 ok, 2 failed",
-    "classify: new candidate ea9add5a8f6 \"CPI(M) protests early toll collection at Nattika\" (Thrissur)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 17 events"
-   ],
-   "translated": 17
-  },
   {
    "at": "2026-10-06T14:44:57.671Z",
    "ms": 588510,
@@ -1411,8 +1388,41 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-14T16:16:27.445Z",
+   "ms": 245333,
+   "discovered": 80,
+   "fetched": 77,
+   "classified": 68,
+   "protests": 23,
+   "summarized": 10,
+   "published": 66,
+   "live": 12,
+   "aiCalls": 24,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 17 files, 60 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 44 protest-word items",
+    "fetch: 77 ok, 3 failed",
+    "classify: new candidate e6087a905e6 \"French students and unions stage nationwide protests over school conditions\" (Saint-Denis)",
+    "classify: new candidate ea8d1a03bdb \"Planned No Kings protests against administration policies in NYC\" (Philadelphia)",
+    "classify: new candidate e5b9d0cbfa5 \"Hindu College Staff Association protests against administration in Delhi\" (Delhi)",
+    "classify: new candidate e10c194e9c2 \"Cockroach Janata Party calls Tiranga march in Delhi\" (Delhi)",
+    "classify: new candidate e61a1f73719 \"Farmers protest at canal regulator for water release\" (Karimnagar)",
+    "classify: new candidate e54104b4e88 \"Government teachers announce state-wide protest over pension\" (Chennai)",
+    "classify: new candidate e7e8ef8074b \"Animal rights campaigners protest outside Pret a Manger\" (London)",
+    "classify: new candidate ee6117435f9 \"Farmers withdraw highway blockades in Haveri and Dharwad\" (Haveri)",
+    "classify: new candidate ea881070e59 \"Grieving family stages sit-in at India Gate over gubernatorial appointment\" (Delhi)",
+    "classify: new candidate ee7c8bc2d92 \"Student groups protest outside IIT Bombay over student death\" (Mumbai)",
+    "summary: ec2ecff891c only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261014120000",
- "lastRunAt": "2026-10-14T11:59:16.528Z"
+ "gdeltCursor": "20261014161500",
+ "lastRunAt": "2026-10-14T16:16:27.445Z"
 }
