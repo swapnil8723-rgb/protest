@@ -1,41 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-15",
-  "count": 92
+  "count": 109
  },
  "runs": [
-  {
-   "at": "2026-10-09T10:39:35.670Z",
-   "ms": 635739,
-   "discovered": 173,
-   "fetched": 172,
-   "classified": 145,
-   "protests": 65,
-   "summarized": 9,
-   "published": 32,
-   "live": 7,
-   "aiCalls": 28,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 6 older files skipped (cap)",
-    "gdelt: 32 files, 129 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 62 protest-word items",
-    "fetch: 172 ok, 1 failed",
-    "classify: new candidate eb3963df696 \"Nadapparai residents stage sit-in over land acquisition\" (Vellore)",
-    "classify: new candidate ed38f659448 \"Lawyers rally in Lahore for Imran Khan release\" (Lahore)",
-    "classify: new candidate e2ee1ac9e78 \"INDIA bloc protest in Faridabad against Chief Election Commissioner\" (Faridabad)",
-    "classify: new candidate e9a671b590c \"Rally on National Mall against sexual violence\" (Washington)",
-    "classify: new candidate ed08f139a03 \"AISF members detained in Itarsi ahead of Delhi protest\" (Itarsi)",
-    "classify: new candidate ebb9298c037 \"Protest against Hunter Nation rally in Green Bay\" (Green Bay)",
-    "classify: new candidate e2b850b5560 \"Villagers stage Jal Satyagraha over irrigation project displacement\" (Panna)",
-    "classify: new candidate e869aa55b70 \"Job aspirants protest in Patna over recruitment\" (Patna)",
-    "classify: new candidate e8c0830f3c9 \"Students protest at Rajasthan Technical University over student death\" (Kota)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-09T11:51:15.675Z",
    "ms": 180092,
@@ -1397,8 +1365,39 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-15T21:27:47.531Z",
+   "ms": 178836,
+   "discovered": 72,
+   "fetched": 67,
+   "classified": 46,
+   "protests": 16,
+   "summarized": 7,
+   "published": 76,
+   "live": 13,
+   "aiCalls": 17,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 18 files, 56 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 55 protest-word items",
+    "fetch: 67 ok, 5 failed",
+    "classify: new candidate ecf64f9f0bd \"Locals protest murder of former customs official in Bhojpur\" (Arrah)",
+    "classify: new candidate e34fc8c321c \"CCYO lifts forest office picketing in Phek district after settlement\" (Phek)",
+    "classify: new candidate e79f7e343d5 \"Protester dies during Punjab bandh dharna in Ludhiana\" (Ludhiana)",
+    "classify: new candidate efc9fed2abb \"Opposition lawmakers protest during emergency vote in Parliament\" (Islamabad)",
+    "classify: new candidate e5022519dbf \"Defend Democracy ICT plans No Kings protest in Wichita\" (Wichita)",
+    "classify: new candidate ea541543b59 \"Haryana khap plans Oct. 22 sit-in over news anchor’s arrest\" (Jind)",
+    "classify: new candidate e07233793b8 \"SRFTI students rusticated for campus clash and vandalism\" (Kolkata)",
+    "classify: new candidate e92bb057f1a \"No Kings movement plans early voting events across Illinois\" (Chicago)",
+    "classify: new candidate ebb2019bd27 \"Pro-Active Alliance plans No Kings early-voting rally in Kimball Junction\" (Park City)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261015170000",
- "lastRunAt": "2026-10-15T17:05:30.611Z"
+ "gdeltCursor": "20261015213000",
+ "lastRunAt": "2026-10-15T21:27:47.531Z"
 }
