@@ -1,33 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-14",
-  "count": 103
+  "day": "2026-10-15",
+  "count": 10
  },
  "runs": [
-  {
-   "at": "2026-10-07T00:45:52.718Z",
-   "ms": 362532,
-   "discovered": 67,
-   "fetched": 67,
-   "classified": 48,
-   "protests": 29,
-   "summarized": 6,
-   "published": 21,
-   "live": 7,
-   "aiCalls": 14,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 17 files, 63 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 41 protest-word items",
-    "fetch: 67 ok, 0 failed",
-    "classify: new candidate ef92c4e18f1 \"Protesters arrested protecting trees for border wall\" (Nogales)",
-    "classify: new candidate e9378c4c09e \"UCLA students plan pro-Palestine demonstration\" (Los Angeles)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-07T10:20:39.056Z",
    "ms": 544969,
@@ -1415,8 +1391,33 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-15T01:05:21.148Z",
+   "ms": 126064,
+   "discovered": 41,
+   "fetched": 40,
+   "classified": 27,
+   "protests": 12,
+   "summarized": 4,
+   "published": 67,
+   "live": 10,
+   "aiCalls": 10,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 14 files, 37 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 46 protest-word items",
+    "fetch: 40 ok, 1 failed",
+    "classify: new candidate e93918a3ffb \"Surrendered Maoist goes on hunger strike in prison\" (Sakleshpur)",
+    "classify: new candidate e3c3c84b8d3 \"District Congress holds candlelight march over murder of activist\" (Ludhiana)",
+    "classify: new candidate e7a5556ab13 \"Students protest over wildfires and haze in Sumatra\" (Palembang)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261014214500",
- "lastRunAt": "2026-10-14T21:45:16.508Z"
+ "gdeltCursor": "20261015011500",
+ "lastRunAt": "2026-10-15T01:05:21.148Z"
 }
