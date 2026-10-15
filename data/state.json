@@ -1,43 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-15",
-  "count": 64
+  "count": 85
  },
  "runs": [
-  {
-   "at": "2026-10-08T10:40:22.221Z",
-   "ms": 532764,
-   "discovered": 138,
-   "fetched": 133,
-   "classified": 113,
-   "protests": 70,
-   "summarized": 15,
-   "published": 30,
-   "live": 5,
-   "aiCalls": 37,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 7 older files skipped (cap)",
-    "gdelt: 32 files, 113 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 44 protest-word items",
-    "fetch: 133 ok, 5 failed",
-    "classify: new candidate e87887fd0fd \"Chico State students rally against sexual assault\" (Chico)",
-    "classify: new candidate ef896b25e08 \"Congress plans democracy protection meetings in Kerala\" (Thiruvananthapuram)",
-    "classify: new candidate e2555303760 \"INDIA bloc parties hold bandh over mining law\" (Bhubaneswar)",
-    "classify: new candidate eb221623c72 \"Allahabad University students march for women's safety\" (Prayagraj)",
-    "classify: new candidate e5dff5baebf \"Southwark Council protest in Parliament Square over budget cuts\" (London)",
-    "classify: new candidate eeb8a4dcb8a \"Pro-Palestine demonstration in Berlin\" (Berlin)",
-    "classify: new candidate e9cbc40f2eb \"Thousands march in Madrid over eviction death\" (Madrid)",
-    "classify: new candidate e8a78c29caa \"Protesters gather outside Fresno ICE office\" (Fresno)",
-    "classify: new candidate ef31aebc2cd \"Karnataka Congress protests over detention of opposition leaders\" (Bengaluru)",
-    "classify: new candidate e66910aa8e9 \"Anti-migrant protest in Glasgow\" (Glasgow)",
-    "classify: new candidate eae395e7ded \"Batam residents protest water shortages\" (Batam)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 12 events"
-   ],
-   "translated": 12
-  },
   {
    "at": "2026-10-09T01:15:02.439Z",
    "ms": 309972,
@@ -1404,8 +1370,49 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-15T16:16:24.798Z",
+   "ms": 226221,
+   "discovered": 128,
+   "fetched": 125,
+   "classified": 94,
+   "protests": 41,
+   "summarized": 8,
+   "published": 75,
+   "live": 12,
+   "aiCalls": 21,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 19 files, 107 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 48 protest-word items",
+    "fetch: 125 ok, 3 failed",
+    "classify: new candidate eabfd45f1e6 \"KCP-Apunba shutdown in Manipur disrupting normal life\" (Imphal)",
+    "classify: new candidate e07e23b4e99 \"No Kings movement plans rallies for midterm voter turnout\" (Huntington)",
+    "classify: new candidate e51e8b80ce2 \"Activists deliver petition to Downing Street against water firms\" (London)",
+    "classify: new candidate e7aa8e66893 \"Congress leaders detained outside Lok Bhavan over Ankita Bhandari case\" (Dehradun)",
+    "classify: new candidate ed1a3f3ed1e \"INDIA bloc leaders in Tamil Nadu stage protest against SIR\" (Chennai)",
+    "classify: new candidate eb33b09dd57 \"Sugarcane farmers protest in Mysuru over FRP\" (Mysuru)",
+    "classify: new candidate eee1ac99f60 \"Indivisible movement plans No Dictators protests in Hawaii\" (Hilo)",
+    "classify: new candidate ebd35f8a205 \"Former Rockstar Games staff hold rally in Glasgow\" (Glasgow)",
+    "classify: new candidate e1dca176e9e \"Students protest administration circular at Ambedkar University\" (Delhi)",
+    "classify: new candidate e7ed28ad42f \"Migrant textile workers strike in Surat demanding holidays\" (Surat)",
+    "classify: new candidate eb53cc312cf \"Students plan protest in London against hijab restrictions in Azerbaijan\" (London)",
+    "classify: new candidate e288594d57b \"Yale union members protest and warn of possible strike\" (New Haven)",
+    "classify: new candidate e6150fe6a07 \"Indivisible Nevada County announces No Kings protest\" (Grass Valley)",
+    "classify: new candidate edd957c6bff \"CJP granted permission for Tricolour march in Mumbai\" (Mumbai)",
+    "classify: new candidate ee7dc5b93d8 \"Hundreds hold protest over Bali fuel shortage\" (Denpasar)",
+    "classify: new candidate e6ec7c15440 \"AISF and AIYF stage Tiranga march in New Delhi\" (Delhi)",
+    "classify: new candidate e211bbe32ab \"Sugarcane growers march to Hubballi demanding MSP\" (Hubballi)",
+    "classify: new candidate ed652f92130 \"CJP announces national Lehra Do Tiranga protest\" (Delhi)",
+    "classify: new candidate ea99af475c3 \"NDMC closes Central Park ahead of CJP march\" (Delhi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261015113000",
- "lastRunAt": "2026-10-15T11:36:16.943Z"
+ "gdeltCursor": "20261015161500",
+ "lastRunAt": "2026-10-15T16:16:24.798Z"
 }
