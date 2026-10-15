@@ -1,39 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-15",
-  "count": 22
+  "count": 48
  },
  "runs": [
-  {
-   "at": "2026-10-07T18:58:29.283Z",
-   "ms": 997245,
-   "discovered": 180,
-   "fetched": 177,
-   "classified": 132,
-   "protests": 79,
-   "summarized": 15,
-   "published": 24,
-   "live": 5,
-   "aiCalls": 37,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 3 older files skipped (cap)",
-    "gdelt: 32 files, 152 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 44 protest-word items",
-    "fetch: 177 ok, 3 failed",
-    "classify: new candidate ec529984a73 \"Detained immigrants launch hunger strike against prolonged detention\" (Folkston)",
-    "classify: new candidate e016069a233 \"Essex activists plan unity march against racism and far right\" (Chelmsford)",
-    "classify: new candidate e3266bc6b98 \"Textile merchants protest proposed UPI charge in Kochi\" (Kochi)",
-    "classify: new candidate efaa87577b9 \"Contract health employees strike for regularisation and full salaries\" (Visakhapatnam)",
-    "classify: new candidate edfc98d0ff8 \"SFI protests Kerala Higher Education Minister over alleged police excesses\" (Thiruvananthapuram)",
-    "classify: new candidate e5635531dfd \"Left student groups' convention and ABVP protest at Jadavpur University\" (Kolkata)",
-    "summary: edcb3f2ede7 judged not real: The sources describe a scheduled protest for October 10, not a physical protest action that has occurred.",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 10 events"
-   ],
-   "translated": 10
-  },
   {
    "at": "2026-10-08T01:02:36.161Z",
    "ms": 503937,
@@ -1409,8 +1379,37 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-15T07:43:59.645Z",
+   "ms": 361422,
+   "discovered": 79,
+   "fetched": 76,
+   "classified": 67,
+   "protests": 30,
+   "summarized": 12,
+   "published": 71,
+   "live": 12,
+   "aiCalls": 26,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 61 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 65 protest-word items",
+    "fetch: 76 ok, 3 failed",
+    "classify: new candidate e21e9445b11 \"Farmers and supporters protest in Amritsar during Punjab bandh\" (Amritsar)",
+    "classify: new candidate e648b339164 \"Punjab bandh called over activist murder\" (Mansa)",
+    "classify: new candidate e8409b0e47d \"Protesters gather outside Trump rally in Kalispell\" (Kalispell)",
+    "classify: new candidate ee081ad7373 \"Actor Imran Khan asked to leave India over anti-CEC protest\" (Mumbai)",
+    "classify: new candidate eda98eb97f5 \"Mumbai Police notice to OCI holder over anti-CEC protest\" (Mumbai)",
+    "classify: new candidate e690ab20d17 \"Mumbai Police order actor to leave India over protest participation\" (Mumbai)",
+    "classify: new candidate e665c633424 \"Teachers strike and protest in Madrid over pay and workload\" (Madrid)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 8 events"
+   ],
+   "translated": 8
   }
  ],
- "gdeltCursor": "20261015043000",
- "lastRunAt": "2026-10-15T04:27:47.057Z"
+ "gdeltCursor": "20261015074500",
+ "lastRunAt": "2026-10-15T07:43:59.645Z"
 }
