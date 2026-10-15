@@ -1,48 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-15",
-  "count": 85
+  "count": 92
  },
  "runs": [
-  {
-   "at": "2026-10-09T01:15:02.439Z",
-   "ms": 309972,
-   "discovered": 128,
-   "fetched": 115,
-   "classified": 91,
-   "protests": 51,
-   "summarized": 13,
-   "published": 31,
-   "live": 8,
-   "aiCalls": 31,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 26 older files skipped (cap)",
-    "gdelt: 32 files, 97 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 47 protest-word items",
-    "fetch: 115 ok, 13 failed",
-    "classify: new candidate eb25e8cec7a \"Raijor Dal protests in Guwahati over flood compensation\" (Guwahati)",
-    "classify: new candidate ec91eb2737d \"Congress protests in Udaipur against electoral roll revision\" (Udaipur)",
-    "classify: new candidate ef7a8261c26 \"Tamil Nadu Congress protests Rahul Gandhi's arrest and demands CEC removal\" (Chennai)",
-    "classify: new candidate e57367ce168 \"Indian opposition demonstrates for third day against poll chief and police\" (Bengaluru)",
-    "classify: new candidate e34889816e5 \"Women's groups protest outside Windham State Prison against trans inmates\" (Windham)",
-    "classify: new candidate e4c2ad10efc \"Congress protests police action against opposition leaders in Guwahati\" (Guwahati)",
-    "classify: new candidate e773b8e3857 \"Delhi BJP women's wing protests outside Congress HQ\" (Delhi)",
-    "classify: new candidate e29752e53f9 \"California public sector union announces one-day strike\" (Sacramento)",
-    "classify: new candidate eb50751a690 \"Samajwadi Party march in Prayagraj demanding CEC removal\" (Prayagraj)",
-    "classify: new candidate e02bb455ecc \"CJP volunteers detained in Bhopal ahead of Delhi protest\" (Bhopal)",
-    "classify: new candidate eef396cdfbb \"Faith and tribal leaders rally against border wall in Tucson\" (Tucson)",
-    "classify: new candidate edca7cb6fd0 \"CJP youth movement members detained ahead of Delhi protest\" (Bengaluru)",
-    "classify: new candidate e2bddf03378 \"Protesters rally in New York City against sexual violence\" (New York City)",
-    "classify: new candidate e2a08847315 \"Demonstrators hold anti-ICE protest in New York City\" (New York City)",
-    "classify: new candidate e130fec92dd \"Demonstrators rally in Philadelphia in support of Cornell survivor\" (Philadelphia)",
-    "classify: new candidate e84ed022974 \"Congress workers stage dharna at Rajghat over police action\" (Delhi)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 10 events"
-   ],
-   "translated": 10
-  },
   {
    "at": "2026-10-09T10:39:35.670Z",
    "ms": 635739,
@@ -1411,8 +1372,33 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-15T17:05:30.611Z",
+   "ms": 91332,
+   "discovered": 26,
+   "fetched": 25,
+   "classified": 12,
+   "protests": 7,
+   "summarized": 3,
+   "published": 76,
+   "live": 13,
+   "aiCalls": 7,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 3 files, 17 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 47 protest-word items",
+    "fetch: 25 ok, 1 failed",
+    "classify: new candidate eda969c3967 \"MLA Akhil Gogoi ends sit-in over flood compensation\" (Guwahati)",
+    "classify: new candidate ead06a4be60 \"No Kings movement plans rallies for early voting\" (Farmington Hills)",
+    "classify: new candidate e91b1173e2f \"Traffic police roadside demonstration for disability awareness\" (Dimapur)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261015161500",
- "lastRunAt": "2026-10-15T16:16:24.798Z"
+ "gdeltCursor": "20261015170000",
+ "lastRunAt": "2026-10-15T17:05:30.611Z"
 }
