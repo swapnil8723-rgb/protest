@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-16",
-  "count": 62
+  "count": 70
  },
  "runs": [
-  {
-   "at": "2026-10-10T00:55:54.832Z",
-   "ms": 162551,
-   "discovered": 35,
-   "fetched": 34,
-   "classified": 29,
-   "protests": 19,
-   "summarized": 5,
-   "published": 35,
-   "live": 7,
-   "aiCalls": 12,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261010003000 http://data.gdeltproject.org/gdeltv2/20261010003000.export.CSV.zip → 404",
-    "gdelt: 12 files, 22 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 65 protest-word items",
-    "fetch: 34 ok, 1 failed",
-    "classify: new candidate e11ecfbbec2 \"Protesters demonstrate outside Hillel at University of Oregon\" (Eugene)",
-    "classify: new candidate e16e9f71a03 \"CJP activists detained in Rajasthan ahead of Delhi protest\" (Alwar)",
-    "classify: new candidate e46c6a19928 \"Protesters in Santa Cruz rally against sexual violence\" (Santa Cruz)",
-    "classify: new candidate eacb4e912e6 \"Muslim mob protests and sets fire to Christian's home\" (Narang Mandi)",
-    "classify: new candidate e68df8395ef \"School support staff rally and strike in London over pay\" (London)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-10T04:27:50.564Z",
    "ms": 187657,
@@ -1400,8 +1372,35 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-16T16:16:24.501Z",
+   "ms": 796464,
+   "discovered": 111,
+   "fetched": 108,
+   "classified": 0,
+   "protests": 0,
+   "summarized": 0,
+   "published": 78,
+   "live": 11,
+   "aiCalls": 8,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 19 files, 82 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 60 protest-word items",
+    "fetch: 108 ok, 3 failed",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "AI budget: run time cap 13 min reached — remaining work waits for a later run"
+   ],
+   "translated": 0
   }
  ],
- "gdeltCursor": "20261016113000",
- "lastRunAt": "2026-10-16T11:30:28.102Z"
+ "gdeltCursor": "20261016161500",
+ "lastRunAt": "2026-10-16T16:16:24.501Z"
 }
