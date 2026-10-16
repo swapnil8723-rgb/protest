@@ -1,41 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-16",
-  "count": 11
+  "count": 23
  },
  "runs": [
-  {
-   "at": "2026-10-09T16:16:26.564Z",
-   "ms": 267366,
-   "discovered": 92,
-   "fetched": 88,
-   "classified": 75,
-   "protests": 52,
-   "summarized": 11,
-   "published": 34,
-   "live": 8,
-   "aiCalls": 26,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 17 files, 65 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 62 protest-word items",
-    "fetch: 88 ok, 4 failed",
-    "classify: new candidate e5688c7071a \"Students rally and march against police violence\" (Jackson)",
-    "classify: new candidate e19fb91dc57 \"Anti-racists protest against proposed burqa ban\" (Edinburgh)",
-    "classify: new candidate e0b6e8d13c6 \"BJP plans protest against AAP government in Chandigarh over corruption\" (Chandigarh)",
-    "classify: new candidate e985f0a66e0 \"Mother protests bail for accused police in Sivaganga court\" (Sivaganga)",
-    "classify: new candidate e18e056a7e0 \"Family and crowd protest teenager death in Faridabad\" (Faridabad)",
-    "classify: new candidate e4610f2a63a \"Youth protest in Srinagar over Delhi assault on Kashmiri youth\" (Srinagar)",
-    "classify: new candidate eca4031df09 \"Textile workers protest in Surat for 8-hour workdays\" (Surat)",
-    "classify: new candidate e9bb8fe225d \"Sugarcane farmers threaten highway blockade in Karnataka\" (Kalaburagi)",
-    "classify: new candidate e2505af30a7 \"Demonstrators protest sexual assault across US cities\" (Washington)",
-    "classify: new candidate e833372a22c \"Student and youth groups protest in Hosapete against SIR\" (Hosapete)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 8 events"
-   ],
-   "translated": 8
-  },
   {
    "at": "2026-10-09T18:23:33.463Z",
    "ms": 382301,
@@ -1402,8 +1370,37 @@
     "translate: 2 events"
    ],
    "translated": 2
+  },
+  {
+   "at": "2026-10-16T04:27:46.910Z",
+   "ms": 124822,
+   "discovered": 48,
+   "fetched": 48,
+   "classified": 40,
+   "protests": 18,
+   "summarized": 4,
+   "published": 76,
+   "live": 11,
+   "aiCalls": 12,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 33 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 44 protest-word items",
+    "fetch: 48 ok, 0 failed",
+    "classify: new candidate ece1e233ae5 \"INDIA bloc plans protest outside Delhi CEO office\" (Delhi)",
+    "classify: new candidate e80f6ce8535 \"Sitkans organize No Kings early voting rally\" (Sitka)",
+    "classify: new candidate eb3a8a07e0f \"Congress leader undertakes Yatra over electoral rolls\" (Ujjain)",
+    "classify: new candidate e691c41e4e0 \"Tribal people march to Bhopal against house demolitions\" (Bhopal)",
+    "classify: new candidate e820641d964 \"Immigrant rights activists rally in Riverside against ICE\" (Riverside)",
+    "classify: new candidate e725a66214e \"Bharatiya Kisan Sangh plans farm relief rally in Vijayawada\" (Vijayawada)",
+    "classify: new candidate ebd1d59df2b \"French students and trade unionists protest school conditions\" (Paris)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261016011500",
- "lastRunAt": "2026-10-16T01:05:22.348Z"
+ "gdeltCursor": "20261016043000",
+ "lastRunAt": "2026-10-16T04:27:46.910Z"
 }
