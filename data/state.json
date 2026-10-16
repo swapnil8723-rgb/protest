@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-16",
-  "count": 23
+  "count": 40
  },
  "runs": [
-  {
-   "at": "2026-10-09T18:23:33.463Z",
-   "ms": 382301,
-   "discovered": 39,
-   "fetched": 37,
-   "classified": 9,
-   "protests": 6,
-   "summarized": 2,
-   "published": 34,
-   "live": 8,
-   "aiCalls": 7,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261009180000 http://data.gdeltproject.org/gdeltv2/20261009180000.export.CSV.zip → 404",
-    "gdelt: 9 files, 23 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 62 protest-word items",
-    "fetch: 37 ok, 2 failed",
-    "classify: batch failed: The operation was aborted due to timeout",
-    "classify: batch failed: The operation was aborted due to timeout",
-    "classify: new candidate ed2cf500b64 \"Family plans protest over police shooting of teenager\" (Newnan)",
-    "classify: new candidate e57ba01e31e \"Former BSF personnel protest against dismissal from service\" (Delhi)",
-    "classify: new candidate eb3f0a97efe \"Left parties rally in Visakhapatnam demanding CEC removal\" (Visakhapatnam)",
-    "classify: new candidate e033ee96ace \"Students protest in Belfast against public transport cuts\" (Belfast)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 2 events"
-   ],
-   "translated": 2
-  },
   {
    "at": "2026-10-09T21:53:17.011Z",
    "ms": 181658,
@@ -1399,8 +1370,36 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-16T07:44:00.191Z",
+   "ms": 247928,
+   "discovered": 76,
+   "fetched": 73,
+   "classified": 64,
+   "protests": 23,
+   "summarized": 7,
+   "published": 77,
+   "live": 13,
+   "aiCalls": 17,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 52 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 48 protest-word items",
+    "fetch: 73 ok, 3 failed",
+    "classify: new candidate e304add472f \"NSUI members protest at police station over alleged assault\" (Delhi)",
+    "classify: new candidate eaa8fc57ac4 \"Tribal students march to Azad Maidan against tribal minister\" (Mumbai)",
+    "classify: new candidate e085c8719fd \"Residents protest against apartment construction irregularities\" (Kochi)",
+    "classify: new candidate e6b278d60f3 \"Indonesian protesters demand action against forest fires\" (Jakarta)",
+    "classify: new candidate e990b0e291d \"TDP and YSRCP activists clash during nomination filing\" (Punganuru)",
+    "classify: new candidate ed45061a62f \"Cockroach Janta Party plans protest at Pune Collectorate\" (Pune)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261016043000",
- "lastRunAt": "2026-10-16T04:27:46.910Z"
+ "gdeltCursor": "20261016074500",
+ "lastRunAt": "2026-10-16T07:44:00.191Z"
 }
