@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-16",
-  "count": 117
+  "count": 122
  },
  "runs": [
-  {
-   "at": "2026-10-10T09:55:39.237Z",
-   "ms": 219846,
-   "discovered": 124,
-   "fetched": 122,
-   "classified": 115,
-   "protests": 103,
-   "summarized": 8,
-   "published": 38,
-   "live": 9,
-   "aiCalls": 23,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 14 files, 92 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 105 protest-word items",
-    "fetch: 122 ok, 2 failed",
-    "classify: new candidate e5292de9425 \"Tushar Gandhi detained in Mumbai ahead of CJP solidarity protest\" (Mumbai)",
-    "classify: new candidate ed8395a3c07 \"Rajasthan police detain individuals heading to CJP protest in Delhi\" (Jaipur)",
-    "classify: new candidate e61a8e8a9aa \"YouTuber Dhruv Rathee detained ahead of CJP protest in Delhi\" (Delhi)",
-    "classify: new candidate ec415e51fce \"AISF and AIYF cadres arrested in Chennai anti-CEC protest\" (Chennai)",
-    "classify: new candidate e0bc76ab8f5 \"BJP Mahila Morcha protests outside Congress office in Lucknow\" (Lucknow)",
-    "classify: new candidate e7eca23d908 \"INDIA bloc announces protest in Delhi over voting rights\" (Delhi)",
-    "classify: new candidate e595a1b95a5 \"Union workers and drivers rally against robotaxis in Washington\" (Washington)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-10T11:30:56.955Z",
    "ms": 237845,
@@ -1419,8 +1390,35 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-16T23:41:28.351Z",
+   "ms": 154836,
+   "discovered": 40,
+   "fetched": 39,
+   "classified": 29,
+   "protests": 7,
+   "summarized": 1,
+   "published": 80,
+   "live": 12,
+   "aiCalls": 5,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 10 files, 38 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 58 protest-word items",
+    "fetch: 39 ok, 1 failed",
+    "classify: new candidate e9d2fa41890 \"Indian diaspora stages counter-protest in support of PM Modi\" (London)",
+    "classify: new candidate e7ee796290e \"Protesters interrupt Trump campaign rally in Dalton\" (Dalton)",
+    "classify: new candidate ebf34b7d42d \"Mashpee Tribe rallies against gambling expansion\" (Boston)",
+    "classify: new candidate e01bc4d2b8d \"No Kings movement plans rallies in Louisville\" (Louisville)",
+    "classify: new candidate e3af114f41b \"Family and supporters rally outside Santa Ana jail for arrested activists\" (Santa Ana)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 1 events"
+   ],
+   "translated": 1
   }
  ],
- "gdeltCursor": "20261016211500",
- "lastRunAt": "2026-10-16T21:15:53.540Z"
+ "gdeltCursor": "20261016234500",
+ "lastRunAt": "2026-10-16T23:41:28.351Z"
 }
