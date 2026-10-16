@@ -1,32 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-16",
-  "count": 108
+  "count": 117
  },
  "runs": [
-  {
-   "at": "2026-10-10T06:25:20.515Z",
-   "ms": 216357,
-   "discovered": 65,
-   "fetched": 65,
-   "classified": 59,
-   "protests": 39,
-   "summarized": 4,
-   "published": 36,
-   "live": 9,
-   "aiCalls": 12,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 8 files, 51 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 88 protest-word items",
-    "fetch: 65 ok, 0 failed",
-    "classify: new candidate e4000d0657e \"YouTuber detained ahead of CJP protest against CEC\" (Gurugram)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-10T09:55:39.237Z",
    "ms": 219846,
@@ -1416,8 +1393,34 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-10-16T21:15:53.540Z",
+   "ms": 97292,
+   "discovered": 33,
+   "fetched": 30,
+   "classified": 23,
+   "protests": 10,
+   "summarized": 4,
+   "published": 80,
+   "live": 12,
+   "aiCalls": 9,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 7 files, 24 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 59 protest-word items",
+    "fetch: 30 ok, 3 failed",
+    "classify: new candidate e343cfd01ef \"Palestine solidarity movement pressures illegal land sales in NY\" (New York City)",
+    "classify: new candidate e6c53626f87 \"Villagers demand permanent closure of illegal stone quarry in Melur\" (Madurai)",
+    "classify: new candidate e4a94a5fd83 \"Political parties and locals march against toll collection in Nattika\" (Thrissur)",
+    "classify: new candidate e1e9d7d9d4e \"Congress workers stage road blockade in Hubballi over detention\" (Hubballi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261016193000",
- "lastRunAt": "2026-10-16T19:28:43.424Z"
+ "gdeltCursor": "20261016211500",
+ "lastRunAt": "2026-10-16T21:15:53.540Z"
 }
