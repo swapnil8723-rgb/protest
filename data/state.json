@@ -1,33 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-17",
-  "count": 34
+  "count": 45
  },
  "runs": [
-  {
-   "at": "2026-10-10T17:22:00.443Z",
-   "ms": 142285,
-   "discovered": 29,
-   "fetched": 29,
-   "classified": 26,
-   "protests": 21,
-   "summarized": 6,
-   "published": 41,
-   "live": 10,
-   "aiCalls": 13,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 5 files, 22 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 96 protest-word items",
-    "fetch: 29 ok, 0 failed",
-    "classify: new candidate ec98eb43b6a \"BKU farmers protest across Uttar Pradesh demanding CEC resignation\" (Lucknow)",
-    "classify: new candidate ea65e77bb77 \"Farmers leader hospitalised during indefinite hunger strike in Baran\" (Baran)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-10T18:03:07.041Z",
    "ms": 102867,
@@ -1411,8 +1387,36 @@
     "translate: 2 events"
    ],
    "translated": 2
+  },
+  {
+   "at": "2026-10-17T13:48:38.326Z",
+   "ms": 167707,
+   "discovered": 43,
+   "fetched": 42,
+   "classified": 37,
+   "protests": 12,
+   "summarized": 6,
+   "published": 80,
+   "live": 8,
+   "aiCalls": 11,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 29 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 44 protest-word items",
+    "fetch: 42 ok, 1 failed",
+    "classify: new candidate efb589da479 \"Tushar Gandhi announces march in Mumbai for Nov 1\" (Mumbai)",
+    "classify: new candidate eabf2b7934b \"Transgender rights activists protest at London theater\" (London)",
+    "classify: new candidate e52189a3837 \"Protesters clash with police in Lyon over living costs\" (Lyon)",
+    "classify: new candidate e1b543f5499 \"Congress receives approval for Ramlila Maidan rally\" (Delhi)",
+    "classify: new candidate e5f576f2000 \"French protesters clash with police over living costs\" (Paris)",
+    "classify: new candidate e968e40c579 \"Americans for Democracy hold No Kings early voting rally\" (Saint Cloud)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 1 events"
+   ],
+   "translated": 1
   }
  ],
- "gdeltCursor": "20261017110000",
- "lastRunAt": "2026-10-17T10:50:26.468Z"
+ "gdeltCursor": "20261017134500",
+ "lastRunAt": "2026-10-17T13:48:38.326Z"
 }
