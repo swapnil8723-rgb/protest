@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-17",
-  "count": 45
+  "count": 56
  },
  "runs": [
-  {
-   "at": "2026-10-10T18:03:07.041Z",
-   "ms": 102867,
-   "discovered": 15,
-   "fetched": 13,
-   "classified": 13,
-   "protests": 12,
-   "summarized": 3,
-   "published": 42,
-   "live": 9,
-   "aiCalls": 9,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 2 files, 9 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 99 protest-word items",
-    "fetch: 13 ok, 2 failed",
-    "classify: new candidate e5b42bb4e63 \"Protest in Bengaluru demands Bedti-Aghanashini project cancellation\" (Bengaluru)",
-    "classify: new candidate e07b54c1b91 \"Protesters demonstrate in Berlin against German government policies\" (Berlin)",
-    "summary: e354e096ef1 only 1 independent publisher(s) on-story — not applied",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-10T21:48:27.017Z",
    "ms": 274796,
@@ -1415,8 +1390,36 @@
     "translate: 1 events"
    ],
    "translated": 1
+  },
+  {
+   "at": "2026-10-17T15:39:47.286Z",
+   "ms": 299299,
+   "discovered": 28,
+   "fetched": 25,
+   "classified": 19,
+   "protests": 14,
+   "summarized": 5,
+   "published": 82,
+   "live": 11,
+   "aiCalls": 11,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 8 files, 26 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 42 protest-word items",
+    "fetch: 25 ok, 3 failed",
+    "classify: new candidate e2c18d25da2 \"INDIA bloc announces protest against SIR in Bengaluru\" (Bengaluru)",
+    "classify: new candidate ef6046cc52b \"Farmers announce hunger strike in Tirupur for canal water\" (Tiruppur)",
+    "classify: new candidate edf8aa37f2d \"Youth Congress workers protest at BJP office in Ajmer\" (Ajmer)",
+    "classify: new candidate e883d7132f8 \"No Kings movement holds early voting rallies across Texas\" (Austin)",
+    "classify: new candidate ed9646ad51d \"Kisan Sabha stages sit-in over water shortage and crop loss\" (Palakkad)",
+    "classify: new candidate ee0a6f1e6e1 \"No Kings movement plans rallies across Alabama\" (Birmingham)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261017134500",
- "lastRunAt": "2026-10-17T13:48:38.326Z"
+ "gdeltCursor": "20261017154500",
+ "lastRunAt": "2026-10-17T15:39:47.286Z"
 }
