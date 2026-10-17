@@ -15,9 +15,9 @@
  },
  "scope": "nationwide",
  "causes": [
+  "prices",
   "labour",
-  "students",
-  "education"
+  "students"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-17",
@@ -26,43 +26,44 @@
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "serious"
+  "serious",
+  "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated against high living costs, surging fuel and energy prices, economic inequality, and declining public services.",
-  "want": "Demonstrators demanded lower fuel and living costs, opposition to frozen benefits, and improvements to the educational system.",
-  "changed": "Oct 17: Police deployed tear gas and water cannons in Paris as nationwide demonstrations resulted in clashes and over 270 arrests."
+  "why": "Rising cost of living, high fuel prices, frozen public-sector benefits, and poor school conditions.",
+  "want": "Lower fuel costs, better living standards, increased public spending, and improved school conditions.",
+  "changed": "Oct 17: Nationwide clashes, fires, and looting broke out during demonstrations, resulting in hundreds of arrests."
  },
- "summary": "On October 17, 2026, a nationwide wave of demonstrations took place across France, bringing together students, trade unionists, and participants inspired by the Yellow Vest movement. Protesters voiced widespread frustration over soaring inflation, high fuel and energy prices, and inadequate public spending, while students reiterated calls for educational reforms and better school facilities. In Paris and other major cities such as Lyon and Marseille, large marches took place alongside violent incidents involving hooded groups who torched cars, vandalized buildings, and clashed with law enforcement. Authorities deployed thousands of riot police, who used tear gas and water cannons to disperse crowds. The French Interior Ministry reported at least 272 arrests nationwide, while the French Interior Ministry estimated total participation at approximately 550,000 protesters.",
+ "summary": "On October 17, 2026, a nationwide day of action brought together Yellow Vest activists, trade unions such as the CGT, student organizations, and political parties for cost-of-living and anti-austerity protests across France. Demonstrators marched in major cities including Paris, Lyon, Marseille, and Lille to demand lower fuel prices, increased public spending, and better school conditions. While many marched peacefully, violent clashes erupted in several locations, with masked groups setting fires, targeting public buildings and town halls, and looting shops. Police responded with tear gas and water cannons. Interior Minister Laurent Nuñez and police reported around 400 arrests nationwide. French President Emmanuel Macron and Prime Minister Sebastien Lecornu condemned the violence and vandalism, promising that offenders would be prosecuted and punished.",
  "organizers": [
-  "Yellow Vest movement",
   "CGT trade union",
   "France Unbowed party",
-  "French Communist Party"
+  "French Communist Party",
+  "Yellow Vest movement"
  ],
  "demands": [
-  "Lower fuel and living costs",
-  "Opposition to frozen benefits and public-sector salaries",
-  "Improvements to educational facilities and classrooms",
-  "Measures to address social inequality"
+  "Lower fuel costs",
+  "Opposition to frozen public-sector benefits",
+  "Better conditions and more teachers in schools",
+  "Measures to address the rise in living expenses"
  ],
- "response": "According to the Interior Ministry, thousands of police and riot units were deployed, utilizing tear gas and water cannons to disperse violent protesters. Authorities reported at least 272 arrests nationwide and noted numerous incidents of vandalism and clashes with law enforcement.",
+ "response": "According to the Interior Ministry, police deployed tear gas and water cannons to disperse violent groups and make around 400 arrests nationwide. President Emmanuel Macron and Prime Minister Sebastien Lecornu strongly condemned the violence and vandalism, stating that perpetrators will be prosecuted and punished.",
  "numbers": {
   "crowd": {
    "value": 550000,
-   "text": "The French Interior Ministry said around 550,000 people took part in the protests, including roughly 110,000 in Paris.",
+   "text": "about 550,000 people took part, according to the interior ministry, while the CGT union said 800,000 turned out",
    "sources": [
-    4
+    6,
+    8
    ]
   },
   "arrests": {
-   "value": 272,
-   "text": "Police made at least 272 arrests across the country, including in Paris.",
+   "value": 400,
+   "text": "About 400 people were arrested nationwide, interior minister Laurent Nunez said",
    "sources": [
     6,
-    8,
     9,
     10
    ]
@@ -71,37 +72,36 @@
  "updates": [
   {
    "at": "2026-10-16",
-   "text": "Authorities anticipated hundreds of actions nationwide and prepared alternative routes for demonstrations in Paris due to security concerns.",
+   "text": "Authorities prepared for nationwide protests on Saturday, anticipating hundreds of actions and potential clashes.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-17",
-   "text": "Clashes erupted in Paris and other cities as protesters demonstrated against high prices and living costs.",
+   "text": "Protesters and police clashed in Paris, Lyon, Marseille, and other cities as demonstrations began.",
    "sources": [
-    4,
+    5,
     7,
+    8
+   ]
+  },
+  {
+   "at": "2026-10-17",
+   "text": "Interior Minister Laurent Nunez stated that about 400 people were arrested across the country.",
+   "sources": [
+    6,
+    9,
     10
    ]
   },
   {
    "at": "2026-10-17",
-   "text": "Police deployed tear gas and water cannons in Paris's Place de la Republique against masked individuals throwing objects.",
+   "text": "President Emmanuel Macron condemned property destruction and vowed that vandals and looters would be prosecuted.",
    "sources": [
     6,
     8,
     9
-   ]
-  },
-  {
-   "at": "2026-10-17",
-   "text": "Arrests across the country surpassed 270 as the Interior Ministry reported multiple violent incidents and damage to public buildings.",
-   "sources": [
-    6,
-    8,
-    9,
-    10
    ]
   }
  ],
@@ -129,218 +129,231 @@
   },
   {
    "n": 4,
-   "url": "https://www.euronews.com/2026/10/17/france-braces-for-tense-protests-as-security-concerns-take-centre-stage",
-   "publisher": "euronews.com",
-   "title": "France braces for major protests amid rising security fears",
-   "publishedAt": "2026-10-17T06:00:58.000Z"
-  },
-  {
-   "n": 5,
    "url": "https://en.shafaqna.com/485579/france-protests-nationwide-yellow-vests/",
    "publisher": "en.shafaqna.com",
    "title": "France Protests: Students, Unions and Yellow Vests Unite Nationwide",
    "publishedAt": "2026-10-17T07:36:29.000Z"
   },
   {
-   "n": 6,
-   "url": "https://www.newsandstar.co.uk/news/national/26646131.tear-gas-used-paris-protesters-rally-across-france/",
-   "publisher": "newsandstar.co.uk",
-   "title": "Tear gas used in Paris as protesters rally across France",
-   "publishedAt": "2026-10-17T14:42:18.000Z"
-  },
-  {
-   "n": 7,
+   "n": 5,
    "url": "https://nationalpost.com/news/french-violence-emerges-ahead-of-nationwide-yellow-vests-and-student-protests",
    "publisher": "nationalpost.com",
    "title": "Clashes erupt in France as protesters vow to make government 'tremble'",
    "publishedAt": "2026-10-17T13:58:57.000Z"
   },
   {
-   "n": 8,
-   "url": "https://www.wpbf.com/article/scuffles-fires-protest-paris-france-students-police/74166682",
-   "publisher": "wpbf.com",
-   "title": "Scuffles, fires break out as protesters rally across France, joining students",
-   "publishedAt": "2026-10-17T14:39:00.000Z"
+   "n": 6,
+   "url": "http://www.goskagit.com/news/world/scuffles-and-fires-break-out-as-protesters-rally-across-france-joining-students/article_5937ecfb-8b29-50f7-8acc-390abeabbbda.html",
+   "publisher": "goskagit.com",
+   "title": "Scuffles and fires break out as protesters rally across France, joining students",
+   "publishedAt": "2026-10-17T14:38:40.000Z"
   },
   {
-   "n": 9,
-   "url": "https://timesofindia.indiatimes.com/world/europe/cars-torched-shops-looted-violence-protests-erupt-across-france-over-270-arrested/articleshow/135017051.cms",
-   "publisher": "timesofindia.indiatimes.com",
-   "title": "Cars torched, shops looted: Violence protests erupt across France; over 270 arrested",
-   "publishedAt": "2026-10-17T16:41:00.000Z"
-  },
-  {
-   "n": 10,
+   "n": 7,
    "url": "https://www.geo.tv/latest/687045-french-police-clash-with-protesters-as-tens-of-thousands-rally-over-cost-of-living",
    "publisher": "geo.tv",
    "title": "French police clash with protesters as tens of thousands rally over cost of living",
    "publishedAt": "2026-10-17T17:44:00.000Z"
+  },
+  {
+   "n": 8,
+   "url": "https://www.hindustantimes.com/world-news/france-protests-looting-fires-and-vandalism-reported-in-paris-lyon-and-limoges-101792264210664.html",
+   "publisher": "hindustantimes.com",
+   "title": "France protests: Looting, fires and vandalism reported in Paris, Lyon and Limoges",
+   "publishedAt": "2026-10-17T20:36:23.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://www.peeblesshirenews.com/news/national/26646791.clashes-fires-looting-break-protesters-rally-across-france/",
+   "publisher": "peeblesshirenews.com",
+   "title": "Clashes, fires and looting break out as protesters rally across France",
+   "publishedAt": "2026-10-17T21:32:15.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://www.express.co.uk/news/world/2258149/france-riots-macron-dealt-double-hands-blown-off-looting-fires",
+   "publisher": "express.co.uk",
+   "title": "Macron deals double blow to protestors after man",
+   "publishedAt": "2026-10-17T21:50:00.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
+ "conflicts": [
+  "The Interior Ministry stated that about 550,000 people participated in 110 marches, whereas organizers claimed 800,000 demonstrators took to the streets."
+ ],
+ "confidence": 0.8,
  "publishers": 10,
- "reports24h": 10,
+ "reports24h": 14,
  "reportsPrev24h": 3,
- "reports48h": 13,
+ "reports48h": 17,
  "firstSeenAt": "2026-10-16T01:06:25.735Z",
- "lastReportAt": "2026-10-17T17:44:00.000Z",
- "lastCheckedAt": "2026-10-17T20:42:10.325Z",
- "updatedAt": "2026-10-17T20:41:56.893Z",
+ "lastReportAt": "2026-10-17T21:50:00.000Z",
+ "lastCheckedAt": "2026-10-17T23:10:58.664Z",
+ "updatedAt": "2026-10-17T23:10:39.070Z",
  "responseSources": [
-  4,
+  5,
   6,
+  7,
   8,
   9,
   10
  ],
  "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-10-17T20:41:56.893Z",
- "summaryOf": "541cc6f9855b",
+ "summarizedAt": "2026-10-17T23:10:39.070Z",
+ "summaryOf": "647d1ff6b9dd",
  "publishedAt": "2026-10-16T11:33:32.959Z",
  "i18n": {
-  "of": "98e9ef4b7a2fc2d3",
-  "at": "2026-10-17T20:42:32.183Z",
+  "of": "3123e64d4bad2263",
+  "at": "2026-10-17T23:11:12.048Z",
   "tries": 1,
   "hi": {
-   "title": "फ्रांस में येलो वेस्ट, यूनियनों और छात्रों ने जीवन-यापन के खर्च के खिलाफ देशव्यापी विरोध प्रदर्शन किए",
-   "seoTitle": "पेरिस देशव्यापी जीवन-यापन खर्च विरोध प्रदर्शन",
+   "title": "फ्रांस में येलो वेस्ट, यूनियनों और छात्रों ने जीवन-यापन के खर्च के खिलाफ देशव्यापी प्रदर्शन किए",
+   "seoTitle": "पेरिस देशव्यापी जीवन-यापन लागत प्रदर्शन",
    "tea": {
-    "why": "प्रदर्शनकारियों ने उच्च जीवन-यापन लागत, ईंधन और ऊर्जा की बढ़ती कीमतों, आर्थिक असमानता और घटती सार्वजनिक सेवाओं के खिलाफ प्रदर्शन किया।",
-    "want": "प्रदर्शनकारियों ने कम ईंधन और जीवन-यापन लागत, जमी हुई मिलने वाली सुविधाओं के विरोध और शिक्षा प्रणाली में सुधार की मांग की।",
-    "changed": "17 अक्टूबर: पेरिस में देशव्यापी प्रदर्शनों के दौरान हिंसक झड़पें हुईं और 270 से अधिक गिरफ्तारियां की गईं, जिसके बाद पुलिस ने आंसू गैस और वाटर कैनन का इस्तेमाल किया।"
+    "why": "बढ़ता जीवन-यापन खर्च, उच्च ईंधन कीमतें, जमी हुई सार्वजनिक-क्षेत्र की सुविधाएं, और खराब स्कूल स्थितियां।",
+    "want": "कम ईंधन लागत, बेहतर जीवन स्तर, बढ़ाया गया सार्वजनिक खर्च, और बेहतर स्कूल स्थितियां।",
+    "changed": "17 अक्टूबर: प्रदर्शनों के दौरान देशव्यापी झड़पें, आगजनी और लूटपाट हुई, जिसके परिणामस्वरूप सैकड़ों गिरफ्तारियां हुईं।"
    },
-   "summary": "17 अक्टूबर 2026 को पूरे फ्रांस में देशव्यापी प्रदर्शनों की एक लहर चली, जिसमें छात्रों, ट्रेड यूनियन के सदस्यों और येलो वेस्ट आंदोलन से प्रेरित प्रतिभागी एक साथ आए। प्रदर्शनकारियों ने आसमान छूती महंगाई, उच्च ईंधन और ऊर्जा कीमतों तथा अपर्याप्त सार्वजनिक खर्च पर व्यापक निराशा व्यक्त की, जबकि छात्रों ने शैक्षिक सुधारों और बेहतर स्कूल सुविधाओं की अपनी मांग दोहराई। पेरिस और लियोन तथा मार्सै जैसे अन्य प्रमुख शहरों में बड़े मार्च निकाले गए, जिनके साथ हुड पहने समूहों से जुड़ी हिंसक घटनाएं भी हुईं जिन्होंने कारें जलाईं, इमारतों में तोड़फोड़ की और कानून प्रवर्तन से झड़पें कीं। अधिकारियों ने हजारों दंगा पुलिस को तैनात किया, जिन्होंने भीड़ को तितर-बितर करने के लिए आंसू गैस और वाटर कैनन का इस्तेमाल किया। फ्रांसीसी आंतरिक मंत्रालय ने देश भर में कम से कम 272 गिरफ्तारियों की सूचना दी, जबकि फ्रांसीसी आंतरिक मंत्रालय ने कुल भागीदारी का अनुमान लगभग 550,000 प्रदर्शनकारियों के रूप में लगाया।",
+   "summary": "17 अक्टूबर 2026 को, कार्रवाई के एक देशव्यापी दिन के तहत फ्रांस भर में जीवन-यापन की लागत और तपस्या-विरोधी विरोध प्रदर्शनों के लिए येलो वेस्ट कार्यकर्ताओं, सीजीटी जैसी ट्रेड यूनियनों, छात्र संगठनों और राजनीतिक दलों को एक साथ लाया गया। प्रदर्शनकारियों ने ईंधन की कम कीमतों, बढ़े हुए सार्वजनिक खर्च और बेहतर स्कूल स्थितियों की मांग करने के लिए पेरिस, लियोन, मार्सिले और लिले सहित प्रमुख शहरों में मार्च निकाला। हालांकि कई लोगों ने शांतिपूर्ण मार्च निकाला, लेकिन कई स्थानों पर हिंसक झड़पें भड़क उठीं, जहां नकाबपोश समूहों ने आग लगाई, सार्वजनिक इमारतों और टाउन हॉल को निशाना बनाया और दुकानों में लूटपाट की। पुलिस ने आंसू गैस और पानी की बौछारों से जवाब दिया। आंतरिक मंत्री लॉरेंट नुनेज और पुलिस ने देश भर में लगभग 400 गिरफ्तारियों की सूचना दी। फ्रांस के राष्ट्रपति इमैनुएल मैक्रों और प्रधान मंत्री सेबस्टियन लेकोर्नू ने हिंसा और तोड़फोड़ की निंदा की, और वादा किया कि अपराधियों पर मुकदमा चलाया जाएगा और उन्हें सजा दी जाएगी।",
    "demands": [
-    "कम ईंधन और जीवन-यापन लागत",
-    "जमी हुई सुविधाओं और सार्वजनिक क्षेत्र के वेतनों का विरोध",
-    "शैक्षिक सुविधाओं और कक्षाओं में सुधार",
-    "सामाजिक असमानता से निपटने के उपाय"
+    "कम ईंधन लागत",
+    "जमे हुए सार्वजनिक-क्षेत्र के लाभों का विरोध",
+    "स्कूलों में बेहतर स्थिति और अधिक शिक्षक",
+    "रहने के खर्च में वृद्धि से निपटने के उपाय"
    ],
-   "response": "आंतरिक मंत्रालय के अनुसार, हजारों पुलिस और दंगा इकाइयों को तैनात किया गया, जिन्होंने हिंसक प्रदर्शनकारियों को तितर-बितर करने के लिए आंसू गैस और वाटर कैनन का उपयोग किया। अधिकारियों ने देश भर में कम से कम 272 गिरफ्तारियों की सूचना दी और तोड़फोड़ तथा कानून प्रवर्तन के साथ झड़पों की कई घटनाओं का उल्लेख किया।",
+   "response": "आंतरिक मंत्रालय के अनुसार, पुलिस ने हिंसक समूहों को तितर-बितर करने और देश भर में लगभग 400 गिरफ्तारियां करने के लिए आंसू गैस और पानी की बौछारों का इस्तेमाल किया। राष्ट्रपति इमैनुएल मैक्रों और प्रधान मंत्री सेबस्टियन लेकोर्नू ने हिंसा और तोड़फोड़ की कड़ी निंदा करते हुए कहा कि अपराधियों पर मुकदमा चलाया जाएगा और उन्हें सजा दी जाएगी।",
    "updates": [
-    "अधिकारियों ने देश भर में सैकड़ों कार्रवाइयों की आशंका जताई और सुरक्षा चिंताओं के कारण पेरिस में प्रदर्शनों के लिए वैकल्पिक मार्गों की तैयारी की।",
-    "पेरिस और अन्य शहरों में झड़पें भड़क उठीं क्योंकि प्रदर्शनकारियों ने उच्च कीमतों और जीवन-यापन लागत के खिलाफ प्रदर्शन किया।",
-    "पुलिस ने चीजें फेंकने वाले नकाबपोश व्यक्तियों के खिलाफ पेरिस के प्लेस डी ला रिपब्लिक में आंसू गैस और वाटर कैनन का इस्तेमाल किया।",
-    "आंतरिक मंत्रालय द्वारा कई हिंसक घटनाओं और सार्वजनिक इमारतों को नुकसान पहुंचाए जाने की सूचना दिए जाने के बाद देश भर में गिरफ्तारियां 270 को पार कर गईं।"
+    "सैकड़ों कार्रवाइयों और संभावित झड़पों की आशंका के बीच अधिकारियों ने शनिवार को देशव्यापी प्रदर्शनों की तैयारी की।",
+    "प्रदर्शन शुरू होते ही पेरिस, लियोन, मार्सिले और अन्य शहरों में प्रदर्शनकारियों और पुलिस के बीच झड़पें हुईं।",
+    "आंतरिक मंत्री लॉरेंट नुनेज ने बताया कि देश भर में लगभग 400 लोगों को गिरफ्तार किया गया।",
+    "राष्ट्रपति इमैनुएल मैक्रों ने संपत्ति के विनाश की निंदा की और संकल्प लिया कि गुंडे और लुटेरों पर मुकदमा चलाया जाएगा।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "आंतरिक मंत्रालय ने कहा कि 110 मार्च में लगभग 550,000 लोगों ने हिस्सा लिया, जबकि आयोजकों का दावा है कि 800,000 प्रदर्शनकारी सड़कों पर उतरे।"
+   ],
    "numbers": {
-    "crowd": "फ्रांसीसी आंतरिक मंत्रालय ने कहा कि विरोध प्रदर्शनों में लगभग 550,000 लोगों ने हिस्सा लिया, जिसमें पेरिस में लगभग 110,000 लोग शामिल थे।",
-    "arrests": "पुलिस ने पेरिस सहित देश भर में कम से कम 272 गिरफ्तारियां कीं।"
+    "crowd": "आंतरिक मंत्रालय के अनुसार लगभग 550,000 लोगों ने हिस्सा लिया, जबकि सीजीटी यूनियन ने कहा कि 800,000 लोग पहुंचे",
+    "arrests": "आंतरिक मंत्री लॉरेंट नुनेज ने कहा कि देश भर में लगभग 400 लोगों को गिरफ्तार किया गया"
    }
   },
   "mr": {
-   "title": "फ्रान्समध्ये यलो व्हेस्ट, युनियन्स आणि विद्यार्थी यांच्याकडून देशभरात जीवनमान खर्चाविरोधात निदर्शने",
-   "seoTitle": "पॅरिस देशभरात जीवनमान खर्च निदर्शने",
+   "title": "फ्रान्समध्ये यलो व्हेस्ट, युनियन्स आणि विद्यार्थ्यांनी केली देशव्यापी महागाईविरोधी आंदोलने",
+   "seoTitle": "पॅरिस देशव्यापी महागाईविरोधी निदर्शने",
    "tea": {
-    "why": "निदर्शकांनी वाढता जीवनमान खर्च, इंधन आणि ऊर्जेच्या वाढत्या किंमती, आर्थिक असमानता आणि खालावत्या सार्वजनिक सेवा यांच्याविरोधात निदर्शने केली.",
-    "want": "निदर्शकांनी कमी इंधन आणि जीवनमान खर्च, गोठवलेल्या लाभांना विरोध आणि शिक्षण प्रणालीमध्ये सुधारणा करण्याची मागणी केली.",
-    "changed": "१७ ऑक्टोबर: देशभरातील निदर्शनांदरम्यान हिंसाचार आणि २७० हून अधिक गिरफ्तार झाल्यामुळे पॅरिसमध्ये पोलिसांनी अश्रुधूर आणि पाण्याचे फवारे वापरले."
+    "why": "वाढता राहणीमान खर्च, उच्च इंधन दर, गोठवलेले सार्वजनिक क्षेत्रातील फायदे आणि निकृष्ट शाळा परिस्थिती.",
+    "want": "कमी इंधन दर, अधिक चांगले राहणीमान, वाढलेला सार्वजनिक खर्च आणि सुधारित शाळा परिस्थिती.",
+    "changed": "१७ ऑक्टोबर: निदर्शनादरम्यान देशव्यापी चकमकी, आगी आणि लुटालूट उसळली, ज्यामुळे शेकडो गिरफ्तार्या झाल्या."
    },
-   "summary": "१७ ऑक्टोबर २०२६ रोजी फ्रान्समध्ये देशभरात निदर्शनांची लाट पसरली, ज्यामध्ये विद्यार्थी, कामगार युनियनचे सदस्य आणि यलो व्हेस्ट आंदोलनापासून प्रेरित सहभागी एकत्र आले. निदर्शकांनी गगनाला भिडणारी महागाई, उच्च इंधन आणि ऊर्जा किंमती तसेच अपुरा सार्वजनिक खर्च याबद्दल तीव्र नाराजी व्यक्त केली, तर विद्यार्थ्यांनी शैक्षणिक सुधारणा आणि चांगल्या शाळा सुविधांच्या मागण्या पुनरावृत्ती केल्या. पॅरिस आणि लिओन व मार्से यांसारख्या इतर प्रमुख शहरांमध्ये मोठ्या रॅली काढण्यात आल्या, ज्यांच्यासोबत हुडी घातलेल्या गटांच्या हिंसक घटना घडल्या ज्यांनी कार जाळल्या, इमारतींची नासधूस केली आणि कायद्याची अंमलबजावणी करणाऱ्यांशी झटापट केली. अधिकाऱ्यांनी हजारो दंगल नियंत्रण पोलिसांना तैनात केले, ज्यांनी गर्दीला पालवून लावण्यासाठी अश्रुधूर आणि पाण्याचे फवारे वापरले. फ्रेंच अंतर्गत मंत्रालयाने देशभरात किमान २७२ गिरफ्तार झाल्याचे जाहीर केले, तर फ्रेंच अंतर्गत मंत्रालयाने एकूण सहभागाचा अंदाज अंदाजे ५५०,००० निदर्शक असल्याचे वर्तवला.",
+   "summary": "१७ ऑक्टोबर २०२६ रोजी, कृतीचा देशव्यापी दिवस म्हणून फ्रान्सभर राहणीमान खर्च आणि काटकसरीच्या धोरणांविरोधी निदर्शनांसाठी यलो व्हेस्ट कार्यकर्ते, सीजीटी सारख्या कामगार युनियन्स, विद्यार्थी संघटना आणि राजकीय पक्ष एकत्र आले. इंधन दर कमी करणे, सार्वजनिक खर्च वाढवणे आणि शाळांची परिस्थिती सुधारणे या मागण्यांसाठी निदर्शक पॅरिस, लिओन, मार्सेल आणि लिल यांसारख्या प्रमुख शहरांमध्ये मार्च काढत सहभागी झाले. अनेकांनी शांततापूर्ण मार्च काढला असला तरी, अनेक ठिकाणी हिंसक चकमकी उसळल्या, जिथे मुखवटा घातलेल्या गटांनी आगी लावल्या, सार्वजनिक इमारती व नगरपरिषदांना लक्ष्य केले आणि दुकानांची लुटालूट केली. पोलिसांनी अश्रुधूर आणि पाण्याचा मारा करून प्रत्युत्तर दिले. आतील मंत्री लॉरेन्ट नुनेझ आणि पोलिसांनी देशभरात सुमारे ४०० गिरफ्तार्या झाल्याचे जाहीर केले. फ्रान्सचे अध्यक्ष इमॅनुएल मॅक्रों आणि पंतप्रधान सेबॅस्टियन लेकोर्नू यांनी हिंसाचार आणि तोडफोडीचा निषेध केला, व गुन्हेगारांवर खटला भरून त्यांना शिक्षा दिली जाईल अशी प्रतिज्ञा केली.",
    "demands": [
-    "कमी इंधन आणि जीवनमान खर्च",
-    "गोठवलेले लाभ आणि सार्वजनिक क्षेत्रातील वेतनांना विरोध",
-    "शैक्षणिक सुविधा आणि वर्गखोल्यांमध्ये सुधारणा",
-    "सामाजिक असमानतेचे निराकरण करण्यासाठी उपाय"
+    "कमी इंधन दर",
+    "गोठवलेल्या सार्वजनिक क्षेत्रातील फायद्यांना विरोध",
+    "शाळांमध्ये अधिक चांगली परिस्थिती आणि अधिक शिक्षक",
+    "राहणीमान खर्चीतील वाढ रोखण्यासाठी उपाय"
    ],
-   "response": "अंतर्गत मंत्रालयाच्या मते, हजारो पोलीस आणि दंगल पथके तैनात करण्यात आली, ज्यांनी हिंसक निदर्शकांना पांगवण्यासाठी अश्रुधूर आणि पाण्याचे फवारे वापरले. अधिकाऱ्यांनी देशभरात किमान २७२ गिरफ्तार झाल्याचे सांगितले आणि तोडफोडीच्या तसेच कायद्याची अंमलबजावणी करणाऱ्यांशी झटापटीच्या अनेक घटनांची नोंद घेतली.",
+   "response": "अंतर्गत मंत्रालयाच्या मते, हिंसक गटांना हुडकून काढण्यासाठी आणि देशभरात सुमारे ४०० गिरफ्तार्या करण्यासाठी पोलिसांनी अश्रुधूर आणि पाण्याचा मारा केला. अध्यक्ष इमॅनुएल मॅक्रों आणि पंतप्रधान सेबॅस्टियन लेकोर्नू यांनी हिंसाचार आणि तोडफोडीचा तीव्र निषेध केला व नमूद केले की गुन्हेगारांवर खटला चालवला जाईल आणि त्यांना शिक्षा दिली जाईल.",
    "updates": [
-    "सुरक्षेच्या कारणास्तव अधिकाऱ्यांनी देशभरात शेकडो कारवायांची शक्यता वर्तवली आणि पॅरिसमधील निदर्शनांसाठी पर्यायी मार्ग तयार ठेवले.",
-    "उच्च किंमती आणि जीवनमान खर्चाविरोधात निदर्शने करत असताना पॅरिस आणि इतर शहरांमध्ये संघर्ष उसळला.",
-    "वस्तू फेकणाऱ्या मुखवटा घातलेल्या व्यक्तींविरोधात पोलिसांनी पॅरिसच्या प्लेस डी ला रिपब्लिक येथे अश्रुधूर आणि पाण्याचे फवारे सोडले.",
-    "अंतर्गत मंत्रालयाने अनेक हिंसक घटना आणि सार्वजनिक इमारतींचे नुकसान झाल्याची माहिती दिल्यानंतर देशभरातील गिरफ्तार २७० च्या पुढे गेल्या."
+    "शेकडो कृती आणि संभाव्य चकमकींचा अंदाज बांधत अधिकाऱ्यांनी शनिवारी देशव्यापी निदर्शनांची तयारी केली.",
+    "निदर्शने सुरू होताच पॅरिस, लिओन, मार्सेल आणि इतर शहरांमध्ये निदर्शक आणि पोलिसांमध्ये चकमकी झाल्या.",
+    "अंतर्गत मंत्री लॉरेन्ट नुनेझ यांनी सांगितले की देशभरात सुमारे ४०० लोकांना अटक करण्यात आली.",
+    "अध्यक्ष इमॅनुएल मॅक्रों यांनी मालमत्तेच्या नुकसानीचा निषेध केला आणि प्रतिज्ञा केली की दंगेखोर आणि लुटारूंवर खटला चालवला जाईल."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "अंतर्गत मंत्रालयाने सांगितले की ११० मार्चमध्ये सुमारे ५,५०,००० लोकांनी सहभाग घेतला, तर आयोजकांनी दावा केला की ८,००,००० निदर्शक रस्त्यावर उतरले."
+   ],
    "numbers": {
-    "crowd": "फ्रेंच अंतर्गत मंत्रालयाने सांगितले की, निदर्शनांमध्ये सुमारे ५५०,००० लोकांनी सहभाग घेतला, ज्यामध्ये पॅरिसमधील सुमारे ११०,००० लोकांचा समावेश होता.",
-    "arrests": "पोलिसांनी पॅरिससह देशभरात किमान २७२ गिरफ्तार केल्या."
+    "crowd": "अंतर्गत मंत्रालयाच्या मते सुमारे ५,५०,००० लोकांनी सहभाग घेतला, तर सीजीटी युनियनने म्हटले की ८,००,००० लोक बाहेर पडले",
+    "arrests": "अंतर्गत मंत्री लॉरेन्ट नुनेझ यांनी सांगितले की देशभरात सुमारे ४०० लोकांना अटक करण्यात आली"
    }
   },
   "es": {
    "title": "Chalecos Amarillos, sindicatos y estudiantes realizan protestas nacionales por el costo de la vida en Francia",
-   "seoTitle": "Protestas nacionales por el costo de la vida en París",
+   "seoTitle": "Protestas nacionales por el costo de vida en París",
    "tea": {
-    "why": "Los manifestantes se manifestaron contra el alto costo de la vida, el aumento de los precios del combustible y de la energía, la desigualdad económica y la disminución de los servicios públicos.",
-    "want": "Los manifestantes exigieron menores costos de combustible y de vida, oposición a los beneficios congelados y mejoras en el sistema educativo.",
-    "changed": "17 de oct.: La policía desplegó gases lacrimógenos y cañones de agua en París mientras las manifestaciones a nivel nacional resultaron en enfrentamientos y más de 270 arrestos."
+    "why": "Aumento del costo de la vida, altos precios de los combustibles, beneficios del sector público congelados y malas condiciones escolares.",
+    "want": "Menores costos de combustible, mejores niveles de vida, mayor gasto público y mejores condiciones escolares.",
+    "changed": "17 de octubre: Estallaron enfrentamientos a nivel nacional, incendios y saqueos durante las manifestaciones, lo que resultó en cientos de arrestos."
    },
-   "summary": "El 17 de octubre de 2026, una ola de manifestaciones a nivel nacional tuvo lugar en toda Francia, reuniendo a estudiantes, sindicalistas y participantes inspirados por el movimiento de los Chalecos Amarillos. Los manifestantes expresaron su frustración generalizada por la inflación disparada, los altos precios del combustible y de la energía, y el gasto público inadecuado, mientras que los estudiantes reiteraron los llamados a reformas educativas y mejores instalaciones escolares. En París y otras grandes ciudades como Lyon y Marsella, se llevaron a cabo grandes marchas junto con incidentes violentos protagonizados por grupos encapuchados que incendiaron automóviles, vandalizaron edificios y se enfrentaron con las fuerzas de seguridad. Las autoridades desplegaron a miles de policías antidisturbios, quienes utilizaron gases lacrimógenos y cañones de agua para dispersar a las multitudes. El Ministerio del Interior francés informó de al menos 272 arrestos en todo el país, mientras que el Ministerio del Interior francés estimó la participación total en aproximadamente 550.000 manifestantes.",
+   "summary": "El 17 de octubre de 2026, una jornada de acción nacional reunió a activistas de los Chalecos Amarillos, sindicatos como la CGT, organizaciones estudiantiles y partidos políticos para protestar contra el costo de la vida y la austeridad en toda Francia. Los manifestantes marcharon en las principales ciudades, incluidas París, Lyon, Marsella y Lille, para exigir menores precios de los combustibles, un mayor gasto público y mejores condiciones escolares. Aunque muchos marcharon pacíficamente, estallaron violentos enfrentamientos en varios lugares, con grupos enmascarados provocando incendios, atacando edificios públicos y ayuntamientos, y saqueando tiendas. La policía respondió con gases lacrimógenos y cañones de agua. El ministro del Interior, Laurent Nuñez, y la policía informaron de unos 400 arrestos a nivel nacional. El presidente francés, Emmanuel Macron, y el primer ministro, Sebastien Lecornu, condenaron la violencia y el vandalismo, prometiendo que los infractores serán procesados y castigados.",
    "demands": [
-    "Menores costos de combustible y de vida",
-    "Oposición a los beneficios congelados y a los salarios del sector público",
-    "Mejoras en las instalaciones educativas y aulas",
-    "Medidas para abordar la desigualdad social"
+    "Menores costos de combustible",
+    "Oposición a los beneficios congelados del sector público",
+    "Mejores condiciones y más profesores en las escuelas",
+    "Medidas para abordar el aumento de los gastos de vida"
    ],
-   "response": "Según el Ministerio del Interior, se desplegaron miles de policías y unidades antidisturbios, que utilizaron gases lacrimógenos y cañones de agua para dispersar a los manifestantes violentos. Las autoridades informaron de al menos 272 arrestos en todo el país y señalaron numerosos incidentes de vandalismo y enfrentamientos con las fuerzas de seguridad.",
+   "response": "Según el Ministerio del Interior, la policía desplegó gases lacrimógenos y cañones de agua para dispersar a los grupos violentos y realizar unos 400 arrestos en todo el país. El presidente Emmanuel Macron y el primer ministro Sebastien Lecornu condenaron enérgicamente la violencia y el vandalismo, afirmando que los perpetradores serán procesados y castigados.",
    "updates": [
-    "Las autoridades anticiparon cientos de acciones en todo el país y prepararon rutas alternativas para las manifestaciones en París debido a preocupaciones de seguridad.",
-    "Estallaron enfrentamientos en París y otras ciudades mientras los manifestantes protestaban contra los altos precios y el costo de la vida.",
-    "La policía desplegó gases lacrimógenos y cañones de agua en la Plaza de la República de París contra individuos enmascarados que lanzaban objetos.",
-    "Los arrestos en todo el país superaron los 270 mientras el Ministerio del Interior informaba de múltiples incidentes violentos y daños a edificios públicos."
+    "Las autoridades se prepararon para las protestas nacionales del sábado, anticipando cientos de acciones y posibles enfrentamientos.",
+    "Manifestantes y policía se enfrentaron en París, Lyon, Marsella y otras ciudades al comenzar las manifestaciones.",
+    "El ministro del Interior, Laurent Nunez, declaró que unas 400 personas fueron arrestadas en todo el país.",
+    "El presidente Emmanuel Macron condenó la destrucción de propiedad y prometió que los vándalos y saqueadores serán procesados."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "El Ministerio del Interior afirmó que unas 550.000 personas participaron en 110 marchas, mientras que los organizadores afirmaron que 800.000 manifestantes salieron a las calles."
+   ],
    "numbers": {
-    "crowd": "El Ministerio del Interior francés dijo que alrededor de 550.000 personas participaron en las protestas, incluidos unos 110.000 en París.",
-    "arrests": "La policía realizó al menos 272 arrestos en todo el país, incluso en París."
+    "crowd": "unas 550.000 personas participaron, según el ministerio del interior, mientras que el sindicato CGT dijo que 800.000 se manifestaron",
+    "arrests": "Unas 400 personas fueron arrestadas en todo el país, dijo el ministro del interior Laurent Nunez"
    }
   },
   "fr": {
-   "title": "Gilets jaunes, syndicats et étudiants mènent des protestations nationales contre le coût de la vie en France",
-   "seoTitle": "Protestations nationales sur le coût de la vie à Paris",
+   "title": "Les Gilets jaunes, les syndicats et les étudiants organisent des manifestations nationales contre la vie chère en France",
+   "seoTitle": "Manifestations nationales pour le coût de la vie à Paris",
    "tea": {
-    "why": "Les manifestants ont manifesté contre le coût de la vie élevé, la flambée des prix du carburant et de l'énergie, l'inégalité économique et le déclin des services publics.",
-    "want": "Les manifestants ont exigé une baisse du coût du carburant et de la vie, l'opposition aux prestations gelées et des améliorations du système éducatif.",
-    "changed": "17 oct. : La police a déployé des gaz lacrymogènes et des canons à eau à Paris alors que des manifestations nationales ont entraîné des affrontements et plus de 270 arrestations."
+    "why": "Hausse du coût de la vie, prix élevés des carburants, prestations du secteur public gelées et mauvaises conditions scolaires.",
+    "want": "Baisse des coûts du carburant, meilleur niveau de vie, augmentation des dépenses publiques et amélioration des conditions scolaires.",
+    "changed": "17 oct. : Des affrontements, des incendies et des pillages ont éclaté à l'échelle nationale lors des manifestations, entraînant des centaines d'arrestations."
    },
-   "summary": "Le 17 octobre 2026, une vague nationale de manifestations a eu lieu à travers la France, réunissant des étudiants, des syndicalistes et des participants inspirés par le mouvement des Gilets jaunes. Les manifestants ont exprimé une frustration généralisée face à la flambée de l'inflation, aux prix élevés du carburant et de l'énergie, et à des dépenses publiques inadéquates, tandis que les étudiants ont réitéré leurs appels à des réformes éducatives et à de meilleures installations scolaires. À Paris et dans d'autres grandes villes telles Lyon et Marseille, de grandes marches ont eu lieu parallèlement à des incidents violents impliquant des groupes encapuchés qui ont incendié des voitures, vandalisé des bâtiments et se sont affrontés avec les forces de l'ordre. Les autorités ont déployé des milliers de policiers anti-émeute, qui ont utilisé des gaz lacrymogènes et des canons à eau pour disperser les foules. Le ministère français de l'Intérieur a fait état d'au moins 272 arrestations à l'échelle nationale, tandis que le ministère français de l'Intérieur a estimé la participation totale à environ 550 000 manifestants.",
+   "summary": "Le 17 octobre 2026, une journée d'action nationale a rassemblé des militants des Gilets jaunes, des syndicats tels que la CGT, des organisations étudiantes et des partis politiques pour des manifestations contre la vie chère et l'austérité dans toute la France. Les manifestants ont défilé dans les grandes villes, notamment à Paris, Lyon, Marseille et Lille, pour exiger la baisse des prix du carburant, une augmentation des dépenses publiques et de meilleures conditions scolaires. Bien que beaucoup aient défilé pacifiquement, de violents affrontements ont éclaté à plusieurs endroits, des groupes masqués déclenchant des incendies, ciblant des bâtiments publics et des mairies, et pillant des magasins. La police a riposté avec des gaz lacrymogènes et des canons à eau. Le ministre de l'Intérieur, Laurent Nuñez, et la police ont fait état d'environ 400 arrestations à l'échelle nationale. Le président français Emmanuel Macron et le Premier ministre Sébastien Lecornu ont condamné la violence et le vandalisme, promettant que les contrevenants seraient poursuivis et punis.",
    "demands": [
-    "Baisse du coût du carburant et de la vie",
-    "Opposition aux prestations gelées et aux salaires du secteur public",
-    "Améliorations des installations éducatives et des salles de classe",
-    "Mesures pour remédier à l'inégalité sociale"
+    "Baisse des coûts du carburant",
+    "Opposition aux prestations gelées du secteur public",
+    "Meilleures conditions et plus d'enseignants dans les écoles",
+    "Mesures pour faire face à la hausse du coût de la vie"
    ],
-   "response": "Selon le ministère de l'Intérieur, des milliers de policiers et d'unités anti-émeute ont été déployés, utilisant des gaz lacrymogènes et des canons à eau pour disperser les manifestants violents. Les autorités ont signalé au moins 272 arrestations à l'échelle nationale et ont noté de nombreux incidents de vandalisme et des affrontements avec les forces de l'ordre.",
+   "response": "Selon le ministère de l'Intérieur, la police a déployé des gaz lacrymogènes et des canons à eau pour disperser les groupes violents et procéder à environ 400 arrestations à travers le pays. Le président Emmanuel Macron et le Premier ministre Sébastien Lecornu ont condamné fermement la violence et le vandalisme, déclarant que les auteurs seraient poursuivis et punis.",
    "updates": [
-    "Les autorités ont anticipé des centaines d'actions à l'échelle nationale et ont préparé des itinéraires alternatifs pour les manifestations à Paris en raison de préoccupations de sécurité.",
-    "Des affrontements ont éclaté à Paris et dans d'autres villes alors que les manifestants protestaient contre la cherté de la vie et les prix élevés.",
-    "La police a déployé des gaz lacrymogènes et des canons à eau sur la place de la République à Paris contre des individus masqués jetant des objets.",
-    "Les arrestations à travers le pays ont dépassé 270 alors que le ministère de l'Intérieur signalait de multiples incidents violents et des dommages aux bâtiments publics."
+    "Les autorités se sont préparées aux manifestations nationales de samedi, anticipant des centaines d'actions et des affrontements potentiels.",
+    "Les manifestants et la police se sont affrontés à Paris, Lyon, Marseille et dans d'autres villes au début des manifestations.",
+    "Le ministre de l'Intérieur Laurent Nunez a déclaré qu'environ 400 personnes avaient été arrêtées à travers le pays.",
+    "Le président Emmanuel Macron a condamné la destruction de biens et a juré que les vandales et les pilleurs seraient poursuivis."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Le ministère de l'Intérieur a indiqué qu'environ 550 000 personnes ont participé à 110 manifestations, tandis que les organisateurs ont affirmé que 800 000 manifestants étaient descendus dans la rue."
+   ],
    "numbers": {
-    "crowd": "Le ministère français de l'Intérieur a déclaré qu'environ 550 000 personnes ont pris part aux manifestations, dont environ 110 000 à Paris.",
-    "arrests": "La police a effectué au moins 272 arrestations à travers le pays, y compris à Paris."
+    "crowd": "environ 550 000 personnes ont pris part, selon le ministère de l'Intérieur, tandis que le syndicat CGT a déclaré que 800 000 personnes s'étaient mobilisées",
+    "arrests": "Environ 400 personnes ont été arrêtées dans tout le pays, a déclaré le ministre de l'Intérieur Laurent Nunez"
    }
   },
   "de": {
-   "title": "Gelbwesten, Gewerkschaften und Studenten halten landesweite Proteste zu den Lebenshaltungskosten in Frankreich ab",
-   "seoTitle": "Landesweite Proteste zu Lebenshaltungskosten in Paris",
+   "title": "Gelbwesten, Gewerkschaften und Studenten halten landesweite Proteste gegen die Lebenshaltungskosten in Frankreich ab",
+   "seoTitle": "Landesweite Lebenshaltungskosten-Proteste in Paris",
    "tea": {
-    "why": "Demonstranten demonstrierten gegen hohe Lebenshaltungskosten, steigende Treibstoff- und Energiepreise, wirtschaftliche Ungleichheit und rückläufige öffentliche Dienstleistungen.",
-    "want": "Demonstranten forderten niedrigere Treibstoff- und Lebenshaltungskosten, Widerstand gegen eingefrorene Leistungen und Verbesserungen des Bildungssystems.",
-    "changed": "17. Okt.: Die Polizei setzte in Paris Tränengas und Wasserwerfer ein, während landesweite Demonstrationen zu Zusammenstößen und über 270 Festnahmen führten."
+    "why": "Steigende Lebenshaltungskosten, hohe Kraftstoffpreise, eingefrorene Leistungen im öffentlichen Dienst und schlechte Schulbedingungen.",
+    "want": "Niedrigere Kraftstoffkosten, bessere Lebensstandards, erhöhte öffentliche Ausgaben und verbesserte Schulbedingungen.",
+    "changed": "17. Okt.: Landesweite Zusammenstöße, Brände und Plünderungen brachen während der Demonstrationen aus, was zu Hunderten von Festnahmen führte."
    },
-   "summary": "Am 17. Oktober 2026 fand in ganz Frankreich eine landesweite Welle von Demonstrationen statt, die Studenten, Gewerkschafter und Teilnehmer zusammenbrachte, die von der Gelbwesten-Bewegung inspiriert waren. Demonstranten äußerten weit verbreitete Frustration über rasant steigende Inflation, hohe Treibstoff- und Energiepreise sowie unzureichende öffentliche Ausgaben, während Studenten Forderungen nach Bildungsreformen und besseren Schuleinrichtungen bekräftigten. In Paris und anderen großen Städten wie Lyon und Marseille fanden große Märsche parallel zu gewaltsamen Vorfällen statt, an denen vermummte Gruppen beteiligt waren, die Autos anzündeten, Gebäude vandalisierten und mit den Strafverfolgungsbehörden zusammenstießen. Die Behörden setzten Tausende von Bereitschaftspolizisten ein, die Tränengas und Wasserwerfer einsetzten, um Menschenmengen zu verteilen. Das französische Innenministerium meldete mindestens 272 Festnahmen landesweit, während das französische Innenministerium die Gesamtbeteiligung auf etwa 550.000 Demonstranten schätzte.",
+   "summary": "Am 17. Oktober 2026 brachte ein landesweiter Aktionstag Gelbwesten-Aktivisten, Gewerkschaften wie die CGT, Studentenorganisationen und politische Parteien zu Protesten gegen Lebenshaltungskosten und Sparmaßnahmen in ganz Frankreich zusammen. Demonstranten zogen durch Großstädte wie Paris, Lyon, Marseille und Lille, um niedrigere Kraftstoffpreise, erhöhte öffentliche Ausgaben und bessere Schulbedingungen zu fordern. Während viele friedlich demonstrierten, kam es an mehreren Orten zu heftigen Zusammenstößen, bei denen maskierte Gruppen Brände legten, öffentliche Gebäude und Rathäuser angriffen und Geschäfte plünderten. Die Polizei reagierte mit Tränengas und Wasserwerfern. Innenminister Laurent Nuñez und die Polizei meldeten landesweit rund 400 Festnahmen. Der französische Präsident Emmanuel Macron und Premierminister Sebastien Lecornu verurteilten die Gewalt und den Vandalismus und versprachen, dass die Täter strafrechtlich verfolgt und bestraft werden.",
    "demands": [
-    "Niedrigere Treibstoff- und Lebenshaltungskosten",
-    "Widerstand gegen eingefrorene Leistungen und Gehälter im öffentlichen Dienst",
-    "Verbesserungen der Bildungseinrichtungen und Klassenzimmer",
-    "Maßnahmen zur Bekämpfung sozialer Ungleichheit"
+    "Niedrigere Kraftstoffkosten",
+    "Opposition gegen eingefrorene Leistungen im öffentlichen Sektor",
+    "Bessere Bedingungen und mehr Lehrer in Schulen",
+    "Maßnahmen zur Bewältigung des Anstiegs der Lebenshaltungskosten"
    ],
-   "response": "Dem Innenministerium zufolge wurden Tausende von Polizisten und Bereitschaftseinheiten eingesetzt, die Tränengas und Wasserwerfer einsetzten, um gewalttätige Demonstranten zu verteilen. Die Behörden meldeten mindestens 272 Festnahmen landesweit und verwiesen auf zahlreiche Vandalismusvorfälle und Zusammenstöße mit den Strafverfolgungsbehörden.",
+   "response": "Dem Innenministerium zufolge setzte die Polizei Tränengas und Wasserwerfer ein, um gewalttätige Gruppen auseinanderzutreiben und landesweit rund 400 Festnahmen vorzunehmen. Präsident Emmanuel Macron und Premierminister Sebastien Lecornu verurteilten die Gewalt und den Vandalismus scharf und erklärten, dass die Täter strafrechtlich verfolgt und bestraft werden.",
    "updates": [
-    "Die Behörden rechneten landesweit mit Hunderten von Aktionen und bereiteten aufgrund von Sicherheitsbedenken alternative Routen für Demonstrationen in Paris vor.",
-    "In Paris und anderen Städten kam es zu Zusammenstößen, als Demonstranten gegen hohe Preise und Lebenshaltungskosten demonstrierten.",
-    "Die Polizei setzte auf dem Place de la République in Paris Tränengas und Wasserwerfer gegen maskierte Personen ein, die Gegenstände warfen.",
-    "Die Festnahmen im ganzen Land überstiegen 270, als das Innenministerium über mehrere gewaltsame Vorfälle und Schäden an öffentlichen Gebäuden berichtete."
+    "Die Behörden bereiteten sich auf landesweite Proteste am Samstag vor und rechneten mit Hunderten von Aktionen und potenziellen Zusammenstößen.",
+    "Demonstranten und Polizei lieferten sich zu Beginn der Kundgebungen Zusammenstöße in Paris, Lyon, Marseille und anderen Städten.",
+    "Innenminister Laurent Nunez erklärte, dass im ganzen Land etwa 400 Personen festgenommen wurden.",
+    "Präsident Emmanuel Macron verurteilte die Zerstörung von Eigentum und schwur, dass Randalierer und Plünderer strafrechtlich verfolgt werden."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Das Innenministerium gab an, dass etwa 550.000 Menschen an 110 Märschen teilnahmen, während Organisatoren behaupteten, dass 800.000 Demonstranten auf die Straße gingen."
+   ],
    "numbers": {
-    "crowd": "Das französische Innenministerium erklärte, dass rund 550.000 Menschen an den Protesten teilnahmen, darunter etwa 110.000 in Paris.",
-    "arrests": "Die Polizei nahm im ganzen Land mindestens 272 Festnahmen vor, darunter auch in Paris."
+    "crowd": "etwa 550.000 Menschen nahmen teil, so das Innenministerium, während die Gewerkschaft CGT angab, dass 800.000 erschienen waren",
+    "arrests": "Etwa 400 Menschen wurden landesweit festgenommen, sagte Innenminister Laurent Nunez"
    }
   }
  },

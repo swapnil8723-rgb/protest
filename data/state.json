@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-17",
-  "count": 81
+  "count": 91
  },
  "runs": [
-  {
-   "at": "2026-10-11T04:27:47.975Z",
-   "ms": 207070,
-   "discovered": 54,
-   "fetched": 54,
-   "classified": 44,
-   "protests": 33,
-   "summarized": 8,
-   "published": 44,
-   "live": 8,
-   "aiCalls": 20,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261011041500 http://data.gdeltproject.org/gdeltv2/20261011041500.export.CSV.zip → 404",
-    "gdelt: 13 files, 36 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 108 protest-word items",
-    "fetch: 54 ok, 0 failed",
-    "classify: new candidate edddfc4fc5d \"BKU farmers stage sit-in at toll plaza\" (Noida)",
-    "classify: new candidate e3843316c74 \"Congress councillors protest sweeping project with fake notes in Ludhiana\" (Ludhiana)",
-    "classify: new candidate e2cdce5806f \"Nationwide protests and detentions demand CEC resignation\" (Mumbai)",
-    "classify: new candidate e137c833921 \"Sirsa police detain Congress leaders and farmers marching to Delhi\" (Sirsa)",
-    "classify: new candidate e4918b19f94 \"CJP leader announces Mumbai protest against detentions\" (Mumbai)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 8 events"
-   ],
-   "translated": 8
-  },
   {
    "at": "2026-10-11T05:53:18.319Z",
    "ms": 146258,
@@ -1425,8 +1397,39 @@
     "translate: 2 events"
    ],
    "translated": 2
+  },
+  {
+   "at": "2026-10-17T23:09:47.988Z",
+   "ms": 98560,
+   "discovered": 32,
+   "fetched": 31,
+   "classified": 27,
+   "protests": 15,
+   "summarized": 4,
+   "published": 85,
+   "live": 11,
+   "aiCalls": 10,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261017223000 http://data.gdeltproject.org/gdeltv2/20261017223000.export.CSV.zip → 404",
+    "gdelt: 10 files, 29 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 42 protest-word items",
+    "fetch: 31 ok, 1 failed",
+    "classify: new candidate e2c0bcedcd8 \"Sugarcane farmers march and stage mock funeral in Haveri\" (Haveri)",
+    "classify: new candidate e9b69f82108 \"No Kings movement holds early voting rally in Dayton\" (Dayton)",
+    "classify: new candidate e7f64639396 \"Residents protest waste dumping in Faridabad\" (Faridabad)",
+    "classify: new candidate e42c3b863e5 \"APSRTC employees unions demand cancellation of private bus tenders\" (Vijayawada)",
+    "classify: new candidate ec5f38aa791 \"Crowd in Portland rallies around electing Maine Democrats on No Kings Day\" (Portland)",
+    "classify: new candidate e7157a31d8a \"No Kings protests bring hundreds to the New Haven green\" (New Haven)",
+    "classify: new candidate e0aa8fd32e5 \"No Kings protesters gather at Frisco Triangle Park\" (Frisco)",
+    "classify: new candidate eb6ce04e75f \"Woodland locals hold No Kings early voting rally\" (Woodland)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261017204500",
- "lastRunAt": "2026-10-17T20:40:00.765Z"
+ "gdeltCursor": "20261017231500",
+ "lastRunAt": "2026-10-17T23:09:47.988Z"
 }
