@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-17",
-  "count": 56
+  "count": 75
  },
  "runs": [
-  {
-   "at": "2026-10-10T21:48:27.017Z",
-   "ms": 274796,
-   "discovered": 56,
-   "fetched": 56,
-   "classified": 54,
-   "protests": 39,
-   "summarized": 10,
-   "published": 43,
-   "live": 8,
-   "aiCalls": 22,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 15 files, 44 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 104 protest-word items",
-    "fetch: 56 ok, 0 failed",
-    "classify: new candidate e3c2d0d43f6 \"Villagers confront police over detention of local representative\" (Rohtak)",
-    "classify: new candidate e1bb391e751 \"Congress burning of election chief effigy in Phagwara\" (Phagwara)",
-    "classify: new candidate e4ae85b5635 \"Demonstrators in Guwahati protest against CEC Gyanesh Kumar\" (Guwahati)",
-    "classify: new candidate e05b163fb6e \"Sacked power operator climbs pole and cuts power in Satna protest\" (Satna)",
-    "classify: new candidate e12bf632add \"Sonam Wangchuk warns of fresh protest over Delhi detentions\" (Srinagar)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-11T01:05:20.773Z",
    "ms": 115537,
@@ -1418,8 +1391,41 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-17T19:28:43.413Z",
+   "ms": 174729,
+   "discovered": 57,
+   "fetched": 55,
+   "classified": 48,
+   "protests": 25,
+   "summarized": 10,
+   "published": 83,
+   "live": 11,
+   "aiCalls": 19,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261017191500 http://data.gdeltproject.org/gdeltv2/20261017191500.export.CSV.zip → 404",
+    "gdelt: 15 files, 50 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 35 protest-word items",
+    "fetch: 55 ok, 2 failed",
+    "classify: new candidate e8bef5da66a \"Candidate protests polling location at Dallas church\" (Dallas)",
+    "classify: new candidate ea2ec40c77d \"No Kings movement holds early voting rallies across US states\" (Los Angeles)",
+    "classify: new candidate edbe91e0e7c \"Family and friends rally outside Kilmarnock police station over death case\" (Kilmarnock)",
+    "classify: new candidate ec2108804a8 \"French students, teachers, and unions hold economic protests\" (Rennes)",
+    "classify: new candidate e292c567e4a \"No Kings movement holds early voting rally in Fort Myers\" (Fort Myers)",
+    "classify: new candidate e277e3b72e4 \"AISF and AIYF activists detained attempting to storm Lok Bhavan\" (Hyderabad)",
+    "classify: new candidate ef6d8240a74 \"AISA and CJP members protest outside Town Hall against SIR\" (Bengaluru)",
+    "classify: new candidate ec71af16fe5 \"Indivisible the 915 holds No Kings protests in El Paso\" (El Paso)",
+    "classify: new candidate ef479e0e92b \"Sugarcane farmers continue protests demanding higher revenues\" (Hubballi)",
+    "classify: new candidate ef6f8f5d035 \"Demonstrators gather in Harrisburg for No Kings protest\" (Harrisburg)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261017154500",
- "lastRunAt": "2026-10-17T15:39:47.286Z"
+ "gdeltCursor": "20261017193000",
+ "lastRunAt": "2026-10-17T19:28:43.413Z"
 }
