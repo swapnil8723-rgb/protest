@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-17",
-  "count": 75
+  "count": 81
  },
  "runs": [
-  {
-   "at": "2026-10-11T01:05:20.773Z",
-   "ms": 115537,
-   "discovered": 32,
-   "fetched": 32,
-   "classified": 22,
-   "protests": 17,
-   "summarized": 5,
-   "published": 44,
-   "live": 7,
-   "aiCalls": 11,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 14 files, 29 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 99 protest-word items",
-    "fetch: 32 ok, 0 failed",
-    "classify: new candidate e87881fb36c \"Protesters rally across multiple cities demanding CEC resignation\" (Mumbai)",
-    "classify: new candidate ec1fad66e0f \"Contract health staff pause strike in Andhra Pradesh\" (Vijayawada)",
-    "classify: new candidate e9a06abcb01 \"Activists rally against death penalty at Texas Capitol\" (Austin)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-11T04:27:47.975Z",
    "ms": 207070,
@@ -1424,8 +1399,34 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-17T20:40:00.765Z",
+   "ms": 151739,
+   "discovered": 10,
+   "fetched": 9,
+   "classified": 9,
+   "protests": 8,
+   "summarized": 3,
+   "published": 83,
+   "live": 11,
+   "aiCalls": 6,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 5 files, 7 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 44 protest-word items",
+    "fetch: 9 ok, 1 failed",
+    "classify: new candidate e6005aef5b3 \"No Kings rally encourages voting in Scranton\" (Scranton)",
+    "classify: new candidate e872c160eb8 \"CJP holds protest in Panaji\" (Panjim)",
+    "classify: new candidate e1ead43ff49 \"Demonstrators gather in Coral Springs for No Kings rally\" (Coral Springs)",
+    "classify: new candidate e5a941af793 \"Pro-Palestine group protests outside British Museum Ball\" (London)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 2 events"
+   ],
+   "translated": 2
   }
  ],
- "gdeltCursor": "20261017193000",
- "lastRunAt": "2026-10-17T19:28:43.413Z"
+ "gdeltCursor": "20261017204500",
+ "lastRunAt": "2026-10-17T20:40:00.765Z"
 }
