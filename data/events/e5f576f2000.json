@@ -16,60 +16,76 @@
  "scope": "nationwide",
  "causes": [
   "labour",
-  "prices",
-  "education"
+  "education",
+  "prices"
  ],
  "kind": "multi-day",
- "startedOn": "2026-09-15",
+ "startedOn": "2026-10-17",
  "status": "ongoing",
  "vibe": "tense",
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
   "serious",
-  "low-confidence"
+  "top-10",
+  "low-confidence",
+  "sources-disagree"
  ],
  "isOngoing": true,
  "published": false,
  "tea": {
-  "why": "Protesters are demonstrating against the high cost of living, rising fuel prices, weak public spending, and poor school conditions.",
-  "want": "Demonstrators demand higher wages and pensions, lower prices, protection of public services, and better learning conditions.",
-  "changed": "Oct 17: Police fired tear gas and clashed with protesters in Paris and other cities, resulting in at least 166 arrests nationwide."
+  "why": "People are protesting against rising living costs, poor conditions in schools, and declining public services.",
+  "want": "Demonstrators demand relief from high prices and improvements to public services and schools.",
+  "changed": "Oct 18: President Emmanuel Macron appealed for calm after widespread unrest, while Interior Minister Laurent Nunez reported 2,400 arrests and nearly 1,000 injured…"
  },
- "summary": "Demonstrators gathered in Paris and multiple other French cities to protest rising living costs, high fuel prices, and grievances originating from high school student blockades regarding teacher absences and school facilities. The movement drew inspiration from previous social protests, with participants wearing high-visibility vests. In Paris, scuffles erupted near the Place de la République as police deployed tear gas against groups throwing fireworks and other objects. The Interior Ministry reported at least 166 arrests across the country, alongside vandalism and clashes targeting public buildings, media outlets, and police officers in cities including Marseille, Rennes, Toulouse, and Angers. Authorities recorded 140 protests involving tens of thousands of participants outside Paris by midday.",
+ "summary": "Demonstrations erupted across France, including Paris, as crowds marched to protest rising living costs and poor conditions in schools. Organised by groups including the CGT labour union and student organisations, the marches drew hundreds of thousands of participants nationwide. While many protesters marched peacefully, clashes broke out in cities like Paris, Lyon, and Marseille, involving property damage, fires, and looting. Police responded with tear gas and water cannons. Interior Minister Laurent Nunez attributed the violence to radical groups and criminals seeking confrontation, reporting thousands of arrests and injured officers. President Emmanuel Macron condemned the violence, stating that those responsible would be punished, while acknowledging that peaceful protesters held legitimate grievances.",
  "organizers": [
-  "CGT"
+  "CGT labour union",
+  "students' organizations"
  ],
  "demands": [
-  "Higher wages and pensions",
-  "Lower prices",
-  "Protection of public services",
-  "More teachers and decent learning conditions"
+  "Action against rising living costs",
+  "Better conditions in schools",
+  "Improved public services"
  ],
- "response": "According to the Interior Ministry, police deployed tear gas and large riot forces to disperse crowds, recording at least 166 arrests nationwide. President Emmanuel Macron urged calm, emphasizing the constitutional right to protest alongside the requirement to respect people and property.",
+ "response": "Interior Minister Laurent Nunez reported thousands of arrests and injured officers, blaming ultra-left groups and criminals for the violence. President Emmanuel Macron condemned the destruction, pledged prosecutions, and appealed for calm.",
  "numbers": {
-  "crowd": {
-   "value": 30000,
-   "text": "involving over 30,000 people",
+  "arrests": {
+   "value": 2400,
+   "text": "Police made 2,400 arrests across France, French Interior Minister Laurent Nunez said.",
    "sources": [
-    2
+    3
    ]
   },
-  "arrests": {
-   "value": 166,
-   "text": "at least 166 arrests across the country",
+  "injuries": {
+   "value": 1000,
+   "text": "nearly 1,000 officers were injured, French Interior Minister Laurent Nunez said.",
    "sources": [
-    2
+    3
+   ]
+  },
+  "deaths": {
+   "value": 1,
+   "text": "One protester died on Saturday after suffering a cardiac arrest during demonstrations in Paris.",
+   "sources": [
+    3
    ]
   }
  },
  "updates": [
   {
    "at": "2026-10-17",
-   "text": "Police fired tear gas and clashed with protesters in Paris and other French cities during nationwide demonstrations over living costs and school conditions.",
+   "text": "Protesters marched across France against rising living costs and school conditions, with clashes occurring in Paris, Lyon, and Marseille.",
    "sources": [
     1,
     2
+   ]
+  },
+  {
+   "at": "2026-10-18",
+   "text": "President Emmanuel Macron appealed for calm, and Interior Minister Laurent Nunez reported 2,400 arrests and nearly 1,000 injured officers.",
+   "sources": [
+    3
    ]
   }
  ],
@@ -87,24 +103,34 @@
    "publisher": "durangoherald.com",
    "title": "Protesters set fires and damage buildings in major French cities during demos over living costs and school conditions",
    "publishedAt": "2026-10-17T13:23:25.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.hindustantimes.com/world-news/macron-urges-calm-as-france-counts-the-cost-of-worst-unrest-in-years-101792354025723.html",
+   "publisher": "hindustantimes.com",
+   "title": "Macron urges calm as France counts the cost of worst unrest in years",
+   "publishedAt": "2026-10-18T20:07:05.000Z"
   }
  ],
- "conflicts": [],
+ "conflicts": [
+  "Interior Minister Laurent Nunez stated that 110 marches drew 550,000 people, while organizers estimated 800,000 demonstrators."
+ ],
  "confidence": 0.7,
- "publishers": 2,
- "reports24h": 0,
+ "publishers": 3,
+ "reports24h": 1,
  "reportsPrev24h": 2,
- "reports48h": 2,
+ "reports48h": 3,
  "firstSeenAt": "2026-10-17T13:50:21.760Z",
- "lastReportAt": "2026-10-17T13:23:25.000Z",
- "lastCheckedAt": "2026-10-18T20:50:19.719Z",
- "updatedAt": "2026-10-17T13:51:11.978Z",
+ "lastReportAt": "2026-10-18T20:07:05.000Z",
+ "lastCheckedAt": "2026-10-18T23:18:43.304Z",
+ "updatedAt": "2026-10-18T23:18:36.104Z",
  "responseSources": [
   1,
-  2
+  2,
+  3
  ],
  "seriousInjuries": true,
- "sensitive": false,
- "summarizedAt": "2026-10-17T13:51:11.978Z",
- "summaryOf": "e8b91d2560dc"
+ "sensitive": true,
+ "summarizedAt": "2026-10-18T23:18:36.104Z",
+ "summaryOf": "b845d2873660"
 }
