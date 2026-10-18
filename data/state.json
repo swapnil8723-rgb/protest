@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-18",
-  "count": 38
+  "count": 58
  },
  "runs": [
-  {
-   "at": "2026-10-11T10:10:36.950Z",
-   "ms": 240606,
-   "discovered": 94,
-   "fetched": 92,
-   "classified": 88,
-   "protests": 70,
-   "summarized": 9,
-   "published": 46,
-   "live": 10,
-   "aiCalls": 24,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 16 files, 68 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 111 protest-word items",
-    "fetch: 92 ok, 2 failed",
-    "classify: new candidate e4235cb0f46 \"Farmers protest for irrigation water release in Jangaon\" (Jangaon)",
-    "classify: new candidate e2269000ab4 \"Osmania junior doctors announce protest over working conditions\" (Hyderabad)",
-    "classify: new candidate e2d89b1e0c4 \"Animal rights activists hold vigil outside food manufacturing plant\" (Hereford)",
-    "classify: new candidate e25472718d8 \"Congress leaders to meet CJI over protest curbs\" (Bengaluru)",
-    "classify: new candidate eac92cb1da9 \"Vizag residents and farmers protest Google data center\" (Visakhapatnam)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-11T12:57:07.936Z",
    "ms": 159811,
@@ -1468,8 +1441,32 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-18T11:14:09.934Z",
+   "ms": 328272,
+   "discovered": 49,
+   "fetched": 46,
+   "classified": 41,
+   "protests": 19,
+   "summarized": 9,
+   "published": 91,
+   "live": 13,
+   "aiCalls": 20,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261018103000 http://data.gdeltproject.org/gdeltv2/20261018103000.export.CSV.zip → 404",
+    "gdelt: 14 files, 41 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 29 protest-word items",
+    "fetch: 46 ok, 3 failed",
+    "classify: new candidate ebf79e9c911 \"Residents gather in Naperville for No Kings rally\" (Naperville)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261018074500",
- "lastRunAt": "2026-10-18T07:44:01.032Z"
+ "gdeltCursor": "20261018111500",
+ "lastRunAt": "2026-10-18T11:14:09.934Z"
 }
