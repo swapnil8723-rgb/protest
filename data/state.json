@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-18",
-  "count": 58
+  "count": 80
  },
  "runs": [
-  {
-   "at": "2026-10-11T12:57:07.936Z",
-   "ms": 159811,
-   "discovered": 55,
-   "fetched": 54,
-   "classified": 50,
-   "protests": 23,
-   "summarized": 5,
-   "published": 46,
-   "live": 9,
-   "aiCalls": 16,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 11 files, 42 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 95 protest-word items",
-    "fetch: 54 ok, 1 failed",
-    "classify: new candidate eec97152351 \"Pro-Palestinian demonstrators rally across US cities calling for end to Gaza war\" (Washington)",
-    "classify: new candidate e8175b69d24 \"SRFTI students continue class boycott for campus security\" (Kolkata)",
-    "classify: new candidate e70342ec217 \"Manipur groups call shutdown against state merger with India\" (Guwahati)",
-    "summary: e07b54c1b91 only 1 independent publisher(s) on-story — not applied",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-11T16:16:24.628Z",
    "ms": 301987,
@@ -1465,8 +1439,35 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-18T13:48:37.855Z",
+   "ms": 201428,
+   "discovered": 49,
+   "fetched": 48,
+   "classified": 43,
+   "protests": 24,
+   "summarized": 10,
+   "published": 92,
+   "live": 12,
+   "aiCalls": 22,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 10 files, 42 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 31 protest-word items",
+    "fetch: 48 ok, 1 failed",
+    "classify: new candidate e2728ef2dd5 \"Demonstrators clash and loot shops during living cost protest\" (Montpellier)",
+    "classify: new candidate eeefd4efa60 \"Protesters clash with police in Paris over living costs\" (Paris)",
+    "classify: new candidate e521c0c43b4 \"French students and unions stage nationwide economic protests\" (Marseille)",
+    "classify: new candidate e783788f187 \"French students and unions stage nationwide economic protests\" (Paris)",
+    "classify: new candidate e508e04b6b1 \"Americans hold No Kings rallies for midterm voter turnout\" (Atlanta)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 8 events"
+   ],
+   "translated": 8
   }
  ],
- "gdeltCursor": "20261018111500",
- "lastRunAt": "2026-10-18T11:14:09.934Z"
+ "gdeltCursor": "20261018134500",
+ "lastRunAt": "2026-10-18T13:48:37.855Z"
 }
