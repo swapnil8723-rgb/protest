@@ -1,39 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-18",
-  "count": 95
+  "count": 114
  },
  "runs": [
-  {
-   "at": "2026-10-11T19:28:42.277Z",
-   "ms": 151184,
-   "discovered": 49,
-   "fetched": 44,
-   "classified": 38,
-   "protests": 25,
-   "summarized": 6,
-   "published": 49,
-   "live": 11,
-   "aiCalls": 15,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261011193000 http://data.gdeltproject.org/gdeltv2/20261011193000.export.CSV.zip → 404",
-    "gdelt: 13 files, 39 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 78 protest-word items",
-    "fetch: 44 ok, 5 failed",
-    "classify: new candidate e2a5e80d10f \"Students and activists protest at Dharna Chowk against SIR\" (Hyderabad)",
-    "classify: new candidate ec7d88e55b0 \"BJP announces Assembly march demanding leadership resignations\" (Thiruvananthapuram)",
-    "classify: new candidate eb37fab1465 \"Students protest at IIIT Ranchi after student found dead\" (Ranchi)",
-    "classify: new candidate ee2553b85f7 \"CJP leaders allege surveillance while traveling to Delhi anti-SIR protest\" (Ranchi)",
-    "classify: new candidate e2cc36b5009 \"Villagers stage dharna against house demolitions in Kosmi village\" (Budhni)",
-    "classify: new candidate e13d253af4a \"Congress leaders head to Delhi to protest against CEC over SIR\" (Ranchi)",
-    "classify: new candidate eac247ecbf5 \"I.N.D.I.A. bloc march to Supreme Court over electoral rolls\" (Delhi)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-12T00:36:05.527Z",
    "ms": 190288,
@@ -1467,8 +1437,36 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-18T19:28:42.510Z",
+   "ms": 335018,
+   "discovered": 47,
+   "fetched": 44,
+   "classified": 39,
+   "protests": 21,
+   "summarized": 8,
+   "published": 94,
+   "live": 14,
+   "aiCalls": 19,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 14 files, 42 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 22 protest-word items",
+    "fetch: 44 ok, 3 failed",
+    "classify: new candidate ecde355f8f7 \"Residents hold No Kings early voting rally at Kansas Capitol\" (Topeka)",
+    "classify: new candidate ea249c1094b \"ABVP holds student rally in Lucknow against political anarchy\" (Lucknow)",
+    "classify: new candidate efd69cdfa5e \"No Kings rally promotes early voting in Yolo County\" (West Sacramento)",
+    "classify: new candidate efbbe3f2f2c \"Farmers sit-in protest against power outages\" (Sangareddi)",
+    "classify: new candidate ebe1f9c3d4f \"No Kings rallies push early voting in Exeter\" (Exeter)",
+    "classify: new candidate e89a7acac4b \"No Kings rally promotes early voting in Northampton\" (Northampton)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261018160000",
- "lastRunAt": "2026-10-18T15:55:14.450Z"
+ "gdeltCursor": "20261018193000",
+ "lastRunAt": "2026-10-18T19:28:42.510Z"
 }
