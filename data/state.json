@@ -1,31 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-18",
-  "count": 25
+  "count": 38
  },
  "runs": [
-  {
-   "at": "2026-10-11T06:14:00.406Z",
-   "ms": 69327,
-   "discovered": 11,
-   "fetched": 11,
-   "classified": 10,
-   "protests": 9,
-   "summarized": 2,
-   "published": 44,
-   "live": 9,
-   "aiCalls": 4,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 1 files, 10 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 105 protest-word items",
-    "fetch: 11 ok, 0 failed",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 1 events"
-   ],
-   "translated": 1
-  },
   {
    "at": "2026-10-11T10:10:36.950Z",
    "ms": 240606,
@@ -1456,8 +1434,42 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-18T07:44:01.032Z",
+   "ms": 171240,
+   "discovered": 46,
+   "fetched": 41,
+   "classified": 38,
+   "protests": 29,
+   "summarized": 5,
+   "published": 88,
+   "live": 9,
+   "aiCalls": 13,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 40 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 40 protest-word items",
+    "fetch: 41 ok, 5 failed",
+    "classify: new candidate e8cadb5e2de \"BSP announces hunger strike over caste atrocity case\" (Erode)",
+    "classify: new candidate ea8fe7c56f7 \"Residents hold No Kings early voting rallies in Marin County\" (Corte Madera)",
+    "classify: new candidate e4e9a3435ad \"Protesters hold No Kings rally at Nebraska State Capitol\" (Lincoln)",
+    "classify: new candidate e74a98beb41 \"Protesters hold No Kings rally in San Francisco\" (San Francisco)",
+    "classify: new candidate e4a159125b1 \"Demonstrators hold No Kings rally in Gainesville\" (Gainesville)",
+    "classify: new candidate e9503271f20 \"Residents hold No Kings protests across Palm Beaches\" (West Palm Beach)",
+    "classify: new candidate e5492b271f4 \"Demonstrators hold No Kings rally in Clovis\" (Clovis)",
+    "classify: new candidate ef2b6b6b8ae \"Zanesville residents hold No Kings early voting rally\" (Zanesville)",
+    "classify: new candidate eae187da928 \"BJP-Yuva Morcha march to Kerala Assembly turns violent\" (Thiruvananthapuram)",
+    "classify: new candidate e4ccb74d863 \"Opposition parties protest Dushyant Gautam appointment in Sikkim\" (Delhi)",
+    "classify: new candidate e911631cca0 \"Baltimore residents hold No Kings rally for early voting\" (Baltimore)",
+    "classify: new candidate e7040df2874 \"Protesters demonstrate in Las Vegas over Cornell Seven case\" (Las Vegas)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261018043000",
- "lastRunAt": "2026-10-18T04:27:46.505Z"
+ "gdeltCursor": "20261018074500",
+ "lastRunAt": "2026-10-18T07:44:01.032Z"
 }
