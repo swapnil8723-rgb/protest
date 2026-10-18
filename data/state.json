@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-18",
-  "count": 80
+  "count": 95
  },
  "runs": [
-  {
-   "at": "2026-10-11T16:16:24.628Z",
-   "ms": 301987,
-   "discovered": 67,
-   "fetched": 66,
-   "classified": 57,
-   "protests": 26,
-   "summarized": 9,
-   "published": 48,
-   "live": 11,
-   "aiCalls": 21,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 47 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 67 protest-word items",
-    "fetch: 66 ok, 1 failed",
-    "classify: new candidate e75321f6627 \"Demonstration in Hyderabad against Delhi police crackdown\" (Hyderabad)",
-    "classify: new candidate e9209d1ccb8 \"DYFI and SFI protest in Coimbatore demanding CEC resignation\" (Coimbatore)",
-    "classify: new candidate e1a22866cb6 \"Students hold candle march in Nashik against CEC\" (Nashik)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-11T19:28:42.277Z",
    "ms": 151184,
@@ -1466,8 +1441,34 @@
     "translate: 8 events"
    ],
    "translated": 8
+  },
+  {
+   "at": "2026-10-18T15:55:14.450Z",
+   "ms": 191815,
+   "discovered": 41,
+   "fetched": 38,
+   "classified": 33,
+   "protests": 16,
+   "summarized": 7,
+   "published": 93,
+   "live": 12,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 9 files, 35 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 31 protest-word items",
+    "fetch: 38 ok, 3 failed",
+    "classify: new candidate e4cd58d1a54 \"Protesters clash and loot stores in Bordeaux over living costs\" (Bordeaux)",
+    "classify: new candidate eb7447ef07c \"Tomato growers block highway over price crash in Annamayya\" (Madanapalle)",
+    "classify: new candidate e5c14114fee \"CJP supporters attempt Tiranga march at Carter Road\" (Mumbai)",
+    "reader: rejected 448bdd35b6654dff-1.json: place not found: World",
+    "reader: 0 published, 0 held, 0 duplicates, 1 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261018134500",
- "lastRunAt": "2026-10-18T13:48:37.855Z"
+ "gdeltCursor": "20261018160000",
+ "lastRunAt": "2026-10-18T15:55:14.450Z"
 }

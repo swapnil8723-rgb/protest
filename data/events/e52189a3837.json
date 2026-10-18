@@ -1,9 +1,9 @@
 {
  "id": "e52189a3837",
- "slug": "",
- "stage": "candidate",
- "title": "Protesters clash with police in Lyon over living costs",
- "seoTitle": "",
+ "slug": "lyon-cost-of-living-protest-oct-2026",
+ "stage": "live",
+ "title": "Protesters clash with police and set fire to tourist office in Lyon",
+ "seoTitle": "Lyon protest over living costs",
  "place": {
   "city": "Lyon",
   "region": "Auvergne-Rhône-Alpes",
@@ -13,39 +13,101 @@
   "citySlug": "lyon",
   "regionSlug": "auvergne-rhone-alpes"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
-  "prices"
+  "prices",
+  "education",
+  "governance"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-17",
- "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": true,
+ "status": "ended",
+ "vibe": "wrapped-up",
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious",
+  "low-confidence",
+  "sources-disagree"
+ ],
+ "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Protesters are demonstrating against rising living costs and declining public services.",
+  "want": "Demonstrators demand better living conditions, lower fuel prices, and increased support for education.",
+  "changed": "Oct 17: Protesters in Lyon set fire to the city's tourist office during nationwide demonstrations."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
- "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
- "reportsPrev24h": 0,
- "reports48h": 0,
+ "summary": "Demonstrators took to the streets in Lyon and across France to protest rising living costs and declining public services. In Lyon, participants clashed with law enforcement and set fire to the city's tourist office, while shops were also damaged. According to the French interior ministry, approximately 20,000 demonstrators participated in Lyon. Prime Minister Sebastien Lecornu and President Emmanuel Macron condemned the violence, blaming far-left fringe groups and criminals, and vowed that the government would not be intimidated. Organizers and participants maintained that the vast majority of marchers were peaceful.",
+ "organizers": [
+  "CGT union"
+ ],
+ "demands": [
+  "Lower living costs",
+  "Lower fuel prices",
+  "More teachers",
+  "Decent learning conditions"
+ ],
+ "response": "Prime Minister Sebastien Lecornu stated the government would not be intimidated by violence and blamed the unrest on the far-left and criminals. President Emmanuel Macron vowed to prosecute those responsible for attacks.",
+ "numbers": {
+  "crowd": {
+   "value": 20000,
+   "text": "20,000 demonstrators in Lyon",
+   "sources": [
+    2
+   ]
+  },
+  "arrests": {
+   "value": 1200,
+   "text": "1,200 people had been arrested as part of the protests",
+   "sources": [
+    1
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-10-17",
+   "text": "Protesters in Lyon set fire to the city's tourist office and damaged shops amid widespread demonstrations.",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.rte.ie/news/2026/1017/1595755-france-protests/",
+   "publisher": "rte.ie",
+   "title": "French protesters set tourism office ablaze in Lyon",
+   "publishedAt": "2026-10-17T11:00:58.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://albaniandailynews.com/news/lyon-tourism-office-set-on-fire-as-tens-of-thousands-join-major-day-of-protests-across-france",
+   "publisher": "albaniandailynews.com",
+   "title": "Lyon Tourism Office Set on Fire as Tens of Thousands Join Major Day of Protests Across France"
+  }
+ ],
+ "conflicts": [
+  "The interior ministry reported 272 arrests nationwide, while Prime Minister Lecornu stated 1,200 people had been arrested."
+ ],
+ "confidence": 0.55,
+ "publishers": 2,
+ "reports24h": 1,
+ "reportsPrev24h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-10-17T13:49:53.990Z",
- "lastReportAt": "2026-10-17T13:49:53.990Z",
- "lastCheckedAt": "2026-10-17T13:49:53.990Z",
- "updatedAt": "2026-10-17T13:49:53.990Z"
+ "lastReportAt": "2026-10-18T15:45:00.000Z",
+ "lastCheckedAt": "2026-10-18T15:57:35.129Z",
+ "updatedAt": "2026-10-18T15:57:33.734Z",
+ "endedOn": "2026-10-17",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-10-18T15:57:33.734Z",
+ "summaryOf": "4605cafcedcf"
 }
