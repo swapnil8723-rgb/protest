@@ -1,39 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-19",
-  "count": 32
+  "count": 57
  },
  "runs": [
-  {
-   "at": "2026-10-12T13:48:39.714Z",
-   "ms": 191113,
-   "discovered": 75,
-   "fetched": 73,
-   "classified": 62,
-   "protests": 23,
-   "summarized": 6,
-   "published": 53,
-   "live": 9,
-   "aiCalls": 18,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 11 files, 59 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 71 protest-word items",
-    "fetch: 73 ok, 2 failed",
-    "classify: new candidate e02e57a61c7 \"AIMIM leaders and residents protest mosque demolition in Hyderabad\" (Hyderabad)",
-    "classify: new candidate e71d7dcf7f7 \"CUET students padlock building with new VC inside\" (Chattogram)",
-    "classify: new candidate ef9e8bdc5f7 \"Multi-purpose health workers detained during hunger strike in Chennai\" (Chennai)",
-    "classify: new candidate e11d4b3e0a8 \"BJP Mahila Morcha protests against Congress MP in Belagavi\" (Belagavi)",
-    "classify: new candidate ee4c166e014 \"Tipper lorry owners protest MLA's threats in Yadgir\" (Yadgir)",
-    "classify: new candidate e283f7366ec \"Advocates protest in Shivamogga demanding High Court bench\" (Shivamogga)",
-    "classify: new candidate e82e23e9138 \"Lorry drivers block motorway toll in fuel price protest\" (Vitrolles)",
-    "classify: new candidate e7f5c805a76 \"Samajwadi Party march to Supreme Court against CEC\" (Lucknow)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-12T19:28:43.017Z",
    "ms": 278674,
@@ -1466,8 +1436,39 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-19T13:26:03.636Z",
+   "ms": 796265,
+   "discovered": 97,
+   "fetched": 90,
+   "classified": 77,
+   "protests": 38,
+   "summarized": 12,
+   "published": 98,
+   "live": 15,
+   "aiCalls": 25,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 23 files, 83 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 33 protest-word items",
+    "fetch: 90 ok, 7 failed",
+    "classify: new candidate ea12dc3abaf \"Right-wing groups protest professor over inappropriate messages\" (Nagpur)",
+    "classify: new candidate e9f5e32c95e \"Locals protest outside CM residence in Imphal over killings\" (Imphal)",
+    "classify: new candidate e60db1dac55 \"Lal Hit Janta Party holds first gathering against CJP in Delhi\" (Delhi)",
+    "classify: new candidate ec9bcb7e542 \"Demonstrators riot and loot in Nice over cost of living\" (Nice)",
+    "classify: new candidate edd344a9278 \"Defend Democracy group protests presidential visit\" (Park City)",
+    "classify: new candidate e831d959acf \"No Kings rallies to encourage early voting\" (Syracuse)",
+    "classify: new candidate e10d31fda63 \"Demonstrators riot and loot in French cities\" (Marseille)",
+    "classify: new candidate e97870dd10f \"French students and workers stage economic protests\" (Limoges)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: e783788f187 failed: The operation was aborted due to timeout",
+    "translate: e338e6446d5 failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "translate: stopped: run time cap 13 min reached"
+   ]
   }
  ],
- "gdeltCursor": "20261019074500",
- "lastRunAt": "2026-10-19T07:44:01.354Z"
+ "gdeltCursor": "20261019133000",
+ "lastRunAt": "2026-10-19T13:26:03.636Z"
 }
