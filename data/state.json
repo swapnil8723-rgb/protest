@@ -1,46 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-19",
-  "count": 57
+  "count": 83
  },
  "runs": [
-  {
-   "at": "2026-10-12T19:28:43.017Z",
-   "ms": 278674,
-   "discovered": 129,
-   "fetched": 126,
-   "classified": 107,
-   "protests": 58,
-   "summarized": 13,
-   "published": 54,
-   "live": 11,
-   "aiCalls": 32,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 23 files, 109 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 68 protest-word items",
-    "fetch: 126 ok, 3 failed",
-    "classify: new candidate eb34c6c2b2e \"KRDSS protests in Kalaburagi against misuse of Central agencies\" (Kalaburagi)",
-    "classify: new candidate e6509e4e160 \"French students and workers announce nationwide anti-austerity protest\" (Paris)",
-    "classify: new candidate e38b9c6c067 \"Government officials protest at Tiruchi Collectorate over colleague abuse\" (Tiruchirappalli)",
-    "classify: new candidate e9d2b584de4 \"Stakeholders hold human chain and rally to eliminate child labour\" (Dhaka)",
-    "classify: new candidate e896102fa01 \"Death Penalty Action members protest outside Fort Hood\" (Killeen)",
-    "classify: new candidate ee27b8f2443 \"ASHA workers stage protest in Dindigul\" (Dindigul)",
-    "classify: new candidate e28cb2c6237 \"LDF stages walkout from Kerala Assembly over police action\" (Thiruvananthapuram)",
-    "classify: new candidate ee84ca58f22 \"Environmentalists hold funeral procession in Montclair\" (Montclair)",
-    "classify: new candidate e48b5f8e5d5 \"Congress holds protests over SIR demanding CEC resignation\" (Chitradurga)",
-    "classify: new candidate e28981c732b \"Residents demand death penalty for accused in Hyderabad murder\" (Hyderabad)",
-    "classify: new candidate e80ebc00c78 \"Protests and detentions over SIR and CEC resignation\" (Bengaluru)",
-    "classify: new candidate e4cc1e32db3 \"Parents protest school denying entry to students wearing Bhavani Mala\" (Hyderabad)",
-    "classify: new candidate ece2b51987d \"Hundreds march to secretariat in Dehradun demanding CEC resignation\" (Dehradun)",
-    "classify: new candidate eea0081e991 \"Students and citizens protest education and housing crises in Europe\" (Paris)",
-    "summary: e2a5e80d10f judged not real: The sources describe two distinct protests occurring on different dates and at different locations: one by citizens and student groups at Dharna Chowk on Sunday against SIR and police actions, and another by women journalists at the Ambedkar statue on Monday regarding press freedom and detentions.",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 9 events"
-   ],
-   "translated": 9
-  },
   {
    "at": "2026-10-12T21:17:56.709Z",
    "ms": 132409,
@@ -1467,8 +1430,38 @@
     "translate: e338e6446d5 failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "translate: stopped: run time cap 13 min reached"
    ]
+  },
+  {
+   "at": "2026-10-19T16:16:25.495Z",
+   "ms": 637406,
+   "discovered": 61,
+   "fetched": 59,
+   "classified": 55,
+   "protests": 25,
+   "summarized": 11,
+   "published": 100,
+   "live": 16,
+   "aiCalls": 26,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 52 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 40 protest-word items",
+    "fetch: 59 ok, 2 failed",
+    "classify: new candidate e2dcd1d85ba \"Contractors protest outside Thane Collectorate over unpaid dues\" (Thane)",
+    "classify: new candidate e7af4e75efb \"Jai Kisan Sangathan leader continues hunger strike over displacement\" (Panna)",
+    "classify: new candidate e8636a11661 \"Left parties and BRS announce protest over housing allotments\" (Khammam)",
+    "classify: new candidate e3669b5697a \"Marin residents rally for early voting in No Kings events\" (Fairfax)",
+    "classify: new candidate e9cfd079869 \"New York rally supports Indian youth protests against election tampering\" (New York City)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: e17240457eb failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "translate: e10c194e9c2 failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "translate: e44613d1cee failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261019133000",
- "lastRunAt": "2026-10-19T13:26:03.636Z"
+ "gdeltCursor": "20261019161500",
+ "lastRunAt": "2026-10-19T16:16:25.495Z"
 }

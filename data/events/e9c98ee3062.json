@@ -3,7 +3,7 @@
  "slug": "paris-france-cost-of-living-protests-sep-2026",
  "stage": "live",
  "title": "Demonstrations against cost of living and education policies held across France",
- "seoTitle": "Paris protests against cost of living",
+ "seoTitle": "Paris cost of living and education protests",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -15,9 +15,9 @@
  },
  "scope": "nationwide",
  "causes": [
-  "education",
   "prices",
-  "governance"
+  "education",
+  "housing"
  ],
  "kind": "multi-day",
  "startedOn": "2026-09-01",
@@ -27,26 +27,23 @@
  "review": "pending",
  "reviewReasons": [
   "serious",
-  "top-10",
-  "low-confidence",
-  "sources-disagree"
+  "top-10"
  ],
  "isOngoing": true,
- "published": false,
+ "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the rising cost of living, deteriorating public services, and the state of the education system.",
-  "want": "Demands include improved resources for schools, better education conditions, and government action on economic inequality and living costs.",
-  "changed": "Oct 19: Prime Minister Sébastien Lecornu considered partial curfews and a state of emergency following a weekend of widespread unrest."
+  "why": "Protesters are frustrated by the rising cost of living, deteriorating public services, housing shortages, and the state of French education.",
+  "want": "Demonstrators demand better resources for schools and relief from cost of living pressures.",
+  "changed": "Oct 19: Prime Minister Sébastien Lecornu held a crisis meeting, asking municipalities to impose partial curfews and not ruling out a state of emergency."
  },
- "summary": "Nationwide demonstrations in France, which began in September with student and teacher strikes, escalated over the weekend into widespread rioting and looting in cities including Paris, Lyon, Marseille, and Limoges. According to the Interior Ministry, approximately 550,000 people participated in Saturday's marches. While initially focused on education and economic grievances, the events saw significant property damage, including the burning of the Limoges Town Hall and the targeting of over 1,500 businesses. Authorities reported over 2,500 arrests and hundreds of injuries among security personnel. President Emmanuel Macron rejected the resignation of Interior Minister Laurent Nuñez, who acknowledged failures in security preparation. Prime Minister Sébastien Lecornu has since convened a crisis task force and is considering implementing partial curfews to restore public order as the government faces mounting pressure.",
+ "summary": "Mass demonstrations against the rising cost of living, housing shortages, and education conditions took place across France over the weekend, drawing approximately 550,000 participants according to the Interior Ministry. The protests initially began in September with strikes by students and teachers in Paris suburbs demanding more school resources, but expanded nationwide. While many marches started peacefully, unrest, rioting, and looting broke out in Paris, Lyon, Marseille, Bordeaux, Limoges, and other cities, resulting in widespread property damage, torched buildings including a historic town hall, and targeted shops. Interior Minister Laurent Nuñez and President Emmanuel Macron acknowledged security and intelligence failures, while President Macron refused Interior Minister Nuñez's offer to resign. Prime Minister Sébastien Lecornu convened a crisis task force on Monday to address the unrest.",
  "organizers": [],
  "demands": [
-  "Increased resources for schools",
-  "Improved education conditions",
-  "Addressing rising cost of living",
-  "Action on economic inequality"
+  "More resources for ill-equipped schools",
+  "Relief from the rising cost of living",
+  "Better public services"
  ],
- "response": "President Macron rejected the Interior Minister's resignation to maintain command. The government deployed 60,000 police officers, and the Prime Minister is considering partial curfews and a potential state of emergency to restore order.",
+ "response": "Authorities deployed 60,000 police officers, resulting in thousands of arrests and widespread injuries among security forces. Interior Minister Laurent Nuñez admitted shortcomings and a loss of control in certain areas. President Emmanuel Macron vowed to hold accountable those who destroyed property and looted.",
  "numbers": {
   "crowd": {
    "value": 550000,
@@ -54,62 +51,44 @@
    "sources": [
     1,
     3,
+    5
+   ]
+  },
+  "arrests": {
+   "value": 25000,
+   "text": "more than 2,500",
+   "sources": [
+    1,
+    2,
+    3,
+    4,
     5,
     7
    ]
   },
-  "arrests": {
-   "value": 2500,
-   "text": "number of arrests across France climbed past 2,500",
+  "injuries": {
+   "value": 600,
+   "text": "more than 600 emergency personnel were injured",
    "sources": [
     2,
-    3
-   ]
-  },
-  "injuries": {
-   "value": 997,
-   "text": "997 security personnel were injured during the unrest",
-   "sources": [
-    2
-   ]
-  },
-  "deaths": {
-   "value": 1,
-   "text": "Police added that one protester died of cardiac arrest during the Paris demonstrations",
-   "sources": [
-    5
-   ]
-  }
- },
- "updates": [
-  {
-   "at": "2026-09-01",
-   "text": "Protests began with strikes by students and teachers in Paris suburbs demanding more resources for schools.",
-   "sources": [
-    7
-   ]
-  },
-  {
-   "at": "2026-10-17",
-   "text": "Approximately 550,000 people participated in nationwide marches that descended into rioting and looting.",
-   "sources": [
-    1,
     3,
     5,
     7
    ]
   },
-  {
-   "at": "2026-10-19",
-   "text": "President Macron rejected the Interior Minister's resignation following security failures.",
+  "deaths": {
+   "value": 2,
+   "text": "two people dead",
    "sources": [
-    2,
+    5,
     7
    ]
-  },
+  }
+ },
+ "updates": [
   {
    "at": "2026-10-19",
-   "text": "Prime Minister Sébastien Lecornu held a crisis meeting and considered imposing partial curfews.",
+   "text": "Prime Minister Sébastien Lecornu held a crisis meeting to evaluate options, including partial curfews and a possible state of emergency.",
    "sources": [
     2,
     7
@@ -166,25 +145,161 @@
    "publishedAt": "2026-10-19T12:05:05.000Z"
   }
  ],
- "conflicts": [
-  "Interior Minister Laurent Nuñez reported 2,400 arrests while other reports stated the number climbed past 2,500.",
-  "Reports on injured emergency personnel range from 600 to nearly 1,000."
- ],
- "confidence": 0.75,
+ "conflicts": [],
+ "confidence": 0.9,
  "publishers": 7,
  "reports24h": 7,
  "reportsPrev24h": 0,
  "reports48h": 7,
  "firstSeenAt": "2026-10-19T04:28:52.905Z",
  "lastReportAt": "2026-10-19T12:05:05.000Z",
- "lastCheckedAt": "2026-10-19T13:32:15.739Z",
- "updatedAt": "2026-10-19T13:32:05.136Z",
+ "lastCheckedAt": "2026-10-19T16:20:22.555Z",
+ "updatedAt": "2026-10-19T16:19:10.156Z",
  "responseSources": [
+  1,
   2,
+  3,
+  5,
   7
  ],
  "seriousInjuries": true,
  "sensitive": true,
- "summarizedAt": "2026-10-19T13:32:05.136Z",
- "summaryOf": "af15ba2f77c9"
+ "summarizedAt": "2026-10-19T16:19:10.156Z",
+ "summaryOf": "05eee9693590",
+ "publishedAt": "2026-10-19T16:20:22.555Z",
+ "i18n": {
+  "of": "6041eb0edf1ae364",
+  "at": "2026-10-19T16:21:35.119Z",
+  "tries": 1,
+  "hi": {
+   "title": "फ्रांस भर में जीवनयापन की लागत और शिक्षा नीतियों के खिलाफ प्रदर्शन आयोजित",
+   "seoTitle": "पेरिस जीवनयापन और शिक्षा विरोध",
+   "tea": {
+    "why": "प्रदर्शनकारी जीवनयापन की बढ़ती लागत, बिगड़ती सार्वजनिक सेवाओं, आवास की कमी और फ्रांसीसी शिक्षा की स्थिति से निराश हैं।",
+    "want": "प्रदर्शनकारियों ने स्कूलों के लिए बेहतर संसाधनों और जीवनयापन के खर्च के दबाव से राहत की मांग की है।",
+    "changed": "19 अक्टूबर: प्रधानमंत्री सेबस्टियन लेकोर्नू ने एक संकट बैठक की, जिसमें नगर पालिकाओं को आंशिक कर्फ्यू लगाने के लिए कहा गया और आपातकाल की स्थिति से इनकार नहीं किया गया।"
+   },
+   "summary": "आंतरिक मंत्रालय के अनुसार, सप्ताहांत में फ्रांस भर में जीवनयापन की बढ़ती लागत, आवास की कमी और शिक्षा की स्थिति के खिलाफ बड़े पैमाने पर प्रदर्शन हुए, जिसमें लगभग 550,000 लोग शामिल हुए। ये विरोध प्रदर्शन शुरू में सितंबर में पेरिस के उपनगरों में अधिक स्कूल संसाधनों की मांग करने वाले छात्रों और शिक्षकों की हड़तालों के साथ शुरू हुए थे, लेकिन बाद में पूरे देश में फैल गए। हालांकि कई मार्च शांतिपूर्ण शुरू हुए, लेकिन पेरिस, ल्यों, मार्सिले, बोर्डो, लिमोज और अन्य शहरों में अशांति, दंगे और लूटपाट शुरू हो गई, जिसके परिणामस्वरूप व्यापक संपत्ति को नुकसान पहुंचा, एक ऐतिहासिक टाउन हॉल सहित इमारतें जलाई गईं और दुकानों को निशाना बनाया गया। आंतरिक मंत्री लॉरेंट नुनेज और राष्ट्रपति इमैनुएल मैक्रोन ने सुरक्षा और खुफिया विफलता को स्वीकार किया, जबकि राष्ट्रपति मैक्रोन ने आंतरिक मंत्री नुनेज के इस्तीफे के प्रस्ताव को खारिज कर दिया। प्रधानमंत्री सेबस्टियन लेकोर्नू ने अशांति से निपटने के लिए सोमवार को एक संकट कार्य बल की बैठक बुलाई।",
+   "demands": [
+    "कम संसाधनों वाले स्कूलों के लिए अधिक संसाधन",
+    "जीवनयापन की बढ़ती लागत से राहत",
+    "बेहतर सार्वजनिक सेवाएं"
+   ],
+   "response": "अधिकारियों ने 60,000 पुलिसकर्मियों को तैनात किया, जिसके परिणामस्वरूप हजारों गिरफ्तारियां हुईं और सुरक्षा बलों के बीच व्यापक चोटें आईं। आंतरिक मंत्री लॉरेंट नुनेज ने कुछ क्षेत्रों में कमियों और नियंत्रण खोने की बात स्वीकार की। राष्ट्रपति इमैनुएल मैक्रोन ने संपत्ति नष्ट करने और लूटपाट करने वालों को जवाबदेह ठहराने की कसम खाई।",
+   "updates": [
+    "प्रधानमंत्री सेबस्टियन लेकोर्नू ने आंशिक कर्फ्यू और संभावित आपातकाल सहित विकल्पों का मूल्यांकन करने के लिए एक संकट बैठक की।"
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "लगभग 550,000 प्रदर्शनकारियों ने देश की सड़कों पर उतरे",
+    "arrests": "2,500 से अधिक",
+    "injuries": "600 से अधिक आपातकालीन कर्मी घायल हुए",
+    "deaths": "दो लोगों की मौत"
+   }
+  },
+  "mr": {
+   "title": "फ्रान्समध्ये वाढत्या महागाई आणि शिक्षण धोरणांवविरोधात निदर्शने",
+   "seoTitle": "पॅरिस महागाई आणि शिक्षण निषेध",
+   "tea": {
+    "why": "जीवनमानाचा वाढता खर्च, खालावत असलेल्या सार्वजनिक सेवा, घरांची टंचाई आणि फ्रेंच शिक्षणाची स्थिती यामुळे निदर्शक निराश झाले आहेत.",
+    "want": "निदर्शकांनी शाळांसाठी अधिक संसाधने आणि महागाईच्या दबावातूनमुक्तीची मागणी केली आहे.",
+    "changed": "19 ऑक्टोबर: पंतप्रधान सेबास्टियन लेकोर्नू यांनी एक आपत्कालीन बैठक घेतली, ज्यामध्ये नगरपालिकांना अंशतः कर्फ्यू लागू करण्यास सांगण्यात आले आणि आणीबाणीच्या शक्यतेला नाकारले नाही."
+   },
+   "summary": "आंतरिक मंत्रालयाच्या मते, वाढता महागाईचा खर्च, घरांची टंचाई आणि शिक्षणाच्या स्थितीविरुद्ध वीकेंडला फ्रान्सभर मोठी निदर्शने झाली, ज्यामध्ये अंदाजे 550,000 लोक सहभागी झाले होते. हे निषेध सप्टेंबरमध्ये पॅरिस उपनगरात अधिक शाळा संसाधनांची मागणी करणाऱ्या विद्यार्थी आणि शिक्षकांच्या संपाने सुरू झाले होते, परंतु नंतर ते देशभरात पसरले. अनेक मार्च शांततापूर्ण सुरू झाले असले, तरी पॅरिस, लियॉन, मार्सेल, बोर्दो, लिमोज आणि इतर शहरांमध्ये अशांतता, दंगली आणि लूटमार झाली, ज्यामुळे मोठ्या प्रमाणावर मालमत्तेचे नुकसान झाले, एका ऐतिहासिक टाऊन हॉलसह इमारती जाळण्यात आल्या आणि दुकानांना लक्ष्य करण्यात आले. आंतरीय मंत्री लॉरेन्ट नुनेझ आणि राष्ट्राध्यक्ष इमॅनुएल मॅक्रॉन यांनी सुरक्षा आणि गुप्तचर अपयशाची कबुली दिली, तर राष्ट्राध्यक्ष मॅक्रॉन यांनी आंतरीय मंत्री नुनेझ यांचा राजीनाम्याचा प्रस्ताव फेटाळून लावला. पंतप्रधान सेबास्टियन लेकोर्नू यांनी अशांततेचा सामना करण्यासाठी सोमवारी आपत्कालीन कार्यदल बोलावले.",
+   "demands": [
+    "अपुऱ्या संसाधनांच्या शाळांसाठी अधिक संसाधने",
+    "वाढत्या महागाईच्या खर्चापासून आराम",
+    "चांगल्या सार्वजनिक सेवा"
+   ],
+   "response": "अधिकाऱ्यांनी 60,000 पोलीस कर्मचाऱ्यांना तैनात केले, ज्यामुळे हजारो अटक झाली आणि सुरक्षा दलांमध्ये मोठ्या प्रमाणावर जखमा झाल्या. आंतरीय मंत्री लॉरेन्ट नुनेझ यांनी काही भागांमध्ये त्रुटी आणि नियंत्रणाबाहेर जाण्याची कबुली दिली. राष्ट्राध्यक्ष इमॅनुएल मॅक्रॉन यांनी मालमत्तेचे नुकसान करणाऱ्यांना आणि लूटमार करणाऱ्यांना जबाबदार धरण्याची शपथ घेतली.",
+   "updates": [
+    "पंतप्रधान सेबास्टियन लेकोर्नू यांनी अंशतः कर्फ्यू आणि संभाव्य आणीबाणीसह पर्यायांचे मूल्यांकन करण्यासाठी आपत्कालीन बैठक घेतली."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "अंदाजे 550,000 निदर्शक देशाच्या रस्त्यांवर उतरले",
+    "arrests": "2,500 हून अधिक",
+    "injuries": "600 हून अधिक आपत्कालीन कर्मचारी जखमी झाले",
+    "deaths": "दोन जण मृत"
+   }
+  },
+  "es": {
+   "title": "Manifestaciones contra el costo de la vida y las políticas educativas en toda Francia",
+   "seoTitle": "Protestas por el costo de vida y educación en París",
+   "tea": {
+    "why": "Los manifestantes están frustrados por el aumento del costo de la vida, el deterioro de los servicios públicos, la escasez de vivienda y el estado de la educación francesa.",
+    "want": "Los manifestantes exigen mejores recursos para las escuelas y alivio ante las presiones del costo de la vida.",
+    "changed": "19 de oct: El primer ministro Sébastien Lecornu celebró una reunión de crisis, pidiendo a los municipios que impongan toque de queda parcial y sin descartar un estado de emergencia."
+   },
+   "summary": "Manifestaciones masivas contra el aumento del costo de la vida, la escasez de vivienda y las condiciones educativas tuvieron lugar en toda Francia durante el fin de semana, atrayendo aproximadamente a 550.000 participantes según el Ministerio del Interior. Las protestas comenzaron inicialmente en septiembre con huelgas de estudiantes y profesores en los suburbios de París exigiendo más recursos escolares, pero se expandieron a nivel nacional. Aunque muchas marchas comenzaron de forma pacífica, estallaron disturbios, revueltas y saqueos en París, Lyon, Marsella, Burdeos, Limoges y otras ciudades, lo que provocó daños materiales generalizados, edificios incendiados, incluido un ayuntamiento histórico, y tiendas atacadas. El ministro del Interior Laurent Nuñez y el presidente Emmanuel Macron reconocieron fallas de seguridad e inteligencia, mientras que el presidente Macron rechazó la oferta de dimisión del ministro del Interior Nuñez. El primer ministro Sébastien Lecornu convocó un grupo de trabajo de crisis el lunes para abordar los disturbios.",
+   "demands": [
+    "Más recursos para escuelas mal equipadas",
+    "Alivio frente al creciente costo de la vida",
+    "Mejores servicios públicos"
+   ],
+   "response": "Las autoridades desplegaron 60.000 agentes de policía, lo que resultó en miles de detenciones y heridas generalizadas entre las fuerzas de seguridad. El ministro del Interior Laurent Nuñez admitió deficiencias y pérdida de control en ciertas áreas. El presidente Emmanuel Macron prometió hacer rendir cuentas a quienes destruyeron propiedades y saquearon.",
+   "updates": [
+    "El primer ministro Sébastien Lecornu celebró una reunión de crisis para evaluar opciones, incluidos toques de queda parciales y un posible estado de emergencia."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "aproximadamente 550.000 manifestantes salieron a las calles del país",
+    "arrests": "más de 2.500",
+    "injuries": "más de 600 miembros del personal de emergencia resultaron heridos",
+    "deaths": "dos personas muertas"
+   }
+  },
+  "fr": {
+   "title": "Des manifestations contre le coût de la vie et les politiques éducatives organisées à travers la France",
+   "seoTitle": "Protestations à Paris sur la vie chère et l'éducation",
+   "tea": {
+    "why": "Les manifestants sont frustrés par la hausse du coût de la vie, la détérioration des services publics, la pénurie de logements et l'état de l'éducation française.",
+    "want": "Les manifestants exigent de meilleures ressources pour les écoles et un soulagement face aux pressions du coût de la vie.",
+    "changed": "19 oct. : le Premier ministre Sébastien Lecornu a tenu une réunion de crise, demandant aux municipalités d'imposer des couvre-feux partiels et n'excluant pas un état d'urgence."
+   },
+   "summary": "De grandes manifestations contre la hausse du coût de la vie, la pénurie de logements et les conditions d'éducation ont eu lieu à travers la France pendant le week-end, rassemblant environ 550 000 participants selon le ministère de l'Intérieur. Les protestations ont initialement débuté en septembre avec des grèves d'étudiants et d'enseignants dans les banlieues parisiennes exigeant plus de ressources scolaires, mais se sont étendues à l'échelle nationale. Bien que de nombreuses marches aient commencé pacifiquement, des troubles, des émeutes et des pillages ont éclaté à Paris, Lyon, Marseille, Bordeaux, Limoges et dans d'autres villes, entraînant d'importants dégâts matériels, des bâtiments incendiés dont un hôtel de ville historique, et des magasins pris pour cible. Le ministre de l'Intérieur Laurent Nuñez et le président Emmanuel Macron ont reconnu des échecs en matière de sécurité et de renseignement, tandis que le président Macron a refusé l'offre de démission du ministre de l'Intérieur Laurent Nuñez. Le Premier ministre Sébastien Lecornu a réuni une cellule de crise lundi pour faire face aux troubles.",
+   "demands": [
+    "Plus de ressources pour les écoles mal équipées",
+    "Un soulagement face à la hausse du coût de la vie",
+    "De meilleurs services publics"
+   ],
+   "response": "Les autorités ont déployé 60 000 policiers, entraînant des milliers d'arrestations et de nombreuses blessures parmi les forces de sécurité. Le ministre de l'Intérieur Laurent Nuñez a admis des lacunes et une perte de contrôle dans certaines zones. Le président Emmanuel Macron a promis de traduire en justice ceux qui ont détruit des biens et pillé.",
+   "updates": [
+    "Le Premier ministre Sébastien Lecornu a tenu une réunion de crise pour évaluer les options, y compris des couvre-feux partiels et un éventuel état d'urgence."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "environ 550 000 manifestants sont descendus dans les rues du pays",
+    "arrests": "plus de 2 500",
+    "injuries": "plus de 600 agents des services d'urgence ont été blessés",
+    "deaths": "deux personnes mortes"
+   }
+  },
+  "de": {
+   "title": "Demonstrationen gegen Lebenshaltungskosten und Bildungspolitik in ganz Frankreich",
+   "seoTitle": "Paris Proteste gegen Lebenshaltungskosten und Bildung",
+   "tea": {
+    "why": "Demonstranten sind frustriert über die steigenden Lebenshaltungskosten, die Verschlechterung der öffentlichen Dienstleistungen, die Wohnungsnot und den Zustand des französischen Bildungssystems.",
+    "want": "Demonstranten fordern bessere Ressourcen für Schulen und Entlastung von den Druckpunkten der Lebenshaltungskosten.",
+    "changed": "19. Okt.: Premierminister Sébastien Lecornu hielt eine Krisensitzung ab, in der er die Kommunen aufforderte, teilweise Ausgangssperren zu verhängen, und einen Ausnahmezustand nicht ausschloss."
+   },
+   "summary": "Großdemonstrationen gegen die steigenden Lebenshaltungskosten, die Wohnungsnot und die Bildungsbedingungen fanden am Wochenende in ganz Frankreich statt und zogen laut Innenministerium schätzungsweise 550.000 Teilnehmer an. Die Proteste begannen im September mit Streiks von Schülern und Lehrern in den Vororten von Paris, die mehr Schulressourcen forderten, weiteten sich jedoch landesweit aus. Während viele Märsche friedlich begannen, kam es in Paris, Lyon, Marseille, Bordeaux, Limoges und anderen Städten zu Unruhen, Ausschreitungen und Plünderungen, was zu massiven Sachschäden, in Brand gesteckten Gebäuden, darunter einem historischen Rathaus, und gezielten Angriffen auf Geschäfte führte. Innenminister Laurent Nuñez und Präsident Emmanuel Macron räumten Sicherheits- und Geheimdienstversagen ein, während Präsident Macron das Rücktrittsangebot von Innenminister Nuñez ablehnte. Premierminister Sébastien Lecornu berief am Montag eine Krisen-Taskforce ein, um den Unruhen zu begegnen.",
+   "demands": [
+    "Mehr Ressourcen für unzureichend ausgestattete Schulen",
+    "Entlastung von den steigenden Lebenshaltungskosten",
+    "Bessere öffentliche Dienstleistungen"
+   ],
+   "response": "Die Behörden setzten 60.000 Polizisten ein, was zu Tausenden von Festnahmen und zahlreichen Verletzten unter den Sicherheitskräften führte. Innenminister Laurent Nuñez räumte Mängel und einen Kontrollverlust in bestimmten Bereichen ein. Präsident Emmanuel Macron gelobte, diejenigen zur Rechenschaft zu ziehen, die Eigentum zerstört und geplündert hatten.",
+   "updates": [
+    "Premierminister Sébastien Lecornu hielt eine Krisensitzung ab, um Optionen wie teilweise Ausgangssperren und einen möglichen Ausnahmezustand zu bewerten."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "etwa 550.000 Demonstranten gingen auf die Straßen des Landes",
+    "arrests": "mehr als 2.500",
+    "injuries": "mehr als 600 Einsatzkräfte wurden verletzt",
+    "deaths": "zwei Tote"
+   }
+  }
+ }
 }
