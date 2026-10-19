@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-19",
-  "count": 83
+  "count": 102
  },
  "runs": [
-  {
-   "at": "2026-10-12T21:17:56.709Z",
-   "ms": 132409,
-   "discovered": 38,
-   "fetched": 37,
-   "classified": 33,
-   "protests": 11,
-   "summarized": 6,
-   "published": 55,
-   "live": 11,
-   "aiCalls": 13,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 7 files, 23 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 77 protest-word items",
-    "fetch: 37 ok, 1 failed",
-    "classify: new candidate e243ecc4328 \"Congress Mahila Sangathan protests against CEC at Himachal Bhawan\" (Delhi)",
-    "classify: new candidate e9d2d8e7856 \"BJP Mahila Morcha tries to gherao Congress office in Srinagar\" (Srinagar)",
-    "classify: new candidate eb8e69c4c73 \"Lawyers protest police misconduct in Nagpur\" (Nagpur)",
-    "classify: new candidate e22cbd87daa \"BJP Mahila Morcha protests in Panaji and Margao against MP\" (Panjim)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-13T01:05:22.684Z",
    "ms": 116959,
@@ -1460,8 +1434,37 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-19T19:28:42.639Z",
+   "ms": 197306,
+   "discovered": 64,
+   "fetched": 63,
+   "classified": 55,
+   "protests": 19,
+   "summarized": 8,
+   "published": 100,
+   "live": 16,
+   "aiCalls": 19,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 58 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 43 protest-word items",
+    "fetch: 63 ok, 1 failed",
+    "classify: new candidate e74bf09a982 \"Rhinelander residents hold No Kings early voting rally\" (Rhinelander)",
+    "classify: new candidate ee1ee26d6c3 \"Farmers and Dalit groups call for Karnataka rallies against SIR\" (Bengaluru)",
+    "classify: new candidate eff179bba10 \"Delhi BJP SC/ST Morcha protests outside Congress office\" (Delhi)",
+    "classify: new candidate ef0f8af33ae \"French cities impose curfews following widespread protests and looting\" (Lille)",
+    "classify: new candidate e0e998939af \"Millions participate in nationwide No Kings demonstrations in the U.S.\" (Seattle)",
+    "classify: new candidate e595b402f17 \"Anthony Hudson protests data centers and surveillance in Lansing\" (Lansing)",
+    "classify: new candidate ea4e2a32884 \"Alaskans join No Kings rally to encourage early voting\" (Juneau)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261019161500",
- "lastRunAt": "2026-10-19T16:16:25.495Z"
+ "gdeltCursor": "20261019193000",
+ "lastRunAt": "2026-10-19T19:28:42.639Z"
 }
