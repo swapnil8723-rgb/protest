@@ -1,32 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-18",
-  "count": 124
+  "day": "2026-10-19",
+  "count": 16
  },
  "runs": [
-  {
-   "at": "2026-10-12T07:44:01.630Z",
-   "ms": 251723,
-   "discovered": 65,
-   "fetched": 64,
-   "classified": 57,
-   "protests": 25,
-   "summarized": 8,
-   "published": 50,
-   "live": 11,
-   "aiCalls": 19,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 49 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 74 protest-word items",
-    "fetch: 64 ok, 1 failed",
-    "classify: new candidate e2a945a2dd3 \"BJD and Congress accuse BJP government of manipulating student elections\" (Bhubaneswar)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-12T10:57:49.377Z",
    "ms": 321567,
@@ -1463,8 +1440,37 @@
     "translate: 1 events"
    ],
    "translated": 1
+  },
+  {
+   "at": "2026-10-19T04:27:50.294Z",
+   "ms": 168176,
+   "discovered": 74,
+   "fetched": 73,
+   "classified": 56,
+   "protests": 35,
+   "summarized": 6,
+   "published": 96,
+   "live": 16,
+   "aiCalls": 16,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 21 files, 69 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 26 protest-word items",
+    "fetch: 73 ok, 1 failed",
+    "classify: new candidate e04444a9122 \"Queens community group rallies to shut down brothel\" (New York City)",
+    "classify: new candidate ef1c0959f01 \"Protesters hold hunger strike outside Georgia Capitol over ICE conditions\" (Atlanta)",
+    "classify: new candidate e43e51daf6c \"Sabarimala pilgrims block road over transport shortages\" (Pathanamthitta)",
+    "classify: new candidate ee8fc8e8bba \"French demonstrators riot and loot over living costs and schools\" (Limoges)",
+    "classify: new candidate e069bd0f398 \"French students and protesters clash and burn town hall\" (Limoges)",
+    "classify: new candidate e9c98ee3062 \"Demonstrators riot and loot in European cities\" (Paris)",
+    "classify: new candidate e651e8c70cd \"Clashes erupt in Thoubal district prompting prohibitory orders\" (Thoubal)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261018231500",
- "lastRunAt": "2026-10-18T23:17:44.128Z"
+ "gdeltCursor": "20261019043000",
+ "lastRunAt": "2026-10-19T04:27:50.294Z"
 }
