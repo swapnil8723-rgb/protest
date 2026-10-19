@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-19",
-  "count": 102
+  "count": 105
  },
  "runs": [
-  {
-   "at": "2026-10-13T01:05:22.684Z",
-   "ms": 116959,
-   "discovered": 51,
-   "fetched": 50,
-   "classified": 35,
-   "protests": 11,
-   "summarized": 3,
-   "published": 55,
-   "live": 11,
-   "aiCalls": 9,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 16 files, 41 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 70 protest-word items",
-    "fetch: 50 ok, 1 failed",
-    "classify: new candidate e39325f5038 \"Students plan walkout over school flag policy in Sonoma\" (Sonoma)",
-    "classify: new candidate e5646977c7c \"Assam BJP launches Jan Jagaran processions against Congress over SIR\" (Guwahati)",
-    "classify: new candidate e564a0c541b \"Dock workers and stakeholders stage hunger strike in Chattogram\" (Chattogram)",
-    "classify: new candidate ee92d7b9c51 \"Milwaukee French Immersion School community protests teacher cuts\" (Milwaukee)",
-    "classify: new candidate e0550d335c7 \"Groups plan No Kings protests in Athens and Huntsville\" (Athens)",
-    "classify: new candidate e8ef8a9325d \"French high school students protest conditions nationwide\" (Aubagne)",
-    "classify: new candidate e2081c894d9 \"Lawyers scuffle with police during protest in Lahore\" (Lahore)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-13T04:27:46.591Z",
    "ms": 211241,
@@ -1463,8 +1434,33 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-19T20:37:02.724Z",
+   "ms": 46473,
+   "discovered": 22,
+   "fetched": 22,
+   "classified": 18,
+   "protests": 6,
+   "summarized": 1,
+   "published": 100,
+   "live": 16,
+   "aiCalls": 3,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 5 files, 22 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 41 protest-word items",
+    "fetch: 22 ok, 0 failed",
+    "classify: new candidate e5f3b6fb862 \"French cities impose curfews following widespread protests\" (Paris)",
+    "classify: new candidate ecbc8ac46d9 \"Congress party plans farmers rally in Morbi\" (Morvi)",
+    "classify: new candidate ede42d56c87 \"College teachers announce upcoming strike over arrears\" (Amritsar)",
+    "classify: new candidate e1cf4a14448 \"Nationwide demonstrations and riots in France over living costs\" (Limoges)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting"
+   ],
+   "translated": 0
   }
  ],
- "gdeltCursor": "20261019193000",
- "lastRunAt": "2026-10-19T19:28:42.639Z"
+ "gdeltCursor": "20261019204500",
+ "lastRunAt": "2026-10-19T20:37:02.724Z"
 }
