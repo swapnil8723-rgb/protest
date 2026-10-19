@@ -3,7 +3,7 @@
  "slug": "paris-cost-of-living-protests-oct-2026",
  "stage": "live",
  "title": "France sees widespread protests and clashes over living costs and school conditions",
- "seoTitle": "Paris protests over living costs and schools",
+ "seoTitle": "Paris cost of living and school protests",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -15,90 +15,108 @@
  },
  "scope": "nationwide",
  "causes": [
-  "labour",
-  "students",
-  "education"
+  "education",
+  "prices",
+  "governance"
  ],
- "kind": "multi-day",
+ "kind": "one-day",
  "startedOn": "2026-10-17",
- "status": "ongoing",
- "vibe": "tense",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
   "serious",
-  "top-10",
+  "low-confidence",
   "sources-disagree"
  ],
- "isOngoing": true,
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are upset about the rising cost of living, fuel prices, frozen benefits, and deteriorating conditions and staff shortages in schools.",
-  "want": "Demonstrators demand lower fuel costs, higher wages and pensions, better public services, and improved funding and facilities for schools.",
-  "changed": "Oct 19: President Emmanuel Macron condemned the unbridled violence and rioting, noting that at least 2,400 people had been arrested and nearly 1,000 security personnel…"
+  "why": "Protesters are frustrated over the rising cost of living, fuel prices, frozen benefits, and poor school conditions.",
+  "want": "Demonstrators demand better schools, higher wages and pensions, lower fuel costs, and protection of public services.",
+  "changed": "Oct 19: President Emmanuel Macron admitted planning failures during nationwide protests, while the interior minister's resignation was refused."
  },
- "summary": "Mass nationwide demonstrations erupted across France on Saturday, bringing together students, trade unionists, and members reviving the 'yellow vest' movement to protest against the rising cost of living, lower public-sector salaries, and poor conditions in secondary schools. While large portions of the marches remained peaceful, widespread rioting, arson, and looting occurred in cities including Paris, Lyon, Marseille, and Limoges, where the 19th-century town hall was severely damaged by fire. Riot police deployed tear gas, water cannons, and stun grenades against groups throwing projectiles. Authorities and the interior ministry reported thousands of arrests and hundreds of injured law enforcement officers. President Emmanuel Macron and Prime Minister Sébastien Lecornu strongly condemned the extreme violence and property damage, while opposition politicians criticized the administration's handling of the unrest.",
+ "summary": "France experienced widespread demonstrations on Saturday over living costs, fuel prices, and deteriorating school conditions. Originally sparked by students demanding better educational facilities and protesting teacher shortages, the movement expanded to include trade unions, public service workers, and Yellow Vest activists. While many participants demonstrated peacefully, violent clashes erupted in Paris and multiple other cities, resulting in property damage, arson attacks on public buildings like the Limoges town hall, and widespread looting of commercial businesses. Law enforcement deployed tear gas, stun grenades, and water cannons to disperse crowds. President Emmanuel Macron and government ministers condemned the violence, blaming radical far-left groups and criminal elements for instigating the destruction. Authorities reported thousands of arrests and numerous injuries among security forces.",
  "organizers": [
   "CGT trade union",
-  "France Unbowed party",
+  "France Unbowed",
   "French Communist Party",
   "Yellow Vest movement"
  ],
  "demands": [
-  "Lower fuel and living costs",
+  "Lower fuel costs",
+  "Better schools and resolution of teacher shortages",
   "Higher wages and pensions",
   "Protection of public services",
-  "Improved school facilities and addressing staff shortages",
-  "Opposition to frozen benefits"
+  "Opposition to frozen benefits and public-sector salaries"
  ],
- "response": "According to the interior ministry and news reports, police deployed tear gas, water cannons, and stun grenades, arresting about 2,400 people and reporting nearly 1,000 security personnel injured. President Emmanuel Macron condemned the violence and vowed increased security.",
+ "response": "According to sources, police deployed tear gas, water cannons, and batons. President Macron condemned the violence and ruled out an immediate state of emergency. The interior ministry reported thousands of arrests and nearly 1,000 injured officers, while the interior minister briefly offered his resignation.",
  "numbers": {
   "crowd": {
    "value": 550000,
-   "text": "Authorities estimated Saturday’s marches had a turnout of about 550,000, while organizers put it at 800,000.",
+   "text": "interior ministry reported more than 550,000 participants nationwide",
    "sources": [
-    5,
-    9
+    2,
+    3,
+    4,
+    5
    ]
   },
   "arrests": {
    "value": 2400,
-   "text": "Nearly 2,400 people were arrested Saturday in unrest",
+   "text": "nearly 2,400 people were arrested on Saturday",
    "sources": [
-    7,
-    9
+    8,
+    9,
+    10
    ]
   },
   "injuries": {
    "value": 1000,
-   "text": "almost 1,000 police and gendarmes injured, seven seriously, the interior ministry said.",
+   "text": "almost 1,000 police and gendarmes injured",
    "sources": [
-    7
+    8,
+    9,
+    10
+   ]
+  },
+  "deaths": {
+   "value": 1,
+   "text": "One protester died after suffering a cardiac arrest during demonstrations in Paris.",
+   "sources": [
+    8
    ]
   }
  },
  "updates": [
   {
    "at": "2026-10-16",
-   "text": "Authorities prepared for nationwide cost-of-living and school protests, warning of potential clashes and imposing route restrictions.",
+   "text": "Authorities anticipated 200 to 300 actions nationwide with potential clashes in Paris.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-17",
-   "text": "Mass protests turned into riots in multiple cities as cars were torched, buildings set ablaze, and police deployed tear gas and water cannons.",
+   "text": "Hundreds of thousands demonstrated across France, resulting in fires, looting, and police clashes.",
    "sources": [
     2,
+    3
+   ]
+  },
+  {
+   "at": "2026-10-18",
+   "text": "President Macron condemned the violence during an address after arrest tolls climbed significantly.",
+   "sources": [
     5,
     8
    ]
   },
   {
    "at": "2026-10-19",
-   "text": "President Macron condemned the violence after arrests reached 2,400 and small-scale clashes continued in Paris and Lyon.",
+   "text": "Macron acknowledged intelligence and planning failures but refused the interior minister's resignation.",
    "sources": [
-    7,
     9,
     10
    ]
@@ -114,252 +132,268 @@
   },
   {
    "n": 2,
-   "url": "https://timesofindia.indiatimes.com/world/europe/cars-torched-shops-looted-violence-protests-erupt-across-france-over-270-arrested/articleshow/135017051.cms",
-   "publisher": "timesofindia.indiatimes.com",
-   "title": "Cars torched, shops looted: Violence protests erupt across France; over 270 arrested",
-   "publishedAt": "2026-10-17T16:41:00.000Z"
+   "url": "https://www.watoday.com.au/world/europe/police-clash-with-protestors-in-france-as-tens-of-thousands-rally-over-cost-of-living-20261018-p616ex.html",
+   "publisher": "watoday.com.au",
+   "title": "Police clash with protesters in France as tens of thousands rally over cost of living",
+   "publishedAt": "2026-10-17T17:37:18.000Z"
   },
   {
    "n": 3,
-   "url": "https://www.cbc.ca/news/world/student-led-protesters-clash-with-riot-police-in-france-9.7385380",
-   "publisher": "cbc.ca",
-   "title": "Student-led protesters clash with riot police in France | CBC News",
-   "publishedAt": "2026-10-17T21:35:52.902Z"
+   "url": "https://local21news.com/news/nation-world/hundreds-of-thousands-protest-across-france-over-schools-cost-of-living-and-fuel-prices",
+   "publisher": "local21news.com",
+   "title": "Hundreds of thousands protest across France over schools, cost of living, and fuel prices",
+   "publishedAt": "2026-10-17T22:02:29.000Z"
   },
   {
    "n": 4,
-   "url": "https://krdo.com/news/national-world/cnn-world/2026/10/17/half-a-million-protesters-sweep-france-in-major-show-of-youth-unrest/",
-   "publisher": "krdo.com",
-   "title": "Buildings torched and over 1,000 detained after half a million protesters sweep France",
-   "publishedAt": "2026-10-18T02:09:03.000Z"
+   "url": "https://themunicheye.com/breaking-news/cost-of-living-protests-sweep-belgium-italy-portugal-and-france-954",
+   "publisher": "themunicheye.com",
+   "title": "Cost of living protests sweep Belgium, Italy, Portugal and France",
+   "publishedAt": "2026-10-18T03:00:19.000Z"
   },
   {
    "n": 5,
-   "url": "https://thefrontierpost.com/violent-clashes-looting-and-buildings-ablaze-in-france-as-over-1200-arrested-after-protests/",
-   "publisher": "thefrontierpost.com",
-   "title": "Violent clashes, looting and buildings ablaze in France as over 1,200 arrested after protests"
+   "url": "https://www.lbc.co.uk/article/macron-compared-marie-antionette-concert-5Hjdk5P_2/",
+   "publisher": "lbc.co.uk",
+   "title": "Macron and wife Brigitte likened to Marie Antionette after pair dance at Celine Dion amid French riots - as arrest toll hits 1,800 | LBC",
+   "publishedAt": "2026-10-18T08:25:26.756Z"
   },
   {
    "n": 6,
-   "url": "https://www.africanews.com/2026/10/18/smashed-storefronts-burned-buildings-france-wakes-up-to-aftermath-of-violent-protests/",
-   "publisher": "africanews.com",
-   "title": "Smashed storefronts, burned buildings: France wakes up to aftermath of violent protests | Africanews"
+   "url": "https://www.foxnews.com/politics/photos-show-aftermath-riots-masked-groups-clash-police-across-france",
+   "publisher": "foxnews.com",
+   "title": "Photos show aftermath of riots as masked groups clash with police across France",
+   "publishedAt": "2026-10-18T17:53:34.000Z"
   },
   {
    "n": 7,
-   "url": "https://nationalpost.com/news/frances-macron-condemns-unbridled-violence-amid-new-wave-of-clashes",
-   "publisher": "nationalpost.com",
-   "title": "France's Macron condemns 'unbridled violence' amid new wave of clashes",
-   "publishedAt": "2026-10-18T19:46:01.000Z"
-  },
-  {
-   "n": 8,
    "url": "https://wrp.org.uk/news/french-youth-protesters-violently-attacked-2000-arrested/",
    "publisher": "wrp.org.uk",
    "title": "French youth protesters violently attacked – 2,000 arrested - Workers Revolutionary Party",
    "publishedAt": "2026-10-18T23:00:00.000Z"
   },
   {
+   "n": 8,
+   "url": "https://www.business-standard.com/world-news/france-unrest-macron-urges-calm-after-2-400-arrests-amid-riots-looting-126101900091_1.html",
+   "publisher": "business-standard.com",
+   "title": "France unrest: Macron urges calm after 2,400 arrests amid riots, looting",
+   "publishedAt": "2026-10-19T05:43:32.000Z"
+  },
+  {
    "n": 9,
-   "url": "https://www.timesleader.com/news/1762881/macron-condemns-those-who-sought-to-bring-down-the-republic-after-rioting-mars-nationwide-protests",
-   "publisher": "timesleader.com",
-   "title": "Macron condemns those who ‘sought to bring down the Republic’ after rioting mars nationwide protests",
-   "publishedAt": "2026-10-19T01:02:00.000Z"
+   "url": "https://www.nzherald.co.nz/world/macron-notes-failures-after-france-unrest/PKBZCD2KCZCXVA2MOGF47EDOLA/",
+   "publisher": "nzherald.co.nz",
+   "title": "French President notes ‘failures’ after violent unrest",
+   "publishedAt": "2026-10-19T06:24:48.375Z"
   },
   {
    "n": 10,
-   "url": "https://brudirect.com/post/Macron-calls-for-calm-in-France-and-warns-rioting-must-not-escalate",
-   "publisher": "brudirect.com",
-   "title": "Brunei's No.1 News Website"
+   "url": "https://www.thejournal.ie/macron-france-protests-laurent-nunez-7197678-Oct2026/",
+   "publisher": "thejournal.ie",
+   "title": "Macron admits failure to prepare for violent protests but refuses interior minister",
+   "publishedAt": "2026-10-19T06:48:18.000Z"
   }
  ],
  "conflicts": [
-  "Authorities estimated turnout at 550,000; organizers put it at 800,000.",
-  "Police reported about 2,400 arrests; earlier reports cited over 270 to 1,200."
+  "Interior Minister estimated 550,000 nationwide participants, whereas organizers put the turnout at about 800,000.",
+  "Police and official tallies on total arrests ranged from 1,800 to nearly 2,400."
  ],
- "confidence": 0.8,
+ "confidence": 0.75,
  "publishers": 10,
- "reports24h": 39,
- "reportsPrev24h": 35,
- "reports48h": 74,
+ "reports24h": 38,
+ "reportsPrev24h": 43,
+ "reports48h": 81,
  "firstSeenAt": "2026-10-16T01:06:25.735Z",
- "lastReportAt": "2026-10-19T03:15:00.000Z",
- "lastCheckedAt": "2026-10-19T04:29:40.395Z",
- "updatedAt": "2026-10-19T04:29:07.974Z",
+ "lastReportAt": "2026-10-19T06:48:18.000Z",
+ "lastCheckedAt": "2026-10-19T07:46:14.284Z",
+ "updatedAt": "2026-10-19T07:45:26.496Z",
  "responseSources": [
   2,
+  3,
   7,
+  8,
   9,
   10
  ],
  "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-10-19T04:29:07.974Z",
- "summaryOf": "88d8345e769b",
+ "summarizedAt": "2026-10-19T07:45:26.496Z",
+ "summaryOf": "407e152a7dd8",
  "publishedAt": "2026-10-16T11:33:32.959Z",
  "i18n": {
-  "of": "5563a26f782c4bef",
-  "at": "2026-10-19T04:30:03.385Z",
+  "of": "424d442d2d667575",
+  "at": "2026-10-19T07:46:52.096Z",
   "tries": 1,
   "hi": {
-   "title": "France sees widespread protests and clashes over living costs and school conditions",
-   "seoTitle": "Paris protests over living costs and schools",
+   "title": "जीवन यापन लागत और स्कूली स्थितियों को लेकर फ्रांस में व्यापक विरोध प्रदर्शन और झड़पें हुईं",
+   "seoTitle": "पेरिस में जीवन यापन और स्कूली विरोध प्रदर्शन",
    "tea": {
-    "why": "Protesters are upset about the rising cost of living, fuel prices, frozen benefits, and deteriorating conditions and staff shortages in schools.",
-    "want": "Demonstrators demand lower fuel costs, higher wages and pensions, better public services, and improved funding and facilities for schools.",
-    "changed": "Oct 19: President Emmanuel Macron condemned the unbridled violence and rioting, noting that at least 2,400 people had been arrested and nearly 1,000 security personnel…"
+    "why": "प्रदर्शनकारी बढ़ते जीवन यापन खर्च, ईंधन की कीमतों, फ्रीज किए गए लाभों और खराब स्कूली स्थितियों से निराश हैं।",
+    "want": "प्रदर्शनकारियों की मांग है कि बेहतर स्कूल हों, उच्च मजदूरी और पेंशन मिले, ईंधन की लागत कम हो और सार्वजनिक सेवाओं की रक्षा की जाए।",
+    "changed": "19 अक्टूबर: देशव्यापी विरोध प्रदर्शनों के दौरान राष्ट्रपति इमैनुएल मैक्रॉ ने योजनागत विफलताओं को स्वीकार किया, जबकि आंतरिक मंत्री का इस्तीफा अस्वीकार कर दिया गया।"
    },
-   "summary": "Mass nationwide demonstrations erupted across France on Saturday, bringing together students, trade unionists, and members reviving the 'yellow vest' movement to protest against the rising cost of living, lower public-sector salaries, and poor conditions in secondary schools. While large portions of the marches remained peaceful, widespread rioting, arson, and looting occurred in cities including Paris, Lyon, Marseille, and Limoges, where the 19th-century town hall was severely damaged by fire. Riot police deployed tear gas, water cannons, and stun grenades against groups throwing projectiles. Authorities and the interior ministry reported thousands of arrests and hundreds of injured law enforcement officers. President Emmanuel Macron and Prime Minister Sébastien Lecornu strongly condemned the extreme violence and property damage, while opposition politicians criticized the administration's handling of the unrest.",
+   "summary": "जीवन यापन की लागत, ईंधन की कीमतों और खराब होती स्कूली स्थितियों को लेकर फ्रांस में शनिवार को व्यापक प्रदर्शन हुए। मूल रूप से बेहतर शैक्षिक सुविधाओं की मांग करने वाले और शिक्षकों की कमी का विरोध कर रहे छात्रों द्वारा शुरू किया गया यह आंदोलन ट्रेड यूनियनों, सार्वजनिक सेवा कर्मियों और येलो वेस्ट कार्यकर्ताओं को शामिल करने के लिए बढ़ गया। हालांकि कई प्रतिभागियों ने शांतिपूर्ण प्रदर्शन किया, लेकिन पेरिस और कई अन्य शहरों में हिंसक झड़पें भड़क गईं, जिसके परिणामस्वरूप संपत्ति को नुकसान हुआ, लिमोज टाउन हॉल जैसी सार्वजनिक इमारतों पर आगजनी के हमले हुए और व्यावसायिक उद्यमों में बड़े पैमाने पर लूटपाट हुई। कानून प्रवर्तन ने भीड़ को तितर-बितर करने के लिए आंसू गैस, स्टन ग्रेनेड और वाटर कैनन का इस्तेमाल किया। राष्ट्रपति इमैनुएल मैक्रॉ और सरकार के मंत्रियों ने हिंसा की निंदा की, और विनाश को भड़काने के लिए कट्टरपंथी सुदूर-वाम समूहों और आपराधिक तत्वों को दोषी ठहराया। अधिकारियों ने सुरक्षा बलों के बीच हजारों गिरफ्तारियों और कई चोटों की सूचना दी।",
    "demands": [
-    "Lower fuel and living costs",
-    "Higher wages and pensions",
-    "Protection of public services",
-    "Improved school facilities and addressing staff shortages",
-    "Opposition to frozen benefits"
+    "ईंधन की कम लागत",
+    "बेहतर स्कूल और शिक्षकों की कमी का समाधान",
+    "उच्च मजदूरी और पेंशन",
+    "सार्वजनिक सेवाओं की सुरक्षा",
+    "फ्रीज किए गए लाभों और सार्वजनिक क्षेत्र के वेतन का विरोध"
    ],
-   "response": "According to the interior ministry and news reports, police deployed tear gas, water cannons, and stun grenades, arresting about 2,400 people and reporting nearly 1,000 security personnel injured. President Emmanuel Macron condemned the violence and vowed increased security.",
+   "response": "सूत्रों के अनुसार, पुलिस ने आंसू गैस, वाटर कैनन और लाठियों का इस्तेमाल किया। राष्ट्रपति मैक्रॉ ने हिंसा की निंदा की और तत्काल आपातकाल की स्थिति से इनकार किया। आंतरिक मंत्रालय ने हजारों गिरफ्तारियों और लगभग 1,000 घायल अधिकारियों की सूचना दी, जबकि आंतरिक मंत्री ने संक्षेप में अपने इस्तीफे की पेशकश की।",
    "updates": [
-    "Authorities prepared for nationwide cost-of-living and school protests, warning of potential clashes and imposing route restrictions.",
-    "Mass protests turned into riots in multiple cities as cars were torched, buildings set ablaze, and police deployed tear gas and water cannons.",
-    "President Macron condemned the violence after arrests reached 2,400 and small-scale clashes continued in Paris and Lyon."
+    "अधिकारियों ने पेरिस में संभावित झड़पों के साथ देश भर में 200 से 300 कार्रवाइयों की उम्मीद की थी।",
+    "पूरे फ्रांस में लाखों लोगों ने प्रदर्शन किया, जिसके परिणामस्वरूप आगजनी, लूटपाट और पुलिस झड़पें हुईं।",
+    "गिरफ्तारी का आंकड़ा काफी बढ़ जाने के बाद एक संबोधन के दौरान राष्ट्रपति मैक्रॉ ने हिंसा की निंदा की।",
+    "मैक्रॉ ने खुफिया और योजनागत विफलताओं को स्वीकार किया लेकिन आंतरिक मंत्री का इस्तीफा अस्वीकार कर दिया।"
    ],
    "conflicts": [
-    "Authorities estimated turnout at 550,000; organizers put it at 800,000.",
-    "Police reported about 2,400 arrests; earlier reports cited over 270 to 1,200."
+    "आंतरिक मंत्री ने देश भर में 550,000 प्रतिभागियों का अनुमान लगाया, जबकि आयोजकों ने उपस्थिति लगभग 800,000 बताई।",
+    "कुल गिरफ्तारियों पर पुलिस और आधिकारिक आंकड़े 1,800 से लगभग 2,400 के बीच रहे।"
    ],
    "numbers": {
-    "crowd": "Authorities estimated Saturday’s marches had a turnout of about 550,000, while organizers put it at 800,000.",
-    "arrests": "Nearly 2,400 people were arrested Saturday in unrest",
-    "injuries": "almost 1,000 police and gendarmes injured, seven seriously, the interior ministry said."
+    "crowd": "आंतरिक मंत्रालय ने देश भर में 550,000 से अधिक प्रतिभागियों की सूचना दी",
+    "arrests": "शनिवार को लगभग 2,400 लोगों को गिरफ्तार किया गया",
+    "injuries": "लगभग 1,000 पुलिसकर्मी और जेंडरम घायल हुए",
+    "deaths": "पेरिस में प्रदर्शनों के दौरान कार्डियक अरेस्ट से पीड़ित होने के बाद एक प्रदर्शनकारी की मौत हो गई।"
    }
   },
   "mr": {
-   "title": "France sees widespread protests and clashes over living costs and school conditions",
-   "seoTitle": "Paris protests over living costs and schools",
+   "title": "फ्रान्समध्ये जीवनमानाचा खर्च आणि शाळेच्या परिस्थितीवरून व्यापक निदर्शने आणि संघर्ष झाले",
+   "seoTitle": "पॅरिस जीवनमानाचा खर्च आणि शाळा निदर्शने",
    "tea": {
-    "why": "Protesters are upset about the rising cost of living, fuel prices, frozen benefits, and deteriorating conditions and staff shortages in schools.",
-    "want": "Demonstrators demand lower fuel costs, higher wages and pensions, better public services, and improved funding and facilities for schools.",
-    "changed": "Oct 19: President Emmanuel Macron condemned the unbridled violence and rioting, noting that at least 2,400 people had been arrested and nearly 1,000 security personnel…"
+    "why": "वाढता जीवनमानाचा खर्च, इंधनाचे दर, गोठवलेले लाभ आणि खालावलेली शाळेची परिस्थिती यांमुळे निदर्शक निराश झाले आहेत.",
+    "want": "आंदोलकांची मागणी आहे की चांगल्या शाळा असाव्यात, उच्च वेतन आणि पेन्शन मिळावी, इंधनाचे दर कमी व्हावेत आणि सार्वजनिक सेवांचे संरक्षण केले जावे.",
+    "changed": "१९ ऑक्टोबर: देशव्यापी निदर्शनांदरम्यान अध्यक्ष इमॅनुएल मॅक्रॉ यांनी नियोजनातील अपयशाची कबुली दिली, तर अंतर्गत मंत्र्यांचा राजीनामा फेटाळण्यात आला."
    },
-   "summary": "Mass nationwide demonstrations erupted across France on Saturday, bringing together students, trade unionists, and members reviving the 'yellow vest' movement to protest against the rising cost of living, lower public-sector salaries, and poor conditions in secondary schools. While large portions of the marches remained peaceful, widespread rioting, arson, and looting occurred in cities including Paris, Lyon, Marseille, and Limoges, where the 19th-century town hall was severely damaged by fire. Riot police deployed tear gas, water cannons, and stun grenades against groups throwing projectiles. Authorities and the interior ministry reported thousands of arrests and hundreds of injured law enforcement officers. President Emmanuel Macron and Prime Minister Sébastien Lecornu strongly condemned the extreme violence and property damage, while opposition politicians criticized the administration's handling of the unrest.",
+   "summary": "जीवनमानाचा खर्च, इंधनाचे दर आणि ढासळत चाललेली शाळेची परिस्थिती यावरून फ्रान्समध्ये शनिवारी व्यापक निदर्शने झाली. मूळतः चांगल्या शैक्षणिक सुविधांची मागणी करणाऱ्या आणि शिक्षकांच्या तुटवड्याचा निषेध करणाऱ्या विद्यार्थ्यांमार्फत सुरू झालेले हे आंदोलन ट्रेड युनियन्स, सार्वजनिक सेवा कर्मचारी आणि यलो व्हेस्ट कार्यकर्त्यांपर्यंत विस्तारले. अनेक सहभागींनी शांततापूर्ण निदर्शने केली, मात्र पॅरिस आणि इतर अनेक शहरांमध्ये हिंसक संघर्ष उसळला, ज्याचा परिणाम मालमत्तेचे नुकसान, लिमोज टाउन हॉलसारख्या सार्वजनिक इमारतींवर जाळपोळीचे हल्ले आणि व्यावसायिक व्यवसायांची व्यापक लूटमार यामध्ये झाला. कायदा सुव्यवस्थेने गर्दीला हुडकून लावण्यासाठी अश्रुधूर, स्टन ग्रेनेड आणि पाण्याचे फवारे यांचा वापर केला. अध्यक्ष इमॅनुएल मॅक्रॉ आणि सरकारमधील मंत्र्यांनी या हिंसेचा निषेध केला आणि विध्वंस भडकवल्याबद्दल मूलगामी अति-डाव्या गटांना व गुन्हेगारी घटकांना जबाबदार धरले. अधिकाऱ्यांनी सुरक्षा दलांमधील हजारो गिरफ्तारिया आणि अनेक दुखापतींची माहिती दिली.",
    "demands": [
-    "Lower fuel and living costs",
-    "Higher wages and pensions",
-    "Protection of public services",
-    "Improved school facilities and addressing staff shortages",
-    "Opposition to frozen benefits"
+    "कमी इंधन खर्च",
+    "चांगल्या शाळा आणि शिक्षकांच्या तुटवड्याचे निराकरण",
+    "उच्च वेतन आणि पेन्शन",
+    "सार्वजनिक सेवांचे संरक्षण",
+    "गोठवलेले लाभ आणि सार्वजनिक क्षेत्रातील वेतनास विरोध"
    ],
-   "response": "According to the interior ministry and news reports, police deployed tear gas, water cannons, and stun grenades, arresting about 2,400 people and reporting nearly 1,000 security personnel injured. President Emmanuel Macron condemned the violence and vowed increased security.",
+   "response": "स्रोतांच्या मते, पोलिसांनी अश्रुधूर, पाण्याचे फवारे आणि लाठ्यांचा वापर केला. अध्यक्ष मॅक्रॉ यांनी हिंसेचा निषेध केला आणि तात्काळ आणीबाणी लागू करण्यास नकार दिला. अंतर्गत मंत्रालयाने हजारो गिरफ्तारिया आणि जवळपास १,००० जखमी अधिकाऱ्यांची माहिती दिली, तर अंतर्गत मंत्र्यांनी थोडक्यात त्यांच्या राजीनाम्याची पेशकश केली.",
    "updates": [
-    "Authorities prepared for nationwide cost-of-living and school protests, warning of potential clashes and imposing route restrictions.",
-    "Mass protests turned into riots in multiple cities as cars were torched, buildings set ablaze, and police deployed tear gas and water cannons.",
-    "President Macron condemned the violence after arrests reached 2,400 and small-scale clashes continued in Paris and Lyon."
+    "अधिकाऱ्यांनी पॅरिसमध्ये संभाव्य संघर्षासह देशभरात २०० ते ३०० कृतींची अपेक्षा केली होती.",
+    "फ्रान्सभर शेकडो हजारांनी निदर्शने केली, ज्याचा परिणाम आग, लूटमार आणि पोलिसांशी संघर्षात झाला.",
+    "गिरफ्तारियांचा आकडा लक्षणीयरीत्या वाढल्यानंतर एका भाषणादरम्यान अध्यक्ष मॅक्रॉ यांनी हिंसेचा निषेध केला.",
+    "मॅक्रॉ यांनी गुप्तचर आणि नियोजनातील अपयशाची कबुली दिली परंतु अंतर्गत मंत्र्यांचा राजीनामा नाकारला."
    ],
    "conflicts": [
-    "Authorities estimated turnout at 550,000; organizers put it at 800,000.",
-    "Police reported about 2,400 arrests; earlier reports cited over 270 to 1,200."
+    "अंतर्गत मंत्र्यांनी देशभरात ५,५०,००० सहभागी असल्याचा अंदाज वर्तवला, तर आयोजकांनी उपस्थिती सुमारे ८,००,००० असल्याचे सांगितले.",
+    "एकूण गिरफ्तारियांवर पोलीस आणि अधिकृत आकडेवारी १,८०० ते जवळपास २,४०० दरम्यान होती."
    ],
    "numbers": {
-    "crowd": "Authorities estimated Saturday’s marches had a turnout of about 550,000, while organizers put it at 800,000.",
-    "arrests": "Nearly 2,400 people were arrested Saturday in unrest",
-    "injuries": "almost 1,000 police and gendarmes injured, seven seriously, the interior ministry said."
+    "crowd": "अंतर्गत मंत्रालयाने देशभरात ५,५०,००० हून अधिक सहभागी असल्याचे जाहीर केले",
+    "arrests": "शनिवारी जवळपास २,४०० लोकांना गिरफ्तार करण्यात आले",
+    "injuries": "जवळपास १,००० पोलीस आणि जेंडरम जखमी झाले",
+    "deaths": "पॅरिसमधील निदर्शनांदरम्यान हृदयविकाराचा झटका आल्यामुळे एका निदर्शकाचा मृत्यू झाला."
    }
   },
   "es": {
-   "title": "Francia registra protestas y enfrentamientos generalizados por el costo de vida y las condiciones escolares",
-   "seoTitle": "Protestas en París por el costo de vida y escuelas",
+   "title": "Francia registra protestas generalizadas y enfrentamientos por el costo de la vida y las condiciones escolares",
+   "seoTitle": "Protestas en París por el costo de vida y las escuelas",
    "tea": {
-    "why": "Los manifestantes están molestos por el aumento del costo de vida, los precios de los combustibles, las prestaciones congeladas y el deterioro de las condiciones y la escasez de personal en las escuelas.",
-    "want": "Los manifestantes exigen menores costos de combustible, mayores salarios y pensiones, mejores servicios públicos, y una mejor financiación e instalaciones para las escuelas.",
-    "changed": "19 de oct.: El presidente Emmanuel Macron condenó la violencia y los disturbios desenfrenados, señalando que al menos 2.400 personas habían sido arrestadas y casi 1.000 miembros del personal de seguridad…"
+    "why": "Los manifestantes están frustrados por el aumento del costo de la vida, los precios de los combustibles, las prestaciones congeladas y las malas condiciones escolares.",
+    "want": "Los manifestantes exigen mejores escuelas, salarios y pensiones más altos, menores costos de combustible y la protección de los servicios públicos.",
+    "changed": "19 de oct.: el presidente Emmanuel Macron admitió fallas de planificación durante las protestas a nivel nacional, mientras que se rechazó la renuncia del ministro del Interior."
    },
-   "summary": "Masivas manifestaciones a nivel nacional estallaron en toda Francia el sábado, reuniendo a estudiantes, sindicalistas y miembros que reviven el movimiento de los 'chalecos amarillos' para protestar contra el aumento del costo de vida, los menores salarios del sector público y las malas condiciones en las escuelas secundarias. Si bien gran parte de las marchas se mantuvieron pacíficas, se produjeron disturbios generalizados, incendios provistos y saqueos en ciudades como París, Lyon, Marsella y Limoges, donde el ayuntamiento del siglo XIX sufrió graves daños por el fuego. La policía antidisturbios desplegó gases lacrimógenos, cañones de agua y granadas aturdidoras contra grupos que lanzaban proyectiles. Las autoridades y el ministerio del interior informaron de miles de arrestos y cientos de agentes de la ley heridos. El presidente Emmanuel Macron y el primer ministro Sébastien Lecornu condenaron enérgicamente la extrema violencia y los daños a la propiedad, mientras que los políticos de la oposición criticaron la gestión de los disturbios por parte de la administración.",
+   "summary": "Francia experimentó manifestaciones generalizadas el sábado debido al costo de la vida, los precios de los combustibles y el deterioro de las condiciones escolares. Originado inicialmente por estudiantes que exigían mejores instalaciones educativas y protestaban por la escasez de profesores, el movimiento se amplió para incluir a sindicatos, trabajadores de servicios públicos e integrantes de los Chalecos Amarillos. Aunque muchos participantes se manifestaron pacíficamente, estallaron violentos enfrentamientos en París y en múltiples ciudades más, lo que provocó daños a la propiedad, ataques incendiarios a edificios públicos como el ayuntamiento de Limoges y saqueos generalizados de negocios comerciales. Las fuerzas del orden desplegaron gas lacrimógeno, granadas aturdidoras y cañones de agua para dispersar a las multitudes. El presidente Emmanuel Macron y los ministros del gobierno condenaron la violencia y culparon a grupos radicales de extrema izquierda y elementos criminales de instigar la destrucción. Las autoridades informaron de miles de arrestos y numerosas lesiones entre las fuerzas de seguridad.",
    "demands": [
-    "Menores costos de combustible y de vida",
-    "Mayores salarios y pensiones",
+    "Menores costos de combustible",
+    "Mejores escuelas y resolución de la escasez de profesores",
+    "Salarios y pensiones más altos",
     "Protección de los servicios públicos",
-    "Mejora de las instalaciones escolares y atención a la escasez de personal",
-    "Oposición a las prestaciones congeladas"
+    "Oposición a las prestaciones congeladas y a los sueldos del sector público"
    ],
-   "response": "Según el ministerio del interior y los informes de prensa, la policía desplegó gases lacrimógenos, cañones de agua y granadas aturdidoras, arrestando a unas 2.400 personas y reportando a casi 1.000 agentes de seguridad heridos. El presidente Emmanuel Macron condenó la violencia y prometió mayor seguridad.",
+   "response": "Según fuentes, la policía desplegó gas lacrimógeno, cañones de agua y porras. El presidente Macron condenó la violencia y descartó un estado de emergencia inmediato. El ministerio del Interior informó de miles de arrestos y casi 1.000 agentes heridos, mientras que el ministro del Interior ofreció brevemente su dimisión.",
    "updates": [
-    "Las autoridades se prepararon para las protestas nacionales por el costo de vida y las escuelas, advirtiendo sobre posibles enfrentamientos e imponiendo restricciones de ruta.",
-    "Las protestas masivas se convirtieron en disturbios en múltiples ciudades mientras se incendiaban automóviles, se prendía fuego a edificios y la policía desplegaba gases lacrimógenos y cañones de agua.",
-    "El presidente Macron condenó la violencia después de que los arrestos alcanzaran los 2.400 y continuaran enfrentamientos a pequeña escala en París y Lyon."
+    "Las autoridades anticiparon entre 200 y 300 acciones en todo el país con posibles enfrentamientos en París.",
+    "Cientos de miles se manifestaron en toda Francia, lo que provocó incendios, saqueos y enfrentamientos policiales.",
+    "El presidente Macron condenó la violencia durante un discurso después de que las cifras de arrestos aumentaran significativamente.",
+    "Macron reconoció fallas de inteligencia y planificación, pero rechazó la renuncia del ministro del Interior."
    ],
    "conflicts": [
-    "Las autoridades estimaron la participación en 550.000; los organizadores la situaron en 800.000.",
-    "La policía informó de unos 2.400 arrestos; informes anteriores citaban de más de 270 a 1.200."
+    "El ministro del Interior estimó 550.000 participantes a nivel nacional, mientras que los organizadores situaron la asistencia en alrededor de 800.000.",
+    "Los recuentos de la policía y oficiales sobre el total de arrestos oscilaron entre 1.800 y casi 2.400."
    ],
    "numbers": {
-    "crowd": "Las autoridades estimaron que las marchas del sábado tuvieron una participación de alrededor de 550.000 personas, mientras que los organizadores la situaron…",
-    "arrests": "Casi 2.400 personas fueron arrestadas el sábado en los disturbios",
-    "injuries": "casi 1.000 policías y gendarmes heridos, siete de ellos de gravedad, según informó el ministerio del interior."
+    "crowd": "el ministerio del Interior informó de más de 550.000 participantes a nivel nacional",
+    "arrests": "casi 2.400 personas fueron arrestadas el sábado",
+    "injuries": "casi 1.000 policías y gendarmes heridos",
+    "deaths": "Un manifestante murió tras sufrir un paro cardíaco durante las manifestaciones en París."
    }
   },
   "fr": {
-   "title": "La France connaît des manifestations et des affrontements généralisés concernant le coût de la vie et les conditions scolaires",
-   "seoTitle": "Manifestations à Paris pour le coût de la vie et les écoles",
+   "title": "La France connaît des manifestations généralisées et des affrontements liés au coût de la vie et aux conditions scolaires",
+   "seoTitle": "Manifestations à Paris pour le coût de la vie et l'école",
    "tea": {
-    "why": "Les manifestants sont mécontents de la hausse du coût de la vie, des prix du carburant, du gel des prestations, ainsi que de la détérioration des conditions et du manque de personnel dans les écoles.",
-    "want": "Les manifestants exigent une baisse des coûts du carburant, des salaires et des pensions plus élevés, de meilleurs services publics, ainsi qu'un financement et des installations améliorés pour les écoles.",
-    "changed": "19 oct. : Le président Emmanuel Macron a condamné la violence et les émeutes débridées, notant qu'au moins 2 400 personnes avaient été arrêtées et près de 1 000 membres des forces de sécurité…"
+    "why": "Les manifestants sont frustrés par la hausse du coût de la vie, les prix du carburant, le gel des prestations et les mauvaises conditions scolaires.",
+    "want": "Les manifestants réclament de meilleures écoles, des salaires et des pensions plus élevés, des coûts de carburant moins élevés et la protection des services publics.",
+    "changed": "19 oct. : le président Emmanuel Macron a admis des échecs de planification lors des manifestations nationales, tandis que la démission du ministre de l'Intérieur a été refusée."
    },
-   "summary": "De vastes manifestations nationales ont éclaté dans toute la France samedi, rassemblant des étudiants, des syndicalistes et des membres faisant revivre le mouvement des « gilets jaunes » pour protester contre la hausse du coût de la vie, la baisse des salaires dans le secteur public et les mauvaises conditions dans les lycées. Alors qu'une grande partie des marches est restée pacifique, des émeutes généralisées, des incendies criminels et des pillages ont eu lieu dans des villes telles que Paris, Lyon, Marseille et Limoges, où la mairie du XIXe siècle a été gravement endommagée par un incendie. La police anti-émeute a déployé des gaz lacrymogènes, des canons à eau et des grenades assourdissantes contre des groupes lançant des projectiles. Les autorités et le ministère de l'Intérieur ont signalé des milliers d'arrestations et des centaines de membres des forces de l'ordre blessés. Le président Emmanuel Macron et le Premier ministre Sébastien Lecornu ont fermement condamné l'extrême violence et les dégâts matériels, tandis que les politiciens de l'opposition ont critiqué la gestion des troubles par l'administration.",
+   "summary": "La France a connu des manifestations généralisées ce samedi concernant le coût de la vie, les prix du carburant et la dégradation des conditions scolaires. Initialement déclenché par des étudiants réclamant de meilleures infrastructures éducatives et protestant contre la pénurie d'enseignants, le mouvement s'est élargi pour inclure des syndicats, des travailleurs des services publics et des militants des Gilets jaunes. Bien que de nombreux participants aient manifesté pacifiquement, des affrontements violents ont éclaté à Paris et dans de nombreuses autres villes, entraînant des dégâts matériels, des attaques incendiaires contre des bâtiments publics comme la mairie de Limoges, et des pillages généralisés de commerces. Les forces de l'ordre ont déployé du gaz lacrymogène, des grenades de désencerclement et des canons à eau pour disperser les foules. Le président Emmanuel Macron et les ministres du gouvernement ont condamné la violence, imputant l'instigation de la destruction à des groupes radicaux d'ultra-gauche et à des éléments criminels. Les autorités ont signalé des milliers d'arrestations et de nombreuses blessures au sein des forces de sécurité.",
    "demands": [
-    "Baisse du coût du carburant et de la vie",
+    "Coûts de carburant réduits",
+    "Meilleures écoles et résolution de la pénurie d'enseignants",
     "Salaires et pensions plus élevés",
     "Protection des services publics",
-    "Amélioration des installations scolaires et résolution de la pénurie de personnel",
-    "Opposition au gel des prestations"
+    "Opposition au gel des prestations et des salaires du secteur public"
    ],
-   "response": "Selon le ministère de l'Intérieur et les reportages de presse, la police a déployé des gaz lacrymogènes, des canons à eau et des grenades assourdissantes, arrêtant environ 2 400 personnes et signalant près de 1 000 membres du personnel de sécurité blessés. Le président Emmanuel Macron a condamné la violence et promis une sécurité accrue.",
+   "response": "Selon des sources, la police a déployé du gaz lacrymogène, des canons à eau et des matraques. Le président Macron a condamné la violence et exclu un état d'urgence immédiat. Le ministère de l'Intérieur a fait état de milliers d'arrestations et de près de 1 000 agents blessés, tandis que le ministre de l'Intérieur a brièvement offert sa démission.",
    "updates": [
-    "Les autorités se sont préparées aux manifestations nationales sur le coût de la vie et les écoles, avertissant de possibles affrontements et imposant des restrictions d'itinéraire.",
-    "Des manifestations massives se sont transformées en émeutes dans plusieurs villes alors que des voitures étaient incendiées, des bâtiments la proies des flammes et que la police déployait des gaz lacrymogènes et des canons à eau.",
-    "Le président Macron a condamné la violence après que les arrestations ont atteint 2 400 et que des affrontements à petite échelle se sont poursuivis à Paris et Lyon."
+    "Les autorités prévoyaient entre 200 et 300 actions à travers le pays avec des affrontements potentiels à Paris.",
+    "Des centaines de milliers de personnes ont manifesté dans toute la France, entraînant des incendies, des pillages et des affrontements avec la police.",
+    "Le président Macron a condamné la violence lors d'une allocution après une hausse sensible du nombre d'interpellations.",
+    "Macron a reconnu des défaillances en matière de renseignement et de planification mais a refusé la démission du ministre de l'Intérieur."
    ],
    "conflicts": [
-    "Les autorités ont estimé la participation à 550 000 ; les organisateurs l'ont évaluée à 800 000.",
-    "La police a signalé environ 2 400 arrestations ; des rapports précédents citaient plus de 270 à 1 200."
+    "Le ministre de l'Intérieur a estimé à 550 000 le nombre de participants à l'échelle nationale, tandis que les organisateurs ont évalué la participation à environ 800 000.",
+    "Les bilans de la police et officiels concernant le total des arrestations variaient de 1 800 à près de 2 400."
    ],
    "numbers": {
-    "crowd": "Les autorités ont estimé que les marches de samedi avaient attiré environ 550 000 personnes, tandis que les organisateurs l'ont évaluée à 800 000.",
-    "arrests": "Près de 2 400 personnes ont été arrêtées samedi lors des troubles",
-    "injuries": "près de 1 000 policiers et gendarmes blessés, dont sept gravement, a indiqué le ministère de l'Intérieur."
+    "crowd": "le ministère de l'Intérieur a fait état de plus de 550 000 participants à l'échelle nationale",
+    "arrests": "près de 2 400 personnes ont été interpellées ce samedi",
+    "injuries": "près de 1 000 policiers et gendarmes blessés",
+    "deaths": "Un manifestant est décédé après avoir subi un arrêt cardiaque lors des manifestations à Paris."
    }
   },
   "de": {
-   "title": "Frankreich erlebt witterungsübergreifende Proteste und Zusammenstöße wegen Lebenshaltungskosten und Schulbedingungen",
-   "seoTitle": "Pariser Proteste gegen Lebenshaltungskosten und Schulen",
+   "title": "Frankreich erlebt landesweite Proteste und Zusammenstöße wegen Lebenshaltungskosten und Schulbedingungen",
+   "seoTitle": "Paris Proteste zu Lebenshaltungskosten und Schulen",
    "tea": {
-    "why": "Demonstranten sind verärgert über die steigenen Lebenshaltungskosten, Kraftstoffpreise, eingefrorene Leistungen sowie verschlechterte Bedingungen und Personalmangel an Schulen.",
-    "want": "Demonstranten fordern niedrigere Kraftstoffkosten, höhere Löhne und Renten, bessere öffentliche Dienste sowie eine verbesserte Finanzierung und Ausstattung der Schulen.",
-    "changed": "19. Okt.: Präsident Emmanuel Macron verurteilte die zügelose Gewalt und Ausschreitungen und wies darauf hin, dass mindestens 2.400 Personen festgenommen worden waren und fast 1.000 Sicherheitskräfte…"
+    "why": "Demonstranten sind frustriert über die steigenden Lebenshaltungskosten, Treibstoffpreise, eingefrorene Leistungen und schlechte Schulbedingungen.",
+    "want": "Demonstranten fordern bessere Schulen, höhere Löhne und Renten, niedrigere Treibstoffkosten sowie den Schutz öffentlicher Dienste.",
+    "changed": "19. Okt.: Präsident Emmanuel Macron räumte während der landesweiten Proteste Planungsfehler ein, während der Rücktritt des Innenministers abgelehnt wurde."
    },
-   "summary": "Am Samstag kam es in ganz Frankreich zu massiven landesweiten Demonstrationen, bei denen Studenten, Gewerkschafter und Mitglieder zur Wiederbelebung der Gelbwesten-Bewegung zusammenkamen, um gegen die steigenden Lebenshaltungskosten, niedrigere Gehälter im öffentlichen Sektor und schlechte Bedingungen an weiterführenden Schulen zu protestieren. Während große Teile der Märsche friedlich blieben, kam es in Städten wie Paris, Lyon, Marseille und Limoges zu witterungsübergreifenden Ausschreitungen, Brandstiftungen und Plünderungen, wobei das Rathaus aus dem 19. Jahrhundert durch ein Feuer schwer beschädigt wurde. Die Bereitschaftspolizei setzte Tränengas, Wasserwerfer und Blendgranaten gegen Gruppen ein, die Projektile warfen. Behörden und das Innenministerium meldeten Tausende Festnahmen und Hunderte verletzte Vollzugsbeamte. Präsident Emmanuel Macron und Premierminister Sébastien Lecornu verurteilten die extreme Gewalt und die Sachbeschädigungen scharf, während Oppositionspolitiker den Umgang der Regierung mit den Unruhen kritisierten.",
+   "summary": "Frankreich erlebte am Samstag landesweite Demonstrationen wegen der Lebenshaltungskosten, Treibstoffpreise und sich verschlechternder Schulbedingungen. Ursprünglich von Studenten entfacht, die bessere Bildungseinrichtungen forderten und gegen Lehrermangel protestierten, weitete sich die Bewegung aus und schloss Gewerkschaften, Beschäftigte des öffentlichen Dienstes sowie Gelbwesten-Aktivisten ein. Während viele Teilnehmer friedlich demonstrierten, kam es in Paris und mehreren anderen Städten zu gewaltsamen Zusammenstößen, die Sachschäden, Brandanschläge auf öffentliche Gebäude wie das Rathaus von Limoges und flächendeckende Plünderungen von Gewerbebetrieben zur Folge hatten. Die Strafverfolgungsbehörden setzten Tränengas, Blendgranaten und Wasserwerfer ein, um die Menschenmengen zu verteilen. Präsident Emmanuel Macron und Regierungsminister verurteilten die Gewalt und gaben radikalen linksradikalen Gruppen und kriminellen Elementen die Schuld an der Anstiftung zur Zerstörung. Behörden meldeten Tausende Festnahmen und zahlreiche Verletzte unter den Sicherheitskräften.",
    "demands": [
-    "Niedrigere Kraftstoff- und Lebenshaltungskosten",
+    "Niedrigere Treibstoffkosten",
+    "Bessere Schulen und Behebung des Lehrermangels",
     "Höhere Löhne und Renten",
-    "Schutz der öffentlichen Dienste",
-    "Verbesserte Schulgebäude und Behebung des Personalmangels",
-    "Widerstand gegen eingefrorene Leistungen"
+    "Schutz öffentlicher Dienste",
+    "Ablehnung eingefrorener Leistungen und Gehälter im öffentlichen Sektor"
    ],
-   "response": "Dem Innenministerium und Medienberichten zufolge setzte die Polizei Tränengas, Wasserwerfer und Blendgranaten ein, nahm rund 2.400 Menschen fest und meldete fast 1.000 verletzte Sicherheitskräfte. Präsident Emmanuel Macron verurteilte die Gewalt und kündigte mehr Sicherheit an.",
+   "response": "Quellen zufolge setzte die Polizei Tränengas, Wasserwerfer und Schlagstöcke ein. Präsident Macron verurteilte die Gewalt und schloss einen sofortigen Ausnahmezustand aus. Das Innenministerium meldete Tausende Festnahmen und fast 1.000 verletzte Beamte, während der Innenminister kurzzeitig seinen Rücktritt anbot.",
    "updates": [
-    "Behörden bereiteten sich auf landesweite Proteste zu Lebenshaltungskosten und Schulen vor, warnten vor potenziellen Zusammenstößen und verhängten Routenbeschränkungen.",
-    "Massendemonstrationen entwickelten sich in mehreren Städten zu Ausschreitungen, als Autos angezündet, Gebäude in Brand gesetzt und Tränengas sowie Wasserwerfer von der Polizei eingesetzt wurden.",
-    "Präsident Macron verurteilte die Gewalt, nachdem die Festnahmen 2.400 erreichten und kleinräumige Zusammenstöße in Paris und Lyon andauerten."
+    "Die Behörden rechneten mit 200 bis 300 Aktionen landesweit und potenziellen Zusammenstößen in Paris.",
+    "Hunderttausende demonstrierten in ganz Frankreich, was zu Bränden, Plünderungen und Polizeizusammenstößen führte.",
+    "Präsident Macron verurteilte die Gewalt während einer Ansprache, nachdem die Festnahmezahlen deutlich angestiegen waren.",
+    "Macron räumte Geheimdienst- und Planungsfehler ein, lehnte jedoch den Rücktritt des Innenministers ab."
    ],
    "conflicts": [
-    "Behörden schätzten die Teilnehmerzahl auf 550.000; Organisatoren nannten 800.000.",
-    "Die Polizei meldete etwa 2.400 Festnahmen; frühere Berichte nannten über 270 bis 1.200."
+    "Der Innenminister schätzte die Zahl der landesweiten Teilnehmer auf 550.000, während die Organisatoren die Teilnehmerzahl auf etwa 800.000 bezifferten.",
+    "Polizei- und offizielle Angaben zu den Gesamtfestnahmen lagen zwischen 1.800 und fast 2.400."
    ],
    "numbers": {
-    "crowd": "Behörden schätzten die Teilnahme an den Märschen am Samstag auf etwa 550.000, während Organisatoren sie auf 800.000 bezifferten.",
-    "arrests": "Fast 2.400 Menschen wurden am Samstag bei Unruhen festgenommen",
-    "injuries": "fast 1.000 verletzte Polizisten und Gendarmen, davon sieben schwer, teilte das Innenministerium mit."
+    "crowd": "das Innenministerium meldete mehr als 550.000 Teilnehmer landesweit",
+    "arrests": "fast 2.400 Menschen wurden am Samstag festgenommen",
+    "injuries": "fast 1.000 verletzte Polizisten und Gendarmen",
+    "deaths": "Ein Demonstrant starb nach einem Herzstillstand während der Demonstrationen in Paris."
    }
   }
- }
+ },
+ "endedOn": "2026-10-17"
 }

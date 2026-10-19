@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-19",
-  "count": 16
+  "count": 32
  },
  "runs": [
-  {
-   "at": "2026-10-12T10:57:49.377Z",
-   "ms": 321567,
-   "discovered": 87,
-   "fetched": 85,
-   "classified": 75,
-   "protests": 30,
-   "summarized": 10,
-   "published": 53,
-   "live": 12,
-   "aiCalls": 25,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 61 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 84 protest-word items",
-    "fetch: 85 ok, 2 failed",
-    "classify: new candidate e7728a49e38 \"Delhi High Court lawyers wear black ribbons in protest\" (Delhi)",
-    "classify: new candidate e62a36f2866 \"SFI, DYFI and May 17 Movement protest in Chennai\" (Chennai)",
-    "classify: new candidate eb1ba8d3476 \"Youth Congress workers show black flags to minister in Shivamogga\" (Shivamogga)",
-    "classify: new candidate ef4d07e6258 \"AAP supporters protest inside gurdwara premises\" (Delhi)",
-    "classify: new candidate ecfcd318356 \"Congress workers protest in Hubballi demanding CEC resignation\" (Hubballi)",
-    "classify: new candidate e267b8521bc \"Trinamool Congress announces Kolkata rally demanding CEC resignation\" (Kolkata)",
-    "classify: new candidate e4db9a97350 \"Residents and environmentalists protest commercial construction in Karachi\" (Karachi)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 8 events"
-   ],
-   "translated": 8
-  },
   {
    "at": "2026-10-12T13:48:39.714Z",
    "ms": 191113,
@@ -1469,8 +1440,34 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-19T07:44:01.354Z",
+   "ms": 197026,
+   "discovered": 44,
+   "fetched": 42,
+   "classified": 34,
+   "protests": 19,
+   "summarized": 7,
+   "published": 97,
+   "live": 15,
+   "aiCalls": 16,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261019074500 http://data.gdeltproject.org/gdeltv2/20261019074500.export.CSV.zip → 404",
+    "gdelt: 13 files, 39 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 27 protest-word items",
+    "fetch: 42 ok, 2 failed",
+    "classify: new candidate eac5108357e \"Port workers suspend hunger strike over port terminal lease\" (Chattogram)",
+    "classify: new candidate ee71a0e2d7a \"Her Health, Her Future coalition holds anti-abortion rally\" (Jefferson City)",
+    "classify: new candidate e7c7a8a478d \"Kuki group announces highway shutdown over village attacks\" (Guwahati)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261019043000",
- "lastRunAt": "2026-10-19T04:27:50.294Z"
+ "gdeltCursor": "20261019074500",
+ "lastRunAt": "2026-10-19T07:44:01.354Z"
 }
