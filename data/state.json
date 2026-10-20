@@ -1,31 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-20",
-  "count": 103
+  "count": 115
  },
  "runs": [
-  {
-   "at": "2026-10-13T22:49:49.026Z",
-   "ms": 157263,
-   "discovered": 8,
-   "fetched": 8,
-   "classified": 6,
-   "protests": 1,
-   "summarized": 2,
-   "published": 65,
-   "live": 14,
-   "aiCalls": 5,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 3 files, 7 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 62 protest-word items",
-    "fetch: 8 ok, 0 failed",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 2 events"
-   ],
-   "translated": 2
-  },
   {
    "at": "2026-10-14T04:27:47.656Z",
    "ms": 258461,
@@ -1442,8 +1420,35 @@
     "translate: 9 events"
    ],
    "translated": 9
+  },
+  {
+   "at": "2026-10-20T21:53:16.622Z",
+   "ms": 189612,
+   "discovered": 38,
+   "fetched": 37,
+   "classified": 27,
+   "protests": 14,
+   "summarized": 7,
+   "published": 107,
+   "live": 16,
+   "aiCalls": 12,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 37 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 37 protest-word items",
+    "fetch: 37 ok, 1 failed",
+    "classify: new candidate ee9bd1392ff \"Haryana power staff strike against private electricity distribution licence\" (Gurugram)",
+    "classify: new candidate ed98da96f24 \"MIT professors decorate campus security cameras to protest surveillance\" (Cambridge)",
+    "classify: new candidate e77d3e1f067 \"Pastor protests Chinese human rights abuses outside embassy\" (Washington)",
+    "classify: new candidate e18626929d1 \"Artist protests Cuban regime outside UN Permanent Mission\" (New York City)",
+    "classify: new candidate e963fe38340 \"State workers announce strike in Porterville over labor agreement\" (Porterville)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 2 events"
+   ],
+   "translated": 2
   }
  ],
- "gdeltCursor": "20261020191500",
- "lastRunAt": "2026-10-20T19:19:24.342Z"
+ "gdeltCursor": "20261020220000",
+ "lastRunAt": "2026-10-20T21:53:16.622Z"
 }

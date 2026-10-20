@@ -1,9 +1,9 @@
 {
  "id": "e757918f458",
- "slug": "",
- "stage": "candidate",
- "title": "French cities impose curfews following cost-of-living riots",
- "seoTitle": "",
+ "slug": "paris-cost-of-living-protests-oct-2026-3",
+ "stage": "live",
+ "title": "France imposes curfews in Paris and other cities amid cost-of-living protests",
+ "seoTitle": "Paris curfews imposed after protests",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -13,40 +13,94 @@
   "citySlug": "paris",
   "regionSlug": "ile-de-france"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "prices",
   "education"
  ],
- "kind": "one-day",
+ "kind": "multi-day",
  "startedOn": "2026-10-17",
  "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "vibe": "tense",
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious",
+  "low-confidence",
+  "tone-words"
+ ],
  "isOngoing": true,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Protesters are demonstrating against the rising cost of living and poor conditions in schools.",
+  "want": "Protesters are demanding changes related to living costs and educational conditions, while authorities seek accountability.",
+  "changed": "Oct 20: French officials imposed localised curfews in parts of Paris, Lyon, and other cities following weekend unrest."
  },
- "summary": "",
+ "summary": "France has introduced emergency measures, including targeted nightly curfews in parts of Paris, Lyon, and other cities, following severe unrest sparked by demonstrations over the cost of living and conditions in schools. The weekend demonstrations escalated into extensive property damage, fires, and clashes with law enforcement, prompting a massive governmental security response. Prime Minister Sébastien Lecornu credited the targeted curfews with helping maintain calm, while President Emmanuel Macron stated that those who destroyed property or looted must be held accountable. Authorities reported that the vast majority of demonstrators remained peaceful, though the destructive actions of some participants drew widespread condemnation and political fallout.",
  "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
+ "demands": [
+  "Address the rising cost of living",
+  "Improve conditions in schools"
+ ],
+ "response": "Prime Minister Sébastien Lecornu credited targeted curfews with maintaining calm, while President Emmanuel Macron stated that those responsible for destruction and looting must pay and be held accountable. Police fired tear gas, arrested thousands, and authorities deployed security measures including soldiers.",
+ "numbers": {
+  "arrests": {
+   "value": 2000,
+   "text": "more than 2 000 people were arrested this past weekend",
+   "sources": [
+    1
+   ]
+  },
+  "deaths": {
+   "value": 2,
+   "text": "at least two deaths",
+   "sources": [
+    1
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-10-20",
+   "text": "French officials imposed targeted curfews in Paris, Lyon, and other cities following widespread rioting.",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://nationnews.com/2026/10/20/france-imposes-curfews-as-deadly-riots-escalate/",
+   "publisher": "nationnews.com",
+   "title": "France imposes curfews as deadly riots escalate",
+   "publishedAt": "2026-10-20T11:55:10.000Z"
+  },
+  {
+   "n": 2,
+   "url": "http://www.goskagit.com/news/world/france-announces-nightly-curfews-for-as-long-as-necessary-in-paris-and-other-big-cities/article_845c1c99-b895-580a-9613-d12b8e1bb4b4.html",
+   "publisher": "goskagit.com",
+   "title": "France announces nightly curfews",
+   "publishedAt": "2026-10-20T16:43:08.000Z"
+  }
+ ],
  "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
+ "confidence": 0.7,
+ "publishers": 2,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 2,
  "firstSeenAt": "2026-10-20T19:21:56.937Z",
- "lastReportAt": "2026-10-20T19:21:56.937Z",
- "lastCheckedAt": "2026-10-20T19:21:56.937Z",
- "updatedAt": "2026-10-20T19:21:56.937Z"
+ "lastReportAt": "2026-10-20T16:43:08.000Z",
+ "lastCheckedAt": "2026-10-20T21:55:13.208Z",
+ "updatedAt": "2026-10-20T21:55:05.564Z",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": true,
+ "sensitive": false,
+ "summarizedAt": "2026-10-20T21:55:05.564Z",
+ "summaryOf": "ddd846197318"
 }
