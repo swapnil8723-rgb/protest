@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-20",
-  "count": 19
+  "count": 38
  },
  "runs": [
-  {
-   "at": "2026-10-13T06:50:49.624Z",
-   "ms": 199931,
-   "discovered": 43,
-   "fetched": 41,
-   "classified": 35,
-   "protests": 16,
-   "summarized": 8,
-   "published": 57,
-   "live": 11,
-   "aiCalls": 18,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 10 files, 36 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 69 protest-word items",
-    "fetch: 41 ok, 2 failed",
-    "classify: new candidate e5c1d94445f \"Advocates stage sit-in at Robinson Park in Albuquerque\" (Albuquerque)",
-    "classify: new candidate e5f673770c2 \"Residents storm data centre over water shortages\" (Batam)",
-    "classify: new candidate e1d05eff285 \"PTI march and protests against governor's rule in Swabi\" (Swabi)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-13T10:10:45.547Z",
    "ms": 402796,
@@ -1461,8 +1436,34 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-20T04:27:46.405Z",
+   "ms": 204593,
+   "discovered": 58,
+   "fetched": 57,
+   "classified": 48,
+   "protests": 22,
+   "summarized": 8,
+   "published": 103,
+   "live": 18,
+   "aiCalls": 19,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261020041500 http://data.gdeltproject.org/gdeltv2/20261020041500.export.CSV.zip → 404",
+    "gdelt: 20261020043000 http://data.gdeltproject.org/gdeltv2/20261020043000.export.CSV.zip → 404",
+    "gdelt: 16 files, 51 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 37 protest-word items",
+    "fetch: 57 ok, 1 failed",
+    "classify: new candidate ea092cf1b24 \"Protester interrupts Donald Trump political rally in Kansas\" (Park City)",
+    "classify: new candidate e243c2dfb34 \"Protesters remove from Indianapolis council budget meeting\" (Indianapolis)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261020003000",
- "lastRunAt": "2026-10-20T00:24:25.129Z"
+ "gdeltCursor": "20261020043000",
+ "lastRunAt": "2026-10-20T04:27:46.405Z"
 }
