@@ -1,39 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-20",
-  "count": 38
+  "count": 49
  },
  "runs": [
-  {
-   "at": "2026-10-13T10:10:45.547Z",
-   "ms": 402796,
-   "discovered": 78,
-   "fetched": 78,
-   "classified": 65,
-   "protests": 30,
-   "summarized": 8,
-   "published": 58,
-   "live": 11,
-   "aiCalls": 21,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 65 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 68 protest-word items",
-    "fetch: 78 ok, 0 failed",
-    "classify: new candidate e23f9381c9b \"Chennai auto-rickshaw drivers hold candlelight march for fare revision\" (Chennai)",
-    "classify: new candidate e81b5627a18 \"Student groups hold protest in Patna demanding CEC resignation\" (Patna)",
-    "classify: new candidate ef470f72bf6 \"Indigenous movement demonstrates on overpass in Decatur\" (Decatur)",
-    "classify: new candidate ef0424f97b3 \"Sugarcane farmers block highways in Karnataka demanding higher prices\" (Belagavi)",
-    "classify: new candidate e11bfc6be4a \"Baloch group holds protest rally in Hannover against human rights abuses\" (Hannover)",
-    "classify: new candidate edcd5ff384a \"Students and youths protest in Patna against electoral rolls and CEC\" (Patna)",
-    "classify: new candidate edc1257c8f1 \"Family protests outside police station over fatal toddy poisoning in Mumbai\" (Mumbai)",
-    "classify: new candidate e66ab49a6b5 \"Supreme Court lawyers protest over detention of colleagues\" (Delhi)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-13T13:48:42.713Z",
    "ms": 596627,
@@ -1462,8 +1432,34 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-20T07:44:00.865Z",
+   "ms": 135698,
+   "discovered": 38,
+   "fetched": 37,
+   "classified": 28,
+   "protests": 10,
+   "summarized": 4,
+   "published": 104,
+   "live": 18,
+   "aiCalls": 11,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 31 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 36 protest-word items",
+    "fetch: 37 ok, 1 failed",
+    "classify: new candidate eec85bea857 \"Hollidaysburg teachers vote to authorize upcoming strike\" (Hollidaysburg)",
+    "classify: new candidate e80f92032f5 \"Rural Lewis County Indivisibles hold No Kings early voting rally\" (Centralia)",
+    "classify: new candidate e3b458ec199 \"CPI(M) night march demands CEC resignation in Malappuram\" (Malappuram)",
+    "classify: new candidate edd46b2893a \"Congress leaders protest at Jaipur Police Commissionerate\" (Jaipur)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261020043000",
- "lastRunAt": "2026-10-20T04:27:46.405Z"
+ "gdeltCursor": "20261020074500",
+ "lastRunAt": "2026-10-20T07:44:00.865Z"
 }
