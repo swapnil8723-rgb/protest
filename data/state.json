@@ -1,54 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-20",
-  "count": 74
+  "count": 103
  },
  "runs": [
-  {
-   "at": "2026-10-13T21:53:17.742Z",
-   "ms": 394385,
-   "discovered": 96,
-   "fetched": 93,
-   "classified": 136,
-   "protests": 55,
-   "summarized": 18,
-   "published": 65,
-   "live": 14,
-   "aiCalls": 46,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20 files, 80 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 61 protest-word items",
-    "fetch: 93 ok, 3 failed",
-    "classify: new candidate ed638d5a701 \"Uttarakhand Congress protests appointment of Sikkim governor\" (Dehradun)",
-    "classify: new candidate e85df9cd8fc \"Women protest transgender inmates in women's prison\" (Framingham)",
-    "classify: new candidate e200fdc8f26 \"Transport pensioners stage sit-in protest in Madurai\" (Madurai)",
-    "classify: new candidate eb1be1703fd \"French students protest learning conditions nationwide\" (Saint-Denis)",
-    "classify: new candidate ec2ae9122ef \"Greta Thunberg joins school protests in France\" (Saint-Denis)",
-    "classify: new candidate eb2a8e2c518 \"INDIA bloc protests in Kalaburagi against SIR and CEC\" (Kalaburagi)",
-    "classify: new candidate e5563bec7c0 \"Karshaka Sangham to hold night march in Kollam\" (Kollam)",
-    "classify: new candidate e8d93304a28 \"Madurai GRH sanitation workers protest over wages and security\" (Madurai)",
-    "classify: new candidate e3da417d5e0 \"BGUS protest outside DCP office over loudspeaker rules\" (Hyderabad)",
-    "classify: new candidate ed5a9738965 \"CJP and AISA protest in Bengaluru against Delhi police action\" (Bengaluru)",
-    "classify: new candidate ee1f7555eea \"DYFI march in Manjeri against UDF healthcare policies\" (Malappuram)",
-    "classify: new candidate e98b826bd2d \"CPI(M) demonstration in Coimbatore for civic issues\" (Coimbatore)",
-    "classify: new candidate ef403d5d815 \"Students and ABVP protest college holiday cancellation\" (Bengaluru)",
-    "classify: new candidate e3994292128 \"Students demonstrate in Lyon over school resources\" (Lyon)",
-    "classify: new candidate ef1277fe0c1 \"Bus drivers continue strike over wages and hours\" (Sharonville)",
-    "classify: new candidate ee4486942e6 \"Pastor arrested after prayer protest outside Chinese embassy\" (Washington)",
-    "classify: new candidate ef4bc06899e \"Lawyers demand probe into police action against protesters\" (Bengaluru)",
-    "classify: new candidate e338e6446d5 \"Jamia students start hunger strike for union elections\" (Delhi)",
-    "classify: new candidate ef8edb0b564 \"Lawyers protest in Kishangarh over police officer slapping advocate\" (Kishangarh)",
-    "classify: new candidate e90ee52d29e \"Congress workers burn effigy and protest over crop damage and power cuts\" (Alirajpur)",
-    "classify: new candidate e98bbee233e \"Planned No Kings protests against administration policies in NYC\" (New York City)",
-    "classify: new candidate e638b5f80fa \"Supporters protest outside fundraiser in Las Cruces\" (Las Cruces)",
-    "classify: new candidate e3627e19883 \"No Kings rally to promote early voter turnout\" (The Dalles)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 16 events"
-   ],
-   "translated": 16
-  },
   {
    "at": "2026-10-13T22:49:49.026Z",
    "ms": 157263,
@@ -1453,8 +1408,42 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-20T19:19:24.342Z",
+   "ms": 788312,
+   "discovered": 105,
+   "fetched": 99,
+   "classified": 86,
+   "protests": 28,
+   "summarized": 12,
+   "published": 107,
+   "live": 17,
+   "aiCalls": 29,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 22 files, 91 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 37 protest-word items",
+    "fetch: 99 ok, 6 failed",
+    "classify: new candidate e7d93d491a5 \"BRS workers and Congress members clash over effigy burning in Hyderabad\" (Hyderabad)",
+    "classify: new candidate e766b949fc0 \"Students and unions protest school conditions and living costs\" (Créteil)",
+    "classify: new candidate e6b627193ff \"California state workers announce statewide walkout\" (Sacramento)",
+    "classify: new candidate ea2910023bd \"Kanthapuram Sunni faction calls off Waqf board protests\" (Kozhikode)",
+    "classify: new candidate e6a041a615e \"Residents block road in Dindigul over water supply\" (Dindigul)",
+    "classify: new candidate eed355fdde9 \"No Kings movement holds early voting mobilization rally\" (Rockville)",
+    "classify: new candidate e757918f458 \"French cities impose curfews following cost-of-living riots\" (Paris)",
+    "classify: new candidate ec39f10eeff \"France to deploy troops and police for upcoming protests\" (Paris)",
+    "classify: new candidate e8dc3e5cc4d \"Uddhav Thackeray calls for regime change at Dussehra rally\" (Mumbai)",
+    "classify: new candidate e40e0bcbe96 \"Congress workers burn effigy of Chief Election Commissioner\" (Bhopal)",
+    "classify: new candidate ec4f0c6bd6c \"Demonstrators protest fuel price hikes in Nairobi\" (Nairobi)",
+    "classify: new candidate e05318edf74 \"Shiv Sena holds Dussehra rally in Mumbai\" (Mumbai)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 9 events"
+   ],
+   "translated": 9
   }
  ],
- "gdeltCursor": "20261020134500",
- "lastRunAt": "2026-10-20T13:48:40.076Z"
+ "gdeltCursor": "20261020191500",
+ "lastRunAt": "2026-10-20T19:19:24.342Z"
 }
