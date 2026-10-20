@@ -1,9 +1,9 @@
 {
  "id": "e1cf4a14448",
- "slug": "",
- "stage": "candidate",
- "title": "Nationwide demonstrations and riots in France over living costs",
- "seoTitle": "",
+ "slug": "limoges-living-costs-protests-oct-2026",
+ "stage": "live",
+ "title": "Nationwide demonstrations and riots over living costs in Limoges",
+ "seoTitle": "Limoges living costs protests",
  "place": {
   "city": "Limoges",
   "region": "New Aquitaine",
@@ -13,41 +13,103 @@
   "citySlug": "limoges",
   "regionSlug": "new-aquitaine"
  },
- "scope": "local",
+ "scope": "nationwide",
  "causes": [
   "prices",
-  "labour",
-  "anti-government"
+  "labour"
  ],
- "kind": "one-day",
+ "kind": "multi-day",
  "startedOn": "2026-10-17",
  "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "vibe": "tense",
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious",
+  "low-confidence",
+  "sources-disagree",
+  "tone-words"
+ ],
  "isOngoing": true,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Protesters are demonstrating against rising fuel prices, the cost of living, and deteriorating public services.",
+  "want": "Demonstrators demand relief from high living costs and improvements to public services.",
+  "changed": "Oct 19: Interior Minister Laurent Nuñez acknowledged authorities lost control in certain large cities and offered his resignation."
  },
- "summary": "",
+ "summary": "Nationwide demonstrations and riots erupted across France over rising living costs, fuel prices, and deteriorating public services. Hundreds of thousands of protesters took to the streets, with turnout estimated by the Interior Ministry at 550,000 across 110 marches, and by organizers at 800,000. In Limoges, rioters broke into and torched a 19th-century city hall, causing its roof to collapse. The widespread unrest involved clashes with security forces, looting, and attacks on public buildings. French authorities deployed roughly 60,000 police, gendarmes, and firefighters. According to reports, thousands of businesses sustained damage, and numerous law enforcement officers and firefighters were injured. French Prime Minister Sébastien Lecornu and Interior Minister Laurent Nuñez addressed the security situation, with Nuñez acknowledging that police had lost control in some cities and offering his resignation, which President Emmanuel Macron refused.",
  "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
- "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
+ "demands": [
+  "Lower fuel prices",
+  "Lower cost of living",
+  "Better public services"
+ ],
+ "response": "French authorities deployed around 60,000 security personnel, introduced targeted curfews, and made thousands of arrests. Interior Minister Laurent Nuñez acknowledged a lack of anticipation, and Prime Minister Sébastien Lecornu noted that targeted curfews helped quiet the streets.",
+ "numbers": {
+  "crowd": {
+   "value": 550000,
+   "text": "Some 550,000 people joined 110 marches nationwide Saturday, according to France's Interior Ministry",
+   "sources": [
+    1
+   ]
+  },
+  "arrests": {
+   "value": 2400,
+   "text": "at least 2,400 people were arrested",
+   "sources": [
+    1
+   ]
+  },
+  "injuries": {
+   "value": 1000,
+   "text": "Nearly 1,000 law enforcement officers and firefighters were injured",
+   "sources": [
+    1
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-10-19",
+   "text": "Interior Minister Laurent Nuñez acknowledged police lost control in certain large cities and offered his resignation.",
+   "sources": [
+    1
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.foxnews.com/politics/frances-massive-intel-failure-sparks-resignation-offers-amid-days-rioting",
+   "publisher": "foxnews.com",
+   "title": "France's massive intel failure sparks resignation offers amid days of rioting",
+   "publishedAt": "2026-10-19T18:59:07.000Z"
+  },
+  {
+   "n": 2,
+   "url": "http://www.businessghana.com/site/news/politics/358066/Suspect-arrested-after-historic-town-hall-set-alight-during-disorder-French-media",
+   "publisher": "businessghana.com",
+   "title": "Suspect arrested after historic town hall set alight during disorder - French media"
+  }
+ ],
+ "conflicts": [
+  "The Interior Ministry estimated 550,000 demonstrators nationwide, whereas organizers claimed 800,000."
+ ],
+ "confidence": 0.55,
+ "publishers": 2,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 2,
  "firstSeenAt": "2026-10-19T20:37:36.249Z",
- "lastReportAt": "2026-10-19T20:37:36.249Z",
- "lastCheckedAt": "2026-10-19T20:37:36.249Z",
- "updatedAt": "2026-10-19T20:37:36.249Z"
+ "lastReportAt": "2026-10-20T13:30:00.000Z",
+ "lastCheckedAt": "2026-10-20T13:52:16.634Z",
+ "updatedAt": "2026-10-20T13:51:43.174Z",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-10-20T13:51:43.174Z",
+ "summaryOf": "b68fa93ef8b4"
 }

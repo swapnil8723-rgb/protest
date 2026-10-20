@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-20",
-  "count": 52
+  "count": 74
  },
  "runs": [
-  {
-   "at": "2026-10-13T16:58:55.313Z",
-   "ms": 795146,
-   "discovered": 76,
-   "fetched": 73,
-   "classified": 9,
-   "protests": 4,
-   "summarized": 0,
-   "published": 60,
-   "live": 12,
-   "aiCalls": 7,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 63 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 51 protest-word items",
-    "fetch: 73 ok, 3 failed",
-    "classify: batch failed: The operation was aborted due to timeout",
-    "classify: batch failed: The operation was aborted due to timeout",
-    "classify: batch failed: The operation was aborted due to timeout",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: new candidate e106fa6f515 \"Makkal Adhikaram members block train demanding CEC resignation\" (Chennai)",
-    "AI budget: run time cap 13 min reached — remaining work waits for a later run"
-   ],
-   "translated": 0
-  },
   {
    "at": "2026-10-13T21:53:17.742Z",
    "ms": 394385,
@@ -1450,8 +1423,38 @@
     "translate: 1 events"
    ],
    "translated": 1
+  },
+  {
+   "at": "2026-10-20T13:48:40.076Z",
+   "ms": 325073,
+   "discovered": 76,
+   "fetched": 71,
+   "classified": 60,
+   "protests": 27,
+   "summarized": 11,
+   "published": 105,
+   "live": 15,
+   "aiCalls": 22,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20 files, 63 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 35 protest-word items",
+    "fetch: 71 ok, 5 failed",
+    "classify: new candidate e15325c8707 \"Embroidery workers in Surat protest for wage and shift demands\" (Surat)",
+    "classify: new candidate eb7efee3a16 \"Reform UK leader Nigel Farage holds political rally in Plymouth\" (Plymouth)",
+    "classify: new candidate edaf3ba43b6 \"Annamalai backs CJP election commission protest questions\" (Chennai)",
+    "classify: new candidate e4407a0d2a9 \"Medical interns strike in Jammu and Kashmir over stipend demands\" (Jammu)",
+    "classify: new candidate e98318e6612 \"French cities impose curfews following nationwide cost-of-living protests\" (Marseille)",
+    "classify: new candidate e75d25dfa48 \"Demonstrators hold No Kings rally at Wyoming State Capitol\" (Cheyenne)",
+    "classify: new candidate e227f719796 \"Indonesian students protest wildfires and toxic haze\" (Jakarta)",
+    "classify: new candidate ee262846609 \"No Kings rally encourages early voting in Flagstaff\" (Flagstaff)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261020084500",
- "lastRunAt": "2026-10-20T08:37:58.942Z"
+ "gdeltCursor": "20261020134500",
+ "lastRunAt": "2026-10-20T13:48:40.076Z"
 }
