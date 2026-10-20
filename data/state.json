@@ -1,37 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-19",
-  "count": 105
+  "day": "2026-10-20",
+  "count": 19
  },
  "runs": [
-  {
-   "at": "2026-10-13T04:27:46.591Z",
-   "ms": 211241,
-   "discovered": 56,
-   "fetched": 53,
-   "classified": 48,
-   "protests": 24,
-   "summarized": 7,
-   "published": 56,
-   "live": 10,
-   "aiCalls": 17,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 40 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 70 protest-word items",
-    "fetch: 53 ok, 3 failed",
-    "classify: new candidate e1a93303d1c \"States hold voter enrolment camps amid protests over SIR and CEC\" (Delhi)",
-    "classify: new candidate ec8805e156e \"Supporters stage protest demanding justice for late singer Zubeen Garg\" (Sonepur)",
-    "classify: new candidate e5019cbc9ea \"AAP leaders announce one-day hunger strike against CEC\" (Delhi)",
-    "classify: new candidate e54b7c88c8f \"BJP Mahila Morcha protests across Gujarat against Congress MP\" (Ahmedabad)",
-    "classify: new candidate eb3193e68a8 \"Students protest exams during Dasara in Mangaluru\" (Mangaluru)",
-    "classify: new candidate e18be341870 \"CJP volunteers stage flash protest at Jantar Mantar\" (Delhi)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-13T06:50:49.624Z",
    "ms": 199931,
@@ -1459,8 +1431,38 @@
     "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting"
    ],
    "translated": 0
+  },
+  {
+   "at": "2026-10-20T00:24:25.129Z",
+   "ms": 210883,
+   "discovered": 63,
+   "fetched": 60,
+   "classified": 49,
+   "protests": 19,
+   "summarized": 8,
+   "published": 101,
+   "live": 17,
+   "aiCalls": 19,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 15 files, 62 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 40 protest-word items",
+    "fetch: 60 ok, 3 failed",
+    "classify: new candidate e7f1d6c5df7 \"KRRS calls for shutdown of Bengaluru-Mysuru highway\" (Mandya)",
+    "classify: new candidate eef9491cd5a \"Pro-Palestinian vandal damages New York bank\" (New York City)",
+    "classify: new candidate e0954bc2e95 \"Radical groups call for youth strike and protest in London\" (London)",
+    "classify: new candidate e5bdf9b03e3 \"Organisations stage sit-ins in Amritsar over activist killing\" (Amritsar)",
+    "classify: new candidate ec6385243c0 \"Protests and riots over living costs and immigration in France\" (Paris)",
+    "classify: new candidate e5026995029 \"Heckler interrupts JD Vance political rally in North Carolina\" (Hendersonville)",
+    "classify: new candidate e337f2f28b1 \"Cost-of-living protests continue across France and Europe\" (Paris)",
+    "classify: new candidate e0ed5e3e9fa \"Indiana University students protest sexual violence on campus\" (Bloomington)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261019204500",
- "lastRunAt": "2026-10-19T20:37:02.724Z"
+ "gdeltCursor": "20261020003000",
+ "lastRunAt": "2026-10-20T00:24:25.129Z"
 }
