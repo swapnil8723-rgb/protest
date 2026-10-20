@@ -1,41 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-20",
-  "count": 49
+  "count": 52
  },
  "runs": [
-  {
-   "at": "2026-10-13T13:48:42.713Z",
-   "ms": 596627,
-   "discovered": 92,
-   "fetched": 90,
-   "classified": 65,
-   "protests": 26,
-   "summarized": 10,
-   "published": 60,
-   "live": 12,
-   "aiCalls": 23,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 14 files, 61 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 68 protest-word items",
-    "fetch: 90 ok, 2 failed",
-    "classify: new candidate ecf4b9208a0 \"Thane journalists protest against MNS leader's remarks\" (Thane)",
-    "classify: new candidate e5e31616f63 \"NSUI stages flash protest at Rajiv Chowk metro station demanding CEC resignation\" (Delhi)",
-    "classify: new candidate ec192a09859 \"Family and supporters protest in Mansa demanding justice for activist\" (Mansa)",
-    "classify: new candidate ef94e02eb5a \"French students and activists protest school conditions in Saint-Denis\" (Saint-Denis)",
-    "classify: new candidate e2753e436a2 \"Private bus operators announce march to Secretariat\" (Thiruvananthapuram)",
-    "classify: new candidate e217a1acfbf \"Family protests outside hospital demanding justice for worker\" (Chennai)",
-    "classify: new candidate eca9d247979 \"Advocates protest against Rahul Gandhi over remarks on judiciary\" (Hyderabad)",
-    "classify: new candidate e1242886165 \"NSUI stages dharna at police station\" (Delhi)",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: new candidate edcd20b21b2 \"Contract teachers to hold dharna for job security and regularisation\" (Hyderabad)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-13T16:58:55.313Z",
    "ms": 795146,
@@ -1458,8 +1426,32 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-20T08:37:58.942Z",
+   "ms": 103768,
+   "discovered": 14,
+   "fetched": 14,
+   "classified": 11,
+   "protests": 4,
+   "summarized": 1,
+   "published": 104,
+   "live": 17,
+   "aiCalls": 3,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 4 files, 12 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 36 protest-word items",
+    "fetch: 14 ok, 0 failed",
+    "classify: new candidate ea2cb4843d3 \"Shutdown in Imphal Valley over Meitei killings\" (Imphal)",
+    "classify: new candidate ed866bd082e \"Protesters interrupt Donald Trump rally in Kansas\" (Wichita)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 1 events"
+   ],
+   "translated": 1
   }
  ],
- "gdeltCursor": "20261020074500",
- "lastRunAt": "2026-10-20T07:44:00.865Z"
+ "gdeltCursor": "20261020084500",
+ "lastRunAt": "2026-10-20T08:37:58.942Z"
 }
