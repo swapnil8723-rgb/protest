@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-21",
-  "count": 13
+  "count": 24
  },
  "runs": [
-  {
-   "at": "2026-10-14T11:59:16.528Z",
-   "ms": 203184,
-   "discovered": 80,
-   "fetched": 77,
-   "classified": 60,
-   "protests": 15,
-   "summarized": 5,
-   "published": 65,
-   "live": 12,
-   "aiCalls": 14,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 17 files, 62 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 44 protest-word items",
-    "fetch: 77 ok, 3 failed",
-    "classify: new candidate e1b9f19782f \"Press Club of India holds silent march over journalist detentions\" (Delhi)",
-    "classify: new candidate e398e4ac1c5 \"CPI(M) marches to Nedumbassery police station over accident case\" (Kochi)",
-    "classify: new candidate e5578097c69 \"UK diaspora groups hold emergency protest in London\" (London)",
-    "classify: new candidate ecfd39ada83 \"Women stage silent protest in Chennai over Delhi police action\" (Chennai)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-14T16:16:27.445Z",
    "ms": 245333,
@@ -1442,8 +1416,32 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-21T07:44:02.801Z",
+   "ms": 111732,
+   "discovered": 43,
+   "fetched": 39,
+   "classified": 36,
+   "protests": 10,
+   "summarized": 5,
+   "published": 109,
+   "live": 16,
+   "aiCalls": 11,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 38 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 31 protest-word items",
+    "fetch: 39 ok, 4 failed",
+    "classify: new candidate ec33e0e1eca \"Demonstrators dress as superheroes during French cost-of-living protests\" (Marseille)",
+    "classify: new candidate eb12bc9818b \"French authorities impose curfews amid ongoing riots and looting\" (Paris)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261021043000",
- "lastRunAt": "2026-10-21T04:27:46.298Z"
+ "gdeltCursor": "20261021074500",
+ "lastRunAt": "2026-10-21T07:44:02.801Z"
 }
