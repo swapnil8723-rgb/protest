@@ -1,42 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-21",
-  "count": 24
+  "count": 43
  },
  "runs": [
-  {
-   "at": "2026-10-14T16:16:27.445Z",
-   "ms": 245333,
-   "discovered": 80,
-   "fetched": 77,
-   "classified": 68,
-   "protests": 23,
-   "summarized": 10,
-   "published": 66,
-   "live": 12,
-   "aiCalls": 24,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 17 files, 60 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 44 protest-word items",
-    "fetch: 77 ok, 3 failed",
-    "classify: new candidate e6087a905e6 \"French students and unions stage nationwide protests over school conditions\" (Saint-Denis)",
-    "classify: new candidate ea8d1a03bdb \"Planned No Kings protests against administration policies in NYC\" (Philadelphia)",
-    "classify: new candidate e5b9d0cbfa5 \"Hindu College Staff Association protests against administration in Delhi\" (Delhi)",
-    "classify: new candidate e10c194e9c2 \"Cockroach Janata Party calls Tiranga march in Delhi\" (Delhi)",
-    "classify: new candidate e61a1f73719 \"Farmers protest at canal regulator for water release\" (Karimnagar)",
-    "classify: new candidate e54104b4e88 \"Government teachers announce state-wide protest over pension\" (Chennai)",
-    "classify: new candidate e7e8ef8074b \"Animal rights campaigners protest outside Pret a Manger\" (London)",
-    "classify: new candidate ee6117435f9 \"Farmers withdraw highway blockades in Haveri and Dharwad\" (Haveri)",
-    "classify: new candidate ea881070e59 \"Grieving family stages sit-in at India Gate over gubernatorial appointment\" (Delhi)",
-    "classify: new candidate ee7c8bc2d92 \"Student groups protest outside IIT Bombay over student death\" (Mumbai)",
-    "summary: ec2ecff891c only 1 independent publisher(s) on-story — not applied",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-14T17:16:27.328Z",
    "ms": 68581,
@@ -1440,8 +1407,36 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-21T11:56:49.721Z",
+   "ms": 204456,
+   "discovered": 56,
+   "fetched": 54,
+   "classified": 45,
+   "protests": 19,
+   "summarized": 8,
+   "published": 110,
+   "live": 14,
+   "aiCalls": 19,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 17 files, 48 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 27 protest-word items",
+    "fetch: 54 ok, 2 failed",
+    "classify: new candidate e9de255dc3c \"Police protect Macron family shop during French riots\" (Amiens)",
+    "classify: new candidate eba1503e8ce \"Peaceful Patriots hold No Kings early voting rally in Oshkosh\" (Oshkosh)",
+    "classify: new candidate e89047b05fa \"French PM to meet unions amid cost-of-living protests\" (Paris)",
+    "classify: new candidate ee94145cd0f \"Farmers announce indefinite protest over crop loan waiver\" (Tiruchirappalli)",
+    "classify: new candidate ed07c40ae55 \"Greenpeace protesters disrupt Nvidia CEO keynote\" (Berlin)",
+    "classify: new candidate e8634e9a791 \"Pro-Palestinian demonstrators rally outside New York Times headquarters\" (New York City)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261021074500",
- "lastRunAt": "2026-10-21T07:44:02.801Z"
+ "gdeltCursor": "20261021120000",
+ "lastRunAt": "2026-10-21T11:56:49.721Z"
 }

@@ -13,11 +13,11 @@
   "citySlug": "delhi",
   "regionSlug": "delhi"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "elections",
   "governance",
-  "corruption"
+  "anti-government"
  ],
  "kind": "multi-day",
  "startedOn": "2026-10-04",
@@ -26,57 +26,63 @@
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "serious"
+  "serious",
+  "top-10"
  ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated against alleged irregularities in the Election Commission and voter-roll deletions affecting minority and marginalized communities.",
-  "want": "Demonstrators demanded the resignation of Chief Election Commissioner Gyanesh Kumar and action against police officers accused of harassment.",
-  "changed": "Oct 20: United Nations human rights experts flagged the heavy-handed police response and mass detentions during the demonstrations."
+  "why": "Protesters object to voter list revisions that they claim disenfranchised voters and disproportionately affected minority and poor populations.",
+  "want": "Demonstrators demand the resignation of Chief Election Commissioner Gyanesh Kumar and action over alleged police misconduct.",
+  "changed": "Oct 21: UN experts urged an independent investigation into Indian authorities' conduct during the protest crackdown."
  },
- "summary": "Demonstrations took place in New Delhi calling for the resignation of Chief Election Commissioner Gyanesh Kumar over alleged irregularities in the Special Intensive Revision of electoral rolls and voter registration processes. Organised by groups including the Aam Samiti Party, the Cockroach Janta Party, and various student and civil society bodies, the protests faced widespread restrictions, barricades, and heavy deployments of Delhi Police, Central Armed Police Forces, and the Rapid Action Force. Authorities denied permission for gatherings at Jantar Mantar and carried out extensive preventive actions, resulting in thousands of detentions of political leaders, student activists, lawyers, and journalists. The ruling Bharatiya Janata Party criticised the agitations for attempting to disrupt law and order, while opposition figures and UN human rights experts condemned the heavy-handed police response and restrictions on assembly.",
+ "summary": "Opposition political parties, student organisations, and civil society groups led by the Cockroach Janta Party held protests in New Delhi and other cities demanding the resignation of Chief Election Commissioner Gyanesh Kumar over a contentious voter list revision exercise. Demonstrators argued the changes unfairly targeted vulnerable populations and benefited the ruling party. Authorities deployed heavy security forces, suspended entry and exit at dozens of metro stations, and enacted sweeping assembly bans. Police carried out mass preventive detentions, arresting thousands of protesters, opposition leaders, and movement founders, and used batons to disperse crowds. UN experts subsequently called for an independent investigation into the use of force, while the government maintained that law enforcement acted strictly in accordance with the law.",
  "organizers": [
-  "Aam Samiti Party",
   "Cockroach Janta Party",
+  "Aam Samachar Party",
   "Association of Students for Alternative Politics",
-  "Indian Youth Congress"
+  "All India Students’ Association"
  ],
  "demands": [
   "Resignation of Chief Election Commissioner Gyanesh Kumar",
-  "Action against police officers accused of sexual harassment",
-  "Release of detained political leaders and activists",
-  "Transparency and accountability in electoral institutions"
+  "FIR against police officers accused of sexual harassment",
+  "Reversal of voter list revisions"
  ],
- "response": "Delhi Police denied permission for gatherings, deployed heavy security, and carried out mass preventive detentions of thousands of protesters, opposition figures, lawyers, and journalists. The BJP accused AAP of attempting to vitiate Delhi's political atmosphere.",
+ "response": "Authorities denied permission for demonstrations, deployed tens of thousands of security personnel, restricted public transport and internet access, and carried out mass detentions. The Indian government stated that law enforcement acted strictly in accordance with the law.",
  "numbers": {
   "arrests": {
-   "value": 7000,
-   "text": "more than 7,000 persons... were detained in New Delhi",
+   "value": 3000,
+   "text": "Nearly 3,000 detentions took place",
    "sources": [
-    6,
-    10
+    6
+   ]
+  },
+  "injuries": {
+   "value": 2,
+   "text": "leaving two police personnel injured",
+   "sources": [
+    6
    ]
   }
  },
  "updates": [
   {
    "at": "2026-10-04",
-   "text": "AAP and allied student groups intensified protests in central Delhi, leading to multiple detentions outside the Parliament Street police station and India Gate.",
+   "text": "AAP intensified its agitation in central Delhi demanding the CEC's removal and action over sexual harassment allegations.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-09",
-   "text": "Delhi Traffic Police issued a major traffic advisory warning of diversions across 30 key locations ahead of planned demonstrations.",
+   "text": "The Supreme Court directed authorities to lift blanket public transport restrictions ahead of planned protests.",
    "sources": [
     2
    ]
   },
   {
    "at": "2026-10-10",
-   "text": "Police conducted sweeping preventive detentions, taking thousands of protesters, opposition leaders, lawyers, and journalists into custody.",
+   "text": "Police detained movement founders and hundreds of protesters, and closed multiple metro stations in New Delhi.",
    "sources": [
     3,
     4,
@@ -85,23 +91,16 @@
   },
   {
    "at": "2026-10-11",
-   "text": "Climate activist Sonam Wangchuk warned of a hunger strike if detained leaders were not released, while right-wing groups clashed with demonstrators.",
+   "text": "A court ordered the release of detained movement leaders on an undertaking to maintain public peace.",
    "sources": [
-    5,
     7
    ]
   },
   {
-   "at": "2026-10-19",
-   "text": "The Indian Youth Congress staged a symbolic effigy burning of Ravan bearing the CEC's face to demand his resignation.",
+   "at": "2026-10-21",
+   "text": "UN experts called for an independent investigation into the authorities' crackdown on demonstrators.",
    "sources": [
-    8
-   ]
-  },
-  {
-   "at": "2026-10-20",
-   "text": "UN human rights experts criticised the heavy-handed police response, assembly bans, and mass detentions during the youth-led demonstrations.",
-   "sources": [
+    9,
     10
    ]
   }
@@ -116,235 +115,231 @@
   },
   {
    "n": 2,
-   "url": "https://www.ndtv.com/india-news/delhi-police-issues-traffic-advisory-ahead-of-cjp-protest-check-affected-routes-12163469",
-   "publisher": "ndtv.com",
-   "title": "Delhi Police Issues Traffic Advisory Ahead Of CJP Protest: Check Affected Routes",
-   "publishedAt": "2026-10-09T16:35:19.000Z"
+   "url": "https://www.hindustantimes.com/india-news/delhi-metro-stations-closure-update-dmrc-revises-order-after-sc-rap-october-10-cjp-protest-jantar-mantar-101791560803808.html",
+   "publisher": "hindustantimes.com",
+   "title": "DMRC revises order after Supreme Court rap, 45 Delhi Metro stations to remain affected",
+   "publishedAt": "2026-10-09T16:33:41.000Z"
   },
   {
    "n": 3,
-   "url": "https://www.thehindubusinessline.com/news/youtuber-dhruv-rathee-detained-by-delhi-police-ahead-of-cjp-protest-sources/article71567093.ece",
-   "publisher": "thehindubusinessline.com",
-   "title": "YouTuber Dhruv Rathee detained by Delhi Police ahead of CJP protest: Sources",
-   "publishedAt": "2026-10-10T04:39:39.000Z"
+   "url": "https://economictimes.indiatimes.com/news/india/modi-has-accepted-defeat-cjp-chief-dipke-says-ahead-of-delhi-protest-as-police-detain-150-including-dhruv-rathee/articleshow/134847309.cms",
+   "publisher": "economictimes.indiatimes.com",
+   "title": "‘Modi has accepted defeat’: Dipke says ahead of Delhi protest as police detain 200+, including CJP’s legal head Ratna Singh, Dhruv Rathee",
+   "publishedAt": "2026-10-10T04:47:00.000Z"
   },
   {
    "n": 4,
-   "url": "https://www.siasat.com/media-restricted-journalists-detained-despite-showing-ids-3555096/",
-   "publisher": "siasat.com",
-   "title": "Media restricted, journalists detained despite showing IDs",
-   "publishedAt": "2026-10-10T08:19:20.000Z"
+   "url": "https://www.hampshirechronicle.co.uk/news/national/26624947.india-cracks-youth-protests-anger-grows-modi/",
+   "publisher": "hampshirechronicle.co.uk",
+   "title": "India cracks down on youth protests as anger grows against Modi",
+   "publishedAt": "2026-10-10T10:52:09.000Z"
   },
   {
    "n": 5,
-   "url": "https://www.indiablooms.com/news/cjp-protests-in-delhi-sonam-wangchuk-warns-of-hunger-strike-foot-march-if-detained-leaders-are-not-released/details",
-   "publisher": "indiablooms.com",
-   "title": "CJP protests in Delhi: Sonam Wangchuk warns of hunger strike, foot march if detained leaders are not released | Indiablooms - First Portal on Digital News Management",
-   "publishedAt": "2026-10-10T12:46:02.000Z"
+   "url": "https://www.thedailystar.net/news/world/south-asia/news/delhi-police-says-cockroach-movement-founder-may-stay-protest-or-return-grandmothers-last-rites-4295146",
+   "publisher": "thedailystar.net",
+   "title": "Delhi Police says ‘cockroach’ movement founder may stay for protest or return for grandmother’s last rites"
   },
   {
    "n": 6,
-   "url": "https://theindianawaaz.com/protest-against-cec-gyanesh-kumar-mass-detentions-police-crackdown-trigger-political-storm/",
-   "publisher": "theindianawaaz.com",
-   "title": "Protest against CEC Gyanesh Kumar; Mass Detentions, Police Crackdown Trigger Political Storm – The Indian Awaaz"
+   "url": "https://www.tribuneindia.com/news/delhi/jantar-mantar-2-0-foiled-as-delhi-turns-fortress/",
+   "publisher": "tribuneindia.com",
+   "title": "Jantar Mantar 2.0 foiled as Delhi turns fortress - The Tribune",
+   "publishedAt": "2026-10-11T00:03:10.000Z"
   },
   {
    "n": 7,
-   "url": "https://theprint.in/india/saffron-clad-groups-roam-delhi-streets-assault-protesters-hindu-raksha-dal-chief-claims-responsibility/3068441/",
-   "publisher": "theprint.in",
-   "title": "Saffron-clad groups roam Delhi streets, assault protesters; Hindu Raksha Dal chief claims responsibility",
-   "publishedAt": "2026-10-11T11:15:03.000Z"
+   "url": "https://www.theglobeandmail.com/world/article-india-cockroach-protest/",
+   "publisher": "theglobeandmail.com",
+   "title": "Indian protesters seek removal of election chief as ‘cockroach’ leaders released",
+   "publishedAt": "2026-10-11T14:25:45.000Z"
   },
   {
    "n": 8,
-   "url": "https://www.moneycontrol.com/news/india/congress-youth-wing-burns-ravan-effigy-bearing-cec-gyanesh-kumar-s-face-demands-resignation-14055697.html",
-   "publisher": "moneycontrol.com",
-   "title": "Congress youth wing burns Ravan effigy bearing CEC Gyanesh Kumar’s face, demands resignation- Moneycontrol.com"
+   "url": "https://www.thehindu.com/news/cities/Delhi/who-are-delhi-polices-cyber-commandos-tracking-bomb-threats-and-fake-videos-on-social-media/article71604459.ece",
+   "publisher": "thehindu.com",
+   "title": "Cyber commandos lead Delhi Police’s digital fight amid protests, bomb hoaxes, crypto frauds",
+   "publishedAt": "2026-10-21T06:38:30.000Z"
   },
   {
    "n": 9,
-   "url": "https://www.hindustantimes.com/india-news/delhi-protest-live-updates-cjp-saurav-das-ashutosh-ranka-jantar-mantar-police-jail-dipke-cec-gyanesh-kumar-india-bloc-101792460371136.html",
-   "publisher": "hindustantimes.com",
-   "title": "Delhi protest LIVE: CJP slams Das, Ranka's extended custody, says ‘repression will not break their spirit’",
-   "publishedAt": "2026-10-20T02:15:36.000Z"
+   "url": "https://tribune.com.pk/story/2636083/un-experts-urge-indian-authorities-to-cease-use-of-excessive-force-to-curb-protests",
+   "publisher": "tribune.com.pk",
+   "title": "UN experts urge Indian authorities to cease",
+   "publishedAt": "2026-10-21T07:49:44.000Z"
   },
   {
    "n": 10,
-   "url": "https://scroll.in/latest/1096540/un-experts-flag-heavy-handed-response-of-police-against-peaceful-protests-in-india",
-   "publisher": "scroll.in",
-   "title": "UN experts flag ‘heavy-handed’ police response to peaceful protests in India",
-   "publishedAt": "2026-10-20T15:01:00.000Z"
+   "url": "https://www.chronicle.lu/category/international-news/64130-un-experts-urge-india-to-end-excessive-force-against-protesters",
+   "publisher": "chronicle.lu",
+   "title": "UN Experts Urge India to End 'Excessive Force' Against Protesters"
   }
  ],
  "conflicts": [],
  "confidence": 0.95,
- "publishers": 10,
- "reports24h": 1,
+ "publishers": 9,
+ "reports24h": 5,
  "reportsPrev24h": 3,
- "reports48h": 4,
+ "reports48h": 8,
  "firstSeenAt": "2026-10-07T10:23:07.506Z",
- "lastReportAt": "2026-10-20T15:01:00.000Z",
- "lastCheckedAt": "2026-10-21T07:45:21.777Z",
- "updatedAt": "2026-10-20T19:23:33.136Z",
+ "lastReportAt": "2026-10-21T08:00:00.000Z",
+ "lastCheckedAt": "2026-10-21T11:59:00.102Z",
+ "updatedAt": "2026-10-21T11:58:09.798Z",
  "responseSources": [
-  1,
   3,
   4,
-  6
+  6,
+  9,
+  10
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-20T19:23:33.136Z",
+ "summarizedAt": "2026-10-21T11:58:09.798Z",
  "publishedAt": "2026-10-08T10:47:28.969Z",
  "i18n": {
-  "of": "d8d00919d297e656",
-  "at": "2026-10-20T19:30:11.828Z",
+  "of": "b4b6915b420ed80a",
+  "at": "2026-10-21T11:59:13.262Z",
   "tries": 1,
   "hi": {
-   "title": "नई दिल्ली में प्रदर्शनकारियों ने बड़े पैमाने पर हिरासत में लिए जाने के बीच चुनाव प्रमुख के इस्तीफ़ की मांग की",
-   "seoTitle": "मुख्य चुनाव आयुक्त ज्ञानेश कुमार के ख़िलाफ़ नई दिल्ली मार्च",
+   "title": "नई दिल्ली में प्रदर्शनों में मुख्य चुनाव आयुक्त के इस्तीफे की मांग और भारी हिरासतें",
+   "seoTitle": "मुख्य चुनाव आयुक्त ज्ञानेश कुमार के खिलाफ नई दिल्ली मार्च",
    "tea": {
-    "why": "प्रदर्शनकारियों ने चुनाव आयोग में कथित अनियमितताओं और अल्पसंख्यक तथा हाशिए के समुदायों को प्रभावित करने वाले मतदाता-सूची से नाम हटाने के ख़िलाफ़ प्रदर्शन किया।",
-    "want": "प्रदर्शनकारियों ने मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफ़े और उत्पीड़न के आरोपी पुलिस अधिकारियों के ख़िलाफ़ कार्रवाई की मांग की।",
-    "changed": "20 अक्तूबर: संयुक्त राष्ट्र के मानवाधिकार विशेषज्ञों ने प्रदर्शनों के दौरान अत्यधिक सख्त पुलिस कार्रवाई और बड़े पैमाने पर हिरासत में लिए जाने पर चिंता जताई।"
+    "why": "प्रदर्शनकारियों ने मतदाता सूची संशोधनों पर आपत्ति जताई, उनका दावा है कि इससे मतदाताओं के मताधिकार छिन गए और अल्पसंख्यक तथा गरीब आबादी आनुपातिक रूप से प्रभावित हुई।",
+    "want": "प्रदर्शनकारियों ने मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे और कथित पुलिस दुर्व्यवहार पर कार्रवाई की मांग की।",
+    "changed": "21 अक्टूबर: संयुक्त राष्ट्र के विशेषज्ञों ने प्रदर्शनकारियों के खिलाफ कार्रवाई के दौरान भारतीय अधिकारियों के आचरण की स्वतंत्र जांच का आग्रह किया।"
    },
-   "summary": "विशेष गहन पुनरीक्षण और मतदाता पंजीकरण प्रक्रियाओं में कथित अनियमितताओं को लेकर मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफ़े की मांग को लेकर नई दिल्ली में प्रदर्शन हुए। आम समिति पार्टी, कॉकरोच जनता पार्टी और विभिन्न छात्र व नागरिक समाज निकायों सहित अन्य समूहों द्वारा आयोजित इन प्रदर्शनों को व्यापक प्रतिबंधों, बैरिकेड्स और दिल्ली पुलिस, केंद्रीय सशस्त्र पुलिस बलों तथा रैपिड एक्शन फोर्स की भारी तैनाती का सामना करना पड़ा। अधिकारियों ने जंतर-मंतर पर सभाओं की अनुमति देने से इनकार कर दिया और व्यापक निवारक कार्रवाई की, जिसके परिणामस्वरूप राजनीतिक नेताओं, छात्र कार्यकर्ताओं, वकीलों और पत्रकारों को हज़ारों की संख्या में हिरासत में लिया गया। सत्ताधारी भारतीय जनता पार्टी ने कानून-व्यवस्था को बिगाड़ने के प्रयास के लिए आंदोलनों की आलोचना की, जबकि विपक्षी हस्तियों और संयुक्त राष्ट्र के मानवाधिकार विशेषज्ञों ने अत्यधिक सख्त पुलिस कार्रवाई तथा सभा पर प्रतिबंधों की निंदा की।",
+   "summary": "कॉकरोच जनता पार्टी के नेतृत्व में विपक्षी राजनीतिक दलों, छात्र संगठनों और नागरिक समाज समूहों ने एक विवादित मतदाता सूची संशोधन अभियान को लेकर मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे की मांग को लेकर नई दिल्ली और अन्य शहरों में प्रदर्शन किए। प्रदर्शनकारियों का तर्क था कि इन बदलावों से कमजोर आबादी को अनुचित रूप से निशाना बनाया गया और सत्ताधारी पार्टी को फायदा पहुँचाया गया। अधिकारियों ने भारी सुरक्षा बल तैनात किए, दर्जनों मेट्रो स्टेशनों पर प्रवेश और निकास निलंबित कर दिए और व्यापक सभा प्रतिबंध लागू कर दिए। पुलिस ने व्यापक निवारक हिरासतें कीं, हजारों प्रदर्शनकारियों, विपक्षी नेताओं और आंदोलन के संरक्षकों को गिरफ्तार किया, और भीड़ को तितर-बितर करने के लिए लाठियों का इस्तेमाल किया। इसके बाद संयुक्त राष्ट्र के विशेषज्ञों ने बल प्रयोग की स्वतंत्र जांच की मांग की, जबकि सरकार का कहना था कि कानून प्रवर्तन ने पूरी तरह कानून के अनुसार काम किया।",
    "demands": [
-    "मुख्य चुनाव आयुक्त ज्ञानेश कुमार का इस्तीफ़ा",
-    "यौन उत्पीड़न के आरोपी पुलिस अधिकारियों के ख़िलाफ़ कार्रवाई",
-    "हिरासत में लिए गए राजनीतिक नेताओं और कार्यकर्ताओं की रिहाई",
-    "चुनावी संस्थाओं में पारदर्शिता और जवाबदेही"
+    "मुख्य चुनाव आयुक्त ज्ञानेश कुमार का इस्तीफा",
+    "यौन उत्पीड़न के आरोपी पुलिस अधिकारियों के खिलाफ एफआईआर",
+    "मतदाता सूची संशोधनों को वापस लेना"
    ],
-   "response": "दिल्ली पुलिस ने सभाओं की अनुमति देने से इनकार कर दिया, भारी सुरक्षा तैनात की और प्रदर्शनकारियों, विपक्षी हस्तियों, वकीलों और पत्रकारों के हज़ारों की संख्या में बड़े पैमाने पर निवारक हिरासत में लिया। भाजपा ने आप पर दिल्ली के राजनीतिक माहौल को दूषित करने का प्रयास करने का आरोप लगाया।",
+   "response": "अधिकारियों ने प्रदर्शनों की अनुमति देने से इनकार कर दिया, हजारों सुरक्षा कर्मियों को तैनात किया, सार्वजनिक परिवहन और इंटरनेट तक पहुँच को प्रतिबंधित किया, और भारी हिरासतें कीं। भारत सरकार ने कहा कि कानून प्रवर्तन ने पूरी तरह कानून के अनुसार कार्रवाई की।",
    "updates": [
-    "आप और संबद्ध छात्र समूहों ने मध्य दिल्ली में प्रदर्शन तेज़ कर दिए, जिसके कारण संसद स्ट्रीट पुलिस स्टेशन और इंडिया गेट के बाहर कई लोगों को हिरासत में लिया गया।",
-    "दिल्ली यातायात पुलिस ने नियोजित प्रदर्शनों से पहले 30 प्रमुख स्थानों पर डायवर्जन की चेतावनी देते हुए एक बड़ा यातायात परामर्श जारी किया।",
-    "पुलिस ने व्यापक निवारक हिरासतें कीं और हज़ारों प्रदर्शनकारियों, विपक्षी नेताओं, वकीलों और पत्रकारों को हिरासत में ले लिया।",
-    "पर्यावरण कार्यकर्ता सोनम वांगचुक ने हिरासत में लिए गए नेताओं को रिहा न किए जाने पर भूख हड़ताल की चेतावनी दी, जबकि दक्षिणपंथी समूहों ने प्रदर्शनकारियों के साथ झड़प की।",
-    "भारतीय युवा कांग्रेस ने मुख्य चुनाव आयुक्त के चेहरे वाला रावण का प्रतीकात्मक पुतला दहन किया और उनके इस्तीफ़े की मांग की।",
-    "संयुक्त राष्ट्र के मानवाधिकार विशेषज्ञों ने युवा-नेतृत्व वाले प्रदर्शनों के दौरान अत्यधिक सख्त पुलिस कार्रवाई, सभा पर प्रतिबंधों और बड़े पैमाने पर हिरासत की आलोचना की।"
+    "आप ने मुख्य चुनाव आयुक्त को हटाने और यौन उत्पीड़न के आरोपों पर कार्रवाई की मांग को लेकर मध्य दिल्ली में अपना आंदोलन तेज कर दिया।",
+    "सुप्रीम कोर्ट ने अधिकारियों को नियोजित प्रदर्शनों से पहले सार्वजनिक परिवहन पर से पूर्ण प्रतिबंध हटाने का निर्देश दिया।",
+    "पुलिस ने आंदोलन के संरक्षकों और सैकड़ों प्रदर्शनकारियों को हिरासत में लिया, और नई दिल्ली में कई मेट्रो स्टेशनों को बंद कर दिया।",
+    "एक अदालत ने सार्वजनिक शांति बनाए रखने के हलफनामे पर हिरासत में लिए गए आंदोलन के नेताओं को रिहा करने का आदेश दिया।",
+    "संयुक्त राष्ट्र के विशेषज्ञों ने प्रदर्शनकारियों के खिलाफ अधिकारियों की कार्रवाई की स्वतंत्र जांच की मांग की।"
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "नई दिल्ली में 7,000 से अधिक लोगों को हिरासत में लिया गया"
+    "arrests": "लगभग 3,000 हिरासतें हुईं",
+    "injuries": "जिसमें दो पुलिसकर्मी घायल हो गए"
    }
   },
   "mr": {
-   "title": "नवी दिल्लीत मोठ्या प्रमाणावर कोठडीत घेतल्याच्या पार्श्वभूमीवर निदर्शकांकडून निवडणूक प्रमुखांच्या राजीनाम्याची मागणी",
+   "title": "नवी दिल्लीतील निदर्शनांमध्ये मुख्य निवडणूक आयुक्तांच्या राजीनाम्याची मागणी आणि मोठ्या प्रमाणावर स्थानबद्धता",
    "seoTitle": "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या विरोधात नवी दिल्ली मोर्चा",
    "tea": {
-    "why": "निवडणूक आयोगातील कथित गैरव्यवहार आणि अल्पसंख्याक व उपेक्षित समुदायांवर परिणाम करणाऱ्या मतदार-यादीतून नावे वगळल्याच्या विरोधात निदर्शकांनी निदर्शने केली.",
-    "want": "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची आणि छळाचा आरोप असलेल्या पोलिस अधिकाऱ्यांव्यतिरिक्त इतरांवर कारवाईची मागणी निदर्शकांनी केली.",
-    "changed": "२० ऑक्टोबर: संयुक्त राष्ट्र मानवाधिकार तज्ज्ञांनी निदर्शनांदरम्यान कठोर पोलिस कारवाई आणि मोठ्या प्रमाणावर कोठडीत घेतल्याबद्दल आक्षेप घेतला."
+    "why": "निवडणूक यादीतील सुधारणांवर निदर्शकांनी आक्षेप घेतला, त्यांचा दावा आहे की यामुळे मतदारांचे हक्क हिरावले गेले आणि अल्पसंख्याक तसेच गरीब लोकसंख्येवर असमान प्रभाव पडला.",
+    "want": "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची आणि कथित पोलीस गैरवर्तनाविरुद्ध कारवाईची निदर्शकांनी मागणी केली.",
+    "changed": "२१ ऑक्टोबर: आंदोलनावरील कारवाईदरम्यान भारतीय अधिकाऱ्यांच्या वर्तनाची स्वतंत्र चौकशी करण्याचे संयुक्त राष्ट्र तज्ज्ञांनी आवाहन केले."
    },
-   "summary": "विशेष सखोल पुनरीक्षण आणि मतदार नोंदणी प्रक्रियेतील कथित गैरव्यवहारांवरून मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची मागणी करण्यासाठी नवी दिल्लीत निदर्शने झाली. आम समिती पार्टी, कॉकरोच जनता पार्टी आणि विविध विद्यार्थी व नागरी समाज संस्थांसह विविध गटांद्वारे आयोजित या निदर्शनांना व्यापक प्रतिबंध, बॅरिकेट्स आणि दिल्ली पोलिस, केंद्रीय सशस्त्र पोलिस दल व रॅपिड एक्शन फोर्सच्या मोठ्या तैनातीचा सामना करावा लागला. अधिकाऱ्यांनी जंतरमंतर येथे मेळाव्यासाठी परवानगी नाकारली आणि व्यापक प्रतिबंधात्मक कारवाई केली, ज्यामुळे राजकीय नेते, विद्यार्थी कार्यकर्ते, वकील आणि पत्रकार मोठ्या संख्येने कोठडीत घेतले गेले. सत्ताधारी भारतीय जनता पक्षाने कायदा व सुव्यवस्था बिघडवण्याच्या प्रयत्नाबद्दल आंदोलनांवर टीका केली, तर विरोधी पक्षांमधील व्यक्ती आणि संयुक्त राष्ट्र मानवाधिकार तज्ज्ञांनी कठोर पोलिस कारवाई आणि सभांवरील निर्बंधांचा निषेध केला.",
+   "summary": "कॉकरोच जनता पक्षाच्या नेतृत्वाखालील विरोधी राजकीय पक्ष, विद्यार्थी संघटना आणि नागरी समाज गटांनी एका वादग्रस्त मतदार यादी पुनरीक्षण मोहिमेवरून मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याच्या मागणीसाठी नवी दिल्ली आणि इतर शहरांमध्ये निदर्शने केली. या बदलांमुळे असुरक्षित लोकसंख्येला अन्यायकारकपणे लक्ष्य केले गेले आणि सत्ताधारी पक्षाला फायदा झाला, असा युक्तिवाद निदर्शकांनी केला. अधिकाऱ्यांनी मोठी सुरक्षा दल तैनात केली, डझनभर मेट्रो स्थानकांवरील प्रवेश आणि निर्गम निलंबित केले आणि व्यापक सभाबंदी लागू केली. पोलिसांनी मोठ्या प्रमाणावर प्रतिबंधात्मक स्थानबद्धता केली, हजारो निदर्शक, विरोधी पक्षनेते आणि चळवळीच्या संस्थापकांना अटक केली, आणि गर्दीला हुलावण्यासाठी लाठ्यांचा वापर केला. त्यानंतर संयुक्त राष्ट्र तज्ज्ञांनी बळाच्या वापराची स्वतंत्र चौकशी करण्याचे आवाहन केले, तर कायद्याची अंमलबजावणी अगदी कायद्यानुसारच करण्यात आल्याचे सरकारने सांगितले.",
    "demands": [
     "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांचा राजीनामा",
-    "लैंगिक छळाचा आरोप असलेल्या पोलिस अधिकाऱ्यांवर कारवाई",
-    "कोठडीत घेतलेल्या राजकीय नेत्यांची आणि कार्यकर्त्यांची सुटका",
-    "निवडणूक संस्थांमध्ये पारदर्शकता आणि उत्तरदायित्व"
+    "लैंगिक छळाचा आरोप असलेल्या पोलीस अधिकाऱ्यांविरुद्ध एफआयआर",
+    "मतदार यादी सुधारणा रद्द करणे"
    ],
-   "response": "दिल्ली पोलिसांनी मेळाव्यासाठी परवानगी नाकारली, कडेकोट सुरक्षा तैनात केली आणि आंदोलक, विरोधी व्यक्ती, वकील व पत्रकारांना मोठ्या प्रमाणावर प्रतिबंधात्मक कोठडीत घेतले. आपने दिल्लीचे राजकीय वातावरण दूषित करण्याचा प्रयत्न केल्याचा आरोप भाजपने केला.",
+   "response": "धिकाऱ्यांनी निदर्शनांना परवानगी नाकारली, हजारो सुरक्षा कर्मचाऱ्यांना तैनात केले, सार्वजनिक वाहतूक आणि इंटरनेट प्रवेशावर निर्बंध घातले, आणि मोठ्या प्रमाणावर स्थानबद्धता केली. कायद्याची अंमलबजावणी अगदी कायद्यानुसारच झाल्याचे भारत सरकारने म्हटले.",
    "updates": [
-    "आप आणि मित्रपक्ष विद्यार्थी गटांनी मध्य दिल्लीत निदर्शने तीव्र केली, ज्यामुळे संसद मार्ग पोलिस स्टेशन आणि इंडिया गेटबाहेर अनेकांना कोठडीत घेण्यात आले.",
-    "नियोजित निदर्शनांच्या पार्श्वभूमीवर दिल्ली वाहतूक पोलिसांनी ३० प्रमुख ठिकाणांवर वळणाबाबत चेतावणी देणारी मोठी वाहतूक सल्लागार सूचना जारी केली.",
-    "पोलिसांनी व्यापक प्रतिबंधात्मक कोठडी सत्र राबवले आणि हजारो निदर्शक, विरोधी नेते, वकील व पत्रकारांना ताब्यात घेतले.",
-    "हवामान कार्यकर्ता सोनम वांगचुक यांनी कोठडीत घेतलेल्या नेत्यांची सुटका न झाल्यास उपोषणाचा इशारा दिला, तर उजव्या विचारसरणीच्या गटांनी निदर्शकांसोबत झटापट केली.",
-    "भारतीय युवक काँग्रेसने मुख्य निवडणूक आयुक्तांचा चेहरा असलेले रावणाचे प्रतीकात्मक पुतळा दहन केले आणि त्यांच्या राजीनाम्याची मागणी केली.",
-    "युवक-नेतृत्वाखालील निदर्शनांदरम्यान कठोर पोलिस कारवाई, सभा बंदी आणि मोठ्या प्रमाणावर कोठडीत घेतल्याबद्दल संयुक्त राष्ट्र मानवाधिकार तज्ज्ञांनी टीका केली."
+    "मुख्य निवडणूक आयुक्त यांची हकालपट्टी आणि लैंगिक छळाच्या आरोपांवर कारवाईची मागणी करण्यासाठी आपने मध्य दिल्लीतील आपले आंदोलन तीव्र केले.",
+    "नियोजित निदर्शनांपूर्वी सार्वजनिक वाहतूकवरील सर्वंकष निर्बंध उठवण्याचे निर्देश सर्वोच्च न्यायालयाने अधिकाऱ्यांना दिले.",
+    "पोलिसांनी चळवळीच्या संस्थापकांना आणि शेकडो निदर्शकांना स्थानबद्ध केले, आणि नवी दिल्लीतील अनेक मेट्रो स्थानके बंद केली.",
+    "सार्वजनिक शांतता राखण्याच्या हमीवर स्थानबद्ध केलेल्या चळवळ नेत्यांची सुटका करण्याचे आदेश एका न्यायालयाने दिले.",
+    "निदर्शकांवरील अधिकाऱ्यांच्या कारवाईची स्वतंत्र चौकशी करण्याचे संयुक्त राष्ट्र तज्ज्ञांनी आवाहन केले."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "नवी दिल्लीत ७,००० हून अधिक व्यक्तींना कोठडीत घेण्यात आले"
+    "arrests": "जवळपास ३,००० स्थानबद्धता झाल्या",
+    "injuries": "ज्यामध्ये दोन पोलीस कर्मचारी जखमी झाले"
    }
   },
   "es": {
    "title": "Protestas en Nueva Delhi exigen la dimisión del jefe electoral en medio de detenciones masivas",
    "seoTitle": "Marcha en Nueva Delhi contra el CEC Gyanesh Kumar",
    "tea": {
-    "why": "Los manifestantes se manifestaron contra supuestas irregularidades en la Comisión Electoral y la eliminación de listas de votantes que afectan a minorías y comunidades marginadas.",
-    "want": "Los manifestantes exigieron la dimisión del comisionado electoral jefe Gyanesh Kumar y acciones contra los agentes de policía acusados de acoso.",
-    "changed": "20 de octubre: Expertos en derechos humanos de las Naciones Unidas señalaron la contundente respuesta policial y las detenciones masivas durante las manifestaciones."
+    "why": "Los manifestantes se oponen a las revisiones de las listas de votantes que, según afirman, privaron del derecho al voto a los ciudadanos y afectaron desproporcionadamente a las poblaciones minoritarias y pobres.",
+    "want": "Los manifestantes exigen la dimisión del comisionado electoral jefe Gyanesh Kumar y medidas ante la supuesta mala conducta policial.",
+    "changed": "21 de oct.: Expertos de la ONU instaron a una investigación independiente sobre la conducta de las autoridades indias durante la represión de las protestas."
    },
-   "summary": "Se produjeron manifestaciones en Nueva Delhi exigiendo la dimisión del comisionado electoral jefe Gyanesh Kumar por supuestas irregularidades en la revisión intensiva especial de las listas electorales y los procesos de registro de votantes. Organizadas por grupos como el Aam Samiti Party, el Cockroach Janta Party y varios organismos estudiantiles y de la sociedad civil, las protestas se enfrentaron a restricciones generalizadas, barricadas y un fuerte despliegue de la Policía de Delhi, las Fuerzas Policiales Armadas Centrales y la Fuerza de Acción Rápida. Las autoridades negaron el permiso para concentraciones en Jantar Mantar y llevaron a cabo amplias acciones preventivas, lo que resultó en miles de detenciones de líderes políticos, activistas estudiantiles, abogados y periodistas. El partido gobernante Bharatiya Janata Party criticó las agitaciones por intentar perturbar el orden público, mientras que figuras de la oposición y expertos en derechos humanos de la ONU condenaron la contundente respuesta policial y las restricciones a la reunión.",
+   "summary": "Partidos políticos de la oposición, organizaciones estudiantiles y grupos de la sociedad civil liderados por el Partido Cockroach Janta llevaron a cabo protestas en Nueva Delhi y otras ciudades para exigir la dimisión del comisionado electoral jefe Gyanesh Kumar por un polémico ejercicio de revisión de las listas de votantes. Los manifestantes argumentaron que los cambios perjudicaron injustamente a las poblaciones vulnerables y beneficiaron al partido gobernante. Las autoridades desplegaron fuertes fuerzas de seguridad, suspendieron la entrada y salida en decenas de estaciones de metro y promulgaron prohibiciones generales de reuniones. La policía llevó a cabo detenciones preventivas masivas, arrestando a miles de manifestantes, líderes de la oposición y fundadores de movimientos, y utilizó porras para dispersar a las multitudes. Posteriormente, expertos de la ONU pidieron una investigación independiente sobre el uso de la fuerza, mientras que el Gobierno sostuvo que las fuerzas del orden actuaron estrictamente de acuerdo con la ley.",
    "demands": [
     "Dimisión del comisionado electoral jefe Gyanesh Kumar",
-    "Acción contra los agentes de policía acusados de acoso sexual",
-    "Liberación de los líderes políticos y activistas detenidos",
-    "Transparencia y rendición de cuentas en las instituciones electorales"
+    "Denuncia (FIR) contra agentes de policía acusados de acoso sexual",
+    "Anulación de las revisiones de las listas de votantes"
    ],
-   "response": "La Policía de Delhi negó el permiso para concentraciones, desplegó una fuerte seguridad y llevó a cabo detenciones preventivas masivas de miles de manifestantes, figuras de la oposición, abogados y periodistas. El BJP acusó a AAP de intentar viciar la atmósfera política de Delhi.",
+   "response": "Las autoridades negaron el permiso para las manifestaciones, desplegaron decenas de miles de agentes de seguridad, restringieron el transporte público y el acceso a internet, y llevaron a cabo detenciones masivas. El Gobierno indio declaró que las fuerzas del orden actuaron estrictamente de acuerdo con la ley.",
    "updates": [
-    "AAP y grupos estudiantiles aliados intensificaron las protestas en el centro de Delhi, lo que provocó múltiples detenciones fuera de la comisaría de Parliament Street y de la Puerta de la India.",
-    "La policía de tránsito de Delhi emitió un importante aviso de tráfico advirtiendo de desvíos en 30 ubicaciones clave antes de las manifestaciones planeadas.",
-    "La policía llevó a cabo detenciones preventivas generalizadas, poniendo bajo custodia a miles de manifestantes, líderes de la oposición, abogados y periodistas.",
-    "El activista climático Sonam Wangchuk advirtió sobre una huelga de hambre si los líderes detenidos no eran liberados, mientras grupos de derecha se enfrentaban con manifestantes.",
-    "El Congreso Juvenil Indio realizó una quema simbólica de una efigie de Rávana con el rostro del CEC para exigir su dimisión.",
-    "Expertos en derechos humanos de la ONU criticaron la contundente respuesta policial, las prohibiciones de reunión y las detenciones masivas durante las manifestaciones lideradas por jóvenes."
+    "El partido AAP intensificó su agitación en el centro de Delhi exigiendo la destitución del CEC y medidas sobre las acusaciones de acoso sexual.",
+    "El Tribunal Supremo ordenó a las autoridades levantar las restricciones generales al transporte público antes de las protestas previstas.",
+    "La policía detuvo a fundadores del movimiento y a cientos de manifestantes, y cerró múltiples estaciones de metro en Nueva Delhi.",
+    "Un tribunal ordenó la liberación de los líderes del movimiento detenidos bajo el compromiso de mantener la paz pública.",
+    "Expertos de la ONU pidieron una investigación independiente sobre la represión de los manifestantes por parte de las autoridades."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "más de 7.000 personas... fueron detenidas en Nueva Delhi"
+    "arrests": "Se produjeron cerca de 3.000 detenciones",
+    "injuries": "lo que dejó a dos agentes de policía heridos"
    }
   },
   "fr": {
    "title": "Des manifestations à New Delhi exigent la démission du chef électoral sur fond d'arrestations massives",
    "seoTitle": "Marche à New Delhi contre le CEC Gyanesh Kumar",
    "tea": {
-    "why": "Les manifestants ont manifesté contre de prétendues irrégularités au sein de la Commission électorale et des suppressions de listes électorales touchant les minorités et les communautés marginalisées.",
-    "want": "Les manifestants ont exigé la démission du commissaire électoral en chef Gyanesh Kumar et des mesures contre les policiers accusés de harcèlement.",
-    "changed": "20 oct. : Des experts des droits de l'homme des Nations unies ont pointé du doigt la réponse policière musclée et les arrestations massives lors des manifestations."
+    "why": "Les manifestants s'opposent aux révisions des listes électorales qui, selon eux, ont privé des électeurs de leurs droits et ont touché de manière disproportionnée les populations minoritaires et pauvres.",
+    "want": "Les manifestants exigent la démission du commissaire électoral en chef Gyanesh Kumar et des mesures concernant les allégations de mauvaise conduite policière.",
+    "changed": "21 oct. : des experts de l'ONU ont demandé une enquête indépendante sur la conduite des autorités indiennes lors de la répression des manifestations."
    },
-   "summary": "Des manifestations ont eu lieu à New Delhi pour réclamer la démission du commissaire électoral en chef Gyanesh Kumar en raison de prétendues irrégularités dans la révision intensive spéciale des listes électorales et des processus d'inscription des électeurs. Organisées par des groupes tels que l'Aam Samiti Party, le Cockroach Janta Party et divers organes étudiants et de la société civile, les protestations ont fait face à des restrictions généralisées, à des barricades et à de lourds déploiements de la police de Delhi, des forces de police armées centrales et de la Force d'action rapide. Les autorités ont refusé l'autorisation de rassemblements à Jantar Mantar et ont mené de vaste actions préventives, entraînant des milliers d'arrestations de dirigeants politiques, de militants étudiants, d'avocats et de journalistes. Le parti au pouvoir, le Bharatiya Janata Party, a critiqué les agitations pour avoir tenté de perturber l'ordre public, tandis que des personnalités de l'opposition et des experts des droits de l'homme de l'ONU ont condamné la réponse policière musclée et les restrictions imposées aux rassemblements.",
+   "summary": "Des partis politiques d'opposition, des organisations étudiantes et des groupes de la société civile menés par le Parti Cockroach Janta ont organisé des manifestations à New Delhi et dans d'autres villes pour exiger la démission du commissaire électoral en chef Gyanesh Kumar suite à une opération controversée de révision des listes électorales. Les manifestants ont soutenu que ces changements ciblaient injustement les populations vulnérables et profitaient au parti au pouvoir. Les autorités ont déployé d'importantes forces de sécurité, suspendu l'entrée et la sortie de dizaines de stations de metro et décrété de vastes interdictions de rassemblement. La police a procédé à des arrestations préventives massives, arrêtant des milliers de manifestants, de dirigeants de l'opposition et de fondateurs du mouvement, et a utilisé des matraques pour disperser les foules. Par la suite, des experts de l'ONU ont appelé à une enquête indépendante sur l'usage de la force, tandis que le gouvernement a soutenu que les forces de l'ordre avaient agi en stricte conformité avec la loi.",
    "demands": [
     "Démission du commissaire électoral en chef Gyanesh Kumar",
-    "Mesures contre les policiers accusés de harcèlement sexuel",
-    "Libération des dirigeants politiques et militants détenus",
-    "Transparence et obligation de rendre des comptes dans les institutions électorales"
+    "Plainte (FIR) contre des policiers accusés de harcèlement sexuel",
+    "Annulation des révisions des listes électorales"
    ],
-   "response": "La police de Delhi a refusé l'autorisation des rassemblements, déployé une importante sécurité et procédé à des arrestations préventives massives de milliers de manifestants, de personnalités de l'opposition, d'avocats et de journalistes. Le BJP a accusé le parti AAP d'avoir tenté de vicier l'atmosphère politique de Delhi.",
+   "response": "Les autorités ont refusé l'autorisation pour les manifestations, déployé des dizaines de milliers d'agents de sécurité, restreint les transports publics et l'accès à internet, et procédé à des arrestations massives. Le gouvernement indien a déclaré que les forces de l'ordre avaient agi en stricte conformité avec la loi.",
    "updates": [
-    "L'AAP et des groupes étudiants alliés ont intensifié les manifestations dans le centre de Delhi, conduisant à de multiples arrestations devant le poste de police de Parliament Street et à India Gate.",
-    "La police de la circulation de Delhi a émis un avis de circulation majeur mettant en garde contre des dérogations sur 30 emplacements clés avant les manifestations prévues.",
-    "La police a mené des arrestations préventives massives, plaçant des milliers de manifestants, de dirigeants de l'opposition, d'avocats et de journalistes en garde à vue.",
-    "Le militant pour le climat Sonam Wangchuk a mis en garde contre une grève de la faim si les dirigeants détenus n'étaient pas libérés, tandis que des groupes de droite se sont accrochés avec des manifestants.",
-    "Le Congrès de la jeunesse indienne a organisé une crémation symbolique d'une effigie de Ravan portant le visage du CEC pour exiger sa démission.",
-    "Des experts des droits de l'homme de l'ONU ont critiqué la réponse policière musclée, les interdictions de rassemblement et les arrestations massives lors des manifestations menées par des jeunes."
+    "L'AAP a intensifié son agitation dans le centre de Delhi pour exiger la révocation du CEC et des mesures face aux allégations de harcèlement sexuel.",
+    "La Cour suprême a ordonné aux autorités de lever les restrictions généralisées sur les transports publics avant les manifestations prévues.",
+    "La police a arrêté des fondateurs du mouvement ainsi que des centaines de manifestants, et a fermé de nombreuses stations de métro à New Delhi.",
+    "Un tribunal a ordonné la libération de dirigeants du mouvement détenus moyennant l'engagement de maintenir la paix publique.",
+    "Des experts de l'ONU ont appelé à une enquête indépendante sur la répression des manifestants par les autorités."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "plus de 7 000 personnes... ont été arrêtées à New Delhi"
+    "arrests": "Près de 3 000 arrestations ont eu lieu",
+    "injuries": "faisant deux blessés parmi les forces de police"
    }
   },
   "de": {
-   "title": "Proteste in Neu-Delhi fordern den Rücktritt des Wahlleiters inmitten massenhafter Festnahmen",
-   "seoTitle": "Marsch in Neu-Delhi gegen CEC Gyanesh Kumar",
+   "title": "Proteste in New Delhi fordern Rücktritt des Wahlleiters inmitten massenhafter Festnahmen",
+   "seoTitle": "Marsch in New Delhi gegen CEC Gyanesh Kumar",
    "tea": {
-    "why": "Demonstranten protestierten gegen angebliche Unregelmäßigkeiten bei der Wahlkommission und die Streichung von Wählerverzeichnissen, die Minderheiten und marginalisierte Gemeinschaften betreffen.",
-    "want": "Demonstranten forderten den Rücktritt des Chef-Wahlleiters Gyanesh Kumar und Maßnahmen gegen Polizisten, denen Belästigung vorgeworfen wird.",
-    "changed": "20. Okt.: Menschenrechtsexperten der Vereinten Nationen machten auf die harte polizeiliche Reaktion und massenhafte Festnahmen während der Demonstrationen aufmerksam."
+    "why": "Demonstranten kritisieren Wählerverzeichnisrevisionen, die ihrer Ansicht nach Wähler ihrer Rechte beraubt und Minderheiten sowie ärmere Bevölkerungsschichten unverhältnismäßig stark betroffen haben.",
+    "want": "Demonstranten fordern den Rücktritt des Chefwahlleiters Gyanesh Kumar und Maßnahmen bezüglich angeblichen polizeilichen Fehlverhaltens.",
+    "changed": "21. Okt.: UN-Experten forderten eine unabhängige Untersuchung des Verhaltens der indischen Behörden während des Vorgehens gegen die Proteste."
    },
-   "summary": "In Neu-Delhi fanden Demonstrationen statt, die den Rücktritt des Chef-Wahlleiters Gyanesh Kumar wegen angeblicher Unregelmäßigkeiten bei der speziellen intensivierten Überarbeitung der Wählerverzeichnisse und der Wählerregistrierungsprozesse forderten. Organisiert von Gruppen wie der Aam Samiti Party, der Cockroach Janta Party sowie verschiedenen Studenten- und Zivilgesellschaftsorganisationen stießen die Proteste auf weit verbreitete Einschränkungen, Barrikaden und massive Einsätze der Delhi Police, der Central Armed Police Forces und der Rapid Action Force. Die Behörden verweigerten die Genehmigung für Versammlungen am Jantar Mantar und führten umfangreiche präventive Maßnahmen durch, die zu tausendfachen Festnahmen von politischen Führern, Studentenaktivisten, Anwälten und Journalisten führten. Die regierende Bharatiya Janata Party kritisierte die Unruhen dafür, dass sie versuchten, Recht und Ordnung zu stören, während Oppositionspersönlichkeiten und UN-Menschenrechtsexperten die harte polizeiliche Reaktion und die Versammlungsbeschränkungen verurteilten.",
+   "summary": "Oppositionelle politische Parteien, Studentenorganisationen und zivilgesellschaftliche Gruppen unter Führung der Cockroach Janta Party hielten in New Delhi und anderen Städten Proteste ab, in denen sie den Rücktritt des Chefwahlleiters Gyanesh Kumar wegen einer umstrittenen Überarbeitung des Wählerverzeichnisses forderten. Demonstranten argumentierten, dass die Änderungen schutzbedürftige Bevölkerungsschichten unfair ins Visier nahmen und der Regierungspartei nutzten. Die Behörden setzten starke Sicherheitskräfte ein, unterbrachen den Ein- und Ausgang an Dutzenden U-Bahnhöfen und erließen umfassende Versammlungsverbote. Die Polizei nahm massenhaft vorbeugende Festnahmen vor, verhaftete Tausende Demonstranten, Oppositionsführer und Bewegungsgründer und setzte Schlagstöcke ein, um Menschenmengen zu verteilen. UN-Experten forderten im Anschluss eine unabhängige Untersuchung des Gewalteinsatzes, während die Regierung betonte, dass die Strafverfolgungsbehörden strikt im Einklang mit dem Gesetz gehandelt hätten.",
    "demands": [
-    "Rücktritt des Chef-Wahlleiters Gyanesh Kumar",
-    "Maßnahmen gegen Polizisten, denen sexuelle Belästigung vorgeworfen wird",
-    "Freilassung festgenommener politischer Führer und Aktivisten",
-    "Transparenz und Rechenschaftspflicht in den Wahlinstitutionen"
+    "Rücktritt des Chefwahlleiters Gyanesh Kumar",
+    "Anzeige (FIR) gegen Polizeibeamte, denen sexuelle Belästigung vorgeworfen wird",
+    "Rückgängigmachung der Wählerverzeichnisrevisionen"
    ],
-   "response": "Die Polizei von Delhi verweigerte die Genehmigung für Versammlungen, stationierte starke Sicherheitskräfte und führte massenhafte präventive Festnahmen von Tausenden von Demonstranten, Oppositionspersönlichkeiten, Anwälten und Journalisten durch. Die BJP warf der AAP vor, die politische Atmosphäre Delhis vergiften zu wollen.",
+   "response": "Die Behörden verweigerten die Genehmigung für Kundgebungen, setzten Zehntausende Sicherheitskräfte ein, schränkten den öffentlichen Nahverkehr sowie den Internetzugang ein und führten massenhafte Festnahmen durch. Die indische Regierung erklärte, dass die Strafverfolgungsbehörden strikt im Einklang mit dem Gesetz gehandelt hätten.",
    "updates": [
-    "Die AAP und verbündete Studentengruppen verstärkten die Proteste im Zentrum von Delhi, was zu zahlreichen Festnahmen vor der Polizeiwache in der Parliament Street und am India Gate führte.",
-    "Die Verkehrspolizei von Delhi gab einen wichtigen Verkehrshinweis heraus und warnte vor Umleitungen an 30 wichtigen Standorten im Vorfeld geplanter Demonstrationen.",
-    "Die Polizei führte umfassende präventive Festnahmen durch und nahm Tausende von Demonstranten, Oppositionsführern, Anwälten und Journalisten in Gewahrsam.",
-    "Der Klimaaktivist Sonam Wangchuk warnte vor einem Hungerstreik, falls festgenommene Führer nicht freigelassen würden, während rechtsextreme Gruppen mit Demonstranten zusammenstießen.",
-    "Der Indische Jugendkongress veranstaltete eine symbolische Verbrennung einer Ravan-Puppe mit dem Gesicht des CEC, um seinen Rücktritt zu fordern.",
-    "UN-Menschenrechtsexperten kritisierten die harte polizeiliche Reaktion, die Versammlungsverbote und die massenhaften Festnahmen während der von Jugendlichen angeführten Demonstrationen."
+    "Die AAP verschärfte ihre Agitation im Zentrum Delhis und forderte die Absetzung des CEC sowie Maßnahmen zu Vorwürfen sexueller Belästigung.",
+    "Der Oberste Gerichtshof wies die Behörden an, pauschale Beschränkungen des öffentlichen Nahverkehrs im Vorfeld geplanter Proteste aufzuheben.",
+    "Die Polizei nahm Gründer der Bewegung und Hunderte Demonstranten fest und schloss mehrere U-Bahnhöfe in New Delhi.",
+    "Ein Gericht ordnete die Freilassung inhaftierter Bewegungsführer gegen die Verpflichtung zur Aufrechterhaltung der öffentlichen Ruhe an.",
+    "UN-Experten forderten eine unabhängige Untersuchung des Vorgehens der Behörden gegen Demonstranten."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "mehr als 7.000 Personen... wurden in Neu-Delhi festgenommen"
+    "arrests": "Es kam zu fast 3.000 Festnahmen",
+    "injuries": "wobei zwei Polizeibeamte verletzt wurden"
    }
   }
  },
- "summaryOf": "507e46a2b525"
+ "summaryOf": "d8bcc85a4683"
 }
