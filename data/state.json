@@ -1,34 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-20",
-  "count": 123
+  "day": "2026-10-21",
+  "count": 13
  },
  "runs": [
-  {
-   "at": "2026-10-14T07:44:02.508Z",
-   "ms": 194815,
-   "discovered": 45,
-   "fetched": 43,
-   "classified": 41,
-   "protests": 16,
-   "summarized": 7,
-   "published": 65,
-   "live": 13,
-   "aiCalls": 17,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 33 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 54 protest-word items",
-    "fetch: 43 ok, 2 failed",
-    "classify: new candidate e2caa556b3b \"108 ambulance workers threaten strike over shortages\" (Bengaluru)",
-    "classify: new candidate e4fdbadd31b \"Garment workers block highway in Dhaka demanding wage hike\" (Dhaka)",
-    "classify: new candidate ec2ecff891c \"Demonstrators gather in Wasilla to protest President Trump\" (Wasilla)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-14T11:59:16.528Z",
    "ms": 203184,
@@ -1442,8 +1417,33 @@
     "translate: 2 events"
    ],
    "translated": 2
+  },
+  {
+   "at": "2026-10-21T04:27:46.298Z",
+   "ms": 162754,
+   "discovered": 52,
+   "fetched": 49,
+   "classified": 34,
+   "protests": 10,
+   "summarized": 7,
+   "published": 108,
+   "live": 16,
+   "aiCalls": 13,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 18 files, 45 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 39 protest-word items",
+    "fetch: 49 ok, 3 failed",
+    "classify: new candidate ea9ac8ea77e \"NSUI burns symbolic effigy in New Delhi over irregularities\" (Delhi)",
+    "classify: new candidate e3259d20c99 \"Community members march in Virginia Beach against data centers\" (Virginia Beach)",
+    "classify: new candidate e751c7b4009 \"Activists march in Washington for Palestine\" (Washington)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261021000000",
- "lastRunAt": "2026-10-20T23:56:19.637Z"
+ "gdeltCursor": "20261021043000",
+ "lastRunAt": "2026-10-21T04:27:46.298Z"
 }
