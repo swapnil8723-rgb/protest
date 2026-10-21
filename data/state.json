@@ -1,33 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-21",
-  "count": 43
+  "count": 60
  },
  "runs": [
-  {
-   "at": "2026-10-14T17:16:27.328Z",
-   "ms": 68581,
-   "discovered": 23,
-   "fetched": 23,
-   "classified": 19,
-   "protests": 5,
-   "summarized": 2,
-   "published": 67,
-   "live": 11,
-   "aiCalls": 6,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 4 files, 17 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 46 protest-word items",
-    "fetch: 23 ok, 0 failed",
-    "classify: new candidate eaf8d71af4f \"BJP sit-in outside Keralam assembly against KAAPA detention\" (Thiruvananthapuram)",
-    "classify: new candidate e7877e318fc \"NSUI women workers protest against CEC over SIR issue\" (Delhi)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 2 events"
-   ],
-   "translated": 2
-  },
   {
    "at": "2026-10-14T21:45:16.508Z",
    "ms": 157907,
@@ -1435,8 +1411,39 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-21T16:16:25.886Z",
+   "ms": 216854,
+   "discovered": 80,
+   "fetched": 78,
+   "classified": 67,
+   "protests": 18,
+   "summarized": 6,
+   "published": 112,
+   "live": 12,
+   "aiCalls": 17,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261021160000 http://data.gdeltproject.org/gdeltv2/20261021160000.export.CSV.zip → 404",
+    "gdelt: 17 files, 69 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 25 protest-word items",
+    "fetch: 78 ok, 2 failed",
+    "classify: new candidate eefe10fd5d8 \"Activists target Brixton bakery with anti-Israel posters\" (London)",
+    "classify: new candidate eddc0b35e20 \"University of Nairobi students block road over lecturers' strike\" (Nairobi)",
+    "classify: new candidate e3d42b4d2d2 \"Brooklyn Catholics march in support of Haitian migrants\" (New York City)",
+    "classify: new candidate ea67251a96e \"Harvard dining workers vote to authorize strike\" (Cambridge)",
+    "classify: new candidate ecf26ea4445 \"Indonesians protest government response to wildfire crisis\" (Jakarta)",
+    "classify: new candidate e985fd7de55 \"JI announces Islamabad long march against petroleum levy\" (Islamabad)",
+    "classify: new candidate ec0741b74e4 \"Public health officers protest in Nairobi over strike demands\" (Nairobi)",
+    "classify: new candidate e59c8803d39 \"Former corporator shaves head protesting denied B-form\" (Visakhapatnam)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261021120000",
- "lastRunAt": "2026-10-21T11:56:49.721Z"
+ "gdeltCursor": "20261021161500",
+ "lastRunAt": "2026-10-21T16:16:25.886Z"
 }
