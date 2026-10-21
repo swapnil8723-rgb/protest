@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-21",
-  "count": 63
+  "count": 80
  },
  "runs": [
-  {
-   "at": "2026-10-15T01:05:21.148Z",
-   "ms": 126064,
-   "discovered": 41,
-   "fetched": 40,
-   "classified": 27,
-   "protests": 12,
-   "summarized": 4,
-   "published": 67,
-   "live": 10,
-   "aiCalls": 10,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 14 files, 37 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 46 protest-word items",
-    "fetch: 40 ok, 1 failed",
-    "classify: new candidate e93918a3ffb \"Surrendered Maoist goes on hunger strike in prison\" (Sakleshpur)",
-    "classify: new candidate e3c3c84b8d3 \"District Congress holds candlelight march over murder of activist\" (Ludhiana)",
-    "classify: new candidate e7a5556ab13 \"Students protest over wildfires and haze in Sumatra\" (Palembang)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-15T04:27:47.057Z",
    "ms": 150250,
@@ -1434,8 +1409,37 @@
     "translate: 1 events"
    ],
    "translated": 1
+  },
+  {
+   "at": "2026-10-21T21:46:25.083Z",
+   "ms": 226099,
+   "discovered": 58,
+   "fetched": 55,
+   "classified": 46,
+   "protests": 15,
+   "summarized": 7,
+   "published": 112,
+   "live": 11,
+   "aiCalls": 17,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261021213000 http://data.gdeltproject.org/gdeltv2/20261021213000.export.CSV.zip → 404",
+    "gdelt: 20261021214500 http://data.gdeltproject.org/gdeltv2/20261021214500.export.CSV.zip → 404",
+    "gdelt: 18 files, 49 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 33 protest-word items",
+    "fetch: 55 ok, 3 failed",
+    "classify: new candidate e26ed43006b \"Journalists protest police restrictions inside Mysuru palace\" (Mysuru)",
+    "classify: new candidate e10d090709e \"Activists to rally at Holyrood demanding action on VAWG\" (Edinburgh)",
+    "classify: new candidate e6c9a419f8b \"Students participate in Walk a Mile in Her Shoes march\" (State College)",
+    "classify: new candidate eb4acd44a03 \"Protesters gather outside Padre Hotel against ICE\" (Bakersfield)",
+    "classify: new candidate e1c935c7a77 \"Officials to rally urging Governor Hochul to sign SUNNY Act\" (Kingston)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261021171500",
- "lastRunAt": "2026-10-21T17:16:34.727Z"
+ "gdeltCursor": "20261021214500",
+ "lastRunAt": "2026-10-21T21:46:25.083Z"
 }
