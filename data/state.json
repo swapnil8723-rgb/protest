@@ -1,40 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-21",
-  "count": 60
+  "count": 63
  },
  "runs": [
-  {
-   "at": "2026-10-14T21:45:16.508Z",
-   "ms": 157907,
-   "discovered": 65,
-   "fetched": 59,
-   "classified": 39,
-   "protests": 16,
-   "summarized": 5,
-   "published": 67,
-   "live": 11,
-   "aiCalls": 15,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 18 files, 57 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 49 protest-word items",
-    "fetch: 59 ok, 6 failed",
-    "classify: new candidate e382685f918 \"TVK and INDIA bloc protest in Chennai against CEC and SIR\" (Chennai)",
-    "classify: new candidate eb7d20b1d19 \"Protesters interrupt War Secretary Pete Hegseth at Army event\" (Washington)",
-    "classify: new candidate e384921eec3 \"Supporters march in Manipur and hold sit-in for Congress MP\" (Imphal)",
-    "classify: new candidate e3b88475284 \"BJP holds Jan Jagaran rallies in Assam targeting INDIA bloc\" (Guwahati)",
-    "classify: new candidate ec5fe94f046 \"Protests erupt in Austin over parking dispute\" (Austin)",
-    "classify: new candidate ee2a18dd82c \"Residents protest housing costs and mass tourism\" (Barcelona)",
-    "classify: new candidate e5b3d531e76 \"Students protest campus rape culture at UC Davis\" (Davis)",
-    "summary: ec2ecff891c only 1 independent publisher(s) on-story — not applied",
-    "summary: ee2a18dd82c only 1 independent publisher(s) on-story — not applied",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-15T01:05:21.148Z",
    "ms": 126064,
@@ -1442,8 +1411,31 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-21T17:16:34.727Z",
+   "ms": 52185,
+   "discovered": 17,
+   "fetched": 16,
+   "classified": 12,
+   "protests": 4,
+   "summarized": 1,
+   "published": 112,
+   "live": 12,
+   "aiCalls": 3,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 4 files, 15 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 26 protest-word items",
+    "fetch: 16 ok, 1 failed",
+    "classify: new candidate efbdb366e5d \"Dombivli residents protest water shutdown outside MIDC office\" (Kalyan)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 1 events"
+   ],
+   "translated": 1
   }
  ],
- "gdeltCursor": "20261021161500",
- "lastRunAt": "2026-10-21T16:16:25.886Z"
+ "gdeltCursor": "20261021171500",
+ "lastRunAt": "2026-10-21T17:16:34.727Z"
 }
