@@ -1,50 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-22",
-  "count": 28
+  "count": 42
  },
  "runs": [
-  {
-   "at": "2026-10-15T16:16:24.798Z",
-   "ms": 226221,
-   "discovered": 128,
-   "fetched": 125,
-   "classified": 94,
-   "protests": 41,
-   "summarized": 8,
-   "published": 75,
-   "live": 12,
-   "aiCalls": 21,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 19 files, 107 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 48 protest-word items",
-    "fetch: 125 ok, 3 failed",
-    "classify: new candidate eabfd45f1e6 \"KCP-Apunba shutdown in Manipur disrupting normal life\" (Imphal)",
-    "classify: new candidate e07e23b4e99 \"No Kings movement plans rallies for midterm voter turnout\" (Huntington)",
-    "classify: new candidate e51e8b80ce2 \"Activists deliver petition to Downing Street against water firms\" (London)",
-    "classify: new candidate e7aa8e66893 \"Congress leaders detained outside Lok Bhavan over Ankita Bhandari case\" (Dehradun)",
-    "classify: new candidate ed1a3f3ed1e \"INDIA bloc leaders in Tamil Nadu stage protest against SIR\" (Chennai)",
-    "classify: new candidate eb33b09dd57 \"Sugarcane farmers protest in Mysuru over FRP\" (Mysuru)",
-    "classify: new candidate eee1ac99f60 \"Indivisible movement plans No Dictators protests in Hawaii\" (Hilo)",
-    "classify: new candidate ebd35f8a205 \"Former Rockstar Games staff hold rally in Glasgow\" (Glasgow)",
-    "classify: new candidate e1dca176e9e \"Students protest administration circular at Ambedkar University\" (Delhi)",
-    "classify: new candidate e7ed28ad42f \"Migrant textile workers strike in Surat demanding holidays\" (Surat)",
-    "classify: new candidate eb53cc312cf \"Students plan protest in London against hijab restrictions in Azerbaijan\" (London)",
-    "classify: new candidate e288594d57b \"Yale union members protest and warn of possible strike\" (New Haven)",
-    "classify: new candidate e6150fe6a07 \"Indivisible Nevada County announces No Kings protest\" (Grass Valley)",
-    "classify: new candidate edd957c6bff \"CJP granted permission for Tricolour march in Mumbai\" (Mumbai)",
-    "classify: new candidate ee7dc5b93d8 \"Hundreds hold protest over Bali fuel shortage\" (Denpasar)",
-    "classify: new candidate e6ec7c15440 \"AISF and AIYF stage Tiranga march in New Delhi\" (Delhi)",
-    "classify: new candidate e211bbe32ab \"Sugarcane growers march to Hubballi demanding MSP\" (Hubballi)",
-    "classify: new candidate ed652f92130 \"CJP announces national Lehra Do Tiranga protest\" (Delhi)",
-    "classify: new candidate ea99af475c3 \"NDMC closes Central Park ahead of CJP march\" (Delhi)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-15T17:05:30.611Z",
    "ms": 91332,
@@ -1436,8 +1395,33 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-22T11:59:04.256Z",
+   "ms": 218129,
+   "discovered": 77,
+   "fetched": 71,
+   "classified": 59,
+   "protests": 13,
+   "summarized": 5,
+   "published": 114,
+   "live": 9,
+   "aiCalls": 14,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 17 files, 60 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 43 protest-word items",
+    "fetch: 71 ok, 6 failed",
+    "classify: new candidate e5aaa065862 \"Passengers stage protest and halt train in Hingoli\" (Hingoli)",
+    "classify: new candidate e381635fab3 \"Police clash with protesters as Vox leader visits northern Spain\" (A Coruña)",
+    "classify: new candidate e7f76164858 \"Medical interns stage silent protest at JJ Hospital\" (Mumbai)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261022074500",
- "lastRunAt": "2026-10-22T07:44:01.878Z"
+ "gdeltCursor": "20261022120000",
+ "lastRunAt": "2026-10-22T11:59:04.256Z"
 }
