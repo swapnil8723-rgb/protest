@@ -1,40 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-22",
-  "count": 55
+  "count": 62
  },
  "runs": [
-  {
-   "at": "2026-10-15T21:27:47.531Z",
-   "ms": 178836,
-   "discovered": 72,
-   "fetched": 67,
-   "classified": 46,
-   "protests": 16,
-   "summarized": 7,
-   "published": 76,
-   "live": 13,
-   "aiCalls": 17,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 18 files, 56 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 55 protest-word items",
-    "fetch: 67 ok, 5 failed",
-    "classify: new candidate ecf64f9f0bd \"Locals protest murder of former customs official in Bhojpur\" (Arrah)",
-    "classify: new candidate e34fc8c321c \"CCYO lifts forest office picketing in Phek district after settlement\" (Phek)",
-    "classify: new candidate e79f7e343d5 \"Protester dies during Punjab bandh dharna in Ludhiana\" (Ludhiana)",
-    "classify: new candidate efc9fed2abb \"Opposition lawmakers protest during emergency vote in Parliament\" (Islamabad)",
-    "classify: new candidate e5022519dbf \"Defend Democracy ICT plans No Kings protest in Wichita\" (Wichita)",
-    "classify: new candidate ea541543b59 \"Haryana khap plans Oct. 22 sit-in over news anchor’s arrest\" (Jind)",
-    "classify: new candidate e07233793b8 \"SRFTI students rusticated for campus clash and vandalism\" (Kolkata)",
-    "classify: new candidate e92bb057f1a \"No Kings movement plans early voting events across Illinois\" (Chicago)",
-    "classify: new candidate ebb2019bd27 \"Pro-Active Alliance plans No Kings early-voting rally in Kimball Junction\" (Park City)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-16T01:05:22.348Z",
    "ms": 137175,
@@ -1424,8 +1393,34 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-22T17:15:07.481Z",
+   "ms": 370894,
+   "discovered": 15,
+   "fetched": 15,
+   "classified": 12,
+   "protests": 5,
+   "summarized": 3,
+   "published": 114,
+   "live": 8,
+   "aiCalls": 7,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 4 files, 10 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 38 protest-word items",
+    "fetch: 15 ok, 0 failed",
+    "classify: new candidate edcb4484fda \"TARATDAC members stage protest demanding Vetri Payanam inclusion\" (Dindigul)",
+    "classify: new candidate e5e49c64fdb \"Upper caste activists gherao HP Secretariat demanding Swaran Aayog\" (Shimla)",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: ec6385243c0 failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "translate: 1 events"
+   ],
+   "translated": 1
   }
  ],
- "gdeltCursor": "20261022161500",
- "lastRunAt": "2026-10-22T16:16:25.146Z"
+ "gdeltCursor": "20261022171500",
+ "lastRunAt": "2026-10-22T17:15:07.481Z"
 }
