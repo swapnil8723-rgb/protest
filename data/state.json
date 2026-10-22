@@ -1,34 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-21",
-  "count": 80
+  "day": "2026-10-22",
+  "count": 10
  },
  "runs": [
-  {
-   "at": "2026-10-15T04:27:47.057Z",
-   "ms": 150250,
-   "discovered": 61,
-   "fetched": 59,
-   "classified": 53,
-   "protests": 18,
-   "summarized": 4,
-   "published": 67,
-   "live": 10,
-   "aiCalls": 12,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 45 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 54 protest-word items",
-    "fetch: 59 ok, 2 failed",
-    "classify: new candidate ec06dc7df2b \"ABVP stages protest at Presidency University over defaced poster\" (Kolkata)",
-    "classify: new candidate eca51aa9d1f \"Activists rally outside Baystate Medical Center for Medicare\" (Springfield)",
-    "classify: new candidate e1a17a6d31b \"Activists march in London against austerity\" (London)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-15T07:43:59.645Z",
    "ms": 361422,
@@ -1438,8 +1413,35 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-22T01:05:21.918Z",
+   "ms": 192329,
+   "discovered": 46,
+   "fetched": 44,
+   "classified": 29,
+   "protests": 11,
+   "summarized": 4,
+   "published": 112,
+   "live": 10,
+   "aiCalls": 10,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 14 files, 41 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 33 protest-word items",
+    "fetch: 44 ok, 2 failed",
+    "classify: new candidate ef9991e3d52 \"ESIC intern doctors strike in Indore over unpaid stipends\" (Indore)",
+    "classify: new candidate e5c764df11b \"California state workers strike over labor contracts\" (Los Angeles)",
+    "classify: new candidate e3ca4b76715 \"Specialists rally in Washington against HIV funding cuts\" (Washington)",
+    "classify: new candidate e76856b783f \"Indivisible Auburn holds No Kings rally for early voting\" (Auburn)",
+    "classify: new candidate ebcc9649bb8 \"Protester demonstrates outside official office against Medicaid cuts\" (Bakersfield)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261021214500",
- "lastRunAt": "2026-10-21T21:46:25.083Z"
+ "gdeltCursor": "20261022011500",
+ "lastRunAt": "2026-10-22T01:05:21.918Z"
 }

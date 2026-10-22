@@ -1,9 +1,9 @@
 {
  "id": "eb12bc9818b",
- "slug": "",
- "stage": "candidate",
- "title": "French authorities impose curfews amid ongoing riots and looting",
- "seoTitle": "",
+ "slug": "paris-curfews-unrest-oct-2026",
+ "stage": "live",
+ "title": "Paris authorities renew curfews and ban student march amid ongoing unrest",
+ "seoTitle": "Paris curfews and student march ban",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -13,41 +13,88 @@
   "citySlug": "paris",
   "regionSlug": "ile-de-france"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
-  "prices",
+  "labour",
   "education",
-  "governance"
+  "prices"
  ],
- "kind": "one-day",
- "startedOn": "2026-10-19",
+ "kind": "multi-day",
+ "startedOn": "2026-10-17",
  "status": "ongoing",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence",
+  "tone-words"
+ ],
  "isOngoing": true,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Protesters expressed anger over rising living costs and deteriorating education conditions.",
+  "want": "Demonstrators sought to voice concerns regarding living conditions and education.",
+  "changed": "Oct 22: Paris police renewed localized curfews and banned a scheduled student demonstration."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
+ "summary": "France experienced widespread unrest and looting, prompting authorities to impose localized curfews in cities including Paris and Lyon. The demonstrations, which initially began around Oct. 17, were sparked by grievances over rising living costs and worsening educational conditions. In response to the disturbances, Paris police issued overnight curfews affecting areas such as Place de la République and Les Halles, alongside bans on public gatherings in certain zones. Furthermore, authorities prohibited a planned student march organised by Interfac IDF, citing risks of disturbances based on previous gatherings. Prime Minister Sébastien Lecornu and Interior Minister Laurent Nunez announced plans for heightened security measures, including a massive police deployment, as officials prepare for further demonstrations.",
+ "organizers": [
+  "Interfac IDF",
+  "Yellow Vests"
+ ],
+ "demands": [
+  "Address rising living costs",
+  "Improve deteriorating education conditions"
+ ],
+ "response": "According to reports, authorities imposed localized curfews, banned gatherings in certain zones, and prohibited a planned student march. Officials also pledged a massive police deployment and revised security arrangements in response to the unrest.",
  "numbers": {},
- "updates": [],
- "sources": [],
+ "updates": [
+  {
+   "at": "2026-10-19",
+   "text": "French authorities implemented localized curfews in Paris and other cities following widespread rioting and looting.",
+   "sources": [
+    1
+   ]
+  },
+  {
+   "at": "2026-10-21",
+   "text": "Authorities in Paris and Lyon renewed curfews for a third consecutive night, and Paris police banned a student march.",
+   "sources": [
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://theconservativetreehouse.com/blog/2026/10/19/macron-orders-curfew-in-primary-tourist-regions-of-paris-to-stop-discussion-of-riots-arson-and-looting/comment-page-2/",
+   "publisher": "theconservativetreehouse.com",
+   "title": "Macron Orders Curfew in Primary Tourist Regions of Paris to Stop Discussion of Riots, Arson and Looting - The Last Refuge",
+   "publishedAt": "2026-10-19T20:39:25.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://aa.com.tr/en/europe/paris-lyon-renew-curfews-for-3rd-consecutive-night-amid-unrest-in-france/4096119",
+   "publisher": "aa.com.tr",
+   "title": "Paris, Lyon renew curfews for 3rd consecutive night amid unrest in France",
+   "publishedAt": "2026-10-21T17:36:38.487Z"
+  }
+ ],
  "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
+ "confidence": 0.7,
+ "publishers": 2,
+ "reports24h": 1,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 1,
  "firstSeenAt": "2026-10-21T07:44:47.287Z",
- "lastReportAt": "2026-10-21T07:44:47.287Z",
- "lastCheckedAt": "2026-10-21T07:44:47.287Z",
- "updatedAt": "2026-10-21T07:44:47.287Z"
+ "lastReportAt": "2026-10-21T17:36:38.487Z",
+ "lastCheckedAt": "2026-10-22T01:07:55.787Z",
+ "updatedAt": "2026-10-22T01:07:54.318Z",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-10-22T01:07:54.318Z",
+ "summaryOf": "61bb36db5a58"
 }
