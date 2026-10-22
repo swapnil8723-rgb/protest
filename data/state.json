@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-22",
-  "count": 62
+  "count": 76
  },
  "runs": [
-  {
-   "at": "2026-10-16T01:05:22.348Z",
-   "ms": 137175,
-   "discovered": 39,
-   "fetched": 38,
-   "classified": 29,
-   "protests": 11,
-   "summarized": 5,
-   "published": 76,
-   "live": 13,
-   "aiCalls": 11,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 15 files, 29 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 46 protest-word items",
-    "fetch: 38 ok, 1 failed",
-    "classify: new candidate e9b23904b27 \"DYFI leader booked over remarks during Kozhikode protest\" (Kozhikode)",
-    "classify: new candidate ecb7b94b182 \"Traders march in Kozhikode against unauthorised street vending\" (Kozhikode)",
-    "classify: new candidate ea506848921 \"Dentist dismissed after joining black flag protest\" (Kasaragod)",
-    "classify: new candidate e17240457eb \"Yellow Vest figures and unions call nationwide protests in France\" (Paris)",
-    "classify: new candidate e34e9b8dd15 \"Chico State students protest university OpenAI contract\" (Chico)",
-    "summary: e1242886165 only 1 independent publisher(s) on-story — not applied",
-    "reader: rejected 9f42a6604e1116a3-1.json: place not found: Tirana",
-    "reader: 0 published, 0 held, 0 duplicates, 1 rejected, 0 waiting",
-    "translate: 2 events"
-   ],
-   "translated": 2
-  },
   {
    "at": "2026-10-16T04:27:46.910Z",
    "ms": 124822,
@@ -1419,8 +1390,35 @@
     "translate: 1 events"
    ],
    "translated": 1
+  },
+  {
+   "at": "2026-10-22T21:40:52.742Z",
+   "ms": 154026,
+   "discovered": 72,
+   "fetched": 67,
+   "classified": 56,
+   "protests": 16,
+   "summarized": 6,
+   "published": 115,
+   "live": 9,
+   "aiCalls": 14,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 18 files, 57 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 41 protest-word items",
+    "fetch: 67 ok, 5 failed",
+    "classify: new candidate e680674bfe7 \"Students and activists stage anti-racist demonstration in Cambridge\" (Cambridge)",
+    "classify: new candidate eb6448a204b \"TARATDAC members stage protest demanding Vettri Payanam inclusion\" (Madurai)",
+    "classify: new candidate e9d2b5494e1 \"Delivery workers rally against New York labor bill\" (New York City)",
+    "classify: new candidate ed40b4a4796 \"Punjab government employees and roadway workers strike\" (Chandigarh)",
+    "classify: new candidate ebb91e0123d \"Stand Up To Racism protest against Reform UK councillor in Huddersfield\" (Huddersfield)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261022171500",
- "lastRunAt": "2026-10-22T17:15:07.481Z"
+ "gdeltCursor": "20261022214500",
+ "lastRunAt": "2026-10-22T21:40:52.742Z"
 }

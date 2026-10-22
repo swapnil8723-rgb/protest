@@ -1,9 +1,9 @@
 {
  "id": "e9c6aa489bc",
- "slug": "",
- "stage": "candidate",
- "title": "Prefecture bans demonstrations in Lyon amid ongoing protests",
- "seoTitle": "",
+ "slug": "lyon-protest-ban-oct-2026",
+ "stage": "live",
+ "title": "Prefecture bans all demonstrations in Lyon amid ongoing protests",
+ "seoTitle": "Lyon protest ban announced amid unrest",
  "place": {
   "city": "Lyon",
   "region": "Auvergne-Rhône-Alpes",
@@ -16,37 +16,92 @@
  "scope": "local",
  "causes": [
   "prices",
-  "governance"
+  "students",
+  "anti-government"
  ],
- "kind": "one-day",
- "startedOn": "2026-10-24",
- "status": "ongoing",
+ "kind": "multi-day",
+ "startedOn": "2026-10-17",
+ "status": "scheduled",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": true,
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence"
+ ],
+ "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Protesters are demonstrating against the high cost of living and government policies amid nationwide economic discontent.",
+  "want": "Demonstrators are calling for action regarding the cost of living through planned protest days.",
+  "changed": "Oct 22: The Rhône prefecture announced a complete ban on all demonstrations in Lyon for Saturday, 24 October."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
+ "summary": "Authorities in Lyon announced a total ban on all demonstrations scheduled for Saturday, October 24, following riots and looting that occurred during a nationwide cost-of-living protest the previous week. The Rhône prefecture, representing the state authority overseeing local policing, issued the prohibition as France braced for further unrest under the banner of the \"Acte II\" protest day called by a Yellow Vest coordination group. The heightened security measures followed weeks of student rallies and cost-of-living demonstrations that drew hundreds of thousands nationwide, accompanied by clashes and property damage in several cities. In response to the growing crisis, government officials implemented curfews and demonstration bans across multiple cities.",
+ "organizers": [
+  "Yellow Vest coordination"
+ ],
+ "demands": [
+  "Address the high cost of living"
+ ],
+ "response": "The Rhône prefecture banned all demonstrations in Lyon for Saturday following prior unrest. National authorities also implemented curfews and restricted protests in areas of Paris.",
+ "numbers": {
+  "crowd": {
+   "value": 500000,
+   "text": "more than 500,000 people marched nationwide",
+   "sources": [
+    2
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-10-17",
+   "text": "Nationwide demonstrations against the cost of living drew hundreds of thousands of participants and were followed by riots.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
+   "at": "2026-10-22",
+   "text": "The Rhône prefecture announced that all demonstrations are banned in Lyon for Saturday, 24 October.",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.riotimesonline.com/lyon-bans-all-protests-saturday-24-october-france/",
+   "publisher": "riotimesonline.com",
+   "title": "Lyon Bans All Protests This Saturday",
+   "publishedAt": "2026-10-22T10:40:38.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.taipeitimes.com/News/world/archives/2026/10/23/2003866486",
+   "publisher": "taipeitimes.com",
+   "title": "Authorities in France ban some student protests - Taipei Times",
+   "publishedAt": "2026-10-22T16:00:00.000Z"
+  }
+ ],
  "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
+ "confidence": 0.7,
+ "publishers": 2,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 2,
  "firstSeenAt": "2026-10-22T16:17:59.569Z",
- "lastReportAt": "2026-10-22T16:17:59.569Z",
- "lastCheckedAt": "2026-10-22T16:17:59.569Z",
- "updatedAt": "2026-10-22T16:17:59.569Z"
+ "lastReportAt": "2026-10-22T16:00:00.000Z",
+ "lastCheckedAt": "2026-10-22T21:42:53.776Z",
+ "updatedAt": "2026-10-22T21:42:46.184Z",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-10-22T21:42:46.184Z",
+ "summaryOf": "1535ce8c273a"
 }
