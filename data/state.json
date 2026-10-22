@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-22",
-  "count": 16
+  "count": 28
  },
  "runs": [
-  {
-   "at": "2026-10-15T11:36:16.943Z",
-   "ms": 199689,
-   "discovered": 69,
-   "fetched": 65,
-   "classified": 52,
-   "protests": 17,
-   "summarized": 6,
-   "published": 74,
-   "live": 13,
-   "aiCalls": 16,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261015111500 http://data.gdeltproject.org/gdeltv2/20261015111500.export.CSV.zip → 404",
-    "gdelt: 15 files, 50 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 56 protest-word items",
-    "fetch: 65 ok, 4 failed",
-    "classify: new candidate e04e3270a81 \"Traders and family members protest murder in Saharanpur\" (Saharanpur)",
-    "classify: new candidate e8f2a18d3b8 \"INDIA bloc protests against ECI and SIR in Kolathur\" (Kulattur)",
-    "classify: new candidate e54f638fd66 \"Foreign medical graduates protest in Hyderabad for stipend parity\" (Hyderabad)",
-    "classify: new candidate e0d03944ce7 \"Punjab bandh and highway blockades over activist's murder\" (Mohali)",
-    "classify: new candidate e0078a09f90 \"Outsourced women health workers protest at Azad Maidan for wages and benefits\" (Mumbai)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-15T16:16:24.798Z",
    "ms": 226221,
@@ -1435,8 +1407,37 @@
     "translate: 1 events"
    ],
    "translated": 1
+  },
+  {
+   "at": "2026-10-22T07:44:01.878Z",
+   "ms": 141575,
+   "discovered": 57,
+   "fetched": 53,
+   "classified": 42,
+   "protests": 11,
+   "summarized": 4,
+   "published": 112,
+   "live": 9,
+   "aiCalls": 12,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 44 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 37 protest-word items",
+    "fetch: 53 ok, 4 failed",
+    "classify: new candidate e7d6833d73d \"Maharashtra State Transport staff announce protests and strike\" (Mumbai)",
+    "classify: new candidate e4792003224 \"CJP announces 24-hour anti-SIR protest in Chennai\" (Chennai)",
+    "classify: new candidate e37b0a7262e \"Opposition leaders hold joint political rally in Njoro\" (Njoro)",
+    "classify: new candidate e61725bf287 \"CPI(M) calls hartal in Pathanamthitta over ESA safeguards\" (Pathanamthitta)",
+    "classify: new candidate e16e2aa6cb5 \"BJP launches campaign against opposition SIR protests\" (Patna)",
+    "classify: new candidate e49c78b164b \"Demonstrators stage mock trial protest outside Cornell meeting\" (Ithaca)",
+    "classify: new candidate eda047feeb4 \"Lawyers and judicial staff strike in Rawalpindi over judge assault\" (Rawalpindi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261022043000",
- "lastRunAt": "2026-10-22T04:27:46.388Z"
+ "gdeltCursor": "20261022074500",
+ "lastRunAt": "2026-10-22T07:44:01.878Z"
 }
