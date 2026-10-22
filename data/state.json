@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-22",
-  "count": 10
+  "count": 16
  },
  "runs": [
-  {
-   "at": "2026-10-15T07:43:59.645Z",
-   "ms": 361422,
-   "discovered": 79,
-   "fetched": 76,
-   "classified": 67,
-   "protests": 30,
-   "summarized": 12,
-   "published": 71,
-   "live": 12,
-   "aiCalls": 26,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 61 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 65 protest-word items",
-    "fetch: 76 ok, 3 failed",
-    "classify: new candidate e21e9445b11 \"Farmers and supporters protest in Amritsar during Punjab bandh\" (Amritsar)",
-    "classify: new candidate e648b339164 \"Punjab bandh called over activist murder\" (Mansa)",
-    "classify: new candidate e8409b0e47d \"Protesters gather outside Trump rally in Kalispell\" (Kalispell)",
-    "classify: new candidate ee081ad7373 \"Actor Imran Khan asked to leave India over anti-CEC protest\" (Mumbai)",
-    "classify: new candidate eda98eb97f5 \"Mumbai Police notice to OCI holder over anti-CEC protest\" (Mumbai)",
-    "classify: new candidate e690ab20d17 \"Mumbai Police order actor to leave India over protest participation\" (Mumbai)",
-    "classify: new candidate e665c633424 \"Teachers strike and protest in Madrid over pay and workload\" (Madrid)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 8 events"
-   ],
-   "translated": 8
-  },
   {
    "at": "2026-10-15T11:36:16.943Z",
    "ms": 199689,
@@ -1440,8 +1411,32 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-22T04:27:46.388Z",
+   "ms": 72278,
+   "discovered": 31,
+   "fetched": 31,
+   "classified": 27,
+   "protests": 5,
+   "summarized": 2,
+   "published": 112,
+   "live": 10,
+   "aiCalls": 6,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 23 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 32 protest-word items",
+    "fetch: 31 ok, 0 failed",
+    "classify: new candidate e09b659055a \"Women protest prolonged gas outages and high LPG prices\" (Hyderabad)",
+    "classify: new candidate e7cbfc92934 \"State workers strike in San Diego over pay and health care\" (San Diego)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 1 events"
+   ],
+   "translated": 1
   }
  ],
- "gdeltCursor": "20261022011500",
- "lastRunAt": "2026-10-22T01:05:21.918Z"
+ "gdeltCursor": "20261022043000",
+ "lastRunAt": "2026-10-22T04:27:46.388Z"
 }
