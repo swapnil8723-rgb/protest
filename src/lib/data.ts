@@ -18,8 +18,10 @@ const VIBE_ORDER = { 'peak-loud': 0, tense: 1, 'heating-up': 2, 'cooling-down': 
 /** Sent in by a reader and not yet confirmed by two newsrooms (orange "Reader report" card). */
 export const isUnverified = (e: ProtestEvent) => e.origin === 'reader' && e.stage !== 'live';
 
+const stored = [...loadEvents(dataDir).values()];
+
 /** Everything shown on the site, verified first. */
-export const events: ProtestEvent[] = [...loadEvents(dataDir).values()]
+export const events: ProtestEvent[] = stored
   .filter((e) => e.published && e.slug && (e.stage === 'live' || e.origin === 'reader'))
   .sort((a, b) => {
     if (a.isOngoing !== b.isOngoing) return a.isOngoing ? -1 : 1;
@@ -63,11 +65,15 @@ export const eventUrl = (e: ProtestEvent, lang: Lang = 'en') => href(hasLang(e, 
 export const countryUrl = (c: Country, lang: Lang = 'en') => href(lang, `/country/${c.slug}`);
 export const cityKey = (e: ProtestEvent) => `${e.place.country}/${e.place.regionSlug}/${e.place.citySlug}`;
 
-/** City pages exist only for cities with ≥ 2 published events (no thin pages). */
+/** City pages exist only for cities with ≥ 2 published events (no thin pages). Duplicates
+ *  merged into a city's event still count, so a merge never takes down a city page that
+ *  readers and Google already use (Paris went from 12 events to 1 in Oct 2026). */
 export const cities = (() => {
   const m = new Map<string, ProtestEvent[]>();
   for (const e of verified) (m.get(cityKey(e)) ?? m.set(cityKey(e), []).get(cityKey(e))!).push(e);
-  return new Map([...m].filter(([, list]) => list.length >= 2));
+  const merged = new Map<string, number>();
+  for (const e of stored) if (e.mergedInto && e.slug) merged.set(cityKey(e), (merged.get(cityKey(e)) ?? 0) + 1);
+  return new Map([...m].filter(([k, list]) => list.length + (merged.get(k) ?? 0) >= 2));
 })();
 export const cityUrl = (e: ProtestEvent, lang: Lang = 'en') => (cities.has(cityKey(e)) ? href(lang, `/city/${cityKey(e)}`) : null);
 
