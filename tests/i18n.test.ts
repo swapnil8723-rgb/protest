@@ -100,6 +100,10 @@ test('site: URLs, prefixes and country phrases', () => {
   assert.equal(inCountry('it', 'fr', 'Italy'), 'en Italie');
   assert.equal(inCountry('ua', 'de', 'Ukraine'), 'in der Ukraine');
   assert.equal(inCountry('ch', 'de', 'Switzerland'), 'in der Schweiz');
+  assert.equal(inCountry('lb', 'fr', 'Lebanon'), 'au Liban');
+  assert.equal(inCountry('iq', 'de', 'Iraq'), 'im Irak');
+  assert.equal(inCountry('ps', 'fr', 'Palestine'), 'en Palestine'); // not "Territoires palestiniens"
+  assert.equal(inCountry('ps', 'hi', 'Palestine'), 'फ़िलिस्तीन में');
   assert.match(fmtDate('2026-10-04', 'hi'), /4/);
   assert.equal(useT('es')('today.count', { n: 1 }), '1 protesta');
   assert.equal(useT('es')('today.count', { n: 3 }), '3 protestas');

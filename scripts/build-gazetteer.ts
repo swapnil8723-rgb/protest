@@ -42,7 +42,7 @@ const REGION_NAMES: Record<string, Record<string, string>> = {
 };
 for (const [cc, names] of Object.entries(REGION_NAMES)) Object.assign(out[cc].admin1, names);
 
-const ASCII_NAMES = new Set(['IN', 'PK', 'BD', 'NP', 'KE', 'ID', 'TR', 'AL', 'GE', 'UA', 'RU']);
+const ASCII_NAMES = new Set(['IN', 'PK', 'BD', 'NP', 'KE', 'ID', 'TR', 'AL', 'GE', 'UA', 'RU', 'MD', 'AM', 'AZ', 'IL', 'PS', 'LB', 'JO', 'SY', 'IQ', 'IR', 'EG', 'MA', 'TN']);
 const latin = /^[\p{Script=Latin}\d\s'’.()-]+$/u;
 for (const line of fs.readFileSync(path.join(raw, 'cities5000.txt'), 'utf8').split('\n')) {
   const f = line.split('\t');

@@ -53,6 +53,38 @@ export const FEEDS = [
   'https://kyivindependent.com/news-archive/rss/',
   'https://meduza.io/rss/en/all',
   'https://www.themoscowtimes.com/rss/news',
+  // Nordics, Baltics, Caucasus (ERR, Yle, LRT; OC Media covers Georgia/Armenia/Azerbaijan)
+  'https://news.err.ee/rss',
+  'https://yle.fi/rss/t/18-34837/en',
+  'https://www.lrt.lt/en/news-in-english?rss',
+  'https://oc-media.org/feed/',
+  'https://www.theguardian.com/world/slovakia/rss',
+  'https://www.theguardian.com/world/bulgaria/rss',
+  // More US national newsrooms, so a protest one local outlet reports can find its second source
+  // (The Hill, Axios, CNN's dead feed and the Washington Post refuse us or are stale; dropped)
+  'https://www.cbsnews.com/latest/rss/us',
+  'https://abcnews.go.com/abcnews/usheadlines',
+  'https://feeds.nbcnews.com/nbcnews/public/news',
+  'https://moxie.foxnews.com/google-publisher/us.xml',
+  'https://www.latimes.com/california/rss2.0.xml',
+  // Canada
+  'https://globalnews.ca/canada/feed/',
+  'https://www.theguardian.com/world/canada/rss',
+  // Middle East & North Africa: Israeli, Arab and international newsrooms side by side
+  // (Times of Israel, IranWire, Al Arabiya, Morocco World News refuse us; JPost's feed is stale)
+  'https://www.theguardian.com/world/middleeast/rss',
+  'https://www.theguardian.com/world/israel/rss',
+  'https://www.theguardian.com/world/palestinian-territories/rss',
+  'https://www.theguardian.com/world/iran/rss',
+  'https://www.theguardian.com/world/lebanon/rss',
+  'https://www.theguardian.com/world/iraq/rss',
+  'https://www.theguardian.com/world/egypt/rss',
+  'https://www.theguardian.com/world/morocco/rss',
+  'https://www.aljazeera.com/xml/rss/all.xml',
+  'https://www.ynetnews.com/Integration/StoryRss3089.xml',
+  'https://www.haaretz.com/srv/haaretz-latest-headlines',
+  'https://www.iranintl.com/en/feed',
+  'https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml',
 ];
 
 export interface RssItem {

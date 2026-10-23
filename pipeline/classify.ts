@@ -20,8 +20,11 @@ export function knownEvents(events: Map<string, ProtestEvent>): KnownEvent[] {
   // Published events first: dozens of single-source candidates arrive every day, and
   // ranking by recency alone pushed a running story off the list within days, so its
   // next articles started a new page (Paris had 12 pages for one movement, Oct 2026).
+  // 250, not 150: with ~70 published events, 150 left room for only a day or two of
+  // candidates, so a second outlet's report of the same rally opened a twin candidate
+  // and neither reached the two-publisher bar (US "No Kings" rallies, Oct 2026).
   return [...open.filter((e) => e.published), ...open.filter((e) => !e.published)]
-    .slice(0, 150)
+    .slice(0, 250)
     .map((e) => ({ id: e.id, title: e.title, city: e.place.city, country: e.place.country, startedOn: e.startedOn, status: e.status }));
 }
 

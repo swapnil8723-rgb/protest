@@ -65,9 +65,15 @@ export function useT(lang: Lang) {
   };
 }
 
+/** Intl calls PS "Palestinian Territories"; the site (and India's MEA) says "Palestine". */
+const NAME_OVERRIDES: Record<string, Partial<Record<Lang, string>>> = {
+  ps: { fr: 'Palestine', de: 'Palästina', es: 'Palestina', hi: 'फ़िलिस्तीन', mr: 'पॅलेस्टाईन' },
+};
+
 /** Country name in the page language (Intl knows them all). */
 export function countryName(iso: string, lang: Lang, fallback: string): string {
   if (lang === 'en') return fallback;
+  if (NAME_OVERRIDES[iso]?.[lang]) return NAME_OVERRIDES[iso][lang]!;
   try {
     return new Intl.DisplayNames([LANG_INFO[lang].locale.split('-u-')[0]], { type: 'region' }).of(iso.toUpperCase()) ?? fallback;
   } catch {
@@ -81,8 +87,8 @@ export function inCountry(iso: string, lang: Lang, fallback: string): string {
   switch (lang) {
     case 'en': return ['us', 'gb', 'nl'].includes(iso) ? `in the ${name}` : `in ${name}`;
     case 'es': return `en ${name}`;
-    case 'fr': return ({ us: 'aux États-Unis', gb: 'au Royaume-Uni', pk: 'au Pakistan', bd: 'au Bangladesh', np: 'au Népal', ke: 'au Kenya', nl: 'aux Pays-Bas', pt: 'au Portugal', dk: 'au Danemark' } as Record<string, string>)[iso] ?? `en ${name}`;
-    case 'de': return ({ us: 'in den USA', gb: 'im Vereinigten Königreich', nl: 'in den Niederlanden', ch: 'in der Schweiz', tr: 'in der Türkei', ua: 'in der Ukraine' } as Record<string, string>)[iso] ?? `in ${name}`;
+    case 'fr': return ({ us: 'aux États-Unis', gb: 'au Royaume-Uni', pk: 'au Pakistan', bd: 'au Bangladesh', np: 'au Népal', ke: 'au Kenya', nl: 'aux Pays-Bas', pt: 'au Portugal', dk: 'au Danemark', me: 'au Monténégro', cy: 'à Chypre', lb: 'au Liban', ma: 'au Maroc', ca: 'au Canada' } as Record<string, string>)[iso] ?? `en ${name}`;
+    case 'de': return ({ us: 'in den USA', gb: 'im Vereinigten Königreich', nl: 'in den Niederlanden', ch: 'in der Schweiz', tr: 'in der Türkei', ua: 'in der Ukraine', sk: 'in der Slowakei', md: 'in der Republik Moldau', lb: 'im Libanon', iq: 'im Irak', ir: 'im Iran' } as Record<string, string>)[iso] ?? `in ${name}`;
     case 'hi': return `${name} में`;
     case 'mr': return `${name} मध्ये`;
   }

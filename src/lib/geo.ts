@@ -3,7 +3,7 @@
 import { geoBounds, geoMercator, geoPath, type GeoProjection } from 'd3-geo';
 import { feature } from 'topojson-client';
 import topo from '../data/world.topo.json';
-import { EUROPE } from '../../pipeline/config.ts';
+import { EUROPE, MIDDLE_EAST } from '../../pipeline/config.ts';
 
 type Feat = GeoJSON.Feature<GeoJSON.Geometry, { iso: string; NAME: string }>;
 const world = feature(topo as any, (topo as any).objects.countries) as unknown as GeoJSON.FeatureCollection<GeoJSON.Geometry, { iso: string; NAME: string }>;
@@ -42,11 +42,39 @@ const BBOX: Record<string, [number, number, number, number]> = {
   tr: [25.6, 35.8, 44.9, 42.2],
   ua: [22.1, 44.3, 40.3, 52.4],
   ru: [27.0, 41.0, 90.0, 70.0], // European Russia to Novosibirsk; the Far East is off-frame
+  fi: [20.5, 59.7, 31.6, 70.1],
+  no: [4.6, 57.9, 31.1, 71.2],
+  sk: [16.8, 47.7, 22.6, 49.6],
+  bg: [22.3, 41.2, 28.6, 44.2],
+  hr: [13.4, 42.4, 19.5, 46.6],
+  si: [13.3, 45.4, 16.6, 46.9],
+  ba: [15.7, 42.5, 19.7, 45.3],
+  me: [18.4, 41.8, 20.4, 43.6],
+  mk: [20.4, 40.8, 23.1, 42.4],
+  md: [26.6, 45.4, 30.2, 48.5],
+  lt: [20.9, 53.9, 26.9, 56.5],
+  lv: [20.9, 55.6, 28.3, 58.1],
+  ee: [21.7, 57.5, 28.3, 59.7],
+  cy: [32.2, 34.5, 34.7, 35.8],
+  am: [43.4, 38.8, 46.7, 41.4],
+  az: [44.7, 38.3, 50.6, 41.9],
+  il: [34.2, 29.4, 35.9, 33.4],
+  ps: [34.2, 31.2, 35.6, 32.6],
+  lb: [35.1, 33.0, 36.7, 34.7],
+  jo: [34.9, 29.1, 39.4, 33.4],
+  sy: [35.6, 32.3, 42.4, 37.4],
+  iq: [38.7, 29.0, 48.8, 37.4],
+  ir: [44.0, 25.0, 63.4, 39.8],
+  eg: [24.6, 21.9, 36.9, 31.7],
+  ma: [-13.2, 27.6, -1.0, 35.9], // Morocco without Western Sahara (GeoNames lists it separately)
+  tn: [7.5, 30.2, 11.6, 37.6],
+  ca: [-141.0, 41.6, -52.6, 62.0], // the populated south; the Arctic is off-frame
   europe: [-10.5, 34.5, 45.0, 64.0], // hub map: Lisbon to the Caucasus
+  'middle-east': [-13.0, 21.0, 63.5, 42.5], // hub map: Morocco to Iran
 };
 
 /** Hub maps highlight a group of countries instead of one. */
-const GROUPS: Record<string, string[]> = { europe: EUROPE };
+const GROUPS: Record<string, string[]> = { europe: EUROPE, 'middle-east': MIDDLE_EAST };
 
 export const MAP_W = 640;
 export const MAP_H = 440;

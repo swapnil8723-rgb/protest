@@ -2,7 +2,7 @@
 // Only published events with a slug ever reach a page.
 import fs from 'node:fs';
 import path from 'node:path';
-import { byIso, COUNTRIES, EUROPE, type Country } from '../../pipeline/config.ts';
+import { byIso, COUNTRIES, EUROPE, MIDDLE_EAST, type Country } from '../../pipeline/config.ts';
 import { loadEvents } from '../../pipeline/store.ts';
 import type { ProtestEvent, State } from '../../pipeline/types.ts';
 import { countryName, href, type Lang } from '../i18n/index.ts';
@@ -86,23 +86,26 @@ export const activeCountries = COUNTRIES.map((c) => ({ c, all: inCountry(c.iso) 
   .sort((a, b) => b.all.filter((e) => e.isOngoing).length - a.all.filter((e) => e.isOngoing).length || b.all.length - a.all.length)
   .map((x) => x.c);
 
-/** Hub pages that gather protests across countries: /region/europe and /topic/ukraine-war. */
+/** Hub pages that gather protests across countries: /region/europe, /region/middle-east
+ *  and /topic/ukraine-war. Region hubs list their countries; topic hubs filter by cause. */
 export interface Hub {
-  key: 'europe' | 'ukraine';
+  key: 'europe' | 'mideast' | 'ukraine';
   path: string;
   map: string; // locator map frame (src/lib/geo.ts)
+  countries: string[]; // country pages that link to (and breadcrumb through) this hub
   list: ProtestEvent[];
 }
 const aboutUkraineWar = (e: ProtestEvent) =>
   e.causes.includes('ukraine-war') || (['ua', 'ru'].includes(e.place.country) && e.causes.includes('war-peace'));
 export const HUBS: Hub[] = [
-  { key: 'europe', path: '/region/europe', map: 'europe', list: events.filter((e) => EUROPE.includes(e.place.country)) },
-  { key: 'ukraine', path: '/topic/ukraine-war', map: 'europe', list: events.filter(aboutUkraineWar) },
+  { key: 'europe', path: '/region/europe', map: 'europe', countries: EUROPE, list: events.filter((e) => EUROPE.includes(e.place.country)) },
+  { key: 'mideast', path: '/region/middle-east', map: 'middle-east', countries: MIDDLE_EAST, list: events.filter((e) => MIDDLE_EAST.includes(e.place.country)) },
+  { key: 'ukraine', path: '/topic/ukraine-war', map: 'europe', countries: ['ua', 'ru'], list: events.filter(aboutUkraineWar) },
 ];
 export const hub = (key: Hub['key']) => HUBS.find((h) => h.key === key)!;
 export const hubUrl = (h: Hub, lang: Lang = 'en') => href(lang, h.path);
-/** The hub a country page or cause chip should point to, if any. */
-export const hubsFor = (iso: string) => HUBS.filter((h) => h.list.length > 0 && (h.key === 'europe' ? EUROPE.includes(iso) : ['ua', 'ru'].includes(iso)));
+/** Hubs (with protests on them) that a country page should link to. */
+export const hubsFor = (iso: string) => HUBS.filter((h) => h.list.length > 0 && h.countries.includes(iso));
 
 export function related(e: ProtestEvent, n = 4): ProtestEvent[] {
   const score = (o: ProtestEvent) =>

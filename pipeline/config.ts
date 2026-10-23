@@ -4,6 +4,7 @@
 export interface Country {
   iso: string; // ISO 3166-1 alpha-2, lowercase — used in URLs and data
   fips: string; // GDELT ActionGeo_CountryCode (FIPS 10-4)
+  fipsAlt?: string[]; // extra GDELT codes for the same country (Palestine = West Bank + Gaza)
   name: string;
   slug: string; // /country/[slug]
   tz: string; // for "today" on one-day events
@@ -42,13 +43,45 @@ export const COUNTRIES: Country[] = [
   { iso: 'tr', fips: 'TU', name: 'Turkey', slug: 'turkey', tz: 'Europe/Istanbul' },
   { iso: 'ua', fips: 'UP', name: 'Ukraine', slug: 'ukraine', tz: 'Europe/Kyiv' },
   { iso: 'ru', fips: 'RS', name: 'Russia', slug: 'russia', tz: 'Europe/Moscow' },
+  // More of Europe (added 24 Oct 2026)
+  { iso: 'fi', fips: 'FI', name: 'Finland', slug: 'finland', tz: 'Europe/Helsinki' },
+  { iso: 'no', fips: 'NO', name: 'Norway', slug: 'norway', tz: 'Europe/Oslo' },
+  { iso: 'sk', fips: 'LO', name: 'Slovakia', slug: 'slovakia', tz: 'Europe/Bratislava' },
+  { iso: 'bg', fips: 'BU', name: 'Bulgaria', slug: 'bulgaria', tz: 'Europe/Sofia' },
+  { iso: 'hr', fips: 'HR', name: 'Croatia', slug: 'croatia', tz: 'Europe/Zagreb' },
+  { iso: 'si', fips: 'SI', name: 'Slovenia', slug: 'slovenia', tz: 'Europe/Ljubljana' },
+  { iso: 'ba', fips: 'BK', name: 'Bosnia and Herzegovina', slug: 'bosnia-and-herzegovina', tz: 'Europe/Sarajevo' },
+  { iso: 'me', fips: 'MJ', name: 'Montenegro', slug: 'montenegro', tz: 'Europe/Podgorica' },
+  { iso: 'mk', fips: 'MK', name: 'North Macedonia', slug: 'north-macedonia', tz: 'Europe/Skopje' },
+  { iso: 'md', fips: 'MD', name: 'Moldova', slug: 'moldova', tz: 'Europe/Chisinau' },
+  { iso: 'lt', fips: 'LH', name: 'Lithuania', slug: 'lithuania', tz: 'Europe/Vilnius' },
+  { iso: 'lv', fips: 'LG', name: 'Latvia', slug: 'latvia', tz: 'Europe/Riga' },
+  { iso: 'ee', fips: 'EN', name: 'Estonia', slug: 'estonia', tz: 'Europe/Tallinn' },
+  { iso: 'cy', fips: 'CY', name: 'Cyprus', slug: 'cyprus', tz: 'Asia/Nicosia' },
+  { iso: 'am', fips: 'AM', name: 'Armenia', slug: 'armenia', tz: 'Asia/Yerevan' },
+  { iso: 'az', fips: 'AJ', name: 'Azerbaijan', slug: 'azerbaijan', tz: 'Asia/Baku' },
+  // Middle East & North Africa (added 24 Oct 2026)
+  { iso: 'il', fips: 'IS', name: 'Israel', slug: 'israel', tz: 'Asia/Jerusalem' },
+  { iso: 'ps', fips: 'WE', fipsAlt: ['GZ'], name: 'Palestine', slug: 'palestine', tz: 'Asia/Hebron' },
+  { iso: 'lb', fips: 'LE', name: 'Lebanon', slug: 'lebanon', tz: 'Asia/Beirut' },
+  { iso: 'jo', fips: 'JO', name: 'Jordan', slug: 'jordan', tz: 'Asia/Amman' },
+  { iso: 'sy', fips: 'SY', name: 'Syria', slug: 'syria', tz: 'Asia/Damascus' },
+  { iso: 'iq', fips: 'IZ', name: 'Iraq', slug: 'iraq', tz: 'Asia/Baghdad' },
+  { iso: 'ir', fips: 'IR', name: 'Iran', slug: 'iran', tz: 'Asia/Tehran' },
+  { iso: 'eg', fips: 'EG', name: 'Egypt', slug: 'egypt', tz: 'Africa/Cairo' },
+  { iso: 'ma', fips: 'MO', name: 'Morocco', slug: 'morocco', tz: 'Africa/Casablanca' },
+  { iso: 'tn', fips: 'TS', name: 'Tunisia', slug: 'tunisia', tz: 'Africa/Tunis' },
+  // North America (Canada: 7th-biggest reader country, Oct 2026)
+  { iso: 'ca', fips: 'CA', name: 'Canada', slug: 'canada', tz: 'America/Toronto' },
 ];
 
 /** Region hubs (/region/<slug>): countries grouped for "protests in Europe today". */
-export const EUROPE = ['gb', 'fr', 'de', 'es', 'it', 'nl', 'be', 'pl', 'pt', 'gr', 'at', 'ch', 'se', 'dk', 'ie', 'cz', 'hu', 'ro', 'rs', 'al', 'ge', 'tr', 'ua', 'ru'];
+export const EUROPE = ['gb', 'fr', 'de', 'es', 'it', 'nl', 'be', 'pl', 'pt', 'gr', 'at', 'ch', 'se', 'dk', 'ie', 'cz', 'hu', 'ro', 'rs', 'al', 'ge', 'tr', 'ua', 'ru',
+  'fi', 'no', 'sk', 'bg', 'hr', 'si', 'ba', 'me', 'mk', 'md', 'lt', 'lv', 'ee', 'cy', 'am', 'az'];
+export const MIDDLE_EAST = ['il', 'ps', 'lb', 'jo', 'sy', 'iq', 'ir', 'eg', 'tr', 'ma', 'tn'];
 
 export const byIso = new Map(COUNTRIES.map((c) => [c.iso, c]));
-export const byFips = new Map(COUNTRIES.map((c) => [c.fips, c]));
+export const byFips = new Map(COUNTRIES.flatMap((c) => [c.fips, ...(c.fipsAlt ?? [])].map((f) => [f, c] as const)));
 
 /** Cause stickers. The AI must pick from this list; the site shows them as #tags. */
 export const CAUSES = [

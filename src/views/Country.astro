@@ -2,8 +2,7 @@
 import Base from '../layouts/Base.astro';
 import EventCard from '../components/EventCard.astro';
 import LocatorMap from '../components/LocatorMap.astro';
-import { cities, cname, countryUrl, hub, hubsFor, hubUrl, inCountry, lastRunAt, type Country } from '../lib/data';
-import { EUROPE } from '../../pipeline/config.ts';
+import { cities, cname, countryUrl, hubsFor, hubUrl, inCountry, lastRunAt, type Country } from '../lib/data';
 import { metaDesc, monthYear } from '../lib/format';
 import { breadcrumbs, itemList } from '../lib/seo';
 import { href, inCountry as inC, langOf, useT } from '../i18n';
@@ -30,12 +29,12 @@ const vars = { country, in: inPhrase };
 const lede = live.length
   ? t('country.ledeLive', { ...vars, n: live.length, where, top: loc(live[0], lang).title })
   : `${t('country.ledeQuiet', vars)} ${past.length ? t('country.ledePast', { n: past.length }) : ''}`.trim();
-// Breadcrumb goes through the Europe hub for European countries (once it has protests).
-const europe = hub('europe');
-const crumbs: [string, string][] = [[t('crumb.home'), href(lang, '/')]];
-if (EUROPE.includes(c.iso) && europe.list.length) crumbs.push([t('hub.europe.link'), hubUrl(europe, lang)]);
-crumbs.push([country, countryUrl(c, lang)]);
+// Breadcrumb goes through the country's region hub (Europe / Middle East) once it has protests.
 const hubs = hubsFor(c.iso);
+const region = hubs.find((h) => h.path.startsWith('/region/'));
+const crumbs: [string, string][] = [[t('crumb.home'), href(lang, '/')]];
+if (region) crumbs.push([t(`hub.${region.key as 'europe'}.link`), hubUrl(region, lang)]);
+crumbs.push([country, countryUrl(c, lang)]);
 ---
 <Base
   title={t('country.title', { ...vars, month })}

@@ -221,9 +221,9 @@ test('findSimilar matches same city, close dates, similar label only', () => {
 test('knownEvents keeps a running published story matchable under a flood of new candidates', () => {
   const recent = (h: number) => new Date(Date.now() - h * 36e5).toISOString();
   const story = Object.assign(newEvent('Paris living-costs protests', place, '2026-10-01', [], 's'), { published: true, lastReportAt: recent(72) });
-  const flood = Array.from({ length: 200 }, (_, i) => Object.assign(newEvent(`Candidate ${i}`, place, '2026-10-20', [], `c${i}`), { lastReportAt: recent(1) }));
+  const flood = Array.from({ length: 300 }, (_, i) => Object.assign(newEvent(`Candidate ${i}`, place, '2026-10-20', [], `c${i}`), { lastReportAt: recent(1) }));
   const known = knownEvents(new Map([story, ...flood].map((e) => [e.id, e])));
-  assert.equal(known.length, 150);
+  assert.equal(known.length, 250);
   assert.equal(known[0].id, story.id);
 });
 
