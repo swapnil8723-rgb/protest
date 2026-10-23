@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-23",
-  "count": 91
+  "count": 105
  },
  "runs": [
-  {
-   "at": "2026-10-16T23:41:28.351Z",
-   "ms": 154836,
-   "discovered": 40,
-   "fetched": 39,
-   "classified": 29,
-   "protests": 7,
-   "summarized": 1,
-   "published": 80,
-   "live": 12,
-   "aiCalls": 5,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 10 files, 38 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 58 protest-word items",
-    "fetch: 39 ok, 1 failed",
-    "classify: new candidate e9d2fa41890 \"Indian diaspora stages counter-protest in support of PM Modi\" (London)",
-    "classify: new candidate e7ee796290e \"Protesters interrupt Trump campaign rally in Dalton\" (Dalton)",
-    "classify: new candidate ebf34b7d42d \"Mashpee Tribe rallies against gambling expansion\" (Boston)",
-    "classify: new candidate e01bc4d2b8d \"No Kings movement plans rallies in Louisville\" (Louisville)",
-    "classify: new candidate e3af114f41b \"Family and supporters rally outside Santa Ana jail for arrested activists\" (Santa Ana)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 1 events"
-   ],
-   "translated": 1
-  },
   {
    "at": "2026-10-17T04:27:49.006Z",
    "ms": 178171,
@@ -1406,8 +1379,33 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-23T19:28:46.852Z",
+   "ms": 151511,
+   "discovered": 52,
+   "fetched": 50,
+   "classified": 44,
+   "protests": 11,
+   "summarized": 5,
+   "published": 103,
+   "live": 8,
+   "aiCalls": 14,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 9 files, 36 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 179 protest-word items",
+    "fetch: 50 ok, 2 failed",
+    "classify: new candidate ef8b5cac213 \"Lille student reflects on cost-of-living protests and police presence\" (Lille)",
+    "classify: new candidate e292f361370 \"Groups march in Ranchi demanding CEC resignation over SIR\" (Ranchi)",
+    "classify: new candidate e7a2a3cbf64 \"Protest bans and curfews announced in Nantes and Saint-Nazaire\" (Nantes)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261023171500",
- "lastRunAt": "2026-10-23T17:12:52.821Z"
+ "gdeltCursor": "20261023193000",
+ "lastRunAt": "2026-10-23T19:28:46.852Z"
 }
