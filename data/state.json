@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-23",
-  "count": 29
+  "count": 65
  },
  "runs": [
-  {
-   "at": "2026-10-16T16:16:24.501Z",
-   "ms": 796464,
-   "discovered": 111,
-   "fetched": 108,
-   "classified": 0,
-   "protests": 0,
-   "summarized": 0,
-   "published": 78,
-   "live": 11,
-   "aiCalls": 8,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 19 files, 82 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 60 protest-word items",
-    "fetch: 108 ok, 3 failed",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "AI budget: run time cap 13 min reached — remaining work waits for a later run"
-   ],
-   "translated": 0
-  },
   {
    "at": "2026-10-16T19:28:43.424Z",
    "ms": 609081,
@@ -1406,8 +1379,50 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-23T13:48:38.067Z",
+   "ms": 735082,
+   "discovered": 211,
+   "fetched": 199,
+   "classified": 184,
+   "protests": 43,
+   "summarized": 12,
+   "published": 102,
+   "live": 7,
+   "aiCalls": 36,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261023131500 http://data.gdeltproject.org/gdeltv2/20261023131500.export.CSV.zip → 404",
+    "gdelt: 20261023133000 http://data.gdeltproject.org/gdeltv2/20261023133000.export.CSV.zip → 404",
+    "gdelt: 20261023134500 http://data.gdeltproject.org/gdeltv2/20261023134500.export.CSV.zip → 404",
+    "gdelt: 24 files, 71 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 179 protest-word items",
+    "fetch: 199 ok, 12 failed",
+    "classify: new candidate ed6a23c6282 \"Protests against cost of living and clashes in Milan\" (Milan)",
+    "classify: new candidate e0ac2655fa0 \"Students demand the fall of Rama and end to corruption\" (Tirana)",
+    "classify: new candidate e690003129d \"Greek students and teachers march for education conditions\" (Athens)",
+    "classify: new candidate ed281ee7eb8 \"Teatro la Fenice workers announce strikes for season openers\" (Venice)",
+    "classify: new candidate e5b20d27460 \"Students rally in Belgrade ahead of elections\" (Belgrade)",
+    "classify: new candidate ebee9394e6b \"Protesters demand liberalisation of abortion law across Poland\" (Warsaw)",
+    "classify: new candidate ef037dd87bc \"Students protest university funding levels in Vienna\" (Vienna)",
+    "classify: new candidate eac7fc9a7d5 \"Young Europeans protest and occupy schools over education and politics\" (Rome)",
+    "classify: new candidate e5151888287 \"Swadeshi Jagran Manch march against Starlink in New Delhi\" (Delhi)",
+    "classify: new candidate ef15d58b287 \"Students protest in Berlin and Germany\" (Berlin)",
+    "classify: new candidate eb819ec2cfe \"Thanjavur district fishermen end strike\" (Thanjavur)",
+    "classify: new candidate e2bb3677ea1 \"Indonesian students protest government response to toxic haze\" (Palangkaraya)",
+    "classify: new candidate e49034c14c7 \"Madrid housing protest camp enters second month\" (Madrid)",
+    "classify: new candidate eb8bcc594c0 \"TVK and DMK representatives walk out of Tamil Nadu meeting\" (Chennai)",
+    "classify: new candidate e7adf9c0209 \"Progressive groups march in Shivamogga against electoral roll revision\" (Shivamogga)",
+    "classify: new candidate eff5d2ccad7 \"Farmers block Mysuru-Bengaluru highway over sugarcane prices\" (Shrirangapattana)",
+    "classify: new candidate e2929f331ee \"Ver.di calls nationwide warning strikes at private banks\" (Berlin)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 8 events"
+   ],
+   "translated": 8
   }
  ],
- "gdeltCursor": "20261023074500",
- "lastRunAt": "2026-10-23T07:44:00.646Z"
+ "gdeltCursor": "20261023134500",
+ "lastRunAt": "2026-10-23T13:48:38.067Z"
 }
