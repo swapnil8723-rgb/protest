@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-23",
-  "count": 18
+  "count": 29
  },
  "runs": [
-  {
-   "at": "2026-10-16T11:30:28.102Z",
-   "ms": 313679,
-   "discovered": 78,
-   "fetched": 77,
-   "classified": 70,
-   "protests": 36,
-   "summarized": 9,
-   "published": 78,
-   "live": 13,
-   "aiCalls": 22,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 15 files, 56 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 57 protest-word items",
-    "fetch: 77 ok, 1 failed",
-    "classify: new candidate e619005de8d \"Bengaluru police deny CJP permission for Tiranga march\" (Bengaluru)",
-    "classify: new candidate e33ad5ab471 \"NCP corporators protest water pollution in Pune\" (Pune)",
-    "classify: new candidate e689b5ed812 \"Spaniards march against housing speculation and high rents\" (Bilbao)",
-    "classify: new candidate e23989dd64d \"Youth-led protests mount pressure on Indian Prime Minister\" (Delhi)",
-    "classify: new candidate e7b3cc420aa \"FoES national march in Edinburgh against data centres\" (Edinburgh)",
-    "classify: new candidate e7b24cb6713 \"Private bus operators announce indefinite strike in Keralam\" (Thiruvananthapuram)",
-    "classify: new candidate ea7f021e40b \"No Kings movement holds early voting mobilization events\" (Washington)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-16T16:16:24.501Z",
    "ms": 796464,
@@ -1410,8 +1381,33 @@
     "translate: 2 events"
    ],
    "translated": 2
+  },
+  {
+   "at": "2026-10-23T07:44:00.646Z",
+   "ms": 121789,
+   "discovered": 47,
+   "fetched": 47,
+   "classified": 37,
+   "protests": 10,
+   "summarized": 4,
+   "published": 115,
+   "live": 8,
+   "aiCalls": 11,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 34 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 37 protest-word items",
+    "fetch: 47 ok, 0 failed",
+    "classify: new candidate e7003d676dd \"Farmer leaders hold sit-in outside locked Sugarcane Institute\" (Lucknow)",
+    "classify: new candidate e9624b7ccd1 \"BJP plans padayatras and protests ahead of local elections\" (Mangaluru)",
+    "classify: new candidate ee1781fe27a \"Residents and traders protest against Assam Waqf Board\" (Guwahati)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261023043000",
- "lastRunAt": "2026-10-23T04:27:48.524Z"
+ "gdeltCursor": "20261023074500",
+ "lastRunAt": "2026-10-23T07:44:00.646Z"
 }
