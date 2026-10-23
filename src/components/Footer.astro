@@ -1,6 +1,6 @@
 ---
 import Logo from './Logo.astro';
-import { cname, COUNTRIES, countryUrl, lastRunAt } from '../lib/data';
+import { activeCountries, cname, countryUrl, HUBS, hubUrl, lastRunAt } from '../lib/data';
 import { BRAND, CONTACT } from '../site';
 import { href, LANG_INFO, LANGS, langOf, useT, type Lang } from '../i18n';
 interface Props { path: string; langs: readonly Lang[] }
@@ -22,7 +22,8 @@ const t = useT(lang);
     <nav aria-label={t('footer.byCountry')}>
       <p class="eyebrow mb-3">{t('footer.byCountry')}</p>
       <ul class="grid grid-cols-2 gap-x-4 text-[15px]">
-        {COUNTRIES.map((c) => <li><a href={countryUrl(c, lang)} class="flex min-h-11 items-center no-underline hover:underline">{cname(c, lang)}</a></li>)}
+        {HUBS.filter((h) => h.list.length > 0).map((h) => <li><a href={hubUrl(h, lang)} class="flex min-h-11 items-center font-semibold no-underline hover:underline">{t(`hub.${h.key as 'europe'}.link`)}</a></li>)}
+        {activeCountries.map((c) => <li><a href={countryUrl(c, lang)} class="flex min-h-11 items-center no-underline hover:underline">{cname(c, lang)}</a></li>)}
       </ul>
     </nav>
     <nav aria-label={t('footer.receipts')}>

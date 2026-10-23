@@ -95,6 +95,11 @@ test('site: URLs, prefixes and country phrases', () => {
   assert.equal(inCountry('in', 'fr', 'India'), 'en Inde');
   assert.equal(inCountry('gb', 'de', 'United Kingdom'), 'im Vereinigten Königreich');
   assert.equal(inCountry('in', 'hi', 'India'), 'भारत में');
+  assert.equal(inCountry('nl', 'en', 'Netherlands'), 'in the Netherlands');
+  assert.equal(inCountry('nl', 'fr', 'Netherlands'), 'aux Pays-Bas');
+  assert.equal(inCountry('it', 'fr', 'Italy'), 'en Italie');
+  assert.equal(inCountry('ua', 'de', 'Ukraine'), 'in der Ukraine');
+  assert.equal(inCountry('ch', 'de', 'Switzerland'), 'in der Schweiz');
   assert.match(fmtDate('2026-10-04', 'hi'), /4/);
   assert.equal(useT('es')('today.count', { n: 1 }), '1 protesta');
   assert.equal(useT('es')('today.count', { n: 3 }), '3 protestas');

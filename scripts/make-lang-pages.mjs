@@ -12,6 +12,8 @@ const pages = [
   ['p/[slug].astro', 'Event', 'event'],
   ['country/[country].astro', 'Country', 'country'],
   ['city/[cc]/[region]/[city].astro', 'City', 'city'],
+  ['region/[region].astro', 'Hub', 'region'],
+  ['topic/[topic].astro', 'Hub', 'topic'],
 ];
 
 const paths = {
@@ -32,6 +34,18 @@ const paths = {
     en: "[...cities].map(([key, list]) => { const [cc, region, city] = key.split('/'); return { params: { cc, region, city }, props: { list } }; })",
     lang: "[...cities].map(([key, list]) => { const [cc, region, city] = key.split('/'); return { params: { lang, cc, region, city }, props: { list } }; })",
     props: 'list={Astro.props.list}',
+  },
+  region: {
+    imports: "import { HUBS } from '../lib/data';",
+    en: "HUBS.filter((h) => h.path.startsWith('/region/')).map((h) => ({ params: { region: h.path.split('/')[2] }, props: { h } }))",
+    lang: "HUBS.filter((h) => h.path.startsWith('/region/')).map((h) => ({ params: { lang, region: h.path.split('/')[2] }, props: { h } }))",
+    props: 'h={Astro.props.h}',
+  },
+  topic: {
+    imports: "import { HUBS } from '../lib/data';",
+    en: "HUBS.filter((h) => h.path.startsWith('/topic/')).map((h) => ({ params: { topic: h.path.split('/')[2] }, props: { h } }))",
+    lang: "HUBS.filter((h) => h.path.startsWith('/topic/')).map((h) => ({ params: { lang, topic: h.path.split('/')[2] }, props: { h } }))",
+    props: 'h={Astro.props.h}',
   },
 };
 

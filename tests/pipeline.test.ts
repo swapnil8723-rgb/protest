@@ -11,7 +11,7 @@ import { score, confidence } from '../pipeline/score.ts';
 import { apply, makeSlug, reserveSlugs } from '../pipeline/summarize.ts';
 import { extract } from '../pipeline/article.ts';
 import type { Article, ProtestEvent } from '../pipeline/types.ts';
-import { isBlockedUrl, publisherOf, titleSimilarity, unzipFirst, PROTEST_WORDS } from '../pipeline/util.ts';
+import { isBlockedUrl, looksLikeProtest, publisherOf, titleSimilarity, unzipFirst, PROTEST_WORDS } from '../pipeline/util.ts';
 import type { SummaryOut } from '../pipeline/prompts.ts';
 
 const place = resolvePlace('Mumbai', 'Maharashtra', 'in')!;
@@ -225,4 +225,13 @@ test('knownEvents keeps a running published story matchable under a flood of new
   const known = knownEvents(new Map([story, ...flood].map((e) => [e.id, e])));
   assert.equal(known.length, 150);
   assert.equal(known[0].id, story.id);
+});
+
+test('looksLikeProtest: war strikes are not walkouts, labour strikes still count', () => {
+  assert.equal(looksLikeProtest('Russian drone strike on Kyiv kills three'), false);
+  assert.equal(looksLikeProtest('Ukraine and Russia trade deadly strikes overnight; airstrikes hit refinery'), false);
+  assert.equal(looksLikeProtest('Rail workers strike over pay in Milan'), true);
+  assert.equal(looksLikeProtest('Air traffic controllers call a strike'), true); // "call a strike", not "air strike"
+  assert.equal(looksLikeProtest('Mothers of prisoners of war rally in Kyiv after missile strike'), true);
+  assert.equal(looksLikeProtest('Grève générale : la mobilisation continue à Paris'), true);
 });

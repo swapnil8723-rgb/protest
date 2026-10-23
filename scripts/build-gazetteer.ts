@@ -42,7 +42,7 @@ const REGION_NAMES: Record<string, Record<string, string>> = {
 };
 for (const [cc, names] of Object.entries(REGION_NAMES)) Object.assign(out[cc].admin1, names);
 
-const ASCII_NAMES = new Set(['IN', 'PK', 'BD', 'NP', 'KE', 'ID']);
+const ASCII_NAMES = new Set(['IN', 'PK', 'BD', 'NP', 'KE', 'ID', 'TR', 'AL', 'GE', 'UA', 'RU']);
 const latin = /^[\p{Script=Latin}\d\s'’.()-]+$/u;
 for (const line of fs.readFileSync(path.join(raw, 'cities5000.txt'), 'utf8').split('\n')) {
   const f = line.split('\t');
@@ -51,7 +51,8 @@ for (const line of fs.readFileSync(path.join(raw, 'cities5000.txt'), 'utf8').spl
   // they otherwise shadow the real city ("Delhi Cantonment").
   if (f[7] === 'PPLX' && Number(f[14]) < 200000) continue;
   // South Asian / East African / Indonesian names read better in their usual
-  // English spelling ("Muzaffarabad", not "Muzaffarābād"); keep accents for Europe.
+  // English spelling ("Muzaffarabad", not "Muzaffarābād"; "Istanbul", not "İstanbul");
+  // keep accents for the EU.
   const name = ASCII_NAMES.has(f[8]) ? f[2] : f[1];
   const alts = [...new Set(f[3].split(',').map((s) => s.trim())
     .filter((s) => s && s.length <= 32 && latin.test(s) && s !== name && s !== f[2]))].slice(0, 25);

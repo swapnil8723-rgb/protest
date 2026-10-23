@@ -3,6 +3,8 @@
 import { CAUSES, COUNTRIES } from './config.ts';
 
 const countryList = COUNTRIES.map((c) => `${c.iso}=${c.name}`).join(', ');
+// Only causes whose meaning isn't obvious from the slug get a note.
+const causeList = `[${CAUSES.join(', ')}] (ukraine-war = about Russia's war in Ukraine: anti-war protests, mobilisation, prisoners of war, rallies for Ukraine)`;
 
 export const SYSTEM = `You are the verification desk of LOUD, a neutral protest tracker. You read news articles and report only what they state.
 Hard rules:
@@ -50,14 +52,14 @@ export function classifyPrompt(today: string, articles: ClassifyInput[], known: 
 
 For EACH article decide whether it reports a specific, real-world protest action: a demonstration, march, rally, sit-in, strike, walkout, blockade, hunger strike, bandh/hartal, gherao, occupation, or a riot/clash that grew out of a protest — that took place in the last 7 days, is happening now, or is announced for a specific date.
 
-is_protest = false for: a government "lodging a protest" (diplomatic), verbal criticism or statements only, opinion/analysis/explainer pieces with no new protest action, court hearings or arrests about protests more than 7 days old, anniversaries, election campaign rallies, sports/entertainment, protests outside the tracked countries, and articles where the protest is only a passing mention.
+is_protest = false for: a government "lodging a protest" (diplomatic), military attacks, air/drone/missile strikes or fighting, verbal criticism or statements only, opinion/analysis/explainer pieces with no new protest action, court hearings or arrests about protests more than 7 days old, anniversaries, election campaign rallies, sports/entertainment, protests outside the tracked countries, and articles where the protest is only a passing mention.
 Give not_reason in ≤ 8 words when false.
 
 When true:
 - story_label: neutral "who + action + about what", ≤ 70 chars, e.g. "Opposition march against Chief Election Commissioner".
 - city / region / country: where the protest physically happened (country as iso2 code from the list). For a village use the nearest town or district headquarters. For protests in many cities, the main city the article focuses on. Use null if the article does not say where.
 - date: YYYY-MM-DD the action happened or starts.
-- causes: 1–3 from [${CAUSES.join(', ')}].
+- causes: 1–3 from ${causeList}.
 - match_event_id: the id of a KNOWN EVENT below if this article is about the same protest (same place, same campaign, same or continuing dates). Otherwise null.
 - story_key: for protests not in the known list, a short kebab-case key; give articles in this batch about the same new protest the same key.
 
@@ -167,7 +169,7 @@ Below are numbered news sources. Write the event card for this ONE protest.
 - sensitive: true if the protest is ABOUT a death, suicide, sexual violence, or violence against a child (even if the protest itself was calm). Such cards are shown without playful styling.
 - updates: up to 8 dated developments, oldest first, each ≤ 160 chars, each with source numbers.
 - conflicts: plain statements of where sources disagree on numbers or status, e.g. "Police said 2,000 attended; organisers said 20,000." [] if none.
-- causes: 1–3 from [${CAUSES.join(', ')}].
+- causes: 1–3 from ${causeList}.
 
 SOURCES:
 ${sources.map((s) => `[${s.n}] ${s.publisher} — ${s.published ?? 'date unknown'}\n${s.title}\n${s.text}`).join('\n\n')}`;
@@ -254,7 +256,7 @@ reason: ≤ 12 words.
 - summary: 2–3 neutral sentences that begin "A reader reported that" and only restate what the reader said.
 - organizers: organisations, unions, parties or groups named by the reader; never individuals.
 - demands: up to 4 short demands stated by the reader.
-- causes: 1–3 from [${CAUSES.join(', ')}].
+- causes: 1–3 from ${causeList}.
 - slug_words: 3–5 lowercase words for the URL, e.g. "water cuts ward protest".
 Never include street addresses, exact meeting points, gathering times or routes: city level only. Never repeat numbers of people, arrests or injuries.`;
 }

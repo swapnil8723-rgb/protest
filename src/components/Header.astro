@@ -1,6 +1,6 @@
 ---
 import Logo from './Logo.astro';
-import { cname, COUNTRIES, countryUrl, inCountry, liveVerified as live } from '../lib/data';
+import { activeCountries, cname, countryUrl, HUBS, hubUrl, inCountry, liveVerified as live } from '../lib/data';
 import { href, LANG_INFO, LANGS, langOf, useT, type Lang } from '../i18n';
 interface Props { path: string; langs: readonly Lang[] }
 const { path, langs } = Astro.props;
@@ -23,9 +23,17 @@ const other = (l: Lang) => href(l, langs.includes(l) ? path : '/');
       <a href={href(lang, '/today')} class="flex min-h-11 items-center rounded-lg px-2.5 no-underline hover:bg-surface-2 sm:px-3">{t('nav.today')}</a>
       <details class="relative hidden min-[420px]:block">
         <summary class="flex min-h-11 cursor-pointer list-none items-center rounded-lg px-2.5 hover:bg-surface-2 sm:px-3 [&::-webkit-details-marker]:hidden">{t('nav.countries')}</summary>
-        <div class="card absolute right-0 top-12 z-50 w-64 p-2" style="--vibe: var(--yellow)">
+        <div class="card absolute right-0 top-12 z-50 max-h-[70vh] w-64 overflow-y-auto p-2" style="--vibe: var(--yellow)">
           <ul class="grid gap-0.5">
-            {COUNTRIES.map((c) => {
+            {HUBS.filter((h) => h.list.length > 0).map((h) => (
+              <li>
+                <a href={hubUrl(h, lang)} class="flex min-h-11 items-center justify-between rounded-lg px-3 font-bold no-underline hover:bg-surface-2">
+                  <span>{t(`hub.${h.key as 'europe'}.link`)}</span>
+                  {h.list.some((e) => e.isOngoing) && <span class="mono rounded-full bg-pink px-2 text-black">{h.list.filter((e) => e.isOngoing).length}</span>}
+                </a>
+              </li>
+            ))}
+            {activeCountries.map((c) => {
               const n = inCountry(c.iso).filter((e) => e.isOngoing).length;
               return (
                 <li>

@@ -1,0 +1,82 @@
+---
+// Cross-country hub (/region/europe, /topic/ukraine-war): the same lists as a country
+// page, gathered over several countries. Empty hubs are noindex until the pipeline fills them.
+import Base from '../layouts/Base.astro';
+import EventCard from '../components/EventCard.astro';
+import LocatorMap from '../components/LocatorMap.astro';
+import { byIso, cname, countryUrl, HUBS, hubUrl, lastRunAt, type Hub } from '../lib/data';
+import { metaDesc, monthYear } from '../lib/format';
+import { breadcrumbs, itemList } from '../lib/seo';
+import { href, langOf, useT } from '../i18n';
+import { loc } from '../i18n/event';
+
+const { h } = Astro.props as { h: Hub };
+const lang = langOf(Astro.url);
+const t = useT(lang);
+const k = h.key as 'europe'; // every hub has the same set of hub.<key>.* strings
+const live = h.list.filter((e) => e.isOngoing);
+const past = h.list.filter((e) => !e.isOngoing);
+const month = monthYear(new Date().toISOString().slice(0, 10), lang);
+const byCountry = [...new Set(h.list.map((e) => e.place.country))]
+  .map((iso) => ({ c: byIso.get(iso)!, n: h.list.filter((e) => e.place.country === iso).length, live: live.filter((e) => e.place.country === iso).length }))
+  .sort((a, b) => b.live - a.live || b.n - a.n);
+const liveCountries = byCountry.filter((x) => x.live > 0).map((x) => cname(x.c, lang));
+const lede = live.length
+  ? t(`hub.${k}.lede`, { n: live.length, countries: liveCountries.slice(0, 5).join(', ') + (liveCountries.length > 5 ? t('country.andMore', { n: liveCountries.length - 5 }) : ''), top: loc(live[0], lang).title })
+  : t(`hub.${k}.quiet`);
+const others = HUBS.filter((o) => o.key !== h.key && o.list.length > 0);
+const title = t(`hub.${k}.h1`);
+---
+<Base
+  title={t(`hub.${k}.title`, { month })}
+  description={metaDesc(`${lede} ${t(`hub.${k}.desc`)}`)}
+  path={h.path}
+  noindex={h.list.length === 0}
+  jsonLd={[itemList(h.list, title, lang), breadcrumbs([[t('crumb.home'), href(lang, '/')], [title, hubUrl(h, lang)]])]}
+>
+  <div class="wrap pt-10">
+    <nav aria-label="Breadcrumb" class="mono text-muted"><a href={href(lang, '/')} class="hover:underline">{t('crumb.home')}</a> / {title}</nav>
+    <div class="mt-4 grid items-start gap-8 lg:grid-cols-[1.1fr_1fr]">
+      <div>
+        <p class="eyebrow">{t('today.updated')} <time data-rel datetime={lastRunAt}>{t('time.recently')}</time></p>
+        <h1 class="mt-3 text-[clamp(32px,10.5vw,44px)] sm:text-[60px]">{title}</h1>
+        <p class="mt-5 max-w-2xl text-[18px] leading-relaxed sm:text-[20px]">{lede}</p>
+        {h.key === 'ukraine' && <p class="mt-3 max-w-2xl text-muted">{t('hub.ukraine.scope')}</p>}
+        <dl class="mt-6 flex gap-8">
+          <div><dt class="eyebrow">{t('country.live')}</dt><dd class="display text-[40px] leading-none">{live.length}</dd></div>
+          <div><dt class="eyebrow">{t('country.tracked')}</dt><dd class="display text-[40px] leading-none">{h.list.length}</dd></div>
+          <div><dt class="eyebrow">{t('hub.countries')}</dt><dd class="display text-[40px] leading-none">{byCountry.length}</dd></div>
+        </dl>
+        {byCountry.length > 0 && (
+          <div class="mt-7">
+            <p class="eyebrow">{t('hub.byCountry')}</p>
+            <ul class="mt-2 flex flex-wrap gap-2">
+              {byCountry.map((x) => <li><a href={countryUrl(x.c, lang)} class="cause !px-3.5 !py-2">{cname(x.c, lang).toLowerCase()}{x.live > 0 && <span class="mono ml-2 rounded-full bg-pink px-1.5 text-black">{x.live}</span>}</a></li>)}
+            </ul>
+          </div>
+        )}
+        {others.length > 0 && (
+          <p class="mt-6"><span class="eyebrow">{t('hub.seeAlso')}</span> {others.map((o) => <a href={hubUrl(o, lang)} class="ml-2 inline-flex min-h-11 items-center font-semibold underline">{t(`hub.${o.key as 'europe'}.link`)} →</a>)}</p>
+        )}
+      </div>
+      <LocatorMap iso={h.map} events={h.list} label={title} links />
+    </div>
+
+    <section class="mt-14" aria-labelledby="live">
+      <h2 id="live" class="text-[32px] sm:text-[40px]">{t('country.live')}</h2>
+      {live.length ? (
+        <div class="mt-7 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{live.map((e) => <EventCard e={e} />)}</div>
+      ) : (
+        <p class="mt-4 text-[18px] text-muted">{t(`hub.${k}.quiet`)}</p>
+      )}
+    </section>
+
+    {past.length > 0 && (
+      <section class="mt-16" aria-labelledby="past">
+        <h2 id="past" class="text-[32px] sm:text-[40px]">{t('country.wrapped')}</h2>
+        <p class="mt-2 text-muted">{t('country.archive')}</p>
+        <div class="mt-7 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{past.slice(0, 24).map((e) => <EventCard e={e} tiltCard={false} />)}</div>
+      </section>
+    )}
+  </div>
+</Base>

@@ -79,10 +79,10 @@ export function countryName(iso: string, lang: Lang, fallback: string): string {
 export function inCountry(iso: string, lang: Lang, fallback: string): string {
   const name = countryName(iso, lang, fallback);
   switch (lang) {
-    case 'en': return ['us', 'gb'].includes(iso) ? `in the ${name}` : `in ${name}`;
+    case 'en': return ['us', 'gb', 'nl'].includes(iso) ? `in the ${name}` : `in ${name}`;
     case 'es': return `en ${name}`;
-    case 'fr': return ({ us: 'aux États-Unis', gb: 'au Royaume-Uni', pk: 'au Pakistan', bd: 'au Bangladesh', np: 'au Népal', ke: 'au Kenya' } as Record<string, string>)[iso] ?? `en ${name}`;
-    case 'de': return ({ us: 'in den USA', gb: 'im Vereinigten Königreich' } as Record<string, string>)[iso] ?? `in ${name}`;
+    case 'fr': return ({ us: 'aux États-Unis', gb: 'au Royaume-Uni', pk: 'au Pakistan', bd: 'au Bangladesh', np: 'au Népal', ke: 'au Kenya', nl: 'aux Pays-Bas', pt: 'au Portugal', dk: 'au Danemark' } as Record<string, string>)[iso] ?? `en ${name}`;
+    case 'de': return ({ us: 'in den USA', gb: 'im Vereinigten Königreich', nl: 'in den Niederlanden', ch: 'in der Schweiz', tr: 'in der Türkei', ua: 'in der Ukraine' } as Record<string, string>)[iso] ?? `in ${name}`;
     case 'hi': return `${name} में`;
     case 'mr': return `${name} मध्ये`;
   }

@@ -151,3 +151,9 @@ export const PROTEST_WORDS = new RegExp(
   ].join('|'),
   'i',
 );
+
+/** "Strike" in war news ("drone strike on Kyiv", "airstrikes") is not a walkout. Removed
+ *  before the protest-word test so Ukraine/Russia war coverage doesn't flood the AI step. */
+const WAR_STRIKES = /\b(?:drone|missile|air|aerial|artillery|rocket|military|retaliatory|precision|nuclear|deadly|overnight|russian|ukrainian|israeli|ballistic|cruise)[ -]strikes?\b|\bair-?strikes?\b/gi;
+
+export const looksLikeProtest = (text: string) => PROTEST_WORDS.test(text.replace(WAR_STRIKES, ' '));

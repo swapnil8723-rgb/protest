@@ -10,7 +10,7 @@ import Receipts from '../components/Receipts.astro';
 import ShareBar from '../components/ShareBar.astro';
 import LocatorMap from '../components/LocatorMap.astro';
 import EventCard from '../components/EventCard.astro';
-import { cname, countryOf, countryUrl, cityUrl, isUnverified, related, type ProtestEvent } from '../lib/data';
+import { cname, countryOf, countryUrl, cityUrl, hub, hubUrl, isUnverified, related, type ProtestEvent } from '../lib/data';
 import { fmtDay, isSerious, metaDesc } from '../lib/format';
 import { breadcrumbs, eventJsonLd } from '../lib/seo';
 import { href, LANGS, langOf, useT } from '../i18n';
@@ -60,7 +60,9 @@ const langs = LANGS.filter((l) => hasLang(raw, l));
     <header class="mt-4 max-w-4xl">
       <div class="flex flex-wrap items-center gap-2">
         <Vibe e={e} />
-        {e.causes.map((x) => <a href={`${href(lang, '/today')}?cause=${x}`} class="cause" rel="nofollow">{t(`cause.${x}` as 'cause.water')}</a>)}
+        {e.causes.map((x) => x === 'ukraine-war' && hub('ukraine').list.length
+          ? <a href={hubUrl(hub('ukraine'), lang)} class="cause">{t('cause.ukraine-war')}</a>
+          : <a href={`${href(lang, '/today')}?cause=${x}`} class="cause" rel="nofollow">{t(`cause.${x}` as 'cause.water')}</a>)}
       </div>
       <h1 class="mt-4 text-[34px] sm:text-[52px] lg:text-[60px]">{e.title}</h1>
       <p class="mt-3 text-[15px] font-semibold text-muted">

@@ -2,7 +2,7 @@
 // Only published events with a slug ever reach a page.
 import fs from 'node:fs';
 import path from 'node:path';
-import { byIso, COUNTRIES, type Country } from '../../pipeline/config.ts';
+import { byIso, COUNTRIES, EUROPE, type Country } from '../../pipeline/config.ts';
 import { loadEvents } from '../../pipeline/store.ts';
 import type { ProtestEvent, State } from '../../pipeline/types.ts';
 import { countryName, href, type Lang } from '../i18n/index.ts';
@@ -72,6 +72,31 @@ export const cities = (() => {
 export const cityUrl = (e: ProtestEvent, lang: Lang = 'en') => (cities.has(cityKey(e)) ? href(lang, `/city/${cityKey(e)}`) : null);
 
 export const inCountry = (iso: string) => events.filter((e) => e.place.country === iso);
+
+/** Countries with at least one protest on the site, busiest first. Menus, tiles and the
+ *  sitemap use this; a country with none still has a (noindex) page so links never 404. */
+export const activeCountries = COUNTRIES.map((c) => ({ c, all: inCountry(c.iso) }))
+  .filter((x) => x.all.length > 0)
+  .sort((a, b) => b.all.filter((e) => e.isOngoing).length - a.all.filter((e) => e.isOngoing).length || b.all.length - a.all.length)
+  .map((x) => x.c);
+
+/** Hub pages that gather protests across countries: /region/europe and /topic/ukraine-war. */
+export interface Hub {
+  key: 'europe' | 'ukraine';
+  path: string;
+  map: string; // locator map frame (src/lib/geo.ts)
+  list: ProtestEvent[];
+}
+const aboutUkraineWar = (e: ProtestEvent) =>
+  e.causes.includes('ukraine-war') || (['ua', 'ru'].includes(e.place.country) && e.causes.includes('war-peace'));
+export const HUBS: Hub[] = [
+  { key: 'europe', path: '/region/europe', map: 'europe', list: events.filter((e) => EUROPE.includes(e.place.country)) },
+  { key: 'ukraine', path: '/topic/ukraine-war', map: 'europe', list: events.filter(aboutUkraineWar) },
+];
+export const hub = (key: Hub['key']) => HUBS.find((h) => h.key === key)!;
+export const hubUrl = (h: Hub, lang: Lang = 'en') => href(lang, h.path);
+/** The hub a country page or cause chip should point to, if any. */
+export const hubsFor = (iso: string) => HUBS.filter((h) => h.list.length > 0 && (h.key === 'europe' ? EUROPE.includes(iso) : ['ua', 'ru'].includes(iso)));
 
 export function related(e: ProtestEvent, n = 4): ProtestEvent[] {
   const score = (o: ProtestEvent) =>

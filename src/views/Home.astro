@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import EventCard from '../components/EventCard.astro';
-import { cname, COUNTRIES, countryOf, countryUrl, eventUrl, events, inCountry, isUnverified, live, liveVerified, lastRunAt, wrapped } from '../lib/data';
+import { activeCountries, cname, COUNTRIES, countryOf, HUBS, hubUrl, countryUrl, eventUrl, events, inCountry, isUnverified, live, liveVerified, lastRunAt, wrapped } from '../lib/data';
 import { isSerious, vibeClass, vibeLabel } from '../lib/format';
 import { itemList, org, website } from '../lib/seo';
 import { href, langOf, useT } from '../i18n';
@@ -29,6 +29,8 @@ const pins = events
 const liveCountries = new Set(liveVerified.map((e) => e.place.country)).size;
 const loudest = live.slice(0, 6);
 const india = events.filter((e) => e.place.country === 'in').slice(0, 4);
+const europeHub = HUBS.find((h) => h.key === 'europe')!;
+const europe = europeHub.list.slice(0, 4);
 const recentlyWrapped = wrapped.slice(0, 4);
 const ticker = (live.length ? live : events).slice(0, 14).map((raw) => ({ raw, e: loc(raw, lang) }));
 const totalSources = events.reduce((n, e) => n + e.sources.length, 0);
@@ -112,6 +114,16 @@ const india_ = COUNTRIES.find((c) => c.iso === 'in')!;
     )}
   </section>
 
+  {europe.length > 0 && (
+    <section class="wrap mt-20" aria-labelledby="europe">
+      <div class="flex flex-wrap items-end justify-between gap-3">
+        <h2 id="europe" class="text-[34px] sm:text-[44px]">{t('home.europe')}</h2>
+        <a href={hubUrl(europeHub, lang)} class="inline-flex min-h-11 items-center font-semibold underline underline-offset-4">{t('home.europeLink')}</a>
+      </div>
+      <div class="mt-8 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">{europe.map((e) => <EventCard e={e} />)}</div>
+    </section>
+  )}
+
   {india.length > 0 && (
     <section class="wrap mt-20" aria-labelledby="india">
       <div class="flex flex-wrap items-end justify-between gap-3">
@@ -125,7 +137,17 @@ const india_ = COUNTRIES.find((c) => c.iso === 'in')!;
   <section class="wrap mt-20" aria-labelledby="countries">
     <h2 id="countries" class="text-[34px] sm:text-[44px]">{t('home.pick')}</h2>
     <ul class="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-      {COUNTRIES.map((c, i) => {
+      {HUBS.filter((h) => h.list.length > 0).map((h) => (
+        <li>
+          <a href={hubUrl(h, lang)} class="country-tile card lift v-peak-loud flex items-center justify-between gap-3 p-4 no-underline">
+            <span class="min-w-0">
+              <span class="display block text-[18px] leading-tight [overflow-wrap:anywhere] sm:text-[20px]">{t(`hub.${h.key as 'europe'}.link`)}</span>
+              <span class="mono text-muted">{t('home.tile', { live: h.list.filter((e) => e.isOngoing).length, all: h.list.length })}</span>
+            </span>
+          </a>
+        </li>
+      ))}
+      {activeCountries.map((c, i) => {
         const all = inCountry(c.iso);
         const n = all.filter((e) => e.isOngoing).length;
         return (

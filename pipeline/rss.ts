@@ -1,8 +1,8 @@
-// Publisher RSS fills gaps GDELT misses: Indian city news, and the French/German/Spanish
-// press that GDELT's English-only export never sees. Items only enter the pipeline if
+// Publisher RSS fills gaps GDELT misses: Indian city news, the European press that
+// GDELT's English-only export never sees, and Ukraine/Russia outlets. Items only enter the pipeline if
 // their headline/summary uses protest vocabulary. Only feeds whose articles we can fetch
 // (Le Monde 402, Libération 403, NYT 403 were tried and dropped, Oct 2026).
-import { isBlockedUrl, PROTEST_WORDS } from './util.ts';
+import { isBlockedUrl, looksLikeProtest } from './util.ts';
 
 export const FEEDS = [
   // India
@@ -32,6 +32,27 @@ export const FEEDS = [
   'https://www.theguardian.com/uk-news/rss',
   'https://www.theguardian.com/us-news/rss',
   'https://feeds.npr.org/1003/rss.xml',
+  // Rest of Europe (Pravda.com.ua, Kathimerini, Romania Insider, Euronews refuse us; dropped)
+  'https://www.theguardian.com/world/europe-news/rss',
+  'https://www.theguardian.com/world/italy/rss',
+  'https://www.ansa.it/english/news/english_nr_rss.xml',
+  'https://www.theguardian.com/world/netherlands/rss',
+  'https://www.theguardian.com/world/greece/rss',
+  'https://www.theguardian.com/world/poland/rss',
+  'https://notesfrompoland.com/feed/',
+  'https://www.theguardian.com/world/serbia/rss',
+  'https://balkaninsight.com/feed/',
+  'https://www.theguardian.com/world/turkey/rss',
+  'https://bianet.org/english/rss',
+  'https://civil.ge/feed',
+  'https://www.rte.ie/feeds/rss/?index=/news/',
+  'https://www.thelocal.se/feeds/rss.php',
+  // Ukraine and Russia (war "strikes" are filtered out by looksLikeProtest)
+  'https://www.theguardian.com/world/ukraine/rss',
+  'https://www.theguardian.com/world/russia/rss',
+  'https://kyivindependent.com/news-archive/rss/',
+  'https://meduza.io/rss/en/all',
+  'https://www.themoscowtimes.com/rss/news',
 ];
 
 export interface RssItem {
@@ -89,7 +110,7 @@ export async function discoverRss(log: (s: string) => void, maxAgeHours = 72): P
         if (!res.ok) throw new Error(String(res.status));
         const items = parseFeed(await res.text()).filter(
           (i) =>
-            PROTEST_WORDS.test(`${i.title} ${i.description}`) &&
+            looksLikeProtest(`${i.title} ${i.description}`) &&
             !isBlockedUrl(i.url) &&
             (!i.publishedAt || Date.now() - Date.parse(i.publishedAt) < maxAgeHours * 3.6e6),
         );

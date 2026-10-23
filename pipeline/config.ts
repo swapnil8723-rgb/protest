@@ -21,7 +21,31 @@ export const COUNTRIES: Country[] = [
   { iso: 'np', fips: 'NP', name: 'Nepal', slug: 'nepal', tz: 'Asia/Kathmandu' },
   { iso: 'ke', fips: 'KE', name: 'Kenya', slug: 'kenya', tz: 'Africa/Nairobi' },
   { iso: 'id', fips: 'ID', name: 'Indonesia', slug: 'indonesia', tz: 'Asia/Jakarta' },
+  // Europe (added Oct 2026: most readers are in the US and Europe)
+  { iso: 'it', fips: 'IT', name: 'Italy', slug: 'italy', tz: 'Europe/Rome' },
+  { iso: 'nl', fips: 'NL', name: 'Netherlands', slug: 'netherlands', tz: 'Europe/Amsterdam' },
+  { iso: 'be', fips: 'BE', name: 'Belgium', slug: 'belgium', tz: 'Europe/Brussels' },
+  { iso: 'pl', fips: 'PL', name: 'Poland', slug: 'poland', tz: 'Europe/Warsaw' },
+  { iso: 'pt', fips: 'PO', name: 'Portugal', slug: 'portugal', tz: 'Europe/Lisbon' },
+  { iso: 'gr', fips: 'GR', name: 'Greece', slug: 'greece', tz: 'Europe/Athens' },
+  { iso: 'at', fips: 'AU', name: 'Austria', slug: 'austria', tz: 'Europe/Vienna' },
+  { iso: 'ch', fips: 'SZ', name: 'Switzerland', slug: 'switzerland', tz: 'Europe/Zurich' },
+  { iso: 'se', fips: 'SW', name: 'Sweden', slug: 'sweden', tz: 'Europe/Stockholm' },
+  { iso: 'dk', fips: 'DA', name: 'Denmark', slug: 'denmark', tz: 'Europe/Copenhagen' },
+  { iso: 'ie', fips: 'EI', name: 'Ireland', slug: 'ireland', tz: 'Europe/Dublin' },
+  { iso: 'cz', fips: 'EZ', name: 'Czechia', slug: 'czechia', tz: 'Europe/Prague' },
+  { iso: 'hu', fips: 'HU', name: 'Hungary', slug: 'hungary', tz: 'Europe/Budapest' },
+  { iso: 'ro', fips: 'RO', name: 'Romania', slug: 'romania', tz: 'Europe/Bucharest' },
+  { iso: 'rs', fips: 'RI', name: 'Serbia', slug: 'serbia', tz: 'Europe/Belgrade' },
+  { iso: 'al', fips: 'AL', name: 'Albania', slug: 'albania', tz: 'Europe/Tirane' },
+  { iso: 'ge', fips: 'GG', name: 'Georgia', slug: 'georgia', tz: 'Asia/Tbilisi' },
+  { iso: 'tr', fips: 'TU', name: 'Turkey', slug: 'turkey', tz: 'Europe/Istanbul' },
+  { iso: 'ua', fips: 'UP', name: 'Ukraine', slug: 'ukraine', tz: 'Europe/Kyiv' },
+  { iso: 'ru', fips: 'RS', name: 'Russia', slug: 'russia', tz: 'Europe/Moscow' },
 ];
+
+/** Region hubs (/region/<slug>): countries grouped for "protests in Europe today". */
+export const EUROPE = ['gb', 'fr', 'de', 'es', 'it', 'nl', 'be', 'pl', 'pt', 'gr', 'at', 'ch', 'se', 'dk', 'ie', 'cz', 'hu', 'ro', 'rs', 'al', 'ge', 'tr', 'ua', 'ru'];
 
 export const byIso = new Map(COUNTRIES.map((c) => [c.iso, c]));
 export const byFips = new Map(COUNTRIES.map((c) => [c.fips, c]));
@@ -30,7 +54,7 @@ export const byFips = new Map(COUNTRIES.map((c) => [c.fips, c]));
 export const CAUSES = [
   'elections', 'labour', 'farmers', 'students', 'education', 'jobs', 'prices', 'housing', 'land',
   'environment', 'climate', 'water', 'health', 'religion', 'caste', 'ethnic-rights', 'gender',
-  'lgbtq', 'police', 'justice', 'free-speech', 'corruption', 'governance', 'anti-government', 'war-peace',
+  'lgbtq', 'police', 'justice', 'free-speech', 'corruption', 'governance', 'anti-government', 'war-peace', 'ukraine-war',
   'palestine', 'immigration', 'reservation', 'transport', 'infrastructure', 'local-civic', 'animal-rights', 'abortion',
 ] as const;
 export type Cause = (typeof CAUSES)[number];

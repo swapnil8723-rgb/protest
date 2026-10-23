@@ -2,7 +2,8 @@
 import Base from '../layouts/Base.astro';
 import EventCard from '../components/EventCard.astro';
 import LocatorMap from '../components/LocatorMap.astro';
-import { cities, cname, countryUrl, inCountry, lastRunAt, type Country } from '../lib/data';
+import { cities, cname, countryUrl, hub, hubsFor, hubUrl, inCountry, lastRunAt, type Country } from '../lib/data';
+import { EUROPE } from '../../pipeline/config.ts';
 import { metaDesc, monthYear } from '../lib/format';
 import { breadcrumbs, itemList } from '../lib/seo';
 import { href, inCountry as inC, langOf, useT } from '../i18n';
@@ -29,15 +30,22 @@ const vars = { country, in: inPhrase };
 const lede = live.length
   ? t('country.ledeLive', { ...vars, n: live.length, where, top: loc(live[0], lang).title })
   : `${t('country.ledeQuiet', vars)} ${past.length ? t('country.ledePast', { n: past.length }) : ''}`.trim();
+// Breadcrumb goes through the Europe hub for European countries (once it has protests).
+const europe = hub('europe');
+const crumbs: [string, string][] = [[t('crumb.home'), href(lang, '/')]];
+if (EUROPE.includes(c.iso) && europe.list.length) crumbs.push([t('hub.europe.link'), hubUrl(europe, lang)]);
+crumbs.push([country, countryUrl(c, lang)]);
+const hubs = hubsFor(c.iso);
 ---
 <Base
   title={t('country.title', { ...vars, month })}
   description={metaDesc(`${lede} ${t('country.descTail', vars)}`)}
   path={`/country/${c.slug}`}
-  jsonLd={[itemList(all, t('country.listName', vars), lang), breadcrumbs([[t('crumb.home'), href(lang, '/')], [country, countryUrl(c, lang)]])]}
+  noindex={all.length === 0}
+  jsonLd={[itemList(all, t('country.listName', vars), lang), breadcrumbs(crumbs)]}
 >
   <div class="wrap pt-10">
-    <nav aria-label="Breadcrumb" class="mono text-muted"><a href={href(lang, '/')} class="hover:underline">{t('crumb.home')}</a> / {country}</nav>
+    <nav aria-label="Breadcrumb" class="mono text-muted">{crumbs.slice(0, -1).map(([name, url]) => <><a href={url} class="hover:underline">{name}</a> / </>)}{country}</nav>
     <div class="mt-4 grid items-start gap-8 lg:grid-cols-[1.1fr_1fr]">
       <div>
         <p class="eyebrow">{t('today.updated')} <time data-rel datetime={lastRunAt}>{t('time.recently')}</time></p>
@@ -55,6 +63,9 @@ const lede = live.length
               {cityList.map((x) => <li><a href={x.url} class="cause !px-3.5 !py-2">{x.name.toLowerCase()}{x.live > 0 && <span class="mono ml-2 rounded-full bg-pink px-1.5 text-black">{x.live}</span>}</a></li>)}
             </ul>
           </div>
+        )}
+        {hubs.length > 0 && (
+          <p class="mt-6"><span class="eyebrow">{t('hub.seeAlso')}</span> {hubs.map((h) => <a href={hubUrl(h, lang)} class="ml-2 inline-flex min-h-11 items-center font-semibold underline">{t(`hub.${h.key as 'europe'}.link`)} →</a>)}</p>
         )}
       </div>
       <LocatorMap iso={c.iso} events={all} label={t('country.map', { country, n: all.length })} links />

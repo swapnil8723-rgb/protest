@@ -1,6 +1,6 @@
 import type { APIRoute, GetStaticPaths } from 'astro';
 import { SITE } from '../site';
-import { cities, COUNTRIES, verified as events } from '../lib/data';
+import { activeCountries, cities, COUNTRIES, HUBS, verified as events } from '../lib/data';
 import { href, LANGS, type Lang } from '../i18n';
 import { hasLang } from '../i18n/event';
 
@@ -20,7 +20,10 @@ export const GET: APIRoute = ({ params }) => {
   let body = '';
   if (params.name === 'pages') {
     const n = newest(events);
-    body = url('/', n) + url('/today', n) + url('/how-we-know') + url('/add') + COUNTRIES.map((c) => url(`/country/${c.slug}`, newest(events.filter((e) => e.place.country === c.iso)))).join('');
+    // Only pages with protests on them: empty country/hub pages are noindex until the pipeline fills them.
+    body = url('/', n) + url('/today', n) + url('/how-we-know') + url('/add') +
+      HUBS.filter((h) => h.list.length > 0).map((h) => url(h.path, newest(h.list))).join('') +
+      activeCountries.map((c) => url(`/country/${c.slug}`, newest(events.filter((e) => e.place.country === c.iso)))).join('');
   } else {
     const c = COUNTRIES.find((x) => x.slug === params.name)!;
     body = events.filter((e) => e.place.country === c.iso).map((e) => url(`/p/${e.slug}`, e.updatedAt, `/cards/${e.slug}-og.png`, LANGS.filter((l) => hasLang(e, l)))).join('');

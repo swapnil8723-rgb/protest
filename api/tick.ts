@@ -1,6 +1,7 @@
 // GET /api/tick — Vercel Cron (see vercel.json "crons") calls this every 3 hours as a backup
 // for GitHub's own schedule, which can skip runs for hours on small repos. If no pipeline
-// run started in the last 150 minutes, it starts one (workflow_dispatch).
+// run started in the last 120 minutes, it starts one (workflow_dispatch). (150 let a
+// missed GitHub slot become a ~5-hour gap: ticks are 3 h apart.)
 // Needs: CRON_SECRET (Vercel sends it as a Bearer token) and GITHUB_DISPATCH_TOKEN
 // (fine-grained token, this repo only, "Actions: read and write").
 const REPO =
@@ -8,7 +9,7 @@ const REPO =
   (process.env.VERCEL_GIT_REPO_OWNER && process.env.VERCEL_GIT_REPO_SLUG
     ? `${process.env.VERCEL_GIT_REPO_OWNER}/${process.env.VERCEL_GIT_REPO_SLUG}`
     : 'swapnil8723-rgb/protest');
-const RECENT_MINUTES = 150;
+const RECENT_MINUTES = 120;
 
 const json = (status: number, body: object) =>
   new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json', 'cache-control': 'no-store' } });

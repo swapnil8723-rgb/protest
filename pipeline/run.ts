@@ -16,7 +16,7 @@ import { fileInbox, httpInbox, processReaderReports, scoreReaders } from './read
 import { pollDecisions, reviewerConfigured, sendReviews } from './telegram.ts';
 import { translate } from './translate.ts';
 import type { ProtestEvent, RunLog } from './types.ts';
-import { hostOf, nowIso, pool, PROTEST_WORDS } from './util.ts';
+import { hostOf, looksLikeProtest, nowIso, pool } from './util.ts';
 
 // undici can throw an internal assertion from a socket callback when a server ends a
 // response mid-parse (seen on a few news sites). It is isolated to that request; the
@@ -125,7 +125,7 @@ try {
       a.fetch = 'ok';
       pages.set(a.url, p);
       run.fetched++;
-      if (!PROTEST_WORDS.test(`${a.title} ${a.description} ${p.text.slice(0, 1500)}`)) {
+      if (!looksLikeProtest(`${a.title} ${a.description} ${p.text.slice(0, 1500)}`)) {
         a.cls = { at: nowIso(), isProtest: false, reason: 'no protest vocabulary' };
       } else if (a.publishedAt && Date.now() - Date.parse(a.publishedAt) > 12 * 864e5) {
         a.cls = { at: nowIso(), isProtest: false, reason: 'article older than 12 days' };
