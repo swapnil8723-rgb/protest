@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-23",
-  "count": 11
+  "count": 18
  },
  "runs": [
-  {
-   "at": "2026-10-16T07:44:00.191Z",
-   "ms": 247928,
-   "discovered": 76,
-   "fetched": 73,
-   "classified": 64,
-   "protests": 23,
-   "summarized": 7,
-   "published": 77,
-   "live": 13,
-   "aiCalls": 17,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 52 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 48 protest-word items",
-    "fetch: 73 ok, 3 failed",
-    "classify: new candidate e304add472f \"NSUI members protest at police station over alleged assault\" (Delhi)",
-    "classify: new candidate eaa8fc57ac4 \"Tribal students march to Azad Maidan against tribal minister\" (Mumbai)",
-    "classify: new candidate e085c8719fd \"Residents protest against apartment construction irregularities\" (Kochi)",
-    "classify: new candidate e6b278d60f3 \"Indonesian protesters demand action against forest fires\" (Jakarta)",
-    "classify: new candidate e990b0e291d \"TDP and YSRCP activists clash during nomination filing\" (Punganuru)",
-    "classify: new candidate ed45061a62f \"Cockroach Janta Party plans protest at Pune Collectorate\" (Pune)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-16T11:30:28.102Z",
    "ms": 313679,
@@ -1414,8 +1386,32 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-23T04:27:48.524Z",
+   "ms": 88621,
+   "discovered": 34,
+   "fetched": 34,
+   "classified": 25,
+   "protests": 8,
+   "summarized": 2,
+   "published": 115,
+   "live": 8,
+   "aiCalls": 7,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261023040000 http://data.gdeltproject.org/gdeltv2/20261023040000.export.CSV.zip → 404",
+    "gdelt: 13 files, 27 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 40 protest-word items",
+    "fetch: 34 ok, 0 failed",
+    "classify: new candidate e7ca80a6432 \"Protesters hold No Kings early voting rally in Kent\" (Kent)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 2 events"
+   ],
+   "translated": 2
   }
  ],
- "gdeltCursor": "20261023011500",
- "lastRunAt": "2026-10-23T01:05:22.854Z"
+ "gdeltCursor": "20261023043000",
+ "lastRunAt": "2026-10-23T04:27:48.524Z"
 }
