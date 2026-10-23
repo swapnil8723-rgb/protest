@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-23",
-  "count": 105
+  "count": 120
  },
  "runs": [
-  {
-   "at": "2026-10-17T04:27:49.006Z",
-   "ms": 178171,
-   "discovered": 75,
-   "fetched": 72,
-   "classified": 58,
-   "protests": 20,
-   "summarized": 3,
-   "published": 80,
-   "live": 12,
-   "aiCalls": 11,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 19 files, 60 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 55 protest-word items",
-    "fetch: 72 ok, 3 failed",
-    "classify: new candidate e86e8959137 \"CJP holds Tiranga march and counter-protest in Delhi\" (Delhi)",
-    "classify: new candidate e56a9a0c1f8 \"No Kings movement plans demonstrations across Arizona\" (Phoenix)",
-    "classify: new candidate e258c1347e1 \"No Kings movement holds early voting mobilization events\" (Westerly)",
-    "classify: new candidate efd8169759d \"JKAS officers protest alleged verbal abuse by senior IAS officer\" (Jammu)",
-    "classify: new candidate e5fb0968207 \"Indian diaspora schedules protest in London over voter rolls\" (London)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-17T07:44:00.414Z",
    "ms": 128742,
@@ -1404,8 +1377,40 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-23T21:27:47.164Z",
+   "ms": 151565,
+   "discovered": 81,
+   "fetched": 81,
+   "classified": 68,
+   "protests": 17,
+   "summarized": 5,
+   "published": 103,
+   "live": 8,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 8 files, 35 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 218 protest-word items",
+    "fetch: 81 ok, 0 failed",
+    "classify: new candidate e04d209c966 \"Iranians protest German visa delays outside embassy in Tehran\" (Tehran)",
+    "classify: new candidate e57eb3c7b7e \"French businesses brace for protests and government announces security measures\" (Paris)",
+    "classify: new candidate ec0f4522f21 \"Villagers protest hijab restrictions in Azerbaijan\" (Nardaran)",
+    "classify: new candidate eba59b6f0ce \"Bereaved families and former hostages to hold inquiry rally in Israel\" (Tel Aviv)",
+    "classify: new candidate ea9fe6f9d67 \"Taxi drivers protest rising operating costs and low fares in Helsinki\" (Helsinki)",
+    "classify: new candidate e605552060c \"Protesters demonstrate outside Glasgow Apple store against supply chains\" (Glasgow)",
+    "classify: new candidate e4c9f9967a8 \"Italian cities prepare for nationwide cost of living protests\" (Rome)",
+    "classify: new candidate eb282e7897b \"Congress MP and students detained during Jamia Millia union protest\" (Delhi)",
+    "classify: new candidate eb3864f46fb \"Ludhiana lawyers go on one-day strike over police inaction\" (Ludhiana)",
+    "classify: new candidate e6d32b9b29f \"Farmers protest voter list revision and demand CEC prosecution\" (Bathinda)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261023193000",
- "lastRunAt": "2026-10-23T19:28:46.852Z"
+ "gdeltCursor": "20261023213000",
+ "lastRunAt": "2026-10-23T21:27:47.164Z"
 }
