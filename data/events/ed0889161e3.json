@@ -16,288 +16,304 @@
  "scope": "multi-city",
  "causes": [
   "elections",
-  "farmers",
-  "students"
+  "corruption",
+  "governance"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-23",
- "status": "ongoing",
- "vibe": "heating-up",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
-  "top-10"
+  "sources-disagree"
  ],
- "isOngoing": true,
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters object to the Special Intensive Revision of electoral rolls and demand accountability over election procedures.",
-  "want": "Demonstrators demand the removal and prosecution of CEC Gyanesh Kumar, the scrapping of SIR, and the restoration of deleted voters.",
-  "changed": "Oct 23: Police detained numerous demonstrators during a march toward the Election Commission of India headquarters in central Delhi."
+  "why": "Protesters oppose the Special Intensive Revision of electoral rolls and the removal of voters from lists.",
+  "want": "They demand the resignation and prosecution of CEC Gyanesh Kumar, the scrapping of the SIR, and the restoration of deleted voter names.",
+  "changed": "Oct 23: Around 500 protesters marched in central Delhi, held a People's Parliament after being blocked by police, and several were detained."
  },
- "summary": "An umbrella platform named People Against SIR, alongside farmers' unions, student groups, and civil society organizations, organized nationwide demonstrations and a march in central Delhi on October 23, 2026. Protesters headed toward the Election Commission of India headquarters to voice opposition to the Special Intensive Revision of electoral rolls and the actions of Chief Election Commissioner Gyanesh Kumar. Participants carried the national flag and chanted slogans demanding the halting of the voter list revision and the protection of democratic rights. Authorities blocked the march and detained several demonstrators, prompting participants to hold a symbolic People's Parliament on the street. The mobilization followed the recent denotification of Jantar Mantar as a designated protest site.",
+ "summary": "On October 23, 2026, roughly 500 demonstrators from students, farmers, women, and civil society groups under the umbrella of 'People Against SIR' marched through central Delhi. Assembling near Gol Dak Khana, participants headed towards the Election Commission of India headquarters carrying the national flag and banners to demand the rollback of the Special Intensive Revision of electoral rolls and the resignation of Chief Election Commissioner Gyanesh Kumar. When police blocked their advance, the demonstrators sat down and conducted a People's Parliament. The Delhi Police stated that prohibitory orders under Section 163 of the BNSS were in place, around 20 protesters were detained and later released, and at least one FIR was registered.",
  "organizers": [
-  "Samyukt Kisan Morcha",
-  "All India Kisan Sabha",
   "People Against SIR",
-  "Cockroach Janta Party",
-  "All India Democratic Women's Association",
-  "All India Students' Association"
+  "Samyukt Kisan Morcha",
+  "AIKS",
+  "AISA",
+  "SFI",
+  "AIDWA"
  ],
  "demands": [
-  "Remove and prosecute Chief Election Commissioner Gyanesh Kumar",
-  "Scrap the Special Intensive Revision of electoral rolls",
-  "Restore deleted names to the voter lists",
+  "Scrap the Special Intensive Revision of voter rolls",
+  "Resignation and prosecution of CEC Gyanesh Kumar",
+  "Restore deleted names to the electoral rolls",
   "Repeal the Election Commissioners Act 2023",
-  "Revoke the order denotifying Jantar Mantar as a protest site"
+  "Revoke the denotification of Jantar Mantar as a protest site"
  ],
- "response": "Police blocked the march using restrictions under Section 163 of the BNSS and detained numerous protesters, pushing them into detention buses. Authorities had previously denotified Jantar Mantar and suppressed earlier demonstrations.",
- "numbers": {},
+ "response": "Delhi Police blocked the march, invoked Section 163 of the BNSS to prohibit gatherings, registered at least one FIR, and detained several protesters before releasing them later.",
+ "numbers": {
+  "crowd": {
+   "value": 500,
+   "text": "Around 500 protesters from students, youth, women, farmers, and civil society organisations",
+   "sources": [
+    6
+   ]
+  },
+  "arrests": {
+   "value": 20,
+   "text": "Delhi Police said around 20 protesters were detained and later released, even as protesters claimed that around 50…",
+   "sources": [
+    6
+   ]
+  }
+ },
  "updates": [
   {
-   "at": "2026-10-16",
-   "text": "Farmers' organizations under the SKM announced plans for nationwide protests and a march to Delhi on October 23.",
+   "at": "2026-10-23",
+   "text": "Participants assembled near Gol Dak Khana in central Delhi to march toward the Election Commission headquarters.",
    "sources": [
-    1,
-    2
-   ]
-  },
-  {
-   "at": "2026-10-21",
-   "text": "The People Against SIR alliance and supporting groups called for a nationwide street protest and foot marches.",
-   "sources": [
-    3
+    3,
+    4,
+    6
    ]
   },
   {
    "at": "2026-10-23",
-   "text": "A march toward the Election Commission headquarters began in central Delhi near Gole Dak Khana.",
+   "text": "Protesters sat down and held a People's Parliament after police blocked the march.",
    "sources": [
-    5,
-    6,
-    7
+    3,
+    4,
+    5
    ]
   },
   {
    "at": "2026-10-23",
-   "text": "Delhi Police blocked the demonstrators, leading to detentions and the holding of a symbolic People's Parliament.",
+   "text": "Police detained protesters, with authorities reporting about 20 detentions while demonstrators claimed higher numbers.",
    "sources": [
-    7,
-    8
+    4,
+    6
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://www.thehindu.com/news/national/anti-cec-protest-farmers-to-march-to-delhi-on-october-23/article71593656.ece",
-   "publisher": "thehindu.com",
-   "title": "Anti-CEC protest: Farmers to march to Delhi on October 23",
-   "publishedAt": "2026-10-16T16:49:41.000Z"
-  },
-  {
-   "n": 2,
-   "url": "https://theprint.in/india/aiks-to-hold-90th-anniversary-conference-in-telangana-join-oct-23-protests-against-sir/3074286/",
-   "publisher": "theprint.in",
-   "title": "AIKS to hold 90th-anniversary conference in Telangana, join Oct 23 protests against SIR",
-   "publishedAt": "2026-10-16T19:15:03.000Z"
-  },
-  {
-   "n": 3,
    "url": "https://www.deccanchronicle.com/nation/current-affairs/people-against-sir-india-bloc-to-hold-nationwide-march-on-oct-23-1997628",
    "publisher": "deccanchronicle.com",
    "title": "‘People Against SIR’, INDIA Bloc to Hold Nationwide March on Oct 23",
    "publishedAt": "2026-10-21T13:36:29.000Z"
   },
   {
-   "n": 4,
+   "n": 2,
    "url": "https://thearabianpost.com/october-23-nationwide-anti-cec-anti-sir-protests-deepen-centres-dilemma/",
    "publisher": "thearabianpost.com",
    "title": "October 23 Nationwide Anti-CEC Anti-SIR Protests Deepen Centre’s Dilemma — Arabian Post",
    "publishedAt": "2026-10-22T10:55:48.000Z"
   },
   {
-   "n": 5,
+   "n": 3,
    "url": "https://economictimes.indiatimes.com/news/india/farmers-union-anti-sir-platform-to-hold-protests-against-cec-gyanesh-kumar-today/articleshow/135133138.cms",
    "publisher": "economictimes.indiatimes.com",
    "title": "Farmers union, anti-SIR platform to hold protests against CEC Gyanesh Kumar today",
    "publishedAt": "2026-10-23T03:27:00.000Z"
   },
   {
-   "n": 6,
-   "url": "https://www.hindustantimes.com/india-news/delhi-cjp-protest-live-updates-abhijeet-dipke-neha-bora-prakash-raj-har-gali-mein-jantar-mantar-cec-gyanesh-kumar-police-101792723280629.html",
-   "publisher": "hindustantimes.com",
-   "title": "Anti-CEC protests LIVE: ‘Har gali mein Jantar Mantar’ march scheduled today; Abhijeet Dipke, Neha Bora invited",
-   "publishedAt": "2026-10-23T03:35:36.000Z"
-  },
-  {
-   "n": 7,
+   "n": 4,
    "url": "https://www.siasat.com/delhi-police-sir-march-3563018/",
    "publisher": "siasat.com",
    "title": "Despite detentions, protesters hold 'People's Parliament'",
    "publishedAt": "2026-10-23T08:52:07.000Z"
   },
   {
-   "n": 8,
+   "n": 5,
    "url": "https://www.oneindia.com/new-delhi/in-pics-people-against-sir-march-in-delhi-police-detain-protesters-demanding-halt-to-voter-roll-re-8242105.html",
    "publisher": "oneindia.com",
    "title": "In Pics: People Against SIR March In Delhi, Police Detain Protesters Demanding Halt To Voter Roll Revision",
    "publishedAt": "2026-10-23T12:26:59.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://www.thehindu.com/news/national/students-farmers-civil-society-groups-continue-to-protest-against-sir-cec/article71616758.ece",
+   "publisher": "thehindu.com",
+   "title": "Students, farmers, civil society groups continue to protest against SIR, CEC",
+   "publishedAt": "2026-10-23T16:42:58.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
- "publishers": 8,
+ "conflicts": [
+  "Police said around 20 protesters were detained; protesters claimed around 50 were rounded up."
+ ],
+ "confidence": 0.8,
+ "publishers": 6,
  "reports24h": 5,
- "reportsPrev24h": 2,
- "reports48h": 7,
+ "reportsPrev24h": 3,
+ "reports48h": 8,
  "firstSeenAt": "2026-10-16T19:31:19.794Z",
- "lastReportAt": "2026-10-23T12:26:59.000Z",
- "lastCheckedAt": "2026-10-23T16:20:23.290Z",
- "updatedAt": "2026-10-23T16:19:25.184Z",
+ "lastReportAt": "2026-10-23T16:42:58.000Z",
+ "lastCheckedAt": "2026-10-23T17:16:12.997Z",
+ "updatedAt": "2026-10-23T17:16:11.645Z",
  "responseSources": [
-  4,
-  7,
-  8
+  5,
+  6
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-23T16:19:25.184Z",
- "summaryOf": "8f78d1a9eb1c",
+ "summarizedAt": "2026-10-23T17:16:11.645Z",
+ "summaryOf": "b396053d3c17",
  "publishedAt": "2026-10-19T07:46:14.284Z",
  "i18n": {
-  "of": "bcb2f1075934c04f",
-  "at": "2026-10-23T16:21:05.083Z",
+  "of": "338244d37c4a5b36",
+  "at": "2026-10-23T17:16:51.971Z",
   "tries": 1,
   "hi": {
-   "title": "मतदाता सूची संशोधन के खिलाफ दिल्ली में चुनाव आयोग तक प्रदर्शनकारियों का मार्च",
-   "seoTitle": "मुख्य चुनाव आयुक्त ज्ञानेश कुमार के खिलाफ दिल्ली मार्च",
+   "title": "वोटर लिस्ट संशोधन के खिलाफ दिल्ली में चुनाव आयोग तक प्रदर्शनकारियों का मार्च",
+   "seoTitle": "CEC ज्ञानेश कुमार के खिलाफ दिल्ली मार्च",
    "tea": {
-    "why": "प्रदर्शनकारियों को मतदाता सूचियों के विशेष गहन संशोधन पर आपत्ति है और वे चुनाव प्रक्रियाओं पर जवाबदेही की मांग करते हैं।",
-    "want": "प्रदर्शनीकारी मुख्य चुनाव आयुक्त ज्ञानेश कुमार को हटाने और उन पर मुकदमा चलाने, एसआईआर को रद्द करने तथा हटाए गए मतदाताओं को बहाल करने की मांग करते हैं।",
-    "changed": "23 अक्टूबर: मध्य दिल्ली में भारतीय चुनाव आयोग के मुख्यालय की ओर मार्च के दौरान पुलिस ने कई प्रदर्शनकारियों को हिरासत में लिया।"
+    "why": "प्रदर्शनकारी चुनावी लिस्ट के विशेष गहन संशोधन और सूचियों से मतदाताओं को हटाने का विरोध कर रहे हैं।",
+    "want": "वे मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे और अभियोजन, एसआईआर को रद्द करने और हटाए गए मतदाताओं के नाम बहाल करने की मांग करते हैं।",
+    "changed": "23 अक्टूबर: मध्य दिल्ली में लगभग 500 प्रदर्शनकारियों ने मार्च निकाला, पुलिस द्वारा रोके जाने के बाद पीपल्स पार्लियामेंट का आयोजन किया, और कई लोगों को हिरासत में लिया गया।"
    },
-   "summary": "पीपल अगेंस्ट एसआईआर नामक एक छत्र संगठन ने किसानों के संघों, छात्र समूहों और नागरिक समाज संगठनों के साथ मिलकर 23 अक्टूबर 2026 को देशव्यापी प्रदर्शन और मध्य दिल्ली में मार्च आयोजित किया। प्रदर्शनकारियों ने मतदाता सूचियों के विशेष गहन संशोधन और मुख्य चुनाव आयुक्त ज्ञानेश कुमार के कार्यों के विरोध में भारतीय चुनाव आयोग मुख्यालय की ओर रुख किया। प्रतिभागियों ने राष्ट्रीय ध्वज उठाया और मतदाता सूची संशोधन को रोकने तथा लोकतांत्रिक अधिकारों की रक्षा की मांग वाले नारे लगाए। अधिकारियों ने मार्च को रोक दिया और कई प्रदर्शनकारियों को हिरासत में लिया, जिसके कारण प्रतिभागियों को सड़क पर एक प्रतीकात्मक पीपुल्स पार्लियामेंट आयोजित करनी पड़ी। यह लामबंदी जंतर-मंतर को एक निर्दिष्ट विरोध स्थल के रूप में हाल ही में डी-नोटिफ़ाई किए जाने के बाद हुई।",
+   "summary": "23 अक्टूबर 2026 को, 'पीपल्स अगेंस्ट एसआईआर' के बैनर तले छात्र, किसान, महिलाएं और नागरिक समाज समूहों के लगभग 500 प्रदर्शनकारियों ने मध्य दिल्ली में मार्च निकाला। गोल डाक खाने के पास एकत्रित होकर, सहभागी भारत के राष्ट्रीय झंडे और बैनर लेकर चुनाव आयोग मुख्यालय की ओर बढ़े, ताकि चुनावी सूचियों के विशेष गहन संशोधन को वापस लेने और मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे की मांग की जा सके। जब पुलिस ने उनका आगे बढ़ना रोका, तो प्रदर्शनकारियों ने वहीं बैठकर पीपल्स पार्लियामेंट का संचालन किया। दिल्ली पुलिस ने बताया कि बीएनएसएस की धारा 163 के तहत निषेधाज्ञा लागू थी, लगभग 20 प्रदर्शनकारियों को हिरासत में लिया गया और बाद में रिहा कर दिया गया, तथा कम से कम एक एफआईआर दर्ज की गई।",
    "demands": [
-    "मुख्य चुनाव आयुक्त ज्ञानेश कुमार को हटाएं और उन पर मुकदमा चलाएं",
-    "मतदाता सूचियों के विशेष गहन संशोधन को रद्द करें",
-    "मतदाता सूचियों में हटाए गए नामों को बहाल करें",
-    "चुनाव आयुक्त अधिनियम 2023 को निरूपित करें",
-    "जंतर-मंतर को विरोध स्थल के रूप में डी-नोटिफ़ाई करने वाले आदेश को वापस लें"
+    "वोटर लिस्ट का विशेष गहन संशोधन रद्द किया जाए",
+    "मुख्य चुनाव आयुक्त ज्ञानेश कुमार का इस्तीफा और अभियोजन हो",
+    "वोटर लिस्ट में हटाए गए नाम बहाल किए जाएं",
+    "इलेक्शन कमिश्नर्स एक्ट 2023 को निरस्त किया जाए",
+    "जंतर-मंतर की प्रदर्शन स्थल के रूप में डीनोटिफिकेशन को वापस लिया जाए"
    ],
-   "response": "पुलिस ने बीएनएसएस की धारा 163 के तहत प्रतिबंधों का उपयोग करके मार्च को रोका और कई प्रदर्शनकारियों को हिरासत में लिया, उन्हें हिरासत बसों में धकेल दिया। अधिकारियों ने पहले ही जंतर-मंतर को डी-नोटिफ़ाई कर दिया था और पहले के प्रदर्शनों को दबा दिया था।",
+   "response": "दिल्ली पुलिस ने मार्च को रोका, सभाओं पर प्रतिबंध लगाने के लिए बीएनएसएस की धारा 163 लागू की, कम से कम एक एफआईआर दर्ज की, और बाद में रिहा करने से पहले कई प्रदर्शनकारियों को हिरासत में लिया।",
    "updates": [
-    "एसकेएम के तहत किसान संगठनों ने 23 अक्टूबर को देशव्यापी प्रदर्शनों और दिल्ली मार्च की योजनाओं की घोषणा की।",
-    "पीपल अगेंस्ट एसआईआर गठबंधन और समर्थन करने वाले समूहों ने देशव्यापी सड़क प्रदर्शन और पैदल मार्च का आह्वान किया।",
-    "गोल डाक खाना के पास मध्य दिल्ली में चुनाव आयोग मुख्यालय की ओर एक मार्च शुरू हुआ।",
-    "दिल्ली पुलिस ने प्रदर्शनकारियों को रोका, जिससे हिरासत में लिया गया और एक प्रतीकात्मक पीपुल्स पार्लियामेंट आयोजित की गई।"
+    "सहभागी चुनाव आयोग मुख्यालय की ओर मार्च करने के लिए मध्य दिल्ली में गोल डाक खाने के पास एकत्रित हुए।",
+    "पुलिस द्वारा मार्च रोके जाने के बाद प्रदर्शनकारियों ने बैठकर पीपल्स पार्लियामेंट का आयोजन किया।",
+    "पुलिस ने प्रदर्शनकारियों को हिरासत में लिया, अधिकारियों ने लगभग 20 हिरासत में लिए जाने की सूचना दी जबकि प्रदर्शनकारियों ने इससे अधिक संख्या का दावा किया।"
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "पुलिस ने कहा कि लगभग 20 प्रदर्शनकारियों को हिरासत में लिया गया; प्रदर्शनकारियों ने दावा किया कि लगभग 50 लोगों को पकड़ा गया।"
+   ],
+   "numbers": {
+    "crowd": "छात्र, युवा, महिलाएं, किसान और नागरिक समाज संगठनों के लगभग 500 प्रदर्शनकारी",
+    "arrests": "दिल्ली पुलिस ने कहा कि लगभग 20 प्रदर्शनकारियों को हिरासत में लिया गया और बाद में रिहा कर दिया गया, जबकि प्रदर्शनकारियों का दावा था कि लगभग 50..."
+   }
   },
   "mr": {
-   "title": "मतदार यादी पुनر्रचनेविरोधात दिल्लीत निवडणूक आयोगावर आंदोलकांचा मोर्चा",
-   "seoTitle": "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्याविरोधात दिल्ली मोर्चा",
+   "title": "मतदार यादी सुधारणेविरोधात दिल्लीत निवडणूक आयोगावर आंदोलकांचा मोर्चा",
+   "seoTitle": "CEC ज्ञानेश कुमार विरोधात दिल्लीतील मोर्चा",
    "tea": {
-    "why": "आंदोलकांचा मतदार याद्यांच्या विशेष सखोल पुनर्रचनाकरणावर आक्षेप आहे आणि ते निवडणूक प्रक्रियेवर उत्तरदायित्वाची मागणी करतात.",
-    "want": "निदर्शकांनी मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांना बडतर्फ करण्याची व त्यांच्यावर खटला भरण्याची, एसआयआर रद्द करण्याची आणि वगळलेल्या मतदारांना पुनर्संचयित करण्याची मागणी केली आहे.",
-    "changed": "23 ऑक्टोबर: मध्य दिल्लीतील भारतीय निवडणूक आयोग मुख्यालयाकडे जाणाऱ्या मोर्चानरम्यान पोलिसांनी अनेक निदर्शकांना ताब्यात घेतले."
+    "why": "आंदोलक मतदार याद्यांच्या विशेष सखोल सुधारणेला आणि याद्यांमधून मतदारांना वगळण्यास विरोध करत आहेत.",
+    "want": "त्यांची मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची आणि खटल्याची, एसआयआर रद्द करण्याची आणि वगळलेली मतदारांची नावे पूर्ववत करण्याची मागणी आहे.",
+    "changed": "२३ ऑक्टोबर: मध्य दिल्लीत सुमारे ५०० आंदोलकांनी मोर्चा काढला, पोलिसांनी अडवल्यानंतर पीपल्स पार्लमेंट घेतले आणि अनेकांना ताब्यात घेण्यात आले."
    },
-   "summary": "पीपल अगेन्स्ट एसआयआर नावाच्या छताखालील संघटनेने, शेतकरी संघटना, विद्यार्थी गट आणि नागरी समाज संस्थांच्या सोबतीने, 23 ऑक्टोबर 2026 रोजी देशव्यापी निदर्शने आणि मध्य दिल्लीत मोर्चा आयोजित केला. मतदारांच्या याद्यांच्या विशेष सखोल पुनर्रचनेला आणि मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या कृतींना विरोध दर्शवण्यासाठी आंदोलक भारतीय निवडणूक आयोग मुख्यालयाकडे निघाले. सहभागांनी राष्ट्रीय ध्वज हातात घेतले आणि मतदार यादी पुनर्रचना थांबवण्याच्या व लोकशाही अधिकारांचे रक्षण करण्याच्या घोषणा दिल्या. अधिकाऱ्यांनी मोर्चा अडवला आणि अनेक निदर्शकांना ताब्यात घेतले, ज्यामुळे सहभागींना रस्त्यावरच एक प्रतीकात्मक पीपल्स पार्लमेंट घेण्यास भाग पाडले गेले. जंतरमंतरला निषेध स्थळ म्हणून नुकतेच डी-नॉटिफाय केल्याच्या पार्श्वभूमीवर ही जमवाजमव झाली.",
+   "summary": "२३ ऑक्टोबर २०२६ रोजी, 'पीपल्स अगेन्स्ट एसआयआर'च्या छत्रछायेखाली विद्यार्थी, शेतकरी, महिला आणि नागरी समाज गटांमधील सुमारे ५०० निदर्शक मध्य दिल्लीत मार्च करत आले. गोल डाक खान्या जवळ जमून, सहभागांनी राष्ट्रीय ध्वज आणि फलक हातात घेऊन भारत निवडणूक आयोगाच्या मुख्यालयाकडे कूच केले, ज्याची मागणी मतदार याद्यांची विशेष सखोल सुधारणा मागे घ्यावी आणि मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांनी राजीनामा द्यावा ही होती. जेव्हा पोलिसांनी त्यांची वाट अडवली, तेव्हा निदर्शकांनी खाली बसून पीपल्स पार्लमेंट चालवले. दिल्ली पोलिसांनी सांगितले की बीएनएसएसच्या कलम १६३ अंतर्गत जमावबंदीचे आदेश लागू होते, सुमारे २० आंदोलकांना ताब्यात घेण्यात आले आणि नंतर सोडण्यात आले, आणि किमान एक एफआयआर नोंदवण्यात आला.",
    "demands": [
-    "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांना बडतर्फ करा आणि त्यांच्यावर खटला भरा",
-    "मतदार याद्यांची विशेष सखोल पुनर्रचना रद्द करा",
-    "वगळलेली नावे मतदार याद्यांमध्ये पुनर्संचयित करा",
-    "निवडणूक आयुक्त कायदा 2023 रद्द करा",
-    "जंतरमंतर हे निषेध स्थळ म्हणून डी-नॉटिफाय करणारा आदेश रद्द करा"
+    "मतदार यादीची विशेष सखोल सुधारणा रद्द करा",
+    "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांचा राजीनामा आणि खटला",
+    "वगळलेली नावे मतदार यादीत पूर्ववत करा",
+    "इलेक्शन कमिश्नर्स ॲक्ट २०२३ रद्द करा",
+    "जंतरमंतरची आंदोलनाचे ठिकाण म्हणून असलेली डीनोटिफिकेशन रद्द करा"
    ],
-   "response": "पोलिसांनी BNSS च्या कलम 163 अंतर्गत निर्बंधांचा वापर करून मोर्चा रोखला आणि अनेक आंदोलकांना ताब्यात घेत त्यांना नजरकैदेच्या बसमध्ये ढकलले. अधिकाऱ्यांनी यापूर्वीच जंतरमंतर डी-नॉटिफाय केले होते आणि आधीची निदर्शने दाबून टाकली होती.",
+   "response": "दिल्ली पोलिसांनी मोर्चा अडवला, एकत्र जमण्यावर बंदी घालण्यासाठी बीएनएसएसचे कलम १६३ लागू केले, किमान एक एफआयआर नोंदवला, आणि नंतर सोडण्यापूर्वी अनेक आंदोलकांना ताब्यात घेतले.",
    "updates": [
-    "एसकेएम अंतर्गत शेतकरी संघटनांनी 23 ऑक्टोबर रोजी देशव्यापी निदर्शने आणि दिल्ली मार्चची योजना जाहीर केली.",
-    "पीपल अगेन्स्ट एसआयआर युती आणि पाठिंबा देणाऱ्या गटांनी देशव्यापी रस्ता निषेध आणि पदयात्रेचे आवाहन केले.",
-    "गोल डाक खानाजवळ मध्य दिल्लीत निवडणूक आयोग मुख्यालयाकडे एक मोर्चा सुरू झाला.",
-    "दिल्ली पोलिसांनी निदर्शकांना अडवले, ज्यामुळे ताबेदारी झाली आणि एक प्रतीकात्मक पीपल्स पार्लमेंट आयोजित करण्यात आले."
+    "सहभागी निवडणूक आयोग मुख्यालयाकडे मोर्चा काढण्यासाठी मध्य दिल्लीत गोल डाक खान्या जवळ जमले.",
+    "पोलिसांनी मोर्चा अडवल्यानंतर आंदोलक खाली बसले आणि त्यांनी पीपल्स पार्लमेंट घेतले.",
+    "पोलिसांनी आंदोलकांना ताब्यात घेतले, ज्यामध्ये अधिकाऱ्यांनी सुमारे २० जणांना ताब्यात घेतल्याचे सांगितले तर आंदोलकांनी जास्त संख्या दावा केली."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "पोलिसांनी सांगितले की सुमारे २० आंदोलकांना ताब्यात घेण्यात आले; आंदोलकांनी दावा केला की सुमारे ५० जणांना पकडण्यात आले."
+   ],
+   "numbers": {
+    "crowd": "विद्यार्थी, तरुण, महिला, शेतकरी आणि नागरी समाज संस्थांमधून सुमारे ५०० आंदोलक",
+    "arrests": "दिल्ली पोलिसांनी सांगितले की सुमारे २० आंदोलकांना ताब्यात घेण्यात आले आणि नंतर सोडून देण्यात आले, अगदी आंदोलकांनी दावा केला की सुमारे ५०..."
+   }
   },
   "es": {
-   "title": "Manifestantes marchan hacia la Comisión Electoral en Delhi contra la revisión del censo electoral",
+   "title": "Manifestantes marchan hacia la Comisión Electoral en Delhi contra la revisión del padrón electoral",
    "seoTitle": "Marcha en Delhi contra el CEC Gyanesh Kumar",
    "tea": {
-    "why": "Los manifestantes se oponen a la Revisión Intensiva Especial de los padrones electorales y exigen rendición de cuentas sobre los procedimientos electorales.",
-    "want": "Los manifestantes exigen la destitución y el enjuiciamiento del CEC Gyanesh Kumar, la anulación del SIR y la restauración de los votantes eliminados.",
-    "changed": "23 de octubre: La policía detuvo a numerosos manifestantes durante una marcha hacia la sede de la Comisión Electoral de la India en el centro de Delhi."
+    "why": "Los manifestantes se oponen a la Revisión Intensiva Especial de los padrones electorales y a la eliminación de votantes de las listas.",
+    "want": "Exigen la dimisión y el enjuiciamiento del CEC Gyanesh Kumar, la anulación de la SIR y la restauración de los nombres de votantes eliminados.",
+    "changed": "23 de oct: Alrededor de 500 manifestantes marcharon por el centro de Delhi, celebraron un Parlamento Popular tras ser bloqueados por la policía, y varios fueron detenidos."
    },
-   "summary": "Una plataforma paraguas llamada People Against SIR, junto con sindicatos de agricultores, grupos estudiantiles y organizaciones de la sociedad civil, organizó manifestaciones a nivel nacional y una marcha en el centro de Delhi el 23 de octubre de 2026. Los manifestantes se dirigieron hacia la sede de la Comisión Electoral de la India para expresar su oposición a la Revisión Intensiva Especial de los padrones electorales y a las acciones del Comisionado Electoral Jefe Gyanesh Kumar. Los participantes portaron la bandera nacional y corearon consignas exigiendo la paralización de la revisión de la lista de votantes y la protección de los derechos democráticos. Las autoridades bloquearon la marcha y detuvieron a varios manifestantes, lo que llevó a los participantes a celebrar un Parlamento Popular simbólico en la calle. La movilización se produjo tras la reciente desnotificación de Jantar Mantar como lugar de protesta designado.",
+   "summary": "El 23 de octubre de 2026, aproximadamente 500 manifestantes de estudiantes, agricultores, mujeres y grupos de la sociedad civil bajo el paraguas de 'People Against SIR' marcharon por el centro de Delhi. Reuniéndose cerca de Gol Dak Khana, los participantes se dirigieron hacia la sede de la Comisión Electoral de la India portando la bandera nacional y pancartas para exigir la retirada de la Revisión Intensiva Especial de los padrones electorales y la dimisión del Comisionado Jefe de Elecciones Gyanesh Kumar. Cuando la policía bloqueó su avance, los manifestantes se sentaron y llevaron a cabo un Parlamento Popular. La Policía de Delhi declaró que las órdenes prohibitorias bajo la Sección 163 del BNSS estaban en vigor, que unos 20 manifestantes fueron detenidos y posteriormente liberados, y que se registró al menos un FIR.",
    "demands": [
-    "Destituir y enjuiciar al Comisionado Electoral Jefe Gyanesh Kumar",
-    "Eliminar la Revisión Intensiva Especial de los padrones electorales",
-    "Restaurar los nombres eliminados en las listas de votantes",
+    "Anular la Revisión Intensiva Especial de los padrones electorales",
+    "Dimisión y enjuiciamiento del CEC Gyanesh Kumar",
+    "Restaurar los nombres eliminados en los padrones electorales",
     "Derogar la Ley de Comisionados Electorales de 2023",
-    "Revocar la orden que desnotifica a Jantar Mantar como lugar de protesta"
+    "Revocar la desnotificación de Jantar Mantar como sitio de protesta"
    ],
-   "response": "La policía bloqueó la marcha utilizando restricciones bajo la Sección 163 del BNSS y detuvo a numerosos manifestantes, empujándolos hacia autobuses de detención. Las autoridades habían desnotificado previamente a Jantar Mantar y reprimido protestas anteriores.",
+   "response": "La Policía de Delhi bloqueó la marcha, invocó la Sección 163 del BNSS para prohibir concentraciones, registró al menos un FIR y detuvo a varios manifestantes antes de liberarlos más tarde.",
    "updates": [
-    "Las organizaciones de agricultores bajo el SKM anunciaron planes para protestas a nivel nacional y una marcha a Delhi el 23 de octubre.",
-    "La alianza People Against SIR y los grupos de apoyo convocaron una protesta callejera a nivel nacional y marchas a pie.",
-    "Una marcha hacia la sede de la Comisión Electoral comenzó en el centro de Delhi cerca de Gole Dak Khana.",
-    "La policía de Delhi bloqueó a los manifestantes, lo que provocó detenciones y la celebración de un Parlamento Popular simbólico."
+    "Los participantes se reunieron cerca de Gol Dak Khana en el centro de Delhi para marchar hacia la sede de la Comisión Electoral.",
+    "Los manifestantes se sentaron y celebraron un Parlamento Popular después de que la policía bloqueara la marcha.",
+    "La policía detuvo a manifestantes, y las autoridades informaron de unas 20 detenciones mientras que los manifestantes afirmaron cifras mayores."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "La policía dijo que unos 20 manifestantes fueron detenidos; los manifestantes afirmaron que unos 50 fueron arrestados."
+   ],
+   "numbers": {
+    "crowd": "Alrededor de 500 manifestantes de organizaciones estudiantiles, juveniles, de mujeres, agricultores y de la sociedad civil",
+    "arrests": "La Policía de Delhi dijo que unos 20 manifestantes fueron detenidos y liberados más tarde, incluso cuando los manifestantes afirmaron que alrededor de 50..."
+   }
   },
   "fr": {
    "title": "Des manifestants marchent vers la Commission électorale à Delhi contre la révision des listes électorales",
    "seoTitle": "Marche à Delhi contre le CEC Gyanesh Kumar",
    "tea": {
-    "why": "Les manifestants s'opposent à la révision intensive spéciale des listes électorales et exigent des comptes sur les procédures électorales.",
-    "want": "Les manifestants demandent la révocation et les poursuites du CEC Gyanesh Kumar, l'annulation du SIR et la réintégration des électeurs radiés.",
-    "changed": "23 oct. : La police a interpellé de nombreux manifestants lors d'une marche vers le siège de la Commission électorale de l'Inde dans le centre de Delhi."
+    "why": "Les manifestants s'opposent à la révision intensive spéciale des listes électorales et au retrait des électeurs des listes.",
+    "want": "Ils exigent la démission et les poursuites du CEC Gyanesh Kumar, l'annulation de la SIR et le rétablissement des noms d'électeurs supprimés.",
+    "changed": "23 oct. : Environ 500 manifestants ont marché dans le centre de Delhi, ont tenu un Parlement du peuple après avoir été bloqués par la police, et plusieurs ont été interpellés."
    },
-   "summary": "Une plateforme faîtière nommée People Against SIR, aux côtés de syndicats d'agriculteurs, de groupes étudiants et d'organisations de la société civile, a organisé des manifestations nationales et une marche dans le centre de Delhi le 23 octobre 2026. Les manifestants se sont dirigés vers le siège de la Commission électorale de l'Inde pour exprimer leur opposition à la révision intensive spéciale des listes électorales et aux actions du commissaire électoral en chef Gyanesh Kumar. Les participants ont porté le drapeau national et chanté des slogans exigeant l'arrêt de la révision des listes électorales et la protection des droits démocratiques. Les autorités ont bloqué la marche et interpellé plusieurs manifestants, incitant les participants à tenir un Parlement du peuple symbolique dans la rue. Cette mobilisation fait suite à la récente dénotification de Jantar Mantar comme site de manifestation désigné.",
+   "summary": "Le 23 octobre 2026, environ 500 manifestants issus d'étudiants, d'agriculteurs, de femmes et de groupes de la société civile sous l'égide de « People Against SIR » ont défilé dans le centre de Delhi. Rassemblés près de Gol Dak Khana, les participants se sont dirigés vers le siège de la Commission électorale de l'Inde en brandissant le drapeau national et des pancartes pour exiger le retrait de la révision intensive spéciale des listes électorales et la démission du chef commissaire aux élections Gyanesh Kumar. Lorsque la police a bloqué leur avancée, les manifestants se sont assis et ont tenu un Parlement du peuple. La police de Delhi a déclaré que des ordonnances d'interdiction en vertu de l'article 163 du BNSS étaient en vigueur, qu'environ 20 manifestants avaient été interpellés puis relâchés, et qu'au moins un FIR avait été enregistré.",
    "demands": [
-    "Révoquer et poursuivre en justice le commissaire électoral en chef Gyanesh Kumar",
-    "Supprimer la révision intensive spéciale des listes électorales",
+    "Abandonner la révision intensive spéciale des listes électorales",
+    "Démission et poursuites du CEC Gyanesh Kumar",
     "Rétablir les noms supprimés sur les listes électorales",
-    "Abroger la loi sur les commissaires électoraux de 2023",
-    "Révoquer l'ordonnance dénotifiant Jantar Mantar comme site de manifestation"
+    "Abroger la loi de 2023 sur les commissaires électoraux",
+    "Révoquer la dénotification de Jantar Mantar en tant que site de manifestation"
    ],
-   "response": "La police a bloqué la marche en utilisant des restrictions en vertu de l'article 163 du BNSS et a interpellé de nombreux manifestants, les poussant dans des bus de détention. Les autorités avaient préalablement dénotifié Jantar Mantar et réprimé des manifestations antérieures.",
+   "response": "La police de Delhi a bloqué la marche, invoqué l'article 163 du BNSS pour interdire les rassemblements, enregistré au moins un FIR et interpellé plusieurs manifestants avant de les relâcher plus tard.",
    "updates": [
-    "Les organisations d'agriculteurs sous l'égide du SKM ont annoncé des projets de manifestations nationales et une marche vers Delhi le 23 octobre.",
-    "L'alliance People Against SIR et les groupes de soutien ont appelé à une manifestation de rue nationale et à des marches à pied.",
-    "Une marche vers le siège de la Commission électorale a débuté dans le centre de Delhi près de Gole Dak Khana.",
-    "La police de Delhi a bloqué les manifestants, entraînant des interpellations et la tenue d'un Parlement du peuple symbolique."
+    "Les participants se sont rassembés près de Gol Dak Khana dans le centre de Delhi pour marcher vers le siège de la Commission électorale.",
+    "Les manifestants se sont assis et ont tenu un Parlement du peuple après que la police a bloqué la marche.",
+    "La police a interpellé des manifestants, les autorités faisant état d'environ 20 interpellations tandis que les manifestants en revendiquaient un nombre plus élevé."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "La police a déclaré qu'environ 20 manifestants avaient été interpellés ; les manifestants ont affirmé qu'environ 50 avaient été appréhendés."
+   ],
+   "numbers": {
+    "crowd": "Environ 500 manifestants issus d'organisations d'étudiants, de jeunes, de femmes, d'agriculteurs et de la société civile",
+    "arrests": "La police de Delhi a déclaré qu'environ 20 manifestants ont été interpellés et relâchés plus tard, alors même que les manifestants affirmaient qu'environ 50..."
+   }
   },
   "de": {
-   "title": "Demonstranten marschieren gegen Wählerverzeichnisrevision zur Wahlkommission in Delhi",
+   "title": "Demonstranten marschieren zur Wahlkommission in Delhi gegen Wählerverzeichnis-Überarbeitung",
    "seoTitle": "Delhi-Marsch gegen CEC Gyanesh Kumar",
    "tea": {
-    "why": "Demonstranten erheben Einspruch gegen die spezielle intensive Revision der Wählerverzeichnisse und fordern Rechenschaft über die Wahlverfahren.",
-    "want": "Demonstranten fordern die Absetzung und Strafverfolgung des CEC Gyanesh Kumar, die Abschaffung des SIR sowie die Wiederherstellung gelöschter Wähler.",
-    "changed": "23. Okt.: Die Polizei nahm während eines Marsches auf das Hauptquartier der Indischen Wahlkommission im Zentrum Delhis zahlreiche Demonstranten fest."
+    "why": "Demonstranten lehnen die spezielle intensive Überarbeitung der Wählerverzeichnisse und die Streichung von Wählern aus den Listen ab.",
+    "want": "Sie fordern den Rücktritt und die strafrechtliche Verfolgung des CEC Gyanesh Kumar, die Abschaffung des SIR und die Wiederherstellung gelöschter Wählernamen.",
+    "changed": "23. Okt.: Etwa 500 Demonstranten marschierten durch das zentrale Delhi, hielten ein Volksparlament ab, nachdem sie von der Polizei blockiert wurden, und mehrere wurden festgenommen."
    },
-   "summary": "Eine Dachplattform namens People Against SIR organisierte gemeinsam mit Bauernverbänden, Gruppierungen von Studierenden und Organisationen der Zivilgesellschaft am 23. Oktober 2026 landesweite Kundgebungen und einen Marsch im Zentrum Delhis. Demonstranten zogen zum Hauptquartier der Indischen Wahlkommission, um ihren Widerstand gegen die spezielle intensive Revision der Wählerverzeichnisse und das Handeln des Chefwahlleiters Gyanesh Kumar kundzutun. Die Teilnehmer trugen die Nationalflagge und skandierten Parolen, die den Stopp der Wählerlistenrevision und den Schutz demokratischer Rechte forderten. Die Behörden blockierten den Marsch und nahmen mehrere Demonstranten fest, woraufhin die Teilnehmer ein symbolisches Volksparlament auf der Straße abhielten. Die Mobilisierung folgte auf die jüngste Entwidmung von Jantar Mantar als ausgewiesener Protestort.",
+   "summary": "Am 23. Oktober 2026 marschierten schätzungsweise 500 Demonstranten aus Studenten-, Bauern-, Frauen- und Zivilgesellschaftsgruppen unter dem Dach von „People Against SIR“ durch das zentrale Delhi. Die Teilnehmer versammelten sich in der Nähe von Gol Dak Khana und zogen mit der Nationalflagge und Transparenten zum Hauptquartier der Indischen Wahlkommission, um die Rücknahme der speziellen intensiven Überarbeitung der Wählerverzeichnisse und den Rücktritt des Chefwahlleiters Gyanesh Kumar zu fordern. Als die Polizei ihren Vormarsch blockierte, setzten sich die Demonstranten hin und hielten ein Volksparlament ab. Die Polizei von Delhi erklärte, dass Verbotsanordnungen gemäß Paragraf 163 des BNSS in Kraft waren, etwa 20 Demonstranten festgenommen und später wieder freigelassen wurden und mindestens ein FIR registriert wurde.",
    "demands": [
-    "Chefwahlleiter Gyanesh Kumar absetzen und strafrechtlich verfolgen",
-    "Spezielle intensive Revision der Wählerverzeichnisse abschaffen",
+    "Die spezielle intensive Überarbeitung der Wählerverzeichnisse abschaffen",
+    "Rücktritt und strafrechtliche Verfolgung des CEC Gyanesh Kumar",
     "Gelöschte Namen in den Wählerverzeichnissen wiederherstellen",
-    "Wahlkommissargesetz von 2023 aufheben",
-    "Die Anordnung zur Entwidmung von Jantar Mantar als Protestort widerrufen"
+    "Das Wahlkommissargesetz von 2023 aufheben",
+    "Die Aufhebung der Entnotifizierung von Jantar Mantar als Protestort widerrufen"
    ],
-   "response": "Die Polizei blockierte den Marsch unter Anwendung von Beschränkungen nach Paragraf 163 des BNSS und nahm zahlreiche Demonstranten fest, indem sie diese in Gewahrsamsbusse drängte. Die Behörden hatten Jantar Mantar zuvor entwidmet und frühere Kundgebungen niedergeschlagen.",
+   "response": "Die Polizei von Delhi blockierte den Marsch, berief sich auf Paragraf 163 des BNSS, um Versammlungen zu verbieten, registrierte mindestens ein FIR und nahm mehrere Demonstranten fest, bevor sie sie später freiliess.",
    "updates": [
-    "Bauernorganisationen unter dem Dach der SKM kündigten Pläne für landesweite Proteste und einen Marsch nach Delhi am 23. Oktober an.",
-    "Das Bündnis People Against SIR und unterstützende Gruppen riefen zu landesweiten Straßenprotesten und Fußmärschen auf.",
-    "Ein Marsch zum Hauptquartier der Wahlkommission begann im Zentrum Delhis nahe Gole Dak Khana.",
-    "Die Polizei von Delhi blockierte die Demonstranten, was zu Festnahmen und der Abhaltung eines symbolischen Volksparlaments führte."
+    "Teilnehmer versammelten sich in der Nähe von Gol Dak Khana im zentralen Delhi, um zum Hauptquartier der Wahlkommission zu marschieren.",
+    "Demonstranten setzten sich hin und hielten ein Volksparlament ab, nachdem die Polizei den Marsch blockiert hatte.",
+    "Die Polizei nahm Demonstranten fest, wobei die Behörden von etwa 20 Festnahmen berichteten, während Demonstranten höhere Zahlen angaben."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "Die Polizei gab an, dass etwa 20 Demonstranten festgenommen wurden; Demonstranten behaupteten, etwa 50 seien zusammengetrieben worden."
+   ],
+   "numbers": {
+    "crowd": "Etwa 500 Demonstranten aus Studenten-, Jugend-, Frauen-, Bauern- und zivilgesellschaftlichen Organisationen",
+    "arrests": "Die Polizei von Delhi gab an, dass etwa 20 Demonstranten festgenommen und später wieder freigelassen wurden, obwohl Demonstranten behaupteten, dass etwa 50..."
+   }
   }
  },
  "endedOn": "2026-10-23"

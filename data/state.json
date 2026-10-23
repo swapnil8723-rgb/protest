@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-23",
-  "count": 83
+  "count": 91
  },
  "runs": [
-  {
-   "at": "2026-10-16T21:15:53.540Z",
-   "ms": 97292,
-   "discovered": 33,
-   "fetched": 30,
-   "classified": 23,
-   "protests": 10,
-   "summarized": 4,
-   "published": 80,
-   "live": 12,
-   "aiCalls": 9,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 7 files, 24 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 59 protest-word items",
-    "fetch: 30 ok, 3 failed",
-    "classify: new candidate e343cfd01ef \"Palestine solidarity movement pressures illegal land sales in NY\" (New York City)",
-    "classify: new candidate e6c53626f87 \"Villagers demand permanent closure of illegal stone quarry in Melur\" (Madurai)",
-    "classify: new candidate e4a94a5fd83 \"Political parties and locals march against toll collection in Nattika\" (Thrissur)",
-    "classify: new candidate e1e9d7d9d4e \"Congress workers stage road blockade in Hubballi over detention\" (Hubballi)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-16T23:41:28.351Z",
    "ms": 154836,
@@ -1407,8 +1381,33 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-23T17:12:52.821Z",
+   "ms": 239481,
+   "discovered": 27,
+   "fetched": 25,
+   "classified": 21,
+   "protests": 7,
+   "summarized": 3,
+   "published": 103,
+   "live": 8,
+   "aiCalls": 8,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 4 files, 18 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 173 protest-word items",
+    "fetch: 25 ok, 2 failed",
+    "classify: new candidate e665e4a20a1 \"RSS seeks police permission for Vijayadashami marches in Bengaluru\" (Bengaluru)",
+    "classify: new candidate efac8b6e157 \"Truckers strike over diesel prices disrupts mozzarella production\" (Naples)",
+    "classify: new candidate ef1255e3a3c \"Oregonians hold No Kings rally along Highway 101\" (Lincoln City)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261023161500",
- "lastRunAt": "2026-10-23T16:16:25.532Z"
+ "gdeltCursor": "20261023171500",
+ "lastRunAt": "2026-10-23T17:12:52.821Z"
 }
