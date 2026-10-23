@@ -14,9 +14,13 @@ import { daysBetween, hoursSince, nowIso, sha } from './util.ts';
 const causeSet = new Set<string>(CAUSES);
 
 export function knownEvents(events: Map<string, ProtestEvent>): KnownEvent[] {
-  return [...events.values()]
+  const open = [...events.values()]
     .filter((e) => e.review !== 'rejected' && !e.notReal && !e.mergedInto && hoursSince(e.lastReportAt) < 10 * 24)
-    .sort((a, b) => (a.lastReportAt < b.lastReportAt ? 1 : -1))
+    .sort((a, b) => (a.lastReportAt < b.lastReportAt ? 1 : -1));
+  // Published events first: dozens of single-source candidates arrive every day, and
+  // ranking by recency alone pushed a running story off the list within days, so its
+  // next articles started a new page (Paris had 12 pages for one movement, Oct 2026).
+  return [...open.filter((e) => e.published), ...open.filter((e) => !e.published)]
     .slice(0, 150)
     .map((e) => ({ id: e.id, title: e.title, city: e.place.city, country: e.place.country, startedOn: e.startedOn, status: e.status }));
 }

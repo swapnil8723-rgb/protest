@@ -2,6 +2,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { deflateRawSync } from 'node:zlib';
+import { knownEvents } from '../pipeline/classify.ts';
 import { independentGroups, newEvent, findSimilar } from '../pipeline/events.ts';
 import { parseEvents } from '../pipeline/gdelt.ts';
 import { resolvePlace } from '../pipeline/geo.ts';
@@ -215,4 +216,13 @@ test('findSimilar matches same city, close dates, similar label only', () => {
   assert.equal(findSimilar([ev], 'Protest in Mumbai against CEC', place, '2026-10-15'), undefined);
   assert.equal(resolvePlace('Virudhunagar', 'Tamil Nadu', 'in')?.city, 'Virudunagar');
   assert.equal(resolvePlace('Mahabubabad', null as any, 'in'), null); // fuzzy needs region evidence
+});
+
+test('knownEvents keeps a running published story matchable under a flood of new candidates', () => {
+  const recent = (h: number) => new Date(Date.now() - h * 36e5).toISOString();
+  const story = Object.assign(newEvent('Paris living-costs protests', place, '2026-10-01', [], 's'), { published: true, lastReportAt: recent(72) });
+  const flood = Array.from({ length: 200 }, (_, i) => Object.assign(newEvent(`Candidate ${i}`, place, '2026-10-20', [], `c${i}`), { lastReportAt: recent(1) }));
+  const known = knownEvents(new Map([story, ...flood].map((e) => [e.id, e])));
+  assert.equal(known.length, 150);
+  assert.equal(known[0].id, story.id);
 });

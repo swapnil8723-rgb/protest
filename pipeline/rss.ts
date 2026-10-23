@@ -1,8 +1,11 @@
-// Publisher RSS fills gaps GDELT misses (mostly Indian city news). Items only enter
-// the pipeline if their headline/summary uses protest vocabulary.
+// Publisher RSS fills gaps GDELT misses: Indian city news, and the French/German/Spanish
+// press that GDELT's English-only export never sees. Items only enter the pipeline if
+// their headline/summary uses protest vocabulary. Only feeds whose articles we can fetch
+// (Le Monde 402, Libération 403, NYT 403 were tried and dropped, Oct 2026).
 import { isBlockedUrl, PROTEST_WORDS } from './util.ts';
 
 export const FEEDS = [
+  // India
   'https://www.thehindu.com/news/national/feeder/default.rss',
   'https://www.thehindu.com/news/cities/feeder/default.rss',
   'https://indianexpress.com/section/india/feed/',
@@ -10,6 +13,25 @@ export const FEEDS = [
   'https://feeds.feedburner.com/ndtvnews-india-news',
   'https://timesofindia.indiatimes.com/rssfeeds/-2128936835.cms',
   'https://theprint.in/category/india/feed/',
+  // France
+  'https://www.francetvinfo.fr/titres.rss',
+  'https://www.france24.com/fr/france/rss',
+  'https://www.france24.com/en/france/rss',
+  'https://www.20minutes.fr/feeds/rss-une.xml',
+  'https://www.lefigaro.fr/rss/figaro_actualites.xml',
+  'https://www.ouest-france.fr/rss/une',
+  'https://www.theguardian.com/world/france/rss',
+  // Germany
+  'https://www.tagesschau.de/inland/index~rss2.xml',
+  'https://www.spiegel.de/schlagzeilen/index.rss',
+  'https://rss.dw.com/rdf/rss-en-ger',
+  'https://www.theguardian.com/world/germany/rss',
+  // Spain, UK, US
+  'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada',
+  'https://www.theguardian.com/world/spain/rss',
+  'https://www.theguardian.com/uk-news/rss',
+  'https://www.theguardian.com/us-news/rss',
+  'https://feeds.npr.org/1003/rss.xml',
 ];
 
 export interface RssItem {
