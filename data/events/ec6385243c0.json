@@ -20,7 +20,7 @@
   "prices"
  ],
  "kind": "multi-day",
- "startedOn": "2026-09-30",
+ "startedOn": "2026-09-23",
  "status": "ongoing",
  "vibe": "tense",
  "severity": "serious",
@@ -28,107 +28,93 @@
  "reviewReasons": [
   "serious",
   "top-10",
-  "sources-disagree"
+  "tone-words"
  ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against poor school learning conditions, rising living costs, high fuel prices, and declining public services.",
-  "want": "Demonstrators demand better school infrastructure, increased education funding, extra teachers, better exam support, and higher purchasing power.",
-  "changed": "Oct 23: The French government announced the deployment of 70,000 police officers and gendarmes ahead of renewed weekend protests."
+  "why": "Protesters are angered by soaring living costs, high fuel prices, and deteriorating conditions in secondary schools and universities.",
+  "want": "Demonstrators demand better school facilities, smaller class sizes, more teachers, and relief from the high cost of living.",
+  "changed": "Oct 23: Authorities announced the deployment of 70,000 law enforcement officers ahead of weekend protests, while major museums in Paris prepared to close."
  },
- "summary": "A nationwide wave of protests and riots has erupted across France, initially driven by high-school students blockading schools over dilapidated classrooms, teacher shortages, and heavy timetables, and later expanding into broader demonstrations over the rising cost of living, low wages, pensions, and public services. Organised in part by student groups and trade unions such as the CGT, the movement has drawn hundreds of thousands of participants in cities including Paris, Marseille, Lyon, and Nantes. While many demonstrations remained peaceful, some actions were marked by widespread violence, arson attacks on public buildings, looting of shops, and clashes with riot police. Authorities responded with mass arrests, deployment of tear gas and rubber bullets, and a strict judicial response resulting in numerous prison sentences. President Emmanuel Macron appealed for calm while condemning acts of delinquency and vandalism, and announced that only union-organised demonstrations would be permitted for upcoming mobilizations.",
+ "summary": "Beginning in mid-September 2026, a wave of secondary school blockades and student-led demonstrations erupted across France over poor learning infrastructure, large class sizes, teacher shortages, and rising living costs. The movement expanded nationwide into multi-city rallies involving students, teachers, parents, and labour groups, drawing hundreds of thousands of participants. While many marched peacefully, separate gatherings descended into riots with clashes, property destruction, and looting. Police responded with tear gas, batons, and crowd-control projectiles, resulting in numerous injuries and arrests. The government faced heavy scrutiny over police tactics after several teenagers suffered severe injuries, leading the interior minister to suspend the use of stun grenades. Ahead of further planned demonstrations, authorities announced a massive security deployment of 70,000 officers and the closure of major cultural venues in Paris.",
  "organizers": [
-  "Renouveau Lyceen",
-  "Les Lyceens",
-  "CGT"
+  "CGT labour union",
+  "Yellow vest movement"
  ],
  "demands": [
-  "Improve school infrastructure and fix building defects",
-  "Increase investment in education and hire more teachers",
-  "Overhaul the Parcoursup university admissions system",
-  "Lower the cost of living and address fuel prices",
-  "Improve public services and wages"
+  "Better school facilities and infrastructure repairs",
+  "Smaller class sizes and more teachers",
+  "Lower living costs and fuel prices"
  ],
- "response": "Interior Minister Laurent Nunez stated that 70,000 police officers and gendarmes would be deployed for upcoming weekend protests. President Emmanuel Macron appealed for calm, blamed ultra-left groups for inciting violence, and announced that only union-organized demonstrations would be permitted.",
+ "response": "The French government deployed riot police, used tear gas, and announced the deployment of 70,000 officers for upcoming weekend protests, while opening internal investigations into police use of force, according to news reports.",
  "numbers": {
   "crowd": {
-   "value": 550000,
-   "text": "550,000 attend protests",
+   "value": 500000,
+   "text": "half a million people joined marches in scores of cities",
    "sources": [
-    5
+    5,
+    7
    ]
   },
   "arrests": {
    "value": 2400,
-   "text": "Police made 2,400 arrests across France",
+   "text": "Around 2,400 people were taken into custody nationwide",
    "sources": [
     6
    ]
   },
   "injuries": {
    "value": 1000,
-   "text": "nearly 1,000 officers were injured",
+   "text": "about 1,000 police officers, gendarmes and firefighters were injured",
    "sources": [
     6
    ]
   },
   "deaths": {
    "value": 1,
-   "text": "One protester died on Saturday after suffering a cardiac arrest during demonstrations in Paris",
+   "text": "One protester died after suffering a cardiac arrest during demonstrations",
    "sources": [
-    6
+    5
    ]
   }
  },
  "updates": [
   {
    "at": "2026-09-30",
-   "text": "Secondary pupils staged strikes and blocked school entrances over poor learning conditions, heatwaves, and teacher shortages.",
+   "text": "Student strikes and high school blockades spread across France, with hundreds detained and police deploying tear gas.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-05",
-   "text": "Hundreds of high schools experienced disruptions or closures as student protests persisted ahead of larger demonstrations.",
+   "text": "Hundreds of high schools remained closed as student protests continued and clashes broke out outside campuses.",
    "sources": [
-    2
+    2,
+    4
    ]
   },
   {
    "at": "2026-10-07",
-   "text": "Hundreds of thousands participated in protests calling for education investment, resulting in hundreds of arrests and injuries.",
+   "text": "The government reported 266,000 participants in nationwide marches, alongside 488 arrests and 43 injured security personnel.",
    "sources": [
     3
    ]
   },
   {
-   "at": "2026-10-16",
-   "text": "Ongoing blockades and clashes sparked national uproar over heavy policing and mass arrests of minors.",
-   "sources": [
-    4
-   ]
-  },
-  {
    "at": "2026-10-18",
-   "text": "Nationwide protests on October 17 drew over half a million people, leading to widespread arson, looting, and 1,800 arrests.",
+   "text": "Severe weekend riots left one demonstrator dead in Paris, over 2,000 arrested nationwide, and numerous shops looted.",
    "sources": [
-    5
-   ]
-  },
-  {
-   "at": "2026-10-19",
-   "text": "President Macron appealed for calm following severe urban unrest and promised measures to protect public buildings and businesses.",
-   "sources": [
+    5,
     6
    ]
   },
   {
    "at": "2026-10-23",
-   "text": "The government announced the mobilisation of 70,000 police officers as cities prepared for renewed weekend demonstrations.",
+   "text": "France announced the deployment of 70,000 officers and ordered major Paris museums to close ahead of further weekend protests.",
    "sources": [
-    10
+    8
    ]
   }
  ],
@@ -149,271 +135,227 @@
   },
   {
    "n": 3,
-   "url": "https://www.thelocal.fr/20261007/opinion-relax-mum-france-isnt-in-flames-its-just-a-bin-on-fire",
-   "publisher": "thelocal.fr",
-   "title": "OPINION: Relax, mum, France isn't in flames it's just a bin on fire",
-   "publishedAt": "2026-10-07T09:14:03.000Z"
+   "url": "https://www.thenationalnews.com/news/europe/2026/10/07/french-government-offers-olive-branch-to-student-protest-movement/",
+   "publisher": "thenationalnews.com",
+   "title": "French government offers olive branch to student protest movement | The National",
+   "publishedAt": "2026-10-07T11:27:38.483Z"
   },
   {
    "n": 4,
-   "url": "https://www.winnipegfreepress.com/world/2026/10/16/policing-of-frances-school-protests-clouds-macrons-final-months-and-sparks-uproar",
-   "publisher": "winnipegfreepress.com",
-   "title": "Policing of France's school protests clouds Macron's final months and sparks uproar",
-   "publishedAt": "2026-10-16T05:00:36.000Z"
+   "url": "https://www.moneycontrol.com/world/severed-hands-broken-jaws-french-police-accused-of-excessive-force-after-teens-suffer-war-like-injuries-article-14054072.html",
+   "publisher": "moneycontrol.com",
+   "title": "Severed hands, broken jaws: French police accused of excessive force after teens suffer war-like injuries- Moneycontrol.com"
   },
   {
    "n": 5,
-   "url": "https://www.connexionfrance.com/news/frances-october-17-protests-clashes-with-police-looting-and-buildings-set-on-fire/821742",
-   "publisher": "connexionfrance.com",
-   "title": "France’s October 17 protests: clashes with police, looting and arson attacks eclipse protestors",
-   "publishedAt": "2026-10-18T11:02:28.000Z"
+   "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/18/france-faces-aftermath-of-worst-unrest-in-years",
+   "publisher": "internazionale.it",
+   "title": "France counts cost of worst unrest in years",
+   "publishedAt": "2026-10-18T13:41:42.000Z"
   },
   {
    "n": 6,
-   "url": "https://www.chronicle.lu/category/international/64080-macron-urges-calm-as-france-counts-the-cost-of-worst-unrest-in-years",
-   "publisher": "chronicle.lu",
-   "title": "Macron Urges Calm as France Counts the Cost of Worst Unrest in Years"
+   "url": "https://aa.com.tr/en/economy/french-stocks-fall-over-1-as-violent-protests-weigh-on-sentiment/4093216",
+   "publisher": "aa.com.tr",
+   "title": "French stocks fall over 1% as violent protests weigh on sentiment",
+   "publishedAt": "2026-10-19T12:28:01.527Z"
   },
   {
    "n": 7,
-   "url": "https://georgiatoday.ge/french-justice-minister-2513-detained-over-weekend-67-sent-to-prison/",
-   "publisher": "georgiatoday.ge",
-   "title": "French Justice Minister: 2,513 detained over weekend, 67 sent to prison",
-   "publishedAt": "2026-10-20T05:49:33.000Z"
+   "url": "https://www.dailymail.com/news/article-16222999/BBC-calls-French-riots-peaceful-showing-Paris-flames.html",
+   "publisher": "dailymail.com",
+   "title": "BBC is mocked for calling French riots 'mostly peaceful' while showing videos of Paris in flames and thugs fighting police",
+   "publishedAt": "2026-10-20T11:01:57.000Z"
   },
   {
    "n": 8,
-   "url": "https://www.dailysabah.com/world/europe/macron-faces-tall-order-as-france-braces-for-renewed-protests",
-   "publisher": "dailysabah.com",
-   "title": "Macron faces tall order as France braces for renewed protests",
-   "publishedAt": "2026-10-23T08:34:00.000Z"
+   "url": "https://www.witneygazette.co.uk/news/national/26665271.france-shuts-museums-deploys-big-security-presence-ahead-weekend-protests/",
+   "publisher": "witneygazette.co.uk",
+   "title": "France shuts museums and deploys big security presence ahead of weekend protests",
+   "publishedAt": "2026-10-23T14:52:15.000Z"
   },
   {
    "n": 9,
-   "url": "https://www.france24.com/fr/france/20261023-se-calfeutrer-cacher-stocks-veille-acte-ii-commerces-parisiens-se-pr%C3%A9parent-24-octobre",
-   "publisher": "france24.com",
-   "title": "Se calfeutrer, cacher les stocks : à la veille de l'\"acte II\", les commerces parisiens se préparent",
-   "publishedAt": "2026-10-23T13:17:44.000Z"
-  },
-  {
-   "n": 10,
-   "url": "https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates",
-   "publisher": "theguardian.com",
-   "title": "France to deploy 70,000 officers as it braces for weekend of protests – Europe live",
-   "publishedAt": "2026-10-23T13:45:47.000Z"
+   "url": "https://www.sandiegouniontribune.com/2026/10/23/france-police-injuring-protesters-explained/",
+   "publisher": "sandiegouniontribune.com",
+   "title": "What to know about the weapons and tactics blamed for injuring French protesters",
+   "publishedAt": "2026-10-23T15:16:29.000Z"
   }
  ],
- "conflicts": [
-  "Police stated turnout was 250,000 on Tuesday, while unions claimed 450,000.",
-  "The Interior Ministry estimated nationwide turnout at 550,000 for October 17, while organizers estimated 800,000."
- ],
- "confidence": 0.8,
- "publishers": 10,
- "reports24h": 14,
+ "conflicts": [],
+ "confidence": 0.9,
+ "publishers": 9,
+ "reports24h": 16,
  "reportsPrev24h": 21,
- "reports48h": 35,
+ "reports48h": 37,
  "firstSeenAt": "2026-10-06T02:27:49.925Z",
- "lastReportAt": "2026-10-23T13:45:47.000Z",
- "lastCheckedAt": "2026-10-23T13:58:10.463Z",
- "updatedAt": "2026-10-23T13:53:55.834Z",
+ "lastReportAt": "2026-10-23T15:16:29.000Z",
+ "lastCheckedAt": "2026-10-23T16:20:23.290Z",
+ "updatedAt": "2026-10-23T16:18:47.578Z",
  "responseSources": [
-  6,
-  8,
-  10
+  1,
+  3,
+  4,
+  8
  ],
  "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-10-23T13:53:55.834Z",
+ "summarizedAt": "2026-10-23T16:18:47.578Z",
  "publishedAt": "2026-10-20T04:29:54.302Z",
  "i18n": {
-  "of": "d4996f42843cf214",
-  "at": "2026-10-23T13:58:28.154Z",
+  "of": "f17d4115a7781a65",
+  "at": "2026-10-23T16:20:53.994Z",
   "tries": 1,
   "hi": {
-   "title": "फ्रांस में जीवनयापन की लागत और स्कूली स्थितियों को लेकर प्रदर्शन और दंगे",
-   "seoTitle": "जीवनयापन लागत और स्कूलों को लेकर पेरिस में प्रदर्शन",
+   "title": "फ्रांस में जीवन लागत और स्कूल की स्थिति को लेकर प्रदर्शन और दंगे",
+   "seoTitle": "जीवन लागत और स्कूलों को लेकर पेरिस में विरोध प्रदर्शन",
    "tea": {
-    "why": "प्रदर्शनीकारी खराब स्कूली पठन-पाठन की स्थिति, जीवनयापन की बढ़ती लागत, ऊंचे ईंधन मूल्यों और घटती सार्वजनिक सेवाओं के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शक बेहतर स्कूली बुनियादी ढांचे, शिक्षा के लिए बढ़ी हुई फंडिंग, अतिरिक्त शिक्षकों, बेहतर परीक्षा सहायता और उच्च क्रय शक्ति की मांग करते हैं।",
-    "changed": "23 अक्टूबर: आगामी सप्ताहांत प्रदर्शनों से पहले फ्रांसीसी सरकार ने 70,000 पुलिस अधिकारियों और पुलिसकर्मियों को तैनात करने की घोषणा की।"
+    "why": "प्रदर्शनकारी आसमान छूती जीवन लागत, महंगे ईंधन और माध्यमिक स्कूलों तथा विश्वविद्यालयों में बदतर होती स्थिति से नाराज हैं।",
+    "want": "प्रदर्शनकारियों की मांग है कि बेहतर स्कूल सुविधाएं, छोटी कक्षाएं, अधिक शिक्षक मिलें और बढ़ती जीवन लागत से राहत दी जाए।",
+    "changed": "23 अक्टूबर: अधिकारियों ने सप्ताहांत के प्रदर्शनों से पहले 70,000 कानून प्रवर्तन अधिकारियों को तैनात करने की घोषणा की, जबकि पेरिस के प्रमुख संग्रहालय बंद होने की तैयारी कर रहे थे।"
    },
-   "summary": "फ्रांस भर में राष्ट्रव्यापी प्रदर्शनों और दंगों की लहर फूट पड़ी है, जो शुरुआत में जर्जर कक्षाओं, शिक्षकों की कमी और भारी समय-सारणी को लेकर स्कूलों की नाकेबंदी करने वाले हाई-स्कूल के छात्रों से प्रेरित थी, और बाद में जीवनयापन की बढ़ती लागत, कम वेतन, पेंशन और सार्वजनिक सेवाओं पर व्यापक प्रदर्शनों में फैल गई। छात्र समूहों और सीजीटी जैसे ट्रेड यूनियनों द्वारा आंशिक रूप से आयोजित इस आंदोलन ने पेरिस, मार्सिले, ल्योन और नान्टेस सहित शहरों में लाखों प्रतिभागियों को आकर्षित किया है। हालांकि कई प्रदर्शन शांतिपूर्ण रहे, लेकिन कुछ कार्रवाइयों में व्यापक हिंसा, सार्वजनिक इमारतों पर आगजनी के हमले, दुकानों में लूटपाट और दंगा रोधी पुलिस के साथ झड़पें देखी गईं। अधिकारियों ने सामूहिक गिरफ्तारी, आंसू गैस और रबर की गोलियों की तैनाती और कई जेल की सजाओं के परिणामस्वरूप एक सख्त न्यायिक प्रतिक्रिया के साथ जवाब दिया। राष्ट्रपति इमैनुएल मैक्रों ने अपराध और बर्बरता की निंदा करते हुए शांति की अपील की और घोषणा की कि आगामी लामबंदी के लिए केवल संघ-आयोजित प्रदर्शनों की अनुमति दी जाएगी।",
+   "summary": "सितंबर 2026 के मध्य में शुरू होकर, खराब शिक्षण बुनियादी ढांचे, बड़े कक्षा आकारों, शिक्षक की कमी और बढ़ती जीवन लागत को लेकर पूरे फ्रांस में माध्यमिक विद्यालय की नाकाबंदी और छात्र-नेतृत्व वाले प्रदर्शनों की एक लहर फूट पड़ी। यह आंदोलन राष्ट्रव्यापी रूप से कई शहरों की रैलियों में फैल गया, जिसमें छात्रों, शिक्षकों, अभिभावकों और श्रम समूहों ने भाग लिया और लाखों प्रतिभागियों को आकर्षित किया। हालांकि कई लोगों ने शांतिपूर्ण मार्च निकाला, लेकिन अलग-अलग सभाएं झड़पों, संपत्ति की तोड़फोड़ और लूटपाट के साथ दंगों में बदल गईं। पुलिस ने आंसू गैस, लाठियों और भीड़-नियंत्रण प्रोजेक्टाइल के साथ जवाब दिया, जिसके परिणामस्वरूप कई चोटें आईं और गिरफ्तारियां हुईं। कई किशोरों के गंभीर रूप से घायल होने के बाद पुलिस की रणनीति पर सरकार को भारी जांच का सामना करना पड़ा, जिससे आंतरिक मंत्री को स्टन ग्रेनेड के इस्तेमाल को निलंबित करना पड़ा। आगे की नियोजित प्रदर्शनों से पहले, अधिकारियों ने 70,000 अधिकारियों की भारी सुरक्षा तैनाती और पेरिस में प्रमुख सांस्कृतिक स्थलों को बंद करने की घोषणा की।",
    "demands": [
-    "स्कूली बुनियादी ढांचे में सुधार करें और भवन के दोषों को ठीक करें",
-    "शिक्षा में निवेश बढ़ाएं और अधिक शिक्षकों को काम पर रखें",
-    "Parcoursup विश्वविद्यालय प्रवेश प्रणाली का ओवरहाल करें",
-    "जीवनयापन की लागत कम करें और ईंधन की कीमतों का समाधान करें",
-    "सार्वजनिक सेवाओं और वेतन में सुधार करें"
+    "बेहतर स्कूल सुविधाएं और बुनियादी ढांचे की मरम्मत",
+    "छोटे कक्षा के आकार और अधिक शिक्षक",
+    "कम जीवन लागत और ईंधन की कीमतें"
    ],
-   "response": "आंतरिक मंत्री लॉरेंट नुनेज ने कहा कि आगामी सप्ताहांत प्रदर्शनों के लिए 70,000 पुलिस अधिकारी और पुलिसकर्मी तैनात किए जाएंगे। राष्ट्रपति इमैनुएल मैक्रों ने शांति की अपील की, हिंसा भड़काने के लिए अति-वाम समूहों को दोषी ठहराया और घोषणा की कि केवल संघ-आयोजित प्रदर्शनों की अनुमति दी जाएगी।",
+   "response": "समाचार रिपोर्टों के अनुसार, फ्रांसीसी सरकार ने दंगा रोधी पुलिस को तैनात किया, आंसू गैस का इस्तेमाल किया, और आगामी सप्ताहांत के प्रदर्शनों के लिए 70,000 अधिकारियों की तैनाती की घोषणा की, साथ ही पुलिस द्वारा बल प्रयोग की आंतरिक जांच शुरू की।",
    "updates": [
-    "खराब पठन-पाठन की स्थिति, लू की लहर और शिक्षकों की कमी को लेकर माध्यमिक के छात्रों ने हड़ताल की और स्कूल के प्रवेश द्वारों को बंद कर दिया।",
-    "बड़े प्रदर्शनों से पहले छात्र विरोध प्रदर्शन जारी रहने के कारण सैकड़ों हाई स्कूलों में व्यवधान या बंदी का अनुभव हुआ।",
-    "शिक्षा में निवेश की मांग करने वाले प्रदर्शनों में लाखों लोग शामिल हुए, जिसके परिणामस्वरूप सैकड़ों गिरफ्तारियां और चोटें आईं।",
-    "जारी नाकेबंदी और झड़पों ने भारी पुलिसिंग और नाबालिगों की सामूहिक गिरफ्तारी पर राष्ट्रीय हंगामा खड़ा कर दिया।",
-    "17 अक्टूबर को राष्ट्रव्यापी प्रदर्शनों में 5 लाख से अधिक लोग शामिल हुए, जिससे व्यापक आगजनी, लूटपाट और 1,800 गिरफ्तारियां हुईं।",
-    "गंभीर शहरी अशांति के बाद राष्ट्रपति मैक्रों ने शांति की अपील की और सार्वजनिक इमारतों और व्यवसायों की रक्षा के लिए उपायों का वादा किया।",
-    "शहरों द्वारा आगामी सप्ताहांत प्रदर्शनों की तैयारी करने पर सरकार ने 70,000 पुलिस अधिकारियों के जुटाव की घोषणा की।"
+    "पूरे फ्रांस में छात्र हड़तालें और हाई स्कूल की नाकाबंदी फैल गई, जिसमें सैकड़ों लोगों को हिरासत में लिया गया और पुलिस ने आंसू गैस का इस्तेमाल किया।",
+    "छात्र प्रदर्शन जारी रहने और परिसरों के बाहर झड़पें होने के कारण सैकड़ों हाई स्कूल बंद रहे।",
+    "सरकार ने देशव्यापी मार्च में 266,000 प्रतिभागियों, साथ ही 488 गिरफ्तारियों और 43 घायल सुरक्षा कर्मियों की सूचना दी।",
+    "गंभीर सप्ताहांत दंगों के कारण पेरिस में एक प्रदर्शनकारी की मौत हो गई, देश भर में 2,000 से अधिक लोगों को गिरफ्तार किया गया और कई दुकानों में लूटपाट हुई।",
+    "फ्रांस ने आगे के सप्ताहांत प्रदर्शनों से पहले 70,000 अधिकारियों की तैनाती की घोषणा की और पेरिस के प्रमुख संग्रहालयों को बंद करने का आदेश दिया।"
    ],
-   "conflicts": [
-    "पुलिस ने कहा कि मंगलवार को उपस्थिति 250,000 थी, जबकि यूनियनों ने 450,000 का दावा किया।",
-    "आंतरिक मंत्रालय ने 17 अक्टूबर के लिए राष्ट्रव्यापी उपस्थिति 550,000 आंकी, जबकि आयोजकों ने 800,000 का अनुमान लगाया।"
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "550,000 प्रदर्शनों में शामिल हुए",
-    "arrests": "पुलिस ने पूरे फ्रांस में 2,400 गिरफ्तारियां कीं",
-    "injuries": "लगभग 1,000 अधिकारी घायल हो गए",
-    "deaths": "पेरिस में प्रदर्शन के दौरान शनिवार को कार्डियक अरेस्ट से एक प्रदर्शनकारी की मौत हो गई"
+    "crowd": "अनेक शहरों में मार्च में पांच लाख लोग शामिल हुए",
+    "arrests": "देश भर में लगभग 2,400 लोगों को हिरासत में लिया गया",
+    "injuries": "लगभग 1,000 पुलिस अधिकारी, जैंडरमे और अग्निशामक घायल हुए",
+    "deaths": "प्रदर्शनों के दौरान कार्डियक अरेस्ट से पीड़ित होने के बाद एक प्रदर्शनकारी की मौत हो गई"
    }
   },
   "mr": {
-   "title": "फ्रान्समध्ये राहणीमानाचा खर्च आणि शाळेच्या स्थितीवरून निदर्शने आणि दंगली",
-   "seoTitle": "राहणीमानाचा खर्च आणि शाळांवरून पॅरिसमध्ये निदर्शने",
+   "title": "फ्रान्समध्ये राहणीमान खर्च आणि शाळांच्या परिस्थितीवरून निदर्शने व दंगली",
+   "seoTitle": "राहणीमान खर्च आणि शाळांवरून पॅरिसमध्ये निषेध",
    "tea": {
-    "why": "निदर्शक निकृष्ट शालेय शिक्षणाच्या स्थिती, वाढता राहणीमानाचा खर्च, महाग इंधन किमती आणि ढासळणाऱ्या सार्वजनिक सेवांच्या विरोधात निदर्शने करत आहेत.",
-    "want": "निदर्शक चांगल्या शालेय पायाभूत सुविधा, वाढवलेला शिक्षण निधी, अतिरिक्त शिक्षक, उत्तम परीक्षा साहाय्य आणि उच्च खरेदी शक्तीची मागणी करतात.",
-    "changed": "२३ ऑक्टोबर: आगामी वीकेंड निदर्शनांच्या आधी फ्रेंच सरकारने ७०,000 पोलीस अधिकारी आणि जवानांच्या तैनातीची घोषणा केली."
+    "why": "वाढता राहणीमान खर्च, उच्च इंधन दर आणि माध्यमिक शाळा व विद्यापीठांमधील ढासळलेली परिस्थिती यामुळे निदर्शक संतप्त झाले आहेत.",
+    "want": "निदर्शकांनी चांगल्या शालेय सुविधा, लहान वर्ग आकार, अधिक शिक्षक आणि वाढत्या राहणीमान खर्चापासून दिलासा देण्याची मागणी केली आहे.",
+    "changed": "२३ ऑक्टोबर: वीकेंडवरील निदर्शनांपूर्वी ७०,००० कायदा सुव्यवस्था अधिकाऱ्यांची तैनाती करण्याची घोषणा अधिकाऱ्यांनी केली, तर पॅरिसमधील प्रमुख संग्रहालये बंद करण्याची तयारी करत होती."
    },
-   "summary": "फ्रान्समध्ये राष्ट्रव्यापी निदर्शने आणि दंगलींची लाट उसळली आहे, जी सुरुवातीला जीर्ण वर्गांवर, शिक्षक टंचाईवर आणि जड वेळापत्रकावर शाळांना वेढा घालणाऱ्या हायस्कूलच्या विद्यार्थ्यांमुळे प्रेरित होती, आणि नंतर राहणीमानाचा वाढता खर्च, कमी पगार, पेन्शन आणि सार्वजनिक सेवा यावर व्यापक निदर्शनांमध्ये विस्तारली. विद्यार्थी गट आणि सीजीटी सारख्या कामगार युनियन्सद्वारे अंशतः आयोजित केलेल्या या आंदोलनाने पॅरिस, मार्सेल, लियॉन आणि नान्तेससह शहरांमध्ये शेकडो हजारो सहभागींना आकर्षित केले आहे. बरीच निदर्शने शांततापूर्ण राहिली असली, तरी काही कृतींमध्ये मोठ्या प्रमाणावर हिंसाचार, सार्वजनिक इमारतींवर जाळपोळ हल्ले, दुकानांची लूटमार आणि दंगलविरोधी पोलिसांशी चकमकी झाल्या. अधिकाऱ्यांनी सामूहिक अटक, अश्रूधूर आणि रबरच्या गोळ्यांची तैनाती आणि अनेक तुरुंगवासाच्या शिक्षेचा परिणाम करणारी कठोर न्यायव्यवस्था प्रतिसाद देऊन प्रत्युत्तर दिले. अध्यक्ष इमॅनुएल मॅक्रॉन यांनी गुन्हेगारी आणि तोडफोडीच्या कृत्यांचा निषेध करत शांततेचे आवाहन केले आणि घोषणा केली की आगामी आंदोलनांसाठी केवळ युनियन-आयोजित निदर्शनांना परवानगी दिली जाईल.",
+   "summary": "सप्टेंबर २०२६ च्या मध्यात सुरू झालेली, खराब शिक्षण पायाभूत सुविधा, मोठे वर्ग आकार, शिक्षकांची कमतरता आणि वाढता राहणीमान खर्च यावरून फ्रान्सभर माध्यमिक शाळेच्या नाकाबंदीची आणि विद्यार्थी-नेतृत्वाखालील निदर्शनांची लाट उसळली. हे आंदोलन देशभरात अनेक शहरांमधील रॅलींमध्ये विस्तारले ज्यामध्ये विद्यार्थी, शिक्षक, पालक आणि कामगार गट सहभागी झाले, ज्याने शेकडो हजारो सहभागींना आकर्षित केले. अनेकांनी शांततापूर्ण मार्च काढला असताना, स्वतंत्र जमाव संघर्ष, मालमत्तेची तोडफोड आणि लुटालुटीसह दंगलींमध्ये बदलले. पोलिसांनी अश्रुधूर, लाठ्या आणि गर्दी-नियंत्रण क्षेपणास्त्रांसह प्रत्युत्तर दिले, ज्यामुळे अनेक जण जखमी झाले आणि गिरफ्तार्या झाल्या. अनेक किशोरवयीन मुले गंभीर जखमी झाल्यानंतर सरकारच्या पोलिसांनी वापरलेल्या रणनीतीवर जोरदार चौकशी झाली, ज्यामुळे अंतर्गत मंत्र्यांना स्टन ग्रेनेडचा वापर निलंबित करण्यास भाग पाडले. पुढील नियोजित निदर्शनांच्या आधी, अधिकाऱ्यांनी ७०,००० अधिकाऱ्यांची मोठी सुरक्षा तैनाती आणि पॅरिसमधील प्रमुख सांस्कृतिक स्थळे बंद करण्याची घोषणा केली.",
    "demands": [
-    "शाळेच्या पायाभूत सुविधांमध्ये सुधारणा करा आणि इमारतीचे दोष ठीक करा",
-    "शिक्षणातील गुंतवणूक वाढवा आणि अधिक शिक्षकांना कामावर ठेवा",
-    "Parcoursup विद्यापीठ प्रवेश प्रणालीचे आधुनिकीकरण करा",
-    "राहणीमानाचा खर्च कमी करा आणि इंधनाच्या किंमतींचे निराकरण करा",
-    "सार्वजनिक सेवा आणि वेतनामध्ये सुधारणा करा"
+    "चांगल्या शालेय सुविधा आणि पायाभूत सुविधांची दुरुस्ती",
+    "लहान वर्ग आकार आणि अधिक शिक्षक",
+    "कमी राहणीमान खर्च आणि इंधन दर"
    ],
-   "response": "आंतरिक मंत्री लॉरेन्ट नुनेझ यांनी सांगितले की आगामी वीकेंड निदर्शनांसाठी ७०,000 पोलीस अधिकारी आणि जवान तैनात केले जातील. अध्यक्ष इमॅनुएल मॅक्रॉन यांनी शांततेचे आवाहन केले, हिंसाचाराला प्रवृत्त केल्याबद्दल अति-डाव्या गटांना दोषी ठरवले आणि घोषणा केली की केवळ युनियन-आयोजित निदर्शनांना परवानगी दिली जाईल.",
+   "response": "वृत्त अहवालानुसार, फ्रेंच सरकारने दंगलविरोधी पोलीस तैनात केले, अश्रुधूर वापरला आणि आगामी वीकेंड निदर्शनांसाठी ७०,००० अधिकाऱ्यांच्या तैनातीची घोषणा केली, तसेच पोलिसांच्या शक्तीच्या वापराची अंतर्गत चौकशी सुरू केली.",
    "updates": [
-    "निकृष्ट शिक्षणाची स्थिती, उष्णतेची लाट आणि शिक्षक टंचाईमुळे माध्यमिक विद्यार्थ्यांनी संप केला आणि शाळेचे प्रवेशद्वार अडवले.",
-    "मोठ्या निदर्शनांच्या आधी विद्यार्थ्यांचे विरोध प्रदर्शन सुरू राहिल्याने शेकडो हायस्कूलमध्ये अडथळे किंवा बंद पाहिले गेले.",
-    "शिक्षणातील गुंतवणुकीची मागणी करणाऱ्या निदर्शनांमध्ये शेकडो हजारो लोकांनी सहभाग घेतला, ज्यामुळे शेकडो अटक आणि दुखापती झाल्या.",
-    "सुरू असलेल्या नाकेबंदी आणि चकमकींमुळे जड पोलिसिंग आणि अल्पवयीनांच्या सामूहिक अटकेवर राष्ट्रीय गदारोळ उडाला.",
-    "१७ ऑक्टोबर रोजी झालेल्या राष्ट्रव्यापी निदर्शनांमध्ये पाच लाखांहून अधिक लोक सहभागी झाले, ज्यामुळे मोठ्या प्रमाणावर जाळपोळ, लूटमार आणि १,८०० अटक झाली.",
-    "गंभीर नागरी अशांतेनंतर अध्यक्ष मॅक्रॉन यांनी शांततेचे आवाहन केले आणि सार्वजनिक इमारती आणि व्यवसायांचे संरक्षण करण्यासाठी उपायांचे आश्वासन दिले.",
-    "शहरांनी आगामी वीकेंड निदर्शनांची तयारी केली असताना सरकारने ७०,000 पोलीस अधिकारी तैनात करण्याची घोषणा केली."
+    "फ्रान्सभर विद्यार्थी संप आणि हायस्कूल नाकाबंदी पसरली, शेकडो जणांना ताब्यात घेण्यात आले आणि पोलिसांनी अश्रुधूर सोडला.",
+    "विद्यार्थ्यांची निदर्शने सुरूच राहिल्याने आणि कॅम्पसबाहेर संघर्ष उसळल्याने शेकडो हायस्कूल बंद राहिले.",
+    "सरकारने देशव्यापी मार्चमध्ये २६६,००० सहभागी, तसेच ४८८ गिरफ्तार्या आणि ४३ जखमी सुरक्षा कर्मचाऱ्यांची नोंद केली.",
+    "गंभीर वीकेंड दंगलींमुळे पॅरिसमध्ये एका निदर्शकाचा मृत्यू झाला, देशभरात २,००० हून अधिक जणांना अटक करण्यात आली आणि अनेक दुकाने लूटली गेली.",
+    "पुढील वीकेंड निदर्शनांपूर्वी फ्रान्सने ७०,००० अधिकाऱ्यांची तैनाती जाहीर केली आणि पॅरिसमधील प्रमुख संग्रहालये बंद करण्याचे आदेश दिले."
    ],
-   "conflicts": [
-    "पोलिसांनी सांगितले की मंगळवारी उपस्थिती २५०,000 होती, तर युनियन्सनी ४५०,000 दावा केला.",
-    "आंतरिक मंत्रालयाने १७ ऑक्टोबरसाठी राष्ट्रव्यापी उपस्थिती ५५०,000 अंदाज वर्तवला, तर आयोजकांनी ८00,000 अंदाज वर्तवला."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "५५०,000 निदर्शनांमध्ये सहभागी झाले",
-    "arrests": "पोलिसांनी फ्रान्सभर २,४०० अटक केली",
-    "injuries": "जवळपास १,000 अधिकारी जखमी झाले",
-    "deaths": "पॅरिसमधील निदर्शनांदरम्यान शनिवार हृदयविकाराचा झटका आल्याने एका निदर्शकाचा मृत्यू झाला"
+    "crowd": "अनेका शहरांमधील मार्चमध्ये पाच लाख लोक सामील झाले",
+    "arrests": "देशभरात सुमारे २,४०० लोकांना ताब्यात घेण्यात आले",
+    "injuries": "सुमारे १,००० पोलीस अधिकारी, जेंडरमे आणि अग्निशामक जखमी झाले",
+    "deaths": "निदर्शनांदरम्यान हृदयविकाराचा झटका आल्याने एका निदर्शकाचा मृत्यू झाला"
    }
   },
   "es": {
-   "title": "Manifestaciones y disturbios por el costo de vida y las condiciones escolares en Francia",
-   "seoTitle": "Protestas en París por costo de vida y escuelas",
+   "title": "Manifestaciones y disturbios por el costo de la vida y las condiciones escolares en Francia",
+   "seoTitle": "Protestas en París por el costo de la vida y escuelas",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra las malas condiciones de aprendizaje escolar, el aumento del costo de vida, los altos precios del combustible y la disminución de los servicios públicos.",
-    "want": "Los manifestantes exigen mejores infraestructuras escolares, mayor financiación para la educación, profesores adicionales, mejor apoyo para los exámenes y mayor poder adquisitivo.",
-    "changed": "23 de oct: El gobierno francés anunció el despliegue de 70.000 policías y gendarmes antes de las renovadas protestas de fin de semana."
+    "why": "Los manifestantes están angered por el aumento vertiginoso del costo de la vida, los altos precios del combustible y el deterioro de las condiciones en las escuelas secundarias y universidades.",
+    "want": "Los manifestantes exigen mejores instalaciones escolares, clases más reducidas, más profesores y alivio frente al alto costo de la vida.",
+    "changed": "23 de octubre: Las autoridades anunciaron el despliegue de 70.000 agentes del orden ante las protestas del fin de semana, mientras los principales museos de París se preparaban para cerrar."
    },
-   "summary": "Una ola nacional de protestas y disturbios ha estallado en toda Francia, impulsada inicialmente por estudiantes de secundaria que bloqueaban escuelas debido a aulas deterioradas, escasez de profesores y horarios pesados, y que luego se extendió a manifestaciones más amplias sobre el aumento del costo de vida, salarios bajos, pensiones y servicios públicos. Organizado en parte por grupos de estudiantes y sindicatos como la CGT, el movimiento ha atraído a cientos de miles de participantes en ciudades como París, Marsella, Lyon y Nantes. Aunque muchas manifestaciones se mantuvieron pacíficas, algunas acciones estuvieron marcadas por violencia generalizada, ataques incendiarios contra edificios públicos, saqueos de tiendas y enfrentamientos con la policía antidisturbios. Las autoridades respondieron con arrestos masivos, despliegue de gases lacrimógenos y balas de goma, y una respuesta judicial estricta que resultó en numerosas condenas de prisión. El presidente Emmanuel Macron hizo un llamamiento a la calma mientras condenaba los actos de delincuencia y vandalismo, y anunció que solo se permitirían manifestaciones organizadas por sindicatos para las próximas movilizaciones.",
+   "summary": "A principios de septiembre de 2026, una ola de bloqueos en escuelas secundarias y manifestaciones lideradas por estudiantes estalló en toda Francia debido a la deficiente infraestructura de aprendizaje, las grandes clases, la escasez de profesores y el aumento del costo de la vida. El movimiento se expandió a nivel nacional en mítines multiciudad que involucraron a estudiantes, profesores, padres y grupos laborales, atrayendo a cientos de miles de participantes. Aunque muchos marcharon pacíficamente, concentraciones separadas degeneraron en disturbios con enfrentamientos, destrozos de propiedades y saqueos. La policía respondió con gases lacrimógenos, porras y proyectiles antidisturbios, lo que provocó numerosas lesiones y detenciones. El gobierno se enfrentó a un intenso escrutinio sobre las tácticas policiales después de que varios adolescentes sufrieran heridas graves, lo que llevó al ministro del Interior a suspender el uso de granadas de aturdimiento. Ante nuevas manifestaciones previstas, las autoridades anunciaron un despliegue masivo de seguridad de 70.000 agentes y el cierre de los principales recintos culturales en París.",
    "demands": [
-    "Mejorar la infraestructura escolar y reparar los defectos de los edificios",
-    "Aumentar la inversión en educación y contratar a más profesores",
-    "Revisar el sistema de admisiones universitarias Parcoursup",
-    "Reducir el costo de vida y abordar los precios del combustible",
-    "Mejorar los servicios públicos y los salarios"
+    "Mejores instalaciones escolares y reparaciones de infraestructura",
+    "Clases más reducidas y más profesores",
+    "Menor costo de la vida y precios del combustible"
    ],
-   "response": "El ministro del Interior, Laurent Nunez, declaró que se desplegarían 70.000 policías y gendarmes para las próximas protestas de fin de semana. El presidente Emmanuel Macron hizo un llamamiento a la calma, culpó a los grupos de extrema izquierda de incitar a la violencia y anunció que solo se permitirían manifestaciones organizadas por sindicatos.",
+   "response": "El gobierno francés desplegó antidisturbios, utilizó gases lacrimógenos y anunció el despliegue de 70.000 agentes para las próximas protestas del fin de semana, al tiempo que abrió investigaciones internas sobre el uso de la fuerza policial, según informes de prensa.",
    "updates": [
-    "Los alumnos de secundaria protagonizaron huelgas y bloquearon las entradas de las escuelas debido a las malas condiciones de aprendizaje, las olas de calor y la escasez de profesores.",
-    "Cientos de escuelas secundarias experimentaron interrupciones o cierres mientras persistían las protestas estudiantiles antes de manifestaciones más grandes.",
-    "Cientos de miles participaron en protestas pidiendo inversión en educación, lo que resultó en cientos de arrestos y heridos.",
-    "Los bloqueos y enfrentamientos continuos provocaron un revuelo nacional por la fuerte presencia policial y los arrestos masivos de menores.",
-    "Las protestas nacionales del 17 de octubre atrajeron a más de medio millón de personas, lo que provocó incendios generalizados, saqueos y 1.800 arrestos.",
-    "El presidente Macron hizo un llamamiento a la calma tras los graves disturbios urbanos y prometió medidas para proteger los edificios públicos y los negocios.",
-    "El gobierno anunció la movilización de 70.000 policías mientras las ciudades se preparaban para nuevas manifestaciones de fin de semana."
+    "Las huelgas estudiantiles y los bloqueos de escuelas secundarias se extendieron por toda Francia, con cientos de detenidos y la policía desplegando gases lacrimógenos.",
+    "Cientos de escuelas secundarias permanecieron cerradas mientras continuaban las protestas estudiantiles y estallaban enfrentamientos fuera de los campus.",
+    "El gobierno informó de 266.000 participantes en las marchas a nivel nacional, junto con 488 detenciones y 43 miembros de las fuerzas de seguridad heridos.",
+    "Graves disturbios de fin de semana dejaron un manifestante muerto en París, más de 2.000 detenidos en todo el país y numerosos comercios saqueados.",
+    "Francia anunció el despliegue de 70.000 agentes y ordenó el cierre de los principales museos de París de cara a nuevas protestas de fin de semana."
    ],
-   "conflicts": [
-    "La policía declaró que la participación fue de 250.000 el martes, mientras que los sindicatos afirmaron que fueron 450.000.",
-    "El Ministerio del Interior estimó la participación nacional en 550.000 para el 17 de octubre, mientras que los organizadores estimaron 800.000."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "550.000 asisten a protestas",
-    "arrests": "La policía realizó 2.400 arrestos en toda Francia",
-    "injuries": "casi 1.000 agentes resultaron heridos",
-    "deaths": "Un manifestante murió el sábado tras sufrir un paro cardíaco durante las protestas en París"
+    "crowd": "medio millón de personas se unieron a las marchas en decenas de ciudades",
+    "arrests": "Alrededor de 2.400 personas fueron detenidas en todo el país",
+    "injuries": "cerca de 1.000 policías, gendarmes y bomberos resultaron heridos",
+    "deaths": "Un manifestante murió tras sufrir un paro cardíaco durante las protestas"
    }
   },
   "fr": {
    "title": "Manifestations et émeutes liées au coût de la vie et aux conditions scolaires en France",
-   "seoTitle": "Manifestations à Paris pour le coût de la vie",
+   "seoTitle": "Manifestations à Paris pour le coût de la vie et les écoles",
    "tea": {
-    "why": "Les manifestants protestent contre les mauvaises conditions d'apprentissage à l'école, la hausse du coût de la vie, les prix élevés du carburant et la baisse des services publics.",
-    "want": "Les manifestants exigent de meilleures infrastructures scolaires, un financement accru de l'éducation, des enseignants supplémentaires, un meilleur soutien aux examens et un pouvoir d'achat plus élevé.",
-    "changed": "23 oct. : Le gouvernement français a annoncé le déploiement de 70 000 policiers et gendarmes avant de nouvelles manifestations ce week-end."
+    "why": "Les manifestants sont irrités par la flambée du coût de la vie, les prix élevés du carburant et la détérioration des conditions dans les lycées et les universités.",
+    "want": "Les manifestants exigent de meilleures installations scolaires, des classes moins chargées, davantage de professeurs et un allégement du coût de la vie élevé.",
+    "changed": "23 octobre : Les autorités ont annoncé le déploiement de 70 000 agents des forces de l'ordre en amont des manifestations du week-end, tandis que les principaux musées de Paris se préparaient à fermer."
    },
-   "summary": "Une vague nationale de manifestations et d'émeutes a éclaté à travers la France, initialement motivée par des lycéens bloquant des écoles en raison de salles de classe délabrées, de pénuries d'enseignants et d'horaires chargés, avant de s'étendre à des manifestations plus larges sur la hausse du coût de la vie, les bas salaires, les retraites et les services publics. Organisé en partie par des groupes étudiants et des syndicats tels que la CGT, le mouvement a attiré des centaines de milliers de participants dans des villes comme Paris, Marseille, Lyon et Nantes. Bien que de nombreuses manifestations soient restées pacifiques, certaines actions ont été marquées par des violences généralisées, des attaques incendiaires contre des bâtiments publics, des pillages de magasins et des affrontements avec la police anti-émeute. Les autorités ont répondu par des arrestations massives, le déploiement de gaz lacrymogènes et de balles en caoutchouc, et une réponse judiciaire stricte entraînant de nombreuses peines de prison. Le président Emmanuel Macron a appelé au calme tout en condamnant les actes de délinquance et de vandalisme, et a annoncé que seules les manifestations organisées par les syndicats seraient autorisées pour les prochaines mobilisations.",
+   "summary": "Débutée à la mi-septembre 2026, une vague de blocus de lycées et de manifestations menées par des étudiants a éclaté à travers la France en raison de la piètre infrastructure d'apprentissage, de la grande taille des classes, des pénuries d'enseignants et de la hausse du coût de la vie. Le mouvement s'est étendu à l'échelle nationale à travers des rassemblements dans de nombreuses villes impliquant des étudiants, des enseignants, des parents et des groupes syndicaux, attirant des centaines de milliers de participants. Si beaucoup ont défilé pacifiquement, des rassemblements distincts ont dégénéré en émeutes avec des affrontements, des destructions de biens et des pillages. La police a riposté à coups de gaz lacrymogènes, de matraques et de projectiles de maintien de l'ordre, entraînant de nombreuses blessures et arrestations. Le gouvernement a fait l'objet d'un examen minutieux concernant les tactiques policières après que plusieurs adolescents ont subi de graves blessures, conduisant le ministre de l'Intérieur à suspendre l'utilisation de grenades de désencerclement. En prévision d'autres manifestations prévues, les autorités ont annoncé un déploiement de sécurité massif de 70 000 agents et la fermeture des principaux lieux culturels à Paris.",
    "demands": [
-    "Améliorer les infrastructures scolaires et réparer les défauts des bâtiments",
-    "Accroître les investissements dans l'éducation et embaucher plus d'enseignants",
-    "Refondre le système d'admission universitaire Parcoursup",
-    "Réduire le coût de la vie et s'attaquer aux prix du carburant",
-    "Améliorer les services publics et les salaires"
+    "De meilleures installations scolaires et des réparations d'infrastructure",
+    "Des classes moins chargées et davantage d'enseignants",
+    "Un coût de la vie et des prix du carburant réduits"
    ],
-   "response": "Le ministre de l'Intérieur Laurent Nunez a déclaré que 70 000 policiers et gendarmes seraient déployés pour les prochaines manifestations du week-end. Le président Emmanuel Macron a appelé au calme, a blâmé les groupes d'ultra-gauche pour avoir incité à la violence et a annoncé que seules les manifestations organisées par les syndicats seraient autorisées.",
+   "response": "Le gouvernement français a déployé des forces anti-émeute, a utilisé des gaz lacrymogènes et a annoncé le déploiement de 70 000 agents pour les prochaines manifestations du week-end, tout en ouvrant des enquêtes internes sur l'usage de la force par la police, selon des reportages de presse.",
    "updates": [
-    "Des lycéens ont organisé des grèves et bloqué les entrées des écoles en raison de mauvaises conditions d'apprentissage, de canicules et de pénuries d'enseignants.",
-    "Des centaines de lycées ont connu des perturbations ou des fermetures alors que les manifestations étudiantes persistaient avant de plus grands rassemblements.",
-    "Des centaines de milliers de personnes ont participé à des protestations réclamant des investissements dans l'éducation, entraînant des centaines d'arrestations et de blessés.",
-    "Les blocus et affrontements en cours ont provoqué un émoi national concernant le maintien de l'ordre musclé et les arrestations massives de mineurs.",
-    "Les manifestations nationales du 17 octobre ont attiré plus d'un demi-million de personnes, entraînant des incendies généralisés, des pillages et 1 800 arrestations.",
-    "Le président Macron a appelé au calme à la suite de graves troubles urbains et a promis des mesures pour protéger les bâtiments publics et les entreprises.",
-    "Le gouvernement a annoncé la mobilisation de 70 000 policiers alors que les villes se préparaient à de nouvelles manifestations ce week-end."
+    "Les grèves étudiantes et les blocus de lycées se sont propagés à travers la France, avec des centaines de personnes interpellées et la police déployant des gaz lacrymogènes.",
+    "Des centaines de lycées sont restés fermés alors que les manifestations étudiantes se poursuivaient et que des affrontements éclataient devant les campus.",
+    "Le gouvernement a fait état de 266 000 participants aux marches nationales, ainsi que de 488 arrestations et de 43 membres des forces de l'ordre blessés.",
+    "De graves émeutes de week-end ont coûté la vie à un manifestant à Paris, entraîné plus de 2 000 arrestations à l'échelle nationale et le pillage de nombreux magasins.",
+    "La France a annoncé le déploiement de 70 000 agents et a ordonné la fermeture des principaux musées de Paris à l'approche de nouvelles manifestations de week-end."
    ],
-   "conflicts": [
-    "La police a déclaré que la participation était de 250 000 mardi, tandis que les syndicats ont affirmé qu'elle était de 450 000.",
-    "Le ministère de l'Intérieur a estimé la participation nationale à 550 000 pour le 17 octobre, tandis que les organisateurs ont estimé 800 000."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "550 000 participants aux manifestations",
-    "arrests": "La police a effectué 2 400 arrestations à travers la France",
-    "injuries": "près de 1 000 agents ont été blessés",
-    "deaths": "Un manifestant est décédé samedi après avoir subi un arrêt cardiaque lors des manifestations à Paris"
+    "crowd": "un demi-million de personnes se sont jointes aux défilés dans des dizaines de villes",
+    "arrests": "Environ 2 400 personnes ont été placées en garde à vue à travers le pays",
+    "injuries": "environ 1 000 policiers, gendarmes et sapeurs-pompiers ont été blessés",
+    "deaths": "Un manifestant est décédé après avoir subi un arrêt cardiaque lors des manifestations"
    }
   },
   "de": {
    "title": "Demonstrationen und Ausschreitungen wegen Lebenshaltungskosten und Schulbedingungen in Frankreich",
-   "seoTitle": "Pariser Proteste wegen Lebenshaltungskosten und Schulen",
+   "seoTitle": "Pariser Proteste gegen Lebenshaltungskosten und Schulen",
    "tea": {
-    "why": "Demonstranten demonstrieren gegen schlechte Lernbedingungen an Schulen, steigende Lebenshaltungskosten, hohe Kraftstoffpreise und sinkende öffentliche Dienstleistungen.",
-    "want": "Demonstranten fordern bessere schulische Infrastruktur, erhöhte Bildungsfinanzierung, zusätzliche Lehrer, bessere Prüfungsunterstützung und eine höhere Kaufkraft.",
-    "changed": "23. Okt.: Die französische Regierung kündigte die Entsendung von 70.000 Polizisten und Gendarmen im Vorfeld erneuter Wochenendproteste an."
+    "why": "Demonstrierende sind verärgert über drastisch steigende Lebenshaltungskosten, hohe Kraftstoffpreise und die Verschlechterung der Zustände an weiterführenden Schulen und Universitäten.",
+    "want": "Demonstrierende fordern bessere Schuleinrichtungen, kleinere Klassen, mehr Lehrkräfte und Entlastung von den hohen Lebenshaltungskosten.",
+    "changed": "23. Oktober: Die Behörden kündigten im Vorfeld von Wochenendprotesten die Verlegung von 70.000 Einsatzkräften an, während sich große Museen in Paris auf Schließungen vorbereiteten."
    },
-   "summary": "Eine landesweite Welle von Protesten und Ausschreitungen ist in ganz Frankreich ausgebrochen, die zunächst von Gymnasiasten ausgelöst wurde, die Schulen wegen heruntergekommener Klassenzimmer, Lehrermangels und schwerer Stundenpläne blockierten, und sich später auf breitere Demonstrationen über steigende Lebenshaltungskosten, niedrige Löhne, Renten und öffentliche Dienste ausweitete. Teilweise von Studentengruppen und Gewerkschaften wie der CGT organisiert, hat die Bewegung Hunderttausende Teilnehmer in Städten wie Paris, Marseille, Lyon und Nantes angezogen. Während viele Demonstrationen friedlich blieben, waren einige Aktionen von weit verbreiteter Gewalt, Brandanschlägen auf öffentliche Gebäude, Plünderungen von Geschäften und Zusammenstößen mit der Bereitschaftspolizei geprägt. Die Behörden reagierten mit Massenfestnahmen, dem Einsatz von Tränengas und Gummigeschossen sowie einer strengen juristischen Reaktion, die zu zahlreichen Haftstrafen führte. Präsident Emmanuel Macron appellierte an die Ruhe, verurteilte Akte der Kriminalität und des Vandalismus und kündigte an, dass für kommende Mobilisierungen nur von Gewerkschaften organisierte Demonstrationen erlaubt würden.",
+   "summary": "Mitte September 2026 brach in ganz Frankreich eine Welle von Schulblockaden und studentisch geführten Demonstrationen wegen schlechter Lerninfrastruktur, großer Klassen, Lehrermangels und steigender Lebenshaltungskosten aus. Die Bewegung dehnte sich landesweit auf Kundgebungen in zahlreichen Städten aus, an denen sich Schüler, Lehrer, Eltern und Gewerkschaftsgruppen beteiligten, und zog Hunderttausende Teilnehmer an. Während viele friedlich marschierten, eskalierten andere Versammlungen in Ausschreitungen mit Zusammenstößen, Sachbeschädigungen und Plünderungen. Die Polizei reagierte mit Tränengas, Schlagstöcken und Mitteln zur Menschenmengenkontrolle, was zahlreiche Verletzungen und Festnahmen zur Folge hatte. Die Regierung sah sich wegen polizeilicher Taktiken heftiger Kritik ausgesetzt, nachdem mehrere Jugendliche schwere Verletzungen erlitten hatten, was den Innenminister dazu veranlasste, den Einsatz von Blendgranaten auszusetzen. Im Hinblick auf weitere geplante Demonstrationen kündigten die Behörden ein massives Sicherheitsaufgebot von 70.000 Einsatzkräften sowie die Schließung großer Kultureinrichtungen in Paris an.",
    "demands": [
-    "Verbesserung der schulischen Infrastruktur und Behebung von Baumängeln",
-    "Erhöhung der Investitionen in Bildung und Einstellung weiterer Lehrer",
-    "Überholung des Universität-Zulassungssystems Parcoursup",
-    "Senkung der Lebenshaltungskosten und Bekämpfung der Kraftstoffpreise",
-    "Verbesserung der öffentlichen Dienste und Löhne"
+    "Bessere Schuleinrichtungen und Infrastrukturreparaturen",
+    "Kleinere Klassen und mehr Lehrkräfte",
+    "Niedrigere Lebenshaltungskosten und Kraftstoffpreise"
    ],
-   "response": "Innenminister Laurent Nunez erklärte, dass 70.000 Polizisten und Gendarmen für kommende Wochenendproteste eingesetzt würden. Präsident Emmanuel Macron appellierte an die Ruhe, machte linksradikale Gruppen für die Anstiftung zur Gewalt verantwortlich und kündigte an, dass nur von Gewerkschaften organisierte Demonstrationen erlaubt würden.",
+   "response": "Berichten zufolge setzte die französische Regierung Bereitschaftspolizei ein, verwendete Tränengas und kündigte die Entsendung von 70.000 Einsatzkräften für bevorstehende Wochenendproteste an, während interne Untersuchungen zum polizeilichen Gewalteinsatz eingeleitet wurden.",
    "updates": [
-    "Schüler der Sekundarstufe veranstalteten Streiks und blockierten Schuleingänge wegen schlechter Lernbedingungen, Hitzewellen und Lehrermangels.",
-    "Hunderte Oberschulen erlebten Störungen oder Schließungen, während die Studentenproteste vor größeren Demonstrationen anhielten.",
-    "Hunderttausende beteiligten sich an Protesten, die Bildungsinvestitionen forderten, was zu Hunderttasten Festnahmen und Verletzten führte.",
-    "Anhaltende Blockaden und Zusammenstöße lösten landesweite Empörung über hartes Durchgreifen der Polizei und Massenfestnahmen von Minderjährigen aus.",
-    "Landesweite Proteste am 17. Oktober lockten über eine halbe Million Menschen an, was zu weit verbreiteter Brandstiftung, Plünderungen und 1.800 Festnahmen führte.",
-    "Präsident Macron appellierte nach schweren urbanen Unruhen an die Ruhe und versprach Maßnahmen zum Schutz öffentlicher Gebäude und Unternehmen.",
-    "Die Regierung kündigte die Mobilisierung von 70.000 Polizisten an, während sich Städte auf erneute Wochenenddemonstrationen vorbereiteten."
+    "Schülerstreiks und Schulblockaden breiteten sich in ganz Frankreich aus, wobei Hunderte Personen in Gewahrsam genommen wurden und die Polizei Tränengas einsetzte.",
+    "Hunderte Oberschulen blieben geschlossen, da die Schülerproteste weitergingen und Zusammenstöße vor den Campusgeländen ausbrachen.",
+    "Die Regierung meldete 266.000 Teilnehmer an landesweiten Märschen, neben 488 Festnahmen und 43 verletzten Einsatzkräften.",
+    "Schwere Wochenendkrawalle forderten ein Todesopfer unter den Demonstrierenden in Paris, führten zu über 2.000 Festnahmen landesweit und zahlreichen geplünderten Geschäften.",
+    "Frankreich kündigte den Einsatz von 70.000 Kräften an und ordnete die Schließung großer Pariser Museen vor weiteren Wochenendprotesten an."
    ],
-   "conflicts": [
-    "Die Polizei gab an, die Teilnehmerzahl lag am Dienstag bei 250.000, während Gewerkschaften 450.000 angaben.",
-    "Das Innenministerium schätzte die landesweite Beteiligung für den 17. Oktober auf 550.000, während Organisatoren 800.000 schätzten."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "550.000 nehmen an Protesten teil",
-    "arrests": "Die Polizei nahm in ganz Frankreich 2.400 Festnahmen vor",
-    "injuries": "fast 1.000 Beamte wurden verletzt",
-    "deaths": "Ein Demonstrant starb am Samstag nach einem Herzstillstand während der Proteste in Paris"
+    "crowd": "eine halbe Million Menschen schlossen sich den Märschen in Dutzenden Städten an",
+    "arrests": "Etwa 2.400 Personen wurden landesweit in Gewahrsam genommen",
+    "injuries": "etwa 1.000 Polizisten, Gendarmen und Feuerwehrleute wurden verletzt",
+    "deaths": "Ein Protestierender starb, nachdem er während der Demonstrationen einen Herzstillstand erlitten hatte"
    }
   }
  },
- "summaryOf": "3e4c178b987e"
+ "summaryOf": "5e597bb7cd26"
 }

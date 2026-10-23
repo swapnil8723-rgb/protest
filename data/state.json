@@ -1,51 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-23",
-  "count": 65
+  "count": 83
  },
  "runs": [
-  {
-   "at": "2026-10-16T19:28:43.424Z",
-   "ms": 609081,
-   "discovered": 66,
-   "fetched": 63,
-   "classified": 129,
-   "protests": 73,
-   "summarized": 15,
-   "published": 80,
-   "live": 12,
-   "aiCalls": 38,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 55 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 60 protest-word items",
-    "fetch: 63 ok, 3 failed",
-    "classify: new candidate e0b27c27512 \"Student and youth groups protest against CEC in Pune\" (Pune)",
-    "classify: new candidate e11b7bb6245 \"Judicial employees launch protest demanding pay scale parity\" (Mumbai)",
-    "classify: new candidate e822ba5590b \"No Kings movement plans demonstrations across US against administration\" (New York City)",
-    "classify: new candidate eba7863fa58 \"Congress and youth wing protest outside CEO office against CEC\" (Ranchi)",
-    "classify: new candidate e7ea59d713a \"CPI(M) announces agitation over ESA boundaries in Kannur\" (Kannur)",
-    "classify: new candidate ef07aa4f034 \"Lawyers boycott courts in Thiruvananthapuram over police assault\" (Thiruvananthapuram)",
-    "classify: new candidate e9bb9154b05 \"CPI(M) stages protest for house sites and pattas in Mangalagiri\" (Mangalagiri)",
-    "classify: new candidate e03dd466960 \"National Health Mission employees strike in Hyderabad\" (Hyderabad)",
-    "classify: new candidate e05aa6a90df \"Seva Dal holds candle march demanding justice for Ankita Bhandari\" (Delhi)",
-    "classify: new candidate e18d23f6181 \"No Kings movement plans demonstrations across DMV\" (Washington)",
-    "classify: new candidate e4fd0e20b07 \"BCS candidates threaten Shahbagh protest over omitted gazette\" (Dhaka)",
-    "classify: new candidate eb933a77df4 \"Security guards rally and threaten strike over health benefits\" (Boston)",
-    "classify: new candidate e115c96a1a8 \"Sikkim Congress protests against appointment of Dushyant Gautam\" (Gangtok)",
-    "classify: new candidate ed0889161e3 \"Farmers announce march to Delhi against CEC and SIR\" (Delhi)",
-    "classify: new candidate e1f213243d8 \"ISU students march against sexual violence\" (Normal)",
-    "classify: new candidate e459dc0463d \"Actor Prakash Raj addresses youth gathering demanding CEC removal\" (Thiruvananthapuram)",
-    "classify: new candidate e093b704dfe \"Loyalists hold unnotified parade in Bangor\" (Bangor)",
-    "classify: new candidate eabe50d54d9 \"Youth body demands withdrawal of forces amid anti-dam protests\" (Guwahati)",
-    "classify: new candidate eff0b3e7620 \"DYFI blocks Sholinghur road demanding CEC resignation\" (Sholinghur)",
-    "summary: ece1e233ae5 only 1 independent publisher(s) on-story — not applied",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 11 events"
-   ],
-   "translated": 11
-  },
   {
    "at": "2026-10-16T21:15:53.540Z",
    "ms": 97292,
@@ -1421,8 +1379,36 @@
     "translate: 8 events"
    ],
    "translated": 8
+  },
+  {
+   "at": "2026-10-23T16:16:25.532Z",
+   "ms": 305862,
+   "discovered": 73,
+   "fetched": 69,
+   "classified": 54,
+   "protests": 21,
+   "summarized": 7,
+   "published": 103,
+   "live": 9,
+   "aiCalls": 18,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 10 files, 49 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 166 protest-word items",
+    "fetch: 69 ok, 4 failed",
+    "classify: new candidate e45893e7e1b \"Nice bans central protests and deploys security forces\" (Nice)",
+    "classify: new candidate e3784f4334a \"Students to hold End Rape Culture protest on campus\" (Fargo)",
+    "classify: new candidate e6a6cf1f1e0 \"Hotel workers strike in Chicago\" (Chicago)",
+    "classify: new candidate e1e2853f4ac \"Student-founded party mounts election challenge against Vucic\" (Belgrade)",
+    "classify: new candidate e94d1cfa595 \"Kingston residents protest sexual violence on campus\" (Kingston upon Thames)",
+    "classify: new candidate e2a68badcac \"Left groups march in Puducherry against SIR and CEC\" (Puducherry)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261023134500",
- "lastRunAt": "2026-10-23T13:48:38.067Z"
+ "gdeltCursor": "20261023161500",
+ "lastRunAt": "2026-10-23T16:16:25.532Z"
 }

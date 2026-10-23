@@ -22,65 +22,77 @@
  "kind": "multi-day",
  "startedOn": "2026-10-10",
  "status": "ongoing",
- "vibe": "wrapped-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": false,
+ "vibe": "tense",
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious"
+ ],
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Activists and students opposed the Special Intensive Revision of electoral rolls and demanded the Chief Election Commissioner's resignation.",
-  "want": "Scrap the electoral roll revision, restore original voter lists, and demand the Chief Election Commissioner's resignation.",
-  "changed": "Oct 17: Authorities and organizers reported ongoing fallout and reviews following the detention of demonstrators and journalists earlier in the week."
+  "why": "Activists and students object to the Special Intensive Revision of electoral rolls and demand the resignation of the Chief Election Commissioner.",
+  "want": "Scrap the electoral roll revision, restore original rolls, remove the Chief Election Commissioner, and lift restrictions on protest locations.",
+  "changed": "Oct 23: Civil society groups organised a Tiranga March from Town Hall to challenge local protest restrictions and reiterate demands."
  },
- "summary": "Demonstrators, including students, activists, lawyers, and senior citizens, took to the streets in Bengaluru to protest against the Special Intensive Revision of electoral rolls and to demand the resignation of Chief Election Commissioner Gyanesh Kumar. The protests, organized by groups including the My Vote, My Right Campaign and the All India Students' Association, saw police interventions and detentions near KR Circle, Freedom Park, and Town Hall as participants attempted to march toward the Karnataka Chief Electoral Officer's office. Protesters alleged heavy-handed police tactics, including manhandling of demonstrators, women, and journalists. In response to the backlash, Karnataka Home Minister Priyank Kharge and Chief Minister D.K. Shivakumar ordered a review of the police actions, asserting that peaceful protest is fundamental to democracy, while police officials maintained that actions were taken due to a lack of permission and violations of High Court guidelines restricting demonstrations to Freedom Park.",
+ "summary": "Civil society organisations, students, lawyers, and activists in Bengaluru held demonstrations and marches demanding the resignation of Chief Election Commissioner Gyanesh Kumar and the scrapping of the Special Intensive Revision of electoral rolls. Protesters also challenged the 2021 police licensing order restricting demonstrations to Freedom Park, calling for the restoration of public spaces for dissent. Previous demonstrations led to preventive detentions near KR Circle and Freedom Park, drawing criticism over police conduct toward participants and media personnel. In response, Karnataka Home Minister Priyank Kharge and Chief Minister D.K. Shivakumar ordered a review of the police handling of the demonstrations, while police later granted conditional permission for a subsequent Tiranga March.",
  "organizers": [
   "My Vote, My Right Campaign",
-  "All India Students' Association"
+  "All India Students' Association",
+  "Civil society organisations"
  ],
  "demands": [
   "Scrap the Special Intensive Revision of electoral rolls",
-  "Restore electoral rolls as they were in January 2025",
-  "Demand the resignation of Chief Election Commissioner Gyanesh Kumar",
-  "Withdraw the 2021 police licensing order restricting protests to Freedom Park"
+  "Restore electoral rolls to January 2025 status",
+  "Resignation of Chief Election Commissioner Gyanesh Kumar",
+  "Withdrawal of the 2021 police licensing order restricting protests to Freedom Park"
  ],
- "response": "Bengaluru Police stated that protesters lacked permission and violated High Court guidelines designating Freedom Park for protests. Karnataka Home Minister Priyank Kharge and Chief Minister D.K. Shivakumar ordered a review of police actions and stated that peaceful demonstrations must be protected.",
+ "response": "Karnataka home minister Priyank Kharge and CM D.K. Shivakumar ordered a review of police actions following detentions. Police stated they acted with restraint and maintained that demonstrations must follow high court guidelines restricting protests to Freedom Park.",
  "numbers": {
-  "arrests": {
-   "value": 50,
-   "text": "At least 50 students belonging to the All India Students' Association (AISA) were detained at Freedom Park",
+  "crowd": {
+   "value": 100,
+   "text": "At least 100 students, lawyers, civil rights activists and youth were detained",
    "sources": [
-    1,
-    6
+    4
+   ]
+  },
+  "arrests": {
+   "value": 100,
+   "text": "At least 100 students, lawyers, civil rights activists and youth were detained",
+   "sources": [
+    4
    ]
   }
  },
  "updates": [
   {
    "at": "2026-10-10",
-   "text": "Students and activists held protests and faced detentions near Freedom Park and Town Hall.",
+   "text": "Student protesters belonging to AISA were detained at Freedom Park ahead of a planned march.",
+   "sources": [
+    1
+   ]
+  },
+  {
+   "at": "2026-10-12",
+   "text": "Protesters attempting to march to the CEO office were detained near KR Circle by Bengaluru Police.",
    "sources": [
     1,
-    6
+    2,
+    3
    ]
   },
   {
    "at": "2026-10-13",
-   "text": "Protesters marching toward the Karnataka CEO's office were detained by police near KR Circle.",
+   "text": "Karnataka home minister ordered a review of police detentions and handling of protesters and journalists.",
    "sources": [
-    1,
     2,
-    3,
-    4,
     5
    ]
   },
   {
-   "at": "2026-10-13",
-   "text": "Karnataka Home Minister Priyank Kharge and CM D.K. Shivakumar ordered a review of police actions.",
+   "at": "2026-10-23",
+   "text": "Civil society groups organised a Tiranga March from Town Hall to challenge protest curbs and renew demands.",
    "sources": [
-    2,
-    5,
     6
    ]
   }
@@ -122,166 +134,174 @@
   },
   {
    "n": 6,
-   "url": "https://www.thehindu.com/news/national/karnataka/50-aisa-members-activists-detained-during-protest-against-sir-at-town-hall/article71596952.ece",
+   "url": "https://www.thehindu.com/news/cities/bangalore/reclaim-public-spaces-civil-society-groups-march-against-protest-curbs/article71616922.ece",
    "publisher": "thehindu.com",
-   "title": "50 AISA members, activists detained during protest against SIR at Town Hall",
-   "publishedAt": "2026-10-17T16:57:38.000Z"
+   "title": "‘Reclaim public spaces’: Civil society groups march against protest curbs",
+   "publishedAt": "2026-10-23T16:09:56.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.95,
  "publishers": 6,
- "reports24h": 0,
+ "reports24h": 1,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 1,
  "firstSeenAt": "2026-10-12T19:30:04.586Z",
- "lastReportAt": "2026-10-17T16:57:38.000Z",
- "lastCheckedAt": "2026-10-23T13:58:10.463Z",
- "updatedAt": "2026-10-17T19:30:05.320Z",
+ "lastReportAt": "2026-10-23T16:09:56.000Z",
+ "lastCheckedAt": "2026-10-23T16:20:23.290Z",
+ "updatedAt": "2026-10-23T16:19:39.528Z",
  "responseSources": [
-  1,
   2,
   3,
-  5,
-  6
+  5
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-17T19:30:05.320Z",
- "summaryOf": "7721c945bee2",
+ "summarizedAt": "2026-10-23T16:19:39.528Z",
+ "summaryOf": "3fa09652cbca",
  "publishedAt": "2026-10-13T10:15:09.986Z",
  "i18n": {
-  "of": "7e72b0868b417df2",
-  "at": "2026-10-17T19:31:03.784Z",
+  "of": "7460d6e09ddecd87",
+  "at": "2026-10-23T16:20:33.638Z",
   "tries": 1,
   "hi": {
-   "title": "बेंगलुरु में मतदाता सूची संशोधन और मुख्य चुनाव आयुक्त के खिलाफ प्रदर्शन",
-   "seoTitle": "बेंगलुरु में एसआईआर और सीईसी के खिलाफ प्रदर्शन",
+   "title": "बेंगलुरु में मतदाता सूची संशोधन और मुख्य चुनाव आयुक्त के खिलाफ विरोध प्रदर्शन",
+   "seoTitle": "बेंगलुरु में एसआईआर और सीईसी के खिलाफ विरोध",
    "tea": {
-    "why": "कार्यकर्ताओं और छात्रों ने मतदाता सूची के विशेष गहन संशोधन का विरोध किया और मुख्य चुनाव आयुक्त के इस्तीफे की मांग की।",
-    "want": "मतदाता सूची के संशोधन को रद्द करना, मूल मतदाता सूचियों को बहाल करना और मुख्य चुनाव आयुक्त के इस्तीफे की मांग करना।",
-    "changed": "17 अक्टूबर: सप्ताह की शुरुआत में प्रदर्शनकारी और पत्रकारों की हिरासत के बाद अधिकारियों और आयोजकों ने चल रहे प्रभावों और समीक्षाओं की सूचना दी।"
+    "why": "कार्यकर्ताओं और छात्रों ने मतदाता सूची के विशेष गहन पुनरीक्षण पर आपत्ति जताई है और मुख्य चुनाव आयुक्त के इस्तीफे की मांग की है।",
+    "want": "मतदाता सूची के संशोधन को रद्द करना, मूल सूचियों को बहाल करना, मुख्य चुनाव आयुक्त को हटाना और प्रदर्शन स्थलों पर से प्रतिबंध हटाना।",
+    "changed": "23 अक्टूबर: नागरिक समाज समूहों ने स्थानीय प्रदर्शन प्रतिबंधों को चुनौती देने और मांगों को दोहराने के लिए टाउन हॉल से तिरंगा मार्च निकाला।"
    },
-   "summary": "छात्रों, कार्यकर्ताओं, वकीलों और वरिष्ठ नागरिकों सहित प्रदर्शनकारियों ने मतदाता सूची के विशेष गहन संशोधन के विरोध में और मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे की मांग को लेकर बेंगलुरु में सड़कों पर प्रदर्शन किया। 'माई वोट, माई राइट कैंपेन' और 'ऑल इंडिया स्टूडेंट्स एसोसिएशन' सहित विभिन्न समूहों द्वारा आयोजित इन प्रदर्शनों के दौरान केआर सर्किल, फ्रीडम पार्क और टाउन हॉल के पास पुलिस का हस्तक्षेप और हिरासतें हुईं, क्योंकि प्रतिभागियों ने कर्नाटक के मुख्य निर्वाचन अधिकारी के कार्यालय की ओर मार्च करने का प्रयास किया था। प्रदर्शनकारियों ने प्रदर्शनकारियों, महिलाओं और पत्रकारों के साथ कथित दुर्व्यवहार सहित पुलिस की भारी-भरकम रणनीतियों का आरोप लगाया। इस प्रतिक्रिया के जवाब में, कर्नाटक के गृह मंत्री प्रियांक खर्गे और मुख्यमंत्री डी.के. शिवकुमार ने पुलिस कार्रवाई की समीक्षा का आदेश दिया और यह दावा किया कि शांतिपूर्ण प्रदर्शन लोकतंत्र के लिए मौलिक है, जबकि पुलिस अधिकारियों ने बनाए रखा कि कार्रवाई अनुमति के अभाव और फ्रीडम पार्क तक प्रदर्शनों को सीमित करने वाले उच्च न्यायालय के दिशानिर्देशों के उल्लंघन के कारण की गई थी।",
+   "summary": "बेंगलुरु में नागरिक समाज संगठनों, छात्रों, वकीलों और कार्यकर्ताओं ने मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे और मतदाता सूची के विशेष गहन पुनरीक्षण को रद्द करने की मांग को लेकर प्रदर्शन और मार्च निकाले। प्रदर्शनकारियों ने केवल फ्रीडम पार्क तक प्रदर्शनों को सीमित करने वाले 2021 के पुलिस लाइसेंसिंग आदेश को भी चुनौती दी तथा असंतोष के लिए सार्वजनिक स्थानों को बहाल करने की मांग की। पिछले प्रदर्शनों के दौरान केआर सर्कल और फ्रीडम पार्क के पास एहतियातन हिरासत में लिया गया था, जिससे प्रतिभागियों और मीडियाकर्मियों के प्रति पुलिस के आचरण पर आलोचना हुई। इसके जवाब में, कर्नाटक के गृह मंत्री प्रियांक खड़गे और मुख्यमंत्री डी.के. शिवकुमार ने प्रदर्शनों से निपटने के पुलिस के तौर-तरीकों की समीक्षा के आदेश दिए, जबकि बाद में पुलिस ने एक आगामी तिरंगा मार्च के लिए सशर्त अनुमति दी।",
    "demands": [
-    "मतदाता सूची के विशेष गहन संशोधन को रद्द किया जाए",
-    "मतदाता सूचियों को जनवरी 2025 की स्थिति के अनुसार बहाल किया जाए",
-    "मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे की मांग की जाए",
+    "मतदाता सूची के विशेष गहन पुनरीक्षण को रद्द किया जाए",
+    "मतदाता सूचियों को जनवरी 2025 की स्थिति में बहाल किया जाए",
+    "मुख्य चुनाव आयुक्त ज्ञानेश कुमार का इस्तीफा",
     "फ्रीडम पार्क तक प्रदर्शनों को सीमित करने वाले 2021 के पुलिस लाइसेंसिंग आदेश को वापस लिया जाए"
    ],
-   "response": "बेंगलुरु पुलिस ने कहा कि प्रदर्शनकारियों के पास अनुमति नहीं थी और उन्होंने प्रदर्शनों के लिए फ्रीडम पार्क निर्धारित करने वाले उच्च न्यायालय के दिशानिर्देशों का उल्लंघन किया। कर्नाटक के गृह मंत्री प्रियांक खर्गे और मुख्यमंत्री डी.के. शिवकुमार ने पुलिस कार्रवाई की समीक्षा के आदेश दिए और कहा कि शांतिपूर्ण प्रदर्शनों की रक्षा की जानी चाहिए।",
+   "response": "हिरासत में लिए जाने की घटनाओं के बाद कर्नाटक के गृह मंत्री प्रियांक खड़गे और मुख्यमंत्री डी.के. शिवकुमार ने पुलिस कार्रवाई की समीक्षा के आदेश दिए। पुलिस ने बयान दिया कि उन्होंने संयम बरता और यह तर्क दिया कि प्रदर्शनों को उच्च न्यायालय के उन दिशा-निर्देशों का पालन करना चाहिए जो प्रदर्शनों को फ्रीडम पार्क तक सीमित करते हैं।",
    "updates": [
-    "छात्रों और कार्यकर्ताओं ने फ्रीडम पार्क और टाउन हॉल के पास प्रदर्शन किए और हिरासत का सामना किया।",
-    "कर्नाटक के सीईओ के कार्यालय की ओर मार्च कर रहे प्रदर्शनकारियों को केआर सर्किल के पास पुलिस ने हिरासत में लिया।",
-    "कर्नाटक के गृह मंत्री प्रियांक खर्गे और सीएम डी.के. शिवकुमार ने पुलिस कार्रवाई की समीक्षा के आदेश दिए।"
+    "एक नियोजित मार्च से पहले फ्रीडम पार्क में आईसा से जुड़े छात्र प्रदर्शनकारियों को हिरासत में लिया गया।",
+    "सीईओ कार्यालय तक मार्च करने का प्रयास कर रहे प्रदर्शनकारियों को बेंगलुरु पुलिस द्वारा केआर सर्कल के पास हिरासत में लिया गया।",
+    "कर्नाटक के गृह मंत्री ने पुलिस द्वारा हिरासत में लिए जाने तथा प्रदर्शनकारियों और पत्रकारों के साथ बर्ताव की समीक्षा के आदेश दिए।",
+    "नागरिक समाज समूहों ने प्रदर्शनों पर लगे प्रतिबंधों को चुनौती देने और अपनी मांगें फिर से उठाने के लिए टाउन हॉल से तिरंगा मार्च निकाला।"
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "ऑल इंडिया स्टूडेंट्स एसोसिएशन (AISA) से संबंधित कम से कम 50 छात्रों को फ्रीडम पार्क में हिरासत में लिया गया"
+    "crowd": "कम से कम 100 छात्र, वकील, नागरिक अधिकार कार्यकर्ता और युवा हिरासत में लिए गए",
+    "arrests": "कम से कम 100 छात्र, वकील, नागरिक अधिकार कार्यकर्ता और युवा हिरासत में लिए गए"
    }
   },
   "mr": {
-   "title": "मतदार यादी सुधारणा आणि मुख्य निवडणूक आयुक्तांच्या विरोधात बंगळुरूमध्ये निदर्शने",
+   "title": "मतदार यादी पुनरावृत्ती आणि मुख्य निवडणूक आयुक्तांच्या विरोधात बंगळुरूमध्ये निदर्शने",
    "seoTitle": "बंगळुरूमध्ये एसआयआर आणि सीईसीविरोधी निदर्शने",
    "tea": {
-    "why": "कार्यकर्ते आणि विद्यार्थ्यांनी मतदार यादीच्या विशेष कसून पुनरावलोकनाला विरोध केला आणि मुख्य निवडणूक आयुक्तांच्या राजीनाम्याची मागणी केली.",
-    "want": "मतदार यादीतील सुधारणा रद्द करणे, मूळ मतदार याद्या पूर्ववत करणे आणि मुख्य निवडणूक आयुक्तांच्या राजीनाम्याची मागणी करणे.",
-    "changed": "१७ ऑक्टोबर: आठवड्याच्या सुरुवातीला निदर्शक आणि पत्रकारांना ताब्यात घेतल्यानंतर अधिकारी आणि आयोजकांनी सुरू असलेल्या परिणामांबद्दल व पुनरावलोकनांबद्दल माहिती दिली."
+    "why": "कार्यकर्ते आणि विद्यार्थ्यांनी मतदार यादीच्या विशेष सखोल पुनरावृत्तीवर आक्षेप घेतला असून मुख्य निवडणूक आयुक्तांच्या राजीनाम्याची मागणी केली आहे.",
+    "want": "मतदार यादीची पुनरावृत्ती रद्द करणे, मूळ याद्या पूर्ववत करणे, मुख्य निवडणूक आयुक्त यांना हटवणे आणि निदर्शनांच्या ठिकाणांवरील प्रतिबंध उठवणे.",
+    "changed": "23 ऑक्टोबर: स्थानिक निदर्शनांच्या निर्बंधांना आव्हान देण्यासाठी आणि मागण्यांचा पुनरुच्चार करण्यासाठी नागरिकांनी टाउन हॉलपासून तिरंगा मोर्चा काढला."
    },
-   "summary": "विद्यार्थी, कार्यकर्ते, वकील आणि ज्येष्ठ नागरिकांसह निदर्शकांनी मतदार यादीच्या विशेष कसून पुनरावलोकनाचा निषेध करण्यासाठी आणि मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची मागणी करण्यासाठी बंगळुरूमध्ये रस्त्यावर उतरून निदर्शने केली. 'माय व्होट, माय राईट कॅम्पेन' आणि 'ऑल इंडिया स्टुडंट्स असोसिएशन' यांसारख्या गटांनी आयोजित केलेल्या या निदर्शनांदरम्यान केआर सर्कल, फ्रीडम पार्क आणि टाउन हॉलजवळ पोलिसांनी हस्तक्षेप केला व लोकांना ताब्यात घेतले, कारण सहभागींनी कर्नाटकच्या मुख्य निवडणूक अधिकाऱ्यांच्या कार्यालयाकडे मार्च करण्याचा प्रयत्न केला होता. निदर्शने करणाऱ्यांवर, महिलांवर आणि पत्रकारांवर अरेरावी केल्याचा आरोप निदर्शकांनी केला. या टीकेच्या प्रतिसादात, कर्नाटकचे गृहमंत्री प्रियांक खर्गे आणि मुख्यमंत्री डी.के. शिवकुमार यांनी पोलिसांच्या कारवाईच्या पुनरावलोकनाचे आदेश दिले आणि शांततापूर्ण निदर्शने करणे हा लोकशाहीचा पाया असल्याचे सांगितले, तर पोलिसांच्या अधिकाऱ्यांनी परवानगीचा अभाव आणि निदर्शने फ्रीडम पार्कपुरتی मर्यादित ठेवणाऱ्या उच्च न्यायालयाच्या मार्गदर्शक तत्त्वांचे उल्लंघन केल्यामुळे कारवाई करण्यात आल्याचे स्पष्ट केले.",
+   "summary": "बंगळुरूमध्ये नागरिक समाज संस्था, विद्यार्थी, वकील आणि कार्यकर्त्यांनी मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची आणि मतदार यादीच्या विशेष सखोल पुनरावृत्तीला रद्द करण्याची मागणी करत निदर्शने आणि मोर्चे काढले. आंदोलकांनी फ्रीडम पार्कपुरती निदर्शने मर्यादित करणाऱ्या 2021 च्या पोलिस परवाना आदेशालाही आव्हान दिले आणि असंतोष व्यक्त करण्यासाठी सार्वजनिक जागा पूर्ववत करण्याची मागणी केली. यापूर्वीच्या निदर्शनांमुळे केआर सर्कल आणि फ्रीडम पार्कजवळ प्रतिबंधात्मक स्थानबद्धता करण्यात आली होती, ज्यावर सहभागी आणि प्रसारमाध्यमांच्या प्रतिनिधींशी संबंधित पोलिसांच्या वर्तनाबद्दल टीका झाली. याला प्रतिसाद म्हणून, कर्नाटकचे गृहमंत्री प्रियांक खड़गे आणि मुख्यमंत्री डी.के. शिवकुमार यांनी निदर्शने हाताळण्याच्या पोलिसांच्या कृतीचा आढावा घेण्याचे आदेश दिले, तर पोलिसांनी नंतर एका आगामी तिरंगा मोर्चासाठी अटींसह परवानगी दिली.",
    "demands": [
-    "मतदार यादीचे विशेष कसून पुनरावलोकन रद्द केले जावे",
-    "जानेवारी २०२५ मधील स्थितीनुसार मतदार याद्या पूर्ववत केल्या जाव्यात",
-    "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची मागणी करण्यात यावी",
-    "निदर्शने फ्रीडम पार्कपुरती मर्यादित ठेवणारा २०२१ चा पोलिसांचा परवाना आदेश मागे घेतला जावा"
+    "मतदार यादीची विशेष सखोल पुनरावृत्ती रद्द करावी",
+    "मतदार याद्या जानेवारी 2025 च्या स्थितीनुसार पूर्ववत कराव्यात",
+    "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांचा राजीनामा",
+    "फ्रीडम पार्कपुरتی निदर्शने मर्यादित करणारा 2021 चा पोलिस परवाना आदेश मागे घ्यावा"
    ],
-   "response": "बंगळुरू पोलिसांनी सांगितले की निदर्शकांकडे परवानगी नव्हती आणि त्यांनी निदर्शनांसाठी फ्रीडम पार्क निश्चित करणाऱ्या उच्च न्यायालयाच्या मार्गदर्शक तत्त्वांचे उल्लंघन केले आहे. कर्नाटकचे गृहमंत्री प्रियांक खर्गे आणि मुख्यमंत्री डी.के. शिवकुमार यांनी पोलिसांच्या कारवाईच्या पुनरावलोकनाचे आदेश दिले आणि शांततापूर्ण निदर्शनांचे रक्षण केले पाहिजे असे म्हटले.",
+   "response": "स्थानबध्दतेच्या घटनांनंतर कर्नाटकचे गृहमंत्री प्रियांक खड़गे आणि मुख्यमंत्री डी.के. शिवकुमार यांनी पोलिसांच्या कारवाईचा आढावा घेण्याचे आदेश दिले. पोलिसांनी सांगितले की त्यांनी संयम बाळगला आणि निदर्शनांनी उच्च न्यायालयाच्या मार्गदर्शक तत्त्वांचे पालन केले पाहिजे, जी निदर्शने फ्रीडम पार्कपुरती मर्यादित करतात, असा युक्तिवाद केला.",
    "updates": [
-    "विद्यार्थ्यांनी आणि कार्यकर्त्यांनी फ्रीडम पार्क आणि टाउन हॉलजवळ निदर्शने केली व त्यांना ताब्यात घेण्यात आले.",
-    "कर्नाटकच्या सीईओ कार्यालयाकडे मार्च करणाऱ्या निदर्शकांना केआर सर्कलजवळ पोलिसांनी ताब्यात घेतले.",
-    "कर्नाटकचे गृहमंत्री प्रियांक खर्गे आणि मुख्यमंत्री डी.के. शिवकुमार यांनी पोलिसांच्या कारवाईच्या पुनरावलोकनाचे आदेश दिले."
+    "नियोजित मोर्चानरम्यान फ्रीडम पार्कजवळ AISA शी संबंधित विद्यार्थी आंदोलकांना स्थानबद्ध करण्यात आले.",
+    "सीईओ कार्यालयाकडे मार्च करण्याचा प्रयत्न करणाऱ्या आंदोलकांना बंगळुरू पोलिसांनी केआर सर्कलजवळ स्थानबद्ध केले.",
+    "कर्नाटकच्या गृहमंत्र्यांनी पोलिसांनी केलेली स्थानबद्धता आणि आंदोलक व पत्रकारांची हाताळणी यांचा आढावा घेण्याचे आदेश दिले.",
+    "नागरी समाज गटांनी निदर्शनांच्या निर्बंधांना आव्हान देण्यासाठी आणि मागण्या नव्याने मांडण्यासाठी टाउन हॉलपासून तिरंगा मोर्चा काढला."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "ऑल इंडिया स्टुडंट्स असोसिएशनशी (AISA) संबंधित किमान ५० विद्यार्थ्यांना फ्रीडम पार्क येथे ताब्यात घेण्यात आले"
+    "crowd": "किमान 100 विद्यार्थी, वकील, नागरी हक्क कार्यकर्ते आणि तरुण स्थानबद्ध करण्यात आले",
+    "arrests": "किमान 100 विद्यार्थी, वकील, नागरी हक्क कार्यकर्ते आणि तरुण स्थानबद्ध करण्यात आले"
    }
   },
   "es": {
-   "title": "Protestas en Bengaluru contra la revisión del censo electoral y el jefe de la Comisión Electoral",
-   "seoTitle": "Protestas en Bengaluru contra SIR y CEC",
+   "title": "Protestas en Bengaluru contra la revisión del padrón electoral y el jefe de la Comisión Electoral",
+   "seoTitle": "Protestas en Bengaluru contra la SIR y el CEC",
    "tea": {
-    "why": "Activistas y estudiantes se opusieron a la Revisión Intensiva Especial de los censos electorales y exigieron la dimisión del jefe de la Comisión Electoral.",
-    "want": "Anular la revisión del censo electoral, restablecer las listas de votantes originales y exigir la dimisión del jefe de la Comisión Electoral.",
-    "changed": "17 de oct.: Las autoridades y los organizadores informaron sobre repercusiones continuas y revisiones tras la detención de manifestantes y periodistas a principios de semana."
+    "why": "Activistas y estudiantes se oponen a la revisión intensiva especial del padrón electoral y exigen la dimisión del jefe de la Comisión Electoral.",
+    "want": "Anular la revisión del padrón electoral, restaurar los padrones originales, destituir al jefe de la Comisión Electoral y levantar las restricciones a los lugares de protesta.",
+    "changed": "23 de octubre: Grupos de la sociedad civil organizaron una marcha con tricolor desde el ayuntamiento para desafiar las restricciones locales a las protestas y reiterar sus demandas."
    },
-   "summary": "Manifestantes, incluidos estudiantes, activistas, abogados y personas mayores, salieron a las calles en Bengaluru para protestar contra la Revisión Intensiva Especial de los censos electorales y exigir la dimisión del jefe de la Comisión Electoral, Gyanesh Kumar. Las protestas, organizadas por grupos como la Campaña Mi Voto, Mi Derecho y la Asociación de Estudiantes de toda la India, registraron intervenciones policiales y detenciones cerca de KR Circle, Freedom Park y Town Hall cuando los participantes intentaron marchar hacia la oficina del director electoral jefe de Karnataka. Los manifestantes alegaron tácticas policiales agresivas, incluido el maltrato a manifestantes, mujeres y periodistas. En respuesta a las reacciones adversas, el ministro del Interior de Karnataka, Priyank Kharge, y el ministro principal, D.K. Shivakumar, ordenaron una revisión de las acciones policiales, afirmando que la protesta pacífica es fundamental para la democracia, mientras que los funcionarios policiales mantuvieron que las acciones se tomaron debido a la falta de permiso y a las infracciones de las directrices del Tribunal Superior que restringen las manifestaciones a Freedom Park.",
+   "summary": "Organizaciones de la sociedad civil, estudiantes, abogados y activistas de Bengaluru realizaron manifestaciones y marchas para exigir la dimisión del jefe de la Comisión Electoral, Gyanesh Kumar, y la anulación de la revisión intensiva especial del padrón electoral. Los manifestantes también impugnaron la orden de concesión de licencias policiales de 2021 que restringe las manifestaciones al parque Freedom, exigiendo la restauración de los espacios públicos para la disidencia. Las manifestaciones anteriores provocaron detenciones preventivas cerca del círculo KR y el parque Freedom, lo que generó críticas sobre la conducta de la policía hacia los participantes y el personal de los medios de comunicación. En respuesta, el ministro del Interior de Karnataka, Priyank Kharge, y el ministro principal, D.K. Shivakumar, ordenaron una revisión de la actuación policial en las manifestaciones, mientras que posteriormente la policía concedió un permiso condicional para una posterior marcha con tricolor.",
    "demands": [
-    "Anular la Revisión Intensiva Especial de los censos electorales",
-    "Restablecer los censos electorales tal como estaban en enero de 2025",
-    "Exigir la dimisión del jefe de la Comisión Electoral, Gyanesh Kumar",
-    "Retirar la orden de concesión de licencias policiales de 2021 que restringe las protestas a Freedom Park"
+    "Anular la revisión intensiva especial del padrón electoral",
+    "Restaurar los padrones electorales al estado de enero de 2025",
+    "Dimisión del jefe de la Comisión Electoral Gyanesh Kumar",
+    "Retirada de la orden de concesión de licencias policiales de 2021 que restringe las protestas al parque Freedom"
    ],
-   "response": "La policía de Bengaluru declaró que los manifestantes carecían de permiso y violaron las directrices del Tribunal Superior que designan Freedom Park para las protestas. El ministro del Interior de Karnataka, Priyank Kharge, y el ministro principal, D.K. Shivakumar, ordenaron una revisión de las acciones policiales y afirmaron que se deben proteger las manifestaciones pacíficas.",
+   "response": "El ministro del Interior de Karnataka, Priyank Kharge, y el ministro principal, D.K. Shivakumar, ordenaron una revisión de las acciones policiales tras las detenciones. La policía declaró que actuó con moderación y sostuvo que las manifestaciones deben seguir las directrices del Tribunal Superior que restringen las protestas al parque Freedom.",
    "updates": [
-    "Estudiantes y activistas realizaron protestas y se enfrentaron a detenciones cerca de Freedom Park y Town Hall.",
-    "Los manifestantes que marchaban hacia la oficina del director electoral jefe de Karnataka fueron detenidos por la policía cerca de KR Circle.",
-    "El ministro del Interior de Karnataka, Priyank Kharge, y el ministro principal, D.K. Shivakumar, ordenaron una revisión de las acciones policiales."
+    "Estudiantes manifestantes pertenecientes a AISA fueron detenidos en el parque Freedom antes de una marcha planificada.",
+    "Los manifestantes que intentaban marchar hacia la oficina del director ejecutivo fueron detenidos cerca del círculo KR por la policía de Bengaluru.",
+    "El ministro del Interior de Karnataka ordenó una revisión de las detenciones policiales y del trato a los manifestantes y periodistas.",
+    "Grupos de la sociedad civil organizaron una marcha con tricolor desde el ayuntamiento para desafiar las restricciones a las protestas y renovar sus demandas."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Al menos 50 estudiantes pertenecientes a la Asociación de Estudiantes de toda la India (AISA) fueron detenidos en Freedom Park"
+    "crowd": "Al menos 100 estudiantes, abogados, activistas de derechos civiles y jóvenes fueron detenidos",
+    "arrests": "Al menos 100 estudiantes, abogados, activistas de derechos civiles y jóvenes fueron detenidos"
    }
   },
   "fr": {
-   "title": "Manifestations à Bengaluru contre la révision des listes électorales et le chef de la Commission électorale",
-   "seoTitle": "Manifestations anti-SIR et CEC à Bengaluru",
+   "title": "Manifestations à Bengaluru contre la révision des listes électorales et le chef de la commission électorale",
+   "seoTitle": "Manifestations à Bengaluru contre la SIR et le CEC",
    "tea": {
-    "why": "Des militants et des étudiants se sont opposés à la révision intensive spéciale des listes électorales et ont exigé la démission du chef de la Commission électorale.",
-    "want": "Annuler la révision des listes électorales, rétablir les listes électorales d'origine et exiger la démission du chef de la Commission électorale.",
-    "changed": "17 oct. : Les autorités et les organisateurs ont fait état de retombées continues et de réexamens à la suite de l'interpellation de manifestants et de journalistes plus tôt dans la semaine."
+    "why": "Des militants et des étudiants s'opposent à la révision intensive spéciale des listes électorales et exigent la démission du chef de la commission électorale.",
+    "want": "Annuler la révision des listes électorales, rétablir les listes d'origine, destituer le chef de la commission électorale et lever les restrictions concernant les lieux de manifestation.",
+    "changed": "23 octobre : Des groupes de la société civile ont organisé une marche tricolore depuis l'hôtel de ville pour contester les restrictions locales sur les manifestations et réitérer leurs revendications."
    },
-   "summary": "Des manifestants, comprenant des étudiants, des militants, des avocats et des personnes âgées, sont descendus dans les rues de Bengaluru pour protester contre la révision intensive spéciale des listes électorales et pour exiger la démission du chef de la Commission électorale, Gyanesh Kumar. Les manifestations, organisées par des groupes incluant la campagne My Vote, My Right et l'Association des étudiants de toute l'Inde, ont donné lieu à des interventions policières et à des interpellations près de KR Circle, de Freedom Park et de l'hôtel de ville alors que les participants tentaient de marcher vers le bureau du directeur général des élections du Karnataka. Les manifestants ont allégué des tactiques policières brutales, notamment des brutalités exercées contre des manifestants, des femmes et des journalistes. En réaction aux critiques, le ministre de l'Intérieur du Karnataka, Priyank Kharge, et le ministre en chef, D.K. Shivakumar, ont ordonné un examen des actions de la police, affirmant qu'une manifestation pacifique est fondamentale pour la démocratie, tandis que les responsables de la police ont soutenu que les mesures avaient été prises en raison d'un manque d'autorisation et de violations des directives de la Haute Cour limitant les manifestations à Freedom Park.",
+   "summary": "Des organisations de la société civile, des étudiants, des avocats et des militants à Bengaluru ont organisé des manifestations et des marches pour exiger la démission du chef de la commission électorale Gyanesh Kumar et l'annulation de la révision intensive spéciale des listes électorales. Les manifestants ont également contesté l'ordonnance de licence policière de 2021 limitant les manifestations au Freedom Park, réclamant le rétablissement des espaces publics pour la contestation. Des manifestations antérieures avaient entraîné des interpellations préventives près du cercle KR et du Freedom Park, suscitant des critiques sur la conduite de la police envers les participants et le personnel des médias. En réponse, le ministre de l'Intérieur du Karnataka, Priyank Kharge, et le ministre en chef, D.K. Shivakumar, ont ordonné un examen de la gestion des manifestations par la police, tandis que la police a ensuite accordé une autorisation conditionnelle pour une marche tricolore ultérieure.",
    "demands": [
     "Annuler la révision intensive spéciale des listes électorales",
-    "Rétablir les listes électorales telles qu'elles étaient en janvier 2025",
-    "Exiger la démission du chef de la Commission électorale, Gyanesh Kumar",
-    "Retirer l'ordonnance de police de 2021 relative aux licences qui restreint les manifestations à Freedom Park"
+    "Rétablir les listes électorales au statut de janvier 2025",
+    "Démission du chef de la commission électorale Gyanesh Kumar",
+    "Retrait de l'ordonnance de licence policière de 2021 limitant les manifestations au Freedom Park"
    ],
-   "response": "La police de Bengaluru a déclaré que les manifestants n'avaient pas d'autorisation et avaient violé les directives de la Haute Cour désignant Freedom Park pour les manifestations. Le ministre de l'Intérieur du Karnataka, Priyank Kharge, et le ministre en chef, D.K. Shivakumar, ont ordonné un examen des actions de la police et ont déclaré que les manifestations pacifiques devaient être protégées.",
+   "response": "Le ministre de l'Intérieur du Karnataka, Priyank Kharge, et le ministre en chef, D.K. Shivakumar, ont ordonné un examen des actions policières à la suite des interpellations. La police a déclaré avoir agi avec retenue et soutenu que les manifestations devaient suivre les directives de la Haute Cour limitant les manifestations au Freedom Park.",
    "updates": [
-    "Des étudiants et des militants ont organisé des protestations et ont fait l'objet d'interpellations près de Freedom Park et de l'hôtel de ville.",
-    "Des manifestants marchant vers le bureau du directeur général des élections du Karnataka ont été interpellés par la police près de KR Circle.",
-    "Le ministre de l'Intérieur du Karnataka, Priyank Kharge, et le ministre en chef, D.K. Shivakumar, ont ordonné un examen des actions de la police."
+    "Des étudiants manifestants appartenant à l'AISA ont été interpellés au Freedom Park avant une marche prévue.",
+    "Des manifestants tentant de marcher vers le bureau du PDG ont été interpellés près du cercle KR par la police de Bengaluru.",
+    "Le ministre de l'Intérieur du Karnataka a ordonné un examen des interpellations policières ainsi que du traitement réservé aux manifestants et aux journalistes.",
+    "Des groupes de la société civile ont organisé une marche tricolore depuis l'hôtel de ville pour contester les restrictions sur les manifestations et renouveler leurs revendications."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Au moins 50 étudiants appartenant à l'Association des étudiants de toute l'Inde (AISA) ont été interpellés à Freedom Park"
+    "crowd": "Au moins 100 étudiants, avocats, militants des droits civiques et jeunes ont été interpellés",
+    "arrests": "Au moins 100 étudiants, avocats, militants des droits civiques et jeunes ont été interpellés"
    }
   },
   "de": {
-   "title": "Proteste in Bengaluru gegen die Überarbeitung der Wählerverzeichnisse und den Chef der Wahlkommission",
-   "seoTitle": "Proteste in Bengaluru gegen SIR und CEC",
+   "title": "Proteste in Bengaluru gegen Wählerverzeichnisrevision und Chef der Wahlkommission",
+   "seoTitle": "Bengaluru Anti-SIR- und CEC-Proteste",
    "tea": {
-    "why": "Aktivisten und Studierende lehnten die spezielle Intensivüberarbeitung der Wählerverzeichnisse ab und forderten den Rücktritt des Chefs der Wahlkommission.",
-    "want": "Die Überarbeitung der Wählerverzeichnisse verwerfen, die ursprünglichen Wählerlisten wiederherstellen und den Rücktritt des Chefs der Wahlkommission fordern.",
-    "changed": "17. Okt.: Behörden und Organisatoren berichteten von anhaltenden Nachwirkungen und Überprüfungen nach der Festnahme von Demonstranten und Journalisten zu Beginn der Woche."
+    "why": "Aktivisten und Studenten wenden sich gegen die spezielle intensive Überarbeitung der Wählerverzeichnisse und fordern den Rücktritt des Chefs der Wahlkommission.",
+    "want": "Die Überarbeitung der Wählerverzeichnisse verwerfen, die ursprünglichen Verzeichnisse wiederherstellen, den Chef der Wahlkommission absetzen und die Beschränkungen für Protestorte aufheben.",
+    "changed": "23. Oktober: Zivilgesellschaftliche Gruppen organisierten einen Trikolore-Marsch vom Rathaus aus, um lokale Protestbeschränkungen anzufechten und Forderungen zu bekräftigen."
    },
-   "summary": "Demonstranten, darunter Studierende, Aktivisten, Anwälte und Senioren, gingen in Bengaluru auf die Straße, um gegen die spezielle Intensivüberarbeitung der Wählerverzeichnisse zu protestieren und den Rücktritt des Chefs der Wahlkommission, Gyanesh Kumar, zu fordern. Die Proteste, die von Gruppen wie der Kampagne „My Vote, My Right“ und der All India Students' Association organisiert wurden, führten zu Polizeieingriffen und Festnahmen in der Nähe des KR Circle, des Freedom Park und der Town Hall, als die Teilnehmer versuchten, zum Büro des leitenden Wahlleiters von Karnataka zu marschieren. Demonstranten warfen der Polizei harte Taktiken vor, darunter handgreifliches Vorgehen gegen Demonstranten, Frauen und Journalisten. Als Reaktion auf den Gegenwind ordneten der Innenminister von Karnataka, Priyank Kharge, und der Chief Minister, D.K. Shivakumar, eine Überprüfung der polizeilichen Maßnahmen an und erklärten, dass friedlicher Protest für die Demokratie von grundlegender Bedeutung sei, während Polizeibeamte erklärten, die Maßnahmen seien aufgrund fehlender Genehmigungen und Verstöße gegen die Richtlinien des High Court ergriffen worden, die Demonstrationen auf den Freedom Park beschränken.",
+   "summary": "Zivilgesellschaftliche Organisationen, Studenten, Anwälte und Aktivisten in Bengaluru hielten Kundgebungen und Märsche ab, um den Rücktritt des Chefs der Wahlkommission Gyanesh Kumar und die Verwerfung der speziellen intensiven Überarbeitung der Wählerverzeichnisse zu fordern. Die Demonstranten fochten auch die polizeiliche Lizenzverordnung von 2021 an, die Demonstrationen auf den Freedom Park beschränkt, und forderten die Wiederherstellung öffentlicher Räume für Meinungsverschiedenheiten. Vorherige Demonstrationen hatten zu vorbeugenden Ingewahrsamnahmen in der Nähe des KR Circle und des Freedom Parks geführt, was Kritik am polizeilichen Verhalten gegenüber Teilnehmern und Medienmitarbeitern hervorrief. Als Reaktion darauf ordneten der Innenminister von Karnataka, Priyank Kharge, und der Chief Minister, D.K. Shivakumar, eine Überprüfung des polizeilichen Vorgehens bei den Demonstrationen an, während die Polizei später eine bedingte Genehmigung für einen anschließenden Trikolore-Marsch erteilte.",
    "demands": [
-    "Die spezielle Intensivüberarbeitung der Wählerverzeichnisse verwerfen",
-    "Die Wählerverzeichnisse in den Zustand von Januar 2025 zurückversetzen",
-    "Den Rücktritt des Chefs der Wahlkommission, Gyanesh Kumar, fordern",
-    "Die polizeiliche Lizenzverordnung von 2021 zurückziehen, die Proteste auf den Freedom Park beschränkt"
+    "Die spezielle intensive Überarbeitung der Wählerverzeichnisse verwerfen",
+    "Wählerverzeichnisse auf den Stand von Januar 2025 zurücksetzen",
+    "Rücktritt des Chefs der Wahlkommission Gyanesh Kumar",
+    "Rücknahme der polizeilichen Lizenzverordnung von 2021, die Proteste auf den Freedom Park beschränkt"
    ],
-   "response": "Die Polizei von Bengaluru erklärte, dass den Demonstranten keine Genehmigung vorlag und sie gegen die Richtlinien des High Court verstießen, die den Freedom Park für Proteste vorsehen. Der Innenminister von Karnataka, Priyank Kharge, und der Chief Minister, D.K. Shivakumar, ordneten eine Überprüfung der Polizeieingriffe an und erklärten, dass friedliche Demonstrationen geschützt werden müssen.",
+   "response": "Der Innenminister von Karnataka, Priyank Kharge, und CM D.K. Shivakumar ordneten nach den Ingewahrsamnahmen eine Überprüfung der polizeilichen Maßnahmen an. Die Polizei erklärte, sie habe besonnen gehandelt und betonte, dass Demonstrationen den Richtlinien des High Court folgen müssen, die Proteste auf den Freedom Park beschränken.",
    "updates": [
-    "Studierende und Aktivisten hielten Proteste ab und sahen sich in der Nähe des Freedom Park und der Town Hall Festnahmen ausgesetzt.",
-    "Demonstranten, die zum Büro des leitenden Wahlleiters von Karnataka marschierten, wurden in der Nähe des KR Circle von der Polizei festgenommen.",
-    "Der Innenminister von Karnataka, Priyank Kharge, und der Chief Minister, D.K. Shivakumar, ordneten eine Überprüfung der polizeilichen Maßnahmen an."
+    "Studentische Demonstranten der AISA wurden vor einem geplanten Marsch im Freedom Park in Gewahrsam genommen.",
+    "Demonstranten, die zum Büro des Geschäftsführers marschieren wollten, wurden von der Polizei Bengaluru in der Nähe des KR Circle in Gewahrsam genommen.",
+    "Der Innenminister von Karnataka ordnete eine Überprüfung der polizeilichen Ingewahrsamnahmen und des Umgangs mit Demonstranten und Journalisten an.",
+    "Zivilgesellschaftliche Gruppen organisierten einen Trikolore-Marsch vom Rathaus, um Protestbeschränkungen anzufechten und Forderungen zu erneuern."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Mindestens 50 Studierende der All India Students' Association (AISA) wurden im Freedom Park festgenommen"
+    "crowd": "Mindestens 100 Studenten, Anwälte, Bürgerrechtsaktivisten und Jugendliche wurden in Gewahrsam genommen",
+    "arrests": "Mindestens 100 Studenten, Anwälte, Bürgerrechtsaktivisten und Jugendliche wurden in Gewahrsam genommen"
    }
   }
  }
