@@ -1,40 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-24",
-  "count": 119
+  "count": 134
  },
  "runs": [
-  {
-   "at": "2026-10-17T23:09:47.988Z",
-   "ms": 98560,
-   "discovered": 32,
-   "fetched": 31,
-   "classified": 27,
-   "protests": 15,
-   "summarized": 4,
-   "published": 85,
-   "live": 11,
-   "aiCalls": 10,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261017223000 http://data.gdeltproject.org/gdeltv2/20261017223000.export.CSV.zip → 404",
-    "gdelt: 10 files, 29 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 42 protest-word items",
-    "fetch: 31 ok, 1 failed",
-    "classify: new candidate e2c0bcedcd8 \"Sugarcane farmers march and stage mock funeral in Haveri\" (Haveri)",
-    "classify: new candidate e9b69f82108 \"No Kings movement holds early voting rally in Dayton\" (Dayton)",
-    "classify: new candidate e7f64639396 \"Residents protest waste dumping in Faridabad\" (Faridabad)",
-    "classify: new candidate e42c3b863e5 \"APSRTC employees unions demand cancellation of private bus tenders\" (Vijayawada)",
-    "classify: new candidate ec5f38aa791 \"Crowd in Portland rallies around electing Maine Democrats on No Kings Day\" (Portland)",
-    "classify: new candidate e7157a31d8a \"No Kings protests bring hundreds to the New Haven green\" (New Haven)",
-    "classify: new candidate e0aa8fd32e5 \"No Kings protesters gather at Frisco Triangle Park\" (Frisco)",
-    "classify: new candidate eb6ce04e75f \"Woodland locals hold No Kings early voting rally\" (Woodland)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-18T04:27:46.505Z",
    "ms": 227658,
@@ -1399,8 +1368,39 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-24T16:00:39.701Z",
+   "ms": 332621,
+   "discovered": 44,
+   "fetched": 40,
+   "classified": 36,
+   "protests": 20,
+   "summarized": 6,
+   "published": 138,
+   "live": 14,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261024153000 http://data.gdeltproject.org/gdeltv2/20261024153000.export.CSV.zip → 404",
+    "gdelt: 20261024154500 http://data.gdeltproject.org/gdeltv2/20261024154500.export.CSV.zip → 404",
+    "gdelt: 9 files, 24 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 222 protest-word items",
+    "fetch: 40 ok, 4 failed",
+    "classify: new candidate e90b228a6fd \"Police fire tear gas at living-cost protesters in Lyon\" (Lyon)",
+    "classify: new candidate e82c7588ebb \"BJP and ABVP protest at Pondicherry University over graffiti\" (Puducherry)",
+    "classify: new candidate e69f64a1fd8 \"Congress plans marches over voter list discrepancies\" (Delhi)",
+    "classify: new candidate e5f545f14f4 \"Demonstrations at German airports against deportations\" (Leipzig)",
+    "classify: new candidate ebeee2b9ff7 \"Activist ends 27-day hunger strike against Ken-Betwa project\" (Panna)",
+    "classify: new candidate ee3abf5f94c \"Rayo Vallecano fans protest against club president Presa\" (Madrid)",
+    "summary: ee0a9468406 only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261024134500",
- "lastRunAt": "2026-10-24T13:48:38.926Z"
+ "gdeltCursor": "20261024160000",
+ "lastRunAt": "2026-10-24T16:00:39.701Z"
 }
