@@ -13,45 +13,44 @@
   "citySlug": "delhi",
   "regionSlug": "delhi"
  },
- "scope": "nationwide",
+ "scope": "local",
  "causes": [
   "elections",
   "governance",
   "anti-government"
  ],
- "kind": "one-day",
- "startedOn": "2026-11-01",
+ "kind": "multi-day",
+ "startedOn": "2026-10-30",
  "status": "scheduled",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "tone-words"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters oppose alleged irregularities in the Special Intensive Revision of electoral rolls and demand the resignation of the CEC.",
-  "want": "They demand the resignation of Chief Election Commissioner Gyanesh Kumar and the protection of democratic institutions.",
-  "changed": "Oct 24: The BJP criticized the rally's November 1 date, stating it conflicts with the anniversary of the 1984 anti-Sikh riots."
+  "why": "The opposition is protesting alleged poll irregularities and the Special Intensive Revision of electoral rolls.",
+  "want": "Protesters demand the resignation and removal of Chief Election Commissioner Gyanesh Kumar.",
+  "changed": "Oct 24: BJP criticized the Congress for scheduling the protest on November 1, citing the anniversary of the 1984 anti-Sikh riots."
  },
- "summary": "The INDIA opposition bloc is organizing a 'Delhi Chalo March' culminating in a large rally at Ramlila Maidan in New Delhi on November 1, 2026. The protest aims to challenge alleged irregularities during the Special Intensive Revision (SIR) of electoral rolls and demands the resignation of Chief Election Commissioner Gyanesh Kumar. Organizers, including leaders from the Congress party, anticipate massive participation from citizens across the country. Ahead of the event, the ruling Bharatiya Janata Party strongly criticized the choice of November 1, pointing out its deep emotional significance as the anniversary of the 1984 anti-Sikh riots. Meanwhile, trade associations in Delhi expressed concern over potential financial losses and urged organizers to reschedule the demonstration.",
+ "summary": "The INDIA opposition bloc is organising a series of demonstrations in New Delhi, including a symbolic public impeachment proceeding against Chief Election Commissioner Gyanesh Kumar on October 30, followed by a large march culminating at Ramlila Maidan on November 1. Organisers expect up to a million participants to protest alleged vote tampering and irregularities in the Special Intensive Revision of electoral rolls. The plans have faced pushback from the ruling Bharatiya Janata Party, which criticized the November 1 date for overlapping with the 1984 anti-Sikh riots anniversary. Additionally, trader associations urged opposition leaders to postpone the event to avoid major financial losses during the peak festive shopping season.",
  "organizers": [
   "INDIA bloc",
-  "Indian National Congress",
-  "Congress party"
+  "Congress",
+  "Bharatiya Janata Party"
  ],
  "demands": [
   "Resignation of Chief Election Commissioner Gyanesh Kumar",
-  "Protection of democracy and the Constitution"
+  "Action against alleged vote chori and electoral roll irregularities"
  ],
- "response": "No official government or police response reported in the sources regarding security actions for the upcoming event; however, the Bharatiya Janata Party condemned the rally date and trade associations requested a postponement.",
+ "response": "No official response reported from law enforcement regarding security measures for the upcoming dates, though opposition leaders accused the ruling party of attempting to undermine their democratic mobilization.",
  "numbers": {
   "crowd": {
    "value": 1000000,
    "text": "at least one million citizens are expected to participate",
    "sources": [
     1,
+    5,
     6,
     7
    ]
@@ -60,31 +59,33 @@
  "updates": [
   {
    "at": "2026-10-23",
-   "text": "Congress leaders reviewed rally preparations at the AICC headquarters, expecting a turnout of one million people.",
+   "text": "Congress leaders reviewed preparations for the upcoming November 1 rally at Ramlila Maidan, expecting massive mobilisation.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-24",
-   "text": "The Chamber of Trade and Industry urged Rahul Gandhi to postpone the rally, fearing business losses during the festive season.",
+   "text": "Traders' associations asked opposition leaders to postpone the November 1 protest to prevent significant festive business losses.",
    "sources": [
-    2
+    2,
+    8
    ]
   },
   {
    "at": "2026-10-24",
-   "text": "The BJP criticized the choice of November 1 for the rally, accusing the opposition of hurting Sikh community sentiments.",
+   "text": "The BJP condemned the November 1 rally date, claiming it disrespects the sentiments of the Sikh community.",
    "sources": [
     3,
     4,
-    5
+    8
    ]
   },
   {
    "at": "2026-10-24",
-   "text": "K.C. Venugopal announced a symbolic public impeachment proceeding against the CEC on October 30 ahead of the November 1 march.",
+   "text": "Opposition leaders announced a public impeachment proceeding against CEC Gyanesh Kumar for October 30 ahead of the march.",
    "sources": [
+    5,
     6,
     7
    ]
@@ -107,84 +108,86 @@
   },
   {
    "n": 3,
-   "url": "https://timesofindia.indiatimes.com/india/rubbing-salt-into-wounds-bjp-targets-rahul-over-nov-1-rally-recalls-1984-anti-sikh-riots/articleshow/135165913.cms",
-   "publisher": "timesofindia.indiatimes.com",
-   "title": "'Rubbing salt into wounds': BJP targets Rahul over Nov 1 rally, recalls 1984 anti-Sikh riots",
-   "publishedAt": "2026-10-24T08:25:00.000Z"
-  },
-  {
-   "n": 4,
    "url": "https://www.dailyexcelsior.com/rahul-bent-on-holding-protest-on-nov-1-to-toy-with-sikh-sentiments-bjp-on-rally-against-vote-chori/",
    "publisher": "dailyexcelsior.com",
    "title": "Rahul bent on holding protest on Nov 1 to toy with Sikh sentiments: BJP on rally against vote chori - Daily Excelsior",
    "publishedAt": "2026-10-24T09:22:20.000Z"
   },
   {
-   "n": 5,
+   "n": 4,
    "url": "https://www.prokerala.com/news/articles/a1828323.html",
    "publisher": "prokerala.com",
    "title": "'Does Rahul Gandhi want to hurt Sikh sentiments?': BJP questions INDIA Bloc's Nov 1 rally",
    "publishedAt": "2026-10-24T11:10:01.000Z"
   },
   {
-   "n": 6,
+   "n": 5,
    "url": "https://www.thehindu.com/news/national/india-bloc-public-impeachment-cec-gyanesh-kumar-amid-protest/article71621030.ece",
    "publisher": "thehindu.com",
    "title": "INDIA bloc to hold ‘public impeachment proceeding’ of CEC Gyanesh Kumar, says K.C. Venugopal",
    "publishedAt": "2026-10-24T16:19:26.000Z"
   },
   {
-   "n": 7,
+   "n": 6,
    "url": "https://aninews.in/news/national/politics/anti-sir-stir-india-bloc-gears-up-for-nov-1-dilli-chalo-march-bjp-says-hurting-sikh-sentiments20261024220527/",
    "publisher": "aninews.in",
    "title": "Anti-SIR stir: INDIA bloc gears up for Nov 1 'Dilli Chalo' march, BJP says hurting Sikh sentiments",
    "publishedAt": "2026-10-24T16:35:27.072Z"
+  },
+  {
+   "n": 7,
+   "url": "https://www.siasat.com/india-bloc-to-hold-public-impeachment-of-cec-gyanesh-on-oct-30-3563839/",
+   "publisher": "siasat.com",
+   "title": "INDIA bloc to hold 'public impeachment' of CEC Gyanesh on Oct 30",
+   "publishedAt": "2026-10-24T17:34:07.000Z"
+  },
+  {
+   "n": 8,
+   "url": "https://timesofindia.indiatimes.com/india/defer-nov-1-rally-will-hit-festive-business-traders-urge-rahul-bjp-raps-congress/articleshow/135177587.cms",
+   "publisher": "timesofindia.indiatimes.com",
+   "title": "Defer Nov 1 rally, will hit festive business, traders urge Rahul; BJP raps Congress",
+   "publishedAt": "2026-10-24T20:19:00.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.95,
- "publishers": 7,
- "reports24h": 8,
+ "publishers": 8,
+ "reports24h": 10,
  "reportsPrev24h": 1,
- "reports48h": 9,
+ "reports48h": 11,
  "firstSeenAt": "2026-10-24T01:06:18.799Z",
- "lastReportAt": "2026-10-24T16:35:27.072Z",
- "lastCheckedAt": "2026-10-24T19:33:33.787Z",
- "updatedAt": "2026-10-24T19:31:41.027Z",
- "responseSources": [
-  2,
-  3,
-  4,
-  5
- ],
+ "lastReportAt": "2026-10-24T20:19:00.000Z",
+ "lastCheckedAt": "2026-10-24T20:55:46.668Z",
+ "updatedAt": "2026-10-24T20:55:33.110Z",
+ "responseSources": [],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-24T19:31:41.027Z",
- "summaryOf": "4dc1bcdd3d16",
+ "summarizedAt": "2026-10-24T20:55:33.110Z",
+ "summaryOf": "7292dfe94dea",
  "publishedAt": "2026-10-24T10:12:44.107Z",
  "i18n": {
-  "of": "27873e6fe39517c2",
-  "at": "2026-10-24T19:34:43.457Z",
+  "of": "8f07a11a2bc64608",
+  "at": "2026-10-24T20:56:35.596Z",
   "tries": 1,
   "hi": {
-   "title": "INDIA ब्लॉक मतदाता सूची संशोधन के खिलाफ दिल्ली में 1 नवंबर को रैली की योजना बना रहा है",
+   "title": "INDIA गठबंधन ने मतदाता सूची संशोधन के खिलाफ 1 नवंबर को दिल्ली में रैली की योजना बनाई",
    "seoTitle": "मतदाता सूची संशोधन के खिलाफ दिल्ली में रैली",
    "tea": {
-    "why": "प्रदर्शनीकारी मतदाता सूचियों के विशेष गहन संशोधन में कथित अनियमितताओं का विरोध कर रहे हैं और मुख्य चुनाव आयुक्त के इस्तीफे की मांग कर रहे हैं।",
-    "want": "वे मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे और लोकतांत्रिक संस्थाओं की सुरक्षा की मांग करते हैं।",
-    "changed": "24 अक्टूबर: बीजेपी ने रैली की 1 नवंबर की तारीख की आलोचना करते हुए कहा कि यह 1984 के सिख विरोधी दंगों की बरसी से टकराती है।"
+    "why": "विपक्ष कथित चुनावी अनियमितताओं और मतदाता सूचियों के विशेष गहन पुनरीक्षण का विरोध कर रहा है।",
+    "want": "प्रदर्शनकारियों ने मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे और पद से हटाने की मांग की है।",
+    "changed": "24 अक्टूबर: भाजपा ने 1984 के सिख विरोधी दंगों की बरसी का हवाला देते हुए 1 नवंबर को विरोध प्रदर्शन तय करने के लिए कांग्रेस की आलोचना की।"
    },
-   "summary": "INDIA विपक्षी गठबंधन 1 नवंबर 2026 को नई दिल्ली के रामलीला मैदान में एक बड़ी रैली के रूप में समाप्त होने वाले 'दिल्ली चलो मार्च' का आयोजन कर रहा है। इस विरोध प्रदर्शन का उद्देश्य मतदाता सूचियों के विशेष गहन संशोधन (SIR) के दौरान कथित अनियमितताओं को चुनौती देना है और मुख्य चुनाव आयुक्त ज्ञानेश कुमार के इस्तीफे की मांग करना है। कांग्रेस पार्टी के नेताओं सहित आयोजकों को देश भर के नागरिकों की भारी भागीदारी की उम्मीद है। इस कार्यक्रम से पहले, सत्ताधारी भारतीय जनता पार्टी ने 1 नवंबर की तारीख के चुनाव की कड़ी आलोचना की, और इसके गहरे भावनात्मक महत्व को 1984 के सिख विरोधी दंगों की बरसी के रूप में रेखांकित किया। इस बीच, दिल्ली के व्यापार संघों ने संभावित वित्तीय नुकसान पर चिंता व्यक्त की और आयोजकों से प्रदर्शन को पुनर्निर्धारित करने का आग्रह किया।",
+   "summary": "INDIA विपक्षी गठबंधन नई दिल्ली में कई प्रदर्शनों का आयोजन कर रहा है, जिसमें 30 अक्टूबर को मुख्य चुनाव आयुक्त ज्ञानेश कुमार के खिलाफ प्रतीकात्मक सार्वजनिक महाभियोग की कार्यवाही और उसके बाद 1 नवंबर को रामलीला मैदान पर समाप्त होने वाला एक बड़ा मार्च शामिल है। आयोजकों को उम्मीद है कि कथित वोट से छेड़छाड़ और मतदाता सूचियों के विशेष गहन पुनरीक्षण में अनियमितताओं का विरोध करने के लिए अधिकतम दस लाख प्रतिभागी भाग लेंगे। इस योजना का सत्तारूढ़ भारतीय जनता पार्टी ने विरोध किया है, जिसने 1984 के सिख विरोधी दंगों की बरसी के साथ ओवरलैप होने के लिए 1 नवंबर की तारीख की आलोचना की। इसके अलावा, व्यापारी संघों ने विपक्षी नेताओं से मुख्य त्योहारी खरीदारी के मौसम के दौरान बड़े वित्तीय नुकसान से बचने के लिए इस कार्यक्रम को स्थगित करने का आग्रह किया।",
    "demands": [
     "मुख्य चुनाव आयुक्त ज्ञानेश कुमार का इस्तीफा",
-    "लोकतंत्र और संविधान की रक्षा"
+    "कथित वोट चोरी और मतदाता सूची की अनियमितताओं के खिलाफ कार्रवाई"
    ],
-   "response": "आगामी कार्यक्रम के लिए सुरक्षा कार्रवाइयों के संबंध में स्रोतों में कोई आधिकारिक सरकार या पुलिस प्रतिक्रिया रिपोर्ट नहीं की गई है; हालांकि, भारतीय जनता पार्टी ने रैली की तारीख की निंदा की और व्यापार संघों ने स्थगन का अनुरोध किया।",
+   "response": "आगामी तारीखों के लिए सुरक्षा उपायों के संबंध में कानून प्रवर्तन की ओर से कोई आधिकारिक प्रतिक्रिया नहीं बताई गई है, हालांकि विपक्षी नेताओं ने सत्ताधारी पार्टी पर उनके लोकतांत्रिक गोलबंदी को कमजोर करने का प्रयास करने का आरोप लगाया है।",
    "updates": [
-    "कांग्रेस नेताओं ने AICC मुख्यालय में रैली की तैयारियों की समीक्षा की, जिसमें दस लाख लोगों की उपस्थिति की उम्मीद है।",
-    "चैंबर ऑफ ट्रेड एंड इंडस्ट्री ने राहुल गांधी से त्योहारी सीजन के दौरान व्यापारिक नुकसान की आशंका जताते हुए रैली स्थगित करने का आग्रह किया।",
-    "बीजेपी ने रैली के लिए 1 नवंबर के चुनाव की आलोचना की, और विपक्ष पर सिख समुदाय की भावनाओं को आहत करने का आरोप लगाया।",
-    "के.सी. वेणुगोपाल ने 1 नवंबर के मार्च से पहले 30 अक्टूबर को CEC के खिलाफ प्रतीकात्मक सार्वजनिक महाभियोग कार्यवाही की घोषणा की।"
+    "कांग्रेस नेताओं ने भारी लामबंदी की उम्मीद करते हुए रामलीला मैदान में आगामी 1 नवंबर की रैली की तैयारियों की समीक्षा की।",
+    "व्यापार संघों ने महत्वपूर्ण त्योहारी कारोबार के नुकसान को रोकने के लिए विपक्षी नेताओं से 1 नवंबर के विरोध प्रदर्शन को स्थगित करने को कहा।",
+    "भाजपा ने 1 नवंबर की रैली की तारीख की निंदा करते हुए दावा किया कि यह सिख समुदाय की भावनाओं का अनादर करती है।",
+    "विपक्षी नेताओं ने मार्च से पहले 30 अक्टूबर के लिए सीईसी ज्ञानेश कुमार के खिलाफ सार्वजनिक महाभियोग कार्यवाही की घोषणा की।"
    ],
    "conflicts": [],
    "numbers": {
@@ -192,49 +195,49 @@
    }
   },
   "mr": {
-   "title": "INDIA आघाडीतर्फे मतदारयादी पुनر्रचनेविरोधात १ नोव्हेंबर रोजी दिल्लीत रॅलीचे नियोजन",
-   "seoTitle": "मतदारयादी पुनर्रचनेविरोधात दिल्लीत रॅली",
+   "title": "INDIA आघाडीने मतदार यादी दुरुस्तीविरोधी १ नोव्हेंबरला दिल्लीत रॅलीचे नियोजन केले",
+   "seoTitle": "मतदार यादी दुरुस्तीविरोधी दिल्लीत रॅली",
    "tea": {
-    "why": "निदर्शनकर्ते मतदारयाद्यांच्या विशेष सखोल पुनर्रचनेमधील कथित अनियमिततांच्या विरोधात आहेत आणि मुख्य निवडणूक आयुक्तांच्या राजीनाम्याची मागणी करत आहेत.",
-    "want": "ते मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची आणि लोकशाही संस्थांच्या संरक्षणाची मागणी करतात.",
-    "changed": "२४ ऑक्टोबर: रॅलीच्या १ नोव्हेंबरच्या तारखेवर टीका करताना भाजप म्हणाली की, ही तारीख १९८४ च्या शीखविरोधी दंगलींच्या वर्धापनदिनाशी संघर्ष करते."
+    "why": "विरोधक कथित निवडणूक अनियमितता आणि मतदार याद्यांच्या विशेष सखोल पुनरावृत्तीचा निषेध करत आहेत.",
+    "want": "आंदोलकांनी मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची आणि हकालपट्टीची मागणी केली आहे.",
+    "changed": "२४ ऑक्टोबर: भाजपले १९८४ च्या शिकाऊ विरोधी दंगलींच्या वर्धापनदिनाचे कारण देत १ नोव्हेंबर रोजी निषेध आयोजित केल्याबद्दल काँग्रेसवर टीका केली."
    },
-   "summary": "INDIA विरोधी आघाडी १ नोव्हेंबर २०२६ रोजी नवी दिल्लीतील रामलीला मैदानावर समारोप होणाऱ्या 'दिल्ली चलो मार्च'चे आयोजन करत आहे. या आंदोलनाचा उद्देश मतदारयाद्यांच्या विशेष सखोल पुनर्रचना (SIR) मधील कथित अनियमिततांना आव्हान देणे हा आहे आणि मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या राजीनाम्याची मागणी करणे हा आहे. काँग्रेस पक्षाच्या नेत्यांसह आयोजकांना देशभरातील नागरिकांच्या मोठ्या सहभागाची अपेक्षा आहे. या कार्यक्रमापूर्वी, सत्ताधारी भारतीय जनता पक्षाने १ नोव्हेंबरची तारीख निवडल्याबद्दल तीव्र टीका केली आणि १९८४ च्या शीखविरोधी दंगलींचा वर्धापनदिन म्हणून त्याचे गाढे भावनिक महत्त्व अधोरेखित केले. दरम्यान, दिल्लीतील व्यापारी संघटनांनी संभाव्य आर्थिक नुकसानाबद्दल चिंता व्यक्त केली आणि आयोजकांना निदर्शनांची तारीख बदलण्याचे आवाहन केले.",
+   "summary": "INDIA विरोधी आघाडी नवी दिल्लीत अनेक निदर्शने आयोजित करत आहे, ज्यामध्ये ३० ऑक्टोबर रोजी मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांच्या विरोधात प्रतीकात्मक सार्वजनिक महाभियोग कारवाई आणि त्यानंतर १ नोव्हेंबर रोजी रामलीला मैदानावर समाप्त होणारा मोठा मोर्चा समाविष्ट आहे. कथित मत फेरफार आणि मतदार याद्यांच्या विशेष सखोल पुनरावृत्तीमधील अनियमिततेचा निषेध करण्यासाठी आयोजकांना दहा लाखांपर्यंत सहभागी अपेक्षित आहेत. या योजनांना सत्ताधारी भारतीय जनता पक्षाकडून विरोध झाला आहे, ज्याने १९८४ च्या सिख विरोधी दंगलींच्या वर्धापनदिनाशी जुळल्याबद्दल १ नोव्हेंबरच्या तारखेची टीका केली. तसेच, व्यापारी संघटनांनी विरोधी नेत्यांना सणासुदीच्या मुख्य खरेदीच्या हंगामात मोठे आर्थिक नुकसान टाळण्यासाठी हा कार्यक्रम पुढे ढकलण्याचे आवाहन केले.",
    "demands": [
     "मुख्य निवडणूक आयुक्त ज्ञानेश कुमार यांचा राजीनामा",
-    "लोकशाही आणि संविधानाचे संरक्षण"
+    "कथित मत चोरी आणि मतदार यादीतील अनियमिततेविरोधात कारवाई"
    ],
-   "response": "आगामी कार्यक्रमाच्या सुरक्षा कारवाईबाबत स्रोतांमध्ये कोणतीही अधिकृत सरकार किंवा पोलिसांची प्रतिक्रिया नोंदवली गेली नाही; तथापि, भारतीय जनता पक्षाने रॅलीच्या तारखेचा निषेध केला आणि व्यापारी संघटनांनी पुढे ढकलण्याची विनंती केली.",
+   "response": "आगामी तारखांसाठी सुरक्षा उपायांबाबत कायद्याची अंमलबजावणी करणाऱ्या यंत्रणेकडून कोणतीही अधिकृत प्रतिक्रिया नोंदवली गेली नाही, तथापि विरोधी नेत्यांनी सत्ताधारी पक्षावर त्यांच्या लोकशाही तयारीला कमकुवत करण्याचा प्रयत्न केल्याचा आरोप केला.",
    "updates": [
-    "काँग्रेस नेत्यांनी AICC मुख्यालयात रॅलीच्या तयारीचा आढावा घेतला, ज्यामध्ये दहा लाख लोकांच्या उपस्थितीची अपेक्षा आहे.",
-    "चेंबर ऑफ ट्रेड अँड इंडस्ट्रीने राहुल गांधी यांना सणासुदीच्या काळात व्यवसायाचे नुकसान होण्याची भीती व्यक्त करत रॅली पुढे ढकलण्याचे आवाहन केले.",
-    "भाजपने रॅलीसाठी १ नोव्हेंबरची निवड केल्याबद्दल टीका केली आणि विरोधकांवर शीख समुदायाच्या भावना दुखावल्याचा आरोप केला.",
-    "के. सी. वेणुगोपाल यांनी १ नोव्हेंबरच्या मार्चपूर्वी ३० ऑक्टोबर रोजी सीईसीविरुद्ध प्रतिकात्मक सार्वजनिक महाभियोग कारवाईची घोषणा केली."
+    "काँग्रेस नेत्यांनी मोठ्या प्रमाणावर जमवाजमव होण्याची अपेक्षा बाळगून रामलीला मैदानावर होणाऱ्या आगामी १ नोव्हेंबरच्या रॅलीच्या तयारीचा आढावा घेतला.",
+    "व्यापारी संघटनांनी सणासुदीच्या व्यवसायाचे मोठे नुकसान टाळण्यासाठी विरोधी नेत्यांना १ नोव्हेंबरचे आंदोलन पुढे ढकलण्यास सांगितले.",
+    "भाजपने १ नोव्हेंबरच्या रॅलीच्या तारखेचा निषेध केला आणि दावा केला की ती शीख समुदायाच्या भावनांचा अनादर करते.",
+    "विरोधी नेत्यांनी मोर्चापूर्वी ३० ऑक्टोबर रोजी सीईसी ज्ञानेश कुमार यांच्याविरुद्ध सार्वजनिक महाभियोग कारवाईची घोषणा केली."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "किमान दहा लाख नागरिक सहभागी होण्याची अपेक्षा आहे"
+    "crowd": "किमान दहा लाख नागरिक सहभागी होण्याचा अंदाज आहे"
    }
   },
   "es": {
    "title": "El bloque INDIA planea una manifestación el 1 de noviembre en Delhi contra la revisión del censo electoral",
    "seoTitle": "Manifestación en Delhi contra la revisión del censo",
    "tea": {
-    "why": "Los manifestantes se oponen a las supuestas irregularidades en la Revisión Intensiva Especial de los padrones electorales y exigen la dimisión del CEC.",
-    "want": "Exigen la dimisión del comisario jefe de elecciones Gyanesh Kumar y la protección de las instituciones democráticas.",
-    "changed": "24 de octubre: El BJP criticó la fecha de la manifestación del 1 de noviembre, afirmando que coincide con el aniversario de los disturbios antisijes de 1984."
+    "why": "La oposición protesta contra presuntas irregularidades electorales y la revisión intensiva especial de las listas electorales.",
+    "want": "Los manifestantes exigen la dimisión y destitución del comisario jefe de elecciones Gyanesh Kumar.",
+    "changed": "24 de octubre: El BJP criticó al Congreso por programar la protesta para el 1 de noviembre, citando el aniversario de los antidisturbios antisijes de 1984."
    },
-   "summary": "El bloque opositor INDIA está organizando una «Marcha Chalo a Delhi» que culminará en una gran manifestación en Ramlila Maidan en Nueva Delhi el 1 de noviembre de 2026. La protesta tiene como objetivo impugnar las supuestas irregularidades durante la Revisión Intensiva Especial (SIR) de los padrones electorales y exige la dimisión del comisario jefe de elecciones Gyanesh Kumar. Los organizadores, incluidos líderes del partido del Congreso, anticipan una participación masiva de ciudadanos de todo el país. Antes del evento, el partido gobernante Bharatiya Janata criticó duramente la elección del 1 de noviembre, señalando su profundo significado emocional como el aniversario de los disturbios antisijes de 1984. Mientras tanto, las asociaciones comerciales en Delhi expresaron su preocupación por las posibles pérdidas financieras y instaron a los organizadores a reprogramar la manifestación.",
+   "summary": "El bloque opositor INDIA está organizando una serie de manifestaciones en Nueva Delhi, que incluyen un procedimiento simbólico de juicio político público contra el comisario jefe de elecciones Gyanesh Kumar el 30 de octubre, seguido de una gran marcha que culminará en Ramlila Maidan el 1 de noviembre. Los organizadores esperan hasta un millón de participantes para protestar contra la presunta manipulación de votos y las irregularidades en la revisión intensiva especial de las listas electorales. Los planes se han enfrentado al rechazo del gobernante Partido Bharatiya Janata, que criticó la fecha del 1 de noviembre por coincidir con el aniversario de los disturbios antisijes de 1984. Además, las asociaciones de comerciantes instaron a los líderes opositores a posponer el evento para evitar grandes pérdidas financieras durante la temporada alta de compras festivas.",
    "demands": [
     "Dimisión del comisario jefe de elecciones Gyanesh Kumar",
-    "Protección de la democracia y la Constitución"
+    "Acción contra el presunto robo de votos y las irregularidades en el censo electoral"
    ],
-   "response": "No se informó de ninguna respuesta oficial del gobierno o de la policía en las fuentes con respecto a las acciones de seguridad para el próximo evento; sin embargo, el partido Bharatiya Janata condenó la fecha de la manifestación y las asociaciones comerciales solicitaron un aplazamiento.",
+   "response": "No se ha informado de ninguna respuesta oficial por parte de las fuerzas de seguridad en relación con las medidas de seguridad para las próximas fechas, aunque los líderes de la oposición acusaron al partido gobernante de intentar socavar su movilización democrática.",
    "updates": [
-    "Los líderes del Congreso revisaron los preparativos de la manifestación en la sede de la AICC, esperando una asistencia de un millón de personas.",
-    "La Cámara de Comercio e Industria instó a Rahul Gandhi a posponer la manifestación, temiendo pérdidas comerciales durante la temporada festiva.",
-    "El BJP criticó la elección del 1 de noviembre para la manifestación, acusando a la oposición de herir los sentimientos de la comunidad sij.",
-    "K.C. Venugopal anunció un procedimiento simbólico de juicio político público contra el CEC el 30 de octubre antes de la marcha del 1 de noviembre."
+    "Los líderes del Congreso revisaron los preparativos para la próxima manifestación del 1 de noviembre en Ramlila Maidan, esperando una masiva movilización.",
+    "Las asociaciones de comerciantes pidieron a los líderes de la oposición que pospusieran la protesta del 1 de noviembre para evitar pérdidas comerciales festivas significativas.",
+    "El BJP condenó la fecha de la manifestación del 1 de noviembre, alegando que irrespeta los sentimientos de la comunidad sij.",
+    "Los líderes de la oposición anunciaron un procedimiento de juicio político público contra el CEC Gyanesh Kumar para el 30 de octubre antes de la marcha."
    ],
    "conflicts": [],
    "numbers": {
@@ -242,24 +245,24 @@
    }
   },
   "fr": {
-   "title": "Le bloc INDIA prévoit un rassemblement le 1er novembre à Delhi contre la révision des listes électorales",
-   "seoTitle": "Rassemblement à Delhi contre la révision des listes",
+   "title": "Le bloc INDIA planifie un rassemblement le 1er novembre à Delhi contre la révision des listes électorales",
+   "seoTitle": "Rassemblement à Delhi contre la révision électorale",
    "tea": {
-    "why": "Les manifestants s'opposent aux prétendues irrégularités de la révision intensive spéciale des listes électorales et exigent la démission du CEC.",
-    "want": "Ils exigent la démission du commissaire électoral en chef Gyanesh Kumar et la protection des institutions démocratiques.",
-    "changed": "24 octobre : Le BJP a critiqué la date du rassemblement fixée au 1er novembre, déclarant qu'elle coïncide avec l'anniversaire des émeutes anti-sikhs de 1984."
+    "why": "L'opposition proteste contre de prétendues irrégularités électorales et la révision intensive spéciale des listes électorales.",
+    "want": "Les manifestants exigent la démission et la destitution du commissaire électoral en chef Gyanesh Kumar.",
+    "changed": "24 octobre : Le BJP a critiqué le Congrès pour avoir programmé la manifestation le 1er novembre, invoquant l'anniversaire des émeutes antisikhs de 1984."
    },
-   "summary": "Le bloc d'opposition INDIA organise une « Marche Chalo de Delhi » qui culminera par un grand rassemblement au Ramlila Maidan à New Delhi le 1er novembre 2026. La manifestation vise à contester les prétendues irrégularités survenues lors de la révision intensive spéciale (SIR) des listes électorales et exige la démission du commissaire électoral en chef Gyanesh Kumar. Les organisateurs, y compris des dirigeants du parti du Congrès, prévoient une participation massive de citoyens de tout le pays. Avant l'événement, le parti au pouvoir, le Bharatiya Janata, a vivement critiqué le choix du 1er novembre, soulignant sa profonde signification émotionnelle en tant qu'anniversaire des émeutes anti-sikhs de 1984. Entre-temps, des associations professionnelles à Delhi ont exprimé leur inquiétude face à d'éventuelles pertes financières et ont exhorté les organisateurs à reporter la manifestation.",
+   "summary": "Le bloc d'opposition INDIA organise une série de manifestations à New Delhi, comprenant une procédure publique symbolique de destitution contre le commissaire électoral en chef Gyanesh Kumar le 30 octobre, suivie d'une grande marche se terminant à Ramlila Maidan le 1er novembre. Les organisateurs s'attendent à jusqu'à un million de participants pour protester contre la manipulation présumée des votes et les irrégularités de la révision intensive spéciale des listes électorales. Ces projets ont fait l'objet d'une résistance du parti au pouvoir, le Bharatiya Janata Party, qui a critiqué la date du 1er novembre pour son chevauchement avec l'anniversaire des émeutes antisikhs de 1984. En outre, des associations de commerçants ont instamment demandé aux dirigeants de l'opposition de reporter l'événement pour éviter des pertes financières majeures pendant la haute saison des achats festifs.",
    "demands": [
     "Démission du commissaire électoral en chef Gyanesh Kumar",
-    "Protection de la démocratie et de la Constitution"
+    "Action contre le vol de votes présumé et les irrégularités des listes électorales"
    ],
-   "response": "Aucune réponse officielle du gouvernement ou de la police n'a été signalée dans les sources concernant les mesures de sécurité pour l'événement à venir ; cependant, le parti Bharatiya Janata a condamné la date du rassemblement et des associations professionnelles ont demandé un report.",
+   "response": "Aucune réponse officielle n'a été signalée de la part des forces de l'ordre concernant les mesures de sécurité pour les dates à venir, bien que les dirigeants de l'opposition aient accusé le parti au pouvoir d'essayer de saper leur mobilisation démocratique.",
    "updates": [
-    "Les dirigeants du Congrès ont examiné les préparatifs du rassemblement au siège de l'AICC, s'attendant à une participation d'un million de personnes.",
-    "La Chambre du commerce et de l'industrie a exhorté Rahul Gandhi à reporter le rassemblement, craignant des pertes commerciales pendant la période festive.",
-    "Le BJP a critiqué le choix du 1er novembre pour le rassemblement, accusant l'opposition de blesser les sentiments de la communauté sikh.",
-    "K.C. Venugopal a annoncé une procédure de mise en accusation publique symbolique contre le CEC le 30 octobre avant la marche du 1er novembre."
+    "Les dirigeants du Congrès ont examiné les préparatifs du rassemblement du 1er novembre à Ramlila Maidan, s'attendant à une mobilisation massive.",
+    "Les associations de commerçants ont demandé aux dirigeants de l'opposition de reporter la manifestation du 1er novembre pour empêcher des pertes commerciales festives significatives.",
+    "Le BJP a condamné la date du rassemblement du 1er novembre, affirmant qu'elle manque de respect aux sentiments de la communauté sikh.",
+    "Les dirigeants de l'opposition ont annoncé une procédure publique de destitution contre le CEC Gyanesh Kumar pour le 30 octobre avant la marche."
    ],
    "conflicts": [],
    "numbers": {
@@ -267,28 +270,28 @@
    }
   },
   "de": {
-   "title": "INDIA-Block plant Kundgebung am 1. November in Delhi gegen Wählerverzeichnisrevision",
-   "seoTitle": "Delhi-Kundgebung gegen Wählerverzeichnisrevision",
+   "title": "Das INDIA-Bündnis plant am 1. November eine Kundgebung in Delhi gegen die Revision der Wählerverzeichnisse",
+   "seoTitle": "Kundgebung in Delhi gegen Wählerverzeichnisrevision",
    "tea": {
-    "why": "Demonstranten wenden sich gegen angeblich unrechtmäßige Unregelmäßigkeiten bei der intensiven Sonderrevision der Wählerverzeichnisse und fordern den Rücktritt des CEC.",
-    "want": "Sie fordern den Rücktritt des Chefwahlleiters Gyanesh Kumar und den Schutz demokratischer Institutionen.",
-    "changed": "24. Oktober: Die BJP kritisierte das Datum der Kundgebung am 1. November und erklärte, es kollidiere mit dem Jahrestag der anti-sikhischen Ausschreitungen von 1984."
+    "why": "Die Opposition protestiert gegen angebliche Wahlunregelmäßigkeiten und die spezielle intensive Revision der Wählerverzeichnisse.",
+    "want": "Demonstranten fordern den Rücktritt und die Absetzung des Chefwahlleiters Gyanesh Kumar.",
+    "changed": "24. Oktober: Die BJP kritisierte den Kongress für die Ansetzung des Protests auf den 1. November unter Berufung auf den Jahrestag der anti-sikhischen Ausschreitungen von 1984."
    },
-   "summary": "Das Oppositionsbündnis INDIA organisiert einen „Delhi-Chalo-Marsch“, der am 1. November 2026 in einer großen Kundgebung im Ramlila Maidan in Neu-Delhi gipfelt. Der Protest zielt darauf ab, angebliche Unregelmäßigkeiten während der intensiven Sonderrevision (SIR) der Wählerverzeichnisse anzufechten, und fordert den Rücktritt des Chefwahlleiters Gyanesh Kumar. Organisatoren, darunter führende Persönlichkeiten der Kongresspartei, erwarten eine massive Beteiligung von Bürgern aus dem ganzen Land. Vor der Veranstaltung kritisierte die regierende Bharatiya Janata Party die Wahl des 1. November scharf und verwies auf dessen tiefe emotionale Bedeutung als Jahrestag der anti-sikhischen Ausschreitungen von 1984. Unterdessen äußerten Handelsverbände in Delhi Besorgnis über mögliche finanzielle Verluste und forderten die Organisatoren auf, die Demonstration zu verschieben.",
+   "summary": "Das Oppositionsbündnis INDIA organisiert eine Reihe von Demonstrationen in Neu-Delhi, darunter ein symbolisches öffentliches Amtsenthebungsverfahren gegen Chefwahlleiter Gyanesh Kumar am 30. Oktober, gefolgt von einem großen Marsch, der am 1. November am Ramlila Maidan endet. Die Organisatoren erwarten bis zu eine Million Teilnehmer, um gegen angebliche Wahlmanipulationen und Unregelmäßigkeiten bei der speziellen intensiven Revision der Wählerverzeichnisse zu protestieren. Die Pläne stießen auf Widerstand der regierenden Bharatiya Janata Party, die den Termin am 1. November kritisierte, weil er sich mit dem Jahrestag der anti-sikhischen Ausschreitungen von 1984 überschneidet. Darüber hinaus forderten Händlerverbände Oppositionsführer auf, die Veranstaltung zu verschieben, um erhebliche finanzielle Verluste während der Haupteinkaufssaison der Feste zu vermeiden.",
    "demands": [
     "Rücktritt des Chefwahlleiters Gyanesh Kumar",
-    "Schutz von Demokratie und Verfassung"
+    "Maßnahmen gegen angeblichen Stimmenraub und Unregelmäßigkeiten im Wählerverzeichnis"
    ],
-   "response": "In den Quellen wurde keine offizielle Regierungs- oder Polizeireaktion bezüglich der Sicherheitsmaßnahmen für die bevorstehende Veranstaltung gemeldet; jedoch verurteilte die Bharatiya Janata Party das Kundgebungsdatum und Handelsverbände baten um eine Verschiebung.",
+   "response": "Von den Strafverfolgungsbehörden wurde keine offizielle Reaktion bezüglich der Sicherheitsmaßnahmen für die kommenden Termine gemeldet, obwohl Oppositionsführer der Regierungspartei vorwarfen, zu versuchen, ihre demokratische Mobilisierung zu untergraben.",
    "updates": [
-    "Führende Vertreter des Kongresses überprüften die Kundgebungsvorbereitungen am AICC-Hauptsitz und erwarten eine Beteiligung von einer Million Menschen.",
-    "Die Handels- und Industriehandelskammer forderte Rahul Gandhi auf, die Kundgebung zu verschieben, da sie geschäftliche Verluste während der festlichen Jahreszeit befürchtet.",
-    "Die BJP kritisierte die Wahl des 1. November für die Kundgebung und warf der Opposition vor, die Gefühle der Sikh-Gemeinschaft zu verletzen.",
-    "K.C. Venugopal kündigte für den 30. Oktober vor dem Marsch am 1. November ein symbolisches öffentliches Amtsenthebungsverfahren gegen den CEC an."
+    "Kongressführer überprüften die Vorbereitungen für die bevorstehende Kundgebung am 1. November am Ramlila Maidan und erwarteten eine massive Mobilisierung.",
+    "Händlerverbände forderten Oppositionsführer auf, den Protest am 1. November zu verschieben, um signifikante festive Geschäftsverluste zu verhindern.",
+    "Die BJP verurteilte das Datum der Kundgebung am 1. November und erklärte, es missachte die Gefühle der Sikh-Gemeinschaft.",
+    "Oppositionsführer kündigten vor dem Marsch ein öffentliches Amtsenthebungsverfahren gegen den CEC Gyanesh Kumar für den 30. Oktober an."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "es wird erwartet, dass mindestens eine Million Bürger teilnehmen"
+    "crowd": "mindestens eine Million Bürger werden zur Teilnahme erwartet"
    }
   }
  }
