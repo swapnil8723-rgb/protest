@@ -1,64 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-24",
-  "count": 134
+  "count": 157
  },
  "runs": [
-  {
-   "at": "2026-10-18T04:27:46.505Z",
-   "ms": 227658,
-   "discovered": 97,
-   "fetched": 96,
-   "classified": 90,
-   "protests": 71,
-   "summarized": 12,
-   "published": 87,
-   "live": 10,
-   "aiCalls": 25,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261018041500 http://data.gdeltproject.org/gdeltv2/20261018041500.export.CSV.zip → 404",
-    "gdelt: 20261018043000 http://data.gdeltproject.org/gdeltv2/20261018043000.export.CSV.zip → 404",
-    "gdelt: 21 files, 89 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 36 protest-word items",
-    "fetch: 96 ok, 1 failed",
-    "classify: new candidate e2eafaedaa3 \"No Kings movement holds early voting rally in Miami\" (Miami)",
-    "classify: new candidate e939fc89a91 \"No Kings rallies across central North Carolina focus on voting\" (Raleigh)",
-    "classify: new candidate e0c75ae7a1f \"No Kings protesters hold get-out-the-vote rally in Concord\" (Concord)",
-    "classify: new candidate ecbbc90bf00 \"No Kings protests draw crowds in downtown Colorado Springs\" (Colorado Springs)",
-    "classify: new candidate ed231820696 \"Protesters in San Jose join No Kings march to promote voting\" (San Jose)",
-    "classify: new candidate e4fe2e1991a \"Wilkes-Barre residents hold No Kings early voting rally\" (Wilkes-Barre)",
-    "classify: new candidate e72c39f2853 \"Colorado voters hold No Kings rallies to encourage early turnout\" (Boulder)",
-    "classify: new candidate e274d6d9dd1 \"Indianapolis residents gather for No Kings early voting rally\" (Indianapolis)",
-    "classify: new candidate ef4024d781d \"Santa Cruz County residents hold No Kings early voting protests\" (Santa Cruz)",
-    "classify: new candidate e1fc7dcc717 \"Philadelphia rally supports Indian youth protests against election tampering\" (Philadelphia)",
-    "classify: new candidate e93b204f7b3 \"No Kings movement holds early voting rally in Boise\" (Boise)",
-    "classify: new candidate e96402df56f \"No Kings movement holds early voting rally in Columbia\" (Columbia)",
-    "classify: new candidate e372e434224 \"French students and unions stage nationwide economic protests\" (Toulouse)",
-    "classify: new candidate e83aeb06856 \"No Kings movement holds early voting rally in Seattle\" (Seattle)",
-    "classify: new candidate e20c3834962 \"No Kings movement holds early voting rally in Pittsfield\" (Pittsfield)",
-    "classify: new candidate e410293f9d9 \"No Kings movement holds early voting rallies across Connecticut\" (Bridgeport)",
-    "classify: new candidate ec95751479b \"Ohio Valley residents hold No Kings early voting rally\" (Steubenville)",
-    "classify: new candidate ec1922358b2 \"No Kings protesters rally for Democrats in Virginia\" (Alexandria)",
-    "classify: new candidate ec6a0959cf6 \"No Kings protesters march in New Bern for voter turnout\" (New Bern)",
-    "classify: new candidate e39e4b901d3 \"Madison residents hold No Kings early voting rally\" (Madison)",
-    "classify: new candidate e9215dcab0e \"No Kings rallies draw crowds in major US cities\" (Washington)",
-    "classify: new candidate e1e704a9d48 \"MMK functionaries stage road blockade stir in Melapalayam\" (Tirunelveli)",
-    "classify: new candidate e683457e74d \"French protesters clash with police and burn town hall\" (Limoges)",
-    "classify: new candidate e35f871ba5f \"Binghamton residents hold No Kings rally in downtown\" (Binghamton)",
-    "classify: new candidate ed9ca9ef775 \"North Carolina college students march to vote\" (Greensboro)",
-    "classify: new candidate e0f4f7c6db5 \"Residents and Hindu groups protest rape and murder in Bhopal\" (Bhopal)",
-    "classify: new candidate e7249c25c8a \"Texans hold No Kings rallies ahead of midterm elections\" (Dallas)",
-    "classify: new candidate e3da124468a \"Milwaukee rally urges early voting ahead of elections\" (Milwaukee)",
-    "classify: new candidate edf4f787088 \"CPI(M) hartal disrupts normal life in Idukki over land issues\" (Idukki)",
-    "classify: new candidate e864619f833 \"Parents and student groups protest at Azad Main over student death\" (Mumbai)",
-    "classify: new candidate ef6ae9675c3 \"No Kings rallies push early voting in San Diego\" (San Diego)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-18T07:44:01.032Z",
    "ms": 171240,
@@ -1399,8 +1344,44 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-24T19:28:43.625Z",
+   "ms": 368367,
+   "discovered": 75,
+   "fetched": 71,
+   "classified": 62,
+   "protests": 43,
+   "summarized": 9,
+   "published": 140,
+   "live": 16,
+   "aiCalls": 23,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 14 files, 50 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 225 protest-word items",
+    "fetch: 71 ok, 4 failed",
+    "classify: new candidate ed03435a139 \"Citizens' groups announce protest march to CBI office\" (Kolkata)",
+    "classify: new candidate ef9e1012a7b \"Demonstration in Montreal against police misconduct\" (Montréal)",
+    "classify: new candidate ebbe1069362 \"Rally in Madrid supporting state pension scheme\" (Madrid)",
+    "classify: new candidate efe21c6beba \"SRFTI student union calls for nationwide protest on October 27\" (Kolkata)",
+    "classify: new candidate ea5422e744e \"Protesters clash with police in Brussels over education funding\" (Brussels)",
+    "classify: new candidate e44a866633a \"Stand Up To Racism protest in Cardiff\" (Cardiff)",
+    "classify: new candidate ec0fcbb0940 \"Thousands protest in Turkey against media crackdown and arrests\" (Istanbul)",
+    "classify: new candidate e8e00d75855 \"Citizens form human chain in Hyderabad demanding SIR rollback and CEC resignation\" (Hyderabad)",
+    "classify: new candidate edc789c7412 \"Residents block road in Arakkonam demanding pathway encroachment demolition\" (Arakkonam)",
+    "classify: new candidate ee83065cee2 \"Protesters demonstrate in Italy against living costs and policies\" (Rome)",
+    "classify: new candidate e08ca34b1b0 \"Villagers and Congress workers block Dhar road over doctor's transfer\" (Dhar)",
+    "classify: new candidate e2bf25aa0eb \"Protests in Italian cities over living costs and war\" (Milan)",
+    "classify: new candidate e1db7f318c2 \"FAMU students protest university police partnership with ICE\" (Tallahassee)",
+    "classify: new candidate e04f701fdba \"Protest march and clashes in Rennes\" (Rennes)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 8 events"
+   ],
+   "translated": 8
   }
  ],
- "gdeltCursor": "20261024160000",
- "lastRunAt": "2026-10-24T16:00:39.701Z"
+ "gdeltCursor": "20261024193000",
+ "lastRunAt": "2026-10-24T19:28:43.625Z"
 }

@@ -15,64 +15,110 @@
  },
  "scope": "nationwide",
  "causes": [
-  "prices",
-  "jobs",
-  "education"
+  "labour",
+  "students",
+  "prices"
  ],
- "kind": "one-day",
+ "kind": "multi-day",
  "startedOn": "2026-10-24",
- "status": "ended",
- "vibe": "wrapped-up",
+ "status": "ongoing",
+ "vibe": "tense",
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
   "serious",
-  "tone-words"
+  "top-10",
+  "sources-disagree"
  ],
- "isOngoing": false,
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are angered by rising living costs, soaring energy prices, and perceived neglect in the education system.",
-  "want": "Demonstrators demand better school funding, higher wages, increased pensions, and solutions to inflation.",
-  "changed": "Oct 24: French police arrested 135 people and deployed tear gas in several cities as tens of thousands marched."
+  "why": "Protesters are demonstrating against high living costs, school funding shortages, and government policies.",
+  "want": "Demonstrators demand better school conditions, higher wages, increased pensions, and improved living standards.",
+  "changed": "Oct 24: French authorities deployed 70,000 police officers as nationwide protests led to nearly 1,000 arrests and clashes."
  },
- "summary": "Thousands of workers, trade unionists, and students took to the streets in Paris and other French cities on Saturday, October 24, 2026, to protest against soaring living costs, high energy prices, and school funding issues. The nationwide demonstrations followed massive unrest the previous week. Authorities deployed up to 70,000 security personnel, helicopters, armored vehicles, and water cannons, while closing several metro stations and museums in Paris. Police altered the capital's official protest route at the last minute, leading to confusion among participants, and used tear gas and stun grenades in cities like Lyon and Clermont-Ferrand. Interior Minister Laurent Nuñez reported that 135 people were arrested nationwide for carrying weapons and committing infractions. While police stated that 110,000 people marched in Paris, organizers and political figures criticized the government's heavy-handed restrictions and handling of socioeconomic grievances.",
+ "summary": "Demonstrations over living costs, school conditions, and government policies took place across France, drawing hundreds of thousands of participants. Organized initially by students and trade unions including the CGT, the movement expanded into nationwide protests. In Paris, the march departed from Porte d'Italie under heavy security following route adjustments by authorities. As night fell, clashes erupted near the end of the procession, with police deploying tear gas, batons, and water cannons against masked individuals. Interior Minister Laurent Nuñez reported that nearly 1,000 people were arrested nationwide, while authorities mobilized 70,000 security personnel to prevent widespread property damage similar to previous weekends.",
  "organizers": [
   "Yellow Vest movement",
-  "unions",
-  "UNEF",
-  "CGT"
+  "CGT trade union"
  ],
  "demands": [
-  "Better school funding and more university places",
+  "Better conditions in schools",
   "Higher wages",
-  "Increased pensions",
-  "Relief from soaring living costs and energy prices"
+  "Improved pensions"
  ],
- "response": "Interior Minister Laurent Nuñez stated that 70,000 police officers were deployed nationwide, and reported that 135 people had been arrested and various weapons seized. Police used tear gas and water cannons in several cities to disperse crowds and enforce route restrictions.",
+ "response": "According to government officials, nearly 1,000 people were arrested nationwide. Interior Minister Laurent Nuñez stated that 70,000 police officers were deployed, and security forces used tear gas, stun grenades, batons, and water cannons to disperse crowds in cities including Paris, Lyon, and Nice.",
  "numbers": {
   "crowd": {
-   "value": 110000,
-   "text": "110,000 people marched in the capital",
-   "sources": [
-    4
-   ]
-  },
-  "arrests": {
-   "value": 135,
-   "text": "135 people have been arrested",
+   "value": 410000,
+   "text": "410,000 people took part in demonstrations across France on Saturday, according to the Interior Ministry",
    "sources": [
     2,
     4,
-    7
+    7,
+    9
+   ]
+  },
+  "arrests": {
+   "value": 1000,
+   "text": "nearly 1,000 people have been arrested during demonstrations across France",
+   "sources": [
+    2,
+    3,
+    4,
+    7,
+    8,
+    9
+   ]
+  },
+  "injuries": {
+   "value": 4,
+   "text": "Two officers and two protesters were injured during the clashes.",
+   "sources": [
+    3
    ]
   }
  },
  "updates": [
   {
    "at": "2026-10-24",
-   "text": "Paris police and trade unions clashed over the demonstration route, which was moved to the city's southeastern edge.",
+   "text": "French police arrested 135 people by early Saturday afternoon, according to Interior Minister Laurent Nuñez.",
    "sources": [
+    5,
+    10
+   ]
+  },
+  {
+   "at": "2026-10-24",
+   "text": "Protesters gathered at Porte d'Italie in southern Paris as thousands of security personnel deployed nationwide.",
+   "sources": [
+    6,
+    8
+   ]
+  },
+  {
+   "at": "2026-10-24",
+   "text": "Clashes and deployment of tear gas were reported in cities including Lyon, Grenoble, Lille, and Nice.",
+   "sources": [
+    3,
+    4,
+    6,
+    9,
+    10
+   ]
+  },
+  {
+   "at": "2026-10-24",
+   "text": "Authorities confirmed two serious injuries during the protests, including a demonstrator in Toulouse who sustained hand injuries.",
+   "sources": [
+    4
+   ]
+  },
+  {
+   "at": "2026-10-24",
+   "text": "As evening fell in Paris, police used tear gas, batons, and a water cannon to disperse protesters following clashes.",
+   "sources": [
+    2,
     3,
     7,
     8,
@@ -81,29 +127,14 @@
   },
   {
    "at": "2026-10-24",
-   "text": "Major Paris museums and several metro stations were closed ahead of the demonstrations over security concerns.",
+   "text": "Interior Minister Laurent Nuñez stated that nationwide arrests approached 1,000 by evening.",
    "sources": [
+    2,
     3,
-    5,
+    4,
+    7,
     8,
     9
-   ]
-  },
-  {
-   "at": "2026-10-24",
-   "text": "Police used tear gas and water cannons in cities like Lyon, Clermont-Ferrand, Nantes, and Marseille to disperse protesters.",
-   "sources": [
-    2,
-    8,
-    9
-   ]
-  },
-  {
-   "at": "2026-10-24",
-   "text": "Interior Minister Laurent Nuñez announced that 70,000 officers were deployed nationwide and 135 arrests were made.",
-   "sources": [
-    2,
-    7
    ]
   }
  ],
@@ -117,234 +148,255 @@
   },
   {
    "n": 2,
-   "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
-   "publisher": "cbsnews.com",
-   "title": "Paris museums close, stores put up barricades as France prepares for more protests",
-   "publishedAt": "2026-10-24T07:33:31.000Z"
+   "url": "https://www.dailymail.com/news/article-16235069/France-chaos-Paris-shopkeepers-violence-riot-police-protests.html",
+   "publisher": "dailymail.com",
+   "title": "France prepares for day of chaos: Paris boards up shops and 70,000 riot police take to the streets as Lyon, Nice and Montpellier ban protests",
+   "publishedAt": "2026-10-24T08:00:10.000Z"
   },
   {
    "n": 3,
-   "url": "https://aa.com.tr/en/world/-threat-exists-paris-police-warn-of-possible-unrest-ahead-of-protests/4099226",
-   "publisher": "aa.com.tr",
-   "title": "‘Threat exists’: Paris police warn of possible unrest ahead of protests",
-   "publishedAt": "2026-10-24T10:47:48.437Z"
-  },
-  {
-   "n": 4,
    "url": "https://www.bbc.com/news/live/cq1j38x0n4zrt",
    "publisher": "bbc.com",
    "title": "French police arrest 135 people, as tens of thousands protest across country - live updates",
    "publishedAt": "2026-10-24T09:38:31.154Z"
   },
   {
+   "n": 4,
+   "url": "https://www.express.co.uk/news/world/2260002/paris-riots-live-protest-france",
+   "publisher": "express.co.uk",
+   "title": "Armed police swarm streets of Paris as massive riots to hit France today",
+   "publishedAt": "2026-10-24T13:29:00.000Z"
+  },
+  {
    "n": 5,
-   "url": "https://www.ibtimes.com/france-braces-riots-day-after-deadly-paris-shooting-deploys-tens-thousands-police-officers-3808960",
-   "publisher": "ibtimes.com",
-   "title": "France Braces For Riots On Day After Deadly Paris Shooting, Deploys Tens Of Thousands Of Police Officers",
-   "publishedAt": "2026-10-24T10:58:11.000Z"
+   "url": "https://english.news.cn/20261024/32fd74d8130d48489ca191983d828d7a/c.html",
+   "publisher": "english.news.cn",
+   "title": "France records 135 arrests during demonstrations by early Saturday afternoon"
   },
   {
    "n": 6,
-   "url": "https://timesofindia.indiatimes.com/india/evening-news-wrap-farooq-abdullahs-pak-praise-sparks-row-france-protests-begin-under-heavy-security-and-more/articleshow/135171258.cms",
-   "publisher": "timesofindia.indiatimes.com",
-   "title": "Evening news wrap: Farooq Abdullah's Pak 'praise' sparks row; France protests begin under heavy security & more",
-   "publishedAt": "2026-10-24T13:10:00.000Z"
-  },
-  {
-   "n": 7,
-   "url": "https://www.moroccoworldnews.com/2026/10/343641/france-arrests-135-during-nationwide-protests-on-saturday/",
-   "publisher": "moroccoworldnews.com",
-   "title": "France Arrests 135 During Nationwide Protests on Saturday",
-   "publishedAt": "2026-10-24T13:45:37.000Z"
-  },
-  {
-   "n": 8,
-   "url": "https://www.nbcnews.com/world/france/paris-shuts-louvre-museums-police-deploy-big-numbers-new-protests-fran-rcna605174",
-   "publisher": "nbcnews.com",
-   "title": "Paris shuts Louvre and other museums as police deploy in big numbers for new protests across France",
-   "publishedAt": "2026-10-24T14:09:07.824Z"
-  },
-  {
-   "n": 9,
    "url": "https://www.thenorthernecho.co.uk/news/national/26666764.france-mobilises-thousands-police-protests-living-costs/",
    "publisher": "thenorthernecho.co.uk",
    "title": "France mobilises thousands of police at protests over living costs",
    "publishedAt": "2026-10-24T15:12:11.000Z"
   },
   {
+   "n": 7,
+   "url": "https://www.spiegel.de/ausland/frankreich-hunderttausende-demonstrieren-polizei-setzt-traenengas-ein-a-3570c8f2-a8e5-4574-8b56-c2bd4c85e08a",
+   "publisher": "spiegel.de",
+   "title": "Frankreich: Hunderttausende demonstrieren – Polizei setzt Tränengas ein",
+   "publishedAt": "2026-10-24T17:17:00.000Z"
+  },
+  {
+   "n": 8,
+   "url": "https://www.franceinfo.fr/replay-jt/france-2/20-heures/mobilisation-du-24-octobre-des-tensions-constatees-a-la-fin-de-certains-corteges_8252494.html",
+   "publisher": "franceinfo.fr",
+   "title": "VIDEO. Mobilisation du 24 octobre : des tensions constat&eacute;es &agrave; la fin de certains cort&egrave;ges",
+   "publishedAt": "2026-10-24T18:35:33.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://aa.com.tr/en/europe/protesters-clash-with-police-dozens-arrested-amid-mass-protests-across-france/4099715",
+   "publisher": "aa.com.tr",
+   "title": "Protesters clash with police, dozens arrested amid mass protests across France",
+   "publishedAt": "2026-10-24T19:07:18.903Z"
+  },
+  {
    "n": 10,
-   "url": "https://www.ouest-france.fr/societe/manifestation/manifestations-du-24-octobre-jean-luc-melenchon-appelle-emmanuel-macron-a-ceder-face-aux-revendications-2ae7a68e-cfb9-11f1-95ba-26d2045f6620",
-   "publisher": "ouest-france.fr",
-   "title": "Manifestations du 24 octobre : Jean-Luc Mélenchon appelle Emmanuel Macron à « céder » face aux revendications",
-   "publishedAt": "2026-10-24T15:18:14.000Z"
+   "url": "https://www.whmi.com/news/fox/135-people-arrested-across-france-police-find-potential-weapons-protestors-official-says",
+   "publisher": "whmi.com",
+   "title": "WHMI 93.5 FM Radio Station — Livingston County Michigan"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
+ "conflicts": [
+  "The Interior Ministry estimated nationwide turnout at 410,000, while the CGT trade union claimed 800,000 participants."
+ ],
+ "confidence": 0.8,
  "publishers": 10,
- "reports24h": 32,
+ "reports24h": 48,
  "reportsPrev24h": 1,
- "reports48h": 33,
+ "reports48h": 49,
  "firstSeenAt": "2026-10-21T11:57:43.399Z",
- "lastReportAt": "2026-10-24T15:18:14.000Z",
- "lastCheckedAt": "2026-10-24T16:04:50.046Z",
- "updatedAt": "2026-10-24T16:03:25.220Z",
+ "lastReportAt": "2026-10-24T19:15:00.000Z",
+ "lastCheckedAt": "2026-10-24T19:33:33.787Z",
+ "updatedAt": "2026-10-24T19:31:35.374Z",
  "responseSources": [
   2,
   3,
+  4,
+  6,
   7,
-  8,
-  9
+  9,
+  10
  ],
- "seriousInjuries": false,
+ "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-10-24T16:03:25.220Z",
- "summaryOf": "7f2cb745afae",
+ "summarizedAt": "2026-10-24T19:31:35.374Z",
+ "summaryOf": "e198adc49124",
  "publishedAt": "2026-10-24T07:46:37.803Z",
  "i18n": {
-  "of": "12ec0cb8ec623cf4",
-  "at": "2026-10-24T16:06:11.814Z",
+  "of": "a82b272a49b6c029",
+  "at": "2026-10-24T19:33:47.196Z",
   "tries": 1,
   "hi": {
-   "title": "भारी सुरक्षा के बीच पूरे फ्रांस में जीवन-यापन की लागत को लेकर प्रदर्शन",
-   "seoTitle": "पेरिस जीवन-यापन विरोध प्रदर्शन",
+   "title": "भारी सुरक्षा के बीच फ्रांस भर में जीवनयापन की लागत के खिलाफ प्रदर्शन आयोजित",
+   "seoTitle": "पेरिस जीवनयापन लागत प्रदर्शन",
    "tea": {
-    "why": "प्रदर्शनकारी जीवन-यापन की बढ़ती लागत, आसमान छूती ऊर्जा कीमतों और शिक्षा प्रणाली में कथित उपेक्षा से नाराज हैं।",
-    "want": "प्रदर्शनकारियों की मांग है कि स्कूलों के लिए बेहतर फंडिंग, उच्च वेतन, बढ़ी हुई पेंशन और मुद्रास्फीति का समाधान किया जाए।",
-    "changed": "24 अक्टूबर: फ्रांसीसी पुलिस ने 135 लोगों को गिरफ्तार किया और कई शहरों में आंसू गैस के गोले छोड़े क्योंकि हजारों लोग मार्च कर रहे थे।"
+    "why": "प्रदर्शनकारी उच्च जीवनयापन लागत, स्कूल निधि की कमी और सरकारी नीतियों के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "प्रदर्शनकारियों की मांग है कि स्कूल की बेहतर स्थिति, उच्च वेतन, बढ़ी हुई पेंशन और बेहतर जीवन स्तर हो।",
+    "changed": "24 अक्टूबर: राष्ट्रव्यापी प्रदर्शनों के कारण लगभग 1,000 गिरफ्तारियों और झड़पों के बीच फ्रांसीसी अधिकारियों ने 70,000 पुलिस अधिकारियों को तैनात किया।"
    },
-   "summary": "बढ़ती जीवन-यापन लागत, उच्च ऊर्जा कीमतों और स्कूल फंडिंग के मुद्दों के खिलाफ शनिवार, 24 अक्टूबर 2026 को पेरिस और अन्य फ्रांसीसी शहरों में हजारों मजदूर, ट्रेड यूनियन कार्यकर्ता और छात्र सड़कों पर उतरे। राष्ट्रव्यापी प्रदर्शनों से पिछले हफ्ते भारी अशांति फैली थी। अधिकारियों ने 70,000 तक सुरक्षाकर्मी, हेलीकॉप्टर, बख्तरबंद वाहन और वाटर कैノン तैनात किए, जबकि पेरिस में कई मेट्रो स्टेशन और संग्रहालय बंद कर दिए गए। पुलिस ने आखिरी समय में राजधानी के आधिकारिक विरोध मार्ग को बदल दिया, जिससे प्रतिभागियों में भ्रम पैदा हो गया, और लियोन तथा क्लेरमॉन्ट-फैरांड जैसे शहरों में आंसू गैस और स्टन ग्रेनेड का इस्तेमाल किया गया। आंतरिक मंत्री लॉरेंट नुनेज ने बताया कि हथियार ले जाने और उल्लंघनों के लिए देश भर में 135 लोगों को गिरफ्तार किया गया। पुलिस ने बताया कि पेरिस में 110,000 लोग मार्च में शामिल हुए, वहीं आयोजकों और राजनीतिक हस्तियों ने सरकार के कड़े प्रतिबंधों और सामाजिक-आर्थिक शिकायतों से निपटने के तरीके की आलोचना की।",
+   "summary": "जीवनयापन की लागत, स्कूल की स्थिति और सरकारी नीतियों को लेकर फ्रांस भर में प्रदर्शन हुए, जिनमेंलाखों की संख्या में प्रतिभागी शामिल हुए। छात्रों और सीजीटी सहित ट्रेड यूनियनों द्वारा शुरू में आयोजित यह आंदोलन राष्ट्रव्यापी प्रदर्शनों में बदल गया। पेरिस में, अधिकारियों द्वारा मार्ग में बदलाव के बाद भारी सुरक्षा के बीच मार्च पोर्ट डी'इटली से शुरू हुआ। रात ढलने पर जुलूस के अंत के पास झड़पें भड़क उठीं, जिसमें पुलिस ने नकाबपोश व्यक्तियों के खिलाफ आंसू गैस, लाठियों और पानी की बौछारों का इस्तेमाल किया। आंतरिक मंत्री लॉरेंट नुनेज़ ने बताया कि देश भर में लगभग 1,000 लोगों को गिरफ्तार किया गया, जबकि पिछले सप्ताहांतों की तरह व्यापक संपत्ति के नुकसान को रोकने के लिए अधिकारियों ने 70,000 सुरक्षा कर्मियों को जुटाया।",
    "demands": [
-    "स्कूलों के लिए बेहतर फंडिंग और अधिक विश्वविद्यालय सीटें",
+    "स्कूलों में बेहतर स्थिति",
     "उच्च वेतन",
-    "बढ़ी हुई पेंशन",
-    "बढ़ती जीवन-यापन लागत और ऊर्जा कीमतों से राहत"
+    "बेहतर पेंशन"
    ],
-   "response": "आंतरिक मंत्री लॉरेंट नुनेज ने कहा कि देश भर में 70,000 पुलिस अधिकारियों को तैनात किया गया था, और बताया कि 135 लोगों को गिरफ्तार किया गया है और विभिन्न हथियार जब्त किए गए हैं। भीड़ को तितर-बितर करने और मार्ग प्रतिबंधों को लागू करने के लिए पुलिस ने कई शहरों में आंसू गैस और वाटर कैनन का इस्तेमाल किया।",
+   "response": "सरकारी अधिकारियों के अनुसार, देश भर में लगभग 1,000 लोगों को गिरफ्तार किया गया। आंतरिक मंत्री लॉरेंट नुनेज़ ने कहा कि 70,000 पुलिस अधिकारियों को तैनात किया गया था, और सुरक्षा बलों ने पेरिस, ल्योन और नीस सहित शहरों में भीड़ को तितर-बितर करने के लिए आंसू गैस, स्टन ग्रेनेड, लाठियों और पानी की बौछारों का इस्तेमाल किया।",
    "updates": [
-    "पेरिस पुलिस और ट्रेड यूनियनों के बीच प्रदर्शन मार्ग को लेकर टकराव हुआ, जिसे शहर के दक्षिण-पूर्वी छोर पर स्थानांतरित कर दिया गया था।",
-    "सुरक्षा चिंताओं के कारण प्रदर्शनों से पहले पेरिस के प्रमुख संग्रहालय और कई मेट्रो स्टेशन बंद कर दिए गए थे।",
-    "प्रदर्शनकारियों को तितर-बितर करने के लिए पुलिस ने लियोन, क्लेरमॉन्ट-फैरांड, नेंट्स और मार्सिले जैसे शहरों में आंसू गैस और वाटर कैनन का इस्तेमाल किया।",
-    "आंतरिक मंत्री लॉरेंट नुनेज ने घोषणा की कि देश भर में 70,000 अधिकारियों को तैनात किया गया है और 135 गिरफ्तारियां की गई हैं।"
+    "आंतरिक मंत्री लॉरेंट नुनेज़ के अनुसार, फ्रांसीसी पुलिस ने शनिवार दोपहर की शुरुआत तक 135 लोगों को गिरफ्तार किया।",
+    "देशभर में हजारों सुरक्षा कर्मियों की तैनाती के बीच प्रदर्शनकारी दक्षिणी पेरिस के पोर्ट डी'इटली में एकत्र हुए।",
+    "ल्योन, ग्रेनोबल, लिले और नीस सहित शहरों में झड़पों और आंसू गैस के इस्तेमाल की सूचना मिली।",
+    "अधिकारियों ने प्रदर्शनों के दौरान दो गंभीर चोटों की पुष्टि की, जिसमें टूलूज़ का एक प्रदर्शनकारी भी शामिल है जिसे हाथ में चोटें आईं।",
+    "पेरिस में शाम होने पर, झड़पों के बाद प्रदर्शनकारियों को तितर-बितर करने के लिए पुलिस ने आंसू गैस, लाठियों और पानी की बौछार का इस्तेमाल किया।",
+    "आंतरिक मंत्री लॉरेंट नुनेज़ ने कहा कि शाम तक देशव्यापी गिरफ्तारियां 1,000 के करीब पहुंच गईं।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "आंतरिक मंत्रालय ने देशव्यापी उपस्थिति का अनुमान 410,000 लगाया, जबकि सीजीटी ट्रेड यूनियन ने 800,000 प्रतिभागियों का दावा किया।"
+   ],
    "numbers": {
-    "crowd": "राजधानी में 110,000 लोगों ने मार्च किया",
-    "arrests": "135 लोगों को गिरफ्तार किया गया है"
+    "crowd": "आंतरिक मंत्रालय के अनुसार, शनिवार को फ्रांस भर में प्रदर्शनों में 410,000 लोग शामिल हुए",
+    "arrests": "फ्रांस भर में प्रदर्शनों के दौरान लगभग 1,000 लोगों को गिरफ्तार किया गया है",
+    "injuries": "झड़पों के दौरान दो अधिकारी और दो प्रदर्शनकारी घायल हो गए।"
    }
   },
   "mr": {
-   "title": "अति कडक सुरक्षेत फ्रान्समध्ये महागाईविरोधी निदर्शने",
-   "seoTitle": "पॅरिस महागाईविरोधी निदर्शन",
+   "title": "कडक सुरक्षेत फ्रान्सभर जीवनमान खर्चाविरुद्ध निदर्शने",
+   "seoTitle": "पॅरिस जीवनमान खर्च निदर्शने",
    "tea": {
-    "why": "जीवनमानाचा वाढता खर्च, गगनाला भिडलेले ऊर्जेचे भाव आणि शिक्षण व्यवस्थेतील कथित दुर्लक्ष यामुळे निदर्शक संतापले आहेत.",
-    "want": "शाळांसाठी बेहतर निधी, उच्च वेतन, वाढीव निवृत्तीवेतन आणि महागाईवर उपाययोजना करावी, अशी निदर्शकांची मागणी आहे.",
-    "changed": "२४ ऑक्टोबर: हजारो लोकांचा मोर्चा सुरू असताना फ्रान्सच्या पोलिसांनी १३५ लोकांना अटक केली आणि अनेक शहरांमध्ये अश्रूधुराचा वापर केला."
+    "why": "उच्च जीवनमान खर्च, शाळा निधीची कमतरता आणि सरकारी धोरणांच्या विरोधात निदर्शक निदर्शने करत आहेत.",
+    "want": "निदर्शक चांगल्या शाळा परिस्थिती, वाढीव वेतन, वाढलेल्या पेन्शन आणि सुधारित जीवनमानाची मागणी करतात.",
+    "changed": "२४ ऑक्टोबर: देशव्यापी निदर्शनांमुळे जवळपास १,००० अटक आणि संघर्ष झाल्यानंतर फ्रेंच प्राधिकाऱ्यांनी ७०,००० पोलीस अधिकारी तैनात केले."
    },
-   "summary": "जीवनमानाचा वाढता खर्च, उच्च ऊर्जा दर आणि शाळांच्या निधीच्या मुद्द्यांव विरोधात शनिवार, २४ ऑक्टोबर २०२६ रोजी पॅरिस आणि इतर फ्रेंच शहरांमध्ये हजारो कामगार, कामगार संघटनांचे कार्यकर्ते आणि विद्यार्थी रस्त्यावर उतरले. देशभरातील या निदर्शनांपूर्वी आदल्या आठवड्यात मोठे अशांततेचे वातावरण होते. अधिकाऱ्यांनी ७०,००० पर्यंत सुरक्षा कर्मचारी, हेलिकॉप्टर्स, चिलखती वाहने आणि वॉटर कॅनन तैनात केले, तर पॅरिसमधील अनेक मेट्रो स्टेशन आणि संग्रहालये बंद ठेवण्यात आली. पोलिसांनी शेवटच्या क्षणी राजधानीचा अधिकृत निदर्शनाचा मार्ग बदलला, ज्यामुळे सहभागींमध्ये संभ्रम निर्माण झाला आणि ल्यॉन व क्लेरमोंट-फेरँडसारख्या शहरांमध्ये अश्रूधूर व स्टन ग्रेनेड्सचा वापर करण्यात आला. देशात शस्त्र बाळगल्याबद्दल आणि नियमभंग केल्याबद्दल १३५ लोकांना अटक करण्यात आल्याची माहिती गृहमंत्री लॉरेंट नुनेज यांनी दिली. पॅरिसमध्ये १,१०,००० लोकांनी मार्च काढल्याचे पोलिसांनी सांगितले, तर आयोजकांनी व राजकीय नेत्यांनी सरकारच्या कठोर निर्बंधांवर आणि सामाजिक-आर्थिक समस्या हाताळण्याच्या पद्धतीवर टीका केली.",
+   "summary": "जीवनमानाचा खर्च, शाळांची परिस्थिती आणि सरकारी धोरणांवरून फ्रान्सभर निदर्शने झाली, ज्यामध्ये शेकडो हजारो सहभागी आकर्षित झाले. सुरुवातीला विद्यार्थी आणि सीजीटीसह ट्रेड युनियनद्वारे आयोजित केलेले हे आंदोलन देशव्यापी निदर्शनांमध्ये विस्तारले. पॅरिसमध्ये, प्राधिकाऱ्यांमार्फत मार्ग बदलांनंतर कडक सुरक्षेत पोर्ट डी'इटली येथून मोर्चा निघाला. रात्र झाल्यावर मिरवणुकीच्या शेवटी संघर्ष उसळले, ज्यामध्ये पोलिसांनी मुखवटा घातलेल्या व्यक्तींवर अश्रुधूर, लाठ्या आणि पाण्याचे फवारे यांचा वापर केला. अंतर्गत मंत्री लॉरेंट नुनेझ यांनी अहवाल दिला की देशव्यापी जवळपास १,००० लोकांना अटक करण्यात आली, तर मागील शनिवार व रविवार प्रमाणे व्यापक मालमत्तेचे नुकसान टाळण्यासाठी प्राधिकाऱ्यांनी ७०,००० सुरक्षा कर्मचाऱ्यांना एकत्रित केले.",
    "demands": [
-    "शाळांसाठी चांगला निधी आणि विद्यापीठांमध्ये अधिक जागा",
-    "उच्च वेतन",
-    "वाढीव निवृत्तीवेतन",
-    "वाढता जीवनमान खर्च आणि ऊर्जेच्या किंमतींपासून दिलासा"
+    "शाळांमध्ये चांगल्या परिस्थिती",
+    "वाढीव वेतन",
+    "सुधारित पेन्शन"
    ],
-   "response": "देशभरात ७०,००० पोलीस अधिकारी तैनात करण्यात आल्याचे गृहमंत्री लॉरेंट नुनेज यांनी सांगितले आणि १३५ लोकांना अटक करण्यात आल्याचे तसेच विविध शस्त्रे जप्त करण्यात आल्याचे जाहीर केले. गर्दीला हुडकून काढण्यासाठी आणि मार्गावरील निर्बंध लागू करण्यासाठी पोलिसांनी अनेक शहरांमध्ये अश्रूधूर आणि वॉटर कॅननचा वापर केला.",
+   "response": "सरकारी अधिकाऱ्यांच्या मते, देशव्यापी जवळपास १,००० लोकांना अटक करण्यात आली. अंतर्गत मंत्री लॉरेंट नुनेझ यांनी सांगितले की ७०,००० पोलीस अधिकारी तैनात करण्यात आले होते, आणि पॅरिस, लियॉन आणि नाइससह शहरांमध्ये गर्दीला हुसकावण्यासाठी सुरक्षा दलांनी अश्रुधूर, स्टन ग्रेनेड, लाठ्या आणि पाण्याचे फवारे वापरले.",
    "updates": [
-    "पॅरिस पोलीस आणि कामगार संघटनांमध्ये निदर्शनाच्या मार्गावरून वाद झाला, जो शहराच्या आग्नेय टोकाकडे हलवण्यात आला होता.",
-    "सुरक्षेच्या कारणास्तव निदर्शनांपूर्वी पॅरिसमधील प्रमुख संग्रहालये आणि अनेक मेट्रो स्टेशन बंद ठेवण्यात आली होती.",
-    "निदर्शकांना हुडकून काढण्यासाठी पोलिसांनी ल्यॉन, क्लेरमोंट-फेरँड, नँटेस आणि मार्सेली यांसारख्या शहरांमध्ये अश्रूधूर आणि वॉटर कॅननचा वापर केला.",
-    "देशभरात ७०,००० अधिकारी तैनात करण्यात आले असून १३५ जणांना अटक करण्यात आल्याची घोषणा गृहमंत्री लॉरेंट नुनेज यांनी केली."
+    "अंतर्गत मंत्री लॉरेंट नुनेझ यांच्या मते, शनिवार दुपारच्या सुरुवातीस फ्रेंच पोलिसांनी १३५ लोकांना अटक केली.",
+    "देशभर हजारो सुरक्षा कर्मचारी तैनात असताना निदर्शक दक्षिण पॅरिसमधील पोर्ट डी'इटली येथे जमले.",
+    "लियॉन, ग्रेनोबल, लिल आणि नाइससह शहरांमध्ये संघर्ष आणि अश्रुधूर वापरल्याची नोंद झाली.",
+    "प्राधिकाऱ्यांनी निदर्शनांदरम्यान दोन गंभीर दुखापतींची पुष्टी केली, ज्यामध्ये टूलूसमधील एक निदर्शक समाविष्ट आहे ज्याच्या हाताला दुखापत झाली.",
+    "पॅरिसमध्ये संध्याकाळ झाल्यावर, संघर्षानंतर निक्षकांना हुसकावण्यासाठी पोलिसांनी अश्रुधूर, लाठ्या आणि पाण्याचा फवारा वापरला.",
+    "अंतर्गत मंत्री लॉरेंट नुनेझ यांनी सांगितले की संध्याकाळपर्यंत देशव्यापी अटक १,००० च्या जवळ पोहोचली."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "अंतर्गत मंत्रालयाने देशव्यापी उपस्थितीचा अंदाज ४,१०,००० वर्तवला, तर सीजीटी ट्रेड युनियनने ८,००,००० सहभागी असल्याचा दावा केला."
+   ],
    "numbers": {
-    "crowd": "राजधानीत १,१०,००० लोकांनी मार्च काढला",
-    "arrests": "१३५ लोकांना अटक करण्यात आली आहे"
+    "crowd": "अंतर्गत मंत्रालयाच्या मते, शनिवारी फ्रान्सभर निदर्शनांमध्ये ४,१०,००० लोक सहभागी झाले",
+    "arrests": "फ्रान्सभर निदर्शनांदरम्यान जवळपास १,००० लोकांना अटक करण्यात आली आहे",
+    "injuries": "संघर्षादरम्यान दोन अधिकारी आणि दोन निदर्शक जखमी झाले."
    }
   },
   "es": {
-   "title": "Protestas por el costo de la vida en toda Francia bajo fuerte seguridad",
-   "seoTitle": "Protesta por el costo de vida en París",
+   "title": "Protestas por el costo de la vida en toda Francia en medio de una fuerte seguridad",
+   "seoTitle": "Protesta por el costo de la vida en París",
    "tea": {
-    "why": "Los manifestantes están enfadados por el aumento del costo de vida, los precios disparados de la energía y la presunta negligencia en el sistema educativo.",
-    "want": "Los manifestantes exigen una mejor financiación escolar, salarios más altos, pensiones aumentadas y soluciones a la inflación.",
-    "changed": "24 de oct.: la policía francesa arrestó a 135 personas y desplegó gases lacrimógenos en varias ciudades mientras decenas de miles marchaban."
+    "why": "Los manifestantes se manifiestan contra el alto costo de la vida, la escasez de fondos escolares y las políticas gubernamentales.",
+    "want": "Los manifestantes exigen mejores condiciones escolares, salarios más altos, pensiones aumentadas y mejores niveles de vida.",
+    "changed": "24 de octubre: las autoridades francesas desplegaron 70,000 agentes de policía mientras las protestas a nivel nacional provocaron casi 1,000 arrestos y enfrentamientos."
    },
-   "summary": "Miles de trabajadores, sindicalistas y estudiantes salieron a las calles de París y otras ciudades francesas el sábado 24 de octubre de 2026 para protestar contra el aumento del costo de vida, los altos precios de la energía y los problemas de financiación escolar. Las manifestaciones a nivel nacional siguieron a los fuertes disturbios de la semana anterior. Las autoridades desplegaron hasta 70.000 efectivos de seguridad, helicópteros, vehículos blindados y cañones de agua, al tiempo que cerraron varias estaciones de metro y museos en París. La policía alteró la ruta oficial de protesta de la capital en el último minuto, lo que provocó confusión entre los participantes, y utilizó gas lacrimógeno y granadas aturdidoras en ciudades como Lyon y Clermont-Ferrand. El ministro del Interior, Laurent Nuñez, informó que 135 personas fueron arrestadas en todo el país por portar armas y cometer infracciones. Si bien la policía afirmó que 110.000 personas marcharon en París, los organizadores y figuras políticas criticaron las severas restricciones del gobierno y la gestión de las quejas socioeconómicas.",
+   "summary": "Las manifestaciones por el costo de la vida, las condiciones escolares y las políticas gubernamentales se llevaron a cabo en toda Francia, atrayendo a cientos de miles de participantes. Organizado inicialmente por estudiantes y sindicatos, incluida la CGT, el movimiento se expandió en protestas a nivel nacional. En París, la marcha partió de Porte d'Italie bajo una fuerte seguridad tras los ajustes de ruta realizados por las autoridades. Al caer la noche, estallaron enfrentamientos cerca del final de la procesión, y la policía desplegó gas lacrimógeno, porras y cañones de agua contra personas enmascaradas. El ministro del Interior, Laurent Nuñez, informó que casi 1,000 personas fueron arrestadas en todo el país, mientras que las autoridades movilizaron a 70,000 efectivos de seguridad para evitar daños materiales generalizados similares a los fines de semana anteriores.",
    "demands": [
-    "Mejor financiación escolar y más plazas universitarias",
+    "Mejores condiciones en las escuelas",
     "Salarios más altos",
-    "Pensiones aumentadas",
-    "Alivio ante el costo de vida y los precios de la energía disparados"
+    "Pensiones mejoradas"
    ],
-   "response": "El ministro del Interior, Laurent Nuñez, declaró que se desplegaron 70.000 policías en todo el país, e informó que 135 personas habían sido arrestadas y se habían incautado varias armas. La policía utilizó gases lacrimógenos y cañones de agua en varias ciudades para dispersar a las multitudes y hacer cumplir las restricciones de ruta.",
+   "response": "Según funcionarios del gobierno, casi 1,000 personas fueron arrestadas en todo el país. El ministro del Interior, Laurent Nuñez, declaró que se desplegaron 70,000 agentes de policía, y las fuerzas de seguridad utilizaron gas lacrimógeno, granadas aturdidoras, porras y cañones de agua para dispersar a las multitudes en ciudades como París, Lyon y Niza.",
    "updates": [
-    "La policía de París y los sindicatos chocaron por la ruta de la manifestación, que fue trasladada al extremo sureste de la ciudad.",
-    "Los principales museos de París y varias estaciones de metro fueron cerrados antes de las manifestaciones debido a preocupaciones de seguridad.",
-    "La policía utilizó gases lacrimógenos y cañones de agua en ciudades como Lyon, Clermont-Ferrand, Nantes y Marsella para dispersar a los manifestantes.",
-    "El ministro del Interior, Laurent Nuñez, anunció que se desplegaron 70.000 agentes en todo el país y se realizaron 135 arrestos."
+    "La policía francesa arrestó a 135 personas a principios del sábado por la tarde, según el ministro del Interior, Laurent Nuñez.",
+    "Los manifestantes se reunieron en Porte d'Italie, en el sur de París, mientras miles de efectivos de seguridad se desplegaban a nivel nacional.",
+    "Se informaron enfrentamientos y el uso de gas lacrimógeno en ciudades como Lyon, Grenoble, Lille y Niza.",
+    "Las autoridades confirmaron dos lesiones graves durante las protestas, incluido un manifestante en Toulouse que sufrió lesiones en la mano.",
+    "Al caer la tarde en París, la policía utilizó gas lacrimógeno, porras y un cañón de agua para dispersar a los manifestantes tras los enfrentamientos.",
+    "El ministro del Interior, Laurent Nuñez, declaró que las detenciones a nivel nacional se acercaban a 1,000 por la noche."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "El Ministerio del Interior estimó la participación a nivel nacional en 410,000, mientras que el sindicato CGT afirmó que hubo 800,000 participantes."
+   ],
    "numbers": {
-    "crowd": "110.000 personas marcharon en la capital",
-    "arrests": "135 personas han sido arrestadas"
+    "crowd": "410,000 personas participaron en manifestaciones en toda Francia el sábado, según el Ministerio del Interior",
+    "arrests": "casi 1,000 personas han sido arrestadas durante manifestaciones en toda Francia",
+    "injuries": "Dos agentes y dos manifestantes resultaron heridos durante los enfrentamientos."
    }
   },
   "fr": {
    "title": "Manifestations contre le coût de la vie à travers la France sous haute sécurité",
    "seoTitle": "Manifestation sur le coût de la vie à Paris",
    "tea": {
-    "why": "Les manifestants sont irrités par la hausse du coût de la vie, l'envolée des prix de l'énergie et la négligence perçue dans le système éducatif.",
-    "want": "Les manifestants exigent un meilleur financement des écoles, des salaires plus élevés, des pensions augmentées et des solutions face à l'inflation.",
-    "changed": "24 oct. : la police française a arrêté 135 personnes et déployé des gaz lacrymogènes dans plusieurs villes alors que des dizaines de milliers de personnes défilaient."
+    "why": "Les manifestants protestent contre le coût de la vie élevé, le manque de financement des écoles et les politiques gouvernementales.",
+    "want": "Les manifestants exigent de meilleures conditions dans les écoles, des salaires plus élevés, des pensions augmentées et de meilleures conditions de vie.",
+    "changed": "24 oct. : les autorités françaises ont déployé 70 000 policiers alors que les manifestations nationales ont entraîné près de 1 000 arrestations et des affrontements."
    },
-   "summary": "Des milliers de travailleurs, de syndicalistes et d'étudiants sont descendus dans les rues de Paris et d'autres villes françaises le samedi 24 octobre 2026 pour protester contre la flambée du coût de la vie, les prix élevés de l'énergie et les problèmes de financement des écoles. Les manifestations nationales ont fait suite à de graves troubles la semaine précédente. Les autorités ont déployé jusqu'à 70 000 agents de sécurité, des hélicoptères, des véhicules blindés et des canons à eau, tout en fermant plusieurs stations de métro et musées à Paris. La police a modifié le parcours officiel de la manifestation de la capitale à la dernière minute, entraînant la confusion parmi les participants, et a utilisé des gaz lacrymogènes et des grenades de désencerclement dans des villes comme Lyon et Clermont-Ferrand. Le ministre de l'Intérieur, Laurent Nuñez, a indiqué que 135 personnes avaient été arrêtées à l'échelle nationale pour port d'armes et infractions. Alors que la police a affirmé que 110 000 personnes avaient défilé à Paris, les organisateurs et des personnalités politiques ont critiqué les restrictions sévères du gouvernement et sa gestion des griefs socio-économiques.",
+   "summary": "Des manifestations concernant le coût de la vie, les conditions scolaires et les politiques gouvernementales ont eu lieu à travers la France, attirant des centaines de milliers de participants. Organisé initialement par des étudiants et des syndicats dont la CGT, le mouvement s'est transformé en manifestations nationales. À Paris, le cortège est parti de la Porte d'Italie sous haute sécurité après des ajustements d'itinéraire par les autorités. À la tombée de la nuit, des affrontements ont éclaté près de la fin du cortège, la police déployant du gaz lacrymogène, des matraques et des canons à eau contre des individus masqués. Le ministre de l'Intérieur Laurent Nuñez a indiqué que près de 1 000 personnes avaient été arrêtées dans tout le pays, tandis que les autorités ont mobilisé 70 000 membres des forces de l'ordre pour éviter des dégâts matériels généralisés similaires aux week-ends précédents.",
    "demands": [
-    "Un meilleur financement des écoles et davantage de places à l'université",
+    "De meilleures conditions dans les écoles",
     "Des salaires plus élevés",
-    "Des pensions augmentées",
-    "Un répit face à l'envolée du coût de la vie et des prix de l'énergie"
+    "Des pensions améliorées"
    ],
-   "response": "Le ministre de l'Intérieur, Laurent Nuñez, a déclaré que 70 000 policiers avaient été déployés dans tout le pays, et a rapporté que 135 personnes avaient été arrêtées et diverses armes saisies. La police a utilisé des gaz lacrymogènes et des canons à eau dans plusieurs villes pour disperser les foules et faire respecter les restrictions d'itinéraire.",
+   "response": "Selon des responsables gouvernementaux, près de 1 000 personnes ont été arrêtées dans tout le pays. Le ministre de l'Intérieur Laurent Nuñez a déclaré que 70 000 policiers ont été déployés, et que les forces de sécurité ont utilisé du gaz lacrymogène, des grenades de désencerclement, des matraques et des canons à eau pour disperser les foules dans des villes dont Paris, Lyon et Nice.",
    "updates": [
-    "La police de Paris et les syndicats se sont opposés au sujet de l'itinéraire de la manifestation, qui a été déplacé vers l'extrême sud-est de la ville.",
-    "Les grands musées parisiens et plusieurs stations de métro ont été fermés avant les manifestations en raison de préoccupations sécuritaires.",
-    "La police a utilisé des gaz lacrymogènes et des canons à eau dans des villes comme Lyon, Clermont-Ferrand, Nantes et Marseille pour disperser les manifestants.",
-    "Le ministre de l'Intérieur, Laurent Nuñez, a annoncé que 70 000 agents avaient été déployés à l'échelle nationale et que 135 arrestations avaient été effectuées."
+    "La police française a arrêté 135 personnes au début de l'après-midi de samedi, selon le ministre de l'Intérieur Laurent Nuñez.",
+    "Des manifestants se sont rassemés à la Porte d'Italie dans le sud de Paris alors que des milliers de membres des forces de l'ordre étaient déployés à l'échelle nationale.",
+    "Des affrontements et l'utilisation de gaz lacrymogène ont été signalés dans des villes incluant Lyon, Grenoble, Lille et Nice.",
+    "Les autorités ont confirmé deux blessures graves pendant les manifestations, incluant un manifestant à Toulouse qui a subi des blessures à la main.",
+    "Alors que la soirée tombait à Paris, la police a utilisé du gaz lacrymogène, des matraques et un canon à eau pour disperser les manifestants à la suite d'affrontements.",
+    "Le ministre de l'Intérieur Laurent Nuñez a déclaré que les arrestations nationales approchaient les 1 000 en soirée."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Le ministère de l'Intérieur a estimé la participation nationale à 410 000, tandis que le syndicat CGT a revendiqué 800 000 participants."
+   ],
    "numbers": {
-    "crowd": "110 000 personnes ont défilé dans la capitale",
-    "arrests": "135 personnes ont été arrêtées"
+    "crowd": "410 000 personnes ont pris part à des manifestations à travers la France samedi, selon le ministère de l'Intérieur",
+    "arrests": "près de 1 000 personnes ont été arrêtées lors de manifestations à travers la France",
+    "injuries": "Deux policiers et deux manifestants ont été blessés lors des affrontements."
    }
   },
   "de": {
-   "title": "Proteste gegen die Lebenshaltungskosten in ganz Frankreich unter strengen Sicherheitsvorkehrungen",
-   "seoTitle": "Paris Protest gegen Lebenshaltungskosten",
+   "title": "Proteste gegen die Lebenshaltungskosten in ganz Frankreich unter hoher Sicherheit",
+   "seoTitle": "Paris Lebenshaltungskostenprotest",
    "tea": {
-    "why": "Demonstranten sind verärgert über steigende Lebenshaltungskosten, sprunghaft gestiegene Energiepreise und eine wahrgenommene Vernachlässigung des Bildungssystems.",
-    "want": "Demonstranten fordern eine bessere Schulfinanzierung, höhere Löhne, erhöhte Renten und Lösungen gegen die Inflation.",
-    "changed": "24. Okt.: Die französische Polizei nahm 135 Menschen fest und setzte in mehreren Städten Tränengas ein, während Zehntausende marschierten."
+    "why": "Demonstranten protestieren gegen hohe Lebenshaltungskosten, Schulgeldfinanzierungsmängel und Regierungspolitik.",
+    "want": "Demonstranten fordern bessere Schulbedingungen, höhere Löhne, erhöhte Renten und verbesserte Lebensstandards.",
+    "changed": "24. Okt.: Französische Behörden setzten 70.000 Polizeibeamte ein, da landesweite Proteste zu fast 1.000 Festnahmen und Zusammenstößen führten."
    },
-   "summary": "Tausende Arbeiter, Gewerkschafter und Studenten gingen am Samstag, dem 24. Oktober 2026, in Paris und anderen französischen Städten auf die Straße, um gegen drastisch steigende Lebenshaltungskosten, hohe Energiepreise und Probleme bei der Schulfinanzierung zu protestieren. Den bundesweiten Demonstrationen waren massive Unruhen in der Vorwoche vorausgegangen. Die Behörden setzten bis zu 70.000 Sicherheitskräfte, Hubschrauber, Panzerwagen und Wasserwerfer ein, während sie in Paris mehrere U-Bahn-Stationen und Museen schlossen. Die Polizei änderte den offiziellen Demonstrationsweg der Hauptstadt in letzter Minute, was bei den Teilnehmern zu Verwirrung führte, und setzte in Städten wie Lyon und Clermont-Ferrand Tränengas sowie Blendgranaten ein. Innenminister Laurent Nuñez teilte mit, dass bundesweit 135 Personen wegen des Mitführens von Waffen und begangener Verstöße festgenommen wurden. Während die Polizei angab, dass 110.000 Menschen in Paris marschierten, kritisierten Organisatoren und politische Persönlichkeiten die restriktiven Maßnahmen der Regierung und ihren Umgang mit den sozioökonomischen Beschwerden.",
+   "summary": "Demonstrationen zu Lebenshaltungskosten, Schulbedingungen und Regierungspolitik fanden in ganz Frankreich statt und zogen Hunderttausende Teilnehmer an. Ursprünglich von Studenten und Gewerkschaften einschließlich der CGT organisiert, dehnte sich die Bewegung zu landesweiten Protesten aus. In Paris brach der Marsch unter hoher Sicherheit nach Routenanpassungen durch die Behörden von der Porte d'Italie auf. Als die Nacht einbrach, kam es in der Nähe des Endes des Zuges zu Zusammenstößen, wobei die Polizei Tränengas, Schlagstöcke und Wasserwerfer gegen maskierte Personen einsetzte. Innenminister Laurent Nuñez berichtete, dass landesweit fast 1.000 Menschen festgenommen wurden, während die Behörden 70.000 Sicherheitskräfte mobilisierten, um weit verbreitete Sachschäden ähnlich wie an vorherigen Wochenenden zu verhindern.",
    "demands": [
-    "Bessere Schulfinanzierung und mehr Universitätsplätze",
+    "Bessere Bedingungen in Schulen",
     "Höhere Löhne",
-    "Erhöhte Renten",
-    "Entlastung von sprunghaft gestiegenen Lebenshaltungskosten und Energiepreisen"
+    "Verbesserte Renten"
    ],
-   "response": "Innenminister Laurent Nuñez erklärte, dass bundesweit 70.000 Polizisten im Einsatz waren, und berichtete, dass 135 Personen festgenommen und verschiedene Waffen sichergestellt worden seien. Die Polizei setzte in mehreren Städten Tränengas und Wasserwerfer ein, um Menschenmengen zu verteilen und die Routenbeschränkungen durchzusetzen.",
+   "response": "Regierungsbeamten zufolge wurden landesweit fast 1.000 Menschen festgenommen. Innenminister Laurent Nuñez erklärte, dass 70.000 Polizeibeamte im Einsatz waren und Sicherheitskräfte Tränengas, Blendgranaten, Schlagstöcke und Wasserwerfer einsetzten, um Menschenmengen in Städten wie Paris, Lyon und Nizza zu zerstreuen.",
    "updates": [
-    "Die Pariser Polizei und Gewerkschaften gerieten über die Demonstrationsroute aneinander, die an den südöstlichen Rand der Stadt verlegt worden war.",
-    "Wichtige Pariser Museen und mehrere U-Bahn-Stationen wurden im Vorfeld der Demonstrationen aus Sicherheitsgründen geschlossen.",
-    "Die Polizei setzte in Städten wie Lyon, Clermont-Ferrand, Nantes und Marseille Tränengas und Wasserwerfer ein, um Demonstranten zu vertreiben.",
-    "Innenminister Laurent Nuñez gab bekannt, dass bundesweit 70.000 Einsatzkräfte im Dienst waren und 135 Festnahmen vorgenommen wurden."
+    "Die französische Polizei nahm bis zum frühen Samstagnachmittag 135 Personen fest, so Innenminister Laurent Nuñez.",
+    "Demonstranten versammelten sich an der Porte d'Italie im Süden von Paris, während landesweit Tausende Sicherheitskräfte im Einsatz waren.",
+    "Zusammenstöße und der Einsatz von Tränengas wurden aus Städten wie Lyon, Grenoble, Lille und Nizza gemeldet.",
+    "Behörden bestätigten zwei schwere Verletzungen während der Proteste, darunter ein Demonstrant in Toulouse, der Handverletzungen erlitt.",
+    "Als der Abend in Paris heraufzog, setzte die Polizei Tränengas, Schlagstöcke und einen Wasserwerfer ein, um Demonstranten nach Zusammenstößen zu zerstreuen.",
+    "Innenminister Laurent Nuñez erklärte, dass die landesweiten Festnahmen bis zum Abend sich der Marke von 1.000 näherten."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Das Innenministerium schätzte die landesweite Beteiligung auf 410.000, während die CGT-Gewerkschaft 800.000 Teilnehmer angab."
+   ],
    "numbers": {
-    "crowd": "110.000 Menschen marschierten in der Hauptstadt",
-    "arrests": "135 Personen wurden festgenommen"
+    "crowd": "410.000 Menschen nahmen am Samstag an Demonstrationen in ganz Frankreich teil, so das Innenministerium",
+    "arrests": "fast 1.000 Menschen wurden bei Demonstrationen in ganz Frankreich festgenommen",
+    "injuries": "Zwei Beamte und zwei Demonstranten wurden während der Zusammenstöße verletzt."
    }
   }
- },
- "endedOn": "2026-10-24"
+ }
 }
