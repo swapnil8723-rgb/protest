@@ -2,7 +2,7 @@
  "id": "e89047b05fa",
  "slug": "paris-cost-of-living-protests-oct-2026-4",
  "stage": "live",
- "title": "Cost-of-living protests held across France amid heavy security deployment",
+ "title": "Cost-of-Living Protests Held Across France Amid Heavy Security Deployment",
  "seoTitle": "Paris cost-of-living protests",
  "place": {
   "city": "Paris",
@@ -16,58 +16,73 @@
  "scope": "nationwide",
  "causes": [
   "prices",
-  "labour",
-  "students"
+  "education",
+  "housing"
  ],
- "kind": "one-day",
- "startedOn": "2026-10-24",
+ "kind": "multi-day",
+ "startedOn": "2026-10-17",
  "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
+ "vibe": "tense",
+ "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "top-10"
+  "serious",
+  "top-10",
+  "tone-words"
  ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the rising cost of living.",
-  "want": "Demonstrators demand relief from high living costs and object to route restrictions.",
-  "changed": "Oct 24: Tens of thousands of security personnel were mobilised nationwide as demonstrations continued."
+  "why": "Protesters are demonstrating against the rising cost of living, deteriorating conditions in schools, and housing issues.",
+  "want": "Demanding government funding for schools, measures to help with housing, and relief from rising living costs.",
+  "changed": "Oct 24: Around 70,000 security personnel were deployed nationwide as new protests took place under strict restrictions and museum closures."
  },
- "summary": "A wave of demonstrations spanning multiple French cities, including Paris, took place on Saturday, October 24, focusing on the rising cost of living. Organised by unions, high school and university students, and the Yellow Vest movement, the mobilization followed riots and property damage during the previous week's protests. Authorities enforced curfews, travel restrictions, and altered march routes, drawing criticism from left-wing political leaders and trade union representatives such as the CGT. The Council of Europe's human rights commissioner urged states to uphold the freedom of peaceful assembly. The government deployed a heavy security presence, including elite police units and military personnel.",
+ "summary": "High school students, unionists, and yellow vest demonstrators organized nationwide protests across France demanding government relief from rising living costs, better school conditions, and housing measures. The movement, which followed major unrest the previous weekend that involved looting and arson in cities like Paris and Limoges, prompted a massive security response. French authorities deployed approximately 70,000 police officers, soldiers, and gendarmes nationwide, supported by helicopters, armored vehicles, and water cannons. While certain marches were banned or restricted by local authorities and police in cities like Lyon, Marseille, and Paris, unions and demonstrators proceeded with authorized and unauthorized rallies amid tightened security, barricaded storefronts, and closed tourist sites.",
  "organizers": [
   "Yellow Vest movement",
+  "High School Renewal",
   "CGT",
-  "intersyndicale"
+  "labor unions",
+  "student groups"
  ],
  "demands": [
-  "Action against high living costs"
+  "More government funding for schools",
+  "Measures to help with housing",
+  "Relief from the rising cost of living"
  ],
- "response": "According to sources, authorities deployed 70,000 security personnel nationwide, imposed curfews, banned gatherings in certain areas, and altered march routes.",
- "numbers": {},
+ "response": "French authorities deployed 70,000 security personnel nationwide, imposed curfews, banned protests in several cities, and closed tourist sites. Prime Minister Sébastien Lecornu promised a massive police deployment, while Interior Minister Laurent Nuñez warned against violence. Justice Minister Gérald Darmanin noted that courts had…",
+ "numbers": {
+  "crowd": {
+   "value": 500000,
+   "text": "more than half a million took to the streets last week",
+   "sources": [
+    3,
+    4
+   ]
+  },
+  "arrests": {
+   "value": 2400,
+   "text": "about 2,400 detentions",
+   "sources": [
+    7
+   ]
+  }
+ },
  "updates": [
   {
-   "at": "2026-10-24",
-   "text": "Authorities deployed 70,000 security forces nationwide under a heavy security posture.",
+   "at": "2026-10-21",
+   "text": "Prime Minister Sébastien Lecornu met with union representatives to discuss security and a massive police deployment for upcoming protests.",
    "sources": [
-    2,
-    3
+    1
    ]
   },
   {
    "at": "2026-10-24",
-   "text": "Left-wing leaders and union representatives criticised the police prefecture for a last-minute route change in Paris.",
+   "text": "Authorities deployed 70,000 security forces nationwide, and major Paris museums and stores closed ahead of demonstrations.",
    "sources": [
-    2,
-    3
-   ]
-  },
-  {
-   "at": "2026-10-24",
-   "text": "The Council of Europe called on states to protect the right to peaceful assembly and prioritize de-escalation.",
-   "sources": [
-    3
+    3,
+    6,
+    10
    ]
   }
  ],
@@ -88,140 +103,214 @@
   },
   {
    "n": 3,
-   "url": "https://www.franceinfo.fr/societe/manifestations/manifestations-du-24-octobre-suivez-en-direct-cette-nouvelle-journee-de-mobilisation-sous-tres-haute-securite_8251987.html",
+   "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/",
+   "publisher": "cbsnews.com",
+   "title": "Paris museums close, stores put up barricades as France prepares for more protests",
+   "publishedAt": "2026-10-24T07:33:31.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://aninews.in/news/world/europe/france-bans-protests-in-marseille-lyon-paris-museums-closed-ahead-of-fresh-demonstrations20261024130518/",
+   "publisher": "aninews.in",
+   "title": "France bans protests in Marseille, Lyon; Paris museums closed ahead of fresh demonstrations",
+   "publishedAt": "2026-10-24T07:35:18.968Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.franceinfo.fr/monde/europe/allemagne/une-culture-de-la-manifestation-fortement-pacifiee-en-allemagne-la-police-mise-sur-la-communication-et-la-desescalade_8251978.html",
    "publisher": "franceinfo.fr",
-   "title": "DIRECT. Manifestations du 24 octobre : suivez en direct cette nouvelle journ&eacute;e de mobilisation sous tr&egrave;s haute s&eacute;curit&eacute;",
-   "publishedAt": "2026-10-24T07:08:50.000Z"
+   "title": "\"Une culture de la manifestation fortement pacifi&eacute;e\" : en Allemagne, la police mise sur la communication et la d&eacute;sescalade",
+   "publishedAt": "2026-10-24T07:53:21.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://www.dailymail.com/news/article-16235069/France-chaos-Paris-shopkeepers-violence-riot-police-protests.html",
+   "publisher": "dailymail.com",
+   "title": "France prepares for day of chaos: Paris boards up shops and 70,000 riot police take to the streets as Lyon, Nice and Montpellier ban protests",
+   "publishedAt": "2026-10-24T08:00:10.000Z"
+  },
+  {
+   "n": 7,
+   "url": "https://elpais.com/internacional/2026-10-24/francia-contiene-el-aliento-ante-una-nueva-jornada-de-protestas.html",
+   "publisher": "elpais.com",
+   "title": "Francia contiene el aliento ante una nueva jornada de protestas",
+   "publishedAt": "2026-10-24T09:00:33.000Z"
+  },
+  {
+   "n": 8,
+   "url": "https://www.rte.ie/news/europe/2026/1024/1596708-france-protests/",
+   "publisher": "rte.ie",
+   "title": "France to deploy 70,000 police ahead of weekend protests",
+   "publishedAt": "2026-10-24T09:23:52.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://www.spiegel.de/ausland/frankreich-70-000-polizisten-verbotene-demos-geschlossene-museen-angespannte-lage-vor-erneutem-protesttag-a-0890d667-ab5f-4b7e-aa92-244e0c72e9ca",
+   "publisher": "spiegel.de",
+   "title": "70.000 Polizisten, verbotene Demos, geschlossene Museen – Frankreich vor erneutem Protesttag",
+   "publishedAt": "2026-10-24T09:35:00.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
+   "publisher": "theguardian.com",
+   "title": "Protests begin across France, with shops, businesses and tourist sites closed – Europe live",
+   "publishedAt": "2026-10-24T09:54:55.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.8,
- "publishers": 3,
- "reports24h": 2,
+ "confidence": 0.95,
+ "publishers": 10,
+ "reports24h": 11,
  "reportsPrev24h": 0,
- "reports48h": 2,
+ "reports48h": 11,
  "firstSeenAt": "2026-10-21T11:57:43.399Z",
- "lastReportAt": "2026-10-24T07:08:50.000Z",
- "lastCheckedAt": "2026-10-24T07:46:37.803Z",
- "updatedAt": "2026-10-24T07:46:22.182Z",
+ "lastReportAt": "2026-10-24T09:54:55.000Z",
+ "lastCheckedAt": "2026-10-24T10:12:44.107Z",
+ "updatedAt": "2026-10-24T10:12:05.320Z",
  "responseSources": [
   1,
-  2,
-  3
+  3,
+  4,
+  6,
+  7,
+  8,
+  9,
+  10
  ],
- "seriousInjuries": false,
+ "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-10-24T07:46:22.182Z",
- "summaryOf": "38f550953ea8",
+ "summarizedAt": "2026-10-24T10:12:05.320Z",
+ "summaryOf": "3b6904194d93",
  "publishedAt": "2026-10-24T07:46:37.803Z",
  "i18n": {
-  "of": "ec5ab5602752d504",
-  "at": "2026-10-24T07:46:49.395Z",
+  "of": "768051c6f1265204",
+  "at": "2026-10-24T10:12:56.294Z",
   "tries": 1,
   "hi": {
-   "title": "भारी सुरक्षा तैनाती के बीच फ्रांस में जीवनयापन की लागत को लेकर प्रदर्शन",
-   "seoTitle": "पेरिस जीवनयापन लागत प्रदर्शन",
+   "title": "भारी सुरक्षा तैनाती के बीच फ्रांस भर में जीवन-यापन की लागत को लेकर विरोध प्रदर्शन",
+   "seoTitle": "पेरिस जीवन-यापन लागत विरोध",
    "tea": {
-    "why": "प्रदर्शनकारी जीवनयापन के बढ़ते खर्च के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शनकारियों ने उच्च जीवनयापन लागत से राहत की मांग की है और मार्ग प्रतिबंधों पर आपत्ति जताई है।",
-    "changed": "24 अक्टूबर: प्रदर्शन जारी रहने के कारण देश भर में हजारों सुरक्षाकर्मियों को तैनात किया गया।"
+    "why": "प्रदर्शनकारी जीवन-यापन की बढ़ती लागत, स्कूलों में बिगड़ती स्थिति और आवास के मुद्दों के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "स्कूलों के लिए सरकारी वित्तपोषण, आवास में मदद के उपायों और बढ़ती जीवन-यापन लागत से राहत की मांग की जा रही है।",
+    "changed": "24 अक्टूबर: कड़े प्रतिबंधों और संग्रहालयों के बंद रहने के बीच नए विरोध प्रदर्शनों के दौरान देश भर में लगभग 70,000 सुरक्षाकर्मी तैनात किए गए।"
    },
-   "summary": "शनिवार, 24 अक्टूबर को पेरिस सहित फ्रांस के कई शहरों में जीवनयापन की बढ़ती लागत पर ध्यान केंद्रित करते हुए प्रदर्शनों की एक लहर हुई। ट्रेड यूनियनों, हाई स्कूल और विश्वविद्यालय के छात्रों और येलो वेस्ट आंदोलन द्वारा आयोजित यह लामबंदी पिछले हफ्ते के प्रदर्शनों के दौरान हुए दंगों और संपत्ति के नुकसान के बाद हुई। अधिकारियों ने कर्फ्यू, यात्रा प्रतिबंध लगाए और मार्च के मार्गों में बदलाव किया, जिससे वामपंथी राजनीतिक नेताओं और सीजीटी जैसे ट्रेड यूनियन प्रतिनिधियों की आलोचना हुई। यूरोप की परिषद के मानवाधिकार आयुक्त ने राज्यों से शांतिपूर्ण सभा की स्वतंत्रता बनाए रखने का आग्रह किया। सरकार ने कुलीन पुलिस इकाइयों और सैन्य कर्मियों सहित भारी सुरक्षा उपस्थिति तैनात की।",
+   "summary": "हाई स्कूल के छात्रों, यूनियन के सदस्यों और येलो वेस्ट प्रदर्शनकारियों ने जीवन-यापन की बढ़ती लागत से सरकारी राहत, बेहतर स्कूल स्थितियों और आवास उपायों की मांग करते हुए पूरे फ्रांस में देशव्यापी विरोध प्रदर्शन आयोजित किए। पिछले सप्ताह पेरिस और लिमोज जैसे शहरों में लूटपाट और आगजनी से जुड़े बड़े उपद्रवों के बाद इस आंदोलन के कारण भारी सुरक्षा प्रतिक्रिया हुई। फ्रांसीसी अधिकारियों ने हेलीकॉप्टरों, बख्तरबंद वाहनों और वाटर विज्ञापनों द्वारा समर्थित लगभग 70,000 पुलिस अधिकारियों, सैनिकों और जेंडर्म्ज़ को देश भर में तैनात किया। जबकि ल्योन, मार्सिले और पेरिस जैसे शहरों में स्थानीय अधिकारियों और पुलिस द्वारा कुछ मार्च पर प्रतिबंध लगा दिया गया था या उन्हें प्रतिबंधित कर दिया गया था, यूनियनों और प्रदर्शनकारियों ने कड़े सुरक्षा प्रबंधों, बैरिकेड वाली दुकानों और बंद पर्यटन स्थलों के बीच अधिकृत और अनधिकृत रैलियों को आगे बढ़ाया।",
    "demands": [
-    "उच्च जीवनयापन लागत के खिलाफ कार्रवाई"
+    "स्कूलों के लिए अधिक सरकारी वित्तपोषण",
+    "आवास में मदद के उपाय",
+    "जीवन-यापन की बढ़ती लागत से राहत"
    ],
-   "response": "सूत्रों के अनुसार, अधिकारियों ने देश भर में 70,000 सुरक्षाकर्मियों को तैनात किया, कर्फ्यू लगाया, कुछ क्षेत्रों में सभाओं पर प्रतिबंध लगाया और मार्च के मार्गों में बदलाव किया।",
+   "response": "फ्रांसीसी अधिकारियों ने देश भर में 70,000 सुरक्षा कर्मियों को तैनात किया, कर्फ्यू लगाया, कई शहरों में प्रदर्शनों पर प्रतिबंध लगाया और पर्यटन स्थलों को बंद कर दिया। प्रधान मंत्री सेबेस्टियन लेकॉर्नू ने भारी पुलिस तैनाती का वादा किया, जबकि आंतरिक मंत्री लॉरेंट नुनेज ने हिंसा के खिलाफ चेतावनी दी। न्याय मंत्री गेराल्ड डारमैनिन ने उल्लेख किया कि अदालतों ने...",
    "updates": [
-    "अधिकारियों ने भारी सुरक्षा स्थिति के तहत देश भर में 70,000 सुरक्षा बलों को तैनात किया।",
-    "वामपंथी नेताओं और यूनियन प्रतिनिधियों ने पेरिस में आखिरी समय में मार्ग बदलने के लिए पुलिस प्रान्त की आलोचना की।",
-    "यूरोप की परिषद ने राज्यों से शांतिपूर्ण सभा के अधिकार की रक्षा करने और तनाव कम करने को प्राथमिकता देने का आह्वान किया।"
+    "प्रधान मंत्री सेबेस्टियन लेकॉर्नू ने आगामी विरोध प्रदर्शनों के लिए सुरक्षा और भारी पुलिस तैनाती पर चर्चा करने के लिए यूनियन प्रतिनिधियों से मुलाकात की।",
+    "अधिकारियों ने देश भर में 70,00,000 सुरक्षा बलों को तैनात किया, और प्रदर्शनों से पहले पेरिस के प्रमुख संग्रहालय और दुकानें बंद रहीं।"
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "पिछले सप्ताह पांच लाख से अधिक लोग सड़कों पर उतरे",
+    "arrests": "लगभग 2,400 हिरासतें"
+   }
   },
   "mr": {
-   "title": "मोठ्या सुरक्षा बंदोबस्तात फ्रान्समध्ये महागाईविरोधात निदर्शने",
-   "seoTitle": "पॅरिस महागाई निदर्शने",
+   "title": "फ्रान्समध्ये कडेकोट सुरक्षा व्यवस्थेदरम्यान महागाईविरोधात निदर्शने",
+   "seoTitle": "पॅरिस महागाई विरोध",
    "tea": {
-    "why": "निदर्शक वाढत्या महागाईच्या विरोधात निदर्शने करत आहेत.",
-    "want": "निदर्शक वाढत्या महागाईच्या खर्चातून दिलासा देण्याची मागणी करत आहेत आणि मार्ग निर्बंधांवर आक्षेप घेत आहेत.",
-    "changed": "२४ ऑक्टोबर: निदर्शने सुरू असताना देशभरात हजारो सुरक्षा कर्मचारी तैनात करण्यात आले."
+    "why": "जीवनमानाचा वाढता खर्च, शाळांमधील खालावलेली परिस्थिती आणि घरांचे प्रश्न याविरोधात निदर्शकर्ते करत आहेत.",
+    "want": "शाळांसाठी सरकारी निधी, घरांच्या बाबतीत मदतीचे उपाय आणि वाढत्या महागाईतून आरास देण्याची मागणी.",
+    "changed": "२४ ऑक्टोबर: कडक निर्बंध आणि संग्रहालये बंद असताना नवीन निदर्शनांच्या पार्श्वभूमीवर देशभरात सुमारे ७०,००० सुरक्षा कर्मचारी तैनात करण्यात आले."
    },
-   "summary": "शनिवार, २४ ऑक्टोबर रोजी पॅरिससह फ्रान्समधील अनेक शहरांमध्ये वाढत्या महागाईवर लक्ष केंद्रित करून निदर्शनांची लाट उसळली. युनियन्स, हायस्कूल आणि विद्यापीठाचे विद्यार्थी आणि यलो व्हेस्ट चळवळीद्वारे आयोजित ही आंदोलने मागील आठवड्यातील निदर्शनांच्या दरम्यान झालेल्या दंगली आणि मालमत्तेचे नुकसान झाल्यानंतर झाली. प्रशासनाने संचारबंदी, प्रवास निर्बंध लादले आणि मोर्चाचे मार्ग बदलले, ज्यामुळे डाव्या राजकीय नेत्यांकडून आणि सीजीटी सारख्या कामगार युनियनच्या प्रतिनिधींकडून टीका झाली. कौन्सिल ऑफ युरोपच्या मानवाधिकार आयुक्तांनी राज्यांना शांततापूर्ण सभेचे स्वातंत्र्य कायम ठेवण्याचे आवाहन केले. सरकारने विशेष पोलीस युनिट्स आणि लष्करी कर्मचाऱ्यांसह मोठा सुरक्षा बंदोबस्त तैनात केला.",
+   "summary": "हायस्कूलचे विद्यार्थी, युनियनचे सदस्य आणि येलो वेस्ट निदर्शकांनी महागाईपासून सरकारी आरास, शाळांच्या चांगल्या परिस्थिती आणि घरांच्या उपायांची मागणी करत फ्रान्सभर देशव्यापी निदर्शने आयोजित केली. मागच्या वीकेंडला पॅरिस आणि लिमोज सारख्या शहरांमध्ये लूटमार आणि जाळपोळीशी संबंधित मोठ्या उपद्रवानंतर या आंदोलनामुळे मोठी सुरक्षा यंत्रणा कामाला लागली. फ्रेंच अधिकार्‍यांनी हेलिकॉप्टर, चिलखती वाहने आणि वॉटर कॅननच्या साहाय्याने देशभरात अंदाजे ७०,००० पोलीस अधिकारी, सैनिक आणि जेंडर्म्झ तैनात केले. ल्योन, मार्सेल आणि पॅरिस सारख्या शहरांमध्ये स्थानिक अधिकारी आणि पोलिसांकडून काही मोर्चांवर बंदी घातली गेली किंवा निर्बंध लादले गेले तरीही, युनियन आणि निदर्शकांनी कडक सुरक्षा, बॅरिकेट्स लावलेली दुकाने आणि बंद पर्यटन स्थळांच्या दरम्यान अधिकृत आणि अनधिकृत रॅली काढल्या.",
    "demands": [
-    "वाढत्या महागाईच्या विरोधात कारवाई"
+    "शाळांसाठी अधिक सरकारी निधी",
+    "घरांच्या बाबतीत मदतीचे उपाय",
+    "जीवनमानाचा वाढता खर्च यापासून आरास"
    ],
-   "response": "सूत्रांनुसार, प्रशासनाने देशभरात ७०,००० सुरक्षा कर्मचारी तैनात केले, संचारबंदी लागू केली, काही भागांमध्ये एकत्र येण्यावर बंदी घातली आणि मोर्चाचे मार्ग बदलले.",
+   "response": "फ्रेंच अधिकार्‍यांनी देशभरात ७०,००० सुरक्षा कर्मचारी तैनात केले, संचारबंदी लागू केली, अनेक शहरांमध्ये निदर्शनांवर बंदी घातली आणि पर्यटन स्थळे बंद केली. पंतप्रधान सेबॅस्टियन लेकॉर्नू यांनी मोठ्या प्रमाणावर पोलीस तैनातीचे आश्वासन दिले, तर अंतर्गत मंत्री लॉरेंट नुनेझ यांनी हिंसेविरोधात इशारा दिला. न्याय मंत्री गेराल्ड डार्मानिन यांनी नमूद केले की न्यायालयांनी...",
    "updates": [
-    "प्रशासनाने कडक सुरक्षा व्यवस्थेअंतर्गत देशभरात ७०,००० सुरक्षा दल तैनात केले.",
-    "डाव्या विचारसरणीच्या नेत्यांनी आणि युनियनच्या प्रतिनिधींनी पॅरिसमधील शेवटच्या क्षणी केलेल्या मार्ग बदलाबद्दल पोलीस आयुक्तालयावर टीका केली.",
-    "कौन्सिल ऑफ युरोपेडने राज्यांना शांततापूर्ण सभेच्या हक्काचे रक्षण करण्याचे आणि तणाव कमी करण्याला प्राधान्य देण्याचे आवाहन केले."
+    "पंतप्रधान सेबॅस्टियन लेकॉर्नू यांनी आगामी निदर्शनांसाठी सुरक्षा आणि मोठ्या पोलीस तैनातीवर चर्चा करण्यासाठी युनियन प्रतिनिधींची भेट घेतली.",
+    "अधिकार्‍यांनी देशभरात ७०,००० सुरक्षा दले तैनात केली आणि निदर्शनांच्या आधी पॅरिसमधील प्रमुख संग्रहालये आणि दुकाने बंद केली."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "गेल्या आठवड्यात अर्ध्या लाखांहून अधिक लोक रस्तాలపై उतरले",
+    "arrests": "सुमारे २,४०० जणांना ताब्यात घेण्यात आले"
+   }
   },
   "es": {
    "title": "Protestas por el costo de vida en toda Francia en medio de un fuerte despliegue de seguridad",
-   "seoTitle": "Protestas por costo de vida en París",
+   "seoTitle": "Protestas por el costo de vida en París",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida.",
-    "want": "Los manifestantes exigen alivio de los altos costos de vida y se oponen a las restricciones de ruta.",
-    "changed": "24 de octubre: decenas de miles de efectivos de seguridad fueron movilizados en todo el país a medida que continuaban las manifestaciones."
+    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, el deterioro de las condiciones en las escuelas y los problemas de vivienda.",
+    "want": "Exigen financiación gubernamental para las escuelas, medidas para ayudar con la vivienda y alivio del aumento del costo de vida.",
+    "changed": "24 de octubre: Alrededor de 70.000 miembros del personal de seguridad fueron desplegados a nivel nacional mientras se llevaban a cabo nuevas protestas bajo estrictas restricciones y cierres de museos."
    },
-   "summary": "Una ola de manifestaciones que abarcó varias ciudades francesas, incluida París, tuvo lugar el sábado 24 de octubre, centrándose en el aumento del costo de vida. Organizada por sindicatos, estudiantes de secundaria y universidad, y el movimiento de los Chalecos Amarillos, la movilización se produjo tras los disturbios y daños a la propiedad durante las protestas de la semana anterior. Las autoridades aplicaron toques de queda, restricciones de viaje y alteraron las rutas de marcha, lo que provocó críticas de líderes políticos de izquierda y representantes sindicales como la CGT. El comisario de derechos humanos del Consejo de Europa instó a los estados a defender la libertad de reunión pacífica. El Gobierno desplegó una fuerte presencia de seguridad, incluidas unidades policiales de élite y personal militar.",
+   "summary": "Estudiantes de secundaria, sindicalistas y manifestantes de chalecos amarillos organizaron protestas en todo el país en Francia exigiendo ayuda gubernamental ante el aumento del costo de vida, mejores condiciones escolares y medidas de vivienda. El movimiento, que siguió a los importantes disturbios del fin de semana anterior que incluyeron saqueos e incendios en ciudades como París y Limoges, provocó una respuesta de seguridad masiva. Las autoridades francesas desplegaron aproximadamente 70.000 policías, soldados y gendarmes en todo el país, apoyados por helicópteros, vehículos blindados y cañones de agua. Si bien ciertas marchas fueron prohibidas o restringidas por las autoridades locales y la policía en ciudades como Lyon, Marsella y París, los sindicatos y manifestantes procedieron con mítines autorizados y no autorizados en medio de seguridad reforzada, escaparates barricadados y sitios turísticos cerrados.",
    "demands": [
-    "Acción contra los altos costos de vida"
+    "Más financiación gubernamental para las escuelas",
+    "Medidas para ayudar con la vivienda",
+    "Alivio del aumento del costo de vida"
    ],
-   "response": "Según fuentes, las autoridades desplegaron 70.000 efectivos de seguridad en todo el país, impusieron toques de queda, prohibieron reuniones en ciertas áreas y alteraron las rutas de marcha.",
+   "response": "Las autoridades francesas desplegaron 70.000 efectivos de seguridad en todo el país, impusieron toques de queda, prohibieron protestas en varias ciudades y cerraron sitios turísticos. El primer ministro Sébastien Lecornu prometió un despliegue policial masivo, mientras que el ministro del Interior, Laurent Nuñez, advirtió contra la violencia. El ministro de Justicia, Gérald Darmanin, señaló que los tribunales habían...",
    "updates": [
-    "Las autoridades desplegaron 70.000 fuerzas de seguridad en todo el país bajo una fuerte postura de seguridad.",
-    "Líderes de izquierda y representantes sindicales criticaron a la prefectura de policía por un cambio de ruta de última hora en París.",
-    "El Consejo de Europa pidió a los estados que protejan el derecho a la reunión pacífica yprioricen la desescalada."
+    "El primer ministro Sébastien Lecornu se reunió con representantes sindicales para discutir la seguridad y un despliegue policial masivo para las próximas protestas.",
+    "Las autoridades desplegaron 70.000 fuerzas de seguridad en todo el país, y los principales museos y tiendas de París cerraron antes de las manifestaciones."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "más de medio millón salió a las calles la semana pasada",
+    "arrests": "alrededor de 2.400 detenciones"
+   }
   },
   "fr": {
    "title": "Manifestations contre le coût de la vie à travers la France dans un contexte de déploiement de sécurité renforcé",
-   "seoTitle": "Manifestations sur le coût de la vie à Paris",
+   "seoTitle": "Manifestations coût de la vie Paris",
    "tea": {
-    "why": "Des manifestants protestent contre la hausse du coût de la vie.",
-    "want": "Des manifestants réclament un soulagement face aux coûts de la vie élevés et s'opposent aux restrictions d'itinéraire.",
-    "changed": "24 oct. : des dizaines de milliers d'agents de sécurité ont été mobilisés à travers le pays alors que les manifestations se poursuivaient."
+    "why": "Les manifestants protestent contre la hausse du coût de la vie, la dégradation des conditions dans les écoles et les problèmes de logement.",
+    "want": "Ils exigent un financement gouvernemental pour les écoles, des mesures d'aide au logement et un soulagement face à la hausse du coût de la vie.",
+    "changed": "24 oct. : Environ 70 000 membres du personnel de sécurité ont été déployés à l'échelle nationale alors que de nouvelles manifestations ont eu lieu sous de strictes restrictions et des fermetures de musées."
    },
-   "summary": "Une vague de manifestations couvrant plusieurs villes françaises, dont Paris, a eu lieu le samedi 24 octobre, se concentrant sur la hausse du coût de la vie. Organisée par des syndicats, des lycéens et des étudiants, ainsi que par le mouvement des Gilets jaunes, la mobilisation a fait suite aux émeutes et aux dégâts matériels survenus lors des manifestations de la semaine précédente. Les autorités ont appliqué des couvre-feux, des restrictions de déplacement et modifié les itinéraires de marche, suscitant les critiques de dirigeants politiques de gauche et de représentants syndicaux tels que la CGT. Le commissaire aux droits de l'homme du Conseil de l'Europe a exhorté les États à défendre la liberté de réunion pacifique. Le gouvernement a déployé une forte présence de sécurité, comprenant des unités de police d'élite et du personnel militaire.",
+   "summary": "Des lycéens, des syndicalistes et des gilets jaunes ont organisé des manifestations à travers la France pour exiger du gouvernement des aides face à la hausse du coût de la vie, de meilleures conditions scolaires et des mesures en matière de logement. Le mouvement, qui a fait suite à des troubles majeurs le week-end précédent impliquant des pillages et des incendies criminels dans des villes comme Paris et Limoges, a entraîné une réponse de sécurité massive. Les autorités françaises ont déployé environ 70 000 policiers, soldats et gendarmes à l'échelle nationale, soutenus par des hélicoptères, des véhicules blindés et des canons à eau. Bien que certaines marches aient été interdites ou restreintes par les autorités locales et la police dans des villes comme Lyon, Marseille et Paris, les syndicats et les manifestants ont maintenu des rassemblements autorisés et non autorisés au milieu d'une sécurité renforcée, de vitrines barricadées et de sites touristiques fermés.",
    "demands": [
-    "Action contre la cherté de la vie"
+    "Plus de financement gouvernemental pour les écoles",
+    "Des mesures d'aide au logement",
+    "Un soulagement face à la hausse du coût de la vie"
    ],
-   "response": "Selon des sources, les autorités ont déployé 70 000 agents de sécurité à travers le pays, imposé des couvre-feux, interdit les rassemblements dans certaines zones et modifié les itinéraires de marche.",
+   "response": "Les autorités françaises ont déployé 70 000 membres des forces de sécurité à l'échelle nationale, imposé des couvre-feux, interdit des manifestations dans plusieurs villes et fermé des sites touristiques. Le Premier ministre Sébastien Lecornu a promis un déploiement policier massif, tandis que le ministre de l'Intérieur Laurent Nuñez a mis en garde contre la violence. Le ministre de la Justice Gérald Darmanin a indiqué que les tribunaux avaient...",
    "updates": [
-    "Les autorités ont déployé 70 000 forces de sécurité à travers le pays sous une forte posture de sécurité.",
-    "Des dirigeants de gauche et des représentants syndicaux ont critiqué la préfecture de police pour un changement d'itinéraire de dernière minute à Paris.",
-    "Le Conseil de l'Europe a appelé les États à protéger le droit à la réunion pacifique et à donner la priorité à la désescalade."
+    "Le Premier ministre Sébastien Lecornu a rencontré des représentants syndicaux pour discuter de la sécurité et d'un déploiement policier massif pour les manifestations à venir.",
+    "Les autorités ont déployé 70 000 forces de sécurité à l'échelle nationale, et les principaux musées et magasins de Paris ont fermé avant les manifestations."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "plus d'un demi-million de personnes sont descendues dans la rue la semaine dernière",
+    "arrests": "environ 2 400 interpellations"
+   }
   },
   "de": {
    "title": "Proteste gegen die Lebenshaltungskosten in ganz Frankreich inmitten starker Sicherheitsvorkehrungen",
-   "seoTitle": "Proteste zu Lebenshaltungskosten in Paris",
+   "seoTitle": "Paris Proteste Lebenshaltungskosten",
    "tea": {
-    "why": "Demonstranten demonstrieren gegen die steigenden Lebenshaltungskosten.",
-    "want": "Demonstranten fordern Erleichterung von den hohen Lebenshaltungskosten und protestieren gegen Routenbeschränkungen.",
-    "changed": "24. Okt.: Zehntausende Sicherheitskräfte wurden landesweit mobilisiert, während die Demonstrationen weitergingen."
+    "why": "Demonstranten protestieren gegen die steigenden Lebenshaltungskosten, verschlechterte Bedingungen an Schulen und Wohnungsprobleme.",
+    "want": "Sie fordern staatliche Finanzierung für Schulen, Maßnahmen zur Unterstützung beim Wohnungsbau und Entlastung von den steigenden Lebenshaltungskosten.",
+    "changed": "24. Okt.: Rund 70.000 Sicherheitskräfte wurden landesweit eingesetzt, während neue Proteste unter strengen Auflagen und Museumsschließungen stattfanden."
    },
-   "summary": "Eine Welle von Demonstrationen in mehreren französischen Städten, darunter Paris, fand am Samstag, dem 24. Oktober, statt und konzentrierte sich auf die steigenden Lebenshaltungskosten. Organisiert von Gewerkschaften, Schüler- und Universitätsstudenten sowie der Gelbwestenbewegung folgte die Mobilisierung auf Ausschreitungen und Sachschäden bei den Protesten der Vorwoche. Die Behörden verhängten Ausgangssperren, Reisebeschränkungen und änderten Marschrouten, was Kritik von linken Politikern und Gewerkschaftsvertretern wie der CGT hervorrief. Der Menschenrechtskommissar des Europarats forderte die Staaten auf, die Freiheit der friedlichen Versammlung zu wahren. Die Regierung setzte eine starke Sicherheitspräsenz ein, darunter Elitepolizeieinheiten und Militärpersonal.",
+   "summary": "Schüler, Gewerkschafter und Gelbwesten-Demonstranten organisierten landesweite Proteste in ganz Frankreich und forderten staatliche Entlastung von den steigenden Lebenshaltungskosten, bessere Schulbedingungen und Wohnungsmaßnahmen. Die Bewegung, die auf schwere Ausschreitungen am vorherigen Wochenende mit Plünderungen und Brandstiftungen in Städten wie Paris und Limoges folgte, löste eine massive Sicherheitsreaktion aus. Die französischen Behörden setzten landesweit etwa 70.000 Polizisten, Soldaten und Gendarmen ein, unterstützt von Hubschraubern, Panzerwagen und Wasserwerfern. Während bestimmte Märsche von den örtlichen Behörden und der Polizei in Städten wie Lyon, Marseille und Paris verboten oder eingeschränkt wurden, setzten Gewerkschaften und Demonstranten genehmigte und nicht genehmigte Kundgebungen inmitten verschärfter Sicherheit, verbarrikadierter Schaufenster und geschlossener touristischer Stätten fort.",
    "demands": [
-    "Maßnahmen gegen hohe Lebenshaltungskosten"
+    "Mehr staatliche Finanzierung für Schulen",
+    "Maßnahmen zur Unterstützung beim Wohnen",
+    "Entlastung von den steigenden Lebenshaltungskosten"
    ],
-   "response": "Quellen zufolge setzten die Behörden landesweit 70.000 Sicherheitskräfte ein, verhängten Ausgangssperren, verboten Versammlungen in bestimmten Gebieten und änderten Marschrouten.",
+   "response": "Die französischen Behörden setzten landesweit 70.000 Sicherheitskräfte ein, verhängten Ausgangssperren, verboten Proteste in mehreren Städten und schlossen touristische Stätten. Premierminister Sébastien Lecornu versprach einen massiven Polizeieinsatz, während Innenminister Laurent Nuñez vor Gewalt warnte. Justizminister Gérald Darmanin wies darauf hin, dass Gerichte...",
    "updates": [
-    "Die Behörden setzten landesweit 70.000 Sicherheitskräfte unter einer starken Sicherheitspräsenz ein.",
-    "Linke Politiker und Gewerkschaftsvertreter kritisierten das Polizeipräsidium für eine kurzfristige Routenänderung in Paris.",
-    "Der Europarat forderte die Staaten auf, das Recht auf friedliche Versammlung zu schützen und Deeskalation zu priorisieren."
+    "Premierminister Sébastien Lecornu traf sich mit Gewerkschaftsvertretern, um die Sicherheit und einen massiven Polizeieinsatz für kommende Proteste zu besprechen.",
+    "Die Behörden setzten landesweit 70.000 Sicherheitskräfte ein, und wichtige Pariser Museen und Geschäfte schlossen im Vorfeld der Demonstrationen."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "mehr als eine halbe Million ging letzte Woche auf die Straße",
+    "arrests": "etwa 2.400 Festnahmen"
+   }
   }
  }
 }

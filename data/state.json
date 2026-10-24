@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-24",
-  "count": 80
+  "count": 100
  },
  "runs": [
-  {
-   "at": "2026-10-17T15:39:47.286Z",
-   "ms": 299299,
-   "discovered": 28,
-   "fetched": 25,
-   "classified": 19,
-   "protests": 14,
-   "summarized": 5,
-   "published": 82,
-   "live": 11,
-   "aiCalls": 11,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 8 files, 26 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 42 protest-word items",
-    "fetch: 25 ok, 3 failed",
-    "classify: new candidate e2c18d25da2 \"INDIA bloc announces protest against SIR in Bengaluru\" (Bengaluru)",
-    "classify: new candidate ef6046cc52b \"Farmers announce hunger strike in Tirupur for canal water\" (Tiruppur)",
-    "classify: new candidate edf8aa37f2d \"Youth Congress workers protest at BJP office in Ajmer\" (Ajmer)",
-    "classify: new candidate e883d7132f8 \"No Kings movement holds early voting rallies across Texas\" (Austin)",
-    "classify: new candidate ed9646ad51d \"Kisan Sabha stages sit-in over water shortage and crop loss\" (Palakkad)",
-    "classify: new candidate ee0a6f1e6e1 \"No Kings movement plans rallies across Alabama\" (Birmingham)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-17T19:28:43.413Z",
    "ms": 174729,
@@ -1407,8 +1379,34 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-10-24T10:10:38.550Z",
+   "ms": 206234,
+   "discovered": 47,
+   "fetched": 46,
+   "classified": 41,
+   "protests": 25,
+   "summarized": 8,
+   "published": 135,
+   "live": 14,
+   "aiCalls": 20,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 10 files, 27 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 222 protest-word items",
+    "fetch: 46 ok, 1 failed",
+    "classify: new candidate ed8d1f369ec \"Protesters clash and attack property over Upper Siang Dam\" (Pasighat)",
+    "classify: new candidate eb5e9804c23 \"Looted luxury goods from French protests appear online\" (Paris)",
+    "classify: new candidate e6ea1612b1d \"Activists hold midterm voter bannering demonstrations across Northeast\" (Ithaca)",
+    "classify: new candidate e3643203d94 \"RSS seeks police permission for Vijayadashami marches in Bengaluru\" (Tumkur)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 8 events"
+   ],
+   "translated": 8
   }
  ],
- "gdeltCursor": "20261024074500",
- "lastRunAt": "2026-10-24T07:43:59.975Z"
+ "gdeltCursor": "20261024101500",
+ "lastRunAt": "2026-10-24T10:10:38.550Z"
 }
