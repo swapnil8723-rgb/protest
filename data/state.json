@@ -1,31 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-23",
-  "count": 120
+  "day": "2026-10-24",
+  "count": 15
  },
  "runs": [
-  {
-   "at": "2026-10-17T07:44:00.414Z",
-   "ms": 128742,
-   "discovered": 28,
-   "fetched": 28,
-   "classified": 23,
-   "protests": 9,
-   "summarized": 4,
-   "published": 80,
-   "live": 8,
-   "aiCalls": 9,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 25 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 51 protest-word items",
-    "fetch: 28 ok, 0 failed",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-17T10:50:26.468Z",
    "ms": 149696,
@@ -1409,8 +1387,37 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-24T01:05:22.930Z",
+   "ms": 264529,
+   "discovered": 60,
+   "fetched": 60,
+   "classified": 32,
+   "protests": 16,
+   "summarized": 6,
+   "published": 104,
+   "live": 9,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 15 files, 49 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.thelocal.se: 403",
+    "rss: 220 protest-word items",
+    "fetch: 60 ok, 0 failed",
+    "classify: new candidate e72ed9c5ab8 \"TMC and BJP stage protests outside Kolkata police station\" (Kolkata)",
+    "classify: new candidate e618bae753e \"Protester severely injured by police LBD in Strasbourg\" (Strasbourg)",
+    "classify: new candidate e8c155126c4 \"INDIA bloc plans Nov 1 rally against voter roll revision\" (Delhi)",
+    "classify: new candidate e31cad03a68 \"Demonstration against Rassemblement National congress\" (Orléans)",
+    "classify: new candidate ef391cf765b \"Protesters clash with police over custody death\" (Tunis)",
+    "classify: new candidate e7a33be664c \"Defend Our Juries plans protest against Palestine Action ban\" (London)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261023213000",
- "lastRunAt": "2026-10-23T21:27:47.164Z"
+ "gdeltCursor": "20261024011500",
+ "lastRunAt": "2026-10-24T01:05:22.930Z"
 }
