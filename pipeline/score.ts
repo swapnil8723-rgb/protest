@@ -115,9 +115,14 @@ export function score(events: Map<string, ProtestEvent>, articles: Map<string, A
     let ok: boolean;
     if (e.review !== 'pending') ok = true;
     else if (opts.reviewer) ok = false; // wait for the human
-    else {
-      // No reviewer configured: publish flagged events only on strong sourcing,
-      // never with tone problems or low confidence.
+    else if (open.every((r) => r === 'low-confidence' || r === 'top-10')) {
+      // No reviewer configured (owner decision, 24 Oct 2026): two independent newsrooms
+      // and nothing else flagged is enough; the card shows its 70–75% score. Requiring
+      // three hid every two-source story, e.g. all 26 confirmed US protests that week.
+      ok = e.publishers >= RULES.minPublishers;
+    } else {
+      // Harm, disagreeing sources or loaded words: only on strong sourcing, never with
+      // tone problems or low confidence.
       ok = !open.includes('tone-words') && !open.includes('low-confidence') && e.publishers >= 3;
     }
     // Once public, a page stays up (Serious Mode restyles it); only a human Reject takes it down.

@@ -177,6 +177,19 @@ test('score: serious mode, one-day wrap, quiet wrap, review gates', () => {
   assert.equal(oneDay.vibe, 'wrapped-up');
   assert.equal(quiet.isOngoing, false);
 
+  // Two newsrooms, nothing else flagged: shows without a reviewer; with harm it waits for a third.
+  const two = liveEvent({ kind: 'multi-day', lastReportAt: '2026-10-05T10:00:00Z' });
+  two.sources = two.sources.slice(0, 2);
+  const twoSerious = liveEvent({ kind: 'multi-day', lastReportAt: '2026-10-05T10:00:00Z', numbers: { deaths: { value: 1, text: 'one death', sources: [1] } } });
+  twoSerious.sources = twoSerious.sources.slice(0, 2);
+  score(new Map([two, twoSerious].map((e) => [e.id, e])), new Map(), { now, reviewer: false });
+  assert.equal(two.publishers, 2);
+  assert.ok(two.reviewReasons.includes('low-confidence'));
+  assert.equal(two.published, true);
+  assert.equal(twoSerious.published, false);
+  score(new Map([[two.id, Object.assign(two, { published: false })]]), new Map(), { now, reviewer: true });
+  assert.equal(two.published, false); // a configured reviewer still decides
+
   const withReviewer = liveEvent({ kind: 'multi-day', lastReportAt: '2026-10-05T10:00:00Z', numbers: { deaths: { value: 1, text: 'one death', sources: [1] } } });
   score(new Map([[withReviewer.id, withReviewer]]), new Map(), { now, reviewer: true });
   assert.equal(withReviewer.review, 'pending');
