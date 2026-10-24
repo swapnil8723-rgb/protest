@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-24",
-  "count": 53
+  "count": 80
  },
  "runs": [
-  {
-   "at": "2026-10-17T13:48:38.326Z",
-   "ms": 167707,
-   "discovered": 43,
-   "fetched": 42,
-   "classified": 37,
-   "protests": 12,
-   "summarized": 6,
-   "published": 80,
-   "live": 8,
-   "aiCalls": 11,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 11 files, 29 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 44 protest-word items",
-    "fetch: 42 ok, 1 failed",
-    "classify: new candidate efb589da479 \"Tushar Gandhi announces march in Mumbai for Nov 1\" (Mumbai)",
-    "classify: new candidate eabf2b7934b \"Transgender rights activists protest at London theater\" (London)",
-    "classify: new candidate e52189a3837 \"Protesters clash with police in Lyon over living costs\" (Lyon)",
-    "classify: new candidate e1b543f5499 \"Congress receives approval for Ramlila Maidan rally\" (Delhi)",
-    "classify: new candidate e5f576f2000 \"French protesters clash with police over living costs\" (Paris)",
-    "classify: new candidate e968e40c579 \"Americans for Democracy hold No Kings early voting rally\" (Saint Cloud)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 1 events"
-   ],
-   "translated": 1
-  },
   {
    "at": "2026-10-17T15:39:47.286Z",
    "ms": 299299,
@@ -1410,8 +1382,33 @@
     "translate: 30 events"
    ],
    "translated": 30
+  },
+  {
+   "at": "2026-10-24T07:43:59.975Z",
+   "ms": 264029,
+   "discovered": 72,
+   "fetched": 68,
+   "classified": 61,
+   "protests": 22,
+   "summarized": 10,
+   "published": 132,
+   "live": 13,
+   "aiCalls": 27,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 45 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss news.err.ee: 403",
+    "rss: 217 protest-word items",
+    "fetch: 68 ok, 4 failed",
+    "classify: new candidate e80134db792 \"Trade unions and civil groups protest in Thanjavur demanding CEC resignation\" (Thanjavur)",
+    "classify: new candidate e26c27260d5 \"Left-wing groups challenge protest bans in Maine-et-Loire\" (Angers)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 11 events"
+   ],
+   "translated": 11
   }
  ],
- "gdeltCursor": "20261024043000",
- "lastRunAt": "2026-10-24T04:27:47.171Z"
+ "gdeltCursor": "20261024074500",
+ "lastRunAt": "2026-10-24T07:43:59.975Z"
 }

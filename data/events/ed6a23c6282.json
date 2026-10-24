@@ -15,73 +15,80 @@
  },
  "scope": "local",
  "causes": [
-  "prices",
-  "housing",
-  "jobs"
+  "prices"
  ],
  "kind": "multi-day",
  "startedOn": "2026-10-17",
  "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
+ "vibe": "tense",
+ "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "top-10"
+  "serious",
+  "top-10",
+  "tone-words"
  ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating over soaring living costs and unaffordable housing.",
-  "want": "Better economic prospects and relief from high living costs and housing expenses.",
-  "changed": "Oct 23: Italian police raided homes of approximately 100 people suspected of involvement in the rioting."
+  "why": "Protesters demonstrated against the high cost of living, with unrest breaking out around central Milan.",
+  "want": "Addressing living costs and economic pressures.",
+  "changed": "Oct 24: A Milan parish priest defended giving a middle finger to a masked youth during the weekend unrest as tourists sheltered inside his church."
  },
- "summary": "Hundreds of mostly young people marched through Milan on a Saturday afternoon to protest against soaring living costs and unaffordable housing. According to reports, the atmosphere was initially peaceful until police blocked access to a street and pushed the crowd back with shields, after which clashes ensued with tear gas and projectiles. Concurrently, groups of masked individuals engaged in vandalism and looting in the city centre during the weekend. The Italian government responded by deploying 500 paratroopers to Milan, enacting new security measures targeting minors, and criminalising violent participation in demonstrations.",
- "organizers": [],
- "demands": [
-  "Relief from soaring living costs",
-  "Affordable housing"
+ "summary": "Demonstrations against the cost of living in Milan escalated into clashes with police, vandalism, and looting over the weekend, leading to widespread property damage estimated at around one billion euros by the retail association Confcommercio. Groups of youths threw stones, bottles, and flares at police, while security forces used tear gas and water cannons to disperse the crowds around areas including the city's cathedral. Italian authorities reported that over 270 individuals were detained following the unrest, with a significant majority being minors. In response to the demonstrations, the government of Prime Minister Giorgia Meloni announced plans to deploy 500 troops to Milan, introduced tougher penalties for rioters, and implemented new security measures including a specific offense for violent participation in demonstrations and financial liability for parents of minors involved in vandalism.",
+ "organizers": [
+  "Confcommercio"
  ],
- "response": "The government deployed 500 troops and paratroopers to Milan, enacted new security measures, introduced a crime of violent participation in demonstrations punishable by up to five years in prison, and held parents financially accountable for minor children involved in looting. Police conducted nationwide raids and detained individuals.",
+ "demands": [
+  "Relief from the high cost of living"
+ ],
+ "response": "According to the sources, police used tear gas and water cannons, detained over 270 people, and conducted nationwide raids targeting riot suspects. Prime Minister Giorgia Meloni's government announced the deployment of 500 troops to Milan and introduced new security measures and penalties.",
  "numbers": {
-  "crowd": {
-   "value": 100,
-   "text": "hundreds of mostly young people",
-   "sources": [
-    1
-   ]
-  },
   "arrests": {
-   "value": 32,
-   "text": "32 were arrested, including 23 minors and 13 foreign nationals, and over 270 detained",
+   "value": 271,
+   "text": "Police detained 271 young people... Of those detained, 32 have been arrested",
    "sources": [
     1
    ]
   },
   "injuries": {
    "value": 14,
-   "text": "injuring 14 police officers",
+   "text": "injuring 14",
    "sources": [
-    1,
     2
    ]
   }
  },
  "updates": [
   {
+   "at": "2026-10-20",
+   "text": "Police reported that 271 young people were detained and 32 arrested after weekend unrest involving fires, looting, and clashes.",
+   "sources": [
+    1
+   ]
+  },
+  {
    "at": "2026-10-23",
-   "text": "State police DIGOS division searched homes of approximately 100 people suspected of involvement in rioting.",
+   "text": "State police conducted raids across multiple cities searching the homes of approximately 100 people suspected of rioting.",
    "sources": [
     2
+   ]
+  },
+  {
+   "at": "2026-10-24",
+   "text": "A Milan parish priest spoke out about his viral gesture defending a church where tourists sheltered from street chaos.",
+   "sources": [
+    4
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://www.theguardian.com/world/2026/oct/23/milan-unrest-italy-lost-generation-protests",
+   "url": "https://www.theguardian.com/world/2026/oct/20/milan-luxury-shops-close-italy-to-deploy-troops-youth-protests-europe",
    "publisher": "theguardian.com",
-   "title": "Milan braces for more unrest as debate intensifies over Italy’s ‘lost generation’",
-   "publishedAt": "2026-10-23T05:00:01.000Z"
+   "title": "Italy to deploy 500 troops to Milan after days of protests and looting",
+   "publishedAt": "2026-10-20T21:24:01.000Z"
   },
   {
    "n": 2,
@@ -96,150 +103,156 @@
    "publisher": "twitchy.com",
    "title": "Forza Italiani! Parish Priest Speaks for ALL of Us With a Special 'Blessing' for Rioters in Milan",
    "publishedAt": "2026-10-23T16:00:00.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.ibtimes.co.uk/milan-priest-defends-middle-finger-gesture-unrest-1827531",
+   "publisher": "ibtimes.co.uk",
+   "title": "Italian Priest Says He Won't Repent After Flipping off Masked Milan Rioter as Tourists Shelter Inside",
+   "publishedAt": "2026-10-24T06:08:28.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.85,
- "publishers": 3,
+ "confidence": 0.91,
+ "publishers": 4,
  "reports24h": 3,
- "reportsPrev24h": 0,
- "reports48h": 3,
+ "reportsPrev24h": 1,
+ "reports48h": 4,
  "firstSeenAt": "2026-10-23T13:49:55.277Z",
- "lastReportAt": "2026-10-23T16:00:00.000Z",
- "lastCheckedAt": "2026-10-24T04:29:53.933Z",
- "updatedAt": "2026-10-24T01:08:40.583Z",
+ "lastReportAt": "2026-10-24T06:08:28.000Z",
+ "lastCheckedAt": "2026-10-24T07:46:37.803Z",
+ "updatedAt": "2026-10-24T07:46:16.141Z",
  "responseSources": [
   1,
-  2,
-  3
+  2
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-24T01:08:40.583Z",
- "summaryOf": "5d76e883b838",
+ "summarizedAt": "2026-10-24T07:46:16.141Z",
+ "summaryOf": "21ffacb01d80",
  "publishedAt": "2026-10-24T01:08:42.100Z",
  "i18n": {
-  "of": "fcd16125dbbec34a",
-  "at": "2026-10-24T01:09:18.923Z",
+  "of": "1bd0473046d1af76",
+  "at": "2026-10-24T07:47:37.389Z",
   "tries": 1,
   "hi": {
    "title": "मिलान में जीवन-यापन की लागत के खिलाफ विरोध प्रदर्शन और झड़पें",
-   "seoTitle": "मिलान में जीवन लागत प्रदर्शन और झड़पें",
+   "seoTitle": "मिलान में जीवन-यापन लागत प्रदर्शन और झड़पें",
    "tea": {
-    "why": "प्रदर्शनकारी जीवन-यापन की बढ़ती लागत और महंगे आवास के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "बेहतर आर्थिक संभावनाएं तथा उच्च जीवन-यापन लागत और आवास खर्च से राहत।",
-    "changed": "23 अक्टूबर: इतालवी पुलिस ने दंगों में संलिप्तता के संदेह में लगभग 100 लोगों के घरों पर छापे मारे।"
+    "why": "प्रदर्शनकारियों ने जीवन-यापन की उच्च लागत के खिलाफ प्रदर्शन किया, और मध्य मिलान के आसपास अशांति फैल गई।",
+    "want": "जीवन-यापन की लागत और आर्थिक दबावों का समाधान करना।",
+    "changed": "24 अक्टूबर: सप्ताहांत की अशांति के दौरान मिलान के एक पैरोचियल पादरी ने एक चर्च के अंदर शरण लेने वाले पर्यटकों के बीच नकाबपोश युवक को अंगूठा दिखाने का बचाव किया।"
    },
-   "summary": "बढ़ती जीवन-यापन लागत और महंगे आवास के खिलाफ विरोध जताने के लिए शनिवार दोपहर को मुख्य रूप से सैकड़ों युवा मिलान में सड़कों पर उतरे। रिपोर्टों के अनुसार, माहौल शुरू में शांत था जब तक कि पुलिस ने एक सड़क का रास्ता रोककर ढालों से भीड़ को पीछे धकेला, जिसके बाद आंसू गैस और वस्तुओं के आदान-प्रदान के साथ झड़पें शुरू हो गईं। इसी समय, सप्ताहांत के दौरान शहर के केंद्र में नकाबपोश समूहों ने तोड़फोड़ और लूटपाट की। इतालवी सरकार ने मिलान में 500 पैराट्रूपर्स की तैनाती, नाबालिगों को निशाना बनाने वाले नए सुरक्षा उपायों और प्रदर्शनों में हिंसक भागीदारी को अपराध घोषित करके प्रतिक्रिया दी।",
+   "summary": "मिलान में जीवन-यापन की लागत के खिलाफ प्रदर्शन सप्ताहांत के दौरान पुलिस के साथ झड़पों, तोड़फोड़ और लूटपाट में बदल गए, जिससे खुदरा संघ Confcommercio के अनुसार लगभग 1 अरब यूरो का व्यापक संपत्ति नुकसान हुआ। युवाओं के समूहों ने पुलिस पर पत्थर, बोतलें और फ्लेयर्स फेंके, जबकि सुरक्षा बलों ने शहर के गिरजाघर सहित क्षेत्रों के आसपास भीड़ को तितर-बितर करने के लिए आंसू गैस और वाटर कैनन का इस्तेमाल किया। इतालवी अधिकारियों ने बताया कि अशांति के बाद 270 से अधिक व्यक्तियों को हिरासत में लिया गया, जिनमें एक महत्वपूर्ण बहुमत नाबालिगों का था। प्रदर्शनों के जवाब में, प्रधान मंत्री जियोर्जिया मेलोनी की सरकार ने मिलान में 500 सैनिकों को तैनात करने की योजनाओं की घोषणा की, दंगाइयों के लिए कड़ी सजाएं पेश कीं, और प्रदर्शनों में हिंसक भागीदारी के लिए एक विशिष्ट अपराध और तोड़फोड़ में शामिल नाबालिगों के माता-पिता के लिए वित्तीय दायित्व सहित नए सुरक्षा उपाय लागू किए।",
    "demands": [
-    "जीवन-यापन की बढ़ती लागत से राहत",
-    "किफायती आवास"
+    "जीवन-यापन की उच्च लागत से राहत"
    ],
-   "response": "सरकार ने मिलान में 500 सैनिकों और पैराट्रूपर्स को तैनात किया, नए सुरक्षा उपाय लागू किए, प्रदर्शनों में हिंसक भागीदारी को पांच साल तक की जेल की सजा के योग्य एक अपराध के रूप में पेश किया, और लूटपाट में शामिल नाबालिग बच्चों के माता-पिता को वित्तीय रूप से जवाबदेह ठहराया। पुलिस ने देशव्यापी छापे मारे और व्यक्तियों को हिरासत में लिया।",
+   "response": "सूत्रों के अनुसार, पुलिस ने आंसू गैस और वाटर कैनन का उपयोग किया, 270 से अधिक लोगों को हिरासत में लिया, और दंगे के संदिग्धों को निशाना बनाकर देशव्यापी छापे मारे। प्रधान मंत्री जियोर्जिया मेलोनी की सरकार ने मिलान में 500 सैनिकों की तैनाती की घोषणा की और नए सुरक्षा उपाय तथा सजाएं पेश कीं।",
    "updates": [
-    "राजकीय पुलिस की DIGOS शाखा ने दंगों में संलिप्तता के संदेह वाले लगभग 100 लोगों के घरों की तलाशी ली।"
+    "पुलिस ने बताया कि सप्ताहांत की अशांति जिसमें आगजनी, लूटपाट और झड़पें शामिल थीं, के बाद 271 युवाओं को हिरासत में लिया गया और 32 को गिरफ्तार किया गया।",
+    "राज्य पुलिस ने दंगे के संदिग्ध लगभग 100 लोगों के घरों की तलाशी लेते हुए कई शहरों में छापे मारे।",
+    "मिलान के एक पैरोचियल पादरी ने एक चर्च का बचाव करते हुए अपने वायरल इशारे के बारे में बात की जहाँ पर्यटक सड़क की अराजकता से छुपकर बैठे थे।"
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "मुख्य रूप से सैकड़ों युवा",
-    "arrests": "23 नाबालिगों और 13 विदेशी नागरिकों सहित 32 लोगों को गिरफ्तार किया गया, और 270 से अधिक को हिरासत में लिया गया",
-    "injuries": "14 पुलिसकर्मी घायल"
+    "arrests": "पुलिस ने 271 युवाओं को हिरासत में लिया... हिरासत में लिए गए लोगों में से 32 को गिरफ्तार कर लिया गया है",
+    "injuries": "14 घायल"
    }
   },
   "mr": {
-   "title": "मिलानमध्ये महागाईविरोधी निदर्शने आणि चकमकी",
-   "seoTitle": "मिलान महागाई निदर्शने आणि चकमकी",
+   "title": "मिलानमध्ये राहणीमानाचा खर्च आणि चकमकी",
+   "seoTitle": "मिलान राहणीमान खर्च विरोध आणि चकमकी",
    "tea": {
-    "why": "वाढत्या जगण्याच्या खर्चाविरुद्ध आणि न परवडणाऱ्या घरांविरुद्ध आंदोलक निदर्शने करत आहेत.",
-    "want": "उत्तम आर्थिक संधी आणि वाढलेला जीवनखर्च व घरभाड्याच्या खर्चापासून दिलासा.",
-    "changed": "२३ ऑक्टोबर: दंगलीत सहभाग असल्याच्या संशयावरून इटालियन पोलिसांनी सुमारे १०० लोकांच्या घरांवर छापे टाकले."
+    "why": "निदर्शकांनी वाढत्या राहणीमान खर्चाच्या विरोधात निदर्शने केली, आणि मध्य मिलानच्या आसपास अशांतता उसळली.",
+    "want": "राहणीमानाचा खर्च आणि आर्थिक दबावांचे निराकरण करणे.",
+    "changed": "२४ ऑक्टोबर: मिलानमधील एका पॅरिश पाद्रीने विकेंडच्या अशांततेदरम्यान एका चर्चमध्ये पर्यटक आश्रय घेत असताना मुखवटा घातलेल्या तरुणाला मध्यमा दाखवल्याचे समर्थन केले."
    },
-   "summary": "वाढत्या महागाई आणि परवडणाऱ्या घरांच्या अभावाचा निषेध करण्यासाठी शनिवार दुपारी मुख्यतः शेकडो तरुण मिलानमधून मार्च करत गेले. अहवालांनुसार, पोलिसांचा रस्ता अडवून ढाल ढकलून गर्दीला मागे लोटण्यापर्यंत वातावरण सुरुवातीला शांत होते, त्यानंतर अश्रुधूर आणि वस्तूंच्या फेकीसह चकमक उडाली. त्याच वेळी, शनिवार व रविवार दरम्यान शहराच्या मध्यभागी मुखवटाधारी गटांनी तोडफोड आणि लूटमार केली. इटालियन सरकारने मिलानमध्ये ५०० पॅराट्रूपर्स तैनात करून, अल्पवयीनांना लक्ष्य करणारे नवीन सुरक्षा उपाय लागू करून आणि निदर्शनांमध्ये हिंसक सहभाग गुन्हा ठरवून प्रतिसाद दिला.",
+   "summary": "मिलानमधील राहणीमानाच्या खर्चाविरोधातील निदर्शने सप्ताहाच्या शेवटी पोलिसांसोबतच्या चकमकी, तोडफोड आणि लुटीमध्ये वाढली, ज्यामुळे किरकोळ विक्रेता संघटना Confcommercio नुसार अंदाजे एक अब्ज युरोचे व्यापक मालमत्तेचे नुकसान झाले. तरुणांच्या गटांनी पोलिसांवर दगड, बाटल्या आणि फ्लेअर्स फेकले, तर सुरक्षा दलांनी शहराच्या कॅथेड्रलसह परिसरातील गर्दीला हुलावण्यासाठी अश्रुधूर आणि वॉटर कॅननचा वापर केला. इटालियन अधिकाऱ्यांनी वृत्त दिले की अशांततेनंतर २७० हून अधिक व्यक्तींना ताब्यात घेण्यात आले, ज्यामध्ये बहुसंख्य अल्पवयीन होते. निदर्शनांच्या प्रतिसादात, पंतप्रधान जियार्जिया मेलोनी यांच्या सरकारने मिलानमध्ये ५०० सैनिक तैनात करण्याच्या योजना जाहीर केल्या, दंगलखोरांसाठी कडक शिक्षा आणल्या आणि निदर्शनांमध्ये हिंसक सहभागासाठी एक विशिष्ट गुन्हा आणि व्हँडॅलिझममध्ये सहभागी अल्पवयीन मुलांच्या पालकांसाठी आर्थिक उत्तरदायित्वाचा समावेश असलेल्या नवीन सुरक्षा उपायांची अंमलबजावणी केली.",
    "demands": [
-    "वाढत्या महागाईपासून दिलासा",
-    "परवडणारी घरे"
+    "राहणीमानाच्या उच्च खर्चापासून आराम"
    ],
-   "response": "सरकारने मिलानमध्ये ५०० सैनिक आणि पॅराट्रूपर्स तैनात केले, नवीन सुरक्षा उपाय लागू केले, निदर्शनांमध्ये हिंसक सहभाग घेतल्याबद्दल ५ वर्षांपर्यंतच्या शिक्षेचा नवीन गुन्हा दाखल केला आणि लूटमार करणाऱ्या अल्पवयीन मुलांच्या पालकांना आर्थिकदृष्ट्या जबाबदार धरले. पोलिसांनी देशभरात छापे टाकून व्यक्तींना ताब्यात घेतले.",
+   "response": "सूत्रांनुसार, पोलिसांनी अश्रुधूर आणि वॉटर कॅननचा वापर केला, २७० हून अधिक लोकांना ताब्यात घेतले आणि दंगलीच्या संशयितांना लक्ष्य करून देशव्यापी छापे टाकले. पंतप्रधान जियार्जिया मेलोनी यांच्या सरकारने मिलानमध्ये ५०० सैनिकांच्या तैनातीची घोषणा केली आणि नवीन सुरक्षा उपाय व शिक्षा आणल्या.",
    "updates": [
-    "राज्य पोलिसांच्या DIGOS विभागाने दंगलीत सहभाग असल्याच्या संशयावरून सुमारे १०० लोकांच्या घरांची झडती घेतली."
+    "पोलिसांनी वृत्त दिले की आगी, लूटमार आणि चकमकींचा समावेश असलेल्या विकेंडच्या अशांततेनंतर २७१ तरुणांना ताब्यात घेण्यात आले आणि ३२ जणांना अटक करण्यात आली.",
+    "राज्य पोलिसांनी दंगलीचा संशय असलेल्या अंदाजे १०० लोकांच्या घरांची झडती घेत अनेक शहरांमध्ये छापे टाकले.",
+    "मिलानच्या एका पॅरिश पाद्रीने रस्त्यावरील गोंधळापासून पर्यटक आश्रय घेतलेल्या चर्चचे रक्षण करणाऱ्या त्यांच्या व्हायरल हावभावाबद्दल भाष्य केले."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "मुख्यत्वे शेकडो तरुण",
-    "arrests": "२३ अल्पवयीन आणि १३ परदेशी नागरिकांसह ३२ जण गिरफ्तार, आणि २७० हून अधिक जण ताब्यात घेतले",
-    "injuries": "१४ पोलीस अधिकारी जखमी"
+    "arrests": "पोलिसांनी २७१ तरुणांना ताब्यात घेतले... ताब्यात घेतलेल्यांपैकी ३२ जणांना अटक करण्यात आली आहे",
+    "injuries": "१४ जखमी"
    }
   },
   "es": {
    "title": "Protestas por el costo de vida y enfrentamientos en Milán",
-   "seoTitle": "Protestas y enfrentamientos por costo de vida en Milán",
+   "seoTitle": "Protestas y enfrentamientos por el costo de vida en Milán",
    "tea": {
-    "why": "Los manifestantes se manifiestan por el aumento del costo de vida y la vivienda inaccesible.",
-    "want": "Mejores perspectivas económicas y alivio de los altos costos de vida y gastos de vivienda.",
-    "changed": "23 de oct.: La policía italiana registró los hogares de aproximadamente 100 personas sospechosas de participar en los disturbios."
+    "why": "Los manifestantes se manifestaron contra el alto costo de la vida, y se desataron disturbios en los alredeores del centro de Milán.",
+    "want": "Abordar los costos de vida y las presiones económicas.",
+    "changed": "24 de octubre: Un sacerdote parroquial de Milán defendió haber hecho una peineta a un joven enmascarado durante los disturbios del fin de semana mientras los turistas se refugiaban dentro de su iglesia."
    },
-   "summary": "Cientos de personas, en su mayoría jóvenes, marcharon por Milán un sábado por la tarde para protestar contra el aumento del costo de vida y la vivienda inaccesible. Según informes, el ambiente fue inicialmente pacífico hasta que la policía bloqueó el acceso a una calle y empujó a la multitud con escudos, tras lo cual se produjeron enfrentamientos con gases lacrimógenos y proyectiles. Paralelamente, grupos de personas enmascaradas cometieron actos de vandalismo y saqueos en el centro de la ciudad durante el fin de semana. El gobierno italiano respondió desplegando 500 paracaidistas en Milán, promulgando nuevas medidas de seguridad dirigidas a menores y criminalizando la participación violenta en manifestaciones.",
+   "summary": "Las manifestaciones contra el costo de la vida en Milán se escalaron en enfrentamientos con la policía, vandalismo y saqueos durante el fin de semana, lo que provocó daños materiales generalizados estimados en alrededor de mil millones de euros por la asociación minorista Confcommercio. Grupos de jóvenes lanzaron piedras, botellas y bengalas a la policía, mientras que las fuerzas de seguridad utilizaron gases lacrimógenos y cañones de agua para dispersar a las multitudes alrededor de áreas que incluyen la catedral de la ciudad. Las autoridades italianas informaron que más de 270 personas fueron detenidas tras los disturbios, siendo una gran mayoría menores de edad. En respuesta a las manifestaciones, el gobierno de la primera ministra Giorgia Meloni anunció planes para desplegar 500 tropas en Milán, introdujo penas más duras para los alborotadores e implementó nuevas medidas de seguridad que incluyen un delito específico por participación violenta en manifestaciones y responsabilidad financiera para los padres de menores involucrados en vandalismo.",
    "demands": [
-    "Alivio ante el aumento del costo de vida",
-    "Vivienda asequible"
+    "Alivio del alto costo de vida"
    ],
-   "response": "El gobierno desplegó 500 tropas y paracaidistas en Milán, promulgó nuevas medidas de seguridad, introdujo un delito de participación violenta en manifestaciones castigado con hasta cinco años de prisión y responsabilizó financieramente a los padres de los menores involucrados en saqueos. La policía realizó redadas en todo el país y detuvo a personas.",
+   "response": "Según las fuentes, la policía utilizó gases lacrimógenos y cañones de agua, detuvo a más de 270 personas y realizó redadas a nivel nacional dirigidas a sospechosos de disturbios. El gobierno de la primera ministra Giorgia Meloni anunció el despliegue de 500 tropas en Milán e introdujo nuevas medidas de seguridad y sanciones.",
    "updates": [
-    "La división DIGOS de la policía estatal registró los hogares de aproximadamente 100 personas sospechosas de participar en los disturbios."
+    "La policía informó que 271 jóvenes fueron detenidos y 32 arrestados tras los disturbios de fin de semana que involucraron incendios, saqueos y enfrentamientos.",
+    "La policía estatal realizó redadas en múltiples ciudades buscando en las casas de aproximadamente 100 personas sospechosas de participar en disturbios.",
+    "Un sacerdote parroquial de Milán habló sobre su gesto viral defendiendo una iglesia donde los turistas se refugiaban del caos callejero."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "cientos de personas, en su mayoría jóvenes",
-    "arrests": "32 fueron arrestados, incluidos 23 menores y 13 ciudadanos extranjeros, y más de 270 detenidos",
-    "injuries": "dejando 14 agentes de policía heridos"
+    "arrests": "La policía detuvo a 271 jóvenes... De los detenidos, 32 han sido arrestados",
+    "injuries": "dejando 14 heridos"
    }
   },
   "fr": {
-   "title": "Manifestations contre le coût de la vie et affrontements à Milan",
+   "title": "Manifestations pour le coût de la vie et affrontements à Milan",
    "seoTitle": "Manifestations et affrontements sur le coût de la vie à Milan",
    "tea": {
-    "why": "Des manifestants protestent contre la flambée du coût de la vie et des logements inabordables.",
-    "want": "De meilleures perspectives économiques et un soulagement face aux coûts de la vie et aux dépenses de logement élevés.",
-    "changed": "23 oct. : La police italienne a perquisitionné les domiciles d'environ 100 personnes soupçonnées d'avoir participé aux émeutes."
+    "why": "Des manifestants ont défilé contre le coût élevé de la vie, et des troubles ont éclaté autour du centre de Milan.",
+    "want": "Lutter contre le coût de la vie et les pressions économiques.",
+    "changed": "24 oct. : Un prêtre de paroisse milanais a défendu avoir fait un doigt d'honneur à un jeune masqué lors des troubles du week-end alors que des touristes s'abritaient à l'intérieur de son église."
    },
-   "summary": "Des centaines de personnes, pour la plupart jeunes, ont défilé à Milan un samedi après-midi pour protester contre la flambée du coût de la vie et des logements inabordables. Selon les rapports, l'atmosphère était initialement pacifique jusqu'à ce que la police bloque l'accès à une rue et repousse la foule avec des boucliers, après quoi des affrontements ont éclaté avec des gaz lacrymogènes et des projectiles. Parallèlement, des groupes d'individus masqués se sont livrés à du vandalisme et à des pillages dans le centre-ville pendant le week-end. Le gouvernement italien a réagi en déployant 500 parachutistes à Milan, en promulguant de nouvelles mesures de sécurité ciblant les mineurs et en criminalisant la participation violente à des manifestations.",
+   "summary": "Les manifestations contre le coût de la vie à Milan ont dégénéré en affrontements avec la police, actes de vandalisme et pillages au cours du week-end, entraînant des dégâts matériels généralisés estimés à environ un milliard d'euros par l'association de commerçants Confcommercio. Des groupes de jeunes ont lancé des pierres, des bouteilles et des fusées éclairantes sur la police, tandis que les forces de sécurité ont utilisé des gaz lacrymogènes et des canons à eau pour disperser les foules autour de zones comprenant la cathédrale de la ville. Les autorités italiennes ont rapporté que plus de 270 individus ont été interpellés à la suite des troubles, une grande majorité étant mineure. En réponse aux manifestations, le gouvernement de la Première ministre Giorgia Meloni a annoncé son intention de déployer 500 militaires à Milan, a introduit des peines plus sévères pour les émeutiers et a mis en œuvre de nouvelles mesures de sécurité comprenant une infraction spécifique pour participation violente à des manifestations et une responsabilité financière pour les parents de mineurs impliqués dans le vandalisme.",
    "demands": [
-    "Un soulagement face à la flambée du coût de la vie",
-    "Des logements abordables"
+    "Soulagement face au coût élevé de la vie"
    ],
-   "response": "Le gouvernement a déployé 500 troupes et parachutistes à Milan, a promulgué de nouvelles mesures de sécurité, a introduit un délit de participation violente à des manifestations passible de cinq ans de prison et a tenu les parents financièrement responsables des enfants mineurs impliqués dans des pillages. La police a mené des raids à l'échelle nationale et a interpellé des individus.",
+   "response": "Selon les sources, la police a utilisé des gaz lacrymogènes et des canons à eau, a interpellé plus de 270 personnes et a mené des raids à l'échelle nationale ciblant des suspects d'émeutes. Le gouvernement de la Première ministre Giorgia Meloni a annoncé le déploiement de 500 militaires à Milan et a introduit de nouvelles mesures de sécurité et sanctions.",
    "updates": [
-    "La division DIGOS de la police d'État a fouillé les domiciles d'environ 100 personnes soupçonnées d'implication dans des émeutes."
+    "La police a rapporté que 271 jeunes ont été interpellés et 32 arrêtés après les troubles du week-end impliquant des incendies, des pillages et des affrontements.",
+    "La police d'État a mené des raids dans plusieurs villes en fouillant les domiciles d'environ 100 personnes soupçonnées d'émeutes.",
+    "Un prêtre de paroisse de Milan s'est exprimé sur son geste viral défendant une église où des touristes s'abritaient du chaos de la rue."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "des centaines de personnes, pour la plupart jeunes",
-    "arrests": "32 personnes ont été arrêtées, dont 23 mineurs et 13 ressortissants étrangers, et plus de 270 ont été interpellées",
-    "injuries": "blessant 14 policiers"
+    "arrests": "La police a interpellé 271 jeunes... Parmi les personnes interpellées, 32 ont été arrêtées",
+    "injuries": "faisant 14 blessés"
    }
   },
   "de": {
    "title": "Lebenshaltungskostenproteste und Zusammenstöße in Mailand",
    "seoTitle": "Mailand Lebenshaltungskostenproteste und Zusammenstöße",
    "tea": {
-    "why": "Demonstranten protestieren gegen steigende Lebenshaltungskosten und unbezahlbaren Wohnraum.",
-    "want": "Bessere wirtschaftliche Aussichten und Entlastung von hohen Lebenshaltungskosten und Wohnkosten.",
-    "changed": "23. Okt.: Die italienische Polizei Durchsuchte die Wohnungen von etwa 100 Personen, die verdächtigt werden, an den Ausschreitungen beteiligt gewesen zu sein."
+    "why": "Demonstranten protestierten gegen die hohen Lebenshaltungskosten, wobei es im Zentrum von Mailand und Umgebung zu Unruhen kam.",
+    "want": "Bewältigung der Lebenshaltungskosten und des wirtschaftlichen Drucks.",
+    "changed": "24. Okt.: Ein Mailänder Priester verteidigte es, einem maskierten Jugendlichen während der Unruhen am Wochenende den Stinkefinger gezeigt zu haben, während Touristen in seiner Kirche Schutz suchten."
    },
-   "summary": "Hunderte meist junge Menschen zogen an einem Samstagnachmittag durch Mailand, um gegen steigende Lebenshaltungskosten und unbezahlbaren Wohnraum zu protestieren. Berichten zufolge war die Atmosphäre zunächst friedlich, bis die Polizei den Zugang zu einer Straße sperrte und die Menge mit Schildern zurückdrängte, woraufhin es zu Zusammenstößen mit Tränengas und Projektilen kam. Gleichzeitig begingen Gruppen maskierter Personen am Wochenende Vandalismus und Plünderungen im Stadtzentrum. Die italienische Regierung reagierte darauf, indem sie 500 Fallschirmjäger nach Mailand entsandte, neue Sicherheitsmaßnahmen gegen Minderjährige erließ und die gewaltsame Teilnahme an Demonstrationen unter Strafe stellte.",
+   "summary": "Demonstrationen gegen die Lebenshaltungskosten in Mailand eskalierten am Wochenende zu Zusammenstößen mit der Polizei, Vandalismus und Plünderungen, was laut dem Handelsverband Confcommercio zu weitreichenden Sachschäden in Höhe von schätzungsweise rund einer Milliarde Euro führte. Gruppen von Jugendlichen warfen Steine, Flaschen und Leuchtraketen auf die Polizei, während Sicherheitskräfte Tränengas und Wasserwerfer einsetzten, um die Menschenmengen rund um Gebiete wie den Dom der Stadt zu zerstreuen. Die italienischen Behörden berichteten, dass nach den Unruhen über 270 Personen festgenommen wurden, wobei die große Mehrheit Minderjährige waren. Als Reaktion auf die Demonstrationen kündigte die Regierung von Premierministerin Giorgia Meloni Pläne an, 500 Soldaten nach Mailand zu entsenden, führte härtere Strafen für Randalierer ein und setzte neue Sicherheitsmaßnahmen um, darunter einen spezifischen Straftatbestand für die gewaltsame Teilnahme an Demonstrationen und die finanzielle Haftung für Eltern von Minderjährigen, die in Vandalismus verwickelt sind.",
    "demands": [
-    "Entlastung von steigenden Lebenshaltungskosten",
-    "Bezahlbarer Wohnraum"
+    "Entlastung von den hohen Lebenshaltungskosten"
    ],
-   "response": "Die Regierung stationierte 500 Truppen und Fallschirmjäger in Mailand, erließ neue Sicherheitsmaßnahmen, führte den Straftatbestand der gewaltsamen Teilnahme an Demonstrationen mit einer Freiheitsstrafe von bis zu fünf Jahren ein und zog Eltern für minderjährige Kinder, die an Plünderungen beteiligt waren, finanziell zur Verantwortung. Die Polizei führte landesweite Razzien durch und nahm Personen fest.",
+   "response": "Berichten von Quellen zufolge setzte die Polizei Tränengas und Wasserwerfer ein, nahm über 270 Menschen fest und führte bundesweite Razzien durch, die sich gegen Verdächtige von Ausschreitungen richteten. Die Regierung von Premierministerin Giorgia Meloni kündigte die Entsendung von 500 Soldaten nach Mailand an und führte neue Sicherheitsmaßnahmen und Strafen ein.",
    "updates": [
-    "Die DIGOS-Abteilung der Staatspolizei Durchsuchte die Wohnungen von etwa 100 Personen, die der Beteiligung an Ausschreitungen verdächtigt werden."
+    "Die Polizei berichtete, dass 271 junge Menschen festgenommen und 32 verhaftet wurden nach Unruhen am Wochenende, die Brände, Plünderungen und Zusammenstöße beinhalteten.",
+    "Die Staatspolizei führte Razzien in mehreren Städten durch und durchsuchte die Häuser von etwa 100 Personen, die der Ausschreitungen verdächtigt werden.",
+    "Ein Mailänder Priester äußerte sich zu seiner viralen Geste, mit der er eine Kirche verteidigte, in der Touristen vor dem Straßencaos Schutz suchten."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Hunderte meist junge Menschen",
-    "arrests": "32 wurden festgenommen, darunter 23 Minderjährige und 13 ausländische Staatsbürger, und über 270 in Gewahrsam genommen",
-    "injuries": "bei denen 14 Polizeibeamte verletzt wurden"
+    "arrests": "Die Polizei nahm 271 junge Menschen fest... Von den Festgenommenen wurden 32 verhaftet",
+    "injuries": "wobei 14 verletzt wurden"
    }
   }
  }
