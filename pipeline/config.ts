@@ -127,6 +127,8 @@ export const RULES = {
   massArrests: 100, // arrests at or above this count switch on Serious Mode
   reviewConfidence: 0.8, // below this an event needs review
   reviewTopN: 10, // biggest live events need review (once)
+  twoSourcePerCountry: 10, // with no reviewer, at most this many two-newsroom events per country go up...
+  twoSourceDays: 7, // ...counted over this many days of reporting, most-reported first
   peakTopShare: 0.1, // top 10% of live events by report volume → Peak loud
   minPeakVolume: 6, // ...and at least this many reports in 48h
   readerDelayMinutes: 60, // a reader report waits at least this long before its check

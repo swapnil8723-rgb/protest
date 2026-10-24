@@ -122,6 +122,7 @@ export interface ProtestEvent {
   approvedFor?: string[]; // reasons a human already cleared
   notReal?: string; // summary step judged the sources not to describe a real protest
   mergedInto?: string; // id of the event this duplicate was folded into (scripts/merge-events.ts); its URL redirects there
+  withdrawn?: string; // owner took it off the site (reason); never republished, its URL redirects to the country page
   isOngoing: boolean;
   published: boolean;
 

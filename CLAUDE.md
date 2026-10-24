@@ -18,7 +18,7 @@ Owner decision (6 Oct 2026) on rule 7: reader reports from `/add` are the one ex
 
 Owner decision (11 Oct 2026) on rule 2: Serious Mode keeps its grey surface but gets a red border and a red SERIOUS label (`--serious-alert`); no other colour, stickers, tilt, motion or jokes come back.
 
-Owner decision (24 Oct 2026) on review: with no Telegram reviewer configured, an event flagged only `low-confidence` (2 publishers = 70–75%) or `top-10` publishes at 2 independent publishers with its score shown (`score.ts`); harm, disagreeing sources and tone words still need 3 publishers or a human.
+Owner decision (24 Oct 2026) on review: with no Telegram reviewer configured, an event flagged only `low-confidence` (2 publishers = 70–75%) or `top-10` publishes at 2 independent publishers with its score shown (`score.ts`), at most 10 per country per 7 days of reporting, most-reported first (`RULES.twoSourcePerCountry`; the 42 over the cap on 24 Oct were withdrawn with `scripts/withdraw-events.ts`, which redirects to the country page); harm, disagreeing sources and tone words still need 3 publishers or a human.
 
 House interpretation of rule 4: organisations, parties, elected officials and police/government spokespeople may be named; ordinary participants, students, the injured, detained or dead are never named.
 

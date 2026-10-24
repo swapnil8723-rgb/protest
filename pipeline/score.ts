@@ -36,11 +36,13 @@ export interface ScoreOptions {
 export function score(events: Map<string, ProtestEvent>, articles: Map<string, Article>, opts: ScoreOptions) {
   const now = opts.now ?? Date.now();
   const byEvent = new Map<string, Article[]>();
+  const talk = new Map<string, number>();
   for (const a of articles.values()) if (a.eventId) (byEvent.get(a.eventId) ?? byEvent.set(a.eventId, []).get(a.eventId)!).push(a);
 
   for (const e of events.values()) {
     if (e.stage !== 'live' || e.mergedInto) continue;
     const arts = (byEvent.get(e.id) ?? []).filter((a) => a.fetch === 'ok');
+    talk.set(e.id, arts.length); // how much it is being reported: ranks two-newsroom events
     const times = arts.map((a) => Date.parse(reportedAt(a))).filter(Number.isFinite);
     const within = (from: number, to: number) => times.filter((t) => now - t >= from * 3.6e6 && now - t < to * 3.6e6).length;
     e.reports24h = within(0, 24);
@@ -81,10 +83,11 @@ export function score(events: Map<string, ProtestEvent>, articles: Map<string, A
   const peak = new Set(ranked.slice(0, peakN).filter((e) => e.reports48h >= RULES.minPeakVolume).map((e) => e.id));
   const top = new Set(ranked.slice(0, RULES.reviewTopN).map((e) => e.id));
 
+  const twoSource: ProtestEvent[] = [];
   for (const e of events.values()) {
     if (e.stage !== 'live') continue;
-    if (e.mergedInto) {
-      e.published = false; // folded into another event; its URL redirects there (vercel.json)
+    if (e.mergedInto || e.withdrawn) {
+      e.published = false; // folded into another event or withdrawn; its URL redirects (vercel.json)
       continue;
     }
     if (e.status === 'scheduled') e.vibe = 'heating-up';
@@ -115,11 +118,13 @@ export function score(events: Map<string, ProtestEvent>, articles: Map<string, A
     let ok: boolean;
     if (e.review !== 'pending') ok = true;
     else if (opts.reviewer) ok = false; // wait for the human
-    else if (open.every((r) => r === 'low-confidence' || r === 'top-10')) {
+    else if (open.includes('low-confidence') && open.every((r) => r === 'low-confidence' || r === 'top-10')) {
       // No reviewer configured (owner decision, 24 Oct 2026): two independent newsrooms
       // and nothing else flagged is enough; the card shows its 70–75% score. Requiring
       // three hid every two-source story, e.g. all 26 confirmed US protests that week.
-      ok = e.publishers >= RULES.minPublishers;
+      // Capped per country below, so only the most-reported ones go up.
+      if (e.publishers >= RULES.minPublishers) twoSource.push(e);
+      ok = false;
     } else {
       // Harm, disagreeing sources or loaded words: only on strong sourcing, never with
       // tone problems or low confidence.
@@ -129,5 +134,23 @@ export function score(events: Map<string, ProtestEvent>, articles: Map<string, A
     const was = e.published;
     e.published = was || ok;
     if (e.published && !e.publishedAt) e.publishedAt = new Date(now).toISOString();
+  }
+
+  // Two-newsroom events: at most RULES.twoSourcePerCountry per country from the last
+  // twoSourceDays of reporting, the most-talked-about first (live ones before wrapped-up).
+  // Ones already up keep their page and their slot until they age out of the window.
+  const recent = (e: ProtestEvent) => hoursSince(e.lastReportAt, now) < RULES.twoSourceDays * 24;
+  const byCountry = new Map<string, ProtestEvent[]>();
+  for (const e of twoSource) if (recent(e) || e.published) (byCountry.get(e.place.country) ?? byCountry.set(e.place.country, []).get(e.place.country)!).push(e);
+  for (const list of byCountry.values()) {
+    let free = RULES.twoSourcePerCountry - list.filter((e) => e.published && recent(e)).length;
+    const waiting = list
+      .filter((e) => !e.published && recent(e))
+      .sort((a, b) => +b.isOngoing - +a.isOngoing || (talk.get(b.id) ?? 0) - (talk.get(a.id) ?? 0) || (a.lastReportAt < b.lastReportAt ? 1 : -1));
+    for (const e of waiting) {
+      if (free-- <= 0) break;
+      e.published = true;
+      if (!e.publishedAt) e.publishedAt = new Date(now).toISOString();
+    }
   }
 }
