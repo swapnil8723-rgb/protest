@@ -1,33 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-24",
-  "count": 169
+  "count": 178
  },
  "runs": [
-  {
-   "at": "2026-10-18T11:14:09.934Z",
-   "ms": 328272,
-   "discovered": 49,
-   "fetched": 46,
-   "classified": 41,
-   "protests": 19,
-   "summarized": 9,
-   "published": 91,
-   "live": 13,
-   "aiCalls": 20,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261018103000 http://data.gdeltproject.org/gdeltv2/20261018103000.export.CSV.zip → 404",
-    "gdelt: 14 files, 41 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 29 protest-word items",
-    "fetch: 46 ok, 3 failed",
-    "classify: new candidate ebf79e9c911 \"Residents gather in Naperville for No Kings rally\" (Naperville)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-18T13:48:37.855Z",
    "ms": 201428,
@@ -1373,8 +1349,34 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-24T23:19:02.787Z",
+   "ms": 146219,
+   "discovered": 31,
+   "fetched": 30,
+   "classified": 25,
+   "protests": 11,
+   "summarized": 3,
+   "published": 141,
+   "live": 13,
+   "aiCalls": 9,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 9 files, 26 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 229 protest-word items",
+    "fetch: 30 ok, 1 failed",
+    "classify: new candidate eada1844f6c \"Students march against rape culture and for rights\" (Charleston)",
+    "classify: new candidate e88c6ffff60 \"Youths riot and loot in Barcelona\" (Barcelona)",
+    "classify: new candidate e753d0ad86c \"Protesters clash with police in Turin\" (Turin)",
+    "classify: new candidate ed92547b74b \"Anti-racism march held in Sheffield\" (Sheffield)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261024210000",
- "lastRunAt": "2026-10-24T20:54:17.153Z"
+ "gdeltCursor": "20261024231500",
+ "lastRunAt": "2026-10-24T23:19:02.787Z"
 }
