@@ -1,41 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-24",
-  "count": 15
+  "count": 53
  },
  "runs": [
-  {
-   "at": "2026-10-17T10:50:26.468Z",
-   "ms": 149696,
-   "discovered": 47,
-   "fetched": 45,
-   "classified": 40,
-   "protests": 21,
-   "summarized": 8,
-   "published": 80,
-   "live": 9,
-   "aiCalls": 14,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 38 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 49 protest-word items",
-    "fetch: 45 ok, 2 failed",
-    "classify: new candidate e2e7db0049b \"ABVP holds nationwide protests against Congress\" (Delhi)",
-    "classify: new candidate ea9646e4546 \"Men march in Wailuku against domestic violence\" (Wailuku)",
-    "classify: new candidate e46b1ce3459 \"Demonstrators in Fresno rally against ICE activity\" (Fresno)",
-    "classify: new candidate e2190577798 \"Women's groups march to Delhi Police HQ over assault\" (Delhi)",
-    "classify: new candidate e014dcb887c \"French students and unions stage nationwide protests\" (Paris)",
-    "classify: new candidate e335eeae02e \"BJP workers protest outside Congress Bhavan demanding MP resignation\" (Imphal)",
-    "classify: new candidate ef7981b96a0 \"Congress workers and organisations protest against Union Minister remarks\" (Mandya)",
-    "classify: new candidate e914dffc560 \"Journalists stage sit-in protest against alleged assault\" (Bhayandar)",
-    "classify: new candidate e2ebd8f9671 \"Activists detained on way to Tiranga protest\" (Delhi)",
-    "classify: new candidate ee669577061 \"Job aspirants protest at TGPSC office in Hyderabad\" (Hyderabad)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 2 events"
-   ],
-   "translated": 2
-  },
   {
    "at": "2026-10-17T13:48:38.326Z",
    "ms": 167707,
@@ -1416,8 +1384,34 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-24T04:27:47.171Z",
+   "ms": 365999,
+   "discovered": 43,
+   "fetched": 39,
+   "classified": 26,
+   "protests": 9,
+   "summarized": 4,
+   "published": 172,
+   "live": 12,
+   "aiCalls": 38,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261024041500 http://data.gdeltproject.org/gdeltv2/20261024041500.export.CSV.zip → 404",
+    "gdelt: 20261024043000 http://data.gdeltproject.org/gdeltv2/20261024043000.export.CSV.zip → 404",
+    "gdelt: 13 files, 33 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 215 protest-word items",
+    "fetch: 39 ok, 4 failed",
+    "classify: new candidate e84a5e52147 \"Father protests outside collectorate over student suicide\" (Coimbatore)",
+    "summary: ee0a9468406 only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 30 events"
+   ],
+   "translated": 30
   }
  ],
- "gdeltCursor": "20261024011500",
- "lastRunAt": "2026-10-24T01:05:22.930Z"
+ "gdeltCursor": "20261024043000",
+ "lastRunAt": "2026-10-24T04:27:47.171Z"
 }
