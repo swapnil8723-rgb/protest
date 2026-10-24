@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-24",
-  "count": 105
+  "count": 119
  },
  "runs": [
-  {
-   "at": "2026-10-17T20:40:00.765Z",
-   "ms": 151739,
-   "discovered": 10,
-   "fetched": 9,
-   "classified": 9,
-   "protests": 8,
-   "summarized": 3,
-   "published": 83,
-   "live": 11,
-   "aiCalls": 6,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 5 files, 7 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 44 protest-word items",
-    "fetch: 9 ok, 1 failed",
-    "classify: new candidate e6005aef5b3 \"No Kings rally encourages voting in Scranton\" (Scranton)",
-    "classify: new candidate e872c160eb8 \"CJP holds protest in Panaji\" (Panjim)",
-    "classify: new candidate e1ead43ff49 \"Demonstrators gather in Coral Springs for No Kings rally\" (Coral Springs)",
-    "classify: new candidate e5a941af793 \"Pro-Palestine group protests outside British Museum Ball\" (London)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 2 events"
-   ],
-   "translated": 2
-  },
   {
    "at": "2026-10-17T23:09:47.988Z",
    "ms": 98560,
@@ -1399,8 +1373,34 @@
     "translate: 2 events"
    ],
    "translated": 2
+  },
+  {
+   "at": "2026-10-24T13:48:38.926Z",
+   "ms": 207475,
+   "discovered": 60,
+   "fetched": 58,
+   "classified": 50,
+   "protests": 31,
+   "summarized": 5,
+   "published": 136,
+   "live": 14,
+   "aiCalls": 14,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 10 files, 36 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 234 protest-word items",
+    "fetch: 58 ok, 2 failed",
+    "classify: new candidate e36cb7c0391 \"Yellow vests call nationwide protests for October 31\" (Paris)",
+    "classify: new candidate e4025805476 \"INDIA bloc plans Tripura rally demanding CEC removal\" (Agartala)",
+    "classify: new candidate ece17261ff8 \"Protesters gather in Le Mans against living costs and education\" (Le Mans)",
+    "classify: new candidate eac245469ea \"Congress marches and door-to-door visits over electoral roll irregularities\" (Latur)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261024111500",
- "lastRunAt": "2026-10-24T11:08:34.452Z"
+ "gdeltCursor": "20261024134500",
+ "lastRunAt": "2026-10-24T13:48:38.926Z"
 }

@@ -15,12 +15,12 @@
  },
  "scope": "nationwide",
  "causes": [
-  "labour",
-  "students",
-  "prices"
+  "prices",
+  "jobs",
+  "education"
  ],
- "kind": "multi-day",
- "startedOn": "2026-10-17",
+ "kind": "one-day",
+ "startedOn": "2026-10-24",
  "status": "ongoing",
  "vibe": "tense",
  "severity": "serious",
@@ -32,71 +32,69 @@
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating over deteriorating school conditions and rising living costs, including high fuel prices.",
-  "want": "Demonstrators demand relief from high living costs, better learning conditions, and action against the far right.",
-  "changed": "Oct 24: Protesters held fresh nationwide demonstrations as authorities deployed 70,000 security personnel and banned rallies in several cities."
+  "why": "Protesters are demonstrating over high living costs, inadequate wages, education underfunding, and the authoritarian drift of the government.",
+  "want": "Demonstrators demand increased wages, protection of public services, fiscal and social justice, and better learning conditions.",
+  "changed": "Oct 24: French police deployed around 70,000 security personnel nationwide, arresting 135 people and firing tear gas in some cities."
  },
- "summary": "France witnessed a second wave of demonstrations on Saturday, October 24, following a week of severe unrest and rioting that began on October 17. The mobilization brought together students, trade unionists, farmers, and Yellow Vest movement participants protesting against rising living costs, high fuel prices, and deteriorating school conditions. In response to widespread looting and arson during the previous weekend, the government deployed approximately 70,000 security personnel nationwide, including elite units and water cannons, while local authorities banned protests in cities such as Lyon, Nice, Montpellier, and parts of Marseille and Paris. Major cultural institutions, including the Louvre and Orsay museums, shut their doors, and retailers boarded up storefronts. Despite route restrictions and bans, protests took place across multiple regions, with clashes and heavy security reported.",
+ "summary": "Mass demonstrations took place across France on October 24, 2026, targeting the high cost of living, low wages, and educational conditions. Organised by labour unions, high school and university students, and the Yellow Vest movement, the nationwide mobilization followed severe rioting the previous week. Authorities deployed approximately 70,000 security officers across the country, using armored vehicles and helicopters, and rerouted or restricted marches in cities like Paris and Lyon. Interior Minister Laurent Nuñez reported that 135 individuals had been arrested by early afternoon, with various weapons confiscated during security checks. Organisers and union representatives criticised the government's heavy-handed restrictions and police perimeter changes, while protests continued in multiple regions.",
  "organizers": [
   "Yellow Vest movement",
-  "High School Renewal",
-  "inter-union group representing trade unions and youth organizations"
+  "labor unions",
+  "high school and university students",
+  "UNEF"
  ],
  "demands": [
-  "Relief from the rising cost of living",
-  "Better learning conditions in schools",
-  "Lower fuel prices"
+  "Tax the rich",
+  "Increase wages",
+  "Protect public services",
+  "Ensure fiscal and social justice",
+  "Improve learning conditions"
  ],
- "response": "Authorities deployed 70,000 security personnel nationwide, closed major museums and metro stations, imposed curfews, and banned demonstrations in several city centres including Lyon, Nice, and Montpellier.",
+ "response": "Interior Minister Laurent Nuñez stated that 70,000 officers were deployed nationwide alongside armored vehicles and water cannons. According to Nuñez, 135 people had been arrested by early Saturday afternoon, and various weapons including slingshots and fireworks were seized.",
  "numbers": {
-  "arrests": {
-   "value": 2500,
-   "text": "resulting in more than 2,500 arrests as some protests turned violent",
+  "crowd": {
+   "value": 35000,
+   "text": "35,000 people have been counted on the public space, against 60,000 the 17 October, according to the minister of the…",
    "sources": [
     5,
-    8
+    9
+   ]
+  },
+  "arrests": {
+   "value": 135,
+   "text": "French police have arrested 135 people and seized a variety of weapons, Interior Minister Laurent Nunez said",
+   "sources": [
+    2,
+    5,
+    7,
+    8,
+    9
    ]
   }
  },
  "updates": [
   {
    "at": "2026-10-21",
-   "text": "Prime Minister Sébastien Lecornu met with union representatives to discuss security and announced a massive police deployment for upcoming protests.",
+   "text": "Prime Minister Sébastien Lecornu announced a massive police deployment for upcoming protests following days of riots.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-24",
-   "text": "French authorities deployed around 70,000 security personnel nationwide ahead of fresh demonstrations.",
+   "text": "Paris police changed the union-organised march route from Bastille to Porte d'Italie, prompting legal challenges.",
    "sources": [
-    2,
-    3
-   ]
-  },
-  {
-   "at": "2026-10-24",
-   "text": "Major museums and cultural sites in Paris, including the Louvre and Orsay, closed their doors for the day.",
-   "sources": [
-    2,
-    8,
-    10
-   ]
-  },
-  {
-   "at": "2026-10-24",
-   "text": "Protests were banned in city centres across several cities, including Lyon, Nice, and Montpellier.",
-   "sources": [
-    2,
     3,
-    4
+    8
    ]
   },
   {
    "at": "2026-10-24",
-   "text": "Protesters and trade unionists held demonstrations across multiple French regions despite local bans and route restrictions.",
+   "text": "Interior Minister Laurent Nuñez reported 135 arrests nationwide by early afternoon as 70,000 officers deployed.",
    "sources": [
+    2,
     5,
+    7,
     9
    ]
   }
@@ -118,218 +116,224 @@
   },
   {
    "n": 3,
-   "url": "https://aninews.in/news/world/europe/france-bans-protests-in-marseille-lyon-paris-museums-closed-ahead-of-fresh-demonstrations20261024130518/",
-   "publisher": "aninews.in",
-   "title": "France bans protests in Marseille, Lyon; Paris museums closed ahead of fresh demonstrations",
-   "publishedAt": "2026-10-24T07:35:18.968Z"
-  },
-  {
-   "n": 4,
-   "url": "https://www.dailymail.com/news/article-16235069/France-chaos-Paris-shopkeepers-violence-riot-police-protests.html",
-   "publisher": "dailymail.com",
-   "title": "France prepares for day of chaos: Paris boards up shops and 70,000 riot police take to the streets as Lyon, Nice and Montpellier ban protests",
-   "publishedAt": "2026-10-24T08:00:10.000Z"
-  },
-  {
-   "n": 5,
    "url": "https://aa.com.tr/en/world/-threat-exists-paris-police-warn-of-possible-unrest-ahead-of-protests/4099226",
    "publisher": "aa.com.tr",
    "title": "‘Threat exists’: Paris police warn of possible unrest ahead of protests",
    "publishedAt": "2026-10-24T10:47:48.437Z"
   },
   {
-   "n": 6,
-   "url": "https://elpais.com/internacional/2026-10-24/francia-contiene-el-aliento-ante-una-nueva-jornada-de-protestas.html",
-   "publisher": "elpais.com",
-   "title": "Francia contiene el aliento ante una nueva jornada de protestas",
-   "publishedAt": "2026-10-24T09:00:33.000Z"
-  },
-  {
-   "n": 7,
-   "url": "https://www.spiegel.de/ausland/frankreich-70-000-polizisten-verbotene-demos-geschlossene-museen-angespannte-lage-vor-erneutem-protesttag-a-0890d667-ab5f-4b7e-aa92-244e0c72e9ca",
+   "n": 4,
+   "url": "https://www.spiegel.de/ausland/frankreich-ruestet-sich-fuer-proteste-70-000-polizisten-demos-verboten-museen-geschlossen-a-0890d667-ab5f-4b7e-aa92-244e0c72e9ca",
    "publisher": "spiegel.de",
    "title": "70.000 Polizisten, verbotene Demos, geschlossene Museen – Frankreich vor erneutem Protesttag",
    "publishedAt": "2026-10-24T09:35:00.000Z"
   },
   {
-   "n": 8,
-   "url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert?traffic_source=rss",
-   "publisher": "aljazeera.com",
-   "title": "France braces for another day of mass protests as security on high alert",
-   "publishedAt": "2026-10-24T10:04:25.000Z"
-  },
-  {
-   "n": 9,
+   "n": 5,
    "url": "https://www.franceinfo.fr/societe/manifestations/avignon-cherbourg-gueret-le-point-sur-les-manifestations-du-24-octobre-en-regions_8252155.html",
    "publisher": "franceinfo.fr",
    "title": "Avignon, Cherbourg, Gu&eacute;ret... Le point sur les manifestations du 24 octobre en r&eacute;gions",
    "publishedAt": "2026-10-24T10:45:39.000Z"
   },
   {
+   "n": 6,
+   "url": "https://timesofindia.indiatimes.com/world/europe/france-unrest-70000-police-officers-tear-gas-fired-as-thousands-take-to-streets-top-developments/articleshow/135169631.cms",
+   "publisher": "timesofindia.indiatimes.com",
+   "title": "France unrest: 70,000 police officers, weapons seized, hundreds of protesters arrested - top developments",
+   "publishedAt": "2026-10-24T11:53:00.000Z"
+  },
+  {
+   "n": 7,
+   "url": "https://www.vanguardngr.com/2026/10/france-protests-latest-developments/",
+   "publisher": "vanguardngr.com",
+   "title": "France protests: Latest developments",
+   "publishedAt": "2026-10-24T13:14:59.000Z"
+  },
+  {
+   "n": 8,
+   "url": "https://www.express.co.uk/news/world/2260002/france-riots-live-protest-paris",
+   "publisher": "express.co.uk",
+   "title": "Armed police swarm streets of Paris as massive riots to hit France today",
+   "publishedAt": "2026-10-24T13:29:00.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://english.news.cn/20261024/32fd74d8130d48489ca191983d828d7a/c.html",
+   "publisher": "english.news.cn",
+   "title": "France records 135 arrests during demonstrations by early Saturday afternoon"
+  },
+  {
    "n": 10,
-   "url": "https://www.lefigaro.fr/conjoncture/musees-stations-de-metro-commerces-ces-nombreux-lieux-fermes-ce-samedi-a-paris-a-cause-des-manifestations-20261024",
-   "publisher": "lefigaro.fr",
-   "title": "Musées, stations de métro, commerces… Ces nombreux lieux fermés ce samedi à Paris à cause des manifestations",
-   "publishedAt": "2026-10-24T10:46:24.000Z"
+   "url": "https://www.bankingnews.gr/diethni/articles/906973/france-on-the-brink-of-deep-crisis-as-70-000-police-mobilize-against-protests",
+   "publisher": "bankingnews.gr",
+   "title": "France on the brink of deep crisis as 70,000 police mobilize against protests"
   }
  ],
  "conflicts": [],
  "confidence": 0.95,
  "publishers": 10,
- "reports24h": 14,
- "reportsPrev24h": 0,
- "reports48h": 14,
+ "reports24h": 26,
+ "reportsPrev24h": 1,
+ "reports48h": 27,
  "firstSeenAt": "2026-10-21T11:57:43.399Z",
- "lastReportAt": "2026-10-24T10:47:48.437Z",
- "lastCheckedAt": "2026-10-24T11:10:20.612Z",
- "updatedAt": "2026-10-24T11:09:59.649Z",
+ "lastReportAt": "2026-10-24T13:45:00.000Z",
+ "lastCheckedAt": "2026-10-24T13:51:21.107Z",
+ "updatedAt": "2026-10-24T13:50:49.291Z",
  "responseSources": [
   2,
-  3,
-  8
+  5,
+  6,
+  7,
+  8,
+  9
  ],
- "seriousInjuries": true,
+ "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-24T11:09:59.649Z",
- "summaryOf": "e927fdaa235b",
+ "summarizedAt": "2026-10-24T13:50:49.291Z",
+ "summaryOf": "c3af7c9e3f84",
  "publishedAt": "2026-10-24T07:46:37.803Z",
  "i18n": {
-  "of": "2e2f91b2c0acf051",
-  "at": "2026-10-24T11:10:33.016Z",
+  "of": "4b5cfe0c97862972",
+  "at": "2026-10-24T13:51:36.043Z",
   "tries": 1,
   "hi": {
-   "title": "भारी सुरक्षा तैनाती के बीच पूरे फ्रांस में जीवन-यापन की लागत के खिलाफ प्रदर्शन",
+   "title": "भारी सुरक्षा के बीच पूरे फ्रांस में जीवन-यापन की लागत को लेकर प्रदर्शन",
    "seoTitle": "पेरिस जीवन-यापन लागत प्रदर्शन",
    "tea": {
-    "why": "प्रदर्शनकारी बिगड़ती स्कूली स्थिति और ईंधन की अधिक कीमतों सहित जीवन-यापन की बढ़ती लागत को लेकर प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शनकारी जीवन-यापन की अधिक लागत से राहत, बेहतर पठन-पाठन की स्थिति और सुदूर दक्षिणपंथ के खिलाफ कार्रवाई की मांग कर रहे हैं।",
-    "changed": "24 अक्टूबर: अधिकारियों द्वारा 70,000 सुरक्षाकर्मियों को तैनात करने और कई शहरों में रैलियों पर प्रतिबंध लगाने के बीच प्रदर्शनकारियों ने देश भर में नए प्रदर्शन किए।"
+    "why": "प्रदर्शनकारी जीवन-यापन की उच्च लागत, अपर्याप्त वेतन, शिक्षा के कम वित्तपोषण और सरकार के सत्तावादी रुझान को लेकर विरोध प्रदर्शन कर रहे हैं।",
+    "want": "प्रदर्शनकारियों की मांग है कि वेतन बढ़ाया जाए, सार्वजनिक सेवाओं की रक्षा की जाए, राजकोषीय और सामाजिक न्याय सुनिश्चित किया जाए और सीखने की बेहतर स्थिति प्रदान की जाए।",
+    "changed": "24 अक्टूबर: फ्रांसीसी पुलिस ने देश भर में लगभग 70,000 सुरक्षा कर्मियों को तैनात किया, 135 लोगों को गिरफ्तार किया और कुछ शहरों में आंसू गैस के गोले छोड़े।"
    },
-   "summary": "17 अक्टूबर को शुरू हुए गंभीर असंतोष और हंगामे के एक सप्ताह बाद, फ्रांस में शनिवार, 24 अक्टूबर को प्रदर्शनों की दूसरी लहर देखी गई। इस लामबंदी में छात्रों, ट्रेड यूनियन के सदस्यों, किसानों और येलो वेस्ट आंदोलन के प्रतिभागियों ने जीवन-यापन की बढ़ती लागत, ईंधन की अधिक कीमतों और बिगड़ती स्कूली स्थिति के खिलाफ विरोध प्रदर्शन करने के लिए भाग लिया। पिछले सप्ताह के अंत में व्यापक लूटपाट और आगजनी के जवाब में, सरकार ने देश भर में विशिष्ट इकाइयों और वाटर कैनन सहित लगभग 70,000 सुरक्षाकर्मियों को तैनात किया, जबकि स्थानीय अधिकारियों ने लियॉन, नाइस, मोंटपेलियर और मार्सिले तथा पेरिस के कुछ हिस्सों जैसे शहरों में प्रदर्शनों पर प्रतिबंध लगा दिया। लूव्र और ओरसे संग्रहालयों सहित प्रमुख सांस्कृतिक संस्थानों ने अपने दरवाजे बंद कर दिए, और खुदरा विक्रेताओं ने दुकानों के आगे बोर्ड लगा दिए। मार्ग प्रतिबंधों और प्रतिबंधों के बावजूद, कई क्षेत्रों में प्रदर्शन हुए, जिनमें झड़पों और भारी सुरक्षा की सूचना मिली।",
+   "summary": "24 अक्टूबर 2026 को पूरे फ्रांस में बड़े पैमाने पर प्रदर्शन हुए, जिसमें जीवन-यापन की उच्च लागत, कम वेतन और शैक्षिक स्थितियों को निशाना बनाया गया। ट्रेड यूनियनों, हाई स्कूल और विश्वविद्यालय के छात्रों तथा येलो वेस्ट आंदोलन द्वारा आयोजित यह राष्ट्रव्यापी लामबंदी पिछले हफ्ते हुए गंभीर दंगों के बाद शुरू हुई। अधिकारियों ने देश भर में लगभग 70,000 सुरक्षा कर्मियों को तैनात किया, बख्तरबंद वाहनों और हेलीकाप्टरों का उपयोग किया, और पेरिस तथा ल्योन जैसे शहरों में रैलियों के मार्ग बदले या प्रतिबंधित किए। आंतरिक मंत्री लॉरेंट नुनेज ने बताया कि दोपहर तक 135 लोगों को गिरफ्तार किया जा चुका था, और सुरक्षा जांच के दौरान विभिन्न हथियार जब्त किए गए। आयोजकों और यूनियन प्रतिनिधियों ने सरकार के सख्त प्रतिबंधों और पुलिस परिधि बदलावों की आलोचना की, जबकि कई क्षेत्रों में प्रदर्शन जारी रहे।",
    "demands": [
-    "जीवन-यापन की बढ़ती लागत से राहत",
-    "स्कूलों में बेहतर पठन-पाठन की स्थिति",
-    "कम ईंधन कीमतें"
+    "अमीरों पर कर लगाएं",
+    "वेतन बढ़ाएं",
+    "सार्वजनिक सेवाओं की रक्षा करें",
+    "राजकोषीय और सामाजिक न्याय सुनिश्चित करें",
+    "सीखने की स्थिति में सुधार करें"
    ],
-   "response": "अधिकारियों ने देश भर में 70,000 सुरक्षाकर्मियों को तैनात किया, प्रमुख संग्रहालयों और मेट्रो स्टेशनों को बंद कर दिया, कर्फ्यू लगाया, और लियॉन, नाइस और मोंटपेलियर सहित कई शहर के केंद्रों में प्रदर्शनों पर प्रतिबंध लगा दिया।",
+   "response": "आंतरिक मंत्री लॉरेंट नुनेज ने कहा कि बख्तरबंद वाहनों और वाटर कैनन के साथ देश भर में 70,000 कर्मियों को तैनात किया गया था। नुनेज के अनुसार, शनिवार दोपहर तक 135 लोगों को गिरफ्तार किया गया था, और गुलेल तथा आतिशबाजी सहित विभिन्न हथियार जब्त किए गए थे।",
    "updates": [
-    "प्रधानमंत्री सेबेस्टियन लेकॉर्नू ने सुरक्षा पर चर्चा करने के लिए यूनियन प्रतिनिधियों से मुलाकात की और आगामी प्रदर्शनों के लिए भारी पुलिस तैनाती की घोषणा की।",
-    "नए प्रदर्शनों से पहले फ्रांसीसी अधिकारियों ने देश भर में लगभग 70,000 सुरक्षाकर्मियों को तैनात किया।",
-    "लूव्र और ओरसे सहित पेरिस के प्रमुख संग्रहालयों और सांस्कृतिक स्थलों ने दिन भर के लिए अपने दरवाजे बंद कर दिए।",
-    "लियॉन, नाइस और मोंटपेलियर सहित कई शहरों के शहर केंद्रों में प्रदर्शनों पर प्रतिबंध लगा दिया गया था।",
-    "स्थानीय प्रतिबंधों और मार्ग प्रतिबंधों के बावजूद प्रदर्शनकारियों और ट्रेड यूनियन के सदस्यों ने कई फ्रांसीसी क्षेत्रों में प्रदर्शन किए।"
+    "प्रधानमंत्री सेबेस्टियन लेकॉर्नू ने दिनों के दंगों के बाद आगामी प्रदर्शनों के लिए भारी पुलिस तैनाती की घोषणा की।",
+    "पेरिस पुलिस ने यूनियन द्वारा आयोजित मार्च के मार्ग को बास्टिल से पोर्ट डी'इटली में बदल दिया, जिससे कानूनी चुनौतियां खड़ी हो गईं।",
+    "आंतरिक मंत्री लॉरेंट नुनेज ने दोपहर तक देश भर में 70,000 कर्मियों की तैनाती के बीच 135 गिरफ्तारियों की सूचना दी।"
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "जिसके परिणामस्वरूप 2,500 से अधिक गिरफ्तारियां हुईं क्योंकि कुछ प्रदर्शन हिंसक हो गए"
+    "crowd": "मंत्री के अनुसार, सार्वजनिक स्थान पर 35,000 लोगों की गिनती की गई, जबकि 17 अक्टूबर को यह संख्या 60,000 थी...",
+    "arrests": "फ्रांसीसी पुलिस ने 135 लोगों को गिरफ्तार किया है और कई तरह के हथियार जब्त किए हैं, आंतरिक मंत्री लॉरेंट नुनेज ने कहा"
    }
   },
   "mr": {
-   "title": "मोठ्या सुरक्षा बंदोबस्तात फ्रान्सभर महागाईविरोधी निदर्शने",
-   "seoTitle": "पॅरिस महागाई निदर्शने",
+   "title": "भारी सुरक्षेच्या पार्श्वभूमीवर फ्रान्सभर जीवनमान खर्चाविरुद्ध निदर्शने",
+   "seoTitle": "पॅरिस जीवनमान खर्च निदर्शने",
    "tea": {
-    "why": "शाळांची बिघडलेली स्थिती आणि इंधनाच्या उच्च किंमतींसह वाढत्या महागाईविरोधात निदर्शक निदर्शने करत आहेत.",
-    "want": "निदर्शक वाढत्या महागाईपासून दिलासा, शिक्षणासाठी चांगल्या परिस्थिती आणि अतिउजव्या विचारसरणीविरुद्ध कारवाईची मागणी करत आहेत.",
-    "changed": "२४ ऑक्टोबर: अधिकाऱ्यांनी ७०,००० सुरक्षा कर्मचाऱ्यांना तैनात केले आणि अनेक शहरांमध्ये रैलियोंवर बंदी घातली असताना निक्षदर्शकांनी देशव्यापी नवी निदर्शने केली."
+    "why": "उच्च जीवनमान खर्च, अपुरे वेतन, शिक्षणाला अपुरा निधी आणि सरकारची हुकूमशाही वाटचाल यांच्या निषेधार्थ निदर्शने होत आहेत.",
+    "want": "निदर्शक वाढीव वेतन, सार्वजनिक सेवांचे संरक्षण, वित्तीय व सामाजिक न्याय आणि उत्तम शिक्षण परिस्थितीची मागणी करत आहेत.",
+    "changed": "२४ ऑक्टोबर: फ्रेंच पोलिसांनी देशभरात सुमारे ७०,००० सुरक्षा कर्मचारी तैनात केले, १३५ जणांना अटक केली आणि काही शहरांत अश्रूधुराच्या नळकांड्या फोडल्या."
    },
-   "summary": "१७ ऑक्टोबर रोजी सुरू झालेल्या गंभीर अशांतता आणि दंगलींच्या आठवड्यानंतर, फ्रान्सने शनिवार, २४ ऑक्टोबर रोजी निदर्शनांची दुसरी लाट पाहिली. या जनआंदोलनात वाढती महागाई, इंधनाच्या उच्च किंमती आणि शाळांची बिघडलेली स्थिती यांच्या निषेधार्थ विद्यार्थी, कामगार युनियनचे सदस्य, शेतकरी आणि यलो वेस्ट आंदोलनातील सहभागी एकत्र आले होते. मागील आठवड्याच्या शेवटी व्यापक लुटालूट आणि जाळपोळीच्या प्रत्युत्तरात, सरकारने देशभरात एलिट युनिट्स आणि पाण्याचे फवारे मारणाऱ्या गाड्यांसह अंदाजे ७०,००० सुरक्षा कर्मचाऱ्यांना तैनात केले, तर स्थानिक प्राधिकाऱ्यांनी लियॉन, नाइस, मोंटपेलियर आणि मार्सेल व पॅरिसच्या काही भागांसारख्या शहरांमध्ये निदर्शनांवर बंदी घातली. लुव्र आणि ऑर्से संग्रहालयांसह प्रमुख सांस्कृतिक संस्थांनी आपले दरवाजे बंद केले आणि दुकानदारांनी दुकानांच्या समोर फळ्या ठोकल्या. मार्गावरील प्रतिबंध आणि बंदी असूनही अनेक प्रदेशांमध्ये निदर्शने झाली, ज्यामध्ये संघर्ष आणि भारी सुरक्षा तैनात असल्याचे वृत्त आहे.",
+   "summary": "२४ ऑक्टोबर २०२६ रोजी फ्रान्सभर उच्च जीवनमान खर्च, कमी वेतन आणि शैक्षणिक परिस्थितीच्या निषेधार्थ मोठ्या प्रमाणावर निदर्शने झाली. कामगार संघटना, उच्च माध्यमिक व विद्यापीठातील विद्यार्थी आणि यलो व्हेस्ट चळवळीने आयोजित केलेले हे देशव्यापी आंदोलन मागील आठवड्यातील तीव्र दंगलींनंतर झाले. प्रशासनाने देशभरात सुमारे ७०,००० सुरक्षा अधिकारी तैनात केले, चिलखती वाहने आणि हेलिकॉप्टर्सचा वापर केला, तसेच पॅरिस आणि लियॉन यांसारख्या शहरांमध्ये मोर्चांचे मार्ग बदलले किंवा त्यावर मर्यादा घातल्या. दुपारीपर्यंत १३५ व्यक्तींना अटक करण्यात आली असून सुरक्षा तपासणीदरम्यान विविध शस्त्रे जप्त करण्यात आल्याची माहिती आन्तरिक मंत्री लॉरेंट नुनेझ यांनी दिली. अनेक भागांत निदर्शने सुरू असतानाच आयोजक आणि युनियनच्या प्रतिनिधींनी सरकारच्या कठोर निर्बंधांवर आणि पोलिसांच्या सुरक्षा परिघातील बदलांवर टीका केली.",
    "demands": [
-    "वाढत्या महागाईपासून दिलासा",
-    "शाळांमध्ये शिक्षणासाठी चांगली परिस्थिती",
-    "इंधनाच्या कमी किंमती"
+    "श्रीमंतांवर कर आकारा",
+    "वेतन वाढवा",
+    "सार्वजनिक सेवांचे संरक्षण करा",
+    "वित्तीय आणि सामाजिक न्याय सुनिश्चित करा",
+    "शिकण्याच्या परिस्थितीमध्ये सुधारणा करा"
    ],
-   "response": "प्राधिकाऱ्यांनी देशभरात ७०,००० सुरक्षा कर्मचाऱ्यांना तैनात केले, प्रमुख μουसेई आणि मेट्रो स्थानके बंद केली, जमावबंदी लागू केली आणि लियॉन, नाइस आणि मोंटपेलियरसह अनेक शहरांच्या मध्यवर्ती भागांमध्ये निदर्शनांवर बंदी घातली.",
+   "response": "चिलखती वाहने आणि पाण्याचे फवारे मारणाऱ्या गाड्यांसह देशभरात ७०,००० अधिकारी तैनात करण्यात आल्याचे आन्तरिक मंत्री लॉरेंट नुनेझ यांनी सांगितले. नुनेझ यांच्या मते, शनिवारच्या दुपारपर्यंत १३५ जणांना अटक करण्यात आली होती आणि गोलोटी व आतषबाजीच्या साहित्यासह विविध शस्त्रे जप्त करण्यात आली होती.",
    "updates": [
-    "पंतप्रधान सेबॅस्टियन लेकॉर्नू यांनी सुरक्षेवर चर्चा करण्यासाठी युनियनच्या प्रतिनिधींची भेट घेतली आणि आगामी निदर्शनांसाठी मोठ्या पोलीस बंदोबस्ताची घोषणा केली.",
-    "नव्या निदर्शनांपूर्वी फ्रेंच प्राधिकाऱ्यांनी देशभरात सुमारे ७०,००० सुरक्षा कर्मचाऱ्यांना तैनात केले.",
-    "लुव्र आणि ऑर्सेसह पॅरिसमधील प्रमुख μουसेई आणि सांस्कृतिक स्थळांनी दिवसासाठी आपले दरवाजे बंद केले.",
-    "लियॉन, नाइस आणि मोंटपेलियरसह अनेक शहरांच्या मध्यवर्ती भागात निदर्शनांवर बंदी घालण्यात आली.",
-    "स्थानिक बंदी आणि मार्गावरील प्रतिबंधांमधेही निदर्शक आणि कामगार युनियनच्या सदस्यांनी फ्रान्सच्या अनेक प्रदेशांमध्ये निदर्शने केली."
+    "काही दिवसांच्या दंगलींनंतर पंतप्रधान सेबास्टियन लेकॉर्नू यांनी आगामी निदर्शनांसाठी मोठ्या प्रमाणात पोलीस तैनातीची घोषणा केली.",
+    "पॅरिस पोलिसांनी युनियनने आयोजित केलेल्या मार्चचा मार्ग बास्टिलवरून पोर्ट डी'इटली असा बदलला, ज्यामुळे कायदेशीर आव्हाने निर्माण झाली.",
+    "दुपारपर्यंत ७०,००० अधिकारी तैनात असताना देशभरात १३५ जणांना अटक केल्याची माहिती आन्तरिक मंत्री लॉरेंट नुनेझ यांनी दिली."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "काही निदर्शने हिंसक झाल्यामुळे २,५०० हून अधिक गिरफ्तार्या झाल्या"
+    "crowd": "मंत्र्यांच्या मते, १७ ऑक्टोबर रोजी ६०,००० लोक असताना, सार्वजनिक जागेवर ३५,००० लोकांची नोंद झाली...",
+    "arrests": "फ्रेंच पोलिसांनी १३५ जणांना अटक केली असून विविध शस्त्रे जप्त केली आहेत, असे आन्तरिक मंत्री लॉरेंट नुनेझ म्हणाले"
    }
   },
   "es": {
    "title": "Protestas por el costo de vida en toda Francia en medio de un fuerte despliegue de seguridad",
    "seoTitle": "Protestas por el costo de vida en París",
    "tea": {
-    "why": "Los manifestantes se manifiestan por el deterioro de las condiciones escolares y el aumento del costo de vida, incluidos los altos precios de los combustibles.",
-    "want": "Los manifestantes exigen alivio frente al alto costo de vida, mejores condiciones de aprendizaje y medidas contra la extrema derecha.",
-    "changed": "24 de oct: Los manifestantes realizaron nuevas protestas en todo el país mientras las autoridades desplegaron 70,000 agentes de seguridad y prohibieron las marchas en varias ciudades."
+    "why": "Los manifestantes se manifiestan por el alto costo de la vida, los salarios insuficientes, la falta de fondos para la educación y la deriva autoritaria del gobierno.",
+    "want": "Los manifestantes exigen mayores salarios, protección de los servicios públicos, justicia fiscal y social, y mejores condiciones de aprendizaje.",
+    "changed": "24 de octubre: La policía francesa desplegó alrededor de 70.000 agentes de seguridad en todo el país, deteniendo a 135 personas y disparando gases lacrimógenos en algunas ciudades."
    },
-   "summary": "Francia fue testigo de una segunda ola de manifestaciones el sábado 24 de octubre, tras una semana de graves disturbios y revueltas que comenzaron el 17 de octubre. La movilización reunió a estudiantes, sindicalistas, agricultores y participantes del movimiento de los Chalecos Amarillos que protestaban contra el aumento del costo de vida, los altos precios de los combustibles y el deterioro de las condiciones escolares. En respuesta a los saqueos generalizados y los incendios provistos durante el fin de semana anterior, el gobierno desplegó aproximadamente 70,000 efectivos de seguridad en todo el país, incluidas unidades de élite y cañones de agua, mientras que las autoridades locales prohibieron las protestas en ciudades como Lyon, Niza, Montpellier y partes de Marsella y París. Las principales instituciones culturales, incluidos los museos del Louvre y de Orsay, cerraron sus puertas, y los comerciantes tapiaron los escaparates. A pesar de las restricciones de rutas y las prohibiciones, las protestas se llevaron a cabo en múltiples regiones, informándose enfrentamientos y un fuerte despliegue de seguridad.",
+   "summary": "El 24 de octubre de 2026 se produjeron grandes manifestaciones en toda Francia, dirigidas contra el alto costo de la vida, los bajos salarios y las condiciones educativas. Organizada por sindicatos, estudiantes de secundaria y universidad, y el movimiento de los Chalecos Amarillos, la movilización nacional siguió a los graves disturbios de la semana anterior. Las autoridades desplegaron aproximadamente 70.000 agentes de seguridad en todo el país, utilizando vehículos blindados y helicópteros, y desviaron o restringieron las marchas en ciudades como París y Lyon. El ministro del Interior, Laurent Nuñez, informó que 135 personas habían sido arrestadas a primera hora de la tarde, y se confiscaron varias armas durante los controles de seguridad. Los organizadores y representantes sindicales criticaron las severas restricciones del gobierno y los cambios en el perímetro policial, mientras las protestas continuaban en múltiples regiones.",
    "demands": [
-    "Alivio frente al aumento del costo de vida",
-    "Mejores condiciones de aprendizaje en las escuelas",
-    "Precios de combustible más bajos"
+    "Gravar a los ricos",
+    "Aumentar los salarios",
+    "Proteger los servicios públicos",
+    "Garantizar la justicia fiscal y social",
+    "Mejorar las condiciones de aprendizaje"
    ],
-   "response": "Las autoridades desplegaron 70,000 efectivos de seguridad en todo el país, cerraron los principales museos y estaciones de metro, impusieron toques de queda y prohibieron las manifestaciones en varios centros urbanos, incluidos Lyon, Niza y Montpellier.",
+   "response": "El ministro del Interior, Laurent Nuñez, declaró que se desplegaron 70.000 agentes en todo el país junto con vehículos blindados y cañones de agua. Según Nuñez, 135 personas habían sido arrestadas a primera hora de la tarde del sábado, y se incautaron varias armas, incluidas gomeras y fuegos artificiales.",
    "updates": [
-    "El primer ministro Sébastien Lecornu se reunió con representantes sindicales para discutir la seguridad y anunció un despliegue policial masivo para las próximas protestas.",
-    "Las autoridades francesas desplegaron alrededor de 70,000 efectivos de seguridad en todo el país antes de las nuevas manifestaciones.",
-    "Los principales museos y sitios culturales de París, incluidos el Louvre y Orsay, cerraron sus puertas por el día.",
-    "Se prohibieron las protestas en los centros urbanos de varias ciudades, incluidos Lyon, Niza y Montpellier.",
-    "Manifestantes y sindicalistas realizaron protestas en múltiples regiones francesas a pesar de las prohibiciones locales y las restricciones de rutas."
+    "El primer ministro Sébastien Lecornu anunció un despliegue policial masivo para las próximas protestas tras días de disturbios.",
+    "La policía de París cambió la ruta de la marcha organizada por los sindicatos de la Bastilla a la Puerta de Italia, lo que provocó desafíos legales.",
+    "El ministro del Interior, Laurent Nuñez, informó de 135 arrestos en todo el país a primera hora de la tarde mientras se desplegaban 70.000 agentes."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "lo que resultó en más de 2.500 detenciones a medida que algunas protestas se volvieron violentas"
+    "crowd": "Se han contado 35.000 personas en el espacio público, frente a las 60.000 del 17 de octubre, según el ministro de...",
+    "arrests": "La policía francesa ha arrestado a 135 personas y ha incautado una variedad de armas, dijo el ministro del Interior, Laurent Nunez"
    }
   },
   "fr": {
-   "title": "Manifestations contre le coût de la vie à travers la France sur fond de déploiement de sécurité massif",
+   "title": "Manifestations pour le coût de la vie à travers la France dans un contexte de fort déploiement de sécurité",
    "seoTitle": "Manifestations sur le coût de la vie à Paris",
    "tea": {
-    "why": "Des manifestants manifestent contre la détérioration des conditions scolaires et la hausse du coût de la vie, y compris les prix élevés du carburant.",
-    "want": "Les manifestants exigent un soulagement face au coût de la vie élevé, de meilleures conditions d'apprentissage et des mesures contre l'extrême droite.",
-    "changed": "24 oct. : Des manifestants ont organisé de nouvelles manifestations nationales alors que les autorités ont déployé 70 000 membres des forces de sécurité et interdit les rassemblements dans plusieurs villes."
+    "why": "Les manifestants protestent contre la cherté de la vie, l'insuffisance des salaires, le sous-financement de l'éducation et la dérive autoritaire du gouvernement.",
+    "want": "Les manifestants exigent une hausse des salaires, la protection des services publics, la justice fiscale et sociale, ainsi que de meilleures conditions d'apprentissage.",
+    "changed": "24 oct. : La police française a déployé environ 70 000 agents de sécurité à travers le pays, procédant à l'arrestation de 135 personnes et faisant usage de gaz lacrymogènes dans certaines villes."
    },
-   "summary": "La France a connu une seconde vague de manifestations le samedi 24 octobre, après une semaine de graves troubles et d'émeutes ayant débuté le 17 octobre. La mobilisation a rassemblé des étudiants, des syndicalistes, des agriculteurs et des participants au mouvement des Gilets jaunes pour protester contre la hausse du coût de la vie, les prix élevés du carburant et la détérioration des conditions scolaires. En réponse aux pillages et aux incendies volontaires généralisés du week-end précédent, le gouvernement a déployé environ 70 000 agents de sécurité à travers le pays, comprenant des unités d'élite et des canons à eau, tandis que les autorités locales ont interdit les manifestations dans des villes telles Lyon, Nice, Montpellier et certaines parties de Marseille et Paris. De grandes institutions culturelles, dont les musées du Louvre et d'Orsay, ont fermé leurs portes et des commerçants ont barricadé leurs vitrines. Malgré les restrictions d'itinéraires et les interdictions, des manifestations ont eu lieu dans de multiples régions, avec des affrontements et une sécurité renforcée signalés.",
+   "summary": "De grandes manifestations ont eu lieu à travers la France le 24 octobre 2026, ciblant le coût de la vie élevé, les bas salaires et les conditions éducatives. Organisée par des syndicats, des lycéens, des étudiants et le mouvement des Gilets jaunes, cette mobilisation nationale faisait suite à de graves émeutes la semaine précédente. Les autorités ont déployé environ 70 000 agents de sécurité dans le pays, recourant à des véhicules blindés et des hélicoptères, et ont modifié ou restreint les parcours des cortèges dans des villes comme Paris et Lyon. Le ministre de l'Intérieur Laurent Nuñez a indiqué que 135 individus avaient été interpellés en début d'après-midi, et diverses armes ont été saisies lors de contrôles de sécurité. Les organisateurs et les représentants syndicaux ont critiqué les restrictions sévères du gouvernement et les modifications des périmètres policiers, tandis que les manifestations se poursuivaient dans de nombreuses régions.",
    "demands": [
-    "Un soulagement face à la hausse du coût de la vie",
-    "De meilleures conditions d'apprentissage dans les écoles",
-    "Des prix de carburant plus bas"
+    "Taxer les riches",
+    "Augmenter les salaires",
+    "Protéger les services publics",
+    "Garantir la justice fiscale et sociale",
+    "Améliorer les conditions d'apprentissage"
    ],
-   "response": "Les autorités ont déployé 70 000 agents de sécurité à l'échelle nationale, fermé les grands musées et stations de métro, imposé des couvre-feux et interdit les manifestations dans plusieurs centres-villes, notamment à Lyon, Nice et Montpellier.",
+   "response": "Le ministre de l'Intérieur Laurent Nuñez a déclaré que 70 000 agents avaient été déployés à l'échelle nationale aux côtés de véhicules blindés et de canons à eau. Selon M. Nuñez, 135 personnes avaient été interpellées en début d'après-midi samedi, et diverses armes, notamment des lance-pierres et des feux d'artifice, ont été saisies.",
    "updates": [
-    "Le Premier ministre Sébastien Lecornu a rencontré des représentants syndicaux pour discuter de la sécurité et a annoncé un déploiement policier massif pour les manifestations à venir.",
-    "Les autorités françaises ont déployé environ 70 000 agents de sécurité à l'échelle nationale en amont de nouvelles manifestations.",
-    "Les principaux musées et sites culturels parisiens, dont le Louvre et Orsay, ont fermé leurs portes pour la journée.",
-    "Des manifestations ont été interdites dans les centres-villes de plusieurs agglomérations, dont Lyon, Nice et Montpellier.",
-    "Des manifestants et des syndicalistes ont tenu des rassemblements dans de multiples régions françaises malgré les interdictions locales et les restrictions d'itinéraires."
+    "Le Premier ministre Sébastien Lecornu a annoncé un déploiement policier massif pour les manifestations à venir après plusieurs jours d'émeutes.",
+    "La préfecture de police de Paris a modifié le parcours de la manifestation syndicale de Bastille vers la Porte d'Italie, suscitant des recours juridiques.",
+    "Le ministre de l'Intérieur Laurent Nuñez a fait état de 135 interpellations à l'échelle nationale en début d'après-midi alors que 70 000 agents étaient déployés."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "entraînant plus de 2 500 arrestations alors que certaines manifestations ont dégénéré en violence"
+    "crowd": "35 000 personnes ont été dénombrées sur l'espace public, contre 60 000 le 17 octobre, selon le ministre de l'...",
+    "arrests": "La police française a arrêté 135 personnes et saisi diverses armes, a déclaré le ministre de l'Intérieur Laurent Nunez"
    }
   },
   "de": {
-   "title": "Proteste gegen Lebenshaltungskosten in ganz Frankreich inmitten starker Sicherheitspräsenz",
-   "seoTitle": "Pariser Proteste zu Lebenshaltungskosten",
+   "title": "Proteste gegen die Lebenshaltungskosten in ganz Frankreich inmitten eines starken Sicherheitseinsatzes",
+   "seoTitle": "Pariser Lebenshaltungskosten-Proteste",
    "tea": {
-    "why": "Demonstranten protestieren wegen verschlechterter Schulbedingungen und steigender Lebenshaltungskosten, einschließlich hoher Treibstoffpreise.",
-    "want": "Demonstranten fordern Entlastung von den hohen Lebenshaltungskosten, bessere Lernbedingungen und Maßnahmen gegen die extreme Rechten.",
-    "changed": "24. Okt.: Demonstranten hielten erneute landesweite Kundgebungen ab, während die Behörden 70 000 Sicherheitskräfte einsetzten und Kundgebungen in mehreren Städten verboten."
+    "why": "Demonstranten protestieren gegen hohe Lebenshaltungskosten, unzureichende Löhne, Unterfinanzierung des Bildungswesens und den autoritären Kurs der Regierung.",
+    "want": "Demonstranten fordern höhere Löhne, den Schutz öffentlicher Dienste, steuerliche und soziale Gerechtigkeit sowie bessere Lernbedingungen.",
+    "changed": "24. Okt.: Die französische Polizei hat bundesweit rund 70 000 Sicherheitskräfte eingesetzt, 135 Personen festgenommen und in einigen Städten Tränengas eingesetzt."
    },
-   "summary": "Frankreich erlebte am Samstag, den 24. Oktober, eine zweite Welle von Demonstrationen nach einer Woche schwerer Unruhen und Krawalle, die am 17. Oktober begonnen hatten. Die Mobilisierung brachte Studenten, Gewerkschafter, Landwirte und Teilnehmer der Gelbwestenbewegung zusammen, die gegen steigende Lebenshaltungskosten, hohe Treibstoffpreise und verschlechterte Schulbedingungen protestierten. Als Reaktion auf weit verbreitete Plünderungen und Brandstiftungen am vorherigen Wochenende setzte die Regierung landesweit etwa 70 000 Sicherheitskräfte ein, darunter Eliteeinheiten und Wasserwerfer, während lokale Behörden Proteste in Städten wie Lyon, Nizza, Montpellier sowie Teilen von Marseille und Paris verbot. Wichtige Kulturinstitutionen, darunter die Museen Louvre und Orsay, schlossen ihre Türen, und Einzelhändler vernagelten Schaufenster. Trotz Streckenbeschränkungen und Verboten fanden Proteste in mehreren Regionen statt, wobei Zusammenstöße und starke Sicherheitsvorkehrungen gemeldet wurden.",
+   "summary": "Am 24. Oktober 2026 fanden in ganz Frankreich große Demonstrationen statt, die sich gegen die hohen Lebenshaltungskosten, niedrige Löhne und die Bildungsbedingungen richteten. Die von Gewerkschaften, Schüler- und Studentenverbänden sowie der Gelbwesten-Bewegung organisierte landesweite Mobilisierung folgte auf schwere Ausschreitungen in der Vorwoche. Die Behörden setzten im ganzen Land etwa 70 000 Sicherheitskräfte ein, nutzten gepanzerte Fahrzeuge und Hubschrauber und leiteten Märsche in Städten wie Paris und Lyon um oder schränkten sie ein. Innenminister Laurent Nuñez berichtete, dass am frühen Nachmittag 135 Personen festgenommen worden waren und bei Sicherheitskontrollen verschiedene Waffen beschlagnahmt wurden. Organisatoren und Gewerkschaftsvertreter kritisierten die strengen behördlichen Auflagen und Änderungen der Polizeiperimeter, während die Proteste in mehreren Regionen andauerten.",
    "demands": [
-    "Entlastung von den steigenden Lebenshaltungskosten",
-    "Bessere Lernbedingungen an Schulen",
-    "Niedrigere Treibstoffpreise"
+    "Die Reichen besteuern",
+    "Löhne erhöhen",
+    "Öffentliche Dienste schützen",
+    "Steuerliche und soziale Gerechtigkeit sicherstellen",
+    "Lernbedingungen verbessern"
    ],
-   "response": "Die Behörden setzten landesweit 70 000 Sicherheitskräfte ein, schlossen große Museen und U-Bahn-Stationen, verhängten Ausgangssperren und verboten Demonstrationen in mehreren Stadtzentren, darunter Lyon, Nizza und Montpellier.",
+   "response": "Innenminister Laurent Nuñez erklärte, dass bundesweit 70 000 Beamte zusammen mit Panzerwagen und Wasserwerfern im Einsatz waren. Nach Angaben von Nuñez waren bis zum frühen Samstagnachmittag 135 Personen festgenommen und verschiedene Waffen wie Schleudern und Feuerwerkskörper sichergestellt worden.",
    "updates": [
-    "Premierminister Sébastien Lecornu traf sich mit Gewerkschaftsvertretern, um über die Sicherheit zu sprechen, und kündigte einen massiven Polizeieinsatz für bevorstehende Proteste an.",
-    "Französische Behörden setzten im Vorfeld neuer Demonstrationen landesweit rund 70 000 Sicherheitskräfte ein.",
-    "Wichtige Museen und Kulturstätten in Paris, darunter der Louvre und Orsay, schlossen für den Tag ihre Türen.",
-    "Proteste wurden in Stadtzentren in mehreren Städten, darunter Lyon, Nizza und Montpellier, verboten.",
-    "Demonstranten und Gewerkschafter hielten trotz lokaler Verbote und Streckenbeschränkungen Kundgebungen in mehreren französischen Regionen ab."
+    "Premierminister Sébastien Lecornu kündigte nach tagelangen Ausschreitungen einen massiven Polizeieinsatz für bevorstehende Proteste an.",
+    "Die Pariser Polizei änderte die von der Gewerkschaft organisierte Marschroute von der Bastille zur Porte d'Italie, was rechtliche Schritte auslöste.",
+    "Innenminister Laurent Nuñez meldete bis zum frühen Nachmittag landesweit 135 Festnahmen, während 70 000 Beamte im Einsatz waren."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "was zu mehr als 2 500 Festnahmen führte, als einige Proteste gewalttätig wurden"
+    "crowd": "Auf dem öffentlichen Platz wurden 35 000 Menschen gezählt, gegenüber 60 000 am 17. Oktober, so der Minister für...",
+    "arrests": "Die französische Polizei hat 135 Menschen festgenommen und eine Reihe von Waffen beschlagnahmt, sagte Innenminister Laurent Nunez"
    }
   }
  }
