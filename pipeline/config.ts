@@ -105,6 +105,10 @@ export const LIMITS = {
   gdeltMaxAgeDays: 4,
   /** GDELT 15-minute files to catch up per run (32 = 8 hours). */
   gdeltMaxFiles: Number(process.env.GDELT_MAX_FILES || 32),
+  /** Single-source stories searched for a second newsroom per run, leads kept per story, and the step's time limit. */
+  searchPerRun: Number(process.env.SEARCH_PER_RUN || 25),
+  searchPerEvent: 3,
+  searchSeconds: 90,
   /** Max sources sent to the summary call. */
   summarySources: 10,
   /** No new AI call starts after this many minutes, so the run saves well inside the workflow's 20-minute timeout. */

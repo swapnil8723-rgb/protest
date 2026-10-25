@@ -7,6 +7,7 @@ import { makeAi, OverBudget } from './ai.ts';
 import { fetchPage, type Page } from './article.ts';
 import { byIso, LIMITS, TRANSLATE_TO } from './config.ts';
 import { classify } from './classify.ts';
+import { corroborate } from './corroborate.ts';
 import { discoverDays, discoverRecent, type GdeltHit } from './gdelt.ts';
 import { discoverRss, type RssItem } from './rss.ts';
 import { score } from './score.ts';
@@ -16,7 +17,7 @@ import { fileInbox, httpInbox, processReaderReports, scoreReaders } from './read
 import { pollDecisions, reviewerConfigured, sendReviews } from './telegram.ts';
 import { translate } from './translate.ts';
 import type { ProtestEvent, RunLog } from './types.ts';
-import { hostOf, looksLikeProtest, nowIso, pool } from './util.ts';
+import { hostOf, looksLikeProtest, nowIso, pool, publisherOf } from './util.ts';
 
 // undici can throw an internal assertion from a socket callback when a server ends a
 // response mid-parse (seen on a few news sites). It is isolated to that request; the
@@ -106,6 +107,22 @@ try {
       const seen = r.publishedAt && r.publishedAt < now ? r.publishedAt : now;
       articles.set(url, { url, publisher: hostOf(url), via: 'rss', firstSeenAt: seen, title: r.title, description: r.description, publishedAt: r.publishedAt, fetch: 'new' });
       run.discovered++;
+    }
+    // Second-newsroom search for fresh single-source stories (never fatal to the run).
+    if (!args.backfill) {
+      const pubs = new Map<string, Set<string>>();
+      for (const a of articles.values()) if (a.eventId) (pubs.get(a.eventId) ?? pubs.set(a.eventId, new Set()).get(a.eventId)!).add(publisherOf(a.url));
+      try {
+        const leads = await corroborate(events.values(), (id) => pubs.get(id) ?? new Set(), log, { max: LIMITS.searchPerRun, perEvent: LIMITS.searchPerEvent, budgetMs: LIMITS.searchSeconds * 1000 });
+        for (const l of leads) {
+          const url = cleanUrl(l.url);
+          if (articles.has(url)) continue;
+          articles.set(url, { url, publisher: hostOf(url), via: 'search', firstSeenAt: nowIso(), title: l.title, publishedAt: l.publishedAt, fetch: 'new' });
+          run.discovered++;
+        }
+      } catch (e) {
+        log(`search: ${(e as Error).message}`);
+      }
     }
   }
 

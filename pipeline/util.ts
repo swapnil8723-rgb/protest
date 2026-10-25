@@ -31,7 +31,10 @@ export function norm(s: string): string {
 
 // Second-level suffixes where the registrable domain has three labels.
 const SLD = new Set(['co.uk', 'org.uk', 'ac.uk', 'co.in', 'org.in', 'net.in', 'gov.in', 'com.pk', 'com.bd', 'co.ke',
-  'or.ke', 'co.id', 'or.id', 'com.np', 'org.np', 'com.au', 'co.nz', 'com.br', 'co.za', 'com.sg', 'com.my']);
+  'or.ke', 'co.id', 'or.id', 'com.np', 'org.np', 'com.au', 'co.nz', 'com.br', 'co.za', 'com.sg', 'com.my',
+  // Europe & Middle East (Oct 2026): without these, every Turkish or Israeli outlet counted as one publisher
+  'com.tr', 'org.tr', 'gen.tr', 'co.il', 'org.il', 'com.ua', 'org.ua', 'com.eg', 'co.ma', 'com.lb', 'com.jo',
+  'com.iq', 'co.ir', 'com.tn', 'com.cy', 'com.mk', 'co.rs', 'org.rs', 'com.pl', 'com.ge', 'com.mt', 'co.at', 'or.at']);
 
 /** Ownership group for counting *independent* publishers: sister titles collapse
  *  ("economictimes.indiatimes.com" and "timesofindia.indiatimes.com" → "indiatimes.com"). */
@@ -56,6 +59,8 @@ const BLOCKED_PUBLISHERS = new Set([
   'wikipedia.org', 'blogspot.com', 'wordpress.com', 'medium.com', 'substack.com', 'wenxuecity.com',
   // personal blogs that re-post others' reporting (not newsrooms)
   'voiceofvienna.org', 'rightspeak.net', 'yourdemocracy.net',
+  // re-post wire copy under their own headline (seen in second-newsroom search results)
+  'marketscreener.com', 'globalbankingandfinance.com', 'newscord.org', 'breakingbelizenews.com',
 ]);
 
 export function hostOf(url: string): string {

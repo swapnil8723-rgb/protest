@@ -10,7 +10,7 @@ export type Scope = 'local' | 'multi-city' | 'nationwide';
 export interface Article {
   url: string;
   publisher: string; // registrable-ish host, e.g. thehindu.com
-  via: 'gdelt' | 'rss';
+  via: 'gdelt' | 'rss' | 'search'; // search = found looking for a second newsroom (corroborate.ts)
   firstSeenAt: string; // ISO — when the pipeline first saw it
   title?: string;
   description?: string;
@@ -122,6 +122,7 @@ export interface ProtestEvent {
   approvedFor?: string[]; // reasons a human already cleared
   notReal?: string; // summary step judged the sources not to describe a real protest
   mergedInto?: string; // id of the event this duplicate was folded into (scripts/merge-events.ts); its URL redirects there
+  searchedAt?: string; // last time corroborate.ts looked for a second newsroom
   withdrawn?: string; // owner took it off the site (reason); never republished, its URL redirects to the country page
   isOngoing: boolean;
   published: boolean;

@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { deflateRawSync } from 'node:zlib';
 import { knownEvents } from '../pipeline/classify.ts';
+import { toSearch } from '../pipeline/corroborate.ts';
 import { independentGroups, newEvent, findSimilar } from '../pipeline/events.ts';
 import { parseEvents } from '../pipeline/gdelt.ts';
 import { resolvePlace } from '../pipeline/geo.ts';
@@ -258,4 +259,19 @@ test('looksLikeProtest: war strikes are not walkouts, labour strikes still count
   assert.equal(looksLikeProtest('Air traffic controllers call a strike'), true); // "call a strike", not "air strike"
   assert.equal(looksLikeProtest('Mothers of prisoners of war rally in Kyiv after missile strike'), true);
   assert.equal(looksLikeProtest('Grève générale : la mobilisation continue à Paris'), true);
+});
+
+test('second-newsroom search picks fresh single-source candidates, shared across countries', () => {
+  const now = Date.parse('2026-10-05T12:00:00Z');
+  const mk = (country: string, h: number, over: Partial<ProtestEvent> = {}) =>
+    Object.assign(newEvent('t', { ...place, country }, '2026-10-05', [], Math.random().toString()), { lastReportAt: new Date(now - h * 3.6e6).toISOString() }, over);
+  const ins = Array.from({ length: 5 }, (_, i) => mk('in', i + 1));
+  const us = mk('us', 10);
+  const old = mk('us', 60);
+  const recent = mk('us', 2, { searchedAt: new Date(now - 3.6e6).toISOString() });
+  const two = mk('fr', 1);
+  const pubs = (id: string) => new Set(id === two.id ? ['a.com', 'b.com'] : ['a.com']);
+  const picked = toSearch([...ins, us, old, recent, two], pubs, 3, now);
+  assert.deepEqual(picked.map((e) => e.id), [ins[0].id, us.id, ins[1].id]); // round-robin by country
+  assert.equal(publisherOf('https://www.dailysabah.com.tr/x'), 'dailysabah.com.tr');
 });
