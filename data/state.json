@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-25",
-  "count": 96
+  "count": 126
  },
  "runs": [
-  {
-   "at": "2026-10-18T19:28:42.510Z",
-   "ms": 335018,
-   "discovered": 47,
-   "fetched": 44,
-   "classified": 39,
-   "protests": 21,
-   "summarized": 8,
-   "published": 94,
-   "live": 14,
-   "aiCalls": 19,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 14 files, 42 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 22 protest-word items",
-    "fetch: 44 ok, 3 failed",
-    "classify: new candidate ecde355f8f7 \"Residents hold No Kings early voting rally at Kansas Capitol\" (Topeka)",
-    "classify: new candidate ea249c1094b \"ABVP holds student rally in Lucknow against political anarchy\" (Lucknow)",
-    "classify: new candidate efd69cdfa5e \"No Kings rally promotes early voting in Yolo County\" (West Sacramento)",
-    "classify: new candidate efbbe3f2f2c \"Farmers sit-in protest against power outages\" (Sangareddi)",
-    "classify: new candidate ebe1f9c3d4f \"No Kings rallies push early voting in Exeter\" (Exeter)",
-    "classify: new candidate e89a7acac4b \"No Kings rally promotes early voting in Northampton\" (Northampton)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-18T20:49:33.711Z",
    "ms": 58419,
@@ -1386,8 +1358,37 @@
     "translate: 20 events"
    ],
    "translated": 20
+  },
+  {
+   "at": "2026-10-25T11:38:25.110Z",
+   "ms": 407568,
+   "discovered": 95,
+   "fetched": 86,
+   "classified": 76,
+   "protests": 39,
+   "summarized": 12,
+   "published": 162,
+   "live": 16,
+   "aiCalls": 30,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 16 files, 46 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 244 protest-word items",
+    "search: 25 single-source stories checked, 30 other newsrooms found",
+    "fetch: 86 ok, 9 failed",
+    "classify: new candidate e4d5248920e \"Students block ULB campus over tuition fee hike\" (Brussels)",
+    "classify: new candidate eba237381c4 \"RSS holds Vijayadashami route marches across Tamil Nadu\" (Chennai)",
+    "classify: new candidate ee64f956b9f \"NCRI supporters rally against executions in Iran\" (Gothenburg)",
+    "classify: new candidate e13ec8760c4 \"Protesters march in Berlin and Hanover for Palestine\" (Berlin)",
+    "classify: new candidate e778cb891bc \"Protests in Italian cities over living costs, fuel prices and war\" (Rome)",
+    "classify: new candidate e5e87e2c78c \"RSS holds Vijayadashami route marches across Karnataka\" (Bengaluru)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 11 events"
+   ],
+   "translated": 11
   }
  ],
- "gdeltCursor": "20261025074500",
- "lastRunAt": "2026-10-25T07:44:02.673Z"
+ "gdeltCursor": "20261025114500",
+ "lastRunAt": "2026-10-25T11:38:25.110Z"
 }
