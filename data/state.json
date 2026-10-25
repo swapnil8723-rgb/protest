@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-25",
-  "count": 220
+  "count": 249
  },
  "runs": [
-  {
-   "at": "2026-10-19T07:44:01.354Z",
-   "ms": 197026,
-   "discovered": 44,
-   "fetched": 42,
-   "classified": 34,
-   "protests": 19,
-   "summarized": 7,
-   "published": 97,
-   "live": 15,
-   "aiCalls": 16,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261019074500 http://data.gdeltproject.org/gdeltv2/20261019074500.export.CSV.zip → 404",
-    "gdelt: 13 files, 39 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 27 protest-word items",
-    "fetch: 42 ok, 2 failed",
-    "classify: new candidate eac5108357e \"Port workers suspend hunger strike over port terminal lease\" (Chattogram)",
-    "classify: new candidate ee71a0e2d7a \"Her Health, Her Future coalition holds anti-abortion rally\" (Jefferson City)",
-    "classify: new candidate e7c7a8a478d \"Kuki group announces highway shutdown over village attacks\" (Guwahati)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-19T13:26:03.636Z",
    "ms": 796265,
@@ -1411,8 +1385,36 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-10-25T23:18:45.348Z",
+   "ms": 307230,
+   "discovered": 88,
+   "fetched": 77,
+   "classified": 65,
+   "protests": 39,
+   "summarized": 12,
+   "published": 169,
+   "live": 14,
+   "aiCalls": 29,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 15 files, 44 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 211 protest-word items",
+    "search: 16 single-source stories checked, 18 other newsrooms found",
+    "fetch: 77 ok, 11 failed",
+    "classify: new candidate e98177271f1 \"Demonstrators protest across France over cost of living and schools\" (Rennes)",
+    "classify: new candidate ec7f6104bf7 \"BJP nationwide protest against Congress president Kharge remarks\" (Patna)",
+    "classify: new candidate e145b27191a \"Syrian protesters burn Israeli flag and protest IDF strikes\" (Idlib)",
+    "classify: new candidate e218a18d697 \"Far-right demonstration outside Edinburgh Castle\" (Edinburgh)",
+    "summary: ed7734df8ad judged not real: The sources report a scheduled protest announcement for October 26, 2026, but do not describe any physical protest action that has already taken place.",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 10 events"
+   ],
+   "translated": 10
   }
  ],
- "gdeltCursor": "20261025193000",
- "lastRunAt": "2026-10-25T19:28:42.772Z"
+ "gdeltCursor": "20261025231500",
+ "lastRunAt": "2026-10-25T23:18:45.348Z"
 }
