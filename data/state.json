@@ -1,36 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-24",
-  "count": 178
+  "day": "2026-10-25",
+  "count": 44
  },
  "runs": [
-  {
-   "at": "2026-10-18T13:48:37.855Z",
-   "ms": 201428,
-   "discovered": 49,
-   "fetched": 48,
-   "classified": 43,
-   "protests": 24,
-   "summarized": 10,
-   "published": 92,
-   "live": 12,
-   "aiCalls": 22,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 10 files, 42 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 31 protest-word items",
-    "fetch: 48 ok, 1 failed",
-    "classify: new candidate e2728ef2dd5 \"Demonstrators clash and loot shops during living cost protest\" (Montpellier)",
-    "classify: new candidate eeefd4efa60 \"Protesters clash with police in Paris over living costs\" (Paris)",
-    "classify: new candidate e521c0c43b4 \"French students and unions stage nationwide economic protests\" (Marseille)",
-    "classify: new candidate e783788f187 \"French students and unions stage nationwide economic protests\" (Paris)",
-    "classify: new candidate e508e04b6b1 \"Americans hold No Kings rallies for midterm voter turnout\" (Atlanta)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 8 events"
-   ],
-   "translated": 8
-  },
   {
    "at": "2026-10-18T15:55:14.450Z",
    "ms": 191815,
@@ -1375,8 +1348,36 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-25T04:23:39.064Z",
+   "ms": 442563,
+   "discovered": 118,
+   "fetched": 107,
+   "classified": 100,
+   "protests": 61,
+   "summarized": 19,
+   "published": 151,
+   "live": 13,
+   "aiCalls": 44,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 21 files, 63 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 231 protest-word items",
+    "search: 25 single-source stories checked, 43 other newsrooms found",
+    "fetch: 107 ok, 11 failed",
+    "classify: new candidate e3fbd83c391 \"Casino workers strike and picket in Everett\" (Everett)",
+    "classify: new candidate e925fb811fb \"Protesters clash with police and burn bank in Tours\" (Tours)",
+    "classify: new candidate ea1498f4668 \"Teachers and education workers rally across Ontario for funding\" (Toronto)",
+    "classify: new candidate e7f5e02f8cc \"Villagers clash with police over dumping yard in Faridabad\" (Faridabad)",
+    "classify: new candidate ef66693d7c9 \"Young people march in Italian cities over costs and policies\" (Milan)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 16 events"
+   ],
+   "translated": 16
   }
  ],
- "gdeltCursor": "20261024231500",
- "lastRunAt": "2026-10-24T23:19:02.787Z"
+ "gdeltCursor": "20261025043000",
+ "lastRunAt": "2026-10-25T04:23:39.064Z"
 }
