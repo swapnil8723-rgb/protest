@@ -32,15 +32,15 @@ jobs:
         if: env.HAS_AI != 'true'
         run: echo "::notice::Add GEMINI_API_KEY (or ANTHROPIC_API_KEY) as a repo secret to start the pipeline."
 
-      # GitHub's timer and the Vercel /api/tick backup can both fire: run once per window
-      # (40 min: two timers ~30 min apart never double up, hourly boosts still run).
-      - name: Skip if a run started in the last 40 minutes
+      # GitHub's timer and the hourly Vercel /api/tick backup can both fire: run once per
+      # window (90 min: a tick-started run covers the GitHub slot that follows it).
+      - name: Skip if a run started in the last 90 minutes
         if: github.event_name == 'schedule'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           last=$(gh run list -R "$GITHUB_REPOSITORY" --workflow pipeline.yml --limit 5 --json databaseId,createdAt             --jq "[.[] | select(.databaseId != ${{ github.run_id }})][0].createdAt // empty")
-          if [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 2400 ]; then
+          if [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 5400 ]; then
             echo "Run started at $last; skipping this one."; echo "SKIP=true" >> "$GITHUB_ENV"
           fi
 

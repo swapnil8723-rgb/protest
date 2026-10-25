@@ -1,7 +1,9 @@
-// GET /api/tick — Vercel Cron (see vercel.json "crons") calls this every 3 hours as a backup
-// for GitHub's own schedule, which can skip runs for hours on small repos. If no pipeline
-// run started in the last 120 minutes, it starts one (workflow_dispatch). (150 let a
-// missed GitHub slot become a ~5-hour gap: ticks are 3 h apart.)
+// GET /api/tick — Vercel Cron (see vercel.json "crons") calls this every hour as a backup
+// for GitHub's own schedule, which runs up to 2 h late or not at all on small repos. If no
+// pipeline run started in the last 165 minutes, it starts one (workflow_dispatch). Ticks were
+// 3 h apart until 25 Oct 2026; with Hobby's up-to-an-hour cron delay a missed GitHub slot
+// became a 5-hour gap ("checks paused" banner). Ticks are free; Actions minutes are not, so
+// the threshold stays just under the 3-hour cadence and the workflow skips doubles.
 // Needs: CRON_SECRET (Vercel sends it as a Bearer token) and GITHUB_DISPATCH_TOKEN
 // (fine-grained token, this repo only, "Actions: read and write").
 const REPO =
@@ -9,7 +11,7 @@ const REPO =
   (process.env.VERCEL_GIT_REPO_OWNER && process.env.VERCEL_GIT_REPO_SLUG
     ? `${process.env.VERCEL_GIT_REPO_OWNER}/${process.env.VERCEL_GIT_REPO_SLUG}`
     : 'swapnil8723-rgb/protest');
-const RECENT_MINUTES = 120;
+const RECENT_MINUTES = 165;
 
 const json = (status: number, body: object) =>
   new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json', 'cache-control': 'no-store' } });
