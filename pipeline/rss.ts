@@ -47,6 +47,13 @@ export const FEEDS = [
   'https://civil.ge/feed',
   'https://www.rte.ie/feeds/rss/?index=/news/',
   'https://www.thelocal.se/feeds/rss.php',
+  // Portugal, Belgium, Austria (Portugal Resident serves no article text; dropped)
+  'https://www.rtp.pt/noticias/rss',
+  'https://www.theportugalnews.com/rss',
+  'https://www.theguardian.com/world/portugal/rss',
+  'https://www.theguardian.com/world/belgium/rss',
+  'https://www.derstandard.at/rss',
+  'https://www.theguardian.com/world/austria/rss',
   // Ukraine and Russia (war "strikes" are filtered out by looksLikeProtest)
   'https://www.theguardian.com/world/ukraine/rss',
   'https://www.theguardian.com/world/russia/rss',

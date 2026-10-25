@@ -273,5 +273,8 @@ test('second-newsroom search picks fresh single-source candidates, shared across
   const pubs = (id: string) => new Set(id === two.id ? ['a.com', 'b.com'] : ['a.com']);
   const picked = toSearch([...ins, us, old, recent, two], pubs, 3, now);
   assert.deepEqual(picked.map((e) => e.id), [ins[0].id, us.id, ins[1].id]); // round-robin by country
+  two.stage = 'live';
+  two.reviewReasons = ['low-confidence', 'sources-disagree']; // held for a third newsroom
+  assert.ok(toSearch([two], pubs, 3, now).includes(two));
   assert.equal(publisherOf('https://www.dailysabah.com.tr/x'), 'dailysabah.com.tr');
 });

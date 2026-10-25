@@ -43,13 +43,16 @@ async function decode(link: string): Promise<string | undefined> {
   return url && /^https?:\/\//.test(url) ? url : undefined;
 }
 
-/** Fresh single-newsroom candidates, newest first, taken in turn from each country. */
+/** Fresh stories one newsroom short, newest first, taken in turn from each country: single-source
+ *  candidates, and confirmed events held for a third newsroom (harm, or sources that disagree). */
 export function toSearch(events: Iterable<ProtestEvent>, publishersOf: (id: string) => Set<string>, max: number, now = Date.now()): ProtestEvent[] {
   const byCountry = new Map<string, ProtestEvent[]>();
   for (const e of [...events].sort((a, b) => (a.lastReportAt < b.lastReportAt ? 1 : -1))) {
-    if (e.stage !== 'candidate' || e.notReal || e.mergedInto || e.withdrawn || e.review === 'rejected') continue;
+    if (e.notReal || e.mergedInto || e.withdrawn || e.review === 'rejected') continue;
     if (hoursSince(e.lastReportAt, now) > 48 || (e.searchedAt && hoursSince(e.searchedAt, now) < 12)) continue;
-    if (publishersOf(e.id).size !== 1) continue;
+    const n = publishersOf(e.id).size;
+    const held = e.stage === 'live' && !e.published && n < 3 && e.reviewReasons.some((r) => r !== 'low-confidence' && r !== 'top-10');
+    if (!(e.stage === 'candidate' && n === 1) && !held) continue;
     (byCountry.get(e.place.country) ?? byCountry.set(e.place.country, []).get(e.place.country)!).push(e);
   }
   const out: ProtestEvent[] = [];
