@@ -1,33 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-25",
-  "count": 164
+  "count": 191
  },
  "runs": [
-  {
-   "at": "2026-10-18T23:17:44.128Z",
-   "ms": 72385,
-   "discovered": 23,
-   "fetched": 22,
-   "classified": 19,
-   "protests": 7,
-   "summarized": 3,
-   "published": 94,
-   "live": 13,
-   "aiCalls": 6,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261018224500 http://data.gdeltproject.org/gdeltv2/20261018224500.export.CSV.zip → 404",
-    "gdelt: 9 files, 18 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 32 protest-word items",
-    "fetch: 22 ok, 1 failed",
-    "classify: new candidate eb0a4b62ad0 \"Residents hold No Kings early voting rally in Westfield\" (Westfield)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 1 events"
-   ],
-   "translated": 1
-  },
   {
    "at": "2026-10-19T04:27:50.294Z",
    "ms": 168176,
@@ -1400,8 +1376,38 @@
     "translate: 14 events"
    ],
    "translated": 14
+  },
+  {
+   "at": "2026-10-25T16:28:24.548Z",
+   "ms": 311615,
+   "discovered": 52,
+   "fetched": 49,
+   "classified": 45,
+   "protests": 28,
+   "summarized": 12,
+   "published": 165,
+   "live": 15,
+   "aiCalls": 27,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261025154500 http://data.gdeltproject.org/gdeltv2/20261025154500.export.CSV.zip → 404",
+    "gdelt: 7 files, 20 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 219 protest-word items",
+    "search: 20 single-source stories checked, 25 other newsrooms found",
+    "fetch: 49 ok, 3 failed",
+    "classify: new candidate e9653c9b877 \"RSS holds Vijayadashami route marches in Tamil Nadu\" (Tiruchirappalli)",
+    "classify: new candidate e44d11b4122 \"MEK Resistance Units burn Ali Khamenei mural in Rask\" (Rasak)",
+    "classify: new candidate e7537573b32 \"Villagers stage Jal Satyagraha protest against nuclear plant in Rewa\" (Rewa)",
+    "classify: new candidate e79429a3766 \"Cllashes between far-right militants and protesters in Nice\" (Nice)",
+    "classify: new candidate ebe8f5e3439 \"Protesters clash with police and storm Colosseum in Rome\" (Rome)",
+    "classify: new candidate ec1b52a78f1 \"Demonstrations at German airports against migrant deportations\" (Munich)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 11 events"
+   ],
+   "translated": 11
   }
  ],
- "gdeltCursor": "20261025144500",
- "lastRunAt": "2026-10-25T14:48:46.931Z"
+ "gdeltCursor": "20261025163000",
+ "lastRunAt": "2026-10-25T16:28:24.548Z"
 }
