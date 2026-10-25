@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-25",
-  "count": 191
+  "count": 220
  },
  "runs": [
-  {
-   "at": "2026-10-19T04:27:50.294Z",
-   "ms": 168176,
-   "discovered": 74,
-   "fetched": 73,
-   "classified": 56,
-   "protests": 35,
-   "summarized": 6,
-   "published": 96,
-   "live": 16,
-   "aiCalls": 16,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 21 files, 69 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 26 protest-word items",
-    "fetch: 73 ok, 1 failed",
-    "classify: new candidate e04444a9122 \"Queens community group rallies to shut down brothel\" (New York City)",
-    "classify: new candidate ef1c0959f01 \"Protesters hold hunger strike outside Georgia Capitol over ICE conditions\" (Atlanta)",
-    "classify: new candidate e43e51daf6c \"Sabarimala pilgrims block road over transport shortages\" (Pathanamthitta)",
-    "classify: new candidate ee8fc8e8bba \"French demonstrators riot and loot over living costs and schools\" (Limoges)",
-    "classify: new candidate e069bd0f398 \"French students and protesters clash and burn town hall\" (Limoges)",
-    "classify: new candidate e9c98ee3062 \"Demonstrators riot and loot in European cities\" (Paris)",
-    "classify: new candidate e651e8c70cd \"Clashes erupt in Thoubal district prompting prohibitory orders\" (Thoubal)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-19T07:44:01.354Z",
    "ms": 197026,
@@ -1406,8 +1377,42 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-10-25T19:28:42.772Z",
+   "ms": 303150,
+   "discovered": 73,
+   "fetched": 68,
+   "classified": 62,
+   "protests": 31,
+   "summarized": 12,
+   "published": 166,
+   "live": 16,
+   "aiCalls": 29,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261025184500 http://data.gdeltproject.org/gdeltv2/20261025184500.export.CSV.zip → 404",
+    "gdelt: 20261025190000 http://data.gdeltproject.org/gdeltv2/20261025190000.export.CSV.zip → 404",
+    "gdelt: 20261025193000 http://data.gdeltproject.org/gdeltv2/20261025193000.export.CSV.zip → 404",
+    "gdelt: 12 files, 38 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.theportugalnews.com: 500",
+    "rss: 202 protest-word items",
+    "search: 6 single-source stories checked, 8 other newsrooms found",
+    "fetch: 68 ok, 5 failed",
+    "classify: new candidate e39b50a43f7 \"Lawyers protest demolition of chambers in Lucknow\" (Lucknow)",
+    "classify: new candidate e23a46b1767 \"Bus transport workers protest salary delays in Lucknow\" (Lucknow)",
+    "classify: new candidate ecc81f07b73 \"Students and activists protest in Mumbai over tribal school conditions\" (Mumbai)",
+    "classify: new candidate efd8be028b4 \"Candlelight vigil in Mumbai for IIT Bombay student\" (Mumbai)",
+    "classify: new candidate ed3d0f4e870 \"PCP leader criticises police action during Lisbon housing protests\" (Porto)",
+    "classify: new candidate ed7734df8ad \"BJP announces nationwide protests against Kharge's remarks\" (Delhi)",
+    "classify: new candidate e5ee4c13af8 \"Thousands protest Czech government public media funding overhaul\" (Prague)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 11 events"
+   ],
+   "translated": 11
   }
  ],
- "gdeltCursor": "20261025163000",
- "lastRunAt": "2026-10-25T16:28:24.548Z"
+ "gdeltCursor": "20261025193000",
+ "lastRunAt": "2026-10-25T19:28:42.772Z"
 }

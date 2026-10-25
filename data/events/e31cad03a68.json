@@ -2,7 +2,7 @@
  "id": "e31cad03a68",
  "slug": "orleans-anti-rn-congress-march-oct-2026",
  "stage": "live",
- "title": "Demonstration in Orléans against National Rally party congress",
+ "title": "Protest in Orléans Against National Rally Party Congress",
  "seoTitle": "Orléans march against National Rally congress",
  "place": {
   "city": "Orléans",
@@ -15,7 +15,7 @@
  },
  "scope": "local",
  "causes": [
-  "governance",
+  "anti-government",
   "immigration"
  ],
  "kind": "one-day",
@@ -23,18 +23,16 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "sources-disagree"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "To protest against the National Rally party congress and its far-right ideology ahead of the upcoming presidential campaign launch.",
-  "want": "To oppose racism, fascism, and the political influence of the National Rally and Marine Le Pen.",
-  "changed": "Oct 24: Thousands marched peacefully through Orléans under heavy police deployment."
+  "why": "Protesters gathered to oppose the far-right National Rally party and its leader Marine Le Pen as they held their national congress in Orléans.",
+  "want": "Demonstrators demanded an end to far-right influence, rejecting racism, fascism, and policies targeting immigrants and dual nationals.",
+  "changed": "Oct 24: Thousands marched peacefully through Orléans under heavy security while the National Rally held its party congress."
  },
- "summary": "Thousands of demonstrators gathered in Orléans on Saturday to protest against the National Rally (RN) party congress and the presidential campaign launch of Marine Le Pen. Around 50 political parties, trade unions, and associations called for the mobilization, with leaders such as Socialist Party chief Olivier Faure and CGT head Sophie Binet participating. Protesters chanted slogans against both the far-right party and centrist President Emmanuel Macron, carrying banners opposing fascism and xenophobia. Authorities deployed nearly 3,000 police officers, gendarmes, armoured vehicles, and helicopters, and modified the march route at the last minute to avoid the city center. Despite heavy security and boarded-up storefronts, the demonstration proceeded largely without major clashes.",
+ "summary": "Thousands of demonstrators gathered in Orléans on Saturday, October 24, 2026, to protest against the National Rally (RN) party holding its national congress ahead of Marine Le Pen's presidential campaign launch. Around 50 political parties, trade unions, and associations called for the march to oppose what they described as racism, fascism, and imperialism. Prominent figures such as La France insoumise mayor Bally Bagayoko, Socialist Party leader Olivier Faure, and CGT trade union chief Sophie Binet attended the mobilization. Protesters chanted slogans against both Marine Le Pen and President Emmanuel Macron, carrying placards denouncing the far-right. Authorities deployed heavy security measures, including nearly 3,000 police officers and gendarmes, armored vehicles, helicopters, and drones, and modified the march route out of the city center.",
  "organizers": [
   "CGT",
   "La France insoumise",
@@ -43,30 +41,37 @@
   "Sud PTT"
  ],
  "demands": [
-  "Reject racism, fascism, and imperialism",
-  "Oppose the National Rally party and its policies",
-  "Protest against government policies and the cost of living"
+  "Reject far-right politics and fascism",
+  "Oppose discriminatory policies against immigrants and dual nationals",
+  "Demand the resignation of President Emmanuel Macron"
  ],
- "response": "Authorities deployed nearly 3,000 police officers and gendarmes, armoured vehicles, helicopters, and drones, and imposed a last-minute route change for the march. The city also implemented a nighttime curfew for children under 15, according to Euronews and Spiegel.",
+ "response": "Authorities deployed nearly 3,000 police and gendarmes, armored vehicles, helicopters, and drones. The local prefecture rerouted the protest outside the city center, and the mayor instituted a nighttime curfew for children under 15.",
  "numbers": {
   "crowd": {
-   "value": 13000,
-   "text": "about 13,000 people according to the local prefecture, while other sources estimated between 20,000 and 30,000",
+   "value": 11000,
+   "text": "local prefecture officials reporting 11,000 protesters gathered by noon",
    "sources": [
-    3,
-    5,
     7
    ]
   }
  },
  "updates": [
   {
+   "at": "2026-10-23",
+   "text": "The Loiret prefecture modified the protest route to take place outside the city center.",
+   "sources": [
+    1
+   ]
+  },
+  {
    "at": "2026-10-24",
-   "text": "Thousands of protesters marched in Orléans on Saturday against the National Rally congress.",
+   "text": "Thousands of demonstrators marched in Orléans against the National Rally party congress under heavy police deployment.",
    "sources": [
     2,
     3,
-    5
+    4,
+    5,
+    7
    ]
   }
  ],
@@ -115,160 +120,162 @@
   },
   {
    "n": 7,
+   "url": "https://www.sentinelassam.com/more-news/international/french-police-arrest-135-people-amid-protests-in-orl%C3%A9ans",
+   "publisher": "sentinelassam.com",
+   "title": "French police arrest 135 people amid protests in Orléans",
+   "publishedAt": "2026-10-25T15:29:46.000Z"
+  },
+  {
+   "n": 8,
    "url": "https://www.derstandard.at/story/3000000345908/marine-le-pen-lanciert-wahlkampagne-gegen-starken-widerstand",
    "publisher": "derstandard.at",
    "title": "Marine Le Pen lanciert Wahlkampagne gegen starken Widerstand",
    "publishedAt": "2026-10-25T15:57:37.000Z"
   }
  ],
- "conflicts": [
-  "The local prefecture stated that about 13,000 people attended, while other estimates ranged from 20,000 to 30,000."
- ],
- "confidence": 0.8,
- "publishers": 7,
+ "conflicts": [],
+ "confidence": 0.95,
+ "publishers": 8,
  "reports24h": 2,
- "reportsPrev24h": 8,
- "reports48h": 10,
+ "reportsPrev24h": 9,
+ "reports48h": 11,
  "firstSeenAt": "2026-10-24T01:06:35.891Z",
  "lastReportAt": "2026-10-25T15:57:37.000Z",
- "lastCheckedAt": "2026-10-25T16:31:39.846Z",
- "updatedAt": "2026-10-25T16:30:45.618Z",
+ "lastCheckedAt": "2026-10-25T19:31:46.847Z",
+ "updatedAt": "2026-10-25T19:30:46.770Z",
  "responseSources": [
+  1,
   3,
+  4,
   5
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-25T16:30:45.618Z",
- "summaryOf": "796683e8cf12",
+ "summarizedAt": "2026-10-25T19:30:46.770Z",
+ "summaryOf": "2d139420abe7",
  "publishedAt": "2026-10-24T16:04:50.046Z",
  "i18n": {
-  "of": "8aece06b9a23a76c",
-  "at": "2026-10-25T16:33:18.484Z",
+  "of": "6ef418e721190a41",
+  "at": "2026-10-25T19:33:45.475Z",
   "tries": 1,
   "hi": {
-   "title": "नेशनल रैली पार्टी के कांग्रेस के खिलाफ ऑरलियन्स में प्रदर्शन",
-   "seoTitle": "नेशनल रैली कांग्रेस के खिलाफ ऑरलियन्स मार्च",
+   "title": "नेशनल रैली पार्टी के कांग्रेस के खिलाफ ऑरलियन्स में विरोध प्रदर्शन",
+   "seoTitle": "नेशनल रैली कांग्रेस के खिलाफ ऑरलियन्स में मार्च",
    "tea": {
-    "why": "आगामी राष्ट्रपति अभियान की शुरुआत से पहले नेशनल रैली पार्टी के कांग्रेस और उसकी सुदूर-दक्षिणपंथी विचारधारा के विरोध में।",
-    "want": "नस्लवाद, फासीवाद और नेशनल रैली तथा मरीन ले पेन के राजनीतिक प्रभाव का विरोध करना।",
-    "changed": "24 अक्टूबर: भारी पुलिस तैनाती के बीच हजारों लोगों ने ऑरलियन्स में शांतिपूर्ण मार्च निकाला।"
+    "why": "ऑरलियन्स में नेशनल रैली पार्टी और उसकी नेता मारिन ले पेन द्वारा अपना राष्ट्रीय कांग्रेस आयोजित करने के विरोध में प्रदर्शनकारी एकत्र हुए।",
+    "want": "प्रदर्शकारियों ने दूर-दराज के दक्षिणपंथ के प्रभाव को समाप्त करने की मांग की, और नस्लवाद, फासीवाद तथा प्रवासियों व दोहरी नागरिकता वाले लोगों को निशाना बनाने वाली नीतियों को खारिज कर दिया।",
+    "changed": "24 अक्टूबर: भारी सुरक्षा के बीच नेशनल रैली द्वारा अपनी पार्टी कांग्रेस आयोजित किए जाने के दौरान हजारों लोगों ने ऑरलियन्स में शांतिपूर्ण मार्च निकाला।"
    },
-   "summary": "नेशनल रैली (RN) पार्टी के कांग्रेस और मरीन ले पेन के राष्ट्रपति अभियान की शुरुआत के विरोध में शनिवार को ऑरलियन्स में हजारों प्रदर्शनकारी एकत्र हुए। लगभग 50 राजनीतिक दलों, ट्रेड यूनियनों और संगठनों ने इस लामबंदी का आह्वान किया था, जिसमें सोशलिस्ट पार्टी के प्रमुख ओलिवियर फॉरे और सीजीटी की प्रमुख सोफी बिनेट जैसे नेता शामिल हुए। प्रदर्शनकारियों ने दूर-दक्षिणपंथी पार्टी और केंद्रवादी राष्ट्रपति इमैनुएल मैक्रोन दोनों के खिलाफ नारे लगाए, तथा फासीवाद और ज़ेनोफ़ोबिया का विरोध करने वाले बैनर उठाए। अधिकारियों ने लगभग 3,000 पुलिस अधिकारियों, जेंडरम, बख्तरबंद वाहनों और हेलीकॉप्टरों को तैनात किया, और शहर के केंद्र से बचने के लिए अंतिम समय में मार्च के मार्ग में संशोधन किया। भारी सुरक्षा और बोर्ड लगे स्टोरफ्रंट के बावजूद, प्रदर्शन बड़े पैमाने पर बिना किसी बड़े संघर्ष के आगे बढ़ा।",
+   "summary": "मारिन ले पेन के राष्ट्रपति पद के अभियान की शुरुआत से पहले नेशनल रैली (RN) पार्टी द्वारा अपनी राष्ट्रीय कांग्रेस आयोजित किए जाने के विरोध में शनिवार, 24 अक्टूबर 2026 को ऑरलियन्स में हजारों प्रदर्शनकारी एकत्र हुए। लगभग 50 राजनीतिक दलों, ट्रेड यूनियनों और संगठनों ने उस विचारधारा के विरोध में मार्च का आह्वान किया जिसे उन्होंने नस्लवाद, फासीवाद और साम्राज्यवाद बताया। ला फ्रांस इन्सौमीस के मेयर बाली बगायोको, सोशलिस्ट पार्टी के नेता ओलिविए फोर और सीजीटी ट्रेड यूनियन प्रमुख सोफी बिनेट जैसी प्रमुख हस्तियां इस लामबंदी में शामिल हुईं। प्रदर्शनकारियों ने मारिन ले पेन और राष्ट्रपति इमैनुएल मैक्रोन दोनों के खिलाफ नारे लगाए और दूर-दराज के दक्षिणपंथ की निंदा करने वाले तख्तियां उठाईं। अधिकारियों ने लगभग 3,000 पुलिस अधिकारियों और जेंडरमे, बख्तरबंद वाहनों, हेलीकॉप्टरों और ड्रोनों सहित भारी सुरक्षा उपाय तैनात किए और शहर के केंद्र से मार्च का मार्ग बदल दिया।",
    "demands": [
-    "नस्लवाद, फासीवाद और साम्राज्यवाद को अस्वीकार करें",
-    "नेशनल रैली पार्टी और उसकी नीतियों का विरोध करें",
-    "सरकारी नीतियों और जीवनयापन की लागत के खिलाफ प्रदर्शन करें"
+    "दूर-दराज के दक्षिणपंथी राजनीति और फासीवाद को अस्वीकार करें",
+    "प्रवासियों और दोहरी राष्ट्रीयता वाले लोगों के खिलाफ भेदभावपूर्ण नीतियों का विरोध करें",
+    "राष्ट्रपति इमैनुएल मैक्रोन के इस्तीफे की मांग करें"
    ],
-   "response": "यूरॉन्यूज और स्पीगल के अनुसार, अधिकारियों ने लगभग 3,000 पुलिस अधिकारियों और जेंडरम, बख्तरबंद वाहनों, हेलीकॉप्टरों और ड्रोन को तैनात किया, और मार्च के लिए अंतिम समय में मार्ग परिवर्तन लागू किया। शहर ने 15 वर्ष से कम उम्र के बच्चों के लिए रात का कर्फ्यू भी लागू किया।",
+   "response": "अधिकारियों ने लगभग 3,000 पुलिस और जेंडरमे, बख्तरबंद वाहन, हेलीकॉप्टर और ड्रोन तैनात किए। स्थानीय प्रांतीय कार्यालय ने शहर के केंद्र के बाहर विरोध प्रदर्शन का मार्ग बदल दिया, और मेयर ने 15 वर्ष से कम उम्र के बच्चों के लिए रात्रि कफ्र्यू लागू किया।",
    "updates": [
-    "नेशनल रैली कांग्रेस के खिलाफ शनिवार को ऑरलियन्स में हजारों प्रदर्शनकारियों ने मार्च किया।"
+    "लॉइरेट प्रांतीय कार्यालय ने शहर के केंद्र के बाहर आयोजित होने के लिए विरोध प्रदर्शन के मार्ग को संशोधित किया।",
+    "भारी पुलिस तैनाती के तहत नेशनल रैली पार्टी के कांग्रेस के खिलाफ ऑरलियन्स में हजारों प्रदर्शनकारियों ने मार्च किया।"
    ],
-   "conflicts": [
-    "स्थानीय प्रांतीय प्रशासन ने कहा कि लगभग 13,000 लोग शामिल हुए, जबकि अन्य अनुमानों के अनुसार यह संख्या 20,000 से 30,000 के बीच थी।"
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "स्थानीय प्रांतीय प्रशासन के अनुसार लगभग 13,000 लोग, जबकि अन्य स्रोतों का अनुमान 20,000 से 30,000 के बीच था"
+    "crowd": "स्थानीय प्रांतीय कार्यालय के अधिकारियों द्वारा दोपहर तक 11,000 प्रदर्शनकारियों के एकत्र होने की सूचना दी गई"
    }
   },
   "mr": {
    "title": "नॅशनल रॅली पक्षाच्या काँग्रेसविरोधात ऑर्लिअन्समध्ये निदर्शने",
    "seoTitle": "नॅशनल रॅली काँग्रेसविरोधात ऑर्लिअन्स मोर्चा",
    "tea": {
-    "why": "आगामी राष्ट्राध्यक्षीय मोहिमेच्या सुरुवातीपूर्वी नॅशनल रॅली पक्षाची काँग्रेस आणि त्याच्या अति-उजव्या विचारसरणीचा निषेध करण्यासाठी.",
-    "want": "वंशवाद, फॅसिझम आणि नॅशनल रॅली व मरिन ले पेन यांच्या राजकीय प्रभावाला विरोध करणे.",
-    "changed": "२४ ऑक्टोबर: मोठ्या पोलीस बंदोबस्तात हजारो लोकांनी ऑर्लिअन्समध्ये शांततापूर्ण मार्च काढला."
+    "why": "ऑर्लिअन्समध्ये अति-उजव्या नॅशनल रॅली पक्ष आणि त्यांची नेत्या मारीन ले पेन यांनी राष्ट्रीय काँग्रेस आयोजित केल्यामुळे आंदोलक त्यांच्या विरोधात जमले.",
+    "want": "निदर्शकानी अति-उजव्या प्रभावाचा अंत करण्याची मागणी केली, आणि वर्णद्वेष, फॅसिझम तसेच स्थलांतरित आणि दुहेरी राष्ट्रीयत्व असलेल्या व्यक्तींना लक्ष्य करणारी धोरणे फेटाळून लावली.",
+    "changed": "२४ ऑक्टोबर: नॅशनल रॅलीने आपली पक्षीय काँग्रेस आयोजित केली असताना कडक सुरक्षेत हजारो लोकांनी ऑर्लिअन्समध्ये शांततापूर्ण मार्च काढला."
    },
-   "summary": "नॅशनल रॅली (RN) पक्षाच्या काँग्रेस आणि मरिन ले पेन यांच्या राष्ट्राध्यक्षीय मोहिमेच्या सुरुवातीच्या विरोधात शनिवारी ऑर्लिअन्समध्ये हजारो निदर्शक जमले. सोशलिस्ट पार्टीचे प्रमुख ऑलिव्हिए फोर आणि सीजीटी प्रमुख सोफी बिनेट यांसारख्या नेत्यांच्या सहभागासह सुमारे ५० राजकीय पक्ष, कामगार संघटना आणि संस्थांनी या आंदोलनाची हाक दिली होती. निदर्शकांनी अति-उजवा पक्ष आणि मध्यमार्गी राष्ट्राध्यक्ष इमॅन्युएल मॅक्रों या दोघांच्याही विरोधात घोषणाबाजी केली, तसेच फॅसिझम आणि परदेशी द्वेषाला विरोध करणारे फलक हातात घेतले. प्रशासनाने जवळपास ३,००० पोलीस अधिकारी, जेंडरम, चिलखती वाहने आणि हेलिकॉप्टर्स तैनात केली आणि शहराच्या मधोमध जाणे टाळण्यासाठी अखेरच्या क्षणी मोर्चाचा मार्ग बदलला. कडक सुरक्षा आणि लाकडी फळ्या लावलेली दुकाने असूनही, हा मोर्चा मोठ्या संघर्षांशिवाय पार पडला.",
+   "summary": "मारीन ले पेन यांच्या राष्ट्रपतीपदाच्या मोहिमेच्या प्रारंभापूर्वी नॅशनल रॅली (RN) पक्षाने आपली राष्ट्रीय काँग्रेस आयोजित केल्याच्या निषेधार्थ शनिवार, २४ ऑक्टोबर २०२६ रोजी ऑर्लिअन्स येथे हजारो निदर्शक जमले. सुमारे ५० राजकीय पक्ष, कामगार संघटना आणि संस्थांनी वर्णद्वेष, फॅसिझम आणि साम्राज्यवाद म्हणून वर्णन केलेल्या गोष्टीचा विरोध करण्यासाठी या मोर्चानचे आवाहन केले. ला फ्रान्स इन्सोमीसचे महापौर बाली बगायोको, सोशलिस्ट पक्षाचे नेते ऑलिव्हिए फोर आणि सीजीटी कामगार संघटनेचे प्रमुख सोफी बिनेट यांसारख्या प्रमुख व्यक्ती या आंदोलनात सहभागी झाल्या. निदर्शकांनी मारीन ले पेन आणि राष्ट्रपती इमॅनुएल मॅक्राँ या दोघांच्याही विरोधात घोषणाबाजी केली आणि अति-उजव्या विचारसरणीचा निषेध करणारे फलक हातात घेतले. प्रशासनाने जवळजवळ ३,००० पोलीस अधिकारी आणि जेंडरमे, चिलखती वाहने, हेलिकॉप्टर्स आणि ड्रोन्स यांसह कडक सुरक्षा उपाययोजना तैनात केल्या आणि शहराच्या मध्यभागातून मोर्चाचा मार्ग बदलला.",
    "demands": [
-    "वंशवाद, फॅसिझम आणि साम्राज्यवाद नाकारा",
-    "नॅशनल रॅली पक्ष आणि त्याच्या धोरणांना विरोध करा",
-    "सरकारी धोरणे आणि वाढत्या महागाईच्या विरोधात निदर्शने करा"
+    "अति-उजवे राजकारण आणि फॅसिझम नाकारा",
+    "स्थलांतरित आणि दुहेरी राष्ट्रीयत्व असलेल्या लोकांवरील भेदभावपूर्ण धोरणांना विरोध करा",
+    "राष्ट्रपती इमॅनुएल मॅक्राँ यांच्या राजीनाम्याची मागणी करा"
    ],
-   "response": "युरोन्यूज आणि स्पीगलच्या मते, प्रशासनाने जवळपास ३,००० पोलीस अधिकारी आणि जेंडरम, चिलखती वाहने, हेलिकॉप्टर्स आणि ड्रोन तैनात केले, तसेच मोर्चानंतर अखेरच्या क्षणी मार्ग बदलला. या शहराने १५ वर्षांखालील मुलांसाठी रात्रीची जमावबंदी देखील लागू केली.",
+   "response": "प्रशासनाने जवळपास ३,००० पोलीस आणि जेंडरमे, चिलखती वाहने, हेलिकॉप्टर्स आणि ड्रोन्स तैनात केली. स्थानिक प्रांताधिकाऱ्यांनी शहराच्या मध्यभागाबाहेर निदर्शनाचा मार्ग वळवला, आणि महापौरांनी १५ वर्षांखालील मुलांसाठी रात्रीची जमावबंदी लागू केली.",
    "updates": [
-    "नॅशनल रॅली काँग्रेसविरोधात शनिवारी ऑर्लिअन्समध्ये हजारो निदर्शकांनी मार्च काढला."
+    "लॉइरेटने शहराच्या मध्यभागाबाहेर पार पाडण्यासाठी निदर्शनाचा मार्ग बदलला.",
+    "कडक पोलीस बंदोबस्तात नॅशनल रॅली पक्षाच्या काँग्रेसविरोधात ऑर्लिअन्समध्ये हजारो निदर्शकांनी मार्च काढला."
    ],
-   "conflicts": [
-    "स्थानिक प्रशासनाने सुमारे १३,000 लोक उपस्थित असल्याचे सांगितले, तर इतर अंदाजांनुसार हा आकडा २०,000 ते ३०,000 दरम्यान होता."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "स्थानिक प्रशासनाच्या मते सुमारे १३,000 लोक, तर इतर स्रोतांच्या मते २०,000 ते ३०,000 दरम्यान"
+    "crowd": "स्थानिक प्रांताधिकाऱ्यांच्या अधिकाऱ्यांनी दुपपर्यंत ११,000 निदर्शक जमल्याचे वृत्त दिले"
    }
   },
   "es": {
-   "title": "Manifestación en Orléans contra el congreso del partido Agrupación Nacional",
+   "title": "Protesta en Orléans contra el congreso del partido Agrupación Nacional",
    "seoTitle": "Marcha en Orléans contra congreso de Agrupación Nacional",
    "tea": {
-    "why": "Para protestar contra el congreso del partido Agrupación Nacional y su ideología de extrema derecha ante el inminente lanzamiento de la campaña presidencial.",
-    "want": "Oponerse al racismo, al fascismo y a la influencia política de Agrupación Nacional y Marine Le Pen.",
-    "changed": "24 de oct: Miles marcharon pacíficamente por Orléans bajo un fuerte despliegue policial."
+    "why": "Los manifestantes se reunieron para oponerse al partido de extrema derecha Agrupación Nacional y a su líder Marine Le Pen mientras celebraban su congreso nacional en Orléans.",
+    "want": "Los manifestantes exigieron el fin de la influencia de la extrema derecha, rechazando el racismo, el fascismo y las políticas dirigidas contra los inmigrantes y los ciudadanos con doble nacionalidad.",
+    "changed": "24 de octubre: Miles de personas marcharon pacíficamente por Orléans bajo una fuerte seguridad mientras Agrupación Nacional celebraba su congreso del partido."
    },
-   "summary": "Miles de manifestantes se congregaron el sábado en Orléans para protestar contra el congreso del partido Agrupación Nacional (RN) y el lanzamiento de la campaña presidencial de Marine Le Pen. Alrededor de 50 partidos políticos, sindicatos y asociaciones convocaron la movilización, con la participación de líderes como el jefe del Partido Socialista, Olivier Faure, y la jefa de la CGT, Sophie Binet. Los manifestantes corearon consignas contra el partido de extrema derecha y contra el presidente centrista Emmanuel Macron, portando pancartas en contra del fascismo y la xenofobia. Las autoridades desplegaron a casi 3.000 policías, gendarmes, vehículos blindados y helicópteros, y modificaron la ruta de la marcha a última hora para evitar el centro de la ciudad. A pesar de la fuerte seguridad y los escaparates tapiados, la manifestación transcurrió en gran medida sin mayores enfrentamientos.",
+   "summary": "Miles de manifestantes se reunieron en Orléans el sábado 24 de octubre de 2026 para protestar contra la celebración del congreso nacional del partido Agrupación Nacional (RN) antes del lanzamiento de la campaña presidencial de Marine Le Pen. Alrededor de 50 partidos políticos, sindicatos y asociaciones convocaron la marcha para oponerse a lo que describieron como racismo, fascismo e imperialismo. Figuras prominentes como el alcalde de La France insoumise Bally Bagayoko, el líder del Partido Socialista Olivier Faure y la jefa del sindicato CGT Sophie Binet asistieron a la movilización. Los manifestantes corearon consignas tanto contra Marine Le Pen como contra el presidente Emmanuel Macron, portando pancartas que denuncian a la extrema derecha. Las autoridades desplegaron fuertes medidas de seguridad, incluidos cerca de 3.000 agentes de policía y gendarmes, vehículos blindados, helicópteros y drones, y modificaron la ruta de la marcha fuera del centro de la ciudad.",
    "demands": [
-    "Rechazar el racismo, el fascismo y el imperialismo",
-    "Oponerse al partido Agrupación Nacional y a sus políticas",
-    "Protestar contra las políticas gubernamentales y el coste de la vida"
+    "Rechazar la política de extrema derecha y el fascismo",
+    "Oponerse a las políticas discriminatorias contra los inmigrantes y los ciudadanos con doble nacionalidad",
+    "Exigir la dimisión del presidente Emmanuel Macron"
    ],
-   "response": "Las autoridades desplegaron a casi 3.000 policías y gendarmes, vehículos blindados, helicópteros y drones, e impusieron un cambio de ruta de última hora para la marcha. La ciudad también implementó un toque de queda nocturno para menores de 15 años, según Euronews y Spiegel.",
+   "response": "Las autoridades desplegaron cerca de 3.000 policías y gendarmes, vehículos blindados, helicópteros y drones. La prefectura local reorientó la protesta fuera del centro de la ciudad, y el alcalde instituyó un toque de queda nocturno para los menores de 15 años.",
    "updates": [
-    "Miles de manifestantes marcharon el sábado en Orléans contra el congreso de Agrupación Nacional."
+    "La prefectura de Loiret modificó la ruta de la protesta para que tuviera lugar fuera del centro de la ciudad.",
+    "Miles de manifestantes marcharon en Orléans contra el congreso del partido Agrupación Nacional bajo un fuerte despliegue policial."
    ],
-   "conflicts": [
-    "La prefectura local afirmó que asistieron unas 13.000 personas, mientras que otras estimaciones oscilaron entre 20.000 y 30.000."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "unas 13.000 personas según la prefectura local, mientras que otras fuentes calcularon entre 20.000 y 30.000"
+    "crowd": "funcionarios de la prefectura local informando de que 11.000 manifestantes se reunieron al mediodía"
    }
   },
   "fr": {
-   "title": "Manifestation à Orléans contre le congrès du Rassemblement national",
+   "title": "Manifestation à Orléans contre le congrès du parti Rassemblement national",
    "seoTitle": "Marche à Orléans contre le congrès du Rassemblement national",
    "tea": {
-    "why": "Pour protester contre le congrès du parti Rassemblement national et son idéologie d'extrême droite à l'approche du lancement de la campagne présidentielle.",
-    "want": "S'opposer au racisme, au fascisme et à l'influence politique du Rassemblement national et de Marine Le Pen.",
-    "changed": "24 oct. : Des milliers de personnes ont défilé pacifiquement à Orléans sous un important déploiement policier."
+    "why": "Des manifestants se sont rassemblés pour s'opposer au parti d'extrême droite Rassemblement national et à sa cheffe Marine Le Pen alors qu'ils tenaient leur congrès national à Orléans.",
+    "want": "Les manifestants ont exigé la fin de l'influence de l'extrême droite, rejetant le racisme, le fascisme et les politiques ciblant les immigrés et les binationaux.",
+    "changed": "24 oct. : Des milliers de personnes ont défilé pacifiquement dans Orléans sous haute sécurité pendant que le Rassemblement national tenait son congrès du parti."
    },
-   "summary": "Des milliers de manifestants se sont rassemblés samedi à Orléans pour protester contre le congrès du parti Rassemblement national (RN) et le lancement de la campagne présidentielle de Marine Le Pen. Environ 50 partis politiques, syndicats et associations ont appelé à la mobilisation, avec la participation de dirigeants tels que le chef du Parti socialiste Olivier Faure et la secrétaire générale de la CGT Sophie Binet. Les manifestants ont scandé des slogans contre le parti d'extrême droite et le président centriste Emmanuel Macron, portant des pancartes opposées au fascisme et à la xénophobie. Les autorités ont déployé près de 3 000 policiers, gendarmes, véhicules blindés et hélicoptères, et ont modifié l'itinéraire de la marche à la dernière minute pour éviter le centre-ville. Malgré la sécurité renforcée et les vitrines barricadées, la manifestation s'est déroulée en grande partie sans heurts majeurs.",
+   "summary": "Des milliers de manifestants se sont rassemblés à Orléans le samedi 24 octobre 2026 pour protester contre la tenue du congrès national du parti Rassemblement national (RN) avant le lancement de la campagne présidentielle de Marine Le Pen. Environ 50 partis politiques, syndicats et associations ont appelé à la marche pour s'opposer à ce qu'ils ont qualifié de racisme, de fascisme et d'impérialisme. Des personnalités éminentes telles que le maire de La France insoumise Bally Bagayoko, le chef du Parti socialiste Olivier Faure et la cheffe du syndicat CGT Sophie Binet ont assisté à la mobilisation. Les manifestants ont scandé des slogans contre Marine Le Pen et le président Emmanuel Macron, portant des pancartes dénonçant l'extrême droite. Les autorités ont déployé de lourdes mesures de sécurité, comprenant près de 3 000 policiers et gendarmes, des véhicules blindés, des hélicoptères et des drones, et ont modifié l'itinéraire de la marche hors du centre-ville.",
    "demands": [
-    "Rejeter le racisme, le fascisme et l'impérialisme",
-    "S'opposer au parti Rassemblement national et à ses politiques",
-    "Protester contre les politiques gouvernementales et le coût de la vie"
+    "Rejeter la politique d'extrême droite et le fascisme",
+    "S'opposer aux politiques discriminatoires contre les immigrés et les binationaux",
+    "Exiger la démission du président Emmanuel Macron"
    ],
-   "response": "Les autorités ont déployé près de 3 000 policiers et gendarmes, des véhicules blindés, des hélicoptères et des drones, et ont imposé un changement d'itinéraire de dernière minute pour la marche. La ville a également instauré un couvre-feu nocturne pour les moins de 15 ans, selon Euronews et Spiegel.",
+   "response": "Les autorités ont déployé près de 3 000 policiers et gendarmes, des véhicules blindés, des hélicoptères et des drones. La préfecture locale a dévié la manifestation en dehors du centre-ville, et le maire a instauré un couvre-feu nocturne pour les enfants de moins de 15 ans.",
    "updates": [
-    "Des milliers de manifestants ont défilé samedi à Orléans contre le congrès du Rassemblement national."
+    "La préfecture du Loiret a modifié l'itinéraire de la manifestation pour qu'elle se déroule hors du centre-ville.",
+    "Des milliers de manifestants ont défilé à Orléans contre le congrès du parti Rassemblement national sous un important déploiement policier."
    ],
-   "conflicts": [
-    "La préfecture locale a indiqué qu'environ 13 000 personnes avaient participé, tandis que d'autres estimations variaient entre 20 000 et 30 000."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "environ 13 000 personnes selon la préfecture locale, tandis que d'autres sources ont estimé entre 20 000 et 30 000"
+    "crowd": "les autorités de la préfecture locale rapportant que 11 000 manifestants s'étaient rassemblés à midi"
    }
   },
   "de": {
-   "title": "Demonstration in Orléans gegen Parteitag des Rassemblement National",
+   "title": "Protest in Orléans gegen Parteitag des Rassemblement National",
    "seoTitle": "Orléans-Marsch gegen Rassemblement-National-Parteitag",
    "tea": {
-    "why": "Um vor dem bevorstehenden Start des Präsidentschaftswahlkampfs gegen den Parteitag des Rassemblement National und dessen rechtsextreme Ideologie zu protestieren.",
-    "want": "Sich gegen Rassismus, Faschismus und den politischen Einfluss des Rassemblement National und von Marine Le Pen wenden.",
-    "changed": "24. Okt.: Tausende marschierten unter starker Polizeipräsenz friedlich durch Orléans."
+    "why": "Demonstranten versammelten sich, um sich der rechtsextremen Partei Rassemblement National und ihrer Vorsitzenden Marine Le Pen zu widersetzen, während diese ihren Parteitag in Orléans abhielten.",
+    "want": "Demonstranten forderten ein Ende des rechtsextremen Einflusses und lehnten Rassismus, Faschismus sowie Maßnahmen ab, die auf Einwanderer und Doppelstaatler abzielen.",
+    "changed": "24. Oktober: Tausende marschierten unter starker Bewachung friedlich durch Orléans, während das Rassemblement National seinen Parteitag abhielt."
    },
-   "summary": "Tausende Demonstranten versammelten sich am Samstag in Orléans, um gegen den Parteitag der Partei Rassemblement National (RN) und den Start des Präsidentschaftswahlkampfs von Marine Le Pen zu protestieren. Rund 50 politische Parteien, Gewerkschaften und Verbände hatten zu der Mobilisierung aufgerufen, an der auch Führungspersönlichkeiten wie der Chef der Sozialistischen Partei Olivier Faure und die CGT-Chefin Sophie Binet teilnahmen. Demonstranten skandierten Parolen gegen sowohl die rechtsextreme Partei als auch den zentristischen Präsidenten Emmanuel Macron und trugen Transparente gegen Faschismus und Fremdenfeindlichkeit. Die Behörden setzten fast 3.000 Polizeibeamte, Gendarmen, gepanzerte Fahrzeuge und Hubschrauber ein und änderten in letzter Minute die Marschroute, um das Stadtzentrum zu umgehen. Trotz starker Sicherheitsvorkehrungen und verbarrikadierter Schaufenster verlief die Demonstration weitgehend ohne größere Zusammenstöße.",
+   "summary": "Tausende Demonstranten versammelten sich am Samstag, den 24. Oktober 2026, in Orléans, um gegen die Abhaltung des Parteitags der Partei Rassemblement National (RN) im Vorfeld des Starts von Marine Le Pens Präsidentschaftskampagne zu protestieren. Etwa 50 politische Parteien, Gewerkschaften und Verbände riefen zu dem Marsch auf, um sich dem zu widersetzen, was sie als Rassismus, Faschismus und Imperialismus bezeichneten. Prominente Persönlichkeiten wie der La-France-insoumise-Bürgermeister Bally Bagayoko, der Chef der Sozialistischen Partei Olivier Faure und die Chefin der Gewerkschaft CGT Sophie Binet nahmen an der Mobilisierung teil. Demonstranten skandierten Parolen gegen sowohl Marine Le Pen als auch Präsident Emmanuel Macron und trugen Plakate, die die extreme Rechte anprangerten. Die Behörden entfalteten schwere Sicherheitsmaßnahmen, darunter fast 3.000 Polizeibeamte und Gendarmen, gepanzerte Fahrzeuge, Hubschrauber und Drohnen, und veränderten die Marschroute aus der Innenstadt heraus.",
    "demands": [
-    "Rassismus, Faschismus und Imperialismus ablehnen",
-    "Sich der Partei Rassemblement National und deren Politik widersetzen",
-    "Gegen Regierungspolitik und Lebenshaltungskosten protestieren"
+    "Rechtsextreme Politik und Faschismus ablehnen",
+    "Sich diskriminierenden Maßnahmen gegen Einwanderer und Doppelstaatler widersetzen",
+    "Den Rücktritt von Präsident Emmanuel Macron fordern"
    ],
-   "response": "Die Behörden setzten laut Euronews und Spiegel fast 3.000 Polizisten und Gendarmen, gepanzerte Fahrzeuge, Hubschrauber und Drohnen ein und ordneten eine kurzfristige Routenänderung für den Marsch an. Die Stadt verhängte zudem eine nächtliche Ausgangssperre für unter 15-Jährige.",
+   "response": "Die Behörden setzten fast 3.000 Polizisten und Gendarmen, gepanzerte Fahrzeuge, Hubschrauber und Drohnen ein. Die lokale Präfektur leitete den Protest aus der Innenstadt um, und der Bürgermeister verhängte eine nächtliche Ausgangssperre für Kinder unter 15 Jahren.",
    "updates": [
-    "Tausende Demonstranten marschierten am Samstag in Orléans gegen den Parteitag des Rassemblement National."
+    "Die Präfektur Loiret modifizierte die Protestroute, damit diese außerhalb der Innenstadt stattfindet.",
+    "Tausende Demonstranten marschierten unter starkem Polizeiaufgebot in Orléans gegen den Parteitag des Rassemblement National."
    ],
-   "conflicts": [
-    "Die örtliche Präfektur gab an, dass etwa 13.000 Menschen teilnahmen, während andere Schätzungen zwischen 20.000 und 30.000 lagen."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "etwa 13.000 Menschen nach Angaben der örtlichen Präfektur, während andere Quellen zwischen 20.000 und 30.000 schätzten"
+    "crowd": "Beamte der lokalen Präfektur berichteten, dass sich bis Mittag 11.000 Demonstranten versammelt hatten"
    }
   }
  },
