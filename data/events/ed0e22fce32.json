@@ -3,7 +3,7 @@
  "slug": "lisbon-housing-rights-protest-oct-2026",
  "stage": "live",
  "title": "Housing rights protesters pitch tents and face police action in Lisbon",
- "seoTitle": "Lisbon housing rights protest",
+ "seoTitle": "Lisbon housing protest camp cleared by police",
  "place": {
   "city": "Lisbon",
   "region": "Lisbon",
@@ -13,44 +13,48 @@
   "citySlug": "lisbon",
   "regionSlug": "lisbon"
  },
- "scope": "multi-city",
+ "scope": "local",
  "causes": [
-  "housing"
+  "housing",
+  "prices"
  ],
  "kind": "multi-day",
- "startedOn": "2026-10-25",
+ "startedOn": "2026-10-24",
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
-  "low-confidence"
+  "low-confidence",
+  "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the housing crisis.",
-  "want": "They are demanding housing rights and solutions to the housing shortage.",
-  "changed": "Oct 25: Police cleared protest camps in Lisbon and Porto, resulting in detentions and injuries."
+  "why": "Protesters demonstrated against Portugal's deepening housing crisis, surging rents, and rising living costs.",
+  "want": "Protesters demanded that the government scrap a bill to make evictions easier and end rent caps on new leases.",
+  "changed": "Oct 25: Police cleared the protest camp in Lisbon, making 25 arrests after baton-charging demonstrators."
  },
- "summary": "Protesters established protest camps in Lisbon and Porto to voice opposition to the ongoing housing crisis and demand housing rights. Authorities intervened early Sunday morning, deploying police forces against the demonstrators who had pitched tents in public spaces. According to news reports, police cleared the camps, leading to numerous detentions and injuries among the participants. The actions involved police charges against individuals participating in the housing rights demonstrations in both cities.",
- "organizers": [],
- "demands": [
-  "Housing rights",
-  "Solutions to the housing crisis"
+ "summary": "Housing rights protesters in Lisbon set up a protest camp consisting of more than 100 tents in Rossio Square following a march by thousands of people. The demonstration was organized to draw attention to Portugal's severe housing affordability crisis, where property prices and rents have doubled in recent years. In the early hours of Sunday morning, dozens of police officers, including some with dogs, baton-charged the camp and dismantled it after warning demonstrators to leave. According to police, 25 people were arrested in Lisbon and later released to appear in court, with seven minor injuries reported overall across operations in Lisbon and Porto. Meanwhile, the activist group Casa para Viver claimed that 60 people were hurt and called for a fresh demonstration outside parliament.",
+ "organizers": [
+  "Casa para Viver"
  ],
- "response": "According to reports from Reuters and RTP, police cleared the protest camps in the early hours of Sunday morning, using force against demonstrators and resulting in multiple detentions and injuries.",
+ "demands": [
+  "Scrap the bill making evictions easier",
+  "End rent caps on new leases"
+ ],
+ "response": "According to Al Jazeera, police stated the operation was \"proportionate\" and released the 25 arrested individuals to appear in court on Monday. Police also reported seven minor injuries among officers and protesters, while the activist group Casa para Viver claimed 60 people were hurt.",
  "numbers": {
   "arrests": {
-   "value": 31,
-   "text": "31 detidos em Lisboa e no Porto",
+   "value": 25,
+   "text": "making 25 arrests",
    "sources": [
     2
    ]
   },
   "injuries": {
-   "value": 11,
-   "text": "Onze feridos",
+   "value": 7,
+   "text": "seven minor injuries among officers and protesters in the two operations",
    "sources": [
     2
    ]
@@ -59,10 +63,11 @@
  "updates": [
   {
    "at": "2026-10-25",
-   "text": "Police cleared a protest camp against the housing crisis in Lisbon during the early morning hours, leading to detentions and minor injuries.",
+   "text": "Police cleared the protest camp in central Lisbon using batons and dogs shortly after 2 AM, arresting 25 people.",
    "sources": [
     1,
-    2
+    2,
+    3
    ]
   }
  ],
@@ -76,148 +81,167 @@
   },
   {
    "n": 2,
-   "url": "https://www.rtp.pt/noticias/pais/protesto-pelo-direito-a-habitacao-onze-feridos-e-31-detidos-em-lisboa-e-no-porto_n1774140",
+   "url": "https://www.aljazeera.com/economy/2026/10/25/portuguese-police-clear-lisbon-housing-protest-camp-arrest-25?traffic_source=rss",
+   "publisher": "aljazeera.com",
+   "title": "Portuguese police clear Lisbon housing protest camp, arrest 25",
+   "publishedAt": "2026-10-25T13:29:56.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.rtp.pt/noticias/pais/protesto-tinha-ate-as-00h30-para-desmobilizar_v1774187",
    "publisher": "rtp.pt",
-   "title": "Protesto pelo direito à Habitação. Onze feridos e 31 detidos em Lisboa e no Porto",
-   "publishedAt": "2026-10-25T09:28:29.000Z"
+   "title": "Protesto tinha até às 00h30 para desmobilizar",
+   "publishedAt": "2026-10-25T14:17:47.000Z"
   }
  ],
- "conflicts": [],
+ "conflicts": [
+  "Police reported seven minor injuries, while the activist group Casa para Viver claimed 60 people were hurt."
+ ],
  "confidence": 0.7,
- "publishers": 2,
- "reports24h": 11,
+ "publishers": 3,
+ "reports24h": 17,
  "reportsPrev24h": 0,
- "reports48h": 11,
+ "reports48h": 17,
  "firstSeenAt": "2026-10-25T07:45:26.724Z",
- "lastReportAt": "2026-10-25T09:28:29.000Z",
- "lastCheckedAt": "2026-10-25T11:43:34.972Z",
- "updatedAt": "2026-10-25T11:43:00.346Z",
+ "lastReportAt": "2026-10-25T14:17:47.000Z",
+ "lastCheckedAt": "2026-10-25T14:52:27.303Z",
+ "updatedAt": "2026-10-25T14:52:01.322Z",
  "responseSources": [
   1,
   2
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-25T11:43:00.346Z",
- "summaryOf": "f79819506df7",
+ "summarizedAt": "2026-10-25T14:52:01.322Z",
+ "summaryOf": "f215a07eb679",
  "publishedAt": "2026-10-25T07:48:56.111Z",
  "i18n": {
-  "of": "7a37a47577f4a6cf",
-  "at": "2026-10-25T11:44:40.215Z",
+  "of": "340437bec516f4bf",
+  "at": "2026-10-25T14:53:35.909Z",
   "tries": 1,
   "hi": {
-   "title": "ललिस्बन में आवास अधिकार के प्रदर्शनकारियों ने तंबू गाड़े और पुलिस कार्रवाई का सामना किया",
-   "seoTitle": "लिस्बन आवास अधिकार प्रदर्शन",
+   "title": "लिशबन में आवास अधिकारों के प्रदर्शनकारियों ने तंबू गाड़े और पुलिस कार्रवाई का सामना किया",
+   "seoTitle": "लिशबन में पुलिस द्वारा आवास विरोध शिविर को हटाया गया",
    "tea": {
-    "why": "प्रदर्शनकारी आवास संकट के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "वे आवास के अधिकारों और आवास की कमी के समाधान की मांग कर रहे हैं।",
-    "changed": "25 अक्टूबर: पुलिस ने लिस्बन और पोर्टो में प्रदर्शन शिविरों को हटाया, जिसके परिणामस्वरूप हिरासत और चोटें आईं।"
+    "why": "प्रदर्शनकारियों ने पुर्तगाल के गहरे होते आवास संकट, बढ़ते किराए और बढ़ती जीवन लागत के खिलाफ प्रदर्शन किया।",
+    "want": "प्रदर्शनकारियों ने मांग की कि सरकार बेदखली को आसान बनाने वाले विधेयक को रद्द करे और नए पट्टों पर किराया सीमा समाप्त करे।",
+    "changed": "25 अक्टूबर: पुलिस ने लिशबन में विरोध शिविर को हटाया और प्रदर्शनकारियों पर लाठीचार्ज करने के बाद 25 गिरफ्तारियां कीं।"
    },
-   "summary": "प्रदर्शनकारियों ने चल रहे आवास संकट के विरोध में और आवास अधिकारों की मांग के लिए लिस्बन और पोर्टो में प्रदर्शन शिविर स्थापित किए। अधिकारियों ने रविवार तड़के हस्तक्षेप किया और सार्वजनिक स्थानों पर तंबू गाड़ने वाले प्रदर्शनकारियों के खिलाफ पुलिस बल तैनात किया। समाचार रिपोर्टों के अनुसार, पुलिस ने शिविरों को हटा दिया, जिससे प्रतिभागियों के बीच कई गिरफ्तारियां और चोटें आईं। इन कार्रवाइयों में दोनों शहरों में आवास अधिकार प्रदर्शनों में भाग लेने वाले व्यक्तियों पर पुलिस के प्रभार शामिल थे।",
+   "summary": "लिशबन में आवास अधिकार प्रदर्शनकारियों ने हजारों लोगों के मार्च के बाद रोसियो स्क्वायर में 100 से अधिक तंबुओं का एक विरोध शिविर लगाया। यह प्रदर्शन पुर्तगाल के गंभीर आवास वहनीयता संकट की ओर ध्यान आकर्षित करने के लिए आयोजित किया गया था, जहाँ हाल के वर्षों में संपत्ति की कीमतें और किराए दोगुने हो गए हैं। रविवार सुबह तड़के, कुत्तों वाले कुछ अधिकारियों सहित दर्जनों पुलिसकर्मियों ने शिविर पर लाठीचार्ज किया और प्रदर्शनकारियों को जाने की चेतावनी देने के बाद इसे ध्वस्त कर दिया। पुलिस के अनुसार, लिशबन में 25 लोगों को गिरफ्तार किया गया और बाद में अदालत में पेश होने के लिए रिहा कर दिया गया, जबकि लिशबन और पोर्टो में अभियानों के दौरान कुल सात मामूली चोटों की सूचना मिली। इस बीच, सक्रियता समूह कासा पारा विवर ने दावा किया कि 60 लोग घायल हुए और संसद के बाहर एक नए प्रदर्शन का आह्वान किया।",
    "demands": [
-    "आवास के अधिकार",
-    "आवास संकट के समाधान"
+    "बेदखली को आसान बनाने वाले विधेयक को रद्द करें",
+    "नए पट्टों पर किराया सीमा समाप्त करें"
    ],
-   "response": "रॉयटर्स और आरटीपी की रिपोर्टों के अनुसार, पुलिस ने रविवार तड़के प्रदर्शन शिविरों को हटा दिया, प्रदर्शनकारियों के खिलाफ बल का प्रयोग किया जिसके परिणामस्वरूप कई गिरफ्तारियां और चोटें आईं।",
+   "response": "अल जज़ीरा के अनुसार, पुलिस ने कहा कि अभियान \"अनुपातिक\" था और सोमवार को अदालत में पेश होने के लिए गिरफ्तार किए गए 25 व्यक्तियों को रिहा कर दिया। पुलिस ने अधिकारियों और प्रदर्शनकारियों के बीच सात मामूली चोटों की भी सूचना दी, जबकि सक्रियता समूह कासा पारा विवर ने दावा किया कि 60 लोग घायल हुए थे।",
    "updates": [
-    "पुलिस ने सुबह के समय लिस्बन में आवास संकट के खिलाफ एक प्रदर्शन शिविर को हटा दिया, जिससे हिरासत और मामूली चोटें आईं।"
+    "पुलिस ने 2 बजे के ठीक बाद लाठी और कुत्तों का उपयोग करके मध्य लिशबन में विरोध शिविर को खाली कराया और 25 लोगों को गिरफ्तार किया।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "पुलिस ने सात मामूली चोटों की सूचना दी, जबकि सक्रियता समूह कासा पारा विवर ने दावा किया कि 60 लोग घायल हुए थे।"
+   ],
    "numbers": {
-    "arrests": "31 detidos em Lisboa e no Porto",
-    "injuries": "Onze feridos"
+    "arrests": "25 गिरफ्तारियां करते हुए",
+    "injuries": "दोनों अभियानों में अधिकारियों और प्रदर्शनकारियों के बीच सात मामूली चोटें"
    }
   },
   "mr": {
-   "title": "लिस्बनमध्ये गृहनिर्माण हक्क आंदोलकांचे तंबू आणि पोलिसांची कारवाई",
-   "seoTitle": "लिस्बन गृहनिर्माण हक्क आंदोलन",
+   "title": "लिस्बनमध्ये गृहनिर्माण हक्क आंदोलकांनी तंबू ठोकले आणि पोलिसांच्या कारवाईचा सामना केला",
+   "seoTitle": "लिस्बनमधील गृहनिर्माण निषेध छावणी पोलिसांनी उध्वस्त केली",
    "tea": {
-    "why": "आंदोलक गृहनिर्माण संकटाच्या विरोधात निदर्शने करत आहेत.",
-    "want": "ते गृहनिर्माण हक्क आणि गृहनिर्माण टंचाईवर उपायांची मागणी करत आहेत.",
-    "changed": "२५ ऑक्टोबर: पोलिसांनी लिस्बन आणि पोर्टोमधील आंदोलनाचे तंबू हटवले, ज्यामुळे ताबेदारी आणि दुखापती झाल्या."
+    "why": "आंदोलकांनी पोर्तुगालमधील वाढते गृहनिर्माण संकट, वाढते भाडे आणि वाढत्या जीवनमानाचा खर्च यांच्या विरोधात निदर्शने केली.",
+    "want": "आंदोलकांनी मागणी केली की सरकारने हकालपट्टी सुलभ करणारे विधेयक रद्द करावे आणि नवीन करारांवरील भाडे मर्यादा संपवावी.",
+    "changed": "२५ ऑक्टोबर: पोलिसांनी लिस्बनमधील निषेध छावणी उध्वस्त केली, आंदोलकांवर लाठीचार्ज केल्यानंतर २५ जणांना अटक केली."
    },
-   "summary": "सुरू असलेल्या गृहनिर्माण संकटाचा विरोध करण्यासाठी आणि गृहनिर्माण हक्कांची मागणी करण्यासाठी आंदोलकांनी लिस्बन आणि पोर्टोमध्ये आंदोलनाचे तंबू उभारले. सार्वजनिक ठिकाणी तंबू ठोकलेल्या आंदोलकांविरुद्ध पोलीस दल तैनात करत अधिकाऱ्यांनी रविवारी पहाटेच्या सुमारास हस्तक्षेप केला. वृत्तसंस्थांच्या अहवालानुसार, पोलिसांनी तंबू हटवले, ज्यामुळे सहभागींमध्ये अनेक ताबेदारी आणि दुखापती झाल्या. या कारवाईमध्ये दोन्ही शहरांमधील गृहनिर्माण हक्क निदर्शनांमध्ये सहभागी असलेल्या व्यक्तींवर पोलिसांचे शुल्क समाविष्ट होते.",
+   "summary": "लिस्बनमधील गृहनिर्माण हक्क आंदोलकांनी हजारो लोकांच्या मोर्चानंतर रोसियो चौकात १०० हून अधिक तंबूंची निषेध छावणी उभारली. हे आंदोलन पोर्तुगालमधील गंभीर गृहनिर्माण परवडण्यायोग्य संकटाकडे लक्ष वेधण्यासाठी आयोजित करण्यात आले होते, जिथे अलिकडच्या वर्षांत मालमत्तेच्या किंमती आणि भाडे दुप्पट झाले आहे. रविवारी पहाटे, कुत्र्यांसह काही अधिकाऱ्यांसह डझनभर पोलिसांनी छावणीवर लाठीचार्ज केला आणि आंदोलकांना निघून जाण्याचा इशारा दिल्यानंतर ती उध्वस्त केली. पोलिसांच्या मते, लिस्बनमध्ये २५ लोकांना अटक करण्यात आली आणि नंतर न्यायालयात हजर राहण्यासाठी सोडण्यात आले, तर लिस्बन आणि पोर्टोमधील मोहिमेदरम्यान एकूण सात किरकोळ दुखापतींची नोंद झाली. दरम्यान, कासा पारा विवर या कार्यकर्ते गटाने दावा केला की ६० लोक जखमी झाले आणि संसदेबाहेर नवीन निदर्शनांची हाक दिली.",
    "demands": [
-    "गृहनिर्माण हक्क",
-    "गृहनिर्माण संकटावर उपाय"
+    "हकालपट्टी सुलभ करणारे विधेयक रद्द करा",
+    "नवीन करारांवरील भाडे मर्यादा संपवा"
    ],
-   "response": "रॉयटर्स आणि आरटीपीच्या अहवालानुसार, पोलिसांनी रविवारी पहाटेच्या सुमारास आंदोलनाचे तंबू हटवले, आंदोलकांविरुद्ध बळाचा वापर केला ज्यामुळे अनेक ताबेदारी आणि दुखापती झाल्या.",
+   "response": "अल जझीराच्या मते, पोलिसांनी सांगितले की ही कारवाई \"प्रमाणशीर\" होती आणि सोमवार रोजी न्यायालयात हजर राहण्यासाठी अटक केलेल्या २५ व्यक्तींची सुटका केली. पोलिसांनी अधिकारी आणि आंदोलकांमध्ये सात किरकोळ दुखापतींची देखील नोंद केली, तर कासा पारा विवर या कार्यकर्ते गटाने दावा केला की ६० लोक जखमी झाले आहेत.",
    "updates": [
-    "पोलिसांनी सकाळी लिस्बनमध्ये गृहनिर्माण संकटाच्या विरोधातील आंदोलनाचा तंबू हटवला, ज्यामुळे ताबेदारी आणि किरकोळ दुखापती झाल्या."
+    "पोलिसांनी लाठी आणि कुत्र्यांचा वापर करून मध्य लिस्बनमधील निषेध छावणी पहाटे २ वाजण्याच्या सुमारास रिकामी केली आणि २५ लोकांना अटक केली."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "पोलिसांनी सात किरकोळ दुखापतींची नोंद केली, तर कासा पारा विवर या कार्यकर्ते गटाने दावा केला की ६० लोक जखमी झाले आहेत."
+   ],
    "numbers": {
-    "arrests": "31 detidos em Lisboa e no Porto",
-    "injuries": "Onze feridos"
+    "arrests": "२५ जणांना अटक करत",
+    "injuries": "दोन मोहिमेदरम्यान अधिकारी आणि आंदोलकांमध्ये सात किरकोळ दुखापती"
    }
   },
   "es": {
-   "title": "Manifestantes por el derecho a la vivienda montan tiendas y se enfrentan a la policía en Lisboa",
-   "seoTitle": "Protesta por vivienda en Lisboa",
+   "title": "Manifestantes por el derecho a la vivienda montan tiendas y enfrentan acción policial en Lisboa",
+   "seoTitle": "Campamento de protesta por la vivienda en Lisboa desmantelado",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra la crisis de la vivienda.",
-    "want": "Exigen derechos a la vivienda y soluciones a la escasez de vivienda.",
-    "changed": "25 oct: La policía desalojó los campamentos de protesta en Lisboa y Oporto, lo que provocó detenciones y lesiones."
+    "why": "Los manifestantes protestaron contra la profundización de la crisis de vivienda en Portugal, el aumento de los alquileres y el incremento del costo de vida.",
+    "want": "Los manifestantes exigieron que el gobierno retire un proyecto de ley para facilitar los desalojos y ponga fin a los topes de alquiler en los nuevos contratos.",
+    "changed": "25 de octubre: La policía desalojó el campamento de protesta en Lisboa, realizando 25 arrestos tras cargar con porras contra los manifestantes."
    },
-   "summary": "Los manifestantes establecieron campamentos de protesta en Lisboa y Oporto para expresar su oposición a la actual crisis de vivienda y exigir el derecho a la vivienda. Las autoridades intervinieron la madrugada del domingo, desplegando fuerzas policiales contra los manifestantes que habían instalado tiendas de campaña en espacios públicos. Según informes de prensa, la policía desalojó los campamentos, provocando numerosas detenciones y lesiones entre los participantes. Las acciones incluyeron cargas policiales contra personas que participaban en las manifestaciones por el derecho a la vivienda en ambas ciudades.",
+   "summary": "Manifestantes por el derecho a la vivienda en Lisboa instalaron un campamento de protesta que constaba de más de 100 tiendas en la Plaza Rossio tras una marcha de miles de personas. La manifestación se organizó para llamar la atención sobre la grave crisis de asequibilidad de la vivienda en Portugal, donde los precios de las propiedades y los alquileres se han duplicado en los últimos años. En las primeras horas de la madrugada del domingo, decenas de policías, incluidos algunos con perros, cargaron con porras contra el campamento y lo desmantelaron tras advertir a los manifestantes que se fueran. Según la policía, 25 personas fueron arrestadas en Lisboa y posteriormente liberadas para comparecer ante el tribunal, con siete lesiones menores reportadas en total en las operaciones en Lisboa y Porto. Mientras tanto, el grupo activista Casa para Viver afirmó que 60 personas resultaron heridas y convocó a una nueva manifestación frente al parlamento.",
    "demands": [
-    "Derechos a la vivienda",
-    "Soluciones a la crisis de la vivienda"
+    "Retirar el proyecto de ley que facilita los desalojos",
+    "Terminar con los topes de alquiler en los nuevos contratos"
    ],
-   "response": "Según informes de Reuters y RTP, la policía desalojó los campamentos de protesta en la madrugada del domingo, utilizando la fuerza contra los manifestantes y provocando múltiples detenciones y lesiones.",
+   "response": "Según Al Jazeera, la policía declaró que la operación fue \"proporcional\" y liberó a las 25 personas arrestadas para que comparecieran ante el tribunal el lunes. La policía también informó de siete lesiones menores entre agentes y manifestantes, mientras que el grupo activista Casa para Viver afirmó que 60 personas resultaron heridas.",
    "updates": [
-    "La policía desalojó un campamento de protesta contra la crisis de la vivienda en Lisboa durante la madrugada, provocando detenciones y heridas leves."
+    "La policía desalojó el campamento de protesta en el centro de Lisboa usando porras y perros poco después de las 2 AM, arrestando a 25 personas."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La policía informó de siete lesiones menores, mientras que el grupo activista Casa para Viver afirmó que 60 personas resultaron heridas."
+   ],
    "numbers": {
-    "arrests": "31 detidos em Lisboa e no Porto",
-    "injuries": "Onze feridos"
+    "arrests": "realizando 25 arrestos",
+    "injuries": "siete lesiones menores entre oficiales y manifestantes en las dos operaciones"
    }
   },
   "fr": {
-   "title": "Des manifestants pour le droit au logement dressent des tentes et font face à la police à Lisbonne",
-   "seoTitle": "Manifestation pour le logement à Lisbonne",
+   "title": "Des manifestants pour le droit au logement dressent des tentes et font face à l'intervention de la police à Lisbonne",
+   "seoTitle": "Camp de protestation pour le logement évacué par la police",
    "tea": {
-    "why": "Des manifestants protestent contre la crise du logement.",
-    "want": "Ils exigent des droits au logement et des solutions à la pénurie de logements.",
-    "changed": "25 oct. : La police a évacué les camps de protestation à Lisbonne et Porto, entraînant des interpellations et des blessés."
+    "why": "Les manifestants ont manifesté contre l'aggravation de la crise du logement au Portugal, la flambée des loyers et la hausse du coût de la vie.",
+    "want": "Les manifestants ont exigé que le gouvernement retire un projet de loi visant à faciliter les expulsions et mette fin au plafonnement des loyers sur les nouveaux baux.",
+    "changed": "25 oct. : La police a évacué le camp de protestation à Lisbonne, procédant à 25 arrestations après avoir chargé les manifestants à coups de matraque."
    },
-   "summary": "Des manifestants ont établi des camps de protestation à Lisbonne et Porto pour exprimer leur opposition à la crise du logement en cours et exiger des droits au logement. Les autorités sont intervinrent tôt dimanche matin, déployant des forces de police contre les manifestants qui avaient dressé des tentes dans des espaces publics. Selon des reportages de presse, la police a évacué les camps, entraînant de nombreuses interpellations et des blessés parmi les participants. Les actions ont impliqué des charges de police contre des individus participant aux manifestations pour le droit au logement dans les deux villes.",
+   "summary": "Des manifestants pour le droit au logement à Lisbonne ont installé un camp de protestation composé de plus de 100 tentes sur la place Rossio à la suite d'une marche de milliers de personnes. La manifestation a été organisée pour attirer l'attention sur la grave crise d'accessibilité au logement au Portugal, où les prix de l'immobilier et les loyers ont doublé ces dernières années. Aux premières heures de la matinée de dimanche, des dizaines de policiers, dont certains accompagnés de chiens, ont chargé le camp à coups de matraque et l'ont démantelé après avoir averti les manifestants de quitter les lieux. Selon la police, 25 personnes ont été arrêtées à Lisbonne puis relâchées pour comparaître devant un tribunal, avec sept blessures légères signalées au total lors des opérations à Lisbonne et Porto. Parallèlement, le groupe activiste Casa para Viver a affirmé que 60 personnes avaient été blessées et a appelé à une nouvelle manifestation devant le parlement.",
    "demands": [
-    "Droits au logement",
-    "Solutions à la crise du logement"
+    "Abandonner le projet de loi facilitant les expulsions",
+    "Mettre fin au plafonnement des loyers sur les nouveaux baux"
    ],
-   "response": "Selon des reportages de Reuters et de la RTP, la police a évacué les camps de protestation aux premières heures de dimanche matin, utilisant la force contre les manifestants et entraînant de multiples interpellations et blessés.",
+   "response": "Selon Al Jazeera, la police a déclaré que l'opération était « proportionnée » et a libéré les 25 individus arrêtés pour comparaître devant le tribunal lundi. La police a également fait état de sept blessures légères parmi les officiers et les manifestants, tandis que le groupe activiste Casa para Viver a affirmé que 60 personnes avaient été blessées.",
    "updates": [
-    "La police a évacué un camp de protestation contre la crise du logement à Lisbonne aux premières heures de la matinée, entraînant des interpellations et des blessures légères."
+    "La police a évacué le camp de protestation dans le centre de Lisbonne à l'aide de matraques et de chiens peu après 2 h du matin, arrêtant 25 personnes."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La police a fait état de sept blessures légères, tandis que le groupe activiste Casa para Viver a affirmé que 60 personnes avaient été blessées."
+   ],
    "numbers": {
-    "arrests": "31 detidos em Lisboa e no Porto",
-    "injuries": "Onze feridos"
+    "arrests": "effectuant 25 arrestations",
+    "injuries": "sept blessures légères parmi les agents et les manifestants lors des deux opérations"
    }
   },
   "de": {
-   "title": "Wohnungsrechtsdemonstranten schlagen Zelte auf und wehren sich gegen Polizeieinsatz in Lissabon",
-   "seoTitle": "Wohnungsrechtsprotest in Lissabon",
+   "title": "Demonstrierende für das Recht auf Wohnen schlagen Zelte auf und wehren sich gegen Polizeieinsatz in Lissabon",
+   "seoTitle": "Wohnungs-Protestcamp in Lissabon von Polizei geräumt",
    "tea": {
-    "why": "Demonstranten demonstrieren gegen die Wohnungsnot.",
-    "want": "Sie fordern Wohnungsrechte und Lösungen für den Wohnungsmangel.",
-    "changed": "25. Okt.: Die Polizei räumte Protestcamps in Lissabon und Porto, was zu Festnahmen und Verletzten führte."
+    "why": "Demonstrierende protestierten gegen Portugals sich verschärfende Wohnungsnot, steigende Mieten und erhöhte Lebenshaltungskosten.",
+    "want": "Demonstrierende forderten die Regierung auf, ein Gesetz zur Erleichterung von Räumungen zu verwerfen und Mietpreisobergrenzen für neue Mietverträge zu beenden.",
+    "changed": "25. Okt.: Die Polizei räumte das Protestcamp in Lissabon und nahm nach dem Einsatz von Schlagstöcken gegen Demonstrierende 25 Festnahmen vor."
    },
-   "summary": "Demonstranten errichteten Protestcamps in Lissabon und Porto, um ihren Widerstand gegen die anhaltende Wohnungsnot zum Ausdruck zu bringen und Wohnungsrechte zu fordern. Die Behörden griffen am frühen Sonntagmorgen ein und setzten Polizeikräfte gegen die Demonstranten ein, die Zelte im öffentlichen Raum aufgeschlagen hatten. Medienberichten zufolge räumte die Polizei die Camps, was zu zahlreichen Festnahmen und Verletzten unter den Teilnehmern führte. Die Aktionen umfassten Polizeieinsätze gegen Personen, die an den Wohnungsrechtsdemonstrationen in beiden Städten teilnahmen.",
+   "summary": "Demonstrierende für das Recht auf Wohnen in Lissabon errichteten nach einem Marsch von Tausenden Menschen ein Protestcamp aus mehr als 100 Zelten auf dem Rossio-Platz. Die Demonstration wurde organisiert, um auf Portugals schwere Krise der Erwingbarkeit von Wohnraum aufmerksam zu machen, in der sich Immobilienpreise und Mieten in den letzten Jahren verdoppelt haben. In den frühen Morgenstunden des Sonntags schlugen Dutzende Polizeibeamte, darunter einige mit Hunden, auf das Camp ein und demontierten es, nachdem sie die Demonstrierenden zum Verlassen aufgefordert hatten. Nach Angaben der Polizei wurden in Lissabon 25 Personen festgenommen und später wieder freigelassen, um vor Gericht zu erscheinen, wobei insgesamt sieben leichte Verletzungen bei den Einsätzen in Lissabon und Porto gemeldet wurden. Unterdessen behauptete die Aktivistengruppe Casa para Viver, dass 60 Menschen verletzt wurden, und rief zu einer neuen Demonstration vor dem Parlament auf.",
    "demands": [
-    "Wohnungsrechte",
-    "Lösungen für die Wohnungsnot"
+    "Das Gesetz zur Erleichterung von Räumungen verwerfen",
+    "Mietpreisobergrenzen für neue Mietverträge beenden"
    ],
-   "response": "Berichten von Reuters und RTP zufolge räumte die Polizei die Protestcamps in den frühen Morgenstunden des Sonntags, setzte Gewalt gegen Demonstranten ein und verursachte zahlreiche Festnahmen und Verletzte.",
+   "response": "Laut Al Jazeera erklärte die Polizei, die Operation sei „verhältnismäßig“ gewesen, und entließ die 25 festgenommenen Personen, damit sie am Montag vor Gericht erscheinen. Die Polizei meldete zudem sieben leichte Verletzungen unter Beamten und Demonstrierenden, während die Aktivistengruppe Casa para Viver behauptete, 60 Menschen seien verletzt worden.",
    "updates": [
-    "Die Polizei räumte in den frühen Morgenstunden ein Protestcamp gegen die Wohnungsnot in Lissabon, was zu Festnahmen und leichteren Verletzungen führte."
+    "Die Polizei räumte das Protestcamp im Zentrum von Lissabon kurz nach 2 Uhr morgens unter Einsatz von Schlagstöcken und Hunden und nahm 25 Personen fest."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Die Polizei meldete sieben leichte Verletzungen, während die Aktivistengruppe Casa para Viver behauptete, 60 Menschen seien verletzt worden."
+   ],
    "numbers": {
-    "arrests": "31 detidos em Lisboa e no Porto",
-    "injuries": "Onze feridos"
+    "arrests": "unter Vornahme von 25 Festnahmen",
+    "injuries": "sieben leichte Verletzungen unter Beamten und Demonstrierenden bei den beiden Einsätzen"
    }
   }
  },

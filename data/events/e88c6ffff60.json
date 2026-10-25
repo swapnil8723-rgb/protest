@@ -15,8 +15,8 @@
  },
  "scope": "local",
  "causes": [
-  "anti-government",
-  "students"
+  "governance",
+  "anti-government"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-24",
@@ -25,34 +25,39 @@
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "serious"
+  "serious",
+  "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters gathered following social media calls promoting an unauthorized movement against the system, drawing inspiration from French unrest.",
-  "want": "Protesters rallied under a vague anti-establishment banner, while officials described the actions as lacking a substantive cause.",
-  "changed": "Oct 25: Catalan police reported a total of 128 overnight arrests and 15 injured officers following the disturbances."
+  "why": "Participants responded to social media calls for an unauthorized demonstration against the system, modeled on student protests in France.",
+  "want": "To protest against the system and participate in unrest.",
+  "changed": "Oct 24: Police made arrests following demonstrations featuring vandalism, looting, and fires in central Barcelona."
  },
- "summary": "On Saturday evening, October 24, 2026, hundreds of mostly young, hooded demonstrators descended upon central Barcelona, including the area surrounding Plaça de Catalunya. The unauthorized gathering was promoted on social media under the banner of \"Institut Indignats,\" modeled after recent student protests in France. Participants vandalized public property, clashed with police using rocks, fireworks, and flares, set more than 30 fires, and looted or damaged 14 stores, trapping some shoppers inside. Authorities deployed regional and municipal police officers to control the unrest. Regional President Salvador Illa and Barcelona Mayor Jaume Collboni strongly condemned the violence, stating that perpetrators and guardians of involved minors would face legal consequences.",
+ "summary": "On Saturday, October 24, 2026, demonstrations organized through social media under the banner \"Institut Indignats\" and \"against the system\" took place in central Barcelona around Plaça de Catalunya. The unauthorized gathering drew hooded individuals who clashed with police, vandalized public property, set numerous fires, and looted stores. Catalonia's interior ministry and regional police reported dozens of arrests, including minors, and several injured police officers. Regional president Salvador Illa and Barcelona Mayor Jaume Collboni strongly condemned the violence, stating that perpetrators would face legal consequences.",
  "organizers": [
   "Institut Indignats"
  ],
  "demands": [
-  "Protest against the system"
+  "Action against the system"
  ],
- "response": "Catalan regional president Salvador Illa and Barcelona Mayor Jaume Collboni condemned the violence, stating it would not go unpunished. Over 220 officers were deployed, leading to numerous arrests and reports of 15 injured police officers.",
+ "response": "Catalan regional president Salvador Illa condemned the violence, stating that attacks and property damage have no place in Catalonia. Barcelona Mayor Jaume Collboni vowed that acts of vandalism would not go unpunished. Police deployed over 220 officers and made numerous arrests.",
  "numbers": {
   "arrests": {
-   "value": 128,
-   "text": "128 overnight arrests",
+   "value": 100,
+   "text": "Authorities arrested approximately 100 people after the disturbances, according to reports.",
    "sources": [
-    7
+    1,
+    3,
+    4,
+    5,
+    6
    ]
   },
   "injuries": {
    "value": 15,
-   "text": "15 officers had been injured during the night",
+   "text": "Catalan police chief Silvia Cata stated that 15 officers had been injured during the night.",
    "sources": [
     7
    ]
@@ -61,16 +66,23 @@
  "updates": [
   {
    "at": "2026-10-24",
-   "text": "Unrest began around 6 pm in central Barcelona as hooded youths set fires, vandalized property, and looted shops.",
+   "text": "Unrest and clashes with police began in central Barcelona around 6 pm following social media calls.",
    "sources": [
-    1,
     2,
     6
    ]
   },
   {
+   "at": "2026-10-24",
+   "text": "Demonstrators set over 30 fires, vandalized and looted multiple stores, and damaged public property near Plaza de Catalunya.",
+   "sources": [
+    1,
+    3
+   ]
+  },
+  {
    "at": "2026-10-25",
-   "text": "Catalan police announced that 128 people had been arrested overnight, including 73 minors, and 15 officers were injured.",
+   "text": "Catalan police updated the arrest total to 128 people, noting that 73 were minors and 15 officers were injured.",
    "sources": [
     7
    ]
@@ -93,10 +105,10 @@
   },
   {
    "n": 3,
-   "url": "https://whbl.com/2026/10/24/arrests-in-barcelona-after-anti-system-rioters-loot-shops-set-fires/",
-   "publisher": "whbl.com",
-   "title": "Arrests in Barcelona after ‘anti-system’ rioters loot shops, set fires",
-   "publishedAt": "2026-10-24T22:15:15.000Z"
+   "url": "https://www.perthnow.com.au/news/crime/anti-system-rioters-loot-shops-set-fires-in-barcelona-c-23067763",
+   "publisher": "perthnow.com.au",
+   "title": "Anti-system rioters loot shops, set fires in Barcelona",
+   "publishedAt": "2026-10-24T23:13:57.000Z"
   },
   {
    "n": 4,
@@ -121,152 +133,168 @@
   },
   {
    "n": 7,
-   "url": "https://english.aawsat.com/world/5333371-spanish-police-make-128-overnight-arrests-barcelona-%E2%80%98looting%E2%80%99",
-   "publisher": "english.aawsat.com",
-   "title": "Spanish Police Make 128 Overnight Arrests in Barcelona for ‘Looting’",
-   "publishedAt": "2026-10-25T09:45:42.000Z"
+   "url": "https://www.newindianexpress.com/world/2026/Oct/25/spanish-police-make-128-overnight-arrests-in-barcelona-for-looting-authorities",
+   "publisher": "newindianexpress.com",
+   "title": "Spanish police make 128 overnight arrests in Barcelona for 'looting': authorities",
+   "publishedAt": "2026-10-25T11:13:28.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.9,
+ "conflicts": [
+  "Sources varied on the total number of arrests, with initial reports stating around 100 and subsequent police updates stating 128."
+ ],
+ "confidence": 0.8,
  "publishers": 7,
- "reports24h": 8,
+ "reports24h": 11,
  "reportsPrev24h": 0,
- "reports48h": 8,
+ "reports48h": 11,
  "firstSeenAt": "2026-10-24T23:19:57.437Z",
- "lastReportAt": "2026-10-25T09:45:42.000Z",
- "lastCheckedAt": "2026-10-25T11:43:34.972Z",
- "updatedAt": "2026-10-25T11:42:41.482Z",
+ "lastReportAt": "2026-10-25T11:13:28.000Z",
+ "lastCheckedAt": "2026-10-25T14:52:27.303Z",
+ "updatedAt": "2026-10-25T14:51:15.465Z",
  "searchedAt": "2026-10-25T04:23:43.987Z",
- "endedOn": "2026-10-25",
+ "endedOn": "2026-10-24",
  "responseSources": [
-  1,
   3,
   6,
   7
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-25T11:42:41.482Z",
- "summaryOf": "31b9fadf67e3",
+ "summarizedAt": "2026-10-25T14:51:15.465Z",
+ "summaryOf": "9b56d6bf5458",
  "publishedAt": "2026-10-25T04:28:40.606Z",
  "i18n": {
-  "of": "c88a6e073a6547a0",
-  "at": "2026-10-25T11:44:33.678Z",
+  "of": "06b2a113bd51c33e",
+  "at": "2026-10-25T14:54:44.402Z",
   "tries": 1,
   "hi": {
-   "title": "केंद्रीय बार्सिलोना में प्रदर्शन हिंसक हुए, लूटपाट और आगजनी",
-   "seoTitle": "बार्सिलोना में विरोध प्रदर्शन और लूटपाट",
+   "title": "बार्सिलोना के केंद्र में लूटपाट और आगजनी के साथ प्रदर्शन हिंसक हुए",
+   "seoTitle": "बार्सिलोना विरोध और लूटपाट",
    "tea": {
-    "why": "फ्रांसीसी अशांति से प्रेरणा लेते हुए, सिस्टम के खिलाफ एक अनधिकृत आंदोलन को बढ़ावा देने वाले सोशल मीडिया आह्वान के बाद प्रदर्शनकारी एकत्र हुए।",
-    "want": "प्रदर्शनकारियों ने एक अस्पष्ट व्यवस्था-विरोधी बैनर के तहत रैली निकाली, जबकि अधिकारियों ने इन कार्रवाइयों को किसी ठोस कारण से रहित बताया।",
-    "changed": "25 अक्टूबर: कैटलन पुलिस ने disturbances के बाद रातों-रात कुल 128 गिरफ्तारियों और 15 घायल अधिकारियों की सूचना दी।"
+    "why": "प्रतिभागियों ने फ्रांस के छात्र विरोध प्रदर्शनों की तर्ज पर व्यवस्था के खिलाफ एक अनधिकृत प्रदर्शन के लिए सोशल मीडिया पर किए गए आह्वान का जवाब दिया।",
+    "want": "व्यवस्था के खिलाफ विरोध प्रदर्शन करना और अशांति में भाग लेना।",
+    "changed": "24 अक्टूबर: केंद्रीय बार्सिलोना में तोड़फोड़, लूटपाट और आगजनी वाले प्रदर्शनों के बाद पुलिस ने गिरफ्तारियां कीं।"
    },
-   "summary": "शनिवार शाम, 24 अक्टूबर 2026 को, मुख्य रूप से युवाओं और हुडी पहने सैकड़ों प्रदर्शनकारी प्लासा दे काताल्या के आसपास के क्षेत्र सहित केंद्रीय बार्सिलोना में उतर आए। फ्रांस में हालिया छात्र प्रदर्शनों के आधार पर \"इंसटिटुत इंडिग्नात्स\" के बैनर तले सोशल मीडिया पर अनधिकृत सभा का प्रचार किया गया था। प्रतिभागियों ने सार्वजनिक संपत्ति में तोड़फोड़ की, पत्थरों, आतिशबाजी और फ्लेयर्स का उपयोग करके पुलिस के साथ झड़प की, 30 से अधिक आग लगाईं, और 14 दुकानों को लूटा या क्षतिग्रस्त कर दिया, जिससे कुछ खरीदार अंदर ही फंस गए। अधिकारियों ने अशांति को नियंत्रित करने के लिए क्षेत्रीय और नगरपालिका पुलिस अधिकारियों को तैनात किया। क्षेत्रीय राष्ट्रपति साल्वाडोर इल्ला और बार्सिलोना के मेयर जाउमे कोलोबोनी ने हिंसा की कड़ी निंदा करते हुए कहा कि अपराधियों और शामिल नाबालिगों के अभिभावकों को कानूनी परिणामों का सामना करना पड़ेगा।",
+   "summary": "शनिवार, 24 अक्टूबर 2026 को \"इंसटीट्युट इंडिग्नाट्स\" के बैनर तले और \"व्यवस्था के खिलाफ\" सोशल मीडिया के माध्यम से आयोजित प्रदर्शन बार्सिलोना के केंद्र में प्लासा दे कातालूण्या के आसपास हुए। अनधिकृत सभा में हुडी पहने व्यक्ति आए जिन्होंने पुलिस के साथ झड़प की, सार्वजनिक संपत्ति में तोड़फोड़ की, कई जगह आग लगाई और दुकानों में लूटपाट की। कातालूनिया के आंतरिक मंत्रालय और क्षेत्रीय पुलिस ने नाबालिगों सहित दर्जनों गिरफ्तारियों और कई पुलिस अधिकारियों के घायल होने की सूचना दी। क्षेत्रीय राष्ट्रपति साल्वाडोर इल्या और बार्सिलोना के मेयर जाउमे कोल्बोनी ने हिंसा की कड़ी निंदा करते हुए कहा कि अपराधियों को कानूनी परिणामों का सामना करना पड़ेगा।",
    "demands": [
-    "सिस्टम के खिलाफ विरोध"
+    "व्यवस्था के खिलाफ कार्रवाई"
    ],
-   "response": "कैटलन क्षेत्रीय राष्ट्रपति साल्वाडोर इल्ला और बार्सिलोना के मेयर जाउमे कोलोबोनी ने हिंसा की निंदा करते हुए कहा कि इसे बख्शा नहीं जाएगा। 220 से अधिक अधिकारियों को तैनात किया गया, जिससे कई गिरफ्तारियां हुईं और 15 पुलिस अधिकारियों के घायल होने की सूचना मिली।",
+   "response": "कातालन क्षेत्रीय राष्ट्रपति साल्वाडोर इल्या ने हिंसा की निंदा करते हुए कहा कि हमलों और संपत्ति के नुकसान का कातालूनिया में कोई स्थान नहीं है। बार्सिलोना के मेयर जाउमे कोल्बोनी ने कसम खाई कि तोड़फोड़ के कृत्यों को अनसुना नहीं छोड़ा जाएगा। पुलिस ने 220 से अधिक अधिकारियों को तैनात किया और कई गिरफ्तारियां कीं।",
    "updates": [
-    "केंद्रीय बार्सिलोना में शाम करीब 6 बजे अशांति शुरू हुई जब हुडी पहने युवाओं ने आग लगाई, संपत्ति में तोड़फोड़ की और दुकानों में लूटपाट की।",
-    "कैटलन पुलिस ने घोषणा की कि रातों-रात 128 लोगों को गिरफ्तार किया गया है, जिनमें 73 नाबालिग शामिल हैं, और 15 अधिकारी घायल हो गए।"
+    "सोशल मीडिया के आह्वान के बाद शाम करीब 6 बजे केंद्रीय बार्सिलोना में अशांति और पुलिस के साथ झड़पें शुरू हुईं।",
+    "प्रदर्शनकारियों ने 30 से अधिक आग लगाईं, कई दुकानों में तोड़फोड़ और लूटपाट की, और प्लाजा दे कातालूण्या के पास सार्वजनिक संपत्ति को नुकसान पहुंचाया।",
+    "कातालन पुलिस ने गिरफ्तारी की कुल संख्या को अपडेट करके 128 लोग किया, और बताया कि 73 नाबालिग थे और 15 अधिकारी घायल हुए थे।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "गिरफ्तारियों की कुल संख्या पर स्रोत भिन्न थे, शुरुआती रिपोर्टों में लगभग 100 और बाद के पुलिस अपडेट में 128 बताए गए।"
+   ],
    "numbers": {
-    "arrests": "रातों-रात 128 गिरफ्तारियां",
-    "injuries": "रात के दौरान 15 अधिकारी घायल हो गए थे"
+    "arrests": "रिपोर्टों के अनुसार, अधिकारियों ने अशांति के बाद लगभग 100 लोगों को गिरफ्तार किया।",
+    "injuries": "कातालन पुलिस प्रमुख सिल्विया काता ने बताया कि रात के दौरान 15 अधिकारी घायल हो गए थे।"
    }
   },
   "mr": {
-   "title": "मध्य बार्सिलोनामध्ये निदर्शने हिंसक, लुटमार आणि आगी",
-   "seoTitle": "बार्सिलोना विरोध प्रदर्शन आणि लुटमार",
+   "title": "मध्य बार्सिलोनामध्ये लुटमार आणि आगीच्या घटनांसह निदर्शने हिंसक",
+   "seoTitle": "बार्सिलोना विरोध आणि लुटमार",
    "tea": {
-    "why": "फ्रेंच अशांततेपासून प्रेरणा घेऊन, व्यवस्थेविरुद्धच्या अनधिकृत आंदोलनाला प्रोत्साहन देणाऱ्या सोशल मीडिया आवाहनांनंतर निदर्शके जमले.",
-    "want": "निदर्शक एका अस्पष्ट व्यवस्था-विरोधी बॅनरखाली एकत्र आले, तर अधिकाऱ्यांनी या कृतींमध्ये ठोस कारण नसल्याचे सांगितले.",
-    "changed": "२५ ऑक्टोबर: कॅटलन पोलिसांनी disturbances नंतर रात्रभरात एकूण १२८ गिरफ्तार्या आणि १५ अधिकारी जखमी झाल्याची माहिती दिली."
+    "why": "फ्रान्समधील विद्यार्थी निदर्शनांच्या धर्तीवर व्यवस्थेविरुद्ध अनधिकृत निदर्शने करण्यासाठी सोशल मीडियावर केलेल्या आवाहनाला सहभागींनी प्रतिसाद दिला.",
+    "want": "व्यवस्थेविरुद्ध निषेध व्यक्त करणे आणि अशांतेमध्ये सहभागी होणे.",
+    "changed": "२४ ऑक्टोबर: मध्य बार्सिलोनामध्ये तोडफोड, लुटमार आणि आगीच्या घटना घडलेल्या निदर्शनांनंतर पोलिसांनी गिरफ्तार्या केल्या."
    },
-   "summary": "शनिवार संध्याकाळी, २४ ऑक्टोबर २०२६ रोजी, शेकडो प्रामुख्याने तरुण, हुडी घातलेले निदर्शक प्लासा दे काताल्या परिसरासह मध्य बार्सिलोनामध्ये उतरले. फ्रान्समधील अलीकडील विद्यार्थी निदर्शनांच्या धर्तीवर \"इन्स्टिटुत इंडिग्नात्स\" या बॅनरखाली सोशल मीडिया on अनधिकृत सभेचा प्रचार करण्यात आला होता. सहभागींनी सार्वजनिक मालमत्तेची नासधूस केली, दगड, दारूगोळा आणि फ्लेअर्स वापरून पोलिसांशी संघर्ष केला, ३० हून अधिक आगी लावल्या आणि १४ दुकाने लूटली किंवा त्यांचे नुकसान केले, ज्यामुळे काही खरेदीदार आतच अडकले. अधिकाऱ्यांनी अशांतता नियंत्रणात आणण्यासाठी प्रादेशिक आणि नगरपालिका पोलिसांना तैनात केले. प्रादेशिक अध्यक्ष साल्वाडोर इल्ला आणि बार्सिलोनाचे मेयर जाउमे कोलोबोनी यांनी हिंसाचाराचा तीव्र निषेध केला आणि सांगितले की गुन्हेगार आणि सहभागी अल्पवयीनांच्या पालकांना कायदेशीर परिणामांना सामोरे जावे लागेल.",
+   "summary": "शनिवार, २४ ऑक्टोबर २०२६ रोजी \"इन्स्टिट्युट इंडिग्नाट्स\"च्या बॅनरखाली आणि \"व्यवस्थेविरुद्ध\" सोशल मीडियाद्वारे आयोजित निदर्शने बार्सिलोना मधील प्लासा दे कातालूण्या परिसरात झाली. या अनधिकृत जमवाजमवेत हुडी घातलेले व्यक्ती आले ज्यांनी पोलिसांशी संघर्ष केला, सार्वजनिक मालमत्तेची तोडफोड केली, अनेक आगी लावल्या आणि दुकानांची लुटमार केली. कातालूनियाच्या गृह मंत्रालयाने आणि प्रादेशिक पोलिसांनी अल्पवयीन मुलांसह डझनभर गिरफ्तार्या आणि अनेक पोलीस अधिकारी जखमी झाल्याचे वृत्त दिले. प्रादेशिक अध्यक्ष साल्वाडोर इल्या आणि बार्सिलोनाचे महापौर जाउमे कोल्बोनी यांनी हिंसेचा तीव्र निषेध केला आणि सांगितले की गुन्हेगारांना कायदेशीर परिणामांना सामोरे जावे लागेल.",
    "demands": [
-    "व्यवस्थेविरुद्ध निषेध"
+    "व्यवस्थेविरुद्ध कारवाई"
    ],
-   "response": "कैटलन प्रादेशिक अध्यक्ष साल्वाडोर इल्ला आणि बार्सिलोनाचे मेयर जाउमे कोलोबोनी यांनी हिंसाचाराचा निषेध केला आणि सांगितले की ते अशक्य सोडले जाणार नाही. २२० हून अधिक अधिकाऱ्यांना तैनात करण्यात आले, ज्यामुळे अनेक गिरफ्तार्या झाल्या आणि १५ पोलीस अधिकारी जखमी झाल्याचे वृत्त आहे.",
+   "response": "कातालन प्रादेशिक अध्यक्ष साल्वाडोर इल्या यांनी हिंसेचा निषेध केला आणि सांगितले की हल्ले आणि मालमत्तेचे नुकसान यांना कातालूनियामध्ये स्थान नाही. बार्सिलोनाचे महापौर जाउमे कोल्बोनी यांनी प्रतिज्ञा केली की तोडफोडीच्या कृत्यांना शिक्षा न देता सोडले जाणार नाही. पोलिसांनी २२० हून अधिक अधिकारी तैनात केले आणि अनेक गिरफ्तार्या केल्या.",
    "updates": [
-    "मध्य बार्सिलोनेत संध्याकाळी ६ वाजण्याच्या सुमारास अशांतता सुरू झाली कारण हुडी घातलेल्या तरुणांनी आगी लावल्या, मालमत्तेची नासधूस केली आणि दुकाने लूटली.",
-    "कैटलन पोलिसांनी घोषणा केली की ७३ अल्पवयीनांसह १२८ लोकांना रात्रभरात गिरफ्तार केले गेले आणि १५ अधिकारी जखमी झाले."
+    "सोशल मीडियाच्या आवाहनानंतर सायंकाळी ६ वाजताच्या सुमारास मध्य बार्सिलोनामध्ये अशांतता आणि पोलिसांशी संघर्ष सुरू झाला.",
+    "निदर्शकानी ३० हून अधिक आगी लावल्या, अनेक दुकानांची तोडफोड व लुटमार केली आणि प्लाझा दे कातालूण्याजवळ सार्वजनिक मालमत्तेचे नुकसान केले.",
+    "कातालन पोलिसांनी गिरफ्तारीची एकूण संख्या अपडेट करून १२८ लोक केली, आणि नमूद केले की ७३ अल्पवयीन होते आणि १५ अधिकारी जखमी झाले होते."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "गिरफ्तार्यांच्या एकूण संख्येबाबत स्रोतांमध्ये तफावत होती, सुरुवातीच्या अहवालांमध्ये सुमारे १०० आणि त्यानंतरच्या पोलिसांच्या अपडेट्समध्ये १२८ सांगितले गेले."
+   ],
    "numbers": {
-    "arrests": "रात्रभरात १२८ गिरफ्तार्या",
-    "injuries": "रात्रीच्या वेळी १५ अधिकारी जखमी झाले होते"
+    "arrests": "अहवालांनुसार, अशांतेनंतर प्राधिकाऱ्यांनी अंदाजे १०० लोकांना गिरफ्तार केले.",
+    "injuries": "कातालन पोलीस प्रमुख सिल्विया काता यांनी सांगितले की रात्रीच्या वेळी १५ अधिकारी जखमी झाले होते."
    }
   },
   "es": {
-   "title": "Las manifestaciones se vuelven violentas con saqueos e incendios en el centro de Barcelona",
+   "title": "Las manifestaciones se vuelven violentas con saqueos y incendios en el centro de Barcelona",
    "seoTitle": "Protesta antisistema y saqueos en Barcelona",
    "tea": {
-    "why": "Los manifestantes se reunieron tras llamadas en redes sociales que promovían un movimiento no autorizado contra el sistema, inspirándose en los disturbios franceses.",
-    "want": "Los manifestantes se congregaron bajo un lema antisistema vago, mientras que los funcionarios describieron las acciones como carentes de una causa sustantiva.",
-    "changed": "25 de oct: la policía catalana informó de un total de 128 detenciones nocturnas y 15 agentes heridos tras los disturbios."
+    "why": "Los participantes respondieron a llamados en las redes sociales para una manifestación no autorizada contra el sistema, inspirada en las protestas estudiantiles en Francia.",
+    "want": "Protestar contra el sistema y participar en disturbios.",
+    "changed": "24 de oct.: La policía realizó detenciones tras manifestaciones con vandalismo, saqueos e incendios en el centro de Barcelona."
    },
-   "summary": "El sábado por la tarde, el 24 de octubre de 2026, cientos de manifestantes mayoritariamente jóvenes y con capucha descendieron al centro de Barcelona, incluida la zona que rodea la Plaça de Catalunya. La concentración no autorizada se promovió en las redes sociales bajo el lema \"Institut Indignats\", siguiendo el modelo de las recientes protestas estudiantiles en Francia. Los participantes vandalisaron propiedades públicas, se enfrentaron a la policía utilizando piedras, fuegos artificiales y bengalas, provocaron más de 30 incendios y saquearon o dañaron 14 tiendas, atrapando a algunos compradores en el interior. Las autoridades desplegaron agentes de policía regional y municipal para controlar los disturbios. El presidente regional Salvador Illa y el alcalde de Barcelona Jaume Collboni condenaron enérgicamente la violencia, afirmando que los perpetradores y tutores de los menores involucrados se enfrentarían a consecuencias legales.",
+   "summary": "El sábado 24 de octubre de 2026, se llevaron a cabo manifestaciones organizadas a través de las redes sociales bajo el lema \"Institut Indignats\" y \"contra el sistema\" en el centro de Barcelona, alrededor de la Plaça de Catalunya. La concentración no autorizada atrajo a individuos encapuchados que se enfrentaron con la policía, vandalizaron bienes públicos, provocaron numerosos incendios y saquearon tiendas. El departamento de interior de Cataluña y la policía regional informaron de decenas de detenciones, incluidos menores, y varios agentes de policía heridos. El presidente regional Salvador Illa y el alcalde de Barcelona Jaume Collboni condenaron enérgicamente la violencia y afirmaron que los perpetradores se enfrentarían a consecuencias legales.",
    "demands": [
-    "Protesta contra el sistema"
+    "Acción contra el sistema"
    ],
-   "response": "El presidente regional catalán Salvador Illa y el alcalde de Barcelona Jaume Collboni condenaron la violencia, afirmando que no quedaría impune. Se desplegaron más de 220 agentes, lo que provocó numerosas detenciones y se informó de 15 policías heridos.",
+   "response": "El presidente regional catalán Salvador Illa condenó la violencia y afirmó que los ataques y los daños materiales no tienen cabida en Cataluña. El alcalde de Barcelona Jaume Collboni prometió que los actos de vandalismo no quedarían impunes. La policía desplegó a más de 220 agentes y realizó numerosas detenciones.",
    "updates": [
-    "Los disturbios comenzaron alrededor de las 18 h en el centro de Barcelona cuando jóvenes con capucha provocaron incendios, vandalisaron propiedades y saquearon tiendas.",
-    "La policía catalana anunció que 128 personas habían sido detenidas durante la noche, incluidos 73 menores, y 15 agentes resultaron heridos."
+    "Los disturbios y enfrentamientos con la policía comenzaron en el centro de Barcelona alrededor de las 6 p. m. tras llamamientos en las redes sociales.",
+    "Los manifestantes provocaron más de 30 incendios, vandalizaron y saquearon múltiples tiendas, y dañaron bienes públicos cerca de la Plaza de Catalunya.",
+    "La policía catalana actualizó el total de detenciones a 128 personas, señalando que 73 eran menores y 15 agentes resultaron heridos."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Las fuentes variaron sobre el número total de detenciones, con informes iniciales que indicaban alrededor de 100 y actualizaciones policiales posteriores que indicaban 128."
+   ],
    "numbers": {
-    "arrests": "128 detenciones nocturnas",
-    "injuries": "15 agentes habían resultado heridos durante la noche"
+    "arrests": "Las autoridades detuvieron a aproximadamente 100 personas tras los disturbios, según los informes.",
+    "injuries": "La jefa de la policía catalana Silvia Cata declaró que 15 agentes habían resultado heridos durante la noche."
    }
   },
   "fr": {
-   "title": "Les manifestations tournent à la violence avec pillages et incendies dans le centre de Barcelone",
+   "title": "Des manifestations virent à la violence avec des pillages et des incendies dans le centre de Barcelone",
    "seoTitle": "Manifestation antisystème et pillages à Barcelone",
    "tea": {
-    "why": "Des manifestants se sont rassemblés à la suite d'appels sur les réseaux sociaux promouvant un mouvement non autorisé contre le système, s'inspirant des troubles en France.",
-    "want": "Les manifestants se sont ralliés sous une bannière antisystème vague, tandis que les responsables ont qualifié les actions de dépourvues de cause substantielle.",
-    "changed": "25 oct. : la police catalane a fait état d'un total de 128 arrestations nocturnes et de 15 agents blessés à la suite des troubles."
+    "why": "Des participants ont répondu à des appels sur les réseaux sociaux en faveur d'une manifestation non autorisée contre le système, calquée sur les manifestations étudiantes en France.",
+    "want": "Protester contre le système et participer à des troubles.",
+    "changed": "24 oct. : La police a procédé à des arrestations à la suite de manifestations marquées par du vandalisme, des pillages et des incendies dans le centre de Barcelone."
    },
-   "summary": "Le samedi soir, 24 octobre 2026, des centaines de manifestants principalement jeunes et encapuchonnés ont déferlé sur le centre de Barcelone, y compris la zone entourant la Plaça de Catalunya. Le rassemblement non autorisé a été promu sur les réseaux sociaux sous la bannière \"Institut Indignats\", sur le modèle des récentes protestations étudiantes en France. Les participants ont vandalisé des biens publics, se sont heurtenés à la police à l'aide de pierres, de feux d'artifice et de fusées éclairantes, ont déclenché plus de 30 incendies et ont pillé ou endommagé 14 magasins, piégeant certains acheteurs à l'intérieur. Les autorités ont déployé des policiers régionaux et municipaux pour contrôler les troubles. Le président régional Salvador Illa et le maire de Barcelone Jaume Collboni ont vigoureusement condamné la violence, déclarant que les auteurs et les tuteurs des mineurs impliqués feraient face à des conséquences juridiques.",
+   "summary": "Le samedi 24 octobre 2026, des manifestations organisées via les réseaux sociaux sous la bannière \"Institut Indignats\" et \"contre le système\" ont eu rassemblement lieu dans le centre de Barcelone autour de la Plaça de Catalunya. Le rassemblement non autorisé a attiré des individus encapuchés qui se sont heurts à la police, ont vandalisé des biens publics, ont déclenché de nombreux incendies et ont pillé des magasins. Le ministère de l'Intérieur de la Catalogne et la police régionale ont fait état de dizaines d'arrestations, y compris de mineurs, et de plusieurs policiers blessés. Le président régional Salvador Illa et le maire de Barcelone Jaume Collboni ont condamné fermement la violence, déclarant que les auteurs subiraient des conséquences juridiques.",
    "demands": [
-    "Protester contre le système"
+    "Action contre le système"
    ],
-   "response": "Le président régional catalan Salvador Illa et le maire de Barcelone Jaume Collboni ont condamné la violence, affirmant qu'elle ne resterait pas impunie. Plus de 220 agents ont été déployés, entraînant de nombreuses arrestations et faisant état de 15 policiers blessés.",
+   "response": "Le président régional catalan Salvador Illa a condamné la violence, déclarant que les attaques et les dégâts matériels n'ont pas leur place en Catalogne. Le maire de Barcelone Jaume Collboni a promis que les actes de vandalisme ne resteraient pas impunis. La police a déployé plus de 220 agents et procédé à de nombreuses arrestations.",
    "updates": [
-    "Les troubles ont commencé vers 18 h dans le centre de Barcelone alors que des jeunes encapuchonnés ont alloué des incendies, vandalisé des biens et pillé des magasins.",
-    "La police catalane a annoncé que 128 personnes avaient été arrêtées pendant la nuit, dont 73 mineurs, et que 15 agents avaient été blessés."
+    "Des troubles et des affrontements avec la police ont commencé dans le centre de Barcelone vers 18 h à la suite d'appels sur les réseaux sociaux.",
+    "Des manifestants ont déclenché plus de 30 incendies, vandalisé et pillé de multiples magasins, et endommagé des biens publics près de la Plaza de Catalunya.",
+    "La police catalane a mis à jour le total des arrestations à 128 personnes, notant que 73 étaient des mineurs et que 15 agents ont été blessés."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Les sources ont varié sur le nombre total d'arrestations, avec des rapports initiaux faisant état d'environ 100 et des mises à jour policières ultérieures faisant état de 128."
+   ],
    "numbers": {
-    "arrests": "128 arrestations nocturnes",
-    "injuries": "15 agents avaient été blessés pendant la nuit"
+    "arrests": "Les autorités ont arrêté environ 100 personnes après les troubles, selon les rapports.",
+    "injuries": "La cheffe de la police catalane Silvia Cata a déclaré que 15 agents avaient été blessés au cours de la nuit."
    }
   },
   "de": {
-   "title": "Demonstrationen eskalieren mit Plünderungen und Bränden im Zentrum von Barcelona",
+   "title": "Demonstrationen schlagen in Plünderungen und Brände im Zentrum von Barcelona um",
    "seoTitle": "Antisystem-Protest und Plünderungen in Barcelona",
    "tea": {
-    "why": "Demonstranten versammelten sich nach Aufrufen in den sozialen Medien, die eine unerlaubte Bewegung gegen das System propagierten, inspiriert von den Unruhen in Frankreich.",
-    "want": "Demonstranten schlossen sich unter einem vagen antisystemischen Banner zusammen, während Beamte erklärten, den Aktionen fehle eine substanzielle Ursache.",
-    "changed": "25. Okt.: Die katalanische Polizei meldete nach den Ausschreitungen insgesamt 128 Festnahmen über Nacht und 15 verletzte Beamte."
+    "why": "Teilnehmer reagierten auf Aufrufe in sozialen Medien zu einer nicht genehmigten Demonstration gegen das System, modelliert nach Studentenprotesten in Frankreich.",
+    "want": "Gegen das System zu protestieren und an Unruhen teilzunehmen.",
+    "changed": "24. Okt.: Die Polizei nahm nach Demonstrationen mit Vandalismus, Plünderungen und Bränden im Zentrum von Barcelona Festnahmen vor."
    },
-   "summary": "Am Samstagabend, den 24. Oktober 2026, zogen Hunderte überwiegend junge, kapuzentragende Demonstranten in das Zentrum von Barcelona, einschließlich des Bereichs um die Plaça de Catalunya. Die unerlaubte Versammlung wurde in den sozialen Medien unter dem Banner „Institut Indignats“ beworben, nach dem Vorbild jüngster Studentenproteste in Frankreich. Teilnehmer beschädigten öffentliches Eigentum, lieferten sich Auseinandersetzungen mit der Polizei unter Einsatz von Steinen, Feuerwerkskörpern und Leuchtkugeln, legten mehr als 30 Brände und plünderten oder beschädigten 14 Geschäfte, wodurch einige Käufer im Inneren eingeschlossen wurden. Die Behörden setzten regionale und kommunale Polizeibeamte ein, um die Unruhen zu kontrollieren. Der Regionalpräsident Salvador Illa und Barcelonas Bürgermeister Jaume Collboni verurteilten die Gewalt scharf und erklärten, Täter und Erziehungsberechtigte beteiligter Minderjähriger müssten mit rechtlichen Konsequenzen rechnen.",
+   "summary": "Am Samstag, den 24. Oktober 2026, fanden in Barcelona rund um die Plaça de Catalunya Demonstrationen statt, die über soziale Medien unter dem Banner „Institut Indignats“ und „gegen das System“ organisiert wurden. Die nicht genehmigte Versammlung zog vermummte Personen an, die mit der Polizei zusammenstießen, öffentliches Eigentum vandalisierten, zahlreiche Brände legten und Geschäfte plünderten. Das katalanische Innenministerium und die Regionalpolizei meldeten Dutzende Festnahmen, darunter Minderjährige, und mehrere verletzte Polizeibeamte. Der Regionalpräsident Salvador Illa und der Bürgermeister von Barcelona Jaume Collboni verurteilten die Gewalt scharf und erklärten, dass die Täter rechtliche Konsequenzen tragen würden.",
    "demands": [
-    "Protest gegen das System"
+    "Aktion gegen das System"
    ],
-   "response": "Der katalanische Regionalpräsident Salvador Illa und Barcelonas Bürgermeister Jaume Collboni verurteilten die Gewalt und erklärten, sie werde nicht ungestraft bleiben. Über 220 Beamte wurden eingesetzt, was zu zahlreichen Festnahmen und Berichten über 15 verletzte Polizeibeamte führte.",
+   "response": "Der katalanische Regionalpräsident Salvador Illa verurteilte die Gewalt und erklärte, dass Angriffe und Sachbeschädigungen in Katalonien keinen Platz haben. Der Bürgermeister von Barcelona Jaume Collboni schwor, dass Vandalismusakte nicht ungestraft bleiben würden. Die Polizei setzte über 220 Beamte ein und nahm zahlreiche Festnahmen vor.",
    "updates": [
-    "Die Unruhen begannen gegen 18 Uhr im Zentrum von Barcelona, als kapuzentragende Jugendliche Brände legten, Eigentum beschädigten und Geschäfte plünderten.",
-    "Die katalanische Polizei gab bekannt, dass über Nacht 128 Personen festgenommen worden waren, darunter 73 Minderjährige, und 15 Beamte verletzt wurden."
+    "Unruhen und Zusammenstöße mit der Polizei begannen im Zentrum von Barcelona gegen 18 Uhr nach Aufrufen in sozialen Medien.",
+    "Demonstranten legten über 30 Brände, vandalisierten und plünderten mehrere Geschäfte und beschädigten öffentliches Eigentum in der Nähe der Plaza de Catalunya.",
+    "Die katalanische Polizei aktualisierte die Gesamtzahl der Festnahmen auf 128 Personen und stellte fest, dass 73 Minderjährige waren und 15 Beamte verletzt wurden."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Quellen wichen bei der Gesamtzahl der Festnahmen voneinander ab, wobei erste Berichte von etwa 100 und spätere Polizeiberichte von 128 sprachen."
+   ],
    "numbers": {
-    "arrests": "128 Festnahmen über Nacht",
-    "injuries": "15 Beamte waren während der Nacht verletzt worden"
+    "arrests": "Berichten zufolge nahmen die Behörden nach den Ausschreitungen etwa 100 Personen fest.",
+    "injuries": "Die Chefin der katalanischen Polizei Silvia Cata erklärte, dass 15 Beamte während der Nacht verletzt worden waren."
    }
   }
  }

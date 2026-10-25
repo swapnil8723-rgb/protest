@@ -1,33 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-25",
-  "count": 126
+  "count": 164
  },
  "runs": [
-  {
-   "at": "2026-10-18T20:49:33.711Z",
-   "ms": 58419,
-   "discovered": 16,
-   "fetched": 12,
-   "classified": 10,
-   "protests": 6,
-   "summarized": 2,
-   "published": 94,
-   "live": 14,
-   "aiCalls": 4,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 6 files, 17 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 22 protest-word items",
-    "fetch: 12 ok, 4 failed",
-    "classify: new candidate efa216edcdd \"Residents hold No Kings early voting rally in Athens\" (Athens)",
-    "classify: new candidate ec32771912f \"Residents gather for No Kings early voting rallies\" (Westminster)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 1 events"
-   ],
-   "translated": 1
-  },
   {
    "at": "2026-10-18T23:17:44.128Z",
    "ms": 72385,
@@ -1387,8 +1363,45 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-10-25T14:48:46.931Z",
+   "ms": 369642,
+   "discovered": 94,
+   "fetched": 92,
+   "classified": 86,
+   "protests": 42,
+   "summarized": 15,
+   "published": 164,
+   "live": 15,
+   "aiCalls": 38,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261025141500 http://data.gdeltproject.org/gdeltv2/20261025141500.export.CSV.zip → 404",
+    "gdelt: 20261025143000 http://data.gdeltproject.org/gdeltv2/20261025143000.export.CSV.zip → 404",
+    "gdelt: 20261025144500 http://data.gdeltproject.org/gdeltv2/20261025144500.export.CSV.zip → 404",
+    "gdelt: 12 files, 40 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 229 protest-word items",
+    "search: 10 single-source stories checked, 13 other newsrooms found",
+    "fetch: 92 ok, 2 failed",
+    "classify: new candidate e22ff5ca08d \"Families of missing Azerbaijanis rally in Brussels\" (Brussels)",
+    "classify: new candidate ec325051f4a \"Students and workers protest living costs and government policies in France\" (Lyon)",
+    "classify: new candidate e9d34c85561 \"Campaign groups protest data centers outside B2B event\" (Kilmarnock)",
+    "classify: new candidate e5123f37c96 \"Pahadi Army burns effigy of Akhilesh Yadav in Haldwani\" (Haldwani)",
+    "classify: new candidate edaa3bd7164 \"AISF holds sit-in in Thrissur in solidarity with Delhi\" (Thrissur)",
+    "classify: new candidate efa9ea9de72 \"Protesters clash with police in Angers over living costs\" (Angers)",
+    "classify: new candidate eb21bfbd718 \"Artists hold solidarity march in Malappuram for Jantar Mantar protests\" (Malappuram)",
+    "classify: new candidate e9e9fb667c5 \"Protesters clash with police during mobilisation in Clermont-Ferrand\" (Clermont-Ferrand)",
+    "classify: new candidate ebee9f108f8 \"PMOI supporters stage sit-in outside Iranian embassy in Berlin\" (Berlin)",
+    "classify: new candidate ef2b23e8bd8 \"Demonstrators clash with police in Italian cities over costs\" (Bologna)",
+    "summary: e4d5248920e only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 14 events"
+   ],
+   "translated": 14
   }
  ],
- "gdeltCursor": "20261025114500",
- "lastRunAt": "2026-10-25T11:38:25.110Z"
+ "gdeltCursor": "20261025144500",
+ "lastRunAt": "2026-10-25T14:48:46.931Z"
 }
