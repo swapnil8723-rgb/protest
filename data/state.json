@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-25",
-  "count": 44
+  "count": 96
  },
  "runs": [
-  {
-   "at": "2026-10-18T15:55:14.450Z",
-   "ms": 191815,
-   "discovered": 41,
-   "fetched": 38,
-   "classified": 33,
-   "protests": 16,
-   "summarized": 7,
-   "published": 93,
-   "live": 12,
-   "aiCalls": 15,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 9 files, 35 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 31 protest-word items",
-    "fetch: 38 ok, 3 failed",
-    "classify: new candidate e4cd58d1a54 \"Protesters clash and loot stores in Bordeaux over living costs\" (Bordeaux)",
-    "classify: new candidate eb7447ef07c \"Tomato growers block highway over price crash in Annamayya\" (Madanapalle)",
-    "classify: new candidate e5c14114fee \"CJP supporters attempt Tiranga march at Carter Road\" (Mumbai)",
-    "reader: rejected 448bdd35b6654dff-1.json: place not found: World",
-    "reader: 0 published, 0 held, 0 duplicates, 1 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-18T19:28:42.510Z",
    "ms": 335018,
@@ -1376,8 +1350,44 @@
     "translate: 16 events"
    ],
    "translated": 16
+  },
+  {
+   "at": "2026-10-25T07:44:02.673Z",
+   "ms": 468317,
+   "discovered": 127,
+   "fetched": 116,
+   "classified": 105,
+   "protests": 69,
+   "summarized": 23,
+   "published": 158,
+   "live": 16,
+   "aiCalls": 52,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 42 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss news.err.ee: 403",
+    "rss: 265 protest-word items",
+    "search: 25 single-source stories checked, 25 other newsrooms found",
+    "fetch: 116 ok, 11 failed",
+    "classify: new candidate e60d1ef00de \"Students demonstrate and block schools in Lisbon over housing and costs\" (Lisbon)",
+    "classify: new candidate e9bb4b715ec \"Demonstration in Coimbra demands action on housing crisis\" (Coimbra)",
+    "classify: new candidate ed0e22fce32 \"Housing rights protesters occupy Rossio square and pitch tents in Lisbon\" (Lisbon)",
+    "classify: new candidate e957a69679c \"Porto residents and families protest housing crisis\" (Porto)",
+    "classify: new candidate eeffb10680a \"Evora residents rally for housing and basic rights\" (Évora)",
+    "classify: new candidate ef1fd11814e \"Protesters clash with police during cost-of-living demonstrations in France\" (Toulouse)",
+    "classify: new candidate e31a350141d \"Texas Southern students march to polls to vote\" (Houston)",
+    "classify: new candidate eff6de72198 \"Italian PM Meloni praises police for order during cost-of-living protests\" (Rome)",
+    "classify: new candidate e04d4e410a8 \"Serbians vote in parliamentary election amid student-led protests\" (Belgrade)",
+    "classify: new candidate e4a024234b0 \"LPG distributors' unions oppose strike and seek dialogue\" (Delhi)",
+    "classify: new candidate ef4556eb02d \"Cost-of-living protests held across France amid heavy security\" (Lyon)",
+    "classify: new candidate ee739fc14a4 \"Teachers and support staff rally across Ontario for funding\" (Greater Sudbury)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 20 events"
+   ],
+   "translated": 20
   }
  ],
- "gdeltCursor": "20261025043000",
- "lastRunAt": "2026-10-25T04:23:39.064Z"
+ "gdeltCursor": "20261025074500",
+ "lastRunAt": "2026-10-25T07:44:02.673Z"
 }
