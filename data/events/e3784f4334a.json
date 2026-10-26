@@ -23,13 +23,13 @@
  "status": "scheduled",
  "vibe": "heating-up",
  "severity": "serious",
- "review": "pending",
+ "review": "approved",
  "reviewReasons": [
   "serious",
   "low-confidence"
  ],
  "isOngoing": false,
- "published": false,
+ "published": true,
  "tea": {
   "why": "Organisers and students are frustrated with campus rape culture and how victims of sexual assault are treated.",
   "want": "To end campus rape culture and support victims of sexual assault.",
@@ -93,5 +93,10 @@
  "sensitive": true,
  "summarizedAt": "2026-10-25T16:31:31.720Z",
  "summaryOf": "80c609e21b9a",
- "searchedAt": "2026-10-25T11:38:32.840Z"
+ "searchedAt": "2026-10-25T11:38:32.840Z",
+ "approvedFor": [
+  "serious",
+  "low-confidence"
+ ],
+ "publishedAt": "2026-10-26T09:30:33.907Z"
 }

@@ -61,6 +61,10 @@ const BLOCKED_PUBLISHERS = new Set([
   'voiceofvienna.org', 'rightspeak.net', 'yourdemocracy.net',
   // re-post wire copy under their own headline (seen in second-newsroom search results)
   'marketscreener.com', 'globalbankingandfinance.com', 'newscord.org', 'breakingbelizenews.com',
+  // advocacy, conspiracy and state-propaganda sites, not newsrooms: never a source or a "second newsroom"
+  // (amren.com was the only other source on a US card, Oct 2026; Google weighs the sources a news site cites)
+  'amren.com', 'vdare.com', 'thegatewaypundit.com', 'infowars.com', 'naturalnews.com', 'zerohedge.com',
+  'rt.com', 'sputnikglobe.com', 'sputniknews.com', 'globalresearch.ca', 'mintpressnews.com',
 ]);
 
 export function hostOf(url: string): string {
@@ -150,9 +154,9 @@ export const PROTEST_WORDS = new RegExp(
     'dharna', 'agitat', 'bandh', 'hartal', 'gherao', 'blockade', 'block(?:ed|ing)? (?:road|highway|rail)', 'picket',
     'hunger strike', 'boycott', 'riot', 'unrest', 'clash', 'stir\\b', 'andolan', 'morcha', 'chakka jam', 'rail roko',
     'rasta roko', 'candle(?:light)? march', 'shutdown', 'occupy', 'encampment', 'vigil', 'uprising',
-    // fr / es / de / id
+    // fr / es / de / nl / id
     'manifest', 'grève', 'greve', 'mobilisation', 'huelga', 'protesta', 'concentraci', 'kundgebung', 'streik',
-    'demo\\b', 'unjuk rasa', 'demonstrasi', 'aksi massa', 'mogok',
+    'demo\\b', 'betoging', 'stakingen', 'staakt', 'unjuk rasa', 'demonstrasi', 'aksi massa', 'mogok',
   ].join('|'),
   'i',
 );

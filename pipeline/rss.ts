@@ -1,4 +1,4 @@
-// Publisher RSS fills gaps GDELT misses: Indian city news, the European press that
+// Publisher RSS fills gaps GDELT misses: Indian city news, US/UK/Australian local news, the European press that
 // GDELT's English-only export never sees, and Ukraine/Russia outlets. Items only enter the pipeline if
 // their headline/summary uses protest vocabulary. Only feeds whose articles we can fetch
 // (Le Monde 402, Libération 403, NYT 403 were tried and dropped, Oct 2026).
@@ -21,22 +21,38 @@ export const FEEDS = [
   'https://www.lefigaro.fr/rss/figaro_actualites.xml',
   'https://www.ouest-france.fr/rss/une',
   'https://www.theguardian.com/world/france/rss',
-  // Germany
+  // Germany (#3 reader country, Oct 2026: national plus Berlin, Hamburg and eastern regional newsrooms;
+  // Zeit's articles refuse us, WDR's and BR's feeds are empty or gone)
   'https://www.tagesschau.de/inland/index~rss2.xml',
   'https://www.spiegel.de/schlagzeilen/index.rss',
   'https://rss.dw.com/rdf/rss-en-ger',
   'https://www.theguardian.com/world/germany/rss',
+  'https://rss.sueddeutsche.de/rss/Topthemen',
+  'https://www.faz.net/rss/aktuell/',
+  'https://taz.de/!p4608;rss/',
+  'https://www.zdf.de/rss/zdf/nachrichten',
+  'https://www.tagesspiegel.de/contentexport/feed/home',
+  'https://www.rbb24.de/aktuell/index.xml/feed=rss.xml',
+  'https://www.ndr.de/home/index-rss.xml',
+  'https://www.mdr.de/nachrichten/index-rss.xml',
   // Spain, UK, US
   'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada',
   'https://www.theguardian.com/world/spain/rss',
   'https://www.theguardian.com/uk-news/rss',
+  'https://feeds.bbci.co.uk/news/uk/rss.xml',
+  'https://www.independent.co.uk/news/uk/rss',
+  'https://www.standard.co.uk/news/rss',
+  'https://www.manchestereveningnews.co.uk/news/?service=rss',
   'https://www.theguardian.com/us-news/rss',
   'https://feeds.npr.org/1003/rss.xml',
   // Rest of Europe (Pravda.com.ua, Kathimerini, Romania Insider, Euronews refuse us; dropped)
   'https://www.theguardian.com/world/europe-news/rss',
   'https://www.theguardian.com/world/italy/rss',
   'https://www.ansa.it/english/news/english_nr_rss.xml',
+  'https://feeds.bbci.co.uk/news/world/europe/rss.xml',
   'https://www.theguardian.com/world/netherlands/rss',
+  'https://feeds.nos.nl/nosnieuwsbinnenland',
+  'https://www.dutchnews.nl/feed/',
   'https://www.theguardian.com/world/greece/rss',
   'https://www.theguardian.com/world/poland/rss',
   'https://notesfrompoland.com/feed/',
@@ -68,15 +84,28 @@ export const FEEDS = [
   'https://www.theguardian.com/world/slovakia/rss',
   'https://www.theguardian.com/world/bulgaria/rss',
   // More US national newsrooms, so a protest one local outlet reports can find its second source
-  // (The Hill, Axios, CNN's dead feed and the Washington Post refuse us or are stale; dropped)
+  // (Axios, CNN's dead feed, the Washington Post, Politico, USA Today, SF Chronicle and NY Daily News
+  // refuse us or are stale; dropped. The Hill's feed works again, Oct 2026)
   'https://www.cbsnews.com/latest/rss/us',
   'https://abcnews.go.com/abcnews/usheadlines',
   'https://feeds.nbcnews.com/nbcnews/public/news',
   'https://moxie.foxnews.com/google-publisher/us.xml',
   'https://www.latimes.com/california/rss2.0.xml',
+  'https://thehill.com/homenews/feed/',
+  'https://www.pbs.org/newshour/feeds/rss/headlines',
+  'https://www.theguardian.com/us-news/us-politics/rss',
+  'https://www.bostonglobe.com/arc/outboundfeeds/rss/?outputType=xml',
+  'https://www.seattletimes.com/feed/',
   // Canada
   'https://globalnews.ca/canada/feed/',
   'https://www.theguardian.com/world/canada/rss',
+  // Australia and New Zealand (added Oct 2026; SBS's feed is stale, Stuff's empty)
+  'https://www.abc.net.au/news/feed/2942460/rss.xml',
+  'https://www.theguardian.com/australia-news/rss',
+  'https://www.smh.com.au/rss/feed.xml',
+  'https://www.theage.com.au/rss/feed.xml',
+  'https://www.rnz.co.nz/rss/national.xml',
+  'https://www.nzherald.co.nz/arc/outboundfeeds/rss/curated/78/?outputType=xml',
   // Middle East & North Africa: Israeli, Arab and international newsrooms side by side
   // (Times of Israel, IranWire, Al Arabiya, Morocco World News refuse us; JPost's feed is stale)
   'https://www.theguardian.com/world/middleeast/rss',

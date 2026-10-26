@@ -24,14 +24,14 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "serious",
- "review": "pending",
+ "review": "approved",
  "reviewReasons": [
   "serious",
   "low-confidence",
   "sources-disagree"
  ],
  "isOngoing": false,
- "published": false,
+ "published": true,
  "tea": {
   "why": "Residents opposed proposed zoning ordinance changes allowing new data centers due to concerns over heavy water and electricity demands.",
   "want": "Reject the proposed data center zoning ordinance and halt facility construction approvals.",
@@ -126,5 +126,11 @@
  "sensitive": false,
  "summarizedAt": "2026-10-25T07:47:57.246Z",
  "summaryOf": "b6e05ebaf0c4",
- "searchedAt": "2026-10-25T07:44:10.076Z"
+ "searchedAt": "2026-10-25T07:44:10.076Z",
+ "approvedFor": [
+  "serious",
+  "low-confidence",
+  "sources-disagree"
+ ],
+ "publishedAt": "2026-10-26T09:28:54.257Z"
 }

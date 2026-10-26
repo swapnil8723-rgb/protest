@@ -2,8 +2,8 @@
 import Base from '../layouts/Base.astro';
 import EventCard from '../components/EventCard.astro';
 import LocatorMap from '../components/LocatorMap.astro';
-import { cities, cname, countryUrl, hubsFor, hubUrl, inCountry, lastRunAt, type Country } from '../lib/data';
-import { metaDesc, monthYear } from '../lib/format';
+import { cities, cname, countryUrl, hubsFor, hubUrl, inCountry, isUnverified, lastRunAt, type Country } from '../lib/data';
+import { fmtDay, metaDesc, monthYear } from '../lib/format';
 import { breadcrumbs, itemList } from '../lib/seo';
 import { href, inCountry as inC, langOf, useT } from '../i18n';
 import { loc } from '../i18n/event';
@@ -29,6 +29,9 @@ const vars = { country, in: inPhrase };
 const lede = live.length
   ? t('country.ledeLive', { ...vars, n: live.length, where, top: loc(live[0], lang).title })
   : `${t('country.ledeQuiet', vars)} ${past.length ? t('country.ledePast', { n: past.length }) : ''}`.trim();
+// The search snippet leads with the latest checked protest, not the "quiet" joke (it read as an empty page in Google).
+const latest = past.find((e) => !isUnverified(e));
+const snippet = live.length ? lede : latest ? t('meta.latest', { top: loc(latest, lang).title, date: fmtDay(latest.startedOn, false, lang) }) : '';
 // Breadcrumb goes through the country's region hub (Europe / Middle East) once it has protests.
 const hubs = hubsFor(c.iso);
 const region = hubs.find((h) => h.path.startsWith('/region/'));
@@ -38,7 +41,7 @@ crumbs.push([country, countryUrl(c, lang)]);
 ---
 <Base
   title={t('country.title', { ...vars, month })}
-  description={metaDesc(`${lede} ${t('country.descTail', vars)}`)}
+  description={metaDesc(`${snippet} ${t('country.descTail', vars)}`.trim())}
   path={`/country/${c.slug}`}
   noindex={all.length === 0}
   jsonLd={[itemList(all, t('country.listName', vars), lang), breadcrumbs(crumbs)]}

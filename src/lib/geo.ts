@@ -69,6 +69,8 @@ const BBOX: Record<string, [number, number, number, number]> = {
   ma: [-13.2, 27.6, -1.0, 35.9], // Morocco without Western Sahara (GeoNames lists it separately)
   tn: [7.5, 30.2, 11.6, 37.6],
   ca: [-141.0, 41.6, -52.6, 62.0], // the populated south; the Arctic is off-frame
+  au: [112.9, -43.8, 153.7, -10.6], // mainland and Tasmania
+  nz: [166.3, -47.4, 178.6, -34.3],
   europe: [-10.5, 34.5, 45.0, 64.0], // hub map: Lisbon to the Caucasus
   'middle-east': [-13.0, 21.0, 63.5, 42.5], // hub map: Morocco to Iran
 };

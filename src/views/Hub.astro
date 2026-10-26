@@ -4,8 +4,8 @@
 import Base from '../layouts/Base.astro';
 import EventCard from '../components/EventCard.astro';
 import LocatorMap from '../components/LocatorMap.astro';
-import { byIso, cname, countryUrl, HUBS, hubUrl, lastRunAt, type Hub } from '../lib/data';
-import { metaDesc, monthYear } from '../lib/format';
+import { byIso, cname, countryUrl, HUBS, hubUrl, isUnverified, lastRunAt, type Hub } from '../lib/data';
+import { fmtDay, metaDesc, monthYear } from '../lib/format';
 import { breadcrumbs, itemList } from '../lib/seo';
 import { href, langOf, useT } from '../i18n';
 import { loc } from '../i18n/event';
@@ -24,12 +24,15 @@ const liveCountries = byCountry.filter((x) => x.live > 0).map((x) => cname(x.c, 
 const lede = live.length
   ? t(`hub.${k}.lede`, { n: live.length, countries: liveCountries.slice(0, 5).join(', ') + (liveCountries.length > 5 ? t('country.andMore', { n: liveCountries.length - 5 }) : ''), top: loc(live[0], lang).title })
   : t(`hub.${k}.quiet`);
+// Search snippet: the latest checked protest instead of the "quiet" line (see Country.astro).
+const latest = past.find((e) => !isUnverified(e));
+const snippet = live.length ? lede : latest ? t('meta.latest', { top: loc(latest, lang).title, date: fmtDay(latest.startedOn, false, lang) }) : lede;
 const others = HUBS.filter((o) => o.key !== h.key && o.list.length > 0);
 const title = t(`hub.${k}.h1`);
 ---
 <Base
   title={t(`hub.${k}.title`, { month })}
-  description={metaDesc(`${lede} ${t(`hub.${k}.desc`)}`)}
+  description={metaDesc(`${snippet} ${t(`hub.${k}.desc`)}`)}
   path={h.path}
   noindex={h.list.length === 0}
   jsonLd={[itemList(h.list, title, lang), breadcrumbs([[t('crumb.home'), href(lang, '/')], [title, hubUrl(h, lang)]])]}

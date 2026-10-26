@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import EventCard from '../components/EventCard.astro';
 import { cname, country, countryUrl, lastRunAt, type ProtestEvent } from '../lib/data';
-import { metaDesc, monthYear } from '../lib/format';
+import { fmtDay, metaDesc, monthYear } from '../lib/format';
 import { breadcrumbs, itemList } from '../lib/seo';
 import { href, inCountry, langOf, useT } from '../i18n';
 import { loc } from '../i18n/event';
@@ -20,10 +20,12 @@ const month = monthYear(new Date().toISOString().slice(0, 10), lang);
 const lede = live.length
   ? t('city.ledeLive', { n: live.length, city: place.city, top: live.map((e) => loc(e, lang).title).slice(0, 2).join('; ') })
   : t('city.ledeQuiet', { city: place.city });
+// Search snippet: the latest protest instead of the "quiet" joke (see Country.astro).
+const snippet = live.length ? lede : past.length ? t('meta.latest', { top: loc(past[0], lang).title, date: fmtDay(past[0].startedOn, false, lang) }) : '';
 ---
 <Base
   title={t('city.title', { city: place.city, month })}
-  description={metaDesc(`${lede} ${t('city.descTail', { city: place.city, region: place.region || cn })}`)}
+  description={metaDesc(`${snippet} ${t('city.descTail', { city: place.city, region: place.region || cn })}`.trim())}
   path={path}
   jsonLd={[itemList(list, t('city.h1', { city: place.city }), lang), breadcrumbs([[t('crumb.home'), href(lang, '/')], [cn, countryUrl(c, lang)], [place.city, href(lang, path)]])]}
 >

@@ -128,7 +128,7 @@ const en = {
 
   // Home
   'home.title': 'LOUD: Live protest map & tracker. Protests today, explained',
-  'home.description': 'Live protest tracker: every protest in India and 10 more countries explained in 10 seconds: why, what they want, and whether it is still on. Checked against multiple newsrooms.',
+  'home.description': 'Live protest map for the US, Europe, the UK, Australia, the Middle East and India. Every protest explained in 10 seconds, checked against multiple newsrooms.',
   'home.live': 'Live',
   'home.updated': 'updated',
   'home.checkedHourly': 'checked every 3 hours',
@@ -181,13 +181,14 @@ const en = {
   'today.missing': "Something happening near you that isn't here?",
 
   // Country and city
-  'country.title': '{country} protests today: live tracker & latest updates ({month})',
+  'country.title': '{country} protests today: live map & latest updates ({month})',
   'country.ledeLive': { one: '{n} protest is live {in} right now{where}. The loudest: {top}.', other: '{n} protests are live {in} right now{where}. The loudest: {top}.' },
   'country.where': ', in {cities}',
   'country.andMore': ' and {n} more',
   'country.ledeQuiet': 'No protests are live {in} right now. Suspiciously quiet.',
   'country.ledePast': 'Below: the {n} we tracked recently.',
   'country.descTail': 'Every protest {in} explained in three lines, with sources and whether it is still on. Updated every 3 hours.',
+  'meta.latest': 'Latest: {top} ({date}).',
   'country.h1': '{country} protests today',
   'country.live': 'Live',
   'country.tracked': 'Tracked',

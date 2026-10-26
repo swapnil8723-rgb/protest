@@ -73,6 +73,9 @@ export const COUNTRIES: Country[] = [
   { iso: 'tn', fips: 'TS', name: 'Tunisia', slug: 'tunisia', tz: 'Africa/Tunis' },
   // North America (Canada: 7th-biggest reader country, Oct 2026)
   { iso: 'ca', fips: 'CA', name: 'Canada', slug: 'canada', tz: 'America/Toronto' },
+  // Oceania (added Oct 2026: English-speaking, ~94% Google share, big regular rallies)
+  { iso: 'au', fips: 'AS', name: 'Australia', slug: 'australia', tz: 'Australia/Sydney' },
+  { iso: 'nz', fips: 'NZ', name: 'New Zealand', slug: 'new-zealand', tz: 'Pacific/Auckland' },
 ];
 
 /** Region hubs (/region/<slug>): countries grouped for "protests in Europe today". */
