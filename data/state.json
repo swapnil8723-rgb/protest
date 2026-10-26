@@ -1,40 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-25",
-  "count": 249
+  "day": "2026-10-26",
+  "count": 23
  },
  "runs": [
-  {
-   "at": "2026-10-19T13:26:03.636Z",
-   "ms": 796265,
-   "discovered": 97,
-   "fetched": 90,
-   "classified": 77,
-   "protests": 38,
-   "summarized": 12,
-   "published": 98,
-   "live": 15,
-   "aiCalls": 25,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 23 files, 83 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 33 protest-word items",
-    "fetch: 90 ok, 7 failed",
-    "classify: new candidate ea12dc3abaf \"Right-wing groups protest professor over inappropriate messages\" (Nagpur)",
-    "classify: new candidate e9f5e32c95e \"Locals protest outside CM residence in Imphal over killings\" (Imphal)",
-    "classify: new candidate e60db1dac55 \"Lal Hit Janta Party holds first gathering against CJP in Delhi\" (Delhi)",
-    "classify: new candidate ec9bcb7e542 \"Demonstrators riot and loot in Nice over cost of living\" (Nice)",
-    "classify: new candidate edd344a9278 \"Defend Democracy group protests presidential visit\" (Park City)",
-    "classify: new candidate e831d959acf \"No Kings rallies to encourage early voting\" (Syracuse)",
-    "classify: new candidate e10d31fda63 \"Demonstrators riot and loot in French cities\" (Marseille)",
-    "classify: new candidate e97870dd10f \"French students and workers stage economic protests\" (Limoges)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: e783788f187 failed: The operation was aborted due to timeout",
-    "translate: e338e6446d5 failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "translate: stopped: run time cap 13 min reached"
-   ]
-  },
   {
    "at": "2026-10-19T16:16:25.495Z",
    "ms": 637406,
@@ -1413,8 +1382,33 @@
     "translate: 10 events"
    ],
    "translated": 10
+  },
+  {
+   "at": "2026-10-26T02:17:27.486Z",
+   "ms": 256309,
+   "discovered": 50,
+   "fetched": 48,
+   "classified": 39,
+   "protests": 21,
+   "summarized": 10,
+   "published": 170,
+   "live": 14,
+   "aiCalls": 23,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 36 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 207 protest-word items",
+    "search: 19 single-source stories checked, 22 other newsrooms found",
+    "fetch: 48 ok, 2 failed",
+    "classify: new candidate e9de2d5c44f \"Ukrainians rally in Colonie against Russian diesel deal\" (Colonie)",
+    "classify: new candidate ea496688f3b \"Immigrant advocates rally in New Bedford against ICE operations\" (New Bedford)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 9 events"
+   ],
+   "translated": 9
   }
  ],
- "gdeltCursor": "20261025231500",
- "lastRunAt": "2026-10-25T23:18:45.348Z"
+ "gdeltCursor": "20261026021500",
+ "lastRunAt": "2026-10-26T02:17:27.486Z"
 }
