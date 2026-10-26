@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-26",
-  "count": 87
+  "count": 142
  },
  "runs": [
-  {
-   "at": "2026-10-19T20:37:02.724Z",
-   "ms": 46473,
-   "discovered": 22,
-   "fetched": 22,
-   "classified": 18,
-   "protests": 6,
-   "summarized": 1,
-   "published": 100,
-   "live": 16,
-   "aiCalls": 3,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 5 files, 22 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 41 protest-word items",
-    "fetch: 22 ok, 0 failed",
-    "classify: new candidate e5f3b6fb862 \"French cities impose curfews following widespread protests\" (Paris)",
-    "classify: new candidate ecbc8ac46d9 \"Congress party plans farmers rally in Morbi\" (Morvi)",
-    "classify: new candidate ede42d56c87 \"College teachers announce upcoming strike over arrears\" (Amritsar)",
-    "classify: new candidate e1cf4a14448 \"Nationwide demonstrations and riots in France over living costs\" (Limoges)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting"
-   ],
-   "translated": 0
-  },
   {
    "at": "2026-10-20T00:24:25.129Z",
    "ms": 210883,
@@ -1397,8 +1372,50 @@
     "translate: 14 events"
    ],
    "translated": 14
+  },
+  {
+   "at": "2026-10-26T11:49:09.749Z",
+   "ms": 674582,
+   "discovered": 189,
+   "fetched": 177,
+   "classified": 158,
+   "protests": 63,
+   "summarized": 19,
+   "published": 179,
+   "live": 13,
+   "aiCalls": 55,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 16 files, 86 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 244 protest-word items",
+    "search: 7 single-source stories checked, 1 other newsrooms found",
+    "fetch: 177 ok, 12 failed",
+    "classify: new candidate e9f2d37ec09 \"Demonstration against deportations at BER airport\" (Schönefeld)",
+    "classify: new candidate ec6cbc5fcc1 \"Protest in Berlin against police raid on queer center\" (Berlin)",
+    "classify: new candidate ef5d658cb80 \"Demonstration in Hamburg against healthcare cuts\" (Hamburg)",
+    "classify: new candidate e342386bc21 \"Gosport Patriots anti-migrant march near immigration removal centre\" (Gosport)",
+    "classify: new candidate e9bad38906c \"Protesters demonstrate outside Liberty Mutual headquarters in Boston\" (Boston)",
+    "classify: new candidate ea899d4f6f9 \"LDF opposition stages walkout over SMA drug policy\" (Thiruvananthapuram)",
+    "classify: new candidate e293a63e4da \"Opposition alliance launches protest march in Tbilisi\" (Tbilisi)",
+    "classify: new candidate e717506df8d \"No Kings movement holds early voting rally in Princeton\" (Princeton)",
+    "classify: new candidate ef5ba2a292c \"Goldsmiths students protest tutor strikes over job cuts\" (London)",
+    "classify: new candidate efffe156e22 \"BJP stages protest in Bengaluru over Kharge remarks\" (Bengaluru)",
+    "classify: new candidate e9e85bc2f9c \"Azerbaijan students launch school strike over hijab restrictions\" (Baku)",
+    "classify: new candidate e041fc95148 \"French unions and groups demand further rallies\" (Paris)",
+    "classify: new candidate e4f56d9cc06 \"European students and housing campaigners protest costs\" (Lisbon)",
+    "classify: new candidate eb3b9928df1 \"NHS consultants announce strike in England\" (London)",
+    "classify: new candidate e6116fc5e01 \"BJP launches foot marches to counter opposition rally\" (Delhi)",
+    "classify: new candidate e44eaa5c5f3 \"Lower Ormeau Road residents apply for protest against Apprentice Boys march\" (Belfast)",
+    "classify: new candidate e767a7e1562 \"Thanjavur sanitation workers drop strike after agreement with civic body\" (Thanjavur)",
+    "classify: new candidate e8b3039cdd9 \"DMK Women's Wing announces statewide protest over law and order\" (Chennai)",
+    "summary: ec21186035b only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 21 events"
+   ],
+   "translated": 21
   }
  ],
- "gdeltCursor": "20261026074500",
- "lastRunAt": "2026-10-26T07:44:00.812Z"
+ "gdeltCursor": "20261026114500",
+ "lastRunAt": "2026-10-26T11:49:09.749Z"
 }
