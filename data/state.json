@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-26",
-  "count": 168
+  "count": 217
  },
  "runs": [
-  {
-   "at": "2026-10-20T04:27:46.405Z",
-   "ms": 204593,
-   "discovered": 58,
-   "fetched": 57,
-   "classified": 48,
-   "protests": 22,
-   "summarized": 8,
-   "published": 103,
-   "live": 18,
-   "aiCalls": 19,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261020041500 http://data.gdeltproject.org/gdeltv2/20261020041500.export.CSV.zip → 404",
-    "gdelt: 20261020043000 http://data.gdeltproject.org/gdeltv2/20261020043000.export.CSV.zip → 404",
-    "gdelt: 16 files, 51 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 37 protest-word items",
-    "fetch: 57 ok, 1 failed",
-    "classify: new candidate ea092cf1b24 \"Protester interrupts Donald Trump political rally in Kansas\" (Park City)",
-    "classify: new candidate e243c2dfb34 \"Protesters remove from Indianapolis council budget meeting\" (Indianapolis)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-20T07:44:00.865Z",
    "ms": 135698,
@@ -1424,8 +1398,42 @@
     "AI budget: run time cap 13 min reached — remaining work waits for a later run",
     "translate: stopped: run time cap 13 min reached"
    ]
+  },
+  {
+   "at": "2026-10-26T19:28:48.936Z",
+   "ms": 481957,
+   "discovered": 126,
+   "fetched": 114,
+   "classified": 93,
+   "protests": 42,
+   "summarized": 18,
+   "published": 183,
+   "live": 15,
+   "aiCalls": 49,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 68 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 214 protest-word items",
+    "search: 25 single-source stories checked, 26 other newsrooms found",
+    "fetch: 114 ok, 12 failed",
+    "classify: new candidate edc706d16be \"Lisbon Metro workers partial strike\" (Lisbon)",
+    "classify: new candidate e318da279f6 \"Tbilisi residents protest planned high-rise development at Expo Georgia\" (Tbilisi)",
+    "classify: new candidate e12e3958465 \"Delhi lawyers call for judicial work strike over FIR\" (Delhi)",
+    "classify: new candidate e312cd651be \"Demonstrators protest cost of living and education across Europe\" (Paris)",
+    "classify: new candidate ea7c6cb7616 \"Residents and candidates rally for rural healthcare\" (Sault Ste. Marie)",
+    "classify: new candidate ed19cc3a891 \"IGPN investigates protester injury during cost of living protest in Reims\" (Reims)",
+    "classify: new candidate e2d6ac930c5 \"Delhi lawyers strike over alleged police intimidation\" (Delhi)",
+    "classify: new candidate efda9082a9b \"Regina community rallies against AI data centre construction\" (Regina)",
+    "classify: new candidate e5684f6cb63 \"BJP stages protest in Chennai over opposition remarks\" (Chennai)",
+    "classify: new candidate e660ee67a8f \"PMOI supporters rally in Stockholm against executions in Iran\" (Stockholm)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 23 events"
+   ],
+   "translated": 23
   }
  ],
- "gdeltCursor": "20261026161500",
- "lastRunAt": "2026-10-26T16:16:27.039Z"
+ "gdeltCursor": "20261026193000",
+ "lastRunAt": "2026-10-26T19:28:48.936Z"
 }
