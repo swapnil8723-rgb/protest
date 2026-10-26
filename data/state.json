@@ -1,39 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-26",
-  "count": 23
+  "count": 53
  },
  "runs": [
-  {
-   "at": "2026-10-19T16:16:25.495Z",
-   "ms": 637406,
-   "discovered": 61,
-   "fetched": 59,
-   "classified": 55,
-   "protests": 25,
-   "summarized": 11,
-   "published": 100,
-   "live": 16,
-   "aiCalls": 26,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 11 files, 52 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 40 protest-word items",
-    "fetch: 59 ok, 2 failed",
-    "classify: new candidate e2dcd1d85ba \"Contractors protest outside Thane Collectorate over unpaid dues\" (Thane)",
-    "classify: new candidate e7af4e75efb \"Jai Kisan Sangathan leader continues hunger strike over displacement\" (Panna)",
-    "classify: new candidate e8636a11661 \"Left parties and BRS announce protest over housing allotments\" (Khammam)",
-    "classify: new candidate e3669b5697a \"Marin residents rally for early voting in No Kings events\" (Fairfax)",
-    "classify: new candidate e9cfd079869 \"New York rally supports Indian youth protests against election tampering\" (New York City)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: e17240457eb failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "translate: e10c194e9c2 failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "translate: e44613d1cee failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-19T19:28:42.639Z",
    "ms": 197306,
@@ -1407,8 +1377,33 @@
     "translate: 9 events"
    ],
    "translated": 9
+  },
+  {
+   "at": "2026-10-26T04:53:52.000Z",
+   "ms": 323598,
+   "discovered": 56,
+   "fetched": 53,
+   "classified": 43,
+   "protests": 25,
+   "summarized": 14,
+   "published": 170,
+   "live": 14,
+   "aiCalls": 30,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 36 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss balkaninsight.com: 500",
+    "rss: 196 protest-word items",
+    "search: 20 single-source stories checked, 19 other newsrooms found",
+    "fetch: 53 ok, 3 failed",
+    "classify: new candidate ec21186035b \"Protesters demand accountability following teen driver bail\" (Kochi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 12 events"
+   ],
+   "translated": 12
   }
  ],
- "gdeltCursor": "20261026021500",
- "lastRunAt": "2026-10-26T02:17:27.486Z"
+ "gdeltCursor": "20261026050000",
+ "lastRunAt": "2026-10-26T04:53:52.000Z"
 }
