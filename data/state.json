@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-26",
-  "count": 53
+  "count": 87
  },
  "runs": [
-  {
-   "at": "2026-10-19T19:28:42.639Z",
-   "ms": 197306,
-   "discovered": 64,
-   "fetched": 63,
-   "classified": 55,
-   "protests": 19,
-   "summarized": 8,
-   "published": 100,
-   "live": 16,
-   "aiCalls": 19,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 58 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 43 protest-word items",
-    "fetch: 63 ok, 1 failed",
-    "classify: new candidate e74bf09a982 \"Rhinelander residents hold No Kings early voting rally\" (Rhinelander)",
-    "classify: new candidate ee1ee26d6c3 \"Farmers and Dalit groups call for Karnataka rallies against SIR\" (Bengaluru)",
-    "classify: new candidate eff179bba10 \"Delhi BJP SC/ST Morcha protests outside Congress office\" (Delhi)",
-    "classify: new candidate ef0f8af33ae \"French cities impose curfews following widespread protests and looting\" (Lille)",
-    "classify: new candidate e0e998939af \"Millions participate in nationwide No Kings demonstrations in the U.S.\" (Seattle)",
-    "classify: new candidate e595b402f17 \"Anthony Hudson protests data centers and surveillance in Lansing\" (Lansing)",
-    "classify: new candidate ea4e2a32884 \"Alaskans join No Kings rally to encourage early voting\" (Juneau)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-19T20:37:02.724Z",
    "ms": 46473,
@@ -1402,8 +1373,32 @@
     "translate: 12 events"
    ],
    "translated": 12
+  },
+  {
+   "at": "2026-10-26T07:44:00.812Z",
+   "ms": 331788,
+   "discovered": 54,
+   "fetched": 49,
+   "classified": 38,
+   "protests": 22,
+   "summarized": 15,
+   "published": 172,
+   "live": 13,
+   "aiCalls": 34,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 33 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 185 protest-word items",
+    "search: 6 single-source stories checked, 6 other newsrooms found",
+    "fetch: 49 ok, 5 failed",
+    "summary: ed7734df8ad judged not real: The sources only report an announcement of upcoming protests by the BJP, not that any physical protest has actually taken place yet.",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 14 events"
+   ],
+   "translated": 14
   }
  ],
- "gdeltCursor": "20261026050000",
- "lastRunAt": "2026-10-26T04:53:52.000Z"
+ "gdeltCursor": "20261026074500",
+ "lastRunAt": "2026-10-26T07:44:00.812Z"
 }
