@@ -1,43 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-27",
-  "count": 92
+  "count": 121
  },
  "runs": [
-  {
-   "at": "2026-10-20T19:19:24.342Z",
-   "ms": 788312,
-   "discovered": 105,
-   "fetched": 99,
-   "classified": 86,
-   "protests": 28,
-   "summarized": 12,
-   "published": 107,
-   "live": 17,
-   "aiCalls": 29,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 22 files, 91 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 37 protest-word items",
-    "fetch: 99 ok, 6 failed",
-    "classify: new candidate e7d93d491a5 \"BRS workers and Congress members clash over effigy burning in Hyderabad\" (Hyderabad)",
-    "classify: new candidate e766b949fc0 \"Students and unions protest school conditions and living costs\" (Créteil)",
-    "classify: new candidate e6b627193ff \"California state workers announce statewide walkout\" (Sacramento)",
-    "classify: new candidate ea2910023bd \"Kanthapuram Sunni faction calls off Waqf board protests\" (Kozhikode)",
-    "classify: new candidate e6a041a615e \"Residents block road in Dindigul over water supply\" (Dindigul)",
-    "classify: new candidate eed355fdde9 \"No Kings movement holds early voting mobilization rally\" (Rockville)",
-    "classify: new candidate e757918f458 \"French cities impose curfews following cost-of-living riots\" (Paris)",
-    "classify: new candidate ec39f10eeff \"France to deploy troops and police for upcoming protests\" (Paris)",
-    "classify: new candidate e8dc3e5cc4d \"Uddhav Thackeray calls for regime change at Dussehra rally\" (Mumbai)",
-    "classify: new candidate e40e0bcbe96 \"Congress workers burn effigy of Chief Election Commissioner\" (Bhopal)",
-    "classify: new candidate ec4f0c6bd6c \"Demonstrators protest fuel price hikes in Nairobi\" (Nairobi)",
-    "classify: new candidate e05318edf74 \"Shiv Sena holds Dussehra rally in Mumbai\" (Mumbai)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 9 events"
-   ],
-   "translated": 9
-  },
   {
    "at": "2026-10-20T21:53:16.622Z",
    "ms": 189612,
@@ -1455,8 +1421,41 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-27T12:20:52.196Z",
+   "ms": 419364,
+   "discovered": 125,
+   "fetched": 116,
+   "classified": 98,
+   "protests": 26,
+   "summarized": 11,
+   "published": 193,
+   "live": 18,
+   "aiCalls": 29,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 18 files, 69 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 200 protest-word items",
+    "search: 14 single-source stories checked, 19 other newsrooms found",
+    "fetch: 116 ok, 9 failed",
+    "classify: new candidate e099626cd06 \"Father protests outside Holyrood for accessible housing\" (Edinburgh)",
+    "classify: new candidate ed75fe636d9 \"Students protest poor conditions outside Porto school\" (Porto)",
+    "classify: new candidate eeb76155044 \"Passenger stages sit-in at Kochi airport over customs duty\" (Kochi)",
+    "classify: new candidate e7c3f04d496 \"Protest group deflates SUV tyres in Potsdam against climate inaction\" (Potsdam)",
+    "classify: new candidate e7393a1b483 \"Citizens protest surveillance cameras in Hollywood\" (Hollywood)",
+    "classify: new candidate e55cd7c71e0 \"Anti-racism rallies held in French cities after shooting\" (Paris)",
+    "classify: new candidate ed3701afdee \"Private bus operators begin indefinite hunger strike in Thiruvananthapuram\" (Thiruvananthapuram)",
+    "classify: new candidate ee9c1683fbe \"HBCU students march to early voting sites\" (Greensboro)",
+    "classify: new candidate eca0d862911 \"Congress MLAs stage protest outside Punjab Assembly\" (Chandigarh)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 9 events"
+   ],
+   "translated": 9
   }
  ],
- "gdeltCursor": "20261027074500",
- "lastRunAt": "2026-10-27T07:44:00.979Z"
+ "gdeltCursor": "20261027121500",
+ "lastRunAt": "2026-10-27T12:20:52.196Z"
 }
