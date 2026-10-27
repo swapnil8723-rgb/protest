@@ -1,39 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-27",
-  "count": 70
+  "count": 92
  },
  "runs": [
-  {
-   "at": "2026-10-20T13:48:40.076Z",
-   "ms": 325073,
-   "discovered": 76,
-   "fetched": 71,
-   "classified": 60,
-   "protests": 27,
-   "summarized": 11,
-   "published": 105,
-   "live": 15,
-   "aiCalls": 22,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20 files, 63 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 35 protest-word items",
-    "fetch: 71 ok, 5 failed",
-    "classify: new candidate e15325c8707 \"Embroidery workers in Surat protest for wage and shift demands\" (Surat)",
-    "classify: new candidate eb7efee3a16 \"Reform UK leader Nigel Farage holds political rally in Plymouth\" (Plymouth)",
-    "classify: new candidate edaf3ba43b6 \"Annamalai backs CJP election commission protest questions\" (Chennai)",
-    "classify: new candidate e4407a0d2a9 \"Medical interns strike in Jammu and Kashmir over stipend demands\" (Jammu)",
-    "classify: new candidate e98318e6612 \"French cities impose curfews following nationwide cost-of-living protests\" (Marseille)",
-    "classify: new candidate e75d25dfa48 \"Demonstrators hold No Kings rally at Wyoming State Capitol\" (Cheyenne)",
-    "classify: new candidate e227f719796 \"Indonesian students protest wildfires and toxic haze\" (Jakarta)",
-    "classify: new candidate ee262846609 \"No Kings rally encourages early voting in Flagstaff\" (Flagstaff)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-20T19:19:24.342Z",
    "ms": 788312,
@@ -1454,8 +1424,39 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-10-27T07:44:00.979Z",
+   "ms": 319018,
+   "discovered": 89,
+   "fetched": 79,
+   "classified": 67,
+   "protests": 29,
+   "summarized": 9,
+   "published": 189,
+   "live": 15,
+   "aiCalls": 22,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 42 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 206 protest-word items",
+    "search: 25 single-source stories checked, 29 other newsrooms found",
+    "fetch: 79 ok, 10 failed",
+    "classify: new candidate e060552526f \"Congress leader sit-in over missing CCTV at counting centre\" (Patna)",
+    "classify: new candidate e6890247474 \"Detainees hunger strike over Folkston detention center conditions\" (Folkston)",
+    "classify: new candidate e7a2bc141a3 \"Protesters clash with police over far-right activist in Bilbao\" (Bilbao)",
+    "classify: new candidate e2dec9a4d7e \"Residents and family protest custody death of detained man\" (Malakanagiri)",
+    "classify: new candidate e7ce3e376c1 \"Opposition stages walkout in Kerala Assembly over police atrocities\" (Thiruvananthapuram)",
+    "classify: new candidate ec9f5d30d22 \"Maharashtra farmers march to Mumbai demanding drought relief and loan waivers\" (Mumbai)",
+    "classify: new candidate e2163a14c59 \"Parents protest for school safety in Bend\" (Bend)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261027043000",
- "lastRunAt": "2026-10-27T04:27:47.447Z"
+ "gdeltCursor": "20261027074500",
+ "lastRunAt": "2026-10-27T07:44:00.979Z"
 }

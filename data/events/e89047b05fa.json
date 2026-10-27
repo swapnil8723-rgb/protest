@@ -15,66 +15,65 @@
  },
  "scope": "nationwide",
  "causes": [
-  "labour",
   "education",
-  "prices"
+  "prices",
+  "jobs"
  ],
- "kind": "one-day",
- "startedOn": "2026-10-24",
- "status": "ended",
- "vibe": "wrapped-up",
+ "kind": "multi-day",
+ "startedOn": "2026-09-01",
+ "status": "ongoing",
+ "vibe": "tense",
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
   "serious",
+  "top-10",
   "sources-disagree"
  ],
- "isOngoing": false,
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against rising living costs, poor school conditions, staff shortages, and strained public services.",
-  "want": "Demonstrators demand higher wages and pensions, better public services, action on economic inequality, and improved school conditions.",
-  "changed": "Oct 24: Marches drew hundreds of thousands across France, with police reporting 110,000 in Paris before dissolving the crowd with tear gas and water cannons."
+  "why": "Protesters are demonstrating against high living costs, perceived neglect and standards in the education system, and housing prices.",
+  "want": "Demonstrators demand better school and university funding, lower prices, higher student grants, and changes to education policies.",
+  "changed": "Oct 27: Youth organisations called for continued mobilisation despite government announcements regarding education reforms."
  },
- "summary": "Demonstrations regarding the cost of living, school conditions, and strained public services took place across France, drawing hundreds of thousands of participants. In Paris, a march began at Porte d'Italie and concluded near Porte de Vincennes under heavy security and a rerouted police plan. While the processions were largely peaceful during the day, clashes erupted near the end of the events, with police deploying tear gas, water cannons, and batons. Organizers and unions such as Solidaires and the CGT joined students and the Yellow Vests movement to voice grievances over economic inequality, wages, and education systems. In response, the French government deployed 70,000 police and gendarmes nationwide, instituted route changes and curfews, and later announced educational concessions including the eventual replacement of the Parcoursup university admissions platform and increased funding for school infrastructure.",
+ "summary": "Protests and demonstrations over the rising cost of living, education conditions, and public services took place across France, including in Paris, drawing hundreds of thousands of participants over consecutive weekends. Organised by high school students, labour unions, the Yellow Vests grassroots movement, and left-wing parties, the demonstrations sought improved resources for schools and universities, lower prices, and changes to student admission platforms. While many gatherings proceeded peacefully, clashes occurred in several cities, prompting a heavy security deployment. Authorities reported numerous arrests and multiple injuries among police officers following incidents of vandalism and looting on the margins of the marches.",
  "organizers": [
-  "Yellow Vest movement",
-  "Solidaires trade union federation",
-  "SUD Education teaching union",
-  "CGT union",
-  "France Unbowed"
+  "Yellow Vests",
+  "high school students",
+  "labour unions",
+  "La France Insoumise",
+  "Intersyndicale jeunesse"
  ],
  "demands": [
-  "Higher wages and pensions",
-  "Better public services and school conditions",
-  "Action on economic inequality",
-  "Reversal of planned teaching staff cuts"
+  "Better equipment and funding for schools",
+  "Lower living costs and moderate prices",
+  "End to university selection processes",
+  "Increased university capacity and student grants"
  ],
- "response": "The French government deployed 70,000 police and gendarmes nationwide, implemented route changes and temporary curfews, and later offered educational concessions including replacing the Parcoursup system and providing billions in school renovation loans.",
+ "response": "Interior Minister Laurent Nuñez stated that 70,000 police officers were deployed and authorities maintained strict measures against violence and looting.",
  "numbers": {
   "crowd": {
    "value": 410000,
-   "text": "between 410,000 and 800,000 people",
+   "text": "410,000 people according to the interior ministry",
    "sources": [
-    3,
-    4,
     5,
-    6,
-    7,
-    9
+    6
    ]
   },
   "arrests": {
    "value": 1314,
-   "text": "about 1,314 people were arrested on Saturday",
+   "text": "1,314 people arrested according to the interior ministry",
    "sources": [
+    6,
     7
    ]
   },
   "injuries": {
-   "value": 50,
-   "text": "about 50 police were injured",
+   "value": 53,
+   "text": "53 police officers hurt according to the interior ministry",
    "sources": [
+    6,
     7
    ]
   }
@@ -82,33 +81,43 @@
  "updates": [
   {
    "at": "2026-10-21",
-   "text": "Prime Minister Sébastien Lecornu met with union representatives to discuss security and announced a massive police deployment for upcoming protests.",
+   "text": "French Prime Minister Sebastien Lecornu planned meetings with unions and announced a massive police deployment for upcoming protests.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-24",
-   "text": "Mass protests were held across France, with an estimated 110,000 marchers in Paris and clashes reported as police dispersed crowds with tear gas.",
+   "text": "Interior Minister Laurent Nuñez stated 70,000 police officers were deployed as demonstrations and clashes occurred across major cities.",
    "sources": [
+    2,
     3,
-    4,
-    5,
-    6
+    4
    ]
   },
   {
    "at": "2026-10-25",
-   "text": "Union leaders and protest groups called for further demonstrations and nationwide strikes to maintain pressure on the government.",
+   "text": "The interior ministry reported 410,000 demonstrators nationwide and 1,314 arrests following weekend protests.",
    "sources": [
+    5,
+    6,
     7
    ]
   },
   {
    "at": "2026-10-26",
-   "text": "The French government pledged to replace the university admissions platform Parcoursup by 2028 and increase education funding to quell student anger.",
+   "text": "The government unveiled various education measures, including reforming Parcoursup and investing in school infrastructure.",
    "sources": [
     8,
+    9
+   ]
+  },
+  {
+   "at": "2026-10-27",
+   "text": "Student and youth organisations rejected government proposals as insufficient and called for ongoing mobilisations.",
+   "sources": [
+    8,
+    9,
     10
    ]
   }
@@ -123,10 +132,10 @@
   },
   {
    "n": 2,
-   "url": "https://www.lefigaro.fr/conjoncture/musees-stations-de-metro-commerces-ces-nombreux-lieux-fermes-ce-samedi-a-paris-a-cause-des-manifestations-20261024",
-   "publisher": "lefigaro.fr",
-   "title": "Musées, stations de métro, commerces… Ces nombreux lieux fermés ce samedi à Paris à cause des manifestations",
-   "publishedAt": "2026-10-24T10:46:24.000Z"
+   "url": "https://www.ibtimes.com/france-braces-riots-day-after-deadly-paris-shooting-deploys-tens-thousands-police-officers-3808960",
+   "publisher": "ibtimes.com",
+   "title": "France Braces For Riots On Day After Deadly Paris Shooting, Deploys Tens Of Thousands Of Police Officers",
+   "publishedAt": "2026-10-24T10:58:11.000Z"
   },
   {
    "n": 3,
@@ -137,238 +146,240 @@
   },
   {
    "n": 4,
-   "url": "https://www.france24.com/fr/france/20261024-les-cort%C3%A8ges-se-sont-bien-pass%C3%A9s-d%C3%A9clare-nu%C3%B1ez-qui-comptabilise-pr%C3%A8s-de-1-000-interpellations",
-   "publisher": "france24.com",
-   "title": "\"Les cortèges se sont bien passés\", affirme Laurent Nuñez, qui recense près de 1 000 interpellations",
-   "publishedAt": "2026-10-24T20:24:19.000Z"
+   "url": "https://theconservativetreehouse.com/blog/2026/10/24/another-weekend-of-riots-arson-and-street-battles-in-france-and-beyond/comment-page-2/",
+   "publisher": "theconservativetreehouse.com",
+   "title": "Another Weekend of Riots, Arson and Street Battles in France and Beyond - The Last Refuge",
+   "publishedAt": "2026-10-24T20:55:46.000Z"
   },
   {
    "n": 5,
-   "url": "https://www.moneycontrol.com/world/police-protesters-clash-in-paris-as-410-000-demonstrate-across-france-article-14059271.html",
-   "publisher": "moneycontrol.com",
-   "title": "Police, protesters clash in Paris as 410,000 demonstrate across France- Moneycontrol.com"
+   "url": "https://www.derstandard.at/story/3000000345829/princeton-professor-fassin-zu-protesten-macron-ebnet-den-weg-fuer-eine-praesidentin-le-pen",
+   "publisher": "derstandard.at",
+   "title": "Princeton-Professor Fassin zu Protesten: \"Macron ebnet den Weg für eine Präsidentin Le Pen\"",
+   "publishedAt": "2026-10-25T05:00:00.000Z"
   },
   {
    "n": 6,
-   "url": "https://taz.de/Massenproteste-in-Frankreich/!6224783/",
+   "url": "https://taz.de/Sozialproteste-in-Europa/!6224917/",
    "publisher": "taz.de",
-   "title": "Massenproteste in Frankreich: Mehr Regen als Wasserwerfer",
-   "publishedAt": "2026-10-25T13:43:00.000Z"
+   "title": "Sozialproteste in Europa: Für gute Bildung, bezahlbare Mieten und moderate Preise",
+   "publishedAt": "2026-10-25T15:31:00.000Z"
   },
   {
    "n": 7,
-   "url": "https://bworldonline.com/world/2026/10/26/789194/french-protest-groups-demand-more-rallies-as-macron-faces-tough-choices/",
-   "publisher": "bworldonline.com",
-   "title": "French protest groups demand more rallies as Macron faces tough choices - BusinessWorld Online",
-   "publishedAt": "2026-10-26T01:20:52.000Z"
+   "url": "https://timesofindia.indiatimes.com/world/europe/1300-protesters-held-across-france-53-cops-hurt-government-begins-probe/articleshow/135200514.cms",
+   "publisher": "timesofindia.indiatimes.com",
+   "title": "1,300+ protesters held across France, 53 cops hurt, government begins probe",
+   "publishedAt": "2026-10-26T01:51:00.000Z"
   },
   {
    "n": 8,
-   "url": "https://www.pbs.org/newshour/world/france-pledges-new-university-admissions-to-quell-student-anger-but-only-after-macron-leaves-office",
-   "publisher": "pbs.org",
-   "title": "France pledges new university admissions to quell student anger. But only after Macron leaves office",
-   "publishedAt": "2026-10-26T20:32:27.000Z"
+   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/direct-mobilisation-des-lyceens-les-annonces-du-gouvernement-ne-desamorcent-pas-les-appels-a-la-mobilisation_8255224.html",
+   "publisher": "franceinfo.fr",
+   "title": "DIRECT. Mobilisation des lyc&eacute;ens : les annonces du gouvernement ne d&eacute;samorcent pas les appels &agrave; la mobilisation",
+   "publishedAt": "2026-10-27T06:44:50.000Z"
   },
   {
    "n": 9,
-   "url": "https://thenewamerican.com/world-news/europe/france-faces-weekend-violence-again-as-cops-battle-with-protesters-in-largely-peaceful-marches/",
-   "publisher": "thenewamerican.com",
-   "title": "France Faces Weekend Violence Again as Cops Battle With “Protesters” in “Largely Peaceful” Marches",
-   "publishedAt": "2026-10-26T21:50:51.000Z"
+   "url": "https://www.france24.com/fr/france/20261027-annonces-gouvernement-suffisent-pas-stopper-appels-mobilisation-lyc%C3%A9enne",
+   "publisher": "france24.com",
+   "title": "Les appels à la mobilisation lycéenne continuent malgré les annonces du gouvernement",
+   "publishedAt": "2026-10-27T06:48:06.000Z"
   },
   {
    "n": 10,
-   "url": "https://www.zdfheute.de/politik/ausland/frankreich-proteste-schueler-regierung-forderungen-100.html",
-   "publisher": "zdfheute.de",
-   "title": "Schulproteste Frankreich: Regierung kündigt Milliarden an",
-   "publishedAt": "2026-10-26T21:52:00.906Z"
+   "url": "https://www.20minutes.fr/societe/4257862-20261027-direct-colere-sociale-malgre-annonces-gouvernement-organisations-lyceennes-veulent-poursuivre-mobilisation?at_medium=display&at_campaign=149",
+   "publisher": "20minutes.fr",
+   "title": "EN DIRECT Colère sociale : Malgré les annonces du gouvernement, les organis…",
+   "publishedAt": "2026-10-27T06:48:57.000Z"
   }
  ],
  "conflicts": [
-  "The Interior Ministry estimated nationwide turnout at 410,000, while the CGT union claimed 800,000 participants."
+  "In Marseille, the prefecture counted 17,000 marchers while the CGT union counted 50,000."
  ],
  "confidence": 0.8,
  "publishers": 10,
  "reports24h": 18,
- "reportsPrev24h": 52,
- "reports48h": 70,
+ "reportsPrev24h": 49,
+ "reports48h": 67,
  "firstSeenAt": "2026-10-21T11:57:43.399Z",
- "lastReportAt": "2026-10-26T21:52:00.906Z",
- "lastCheckedAt": "2026-10-27T04:32:59.986Z",
- "updatedAt": "2026-10-27T04:31:27.119Z",
+ "lastReportAt": "2026-10-27T06:48:57.000Z",
+ "lastCheckedAt": "2026-10-27T07:48:06.385Z",
+ "updatedAt": "2026-10-27T07:47:09.396Z",
  "responseSources": [
-  1,
+  2,
   3,
   4,
-  5,
-  7,
-  8,
-  10
+  6
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-27T04:31:27.119Z",
- "summaryOf": "8692399a0c38",
+ "summarizedAt": "2026-10-27T07:47:09.396Z",
+ "summaryOf": "27fc827f0d5a",
  "publishedAt": "2026-10-24T07:46:37.803Z",
  "i18n": {
-  "of": "c98063d806453ca5",
-  "at": "2026-10-27T04:34:12.192Z",
+  "of": "cc69c6a67e72e7cb",
+  "at": "2026-10-27T07:48:41.032Z",
   "tries": 1,
   "hi": {
    "title": "फ्रांस भर में जीवन-यापन की लागत और स्कूलों को लेकर प्रदर्शन आयोजित",
-   "seoTitle": "पेरिस में जीवन-यापन और स्कूलों को लेकर प्रदर्शन",
+   "seoTitle": "पेरिस में जीवन-यापन और स्कूली शिक्षा के प्रदर्शन",
    "tea": {
-    "why": "प्रदर्शनकारी बढ़ती जीवन लागत, खराब स्कूली दशाओं, स्टाफ की कमी और तनावपूर्ण सार्वजनिक सेवाओं के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शनकारियों की मांग है कि वेतन और पेंशन बढ़ाई जाएं, सार्वजनिक सेवाएं बेहतर की जाएं, आर्थिक असमानता पर कदम उठाए जाएं और स्कूली दशाओं में सुधार किया जाए।",
-    "changed": "24 अक्टूबर: फ्रांस भर में रैलियों में लाखों लोग जुटे, पेरिस में पुलिस ने भीड़ को आंसू गैस और पानी की बौछारों से तितर-बितर करने से पहले 110,000 लोगों के शामिल होने की सूचना दी।"
+    "why": "प्रदर्शनकारी जीवन-यापन के ऊंचे खर्च, कथित उपेक्षा, शिक्षा प्रणाली के स्तर और आवास की कीमतों के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "प्रदर्शनकारियों ने स्कूलों और विश्वविद्यालयों के लिए बेहतर फंडिंग, कम कीमतें, उच्च छात्र छात्रवृत्तियां और शिक्षा नीतियों में बदलाव की मांग की है।",
+    "changed": "27 अक्टूबर: शिक्षा सुधारों पर सरकारी घोषणाओं के बावजूद युवा संगठनों ने निरंतर लामबंदी का आह्वान किया।"
    },
-   "summary": "जीवन-यापन की लागत, स्कूली दशाओं और तनावपूर्ण सार्वजनिक सेवाओं को लेकर फ्रांस भर में प्रदर्शन हुए, जिनमें लाखों की संख्या में प्रतिभागियों ने हिस्सा लिया। पेरिस में, भारी सुरक्षा और परिवर्तित पुलिस योजना के तहत पोर्ट डी'इटली से एक मार्च शुरू हुआ और पोर्ट डी विंसेंस के पास समाप्त हुआ। हालांकि दिन के समय जुलूस काफी हद तक शांतिपूर्ण रहे, लेकिन आयोजनों के अंत के करीब झड़पें भड़क उठीं, जिसमें पुलिस ने आंसू गैस, पानी की बौछारों और लाठियों का इस्तेमाल किया। सॉलिडेरेस और सीजीटी जैसे आयोजकों और यूनियनों ने आर्थिक असमानता, वेतन और शिक्षा प्रणालियों को लेकर अपनी शिकायतें दर्ज कराने के लिए छात्रों और येलो वेस्ट आंदोलन के साथ मिलकर भाग लिया। इसके जवाब में, फ्रांसीसी सरकार ने देश भर में 70,000 पुलिस और जेंडरम तैनात किए, मार्ग परिवर्तन और कर्फ्यू लागू किए, और बाद में पार्कोरसुप विश्वविद्यालय प्रवेश मंच को अंततः बदलने और स्कूल बुनियादी ढांचे के लिए फंडिंग बढ़ाने सहित शैक्षणिक रियायतों की घोषणा की।",
+   "summary": "पेरिस सहित पूरे फ्रांस में लगातार सप्ताहांतों में सैकड़ों-हजारों प्रतिभागियों को आकर्षित करते हुए बढ़ते जीवन-यापन के खर्च, शिक्षा की स्थिति और सार्वजनिक सेवाओं पर विरोध प्रदर्शन व रैलियां हुईं। हाई स्कूल के छात्रों, श्रमिक संघों, येलो वेस्ट्स जमीनी आंदोलन और वामपंथी दलों द्वारा आयोजित इन प्रदर्शनों में स्कूलों और विश्वविद्यालयों के लिए बेहतर संसाधन, कम कीमतें और छात्र प्रवेश मंचों में बदलाव की मांग की गई। हालांकि कई सभाएं शांतिपूर्ण ढंग से आगे बढ़ीं, लेकिन कई शहरों में झड़पें हुईं, जिससे भारी सुरक्षा बल तैनात करने पड़े। मार्च के हाशिए पर तोड़फोड़ और लूटपाट की घटनाओं के बाद अधिकारियों ने कई गिरफ्तारियों और पुलिस अधिकारियों के घायल होने की सूचना दी।",
    "demands": [
-    "उच्च वेतन और पेंशन",
-    "बेहतर सार्वजनिक सेवाएं और स्कूली दशाएं",
-    "आर्थिक असमानता पर कार्रवाई",
-    "नियोजित शिक्षण स्टाफ की कटौती को वापस लेना"
+    "स्कूलों के लिए बेहतर उपकरण और फंडिंग",
+    "जीवन-यापन की कम लागत और नियंत्रित कीमतें",
+    "विश्वविद्यालय चयन प्रक्रियाओं की समाप्ति",
+    "बढ़ी हुई विश्वविद्यालय क्षमता और छात्र छात्रवृत्तियां"
    ],
-   "response": "फ्रांसीसी सरकार ने देश भर में 70,000 पुलिस और जेंडरम तैनात किए, मार्ग परिवर्तन और अस्थायी कर्फ्यू लागू किए, और बाद में पार्कोरसुप प्रणाली को बदलने और स्कूल नवीनीकरण ऋणों में अरबों प्रदान करने सहित शैक्षणिक रियायतें दीं।",
+   "response": "आंतरिक मंत्री लॉरेन नुनेज ने बताया कि 70,000 पुलिस अधिकारियों को तैनात किया गया था और अधिकारियों ने हिंसा और लूटपाट के खिलाफ कड़े उपाय बनाए रखे।",
    "updates": [
-    "प्रधान मंत्री सेबस्टियन लेकोर्नू ने सुरक्षा पर चर्चा करने के लिए यूनियन प्रतिनिधियों से मुलाकात की और आगामी प्रदर्शनों के लिए भारी पुलिस बल की तैनाती की घोषणा की।",
-    "फ्रांस भर में बड़े पैमाने पर प्रदर्शन हुए, पेरिस में अनुमानित 110,000 प्रदर्शनकारी शामिल हुए और पुलिस द्वारा आंसू गैस से भीड़ को तितर-बितर किए जाने पर झड़पों की सूचना मिली।",
-    "यूनियन नेताओं और प्रदर्शनकारी समूहों ने सरकार पर दबाव बनाए रखने के लिए और प्रदर्शनों तथा देशव्यापी हड़तालों का आह्वान किया।",
-    "फ्रांसीसी सरकार ने छात्रों के गुस्से को शांत करने के लिए 2028 तक विश्वविद्यालय प्रवेश मंच पार्कोरसुप को बदलने और शिक्षा फंडिंग बढ़ाने का संकल्प लिया।"
+    "फ्रांसीसी प्रधानमंत्री सेबैस्टियन लेकोर्नू ने संघों के साथ बैठकों की योजना बनाई और आगामी प्रदर्शनों के लिए भारी पुलिस बल की तैनाती की घोषणा की।",
+    "आंतरिक मंत्री लॉरेन नुनेज ने बताया कि प्रमुख शहरों में प्रदर्शनों और झड़पों के दौरान 70,000 पुलिस अधिकारियों को तैनात किया गया था।",
+    "आंतरिक मंत्रालय ने सप्ताहांत के प्रदर्शनों के बाद देश भर में 4,10,000 प्रदर्शनकारियों और 1,314 गिरफ्तारियों की सूचना दी।",
+    "सरकार ने पर्कोर्सप (Parcoursup) में सुधार और स्कूली बुनियादी ढांचे में निवेश सहित विभिन्न शिक्षा उपाय पेश किए।",
+    "छात्र और युवा संगठनों ने सरकारी प्रस्तावों को अपर्याप्त बताते हुए खारिज कर दिया और निरंतर लामबंदी का आह्वान किया।"
    ],
    "conflicts": [
-    "गृह मंत्रालय ने देश भर में उपस्थिति 410,000 आंकी, जबकि सीजीटी यूनियन ने 800,000 प्रतिभागियों का दावा किया।"
+    "मार्सेय में, प्रान्त ने 17,000 मार्च करने वालों की गिनती की जबकि सीजीटी (CGT) यूनियन ने 50,000 की गिनती की।"
    ],
    "numbers": {
-    "crowd": "410,000 से 800,000 के बीच लोग",
-    "arrests": "शनिवार को लगभग 1,314 लोगों को गिरफ्तार किया गया",
-    "injuries": "लगभग 50 पुलिसकर्मी घायल हुए"
+    "crowd": "आंतरिक मंत्रालय के अनुसार 4,10,000 लोग",
+    "arrests": "आंतरिक मंत्रालय के अनुसार 1,314 लोगों को गिरफ्तार किया गया",
+    "injuries": "आंतरिक मंत्रालय के अनुसार 53 पुलिस अधिकारी घायल हुए"
    }
   },
   "mr": {
-   "title": "फ्रान्समध्ये जीवनमानाचा खर्च आणि शाळांच्या मुद्द्यांवर निदर्शने",
-   "seoTitle": "पॅरिसमध्ये जीवनमान खर्च आणि शाळांसंबंधी निदर्शने",
+   "title": "फ्रान्सभर महागाई आणि शाळांच्या मुद्द्यावर निदर्शने",
+   "seoTitle": "पॅरिसमधील महागाई आणि शालेय निदर्शने",
    "tea": {
-    "why": "वाढता जीवनमान खर्च, खराब शाळांची स्थिती, कर्मचाऱ्यांचा तुटवडा आणि ताणलेली सार्वजनिक सेवा यांच्या विरोधात निदर्शक निदर्शने करत आहेत.",
-    "want": "निदर्शक उच्च वेतन आणि निवृत्तीवेतन, उत्तम सार्वजनिक सेवा, आर्थिक असमानतेवर कारवाई आणि सुधारित शाळांची स्थिती यांची मागणी करत आहेत.",
-    "changed": "२४ ऑक्टोबर: फ्रान्सभर मोर्च्यांमध्ये लाखो लोक जमले, पॅरिसमध्ये गर्दीला अश्रुधूर आणि पाण्याचे फवारे मारून हटवण्यापूर्वी पोलिसांच्या मते १,१०,००० जण सहभागी झाले होते."
+    "why": "वाढता खर्च, कथित दुर्लक्ष, शिक्षण प्रणालीचा दर्जा आणि घरांच्या किंमती यांच्या विरोधात निदर्शक निदर्शने करत आहेत.",
+    "want": "निदर्शक शाळा आणि विद्यापीठांसाठी उत्तम निधी, कमी किंमती, उच्च विद्यार्थी शिष्यवृत्ती आणि शिक्षण धोरणांमध्ये बदलांची मागणी करत आहेत.",
+    "changed": "२७ ऑक्टोबर: शैक्षणिक सुधारणांसंबंधी सरकारी घोषणा असूनही युवा संघटनांनी सतत आंदोलनाची हाक दिली."
    },
-   "summary": "जीवनमानाचा खर्च, शाळांची स्थिती आणि ताणलेली सार्वजनिक सेवा याविषयी फ्रान्सभर निदर्शने झाली, ज्यामध्ये लाखांहून अधिक सहभागी झाले होते. पॅरिसमध्ये, कडेकोट सुरक्षा आणि फेरबदल केलेल्या पोलीस योजनेअंतर्गत पोर्ट डी'इटली येथून मोर्चा सुरू झाला आणि पोर्ट डी व्हिन्सेंसजवळ संपला. दिवसा processions बऱ्याच अंशी शांततापूर्ण असल्या तरी, कार्यक्रमांच्या शेवटी झमकी उसळल्या, ज्यात पोलिसांनी अश्रुधूर, पाण्याचे फवारे आणि लाठ्यांचा वापर केला. आर्थिक असमानता, वेतन आणि शिक्षण प्रणालीवरील तक्रारी मांडण्यासाठी सॉलिडेरेस आणि सीजीटी सारखे आयोजक आणि युनियन्स विद्यार्थी आणि येलो वेस्ट आंदोलनासोबत सामील झाले. याला प्रत्युत्तर म्हणून, ফ्रान्स सरकारने देशभरात ७०,००० पोलीस आणि जेंडरम तैनात केले, मार्गात बदल आणि संचारबंदी लागू केली, आणि नंतर पार्कोरसुप विद्यापीठ प्रवेश मंच अखेरीस बदलणे आणि शाळांच्या पायाभूत सुविधांसाठी निधी वाढवणे यासह शैक्षणिक सवलती जाहीर केल्या.",
+   "summary": "वाढता खर्च, शिक्षणाची स्थिती आणि सार्वजनिक सेवा यावर फ्रान्सभर, पॅरिससह, सलग विकेंड्सला शेकडो-हजारो सहभागींना आकर्षित करत विरोध प्रदर्शन व निदर्शने झाली. हायस्कूलचे विद्यार्थी, कामगार संघटना, यलो व्हेस्ट्स तळागाळातील चळवळ आणि डाव्या पक्षांनी आयोजित केलेल्या या निदर्शनांमध्ये शाळा व विद्यापीठांसाठी सुधारित संसाधने, कमी किंमती आणि विद्यार्थी प्रवेश मंचांमध्ये बदलांची मागणी करण्यात आली. अनेक जमाव शांततापूर्ण मार्गाने पुढे गेले असले, तरी अनेक शहरांमध्ये संघर्ष झाला, ज्यामुळे मोठ्या प्रमाणावर सुरक्षा तैनात करावी लागली. मार्चच्या बाजूला झालेल्या तोडफोड आणि लोटमारीच्या घटनांनंतर अधिकाऱ्यांनी अनेक गिरफ्तारियां आणि अनेक पोलीस अधिकारी जखमी झाल्याचे सांगितले.",
    "demands": [
-    "उच्च वेतन आणि निवृत्तीवेतन",
-    "उत्तम सार्वजनिक सेवा आणि शाळांची स्थिती",
-    "आर्थिक असमानतेवर कारवाई",
-    "नियोजित अध्यापन कर्मचारी कपात मागे घेणे"
+    "शाळांसाठी उत्तम उपकरणे आणि निधी",
+    "कमी जीवन खर्च आणि नियंत्रणात असलेल्या किंमती",
+    "विद्यापीठ निवड प्रक्रियांचा अंत",
+    "वाढलेली विद्यापीठ क्षमता आणि विद्यार्थी शिष्यवृत्ती"
    ],
-   "response": "फ्रान्स सरकारने देशभरात ७०,००० पोलीस आणि जेंडरम तैनात केले, मार्गात बदल आणि तात्पुरती संचारबंदी लागू केली, आणि नंतर पार्कोरसुप प्रणाली बदलणे आणि शाळा नूतनीकरणाच्या कर्जासाठी अब्जावधी रुपये पुरवणे यासह शैक्षणिक सवलती दिल्या.",
+   "response": "आंतरिक मंत्री लॉरेन नुनेज यांनी सांगितले की ७०,००० पोलीस अधिकारी तैनात करण्यात आले होते आणि अधिकाऱ्यांनी हिंसाचार व लोटमारीविरोधात कडक उपाय कायम ठेवले.",
    "updates": [
-    "पंतप्रधान सेबॅस्टियन लेकोर्नू यांनी सुरक्षेवर चर्चा करण्यासाठी युनियन प्रतिनिधींची भेट घेतली आणि आगामी निदर्शनांसाठी मोठ्या प्रमाणावर पोलीस तैनातीची घोषणा केली.",
-    "फ्रान्सभर मोठी निदर्शने झाली, पॅरिसमध्ये अंदाजे १,१०,००० मोर्चेकरी सहभागी झाले आणि पोलिसांनी अश्रुधूर सोडून गर्दी छिन्नविछिन्न केल्यावर झमकी झाल्याचे वृत्त आहे.",
-    "युनियन नेते आणि निदर्शक गटांनी सरकारवर दबाव कायम ठेवण्यासाठी आणखी निदर्शने आणि देशव्यापी संपाचे आवाहन केले.",
-    "फ्रान्स सरकारने विद्यार्थ्यांचा रोष शांत करण्यासाठी २०२८ पर्यंत पार्कोरसुप विद्यापीठ प्रवेश मंच बदलण्याचे आणि शिक्षणासाठीचा निधी वाढवण्याचे आश्वासन दिले."
+    "फ्रान्सचे पंतप्रधान सेबॅस्टियन लेकॉर्नू यांनी संघटनांसोबत बैठकांचे नियोजन केले आणि आगामी निदर्शनांसाठी मोठ्या पोलीस तैनातीची घोषणा केली.",
+    "आंतरिक मंत्री लॉरेन नुनेज यांनी सांगितले की प्रमुख शहरांमध्ये निदर्शने व संघर्ष घडल्याने ७०,००० पोलीस अधिकारी तैनात करण्यात आले होते.",
+    "आंतरिक मंत्रालयाने विकेंडच्या निदर्शनांनंतर देशभरात ४,१०,००० निदर्शक आणि १,३१४ गिरफ्तार्या झाल्याचे जाहीर केले.",
+    "सरकारने पार्कोर्सप (Parcoursup) मधील सुधारणा आणि शालेय पायाभूत सुविधांमधील गुंतवणुकीसह विविध शैक्षणिक उपाय उघड केले.",
+    "विद्यार्थी आणि युवा संघटनांनी सरकारी प्रस्ताव अपुरे असल्याचे सांगत फेटाळून लावले आणि सतत आंदोलनाचे आवाहन केले."
    ],
    "conflicts": [
-    "गृह मंत्रालयाने देशातील उपस्थिती ४,१०,००० असल्याचा अंदाज वर्तवला, तर सीजीटी युनियनने ८,००,००० सहभागी असल्याचा दावा केला."
+    "मार्सेयमध्ये प्रांताने १७,००० मार्च करणाऱ्यांची नोंद केली तर सीजीटी (CGT) युनियनने ५०,००० ची नोंद केली."
    ],
    "numbers": {
-    "crowd": "४,१०,००० ते ८,००,००० च्या दरम्यान लोक",
-    "arrests": "शनिवारी सुमारे १,३१४ लोकांना अटक करण्यात आली",
-    "injuries": "सुमारे ५० पोलीस जखमी झाले"
+    "crowd": "आंतरिक मंत्रालयाच्या मते ४,१०,००० लोक",
+    "arrests": "आंतरिक मंत्रालयाच्या मते १,३१४ लोकांना अटक करण्यात आली",
+    "injuries": "आंतरिक मंत्रालयाच्या मते ५३ पोलीस अधिकारी जखमी झाले"
    }
   },
   "es": {
    "title": "Protestas por el costo de vida y las escuelas en toda Francia",
-   "seoTitle": "Protestas por costo de vida y escuelas en París",
+   "seoTitle": "Protestas en París por costo de vida y escuelas",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, las malas condiciones escolares, la escasez de personal y los servicios públicos saturados.",
-    "want": "Los manifestantes exigen salarios y pensiones más altos, mejores servicios públicos, medidas contra la desigualdad económica y mejores condiciones escolares.",
-    "changed": "24 de octubre: Las marchas atrajeron a cientos de miles de personas en toda Francia, y la policía informó de 110,000 en París antes de disolver a la multitud con gases lacrimógenos y cañones de agua."
+    "why": "Los manifestantes se manifiestan contra los altos costos de vida, la negligencia percibida y los estándares en el sistema educativo, y los precios de la vivienda.",
+    "want": "Los manifestantes exigen una mejor financiación para escuelas y universidades, precios más bajos, mayores becas para estudiantes y cambios en las políticas educativas.",
+    "changed": "27 de oct.: Las organizaciones juveniles convocaron a una movilización continua a pesar de los anuncios gubernamentales sobre reformas educativas."
    },
-   "summary": "Se produjeron manifestaciones en toda Francia sobre el costo de vida, las condiciones escolares y los servicios públicos saturados, que atrajeron a cientos de miles de participantes. En París, una marcha comenzó en la Porte d'Italie y concluyó cerca de la Porte de Vincennes bajo una fuerte seguridad y un plan policial modificado. Si bien las procesiones fueron en su mayoría pacíficas durante el día, los enfrentamientos estallaron cerca del final de los eventos, y la policía desplegó gases lacrimógenos, cañones de agua y porras. Organizadores y sindicatos como Solidaires y la CGT se unieron a los estudiantes y al movimiento de los Chalecos Amarillos para expresar sus quejas sobre la desigualdad económica, los salarios y los sistemas educativos. En respuesta, el gobierno francés desplegó 70,000 policías y gendarmes en todo el país, instituyó cambios de ruta y toques de queda, y posteriormente anunció concesiones educativas que incluyeron la eventual sustitución de la plataforma de admisión universitaria Parcoursup y un mayor financiamiento para la infraestructura escolar.",
+   "summary": "Protestas y manifestaciones sobre el aumento del costo de vida, las condiciones educativas y los servicios públicos tuvieron lugar en toda Francia, incluido París, atrayendo a cientos de miles de participantes durante fines de semana consecutivos. Organizadas por estudiantes de secundaria, sindicatos, el movimiento de base de los Chalecos Amarillos y partidos de izquierda, las manifestaciones buscaron mejores recursos para escuelas y universidades, precios más bajos y cambios en las plataformas de admisión de estudiantes. Aunque muchas reuniones transcurrieron pacíficamente, se produjeron enfrentamientos en varias ciudades, lo que provocó un fuerte despliegue de seguridad. Las autoridades informaron de numerosas detenciones y múltiples lesiones entre los agentes de policía tras incidentes de vandalismo y saqueos al margen de las marchas.",
    "demands": [
-    "Salarios y pensiones más altos",
-    "Mejores servicios públicos y condiciones escolares",
-    "Acción contra la desigualdad económica",
-    "Reversión de los recortes previstos en el personal docente"
+    "Mejor equipo y financiación para las escuelas",
+    "Menores costos de vida y precios moderados",
+    "Fin de los procesos de selección universitaria",
+    "Mayor capacidad universitaria y becas para estudiantes"
    ],
-   "response": "El gobierno francés desplegó 70,000 policías y gendarmes en todo el país, implementó cambios de ruta y toques de queda temporales, y posteriormente ofreció concesiones educativas que incluyeron la sustitución del sistema Parcoursup y la provisión de miles de millones en préstamos para la renovación escolar.",
+   "response": "El ministro del Interior, Laurent Nuñez, declaró que se desplegaron 70.000 policías y que las autoridades mantuvieron medidas estrictas contra la violencia y los saqueos.",
    "updates": [
-    "El primer ministro Sébastien Lecornu se reunió con representantes sindicales para discutir la seguridad y anunció un despliegue masivo de policía para las próximas protestas.",
-    "Se celebraron protestas masivas en toda Francia, con un estimado de 110,000 manifestantes en París y enfrentamientos reportados cuando la policía dispersó a las multitudes con gases lacrimógenos.",
-    "Líderes sindicales y grupos de protesta pidieron más manifestaciones y huelgas nacionales para mantener la presión sobre el gobierno.",
-    "El gobierno francés se comprometió a reemplazar la plataforma de admisión universitaria Parcoursup para 2028 y aumentar la financiación para la educación para calmar la ira de los estudiantes."
+    "El primer ministro francés, Sebastien Lecornu, planeó reuniones con los sindicatos y anunció un despliegue masivo de policía para las próximas protestas.",
+    "El ministro del Interior, Laurent Nuñez, declaró que se desplegaron 70.000 policías mientras se producían manifestaciones y enfrentamientos en las principales ciudades.",
+    "El ministerio del Interior informó de 410.000 manifestantes en todo el país y de 1.314 detenciones tras las protestas del fin de semana.",
+    "El gobierno reveló varias medidas educativas, incluida la reforma de Parcoursup y la inversión en infraestructura escolar.",
+    "Las organizaciones estudiantiles y juveniles rechazaron las propuestas del gobierno por considerarlas insuficientes y convocaron a movilizaciones continuas."
    ],
    "conflicts": [
-    "El Ministerio del Interior estimó la participación a nivel nacional en 410,000, mientras que el sindicato CGT afirmó que hubo 800,000 participantes."
+    "En Marsella, la prefectura contó 17.000 manifestantes mientras que el sindicato CGT contó 50.000."
    ],
    "numbers": {
-    "crowd": "entre 410,000 y 800,000 personas",
-    "arrests": "unas 1,314 personas fueron arrestadas el sábado",
-    "injuries": "unos 50 policías resultaron heridos"
+    "crowd": "410.000 personas según el ministerio del Interior",
+    "arrests": "1.314 personas detenidas según el ministerio del Interior",
+    "injuries": "53 policías heridos según el ministerio del Interior"
    }
   },
   "fr": {
-   "title": "Manifestations pour le coût de la vie et l'école à travers la France",
-   "seoTitle": "Manifestations à Paris pour le coût de la vie et l'école",
+   "title": "Manifestations pour le coût de la vie et les écoles à travers la France",
+   "seoTitle": "Manifestations à Paris sur le coût de la vie et l'école",
    "tea": {
-    "why": "Les manifestants protestent contre la hausse du coût de la vie, les mauvaises conditions scolaires, le manque de personnel et les services publics mis à mal.",
-    "want": "Les manifestants exigent des salaires et des pensions plus élevés, de meilleurs services publics, des mesures contre les inégalités économiques et de meilleures conditions scolaires.",
-    "changed": "24 octobre : Des marches ont rassemblé des centaines de milliers de personnes à travers la France, la police faisant état de 110 000 participants à Paris avant de disperser la foule à coup de gaz lacrymogènes et de canons à eau."
+    "why": "Les manifestants protestent contre la cherté de la vie, la négligence perçue et les normes du système éducatif, ainsi que contre les prix du logement.",
+    "want": "Les manifestants exigent un meilleur financement des écoles et des universités, des prix plus bas, des bourses étudiantes plus élevées et des modifications des politiques éducatives.",
+    "changed": "27 oct. : Des organisations de jeunesse ont appelé à une mobilisation continue malgré les annonces gouvernementales concernant les réformes de l'éducation."
    },
-   "summary": "Des manifestations concernant le coût de la vie, les conditions scolaires et les services publics mis à mal ont eu lieu à travers la France, rassemblant des centaines de milliers de participants. À Paris, un cortège est parti de la porte d'Italie pour s'achever près de la porte de Vincennes sous haute sécurité et selon un plan de circulation policier modifié. Si les cortèges sont restés globalement pacifiques dans la journée, des heurts ont éclaté vers la fin des événements, la police déployant des gaz lacrymogènes, des canons à eau et des matraques. Des organisateurs et des syndicats tels que Solidaires et la CGT se sont joints aux étudiants et au mouvement des Gilets jaunes pour exprimer leurs griefs concernant les inégalités économiques, les salaires et les systèmes éducatifs. En réponse, le gouvernement français a déployé 70 000 policiers et gendarmes dans tout le pays, a mis en place des modifications d'itinéraires et des couvre-feux, puis a annoncé des concessions éducatives comprenant le remplacement à terme de la plateforme d'admission universitaire Parcoursup et l'augmentation des financements pour les infrastructures scolaires.",
+   "summary": "Des protestations et des manifestations concernant la hausse du coût de la vie, les conditions de l'éducation et les services publics ont eu lieu dans toute la France, y compris à Paris, attirant des centaines de milliers de participants au cours de week-ends consécutifs. Organisées par des lycéens, des syndicats, le mouvement citoyen des Gilets jaunes et des partis de gauche, ces manifestations ont réclamé de meilleures ressources pour les écoles et les universités, des prix plus bas et des changements sur les plateformes d'admission des étudiants. Bien que de nombreux rassemblements se soient déroulés pacifiquement, des affrontements ont éclaté dans plusieurs villes, entraînant un important déploiement de sécurité. Les autorités ont signalé de nombreuses arrestations et de multiples blessés parmi les policiers à la suite d'incidents de vandalisme et de pillages en marge des cortèges.",
    "demands": [
-    "Des salaires et des pensions plus élevés",
-    "De meilleurs services publics et de meilleures conditions scolaires",
-    "Des mesures contre les inégalités économiques",
-    "L'annulation des coupes budgétaires prévues dans le personnel enseignant"
+    "Meilleurs équipements et financements pour les écoles",
+    "Baisse du coût de la vie et modération des prix",
+    "Fin des processus de sélection universitaire",
+    "Augmentation de la capacité universitaire et des bourses étudiantes"
    ],
-   "response": "Le gouvernement français a déployé 70 000 policiers et gendarmes à l'échelle nationale, a mis en œuvre des changements d'itinéraire et des couvre-feux temporaires, et a ensuite offert des concessions éducatives comprenant le remplacement du système Parcoursup et l'octroi de milliards d'euros de prêts pour la rénovation des écoles.",
+   "response": "Le ministre de l'Intérieur, Laurent Nuñez, a déclaré que 70 000 policiers avaient été déployés et que les autorités avaient maintenu des mesures strictes contre la violence et les pillages.",
    "updates": [
-    "Le Premier ministre Sébastien Lecornu a rencontré des représentants syndicaux pour discuter de la sécurité et a annoncé un déploiement policier massif pour les manifestations à venir.",
-    "Des manifestations massives ont eu lieu dans toute la France, avec environ 110 000 manifestants à Paris et des heurts signalés alors que la police dispersait les foules à coups de gaz lacrymogènes.",
-    "Des responsables syndicaux et des groupes de protestation ont appelé à de nouvelles manifestations et à des grèves nationales pour maintenir la pression sur le gouvernement.",
-    "Le gouvernement français s'est engagé à remplacer la plateforme d'admission universitaire Parcoursup d'ici 2028 et à augmenter le financement de l'éducation pour calmer la colère des étudiants."
+    "Le Premier ministre français, Sébastien Lecornu, a prévu des rencontres avec les syndicats et a annoncé un déploiement massif de forces de l'ordre pour les manifestations à venir.",
+    "Le ministre de l'Intérieur, Laurent Nuñez, a déclaré que 70 000 policiers ont été déployés alors que des manifestations et des affrontements avaient lieu dans les grandes villes.",
+    "Le ministère de l'Intérieur a fait état de 410 000 manifestants à travers le pays et de 1 314 arrestations à la suite des manifestations du week-end.",
+    "Le gouvernement a dévoilé diverses mesures éducatives, notamment la réforme de Parcoursup et l'investissement dans les infrastructures scolaires.",
+    "Les organisations étudiantes et de jeunesse ont rejeté les propositions du gouvernement comme étant insuffisantes et ont appelé à des mobilisations continues."
    ],
    "conflicts": [
-    "Le ministère de l'Intérieur a estimé la participation nationale à 410 000 personnes, tandis que le syndicat CGT a revendiqué 800 000 participants."
+    "À Marseille, la préfecture a compté 17 000 manifestants tandis que le syndicat CGT en a compté 50 000."
    ],
    "numbers": {
-    "crowd": "entre 410 000 et 800 000 personnes",
-    "arrests": "environ 1 314 personnes ont été arrêtées samedi",
-    "injuries": "environ 50 policiers ont été blessés"
+    "crowd": "410 000 personnes selon le ministère de l'Intérieur",
+    "arrests": "1 314 personnes interpellées selon le ministère de l'Intérieur",
+    "injuries": "53 policiers blessés selon le ministère de l'Intérieur"
    }
   },
   "de": {
-   "title": "Proteste gegen Lebenshaltungskosten und für Schulen in ganz Frankreich",
+   "title": "Proteste gegen Lebenshaltungskosten und Schulproteste in ganz Frankreich",
    "seoTitle": "Pariser Proteste zu Lebenshaltungskosten und Schulen",
    "tea": {
-    "why": "Demonstranten protestieren gegen steigende Lebenshaltungskosten, schlechte Schulbedingungen, Personalmangel und überlastete öffentliche Dienste.",
-    "want": "Demonstranten fordern höhere Löhne und Renten, bessere öffentliche Dienste, Maßnahmen gegen wirtschaftliche Ungleichheit und verbesserte Schulbedingungen.",
-    "changed": "24. Oktober: Märsche zogen Hunderttausende in ganz Frankreich an, wobei die Polizei in Paris 110.000 meldete, bevor sie die Menge mit Tränengas und Wasserwerfern auflöste."
+    "why": "Demonstranten protestieren gegen hohe Lebenshaltungskosten, wahrgenommene Vernachlässigung und Standards im Bildungssystem sowie gegen die Wohnungspreise.",
+    "want": "Demonstranten fordern eine bessere Finanzierung von Schulen und Universitäten, niedrigere Preise, höhere Studentenbeihilfen und Änderungen der Bildungspolitik.",
+    "changed": "27. Okt.: Jugendorganisationen riefen trotz Regierungsankündigungen zu Bildungsreformen zu anhaltenden Mobilisierungen auf."
    },
-   "summary": "Demonstrationen bezüglich der Lebenshaltungskosten, der Schulbedingungen und überlasteter öffentlicher Dienste fanden in ganz Frankreich statt und zogen Hunderttausende Teilnehmer an. In Paris begann ein Marsch an der Porte d'Italie und endete unter starker Sicherheit und einem umgeleiteten Polizeieinsatzplan in der Nähe der Porte de Vincennes. Während die Umzüge tagsüber weitgehend friedlich verliefen, kam es gegen Ende der Veranstaltungen zu Zusammenstößen, bei denen die Polizei Tränengas, Wasserwerfer und Schlagstöcke einsetzte. Organisatoren und Gewerkschaften wie Solidaires und die CGT schlossen sich Studierenden und der Gelbwestenbewegung an, um ihrem Unmut über wirtschaftliche Ungleichheit, Löhne und Bildungssysteme Luft zu machen. Als Reaktion darauf stationierte die französische Regierung landesweit 70.000 Polizisten und Gendarmen, führte Routenänderungen und Ausgangssperren ein und kündigte später Bildungszugeständnisse an, einschließlich des eventualen Ersetzens der Universitätszugangsplattform Parcoursup und einer erhöhten Finanzierung für Schulinforsstruktur.",
+   "summary": "Proteste und Demonstrationen wegen der steigenden Lebenshaltungskosten, der Bildungsbedingungen und der öffentlichen Dienste fanden in ganz Frankreich, einschließlich Paris, statt und zogen an aufeinanderfolgenden Wochenenden Hunderttausende Teilnehmer an. Organisiert von Gymnasiasten, Gewerkschaften, der Basisbewegung der Gelbwesten und linken Parteien forderten die Demonstrationen verbesserte Ressourcen für Schulen und Universitäten, niedrigere Preise und Änderungen bei den Zulassungsplattformen für Studierende. Während viele Versammlungen friedlich verliefen, kam es in mehreren Städten zu Zusammenstößen, was einen starken Sicherheitseinsatz auslöste. Die Behörden meldeten zahlreiche Festnahmen und mehrere verletzte Polizeibeamte nach Vorfällen von Vandalismus und Plünderungen am Rande der Märsche.",
    "demands": [
-    "Höhere Löhne und Renten",
-    "Bessere öffentliche Dienste und Schulbedingungen",
-    "Maßnahmen gegen wirtschaftliche Ungleichheit",
-    "Rücknahme geplanter Kürzungen beim Lehrpersonal"
+    "Bessere Ausstattung und Finanzierung für Schulen",
+    "Niedrigere Lebenshaltungskosten und moderate Preise",
+    "Ende der universitären Auswahlverfahren",
+    "Erhöhte Universität Kapazitäten und Studentenbeihilfen"
    ],
-   "response": "Die französische Regierung setzte landesweit 70.000 Polizisten und Gendarmen ein, setzte Routenänderungen und temporäre Ausgangssperren um und bot später Bildungszugeständnisse an, darunter die Ersetzung des Parcoursup-Systems und die Bereitstellung von Milliarden für Schulsanierungskredite.",
+   "response": "Innenminister Laurent Nuñez erklärte, dass 70.000 Polizisten im Einsatz waren und die Behörden strenge Maßnahmen gegen Gewalt und Plünderungen aufrechterhielten.",
    "updates": [
-    "Premierminister Sébastien Lecornu traf sich mit Gewerkschaftsvertretern, um über Sicherheit zu sprechen, und kündigte einen massiven Polizeieinsatz für bevorstehende Proteste an.",
-    "In ganz Frankreich fanden Massenproteste statt, wobei in Paris schätzungsweise 110.000 Marschierer gezählt wurden und Zusammenstöße gemeldet wurden, als die Polizei Menschenmengen mit Tränengas auseinandertrieb.",
-    "Gewerkschaftsführer und Protestgruppen riefen zu weiteren Demonstrationen und landesweiten Streiks auf, um den Druck auf die Regierung aufrechtzuerhalten.",
-    "Die französische Regierung versprach, die Universitätszulassungsplattform Parcoursup bis 2028 zu ersetzen und die Bildungsfinanzierung zu erhöhen, um die Wut der Studierenden zu besänftigen."
+    "Der französische Premierminister Sebastien Lecornu plante Treffen mit Gewerkschaften und kündigte einen massiven Polizeieinsatz für bevorstehende Proteste an.",
+    "Innenminister Laurent Nuñez erklärte, dass 70.000 Polizisten eingesetzt wurden, während es in Großstädten zu Demonstrationen und Zusammenstößen kam.",
+    "Das Innenministerium meldete nach den Wochenendprotesten 410.000 Demonstranten landesweit und 1.314 Festnahmen.",
+    "Die Regierung stellte verschiedene Bildungsmaßnahmen vor, darunter die Reform von Parcoursup und Investitionen in die Schulinfasstruktur.",
+    "Studenten- und Jugendorganisationen lehnten die Vorschläge der Regierung als unzureichend ab und riefen zu anhaltenden Mobilisierungen auf."
    ],
    "conflicts": [
-    "Das Innenministerium schätzte die landesweite Beteiligung auf 410.000, während die CGT-Gewerkschaft 800.000 Teilnehmer angab."
+    "In Marseille zählte die Präfektur 17.000 Marschierer, während die Gewerkschaft CGT 50.000 zählte."
    ],
    "numbers": {
-    "crowd": "zwischen 410.000 und 800.000 Menschen",
-    "arrests": "etwa 1.314 Personen wurden am Samstag festgenommen",
-    "injuries": "etwa 50 Polizisten wurden verletzt"
+    "crowd": "410.000 Menschen nach Angaben des Innenministeriums",
+    "arrests": "1.314 Personen festgenommen nach Angaben des Innenministeriums",
+    "injuries": "53 Polizeibeamte verletzt nach Angaben des Innenministeriums"
    }
   }
- },
- "endedOn": "2026-10-24"
+ }
 }
