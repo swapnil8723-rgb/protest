@@ -1,33 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-27",
-  "count": 210
+  "count": 227
  },
  "runs": [
-  {
-   "at": "2026-10-21T07:44:02.801Z",
-   "ms": 111732,
-   "discovered": 43,
-   "fetched": 39,
-   "classified": 36,
-   "protests": 10,
-   "summarized": 5,
-   "published": 109,
-   "live": 16,
-   "aiCalls": 11,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 38 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 31 protest-word items",
-    "fetch: 39 ok, 4 failed",
-    "classify: new candidate ec33e0e1eca \"Demonstrators dress as superheroes during French cost-of-living protests\" (Marseille)",
-    "classify: new candidate eb12bc9818b \"French authorities impose curfews amid ongoing riots and looting\" (Paris)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-21T11:56:49.721Z",
    "ms": 204456,
@@ -1482,8 +1458,39 @@
     "translate: 13 events"
    ],
    "translated": 13
+  },
+  {
+   "at": "2026-10-27T22:18:57.395Z",
+   "ms": 204960,
+   "discovered": 77,
+   "fetched": 73,
+   "classified": 58,
+   "protests": 17,
+   "summarized": 6,
+   "published": 205,
+   "live": 20,
+   "aiCalls": 17,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 10 files, 42 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 226 protest-word items",
+    "search: 7 single-source stories checked, 12 other newsrooms found",
+    "fetch: 73 ok, 4 failed",
+    "classify: new candidate e0806ecbbc7 \"Youth group calls for demonstration in Palma\" (Palma)",
+    "classify: new candidate e798820a3cb \"Residents protest UNRWA service cuts and hospital closure\" (Nablus)",
+    "classify: new candidate e39271d2235 \"MIT facilities workers authorize strike over pay and conditions\" (Cambridge)",
+    "classify: new candidate e8ebd37aea4 \"Coimbra protesters rally for housing and police accountability\" (Coimbra)",
+    "classify: new candidate ee45157aed9 \"Harvard graduate students walk out over labor contract\" (Cambridge)",
+    "classify: new candidate eedd3959232 \"Venice arts workers and artists call strike over war economy\" (Venice)",
+    "classify: new candidate ec65a87da8b \"BJP nationwide protests demanding Congress chief resignation\" (Bengaluru)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261027194500",
- "lastRunAt": "2026-10-27T19:50:29.850Z"
+ "gdeltCursor": "20261027221500",
+ "lastRunAt": "2026-10-27T22:18:57.395Z"
 }
