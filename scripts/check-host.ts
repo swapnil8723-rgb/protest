@@ -14,8 +14,14 @@ if (!base) throw new Error('usage: node scripts/check-host.ts <base> [baseline u
 interface Row { path: string; status?: number; location?: string | null; type?: string | null; cache?: string | null; canonical?: string | null; noindex?: boolean; hreflangs?: number; error?: string }
 const baseline: { results: Row[] } = JSON.parse(fs.readFileSync(baselineFile, 'utf8'));
 const locs = (xml: string) => [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => new URL(m[1]).pathname);
+// The sitemaps as the host serves them (what search engines read), not a local build.
 const built = new Set<string>();
-for (const f of fs.readdirSync('dist').filter((f) => /^(sitemap-(?!index).*|news-sitemap)\.xml$/.test(f))) for (const p of locs(fs.readFileSync(`dist/${f}`, 'utf8'))) built.add(p);
+const sitemapFiles = ['/news-sitemap.xml', ...locs(await (await fetch(base + '/sitemap-index.xml')).text())];
+for (const s of sitemapFiles) {
+  const res = await fetch(base + s);
+  if (res.status !== 200) throw new Error(`${s}: ${res.status}`);
+  for (const p of locs(await res.text())) built.add(p);
+}
 
 async function probe(path: string): Promise<Row> {
   for (let i = 0; ; i++) {
@@ -82,10 +88,18 @@ const home = await fetch(base + '/');
 for (const [k, v] of [['strict-transport-security', 'max-age=63072000'], ['x-content-type-options', 'nosniff'], ['referrer-policy', 'strict-origin-when-cross-origin']]) {
   if (home.headers.get(k) !== v) fails.push(`/ header ${k}: ${home.headers.get(k)} (want ${v})`);
 }
-const font = fs.readdirSync('dist/fonts').find((f) => f.endsWith('.woff2'));
-const astro = fs.readdirSync('dist/_astro')[0];
-for (const [p, cc] of [[`/fonts/${font}`, 'public, max-age=31536000, immutable'], [`/_astro/${astro}`, 'public, max-age=31536000, immutable']]) {
-  const r = await probe(p!);
+// Text files with non-ASCII characters need an explicit charset (Vercel sends one).
+for (const p of ['/robots.txt', '/llms.txt']) {
+  const r = await probe(p);
+  if (r.type !== 'text/plain; charset=utf-8') fails.push(`${p}: content-type "${r.type}" (want "text/plain; charset=utf-8")`);
+}
+const homeHtml = await home.text();
+const font = /href="(\/fonts\/[^"]+\.woff2)"/.exec(homeHtml)?.[1];
+const astro = /(?:src|href)="(\/_astro\/[^"]+)"/.exec(homeHtml)?.[1];
+if (!font || !astro) fails.push(`/ has no /fonts/ or /_astro/ file to check (${font}, ${astro})`);
+for (const [p, cc] of [[font, 'public, max-age=31536000, immutable'], [astro, 'public, max-age=31536000, immutable']]) {
+  if (!p) continue;
+  const r = await probe(p);
   if (r.status !== 200 || r.cache !== cc) fails.push(`${p}: ${r.status} cache "${r.cache}" (want "${cc}")`);
 }
 
@@ -102,7 +116,7 @@ if (process.env.CHECK_FORM === '1') {
   console.log('FORM TEST WROTE REPORTS: delete them now (CLOUDFLARE-PLAN.md step 3.2)');
 }
 
-console.log(`checked ${got.size} URLs on ${base} against ${baselineFile} (${built.size} sitemap pages in this build)`);
+console.log(`checked ${got.size} URLs on ${base} against ${baselineFile} (${built.size} pages in its ${sitemapFiles.length} sitemaps)`);
 if (notes.length) console.log(`notes (${notes.length}):\n  ` + notes.slice(0, 40).join('\n  '));
 if (fails.length) {
   console.log(`FAIL ${fails.length}:\n  ` + fails.slice(0, 80).join('\n  '));

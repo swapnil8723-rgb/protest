@@ -22,6 +22,10 @@ fs.writeFileSync(
   Cache-Control: public, max-age=604800
 /cards/*
   Cache-Control: public, max-age=1800
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
 `,
 );
 const redirects = toCloudflareRedirects(JSON.parse(fs.readFileSync('vercel.json', 'utf8')).redirects ?? []);
