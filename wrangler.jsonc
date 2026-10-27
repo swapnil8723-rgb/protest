@@ -1,0 +1,34 @@
+// Cloudflare Worker for protesttracker.online (see CLOUDFLARE-PLAN.md).
+// Workers Builds runs `npm run build` then `npx wrangler deploy` on every push to main.
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "protesttracker",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    // Same URLs as Vercel's cleanUrls + trailingSlash:false: /today serves today.html,
+    // /today/ and /today.html redirect to /today.
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "404-page",
+    // Only the API runs code; every other request is a free static-asset request.
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "INBOX",
+      "database_name": "loud-reader-inbox",
+      "database_id": "a9f615e1-d44f-4be2-a9dc-d69919947785",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // Backup for GitHub's pipeline schedule (worker/tick.ts). This account's 5th free cron
+  // slot; sunup-api gave up its second trigger for it on 27 Oct 2026.
+  "triggers": { "crons": ["50 * * * *"] },
+  "vars": { "READER_REPO": "swapnil8723-rgb/protest" },
+  // Secrets (npx wrangler secret put <NAME>): GITHUB_DISPATCH_TOKEN, READER_SALT.
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": true }
+}

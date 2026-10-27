@@ -1,0 +1,62 @@
+// Turns vercel.json "redirects" into a Cloudflare _redirects file, so vercel.json stays the
+// one list that merge-events.ts and withdraw-events.ts write to.
+// - Vercel answers these with 308 (checked against the live site on 27 Oct 2026), so every
+//   line says 308; Cloudflare's own default would be a temporary 302.
+// - Cloudflare has no regex groups: `:lang(hi|mr|es|fr|de)` becomes one line per value.
+// - Anything that cannot be expressed exactly throws, failing the build: a wrong redirect
+//   is worse than no deploy.
+
+export interface VercelRedirect {
+  source: string;
+  destination: string;
+  permanent?: boolean;
+  statusCode?: number;
+  has?: unknown[];
+}
+
+export const LIMITS = { static: 2000, dynamic: 100, lineLength: 1000 };
+
+// Vercel's cleanUrls + trailingSlash:false answer /today/ and /today.html with a 308 to
+// /today. Cloudflare's html_handling would send 307 (temporary), so these say 308 first.
+const CLEAN_URLS_FIXED = ['/index.html / 308'];
+const CLEAN_URLS_PATTERNS = ['/*/ /:splat 308', '/*.html /:splat 308'];
+
+export function toCloudflareRedirects(redirects: VercelRedirect[]): { text: string; static: number; dynamic: number } {
+  // Fixed paths first, then patterns. This order is required, not cosmetic: Cloudflare counts
+  // every line after the first pattern as a pattern, and stops reading after 100 of them
+  // (with the city patterns first, 287 redirects were silently dropped in testing).
+  // The groups never overlap: patterns are the old /<cc>/... city URLs and the clean-URL rules.
+  const fixed: string[] = [...CLEAN_URLS_FIXED];
+  const patterns: string[] = [];
+  for (const r of redirects) {
+    // Host-based rules (protesttracker.vercel.app → the real domain) only mean something on Vercel.
+    if (r.has) continue;
+    if (r.permanent !== true || r.statusCode) throw new Error(`redirect ${r.source}: only permanent redirects are supported`);
+    const groups = [...r.source.matchAll(/:(\w+)\(([^)]+)\)/g)];
+    if (groups.length > 1) throw new Error(`redirect ${r.source}: more than one (a|b) group`);
+    const variants = groups.length
+      ? groups[0][2].split('|').map((v) => {
+          if (!/^[a-z0-9-]+$/.test(v)) throw new Error(`redirect ${r.source}: unsupported group value ${v}`);
+          return { source: r.source.replace(groups[0][0], v), destination: r.destination.replaceAll(`:${groups[0][1]}`, v) };
+        })
+      : [{ source: r.source, destination: r.destination }];
+    for (const { source, destination } of variants) {
+      if (/[()?*+[\]{}|\\^$]/.test(source) || /[()?*+[\]{}|\\^$]/.test(destination)) {
+        throw new Error(`redirect ${r.source}: pattern Cloudflare cannot express (${source} → ${destination})`);
+      }
+      if (!source.startsWith('/') || /\s/.test(source + destination)) throw new Error(`redirect ${r.source}: bad path`);
+      const params: string[] = source.match(/:\w+/g) ?? [];
+      for (const p of destination.match(/:\w+/g) ?? []) {
+        if (!params.includes(p)) throw new Error(`redirect ${r.source}: ${p} is not in the source`);
+      }
+      const line = `${source} ${destination} 308`;
+      if (line.length > LIMITS.lineLength) throw new Error(`redirect ${r.source}: line longer than ${LIMITS.lineLength}`);
+      (params.length ? patterns : fixed).push(line);
+    }
+  }
+  patterns.push(...CLEAN_URLS_PATTERNS); // last: they match almost anything ending in / or .html
+  if (fixed.length > LIMITS.static || patterns.length > LIMITS.dynamic) {
+    throw new Error(`_redirects: ${fixed.length} static / ${patterns.length} dynamic, over Cloudflare's ${LIMITS.static} / ${LIMITS.dynamic}`);
+  }
+  return { text: [...fixed, ...patterns].join('\n') + '\n', static: fixed.length, dynamic: patterns.length };
+}

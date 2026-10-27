@@ -26,6 +26,9 @@ const { title, description = t('home.description'), path, image = '/og-default.p
 const url = (l: Lang) => SITE + (href(l, path) === '/' ? '' : href(l, path));
 const canonical = url(lang);
 const img = image.startsWith('http') ? image : SITE + image;
+// Vercel Analytics only on Vercel builds; on Cloudflare, Web Analytics is switched on for
+// the zone and adds its own beacon, so there is nothing to render here.
+const onVercel = !!process.env.VERCEL;
 ---
 <!doctype html>
 <html lang={lang}>
@@ -80,6 +83,6 @@ const img = image.startsWith('http') ? image : SITE + image;
     <script>
       import '../scripts/live.ts';
     </script>
-    <Analytics />
+    {onVercel && <Analytics />}
   </body>
 </html>

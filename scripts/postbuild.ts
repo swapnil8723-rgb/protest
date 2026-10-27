@@ -1,6 +1,8 @@
-// After `astro build`: IndexNow key file and Cloudflare Pages headers.
+// After `astro build`: IndexNow key file, plus the Cloudflare _headers and _redirects
+// (Vercel reads vercel.json instead and ignores both files).
 import fs from 'node:fs';
 import { INDEXNOW_KEY } from '../src/site.ts';
+import { toCloudflareRedirects } from './redirects.ts';
 
 fs.writeFileSync(`dist/${INDEXNOW_KEY}.txt`, INDEXNOW_KEY);
 fs.writeFileSync(
@@ -9,6 +11,7 @@ fs.writeFileSync(
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=63072000
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
 /_astro/*
@@ -21,4 +24,6 @@ fs.writeFileSync(
   Cache-Control: public, max-age=1800
 `,
 );
-console.log('postbuild: indexnow key + _headers written');
+const redirects = toCloudflareRedirects(JSON.parse(fs.readFileSync('vercel.json', 'utf8')).redirects ?? []);
+fs.writeFileSync('dist/_redirects', redirects.text);
+console.log(`postbuild: indexnow key + _headers + _redirects (${redirects.static} static, ${redirects.dynamic} dynamic, all 308) written`);

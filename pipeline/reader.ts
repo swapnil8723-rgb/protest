@@ -32,7 +32,8 @@ export function httpInbox(site: string): Inbox | null {
   const reqUrl = process.env.ACTIONS_ID_TOKEN_REQUEST_URL;
   const reqToken = process.env.ACTIONS_ID_TOKEN_REQUEST_TOKEN;
   if (!reqUrl || !reqToken) return null;
-  const url = `${site}/api/inbox`;
+  // READER_INBOX_URL: a manual run can point at another host (used to test Cloudflare before the switch).
+  const url = process.env.READER_INBOX_URL || `${site}/api/inbox`;
   const auth = async () => {
     const r = await fetch(`${reqUrl}&audience=loud-pipeline`, { headers: { authorization: `Bearer ${reqToken}` } });
     if (!r.ok) throw new Error(`OIDC token ${r.status}`);

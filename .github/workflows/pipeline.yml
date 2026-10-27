@@ -10,6 +10,11 @@ on:
   schedule:
     - cron: '17 */3 * * *'
   workflow_dispatch:
+    inputs:
+      inbox_url:
+        description: 'Reader inbox URL for this run only (testing; leave empty for the live site)'
+        required: false
+        default: ''
 
 concurrency:
   group: pipeline
@@ -60,6 +65,7 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           GEMINI_FALLBACK: ${{ vars.GEMINI_FALLBACK }}
           READER_REPORTS: ${{ vars.READER_REPORTS }}
+          READER_INBOX_URL: ${{ inputs.inbox_url }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

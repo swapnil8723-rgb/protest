@@ -3,8 +3,10 @@
 import assert from 'node:assert/strict';
 import { generateKeyPairSync, createSign } from 'node:crypto';
 import test from 'node:test';
-import { validate } from '../api/report.ts';
-import { verifyGithubToken, AUDIENCE } from '../api/inbox.ts';
+import * as vercelReport from '../api/report.ts';
+import * as vercelInbox from '../api/inbox.ts';
+import * as cfReport from '../worker/report.ts';
+import * as cfInbox from '../worker/inbox.ts';
 import type { Ai } from '../pipeline/ai.ts';
 import { newEvent } from '../pipeline/events.ts';
 import { resolvePlace } from '../pipeline/geo.ts';
@@ -20,7 +22,9 @@ const form = {
   organisers: 'Students Federation', link: '', website: '', ms: 30000,
 };
 
-test('form validation: accepts a normal report, rejects bots and bad input', () => {
+// The Vercel functions (api/) and their Cloudflare copies (worker/) must behave the same.
+for (const [host, { validate }] of [['vercel', vercelReport], ['cloudflare', cfReport]] as const) {
+test(`form validation (${host}): accepts a normal report, rejects bots and bad input`, () => {
   const ok = validate(form, NOW);
   assert.equal(ok.ok, true);
   assert.equal(validate({ ...form, website: 'http://spam' }, NOW).ok, false); // honeypot
@@ -32,8 +36,21 @@ test('form validation: accepts a normal report, rejects bots and bad input', () 
   const clean = validate({ ...form, title: 'Fee\u0000 protest\n\nat   PUNE university' }, NOW);
   assert.equal(clean.ok && clean.report.title, 'Fee protest at PUNE university');
 });
+}
 
-test('inbox accepts only a GitHub-signed token for this repo and audience', async () => {
+test('form validation: Cloudflare copy gives exactly the Vercel answer for every country and field', () => {
+  const countries = 'in us gb fr de es pk bd np ke id ca it br au nz ua ru tr ps xx'.split(' ');
+  const cases = [
+    ...countries.map((country) => ({ ...form, country })),
+    { ...form, title: 'short' }, { ...form, city: 'x' }, { ...form, startedOn: '2026/10/06' }, { ...form, startedOn: '2026-10-25' },
+    { ...form, link: 'example.org' }, { ...form, link: 'https://example.org/a b' }, { ...form, stillOn: 'maybe' }, { ...form, ms: '5000' },
+    null, 'text', {},
+  ];
+  for (const c of cases) assert.deepEqual(cfReport.validate(c, NOW), vercelReport.validate(c, NOW), JSON.stringify(c));
+});
+
+for (const [host, { verifyGithubToken, AUDIENCE }] of [['vercel', vercelInbox], ['cloudflare', cfInbox]] as const) {
+test(`inbox (${host}) accepts only a GitHub-signed token for this repo and audience`, async () => {
   const { privateKey, publicKey } = generateKeyPairSync('rsa', { modulusLength: 2048 });
   const jwk = { ...(publicKey.export({ format: 'jwk' }) as JsonWebKey), kid: 'k1' };
   const keys = async () => ({ keys: [jwk] });
@@ -50,7 +67,9 @@ test('inbox accepts only a GitHub-signed token for this repo and audience', asyn
   const tampered = sign(good).split('.');
   tampered[1] = Buffer.from(JSON.stringify({ ...good, repository: 'me/protest', aud: AUDIENCE, exp: good.exp + 9999 })).toString('base64url');
   assert.equal(await verifyGithubToken(tampered.join('.'), NOW, 'me/protest', keys), false);
+  assert.equal(await verifyGithubToken('not.a.token', NOW, 'me/protest', keys), false);
 });
+}
 
 function memInbox(items: InboxItem[]): Inbox & { left: InboxItem[] } {
   const box = {
