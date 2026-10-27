@@ -1,32 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-27",
-  "count": 157
+  "count": 178
  },
  "runs": [
-  {
-   "at": "2026-10-20T23:56:19.637Z",
-   "ms": 143253,
-   "discovered": 26,
-   "fetched": 24,
-   "classified": 21,
-   "protests": 5,
-   "summarized": 4,
-   "published": 108,
-   "live": 16,
-   "aiCalls": 8,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 8 files, 23 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 37 protest-word items",
-    "fetch: 24 ok, 2 failed",
-    "classify: new candidate eea8161836d \"Demonstrators announce protest at Winton ICE facility\" (Winton)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 2 events"
-   ],
-   "translated": 2
-  },
   {
    "at": "2026-10-21T04:27:46.298Z",
    "ms": 162754,
@@ -1466,8 +1443,41 @@
     "translate: 13 events"
    ],
    "translated": 13
+  },
+  {
+   "at": "2026-10-27T17:00:42.535Z",
+   "ms": 536674,
+   "discovered": 63,
+   "fetched": 60,
+   "classified": 51,
+   "protests": 18,
+   "summarized": 8,
+   "published": 201,
+   "live": 19,
+   "aiCalls": 21,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261027163000 http://data.gdeltproject.org/gdeltv2/20261027163000.export.CSV.zip → 404",
+    "gdelt: 20261027164500 http://data.gdeltproject.org/gdeltv2/20261027164500.export.CSV.zip → 404",
+    "gdelt: 20261027170000 http://data.gdeltproject.org/gdeltv2/20261027170000.export.CSV.zip → 404",
+    "gdelt: 7 files, 19 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.bostonglobe.com: 404",
+    "rss civil.ge: fetch failed",
+    "rss: 217 protest-word items",
+    "search: 25 single-source stories checked, 22 other newsrooms found",
+    "fetch: 60 ok, 3 failed",
+    "classify: new candidate e686019501f \"Hebron residents protest Israeli military operation\" (Hebron)",
+    "classify: new candidate e8b16d690f9 \"Italian taxi drivers call national strike and demonstrations\" (Florence)",
+    "classify: new candidate e42cf3a5778 \"Italian taxi drivers call national strike and protests\" (Rome)",
+    "classify: new candidate e1f97f52296 \"Residents protest Protestant church construction in Purwakarta\" (Purwakarta)",
+    "classify: new candidate eff1b9b8aaf \"Demonstrators march across France over living costs and inequality\" (Paris)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 8 events"
+   ],
+   "translated": 8
   }
  ],
- "gdeltCursor": "20261027151500",
- "lastRunAt": "2026-10-27T15:19:56.861Z"
+ "gdeltCursor": "20261027170000",
+ "lastRunAt": "2026-10-27T17:00:42.535Z"
 }
