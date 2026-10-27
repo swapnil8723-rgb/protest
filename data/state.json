@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-27",
-  "count": 178
+  "count": 210
  },
  "runs": [
-  {
-   "at": "2026-10-21T04:27:46.298Z",
-   "ms": 162754,
-   "discovered": 52,
-   "fetched": 49,
-   "classified": 34,
-   "protests": 10,
-   "summarized": 7,
-   "published": 108,
-   "live": 16,
-   "aiCalls": 13,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 18 files, 45 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 39 protest-word items",
-    "fetch: 49 ok, 3 failed",
-    "classify: new candidate ea9ac8ea77e \"NSUI burns symbolic effigy in New Delhi over irregularities\" (Delhi)",
-    "classify: new candidate e3259d20c99 \"Community members march in Virginia Beach against data centers\" (Virginia Beach)",
-    "classify: new candidate e751c7b4009 \"Activists march in Washington for Palestine\" (Washington)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-21T07:44:02.801Z",
    "ms": 111732,
@@ -1476,8 +1451,39 @@
     "translate: 8 events"
    ],
    "translated": 8
+  },
+  {
+   "at": "2026-10-27T19:50:29.850Z",
+   "ms": 378725,
+   "discovered": 97,
+   "fetched": 86,
+   "classified": 67,
+   "protests": 25,
+   "summarized": 13,
+   "published": 203,
+   "live": 19,
+   "aiCalls": 32,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 44 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 224 protest-word items",
+    "search: 25 single-source stories checked, 33 other newsrooms found",
+    "fetch: 86 ok, 11 failed",
+    "classify: new candidate e4e98a47fa5 \"Protest outside Science Museum over Adani sponsorship\" (London)",
+    "classify: new candidate e48386557a7 \"BJP marches in Gujarat against Congress over poll defeats\" (Ahmedabad)",
+    "classify: new candidate e4ef99e4c11 \"Activists scale Jakarta statue demanding climate action and lower costs\" (Jakarta)",
+    "classify: new candidate e436944b695 \"Students protest for student union elections in Indian universities\" (Hyderabad)",
+    "classify: new candidate e87af61691a \"Protesters demonstrate in Jena against AfD event\" (Jena)",
+    "classify: new candidate e8f462c7b61 \"Women in Ladakh protest demanding liquor ban\" (Leh)",
+    "classify: new candidate e40d975e998 \"BJP stages nationwide protests demanding Congress chief resignation\" (Bhubaneswar)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 13 events"
+   ],
+   "translated": 13
   }
  ],
- "gdeltCursor": "20261027170000",
- "lastRunAt": "2026-10-27T17:00:42.535Z"
+ "gdeltCursor": "20261027194500",
+ "lastRunAt": "2026-10-27T19:50:29.850Z"
 }
