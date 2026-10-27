@@ -1,35 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-26",
-  "count": 217
+  "day": "2026-10-27",
+  "count": 38
  },
  "runs": [
-  {
-   "at": "2026-10-20T07:44:00.865Z",
-   "ms": 135698,
-   "discovered": 38,
-   "fetched": 37,
-   "classified": 28,
-   "protests": 10,
-   "summarized": 4,
-   "published": 104,
-   "live": 18,
-   "aiCalls": 11,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 31 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 36 protest-word items",
-    "fetch: 37 ok, 1 failed",
-    "classify: new candidate eec85bea857 \"Hollidaysburg teachers vote to authorize upcoming strike\" (Hollidaysburg)",
-    "classify: new candidate e80f92032f5 \"Rural Lewis County Indivisibles hold No Kings early voting rally\" (Centralia)",
-    "classify: new candidate e3b458ec199 \"CPI(M) night march demands CEC resignation in Malappuram\" (Malappuram)",
-    "classify: new candidate edd46b2893a \"Congress leaders protest at Jaipur Police Commissionerate\" (Jaipur)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-20T08:37:58.942Z",
    "ms": 103768,
@@ -1432,8 +1406,49 @@
     "translate: 23 events"
    ],
    "translated": 23
+  },
+  {
+   "at": "2026-10-27T00:30:00.486Z",
+   "ms": 375690,
+   "discovered": 136,
+   "fetched": 129,
+   "classified": 101,
+   "protests": 48,
+   "summarized": 15,
+   "published": 186,
+   "live": 15,
+   "aiCalls": 38,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20 files, 78 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss news.err.ee: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 218 protest-word items",
+    "search: 25 single-source stories checked, 23 other newsrooms found",
+    "fetch: 129 ok, 7 failed",
+    "classify: new candidate eb14f7622fb \"BJD and Congress call shutdowns in Jaleswar over rape and murder\" (Jaleshwar)",
+    "classify: new candidate ec61e7dd4ff \"Environmental activists oppose tree felling for hydro project in Karjat\" (Karjat)",
+    "classify: new candidate ea7aa293eb2 \"Migrants and supporters plan strike in Halle\" (Halle (Saale))",
+    "classify: new candidate e6bf367ca30 \"Odisha BJP stages protest over Kharge remarks\" (Bhubaneswar)",
+    "classify: new candidate e77e13ae959 \"Pune auto and cab unions call protests against bike taxis\" (Pune)",
+    "classify: new candidate e9ac61afad0 \"Porto residents protest eviction order outside City Hall\" (Porto)",
+    "classify: new candidate ed4fda9c339 \"Far-right militants clash during protests in France\" (Clermont-Ferrand)",
+    "classify: new candidate ea0e38c0269 \"Thousands rally in French cities to mourn racist attack victim\" (Lyon)",
+    "classify: new candidate ea522a0fade \"Chandigarh Congress mobilizes workers for Delhi rally\" (Chandigarh)",
+    "classify: new candidate e9e1a0bab77 \"Ombudsman requests info on police action during housing protests\" (Lisbon)",
+    "classify: new candidate e8aaca4c791 \"Staff at Hamilton private hospital strike over pay\" (Hamilton)",
+    "classify: new candidate ecdd07f773d \"Students protest ICE shooting in New York City\" (San Diego)",
+    "classify: new candidate e99decf8eba \"Far-right attack on Socialist Workers Party meeting\" (Glasgow)",
+    "classify: new candidate e2bd1563911 \"Demonstrators march in Rome and other Italian cities over costs and policies\" (Paris)",
+    "classify: new candidate ea0d3513f24 \"Far-right activists detained after clashes during French protests\" (Nice)",
+    "classify: new candidate e05cd3affc6 \"BJP stages protest in Guwahati over Congress chief remarks\" (Guwahati)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 14 events"
+   ],
+   "translated": 14
   }
  ],
- "gdeltCursor": "20261026193000",
- "lastRunAt": "2026-10-26T19:28:48.936Z"
+ "gdeltCursor": "20261027003000",
+ "lastRunAt": "2026-10-27T00:30:00.486Z"
 }
