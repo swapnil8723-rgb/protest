@@ -1,33 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-27",
-  "count": 38
+  "count": 70
  },
  "runs": [
-  {
-   "at": "2026-10-20T08:37:58.942Z",
-   "ms": 103768,
-   "discovered": 14,
-   "fetched": 14,
-   "classified": 11,
-   "protests": 4,
-   "summarized": 1,
-   "published": 104,
-   "live": 17,
-   "aiCalls": 3,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 4 files, 12 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 36 protest-word items",
-    "fetch: 14 ok, 0 failed",
-    "classify: new candidate ea2cb4843d3 \"Shutdown in Imphal Valley over Meitei killings\" (Imphal)",
-    "classify: new candidate ed866bd082e \"Protesters interrupt Donald Trump rally in Kansas\" (Wichita)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 1 events"
-   ],
-   "translated": 1
-  },
   {
    "at": "2026-10-20T13:48:40.076Z",
    "ms": 325073,
@@ -1447,8 +1423,39 @@
     "translate: 14 events"
    ],
    "translated": 14
+  },
+  {
+   "at": "2026-10-27T04:27:47.447Z",
+   "ms": 416792,
+   "discovered": 91,
+   "fetched": 85,
+   "classified": 67,
+   "protests": 24,
+   "summarized": 14,
+   "published": 187,
+   "live": 15,
+   "aiCalls": 32,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 16 files, 55 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 217 protest-word items",
+    "search: 25 single-source stories checked, 28 other newsrooms found",
+    "fetch: 85 ok, 6 failed",
+    "classify: new candidate e92352a9c38 \"Arunachal Pradesh anti-dam protests spread to Subansiri valley\" (Daporijo)",
+    "classify: new candidate ebe52d942f6 \"Demonstrators protest Canada Pension Plan investments in St. John's\" (St. John's)",
+    "classify: new candidate eff843a90a2 \"Protesters gather near Vice President JD Vance rally in Topeka\" (Topeka)",
+    "classify: new candidate e40d7b74036 \"Protesters interrupt JD Vance campaign rally in Belgrade\" (Belgrade)",
+    "classify: new candidate e9a0ef25518 \"Protesters unfurl anti-Israel banners at hockey game in St. Louis\" (St. Louis)",
+    "classify: new candidate edb495f6a2b \"High school students walk out over school safety in Bend\" (Bend)",
+    "summary: ea522a0fade only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 11 events"
+   ],
+   "translated": 11
   }
  ],
- "gdeltCursor": "20261027003000",
- "lastRunAt": "2026-10-27T00:30:00.486Z"
+ "gdeltCursor": "20261027043000",
+ "lastRunAt": "2026-10-27T04:27:47.447Z"
 }

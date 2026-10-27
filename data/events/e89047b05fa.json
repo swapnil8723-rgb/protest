@@ -15,58 +15,66 @@
  },
  "scope": "nationwide",
  "causes": [
-  "students",
+  "labour",
   "education",
   "prices"
  ],
- "kind": "multi-day",
- "startedOn": "2026-10-17",
- "status": "ongoing",
- "vibe": "tense",
+ "kind": "one-day",
+ "startedOn": "2026-10-24",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
   "serious",
-  "top-10"
+  "sources-disagree"
  ],
- "isOngoing": true,
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against inadequate school funding, deteriorating school conditions, and high living costs.",
-  "want": "Demonstrators demand better school funding, more teachers, relief from living costs, and the overhaul of the Parcoursup system.",
-  "changed": "Oct 26: The French government pledged to replace the Parcoursup admissions platform and invest billions in education."
+  "why": "Protesters are demonstrating against rising living costs, poor school conditions, staff shortages, and strained public services.",
+  "want": "Demonstrators demand higher wages and pensions, better public services, action on economic inequality, and improved school conditions.",
+  "changed": "Oct 24: Marches drew hundreds of thousands across France, with police reporting 110,000 in Paris before dissolving the crowd with tear gas and water cannons."
  },
- "summary": "Mass protests and demonstrations over school conditions, educational funding, and the rising cost of living took place across France, including in Paris. Initiated by high school and university students, the movement expanded to include labour unions and the grassroots \"Yellow Vests\" movement. Authorities deployed 70,000 security personnel nationwide on Saturday, October 24, confining marches to specific routes and using tear gas and water cannons in several cities following clashes. The Interior Ministry reported a nationwide turnout of 410,000 participants, with 110,000 in Paris, alongside nearly 1,000 arrests. Prime Minister Sébastien Lecornu and other ministers subsequently met with student representatives and announced plans to replace the controversial Parcoursup admissions portal and provide billions in education funding.",
+ "summary": "Demonstrations regarding the cost of living, school conditions, and strained public services took place across France, drawing hundreds of thousands of participants. In Paris, a march began at Porte d'Italie and concluded near Porte de Vincennes under heavy security and a rerouted police plan. While the processions were largely peaceful during the day, clashes erupted near the end of the events, with police deploying tear gas, water cannons, and batons. Organizers and unions such as Solidaires and the CGT joined students and the Yellow Vests movement to voice grievances over economic inequality, wages, and education systems. In response, the French government deployed 70,000 police and gendarmes nationwide, instituted route changes and curfews, and later announced educational concessions including the eventual replacement of the Parcoursup university admissions platform and increased funding for school infrastructure.",
  "organizers": [
-  "Yellow Vests",
-  "High school student unions",
-  "Labour unions"
+  "Yellow Vest movement",
+  "Solidaires trade union federation",
+  "SUD Education teaching union",
+  "CGT union",
+  "France Unbowed"
  ],
  "demands": [
-  "Increase school funding",
-  "Lower the cost of living",
-  "Scrap the Parcoursup admissions portal",
-  "Hire more teachers"
+  "Higher wages and pensions",
+  "Better public services and school conditions",
+  "Action on economic inequality",
+  "Reversal of planned teaching staff cuts"
  ],
- "response": "According to sources, the government deployed 70,000 police and gendarmes nationwide, restricted march routes, enforced local curfews, and deployed tear gas and water cannons. Interior Minister Laurent Nuñez stated that the marches mostly went well despite high violence.",
+ "response": "The French government deployed 70,000 police and gendarmes nationwide, implemented route changes and temporary curfews, and later offered educational concessions including replacing the Parcoursup system and providing billions in school renovation loans.",
  "numbers": {
   "crowd": {
    "value": 410000,
-   "text": "The Interior Ministry said 410,000 people took part in Saturday’s marches across France, including 110,000 in Paris.",
-   "sources": [
-    3,
-    5,
-    6,
-    7
-   ]
-  },
-  "arrests": {
-   "value": 1000,
-   "text": "Interior Minister Laurent Nuñez announced that nearly 1,000 people had been arrested.",
+   "text": "between 410,000 and 800,000 people",
    "sources": [
     3,
     4,
     5,
+    6,
+    7,
+    9
+   ]
+  },
+  "arrests": {
+   "value": 1314,
+   "text": "about 1,314 people were arrested on Saturday",
+   "sources": [
+    7
+   ]
+  },
+  "injuries": {
+   "value": 50,
+   "text": "about 50 police were injured",
+   "sources": [
     7
    ]
   }
@@ -74,27 +82,33 @@
  "updates": [
   {
    "at": "2026-10-21",
-   "text": "Prime Minister Sébastien Lecornu met with union representatives and vowed a massive police deployment for upcoming protests.",
+   "text": "Prime Minister Sébastien Lecornu met with union representatives to discuss security and announced a massive police deployment for upcoming protests.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-24",
-   "text": "Protests across France drew hundreds of thousands of demonstrators, with 110,000 counted in Paris, leading to nearly 1,000 arrests.",
+   "text": "Mass protests were held across France, with an estimated 110,000 marchers in Paris and clashes reported as police dispersed crowds with tear gas.",
    "sources": [
     3,
     4,
     5,
+    6
+   ]
+  },
+  {
+   "at": "2026-10-25",
+   "text": "Union leaders and protest groups called for further demonstrations and nationwide strikes to maintain pressure on the government.",
+   "sources": [
     7
    ]
   },
   {
    "at": "2026-10-26",
-   "text": "The French government pledged to replace the Parcoursup admissions platform by 2028 and increase education funding.",
+   "text": "The French government pledged to replace the university admissions platform Parcoursup by 2028 and increase education funding to quell student anger.",
    "sources": [
     8,
-    9,
     10
    ]
   }
@@ -130,38 +144,37 @@
   },
   {
    "n": 5,
-   "url": "https://www.hindustantimes.com/world-news/france-protests-over-4-lakh-on-streets-paris-1000-arrested-riots-clash-with-french-police-pressure-emmanuel-macron-101792895123535.html",
-   "publisher": "hindustantimes.com",
-   "title": "Over 4 lakh protest across France, nearly 1,000 arrested as protesters clash with cops; pressure mounts on Macron government",
-   "publishedAt": "2026-10-25T03:01:00.000Z"
+   "url": "https://www.moneycontrol.com/world/police-protesters-clash-in-paris-as-410-000-demonstrate-across-france-article-14059271.html",
+   "publisher": "moneycontrol.com",
+   "title": "Police, protesters clash in Paris as 410,000 demonstrate across France- Moneycontrol.com"
   },
   {
    "n": 6,
-   "url": "https://www.thehindu.com/news/international/french-protest-groups-demand-more-rallies-as-macron-faces-tough-choices/article71623327.ece",
-   "publisher": "thehindu.com",
-   "title": "French protest groups demand more rallies as Macron faces tough choices",
-   "publishedAt": "2026-10-25T13:20:31.000Z"
+   "url": "https://taz.de/Massenproteste-in-Frankreich/!6224783/",
+   "publisher": "taz.de",
+   "title": "Massenproteste in Frankreich: Mehr Regen als Wasserwerfer",
+   "publishedAt": "2026-10-25T13:43:00.000Z"
   },
   {
    "n": 7,
-   "url": "https://www.indailysa.com.au/news/just-in/2026/10/26/france-protesters-clash-400000-rally",
-   "publisher": "indailysa.com.au",
-   "title": "Police, protesters clash as unrest sweeps France - News | InDaily, Inside South Australia",
-   "publishedAt": "2026-10-26T00:54:30.000Z"
+   "url": "https://bworldonline.com/world/2026/10/26/789194/french-protest-groups-demand-more-rallies-as-macron-faces-tough-choices/",
+   "publisher": "bworldonline.com",
+   "title": "French protest groups demand more rallies as Macron faces tough choices - BusinessWorld Online",
+   "publishedAt": "2026-10-26T01:20:52.000Z"
   },
   {
    "n": 8,
-   "url": "https://aninews.in/news/world/europe/french-government-moves-to-overhaul-parcoursup-admissions-portal-as-high-school-student-protests-rage20261027005505/",
-   "publisher": "aninews.in",
-   "title": "French government moves to overhaul Parcoursup admissions portal as high school student protests rage",
-   "publishedAt": "2026-10-26T19:25:05.338Z"
-  },
-  {
-   "n": 9,
    "url": "https://www.pbs.org/newshour/world/france-pledges-new-university-admissions-to-quell-student-anger-but-only-after-macron-leaves-office",
    "publisher": "pbs.org",
    "title": "France pledges new university admissions to quell student anger. But only after Macron leaves office",
    "publishedAt": "2026-10-26T20:32:27.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://thenewamerican.com/world-news/europe/france-faces-weekend-violence-again-as-cops-battle-with-protesters-in-largely-peaceful-marches/",
+   "publisher": "thenewamerican.com",
+   "title": "France Faces Weekend Violence Again as Cops Battle With “Protesters” in “Largely Peaceful” Marches",
+   "publishedAt": "2026-10-26T21:50:51.000Z"
   },
   {
    "n": 10,
@@ -171,166 +184,191 @@
    "publishedAt": "2026-10-26T21:52:00.906Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
+ "conflicts": [
+  "The Interior Ministry estimated nationwide turnout at 410,000, while the CGT union claimed 800,000 participants."
+ ],
+ "confidence": 0.8,
  "publishers": 10,
- "reports24h": 24,
- "reportsPrev24h": 56,
- "reports48h": 80,
+ "reports24h": 18,
+ "reportsPrev24h": 52,
+ "reports48h": 70,
  "firstSeenAt": "2026-10-21T11:57:43.399Z",
  "lastReportAt": "2026-10-26T21:52:00.906Z",
- "lastCheckedAt": "2026-10-27T00:34:07.439Z",
- "updatedAt": "2026-10-27T00:32:30.395Z",
+ "lastCheckedAt": "2026-10-27T04:32:59.986Z",
+ "updatedAt": "2026-10-27T04:31:27.119Z",
  "responseSources": [
   1,
   3,
   4,
   5,
-  7
+  7,
+  8,
+  10
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-27T00:32:30.395Z",
- "summaryOf": "4fe1a5f58f0c",
+ "summarizedAt": "2026-10-27T04:31:27.119Z",
+ "summaryOf": "8692399a0c38",
  "publishedAt": "2026-10-24T07:46:37.803Z",
  "i18n": {
-  "of": "23ac1d8da28081d7",
-  "at": "2026-10-27T00:34:20.120Z",
+  "of": "c98063d806453ca5",
+  "at": "2026-10-27T04:34:12.192Z",
   "tries": 1,
   "hi": {
-   "title": "फ्रांस भर में जीवन-यापन की लागत और स्कूलों को लेकर प्रदर्शन",
-   "seoTitle": "पेरिस में जीवन-यापन और स्कूल प्रदर्शन",
+   "title": "फ्रांस भर में जीवन-यापन की लागत और स्कूलों को लेकर प्रदर्शन आयोजित",
+   "seoTitle": "पेरिस में जीवन-यापन और स्कूलों को लेकर प्रदर्शन",
    "tea": {
-    "why": "प्रदर्शनकारी अपर्याप्त स्कूल फंडिंग, बदतर स्कूल स्थितियों और जीवन-यापन की उच्च लागत के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शनकारी बेहतर स्कूल फंडिंग, अधिक शिक्षकों, जीवन-यापन की लागत से राहत और Parcoursup प्रणाली में बदलाव की मांग कर रहे हैं।",
-    "changed": "26 अक्टूबर: फ्रांसीसी सरकार ने Parcoursup प्रवेश मंच को बदलने और शिक्षा में अरबों का निवेश करने का वादा किया।"
+    "why": "प्रदर्शनकारी बढ़ती जीवन लागत, खराब स्कूली दशाओं, स्टाफ की कमी और तनावपूर्ण सार्वजनिक सेवाओं के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "प्रदर्शनकारियों की मांग है कि वेतन और पेंशन बढ़ाई जाएं, सार्वजनिक सेवाएं बेहतर की जाएं, आर्थिक असमानता पर कदम उठाए जाएं और स्कूली दशाओं में सुधार किया जाए।",
+    "changed": "24 अक्टूबर: फ्रांस भर में रैलियों में लाखों लोग जुटे, पेरिस में पुलिस ने भीड़ को आंसू गैस और पानी की बौछारों से तितर-बितर करने से पहले 110,000 लोगों के शामिल होने की सूचना दी।"
    },
-   "summary": "पेरिस सहित पूरे फ्रांस में स्कूलों की स्थिति, शैक्षणिक फंडिंग और जीवन-यापन की बढ़ती लागत को लेकर बड़े पैमाने पर विरोध प्रदर्शन और रैलियां हुईं। हाई स्कूल और यूनिवर्सिटी के छात्रों द्वारा शुरू किया गया यह आंदोलन श्रम संघों और जमीनी स्तर के \"येलो वेस्ट्स\" आंदोलन तक फैल गया। अधिकारियों ने शनिवार, 24 अक्टूबर को देश भर में 70,000 सुरक्षा कर्मियों को तैनात किया, मार्च को विशिष्ट मार्गों तक सीमित किया और कई शहरों में झड़पों के बाद आंसू गैस तथा पानी की बौछारों का इस्तेमाल किया। आंतरिक मंत्रालय ने देश भर में 410,000 प्रतिभागियों की उपस्थिति दर्ज की, जिनमें पेरिस में 110,000 लोग शामिल थे, और लगभग 1,000 गिरफ्तारियां हुईं। प्रधानमंत्री सेबेस्टियन लेकोर्नू और अन्य मंत्रियों ने बाद में छात्र प्रतिनिधियों से मुलाकात की और विवादास्पद Parcoursup प्रवेश पोर्टल को बदलने तथा शिक्षा के लिए अरबों रुपये प्रदान करने की योजनाओं की घोषणा की।",
+   "summary": "जीवन-यापन की लागत, स्कूली दशाओं और तनावपूर्ण सार्वजनिक सेवाओं को लेकर फ्रांस भर में प्रदर्शन हुए, जिनमें लाखों की संख्या में प्रतिभागियों ने हिस्सा लिया। पेरिस में, भारी सुरक्षा और परिवर्तित पुलिस योजना के तहत पोर्ट डी'इटली से एक मार्च शुरू हुआ और पोर्ट डी विंसेंस के पास समाप्त हुआ। हालांकि दिन के समय जुलूस काफी हद तक शांतिपूर्ण रहे, लेकिन आयोजनों के अंत के करीब झड़पें भड़क उठीं, जिसमें पुलिस ने आंसू गैस, पानी की बौछारों और लाठियों का इस्तेमाल किया। सॉलिडेरेस और सीजीटी जैसे आयोजकों और यूनियनों ने आर्थिक असमानता, वेतन और शिक्षा प्रणालियों को लेकर अपनी शिकायतें दर्ज कराने के लिए छात्रों और येलो वेस्ट आंदोलन के साथ मिलकर भाग लिया। इसके जवाब में, फ्रांसीसी सरकार ने देश भर में 70,000 पुलिस और जेंडरम तैनात किए, मार्ग परिवर्तन और कर्फ्यू लागू किए, और बाद में पार्कोरसुप विश्वविद्यालय प्रवेश मंच को अंततः बदलने और स्कूल बुनियादी ढांचे के लिए फंडिंग बढ़ाने सहित शैक्षणिक रियायतों की घोषणा की।",
    "demands": [
-    "स्कूल फंडिंग बढ़ाएं",
-    "जीवन-यापन की लागत कम करें",
-    "Parcoursup प्रवेश पोर्टल को हटाएं",
-    "अधिक शिक्षकों को नियुक्त करें"
+    "उच्च वेतन और पेंशन",
+    "बेहतर सार्वजनिक सेवाएं और स्कूली दशाएं",
+    "आर्थिक असमानता पर कार्रवाई",
+    "नियोजित शिक्षण स्टाफ की कटौती को वापस लेना"
    ],
-   "response": "सूत्रों के अनुसार, सरकार ने देश भर में 70,000 पुलिस और जेंडरम तैनात किए, मार्च के मार्गों को प्रतिबंधित किया, स्थानीय कर्फ्यू लागू किया, और आंसू गैस तथा पानी की बौछारों का इस्तेमाल किया। आंतरिक मंत्री लॉरेंट नुनेज ने कहा कि उच्च हिंसा के बावजूद मार्च ज्यादातर ठीक रहे।",
+   "response": "फ्रांसीसी सरकार ने देश भर में 70,000 पुलिस और जेंडरम तैनात किए, मार्ग परिवर्तन और अस्थायी कर्फ्यू लागू किए, और बाद में पार्कोरसुप प्रणाली को बदलने और स्कूल नवीनीकरण ऋणों में अरबों प्रदान करने सहित शैक्षणिक रियायतें दीं।",
    "updates": [
-    "प्रधानमंत्री सेबेस्टियन लेकोर्नू ने संघ के प्रतिनिधियों से मुलाकात की और आगामी प्रदर्शनों के लिए भारी पुलिस बल तैनात करने का संकल्प लिया।",
-    "पूरे फ्रांस में हुए प्रदर्शनों में लाखों प्रदर्शनकारी शामिल हुए, जिनमें पेरिस में 110,000 गिने गए, जिससे लगभग 1,000 गिरफ्तारियां हुईं।",
-    "फ्रांसीसी सरकार ने 2028 तक Parcoursup प्रवेश मंच को बदलने और शिक्षा फंडिंग बढ़ाने का वादा किया।"
+    "प्रधान मंत्री सेबस्टियन लेकोर्नू ने सुरक्षा पर चर्चा करने के लिए यूनियन प्रतिनिधियों से मुलाकात की और आगामी प्रदर्शनों के लिए भारी पुलिस बल की तैनाती की घोषणा की।",
+    "फ्रांस भर में बड़े पैमाने पर प्रदर्शन हुए, पेरिस में अनुमानित 110,000 प्रदर्शनकारी शामिल हुए और पुलिस द्वारा आंसू गैस से भीड़ को तितर-बितर किए जाने पर झड़पों की सूचना मिली।",
+    "यूनियन नेताओं और प्रदर्शनकारी समूहों ने सरकार पर दबाव बनाए रखने के लिए और प्रदर्शनों तथा देशव्यापी हड़तालों का आह्वान किया।",
+    "फ्रांसीसी सरकार ने छात्रों के गुस्से को शांत करने के लिए 2028 तक विश्वविद्यालय प्रवेश मंच पार्कोरसुप को बदलने और शिक्षा फंडिंग बढ़ाने का संकल्प लिया।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "गृह मंत्रालय ने देश भर में उपस्थिति 410,000 आंकी, जबकि सीजीटी यूनियन ने 800,000 प्रतिभागियों का दावा किया।"
+   ],
    "numbers": {
-    "crowd": "आंतरिक मंत्रालय ने कहा कि शनिवार के मार्च में पूरे फ्रांस में 410,000 लोग शामिल हुए, जिसमें पेरिस के 110,000 लोग भी शामिल हैं।",
-    "arrests": "आंतरिक मंत्री लॉरेंट नुनेज ने घोषणा की कि लगभग 1,000 लोगों को गिरफ्तार किया गया है।"
+    "crowd": "410,000 से 800,000 के बीच लोग",
+    "arrests": "शनिवार को लगभग 1,314 लोगों को गिरफ्तार किया गया",
+    "injuries": "लगभग 50 पुलिसकर्मी घायल हुए"
    }
   },
   "mr": {
-   "title": "फ्रान्सभर महागाई आणि शाळांच्या मुद्द्यावर निदर्शने",
-   "seoTitle": "पॅरिसमधील महागाई आणि शाळांची निदर्शने",
+   "title": "फ्रान्समध्ये जीवनमानाचा खर्च आणि शाळांच्या मुद्द्यांवर निदर्शने",
+   "seoTitle": "पॅरिसमध्ये जीवनमान खर्च आणि शाळांसंबंधी निदर्शने",
    "tea": {
-    "why": "अपुरा शालेय निधी, बिघडलेली शालेय परिस्थिती आणि उच्च जीवनमान खर्चाच्या विरोधात निदर्शने करत आहेत.",
-    "want": "निदर्शकांनी चांगला शालेय निधी, अधिक शिक्षक, जीवनमानातील खर्चापासून आराम आणि Parcoursup प्रणालीच्या फेररचनेची मागणी केली.",
-    "changed": "२६ ऑक्टोबर: फ्रेंच सरकारने Parcoursup प्रवेश व्यासपीठ बदलण्याचे आणि शिक्षणात अब्जावधींची गुंतवणूक करण्याचे आश्वासन दिले."
+    "why": "वाढता जीवनमान खर्च, खराब शाळांची स्थिती, कर्मचाऱ्यांचा तुटवडा आणि ताणलेली सार्वजनिक सेवा यांच्या विरोधात निदर्शक निदर्शने करत आहेत.",
+    "want": "निदर्शक उच्च वेतन आणि निवृत्तीवेतन, उत्तम सार्वजनिक सेवा, आर्थिक असमानतेवर कारवाई आणि सुधारित शाळांची स्थिती यांची मागणी करत आहेत.",
+    "changed": "२४ ऑक्टोबर: फ्रान्सभर मोर्च्यांमध्ये लाखो लोक जमले, पॅरिसमध्ये गर्दीला अश्रुधूर आणि पाण्याचे फवारे मारून हटवण्यापूर्वी पोलिसांच्या मते १,१०,००० जण सहभागी झाले होते."
    },
-   "summary": "पॅरिससह संपूर्ण फ्रान्समध्ये शाळेची परिस्थिती, शैक्षणिक निधी आणि वाढत्या महागाईच्या विरोधात मोठी आंदोलने आणि निदर्शने झाली. हायस्कूल आणि विद्यापीठ विद्यार्थ्यांनी सुरू केलेले हे आंदोलन कामगार संघटना आणि तळागाळातील \"येलो वेस्ट्स\" आंदोलनापर्यंत विस्तारले. प्राधिकरणाने शनिवार, २४ ऑक्टोबर रोजी देशभरात ७०,००० सुरक्षा कर्मचाऱ्यांना तैनात केले, मोर्चांचे मार्ग निश्चित केले आणि अनेक शहरांत चकमकीनंतर अश्रुधूर व पाण्याचे फवारे सोडले. गृह मंत्रालयाने देशभरात ४१०,००० सहभाग नोंदवला, ज्यामध्ये पॅरिसमधील ११०,००० लोकांचा समावेश होता, सोबतच जवळपास १,००० गिरफ्तार्या झाल्या. पंतप्रधान सेबॅस्टियन लेकॉर्नू आणि इतर मंत्र्यांनी नंतर विद्यार्थी प्रतिनिधींची भेट घेतली आणि वादग्रस्त Parcoursup प्रवेश पोर्टल बदलण्याची व शिक्षणासाठी अब्जावधी निधी देण्याची योजना जाहीर केली.",
+   "summary": "जीवनमानाचा खर्च, शाळांची स्थिती आणि ताणलेली सार्वजनिक सेवा याविषयी फ्रान्सभर निदर्शने झाली, ज्यामध्ये लाखांहून अधिक सहभागी झाले होते. पॅरिसमध्ये, कडेकोट सुरक्षा आणि फेरबदल केलेल्या पोलीस योजनेअंतर्गत पोर्ट डी'इटली येथून मोर्चा सुरू झाला आणि पोर्ट डी व्हिन्सेंसजवळ संपला. दिवसा processions बऱ्याच अंशी शांततापूर्ण असल्या तरी, कार्यक्रमांच्या शेवटी झमकी उसळल्या, ज्यात पोलिसांनी अश्रुधूर, पाण्याचे फवारे आणि लाठ्यांचा वापर केला. आर्थिक असमानता, वेतन आणि शिक्षण प्रणालीवरील तक्रारी मांडण्यासाठी सॉलिडेरेस आणि सीजीटी सारखे आयोजक आणि युनियन्स विद्यार्थी आणि येलो वेस्ट आंदोलनासोबत सामील झाले. याला प्रत्युत्तर म्हणून, ফ्रान्स सरकारने देशभरात ७०,००० पोलीस आणि जेंडरम तैनात केले, मार्गात बदल आणि संचारबंदी लागू केली, आणि नंतर पार्कोरसुप विद्यापीठ प्रवेश मंच अखेरीस बदलणे आणि शाळांच्या पायाभूत सुविधांसाठी निधी वाढवणे यासह शैक्षणिक सवलती जाहीर केल्या.",
    "demands": [
-    "शालेय निधी वाढवा",
-    "जीवनमानाचा खर्च कमी करा",
-    "Parcoursup प्रवेश पोर्टल रद्द करा",
-    "अधिक शिक्षक नियुक्त करा"
+    "उच्च वेतन आणि निवृत्तीवेतन",
+    "उत्तम सार्वजनिक सेवा आणि शाळांची स्थिती",
+    "आर्थिक असमानतेवर कारवाई",
+    "नियोजित अध्यापन कर्मचारी कपात मागे घेणे"
    ],
-   "response": "सूत्रांच्या मուն, सरकारने देशभरात ७०,००० पोलीस आणि जेंडरम तैनात केले, मोर्चाचे मार्ग प्रतिबंधित केले, स्थानिक जमावबंदी लागू केली आणि अश्रुधूर व पाण्याचे फवारे सोडले. गृहमंत्री लॉरेंट नुनेज यांनी सांगितले की मोठ्या हिंसाचारा nonostante मोर्चे बहुतांश सुरळीत पार पडले.",
+   "response": "फ्रान्स सरकारने देशभरात ७०,००० पोलीस आणि जेंडरम तैनात केले, मार्गात बदल आणि तात्पुरती संचारबंदी लागू केली, आणि नंतर पार्कोरसुप प्रणाली बदलणे आणि शाळा नूतनीकरणाच्या कर्जासाठी अब्जावधी रुपये पुरवणे यासह शैक्षणिक सवलती दिल्या.",
    "updates": [
-    "पंतप्रधान सेबॅस्टियन लेकॉर्नू यांनी युनियनच्या प्रतिनिधींची भेट घेतली आणि आगामी निदर्शनांसाठी मोठ्या पोलीस तैनातीची प्रतिज्ञा केली.",
-    "फ्रान्समधील निदर्शनांनी शेकडो हजारो निदर्शकांना आकर्षित केले, ज्यामध्ये पॅरिसमध्ये ११०,००० जण मोजले गेले, ज्यामुळे जवळपास १,००० गिरफ्तार्या झाल्या.",
-    "फ्रेंच सरकारने २०२८ पर्यंत Parcoursup प्रवेश व्यासपीठ बदलण्याचे आणि शैक्षणिक निधी वाढवण्याचे आश्वासन दिले."
+    "पंतप्रधान सेबॅस्टियन लेकोर्नू यांनी सुरक्षेवर चर्चा करण्यासाठी युनियन प्रतिनिधींची भेट घेतली आणि आगामी निदर्शनांसाठी मोठ्या प्रमाणावर पोलीस तैनातीची घोषणा केली.",
+    "फ्रान्सभर मोठी निदर्शने झाली, पॅरिसमध्ये अंदाजे १,१०,००० मोर्चेकरी सहभागी झाले आणि पोलिसांनी अश्रुधूर सोडून गर्दी छिन्नविछिन्न केल्यावर झमकी झाल्याचे वृत्त आहे.",
+    "युनियन नेते आणि निदर्शक गटांनी सरकारवर दबाव कायम ठेवण्यासाठी आणखी निदर्शने आणि देशव्यापी संपाचे आवाहन केले.",
+    "फ्रान्स सरकारने विद्यार्थ्यांचा रोष शांत करण्यासाठी २०२८ पर्यंत पार्कोरसुप विद्यापीठ प्रवेश मंच बदलण्याचे आणि शिक्षणासाठीचा निधी वाढवण्याचे आश्वासन दिले."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "गृह मंत्रालयाने देशातील उपस्थिती ४,१०,००० असल्याचा अंदाज वर्तवला, तर सीजीटी युनियनने ८,००,००० सहभागी असल्याचा दावा केला."
+   ],
    "numbers": {
-    "crowd": "गृह मंत्रालयाने सांगितले की शनिवारी फ्रान्सभर झालेल्या मोर्चानमध्ये पॅरिसमधील ११०,००० लोकांसह ४१०,००० लोकांनी सहभाग घेतला.",
-    "arrests": "गृहमंत्री लॉरेंट नुनेज यांनी घोषणा केली की जवळपास १,००० लोकांना अटक करण्यात आली आहे."
+    "crowd": "४,१०,००० ते ८,००,००० च्या दरम्यान लोक",
+    "arrests": "शनिवारी सुमारे १,३१४ लोकांना अटक करण्यात आली",
+    "injuries": "सुमारे ५० पोलीस जखमी झाले"
    }
   },
   "es": {
    "title": "Protestas por el costo de vida y las escuelas en toda Francia",
    "seoTitle": "Protestas por costo de vida y escuelas en París",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra la financiación escolar inadecuada, el deterioro de las condiciones escolares y el alto costo de vida.",
-    "want": "Los manifestantes exigen una mejor financiación escolar, más profesores, alivio del costo de vida y la revisión del sistema Parcoursup.",
-    "changed": "26 de octubre: El gobierno francés se comprometió a reemplazar la plataforma de admisiones Parcoursup e invertir miles de millones en educación."
+    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, las malas condiciones escolares, la escasez de personal y los servicios públicos saturados.",
+    "want": "Los manifestantes exigen salarios y pensiones más altos, mejores servicios públicos, medidas contra la desigualdad económica y mejores condiciones escolares.",
+    "changed": "24 de octubre: Las marchas atrajeron a cientos de miles de personas en toda Francia, y la policía informó de 110,000 en París antes de disolver a la multitud con gases lacrimógenos y cañones de agua."
    },
-   "summary": "Protestas masivas y manifestaciones sobre las condiciones escolares, la financiación educativa y el aumento del costo de vida tuvieron lugar en toda Francia, incluso en París. Iniciado por estudiantes de secundaria y universidad, el movimiento se expandió para incluir a sindicatos y al movimiento de base \"Chalecos Amarillos\". Las autoridades desplegaron 70.000 efectivos de seguridad en todo el país el sábado 24 de octubre, confinando las marchas a rutas específicas y utilizando gas lacrimógeno y cañones de agua en varias ciudades tras enfrentamientos. El Ministerio del Interior informó de una participación nacional de 410.000 personas, con 110.000 en París, junto con casi 1.000 arrestos. El primer ministro Sébastien Lecornu y otros ministros se reunieron posteriormente con representantes estudiantiles y anunciaron planes para reemplazar el controvertido portal de admisiones Parcoursup y proporcionar miles de millones en financiación educativa.",
+   "summary": "Se produjeron manifestaciones en toda Francia sobre el costo de vida, las condiciones escolares y los servicios públicos saturados, que atrajeron a cientos de miles de participantes. En París, una marcha comenzó en la Porte d'Italie y concluyó cerca de la Porte de Vincennes bajo una fuerte seguridad y un plan policial modificado. Si bien las procesiones fueron en su mayoría pacíficas durante el día, los enfrentamientos estallaron cerca del final de los eventos, y la policía desplegó gases lacrimógenos, cañones de agua y porras. Organizadores y sindicatos como Solidaires y la CGT se unieron a los estudiantes y al movimiento de los Chalecos Amarillos para expresar sus quejas sobre la desigualdad económica, los salarios y los sistemas educativos. En respuesta, el gobierno francés desplegó 70,000 policías y gendarmes en todo el país, instituyó cambios de ruta y toques de queda, y posteriormente anunció concesiones educativas que incluyeron la eventual sustitución de la plataforma de admisión universitaria Parcoursup y un mayor financiamiento para la infraestructura escolar.",
    "demands": [
-    "Aumentar la financiación escolar",
-    "Reducir el costo de vida",
-    "Eliminar el portal de admisiones Parcoursup",
-    "Contratar más profesores"
+    "Salarios y pensiones más altos",
+    "Mejores servicios públicos y condiciones escolares",
+    "Acción contra la desigualdad económica",
+    "Reversión de los recortes previstos en el personal docente"
    ],
-   "response": "Según fuentes, el gobierno desplegó 70.000 policías y gendarmes en todo el país, restringió las rutas de las marchas, aplicó toques de queda locales y desplegó gas lacrimógeno y cañones de agua. El ministro del Interior, Laurent Nuñez, declaró que las marchas transcurrieron mayormente bien a pesar de la alta violencia.",
+   "response": "El gobierno francés desplegó 70,000 policías y gendarmes en todo el país, implementó cambios de ruta y toques de queda temporales, y posteriormente ofreció concesiones educativas que incluyeron la sustitución del sistema Parcoursup y la provisión de miles de millones en préstamos para la renovación escolar.",
    "updates": [
-    "El primer ministro Sébastien Lecornu se reunió con representantes sindicales y prometió un despliegue policial masivo para las próximas protestas.",
-    "Las protestas en toda Francia atrajeron a cientos de miles de manifestantes, con 110.000 contados en París, lo que provocó casi 1.000 arrestos.",
-    "El gobierno francés se comprometió a reemplazar la plataforma de admisiones Parcoursup para 2028 y aumentar la financiación para la educación."
+    "El primer ministro Sébastien Lecornu se reunió con representantes sindicales para discutir la seguridad y anunció un despliegue masivo de policía para las próximas protestas.",
+    "Se celebraron protestas masivas en toda Francia, con un estimado de 110,000 manifestantes en París y enfrentamientos reportados cuando la policía dispersó a las multitudes con gases lacrimógenos.",
+    "Líderes sindicales y grupos de protesta pidieron más manifestaciones y huelgas nacionales para mantener la presión sobre el gobierno.",
+    "El gobierno francés se comprometió a reemplazar la plataforma de admisión universitaria Parcoursup para 2028 y aumentar la financiación para la educación para calmar la ira de los estudiantes."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "El Ministerio del Interior estimó la participación a nivel nacional en 410,000, mientras que el sindicato CGT afirmó que hubo 800,000 participantes."
+   ],
    "numbers": {
-    "crowd": "El Ministerio del Interior dijo que 410.000 personas participaron en las marchas del sábado en toda Francia, incluidos 110.000 en París.",
-    "arrests": "El ministro del Interior, Laurent Nuñez, anunció que casi 1.000 personas habían sido arrestadas."
+    "crowd": "entre 410,000 y 800,000 personas",
+    "arrests": "unas 1,314 personas fueron arrestadas el sábado",
+    "injuries": "unos 50 policías resultaron heridos"
    }
   },
   "fr": {
-   "title": "Manifestations pour le coût de la vie et les écoles à travers la France",
-   "seoTitle": "Manifestations à Paris pour le coût de la vie et les écoles",
+   "title": "Manifestations pour le coût de la vie et l'école à travers la France",
+   "seoTitle": "Manifestations à Paris pour le coût de la vie et l'école",
    "tea": {
-    "why": "Les manifestants protestent contre un financement scolaire inadéquat, la détérioration des conditions scolaires et le coût de la vie élevé.",
-    "want": "Les manifestants exigent un meilleur financement des écoles, plus d'enseignants, un allègement du coût de la vie et la refonte du système Parcoursup.",
-    "changed": "26 oct. : Le gouvernement français s'est engagé à remplacer la plateforme d'admission Parcoursup et à investir des milliards dans l'éducation."
+    "why": "Les manifestants protestent contre la hausse du coût de la vie, les mauvaises conditions scolaires, le manque de personnel et les services publics mis à mal.",
+    "want": "Les manifestants exigent des salaires et des pensions plus élevés, de meilleurs services publics, des mesures contre les inégalités économiques et de meilleures conditions scolaires.",
+    "changed": "24 octobre : Des marches ont rassemblé des centaines de milliers de personnes à travers la France, la police faisant état de 110 000 participants à Paris avant de disperser la foule à coup de gaz lacrymogènes et de canons à eau."
    },
-   "summary": "De grandes manifestations et rassemblements concernant les conditions scolaires, le financement de l'éducation et la hausse du coût de la vie ont eu lieu à travers la France, y compris à Paris. Initié par des lycéens et des étudiants universitaires, le mouvement s'est élargi pour inclure des syndicats et le mouvement de base des \"Gilets jaunes\". Les autorités ont déployé 70 000 membres des forces de sécurité à l'échelle nationale le samedi 24 octobre, cantonnant les marches à des itinéraires précis et utilisant des gaz lacrymogènes et des canons à eau dans plusieurs villes à la suite d'affrontements. Le ministère de l'Intérieur a fait état d'une participation nationale de 410 000 personnes, dont 110 000 à Paris, ainsi que de près de 1 000 arrestations. Le Premier ministre Sébastien Lecornu et d'autres ministres ont par la suite rencontré des représentants étudiants et annoncé des projets visant à remplacer le portail d'admission controversé Parcoursup et à fournir des milliards pour le financement de l'éducation.",
+   "summary": "Des manifestations concernant le coût de la vie, les conditions scolaires et les services publics mis à mal ont eu lieu à travers la France, rassemblant des centaines de milliers de participants. À Paris, un cortège est parti de la porte d'Italie pour s'achever près de la porte de Vincennes sous haute sécurité et selon un plan de circulation policier modifié. Si les cortèges sont restés globalement pacifiques dans la journée, des heurts ont éclaté vers la fin des événements, la police déployant des gaz lacrymogènes, des canons à eau et des matraques. Des organisateurs et des syndicats tels que Solidaires et la CGT se sont joints aux étudiants et au mouvement des Gilets jaunes pour exprimer leurs griefs concernant les inégalités économiques, les salaires et les systèmes éducatifs. En réponse, le gouvernement français a déployé 70 000 policiers et gendarmes dans tout le pays, a mis en place des modifications d'itinéraires et des couvre-feux, puis a annoncé des concessions éducatives comprenant le remplacement à terme de la plateforme d'admission universitaire Parcoursup et l'augmentation des financements pour les infrastructures scolaires.",
    "demands": [
-    "Augmenter le financement des écoles",
-    "Baisser le coût de la vie",
-    "Supprimer le portail d'admission Parcoursup",
-    "Embaucher plus d'enseignants"
+    "Des salaires et des pensions plus élevés",
+    "De meilleurs services publics et de meilleures conditions scolaires",
+    "Des mesures contre les inégalités économiques",
+    "L'annulation des coupes budgétaires prévues dans le personnel enseignant"
    ],
-   "response": "Selon des sources, le gouvernement a déployé 70 000 policiers et gendarmes à l'échelle nationale, restreint les itinéraires de marche, appliqué des couvre-feux locaux et déployé des gaz lacrymogènes et des canons à eau. Le ministre de l'Intérieur, Laurent Nuñez, a déclaré que les marches s'étaient plutôt bien déroulées malgré une forte violence.",
+   "response": "Le gouvernement français a déployé 70 000 policiers et gendarmes à l'échelle nationale, a mis en œuvre des changements d'itinéraire et des couvre-feux temporaires, et a ensuite offert des concessions éducatives comprenant le remplacement du système Parcoursup et l'octroi de milliards d'euros de prêts pour la rénovation des écoles.",
    "updates": [
-    "Le Premier ministre Sébastien Lecornu a rencontré des représentants syndicaux et a promis un déploiement policier massif pour les prochaines manifestations.",
-    "Les manifestations à travers la France ont attiré des centaines de milliers de manifestants, avec 110 000 recensés à Paris, entraînant près de 1 000 arrestations.",
-    "Le gouvernement français s'est engagé à remplacer la plateforme d'admission Parcoursup d'ici 2028 et à augmenter le financement de l'éducation."
+    "Le Premier ministre Sébastien Lecornu a rencontré des représentants syndicaux pour discuter de la sécurité et a annoncé un déploiement policier massif pour les manifestations à venir.",
+    "Des manifestations massives ont eu lieu dans toute la France, avec environ 110 000 manifestants à Paris et des heurts signalés alors que la police dispersait les foules à coups de gaz lacrymogènes.",
+    "Des responsables syndicaux et des groupes de protestation ont appelé à de nouvelles manifestations et à des grèves nationales pour maintenir la pression sur le gouvernement.",
+    "Le gouvernement français s'est engagé à remplacer la plateforme d'admission universitaire Parcoursup d'ici 2028 et à augmenter le financement de l'éducation pour calmer la colère des étudiants."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Le ministère de l'Intérieur a estimé la participation nationale à 410 000 personnes, tandis que le syndicat CGT a revendiqué 800 000 participants."
+   ],
    "numbers": {
-    "crowd": "Le ministère de l'Intérieur a indiqué que 410 000 personnes ont participé aux marches de samedi à travers la France, dont 110 000 à Paris.",
-    "arrests": "Le ministre de l'Intérieur, Laurent Nuñez, a annoncé que près de 1 000 personnes avaient été arrêtées."
+    "crowd": "entre 410 000 et 800 000 personnes",
+    "arrests": "environ 1 314 personnes ont été arrêtées samedi",
+    "injuries": "environ 50 policiers ont été blessés"
    }
   },
   "de": {
-   "title": "Lebenshaltungskosten- und Schulproteste in ganz Frankreich",
-   "seoTitle": "Paris Lebenshaltungskosten- und Schulproteste",
+   "title": "Proteste gegen Lebenshaltungskosten und für Schulen in ganz Frankreich",
+   "seoTitle": "Pariser Proteste zu Lebenshaltungskosten und Schulen",
    "tea": {
-    "why": "Demonstranten protestieren gegen unzureichende Schulfinanzierung, verschlechterte Schulbedingungen und hohe Lebenshaltungskosten.",
-    "want": "Demonstranten fordern eine bessere Schulfinanzierung, mehr Lehrkräfte, Entlastung bei den Lebenshaltungskosten und die Überarbeitung des Parcoursup-Systems.",
-    "changed": "26. Okt.: Die französische Regierung versprach, die Parcoursup-Zulassungsplattform zu ersetzen und Milliarden in Bildung zu investieren."
+    "why": "Demonstranten protestieren gegen steigende Lebenshaltungskosten, schlechte Schulbedingungen, Personalmangel und überlastete öffentliche Dienste.",
+    "want": "Demonstranten fordern höhere Löhne und Renten, bessere öffentliche Dienste, Maßnahmen gegen wirtschaftliche Ungleichheit und verbesserte Schulbedingungen.",
+    "changed": "24. Oktober: Märsche zogen Hunderttausende in ganz Frankreich an, wobei die Polizei in Paris 110.000 meldete, bevor sie die Menge mit Tränengas und Wasserwerfern auflöste."
    },
-   "summary": "Massenproteste und Demonstrationen zu Schulbedingungen, Bildungsfinanzierung und den steigenenden Lebenshaltungskosten fanden in ganz Frankreich, einschließlich Paris, statt. Initiiert von Oberstufen- und Universitätsstudenten, breitete sich die Bewegung aus und schloss Gewerkschaften sowie die Basisbewegung der \"Gelbwesten\" ein. Die Behörden setzten am Samstag, den 24. Oktober, landesweit 70.000 Sicherheitskräfte ein, beschränkten Märsche auf bestimmte Routen und setzten nach Zusammenstößen in mehreren Städten Tränengas und Wasserwerfer ein. Das Innenministerium meldete eine landesweite Beteiligung von 410.000 Teilnehmern, davon 110.000 in Paris, sowie fast 1.000 Festnahmen. Premierminister Sébastien Lecornu und andere Minister trafen sich daraufhin mit Studentenvertretern und kündigten Pläne an, das umstrittene Parcoursup-Zulassungsportal zu ersetzen und Milliarden für die Schulfinanzierung bereitzustellen.",
+   "summary": "Demonstrationen bezüglich der Lebenshaltungskosten, der Schulbedingungen und überlasteter öffentlicher Dienste fanden in ganz Frankreich statt und zogen Hunderttausende Teilnehmer an. In Paris begann ein Marsch an der Porte d'Italie und endete unter starker Sicherheit und einem umgeleiteten Polizeieinsatzplan in der Nähe der Porte de Vincennes. Während die Umzüge tagsüber weitgehend friedlich verliefen, kam es gegen Ende der Veranstaltungen zu Zusammenstößen, bei denen die Polizei Tränengas, Wasserwerfer und Schlagstöcke einsetzte. Organisatoren und Gewerkschaften wie Solidaires und die CGT schlossen sich Studierenden und der Gelbwestenbewegung an, um ihrem Unmut über wirtschaftliche Ungleichheit, Löhne und Bildungssysteme Luft zu machen. Als Reaktion darauf stationierte die französische Regierung landesweit 70.000 Polizisten und Gendarmen, führte Routenänderungen und Ausgangssperren ein und kündigte später Bildungszugeständnisse an, einschließlich des eventualen Ersetzens der Universitätszugangsplattform Parcoursup und einer erhöhten Finanzierung für Schulinforsstruktur.",
    "demands": [
-    "Schulfinanzierung erhöhen",
-    "Lebenshaltungskosten senken",
-    "Das Parcoursup-Zulassungsportal abschaffen",
-    "Mehr Lehrkräfte einstellen"
+    "Höhere Löhne und Renten",
+    "Bessere öffentliche Dienste und Schulbedingungen",
+    "Maßnahmen gegen wirtschaftliche Ungleichheit",
+    "Rücknahme geplanter Kürzungen beim Lehrpersonal"
    ],
-   "response": "Quellen zufolge setzte die Regierung landesweit 70.000 Polizisten und Gendarmen ein, beschränkte Marschrouten, setzte lokale Ausgangssperren durch und setzte Tränengas und Wasserwerfer ein. Innenminister Laurent Nuñez erklärte, die Märsche seien trotz hoher Gewalt größtenteils gut verlaufen.",
+   "response": "Die französische Regierung setzte landesweit 70.000 Polizisten und Gendarmen ein, setzte Routenänderungen und temporäre Ausgangssperren um und bot später Bildungszugeständnisse an, darunter die Ersetzung des Parcoursup-Systems und die Bereitstellung von Milliarden für Schulsanierungskredite.",
    "updates": [
-    "Premierminister Sébastien Lecornu traf sich mit Gewerkschaftsvertretern und versprach einen massiven Polizeieinsatz für bevorstehende Proteste.",
-    "Proteste in ganz Frankreich zogen Hunderttausende Demonstrierende an, wobei 110.000 in Paris gezählt wurden, was zu fast 1.000 Festnahmen führte.",
-    "Die französische Regierung versprach, die Parcoursup-Zulassungsplattform bis 2028 zu ersetzen und die Bildungsfinanzierung zu erhöhen."
+    "Premierminister Sébastien Lecornu traf sich mit Gewerkschaftsvertretern, um über Sicherheit zu sprechen, und kündigte einen massiven Polizeieinsatz für bevorstehende Proteste an.",
+    "In ganz Frankreich fanden Massenproteste statt, wobei in Paris schätzungsweise 110.000 Marschierer gezählt wurden und Zusammenstöße gemeldet wurden, als die Polizei Menschenmengen mit Tränengas auseinandertrieb.",
+    "Gewerkschaftsführer und Protestgruppen riefen zu weiteren Demonstrationen und landesweiten Streiks auf, um den Druck auf die Regierung aufrechtzuerhalten.",
+    "Die französische Regierung versprach, die Universitätszulassungsplattform Parcoursup bis 2028 zu ersetzen und die Bildungsfinanzierung zu erhöhen, um die Wut der Studierenden zu besänftigen."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Das Innenministerium schätzte die landesweite Beteiligung auf 410.000, während die CGT-Gewerkschaft 800.000 Teilnehmer angab."
+   ],
    "numbers": {
-    "crowd": "Das Innenministerium teilte mit, dass 410.000 Menschen an den Samstagsmärschen in ganz Frankreich teilnahmen, darunter 110.000 in Paris.",
-    "arrests": "Innenminister Laurent Nuñez gab bekannt, dass fast 1.000 Menschen festgenommen worden waren."
+    "crowd": "zwischen 410.000 und 800.000 Menschen",
+    "arrests": "etwa 1.314 Personen wurden am Samstag festgenommen",
+    "injuries": "etwa 50 Polizisten wurden verletzt"
    }
   }
- }
+ },
+ "endedOn": "2026-10-24"
 }
