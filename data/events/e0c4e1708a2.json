@@ -14,35 +14,44 @@
   "regionSlug": "normandy"
  },
  "scope": "local",
- "causes": [],
+ "causes": [
+  "prices",
+  "governance"
+ ],
  "kind": "one-day",
  "startedOn": "2026-10-24",
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Far-right and far-left militants clashed in central Rouen after a demonstration.",
-  "want": "",
-  "changed": "Oct 26: Prosecutors opened an investigation into aggravated assault following a viral video of the clashes."
+  "why": "Protesters demonstrated against high living costs and demanded more resources for high schools and public services.",
+  "want": "Lower living costs and increased funding for public services and high schools.",
+  "changed": "Oct 26: The public prosecutor announced an investigation into aggravated violence following viral videos of street brawls."
  },
- "summary": "On October 24, clashes erupted in the center of Rouen between far-right and far-left militants following the dispersal of a demonstration. According to the public prosecutor, a video shared on social media captured masked individuals striking a person on the ground before police arrived. Local Socialist elected officials urged the Prime Minister to dissolve far-right groups such as Les Normaux and L'Action française, citing rising violence by groups acting openly in the city. The Rouen prosecutor's office announced an investigation for aggravated violence, entrusted to the national police, following a report under Article 40 from the prefect of Seine-Maritime.",
- "organizers": [],
- "demands": [],
- "response": "According to the sources, the Rouen prosecutor opened an investigation for aggravated violence handled by the national police after a video circulated online. The prefect of Seine-Maritime reported information under Article 40.",
+ "summary": "On October 24, 2026, demonstrations took place in Rouen against the high cost of living and to demand increased funding for public services and high schools. Following the dispersal of the marches, street fights broke out in the city center between far-right and far-left militants. A viral video shared by media outlet Blast showed masked individuals assaulting a person on the ground before police intervened. Local Socialist politicians, including the mayor of Rouen and a regional deputy, subsequently petitioned authorities to ban certain far-right groups. According to the public prosecutor Sébastien Gallois, an investigation for aggravated violence has been opened and entrusted to the national police.",
+ "organizers": [
+  "Les Normaux",
+  "L'Action française"
+ ],
+ "demands": [
+  "Against the high cost of living",
+  "More resources for high schools",
+  "More resources for public services"
+ ],
+ "response": "According to the public prosecutor Sébastien Gallois, an investigation for aggravated violence has been opened and entrusted to the national police. Local officials also requested the Prime Minister to dissolve specific far-right groups.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-10-26",
-   "text": "The Rouen prosecutor announced an investigation into aggravated violence after a video of the clashes went viral.",
+   "text": "The public prosecutor announced the opening of an investigation for aggravated violence following a viral video of street brawls.",
    "sources": [
     1,
-    2
+    2,
+    3
    ]
   }
  ],
@@ -60,79 +69,99 @@
    "publisher": "lefigaro.fr",
    "title": "À Rouen, ouverture d’une enquête après une vidéo virale de violences en marge des manifestations",
    "publishedAt": "2026-10-26T13:08:30.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.ouest-france.fr/societe/manifestation/manif-du-24-octobre-a-rouen-apres-des-violences-de-membres-de-lultradroite-des-elus-lfi-saisissent-le-procureur-c1489674-d20c-11f1-81f2-0d14b9f9c452",
+   "publisher": "ouest-france.fr",
+   "title": "Manif du 24 octobre à Rouen : après des violences de « membres de l’ultradroite », des élus LFI saisissent le procureur",
+   "publishedAt": "2026-10-27T15:04:17.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 2,
- "reportsPrev24h": 0,
- "reports48h": 2,
+ "confidence": 0.8,
+ "publishers": 3,
+ "reports24h": 1,
+ "reportsPrev24h": 2,
+ "reports48h": 3,
  "firstSeenAt": "2026-10-26T16:18:52.692Z",
- "lastReportAt": "2026-10-26T13:08:30.000Z",
- "lastCheckedAt": "2026-10-27T12:25:52.580Z",
- "updatedAt": "2026-10-26T19:32:46.592Z",
+ "lastReportAt": "2026-10-27T15:04:17.000Z",
+ "lastCheckedAt": "2026-10-27T15:29:26.915Z",
+ "updatedAt": "2026-10-27T15:27:49.015Z",
  "endedOn": "2026-10-24",
  "responseSources": [
   1,
-  2
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-26T19:32:46.592Z",
- "summaryOf": "ae44ad543d1c",
+ "summarizedAt": "2026-10-27T15:27:49.015Z",
+ "summaryOf": "7bbf39e58483",
  "publishedAt": "2026-10-26T19:32:55.033Z",
  "i18n": {
-  "of": "5361492a873fe167",
-  "at": "2026-10-26T19:36:02.067Z",
+  "of": "5f93cc186f1065a2",
+  "at": "2026-10-27T15:30:40.512Z",
   "tries": 1,
   "hi": {
-   "title": "रौएन में सुदूर-दक्षिण और सुदूर-वामपंथी उग्रवादियों के बीच झड़पें",
-   "seoTitle": "रौएन में सुदूर-दक्षिण और सुदूर-वामपंथी झड़पें",
+   "title": "रुआं में अति-दक्षिणपंथी और अति-वामपंथी उग्रवादियों के बीच झड़पें",
+   "seoTitle": "रुआं में अति-दक्षिण और अति-वामपंथियों के बीच झड़प",
    "tea": {
-    "why": "एक प्रदर्शन के बाद रौएन के केंद्र में सुदूर-दक्षिण और सुदूर-वामपंथी उग्रवादियों के बीच झड़प हुई।",
-    "want": "",
-    "changed": "26 अक्टूबर: झड़पों के एक वायरल वीडियो के बाद अभियोजकों ने गंभीर मारपीट के मामले में जांच शुरू की।"
+    "why": "प्रदर्शनकारियों ने जीवनयापन की उच्च लागत के खिलाफ प्रदर्शन किया और हाई स्कूल तथा सार्वजनिक सेवाओं के लिए अधिक संसाधनों की मांग की।",
+    "want": "जीवनयापन की कम लागत तथा सार्वजनिक सेवाओं और हाई स्कूलों के लिए बढ़ा हुआ वित्तपोषण।",
+    "changed": "26 अक्टूबर: सड़क पर हुई हाथापाई के वायरल वीडियो सामने आने के बाद लोक अभियोजक ने गंभीर हिंसा की जांच की घोषणा की।"
    },
-   "summary": "24 अक्टूबर को एक प्रदर्शन के तितर-बितर होने के बाद रौएन के केंद्र में सुदूर-दक्षिण और सुदूर-वामपंथी उग्रवादियों के बीच झड़पें भड़क उठीं। लोक अभियोजक के अनुसार, सोशल मीडिया पर साझा किए गए एक वीडियो में पुलिस के पहुंचने से पहले नकाबपोश व्यक्तियों को जमीन पर गिरे एक व्यक्ति को पीटते हुए दिखाया गया है। स्थानीय सोशलिस्ट निर्वाचित अधिकारियों ने प्रधानमंत्री से ले नॉर्मॉक्स और ल'एक्सियन फ्रांसेज़ जैसे सुदूर-दक्षिण समूहों को भंग करने का आग्रह किया, और शहर में खुलकर काम करने वाले समूहों द्वारा बढ़ती हिंसा का हवाला दिया। सीन-मैरीटाइम के प्रीफेक्ट की ओर से धारा 40 के तहत दी गई रिपोर्ट के बाद, रौएन के अभियोजक के कार्यालय ने राष्ट्रीय पुलिस को सौंपी गई गंभीर हिंसा की जांच की घोषणा की।",
-   "demands": [],
-   "response": "सूत्रों के अनुसार, ऑनलाइन वीडियो प्रसारित होने के बाद रौएन के अभियोजक ने राष्ट्रीय पुलिस द्वारा संभाली जाने वाली गंभीर हिंसा की जांच शुरू की। सीन-मैरीटाइम के प्रीफेक्ट ने धारा 40 के तहत जानकारी रिपोर्ट की।",
+   "summary": "24 अक्टूबर 2026 को रुआं में जीवनयापन की उच्च लागत के खिलाफ और सार्वजनिक सेवाओं तथा हाई स्कूलों के लिए अधिक वित्तपोषण की मांग को लेकर प्रदर्शन हुए। मार्च के तितर-बितर होने के बाद शहर के केंद्र में अति-दक्षिणपंथी और अति-वामपंथी उग्रवादियों के बीच सड़क पर लड़ाई शुरू हो गई। मीडिया आउटलेट ब्लास्ट द्वारा साझा किए गए एक वायरल वीडियो में नकाबपोश व्यक्तियों को जमीन पर गिरे एक व्यक्ति पर हमला करते हुए दिखाया गया, जिसके बाद पुलिस ने हस्तक्षेप किया। रुआं के मेयर और एक क्षेत्रीय डिप्टी सहित स्थानीय सोशलिस्ट राजनेताओं ने इसके बाद अधिकारियों से कुछ अति-दक्षिणपंथी समूहों पर प्रतिबंध लगाने की याचिका दायर की। लोक अभियोजक सेबेस्टियन गैलोइस के अनुसार, गंभीर हिंसा के लिए एक जांच शुरू कर दी गई है और इसे राष्ट्रीय पुलिस को सौंप दिया गया है।",
+   "demands": [
+    "जीवनयापन की उच्च लागत के खिलाफ",
+    "हाई स्कूलों के लिए अधिक संसाधन",
+    "सार्वजनिक सेवाओं के लिए अधिक संसाधन"
+   ],
+   "response": "लोक अभियोजक सेबेस्टियन गैलोइस के अनुसार, गंभीर हिंसा के लिए एक जांच शुरू कर दी गई है और इसे राष्ट्रीय पुलिस को सौंप दिया गया है। स्थानीय अधिकारियों ने प्रधानमंत्री से विशिष्ट अति-दक्षिणपंथी समूहों को भंग करने का भी अनुरोध किया।",
    "updates": [
-    "झड़पों का एक वीडियो वायरल होने के बाद रौएन के अभियोजक ने गंभीर हिंसा की जांच की घोषणा की।"
+    "सड़क पर हुई हाथापाई का वायरल वीडियो सामने आने के बाद लोक अभियोजक ने गंभीर हिंसा की जांच शुरू करने की घोषणा की।"
    ],
    "conflicts": [],
    "numbers": {}
   },
   "mr": {
-   "title": "रुएनमध्ये अति-उजव्या आणि अति-डाव्या मिलिटंट्समध्ये संघर्ष",
+   "title": "रुएनमध्ये अति-उजवे आणि अति-डावे मिलिटंट यांच्यात संघर्ष",
    "seoTitle": "रुएनमधील अति-उजवे आणि अति-डावे संघर्ष",
    "tea": {
-    "why": "एका निदर्शनानंतर रुएनच्या मध्यवर्ती भागात अति-उजवे आणि अति-डावे मिलिटंट्स आपापसात भिडले.",
-    "want": "",
-    "changed": "२६ ऑक्टोबर: संघर्षाचा एक व्हिडिओ व्हायरल झाल्यानंतर फिर्यादींनी गंभीर मारहाणीची चौकशी सुरू केली."
+    "why": "आंदोलकांनी वाढत्या महागाईच्या विरोधात निदर्शने केली आणि हायस्कूल व सार्वजनिक सेवांसाठी अधिक संसाधनांची मागणी केली.",
+    "want": "कमी महागाई आणि सार्वजनिक सेवा तसेच हायस्कूलसाठी वाढलेला निधी.",
+    "changed": "२६ ऑक्टोबर: रस्त्यावरील हाणामारीचे व्हिडिओ व्हायरल झाल्यानंतर सरकारी वकिलांनी गंभीर हिंसाचाराच्या चौकशीची घोषणा केली."
    },
-   "summary": "२४ ऑक्टोबर रोजी एका निदर्शनाचे विसर्जन झाल्यानंतर रुएनच्या केंद्र भागात अति-उजव्या आणि अति-डाव्या मिलिटंट्समध्ये संघर्ष उसळला. सार्वजनिक फिर्यादींच्या मते, सोशल मीडियावर शेअर केलेल्या एका व्हिडिओमध्ये पोलिसांच्या आगमनापूर्वी मुखवटा घातलेले व्यक्ती जमिनीवर पडलेल्या एका व्यक्तीला मारहाण करताना दिसत आहेत. स्थानिक सोशलिस्ट निवडक अधिकाऱ्यांनी पंतप्रधानांना ले नॉर्मॉक्स आणि ल'ॲक्शन फ्रांसेझ यांसारख्या अति-उजव्या गटांवर बंदी घालण्याचे आवाहन केले, कारण हे गट शहरात उघडपणे हिंसाचार करत असल्याचा हवाला त्यांनी दिला. सीन-मॅरीटाईमच्या प्रीफेक्टकडून कलम ४० अंतर्गत आलेल्या अहवालावरून रुएनच्या फिर्यादी कार्यालयाने राष्ट्रीय पोलिसांकडे सोपवलेल्या गंभीर हिंसाचाराच्या चौकशीची घोषणा केली.",
-   "demands": [],
-   "response": "स्रोतांच्या मते, ऑनलाईन व्हिडिओ प्रसारित झाल्यानंतर रुएनच्या फिर्यादीने राष्ट्रीय पोलिसांद्वारे हाताळल्या जाणाऱ्या गंभीर हिंसाचाराची चौकशी सुरू केली. सीन-मॅरीटाईमच्या प्रीफेक्टने कलम ४० अंतर्गत माहिती अहवाल सादर केला.",
+   "summary": "२४ ऑक्टोबर २०२६ रोजी रुएनमध्ये वाढत्या महागाईच्या विरोधात आणि सार्वजनिक सेवा व हायस्कूलसाठी वाढीव निधीची मागणी करण्यासाठी निदर्शने झाली. मोर्चे आटोपल्यानंतर, शहराच्या मध्यभागी अति-उजव्या आणि अति-डाव्या मिलिटंट्समध्ये रस्त्यावर हाणामारी सुरू झाली. 'ब्लास्ट' या मीडिया आऊटहमने शेअर केलेल्या एका व्हायरल व्हिडिओमध्ये मुखवटा घातलेले व्यक्ती जमिनीवर पडलेल्या एका व्यक्तीवर हल्ला करताना दिसत आहेत, त्यानंतर पोलिसांनी हस्तक्षेप केला. रुएनचे महापौर आणि एका प्रादेशिक खासदारासह स्थानिक सोशलिस्ट राजकारण्यांनी त्यानंतर अधिकाऱ्यांकडे विशिष्ट अति-उजव्या गटांवर बंदी घालण्याची विनंती केली. सरकारी वकील सेबास्टियन गॅलोइस यांच्या मते, गंभीर हिंसाचाराचा तपास सुरू करण्यात आला असून तो राष्ट्रीय पोलिसांकडे सोपवण्यात आला आहे.",
+   "demands": [
+    "वाढत्या महागाईच्या विरोधात",
+    "हायस्कूलसाठी अधिक संसाधने",
+    "सार्वजनिक सेवांसाठी अधिक संसाधने"
+   ],
+   "response": "सरकारी वकील सेबास्टियन गॅलोइस यांच्या मते, गंभीर हिंसाचाराचा तपास सुरू करण्यात आला असून तो राष्ट्रीय पोलिसांकडे सोपवण्यात आला आहे. स्थानिक अधिकाऱ्यांनी पंतप्रधानांना विशिष्ट अति-उजवे गट बरखास्त करण्याची विनंतीही केली.",
    "updates": [
-    "संघर्षाचा व्हिडिओ व्हायरल झाल्यानंतर रुएनच्या फिर्यादीने गंभीर हिंसाचाराच्या चौकशीची घोषणा केली."
+    "रस्त्यावरील हाणामारीचा व्हिडिओ व्हायरल झाल्यानंतर सरकारी वकिलांनी गंभीर हिंसाचाराचा तपास सुरू करण्याची घोषणा केली."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "es": {
    "title": "Choques entre militantes de extrema derecha y extrema izquierda en Ruan",
-   "seoTitle": "Choques en Ruan entre extrema derecha e izquierda",
+   "seoTitle": "Choques en Ruan entre extrema derecha y extrema izquierda",
    "tea": {
-    "why": "Militantes de extrema derecha y extrema izquierda se enfrentaron en el centro de Ruan tras una manifestación.",
-    "want": "",
-    "changed": "26 de oct: Los fiscales abrieron una investigación por agresión agravada tras un video viral de los choques."
+    "why": "Los manifestantes se manifestaron contra el alto costo de la vida y exigieron más recursos para las escuelas secundarias y los servicios públicos.",
+    "want": "Un menor costo de vida y una mayor financiación para los servicios públicos y las escuelas secundarias.",
+    "changed": "26 de oct: El fiscal anunció una investigación por violencia agravada tras videos virales de peleas callejeras."
    },
-   "summary": "El 24 de octubre estallaron enfrentamientos en el centro de Ruan entre militantes de extrema derecha y extrema izquierda tras la dispersión de una manifestación. Según el fiscal público, un video compartido en redes sociales captó a individuos enmascarados golpeando a una persona en el suelo antes de que llegara la policía. Funcionarios electos socialistas locales instaron al Primer Ministro a disolver grupos de extrema derecha como Les Normaux y L'Action française, citando el aumento de la violencia de grupos que actúan abiertamente en la ciudad. La fiscalía de Ruan anunció una investigación por violencia agravada, encomendada a la policía nacional, tras un informe bajo el artículo 40 del prefecto de Sena Marítimo.",
-   "demands": [],
-   "response": "Según las fuentes, el fiscal de Ruan abrió una investigación por violencia agravada manejada por la policía nacional después de que circulara un video en línea. El prefecto de Sena Marítimo informó datos bajo el artículo 40.",
+   "summary": "El 24 de octubre de 2026, se llevaron a cabo manifestaciones en Ruan contra el alto costo de la vida y para exigir un mayor financiamiento para los servicios públicos y las escuelas secundarias. Tras la dispersión de las marchas, estallaron peleas callejeras en el centro de la ciudad entre militantes de extrema derecha y extrema izquierda. Un video viral compartido por el medio Blast mostró a individuos enmascarados agrediendo a una persona en el suelo antes de que interviniera la policía. Políticos socialistas locales, incluido el alcalde de Ruan y un diputado regional, posteriormente solicitaron a las autoridades que prohibieran ciertos grupos de extrema derecha. Según el fiscal Sébastien Gallois, se abrió una investigación por violencia agravada que fue encomendada a la policía nacional.",
+   "demands": [
+    "Contra el alto costo de la vida",
+    "Más recursos para las escuelas secundarias",
+    "Más recursos para los servicios públicos"
+   ],
+   "response": "Según el fiscal Sébastien Gallois, se abrió una investigación por violencia agravada y se encomendó a la policía nacional. Los funcionarios locales también solicitaron al Primer Ministro que disuelva grupos específicos de extrema derecha.",
    "updates": [
-    "El fiscal de Ruan anunció una investigación sobre violencia agravada después de que un video de los choques se volviera viral."
+    "El fiscal anunció la apertura de una investigación por violencia agravada tras un video viral de peleas callejeras."
    ],
    "conflicts": [],
    "numbers": {}
@@ -141,32 +170,40 @@
    "title": "Affrontements entre militants d'ultra-droite et d'ultra-gauche à Rouen",
    "seoTitle": "Affrontements à Rouen entre ultra-droite et ultra-gauche",
    "tea": {
-    "why": "Des militants d'ultra-droite et d'ultra-gauche se sont affrontés dans le centre de Rouen après une manifestation.",
-    "want": "",
-    "changed": "26 oct. : Des procureurs ont ouvert une enquête pour violences aggravées suite à une vidéo virale des affrontements."
+    "why": "Des manifestants ont protesté contre la hausse du coût de la vie et ont réclamé davantage de ressources pour les lycées et les services publics.",
+    "want": "Un coût de la vie moins élevé et un financement accru pour les services publics et les lycées.",
+    "changed": "26 oct. : Le procureur de la République a annoncé l'ouverture d'une enquête pour violences aggravées après des vidéos virales de bagarres de rue."
    },
-   "summary": "Le 24 octobre, des affrontements ont éclaté dans le centre de Rouen entre des militants d'ultra-droite et d'ultra-gauche à la suite de la dispersion d'une manifestation. Selon le procureur de la République, une vidéo partagée sur les réseaux sociaux a capturé des individus masqués frappant une personne au sol avant l'arrivée de la police. Des élus socialistes locaux ont exhorté le Premier ministre à dissoudre des groupes d'ultra-droite tels que Les Normaux et L'Action française, invoquant la hausse des violences de groupes agissant au grand jour dans la ville. Le parquet de Rouen a annoncé une enquête pour violences aggravées, confiée à la police nationale, à la suite d'un signalement au titre de l'article 40 du préfet de la Seine-Maritime.",
-   "demands": [],
-   "response": "Selon les sources, le procureur de Rouen a ouvert une enquête pour violences aggravées traitée par la police nationale après qu'une vidéo a circulé en ligne. Le préfet de la Seine-Maritime a signalé des informations en vertu de l'article 40.",
+   "summary": "Le 24 octobre 2026, des manifestations ont eu lieu à Rouen contre la vie chère et pour réclamer un financement accru des services publics et des lycées. Après la dispersion des cortèges, des bagarres de rue ont éclaté dans le centre-ville entre militants d'ultra-droite et d'ultra-gauche. Une vidéo virale partagée par le média Blast a montré des individus masqués s'en prenant à une personne à terre avant l'intervention de la police. Des personnalités politiques socialistes locales, dont le maire de Rouen et un député régional, ont ensuite demandé aux autorités d'interdire certains groupuscules d'ultra-droite. Selon le procureur de la République Sébastien Gallois, une enquête pour violences aggravées a été ouverte et confiée à la police nationale.",
+   "demands": [
+    "Contre la vie chère",
+    "Plus de ressources pour les lycées",
+    "Plus de ressources pour les services publics"
+   ],
+   "response": "Selon le procureur de la République Sébastien Gallois, une enquête pour violences aggravées a été ouverte et confiée à la police nationale. Des élus locaux ont également demandé au Premier ministre de dissoudre des groupuscules d'ultra-droite spécifiques.",
    "updates": [
-    "Le procureur de Rouen a annoncé une enquête pour violences aggravées après qu'une vidéo des affrontements est devenue virale."
+    "Le procureur de la République a annoncé l'ouverture d'une enquête pour violences aggravées suite à une vidéo virale de bagarres de rue."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "de": {
-   "title": "Zusammenstöße zwischen extrem rechten und extrem linken Militanten in Rouen",
-   "seoTitle": "Rouen: Zusammenstöße zwischen Extremrechten und -linken",
+   "title": "Krawalle zwischen rechtsextremen und linksextremen Milizen in Rouen",
+   "seoTitle": "Rouen: Krawalle zwischen Rechts und Links",
    "tea": {
-    "why": "Extrem rechte und extrem linke Militante stießen im Zentrum von Rouen nach einer Demonstration zusammen.",
-    "want": "",
-    "changed": "26. Okt.: Die Staatsanwaltschaft leitete nach einem viralen Video der Zusammenstöße Ermittlungen wegen schwere Körperverletzung ein."
+    "why": "Demonstranten protestierten gegen hohe Lebenshaltungskosten und forderten mehr Ressourcen für Oberschulen und öffentliche Dienste.",
+    "want": "Niedrigere Lebenshaltungskosten sowie eine erhöhte Finanzierung für öffentliche Dienste und Oberschulen.",
+    "changed": "26. Okt.: Die Staatsanwaltschaft kündigte nach viralen Videos von Straßenschlachten Ermittlungen wegen schwerer Gewalt an."
    },
-   "summary": "Am 24. Oktober kam es im Zentrum von Rouen nach der Auflösung einer Demonstration zu Zusammenstößen zwischen extrem rechten und extrem linken Militanten. Nach Angaben der Staatsanwaltschaft zeigte ein in den sozialen Medien geteiltes Video maskierte Personen, die eine Person am Boden schlugen, bevor die Polizei eintraf. Lokale sozialistische Mandatsträger forderten den Premierminister auf, extrem rechte Gruppen wie Les Normaux und L'Action française aufzulösen, und verwiesen auf zunehmende Gewalt von Gruppen, die offen in der Stadt agieren. Die Staatsanwaltschaft Rouen kündigte eine Ermittlung wegen schwerer Gewalt an, die der Nationalpolizei übertragen wurde, nach einem Bericht nach Artikel 40 des Präfekten von Seine-Maritime.",
-   "demands": [],
-   "response": "Quellen zufolge leitete der Staatsanwalt von Rouen eine von der Nationalpolizei bearbeitete Untersuchung wegen schwerer Gewalt ein, nachdem ein Video online kursierte. Der Präfekt von Seine-Maritime meldete Informationen gemäß Artikel 40.",
+   "summary": "Am 24. Oktober 2026 fanden in Rouen Demonstrationen gegen die hohen Lebenshaltungskosten und zur Forderung einer höheren Finanzierung für öffentliche Dienste und Oberschulen statt. Nach der Auflösung der Märsche kam es im Stadtzentrum zu Straßenschlachten zwischen rechtsextremen und linksextremen Milizen. Ein vom Medienunternehmen Blast geteiltes virales Video zeigte maskierte Personen, die eine am Boden liegende Person angriffen, bevor die Polizei eingriff. Lokale sozialistische Politiker, darunter der Bürgermeister von Rouen und ein regionaler Abgeordneter, forderten die Behörden daraufhin auf, bestimmte rechtsextreme Gruppen zu verbieten. Laut dem Staatsanwalt Sébastien Gallois wurde ein Ermittlungsverfahren wegen schwerer Gewalt eingeleitet und der nationalen Polizei übertragen.",
+   "demands": [
+    "Gegen die hohen Lebenshaltungskosten",
+    "Mehr Ressourcen für Oberschulen",
+    "Mehr Ressourcen für öffentliche Dienste"
+   ],
+   "response": "Laut dem Staatsanwalt Sébastien Gallois wurde ein Ermittlungsverfahren wegen schwerer Gewalt eingeleitet und der nationalen Polizei übertragen. Lokale Beamte forderten den Premierminister zudem auf, bestimmte rechtsextreme Gruppen aufzulösen.",
    "updates": [
-    "Der Staatsanwalt von Rouen kündigte Ermittlungen wegen schwerer Gewalt an, nachdem ein Video der Zusammenstöße viral ging."
+    "Die Staatsanwaltschaft kündigte nach einem viralen Video von Straßenschlachten die Einleitung von Ermittlungen wegen schwerer Gewalt an."
    ],
    "conflicts": [],
    "numbers": {}

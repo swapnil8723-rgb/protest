@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-27",
-  "count": 121
+  "count": 157
  },
  "runs": [
-  {
-   "at": "2026-10-20T21:53:16.622Z",
-   "ms": 189612,
-   "discovered": 38,
-   "fetched": 37,
-   "classified": 27,
-   "protests": 14,
-   "summarized": 7,
-   "published": 107,
-   "live": 16,
-   "aiCalls": 12,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 11 files, 37 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 37 protest-word items",
-    "fetch: 37 ok, 1 failed",
-    "classify: new candidate ee9bd1392ff \"Haryana power staff strike against private electricity distribution licence\" (Gurugram)",
-    "classify: new candidate ed98da96f24 \"MIT professors decorate campus security cameras to protest surveillance\" (Cambridge)",
-    "classify: new candidate e77d3e1f067 \"Pastor protests Chinese human rights abuses outside embassy\" (Washington)",
-    "classify: new candidate e18626929d1 \"Artist protests Cuban regime outside UN Permanent Mission\" (New York City)",
-    "classify: new candidate e963fe38340 \"State workers announce strike in Porterville over labor agreement\" (Porterville)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 2 events"
-   ],
-   "translated": 2
-  },
   {
    "at": "2026-10-20T23:56:19.637Z",
    "ms": 143253,
@@ -1454,8 +1427,47 @@
     "translate: 9 events"
    ],
    "translated": 9
+  },
+  {
+   "at": "2026-10-27T15:19:56.861Z",
+   "ms": 770985,
+   "discovered": 114,
+   "fetched": 103,
+   "classified": 94,
+   "protests": 40,
+   "summarized": 15,
+   "published": 196,
+   "live": 18,
+   "aiCalls": 36,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 41 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss www.theportugalnews.com: The operation was aborted due to timeout",
+    "rss: 207 protest-word items",
+    "search: 24 single-source stories checked, 29 other newsrooms found",
+    "fetch: 103 ok, 11 failed",
+    "classify: new candidate eb17add6087 \"Metal and electrical workers announce upcoming warning strikes\" (Düsseldorf)",
+    "classify: new candidate eaa461f14b4 \"Kerala private bus operators announce indefinite strike\" (Palakkad)",
+    "classify: new candidate ed7a7fab6f5 \"Residents protest data center project at Hermantown council meeting\" (Hermantown)",
+    "classify: new candidate e6aa1bbb5b4 \"Slain politician's son detained during protest outside deputy CM's home\" (Thane)",
+    "classify: new candidate e39ed3abcc5 \"Youth hold rally for climate trial in Vancouver\" (Vancouver)",
+    "classify: new candidate ecc8fb03946 \"Spaniards protest housing costs and demand rent caps\" (Madrid)",
+    "classify: new candidate e3f2e0d4eee \"CVS pharmacy workers protest working conditions\" (Wakefield)",
+    "classify: new candidate e84b91db97c \"Railway workers announce strike over conditions in Portugal\" (Lisbon)",
+    "classify: new candidate ea63cdabc79 \"DMK and Left parties walk out of all-party meeting in Tiruchi\" (Tiruchirappalli)",
+    "classify: new candidate ee7dca99628 \"University of Nairobi students protest over lecturers' strike\" (Nairobi)",
+    "classify: new candidate eac3eb4be93 \"AIDWA workers protest price rise in Puducherry\" (Puducherry)",
+    "classify: new candidate e345d0a7258 \"CPI workers stage protest demanding resignation of CEC\" (Puducherry)",
+    "classify: new candidate e5a285a916d \"Osmania junior doctors resume protest over facilities\" (Hyderabad)",
+    "classify: new candidate e823a7aecdf \"Protests over living costs and school conditions spread in Europe\" (Paris)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 13 events"
+   ],
+   "translated": 13
   }
  ],
- "gdeltCursor": "20261027121500",
- "lastRunAt": "2026-10-27T12:20:52.196Z"
+ "gdeltCursor": "20261027151500",
+ "lastRunAt": "2026-10-27T15:19:56.861Z"
 }
