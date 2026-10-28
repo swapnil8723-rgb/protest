@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-28",
-  "count": 111
+  "count": 168
  },
  "runs": [
-  {
-   "at": "2026-10-22T07:44:01.878Z",
-   "ms": 141575,
-   "discovered": 57,
-   "fetched": 53,
-   "classified": 42,
-   "protests": 11,
-   "summarized": 4,
-   "published": 112,
-   "live": 9,
-   "aiCalls": 12,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 44 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 37 protest-word items",
-    "fetch: 53 ok, 4 failed",
-    "classify: new candidate e7d6833d73d \"Maharashtra State Transport staff announce protests and strike\" (Mumbai)",
-    "classify: new candidate e4792003224 \"CJP announces 24-hour anti-SIR protest in Chennai\" (Chennai)",
-    "classify: new candidate e37b0a7262e \"Opposition leaders hold joint political rally in Njoro\" (Njoro)",
-    "classify: new candidate e61725bf287 \"CPI(M) calls hartal in Pathanamthitta over ESA safeguards\" (Pathanamthitta)",
-    "classify: new candidate e16e2aa6cb5 \"BJP launches campaign against opposition SIR protests\" (Patna)",
-    "classify: new candidate e49c78b164b \"Demonstrators stage mock trial protest outside Cornell meeting\" (Ithaca)",
-    "classify: new candidate eda047feeb4 \"Lawyers and judicial staff strike in Rawalpindi over judge assault\" (Rawalpindi)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-22T11:59:04.256Z",
    "ms": 218129,
@@ -1510,8 +1481,42 @@
     "AI budget: run time cap 13 min reached — remaining work waits for a later run"
    ],
    "translated": 0
+  },
+  {
+   "at": "2026-10-28T18:46:55.322Z",
+   "ms": 783400,
+   "discovered": 97,
+   "fetched": 80,
+   "classified": 149,
+   "protests": 51,
+   "summarized": 28,
+   "published": 227,
+   "live": 25,
+   "aiCalls": 57,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 52 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 222 protest-word items",
+    "search: 25 single-source stories checked, 23 other newsrooms found",
+    "fetch: 80 ok, 17 failed",
+    "classify: new candidate ead19531e58 \"Pro-Palestine silent protest in Utrecht\" (Utrecht)",
+    "classify: new candidate e44809cc400 \"Local body pensioners stage sit-in protest in Krishnagiri\" (Krishnagiri)",
+    "classify: new candidate e8e90e2fdac \"Cultural activists hold solidarity gathering in Thrissur over voter roll revision\" (Thrissur)",
+    "classify: new candidate ec963c871c9 \"Gen Z group announces nationwide protests for education\" (Berlin)",
+    "classify: new candidate e2a875778f7 \"Belagavi farmers stop sugar sales and transport over MSP demands\" (Belagavi)",
+    "classify: new candidate ee991231bc9 \"Unmarried rural youth plan statewide stir for government help\" (Sholapur)",
+    "classify: new candidate e4790a5de1c \"Tampa activists announce ICE protest in Ybor City\" (Tampa)",
+    "classify: new candidate e3f4167f13e \"Telangana Congress leaders protest denial of special trains\" (Hyderabad)",
+    "classify: new candidate e58dc3daa1a \"CSU faculty rallies across California during strike vote\" (San Jose)",
+    "classify: new candidate e8571284004 \"Protesters block road in Stoke-on-Trent in solidarity with Palestine\" (Stoke-on-Trent)",
+    "classify: new candidate e6d119afe3a \"Protesters block Brooklyn Bridge over ICE shooting\" (New York City)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: stopped: run time cap 13 min reached"
+   ]
   }
  ],
- "gdeltCursor": "20261028154500",
- "lastRunAt": "2026-10-28T15:50:31.181Z"
+ "gdeltCursor": "20261028184500",
+ "lastRunAt": "2026-10-28T18:46:55.322Z"
 }

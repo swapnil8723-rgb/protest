@@ -3,7 +3,7 @@
  "slug": "lyon-cost-of-living-protest-oct-2026-2",
  "stage": "live",
  "title": "Police fire tear gas at cost-of-living protesters in Lyon",
- "seoTitle": "Lyon cost-of-living protest",
+ "seoTitle": "Lyon protest against high cost of living",
  "place": {
   "city": "Lyon",
   "region": "Auvergne-Rhône-Alpes",
@@ -16,31 +16,32 @@
  "scope": "multi-city",
  "causes": [
   "prices",
-  "education",
-  "governance"
+  "education"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-24",
  "status": "ended",
  "vibe": "wrapped-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated over rising living costs, strained public services, and difficulties in the education sector.",
-  "want": "Protesters demanded government action regarding living costs, public services, and school conditions.",
-  "changed": "Oct 24: Police deployed tear gas to disperse demonstrators near Jean Moulin Lyon 3 University and the city center after unauthorized road-blocking attempts."
+  "why": "Protesters demonstrated over soaring living costs, strained public services, and difficulties in the education sector.",
+  "want": "Demonstrators demanded relief from the rising cost of living and solutions to problems in public services and education.",
+  "changed": "Oct 27: The Lyon prosecutor’s office opened an inquiry into a bystander's chest injury sustained during Saturday's protests."
  },
- "summary": "On October 24, 2026, demonstrations took place in Lyon and other French cities amid stringent government bans on unauthorized gatherings. In Lyon, local authorities had prohibited protests in certain parts of the city. According to reports, police used tear gas to disperse groups of approximately 150 to 200 demonstrators near Jean Moulin Lyon 3 University and the city center after participants attempted to block roads. The demonstrations formed part of nationwide rallies concerning the high cost of living, public services, and education sector conditions. The government mobilized 70,000 security personnel nationwide following previous weekend unrest, while unions, left-wing parties, and human rights organizations criticized the demonstration bans as severe restrictions on the right to protest.",
+ "summary": "On October 24, 2026, demonstrations took place in Lyon and other French cities amid widespread anger over the high cost of living, public service issues, and school conditions. Local authorities in Lyon had banned gatherings in parts of the city. According to reports, police used tear gas to disperse groups attempting to block roads or gather near university areas. The nationwide rallies prompted heavy security deployments by the French government, with Interior Minister Laurent Nuñez mobilizing 70,000 police officers. Unions and left-wing leaders criticized the strict policing measures and bans on demonstrations, while rights groups warned against restrictions on the right to protest.",
  "organizers": [],
  "demands": [
-  "Address rising living costs",
-  "Improve public services",
-  "Resolve difficulties in the education sector"
+  "Lower cost of living",
+  "Improvements in public services",
+  "Better conditions in the education sector"
  ],
- "response": "According to local media and official reports, police used tear gas to disperse protesters in Lyon where gatherings were banned. Nationwide, authorities deployed 70,000 security personnel and banned demonstrations not organized by trade unions.",
+ "response": "According to reports, police deployed tear gas to disperse demonstrators in areas where gatherings were banned after groups attempted to block roads. Interior Minister Laurent Nuñez stated that 70,000 police officers were mobilized nationwide to maintain order.",
  "numbers": {
   "crowd": {
    "value": 150,
@@ -54,12 +55,18 @@
  "updates": [
   {
    "at": "2026-10-24",
-   "text": "Police deployed tear gas to disperse roughly 150 to 200 protesters who gathered near Jean Moulin Lyon 3 University and attempted to block roads.",
+   "text": "Police fired tear gas to disperse approximately 150 demonstrators attempting to block a road in a banned area of Lyon.",
    "sources": [
-    1,
     2,
     3,
     4
+   ]
+  },
+  {
+   "at": "2026-10-27",
+   "text": "The Lyon prosecutor's office opened an inquiry into the cause of a chest wound sustained by a local resident during Saturday's protests.",
+   "sources": [
+    5
    ]
   }
  ],
@@ -90,18 +97,25 @@
    "url": "https://www.presstv.co.uk/Detail/2026/10/24/779090/French-police-fire-tear-gas-living-protests-sweep-Europe",
    "publisher": "presstv.co.uk",
    "title": "French unrest: Police fire tear gas as fresh protests start in major cities"
+  },
+  {
+   "n": 5,
+   "url": "https://www.riotimesonline.com/lyon-protest-injury-police-watchdog-probe/",
+   "publisher": "riotimesonline.com",
+   "title": "Sandwich Run Puts Lyon Man in Intensive Care",
+   "publishedAt": "2026-10-28T11:19:33.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.91,
- "publishers": 4,
- "reports24h": 0,
+ "confidence": 0.95,
+ "publishers": 5,
+ "reports24h": 1,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 1,
  "firstSeenAt": "2026-10-24T16:01:48.363Z",
- "lastReportAt": "2026-10-24T14:30:00.000Z",
- "lastCheckedAt": "2026-10-28T16:03:46.027Z",
- "updatedAt": "2026-10-24T19:33:15.810Z",
+ "lastReportAt": "2026-10-28T11:19:33.000Z",
+ "lastCheckedAt": "2026-10-28T18:57:02.013Z",
+ "updatedAt": "2026-10-28T18:54:29.956Z",
  "endedOn": "2026-10-24",
  "responseSources": [
   1,
@@ -109,10 +123,10 @@
   3,
   4
  ],
- "seriousInjuries": false,
+ "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-10-24T19:33:15.810Z",
- "summaryOf": "715e3e2258f3",
+ "summarizedAt": "2026-10-28T18:54:29.956Z",
+ "summaryOf": "0dfb4843e5bb",
  "publishedAt": "2026-10-24T19:33:33.787Z",
  "i18n": {
   "of": "d1b401837d728995",
