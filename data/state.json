@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-28",
-  "count": 48
+  "count": 78
  },
  "runs": [
-  {
-   "at": "2026-10-21T21:46:25.083Z",
-   "ms": 226099,
-   "discovered": 58,
-   "fetched": 55,
-   "classified": 46,
-   "protests": 15,
-   "summarized": 7,
-   "published": 112,
-   "live": 11,
-   "aiCalls": 17,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261021213000 http://data.gdeltproject.org/gdeltv2/20261021213000.export.CSV.zip → 404",
-    "gdelt: 20261021214500 http://data.gdeltproject.org/gdeltv2/20261021214500.export.CSV.zip → 404",
-    "gdelt: 18 files, 49 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 33 protest-word items",
-    "fetch: 55 ok, 3 failed",
-    "classify: new candidate e26ed43006b \"Journalists protest police restrictions inside Mysuru palace\" (Mysuru)",
-    "classify: new candidate e10d090709e \"Activists to rally at Holyrood demanding action on VAWG\" (Edinburgh)",
-    "classify: new candidate e6c9a419f8b \"Students participate in Walk a Mile in Her Shoes march\" (State College)",
-    "classify: new candidate eb4acd44a03 \"Protesters gather outside Padre Hotel against ICE\" (Bakersfield)",
-    "classify: new candidate e1c935c7a77 \"Officials to rally urging Governor Hochul to sign SUNNY Act\" (Kingston)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-22T01:05:21.918Z",
    "ms": 192329,
@@ -1493,8 +1464,37 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-28T08:50:32.232Z",
+   "ms": 379074,
+   "discovered": 72,
+   "fetched": 66,
+   "classified": 54,
+   "protests": 28,
+   "summarized": 13,
+   "published": 216,
+   "live": 22,
+   "aiCalls": 30,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 34 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 232 protest-word items",
+    "search: 25 single-source stories checked, 29 other newsrooms found",
+    "fetch: 66 ok, 6 failed",
+    "classify: new candidate ef4cc96d5fc \"SFI protests outside TGBIE over contract lecturers\" (Hyderabad)",
+    "classify: new candidate eeb9629ecfa \"Rally in Boise for abortion rights initiative\" (Boise)",
+    "classify: new candidate e5e044935ff \"Telangana Congress plans cadres for Delhi rally\" (Hyderabad)",
+    "classify: new candidate eeba2b6ffc0 \"Telangana Congress flash protest over train allocations\" (Secunderabad)",
+    "classify: new candidate e82aed2d5d1 \"Gen Z-led youth protests over living costs and education\" (Brussels)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 1 waiting",
+    "translate: 12 events"
+   ],
+   "translated": 12
   }
  ],
- "gdeltCursor": "20261028054500",
- "lastRunAt": "2026-10-28T05:48:25.950Z"
+ "gdeltCursor": "20261028084500",
+ "lastRunAt": "2026-10-28T08:50:32.232Z"
 }

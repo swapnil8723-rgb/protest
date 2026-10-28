@@ -1,9 +1,9 @@
 {
  "id": "eb563b6479f",
- "slug": "",
- "stage": "candidate",
- "title": "Protesters clash in French cities over living costs and policies",
- "seoTitle": "",
+ "slug": "paris-living-costs-school-funding-protests-oct-2026",
+ "stage": "live",
+ "title": "Protesters clash with police in Paris and across France over living costs and schools",
+ "seoTitle": "Paris march over living costs and schools",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -13,41 +13,120 @@
   "citySlug": "paris",
   "regionSlug": "ile-de-france"
  },
- "scope": "local",
+ "scope": "nationwide",
  "causes": [
   "prices",
-  "anti-government"
+  "labour",
+  "education"
  ],
  "kind": "one-day",
- "startedOn": "2026-10-17",
- "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": true,
+ "startedOn": "2026-10-25",
+ "status": "ended",
+ "vibe": "wrapped-up",
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious",
+  "low-confidence",
+  "sources-disagree"
+ ],
+ "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Protesters demonstrated against soaring living costs, low wages, pensions, and school funding shortages.",
+  "want": "Protesters demanded better school funding, increased teacher staffing, higher wages, and better pensions.",
+  "changed": "Oct 25: Clashes occurred as marches ended, with Interior Minister Laurent Nuñez reporting nearly 1,000 arrests nationwide."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
- "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
+ "summary": "Hundreds of thousands of people took to the streets across France, including Paris, in protests over soaring living costs and school funding. The demonstrations followed weeks of unrest originating from high school staff shortages. In Paris, the march began peacefully before concluding with clashes near Porte de Vincennes, where some participants threw projectiles and police deployed tear gas, water cannons, and sound grenades. The Interior Ministry reported a nationwide turnout of 410,000, including 110,000 in Paris, while the CGT union estimated nearly 800,000 participants. Interior Minister Laurent Nuñez deployed up to 70,000 officers nationwide, and the Paris prosecutor's office confirmed dozens of local arrests for suspected weapons offenses and participation in violence.",
+ "organizers": [
+  "CGT union"
+ ],
+ "demands": [
+  "Better school funding",
+  "More teacher staff",
+  "Higher wages",
+  "Better pensions"
+ ],
+ "response": "Interior Minister Laurent Nuñez deployed a nationwide force of up to 70,000 officers, supported by helicopters, armored vehicles, and water cannons. Police utilized tear gas, water cannons, and sound grenades in Paris, Lyon, Clermont-Ferrand, Strasbourg, Nice, Nantes, and Marseille to disperse crowds. According to Interior Minister…",
+ "numbers": {
+  "crowd": {
+   "value": 410000,
+   "text": "410,000 nationwide turnout according to the Interior Ministry, while the CGT union estimated nearly 800,000",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  "arrests": {
+   "value": 1000,
+   "text": "nearly 1,000 arrests nationwide reported by Interior Minister Laurent Nunez, while the Paris prosecutor's office…",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-10-25",
+   "text": "Clashes erupted in Paris and other French cities at the end of nationwide marches over living costs and school funding.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
+   "at": "2026-10-28",
+   "text": "The French Chamber of Commerce reported that retail turnover plummeted by 80 percent in inner cities affected by demonstrations over the past two weekends.",
+   "sources": [
+    3
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.arkansasonline.com/news/2026/oct/25/clashes-erupt-amid-paris-protest/",
+   "publisher": "arkansasonline.com",
+   "title": "Clashes erupt amid Paris protest | Arkansas Democrat Gazette",
+   "publishedAt": "2026-10-25T09:00:00.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.dailysabah.com/world/europe/over-400000-march-across-france-in-serious-challenge-for-macron/amp",
+   "publisher": "dailysabah.com",
+   "title": "Over 400,000 march across France in serious challenge to Macron",
+   "publishedAt": "2026-10-25T10:55:00.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.zdfheute.de/politik/ausland/proteste-frankreich-einzelhandel-pluenderung-ausschreitungen-100.html",
+   "publisher": "zdfheute.de",
+   "title": "Massenproteste in Frankreich: Handel beklagt schwere Einbußen",
+   "publishedAt": "2026-10-28T01:05:19.237Z"
+  }
+ ],
+ "conflicts": [
+  "The Interior Ministry estimated nationwide turnout at 410,000, while the CGT union estimated nearly 800,000.",
+  "The Interior Ministry put Paris turnout at 110,000, while the CGT union estimated 250,000."
+ ],
+ "confidence": 0.65,
+ "publishers": 3,
+ "reports24h": 1,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 1,
  "firstSeenAt": "2026-10-28T01:52:15.329Z",
- "lastReportAt": "2026-10-28T01:52:15.329Z",
- "lastCheckedAt": "2026-10-28T01:52:15.329Z",
- "updatedAt": "2026-10-28T01:52:15.329Z",
- "searchedAt": "2026-10-28T03:24:31.395Z"
+ "lastReportAt": "2026-10-28T01:05:19.237Z",
+ "lastCheckedAt": "2026-10-28T08:54:52.134Z",
+ "updatedAt": "2026-10-28T08:54:39.397Z",
+ "searchedAt": "2026-10-28T03:24:31.395Z",
+ "endedOn": "2026-10-25",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": true,
+ "sensitive": false,
+ "summarizedAt": "2026-10-28T08:54:39.397Z",
+ "summaryOf": "8f045456317f"
 }
