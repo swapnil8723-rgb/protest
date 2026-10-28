@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-28",
-  "count": 192
+  "count": 207
  },
  "runs": [
-  {
-   "at": "2026-10-22T16:16:25.146Z",
-   "ms": 665033,
-   "discovered": 80,
-   "fetched": 75,
-   "classified": 54,
-   "protests": 19,
-   "summarized": 5,
-   "published": 114,
-   "live": 8,
-   "aiCalls": 13,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 17 files, 69 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 35 protest-word items",
-    "fetch: 75 ok, 5 failed",
-    "classify: new candidate e9c6aa489bc \"Prefecture bans demonstrations in Lyon amid ongoing protests\" (Lyon)",
-    "classify: new candidate ee0a9468406 \"Economist Parakala Prabhakar joins human chain protest against SIR\" (Hyderabad)",
-    "classify: new candidate ede1f06897e \"CPI(M) workers stage demonstrations against price rise\" (Puducherry)",
-    "classify: new candidate ed21f2a293d \"YouTuber plans protest in Boston over Liberty Mutual mascot\" (Boston)",
-    "classify: new candidate e9750ff9f3f \"Apple Store looters trigger anti-theft tech during French protests\" (Lille)",
-    "classify: new candidate e912dbdeb93 \"Tiruppur councillor stages power cut selfie protest\" (Tiruppur)",
-    "classify: new candidate ec364bdb06b \"Residents protest data centers at Utah planning meeting\" (Provo)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-22T17:15:07.481Z",
    "ms": 370894,
@@ -1518,8 +1489,35 @@
     "translate: 13 events"
    ],
    "translated": 13
+  },
+  {
+   "at": "2026-10-28T23:08:10.890Z",
+   "ms": 188431,
+   "discovered": 61,
+   "fetched": 56,
+   "classified": 41,
+   "protests": 10,
+   "summarized": 6,
+   "published": 229,
+   "live": 25,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 37 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.thelocal.se: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 215 protest-word items",
+    "search: 14 single-source stories checked, 12 other newsrooms found",
+    "fetch: 56 ok, 5 failed",
+    "classify: new candidate e7455aaf91f \"Advocates rally outside BGE against cuts to EmPOWER Maryland\" (Baltimore)",
+    "classify: new candidate e9294e6a05c \"Far-right groups and police clash in Madrid over deadly train crash\" (Madrid)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261028201500",
- "lastRunAt": "2026-10-28T20:19:59.431Z"
+ "gdeltCursor": "20261028231500",
+ "lastRunAt": "2026-10-28T23:08:10.890Z"
 }
