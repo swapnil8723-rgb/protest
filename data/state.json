@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-28",
-  "count": 168
+  "count": 192
  },
  "runs": [
-  {
-   "at": "2026-10-22T11:59:04.256Z",
-   "ms": 218129,
-   "discovered": 77,
-   "fetched": 71,
-   "classified": 59,
-   "protests": 13,
-   "summarized": 5,
-   "published": 114,
-   "live": 9,
-   "aiCalls": 14,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 17 files, 60 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 43 protest-word items",
-    "fetch: 71 ok, 6 failed",
-    "classify: new candidate e5aaa065862 \"Passengers stage protest and halt train in Hingoli\" (Hingoli)",
-    "classify: new candidate e381635fab3 \"Police clash with protesters as Vox leader visits northern Spain\" (A Coruña)",
-    "classify: new candidate e7f76164858 \"Medical interns stage silent protest at JJ Hospital\" (Mumbai)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-22T16:16:25.146Z",
    "ms": 665033,
@@ -1515,8 +1490,36 @@
     "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
     "translate: stopped: run time cap 13 min reached"
    ]
+  },
+  {
+   "at": "2026-10-28T20:19:59.431Z",
+   "ms": 271824,
+   "discovered": 41,
+   "fetched": 35,
+   "classified": 23,
+   "protests": 10,
+   "summarized": 9,
+   "published": 228,
+   "live": 25,
+   "aiCalls": 24,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 6 files, 19 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss www.theportugalnews.com: The operation was aborted due to timeout",
+    "rss: 207 protest-word items",
+    "search: 16 single-source stories checked, 9 other newsrooms found",
+    "fetch: 35 ok, 6 failed",
+    "classify: new candidate e36c50723ff \"Opposition LDF walks out of Kerala Assembly over maritime bill\" (Thiruvananthapuram)",
+    "classify: new candidate e949ee6f725 \"Child care workers rally at Queens Park over fair standards\" (Toronto)",
+    "classify: new candidate ea7bb1431d7 \"Demonstrators call for Jewish-Arab government across Israel\" (Tel Aviv)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 13 events"
+   ],
+   "translated": 13
   }
  ],
- "gdeltCursor": "20261028184500",
- "lastRunAt": "2026-10-28T18:46:55.322Z"
+ "gdeltCursor": "20261028201500",
+ "lastRunAt": "2026-10-28T20:19:59.431Z"
 }
