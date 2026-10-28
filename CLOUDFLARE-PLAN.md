@@ -285,6 +285,19 @@ Rules for this phase: don't change `api/*.ts` or `vercel.json`, and leave `pipel
 
 3.6 **[Claude Code] Analytics:** a visit to workers.dev shows up in Cloudflare Web Analytics within a few minutes.
 
+### Phase 3 results (27 Oct 2026, 16:30–17:15 UTC)
+
+- Workers Builds connected by the owner (own API token, not AQI's). **Build + deploy ≈ 2 min** (push 16:49:24 → live by 16:51:32), so about 600 of 3,000 build min a month.
+- Secrets `GITHUB_DISPATCH_TOKEN` and `READER_SALT` set by the owner in the dashboard. A `!`-typed `wrangler secret put` gets no prompt, so it may have stored an empty value. Use a real terminal or the dashboard.
+- `check-host.ts` on workers.dev: **PASS on 1,952 URLs** (1,548 pages in 24 sitemaps, read from the host). Form 200/200/200/429; test rows deleted (count 0).
+- **Found and fixed:** Cloudflare serves `.txt` as bare `text/plain` (Vercel: `; charset=utf-8`, and `llms.txt` has non-ASCII). `_headers` now sets the charset for `robots.txt` and `llms.txt`; verified live (one header). HTML has no charset in the header but `<meta charset="utf-8">` comes first in `<head>` (fine).
+- HTML differs from Vercel only in build-time counts ("48 vs 49 wrapped up in the last three days"), because the builds were 30 min apart.
+- Phone-width screenshots of 9 pages on both hosts (home, France, today, hi, de/today, add, an event, how-we-know, 404): identical, no JS errors, no failed requests, no sideways scroll.
+- From India, Cloudflare answers from SIN/HKG (TTFB 0.3–0.9 s vs Vercel's BOM 0.1–0.2 s). Readers are mostly US/EU; HTML is a cache HIT at the edge.
+- **Pipeline run 40546450336** with `inbox_url` = workers.dev: success; `reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting` (OIDC accepted by the Worker); data committed; Cloudflare rebuilt.
+- Cron: `50 * * * *` registered; sunup-api keeps `0 * * * *` only. The tick at 17:50:18 UTC logged `tick {"skipped":"recent run","lastRun":"2026-10-27T17:00:32Z","status":"completed"}`, so the GitHub token works (it read the run list).
+- **Existing issue, not caused by the move:** `scripts/indexnow.ts` checks `dist/` to decide which URLs exist, but the workflow never builds, so it pings only `/` ("indexnow: 1 urls" while 170 paths changed). Bing gets only the homepage from IndexNow. Fix after the move (owner said copy as-is).
+
 ### Go / no-go for Phase 4 (all must be yes)
 
 - [ ] `check-host.ts` → PASS on workers.dev
@@ -336,6 +349,18 @@ Start at **03:00 UTC (08:30 IST)**. Claude Code watches each step.
 4.11 **[Claude Code] Stop Vercel rebuilding protest** (so deployment storage stops growing): in `vercel.json` set `"ignoreCommand": "exit 0"` (exit 0 = skip). Keep the domains attached in the Vercel project for rollback. On or after 1 Nov, delete old protest deployments in Vercel, keeping the latest, to bring deployment storage back under 10 GB for the other 5 projects.
 
 4.12 **[Owner] Search engines:** Google Search Console → Sitemaps → resubmit `sitemap-index.xml` and `news-sitemap.xml`; URL Inspection → Request indexing for `/` and one busy country page. Bing Webmaster → resubmit the same sitemaps. The domain doesn't change, so there's **no** change-of-address to file.
+
+### Phase 4 results (28 Oct 2026, 02:30–03:45 UTC)
+
+- Vercel paused the account about 22:45 UTC on 27 Oct: `402 DEPLOYMENT_DISABLED` on apex and www. So the switch went a day early. check-host on workers.dev at 02:30 → **PASS (2,042 URLs)**.
+- 4.1: the Cloudflare scan matched the Phase 0 notes exactly. The Google TXT was checked against live DNS. 5 MX and the SPF record were deleted (no email used, so 4.8 was skipped).
+- 4.3–4.4: the `.online` registry pointed to `eva`/`paul.ns.cloudflare.com` within minutes (NS TTL 15 min). Public resolvers moved over in about 1 h (Namecheap's old servers kept answering with the Vercel A record, TTL 30 min).
+- 4.6: the custom domain was first added in the dashboard (it needed the old A/CNAME deleted first), then put in `wrangler.jsonc` so deploys keep it. Adding it showed workers.dev as Disabled; the config re-enables it (until 6.4).
+- 4.7: `AAAA www 100::` (proxied) + Redirect Rule `https://www.protesttracker.online/*` → `https://protesttracker.online/${1}`, **308**, query string kept. `http://` → 301 to `https://` (Always Use HTTPS; Cloudflare's only code for it).
+- Checked live: Google Trust Services certificate for apex + `*.`, valid to 26 Jan 2027; Googlebot/Bingbot/DuckDuckBot/GPTBot get 200; the site's own `robots.txt`; no Rocket Loader or email-obfuscation code in the HTML; the site's own HSTS header.
+- 4.9: `check-host.ts https://protesttracker.online` → **PASS (2,042 URLs)**.
+- 4.11: `vercel.json` `ignoreCommand` set to `exit 0`.
+- **IndexNow fixed (owner OK, 28 Oct):** the ping moved from the workflow, which has no `dist/` and so pinged only `/`, to the end of `npm run build` on Workers Builds. It only runs when `WORKERS_CI` is set, on `main`, and when `data/changed.json` is under 30 min old (so code pushes don't re-send). It never fails the build. Check the build log for `indexnow: N of M urls → HTTP 200/202`.
 
 ---
 

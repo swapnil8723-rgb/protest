@@ -27,6 +27,8 @@
   // slot; sunup-api gave up its second trigger for it on 27 Oct 2026.
   "triggers": { "crons": ["50 * * * *"] },
   "vars": { "READER_REPO": "swapnil8723-rgb/protest" },
+  // The live domain (switched from Vercel 28 Oct 2026). www → apex is a zone Redirect Rule (308).
+  "routes": [{ "pattern": "protesttracker.online", "custom_domain": true }],
   // Secrets (npx wrangler secret put <NAME>): GITHUB_DISPATCH_TOKEN, READER_SALT.
   "workers_dev": true,
   "preview_urls": false,

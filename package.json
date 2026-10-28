@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/cards.ts && astro build && node scripts/postbuild.ts",
+    "build": "node scripts/cards.ts && astro build && node scripts/postbuild.ts && node scripts/indexnow.ts",
     "build:site": "astro build && node scripts/postbuild.ts",
     "preview": "astro preview",
     "check": "astro check",

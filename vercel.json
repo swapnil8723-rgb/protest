@@ -3,7 +3,7 @@
   "framework": "astro",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "ignoreCommand": "git log -1 --pretty=%s | grep -qF '[skip vercel]'",
+  "ignoreCommand": "exit 0",
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [

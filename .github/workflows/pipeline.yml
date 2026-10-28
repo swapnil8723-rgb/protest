@@ -100,6 +100,5 @@ jobs:
           done
           exit 1
 
-      - name: Ping IndexNow
-        if: env.HAS_AI == 'true' && env.SKIP != 'true' && steps.gate.outputs.deploy == 'true'
-        run: node scripts/indexnow.ts # search engines fetch later; no need to burn 4 billed minutes waiting
+      # IndexNow is pinged by the Cloudflare build (end of `npm run build`), which has dist/
+      # to check which changed pages exist; this job never builds.
