@@ -1,33 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-28",
-  "count": 104
+  "count": 111
  },
  "runs": [
-  {
-   "at": "2026-10-22T04:27:46.388Z",
-   "ms": 72278,
-   "discovered": 31,
-   "fetched": 31,
-   "classified": 27,
-   "protests": 5,
-   "summarized": 2,
-   "published": 112,
-   "live": 10,
-   "aiCalls": 6,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 23 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 32 protest-word items",
-    "fetch: 31 ok, 0 failed",
-    "classify: new candidate e09b659055a \"Women protest prolonged gas outages and high LPG prices\" (Hyderabad)",
-    "classify: new candidate e7cbfc92934 \"State workers strike in San Diego over pay and health care\" (San Diego)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 1 events"
-   ],
-   "translated": 1
-  },
   {
    "at": "2026-10-22T07:44:01.878Z",
    "ms": 141575,
@@ -1500,8 +1476,42 @@
     "translate: 9 events"
    ],
    "translated": 9
+  },
+  {
+   "at": "2026-10-28T15:50:31.181Z",
+   "ms": 795361,
+   "discovered": 165,
+   "fetched": 154,
+   "classified": 0,
+   "protests": 0,
+   "summarized": 0,
+   "published": 217,
+   "live": 21,
+   "aiCalls": 7,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 16 files, 85 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss news.err.ee: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 237 protest-word items",
+    "search: 25 single-source stories checked, 15 other newsrooms found",
+    "fetch: 154 ok, 11 failed",
+    "classify: new candidate e212e4e8ec6 \"Madrid doctors suspend strike following train accident\" (Madrid)",
+    "classify: new candidate e62c36b2b7b \"Rally in Hamburg over construction worker death and conditions\" (Hamburg)",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "classify: new candidate ec50ecd1675 \"Protest outside Downing Street against support for Israel\" (London)",
+    "classify: new candidate e7ca94c9b3e \"EasyJet cabin crew announce strike in Portugal\" (Lisbon)",
+    "classify: new candidate ed1a7e8a6a4 \"Parents and students rally against school closures\" (Evanston)",
+    "classify: new candidate ea5234f7c11 \"Left parties demonstration against price rise\" (Puducherry)",
+    "AI budget: run time cap 13 min reached — remaining work waits for a later run"
+   ],
+   "translated": 0
   }
  ],
- "gdeltCursor": "20261028114500",
- "lastRunAt": "2026-10-28T11:49:09.619Z"
+ "gdeltCursor": "20261028154500",
+ "lastRunAt": "2026-10-28T15:50:31.181Z"
 }
