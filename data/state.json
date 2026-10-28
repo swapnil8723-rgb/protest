@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-28",
-  "count": 78
+  "count": 104
  },
  "runs": [
-  {
-   "at": "2026-10-22T01:05:21.918Z",
-   "ms": 192329,
-   "discovered": 46,
-   "fetched": 44,
-   "classified": 29,
-   "protests": 11,
-   "summarized": 4,
-   "published": 112,
-   "live": 10,
-   "aiCalls": 10,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 14 files, 41 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 33 protest-word items",
-    "fetch: 44 ok, 2 failed",
-    "classify: new candidate ef9991e3d52 \"ESIC intern doctors strike in Indore over unpaid stipends\" (Indore)",
-    "classify: new candidate e5c764df11b \"California state workers strike over labor contracts\" (Los Angeles)",
-    "classify: new candidate e3ca4b76715 \"Specialists rally in Washington against HIV funding cuts\" (Washington)",
-    "classify: new candidate e76856b783f \"Indivisible Auburn holds No Kings rally for early voting\" (Auburn)",
-    "classify: new candidate ebcc9649bb8 \"Protester demonstrates outside official office against Medicaid cuts\" (Bakersfield)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-22T04:27:46.388Z",
    "ms": 72278,
@@ -1493,8 +1466,42 @@
     "translate: 12 events"
    ],
    "translated": 12
+  },
+  {
+   "at": "2026-10-28T11:49:09.619Z",
+   "ms": 333348,
+   "discovered": 89,
+   "fetched": 84,
+   "classified": 69,
+   "protests": 20,
+   "summarized": 10,
+   "published": 217,
+   "live": 21,
+   "aiCalls": 26,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 46 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.bostonglobe.com: 404",
+    "rss civil.ge: fetch failed",
+    "rss: 216 protest-word items",
+    "search: 11 single-source stories checked, 13 other newsrooms found",
+    "fetch: 84 ok, 5 failed",
+    "classify: new candidate e37e7b179c0 \"Pro-life groups plan protest outside fundraiser\" (Chicago)",
+    "classify: new candidate e3920d97477 \"Students occupy university institute over education cuts\" (Berlin)",
+    "classify: new candidate edaedd407ba \"Metal and electrical workers face warning strikes after talks fail\" (Oldenburg)",
+    "classify: new candidate ee1b9bd905c \"Residents protest lithium exploration project in Boticas\" (Boticas)",
+    "classify: new candidate e1d89b6bb07 \"Students protest alleged killing of boy by security forces\" (Muzaffarabad)",
+    "classify: new candidate efe2a0ed5d5 \"Students protest short notice for PhD admission interviews\" (Delhi)",
+    "classify: new candidate eb794eb6671 \"Lawyers protest against Allahabad High Court judge\" (Prayagraj)",
+    "classify: new candidate e95cc2f1e6d \"Gen Z group announces nationwide protests for education\" (Hamburg)",
+    "reader: ebb6390dbfd30134-1.json is the same protest as e5720989c18",
+    "reader: 0 published, 0 held, 1 duplicates, 0 rejected, 0 waiting",
+    "translate: 9 events"
+   ],
+   "translated": 9
   }
  ],
- "gdeltCursor": "20261028084500",
- "lastRunAt": "2026-10-28T08:50:32.232Z"
+ "gdeltCursor": "20261028114500",
+ "lastRunAt": "2026-10-28T11:49:09.619Z"
 }
