@@ -1,32 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-28",
-  "count": 32
+  "count": 48
  },
  "runs": [
-  {
-   "at": "2026-10-21T17:16:34.727Z",
-   "ms": 52185,
-   "discovered": 17,
-   "fetched": 16,
-   "classified": 12,
-   "protests": 4,
-   "summarized": 1,
-   "published": 112,
-   "live": 12,
-   "aiCalls": 3,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 4 files, 15 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 26 protest-word items",
-    "fetch: 16 ok, 1 failed",
-    "classify: new candidate efbdb366e5d \"Dombivli residents protest water shutdown outside MIDC office\" (Kalyan)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 1 events"
-   ],
-   "translated": 1
-  },
   {
    "at": "2026-10-21T21:46:25.083Z",
    "ms": 226099,
@@ -1489,8 +1466,35 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-28T05:48:25.950Z",
+   "ms": 211238,
+   "discovered": 63,
+   "fetched": 50,
+   "classified": 44,
+   "protests": 15,
+   "summarized": 6,
+   "published": 213,
+   "live": 23,
+   "aiCalls": 16,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 9 files, 25 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 242 protest-word items",
+    "search: 23 single-source stories checked, 22 other newsrooms found",
+    "fetch: 50 ok, 13 failed",
+    "classify: new candidate ec03f53153e \"Supporters blockade road and protest murder in Thane\" (Thane)",
+    "classify: new candidate e5720989c18 \"Farmers hold tractor protest in Madrid against EU policy\" (Madrid)",
+    "classify: new candidate eb2002d4308 \"Students march to polls in Baton Rouge\" (Baton Rouge)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261028033000",
- "lastRunAt": "2026-10-28T03:24:20.850Z"
+ "gdeltCursor": "20261028054500",
+ "lastRunAt": "2026-10-28T05:48:25.950Z"
 }
