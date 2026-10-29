@@ -59,13 +59,18 @@ async function decode(link: string): Promise<string | undefined> {
   return url && /^https?:\/\//.test(url) ? url : undefined;
 }
 
+/** A story that found nothing is searched again this much later: every other run, so a
+ *  story gets ~8 tries in its 48 hours, not 4 (12 h left FU Berlin's occupation, Oct 2026,
+ *  locked out after one failed search). */
+export const SEARCH_AGAIN_HOURS = 6;
+
 /** Fresh stories one newsroom short, newest first, taken in turn from each country: single-source
  *  candidates, and confirmed events held for a third newsroom (harm, or sources that disagree). */
 export function toSearch(events: Iterable<ProtestEvent>, publishersOf: (id: string) => Set<string>, max: number, now = Date.now()): ProtestEvent[] {
   const byCountry = new Map<string, ProtestEvent[]>();
   for (const e of [...events].sort((a, b) => (a.lastReportAt < b.lastReportAt ? 1 : -1))) {
     if (e.notReal || e.mergedInto || e.withdrawn || e.review === 'rejected') continue;
-    if (hoursSince(e.lastReportAt, now) > 48 || (e.searchedAt && hoursSince(e.searchedAt, now) < 12)) continue;
+    if (hoursSince(e.lastReportAt, now) > 48 || (e.searchedAt && hoursSince(e.searchedAt, now) < SEARCH_AGAIN_HOURS)) continue;
     const n = publishersOf(e.id).size;
     const held = e.stage === 'live' && !e.published && n < 3 && e.reviewReasons.some((r) => r !== 'low-confidence' && r !== 'top-10');
     if (!(e.stage === 'candidate' && n === 1) && !held) continue;
@@ -88,20 +93,20 @@ export async function corroborate(
   const todo = toSearch(events, publishersOf, opts.max);
   const leads: Lead[] = [];
   let blocked = false;
+  let local = 0;
   await pool(todo, 3, async (e) => {
     if (blocked || Date.now() - t0 > opts.budgetMs) return;
     e.searchedAt = new Date().toISOString();
-    try {
-      const orig = originalOf(e.id);
-      const ed = edition(e.place.country, orig?.lang);
-      const title = ed.q === 'local' ? orig!.title.replace(/^\(S\+\)\s*/, '') : e.title;
+    const have = publishersOf(e.id);
+    const seen = new Set<string>();
+    // One query in one Google News edition; returns the other newsrooms it found.
+    const search = async (title: string, params: string) => {
+      const before = seen.size;
       const q = `${title.replace(/["“”„«»]/g, '')} when:3d`;
-      const res = await get(`https://news.google.com/rss/search?q=${encodeURIComponent(q)}&${ed.params}`);
+      const res = await get(`https://news.google.com/rss/search?q=${encodeURIComponent(q)}&${params}`);
       if (res.status === 429) throw new Blocked();
       const xml = await res.text();
-      const have = publishersOf(e.id);
       const want = words(`${title} ${e.place.city}`);
-      const seen = new Set<string>();
       for (const m of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
         if (seen.size >= opts.perEvent || blocked) break;
         const link = m[1].match(/<link>([\s\S]*?)<\/link>/)?.[1];
@@ -120,11 +125,23 @@ export async function corroborate(
         seen.add(host);
         leads.push({ url, title: title.replace(/\s+-\s+[^-]+$/, ''), publishedAt: Number.isFinite(pub) ? new Date(pub).toISOString() : undefined, eventId: e.id });
       }
+      return seen.size - before;
+    };
+    try {
+      const orig = originalOf(e.id);
+      const ed = edition(e.place.country, orig?.lang);
+      // A local newsroom's story is found by its own headline in its own edition (taz → DE:de);
+      // if that finds nothing, try our English title too (DW, The Local, wires).
+      if (ed.q === 'local') {
+        local++;
+        if (await search(orig!.title.replace(/^\(S\+\)\s*/, ''), ed.params)) return;
+      }
+      await search(e.title, edition(e.place.country).params);
     } catch (err) {
       if (err instanceof Blocked) blocked = true;
       else log(`search ${e.id}: ${(err as Error).message.slice(0, 80)}`);
     }
   });
-  log(`search: ${todo.length} single-source stories checked, ${leads.length} other newsrooms found${blocked ? ' (rate-limited, stopped early)' : ''}`);
+  log(`search: ${todo.length} single-source stories checked (${local} in their own language), ${leads.length} other newsrooms found${blocked ? ' (rate-limited, stopped early)' : ''}`);
   return leads;
 }
