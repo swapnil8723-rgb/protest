@@ -1,51 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-29",
-  "count": 91
+  "count": 120
  },
  "runs": [
-  {
-   "at": "2026-10-23T13:48:38.067Z",
-   "ms": 735082,
-   "discovered": 211,
-   "fetched": 199,
-   "classified": 184,
-   "protests": 43,
-   "summarized": 12,
-   "published": 102,
-   "live": 7,
-   "aiCalls": 36,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261023131500 http://data.gdeltproject.org/gdeltv2/20261023131500.export.CSV.zip → 404",
-    "gdelt: 20261023133000 http://data.gdeltproject.org/gdeltv2/20261023133000.export.CSV.zip → 404",
-    "gdelt: 20261023134500 http://data.gdeltproject.org/gdeltv2/20261023134500.export.CSV.zip → 404",
-    "gdelt: 24 files, 71 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 179 protest-word items",
-    "fetch: 199 ok, 12 failed",
-    "classify: new candidate ed6a23c6282 \"Protests against cost of living and clashes in Milan\" (Milan)",
-    "classify: new candidate e0ac2655fa0 \"Students demand the fall of Rama and end to corruption\" (Tirana)",
-    "classify: new candidate e690003129d \"Greek students and teachers march for education conditions\" (Athens)",
-    "classify: new candidate ed281ee7eb8 \"Teatro la Fenice workers announce strikes for season openers\" (Venice)",
-    "classify: new candidate e5b20d27460 \"Students rally in Belgrade ahead of elections\" (Belgrade)",
-    "classify: new candidate ebee9394e6b \"Protesters demand liberalisation of abortion law across Poland\" (Warsaw)",
-    "classify: new candidate ef037dd87bc \"Students protest university funding levels in Vienna\" (Vienna)",
-    "classify: new candidate eac7fc9a7d5 \"Young Europeans protest and occupy schools over education and politics\" (Rome)",
-    "classify: new candidate e5151888287 \"Swadeshi Jagran Manch march against Starlink in New Delhi\" (Delhi)",
-    "classify: new candidate ef15d58b287 \"Students protest in Berlin and Germany\" (Berlin)",
-    "classify: new candidate eb819ec2cfe \"Thanjavur district fishermen end strike\" (Thanjavur)",
-    "classify: new candidate e2bb3677ea1 \"Indonesian students protest government response to toxic haze\" (Palangkaraya)",
-    "classify: new candidate e49034c14c7 \"Madrid housing protest camp enters second month\" (Madrid)",
-    "classify: new candidate eb8bcc594c0 \"TVK and DMK representatives walk out of Tamil Nadu meeting\" (Chennai)",
-    "classify: new candidate e7adf9c0209 \"Progressive groups march in Shivamogga against electoral roll revision\" (Shivamogga)",
-    "classify: new candidate eff5d2ccad7 \"Farmers block Mysuru-Bengaluru highway over sugarcane prices\" (Shrirangapattana)",
-    "classify: new candidate e2929f331ee \"Ver.di calls nationwide warning strikes at private banks\" (Berlin)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 8 events"
-   ],
-   "translated": 8
-  },
   {
    "at": "2026-10-23T16:16:25.532Z",
    "ms": 305862,
@@ -1527,8 +1485,36 @@
     "translate: 8 events"
    ],
    "translated": 8
+  },
+  {
+   "at": "2026-10-29T12:50:30.438Z",
+   "ms": 339800,
+   "discovered": 97,
+   "fetched": 88,
+   "classified": 70,
+   "protests": 20,
+   "summarized": 12,
+   "published": 238,
+   "live": 25,
+   "aiCalls": 29,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 39 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 214 protest-word items",
+    "search: 25 single-source stories checked (7 in their own language), 17 other newsrooms found",
+    "fetch: 88 ok, 9 failed",
+    "classify: new candidate edb12bfc7b7 \"Students clash and suspend classes at Calicut University\" (Thenhippalam)",
+    "classify: new candidate e3054a3ffdd \"Students occupy Alice-Salomon-Hochschule building in Berlin\" (Berlin)",
+    "classify: new candidate eaf9f273eb4 \"Residents protest against asylum center in Opheusden\" (Opheusden)",
+    "classify: new candidate ed4c2824107 \"Youth group plans nationwide demonstrations in Germany\" (Hamburg)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 11 events"
+   ],
+   "translated": 11
   }
  ],
- "gdeltCursor": "20261029094500",
- "lastRunAt": "2026-10-29T09:50:32.534Z"
+ "gdeltCursor": "20261029124500",
+ "lastRunAt": "2026-10-29T12:50:30.438Z"
 }
