@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-29",
-  "count": 32
+  "count": 48
  },
  "runs": [
-  {
-   "at": "2026-10-23T01:05:22.854Z",
-   "ms": 123071,
-   "discovered": 37,
-   "fetched": 36,
-   "classified": 29,
-   "protests": 10,
-   "summarized": 5,
-   "published": 115,
-   "live": 8,
-   "aiCalls": 11,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 14 files, 37 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 40 protest-word items",
-    "fetch: 36 ok, 1 failed",
-    "classify: new candidate e876cd44f03 \"Young Greens call for student demonstrations in Britain\" (London)",
-    "classify: new candidate ed152710e82 \"Youth party leaders vow continued protests over voter list revision\" (Delhi)",
-    "classify: new candidate e4e62771bd5 \"Activists rally in Charlotte demanding police transparency\" (Charlotte)",
-    "classify: new candidate eadfec51684 \"UMass staff and faculty rally for higher pay\" (Amherst)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-23T04:27:48.524Z",
    "ms": 88621,
@@ -1518,8 +1492,32 @@
     "translate: 9 events"
    ],
    "translated": 9
+  },
+  {
+   "at": "2026-10-29T03:41:36.317Z",
+   "ms": 303923,
+   "discovered": 22,
+   "fetched": 18,
+   "classified": 16,
+   "protests": 12,
+   "summarized": 7,
+   "published": 233,
+   "live": 25,
+   "aiCalls": 16,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 1 files, 5 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 220 protest-word items",
+    "search: 25 single-source stories checked (5 in their own language), 25 other newsrooms found",
+    "fetch: 18 ok, 4 failed",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261029033000",
- "lastRunAt": "2026-10-29T03:33:43.465Z"
+ "gdeltCursor": "20261029034500",
+ "lastRunAt": "2026-10-29T03:41:36.317Z"
 }
