@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-29",
-  "count": 68
+  "count": 91
  },
  "runs": [
-  {
-   "at": "2026-10-23T07:44:00.646Z",
-   "ms": 121789,
-   "discovered": 47,
-   "fetched": 47,
-   "classified": 37,
-   "protests": 10,
-   "summarized": 4,
-   "published": 115,
-   "live": 8,
-   "aiCalls": 11,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 34 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 37 protest-word items",
-    "fetch: 47 ok, 0 failed",
-    "classify: new candidate e7003d676dd \"Farmer leaders hold sit-in outside locked Sugarcane Institute\" (Lucknow)",
-    "classify: new candidate e9624b7ccd1 \"BJP plans padayatras and protests ahead of local elections\" (Mangaluru)",
-    "classify: new candidate ee1781fe27a \"Residents and traders protest against Assam Waqf Board\" (Guwahati)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-23T13:48:38.067Z",
    "ms": 735082,
@@ -1523,8 +1498,37 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-10-29T09:50:32.534Z",
+   "ms": 548101,
+   "discovered": 62,
+   "fetched": 56,
+   "classified": 46,
+   "protests": 20,
+   "summarized": 11,
+   "published": 235,
+   "live": 25,
+   "aiCalls": 23,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 24 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 222 protest-word items",
+    "search: 25 single-source stories checked (6 in their own language), 17 other newsrooms found",
+    "fetch: 56 ok, 6 failed",
+    "classify: new candidate efeebea55cf \"IGPN investigates protester injury during clashes in Toulouse\" (Toulouse)",
+    "classify: new candidate ed360a18184 \"Charité healthcare workers strike outside Berlin parliament\" (Berlin)",
+    "classify: new candidate e73d2d3d02c \"Farmers retail staff strike across New Zealand over pay and conditions\" (Tauranga)",
+    "classify: new candidate e3bc3a03560 \"Train drivers strike disrupts Cercanías lines in Madrid\" (Madrid)",
+    "classify: new candidate e1ca8f7219d \"Gen Z youth plan Halloween protest in Hamburg\" (Hamburg)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 8 events"
+   ],
+   "translated": 8
   }
  ],
- "gdeltCursor": "20261029064500",
- "lastRunAt": "2026-10-29T06:49:33.531Z"
+ "gdeltCursor": "20261029094500",
+ "lastRunAt": "2026-10-29T09:50:32.534Z"
 }
