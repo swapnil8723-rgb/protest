@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-29",
-  "count": 120
+  "count": 136
  },
  "runs": [
-  {
-   "at": "2026-10-23T16:16:25.532Z",
-   "ms": 305862,
-   "discovered": 73,
-   "fetched": 69,
-   "classified": 54,
-   "protests": 21,
-   "summarized": 7,
-   "published": 103,
-   "live": 9,
-   "aiCalls": 18,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 10 files, 49 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 166 protest-word items",
-    "fetch: 69 ok, 4 failed",
-    "classify: new candidate e45893e7e1b \"Nice bans central protests and deploys security forces\" (Nice)",
-    "classify: new candidate e3784f4334a \"Students to hold End Rape Culture protest on campus\" (Fargo)",
-    "classify: new candidate e6a6cf1f1e0 \"Hotel workers strike in Chicago\" (Chicago)",
-    "classify: new candidate e1e2853f4ac \"Student-founded party mounts election challenge against Vucic\" (Belgrade)",
-    "classify: new candidate e94d1cfa595 \"Kingston residents protest sexual violence on campus\" (Kingston upon Thames)",
-    "classify: new candidate e2a68badcac \"Left groups march in Puducherry against SIR and CEC\" (Puducherry)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-23T17:12:52.821Z",
    "ms": 239481,
@@ -1513,8 +1485,42 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-10-29T15:50:31.284Z",
+   "ms": 499382,
+   "discovered": 106,
+   "fetched": 92,
+   "classified": 59,
+   "protests": 19,
+   "summarized": 5,
+   "published": 239,
+   "live": 25,
+   "aiCalls": 16,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 55 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 208 protest-word items",
+    "search: 5 single-source stories checked (3 in their own language), 9 other newsrooms found",
+    "fetch: 92 ok, 14 failed",
+    "classify: batch failed: The operation was aborted due to timeout",
+    "classify: new candidate eff3d94d416 \"Statewide protest day against corporate control of natural resources\" (Bhubaneswar)",
+    "classify: new candidate eb4cb7de25a \"Healthcare diagnostic technicians protest outside health ministry\" (Amadora)",
+    "classify: new candidate e88a46eb1f8 \"Retailers close stores due to upcoming youth protests\" (Düsseldorf)",
+    "classify: new candidate e2e1f1a3f5d \"Farmers plan highway blockade over sugar price revision\" (Belagavi)",
+    "classify: new candidate ea55430dab1 \"Youth initiative plans nationwide demonstrations\" (Frankfurt am Main)",
+    "classify: new candidate e4bb1d4d881 \"Congress party demonstration for unorganised workers' bonus\" (Puducherry)",
+    "classify: new candidate e33b511f973 \"IG Metall union announces warning strikes in metal industry\" (Berlin)",
+    "classify: new candidate e6bb5ba8698 \"Indigenous groups protest resource legislation in Manitoba\" (Winnipeg)",
+    "classify: new candidate e8ab8f264ef \"Students block university buildings in Berlin and Hamburg\" (Berlin)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261029124500",
- "lastRunAt": "2026-10-29T12:50:30.438Z"
+ "gdeltCursor": "20261029154500",
+ "lastRunAt": "2026-10-29T15:50:31.284Z"
 }

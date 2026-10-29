@@ -13,70 +13,93 @@
   "citySlug": "tirana",
   "regionSlug": "tirana"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
-  "students",
-  "education",
-  "prices"
+  "corruption",
+  "governance",
+  "anti-government"
  ],
  "kind": "multi-day",
- "startedOn": "2024-05-01",
+ "startedOn": "2026-10-13",
  "status": "ongoing",
- "vibe": "wrapped-up",
+ "vibe": "heating-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": false,
+ "review": "pending",
+ "reviewReasons": [
+  "top-10"
+ ],
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating over poor education conditions, government corruption, high living costs, and a controversial luxury coastal project.",
-  "want": "Demonstrators demand the resignation of Prime Minister Edi Rama, lower tuition fees, and the cancellation of a controversial tourism project.",
-  "changed": "Oct 25: Prime Minister Edi Rama announced plans to introduce new fines for individuals remaining in violent crowds."
+  "why": "Protesters are demonstrating against government corruption, poor education standards, unemployment, and a luxury coastal development project.",
+  "want": "The resignation of Prime Minister Edi Rama, lower tuition fees, and increased state investment in education.",
+  "changed": "Oct 29: Opposition lawmakers disrupted a parliament session with flares following weeks of street protests."
  },
- "summary": "Students and opposition supporters have been holding intermittent protests in Tirana, Albania, which escalated into violent clashes with police near government buildings. Organised partly by student groups and the centre-right opposition led by Sali Berisha, the demonstrators are calling for the resignation of Prime Minister Edi Rama, lower tuition fees, and measures against corruption and high living costs. Protesters threw stones, fireworks, and set fire to objects near the Ministry of Education and other government offices. In response, police deployed riot squads, tear gas, water cannons, and rubber bullets. Authorities reported numerous arrests and hundreds of injuries among both protesters and police officers.",
+ "summary": "Since mid-October 2026, student-led protests have occurred in Tirana and other Albanian cities, later joined by opposition parties and other groups. Demonstrators are calling for the resignation of Prime Minister Edi Rama, citing corruption, poor education conditions, and lack of jobs. The movement originated from earlier summer protests against a luxury coastal development project. On October 24, a major rally in Tirana saw clashes between protesters and police, with authorities using water cannons, tear gas, and rubber bullets after demonstrators threw stones and set fires to government buildings. Prime Minister Edi Rama has condemned the violence, blaming foreign actors for misinformation, and announced new legislation to impose fines on participants in violent protests. Opposition leader Sali Berisha has expressed support for the protesters and criticized the government's response.",
  "organizers": [
-  "Student groups",
-  "Democratic Party"
+  "Democratic Party of Albania",
+  "Student groups"
  ],
  "demands": [
   "Resignation of Prime Minister Edi Rama",
   "Lower tuition fees",
   "Greater state investment in education",
-  "Action against government corruption"
+  "Action against corruption"
  ],
- "response": "Authorities deployed 2,500 police officers who used water cannons, tear gas, and rubber bullets against crowds. Prime Minister Edi Rama blamed foreign actors and online misinformation, offered symbolic dialogue using red cushions, and later announced plans for fines against violent protesters.",
+ "response": "Prime Minister Edi Rama condemned the violence, pledged a persistent state response, and introduced new legislation to fine participants in protests that result in property damage or violence. Police have deployed water cannons, tear gas, and rubber bullets to disperse crowds.",
  "numbers": {
+  "crowd": {
+   "value": 2500,
+   "text": "Police deployed more than 2,500 officers in Tirana according to the New York Post.",
+   "sources": [
+    5
+   ]
+  },
+  "arrests": {
+   "value": 5,
+   "text": "At least five people were arrested according to the New York Post.",
+   "sources": [
+    5
+   ]
+  },
   "injuries": {
    "value": 300,
-   "text": "more than 300 protesters and police injured",
+   "text": "Authorities said more than 300 protesters and police have been injured.",
    "sources": [
-    4
+    1
    ]
   }
  },
  "updates": [
   {
-   "at": "2026-10-21",
-   "text": "Prime Minister Edi Rama accused protesters of trying to destabilise the country and offered a symbolic dialogue.",
+   "at": "2026-10-13",
+   "text": "Student-led protests began in Tirana, initially focusing on education and corruption.",
    "sources": [
-    1
+    2,
+    9
    ]
   },
   {
    "at": "2026-10-24",
-   "text": "Thousands gathered in Tirana where clashes broke out, with police using tear gas, water cannons, and rubber bullets.",
+   "text": "Thousands rallied in Tirana; clashes occurred between police and protesters near government buildings.",
    "sources": [
+    1,
     2,
-    3,
     4,
-    5,
-    7,
-    8
+    6
    ]
   },
   {
    "at": "2026-10-25",
-   "text": "Prime Minister Edi Rama vowed to introduce new fines for individuals participating in violent or destructive crowds.",
+   "text": "Prime Minister Edi Rama announced new measures to fine protesters involved in violent gatherings.",
+   "sources": [
+    8,
+    9
+   ]
+  },
+  {
+   "at": "2026-10-29",
+   "text": "Opposition lawmakers disrupted a parliamentary session with flares in support of the protest movement.",
    "sources": [
     9
    ]
@@ -85,220 +108,235 @@
  "sources": [
   {
    "n": 1,
-   "url": "https://balkaninsight.com/2026/10/21/albanias-students-demand-the-fall-of-rama-and-an-end-to-corruption/bi/",
-   "publisher": "balkaninsight.com",
-   "title": "Albania’s Students Demand the Fall of Rama and an End to Corruption",
-   "publishedAt": "2026-10-21T14:54:34.000Z"
-  },
-  {
-   "n": 2,
    "url": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic",
    "publisher": "euronews.com",
    "title": "Live - Police deploy teargas and water cannons against protesters in Tirana",
    "publishedAt": "2026-10-24T12:56:38.000Z"
   },
   {
-   "n": 3,
+   "n": 2,
    "url": "https://www.lefigaro.fr/international/en-albanie-des-milliers-de-manifestants-contre-la-corruption-et-une-pluie-de-lacrymogenes-20261024",
    "publisher": "lefigaro.fr",
    "title": "En Albanie, des milliers de manifestants contre la corruption et une pluie de lacrymogènes",
    "publishedAt": "2026-10-24T14:48:50.000Z"
   },
   {
-   "n": 4,
-   "url": "https://www.aljazeera.com/news/2026/10/24/thousands-gather-at-new-albanian-antigovernment-rally?traffic_source=rss",
-   "publisher": "aljazeera.com",
-   "title": "Thousands gather at new Albanian antigovernment rally",
-   "publishedAt": "2026-10-24T18:30:56.000Z"
+   "n": 3,
+   "url": "https://www.arabnews.com/world/thousands-gather-at-new-albanian-anti-government-rally-3008082",
+   "publisher": "arabnews.com",
+   "title": "Thousands gather at new Albanian anti-government rally",
+   "publishedAt": "2026-10-24T16:18:16.437Z"
   },
   {
-   "n": 5,
+   "n": 4,
    "url": "https://www.cei.int/ansa/181680",
    "publisher": "cei.int",
    "title": "News | CEI"
   },
   {
-   "n": 6,
+   "n": 5,
    "url": "https://nypost.com/2026/10/24/world-news/protests-spread-across-europe-as-demonstrators-clash-with-police-set-fires/",
    "publisher": "nypost.com",
    "title": "Europe falls under siege as demonstrators battle police, set fires in cities across continent",
    "publishedAt": "2026-10-25T00:41:59.000Z"
   },
   {
-   "n": 7,
+   "n": 6,
    "url": "https://www.nationthailand.com/news/world/40072709",
    "publisher": "nationthailand.com",
    "title": "Protesters clash with police in Italy, Albania and Belgium nations on Oct 24",
    "publishedAt": "2026-10-25T04:15:00.000Z"
   },
   {
-   "n": 8,
+   "n": 7,
    "url": "https://timesofindia.indiatimes.com/world/europe/watch-protesters-launch-fireworks-at-police-as-fiery-clashes-take-place-in-albania/articleshow/135183648.cms",
    "publisher": "timesofindia.indiatimes.com",
    "title": "Watch: Protesters launch fireworks at police as fiery clashes take place in Albania",
    "publishedAt": "2026-10-25T05:54:00.000Z"
   },
   {
-   "n": 9,
+   "n": 8,
    "url": "https://www.freemalaysiatoday.com/category/world/2026/10/26/embattled-albanian-pm-vows-fines-for-violent-protesters",
    "publisher": "freemalaysiatoday.com",
    "title": "Embattled Albanian PM vows fines for violent protesters",
    "publishedAt": "2026-10-25T23:50:03.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://www.thehindu.com/news/international/albania-opposition-disrupts-parliament-session-after-violent-street-protests/article71640762.ece",
+   "publisher": "thehindu.com",
+   "title": "Albania opposition disrupts parliament session after violent street protests",
+   "publishedAt": "2026-10-29T13:25:29.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.95,
  "publishers": 9,
- "reports24h": 0,
+ "reports24h": 3,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 3,
  "firstSeenAt": "2026-10-23T13:50:11.626Z",
- "lastReportAt": "2026-10-25T23:50:03.000Z",
- "lastCheckedAt": "2026-10-29T12:53:54.977Z",
- "updatedAt": "2026-10-26T02:19:36.769Z",
+ "lastReportAt": "2026-10-29T13:25:29.000Z",
+ "lastCheckedAt": "2026-10-29T15:56:22.940Z",
+ "updatedAt": "2026-10-29T15:55:51.131Z",
  "responseSources": [
-  2,
-  3,
-  4,
+  1,
+  6,
+  8,
   9
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-26T02:19:36.769Z",
- "summaryOf": "4747e94d4b0e",
+ "summarizedAt": "2026-10-29T15:55:51.131Z",
+ "summaryOf": "7431fb7eb6d8",
  "publishedAt": "2026-10-24T16:04:50.046Z",
  "i18n": {
-  "of": "72eaf5307913fdb2",
-  "at": "2026-10-26T02:20:39.652Z",
+  "of": "3142308ca54f9163",
+  "at": "2026-10-29T15:57:35.196Z",
   "tries": 1,
   "hi": {
-   "title": "तिराना में भ्रष्टाचार और प्रधानमंत्री रामा के खिलाफ छात्रों और विपक्ष का प्रदर्शन",
-   "seoTitle": "तिराना में भ्रष्टाचार और रामा के खिलाफ प्रदर्शन",
+   "title": "तिराना में भ्रष्टाचार और प्रधानमंत्री रामा के खिलाफ छात्रों और विपक्ष का विरोध प्रदर्शन",
+   "seoTitle": "तिराना में भ्रष्टाचार और रामा के खिलाफ विरोध",
    "tea": {
-    "why": "प्रदर्शनकारी खराब शिक्षा स्थितियों, सरकारी भ्रष्टाचार, उच्च जीवन लागत और एक विवादित लग्जरी तटीय परियोजना के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शनकारी प्रधानमंत्री एदी रामा के इस्तीफे, कम ट्यूशन फीस और एक विवादित पर्यटन परियोजना को रद्द करने की मांग कर रहे हैं।",
-    "changed": "25 अक्तूबर: प्रधानमंत्री एदी रामा ने हिंसक भीड़ में शामिल व्यक्तियों पर नया जुर्माना लगाने की योजना की घोषणा की।"
+    "why": "प्रदर्शनकारी सरकारी भ्रष्टाचार, शिक्षा के खराब स्तर, बेरोजगारी और एक लक्जरी तटीय विकास परियोजना के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "प्रधानमंत्री एदी रामा का इस्तीफा, कम ट्यूशन फीस और शिक्षा में अधिक सरकारी निवेश।",
+    "changed": "29 अक्टूबर: विपक्षी सांसदों ने हफ्तों के सड़क विरोध प्रदर्शनों के बाद संसद सत्र में फ्लेयर्स जलाकर व्यवधान डाला।"
    },
-   "summary": "अल्बानिया के तिराना में छात्र और विपक्ष के समर्थक रुक-रुक कर प्रदर्शन कर रहे हैं, जो सरकारी इमारतों के पास पुलिस के साथ हिंसक झड़पों में बदल गए। आंशिक रूप से छात्र समूहों और साली बेरिशा के नेतृत्व वाले केंद्र-दक्षिणपंथी विपक्ष द्वारा आयोजित, ये प्रदर्शनकारी प्रधानमंत्री एदी रामा के इस्तीफे, कम ट्यूशन फीस और भ्रष्टाचार तथा उच्च जीवन लागत के खिलाफ उपायों की मांग कर रहे हैं। प्रदर्शनकारियों ने शिक्षा मंत्रालय और अन्य सरकारी कार्यालयों के पास पत्थर और आतिशबाजी फेंकी तथा वस्तुओं में आग लगा दी। इसके जवाब में पुलिस ने दंगा रोधी दस्तों, आंसू गैस, पानी की बौछारों और रबर की गोलियों का इस्तेमाल किया। अधिकारियों ने प्रदर्शनकारियों और पुलिस अधिकारियों दोनों के बीच कई गिरफ्तारियों और सैकड़ों घायलों की सूचना दी।",
+   "summary": "अक्टूबर 2026 के मध्य से, तिराना और अन्य अल्बानियाई शहरों में छात्र-नेतृत्व वाले विरोध प्रदर्शन हुए हैं, जिनमें बाद में विपक्षी दल और अन्य समूह शामिल हो गए। प्रदर्शनकारी भ्रष्टाचार, शिक्षा की खराब स्थिति और नौकरियों की कमी का हवाला देते हुए प्रधानमंत्री एदी रामा के इस्तीफे की मांग कर रहे हैं। यह आंदोलन एक लक्जरी तटीय विकास परियोजना के खिलाफ गर्मियों के शुरुआती विरोध प्रदर्शनों से शुरू हुआ था। 24 अक्टूबर को, तिराना में एक बड़ी रैली में प्रदर्शनकारियों और पुलिस के बीच झड़पें हुईं, जिसमें प्रदर्शनकारियों द्वारा पत्थर फेंकने और सरकारी इमारतों में आग लगाने के बाद अधिकारियों ने पानी की बौछारें, आंसू गैस और रबर की गोलियों का इस्तेमाल किया। प्रधानमंत्री एदी रामा ने हिंसा की निंदा की है, गलत सूचना के लिए विदेशी तत्वों को दोषी ठहराया है और हिंसक विरोध प्रदर्शनों में भाग लेने वालों पर जुर्माना लगाने के लिए नया कानून पेश किया है। विपक्षी नेता साली बेरिशा ने प्रदर्शनकारियों के प्रति समर्थन व्यक्त किया है और सरकार की प्रतिक्रिया की आलोचना की है।",
    "demands": [
     "प्रधानमंत्री एदी रामा का इस्तीफा",
     "कम ट्यूशन फीस",
-    "शिक्षा में अधिक राज्य निवेश",
-    "सरकारी भ्रष्टाचार के खिलाफ कार्रवाई"
+    "शिक्षा में अधिक सरकारी निवेश",
+    "भ्रष्टाचार के खिलाफ कार्रवाई"
    ],
-   "response": "अधिकारियों ने 2,500 पुलिसकर्मियों को तैनात किया जिन्होंने भीड़ के खिलाफ पानी की बौछारों, आंसू गैस और रबर की गोलियों का इस्तेमाल किया। प्रधानमंत्री एदी रामा ने विदेशी अभिनेताओं और ऑनलाइन गलत सूचना को दोषी ठहराया, लाल कुशन का उपयोग करके प्रतीकात्मक संवाद की पेशकश की, और बाद में हिंसक प्रदर्शनकारियों के खिलाफ जुर्माने की योजनाओं की घोषणा की।",
+   "response": "प्रधानमंत्री एदी रामा ने हिंसा की निंदा की, निरंतर सरकारी प्रतिक्रिया का वादा किया और संपत्ति के नुकसान या हिंसा का कारण बनने वाले विरोध प्रदर्शनों में भाग लेने वालों पर जुर्माना लगाने के लिए नया कानून पेश किया। पुलिस ने भीड़ को तितर-बितर करने के लिए पानी की बौछारों, आंसू गैस और रबर की गोलियों का इस्तेमाल किया है।",
    "updates": [
-    "प्रधानमंत्री एदी रामा ने प्रदर्शनकारियों पर देश को अस्थिर करने का प्रयास करने का आरोप लगाया और एक प्रतीकात्मक संवाद की पेशकश की।",
-    "तिराना में हजारों लोग एकत्र हुए जहां झड़पें हुईं, जिसमें पुलिस ने आंसू गैस, पानी की बौछारों और रबर की गोलियों का इस्तेमाल किया।",
-    "प्रधानमंत्री एदी रामा ने हिंसक या विनाशकारी भीड़ में भाग लेने वाले व्यक्तियों पर नए जुर्माने लगाने की कसम खाई।"
+    "तिराना में छात्र-नेतृत्व वाले विरोध प्रदर्शन शुरू हुए, जो शुरू में शिक्षा और भ्रष्टाचार पर केंद्रित थे।",
+    "तिराना में हजारों लोग रैली में शामिल हुए; सरकारी इमारतों के पास पुलिस और प्रदर्शनकारियों के बीच झड़पें हुईं।",
+    "प्रधानमंत्री एदी रामा ने हिंसक सभाओं में शामिल प्रदर्शनकारियों पर जुर्माना लगाने के लिए नए उपायों की घोषणा की।",
+    "विपक्षी सांसदों ने विरोध आंदोलन के समर्थन में फ्लेयर्स के साथ संसदीय सत्र में व्यवधान डाला।"
    ],
    "conflicts": [],
    "numbers": {
-    "injuries": "300 से अधिक प्रदर्शनकारी और पुलिस घायल"
+    "crowd": "न्यूयॉर्क पोस्ट के अनुसार, पुलिस ने तिराना में 2,500 से अधिक अधिकारियों को तैनात किया।",
+    "arrests": "न्यूयॉर्क पोस्ट के अनुसार कम से कम पांच लोगों को गिरफ्तार किया गया।",
+    "injuries": "अधिकारियों ने कहा कि 300 से अधिक प्रदर्शनकारी और पुलिसकर्मी घायल हुए हैं।"
    }
   },
   "mr": {
-   "title": "तिरानामध्ये भ्रष्टाचार आणि पंतप्रधान रामा यांच्या विरोधात विद्यार्थी व विरोधकांचे आंदोलन",
-   "seoTitle": "तिरानामध्ये भ्रष्टाचार आणि रामाविरोधी आंदोलन",
+   "title": "तिरानामध्ये भ्रष्टाचार आणि पंतप्रधान रामा यांच्या विरोधात विद्यार्थी आणि विरोधकांचे आंदोलन",
+   "seoTitle": "तिरानामध्ये भ्रष्टाचार आणि रामा यांच्या विरोधात आंदोलन",
    "tea": {
-    "why": "आंदोलक निकृष्ट शैक्षणिक परिस्थिती, सरकारी भ्रष्टाचार, वाढलेला महागाई खर्च आणि एका वादग्रस्त लक्झरी किनारपट्टी प्रकल्पाच्या निषेधार्थ निदर्शने करत आहेत.",
-    "want": "निदर्शक पंतप्रधान एडी रामा यांच्या राजीनाम्याची, कमी शिक्षण शुल्काची आणि एका वादग्रस्त पर्यटन प्रकल्पाच्या रद्दीकरणाची मागणी करत आहेत.",
-    "changed": "25 ऑक्टोबर: पंतप्रधान एडी रामा यांनी हिंसक गर्दीत सहभागी राहणाऱ्या व्यक्तींवर नवीन दंड आकारण्याच्या योजनांची घोषणा केली."
+    "why": "निदर्शक सरकारी भ्रष्टाचार, शिक्षणाचा खालावलेला दर्जा, बेरोजगारी आणि एका लक्झरी किनारी विकास प्रकल्पाच्या विरोधात निदर्शने करत आहेत.",
+    "want": "पंतप्रधान एदी रामा यांचा राजीनामा, कमी शिकवणी शुल्क आणि शिक्षणातील वाढीव सरकारी गुंतवणूक.",
+    "changed": "२९ ऑक्टोबर: विरोधी पक्षाच्या आमदारांनी अनेक आठवड्यांच्या रस्त्यावरील आंदोलनांनंतर संसदेच्या अधिवेशनात फ्लेअर्स जाळून व्यत्यय आणला."
    },
-   "summary": "अल्बेनियाच्या तिरानामध्ये विद्यार्थी आणि विरोधकांचे समर्थक अधूनमधून निदर्शने करत आहेत, जी सरकारी इमारतीजवळ पोलिसांसोबतच्या हिंसक संघर्षात रूपांतरित झाली. अंशतः विद्यार्थी गट आणि साले बेरिशा यांच्या नेतृत्वाखालील मध्य-उजव्या विरोधी पक्षाद्वारे आयोजित, निदर्शक पंतप्रधान एडी रामा यांच्या राजीनाम्याची, कमी शिक्षण शुल्काची आणि भ्रष्टाचार व उच्च राहणीमान खर्चाविरुद्ध उपायांची मागणी करत आहेत. आंदोलकांनी शिक्षण मंत्रालयाजवळ आणि इतर सरकारी कार्यालयांजवळ दगड व फटाके फेकले तसेच वस्तू पेटवून दिल्या. याला प्रत्युत्तर म्हणून पोलिसांनी दंगलविरोधी पथके, अश्रुधूर, पाण्याचे फवारे आणि रबर बुलेटचा वापर केला. अधिकाऱ्यांनी आंदोलक आणि पोलीस अधिकारी या दोन्ही बाजूंकडील numerose arrests (अनेक arrests) आणि शेकडो जण जखमी झाल्याचे वृत्त दिले.",
+   "summary": "ऑक्टोबर २०२६ च्या मध्यापासून, तिराना आणि इतर अल्बानियाई शहरांमध्ये विद्यार्थी-नेतृत्वाखालील निदर्शने झाली आहेत, ज्यामध्ये नंतर विरोधी पक्ष आणि इतर गट सामील झाले. निदर्शक भ्रष्टाचार, शिक्षणाची खराब स्थिती आणि नोकऱ्यांचा अभाव या कारणांमुळे पंतप्रधान एदी रामा यांच्या राजीनाम्याची मागणी करत आहेत. हे आंदोलन एका लक्झरी किनारी विकास प्रकल्पाविरुद्धच्या उन्हाळ्यातील सुरुवातीच्या निदर्शनांतून निर्माण झाले आहे. २४ ऑक्टोबर रोजी, तिरानामध्ये एका मोठ्या रॅलीत निदर्शक आणि पोलीस यांच्यात चकमक झाली, ज्यामध्ये निदर्शकांनी दगडफेक केल्यावर आणि सरकारी इमारतींना आग लावल्यावर अधिकाऱ्यांनी पाण्याचे फवारे, अश्रूधूर आणि रबरच्या गोळ्यांचा वापर केला. पंतप्रधान एदी रामा यांनी हिंसाचाराचा निषेध केला आहे, चुकीच्या माहितीसाठी परकीय घटकांना जबाबदार धरले आहे आणि हिंसक निदर्शनांमध्ये सहभागी होणाऱ्यांवर दंड आकारण्यासाठी नवीन कायदा जाहीर केला आहे. विरोधी पक्षनेते साली बेरिशा यांनी निदर्शकांना पाठिंबा दर्शविला आहे आणि सरकारच्या प्रतिसादावर टीका केली आहे.",
    "demands": [
-    "पंतप्रधान एडी रामा यांचा राजीनामा",
-    "कमी शिक्षण शुल्क",
-    "शिक्षणात अधिक राज्य गुंतवणूक",
-    "सरकारी भ्रष्टाचाराविरुद्ध कारवाई"
+    "पंतप्रधान एदी रामा यांचा राजीनामा",
+    "कमी शिकवणी शुल्क",
+    "शिक्षणातील वाढीव सरकारी गुंतवणूक",
+    "भ्रष्टाचाराविरुद्ध कारवाई"
    ],
-   "response": "धिकाऱ्यांनी 2,500 पोलीस अधिकारी तैनात केले ज्यांनी गर्दीविरुद्ध पाण्याचे फवारे, अश्रुधूर आणि रबर बुलेटचा वापर केला. पंतप्रधान एडी रामा यांनी परदेशी घटकांना आणि ऑनलाइन खोट्या माहितीला जबाबदार धरले, लाल कुशनचा वापर करून प्रतिकात्मक संवादाची ऑफर दिली आणि नंतर हिंसक आंदोलकांवरील दंडाच्या योजनांची घोषणा केली.",
+   "response": "पंतप्रधान एदी रामा यांनी हिंसाचाराचा निषेध केला, सातत्यपूर्ण सरकारी प्रतिसादाचे आश्वासन दिले आणि मालमत्तेचे नुकसान किंवा हिंसाचार घडवून आणणाऱ्या निदर्शनांमध्ये सहभागी होणाऱ्यांवर दंड आकारण्यासाठी नवीन कायदा आणला. पोलिसांनी गर्दी पांगवण्यासाठी पाण्याचे फवारे, अश्रूधूर आणि रबरच्या गोळ्यांचा वापर केला आहे.",
    "updates": [
-    "पंतप्रधान एडी रामा यांनी आंदोलकांवर देशाला अस्थिर करण्याचा प्रयत्न केल्याचा आरोप केला आणि एका प्रतिकात्मक संवादाची ऑफर दिली.",
-    "तिरानामध्ये हजारो लोक जमले जिथे संघर्ष उसळला, आणि पोलिसांनी अश्रुधूर, पाण्याचे फवारे व रबर बुलेटचा वापर केला.",
-    "पंतप्रधान एडी रामा यांनी हिंसक किंवा विध्वंसक गर्दीत सहभागी होणाऱ्या व्यक्तींवर नवीन दंड लागू करण्याची शपथ घेतली."
+    "तिरानामध्ये विद्यार्थी-नेतृत्वाखालील निदर्शने सुरू झाली, जी सुरुवातीला शिक्षण आणि भ्रष्टाचारावर केंद्रित होती.",
+    "तिरानामध्ये हजारो लोक रॅलीत सहभागी झाले; सरकारी इमारतींजवळ पोलीस आणि निदर्शक यांच्यात चकमक झाली.",
+    "पंतप्रधान एदी रामा यांनी हिंसक सभांमध्ये सहभागी होणाऱ्या निदर्शकांवर दंड आकारण्यासाठी नवीन उपाययोजना जाहीर केल्या.",
+    "विरोधी पक्षाच्या आमदारांनी आंदोलन चळवळीच्या समर्थनार्थ फ्लेअर्ससह संसदीय अधिवेशनात व्यत्यय आणला."
    ],
    "conflicts": [],
    "numbers": {
-    "injuries": "300 हून अधिक आंदोलक आणि पोलीस जखमी"
+    "crowd": "न्यूयॉर्क पोस्टनुसार, पोलिसांनी तिरानामध्ये २,५०० हून अधिक अधिकारी तैनात केले होते.",
+    "arrests": "न्यूयॉर्क पोस्टनुसार किमान पाच जणांना अटक करण्यात आली.",
+    "injuries": "अधिकाऱ्यांनी सांगितले की ३०० हून अधिक निदर्शक आणि पोलीस जखमी झाले आहेत."
    }
   },
   "es": {
-   "title": "Estudiantes y oposición protestan en Tirana contra la corrupción y el primer ministro Rama",
+   "title": "Estudiantes y oposición protestan en Tirana contra la corrupción y el Primer Ministro Rama",
    "seoTitle": "Protesta en Tirana contra la corrupción y Rama",
    "tea": {
-    "why": "Los manifestantes se manifiestan por las malas condiciones educativas, la corrupción gubernamental, el alto costo de vida y un polémico proyecto costero de lujo.",
-    "want": "Los manifestantes exigen la dimisión del primer ministro Edi Rama, tasas de matrícula más bajas y la cancelación de un polémico proyecto turístico.",
-    "changed": "25 de octubre: El primer ministro Edi Rama anunció planes para introducir nuevas multas para las personas que permanezcan en multitudes violentas."
+    "why": "Los manifestantes se manifiestan contra la corrupción gubernamental, los bajos estándares educativos, el desempleo y un proyecto de desarrollo costero de lujo.",
+    "want": "La dimisión del Primer Ministro Edi Rama, tasas de matrícula más bajas y una mayor inversión estatal en educación.",
+    "changed": "29 de octubre: Legisladores de la oposición interrumpieron una sesión parlamentaria con bengalas tras semanas de protestas callejeras."
    },
-   "summary": "Estudiantes y simpatizantes de la oposición han estado realizando protestas intermitentes en Tirana, Albania, las cuales escalaron en enfrentamientos violentos con la policía cerca de edificios gubernamentales. Organizadas en parte por grupos estudiantiles y la oposición de centroderecha liderada por Sali Berisha, los manifestantes exigen la dimisión del primer ministro Edi Rama, tasas de matrícula más bajas y medidas contra la corrupción y el alto costo de vida. Los manifestantes arrojaron piedras, fuegos artificiales y prendieron fuego a objetos cerca del Ministerio de Educación y otras oficinas gubernamentales. En respuesta, la policía desplegó unidades antidisturbios, gases lacrimógenos, cañones de agua y balas de goma. Las autoridades informaron de numerosas detenciones y cientos de heridos tanto entre los manifestantes como entre los agentes de policía.",
+   "summary": "Desde mediados de octubre de 2026, se han producido protestas lideradas por estudiantes en Tirana y otras ciudades albanesas, a las que más tarde se unieron partidos de la oposición y otros grupos. Los manifestantes piden la dimisión del Primer Ministro Edi Rama, citando la corrupción, las malas condiciones educativas y la falta de empleo. El movimiento se originó a partir de protestas anteriores en verano contra un proyecto de desarrollo costero de lujo. El 24 de octubre, una gran manifestación en Tirana vio enfrentamientos entre manifestantes y la policía, con las autoridades utilizando cañones de agua, gases lacrimógenos y balas de goma después de que los manifestantes lanzaran piedras y prendieran fuego a edificios gubernamentales. El Primer Ministro Edi Rama ha condenado la violencia, culpando a actores extranjeros de la desinformación, y ha anunciado una nueva legislación para imponer multas a los participantes en protestas violentas. El líder de la oposición, Sali Berisha, ha expresado su apoyo a los manifestantes y ha criticado la respuesta del gobierno.",
    "demands": [
-    "Dimisión del primer ministro Edi Rama",
+    "Dimisión del Primer Ministro Edi Rama",
     "Tasas de matrícula más bajas",
     "Mayor inversión estatal en educación",
-    "Acción contra la corrupción gubernamental"
+    "Acción contra la corrupción"
    ],
-   "response": "Las autoridades desplegaron 2500 policías que utilizaron cañones de agua, gases lacrimógenos y balas de goma contra las multitudes. El primer ministro Edi Rama culpó a actores extranjeros y a la desinformación en línea, ofreció un diálogo simbólico utilizando cojines rojos y posteriormente anunció planes de multas contra los manifestantes violentos.",
+   "response": "El Primer Ministro Edi Rama condenó la violencia, prometió una respuesta estatal persistente e introdujo una nueva legislación para multar a los participantes en protestas que resulten en daños a la propiedad o violencia. La policía ha desplegado cañones de agua, gases lacrimógenos y balas de goma para dispersar a las multitudes.",
    "updates": [
-    "El primer ministro Edi Rama acusó a los manifestantes de intentar desestabilizar el país y ofreció un diálogo simbólico.",
-    "Miles de personas se reunieron en Tirana donde estallaron enfrentamientos, y la policía utilizó gases lacrimógenos, cañones de agua y balas de goma.",
-    "El primer ministro Edi Rama prometió introducir nuevas multas para las personas que participen en multitudes violentas o destructivas."
+    "Las protestas lideradas por estudiantes comenzaron en Tirana, centrándose inicialmente en la educación y la corrupción.",
+    "Miles de personas se manifestaron en Tirana; se produjeron enfrentamientos entre la policía y los manifestantes cerca de los edificios gubernamentales.",
+    "El Primer Ministro Edi Rama anunció nuevas medidas para multar a los manifestantes involucrados en reuniones violentas.",
+    "Los legisladores de la oposición interrumpieron una sesión parlamentaria con bengalas en apoyo al movimiento de protesta."
    ],
    "conflicts": [],
    "numbers": {
-    "injuries": "más de 300 manifestantes y policías heridos"
+    "crowd": "La policía desplegó más de 2.500 agentes en Tirana según el New York Post.",
+    "arrests": "Al menos cinco personas fueron arrestadas según el New York Post.",
+    "injuries": "Las autoridades dijeron que más de 300 manifestantes y policías han resultado heridos."
    }
   },
   "fr": {
    "title": "Des étudiants et l'opposition manifestent à Tirana contre la corruption et le Premier ministre Rama",
    "seoTitle": "Manifestation à Tirana contre la corruption et Rama",
    "tea": {
-    "why": "Les manifestants protestent contre les mauvaises conditions d'éducation, la corruption gouvernementale, le coût de la vie élevé et un projet côtier de luxe controversé.",
-    "want": "Les manifestants exigent la démission du Premier ministre Edi Rama, des frais de scolarité moins élevés et l'annulation d'un projet touristique controversé.",
-    "changed": "25 oct. : Le Premier ministre Edi Rama a annoncé des projets visant à introduire de nouvelles amendes pour les individus restant dans des foules violentes."
+    "why": "Les manifestants protestent contre la corruption gouvernementale, la faiblesse des normes éducatives, le chômage et un projet de développement côtier de luxe.",
+    "want": "La démission du Premier ministre Edi Rama, une baisse des frais de scolarité et une augmentation des investissements publics dans l'éducation.",
+    "changed": "29 octobre : Des législateurs de l'opposition ont perturbé une session parlementaire avec des fusées éclairantes après des semaines de manifestations de rue."
    },
-   "summary": "Des étudiants et des partisans de l'opposition organisent des manifestations intermittentes à Tirana, en Albanie, qui ont dégénéré en affrontements violents avec la police près des bâtiments gouvernementaux. Organisées en partie par des groupes étudiants et l'opposition de centre-droit dirigée par Sali Berisha, les manifestants réclament la démission du Premier ministre Edi Rama, des frais de scolarité réduits ainsi que des mesures contre la corruption et le coût de la vie élevé. Les manifestants ont lancé des pierres, des feux d'artifice et ont incendié des objets près du ministère de l'Éducation et d'autres bureaux gouvernementaux. En réponse, la police a déployé des unités anti-émeute, des gaz lacrymogènes, des canons à eau et des balles en caoutchouc. Les autorités ont fait état de nombreuses arrestations et de centaines de blessés parmi les manifestants et les policiers.",
+   "summary": "Depuis la mi-octobre 2026, des manifestations menées par des étudiants ont eu lieu à Tirana et dans d'autres villes albanaises, rejointes plus tard par des partis d'opposition et d'autres groupes. Les manifestants réclament la démission du Premier ministre Edi Rama, citant la corruption, les mauvaises conditions d'éducation et le manque d'emplois. Le mouvement est né de précédentes manifestations estivales contre un projet de développement côtier de luxe. Le 24 octobre, un grand rassemblement à Tirana a donné lieu à des affrontements entre manifestants et policiers, les autorités ayant utilisé des canons à eau, des gaz lacrymogènes et des balles en caoutchouc après que les manifestants ont jeté des pierres et mis le feu à des bâtiments gouvernementaux. Le Premier ministre Edi Rama a condamné la violence, blâmant des acteurs étrangers pour la désinformation, et a annoncé une nouvelle législation pour imposer des amendes aux participants à des manifestations violentes. Le chef de l'opposition, Sali Berisha, a exprimé son soutien aux manifestants et a critiqué la réponse du gouvernement.",
    "demands": [
     "Démission du Premier ministre Edi Rama",
-    "Frais de scolarité moins élevés",
-    "Investissement étatique accru dans l'éducation",
-    "Action contre la corruption gouvernementale"
+    "Baisse des frais de scolarité",
+    "Augmentation des investissements publics dans l'éducation",
+    "Action contre la corruption"
    ],
-   "response": "Les autorités ont déployé 2 500 policiers qui ont utilisé des canons à eau, des gaz lacrymogènes et des balles en caoutchouc contre les foules. Le Premier ministre Edi Rama a blâmé des acteurs étrangers et la désinformation en ligne, a offert un dialogue symbolique en utilisant des coussins rouges et a ensuite annoncé des projets d'amendes contre les manifestants violents.",
+   "response": "Le Premier ministre Edi Rama a condamné la violence, a promis une réponse persistante de l'État et a introduit une nouvelle législation pour infliger des amendes aux participants à des manifestations entraînant des dommages matériels ou de la violence. La police a déployé des canons à eau, des gaz lacrymogènes et des balles en caoutchouc pour disperser les foules.",
    "updates": [
-    "Le Premier ministre Edi Rama a accusé les manifestants d'essayer de déstabiliser le pays et a offert un dialogue symbolique.",
-    "Des milliers de personnes se sont rassemblées à Tirana où des affrontements ont éclaté, la police utilisant des gaz lacrymogènes, des canons à eau et des balles en caoutchouc.",
-    "Le Premier ministre Edi Rama a promis d'introduire de nouvelles amendes pour les individus participant à des foules violentes ou destructrices."
+    "Les manifestations menées par des étudiants ont commencé à Tirana, se concentrant initialement sur l'éducation et la corruption.",
+    "Des milliers de personnes ont manifesté à Tirana ; des affrontements ont eu lieu entre la police et les manifestants près des bâtiments gouvernementaux.",
+    "Le Premier ministre Edi Rama a annoncé de nouvelles mesures pour infliger des amendes aux manifestants impliqués dans des rassemblements violents.",
+    "Des législateurs de l'opposition ont perturbé une session parlementaire avec des fusées éclairantes en soutien au mouvement de protestation."
    ],
    "conflicts": [],
    "numbers": {
-    "injuries": "plus de 300 manifestants et policiers blessés"
+    "crowd": "La police a déployé plus de 2 500 agents à Tirana selon le New York Post.",
+    "arrests": "Au moins cinq personnes ont été arrêtées selon le New York Post.",
+    "injuries": "Les autorités ont déclaré que plus de 300 manifestants et policiers ont été blessés."
    }
   },
   "de": {
    "title": "Studenten und Opposition protestieren in Tirana gegen Korruption und Premierminister Rama",
    "seoTitle": "Protest in Tirana gegen Korruption und Rama",
    "tea": {
-    "why": "Demonstranten protestieren wegen schlechter Bildungsbedingungen, Regierungs-korruption, hoher Lebenshaltungskosten und einem umstrittenen Luxus-Küstenprojekt.",
-    "want": "Demonstranten fordern den Rücktritt von Premierminister Edi Rama, niedrigere Studiengebühren und die Absage eines umstrittenen Tourismusprojekt.",
-    "changed": "25. Okt.: Premierminister Edi Rama kündigte Pläne an, neue Bußgelder für Personen einzuführen, die in gewalttätigen Menschenmengen verbleiben."
+    "why": "Die Demonstranten protestieren gegen Regierungskorruption, schlechte Bildungsstandards, Arbeitslosigkeit und ein luxuriöses Küstenentwicklungsprojekt.",
+    "want": "Der Rücktritt von Premierminister Edi Rama, niedrigere Studiengebühren und höhere staatliche Investitionen in Bildung.",
+    "changed": "29. Oktober: Oppositionsabgeordnete störten nach wochenlangen Straßenprotesten eine Parlamentssitzung mit Leuchtkugeln."
    },
-   "summary": "Studenten und Anhänger der Opposition halten in Tirana in Albanien immer wieder Proteste ab, die in gewaltsame Zusammenstöße mit der Polizei nahe Regierungsgebäuden eskalierten. Teilweise organisiert von Studentengruppen und der Mitte-Rechts-Opposition unter der Führung von Sali Berisha, fordern die Demonstranten den Rücktritt von Premierminister Edi Rama, niedrigere Studiengebühren sowie Maßnahmen gegen Korruption und hohe Lebenshaltungskosten. Demonstranten warfen Steine, Feuerwerkskörper und zündeten Gegenstände in der Nähe des Bildungsministeriums und anderer Regierungsbüros an. Als Reaktion darauf setzte die Polizei Bereitschaftspolizei, Tränengas, Wasserwerfer und Gummigeschosse ein. Die Behörden meldeten zahlreiche Festnahmen und Hunderte Verletzte sowohl unter den Demonstranten als auch unter Polizeibeamten.",
+   "summary": "Seit Mitte Oktober 2026 finden in Tirana und anderen albanischen Städten von Studenten angeführte Proteste statt, denen sich später Oppositionsparteien und andere Gruppen anschlossen. Die Demonstranten fordern den Rücktritt von Premierminister Edi Rama und führen Korruption, schlechte Bildungsbedingungen und einen Mangel an Arbeitsplätzen an. Die Bewegung entstand aus früheren Sommerprotesten gegen ein luxuriöses Küstenentwicklungsprojekt. Am 24. Oktober kam es bei einer Großkundgebung in Tirana zu Zusammenstößen zwischen Demonstranten und der Polizei, wobei die Behörden Wasserwerfer, Tränengas und Gummigeschosse einsetzten, nachdem Demonstranten Steine geworfen und Regierungsgebäude in Brand gesetzt hatten. Premierminister Edi Rama hat die Gewalt verurteilt, ausländischen Akteuren die Schuld an der Desinformation gegeben und eine neue Gesetzgebung angekündigt, um Teilnehmer an gewalttätigen Protesten mit Geldstrafen zu belegen. Oppositionsführer Sali Berisha hat den Demonstranten seine Unterstützung ausgesprochen und die Reaktion der Regierung kritisiert.",
    "demands": [
     "Rücktritt von Premierminister Edi Rama",
     "Niedrigere Studiengebühren",
-    "Größere staatliche Investitionen in Bildung",
-    "Vorgehen gegen Regierungskorruption"
+    "Höhere staatliche Investitionen in Bildung",
+    "Maßnahmen gegen Korruption"
    ],
-   "response": "Die Behörden setzten 2.500 Polizeibeamte ein, die Wasserwerfer, Tränengas und Gummigeschosse gegen die Menschenmengen einsetzten. Premierminister Edi Rama machte ausländische Akteure und Online-Desinformation verantwortlich, bot einen symbolischen Dialog mit roten Kissen an und kündigte später Pläne für Bußgelder gegen gewalttätige Demonstranten an.",
+   "response": "Premierminister Edi Rama verurteilte die Gewalt, versprach eine beharrliche staatliche Reaktion und führte eine neue Gesetzgebung ein, um Teilnehmer an Protesten, die zu Sachschäden oder Gewalt führen, mit Geldstrafen zu belegen. Die Polizei hat Wasserwerfer, Tränengas und Gummigeschosse eingesetzt, um die Menschenmengen aufzulösen.",
    "updates": [
-    "Premierminister Edi Rama beschuldigte Demonstranten, das Land destabilisieren zu wollen, und bot einen symbolischen Dialog an.",
-    "Tausende versammelten sich in Tirana, wo es zu Zusammenstößen kam, bei denen die Polizei Tränengas, Wasserwerfer und Gummigeschosse einsetzte.",
-    "Premierminister Edi Rama schwor, neue Bußgelder für Personen einzuführen, die sich an gewalttätigen oder zerstörerischen Menschenmengen beteiligen."
+    "Von Studenten angeführte Proteste begannen in Tirana und konzentrierten sich zunächst auf Bildung und Korruption.",
+    "Tausende demonstrierten in Tirana; es kam zu Zusammenstößen zwischen Polizei und Demonstranten in der Nähe von Regierungsgebäuden.",
+    "Premierminister Edi Rama kündigte neue Maßnahmen an, um Demonstranten, die an gewalttätigen Versammlungen beteiligt sind, mit Geldstrafen zu belegen.",
+    "Oppositionsabgeordnete störten eine Parlamentssitzung mit Leuchtkugeln zur Unterstützung der Protestbewegung."
    ],
    "conflicts": [],
    "numbers": {
-    "injuries": "mehr als 300 verletzte Demonstranten und Polizisten"
+    "crowd": "Laut der New York Post setzte die Polizei in Tirana mehr als 2.500 Beamte ein.",
+    "arrests": "Laut der New York Post wurden mindestens fünf Personen festgenommen.",
+    "injuries": "Die Behörden teilten mit, dass mehr als 300 Demonstranten und Polizisten verletzt wurden."
    }
   }
  }
