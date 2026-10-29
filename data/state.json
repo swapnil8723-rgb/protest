@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-29",
-  "count": 174
+  "count": 211
  },
  "runs": [
-  {
-   "at": "2026-10-23T19:28:46.852Z",
-   "ms": 151511,
-   "discovered": 52,
-   "fetched": 50,
-   "classified": 44,
-   "protests": 11,
-   "summarized": 5,
-   "published": 103,
-   "live": 8,
-   "aiCalls": 14,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 9 files, 36 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 179 protest-word items",
-    "fetch: 50 ok, 2 failed",
-    "classify: new candidate ef8b5cac213 \"Lille student reflects on cost-of-living protests and police presence\" (Lille)",
-    "classify: new candidate e292f361370 \"Groups march in Ranchi demanding CEC resignation over SIR\" (Ranchi)",
-    "classify: new candidate e7a2a3cbf64 \"Protest bans and curfews announced in Nantes and Saint-Nazaire\" (Nantes)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-23T21:27:47.164Z",
    "ms": 151565,
@@ -1532,8 +1507,38 @@
     "translate: 15 events"
    ],
    "translated": 15
+  },
+  {
+   "at": "2026-10-29T21:31:12.503Z",
+   "ms": 321572,
+   "discovered": 107,
+   "fetched": 95,
+   "classified": 79,
+   "protests": 35,
+   "summarized": 15,
+   "published": 250,
+   "live": 20,
+   "aiCalls": 37,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261029211500 http://data.gdeltproject.org/gdeltv2/20261029211500.export.CSV.zip → 404",
+    "gdelt: 20261029213000 http://data.gdeltproject.org/gdeltv2/20261029213000.export.CSV.zip → 404",
+    "gdelt: 12 files, 42 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 185 protest-word items",
+    "search: 25 single-source stories checked (8 in their own language), 41 other newsrooms found",
+    "fetch: 95 ok, 12 failed",
+    "classify: new candidate e86cdad465d \"Congress functionaries travel from Jharkhand for Delhi protest rally\" (Ranchi)",
+    "classify: new candidate e5166a5d4b2 \"Residents protest housing facility closure in St. John's\" (St. John's)",
+    "classify: new candidate ea79e4f5fa5 \"Dockworkers in 22 countries strike against arms exports for Israel\" (Livorno)",
+    "classify: new candidate e0f64e4aac2 \"Gen Z protest planned in Munich over living costs and education\" (Munich)",
+    "classify: new candidate e754747c536 \"Gen Z movement plans nationwide demonstrations in Germany\" (Nuremberg)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 15 events"
+   ],
+   "translated": 15
   }
  ],
- "gdeltCursor": "20261029183000",
- "lastRunAt": "2026-10-29T18:30:47.924Z"
+ "gdeltCursor": "20261029213000",
+ "lastRunAt": "2026-10-29T21:31:12.503Z"
 }
