@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-29",
-  "count": 10
+  "count": 32
  },
  "runs": [
-  {
-   "at": "2026-10-22T21:40:52.742Z",
-   "ms": 154026,
-   "discovered": 72,
-   "fetched": 67,
-   "classified": 56,
-   "protests": 16,
-   "summarized": 6,
-   "published": 115,
-   "live": 9,
-   "aiCalls": 14,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 18 files, 57 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 41 protest-word items",
-    "fetch: 67 ok, 5 failed",
-    "classify: new candidate e680674bfe7 \"Students and activists stage anti-racist demonstration in Cambridge\" (Cambridge)",
-    "classify: new candidate eb6448a204b \"TARATDAC members stage protest demanding Vettri Payanam inclusion\" (Madurai)",
-    "classify: new candidate e9d2b5494e1 \"Delivery workers rally against New York labor bill\" (New York City)",
-    "classify: new candidate ed40b4a4796 \"Punjab government employees and roadway workers strike\" (Chandigarh)",
-    "classify: new candidate ebb91e0123d \"Stand Up To Racism protest against Reform UK councillor in Huddersfield\" (Huddersfield)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-23T01:05:22.854Z",
    "ms": 123071,
@@ -1519,8 +1492,34 @@
     "translate: 3 events"
    ],
    "translated": 3
+  },
+  {
+   "at": "2026-10-29T03:33:43.465Z",
+   "ms": 235561,
+   "discovered": 52,
+   "fetched": 48,
+   "classified": 37,
+   "protests": 12,
+   "summarized": 9,
+   "published": 229,
+   "live": 24,
+   "aiCalls": 22,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 10 files, 28 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 216 protest-word items",
+    "search: 4 single-source stories checked, 5 other newsrooms found",
+    "fetch: 48 ok, 4 failed",
+    "classify: new candidate e475bdbb5dd \"Protesters disrupt Turning Point USA event at University of Oregon\" (Eugene)",
+    "classify: new candidate edf27858bb2 \"Health-care workers rally outside Saskatchewan legislature\" (Regina)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 9 events"
+   ],
+   "translated": 9
   }
  ],
- "gdeltCursor": "20261029010000",
- "lastRunAt": "2026-10-29T01:00:37.416Z"
+ "gdeltCursor": "20261029033000",
+ "lastRunAt": "2026-10-29T03:33:43.465Z"
 }

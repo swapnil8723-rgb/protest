@@ -16,71 +16,83 @@
  "scope": "multi-city",
  "causes": [
   "prices",
-  "housing",
-  "war-peace"
+  "jobs",
+  "housing"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-24",
  "status": "ended",
  "vibe": "wrapped-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated against high living costs, housing crises, fuel prices, government policies, and military spending.",
-  "want": "Demonstrators demanded lower living costs, a halt to military spending, and changes to government policies.",
-  "changed": "Oct 26: Italian authorities announced that nine people had been arrested and dozens more referred to judicial authorities following nationwide demonstrations."
+  "why": "Protesters are angry about rising living costs, food and fuel prices, government policies, and military rearmament.",
+  "want": "Demonstrators demand higher wages, job opportunities, affordable housing, and an end to government policies supporting war.",
+  "changed": "Oct 24: Thousands marched across Italian cities, with clashes reported in Rome, Turin, Bologna, and Florence."
  },
- "summary": "On Saturday, October 24, 2026, thousands of demonstrators marched in Rome and several other Italian cities, including Milan, Turin, Bologna, and Florence, to protest against the rising cost of living, housing crises, military spending, and government policies. The demonstrations followed a weekend of unrest across the country. Authorities deployed heavy security forces, including thousands of police officers and soldiers, accompanied by drone surveillance. While many marches remained largely peaceful, confrontations erupted in cities like Rome, Turin, and Bologna, where security forces utilized water cannons, tear gas, and batons after projectiles were thrown. Prime Minister Giorgia Meloni commended the law enforcement personnel for their efforts in maintaining public order while safeguarding the right to peaceful protest.",
+ "summary": "Thousands of demonstrators took to the streets in Rome and multiple other Italian cities on Saturday, October 24, 2026, to protest against the rising cost of living, high fuel and food prices, government policies, and military involvement in conflicts like the Middle East. Organized largely through decentralized online networks and groups such as the Movimento 17 Ottobre, the rallies drew students, workers, and pensioners. In Rome, a march passed through the historic center, with some demonstrators briefly entering the Colosseum, while clashes occurred near government sites as police deployed tear gas, water cannons, and batons. Prime Minister Giorgia Meloni and Interior Minister Matteo Piantedosi praised law enforcement for managing public order amidst widespread security deployments involving thousands of officers and military personnel.",
  "organizers": [
   "Movimento 17 Ottobre",
-  "Asse Antiimperialista",
-  "Italia in Piazza"
+  "Italia in Piazza",
+  "Asse Antiimperialista"
  ],
  "demands": [
-  "Address rising living costs and food prices",
-  "Reduce military spending",
-  "Resolve the housing crisis",
-  "Change government policies"
+  "Higher wages and better job opportunities",
+  "Relief from high living costs and food and fuel prices",
+  "Affordable housing",
+  "Opposition to war and rearmament"
  ],
- "response": "Italian authorities deployed a heavy police and military presence across major cities. Police used water cannons, tear gas, and batons in cities such as Rome, Turin, and Bologna following clashes. Prime Minister Giorgia Meloni commended law enforcement for maintaining public order while protecting the right to demonstrate.",
+ "response": "Authorities deployed thousands of police officers and soldiers, utilizing drones, water cannons, tear gas, and batons in several cities to control crowds and block marchers. Prime Minister Giorgia Meloni and Interior Minister Matteo Piantedosi commended the security forces for maintaining public order.",
  "numbers": {
   "arrests": {
-   "value": 9,
-   "text": "nine people arrested nationwide",
+   "value": 371,
+   "text": "371 taken to police stations for checks, including 110 minors, with 9 people arrested according to Department of…",
    "sources": [
+    5,
     7,
+    8
+   ]
+  },
+  "injuries": {
+   "value": 1,
+   "text": "one young man was injured in Bologna and taken away by ambulance / hospital.",
+   "sources": [
+    5,
     8
    ]
   }
  },
  "updates": [
   {
-   "at": "2026-10-24",
-   "text": "Thousands of demonstrators marched across Rome and other Italian cities amid a heavy security deployment.",
+   "at": "2026-10-23",
+   "text": "Italian authorities prepared a heavy security lockdown with roughly 1,500 officers in Rome and hundreds more in other cities ahead of Saturday protests.",
    "sources": [
     1,
-    2,
-    3
+    6
    ]
   },
   {
    "at": "2026-10-24",
-   "text": "Clashes broke out between security forces and demonstrators in cities including Rome, Turin, and Bologna.",
+   "text": "Thousands marched across cities including Rome, Milan, Turin, Bologna, and Florence, with clashes erupting as police used tear gas and water cannons.",
    "sources": [
-    1,
+    2,
     3,
     4,
     5,
-    8
+    8,
+    10
    ]
   },
   {
-   "at": "2026-10-26",
-   "text": "Italian authorities reported nine arrests and dozens of referrals to judicial authorities following the nationwide protests.",
+   "at": "2026-10-25",
+   "text": "Italy's Department of Public Security reported that 371 individuals were taken to police stations for checks and multiple arrests were made.",
    "sources": [
+    5,
     8
    ]
   }
@@ -88,38 +100,38 @@
  "sources": [
   {
    "n": 1,
+   "url": "https://www.euronews.com/2026/10/23/italy-preparing-with-elite-troops-and-drone-surveillance-for-24-october-protests",
+   "publisher": "euronews.com",
+   "title": "Italy's cities in security 'lockdown' for Saturday protests",
+   "publishedAt": "2026-10-23T18:12:05.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://www.spiegel.de/ausland/italien-albanien-tausende-demonstrieren-gegen-hohe-preise-und-bildungsnotstand-a-87b72fb6-b93c-48e0-8c04-61c1f3450026",
    "publisher": "spiegel.de",
    "title": "Italien, Albanien: Tausende demonstrieren gegen hohe Preise und Bildungsnotstand",
    "publishedAt": "2026-10-24T18:29:00.000Z"
   },
   {
-   "n": 2,
-   "url": "http://thepeninsulaqatar.com/article/24/10/2026/thousands-protest-in-italy-under-heavy-security",
-   "publisher": "thepeninsulaqatar.com",
-   "title": "Thousands protest in Italy under heavy security",
-   "publishedAt": "2026-10-24T20:46:23.000Z"
-  },
-  {
    "n": 3,
-   "url": "https://www.rtp.pt/noticias/mundo/milhares-de-pessoas-manifestaram-se-nas-principais-cidades-italianas-contra-custo-de-vida_n1774049",
-   "publisher": "rtp.pt",
-   "title": "Milhares de pessoas manifestaram-se nas principais cidades italianas contra custo de vida",
-   "publishedAt": "2026-10-24T21:27:27.000Z"
-  },
-  {
-   "n": 4,
-   "url": "http://www.jpost.com/international/article-912725",
-   "publisher": "jpost.com",
-   "title": "Fresh Italian cost-of-living protests spark clashes in Turin, Rome and Bologna | The Jerusalem Post",
-   "publishedAt": "2026-10-25T01:47:44.000Z"
-  },
-  {
-   "n": 5,
-   "url": "https://www.aa.com.tr/en/europe/protesters-clash-with-police-as-demonstrations-sweep-across-italy/4099902",
+   "url": "https://aa.com.tr/en/europe/protesters-clash-with-police-as-demonstrations-sweep-across-italy/4099902",
    "publisher": "aa.com.tr",
    "title": "Protesters clash with police as demonstrations sweep across Italy",
    "publishedAt": "2026-10-25T01:09:31.713Z"
+  },
+  {
+   "n": 4,
+   "url": "https://economictimes.indiatimes.com/news/international/world-news/italy-sees-fresh-protests-over-war-cost-of-living-as-police-brace-for-violence/articleshow/135180846.cms",
+   "publisher": "economictimes.indiatimes.com",
+   "title": "Italy sees fresh protests over war, cost of living as Police brace for violence",
+   "publishedAt": "2026-10-25T00:39:00.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.unionesarda.it/en/italy/cities-under-lockdown-clashes-and-tensions-but-no-looting-371-people-arrested-during-protests-against-the-high-cost-of-living-kgh0r3pp",
+   "publisher": "unionesarda.it",
+   "title": "Cities under lockdown, clashes and tensions, but no looting: 371 people arrested during protests against the high cost of living. - L'Unione Sarda English",
+   "publishedAt": "2026-10-25T06:52:20.237Z"
   },
   {
    "n": 6,
@@ -130,10 +142,10 @@
   },
   {
    "n": 7,
-   "url": "https://www.euronews.com/2026/10/25/thousands-march-across-italy-as-protests-bring-isolated-clashes-with-police",
-   "publisher": "euronews.com",
-   "title": "Thousands march in Italy as protests see isolated clashes with police",
-   "publishedAt": "2026-10-25T09:32:06.000Z"
+   "url": "https://www.democracynow.org/2026/10/26/headlines/thousands_of_protesters_march_in_italian_cities_on_saturday",
+   "publisher": "democracynow.org",
+   "title": "Thousands of Protesters March in Italian Cities on Saturday",
+   "publishedAt": "2026-10-26T00:00:00.000Z"
   },
   {
    "n": 8,
@@ -165,8 +177,8 @@
  "reports48h": 1,
  "firstSeenAt": "2026-10-23T21:28:43.828Z",
  "lastReportAt": "2026-10-28T00:39:25.000Z",
- "lastCheckedAt": "2026-10-29T01:02:18.900Z",
- "updatedAt": "2026-10-28T05:50:13.468Z",
+ "lastCheckedAt": "2026-10-29T03:36:20.790Z",
+ "updatedAt": "2026-10-29T03:35:15.647Z",
  "endedOn": "2026-10-24",
  "responseSources": [
   1,
@@ -178,141 +190,147 @@
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-28T05:50:13.468Z",
+ "summarizedAt": "2026-10-29T03:35:15.647Z",
  "publishedAt": "2026-10-24T19:33:33.787Z",
  "i18n": {
-  "of": "085a42546a55506d",
-  "at": "2026-10-28T05:51:48.009Z",
+  "of": "5a75b4c3b5e4d06c",
+  "at": "2026-10-29T03:37:38.533Z",
   "tries": 1,
   "hi": {
    "title": "लागत और नीतियों को लेकर रोम और अन्य इतालवी शहरों में प्रदर्शनकारियों ने मार्च निकाला",
-   "seoTitle": "रोम में जीवन लागत और युद्ध-विरोधी मार्च",
+   "seoTitle": "रोम जीवन की लागत और युद्ध विरोधी मार्च",
    "tea": {
-    "why": "प्रदर्शनकारियों ने ऊंचे जीवन यापन खर्च, आवास संकट, ईंधन की कीमतों, सरकारी नीतियों और सैन्य खर्च के खिलाफ प्रदर्शन किया।",
-    "want": "प्रदर्शनकारियों ने कम जीवन यापन लागत, सैन्य खर्च पर रोक और सरकारी नीतियों में बदलाव की मांग की।",
-    "changed": "26 अक्टूबर: इतालवी अधिकारियों ने घोषणा की कि देशव्यापी प्रदर्शनों के बाद नौ लोगों को गिरफ्तार किया गया है और दर्जनों अन्य को न्यायिक अधिकारियों को भेजा गया है।"
+    "why": "प्रदर्शनकारी बढ़ते जीवनयापन खर्च, भोजन और ईंधन की कीमतों, सरकारी नीतियों और सैन्य पुनरुत्थान से नाराज हैं।",
+    "want": "प्रदर्शनकारियों की मांग है कि उच्च वेतन, रोजगार के अवसर, किफायती आवास और युद्ध का समर्थन करने वाली सरकारी नीतियों का अंत किया जाए।",
+    "changed": "24 अक्टूबर: इतालवी शहरों में हजारों लोगों ने मार्च निकाला, जिसमें रोम, ट्यूरिन, बोलोन्या और फ्लोरेंस में झड़पें दर्ज की गईं।"
    },
-   "summary": "शनिवार, 24 अक्टूबर 2026 को, बढ़ते जीवन यापन खर्च, आवास संकट, सैन्य खर्च और सरकारी नीतियों के खिलाफ विरोध प्रदर्शन करने के लिए रोम और मिलान, ट्यूरिन, बोलोग्ना और फ्लोरेंस सहित कई अन्य इतालवी शहरों में हजारों प्रदर्शनकारियों ने मार्च निकाला। यह प्रदर्शन देश भर में अशांति के एक सप्ताह के अंत के बाद हुए। अधिकारियों ने ड्रोन निगरानी के साथ-साथ हजारों पुलिस अधिकारियों और सैनिकों सहित भारी सुरक्षा बल तैनात किए। हालांकि कई मार्च काफी हद तक शांतिपूर्ण रहे, लेकिन रोम, ट्यूरिन और बोलोग्ना जैसे शहरों में झड़पें भड़क उठीं, जहां प्रोजेक्टाइल फेंके जाने के बाद सुरक्षा बलों ने पानी की बौछारें, आंसू गैस और लाठियों का इस्तेमाल किया। प्रधानमंत्री जियोर्जिया मेलोनी ने शांतिपूर्ण प्रदर्शन के अधिकार की रक्षा करते हुए सार्वजनिक व्यवस्था बनाए रखने के अपने प्रयासों के लिए कानून प्रवर्तन कर्मियों की सराहना की।",
+   "summary": "शनिवार, 24 अक्टूबर 2026 को रोम और कई अन्य इतालवी शहरों की सड़कों पर हजारों प्रदर्शनकारी उतरे। उन्होंने बढ़ते जीवन स्तर, उच्च ईंधन और खाद्य कीमतों, सरकारी नीतियों और मध्य पूर्व जैसे संघर्षों में सैन्य भागीदारी के खिलाफ विरोध प्रदर्शन किया। मुख्य रूप से विकेंद्रीकृत ऑनलाइन नेटवर्क और मोविमेंटो 17 ओट्टोब्रे जैसे समूहों द्वारा आयोजित इन रैलियों में छात्रों, श्रमिकों और पेंशनभोगियों ने हिस्सा लिया। रोम में एक मार्च ऐतिहासिक केंद्र से गुजरा, जिसमें कुछ प्रदर्शनकारी संक्षिप्त रूप से कोलोसियम के अंदर गए। वहीं, सरकारी स्थलों के पास पुलिस द्वारा आंसू गैस, पानी की बौछारें और लाठियों का इस्तेमाल किए जाने पर झड़पें हुईं। प्रधानमंत्री जियोर्जिया मेलोनी और आंतरिक मंत्री मातेओ पियान्तेदोसी ने हजारों अधिकारियों और सैन्य कर्मियों की व्यापक सुरक्षा तैनाती के बीच सार्वजनिक व्यवस्था बनाए रखने के लिए कानून प्रवर्तन एजेंसियों की प्रशंसा की।",
    "demands": [
-    "बढ़ती जीवन यापन लागत और खाद्य कीमतों का समाधान करें",
-    "सैन्य खर्च कम करें",
-    "आवास संकट का समाधान करें",
-    "सरकारी नीतियां बदलें"
+    "उच्च वेतन और बेहतर रोजगार के अवसर",
+    "बढ़ते जीवनयापन खर्च तथा भोजन और ईंधन की कीमतों से राहत",
+    "किफायती आवास",
+    "युद्ध और पुनरुत्थान का विरोध"
    ],
-   "response": "इतालवी अधिकारियों ने प्रमुख शहरों में भारी पुलिस और सैन्य उपस्थिति तैनात की। रोम, ट्यूरिन और बोलोग्ना जैसे शहरों में झड़पों के बाद पुलिस ने पानी की बौछारें, आंसू गैस और लाठियों का इस्तेमाल किया। प्रधानमंत्री जियोर्जिया मेलोनी ने प्रदर्शन करने के अधिकार की रक्षा करते हुए सार्वजनिक व्यवस्था बनाए रखने के लिए कानून प्रवर्तन की सराहना की।",
+   "response": "अधिकारियों ने भीड़ को नियंत्रित करने और मार्च निकालने वालों को रोकने के लिए कई शहरों में हजारों पुलिस अधिकारियों और सैनिकों को तैनात किया, तथा ड्रोन, पानी की बौछारें, आंसू गैस और लाठियों का उपयोग किया। प्रधानमंत्री जियोर्जिया मेलोनी और आंतरिक मंत्री मातेओ पियान्तेदोसी ने सार्वजनिक व्यवस्था बनाए रखने के लिए सुरक्षा बलों की सराहना की।",
    "updates": [
-    "भारी सुरक्षा तैनाती के बीच हजारों प्रदर्शनकारियों ने रोम और अन्य इतालवी शहरों में मार्च निकाला।",
-    "रोम, ट्यूरिन और बोलोग्ना सहित शहरों में सुरक्षा बलों और प्रदर्शनकारियों के बीच झड़पें हुईं।",
-    "इतालवी अधिकारियों ने देशव्यापी प्रदर्शनों के बाद नौ गिरफ्तारियों और न्यायिक अधिकारियों को दर्जनों मामलों के रेफरल की सूचना दी।"
+    "शनिवार के प्रदर्शनों से पहले इतालवी अधिकारियों ने रोम में लगभग 1,500 अधिकारियों और अन्य शहरों में सैकड़ों अधिक कर्मियों के साथ भारी सुरक्षा बंदोबस्त की तैयारी की।",
+    "रोम, मिलान, ट्यूरिन, बोलोन्या और फ्लोरेंस सहित कई शहरों में हजारों लोगों ने मार्च निकाला। इस दौरान पुलिस द्वारा आंसू गैस और पानी की बौछारें छोड़े जाने से झड़पें भड़क उठीं।",
+    "इटली के सार्वजनिक सुरक्षा विभाग ने बताया कि 371 व्यक्तियों को जाँच के लिए पुलिस स्टेशनों ले जाया गया और कई गिरफ्तारियां की गईं।"
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "देशभर में नौ लोग गिरफ्तार"
+    "arrests": "सार्वजनिक सुरक्षा विभाग के अनुसार 110 नाबालिगों सहित 371 लोगों को जाँच के लिए पुलिस स्टेशनों ले जाया गया, और 9 लोगों को गिरफ्तार किया गया।",
+    "injuries": "बोलोन्या में एक युवक घायल हो गया और उसे एम्बुलेंस/अस्पताल ले जाया गया।"
    }
   },
   "mr": {
-   "title": "खर्च आणि धोरणांच्या निषेधार्थ रोम आणि इतर इटालियन शहरांमध्ये आंदोलकांचा मोर्चा",
-   "seoTitle": "रोममध्ये राहणीमानाचा खर्च आणि युद्धविरोधी मोर्चा",
+   "title": "खर्च आणि धोरणांच्या निषेधार्थ रोम आणि इतर इटालियन शहरांमध्ये निदर्शक मार्च काढतात",
+   "seoTitle": "रोम जीवनमान खर्च आणि युद्धविरोधी मार्च",
    "tea": {
-    "why": "आंदोलकांनी वाढता राहणीमान खर्च, गृहनिर्माण संकट, इंधनाचे दर, सरकारी धोरणे आणि लष्करी खर्चाविरुद्ध निदर्शने केली.",
-    "want": "आंदोलकांनी कमी राहणीमान खर्च, लष्करी खर्चाला पायबंद आणि सरकारी धोरणांमध्ये बदलांची मागणी केली.",
-    "changed": "२६ ऑक्टोबर: देशव्यापी निदर्शनांनंतर नऊ जणांना अटक करण्यात आली असून डझन्नोंना न्यायव्यवस्था प्राधिकरणाकडे पाठवण्यात आले आहे, असे इटालियन अधिकाऱ्यांनी जाहीर केले."
+    "why": "वाढता जगण्याचा खर्च, अन्न व इंधनाचे दर, सरकारी धोरणे आणि लष्करी शस्त्रास्त्रे यावर निदर्शक संताप व्यक्त करत आहेत.",
+    "want": "निदर्शक उच्च वेतन, रोजगाराच्या संधी, परवडणारी घरे आणि युद्धाला पाठिंबा देणाऱ्या सरकारी धोरणांचा अंत करण्याची मागणी करत आहेत.",
+    "changed": "२४ ऑक्टोबर: इटालियन शहरांमध्ये हजारो लोकांनी मार्च काढला, ज्यामध्ये रोम, ट्यूरिन, बोलोन्या आणि फ्लॉरेन्स येथे चकमकी झाल्याचे वृत्त आहे."
    },
-   "summary": "शनिवार, २४ ऑक्टोबर २०२६ रोजी, राहणीमानाचा वाढता खर्च, गृहनिर्माण संकट, लष्करी खर्च आणि सरकारी धोरणांच्या निषेधार्थ रोम तसेच मिलान, टुरिन, बोलोगा आणि फ्लोरेन्ससह अनेक इटालियन शहरांमध्ये हजारो आंदोलकांनी मोर्चे काढले. ही निदर्शने देशभरातील अशांततेच्या एका आठवड्यानंतर झाली. अधिकाऱ्यांनी ड्रोन पाहणीसह हजारो पोलीस अधिकारी आणि सैनिक यांच्यासह मोठा बंदोबस्त तैनात केला. अनेक मोर्चे बऱ्याच प्रमाणात शांततापूर्ण असताना, रोम, टुरिन आणि बोलोगा यांसारख्या शहरांमध्ये दगडफेक किंवा वस्तू फेरल्या गेल्यानंतर सुरक्षा दलांनी पाण्याचा मारा, अश्रुधूर आणि लाठ्यांचा वापर केला. शांततापूर्ण आंदोलनाच्या हक्काचे रक्षण करत कायदा व सुव्यवस्था राखण्याच्या प्रयत्नांबद्दल पंतप्रधान जॉर्डिया मेलोनी यांनी सुरक्षा कर्मचाऱ्यांचे कौतुक केले.",
+   "summary": "वाढता जीवनमान खर्च, उच्च इंधन आणि अन्नाचे दर, सरकारी धोरणे आणि मध्यपूर्वेसारख्या संघर्षांमधील लष्करी सहभागाच्या विरोधात शनिवार, २४ ऑक्टोबर २०२६ रोजी रोम आणि इतर अनेक इटालियन शहरांमध्ये हजारो निदर्शक रस्तాలపై उतरले. मोठ्या प्रमाणावर विकेंद्रित ऑनलाइन नेटवर्क आणि मोविमेंटो १७ ओट्टोब्रे सारख्या गटांद्वारे आयोजित केलेल्या या रैल्यांमध्ये विद्यार्थी, कामगार आणि निवृत्तीवेतनधारक सहभागी झाले होते. रोममध्ये ऐतिहासिक केंद्रामधून एक मार्च गेला, ज्यामध्ये काही निदर्शक थोड्या वेळासाठी कोलोसियममध्ये शिरले. दरम्यान, सरकारी ठिकाणांजवळ पोलिसांकडून अश्रुधूर, वॉटर कॅनन आणि लाठ्यांचा वापर करण्यात आल्याने चकमकी उडाल्या. पंतप्रधान जॉर्जिया मेलोनी आणि अंतर्गत मंत्री मात्तेओ पियान्तेदोसी यांनी हजारो अधिकारी आणि लष्करी कर्मचाऱ्यांच्या व्यापक सुरक्षा तैनातीमध्ये सार्वजनिक सुव्यवस्था राखल्याबद्दल कायदा व सुव्यवस्था यंत्रणेचे कौतुक केले.",
    "demands": [
-    "राहणीमानाचा वाढता खर्च आणि अन्नाच्या किमती आटोक्यात आणा",
-    "लष्करी खर्च कमी करा",
-    "गृहनिर्माण संकटावर तोडगा काढा",
-    "सरकारी धोरणे बदला"
+    "उच्च वेतन आणि चांगल्या रोजगाराच्या संधी",
+    "वाढलेल्या जगण्याच्या खर्चापासून तसेच अन्न आणि इंधनाच्या दरांपासून दिलासा",
+    "परवडणारी घरे",
+    "युद्ध आणि शस्त्रास्त्रांना विरोध"
    ],
-   "response": "इटालियन प्राधिकरणांनी प्रमुख शहरांमध्ये मोठा पोलीस व लष्करी बंदोबस्त तैनात केला. संघर्षानंतर रोम, टुरिन आणि बोलोगा यांसारख्या शहरांमध्ये पोलिसांनी पाण्याचा मारा, अश्रुधूर आणि लाठ्यांचा वापर केला. आंदोलनाच्या हक्काचे रक्षण करत कायदा व सुव्यवस्था राखल्याबद्दल पंतप्रधान जॉर्डिया मेलोनी यांनी कायद्याची अंमलबजावणी करणाऱ्या यंत्रणेचे कौतुक केले.",
+   "response": "अधिकार्यांनी गर्दीवर नियंत्रण ठेवण्यासाठी आणि मार्च करणाऱ्यांना रोखण्यासाठी अनेक शहरांमध्ये हजारो पोलिस अधिकारी आणि सैन्य तैनात केले, तसेच ड्रोन, वॉटर कॅनन, अश्रुधूर आणि लाठ्यांचा वापर केला. पंतप्रधान जॉर्जिया मेलोनी आणि अंतर्गत मंत्री मात्तेओ पियान्तेदोसी यांनी सार्वजनिक सुव्यवस्था राखल्याबद्दल सुरक्षा दलांचे कौतुक केले.",
    "updates": [
-    "मोठ्या सुरक्षा बंदोबस्तात हजारो आंदोलकांनी रोम आणि इतर इटालियन शहरांमध्ये मोर्चे काढले.",
-    "रोम, टुरिन आणि बोलोगासह विविध शहरांमध्ये सुरक्षा दल आणि आंदोलकांमध्ये संघर्ष उडाला.",
-    "देशव्यापी निदर्शनांनंतर नऊ जणांना अटक करण्यात आली असून न्यायव्यवस्था प्राधिकरणाकडे डझन्नोंना पाठवण्यात आले आहे, अशी माहिती इटालियन प्राधिकरणांनी दिली."
+    "शनिवारच्या निदर्शनांपूर्वी इटालियन अधिकाऱ्यांनी रोममध्ये सुमारे १५०० अधिकारी आणि इतर शहरांमध्ये शेकडो अधिक कर्मचाऱ्यांसह कडेकोट सुरक्षा बंदोबस्त तयार केला होता.",
+    "रोम, मिलान, ट्यूरिन, बोलोन्या आणि फ्लॉरेन्ससह अनेक शहरांमध्ये हजारो लोकांनी मार्च काढला, तर पोलिसांनी अश्रुधूर आणि वॉटर कॅननचा वापर केल्याने चकमक उडाली.",
+    "इटलीच्या सार्वजनिक सुरक्षा विभागाने वृत्त दिले की ३७१ जणांना चौकशीसाठी पोलीस ठाण्यात नेण्यात आले आणि अनेक जणांना अटक करण्यात आली."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "देशभरात नऊ जणांना अटक"
+    "arrests": "सार्वजनिक सुरक्षा विभागाच्या मते ११३ अल्पवयीनांसह ३७१ जणांना चौकशीसाठी पोलीस ठाण्यात नेण्यात आले, आणि ९ जणांना अटक करण्यात आली.",
+    "injuries": "बोलोन्यामध्ये एक तरुण जखमी झाला आणि त्याला रुग्णवाहिकेतून / रुग्णालयात नेण्यात आले."
    }
   },
   "es": {
-   "title": "Manifestantes marchan en Roma y otras ciudades italianas por costes y políticas",
-   "seoTitle": "Marcha contra el costo de vida y la guerra en Roma",
+   "title": "Manifestantes marchan en Roma y otras ciudades italianas por los costos y políticas",
+   "seoTitle": "Marcha en Roma por costo de vida y contra la guerra",
    "tea": {
-    "why": "Los manifestantes se manifestaron en contra del alto costo de vida, las crisis de vivienda, los precios del combustible, las políticas gubernamentales y el gasto militar.",
-    "want": "Los manifestantes exigieron menores costos de vida, un alto al gasto militar y cambios en las políticas gubernamentales.",
-    "changed": "26 de oct.: Las autoridades italianas anunciaron que nueve personas habían sido arrestadas y decenas más remitidas a las autoridades judiciales tras las manifestaciones a nivel nacional."
+    "why": "Los manifestantes están indignados por el aumento del costo de vida, los precios de los alimentos y el combustible, las políticas gubernamentales y el rearme militar.",
+    "want": "Los manifestantes exigen salarios más altos, oportunidades laborales, vivienda asequible y el fin de las políticas gubernamentales que apoyan la guerra.",
+    "changed": "24 de oct.: Miles marcharon en ciudades italianas, con choques reportados en Roma, Turín, Bolonia y Florencia."
    },
-   "summary": "El sábado 24 de octubre de 2026, miles de manifestantes marcharon en Roma y en varias otras ciudades italianas, incluyendo Milán, Turín, Bolonia y Florencia, para protestar contra el creciente costo de vida, las crisis de vivienda, el gasto militar y las políticas gubernamentales. Las manifestaciones siguieron a un fin de semana de disturbios en todo el país. Las autoridades desplegaron fuertes fuerzas de seguridad, incluyendo a miles de policías y soldados, acompañados por vigilancia de drones. Si bien muchas marchas se mantuvieron mayormente pacíficas, estallaron enfrentamientos en ciudades como Roma, Turín y Bolonia, donde las fuerzas de seguridad utilizaron cañones de agua, gases lacrimógenos y porras tras el lanzamiento de proyectiles. La primera ministra Giorgia Meloni elogió al personal policial por sus esfuerzos para mantener el orden público mientras se salvaguardaba el derecho a la protesta pacífica.",
+   "summary": "Miles de manifestantes salieron a las calles en Roma y varias otras ciudades italianas el sábado 24 de octubre de 2026 para protestar contra el aumento del costo de vida, los altos precios del combustible y los alimentos, las políticas gubernamentales y la participación militar en conflictos como el de Oriente Medio. Organizadas en gran parte a través de redes en línea descentralizadas y grupos como el Movimento 17 Ottobre, las marchas atrajeron a estudiantes, trabajadores y jubilados. En Roma, una marcha pasó por el centro histórico, y algunos manifestantes ingresaron brevemente al Coliseo, mientras que se produjeron enfrentamientos cerca de sitios gubernamentales cuando la policía desplegó gases lacrimógenos, cañones de agua y porras. La primera ministra Giorgia Meloni y el ministro del Interior Matteo Piantedosi elogiaron a las fuerzas del orden por gestionar el orden público en medio de extensos despliegues de seguridad que involucraron a miles de agentes y personal militar.",
    "demands": [
-    "Abordar el aumento del costo de vida y de los precios de los alimentos",
-    "Reducir el gasto militar",
-    "Resolver la crisis de vivienda",
-    "Cambiar las políticas gubernamentales"
+    "Salarios más altos y mejores oportunidades laborales",
+    "Alivio ante el alto costo de vida y los precios de alimentos y combustibles",
+    "Vivienda asequible",
+    "Oposición a la guerra y al rearme"
    ],
-   "response": "Las autoridades italianas desplegaron una fuerte presencia policial y militar en las principales ciudades. La policía utilizó cañones de agua, gases lacrimógenos y porras en ciudades como Roma, Turín y Bolonia tras los enfrentamientos. La primera ministra Giorgia Meloni elogió a las fuerzas del orden por mantener el orden público y al mismo tiempo proteger el derecho a manifestarse.",
+   "response": "Las autoridades desplegaron a miles de policías y soldados, utilizando drones, cañones de agua, gases lacrimógenos y porras en varias ciudades para controlar las multitudes y bloquear a los manifestantes. La primera ministra Giorgia Meloni y el ministro del Interior Matteo Piantedosi elogiaron a las fuerzas de seguridad por mantener el orden público.",
    "updates": [
-    "Miles de manifestantes marcharon por Roma y otras ciudades italianas en medio de un fuerte despliegue de seguridad.",
-    "Estallaron enfrentamientos entre las fuerzas de seguridad y los manifestantes en ciudades como Roma, Turín y Bolonia.",
-    "Las autoridades italianas informaron de nueve arrestos y decenas de remisiones a las autoridades judiciales tras las protestas a nivel nacional."
+    "Las autoridades italianas prepararon un fuerte confinamiento de seguridad con aproximadamente 1.500 agentes en Roma y cientos más en otras ciudades antes de las protestas del sábado.",
+    "Miles marcharon en ciudades como Roma, Milán, Turín, Bolonia y Florencia, y estallaron enfrentamientos cuando la policía usó gases lacrimógenos y cañones de agua.",
+    "El Departamento de Seguridad Pública de Italia informó que 371 personas fueron llevadas a comisarías para controles y se realizaron múltiples arrestos."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "nueve personas arrestadas a nivel nacional"
+    "arrests": "371 llevados a comisarías para controles, incluidos 110 menores, con 9 personas arrestadas según el Departamento de…",
+    "injuries": "un joven resultó herido en Bolonia y fue trasladado en ambulancia / hospital."
    }
   },
   "fr": {
-   "title": "Des manifestants défilent à Rome et dans d'autres villes italiennes pour les coûts et les politiques",
-   "seoTitle": "Marche à Rome pour le coût de la vie et contre la guerre",
+   "title": "Des manifestants défilent à Rome et dans d'autres villes italiennes contre la vie chère et les politiques",
+   "seoTitle": "Marche à Rome contre la vie chère et la guerre",
    "tea": {
-    "why": "Des manifestants ont manifesté contre la vie chère, les crises du logement, les prix des carburants, les politiques gouvernementales et les dépenses militaires.",
-    "want": "Des manifestants ont exigé une baisse du coût de la vie, l'arrêt des dépenses militaires et des changements dans les politiques gouvernementales.",
-    "changed": "26 oct. : Les autorités italiennes ont annoncé que neuf personnes avaient été arrêtées et des dizaines d'autres renvoyées devant les autorités judiciaires à la suite des manifestations nationales."
+    "why": "Les manifestants expriment leur colère face à la hausse du coût de la vie, aux prix de l'alimentation et du carburant, aux politiques gouvernementales et au réarmement militaire.",
+    "want": "Les manifestants réclament des salaires plus élevés, des opportunités d'emploi, des logements abordables et la fin des politiques gouvernementales soutenant la guerre.",
+    "changed": "24 oct. : Des milliers de personnes ont défilé à travers les villes italiennes, avec des heurts signalés à Rome, Turin, Bologne et Florence."
    },
-   "summary": "Le samedi 24 octobre 2026, des milliers de manifestants ont défilé à Rome et dans plusieurs autres villes italiennes, notamment Milan, Turin, Bologne et Florence, pour protester contre la hausse du coût de la vie, les crises du logement, les dépenses militaires et les politiques gouvernementales. Les manifestations ont fait suite à un week-end de troubles à travers le pays. Les autorités ont déployé d'importantes forces de sécurité, comprenant des milliers de policiers et de soldats, accompagnés par une surveillance par drones. Si de nombreuses marches sont restées globalement pacifiques, des affrontements ont éclaté dans des villes telles que Rome, Turin et Bologne, où les forces de sécurité ont utilisé des canons à eau, des gaz lacrymogènes et des matraques après des jets de projectiles. La première ministre Giorgia Meloni a salué les forces de l'ordre pour leurs efforts visant à maintenir l'ordre public tout en préservant le droit de manifester pacifiquement.",
+   "summary": "Des milliers de manifestants sont descendus dans les rues de Rome et de plusieurs autres villes italiennes le samedi 24 octobre 2026 pour protester contre la hausse du coût de la vie, les prix élevés du carburant et de l'alimentation, les politiques gouvernementales et l'implication militaire dans des conflits tels que celui au Moyen-Orient. Organisés en grande partie par le biais de réseaux en ligne décentralisés et de groupes tels que le Movimento 17 Ottobre, les rassemblements ont attiré des étudiants, des travailleurs et des retraités. À Rome, un cortège a traversé le centre historique, certains manifestants pénétrant brièvement dans le Colisée, tandis que des affrontements ont europu près de sites gouvernementaux alors que la police déployait des gaz lacrymogènes, des canons à eau et des matraques. La Première ministre Giorgia Meloni et le ministre de l'Intérieur Matteo Piantedosi ont salué les forces de l'ordre pour leur gestion de l'ordre public au milieu d'importants déploiements de sécurité impliquant des milliers d'agents et de militaires.",
    "demands": [
-    "Lutter contre la hausse du coût de la vie et des prix des denrées alimentaires",
-    "Réduire les dépenses militaires",
-    "Résoudre la crise du logement",
-    "Modifier les politiques gouvernementales"
+    "Des salaires plus élevés et de meilleures opportunités d'emploi",
+    "Un allègement face au coût de la vie élevé ainsi qu'aux prix de l'alimentation et du carburant",
+    "Des logements abordables",
+    "L'opposition à la guerre et au réarmement"
    ],
-   "response": "Les autorités italiennes ont déployé une forte présence policière et militaire dans les grandes villes. La police a utilisé des canons à eau, des gaz lacrymogènes et des matraques dans des villes telles que Rome, Turin et Bologne à la suite d'affrontements. La première ministre Giorgia Meloni a salué les forces de l'ordre pour le maintien de l'ordre public tout en protégeant le droit de manifester.",
+   "response": "Les autorités ont déployé des milliers de policiers et de soldats, utilisant des drones, des canons à eau, des gaz lacrymogènes et des matraques dans plusieurs villes pour contrôler les foules et bloquer les manifestants. La Première ministre Giorgia Meloni et le ministre de l'Intérieur Matteo Piantedosi ont félicité les forces de sécurité pour avoir maintenu l'ordre public.",
    "updates": [
-    "Des milliers de manifestants ont défilé à Rome et dans d'autres villes italiennes sur fond de important déploiement de sécurité.",
-    "Des affrontements ont éclaté entre les forces de sécurité et des manifestants dans des villes dont Rome, Turin et Bologne.",
-    "Les autorités italiennes ont fait état de neuf arrestations et de renvois par dizaines devant les autorités judiciaires à la suite des manifestations nationales."
+    "Les autorités italiennes ont préparé un important confinement de sécurité avec environ 1 500 agents à Rome et des centaines d'autres dans d'autres villes avant les manifestations de samedi.",
+    "Des milliers de personnes ont défilé dans des villes comme Rome, Milan, Turin, Bologne et Florence, des affrontements éclater alors que la police utilisait des gaz lacrymogènes et des canons à eau.",
+    "Le département de la Sécurité publique de l'Italie a indiqué que 371 individus ont été emmenés dans des commissariats pour des contrôles et que de multiples arrestations ont été effectuées."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "neuf personnes arrêtées à l'échelle nationale"
+    "arrests": "371 emmenés dans des commissariats pour des contrôles, dont 110 mineurs, avec 9 personnes arrêtées selon le département de...",
+    "injuries": "un jeune homme a été blessé à Bologne et emmené par ambulance / hôpital."
    }
   },
   "de": {
-   "title": "Demonstranten marschieren in Rom und anderen italienischen Städten wegen Kosten und Politik",
-   "seoTitle": "Lebenshaltungskosten- und Antikriegsmarsch in Rom",
+   "title": "Demonstranten ziehen in Rom und anderen italienischen Städten gegen Kosten und Politik auf die Straße",
+   "seoTitle": "Rom: Marsch gegen Lebenshaltungskosten und Krieg",
    "tea": {
-    "why": "Demonstranten demonstrierten gegen hohe Lebenshaltungskosten, Wohnungskrisen, Kraftstoffpreise, Regierungspolitik und Militärausgaben.",
-    "want": "Demonstranten forderten niedrigere Lebenshaltungskosten, einen Stopp der Militärausgaben und Änderungen der Regierungspolitik.",
-    "changed": "26. Okt.: Die italienischen Behörden gaben bekannt, dass im Anschluss an die landesweiten Demonstrationen neun Personen festgenommen und Dutzende weitere an die Justizbehörden verwiesen worden waren."
+    "why": "Demonstranten sind verärgert über steigende Lebenshaltungskosten, Lebensmittel- und Treibstoffpreise, Regierungspolitik und militärische Aufrüstung.",
+    "want": "Demonstranten fordern höhere Löhne, Arbeitsmöglichkeiten, bezahlbaren Wohnraum und ein Ende der kriegsunterstützenden Regierungspolitik.",
+    "changed": "24. Okt.: Tausende marschierten durch italienische Städte, wobei Zusammenstöße aus Rom, Turin, Bologna und Florenz gemeldet wurden."
    },
-   "summary": "Am Samstag, den 24. Oktober 2026, marschierten Tausende Demonstranten in Rom und mehreren anderen italienischen Städten, darunter Mailand, Turin, Bologna und Florenz, um gegen die steigenden Lebenshaltungskosten, Wohnungskrisen, Militärausgaben und die Regierungspolitik zu protestieren. Die Demonstrationen folgten auf ein Wochenende mit Unruhen im ganzen Land. Die Behörden setzten starke Sicherheitskräfte ein, darunter Tausende Polizisten und Soldaten, begleitet von Drohnenüberwachung. Während viele Märsche weitgehend friedlich verliefen, kam es in Städten wie Rom, Turin und Bologna zu Zusammenstößen, bei denen die Sicherheitskräfte nach dem Werfen von Projektilen Wasserwerfer, Tränengas und Schlagstöcke einsetzten. Premierministerin Giorgia Meloni lobte die Einsatzkräfte für ihre Bemühungen, die öffentliche Ordnung aufrechtzuerhalten und gleichzeitig das Recht auf friedlichen Protest zu wahren.",
+   "summary": "Tausende Demonstranten gingen am Samstag, den 24. Oktober 2026, in Rom und zahlreichen anderen italienischen Städten auf die Straße, um gegen die steigenden Lebenshaltungskosten, hohe Treibstoff- und Lebensmittelpreise, Regierungspolitik und militärische Verstrickungen in Konflikten wie dem Nahen Osten zu protestieren. Die Kundgebungen, die größtenteils über dezentrale Online-Netzwerke und Gruppen wie den Movimento 17 Ottobre organisiert wurden, zogen Studenten, Arbeiter und Rentner an. In Rom zog ein Marsch durch das historische Zentrum, wobei einige Demonstranten kurzzeitig das Kolosseum betraten, während in der Nähe von Regierungsgebäuden Zusammenstöße stattfassen, als die Polizei Tränengas, Wasserwerfer und Schlagstöcke einsetzte. Premierministerin Giorgia Meloni und Innenminister Matteo Piantedosi lobten die Ordnungshüter für die Bewältigung der öffentlichen Ordnung inmitten umfassender Sicherheitseinsätze mit Tausenden von Beamten und Militärpersonal.",
    "demands": [
-    "Die steigenden Lebenshaltungskosten und Lebensmittelpreise angehen",
-    "Militärausgaben reduzieren",
-    "Die Wohnungskrise lösen",
-    "Regierungspolitik ändern"
+    "Höhere Löhne und bessere Arbeitsmöglichkeiten",
+    "Entlastung von hohen Lebenshaltungskosten sowie Lebensmittel- und Treibstoffpreisen",
+    "Bezahlbarer Wohnraum",
+    "Ablehnung von Krieg und Aufrüstung"
    ],
-   "response": "Die italienischen Behörden verlegten eine starke Polizei- und Militärpräsenz in die großen Städte. Die Polizei setzte in Städten wie Rom, Turin und Bologna nach Zusammenstößen Wasserwerfer, Tränengas und Schlagstöcke ein. Premierministerin Giorgia Meloni lobte die Strafverfolgungsbehörden dafür, dass sie die öffentliche Ordnung aufrechterhielten und gleichzeitig das Recht auf Demonstration schützten.",
+   "response": "Die Behörden setzten Tausende von Polizisten und Soldaten ein und nutzten in mehreren Städten Drohnen, Wasserwerfer, Tränengas und Schlagstöcke, um Menschenmengen zu kontrollieren und Marschierenden den Weg zu versperren. Premierministerin Giorgia Meloni und Innenminister Matteo Piantedosi lobten die Sicherheitskräfte für die Aufrechterhaltung der öffentlichen Ordnung.",
    "updates": [
-    "Tausende Demonstranten marschierten inmitten eines starken Sicherheitsaufgebots durch Rom und andere italienische Städte.",
-    "In Städten wie Rom, Turin und Bologna kam es zu Zusammenstößen zwischen Sicherheitskräften und Demonstranten.",
-    "Die italienischen Behörden meldeten nach den landesweiten Protesten neun Festnahmen und Dutzende Verweisungen an die Justizbehörden."
+    "Die italienischen Behörden bereiteten im Vorfeld der Samstagsdemonstrationen eine massive Sicherheitsabriegelung mit etwa 1.500 Beamten in Rom und Hunderten weiteren in anderen Städten vor.",
+    "Tausende marschierten durch Städte wie Rom, Mailand, Turin, Bologna und Florenz, wobei Zusammenstöße ausbrachen, als die Polizei Tränengas und Wasserwerfer einsetzte.",
+    "Das italienische Ministerium für öffentliche Sicherheit berichtete, dass 371 Personen zur Überprüfung auf Polizeiwachen gebracht wurden und mehrere Festnahmen erfolgten."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "neun Personen landesweit festgenommen"
+    "arrests": "371 Personen wurden laut dem Ministerium für… zur Überprüfung auf Polizeiwachen gebracht, darunter 110 Minderjährige, und 9 Personen wurden festgenommen.",
+    "injuries": "ein junger Mann wurde in Bologna verletzt und mit einem Krankenwagen ins Krankenhaus gebracht."
    }
   }
- }
+ },
+ "summaryOf": "2997179ac405"
 }
