@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-29",
-  "count": 136
+  "count": 174
  },
  "runs": [
-  {
-   "at": "2026-10-23T17:12:52.821Z",
-   "ms": 239481,
-   "discovered": 27,
-   "fetched": 25,
-   "classified": 21,
-   "protests": 7,
-   "summarized": 3,
-   "published": 103,
-   "live": 8,
-   "aiCalls": 8,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 4 files, 18 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 173 protest-word items",
-    "fetch: 25 ok, 2 failed",
-    "classify: new candidate e665e4a20a1 \"RSS seeks police permission for Vijayadashami marches in Bengaluru\" (Bengaluru)",
-    "classify: new candidate efac8b6e157 \"Truckers strike over diesel prices disrupts mozzarella production\" (Naples)",
-    "classify: new candidate ef1255e3a3c \"Oregonians hold No Kings rally along Highway 101\" (Lincoln City)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-23T19:28:46.852Z",
    "ms": 151511,
@@ -1519,8 +1494,46 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-29T18:30:47.924Z",
+   "ms": 478802,
+   "discovered": 108,
+   "fetched": 97,
+   "classified": 92,
+   "protests": 39,
+   "summarized": 15,
+   "published": 243,
+   "live": 22,
+   "aiCalls": 38,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 51 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 194 protest-word items",
+    "search: 25 single-source stories checked (6 in their own language), 23 other newsrooms found",
+    "fetch: 97 ok, 11 failed",
+    "classify: new candidate ed13a7530d3 \"Sub-Inspector candidates clash with police in Patna over exam cancellation\" (Patna)",
+    "classify: new candidate e52ec65616c \"Students and academics protest university budget cuts in Innsbruck\" (Innsbruck)",
+    "classify: new candidate e8b69d200ba \"Youth and social organisations rally in Itanagar against mega dam\" (Itanagar)",
+    "classify: new candidate efad4b9538b \"CoTU 48-hour shutdown in Kangpokpi over missing youths\" (Kangpokpi)",
+    "classify: new candidate e692ec638b8 \"Dockworkers global strike against arms shipments\" (Genoa)",
+    "classify: new candidate e8f52a595b8 \"Haredi protesters block traffic after draft dodgers arrested\" (Bnei Brak)",
+    "classify: new candidate ef0ed8c54fa \"Protesters demonstrate against insurance mascot in Boston\" (Boston)",
+    "classify: new candidate e11dd9e158f \"Parents and local leaders stage sit-in protest over girl's death in Siddipet\" (Siddipet)",
+    "classify: new candidate e1a550e7e88 \"Left parties to hold demonstrations in Tamil Nadu over food prices\" (Chennai)",
+    "classify: new candidate e8ccfe23abf \"Left parties and AAP release joint manifesto for Visakhapatnam polls\" (Visakhapatnam)",
+    "classify: new candidate ef44910b6ac \"Students walk out over mural removal\" (Xenia)",
+    "classify: new candidate e83945ff77e \"CGTP announces national demonstration\" (Lisbon)",
+    "classify: new candidate e0330785d28 \"Students protest sexual violence and fraternity assaults\" (Chicago)",
+    "classify: new candidate e953b31bf9c \"Activists prepare global port protests against Israel\" (Oakland)",
+    "classify: new candidate e46aed5259c \"IG Metall threatens metal industry warning strikes in Thuringia\" (Eisenach)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 15 events"
+   ],
+   "translated": 15
   }
  ],
- "gdeltCursor": "20261029154500",
- "lastRunAt": "2026-10-29T15:50:31.284Z"
+ "gdeltCursor": "20261029183000",
+ "lastRunAt": "2026-10-29T18:30:47.924Z"
 }
