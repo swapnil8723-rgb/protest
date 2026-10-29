@@ -1,35 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-28",
-  "count": 207
+  "day": "2026-10-29",
+  "count": 10
  },
  "runs": [
-  {
-   "at": "2026-10-22T17:15:07.481Z",
-   "ms": 370894,
-   "discovered": 15,
-   "fetched": 15,
-   "classified": 12,
-   "protests": 5,
-   "summarized": 3,
-   "published": 114,
-   "live": 8,
-   "aiCalls": 7,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 4 files, 10 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 38 protest-word items",
-    "fetch: 15 ok, 0 failed",
-    "classify: new candidate edcb4484fda \"TARATDAC members stage protest demanding Vetri Payanam inclusion\" (Dindigul)",
-    "classify: new candidate e5e49c64fdb \"Upper caste activists gherao HP Secretariat demanding Swaran Aayog\" (Shimla)",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: ec6385243c0 failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "translate: 1 events"
-   ],
-   "translated": 1
-  },
   {
    "at": "2026-10-22T21:40:52.742Z",
    "ms": 154026,
@@ -1516,8 +1490,37 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-29T01:00:37.416Z",
+   "ms": 135519,
+   "discovered": 34,
+   "fetched": 33,
+   "classified": 29,
+   "protests": 10,
+   "summarized": 4,
+   "published": 229,
+   "live": 25,
+   "aiCalls": 10,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 7 files, 24 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss civil.ge: fetch failed",
+    "rss: 214 protest-word items",
+    "search: 7 single-source stories checked, 7 other newsrooms found",
+    "fetch: 33 ok, 1 failed",
+    "classify: new candidate e04ce13c8c2 \"Residents rally against ICE in Woodland\" (Woodland)",
+    "classify: new candidate ede2ce48d1d \"Students march in Coimbra against tuition fee hikes\" (Coimbra)",
+    "classify: new candidate e5fecb9c1e2 \"Rutland hospital staff rally for contract\" (Rutland)",
+    "classify: new candidate ec65f404c5b \"TVNZ staff strike and picket over pay\" (Auckland)",
+    "classify: new candidate ecb61abbf7b \"Striking youth justice and child safety workers protest in Brisbane\" (Brisbane)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 3 events"
+   ],
+   "translated": 3
   }
  ],
- "gdeltCursor": "20261028231500",
- "lastRunAt": "2026-10-28T23:08:10.890Z"
+ "gdeltCursor": "20261029010000",
+ "lastRunAt": "2026-10-29T01:00:37.416Z"
 }
