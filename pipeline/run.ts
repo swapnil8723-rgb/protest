@@ -16,7 +16,8 @@ import { reserveSlugs, summarize, visible } from './summarize.ts';
 import { fileInbox, httpInbox, processReaderReports, scoreReaders } from './reader.ts';
 import { pollDecisions, reviewerConfigured, sendReviews } from './telegram.ts';
 import { translate } from './translate.ts';
-import type { ProtestEvent, RunLog } from './types.ts';
+import { reportedAt } from './events.ts';
+import type { Article, ProtestEvent, RunLog } from './types.ts';
 import { hostOf, looksLikeProtest, nowIso, pool, publisherOf } from './util.ts';
 
 // undici can throw an internal assertion from a socket callback when a server ends a
@@ -111,9 +112,15 @@ try {
     // Second-newsroom search for fresh single-source stories (never fatal to the run).
     if (!args.backfill) {
       const pubs = new Map<string, Set<string>>();
-      for (const a of articles.values()) if (a.eventId) (pubs.get(a.eventId) ?? pubs.set(a.eventId, new Set()).get(a.eventId)!).add(publisherOf(a.url));
+      const originals = new Map<string, Article>(); // newest held article per story, for a search in its own language
+      for (const a of articles.values()) {
+        if (!a.eventId) continue;
+        (pubs.get(a.eventId) ?? pubs.set(a.eventId, new Set()).get(a.eventId)!).add(publisherOf(a.url));
+        const o = originals.get(a.eventId);
+        if (a.title && a.fetch === 'ok' && (!o || reportedAt(a) > reportedAt(o))) originals.set(a.eventId, a);
+      }
       try {
-        const leads = await corroborate(events.values(), (id) => pubs.get(id) ?? new Set(), log, { max: LIMITS.searchPerRun, perEvent: LIMITS.searchPerEvent, budgetMs: LIMITS.searchSeconds * 1000 });
+        const leads = await corroborate(events.values(), (id) => pubs.get(id) ?? new Set(), (id) => { const a = originals.get(id); return a?.title ? { title: a.title, lang: a.lang } : undefined; }, log, { max: LIMITS.searchPerRun, perEvent: LIMITS.searchPerEvent, budgetMs: LIMITS.searchSeconds * 1000 });
         for (const l of leads) {
           const url = cleanUrl(l.url);
           if (articles.has(url)) continue;

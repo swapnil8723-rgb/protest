@@ -10,6 +10,22 @@ import { hoursSince, isBlockedUrl, pool, publisherOf } from './util.ts';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36';
 const STOP = new Set(['protest', 'protests', 'protesters', 'rally', 'rallies', 'march', 'students', 'residents', 'workers', 'against', 'over', 'with', 'from', 'hold', 'holds', 'held', 'demand', 'demanding', 'outside']);
 
+/** The newest article we hold for a story, in the language its newsroom wrote it. */
+export interface Original {
+  title: string;
+  lang?: string;
+}
+
+/** Google News edition for a search: the source's own language in its country (taz → DE:de),
+ *  else English. Local newsrooms are found by their own words, not by our English title. */
+export function edition(country: string, lang?: string): { q: 'local' | 'en'; params: string } {
+  const l = lang?.slice(0, 2).toLowerCase();
+  if (!l || l === 'en') return { q: 'en', params: 'hl=en-US&gl=US&ceid=US:en' };
+  const cc = country.toUpperCase();
+  const id = cc === 'PT' && l === 'pt' ? 'pt-150' : l; // Portugal's edition is pt-150
+  return { q: 'local', params: `hl=${id}&gl=${cc}&ceid=${cc}:${id}` };
+}
+
 export interface Lead {
   url: string;
   title: string;
@@ -64,6 +80,7 @@ export function toSearch(events: Iterable<ProtestEvent>, publishersOf: (id: stri
 export async function corroborate(
   events: Iterable<ProtestEvent>,
   publishersOf: (id: string) => Set<string>,
+  originalOf: (id: string) => Original | undefined,
   log: (s: string) => void,
   opts: { max: number; perEvent: number; budgetMs: number },
 ): Promise<Lead[]> {
@@ -75,12 +92,15 @@ export async function corroborate(
     if (blocked || Date.now() - t0 > opts.budgetMs) return;
     e.searchedAt = new Date().toISOString();
     try {
-      const q = `${e.title.replace(/["“”]/g, '')} when:3d`;
-      const res = await get(`https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`);
+      const orig = originalOf(e.id);
+      const ed = edition(e.place.country, orig?.lang);
+      const title = ed.q === 'local' ? orig!.title.replace(/^\(S\+\)\s*/, '') : e.title;
+      const q = `${title.replace(/["“”„«»]/g, '')} when:3d`;
+      const res = await get(`https://news.google.com/rss/search?q=${encodeURIComponent(q)}&${ed.params}`);
       if (res.status === 429) throw new Blocked();
       const xml = await res.text();
       const have = publishersOf(e.id);
-      const want = words(`${e.title} ${e.place.city}`);
+      const want = words(`${title} ${e.place.city}`);
       const seen = new Set<string>();
       for (const m of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
         if (seen.size >= opts.perEvent || blocked) break;

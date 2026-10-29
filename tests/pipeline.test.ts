@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { deflateRawSync } from 'node:zlib';
 import { knownEvents } from '../pipeline/classify.ts';
-import { toSearch } from '../pipeline/corroborate.ts';
+import { edition, toSearch } from '../pipeline/corroborate.ts';
 import { independentGroups, newEvent, findSimilar } from '../pipeline/events.ts';
 import { parseEvents } from '../pipeline/gdelt.ts';
 import { resolvePlace } from '../pipeline/geo.ts';
@@ -277,4 +277,11 @@ test('second-newsroom search picks fresh single-source candidates, shared across
   two.reviewReasons = ['low-confidence', 'sources-disagree']; // held for a third newsroom
   assert.ok(toSearch([two], pubs, 3, now).includes(two));
   assert.equal(publisherOf('https://www.dailysabah.com.tr/x'), 'dailysabah.com.tr');
+});
+
+test("second-newsroom search uses the source newsroom's language and edition", () => {
+  assert.deepEqual(edition('de', 'de-DE'), { q: 'local', params: 'hl=de&gl=DE&ceid=DE:de' }); // taz is found via German Google News
+  assert.equal(edition('pt', 'pt').params, 'hl=pt-150&gl=PT&ceid=PT:pt-150');
+  assert.deepEqual(edition('de', 'en'), { q: 'en', params: 'hl=en-US&gl=US&ceid=US:en' }); // DW English stays on our title
+  assert.equal(edition('us', undefined).q, 'en');
 });
