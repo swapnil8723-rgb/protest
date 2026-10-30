@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-30",
-  "count": 21
+  "count": 44
  },
  "runs": [
-  {
-   "at": "2026-10-24T01:05:22.930Z",
-   "ms": 264529,
-   "discovered": 60,
-   "fetched": 60,
-   "classified": 32,
-   "protests": 16,
-   "summarized": 6,
-   "published": 104,
-   "live": 9,
-   "aiCalls": 15,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 15 files, 49 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss www.thelocal.se: 403",
-    "rss: 220 protest-word items",
-    "fetch: 60 ok, 0 failed",
-    "classify: new candidate e72ed9c5ab8 \"TMC and BJP stage protests outside Kolkata police station\" (Kolkata)",
-    "classify: new candidate e618bae753e \"Protester severely injured by police LBD in Strasbourg\" (Strasbourg)",
-    "classify: new candidate e8c155126c4 \"INDIA bloc plans Nov 1 rally against voter roll revision\" (Delhi)",
-    "classify: new candidate e31cad03a68 \"Demonstration against Rassemblement National congress\" (Orléans)",
-    "classify: new candidate ef391cf765b \"Protesters clash with police over custody death\" (Tunis)",
-    "classify: new candidate e7a33be664c \"Defend Our Juries plans protest against Palestine Action ban\" (London)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-24T04:27:47.171Z",
    "ms": 365999,
@@ -1536,8 +1507,34 @@
     "translate: 9 events"
    ],
    "translated": 9
+  },
+  {
+   "at": "2026-10-30T04:27:48.092Z",
+   "ms": 266150,
+   "discovered": 73,
+   "fetched": 72,
+   "classified": 49,
+   "protests": 18,
+   "summarized": 10,
+   "published": 254,
+   "live": 18,
+   "aiCalls": 23,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 15 files, 52 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 184 protest-word items",
+    "search: 25 single-source stories checked (9 in their own language), 27 other newsrooms found",
+    "fetch: 72 ok, 1 failed",
+    "classify: new candidate e4fbbe0bb9b \"Gen Z youth plan nationwide demonstrations on cost of living\" (Berlin)",
+    "classify: new candidate ee48cdf5380 \"IG Metall prepares warning strikes in metal and electrical industry\" (Frankfurt am Main)",
+    "classify: new candidate ecfd67a2405 \"Italian students and workers rally over education and living costs\" (Rome)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 8 events"
+   ],
+   "translated": 8
   }
  ],
- "gdeltCursor": "20261030004500",
- "lastRunAt": "2026-10-30T00:45:19.364Z"
+ "gdeltCursor": "20261030043000",
+ "lastRunAt": "2026-10-30T04:27:48.092Z"
 }
