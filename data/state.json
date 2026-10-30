@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-30",
-  "count": 146
+  "count": 192
  },
  "runs": [
-  {
-   "at": "2026-10-24T13:48:38.926Z",
-   "ms": 207475,
-   "discovered": 60,
-   "fetched": 58,
-   "classified": 50,
-   "protests": 31,
-   "summarized": 5,
-   "published": 136,
-   "live": 14,
-   "aiCalls": 14,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 10 files, 36 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 234 protest-word items",
-    "fetch: 58 ok, 2 failed",
-    "classify: new candidate e36cb7c0391 \"Yellow vests call nationwide protests for October 31\" (Paris)",
-    "classify: new candidate e4025805476 \"INDIA bloc plans Tripura rally demanding CEC removal\" (Agartala)",
-    "classify: new candidate ece17261ff8 \"Protesters gather in Le Mans against living costs and education\" (Le Mans)",
-    "classify: new candidate eac245469ea \"Congress marches and door-to-door visits over electoral roll irregularities\" (Latur)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-24T16:00:39.701Z",
    "ms": 332621,
@@ -1561,8 +1535,47 @@
     "translate: 12 events"
    ],
    "translated": 12
+  },
+  {
+   "at": "2026-10-30T20:50:30.648Z",
+   "ms": 472957,
+   "discovered": 156,
+   "fetched": 138,
+   "classified": 109,
+   "protests": 37,
+   "summarized": 19,
+   "published": 271,
+   "live": 14,
+   "aiCalls": 46,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 17 files, 85 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 221 protest-word items",
+    "search: 25 single-source stories checked (9 in their own language), 45 other newsrooms found",
+    "fetch: 138 ok, 18 failed",
+    "classify: new candidate ef7e949421b \"Opium farmers rally in Neemuch over purchase prices\" (Nimach)",
+    "classify: new candidate e3417303dfc \"NCP protest in Dhaka demanding ministers' resignations\" (Dhaka)",
+    "classify: new candidate eb46da03cfb \"SFI activists disrupt convocation in Kochi over student suspensions\" (Kochi)",
+    "classify: new candidate eec25eb3faa \"BJP holds padayatra in Hyderabad\" (Hyderabad)",
+    "classify: new candidate eb69ffc6dba \"Coimbatore lawyers boycott court proceedings over court relocation\" (Coimbatore)",
+    "classify: new candidate e606025df13 \"Germans join youth protests over policy change\" (Frankfurt am Main)",
+    "classify: new candidate e0e9ee7b02e \"BJP protest march in Delhi over 1984 anti-Sikh riots\" (Delhi)",
+    "classify: new candidate e94abad1d48 \"Villagers form human chain in Pavoor against unregulated silt extraction\" (Paloor)",
+    "classify: new candidate eb640378061 \"Residents and school community plan protest over Sion bridge obstruction\" (Mumbai)",
+    "classify: new candidate ea43f9b57ea \"Tens of thousands protest across Italy against government policies and living costs\" (Turin)",
+    "classify: new candidate e7138eb9b8b \"Iranian agents stage provocative rally outside Azerbaijani Embassy\" (London)",
+    "classify: new candidate eca5aee594c \"Canadian travel advisory warns of violent protests in Spanish cities\" (Madrid)",
+    "classify: new candidate e8494f4b745 \"French workers and students protest taxes and cost of living\" (Paris)",
+    "classify: new candidate e1a147a97bf \"Protesters gather at Poland's Constitutional Tribunal\" (Warsaw)",
+    "classify: new candidate e8a2862f1be \"Karnataka sugarcane growers call statewide bandh over prices\" (Mudalgi)",
+    "classify: new candidate e63321e6e4a \"Sugarcane farmers threaten highway blockade and bandh in Karnataka\" (Mudalgi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 17 events"
+   ],
+   "translated": 17
   }
  ],
- "gdeltCursor": "20261030164500",
- "lastRunAt": "2026-10-30T16:50:30.213Z"
+ "gdeltCursor": "20261030210000",
+ "lastRunAt": "2026-10-30T20:50:30.648Z"
 }

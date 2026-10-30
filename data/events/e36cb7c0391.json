@@ -3,7 +3,7 @@
  "slug": "paris-yellow-vests-protest-call-oct-2026",
  "stage": "live",
  "title": "Yellow Vests and student unions plan nationwide protests in France",
- "seoTitle": "Paris protests against cost of living",
+ "seoTitle": "Paris protests against living costs and police",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -17,250 +17,341 @@
  "causes": [
   "labour",
   "students",
-  "prices"
+  "education"
  ],
- "kind": "one-day",
- "startedOn": "2026-10-31",
+ "kind": "multi-day",
+ "startedOn": "2026-10-17",
  "status": "scheduled",
  "vibe": "heating-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious",
+  "low-confidence",
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the rising cost of living, inequality, and what they describe as the government's authoritarian drift.",
-  "want": "The movement demands action on living costs, the protection of public liberties, and an end to government repression.",
-  "changed": "Oct 30: The Paris police prefecture restricted the authorized march route to the city's outskirts and imposed curfews in central areas."
+  "why": "Protesters are demonstrating over the rising cost of living, inflation, and public service conditions.",
+  "want": "Demonstrators demand better living standards, improved school equipment, and an end to police repression.",
+  "changed": "Oct 30: Interior Minister Laurent Nunez announced the deployment of 70,000 security personnel and banned city-center marches for upcoming protests."
  },
- "summary": "Yellow Vests and student unions have organized a third day of nationwide protests for October 31, coinciding with Halloween. Participants are demonstrating against the rising cost of living and government policies. In Paris, the police prefecture has restricted the march to the city's outskirts, specifically between Porte de Bagnolet and Porte de Charenton, to avoid central areas like Place de la République. Interior Minister Laurent Nuñez announced the deployment of 70,000 police and gendarmes nationwide, citing a high risk of public disorder and potential violence. Authorities have also implemented curfews in parts of Paris for the weekend. Organizers, including the UNEF student union, have criticized these restrictions as attempts to silence dissent. Businesses in various cities have begun boarding up storefronts in anticipation of potential unrest.",
+ "summary": "The Yellow Vest movement, trade unions, and student organizations have planned a fresh round of nationwide protests in France, coinciding with Halloween celebrations. The demonstrations follow earlier actions on October 17 and October 24, which saw widespread disruptions, looting, and clashes in several cities. Organizers have called for sit-ins, pots-and-pans demonstrations outside public buildings, and marches in Paris and other communes. In response, French authorities announced the deployment of 70,000 police officers and gendarmes, utilizing specialized units, armoured vehicles, and water cannons. The government and police prefectures initially barred protests from central city areas to prevent urban violence, leading to a legal dispute over planned march routes in Paris.",
  "organizers": [
   "Yellow Vests",
+  "CGT",
   "UNEF",
-  "intersyndicale"
+  "FAGE",
+  "Union étudiante",
+  "FO"
  ],
  "demands": [
-  "Address the rising cost of living",
-  "Protect public liberties",
-  "End government repression"
+  "Lower cost of living",
+  "Better equipment in schools",
+  "Protection of public freedoms",
+  "Ending police repression"
  ],
- "response": "Interior Minister Laurent Nuñez announced the deployment of 70,000 security personnel nationwide and restricted demonstrations to areas outside city centers to prevent disorder. Authorities have also implemented curfews in specific Parisian districts.",
- "numbers": {},
+ "response": "The French government deployed 70,000 police officers and security personnel nationwide, utilizing armoured vehicles, drones, and water cannons. Interior Minister Laurent Nunez announced restrictions banning marches from city centres to prevent public disorder.",
+ "numbers": {
+  "crowd": {
+   "value": 410000,
+   "text": "between 410,000 (interior ministry estimate) and 800,000 (union estimate)",
+   "sources": [
+    1,
+    3,
+    4
+   ]
+  },
+  "arrests": {
+   "value": 2700,
+   "text": "more than 2,700 people were arrested a week earlier",
+   "sources": [
+    4
+   ]
+  }
+ },
  "updates": [
   {
-   "at": "2026-10-24",
-   "text": "Yellow Vests announced a new day of mobilization for October 31 to defend public liberties.",
+   "at": "2026-10-27",
+   "text": "Organizers confirmed a third act of protests for Saturday, October 31, including sit-ins and casserolades.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-29",
-   "text": "Interior Minister Laurent Nuñez announced 70,000 police will be deployed for the October 31 protests.",
+   "text": "Interior Minister Laurent Nunez warned of a very high risk of urban violence and riots during the Halloween weekend.",
    "sources": [
-    2,
     3
    ]
   },
   {
    "at": "2026-10-30",
-   "text": "Paris police restricted the authorized protest route to the city's outskirts and set curfews for central areas.",
+   "text": "Authorities announced the deployment of 70,000 police officers and restricted protests from city centers.",
    "sources": [
-    5
+    4,
+    8
+   ]
+  },
+  {
+   "at": "2026-10-30",
+   "text": "The Paris administrative tribunal authorized a march route from Bastille to Nation, which the interior ministry appealed.",
+   "sources": [
+    9,
+    10
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://www.franceinfo.fr/societe/manifestations/les-gilets-jaunes-appellent-a-une-nouvelle-mobilisation-le-31-octobre-et-denoncent-une-derive-autoritaire_8252203.html",
-   "publisher": "franceinfo.fr",
-   "title": "Les gilets jaunes appellent &agrave; une nouvelle mobilisation le 31 octobre et d&eacute;noncent une \"d&eacute;rive autoritaire\" de l'ex&eacute;cutif",
-   "publishedAt": "2026-10-24T11:42:49.000Z"
+   "url": "https://www.connexionfrance.com/news/new-protests-planned-on-october-31-in-france/824089",
+   "publisher": "connexionfrance.com",
+   "title": "More protests planned in France for October 31",
+   "publishedAt": "2026-10-27T09:54:46.000Z"
   },
   {
    "n": 2,
-   "url": "https://www.20minutes.fr/societe/4258750-20261029-manifestations-31-octobre-70-000-policiers-gendarmes-mobilises-acte-3-halloween?at_medium=display&at_campaign=149",
-   "publisher": "20minutes.fr",
-   "title": "70.000 policiers et gendarmes mobilisés le 31 octobre pour l’Acte 3 (et Halloween)",
-   "publishedAt": "2026-10-29T17:31:06.608Z"
+   "url": "https://www.tagesspiegel.de/internationales/afp-ein-tag-vor-landesweiten-demos-franzosische-gelbwesten-rufen-zu-protest-mit-topfen-und-pfannen-auf-16216921.html",
+   "publisher": "tagesspiegel.de",
+   "title": "Ein Tag vor landesweiten Demos: Französische Gelbwesten rufen zu Protest mit Töpfen und Pfannen auf",
+   "publishedAt": "2026-10-29T16:59:25.000Z"
   },
   {
    "n": 3,
-   "url": "https://www.aljazeera.com/news/2026/10/29/france-braces-for-very-high-risk-of-disorder-at-halloween-protests?traffic_source=rss",
-   "publisher": "aljazeera.com",
-   "title": "France braces for ‘very high risk’ of disorder at Halloween protests",
-   "publishedAt": "2026-10-29T23:52:30.000Z"
+   "url": "https://www.dailyliberal.com.au/story/9382740/france-security-forces-brace-for-halloween-protests/",
+   "publisher": "dailyliberal.com.au",
+   "title": "France security forces brace for Halloween protests",
+   "publishedAt": "2026-10-29T20:02:57.000Z"
   },
   {
    "n": 4,
+   "url": "https://dominicanrepublicpost.com/france-braces-for-very-high-risk-of-disorder-at-halloween-protests/",
+   "publisher": "dominicanrepublicpost.com",
+   "title": "France braces for ‘very high risk’ of disorder at Halloween protests - Dominican Republic Post – Caribbean News, Business, Travel & Culture",
+   "publishedAt": "2026-10-30T01:28:56.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.20minutes.fr/faits_divers/4258699-20261030-manifestations-31-octobre-pourra-tenir-trois-mois-epuisement-guette-policiers-mobilises?at_medium=display&at_campaign=149",
+   "publisher": "20minutes.fr",
+   "title": "Manifestations du 31 octobre : « On ne pourra pas tenir trois mois »... L'é…",
+   "publishedAt": "2026-10-30T05:02:37.148Z"
+  },
+  {
+   "n": 6,
    "url": "https://www.newsweek.com/europe-braces-for-halloween-protests-12639661",
    "publisher": "newsweek.com",
    "title": "Europe braces for Halloween protests",
    "publishedAt": "2026-10-30T11:19:45.000Z"
   },
   {
-   "n": 5,
-   "url": "https://www.lefigaro.fr/actualite-france/manifestations-du-31-octobre-les-parcours-de-la-cgt-et-des-gilets-jaunes-interdits-a-paris-20261030",
-   "publisher": "lefigaro.fr",
-   "title": "Manifestations du 31 octobre : les parcours de la CGT et des «gilets jaunes» interdits à Paris",
-   "publishedAt": "2026-10-30T11:48:50.000Z"
-  },
-  {
-   "n": 6,
+   "n": 7,
    "url": "https://www.thenationalnews.com/news/europe/2026/10/30/night-of-darkness-french-police-ready-to-hunt-down-masked-protesters-on-halloween-night/",
    "publisher": "thenationalnews.com",
    "title": "'Night of darkness': French police ready to hunt down masked protesters on Halloween night | The National",
    "publishedAt": "2026-10-30T11:54:45.174Z"
   },
   {
-   "n": 7,
+   "n": 8,
    "url": "https://www.freemalaysiatoday.com/category/world/2026/10/30/france-boards-up-ahead-of-halloween-protests",
    "publisher": "freemalaysiatoday.com",
    "title": "France boards up ahead of Halloween protests",
    "publishedAt": "2026-10-30T15:05:03.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://www.lefigaro.fr/actualite-france/acte-iii-des-manifestations-un-nouveau-samedi-de-tous-les-dangers-pour-l-executif-20261030",
+   "publisher": "lefigaro.fr",
+   "title": "« Acte III » des manifestations : un nouveau samedi de tous les dangers pour l’exécutif",
+   "publishedAt": "2026-10-30T17:26:25.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://www.franceinfo.fr/societe/manifestations/la-prefecture-nous-balade-a-paris-le-parcours-de-la-manifestation-du-31-octobre-au-c-ur-d-un-bras-de-fer-judiciaire_8260127.html",
+   "publisher": "franceinfo.fr",
+   "title": "\"La pr&eacute;fecture nous balade\" : &agrave; Paris, le parcours de la manifestation du 31 octobre au c&oelig;ur d'un bras de fer judiciaire",
+   "publishedAt": "2026-10-30T18:45:38.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
- "publishers": 7,
- "reports24h": 24,
- "reportsPrev24h": 3,
- "reports48h": 27,
+ "conflicts": [
+  "Interior ministry estimated 410,000 protesters nationwide on the previous Saturday, while unions estimated 800,000."
+ ],
+ "confidence": 0.75,
+ "publishers": 10,
+ "reports24h": 23,
+ "reportsPrev24h": 6,
+ "reports48h": 29,
  "firstSeenAt": "2026-10-24T13:49:44.312Z",
- "lastReportAt": "2026-10-30T15:05:03.000Z",
- "lastCheckedAt": "2026-10-30T16:57:18.333Z",
- "updatedAt": "2026-10-30T16:55:39.813Z",
+ "lastReportAt": "2026-10-30T18:45:38.000Z",
+ "lastCheckedAt": "2026-10-30T20:55:40.379Z",
+ "updatedAt": "2026-10-30T20:53:32.601Z",
  "responseSources": [
-  2,
   3,
+  4,
   5,
-  6
+  7,
+  8
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-30T16:55:39.813Z",
- "summaryOf": "5162726c0270",
+ "summarizedAt": "2026-10-30T20:53:32.601Z",
+ "summaryOf": "8159ca9ca1fd",
  "publishedAt": "2026-10-24T13:51:21.107Z",
  "i18n": {
-  "of": "55f100aca81083f2",
-  "at": "2026-10-30T16:59:44.655Z",
+  "of": "3ee4735b1c4c5c9a",
+  "at": "2026-10-30T20:56:29.722Z",
   "tries": 1,
   "hi": {
-   "title": "फ्रांस में येलो वेस्ट और छात्र संघों ने राष्ट्रव्यापी विरोध प्रदर्शन की योजना बनाई",
-   "seoTitle": "पेरिस में जीवन यापन की लागत के खिलाफ विरोध",
+   "title": "फ्रांस में येलो वेस्ट और छात्र संगठनों की देशव्यापी विरोध प्रदर्शनों की योजना",
+   "seoTitle": "जीवन यापन और पुलिस के खिलाफ पेरिस में विरोध",
    "tea": {
-    "why": "प्रदर्शनकारी जीवन यापन की बढ़ती लागत, असमानता और सरकार के सत्तावादी रुख के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "आंदोलन जीवन यापन की लागत पर कार्रवाई, सार्वजनिक स्वतंत्रता की सुरक्षा और सरकारी दमन को समाप्त करने की मांग करता है।",
-    "changed": "30 अक्टूबर: पेरिस पुलिस प्रीफेक्चर ने अधिकृत मार्च मार्ग को शहर के बाहरी इलाकों तक सीमित कर दिया और मध्य क्षेत्रों में कर्फ्यू लगा दिया।"
+    "why": "प्रदर्शनीकारी जीवनयापन की बढ़ती लागत, महंगाई और सार्वजनिक सेवा की स्थितियों को लेकर प्रदर्शन कर रहे हैं।",
+    "want": "प्रदर्शनकारी बेहतर जीवन स्तर, बेहतर स्कूली उपकरण और पुलिस दमन के अंत की मांग करते हैं।",
+    "changed": "30 अक्टूबर: आंतरिक मंत्री लॉरेन नुनेज ने आगामी विरोध प्रदर्शनों के लिए 70,000 सुरक्षा कर्मियों की तैनाती की घोषणा की और शहर के केंद्रों में मार्च पर प्रतिबंध लगाया।"
    },
-   "summary": "येलो वेस्ट और छात्र संघों ने 31 अक्टूबर को हैलोवीन के अवसर पर तीसरे दिन के राष्ट्रव्यापी विरोध प्रदर्शन का आयोजन किया है। प्रतिभागी जीवन यापन की बढ़ती लागत और सरकारी नीतियों के खिलाफ प्रदर्शन कर रहे हैं। पेरिस में, पुलिस प्रीफेक्चर ने मार्च को शहर के बाहरी इलाकों, विशेष रूप से पोर्ट डी बैग्नोलेट और पोर्ट डी चैरेंटन के बीच सीमित कर दिया है, ताकि प्लेस डी ला रिपब्लिक जैसे केंद्रीय क्षेत्रों से बचा जा सके। आंतरिक मंत्री लॉरेंट नुनेज़ ने सार्वजनिक अव्यवस्था और संभावित हिंसा के उच्च जोखिम का हवाला देते हुए देश भर में 70,000 पुलिस और जेंडरमे की तैनाती की घोषणा की। अधिकारियों ने सप्ताहांत के लिए पेरिस के कुछ हिस्सों में कर्फ्यू भी लागू किया है। UNEF छात्र संघ सहित आयोजकों ने इन प्रतिबंधों की आलोचना करते हुए इसे असहमति को दबाने का प्रयास बताया है। संभावित अशांति की आशंका में विभिन्न शहरों में व्यवसायों ने स्टोरफ्रंट को बोर्ड से ढकना शुरू कर दिया है।",
+   "summary": "येलो वेस्ट आंदोलन, ट्रेड यूनियनों और छात्र संगठनों ने हेलोवीन समारोहों के साथ मेल खाते हुए फ्रांस में राष्ट्रव्यापी विरोध प्रदर्शनों के एक नए दौर की योजना बनाई है। ये प्रदर्शन 17 अक्टूबर और 24 अक्टूबर की पहले की कार्रवाइयों के बाद हैं, जिनमें कई शहरों में व्यापक व्यवधान, लूटपाट और झड़पें देखी गईं। आयोजकों ने सार्वजनिक इमारतों के बाहर धरना-प्रदर्शन, थाली-बर्तन बजाकर प्रदर्शन और पेरिस तथा अन्य कम्यूनों में मार्च का आह्वान किया है। इसके जवाब में, फ्रांसीसी अधिकारियों ने विशेष इकाइयों, बख्तरबंद वाहनों और पानी की बौछारों का उपयोग करते हुए 70,000 पुलिस अधिकारियों और जेंडरमे की तैनाती की घोषणा की। शहरी हिंसा को रोकने के लिए सरकार और पुलिस प्रीफेक्चर ने शुरू में केंद्रीय शहर के क्षेत्रों से विरोध प्रदर्शनों पर प्रतिबंध लगा दिया, जिससे पेरिस में नियोजित मार्च मार्गों पर कानूनी विवाद पैदा हो गया।",
    "demands": [
-    "जीवन यापन की बढ़ती लागत का समाधान करें",
-    "सार्वजनिक स्वतंत्रता की रक्षा करें",
-    "सरकारी दमन समाप्त करें"
+    "जीवन यापन की कम लागत",
+    "स्कूलों में बेहतर उपकरण",
+    "सार्वजनिक स्वतंत्रता की रक्षा",
+    "पुलिस दमन का अंत"
    ],
-   "response": "आंतरिक मंत्री लॉरेंट नुनेज़ ने देश भर में 70,000 सुरक्षा कर्मियों की तैनाती की घोषणा की और अव्यवस्था को रोकने के लिए प्रदर्शनों को शहर के केंद्रों के बाहर के क्षेत्रों तक सीमित कर दिया। अधिकारियों ने पेरिस के विशिष्ट जिलों में कर्फ्यू भी लागू किया है।",
+   "response": "फ्रांसीसी सरकार ने देश भर में 70,000 पुलिस अधिकारियों और सुरक्षा कर्मियों को तैनात किया, जिसमें बख्तरबंद वाहनों, ड्रोनों और पानी की बौछारों का उपयोग किया गया। आंतरिक मंत्री लॉरेन नुनेज ने सार्वजनिक अव्यवस्था को रोकने के लिए शहर के केंद्रों से मार्च पर प्रतिबंध लगाने वाले प्रतिबंधों की घोषणा की।",
    "updates": [
-    "येलो वेस्ट ने सार्वजनिक स्वतंत्रता की रक्षा के लिए 31 अक्टूबर को लामबंदी के एक नए दिन की घोषणा की।",
-    "आंतरिक मंत्री लॉरेंट नुनेज़ ने घोषणा की कि 31 अक्टूबर के विरोध प्रदर्शन के लिए 70,000 पुलिस तैनात की जाएगी।",
-    "पेरिस पुलिस ने अधिकृत विरोध मार्ग को शहर के बाहरी इलाकों तक सीमित कर दिया और मध्य क्षेत्रों के लिए कर्फ्यू निर्धारित किया।"
+    "आयोजकों ने शनिवार, 31 अक्टूबर के लिए धरने और कैसेरोलेड सहित विरोध प्रदर्शनों के तीसरे अधिनियम की पुष्टि की।",
+    "आंतरिक मंत्री लॉरेन नुनेज ने हेलोवीन सप्ताहांत के दौरान शहरी हिंसा और दंगों के बहुत अधिक जोखिम की चेतावनी दी।",
+    "अधिकारियों ने 70,000 पुलिस अधिकारियों की तैनाती की घोषणा की और शहर के केंद्रों से विरोध प्रदर्शनों को प्रतिबंधित किया।",
+    "पेरिस प्रशासनिक न्यायाधिकरण ने बास्तील से नेशन तक एक मार्च मार्ग को अधिकृत किया, जिसके खिलाफ आंतरिक मंत्रालय ने अपील की।"
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "आंतरिक मंत्रालय ने पिछले शनिवार को देश भर में 4,10,000 प्रदर्शनकारियों का अनुमान लगाया, जबकि यूनियनों ने 8,00,000 का अनुमान लगाया।"
+   ],
+   "numbers": {
+    "crowd": "4,10,000 (आंतरिक मंत्रालय का अनुमान) और 8,00,000 (संघ का अनुमान) के बीच",
+    "arrests": "एक सप्ताह पहले 2,700 से अधिक लोगों को गिरफ्तार किया गया था"
+   }
   },
   "mr": {
-   "title": "फ्रान्समध्ये येलो वेस्ट आणि विद्यार्थी संघटनांनी देशव्यापी आंदोलनाचे नियोजन केले",
-   "seoTitle": "पॅरिसमध्ये महागाईविरोधात निदर्शने",
+   "title": "फ्रान्समध्ये यलो वेस्ट आणि विद्यार्थी संघटनांचे देशव्यापी आंदोलनांचे नियोजन",
+   "seoTitle": "राहणीमानाचा खर्च आणि पोलिसांविरुद्ध पॅरिसमध्ये निदर्शने",
    "tea": {
-    "why": "निदर्शक वाढती महागाई, असमानता आणि सरकारचा हुकूमशाही कल असल्याचे ते वर्णन करतात, त्याविरुद्ध निदर्शने करत आहेत.",
-    "want": "हे आंदोलन जीवनमानाचा खर्च, सार्वजनिक स्वातंत्र्याचे संरक्षण आणि सरकारी दडपशाही थांबवण्याची मागणी करत आहे.",
-    "changed": "३० ऑक्टोबर: पॅरिस पोलीस प्रीफेक्चरने अधिकृत मोर्चाचा मार्ग शहराच्या बाहेरील भागापुरता मर्यादित केला आणि मध्यवर्ती भागात संचारबंदी लागू केली."
+    "why": "निदर्शक वाढता राहणीमानाचा खर्च, महागाई आणि सार्वजनिक सेवांच्या परिस्थितीबद्दल निदर्शने करत आहेत.",
+    "want": "निदर्शक सुधारित राहणीमान, सुधारित शाळा उपकरणे आणि पोलिसांच्या दमाचा अंत करण्याची मागणी करत आहेत.",
+    "changed": "30 ऑक्टोबर: आतील मंत्री लॉरेन नुनेज यांनी आगामी आंदोलनांसाठी 70,000 सुरक्षा कर्मचाऱ्यांच्या तैनातीची घोषणा केली आणि शहर केंद्रांमधील मोर्चांवर बंदी घातली."
    },
-   "summary": "येलो वेस्ट आणि विद्यार्थी संघटनांनी ३१ ऑक्टोबर रोजी हॅलोविनच्या दिवशी तिसऱ्या दिवशी देशव्यापी निदर्शने आयोजित केली आहेत. सहभागी लोक वाढती महागाई आणि सरकारी धोरणांविरुद्ध निदर्शने करत आहेत. पॅरिसमध्ये, पोलीस प्रीफेक्चरने मोर्चा शहराच्या बाहेरील भागात, विशेषतः पोर्ट डी बॅग्नोलेट आणि पोर्ट डी चैरेंटन दरम्यान मर्यादित केला आहे, जेणेकरून प्लेस डी ला रिपब्लिक सारख्या मध्यवर्ती भागांत गर्दी टाळता येईल. गृहमंत्री लॉरेंट नुनेझ यांनी सार्वजनिक अव्यवस्था आणि संभाव्य हिंसेचा उच्च धोका असल्याचे सांगत देशभरात ७०,००० पोलीस आणि जेंडरमे तैनात करण्याची घोषणा केली. प्रशासनाने आठवड्याच्या शेवटी पॅरिसच्या काही भागांत संचारबंदीही लागू केली आहे. UNEF विद्यार्थी संघटनेसह आयोजकांनी या निर्बंधांवर टीका केली असून, हा असहमतीचा आवाज दाबण्याचा प्रयत्न असल्याचे म्हटले आहे. संभाव्य अशांततेच्या शक्यतेमुळे विविध शहरांतील व्यावसायिकांनी दुकानांच्या दर्शनी भागाला लाकडी फळ्या लावून बंद करण्यास सुरुवात केली आहे.",
+   "summary": "यलो वेस्ट चळवळ, कामगार संघटना आणि विद्यार्थी संघटनांनी हॅलोवीन उत्सवाच्या बरोबरीने फ्रान्समध्ये देशव्यापी निदर्शनांच्या नवीन फेरीचे नियोजन केले आहे. ही निदर्शने 17 ऑक्टोबर आणि 24 ऑक्टोबरच्या आधीच्या कृतींनंतर झाली आहेत, ज्यामध्ये अनेक शहरांमध्ये व्यापक अडथळे, लूटमार आणि संघर्ष दिसून आले. आयोजकांनी सार्वजनिक इमारतीबाहेर धरणे आंदोलने, भांडी वाजवून निदर्शने आणि पॅरिस व इतर कम्युनमध्ये मोर्च्यांचे आवाहन केले आहे. याला प्रतिसाद म्हणून, फ्रेंच अधिकाऱ्यांनी विशेष युनिट्स, चिलखती वाहने आणि पाण्याचे फवारे वापरून 70,000 पोलीस अधिकारी आणि जेंडरमे यांच्या तैनातीची घोषणा केली. शहरी हिंसाचार रोखण्यासाठी सरकार आणि पोलीस प्राधिकरणांनी सुरुवातीला मध्यवर्ती शहरांच्या भागातील निदर्शनांवर बंदी घातली, ज्यामुळे पॅरिसमधील नियोजित मोर्चा मार्गांवर कायदेशीर वाद निर्माण झाला.",
    "demands": [
-    "वाढत्या महागाईवर उपाय करा",
-    "सार्वजनिक स्वातंत्र्याचे संरक्षण करा",
-    "सरकारी दडपशाही थांबवा"
+    "राहणीमानाचा कमी खर्च",
+    "शाळांमध्ये चांगली उपकरणे",
+    "सार्वजनिक स्वातंत्र्याचे संरक्षण",
+    "पोलिस दमाचा अंत"
    ],
-   "response": "गृहमंत्री लॉरेंट नुनेझ यांनी देशभरात ७०,००० सुरक्षा कर्मचारी तैनात करण्याची घोषणा केली आणि अव्यवस्था टाळण्यासाठी निदर्शने शहराच्या केंद्राबाहेरील भागात मर्यादित केली. प्रशासनाने पॅरिसच्या विशिष्ट जिल्ह्यांमध्ये संचारबंदीही लागू केली आहे.",
+   "response": "फ्रेंच सरकारने देशव्यापी 70,000 पोलीस अधिकारी आणि सुरक्षा कर्मचाऱ्यांना तैनात केले, ज्यामध्ये चिलखती वाहने, ड्रोन आणि पाण्याचे फवारे वापरण्यात आले. आतील मंत्री लॉरेन नुनेज यांनी सार्वजनिक अशांतता रोखण्यासाठी शहर केंद्रांमधील मोर्चांवर बंदी घालणाऱ्या निर्बंधांची घोषणा केली.",
    "updates": [
-    "येलो वेस्टने सार्वजनिक स्वातंत्र्याच्या रक्षणासाठी ३१ ऑक्टोबर रोजी नवीन आंदोलनाची घोषणा केली.",
-    "गृहमंत्री लॉरेंट नुनेझ यांनी ३१ ऑक्टोबरच्या निदर्शनांसाठी ७०,००० पोलीस तैनात केले जातील अशी घोषणा केली.",
-    "पॅरिस पोलिसांनी अधिकृत निदर्शनाचा मार्ग शहराच्या बाहेरील भागापुरता मर्यादित केला आणि मध्यवर्ती भागांसाठी संचारबंदी लागू केली."
+    "आयोजकांनी शनिवार, 31 ऑक्टोबर रोजी धरणे आणि कॅसेरोलेड्ससह आंदोलनांच्या तिसऱ्या कृत्याची पुष्टी केली.",
+    "आतील मंत्री लॉरेन नुनेज यांनी हॅलोवीन वीकेंडदरम्यान शहरी हिंसाचार आणि दंगलींच्या अत्यंत उच्च धोक्याचा इशारा दिला.",
+    "धिकाऱ्यांनी 70,000 पोलीस अधिकाऱ्यांच्या तैनातीची घोषणा केली आणि शहर केंद्रांमधील निदर्शनांवर निर्बंध घातले.",
+    "पॅरिस प्रशासकीय न्यायाधिकरणाने बास्तील ते नेशनपर्यंतच्या मोर्चा मार्गाला मंजुरी दिली, ज्याविरुद्ध आतील मंत्रालयाने अपील केले."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "आंतरिक मंत्रालयाने गेल्या शनिवारी देशभरात 4,10,000 निदर्शकांचा अंदाज वर्तवला, तर युनियननी 8,00,000 चा अंदाज वर्तवला."
+   ],
+   "numbers": {
+    "crowd": "4,10,000 (अंतर्गत मंत्रालयाचा अंदाज) आणि 8,00,000 (युनियनचा अंदाज) दरम्यान",
+    "arrests": "आठवडाभरापूर्वी 2,700 हून अधिक लोकांना अटक करण्यात आली होती"
+   }
   },
   "es": {
-   "title": "Los Chalecos Amarillos y sindicatos estudiantiles planean protestas nacionales en Francia",
-   "seoTitle": "Protestas en París contra el costo de vida",
+   "title": "Los Chalecos Amarillos y los sindicatos de estudiantes planean protestas nacionales en Francia",
+   "seoTitle": "Protestas en París contra el coste de la vida y la policía",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, la desigualdad y lo que describen como la deriva autoritaria del gobierno.",
-    "want": "El movimiento exige medidas sobre el costo de vida, la protección de las libertades públicas y el fin de la represión gubernamental.",
-    "changed": "30 de octubre: La prefectura de policía de París restringió la ruta de marcha autorizada a las afueras de la ciudad e impuso toques de queda en las zonas centrales."
+    "why": "Los manifestantes se manifiestan por el aumento del coste de la vida, la inflación y las condiciones de los servicios públicos.",
+    "want": "Los manifestantes exigen mejores niveles de vida, un mejor equipamiento escolar y el fin de la represión policial.",
+    "changed": "30 de octubre: el ministro del Interior, Laurent Nunez, anunció el despliegue de 70.000 efectivos de seguridad y prohibió las marchas en el centro de la ciudad para las próximas protestas."
    },
-   "summary": "Los Chalecos Amarillos y los sindicatos estudiantiles han organizado un tercer día de protestas nacionales para el 31 de octubre, coincidiendo con Halloween. Los participantes se manifiestan contra el aumento del costo de vida y las políticas gubernamentales. En París, la prefectura de policía ha restringido la marcha a las afueras de la ciudad, específicamente entre Porte de Bagnolet y Porte de Charenton, para evitar zonas centrales como la Place de la République. El ministro del Interior, Laurent Nuñez, anunció el despliegue de 70,000 policías y gendarmes en todo el país, citando un alto riesgo de desorden público y posible violencia. Las autoridades también han implementado toques de queda en partes de París para el fin de semana. Los organizadores, incluido el sindicato estudiantil UNEF, han criticado estas restricciones como intentos de silenciar la disidencia. Las empresas en varias ciudades han comenzado a tapiar los escaparates ante la posibilidad de disturbios.",
+   "summary": "El movimiento de los Chalecos Amarillos, los sindicatos y las organizaciones estudiantiles han planeado una nueva ronda de protestas a nivel nacional en Francia, coincidiendo con las celebraciones de Halloween. Las manifestaciones siguen a las acciones anteriores del 17 de octubre y el 24 de octubre, que experimentaron perturbaciones generalizadas, saqueos y enfrentamientos en varias ciudades. Los organizadores han convocado sentadas, caceroladas frente a edificios públicos y marchas en París y otras comunas. En respuesta, las autoridades francesas anunciaron el despliegue de 70.000 agentes de policía y gendarmes, utilizando unidades especializadas, vehículos blindados y cañones de agua. El gobierno y las prefecturas de policía prohibieron inicialmente las protestas en las zonas urbanas centrales para prevenir la violencia urbana, lo que provocó una disputa legal sobre las rutas de marcha previstas en París.",
    "demands": [
-    "Abordar el aumento del costo de vida",
-    "Proteger las libertades públicas",
-    "Poner fin a la represión gubernamental"
+    "Menor coste de la vida",
+    "Mejor equipamiento en las escuelas",
+    "Protección de las libertades públicas",
+    "Fin de la represión policial"
    ],
-   "response": "El ministro del Interior, Laurent Nuñez, anunció el despliegue de 70,000 efectivos de seguridad en todo el país y restringió las manifestaciones a áreas fuera de los centros urbanos para evitar desórdenes. Las autoridades también han implementado toques de queda en distritos parisinos específicos.",
+   "response": "El gobierno francés desplegó 70.000 agentes de policía y personal de seguridad en todo el país, utilizando vehículos blindados, drones y cañones de agua. El ministro del Interior, Laurent Nunez, anunció restricciones que prohíben las marchas en los centros de las ciudades para prevenir el desorden público.",
    "updates": [
-    "Los Chalecos Amarillos anunciaron un nuevo día de movilización para el 31 de octubre para defender las libertades públicas.",
-    "El ministro del Interior, Laurent Nuñez, anunció que se desplegarán 70,000 policías para las protestas del 31 de octubre.",
-    "La policía de París restringió la ruta de protesta autorizada a las afueras de la ciudad y estableció toques de queda para las zonas centrales."
+    "Los organizadores confirmaron un tercer acto de protestas para el sábado 31 de octubre, que incluye sentadas y caceroladas.",
+    "El ministro del Interior, Laurent Nunez, advirtió de un riesgo muy alto de violencia urbana y disturbios durante el fin de semana de Halloween.",
+    "Las autoridades anunciaron el despliegue de 70.000 agentes de policía y restringieron las protestas en los centros urbanos.",
+    "El tribunal administrativo de París autorizó una ruta de marcha desde la Bastilla hasta la Nación, que el ministerio del interior apeló."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "El ministerio del interior estimó 410.000 manifestantes a nivel nacional el sábado anterior, mientras que los sindicatos estimaron 800.000."
+   ],
+   "numbers": {
+    "crowd": "entre 410.000 (estimación del ministerio del interior) y 800.000 (estimación de los sindicatos)",
+    "arrests": "más de 2.700 personas fueron detenidas una semana antes"
+   }
   },
   "fr": {
-   "title": "Les Gilets jaunes et les syndicats étudiants prévoient des manifestations nationales en France",
-   "seoTitle": "Manifestations à Paris contre le coût de la vie",
+   "title": "Gilets jaunes et syndicats étudiants prévoient des manifestations nationales en France",
+   "seoTitle": "Manifestations à Paris contre la vie chère et la police",
    "tea": {
-    "why": "Les manifestants protestent contre la hausse du coût de la vie, les inégalités et ce qu'ils décrivent comme la dérive autoritaire du gouvernement.",
-    "want": "Le mouvement exige des mesures sur le coût de la vie, la protection des libertés publiques et la fin de la répression gouvernementale.",
-    "changed": "30 octobre : La préfecture de police de Paris a restreint l'itinéraire de marche autorisé aux périphéries de la ville et a imposé des couvre-feux dans les zones centrales."
+    "why": "Les manifestants protestent contre la hausse du coût de la vie, l'inflation et les conditions des services publics.",
+    "want": "Les manifestants exigent un meilleur niveau de vie, un meilleur équipement scolaire et la fin de la répression policière.",
+    "changed": "30 octobre : le ministre de l'Intérieur, Laurent Nunez, a annoncé le déploiement de 70 000 agents de sécurité et a interdit les marches dans le centre-ville pour les manifestations à venir."
    },
-   "summary": "Les Gilets jaunes et les syndicats étudiants ont organisé une troisième journée de manifestations nationales pour le 31 octobre, coïncidant avec Halloween. Les participants manifestent contre la hausse du coût de la vie et les politiques gouvernementales. À Paris, la préfecture de police a restreint la marche aux périphéries de la ville, spécifiquement entre la Porte de Bagnolet et la Porte de Charenton, afin d'éviter les zones centrales comme la Place de la République. Le ministre de l'Intérieur, Laurent Nuñez, a annoncé le déploiement de 70 000 policiers et gendarmes dans tout le pays, citant un risque élevé de troubles à l'ordre public et de violence potentielle. Les autorités ont également mis en place des couvre-feux dans certaines parties de Paris pour le week-end. Les organisateurs, dont le syndicat étudiant UNEF, ont critiqué ces restrictions comme étant des tentatives de réduire la dissidence au silence. Les entreprises de diverses villes ont commencé à barricader leurs vitrines en prévision de troubles potentiels.",
+   "summary": "Le mouvement des Gilets jaunes, les syndicats et les organisations étudiantes ont planifié une nouvelle série de manifestations nationales en France, coïncidant avec les célébrations d'Halloween. Les manifestations font suite aux actions précédentes des 17 octobre et 24 octobre, qui ont connu des perturbations généralisées, des pillages et des affrontements dans plusieurs villes. Les organisateurs ont appelé à des sit-in, des manifestations de casserolades devant les bâtiments publics et des marches à Paris et dans d'autres communes. En réponse, les autorités françaises ont annoncé le déploiement de 70 000 policiers et gendarmes, utilisant des unités spécialisées, des véhicules blindés et des canons à eau. Le gouvernement et les préfectures de police ont initialement interdit les protestations dans les zones urbaines centrales afin d'empêcher la violence urbaine, ce qui a entraîné un litige juridique sur les itinéraires de marche prévus à Paris.",
    "demands": [
-    "Répondre à la hausse du coût de la vie",
-    "Protéger les libertés publiques",
-    "Mettre fin à la répression gouvernementale"
+    "Baisse du coût de la vie",
+    "Meilleur équipement dans les écoles",
+    "Protection des libertés publiques",
+    "Fin de la répression policière"
    ],
-   "response": "Le ministre de l'Intérieur, Laurent Nuñez, a annoncé le déploiement de 70 000 membres des forces de sécurité dans tout le pays et a restreint les manifestations aux zones situées en dehors des centres-villes pour éviter les troubles. Les autorités ont également mis en place des couvre-feux dans des arrondissements parisiens spécifiques.",
+   "response": "Le gouvernement français a déployé 70 000 policiers et agents de sécurité à travers le pays, utilisant des véhicules blindés, des drones et des canons à eau. Le ministre de l'Intérieur, Laurent Nunez, a annoncé des restrictions interdisant les marches dans les centres-villes pour prévenir les troubles publics.",
    "updates": [
-    "Les Gilets jaunes ont annoncé une nouvelle journée de mobilisation pour le 31 octobre afin de défendre les libertés publiques.",
-    "Le ministre de l'Intérieur, Laurent Nuñez, a annoncé que 70 000 policiers seront déployés pour les manifestations du 31 octobre.",
-    "La police de Paris a restreint l'itinéraire de manifestation autorisé aux périphéries de la ville et a fixé des couvre-feux pour les zones centrales."
+    "Les organisateurs ont confirmé un troisième acte de protestation pour le samedi 31 octobre, comprenant des sit-in et des casserolades.",
+    "Le ministre de l'Intérieur, Laurent Nunez, a mis en garde contre un risque très élevé de violence urbaine et d'émeutes pendant le week-end d'Halloween.",
+    "Les autorités ont annoncé le déploiement de 70 000 policiers et ont restreint les manifestations dans les centres-villes.",
+    "Le tribunal administratif de Paris a autorisé un itinéraire de marche de la Bastille à Nation, que le ministère de l'intérieur a contesté en appel."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "Le ministère de l'intérieur a estimé à 410 000 le nombre de manifestants à l'échelle nationale le samedi précédent, tandis que les syndicats ont estimé à 800 000."
+   ],
+   "numbers": {
+    "crowd": "entre 410 000 (estimation du ministère de l'intérieur) et 800 000 (estimation des syndicats)",
+    "arrests": "plus de 2 700 personnes ont été arrêtées une semaine plus tôt"
+   }
   },
   "de": {
    "title": "Gelbwesten und Studentenverbände planen landesweite Proteste in Frankreich",
-   "seoTitle": "Pariser Proteste gegen die Lebenshaltungskosten",
+   "seoTitle": "Pariser Proteste gegen Lebenshaltungskosten und Polizei",
    "tea": {
-    "why": "Die Demonstranten protestieren gegen die steigenden Lebenshaltungskosten, Ungleichheit und das, was sie als autoritäre Drift der Regierung beschreiben.",
-    "want": "Die Bewegung fordert Maßnahmen gegen die Lebenshaltungskosten, den Schutz der öffentlichen Freiheiten und ein Ende der staatlichen Repression.",
-    "changed": "30. Oktober: Die Pariser Polizeipräfektur beschränkte die genehmigte Marschroute auf die Außenbezirke der Stadt und verhängte Ausgangssperren in zentralen Gebieten."
+    "why": "Demonstranten protestieren gegen die steigenden Lebenshaltungskosten, Inflation und die Bedingungen im öffentlichen Dienst.",
+    "want": "Demonstranten fordern bessere Lebensstandards, eine verbesserte Schulausrüstung und ein Ende der Polizeirepression.",
+    "changed": "30. Oktober: Innenminister Laurent Nunez kündigte die Entsendung von 70.000 Sicherheitskräften an und verbot Märsche im Stadtzentrum für kommende Proteste."
    },
-   "summary": "Gelbwesten und Studentenverbände haben für den 31. Oktober, der mit Halloween zusammenfällt, einen dritten Tag landesweiter Proteste organisiert. Die Teilnehmer demonstrieren gegen die steigenden Lebenshaltungskosten und die Regierungspolitik. In Paris hat die Polizeipräfektur den Marsch auf die Außenbezirke der Stadt beschränkt, insbesondere zwischen Porte de Bagnolet und Porte de Charenton, um zentrale Bereiche wie den Place de la République zu meiden. Innenminister Laurent Nuñez kündigte den Einsatz von 70.000 Polizisten und Gendarmen im ganzen Land an und verwies auf ein hohes Risiko für die öffentliche Ordnung und potenzielle Gewalt. Die Behörden haben zudem für das Wochenende Ausgangssperren in Teilen von Paris verhängt. Die Organisatoren, darunter die Studentenvereinigung UNEF, haben diese Einschränkungen als Versuche kritisiert, abweichende Meinungen zum Schweigen zu bringen. Unternehmen in verschiedenen Städten haben begonnen, ihre Schaufenster in Erwartung möglicher Unruhen zu vernageln.",
+   "summary": "Die Gelbwesten-Bewegung, Gewerkschaften und Studentenorganisationen haben eine neue Runde landesweiter Proteste in Frankreich geplant, die zeitlich mit den Halloween-Feierlichkeiten zusammenfallen. Die Demonstrationen folgen auf frühere Aktionen am 17. Oktober und 24. Oktober, die in mehreren Städten zu massiven Störungen, Plünderungen und Zusammenstößen führten. Die Organisatoren haben zu Sit-ins, Casserolades vor öffentlichen Gebäuden sowie zu Märschen in Paris und anderen Kommunen aufgerufen. Als Reaktion darauf kündigten die französischen Behörden den Einsatz von 70.000 Polizeibeamten und Gendarmen unter Verwendung spezialisierter Einheiten, gepanzerter Fahrzeuge und Wasserwerfer an. Regierung und Polizeipräfekturen untersagten Proteste in zentralen Stadtgebieten zunächst, um urbaner Gewalt vorzubeugen, was zu einem Rechtsstreit über geplante Marschrouten in Paris führte.",
    "demands": [
-    "Die steigenden Lebenshaltungskosten angehen",
-    "Öffentliche Freiheiten schützen",
-    "Staatliche Repression beenden"
+    "Geringere Lebenshaltungskosten",
+    "Bessere Ausstattung in Schulen",
+    "Schutz der öffentlichen Freiheiten",
+    "Beendigung der Polizeirepression"
    ],
-   "response": "Innenminister Laurent Nuñez kündigte den Einsatz von 70.000 Sicherheitskräften im ganzen Land an und beschränkte Demonstrationen auf Gebiete außerhalb der Stadtzentren, um Unruhen zu verhindern. Die Behörden haben zudem Ausgangssperren in bestimmten Pariser Bezirken verhängt.",
+   "response": "Die französische Regierung setzte landesweit 70.000 Polizeibeamte und Sicherheitskräfte ein und nutzte dabei gepanzerte Fahrzeuge, Drohnen und Wasserwerfer. Innenminister Laurent Nunez kündigte Beschränkungen an, die Märsche aus den Stadtzentren verbieten, um öffentliche Unruhen zu verhindern.",
    "updates": [
-    "Die Gelbwesten kündigten für den 31. Oktober einen neuen Mobilisierungstag zur Verteidigung der öffentlichen Freiheiten an.",
-    "Innenminister Laurent Nuñez kündigte an, dass für die Proteste am 31. Oktober 70.000 Polizisten eingesetzt werden.",
-    "Die Pariser Polizei beschränkte die genehmigte Protestroute auf die Außenbezirke der Stadt und legte Ausgangssperren für zentrale Gebiete fest."
+    "Organisatoren bestätigten einen dritten Protestakt für Samstag, den 31. Oktober, einschließlich Sit-ins und Casserolades.",
+    "Innenminister Laurent Nunez warnte vor einem sehr hohen Risiko urbaner Gewalt und Ausschreitungen während des Halloween-Wochenendes.",
+    "Behörden kündigten den Einsatz von 70.000 Polizeibeamten an und beschränkten Proteste aus den Stadtzentren.",
+    "Das Pariser Verwaltungsgericht genehmigte eine Marschroute von der Bastille zur Nation, gegen die das Innenministerium Berufung einlegte."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "Das Innenministerium schätzte die Zahl der Demonstranten am vorherigen Samstag landesweit auf 410.000, während Gewerkschaften von 800.000 ausgingen."
+   ],
+   "numbers": {
+    "crowd": "zwischen 410.000 (Schätzung des Innenministeriums) und 800.000 (G Gewerkschaftsschätzung)",
+    "arrests": "mehr als 2.700 Menschen wurden eine Woche zuvor festgenommen"
+   }
   }
- },
- "endedOn": "2026-10-31"
+ }
 }
