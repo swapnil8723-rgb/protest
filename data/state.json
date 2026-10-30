@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-30",
-  "count": 44
+  "count": 69
  },
  "runs": [
-  {
-   "at": "2026-10-24T04:27:47.171Z",
-   "ms": 365999,
-   "discovered": 43,
-   "fetched": 39,
-   "classified": 26,
-   "protests": 9,
-   "summarized": 4,
-   "published": 172,
-   "live": 12,
-   "aiCalls": 38,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261024041500 http://data.gdeltproject.org/gdeltv2/20261024041500.export.CSV.zip → 404",
-    "gdelt: 20261024043000 http://data.gdeltproject.org/gdeltv2/20261024043000.export.CSV.zip → 404",
-    "gdelt: 13 files, 33 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 215 protest-word items",
-    "fetch: 39 ok, 4 failed",
-    "classify: new candidate e84a5e52147 \"Father protests outside collectorate over student suicide\" (Coimbatore)",
-    "summary: ee0a9468406 only 1 independent publisher(s) on-story — not applied",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 30 events"
-   ],
-   "translated": 30
-  },
   {
    "at": "2026-10-24T07:43:59.975Z",
    "ms": 264029,
@@ -1533,8 +1507,31 @@
     "translate: 8 events"
    ],
    "translated": 8
+  },
+  {
+   "at": "2026-10-30T07:44:01.147Z",
+   "ms": 423005,
+   "discovered": 87,
+   "fetched": 75,
+   "classified": 60,
+   "protests": 22,
+   "summarized": 10,
+   "published": 256,
+   "live": 18,
+   "aiCalls": 25,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 42 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 182 protest-word items",
+    "search: 25 single-source stories checked (8 in their own language), 17 other newsrooms found",
+    "fetch: 75 ok, 12 failed",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 10 events"
+   ],
+   "translated": 10
   }
  ],
- "gdeltCursor": "20261030043000",
- "lastRunAt": "2026-10-30T04:27:48.092Z"
+ "gdeltCursor": "20261030074500",
+ "lastRunAt": "2026-10-30T07:44:01.147Z"
 }
