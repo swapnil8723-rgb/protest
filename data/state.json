@@ -1,41 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-29",
-  "count": 211
+  "day": "2026-10-30",
+  "count": 21
  },
  "runs": [
-  {
-   "at": "2026-10-23T21:27:47.164Z",
-   "ms": 151565,
-   "discovered": 81,
-   "fetched": 81,
-   "classified": 68,
-   "protests": 17,
-   "summarized": 5,
-   "published": 103,
-   "live": 8,
-   "aiCalls": 15,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 8 files, 35 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 218 protest-word items",
-    "fetch: 81 ok, 0 failed",
-    "classify: new candidate e04d209c966 \"Iranians protest German visa delays outside embassy in Tehran\" (Tehran)",
-    "classify: new candidate e57eb3c7b7e \"French businesses brace for protests and government announces security measures\" (Paris)",
-    "classify: new candidate ec0f4522f21 \"Villagers protest hijab restrictions in Azerbaijan\" (Nardaran)",
-    "classify: new candidate eba59b6f0ce \"Bereaved families and former hostages to hold inquiry rally in Israel\" (Tel Aviv)",
-    "classify: new candidate ea9fe6f9d67 \"Taxi drivers protest rising operating costs and low fares in Helsinki\" (Helsinki)",
-    "classify: new candidate e605552060c \"Protesters demonstrate outside Glasgow Apple store against supply chains\" (Glasgow)",
-    "classify: new candidate e4c9f9967a8 \"Italian cities prepare for nationwide cost of living protests\" (Rome)",
-    "classify: new candidate eb282e7897b \"Congress MP and students detained during Jamia Millia union protest\" (Delhi)",
-    "classify: new candidate eb3864f46fb \"Ludhiana lawyers go on one-day strike over police inaction\" (Ludhiana)",
-    "classify: new candidate e6d32b9b29f \"Farmers protest voter list revision and demand CEC prosecution\" (Bathinda)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 4 events"
-   ],
-   "translated": 4
-  },
   {
    "at": "2026-10-24T01:05:22.930Z",
    "ms": 264529,
@@ -1537,8 +1505,39 @@
     "translate: 15 events"
    ],
    "translated": 15
+  },
+  {
+   "at": "2026-10-30T00:45:19.364Z",
+   "ms": 208607,
+   "discovered": 50,
+   "fetched": 48,
+   "classified": 39,
+   "protests": 14,
+   "summarized": 8,
+   "published": 253,
+   "live": 19,
+   "aiCalls": 21,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261030000000 http://data.gdeltproject.org/gdeltv2/20261030000000.export.CSV.zip → 404",
+    "gdelt: 20261030001500 http://data.gdeltproject.org/gdeltv2/20261030001500.export.CSV.zip → 404",
+    "gdelt: 20261030003000 http://data.gdeltproject.org/gdeltv2/20261030003000.export.CSV.zip → 404",
+    "gdelt: 20261030004500 http://data.gdeltproject.org/gdeltv2/20261030004500.export.CSV.zip → 404",
+    "gdelt: 13 files, 28 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 184 protest-word items",
+    "search: 25 single-source stories checked (6 in their own language), 21 other newsrooms found",
+    "fetch: 48 ok, 2 failed",
+    "classify: new candidate e7be26465e1 \"Students rally in Paris against police repression\" (Paris)",
+    "classify: new candidate e59e71aca83 \"Actor stages caged protest in Kolkata against bird captivity\" (Kolkata)",
+    "classify: new candidate e65686b4239 \"Local protest groups plan demonstration against Trump visit\" (Daytona Beach)",
+    "classify: new candidate e1a5ee71945 \"Illinois Right to Life delivers petitions against honoring Michael Sacks\" (Chicago)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 9 events"
+   ],
+   "translated": 9
   }
  ],
- "gdeltCursor": "20261029213000",
- "lastRunAt": "2026-10-29T21:31:12.503Z"
+ "gdeltCursor": "20261030004500",
+ "lastRunAt": "2026-10-30T00:45:19.364Z"
 }
