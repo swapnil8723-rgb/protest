@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-30",
-  "count": 69
+  "count": 84
  },
  "runs": [
-  {
-   "at": "2026-10-24T07:43:59.975Z",
-   "ms": 264029,
-   "discovered": 72,
-   "fetched": 68,
-   "classified": 61,
-   "protests": 22,
-   "summarized": 10,
-   "published": 132,
-   "live": 13,
-   "aiCalls": 27,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 45 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss news.err.ee: 403",
-    "rss: 217 protest-word items",
-    "fetch: 68 ok, 4 failed",
-    "classify: new candidate e80134db792 \"Trade unions and civil groups protest in Thanjavur demanding CEC resignation\" (Thanjavur)",
-    "classify: new candidate e26c27260d5 \"Left-wing groups challenge protest bans in Maine-et-Loire\" (Angers)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 11 events"
-   ],
-   "translated": 11
-  },
   {
    "at": "2026-10-24T10:10:38.550Z",
    "ms": 206234,
@@ -1530,8 +1505,37 @@
     "translate: 10 events"
    ],
    "translated": 10
+  },
+  {
+   "at": "2026-10-30T10:07:23.698Z",
+   "ms": 299673,
+   "discovered": 75,
+   "fetched": 66,
+   "classified": 56,
+   "protests": 15,
+   "summarized": 6,
+   "published": 257,
+   "live": 18,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 10 files, 30 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.france24.com: 403",
+    "rss www.france24.com: 403",
+    "rss: 203 protest-word items",
+    "search: 0 single-source stories checked (0 in their own language), 0 other newsrooms found",
+    "fetch: 66 ok, 9 failed",
+    "classify: new candidate ef857ce47d4 \"Prefecture regulates planned protests in Marseille\" (Marseille)",
+    "classify: new candidate e2bcc6d7112 \"INDIA bloc postpones CEC public impeachment rally to October 31\" (Delhi)",
+    "classify: new candidate e2ddda9ad86 \"Protesters stick poppies on Gosport pub sign\" (Gosport)",
+    "classify: new candidate eb15a4df257 \"Dockworkers strike against arms exports to Israel\" (Athens)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 4 events"
+   ],
+   "translated": 4
   }
  ],
- "gdeltCursor": "20261030074500",
- "lastRunAt": "2026-10-30T07:44:01.147Z"
+ "gdeltCursor": "20261030101500",
+ "lastRunAt": "2026-10-30T10:07:23.698Z"
 }
