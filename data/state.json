@@ -1,40 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-30",
-  "count": 192
+  "count": 211
  },
  "runs": [
-  {
-   "at": "2026-10-24T16:00:39.701Z",
-   "ms": 332621,
-   "discovered": 44,
-   "fetched": 40,
-   "classified": 36,
-   "protests": 20,
-   "summarized": 6,
-   "published": 138,
-   "live": 14,
-   "aiCalls": 15,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261024153000 http://data.gdeltproject.org/gdeltv2/20261024153000.export.CSV.zip → 404",
-    "gdelt: 20261024154500 http://data.gdeltproject.org/gdeltv2/20261024154500.export.CSV.zip → 404",
-    "gdelt: 9 files, 24 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 222 protest-word items",
-    "fetch: 40 ok, 4 failed",
-    "classify: new candidate e90b228a6fd \"Police fire tear gas at living-cost protesters in Lyon\" (Lyon)",
-    "classify: new candidate e82c7588ebb \"BJP and ABVP protest at Pondicherry University over graffiti\" (Puducherry)",
-    "classify: new candidate e69f64a1fd8 \"Congress plans marches over voter list discrepancies\" (Delhi)",
-    "classify: new candidate e5f545f14f4 \"Demonstrations at German airports against deportations\" (Leipzig)",
-    "classify: new candidate ebeee2b9ff7 \"Activist ends 27-day hunger strike against Ken-Betwa project\" (Panna)",
-    "classify: new candidate ee3abf5f94c \"Rayo Vallecano fans protest against club president Presa\" (Madrid)",
-    "summary: ee0a9468406 only 1 independent publisher(s) on-story — not applied",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-24T19:28:43.625Z",
    "ms": 368367,
@@ -1574,8 +1543,37 @@
     "translate: 17 events"
    ],
    "translated": 17
+  },
+  {
+   "at": "2026-10-30T22:25:13.355Z",
+   "ms": 169835,
+   "discovered": 60,
+   "fetched": 55,
+   "classified": 47,
+   "protests": 22,
+   "summarized": 9,
+   "published": 273,
+   "live": 14,
+   "aiCalls": 19,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 6 files, 25 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 224 protest-word items",
+    "search: 24 single-source stories checked (4 in their own language), 33 other newsrooms found",
+    "fetch: 55 ok, 5 failed",
+    "classify: new candidate e551445efc8 \"Youth councils request urgent meeting with Von der Leyen over protests\" (Brussels)",
+    "classify: new candidate e7fe00ee220 \"Patrons and community hold final demonstration at Bayside Lounge\" (Vancouver)",
+    "classify: new candidate e46dc562223 \"Pro-Palestine protesters demonstrate outside Port of Elizabeth\" (Elizabeth)",
+    "classify: new candidate efb2698f594 \"Thousands gather in Paris suburbs to remember racist attack victims\" (Trappes)",
+    "classify: new candidate ec82a8949a4 \"Belagavi sugarcane farmers issue ultimatum over price dispute\" (Belagavi)",
+    "classify: new candidate ed340edd4d1 \"Dockworkers strike internationally against arms shipments and war\" (Paris)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261030210000",
- "lastRunAt": "2026-10-30T20:50:30.648Z"
+ "gdeltCursor": "20261030223000",
+ "lastRunAt": "2026-10-30T22:25:13.355Z"
 }
