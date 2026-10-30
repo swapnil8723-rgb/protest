@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-30",
-  "count": 84
+  "count": 111
  },
  "runs": [
-  {
-   "at": "2026-10-24T10:10:38.550Z",
-   "ms": 206234,
-   "discovered": 47,
-   "fetched": 46,
-   "classified": 41,
-   "protests": 25,
-   "summarized": 8,
-   "published": 135,
-   "live": 14,
-   "aiCalls": 20,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 10 files, 27 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 222 protest-word items",
-    "fetch: 46 ok, 1 failed",
-    "classify: new candidate ed8d1f369ec \"Protesters clash and attack property over Upper Siang Dam\" (Pasighat)",
-    "classify: new candidate eb5e9804c23 \"Looted luxury goods from French protests appear online\" (Paris)",
-    "classify: new candidate e6ea1612b1d \"Activists hold midterm voter bannering demonstrations across Northeast\" (Ithaca)",
-    "classify: new candidate e3643203d94 \"RSS seeks police permission for Vijayadashami marches in Bengaluru\" (Tumkur)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 8 events"
-   ],
-   "translated": 8
-  },
   {
    "at": "2026-10-24T11:08:34.452Z",
    "ms": 130357,
@@ -1534,8 +1508,46 @@
     "translate: 4 events"
    ],
    "translated": 4
+  },
+  {
+   "at": "2026-10-30T13:48:41.530Z",
+   "ms": 272982,
+   "discovered": 115,
+   "fetched": 98,
+   "classified": 79,
+   "protests": 36,
+   "summarized": 9,
+   "published": 262,
+   "live": 17,
+   "aiCalls": 27,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261030131500 http://data.gdeltproject.org/gdeltv2/20261030131500.export.CSV.zip → 404",
+    "gdelt: 20261030133000 http://data.gdeltproject.org/gdeltv2/20261030133000.export.CSV.zip → 404",
+    "gdelt: 20261030134500 http://data.gdeltproject.org/gdeltv2/20261030134500.export.CSV.zip → 404",
+    "gdelt: 14 files, 46 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.theportugalnews.com: The operation was aborted due to timeout",
+    "rss: 216 protest-word items",
+    "search: 25 single-source stories checked (10 in their own language), 26 other newsrooms found",
+    "fetch: 98 ok, 17 failed",
+    "classify: new candidate edd547b21b5 \"Public sector unions threaten nationwide strike over pay\" (Dublin)",
+    "classify: new candidate eb3c6e0ca01 \"Dockworkers strike against port militarization in France\" (Paris)",
+    "classify: new candidate e4b6235c211 \"Gen Z regelt demonstration planned in Hannover over living costs\" (Hannover)",
+    "classify: new candidate e93329471cf \"Tibetan activists march against Chinese ethnic law\" (Dharamsala)",
+    "classify: new candidate e23f65eea45 \"Bordeaux prefecture prepares security for cost-of-living protests\" (Bordeaux)",
+    "classify: new candidate ef4c41d59bd \"Detained immigrants protest conditions with hunger strike\" (Raymondville)",
+    "classify: new candidate e3a049ded0a \"French demonstrators rally against government and political congress\" (Orléans)",
+    "classify: new candidate e7f93f12f64 \"Belagavi authorities ban sugarcane farmers highway blockade\" (Belagavi)",
+    "classify: new candidate e07124e7d33 \"Far-right and counter-protesters prepare for Manchester demonstrations\" (Manchester)",
+    "classify: new candidate e4c66a596e9 \"AISA student leader protests peace bond and voter roll issues\" (Delhi)",
+    "classify: new candidate ef73c775141 \"Yellow Vests and student unions protest living costs in Marseille\" (Marseille)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 11 events"
+   ],
+   "translated": 11
   }
  ],
- "gdeltCursor": "20261030101500",
- "lastRunAt": "2026-10-30T10:07:23.698Z"
+ "gdeltCursor": "20261030134500",
+ "lastRunAt": "2026-10-30T13:48:41.530Z"
 }
