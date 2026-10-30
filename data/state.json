@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-30",
-  "count": 111
+  "count": 146
  },
  "runs": [
-  {
-   "at": "2026-10-24T11:08:34.452Z",
-   "ms": 130357,
-   "discovered": 9,
-   "fetched": 9,
-   "classified": 9,
-   "protests": 5,
-   "summarized": 2,
-   "published": 135,
-   "live": 14,
-   "aiCalls": 5,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261024103000 http://data.gdeltproject.org/gdeltv2/20261024103000.export.CSV.zip → 404",
-    "gdelt: 20261024104500 http://data.gdeltproject.org/gdeltv2/20261024104500.export.CSV.zip → 404",
-    "gdelt: 20261024110000 http://data.gdeltproject.org/gdeltv2/20261024110000.export.CSV.zip → 404",
-    "gdelt: 20261024111500 http://data.gdeltproject.org/gdeltv2/20261024111500.export.CSV.zip → 404",
-    "gdelt: 4 files, 0 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 227 protest-word items",
-    "fetch: 9 ok, 0 failed",
-    "classify: new candidate e0e7342900c \"Gobichettipalayam residents block road over dangerous tree\" (Gobichettipalayam)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 2 events"
-   ],
-   "translated": 2
-  },
   {
    "at": "2026-10-24T13:48:38.926Z",
    "ms": 207475,
@@ -1546,8 +1519,50 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-10-30T16:50:30.213Z",
+   "ms": 676680,
+   "discovered": 135,
+   "fetched": 124,
+   "classified": 103,
+   "protests": 43,
+   "summarized": 13,
+   "published": 264,
+   "live": 14,
+   "aiCalls": 35,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261030161500 http://data.gdeltproject.org/gdeltv2/20261030161500.export.CSV.zip → 404",
+    "gdelt: 20261030163000 http://data.gdeltproject.org/gdeltv2/20261030163000.export.CSV.zip → 404",
+    "gdelt: 20261030164500 http://data.gdeltproject.org/gdeltv2/20261030164500.export.CSV.zip → 404",
+    "gdelt: 12 files, 66 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 223 protest-word items",
+    "search: 25 single-source stories checked (7 in their own language), 23 other newsrooms found",
+    "fetch: 124 ok, 11 failed",
+    "classify: new candidate e386a89c333 \"Cypriot dockworkers join global protest against Gaza war\" (Limassol)",
+    "classify: new candidate e1ab39092ce \"Protesters demonstrate across Europe over cost of living and housing\" (Brussels)",
+    "classify: new candidate e102e463d6c \"Prefecture bans cost of living protest in Rennes\" (Rennes)",
+    "classify: new candidate ec1eebad5cc \"Displaced Palestinian families protest in Hebron to return home\" (Hebron)",
+    "classify: new candidate e42dc31d65a \"Dockworkers worldwide strike against arms shipments and conditions\" (Istanbul)",
+    "classify: new candidate e9613377dfe \"Spanish police arrest Blocus founder linked to student protests\" (Madrid)",
+    "classify: new candidate ebe0768f8bb \"Gen Z regelt nationwide demonstrations over education and living costs\" (Frankfurt am Main)",
+    "classify: new candidate ed79c79db36 \"BJP counter-protest against INDIA bloc rally in Delhi\" (Delhi)",
+    "classify: new candidate e42b7a325f6 \"Protesters clash with police in Italian cities during general strike\" (Rome)",
+    "classify: new candidate eabafc54a35 \"Nova Scotia school support workers strike over wages\" (Halifax)",
+    "classify: new candidate e1c7d40598b \"Students celebrate victory for student union restoration\" (Delhi)",
+    "classify: new candidate e03076575d1 \"Sugarcane farmers call for Karnataka bandh\" (Belagavi)",
+    "classify: new candidate e42fe8b251b \"Gen Z protest plans in Netherlands\" (The Hague)",
+    "classify: new candidate eb2b7179c2e \"Cultural icons support student democracy protest\" (Thrissur)",
+    "classify: new candidate eaa161d131a \"Gen Z regelt nationwide demonstrations over living costs\" (Dortmund)",
+    "summary: edd547b21b5 judged not real: The sources report that a nationwide strike is currently being threatened or planned for 11 November 2026, but no physical protest action has taken place yet.",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 12 events"
+   ],
+   "translated": 12
   }
  ],
- "gdeltCursor": "20261030134500",
- "lastRunAt": "2026-10-30T13:48:41.530Z"
+ "gdeltCursor": "20261030164500",
+ "lastRunAt": "2026-10-30T16:50:30.213Z"
 }
