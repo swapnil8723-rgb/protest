@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-31",
-  "count": 157
+  "count": 210
  },
  "runs": [
-  {
-   "at": "2026-10-25T11:38:25.110Z",
-   "ms": 407568,
-   "discovered": 95,
-   "fetched": 86,
-   "classified": 76,
-   "protests": 39,
-   "summarized": 12,
-   "published": 162,
-   "live": 16,
-   "aiCalls": 30,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 16 files, 46 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 244 protest-word items",
-    "search: 25 single-source stories checked, 30 other newsrooms found",
-    "fetch: 86 ok, 9 failed",
-    "classify: new candidate e4d5248920e \"Students block ULB campus over tuition fee hike\" (Brussels)",
-    "classify: new candidate eba237381c4 \"RSS holds Vijayadashami route marches across Tamil Nadu\" (Chennai)",
-    "classify: new candidate ee64f956b9f \"NCRI supporters rally against executions in Iran\" (Gothenburg)",
-    "classify: new candidate e13ec8760c4 \"Protesters march in Berlin and Hanover for Palestine\" (Berlin)",
-    "classify: new candidate e778cb891bc \"Protests in Italian cities over living costs, fuel prices and war\" (Rome)",
-    "classify: new candidate e5e87e2c78c \"RSS holds Vijayadashami route marches across Karnataka\" (Bengaluru)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 11 events"
-   ],
-   "translated": 11
-  },
   {
    "at": "2026-10-25T14:48:46.931Z",
    "ms": 369642,
@@ -1561,8 +1532,50 @@
     "translate: 20 events"
    ],
    "translated": 20
+  },
+  {
+   "at": "2026-10-31T15:50:29.507Z",
+   "ms": 481116,
+   "discovered": 144,
+   "fetched": 131,
+   "classified": 118,
+   "protests": 76,
+   "summarized": 22,
+   "published": 299,
+   "live": 24,
+   "aiCalls": 53,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 17 files, 70 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss news.err.ee: 403",
+    "rss: 267 protest-word items",
+    "search: 25 single-source stories checked (6 in their own language), 29 other newsrooms found",
+    "fetch: 131 ok, 13 failed",
+    "classify: new candidate e127b98fa35 \"BJP president to lead Loktantra Bachao march in Rohtak\" (Rohtak)",
+    "classify: new candidate eaedef6e13f \"Sierra Club and activists protest Big Oil immunity bill in Honolulu\" (Honolulu)",
+    "classify: new candidate e2b5f7419ad \"Left-wing demonstrators protest against Berlin Left party leadership\" (Berlin)",
+    "classify: new candidate ea5cda8f40a \"Climate activists protest Scottish fossil fuel decisions in Edinburgh\" (Edinburgh)",
+    "classify: new candidate e96ec055180 \"Sugarcane growers block road demanding higher MSP and incentives\" (Mysuru)",
+    "classify: new candidate e61306c0538 \"Gen Z initiative holds nationwide demonstrations in Germany\" (Leipzig)",
+    "classify: new candidate e4a42b01541 \"European protests over living costs and economic policies\" (The Hague)",
+    "classify: new candidate eeb707384cd \"DMK Women's Wing holds protests across Tamil Nadu against TVK government\" (Coimbatore)",
+    "classify: new candidate e5388bd9a60 \"Demonstrations in Edinburgh and London supporting Palestine Action\" (Edinburgh)",
+    "classify: new candidate e8258714cf3 \"Citizens march in Kolkata against attacks on bookstalls\" (Kolkata)",
+    "classify: new candidate e606469ae24 \"Sugarcane growers intensify bandh and road blockades in Karnataka\" (Hubballi)",
+    "classify: new candidate e9649a84590 \"Animal rights activists protest in Paphos against animal abuse\" (Paphos)",
+    "classify: new candidate e368755b703 \"Gen Z protesters demonstrate in Cologne over living costs and policies\" (Köln)",
+    "classify: new candidate e7b9611a63b \"Protesters demonstrate across French cities against cost of living\" (Bordeaux)",
+    "classify: new candidate e7a147af34f \"Gen Z initiative holds nationwide demonstrations in Germany\" (Magdeburg)",
+    "classify: new candidate e689b1d6d00 \"Youth-led cost of living protests take place across Europe\" (Paris)",
+    "classify: new candidate e2b854231ce \"Sugarcane farmers protest at Vijayapura toll gate\" (Vijayapura)",
+    "classify: new candidate e73833552db \"Gen Z initiative holds demonstration in Erfurt\" (Erfurt)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 21 events"
+   ],
+   "translated": 21
   }
  ],
- "gdeltCursor": "20261031114500",
- "lastRunAt": "2026-10-31T11:49:08.159Z"
+ "gdeltCursor": "20261031160000",
+ "lastRunAt": "2026-10-31T15:50:29.507Z"
 }
