@@ -1,46 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-31",
-  "count": 210
+  "count": 257
  },
  "runs": [
-  {
-   "at": "2026-10-25T14:48:46.931Z",
-   "ms": 369642,
-   "discovered": 94,
-   "fetched": 92,
-   "classified": 86,
-   "protests": 42,
-   "summarized": 15,
-   "published": 164,
-   "live": 15,
-   "aiCalls": 38,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261025141500 http://data.gdeltproject.org/gdeltv2/20261025141500.export.CSV.zip → 404",
-    "gdelt: 20261025143000 http://data.gdeltproject.org/gdeltv2/20261025143000.export.CSV.zip → 404",
-    "gdelt: 20261025144500 http://data.gdeltproject.org/gdeltv2/20261025144500.export.CSV.zip → 404",
-    "gdelt: 12 files, 40 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 229 protest-word items",
-    "search: 10 single-source stories checked, 13 other newsrooms found",
-    "fetch: 92 ok, 2 failed",
-    "classify: new candidate e22ff5ca08d \"Families of missing Azerbaijanis rally in Brussels\" (Brussels)",
-    "classify: new candidate ec325051f4a \"Students and workers protest living costs and government policies in France\" (Lyon)",
-    "classify: new candidate e9d34c85561 \"Campaign groups protest data centers outside B2B event\" (Kilmarnock)",
-    "classify: new candidate e5123f37c96 \"Pahadi Army burns effigy of Akhilesh Yadav in Haldwani\" (Haldwani)",
-    "classify: new candidate edaa3bd7164 \"AISF holds sit-in in Thrissur in solidarity with Delhi\" (Thrissur)",
-    "classify: new candidate efa9ea9de72 \"Protesters clash with police in Angers over living costs\" (Angers)",
-    "classify: new candidate eb21bfbd718 \"Artists hold solidarity march in Malappuram for Jantar Mantar protests\" (Malappuram)",
-    "classify: new candidate e9e9fb667c5 \"Protesters clash with police during mobilisation in Clermont-Ferrand\" (Clermont-Ferrand)",
-    "classify: new candidate ebee9f108f8 \"PMOI supporters stage sit-in outside Iranian embassy in Berlin\" (Berlin)",
-    "classify: new candidate ef2b23e8bd8 \"Demonstrators clash with police in Italian cities over costs\" (Bologna)",
-    "summary: e4d5248920e only 1 independent publisher(s) on-story — not applied",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 14 events"
-   ],
-   "translated": 14
-  },
   {
    "at": "2026-10-25T16:28:24.548Z",
    "ms": 311615,
@@ -1574,8 +1537,40 @@
     "translate: 21 events"
    ],
    "translated": 21
+  },
+  {
+   "at": "2026-10-31T18:46:54.738Z",
+   "ms": 453716,
+   "discovered": 142,
+   "fetched": 129,
+   "classified": 112,
+   "protests": 80,
+   "summarized": 20,
+   "published": 305,
+   "live": 19,
+   "aiCalls": 47,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 62 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 270 protest-word items",
+    "search: 25 single-source stories checked (8 in their own language), 41 other newsrooms found",
+    "fetch: 129 ok, 13 failed",
+    "classify: new candidate e0a234f69fb \"Anarchists rally at Syntagma Square to commemorate deceased activist\" (Athens)",
+    "classify: new candidate ed3d1ff3f1a \"Right-wing protesters and counter-demonstrators face off\" (Manchester)",
+    "classify: new candidate ef0da3a910e \"Gen Z Regelt demonstration in Vienna\" (Vienna)",
+    "classify: new candidate ecb469abb11 \"Protesters attack theatre director over play in Bengaluru\" (Bengaluru)",
+    "classify: new candidate e46b5124a55 \"Demonstrators stage die-in protest against pesticides in Montreal\" (Montréal)",
+    "classify: new candidate ed6ac977cea \"Public protests in Gilgit-Baltistan over honour killing\" (Skardu)",
+    "classify: new candidate e8e37669adc \"Garment workers clash with police in Bangladesh over wages\" (Dhaka)",
+    "classify: new candidate ef2f8588035 \"Spanish cities police security for youth demonstrations\" (Madrid)",
+    "classify: new candidate ed4297e6465 \"Protests across Europe over living costs and rents\" (Lisbon)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 17 events"
+   ],
+   "translated": 17
   }
  ],
- "gdeltCursor": "20261031160000",
- "lastRunAt": "2026-10-31T15:50:29.507Z"
+ "gdeltCursor": "20261031184500",
+ "lastRunAt": "2026-10-31T18:46:54.738Z"
 }
