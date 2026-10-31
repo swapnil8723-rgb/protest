@@ -1,39 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-31",
-  "count": 257
+  "count": 303
  },
  "runs": [
-  {
-   "at": "2026-10-25T16:28:24.548Z",
-   "ms": 311615,
-   "discovered": 52,
-   "fetched": 49,
-   "classified": 45,
-   "protests": 28,
-   "summarized": 12,
-   "published": 165,
-   "live": 15,
-   "aiCalls": 27,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261025154500 http://data.gdeltproject.org/gdeltv2/20261025154500.export.CSV.zip → 404",
-    "gdelt: 7 files, 20 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 219 protest-word items",
-    "search: 20 single-source stories checked, 25 other newsrooms found",
-    "fetch: 49 ok, 3 failed",
-    "classify: new candidate e9653c9b877 \"RSS holds Vijayadashami route marches in Tamil Nadu\" (Tiruchirappalli)",
-    "classify: new candidate e44d11b4122 \"MEK Resistance Units burn Ali Khamenei mural in Rask\" (Rasak)",
-    "classify: new candidate e7537573b32 \"Villagers stage Jal Satyagraha protest against nuclear plant in Rewa\" (Rewa)",
-    "classify: new candidate e79429a3766 \"Cllashes between far-right militants and protesters in Nice\" (Nice)",
-    "classify: new candidate ebe8f5e3439 \"Protesters clash with police and storm Colosseum in Rome\" (Rome)",
-    "classify: new candidate ec1b52a78f1 \"Demonstrations at German airports against migrant deportations\" (Munich)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 11 events"
-   ],
-   "translated": 11
-  },
   {
    "at": "2026-10-25T19:28:42.772Z",
    "ms": 303150,
@@ -1569,8 +1539,34 @@
     "translate: 17 events"
    ],
    "translated": 17
+  },
+  {
+   "at": "2026-10-31T22:50:29.322Z",
+   "ms": 572678,
+   "discovered": 133,
+   "fetched": 119,
+   "classified": 105,
+   "protests": 67,
+   "summarized": 19,
+   "published": 307,
+   "live": 22,
+   "aiCalls": 46,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261031230000 http://data.gdeltproject.org/gdeltv2/20261031230000.export.CSV.zip → 404",
+    "gdelt: 17 files, 67 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 277 protest-word items",
+    "search: 25 single-source stories checked (6 in their own language), 32 other newsrooms found",
+    "fetch: 119 ok, 14 failed",
+    "classify: new candidate e0735c60754 \"Opposition alliance holds roadside rally in Gopalganj during march\" (Gopalganj)",
+    "classify: new candidate e5ab47b124f \"Thousands demonstrate in Porto for housing rights\" (Porto)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 18 events"
+   ],
+   "translated": 18
   }
  ],
- "gdeltCursor": "20261031184500",
- "lastRunAt": "2026-10-31T18:46:54.738Z"
+ "gdeltCursor": "20261031230000",
+ "lastRunAt": "2026-10-31T22:50:29.322Z"
 }

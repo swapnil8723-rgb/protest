@@ -15,10 +15,12 @@
  },
  "scope": "local",
  "causes": [
-  "labour"
+  "labour",
+  "prices",
+  "jobs"
  ],
  "kind": "multi-day",
- "startedOn": "2026-10-31",
+ "startedOn": "2026-10-17",
  "status": "ongoing",
  "vibe": "heating-up",
  "severity": "normal",
@@ -29,25 +31,42 @@
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Garment workers are protesting over wage demands.",
-  "want": "Workers are demanding pay hikes.",
-  "changed": "Oct 31: Workers blocked the Dhaka-Tangail Highway in Gazipur and authorities closed several nearby factories."
+  "why": "Garment workers protested because current wages are insufficient to manage household expenses amid rising commodity prices and reduced overtime.",
+  "want": "Protesters are demanding a minimum monthly wage of Tk 30,000 and the immediate formation of a new wage board.",
+  "changed": "Oct 31: Workers clashed repeatedly with police, leaving 30 injured and 15 vehicles vandalised while continuing highway blockades."
  },
- "summary": "Garment workers blocked the Dhaka-Tangail Highway in Gazipur, halting traffic and causing severe disruption for commuters. According to police, the blockade started near Palli Bidyut of Chandra on Saturday afternoon. Authorities stated that workers across Gazipur's industrial belt have been protesting over wages for several days by blocking highways, marching, and vandalising factories. In response to the ongoing situation, police were deployed to the scene to persuade the blockaders to leave, and several nearby factories were shut down to maintain control.",
+ "summary": "Garment workers in Gazipur's industrial belt launched continuous protests and highway blockades demanding higher pay. The demonstrations escalated when workers from Interstoff and other nearby factories took over the Chandra Palli Bidyut area of Kaliakair upazila, halting traffic on the Dhaka-Tangail Highway. Protesters reported that current wages and decreased overtime opportunities make it impossible to cover basic living expenses, including rent, food, and children's education, while commodity prices rise. According to reports, workers clashed repeatedly with law enforcement agencies, resulting in injuries and property damage. Police and industrial authorities attempted to negotiate with the crowd and persuade them to clear the road, while several factories declared holidays to control the situation.",
  "organizers": [],
  "demands": [
-  "Wage increases"
+  "Minimum monthly wage of Tk 30,000",
+  "Formation of a new wage board",
+  "Better opportunities for overtime work"
  ],
- "response": "According to police, officers were at the scene attempting to persuade the protesters to leave the highway. Superintendent of Gazipur Industrial Police Md Amjad Hossain stated that several nearby factories were shut down to keep the situation under control.",
- "numbers": {},
+ "response": "Police and industrial police were deployed to the scene to persuade protesters to leave the highway and restore traffic flow, while 20 factories declared holidays to manage the unrest.",
+ "numbers": {
+  "injuries": {
+   "value": 30,
+   "text": "At least 30 people were injured in the clashes.",
+   "sources": [
+    4
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-10-31",
-   "text": "Garment workers blocked the Dhaka-Tangail Highway in Gazipur over wage demands, halting traffic.",
+   "text": "Garment workers blocked the Dhaka-Tangail Highway in Gazipur over wage demands, causing severe traffic disruption.",
    "sources": [
     1,
     2,
     3
+   ]
+  },
+  {
+   "at": "2026-10-31",
+   "text": "Workers clashed repeatedly with police in Gazipur, leaving 30 injured and 15 vehicles vandalised.",
+   "sources": [
+    4
    ]
   }
  ],
@@ -72,125 +91,158 @@
    "publisher": "businesstimes-bd.com",
    "title": "Gazipur Garment Workers Block Dhaka-Tangail Highway Demanding Pay Hike",
    "publishedAt": "2026-10-31T11:57:26.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://en.prothomalo.com/bangladesh/local-news/pro1dqcg6t",
+   "publisher": "en.prothomalo.com",
+   "title": "Workers clash with police repeatedly in Gazipur, 30 injured 15 vehicles vandalised",
+   "publishedAt": "2026-10-31T16:16:34.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.85,
- "publishers": 3,
- "reports24h": 3,
+ "confidence": 0.91,
+ "publishers": 4,
+ "reports24h": 4,
  "reportsPrev24h": 0,
- "reports48h": 3,
+ "reports48h": 4,
  "firstSeenAt": "2026-10-31T11:50:20.958Z",
- "lastReportAt": "2026-10-31T11:57:26.000Z",
- "lastCheckedAt": "2026-10-31T18:51:50.084Z",
- "updatedAt": "2026-10-31T15:54:43.215Z",
+ "lastReportAt": "2026-10-31T16:16:34.000Z",
+ "lastCheckedAt": "2026-10-31T22:57:20.267Z",
+ "updatedAt": "2026-10-31T22:56:28.107Z",
  "searchedAt": "2026-10-31T15:50:38.968Z",
  "responseSources": [
-  1
+  1,
+  4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-31T15:54:43.215Z",
- "summaryOf": "45b053333471",
+ "summarizedAt": "2026-10-31T22:56:28.107Z",
+ "summaryOf": "ea9ee74cd897",
  "publishedAt": "2026-10-31T15:55:24.091Z",
  "i18n": {
-  "of": "c6aa9e783de32b64",
-  "at": "2026-10-31T15:56:41.816Z",
+  "of": "4a5475c81b31ff03",
+  "at": "2026-10-31T22:58:20.198Z",
   "tries": 1,
   "hi": {
-   "title": "गार्मेंट श्रमिकों ने वेतन को लेकर गाजीपुर में ढाका-तंगैल राजमार्ग को जाम किया",
-   "seoTitle": "गाजीपुर गार्मेंट श्रमिक राजमार्ग जाम",
+   "title": "गाजीपुर में वेतन को लेकर गारमेंट श्रमिकों ने ढाका-तंगैल राजमार्ग को जाम किया",
+   "seoTitle": "गाजीपुर गारमेंट श्रमिक राजमार्ग जाम",
    "tea": {
-    "why": "गार्मेंट श्रमिक वेतन की मांगों को लेकर प्रदर्शन कर रहे हैं।",
-    "want": "श्रमिक वेतन में वृद्धि की मांग कर रहे हैं।",
-    "changed": "31 अक्टूबर: श्रमिकों ने गाजीपुर में ढाका-तंगैल राजमार्ग को जाम कर दिया और अधिकारियों ने आसपास की कई फैक्ट्रियों को बंद कर दिया।"
+    "why": "गारमेंट श्रमिकों ने इसलिए प्रदर्शन किया क्योंकि बढ़ती महंगाई और कम ओवरटाइम के बीच मौजूदा वेतन घर का खर्च चलाने के लिए नाकाफी है।",
+    "want": "प्रदर्शक 30,000 टका का न्यूनतम मासिक वेतन और एक नए वेतन बोर्ड के तत्काल गठन की मांग कर रहे हैं।",
+    "changed": "31 अक्टूबर: राजमार्ग का जाम जारी रखते हुए श्रमिकों की पुलिस के साथ बार-बार झड़पें हुईं, जिससे 30 लोग घायल हो गए और 15 वाहन में तोड़फोड़ की गई।"
    },
-   "summary": "गार्मेंट श्रमिकों ने गाजीपुर में ढाका-तंगैल राजमार्ग को जाम कर दिया, जिससे यातायात रुक गया और यात्रियों को भारी परेशानी का सामना करना पड़ा। पुलिस के अनुसार, शनिवार दोपहर को चंद्र के पल्ली विद्युत के पास जाम शुरू हुआ। अधिकारियों ने बताया कि गाजीपुर के औद्योगिक क्षेत्र में श्रमिक पिछले कई दिनों से राजमार्गों को जाम करके, रैलियां निकालकर और फैक्ट्रियों में तोड़फोड़ करके वेतन को लेकर प्रदर्शन कर रहे हैं। इस चल रही स्थिति के जवाब में, प्रदर्शनकारियों को सड़क से हटने के लिए मनाने हेतु पुलिस को मौके पर तैनात किया गया और स्थिति नियंत्रण में रखने के लिए आसपास की कई फैक्ट्रियों को बंद कर दिया गया।",
+   "summary": "गाजीपुर के औद्योगिक क्षेत्र में गारमेंट श्रमिकों ने अधिक वेतन की मांग को लेकर लगातार प्रदर्शन और राजमार्ग पर जाम लगाया। यह प्रदर्शन तब बढ़ गया जब इंटरस्टॉफ और अन्य नजदीकी कारखानों के श्रमिकों ने कालियाकोइर उपजिला के चंद्र पल्ली विद्युत क्षेत्र पर कब्जा कर लिया, जिससे ढाका-तंगैल राजमार्ग पर यातायात रुक गया। प्रदर्शनकारियों ने बताया कि मौजूदा वेतन और कम हुए ओवरटाइम के अवसरों के कारण किराया, भोजन और बच्चों की शिक्षा सहित बुनियादी जीवन खर्चों को पूरा करना असंभव हो गया है, जबकि वस्तुओं की कीमतें बढ़ रही हैं। रिपोर्टों के अनुसार, श्रमिकों की कानून प्रवर्तन एजेंसियों के साथ बार-बार झड़पें हुईं, जिसके परिणामस्वरूप चोटें आईं और संपत्ति को नुकसान हुआ। पुलिस और औद्योगिक अधिकारियों ने भीड़ के साथ बातचीत करने और उन्हें सड़क खाली करने के लिए मनाने का प्रयास किया, जबकि स्थिति को नियंत्रित करने के लिए कई कारखानों ने छुट्टियों की घोषणा की।",
    "demands": [
-    "वेतन में वृद्धि"
+    "30,000 टका का न्यूनतम मासिक वेतन",
+    "एक नए वेतन बोर्ड का गठन",
+    "ओवरटाइम काम के लिए बेहतर अवसर"
    ],
-   "response": "पुलिस के अनुसार, अधिकारी मौके पर मौजूद थे और प्रदर्शनकारियों को राजमार्ग से हटने के लिए मनाने का प्रयास कर रहे थे। गाजीपुर औद्योगिक पुलिस के पुलिस अधीक्षक मो. अमजद हुसैन ने बताया कि स्थिति को नियंत्रण में रखने के लिए आसपास की कई फैक्ट्रियों को बंद कर दिया गया था।",
+   "response": "प्रदर्शकों को राजमार्ग छोड़ने और यातायात बहाल करने के लिए मनाने के वास्ते पुलिस और औद्योगिक पुलिस को मौके पर तैनात किया गया, जबकि अशांति को प्रबंधित करने के वास्ते 20 कारखानों ने छुट्टियों की घोषणा की।",
    "updates": [
-    "वेतन की मांगों को लेकर गार्मेंट श्रमिकों ने गाजीपुर में ढाका-तंगैल राजमार्ग को जाम कर दिया, जिससे यातायात बाधित हुआ।"
+    "वेतन मांगों को लेकर गाजीपुर में गारमेंट श्रमिकों ने ढाका-तंगैल राजमार्ग को जाम कर दिया, जिससे गंभीर यातायात व्यवधान पैदा हुआ।",
+    "गाजीपुर में श्रमिकों की पुलिस के साथ बार-बार झड़पें हुईं, जिससे 30 घायल हो गए और 15 वाहनों में तोड़फोड़ की गई।"
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "injuries": "झड़पों में कम से कम 30 लोग घायल हो गए।"
+   }
   },
   "mr": {
-   "title": "गार्मेंट कामगारांचे वेतनावरून गाझियाबादमध्ये नव्हे तर गाझीपूरमध्ये ढाका-तंगैल महामार्गावर रस्ता रोको",
-   "seoTitle": "गाझीपूर गार्मेंट कामगार महामार्ग रस्ता रोको",
+   "title": "गाजीपूरमध्ये वेतनावरून गारमेंट कामगारांनी ढाका-तंगैल महामार्ग अडवला",
+   "seoTitle": "गाजीपूर गारमेंट कामगार महामार्ग रस्ता रोको",
    "tea": {
-    "why": "गार्मेंट कामगार वेतन मागण्यांसाठी निदर्शने करत आहेत.",
-    "want": "कामगार वेतनवाढीची मागणी करत आहेत.",
-    "changed": "31 ऑक्टोबर: कामगारांनी गाझीपूरमध्ये ढाका-तंगैल महामार्ग रोखला आणि प्रशासनाने जवळील अनेक कारखाने बंद केले."
+    "why": "गारमेंट कामगारांनी निदर्शने केली कारण वाढत्या महागाई आणि कमी झालेला ओव्हरटाइम यांच्यामध्ये सध्याचा पगार घरखर्च भागवण्यासाठी अपुरा आहे.",
+    "want": "निदर्शक ३०,००० टका किमान मासिक वेतन आणि नवीन वेतन मंडळाच्या तात्काळ स्थापनेची मागणी करत आहेत.",
+    "changed": "३१ ऑक्टोबर: महामार्ग रोखून धरत असताना कामगारांच्या पोलिसांशी वारंवार संघर्ष झाला, ज्यामुळे ३० जण जखमी झाले आणि १५ वाहनांची तोडफोड झाली."
    },
-   "summary": "गार्मेंट कामगारांनी गाझीपूरमध्ये ढाका-तंगैल महामार्ग रोखून धरला, ज्यामुळे वाहतूक ठप्प झाली आणि प्रवाशांना तीव्र अडचणींचा सामना करावा लागला. पोलिसांच्या मते, शनिवारी दुपारी चंद्र येथील पल्ली विद्युत जवळ रस्ता रोको सुरू झाला. प्रशासनाने सांगितले की, गाझीपूरच्या औद्योगिक पट्ट्यातील कामगार महामार्ग रोखून, मोर्चे काढून आणि कारखान्यांची नासधूस करून गेल्या अनेक दिवसांपासून वेतनावरून निदर्शने करत आहेत. चालू परिस्थितीच्या पार्श्वभूमीवर, रस्ता रोको करणाऱ्यांना निघून जाण्यासाठी प्रवृत्त करण्यासाठी घटनास्थळी पोलीस तैनात करण्यात आले आणि परिस्थिती नियंत्रणात ठेवण्यासाठी जवळील अनेक कारखाने बंद ठेवण्यात आले.",
+   "summary": "गाजीपूरच्या औद्योगिक पट्ट्यातील गारमेंट कामगारांनी अधिक पगाराची मागणी करत सलग निदर्शने आणि महामार्ग रोको सुरू केला. इंटरस्टॉफ आणि इतर जवळील कारखान्यांमधील कामगारांनी कालीयाकोइर उपजिल्यातील चंद्र पल्ली बिद्युत क्षेत्र ताब्यात घेतल्यावर हे आंदोलन आणखी तीव्र झाले, ज्यामुळे ढाका-तंगैल महामार्गावरील वाहतूक थांबली. वस्तूंच्या वाढत्या किमतींच्या दरम्यान भाडे, अन्न आणि मुलांचे शिक्षण यांसारख्या मूलभूत राहणीमान खर्च भागवणे सध्याच्या वेतनामुळे आणि कमी झालेल्या ओव्हरटाइमच्या संधींमुळे अशक्य झाले असल्याचे निदर्शकांनी सांगितले. अहवालानुसार, कामगारांचा कायद्याची अंमलबजावणी करणाऱ्या यंत्रणांशी वारंवार संघर्ष झाला, ज्याचे परिणामी दुखापती आणि मालमत्तेचे नुकसान झाले. गर्दीशी वाटाघाटी करण्याचा आणि त्यांना रस्ता मोकळा करण्यास पटवून देण्याचा प्रयत्न पोलीस आणि औद्योगिक अधिकाऱ्यांनी केला, तर परिस्थिती नियंत्रणात आणण्यासाठी अनेक कारखान्यांनी सुट्ट्या जाहीर केल्या.",
    "demands": [
-    "वेतनवाढ"
+    "३०,००० टका किमान मासिक वेतन",
+    "नवीन वेतन मंडळाची स्थापना",
+    "ओव्हरटाइम कामासाठी चांगल्या संधी"
    ],
-   "response": "पोलिसांच्या मते, अधिकारी घटनास्थळी उपस्थित होते आणि निदर्शकांना महामार्ग सोडण्यासाठी मनवण्याचा प्रयत्न करत होते. गाझीपूर औद्योगिक पोलिसाचे पोलीस अधीक्षक एम.डी. अमजद हुसेन यांनी सांगितले की, परिस्थिती नियंत्रणात ठेवण्यासाठी जवळील अनेक कारखाने बंद करण्यात आले होते.",
+   "response": "निदर्शकांना महामार्ग सोडण्यास आणि वाहतूक पूर्ववत करण्यास पटवून देण्यासाठी पोलीस आणि औद्योगिक पोलिसांना घटनास्थळी तैनात करण्यात आले, तर अशांतता आटोक्यात आणण्यासाठी २० कारखान्यांनी सुट्ट्या जाहीर केल्या.",
    "updates": [
-    "वेतन मागण्यांसाठी गार्मेंट कामगारांनी गाझीपूरमध्ये ढाका-तंगैल महामार्ग रोखला, ज्यामुळे वाहतूक विस्कळीत झाली."
+    "वेतन मागण्यांवरून गाजीपूरमध्ये गारमेंट कामगारांनी ढाका-तंगैल महामार्ग अडवला, ज्यामुळे तीव्र वाहतूक कोंडी झाली.",
+    "गाजीपूरमध्ये कामगारांच्या पोलिसांशी वारंवार झटापटी झाल्या, ज्यामुळे ३० जण जखमी झाले आणि १५ वाहनांची तोडफोड झाली."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "injuries": "या संघर्षामध्ये किमान ३० लोक जखमी झाले."
+   }
   },
   "es": {
-   "title": "Trabajadores de la confección bloquean la autopista Daca-Tangail en Gazipur por salarios",
+   "title": "Trabajadores de la confección bloquean la autopista Dhaka-Tangail en Gazipur por salarios",
    "seoTitle": "Bloqueo de autopista por trabajadores en Gazipur",
    "tea": {
-    "why": "Los trabajadores de la confección protestan por demandas salariales.",
-    "want": "Los trabajadores exigen aumentos salariales.",
-    "changed": "31 de oct.: Los trabajadores bloquearon la autopista Daca-Tangail en Gazipur y las autoridades cerraron varias fábricas cercanas."
+    "why": "Los trabajadores de la confección protestaron porque los salarios actuales son insuficientes para gestionar los gastos del hogar en medio del aumento de los precios de los productos básicos y la reducción de las horas extras.",
+    "want": "Los manifestantes exigen un salario mensual mínimo de 30.000 Tk y la formación inmediata de una nueva junta salarial.",
+    "changed": "31 de oct.: Los trabajadores se enfrentaron repetidamente con la policía, dejando 30 heridos y 15 vehículos vandalizados mientras continuaban los bloqueos de la autopista."
    },
-   "summary": "Trabajadores de la confección bloquearon la autopista Daca-Tangail en Gazipur, deteniendo el tráfico y causando graves problemas a los viajeros. Según la policía, el bloqueo comenzó cerca de Palli Bidyut de Chandra el sábado por la tarde. Las autoridades afirmaron que los trabajadores del cinturón industrial de Gazipur han estado protestando por los salarios durante varios días bloqueando autopistas, marchando y vandalizando fábricas. Como respuesta a la situación en curso, se desplegó a la policía en el lugar para persuadir a los manifestantes de que se retiraran, y se cerraron varias fábricas cercanas para mantener el control.",
+   "summary": "Los trabajadores de la confección en el cinturón industrial de Gazipur iniciaron protestas continuas y bloqueos de autopistas exigiendo un pago mayor. Las manifestaciones escalaron cuando los trabajadores de Interstoff y otras fábricas cercanas tomaron la zona de Chandra Palli Bidyut en el subdistrito de Kaliakair, deteniendo el tráfico en la autopista Dhaka-Tangail. Los manifestantes informaron que los salarios actuales y las menores oportunidades de horas extras hacen imposible cubrir los gastos básicos de vida, incluidos el alquiler, la comida y la educación de los hijos, mientras aumentan los precios de los productos básicos. Según los informes, los trabajadores se enfrentaron repetidamente con las agencias del orden público, lo que resultó en lesiones y daños a la propiedad. La policía y las autoridades industriales intentaron negociar con la multitud y persuadirla para que despejara la carretera, mientras varias fábricas declararon días festivos para controlar la situación.",
    "demands": [
-    "Aumentos salariales"
+    "Salario mensual mínimo de 30.000 Tk",
+    "Formación de una nueva junta salarial",
+    "Mejores oportunidades para trabajo de horas extras"
    ],
-   "response": "Según la policía, los agentes se encontraban en el lugar intentando persuadir a los manifestantes para que abandonaran la autopista. El superintendente de la Policía Industrial de Gazipur, Md Amjad Hossain, declaró que varias fábricas cercanas fueron cerradas para mantener la situación bajo control.",
+   "response": "La policía y la policía industrial fueron desplegadas en el lugar para persuadir a los manifestantes de abandonar la autopista y restablecer el flujo de tráfico, mientras que 20 fábricas declararon días festivos para gestionar los disturbios.",
    "updates": [
-    "Trabajadores de la confección bloquearon la autopista Daca-Tangail en Gazipur por demandas salariales, deteniendo el tráfico."
+    "Trabajadores de la confección bloquearon la autopista Dhaka-Tangail en Gazipur por demandas salariales, causando graves alteraciones en el tráfico.",
+    "Los trabajadores se enfrentaron repetidamente con la policía en Gazipur, dejando 30 heridos y 15 vehículos vandalizados."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "injuries": "Al menos 30 personas resultaron heridas en los enfrentamientos."
+   }
   },
   "fr": {
    "title": "Des ouvriers du textile bloquent l'autoroute Dhaka-Tangail à Gazipur pour des salaires",
    "seoTitle": "Blocage d'autoroute par des ouvriers à Gazipur",
    "tea": {
-    "why": "Des ouvriers du textile manifestent pour des revendications salariales.",
-    "want": "Les ouvriers exigent des hausses de salaire.",
-    "changed": "31 oct. : Des ouvriers ont bloqué l'autoroute Dhaka-Tangail à Gazipur et les autorités ont fermé plusieurs usines voisines."
+    "why": "Les ouvriers du textile ont manifesté parce que les salaires actuels sont insuffisants pour gérer les dépenses du ménage au milieu de la hausse des prix des produits de base et de la réduction des heures supplémentaires.",
+    "want": "Les manifestants exigent un salaire mensuel minimum de 30 000 Tk et la formation immédiate d'un nouveau conseil des salaires.",
+    "changed": "31 oct. : Les ouvriers se sont affrontés à plusieurs reprises avec la police, faisant 30 blessés et 15 véhicules vandalisés tout en poursuivant les blocages d'autoroute."
    },
-   "summary": "Des ouvriers du textile ont bloqué l'autoroute Dhaka-Tangail à Gazipur, stoppant la circulation et provoquant de graves perturbations pour les navetteurs. Selon la police, le blocus a commencé près de Palli Bidyut de Chandra samedi après-midi. Les autorités ont déclaré que des ouvriers de la zone industrielle de Gazipur manifestent pour les salaires depuis plusieurs jours en bloquant des autoroutes, en manifestant et en vandalisant des usines. En réponse à la situation en cours, la police a été déployée sur place pour persuader les bloqueurs de partir, et plusieurs usines voisines ont été fermées pour maintenir le contrôle.",
+   "summary": "Des ouvriers du textile de la zone industrielle de Gazipur ont lancé des manifestations continues et des blocages d'autoroute pour exiger une meilleure rémunération. Les manifestations ont dégénéré lorsque des ouvriers d'Interstoff et d'autres usines voisines ont pris le contrôle de la zone de Chandra Palli Bidyut dans le sous-district de Kaliakair, interrompant la circulation sur l'autoroute Dhaka-Tangail. Les manifestants ont indiqué que les salaires actuels et la diminution des opportunités d'heures supplémentaires rendent impossible la couverture des frais de subsistance de base, y compris le loyer, la nourriture et l'éducation des enfants, tandis que les prix des produits de base augmentent. Selon les rapports, les ouvriers se sont affrontés à plusieurs reprises avec les agences d'application de la loi, entraînant des blessures et des dégâts matériels. La police et les autorités industrielles ont tenté de négocier avec la foule et de la persuader de libérer la route, tandis que plusieurs usines ont déclaré des congés pour contrôler la situation.",
    "demands": [
-    "Augmentations de salaire"
+    "Salaire mensuel minimum de 30 000 Tk",
+    "Formation d'un nouveau conseil des salaires",
+    "Meilleures opportunités pour le travail supplémentaire"
    ],
-   "response": "Selon la police, des agents étaient sur place pour tenter de persuader les manifestants de quitter l'autoroute. Le surintendant de la police industrielle de Gazipur, Md Amjad Hossain, a déclaré que plusieurs usines voisines avaient été fermées pour garder la situation sous contrôle.",
+   "response": "La police et la police industrielle ont été déployées sur les lieux pour persuader les manifestants de quitter l'autoroute et de rétablir la circulation, tandis que 20 usines ont déclaré des congés pour gérer les troubles.",
    "updates": [
-    "Des ouvriers du textile ont bloqué l'autoroute Dhaka-Tangail à Gazipur pour des revendications salariales, stoppant la circulation."
+    "Des ouvriers du textile ont bloqué l'autoroute Dhaka-Tangail à Gazipur en raison de revendications salariales, provoquant de graves perturbations de la circulation.",
+    "Des ouvriers se sont affrontés à plusieurs reprises avec la police à Gazipur, faisant 30 blessés et 15 véhicules vandalisés."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "injuries": "Au moins 30 personnes ont été blessées lors des affrontements."
+   }
   },
   "de": {
-   "title": "Bekleidungsarbeiter blockieren Dhaka-Tangail-Autobahn in Gazipur wegen Löhnen",
-   "seoTitle": "Autobahnblockade durch Arbeiter in Gazipur",
+   "title": "Bekleidungsarbeiter blockieren Dhaka-Tangail-Highway in Gazipur wegen Löhnen",
+   "seoTitle": "Highway-Blockade durch Bekleidungsarbeiter in Gazipur",
    "tea": {
-    "why": "Bekleidungsarbeiter protestieren wegen Lohnforderungen.",
-    "want": "Arbeiter fordern Gehaltserhöhungen.",
-    "changed": "31. Okt.: Arbeiter blockierten die Dhaka-Tangail-Autobahn in Gazipur und die Behörden schlossen mehrere Fabriken in der Nähe."
+    "why": "Bekleidungsarbeiter protestierten, weil die aktuellen Löhne angesichts steigender Rohstoffpreise und reduzierter Überstunden nicht ausreichen, um die Haushaltsausgaben zu bewältigen.",
+    "want": "Demonstranten fordern einen Mindestmonatslohn von 30.000 Tk und die sofortige Bildung einer neuen Lohnkommission.",
+    "changed": "31. Okt.: Arbeiter lieferten sich wiederholt Zusammenstöße mit der Polizei, wobei 30 Verletzte und 15 vandalisierte Fahrzeuge zu verzeichnen waren, während die Highway-Blockaden fortgesetzt wurden."
    },
-   "summary": "Bekleidungsarbeiter blockierten die Dhaka-Tangail-Autobahn in Gazipur, wodurch der Verkehr zum Erliegen kam und Pendler stark beeinträchtigt wurden. Nach Angaben der Polizei begann die Blockade am Samstagnachmittag in der Nähe von Palli Bidyut in Chandra. Die Behörden erklärten, dass Arbeiter im gesamten Industriegürtel von Gazipur seit mehreren Tagen wegen Löhnen protestieren, indem sie Autobahnen blockieren, marschieren und Fabriken verwüsten. Als Reaktion auf die anhaltende Situation wurde Polizei zum Ort des Geschehens entsandt, um die Blockierer zum Verlassen zu bewegen, und mehrere nahegelegene Fabriken wurden geschlossen, um die Kontrolle zu behalten.",
+   "summary": "Bekleidungsarbeiter im Industriegebiet von Gazipur begannen anhaltende Proteste und Highway-Blockaden mit der Forderung nach höherer Bezahlung. Die Demonstrationen eskalierten, als Arbeiter von Interstoff und anderen nahegelegenen Fabriken das Gebiet Chandra Palli Bidyut im Unterbezirk Kaliakair einnahmen und den Verkehr auf dem Dhaka-Tangail-Highway zum Erliegen brachten. Demonstranten berichteten, dass aktuelle Löhne und verringerte Überstundenmöglichkeiten es unmöglich machen, grundlegende Lebenshaltungskosten wie Miete, Lebensmittel und die Ausbildung von Kindern zu decken, während die Rohstoffpreise steigen. Berichten zufolge kam es zu wiederholten Zusammenstößen zwischen Arbeitern und Strafverfolgungsbehörden, was zu Verletzungen und Sachschäden führte. Polizei und Industriebehörden versuchten, mit der Menge zu verhandeln und sie davon zu überzeugen, die Straße zu räumen, während mehrere Fabriken Feiertage erklärten, um die Situation zu kontrollieren.",
    "demands": [
-    "Lohnerhöhungen"
+    "Mindestmonatslohn von 30.000 Tk",
+    "Bildung einer neuen Lohnkommission",
+    "Bessere Möglichkeiten für Überstundenarbeit"
    ],
-   "response": "Nach Angaben der Polizei waren Beamte vor Ort und versuchten, die Protestierenden zum Verlassen der Autobahn zu bewegen. Der Superintendent der Industriepolizei von Gazipur, Md Amjad Hossain, erklärte, dass mehrere Fabriken in der Nähe geschlossen wurden, um die Situation unter Kontrolle zu halten.",
+   "response": "Polizei und Industriefolizei wurden zum Ort des Geschehens entsandt, um Demonstranten davon zu überzeugen, den Highway zu verlassen und den Verkehrsfluss wiederherzustellen, während 20 Fabriken Feiertage erklärten, um die Unruhen zu bewältigen.",
    "updates": [
-    "Bekleidungsarbeiter blockierten wegen Lohnforderungen die Dhaka-Tangail-Autobahn in Gazipur, wodurch der Verkehr zum Erliegen kam."
+    "Bekleidungsarbeiter blockierten wegen Lohnforderungen den Dhaka-Tangail-Highway in Gazipur, was zu schweren Verkehrsbehinderungen führte.",
+    "Arbeiter lieferten sich in Gazipur wiederholte Zusammenstöße mit der Polizei, wobei 30 Verletzte und 15 vandalisierte Fahrzeuge zurückblieben."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "injuries": "Bei den Zusammenstößen wurden mindestens 30 Menschen verletzt."
+   }
   }
  }
 }

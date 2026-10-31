@@ -2,8 +2,8 @@
  "id": "ef73c775141",
  "slug": "marseille-living-costs-protest-oct-2026-2",
  "stage": "live",
- "title": "Cost of living protests and restrictions in Marseille",
- "seoTitle": "Marseille cost of living protest",
+ "title": "Cost of living protest and clashes draw thousands in Marseille",
+ "seoTitle": "Marseille cost of living march and clashes",
  "place": {
   "city": "Marseille",
   "region": "Provence-Alpes-Côte d'Azur",
@@ -16,189 +16,268 @@
  "scope": "local",
  "causes": [
   "prices",
-  "labour"
+  "jobs",
+  "climate"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-31",
- "status": "ongoing",
- "vibe": "cooling-down",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
- "isOngoing": true,
+ "review": "auto",
+ "reviewReasons": [],
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the rising cost of living.",
-  "want": "Demonstrators seek action regarding living costs and economic pressures.",
-  "changed": "Oct 31: Authorities enacted curfews for minors and restrictions on unannounced gatherings."
+  "why": "Protesters marched against the rising cost of living, government inaction, youth precarity, and police repression.",
+  "want": "Demonstrators demanded more public services, higher wages, better support for students, and action on climate change.",
+  "changed": "Oct 31: Police reported 10,000 participants in an unauthorized Marseille march, leading to tear gas use and five arrests for burglary."
  },
- "summary": "Yellow Vests and student unions planned demonstrations in Marseille for the third act of the cost of living movement. According to news sources, authorities issued bans and restrictions on unannounced and non-declared gatherings, while enacting localized curfews for minors in sensitive sectors. Prefectural orders prohibited unauthorized protests across the Bouches-du-Rhône department through the weekend, although a permitted union-backed march with an established route and internal security was scheduled to start at Les Réformés and head toward Porte d'Aix. Officials cited previous disturbances to justify the heightened security measures, restricted transport, and prohibitions on spontaneous assemblies.",
- "organizers": [
-  "Yellow Vests",
-  "student unions",
-  "CGT"
- ],
+ "summary": "On October 31, 2026, an unauthorized demonstration took place in Marseille as part of a national day of mobilization against the high cost of living. Despite a ban by the local prefecture, approximately 10,000 people gathered in the city centre. The march initially proceeded in a festive atmosphere, with many participants in Halloween costumes, but later fractured into smaller groups. Toward the late afternoon, tensions escalated on Boulevard Chave, leading to clashes with law enforcement, tear gas deployment, garbage bin fires, and reports of property damage and burglaries in several stores. The mayor of Marseille, Benoît Payan, condemned those seeking chaos, while police forces deployed in high numbers across the city.",
+ "organizers": [],
  "demands": [
-  "Address the rising cost of living"
+  "More resources and professors for public services",
+  "Better financial support for youth and students",
+  "Action against climate change and the rise of the far-right",
+  "End to police repression"
  ],
- "response": "According to sources, the prefecture banned unannounced gatherings, instituted minor curfews, and restricted transport, while permitting a specific union-led march with a designated route.",
- "numbers": {},
+ "response": "According to the prefecture of police, the march was unauthorized and security forces deployed tear gas against hostile groups committing violence. Police also reported five arrests following a burglary at a store in the 1st arrondissement. Mayor Benoît Payan urged residents to stay safe and condemned individuals exploiting the protests…",
+ "numbers": {
+  "crowd": {
+   "value": 10000,
+   "text": "10 000 personnes",
+   "sources": [
+    1,
+    2,
+    3
+   ]
+  },
+  "arrests": {
+   "value": 5,
+   "text": "cinq interpellations",
+   "sources": [
+    3
+   ]
+  }
+ },
  "updates": [
   {
-   "at": "2026-10-30",
-   "text": "Authorities announced that unannounced protests would be illegal and banned from Friday evening until Monday morning.",
+   "at": "2026-10-31",
+   "text": "An unauthorized march against the cost of living started in Marseille, gathering thousands despite a prefectural ban.",
    "sources": [
-    1
+    1,
+    2
    ]
   },
   {
    "at": "2026-10-31",
-   "text": "A permitted union march was scheduled to start at Les Réformés and proceed to Porte d'Aix.",
+   "text": "Police reported 10,000 participants at the peak of the mobilization in Marseille.",
    "sources": [
+    1,
+    3
+   ]
+  },
+  {
+   "at": "2026-10-31",
+   "text": "Clashes erupted on Boulevard Chave in the late afternoon, with police deploying tear gas against mobile hostile groups.",
+   "sources": [
+    1,
     2
+   ]
+  },
+  {
+   "at": "2026-10-31",
+   "text": "Five individuals were arrested in Marseille following a burglary at a Foot Locker store.",
+   "sources": [
+    3
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/mobilisations-du-31-octobre-a-marseille-des-manifestations-non-autorisees-et-couvre-feux-dans-les-bouches-du-rhone-le-vaucluse-et-les-alpes-du-sud-3441438.html",
-   "publisher": "france3-regions.franceinfo.fr",
-   "title": "Mobilisations du 31 octobre à Marseille : des manifestations non autorisées et couvre- feux dans les bouches du Rhône, le Vaucluse et les Alpes du sud",
-   "publishedAt": "2026-10-30T11:42:23.000Z"
-  },
-  {
-   "n": 2,
    "url": "https://www.ici.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/mobilisation-du-31-octobre-en-provence-manifestations-interdites-a-marseille-mais-couvre-feu-et-transports-limites-3439600",
    "publisher": "ici.fr",
    "title": "Mobilisation du 31 octobre en Provence : manifestations interdites à Marseille mais couvre-feu et transports limités - ICI",
    "publishedAt": "2026-10-31T09:41:25.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.franceinfo.fr/societe/manifestations/reportage-on-va-continuer-a-etre-dans-la-rue-a-marseille-un-cortege-non-declare-rassemble-environ-10-000-personnes-lors-de-la-mobilisation-du-31-octobre_8262104.html",
+   "publisher": "franceinfo.fr",
+   "title": "REPORTAGE. \"On va continuer &agrave; &ecirc;tre dans la rue\" : &agrave; Marseille, un cort&egrave;ge non d&eacute;clar&eacute; rassemble environ 10 000 personnes lors de la mobilisation du 31 octobre",
+   "publishedAt": "2026-10-31T19:05:27.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.lefigaro.fr/marseille/cinq-interpellations-a-marseille-apres-le-pillage-d-un-magasin-foot-locker-20261031",
+   "publisher": "lefigaro.fr",
+   "title": "Manifestations du 31 octobre à Marseille : cinq interpellations après le cambriolage d’un Foot Locker",
+   "publishedAt": "2026-10-31T19:46:31.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 1,
+ "confidence": 0.8,
+ "publishers": 3,
+ "reports24h": 3,
  "reportsPrev24h": 1,
- "reports48h": 2,
+ "reports48h": 4,
  "firstSeenAt": "2026-10-30T13:50:22.009Z",
- "lastReportAt": "2026-10-31T09:41:25.000Z",
- "lastCheckedAt": "2026-10-31T18:51:50.084Z",
- "updatedAt": "2026-10-31T11:52:45.600Z",
+ "lastReportAt": "2026-10-31T19:46:31.000Z",
+ "lastCheckedAt": "2026-10-31T22:57:20.267Z",
+ "updatedAt": "2026-10-31T22:56:54.711Z",
  "responseSources": [
   1,
-  2
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-31T11:52:45.600Z",
- "summaryOf": "85a5a27095d3",
+ "summarizedAt": "2026-10-31T22:56:54.711Z",
+ "summaryOf": "dd44d843ad09",
  "publishedAt": "2026-10-30T13:51:28.793Z",
  "i18n": {
-  "of": "779066c75dfe17b1",
-  "at": "2026-10-31T11:54:00.450Z",
+  "of": "efe76f461a0038ea",
+  "at": "2026-10-31T22:59:26.282Z",
   "tries": 1,
   "hi": {
-   "title": "मार्सिले में जीवन-यापन की लागत के खिलाफ विरोध प्रदर्शन और प्रतिबंध",
-   "seoTitle": "मार्सिले जीवन यापन लागत विरोध",
+   "title": "मार्सिले में जीवन-यापन के खर्च के खिलाफ प्रदर्शन और झड़पों में हजारों लोग जुटे",
+   "seoTitle": "मार्सिले जीवन-यापन मार्च और झड़पें",
    "tea": {
-    "why": "प्रदर्शनकारी जीवन-यापन की बढ़ती लागत के खिलाफ विरोध प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शनकारी जीवन-यापन की लागत और आर्थिक दबावों के संबंध में कार्रवाई चाहते हैं।",
-    "changed": "31 अक्टूबर: अधिकारियों ने नाबालिगों के लिए कर्फ्यू और बिना घोषणा के होने वाले आयोजनों पर प्रतिबंध लागू किए।"
+    "why": "प्रदर्शनकारियों ने जीवन-यापन के बढ़ते खर्च, सरकारी निष्क्रियता, युवाओं की अनिश्चितता और पुलिस दमन के खिलाफ मार्च निकाला।",
+    "want": "प्रदर्शनकारियों ने अधिक सार्वजनिक सेवाओं, उच्च वेतन, छात्रों के लिए बेहतर सहायता और जलवायु परिवर्तन पर कार्रवाई की मांग की।",
+    "changed": "31 अक्टूबर: पुलिस ने मार्सिले में एक अनधिकृत मार्च में 10,000 प्रतिभागियों के होने की सूचना दी, जिसके कारण आंसू गैस का इस्तेमाल किया गया और सेंधमारी के लिए पांच गिरफ्तारियां हुईं।"
    },
-   "summary": "जीवन-यापन की लागत के आंदोलन के तीसरे चरण के लिए येलो वेस्ट्स और छात्र संघों ने मार्सिले में प्रदर्शनों की योजना बनाई थी। समाचार स्रोतों के अनुसार, अधिकारियों ने बिना घोषणा के और गैर-घोषित सभाओं पर प्रतिबंध और रोक लगा दी, साथ ही संवेदनशील क्षेत्रों में नाबालिगों के लिए स्थानीयकृत कर्फ्यू लागू किए। प्रादेशिक आदेशों ने सप्ताहांत भर बुश-ड्यू-रोन विभाग में अनधिकृत विरोध प्रदर्शनों पर प्रतिबंध लगा दिया, हालांकि एक निर्धारित मार्ग और आंतरिक सुरक्षा के साथ एक अनुमत संघ-समर्थित मार्च ले रेफोर्मे से शुरू होकर पोर्ट डी'ऐक्स की ओर जाने के लिए निर्धारित किया गया था। अधिकारियों ने बढ़ी हुई सुरक्षा व्यवस्था, प्रतिबंधित परिवहन और स्वतःस्फूर्त सभाओं पर प्रतिबंधों को उचित ठहराने के लिए पिछले व्यवधानों का हवाला दिया।",
+   "summary": "31 अक्टूबर 2026 को, जीवन-यापन के उच्च खर्च के खिलाफ लामबंदी के राष्ट्रीय दिन के हिस्से के रूप में मार्सिले में एक अनधिकृत प्रदर्शन हुआ। स्थानीय प्रशासन द्वारा प्रतिबंध के बावजूद, लगभग 10,000 लोग शहर के केंद्र में एकत्र हुए। मार्च की शुरुआत में माहौल उत्सव जैसा था, जिसमें कई प्रतिभागी हैलोवीन की पोशाक में थे, लेकिन बाद में यह छोटे समूहों में बंट गया। देर शाम तक, बुलेवार्ड चावे पर तनाव बढ़ गया, जिससे कानून प्रवर्तन के साथ झड़पें हुईं, आंसू गैस के गोले छोड़े गए, कचरे के डिब्बे में आग लगाई गई, और कई दुकानों में संपत्ति के नुकसान और सेंधमारी की खबरें आईं। मार्सिले के मेयर बेनोइट पायान ने अराजकता चाहने वालों की निंदा की, जबकि पुलिस बल पूरे शहर में भारी संख्या में तैनात थे।",
    "demands": [
-    "जीवन-यापन की बढ़ती लागत का समाधान करें"
+    "सार्वजनिक सेवाओं के लिए अधिक संसाधन और प्रोफेसर",
+    "युवाओं और छात्रों के लिए बेहतर वित्तीय सहायता",
+    "जलवायु परिवर्तन और सुदूर दक्षिणपंथ के उदय के खिलाफ कार्रवाई",
+    "पुलिस दमन का अंत"
    ],
-   "response": "स्रोतों के अनुसार, प्रेफ्रेक्चर ने बिना घोषणा के होने वाली सभाओं पर प्रतिबंध लगा दिया, नाबालिगों के लिए कर्फ्यू शुरू किया, और परिवहन को प्रतिबंधित कर दिया, जबकि एक निर्दिष्ट मार्ग के साथ एक विशिष्ट संघ-नेतृत्व वाले मार्च की अनुमति दी।",
+   "response": "पुलिस प्रशासन के अनुसार, मार्च अनधिकृत था और सुरक्षा बलों ने हिंसा करने वाले आक्रामक समूहों के खिलाफ आंसू गैस का इस्तेमाल किया। पुलिस ने पहली आर्दondissement में एक दुकान में सेंधमारी के बाद पांच लोगों की गिरफ्तारी की भी सूचना दी। मेयर बेनोइट पायान ने निवासियों से सुरक्षित रहने का आग्रह किया और विरोध प्रदर्शनों का फायदा उठाने वाले व्यक्तियों की निंदा की...",
    "updates": [
-    "अधिकारियों ने घोषणा की कि बिना घोषणा के होने वाले विरोध प्रदर्शन शुक्रवार शाम से सोमवार सुबह तक अवैध होंगे और प्रतिबंधित रहेंगे।",
-    "एक अनुमत संघ मार्च ले रेफोर्मे से शुरू होकर पोर्ट डी'ऐक्स तक जाने के लिए निर्धारित किया गया था।"
+    "मार्सिले में जीवन-यापन के खर्च के खिलाफ एक अनधिकृत मार्च शुरू हुआ, जिसमें प्रशासनिक प्रतिबंध के बावजूद हजारों लोग एकत्र हुए।",
+    "पुलिस ने मार्सिले में लामबंदी के चरम पर 10,000 प्रतिभागियों के होने की सूचना दी।",
+    "देर शाम बुलेवार्ड चावे पर झड़पें भड़क उठीं, जिसमें पुलिस ने मोबाइल आक्रामक समूहों के खिलाफ आंसू गैस का इस्तेमाल किया।",
+    "मार्सिले में एक स्टोर में सेंधमारी के बाद पांच व्यक्तियों को गिरफ्तार किया गया।"
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "10000",
+    "arrests": "पांच गिरफ्तारियां"
+   }
   },
   "mr": {
-   "title": "मार्सेयमधील वाढत्या महागाईविरुद्धची आंदोलने आणि प्रतिबंध",
-   "seoTitle": "मार्सेय महागाईविरोधी आंदोलन",
+   "title": "मार्सेमध्ये महागाईविरोधी निदर्शने आणि संघर्षात हजारो लोकांचा सहभाग",
+   "seoTitle": "मार्से महागाई मार्च आणि संघर्ष",
    "tea": {
-    "why": "आंदोलक वाढत्या महागाईच्या विरोधात निदर्शने करत आहेत.",
-    "want": "निदर्शक राहणीमानाचा खर्च आणि आर्थिक दबावांबाबत कारवाईची मागणी करत आहेत.",
-    "changed": "31 ऑक्टोबर: प्राधिकरणाने अल्पवयीन मुलांसाठी संचारबंदी आणि पूर्वसूचना न देता एकत्र येण्यावर प्रतिबंध लागू केले."
+    "why": "निदर्शकांनी वाढत्या महागाई, सरकारी अनास्था, तरुणांमधील असुरक्षितता आणि पोलीस दशाहीविरोधात मार्च काढला.",
+    "want": "निदर्शकांनी अधिक सार्वजनिक सेवा, उच्च वेतन, विद्यार्थ्यांसाठी उत्तम पाठबळ आणि हवामान बदलावर कृती करण्याची मागणी केली.",
+    "changed": "३१ ऑक्टोबर: पोलिसांनी मार्से येथे एका अनधिकृत मार्चमध्ये १०,००० सहभागाची माहिती दिली, ज्यामुळे अश्रुधुराचा वापर करण्यात आला आणि घरफोडीप्रकरणी पाच जणांना अटक करण्यात आली."
    },
-   "summary": "महागाईविरोधी आंदोलनाच्या तिसऱ्या टप्प्यासाठी यलो व्हेस्ट्स आणि विद्यार्थी संघटनांनी मार्सेयमध्ये निवेदनांचे आणि आंदोलनांचे नियोजन केले होते. वृत्तसंस्थांनुसार, प्राधिकरणाने पूर्वसूचना न दिलेल्या आणि विनाघोषित एकत्र येण्यावर बंदी आणि प्रतिबंध जारी केले, तसेच संवेदनशील क्षेत्रांमध्ये अल्पवयीन मुलांसाठी स्थानिक स्वरूपाची संचारबंदी लागू केली. बुश-ड्यू-रोन विभागात संपूर्ण शनिवार व रविवार अनधिकृत आंदोलनांवर प्राधिकरणाच्या आदेशांमुळे बंदी घालण्यात आली, जरी निश्चित मार्ग आणि अंतर्गत सुरक्षा असलेले युनियनचे अधिकृत मार्च ले रेफोर्मे येथून सुरू होऊन पोर्ट डी'ऐक्सच्या दिशेने जाण्यासाठी ठरवले होते. वाढीव सुरक्षा उपाय, प्रतिबंधित वाहतूक आणि स्वयंस्फूर्त सभांवरील बंदीचे समर्थन करण्यासाठी अधिकाऱ्यांनी मागील उपद्रवांचा हवाला दिला.",
+   "summary": "३१ ऑक्टोबर २०२६ रोजी, उच्च महागाईविरुद्धच्या राष्ट्रीय मोर्चेबांधणीचा भाग म्हणून मार्से येथे एक अनधिकृत निदर्शने झाली. स्थानिक प्रशासनाच्या बंदी असूनही, अंदाजे १०,००० लोक शहराच्या मध्यवर्ती भागात जमा झाले. मार्च सुरुवातीला उत्सवाच्या वातावरणात पुढे गेला, ज्यामध्ये अनेक सहभागींनी हॅलोवीनचे पोशाख परिधान केले होते, परंतु नंतर तो लहान गटांमध्ये विभागला गेला. दुपारच्या उत्तरार्धात, बुलेव्हार्ड चावे येथे तणाव वाढला, ज्यामुळे कायदा सुव्यवस्था राखणाऱ्या यंत्रणेसोबत संघर्ष झाला, अश्रुधुराचा वापर करण्यात आला, कचऱ्याचे डबे जाळण्यात आले आणि अनेक दुकानांमध्ये मालमत्तेचे नुकसान व घरफोडी झाल्याची माहिती समोर आली. मार्सेचे महापौर बेनोइट पायान यांनी अराजकता पसरवणाऱ्यांचा निषेध केला, तर संपूर्ण शहरात मोठ्या संख्येने पोलीस दल तैनात करण्यात आले होते.",
    "demands": [
-    "वाढत्या महागाईचा प्रश्न सोडवा"
+    "सार्वजनिक सेवांसाठी अधिक संसाधने आणि प्राध्यापक",
+    "युवक आणि विद्यार्थ्यांसाठी उत्तम आर्थिक पाठबळ",
+    "हवामान बदल आणि अतिउजव्या विचारसरणीच्या उदयाविरुद्ध कृती",
+    "पोलिसांच्या दशाहीचा अंत"
    ],
-   "response": "सूत्रांनुसार, प्राधिकरणाने पूर्वसूचना न देता एकत्र येण्यावर बंदी घातली, अल्पवयीन मुलांसाठी संचारबंदी सुरू केली आणि वाहतुकीवर प्रतिबंध घातले, तर एका ठराविक मार्गासह विशिष्ट युनियन-नेत्वृत्वाखालील मार्चला परवानगी दिली.",
+   "response": "पोलिस प्रशासनानुसार, मार्च अनधिकृत होता आणि सुरक्षा दलांनी हिंसाचार करणाऱ्या आक्रमक गटांवर अश्रुधूर सोडला. पहिल्या अरॉन्डिसमेंटमधील एका दुकानातील घरफोडीनंतर पोलिसांनी पाच जणांना अटक केल्याची माहिती दिली. महापौर बेनोइट पायान यांनी नागरिकांना सुरक्षित राहण्याचे आवाहन केले आणि निदर्शनांचा फायदा घेणाऱ्या व्यक्तींचा निषेध केला...",
    "updates": [
-    "प्राधिकरणाने घोषणा केली की पूर्वसूचना न दिलेले विरोध प्रदर्शन शुक्रवार संध्याकाळपासून सोमवार सकाळपर्यंत बेकायदेशीर आणि प्रतिबंधित असतील.",
-    "एक परवानगी मिळालेला युनियन मार्च ले रेफोर्मे येथून सुरू होऊन पोर्ट डी'ऐक्सकडे जाण्यासाठी ठरला होता."
+    "मार्सेमध्ये महागाईविरोधात एक अनधिकृत मार्च सुरू झाला, ज्यामध्ये प्रशासकीय बंदी असूनही हजारो लोक जमा झाले.",
+    "पोलिसांनी मार्सेमधील मोर्चेबांधणीच्या शिखरावर १०,००० सहभागी असल्याचे सांगितले.",
+    "दुपारच्या उत्तरार्धात बुलेव्हार्ड चावे येथे संघर्ष उसळला, जिथे पोलिसांनी आक्रमक गटांविरुद्ध अश्रुधूर सोडला.",
+    "मार्सेमध्ये एका स्टोअरमध्ये घरफोडी झाल्यानंतर पाच जणांना अटक करण्यात आली."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "१०,००० लोक",
+    "arrests": "पाच जणांना अटक"
+   }
   },
   "es": {
-   "title": "Protestas por el costo de la vida y restricciones en Marsella",
-   "seoTitle": "Protesta por costo de vida en Marsella",
+   "title": "Protesta por el coste de la vida y choques convocan a miles en Marsella",
+   "seoTitle": "Marcha y choques por el coste de la vida en Marsella",
    "tea": {
-    "why": "Los manifestantes se están manifestando contra el aumento del costo de la vida.",
-    "want": "Los manifestantes buscan medidas con respecto a los costos de vida y las presiones económicas.",
-    "changed": "31 de octubre: Las autoridades promulgaron toques de queda para menores y restricciones a las reuniones no anunciadas."
+    "why": "Los manifestantes marcharon contra el aumento del coste de la vida, la inacción del gobierno, la precariedad juvenil y la represión policial.",
+    "want": "Los manifestantes exigieron más servicios públicos, salarios más altos, mejor apoyo para los estudiantes y medidas contra el cambio climático.",
+    "changed": "31 de oct.: La policía reportó 10.000 participantes en una marcha no autorizada en Marsella, lo que llevó al uso de gases lacrimógenos y cinco detenciones por robo."
    },
-   "summary": "Chalecos Amarillos y sindicatos de estudiantes planearon manifestaciones en Marsella para el tercer acto del movimiento por el costo de la vida. Según fuentes de noticias, las autoridades emitieron prohibiciones y restricciones a las reuniones no anunciadas y no declaradas, al tiempo que promulgaron toques de queda localizados para menores en sectores sensibles. Órdenes prefecturales prohibieron las protestas no autorizadas en todo el departamento de Bocas del Ródano durante el fin de semana, aunque se programó una marcha respaldada por sindicatos con permiso, una ruta establecida y seguridad interna que comenzaría en Les Réformés y se dirigiría hacia la Puerta de Aix. Los funcionarios citaron disturbios anteriores para justificar las mayores medidas de seguridad, el transporte restringido y las prohibiciones de asambleas espontáneas.",
+   "summary": "El 31 de octubre de 2026 se llevó a cabo una manifestación no autorizada en Marsella como parte de una jornada nacional de movilización contra el alto coste de la vida. A pesar de una prohibición de la prefectura local, aproximadamente 10.000 personas se congregaron en el centro de la ciudad. La marcha transcurrió inicialmente en un ambiente festivo, con muchos participantes disfrazados de Halloween, pero luego se fracturó en grupos más pequeños. Hacia el final de la tarde, las tensiones aumentaron en el Boulevard Chave, lo que provocó enfrentamientos con las fuerzas de seguridad, el uso de gases lacrimógenos, incendios de contenedores de basura e informes de daños materiales y robos en varios comercios. El alcalde de Marsella, Benoît Payan, condenó a quienes buscan el caos, mientras las fuerzas policiales se desplegaban en gran número por toda la ciudad.",
    "demands": [
-    "Abordar el creciente costo de la vida"
+    "Más recursos y profesores para los servicios públicos",
+    "Mejor apoyo financiero para la juventud y los estudiantes",
+    "Acción contra el cambio climático y el auge de la extrema derecha",
+    "Fin de la represión policial"
    ],
-   "response": "Según fuentes, la prefectura prohibió las reuniones no anunciadas, instituyó toques de queda para menores y restringió el transporte, al tiempo que permitió una marcha específica dirigida por sindicatos con una ruta designada.",
+   "response": "Según la prefectura de policía, la marcha no estaba autorizada y las fuerzas de seguridad desplegaron gases lacrimógenos contra grupos hostiles que cometían actos de violencia. La policía también informó de cinco detenciones tras un robo en una tienda del distrito 1. El alcalde Benoît Payan instó a los residentes a mantenerse a salvo y condenó a los individuos que explotan las protestas…",
    "updates": [
-    "Las autoridades anunciaron que las protestas no anunciadas serían ilegales y estarían prohibidas desde el viernes por la tarde hasta el lunes por la mañana.",
-    "Una marcha sindical permitida estaba programada para comenzar en Les Réformés y avanzar hacia la Puerta de Aix."
+    "Una marcha no autorizada contra el coste de la vida comenzó en Marsella y congregó a miles de personas a pesar de una prohibición prefectoral.",
+    "La policía reportó 10.000 participantes en el punto máximo de la movilización en Marsella.",
+    "Los enfrentamientos estallaron en el Boulevard Chave al final de la tarde, y la policía desplegó gases lacrimógenos contra grupos hostiles móviles.",
+    "Cinco personas fueron detenidas en Marsella tras un robo en una tienda de Foot Locker."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "10 000 personnes",
+    "arrests": "cinq interpellations"
+   }
   },
   "fr": {
-   "title": "Manifestations contre la vie chère et restrictions à Marseille",
-   "seoTitle": "Manifestation vie chère Marseille",
+   "title": "Manifestation contre la vie chère et heurts rassemblent des milliers de personnes à Marseille",
+   "seoTitle": "Marche contre la vie chère et heurts à Marseille",
    "tea": {
-    "why": "Des manifestants protestent contre la hausse du coût de la vie.",
-    "want": "Les manifestants réclament des mesures concernant le coût de la vie et les pressions économiques.",
-    "changed": "31 octobre : Les autorités ont décrété des couvre-feux pour les mineurs et des restrictions sur les rassemblements non annoncés."
+    "why": "Les manifestants ont défilé contre la hausse du coût de la vie, l'inaction gouvernementale, la précarité de la jeunesse et la répression policière.",
+    "want": "Les manifestants ont réclamé davantage de services publics, des salaires plus élevés, un meilleur soutien pour les étudiants et des mesures contre le changement climatique.",
+    "changed": "31 oct. : La police a fait état de 10 000 participants lors d'une marche non autorisée à Marseille, ce qui a entraîné l'utilisation de gaz lacrymogènes et cinq interpellations pour cambriolage."
    },
-   "summary": "Les Gilets jaunes et des syndicats étudiants ont planifié des manifestations à Marseille pour le troisième acte du mouvement contre la vie chère. Selon des sources d'information, les autorités ont émis des interdictions et des restrictions sur les rassemblements non annoncés et non déclarés, tout en instaurant des couvre-feux localisés pour les mineurs dans des secteurs sensibles. Des arrêtés préfectoraux ont interdit les manifestations non autorisées dans l'ensemble du département des Bouches-du-Rhône pour tout le week-end, bien qu'une marche soutenue par les syndicats, dotée d'une autorisation, d'un parcours établi et d'un service d'ordre interne, ait été programmée pour partir de Les Réformés en direction de la Porte d'Aix. Les responsables ont invoqué des troubles antérieurs pour justifier le renforcement des mesures de sécurité, la restriction des transports et l'interdiction des rassemblements spontanés.",
+   "summary": "Le 31 octobre 2026, une manifestation non autorisée s'est déroulée à Marseille dans le cadre d'une journée nationale de mobilisation contre la vie chère. Malgré une interdiction de la préfecture locale, environ 10 000 personnes se sont rassemblées dans le centre-ville. Le défilé s'est d'abord déroulé dans une ambiance festive, de nombreux participants portant des costumes d'Halloween, avant de se fracturer en petits groupes. Vers la fin de l'après-midi, les tensions se sont intensifiées sur le boulevard Chave, provoquant des affrontements avec les forces de l'ordre, l'emploi de gaz lacrymogènes, des incendies de poubelles et des signalements de dégâts matériels ainsi que de cambriolages dans plusieurs magasins. Le maire de Marseille, Benoît Payan, a condamné ceux qui recherchent le chaos, tandis que les forces de police ont été déployées en grand nombre à travers la ville.",
    "demands": [
-    "Aborder la hausse du coût de la vie"
+    "Davantage de ressources et de professeurs pour les services publics",
+    "Un meilleur soutien financier pour la jeunesse et les étudiants",
+    "Des mesures contre le changement climatique et la montée de l'extrême droite",
+    "L'arrêt de la répression policière"
    ],
-   "response": "Selon des sources, la préfecture a interdit les rassemblements non annoncés, institué des couvre-feux pour les mineurs et restreint les transports, tout en autorisant une marche syndicale spécifique dotée d'un itinéraire désigné.",
+   "response": "Selon la préfecture de police, la marche n'était pas autorisée et les forces de sécurité ont fait usage de gaz lacrymogènes contre des groupes hostiles commettant des violences. La police a également signalé cinq interpellations à la suite d'un cambriolage dans un magasin du 1er arrondissement. Le maire Benoît Payan a exhorté les habitants à rester en sécurité et a condamné les individus qui instrumentalisent les manifestations…",
    "updates": [
-    "Les autorités ont annoncé que les manifestations non annoncées seraient illégales et interdites du vendredi soir au lundi matin.",
-    "Une marche syndicale autorisée devait débuter à Les Réformés pour se rendre à la Porte d'Aix."
+    "Une marche non autorisée contre la vie chère a débuté à Marseille, rassemblant des milliers de personnes malgré une interdiction préfectorale.",
+    "La police a dénombré 10 000 participants au pic de la mobilisation à Marseille.",
+    "Des heurts ont éclaté sur le boulevard Chave en fin d'après-midi, la police déployant du gaz lacrymogène contre des groupes hostiles mobiles.",
+    "Cinq individus ont été interpellés à Marseille à la suite d'un cambriolage dans un magasin Foot Locker."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "10 000 personnes",
+    "arrests": "cinq interpellations"
+   }
   },
   "de": {
-   "title": "Proteste gegen die Lebenshaltungskosten und Einschränkungen in Marseille",
-   "seoTitle": "Marseille Protest Lebenshaltungskosten",
+   "title": "Proteste gegen Lebenshaltungskosten und Zusammenstöße ziehen Tausende in Marseille an",
+   "seoTitle": "Marseille: Marsch zu Lebenshaltungskosten und Zusammenstöße",
    "tea": {
-    "why": "Demonstranten protestieren gegen die steigenen Lebenshaltungskosten.",
-    "want": "Demonstranten fordern Maßnahmen in Bezug auf Lebenshaltungskosten und wirtschaftlichen Druck.",
-    "changed": "31. Oktober: Die Behörden erließen Ausgangssperren für Minderjährige und Einschränkungen für nicht angekündigte Versammlungen."
+    "why": "Demonstranten marschierten gegen steigende Lebenshaltungskosten, staatliche Untätigkeit, prekäre Bedingungen für Jugendliche und Polizeirepression.",
+    "want": "Demonstranten forderten mehr öffentliche Dienstleistungen, höhere Löhne, bessere Unterstützung für Studierende und Maßnahmen gegen den Klimawandel.",
+    "changed": "31. Okt.: Die Polizei meldete 10.000 Teilnehmer bei einem nicht genehmigten Marsch in Marseille, was zum Einsatz von Tränengas und fünf Festnahmen wegen Einbruchs führte."
    },
-   "summary": "Gelbwesten und Studentenverbände planten in Marseille Demonstrationen für den dritten Akt der Bewegung gegen die Lebenshaltungskosten. Berichten von Nachrichtenquellen zufolge erließen die Behörden Verbote und Einschränkungen für nicht angekündigte und nicht angemeldete Versammlungen und verhängten gleichzeitig lokalisierte Ausgangssperren für Minderjährige in sensiblen Bereichen. Präfekturverfügungen untersagten ungenehmigte Proteste im gesamten Département Bouches-du-Rhône über das Wochenende, obwohl ein genehmigter, gewerkschaftlich unterstützter Marsch mit einer festgelegten Route und innerer Sicherheit geplant war, der an Les Réformés beginnen und in Richtung Porte d'Aix führen sollte. Offizielle verwiesen zur Begründung der verschärften Sicherheitsmaßnahmen, des eingeschränkten Verkehrs und der Verbote spontaner Versammlungen auf frühere Ausschreitungen.",
+   "summary": "Am 31. Oktober 2026 fand in Marseille eine nicht genehmigte Demonstration im Rahmen eines nationalen Mobilisierungstages gegen die hohen Lebenshaltungskosten statt. Trotz eines Verbots durch die lokale Präfektur versammelten sich schätzungsweise 10.000 Menschen im Stadtzentrum. Der Marsch verlief anfangs in einer festlichen Atmosphäre, wobei viele Teilnehmer Halloween-Kostüme trugen, spaltete sich jedoch später in kleinere Gruppen auf. Gegen den späten Nachmittag eskalierten die Spannungen am Boulevard Chave, was zu Zusammenstößen mit den Sicherheitskräften, dem Einsatz von Tränengas, brennenden Mülltonnen und Berichten über Sachbeschädigungen sowie Einbrüche in mehreren Geschäften führte. Der Bürgermeister von Marseille, Benoît Payan, verurteilte diejenigen, die Chaos suchten, während Polizeikräfte in großer Zahl in der Stadt im Einsatz waren.",
    "demands": [
-    "Die steigenden Lebenshaltungskosten angehen"
+    "Mehr Ressourcen und Lehrkräfte für öffentliche Dienstleistungen",
+    "Bessere finanzielle Unterstützung für Jugendliche und Studierende",
+    "Maßnahmen gegen den Klimawandel und den Aufstieg der extremen Rechten",
+    "Ende der Polizeirepression"
    ],
-   "response": "Quellen zufolge verbot die Präfektur nicht angekündigte Versammlungen, führte Ausgangssperren für Minderjährige ein und schränkte den Verkehr ein, während sie einen bestimmten gewerkschaftlich geleiteten Marsch mit einer festgelegten Route genehmigte.",
+   "response": "Nach Angaben der Polizeipräfektur war der Marsch nicht genehmigt, und die Sicherheitskräfte setzten Tränengas gegen feindselige Gruppen ein, die Gewalt ausübten. Die Polizei meldete zudem fünf Festnahmen nach einem Einbruch in ein Geschäft im 1. Arrondissement. Bürgermeister Benoît Payan rief die Bewohner auf, in Sicherheit zu bleiben, und verurteilte Personen, die die Proteste ausnutzten…",
    "updates": [
-    "Die Behörden gaben bekannt, dass nicht angekündigte Proteste von Freitagabend bis Montagmorgen illegal und verboten seien.",
-    "Ein genehmigter Gewerkschaftsmarsch sollte an Les Réformés beginnen und zur Porte d'Aix führen."
+    "Ein nicht genehmigter Marsch gegen die Lebenshaltungskosten begann in Marseille und zog trotz eines präfekturalen Verbots Tausende an.",
+    "Die Polizei meldete 10.000 Teilnehmer auf dem Höhepunkt der Mobilisierung in Marseille.",
+    "Am späten Nachmittag kam es am Boulevard Chave zu Zusammenstößen, bei denen die Polizei Tränengas gegen mobile, feindselige Gruppen einsetzte.",
+    "Fünf Personen wurden in Marseille nach einem Einbruch in ein Foot-Locker-Geschäft festgenommen."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "10 000 Personen",
+    "arrests": "fünf Festnahmen"
+   }
   }
  },
  "endedOn": "2026-10-31"
