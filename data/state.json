@@ -1,45 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-30",
-  "count": 211
+  "day": "2026-10-31",
+  "count": 17
  },
  "runs": [
-  {
-   "at": "2026-10-24T19:28:43.625Z",
-   "ms": 368367,
-   "discovered": 75,
-   "fetched": 71,
-   "classified": 62,
-   "protests": 43,
-   "summarized": 9,
-   "published": 140,
-   "live": 16,
-   "aiCalls": 23,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 14 files, 50 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 225 protest-word items",
-    "fetch: 71 ok, 4 failed",
-    "classify: new candidate ed03435a139 \"Citizens' groups announce protest march to CBI office\" (Kolkata)",
-    "classify: new candidate ef9e1012a7b \"Demonstration in Montreal against police misconduct\" (Montréal)",
-    "classify: new candidate ebbe1069362 \"Rally in Madrid supporting state pension scheme\" (Madrid)",
-    "classify: new candidate efe21c6beba \"SRFTI student union calls for nationwide protest on October 27\" (Kolkata)",
-    "classify: new candidate ea5422e744e \"Protesters clash with police in Brussels over education funding\" (Brussels)",
-    "classify: new candidate e44a866633a \"Stand Up To Racism protest in Cardiff\" (Cardiff)",
-    "classify: new candidate ec0fcbb0940 \"Thousands protest in Turkey against media crackdown and arrests\" (Istanbul)",
-    "classify: new candidate e8e00d75855 \"Citizens form human chain in Hyderabad demanding SIR rollback and CEC resignation\" (Hyderabad)",
-    "classify: new candidate edc789c7412 \"Residents block road in Arakkonam demanding pathway encroachment demolition\" (Arakkonam)",
-    "classify: new candidate ee83065cee2 \"Protesters demonstrate in Italy against living costs and policies\" (Rome)",
-    "classify: new candidate e08ca34b1b0 \"Villagers and Congress workers block Dhar road over doctor's transfer\" (Dhar)",
-    "classify: new candidate e2bf25aa0eb \"Protests in Italian cities over living costs and war\" (Milan)",
-    "classify: new candidate e1db7f318c2 \"FAMU students protest university police partnership with ICE\" (Tallahassee)",
-    "classify: new candidate e04f701fdba \"Protest march and clashes in Rennes\" (Rennes)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 8 events"
-   ],
-   "translated": 8
-  },
   {
    "at": "2026-10-24T20:54:17.153Z",
    "ms": 148360,
@@ -1572,8 +1536,33 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-10-31T01:50:30.328Z",
+   "ms": 196743,
+   "discovered": 81,
+   "fetched": 75,
+   "classified": 51,
+   "protests": 14,
+   "summarized": 7,
+   "published": 275,
+   "live": 14,
+   "aiCalls": 17,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 14 files, 60 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss news.err.ee: 403",
+    "rss: 223 protest-word items",
+    "search: 23 single-source stories checked (10 in their own language), 19 other newsrooms found",
+    "fetch: 75 ok, 6 failed",
+    "classify: new candidate e1349edd55f \"Gen Z protesters prepare weekend demonstrations in Germany\" (Berlin)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261030223000",
- "lastRunAt": "2026-10-30T22:25:13.355Z"
+ "gdeltCursor": "20261031020000",
+ "lastRunAt": "2026-10-31T01:50:30.328Z"
 }

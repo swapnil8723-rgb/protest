@@ -3,7 +3,7 @@
  "slug": "toulouse-igpn-investigates-protester-injury-oct-2026",
  "stage": "live",
  "title": "IGPN investigates hand injury of protester during Toulouse clashes",
- "seoTitle": "Toulouse IGPN probe into protester injury",
+ "seoTitle": "Toulouse IGPN probes protester hand injury",
  "place": {
   "city": "Toulouse",
   "region": "Occitanie",
@@ -15,6 +15,7 @@
  },
  "scope": "local",
  "causes": [
+  "labour",
   "prices",
   "police"
  ],
@@ -25,68 +26,83 @@
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "serious",
-  "low-confidence"
+  "serious"
  ],
  "isOngoing": false,
- "published": false,
+ "published": true,
  "tea": {
-  "why": "Demonstrations took place across France regarding purchasing power and the defense of public services.",
-  "want": "Demands relating to purchasing power and public services as stated in reports.",
-  "changed": "Oct 28, 2026: The Toulouse prosecutor announced that the IGPN was tasked with investigating a protester's serious hand injury."
+  "why": "Protesters demonstrated for purchasing power and the defense of public services.",
+  "want": "Protecting purchasing power and public services.",
+  "changed": "Oct 28: The Toulouse prosecutor announced that the IGPN was formally seized following a complaint by an injured protester."
  },
- "summary": "In Toulouse, clashes occurred between protesters and law enforcement during demonstrations concerning purchasing power and public services. A 20-year-old protester suffered a severe hand injury during the events on October 24. Following a formal complaint lodged by the injured individual during a preliminary hearing, the Toulouse public prosecutor's office referred the case to the National Police General Inspectorate (IGPN) on Monday. The investigation was opened under the classification of intentional violence by a person holding public authority resulting in mutilation or permanent disability during a public demonstration. According to statements from the Minister of the Interior, nationwide demonstrations on that Saturday resulted in numerous arrests and injuries among both security forces and participants, including three protesters who sustained severe injuries across Toulouse, Reims, and Clermont-Ferrand.",
+ "summary": "On October 24, 2026, a demonstration involving a union procession took place in Toulouse, France, and eventually led to clashes between protesters and law enforcement in the Arènes district continuing into the evening. Organised around themes of purchasing power and the defense of public services, the demonstration resulted in a 20-year-old protester suffering a severe hand injury and the loss of two fingers, allegedly during the use of grenades by police. According to reports from the public prosecutor and the Interior Minister, approximately 150 demonstrators were injured nationwide or across specific locations including Toulouse, with three sustaining serious injuries. Following a complaint filed by the injured protester's lawyer and his formal statement, the Toulouse prosecutor's office referred the matter to the National Police Oversight body, the IGPN, under the preliminary qualification of intentional violence by a person holding public authority resulting in permanent disability.",
  "organizers": [],
  "demands": [
-  "Purchasing power",
-  "Defense of public services"
+  "Defense of public services",
+  "Support for purchasing power"
  ],
- "response": "According to the Interior Minister, 1,435 individuals were arrested nationwide during the demonstrations. The Toulouse prosecutor's office referred the protester's injury case to the IGPN for investigation following a formal complaint.",
+ "response": "According to the Interior Minister and the public prosecutor, authorities reported numerous injuries among security forces and demonstrators during the nationwide mobilizations. The Toulouse prosecutor opened an inquiry, subsequently referring the case to the IGPN following a formal complaint.",
  "numbers": {
   "arrests": {
    "value": 1435,
-   "text": "1.435 personnes ont été interpellées en marge des manifestations",
+   "text": "1.435 personnes ont été interpellées en marge des manifestations pour le pouvoir d’achat et la défense des services…",
    "sources": [
-    2
+    3
    ]
   },
   "injuries": {
    "value": 150,
-   "text": "environ 150 manifestants blessés",
+   "text": "environ 150 manifestants blessés, dont trois 'assez' grièvement, à Toulouse, Reims et Clermont-Ferrand",
    "sources": [
-    1,
-    2
+    2,
+    3
    ]
   }
  },
  "updates": [
   {
    "at": "2026-10-24",
-   "text": "Clashes occurred between protesters and law enforcement in Toulouse, resulting in a protester sustaining a severe hand injury.",
+   "text": "Clashes occurred in the Arènes district of Toulouse after a union procession, leaving a protester severely injured in the hand.",
    "sources": [
     1,
-    2
+    2,
+    3
+   ]
+  },
+  {
+   "at": "2026-10-26",
+   "text": "The injured protester's lawyer filed a complaint against X for voluntary violence by a person holding public authority causing permanent disability.",
+   "sources": [
+    1
    ]
   },
   {
    "at": "2026-10-28",
-   "text": "The Toulouse prosecutor announced that the IGPN was officially assigned to investigate the protester's injury.",
+   "text": "The Toulouse public prosecutor announced that the IGPN had been officially seized following the protester's complaint.",
    "sources": [
     1,
-    2
+    2,
+    3
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.ladepeche.fr/2026/10/28/manifestation-du-24-octobre-a-toulouse-ampute-de-deux-doigts-le-jeune-homme-blesse-aux-arenes-a-depose-plainte-et-son-avocat-met-en-cause-les-forces-13624939.php",
+   "publisher": "ladepeche.fr",
+   "title": "Manifestation du 24 octobre à Toulouse : amputé de deux doigts, le jeune homme blessé aux Arènes a déposé plainte et son avocat met en cause les forces de l'ordre, l'IGPN est saisie",
+   "publishedAt": "2026-10-28T18:14:29.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://www.franceinfo.fr/societe/manifestations/le-parquet-de-toulouse-saisit-l-igpn-apres-la-plainte-du-manifestant-grievement-blesse-a-la-main-le-24-octobre_8258207.html",
    "publisher": "franceinfo.fr",
    "title": "Le parquet de Toulouse saisit l'IGPN apr&egrave;s la plainte d'un manifestant gri&egrave;vement bless&eacute; &agrave; la main le 24 octobre",
    "publishedAt": "2026-10-29T07:16:05.000Z"
   },
   {
-   "n": 2,
+   "n": 3,
    "url": "https://www.20minutes.fr/justice/4258506-20261029-mobilisation-24-octobre-parquet-toulouse-saisit-igpn-apres-grave-blessure-main-manifestant?at_medium=display&at_campaign=149",
    "publisher": "20minutes.fr",
    "title": "L’IGPN saisie après la grave blessure à la main d’un manifestant à Toulouse",
@@ -94,23 +110,155 @@
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
+ "confidence": 0.8,
+ "publishers": 3,
  "reports24h": 0,
  "reportsPrev24h": 2,
  "reports48h": 2,
  "firstSeenAt": "2026-10-29T09:51:21.209Z",
  "lastReportAt": "2026-10-29T09:05:06.205Z",
- "lastCheckedAt": "2026-10-30T22:27:07.528Z",
- "updatedAt": "2026-10-29T09:58:23.234Z",
+ "lastCheckedAt": "2026-10-31T01:52:58.660Z",
+ "updatedAt": "2026-10-31T01:52:45.527Z",
  "endedOn": "2026-10-24",
  "responseSources": [
   1,
-  2
+  2,
+  3
  ],
  "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-10-29T09:58:23.234Z",
- "summaryOf": "94a1c5dc0b12",
- "searchedAt": "2026-10-30T22:25:21.323Z"
+ "summarizedAt": "2026-10-31T01:52:45.527Z",
+ "summaryOf": "9ad6c91d1797",
+ "searchedAt": "2026-10-30T22:25:21.323Z",
+ "publishedAt": "2026-10-31T01:52:58.660Z",
+ "i18n": {
+  "of": "9c409e8505fe3af4",
+  "at": "2026-10-31T01:53:46.424Z",
+  "tries": 1,
+  "hi": {
+   "title": "टूलूज़ झड़पों के दौरान प्रदर्शनकारी के हाथ में चोट की IGPN जांच कर रही है",
+   "seoTitle": "टूलूज़ IGPN ने प्रदर्शनकारी के हाथ की चोट की जांच शुरू की",
+   "tea": {
+    "why": "प्रदर्शनकारियों ने क्रय शक्ति और सार्वजनिक सेवाओं की रक्षा के लिए प्रदर्शन किया।",
+    "want": "क्रय शक्ति और सार्वजनिक सेवाओं की सुरक्षा।",
+    "changed": "28 अक्टूबर: टूलूज़ के अभियोजक ने घोषणा की कि घायल प्रदर्शनकारी की शिकायत के बाद IGPN को औपचारिक रूप से जांच सौंप दी गई है।"
+   },
+   "summary": "24 अक्टूबर 2026 को फ्रांस के टूलूज़ में एक यूनियन जुलूस के साथ एक प्रदर्शन हुआ, जो शाम तक एरेनेस जिले में प्रदर्शनकारियों और कानून प्रवर्तन के बीच झड़पों में बदल गया। क्रय शक्ति और सार्वजनिक सेवाओं की रक्षा के विषयों के इर्द-गिर्द आयोजित इस प्रदर्शन के परिणामस्वरूप, कथित तौर पर पुलिस द्वारा ग्रेनेड के इस्तेमाल के दौरान एक 20 वर्षीय प्रदर्शनकारी के हाथ में गंभीर चोट आई और उसकी दो उंगलियां कट गईं। लोक अभियोजक और आंतरिक मंत्री की रिपोर्ट के अनुसार, टूलूज़ सहित विशिष्ट स्थानों या देश भर में लगभग 150 प्रदर्शनकारी घायल हुए, जिनमें से तीन को गंभीर चोटें आईं। घायल प्रदर्शनकारी के वकील द्वारा दर्ज कराई गई शिकायत और उसके औपचारिक बयान के बाद, टूलूज़ अभियोजक कार्यालय ने इस मामले को राष्ट्रीय पुलिस निगरानी निकाय, IGPN को, सार्वजनिक प्राधिकार रखने वाले व्यक्ति द्वारा जानबूझकर हिंसा किए जाने और स्थायी विकलांगता उत्पन्न होने के प्रारंभिक वर्गीकरण के तहत भेज दिया।",
+   "demands": [
+    "सार्वजनिक सेवाओं की रक्षा",
+    "क्रय शक्ति के लिए समर्थन"
+   ],
+   "response": "आंतरिक मंत्री और लोक अभियोजक के अनुसार, अधिकारियों ने देशव्यापी प्रदर्शनों के दौरान सुरक्षा बलों और प्रदर्शनकारियों के बीच कई चोटों की सूचना दी। टूलूज़ के अभियोजक ने एक जांच शुरू की, और बाद में एक औपचारिक शिकायत के बाद मामले को IGPN को सौंप दिया।",
+   "updates": [
+    "एक यूनियन जुलूस के बाद टूलूज़ के एरेनेस जिले में झड़पें हुईं, जिससे एक प्रदर्शनकारी के हाथ में गंभीर चोट आ गई।",
+    "घायल प्रदर्शनकारी के वकील ने स्थायी विकलांगता का कारण बनने वाले सार्वजनिक प्राधिकार वाले व्यक्ति द्वारा स्वैच्छिक हिंसा के लिए अज्ञात व्यक्ति के खिलाफ शिकायत दर्ज कराई।",
+    "टूलूज़ के लोक अभियोजक ने घोषणा की कि प्रदर्शनकारी की शिकायत के बाद IGPN को आधिकारिक तौर पर जांच सौंप दी गई है।"
+   ],
+   "conflicts": [],
+   "numbers": {
+    "arrests": "क्रय शक्ति और सेवाओं की रक्षा के लिए प्रदर्शनों के दौरान 1.435 लोगों को हिरासत में लिया गया।",
+    "injuries": "टूलूज़, रीम्स और क्लेरमॉन्ट-फेरैंड में लगभग 150 घायल प्रदर्शनकारी, जिनमें से तीन को 'काफी' गंभीर चोटें आईं।"
+   }
+  },
+  "mr": {
+   "title": "टूलूझमधील संघर्ष zaman protesterच्या हाताला झालेल्या दुखापतीची IGPN चौकशी करत आहे",
+   "seoTitle": "टूलूझ IGPN कडून निदर्शकाच्या हाताच्या दुखापतीची चौकशी",
+   "tea": {
+    "why": "निदर्शकांनी खरेदीशक्ती आणि सार्वजनिक सेवांच्या संरक्षणासाठी निदर्शने केली.",
+    "want": "खरेदीशक्ती आणि सार्वजनिक सेवांचे संरक्षण.",
+    "changed": "२८ ऑक्टोबर: जखमी निदर्शकाने तक्रार दाखल केल्यानंतर IGPN कडे औपचारिकपणे तपास सोपवण्यात आल्याचे टूलूझच्या सरकारी वकिलांनी जाहीर केले."
+   },
+   "summary": "२४ ऑक्टोबर २०२६ रोजी फ्रान्समधील टूलूझ येथे युनियनच्या मिरवणुकीसह एक निदर्शन आयोजित करण्यात आले होते, जे संध्याकाळी अ‍ॅरेनेस जिल्ह्यात निदर्शक आणि कायदा अंमलबजावणी यंत्रणा यांच्यातील संघर्षात रूपांतरित झाले. खरेदीशक्ती आणि सार्वजनिक सेवांच्या रक्षणाच्या मुद्द्यांवर आयोजित केलेल्या या निदर्शनादरम्यान, पोलिसांनी ग्रेनेडचा वापर केल्यावर कथितपणे एका २० वर्षीय निदर्शकाच्या हाताला गंभीर दुखापत झाली आणि त्याची दोन बोटे गमावली गेली. सार्वजनिक सरकारी वकील आणि अंतर्गत मंत्र्यांच्या अहवालानुसार, टूलूझसह विशिष्ट ठिकाणांवर किंवा देशभरात अंदाजे १५० निदर्शक जखमी झाले, त्यापैकी तीन जण गंभीर जखमी झाले. जखमी निदर्शकाच्या वकिलाने दाखल केलेली तक्रार आणि त्याच्या औपचारिक वक्तव्यानंतर, टूलूझ सरकारी वकील कार्यालयाने सार्वजनिक अधिकार धारण करणाऱ्या व्यक्तीकडून कायमस्वरूपी अपंगत्व आलेली हेतुमूलक हिंसा या प्राथमिक निकषांतर्गत हा मुद्दा राष्ट्रीय पोलीस निरीक्षण संस्था, IGPN कडे वर्ग केला.",
+   "demands": [
+    "सार्वजनिक सेवांचे संरक्षण",
+    "खरेदीशक्तीसाठी पाठिंबा"
+   ],
+   "response": "अंतर्गत मंत्री आणि सार्वजनिक सरकारी वकिलांच्या मते, देशव्यापी आंदोलनादरम्यान सुरक्षा दल आणि निदर्शकांमध्ये अनेक जण जखमी झाल्याचे अधिकाऱ्यांनी नोंदवले. टूलूझच्या सरकारी वकिलांनी तपास सुरू केला आणि त्यानंतर औपचारिक तक्रारीनंतर हे प्रकरण IGPN कडे वर्ग केले.",
+   "updates": [
+    "युनियनच्या मिरवणुकीनंतर टूलूझच्या अ‍ॅरेनेस जिल्ह्यात संघर्ष झाला, ज्यामुळे एका निदर्शकाच्या हाताला गंभीर दुखापत झाली.",
+    "जखमी निदर्शकाच्या वकिलाने कायमस्वरूपी अपंगत्व कारणीभूत ठरवणाऱ्या सार्वजनिक अधिकाराच्या व्यक्तीकडून स्वेच्छेने केलेल्या हिंसेसाठी अज्ञात व्यक्तीविरोधात तक्रार दाखल केली.",
+    "टूलूझच्या सार्वजनिक सरकारी वकिलांनी जाहीर केले की निदर्शकाच्या तक्रारीनंतर IGPN ला अधिकृतपणे तपास सोपवण्यात आला आहे."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "arrests": "खरेदीशक्ती आणि सेवांच्या संरक्षणासाठी निदर्शनांच्या बाजूने १.४३५ जणांना अटक करण्यात आली.",
+    "injuries": "टूलूझ, रीम्स आणि क्लेरमोंट-फेरँड येथे अंदाजे १५० जखमी निदर्शक, त्यापैकी तीन जण 'काहीसे' गंभीर जखमी."
+   }
+  },
+  "es": {
+   "title": "La IGPN investiga la lesión en la mano de un manifestante durante los choques en Toulouse",
+   "seoTitle": "La IGPN de Toulouse investiga lesión de manifestante",
+   "tea": {
+    "why": "Los manifestantes se manifestaron por el poder adquisitivo y la defensa de los servicios públicos.",
+    "want": "Proteger el poder adquisitivo y los servicios públicos.",
+    "changed": "28 de oct.: El fiscal de Toulouse anunció que la IGPN fue formalmente apoderada tras una denuncia de un manifestante herido."
+   },
+   "summary": "El 24 de octubre de 2026, una manifestación con una procesión sindical tuvo lugar en Toulouse, Francia, y eventualmente condujo a enfrentamientos entre manifestantes y las fuerzas del orden en el distrito de Arènes que continuaron hasta la noche. Organizada en torno a temas de poder adquisitivo y la defensa de los servicios públicos, la manifestación resultó en que un manifestante de 20 años sufriera una grave lesión en la mano y la pérdida de dos dedos, presuntamente durante el uso de granadas por parte de la policía. Según informes del fiscal público y del ministro del Interior, aproximadamente 150 manifestantes resultaron heridos a nivel nacional o en lugares específicos, incluidos Toulouse, con tres sufriendo heridas graves. Tras una denuncia presentada por el abogado del manifestante herido y su declaración formal, la fiscalía de Toulouse remitió el asunto al organismo de supervisión de la policía nacional, la IGPN, bajo la calificación preliminar de violencia intencional por parte de una persona que ejerce la autoridad pública que resulta en discapacidad permanente.",
+   "demands": [
+    "Defensa de los servicios públicos",
+    "Apoyo al poder adquisitivo"
+   ],
+   "response": "Según el ministro del Interior y el fiscal público, las autoridades informaron de numerosas lesiones entre las fuerzas de seguridad y los manifestantes durante las movilizaciones a nivel nacional. El fiscal de Toulouse abrió una investigación, remitiendo posteriormente el caso a la IGPN tras una denuncia formal.",
+   "updates": [
+    "Se produjeron enfrentamientos en el distrito de Arènes de Toulouse tras una procesión sindical, dejando a un manifestante gravemente herido en la mano.",
+    "El abogado del manifestante herido presentó una denuncia contra X por violencia voluntaria por parte de una persona que ejerce la autoridad pública causando discapacidad permanente.",
+    "El fiscal público de Toulouse anunció que la IGPN había sido oficialmente apoderada tras la denuncia del manifestante."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "arrests": "1.435 personnes ont été interpellées en marge des manifestations pour le pouvoir d’achat et la défense des services…",
+    "injuries": "environ 150 manifestants blessés, dont trois 'assez' grièvement, à Toulouse, Reims et Clermont-Ferrand"
+   }
+  },
+  "fr": {
+   "title": "L’IGPN enquête sur la blessure à la main d’un manifestant lors des heurts à Toulouse",
+   "seoTitle": "Toulouse : l’IGPN saisie après la blessure d’un manifestant",
+   "tea": {
+    "why": "Les manifestants ont manifesté pour le pouvoir d’achat et la défense des services publics.",
+    "want": "Protéger le pouvoir d'achat et les services publics.",
+    "changed": "28 oct. : Le parquet de Toulouse a annoncé que l’IGPN a été officiellement saisie à la suite d’une plainte d’un manifestant blessé."
+   },
+   "summary": "Le 24 octobre 2026, une manifestation impliquant un cortège syndical s'est déroulée à Toulouse, en France, et a fini par dégénérer en affrontements entre manifestants et forces de l'ordre dans le quartier des Arènes, se poursuivant dans la soirée. Organisée autour des thèmes du pouvoir d'achat et de la défense des services publics, la manifestation a entraîné pour un manifestant de 20 ans une grave blessure à la main et la perte de deux doigts, prétendument lors de l'utilisation de grenades par la police. Selon des rapports du procureur de la République et du ministre de l'Intérieur, environ 150 manifestants ont été blessés à l'échelle nationale ou dans des lieux spécifiques, notamment à Toulouse, dont trois grièvement. Suite à une plainte déposée par l'avocat du manifestant blessé et sa déclaration formelle, le parquet de Toulouse a saisi l'organisme de surveillance de la police nationale, l'IGPN, sous la qualification préliminaire de violences volontaires par personne détentrice de l'autorité publique ayant entraîné une incapacité permanente.",
+   "demands": [
+    "Défense des services publics",
+    "Soutien au pouvoir d'achat"
+   ],
+   "response": "Selon le ministre de l'Intérieur et le procureur de la République, les autorités ont fait état de nombreuses blessures au sein des forces de l'ordre et des manifestants lors des mobilisations nationales. Le parquet de Toulouse a ouvert une enquête, puis a confié l'affaire à l'IGPN à la suite d'une plainte officielle.",
+   "updates": [
+    "Des heurts ont éclaté dans le quartier des Arènes à Toulouse à l'issue d'un cortège syndical, blessant grièvement un manifestant à la main.",
+    "L'avocat du manifestant blessé a déposé une plainte contre X pour violences volontaires par personne détentrice de l'autorité publique entraînant une incapacité permanente.",
+    "Le procureur de la République de Toulouse a annoncé que l'IGPN avait été officiellement saisie à la suite de la plainte du manifestant."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "arrests": "1.435 personnes ont été interpellées en marge des manifestations pour le pouvoir d’achat et la défense des services…",
+    "injuries": "environ 150 manifestants blessés, dont trois 'assez' grièvement, à Toulouse, Reims et Clermont-Ferrand"
+   }
+  },
+  "de": {
+   "title": "IGPN untersucht Handverletzung eines Demonstranten bei Ausschreitungen in Toulouse",
+   "seoTitle": "Toulouse: IGPN ermittelt nach Handverletzung eines Demonstranten",
+   "tea": {
+    "why": "Demonstranten demonstrierten für Kaufkraft und die Verteidigung öffentlicher Dienste.",
+    "want": "Schutz der Kaufkraft und der öffentlichen Dienste.",
+    "changed": "28. Okt.: Die Staatsanwaltschaft Toulouse gab bekannt, dass die IGPN nach der Anzeige eines verletzten Demonstranten offiziell eingeschaltet wurde."
+   },
+   "summary": "Am 24. Oktober 2026 fand in Toulouse, Frankreich, eine Demonstration mit einem Gewerkschaftszug statt, die im Stadtteil Arènes schließlich zu Zusammenstößen zwischen Demonstranten und Einsatzkräften führte, die sich bis in den Abend hineinzogen. Die um die Themen Kaufkraft und Verteidigung öffentlicher Dienste organisierte Demonstration führte dazu, dass ein 20-jähriger Demonstrant eine schwere Handverletzung und den Verlust von zwei Fingern erlitt, angeblich beim Einsatz von Granaten durch die Polizei. Berichten der Staatsanwaltschaft und des Innenministers zufolge wurden bundesweit oder an bestimmten Orten wie Toulouse etwa 150 Demonstranten verletzt, drei davon schwer. Nach einer von dem Anwalt des verletzten Demonstranten eingereichten Beschwerde und dessen formaler Aussage überwies die Staatsanwaltschaft Toulouse die Angelegenheit an die nationale Polizeiaufsichtsbehörde, die IGPN, unter der vorläufigen Qualifikation vorsätzlicher Gewalttätigkeit durch einen Amtsträger mit der Folge einer dauerhaften Behinderung.",
+   "demands": [
+    "Verteidigung öffentlicher Dienste",
+    "Unterstützung für die Kaufkraft"
+   ],
+   "response": "Laut Angaben des Innenministers und der Staatsanwaltschaft meldeten die Behörden zahlreiche Verletzungen bei Sicherheitskräften und Demonstranten während der landesweiten Mobilisierungen. Die Staatsanwaltschaft Toulouse leitete Ermittlungen ein und übergab den Fall nach einer formellen Anzeige an die IGPN.",
+   "updates": [
+    "Im Viertel Arènes in Toulouse kam es nach einem Gewerkschaftszug zu Ausschreitungen, bei denen ein Demonstrant schwer an der Hand verletzt wurde.",
+    "Der Anwalt des verletzten Demonstranten reichte Anzeige gegen Unbekannt wegen vorsätzlicher Gewalttätigkeit durch einen Amtsträger mit der Folge einer dauerhaften Behinderung ein.",
+    "Die Staatsanwaltschaft Toulouse gab bekannt, dass die IGPN nach der Anzeige des Demonstranten offiziell eingeschaltet wurde."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "arrests": "1.435 personnes ont été interpellées en marge des manifestations pour le pouvoir d’achat et la défense des services…",
+    "injuries": "environ 150 manifestants blessés, dont trois 'assez' grièvement, à Toulouse, Reims et Clermont-Ferrand"
+   }
+  }
+ }
 }
