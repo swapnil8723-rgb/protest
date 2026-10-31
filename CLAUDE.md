@@ -20,6 +20,8 @@ Owner decision (11 Oct 2026) on rule 2: Serious Mode keeps its grey surface but 
 
 Owner decision (24 Oct 2026) on review: with no Telegram reviewer configured, an event flagged only `low-confidence` (2 publishers = 70–75%) or `top-10` publishes at 2 independent publishers with its score shown (`score.ts`), at most 10 per country per 7 days of reporting, most-reported first (`RULES.twoSourcePerCountry`; the 42 over the cap on 24 Oct were withdrawn with `scripts/withdraw-events.ts`, which redirects to the country page); harm, disagreeing sources and tone words still need 3 publishers or a human.
 
+Owner decision (31 Oct 2026) on scope: news that is not a protest but readers shouldn't miss (e.g. the Mbappé–China La Liga row, the Alaska Senate spoiler probe) goes up as a **Big Story** (`data/stories/<slug>.json`, `src/lib/stories.ts`, `/story/<slug>`, violet "NOT A PROTEST" band on the home page). Hand-picked and hand-written, never by the pipeline, under the same rules: neutral text, every side with its sources, ≥ 2 independent newsrooms (else not shown), the protest confidence formula, `verifiedAt` = when a human last checked every line. English only for now; off the home page 10 days after the last check, the page stays.
+
 House interpretation of rule 4: organisations, parties, elected officials and police/government spokespeople may be named; ordinary participants, students, the injured, detained or dead are never named.
 
 ## Architecture

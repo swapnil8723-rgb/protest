@@ -1,0 +1,106 @@
+---
+// A Big Story page: news that is not a protest. Same receipts as a protest page; the banner says
+// up front that this is not a protest, so nobody mistakes it for one.
+import Base from '../layouts/Base.astro';
+import Receipts from '../components/Receipts.astro';
+import Ref from '../components/Ref.astro';
+import StoryCard from '../components/StoryCard.astro';
+import { placeNames, stories, type Story } from '../lib/stories';
+import { fmtDay, metaDesc } from '../lib/format';
+import { breadcrumbs } from '../lib/seo';
+import { SITE } from '../site';
+import { href, langOf, useT } from '../i18n';
+
+const { s } = Astro.props as { s: Story };
+const lang = langOf(Astro.url);
+const t = useT(lang);
+const date = fmtDay(s.startedOn, true, lang);
+const crumbs: [string, string][] = [
+  [t('crumb.home'), href(lang, '/')],
+  [s.seoTitle || s.title, `/story/${s.slug}`],
+];
+const more = stories.filter((o) => o.slug !== s.slug).slice(0, 3);
+const article = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: s.title,
+  description: s.dek,
+  datePublished: `${s.startedOn}T00:00:00Z`,
+  dateModified: s.updatedAt,
+  mainEntityOfPage: `${SITE}/story/${s.slug}`,
+  citation: s.sources.map((x) => x.url),
+};
+---
+<Base
+  title={t('big.title', { title: s.seoTitle || s.title, date })}
+  description={metaDesc(s.dek)}
+  path={`/story/${s.slug}`}
+  langs={['en']}
+  type="article"
+  modified={s.updatedAt}
+  jsonLd={[article, breadcrumbs(crumbs)]}
+>
+  <article class="wrap pt-6 sm:pt-10">
+    <nav aria-label="Breadcrumb" class="mono text-muted">
+      <ol class="flex flex-wrap items-center gap-x-2 gap-y-1">
+        <li class="flex items-center gap-2"><a href={crumbs[0][1]} class="hover:underline">{crumbs[0][0]}</a><span aria-hidden="true">/</span></li>
+      </ol>
+    </nav>
+
+    <header class="mt-4 max-w-4xl">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="sticker s-story">{t('big.label')} · {s.status === 'developing' ? t('big.developing') : t('big.settled')}</span>
+        <span class="sticker s-not-protest">{t('big.sticker')}</span>
+        <span class="cause">{t(`big.topic.${s.topic}` as 'big.topic.sport')}</span>
+      </div>
+      <h1 class="mt-4 text-[34px] sm:text-[52px] lg:text-[60px]">{s.title}</h1>
+      <p class="mt-3 text-[15px] font-semibold text-muted">{placeNames(s, lang)} · {t('card.since', { date })}</p>
+    </header>
+
+    <p class="mt-6 max-w-4xl rounded-[18px] border-[3px] border-violet bg-surface p-4 text-[15px] leading-snug sm:text-[16px]">
+      <strong class="font-bold">{t('big.banner')}</strong> {t('big.bannerText')}
+    </p>
+
+    <div class="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-10">
+      <div class="grid min-w-0 content-start gap-8">
+        <section aria-labelledby="happened" class="card v-story p-5 sm:p-6">
+          <h2 id="happened" class="display text-[26px]">{t('big.happened')}</h2>
+          <p class="mt-3 text-[17px] leading-[1.6] sm:text-[18px]">{s.happened}<Ref n={s.happenedSources} /></p>
+        </section>
+
+        <section aria-labelledby="sides">
+          <h2 id="sides" class="display text-[26px]">{t('big.sides')}</h2>
+          <ul class="mt-4 grid gap-4">
+            {s.sides.map((x) => (
+              <li class="rounded-[18px] border-2 border-hairline bg-surface p-4">
+                <p class="eyebrow">{x.who}</p>
+                <p class="mt-1.5 text-[16px] leading-[1.55]">{x.says}<Ref n={x.sources} /></p>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section aria-labelledby="next">
+          <h2 id="next" class="display text-[26px]">{t('big.next')}</h2>
+          <p class="mt-3 max-w-[68ch] text-[17px] leading-[1.7] sm:text-[18px]">{s.next}<Ref n={s.nextSources} /></p>
+        </section>
+
+        <section aria-labelledby="story">
+          <h2 id="story" class="display text-[26px]">{t('story.title')}</h2>
+          <p class="mt-3 max-w-[68ch] text-[17px] leading-[1.7] sm:text-[18px]">{s.summary}</p>
+          <p class="mono mt-3 text-muted">{t('big.checked', { date: fmtDay(s.verifiedAt.slice(0, 10), true, lang) })}</p>
+        </section>
+      </div>
+      <aside class="min-w-0 lg:sticky lg:top-[84px] lg:self-start" aria-label={t('receipts.title')}>
+        <Receipts e={s} />
+      </aside>
+    </div>
+
+    {more.length > 0 && (
+      <section class="mt-16" aria-labelledby="more">
+        <h2 id="more" class="text-[30px] sm:text-[36px]">{t('big.h2')}</h2>
+        <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">{more.map((o) => <StoryCard s={o} />)}</div>
+      </section>
+    )}
+  </article>
+</Base>

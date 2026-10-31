@@ -96,6 +96,12 @@ UNCLEAR is never shown (unclear events are not published). Under it, mono line: 
 
 **Timeline** — chat-bubble style, left-aligned bubbles with a mono timestamp and the source number as a superscript chip.
 
+**Big Story** (news, not a protest; owner decision 31 Oct 2026) — violet is its colour because no vibe uses it.
+Home band: `--violet` fill, white text (5.7:1), 3px black border, hard black shadow (yellow in dark mode), and a
+yellow "NOT A PROTEST" sticker tilted −3°. Story card: normal sticker card with a violet shadow, a violet
+"STORY · DEVELOPING" sticker (white text) and a topic chip; never a vibe sticker or volume meter, which measure protests.
+Story page: the same Receipts panel; What happened · Who's saying what · What's next, each line with source chips.
+
 **Globe** — canvas, orthographic, India-official boundaries (Natural Earth "IND" point of view). Land `--surface-2`,
 coastlines/borders 0.6px `--hairline`, ocean disc with a soft violet rim. Pins: 6px dot in vibe colour + expanding ring
 (the only looping animation). Drag to spin, tap pin → fly-to + bottom drawer card. Idle auto-rotate stops on first touch.

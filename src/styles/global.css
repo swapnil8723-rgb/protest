@@ -151,6 +151,8 @@
   /* Reader report (not verified yet): orange, dashed — reads as "pinned up, not checked" */
   .v-reader { --vibe: var(--reader); }
   .card.reader, :root[data-theme='dark'] .card.reader { border: 3px dashed var(--reader); }
+  /* Big Story (news, not a protest): violet, the brand colour, which no protest vibe uses */
+  .v-story { --vibe: var(--violet); }
 
   /* Serious Mode: grey surface, one red signal (border + label), no tilt, no motion, no jokes */
   .card.serious, .serious-surface, :root[data-theme='dark'] .card.serious {
@@ -183,6 +185,8 @@
   .s-tense .dot { background: var(--serious-alert); }
   .s-soon { background: var(--yellow); }
   .s-reader { background: var(--reader); border-style: dashed; }
+  .s-story { background: var(--violet); color: #fff; } /* white on violet 5.7:1 */
+  .s-not-protest { background: var(--yellow); transform: rotate(-3deg); }
 
   .cause {
     display: inline-flex; align-items: center; font-size: 13px; font-weight: 600; line-height: 1;

@@ -3,7 +3,8 @@ import { isUnverified, type ProtestEvent } from '../lib/data';
 import { fmtDay, pct } from '../lib/format';
 import { CONTACT } from '../site';
 import { href, langOf, useT } from '../i18n';
-interface Props { e: ProtestEvent }
+// Also used by Big Story pages, which have no reader origin.
+interface Props { e: Pick<ProtestEvent, 'slug' | 'sources' | 'confidence' | 'publishers' | 'conflicts'> & Partial<Pick<ProtestEvent, 'origin' | 'stage' | 'reader'>> }
 const { e } = Astro.props;
 const lang = langOf(Astro.url);
 const t = useT(lang);

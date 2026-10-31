@@ -19,7 +19,7 @@ export const ESTABLISHED = new Set([
 
 const SERIOUS_WORDS = /\b(brave|heroic|thugs?|goons?|mob|rioters|hooligans|anarchists|massive|huge crowd|shameful|disgraceful)\b/i;
 
-export function confidence(e: ProtestEvent): number {
+export function confidence(e: Pick<ProtestEvent, 'publishers' | 'sources' | 'conflicts' | 'lastReportAt' | 'isOngoing'>): number {
   const n = e.publishers;
   let c = n >= 5 ? 0.9 : n === 4 ? 0.86 : n === 3 ? 0.8 : n === 2 ? 0.7 : 0.4;
   if (e.sources.some((s) => ESTABLISHED.has(publisherOf(s.url)))) c += 0.05;

@@ -16,7 +16,7 @@ const dataDir = path.resolve(process.env.DATA_DIR || 'data');
 const VIBE_ORDER = { 'peak-loud': 0, tense: 1, 'heating-up': 2, 'cooling-down': 3, 'wrapped-up': 4 } as const;
 
 /** Sent in by a reader and not yet confirmed by two newsrooms (orange "Reader report" card). */
-export const isUnverified = (e: ProtestEvent) => e.origin === 'reader' && e.stage !== 'live';
+export const isUnverified = (e: Partial<Pick<ProtestEvent, 'origin' | 'stage'>>) => e.origin === 'reader' && e.stage !== 'live';
 
 const stored = [...loadEvents(dataDir).values()];
 

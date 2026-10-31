@@ -1,6 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import EventCard from '../components/EventCard.astro';
+import StoryCard from '../components/StoryCard.astro';
+import { freshStories } from '../lib/stories';
 import { activeCountries, cname, COUNTRIES, countryOf, HUBS, hubUrl, countryUrl, eventUrl, events, inCountry, isUnverified, live, liveVerified, lastRunAt, wrapped } from '../lib/data';
 import { isSerious, vibeClass, vibeLabel } from '../lib/format';
 import { itemList, org, website } from '../lib/seo';
@@ -101,6 +103,17 @@ const india_ = COUNTRIES.find((c) => c.iso === 'in')!;
       </div>
     )}
   </section>
+
+  {freshStories.length > 0 && (
+    <section class="wrap mt-14" aria-labelledby="big">
+      <div class="big-band rounded-[22px] border-[3px] border-black bg-violet p-5 text-white sm:p-7">
+        <span class="sticker s-not-protest">{t('big.sticker')}</span>
+        <h2 id="big" class="mt-4 text-[34px] text-white sm:text-[44px]">{t('big.h2')}</h2>
+        <p class="mt-2 max-w-[44rem] text-[16px] leading-snug sm:text-[18px]"><strong>{t('big.banner')}</strong> {t('big.bannerText')}</p>
+      </div>
+      <div class="mt-8 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">{freshStories.slice(0, 3).map((s) => <StoryCard s={s} />)}</div>
+    </section>
+  )}
 
   <section class="wrap mt-14" aria-labelledby="loudest">
     <div class="flex flex-wrap items-end justify-between gap-3">
@@ -204,6 +217,8 @@ const india_ = COUNTRIES.find((c) => c.iso === 'in')!;
     border: 4px solid #0b0b12; border-radius: 0.18em; transform: rotate(-3deg); box-shadow: 6px 6px 0 #0b0b12;
   }
   :root[data-theme='dark'] .loud { box-shadow: 6px 6px 0 var(--cyan); }
+  .big-band { box-shadow: 6px 6px 0 #0b0b12; }
+  :root[data-theme='dark'] .big-band { box-shadow: 6px 6px 0 var(--yellow); }
   .globe-wrap { max-width: 640px; justify-self: center; width: 100%; }
   .globe { cursor: grab; opacity: 0.25; transition: opacity 600ms ease; }
   .globe-wrap:global(.ready) .globe { opacity: 1; }
