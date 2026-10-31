@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-31",
-  "count": 17
+  "count": 52
  },
  "runs": [
-  {
-   "at": "2026-10-24T20:54:17.153Z",
-   "ms": 148360,
-   "discovered": 20,
-   "fetched": 18,
-   "classified": 15,
-   "protests": 12,
-   "summarized": 5,
-   "published": 141,
-   "live": 14,
-   "aiCalls": 12,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261024201500 http://data.gdeltproject.org/gdeltv2/20261024201500.export.CSV.zip → 404",
-    "gdelt: 20261024203000 http://data.gdeltproject.org/gdeltv2/20261024203000.export.CSV.zip → 404",
-    "gdelt: 20261024204500 http://data.gdeltproject.org/gdeltv2/20261024204500.export.CSV.zip → 404",
-    "gdelt: 20261024210000 http://data.gdeltproject.org/gdeltv2/20261024210000.export.CSV.zip → 404",
-    "gdelt: 6 files, 6 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 231 protest-word items",
-    "fetch: 18 ok, 2 failed",
-    "classify: new candidate e7cb92a3313 \"Orange Order members march through Portadown\" (Portadown)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-24T23:19:02.787Z",
    "ms": 146219,
@@ -1561,8 +1534,35 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-10-31T03:46:33.385Z",
+   "ms": 542904,
+   "discovered": 37,
+   "fetched": 49,
+   "classified": 46,
+   "protests": 19,
+   "summarized": 14,
+   "published": 285,
+   "live": 15,
+   "aiCalls": 35,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 7 files, 16 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 241 protest-word items",
+    "search: 13 single-source stories checked (4 in their own language), 16 other newsrooms found",
+    "fetch: 49 ok, 1 failed",
+    "classify: new candidate e49a9faf2fe \"Farmers and Shiv Sena UBT protest for drought relief in Washim\" (Washim)",
+    "classify: new candidate e59b4e7c467 \"Japanese citizens rally in Tokyo against government policies\" (Tokyo)",
+    "classify: new candidate e7c6c193334 \"Dozens protest in Tokyo after Marine accused of murder\" (Tokyo)",
+    "classify: new candidate e8ff27a2c4f \"Okinawans protest US military crimes after Marine arrest\" (Naha)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 17 events"
+   ],
+   "translated": 17
   }
  ],
- "gdeltCursor": "20261031020000",
- "lastRunAt": "2026-10-31T01:50:30.328Z"
+ "gdeltCursor": "20261031034500",
+ "lastRunAt": "2026-10-31T03:46:33.385Z"
 }
