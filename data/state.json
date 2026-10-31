@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-31",
-  "count": 77
+  "count": 112
  },
  "runs": [
-  {
-   "at": "2026-10-25T04:23:39.064Z",
-   "ms": 442563,
-   "discovered": 118,
-   "fetched": 107,
-   "classified": 100,
-   "protests": 61,
-   "summarized": 19,
-   "published": 151,
-   "live": 13,
-   "aiCalls": 44,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 21 files, 63 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 231 protest-word items",
-    "search: 25 single-source stories checked, 43 other newsrooms found",
-    "fetch: 107 ok, 11 failed",
-    "classify: new candidate e3fbd83c391 \"Casino workers strike and picket in Everett\" (Everett)",
-    "classify: new candidate e925fb811fb \"Protesters clash with police and burn bank in Tours\" (Tours)",
-    "classify: new candidate ea1498f4668 \"Teachers and education workers rally across Ontario for funding\" (Toronto)",
-    "classify: new candidate e7f5e02f8cc \"Villagers clash with police over dumping yard in Faridabad\" (Faridabad)",
-    "classify: new candidate ef66693d7c9 \"Young people march in Italian cities over costs and policies\" (Milan)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 16 events"
-   ],
-   "translated": 16
-  },
   {
    "at": "2026-10-25T07:44:02.673Z",
    "ms": 468317,
@@ -1564,8 +1536,38 @@
     "translate: 10 events"
    ],
    "translated": 10
+  },
+  {
+   "at": "2026-10-31T08:50:30.399Z",
+   "ms": 344036,
+   "discovered": 94,
+   "fetched": 86,
+   "classified": 79,
+   "protests": 48,
+   "summarized": 14,
+   "published": 288,
+   "live": 17,
+   "aiCalls": 35,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 41 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 254 protest-word items",
+    "search: 18 single-source stories checked (2 in their own language), 11 other newsrooms found",
+    "fetch: 86 ok, 8 failed",
+    "classify: new candidate eff8c8151b4 \"Indian opposition and citizens protest electoral roll revisions\" (Delhi)",
+    "classify: new candidate e999904b9e9 \"Jamaat-e-Islami and opposition launch long march in Dhaka\" (Dhaka)",
+    "classify: new candidate e7f671db129 \"Tamil Nadu opposition parties mobilise for New Delhi protest\" (Chennai)",
+    "classify: new candidate e2db732b310 \"Displaced Artsakh Armenians and activists protest at COP17 in Yerevan\" (Yerevan)",
+    "classify: new candidate eddbf886dac \"PMOI supporters rally in Malmö against the death penalty\" (Malmö)",
+    "classify: new candidate e4f7d9b1bf4 \"Protesters demonstrate in Portuguese cities for housing rights\" (Lisbon)",
+    "classify: new candidate e6681f4084c \"ABVP holds protest march in Patna defending democracy\" (Patna)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 14 events"
+   ],
+   "translated": 14
   }
  ],
- "gdeltCursor": "20261031060000",
- "lastRunAt": "2026-10-31T05:51:04.515Z"
+ "gdeltCursor": "20261031090000",
+ "lastRunAt": "2026-10-31T08:50:30.399Z"
 }

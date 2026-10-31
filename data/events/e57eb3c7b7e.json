@@ -2,8 +2,8 @@
  "id": "e57eb3c7b7e",
  "slug": "paris-business-protests-security-oct-2026",
  "stage": "live",
- "title": "French businesses prepare for protests as government announces security measures",
- "seoTitle": "Paris business protests security measures",
+ "title": "France braces for third weekend of demonstrations as 70,000 security personnel deploy",
+ "seoTitle": "Paris weekend protests and security deployment",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -15,43 +15,77 @@
  },
  "scope": "nationwide",
  "causes": [
-  "anti-government",
-  "governance"
+  "labour",
+  "students",
+  "education"
  ],
  "kind": "multi-day",
- "startedOn": "2026-10-15",
+ "startedOn": "2026-10-17",
  "status": "ongoing",
- "vibe": "wrapped-up",
- "severity": "normal",
+ "vibe": "tense",
+ "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "low-confidence"
+  "serious",
+  "top-10"
  ],
- "isOngoing": false,
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the government, following previous violent demonstrations and looting this month.",
-  "want": "No explicit demands from protesters are stated in the sources.",
-  "changed": "Oct 22: President Emmanuel Macron announced that public protests would be banned unless organised by unions using alternative routes."
+  "why": "Protesters are demonstrating against the rising cost of living, inequality, deteriorating learning conditions, and demanding civil liberties.",
+  "want": "Better conditions in schools, lower living costs, greater protection of civil liberties, and the right to protest.",
+  "changed": "Oct 31: France deployed 70,000 police and gendarmes for a third consecutive weekend of protests coinciding with Halloween."
  },
- "summary": "Businesses across France and luxury boutiques in Paris are boarding up and bracing for upcoming protests scheduled for Saturday, following a weekend of rioting and looting earlier in the month. President Emmanuel Macron announced that public demonstrations would be banned unless organised by unions that respect alternative routes avoiding city centres. The government stated that police deployment would increase by 20 per cent compared to the previous weekend, and officers have been authorised to use weapons such as stun grenades. Authorities blamed far-left groups for last week's violence, while police advised Paris shopkeepers to hire private security guards and install alarm systems.",
- "organizers": [],
- "demands": [],
- "response": "According to the sources, President Emmanuel Macron stated that public protests would be banned unless organised by unions respecting alternative routes. Government spokeswoman Maud Bregeon assured that measures are being taken to prevent past violence, and minister delegate Jean-Didier Berger announced a 20 per cent increase in police…",
- "numbers": {},
+ "summary": "France braced for a third consecutive weekend of demonstrations coinciding with Halloween, following weeks of protests that began over living costs and school conditions. The movement, which brings together trade unions, Yellow Vest activists, and high school and university students, broadened its demands to include greater protection of civil liberties and the right to protest following previous clashes. Authorities deployed around 70,000 police officers and gendarmes across the country. In Paris, the police prefecture attempted to restrict marches away from city centers and along outer boulevards, though unions and student groups challenged the restrictions in court. Businesses across the country boarded up storefronts in anticipation of potential unrest.",
+ "organizers": [
+  "trade unions",
+  "Yellow Vest activists",
+  "high school and university student groups"
+ ],
+ "demands": [
+  "Better conditions in schools",
+  "Lower living costs",
+  "Greater protection of civil liberties",
+  "Right to protest"
+ ],
+ "response": "Interior Minister Laurent Nuñez warned of a very high risk of public disorder and announced the deployment of around 70,000 security personnel. President Emmanuel Macron stated that public protests would be banned from city centres unless organized by approved unions following alternative routes.",
+ "numbers": {
+  "crowd": {
+   "value": 410000,
+   "text": "authorities counted about 550,000 marchers on Oct. 17... and 410,000 last Saturday",
+   "sources": [
+    5
+   ]
+  },
+  "arrests": {
+   "value": 2500,
+   "text": "More than 2,500 people were arrested across the country",
+   "sources": [
+    2
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-10-22",
-   "text": "President Emmanuel Macron announced plans to ban unauthorised protests and increase security after meeting with intelligence services.",
+   "text": "President Emmanuel Macron announced plans to ban public protests outside of approved union routes to protect city centres.",
    "sources": [
     1
    ]
   },
   {
-   "at": "2026-10-22",
-   "text": "Minister delegate Jean-Didier Berger stated that police presence would be increased by 20 per cent for upcoming demonstrations.",
+   "at": "2026-10-23",
+   "text": "Interior Minister Laurent Nuñez announced that around 70,000 police officers and gendarmes would be mobilized for the weekend.",
    "sources": [
-    1
+    2
+   ]
+  },
+  {
+   "at": "2026-10-31",
+   "text": "France entered its third weekend of protests with 70,000 security personnel deployed amid high alert over Halloween.",
+   "sources": [
+    3,
+    5
    ]
   }
  ],
@@ -69,119 +103,187 @@
    "publisher": "kedm.org",
    "title": "Paris shopkeepers brace for protests",
    "publishedAt": "2026-10-23T20:24:50.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.thehindu.com/news/international/fears-of-violence-as-france-braces-for-halloween-protests/article71648280.ece",
+   "publisher": "thehindu.com",
+   "title": "Fears of violence as France braces for Halloween protests",
+   "publishedAt": "2026-10-31T05:29:54.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.derstandard.at/story/3000000346828/massenproteste-am-samstag-erwartet-frankreich-mobilisiert-70000-polizisten",
+   "publisher": "derstandard.at",
+   "title": "Massenproteste am Samstag erwartet: Frankreich mobilisiert 70.000 Polizisten",
+   "publishedAt": "2026-10-31T06:51:22.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.bostonglobe.com/2026/10/31/world/rallies-sweep-europe-france-heads-into-third-weekend-of-protests/",
+   "publisher": "bostonglobe.com",
+   "title": "France heads into third weekend of protests as youth-led rallies sweep Europe - The Boston Globe",
+   "publishedAt": "2026-10-31T06:56:35.682Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 0,
+ "confidence": 0.95,
+ "publishers": 5,
+ "reports24h": 3,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 3,
  "firstSeenAt": "2026-10-23T21:28:30.868Z",
- "lastReportAt": "2026-10-23T20:24:50.000Z",
- "lastCheckedAt": "2026-10-31T05:53:35.532Z",
- "updatedAt": "2026-10-23T21:29:34.846Z",
+ "lastReportAt": "2026-10-31T06:56:35.682Z",
+ "lastCheckedAt": "2026-10-31T08:54:04.007Z",
+ "updatedAt": "2026-10-31T08:53:17.004Z",
  "responseSources": [
-  1
+  1,
+  3,
+  5
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-23T21:29:34.846Z",
- "summaryOf": "646529086a57",
+ "summarizedAt": "2026-10-31T08:53:17.004Z",
+ "summaryOf": "390179ae013f",
  "publishedAt": "2026-10-24T04:29:53.933Z",
  "i18n": {
-  "of": "e08f24d69c5df2a3",
-  "at": "2026-10-24T04:30:33.759Z",
+  "of": "c9925a3f44bc7760",
+  "at": "2026-10-31T08:54:47.517Z",
   "tries": 1,
   "hi": {
-   "title": "फ्रांसीसी व्यवसाय सुरक्षा उपायों की घोषणा के बीच प्रदर्शनों की तैयारी कर रहे हैं",
-   "seoTitle": "पेरिस में व्यवसाय सुरक्षा उपायों का विरोध",
+   "title": "फ्रांस में तीसरे सप्ताह के प्रदर्शनों की तैयारी, 70,000 सुरक्षाकर्मी तैनात",
+   "seoTitle": "पेरिस वीकेंड प्रदर्शन और सुरक्षा",
    "tea": {
-    "why": "इस महीने हुए पिछले हिंसक प्रदर्शनों और लूटपाट के बाद, प्रदर्शनकारी सरकार के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "स्रोतों में प्रदर्शनकारियों की ओर से कोई स्पष्ट मांगें नहीं बताई गई हैं।",
-    "changed": "22 अक्टूबर: राष्ट्रपति इमैनुएल मैक्रोन ने घोषणा की कि सार्वजनिक प्रदर्शनों पर प्रतिबंध रहेगा, जब तक कि वे वैकल्पिक मार्गों का उपयोग करने वाले यूनियनों द्वारा आयोजित न किए जाएं।"
+    "why": "प्रदर्शनकारी जीवनयापन की बढ़ती लागत, असमानता और खराब होती शिक्षण स्थितियों के खिलाफ प्रदर्शन कर रहे हैं तथा नागरिक स्वतंत्रता की मांग कर रहे हैं।",
+    "want": "स्कूलों में बेहतर स्थिति, कम जीवनयापन लागत, नागरिक स्वतंत्रता की अधिक सुरक्षा और विरोध प्रदर्शन का अधिकार।",
+    "changed": "31 अक्टूबर: हैलोवीन के साथ मेल खाते हुए प्रदर्शनों के लगातार तीसरे सप्ताह के लिए फ्रांस ने 70,000 पुलिस और जेंडरम तैनात किए।"
    },
-   "summary": "फ्रांस भर में व्यवसाय और पेरिस की लक्जरी दुकानें आगामी शनिवार को होने वाले प्रदर्शनों के लिए बोर्ड लगाकर खुद को सुरक्षित कर रही हैं, जो इस महीने की शुरुआत में हुए दंगों और लूटपाट के एक सप्ताह बाद हो रहे हैं। राष्ट्रपति इमैनुएल मैक्रोन ने घोषणा की कि सार्वजनिक प्रदर्शनों पर प्रतिबंध लगा दिया जाएगा, जब तक कि वे ऐसे यूनियनों द्वारा आयोजित न किए जाएं जो शहर के केंद्रों से बचने वाले वैकल्पिक मार्गों का सम्मान करते हैं। सरकार ने कहा कि पिछले सप्ताह के मुकाबले पुलिस की तैनाती में 20 प्रतिशत की वृद्धि की जाएगी, और अधिकारियों को स्टन ग्रेनेड जैसे हथियारों का उपयोग करने के लिए अधिकृत किया गया है। अधिकारियों ने पिछले सप्ताह की हिंसा के लिए सुदूर-वाम समूहों को दोषी ठहराया, जबकि पुलिस ने पेरिस के दुकानदारों को निजी सुरक्षा गार्ड किराए पर लेने और अलार्म सिस्टम स्थापित करने की सलाह दी।",
-   "demands": [],
-   "response": "स्रोतों के अनुसार, राष्ट्रपति इमैनुएल मैक्रोन ने कहा कि सार्वजनिक प्रदर्शनों पर प्रतिबंध लगा दिया जाएगा, जब तक कि वे वैकल्पिक मार्गों का सम्मान करने वाले यूनियनों द्वारा आयोजित न किए जाएं। सरकारी प्रवक्ता मौद ब्रेजोन ने आश्वासन दिया कि पिछली हिंसा को रोकने के लिए उपाय किए जा रहे हैं, और मंत्री प्रतिनिधि जीन-डिडिएर बर्जर ने पुलिस में 20 प्रतिशत की वृद्धि की घोषणा की…",
+   "summary": "हैलोवीन के साथ मेल खाते प्रदर्शनों के लगातार तीसरे सप्ताह के लिए फ्रांस तैयार हुआ, जो जीवनयापन की लागत और स्कूल की स्थितियों पर शुरू हुए हफ्तों के प्रदर्शनों के बाद हुआ। इस आंदोलन में ट्रेड यूनियन, येलो वेस्ट कार्यकर्ता और हाई स्कूल तथा विश्वविद्यालय के छात्र शामिल हैं। पिछले संघर्षों के बाद इसने नागरिक स्वतंत्रता और विरोध प्रदर्शन के अधिकार की अधिक सुरक्षा को शामिल करने के लिए अपनी मांगों का दायरा बढ़ाया। अधिकारियों ने देश भर में लगभग 70,000 पुलिस अधिकारियों और जेंडरम को तैनात किया। पेरिस में, पुलिस प्रीपेक्चर ने शहर के केंद्रों से दूर और बाहरी बुलेवार्ड के साथ मार्च को प्रतिबंधित करने का प्रयास किया, हालांकि यूनियनों और छात्र समूहों ने अदालत में इन प्रतिबंधों को चुनौती दी। संभावित अशांति की आशंका में देश भर के व्यवसायों ने अपने स्टोरफ्रंट को बोर्ड से बंद कर दिया।",
+   "demands": [
+    "स्कूलों में बेहतर स्थितियां",
+    "कम जीवनयापन लागत",
+    "नागरिक स्वतंत्रता की अधिक सुरक्षा",
+    "विरोध प्रदर्शन का अधिकार"
+   ],
+   "response": "आंतरिक मंत्री लॉरेंट नुनेज ने सार्वजनिक व्यवस्था बिगड़ने के बहुत अधिक जोखिम की चेतावनी दी और लगभग 70,000 सुरक्षाकर्मियों की तैनाती की घोषणा की। राष्ट्रपति इमैनुएल मैक्रोन ने कहा कि अनुमोदित यूनियनों द्वारा वैकल्पिक मार्गों के बाद आयोजित किए जाने के अलावा शहर के केंद्रों में सार्वजनिक प्रदर्शनों पर प्रतिबंध रहेगा।",
    "updates": [
-    "राष्ट्रपति इमैनुएल मैक्रोन ने खुफिया सेवाओं के साथ बैठक के बाद अनधिकृत प्रदर्शनों पर प्रतिबंध लगाने और सुरक्षा बढ़ाने की योजनाओं की घोषणा की।",
-    "मंत्री प्रतिनिधि जीन-डिडिएर बर्जर ने कहा कि आगामी प्रदर्शनों के लिए पुलिस की उपस्थिति 20 प्रतिशत तक बढ़ाई जाएगी।"
+    "राष्ट्रपति इमैनुएल मैक्रोन ने शहर के केंद्रों की रक्षा के लिए अनुमोदित यूनियन मार्गों के बाहर सार्वजनिक प्रदर्शनों पर प्रतिबंध लगाने की योजनाओं की घोषणा की।",
+    "आंतरिक मंत्री लॉरेंट नुनेज ने घोषणा की कि सप्ताहांत के लिए लगभग 70,000 पुलिस अधिकारी और जेंडरम जुटाए जाएंगे।",
+    "हैलोवीन पर हाई अलर्ट के बीच 70,000 सुरक्षा कर्मियों की तैनाती के साथ फ्रांस अपने प्रदर्शनों के तीसरे सप्ताह में प्रवेश कर गया।"
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "अधिकारियों ने 17 अक्टूबर को लगभग 550,000 मार्च करने वालों की गिनती की... और पिछले शनिवार को 410,000 की",
+    "arrests": "देश भर में 2,500 से अधिक लोगों को गिरफ्तार किया गया"
+   }
   },
   "mr": {
-   "title": "सरकारने सुरक्षा उपायांची घोषणा केल्यानंतर फ्रेंच व्यवसाय आंदोलनांची तयारी करत आहेत",
-   "seoTitle": "पॅरिसमधील व्यवसायांचा सुरक्षा उपायांना विरोध",
+   "title": "फ्रान्समध्ये निदर्शनांच्या तिसऱ्या आठवड्याची तयारी, ७०,००० सुरक्षा कर्मचारी तैनात",
+   "seoTitle": "पॅरिस वीकेंड निदर्शने आणि सुरक्षा",
    "tea": {
-    "why": "या महिन्यात झालेल्या मागील हिंसक निदर्शने आणि लुटीच्या घटनांनंतर, आंदोलक सरकारविरुद्ध निदर्शने करत आहेत.",
-    "want": "स्रोतांमध्ये आंदोलकांच्या कोणत्याही स्पष्ट मागण्या नमूद केलेल्या नाहीत.",
-    "changed": "२२ ऑक्टोबर: राष्ट्राध्यक्ष इमॅन्युएल मॅक्रॉन यांनी घोषणा केली की सार्वजनिक आंदोलनांवर बंदी घातली जाईल, जोपर्यंत ती पर्यायी मार्गांचा वापर करणाऱ्या युनियन्सद्वारे आयोजित केली जात नाहीत."
+    "why": "वाढता राहणीमान खर्च, विषमता, ढासळलेली शिक्षण परिस्थिती यांच्या निषेधार्थ आणि नागरी स्वातंत्र्याची मागणी करण्यासाठी निदर्शक निदर्शने करत आहेत.",
+    "want": "शाळांमध्ये चांगल्या सुविधा, कमी राहणीमान खर्च, नागरी स्वातंत्र्याचे अधिक संरक्षण आणि आंदोलनाचा अधिकार.",
+    "changed": "३१ ऑक्टोबर: हॅलोवीनच्या निमित्ताने लागोपाठ तिसऱ्या आठवड्यातील निदर्शनांसाठी फ्रान्सने ७०,००० पोलीस आणि जेंडरम तैनात केले."
    },
-   "summary": "महिन्याच्या सुरुवातीला झालेल्या दंगली आणि लुटीच्या वादानंतर, फ्रान्समधील व्यवसाय आणि पॅरिसमधील लक्जरी दुकाने आगामी शनिवारच्या आंदोलनांसाठी लाकडी फळ्या लावून स्वतःला सुरक्षित करत आहेत. राष्ट्राध्यक्ष इमॅन्युएल मॅक्रॉन यांनी घोषणा केली की सार्वजनिक निदर्शनांवर बंदी घातली जाईल, जोपर्यंत ती शहर केंद्रांना टाळणाऱ्या पर्यायी मार्गांचा आदर करणाऱ्या युनियन्सद्वारे आयोजित केली जात नाहीत. सरकारने सांगितले की मागील शनिवारच्या तुलनेत पोलिसांच्या उपस्थितीत २० टक्क्यांनी वाढ केली जाईल आणि अधिकाऱ्यांना स्टन ग्रेनेडसारख्या शस्त्रांचा वापर करण्यास अधिकृत केले गेले आहे. अधिकाऱ्यांनी गेल्या आठवड्यातील हिंसेसाठी अति-डाव्या गटांना जबाबदार धरले, तर पोलिसांनी पॅरिसमधील दुकानदारांना खाजगी सुरक्षा रक्षक नेमण्याचा आणि अलार्म यंत्रणा बसवण्याचा सल्ला दिला.",
-   "demands": [],
-   "response": "स्रोतांच्या मते, राष्ट्राध्यक्ष इमॅन्युएल मॅक्रॉन यांनी सांगितले की सार्वजनिक आंदोलनांवर बंदी घातली जाईल, जोपर्यंत ती पर्यायी मार्गांचा आदर करणाऱ्या युनियन्सद्वारे आयोजित केली जात नाहीत. सरकारच्या प्रवक्त्या मौद ब्रेजोन यांनी आश्वासन दिले की मागील हिंसाचार रोखण्यासाठी उपाययोजना केल्या जात आहेत, आणि मंत्री प्रतिनिधी जीन-डिडिएर बर्जर यांनी पोलिसांच्या संख्येत २० टक्के वाढ करण्याची घोषणा केली...",
+   "summary": "राहणीमान खर्च आणि शाळेच्या परिस्थितीवरून सुरू झालेल्या आठवड्यांच्या निदर्शनांनंतर, हॅलोवीनच्या निमित्ताने लागोपाठ तिसऱ्या आठवड्यातील निदर्शनांसाठी फ्रान्स सज्ज झाला. या आंदोलनात कामगार संघटना, यलो वेस्ट कार्यकर्ते आणि उच्च माध्यमिक तसेच विद्यापीठाचे विद्यार्थी एकत्र आले आहेत. मागील संघर्षांनंतर या आंदोलनाने आपल्या मागण्यांमध्ये नागरी स्वातंत्र्याचे अधिक संरक्षण आणि निदर्शनाचा अधिकार यांचा समावेश केला. अधिकाऱ्यांनी देश भरमध्ये सुमारे ७०,००० पोलीस अधिकारी आणि जेंडरम तैनात केले. पॅरिसमध्ये, पोलीस प्राфек्चरने शहराच्या केंद्रांपासून दूर आणि बाहेरील रस्त्यांवर मोर्चे नेण्याचे बंधन घालण्याचा प्रयत्न केला, मात्र युनियन्स आणि विद्यार्थी गटांनी न्यायालयामध्ये या बंधनांना आव्हान दिले. संभाव्य अशांततेच्या शक्यतेमुळे देशातील अनेक व्यवसायांनी आपल्या दुकानांवर लाकडी फळ्या ठोकून बंदोबस्त केला.",
+   "demands": [
+    "शाळांमध्ये चांगल्या परिस्थिती",
+    "कमी राहणीमान खर्च",
+    "नागरी स्वातंत्र्याचे अधिक संरक्षण",
+    "आंदोलनाचा अधिकार"
+   ],
+   "response": "अंतर्गत मंत्री लॉरेंट नुनेज यांनी सार्वजनिक सुरक्षेला मोठा धोका असल्याचा इशारा दिला आणि सुमारे ७०,००० सुरक्षा कर्मचाऱ्यांच्या तैनातीची घोषणा केली. राष्ट्राध्यक्ष इमॅनुएल मॅक्रों यांनी सांगितले की, मान्यताप्राप्त युनियन्सनी पर्यायी मार्गांनी आयोजित केलेले नसल्यास शहरांच्या केंद्रांमध्ये सार्वजनिक निदर्शनांवर बंदी घातली जाईल.",
    "updates": [
-    "राष्ट्राध्यक्ष इमॅन्युएल मॅक्रॉन यांनी गुप्तचर यंत्रणांसोबत बैठक घेतल्यानंतर अनधिकृत आंदोलनांवर बंदी घालण्याच्या आणि सुरक्षा वाढवण्याच्या योजनांची घोषणा केली.",
-    "मंत्री प्रतिनिधी जीन-डिडिएर बर्जर यांनी सांगितले की आगामी निदर्शनांसाठी पोलिसांची उपस्थिती २० टक्क्यांनी वाढवली जाईल."
+    "राष्ट्राध्यक्ष इमॅनुएल मॅक्रों यांनी शहराच्या केंद्रांचे रक्षण करण्यासाठी मान्यताप्राप्त युनियन मार्गांव्यतिरिक्त इतर ठिकाणी सार्वजनिक निदर्शनांवर बंदी घालण्याच्या योजनांची घोषणा केली.",
+    "अंतर्गत मंत्री लॉरेंट नुनेज यांनी घोषणा केली की वीकेंडसाठी सुमारे ७०,००० पोलीस अधिकारी आणि जेंडरम तैनात केले जातील.",
+    "हॅलोवीननिमित्त हाय अलर्ट दरम्यान ७०,००० सुरक्षा कर्मचाऱ्यांच्या तैनातीसह फ्रान्स निदर्शनांच्या तिसऱ्या आठवड्यात प्रवेशकर्ता झाला."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "अधिकारी वर्गानुसार १७ ऑक्टोबर रोजी सुमारे ५,५०,००० मोर्चेकरी होते... आणि गेल्या शनिवारी ४,१०,००० होते",
+    "arrests": "देशभरात २,५०० हून अधिक लोकांना अटक करण्यात आली"
+   }
   },
   "es": {
-   "title": "Las empresas francesas se preparan para las protestas mientras el gobierno anuncia medidas de seguridad",
-   "seoTitle": "Protestas empresariales en París por seguridad",
+   "title": "Francia se prepara para el tercer fin de semana de manifestaciones con el despliegue de 70.000 agentes de seguridad",
+   "seoTitle": "Protestas de fin de semana en París y seguridad",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el gobierno, tras las anteriores manifestaciones violentas y saqueos de este mes.",
-    "want": "Las fuentes no indican demandas explícitas por parte de los manifestantes.",
-    "changed": "22 de oct.: El presidente Emmanuel Macron anunció que se prohibirían las protestas públicas a menos que fueran organizadas por sindicatos que utilicen rutas alternativas."
+    "why": "Los manifestantes protestan contra el aumento del coste de la vida, la desigualdad y el deterioro de las condiciones de aprendizaje, y exigen libertades civiles.",
+    "want": "Mejores condiciones en las escuelas, menor coste de la vida, mayor protección de las libertades civiles y el derecho a la protesta.",
+    "changed": "31 de oct: Francia desplegó 70.000 policías y gendarmes para un tercer fin de semana consecutivo de protestas coincidiendo con Halloween."
    },
-   "summary": "Las empresas en toda Francia y las boutiques de lujo en París están tapiando sus locales y preparándose para las próximas protestas programadas para el sábado, tras un fin de semana de disturbios y saqueos a principios de mes. El presidente Emmanuel Macron anunció que las manifestaciones públicas estarían prohibidas a menos que fueran organizadas por sindicatos que respeten rutas alternativas que eviten los centros de las ciudades. El gobierno declaró que el despliegue policial aumentaría en un 20 por ciento en comparación con el fin de semana anterior, y los agentes han sido autorizados a usar armas como granadas aturdidoras. Las autoridades culparon a los grupos de extrema izquierda de la violencia de la semana pasada, mientras que la policía aconsejó a los comerciantes de París que contrataran guardias de seguridad privados e instalaran sistemas de alarma.",
-   "demands": [],
-   "response": "Según las fuentes, el presidente Emmanuel Macron declaró que las protestas públicas estarían prohibidas a menos que fueran organizadas por sindicatos que respeten rutas alternativas. La portavoz del gobierno Maud Bregeon aseguró que se están tomando medidas para prevenir la violencia pasada, y el ministro delegado Jean-Didier Berger anunció un aumento del 20 por ciento en la policía...",
+   "summary": "Francia se preparó para un tercer fin de semana consecutivo de manifestaciones coincidiendo con Halloween, tras semanas de protestas que comenzaron por el coste de la vida y las condiciones escolares. El movimiento, que reúne a sindicatos, activistas de los Chalecos Amarillos y estudiantes de secundaria y universidad, amplió sus demandas para incluir una mayor protección de las libertades civiles y el derecho a la protesta tras los enfrentamientos anteriores. Las autoridades desplegaron unos 70.000 policías y gendarmes en todo el país. En París, la prefectura de policía intentó restringir las marchas lejos de los centros urbanos y a lo largo de los bulevares exteriores, aunque los sindicatos y los grupos de estudiantes recurrieron las restricciones en los tribunales. Empresas de todo el país tapiaron sus escaparates ante la previsión de posibles disturbios.",
+   "demands": [
+    "Mejores condiciones en las escuelas",
+    "Menor coste de la vida",
+    "Mayor protección de las libertades civiles",
+    "Derecho a la protesta"
+   ],
+   "response": "El ministro del Interior, Laurent Nuñez, advirtió de un riesgo muy elevado de alteración del orden público y anunció el despliegue de unos 70.000 efectivos de seguridad. El presidente Emmanuel Macron declaró que las protestas públicas se prohibirán en los centros de las ciudades a menos que estén organizadas por sindicatos autorizados siguiendo rutas alternativas.",
    "updates": [
-    "El presidente Emmanuel Macron anunció planes para prohibir protestas no autorizadas y aumentar la seguridad tras reunirse con los servicios de inteligencia.",
-    "El ministro delegado Jean-Didier Berger declaró que la presencia policial aumentaría en un 20 por ciento para las próximas manifestaciones."
+    "El presidente Emmanuel Macron anunció planes para prohibir las protestas públicas fuera de las rutas sindicales aprobadas para proteger los centros urbanos.",
+    "El ministro del Interior, Laurent Nuñez, anunció que unos 70.000 policías y gendarmes serían movilizados para el fin de semana.",
+    "Francia entró en su tercer fin de semana de protestas con 70.000 efectivos de seguridad desplegados en medio de una gran alerta por Halloween."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "las autoridades contaron unos 550.000 manifestantes el 17 de octubre... y 410.000 el sábado pasado",
+    "arrests": "Más de 2.500 personas fueron detenidas en todo el país"
+   }
   },
   "fr": {
-   "title": "Les entreprises françaises se préparent aux manifestations alors que le gouvernement annonce des mesures de sécurité",
-   "seoTitle": "Manifestations d'entreprises à Paris pour la sécurité",
+   "title": "La France se prépare à un troisième week-end de manifestations avec le déploiement de 70 000 membres des forces de sécurité",
+   "seoTitle": "Manifestations du week-end à Paris et sécurité",
    "tea": {
-    "why": "Les manifestants protestent contre le gouvernement, à la suite de manifestations violentes et de pillages précédents ce mois-ci.",
-    "want": "Aucune revendication explicite des manifestants n'est mentionnée dans les sources.",
-    "changed": "22 oct. : Le président Emmanuel Macron a annoncé que les manifestations publiques seraient interdites à moins d'être organisées par des syndicats empruntant des itinéraires alternatifs."
+    "why": "Les manifestants protestent contre la hausse du coût de la vie, les inégalités, la dégradation des conditions d'apprentissage et réclament des libertés civiles.",
+    "want": "De meilleures conditions dans les écoles, un coût de la vie moins élevé, une plus grande protection des libertés civiles et le droit de manifester.",
+    "changed": "31 oct. : La France a déployé 70 000 policiers et gendarmes pour un troisième week-end consécutif de manifestations coïncidant avec Halloween."
    },
-   "summary": "Les entreprises à travers la France et les boutiques de luxe à Paris barricadent leurs vitrines et se préparent aux manifestations à venir prévues pour samedi, après un week-end d'émeutes et de pillages plus tôt dans le mois. Le président Emmanuel Macron a annoncé que les manifestations publiques seraient interdites à moins d'être organisées par des syndicats respectant des itinéraires alternatifs évitant les centres-villes. Le gouvernement a déclaré que le déploiement policier augmenterait de 20 pour cent par rapport au week-end précédent, et les agents ont été autorisés à utiliser des armes telles que des grenades de désencerclement. Les autorités ont imputé la violence de la semaine dernière à des groupes d'ultra-gauche, tandis que la police a conseillé aux commerçants parisiens d'embaucher des agents de sécurité privés et d'installer des systèmes d'alarme.",
-   "demands": [],
-   "response": "Selon les sources, le président Emmanuel Macron a déclaré que les manifestations publiques seraient interdites à moins d'être organisées par des syndicats respectant des itinéraires alternatifs. La porte-parole du gouvernement Maud Bregeon a assuré que des mesures sont prises pour empêcher la violence passée, et le ministre délégué Jean-Didier Berger a annoncé une augmentation de 20 pour cent de la police...",
+   "summary": "La France s'est préparée à un troisième week-end consécutif de manifestations coïncidant avec Halloween, à la suite de semaines de protestations qui ont débuté en raison du coût de la vie et des conditions scolaires. Le mouvement, qui rassemble des syndicats, des militants des Gilets jaunes ainsi que des lycéens et des étudiants, a élargi ses revendications pour inclure une plus grande protection des libertés civiles et le droit de manifester à la suite de précédents affrontements. Les autorités ont déployé environ 70 000 policiers et gendarmes à travers le pays. À Paris, la préfecture de police a tenté de restreindre les manifestations en les éloignant des centres-villes et en les cantonnant sur les boulevards extérieurs, bien que les syndicats et les groupes étudiants aient contesté ces restrictions en justice. Des commerces de tout le pays ont barricadé leurs vitrines en prévision de troubles potentiels.",
+   "demands": [
+    "De meilleures conditions dans les écoles",
+    "Un coût de la vie moins élevé",
+    "Une plus grande protection des libertés civiles",
+    "Le droit de manifester"
+   ],
+   "response": "Le ministre de l'Intérieur, Laurent Nuñez, a mis en garde contre un risque très élevé de troubles à l'ordre public et a annoncé le déploiement d'environ 70 000 membres du personnel de sécurité. Le président Emmanuel Macron a déclaré que les manifestations publiques seraient interdites dans les centres-villes à moins d'être organisées par des syndicats agréés suivant des itinéraires alternatifs.",
    "updates": [
-    "Le président Emmanuel Macron a annoncé des projets visant à interdire les manifestations non autorisées et à renforcer la sécurité après avoir rencontré les services de renseignement.",
-    "Le ministre délégué Jean-Didier Berger a déclaré que la présence policière serait augmentée de 20 pour cent pour les manifestations à venir."
+    "Le président Emmanuel Macron a annoncé des projets visant à interdire les manifestations publiques en dehors des itinéraires syndicaux approuvés afin de protéger les centres-villes.",
+    "Le ministre de l'Intérieur, Laurent Nuñez, a annoncé qu'environ 70 000 policiers et gendarmes seraient mobilisés pour le week-end.",
+    "La France est entrée dans son troisième week-end de manifestations avec 70 000 membres des forces de sécurité déployés sur fond d'alerte maximale pour Halloween."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "les autorités ont compté environ 550 000 manifestants le 17 octobre... et 410 000 samedi dernier",
+    "arrests": "Plus de 2 500 personnes ont été arrêtées à travers le pays"
+   }
   },
   "de": {
-   "title": "Französische Unternehmen bereiten sich auf Proteste vor, während die Regierung Sicherheitsmaßnahmen ankündigt",
-   "seoTitle": "Pariser Unternehmen protestieren gegen Sicherheitsmaßnahmen",
+   "title": "Frankreich rüstet sich für ein drittes Demonstrationswochenende mit dem Einsatz von 70.000 Sicherheitskräften",
+   "seoTitle": "Wochenendproteste in Paris und Sicherheit",
    "tea": {
-    "why": "Demonstranten protestieren gegen die Regierung, nach vorausgegangenen gewaltsamen Demonstrationen und Plünderungen in diesem Monat.",
-    "want": "In den Quellen werden keine ausdrücklichen Forderungen der Demonstranten genannt.",
-    "changed": "22. Okt.: Präsident Emmanuel Macron kündigte an, dass öffentliche Proteste verboten würden, es sei denn, sie werden von Gewerkschaften organisiert, die alternative Routen nutzen."
+    "why": "Demonstranten protestieren gegen die steigenden Lebenshaltungskosten, Ungleichheit sowie verschlechterte Lernbedingungen und fordern bürgerliche Freiheiten.",
+    "want": "Bessere Bedingungen an Schulen, niedrigere Lebenshaltungskosten, einen größeren Schutz der bürgerlichen Freiheiten und das Recht zu protestieren.",
+    "changed": "31. Okt.: Frankreich setzte 70.000 Polizisten und Gendarmen für ein drittes aufeinanderfolgendes Demonstrationswochenende ein, das mit Halloween zusammenfiel."
    },
-   "summary": "Unternehmen in ganz Frankreich und Luxusboutiquen in Paris verbarrikadieren sich und bereiten sich auf die für Samstag geplanten kommenden Proteste vor, nach einem Wochenende mit Ausschreitungen und Plünderungen zu Beginn des Monats. Präsident Emmanuel Macron kündigte an, dass öffentliche Demonstrationen verboten würden, es sei denn, sie werden von Gewerkschaften organisiert, die alternative Routen unter Vermeidung der Stadtzentren einhalten. Die Regierung erklärte, dass der Polizeieinsatz im Vergleich zum vorherigen Wochenende um 20 Prozent erhöht werde, und Beamte wurden ermächtigt, Waffen wie Blendgranaten einzusetzen. Die Behörden machten linksradikale Gruppen für die Gewalt der letzten Woche verantwortlich, während die Polizei den Pariser Ladenbesitzern riet, private Sicherheitskräfte anzuheuern und Alarmlagen zu installieren.",
-   "demands": [],
-   "response": "Den Quellen zufolge erklärte Präsident Emmanuel Macron, dass öffentliche Proteste verboten würden, es sei denn, sie werden von Gewerkschaften organisiert, die alternative Routen einhalten. Regierungssprecherin Maud Bregeon versicherte, dass Maßnahmen ergriffen werden, um vergangene Gewalt zu verhindern, und der delegierte Minister Jean-Didier Berger kündigte eine Erhöhung der Polizei um 20 Prozent an...",
+   "summary": "Frankreich rüstete sich für ein drittes aufeinanderfolgendes Demonstrationswochenende, das mit Halloween zusammenfiel, nach wochenlangen Protesten, die wegen der Lebenshaltungskosten und der Schulbedingungen begonnen hatten. Die Bewegung, die Gewerkschaften, Aktivisten der Gelbwesten sowie Oberstufen- und Universitätschüler zusammenbringt, weitete ihre Forderungen aus, um nach früheren Zusammenstößen einen größeren Schutz der bürgerlichen Freiheiten und das Recht zu protestieren einzuschließen. Die Behörden stationierten im ganzen Land etwa 70.000 Polizeibeamte und Gendarmen. In Paris versuchte die Polizeipräfektur, Märsche von den Stadtzentren fernzuhalten und auf äußere Boulevards zu beschränken, obwohl Gewerkschaften und Studentengruppen die Einschränkungen vor Gericht anfochten. Geschäfte im ganzen Land vernagelten ihre Schaufenster in Erwartung möglicher Unruhen.",
+   "demands": [
+    "Bessere Bedingungen an Schulen",
+    "Niedrigere Lebenshaltungskosten",
+    "Größerer Schutz der bürgerlichen Freiheiten",
+    "Recht zu protestieren"
+   ],
+   "response": "Innenminister Laurent Nuñez warnte vor einem sehr hohen Risiko von Störungen der öffentlichen Ordnung und kündigte den Einsatz von rund 70.000 Sicherheitskräften an. Präsident Emmanuel Macron erklärte, dass öffentliche Proteste in den Stadtzentren verboten würden, es sei denn, sie werden von zugelassenen Gewerkschaften auf alternativen Routen organisiert.",
    "updates": [
-    "Präsident Emmanuel Macron kündigte Pläne an, nach einem Treffen mit Geheimdiensten nicht genehmigte Proteste zu verbieten und die Sicherheit zu erhöhen.",
-    "Der delegierte Minister Jean-Didier Berger erklärte, dass die Polizeipräsenz für kommende Demonstrationen um 20 Prozent erhöht werde."
+    "Präsident Emmanuel Macron kündigte Pläne an, öffentliche Proteste außerhalb von genehmigten Gewerkschaftsrouten zu verbieten, um die Stadtzentren zu schützen.",
+    "Innenminister Laurent Nuñez gab bekannt, dass für das Wochenende etwa 70.000 Polizisten und Gendarmen mobilisiert würden.",
+    "Frankreich ging mit 70.000 eingesetzten Sicherheitskräften und unter hoher Alarmbereitschaft wegen Halloween in sein drittes Protestwochenende."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "die Behörden zählten am 17. Oktober etwa 550.000 Demonstranten... und am vergangenen Samstag 410.000",
+    "arrests": "Mehr als 2.500 Menschen wurden im ganzen Land festgenommen"
+   }
   }
  }
 }
