@@ -1,45 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-31",
-  "count": 112
+  "count": 157
  },
  "runs": [
-  {
-   "at": "2026-10-25T07:44:02.673Z",
-   "ms": 468317,
-   "discovered": 127,
-   "fetched": 116,
-   "classified": 105,
-   "protests": 69,
-   "summarized": 23,
-   "published": 158,
-   "live": 16,
-   "aiCalls": 52,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 42 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss news.err.ee: 403",
-    "rss: 265 protest-word items",
-    "search: 25 single-source stories checked, 25 other newsrooms found",
-    "fetch: 116 ok, 11 failed",
-    "classify: new candidate e60d1ef00de \"Students demonstrate and block schools in Lisbon over housing and costs\" (Lisbon)",
-    "classify: new candidate e9bb4b715ec \"Demonstration in Coimbra demands action on housing crisis\" (Coimbra)",
-    "classify: new candidate ed0e22fce32 \"Housing rights protesters occupy Rossio square and pitch tents in Lisbon\" (Lisbon)",
-    "classify: new candidate e957a69679c \"Porto residents and families protest housing crisis\" (Porto)",
-    "classify: new candidate eeffb10680a \"Evora residents rally for housing and basic rights\" (Évora)",
-    "classify: new candidate ef1fd11814e \"Protesters clash with police during cost-of-living demonstrations in France\" (Toulouse)",
-    "classify: new candidate e31a350141d \"Texas Southern students march to polls to vote\" (Houston)",
-    "classify: new candidate eff6de72198 \"Italian PM Meloni praises police for order during cost-of-living protests\" (Rome)",
-    "classify: new candidate e04d4e410a8 \"Serbians vote in parliamentary election amid student-led protests\" (Belgrade)",
-    "classify: new candidate e4a024234b0 \"LPG distributors' unions oppose strike and seek dialogue\" (Delhi)",
-    "classify: new candidate ef4556eb02d \"Cost-of-living protests held across France amid heavy security\" (Lyon)",
-    "classify: new candidate ee739fc14a4 \"Teachers and support staff rally across Ontario for funding\" (Greater Sudbury)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 20 events"
-   ],
-   "translated": 20
-  },
   {
    "at": "2026-10-25T11:38:25.110Z",
    "ms": 407568,
@@ -1566,8 +1530,39 @@
     "translate: 14 events"
    ],
    "translated": 14
+  },
+  {
+   "at": "2026-10-31T11:49:08.159Z",
+   "ms": 435010,
+   "discovered": 94,
+   "fetched": 85,
+   "classified": 72,
+   "protests": 45,
+   "summarized": 19,
+   "published": 294,
+   "live": 21,
+   "aiCalls": 45,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 40 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 261 protest-word items",
+    "search: 15 single-source stories checked (3 in their own language), 19 other newsrooms found",
+    "fetch: 85 ok, 9 failed",
+    "classify: new candidate efe46aab30a \"Portuguese unions and civic movements schedule strikes and demonstrations\" (Lisbon)",
+    "classify: new candidate e542af1efb0 \"RMG workers block roads in Mirpur demanding higher wages\" (Dhaka)",
+    "classify: new candidate e6232c1006a \"Gen Z demonstration for better education and political participation\" (Munich)",
+    "classify: new candidate ebd2daee135 \"Gen Z demonstrations for education, social justice, and climate\" (Leipzig)",
+    "classify: new candidate ed9380742ba \"Gen Z protests in Germany over living costs and education\" (Munich)",
+    "classify: new candidate e851dfc004c \"Philadelphia woman protests delivery robots on sidewalk\" (Philadelphia)",
+    "classify: new candidate e8c2d189947 \"Linda Mwananchi Movement holds political rally in Kwale\" (Kwale)",
+    "classify: new candidate e352a0584fe \"Garment workers block highway in Gazipur over wages\" (Gazipur)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 20 events"
+   ],
+   "translated": 20
   }
  ],
- "gdeltCursor": "20261031090000",
- "lastRunAt": "2026-10-31T08:50:30.399Z"
+ "gdeltCursor": "20261031114500",
+ "lastRunAt": "2026-10-31T11:49:08.159Z"
 }
