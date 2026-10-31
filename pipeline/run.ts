@@ -151,7 +151,7 @@ try {
       run.fetched++;
       if (!looksLikeProtest(`${a.title} ${a.description} ${p.text.slice(0, 1500)}`)) {
         a.cls = { at: nowIso(), isProtest: false, reason: 'no protest vocabulary' };
-      } else if (a.publishedAt && Date.now() - Date.parse(a.publishedAt) > 12 * 864e5) {
+      } else if (a.via !== 'owner' && a.publishedAt && Date.now() - Date.parse(a.publishedAt) > 12 * 864e5) {
         a.cls = { at: nowIso(), isProtest: false, reason: 'article older than 12 days' };
       }
     } catch (e) {

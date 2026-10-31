@@ -50,7 +50,7 @@ const en = (R: R): HowContent => ({
   intro: "LOUD is a neutral protest tracker. The interface is playful; the facts are not. We don't take sides, we don't add adjectives, and we show you exactly where every line comes from. Right now we track <strong>{n}</strong> protests across {countries}.",
   pipelineH: 'From headline to card, every 3 hours',
   steps: [
-    ['Listen', 'Every 3 hours we pull the GDELT 2.0 event feed (news articles its coders tag as protests, every 15 minutes, worldwide) plus RSS feeds from newsrooms in India, Europe, Ukraine, Russia, the Middle East, the US, Canada, Australia and New Zealand (GDELT misses most non-English reporting).'],
+    ['Listen', 'Every 3 hours we pull the GDELT 2.0 event feed (news articles its coders tag as protests, every 15 minutes, worldwide) plus RSS feeds from newsrooms in India, Europe, Ukraine, Russia, the Middle East, the US, Canada, Australia, New Zealand and Japan (GDELT misses most non-English reporting).'],
     ['Read', 'We open each article once and read it. Its text is used only in memory to judge and summarise. We never store or republish it.'],
     ['Judge', 'An AI classifier checks each article: is this a real, physical protest (not a diplomatic "protest", an opinion piece or an election rally), where did it happen, and is it new or part of one we already track?'],
     ['Place', 'The city is matched against the GeoNames gazetteer. Pins sit on the city centre, never on a street, venue or live route. If a place is ambiguous, we drop it rather than guess.'],
@@ -119,7 +119,7 @@ const hi = (R: R): HowContent => ({
   intro: 'LOUD एक निष्पक्ष प्रोटेस्ट ट्रैकर है। डिज़ाइन मज़ेदार है, तथ्य नहीं। हम किसी का पक्ष नहीं लेते, विशेषण नहीं जोड़ते, और हर पंक्ति का स्रोत दिखाते हैं। अभी हम {countries} में <strong>{n}</strong> प्रदर्शन ट्रैक कर रहे हैं।',
   pipelineH: 'ख़बर से कार्ड तक, हर 3 घंटे में',
   steps: [
-    ['सुनना', 'हर 3 घंटे में हम GDELT 2.0 इवेंट फ़ीड (दुनिया भर की वे ख़बरें जिन्हें हर 15 मिनट में प्रदर्शन के रूप में टैग किया जाता है) और भारत, यूरोप, यूक्रेन, रूस, मध्य-पूर्व, अमेरिका, कनाडा, ऑस्ट्रेलिया और न्यूज़ीलैंड के न्यूज़रूम की RSS फ़ीड लेते हैं (GDELT ज़्यादातर गैर-अंग्रेज़ी ख़बरें नहीं पकड़ता)।'],
+    ['सुनना', 'हर 3 घंटे में हम GDELT 2.0 इवेंट फ़ीड (दुनिया भर की वे ख़बरें जिन्हें हर 15 मिनट में प्रदर्शन के रूप में टैग किया जाता है) और भारत, यूरोप, यूक्रेन, रूस, मध्य-पूर्व, अमेरिका, कनाडा, ऑस्ट्रेलिया, न्यूज़ीलैंड और जापान के न्यूज़रूम की RSS फ़ीड लेते हैं (GDELT ज़्यादातर गैर-अंग्रेज़ी ख़बरें नहीं पकड़ता)।'],
     ['पढ़ना', 'हर लेख को एक बार खोलकर पढ़ते हैं। उसका पाठ सिर्फ़ जाँचने और सारांश बनाने के लिए मेमोरी में इस्तेमाल होता है। हम उसे न सेव करते हैं, न दोबारा छापते हैं।'],
     ['परखना', 'एक AI हर लेख जाँचता है: क्या यह असली, ज़मीनी प्रदर्शन है (कूटनीतिक "विरोध", राय वाला लेख या चुनावी रैली नहीं), कहाँ हुआ, और क्या यह नया है या पहले से ट्रैक किए जा रहे किसी प्रदर्शन का हिस्सा?'],
     ['जगह', 'शहर का मिलान GeoNames से होता है। पिन शहर के बीच में लगते हैं, कभी किसी गली, जगह या चलते रास्ते पर नहीं। जगह साफ़ न हो तो हम अंदाज़ा लगाने के बजाय उसे छोड़ देते हैं।'],
@@ -188,7 +188,7 @@ const mr = (R: R): HowContent => ({
   intro: 'LOUD हा एक निःपक्ष आंदोलन ट्रॅकर आहे. डिझाइन मजेशीर आहे, माहिती नाही. आम्ही कोणाची बाजू घेत नाही, विशेषणे जोडत नाही, आणि प्रत्येक ओळ कुठून आली ते दाखवतो. सध्या आम्ही {countries} मधील <strong>{n}</strong> आंदोलनांचा मागोवा घेत आहोत.',
   pipelineH: 'बातमीपासून कार्डपर्यंत, दर 3 तासांनी',
   steps: [
-    ['ऐकणे', 'दर 3 तासांनी आम्ही GDELT 2.0 इव्हेंट फीड (जगभरातील बातम्या ज्या दर 15 मिनिटांनी आंदोलन म्हणून टॅग होतात) आणि भारत, युरोप, युक्रेन, रशिया, मध्यपूर्व, अमेरिका, कॅनडा, ऑस्ट्रेलिया आणि न्यूझीलंडमधील न्यूजरूमच्या RSS फीड घेतो (GDELT बहुतेक इंग्रजीतर बातम्या पकडत नाही).'],
+    ['ऐकणे', 'दर 3 तासांनी आम्ही GDELT 2.0 इव्हेंट फीड (जगभरातील बातम्या ज्या दर 15 मिनिटांनी आंदोलन म्हणून टॅग होतात) आणि भारत, युरोप, युक्रेन, रशिया, मध्यपूर्व, अमेरिका, कॅनडा, ऑस्ट्रेलिया, न्यूझीलंड आणि जपानमधील न्यूजरूमच्या RSS फीड घेतो (GDELT बहुतेक इंग्रजीतर बातम्या पकडत नाही).'],
     ['वाचणे', 'प्रत्येक लेख एकदा उघडून वाचतो. त्याचा मजकूर फक्त तपासणी आणि सारांशासाठी मेमरीत वापरला जातो. आम्ही तो साठवत नाही आणि पुन्हा प्रसिद्ध करत नाही.'],
     ['पारखणे', 'एक AI प्रत्येक लेख तपासतो: हे खरे, प्रत्यक्ष आंदोलन आहे का (राजनैतिक "निषेध", मत मांडणारा लेख किंवा निवडणूक सभा नाही), ते कुठे घडले, आणि ते नवे आहे की आधीपासून मागोवा घेत असलेल्या आंदोलनाचा भाग?'],
     ['ठिकाण', 'शहराची जुळवणी GeoNames शी होते. पिन शहराच्या मध्यावर असतात, कधीच रस्ता, जागा किंवा चालू मार्गावर नाही. ठिकाण स्पष्ट नसेल तर अंदाज लावण्याऐवजी आम्ही ते सोडून देतो.'],
@@ -257,7 +257,7 @@ const es = (R: R): HowContent => ({
   intro: 'LOUD es un rastreador de protestas neutral. El diseño es divertido; los hechos, no. No tomamos partido, no añadimos adjetivos y te mostramos de dónde sale cada línea. Ahora mismo seguimos <strong>{n}</strong> protestas en {countries}.',
   pipelineH: 'Del titular a la tarjeta, cada 3 horas',
   steps: [
-    ['Escuchar', 'Cada 3 horas recogemos el feed de eventos GDELT 2.0 (noticias de todo el mundo que se etiquetan como protestas cada 15 minutos) y los feeds RSS de redacciones de la India, Europa, Ucrania, Rusia, Oriente Medio, EE. UU., Canadá, Australia y Nueva Zelanda (GDELT no ve la mayoría de las noticias que no están en inglés).'],
+    ['Escuchar', 'Cada 3 horas recogemos el feed de eventos GDELT 2.0 (noticias de todo el mundo que se etiquetan como protestas cada 15 minutos) y los feeds RSS de redacciones de la India, Europa, Ucrania, Rusia, Oriente Medio, EE. UU., Canadá, Australia, Nueva Zelanda y Japón (GDELT no ve la mayoría de las noticias que no están en inglés).'],
     ['Leer', 'Abrimos y leemos cada artículo una vez. Su texto solo se usa en memoria para evaluar y resumir. Nunca lo guardamos ni lo republicamos.'],
     ['Evaluar', 'Un clasificador de IA revisa cada artículo: ¿es una protesta real y física (no una "protesta" diplomática, un artículo de opinión o un mitin electoral)?, ¿dónde ocurrió? y ¿es nueva o parte de una que ya seguimos?'],
     ['Ubicar', 'La ciudad se busca en el nomenclátor GeoNames. Los pines van en el centro de la ciudad, nunca en una calle, un local o un recorrido en directo. Si un lugar es ambiguo, lo descartamos en vez de adivinar.'],
@@ -326,7 +326,7 @@ const fr = (R: R): HowContent => ({
   intro: 'LOUD est un suivi neutre des manifestations. Le design est fun ; les faits, non. On ne prend pas parti, on n’ajoute pas d’adjectifs, et on te montre d’où vient chaque ligne. En ce moment, on suit <strong>{n}</strong> manifestations dans ces pays : {countries}.',
   pipelineH: 'Du titre à la carte, toutes les 3 heures',
   steps: [
-    ['Écouter', 'Toutes les 3 heures, on récupère le flux d’événements GDELT 2.0 (des articles du monde entier étiquetés comme manifestations toutes les 15 minutes) et les flux RSS de rédactions en Inde, en Europe, en Ukraine, en Russie, au Moyen-Orient, aux États-Unis, au Canada, en Australie et en Nouvelle-Zélande (GDELT rate l’essentiel de l’info qui n’est pas en anglais).'],
+    ['Écouter', 'Toutes les 3 heures, on récupère le flux d’événements GDELT 2.0 (des articles du monde entier étiquetés comme manifestations toutes les 15 minutes) et les flux RSS de rédactions en Inde, en Europe, en Ukraine, en Russie, au Moyen-Orient, aux États-Unis, au Canada, en Australie, en Nouvelle-Zélande et au Japon (GDELT rate l’essentiel de l’info qui n’est pas en anglais).'],
     ['Lire', 'On ouvre et on lit chaque article une fois. Son texte sert seulement en mémoire, pour juger et résumer. On ne le stocke jamais et on ne le republie jamais.'],
     ['Juger', 'Une IA vérifie chaque article : s’agit-il d’une vraie manifestation physique (pas d’une « protestation » diplomatique, d’une tribune ou d’un meeting électoral) ? Où a-t-elle eu lieu ? Est-elle nouvelle ou fait-elle partie d’une manifestation déjà suivie ?'],
     ['Localiser', 'La ville est recherchée dans le répertoire GeoNames. Les épingles sont au centre-ville, jamais sur une rue, un lieu ou un parcours en direct. Si un lieu est ambigu, on l’écarte plutôt que de deviner.'],
@@ -395,7 +395,7 @@ const de = (R: R): HowContent => ({
   intro: 'LOUD ist ein neutraler Protest-Tracker. Das Design ist verspielt, die Fakten sind es nicht. Wir ergreifen keine Partei, fügen keine Adjektive hinzu und zeigen dir, woher jede Zeile kommt. Gerade verfolgen wir <strong>{n}</strong> Proteste in diesen Ländern: {countries}.',
   pipelineH: 'Von der Schlagzeile zur Karte, alle 3 Stunden',
   steps: [
-    ['Zuhören', 'Alle 3 Stunden holen wir den GDELT-2.0-Ereignisfeed (Nachrichten aus aller Welt, die alle 15 Minuten als Proteste markiert werden) und die RSS-Feeds von Redaktionen in Indien, Europa, der Ukraine, Russland, dem Nahen Osten, den USA, Kanada, Australien und Neuseeland (GDELT erfasst die meisten nicht-englischen Berichte nicht).'],
+    ['Zuhören', 'Alle 3 Stunden holen wir den GDELT-2.0-Ereignisfeed (Nachrichten aus aller Welt, die alle 15 Minuten als Proteste markiert werden) und die RSS-Feeds von Redaktionen in Indien, Europa, der Ukraine, Russland, dem Nahen Osten, den USA, Kanada, Australien, Neuseeland und Japan (GDELT erfasst die meisten nicht-englischen Berichte nicht).'],
     ['Lesen', 'Wir öffnen und lesen jeden Artikel einmal. Sein Text wird nur im Arbeitsspeicher zum Bewerten und Zusammenfassen genutzt. Wir speichern ihn nie und veröffentlichen ihn nie erneut.'],
     ['Bewerten', 'Eine KI prüft jeden Artikel: Ist das ein echter Protest vor Ort (kein diplomatischer „Protest“, kein Meinungsbeitrag, keine Wahlkampfveranstaltung)? Wo fand er statt? Ist er neu oder gehört er zu einem, den wir schon verfolgen?'],
     ['Verorten', 'Die Stadt wird im GeoNames-Ortsverzeichnis gesucht. Markierungen liegen im Stadtzentrum, nie auf einer Straße, an einem Ort oder auf einer Live-Route. Ist ein Ort unklar, lassen wir ihn weg, statt zu raten.'],

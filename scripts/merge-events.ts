@@ -17,7 +17,9 @@ const keep = events.get(keepId);
 const drop = events.get(dropId);
 if (!keep || !drop) throw new Error(`unknown event: ${!keep ? keepId : dropId}`);
 if (keep.mergedInto) throw new Error(`${keepId} is itself merged into ${keep.mergedInto}`);
-if (keep.place.country !== drop.place.country || keep.place.citySlug !== drop.place.citySlug) {
+// A one-source candidate never had a page, so it may join a nationwide story pinned elsewhere
+// (Gen Z demos announced city by city, Oct 2026); a published duplicate must be in the same city.
+if (drop.slug && (keep.place.country !== drop.place.country || keep.place.citySlug !== drop.place.citySlug)) {
   throw new Error('events are in different cities (one page per city)');
 }
 

@@ -23,13 +23,13 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
+ "review": "approved",
  "reviewReasons": [
   "low-confidence",
   "sources-disagree"
  ],
  "isOngoing": false,
- "published": false,
+ "published": true,
  "tea": {
   "why": "Protesters opposed planned university funding levels and cuts in education spending under the government's 2028–2030 budget.",
   "want": "Demonstrators demanded that the federal government increase the university budget to close the funding gap and provide adequate resources.",
@@ -55,9 +55,7 @@
    "text": "Around 50,000 people took to the streets, according to the student union, while police stated at least 30,000 people…",
    "sources": [
     1,
-    2,
-    3,
-    4
+    2
    ]
   }
  },
@@ -67,9 +65,7 @@
    "text": "Thousands of protesters gathered in Vienna for a major demonstration against university funding levels.",
    "sources": [
     1,
-    2,
-    3,
-    4
+    2
    ]
   }
  ],
@@ -87,26 +83,13 @@
    "publisher": "thelocal.at",
    "title": "Today in Austria: A roundup of the latest news on Friday",
    "publishedAt": "2026-10-23T08:06:46.000Z"
-  },
-  {
-   "n": 3,
-   "url": "https://www.presstv.co.uk/Detail/2026/10/23/778988/-Hard-to-comprehend---Austrian-students-march-against-university-funding-cuts",
-   "publisher": "presstv.co.uk",
-   "title": "Hard to comprehend: Austrian students march against university funding cuts"
-  },
-  {
-   "n": 4,
-   "url": "https://www.wsws.org/en/articles/2026/10/28/zpse-o28.html",
-   "publisher": "wsws.org",
-   "title": "“No future without universities”: Student protests in Vienna",
-   "publishedAt": "2026-10-28T22:36:08.000Z"
   }
  ],
  "conflicts": [
   "The student union estimated the crowd at around 50,000, while police reported at least 30,000 attendees."
  ],
  "confidence": 0.71,
- "publishers": 4,
+ "publishers": 2,
  "reports24h": 0,
  "reportsPrev24h": 0,
  "reports48h": 0,
@@ -122,5 +105,9 @@
  "seriousInjuries": false,
  "sensitive": false,
  "summarizedAt": "2026-10-29T01:02:18.390Z",
- "summaryOf": "60b9768391df"
+ "approvedFor": [
+  "low-confidence",
+  "sources-disagree"
+ ],
+ "publishedAt": "2026-10-31T03:29:48.922Z"
 }

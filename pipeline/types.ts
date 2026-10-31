@@ -10,7 +10,7 @@ export type Scope = 'local' | 'multi-city' | 'nationwide';
 export interface Article {
   url: string;
   publisher: string; // registrable-ish host, e.g. thehindu.com
-  via: 'gdelt' | 'rss' | 'search'; // search = found looking for a second newsroom (corroborate.ts)
+  via: 'gdelt' | 'rss' | 'search' | 'owner'; // search = found looking for a second newsroom (corroborate.ts); owner = scripts/add-leads.ts
   firstSeenAt: string; // ISO — when the pipeline first saw it
   title?: string;
   description?: string;

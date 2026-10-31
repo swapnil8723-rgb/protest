@@ -1,4 +1,4 @@
-// Publisher RSS fills gaps GDELT misses: Indian city news, US/UK/Australian local news, the European press that
+// Publisher RSS fills gaps GDELT misses: Indian city news, US/UK/Australian local news, Japan, the European press that
 // GDELT's English-only export never sees, and Ukraine/Russia outlets. Items only enter the pipeline if
 // their headline/summary uses protest vocabulary. Only feeds whose articles we can fetch
 // (Le Monde 402, Libération 403, NYT 403 were tried and dropped, Oct 2026).
@@ -106,6 +106,12 @@ export const FEEDS = [
   'https://www.theage.com.au/rss/feed.xml',
   'https://www.rnz.co.nz/rss/national.xml',
   'https://www.nzherald.co.nz/arc/outboundfeeds/rss/curated/78/?outputType=xml',
+  // Japan (added 31 Oct 2026; Japan Times and Kyodo refuse us, NHK's feeds are stale; Asahi and
+  // Mainichi serve only an opening paragraph, enough to classify and to count as a newsroom)
+  'https://www.theguardian.com/world/japan/rss',
+  'https://www.arabnews.jp/en/feed/',
+  'https://mainichi.jp/rss/etc/english_latest.rss',
+  'https://www.asahi.com/rss/asahi/national.rdf',
   // Middle East & North Africa: Israeli, Arab and international newsrooms side by side
   // (Times of Israel, IranWire, Al Arabiya, Morocco World News refuse us; JPost's feed is stale)
   'https://www.theguardian.com/world/middleeast/rss',

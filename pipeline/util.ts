@@ -65,6 +65,8 @@ const BLOCKED_PUBLISHERS = new Set([
   // (amren.com was the only other source on a US card, Oct 2026; Google weighs the sources a news site cites)
   'amren.com', 'vdare.com', 'thegatewaypundit.com', 'infowars.com', 'naturalnews.com', 'zerohedge.com',
   'rt.com', 'sputnikglobe.com', 'sputniknews.com', 'globalresearch.ca', 'mintpressnews.com',
+  // Iranian state TV and party papers (two of the four sources on the Vienna card, Oct 2026)
+  'presstv.ir', 'presstv.co.uk', 'presstv.com', 'wsws.org', 'marxist.com',
 ]);
 
 export function hostOf(url: string): string {
@@ -157,6 +159,8 @@ export const PROTEST_WORDS = new RegExp(
     // fr / es / de / nl / id
     'manifest', 'grève', 'greve', 'mobilisation', 'huelga', 'protesta', 'concentraci', 'kundgebung', 'streik',
     'demo\\b', 'betoging', 'stakingen', 'staakt', 'unjuk rasa', 'demonstrasi', 'aksi massa', 'mogok',
+    // ja (no \b: word boundaries don't work in Japanese script)
+    'デモ', '抗議集会', '抗議活動', '集会', 'ストライキ', '座り込み',
   ].join('|'),
   'i',
 );

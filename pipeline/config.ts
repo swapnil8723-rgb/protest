@@ -76,6 +76,8 @@ export const COUNTRIES: Country[] = [
   // Oceania (added Oct 2026: English-speaking, ~94% Google share, big regular rallies)
   { iso: 'au', fips: 'AS', name: 'Australia', slug: 'australia', tz: 'Australia/Sydney' },
   { iso: 'nz', fips: 'NZ', name: 'New Zealand', slug: 'new-zealand', tz: 'Pacific/Auckland' },
+  // East Asia (added 31 Oct 2026, owner's request)
+  { iso: 'jp', fips: 'JA', name: 'Japan', slug: 'japan', tz: 'Asia/Tokyo' },
 ];
 
 /** Region hubs (/region/<slug>): countries grouped for "protests in Europe today". */
