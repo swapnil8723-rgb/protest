@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-10-31",
-  "count": 52
+  "count": 77
  },
  "runs": [
-  {
-   "at": "2026-10-24T23:19:02.787Z",
-   "ms": 146219,
-   "discovered": 31,
-   "fetched": 30,
-   "classified": 25,
-   "protests": 11,
-   "summarized": 3,
-   "published": 141,
-   "live": 13,
-   "aiCalls": 9,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 9 files, 26 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 229 protest-word items",
-    "fetch: 30 ok, 1 failed",
-    "classify: new candidate eada1844f6c \"Students march against rape culture and for rights\" (Charleston)",
-    "classify: new candidate e88c6ffff60 \"Youths riot and loot in Barcelona\" (Barcelona)",
-    "classify: new candidate e753d0ad86c \"Protesters clash with police in Turin\" (Turin)",
-    "classify: new candidate ed92547b74b \"Anti-racism march held in Sheffield\" (Sheffield)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-25T04:23:39.064Z",
    "ms": 442563,
@@ -1561,8 +1535,37 @@
     "translate: 17 events"
    ],
    "translated": 17
+  },
+  {
+   "at": "2026-10-31T05:51:04.515Z",
+   "ms": 306189,
+   "discovered": 48,
+   "fetched": 40,
+   "classified": 38,
+   "protests": 19,
+   "summarized": 10,
+   "published": 287,
+   "live": 16,
+   "aiCalls": 25,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261031054500 http://data.gdeltproject.org/gdeltv2/20261031054500.export.CSV.zip → 404",
+    "gdelt: 9 files, 19 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 242 protest-word items",
+    "search: 15 single-source stories checked (1 in their own language), 20 other newsrooms found",
+    "fetch: 40 ok, 8 failed",
+    "classify: new candidate ecde5b17de4 \"Destiny Church supporters rally near Diwali festival and march in Auckland\" (Auckland)",
+    "classify: new candidate e9179e54683 \"Activists and lawmakers rally in Honolulu against federal climate bills\" (Honolulu)",
+    "classify: new candidate ea6d65ba8b9 \"Journalists protest in Kathmandu against media raids and arrests\" (Kathmandu)",
+    "classify: new candidate ec5b41e2bdf \"Ikea workers strike in Auckland over weekend pay rates\" (Auckland)",
+    "summary: e8ff27a2c4f only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 10 events"
+   ],
+   "translated": 10
   }
  ],
- "gdeltCursor": "20261031034500",
- "lastRunAt": "2026-10-31T03:46:33.385Z"
+ "gdeltCursor": "20261031060000",
+ "lastRunAt": "2026-10-31T05:51:04.515Z"
 }
