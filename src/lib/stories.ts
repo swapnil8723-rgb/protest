@@ -19,6 +19,7 @@ export interface Story {
   topic: (typeof TOPICS)[number];
   countries: string[]; // ISO codes, any country (not only tracked ones)
   status: 'developing' | 'settled';
+  serious?: boolean; // deaths or serious harm: Serious Mode styling, no jokes near it
   startedOn: string; // YYYY-MM-DD
   dek: string; // one line: what is going on
   happened: string;

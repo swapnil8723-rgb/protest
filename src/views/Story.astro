@@ -49,21 +49,21 @@ const article = {
 
     <header class="mt-4 max-w-4xl">
       <div class="flex flex-wrap items-center gap-2">
-        <span class="sticker s-story">{t('big.label')} · {s.status === 'developing' ? t('big.developing') : t('big.settled')}</span>
-        <span class="sticker s-not-protest">{t('big.sticker')}</span>
+        <span class:list={['sticker', s.serious ? 's-tense' : 's-story']}>{t('big.label')} · {s.status === 'developing' ? t('big.developing') : t('big.settled')}</span>
+        <span class:list={['sticker', s.serious ? 's-tense' : 's-not-protest']}>{t('big.sticker')}</span>
         <span class="cause">{t(`big.topic.${s.topic}` as 'big.topic.sport')}</span>
       </div>
       <h1 class="mt-4 text-[34px] sm:text-[52px] lg:text-[60px]">{s.title}</h1>
       <p class="mt-3 text-[15px] font-semibold text-muted">{placeNames(s, lang)} · {t('card.since', { date })}</p>
     </header>
 
-    <p class="mt-6 max-w-4xl rounded-[18px] border-[3px] border-violet bg-surface p-4 text-[15px] leading-snug sm:text-[16px]">
-      <strong class="font-bold">{t('big.banner')}</strong> {t('big.bannerText')}
+    <p class:list={['mt-6 max-w-4xl rounded-[18px] p-4 text-[15px] leading-snug sm:text-[16px]', s.serious ? 'serious-surface' : 'border-[3px] border-violet bg-surface']}>
+      {!s.serious && <strong class="font-bold">{t('big.banner')}</strong>} {t('big.bannerText')}
     </p>
 
     <div class="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-10">
       <div class="grid min-w-0 content-start gap-8">
-        <section aria-labelledby="happened" class="card v-story p-5 sm:p-6">
+        <section aria-labelledby="happened" class:list={['card p-5 sm:p-6', s.serious ? 'serious' : 'v-story']}>
           <h2 id="happened" class="display text-[26px]">{t('big.happened')}</h2>
           <p class="mt-3 text-[17px] leading-[1.6] sm:text-[18px]">{s.happened}<Ref n={s.happenedSources} /></p>
         </section>

@@ -97,9 +97,12 @@ UNCLEAR is never shown (unclear events are not published). Under it, mono line: 
 **Timeline** — chat-bubble style, left-aligned bubbles with a mono timestamp and the source number as a superscript chip.
 
 **Big Story** (news, not a protest; owner decision 31 Oct 2026) — violet is its colour because no vibe uses it.
-Home band: `--violet` fill, white text (5.7:1), 3px black border, hard black shadow (yellow in dark mode), and a
-yellow "NOT A PROTEST" sticker tilted −3°. Story card: normal sticker card with a violet shadow, a violet
-"STORY · DEVELOPING" sticker (white text) and a topic chip; never a vibe sticker or volume meter, which measure protests.
+Home: kept smaller than the protest sections (owner, 31 Oct 2026) — a slim band (`--violet` fill, white text 5.7:1,
+3px black border, 4px hard shadow, yellow in dark mode; h2 24–28px beside a yellow "NOT A PROTEST" sticker tilted −3°,
+one line of text, no joke) over up to 6 compact headline rows (`StoryCard compact`: sticker, places, title, meta).
+Full story card elsewhere: sticker card with a violet shadow, a violet "STORY · DEVELOPING" sticker (white text) and a
+topic chip; never a vibe sticker or volume meter, which measure protests. A story about deaths (`serious: true`) uses
+Serious Mode exactly like a protest card: grey, red border and label, no tilt, no "Still loud" line.
 Story page: the same Receipts panel; What happened · Who's saying what · What's next, each line with source chips.
 
 **Globe** — canvas, orthographic, India-official boundaries (Natural Earth "IND" point of view). Land `--surface-2`,
