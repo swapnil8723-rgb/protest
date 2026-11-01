@@ -1,51 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-01",
-  "count": 186
+  "count": 230
  },
  "runs": [
-  {
-   "at": "2026-10-26T11:49:09.749Z",
-   "ms": 674582,
-   "discovered": 189,
-   "fetched": 177,
-   "classified": 158,
-   "protests": 63,
-   "summarized": 19,
-   "published": 179,
-   "live": 13,
-   "aiCalls": 55,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 16 files, 86 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 244 protest-word items",
-    "search: 7 single-source stories checked, 1 other newsrooms found",
-    "fetch: 177 ok, 12 failed",
-    "classify: new candidate e9f2d37ec09 \"Demonstration against deportations at BER airport\" (Schönefeld)",
-    "classify: new candidate ec6cbc5fcc1 \"Protest in Berlin against police raid on queer center\" (Berlin)",
-    "classify: new candidate ef5d658cb80 \"Demonstration in Hamburg against healthcare cuts\" (Hamburg)",
-    "classify: new candidate e342386bc21 \"Gosport Patriots anti-migrant march near immigration removal centre\" (Gosport)",
-    "classify: new candidate e9bad38906c \"Protesters demonstrate outside Liberty Mutual headquarters in Boston\" (Boston)",
-    "classify: new candidate ea899d4f6f9 \"LDF opposition stages walkout over SMA drug policy\" (Thiruvananthapuram)",
-    "classify: new candidate e293a63e4da \"Opposition alliance launches protest march in Tbilisi\" (Tbilisi)",
-    "classify: new candidate e717506df8d \"No Kings movement holds early voting rally in Princeton\" (Princeton)",
-    "classify: new candidate ef5ba2a292c \"Goldsmiths students protest tutor strikes over job cuts\" (London)",
-    "classify: new candidate efffe156e22 \"BJP stages protest in Bengaluru over Kharge remarks\" (Bengaluru)",
-    "classify: new candidate e9e85bc2f9c \"Azerbaijan students launch school strike over hijab restrictions\" (Baku)",
-    "classify: new candidate e041fc95148 \"French unions and groups demand further rallies\" (Paris)",
-    "classify: new candidate e4f56d9cc06 \"European students and housing campaigners protest costs\" (Lisbon)",
-    "classify: new candidate eb3b9928df1 \"NHS consultants announce strike in England\" (London)",
-    "classify: new candidate e6116fc5e01 \"BJP launches foot marches to counter opposition rally\" (Delhi)",
-    "classify: new candidate e44eaa5c5f3 \"Lower Ormeau Road residents apply for protest against Apprentice Boys march\" (Belfast)",
-    "classify: new candidate e767a7e1562 \"Thanjavur sanitation workers drop strike after agreement with civic body\" (Thanjavur)",
-    "classify: new candidate e8b3039cdd9 \"DMK Women's Wing announces statewide protest over law and order\" (Chennai)",
-    "summary: ec21186035b only 1 independent publisher(s) on-story — not applied",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 21 events"
-   ],
-   "translated": 21
-  },
   {
    "at": "2026-10-26T16:16:27.039Z",
    "ms": 785479,
@@ -1607,8 +1565,39 @@
     "translate: 25 events"
    ],
    "translated": 25
+  },
+  {
+   "at": "2026-11-01T19:44:09.486Z",
+   "ms": 427742,
+   "discovered": 89,
+   "fetched": 82,
+   "classified": 75,
+   "protests": 49,
+   "summarized": 20,
+   "published": 320,
+   "live": 15,
+   "aiCalls": 44,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 31 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss bianet.org: 403",
+    "rss news.err.ee: 403",
+    "rss: 283 protest-word items",
+    "search: 25 single-source stories checked (7 in their own language), 29 other newsrooms found",
+    "fetch: 82 ok, 7 failed",
+    "classify: new candidate e9b483b62f8 \"Protesters gather in Belfort against cost of living\" (Belfort)",
+    "classify: new candidate e2a062cbadc \"Riots and protests sweep European cities\" (Hamburg)",
+    "classify: new candidate e8cd6ea7b1f \"Protests sweep across European cities over living costs and housing\" (Madrid)",
+    "classify: new candidate e48ac0da14d \"Brigham nurses schedule strike over contract dispute\" (Boston)",
+    "classify: new candidate e64528d50d9 \"TASMAC workers protest bottle-return workload across Tamil Nadu\" (Chennai)",
+    "classify: new candidate e92045d8426 \"Protest in Jakarta against Andrea Bocelli concert over Israel support\" (Jakarta)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 17 events"
+   ],
+   "translated": 17
   }
  ],
- "gdeltCursor": "20261101170000",
- "lastRunAt": "2026-11-01T16:50:29.544Z"
+ "gdeltCursor": "20261101194500",
+ "lastRunAt": "2026-11-01T19:44:09.486Z"
 }
