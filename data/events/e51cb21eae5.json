@@ -1,9 +1,9 @@
 {
  "id": "e51cb21eae5",
- "slug": "",
- "stage": "candidate",
- "title": "Protesters and police clash in Lisbon and Porto",
- "seoTitle": "",
+ "slug": "lisbon-housing-protest-clashes-oct-2026",
+ "stage": "live",
+ "title": "Police and housing protesters clash in Lisbon and Porto",
+ "seoTitle": "Lisbon housing protest clashes",
  "place": {
   "city": "Lisbon",
   "region": "Lisbon",
@@ -13,39 +13,103 @@
   "citySlug": "lisbon",
   "regionSlug": "lisbon"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
-  "police"
+  "housing",
+  "prices"
  ],
- "kind": "one-day",
- "startedOn": "2026-11-01",
+ "kind": "multi-day",
+ "startedOn": "2026-10-31",
  "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "vibe": "tense",
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious",
+  "top-10",
+  "low-confidence"
+ ],
  "isOngoing": true,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Protesters marched against Portugal's deepening housing crisis and a contentious rental bill.",
+  "want": "Demonstrators called for the government to scrap plans to make evictions easier and end rent caps.",
+  "changed": "Nov 1: Police cleared protest camps in Lisbon and Porto, leading to clashes, arrests, and injuries."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
+ "summary": "Thousands of demonstrators participated in marches across Lisbon and Porto on Saturday to protest against surging housing costs and a controversial rental bill proposed by Portugal's minority center-right government. Following the marches, participants set up protest camps in Lisbon's Rossio Square and Porto's Dom Joao I Square. Early Sunday morning, dozens of police officers used shields and batons to clear the camps after demonstrators refused orders to disperse. Authorities reported that several officers and civilians were injured, and multiple individuals were arrested. Activist groups criticized the police response as excessive and announced a fresh rally in the capital on Sunday afternoon. Prime Minister Luis Montenegro has declined to withdraw the legislation, though potential modifications remain under consideration.",
+ "organizers": [
+  "Acampada Lisboa"
+ ],
+ "demands": [
+  "Scrap plans that make evictions easier",
+  "End rent caps on new leases"
+ ],
+ "response": "According to police statements, officers intervened to dismantle unauthorized camps after participants refused dispersal orders. The Prime Minister stated the bill would not be withdrawn, though modifications remain possible. Activists and a defense lawyer criticized the police action as excessive.",
+ "numbers": {
+  "arrests": {
+   "value": 13,
+   "text": "Six people were arrested in Lisbon and seven in Porto",
+   "sources": [
+    1
+   ]
+  },
+  "injuries": {
+   "value": 13,
+   "text": "13 police were injured as they tried to take down the camps, with eight taken to hospital, and an unspecified number…",
+   "sources": [
+    1
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-11-01",
+   "text": "Police cleared housing protest camps in Lisbon and Porto early Sunday morning, resulting in clashes.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
+   "at": "2026-11-01",
+   "text": "Activist group Acampada Lisboa announced a fresh rally in the capital for Sunday afternoon following the police operation.",
+   "sources": [
+    1
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.dw.com/en/portugal-police-storm-housing-protest-camps-in-lisbon-porto/a-79821643",
+   "publisher": "dw.com",
+   "title": "Clashes broke out in Portugal as police stormed housing protest camps in Lisbon and Porto",
+   "publishedAt": "2026-11-01T11:20:40.740Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.rtp.pt/noticias/pais/presidente-da-republica-ja-falou-com-primeiro-ministro-manifestantes-voltam-ao-rossio-esta-tarde_e1775987",
+   "publisher": "rtp.pt",
+   "title": "Presidente da República já falou com primeiro-ministro. Manifestantes voltam ao Rossio esta tarde",
+   "publishedAt": "2026-11-01T11:56:07.000Z"
+  }
+ ],
  "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
+ "confidence": 0.75,
+ "publishers": 2,
+ "reports24h": 3,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 3,
  "firstSeenAt": "2026-11-01T09:14:08.801Z",
- "lastReportAt": "2026-11-01T09:14:08.801Z",
- "lastCheckedAt": "2026-11-01T09:14:08.801Z",
- "updatedAt": "2026-11-01T09:14:08.801Z"
+ "lastReportAt": "2026-11-01T11:56:07.000Z",
+ "lastCheckedAt": "2026-11-01T12:30:11.958Z",
+ "updatedAt": "2026-11-01T12:30:11.658Z",
+ "searchedAt": "2026-11-01T12:20:57.520Z",
+ "responseSources": [
+  1
+ ],
+ "seriousInjuries": true,
+ "sensitive": false,
+ "summarizedAt": "2026-11-01T12:30:11.658Z",
+ "summaryOf": "e01178d4433e"
 }

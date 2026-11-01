@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-01",
-  "count": 81
+  "count": 120
  },
  "runs": [
-  {
-   "at": "2026-10-26T04:53:52.000Z",
-   "ms": 323598,
-   "discovered": 56,
-   "fetched": 53,
-   "classified": 43,
-   "protests": 25,
-   "summarized": 14,
-   "published": 170,
-   "live": 14,
-   "aiCalls": 30,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 11 files, 36 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss balkaninsight.com: 500",
-    "rss: 196 protest-word items",
-    "search: 20 single-source stories checked, 19 other newsrooms found",
-    "fetch: 53 ok, 3 failed",
-    "classify: new candidate ec21186035b \"Protesters demand accountability following teen driver bail\" (Kochi)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 12 events"
-   ],
-   "translated": 12
-  },
   {
    "at": "2026-10-26T07:44:00.812Z",
    "ms": 331788,
@@ -1583,8 +1558,40 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-11-01T12:20:52.270Z",
+   "ms": 702215,
+   "discovered": 111,
+   "fetched": 101,
+   "classified": 88,
+   "protests": 61,
+   "summarized": 17,
+   "published": 313,
+   "live": 18,
+   "aiCalls": 39,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261101114500 http://data.gdeltproject.org/gdeltv2/20261101114500.export.CSV.zip → 404",
+    "gdelt: 20261101120000 http://data.gdeltproject.org/gdeltv2/20261101120000.export.CSV.zip → 404",
+    "gdelt: 20261101121500 http://data.gdeltproject.org/gdeltv2/20261101121500.export.CSV.zip → 404",
+    "gdelt: 20261101123000 http://data.gdeltproject.org/gdeltv2/20261101123000.export.CSV.zip → 404",
+    "gdelt: 13 files, 45 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 305 protest-word items",
+    "search: 25 single-source stories checked (9 in their own language), 30 other newsrooms found",
+    "fetch: 101 ok, 10 failed",
+    "classify: new candidate ef7e17064b2 \"Gen Z demonstration held in Hannover\" (Hannover)",
+    "classify: new candidate e07fa11b706 \"Gen Z youth protests in Nuremberg turn violent\" (Nuremberg)",
+    "classify: new candidate e3edf6e4ca8 \"Anti-immigration protesters and counter-demonstrators clash\" (Melbourne)",
+    "classify: new candidate eee13ec0db8 \"BJP holds Loktantra Bachao protest march in Shimla\" (Shimla)",
+    "classify: new candidate ef838a589d7 \"IG Metall launches warning strikes in Hildesheim\" (Hildesheim)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 14 events"
+   ],
+   "translated": 14
   }
  ],
- "gdeltCursor": "20261101091500",
- "lastRunAt": "2026-11-01T09:12:38.340Z"
+ "gdeltCursor": "20261101123000",
+ "lastRunAt": "2026-11-01T12:20:52.270Z"
 }
