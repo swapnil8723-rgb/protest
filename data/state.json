@@ -1,43 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-10-31",
-  "count": 303
+  "day": "2026-11-01",
+  "count": 34
  },
  "runs": [
-  {
-   "at": "2026-10-25T19:28:42.772Z",
-   "ms": 303150,
-   "discovered": 73,
-   "fetched": 68,
-   "classified": 62,
-   "protests": 31,
-   "summarized": 12,
-   "published": 166,
-   "live": 16,
-   "aiCalls": 29,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261025184500 http://data.gdeltproject.org/gdeltv2/20261025184500.export.CSV.zip → 404",
-    "gdelt: 20261025190000 http://data.gdeltproject.org/gdeltv2/20261025190000.export.CSV.zip → 404",
-    "gdelt: 20261025193000 http://data.gdeltproject.org/gdeltv2/20261025193000.export.CSV.zip → 404",
-    "gdelt: 12 files, 38 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss www.theportugalnews.com: 500",
-    "rss: 202 protest-word items",
-    "search: 6 single-source stories checked, 8 other newsrooms found",
-    "fetch: 68 ok, 5 failed",
-    "classify: new candidate e39b50a43f7 \"Lawyers protest demolition of chambers in Lucknow\" (Lucknow)",
-    "classify: new candidate e23a46b1767 \"Bus transport workers protest salary delays in Lucknow\" (Lucknow)",
-    "classify: new candidate ecc81f07b73 \"Students and activists protest in Mumbai over tribal school conditions\" (Mumbai)",
-    "classify: new candidate efd8be028b4 \"Candlelight vigil in Mumbai for IIT Bombay student\" (Mumbai)",
-    "classify: new candidate ed3d0f4e870 \"PCP leader criticises police action during Lisbon housing protests\" (Porto)",
-    "classify: new candidate ed7734df8ad \"BJP announces nationwide protests against Kharge's remarks\" (Delhi)",
-    "classify: new candidate e5ee4c13af8 \"Thousands protest Czech government public media funding overhaul\" (Prague)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 11 events"
-   ],
-   "translated": 11
-  },
   {
    "at": "2026-10-25T23:18:45.348Z",
    "ms": 307230,
@@ -1565,8 +1531,45 @@
     "translate: 18 events"
    ],
    "translated": 18
+  },
+  {
+   "at": "2026-11-01T03:50:28.898Z",
+   "ms": 343091,
+   "discovered": 117,
+   "fetched": 110,
+   "classified": 101,
+   "protests": 69,
+   "summarized": 13,
+   "published": 308,
+   "live": 21,
+   "aiCalls": 34,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20 files, 79 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 295 protest-word items",
+    "search: 25 single-source stories checked (7 in their own language), 22 other newsrooms found",
+    "fetch: 110 ok, 7 failed",
+    "classify: new candidate effaf61ab46 \"P&T apartment residents stage hunger strike over housing rehabilitation\" (Kochi)",
+    "classify: new candidate e2d7b4de788 \"Gen Z initiative holds nationwide demonstrations across Germany\" (Berlin)",
+    "classify: new candidate e6789ad3022 \"Female students protest hostel conditions and poor facilities in Ujjain\" (Ujjain)",
+    "classify: new candidate ef52b2b77ce \"Activists hold rally in Clarksville protesting Cornell rape case\" (Clarksville)",
+    "classify: new candidate eaa2ce34c7f \"Gen Z and cost-of-living protests spread from France to Germany\" (Berlin)",
+    "classify: new candidate efd66e87dbc \"IG Metall workers strike in German metal and electrical industry\" (Andernach)",
+    "classify: new candidate e17bd058a02 \"Gen Z protesters clash with police across German cities\" (Hamburg)",
+    "classify: new candidate ea03320b0bc \"Students and activists walk out in Boston against AI development\" (Boston)",
+    "classify: new candidate eb05346b5c1 \"Youth and student demonstrations spark violence and clashes across Europe\" (Berlin)",
+    "classify: new candidate efae18fdd7f \"Gen Z demonstrators rally across German cities against policies\" (Berlin)",
+    "classify: new candidate e48a2cba5df \"Gen Z youth demonstrations turn to evening riots in Germany\" (Köln)",
+    "classify: new candidate e7529fd48bb \"Unions rally at Vancouver airport against privatization plans\" (Vancouver)",
+    "classify: new candidate eef1aa411a4 \"Gen Z protesters and rioters demonstrate across German cities\" (Frankfurt am Main)",
+    "classify: new candidate ec54ef20253 \"Gen Z demonstrations and riots turn violent across Germany\" (Frankfurt am Main)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 12 events"
+   ],
+   "translated": 12
   }
  ],
- "gdeltCursor": "20261031230000",
- "lastRunAt": "2026-10-31T22:50:29.322Z"
+ "gdeltCursor": "20261101040000",
+ "lastRunAt": "2026-11-01T03:50:28.898Z"
 }
