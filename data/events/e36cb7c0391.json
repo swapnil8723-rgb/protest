@@ -3,7 +3,7 @@
  "slug": "paris-yellow-vests-protest-call-oct-2026",
  "stage": "live",
  "title": "Yellow Vests and Students Hold Nationwide Protests in France",
- "seoTitle": "Paris nationwide cost of living protest",
+ "seoTitle": "Paris nationwide protest against cost of living",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -16,45 +16,64 @@
  "scope": "nationwide",
  "causes": [
   "prices",
-  "education",
-  "governance"
+  "students",
+  "education"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-31",
  "status": "ended",
  "vibe": "wrapped-up",
- "severity": "normal",
+ "severity": "serious",
  "review": "pending",
  "reviewReasons": [
+  "serious",
+  "low-confidence",
   "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated against the rising cost of living, deteriorating school infrastructure, government spending policies, and authoritarian drift.",
-  "want": "They demanded better living costs, improved public services, better education funding, and the scrapping of the Parcoursup admissions system.",
-  "changed": "Oct 31: Interior Ministry reported 320,000 protesters nationwide and 70,000 in Paris, with police firing tear gas at Porte de Charenton."
+  "why": "Protesters are angry over the rising cost of living, inflation, fuel prices, and poor conditions in schools and public services.",
+  "want": "Demonstrators demand government action on living costs, increased educational resources, and the protection of public liberties.",
+  "changed": "Oct 31: Interior Minister Laurent Nuñez reported 565 arrests nationwide following clashes and a Molotov cocktail attack."
  },
- "summary": "On October 31, 2026, students, labor unions, and Yellow Vest activists staged a third consecutive weekend of nationwide protests in France, coinciding with Halloween. Demonstrations focused on the soaring cost of living, public services, and educational grievances such as the Parcoursup admissions platform. In Paris, after the Council of State upheld a ban on the traditional Bastille-to-Nation route, authorities permitted a march restricted to the city's outskirts from Porte de Bagnolet to Porte de Charenton. The Interior Ministry deployed 70,000 security personnel nationwide, utilizing armored vehicles and water cannons. While marches were largely calm initially, police eventually used tear gas near the end of the Paris protest following projectile throwing. Official estimates placed turnout at 320,000 nationwide and 70,000 in Paris, whereas youth union organizers estimated nearly 500,000 participants.",
+ "summary": "On October 31, 2026, students, labor unions, and Yellow Vest activists staged a third consecutive weekend of nationwide demonstrations across France, focusing on living costs, inflation, education, and public services. In Paris, marches were redirected by authorities to the city's edges, such as between Porte de Charenton and Porte de Bagnolet, to protect central areas after previous weeks of rioting. The demonstrations brought together diverse groups including high schoolers, climate activists, and trade unionists. While much of the daytime march was largely peaceful, scuffles and tensions erupted at dispersal points in Paris, Lyon, Toulouse, and other cities, with police deploying tear gas and facing projectiles. Interior Minister Laurent Nuñez reported that 70,000 security personnel were deployed nationwide, and condemned a Molotov cocktail attack against a gendarme near Paris as attempted murder. Authorities reported 320,000 participants nationwide and 565 arrests by Saturday evening, while organizers estimated turnout reached nearly 500,000.",
  "organizers": [
-  "Yellow Vests",
-  "UNEF",
-  "Intersyndicale de la jeunesse"
+  "CGT",
+  "FO",
+  "FSU",
+  "Solidaires",
+  "Fage",
+  "Union étudiante"
  ],
  "demands": [
-  "Better measures to address the rising cost of living",
-  "Increased investment in schools and public services",
-  "Removal of the Parcoursup university admissions platform",
-  "Defense of public liberties against government authoritarian drift"
+  "Lower living costs and fuel prices",
+  "Better resources for schools and universities",
+  "Defense of public liberties and the right to protest",
+  "Improved public services"
  ],
- "response": "The Interior Ministry deployed 70,000 police officers and gendarmes nationwide, along with armored vehicles and water cannons. Interior Minister Laurent Nuñez banned demonstrations in city centres due to high disorder risks, and police used tear gas during dispersal at Porte de Charenton in Paris.",
+ "response": "Interior Minister Laurent Nuñez deployed 70,000 police and gendarmes, restricted marches from city centers, and reported 565 arrests nationwide by Saturday evening after clashes and a Molotov cocktail attack on security forces.",
  "numbers": {
   "crowd": {
    "value": 320000,
-   "text": "320,000 people turned out for the demonstrations on Saturday according to the French government",
+   "text": "320,000 demonstrators across France, including 70,000 in Paris, according to the Interior Ministry",
    "sources": [
-    7,
     8,
+    10
+   ]
+  },
+  "arrests": {
+   "value": 565,
+   "text": "565 people had been arrested nationwide by Saturday night",
+   "sources": [
+    8,
+    9
+   ]
+  },
+  "injuries": {
+   "value": 5,
+   "text": "five members of the security forces (four police officers and one gendarme) were injured in Paris",
+   "sources": [
     9
    ]
   }
@@ -62,38 +81,56 @@
  "updates": [
   {
    "at": "2026-10-24",
-   "text": "Yellow Vests announced a new day of mobilization for October 31 to defend public liberties.",
+   "text": "The coordination of Yellow Vests announced a nationwide mobilization for October 31 to defend public liberties.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-29",
-   "text": "Interior Minister Laurent Nunez announced the deployment of 70,000 police officers and restricted routes.",
+   "text": "Seven trade unions and student organizations challenged the police prefecture's route restrictions in court.",
    "sources": [
     2
    ]
   },
   {
    "at": "2026-10-30",
-   "text": "Shops and businesses in Paris and other cities began boarding up windows ahead of the anticipated protests.",
+   "text": "Interior Minister Laurent Nuñez announced the deployment of 70,000 security personnel, warning of a high risk of disorder.",
    "sources": [
-    4
+    3
    ]
   },
   {
    "at": "2026-10-31",
-   "text": "Protests took place nationwide, with Paris police restricting the march route to the city's outskirts.",
+   "text": "Protests took place across France, bringing together students, unionists, and Yellow Vests.",
    "sources": [
+    4,
     7,
+    10
+   ]
+  },
+  {
+   "at": "2026-10-31",
+   "text": "Clashes broke out at the end of marches, with police firing tear gas and confronting rioters.",
+   "sources": [
+    4,
+    8,
+    10
+   ]
+  },
+  {
+   "at": "2026-10-31",
+   "text": "A Molotov cocktail was thrown at a gendarme unit near Porte de Charenton in Paris, resulting in a minor injury.",
+   "sources": [
+    8,
     9
    ]
   },
   {
-   "at": "2026-10-31",
-   "text": "Police used tear gas near the end of the Paris march at Porte de Charenton after projectiles were thrown.",
+   "at": "2026-11-01",
+   "text": "Authorities reported a nationwide total of 565 arrests by Saturday evening.",
    "sources": [
-    7,
+    8,
     9
    ]
   }
@@ -101,17 +138,17 @@
  "sources": [
   {
    "n": 1,
-   "url": "https://www.lefigaro.fr/actualite-france/les-gilets-jaunes-confirment-une-nouvelle-mobilisation-le-31-octobre-contre-la-derive-autoritaire-du-gouvernement-20261024",
-   "publisher": "lefigaro.fr",
-   "title": "Les «gilets jaunes» confirment une nouvelle mobilisation le 31 octobre contre la «dérive autoritaire» du gouvernement",
-   "publishedAt": "2026-10-24T13:09:05.000Z"
+   "url": "https://www.franceinfo.fr/societe/manifestations/les-gilets-jaunes-appellent-a-une-nouvelle-mobilisation-le-31-octobre-et-denoncent-une-derive-autoritaire_8252203.html",
+   "publisher": "franceinfo.fr",
+   "title": "Les gilets jaunes appellent &agrave; une nouvelle mobilisation le 31 octobre et d&eacute;noncent une \"d&eacute;rive autoritaire\" de l'ex&eacute;cutif",
+   "publishedAt": "2026-10-24T11:42:49.000Z"
   },
   {
    "n": 2,
-   "url": "https://www.aljazeera.com/news/2026/10/29/france-braces-for-very-high-risk-of-disorder-at-halloween-protests",
-   "publisher": "aljazeera.com",
-   "title": "France braces for ‘very high risk’ of disorder at Halloween protests",
-   "publishedAt": "2026-10-29T23:52:30.000Z"
+   "url": "https://www.lefigaro.fr/actualite-france/manifestation-du-31-octobre-syndicats-de-salaries-et-d-etudiants-attaquent-en-justice-sur-le-parcours-a-paris-20261029",
+   "publisher": "lefigaro.fr",
+   "title": "Manifestation du 31 octobre : syndicats de salariés et d'étudiants attaquent en justice sur le parcours à Paris",
+   "publishedAt": "2026-10-29T21:43:17.000Z"
   },
   {
    "n": 3,
@@ -122,228 +159,249 @@
   },
   {
    "n": 4,
-   "url": "https://www.freemalaysiatoday.com/category/world/2026/10/30/france-boards-up-ahead-of-halloween-protests",
-   "publisher": "freemalaysiatoday.com",
-   "title": "France boards up ahead of Halloween protests",
-   "publishedAt": "2026-10-30T15:05:03.000Z"
+   "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/10/31/france-braces-for-fresh-unrest-government-vows-tough-response",
+   "publisher": "internazionale.it",
+   "title": "France braces for fresh unrest, government vows tough response",
+   "publishedAt": "2026-10-31T00:06:42.000Z"
   },
   {
    "n": 5,
-   "url": "https://timesofindia.indiatimes.com/world/europe/france-on-edge-this-halloween-70000-police-deployed-as-nationwide-protests-loom/articleshow/135393766.cms",
-   "publisher": "timesofindia.indiatimes.com",
-   "title": "France on edge this Halloween: 70,000 police deployed as nationwide protests loom",
-   "publishedAt": "2026-10-31T08:12:00.000Z"
+   "url": "https://eutoday.net/paris-berlin-europe-youth-protests-2026/",
+   "publisher": "eutoday.net",
+   "title": "From Paris to Berlin: Europe’s Youth Protest Wave Challenges Governments Over Living Costs, Education and Conscription - https://eutoday.net",
+   "publishedAt": "2026-10-31T08:43:52.000Z"
   },
   {
    "n": 6,
-   "url": "https://www.helsinkitimes.fi/world-int/29441-germany-and-france-brace-for-mass-protests-over-living-costs.html",
-   "publisher": "helsinkitimes.fi",
-   "title": "Germany and France brace for mass protests over living costs",
-   "publishedAt": "2026-10-31T10:28:21.000Z"
+   "url": "https://www.ynetnews.com/article/hjewyhqazl",
+   "publisher": "ynetnews.com",
+   "title": "France braces for fresh protests as 70,000 police prepare for nationwide unrest",
+   "publishedAt": "2026-10-31T11:05:59.076Z"
   },
   {
    "n": 7,
-   "url": "https://econotimes.com/France-Protest-Turnout-Reaches-320-000-as-Police-Use-Tear-Gas-in-Paris-1767778",
-   "publisher": "econotimes.com",
-   "title": "France Protest Turnout Reaches 320,000 as Police Use Tear Gas in Paris | EconoTimes",
-   "publishedAt": "2026-10-31T16:53:19.000Z"
+   "url": "https://www.pbs.org/newshour/world/a-third-weekend-of-protests-in-france-as-youth-led-rallies-sweep-europe",
+   "publisher": "pbs.org",
+   "title": "A third weekend of protests in France as youth-led rallies sweep Europe",
+   "publishedAt": "2026-10-31T17:14:30.000Z"
   },
   {
    "n": 8,
-   "url": "http://www.reflector.com/news/national/a-third-weekend-of-protests-in-france-as-youth-led-rallies-sweep-europe/article_25001582-e5ae-5152-933c-de91944c0595.html",
-   "publisher": "reflector.com",
-   "title": "A third weekend of protests in France as youth-led rallies sweep Europe",
-   "publishedAt": "2026-10-31T18:14:06.000Z"
+   "url": "https://www.theepochtimes.com/world/frances-far-left-protests-on-halloween-descend-into-violence-as-unrest-spreads-across-europe-6111753",
+   "publisher": "theepochtimes.com",
+   "title": "France’s Far-Left Protests on Halloween Descend Into Violence as Unrest Spreads Across Europe",
+   "publishedAt": "2026-11-01T02:45:00.000Z"
   },
   {
    "n": 9,
-   "url": "https://www.franceinfo.fr/societe/manifestations/mobilisation-importante-mais-en-baisse-heurts-en-marge-de-certains-corteges-centres-villes-sous-haute-protection-ce-qu-il-faut-retenir-de-la-journee-de-mobilisation-du-31-octobre_8262017.html",
-   "publisher": "franceinfo.fr",
-   "title": "Mobilisation importante mais en baisse, heurts en marge de certains cort&egrave;ges, centres-villes sous haute protection... Ce qu'il faut retenir de la journ&eacute;e de mobilisation du 31 octobre",
-   "publishedAt": "2026-10-31T19:36:54.000Z"
+   "url": "https://www.20minutes.fr/societe/4259268-20261101-manifestations-31-octobre-tentative-meurtre-contre-gendarme-interpellations-point-acte-iii?at_medium=display&at_campaign=149",
+   "publisher": "20minutes.fr",
+   "title": "« Tentative de meurtre », interpellations… Premier bilan de l’Acte III",
+   "publishedAt": "2026-11-01T04:04:51.689Z"
   },
   {
    "n": 10,
-   "url": "https://www.20minutes.fr/societe/4259218-20261031-mobilisation-31-octobre-paris-lyceen-ex-banquier-francais-descendus-rue?at_medium=display&at_campaign=149",
-   "publisher": "20minutes.fr",
-   "title": "Du lycéen à l’ex-banquier, qui sont ces Français descendus dans la rue ?",
-   "publishedAt": "2026-10-31T19:43:33.807Z"
+   "url": "http://en.ce.cn/main/latest/202611/t20261101_3279123.shtml",
+   "publisher": "en.ce.cn",
+   "title": "Around 320,000 people take part in protests across France: media--China Economic Net"
   }
  ],
  "conflicts": [
-  "Interior Ministry estimated nationwide turnout at 320,000, while youth union organizers put the figure at nearly 500,000."
+  "The Interior Ministry estimated nationwide turnout at 320,000, while organizers claimed nearly 500,000 participants."
  ],
- "confidence": 0.8,
+ "confidence": 0.75,
  "publishers": 10,
- "reports24h": 36,
- "reportsPrev24h": 19,
- "reports48h": 55,
+ "reports24h": 38,
+ "reportsPrev24h": 15,
+ "reports48h": 53,
  "firstSeenAt": "2026-10-24T13:49:44.312Z",
- "lastReportAt": "2026-10-31T19:43:33.807Z",
- "lastCheckedAt": "2026-11-01T03:53:52.439Z",
- "updatedAt": "2026-10-31T22:55:20.726Z",
+ "lastReportAt": "2026-11-01T05:15:00.000Z",
+ "lastCheckedAt": "2026-11-01T06:17:23.473Z",
+ "updatedAt": "2026-11-01T06:16:42.947Z",
  "responseSources": [
-  2,
-  7,
-  9
+  3,
+  4,
+  8,
+  9,
+  10
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-10-31T22:55:20.726Z",
- "summaryOf": "4f0cbc36691f",
+ "summarizedAt": "2026-11-01T06:16:42.947Z",
+ "summaryOf": "024edf66c785",
  "publishedAt": "2026-10-24T13:51:21.107Z",
  "i18n": {
-  "of": "cd8c5da912003670",
-  "at": "2026-10-31T22:59:36.905Z",
+  "of": "01953e93e0f61a22",
+  "at": "2026-11-01T06:18:24.617Z",
   "tries": 1,
   "hi": {
-   "title": "फ्रांस में येलो वेस्ट और छात्रों का देशव्यापी विरोध प्रदर्शन",
-   "seoTitle": "पेरिस देशव्यापी जीवनयापन लागत विरोध",
+   "title": "फ्रांस में येलो वेस्ट और छात्रों का देशव्यापी प्रदर्शन",
+   "seoTitle": "जीवन स्तर पर पेरिस का देशव्यापी प्रदर्शन",
    "tea": {
-    "why": "प्रदर्शनकारियों ने जीवनयापन की बढ़ती लागत, बिगड़ते स्कूल बुनियादी ढांचे, सरकारी खर्च नीतियों और सत्तावादी रुख के खिलाफ प्रदर्शन किया।",
-    "want": "उन्होंने बेहतर जीवनयापन लागत, बेहतर सार्वजनिक सेवाओं, बेहतर शिक्षा वित्तपोषण और पार्सौर्सुप प्रवेश प्रणाली को समाप्त करने की मांग की।",
-    "changed": "31 अक्टूबर: गृह मंत्रालय ने देश भर में 320,000 और पेरिस में 70,000 प्रदर्शनकारियों के शामिल होने की सूचना दी, जहाँ पुलिस ने पोर्ट डी चारेनटन में आंसू गैस के गोले छोड़े।"
+    "why": "प्रदर्शनकारी जीवनयापन की बढ़ती लागत, मुद्रास्फीति, ईंधन की कीमतों और स्कूलों तथा सार्वजनिक सेवाओं की खराब स्थिति से नाराज हैं।",
+    "want": "प्रदर्शनकारियों ने जीवनयापन की लागत पर सरकार की कार्रवाई, बढ़े हुए शैक्षणिक संसाधनों और सार्वजनिक स्वतंत्रता की सुरक्षा की मांग की है।",
+    "changed": "31 अक्टूबर: झड़पों और मोलोटोव कॉकटेल हमले के बाद आंतरिक मंत्री लॉरेंट नुनेज ने देश भर में 565 गिरफ्तारियों की सूचना दी।"
    },
-   "summary": "31 अक्टूबर 2026 को, छात्रों, मजदूर संघों और येलो वेस्ट कार्यकर्ताओं ने हेलोवीन के अवसर पर फ्रांस में लगातार तीसरे सप्ताह देशव्यापी विरोध प्रदर्शन किए। प्रदर्शनों का केंद्र जीवनयापन की बढ़ती लागत, सार्वजनिक सेवाएं और पार्सौर्सुप प्रवेश मंच जैसी शैक्षणिक शिकायतें थीं। पेरिस में, स्टेट काउंसिल द्वारा पारंपरिक बास्टिल-टू-नेशन मार्ग पर प्रतिबंध बरकरार रखने के बाद, अधिकारियों ने पोर्ट डी बैग्नोलेट से पोर्ट डी चारेनटन तक शहर के बाहरी इलाकों तक सीमित मार्च की अनुमति दी। गृह मंत्रालय ने बख्तरबंद वाहनों और वाटर कैनन का उपयोग करते हुए देश भर में 70,000 सुरक्षा कर्मियों को तैनात किया। हालांकि शुरुआत में मार्च काफी हद तक शांत थे, लेकिन वस्तुएं फेंके जाने के बाद पुलिस ने अंततः पेरिस प्रदर्शन के अंत में आंसू गैस का इस्तेमाल किया। आधिकारिक अनुमानों के अनुसार देश भर में 320,000 और पेरिस में 70,000 लोग शामिल हुए, जबकि युवा संघ के आयोजकों ने लगभग 500,000 प्रतिभागियों का अनुमान लगाया।",
+   "summary": "31 अक्टूबर 2026 को, छात्रों, श्रम संघों और येलो वेस्ट कार्यकर्ताओं ने जीवनयापन की लागत, मुद्रास्फीति, शिक्षा और सार्वजनिक सेवाओं पर ध्यान केंद्रित करते हुए फ्रांस भर में लगातार तीसरे सप्ताह देशव्यापी प्रदर्शन किए। पेरिस में, पिछले हफ्तों के दंगों के बाद केंद्रीय क्षेत्रों की रक्षा के लिए अधिकारियों द्वारा रैलियों को शहर के किनारों, जैसे पोर्ट डी चारेनटन और पोर्ट डी बैगनोलेट के बीच पुनर्निर्देशित किया गया था। इन प्रदर्शनों में हाई स्कूल के छात्रों, जलवायु कार्यकर्ताओं और ट्रेड यूनियन के सदस्यों सहित विभिन्न समूह शामिल हुए। हालांकि दिन का अधिकांश मार्च शांतिपूर्ण रहा, लेकिन पेरिस, ल्योन, टूलूज़ और अन्य शहरों में फैलाव बिंदुओं पर झड़पें और तनाव भड़क उठा, जहां पुलिस ने आंसू गैस का इस्तेमाल किया और प्रोजेक्टाइल का सामना किया। आंतरिक मंत्री लॉरेंट नुनेज ने बताया कि देश भर में 70,000 सुरक्षाकर्मी तैनात किए गए थे, और पेरिस के पास एक जेंडरम पर मोलोटोव कॉकटेल हमले को हत्या का प्रयास बताया। अधिकारियों ने देश भर में 320,000 प्रतिभागियों और शनिवार शाम तक 565 गिरफ्तारियों की सूचना दी, जबकि आयोजकों का अनुमान था कि उपस्थिति लगभग 500,000 तक पहुंच गई।",
    "demands": [
-    "जीवनयापन की बढ़ती लागत से निपटने के लिए बेहतर उपाय",
-    "स्कूलों और सार्वजनिक सेवाओं में निवेश में वृद्धि",
-    "पार्सौर्सुप विश्वविद्यालय प्रवेश मंच को हटाना",
-    "सरकारी सत्तावादी रुख के खिलाफ सार्वजनिक स्वतंत्रताओं की रक्षा"
+    "जीवनयापन की कम लागत और ईंधन की कीमतें",
+    "स्कूलों और विश्वविद्यालयों के लिए बेहतर संसाधन",
+    "सार्वजनिक स्वतंत्रता और विरोध करने के अधिकार की रक्षा",
+    "सुधारित सार्वजनिक सेवाएं"
    ],
-   "response": "गृह मंत्रालय ने देश भर में 70,000 पुलिस अधिकारियों और gendarmes के साथ-साथ बख्तरबंद वाहन और वाटर कैनन तैनात किए। गृह मंत्री लॉरेंट नुनेज ने उच्च व्यवस्था जोखिम के कारण शहर के केंद्रों में प्रदर्शनों पर प्रतिबंध लगा दिया, और पुलिस ने पेरिस में पोर्ट डी चारेनटन में तितर-बितर करने के दौरान आंसू गैस का इस्तेमाल किया।",
+   "response": "आंतरिक मंत्री लॉरेंट नुनेज ने 70,000 पुलिस और जेंडरम तैनात किए, शहर के केंद्रों से रैलियों को प्रतिबंधित किया, और सुरक्षा बलों पर झड़पों और मोलोटोव कॉकटेल हमले के बाद शनिवार शाम तक देश भर में 565 गिरफ्तारियों की सूचना दी।",
    "updates": [
-    "येलो वेस्ट ने सार्वजनिक स्वतंत्रताओं की रक्षा के लिए 31 अक्टूबर को एक नए लामबंदी दिवस की घोषणा की।",
-    "गृह मंत्री लॉरेंट नुनेज ने 70,000 पुलिस अधिकारियों की तैनाती और प्रतिबंधित मार्गों की घोषणा की।",
-    "अपेक्षित विरोध प्रदर्शनों से पहले पेरिस और अन्य शहरों में दुकानों और व्यवसायों ने खिड़कियों पर बोर्ड लगाना शुरू कर दिया।",
-    "देश भर में विरोध प्रदर्शन हुए, जिसमें पेरिस पुलिस ने मार्च मार्ग को शहर के बाहरी इलाकों तक सीमित कर दिया।",
-    "वस्तुएं फेंके जाने के बाद पुलिस ने पोर्ट डी चारेनटन में पेरिस मार्च के अंत के पास आंसू गैस का इस्तेमाल किया।"
+    "येलो वेस्ट के समन्वय ने सार्वजनिक स्वतंत्रता की रक्षा के लिए 31 अक्टूबर को देशव्यापी लामबंदी की घोषणा की।",
+    "सात ट्रेड यूनियनों और छात्र संगठनों ने पुलिस प्रфекचर के मार्ग प्रतिबंधों को अदालत में चुनौती दी।",
+    "आंतरिक मंत्री लॉरेंट नुनेज ने अशांति के उच्च जोखिम की चेतावनी देते हुए 70,000 सुरक्षा कर्मियों की तैनाती की घोषणा की।",
+    "छात्रों, यूनियन के सदस्यों और येलो वेस्ट को एक साथ लाते हुए फ्रांस भर में विरोध प्रदर्शन हुए।",
+    "मार्च के अंत में झड़पें भड़क उठीं, पुलिस ने आंसू गैस के गोले छोड़े और दंगाइयों का सामना किया।",
+    "पेरिस में पोर्ट डी चारेनटन के पास एक जेंडरम इकाई पर एक मोलोटोव कॉकटेल फेंका गया, जिससे मामूली चोट आई।",
+    "अधिकारियों ने शनिवार शाम तक देश भर में कुल 565 गिरफ्तारियों की सूचना दी।"
    ],
    "conflicts": [
-    "गृह मंत्रालय ने देश भर में उपस्थिति 320,000 आंकी, जबकि युवा संघ के आयोजकों ने यह आंकड़ा लगभग 500,000 बताया।"
+    "आंतरिक मंत्रालय ने देश भर में उपस्थिति 320,000 होने का अनुमान लगाया, जबकि आयोजकों ने लगभग 500,000 प्रतिभागियों का दावा किया।"
    ],
    "numbers": {
-    "crowd": "फ्रांसीसी सरकार के अनुसार शनिवार को प्रदर्शनों के लिए 320,000 लोग पहुंचे"
+    "crowd": "आंतरिक मंत्रालय के अनुसार फ्रांस भर में 320,000 प्रदर्शनकारी, जिनमें पेरिस में 70,000 शामिल हैं",
+    "arrests": "शनिवार रात तक देश भर में 565 लोगों को गिरफ्तार किया गया था",
+    "injuries": "पेरिस में सुरक्षा बलों के पांच सदस्य (चार पुलिस अधिकारी और एक जेंडरम) घायल हो गए"
    }
   },
   "mr": {
    "title": "फ्रान्समध्ये येलो वेस्ट आणि विद्यार्थ्यांची देशव्यापी निदर्शने",
-   "seoTitle": "पॅरिस देशव्यापी जीवनमान खर्च विरोध",
+   "seoTitle": "जीवनमानाचा खर्च यावर पॅरिसमध्ये देशव्यापी निदर्शने",
    "tea": {
-    "why": "निदर्शकांनी वाढता जीवनमान खर्च, ढासळलेली शाळा पायाभूत सुविधा, सरकारी खर्च धोरणे आणि हुकूमशाही प्रवृत्तीच्या विरोधात निदर्शने केली.",
-    "want": "त्यांनी चांगला जीवनमान खर्च, सुधारित सार्वजनिक सेवा, उत्तम शिक्षण निधी आणि पार्सौर्सुप प्रवेश प्रणाली रद्द करण्याची मागणी केली.",
-    "changed": "३१ ऑक्टोबर: गृह मंत्रालयाने देशभरात ३,२०,००० आणि पॅरिसमध्ये ७०,००० निदर्शक असल्याचे जाहीर केले, तर पोलिसांनी पोर्ट डी चारेनटन येथे अश्रूधुराच्या नळकांड्या फोडल्या."
+    "why": "जीवनमानाचा वाढता खर्च, महागाई, इंधनाचे दर आणि शाळा व सार्वजनिक सेवांच्या खराब परिस्थितीमुळे निदर्शक संतापले आहेत.",
+    "want": "निदर्शक जीवनमानाचा खर्च, वाढलेली शैक्षणिक संसाधने आणि सार्वजनिक स्वातंत्र्याचे संरक्षण यावर सरकारी कारवाईची मागणी करत आहेत.",
+    "changed": "३१ ऑक्टोबर: चकमकी आणि मोलोटोव्ह कॉकटेल हल्ल्यानंतर अंतर्गत मंत्री लॉरेंट नुनेज यांनी देशभरात ५६५ जणांना अटक केल्याचे जाहीर केले."
    },
-   "summary": "३१ ऑक्टोबर २०२६ रोजी, हॅलोवीनच्या निमित्ताने विद्यार्थी, कामगार संघटना आणि येलो वेस्ट कार्यकर्त्यांनी फ्रान्समध्ये सलग तिसऱ्या आठवड्यात देशव्यापी निदर्शने केली. निदर्शने वाढता जीवनमान खर्च, सार्वजनिक सेवा आणि पार्सौर्सुप प्रवेश व्यासपीठासारख्या शैक्षणिक तक्रारींवर केंद्रित होती. पॅरिसमध्ये, कौन्सिल ऑफ स्टेटने पारंपारिक बास्टिल-टू-नेशन मार्गावरील बंदी कायम ठेवल्यानंतर, अधिकाऱ्यांनी पोर्ट डी बॅग्नोलेट ते पोर्ट डी चारेनटन पर्यंत शहराच्या बाह्य भागांपुरता मर्यादित मोर्चा काढण्याची परवानगी दिली. गृह मंत्रालयाने चिलखती वाहने आणि पाण्याचे फवारे वापरत देशभरात ७०,००० सुरक्षा कर्मचाऱ्यांना तैनात केले. मोर्चे सुरुवातीला बऱ्यापैकी शांततापूर्ण असले तरी, वस्तू फेकल्यानंतर पोलिसांनी पॅरिस आंदोलनाच्या शेवटी अश्रूधुराचा वापर केला. अधिकृत अंदाजानुसार देशभरात ३,२०,००० आणि पॅरिसमध्ये ७०,००० उपस्थिती होती, तर युवा युनियनच्या आयोजकांनी जवळपास ५,००,००० सहभागी असल्याचा अंदाज वर्तवला.",
+   "summary": "३१ ऑक्टोबर २०२६ रोजी, विद्यार्थी, कामगार संघटना आणि येलो वेस्ट कार्यकर्त्यांनी जीवनमानाचा खर्च, महागाई, शिक्षण आणि सार्वजनिक सेवांवर लक्ष केंद्रित करत फ्रान्सभर सलग तिसऱ्या वीकेंडला देशव्यापी निदर्शने केली. पॅरिसमध्ये, मागील आठवड्यातील दंगलींनंतर मध्यवर्ती भागांचे रक्षण करण्यासाठी प्रशासनाने मोर्चाचे मार्ग शहराच्या कडेला, जसे की पोर्ट डी चारेनटन आणि पोर्ट डी बॅग्नोलेट यांच्या दरम्यान वळवले. या निदर्शनांमध्ये हायस्कूलचे विद्यार्थी, हवामान कार्यकर्ते आणि कामगार संघटनांचे सदस्य असे विविध गट एकत्र आले. दिवसाचा मोर्चा मोठ्या प्रमाणावर शांततापूर्ण असला तरी, पॅरिस, लियॉन, टूलूझ आणि इतर शहरांमध्ये विखुरण्याच्या ठिकाणांवर चकमकी आणि तणाव उसळला, जिथे पोलिसांनी अश्रुधूर सोडला आणि प्रकल्पाईल्सचा सामना केला. अंतर्गत मंत्री लॉरेंट नुनेज यांनी सांगितले की देशभरात ७०,००० सुरक्षा कर्मचारी तैनात करण्यात आले होते, आणि पॅरिस जवळील जेंडरमवरील मोलोटोव्ह कॉकटेल हल्ल्याचा निषेध करत त्याला हत्येचा प्रयत्न म्हटले. प्रशासनाने देशभरात ३२०,००० सहभागी आणि शनिवार संध्याकाळपर्यंत ५६५ अटकेची नोंद केली, तर आयोजकांच्या अंदाजानुसार उपस्थिती जवळपास ५००,000 पर्यंत पोहोचली होती.",
    "demands": [
-    "वाढत्या जीवनमान खर्चाचा सामना करण्यासाठी चांगले उपाय",
-    "शाळा आणि सार्वजनिक सेवांमध्ये वाढलेली गुंतवणूक",
-    "पार्सौर्सुप विद्यापीठ प्रवेश व्यासपीठ काढून टाकणे",
-    "सरकारी हुकूमशाही प्रवृत्तीविरुद्ध सार्वजनिक स्वातंत्र्याचे रक्षण"
+    "जीवनमानाचा कमी खर्च आणि इंधनाचे दर",
+    "शाळा आणि विद्यापीठांसाठी उत्तम संसाधने",
+    "सार्वजनिक स्वातंत्र्य आणि आंदोलनाचा अधिकार यांचे रक्षण",
+    "सुधारित सार्वजनिक सेवा"
    ],
-   "response": "गृह मंत्रालयाने देशभरात ७०,००० पोलीस अधिकारी आणि gendarmes तसेच चिलखती वाहने आणि पाण्याचे फवारे तैनात केले. गृहमंत्री लॉरेन्ट नुनेझ यांनी उच्च दंगलीच्या धोक्यामुळे शहर केंद्रांमधील निदर्शनांवर बंदी घातली आणि पोलिसांनी पॅरिसमधील पोर्ट डी चारेनटन येथे पांगवताना अश्रूधुराचा वापर केला.",
+   "response": "अंतर्गत मंत्री लॉरेंट नुनेज यांनी ७०,००० पोलीस आणि जेंडरम तैनात केले, शहर केंद्रांमधून मोर्च्यांवर प्रतिबंध घातले, आणि सुरक्षा दलांवर चकमक व मोलोटोव्ह कॉकटेल हल्ल्यानंतर शनिवार संध्याकाळपर्यंत देशभरात ५६५ अटकेची नोंद केली.",
    "updates": [
-    "येलो वेस्टने सार्वजनिक स्वातंत्र्याचे रक्षण करण्यासाठी ३१ ऑक्टोबर रोजी नवीन आंदोलनाच्या दिवसाची घोषणा केली.",
-    "गृहमंत्री लॉरेन्ट नुनेझ यांनी ७०,००० पोलीस अधिकारी तैनात करण्याची आणि मार्ग प्रतिबंधित करण्याची घोषणा केली.",
-    "अपेक्षित निदर्शनांच्या आधी पॅरिस आणि इतर शहरांमधील दुकाने आणि व्यवसायांनी खिडक्यांवर लाकडी फळ्या बसवण्यास सुरुवात केली.",
-    "देशभरात निदर्शने झाली, पॅरिस पोलिसांनी मोर्चाचा मार्ग शहराच्या बाह्य भागांपुरتا मर्यादित केला.",
-    "वस्तू फेकल्यानंतर पोलिसांनी पोर्ट डी चारेनटन येथील पॅरिस मोर्चाच्या शेवटी अश्रूधुराचा वापर केला."
+    "येलो वेस्टच्या समन्वयाने सार्वजनिक स्वातंत्र्याचे रक्षण करण्यासाठी ३१ ऑक्टोबर रोजी देशव्यापी आंदोलनाची घोषणा केली.",
+    "सात कामगार संघटना आणि विद्यार्थी संघटनांनी पोलीस प्राфек्चरच्या मार्ग निर्बंधांना न्यायालयात आव्हान दिले.",
+    "अंतर्गत मंत्री लॉरेंट नुनेज यांनी अशांततेचा उच्च धोका असल्याचा इशारा देत ७०,००० सुरक्षा कर्मचाऱ्यांच्या तैनातीची घोषणा केली.",
+    "विद्यार्थी, युनियन सदस्य आणि येलो वेस्ट यांना एकत्र आणत फ्रान्सभर निदर्शने झाली.",
+    "मोर्च्यांच्या शेवटी चकमकी उसळल्या, पोलिसांनी अश्रुधूर फवारला आणि दंगलखोरांचा सामना केला.",
+    "पॅरिसमधील पोर्ट डी चारेनटन जवळील जेंडरम युनिटवर मोलोटोव्ह कॉकटेल फेकण्यात आले, ज्यामुळे किरकोळ दुखापत झाली.",
+    "प्रशासनाने शनिवार संध्याकाळपर्यंत देशभरात एकूण ५६५ अटकेची नोंद केली."
    ],
    "conflicts": [
-    "गृह मंत्रालयाने देशभरातील उपस्थिती ३,२०,००० अंदाजित केली, तर युवा युनियनच्या आयोजकांनी हा आकडा जवळपास ५,००,००० सांगितला."
+    "अंतर्गत मंत्रालयाने देशभरात ३२०,००० उपस्थितीचा अंदाज वर्तवला, तर आयोजकांनी जवळपास ५००,000 सहभागी असल्याचा दावा केला."
    ],
    "numbers": {
-    "crowd": "फ्रेंच सरकारनुसार शनिवारी निदर्शनांसाठी ३,२०,००० लोक बाहेर पडले"
+    "crowd": "अंतर्गत मंत्रालयाच्या मते फ्रान्सभर ३२०,००० निदर्शक, ज्यात पॅरिसमधील ७०,००० लोकांचा समावेश आहे",
+    "arrests": "शनिवार रात्रीपर्यंत देशभरात ५६५ लोकांना अटक करण्यात आली होती",
+    "injuries": "पॅरिसमध्ये सुरक्षा दलाचे पाच सदस्य (चार पोलीस अधिकारी आणि एक जेंडरम) जखमी झाले"
    }
   },
   "es": {
-   "title": "Chalecos Amarillos y estudiantes realizan protestas nacionales en Francia",
-   "seoTitle": "Protesta nacional por el costo de vida en París",
+   "title": "Chalecos Amarillos y estudiantes realizan protestas a nivel nacional en Francia",
+   "seoTitle": "Protesta nacional en París contra el costo de vida",
    "tea": {
-    "why": "Los manifestantes se manifestaron contra el aumento del costo de vida, el deterioro de la infraestructura escolar, las políticas de gasto gubernamental y la deriva autoritaria.",
-    "want": "Exigieron mejores costos de vida, mejores servicios públicos, mejor financiación para la educación y la supresión del sistema de admisiones Parcoursup.",
-    "changed": "31 de oct: El Ministerio del Interior informó de 320.000 manifestantes a nivel nacional y 70.000 en París, con la policía disparando gases lacrimógenos en Porte de Charenton."
+    "why": "Los manifestantes están enojados por el creciente costo de vida, la inflación, los precios del combustible y las malas condiciones en las escuelas y servicios públicos.",
+    "want": "Los manifestantes exigen medidas gubernamentales sobre el costo de vida, mayores recursos educativos y la protección de las libertades públicas.",
+    "changed": "31 de oct: El ministro del Interior, Laurent Nuñez, informó de 565 arrestos a nivel nacional tras enfrentamientos y un ataque con cóctel Molotov."
    },
-   "summary": "El 31 de octubre de 2026, estudiantes, sindicatos y activistas de los Chalecos Amarillos organizaron un tercer fin de semana consecutivo de protestas a nivel nacional en Francia, coincidiendo con Halloween. Las manifestaciones se centraron en el aumento vertiginoso del costo de vida, los servicios públicos y las quejas educativas como la plataforma de admisiones Parcoursup. En París, después de que el Consejo de Estado confirmó la prohibición de la ruta tradicional de Bastilla a Nación, las autoridades permitieron una marcha restringida a las afueras de la ciudad desde Porte de Bagnolet hasta Porte de Charenton. El Ministerio del Interior desplegó a 70.000 efectivos de seguridad en todo el país, utilizando vehículos blindados y cañones de agua. Si bien las marchas fueron mayormente tranquilas al principio, la policía finalmente usó gases lacrimógenos cerca del final de la protesta de París tras el lanzamiento de proyectiles. Las estimaciones oficiales situaron la participación en 320.000 a nivel nacional y 70.000 en París, mientras que los organizadores sindicales juveniles estimaron casi 500.000 participantes.",
+   "summary": "El 31 de octubre de 2026, estudiantes, sindicatos y activistas de los Chalecos Amarillos protagonizaron un tercer fin de semana consecutivo de manifestaciones a nivel nacional en toda Francia, centrándose en el costo de vida, la inflación, la educación y los servicios públicos. En París, las marchas fueron redirigidas por las autoridades hacia los bordes de la ciudad, como entre la Puerta de Charenton y la Puerta de Bagnolet, para proteger las áreas centrales tras semanas anteriores de disturbios. Las marchas reunieron a diversos grupos, incluidos estudiantes de secundaria, activistas climáticos y sindicalistas. Si bien gran parte de la marcha diurna fue mayoritariamente pacífica, estallaron escaramuzas y tensiones en los puntos de dispersión en París, Lyon, Toulouse y otras ciudades, y la policía desplegó gases lacrimógenos y se enfrentó a proyectiles. El ministro del Interior, Laurent Nuñez, informó que se desplegaron 70,000 efectivos de seguridad a nivel nacional y condenó un ataque con cóctel Molotov contra un gendarme cerca de París como intento de homicidio. Las autoridades informaron de 320,000 participantes a nivel nacional y 565 arrestos hasta el sábado por la noche, mientras que los organizadores estimaron que la asistencia alcanzó casi los 500,000.",
    "demands": [
-    "Mejores medidas para abordar el creciente costo de vida",
-    "Mayor inversión en escuelas y servicios públicos",
-    "Eliminación de la plataforma de admisiones universitarias Parcoursup",
-    "Defensa de las libertades públicas contra la deriva autoritaria del gobierno"
+    "Menor costo de vida y precios del combustible",
+    "Mejores recursos para escuelas y universidades",
+    "Defensa de las libertades públicas y del derecho a la protesta",
+    "Servicios públicos mejorados"
    ],
-   "response": "El Ministerio del Interior desplegó a 70.000 policías y gendarmes en todo el país, junto con vehículos blindados y cañones de agua. El ministro del Interior, Laurent Nuñez, prohibió las manifestaciones en los centros de las ciudades debido a los altos riesgos de disturbios, y la policía usó gases lacrimógenos durante la dispersión en Porte de Charenton en París.",
+   "response": "El ministro del Interior, Laurent Nuñez, desplegó 70,000 policías y gendarmes, restringió las marchas desde los centros de las ciudades e informó de 565 arrestos a nivel nacional hasta el sábado por la noche tras enfrentamientos y un ataque con cóctel Molotov contra las fuerzas de seguridad.",
    "updates": [
-    "Los Chalecos Amarillos anunciaron una nueva jornada de movilización para el 31 de octubre para defender las libertades públicas.",
-    "El ministro del Interior, Laurent Nunez, anunció el despliegue de 70.000 policías y rutas restringidas.",
-    "Tiendas y negocios en París y otras ciudades comenzaron a tapiar las ventanas antes de las protestas previstas.",
-    "Las protestas se llevaron a cabo en todo el país, y la policía de París restringió la ruta de la marcha a las afueras de la ciudad.",
-    "La policía usó gases lacrimógenos cerca del final de la marcha de París en Porte de Charenton tras el lanzamiento de proyectiles."
+    "La coordinación de los Chalecos Amarillos anunció una movilización nacional para el 31 de octubre para defender las libertades públicas.",
+    "Siete sindicatos y organizaciones estudiantiles impugnaron las restricciones de ruta de la prefectura de policía en los tribunales.",
+    "El ministro del Interior, Laurent Nuñez, anunció el despliegue de 70,000 efectivos de seguridad, advirtiendo de un alto riesgo de disturbios.",
+    "Las protestas se llevaron a cabo en toda Francia, reuniendo a estudiantes, sindicalistas y Chalecos Amarillos.",
+    "Estallaron enfrentamientos al final de las marchas, y la policía disparó gases lacrimógenos y se enfrentó a los alborotadores.",
+    "Se lanzó un cóctel Molotov contra una unidad de gendarmería cerca de la Puerta de Charenton en París, lo que resultó en una herida leve.",
+    "Las autoridades informaron de un total nacional de 565 arrestos hasta el sábado por la noche."
    ],
    "conflicts": [
-    "El Ministerio del Interior estimó la participación a nivel nacional en 320.000, mientras que los organizadores sindicales juveniles situaron la cifra en casi 500.000."
+    "El Ministerio del Interior estimó la participación nacional en 320,000, mientras que los organizadores afirmaron que hubo casi 500,000 participantes."
    ],
    "numbers": {
-    "crowd": "320.000 personas salieron a las manifestaciones el sábado según el gobierno francés"
+    "crowd": "320,000 manifestantes en toda Francia, incluidos 70,000 en París, según el Ministerio del Interior",
+    "arrests": "565 personas habían sido arrestadas a nivel nacional hasta el sábado por la noche",
+    "injuries": "cinco miembros de las fuerzas de seguridad (cuatro policías y un gendarme) resultaron heridos en París"
    }
   },
   "fr": {
-   "title": "Gilets jaunes et étudiants mènent des manifestations nationales en France",
-   "seoTitle": "Manifestation nationale contre la vie chère à Paris",
+   "title": "Les Gilets jaunes et des étudiants manifestent dans toute la France",
+   "seoTitle": "Manifestation nationale à Paris contre la vie chère",
    "tea": {
-    "why": "Les manifestants ont manifesté contre la hausse du coût de la vie, la détérioration des infrastructures scolaires, les politiques de dépenses publiques et la dérive autoritaire.",
-    "want": "Ils ont réclamé de meilleures conditions de vie, de meilleurs services publics, un meilleur financement de l'éducation et l'abandon du système d'admission Parcoursup.",
-    "changed": "31 oct. : Le ministère de l'Intérieur a fait état de 320 000 manifestants à l'échelle nationale et de 70 000 à Paris, la police ayant tiré des gaz lacrymogènes à la porte de Charenton."
+    "why": "Les manifestants sont en colère contre la hausse du coût de la vie, l'inflation, les prix du carburant et les mauvaises conditions dans les écoles et les services publics.",
+    "want": "Les manifestants exigent des mesures gouvernementales sur le coût de la vie, des ressources éducatives accrues et la protection des libertés publiques.",
+    "changed": "31 oct. : Le ministre de l'Intérieur Laurent Nuñez a fait état de 565 arrestations à travers le pays à la suite d'affrontements et d'une attaque au cocktail Molotov."
    },
-   "summary": "Le 31 octobre 2026, des étudiants, des syndicats et des militants des Gilets jaunes ont organisé un troisième weekend consécutif de manifestations nationales en France, coïncidant avec Halloween. Les rassemblements se sont concentrés sur la flambée du coût de la vie, les services publics et les griefs éducatifs tels que la plateforme d'admission Parcoursup. À Paris, après que le Conseil d'État a confirmé l'interdiction du parcours traditionnel de Bastille à Nation, les autorités ont autorisé un défilé restreint aux périphéries de la ville de la porte de Bagnolet à la porte de Charenton. Le ministère de l'Intérieur a déployé 70 000 agents de sécurité à l'échelle nationale, utilisant des véhicules blindés et des canons à eau. Bien que les marches aient été largement calmes au début, la police a finalement utilisé des gaz lacrymogènes vers la fin de la manifestation parisienne à la suite de jets de projectiles. Les estimations officielles ont évalué la participation à 320 000 à l'échelle nationale et 70 000 à Paris, tandis que les organisateurs syndicaux étudiants ont estimé près de 500 000 participants.",
+   "summary": "Le 31 octobre 2026, des étudiants, des syndicats et des militants des Gilets jaunes ont mené un troisième week-end consécutif de manifestations nationales à travers la France, se concentrant sur le coût de la vie, l'inflation, l'éducation et les services publics. À Paris, les marches ont été redirigées par les autorités vers les abords de la ville, comme entre la porte de Charenton et la porte de Bagnolet, pour protéger les zones centrales après des semaines précédentes d'émeutes. Les manifestations ont rassemblé divers groupes, notamment des lycéens, des militants pour le climat et des syndicalistes. Bien qu'une grande partie de la marche en journée ait été largement pacifique, des échauffourées et des tensions ont éclaté aux points de dispersion à Paris, Lyon, Toulouse et dans d'autres villes, la police déployant des gaz lacrymogènes et faisant face à des projectiles. Le ministre de l'Intérieur Laurent Nuñez a indiqué que 70 000 membres des forces de sécurité avaient été déployés dans tout le pays et a condamné une attaque au cocktail Molotov contre un gendarme près de Paris qualifiée de tentative de meurtre. Les autorités ont fait état de 320 000 participants à l'échelle nationale et de 565 arrestations d'ici samedi soir, tandis que les organisateurs ont estimé la participation à près de 500 000.",
    "demands": [
-    "De meilleures mesures pour faire face à la hausse du coût de la vie",
-    "Un investissement accru dans les écoles et les services publics",
-    "La suppression de la plateforme d'admission universitaire Parcoursup",
-    "La défense des libertés publiques contre la dérive autoritaire du gouvernement"
+    "Baisse du coût de la vie et des prix du carburant",
+    "De meilleures ressources pour les écoles et les universités",
+    "Défense des libertés publiques et du droit de manifester",
+    "Amélioration des services publics"
    ],
-   "response": "Le ministère de l'Intérieur a déployé 70 000 policiers et gendarmes à l'échelle nationale, ainsi que des véhicules blindés et des canons à eau. Le ministre de l'Intérieur Laurent Nuñez a interdit les manifestations dans les centres-villes en raison de risques élevés de troubles, et la police a utilisé des gaz lacrymogènes lors de la dispersion à la porte de Charenton à Paris.",
+   "response": "Le ministre de l'Intérieur Laurent Nuñez a déployé 70 000 policiers et gendarmes, a restreint les marches hors des centres-villes et a fait état de 565 arrestations à travers le pays d'ici samedi soir après des affrontements et une attaque au cocktail Molotov contre les forces de sécurité.",
    "updates": [
-    "Les Gilets jaunes ont annoncé une nouvelle journée de mobilisation pour le 31 octobre afin de défendre les libertés publiques.",
-    "Le ministre de l'Intérieur Laurent Nunez a annoncé le déploiement de 70 000 policiers et des itinéraires restreints.",
-    "Les magasins et les commerces à Paris et dans d'autres villes ont commencé à barricader leurs fenêtres avant les manifestations prévues.",
-    "Des manifestations ont eu lieu à travers le pays, la police parisienne restreignant l'itinéraire de la marche à la périphérie de la ville.",
-    "La police a utilisé des gaz lacrymogènes vers la fin de la marche parisienne à la porte de Charenton après des jets de projectiles."
+    "La coordination des Gilets jaunes a annoncé une mobilisation nationale pour le 31 octobre afin de défendre les libertés publiques.",
+    "Sept syndicats et organisations étudiantes ont contesté en justice les restrictions de parcours de la préfecture de police.",
+    "Le ministre de l'Intérieur Laurent Nuñez a annoncé le déploiement de 70 000 agents de sécurité, mettant en garde contre un risque élevé de troubles.",
+    "Des manifestations ont eu lieu à travers la France, réunissant des étudiants, des syndicalistes et des Gilets jaunes.",
+    "Des affrontements ont éclaté à la fin des marches, la police tirant des gaz lacrymogènes et faisant face à des émeutiers.",
+    "Un cocktail Molotov a été jeté sur une unité de gendarmerie près de la porte de Charenton à Paris, entraînant une blessure légère.",
+    "Les autorités ont signalé un total national de 565 arrestations d'ici samedi soir."
    ],
    "conflicts": [
-    "Le ministère de l'Intérieur a estimé la participation nationale à 320 000, tandis que les organisateurs syndicaux étudiants ont avancé le chiffre de près de 500 000."
+    "Le ministère de l'Intérieur a estimé la participation nationale à 320 000, tandis que les organisateurs ont affirmé qu'il y avait près de 500 000 participants."
    ],
    "numbers": {
-    "crowd": "320 000 personnes ont participé aux manifestations samedi selon le gouvernement français"
+    "crowd": "320 000 manifestants à travers la France, dont 70 000 à Paris, selon le ministère de l'Intérieur",
+    "arrests": "565 personnes avaient été arrêtées à travers le pays d'ici samedi soir",
+    "injuries": "cinq membres des forces de sécurité (quatre policiers et un gendarme) ont été blessés à Paris"
    }
   },
   "de": {
-   "title": "Gelbwesten und Studierende halten landesweite Proteste in Frankreich ab",
-   "seoTitle": "Paris landesweiter Protest gegen Lebenshaltungskosten",
+   "title": "Gelbwesten und Studenten halten bundesweite Proteste in Frankreich ab",
+   "seoTitle": "Bundesweiter Protest in Paris gegen die Lebenshaltungskosten",
    "tea": {
-    "why": "Demonstrierende protestierten gegen die steigenden Lebenshaltungskosten, die verschlechterte Schulinfrastruktur, staatliche Ausgabenpolitik und den autoritären Kurs.",
-    "want": "Sie forderten bessere Lebenshaltungskosten, verbesserte öffentliche Dienste, eine bessere Bildungsfinanzierung und die Abschaffung des Zulassungssystems Parcoursup.",
-    "changed": "31. Okt.: Das Innenministerium meldete landesweit 320.000 Demonstrierende und 70.000 in Paris, wobei die Polizei an der Porte de Charenton Tränengas einsetzte."
+    "why": "Demonstranten sind wütend über die steigenden Lebenshaltungskosten, Inflation, Kraftstoffpreise und schlechte Bedingungen in Schulen und öffentlichen Diensten.",
+    "want": "Demonstranten fordern ein Vorgehen der Regierung gegen die Lebenshaltungskosten, erhöhte Bildungsressourcen und den Schutz der öffentlichen Freiheiten.",
+    "changed": "31. Okt.: Innenminister Laurent Nuñez meldete nach Zusammenstößen und einem Molotowcocktail-Angriff 565 festnahmen bundesweit."
    },
-   "summary": "Am 31. Oktober 2026 veranstalteten Studierende, Gewerkschaften und Aktivisten der Gelbwesten ein drittes aufeinanderfolgendes Wochenende mit landesweiten Protesten in Frankreich, zeitgleich mit Halloween. Die Demonstrationen konzentrierten sich auf die sprunghaft ansteigenden Lebenshaltungskosten, öffentliche Dienstleistungen und bildungspolitische Missstände wie die Zulassungsplattform Parcoursup. In Paris erlaubten die Behörden, nachdem der Staatsrat ein Verbot der traditionellen Route von Bastille zur Nation aufrechterhalten hatte, einen auf die Außenbezirke der Stadt beschränkten Marsch von der Porte de Bagnolet zur Porte de Charenton. Das Innenministerium setzte landesweit 70.000 Sicherheitskräfte ein und nutzte dabei gepanzerte Fahrzeuge und Wasserwerfer. Während die Märsche anfangs weitgehend ruhig verliefen, setzte die Polizei nach dem Werfen von Wurfgeschossen gegen Ende des Pariser Protests schließlich Tränengas ein. Offizielle Schätzungen bezifferten die Beteiligung landesweit auf 320.000 und in Paris auf 70.000, während Jugendgewerkschaftsorganisatoren fast 500.000 Teilnehmende schätzten.",
+   "summary": "Am 31. Oktober 2026 veranstalteten Studenten, Gewerkschaften und Gelbwesten-Aktivisten ein drittes aufeinanderfolgendes Wochenende mit bundesweiten Demonstrationen in ganz Frankreich, die sich auf Lebenshaltungskosten, Inflation, Bildung und öffentliche Dienste konzentrierten. In Paris wurden die Märsche von den Behörden an die Ränder der Stadt, etwa zwischen der Porte de Charenton und der Porte de Bagnolet, umgeleitet, um die zentralen Bereiche nach wochenlangen Ausschreitungen zu schützen. Die Demonstrationen brachten verschiedene Gruppen zusammen, darunter Gymnasiasten, Klimaaktivisten und Gewerkschafter. Während ein Großteil des Tagsmarsches weitgehend friedlich verlief, kam es an Auflösungspunkten in Paris, Lyon, Toulouse und anderen Städten zu Handgemengen und Spannungen, wobei die Polizei Tränengas einsetzte und mit Wurfgeschossen konfrontiert wurde. Innenminister Laurent Nuñez berichtete, dass bundesweit 70.000 Sicherheitskräfte im Einsatz waren, und verurteilte einen Molotowcocktail-Angriff auf einen Gendarmen bei Paris als versuchten Mord. Die Behörden meldeten bundesweit 320.000 Teilnehmer und 565 Festnahmen bis Samstagabend, während Organisatoren die Zahl der Teilnehmer auf fast 500.000 schätzten.",
    "demands": [
-    "Bessere Maßnahmen zur Bewältigung der steigenden Lebenshaltungskosten",
-    "Erhöhte Investitionen in Schulen und öffentliche Dienstleistungen",
-    "Beseitigung der Universitätszulassungsplattform Parcoursup",
-    "Verteidigung der öffentlichen Freiheiten gegen den autoritären Kurs der Regierung"
+    "Niedrigere Lebenshaltungskosten und Kraftstoffpreise",
+    "Bessere Ressourcen für Schulen und Universitäten",
+    "Verteidigung der öffentlichen Freiheiten und des Demonstrationsrechts",
+    "Verbesserte öffentliche Dienste"
    ],
-   "response": "Das Innenministerium setzte landesweit 70.000 Polizisten und Gendarmen sowie gepanzerte Fahrzeuge und Wasserwerfer ein. Innenminister Laurent Nuñez verbot Demonstrationen in den Innenstädten wegen hoher Unruherisiken, und die Polizei setzte bei der Auflösung an der Porte de Charenton in Paris Tränengas ein.",
+   "response": "Innenminister Laurent Nuñez setzte 70.000 Polizisten und Gendarmen ein, schränkte Märsche aus den Innenstädten ein und meldete bis Samstagabend nach Zusammenstößen und einem Molotowcocktail-Angriff auf Sicherheitskräfte 565 Festnahmen bundesweit.",
    "updates": [
-    "Die Gelbwesten kündigten für den 31. Oktober einen neuen Mobilisierungstag zur Verteidigung der öffentlichen Freiheiten an.",
-    "Innenminister Laurent Nunez kündigte den Einsatz von 70.000 Polizisten und eingeschränkte Routen an.",
-    "Läden und Geschäfte in Paris und anderen Städten begannen im Vorfeld der erwarteten Proteste, ihre Fenster zu verbarrikadieren.",
-    "Proteste fanden landesweit statt, wobei die Pariser Polizei die Marschroute auf die Außenbezirke der Stadt beschränkte.",
-    "Die Polizei setzte Tränengas kurz vor Ende des Pariser Marsches an der Porte de Charenton ein, nachdem Wurfgeschosse geworfen worden waren."
+    "Die Koordination der Gelbwesten kündigte eine bundesweite Mobilisierung für den 31. Oktober an, um die öffentlichen Freiheiten zu verteidigen.",
+    "Sieben Gewerkschaften und Studentenorganisationen fochten die Routenbeschränkungen der Polizeipräfektur vor Gericht an.",
+    "Innenminister Laurent Nuñez kündigte die Entsendung von 70.000 Sicherheitskräften an und warnte vor einem hohen Risiko von Unruhen.",
+    "Proteste fanden in ganz Frankreich statt und brachten Studenten, Gewerkschafter und Gelbwesten zusammen.",
+    "Am Ende der Märsche kam es zu Zusammenstößen, wobei die Polizei Tränengas einsetzte und gegen Randalierer vorging.",
+    "In Paris wurde ein Molotowcocktail auf eine Gendarmerieeinheit in der Nähe der Porte de Charenton geworfen, was zu einer leichten Verletzung führte.",
+    "Die Behörden meldeten bis Samstagabend eine Gesamtzahl von 565 Festnahmen bundesweit."
    ],
    "conflicts": [
-    "Das Innenministerium schätzte die landesweite Beteiligung auf 320.000, während Jugendgewerkschaftsorganisatoren die Zahl auf fast 500.000 bezifferten."
+    "Das Innenministerium schätzte die bundesweite Teilnehmerzahl auf 320.000, während Organisatoren fast 500.000 Teilnehmer angaben."
    ],
    "numbers": {
-    "crowd": "320.000 Menschen nahmen laut der französischen Regierung am Samstag an den Demonstrationen teil"
+    "crowd": "320.000 Demonstranten in ganz Frankreich, darunter 70.000 in Paris, laut dem Innenministerium",
+    "arrests": "565 Personen waren bis Samstag Nacht bundesweit festgenommen worden",
+    "injuries": "fünf Angehörige der Sicherheitskräfte (vier Polizeibeamte und ein Gendarm) wurden in Paris verletzt"
    }
   }
  },

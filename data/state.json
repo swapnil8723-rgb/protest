@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-01",
-  "count": 34
+  "count": 49
  },
  "runs": [
-  {
-   "at": "2026-10-25T23:18:45.348Z",
-   "ms": 307230,
-   "discovered": 88,
-   "fetched": 77,
-   "classified": 65,
-   "protests": 39,
-   "summarized": 12,
-   "published": 169,
-   "live": 14,
-   "aiCalls": 29,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 15 files, 44 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 211 protest-word items",
-    "search: 16 single-source stories checked, 18 other newsrooms found",
-    "fetch: 77 ok, 11 failed",
-    "classify: new candidate e98177271f1 \"Demonstrators protest across France over cost of living and schools\" (Rennes)",
-    "classify: new candidate ec7f6104bf7 \"BJP nationwide protest against Congress president Kharge remarks\" (Patna)",
-    "classify: new candidate e145b27191a \"Syrian protesters burn Israeli flag and protest IDF strikes\" (Idlib)",
-    "classify: new candidate e218a18d697 \"Far-right demonstration outside Edinburgh Castle\" (Edinburgh)",
-    "summary: ed7734df8ad judged not real: The sources report a scheduled protest announcement for October 26, 2026, but do not describe any physical protest action that has already taken place.",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 10 events"
-   ],
-   "translated": 10
-  },
   {
    "at": "2026-10-26T02:17:27.486Z",
    "ms": 256309,
@@ -1568,8 +1540,42 @@
     "translate: 12 events"
    ],
    "translated": 12
+  },
+  {
+   "at": "2026-11-01T06:14:37.009Z",
+   "ms": 240501,
+   "discovered": 53,
+   "fetched": 43,
+   "classified": 41,
+   "protests": 27,
+   "summarized": 6,
+   "published": 309,
+   "live": 18,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261101053000 http://data.gdeltproject.org/gdeltv2/20261101053000.export.CSV.zip → 404",
+    "gdelt: 20261101054500 http://data.gdeltproject.org/gdeltv2/20261101054500.export.CSV.zip → 404",
+    "gdelt: 20261101060000 http://data.gdeltproject.org/gdeltv2/20261101060000.export.CSV.zip → 404",
+    "gdelt: 20261101061500 http://data.gdeltproject.org/gdeltv2/20261101061500.export.CSV.zip → 404",
+    "gdelt: 9 files, 12 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 306 protest-word items",
+    "search: 25 single-source stories checked (3 in their own language), 28 other newsrooms found",
+    "fetch: 43 ok, 10 failed",
+    "classify: new candidate e1903e0afab \"Villagers protest minister and MLA over flood relief delay\" (Sorada)",
+    "classify: new candidate e70ba23b92e \"Delhi Police personnel plan protest over officer transfers\" (Delhi)",
+    "classify: new candidate eb22ef9c70f \"Youth group calls shutdown in Arunachal districts over arrests\" (Itanagar)",
+    "classify: new candidate e84bdeee158 \"TDP and YSRCP workers clash during Andhra Pradesh elections\" (Pulivendla)",
+    "classify: new candidate e95e103ec3a \"European demonstrations against living costs and public services\" (Köln)",
+    "classify: new candidate ebbcc43a7ef \"Youth demonstrations across Spain over Blocus\" (Madrid)",
+    "classify: new candidate ebd6f3a1c04 \"Linda Mwananchi movement mobilization rally in Ukunda\" (Ukunda)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 5 events"
+   ],
+   "translated": 5
   }
  ],
- "gdeltCursor": "20261101040000",
- "lastRunAt": "2026-11-01T03:50:28.898Z"
+ "gdeltCursor": "20261101061500",
+ "lastRunAt": "2026-11-01T06:14:37.009Z"
 }
