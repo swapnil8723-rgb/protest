@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-01",
-  "count": 49
+  "count": 81
  },
  "runs": [
-  {
-   "at": "2026-10-26T02:17:27.486Z",
-   "ms": 256309,
-   "discovered": 50,
-   "fetched": 48,
-   "classified": 39,
-   "protests": 21,
-   "summarized": 10,
-   "published": 170,
-   "live": 14,
-   "aiCalls": 23,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 12 files, 36 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 207 protest-word items",
-    "search: 19 single-source stories checked, 22 other newsrooms found",
-    "fetch: 48 ok, 2 failed",
-    "classify: new candidate e9de2d5c44f \"Ukrainians rally in Colonie against Russian diesel deal\" (Colonie)",
-    "classify: new candidate ea496688f3b \"Immigrant advocates rally in New Bedford against ICE operations\" (New Bedford)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 9 events"
-   ],
-   "translated": 9
-  },
   {
    "at": "2026-10-26T04:53:52.000Z",
    "ms": 323598,
@@ -1574,8 +1549,42 @@
     "translate: 5 events"
    ],
    "translated": 5
+  },
+  {
+   "at": "2026-11-01T09:12:38.340Z",
+   "ms": 323040,
+   "discovered": 97,
+   "fetched": 84,
+   "classified": 73,
+   "protests": 45,
+   "summarized": 14,
+   "published": 311,
+   "live": 20,
+   "aiCalls": 32,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261101083000 http://data.gdeltproject.org/gdeltv2/20261101083000.export.CSV.zip → 404",
+    "gdelt: 20261101084500 http://data.gdeltproject.org/gdeltv2/20261101084500.export.CSV.zip → 404",
+    "gdelt: 20261101090000 http://data.gdeltproject.org/gdeltv2/20261101090000.export.CSV.zip → 404",
+    "gdelt: 12 files, 34 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 306 protest-word items",
+    "search: 20 single-source stories checked (4 in their own language), 43 other newsrooms found",
+    "fetch: 84 ok, 13 failed",
+    "classify: new candidate e4f0db29a36 \"BJP and Mahayuti allies hold march in Mumbai\" (Mumbai)",
+    "classify: new candidate e4375c58817 \"Demonstrations and clashes in Zurich over economic and social issues\" (Zürich)",
+    "classify: new candidate e50dfceb6ea \"Haredi protesters block traffic near Tel Hashomer IDF base\" (Kiryat Ono)",
+    "classify: new candidate e1e86847dbd \"Students and activists protest Siang project at Arunachal Bhawan\" (Delhi)",
+    "classify: new candidate e51cb21eae5 \"Protesters and police clash in Lisbon and Porto\" (Lisbon)",
+    "classify: new candidate e85283d545a \"NCRI supporters hold rally and exhibition in Bucharest\" (Bucharest)",
+    "classify: new candidate e0b8b1eec4a \"BJP holds Save Democracy march in Thane\" (Thane)",
+    "classify: new candidate e85ebb14e94 \"Shiv Sena leaders and workers detained during drought relief march\" (Washim)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 11 events"
+   ],
+   "translated": 11
   }
  ],
- "gdeltCursor": "20261101061500",
- "lastRunAt": "2026-11-01T06:14:37.009Z"
+ "gdeltCursor": "20261101091500",
+ "lastRunAt": "2026-11-01T09:12:38.340Z"
 }
