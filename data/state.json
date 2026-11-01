@@ -1,49 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-01",
-  "count": 230
+  "count": 269
  },
  "runs": [
-  {
-   "at": "2026-10-26T16:16:27.039Z",
-   "ms": 785479,
-   "discovered": 171,
-   "fetched": 154,
-   "classified": 129,
-   "protests": 54,
-   "summarized": 0,
-   "published": 180,
-   "live": 14,
-   "aiCalls": 26,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261026154500 http://data.gdeltproject.org/gdeltv2/20261026154500.export.CSV.zip → 404",
-    "gdelt: 20261026160000 http://data.gdeltproject.org/gdeltv2/20261026160000.export.CSV.zip → 404",
-    "gdelt: 20261026161500 http://data.gdeltproject.org/gdeltv2/20261026161500.export.CSV.zip → 404",
-    "gdelt: 18 files, 92 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss www.bostonglobe.com: 404",
-    "rss: 231 protest-word items",
-    "search: 25 single-source stories checked, 27 other newsrooms found",
-    "fetch: 154 ok, 17 failed",
-    "classify: new candidate e32b6eaf2ba \"BJP protests Kharge remark in Hyderabad\" (Hyderabad)",
-    "classify: new candidate e45908d5c0a \"BJP workers protest in Bhopal against Kharge remarks\" (Bhopal)",
-    "classify: new candidate e7adae7c563 \"Protests erupt in Jammu over Farooq Abdullah remarks\" (Jammu)",
-    "classify: new candidate e0c4e1708a2 \"Clashes between far-right and far-left militants in Rouen\" (Rouen)",
-    "classify: new candidate e84fd98bcfc \"BJP protests against Congress president's remarks in Shimla\" (Shimla)",
-    "classify: new candidate e1491324822 \"Congress leaders urge participation in Delhi anti-SIR protest rally\" (Mysuru)",
-    "classify: new candidate e4a4a87f803 \"CITU stages demonstration in Thoothukudi demanding bonus\" (Thoothukudi)",
-    "classify: new candidate e61804def4c \"NTC mill workers protest in Coimbatore over unpaid wages and bonus\" (Coimbatore)",
-    "classify: new candidate e4d14fd64a1 \"Campaigners stage Reclaim the Night protest at Holyrood\" (Edinburgh)",
-    "classify: new candidate e02f832ae08 \"Demonstrators clash and riot across French cities\" (Paris)",
-    "classify: new candidate e2fc37013d3 \"Indians in Netherlands protest against crackdown in India\" (The Hague)",
-    "classify: new candidate ec31fbb9155 \"Far-right groups join demonstrations and clash with protesters in France\" (Paris)",
-    "classify: new candidate e1bddc467bf \"Civil society groups demand lifting of Bengaluru protest curbs\" (Bengaluru)",
-    "classify: new candidate e2ecfa49a9a \"Berlin protesters rally for trans healthcare and support Casa Kuà\" (Berlin)",
-    "AI budget: run time cap 13 min reached — remaining work waits for a later run",
-    "translate: stopped: run time cap 13 min reached"
-   ]
-  },
   {
    "at": "2026-10-26T19:28:48.936Z",
    "ms": 481957,
@@ -1596,8 +1556,34 @@
     "translate: 17 events"
    ],
    "translated": 17
+  },
+  {
+   "at": "2026-11-01T22:50:29.511Z",
+   "ms": 385604,
+   "discovered": 75,
+   "fetched": 65,
+   "classified": 57,
+   "protests": 36,
+   "summarized": 18,
+   "published": 322,
+   "live": 15,
+   "aiCalls": 39,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 31 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 281 protest-word items",
+    "search: 24 single-source stories checked (9 in their own language), 40 other newsrooms found",
+    "fetch: 65 ok, 10 failed",
+    "classify: new candidate ef28a9bd249 \"Students and workers rally in Cosenza during general strike\" (Cosenza)",
+    "classify: new candidate ef6a72a642a \"Right-wing activists protest outside Gadi Eisenkot's home\" (Herzliya)",
+    "classify: new candidate e92178b48eb \"Protests and unrest across European cities\" (Barcelona)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 16 events"
+   ],
+   "translated": 16
   }
  ],
- "gdeltCursor": "20261101194500",
- "lastRunAt": "2026-11-01T19:44:09.486Z"
+ "gdeltCursor": "20261101230000",
+ "lastRunAt": "2026-11-01T22:50:29.511Z"
 }

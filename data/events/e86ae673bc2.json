@@ -15,10 +15,11 @@
  },
  "scope": "local",
  "causes": [
-  "housing"
+  "housing",
+  "prices"
  ],
- "kind": "one-day",
- "startedOn": "2026-11-01",
+ "kind": "multi-day",
+ "startedOn": "2026-10-31",
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "serious",
@@ -29,64 +30,60 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters set up camp to demand housing rights.",
-  "want": "Housing rights and to maintain their protest camp.",
-  "changed": "Nov 1: Police cleared the housing protest camp in Porto, leading to clashes, arrests, and injuries."
+  "why": "Demonstrators protested against the deepening housing crisis and high housing costs.",
+  "want": "Protesters demanded an end to policies that ease evictions and lift rent caps on new contracts.",
+  "changed": "Nov 1: Police cleared the protest camp in Porto, leading to clashes, arrests, and injuries."
  },
- "summary": "Police cleared a housing protest camp in Porto after participants refused to remove their tents, leading to clashes between law enforcement and demonstrators. According to police and media reports, officers used force to disperse the crowd from Praça D. João I toward Avenida dos Aliados. The operation drew significant attention after an undercover police officer drew a firearm during a confrontation. Authorities reported multiple injured police officers, while organisers stated that dozens of protesters were hurt during the intervention. Several individuals were detained during the overnight operation and subsequently released with upcoming court appearances. The mayor of Porto later invited protesters to a meeting.",
+ "summary": "Following peaceful marches against high housing costs and a new rent bill, demonstrators set up a protest camp in Dom João I Square in Porto. In the early hours of Sunday, police moved in with shields and batons to dismantle the camp after participants refused to remove their tents. During the operation, plainclothes officers monitored the demonstration near the municipal building on Avenida dos Aliados, where a confrontation led to a plainclothes police officer drawing a firearm as a deterrent amidst stone-throwing. Organisers and lawyers criticised the police intervention as excessive, reporting numerous injuries among protesters. According to the Public Security Police (PSP), seven individuals were detained in Porto and thirteen police officers sustained injuries during the operation.",
  "organizers": [
   "Acampada do Porto"
  ],
  "demands": [
-  "Housing rights"
+  "Abandon plans to ease evictions",
+  "End rent caps for new contracts",
+  "Address the severe housing crisis"
  ],
- "response": "Police cleared the camp following warnings. The PSP stated that 13 officers were injured and described an undercover officer drawing a firearm as a passive deterrent. The Minister of Internal Administration stated the action was not a political decision and that police have technical autonomy.",
+ "response": "Police used shields and batons to disperse demonstrators and clear the camps. The PSP stated that 13 officers were injured in Porto and described an incident where an undercover officer drew a firearm as a passive deterrent after being attacked by protesters. Seven people were detained in Porto.",
  "numbers": {
   "arrests": {
    "value": 7,
-   "text": "sete pessoas",
+   "text": "seven people, including four women and three men, were detained in Porto",
    "sources": [
-    3
+    3,
+    4
    ]
   },
   "injuries": {
-   "value": 13,
-   "text": "13 polícias — 10 do Corpo de Intervenção da PSP e três que se encontravam à paisana — sofreram ferimentos",
+   "value": 45,
+   "text": "the organisation reported at least 38 injured protesters in Porto, alongside 13 injured police officers",
    "sources": [
     1,
-    3
+    3,
+    4
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-01",
-   "text": "Police cleared the housing protest camp in Porto following a refusal by protesters to remove tents.",
+   "text": "Police moved in at around 4:30 a.m. to clear the protest camp at Dom João I Square in Porto.",
    "sources": [
     1,
-    3,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-01",
+   "text": "The PSP confirmed an undercover officer drew a firearm as a deterrent during clashes near Avenida dos Aliados.",
+   "sources": [
+    1,
+    2,
     4
    ]
   },
   {
    "at": "2026-11-01",
-   "text": "An undercover police officer drew a firearm during confrontations near the municipal building.",
-   "sources": [
-    1,
-    2,
-    3
-   ]
-  },
-  {
-   "at": "2026-11-01",
-   "text": "Authorities confirmed seven arrests in Porto, with detainees released later that morning.",
-   "sources": [
-    3
-   ]
-  },
-  {
-   "at": "2026-11-01",
-   "text": "The mayor of Porto invited protesters to a meeting scheduled for the following Tuesday.",
+   "text": "Seven individuals detained in Porto during the operation were released pending a court appearance.",
    "sources": [
     4
    ]
@@ -109,13 +106,20 @@
   },
   {
    "n": 3,
+   "url": "https://kohajone.com/en/bota/perplasje-ne-lisbone-dhe-porto-policia-shperndan-protestuesit-kunder-krizes-se-strehimit/",
+   "publisher": "kohajone.com",
+   "title": "Clashes in Lisbon and Porto: Police Disperse Protesters Over Housing Crisis",
+   "publishedAt": "2026-11-01T14:49:07.000Z"
+  },
+  {
+   "n": 4,
    "url": "https://sapo.pt/artigo/protesto-no-porto-policia-a-paisana-aponta-arma-a-manifestantes-6ae75ab0665d772d96045790",
    "publisher": "sapo.pt",
    "title": "Protesto no Porto: polícia à paisana aponta arma a manifestantes",
    "publishedAt": "2026-11-01T15:09:36.000Z"
   },
   {
-   "n": 4,
+   "n": 5,
    "url": "https://www.rtp.pt/noticias/pais/presidente-da-camara-do-porto-convida-manifestantes-para-reuniao-na-proxima-terca-feira_e1775987",
    "publisher": "rtp.pt",
    "title": "Presidente da Câmara do Porto convida manifestantes para reunião na próxima terça-feira",
@@ -123,155 +127,159 @@
   }
  ],
  "conflicts": [],
- "confidence": 0.86,
- "publishers": 4,
- "reports24h": 5,
+ "confidence": 0.9,
+ "publishers": 5,
+ "reports24h": 6,
  "reportsPrev24h": 0,
- "reports48h": 5,
+ "reports48h": 6,
  "firstSeenAt": "2026-11-01T16:52:44.964Z",
  "lastReportAt": "2026-11-01T19:34:51.000Z",
- "lastCheckedAt": "2026-11-01T19:48:24.860Z",
- "updatedAt": "2026-11-01T19:48:11.786Z",
+ "lastCheckedAt": "2026-11-01T22:54:20.515Z",
+ "updatedAt": "2026-11-01T22:53:41.732Z",
  "searchedAt": "2026-11-01T19:44:18.836Z",
  "endedOn": "2026-11-01",
  "responseSources": [
   1,
-  2,
   3,
   4
  ],
  "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-11-01T19:48:11.786Z",
- "summaryOf": "78e245d17c4c",
+ "summarizedAt": "2026-11-01T22:53:41.732Z",
+ "summaryOf": "2d902870d608",
  "publishedAt": "2026-11-01T19:48:24.860Z",
  "i18n": {
-  "of": "79c87c99aad8f498",
-  "at": "2026-11-01T19:49:49.150Z",
+  "of": "af18947d7d1ec7f1",
+  "at": "2026-11-01T22:55:35.748Z",
   "tries": 1,
   "hi": {
-   "title": "पुलिस ने पोर्टो में आवास विरोध शिविर को हटाया",
-   "seoTitle": "पोर्टो में आवास विरोध शिविर पुलिस द्वारा हटाया गया",
+   "title": "पुलिस ने पोर्टो में आवास विरोध शिविर हटाया",
+   "seoTitle": "पोर्टो में आवास विरोध शिविर हटाया गया",
    "tea": {
-    "why": "प्रदर्शनकारियों ने आवास अधिकारों की मांग के लिए शिविर लगाया था।",
-    "want": "आवास अधिकार और अपने विरोध शिविर को बनाए रखना।",
-    "changed": "1 नव: पुलिस ने पोर्टो में आवास विरोध शिविर को हटा दिया, जिससे झड़पें, गिरफ्तारियां और चोटें आईं।"
+    "why": "प्रदर्शनकारियों ने बढ़ते आवास संकट और उच्च आवास लागत के खिलाफ विरोध प्रदर्शन किया।",
+    "want": "प्रदर्शनकारियों ने बेदखली को आसान बनाने वाली और नए अनुबंधों पर किराए की सीमा हटाने वाली नीतियों को समाप्त करने की मांग की।",
+    "changed": "1 नवंबर: पुलिस ने पोर्टो में विरोध शिविर को हटाया, जिससे झड़पें, गिरफ्तारियां और चोटें आईं।"
    },
-   "summary": "प्रतिभागियों द्वारा अपने तंबू हटाने से इनकार करने के बाद पुलिस ने पोर्टो में आवास विरोध शिविर को हटा दिया, जिससे कानून प्रवर्तन और प्रदर्शनकारियों के बीच झड़पें हुईं। पुलिस और मीडिया रिपोर्टों के अनुसार, अधिकारियों ने प्राका डी. जोआओ I से एवेनिडा डॉस एलियाडोस की ओर भीड़ को तितर-बितर करने के लिए बल का प्रयोग किया। एक झड़प के दौरान एक सादे कपड़ों वाले पुलिसकर्मी द्वारा आर्मा निकाल लेने के बाद इस अभियान ने काफी ध्यान आकर्षित किया। अधिकारियों ने कई पुलिसकर्मियों के घायल होने की सूचना दी, जबकि आयोजकों ने कहा कि हस्तक्षेप के दौरान दर्जनों प्रदर्शनकारी घायल हो गए। रात भर चले अभियान के दौरान कई व्यक्तियों को हिरासत में लिया गया और बाद में आगामी अदालती पेशी के साथ रिहा कर दिया गया। पोर्टो के मेयर ने बाद में प्रदर्शनकारियों को एक बैठक में आमंत्रित किया।",
+   "summary": "उच्च आवास लागत और एक नए किराया विधेयक के खिलाफ शांतिपूर्ण मार्च के बाद, प्रदर्शनकारियों ने पोर्टो के डोम जोआओ I स्क्वायर में एक विरोध शिविर स्थापित किया। रविवार तड़के, प्रतिभागियों द्वारा अपने तंबू हटाने से इनकार करने के बाद पुलिस ने शिविर को ध्वस्त करने के लिए ढाल और लाठियों के साथ कार्रवाई की। इस अभियान के दौरान, एवेनिडा डॉस एलियाडोस में नगरपालिका भवन के पास सादे कपड़ों में अधिकारियों ने प्रदर्शन पर नजर रखी, जहां एक टकराव के कारण पथराव के बीच एक सादे कपड़ों के पुलिस अधिकारी ने निवारक के रूप में हथियार निकाला। आयोजकों और वकीलों ने पुलिस के हस्तक्षेप को अत्यधिक बताते हुए इसकी आलोचना की और प्रदर्शनकारियों के बीच कई चोटों की सूचना दी। पब्लिक सिक्योरिटी पुलिस (PSP) के अनुसार, इस अभियान के दौरान पोर्टो में सात लोगों को हिरासत में लिया गया और तेरह पुलिसकर्मी घायल हो गए।",
    "demands": [
-    "आवास अधिकार"
+    "बेदखली आसान बनाने की योजनाएं छोड़ें",
+    "नए अनुबंधों के लिए किराए की सीमा समाप्त करें",
+    "गंभीर आवास संकट का समाधान करें"
    ],
-   "response": "चेतावनी के बाद पुलिस ने शिविर को हटा दिया। पीएसपी ने कहा कि 13 अधिकारी घायल हो गए और एक सादे कपड़ों वाले अधिकारी द्वारा निष्क्रिय निवारक के रूप में आर्म्स निकालने का वर्णन किया। आंतरिक प्रशासन मंत्री ने कहा कि यह कार्रवाई कोई राजनीतिक निर्णय नहीं था और पुलिस को तकनीकी स्वायत्तता प्राप्त है।",
+   "response": "पुलिस ने प्रदर्शनकारियों को तितर-बितर करने और शिविरों को साफ करने के लिए ढाल और लाठियों का इस्तेमाल किया। पीएसपी ने कहा कि पोर्टो में 13 अधिकारी घायल हुए और एक ऐसी घटना का वर्णन किया जहां प्रदर्शनकारियों द्वारा हमला किए जाने के बाद एक गुप्त अधिकारी ने निष्क्रिय निवारक के रूप में आग्नेयास्त्र निकाला। पोर्टो में सात लोगों को हिरासत में लिया गया।",
    "updates": [
-    "प्रदर्शनकारियों द्वारा तंबू हटाने से इनकार करने के बाद पुलिस ने पोर्टो में आवास विरोध शिविर को हटा दिया।",
-    "नगर निगम भवन के पास झड़प के दौरान एक सादे कपड़ों के पुलिसकर्मी ने आर्म्स निकाला।",
-    "अधिकारियों ने पोर्टो में सात गिरफ्तारियों की पुष्टि की, जिन्हें उसी सुबह बाद में रिहा कर दिया गया।",
-    "पोर्टो के मेयर ने अगले मंगलवार को होने वाली बैठक के लिए प्रदर्शनकारियों को आमंत्रित किया।"
+    "पोर्टो के डोम जोआओ I स्क्वायर में विरोध शिविर को हटाने के लिए पुलिस सुबह करीब 4:30 बजे आगे बढ़ी।",
+    "पीएसपी ने पुष्टि की कि एवेनिडा डॉस एलियाडोस के पास झड़पों के दौरान एक गुप्त अधिकारी ने निवारक के रूप में हथियार निकाला।",
+    "इस अभियान के दौरान पोर्टो में हिरासत में लिए गए सात व्यक्तियों को अदालत में पेशी के लिए रिहा कर दिया गया।"
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "sete pessoas",
-    "injuries": "13 polícias — 10 do Corpo de Intervenção da PSP e três que se encontravam à paisana — sofreram ferimentos"
+    "arrests": "पोर्टो में सात लोगों को हिरासत में लिया गया, जिनमें चार महिलाएं और तीन पुरुष शामिल थे",
+    "injuries": "संगठन ने पोर्टो में कम से कम 38 घायल प्रदर्शनकारियों और 13 घायल पुलिसकर्मियों की सूचना दी"
    }
   },
   "mr": {
-   "title": "पोलिसांनी पोर्टोमधील घरे मिळण्यासाठीचा आंदोलनाचा कॅम्प हटवला",
-   "seoTitle": "पोर्टोमधील घरे मिळवण्याचा आंदोलनाचा कॅम्प पोलिसांनी हटवला",
+   "title": "पोलिसांनी पोर्टोमधील आवास निषेध शिबिर हटवले",
+   "seoTitle": "पोर्टोमधील आवास निषेध शिबिर पोलिसांकडून हटवले",
    "tea": {
-    "why": "आदर्श आणि घरांच्या हक्कांची मागणी करण्यासाठी आंदोलकांनी कॅम्प उभारला होता.",
-    "want": "घरांचे हक्क आणि त्यांच्या आंदोलनाचा कॅम्प कायम ठेवणे.",
-    "changed": "१ नोव्हेंबर: पोलिसांनी पोर्टोमधील घरे मिळवण्याचा आंदोलनाचा कॅम्प हटवला, ज्यामुळे संघर्ष, गिरफ्तार आणि दुखापती झाल्या."
+    "why": "आवास संकटात वाढ झाल्याने आणि घरांच्या वाढलेल्या किमतींव विरोधात निदर्शकांनी निषेध नोंदवला.",
+    "want": "भाडेकरूंना बेदखल करणे सुलभ करणाऱ्या आणि नवीन करारांवर भाड्याची मर्यादा उठवणाऱ्या धोरणांना पूर्णविराम देण्याची मागणी निदर्शकांनी केली.",
+    "changed": "१ नोव्हेंबर: पोलिसांनी पोर्टोमधील निषेध शिबिर हटवले, ज्यामुळे चकमकी, गिरफ्तारया आणि दुखापती झाल्या."
    },
-   "summary": "सहभागींनी त्यांचे तंबू काढण्यास नकार दिल्यानंतर पोलिसांनी पोर्टोमधील घरे मिळवण्याचा आंदोलनाचा कॅम्प हटवला, ज्यामुळे कायदा व सुव्यवस्था यंत्रणा आणि आंदोलकांमध्ये संघर्ष झाला. पोलीस आणि मीडिया अहवालानुसार, प्राका डी. जोआओ I कडून अव्हेनिडा डॉस अलायाडोसच्या दिशेने जमावाला हुसकावून लावण्यासाठी अधिकाऱ्यांनी बळाचा वापर केला. एका चकमकीदरम्यान साध्या वेशभूषा केलेल्या पोलीस अधिकाऱ्याने बंदूक काढल्यानंतर या कारवाईने मोठे लक्ष वेधले. प्राधिकरणाने अनेक पोलीस अधिकारी जखमी झाल्याची माहिती दिली, तर आयोजकांनी सांगितले की या हस्तक्षेपादरम्यान डझनभर आंदोलक जखमी झाले. रात्रभर चाललेल्या कारवाईदरम्यान अनेक व्यक्तींना ताब्यात घेण्यात आले आणि नंतर आगामी न्यायालयाच्या तारखेसह सोडून देण्यात आले. पोर्टोच्या महापौरांनी नंतर आंदोलकांना एका बैठकीसाठी आमंत्रित केले.",
+   "summary": "उच्च घरांच्या किमती आणि नवीन भाडे विधेयकाच्या विरोधात शांततापूर्ण मोर्चा काढल्यानंतर, निदर्शकांनी पोर्टोच्या डोम जोआओ I चौकात निषेध शिबिर उभारले. रविवारी पहाटे, सहभागींनी आपले तंबू काढण्यास नकार दिल्यानंतर पोलिसांनी शिबिर उध्वस्त करण्यासाठी ढाल आणि लाठ्यांचा वापर केला. या कारवाईदरम्यान, एवेनिडा डॉस एलियाडोस येथील महानगरपालिका इमारतीजवळ साध्या वेशभूषेत असलेल्या अधिकाऱ्यांनी निदर्शनांवर लक्ष ठेवले, जिथे दगडफेकीच्या दरम्यान एका चकमकीत साध्या वेशभूषेतील पोलीस अधिकाऱ्याने प्रतिबंधक उपाय म्हणून शस्त्र उपसले. आयोजकांनी आणि वकिलांनी पोलिसांच्या हस्तक्षेपाचा अतिरेक असल्याचे सांगत टीका केली आणि निदर्शकांमध्ये अनेक जण जखमी झाल्याचे सांगितले. सार्वजनिक सुरक्षा पोलिसांच्या (PSP) मते, या कारवाईदरम्यान पोर्टोमध्ये सात जणांना ताब्यात घेण्यात आले आणि तेरह पोलीस कर्मचारी जखमी झाले.",
    "demands": [
-    "घरांचे हक्क"
+    "बेदखल करणे सुलभ करण्याचे बेत सोडून द्या",
+    "नवीन करारांसाठी भाड्याची मर्यादा समाप्त करा",
+    "गंभीर आवास संकटावर मात करा"
    ],
-   "response": "इशारा दिल्यानंतर पोलिसांनी कॅम्प हटवला. पीएसपीने सांगितले की १३ अधिकारी जखमी झाले आणि साध्या वेशभूषेतील अधिकाऱ्याने निष्क्रिय प्रतिबंधक म्हणून बंदूक काढली असे वर्णन केले. अंतर्गत प्रशासनाच्या मंत्र्यांनी सांगितले की ही कृती राजकीय निर्णय नव्हती आणि पोलिसांना तांत्रिक स्वायत्तता आहे.",
+   "response": "पोलिसांनी निदर्शकांना हुकूमून लावण्यासाठी आणि शिबिरे हटवण्यासाठी ढाल आणि लाठ्यांचा वापर केला. पीएसपीने सांगितले की पोर्टोमध्ये १३ अधिकारी जखमी झाले आणि एका घटनेचे वर्णन केले जिथे निदर्शकांकडून हल्ला झाल्यानंतर एका गुप्त अधिकाऱ्याने निष्क्रिय प्रतिबंधक म्हणून शस्त्र उपसले. पोर्टोमध्ये सात जणांना ताब्यात घेण्यात आले.",
    "updates": [
-    "आंदोलकांनी तंबू काढण्यास नकार दिल्यानंतर पोलिसांनी पोर्टोमधील घरे मिळवण्याचा आंदोलनाचा कॅम्प हटवला.",
-    "महानगरपालिका इमारतीजवळील चकमकीदरम्यान साध्या वेशभूषेतील पोलीस अधिकाऱ्याने बंदूक काढली.",
-    "प्राधिकरणाने पोर्टोमध्ये सात जणांच्या अटकेची पुष्टी केली, ज्यांना त्या सकाळी नंतर सोडून देण्यात आले.",
-    "पोर्टोच्या महापौरांनी पुढील मंगळवारी आयोजित केलेल्या बैठकीसाठी आंदोलकांना आमंत्रित केले."
+    "पोर्टोच्या डोम जोआओ I चौकातील निषेध शिबिर हटवण्यासाठी पोलीस पहाटे ४:३० वाजता आले.",
+    "एवेनिडा डॉस एलियाडोस जवळील चकमकीदरम्यान एका गुप्त अधिकाऱ्याने प्रतिबंधक म्हणून शस्त्र उपसल्याचे पीएसपीने पुष्टी केली.",
+    "कारवाईदरम्यान पोर्टोमध्ये ताब्यात घेतलेल्या सात जणांना न्यायालयात हजर करण्याच्या अटीवर सोडण्यात आले."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "sete pessoas",
-    "injuries": "13 polícias — 10 do Corpo de Intervenção da PSP e três que se encontravam à paisana — sofreram ferimentos"
+    "arrests": "पोर्टोमध्ये सात जणांना ताब्यात घेण्यात आले, ज्यात चार महिला आणि तीन पुरुषांचा समावेश होता",
+    "injuries": "संघटनेने पोर्टोमध्ये किमान ३८ जखमी निदर्शक आणि १३ जखमी पोलिसांची माहिती दिली"
    }
   },
   "es": {
-   "title": "La policía desaloja campamento de protesta por la vivienda en Oporto",
-   "seoTitle": "Campamento de protesta por la vivienda desalojado en Oporto",
+   "title": "La policía desmantela campamento de protesta por la vivienda en Oporto",
+   "seoTitle": "Campamento de protesta por vivienda desmantelado en Oporto",
    "tea": {
-    "why": "Los manifestantes montaron un campamento para exigir el derecho a la vivienda.",
-    "want": "El derecho a la vivienda y mantener su campamento de protesta.",
-    "changed": "1 de nov.: La policía desalojó el campamento de protesta por la vivienda en Oporto, lo que provocó enfrentamientos, detenciones y heridos."
+    "why": "Los manifestantes protestaron contra la profundización de la crisis de la vivienda y los altos costos de la misma.",
+    "want": "Los manifestantes exigieron el fin de las políticas que facilitan los desahucios y levantan los topes de alquiler en los nuevos contratos.",
+    "changed": "1 de nov.: La policía desalojó el campamento de protesta en Oporto, lo que provocó enfrentamientos, detenciones y heridos."
    },
-   "summary": "La policía desalojó un campamento de protesta por la vivienda en Oporto después de que los participantes se negaran a retirar sus tiendas, lo que provocó enfrentamientos entre las fuerzas de seguridad y los manifestantes. Según la policía y los informes de prensa, los agentes utilizaron la fuerza para dispersar a la multitud desde la Praça D. João I hacia la Avenida dos Aliados. La operación atrajo una atención significativa después de que un policía de civil sacara un arma de fuego durante un enfrentamiento. Las autoridades informaron de varios agentes de policía heridos, mientras que los organizadores afirmaron que decenas de manifestantes resultaron heridos durante la intervención. Varias personas fueron detenidas durante la operación nocturna y posteriormente liberadas con próximas comparecencias ante el tribunal. El alcalde de Oporto invitó posteriormente a los manifestantes a una reunión.",
+   "summary": "Tras marchas pacíficas contra los altos costos de la vivienda y un nuevo proyecto de ley de alquileres, los manifestantes instalaron un campamento de protesta en la Plaza Dom João I en Oporto. En la madrugada del domingo, la policía intervino con escudos y porras para desmantelar el campamento después de que los participantes se negaran a retirar sus tiendas. Durante la operación, agentes vestidos de civil vigilaron la manifestación cerca del edificio municipal en la Avenida dos Aliados, donde un enfrentamiento llevó a un policía de civil a sacar un arma de fuego como elemento disuasorio en medio del lanzamiento de piedras. Organizadores y abogados criticaron la intervención policial por considerarla excesiva, reportando numerosas lesiones entre los manifestantes. Según la Policía de Seguridad Pública (PSP), siete individuos fueron detenidos en Oporto y trece agentes de policía sufrieron lesiones durante la operación.",
    "demands": [
-    "Derecho a la vivienda"
+    "Abandonar los planes para facilitar los desahucios",
+    "Terminar con los topes de alquiler para nuevos contratos",
+    "Abordar la grave crisis de la vivienda"
    ],
-   "response": "La policía desalojó el campamento tras emitir advertencias. La PSP declaró que 13 agentes resultaron heridos y describió que un agente de civil sacó un arma de fuego como elemento disuasorio pasivo. El ministro de Administración Interna declaró que la acción no fue una decisión política y que la policía cuenta con autonomía técnica.",
+   "response": "La policía utilizó escudos y porras para dispersar a los manifestantes y desalojar los campamentos. La PSP declaró que 13 agentes resultaron heridos en Oporto y describió un incidente en el que un agente encubierto sacó un arma de fuego como elemento disuasorio pasivo tras ser atacado por manifestantes. Siete personas fueron detenidas en Oporto.",
    "updates": [
-    "La policía desaloja el campamento de protesta por la vivienda en Oporto tras la negativa de los manifestantes a retirar las tiendas.",
-    "Un agente de policía de civil sacó un arma de fuego durante los enfrentamientos cerca del edificio municipal.",
-    "Las autoridades confirmaron siete detenciones en Oporto, y los detenidos fueron puestos en libertad más tarde esa mañana.",
-    "El alcalde de Oporto invitó a los manifestantes a una reunión programada para el martes siguiente."
+    "La policía intervino alrededor de las 4:30 a.m. para desalojar el campamento de protesta en la Plaza Dom João I en Oporto.",
+    "La PSP confirmó que un agente encubierto sacó un arma de fuego como elemento disuasorio durante los enfrentamientos cerca de la Avenida dos Aliados.",
+    "Siete personas detenidas en Oporto durante la operación fueron liberadas a la espera de comparecer ante el tribunal."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "sete pessoas",
-    "injuries": "13 polícias — 10 do Corpo de Intervenção da PSP e três que se encontravam à paisana — sofreram ferimentos"
+    "arrests": "siete personas, incluidas cuatro mujeres y tres hombres, fueron detenidas en Oporto",
+    "injuries": "la organización reportó al menos 38 manifestantes heridos en Oporto, además de 13 policías heridos"
    }
   },
   "fr": {
-   "title": "La police évacue un campement de protestation pour le logement à Porto",
-   "seoTitle": "Campement de protestation pour le logement évacué à Porto",
+   "title": "La police évacue un camp de protestation pour le logement à Porto",
+   "seoTitle": "Camp de protestation sur le logement évacué par la police à Porto",
    "tea": {
-    "why": "Des manifestants ont installé un campement pour exiger le droit au logement.",
-    "want": "Le droit au logement et le maintien de leur campement de protestation.",
-    "changed": "1er nov. : La police a évacué le campement de protestation pour le logement à Porto, entraînant des affrontements, des arrestations et des blessés."
+    "why": "Les manifestants ont protesté contre l'aggravation de la crise du logement et le coût élevé de l'immobilier.",
+    "want": "Les manifestants ont exigé la fin des politiques qui facilitent les expulsons et lèvent le plafonnement des loyers sur les nouveaux contrats.",
+    "changed": "1er nov. : La police a évacué le camp de protestation à Porto, provoquant des affrontements, des arrestations et des blessés."
    },
-   "summary": "La police a évacué un campement de protestation pour le logement à Porto après le refus des participants de retirer leurs tentes, entraînant des affrontements entre les forces de l'ordre et les manifestants. Selon la police et les reportages des médias, les agents ont utilisé la force pour disperser la foule de la Praça D. João I vers l'Avenida dos Aliados. L'opération a suscité une attention considérable après qu'un officier de police en civil a sorti une arme à feu lors d'une confrontation. Les autorités ont signalé plusieurs policiers blessés, tandis que les organisateurs ont déclaré que des dizaines de manifestants avaient été blessés lors de l'intervention. Plusieurs personnes ont été interpellées lors de l'opération nocturne et relâchées par la suite avec des comparutions devant le tribunal à venir. Le maire de Porto a ensuite invité les manifestants à une réunion.",
+   "summary": "À la suite de marches pacifiques contre le coût élevé du logement et un nouveau projet de loi sur les loyers, des manifestants ont installé un camp de protestation sur la place Dom João I à Porto. Aux premières heures de dimanche, la police est intervenue avec des boucliers et des matraques pour démanteler le camp après le refus des participants de retirer leurs tentes. Pendant l'opération, des agents en civil ont surveillé la manifestation près du bâtiment municipal de l'avenue des Alliés, où une confrontation a conduit un policier en civil à dégainer une arme à feu à titre dissuasif au milieu de jets de pierres. Les organisateurs et les avocats ont critiqué l'intervention policière jugée excessive, signalant de nombreuses blessures parmi les manifestants. Selon la police de sécurité publique (PSP), sept individus ont été interpellés à Porto et treize policiers ont été blessés au cours de l'opération.",
    "demands": [
-    "Droit au logement"
+    "Abandonner les projets visant à faciliter les expulsions",
+    "Mettre fin au plafonnement des loyers pour les nouveaux contrats",
+    "Faire face à la grave crise du logement"
    ],
-   "response": "La police a évacué le campement après des avertissements. La PSP a déclaré que 13 agents ont été blessés et a qualifié le fait qu'un agent en civil a sorti une arme à feu de moyen de dissuasion passif. Le ministre de l'Administration interne a déclaré que l'action n'était pas une décision politique et que la police dispose d'une autonomie technique.",
+   "response": "La police a utilisé des boucliers et des matraques pour disperser les manifestants et évacuer les camps. La PSP a déclaré que 13 officiers ont été blessés à Porto et a décrit un incident où un agent infiltré a sorti une arme à feu comme moyen de dissuasion passif après avoir été attaqué par des manifestants. Sept personnes ont été interpellées à Porto.",
    "updates": [
-    "La police a évacué le campement de protestation pour le logement à Porto à la suite d'un refus des manifestants de retirer les tentes.",
-    "Un agent de police en civil a sorti une arme à feu lors de confrontations près du bâtiment municipal.",
-    "Les autorités ont confirmé sept arrestations à Porto, les détenus ayant été libérés plus tard dans la matinée.",
-    "Le maire de Porto a invité les manifestants à une réunion prévue le mardi suivant."
+    "La police est intervenue vers 4h30 du matin pour évacuer le camp de protestation sur la place Dom João I à Porto.",
+    "La PSP a confirmé qu'un agent infiltré a sorti une arme à feu à titre dissuasif lors d'affrontements près de l'avenue des Alliés.",
+    "Sept individus interpellés à Porto pendant l'opération ont été libérés dans l'attente d'une comparution devant le tribunal."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "sete pessoas",
-    "injuries": "13 polícias — 10 do Corpo de Intervenção da PSP e três que se encontravam à paisana — sofreram ferimentos"
+    "arrests": "sept personnes, dont quatre femmes et trois hommes, ont été interpellées à Porto",
+    "injuries": "l'organisation a signalé au moins 38 manifestants blessés à Porto, ainsi que 13 policiers blessés"
    }
   },
   "de": {
-   "title": "Polizei räumt Wohnungsnot-Protestcamp in Porto",
-   "seoTitle": "Wohnungsnot-Protestcamp in Porto von Polizei geräumt",
+   "title": "Polizei räumt Wohnungsprotestcamp in Porto",
+   "seoTitle": "Wohnungsprotestcamp in Porto von Polizei geräumt",
    "tea": {
-    "why": "Demonstranten bauten ein Camp auf, um Wohnungsrechte zu fordern.",
-    "want": "Wohnungsrechte und die Aufrechterhaltung ihres Protestcamps.",
-    "changed": "1. Nov.: Die Polizei räumte das Wohnungsnot-Protestcamp in Porto, was zu Zusammenstößen, Festnahmen und Verletzten führte."
+    "why": "Demonstranten protestierten gegen die verschärfte Wohnungsnot und die hohen Kosten für Wohnraum.",
+    "want": "Demonstranten forderten ein Ende der Maßnahmen, die Zwangsräumungen erleichtern und Mietpreisdeckel für neue Verträge aufheben.",
+    "changed": "1. Nov.: Die Polizei räumte das Protestcamp in Porto, was zu Zusammenstößen, Festnahmen und Verletzten führte."
    },
-   "summary": "Die Polizei räumte ein Wohnungsnot-Protestcamp in Porto, nachdem sich die Teilnehmer geweigert hatten, ihre Zelte zu entfernen, was zu Zusammenstößen zwischen den Einsatzkräften und Demonstranten führte. Laut Polizei- und Medienberichten setzten Beamte Gewalt ein, um die Menge vom Praça D. João I in Richtung Avenida dos Aliados zu vertreiben. Die Operation erregte große Aufmerksamkeit, nachdem ein Zivilpolizist während einer Konfrontation eine Schusswaffe gezogen hatte. Die Behörden meldeten mehrere verletzte Polizeibeamte, während Organisatoren angaben, dass Dutzende Demonstranten während des Eingreifens verletzt wurden. Mehrere Personen wurden während der nächtlichen Operation festgenommen und später mit bevorstehenden Gerichtsterminen freigelassen. Der Bürgermeister von Porto lud die Demonstranten später zu einem Treffen ein.",
+   "summary": "Nach friedlichen Märschen gegen hohe Wohnkosten und ein neues Mietgesetz errichteten Demonstranten ein Protestcamp auf dem Dom-João-I-Platz in Porto. In den frühen Morgenstunden des Sonntags rückte die Polizei mit Schilden und Schlagstöcken an, um das Camp zu räumen, nachdem sich die Teilnehmer geweigert hatten, ihre Zelte zu entfernen. Während des Einsatzes beobachteten Zivilbeamte die Demonstration nahe dem städtischen Gebäude an der Avenida dos Aliados, wo eine Konfrontation dazu führte, dass ein ziviler Polizeibeamter inmitten von Steinwürfen eine Feuerwaffe als Abschreckung zog. Organisatoren und Anwälte kritisierten den Polizeieinsatz als übermäßig und meldeten zahlreiche Verletzte unter den Demonstranten. Nach Angaben der Public Security Police (PSP) wurden in Porto sieben Personen festgenommen und dreizehn Polizeibeamte während des Einsatzes verletzt.",
    "demands": [
-    "Wohnungsrechte"
+    "Pläne zur Erleichterung von Zwangsräumungen aufgeben",
+    "Mietpreisdeckel für neue Verträge beenden",
+    "Die schwere Wohnungsnot bekämpfen"
    ],
-   "response": "Die Polizei räumte das Camp nach Warnungen. Die PSP erklärte, dass 13 Beamte verletzt wurden, und beschrieb das Ziehen einer Schusswaffe durch einen Zivilbeamten als passives Abschreckungsmittel. Der Minister für interne Verwaltung erklärte, dass die Aktion keine politische Entscheidung war und die Polizei über technische Autonomie verfügt.",
+   "response": "Die Polizei setzte Schilde und Schlagstöcke ein, um Demonstranten zu vertreiben und die Camps zu räumen. Die PSP gab an, dass in Porto 13 Beamte verletzt wurden, und schilderte einen Vorfall, bei dem ein verdeckter Ermittler nach einem Angriff durch Demonstranten eine Feuerwaffe als passives Abschreckungsmittel zog. Sieben Personen wurden in Porto festgenommen.",
    "updates": [
-    "Die Polizei räumte das Wohnungsnot-Protestcamp in Porto, nachdem sich Demonstranten geweigert hatten, Zelte zu entfernen.",
-    "Ein Zivilpolizist zog während Auseinandersetzungen in der Nähe des städtischen Gebäudes eine Schusswaffe.",
-    "Die Behörden bestätigten sieben Festnahmen in Porto, wobei die Inhaftierten später an diesem Morgen freigelassen wurden.",
-    "Der Bürgermeister von Porto lud die Demonstranten zu einem für den folgenden Dienstag angesetzten Treffen ein."
+    "Die Polizei rückte gegen 4:30 Uhr morgens an, um das Protestcamp auf dem Dom-João-I-Platz in Porto zu räumen.",
+    "Die PSP bestätigte, dass ein verdeckter Ermittler während Zusammenstößen in der Nähe der Avenida dos Aliados eine Feuerwaffe zur Abschreckung zog.",
+    "Sieben während des Einsatzes in Porto festgenommene Personen wurden bis zu einem Gerichtstermin freigelassen."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "sete pessoas",
-    "injuries": "13 polícias — 10 do Corpo de Intervenção da PSP e três que se encontravam à paisana — sofreram ferimentos"
+    "arrests": "sieben Personen, darunter vier Frauen und drei Männer, wurden in Porto festgenommen",
+    "injuries": "die Organisation meldete mindestens 38 verletzte Demonstranten in Porto sowie 13 verletzte Polizeibeamte"
    }
   }
  }
