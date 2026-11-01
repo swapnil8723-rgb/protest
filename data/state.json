@@ -1,33 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-01",
-  "count": 120
+  "count": 186
  },
  "runs": [
-  {
-   "at": "2026-10-26T07:44:00.812Z",
-   "ms": 331788,
-   "discovered": 54,
-   "fetched": 49,
-   "classified": 38,
-   "protests": 22,
-   "summarized": 15,
-   "published": 172,
-   "live": 13,
-   "aiCalls": 34,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 11 files, 33 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 185 protest-word items",
-    "search: 6 single-source stories checked, 6 other newsrooms found",
-    "fetch: 49 ok, 5 failed",
-    "summary: ed7734df8ad judged not real: The sources only report an announcement of upcoming protests by the BJP, not that any physical protest has actually taken place yet.",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 14 events"
-   ],
-   "translated": 14
-  },
   {
    "at": "2026-10-26T11:49:09.749Z",
    "ms": 674582,
@@ -1590,8 +1566,49 @@
     "translate: 14 events"
    ],
    "translated": 14
+  },
+  {
+   "at": "2026-11-01T16:50:29.544Z",
+   "ms": 736695,
+   "discovered": 171,
+   "fetched": 148,
+   "classified": 137,
+   "protests": 96,
+   "summarized": 28,
+   "published": 318,
+   "live": 13,
+   "aiCalls": 66,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 18 files, 84 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss bianet.org: 403",
+    "rss www.francetvinfo.fr: The operation was aborted due to timeout",
+    "rss: 286 protest-word items",
+    "search: 25 single-source stories checked (5 in their own language), 43 other newsrooms found",
+    "fetch: 148 ok, 23 failed",
+    "classify: new candidate e24e53a4f1f \"Students protest against electoral roll revision\" (Delhi)",
+    "classify: new candidate eaa008531a2 \"BJP 'Loktantra Bachao' march against opposition rally\" (Rohtak)",
+    "classify: new candidate e082cea18ab \"Haitian immigrants march for rights\" (Springfield)",
+    "classify: new candidate ed554224b98 \"Students announce resumption of high school blockades\" (Paris)",
+    "classify: new candidate e86ae673bc2 \"Police conduct during housing protest in Porto\" (Porto)",
+    "classify: new candidate e234120147a \"Students protest against shooting of female students in Nushki\" (Turbat)",
+    "classify: new candidate e3e3bb0b4d1 \"Local activist organizes protest against US government\" (Middletown)",
+    "classify: new candidate e4ec52a209d \"IG Metall warning strikes in metal and electrical industry\" (Magdeburg)",
+    "classify: new candidate e244549ed6b \"Students and farmers march against economic crisis\" (Crotone)",
+    "classify: new candidate e0065bf1128 \"Protests and clashes in Kangpokpi over deaths of two men\" (Kangpokpi)",
+    "classify: new candidate eb05e0dd117 \"Protest in Mumbai supporting Rahul Gandhi\" (Mumbai)",
+    "classify: new candidate e69b79a68d2 \"Student-led protests over education and living costs in France\" (Bordeaux)",
+    "classify: new candidate edc6c6c3dee \"Protest against Andrea Bocelli concert over Israel support\" (Magelang)",
+    "classify: new candidate e97e4e8bf99 \"IG Metall warning strike at KSM Castings\" (Hildesheim)",
+    "classify: new candidate e596b9978dc \"Gen Z youth demonstrations turn to evening riots in Germany\" (Frankfurt am Main)",
+    "summary: e95e103ec3a only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 25 events"
+   ],
+   "translated": 25
   }
  ],
- "gdeltCursor": "20261101123000",
- "lastRunAt": "2026-11-01T12:20:52.270Z"
+ "gdeltCursor": "20261101170000",
+ "lastRunAt": "2026-11-01T16:50:29.544Z"
 }

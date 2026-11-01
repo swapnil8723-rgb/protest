@@ -2,8 +2,8 @@
  "id": "e1ca8f7219d",
  "slug": "hamburg-halloween-conscription-protest-oct-2026",
  "stage": "live",
- "title": "Protests in Hamburg over education, living costs, and military service",
- "seoTitle": "Hamburg protests over education and living costs",
+ "title": "Protests organised by Gen Z regelt in Hamburg",
+ "seoTitle": "Hamburg Gen Z regelt protest",
  "place": {
   "city": "Hamburg",
   "region": "Hamburg",
@@ -13,11 +13,11 @@
   "citySlug": "hamburg",
   "regionSlug": "hamburg"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "education",
   "prices",
-  "climate"
+  "war-peace"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-31",
@@ -26,248 +26,274 @@
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "serious"
+  "serious",
+  "low-confidence",
+  "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated against rising living costs, education budget cuts, and potential compulsory military service.",
-  "want": "Demonstrators demanded better education funding, healthcare improvements, climate protection, and affordable living costs.",
-  "changed": "Nov 1: Police reported 120 people were taken into custody and 12 police officers were injured following clashes."
+  "why": "Protesters expressed dissatisfaction with the education system, living costs, climate policy, and potential reintroduction of military service.",
+  "want": "Participants demanded increased investment in education, social security, and health, alongside climate action and opposition to military service.",
+  "changed": "Nov 1: Police reported 120 people were taken into custody following clashes and arson incidents in the St. Georg district."
  },
- "summary": "Demonstrations organized by the youth initiative 'Gen Z regelt' took place in Hamburg, drawing participants who marched from Jungfernstieg via Mönckebergstraße toward Lohmühlenpark. Although an initial independent registration was altered, participants gathered to voice opposition against compulsory military service and to demand increased investments in education, social security, healthcare, and climate protection, alongside measures to combat high living costs. According to reports, the demonstration turned chaotic by evening, with individuals setting up and burning barricades, dragging objects onto roads, and throwing bottles, firecrackers, and cobblestones at law enforcement officers while chanting slogans. The police deployed a large force of 1,300 officers, eventually ending the demonstration via loudspeaker announcements and taking dozens of individuals into custody amid running confrontations.",
+ "summary": "On October 31, 2026, thousands gathered in Hamburg for a demonstration associated with the nationwide initiative Gen Z regelt. While organisers claimed 10,000 participants, police estimated between 6,000 and 7,000 attendees. The event, which began in the city center, initially proceeded peacefully. However, by the evening, the situation escalated in the St. Georg district. According to police, groups engaged in clashes with officers, constructed and ignited barricades, and threw objects including bottles and stones. Police deployed 1,300 officers to manage the unrest and declared the demonstration ended around 5:00 PM. Authorities reported that 12 police officers were injured during the events. The protest was part of a broader series of actions across Germany addressing education, living costs, and military service.",
  "organizers": [
-  "Gen Z regelt"
+  "Gen Z regelt",
+  "Internationaler Jugendverband"
  ],
  "demands": [
-  "Increase funding for the education system",
-  "Implement consistent climate protection measures",
-  "Address rising living costs and social security",
-  "Oppose any return of compulsory military service"
+  "Increased education funding",
+  "Climate protection",
+  "Affordable living costs",
+  "Opposition to compulsory military service"
  ],
- "response": "According to reports, police deployed a large force of 1,300 officers equipped with drones and water cannons in various regions, declaring the protest ended around 5 PM before confronting groups setting up burning barricades and throwing projectiles.",
+ "response": "Police deployed 1,300 officers and used loudspeakers to declare the demonstration over. Police stated they would pursue criminal charges for the violence and arson incidents. Twelve officers were reported injured.",
  "numbers": {
-  "arrests": {
-   "value": 120,
-   "text": "120 Menschen wurden von der Polizei in Gewahrsam genommen",
+  "crowd": {
+   "value": 6000,
+   "text": "Police estimated 6,000 to 7,000 participants; organisers claimed 10,000.",
    "sources": [
     3
    ]
   },
+  "arrests": {
+   "value": 120,
+   "text": "120 people were taken into custody by police.",
+   "sources": [
+    2
+   ]
+  },
   "injuries": {
    "value": 12,
-   "text": "12 verletzte Polizistinnen und Polizisten",
+   "text": "Twelve police officers were injured.",
    "sources": [
-    3
+    2
    ]
   }
  },
  "updates": [
   {
-   "at": "2026-10-29",
-   "text": "Police announced preparations with multiple hundreds of officers and drones as a Gen-Z-linked rally was registered by a private individual.",
+   "at": "2026-10-31",
+   "text": "Demonstration takes place in Hamburg city center with thousands of participants.",
    "sources": [
-    1
+    2,
+    3
    ]
   },
   {
-   "at": "2026-11-01",
-   "text": "Thousands participated in nationwide youth-organized demonstrations in Hamburg, calling for education and climate measures while opposing military service.",
+   "at": "2026-10-31",
+   "text": "Police declare the demonstration ended at 17:00; clashes and arson reported in St. Georg.",
    "sources": [
     2
    ]
   },
   {
    "at": "2026-11-01",
-   "text": "Police declared the Hamburg protest ended at 5 PM after which groups erected burning barricades and threw fireworks, leading to 120 detentions and 12 injured officers.",
+   "text": "Police confirm 120 people were taken into custody and 12 officers were injured.",
    "sources": [
-    3
+    2
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://hamburg.t-online.de/region/hamburg/id_101502490/gen-z-demo-in-hamburg-faellt-aus-polizei-ruestet-trotzdem-auf.html",
-   "publisher": "hamburg.t-online.de",
-   "title": "Hamburger Polizei rüstet sich – dabei gibt es keine Demo von \"Gen Z regelt\"",
-   "publishedAt": "2026-10-29T01:23:39.406Z"
-  },
-  {
-   "n": 2,
    "url": "https://news.tvb.com/en/1204000-YouthorganisedprotestseruptacrossGermany",
    "publisher": "news.tvb.com",
    "title": "Youth-organised protests erupt across Germany",
    "publishedAt": "2026-11-01T05:29:00.000Z"
   },
   {
-   "n": 3,
+   "n": 2,
    "url": "https://www.ndr.de/nachrichten/hamburg/ausschreitungen-nach-gen-z-regelt-demo-in-hamburg-120-festnahmen,genz-132.html",
    "publisher": "ndr.de",
    "title": "Brennende Barrikaden und Wasserwerfer: \"Gen-Z-regelt\"-Demo in Hamburg mit Ausschreitungen",
    "publishedAt": "2026-11-01T10:40:01.451Z"
+  },
+  {
+   "n": 3,
+   "url": "https://taz.de/Gen-Z-regelt-Demonstrationen/!6226455/",
+   "publisher": "taz.de",
+   "title": "„Gen Z regelt“-Demonstrationen: Eine Bühne für die Unzufriedenheit",
+   "publishedAt": "2026-11-01T15:35:00.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.8,
+ "conflicts": [
+  "Organisers claimed 10,000 participants; police estimated 6,000 to 7,000."
+ ],
+ "confidence": 0.65,
  "publishers": 3,
  "reports24h": 3,
- "reportsPrev24h": 1,
- "reports48h": 4,
+ "reportsPrev24h": 2,
+ "reports48h": 5,
  "firstSeenAt": "2026-10-29T09:52:56.655Z",
- "lastReportAt": "2026-11-01T10:40:01.451Z",
- "lastCheckedAt": "2026-11-01T12:30:11.958Z",
- "updatedAt": "2026-11-01T12:29:26.664Z",
+ "lastReportAt": "2026-11-01T15:35:00.000Z",
+ "lastCheckedAt": "2026-11-01T16:58:28.365Z",
+ "updatedAt": "2026-11-01T16:57:11.951Z",
  "searchedAt": "2026-10-29T12:50:41.506Z",
  "responseSources": [
-  1,
-  2,
-  3
+  2
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-01T12:29:26.664Z",
- "summaryOf": "cc2786c62946",
+ "summarizedAt": "2026-11-01T16:57:11.951Z",
+ "summaryOf": "77119c048ff3",
  "publishedAt": "2026-10-29T12:53:54.977Z",
  "i18n": {
-  "of": "d53921bd69c43ed9",
-  "at": "2026-11-01T12:31:52.216Z",
+  "of": "6e17e15cdc733343",
+  "at": "2026-11-01T17:00:12.658Z",
   "tries": 1,
   "hi": {
-   "title": "शिक्षा, जीवनयापन लागत और सैन्य सेवा को लेकर हैम्बर्ग में प्रदर्शन",
-   "seoTitle": "शिक्षा और जीवन लागत को लेकर हैम्बर्ग में प्रदर्शन",
+   "title": "हैम्बर्ग में Gen Z regelt द्वारा आयोजित विरोध प्रदर्शन",
+   "seoTitle": "हैम्बर्ग Gen Z regelt विरोध",
    "tea": {
-    "why": "प्रदर्शनकारियों ने बढ़ती जीवन लागत, शिक्षा बजट में कटौती और संभावित अनिवार्य सैन्य सेवा के खिलाफ प्रदर्शन किया।",
-    "want": "प्रदर्शनकारियों ने बेहतर शिक्षा वित्तपोषण, स्वास्थ्य सेवा में सुधार, जलवायु संरक्षण और किफायती जीवन लागत की मांग की।",
-    "changed": "1 नवंबर: पुलिस ने बताया कि झड़पों के बाद 120 लोगों को हिरासत में लिया गया और 12 पुलिसकर्मी घायल हो गए।"
+    "why": "प्रदर्शनकारियों ने शिक्षा प्रणाली, जीवन यापन की लागत, जलवायु नीति और सैन्य सेवा को संभावित रूप से फिर से शुरू करने पर असंतोष व्यक्त किया।",
+    "want": "प्रतिभागियों ने शिक्षा, सामाजिक सुरक्षा और स्वास्थ्य में निवेश बढ़ाने के साथ-साथ जलवायु कार्रवाई और सैन्य सेवा के विरोध की मांग की।",
+    "changed": "1 नवंबर: पुलिस ने बताया कि सेंट जॉर्ज़ जिले में झड़पों और आगजनी की घटनाओं के बाद 120 लोगों को हिरासत में लिया गया।"
    },
-   "summary": "युवा पहल 'जेन जेड रीगेल्ट' द्वारा आयोजित प्रदर्शन हैम्बर्ग में हुए, जिसमें प्रतिभागियों ने जुंगफर्नस्टीग से मोंकेबर्गस्ट्रासे होते हुए लोहमूहलेनपार्क की ओर मार्च किया। हालांकि शुरुआती स्वतंत्र पंजीकरण में बदलाव किया गया था, लेकिन प्रतिभागी अनिवार्य सैन्य सेवा का विरोध करने तथा शिक्षा, सामाजिक सुरक्षा, स्वास्थ्य सेवा और जलवायु संरक्षण में निवेश बढ़ाने के साथ-साथ उच्च जीवन लागत से निपटने के उपायों की मांग के लिए एकत्र हुए। रिपोर्टों के अनुसार, शाम तक प्रदर्शन हिंसक हो गया, जिसमें लोगों ने नारे लगाते हुए बैरिकेड्स लगाए और जलाए, सड़कों पर वस्तुएं खींचीं तथा कानून प्रवर्तन अधिकारियों पर बोतलें, पटाखे और कोबलस्टोन फेंके। पुलिस ने 1,300 अधिकारियों के भारी बल को तैनात किया, अंततः लाउडस्पीकर घोषणाओं के माध्यम से प्रदर्शन को समाप्त किया और दौड़-भाग के बीच दर्जनों व्यक्तियों को हिरासत में ले लिया।",
+   "summary": "31 अक्टूबर 2026 को, हैम्बर्ग में राष्ट्रव्यापी पहल Gen Z regelt से जुड़ी एक प्रदर्शन के लिए हजारों लोग एकत्र हुए। हालांकि आयोजकों ने 10,000 प्रतिभागियों का दावा किया, पुलिस ने 6,000 से 7,000 के बीच उपस्थिति का अनुमान लगाया। शहर के केंद्र में शुरू हुआ यह कार्यक्रम शुरू में शांतिपूर्ण रहा। हालांकि, शाम तक सेंट जॉर्ज़ जिले में स्थिति बिगड़ गई। पुलिस के अनुसार, समूहों ने अधिकारियों के साथ झड़प की, बैरिकेड्स बनाए और जलाए, और बोतलें और पत्थर जैसी वस्तुएं फेंकीं। पुलिस ने अशांति को नियंत्रित करने के लिए 1,300 अधिकारियों को तैनात किया और शाम 5:00 बजे प्रदर्शन समाप्त होने की घोषणा की। अधिकारियों ने बताया कि घटनाओं के दौरान 12 पुलिस अधिकारी घायल हुए। यह विरोध प्रदर्शन शिक्षा, जीवन यापन की लागत और सैन्य सेवा को संबोधित करने वाले जर्मनी भर में कार्यों की एक व्यापक श्रृंखला का हिस्सा था।",
    "demands": [
-    "शिक्षा प्रणाली के लिए वित्तपोषण बढ़ाएं",
-    "निरंतर जलवायु संरक्षण उपाय लागू करें",
-    "बढ़ती जीवन लागत और सामाजिक सुरक्षा का समाधान करें",
-    "अनिवार्य सैन्य सेवा की किसी भी वापसी का विरोध करें"
+    "शिक्षा निधि में वृद्धि",
+    "जलवायु संरक्षण",
+    "किफायती जीवन यापन लागत",
+    "अनिवार्य सैन्य सेवा का विरोध"
    ],
-   "response": "रिपोर्टों के अनुसार, पुलिस ने विभिन्न क्षेत्रों में ड्रोन और वॉटर कैनन से लैस 1,300 अधिकारियों के एक बड़े बल को तैनात किया, शाम करीब 5 बजे प्रदर्शन के समाप्त होने की घोषणा की और उसके बाद जलते हुए बैरिकेड्स लगाने तथा वस्तुएं फेंकने वाले समूहों का मुकाबला किया।",
+   "response": "पुलिस ने 1,300 अधिकारियों को तैनात किया और प्रदर्शन समाप्त होने की घोषणा करने के लिए लाउडस्पीकर का उपयोग किया। पुलिस ने कहा कि वे हिंसा और आगजनी की घटनाओं के लिए आपराधिक आरोप तय करेंगे। बारह अधिकारियों के घायल होने की सूचना मिली।",
    "updates": [
-    "पुलिस ने कई सौ अधिकारियों और ड्रोनों के साथ तैयारियों की घोषणा की क्योंकि एक निजी व्यक्ति द्वारा जेन-जेड से जुड़ी रैली पंजीकृत की गई थी।",
-    "हैम्बर्ग में राष्ट्रव्यापी युवा-आयोजित प्रदर्शनों में हजारों लोगों ने हिस्सा लिया, जिसमें सैन्य सेवा का विरोध करते हुए शिक्षा और जलवायु उपायों की मांग की गई।",
-    "पुलिस ने शाम 5 बजे हैम्बर्ग प्रदर्शन के समाप्त होने की घोषणा की जिसके बाद समूहों ने जलते हुए बैरिकेड्स खड़े किए और आतिशबाजी फेंकी, जिससे 120 लोगों को हिरासत में लिया गया और 12 अधिकारी घायल हो गए।"
+    "हैम्बर्ग शहर के केंद्र में हजारों प्रतिभागियों के साथ प्रदर्शन हुआ।",
+    "पुलिस ने 17:00 बजे प्रदर्शन समाप्त होने की घोषणा की; सेंट जॉर्ज़ में झड़पें और आगजनी की सूचना मिली।",
+    "पुलिस ने पुष्टि की कि 120 लोगों को हिरासत में लिया गया और 12 अधिकारी घायल हुए।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "आयोजकों ने 10,000 प्रतिभागियों का दावा किया; पुलिस ने 6,000 से 7,000 का अनुमान लगाया।"
+   ],
    "numbers": {
-    "arrests": "120 लोगों को पुलिस ने हिरासत में लिया",
-    "injuries": "12 घायल पुलिस अधिकारी"
+    "crowd": "पुलिस ने 6,000 से 7,000 प्रतिभागियों का अनुमान लगाया; आयोजकों ने 10,000 का दावा किया।",
+    "arrests": "पुलिस द्वारा 120 लोगों को हिरासत में लिया गया।",
+    "injuries": "बारह पुलिस अधिकारी घायल हुए।"
    }
   },
   "mr": {
-   "title": "हॅम्बर्गमध्ये शिक्षण, राहणीमानाचा खर्च आणि लष्करी सेवेविरोधात निदर्शने",
-   "seoTitle": "शिक्षण आणि राहणीमान खर्चावरून हॅम्बर्गमध्ये निदर्शने",
+   "title": "हॅम्बर्गमध्ये Gen Z regelt द्वारे आयोजित निषेध",
+   "seoTitle": "हॅम्बर्ग Gen Z regelt निषेध",
    "tea": {
-    "why": "निदर्शकांनी वाढता राहणीमान खर्च, शिक्षणातील बजेट कपात आणि संभाव्य सक्तीच्या लष्करी सेवेविरोधात निदर्शने केली.",
-    "want": "निदर्शकांनी चांगल्या शिक्षण निधीची, आरोग्य सेवेतील सुधारणांची, पर्यावरण संरक्षणाची आणि परवडणाऱ्या राहणीमान खर्चाची मागणी केली.",
-    "changed": "१ नोव्हेंबर: पोलिसांनी सांगितले की संघर्षानंतर १२० लोकांना ताब्यात घेण्यात आले आणि १२ पोलीस अधिकारी जखमी झाले."
+    "why": "निषेधकर्त्यांनी शिक्षण प्रणाली, राहणीमानाचा खर्च, हवामान धोरण आणि लष्करी सेवा पुन्हा सुरू करण्याच्या शक्यतेबद्दल असंतोष व्यक्त केला.",
+    "want": "सहभागींनी शिक्षण, सामाजिक सुरक्षा आणि आरोग्य क्षेत्रात गुंतवणूक वाढवण्याची, तसेच हवामान कृती आणि लष्करी सेवेला विरोध करण्याची मागणी केली.",
+    "changed": "१ नोव्हेंबर: सेंट जॉर्झ जिल्ह्यात झालेल्या चकमकी आणि जाळपोळीच्या घटनांनंतर १२० लोकांना ताब्यात घेतल्याचे पोलिसांनी सांगितले."
    },
-   "summary": "'जेन झेड रीगेल्ट' या तरुण उपक्रमाद्वारे आयोजित निदर्शने हॅम्बर्गमध्ये झाली, ज्यामध्ये सहभागींनी जुंगफर्नस्टीगपासून मोंकेबर्गस्ट्रासेमार्गे लोहमूहलेनपार्कपर्यंत मोर्चा काढला. जरी सुरुवातीची स्वतंत्र नोंदणी बदलली गेली तरी, सहभागी सक्तीच्या लष्करी सेवेचा विरोध करण्यासाठी आणि शिक्षण, सामाजिक सुरक्षा, आरोग्य सेवा आणि पर्यावरण संरक्षणात वाढीव गुंतवणुकीची मागणी करण्यासाठी तसेच उच्च राहणीमानाचा खर्च रोखण्यासाठीच्या उपायांची मागणी करण्यासाठी एकत्र आले. अहवालानुसार, संध्याकाळपर्यंत निदर्शने अस्ताव्यस्त झाली, ज्यामध्ये व्यक्तींनी घोषणाबाजी करत बॅरिकेड्स उभारले आणि जाळले, रस्त्यावर वस्तू ओढल्या आणि कायद्याची अंमलबजावणी करणाऱ्या अधिकाऱ्यांवर बाटल्या, फटाके आणि दगडफेक केली. पोलिसांनी १,३०० अधिकाऱ्यांचा मोठा फौजफाटा तैनात केला, शेवटी लाउडस्पीकरच्या घोषणांद्वारे निदर्शने संपवली आणि धावपळीच्या संघर्षात डझनभर लोकांना ताब्यात घेतले.",
+   "summary": "३१ ऑक्टोबर २०२६ रोजी, हॅम्बर्गमध्ये 'Gen Z regelt' या देशव्यापी उपक्रमाशी संबंधित निदर्शनासाठी हजारो लोक जमले होते. आयोजकांनी १०,००० सहभागी असल्याचा दावा केला असला, तरी पोलिसांनी ६,००० ते ७,००० उपस्थितीचा अंदाज वर्तवला. शहराच्या मध्यवर्ती भागात सुरू झालेला हा कार्यक्रम सुरुवातीला शांततेत पार पडला. मात्र, संध्याकाळपर्यंत सेंट जॉर्झ जिल्ह्यात परिस्थिती चिघळली. पोलिसांच्या म्हणण्यानुसार, गटांनी अधिकाऱ्यांशी झटापट केली, बॅरिकेड्स उभारून ते पेटवून दिले आणि बाटल्या व दगडांसह इतर वस्तू फेकल्या. पोलिसांनी अशांतता हाताळण्यासाठी १,३०० अधिकारी तैनात केले आणि संध्याकाळी ५:०० वाजता निदर्शन संपल्याचे जाहीर केले. या घटनांमध्ये १२ पोलीस अधिकारी जखमी झाल्याचे अधिकाऱ्यांनी सांगितले. हा निषेध शिक्षण, राहणीमानाचा खर्च आणि लष्करी सेवा या विषयांवर जर्मनीभर सुरू असलेल्या कृतींच्या मालिकेचा एक भाग होता.",
    "demands": [
-    "शिक्षण प्रणालीसाठी निधी वाढवा",
-    "सुसंगत पर्यावरण संरक्षण उपाय लागू करा",
-    "वाढता राहणीमान खर्च आणि सामाजिक सुरक्षिततेचे निराकरण करा",
-    "सक्तीच्या लष्करी सेवेच्या कोणत्याही पुनरागमनाला विरोध करा"
+    "शिक्षण निधीत वाढ",
+    "हवामान संरक्षण",
+    "परवडणारा राहणीमानाचा खर्च",
+    "अनिवार्य लष्करी सेवेला विरोध"
    ],
-   "response": "अहवालानुसार, पोलिसांनी विविध प्रदेशांमध्ये ड्रोन आणि पाण्याचे फवारे सज्ज असलेल्या १,३०० अधिकाऱ्यांचा मोठा फौजफाटा तैनात केला, संध्याकाळी ५ च्या सुमारास आंदोलन संपल्याचे घोषित केले आणि त्यानंतर जळणारे बॅरिकेड्स उभारणाऱ्या व वस्तू फेकणाऱ्या गटांचा सामना केला.",
+   "response": "पोलिसांनी १,३०० अधिकारी तैनात केले आणि निदर्शन संपल्याची घोषणा करण्यासाठी लाउडस्पीकरचा वापर केला. हिंसाचार आणि जाळपोळीच्या घटनांसाठी फौजदारी गुन्हे दाखल केले जातील असे पोलिसांनी सांगितले. बारा अधिकारी जखमी झाल्याचे वृत्त आहे.",
    "updates": [
-    "एका खाजगी व्यक्तीने जेन-झेडशी संबंधित रॅलीची नोंदणी केल्यानंतर पोलिसांनी शेकडो अधिकारी आणि ड्रोन्ससह तयारीची घोषणा केली.",
-    "हॅम्बर्गमध्ये तरुण-संघटित देशव्यापी निदर्शनांमध्ये हजारो लोकांनी सहभाग घेतला, लष्करी सेवेला विरोध करताना शिक्षण आणि पर्यावरणाच्या उपायांची मागणी केली.",
-    "पोलिसांनी सायंकाळी ५ वाजता हॅम्बर्गमधील निदर्शने संपल्याचे घोषित केले ज्यानंतर गटांनी जळणारे बॅरिकेड्स उभे केले आणि आतषबाजी केली, ज्यामुळे १२० जणांना ताब्यात घेण्यात आले आणि १२ अधिकारी जखमी झाले."
+    "हॅम्बर्ग शहराच्या मध्यवर्ती भागात हजारो सहभागींसह निदर्शन झाले.",
+    "पोलिसांनी १७:०० वाजता निदर्शन संपल्याचे जाहीर केले; सेंट जॉर्झमध्ये चकमकी आणि जाळपोळीच्या घटना नोंदवण्यात आल्या.",
+    "पोलिसांनी १२० लोकांना ताब्यात घेतल्याची आणि १२ अधिकारी जखमी झाल्याची पुष्टी केली."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "आयोजकांनी १०,००० सहभागी असल्याचा दावा केला; पोलिसांनी ६,००० ते ७,००० चा अंदाज वर्तवला."
+   ],
    "numbers": {
-    "arrests": "१२० जणांना पोलिसांनी ताब्यात घेतले",
-    "injuries": "१२ जखमी पोलीस अधिकारी"
+    "crowd": "पोलिसांनी ६,००० ते ७,००० सहभागींचा अंदाज वर्तवला; आयोजकांनी १०,००० चा दावा केला.",
+    "arrests": "पोलिसांनी १२० लोकांना ताब्यात घेतले.",
+    "injuries": "बारा पोलीस अधिकारी जखमी झाले."
    }
   },
   "es": {
-   "title": "Protestas en Hamburgo por la educación, el costo de vida y el servicio militar",
-   "seoTitle": "Protestas en Hamburgo por educación y costo de vida",
+   "title": "Protestas organizadas por Gen Z regelt en Hamburgo",
+   "seoTitle": "Protesta Gen Z regelt en Hamburgo",
    "tea": {
-    "why": "Los manifestantes se manifestaron contra el aumento del costo de vida, los recortes presupuestarios en educación y el posible servicio militar obligatorio.",
-    "want": "Los manifestantes exigieron una mejor financiación para la educación, mejoras en la salud, protección climática y un costo de vida asequible.",
-    "changed": "1 de noviembre: La policía informó que 120 personas fueron detenidas y 12 agentes de policía resultaron heridos tras los enfrentamientos."
+    "why": "Los manifestantes expresaron su insatisfacción con el sistema educativo, el coste de vida, la política climática y la posible reintroducción del servicio militar.",
+    "want": "Los participantes exigieron una mayor inversión en educación, seguridad social y salud, además de medidas climáticas y oposición al servicio militar.",
+    "changed": "1 de noviembre: La policía informó que 120 personas fueron detenidas tras enfrentamientos e incidentes de incendio provocado en el distrito de St. Georg."
    },
-   "summary": "Las manifestaciones organizadas por la iniciativa juvenil 'Gen Z regelt' tuvieron lugar en Hamburgo, atrayendo a participantes que marcharon desde Jungfernstieg a través de Mönckebergstraße hacia Lohmühlenpark. Aunque un registro independiente inicial fue alterado, los participantes se reunieron para expresar su oposición contra el servicio militar obligatorio y exigir mayores inversiones en educación, seguridad social, salud y protección climática, junto con medidas para combatir el alto costo de vida. Según los informes, la manifestación se volvió caótica al anochecer, con individuos montando y quemando barricadas, arrastrando objetos a las carreteras y lanzando botellas, petardos y adoquines a los agentes del orden mientras coreaban consignas. La policía desplegó una gran fuerza de 1,300 agentes, poniendo fin finalmente a la manifestación mediante anuncios por altavoz y deteniendo a decenas de personas en medio de enfrentamientos dispersos.",
+   "summary": "El 31 de octubre de 2026, miles de personas se reunieron en Hamburgo para una manifestación asociada con la iniciativa nacional Gen Z regelt. Aunque los organizadores afirmaron que hubo 10.000 participantes, la policía estimó entre 6.000 y 7.000 asistentes. El evento, que comenzó en el centro de la ciudad, transcurrió inicialmente de forma pacífica. Sin embargo, por la tarde, la situación se intensificó en el distrito de St. Georg. Según la policía, grupos se enfrentaron con los agentes, construyeron e incendiaron barricadas y lanzaron objetos, incluyendo botellas y piedras. La policía desplegó 1.300 agentes para controlar los disturbios y declaró terminada la manifestación alrededor de las 17:00 horas. Las autoridades informaron que 12 agentes de policía resultaron heridos durante los hechos. La protesta fue parte de una serie más amplia de acciones en toda Alemania sobre educación, coste de vida y servicio militar.",
    "demands": [
-    "Aumentar la financiación para el sistema educativo",
-    "Implementar medidas consistentes de protección climática",
-    "Abordar el aumento del costo de vida y la seguridad social",
-    "Oponerse a cualquier regreso del servicio militar obligatorio"
+    "Aumento de la financiación educativa",
+    "Protección climática",
+    "Coste de vida asequible",
+    "Oposición al servicio militar obligatorio"
    ],
-   "response": "Según los informes, la policía desplegó una gran fuerza de 1,300 agentes equipados con drones y cañones de agua en varias regiones, declarando la protesta terminada alrededor de las 5 PM antes de enfrentarse a grupos que instalaban barricadas ardientes y lanzaban proyectiles.",
+   "response": "La policía desplegó 1.300 agentes y utilizó altavoces para declarar terminada la manifestación. La policía declaró que presentaría cargos penales por los incidentes de violencia e incendio. Se informó que doce agentes resultaron heridos.",
    "updates": [
-    "La policía anunció preparativos con varios cientos de oficiales y drones cuando una manifestación vinculada a la Generación Z fue registrada por un particular.",
-    "Miles participaron en manifestaciones juveniles a nivel nacional en Hamburgo, pidiendo medidas educativas y climáticas mientras se oponían al servicio militar.",
-    "La policía declaró finalizada la protesta de Hamburgo a las 5 PM, tras lo cual los grupos erigieron barricadas ardientes y lanzaron fuegos artificiales, lo que provocó 120 detenciones y 12 agentes heridos."
+    "La manifestación tiene lugar en el centro de la ciudad de Hamburgo con miles de participantes.",
+    "La policía declara terminada la manifestación a las 17:00; se reportan enfrentamientos e incendios en St. Georg.",
+    "La policía confirma que 120 personas fueron detenidas y 12 agentes resultaron heridos."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Los organizadores afirmaron 10.000 participantes; la policía estimó entre 6.000 y 7.000."
+   ],
    "numbers": {
-    "arrests": "120 personas fueron detenidas por la policía",
-    "injuries": "12 agentes de policía heridos"
+    "crowd": "La policía estimó entre 6.000 y 7.000 participantes; los organizadores afirmaron 10.000.",
+    "arrests": "120 personas fueron detenidas por la policía.",
+    "injuries": "Doce agentes de policía resultaron heridos."
    }
   },
   "fr": {
-   "title": "Manifestations à Hambourg concernant l'éducation, le coût de la vie et le service militaire",
-   "seoTitle": "Manifestations à Hambourg sur l'éducation et le coût de la vie",
+   "title": "Manifestations organisées par Gen Z regelt à Hambourg",
+   "seoTitle": "Manifestation Gen Z regelt à Hambourg",
    "tea": {
-    "why": "Des manifestants ont défilé contre la hausse du coût de la vie, les coupes budgétaires dans l'éducation et l'éventuel service militaire obligatoire.",
-    "want": "Les manifestants ont exigé un meilleur financement de l'éducation, des améliorations de la santé, la protection du climat et un coût de la vie abordable.",
-    "changed": "1er nov. : La police a indiqué que 120 personnes ont été placées en garde à vue et 12 policiers ont été blessés à la suite d'affrontements."
+    "why": "Les manifestants ont exprimé leur mécontentement concernant le système éducatif, le coût de la vie, la politique climatique et la réintroduction potentielle du service militaire.",
+    "want": "Les participants ont exigé une augmentation des investissements dans l'éducation, la sécurité sociale et la santé, ainsi que des mesures climatiques et une opposition au service militaire.",
+    "changed": "1er novembre : La police a rapporté que 120 personnes ont été placées en garde à vue suite à des affrontements et des incidents d'incendie volontaire dans le quartier de St. Georg."
    },
-   "summary": "Des rassemblements organisés par l'initiative de jeunesse 'Gen Z regelt' ont eu lieu à Hambourg, réunissant des participants qui ont marché de Jungfernstieg en passant par Mönckebergstraße vers Lohmühlenpark. Bien qu'un premier enregistrement indépendant ait été modifié, les participants se sont rassemblés pour exprimer leur opposition au service militaire obligatoire et pour réclamer des investissements accrus dans l'éducation, la sécurité sociale, la santé et la protection du climat, ainsi que des mesures pour lutter contre le coût de la vie élevé. Selon les rapports, la manifestation est devenue chaotique en soirée, des individus installant et brûlant des barricades, traînant des objets sur les routes et lançant des bouteilles, des pétards et des pavés sur les forces de l'ordre tout en scandant des slogans. La police a déployé une force importante de 1 300 agents, mettant finalement fin à la manifestation par des annonces au haut-parleur et plaçant des dizaines de personnes en garde à vue au milieu de confrontations en cours.",
+   "summary": "Le 31 octobre 2026, des milliers de personnes se sont rassemblées à Hambourg pour une manifestation associée à l'initiative nationale Gen Z regelt. Bien que les organisateurs aient revendiqué 10 000 participants, la police a estimé le nombre de présents entre 6 000 et 7 000. L'événement, qui a débuté dans le centre-ville, s'est initialement déroulé pacifiquement. Cependant, en soirée, la situation s'est intensifiée dans le quartier de St. Georg. Selon la police, des groupes se sont engagés dans des affrontements avec les agents, ont construit et enflammé des barricades, et ont lancé des objets, notamment des bouteilles et des pierres. La police a déployé 1 300 agents pour gérer les troubles et a déclaré la manifestation terminée vers 17 h 00. Les autorités ont rapporté que 12 policiers ont été blessés lors des événements. La manifestation faisait partie d'une série d'actions plus large à travers l'Allemagne concernant l'éducation, le coût de la vie et le service militaire.",
    "demands": [
-    "Augmenter le financement du système éducatif",
-    "Mettre en œuvre des mesures cohérentes de protection du climat",
-    "Aborder la hausse du coût de la vie et la sécurité sociale",
-    "S'opposer à tout retour du service militaire obligatoire"
+    "Augmentation du financement de l'éducation",
+    "Protection climatique",
+    "Coût de la vie abordable",
+    "Opposition au service militaire obligatoire"
    ],
-   "response": "Selon les rapports, la police a déployé une force importante de 1 300 agents équipés de drones et de canons à eau dans diverses régions, déclarant la manifestation terminée vers 17 h avant d'affronter des groupes dressant des barricades enflammées et lançant des projectiles.",
+   "response": "La police a déployé 1 300 agents et a utilisé des haut-parleurs pour déclarer la manifestation terminée. La police a déclaré qu'elle engagerait des poursuites pénales pour les incidents de violence et d'incendie. Douze agents ont été signalés comme blessés.",
    "updates": [
-    "La police a annoncé des préparatifs avec plusieurs centaines d'agents et des drones alors qu'un rassemblement lié à la génération Z était enregistré par un particulier.",
-    "Des milliers de personnes ont participé à des manifestations de jeunesse organisées à l'échelle nationale à Hambourg, appelant à des mesures éducatives et climatiques tout en s'opposant au service militaire.",
-    "La police a déclaré la fin de la manifestation de Hambourg à 17 h, après quoi des groupes ont érigé des barricades enflammées et lancé des feux d'artifice, entraînant 120 interpellations et 12 policiers blessés."
+    "La manifestation a lieu dans le centre-ville de Hambourg avec des milliers de participants.",
+    "La police déclare la manifestation terminée à 17 h 00 ; des affrontements et des incendies sont signalés à St. Georg.",
+    "La police confirme que 120 personnes ont été placées en garde à vue et que 12 agents ont été blessés."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Les organisateurs ont revendiqué 10 000 participants ; la police a estimé entre 6 000 et 7 000."
+   ],
    "numbers": {
-    "arrests": "120 personnes ont été placées en garde à vue par la police",
-    "injuries": "12 policiers blessés"
+    "crowd": "La police a estimé entre 6 000 et 7 000 participants ; les organisateurs ont revendiqué 10 000.",
+    "arrests": "120 personnes ont été placées en garde à vue par la police.",
+    "injuries": "Douze policiers ont été blessés."
    }
   },
   "de": {
-   "title": "Proteste in Hamburg zu Bildung, Lebenshaltungskosten und Wehrdienst",
-   "seoTitle": "Hamburg-Proteste zu Bildung und Lebenshaltungskosten",
+   "title": "Proteste organisiert von Gen Z regelt in Hamburg",
+   "seoTitle": "Hamburg Gen Z regelt Protest",
    "tea": {
-    "why": "Demonstranten demonstrierten gegen steigende Lebenshaltungskosten, Kürzungen im Bildungsetat und einen möglichen obligatorischen Wehrdienst.",
-    "want": "Demonstranten forderten eine bessere Bildungsfinanzierung, Verbesserungen im Gesundheitswesen, Klimaschutz und bezahlbare Lebenshaltungskosten.",
-    "changed": "1. Nov.: Die Polizei berichtete, dass nach Ausschreitungen 120 Personen in Gewahrsam genommen und 12 Polizeibeamtinnen und -beamte verletzt wurden."
+    "why": "Die Demonstranten äußerten Unzufriedenheit mit dem Bildungssystem, den Lebenshaltungskosten, der Klimapolitik und der möglichen Wiedereinführung des Wehrdienstes.",
+    "want": "Die Teilnehmer forderten höhere Investitionen in Bildung, soziale Sicherheit und Gesundheit sowie Klimaschutz und die Ablehnung des Wehrdienstes.",
+    "changed": "1. November: Die Polizei berichtete, dass nach Zusammenstößen und Brandstiftungen im Stadtteil St. Georg 120 Personen in Gewahrsam genommen wurden."
    },
-   "summary": "Von der Jugendinitiative 'Gen Z regelt' organisierte Kundgebungen fanden in Hamburg statt und zogen Teilnehmer an, die vom Jungfernstieg über die Mönckebergstraße Richtung Lohmühlenpark marschierten. Obwohl eine ursprüngliche unabhängige Anmeldung geändert wurde, versammelten sich die Teilnehmer, um ihren Protest gegen den obligatorischen Wehrdienst zu äußern und erhöhte Investitionen in Bildung, soziale Sicherheit, Gesundheit und Klimaschutz sowie Maßnahmen zur Bekämpfung hoher Lebenshaltungskosten zu fordern. Berichten zufolge lief die Demonstration am Abend aus dem Ruder, wobei Personen Barrikaden errichteten und anzündeten, Gegenstände auf Straßen zogen und Flaschen, Feuerwerkskörper sowie Pflastersteine auf Einsatzkräfte warfen, während sie Parolen riefen. Die Polizei setzte ein Großaufgebot von 1.300 Einsatzkräften ein, beendete die Kundgebung schließlich durch Lautsprecheransagen und nahm inmitten von Laufduellen Dutzende Personen in Gewahrsam.",
+   "summary": "Am 31. Oktober 2026 versammelten sich Tausende in Hamburg zu einer Demonstration im Zusammenhang mit der bundesweiten Initiative Gen Z regelt. Während die Organisatoren 10.000 Teilnehmer angaben, schätzte die Polizei die Zahl der Anwesenden auf 6.000 bis 7.000. Die Veranstaltung, die in der Innenstadt begann, verlief zunächst friedlich. Am Abend eskalierte die Lage jedoch im Stadtteil St. Georg. Laut Polizei lieferten sich Gruppen Zusammenstöße mit Beamten, errichteten und entzündeten Barrikaden und bewarfen Einsatzkräfte mit Gegenständen wie Flaschen und Steinen. Die Polizei setzte 1.300 Beamte ein, um die Unruhen zu bewältigen, und erklärte die Demonstration gegen 17:00 Uhr für beendet. Die Behörden meldeten, dass während der Ereignisse 12 Polizeibeamte verletzt wurden. Der Protest war Teil einer breiteren Aktionsreihe in ganz Deutschland zu den Themen Bildung, Lebenshaltungskosten und Wehrdienst.",
    "demands": [
-    "Erhöhung der Mittel für das Bildungssystem",
-    "Umsetzung konsequenter Klimaschutzmaßnahmen",
-    "Bewältigung steigender Lebenshaltungskosten und sozialer Sicherheit",
-    "Ablehnung jeder Rückkehr des Wehrdienstes"
+    "Erhöhung der Bildungsausgaben",
+    "Klimaschutz",
+    "Bezahlbare Lebenshaltungskosten",
+    "Ablehnung des Wehrdienstes"
    ],
-   "response": "Berichten zufolge setzte die Polizei in verschiedenen Regionen ein Großaufgebot von 1.300 Beamtinnen und Beamten ein, die mit Drohnen und Wasserwerfern ausgestattet waren, erklärte die Demonstration gegen 17 Uhr für beendet, bevor sie gegen Gruppen vorgeging, die brennende Barrikaden errichteten und Wurfgeschosse warfen.",
+   "response": "Die Polizei setzte 1.300 Beamte ein und nutzte Lautsprecher, um die Demonstration für beendet zu erklären. Die Polizei kündigte an, strafrechtliche Ermittlungen wegen der Gewalt und Brandstiftungen einzuleiten. Zwölf Beamte wurden als verletzt gemeldet.",
    "updates": [
-    "Die Polizei kündigte Vorbereitungen mit mehreren Hundert Einsatzkräften und Drohnen an, nachdem eine mit der Gen-Z verbundene Kundgebung von einer Privatperson angemeldet worden war.",
-    "Tausende beteiligten sich an bundesweiten jugendorganisierten Demonstrationen in Hamburg und forderten Bildungs- und Klimamaßnahmen bei gleichzeitiger Ablehnung des Wehrdienstes.",
-    "Die Polizei erklärte die Hamburger Proteste um 17 Uhr für beendet, woraufhin Gruppen brennende Barrikaden errichteten und Feuerwerkskörper warfen, was zu 120 Ingewahrsamnahmen und 12 verletzten Beamtinnen und Beamten führte."
+    "Demonstration findet in der Hamburger Innenstadt mit Tausenden Teilnehmern statt.",
+    "Polizei erklärt die Demonstration um 17:00 Uhr für beendet; Zusammenstöße und Brandstiftungen in St. Georg gemeldet.",
+    "Polizei bestätigt, dass 120 Personen in Gewahrsam genommen wurden und 12 Beamte verletzt wurden."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Organisatoren gaben 10.000 Teilnehmer an; die Polizei schätzte 6.000 bis 7.000."
+   ],
    "numbers": {
-    "arrests": "120 Menschen wurden von der Polizei in Gewahrsam genommen",
-    "injuries": "12 verletzte Polizistinnen und Polizisten"
+    "crowd": "Die Polizei schätzte 6.000 bis 7.000 Teilnehmer; die Organisatoren gaben 10.000 an.",
+    "arrests": "120 Personen wurden von der Polizei in Gewahrsam genommen.",
+    "injuries": "Zwölf Polizeibeamte wurden verletzt."
    }
   }
  },
- "endedOn": "2026-11-01"
+ "endedOn": "2026-10-31"
 }

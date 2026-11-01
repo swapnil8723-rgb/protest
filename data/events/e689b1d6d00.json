@@ -2,8 +2,8 @@
  "id": "e689b1d6d00",
  "slug": "paris-cost-of-living-protests-oct-2026-5",
  "stage": "live",
- "title": "Youth-led protests over cost of living and education take place in France",
- "seoTitle": "Paris youth protest living costs and education",
+ "title": "Youth-led protests over cost of living and education in Paris",
+ "seoTitle": "Paris youth-led cost of living protests",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -13,56 +13,93 @@
   "citySlug": "paris",
   "regionSlug": "ile-de-france"
  },
- "scope": "nationwide",
+ "scope": "multi-city",
  "causes": [
-  "students",
   "education",
-  "prices"
+  "prices",
+  "governance"
  ],
- "kind": "multi-day",
- "startedOn": "2026-10-17",
- "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
+ "kind": "one-day",
+ "startedOn": "2026-10-31",
+ "status": "ended",
+ "vibe": "wrapped-up",
+ "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "top-10"
+  "serious",
+  "sources-disagree"
  ],
- "isOngoing": true,
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are angry about declining education conditions, social security issues, and the high cost of living.",
-  "want": "Demonstrators demand better education systems, improved living standards, and solutions to the cost of living crisis.",
-  "changed": "Oct 31: Interior Minister Laurent Nuñez reported 320,000 protesters nationwide as demonstrations entered a third weekend."
+  "why": "Protesters are demonstrating against the rising cost of living, declining education standards, and poor public services.",
+  "want": "Participants demand improved education funding, better school conditions, and measures to address the high cost of living.",
+  "changed": "Oct 31: Authorities reported 779 arrests nationwide and opened an attempted murder investigation following attacks on police."
  },
- "summary": "Hundreds of thousands of protesters took to the streets across France for a third consecutive weekend of demonstrations concerning the cost of living, public services, and the state of education. The movement initially began with high school students demonstrating over educational conditions before expanding to include labor unions, climate activists, and the Yellow Vests grassroots movement. Authorities deployed 70,000 police officers and gendarmes nationwide, implementing strict route restrictions in Paris that moved marches to the outer boulevards and prohibiting gatherings in certain city center areas to prevent rioting and looting seen in previous weeks. According to Interior Ministry estimates, 320,000 people participated in the Saturday demonstrations, including 70,000 in Paris.",
+ "summary": "On October 31, 2026, hundreds of thousands of protesters participated in demonstrations across France, including an estimated 70,000 in Paris. Organised by student groups, labour unions, and members of the Yellow Vests movement, the rallies focused on the cost of living and the state of the education system. In Paris, authorities rerouted the march to the city's outer boulevards to prevent unrest. While the demonstrations were largely peaceful, clashes occurred in the evening as some individuals threw pyrotechnic devices and stones at police, who responded with tear gas and stun grenades. The French Interior Ministry reported 320,000 participants nationwide and 779 arrests. Officials condemned the violence, specifically citing an attack on officers with incendiary devices, which prompted an attempted murder investigation.",
  "organizers": [
-  "CGT",
+  "student organisations",
+  "labour unions",
   "Yellow Vests"
  ],
  "demands": [
-  "Better conditions in education",
-  "Lower cost of living",
-  "Improved public services"
+  "better education funding",
+  "improved school conditions",
+  "lower cost of living"
  ],
- "response": "Interior Minister Laurent Nuñez announced the deployment of 70,000 police and gendarmes, warning of a very high risk of disorder. Authorities restricted marches to outer Paris boulevards and prohibited gatherings in central areas to prevent looting.",
+ "response": "Interior Minister Laurent Nuñez deployed 70,000 police and gendarmes nationwide. Authorities restricted march routes in Paris and opened an attempted murder investigation following attacks on officers.",
  "numbers": {
   "crowd": {
-   "value": 320000,
-   "text": "320,000 people demonstrated across France on Saturday",
+   "value": 70000,
+   "text": "70,000 people are estimated to have turned out for the main protest in Paris, according to the Interior Ministry.",
    "sources": [
     1,
-    3
+    3,
+    9
+   ]
+  },
+  "arrests": {
+   "value": 779,
+   "text": "779 people were detained during protests throughout Saturday, according to the French Interior Ministry.",
+   "sources": [
+    5,
+    6,
+    8
+   ]
+  },
+  "injuries": {
+   "value": 219,
+   "text": "159 law enforcement officers and 60 protesters were reported injured, according to Le Figaro citing emergency services.",
+   "sources": [
+    6
    ]
   }
  },
  "updates": [
   {
    "at": "2026-10-31",
-   "text": "French interior ministry estimated 320,000 demonstrators marched nationwide on Saturday, including 70,000 in Paris.",
+   "text": "Protests take place across France with 70,000 participants in Paris and 320,000 nationwide.",
    "sources": [
     1,
-    3
+    3,
+    9
+   ]
+  },
+  {
+   "at": "2026-10-31",
+   "text": "Police report 779 arrests and 159 officers injured nationwide following clashes.",
+   "sources": [
+    5,
+    6,
+    8
+   ]
+  },
+  {
+   "at": "2026-11-01",
+   "text": "Prosecutors open an attempted murder investigation after incendiary devices were thrown at police in Paris.",
+   "sources": [
+    8,
+    9
    ]
   }
  ],
@@ -90,151 +127,219 @@
   },
   {
    "n": 4,
-   "url": "https://www.caledonianrecord.com/news/national/europes-youth-return-to-the-streets-for-another-weekend-of-protests-in-photos/article_f5289899-4273-5f97-8a2e-62ef85a398d8.html",
-   "publisher": "caledonianrecord.com",
-   "title": "Europe",
-   "publishedAt": "2026-10-31T21:19:33.000Z"
+   "url": "https://www.news9live.com/world/looting-petrol-bombs-fireworks-as-protests-over-living-costs-and-education-sweep-europe-3020805",
+   "publisher": "news9live.com",
+   "title": "Looting, petrol bombs, fireworks as protests over living costs and education sweep Europe",
+   "publishedAt": "2026-11-01T07:32:43.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.bostonglobe.com/2026/11/01/world/french-protest-violence-riots-germany-action/",
+   "publisher": "bostonglobe.com",
+   "title": "French protest violence eases and scattered riots hit Germany ahead of more action - The Boston Globe",
+   "publishedAt": "2026-11-01T12:39:08.021Z"
+  },
+  {
+   "n": 6,
+   "url": "https://en.apa.az/europe/159-police-officers-and-60-protesters-injured-in-clashes-in-france-four-in-serious-condition-updated-533385",
+   "publisher": "en.apa.az",
+   "title": "159 police officers and 60 protesters injured in clashes in France, four in serious condition – UPDATED",
+   "publishedAt": "2026-11-01T12:51:00.000Z"
+  },
+  {
+   "n": 7,
+   "url": "https://theindianawaaz.com/massive-protests-sweep-europe-over-cost-of-living-and-deficient-public-services/",
+   "publisher": "theindianawaaz.com",
+   "title": "Massive protests sweep Europe over cost of living and deficient public services – The Indian Awaaz"
+  },
+  {
+   "n": 8,
+   "url": "https://www.theguardian.com/world/2026/nov/01/petrol-bomb-thrown-at-french-riot-police",
+   "publisher": "theguardian.com",
+   "title": "Attempted murder probe after petrol bomb thrown at French riot police",
+   "publishedAt": "2026-11-01T16:24:38.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://en.mercopress.com/2026/11/01/cost-of-living-protests-spread-across-europe-with-unrest-in-france-and-germany",
+   "publisher": "en.mercopress.com",
+   "title": "Cost-of-living protests spread across Europe with unrest in France and Germany"
   }
  ],
- "conflicts": [],
- "confidence": 0.91,
- "publishers": 4,
- "reports24h": 3,
- "reportsPrev24h": 1,
- "reports48h": 4,
+ "conflicts": [
+  "The Interior Ministry estimated 320,000 participants nationwide, while organisers claimed higher numbers."
+ ],
+ "confidence": 0.8,
+ "publishers": 9,
+ "reports24h": 7,
+ "reportsPrev24h": 2,
+ "reports48h": 9,
  "firstSeenAt": "2026-10-31T15:52:21.491Z",
- "lastReportAt": "2026-10-31T21:19:33.000Z",
- "lastCheckedAt": "2026-11-01T12:30:11.958Z",
- "updatedAt": "2026-11-01T12:29:32.520Z",
+ "lastReportAt": "2026-11-01T16:45:00.000Z",
+ "lastCheckedAt": "2026-11-01T16:58:28.365Z",
+ "updatedAt": "2026-11-01T16:55:31.645Z",
  "searchedAt": "2026-10-31T18:47:02.512Z",
  "responseSources": [
   1,
   2,
-  3
+  5,
+  8,
+  9
  ],
- "seriousInjuries": false,
+ "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-11-01T12:29:32.520Z",
- "summaryOf": "850d521da137",
+ "summarizedAt": "2026-11-01T16:55:31.645Z",
+ "summaryOf": "e1621d2a250d",
  "publishedAt": "2026-10-31T22:57:20.267Z",
  "i18n": {
-  "of": "25071ae59a88cf26",
-  "at": "2026-11-01T12:30:42.723Z",
+  "of": "85f2f69bef88a894",
+  "at": "2026-11-01T16:59:13.099Z",
   "tries": 1,
   "hi": {
-   "title": "फ्रांस में जीवनयापन की लागत और शिक्षा को लेकर युवाओं के नेतृत्व में प्रदर्शन हुए",
-   "seoTitle": "पेरिस के युवाओं ने जीवन लागत और शिक्षा का विरोध किया",
+   "title": "पेरिस में जीवन यापन की लागत और शिक्षा को लेकर युवाओं के नेतृत्व में विरोध प्रदर्शन",
+   "seoTitle": "पेरिस में युवाओं के नेतृत्व में जीवन यापन लागत विरोध",
    "tea": {
-    "why": "प्रदर्शनकारी शिक्षा की गिरती स्थिति, सामाजिक सुरक्षा के मुद्दों और जीवनयापन के ऊंचे खर्च से नाराज हैं।",
-    "want": "प्रदर्शनकारी बेहतर शिक्षा प्रणालियों, जीवन स्तर में सुधार और जीवनयापन की लागत के संकट के समाधान की मांग करते हैं।",
-    "changed": "31 अक्टूबर: आंतरिक मंत्री लॉरेंट नुनेज ने प्रदर्शनों के तीसरे सप्ताहांत में प्रवेश करने पर देश भर में 320,000 प्रदर्शनकारियों की सूचना दी।"
+    "why": "प्रदर्शनकारी जीवन यापन की बढ़ती लागत, गिरते शिक्षा मानकों और खराब सार्वजनिक सेवाओं के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "प्रतिभागी बेहतर शिक्षा निधि, बेहतर स्कूली स्थितियों और जीवन यापन की उच्च लागत को संबोधित करने के उपायों की मांग कर रहे हैं।",
+    "changed": "31 अक्टूबर: अधिकारियों ने देश भर में 779 गिरफ्तारियों की सूचना दी और पुलिस पर हमलों के बाद हत्या के प्रयास की जांच शुरू की।"
    },
-   "summary": "जीवनयापन की लागत, सार्वजनिक सेवाओं और शिक्षा की स्थिति को लेकर प्रदर्शनों के लगातार तीसरे सप्ताहांत में फ्रांस भर में सैकड़ों हजार प्रदर्शनकारी सड़कों पर उतरे। यह आंदोलन शुरुआत में हाई स्कूल के छात्रों द्वारा शैक्षणिक स्थितियों पर प्रदर्शन करने के बाद श्रमिक संघों, जलवायु कार्यकर्ताओं और येलो वेस्ट्स जमीनी स्तर के आंदोलन को शामिल करने के लिए फैल गया। अधिकारियों ने देश भर में 70,000 पुलिस अधिकारियों और पुलिसकर्मियों को तैनात किया, पेरिस में कड़े मार्ग प्रतिबंध लागू किए जिससे मार्च बाहरी बुलेवार्ड पर चले गए और पिछले हफ्तों में देखी गई तोड़फोड़ और लूटपाट को रोकने के लिए कुछ शहर के केंद्र क्षेत्रों में सभाओं पर प्रतिबंध लगा दिया गया। आंतरिक मंत्रालय के अनुमान के अनुसार, शनिवार के प्रदर्शनों में 320,000 लोगों ने हिस्सा लिया, जिसमें पेरिस में 70,000 लोग शामिल थे।",
+   "summary": "31 अक्टूबर 2026 को, फ्रांस भर में लाखों प्रदर्शनकारियों ने प्रदर्शनों में भाग लिया, जिसमें पेरिस में अनुमानित 70,000 लोग शामिल थे। छात्र समूहों, श्रमिक संघों और येलो वेस्ट्स आंदोलन के सदस्यों द्वारा आयोजित, रैलियां जीवन यापन की लागत और शिक्षा प्रणाली की स्थिति पर केंद्रित थीं। पेरिस में, अधिकारियों ने अशांति को रोकने के लिए मार्च को शहर के बाहरी बुलेवार्ड की ओर मोड़ दिया। हालांकि प्रदर्शन काफी हद तक शांतिपूर्ण थे, शाम को झड़पें हुईं क्योंकि कुछ व्यक्तियों ने पुलिस पर आतिशबाजी के उपकरण और पत्थर फेंके, जिन्होंने आंसू गैस और स्टन ग्रेनेड के साथ जवाब दिया। फ्रांसीसी आंतरिक मंत्रालय ने देश भर में 320,000 प्रतिभागियों और 779 गिरफ्तारियों की सूचना दी। अधिकारियों ने हिंसा की निंदा की, विशेष रूप से आग लगाने वाले उपकरणों के साथ अधिकारियों पर हमले का हवाला देते हुए, जिसने हत्या के प्रयास की जांच को प्रेरित किया।",
    "demands": [
-    "शिक्षा में बेहतर स्थितियां",
-    "जीवनयापन की कम लागत",
-    "सुधारित सार्वजनिक सेवाएं"
+    "बेहतर शिक्षा निधि",
+    "बेहतर स्कूली स्थितियां",
+    "जीवन यापन की कम लागत"
    ],
-   "response": "आंतरिक मंत्री लॉरेंट नुनेज ने 70,000 पुलिस और पुलिसकर्मियों की तैनाती की घोषणा की, और अव्यवस्था के बहुत अधिक जोखिम की चेतावनी दी। अधिकारियों ने लूटपाट को रोकने के लिए मार्च को पेरिस के बाहरी बुलेवार्ड तक सीमित कर दिया और केंद्रीय क्षेत्रों में सभाओं पर प्रतिबंध लगा दिया।",
+   "response": "आंतरिक मंत्री लॉरेंट नुनेज़ ने देश भर में 70,000 पुलिस और जेंडरमे तैनात किए। अधिकारियों ने पेरिस में मार्च के मार्गों को प्रतिबंधित कर दिया और अधिकारियों पर हमलों के बाद हत्या के प्रयास की जांच शुरू की।",
    "updates": [
-    "फ्रांसीसी आंतरिक मंत्रालय ने अनुमान लगाया कि शनिवार को देश भर में 320,000 प्रदर्शनकारियों ने मार्च किया, जिसमें पेरिस में 70,000 शामिल थे।"
+    "फ्रांस भर में विरोध प्रदर्शन हुए, जिसमें पेरिस में 70,000 और देश भर में 320,000 प्रतिभागी शामिल थे।",
+    "पुलिस ने झड़पों के बाद देश भर में 779 गिरफ्तारियों और 159 अधिकारियों के घायल होने की सूचना दी।",
+    "पेरिस में पुलिस पर आग लगाने वाले उपकरण फेंके जाने के बाद अभियोजकों ने हत्या के प्रयास की जांच शुरू की।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "आंतरिक मंत्रालय ने देश भर में 320,000 प्रतिभागियों का अनुमान लगाया, जबकि आयोजकों ने उच्च संख्या का दावा किया।"
+   ],
    "numbers": {
-    "crowd": "शनिवार को फ्रांस भर में 320,000 लोगों ने प्रदर्शन किया"
+    "crowd": "आंतरिक मंत्रालय के अनुसार, पेरिस में मुख्य विरोध प्रदर्शन के लिए अनुमानित 70,000 लोग निकले।",
+    "arrests": "फ्रांसीसी आंतरिक मंत्रालय के अनुसार, शनिवार को विरोध प्रदर्शनों के दौरान 779 लोगों को हिरासत में लिया गया।",
+    "injuries": "ले फिगारो ने आपातकालीन सेवाओं का हवाला देते हुए बताया कि 159 कानून प्रवर्तन अधिकारी और 60 प्रदर्शनकारी घायल हुए।"
    }
   },
   "mr": {
-   "title": "फ्रान्समध्ये जीवनमानाचा खर्च आणि शिक्षणाबाबत तरुणांच्या नेतृत्वाखाली निदर्शने",
-   "seoTitle": "पॅरिसमधील तरुणांचा राहणीमान खर्च आणि शिक्षणावर निषेध",
+   "title": "पॅरिसमध्ये जीवनमानाचा खर्च आणि शिक्षणावरून तरुणांच्या नेतृत्वाखालील निदर्शने",
+   "seoTitle": "पॅरिसमध्ये तरुणांच्या नेतृत्वाखालील महागाईविरोधी निदर्शने",
    "tea": {
-    "why": "शैक्षणिक परिस्थिती खालावल्यामुळे, सामाजिक सुरक्षा समस्यांमुळे आणि जीवनमानाचा खर्च वाढल्यामुळे निदर्शक संतापले आहेत.",
-    "want": "निदर्शक चांगल्या शिक्षण प्रणाली, सुधारित राहणीमान आणि जीवनमानाचा खर्च या संकटावर उपायांची मागणी करत आहेत.",
-    "changed": "३१ ऑक्टोबर: निदर्शनांचा तिसरा शनिवार-रविवार सुरू झाल्याने गृहमंत्री लॉरेंट नुनेज यांनी देशभरात ३२०,००० निदर्शका-सहभागाची माहिती दिली."
+    "why": "निदर्शक वाढता महागाईचा खर्च, घसरलेले शिक्षणाचे निकष आणि खराब सार्वजनिक सेवांविरुद्ध निदर्शने करत आहेत.",
+    "want": "सहभागींनी शिक्षणासाठी अधिक निधी, शाळेतील सुधारित परिस्थिती आणि जीवनमानाचा उच्च खर्च कमी करण्यासाठी उपाययोजनांची मागणी केली आहे.",
+    "changed": "३१ ऑक्टोबर: पोलिसांनी केलेल्या हल्ल्यानंतर अधिकाऱ्यांनी देशभरात ७७९ अटकेची नोंद केली आणि हत्येच्या प्रयत्नाचा तपास सुरू केला."
    },
-   "summary": "जीवनमानाचा खर्च, सार्वजनिक सेवा आणि शिक्षəची स्थिती याविषयी निदर्शनांच्या सलग तिसऱ्या शनिवार-रविवारच्या निमित्ताने फ्रान्सभरात शेकडो हजारो निदर्शक रस्तాలపై उतरले. हा लढा सुरुवातीला उच्च माध्यमिकच्या विद्यार्थ्यांनी शैक्षणिक परिस्थितीवर निदर्शने केल्यानंतर कामगार संघटना, हवामान कार्यकर्ते आणि यलो वेस्ट्स या तळागाळातील चळवळीचा समावेश करण्यासाठी वाढला. अधिकाऱ्यांनी देशभरात ७०,००० पोलीस अधिकारी आणि जवानांना तैनात केले, पॅरिसमध्ये कडक मार्ग प्रतिबंध लागू केले ज्यामुळे मार्च बाहेरील रस्त्यांवर वळवण्यात आले आणि मागील आठवड्यांमध्ये दिसून आलेली जाळपोळ व लूटमार रोखण्यासाठी काही शहर मध्यवर्ती भागात एकत्र येण्यावर बंदी घातली. गृह मंत्रालयाच्या अंदाजानुसार, शनिवारच्या निदर्शनांमध्ये पॅरिसमधील ७०,००० सह ३२०,००० लोकांनी सहभाग घेतला.",
+   "summary": "३१ ऑक्टोबर २०२६ रोजी, फ्रान्सभर लाखो निदर्शकांनी निदर्शनांमध्ये भाग घेतला, ज्यामध्ये पॅरिसमधील अंदाजे ७०,००० लोकांचा समावेश होता. विद्यार्थी गट, कामगार संघटना आणि यलो वेस्ट्स चळवळीच्या सदस्यांनी आयोजित केलेल्या या रॅली जीवनमानाचा खर्च आणि शिक्षण व्यवस्थेच्या स्थितीवर केंद्रित होत्या. पॅरिसमध्ये, अशांतता टाळण्यासाठी अधिकाऱ्यांनी मोर्चा शहराच्या बाहेरील बुलेवार्डकडे वळवला. निदर्शने मोठ्या प्रमाणावर शांततापूर्ण असली तरी, संध्याकाळी चकमकी झाल्या कारण काही व्यक्तींनी पोलिसांवर फटाके आणि दगडफेक केली, ज्याला पोलिसांनी अश्रूधूर आणि स्टन ग्रेनेडने प्रत्युत्तर दिले. फ्रेंच गृह मंत्रालयाने देशभरात ३२०,००० सहभागी आणि ७७९ अटकेची नोंद केली. अधिकाऱ्यांनी हिंसेचा निषेध केला, विशेषतः ज्वलनशील उपकरणांनी अधिकाऱ्यांवर झालेल्या हल्ल्याचा उल्लेख केला, ज्यामुळे हत्येच्या प्रयत्नाचा तपास सुरू झाला.",
    "demands": [
-    "शिक्षणातील चांगल्या परिस्थिती",
-    "जीवनमानाचा कमी खर्च",
-    "सुधारित सार्वजनिक सेवा"
+    "शिक्षणासाठी अधिक निधी",
+    "शाळेतील सुधारित परिस्थिती",
+    "जीवनमानाचा कमी खर्च"
    ],
-   "response": "गृहमंत्री लॉरेंट नुनेज यांनी ७०,००० पोलीस आणि जवानांच्या तैनातीची घोषणा केली आणि कायदा व सुव्यवस्था बिघडण्याचा खूप उच्च धोका असल्याचे चेतावनी दिली. अधिकाऱ्यांनी लूटमार रोखण्यासाठी मार्च पॅरिसच्या बाहेरील रस्त्यांपुरਤੇ मर्यादित केले आणि मध्यवर्ती भागात एकत्र येण्यावर बंदी घातली.",
+   "response": "गृहमंत्री लॉरेंट नुनेझ यांनी देशभरात ७०,००० पोलीस आणि जेंडरमे तैनात केले. अधिकाऱ्यांनी पॅरिसमधील मोर्चाचे मार्ग मर्यादित केले आणि अधिकाऱ्यांवरील हल्ल्यानंतर हत्येच्या प्रयत्नाचा तपास सुरू केला.",
    "updates": [
-    "फ्रेंच गृहमंत्रालयाने अंदाज वर्तवला की शनिवारी देशभरात ३२०,००० निदर्शकांनी मार्च काढला, ज्यामध्ये पॅरिसमधील ७०,००० लोकांचा समावेश होता."
+    "फ्रान्सभर निदर्शने झाली, ज्यामध्ये पॅरिसमध्ये ७०,००० आणि देशभरात ३२०,००० सहभागी होते.",
+    "पोलिसांनी चकमकीनंतर देशभरात ७७९ अटक आणि १५९ अधिकारी जखमी झाल्याची नोंद केली आहे.",
+    "पॅरिसमध्ये पोलिसांवर ज्वलनशील उपकरणे फेकल्यानंतर सरकारी वकिलांनी हत्येच्या प्रयत्नाचा तपास सुरू केला आहे."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "गृह मंत्रालयाने देशभरात ३२०,००० सहभागींचा अंदाज वर्तवला, तर आयोजकांनी अधिक संख्येचा दावा केला."
+   ],
    "numbers": {
-    "crowd": "शनिवारी फ्रान्समध्ये ३२०,००० लोकांनी निदर्शने केली"
+    "crowd": "गृह मंत्रालयाच्या माहितीनुसार, पॅरिसमधील मुख्य निदर्शनासाठी अंदाजे ७०,००० लोक जमले होते.",
+    "arrests": "फ्रेंच गृह मंत्रालयाच्या माहितीनुसार, शनिवारी निदर्शनांदरम्यान ७७९ लोकांना ताब्यात घेण्यात आले.",
+    "injuries": "ले फिगारो या वृत्तपत्राने आपत्कालीन सेवांचा हवाला देत १५९ कायदा अंमलबजावणी अधिकारी आणि ६० निदर्शक जखमी झाल्याचे वृत्त दिले आहे."
    }
   },
   "es": {
-   "title": "Protestas lideradas por jóvenes sobre el costo de vida y la educación tienen lugar en Francia",
-   "seoTitle": "Jóvenes de París protestan por coste de vida y educación",
+   "title": "Protestas lideradas por jóvenes sobre el costo de vida y la educación en París",
+   "seoTitle": "Protestas juveniles por el costo de vida en París",
    "tea": {
-    "why": "Los manifestantes están enfadados por las condiciones educativas en declive, los problemas de seguridad social y el alto costo de vida.",
-    "want": "Los manifestantes exigen mejores sistemas educativos, mejores niveles de vida y soluciones a la crisis del costo de vida.",
-    "changed": "31 de octubre: El ministro del Interior, Laurent Nuñez, informó de 320.000 manifestantes en todo el país a medida que las manifestaciones entraban en un tercer fin de semana."
+    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, la disminución de los estándares educativos y los deficientes servicios públicos.",
+    "want": "Los participantes exigen una mejor financiación de la educación, mejores condiciones escolares y medidas para abordar el alto costo de vida.",
+    "changed": "31 de octubre: Las autoridades informaron de 779 detenciones en todo el país y abrieron una investigación por intento de asesinato tras los ataques a la policía."
    },
-   "summary": "Cientos de miles de manifestantes salieron a las calles en toda Francia durante un tercer fin de semana consecutivo de manifestaciones sobre el costo de vida, los servicios públicos y el estado de la educación. El movimiento comenzó inicialmente con estudiantes de secundaria manifestándose sobre las condiciones educativas antes de expandirse para incluir a sindicatos, activistas climáticos y el movimiento de base de los Chalecos Amarillos. Las autoridades desplegaron 70.000 policías y gendarmes en todo el país, implementando estrictas restricciones de rutas en París que trasladaron las marchas a los bulevares exteriores y prohibiendo concentraciones en ciertas áreas del centro de la ciudad para prevenir disturbios y saqueos vistos en semanas anteriores. Según estimaciones del Ministerio del Interior, 320.000 personas participaron en las manifestaciones del sábado, incluidos 70.000 en París.",
+   "summary": "El 31 de octubre de 2026, cientos de miles de manifestantes participaron en manifestaciones en toda Francia, incluidos unos 70,000 en París. Organizadas por grupos estudiantiles, sindicatos y miembros del movimiento de los Chalecos Amarillos, las manifestaciones se centraron en el costo de vida y el estado del sistema educativo. En París, las autoridades desviaron la marcha hacia los bulevares exteriores de la ciudad para evitar disturbios. Si bien las manifestaciones fueron en gran medida pacíficas, se produjeron enfrentamientos por la noche cuando algunos individuos lanzaron dispositivos pirotécnicos y piedras a la policía, que respondió con gases lacrimógenos y granadas aturdidoras. El Ministerio del Interior francés informó de 320,000 participantes en todo el país y 779 detenciones. Los funcionarios condenaron la violencia, citando específicamente un ataque a agentes con dispositivos incendiarios, lo que provocó una investigación por intento de asesinato.",
    "demands": [
-    "Mejores condiciones en la educación",
-    "Menor costo de vida",
-    "Servicios públicos mejorados"
+    "mejor financiación de la educación",
+    "mejores condiciones escolares",
+    "menor costo de vida"
    ],
-   "response": "El ministro del Interior, Laurent Nuñez, anunció el despliegue de 70.000 policías y gendarmes, advirtiendo de un riesgo muy alto de desorden. Las autoridades restringieron las marchas a los bulevares exteriores de París y prohibieron las concentraciones en las zonas centrales para prevenir saqueos.",
+   "response": "El ministro del Interior, Laurent Nuñez, desplegó 70,000 policías y gendarmes en todo el país. Las autoridades restringieron las rutas de marcha en París y abrieron una investigación por intento de asesinato tras los ataques a los agentes.",
    "updates": [
-    "El ministerio del Interior francés estimó que 320.000 manifestantes marcharon en todo el país el sábado, incluidos 70.000 en París."
+    "Las protestas tienen lugar en toda Francia con 70,000 participantes en París y 320,000 en todo el país.",
+    "La policía informa de 779 detenciones y 159 agentes heridos en todo el país tras los enfrentamientos.",
+    "Los fiscales abren una investigación por intento de asesinato después de que se lanzaran dispositivos incendiarios contra la policía en París."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "El Ministerio del Interior estimó 320,000 participantes en todo el país, mientras que los organizadores afirmaron cifras más altas."
+   ],
    "numbers": {
-    "crowd": "320.000 personas se manifestaron en toda Francia el sábado"
+    "crowd": "Se estima que 70,000 personas asistieron a la protesta principal en París, según el Ministerio del Interior.",
+    "arrests": "779 personas fueron detenidas durante las protestas a lo largo del sábado, según el Ministerio del Interior francés.",
+    "injuries": "159 agentes de la ley y 60 manifestantes resultaron heridos, según Le Figaro citando a los servicios de emergencia."
    }
   },
   "fr": {
-   "title": "Des manifestations de jeunes concernant le coût de la vie et l'éducation ont lieu en France",
-   "seoTitle": "Des jeunes parisiens protestent contre la vie chère",
+   "title": "Manifestations de jeunes sur le coût de la vie et l'éducation à Paris",
+   "seoTitle": "Manifestations de jeunes pour le coût de la vie à Paris",
    "tea": {
-    "why": "Les manifestants sont en colère face à la dégradation des conditions d'éducation, aux problèmes de sécurité sociale et au coût de la vie élevé.",
-    "want": "Les manifestants exigent de meilleurs systèmes éducatifs, un niveau de vie amélioré et des solutions à la crise du coût de la vie.",
-    "changed": "31 octobre : Le ministre de l'Intérieur Laurent Nuñez a fait état de 320 000 manifestants à travers le pays alors que les manifestations entamaient un troisième week-end."
+    "why": "Les manifestants protestent contre la hausse du coût de la vie, la baisse des normes éducatives et la médiocrité des services publics.",
+    "want": "Les participants exigent un meilleur financement de l'éducation, de meilleures conditions scolaires et des mesures pour faire face au coût de la vie élevé.",
+    "changed": "31 octobre : Les autorités ont fait état de 779 arrestations à l'échelle nationale et ont ouvert une enquête pour tentative de meurtre après des attaques contre la police."
    },
-   "summary": "Des centaines de milliers de manifestants sont descendus dans la rue à travers la France pour un troisième week-end consécutif de manifestations concernant le coût de la vie, les services publics et l'état de l'éducation. Le mouvement a initialement débuté avec des lycéens manifestant pour les conditions d'enseignement avant de s'élargir pour inclure des syndicats, des militants climatiques et le mouvement citoyen des Gilets jaunes. Les autorités ont déployé 70 000 policiers et gendarmes dans tout le pays, mettant en œuvre des restrictions strictes d'itinéraires à Paris qui ont déplacé les cortèges vers les boulevards extérieurs et interdisant les rassemblements dans certaines zones du centre-ville pour prévenir les émeutes et les pillages constatés les semaines précédentes. Selon les estimations du ministère de l'Intérieur, 320 000 personnes ont participé aux manifestations de samedi, dont 70 000 à Paris.",
+   "summary": "Le 31 octobre 2026, des centaines de milliers de manifestants ont participé à des manifestations à travers la France, dont environ 70 000 à Paris. Organisées par des groupes étudiants, des syndicats et des membres du mouvement des Gilets jaunes, les manifestations se sont concentrées sur le coût de la vie et l'état du système éducatif. À Paris, les autorités ont dévié la marche vers les boulevards extérieurs de la ville pour éviter les troubles. Bien que les manifestations aient été largement pacifiques, des affrontements ont eu lieu dans la soirée lorsque certains individus ont lancé des engins pyrotechniques et des pierres sur la police, qui a répondu par des gaz lacrymogènes et des grenades assourdissantes. Le ministère français de l'Intérieur a fait état de 320 000 participants à l'échelle nationale et de 779 arrestations. Les autorités ont condamné la violence, citant spécifiquement une attaque contre des agents avec des engins incendiaires, ce qui a déclenché une enquête pour tentative de meurtre.",
    "demands": [
-    "De meilleures conditions dans l'éducation",
-    "Un coût de la vie moins élevé",
-    "Des services publics améliorés"
+    "un meilleur financement de l'éducation",
+    "de meilleures conditions scolaires",
+    "un coût de la vie plus bas"
    ],
-   "response": "Le ministre de l'Intérieur Laurent Nuñez a annoncé le déploiement de 70 000 policiers et gendarmes, mettant en garde contre un risque très élevé de troubles. Les autorités ont restreint les manifestations aux boulevards extérieurs de Paris et interdit les rassemblements dans les zones centrales pour empêcher les pillages.",
+   "response": "Le ministre de l'Intérieur, Laurent Nuñez, a déployé 70 000 policiers et gendarmes à l'échelle nationale. Les autorités ont restreint les itinéraires de marche à Paris et ont ouvert une enquête pour tentative de meurtre après des attaques contre des agents.",
    "updates": [
-    "Le ministère français de l'Intérieur a estimé que 320 000 manifestants ont défilé dans tout le pays samedi, dont 70 000 à Paris."
+    "Des manifestations ont lieu à travers la France avec 70 000 participants à Paris et 320 000 à l'échelle nationale.",
+    "La police fait état de 779 arrestations et de 159 agents blessés à l'échelle nationale après des affrontements.",
+    "Les procureurs ouvrent une enquête pour tentative de meurtre après que des engins incendiaires ont été lancés sur la police à Paris."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Le ministère de l'Intérieur a estimé à 320 000 le nombre de participants à l'échelle nationale, tandis que les organisateurs ont revendiqué des chiffres plus élevés."
+   ],
    "numbers": {
-    "crowd": "320 000 personnes ont manifesté à travers la France samedi"
+    "crowd": "Environ 70 000 personnes auraient participé à la manifestation principale à Paris, selon le ministère de l'Intérieur.",
+    "arrests": "779 personnes ont été interpellées lors des manifestations tout au long de la journée de samedi, selon le ministère français de l'Intérieur.",
+    "injuries": "159 membres des forces de l'ordre et 60 manifestants ont été blessés, selon Le Figaro citant les services d'urgence."
    }
   },
   "de": {
-   "title": "Jugendgeführte Proteste über Lebenshaltungskosten und Bildung finden in Frankreich statt",
-   "seoTitle": "Pariser Jugend protestiert gegen Lebenshaltungskosten",
+   "title": "Jugendproteste gegen Lebenshaltungskosten und Bildungsmängel in Paris",
+   "seoTitle": "Jugendproteste gegen Lebenshaltungskosten in Paris",
    "tea": {
-    "why": "Demonstranten sind wütend über verschlechterte Bildungsbedingungen, soziale Sicherheitsprobleme und die hohen Lebenshaltungskosten.",
-    "want": "Demonstranten fordern bessere Bildungssysteme, verbesserte Lebensstandards und Lösungen für die Krise der Lebenshaltungskosten.",
-    "changed": "31. Oktober: Innenminister Laurent Nuñez meldete 320.000 Demonstranten landesweit, als die Demonstrationen ein drittes Wochenende erreichten."
+    "why": "Die Demonstranten protestieren gegen die steigenden Lebenshaltungskosten, sinkende Bildungsstandards und mangelhafte öffentliche Dienstleistungen.",
+    "want": "Die Teilnehmer fordern eine bessere Bildungsfinanzierung, verbesserte Schulbedingungen und Maßnahmen gegen die hohen Lebenshaltungskosten.",
+    "changed": "31. Oktober: Die Behörden meldeten 779 Festnahmen landesweit und leiteten nach Angriffen auf die Polizei Ermittlungen wegen versuchten Mordes ein."
    },
-   "summary": "Hunderttausende Demonstranten gingen in ganz Frankreich für ein drittes aufeinanderfolgendes Wochenende von Demonstrationen bezüglich der Lebenshaltungskosten, der öffentlichen Dienste und des Bildungszustands auf die Straßen. Die Bewegung begann ursprünglich damit, dass Oberschüler über Bildungsbedingungen demonstrierten, bevor sie sich ausweitete und Gewerkschaften, Klimaaktivisten und die Graswurzelbewegung der Gelbwesten einschloss. Die Behörden setzten landesweit 70.000 Polizeibeamte und Gendarmen ein, setzten strenge Routenbeschränkungen in Paris um, die Märsche auf die äußeren Boulevards verlagerten, und verboten Versammlungen in bestimmten Stadtteilzentren, um Ausschreitungen und Plünderungen aus vorherigen Wochen zu verhindern. Schätzungen des Innenministeriums zufolge nahmen 320.000 Menschen an den Samstagsdemonstrationen teil, darunter 70.000 in Paris.",
+   "summary": "Am 31. Oktober 2026 nahmen Hunderttausende Demonstranten an Protesten in ganz Frankreich teil, darunter schätzungsweise 70.000 in Paris. Die von Studentengruppen, Gewerkschaften und Mitgliedern der Gelbwesten-Bewegung organisierten Kundgebungen konzentrierten sich auf die Lebenshaltungskosten und den Zustand des Bildungssystems. In Paris leiteten die Behörden den Marsch auf die äußeren Boulevards der Stadt um, um Unruhen zu verhindern. Während die Demonstrationen weitgehend friedlich verliefen, kam es am Abend zu Zusammenstößen, als einige Personen pyrotechnische Gegenstände und Steine auf die Polizei warfen, die mit Tränengas und Blendgranaten reagierte. Das französische Innenministerium meldete 320.000 Teilnehmer landesweit und 779 Festnahmen. Die Behörden verurteilten die Gewalt, insbesondere einen Angriff auf Beamte mit Brandvorrichtungen, der eine Untersuchung wegen versuchten Mordes auslöste.",
    "demands": [
-    "Bessere Bedingungen im Bildungswesen",
-    "Niedrigere Lebenshaltungskosten",
-    "Verbesserte öffentliche Dienste"
+    "bessere Bildungsfinanzierung",
+    "verbesserte Schulbedingungen",
+    "niedrigere Lebenshaltungskosten"
    ],
-   "response": "Innenminister Laurent Nuñez kündigte den Einsatz von 70.000 Polizisten und Gendarmen an und warnte vor einem sehr hohen Risiko von Unruhen. Die Behörden beschränkten Märsche auf äußere Pariser Boulevards und verboten Versammlungen in zentralen Bereichen, um Plünderungen zu verhindern.",
+   "response": "Innenminister Laurent Nuñez setzte landesweit 70.000 Polizisten und Gendarmen ein. Die Behörden schränkten die Marschrouten in Paris ein und leiteten nach Angriffen auf Beamte Ermittlungen wegen versuchten Mordes ein.",
    "updates": [
-    "Das französische Innenministerium schätzte, dass am Samstag 320.000 Demonstranten landesweit marschierten, darunter 70.000 in Paris."
+    "Proteste finden in ganz Frankreich statt, mit 70.000 Teilnehmern in Paris und 320.000 landesweit.",
+    "Die Polizei meldet 779 Festnahmen und 159 verletzte Beamte landesweit nach Zusammenstößen.",
+    "Die Staatsanwaltschaft leitet Ermittlungen wegen versuchten Mordes ein, nachdem in Paris Brandvorrichtungen auf die Polizei geworfen wurden."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Das Innenministerium schätzte die Teilnehmerzahl landesweit auf 320.000, während die Organisatoren höhere Zahlen angaben."
+   ],
    "numbers": {
-    "crowd": "320.000 Menschen demonstrierten am Samstag in ganz Frankreich"
+    "crowd": "Schätzungsweise 70.000 Menschen nahmen laut Innenministerium an der Hauptdemonstration in Paris teil.",
+    "arrests": "Laut dem französischen Innenministerium wurden am Samstag während der Proteste 779 Personen festgenommen.",
+    "injuries": "159 Polizeibeamte und 60 Demonstranten wurden verletzt, berichtete Le Figaro unter Berufung auf Rettungsdienste."
    }
   }
- }
+ },
+ "endedOn": "2026-10-31"
 }

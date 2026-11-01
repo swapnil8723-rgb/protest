@@ -16,50 +16,70 @@
  "scope": "multi-city",
  "causes": [
   "ethnic-rights",
-  "land",
-  "governance"
+  "governance",
+  "justice"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-31",
  "status": "ended",
  "vibe": "wrapped-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious",
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against ongoing ethnic violence, recent killings of woodcutters, and government policies affecting indigenous people.",
-  "want": "Demonstrators demand the abrogation of the Suspension of Operations (SoO) pact, the chief minister's resignation, and refugee rehabilitation.",
-  "changed": "Oct 31, 2026: Thousands of Meitei and Naga participants marched in Imphal and held sit-ins across districts, facing police barricades."
+  "why": "Protesters are demanding an end to ongoing ethnic violence and the abrogation of the Suspension of Operations (SoO) agreement with Kuki groups.",
+  "want": "Abrogation of the SoO agreement, resignation of state leadership, withdrawal of Assam Rifles, and resettlement of displaced persons.",
+  "changed": "Oct 31: Thousands marched in Imphal and held simultaneous protests in Naga-majority districts."
  },
- "summary": "Thousands of people from Meitei and Naga communities gathered in Imphal for a large demonstration organized by the Coordinating Committee on Manipur Integrity (COCOMI) alongside various Naga civil society organizations. The mobilization followed an ambush in which three Meitei men were killed. Protesters marched from Tiddim Ground to voice their grievances, carrying placards and demanding the abrogation of the Suspension of Operations (SoO) agreement with Kuki militant groups, the resignation of Chief Minister Y Khemchand Singh, the withdrawal of Assam Rifles, and the safe return of internally displaced persons. Naga groups endorsed the rally and held simultaneous sit-in demonstrations across several district headquarters. Law enforcement authorities deployed barricades near key government offices in Imphal to restrict the march's movement.",
+ "summary": "On October 31, 2026, thousands of people from Meitei and Naga communities participated in a rally in Imphal, Manipur, to demand the abrogation of the Suspension of Operations (SoO) agreement with Kuki militant groups. Organised by the Coordinating Committee on Manipur Integrity (COCOMI) and supported by various Naga civil society organisations, the demonstration also called for the resignation of the Chief Minister and Deputy Chief Minister, the withdrawal of Assam Rifles, and the resettlement of internally displaced persons. Protesters marched from Tiddim Ground toward THAU Ground, though some reports noted police barricades hindered the procession. Simultaneous sit-in protests and rallies were held in other districts, including Chandel and Senapati. The mobilisation followed recent violent incidents in the state, which have heightened ethnic tensions.",
  "organizers": [
   "Coordinating Committee on Manipur Integrity (COCOMI)",
-  "United Naga Council (UNC)",
   "Joint Tribe Council Manipur (JTCM)",
   "Foothills Naga Coordination Committee (FNCC)",
-  "Naga People's Union, Imphal (NPUI)",
-  "Naga Humanitarian Aid Committee Manipur (NHACM)"
+  "Naga People’s Union, Imphal (NPUI)",
+  "Naga Humanitarian Aid Committee Manipur (NHACM)",
+  "United Naga Council (UNC)"
  ],
  "demands": [
-  "Abrogate the Suspension of Operations (SoO) agreement with Kuki militant groups",
-  "Resignation of the chief minister",
-  "Withdrawal of Assam Rifles from Manipur",
-  "Resettlement of internally displaced persons (IDPs)",
-  "Update the National Register of Citizens (NRC) using 1951 as the base year"
+  "Abrogation of the Suspension of Operations (SoO) agreement",
+  "Resignation of the Chief Minister and Deputy Chief Minister",
+  "Withdrawal of Assam Rifles from the state",
+  "Resettlement of internally displaced persons",
+  "Updation of the National Register of Citizens using 1951 as the base year"
  ],
- "response": "Police put up barricades at Keisampat junction in Imphal, preventing the march from proceeding further toward the Lok Bhavan and Chief Minister's Office.",
- "numbers": {},
- "updates": [
-  {
-   "at": "2026-10-31",
-   "text": "Thousands of participants joined a rally in Imphal organized by COCOMI and Naga groups to demand the abrogation of the SoO pact.",
+ "response": "No official government response to the specific demands of the rally was reported in the provided sources.",
+ "numbers": {
+  "crowd": {
+   "value": 1000,
+   "text": "Thousands of people",
    "sources": [
     3,
     4,
     5,
     6
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-10-28",
+   "text": "The United Naga Council announced its support for the rally planned by COCOMI for October 31.",
+   "sources": [
+    1
+   ]
+  },
+  {
+   "at": "2026-10-31",
+   "text": "Thousands marched in Imphal, while simultaneous protests occurred in Naga-majority districts.",
+   "sources": [
+    3,
+    4,
+    5
    ]
   }
  ],
@@ -80,171 +100,195 @@
   },
   {
    "n": 3,
-   "url": "https://theprint.in/india/meitei-groups-hold-rally-in-imphal-seek-manipur-cms-resignation-abrogation-of-soo-truce-pact/3086872/",
-   "publisher": "theprint.in",
-   "title": "Meitei groups hold rally in Imphal, seek Manipur CM's resignation, abrogation of SoO truce pact",
-   "publishedAt": "2026-10-31T08:15:58.000Z"
-  },
-  {
-   "n": 4,
    "url": "https://dailypioneer.com/india/meitei-naga-groups-hold-massive-manipur-rally-demand-end-to-alleged-proxy-war",
    "publisher": "dailypioneer.com",
    "title": "Meitei-Naga groups hold massive Manipur rally, demand end to alleged ‘proxy war’",
    "publishedAt": "2026-10-31T12:56:36.000Z"
   },
   {
-   "n": 5,
+   "n": 4,
    "url": "https://timesofindia.indiatimes.com/india/thousands-rally-in-manipur-against-recent-killings-ethnic-conflict/articleshow/135407435.cms",
    "publisher": "timesofindia.indiatimes.com",
    "title": "Thousands rally in Manipur against recent killings, ethnic conflict",
    "publishedAt": "2026-10-31T17:33:00.000Z"
   },
   {
-   "n": 6,
+   "n": 5,
    "url": "https://www.prokerala.com/news/articles/a1831452.html",
    "publisher": "prokerala.com",
    "title": "Meitei, Naga groups join hands in massive Manipur rally, demand SoO abrogation, Dy CM's resignation",
    "publishedAt": "2026-10-31T17:35:01.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://theprint.in/india/have-endured-enough-after-fresh-killings-manipur-rally-seeks-cms-exit-end-to-truce-with-militants/3087342/",
+   "publisher": "theprint.in",
+   "title": "'Have endured enough’: After fresh killings, Manipur rally seeks CM’s exit, end to truce with militants",
+   "publishedAt": "2026-11-01T05:54:50.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
+ "conflicts": [
+  "Reports differed on the Imphal procession’s final movement; one account said it reached THAU Ground, while another reported police barricades at Keisampat prevented the march from proceeding."
+ ],
+ "confidence": 0.8,
  "publishers": 6,
  "reports24h": 3,
- "reportsPrev24h": 2,
- "reports48h": 5,
+ "reportsPrev24h": 3,
+ "reports48h": 6,
  "firstSeenAt": "2026-10-28T03:25:17.960Z",
- "lastReportAt": "2026-10-31T17:35:01.000Z",
- "lastCheckedAt": "2026-11-01T12:30:11.958Z",
- "updatedAt": "2026-10-31T18:50:31.642Z",
- "responseSources": [
-  3,
-  4
- ],
+ "lastReportAt": "2026-11-01T05:54:50.000Z",
+ "lastCheckedAt": "2026-11-01T16:58:28.365Z",
+ "updatedAt": "2026-11-01T16:56:55.556Z",
+ "responseSources": [],
  "seriousInjuries": false,
- "sensitive": false,
- "summarizedAt": "2026-10-31T18:50:31.642Z",
- "summaryOf": "d46e40fc786b",
+ "sensitive": true,
+ "summarizedAt": "2026-11-01T16:56:55.556Z",
+ "summaryOf": "13581d586663",
  "endedOn": "2026-10-31",
  "publishedAt": "2026-10-31T11:53:11.546Z",
  "i18n": {
-  "of": "cfd29243268fd8ca",
-  "at": "2026-10-31T18:53:10.816Z",
+  "of": "a0d1f8d737f9c7d8",
+  "at": "2026-11-01T17:02:37.788Z",
   "tries": 1,
   "hi": {
-   "title": "इम्फाल में मैतेई और नागा समूहों ने एसओओ को रद्द करने की मांग को लेकर निकाली रैली",
-   "seoTitle": "इम्फाल रैली में एसओओ रद्द करने की मांग",
+   "title": "इंफाल में मैतेई और नागा समूहों ने SoO रद्द करने की मांग को लेकर रैली निकाली",
+   "seoTitle": "इंफाल रैली में SoO रद्द करने की मांग",
    "tea": {
-    "why": "प्रदर्शनकारी चल रही जातीय हिंसा, लकड़हारों की हालिया हत्याओं और स्वदेशी लोगों को प्रभावित करने वाली सरकारी नीतियों के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शनकारी सस्पेंशन ऑफ ऑपरेशंस (एसओओ) समझौते को रद्द करने, मुख्यमंत्री के इस्तीफे और शरणार्थियों के पुनर्वास की मांग कर रहे हैं।",
-    "changed": "31 अक्टूबर 2026: हजारों मैतेई और नागा प्रतिभागियों ने इम्फाल में मार्च निकाला और पुलिस बैरिकेड्स का सामना करते हुए जिलों में धरने दिए।"
+    "why": "प्रदर्शनकारी जारी जातीय हिंसा को समाप्त करने और कुकी समूहों के साथ सस्पेंशन ऑफ ऑपरेशंस (SoO) समझौते को रद्द करने की मांग कर रहे हैं।",
+    "want": "SoO समझौते को रद्द करना, राज्य नेतृत्व का इस्तीफा, असम राइफल्स की वापसी, और विस्थापित व्यक्तियों का पुनर्वास।",
+    "changed": "31 अक्टूबर: हजारों लोगों ने इंफाल में मार्च किया और नागा-बहुल जिलों में एक साथ विरोध प्रदर्शन किए।"
    },
-   "summary": "मैतेई और नागा समुदायों के हजारों लोग समन्वय समिति ऑन मणिपुर इंटीग्रिटी (COCOMI) द्वारा विभिन्न नागा नागरिक समाज संगठनों के साथ मिलकर आयोजित एक बड़े प्रदर्शन के लिए इम्फाल में एकत्र हुए। यह लामबंदी एक घात लगाकर किए गए हमले के बाद हुई जिसमें तीन मैतेई पुरुष मारे गए थे। प्रदर्शनकारियों ने तीडिम ग्राउंड से अपनी शिकायतें व्यक्त करने के लिए मार्च निकाला, तख्तियां उठाईं और कुकी उग्रवादी समूहों के साथ सस्पेंशन ऑफ ऑपरेशंस (SoO) समझौते को रद्द करने, मुख्यमंत्री वाई खेमचंद सिंह के इस्तीफे, असम राइफल्स को हटाने और आंतरिक रूप से विस्थापित व्यक्तियों की सुरक्षित वापसी की मांग की। नागा समूहों ने इस रैली का समर्थन किया और कई जिला मुख्यालयों में एक साथ धरना प्रदर्शन किए। कानून प्रवर्तन अधिकारियों ने मार्च की गतिशीलता को प्रतिबंधित करने के लिए इम्फाल में प्रमुख सरकारी कार्यालयों के पास बैरिकेड्स लगाए।",
+   "summary": "31 अक्टूबर 2026 को, इंफाल, मणिपुर में मैतेई और नागा समुदायों के हजारों लोगों ने कुकी उग्रवादी समूहों के साथ सस्पेंशन ऑफ ऑपरेशंस (SoO) समझौते को रद्द करने की मांग को लेकर एक रैली में भाग लिया। कोऑर्डिनेटिंग कमिटी ऑन मणिपुर इंटीग्रिटी (COCOMI) द्वारा आयोजित और विभिन्न नागा नागरिक समाज संगठनों द्वारा समर्थित, इस प्रदर्शन में मुख्यमंत्री और उपमुख्यमंत्री के इस्तीफे, असम राइफल्स की वापसी और आंतरिक रूप से विस्थापित व्यक्तियों के पुनर्वास की भी मांग की गई। प्रदर्शनकारियों ने टिडिम ग्राउंड से THAU ग्राउंड की ओर मार्च किया, हालांकि कुछ रिपोर्टों में कहा गया है कि पुलिस बैरिकेड्स ने जुलूस को बाधित किया। चंदेल और सेनापति सहित अन्य जिलों में एक साथ धरना प्रदर्शन और रैलियां आयोजित की गईं। यह लामबंदी राज्य में हाल की हिंसक घटनाओं के बाद हुई है, जिसने जातीय तनाव को बढ़ा दिया है।",
    "demands": [
-    "कुकी उग्रवादी समूहों के साथ सस्पेंशन ऑफ ऑपरेशंस (SoO) समझौते को रद्द करें",
-    "मुख्यमंत्री का इस्तीफा",
-    "मणिपुर से असम राइफल्स की वापसी",
-    "आंतरिक रूप से विस्थापित व्यक्तियों (IDPs) का पुनर्वास",
-    "1951 को आधार वर्ष मानकर राष्ट्रीय नागरिक रजिस्टर (NRC) को अपडेट करें"
+    "सस्पेंशन ऑफ ऑपरेशंस (SoO) समझौते को रद्द करना",
+    "मुख्यमंत्री और उपमुख्यमंत्री का इस्तीफा",
+    "राज्य से असम राइफल्स की वापसी",
+    "आंतरिक रूप से विस्थापित व्यक्तियों का पुनर्वास",
+    "1951 को आधार वर्ष मानकर नेशनल रजिस्टर ऑफ सिटीजन्स को अपडेट करना"
    ],
-   "response": "पुलिस ने इम्फाल के केइसमपाट जंक्शन पर बैरिकेड्स लगाए, जिससे मार्च राजभवन और मुख्यमंत्री कार्यालय की ओर आगे बढ़ने से रुक गया।",
+   "response": "प्रदान किए गए स्रोतों में रैली की विशिष्ट मांगों पर कोई आधिकारिक सरकारी प्रतिक्रिया नहीं दी गई है।",
    "updates": [
-    "एसओओ समझौते को रद्द करने की मांग के लिए COCOMI और नागा समूहों द्वारा इम्फाल में आयोजित रैली में हजारों प्रतिभागियों ने हिस्सा लिया।"
+    "यूनाइटेड नागा काउंसिल ने 31 अक्टूबर के लिए COCOMI द्वारा नियोजित रैली के लिए अपना समर्थन घोषित किया।",
+    "हजारों लोगों ने इंफाल में मार्च किया, जबकि नागा-बहुल जिलों में एक साथ विरोध प्रदर्शन हुए।"
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "इंफाल जुलूस की अंतिम गतिविधि पर रिपोर्ट अलग-अलग थी; एक विवरण में कहा गया कि यह THAU ग्राउंड तक पहुंच गया, जबकि दूसरे में बताया गया कि केइसमपत में पुलिस बैरिकेड्स ने मार्च को आगे बढ़ने से रोक दिया।"
+   ],
+   "numbers": {
+    "crowd": "हजारों लोग"
+   }
   },
   "mr": {
-   "title": "SoO रद्द करण्याची मागणी करण्यासाठी इम्फाळमध्ये मैतेई आणि नागा गटांची रॅली",
-   "seoTitle": "इम्फाळ रॅलीत SoO रद्द करण्याची मागणी",
+   "title": "इंफाळमध्ये मैतेई आणि नागा गटांची SoO रद्द करण्याची मागणी करत रॅली",
+   "seoTitle": "इंफाळ रॅलीत SoO रद्द करण्याची मागणी",
    "tea": {
-    "why": "निदर्शक सुरू असलेल्या वांशिक हिंसाचार, लाकूडटासकांच्या अलीकडील हत्या आणि स्थानिक लोकांना प्रभावित करणाऱ्या सरकारी धोरणांच्या विरोधात निदर्शने करत आहेत.",
-    "want": "निदर्शक सस्पेंशन ऑफ ऑपरेशन्स (SoO) करार रद्द करण्याची, मुख्यमंत्र्यांच्या राजीनाम्याची आणि निर्वासितांच्या पुनर्वसनाची मागणी करत आहेत.",
-    "changed": "३१ ऑक्टोबर २०२६: हजारो मैतेई आणि नागा सहभागींनी इम्फाळमध्ये मार्च काढला आणि पोलिसांच्या बॅरिकेट्सचा सामना करत जिल्ह्यांमध्ये धरणे धरले."
+    "why": "निदर्शक सुरू असलेला वांशिक हिंसाचार थांबवण्याची आणि कुकी गटांसोबतचा सस्पेंशन ऑफ ऑपरेशन्स (SoO) करार रद्द करण्याची मागणी करत आहेत.",
+    "want": "SoO करार रद्द करणे, राज्य नेतृत्वाचा राजीनामा, आसाम रायफल्सची माघार आणि विस्थापित व्यक्तींचे पुनर्वसन.",
+    "changed": "३१ ऑक्टोबर: हजारो लोकांनी इंफाळमध्ये मोर्चा काढला आणि नागा-बहुल जिल्ह्यांमध्ये एकाच वेळी निदर्शने केली."
    },
-   "summary": "कोऑर्डिनेटिंग कमिटी ऑन मणिपूर इंटीग्रिटी (COCOMI) आणि विविध नागा नागरी समाज संघटनांच्या वतीने आयोजित मोठ्या निदर्शनासाठी मैतेई आणि नागा समुदायांचे हजारो लोक इम्फाळमध्ये जमले. एका हल्ल्यानंतर, ज्यामध्ये तीन मैतेई पुरुष मारले गेले होते, हे एकत्रिकरण झाले. निदर्शकांनी तिड्डिम मैदानापासून आपला रोष व्यक्त करण्यासाठी मार्च काढला, हातात फलक घेतले आणि कुकी दहशतवादी गटांसोबतचा सस्पेंशन ऑफ ऑपरेशन्स (SoO) करार रद्द करणे, मुख्यमंत्री वाय खेमचंद सिंग यांचा राजीनामा, आसाम रायफल्सची माघार आणि अंतर्गत विस्थापित लोकांच्या सुरक्षित परतीची मागणी केली. नागा गटांनी रॅलीला पाठिंबा दिला आणि अनेक जिल्हा मुख्यालयांमध्ये एकाच वेळी धरणे आंदोलने केली. कायद्याची अंमलबजावणी करणाऱ्या अधिकाऱ्यांनी मार्चची हालचाल रोखण्यासाठी इम्फाळमधील प्रमुख सरकारी कार्यालयाजवळ बॅरिकेट्स लावले.",
+   "summary": "३१ ऑक्टोबर २०२६ रोजी, इंफाळ, मणिपूर येथे मैतेई आणि नागा समुदायातील हजारो लोकांनी कुकी बंडखोर गटांसोबतचा सस्पेंशन ऑफ ऑपरेशन्स (SoO) करार रद्द करण्याच्या मागणीसाठी रॅलीत सहभाग घेतला. कोऑर्डिनेटिंग कमिटी ऑन मणिपूर इंटिग्रिटी (COCOMI) द्वारे आयोजित आणि विविध नागा नागरी समाज संघटनांच्या पाठिंब्याने, या निदर्शनात मुख्यमंत्री आणि उपमुख्यमंत्र्यांचा राजीनामा, आसाम रायफल्सची माघार आणि अंतर्गत विस्थापित व्यक्तींचे पुनर्वसन करण्याची मागणी करण्यात आली. निदर्शकांनी टिडिम ग्राउंडपासून THAU ग्राउंडपर्यंत मोर्चा काढला, जरी काही अहवालांत नमूद केले आहे की पोलीस बॅरिकेड्समुळे मिरवणुकीत अडथळा आला. चंदेल आणि सेनापतीसह इतर जिल्ह्यांमध्ये एकाच वेळी धरणे आणि रॅली काढण्यात आल्या. ही मोहीम राज्यातील अलीकडील हिंसक घटनांनंतर झाली आहे, ज्यामुळे वांशिक तणाव वाढला आहे.",
    "demands": [
-    "कुकी दहशतवादी गटांसोबतचा सस्पेंशन ऑफ ऑपरेशन्स (SoO) करार रद्द करा",
-    "मुख्यमंत्र्यांचा राजीनामा",
-    "मणिपूरमधून आसाम रायफल्सची माघार",
-    "अंतर्गत विस्थापित व्यक्तींचे (IDPs) पुनर्वसन",
-    "१९५१ हे मूळ वर्ष मानून राष्ट्रीय नागरिक नोंदणी (NRC) अद्ययावत करा"
+    "सस्पेंशन ऑफ ऑपरेशन्स (SoO) करार रद्द करणे",
+    "मुख्यमंत्री आणि उपमुख्यमंत्र्यांचा राजीनामा",
+    "राज्यातून आसाम रायफल्सची माघार",
+    "अंतर्गत विस्थापित व्यक्तींचे पुनर्वसन",
+    "१९५१ हे आधार वर्ष वापरून नॅशनल रजिस्टर ऑफ सिटीझन्स अपडेट करणे"
    ],
-   "response": "पोलिसांनी इम्फाळच्या केइिसमपाट जंक्शनवर बॅरिकेट्स लावले, ज्यामुळे मार्च राजभवन आणि मुख्यमंत्री कार्यालयाच्या दिशेने पुढे जाण्यापासून रोखला गेला.",
+   "response": "दिलेल्या स्त्रोतांमध्ये रॅलीच्या विशिष्ट मागण्यांवर कोणतीही अधिकृत सरकारी प्रतिक्रिया नोंदवण्यात आलेली नाही.",
    "updates": [
-    "SoO करार रद्द करण्याची मागणी करण्यासाठी COCOMI आणि नागा गटांनी इम्फाळमध्ये आयोजित केलेल्या रॅलीत हजारो सहभागी सामील झाले."
+    "युनायटेड नागा कौन्सिलने ३१ ऑक्टोबरसाठी COCOMI द्वारे नियोजित रॅलीला पाठिंबा जाहीर केला.",
+    "हजारो लोकांनी इंफाळमध्ये मोर्चा काढला, तर नागा-बहुल जिल्ह्यांमध्ये एकाच वेळी निदर्शने झाली."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "इंफाळ मिरवणुकीच्या अंतिम हालचालीवर अहवाल भिन्न होते; एका खात्यात म्हटले आहे की ती THAU ग्राउंडपर्यंत पोहोचली, तर दुसऱ्या अहवालात म्हटले आहे की केइसमपत येथील पोलीस बॅरिकेड्समुळे मोर्चा पुढे जाण्यापासून रोखला गेला."
+   ],
+   "numbers": {
+    "crowd": "हजारो लोक"
+   }
   },
   "es": {
-   "title": "Grupos meitei y naga realizan una marcha en Imfal para exigir la abrogación del SoO",
-   "seoTitle": "Marcha en Imfal exige abrogación del SoO",
+   "title": "Grupos Meitei y Naga realizan una manifestación en Imphal exigiendo la derogación del SoO",
+   "seoTitle": "Manifestación en Imphal exige derogar el SoO",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra la violencia étnica en curso, los recientes asesinatos de leñadores y las políticas gubernamentales que afectan a los pueblos indígenas.",
-    "want": "Los manifestantes exigen la abrogación del pacto de Suspensión de Operaciones (SoO), la dimisión del ministro principal y la rehabilitación de los refugiados.",
-    "changed": "31 de oct. de 2026: Miles de participantes meitei y naga marcharon en Imfal y realizaron sentadas en varios distritos, enfrentándose a barricadas policiales."
+    "why": "Los manifestantes exigen el fin de la violencia étnica en curso y la derogación del acuerdo de Suspensión de Operaciones (SoO) con grupos Kuki.",
+    "want": "Derogación del acuerdo SoO, renuncia del liderazgo estatal, retirada de los Assam Rifles y reasentamiento de personas desplazadas.",
+    "changed": "31 de octubre: Miles marcharon en Imphal y realizaron protestas simultáneas en distritos de mayoría Naga."
    },
-   "summary": "Miles de personas de las comunidades meitei y naga se reunieron en Imfal para una gran manifestación organizada por el Comité Coordinador sobre la Integridad de Manipur (COCOMI) junto con varias organizaciones de la sociedad civil naga. La movilización se produjo tras una emboscada en la que tres hombres meitei fueron asesinados. Los manifestantes marcharon desde el terreno de Tiddim para expresar sus quejas, portando pancartas y exigiendo la abrogación del acuerdo de Suspensión de Operaciones (SoO) con grupos insurgentes kuki, la dimisión del ministro principal Y Khemchand Singh, la retirada de los Assam Rifles y el regreso seguro de las personas desplazadas internamente. Los grupos naga respaldaron la marcha y realizaron sentadas simultáneas en varias sedes de distrito. Las autoridades encargadas de hacer cumplir la ley desplegaron barricadas cerca de oficinas gubernamentales clave en Imfal para restringir el movimiento de la marcha.",
+   "summary": "El 31 de octubre de 2026, miles de personas de las comunidades Meitei y Naga participaron en una manifestación en Imphal, Manipur, para exigir la derogación del acuerdo de Suspensión de Operaciones (SoO) con grupos militantes Kuki. Organizada por el Comité Coordinador sobre la Integridad de Manipur (COCOMI) y apoyada por varias organizaciones de la sociedad civil Naga, la manifestación también pidió la renuncia del Ministro Principal y del Viceprimer Ministro, la retirada de los Assam Rifles y el reasentamiento de las personas desplazadas internamente. Los manifestantes marcharon desde Tiddim Ground hacia THAU Ground, aunque algunos informes señalaron que las barricadas policiales obstaculizaron la procesión. Se llevaron a cabo sentadas y manifestaciones simultáneas en otros distritos, incluidos Chandel y Senapati. La movilización siguió a recientes incidentes violentos en el estado, que han aumentado las tensiones étnicas.",
    "demands": [
-    "Abrogar el acuerdo de Suspensión de Operaciones (SoO) con los grupos insurgentes kuki",
-    "Dimisión del ministro principal",
-    "Retirada de los Assam Rifles de Manipur",
-    "Reasentamiento de las personas desplazadas internamente (IDP)",
-    "Actualizar el Registro Nacional de Ciudadanos (NRC) utilizando 1951 como año base"
+    "Derogación del acuerdo de Suspensión de Operaciones (SoO)",
+    "Renuncia del Ministro Principal y del Viceprimer Ministro",
+    "Retirada de los Assam Rifles del estado",
+    "Reasentamiento de personas desplazadas internamente",
+    "Actualización del Registro Nacional de Ciudadanos utilizando 1951 como año base"
    ],
-   "response": "La policía colocó barricadas en el cruce de Keisampat en Imfal, impidiendo que la marcha avanzara más hacia el Lok Bhavan y la Oficina del Ministro Principal.",
+   "response": "No se informó de ninguna respuesta oficial del gobierno a las demandas específicas de la manifestación en las fuentes proporcionadas.",
    "updates": [
-    "Miles de participantes se unieron a una marcha en Imfal organizada por COCOMI y grupos naga para exigir la abrogación del pacto SoO."
+    "El Consejo Unido Naga anunció su apoyo a la manifestación planeada por COCOMI para el 31 de octubre.",
+    "Miles marcharon en Imphal, mientras que ocurrieron protestas simultáneas en distritos de mayoría Naga."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "Los informes difirieron sobre el movimiento final de la procesión de Imphal; un relato dijo que llegó a THAU Ground, mientras que otro informó que las barricadas policiales en Keisampat impidieron que la marcha continuara."
+   ],
+   "numbers": {
+    "crowd": "Miles de personas"
+   }
   },
   "fr": {
-   "title": "Des groupes meiteis et nagas organisent un rassemblement à Imphal pour exiger l'abrogation du SoO",
+   "title": "Des groupes Meitei et Naga organisent un rassemblement à Imphal pour exiger l'abrogation du SoO",
    "seoTitle": "Un rassemblement à Imphal exige l'abrogation du SoO",
    "tea": {
-    "why": "Les manifestants protestent contre les violences ethniques en cours, les meurtres récents de bucherons et les politiques gouvernementales affectant les peuples autochtones.",
-    "want": "Les manifestants exigent l'abrogation du pacte de suspension des opérations (SoO), la démission du ministre en chef et la réhabilitation des réfugiés.",
-    "changed": "31 oct. 2026 : Des milliers de participants meiteis et nagas ont défilé à Imphal et ont tenu des sit-in à travers les districts, face à des barricades policières."
+    "why": "Les manifestants exigent la fin de la violence ethnique en cours et l'abrogation de l'accord de suspension des opérations (SoO) avec les groupes Kuki.",
+    "want": "L'abrogation de l'accord SoO, la démission des dirigeants de l'État, le retrait des Assam Rifles et la réinstallation des personnes déplacées.",
+    "changed": "31 octobre : Des milliers de personnes ont défilé à Imphal et ont organisé des manifestations simultanées dans les districts à majorité Naga."
    },
-   "summary": "Des milliers de personnes issues des communautés meitei et naga se sont rassemblées à Imphal pour une grande manifestation organisée par le Comité de coordination sur l'intégrité de Manipur (COCOMI) aux côtés de diverses organisations de la société civile naga. La mobilisation a fait suite à une embuscade au cours de laquelle trois hommes meiteis ont été tués. Les manifestants ont défilé depuis le terrain de Tiddim pour exprimer leurs griefs, portant des pancartes et exigeant l'abrogation de l'accord de suspension des opérations (SoO) avec les groupes militants kukis, la démission du ministre en chef Y Khemchand Singh, le retrait des Assam Rifles et le retour en toute sécurité des personnes déplacées à l'intérieur du pays. Des groupes nagas ont soutenu le rassemblement et ont tenu des sit-in simultanés dans plusieurs chefs-lieux de district. Les forces de l'ordre ont déployé des barricades près des principaux bâtiments gouvernementaux à Imphal pour restreindre la progression de la marche.",
+   "summary": "Le 31 octobre 2026, des milliers de personnes issues des communautés Meitei et Naga ont participé à un rassemblement à Imphal, au Manipur, pour exiger l'abrogation de l'accord de suspension des opérations (SoO) avec les groupes militants Kuki. Organisée par le Comité de coordination sur l'intégrité du Manipur (COCOMI) et soutenue par diverses organisations de la société civile Naga, la manifestation a également appelé à la démission du ministre en chef et du vice-ministre en chef, au retrait des Assam Rifles et à la réinstallation des personnes déplacées à l'intérieur du pays. Les manifestants ont marché de Tiddim Ground vers THAU Ground, bien que certains rapports aient noté que des barricades policières ont entravé le cortège. Des sit-in et des rassemblements simultanés ont eu lieu dans d'autres districts, notamment à Chandel et Senapati. Cette mobilisation fait suite à de récents incidents violents dans l'État, qui ont accru les tensions ethniques.",
    "demands": [
-    "Abroger l'accord de suspension des opérations (SoO) avec les groupes militants kukis",
-    "Démission du ministre en chef",
-    "Retrait des Assam Rifles de Manipur",
-    "Réinstallation des personnes déplacées à l'intérieur du pays (IDP)",
-    "Mettre à jour le registre national des citoyens (NRC) en utilisant 1951 comme année de base"
+    "L'abrogation de l'accord de suspension des opérations (SoO)",
+    "La démission du ministre en chef et du vice-ministre en chef",
+    "Le retrait des Assam Rifles de l'État",
+    "La réinstallation des personnes déplacées à l'intérieur du pays",
+    "La mise à jour du Registre national des citoyens en utilisant 1951 comme année de base"
    ],
-   "response": "La police a installé des barricades au carrefour de Keisampat à Imphal, empêchant la marche de progresser davantage vers le Lok Bhavan et le bureau du ministre en chef.",
+   "response": "Aucune réponse officielle du gouvernement aux demandes spécifiques du rassemblement n'a été signalée dans les sources fournies.",
    "updates": [
-    "Des milliers de participants ont rejoint un rassemblement à Imphal organisé par le COCOMI et des groupes nagas pour exiger l'abrogation du pacte SoO."
+    "Le United Naga Council a annoncé son soutien au rassemblement prévu par le COCOMI pour le 31 octobre.",
+    "Des milliers de personnes ont défilé à Imphal, tandis que des manifestations simultanées ont eu lieu dans les districts à majorité Naga."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "Les rapports différaient sur le mouvement final du cortège d'Imphal ; un compte rendu indiquait qu'il avait atteint THAU Ground, tandis qu'un autre rapportait que des barricades policières à Keisampat avaient empêché la marche de se poursuivre."
+   ],
+   "numbers": {
+    "crowd": "Des milliers de personnes"
+   }
   },
   "de": {
    "title": "Meitei- und Naga-Gruppen halten Kundgebung in Imphal ab und fordern Aufhebung des SoO",
-   "seoTitle": "Imphal-Kundgebung fordert Aufhebung des SoO",
+   "seoTitle": "Kundgebung in Imphal fordert Aufhebung des SoO",
    "tea": {
-    "why": "Demonstranten protestieren gegen anhaltende ethnische Gewalt, jüngste Morde an Holzfällern und Regierungsrichtlinien, die indigene Völker betreffen.",
-    "want": "Demonstranten fordern die Aufhebung des Abkommens zur Aussetzung der Operationen (SoO), den Rücktritt des Ministerpräsidenten und die Rehabilitierung von Flüchtlingen.",
-    "changed": "31. Okt. 2026: Tausende Meitei- und Naga-Teilnehmer marschierten durch Imphal und hielten Sitzblockaden in Bezirken ab, wobei sie sich Polizeibarrikaden gegenübersahen."
+    "why": "Die Demonstranten fordern ein Ende der anhaltenden ethnischen Gewalt und die Aufhebung des Abkommens zur Einstellung der Operationen (SoO) mit Kuki-Gruppen.",
+    "want": "Aufhebung des SoO-Abkommens, Rücktritt der Staatsführung, Abzug der Assam Rifles und Neuansiedlung von Vertriebenen.",
+    "changed": "31. Oktober: Tausende marschierten in Imphal und hielten gleichzeitige Proteste in Naga-Mehrheitsbezirken ab."
    },
-   "summary": "Tausende Menschen aus den Gemeinschaften der Meitei und Naga versammelten sich in Imphal zu einer großen Demonstration, die vom Coordinating Committee on Manipur Integrity (COCOMI) zusammen mit verschiedenen zivilgesellschaftlichen Naga-Organisationen organisiert wurde. Die Mobilisierung folgte auf einen Hinterhalt, bei dem drei Meitei-Männer getötet wurden. Demonstranten marschierten vom Tiddim-Platz los, um ihren Unmut zu äußern, trugen Plakate und forderten die Aufhebung des Abkommens über die Aussetzung der Operationen (SoO) mit militanten Kuki-Gruppen, den Rücktritt des Ministerpräsidenten Y Khemchand Singh, den Abzug der Assam Rifles und die sichere Rückkehr von Binnenvertriebenen. Naga-Gruppen unterstützten die Kundgebung und hielten gleichzeitig Sitzstreiks in mehreren Bezirksverwaltungsbezirken ab. Strafverfolgungsbehörden errichteten Barrikaden in der Nähe wichtiger Regierungsgebäude in Imphal, um die Bewegung des Marsches einzuschränken.",
+   "summary": "Am 31. Oktober 2026 nahmen Tausende Menschen aus den Meitei- und Naga-Gemeinschaften an einer Kundgebung in Imphal, Manipur, teil, um die Aufhebung des Abkommens zur Einstellung der Operationen (SoO) mit militanten Kuki-Gruppen zu fordern. Die vom Coordinating Committee on Manipur Integrity (COCOMI) organisierte und von verschiedenen Naga-Zivilgesellschaftsorganisationen unterstützte Demonstration forderte zudem den Rücktritt des Chief Minister und des Deputy Chief Minister, den Abzug der Assam Rifles und die Neuansiedlung von intern vertriebenen Personen. Die Demonstranten marschierten vom Tiddim Ground in Richtung THAU Ground, obwohl einige Berichte feststellten, dass Polizeibarrikaden den Umzug behinderten. Gleichzeitige Sitzstreiks und Kundgebungen fanden in anderen Bezirken statt, darunter Chandel und Senapati. Die Mobilisierung folgte auf jüngste gewaltsame Vorfälle im Bundesstaat, die die ethnischen Spannungen verschärft haben.",
    "demands": [
-    "Das Abkommen über die Aussetzung der Operationen (SoO) mit militanten Kuki-Gruppen aufheben",
-    "Rücktritt des Ministerpräsidenten",
-    "Abzug der Assam Rifles aus Manipur",
-    "Wiederaussiedlung von Binnenvertriebenen (IDPs)",
-    "Aktualisierung des Nationalen Bürgerregisters (NRC) mit dem Basisjahr 1951"
+    "Aufhebung des Abkommens zur Einstellung der Operationen (SoO)",
+    "Rücktritt des Chief Minister und des Deputy Chief Minister",
+    "Abzug der Assam Rifles aus dem Bundesstaat",
+    "Neuansiedlung von intern vertriebenen Personen",
+    "Aktualisierung des National Register of Citizens unter Verwendung von 1951 als Basisjahr"
    ],
-   "response": "Die Polizei errichtete Barrikaden an der Keisampat-Kreuzung in Imphal und hinderte den Marsch daran, weiter in Richtung Lok Bhavan und des Büros des Ministerpräsidenten vorzudringen.",
+   "response": "In den bereitgestellten Quellen wurde keine offizielle Regierungsreaktion auf die spezifischen Forderungen der Kundgebung gemeldet.",
    "updates": [
-    "Tausende Teilnehmer schlossen sich einer Kundgebung in Imphal an, die von COCOMI und Naga-Gruppen organisiert wurde, um die Aufhebung des SoO-Pakts zu fordern."
+    "Der United Naga Council kündigte seine Unterstützung für die vom COCOMI für den 31. Oktober geplante Kundgebung an.",
+    "Tausende marschierten in Imphal, während gleichzeitig Proteste in Naga-Mehrheitsbezirken stattfanden."
    ],
-   "conflicts": [],
-   "numbers": {}
+   "conflicts": [
+    "Die Berichte über die letzte Bewegung des Umzugs in Imphal unterschieden sich; ein Bericht besagte, dass er den THAU Ground erreichte, während ein anderer berichtete, dass Polizeibarrikaden in Keisampat den Marsch am Weiterkommen hinderten."
+   ],
+   "numbers": {
+    "crowd": "Tausende Menschen"
+   }
   }
  }
 }
