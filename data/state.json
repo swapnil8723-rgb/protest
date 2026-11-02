@@ -1,48 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-02",
-  "count": 173
+  "count": 219
  },
  "runs": [
-  {
-   "at": "2026-10-27T15:19:56.861Z",
-   "ms": 770985,
-   "discovered": 114,
-   "fetched": 103,
-   "classified": 94,
-   "protests": 40,
-   "summarized": 15,
-   "published": 196,
-   "live": 18,
-   "aiCalls": 36,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 12 files, 41 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss www.theportugalnews.com: The operation was aborted due to timeout",
-    "rss: 207 protest-word items",
-    "search: 24 single-source stories checked, 29 other newsrooms found",
-    "fetch: 103 ok, 11 failed",
-    "classify: new candidate eb17add6087 \"Metal and electrical workers announce upcoming warning strikes\" (Düsseldorf)",
-    "classify: new candidate eaa461f14b4 \"Kerala private bus operators announce indefinite strike\" (Palakkad)",
-    "classify: new candidate ed7a7fab6f5 \"Residents protest data center project at Hermantown council meeting\" (Hermantown)",
-    "classify: new candidate e6aa1bbb5b4 \"Slain politician's son detained during protest outside deputy CM's home\" (Thane)",
-    "classify: new candidate e39ed3abcc5 \"Youth hold rally for climate trial in Vancouver\" (Vancouver)",
-    "classify: new candidate ecc8fb03946 \"Spaniards protest housing costs and demand rent caps\" (Madrid)",
-    "classify: new candidate e3f2e0d4eee \"CVS pharmacy workers protest working conditions\" (Wakefield)",
-    "classify: new candidate e84b91db97c \"Railway workers announce strike over conditions in Portugal\" (Lisbon)",
-    "classify: new candidate ea63cdabc79 \"DMK and Left parties walk out of all-party meeting in Tiruchi\" (Tiruchirappalli)",
-    "classify: new candidate ee7dca99628 \"University of Nairobi students protest over lecturers' strike\" (Nairobi)",
-    "classify: new candidate eac3eb4be93 \"AIDWA workers protest price rise in Puducherry\" (Puducherry)",
-    "classify: new candidate e345d0a7258 \"CPI workers stage protest demanding resignation of CEC\" (Puducherry)",
-    "classify: new candidate e5a285a916d \"Osmania junior doctors resume protest over facilities\" (Hyderabad)",
-    "classify: new candidate e823a7aecdf \"Protests over living costs and school conditions spread in Europe\" (Paris)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 13 events"
-   ],
-   "translated": 13
-  },
   {
    "at": "2026-10-27T17:00:42.535Z",
    "ms": 536674,
@@ -1579,8 +1540,44 @@
     "translate: 30 events"
    ],
    "translated": 30
+  },
+  {
+   "at": "2026-11-02T17:50:29.946Z",
+   "ms": 482717,
+   "discovered": 114,
+   "fetched": 101,
+   "classified": 78,
+   "protests": 32,
+   "summarized": 16,
+   "published": 318,
+   "live": 18,
+   "aiCalls": 46,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261102171500 http://data.gdeltproject.org/gdeltv2/20261102171500.export.CSV.zip → 404",
+    "gdelt: 20261102173000 http://data.gdeltproject.org/gdeltv2/20261102173000.export.CSV.zip → 404",
+    "gdelt: 20261102174500 http://data.gdeltproject.org/gdeltv2/20261102174500.export.CSV.zip → 404",
+    "gdelt: 13 files, 52 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 212 protest-word items",
+    "search: 25 single-source stories checked (12 in their own language), 32 other newsrooms found",
+    "fetch: 101 ok, 13 failed",
+    "classify: new candidate e6ec58774fe \"Garment workers block Dhaka-Narayanganj road demanding wage hike\" (Narayanganj)",
+    "classify: new candidate eb349d68f4d \"High school students blockade schools across France over education\" (Grenoble)",
+    "classify: new candidate ee9ce27fe36 \"IDBI Bank employees stage two-day hunger strike against privatisation\" (Delhi)",
+    "classify: new candidate eb8c4560daf \"TASMAC workers strike and demonstrate against empty bottle collection\" (Tirunelveli)",
+    "classify: new candidate e5ea1f85828 \"Farmers rally against proposed India-US trade agreement\" (Palakkad)",
+    "classify: new candidate ec9bf8f9797 \"Students walk out in Albuquerque over AI data center impacts\" (Albuquerque)",
+    "classify: new candidate e8f4c257bf4 \"Protests and road blockades in Manipur following killings\" (Kangpokpi)",
+    "classify: new candidate e272eadd8da \"Unions and students prepare for mobilization and strike in Perpignan\" (Perpignan)",
+    "dedupe: merged eb05346b5c1 (berlin-youth-protests-oct-2026) into e33b511f973 (berlin-ig-metall-warning-strikes-nov-2026), 3 articles",
+    "dedupe: merged e33b511f973 (berlin-ig-metall-warning-strikes-nov-2026) into ef15d58b287 (berlin-student-protests-germany-oct-2026), 11 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 22 events"
+   ],
+   "translated": 22
   }
  ],
- "gdeltCursor": "20261102143000",
- "lastRunAt": "2026-11-02T14:21:38.827Z"
+ "gdeltCursor": "20261102174500",
+ "lastRunAt": "2026-11-02T17:50:29.946Z"
 }
