@@ -23,8 +23,10 @@
  "status": "ongoing",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "top-10"
+ ],
  "isOngoing": true,
  "published": true,
  "tea": {
@@ -122,12 +124,12 @@
  "conflicts": [],
  "confidence": 0.95,
  "publishers": 5,
- "reports24h": 3,
- "reportsPrev24h": 0,
+ "reports24h": 2,
+ "reportsPrev24h": 1,
  "reports48h": 3,
  "firstSeenAt": "2026-10-31T11:50:07.694Z",
  "lastReportAt": "2026-11-01T18:00:00.000Z",
- "lastCheckedAt": "2026-11-02T03:52:53.247Z",
+ "lastCheckedAt": "2026-11-02T06:53:19.144Z",
  "updatedAt": "2026-11-01T19:47:39.196Z",
  "searchedAt": "2026-10-31T15:50:41.398Z",
  "responseSources": [

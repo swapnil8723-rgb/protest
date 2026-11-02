@@ -1,40 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-02",
-  "count": 40
+  "count": 67
  },
  "runs": [
-  {
-   "at": "2026-10-27T04:27:47.447Z",
-   "ms": 416792,
-   "discovered": 91,
-   "fetched": 85,
-   "classified": 67,
-   "protests": 24,
-   "summarized": 14,
-   "published": 187,
-   "live": 15,
-   "aiCalls": 32,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 16 files, 55 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 217 protest-word items",
-    "search: 25 single-source stories checked, 28 other newsrooms found",
-    "fetch: 85 ok, 6 failed",
-    "classify: new candidate e92352a9c38 \"Arunachal Pradesh anti-dam protests spread to Subansiri valley\" (Daporijo)",
-    "classify: new candidate ebe52d942f6 \"Demonstrators protest Canada Pension Plan investments in St. John's\" (St. John's)",
-    "classify: new candidate eff843a90a2 \"Protesters gather near Vice President JD Vance rally in Topeka\" (Topeka)",
-    "classify: new candidate e40d7b74036 \"Protesters interrupt JD Vance campaign rally in Belgrade\" (Belgrade)",
-    "classify: new candidate e9a0ef25518 \"Protesters unfurl anti-Israel banners at hockey game in St. Louis\" (St. Louis)",
-    "classify: new candidate edb495f6a2b \"High school students walk out over school safety in Bend\" (Bend)",
-    "summary: ea522a0fade only 1 independent publisher(s) on-story — not applied",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 11 events"
-   ],
-   "translated": 11
-  },
   {
    "at": "2026-10-27T07:44:00.979Z",
    "ms": 319018,
@@ -1560,8 +1529,38 @@
     "translate: 9 events"
    ],
    "translated": 9
+  },
+  {
+   "at": "2026-11-02T06:49:33.273Z",
+   "ms": 329909,
+   "discovered": 67,
+   "fetched": 58,
+   "classified": 53,
+   "protests": 27,
+   "summarized": 12,
+   "published": 326,
+   "live": 17,
+   "aiCalls": 27,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261102061500 http://data.gdeltproject.org/gdeltv2/20261102061500.export.CSV.zip → 404",
+    "gdelt: 20261102063000 http://data.gdeltproject.org/gdeltv2/20261102063000.export.CSV.zip → 404",
+    "gdelt: 20261102064500 http://data.gdeltproject.org/gdeltv2/20261102064500.export.CSV.zip → 404",
+    "gdelt: 11 files, 22 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 260 protest-word items",
+    "search: 25 single-source stories checked (9 in their own language), 43 other newsrooms found",
+    "fetch: 58 ok, 9 failed",
+    "classify: new candidate e8452b1056f \"Students and parishioners protest flyover blocking Sion school\" (Mumbai)",
+    "classify: new candidate e07f94308e6 \"Students and workers join general strike in Reggio Calabria\" (Reggio Calabria)",
+    "classify: new candidate e338511c506 \"Protesters sweep European cities over living costs and housing\" (Madrid)",
+    "classify: new candidate e2fb7099e25 \"BJP and opposition parties hold political marches and rallies in India\" (Delhi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 10 events"
+   ],
+   "translated": 10
   }
  ],
- "gdeltCursor": "20261102040000",
- "lastRunAt": "2026-11-02T03:50:32.402Z"
+ "gdeltCursor": "20261102064500",
+ "lastRunAt": "2026-11-02T06:49:33.273Z"
 }
