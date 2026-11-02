@@ -1,50 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-02",
-  "count": 18
+  "count": 40
  },
  "runs": [
-  {
-   "at": "2026-10-27T00:30:00.486Z",
-   "ms": 375690,
-   "discovered": 136,
-   "fetched": 129,
-   "classified": 101,
-   "protests": 48,
-   "summarized": 15,
-   "published": 186,
-   "live": 15,
-   "aiCalls": 38,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20 files, 78 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss news.err.ee: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 218 protest-word items",
-    "search: 25 single-source stories checked, 23 other newsrooms found",
-    "fetch: 129 ok, 7 failed",
-    "classify: new candidate eb14f7622fb \"BJD and Congress call shutdowns in Jaleswar over rape and murder\" (Jaleshwar)",
-    "classify: new candidate ec61e7dd4ff \"Environmental activists oppose tree felling for hydro project in Karjat\" (Karjat)",
-    "classify: new candidate ea7aa293eb2 \"Migrants and supporters plan strike in Halle\" (Halle (Saale))",
-    "classify: new candidate e6bf367ca30 \"Odisha BJP stages protest over Kharge remarks\" (Bhubaneswar)",
-    "classify: new candidate e77e13ae959 \"Pune auto and cab unions call protests against bike taxis\" (Pune)",
-    "classify: new candidate e9ac61afad0 \"Porto residents protest eviction order outside City Hall\" (Porto)",
-    "classify: new candidate ed4fda9c339 \"Far-right militants clash during protests in France\" (Clermont-Ferrand)",
-    "classify: new candidate ea0e38c0269 \"Thousands rally in French cities to mourn racist attack victim\" (Lyon)",
-    "classify: new candidate ea522a0fade \"Chandigarh Congress mobilizes workers for Delhi rally\" (Chandigarh)",
-    "classify: new candidate e9e1a0bab77 \"Ombudsman requests info on police action during housing protests\" (Lisbon)",
-    "classify: new candidate e8aaca4c791 \"Staff at Hamilton private hospital strike over pay\" (Hamilton)",
-    "classify: new candidate ecdd07f773d \"Students protest ICE shooting in New York City\" (San Diego)",
-    "classify: new candidate e99decf8eba \"Far-right attack on Socialist Workers Party meeting\" (Glasgow)",
-    "classify: new candidate e2bd1563911 \"Demonstrators march in Rome and other Italian cities over costs and policies\" (Paris)",
-    "classify: new candidate ea0d3513f24 \"Far-right activists detained after clashes during French protests\" (Nice)",
-    "classify: new candidate e05cd3affc6 \"BJP stages protest in Guwahati over Congress chief remarks\" (Guwahati)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 14 events"
-   ],
-   "translated": 14
-  },
   {
    "at": "2026-10-27T04:27:47.447Z",
    "ms": 416792,
@@ -1573,8 +1532,36 @@
     "translate: 7 events"
    ],
    "translated": 7
+  },
+  {
+   "at": "2026-11-02T03:50:32.402Z",
+   "ms": 222575,
+   "discovered": 44,
+   "fetched": 40,
+   "classified": 36,
+   "protests": 16,
+   "summarized": 10,
+   "published": 326,
+   "live": 19,
+   "aiCalls": 22,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261102033000 http://data.gdeltproject.org/gdeltv2/20261102033000.export.CSV.zip → 404",
+    "gdelt: 13 files, 23 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss news.err.ee: 403",
+    "rss www.theguardian.com: fetch failed",
+    "rss: 268 protest-word items",
+    "search: 21 single-source stories checked (6 in their own language), 20 other newsrooms found",
+    "fetch: 40 ok, 4 failed",
+    "classify: new candidate ea98734c46d \"Youth-led protests continue across Europe over living costs and housing\" (Paris)",
+    "classify: new candidate e41747018f1 \"Youth protests over cost of living and housing in Europe\" (Lisbon)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 9 events"
+   ],
+   "translated": 9
   }
  ],
- "gdeltCursor": "20261102004500",
- "lastRunAt": "2026-11-02T00:48:05.479Z"
+ "gdeltCursor": "20261102040000",
+ "lastRunAt": "2026-11-02T03:50:32.402Z"
 }
