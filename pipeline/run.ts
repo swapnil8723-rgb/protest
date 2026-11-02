@@ -7,6 +7,7 @@ import { makeAi, OverBudget } from './ai.ts';
 import { fetchPage, type Page } from './article.ts';
 import { byIso, LIMITS, TRANSLATE_TO } from './config.ts';
 import { classify } from './classify.ts';
+import { dedupe } from './dedupe.ts';
 import { corroborate } from './corroborate.ts';
 import { discoverDays, discoverRecent, type GdeltHit } from './gdelt.ts';
 import { discoverRss, type RssItem } from './rss.ts';
@@ -173,6 +174,9 @@ try {
   const c = await classify(ai, todo, pages, events, log);
   run.classified = c.classified;
   run.protests = c.protests;
+
+  // 4b. Fold duplicate events in one city together before their summaries are written.
+  await dedupe(ai, events, articles, log);
 
   // 5. Summaries for events with ≥ 2 independent publishers and new sources
   run.summarized = (await summarize(ai, events, articles, log)).length;

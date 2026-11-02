@@ -3,6 +3,9 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { deflateRawSync } from 'node:zlib';
 import { knownEvents } from '../pipeline/classify.ts';
+import { dedupe, dedupePairs, keeper } from '../pipeline/dedupe.ts';
+import type { Ai } from '../pipeline/ai.ts';
+import { mergedRedirects } from '../scripts/redirects.ts';
 import { edition, toSearch } from '../pipeline/corroborate.ts';
 import { independentGroups, newEvent, findSimilar } from '../pipeline/events.ts';
 import { parseEvents } from '../pipeline/gdelt.ts';
@@ -12,7 +15,7 @@ import { score, confidence } from '../pipeline/score.ts';
 import { apply, makeSlug, reserveSlugs } from '../pipeline/summarize.ts';
 import { extract } from '../pipeline/article.ts';
 import type { Article, ProtestEvent } from '../pipeline/types.ts';
-import { isBlockedUrl, looksLikeProtest, publisherOf, titleSimilarity, unzipFirst, PROTEST_WORDS } from '../pipeline/util.ts';
+import { hostOf, isBlockedUrl, looksLikeProtest, publisherOf, titleSimilarity, unzipFirst, PROTEST_WORDS } from '../pipeline/util.ts';
 import type { SummaryOut } from '../pipeline/prompts.ts';
 
 const place = resolvePlace('Mumbai', 'Maharashtra', 'in')!;
@@ -216,6 +219,49 @@ test('a merged duplicate stays hidden and is never matched again', () => {
   assert.equal(keep.published, true);
   assert.equal(dup.published, false); // merged pages come down; vercel.json redirects them
   assert.equal(findSimilar([dup], dup.title, place, '2026-10-04'), undefined);
+});
+
+test('duplicate check: same-city pairs with overlapping dates, merged into the oldest page, redirected', async () => {
+  const recent = (h: number) => new Date(Date.now() - h * 36e5).toISOString();
+  const pune = resolvePlace('Pune', 'Maharashtra', 'in')!;
+  const first = liveEvent({ published: true, publishedAt: recent(40), startedOn: '2026-10-31', lastReportAt: recent(2), publishers: 10, title: 'Youth demonstrations turn to evening clashes' });
+  const twin = liveEvent({ published: true, publishedAt: recent(20), startedOn: '2026-10-31', lastReportAt: recent(3), publishers: 10, title: 'Gen Z protest turns to looting' });
+  const other = liveEvent({ published: true, publishedAt: recent(30), startedOn: '2026-11-01', lastReportAt: recent(4), publishers: 3, title: 'Dockworkers strike over pay' });
+  const elsewhere = Object.assign(liveEvent({ published: true, startedOn: '2026-10-31', lastReportAt: recent(2), publishers: 4 }), { place: pune });
+  const old = liveEvent({ published: true, startedOn: '2026-10-20', endedOn: '2026-10-21', lastReportAt: recent(100), publishers: 4 });
+  const lone = Object.assign(newEvent('One-source candidate', place, '2026-10-31', [], 'x'), { lastReportAt: recent(1), publishers: 1 });
+  const lone2 = Object.assign(newEvent('Another candidate', place, '2026-10-31', [], 'y'), { lastReportAt: recent(1), publishers: 1 });
+  const events = new Map([first, twin, other, elsewhere, old, lone, lone2].map((e) => [e.id, e]));
+  const pairs = dedupePairs(events.values());
+  const has = (a: ProtestEvent, b: ProtestEvent) => pairs.some(([x, y]) => (x === a && y === b) || (x === b && y === a));
+  assert.ok(has(first, twin) && has(first, other) && has(first, lone));
+  assert.ok(!has(first, elsewhere), 'another city is never a duplicate');
+  assert.ok(!has(first, old), 'an ended protest 10 days earlier is not paired');
+  assert.ok(!has(lone, lone2), 'two hidden one-source candidates are left alone');
+  assert.deepEqual(keeper(twin, first), [first, twin]); // longest-live URL keeps its page
+
+  const art = (url: string, eventId: string): Article => ({ url, publisher: hostOf(url), via: 'rss', firstSeenAt: recent(5), fetch: 'ok', title: url, eventId });
+  const articles = new Map([art('https://a.com/1', first.id), art('https://b.com/2', twin.id)].map((a) => [a.url, a]));
+  const answers = (same: (a: ProtestEvent, b: ProtestEvent) => boolean): Ai => ({
+    name: 'fake', calls: 0,
+    json: async <T,>() => ({ pairs: dedupePairs(events.values()).map(([a, b], i) => ({ id: `p${i + 1}`, same: same(a, b) })) }) as T,
+  });
+  const merged = await dedupe(answers((a, b) => [a, b].includes(first) && [a, b].includes(twin)), events, articles, () => {});
+  assert.equal(merged, 1);
+  assert.equal(twin.mergedInto, first.id);
+  assert.equal(articles.get('https://b.com/2')!.eventId, first.id);
+  assert.equal(first.summaryOf, undefined); // re-summarised from both sets of sources
+  assert.ok(first.distinctFrom!.includes(other.id) && other.distinctFrom!.includes(first.id));
+  assert.ok(!dedupePairs(events.values()).some(([a, b]) => [a, b].includes(other) && [a, b].includes(first)), 'a pair judged different is never asked again');
+
+  score(events, articles, { reviewer: false });
+  const r = mergedRedirects(events, ['fr', 'de'], () => 'india');
+  assert.deepEqual(r, [
+    { source: `/p/${twin.slug}`, destination: `/p/${first.slug}`, permanent: true },
+    { source: `/:lang(fr|de)/p/${twin.slug}`, destination: `/:lang/p/${first.slug}`, permanent: true },
+  ]);
+  first.withdrawn = 'owner';
+  assert.equal(mergedRedirects(events, ['fr'], () => 'india')[0].destination, '/country/india'); // never a 404
 });
 
 test('confidence formula', () => {

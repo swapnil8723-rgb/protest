@@ -113,7 +113,11 @@ const india_ = COUNTRIES.find((c) => c.iso === 'in')!;
         </div>
         <p class="mt-1 max-w-[52rem] text-[14px] leading-snug sm:text-[15px]">{t('big.bannerText')}</p>
       </div>
-      <div class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{freshStories.slice(0, 6).map((s) => <StoryCard s={s} compact />)}</div>
+      {/* One row that scrolls sideways at every width; a fixed card width lets the next card
+          peek in at the edge so it reads as scrollable. The row scrolls, never the page. */}
+      <ul class="story-rail -mx-4 mt-3 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-3 pt-2 sm:mx-0 sm:px-0" aria-labelledby="big" tabindex="0">
+        {freshStories.slice(0, 12).map((s) => <li class="w-[min(78vw,300px)] shrink-0 snap-start sm:w-[300px]"><StoryCard s={s} compact /></li>)}
+      </ul>
     </section>
   )}
 

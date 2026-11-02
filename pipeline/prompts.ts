@@ -60,7 +60,7 @@ When true:
 - city / region / country: where the protest physically happened (country as iso2 code from the list). For a village use the nearest town or district headquarters. For protests in many cities, the main city the article focuses on. Use null if the article does not say where.
 - date: YYYY-MM-DD the action happened or starts.
 - causes: 1–3 from ${causeList}.
-- match_event_id: the id of a KNOWN EVENT below if this article is about the same protest (same place, same campaign, same or continuing dates). Otherwise null.
+- match_event_id: the id of a KNOWN EVENT below if this article is about the same protest (same place, same campaign, same or continuing dates). Otherwise null. Clashes, arrests, injuries or looting that came out of a known protest, and its later days, belong to that known event even when the headline only mentions the clashes.
 - story_key: for protests not in the known list, a short kebab-case key; give articles in this batch about the same new protest the same key.
 
 KNOWN EVENTS:
@@ -216,6 +216,56 @@ export const summarySchema = {
     'status', 'status_sources', 'tea_why', 'tea_want', 'tea_changed', 'summary', 'organizers', 'demands', 'response', 'response_sources',
     'crowd', 'arrests', 'injuries', 'deaths', 'serious_injuries', 'sensitive', 'updates', 'conflicts', 'causes'],
 };
+
+// ── Duplicate check (dedupe.ts) ────────────────────────────────────────────────
+
+interface DedupeSide {
+  title: string;
+  since: string;
+  summary: string;
+  organizers: string[];
+  headlines: string[];
+}
+export interface DedupePair {
+  id: string;
+  city: string;
+  a: DedupeSide;
+  b: DedupeSide;
+}
+export interface DedupeOut {
+  pairs: { id: string; same: boolean }[];
+}
+
+export function dedupePrompt(pairs: DedupePair[]): string {
+  return `LOUD keeps ONE page per protest per city. A protest page covers the whole story in that city: the march or strike itself, clashes, arrests and injuries that came out of it, its later days, and the official response. Each pair below is two pages in the same city with overlapping dates, made from different articles.
+
+For each pair decide whether A and B are the same protest story in that city.
+same = true when they are the same action or the same running campaign there: e.g. a youth march and the evening clashes and looting after it; a rally announced and then held; day 1 and day 3 of the same strike; the same nationwide movement's demonstration in this city described under two headlines.
+same = false when they are different protests that merely share a city and dates: different organisers or groups with different causes, a protest and a separate counter-protest by an opposing side, two unrelated strikes, or a local action that is not part of the other's campaign.
+If unsure, answer false: a wrong merge hides a real protest.
+
+PAIRS:
+${pairs
+  .map((p) => `### ${p.id} — ${p.city}\nA: ${JSON.stringify(p.a)}\nB: ${JSON.stringify(p.b)}`)
+  .join('\n\n')}
+
+Return {"pairs":[{"id":"p1","same":true},...]} with one entry per pair id above.`;
+}
+
+export const dedupeSchema = {
+  type: 'object',
+  properties: {
+    pairs: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: { id: { type: 'string' }, same: { type: 'boolean' } },
+        required: ['id', 'same'],
+      },
+    },
+  },
+  required: ['pairs'],
+} as const;
 
 // ── Reader reports ("Add a protest" form) ──────────────────────────────────────
 

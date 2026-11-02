@@ -6,6 +6,8 @@
 // - Anything that cannot be expressed exactly throws, failing the build: a wrong redirect
 //   is worse than no deploy.
 
+import type { ProtestEvent } from '../pipeline/types.ts';
+
 export interface VercelRedirect {
   source: string;
   destination: string;
@@ -59,4 +61,25 @@ export function toCloudflareRedirects(redirects: VercelRedirect[]): { text: stri
     throw new Error(`_redirects: ${fixed.length} static / ${patterns.length} dynamic, over Cloudflare's ${LIMITS.static} / ${LIMITS.dynamic}`);
   }
   return { text: [...fixed, ...patterns].join('\n') + '\n', static: fixed.length, dynamic: patterns.length };
+}
+
+/** Permanent redirects from every merged duplicate's page (English and each language) to the
+ *  page it was folded into, following chains (A → B → C sends A to C). Duplicates without a
+ *  slug never had a page. When the kept event is not on the site (hidden, withdrawn), the link
+ *  goes to the country page instead, as withdraw-events.ts does, so it never turns into a 404. */
+export function mergedRedirects(events: Map<string, ProtestEvent>, langs: readonly string[], countrySlug: (iso: string) => string): VercelRedirect[] {
+  const out: VercelRedirect[] = [];
+  for (const e of events.values()) {
+    if (!e.mergedInto || !e.slug) continue;
+    let keep = events.get(e.mergedInto);
+    for (let hops = 0; keep?.mergedInto && hops < 10; hops++) keep = events.get(keep.mergedInto);
+    if (keep?.slug === e.slug) continue;
+    const shown = keep && !keep.mergedInto && !keep.withdrawn && keep.published && keep.slug && (keep.stage === 'live' || keep.origin === 'reader');
+    const to = shown ? `/p/${keep.slug}` : `/country/${countrySlug(e.place.country)}`;
+    out.push(
+      { source: `/p/${e.slug}`, destination: to, permanent: true },
+      { source: `/:lang(${langs.join('|')})/p/${e.slug}`, destination: `/:lang${to}`, permanent: true },
+    );
+  }
+  return out;
 }

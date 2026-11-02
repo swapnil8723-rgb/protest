@@ -6,6 +6,7 @@
 // change, so the old link keeps working.
 import fs from 'node:fs';
 import { TRANSLATE_TO } from '../pipeline/config.ts';
+import { mergeInto } from '../pipeline/events.ts';
 import { loadArticles, loadEvents, saveArticles, saveEvents } from '../pipeline/store.ts';
 
 const [keepId, dropId] = process.argv.slice(2);
@@ -23,20 +24,7 @@ if (drop.slug && (keep.place.country !== drop.place.country || keep.place.citySl
   throw new Error('events are in different cities (one page per city)');
 }
 
-let moved = 0;
-for (const a of articles.values()) {
-  if (a.eventId !== dropId) continue;
-  a.eventId = keepId;
-  moved++;
-}
-// Anything that pointed at the duplicate now points at the kept event.
-for (const e of events.values()) if (e.mergedInto === dropId) e.mergedInto = keepId;
-
-drop.mergedInto = keepId;
-drop.published = false;
-if (drop.firstSeenAt < keep.firstSeenAt) keep.firstSeenAt = drop.firstSeenAt;
-if (drop.startedOn < keep.startedOn) keep.startedOn = drop.startedOn;
-keep.summaryOf = undefined; // re-summarise from the combined sources on the next run
+const moved = mergeInto(keep, drop, events, articles);
 saveEvents(events);
 saveArticles(articles, events);
 

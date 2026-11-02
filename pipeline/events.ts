@@ -63,6 +63,30 @@ export function independentGroups(articles: Article[]): Article[][] {
   return groups;
 }
 
+/**
+ * Fold a duplicate into the event that keeps its page: its articles move over, it is hidden
+ * for good (score.ts), and the kept event is re-summarised from all sources on the next
+ * summary pass. The duplicate's URL redirects to the kept page (scripts/postbuild.ts reads
+ * `mergedInto` from data/, so this works from inside the pipeline too). Returns articles moved.
+ */
+export function mergeInto(keep: ProtestEvent, drop: ProtestEvent, events: Map<string, ProtestEvent>, articles: Map<string, Article>): number {
+  let moved = 0;
+  for (const a of articles.values()) {
+    if (a.eventId !== drop.id) continue;
+    a.eventId = keep.id;
+    moved++;
+  }
+  // Anything that pointed at the duplicate now points at the kept event.
+  for (const e of events.values()) if (e.mergedInto === drop.id) e.mergedInto = keep.id;
+  drop.mergedInto = keep.id;
+  drop.published = false;
+  if (drop.firstSeenAt < keep.firstSeenAt) keep.firstSeenAt = drop.firstSeenAt;
+  if (drop.startedOn < keep.startedOn) keep.startedOn = drop.startedOn;
+  if (drop.lastReportAt > keep.lastReportAt) keep.lastReportAt = drop.lastReportAt;
+  keep.summaryOf = undefined;
+  return moved;
+}
+
 /** Deterministic fallback match when the AI did not link an article to a known event. */
 export function findSimilar(events: Iterable<ProtestEvent>, label: string, place: Place, date: string): ProtestEvent | undefined {
   let best: ProtestEvent | undefined;
