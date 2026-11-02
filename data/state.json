@@ -1,42 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-02",
-  "count": 219
+  "count": 263
  },
  "runs": [
-  {
-   "at": "2026-10-27T17:00:42.535Z",
-   "ms": 536674,
-   "discovered": 63,
-   "fetched": 60,
-   "classified": 51,
-   "protests": 18,
-   "summarized": 8,
-   "published": 201,
-   "live": 19,
-   "aiCalls": 21,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 20261027163000 http://data.gdeltproject.org/gdeltv2/20261027163000.export.CSV.zip → 404",
-    "gdelt: 20261027164500 http://data.gdeltproject.org/gdeltv2/20261027164500.export.CSV.zip → 404",
-    "gdelt: 20261027170000 http://data.gdeltproject.org/gdeltv2/20261027170000.export.CSV.zip → 404",
-    "gdelt: 7 files, 19 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss www.bostonglobe.com: 404",
-    "rss civil.ge: fetch failed",
-    "rss: 217 protest-word items",
-    "search: 25 single-source stories checked, 22 other newsrooms found",
-    "fetch: 60 ok, 3 failed",
-    "classify: new candidate e686019501f \"Hebron residents protest Israeli military operation\" (Hebron)",
-    "classify: new candidate e8b16d690f9 \"Italian taxi drivers call national strike and demonstrations\" (Florence)",
-    "classify: new candidate e42cf3a5778 \"Italian taxi drivers call national strike and protests\" (Rome)",
-    "classify: new candidate e1f97f52296 \"Residents protest Protestant church construction in Purwakarta\" (Purwakarta)",
-    "classify: new candidate eff1b9b8aaf \"Demonstrators march across France over living costs and inequality\" (Paris)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 8 events"
-   ],
-   "translated": 8
-  },
   {
    "at": "2026-10-27T19:50:29.850Z",
    "ms": 378725,
@@ -1576,8 +1543,58 @@
     "translate: 22 events"
    ],
    "translated": 22
+  },
+  {
+   "at": "2026-11-02T20:50:40.773Z",
+   "ms": 444376,
+   "discovered": 122,
+   "fetched": 107,
+   "classified": 74,
+   "protests": 27,
+   "summarized": 19,
+   "published": 311,
+   "live": 18,
+   "aiCalls": 44,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 72 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 204 protest-word items",
+    "search: 25 single-source stories checked (6 in their own language), 34 other newsrooms found",
+    "fetch: 107 ok, 15 failed",
+    "classify: new candidate e15ddedfc56 \"Youth and women's organizations protest hospital conditions in Hyderabad\" (Hyderabad)",
+    "classify: new candidate e879707b082 \"French pupils resume school blockades over conditions\" (Paris)",
+    "classify: new candidate e1624087671 \"Gen Z demonstrations and clashes across German cities\" (Berlin)",
+    "classify: new candidate e039a7e8e28 \"Hunter women's group protest for IVF rights in Newcastle\" (Newcastle)",
+    "classify: new candidate e2e5148f68b \"French high school students blockade schools over cost of living\" (Paris)",
+    "classify: new candidate e99e7ce328b \"UNRWA employees march against job cuts in Gaza\" (An Nusayrat)",
+    "classify: new candidate ecf7e764aa0 \"Anti-fascist protesters clash with far-right gathering in Seville\" (Sevilla)",
+    "classify: new candidate e24959141aa \"IG Metall metal workers strike in Lower Saxony\" (Einbeck)",
+    "classify: new candidate e575ceda03c \"Student blockades and protests planned in Lyon\" (Lyon)",
+    "classify: new candidate e06003bbc41 \"IDBI Bank employees stage hunger strike in Guwahati against privatisation\" (Guwahati)",
+    "dedupe: merged e2bf25aa0eb (milan-protests-living-costs-war-oct-2026) into ed6a23c6282 (milan-living-costs-protest-oct-2026), 2 articles",
+    "dedupe: merged e2fe8a4cf7d (lisbon-police-pay-protest-oct-2026) into eb522b87dd7 (lisbon-housing-cost-protest-oct-2026), 7 articles",
+    "dedupe: merged eb522b87dd7 (lisbon-housing-cost-protest-oct-2026) into ed0e22fce32 (lisbon-housing-rights-protest-oct-2026), 19 articles",
+    "dedupe: merged e4f7d9b1bf4 (lisbon-housing-rights-protest-oct-2026-2) into ed0e22fce32 (lisbon-housing-rights-protest-oct-2026), 9 articles",
+    "dedupe: merged e8e37669adc (dhaka-garment-worker-wage-protest-oct-2026) into e542af1efb0 (dhaka-rmg-workers-wage-protest-oct-2026), 13 articles",
+    "dedupe: merged e42cf3a5778 (rome-taxi-strike-fuel-prices-oct-2026) into ee83065cee2 (rome-cost-of-living-protest-italy-oct-2026), 5 articles",
+    "dedupe: merged ebe8f5e3439 (rome-anti-government-protest-oct-2026) into ee83065cee2 (rome-cost-of-living-protest-italy-oct-2026), 8 articles",
+    "dedupe: merged ecfd67a2405 (rome-student-worker-rally-oct-2026) into ee83065cee2 (rome-cost-of-living-protest-italy-oct-2026), 21 articles",
+    "dedupe: merged e4ef99e4c11 (jakarta-statue-climate-protest-oct-2026) into ecf26ea4445 (jakarta-wildfire-crisis-protest-oct-2026), 2 articles",
+    "dedupe: merged efe21c6beba (kolkata-srfti-student-protest-oct-2026) into e8175b69d24 (kolkata-srfti-campus-protest-sep-2026), 2 articles",
+    "dedupe: merged e0065bf1128 (kangpokpi-protest-deaths-nov-2026) into efad4b9538b (kangpokpi-cotu-shutdown-oct-2026), 2 articles",
+    "dedupe: merged e8f4c257bf4 into efad4b9538b (kangpokpi-cotu-shutdown-oct-2026), 1 articles",
+    "dedupe: merged e02f832ae08 into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 1 articles",
+    "dedupe: merged e041fc95148 into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 3 articles",
+    "dedupe: merged e2bd1563911 (paris-anti-government-protests-oct-2026) into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 2 articles",
+    "dedupe: merged e312cd651be into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 1 articles",
+    "dedupe: merged e6e04b537d6 into eaf17745a66 (paris-unions-students-strike-nov-2026), 1 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 17 events"
+   ],
+   "translated": 17
   }
  ],
- "gdeltCursor": "20261102174500",
- "lastRunAt": "2026-11-02T17:50:29.946Z"
+ "gdeltCursor": "20261102210000",
+ "lastRunAt": "2026-11-02T20:50:40.773Z"
 }
