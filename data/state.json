@@ -1,43 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-11-01",
-  "count": 269
+  "day": "2026-11-02",
+  "count": 18
  },
  "runs": [
-  {
-   "at": "2026-10-26T19:28:48.936Z",
-   "ms": 481957,
-   "discovered": 126,
-   "fetched": 114,
-   "classified": 93,
-   "protests": 42,
-   "summarized": 18,
-   "published": 183,
-   "live": 15,
-   "aiCalls": 49,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 68 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 214 protest-word items",
-    "search: 25 single-source stories checked, 26 other newsrooms found",
-    "fetch: 114 ok, 12 failed",
-    "classify: new candidate edc706d16be \"Lisbon Metro workers partial strike\" (Lisbon)",
-    "classify: new candidate e318da279f6 \"Tbilisi residents protest planned high-rise development at Expo Georgia\" (Tbilisi)",
-    "classify: new candidate e12e3958465 \"Delhi lawyers call for judicial work strike over FIR\" (Delhi)",
-    "classify: new candidate e312cd651be \"Demonstrators protest cost of living and education across Europe\" (Paris)",
-    "classify: new candidate ea7c6cb7616 \"Residents and candidates rally for rural healthcare\" (Sault Ste. Marie)",
-    "classify: new candidate ed19cc3a891 \"IGPN investigates protester injury during cost of living protest in Reims\" (Reims)",
-    "classify: new candidate e2d6ac930c5 \"Delhi lawyers strike over alleged police intimidation\" (Delhi)",
-    "classify: new candidate efda9082a9b \"Regina community rallies against AI data centre construction\" (Regina)",
-    "classify: new candidate e5684f6cb63 \"BJP stages protest in Chennai over opposition remarks\" (Chennai)",
-    "classify: new candidate e660ee67a8f \"PMOI supporters rally in Stockholm against executions in Iran\" (Stockholm)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 23 events"
-   ],
-   "translated": 23
-  },
   {
    "at": "2026-10-27T00:30:00.486Z",
    "ms": 375690,
@@ -1582,8 +1548,33 @@
     "translate: 16 events"
    ],
    "translated": 16
+  },
+  {
+   "at": "2026-11-02T00:48:05.479Z",
+   "ms": 216223,
+   "discovered": 33,
+   "fetched": 32,
+   "classified": 24,
+   "protests": 14,
+   "summarized": 9,
+   "published": 323,
+   "live": 15,
+   "aiCalls": 18,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 7 files, 19 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 275 protest-word items",
+    "search: 17 single-source stories checked (5 in their own language), 21 other newsrooms found",
+    "fetch: 32 ok, 1 failed",
+    "classify: new candidate ef8f0af4d80 \"Anti-abortion demonstration and counter-protest in Boston\" (Boston)",
+    "classify: new candidate eecb2ee0138 \"Ultra-Orthodox protesters block light rail in Jerusalem\" (Jerusalem)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 7 events"
+   ],
+   "translated": 7
   }
  ],
- "gdeltCursor": "20261101230000",
- "lastRunAt": "2026-11-01T22:50:29.511Z"
+ "gdeltCursor": "20261102004500",
+ "lastRunAt": "2026-11-02T00:48:05.479Z"
 }
