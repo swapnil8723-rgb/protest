@@ -1,9 +1,9 @@
 {
  "id": "ea98734c46d",
- "slug": "",
- "stage": "candidate",
- "title": "Youth-led protests continue across Europe over living costs and housing",
- "seoTitle": "",
+ "slug": "paris-cost-of-living-protest-oct-2026",
+ "stage": "live",
+ "title": "Youth-led protests continue in Paris and across Europe over living costs and housing",
+ "seoTitle": "Paris youth protest living costs and housing",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -13,42 +13,118 @@
   "citySlug": "paris",
   "regionSlug": "ile-de-france"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "prices",
   "housing",
-  "education"
+  "students"
  ],
- "kind": "one-day",
- "startedOn": "2026-10-31",
+ "kind": "multi-day",
+ "startedOn": "2026-10-17",
  "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "vibe": "tense",
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious",
+  "low-confidence",
+  "sources-disagree"
+ ],
  "isOngoing": true,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Protesters are demonstrating against high living costs, persistent housing pressures, neglected education facilities, and unfair admissions.",
+  "want": "Demonstrators demand better living conditions, affordable housing, lower costs, and improvements to the education system.",
+  "changed": "Oct 31: Authorities in France reported hundreds of arrests as nationwide protests entered their third consecutive weekend."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
- "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
- "reportsPrev24h": 0,
- "reports48h": 0,
+ "summary": "Hundreds of thousands of protesters took to the streets in France and other European nations during a third consecutive weekend of demonstrations. Initiated last month by high school students, the movement addresses grievances over living costs, housing pressures, neglected school buildings, teacher shortages, and a university admissions system. In Paris, the main march was rerouted to the city's edge by authorities to protect tourist sites and government buildings, with security agents from the CGT union and about 70,000 police and gendarmes deployed. The French government estimated a nationwide turnout of 320,000 people, while organizers claimed higher numbers. While mostly peaceful, some gatherings ended with tear gas and scattered fires.",
+ "organizers": [
+  "CGT"
+ ],
+ "demands": [
+  "Address high living costs",
+  "Resolve housing pressures",
+  "Fix neglected school buildings",
+  "Address teacher shortages",
+  "Reform the university admissions system"
+ ],
+ "response": "According to the sources, the French government deployed about 70,000 police and gendarmes nationwide, rerouted Paris marches to the city's edge, and reported hundreds of arrests. French Interior Minister Laurent Nuñez warned of a very high risk of disorder.",
+ "numbers": {
+  "crowd": {
+   "value": 320000,
+   "text": "France's government estimated that 320,000 people protested nationwide Saturday",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  "arrests": {
+   "value": 560,
+   "text": "Authorities in France reported more than 560 arrests nationwide by Saturday night.",
+   "sources": [
+    1
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-10-31",
+   "text": "French interior ministry estimated 320,000 protesters nationwide, with 70,000 participating in Paris.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
+   "at": "2026-10-31",
+   "text": "Authorities reported over 560 arrests nationwide by Saturday night, while police deployed 70,000 officers.",
+   "sources": [
+    1
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.nbcchicago.com/news/national-international/france-heads-into-third-weekend-of-protests-youth-led-rallies-sweep-europe/4010054/",
+   "publisher": "nbcchicago.com",
+   "title": "France heads into third weekend of protests as youth-led rallies sweep Europe",
+   "publishedAt": "2026-10-31T10:57:11.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+   "publisher": "npr.org",
+   "title": "France seethes again as youth-led protests sweep Europe",
+   "publishedAt": "2026-10-31T19:30:19.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.abc.net.au/listen/programs/worldtoday/youth-led-protests-continue-across-europe-/107337012",
+   "publisher": "abc.net.au",
+   "title": "Youth-led protests continue across Europe - ABC listen",
+   "publishedAt": "2026-11-02T01:00:00.000Z"
+  }
+ ],
+ "conflicts": [
+  "France's government estimated 320,000 protesters nationwide, while organizers' estimates were higher."
+ ],
+ "confidence": 0.7,
+ "publishers": 3,
+ "reports24h": 2,
+ "reportsPrev24h": 1,
+ "reports48h": 3,
  "firstSeenAt": "2026-11-02T03:51:32.500Z",
- "lastReportAt": "2026-11-02T03:51:32.500Z",
- "lastCheckedAt": "2026-11-02T03:51:32.500Z",
- "updatedAt": "2026-11-02T03:51:32.500Z",
- "searchedAt": "2026-11-02T06:49:39.064Z"
+ "lastReportAt": "2026-11-02T01:00:00.000Z",
+ "lastCheckedAt": "2026-11-02T14:29:16.800Z",
+ "updatedAt": "2026-11-02T14:28:42.244Z",
+ "searchedAt": "2026-11-02T14:21:50.136Z",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-11-02T14:28:42.244Z",
+ "summaryOf": "d7bc637208e2"
 }

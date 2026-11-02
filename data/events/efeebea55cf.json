@@ -3,7 +3,7 @@
  "slug": "toulouse-igpn-investigates-protester-injury-oct-2026",
  "stage": "live",
  "title": "IGPN investigates hand injury of protester during Toulouse clashes",
- "seoTitle": "Toulouse IGPN probes protester hand injury",
+ "seoTitle": "Toulouse protest hand injury IGPN probe",
  "place": {
   "city": "Toulouse",
   "region": "Occitanie",
@@ -15,7 +15,6 @@
  },
  "scope": "local",
  "causes": [
-  "labour",
   "prices",
   "police"
  ],
@@ -31,17 +30,19 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated for purchasing power and the defense of public services.",
-  "want": "Protecting purchasing power and public services.",
-  "changed": "Oct 28: The Toulouse prosecutor announced that the IGPN was formally seized following a complaint by an injured protester."
+  "why": "Protesters demonstrated over the cost of living and the defense of public services.",
+  "want": "Participants marched for the cost of living and public services.",
+  "changed": "Oct 28: The Toulouse prosecutor's office seized the IGPN following a complaint by an injured protester."
  },
- "summary": "On October 24, 2026, a demonstration involving a union procession took place in Toulouse, France, and eventually led to clashes between protesters and law enforcement in the Arènes district continuing into the evening. Organised around themes of purchasing power and the defense of public services, the demonstration resulted in a 20-year-old protester suffering a severe hand injury and the loss of two fingers, allegedly during the use of grenades by police. According to reports from the public prosecutor and the Interior Minister, approximately 150 demonstrators were injured nationwide or across specific locations including Toulouse, with three sustaining serious injuries. Following a complaint filed by the injured protester's lawyer and his formal statement, the Toulouse prosecutor's office referred the matter to the National Police Oversight body, the IGPN, under the preliminary qualification of intentional violence by a person holding public authority resulting in permanent disability.",
- "organizers": [],
- "demands": [
-  "Defense of public services",
-  "Support for purchasing power"
+ "summary": "On October 24, 2026, a union-backed demonstration took place in Toulouse concerning the cost of living and public services. Clashes occurred in the Arènes district after the official march ended. During these events, a 20-year-old protester sustained a severe hand injury resulting in the amputation of two fingers. The victim's legal representation stated that a grenade thrown by security forces caused the injury. Two complaints were subsequently filed, including one targeting Interior Minister Laurent Nuñez and another against the officers involved. On October 28, the Toulouse public prosecutor announced that the National Police Oversight body (IGPN) had been officially seized to investigate the incident as intentional violence by a person holding public authority resulting in permanent mutilation. National authorities reported multiple injuries among security forces and demonstrators during the nationwide day of action.",
+ "organizers": [
+  "union cortège"
  ],
- "response": "According to the Interior Minister and the public prosecutor, authorities reported numerous injuries among security forces and demonstrators during the nationwide mobilizations. The Toulouse prosecutor opened an inquiry, subsequently referring the case to the IGPN following a formal complaint.",
+ "demands": [
+  "Cost of living measures",
+  "Defense of public services"
+ ],
+ "response": "The interior minister reported 267 law enforcement injuries and about 150 protester injuries nationwide, including three serious ones. The Toulouse prosecutor opened an investigation and subsequently seized the IGPN following a complaint.",
  "numbers": {
   "arrests": {
    "value": 1435,
@@ -61,28 +62,19 @@
  },
  "updates": [
   {
-   "at": "2026-10-24",
-   "text": "Clashes occurred in the Arènes district of Toulouse after a union procession, leaving a protester severely injured in the hand.",
-   "sources": [
-    1,
-    2,
-    3
-   ]
-  },
-  {
-   "at": "2026-10-26",
-   "text": "The injured protester's lawyer filed a complaint against X for voluntary violence by a person holding public authority causing permanent disability.",
-   "sources": [
-    1
-   ]
-  },
-  {
    "at": "2026-10-28",
-   "text": "The Toulouse public prosecutor announced that the IGPN had been officially seized following the protester's complaint.",
+   "text": "The Toulouse prosecutor announced the seizure of the IGPN following a complaint by a 20-year-old protester who lost two fingers.",
    "sources": [
     1,
     2,
     3
+   ]
+  },
+  {
+   "at": "2026-10-30",
+   "text": "Legal counsel announced two complaints filed in the case, targeting the officers who deployed the grenade and Interior Minister Laurent Nuñez.",
+   "sources": [
+    4
    ]
   }
  ],
@@ -107,18 +99,25 @@
    "publisher": "20minutes.fr",
    "title": "L’IGPN saisie après la grave blessure à la main d’un manifestant à Toulouse",
    "publishedAt": "2026-10-29T09:05:06.205Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.ici.fr/occitanie/haute-garonne-31/toulouse/grenade-tombee-sur-la-main-deux-plaintes-deposees-suite-a-la-blessure-grave-d-un-jeune-manifestant-a-toulouse-7805860",
+   "publisher": "ici.fr",
+   "title": "\"Grenade tombée sur la main\" : deux plaintes déposées après la blessure grave d",
+   "publishedAt": "2026-10-30T16:15:05.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.8,
- "publishers": 3,
+ "confidence": 0.86,
+ "publishers": 4,
  "reports24h": 0,
  "reportsPrev24h": 0,
  "reports48h": 0,
  "firstSeenAt": "2026-10-25T07:45:38.404Z",
  "lastReportAt": "2026-10-30T16:15:05.000Z",
- "lastCheckedAt": "2026-11-02T09:53:42.419Z",
- "updatedAt": "2026-10-31T01:52:45.527Z",
+ "lastCheckedAt": "2026-11-02T14:29:16.800Z",
+ "updatedAt": "2026-11-02T14:27:48.895Z",
  "endedOn": "2026-10-24",
  "responseSources": [
   1,
@@ -127,7 +126,7 @@
  ],
  "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-10-31T01:52:45.527Z",
+ "summarizedAt": "2026-11-02T14:27:48.895Z",
  "searchedAt": "2026-10-30T22:25:21.323Z",
  "publishedAt": "2026-10-31T01:52:58.660Z",
  "i18n": {
@@ -259,5 +258,6 @@
     "injuries": "environ 150 manifestants blessés, dont trois 'assez' grièvement, à Toulouse, Reims et Clermont-Ferrand"
    }
   }
- }
+ },
+ "summaryOf": "8cc71b05cb05"
 }

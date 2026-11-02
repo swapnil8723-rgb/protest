@@ -1,42 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-02",
-  "count": 95
+  "count": 173
  },
  "runs": [
-  {
-   "at": "2026-10-27T12:20:52.196Z",
-   "ms": 419364,
-   "discovered": 125,
-   "fetched": 116,
-   "classified": 98,
-   "protests": 26,
-   "summarized": 11,
-   "published": 193,
-   "live": 18,
-   "aiCalls": 29,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 18 files, 69 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 200 protest-word items",
-    "search: 14 single-source stories checked, 19 other newsrooms found",
-    "fetch: 116 ok, 9 failed",
-    "classify: new candidate e099626cd06 \"Father protests outside Holyrood for accessible housing\" (Edinburgh)",
-    "classify: new candidate ed75fe636d9 \"Students protest poor conditions outside Porto school\" (Porto)",
-    "classify: new candidate eeb76155044 \"Passenger stages sit-in at Kochi airport over customs duty\" (Kochi)",
-    "classify: new candidate e7c3f04d496 \"Protest group deflates SUV tyres in Potsdam against climate inaction\" (Potsdam)",
-    "classify: new candidate e7393a1b483 \"Citizens protest surveillance cameras in Hollywood\" (Hollywood)",
-    "classify: new candidate e55cd7c71e0 \"Anti-racism rallies held in French cities after shooting\" (Paris)",
-    "classify: new candidate ed3701afdee \"Private bus operators begin indefinite hunger strike in Thiruvananthapuram\" (Thiruvananthapuram)",
-    "classify: new candidate ee9c1683fbe \"HBCU students march to early voting sites\" (Greensboro)",
-    "classify: new candidate eca0d862911 \"Congress MLAs stage protest outside Punjab Assembly\" (Chandigarh)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 9 events"
-   ],
-   "translated": 9
-  },
   {
    "at": "2026-10-27T15:19:56.861Z",
    "ms": 770985,
@@ -1562,8 +1529,58 @@
     "translate: 10 events"
    ],
    "translated": 10
+  },
+  {
+   "at": "2026-11-02T14:21:38.827Z",
+   "ms": 772247,
+   "discovered": 190,
+   "fetched": 183,
+   "classified": 147,
+   "protests": 72,
+   "summarized": 34,
+   "published": 317,
+   "live": 19,
+   "aiCalls": 78,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 18 files, 108 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 233 protest-word items",
+    "search: 25 single-source stories checked (7 in their own language), 27 other newsrooms found",
+    "fetch: 183 ok, 19 failed",
+    "classify: new candidate e7346be2ea4 \"Gen Z regelt holds demonstration and clashes with police in Hamburg\" (Frankfurt am Main)",
+    "classify: new candidate eaf17745a66 \"Unions and students plan nationwide strike and protest in Paris\" (Paris)",
+    "classify: new candidate ed97c5ec5d4 \"Garment workers strike and protest for higher wages in Savar\" (Savar)",
+    "classify: new candidate e4c81dcff90 \"Climate activists protest inside Neukölln town hall in Berlin\" (Berlin)",
+    "classify: new candidate ec717911828 \"BJP holds anti-SIR march in Kolkata targeting Rahul Gandhi\" (Kolkata)",
+    "classify: new candidate e8a2267f8f2 \"Students and supporters mark two years since Novi Sad disaster\" (Novi Sad)",
+    "classify: new candidate ecfa964a514 \"BJP Minority Morcha protests against Congress and Rahul Gandhi\" (Delhi)",
+    "classify: new candidate e770b781406 \"Politicians slam violence and looting on margins of youth demos\" (Berlin)",
+    "classify: new candidate e144e2f7cca \"Police detain school nurse and students during high school blockade\" (Montpellier)",
+    "classify: new candidate e541fc7840a \"German Chancellor calls for tough action against weekend rioters\" (Berlin)",
+    "classify: new candidate e581d05357c \"BJP Mahila Morcha leaders detained during milk price hike protest\" (Bengaluru)",
+    "classify: new candidate e6e04b537d6 \"Five trade unions call national strike against budget cuts\" (Paris)",
+    "classify: new candidate ea03ec4cbb2 \"French protesters maintain pressure for upcoming demonstrations\" (Paris)",
+    "classify: new candidate e5a554b9d3e \"Congress party workers protest against playwright in Bengaluru\" (Bengaluru)",
+    "classify: new candidate eb29a165eaa \"Farmers stage slow-march protest in Fundão\" (Fundão)",
+    "classify: new candidate efb4db04bad \"Hostel workers protest in Ballari for pending wages\" (Ballari)",
+    "classify: new candidate e73dc2d9ef1 \"Protest in Mysuru against milk, curd, and bus fare hikes\" (Mysuru)",
+    "classify: new candidate ec15338da60 \"GRH sanitary workers protest in Madurai for bonus and wage hike\" (Madurai)",
+    "classify: new candidate ee3ac922124 \"IG Metall metal workers strike in Dresden and Brand-Erbisdorf\" (Dresden)",
+    "classify: new candidate e780b227cb8 \"MES observes black day in Belagavi demanding merger with Maharashtra\" (Belagavi)",
+    "classify: new candidate e3ea8e3e9a1 \"Villagers stage protest at Collectorate demanding mobile ration shop\" (Ramanathapuram)",
+    "classify: new candidate eb79704cf14 \"PWD employees stage black badge protest over delayed October salary\" (Madurai)",
+    "classify: new candidate e7e6680d65c \"Public sector workers strike in Coimbra affecting education and health\" (Coimbra)",
+    "dedupe: merged ed554224b98 (paris-school-blockades-resumption-nov-2026) into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 15 articles",
+    "dedupe: merged e2a875778f7 (belagavi-sugar-msp-protest-sep-2026) into ef0424f97b3 (belagavi-sugarcane-farmers-highway-blockade-oct-2026), 2 articles",
+    "dedupe: merged e04d4e410a8 (belgrade-student-led-parliamentary-election-protests-nov-2024) into e5b20d27460 (belgrade-students-election-rally-oct-2026), 21 articles",
+    "dedupe: merged e0e9ee7b02e (delhi-bjp-anti-sikh-riots-protest-nov-2026) into e8c155126c4 (delhi-india-bloc-rally-nov-2026), 18 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 30 events"
+   ],
+   "translated": 30
   }
  ],
- "gdeltCursor": "20261102100000",
- "lastRunAt": "2026-11-02T09:50:29.302Z"
+ "gdeltCursor": "20261102143000",
+ "lastRunAt": "2026-11-02T14:21:38.827Z"
 }
