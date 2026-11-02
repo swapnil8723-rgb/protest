@@ -1,40 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-02",
-  "count": 67
+  "count": 95
  },
  "runs": [
-  {
-   "at": "2026-10-27T07:44:00.979Z",
-   "ms": 319018,
-   "discovered": 89,
-   "fetched": 79,
-   "classified": 67,
-   "protests": 29,
-   "summarized": 9,
-   "published": 189,
-   "live": 15,
-   "aiCalls": 22,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 13 files, 42 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 206 protest-word items",
-    "search: 25 single-source stories checked, 29 other newsrooms found",
-    "fetch: 79 ok, 10 failed",
-    "classify: new candidate e060552526f \"Congress leader sit-in over missing CCTV at counting centre\" (Patna)",
-    "classify: new candidate e6890247474 \"Detainees hunger strike over Folkston detention center conditions\" (Folkston)",
-    "classify: new candidate e7a2bc141a3 \"Protesters clash with police over far-right activist in Bilbao\" (Bilbao)",
-    "classify: new candidate e2dec9a4d7e \"Residents and family protest custody death of detained man\" (Malakanagiri)",
-    "classify: new candidate e7ce3e376c1 \"Opposition stages walkout in Kerala Assembly over police atrocities\" (Thiruvananthapuram)",
-    "classify: new candidate ec9f5d30d22 \"Maharashtra farmers march to Mumbai demanding drought relief and loan waivers\" (Mumbai)",
-    "classify: new candidate e2163a14c59 \"Parents protest for school safety in Bend\" (Bend)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-27T12:20:52.196Z",
    "ms": 419364,
@@ -1559,8 +1528,42 @@
     "translate: 10 events"
    ],
    "translated": 10
+  },
+  {
+   "at": "2026-11-02T09:50:29.302Z",
+   "ms": 282793,
+   "discovered": 101,
+   "fetched": 92,
+   "classified": 74,
+   "protests": 36,
+   "summarized": 11,
+   "published": 328,
+   "live": 19,
+   "aiCalls": 28,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 58 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 252 protest-word items",
+    "search: 16 single-source stories checked (5 in their own language), 29 other newsrooms found",
+    "fetch: 92 ok, 9 failed",
+    "classify: new candidate e1392bb557c \"Delhi Police officers gather outside headquarters over transfer\" (Delhi)",
+    "classify: new candidate e1927dc917b \"IDBI Bank employees strike against privatisation\" (Mumbai)",
+    "classify: new candidate e5cb5191ab5 \"Farmers protest land acquisition for Bidadi township project\" (Bengaluru)",
+    "classify: new candidate e7a24d6e7bc \"Metal workers hold warning strikes in offshore wind factories\" (Cuxhaven)",
+    "classify: new candidate e8c91906bac \"Youth protest living costs and education conditions in Europe\" (Frankfurt am Main)",
+    "classify: new candidate e946bb03794 \"Animal rights activists rally in Tbilisi over stray animal burials\" (Tbilisi)",
+    "classify: new candidate ec884c9dff5 \"Activists protest arms exports to Israel at New Jersey port\" (Elizabeth)",
+    "classify: new candidate e3b682262d7 \"Youth Congress stages theatrical protest against forest destruction\" (Kalyan)",
+    "classify: new candidate e9948bf57db \"Public servants strike across Portugal affecting public services\" (Lisbon)",
+    "classify: new candidate e9e4320d555 \"IG Metall workers strike for higher wages in Saxony-Anhalt\" (Magdeburg)",
+    "classify: new candidate e43484eee47 \"Ghatkesar residents observe bandh over bridge construction delay\" (Ghatkesar)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 10 events"
+   ],
+   "translated": 10
   }
  ],
- "gdeltCursor": "20261102064500",
- "lastRunAt": "2026-11-02T06:49:33.273Z"
+ "gdeltCursor": "20261102100000",
+ "lastRunAt": "2026-11-02T09:50:29.302Z"
 }
