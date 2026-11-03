@@ -1,43 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-03",
-  "count": 250
+  "count": 281
  },
  "runs": [
-  {
-   "at": "2026-10-28T15:50:31.181Z",
-   "ms": 795361,
-   "discovered": 165,
-   "fetched": 154,
-   "classified": 0,
-   "protests": 0,
-   "summarized": 0,
-   "published": 217,
-   "live": 21,
-   "aiCalls": 7,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 16 files, 85 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss news.err.ee: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 237 protest-word items",
-    "search: 25 single-source stories checked, 15 other newsrooms found",
-    "fetch: 154 ok, 11 failed",
-    "classify: new candidate e212e4e8ec6 \"Madrid doctors suspend strike following train accident\" (Madrid)",
-    "classify: new candidate e62c36b2b7b \"Rally in Hamburg over construction worker death and conditions\" (Hamburg)",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: batch failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "classify: new candidate ec50ecd1675 \"Protest outside Downing Street against support for Israel\" (London)",
-    "classify: new candidate e7ca94c9b3e \"EasyJet cabin crew announce strike in Portugal\" (Lisbon)",
-    "classify: new candidate ed1a7e8a6a4 \"Parents and students rally against school closures\" (Evanston)",
-    "classify: new candidate ea5234f7c11 \"Left parties demonstration against price rise\" (Puducherry)",
-    "AI budget: run time cap 13 min reached — remaining work waits for a later run"
-   ],
-   "translated": 0
-  },
   {
    "at": "2026-10-28T18:46:55.322Z",
    "ms": 783400,
@@ -1639,8 +1605,47 @@
     "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
     "translate: stopped: run time cap 13 min reached"
    ]
+  },
+  {
+   "at": "2026-11-03T23:08:12.406Z",
+   "ms": 312849,
+   "discovered": 54,
+   "fetched": 49,
+   "classified": 41,
+   "protests": 15,
+   "summarized": 12,
+   "published": 323,
+   "live": 20,
+   "aiCalls": 31,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261103224500 http://data.gdeltproject.org/gdeltv2/20261103224500.export.CSV.zip → 404",
+    "gdelt: 20261103230000 http://data.gdeltproject.org/gdeltv2/20261103230000.export.CSV.zip → 404",
+    "gdelt: 20261103231500 http://data.gdeltproject.org/gdeltv2/20261103231500.export.CSV.zip → 404",
+    "gdelt: 12 files, 22 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.theportugalnews.com: The operation was aborted due to timeout",
+    "rss: 214 protest-word items",
+    "search: 25 single-source stories checked (7 in their own language), 21 other newsrooms found",
+    "fetch: 49 ok, 5 failed",
+    "classify: new candidate e5acac7ff8f \"BJP councillors walk out of Kochi Corporation meeting over SIR\" (Kochi)",
+    "classify: new candidate e0357059d60 \"Firefighters demonstrate in Brussels against EU budget cuts\" (Brussels)",
+    "classify: new candidate efb74531070 \"Striking teachers interrupt television program in Madrid\" (Madrid)",
+    "classify: new candidate e57edf2c569 \"Sanitation workers protest and announce indefinite strike in Bhopal\" (Bhopal)",
+    "classify: new candidate e18f39e459f \"Unions and housing collectives schedule multi-country protests in November\" (Paris)",
+    "classify: new candidate e95334abe0b \"Manchester United fans launch tennis balls in protest against owners\" (Manchester)",
+    "dedupe: merged e24e53a4f1f (delhi-student-electoral-protest-nov-2026) into ed0889161e3 (delhi-farmers-march-against-cec-oct-2026), 2 articles",
+    "dedupe: merged e41747018f1 into ed0e22fce32 (lisbon-housing-rights-protest-oct-2026), 1 articles",
+    "dedupe: merged e4f56d9cc06 into ed0e22fce32 (lisbon-housing-rights-protest-oct-2026), 1 articles",
+    "dedupe: merged e51cb21eae5 (lisbon-housing-protest-clashes-oct-2026) into ed0e22fce32 (lisbon-housing-rights-protest-oct-2026), 7 articles",
+    "dedupe: merged e60d1ef00de into ed0e22fce32 (lisbon-housing-rights-protest-oct-2026), 1 articles",
+    "dedupe: merged e9e1a0bab77 into ed0e22fce32 (lisbon-housing-rights-protest-oct-2026), 1 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 14 events"
+   ],
+   "translated": 14
   }
  ],
- "gdeltCursor": "20261103201500",
- "lastRunAt": "2026-11-03T20:15:54.293Z"
+ "gdeltCursor": "20261103231500",
+ "lastRunAt": "2026-11-03T23:08:12.406Z"
 }
