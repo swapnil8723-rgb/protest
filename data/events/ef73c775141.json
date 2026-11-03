@@ -15,30 +15,31 @@
  },
  "scope": "local",
  "causes": [
-  "prices"
+  "prices",
+  "labour"
  ],
  "kind": "one-day",
  "startedOn": "2026-10-31",
  "status": "ended",
  "vibe": "wrapped-up",
- "severity": "normal",
+ "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "low-confidence"
+  "serious"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Participants demonstrated over the rising cost of living during the third act of nationwide mobilisations.",
-  "want": "Protesters expressed various economic demands relating to the cost of living.",
-  "changed": "Oct 31: Police reported 10,000 participants in Marseille, where clashes broke out and five people were arrested following a store burglary."
+  "why": "Participants demonstrated against the rising cost of living.",
+  "want": "Protesters gathered to voice economic grievances.",
+  "changed": "Nov 3: The public prosecutor's office announced an IGPN investigation following an injury reported by a participant during clashes."
  },
- "summary": "On October 31, 2026, thousands of people took part in an unapproved demonstration in Marseille regarding the cost of living. Despite local authorities issuing bans on protests in the Bouches-du-Rhône department, crowds gathered starting at the Réformés district. During the afternoon, tensions rose as mobile groups engaged in clashes with law enforcement along boulevard Chave, throwing projectiles while police responded with tear gas. Demonstrators also lit garbage fires and a bonfire at La Plaine. According to police sources, five individuals were arrested in the evening after a Foot Locker store in the first arrondissement was targeted, alongside property damage reported at other local businesses. The mayor of Marseille condemned the unrest while acknowledging legitimate peaceful grievances, and police deployed a large security force to secure the area.",
+ "summary": "Thousands of people took to the streets in Marseille on October 31 for an unauthorized demonstration concerning the cost of living. Despite prohibitions by local authorities, a crowd gathered starting from Les Réformés. As the day progressed, tensions emerged near Boulevard Chave and La Plaine, with police deploying tear gas against groups launching projectiles and committing acts of vandalism. Multiple stores were targeted, and several arrests occurred following burglaries. The mayor condemned the violence while acknowledging legitimate grievances. Subsequently, an investigation was opened by the national police inspectorate after a man reported sustaining severe facial injuries during police interventions.",
  "organizers": [],
  "demands": [
   "Address the rising cost of living"
  ],
- "response": "The prefecture deployed a large police force which used tear gas during clashes. The mayor urged residents to stay safe and condemned individuals exploiting the demonstrations to cause chaos.",
+ "response": "According to the prefecture of police, authorities deployed a significant police force to secure the area, utilized tear gas in response to projectiles, and made arrests for burglaries. The mayor called for safety and condemned individuals exploiting the march to cause chaos.",
  "numbers": {
   "crowd": {
    "value": 10000,
@@ -59,24 +60,23 @@
  "updates": [
   {
    "at": "2026-10-31",
-   "text": "An unapproved demonstration began in Marseille, drawing up to 10,000 people according to the prefecture.",
-   "sources": [
-    1,
-    2
-   ]
-  },
-  {
-   "at": "2026-10-31",
-   "text": "Clashes erupted near boulevard Chave as police deployed tear gas against groups throwing projectiles.",
+   "text": "An unauthorized cost of living march drew up to 10,000 participants in Marseille, leading to clashes, tear gas deployment, and garbage bin fires.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-31",
-   "text": "Five individuals were arrested following a store burglary in the first arrondissement amid evening unrest.",
+   "text": "Police arrested five people following a store burglary in the 1st arrondissement amid widespread disturbances and property damage.",
    "sources": [
     2
+   ]
+  },
+  {
+   "at": "2026-11-03",
+   "text": "The public prosecutor opened an IGPN investigation into alleged police violence after a participant reported severe facial injuries.",
+   "sources": [
+    3
    ]
   }
  ],
@@ -94,48 +94,55 @@
    "publisher": "lefigaro.fr",
    "title": "Manifestations du 31 octobre à Marseille : cinq interpellations après le cambriolage d’un Foot Locker",
    "publishedAt": "2026-10-31T19:46:31.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.franceinfo.fr/societe/manifestations/a-marseille-une-enquete-pour-violences-confiee-a-l-igpn-apres-qu-un-homme-a-ete-blesse-au-visage-en-marge-des-manifestations-du-31-octobre_8265575.html",
+   "publisher": "franceinfo.fr",
+   "title": "Une enqu&ecirc;te pour violences confi&eacute;e &agrave; l'IGPN apr&egrave;s qu'un homme a &eacute;t&eacute; bless&eacute; au visage &agrave; Marseille en marge des manifestations du 31 octobre",
+   "publishedAt": "2026-11-03T10:37:48.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 0,
+ "confidence": 0.8,
+ "publishers": 3,
+ "reports24h": 1,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 1,
  "firstSeenAt": "2026-10-30T10:09:10.473Z",
- "lastReportAt": "2026-10-31T19:46:31.000Z",
- "lastCheckedAt": "2026-11-03T09:55:43.809Z",
- "updatedAt": "2026-11-03T09:55:09.988Z",
+ "lastReportAt": "2026-11-03T10:37:48.000Z",
+ "lastCheckedAt": "2026-11-03T12:55:15.920Z",
+ "updatedAt": "2026-11-03T12:54:55.228Z",
  "responseSources": [
   1,
   2
  ],
- "seriousInjuries": false,
+ "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-11-03T09:55:09.988Z",
- "summaryOf": "fc75f181e13d",
+ "summarizedAt": "2026-11-03T12:54:55.228Z",
+ "summaryOf": "d8fc6224ae96",
  "publishedAt": "2026-10-30T13:51:28.793Z",
  "i18n": {
-  "of": "5af1f125e01c5f4c",
-  "at": "2026-11-03T09:58:50.464Z",
+  "of": "7f24e02f9ee140b3",
+  "at": "2026-11-03T12:56:42.276Z",
   "tries": 1,
   "hi": {
-   "title": "मार्सेई में जीवनयापन की लागत को लेकर मार्च और झड़पों में हजारों लोग शामिल",
-   "seoTitle": "मार्सेई जीवनयापन लागत मार्च और झड़पें",
+   "title": "मार्सिले में जीवन-यापन के खर्च को लेकर मार्च और झड़पें, हजारों लोग शामिल",
+   "seoTitle": "मार्सिले में जीवन-यापन खर्च का मार्च और झड़पें",
    "tea": {
-    "why": "राष्ट्रव्यापी प्रदर्शनों के तीसरे चरण के दौरान प्रतिभागियों ने जीवनयापन की बढ़ती लागत के खिलाफ प्रदर्शन किया।",
-    "want": "प्रदर्शनकारियों ने जीवनयापन की लागत से जुड़ी विभिन्न आर्थिक मांगें रखीं।",
-    "changed": "31 अक्टूबर: पुलिस ने मार्सेई में 10,000 प्रतिभागियों के शामिल होने की बात कही, जहां झड़पें हुईं और एक स्टोर में सेंधमारी के बाद पांच लोगों को गिरफ्तार किया गया।"
+    "why": "प्रतिभागियों ने जीवन-यापन के बढ़ते खर्च के खिलाफ प्रदर्शन किया।",
+    "want": "आर्थिक शिकायतों को व्यक्त करने के लिए प्रदर्शनकारी एकत्र हुए।",
+    "changed": "3 नवंबर: झड़पों के दौरान एक प्रतिभागी द्वारा चोट की सूचना दिए जाने के बाद सरकारी अभियोजक कार्यालय ने IGPN जांच की घोषणा की।"
    },
-   "summary": "31 अक्टूबर 2026 को, जीवनयापन की लागत को लेकर मार्सेई में हजारों लोगों ने एक अनधिकृत प्रदर्शन में हिस्सा लिया। बुश-ड्यू-रौन विभाग में स्थानीय अधिकारियों द्वारा प्रदर्शनों पर प्रतिबंध लगाने के बावजूद, रेफोर्मेस जिले से भीड़ एकत्र होनी शुरू हुई। दोपहर के समय, लाउच-चावे बुलेवार्ड पर कानून प्रवर्तन के साथ मोबाइल समूहों की झड़पें होने से तनाव बढ़ गया, जिन्होंने वस्तुएं फेंकी जबकि पुलिस ने आंसू गैस से जवाब दिया। प्रदर्शनकारियों ने ला प्लेन में कचरे में आग और एक बोनफायर भी जलाई। पुलिस सूत्रों के अनुसार, पहली एरondissement में एक फुट लॉकर स्टोर को निशाना बनाए जाने और अन्य स्थानीय व्यवसायों में संपत्ति के नुकसान की सूचना मिलने के बाद शाम को पांच व्यक्तियों को गिरफ्तार किया गया। मार्सेई के मेयर ने वैध शांतिपूर्ण शिकायतों को स्वीकार करते हुए अशांति की निंदा की, और क्षेत्र को सुरक्षित करने के लिए पुलिस ने एक बड़े सुरक्षा बल को तैनात किया।",
+   "summary": "जीवन-यापन के खर्च से जुड़े एक अनधिकृत प्रदर्शन के लिए 31 अक्टूबर को मार्सिले में हजारों लोग सड़कों पर उतरे। स्थानीय अधिकारियों के प्रतिबंधों के बावजूद, ले रेफोर्मे से भीड़ एकत्र होनी शुरू हुई। दिन आगे बढ़ने के साथ, बुलेवार्ड शावे और ला प्लेन के पास तनाव पैदा हो गया, जहां पुलिस ने प्रोजेक्टाइल फेंकने वाले और तोड़फोड़ करने वाले समूहों के खिलाफ आंसू गैस का इस्तेमाल किया। कई दुकानों को निशाना बनाया गया, और सेंधमारी के बाद कई गिरफ्तारियां हुईं। मेयर ने वैध शिकायतों को स्वीकार करते हुए हिंसा की निंदा की। इसके बाद, पुलिस की कार्रवाई के दौरान एक व्यक्ति द्वारा चेहरे पर गंभीर चोटें आने की सूचना दिए जाने के बाद राष्ट्रीय पुलिस निरीक्षकालय द्वारा एक जांच शुरू की गई।",
    "demands": [
-    "जीवनयापन की बढ़ती लागत का समाधान करें"
+    "जीवन-यापन के बढ़ते खर्च का समाधान करें"
    ],
-   "response": "प्रिपेक्चर ने एक बड़े पुलिस बल को तैनात किया जिसने झड़पों के दौरान आंसू गैस का इस्तेमाल किया। मेयर ने निवासियों से सुरक्षित रहने का आग्रह किया और अराजकता फैलाने के लिए प्रदर्शनों का फायदा उठाने वाले व्यक्तियों की निंदा की।",
+   "response": "पुलिस मुख्यालय के अनुसार, अधिकारियों ने क्षेत्र को सुरक्षित करने के लिए एक बड़े पुलिस बल को तैनात किया, प्रोजेक्टाइल के जवाब में आंसू गैस का उपयोग किया, और सेंधमारी के लिए गिरफ्तारियां कीं। मेयर ने सुरक्षा का आह्वान किया और अराजकता फैलाने के लिए मार्च का फायदा उठाने वाले व्यक्तियों की निंदा की।",
    "updates": [
-    "प्रिपेक्चर के अनुसार, मार्सेई में एक अनधिकृत प्रदर्शन शुरू हुआ जिसमें 10,000 तक लोग शामिल हुए।",
-    "पुलिस द्वारा वस्तुएं फेंकने वाले समूहों के खिलाफ आंसू गैस छोड़े जाने के बाद चावे बुलेवार्ड के पास झड़पें भड़क उठीं।",
-    "शाम की अशांति के बीच पहले एरondissement में एक स्टोर में सेंधमारी के बाद पांच व्यक्तियों को गिरफ्तार किया गया।"
+    "जीवन-यापन के खर्च को लेकर एक अनधिकृत मार्च में मार्सिले में 10,000 तक प्रतिभागी शामिल हुए, जिससे झड़पें हुईं, आंसू गैस छोड़ी गई और कचरे के डिब्बों में आग लगाई गई।",
+    "व्यापक गड़बड़ी और संपत्ति को नुकसान के बीच पुलिस ने पहलीरॉन्डिसमेंट में एक दुकान में सेंधमारी के बाद पांच लोगों को गिरफ्तार किया।",
+    "एक प्रतिभागी द्वारा चेहरे पर गंभीर चोटें आने की रिपोर्ट दर्ज कराने के बाद सार्वजनिक अभियोजक ने कथित पुलिस हिंसा की IGPN जांच शुरू की।"
    ],
    "conflicts": [],
    "numbers": {
@@ -144,46 +151,46 @@
    }
   },
   "mr": {
-   "title": "मार्सेईमध्ये महागाईविरोधी मोर्चा आणि चकमकींमध्ये हजारो लोक सहभागी",
-   "seoTitle": "मार्सेई महागाई मोर्चा आणि चकमकी",
+   "title": "मार्सिलेमध्ये जीवनमानाच्या खर्चावरून मार्च आणि संघर्ष, हजारो लोकांचा सहभाग",
+   "seoTitle": "मार्सिले जीवनमान खर्च मार्च आणि संघर्ष",
    "tea": {
-    "why": "देशव्यापी आंदोलनांच्या तिसऱ्या टप्प्यात सहभागींनी वाढत्या महागाईवर निदर्शने केली.",
-    "want": "निदर्शकांनी महागाईशी संबंधित विविध आर्थिक मागण्या व्यक्त केल्या.",
-    "changed": "३१ ऑक्टोबर: मार्सेईमध्ये १०,००० सहभागी असल्याचा पोलिसांचा अहवाल, तिथे चकमक उडाली आणि एका दुकानात चोरी झाल्यानंतर पाच जणांना अटक करण्यात आली."
+    "why": "सहभागींनी जीवनमानाचा वाढता खर्च याविरोधात निदर्शने केली.",
+    "want": "आर्थिक तक्रारी मांडण्यासाठी आंदोलक जमले होते.",
+    "changed": "३ नोव्हेंबर: संघर्षादरम्यान एका सहभागीने दुखापत झाल्याची माहिती दिल्यानंतर सरकारी वकील कार्यालयाने IGPN चौकशीची घोषणा केली."
    },
-   "summary": "३१ ऑक्टोबर २०२६ रोजी, महागाईच्या मुद्द्यावर मार्सेईमध्ये हजारो लोकांनी एका अनधिकृत निदर्शनात भाग घेतला. बुश-ड्यू-रौन विभागात स्थानिक प्रशासनाने निदर्शनांवर बंदी घातलेली असतानाही, रेफोर्मेस जिल्ह्यातून गर्दी जमा होण्यास सुरुवात झाली. दुपारी, चावे बुलेवार्डवर मोबाइल गटांची पोलिसांशी झटापट झाल्याने तणाव वाढला, जिथे आंदोलकांनी वस्तू फेकल्या आणि पोलिसांनी अश्रुधुराचा वापर केला. निदर्शकांनी ला प्लेन येथे कचऱ्याला आणि एका शेकोटीला आग लावली. पोलीस सूत्रांनुसार, पहिल्या arrondissement मधील एका फूट लॉकर दुकानाला लक्ष्य केल्यानंतर आणि इतर स्थानिक व्यवसायांचे नुकसान झाल्याच्या वृतानंतर संध्याकाळी पाच जणांना अटक करण्यात आली. मार्सेईच्या महापौरांनी कायदेशीर शांततापूर्ण तक्रारींची दखल घेत अशांततेचा निषेध केला आणि परिसराची सुरक्षा राखण्यासाठी पोलिसांनी मोठ्या प्रमाणावर सुरक्षा दल तैनात केले.",
+   "summary": "जीवनमानाचा खर्च या विषयावर ३१ ऑक्टोबर रोजी मार्सिले येथे एका अनधिकृत निदर्शनासाठी हजारो लोक रस्त्यावर उतरले. स्थानिक प्राधिकरणांच्या प्रतिबंधांनंतरही, ले रेफोर्मे येथून गर्दी जमण्यास सुरुवात झाली. दिवस जसजसा पुढे सरकला तसतसा बुलेव्हार्ड शावे आणि ला प्लेनजवळ तणाव निर्माण झाला, जिथे पोलिसांनी वस्तू फेकणाऱ्या आणि तोडफोड करणाऱ्या समूहांविरुद्ध अश्रूधूराचा वापर केला. अनेक दुकानांना लक्ष्य करण्यात आले आणि घरफोड्यांनंतर अनेक arrests झाल्या. महापौरांनी वैध तक्रारी मान्य करत हिंसेचा निषेध केला. त्यानंतर, पोलिसांच्या हस्तक्षेपादरम्यान एका व्यक्तीला चेहऱ्यावर गंभीर दुखापत झाल्याचे वृत्त दिल्यानंतर राष्ट्रीय पोलीस निरीक्षक कार्यालयाने चौकशी सुरू केली.",
    "demands": [
-    "वाढत्या महागाईचा प्रश्न सोडवा"
+    "जीवनमानाचा वाढता खर्च दूर करा"
    ],
-   "response": "प्रिपेक्चरने मोठे पोलीस दल तैनात केले ज्याने चकमकीदरम्यान अश्रुधुराचा वापर केला. महापौरांनी नागरिकांना सुरक्षित राहण्याचे आवाहन केले आणि अराजकता माजवण्यासाठी निदर्शनांचा फायदा घेणाऱ्या व्यक्तींचा निषेध केला.",
+   "response": "पोलिस मुख्यालयाच्या मते, प्राधिकरणांनी परिसराच्या सुरक्षेसाठी मोठा पोलिस फौजफाटा तैनात केला, वस्तूफेकीच्या प्रत्युत्तरात अश्रूधूर वापरला आणि घरफोड्यांसाठी arrests केल्या. महापौरांनी सुरक्षेचे आवाहन केले आणि अराजकता माजवण्यासाठी मोर्चाचा गैरवापर करणाऱ्या व्यक्तींचा निषेध केला.",
    "updates": [
-    "प्रिपेक्चरनुसार मार्सेईमध्ये एक अनधिकृत निदर्शन सुरू झाले, ज्यामध्ये १०,००० लोकांचा सहभाग होता.",
-    "पोलिसांनी वस्तू फेकणाऱ्या गटांवर अश्रुधूर सोडल्यानंतर चावे बुलेवार्डजवळ चकमक उडाली.",
-    "संध्याकाळच्या अशांततेदरम्यान पहिल्या arrondissement मधील एका दुकानात चोरी झाल्यानंतर पाच जणांना अटक करण्यात आली."
+    "जीवनमानाच्या खर्चाच्या एका अनधिकृत मार्चमध्ये मार्सिलेमध्ये १०,००० पर्यंत सहभागी जमले, ज्यामुळे संघर्ष झाला, अश्रूधूर सोडण्यात आला आणि कचऱ्याच्या डब्यांना आगी लावल्या.",
+    "व्यापक अशांतता आणि मालमत्तेच्या नुकसानीदरम्यान पोलिसांनी पहिल्या अरॉन्डिसमेंटमधील दुकानफोडीनंतर पाच जणांना अटक केली.",
+    "एका सहभागीने चेहऱ्यावर गंभीर दुखापतींची नोंद केल्यानंतर सरकारी वकिलांनी कथित पोलीस हिंसेची IGPN चौकशी सुरू केली."
    ],
    "conflicts": [],
    "numbers": {
     "crowd": "१०,००० लोक",
-    "arrests": "पाच जणांना अटक"
+    "arrests": "पाच अटक"
    }
   },
   "es": {
    "title": "Marcha por el costo de vida y enfrentamientos convocan a miles en Marsella",
-   "seoTitle": "Marcha por el costo de vida y disturbios en Marsella",
+   "seoTitle": "Marcha y disturbios por costo de vida en Marsella",
    "tea": {
-    "why": "Los participantes se manifestaron por el aumento del costo de vida durante el tercer acto de movilizaciones a nivel nacional.",
-    "want": "Los manifestantes expresaron diversas demandas económicas relacionadas con el costo de vida.",
-    "changed": "31 de oct.: La policía informó de 10.000 participantes en Marsella, donde estallaron enfrentamientos y cinco personas fueron detenidas tras el robo a un establecimiento."
+    "why": "Los participantes se manifestaron en contra del aumento del costo de la vida.",
+    "want": "Los manifestantes se reunieron para expresar sus quejas económicas.",
+    "changed": "3 de noviembre: la fiscalía anunció una investigación de la IGPN tras la lesión reportada por un participante durante los enfrentamientos."
    },
-   "summary": "El 31 de octubre de 2026, miles de personas participaron en una manifestación no autorizada en Marsella en relación con el costo de vida. A pesar de que las autoridades locales emitieron prohibiciones de protestas en el departamento de Bocas del Ródano, las multitudes se congregaron a partir del distrito de Réformés. Durante la tarde, la tensión aumentó cuando grupos móviles se enfrentaron con las fuerzas del orden a lo largo del bulevar Chave, lanzando proyectiles mientras la policía respondía con gases lacrimógenos. Los manifestantes también encendieron fuego en contenedores de basura y una hoguera en La Plaine. Según fuentes policiales, cinco individuos fueron detenidos por la noche tras el ataque a una tienda Foot Locker en el primer distrito, además de daños materiales reportados en otros negocios locales. El alcalde de Marsella condenó los disturbios al tiempo que reconoció los reclamos pacíficos legítimos, y la policía desplegó una gran fuerza de seguridad para asegurar la zona.",
+   "summary": "Miles de personas salieron a las calles en Marsella el 31 de octubre para una manifestación no autorizada relacionada con el costo de la vida. A pesar de las prohibiciones de las autoridades locales, una multitud se reunió a partir de Les Réformés. A medida que avanzaba el día, surgieron tensiones cerca del bulevar Chave y La Plaine, y la policía desplegó gases lacrimógenos contra grupos que lanzaban proyectiles y cometían actos de vandalismo. Varios comercios fueron atacados y se produjeron varias detenciones tras robos. El alcalde condenó la violencia a la vez que reconoció las quejas legítimas. Posteriormente, la inspección general de la policía nacional abrió una investigación después de que un hombre informara haber sufrido heridas graves en el rostro durante las intervenciones policiales.",
    "demands": [
     "Abordar el aumento del costo de vida"
    ],
-   "response": "La prefectura desplegó una gran fuerza policial que utilizó gases lacrimógenos durante los enfrentamientos. El alcalde instó a los residentes a mantenerse seguros y condenó a los individuos que explotan las manifestaciones para causar caos.",
+   "response": "Según la prefectura de policía, las autoridades desplegaron una importante fuerza policial para asegurar la zona, utilizaron gases lacrimógenos en respuesta a los proyectiles y realizaron detenciones por robos. El alcalde pidió seguridad y condenó a quienes aprovecharon la marcha para sembrar el caos.",
    "updates": [
-    "Una manifestación no autorizada comenzó en Marsella, atrayendo hasta 10.000 personas según la prefectura.",
-    "Los enfrentamientos estallaron cerca del bulevar Chave cuando la policía desplegó gases lacrimógenos contra grupos que lanzaban proyectiles.",
-    "Cinco personas fueron detenidas tras el robo a una tienda en el primer distrito en medio de los disturbios nocturnos."
+    "Una marcha no autorizada sobre el costo de vida atrajo hasta 10.000 participantes en Marsella, lo que provocó enfrentamientos, despliegue de gases lacrimógenos e incendios de contenedores de basura.",
+    "La policía detuvo a cinco personas tras un robo a un comercio en el 1er distrito en medio de disturbios generalizados y daños materiales.",
+    "El fiscal público abrió una investigación de la IGPN sobre supuesta violencia policial después de que un participante informara de heridas graves en el rostro."
    ],
    "conflicts": [],
    "numbers": {
@@ -192,22 +199,22 @@
    }
   },
   "fr": {
-   "title": "Une marche contre la vie chère et des heurts rassemblent des milliers de personnes à Marseille",
-   "seoTitle": "Marche contre la vie chère et heurts à Marseille",
+   "title": "Marche contre la vie chère et heurts rassemblent des milliers de personnes à Marseille",
+   "seoTitle": "Marche et heurts liés au coût de la vie à Marseille",
    "tea": {
-    "why": "Les participants ont manifesté contre la hausse du coût de la vie lors du troisième acte des mobilisations nationales.",
-    "want": "Les manifestants ont exprimé diverses revendications économiques liées au coût de la vie.",
-    "changed": "31 oct. : La police a fait état de 10 000 participants à Marseille, où des heurts ont éclaté et cinq personnes ont été interpellées à la suite du cambriolage d'un magasin."
+    "why": "Des participants ont manifesté contre la hausse du coût de la vie.",
+    "want": "Des manifestants se sont rassemblés pour exprimer des revendications économiques.",
+    "changed": "3 nov. : le parquet a annoncé une enquête de l'IGPN suite à une blessure signalée par un participant lors des heurts."
    },
-   "summary": "Le 31 octobre 2026, des milliers de personnes ont pris part à une manifestation non autorisée à Marseille concernant le coût de la vie. Malgré l'interdiction des manifestations prononcée par les autorités locales dans le département des Bouches-du-Rhône, des foules se sont rassemblées à partir du quartier des Réformés. Dans l'après-midi, la tension est montée lorsque des groupes mobiles se sont engagés dans des heurts avec les forces de l'ordre le long du boulevard Chave, jetant des projectiles tandis que la police répliquait par des gaz lacrymogènes. Des manifestants ont également allumé des feux de poubelles et un feu de joie à La Plaine. Selon des sources policières, cinq individus ont été interpellés dans la soirée après qu'un magasin Foot Locker du premier arrondissement a été pris pour cible, des dégâts matériels ayant également été signalés dans d'autres commerces locaux. Le maire de Marseille a condamné les troubles tout en reconnaissant les doléances pacifiques légitimes, et la police a déployé un important dispositif de sécurité pour sécuriser la zone.",
+   "summary": "Des milliers de personnes sont descendues dans les rues de Marseille le 31 octobre pour une manifestation non autorisée concernant le coût de la vie. Malgré les interdictions des autorités locales, une foule s'est rassemblée à partir de Les Réformés. Au fil de la journée, des tensions sont apparues près du boulevard Chave et de La Plaine, la police déployant des gaz lacrymogènes contre des groupes lançant des projectiles et commettant des actes de vandalisme. Plusieurs commerces ont été pris pour cible et plusieurs interpellations ont eu lieu après des cambriolages. Le maire a condamné la violence tout en reconnaissant les revendications légitimes. Par la suite, une enquête a été ouverte par l'inspection générale de la police nationale après qu'un homme eut déclaré avoir subi de graves blessures au visage lors des interventions policières.",
    "demands": [
     "Répondre à la hausse du coût de la vie"
    ],
-   "response": "La préfecture a déployé un important dispositif policier qui a fait usage de gaz lacrymogènes lors des affrontements. Le maire a exhorté les habitants à rester en sécurité et a condamné les individus qui exploitent les manifestations pour semer le chaos.",
+   "response": "Selon la préfecture de police, les autorités ont déployé un effectif policier important pour sécuriser la zone, ont utilisé du gaz lacrymogène en réponse aux projectiles et ont procédé à des interpellations pour cambriolages. Le maire a appelé à la sécurité et a condamné les individus qui ont exploité la marche pour semer le chaos.",
    "updates": [
-    "Une manifestation non autorisée a débuté à Marseille, rassemblant jusqu'à 10 000 personnes selon la préfecture.",
-    "Des heurts ont éclaté près du boulevard Chave alors que la police déployait des gaz lacrymogènes contre des groupes jetant des projectiles.",
-    "Cinq individus ont été interpellés à la suite du cambriolage d'un magasin dans le premier arrondissement au milieu des troubles de la soirée."
+    "Une marche non autorisée contre le coût de la vie a rassemblé jusqu'à 10 000 participants à Marseille, entraînant des heurts, des tirs de gaz lacrymogène et des incendies de poubelles.",
+    "La police a interpellé cinq personnes à la suite du cambriolage d'un commerce dans le 1er arrondissement au milieu de troubles généralisés et de dégâts matériels.",
+    "Le procureur de la République a ouvert une enquête de l'IGPN concernant des violences policières présumées après qu'un participant eut signalé de graves blessures au visage."
    ],
    "conflicts": [],
    "numbers": {
@@ -216,22 +223,22 @@
    }
   },
   "de": {
-   "title": "Märch für Lebenshaltungskosten und Zusammenstöße ziehen Tausende in Marseille an",
-   "seoTitle": "Marseille: Marsch zu Lebenshaltungskosten und Zusammenstöße",
+   "title": "Marsch gegen Lebenshaltungskosten und Zusammenstöße ziehen Tausende in Marseille an",
+   "seoTitle": "Marseille Marsch und Zusammenstöße zu Lebenshaltungskosten",
    "tea": {
-    "why": "Teilnehmer demonstrierten während der dritten Welle landesweiter Mobilisierungen gegen die steigenden Lebenshaltungskosten.",
-    "want": "Demonstranten äußerten verschiedene wirtschaftliche Forderungen im Zusammenhang mit den Lebenshaltungskosten.",
-    "changed": "31. Okt.: Die Polizei meldete 10.000 Teilnehmer in Marseille, wo nach einem Ladeneinbruch Zusammenstöße ausbrachen und fünf Personen festgenommen wurden."
+    "why": "Teilnehmer demonstrierten gegen die steigenden Lebenshaltungskosten.",
+    "want": "Demonstranten versammelten sich, um wirtschaftliche Missstände zu äußern.",
+    "changed": "3. Nov.: Die Staatsanwaltschaft kündigte eine IGPN-Untersuchung an, nachdem ein Teilnehmer während der Zusammenstöße eine Verletzung gemeldet hatte."
    },
-   "summary": "Am 31. Oktober 2026 nahmen Tausende Menschen an einer nicht genehmigten Demonstration in Marseille zum Thema Lebenshaltungskosten teil. Obwohl die örtlichen Behörden Demonstrationsverbote im Département Bouches-du-Rhône erlassen hatten, versammelten sich Menschenmengen ab dem Viertel Réformés. Am Nachmittag stieg die Spannung, als mobile Gruppen entlang des Boulevard Chave mit den Sicherheitskräften aneinandergerieten und Projektile warfen, woraufhin die Polizei mit Tränengas reagierte. Demonstranten zündeten zudem Müllbrände und ein Freudenfeuer an La Plaine an. Nach Angaben der Polizei wurden am Abend fünf Personen festgenommen, nachdem ein Foot-Locker-Geschäft im ersten Arrondissement ins Visier genommen worden war und Sachschäden bei anderen lokalen Unternehmen gemeldet wurden. Der Bürgermeister von Marseille verurteilte die Unruhen, während er berechtigte friedliche Anliegen anerkannte, und die Polizei setzte ein großes Sicherheitsaufgebot ein, um das Gebiet zu sichern.",
+   "summary": "Tausende Menschen gingen am 31. Oktober in Marseille zu einer nicht genehmigten Demonstration bezüglich der Lebenshaltungskosten auf die Straße. Trotz Verboten der örtlichen Behörden versammelte sich eine Menge beginnend ab Les Réformés. Im Laufe des Tages kam es zu Spannungen in der Nähe des Boulevard Chave und La Plaine, wobei die Polizei Tränengas gegen Gruppen einsetzte, die Wurfgeschosse warfen und Vandalismus begingen. Mehrere Geschäfte wurden ins Visier genommen, und nach Einbrüchen kam es zu mehreren Festnahmen. Der Bürgermeister verurteilte die Gewalt und erkannte gleichzeitig legitime Beschwerden an. Anschließend wurde von der nationalen Polizeiaufsichtsbehörde eine Untersuchung eingeleitet, nachdem ein Mann angegeben hatte, bei Polizeieinsätzen schwere Gesichtsverletzungen erlitten zu haben.",
    "demands": [
     "Die steigenden Lebenshaltungskosten angehen"
    ],
-   "response": "Die Präfektur setzte ein großes Polizeiaufgebot ein, das während der Zusammenstöße Tränengas einsetzte. Der Bürgermeister forderte die Bewohner auf, in Sicherheit zu bleiben, und verurteilte Personen, die die Demonstrationen ausnutzen, um Chaos zu stiften.",
+   "response": "Laut Polizeipräfektur setzten die Behörden eine starke Polizeikräfte zur Absicherung des Gebiets ein, nutzten Tränengas als Reaktion auf Wurfgeschosse und nahmen Festnahmen wegen Einbrüchen vor. Der Bürgermeister rief zur Sicherheit auf und verurteilte Personen, die den Marsch ausnutzten, um Chaos zu stiften.",
    "updates": [
-    "Eine nicht genehmigte Demonstration begann in Marseille und zog laut Angaben der Präfektur bis zu 10.000 Menschen an.",
-    "In der Nähe des Boulevard Chave kam es zu Zusammenstößen, als die Polizei Tränengas gegen Gruppen einsetzte, die Projektile warfen.",
-    "Inmitten der abendlichen Unruhen wurden fünf Personen nach einem Ladeneinbruch im ersten Arrondissement festgenommen."
+    "Ein nicht genehmigter Marsch zu den Lebenshaltungskosten zog bis zu 10.000 Teilnehmer in Marseille an, was zu Zusammenstößen, dem Einsatz von Tränengas und brennenden Mülltonnen führte.",
+    "Die Polizei nahm fünf Personen nach einem Geschäftseinbruch im 1. Arrondissement inmitten weitverbreiteter Ausschreitungen und Sachbeschädigungen fest.",
+    "Die Staatsanwaltschaft leitete eine IGPN-Untersuchung wegen mutmaßlicher Polizeigewalt ein, nachdem ein Teilnehmer schwere Gesichtsverletzungen gemeldet hatte."
    ],
    "conflicts": [],
    "numbers": {

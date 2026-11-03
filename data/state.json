@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-03",
-  "count": 139
+  "count": 169
  },
  "runs": [
-  {
-   "at": "2026-10-28T05:48:25.950Z",
-   "ms": 211238,
-   "discovered": 63,
-   "fetched": 50,
-   "classified": 44,
-   "protests": 15,
-   "summarized": 6,
-   "published": 213,
-   "live": 23,
-   "aiCalls": 16,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 9 files, 25 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 242 protest-word items",
-    "search: 23 single-source stories checked, 22 other newsrooms found",
-    "fetch: 50 ok, 13 failed",
-    "classify: new candidate ec03f53153e \"Supporters blockade road and protest murder in Thane\" (Thane)",
-    "classify: new candidate e5720989c18 \"Farmers hold tractor protest in Madrid against EU policy\" (Madrid)",
-    "classify: new candidate eb2002d4308 \"Students march to polls in Baton Rouge\" (Baton Rouge)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-28T08:50:32.232Z",
    "ms": 379074,
@@ -1613,8 +1586,39 @@
     "translate: 17 events"
    ],
    "translated": 17
+  },
+  {
+   "at": "2026-11-03T12:50:33.253Z",
+   "ms": 410115,
+   "discovered": 86,
+   "fetched": 76,
+   "classified": 64,
+   "protests": 20,
+   "summarized": 12,
+   "published": 317,
+   "live": 18,
+   "aiCalls": 30,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 50 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 209 protest-word items",
+    "search: 25 single-source stories checked (11 in their own language), 0 other newsrooms found",
+    "fetch: 76 ok, 10 failed",
+    "classify: new candidate e62b9ef1337 \"Audi workers strike and protest savings plans in Ingolstadt\" (Ingolstadt)",
+    "classify: new candidate e865efa0ad3 \"Portuguese health technicians announce strike\" (Lisbon)",
+    "classify: new candidate e3346f8a185 \"BJP holds Loktantra Bachao march in Bhopal led by Rajnath Singh\" (Bhopal)",
+    "classify: new candidate e22840f1889 \"High school students blockade schools across France over education\" (Paris)",
+    "classify: new candidate e392a8152b0 \"BJP holds Loktantra Bachao padyatra in Bareilly\" (Bareilly)",
+    "dedupe: merged e338511c506 into e8cd6ea7b1f (madrid-housing-cost-living-protest-sep-2026), 1 articles",
+    "dedupe: merged ecc8fb03946 into e8cd6ea7b1f (madrid-housing-cost-living-protest-sep-2026), 1 articles",
+    "dedupe: merged e15ddedfc56 into e5afd63aab6 (hyderabad-niloufer-hospital-protest-nov-2026), 1 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 11 events"
+   ],
+   "translated": 11
   }
  ],
- "gdeltCursor": "20261103100000",
- "lastRunAt": "2026-11-03T09:50:32.995Z"
+ "gdeltCursor": "20261103124500",
+ "lastRunAt": "2026-11-03T12:50:33.253Z"
 }
