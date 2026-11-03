@@ -2,8 +2,8 @@
  "id": "e86ae673bc2",
  "slug": "porto-housing-protest-nov-2026",
  "stage": "live",
- "title": "Police clear housing protest camp in Porto",
- "seoTitle": "Porto housing protest camp cleared by police",
+ "title": "Police dismantle housing protest camp in Porto",
+ "seoTitle": "Porto housing protest camp cleared",
  "place": {
   "city": "Porto",
   "region": "Porto",
@@ -13,7 +13,7 @@
   "citySlug": "porto",
   "regionSlug": "porto"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "housing"
  ],
@@ -24,40 +24,43 @@
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "serious"
+  "serious",
+  "low-confidence",
+  "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Demonstrators protested against high housing costs and a new government bill on rents that would ease evictions and end rent caps.",
-  "want": "Protesters demanded an end to the housing crisis and the abandonment of the new rent bill.",
-  "changed": "Nov 3: New reports emerged regarding the identification of injured protesters at hospitals."
+  "why": "Protesters are demonstrating against high housing costs and a new government rent bill.",
+  "want": "They demand the government abandon plans to ease evictions and end rent caps.",
+  "changed": "Nov 1: Police cleared protest camps in Porto and Lisbon; 13 officers and numerous protesters were reported injured."
  },
- "summary": "Police in Porto dismantled a housing protest camp in Dom Joao I Square following marches against high housing costs and government rent legislation. Officers used shields and batons during the early morning operation to clear tents set up by participants. According to police, 13 officers were injured and seven individuals were arrested for refusing to disperse. Organisers reported that dozens of protesters were injured during the clearance. The operation also involved an incident where an undercover police officer drew a firearm as a deterrent after being confronted by demonstrators, drawing criticism from legal representatives who termed the police response excessive.",
+ "summary": "On November 1, 2026, Portuguese police dismantled protest camps in Porto's Praça D. João I and Lisbon's Rossio Square. The action followed demonstrations against rising housing costs and proposed rent legislation. According to the Public Security Police (PSP), 13 officers were injured during the Porto operation, with eight requiring hospital care. Organizers reported at least 38 protesters injured in Porto. The operation involved the use of plainclothes officers, one of whom was filmed drawing a firearm, which the PSP described as a passive deterrent. Seven individuals were detained in Porto and later released. Protesters argue the police response was disproportionate. While the government has acknowledged potential amendments to the rent bill, Prime Minister Luis Montenegro has stated the legislation will not be withdrawn.",
  "organizers": [
   "Acampada do Porto",
+  "Acampada Lisboa",
   "Mães da Acampada"
  ],
  "demands": [
-  "Drop the new rent bill",
-  "Stop easing evictions",
-  "End rent caps for new contracts",
-  "Address the severe housing crisis"
+  "Abandon plans to ease evictions",
+  "Maintain rent caps for new contracts"
  ],
- "response": "Police dismantled the protest camps, deployed shields and batons, and arrested seven individuals in Porto for refusing orders to disperse, according to police statements. Authorities stated 13 officers were injured, and an undercover officer used a firearm as a passive deterrent during a confrontation.",
+ "response": "The PSP stated that officers used shields and batons to disperse protesters who refused orders to leave. The police described the use of a firearm by a plainclothes officer as a passive deterrent following alleged aggression by demonstrators.",
  "numbers": {
   "arrests": {
    "value": 7,
-   "text": "seven in Porto",
+   "text": "Seven people were detained in Porto, according to police reports.",
    "sources": [
     3,
     4
    ]
   },
   "injuries": {
-   "value": 38,
-   "text": "at least 38 feridos no Porto",
+   "value": 13,
+   "text": "The PSP reported 13 police officers were injured in Porto; organizers claimed at least 38 protesters were injured.",
    "sources": [
+    1,
+    3,
     4
    ]
   }
@@ -65,24 +68,23 @@
  "updates": [
   {
    "at": "2026-11-01",
-   "text": "Police dismantled the protest camp in Dom Joao I Square at around 4:30 a.m. and arrested seven protesters.",
+   "text": "Police cleared protest camps in Porto and Lisbon during the early morning hours.",
+   "sources": [
+    1,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-01",
+   "text": "Seven protesters were detained in Porto and later released with a court summons.",
    "sources": [
     3,
     4
    ]
   },
   {
-   "at": "2026-11-01",
-   "text": "An undercover officer drew a firearm during a confrontation with demonstrators near the city hall.",
-   "sources": [
-    1,
-    2,
-    4
-   ]
-  },
-  {
    "at": "2026-11-03",
-   "text": "New complaints surfaced regarding the identification of injured protesters at hospitals in Porto.",
+   "text": "Protesters returned to Praça D. João I in Porto and spent the night in tents without police intervention.",
    "sources": [
     5
    ]
@@ -119,22 +121,25 @@
   },
   {
    "n": 5,
-   "url": "https://www.rtp.pt/noticias/pais/porto-denunciada-identificacao-de-manifestantes-feridos-em-hospitais_v1776516",
+   "url": "https://www.rtp.pt/noticias/pais/protestos-pela-habitacao-porto-manifestantes-passaram-a-noite-na-praca-d-joao-i_v1776567",
    "publisher": "rtp.pt",
-   "title": "Porto. Denunciada identificação de manifestantes feridos em hospitais",
-   "publishedAt": "2026-11-03T08:40:47.000Z"
+   "title": "Protestos Pela Habitação Porto. Manifestantes passaram a noite na Praça D. João I",
+   "publishedAt": "2026-11-03T13:41:47.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.9,
+ "conflicts": [
+  "Police reported 13 officers injured; organizers claimed at least 38 protesters were injured in Porto.",
+  "Protesters alleged plainclothes officers acted as agitators; police stated they were monitoring the protest."
+ ],
+ "confidence": 0.75,
  "publishers": 5,
- "reports24h": 1,
- "reportsPrev24h": 4,
- "reports48h": 5,
+ "reports24h": 2,
+ "reportsPrev24h": 1,
+ "reports48h": 3,
  "firstSeenAt": "2026-11-01T16:52:44.964Z",
- "lastReportAt": "2026-11-03T08:40:47.000Z",
- "lastCheckedAt": "2026-11-03T12:55:15.920Z",
- "updatedAt": "2026-11-03T09:54:27.942Z",
+ "lastReportAt": "2026-11-03T13:41:47.000Z",
+ "lastCheckedAt": "2026-11-03T16:03:13.185Z",
+ "updatedAt": "2026-11-03T15:57:33.357Z",
  "searchedAt": "2026-11-01T19:44:18.836Z",
  "endedOn": "2026-11-01",
  "responseSources": [
@@ -145,8 +150,8 @@
  ],
  "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-11-03T09:54:27.942Z",
- "summaryOf": "73a8719ce8a7",
+ "summarizedAt": "2026-11-03T15:57:33.357Z",
+ "summaryOf": "db2b08d5cb77",
  "publishedAt": "2026-11-01T19:48:24.860Z",
  "i18n": {
   "of": "8dc26f7f898049c9",

@@ -3,7 +3,7 @@
  "slug": "madrid-housing-cost-living-protest-sep-2026",
  "stage": "live",
  "title": "Spanish police dismantle month-long housing protest camp in Madrid",
- "seoTitle": "Madrid housing protest camp cleared by police",
+ "seoTitle": "Madrid police clear housing protest camp",
  "place": {
   "city": "Madrid",
   "region": "Madrid",
@@ -23,29 +23,31 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated against runaway housing costs, weak tenant protections, and the eviction of an elderly resident.",
-  "want": "Affordable housing, stronger tenant protections, and a stop to unjust evictions.",
-  "changed": "Nov 3: Police dismantled the protest camp at Puerta del Sol, removing 334 people and making two arrests."
+  "why": "Protesters demonstrated against runaway housing costs, a lack of tenant protections, and the eviction of an elderly resident.",
+  "want": "They demanded affordable housing, better tenant protections, and limits on evictions.",
+  "changed": "Nov 3: Police cleared the month-long protest encampment at Puerta del Sol, removing 334 people and making two arrests."
  },
- "summary": "For over a month, demonstrators occupied the Puerta del Sol square in Madrid to protest Spain's housing crisis, setting up a makeshift camp featuring a canteen, clinic, and meeting spaces. The movement initially formed after an 87-year-old pensioner was evicted from her long-time home. Organised by groups including the tenants' union, the protest expanded into a sprawling encampment that inspired similar actions across the country and contributed to political pressure on the government. On the night of November 2 to November 3, authorities carried out an operation involving 400 national and municipal police officers, firefighters, and social services to clear the square. City officials and the government delegation stated that 334 people were removed and two were arrested without violent disruption, while protest organisers denounced the operation as violent and reported that several participants were injured by blows and tear gas.",
+ "summary": "Authorities and activists reported that police dismantled a month-long protest encampment in Madrid's Puerta del Sol square. The protest movement began on September 26 following the eviction of an 87-year-old woman from her lifelong home, which sparked nationwide anger over soaring housing costs and insufficient tenant protections. The makeshift camp in Madrid grew into a dense mini-city featuring a canteen, clinic, and meeting areas, and served as a catalyst for demonstrations across Spain and early national elections. Overnight from Monday to Tuesday, hundreds of national and municipal police officers, accompanied by firefighters and social services, moved in to clear the area. City authorities and government delegation sources stated the operation was conducted without incident or violence, resulting in 334 individuals being removed and two arrested. In contrast, protest organisers condemned the action on Telegram as a violent police operation involving physical blows and tear gas that left multiple people injured.",
  "organizers": [
-  "Sindicato de Inquilinas"
+  "sindicato de inquilinas"
  ],
  "demands": [
-  "Affordable housing",
+  "Affordable and dignified housing",
   "Enhanced tenant protections",
   "Limits on evictions"
  ],
- "response": "Police dismantled the camp overnight with an operation involving 400 officers. City officials stated the evacuation occurred without violent disruption, removing 334 people and arresting two. Organisers described it as a violent operation involving tear gas and injuries.",
+ "response": "Authorities stated that the eviction was carried out without incident or violence, involving 400 national and municipal police officers, firefighters, and social services, and resulted in 334 people being removed and two arrested. Organisers called it a violent operation that left several injured.",
  "numbers": {
   "crowd": {
    "value": 334,
-   "text": "334 people",
+   "text": "334 people were removed",
    "sources": [
     2,
     3,
@@ -59,6 +61,7 @@
    "sources": [
     2,
     3,
+    4,
     5,
     6
    ]
@@ -67,17 +70,21 @@
  "updates": [
   {
    "at": "2026-09-26",
-   "text": "The protest camp was established in Madrid's Puerta del Sol following a large demonstration and an eviction.",
+   "text": "A protest camp was established in Madrid's Puerta del Sol square following a large demonstration over housing costs.",
    "sources": [
+    2,
+    3,
     6
    ]
   },
   {
    "at": "2026-11-03",
-   "text": "Police and municipal workers cleared the tent camp overnight, removing 334 individuals and arresting two people.",
+   "text": "Police and municipal crews dismantled the protest camp, removing 334 people and detaining two individuals.",
    "sources": [
     2,
     3,
+    4,
+    5,
     6
    ]
   }
@@ -106,10 +113,10 @@
   },
   {
    "n": 4,
-   "url": "https://www.rtp.pt/noticias/mundo/policia-espanhola-levanta-protesto-na-praca-portas-do-sol-em-madrid_n1776536",
+   "url": "https://www.rtp.pt/noticias/mundo/policia-espanhola-levanta-protesto-na-praca-porta-do-sol-em-madrid_n1776536",
    "publisher": "rtp.pt",
-   "title": "Polícia espanhola levanta protesto na praça Portas do Sol em Madrid",
-   "publishedAt": "2026-11-03T11:54:38.000Z"
+   "title": "Polícia espanhola levanta protesto na praça Porta do Sol em Madrid",
+   "publishedAt": "2026-11-03T15:09:20.000Z"
   },
   {
    "n": 5,
@@ -126,27 +133,30 @@
    "publishedAt": "2026-11-03T13:11:00.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
+ "conflicts": [
+  "City government and government delegation sources stated the clearance took place without incident or violence, while organisers described it as a violent police operation involving physical strikes…"
+ ],
+ "confidence": 0.8,
  "publishers": 6,
- "reports24h": 9,
- "reportsPrev24h": 0,
- "reports48h": 9,
+ "reports24h": 10,
+ "reportsPrev24h": 1,
+ "reports48h": 11,
  "firstSeenAt": "2026-10-27T15:22:11.690Z",
- "lastReportAt": "2026-11-03T12:55:15.920Z",
- "lastCheckedAt": "2026-11-03T12:55:15.920Z",
- "updatedAt": "2026-11-03T12:54:22.010Z",
+ "lastReportAt": "2026-11-03T15:09:20.000Z",
+ "lastCheckedAt": "2026-11-03T16:03:13.185Z",
+ "updatedAt": "2026-11-03T15:55:33.628Z",
  "searchedAt": "2026-11-01T22:50:37.122Z",
  "responseSources": [
   2,
   3,
+  4,
   5,
   6
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-03T12:54:22.010Z",
- "summaryOf": "41f455638d47",
+ "summarizedAt": "2026-11-03T15:55:33.628Z",
+ "summaryOf": "f4a125297edd",
  "publishedAt": "2026-11-02T03:52:53.247Z",
  "i18n": {
   "of": "37d0011745864da8",

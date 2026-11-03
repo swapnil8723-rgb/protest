@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-03",
-  "count": 169
+  "count": 200
  },
  "runs": [
-  {
-   "at": "2026-10-28T08:50:32.232Z",
-   "ms": 379074,
-   "discovered": 72,
-   "fetched": 66,
-   "classified": 54,
-   "protests": 28,
-   "summarized": 13,
-   "published": 216,
-   "live": 22,
-   "aiCalls": 30,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 12 files, 34 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 232 protest-word items",
-    "search: 25 single-source stories checked, 29 other newsrooms found",
-    "fetch: 66 ok, 6 failed",
-    "classify: new candidate ef4cc96d5fc \"SFI protests outside TGBIE over contract lecturers\" (Hyderabad)",
-    "classify: new candidate eeb9629ecfa \"Rally in Boise for abortion rights initiative\" (Boise)",
-    "classify: new candidate e5e044935ff \"Telangana Congress plans cadres for Delhi rally\" (Hyderabad)",
-    "classify: new candidate eeba2b6ffc0 \"Telangana Congress flash protest over train allocations\" (Secunderabad)",
-    "classify: new candidate e82aed2d5d1 \"Gen Z-led youth protests over living costs and education\" (Brussels)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 1 waiting",
-    "translate: 12 events"
-   ],
-   "translated": 12
-  },
   {
    "at": "2026-10-28T11:49:09.619Z",
    "ms": 333348,
@@ -1617,8 +1588,55 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-11-03T15:50:34.121Z",
+   "ms": 781477,
+   "discovered": 120,
+   "fetched": 111,
+   "classified": 91,
+   "protests": 40,
+   "summarized": 20,
+   "published": 320,
+   "live": 20,
+   "aiCalls": 31,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 53 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 221 protest-word items",
+    "search: 25 single-source stories checked (10 in their own language), 30 other newsrooms found",
+    "fetch: 111 ok, 9 failed",
+    "classify: new candidate e37cd1353bd \"Villagers boycott panchayat elections in Bayana\" (Bayana)",
+    "classify: new candidate e6fd6b26ff6 \"Students march in Copenhagen against cuts to grants\" (Copenhagen)",
+    "classify: new candidate e658b4a1b26 \"Lawyers protest in Shivamogga demanding stronger protections\" (Shivamogga)",
+    "classify: new candidate e4c039bb123 \"CPI(M) announces indefinite sit-in protest over police station attack\" (Pathanamthitta)",
+    "classify: new candidate e24ae2d471f \"Gen Z initiative holds nationwide youth demonstrations in Germany\" (Berlin)",
+    "classify: new candidate e8391abefcc \"Residents protest outside house near Kyiv over detained servicemen\" (Petropavlivska Borshchahivka)",
+    "classify: new candidate e0d84f247ff \"Villagers road blockade over nursing student death\" (Pudukkottai)",
+    "classify: new candidate e1f4bbca784 \"BJP and ABVP march in Giridih over democracy and voter rolls\" (Giridih)",
+    "classify: new candidate e55bcd18f6d \"Workers block highway over safety after welder's death\" (Manapparai)",
+    "classify: new candidate e2a68702063 \"Sugarcane farmers protest in Shivamogga for remunerative prices\" (Shivamogga)",
+    "classify: new candidate ef51a38c26a \"Lawyers protest in Kalaburagi demanding protection act\" (Kalaburagi)",
+    "classify: new candidate ea352ae8058 \"Samyukta Kisan Morcha calls hartal in Palakkad\" (Palakkad)",
+    "classify: new candidate ee27328a091 \"SDPI protest in Chennai condemning attacks on mosques\" (Chennai)",
+    "classify: new candidate e7b016572b6 \"CPI protest in Tirunelveli against inflation and high prices\" (Tirunelveli)",
+    "classify: new candidate ea9e1ffec79 \"Audi and metal workers strike and protest in Augsburg\" (Augsburg)",
+    "classify: new candidate e187da78ea8 \"Farmers protest Bhadra canal water release in Davanagere\" (Davangere)",
+    "dedupe: merged e24ae2d471f into ef15d58b287 (berlin-student-protests-germany-oct-2026), 1 articles",
+    "dedupe: merged ec65a87da8b into efffe156e22 (bengaluru-bjp-protest-kharge-remarks-oct-2026), 1 articles",
+    "dedupe: merged e1f419d0953 into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 1 articles",
+    "dedupe: merged e22840f1889 (paris-school-blockade-france-nov-2026) into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 3 articles",
+    "dedupe: merged e7be26465e1 into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 1 articles",
+    "dedupe: merged e823a7aecdf into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 1 articles",
+    "dedupe: merged e8494f4b745 into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 1 articles",
+    "dedupe: merged ea03ec4cbb2 into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 1 articles",
+    "summary: eec25eb3faa failed: The operation was aborted due to timeout",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: stopped: run time cap 13 min reached"
+   ]
   }
  ],
- "gdeltCursor": "20261103124500",
- "lastRunAt": "2026-11-03T12:50:33.253Z"
+ "gdeltCursor": "20261103154500",
+ "lastRunAt": "2026-11-03T15:50:34.121Z"
 }
