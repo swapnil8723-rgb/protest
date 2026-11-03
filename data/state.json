@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-03",
-  "count": 95
+  "count": 139
  },
  "runs": [
-  {
-   "at": "2026-10-28T03:24:20.850Z",
-   "ms": 152011,
-   "discovered": 38,
-   "fetched": 30,
-   "classified": 23,
-   "protests": 10,
-   "summarized": 5,
-   "published": 212,
-   "live": 24,
-   "aiCalls": 12,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 6 files, 19 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 238 protest-word items",
-    "search: 22 single-source stories checked, 26 other newsrooms found",
-    "fetch: 30 ok, 8 failed",
-    "classify: new candidate eb522b87dd7 \"Protesters rally for housing and living costs in Portugal\" (Lisbon)",
-    "classify: new candidate e9fa00ff983 \"Watties factory staff strike over pay dispute in Hawke's Bay\" (Hastings)",
-    "classify: new candidate ed93fc4c6e6 \"Naga groups plan rally against SoO pact in Manipur\" (Imphal)",
-    "classify: new candidate e556ee1d610 \"New Mexico students walk out to protest data centers\" (Santa Fe)",
-    "classify: new candidate e57f3f545e5 \"Students and staff protest across Europe over education conditions\" (Tirana)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-28T05:48:25.950Z",
    "ms": 211238,
@@ -1608,8 +1579,42 @@
     "translate: 9 events"
    ],
    "translated": 9
+  },
+  {
+   "at": "2026-11-03T09:50:32.995Z",
+   "ms": 498330,
+   "discovered": 106,
+   "fetched": 94,
+   "classified": 83,
+   "protests": 42,
+   "summarized": 19,
+   "published": 315,
+   "live": 18,
+   "aiCalls": 44,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261103094500 http://data.gdeltproject.org/gdeltv2/20261103094500.export.CSV.zip → 404",
+    "gdelt: 13 files, 41 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.theportugalnews.com: The operation was aborted due to timeout",
+    "rss: 210 protest-word items",
+    "search: 24 single-source stories checked (4 in their own language), 35 other newsrooms found",
+    "fetch: 94 ok, 12 failed",
+    "classify: new candidate e6bdcd3a455 \"Northside ISD teachers rally over health insurance hikes\" (San Antonio)",
+    "classify: new candidate e97e4f06363 \"Czech public media employees strike against funding changes\" (Prague)",
+    "classify: new candidate ee168885ad5 \"IG Metall metal workers strike for higher wages in Thuringia\" (Eisenach)",
+    "classify: new candidate e503b9444a1 \"French high school students continue protests and blockades\" (Rouen)",
+    "classify: new candidate e9683f3601c \"SFI student wing resumes campus protests in Kerala\" (Thiruvananthapuram)",
+    "classify: new candidate e09d012429b \"PP leader Feijóo urges unions to call off general strike\" (Madrid)",
+    "classify: new candidate e78873ef2a1 \"Judge urges dropping terror charges for flare protesters\" (Haifa)",
+    "dedupe: merged eff8c8151b4 (delhi-voter-list-revision-protest-oct-2026) into ed0889161e3 (delhi-farmers-march-against-cec-oct-2026), 3 articles",
+    "dedupe: merged efd80968362 into ef15d58b287 (berlin-student-protests-germany-oct-2026), 4 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 17 events"
+   ],
+   "translated": 17
   }
  ],
- "gdeltCursor": "20261103064500",
- "lastRunAt": "2026-11-03T06:49:33.931Z"
+ "gdeltCursor": "20261103100000",
+ "lastRunAt": "2026-11-03T09:50:32.995Z"
 }
