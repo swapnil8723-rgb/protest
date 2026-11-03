@@ -1,40 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-11-02",
-  "count": 263
+  "day": "2026-11-03",
+  "count": 42
  },
  "runs": [
-  {
-   "at": "2026-10-27T19:50:29.850Z",
-   "ms": 378725,
-   "discovered": 97,
-   "fetched": 86,
-   "classified": 67,
-   "protests": 25,
-   "summarized": 13,
-   "published": 203,
-   "live": 19,
-   "aiCalls": 32,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 11 files, 44 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 224 protest-word items",
-    "search: 25 single-source stories checked, 33 other newsrooms found",
-    "fetch: 86 ok, 11 failed",
-    "classify: new candidate e4e98a47fa5 \"Protest outside Science Museum over Adani sponsorship\" (London)",
-    "classify: new candidate e48386557a7 \"BJP marches in Gujarat against Congress over poll defeats\" (Ahmedabad)",
-    "classify: new candidate e4ef99e4c11 \"Activists scale Jakarta statue demanding climate action and lower costs\" (Jakarta)",
-    "classify: new candidate e436944b695 \"Students protest for student union elections in Indian universities\" (Hyderabad)",
-    "classify: new candidate e87af61691a \"Protesters demonstrate in Jena against AfD event\" (Jena)",
-    "classify: new candidate e8f462c7b61 \"Women in Ladakh protest demanding liquor ban\" (Leh)",
-    "classify: new candidate e40d975e998 \"BJP stages nationwide protests demanding Congress chief resignation\" (Bhubaneswar)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 13 events"
-   ],
-   "translated": 13
-  },
   {
    "at": "2026-10-27T22:18:57.395Z",
    "ms": 204960,
@@ -1593,8 +1562,45 @@
     "translate: 17 events"
    ],
    "translated": 17
+  },
+  {
+   "at": "2026-11-03T00:45:19.659Z",
+   "ms": 534813,
+   "discovered": 84,
+   "fetched": 70,
+   "classified": 47,
+   "protests": 15,
+   "summarized": 19,
+   "published": 315,
+   "live": 19,
+   "aiCalls": 42,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 15 files, 46 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.bostonglobe.com: 404",
+    "rss: 204 protest-word items",
+    "search: 25 single-source stories checked (10 in their own language), 29 other newsrooms found",
+    "fetch: 70 ok, 14 failed",
+    "classify: new candidate e036aa7011b \"Greenpeace activists paint supertrawler in Marin\" (Marín)",
+    "classify: new candidate e2b55121e68 \"Protesters rally outside Leinster House over proposed citizenship bill\" (Dublin)",
+    "classify: new candidate e5e5b060739 \"Demonstrators protest outside Donald Trump rally in Dubuque\" (Dubuque)",
+    "classify: new candidate e1f419d0953 \"Protests and unrest sweep European cities over living costs\" (Paris)",
+    "dedupe: merged e1624087671 (berlin-gen-z-protests-oct-2026) into ef15d58b287 (berlin-student-protests-germany-oct-2026), 2 articles",
+    "dedupe: merged e7f93f12f64 into e03076575d1 (belagavi-sugarcane-farmers-karnataka-bandh-oct-2026), 1 articles",
+    "dedupe: merged ec82a8949a4 into e03076575d1 (belagavi-sugarcane-farmers-karnataka-bandh-oct-2026), 1 articles",
+    "dedupe: merged e07124e7d33 into ed3d1ff3f1a (manchester-right-wing-counter-protest-oct-2026), 1 articles",
+    "dedupe: merged e6aa1bbb5b4 into ec03f53153e (thane-murder-protest-oct-2026), 1 articles",
+    "dedupe: merged ef857ce47d4 into ef73c775141 (marseille-living-costs-protest-oct-2026-2), 1 articles",
+    "dedupe: merged eaa008531a2 into e127b98fa35 (rohtak-loktantra-bachao-march-nov-2026), 1 articles",
+    "dedupe: merged e12e3958465 into e2d6ac930c5 (delhi-lawyers-strike-police-intimidation-oct-2026), 1 articles",
+    "dedupe: merged e1392bb557c into e70ba23b92e (delhi-police-transfer-protest-nov-2026), 1 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 18 events"
+   ],
+   "translated": 18
   }
  ],
- "gdeltCursor": "20261102210000",
- "lastRunAt": "2026-11-02T20:50:40.773Z"
+ "gdeltCursor": "20261103004500",
+ "lastRunAt": "2026-11-03T00:45:19.659Z"
 }
