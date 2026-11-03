@@ -1,39 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-03",
-  "count": 71
+  "count": 95
  },
  "runs": [
-  {
-   "at": "2026-10-28T01:50:30.642Z",
-   "ms": 231726,
-   "discovered": 75,
-   "fetched": 72,
-   "classified": 50,
-   "protests": 19,
-   "summarized": 8,
-   "published": 209,
-   "live": 23,
-   "aiCalls": 20,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 15 files, 36 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss news.err.ee: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 242 protest-word items",
-    "search: 16 single-source stories checked, 13 other newsrooms found",
-    "fetch: 72 ok, 3 failed",
-    "classify: new candidate e0f4473e651 \"Thousands rally at parliament over housing crisis\" (Lisbon)",
-    "classify: new candidate ecc8afaa562 \"Democrats and union members rally against senator\" (Lima)",
-    "classify: new candidate e4963bba35c \"Rally in Sydney against sale of Victoria Barracks\" (Sydney)",
-    "classify: new candidate eb563b6479f \"Protesters clash in French cities over living costs and policies\" (Paris)",
-    "classify: new candidate e2a27b46df5 \"Residents protest UNRWA service cuts and hospital closure\" (Balatah)",
-    "reader: inbox unavailable: inbox 402",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-28T03:24:20.850Z",
    "ms": 152011,
@@ -1601,8 +1571,45 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-11-03T06:49:33.931Z",
+   "ms": 285849,
+   "discovered": 71,
+   "fetched": 64,
+   "classified": 56,
+   "protests": 19,
+   "summarized": 9,
+   "published": 313,
+   "live": 17,
+   "aiCalls": 24,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 11 files, 42 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.theportugalnews.com: The operation was aborted due to timeout",
+    "rss: 215 protest-word items",
+    "search: 25 single-source stories checked (12 in their own language), 22 other newsrooms found",
+    "fetch: 64 ok, 7 failed",
+    "classify: new candidate eeea752d1c4 \"Students protest sexual assault and Cornell lawsuit at UCR\" (Riverside)",
+    "classify: new candidate e0ebab93568 \"Anti-racism counter-protest held in Weymouth\" (Weymouth)",
+    "classify: new candidate e5afd63aab6 \"PYL protests over bed shortages and poor sanitation at Niloufer Hospital\" (Hyderabad)",
+    "classify: new candidate e2da96c2ec7 \"BJP holds rallies and protest marches across Uttar Pradesh\" (Lucknow)",
+    "classify: new candidate ed6e835f8bc \"Garment workers block highways and strike in Gazipur and Savar\" (Gazipur)",
+    "classify: new candidate e29349ab684 \"CITU plans indefinite protest at Jantar Mantar for worker protections\" (Delhi)",
+    "classify: new candidate efbce113f3f \"MCD sanitation workers protest outsourcing of contract jobs\" (Delhi)",
+    "classify: new candidate efd80968362 \"Gen Z regelt youth demonstrations across Germany\" (Berlin)",
+    "classify: new candidate e7e444aa41b \"Candlelight march in Mumbai demands justice for IIT student\" (Mumbai)",
+    "classify: new candidate e842a42df0d \"Healthcare workers stage protests in Karachi hospitals\" (Karachi)",
+    "classify: new candidate ee97c996125 \"Grant-in-aid school employees threaten statewide protest over demands\" (Ahmedabad)",
+    "dedupe: merged eaf17745a66 (paris-unions-students-strike-nov-2026) into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 7 articles",
+    "dedupe: merged e8c91906bac (frankfurt-am-main-youth-protest-living-costs-germany-oct-2026) into ebe0768f8bb (frankfurt-am-main-gen-z-regelt-protest-oct-2026), 2 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 9 events"
+   ],
+   "translated": 9
   }
  ],
- "gdeltCursor": "20261103040000",
- "lastRunAt": "2026-11-03T03:50:41.484Z"
+ "gdeltCursor": "20261103064500",
+ "lastRunAt": "2026-11-03T06:49:33.931Z"
 }
