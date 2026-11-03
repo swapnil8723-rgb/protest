@@ -1,43 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-03",
-  "count": 200
+  "count": 250
  },
  "runs": [
-  {
-   "at": "2026-10-28T11:49:09.619Z",
-   "ms": 333348,
-   "discovered": 89,
-   "fetched": 84,
-   "classified": 69,
-   "protests": 20,
-   "summarized": 10,
-   "published": 217,
-   "live": 21,
-   "aiCalls": 26,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 12 files, 46 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss www.bostonglobe.com: 404",
-    "rss civil.ge: fetch failed",
-    "rss: 216 protest-word items",
-    "search: 11 single-source stories checked, 13 other newsrooms found",
-    "fetch: 84 ok, 5 failed",
-    "classify: new candidate e37e7b179c0 \"Pro-life groups plan protest outside fundraiser\" (Chicago)",
-    "classify: new candidate e3920d97477 \"Students occupy university institute over education cuts\" (Berlin)",
-    "classify: new candidate edaedd407ba \"Metal and electrical workers face warning strikes after talks fail\" (Oldenburg)",
-    "classify: new candidate ee1b9bd905c \"Residents protest lithium exploration project in Boticas\" (Boticas)",
-    "classify: new candidate e1d89b6bb07 \"Students protest alleged killing of boy by security forces\" (Muzaffarabad)",
-    "classify: new candidate efe2a0ed5d5 \"Students protest short notice for PhD admission interviews\" (Delhi)",
-    "classify: new candidate eb794eb6671 \"Lawyers protest against Allahabad High Court judge\" (Prayagraj)",
-    "classify: new candidate e95cc2f1e6d \"Gen Z group announces nationwide protests for education\" (Hamburg)",
-    "reader: ebb6390dbfd30134-1.json is the same protest as e5720989c18",
-    "reader: 0 published, 0 held, 1 duplicates, 0 rejected, 0 waiting",
-    "translate: 9 events"
-   ],
-   "translated": 9
-  },
   {
    "at": "2026-10-28T15:50:31.181Z",
    "ms": 795361,
@@ -1635,8 +1601,46 @@
     "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
     "translate: stopped: run time cap 13 min reached"
    ]
+  },
+  {
+   "at": "2026-11-03T20:15:54.293Z",
+   "ms": 787371,
+   "discovered": 144,
+   "fetched": 129,
+   "classified": 103,
+   "protests": 28,
+   "summarized": 16,
+   "published": 321,
+   "live": 20,
+   "aiCalls": 50,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 18 files, 84 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 217 protest-word items",
+    "search: 25 single-source stories checked (10 in their own language), 30 other newsrooms found",
+    "fetch: 129 ok, 15 failed",
+    "classify: new candidate efbd070a581 \"BJP stages Democracy Protection March in Thiruvananthapuram\" (Thiruvananthapuram)",
+    "classify: new candidate e476e7c41c8 \"Supporters rally outside HMP Wakefield for Charles Bronson release\" (Wakefield)",
+    "classify: new candidate e01955fe29d \"Students and workers march from Ramlila Maidan to Jantar Mantar\" (Delhi)",
+    "classify: new candidate e6d8991c19f \"BJP holds Save Democracy padayatra in Nirmal\" (Nirmal)",
+    "classify: new candidate ee6739c614c \"Lawyers in Karnataka abstain from court over advocate killings\" (Bengaluru)",
+    "classify: new candidate e889a6d9736 \"High school students protest and clash with mortars in Essonne\" (Corbeil-Essonnes)",
+    "classify: new candidate eb04dfbb41d \"Rally outside parliament against constitutional revision\" (Tokyo)",
+    "classify: new candidate ee8885bf27a \"AIDWA women protest in Mumbai over scheme instalments\" (Mumbai)",
+    "classify: new candidate e41a2147e37 \"Foreign Medical Graduates to resume protest over stipend disparity\" (Hyderabad)",
+    "dedupe: merged e03076575d1 (belagavi-sugarcane-farmers-karnataka-bandh-oct-2026) into ef0424f97b3 (belagavi-sugarcane-farmers-highway-blockade-oct-2026), 14 articles",
+    "dedupe: merged e2bcc6d7112 (delhi-cec-impeachment-rally-oct-2026) into ed0889161e3 (delhi-farmers-march-against-cec-oct-2026), 4 articles",
+    "dedupe: merged e01955fe29d into ed0889161e3 (delhi-farmers-march-against-cec-oct-2026), 1 articles",
+    "dedupe: merged e8c155126c4 (delhi-india-bloc-rally-nov-2026) into ed0889161e3 (delhi-farmers-march-against-cec-oct-2026), 202 articles",
+    "dedupe: merged e3a049ded0a into e31cad03a68 (orleans-anti-rn-congress-march-oct-2026), 1 articles",
+    "dedupe: merged ed6e835f8bc into e352a0584fe (gazipur-garment-workers-wage-protest-oct-2026), 2 articles",
+    "dedupe: merged e95e103ec3a into e368755b703 (koln-gen-z-protest-cologne-oct-2026), 2 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: stopped: run time cap 13 min reached"
+   ]
   }
  ],
- "gdeltCursor": "20261103154500",
- "lastRunAt": "2026-11-03T15:50:34.121Z"
+ "gdeltCursor": "20261103201500",
+ "lastRunAt": "2026-11-03T20:15:54.293Z"
 }
