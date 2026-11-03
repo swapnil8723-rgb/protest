@@ -1,40 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-03",
-  "count": 42
+  "count": 71
  },
  "runs": [
-  {
-   "at": "2026-10-27T22:18:57.395Z",
-   "ms": 204960,
-   "discovered": 77,
-   "fetched": 73,
-   "classified": 58,
-   "protests": 17,
-   "summarized": 6,
-   "published": 205,
-   "live": 20,
-   "aiCalls": 17,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 10 files, 42 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 226 protest-word items",
-    "search: 7 single-source stories checked, 12 other newsrooms found",
-    "fetch: 73 ok, 4 failed",
-    "classify: new candidate e0806ecbbc7 \"Youth group calls for demonstration in Palma\" (Palma)",
-    "classify: new candidate e798820a3cb \"Residents protest UNRWA service cuts and hospital closure\" (Nablus)",
-    "classify: new candidate e39271d2235 \"MIT facilities workers authorize strike over pay and conditions\" (Cambridge)",
-    "classify: new candidate e8ebd37aea4 \"Coimbra protesters rally for housing and police accountability\" (Coimbra)",
-    "classify: new candidate ee45157aed9 \"Harvard graduate students walk out over labor contract\" (Cambridge)",
-    "classify: new candidate eedd3959232 \"Venice arts workers and artists call strike over war economy\" (Venice)",
-    "classify: new candidate ec65a87da8b \"BJP nationwide protests demanding Congress chief resignation\" (Bengaluru)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 6 events"
-   ],
-   "translated": 6
-  },
   {
    "at": "2026-10-28T01:50:30.642Z",
    "ms": 231726,
@@ -1599,8 +1568,41 @@
     "translate: 18 events"
    ],
    "translated": 18
+  },
+  {
+   "at": "2026-11-03T03:50:41.484Z",
+   "ms": 343074,
+   "discovered": 81,
+   "fetched": 74,
+   "classified": 54,
+   "protests": 19,
+   "summarized": 12,
+   "published": 314,
+   "live": 18,
+   "aiCalls": 29,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 13 files, 48 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.bostonglobe.com: 404",
+    "rss balkaninsight.com: The operation was aborted due to timeout",
+    "rss: 209 protest-word items",
+    "search: 25 single-source stories checked (5 in their own language), 37 other newsrooms found",
+    "fetch: 74 ok, 7 failed",
+    "classify: new candidate e9b2bb1363e \"Activists rally against planned ICE detention center in Appleton\" (Appleton)",
+    "classify: new candidate ed4f740abf7 \"Postal workers schedule protest in Delhi over pending demands\" (Delhi)",
+    "classify: new candidate e08f5a9af53 \"DUTA teachers strike in Delhi over teacher termination\" (Delhi)",
+    "dedupe: merged e2e5148f68b (paris-student-school-blockades-sep-2026) into e879707b082 (paris-french-school-blockades-sep-2026), 2 articles",
+    "dedupe: merged e879707b082 (paris-french-school-blockades-sep-2026) into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 4 articles",
+    "dedupe: merged e3054a3ffdd into e3920d97477 (berlin-student-institute-occupation-oct-2026), 1 articles",
+    "dedupe: merged e17bd058a02 into e1ca8f7219d (hamburg-halloween-conscription-protest-oct-2026), 2 articles",
+    "dedupe: merged e2a062cbadc into e1ca8f7219d (hamburg-halloween-conscription-protest-oct-2026), 1 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 11 events"
+   ],
+   "translated": 11
   }
  ],
- "gdeltCursor": "20261103004500",
- "lastRunAt": "2026-11-03T00:45:19.659Z"
+ "gdeltCursor": "20261103040000",
+ "lastRunAt": "2026-11-03T03:50:41.484Z"
 }
