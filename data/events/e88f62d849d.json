@@ -3,7 +3,7 @@
  "slug": "paris-national-strike-protests-nov-2026",
  "stage": "live",
  "title": "Unions and students plan nationwide strike and protests in France",
- "seoTitle": "Paris nationwide strike and protests",
+ "seoTitle": "Paris strike and protests",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -24,46 +24,61 @@
  "status": "scheduled",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are responding to calls for a national day of mobilization over wages, jobs, public services, industry, and cost of living.",
-  "want": "Demonstrators demand government responses regarding salaries, employment, public services, and cost-of-living issues.",
-  "changed": "Nov 4: Intelligence notes classified the upcoming mobilization as high risk, estimating hundreds of thousands of participants and anticipated blockades."
+  "why": "Protesters are mobilizing over wages, employment, living costs, public services, and industry demands.",
+  "want": "They demand better wages, employment security, reinforced public services, and answers to student expectations.",
+  "changed": "Nov 4: The Paris police prefecture banned the CGT's initial route from Bastille to Concorde, leading unions to challenge the decision in the administrative court."
  },
- "summary": "Trade unions, student groups, and yellow vest coordinators have organized a nationwide day of strikes and protests across France, including Paris, scheduled for November 5. According to territorial intelligence reports cited in news sources, between 500,000 and 700,000 demonstrators are anticipated nationwide, alongside expected school and university blockades and numerous union processions. The movement brings together private and public sector employees, retirees, students, and other groups demanding improvements in wages, jobs, public services, and industry, as well as addressing the high cost of living. Rail and public transport networks, educational institutions, and aviation services anticipate disruptions. Authorities have classified the mobilization as high risk, warning of potential public order disturbances.",
+ "summary": "Labor unions, retired citizens, public and private sector employees, students, and youth organisations are preparing for a nationwide day of strikes and demonstrations across France. Organisers aim to converge social grievances concerning employment, wages, purchasing power, and public services. In Paris, the initial route submitted by the CGT was prohibited by the police prefecture, though an alternative route between Republic and Nation was authorized, prompting a legal challenge from trade unions. Transport networks anticipate significant disruptions, with regional rail, suburban lines, and some air and maritime services affected. Territorial intelligence reports and interior ministry officials classified the mobilization as high-risk, leading to robust security deployments, drone usage, and protest route restrictions.",
  "organizers": [
-  "Snes-FSU",
-  "FSU-SNUipp",
-  "SE-Unsa",
-  "SNCF unions",
-  "DGAC unions"
+  "CGT",
+  "SNCF",
+  "RATP",
+  "FO",
+  "SUD Aérien",
+  "Unsa Aérien"
  ],
  "demands": [
-  "Better salaries and wages",
-  "Job preservation and creation",
-  "Support for public services",
-  "Measures regarding cost of living",
-  "Support for industry"
+  "Defend employment and industry",
+  "Improve salaries and purchasing power",
+  "Support public services",
+  "Address student expectations"
  ],
- "response": "According to news reports, the territorial intelligence service classified the mobilization as high risk due to anticipated violence and property damage. The Education Ministry estimated a 17.54% strike rate in the primary public sector.",
- "numbers": {},
+ "response": "Interior Minister Laurent Nunez ordered robust security measures, drone deployments, and restrictions on weapons and protective gear. The Paris police prefecture banned the original march route, permitting an alternative path.",
+ "numbers": {
+  "crowd": {
+   "value": 500000,
+   "text": "Between 500,000 and 700,000 people are expected to join nationwide demonstrations",
+   "sources": [
+    3
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-11-04",
-   "text": "Territorial intelligence reports estimated between 500,000 and 700,000 protesters would participate nationwide outside the Paris region.",
+   "text": "The Paris police prefecture banned the planned CGT march route, prompting unions to contest the restriction in court.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-04",
-   "text": "Rail and transport operators announced anticipated traffic disruptions ahead of the nationwide strike called by trade unions.",
+   "text": "Authorities and intelligence reports warned of high-risk protests, prompting the interior minister to deploy robust security measures.",
    "sources": [
+    1,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-04",
+   "text": "Transport operators including the SNCF and RATP announced expected disruptions for regional and suburban rail lines.",
+   "sources": [
+    1,
     2
    ]
   }
@@ -71,10 +86,10 @@
  "sources": [
   {
    "n": 1,
-   "url": "https://www.franceinfo.fr/societe/manifestations/mobilisation-du-5-novembre-une-journee-classee-a-risque-par-le-renseignement-territorial_8267621.html",
+   "url": "https://www.franceinfo.fr/societe/manifestations/le-ministere-de-l-education-nationale-estime-a-17-54-le-taux-de-grevistes-dans-le-premier-degre-public-pour-la-mobilisation-du-5-novembre_8267255.html",
    "publisher": "franceinfo.fr",
-   "title": "La journ&eacute;e de mobilisation du 5 novembre \"class&eacute;e &agrave; risque\" par le renseignement territorial",
-   "publishedAt": "2026-11-04T11:40:24.000Z"
+   "title": "DIRECT. Mobilisation du 5 novembre : le minist&egrave;re de l'Education nationale estime &agrave; 17,54% le taux de gr&eacute;vistes dans le premier degr&eacute; public jeudi",
+   "publishedAt": "2026-11-04T08:21:09.000Z"
   },
   {
    "n": 2,
@@ -82,27 +97,175 @@
    "publisher": "20minutes.fr",
    "title": "Transports, écoles… À quoi s’attendre pour la grève du 5 novembre ?",
    "publishedAt": "2026-11-04T12:56:45.354Z"
+  },
+  {
+   "n": 3,
+   "url": "https://aa.com.tr/en/europe/france-braces-for-high-risk-strike-day-as-up-to-700-000-protesters-expected/4111439",
+   "publisher": "aa.com.tr",
+   "title": "France braces for 'high-risk' strike day as up to 700,000 protesters expected",
+   "publishedAt": "2026-11-04T14:38:50.567Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.lefigaro.fr/social/manifestations-du-5-novembre-comment-les-syndicats-veulent-reprendre-la-main-20261104",
+   "publisher": "lefigaro.fr",
+   "title": "Manifestations du 5 novembre : comment les syndicats veulent reprendre la main",
+   "publishedAt": "2026-11-04T15:57:50.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 3,
+ "confidence": 0.86,
+ "publishers": 4,
+ "reports24h": 5,
  "reportsPrev24h": 0,
- "reports48h": 3,
+ "reports48h": 5,
  "firstSeenAt": "2026-11-04T10:13:16.542Z",
- "lastReportAt": "2026-11-04T12:56:45.354Z",
- "lastCheckedAt": "2026-11-04T13:58:44.134Z",
- "updatedAt": "2026-11-04T13:58:18.764Z",
+ "lastReportAt": "2026-11-04T15:57:50.000Z",
+ "lastCheckedAt": "2026-11-04T17:01:22.553Z",
+ "updatedAt": "2026-11-04T16:58:31.389Z",
  "searchedAt": "2026-11-04T13:48:49.927Z",
- "endedOn": "2026-11-05",
  "responseSources": [
   1,
-  2
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-04T13:58:18.764Z",
- "summaryOf": "6e70ab9af3df",
- "publishedAt": "2026-11-04T13:58:44.134Z"
+ "summarizedAt": "2026-11-04T16:58:31.389Z",
+ "summaryOf": "29201fca117a",
+ "publishedAt": "2026-11-04T13:58:44.134Z",
+ "i18n": {
+  "of": "eebb352623aede97",
+  "at": "2026-11-04T17:02:11.853Z",
+  "tries": 1,
+  "hi": {
+   "title": "फ्रांस में यूनियनों और छात्रों ने राष्ट्रव्यापी हड़ताल और विरोध प्रदर्शन की योजना बनाई",
+   "seoTitle": "पेरिस हड़ताल और विरोध प्रदर्शन",
+   "tea": {
+    "why": "प्रदर्शनकारी वेतन, रोजगार, जीवन यापन की लागत, सार्वजनिक सेवाओं और उद्योग संबंधी मांगों को लेकर लामबंद हो रहे हैं।",
+    "want": "वे बेहतर वेतन, रोजगार सुरक्षा, सुदृढ़ सार्वजनिक सेवाओं और छात्रों की अपेक्षाओं के प्रति उत्तर की मांग कर रहे हैं।",
+    "changed": "4 नवंबर: पेरिस पुलिस प्रीफेक्चर ने बैस्टिल से कॉनकॉर्ड तक CGT के प्रारंभिक मार्ग पर प्रतिबंध लगा दिया, जिसके चलते यूनियनों ने प्रशासनिक अदालत में इस निर्णय को चुनौती दी।"
+   },
+   "summary": "मजदूर यूनियनें, सेवानिवृत्त नागरिक, सार्वजनिक और निजी क्षेत्र के कर्मचारी, छात्र और युवा संगठन पूरे फ्रांस में राष्ट्रव्यापी हड़ताल और प्रदर्शन के दिन की तैयारी कर रहे हैं। आयोजकों का उद्देश्य रोजगार, वेतन, क्रय शक्ति और सार्वजनिक सेवाओं से संबंधित सामाजिक शिकायतों को एक मंच पर लाना है। पेरिस में, CGT द्वारा प्रस्तुत प्रारंभिक मार्ग को पुलिस प्रीफेक्चर द्वारा प्रतिबंधित कर दिया गया था, हालांकि रिपब्लिक और नेशन के बीच एक वैकल्पिक मार्ग को अधिकृत किया गया, जिससे ट्रेड यूनियनों ने कानूनी चुनौती दी। परिवहन नेटवर्क में महत्वपूर्ण व्यवधानों की आशंका है, जिससे क्षेत्रीय रेल, उपनगरीय लाइनें और कुछ हवाई तथा समुद्री सेवाएं प्रभावित होंगी। प्रादेशिक खुफिया रिपोर्टों और आंतरिक मंत्रालय के अधिकारियों ने लामबंदी को उच्च जोखिम वाला वर्गीकृत किया है, जिसके कारण सुरक्षा की कड़ी तैनाती, ड्रोन का उपयोग और विरोध मार्ग पर प्रतिबंध लगाए गए हैं।",
+   "demands": [
+    "रोजगार और उद्योग की रक्षा करें",
+    "वेतन और क्रय शक्ति में सुधार करें",
+    "सार्वजनिक सेवाओं का समर्थन करें",
+    "छात्रों की अपेक्षाओं को पूरा करें"
+   ],
+   "response": "आंतरिक मंत्री लॉरेंट नुनेज़ ने कड़ी सुरक्षा उपायों, ड्रोन तैनाती और हथियारों तथा सुरक्षात्मक उपकरणों पर प्रतिबंध का आदेश दिया। पेरिस पुलिस प्रीफेक्चर ने मूल मार्च मार्ग पर प्रतिबंध लगा दिया और एक वैकल्पिक मार्ग की अनुमति दी।",
+   "updates": [
+    "पेरिस पुलिस प्रीफेक्चर ने नियोजित CGT मार्च मार्ग पर प्रतिबंध लगा दिया, जिससे यूनियनों ने अदालत में प्रतिबंध को चुनौती दी।",
+    "अधिकारियों और खुफिया रिपोर्टों ने उच्च जोखिम वाले विरोध प्रदर्शनों की चेतावनी दी, जिसके चलते आंतरिक मंत्री ने कड़ी सुरक्षा उपायों को तैनात किया।",
+    "SNCF और RATP सहित परिवहन ऑपरेटरों ने क्षेत्रीय और उपनगरीय रेल लाइनों के लिए संभावित व्यवधानों की घोषणा की।"
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "राष्ट्रव्यापी प्रदर्शनों में 500,000 से 700,000 लोगों के शामिल होने की उम्मीद है"
+   }
+  },
+  "mr": {
+   "title": "फ्रान्समध्ये युनियन आणि विद्यार्थ्यांकडून देशव्यापी संप आणि निदर्शनांचे नियोजन",
+   "seoTitle": "पॅरिस संप आणि निदर्शने",
+   "tea": {
+    "why": "निदर्शक वेतन, रोजगार, राहणीमानाचा खर्च, सार्वजनिक सेवा आणि उद्योगांच्या मागण्यांसाठी एकत्र येत आहेत.",
+    "want": "त्यांची मागणी उत्तम वेतन, रोजगार सुरक्षा, बळकट सार्वजनिक सेवा आणि विद्यार्थ्यांच्या अपेक्षा पूर्ण करण्याची आहे.",
+    "changed": "४ नोव्हेंबर: पॅरिस पोलीस प्रीफेक्चरने बॅस्टिल ते कॉनकॉर्डपर्यंतच्या CGT च्या मूळ मार्गावर बंदी घातली, ज्यामुळे युनियननी प्रशासकीय न्यायालयात या निर्णयाला आव्हान दिले."
+   },
+   "summary": "कामगार संघटना, निवृत्त नागरिक, सार्वजनिक आणि खाजगी क्षेत्रातील कर्मचारी, विद्यार्थी आणि युवा संघटना संपूर्ण फ्रान्समध्ये देशव्यापी संप आणि निदर्शनांच्या दिवसाची तयारी करत आहेत. आयोजकांचे उद्दिष्ट रोजगार, वेतन, क्रयशक्ती आणि सार्वजनिक सेवांशी संबंधित सामाजिक तक्रारींना एकत्र आणणे आहे. पॅरिसमध्ये, CGT ने सादर केलेला मूळ मार्ग पोलीस प्रीफेक्चरने प्रतिबंधित केला होता, तरीही रिपब्लिक आणि नेशन दरम्यानच्या पर्यायी मार्गाला मंजुरी देण्यात आली, ज्यामुळे कामगार संघटनांनी कायदेशीर आव्हान दिले. वाहतूक नेटवर्कमध्ये मोठ्या व्यत्ययाची शक्यता आहे, ज्याचा परिणाम प्रादेशिक रेल्वे, उपनगरीय मार्ग आणि काही हवाई व सागरी सेवांवर होईल. प्रादेशिक गुप्तचर अहवाल आणि गृह मंत्रालयाच्या अधिकाऱ्यांनी या आंदोलनाला उच्च-जोखीम म्हणून वर्गीकृत केले आहे, ज्यामुळे कडक सुरक्षा तैनात करणे, ड्रोनचा वापर आणि निदर्शनांच्या मार्गावर निर्बंध लादण्यात आले आहेत.",
+   "demands": [
+    "रोजगार आणि उद्योगाचे रक्षण करा",
+    "पगार आणि क्रयशक्ती सुधारा",
+    "सार्वजनिक सेवांना पाठिंबा द्या",
+    "विद्यार्थ्यांच्या अपेक्षा पूर्ण करा"
+   ],
+   "response": "गृहमंत्री लॉरेंट नुनेझ यांनी कडक सुरक्षा उपाय, ड्रोन तैनात करणे आणि शस्त्रे व संरक्षणात्मक उपकरणांवर निर्बंधांचे आदेश दिले. पॅरिस पोलीस प्रीफेक्चरने मूळ मोर्चा मार्गावर बंदी घालून पर्यायी मार्गाला परवानगी दिली.",
+   "updates": [
+    "पॅरिस पोलीस प्रीफेक्चरने नियोजित CGT मोर्चा मार्गावर बंदी घातली, ज्यामुळे युनियननी न्यायालयात या निर्बंधाला आव्हान दिले.",
+    "अधिकारी आणि गुप्तचर अहवालांनी उच्च-जोखीम निदर्शनांचा इशारा दिला, ज्यामुळे गृहमंत्र्यांनी कडक सुरक्षा उपाय तैनात केले.",
+    "SNCF आणि RATP सह वाहतूक ऑपरेटरनी प्रादेशिक आणि उपनगरीय रेल्वे मार्गांवर व्यत्यय येण्याची शक्यता वर्तवली आहे."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "देशव्यापी निदर्शनांमध्ये ५,००,००० ते ७,००,००० लोक सहभागी होण्याची अपेक्षा आहे"
+   }
+  },
+  "es": {
+   "title": "Sindicatos y estudiantes planean una huelga y protestas a nivel nacional en Francia",
+   "seoTitle": "Huelga y protestas en París",
+   "tea": {
+    "why": "Los manifestantes se movilizan por los salarios, el empleo, el costo de vida, los servicios públicos y las demandas de la industria.",
+    "want": "Exigen mejores salarios, seguridad laboral, servicios públicos reforzados y respuestas a las expectativas de los estudiantes.",
+    "changed": "4 de noviembre: La prefectura de policía de París prohibió la ruta inicial de la CGT desde Bastilla hasta Concordia, lo que llevó a los sindicatos a impugnar la decisión en el tribunal administrativo."
+   },
+   "summary": "Sindicatos laborales, ciudadanos jubilados, empleados del sector público y privado, estudiantes y organizaciones juveniles se preparan para una jornada nacional de huelgas y manifestaciones en toda Francia. Los organizadores buscan converger las quejas sociales sobre el empleo, los salarios, el poder adquisitivo y los servicios públicos. En París, la ruta inicial presentada por la CGT fue prohibida por la prefectura de policía, aunque se autorizó una ruta alternativa entre República y Nación, lo que provocó un desafío legal por parte de los sindicatos. Las redes de transporte anticipan interrupciones significativas, afectando el ferrocarril regional, las líneas suburbanas y algunos servicios aéreos y marítimos. Los informes de inteligencia territorial y los funcionarios del ministerio del interior clasificaron la movilización como de alto riesgo, lo que llevó a despliegues de seguridad robustos, uso de drones y restricciones en las rutas de protesta.",
+   "demands": [
+    "Defender el empleo y la industria",
+    "Mejorar los salarios y el poder adquisitivo",
+    "Apoyar los servicios públicos",
+    "Abordar las expectativas de los estudiantes"
+   ],
+   "response": "El ministro del Interior, Laurent Nunez, ordenó medidas de seguridad robustas, despliegues de drones y restricciones sobre armas y equipo de protección. La prefectura de policía de París prohibió la ruta de marcha original, permitiendo un camino alternativo.",
+   "updates": [
+    "La prefectura de policía de París prohibió la ruta de marcha planificada de la CGT, lo que llevó a los sindicatos a impugnar la restricción en los tribunales.",
+    "Las autoridades y los informes de inteligencia advirtieron sobre protestas de alto riesgo, lo que llevó al ministro del interior a desplegar medidas de seguridad robustas.",
+    "Los operadores de transporte, incluidos SNCF y RATP, anunciaron interrupciones esperadas para las líneas ferroviarias regionales y suburbanas."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "Se espera que entre 500,000 y 700,000 personas se unan a las manifestaciones a nivel nacional"
+   }
+  },
+  "fr": {
+   "title": "Les syndicats et les étudiants prévoient une grève et des manifestations nationales en France",
+   "seoTitle": "Grève et manifestations à Paris",
+   "tea": {
+    "why": "Les manifestants se mobilisent sur les salaires, l'emploi, le coût de la vie, les services publics et les revendications industrielles.",
+    "want": "Ils exigent de meilleurs salaires, la sécurité de l'emploi, des services publics renforcés et des réponses aux attentes des étudiants.",
+    "changed": "4 novembre : La préfecture de police de Paris a interdit l'itinéraire initial de la CGT de Bastille à Concorde, conduisant les syndicats à contester la décision devant le tribunal administratif."
+   },
+   "summary": "Les syndicats, les citoyens retraités, les employés du secteur public et privé, les étudiants et les organisations de jeunesse se préparent à une journée nationale de grèves et de manifestations à travers la France. Les organisateurs visent à faire converger les griefs sociaux concernant l'emploi, les salaires, le pouvoir d'achat et les services publics. À Paris, l'itinéraire initial soumis par la CGT a été interdit par la préfecture de police, bien qu'un itinéraire alternatif entre République et Nation ait été autorisé, provoquant une contestation juridique de la part des syndicats. Les réseaux de transport anticipent des perturbations importantes, affectant le rail régional, les lignes de banlieue et certains services aériens et maritimes. Les rapports de renseignement territorial et les responsables du ministère de l'Intérieur ont classé la mobilisation comme à haut risque, entraînant des déploiements de sécurité robustes, l'utilisation de drones et des restrictions sur les itinéraires de manifestation.",
+   "demands": [
+    "Défendre l'emploi et l'industrie",
+    "Améliorer les salaires et le pouvoir d'achat",
+    "Soutenir les services publics",
+    "Répondre aux attentes des étudiants"
+   ],
+   "response": "Le ministre de l'Intérieur, Laurent Nunez, a ordonné des mesures de sécurité robustes, des déploiements de drones et des restrictions sur les armes et les équipements de protection. La préfecture de police de Paris a interdit l'itinéraire de marche original, autorisant un chemin alternatif.",
+   "updates": [
+    "La préfecture de police de Paris a interdit l'itinéraire de marche prévu de la CGT, incitant les syndicats à contester la restriction devant le tribunal.",
+    "Les autorités et les rapports de renseignement ont mis en garde contre des manifestations à haut risque, incitant le ministre de l'Intérieur à déployer des mesures de sécurité robustes.",
+    "Les opérateurs de transport, dont la SNCF et la RATP, ont annoncé des perturbations attendues sur les lignes ferroviaires régionales et de banlieue."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "Entre 500 000 et 700 000 personnes sont attendues pour rejoindre les manifestations nationales"
+   }
+  },
+  "de": {
+   "title": "Gewerkschaften und Studenten planen landesweiten Streik und Proteste in Frankreich",
+   "seoTitle": "Streik und Proteste in Paris",
+   "tea": {
+    "why": "Die Demonstranten mobilisieren sich wegen Löhnen, Beschäftigung, Lebenshaltungskosten, öffentlichen Dienstleistungen und industriellen Forderungen.",
+    "want": "Sie fordern bessere Löhne, Beschäftigungssicherheit, gestärkte öffentliche Dienste und Antworten auf die Erwartungen der Studenten.",
+    "changed": "4. November: Die Pariser Polizeipräfektur verbot die ursprüngliche Route der CGT von Bastille nach Concorde, was die Gewerkschaften dazu veranlasste, die Entscheidung vor dem Verwaltungsgericht anzufechten."
+   },
+   "summary": "Gewerkschaften, Rentner, Beschäftigte des öffentlichen und privaten Sektors, Studenten und Jugendorganisationen bereiten sich auf einen landesweiten Tag der Streiks und Demonstrationen in ganz Frankreich vor. Die Organisatoren wollen soziale Beschwerden über Beschäftigung, Löhne, Kaufkraft und öffentliche Dienste zusammenführen. In Paris wurde die von der CGT eingereichte ursprüngliche Route von der Polizeipräfektur verboten, obwohl eine alternative Route zwischen République und Nation genehmigt wurde, was zu einer rechtlichen Anfechtung durch die Gewerkschaften führte. Die Verkehrsnetze erwarten erhebliche Störungen, die den Regionalverkehr, Vorortlinien sowie einige Luft- und Seeverkehrsdienste betreffen werden. Berichte des territorialen Nachrichtendienstes und Beamte des Innenministeriums stufen die Mobilisierung als risikoreich ein, was zu robusten Sicherheitseinsätzen, Drohneneinsätzen und Einschränkungen der Protestrouten führte.",
+   "demands": [
+    "Beschäftigung und Industrie verteidigen",
+    "Löhne und Kaufkraft verbessern",
+    "Öffentliche Dienste unterstützen",
+    "Auf die Erwartungen der Studenten eingehen"
+   ],
+   "response": "Innenminister Laurent Nunez ordnete robuste Sicherheitsmaßnahmen, Drohneneinsätze sowie Beschränkungen für Waffen und Schutzausrüstung an. Die Pariser Polizeipräfektur verbot die ursprüngliche Marschroute und genehmigte einen alternativen Weg.",
+   "updates": [
+    "Die Pariser Polizeipräfektur verbot die geplante CGT-Marschroute, was die Gewerkschaften dazu veranlasste, die Einschränkung vor Gericht anzufechten.",
+    "Behörden und Geheimdienstberichte warnten vor risikoreichen Protesten, was den Innenminister dazu veranlasste, robuste Sicherheitsmaßnahmen einzusetzen.",
+    "Verkehrsbetriebe, darunter SNCF und RATP, kündigten erwartete Störungen für regionale und vorstädtische Bahnlinien an."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "Zwischen 500.000 und 700.000 Menschen werden bei den landesweiten Demonstrationen erwartet"
+   }
+  }
+ }
 }

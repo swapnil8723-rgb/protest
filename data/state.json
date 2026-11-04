@@ -1,35 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-04",
-  "count": 119
+  "count": 153
  },
  "runs": [
-  {
-   "at": "2026-10-29T03:33:43.465Z",
-   "ms": 235561,
-   "discovered": 52,
-   "fetched": 48,
-   "classified": 37,
-   "protests": 12,
-   "summarized": 9,
-   "published": 229,
-   "live": 24,
-   "aiCalls": 22,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 10 files, 28 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 216 protest-word items",
-    "search: 4 single-source stories checked, 5 other newsrooms found",
-    "fetch: 48 ok, 4 failed",
-    "classify: new candidate e475bdbb5dd \"Protesters disrupt Turning Point USA event at University of Oregon\" (Eugene)",
-    "classify: new candidate edf27858bb2 \"Health-care workers rally outside Saskatchewan legislature\" (Regina)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 9 events"
-   ],
-   "translated": 9
-  },
   {
    "at": "2026-10-29T03:41:36.317Z",
    "ms": 303923,
@@ -1665,8 +1639,38 @@
     "translate: ef0424f97b3 failed: The operation was aborted due to timeout",
     "translate: stopped: run time cap 13 min reached"
    ]
+  },
+  {
+   "at": "2026-11-04T16:50:35.882Z",
+   "ms": 787389,
+   "discovered": 106,
+   "fetched": 93,
+   "classified": 75,
+   "protests": 32,
+   "summarized": 13,
+   "published": 335,
+   "live": 14,
+   "aiCalls": 34,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 47 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss news.err.ee: 403",
+    "rss: 185 protest-word items",
+    "search: 25 single-source stories checked (7 in their own language), 28 other newsrooms found",
+    "fetch: 93 ok, 13 failed",
+    "classify: new candidate ebdd8454427 \"Students occupy lecture hall in Kassel against civil clause abolition\" (Kassel)",
+    "classify: new candidate e793ec83477 \"Pugalur municipality chairman and councillors protest stalled development\" (Karur)",
+    "classify: new candidate ec180e88b63 \"Supporters plan large rally in Frankfurt for Reza Pahlavi\" (Frankfurt am Main)",
+    "classify: new candidate ed32afd699e \"Palestine Action co-founder challenges terrorist ban in supreme court\" (London)",
+    "classify: new candidate eef691b9ccc \"BJP announces statewide protest in Karnataka against bus fare hike\" (Bengaluru)",
+    "classify: new candidate e27cace65fa \"BJP announces save democracy rally in Mangaluru\" (Mangaluru)",
+    "summary: e5388bd9a60 only 1 independent publisher(s) on-story — not applied",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: stopped: run time cap 13 min reached"
+   ]
   }
  ],
- "gdeltCursor": "20261104134500",
- "lastRunAt": "2026-11-04T13:48:41.726Z"
+ "gdeltCursor": "20261104164500",
+ "lastRunAt": "2026-11-04T16:50:35.882Z"
 }
