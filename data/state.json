@@ -1,38 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-04",
-  "count": 95
+  "count": 119
  },
  "runs": [
-  {
-   "at": "2026-10-29T01:00:37.416Z",
-   "ms": 135519,
-   "discovered": 34,
-   "fetched": 33,
-   "classified": 29,
-   "protests": 10,
-   "summarized": 4,
-   "published": 229,
-   "live": 25,
-   "aiCalls": 10,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 7 files, 24 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 214 protest-word items",
-    "search: 7 single-source stories checked, 7 other newsrooms found",
-    "fetch: 33 ok, 1 failed",
-    "classify: new candidate e04ce13c8c2 \"Residents rally against ICE in Woodland\" (Woodland)",
-    "classify: new candidate ede2ce48d1d \"Students march in Coimbra against tuition fee hikes\" (Coimbra)",
-    "classify: new candidate e5fecb9c1e2 \"Rutland hospital staff rally for contract\" (Rutland)",
-    "classify: new candidate ec65f404c5b \"TVNZ staff strike and picket over pay\" (Auckland)",
-    "classify: new candidate ecb61abbf7b \"Striking youth justice and child safety workers protest in Brisbane\" (Brisbane)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 3 events"
-   ],
-   "translated": 3
-  },
   {
    "at": "2026-10-29T03:33:43.465Z",
    "ms": 235561,
@@ -1660,8 +1631,42 @@
     "translate: 9 events"
    ],
    "translated": 9
+  },
+  {
+   "at": "2026-11-04T13:48:41.726Z",
+   "ms": 780722,
+   "discovered": 104,
+   "fetched": 91,
+   "classified": 76,
+   "protests": 27,
+   "summarized": 13,
+   "published": 332,
+   "live": 17,
+   "aiCalls": 24,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 14 files, 55 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 183 protest-word items",
+    "search: 25 single-source stories checked (7 in their own language), 18 other newsrooms found",
+    "fetch: 91 ok, 13 failed",
+    "classify: new candidate e6d940a88c6 \"Havells workers protest at Alwar manufacturing facility\" (Alwar)",
+    "classify: new candidate e8ea120b28b \"Relatives and villagers protest outside Pune court over death\" (Pune)",
+    "classify: new candidate ec071e5b2bb \"Iranians burn flags and rally on 1979 embassy takeover anniversary\" (Tehran)",
+    "classify: new candidate e2aa6b0523f \"Locals campaign against data centre project\" (Great Torrington)",
+    "classify: new candidate edff6272130 \"Pro-Kannada activists visit Bengaluru Google office for local jobs\" (Bengaluru)",
+    "classify: new candidate e46d8fb7a6b \"IG Metall warning strikes in Berlin and Brandenburg\" (Berlin)",
+    "classify: new candidate e94c17c97f1 \"Demonstrators protest trans rights outside Harry Potter shop\" (London)",
+    "classify: new candidate e8ed99add43 \"BJP holds Save Democracy march in Hamirpur\" (Hamirpur)",
+    "classify: new candidate e7b73dd26f6 \"Journalists observe Black Day in Balochistan over media challenges\" (Quetta)",
+    "classify: new candidate e51e619b0f8 \"BJP save democracy rally in Jamshedpur\" (Jamshedpur)",
+    "classify: new candidate edfea7a3bea \"Teachers protest and march in Karachi\" (Karachi)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: ef0424f97b3 failed: The operation was aborted due to timeout",
+    "translate: stopped: run time cap 13 min reached"
+   ]
   }
  ],
- "gdeltCursor": "20261104101500",
- "lastRunAt": "2026-11-04T10:10:41.662Z"
+ "gdeltCursor": "20261104134500",
+ "lastRunAt": "2026-11-04T13:48:41.726Z"
 }
