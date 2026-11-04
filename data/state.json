@@ -1,40 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-04",
-  "count": 183
+  "count": 201
  },
  "runs": [
-  {
-   "at": "2026-10-29T06:49:33.531Z",
-   "ms": 321941,
-   "discovered": 68,
-   "fetched": 61,
-   "classified": 51,
-   "protests": 20,
-   "summarized": 8,
-   "published": 233,
-   "live": 24,
-   "aiCalls": 20,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 12 files, 32 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 221 protest-word items",
-    "search: 25 single-source stories checked (3 in their own language), 17 other newsrooms found",
-    "fetch: 61 ok, 7 failed",
-    "classify: new candidate e629bafeb81 \"Bundesschuelerkonferenz plans school protest in Berlin\" (Berlin)",
-    "classify: new candidate eb7a41056c3 \"Youth movement plans Gen Z protest in Magdeburg\" (Magdeburg)",
-    "classify: new candidate e4651e528ad \"BHU students march demanding restoration of elected union\" (Varanasi)",
-    "classify: new candidate e2fe8a4cf7d \"PSP and GNR police associations protest in Lisbon for better salaries\" (Lisbon)",
-    "classify: new candidate ef05ada99e3 \"Housing rights protests reach the Azores\" (Ponta Delgada)",
-    "classify: new candidate ef8d0409f20 \"Gen Z youth plan nationwide demonstrations on cost of living and education\" (Hannover)",
-    "classify: new candidate e1e0639bea8 \"Chico State faculty rally during strike vote\" (Chico)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-29T09:50:32.534Z",
    "ms": 548101,
@@ -1679,8 +1648,36 @@
     "translate: 11 events"
    ],
    "translated": 11
+  },
+  {
+   "at": "2026-11-04T23:08:11.244Z",
+   "ms": 302136,
+   "discovered": 50,
+   "fetched": 46,
+   "classified": 31,
+   "protests": 13,
+   "summarized": 7,
+   "published": 339,
+   "live": 14,
+   "aiCalls": 18,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 29 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.bostonglobe.com: 404",
+    "rss: 174 protest-word items",
+    "search: 25 single-source stories checked (7 in their own language), 23 other newsrooms found",
+    "fetch: 46 ok, 4 failed",
+    "classify: new candidate e6ac9a2801f \"Tribals arrested during land port protest in Alipurduar\" (Alipur Duar)",
+    "classify: new candidate ee24ac6edce \"Students march against sexual violence in Madison\" (Madison)",
+    "classify: new candidate ee6222bd341 \"IG Metall workers stage warning strikes across Bavaria\" (Munich)",
+    "classify: new candidate e0c08a76b62 \"BJP holds Save Democracy rally in Lucknow\" (Lucknow)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 6 events"
+   ],
+   "translated": 6
   }
  ],
- "gdeltCursor": "20261104201500",
- "lastRunAt": "2026-11-04T20:15:51.936Z"
+ "gdeltCursor": "20261104231500",
+ "lastRunAt": "2026-11-04T23:08:11.244Z"
 }
