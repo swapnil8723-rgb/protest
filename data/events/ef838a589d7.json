@@ -13,7 +13,7 @@
   "citySlug": "hildesheim",
   "regionSlug": "lower-saxony"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "labour"
  ],
@@ -22,62 +22,71 @@
  "status": "ongoing",
  "vibe": "cooling-down",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Workers are protesting after the collective bargaining peace obligation ended and the second round of negotiations stalled.",
-  "want": "Protesters are demanding a 5 percent increase in wages and training allowances over a 12-month term.",
-  "changed": "Nov 2: IG Metall reported that more than 2,000 workers participated in warning strikes across Lower Saxony, including Hildesheim."
+  "why": "Protesters reject the employers' collective bargaining offer, citing low pay increases and long contract durations amid inflation.",
+  "want": "Workers demand a 5 percent pay and apprenticeship allowance increase over a twelve-month duration, along with better social components.",
+  "changed": "Nov 2: IG Metall reported more than 2,000 workers across Lower Saxony joining strikes, including employees from Bosch and ZF in Hildesheim."
  },
- "summary": "Following the expiration of the collective bargaining peace obligation in the metal and electrical industry, the IG Metall union launched warning strikes across Lower Saxony, including Hildesheim. In Hildesheim, approximately 300 employees gathered outside the KSM Castings automotive supplier plant during a midnight assembly, with additional actions involving workers from Bosch and ZF. The union rejected an employer counter-offer featuring a one-time payment and a 1.3 percent wage increase starting in July 2028, denouncing it as a provocation and a recipe for real wage loss. The union demands a 5 percent pay increase over a twelve-month period. Employers through NiedersachsenMetall rejected the criticism, stating that the current economic situation does not allow for a higher offer.",
+ "summary": "Following the expiration of the industrial peace period, the IG Metall trade union launched warning strikes across Lower Saxony, including actions starting at midnight outside the KSM Castings plant in Hildesheim where around 300 employees gathered. The industrial action followed a stalled second round of tariff negotiations after employers presented an offer involving a 1.3 percent pay increase delayed until July 2028 and a one-time payment. Union representatives criticized the proposal as insufficient and demanded a 5 percent wage increase over twelve months. The employers' association, NiedersachsenMetall, responded that the current economic situation does not allow for a higher offer.",
  "organizers": [
-  "IG Metall"
+  "IG Metall",
+  "IG Metall Alfeld-Hameln-Hildesheim"
  ],
  "demands": [
-  "Five percent more pay with a twelve-month term",
-  "Five percent higher training allowances with a twelve-month term"
+  "Five percent more pay for employees and trainees",
+  "Twelve-month contract duration",
+  "Social component favoring lower wage groups",
+  "Job security measures",
+  "Company profit-sharing schemes"
  ],
- "response": "The employers' association NiedersachsenMetall rejected the union's criticism, stating that the current economic climate leaves no room for a higher offer and noting that the industry has faced challenges since 2018.",
+ "response": "The employers' association NiedersachsenMetall rejected the union's criticism, stating that the current economic climate leaves no room for a higher wage offer.",
  "numbers": {
   "crowd": {
    "value": 300,
    "text": "rund 300 Beschäftigte",
    "sources": [
-    1
+    2
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-01",
-   "text": "IG Metall opened work stoppages with a midnight assembly outside the KSM Castings plant in Hildesheim with about 300 participants.",
+   "text": "IG Metall initiated the strike phase with a midnight gathering of around 300 employees at the KSM Castings plant in Hildesheim.",
    "sources": [
-    1
+    1,
+    2
    ]
   },
   {
    "at": "2026-11-02",
-   "text": "IG Metall stated that over 2,000 workers joined warning strikes across Lower Saxony, with further actions planned in Hildesheim and other cities.",
+   "text": "The union reported that more than 2,000 metallurgical workers laid down work across Lower Saxony, including staff from Bosch and ZF in Hildesheim.",
    "sources": [
-    1,
-    2
+    3
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.tixio.de/1352008-ig-metall-laeutet-friedenspflicht-bei-ksm-in-hildesheim-aus.html",
+   "publisher": "tixio.de",
+   "title": "News, Niedersachsen, Regional: IG Metall läutet Friedenspflicht bei KSM in Hildesheim aus - tixio",
+   "publishedAt": "2026-10-30T06:44:55.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://www.ndr.de/nachrichten/niedersachsen/ab-heute-warnstreiks-in-metall-und-elektroindustrie,tarifverhandlungen-164.html",
    "publisher": "ndr.de",
    "title": "Friedenspflicht in der Metall- und Elektroindustrie endet: In Niedersachsen gibt es Warnstreiks",
    "publishedAt": "2026-11-02T08:46:48.077Z"
   },
   {
-   "n": 2,
+   "n": 3,
    "url": "https://www.sueddeutsche.de/wirtschaft/friedenspflicht-abgelaufen-mehr-als-2-000-metall-beschaeftigte-legen-arbeit-nieder-dpa.urn-newsml-dpa-com-20090101-261102-930-933263",
    "publisher": "sueddeutsche.de",
    "title": "Mehr als 2.000 Metall-Beschäftigte legen Arbeit nieder",
@@ -85,137 +94,153 @@
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
+ "confidence": 0.8,
+ "publishers": 3,
  "reports24h": 0,
  "reportsPrev24h": 2,
  "reports48h": 2,
  "firstSeenAt": "2026-11-01T12:22:34.383Z",
  "lastReportAt": "2026-11-02T16:01:55.000Z",
- "lastCheckedAt": "2026-11-04T02:23:35.772Z",
- "updatedAt": "2026-11-03T00:51:21.453Z",
+ "lastCheckedAt": "2026-11-04T05:14:29.582Z",
+ "updatedAt": "2026-11-04T05:14:23.089Z",
  "searchedAt": "2026-11-02T06:49:42.072Z",
  "responseSources": [
-  1
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-03T00:51:21.453Z",
- "summaryOf": "ce3970dc8f07",
+ "summarizedAt": "2026-11-04T05:14:23.089Z",
+ "summaryOf": "1b0b841087c6",
  "publishedAt": "2026-11-03T00:51:22.325Z",
  "i18n": {
-  "of": "05c129b3443e4350",
-  "at": "2026-11-03T00:52:04.494Z",
+  "of": "7c52c21c19d928be",
+  "at": "2026-11-04T05:15:14.688Z",
   "tries": 1,
   "hi": {
-   "title": "IG Metall ने हिल्डेशेम में चेतावनी हड़तालें शुरू कीं",
-   "seoTitle": "हिल्डेशेम IG Metall चेतावनी हड़तालें",
+   "title": "IG मेटल ने हिल्डेशहाइम में चेतावनी हड़तालें शुरू कीं",
+   "seoTitle": "हिल्डेशहाइम IG मेटल चेतावनी हड़ताल",
    "tea": {
-    "why": "सामूहिक सौदेबाजी शांति दायित्व समाप्त होने और दूसरे दौर की वार्ताओं के रुक जाने के बाद श्रमिक विरोध प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शक 12 महीने की अवधि के लिए वेतन और प्रशिक्षण भत्तों में 5 प्रतिशत की वृद्धि की मांग कर रहे हैं।",
-    "changed": "2 नवंबर: IG Metall ने बताया कि हिल्डेशेम सहित लोअर सैक्सनी में चेतावनी हड़तालों में 2,000 से अधिक श्रमिकों ने भाग लिया।"
+    "why": "प्रदर्शनकारियों ने नियोक्ताओं के सामूहिक सौदेबाजी के प्रस्ताव को खारिज कर दिया, और मुद्रास्फीति के बीच कम वेतन वृद्धि तथा लंबे अनुबंध अवधियों का हवाला दिया।",
+    "want": "श्रमिक बारह महीने की अवधि के लिए 5 प्रतिशत वेतन और शिक्षुता भत्ता वृद्धि के साथ-साथ बेहतर सामाजिक घटकों की मांग करते हैं।",
+    "changed": "2 नवंबर: IG मेटल ने बताया कि बॉश और हिल्डेशहाइम में ZF के कर्मचारियों सहित लोअर सैक्सनी में 2,000 से अधिक श्रमिकों ने हड़तालों में भाग लिया।"
    },
-   "summary": "धातु और विद्युत उद्योग में सामूहिक सौदेबाजी शांति दायित्व की समाप्ति के बाद, IG Metall यूनियन ने हिल्डेशेम सहित लोअर सैक्सनी में चेतावनी हड़तालें शुरू कर दीं। हिल्डेशेम में, लगभग 300 कर्मचारी KSM Castings ऑटोमोटिव आपूर्तिकर्ता संयंत्र के बाहर एक मध्यरात्रि सभा के दौरान एकत्र हुए, जिसमें बॉश और ZF के श्रमिकों से जुड़ी अतिरिक्त कार्रवाई भी शामिल थीं। यूनियन ने एकमुश्त भुगतान और जुलाई 2028 से शुरू होने वाली 1.3 प्रतिशत वेतन वृद्धि वाले नियोक्ता के प्रति-प्रस्ताव को खारिज कर दिया, और इसे एक उकसावे तथा वास्तविक वेतन नुकसान का नुस्खा करार दिया। यूनियन बारह महीने की अवधि के लिए 5 प्रतिशत वेतन वृद्धि की मांग करती है। NiedersachsenMetall के माध्यम से नियोक्ताओं ने आलोचना को खारिज करते हुए कहा कि मौजूदा आर्थिक स्थिति उच्च प्रस्ताव की अनुमति नहीं देती है।",
+   "summary": "औद्योगिक शांति अवधि की समाप्ति के बाद, IG मेटल ट्रेड यूनियन ने लोअर सैक्सनी में चेतावनी हड़तालें शुरू कीं, जिसमें हिल्डेशहाइम में KSM कास्टिंग्स प्लांट के बाहर आधी रात को शुरू हुई कार्रवाइयां शामिल थीं, जहां लगभग 300 कर्मचारी एकत्र हुए। यह औद्योगिक कार्रवाई नियोक्ताओं द्वारा 1.3 प्रतिशत वेतन वृद्धि और एकमुश्त भुगतान वाले प्रस्ताव को प्रस्तुत करने के बाद दूसरे दौर की тариф (टैरिफ) वार्ताओं के विफल होने के बाद हुई। यूनियन प्रतिनिधियों ने प्रस्ताव को अपर्याप्त बताया और बारह महीनों में 5 प्रतिशत वेतन वृद्धि की मांग की। नियोक्ता संघ, नीडरसैक्सनमेटल ने जवाब दिया कि वर्तमान आर्थिक स्थिति उच्च प्रस्ताव की अनुमति नहीं देती है।",
    "demands": [
-    "बारह महीने की अवधि के साथ पांच प्रतिशत अधिक वेतन",
-    "बारह महीने की अवधि के साथ पांच प्रतिशत अधिक प्रशिक्षण भत्ते"
+    "कर्मचारियों और प्रशिक्षुओं के लिए पांच प्रतिशत अधिक वेतन",
+    "बारह महीने की अनुबंध अवधि",
+    "कम वेतन समूहों के पक्ष में सामाजिक घटक",
+    "नौकरी सुरक्षा उपाय",
+    "कंपनी लाभ-साझाकरण योजनाएं"
    ],
-   "response": "नियोक्ता संघ NiedersachsenMetall ने यूनियन की आलोचना को खारिज करते हुए कहा कि मौजूदा आर्थिक माहौल में उच्च प्रस्ताव के लिए कोई गुंजाइश नहीं है और यह नोट किया कि उद्योग को 2018 से चुनौतियों का सामना करना पड़ा है।",
+   "response": "नियोक्ता संघ नीडरसैक्सनमेटल ने यूनियन की आलोचना को खारिज करते हुए कहा कि वर्तमान आर्थिक माहौल में उच्च वेतन प्रस्ताव के लिए कोई गुंजाइश नहीं है।",
    "updates": [
-    "IG Metall ने हिल्डेशेम में KSM Castings संयंत्र के बाहर लगभग 300 प्रतिभागियों के साथ एक मध्यरात्रि सभा के साथ काम बंद करने की शुरुआत की।",
-    "IG Metall ने कहा कि लोअर सैक्सनी में चेतावनी हड़तालों में 2,000 से अधिक श्रमिक शामिल हुए, तथा हिल्डेशेम और अन्य शहरों में और अधिक कार्रवाइयां नियोजित हैं।"
+    "IG मेटल ने हिल्डेशहाइम में KSM कास्टिंग्स प्लांट में लगभग 300 कर्मचारियों की आधी रात की सभा के साथ हड़ताल चरण की शुरुआत की।",
+    "यूनियन ने बताया कि लोअर सैक्सनी में 2,000 से अधिक धातु श्रमिकों ने काम बंद कर दिया, जिसमें हिल्डेशहाइम में बॉश और ZF के कर्मचारी भी शामिल थे।"
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "rund 300 Beschäftigte"
+    "crowd": "लगभग 300 कर्मचारी"
    }
   },
   "mr": {
-   "title": "IG Metall ने हिल्डेशेममध्ये चेतावणी संप सुरू केले",
-   "seoTitle": "हिल्डेशेम IG Metall चेतावणी संप",
+   "title": "IG मेटलने हिल्डेशहाइममध्ये चेतावणी संप सुरू केले",
+   "seoTitle": "हिल्डेशहाइम IG मेटल चेतावणी संप",
    "tea": {
-    "why": "सामूहिक वाटाघाटींची शांतता जबाबदारी संपल्यानंतर आणि वाटाघाटींच्या दुसऱ्या फेरीत अडथळा निर्माण झाल्यानंतर कामगार निषेध करत आहेत.",
-    "want": "निदर्शक १२ महिन्यांच्या कालावधीसाठी वेतन आणि प्रशिक्षण भत्त्यांमध्ये ५ टक्के वाढ करण्याची मागणी करत आहेत.",
-    "changed": "२ नोव्हेंबर: IG Metall ने वृत्त दिले की हिल्डेशेमसह लोअर सॅक्सनीमधील चेतावणी संपामध्ये २,००० हून अधिक कामगारांनी सहभाग घेतला."
+    "why": "निदर्शक मालकांच्या सामूहिक सौदेबाजीच्या प्रस्तावाला विरोध करतात, आणि चलनवाढीच्या काळात कमी वेतन वाढ व कराराच्या लांब कालावधीचा हवाला देतात.",
+    "want": "कामगारांची बारा महिन्यांच्या कालावधीसाठी 5 टक्के वेतन आणि शिकाऊ भत्ता वाढ तसेच चांगल्या सामाजिक घटकांची मागणी आहे.",
+    "changed": "2 नोव्हेंबर: IG मेटलने अहवाल दिला की बॉश आणि हिल्डेशहाइममधील ZF च्या कर्मचाऱ्यांसह लोअर सॅक्सनीमधील 2,000 पेक्षा जास्त कामगार संपात सामील झाले."
    },
-   "summary": "धातू आणि विद्युत उद्योगातील सामूहिक वाटाघाटी शांतता जबाबदारीच्या मुदतपूर्तीनंतर, IG Metall युनियनने हिल्डेशेमसह लोअर सॅक्सनीमध्ये चेतावणी संप सुरू केले. हिल्डेशेममध्ये, KSM Castings ऑटोमोटिव्ह पुरवठादार प्लांटच्या बाहेर एका मध्यरात्रीच्या सभेदरम्यान सुमारे ३०० कर्मचारी जमले, ज्यामध्ये बॉश आणि ZF मधील कामगारांचा सहभाग असलेल्या अतिरिक्त कृतींचा समावेश होता. युनियनने एकरकमी पेमेंट आणि जुलै २०२८ पासून सुरू होणाऱ्या १.३ टक्के वेतन वाढीचा नियोक्त्याचा प्रति-प्रस्ताव फेटाळून लावला, ज्याचा निषेध म्हणून एक चिथावणी आणि वास्तविक वेतन घसरणीचे सूत्र असे वर्णन केले. युनियन बारा महिन्यांच्या कालावधीसाठी ५ टक्के वेतन वाढीची मागणी करते. NiedersachsenMetall द्वारे नियोक्त्यांनी टीका फेटाळून लावली, आणि सांगितले की सध्याची आर्थिक परिस्थिती उच्च प्रस्ताव देण्याची परवानगी देत नाही.",
+   "summary": "औद्योगिक शांतता कालावधी संपल्यानंतर, IG मेटल कामगार युनियनने लोअर सॅक्सनीमध्ये चेतावणी संप सुरू केले, ज्यामध्ये हिल्डेशहाइममधील KSM कास्टिंग्ज प्लांटच्या बाहेर मध्यरात्री सुरू झालेली आंदोलने समाविष्ट आहेत जिथे सुमारे 300 कर्मचारी जमले होते. ही औद्योगिक कृती मालकांनी 1.3 टक्के वेतन वाढ आणि एकरकमी पेमेंटचा प्रस्ताव सादर केल्यानंतर दुसऱ्या फेरीतील दर वाटाघाटी रखडल्याच्या पार्श्वभूमीवर झाली. युनियनच्या प्रतिनिधींनी या प्रस्तावाचा अपुरा म्हणून निषेध केला आणि बारा महिन्यांत 5 टक्के वेतन वाढीची मागणी केली. मालकांची संघटना, नीडरसैक्सनमेटल यांनी उत्तर दिले की सध्याची आर्थिक परिस्थिती उच्च प्रस्तावाला परवानगी देत ​​नाही.",
    "demands": [
-    "बारा महिन्यांच्या कालावधीसह पाच टक्के अधिक वेतन",
-    "बारा महिन्यांच्या कालावधीसह पाच टक्के अधिक प्रशिक्षण भत्ते"
+    "कर्मचाऱ्यांसाठी आणि प्रशिक्षणार्थींसाठी पाच टक्के अधिक वेतन",
+    "बारा महिन्यांचा करार कालावधी",
+    "कमी वेतन गटांच्या बाजूने सामाजिक घटक",
+    "नोकरी सुरक्षा उपाय",
+    "कंपनी नफा-वाटप योजना"
    ],
-   "response": "नियोक्ता संघ NiedersachsenMetall ने युनियनची टीका फेटाळून लावली, आणि सांगितले की सध्याच्या आर्थिक वातावरणामुळे उच्च प्रस्ताव देण्यास वाव नाही आणि २०१५ पासून उद्योगाला आव्हानांचा सामना करावा लागला आहे असे नमूद केले.",
+   "response": "मालकांची संघटना नीडरसैक्सनमेटलने युनियनच्या टिकेचे खंडन केले आणि सांगितले की सध्याच्या आर्थिक वातावरणात उच्च वेतन प्रस्तावाला वाव नाही.",
    "updates": [
-    "IG Metall ने हिल्डेशेममधील KSM Castings प्लांटच्या बाहेर सुमारे ३०० सहभागींसह मध्यरात्रीच्या सभेने काम बंद आंदोलन सुरू केले.",
-    "IG Metall ने सांगितले की लोअर सॅक्सनीमधील चेतावणी संपामध्ये २,००० हून अधिक कामगार सामील झाले, आणि हिल्डेशेम व इतर शहरांमध्ये पुढील कृतींचे नियोजन आहे."
+    "IG मेटलने हिल्डेशहाइममधील KSM कास्टिंग्ज प्लांट येथे सुमारे 300 कर्मचाऱ्यांच्या मध्यरात्रीच्या जमावाशी संपाचा टप्पा सुरू केला.",
+    "युनियनने अहवाल दिला की लोअर सॅक्सनीमध्ये 2,000 हून अधिक धातू कामगारांनी काम बंद केले, ज्यामध्ये हिल्डेशहाइममधील बॉश आणि ZF मधील कर्मचाऱ्यांचा समावेश आहे."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "rund 300 Beschäftigte"
+    "crowd": "सुमारे 300 कर्मचारी"
    }
   },
   "es": {
-   "title": "IG Metall inicia huelgas de advertencia en Hildesheim",
+   "title": "IG Metall convoca huelgas de advertencia en Hildesheim",
    "seoTitle": "Huelgas de advertencia de IG Metall en Hildesheim",
    "tea": {
-    "why": "Los trabajadores protestan después de que concluyera la obligación de paz de negociación colectiva y se estancara la segunda ronda de negociaciones.",
-    "want": "Los manifestantes exigen un aumento del 5 por ciento en los salarios y asignaciones de formación durante un período de 12 meses.",
-    "changed": "2 de noviembre: IG Metall informó que más de 2.000 trabajadores participaron en huelgas de advertencia en Baja Sajonia, incluida Hildesheim."
+    "why": "Los manifestantes rechazan la oferta de negociación colectiva de los empleadores, citando aumentos salariales bajos y largas duraciones de los contratos en un contexto de inflación.",
+    "want": "Los trabajadores exigen un aumento salarial y de subsidio de aprendizaje del 5 por ciento durante un período de doce meses, junto con mejores componentes sociales.",
+    "changed": "2 de noviembre: IG Metall informó que más de 2.000 trabajadores en Baja Sajonia se sumaron a las huelgas, incluidos empleados de Bosch y ZF en Hildesheim."
    },
-   "summary": "Tras la expiración de la obligación de paz de negociación colectiva en la industria metalúrgica y eléctrica, el sindicato IG Metall inició huelgas de advertencia en toda Baja Sajonia, incluida Hildesheim. En Hildesheim, aproximadamente 300 empleados se reunieron frente a la planta del proveedor de automoción KSM Castings durante una asamblea a medianoche, con acciones adicionales que involucraron a trabajadores de Bosch y ZF. El sindicato rechazó una contraoferta patronal que incluía un pago único y un aumento salarial del 1,3 por ciento a partir de julio de 2028, denunciándola como una provocación y una receta para la pérdida de salario real. El sindicato exige un aumento salarial del 5 por ciento durante un período de doce meses. Los empleadores, a través de NiedersachsenMetall, rechazaron las críticas, afirmando que la situación económica actual no permite una oferta mayor.",
+   "summary": "Tras la expiración del período de paz industrial, el sindicato IG Metall inició huelgas de advertencia en toda Baja Sajonia, incluidas acciones que comenzaron a medianoche frente a la planta KSM Castings en Hildesheim, donde se reunieron alrededor de 300 empleados. La acción industrial siguió a una segunda ronda estancada de negociaciones tarifarias después de que los empleadores presentaron una oferta que incluía un aumento salarial del 1,3 por ciento retrasado hasta julio de 2028 y un pago único. Los representantes sindicales criticaron la propuesta por considerarla insuficiente y exigieron un aumento salarial del 5 por ciento durante doce meses. La asociación patronal, NiedersachsenMetall, respondió que la situación económica actual no permite una oferta mayor.",
    "demands": [
-    "Cinco por ciento más de salario con un plazo de doce meses",
-    "Cinco por ciento más de asignaciones de formación con un plazo de doce meses"
+    "Cinco por ciento más de salario para empleados y aprendices",
+    "Duración del contrato de doce meses",
+    "Componente social que favorezca a los grupos salariales más bajos",
+    "Medidas de seguridad laboral",
+    "Esquemas de participación en las ganancias de la empresa"
    ],
-   "response": "La asociación de empleadores NiedersachsenMetall rechazó las críticas del sindicato, afirmando que el clima económico actual no deja margen para una oferta mayor y señalando que la industria se ha enfrentado a desafíos desde 2018.",
+   "response": "La asociación patronal NiedersachsenMetall rechazó las críticas del sindicato, afirmando que el clima económico actual no deja margen para una oferta salarial mayor.",
    "updates": [
-    "IG Metall abrió paros laborales con una asamblea a medianoche frente a la planta de KSM Castings en Hildesheim con unos 300 participantes.",
-    "IG Metall declaró que más de 2.000 trabajadores se sumaron a las huelgas de advertencia en Baja Sajonia, con nuevas acciones planificadas en Hildesheim y otras ciudades."
+    "IG Metall inició la fase de huelga con una concentración a medianoche de unos 300 empleados en la planta KSM Castings en Hildesheim.",
+    "El sindicato informó que más de 2.000 trabajadores metalúrgicos suspendieron el trabajo en Baja Sajonia, incluido el personal de Bosch y ZF en Hildesheim."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "rund 300 Beschäftigte"
+    "crowd": "unos 300 empleados"
    }
   },
   "fr": {
    "title": "IG Metall lance des grèves d'avertissement à Hildesheim",
    "seoTitle": "Grèves d'avertissement d'IG Metall à Hildesheim",
    "tea": {
-    "why": "Les travailleurs protestent après la fin de l'obligation de paix de négociation collective et l'enlisement du deuxième tour de négociations.",
-    "want": "Les manifestants exigent une augmentation de 5 pour cent des salaires et des indemnités de formation sur une période de 12 mois.",
-    "changed": "2 nov. : IG Metall a indiqué que plus de 2 000 travailleurs ont participé à des grèves d'avertissement à travers la Basse-Saxe, y compris à Hildesheim."
+    "why": "Les manifestants rejettent l'offre de négociation collective des employeurs, invoquant de faibles hausses de salaire et de longues durées de contrat sur fond d'inflation.",
+    "want": "Les travailleurs exigent une augmentation de 5 pour cent des salaires et des allocations d'apprentissage sur une durée de douze mois, ainsi que de meilleurs volets sociaux.",
+    "changed": "2 nov. : IG Metall a indiqué que plus de 2 000 travailleurs à travers la Basse-Saxe ont rejoint les grèves, incluant des employés de Bosch et de ZF à Hildesheim."
    },
-   "summary": "Suite à l'expiration de l'obligation de paix de négociation collective dans l'industrie métallurgique et électrique, le syndicat IG Metall a lancé des grèves d'avertissement à travers la Basse-Saxe, y compris à Hildesheim. À Hildesheim, environ 300 employés se sont rasemblés devant l'usine du fournisseur automobile KSM Castings lors d'une assemblée de minuit, avec des actions supplémentaires impliquant des travailleurs de Bosch et de ZF. Le syndicat a rejeté une contre-offre patronale prévoyant un paiement unique et une augmentation salariale de 1,3 pour cent à compter de juillet 2028, la dénonçant comme une provocation et une recette pour une perte de salaire réel. Le syndicat exige une augmentation de salaire de 5 pour cent sur une période de douze mois. Les employeurs, par l'intermédiaire de NiedersachsenMetall, ont rejeté les critiques, déclarant que la situation économique actuelle ne permet pas une offre plus élevée.",
+   "summary": "Après l'expiration de la période de paix sociale, le syndicat IG Metall a lancé des grèves d'avertissement à travers la Basse-Saxe, comprenant des actions débutant à minuit devant l'usine KSM Castings à Hildesheim où environ 300 employés se sont rassemblés. L'action syndicale a fait suite à un deuxième cycle de négociations tarifaires bloqué après la présentation par les employeurs d'une offre prévoyant une augmentation de salaire de 1,3 pour cent reportée à juillet 2028 et un paiement unique. Les représentants syndicaux ont critiqué la proposition la jugeant insuffisante et ont exigé une hausse de salaire de 5 pour cent sur douze mois. L'association patronale, NiedersachsenMetall, a répondu que la situation économique actuelle ne permet pas une offre plus élevée.",
    "demands": [
-    "Cinq pour cent de salaire en plus avec une durée de douze mois",
-    "Cinq pour cent d'indemnités de formation en plus avec une durée de douze mois"
+    "Cinq pour cent de salaire en plus pour les employés et les apprentis",
+    "Durée de contrat de douze mois",
+    "Volet social favorisant les groupes salariaux inférieurs",
+    "Mesures de sécurité de l'emploi",
+    "Systèmes de participation aux bénéfices de l'entreprise"
    ],
-   "response": "L'association patronale NiedersachsenMetall a rejeté les critiques du syndicat, déclarant que le climat économique actuel ne laisse aucune marge pour une offre plus élevée et notant que l'industrie fait face à des défis depuis 2018.",
+   "response": "L'association patronale NiedersachsenMetall a rejeté les critiques du syndicat, affirmant que le climat économique actuel ne laisse aucune marge pour une offre salariale plus élevée.",
    "updates": [
-    "IG Metall a ouvert des arrêts de travail avec une assemblée de minuit devant l'usine KSM Castings à Hildesheim avec environ 300 participants.",
-    "IG Metall a déclaré que plus de 2 000 travailleurs ont rejoint les grèves d'avertissement en Basse-Saxe, avec d'autres actions prévues à Hildesheim et dans d'autres villes."
+    "IG Metall a initié la phase de grève par un rassemblement à minuit d'environ 300 salariés à l'usine KSM Castings à Hildesheim.",
+    "Le syndicat a rapporté que plus de 2 000 travailleurs de la métallurgie ont cessé le travail à travers la Basse-Saxe, dont le personnel de Bosch et de ZF à Hildesheim."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "rund 300 Beschäftigte"
+    "crowd": "environ 300 employés"
    }
   },
   "de": {
    "title": "IG Metall startet Warnstreiks in Hildesheim",
    "seoTitle": "Hildesheim IG Metall Warnstreiks",
    "tea": {
-    "why": "Beschäftigte protestieren, nachdem die Friedenspflicht in den Tarifverhandlungen ausgelaufen ist und die zweite Verhandlungsrunde ins Stocken geraten ist.",
-    "want": "Demonstrierende fordern eine Erhöhung der Entgelte und Ausbildungsvergütungen um 5 Prozent bei einer Laufzeit von 12 Monaten.",
-    "changed": "2. Nov.: IG Metall teilte mit, dass sich mehr als 2.000 Beschäftigte an Warnstreiks in Niedersachsen, einschließlich Hildesheim, beteiligt haben."
+    "why": "Demonstrierende lehnen das Tariferangebot der Arbeitgeber ab und verweisen auf geringe Lohnsteigerungen und lange Vertragslaufzeiten inmitten der Inflation.",
+    "want": "Beschäftigte fordern ein Entgelt- und Ausbildungsvergütungsplus von 5 Prozent bei einer Laufzeit von zwölf Monaten sowie bessere soziale Komponenten.",
+    "changed": "2. Nov.: Die IG Metall teilte mit, dass sich mehr als 2.000 Beschäftigte in ganz Niedersachsen an Streiks beteiligten, darunter Mitarbeitende von Bosch und ZF in Hildesheim."
    },
-   "summary": "Nach dem Auslaufen der Friedenspflicht in der Metall- und Elektroindustrie hat die Gewerkschaft IG Metall in ganz Niedersachsen, darunter auch in Hildesheim, Warnstreiks gestartet. In Hildesheim versammelten sich schätzungsweise 300 Beschäftigte während einer Nachtkundgebung vor dem Werk des Automobilzulieferers KSM Castings, wobei weitere Aktionen Beschäftigte von Bosch und ZF einbezogen. Die Gewerkschaft lehnte ein Arbeitgeber-Gegenangebot mit einer Einmalzahlung und einer Entgelterhöhung von 1,3 Prozent ab Juli 2028 ab, und prangerte dies als Provokation sowie als Rezept für Reallohnverlust an. Die Gewerkschaft fordert eine Entgelterhöhung von 5 Prozent über einen Zeitraum von zwölf Monaten. Arbeitgeber wiesen die Kritik über NiedersachsenMetall zurück und erklärten, dass die aktuelle wirtschaftliche Lage kein höheres Angebot zulasse.",
+   "summary": "Nach Ablauf der Friedenspflicht hat die Gewerkschaft IG Metall in Niedersachsen Warnstreiks gestartet, darunter Aktionen ab Mitternacht vor dem KSM-Castings-Werk in Hildesheim, wo sich rund 300 Beschäftigte versammelten. Die Arbeitsniederlegung folgte auf eine festgefahrene zweite Verhandlungsrunde der Tarifverhandlungen, nachdem Arbeitgeber ein Angebot vorgelegt hatten, das eine Entgelterhöhung von 1,3 Prozent erst ab Juli 2028 und eine Einmalzahlung vorsah. Gewerkschaftsvertreter kritisierten den Vorschlag als unzureichend und forderten eine Lohnerhöhung von 5 Prozent über zwölf Monate. Der Arbeitgeberverband NiedersachsenMetall erwiderte, dass die aktuelle Wirtschaftslage kein höheres Angebot zulasse.",
    "demands": [
-    "Fünf Prozent mehr Entgelt bei einer Laufzeit von zwölf Monaten",
-    "Fünf Prozent höhere Ausbildungsvergütungen bei einer Laufzeit von zwölf Monaten"
+    "Fünf Prozent mehr Lohn für Beschäftigte und Auszubildende",
+    "Zwölf Monate Vertragslaufzeit",
+    "Soziale Komponente zugunsten niedrigerer Lohnstufen",
+    "Maßnahmen zur Arbeitsplatzsicherheit",
+    "Regelungen zur Unternehmensgewinnbeteiligung"
    ],
-   "response": "Der Arbeitgeberverband NiedersachsenMetall wies die Kritik der Gewerkschaft zurück und erklärte, das aktuelle wirtschaftliche Klima lasse keinen Spielraum für ein höheres Angebot, und verwies darauf, dass die Branche seit 2018 vor Herausforderungen stehe.",
+   "response": "Der Arbeitgeberverband NiedersachsenMetall wies die Kritik der Gewerkschaft zurück und erklärte, das gegenwärtige wirtschaftliche Klima lasse keinen Spielraum für ein höheres Lohnangebot.",
    "updates": [
-    "IG Metall eröffnete Arbeitsniederlegungen mit einer Nachtkundgebung vor dem KSM-Castings-Werk in Hildesheim mit rund 300 Teilnehmenden.",
-    "IG Metall gab an, dass sich über 2.000 Beschäftigte den Warnstreiks in Niedersachsen angeschlossen haben, wobei weitere Aktionen in Hildesheim und anderen Städten geplant sind."
+    "Die IG Metall leitete die Streikphase mit einer nächtlichen Versammlung von rund 300 Beschäftigten um Mitternacht am KSM-Castings-Werk in Hildesheim ein.",
+    "Die Gewerkschaft meldete, dass mehr als 2.000 Metallbeschäftigte in ganz Niedersachsen die Arbeit niederlegten, darunter Personal von Bosch und ZF in Hildesheim."
    ],
    "conflicts": [],
    "numbers": {

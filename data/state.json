@@ -1,37 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-04",
-  "count": 41
+  "count": 67
  },
  "runs": [
-  {
-   "at": "2026-10-28T20:19:59.431Z",
-   "ms": 271824,
-   "discovered": 41,
-   "fetched": 35,
-   "classified": 23,
-   "protests": 10,
-   "summarized": 9,
-   "published": 228,
-   "live": 25,
-   "aiCalls": 24,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 6 files, 19 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss www.theportugalnews.com: The operation was aborted due to timeout",
-    "rss: 207 protest-word items",
-    "search: 16 single-source stories checked, 9 other newsrooms found",
-    "fetch: 35 ok, 6 failed",
-    "classify: new candidate e36c50723ff \"Opposition LDF walks out of Kerala Assembly over maritime bill\" (Thiruvananthapuram)",
-    "classify: new candidate e949ee6f725 \"Child care workers rally at Queens Park over fair standards\" (Toronto)",
-    "classify: new candidate ea7bb1431d7 \"Demonstrators call for Jewish-Arab government across Israel\" (Tel Aviv)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 13 events"
-   ],
-   "translated": 13
-  },
   {
    "at": "2026-10-28T23:08:10.890Z",
    "ms": 188431,
@@ -1654,8 +1626,36 @@
     "translate: ed9380742ba failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "translate: stopped: run time cap 13 min reached"
    ]
+  },
+  {
+   "at": "2026-11-04T05:11:21.185Z",
+   "ms": 305397,
+   "discovered": 63,
+   "fetched": 53,
+   "classified": 32,
+   "protests": 7,
+   "summarized": 10,
+   "published": 326,
+   "live": 22,
+   "aiCalls": 26,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 44 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 208 protest-word items",
+    "search: 25 single-source stories checked (7 in their own language), 9 other newsrooms found",
+    "fetch: 53 ok, 10 failed",
+    "classify: new candidate ef383bacae5 \"BJP holds Loktantra Bachao march in Rudrapur\" (Rudrapur)",
+    "dedupe: merged e97e4e8bf99 into ef838a589d7 (hildesheim-ig-metall-warning-strikes-nov-2026), 1 articles",
+    "dedupe: merged eff6de72198 into ee83065cee2 (rome-cost-of-living-protest-italy-oct-2026), 1 articles",
+    "dedupe: merged e770b781406 into e541fc7840a (berlin-german-youth-protests-oct-2026), 1 articles",
+    "dedupe: merged eaa2ce34c7f into e541fc7840a (berlin-german-youth-protests-oct-2026), 1 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 12 events"
+   ],
+   "translated": 12
   }
  ],
- "gdeltCursor": "20261104021500",
- "lastRunAt": "2026-11-04T02:17:28.365Z"
+ "gdeltCursor": "20261104051500",
+ "lastRunAt": "2026-11-04T05:11:21.185Z"
 }
