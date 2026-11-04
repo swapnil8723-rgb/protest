@@ -1,36 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-04",
-  "count": 67
+  "count": 95
  },
  "runs": [
-  {
-   "at": "2026-10-28T23:08:10.890Z",
-   "ms": 188431,
-   "discovered": 61,
-   "fetched": 56,
-   "classified": 41,
-   "protests": 10,
-   "summarized": 6,
-   "published": 229,
-   "live": 25,
-   "aiCalls": 15,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 12 files, 37 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss www.thelocal.se: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 215 protest-word items",
-    "search: 14 single-source stories checked, 12 other newsrooms found",
-    "fetch: 56 ok, 5 failed",
-    "classify: new candidate e7455aaf91f \"Advocates rally outside BGE against cuts to EmPOWER Maryland\" (Baltimore)",
-    "classify: new candidate e9294e6a05c \"Far-right groups and police clash in Madrid over deadly train crash\" (Madrid)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 5 events"
-   ],
-   "translated": 5
-  },
   {
    "at": "2026-10-29T01:00:37.416Z",
    "ms": 135519,
@@ -1654,8 +1627,41 @@
     "translate: 12 events"
    ],
    "translated": 12
+  },
+  {
+   "at": "2026-11-04T10:10:41.662Z",
+   "ms": 411534,
+   "discovered": 95,
+   "fetched": 87,
+   "classified": 63,
+   "protests": 17,
+   "summarized": 12,
+   "published": 328,
+   "live": 20,
+   "aiCalls": 28,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20 files, 63 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.france24.com: 403",
+    "rss www.france24.com: 403",
+    "rss: 163 protest-word items",
+    "search: 25 single-source stories checked (8 in their own language), 21 other newsrooms found",
+    "fetch: 87 ok, 8 failed",
+    "classify: new candidate e4ec1e9755f \"Sugarcane farmers block highway in Kolhapur over prices\" (Kolhapur)",
+    "classify: new candidate e4f44502127 \"Protesters in Kanchipuram demand arrest of Chief Election Commissioner\" (Kanchipuram)",
+    "classify: new candidate e88f62d849d \"Unions and students plan nationwide strike and protests in France\" (Paris)",
+    "classify: new candidate e5d9612ad1a \"TGSRTC employees protest over conductor death in Khammam\" (Khammam)",
+    "classify: new candidate efb2e86f7b9 \"Dalit Christian groups protest in Badangpet over attack on women\" (Meerpet)",
+    "classify: new candidate e134b03cd79 \"Agricultural university students protest secretariat relocation\" (Dhaka)",
+    "classify: new candidate effdeab01ce \"Lawyers boycott court work in Mangaluru demanding safety act\" (Mangaluru)",
+    "dedupe: merged e85ebb14e94 into e49a9faf2fe (washim-drought-relief-protest-oct-2026), 1 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 9 events"
+   ],
+   "translated": 9
   }
  ],
- "gdeltCursor": "20261104051500",
- "lastRunAt": "2026-11-04T05:11:21.185Z"
+ "gdeltCursor": "20261104101500",
+ "lastRunAt": "2026-11-04T10:10:41.662Z"
 }
