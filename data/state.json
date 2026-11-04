@@ -1,33 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-04",
-  "count": 153
+  "count": 183
  },
  "runs": [
-  {
-   "at": "2026-10-29T03:41:36.317Z",
-   "ms": 303923,
-   "discovered": 22,
-   "fetched": 18,
-   "classified": 16,
-   "protests": 12,
-   "summarized": 7,
-   "published": 233,
-   "live": 25,
-   "aiCalls": 16,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 1 files, 5 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 220 protest-word items",
-    "search: 25 single-source stories checked (5 in their own language), 25 other newsrooms found",
-    "fetch: 18 ok, 4 failed",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-10-29T06:49:33.531Z",
    "ms": 321941,
@@ -1669,8 +1645,42 @@
     "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
     "translate: stopped: run time cap 13 min reached"
    ]
+  },
+  {
+   "at": "2026-11-04T20:15:51.936Z",
+   "ms": 503387,
+   "discovered": 111,
+   "fetched": 104,
+   "classified": 77,
+   "protests": 26,
+   "summarized": 10,
+   "published": 338,
+   "live": 14,
+   "aiCalls": 30,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 14 files, 73 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss www.bostonglobe.com: 404",
+    "rss: 178 protest-word items",
+    "search: 25 single-source stories checked (4 in their own language), 11 other newsrooms found",
+    "fetch: 104 ok, 7 failed",
+    "classify: new candidate ea74d54691d \"Parents and staff protest school closures in Enfield\" (London)",
+    "classify: new candidate e8419777d95 \"Hindu College staff and students protest in Delhi\" (Delhi)",
+    "classify: new candidate ed8c563e1ef \"Osmania University non-teaching staff rally for pensions\" (Hyderabad)",
+    "classify: new candidate e855dd490c7 \"Journalists protest across Pakistan against PECA and layoffs\" (Islamabad)",
+    "classify: new candidate e70a88c09f4 \"CENA-STE union announces strike at Casa da Música\" (Porto)",
+    "classify: new candidate e65eca90c6d \"BJP holds Loktantra Bachao padayatra in Ghaziabad\" (Ghaziabad)",
+    "classify: new candidate edffbde3817 \"NHS theatre staff continue strikes after rejecting pay offer\" (Salford)",
+    "classify: new candidate e107c06a6ad \"IG Metall workers strike and protest across northern Germany\" (Hamburg)",
+    "classify: new candidate ee67846a08a \"Civil society groups plan pan-European protests against data centers\" (Berlin)",
+    "summary: ec071e5b2bb failed: The operation was aborted due to timeout",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 11 events"
+   ],
+   "translated": 11
   }
  ],
- "gdeltCursor": "20261104164500",
- "lastRunAt": "2026-11-04T16:50:35.882Z"
+ "gdeltCursor": "20261104201500",
+ "lastRunAt": "2026-11-04T20:15:51.936Z"
 }
