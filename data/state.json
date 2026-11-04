@@ -1,43 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-11-03",
-  "count": 281
+  "day": "2026-11-04",
+  "count": 41
  },
  "runs": [
-  {
-   "at": "2026-10-28T18:46:55.322Z",
-   "ms": 783400,
-   "discovered": 97,
-   "fetched": 80,
-   "classified": 149,
-   "protests": 51,
-   "summarized": 28,
-   "published": 227,
-   "live": 25,
-   "aiCalls": 57,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 12 files, 52 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 222 protest-word items",
-    "search: 25 single-source stories checked, 23 other newsrooms found",
-    "fetch: 80 ok, 17 failed",
-    "classify: new candidate ead19531e58 \"Pro-Palestine silent protest in Utrecht\" (Utrecht)",
-    "classify: new candidate e44809cc400 \"Local body pensioners stage sit-in protest in Krishnagiri\" (Krishnagiri)",
-    "classify: new candidate e8e90e2fdac \"Cultural activists hold solidarity gathering in Thrissur over voter roll revision\" (Thrissur)",
-    "classify: new candidate ec963c871c9 \"Gen Z group announces nationwide protests for education\" (Berlin)",
-    "classify: new candidate e2a875778f7 \"Belagavi farmers stop sugar sales and transport over MSP demands\" (Belagavi)",
-    "classify: new candidate ee991231bc9 \"Unmarried rural youth plan statewide stir for government help\" (Sholapur)",
-    "classify: new candidate e4790a5de1c \"Tampa activists announce ICE protest in Ybor City\" (Tampa)",
-    "classify: new candidate e3f4167f13e \"Telangana Congress leaders protest denial of special trains\" (Hyderabad)",
-    "classify: new candidate e58dc3daa1a \"CSU faculty rallies across California during strike vote\" (San Jose)",
-    "classify: new candidate e8571284004 \"Protesters block road in Stoke-on-Trent in solidarity with Palestine\" (Stoke-on-Trent)",
-    "classify: new candidate e6d119afe3a \"Protesters block Brooklyn Bridge over ICE shooting\" (New York City)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: stopped: run time cap 13 min reached"
-   ]
-  },
   {
    "at": "2026-10-28T20:19:59.431Z",
    "ms": 271824,
@@ -1644,8 +1610,52 @@
     "translate: 14 events"
    ],
    "translated": 14
+  },
+  {
+   "at": "2026-11-04T02:17:28.365Z",
+   "ms": 833370,
+   "discovered": 52,
+   "fetched": 49,
+   "classified": 40,
+   "protests": 17,
+   "summarized": 20,
+   "published": 326,
+   "live": 21,
+   "aiCalls": 41,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 12 files, 25 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 209 protest-word items",
+    "search: 25 single-source stories checked (9 in their own language), 26 other newsrooms found",
+    "fetch: 49 ok, 3 failed",
+    "classify: new candidate e5b6981378d \"SFI leader arrested over protest against Higher Education Minister in Kochi\" (Kochi)",
+    "classify: new candidate e0d2c34064c \"Conservative leader Kemi Badenoch holds rally on HMS Wellington in London\" (London)",
+    "classify: new candidate ee7631c5d7a \"Christian groups plan prayer rally in Kolkata to protest mob attacks\" (Kolkata)",
+    "classify: new candidate ec118e5d733 \"Democrats hold get-out-the-vote rally in New Haven\" (New Haven)",
+    "classify: new candidate e896462fd28 \"Students stage sit-in at University of Tehran\" (Tehran)",
+    "classify: new candidate e2ac3a8cf3d \"IG Metall stages warning strikes in Aßlar and Dillenburg\" (Aßlar)",
+    "dedupe: merged ea98734c46d (paris-cost-of-living-protest-oct-2026) into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 5 articles",
+    "dedupe: merged eb563b6479f (paris-living-costs-school-funding-protests-oct-2026) into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 4 articles",
+    "dedupe: merged ec31fbb9155 into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 1 articles",
+    "dedupe: merged eff1b9b8aaf (paris-cost-of-living-march-oct-2026) into ec6385243c0 (paris-france-living-costs-protests-sep-2026), 2 articles",
+    "dedupe: merged e9bad38906c into ef0ed8c54fa (boston-anti-mascot-protest-oct-2026), 1 articles",
+    "dedupe: merged ec325051f4a into e90b228a6fd (lyon-cost-of-living-protest-oct-2026-2), 1 articles",
+    "dedupe: merged ef4556eb02d into e90b228a6fd (lyon-cost-of-living-protest-oct-2026-2), 1 articles",
+    "dedupe: merged e5ab47b124f into e86ae673bc2 (porto-housing-protest-nov-2026), 2 articles",
+    "dedupe: merged e5b6981378d into eb46da03cfb (kochi-sfi-convocation-protest-oct-2026), 1 articles",
+    "dedupe: merged ebd2daee135 into e61306c0538 (leipzig-gen-z-youth-protest-oct-2026), 1 articles",
+    "dedupe: merged e6232c1006a into ed9380742ba (munich-gen-z-protest-oct-2026), 1 articles",
+    "dedupe: merged ec1eebad5cc into e686019501f (hebron-military-operation-protest-oct-2026), 1 articles",
+    "dedupe: merged e7346be2ea4 into ebe0768f8bb (frankfurt-am-main-gen-z-regelt-protest-oct-2026), 1 articles",
+    "dedupe: merged ea0d3513f24 into e79429a3766 (nice-protest-clashes-oct-2026), 1 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: e7a33be664c failed: The operation was aborted due to timeout",
+    "translate: ed9380742ba failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "translate: stopped: run time cap 13 min reached"
+   ]
   }
  ],
- "gdeltCursor": "20261103231500",
- "lastRunAt": "2026-11-03T23:08:12.406Z"
+ "gdeltCursor": "20261104021500",
+ "lastRunAt": "2026-11-04T02:17:28.365Z"
 }

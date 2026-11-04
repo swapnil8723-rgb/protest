@@ -13,53 +13,58 @@
   "citySlug": "lisbon",
   "regionSlug": "lisbon"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "housing",
-  "prices",
-  "governance"
+  "prices"
  ],
  "kind": "multi-day",
  "startedOn": "2026-10-24",
  "status": "ongoing",
- "vibe": "cooling-down",
- "severity": "normal",
+ "vibe": "tense",
+ "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "top-10"
+  "serious",
+  "top-10",
+  "sources-disagree"
  ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against Portugal's severe housing affordability crisis and a controversial government rental bill.",
-  "want": "Demonstrators demand that the government scrap a bill making evictions easier and ending rent caps on new leases.",
-  "changed": "Nov 3: Activists announced that tents would return to Rossio Square following a court decision involving a detained protester."
+  "why": "Protesters are demonstrating against Portugal's severe housing crisis, soaring rental costs, and surging property prices.",
+  "want": "Demonstrators demand that the government withdraw a bill making evictions easier and ending rent caps on new leases.",
+  "changed": "Nov 3: Protest organizers announced that tents would return to Rossio Square following a court decision involving a detained protester."
  },
- "summary": "Housing campaigners and thousands of demonstrators took to the streets of Lisbon, marching from Marquês de Pombal to Rossio Square, followed by the establishment of tent encampments to protest the deepening housing crisis and a proposed government rental bill. Police forces intervened in the early morning hours, deploying officers, dogs, and baton charges to dismantle the camps and remove protesters who had set up tents in the public squares. Activist groups such as Casa para Viver criticised the police actions as a political decision to repress dissent. While authorities reported minor injuries among officers and a number of arrests for disobedience, organisers and medical services claimed dozens of participants sustained injuries during the clearances. Prime Minister Luís Montenegro defended the government's housing program while expressing openness to minor amendments, whereas opposition figures and legal representatives condemned the use of force.",
+ "summary": "Thousands of demonstrators have taken to the streets in Lisbon and Porto to protest against soaring housing costs, high rents, and government legislative proposals concerning rental caps and evictions. Organised in part by activist groups such as Casa para Viver and Acampada Lisboa, the protests have involved large marches and the establishment of tent camps in major public squares including Rossio Square. Police intervened during the early morning hours on multiple weekends to dismantle the unauthorized camps, employing batons, shields, and police dogs, which led to clashes, multiple arrests, and civilian and police injuries. While the minority center-right government, led by Prime Minister Luís Montenegro, defended the police operations as proportionate and refused to scrap the housing bill entirely, protesters and opposition figures strongly condemned the actions as heavy-handed repression.",
  "organizers": [
-  "Casa para Viver"
+  "Casa para Viver",
+  "Algarve em Resistência",
+  "Acampada Lisboa"
  ],
  "demands": [
   "Scrap the bill making evictions easier",
   "End rent caps on new leases",
-  "Address the housing affordability crisis"
+  "Provide more affordable housing",
+  "Protect the right to demonstrate",
+  "Dismiss proceedings against detained protesters"
  ],
- "response": "Police cleared the protest camps citing a lack of authorization and disobedience, resulting in multiple arrests and baton charges. Prime Minister Luís Montenegro ruled out scrapping the rental bill entirely but stated he is open to amendments before a final vote.",
+ "response": "Police cleared the camps after orders to disperse were ignored, citing unauthorized structures and disobedience. Prime Minister Luís Montenegro ruled out scrapping the housing bill, though he expressed openness to amendments. Police reported multiple arrests and injuries among officers.",
  "numbers": {
   "arrests": {
    "value": 13,
-   "text": "arresting 13 people",
+   "text": "13 detidos",
    "sources": [
-    4,
-    5
+    8,
+    9
    ]
   },
   "injuries": {
-   "value": 25,
-   "text": "25 people were assisted in utils",
+   "value": 13,
+   "text": "13 injured officers",
    "sources": [
-    2,
-    4
+    7,
+    9
    ]
   }
  },
@@ -68,46 +73,53 @@
    "at": "2026-10-24",
    "text": "Housing campaigners marched from Marquês de Pombal to Rossio Square in Lisbon.",
    "sources": [
-    1,
-    2
+    1
    ]
   },
   {
    "at": "2026-10-25",
-   "text": "Police cleared a protest camp in Rossio Square, resulting in 25 arrests in Lisbon according to reports.",
+   "text": "Police cleared a protest camp in Rossio Square, resulting in 25 arrests in Lisbon and six in Porto.",
    "sources": [
-    2
+    2,
+    3
    ]
   },
   {
-   "at": "2026-10-31",
-   "text": "Thousands of protesters held another march through central Lisbon demanding affordable housing.",
-   "sources": [
-    3,
-    5
-   ]
-  },
-  {
-   "at": "2026-11-01",
-   "text": "Police cleared a newly erected tent camp in Rossio Square following dispersal orders, detaining six people in Lisbon.",
-   "sources": [
-    3,
-    5
-   ]
-  },
-  {
-   "at": "2026-11-02",
-   "text": "Detained protesters from the weekend operations appeared in court while defense lawyers announced legal complaints.",
+   "at": "2026-10-26",
+   "text": "The Algarve em Resistência movement called for the Prime Minister's resignation over the police interventions.",
    "sources": [
     4
    ]
   },
   {
-   "at": "2026-11-03",
-   "text": "Activists celebrated a court decision and announced that protest tents would return to Rossio Square.",
+   "at": "2026-10-27",
+   "text": "Thousands of demonstrators gathered outside Parliament in Lisbon as lawmakers debated spending plans.",
    "sources": [
-    5,
-    6
+    5
+   ]
+  },
+  {
+   "at": "2026-11-01",
+   "text": "Police cleared a new tent camp in Rossio Square after thousands marched, arresting 13 people across Lisbon and Porto.",
+   "sources": [
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "at": "2026-11-03",
+   "text": "The US Embassy issued a protest alert advising Americans to avoid Rossio Square and Praça Dom João I.",
+   "sources": [
+    9
+   ]
+  },
+  {
+   "at": "2026-11-03",
+   "text": "Protest organizers announced that tents would return to Rossio Square following a court decision.",
+   "sources": [
+    10
    ]
   }
  ],
@@ -121,207 +133,264 @@
   },
   {
    "n": 2,
+   "url": "https://www.derstandard.at/story/3000000345861/polizei-in-lissabon-l246st-erneut-protestcamp-gegen-wohnungsnot-auf",
+   "publisher": "derstandard.at",
+   "title": "Polizei in Lissabon löst erneut Protestcamp gegen Wohnungsnot auf",
+   "publishedAt": "2026-10-25T06:16:17.000Z"
+  },
+  {
+   "n": 3,
    "url": "https://www.aljazeera.com/economy/2026/10/25/portuguese-police-clear-lisbon-housing-protest-camp-arrest-25",
    "publisher": "aljazeera.com",
    "title": "Portuguese police clear Lisbon housing protest camp, arrest 25",
    "publishedAt": "2026-10-25T13:29:56.000Z"
   },
   {
-   "n": 3,
+   "n": 4,
+   "url": "https://www.theportugalnews.com/news/2026-10-26/algarve-group-calls-for-montenegro-resignation-after-housing-demonstration-incidentst/1106589",
+   "publisher": "theportugalnews.com",
+   "title": "Algarve group calls for Montenegro resignation after housing demonstration incidentst",
+   "publishedAt": "2026-10-26T16:13:00.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.independent.co.uk/news/portuguese-parliament-lisbon-spain-europe-b3074482.html",
+   "publisher": "independent.co.uk",
+   "title": "Thousands of Portuguese gather outside Parliament as housing protests swell",
+   "publishedAt": "2026-10-27T20:49:46.000Z"
+  },
+  {
+   "n": 6,
    "url": "https://www.brecorder.com/news/40446908/police-clear-new-lisbon-housing-protest-camp-after-thousands-rally",
    "publisher": "brecorder.com",
    "title": "Police clear new Lisbon housing protest camp after thousands rally",
    "publishedAt": "2026-11-01T07:54:51.000Z"
   },
   {
-   "n": 4,
+   "n": 7,
+   "url": "https://www.dw.com/en/portugal-police-storm-housing-protest-camps-in-lisbon-porto/a-79821643",
+   "publisher": "dw.com",
+   "title": "Clashes broke out in Portugal as police stormed housing protest camps in Lisbon and Porto",
+   "publishedAt": "2026-11-01T11:20:40.740Z"
+  },
+  {
+   "n": 8,
    "url": "https://cnnportugal.iol.pt/acampadas/habitacao/13-detidos-nas-acampadas-pelo-direito-a-habitacao-vao-hoje-a-tribunal-apos-operacao-policial-em-lisboa-e-no-porto/20261102/6ae83fc7d34e5a653d7326cf",
    "publisher": "cnnportugal.iol.pt",
    "title": "13 detidos nas acampadas pelo direito à habitação vão hoje a tribunal após operação policial em Lisboa e no Porto",
    "publishedAt": "2026-11-02T07:46:00.000Z"
   },
   {
-   "n": 5,
+   "n": 9,
    "url": "https://www.ibtimes.co.uk/us-embassy-warns-over-portugal-housing-protests-1829828",
    "publisher": "ibtimes.co.uk",
    "title": "US Embassy Issues Portugal Protest Alert as Police Clear Lisbon and Porto Camps for Second Weekend",
    "publishedAt": "2026-11-03T12:00:12.000Z"
   },
   {
-   "n": 6,
+   "n": 10,
    "url": "https://www.rtp.pt/noticias/pais/protesto-pela-habitacao-em-lisboa-tendas-regressam-ao-rossio-esta-noite_v1776566",
    "publisher": "rtp.pt",
    "title": "Protesto pela Habitação em Lisboa. Tendas regressam ao Rossio esta noite",
    "publishedAt": "2026-11-03T13:40:47.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
- "publishers": 6,
+ "conflicts": [
+  "Police reported 13 injured officers and an unspecified number of civilian injuries, while activist group Acampada Lisboa claimed more than 30 protesters were injured."
+ ],
+ "confidence": 0.8,
+ "publishers": 10,
  "reports24h": 3,
- "reportsPrev24h": 16,
- "reports48h": 19,
+ "reportsPrev24h": 13,
+ "reports48h": 16,
  "firstSeenAt": "2026-10-25T07:45:26.722Z",
  "lastReportAt": "2026-11-03T13:40:47.000Z",
- "lastCheckedAt": "2026-11-03T23:11:13.370Z",
- "updatedAt": "2026-11-03T23:10:20.359Z",
+ "lastCheckedAt": "2026-11-04T02:23:35.772Z",
+ "updatedAt": "2026-11-04T02:19:53.201Z",
  "responseSources": [
-  2,
   3,
-  5
+  6,
+  7,
+  8,
+  9
  ],
- "seriousInjuries": false,
+ "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-11-03T23:10:20.359Z",
- "summaryOf": "1cc7ba8d4ac4",
+ "summarizedAt": "2026-11-04T02:19:53.201Z",
+ "summaryOf": "b2c445f26333",
  "publishedAt": "2026-10-25T07:48:56.111Z",
  "i18n": {
-  "of": "2479670d0be19be2",
-  "at": "2026-11-03T23:11:48.409Z",
+  "of": "a94e88dc16832e53",
+  "at": "2026-11-04T02:24:19.172Z",
   "tries": 1,
   "hi": {
-   "title": "पुलिस ने लिस्बन में जारी प्रदर्शनों के बीच आवास विरोध शिविरों को हटाया",
-   "seoTitle": "लिस्बन आवास विरोध शिविर पुलिस द्वारा हटाए गए",
+   "title": "लिस्बन में जारी प्रदर्शनों के बीच पुलिस ने आवास विरोध शिविरों को हटाया",
+   "seoTitle": "लिस्बन में पुलिस ने आवास विरोध शिविर हटाए",
    "tea": {
-    "why": "प्रदर्शनकारी पुर्तगाल के गंभीर आवास किफ़ायती संकट और एक विवादित सरकारी किराया विधेयक के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शनकारियों की मांग है कि सरकार उस विधेयक को रद्द करे जिससे बेदखली आसान होती है और नए पट्टों पर किराए की सीमा समाप्त होती है।",
-    "changed": "3 नवंबर: एक हिरासत में लिए गए प्रदर्शनकारी से जुड़े अदालत के फैसले के बाद कार्यकर्ताओं ने घोषणा की कि रॉसियो स्क्वायर में तंबू वापस आएंगे।"
+    "why": "प्रदर्शनकारी पुर्तगाल के गंभीर आवास संकट, बढ़ते किराये और संपत्ति की बढ़ती कीमतों के खिलाफ विरोध कर रहे हैं।",
+    "want": "प्रदर्शनकारियों की मांग है कि सरकार उस विधेयक को वापस ले जो बेदखली को आसान बनाता है और नए पट्टों पर किराया सीमा समाप्त करता है।",
+    "changed": "3 नवंबर: विरोध आयोजकों ने घोषणा की कि एक हिरासत में लिए गए प्रदर्शनकारी से जुड़े अदालती फैसले के बाद रॉसियो स्क्वायर में तंबू वापस आएंगे।"
    },
-   "summary": "आवास प्रचारकों और हजारों प्रदर्शनकारियों ने लिस्बन की सड़कों पर उतरकर मार्क्विस डी पोम्बाल से रॉसियो स्क्वायर तक मार्च किया, जिसके बाद गहरे होते आवास संकट और एक प्रस्तावित सरकारी किराया विधेयक के विरोध में सार्वजनिक चौराहों पर तंबू शिविर लगाए गए। पुलिस बलों ने तंबुओं को ध्वस्त करने और सार्वजनिक चौराहों पर तंबू लगाने वाले प्रदर्शनकारियों को हटाने के लिए तड़के हस्तक्षेप किया, जिसमें अधिकारियों, कुत्तों और लाठीचार्ज का इस्तेमाल किया गया। कासा पारा विवर जैसे कार्यकर्ता समूहों ने पुलिस की कार्रवाइयों की आलोचना करते हुए इसे असहमति को दबाने का एक राजनीतिक निर्णय बताया। अधिकारियों ने अधिकारियों को मामूली चोटें आने और अवज्ञा के लिए कई गिरफ्तारियों की सूचना दी, वहीं आयोजकों और चिकित्सा सेवाओं ने दावा किया कि निकासी के दौरान दर्जनों प्रतिभागियों को चोटें आईं। प्रधानमंत्री लुइस मोंटेनेग्रो ने मामूली संशोधनों के प्रति खुलापन व्यक्त करते हुए सरकार के आवास कार्यक्रम का बचाव किया, जबकि विपक्षी हस्तियों और कानूनी प्रतिनिधियों ने बल प्रयोग की निंदा की।",
+   "summary": "हजारों प्रदर्शनकारियों ने आवास की बढ़ती लागत, उच्च किराये और किराया सीमा तथा बेदखली से संबंधित सरकारी विधायी प्रस्तावों के खिलाफ लिस्बन और पोर्टो में सड़कों पर उतरकर विरोध किया है। कासा पारा विवेर और अकाम्पाडा लिस्बन जैसे सक्रिय समूहों द्वारा आंशिक रूप से आयोजित इन विरोध प्रदर्शनों में बड़े मार्च और रॉसियो स्क्वायर सहित प्रमुख सार्वजनिक चौकों में तंबू शिविरों की स्थापना शामिल है। पुलिस ने अनधिकृत शिविरों को हटाने के लिए कई सप्ताहांतों पर सुबह के समय हस्तक्षेप किया, जिसमें लाठी, ढाल और पुलिस कुत्तों का उपयोग किया गया, जिससे झड़पें, कई गिरफ्तारियां और नागरिक तथा पुलिसकर्मी घायल हुए। जबकि प्रधानमंत्री लुइस मोंटेनेग्रो के नेतृत्व वाली अल्पसंख्यक केंद्र-दक्षिणपंथी सरकार ने पुलिस अभियानों का बचाव करते हुए उन्हें आनुपातिक बताया और आवास विधेयक को पूरी तरह से रद्द करने से इनकार कर दिया, प्रदर्शनकारियों और विपक्षी हस्तियों ने इन कार्रवाइयों की कड़ी निंदा की है।",
    "demands": [
     "बेदखली को आसान बनाने वाले विधेयक को रद्द करें",
-    "नए पट्टों पर किराए की सीमा समाप्त करें",
-    "आवास किफ़ायती संकट का समाधान करें"
+    "नए पट्टों पर किराया सीमा समाप्त करें",
+    "अधिक किफायती आवास प्रदान करें",
+    "प्रदर्शन करने के अधिकार की रक्षा करें",
+    "हिरासत में लिए गए प्रदर्शनकारियों के खिलाफ कार्यवाही खारिज करें"
    ],
-   "response": "अनुमति की कमी और अवज्ञा का हवाला देते हुए पुलिस ने विरोध शिविरों को हटा दिया, जिसके परिणामस्वरूप कई गिरफ्तारियां हुईं और लाठीचार्ज किया गया। प्रधानमंत्री लुइस मोंटेनेग्रो ने किराया विधेयक को पूरी तरह से रद्द करने से इंकार कर दिया, लेकिन कहा कि वह अंतिम मतदान से पहले संशोधनों के लिए खुले हैं।",
+   "response": "पुलिस ने आदेशों की अनदेखी के बाद शिविरों को हटा दिया, जिसका कारण अनधिकृत संरचनाएं और अवज्ञा बताया गया। प्रधानमंत्री लुइस मोंटेनेग्रो ने आवास विधेयक को रद्द करने से इनकार कर दिया, हालांकि उन्होंने संशोधनों के लिए खुलापन व्यक्त किया। पुलिस ने कई गिरफ्तारियों और अधिकारियों के घायल होने की सूचना दी।",
    "updates": [
-    "आवास प्रचारकों ने लिस्बन में मार्क्विस डी पोम्बाल से रॉसियो स्क्वायर तक मार्च किया।",
-    "रिपोर्टों के अनुसार लिस्बन में 25 गिरफ्तारियों के परिणामस्वरूप पुलिस ने रॉसियो स्क्वायर में एक विरोध शिविर को हटा दिया।",
-    "हजारों प्रदर्शनकारियों ने किफ़ायती आवास की मांग करते हुए मध्य लिस्बन में एक और मार्च निकाला।",
-    "फैलाव के आदेशों के बाद पुलिस ने रॉसियो स्क्वायर में एक नए बनाए गए तंबू शिविर को हटा दिया, और लिस्बन में छह लोगों को हिरासत में लिया।",
-    "सप्ताहांत के अभियानों से हिरासत में लिए गए प्रदर्शनकारी अदालत में पेश हुए जबकि बचाव पक्ष के वकीलों ने कानूनी शिकायतों की घोषणा की।",
-    "कार्यकर्ताओं ने अदालत के फैसले का जश्न मनाया और घोषणा की कि विरोध के तंबू रॉसियो स्क्वायर में वापस आएंगे।"
+    "आवास अभियानकर्ताओं ने लिस्बन में मार्केस डी पोम्बल से रॉसियो स्क्वायर तक मार्च किया।",
+    "पुलिस ने रॉसियो स्क्वायर में एक विरोध शिविर को हटा दिया, जिसके परिणामस्वरूप लिस्बन में 25 और पोर्टो में 6 गिरफ्तारियां हुईं।",
+    "अल्गार्वे एम रेसिस्टेंसिया आंदोलन ने पुलिस हस्तक्षेप को लेकर प्रधानमंत्री के इस्तीफे की मांग की।",
+    "लिस्बन में संसद के बाहर हजारों प्रदर्शनकारी एकत्र हुए क्योंकि कानून निर्माता खर्च योजनाओं पर बहस कर रहे थे।",
+    "पुलिस ने हजारों लोगों के मार्च के बाद रॉसियो स्क्वायर में एक नया तंबू शिविर हटा दिया, जिसमें लिस्बन और पोर्टो में 13 लोगों को गिरफ्तार किया गया।",
+    "अमेरिकी दूतावास ने एक विरोध चेतावनी जारी की जिसमें अमेरिकियों को रॉसियो स्क्वायर और प्राका डोम जोआओ I से बचने की सलाह दी गई।",
+    "विरोध आयोजकों ने घोषणा की कि एक अदालती फैसले के बाद रॉसियो स्क्वायर में तंबू वापस आएंगे।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "पुलिस ने 13 घायल अधिकारियों और अज्ञात संख्या में नागरिक चोटों की सूचना दी, जबकि सक्रिय समूह अकाम्पाडा लिस्बन ने दावा किया कि 30 से अधिक प्रदर्शनकारी घायल हुए थे।"
+   ],
    "numbers": {
-    "arrests": "13 लोगों को गिरफ्तार करना",
-    "injuries": "25 लोगों को चिकित्सा इकाइयों में सहायता दी गई"
+    "arrests": "13 गिरफ्तारियां",
+    "injuries": "13 घायल अधिकारी"
    }
   },
   "mr": {
-   "title": "लिस्बनमध्ये सुरू असलेल्या निदर्शनांदरम्यान पोलिसांनी घरे आंदोलनाचे तंबू हटवले",
-   "seoTitle": "लिस्बनमधील घरे आंदोलनाचे तंबू पोलिसांनी हटवले",
+   "title": "लिस्बनमध्ये सुरू असलेल्या निदर्शनांदरम्यान पोलिसांनी गृहनिर्माण निषेध छावण्या हटवल्या",
+   "seoTitle": "लिस्बनमध्ये पोलिसांनी गृहनिर्माण निषेध छावण्या हटवल्या",
    "tea": {
-    "why": "पोर्तुगालमधील गंभीर परवडणाऱ्या घरांच्या संकटाविरोधात आणि एका वादग्रस्त सरकारी भाडे विधेयकाविरोधात आंदोलक निदर्शने करत आहेत.",
-    "want": "विस्थापना सुलभ करणारे आणि नवीन करारांवर भाड्याची मर्यादा संपवणारे विधेयक सरकारने रद्द करावे, अशी मागणी निदर्शने करत आहेत.",
-    "changed": "३ नोव्हेंबर: एका अटक केलेल्या आंदोलकाशी संबंधित न्यायालयाच्या निकालानंतर कार्यकर्त्यांनी घोषणा केली की रॉसियो स्क्वेअरमध्ये तंबू परत येतील."
+    "why": "पोर्तुगालचे गंभीर गृहनिर्माण संकट, वाढते भाडे आणि मालमत्तेच्या वाढत्या किमतींविरुद्ध निदर्शक निदर्शने करत आहेत.",
+    "want": "निदर्शकांची मागणी आहे की सरकारने बेदखली सुलभ करणारे आणि नवीन भाडेकरारांवरील भाडे मर्यादा संपवणारे विधेयक मागे घ्यावे.",
+    "changed": "३ नोव्हेंबर: निषेध आयोजकांनी घोषणा केली की एका अटकेतील निदर्शकाशी संबंधित न्यायालयाच्या निर्णयानंतर रॉसियो स्क्वेअरमध्ये तंबू परत येतील."
    },
-   "summary": "आवास कार्यकर्ते आणि हजारो निदर्शकांनी लिस्बनच्या रस्त्यांवर उतरून मार्क्वेस डी पोम्बाल ते रॉसियो स्क्वेअरपर्यंत मार्च काढला, त्यानंतर गंभीर होत चाललेले घरांचे संकट आणि प्रस्तावित सरकारी भाडे विधेयकाच्या निषेधार्थ सार्वजनिक चौकांमध्ये तंबू ठोकण्यात आले. सार्वजनिक चौकांमध्ये तंबू उभारणाऱ्या आंदोलकांना हटवण्यासाठी आणि तंबू उध्वस्त करण्यासाठी पोलीस दलांनी पहाटेच्या वेळी हस्तक्षेप केला, ज्यामध्ये अधिकारी, श्वानपथक आणि लाठीचार्जचा वापर करण्यात आला. कासा पारा विव्हर सारख्या कार्यकर्त्यांच्या गटांनी पोलिसांच्या कारवाईची टीका करत असहमती दाबण्याचा राजकीय निर्णय असल्याचे म्हटले. अधिकाऱ्यांनी अधिकाऱ्यांना किरकोळ दुखापती झाल्याचे आणि अनादराबद्दल काही जणांना अटक झाल्याचे सांगितले, तर आयोजक आणि वैद्यकीय सेवांनी दावा केला की मोहिमेदरम्यान डझनभर सहभासी जखमी झाले. पंतप्रधान लुइस माँटेनेग्रो यांनी किरकोळ सुधारणांबद्दल मोकळेपणा व्यक्त करत सरकारच्या गृहनिर्माण कार्यक्रमाचे समर्थन केले, तर विरोधी पक्षाच्या नेत्यांनी आणि कायदेशीर प्रतिनिधींनी बळाच्या वापराचा निषेध केला.",
+   "summary": "हजारो निदर्शकांनी गृहनिर्माण खर्च, उच्च भाडे आणि भाडे मर्यादा व बेदखलीबाबतच्या सरकारी विधायी प्रस्तावांविरुद्ध लिस्बन आणि पोर्टोमध्ये रस्त्यावर उतरून निषेध केला आहे. कासा पारा विवेर आणि अकाम्पाडा लिस्बन सारख्या सक्रिय गटांद्वारे अंशतः आयोजित केलेल्या या निदर्शनांमध्ये मोठे मोर्चे आणि रॉसियो स्क्वेअरसह प्रमुख सार्वजनिक चौकांमध्ये तंबू छावण्या उभारणे समाविष्ट आहे. पोलिसांनी अनधिकृत छावण्या हटवण्यासाठी अनेक आठवड्यांच्या शेवटी पहाटेच्या वेळी हस्तक्षेप केला, ज्यामध्ये लाठ्या, ढाली आणि पोलीस कुत्र्यांचा वापर करण्यात आला, ज्यामुळे चकमकी, अनेक अटक आणि नागरिक व पोलीस जखमी झाले. पंतप्रधान लुईस मोंटेनेग्रो यांच्या नेतृत्वाखालील अल्पसंख्याक केंद्र-उजव्या सरकारने पोलीस कारवाईचा बचाव करत ती प्रमाणबद्ध असल्याचे म्हटले आणि गृहनिर्माण विधेयक पूर्णपणे रद्द करण्यास नकार दिला, तर निदर्शक आणि विरोधी नेत्यांनी या कारवाईचा तीव्र निषेध केला आहे.",
    "demands": [
-    "विस्थापन सुलभ करणारे विधेयक रद्द करा",
-    "नवीन करारांवर भाड्याची मर्यादा संपवा",
-    "परवडणाऱ्या घरांच्या संकटावर उपाय करा"
+    "बेदखली सुलभ करणारे विधेयक रद्द करा",
+    "नवीन भाडेकरारांवरील भाडे मर्यादा संपवा",
+    "अधिक परवडणारी घरे उपलब्ध करून द्या",
+    "निदर्शन करण्याच्या अधिकाराचे रक्षण करा",
+    "अटकेतील निदर्शकांवरील कारवाई रद्द करा"
    ],
-   "response": "परवानगीचा अभाव आणि अनादराचे कारण देत पोलिसांनी आंदोलनाचे तंबू हटवले, ज्यामुळे अनेक गिरफ्तार्या झाल्या आणि लाठीचार्ज करण्यात आला. पंतप्रधान लुइस माँटेनेग्रो यांनी भाडे विधेयक पूर्णपणे रद्द करण्यास नकार दिला परंतु अंतिम मतदानापूर्वी सुधारणांसाठी तयार असल्याचे सांगितले.",
+   "response": "आदेशांचे उल्लंघन केल्यामुळे पोलिसांनी छावण्या हटवल्या, ज्याचे कारण अनधिकृत संरचना आणि अवज्ञा असे दिले. पंतप्रधान लुईस मोंटेनेग्रो यांनी गृहनिर्माण विधेयक रद्द करण्यास नकार दिला, तरीही त्यांनी सुधारणांसाठी तयारी दर्शवली. पोलिसांनी अनेक अटक आणि अधिकाऱ्यांच्या दुखापतींची नोंद केली.",
    "updates": [
-    "आवास कार्यकर्त्यांनी लिस्बनमधील मार्क्वेस डी पोम्बाल ते रॉसियो स्क्वेअरपर्यंत मार्च काढला.",
-    "वृत्तांनुसार लिस्बनमध्ये २५ गिरफ्तार्या करत पोलिसांनी रॉसियो स्क्वेअरमधील आंदोलनाचे तंबू हटवले.",
-    "हजारो निदर्शकांनी परवडणाऱ्या घरांची मागणी करत मध्य लिस्बनमधून आणखी एक मार्च काढला.",
-    "विसर्जनाच्या आदेशानंतर पोलिसांनी रॉसियो स्क्वेअरमधील नव्याने उभारलेले तंबू शिबिर हटवले आणि लिस्बनमध्ये सहा जणांना ताब्यात घेतले.",
-    "शनिवारच्या मोहिमेतील अटक केलेले आंदोलक न्यायालयात हजर झाले तर बचाव पक्षाच्या वकिलांनी कायदेशीर तक्रारींची घोषणा केली.",
-    "कार्यकर्त्यांनी न्यायालयाच्या निकालाचा आनंद साजरा केला आणि घोषणा केली की आंदोलनाचे तंबू रॉसियो स्क्वेअरमध्ये परत येतील."
+    "गृहनिर्माण कार्यकर्त्यांनी लिस्बनमधील मार्केस डी पोम्बल ते रॉसियो स्क्वेअरपर्यंत मोर्चा काढला.",
+    "पोलिसांनी रॉसियो स्क्वेअरमधील निषेध छावणी हटवली, ज्याचा परिणाम लिस्बनमध्ये २५ आणि पोर्टोमध्ये ६ अटक करण्यात आला.",
+    "अल्गार्वे एम रेसिस्टन्सिया चळवळीने पोलीस हस्तक्षेपामुळे पंतप्रधानांच्या राजीनाम्याची मागणी केली.",
+    "लिस्बनमध्ये संसदेबाहेर हजारो निदर्शक जमले कारण कायदेकर्ते खर्च योजनांवर चर्चा करत होते.",
+    "हजारो लोकांनी मोर्चा काढल्यानंतर पोलिसांनी रॉसियो स्क्वेअरमधील नवीन तंबू छावणी हटवली, ज्यामध्ये लिस्बन आणि पोर्टोमध्ये १३ लोकांना अटक करण्यात आली.",
+    "अमेरिकन दूतावासाने निषेध इशारा जारी करून अमेरिकन नागरिकांना रॉसियो स्क्वेअर आणि प्राका डोम जोआओ I टाळण्याचा सल्ला दिला.",
+    "निषेध आयोजकांनी घोषणा केली की न्यायालयाच्या निर्णयानंतर रॉसियो स्क्वेअरमध्ये तंबू परत येतील."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "पोलिसांनी १३ जखमी अधिकारी आणि अज्ञात संख्येने नागरिक जखमी झाल्याची नोंद केली, तर सक्रिय गट अकाम्पाडा लिस्बनने दावा केला की ३० पेक्षा जास्त निदर्शक जखमी झाले आहेत."
+   ],
    "numbers": {
-    "arrests": "१३ लोकांना अटक करणे",
-    "injuries": "२५ लोकांना युनिट्समध्ये मदत देण्यात आली"
+    "arrests": "१३ अटक",
+    "injuries": "१३ जखमी अधिकारी"
    }
   },
   "es": {
-   "title": "La policía desmantela campamentos de protesta por la vivienda en Lisboa en medio de manifestaciones continuas",
-   "seoTitle": "Campamentos de protesta por la vivienda en Lisboa",
+   "title": "La policía desmantela campamentos de protesta por la vivienda en Lisboa en medio de manifestaciones",
+   "seoTitle": "Policía desmantela campamentos de vivienda en Lisboa",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra la grave crisis de asequibilidad de la vivienda en Portugal y un polémico proyecto de ley de alquileres del gobierno.",
-    "want": "Los manifestantes exigen que el gobierno retire un proyecto de ley que facilita los desalojos y pone fin a los topes de alquiler en los nuevos contratos.",
-    "changed": "3 de noviembre: Los activistas anunciaron que las tiendas de campaña volverían a la plaza de Rossio tras una decisión judicial relacionada con un manifestante detenido."
+    "why": "Los manifestantes protestan contra la grave crisis de vivienda de Portugal, los crecientes costos de alquiler y el aumento de los precios de las propiedades.",
+    "want": "Los manifestantes exigen que el gobierno retire un proyecto de ley que facilita los desalojos y elimina los límites de alquiler en los nuevos contratos.",
+    "changed": "3 de noviembre: Los organizadores de la protesta anunciaron que las tiendas de campaña regresarían a la Plaza Rossio tras una decisión judicial relacionada con un manifestante detenido."
    },
-   "summary": "Activistas por la vivienda y miles de manifestantes salieron a las calles de Lisboa, marchando desde Marquês de Pombal hasta la plaza de Rossio, seguido por el establecimiento de campamentos con tiendas de campaña para protestar contra la profundización de la crisis de la vivienda y un proyecto de ley de alquileres propuesto por el gobierno. Las fuerzas policiales intervinieron en las primeras horas de la madrugada, desplegando agentes, perros y cargas policiales para desmantelar los campamentos y retirar a los manifestantes que habían instalado tiendas de campaña en las plazas públicas. Grupos de activistas como Casa para Viver criticaron las acciones policiales calificándolas de decisión política para reprimir la disidencia. Mientras que las autoridades informaron de lesiones leves entre los agentes y un número de arrestos por desobediencia, los organizadores y los servicios médicos afirmaron que decenas de participantes sufrieron lesiones durante los desalojos. El primer ministro Luís Montenegro defendió el programa de vivienda del gobierno a la vez que expresó apertura a enmiendas menores, mientras que figuras de la oposición y representantes legales condenaron el uso de la fuerza.",
+   "summary": "Miles de manifestantes han salido a las calles en Lisboa y Oporto para protestar contra el aumento de los costos de la vivienda, los alquileres altos y las propuestas legislativas del gobierno sobre los límites de alquiler y los desalojos. Organizadas en parte por grupos activistas como Casa para Viver y Acampada Lisboa, las protestas han involucrado grandes marchas y el establecimiento de campamentos de tiendas de campaña en importantes plazas públicas, incluida la Plaza Rossio. La policía intervino durante las primeras horas de la mañana en varios fines de semana para desmantelar los campamentos no autorizados, empleando porras, escudos y perros policía, lo que provocó enfrentamientos, múltiples arrestos y lesiones tanto a civiles como a policías. Si bien el gobierno minoritario de centro-derecha, liderado por el primer ministro Luís Montenegro, defendió las operaciones policiales como proporcionadas y se negó a eliminar el proyecto de ley de vivienda por completo, los manifestantes y las figuras de la oposición condenaron enérgicamente las acciones como una represión contundente.",
    "demands": [
-    "Retirar el proyecto de ley que facilita los desalojos",
-    "Poner fin a los topes de alquiler en los nuevos contratos",
-    "Abordar la crisis de asequibilidad de la vivienda"
+    "Eliminar el proyecto de ley que facilita los desalojos",
+    "Terminar con los límites de alquiler en nuevos contratos",
+    "Proporcionar más viviendas asequibles",
+    "Proteger el derecho a manifestarse",
+    "Desestimar los procedimientos contra los manifestantes detenidos"
    ],
-   "response": "La policía desalojó los campamentos de protesta citando la falta de autorización y la desobediencia, lo que resultó en múltiples arrestos y cargas policiales. El primer ministro Luís Montenegro descartó eliminar por completo el proyecto de ley de alquileres, pero declaró que está abierto a enmiendas antes de una votación final.",
+   "response": "La policía despejó los campamentos después de que se ignoraran las órdenes de dispersión, citando estructuras no autorizadas y desobediencia. El primer ministro Luís Montenegro descartó eliminar el proyecto de ley de vivienda, aunque expresó apertura a enmiendas. La policía informó de múltiples arrestos y lesiones entre los oficiales.",
    "updates": [
-    "Activistas por la vivienda marcharon desde Marquês de Pombal hasta la plaza de Rossio en Lisboa.",
-    "La policía desmanteló un campamento de protesta en la plaza de Rossio, lo que resultó en 25 arrestos en Lisboa según los informes.",
-    "Miles de manifestantes realizaron otra marcha por el centro de Lisboa exigiendo vivienda asequible.",
-    "La policía desmanteló un campamento de tiendas de campaña recién erigido en la plaza de Rossio tras las órdenes de dispersión, deteniendo a seis personas en Lisboa.",
-    "Los manifestantes detenidos en las operaciones del fin de semana comparecieron ante el tribunal mientras los abogados defensores anunciaron denuncias legales.",
-    "Los activistas celebraron una decisión judicial y anunciaron que las tiendas de protesta volverían a la plaza de Rossio."
+    "Activistas por la vivienda marcharon desde Marquês de Pombal hasta la Plaza Rossio en Lisboa.",
+    "La policía despejó un campamento de protesta en la Plaza Rossio, resultando en 25 arrestos en Lisboa y seis en Oporto.",
+    "El movimiento Algarve em Resistência pidió la dimisión del primer ministro por las intervenciones policiales.",
+    "Miles de manifestantes se reunieron frente al Parlamento en Lisboa mientras los legisladores debatían los planes de gasto.",
+    "La policía despejó un nuevo campamento de tiendas de campaña en la Plaza Rossio después de que miles marcharan, arrestando a 13 personas en Lisboa y Oporto.",
+    "La Embajada de EE. UU. emitió una alerta de protesta aconsejando a los estadounidenses evitar la Plaza Rossio y la Praça Dom João I.",
+    "Los organizadores de la protesta anunciaron que las tiendas de campaña regresarían a la Plaza Rossio tras una decisión judicial."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La policía informó de 13 oficiales heridos y un número no especificado de lesiones civiles, mientras que el grupo activista Acampada Lisboa afirmó que más de 30 manifestantes resultaron heridos."
+   ],
    "numbers": {
-    "arrests": "arrestar a 13 personas",
-    "injuries": "25 personas fueron atendidas en unidades"
+    "arrests": "13 detenidos",
+    "injuries": "13 oficiales heridos"
    }
   },
   "fr": {
-   "title": "La police démantèle des camps de protestation pour le logement à Lisbonne au milieu de manifestations en cours",
-   "seoTitle": "Camps de protestation pour le logement démantelés",
+   "title": "La police démantèle des camps de protestation pour le logement à Lisbonne en pleine manifestation",
+   "seoTitle": "Camps de logement à Lisbonne démantelés par la police",
    "tea": {
-    "why": "Les manifestants protestent contre la grave crise de l'accessibilité au logement au Portugal et un projet de loi controversé du gouvernement sur les loyers.",
+    "why": "Les manifestants protestent contre la grave crise du logement au Portugal, la hausse des coûts des loyers et l'augmentation des prix de l'immobilier.",
     "want": "Les manifestants exigent que le gouvernement retire un projet de loi facilitant les expulsions et mettant fin au plafonnement des loyers sur les nouveaux baux.",
-    "changed": "3 nov. : Des militants ont annoncé que des tentes retournaient sur la place du Rossio à la suite d'une décision de justice concernant un manifestant détenu."
+    "changed": "3 novembre : Les organisateurs de la manifestation ont annoncé que les tentes reviendraient sur la place Rossio suite à une décision de justice impliquant un manifestant détenu."
    },
-   "summary": "Des militants du logement et des milliers de manifestants sont descendus dans les rues de Lisbonne, marchant de Marquês de Pombal à la place du Rossio, suivis par l'établissement de camps de tentes pour protester contre l'aggravation de la crise du logement et un projet de loi gouvernemental sur les loyers. Les forces de police sont intervinrent aux premières heures de la matinée, déployant des agents, des chiens et des charges de matraque pour démanteler les camps et expulser les manifestants qui avaient dressé des tentes sur les places publiques. Des groupes de militants tels que Casa para Viver ont critiqué les actions de la police comme une décision politique visant à réprimer la dissidence. Alors que les autorités ont fait état de blessures mineures parmi les agents et d'un certain nombre d'arrestations pour désobéissance, les organisateurs et les services médicaux ont affirmé que des dizaines de participants avaient subi des blessures lors des évacuations. Le Premier ministre Luís Montenegro a défendu le programme de logement du gouvernement tout en exprimant son ouverture à des amendements mineurs, tandis que des personnalités de l'opposition et des représentants légaux ont condamné l'usage de la force.",
+   "summary": "Des milliers de manifestants sont descendus dans les rues de Lisbonne et de Porto pour protester contre la hausse des coûts du logement, les loyers élevés et les propositions législatives du gouvernement concernant le plafonnement des loyers et les expulsions. Organisées en partie par des groupes militants tels que Casa para Viver et Acampada Lisboa, les manifestations ont impliqué de grandes marches et l'installation de camps de tentes sur des places publiques majeures, dont la place Rossio. La police est intervenue aux premières heures de la matinée lors de plusieurs week-ends pour démanteler les camps non autorisés, utilisant des matraques, des boucliers et des chiens policiers, ce qui a conduit à des affrontements, de multiples arrestations et des blessures parmi les civils et les policiers. Alors que le gouvernement minoritaire de centre-droit, dirigé par le Premier ministre Luís Montenegro, a défendu les opérations policières comme proportionnées et a refusé d'abandonner complètement le projet de loi sur le logement, les manifestants et les personnalités de l'opposition ont fermement condamné ces actions comme une répression brutale.",
    "demands": [
-    "Abroger le projet de loi facilitant les expulsions",
+    "Abandonner le projet de loi facilitant les expulsions",
     "Mettre fin au plafonnement des loyers sur les nouveaux baux",
-    "S'attaquer à la crise de l'accessibilité au logement"
+    "Fournir davantage de logements abordables",
+    "Protéger le droit de manifester",
+    "Abandonner les poursuites contre les manifestants détenus"
    ],
-   "response": "La police a évacué les camps de protestation en invoquant le manque d'autorisation et la désobéissance, ce qui a entraîné de multiples arrestations et des charges de matraque. Le Premier ministre Luís Montenegro a exclu d'abandonner entièrement le projet de loi sur les loyers mais a déclaré qu'il était ouvert à des amendements avant un vote final.",
+   "response": "La police a évacué les camps après que les ordres de dispersion aient été ignorés, citant des structures non autorisées et la désobéissance. Le Premier ministre Luís Montenegro a exclu d'abandonner le projet de loi sur le logement, bien qu'il ait exprimé une ouverture aux amendements. La police a signalé de multiples arrestations et des blessures parmi les officiers.",
    "updates": [
-    "Des militants du logement ont marché de Marquês de Pombal à la place du Rossio à Lisbonne.",
-    "La police a évacué un camp de protestation sur la place du Rossio, entraînant 25 arrestations à Lisbonne selon les rapports.",
-    "Des milliers de manifestants ont tenu une autre marche dans le centre de Lisbonne pour exiger des logements abordables.",
-    "La police a évacué un camp de tentes nouvellement dressé sur la place du Rossio à la suite d'ordres de dispersion, arrêtant six personnes à Lisbonne.",
-    "Les manifestants détenus lors des opérations du week-end ont comparu devant le tribunal tandis que les avocats de la défense ont annoncé des plaintes en justice.",
-    "Des militants ont célébré une décision de justice et ont annoncé que les tentes de protestation reviendraient sur la place du Rossio."
+    "Des militants pour le logement ont marché de Marquês de Pombal à la place Rossio à Lisbonne.",
+    "La police a évacué un camp de protestation sur la place Rossio, entraînant 25 arrestations à Lisbonne et six à Porto.",
+    "Le mouvement Algarve em Resistência a appelé à la démission du Premier ministre suite aux interventions policières.",
+    "Des milliers de manifestants se sont rassemblés devant le Parlement à Lisbonne alors que les législateurs débattaient des plans de dépenses.",
+    "La police a évacué un nouveau camp de tentes sur la place Rossio après la marche de milliers de personnes, arrêtant 13 personnes à Lisbonne et à Porto.",
+    "L'ambassade des États-Unis a émis une alerte de manifestation conseillant aux Américains d'éviter la place Rossio et la Praça Dom João I.",
+    "Les organisateurs de la manifestation ont annoncé que les tentes reviendraient sur la place Rossio suite à une décision de justice."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La police a signalé 13 officiers blessés et un nombre indéterminé de blessures civiles, tandis que le groupe militant Acampada Lisboa a affirmé que plus de 30 manifestants avaient été blessés."
+   ],
    "numbers": {
-    "arrests": "l'arrestation de 13 personnes",
-    "injuries": "25 personnes ont été prises en charge dans des unités"
+    "arrests": "13 détenus",
+    "injuries": "13 officiers blessés"
    }
   },
   "de": {
-   "title": "Polizei räumt Wohnungs-Protestcamps in Lissabon inmitten anhaltender Demonstrationen",
-   "seoTitle": "Wohnungs-Protestcamps in Lissabon von Polizei geräumt",
+   "title": "Polizei räumt Wohnungsbau-Protestcamps in Lissabon inmitten laufender Demonstrationen",
+   "seoTitle": "Wohnungsbau-Protestcamps in Lissabon geräumt",
    "tea": {
-    "why": "Demonstranten protestieren gegen Portugals schwerwiegende Krise der Wohnungsbezahlbarkeit und ein umstrittenes Mietgesetz der Regierung.",
-    "want": "Demonstranten fordern, dass die Regierung ein Gesetz kippt, das Räumungen erleichtert und Mietpreisbremsen für neue Mietverträge beendet.",
-    "changed": "3. Nov.: Aktivisten kündigten an, dass Zelte nach einer Gerichtsentscheidung bezüglich eines festgenommenen Demonstranten zum Rossio-Platz zurückkehren würden."
+    "why": "Die Demonstranten protestieren gegen die schwere Wohnungskrise in Portugal, die steigenden Mietkosten und die explodierenden Immobilienpreise.",
+    "want": "Die Demonstranten fordern, dass die Regierung einen Gesetzentwurf zurückzieht, der Zwangsräumungen erleichtert und Mietpreisbremsen für neue Mietverträge beendet.",
+    "changed": "3. November: Die Protestorganisatoren kündigten an, dass nach einer Gerichtsentscheidung bezüglich eines inhaftierten Demonstranten wieder Zelte auf dem Rossio-Platz aufgestellt würden."
    },
-   "summary": "Wohnungsaktivisten und Tausende Demonstranten gingen in den Straßen von Lissabon auf die Straße, marschierten vom Marquês de Pombal zum Rossio-Platz, gefolgt von der Errichtung von Zeltdörfern, um gegen die sich vertiefende Wohnungsnot und ein vorgeschlagenes Regierungsmietgesetz zu protestieren. Polizeikräfte griffen in den frühen Morgenstunden ein, setzten Beamte, Hunde und Schlagstöcke ein, um die Camps zu räumen und Demonstranten zu entfernen, die Zelte auf den öffentlichen Plätzen aufgestellt hatten. Aktivistengruppen wie Casa para Viver kritisierten das Vorgehen der Polizei als politische Entscheidung zur Unterdrückung von Dissens. Während die Behörden über leichtere Verletzungen bei Beamten und eine Reihe von Festnahmen wegen Ungehorsams berichteten, behaupteten Organisatoren und Rettungsdienste, dass Dutzende Teilnehmer während Räumungen Verletzungen erlitten hätten. Premierminister Luís Montenegro verteidigte das Wohnungsbauprogramm der Regierung und äußerte gleichzeitig Offenheit für kleinere Änderungen, während Oppositionsfiguren und Rechtsvertreter den Einsatz von Gewalt verurteilten.",
+   "summary": "Tausende Demonstranten sind in Lissabon und Porto auf die Straße gegangen, um gegen die steigenden Wohnkosten, hohe Mieten und die gesetzgeberischen Vorschläge der Regierung zu Mietpreisbremsen und Zwangsräumungen zu protestieren. Die teilweise von Aktivistengruppen wie Casa para Viver und Acampada Lisboa organisierten Proteste umfassten große Märsche und die Errichtung von Zeltlagern auf wichtigen öffentlichen Plätzen, darunter der Rossio-Platz. Die Polizei intervenierte an mehreren Wochenenden in den frühen Morgenstunden, um die nicht genehmigten Lager unter Einsatz von Schlagstöcken, Schildern und Polizeihunden zu räumen, was zu Zusammenstößen, zahlreichen Festnahmen sowie Verletzungen bei Zivilisten und Polizisten führte. Während die Minderheitsregierung der Mitte-Rechts-Partei unter Premierminister Luís Montenegro die Polizeieinsätze als verhältnismäßig verteidigte und sich weigerte, das Wohnungsbaugesetz vollständig zu verwerfen, verurteilten Demonstranten und Oppositionspolitiker die Maßnahmen scharf als harte Repression.",
    "demands": [
-    "Gesetz zur Erleichterung von Räumungen kippen",
+    "Gesetzentwurf zur Erleichterung von Zwangsräumungen verwerfen",
     "Mietpreisbremsen für neue Mietverträge beenden",
-    "Krise der Wohnungsbezahlbarkeit angehen"
+    "Mehr bezahlbaren Wohnraum bereitstellen",
+    "Recht auf Demonstration schützen",
+    "Verfahren gegen inhaftierte Demonstranten einstellen"
    ],
-   "response": "Die Polizei räumte die Protestcamps unter Berufung auf fehlende Genehmigung und Ungehorsam, was zu zahlreichen Festnahmen und Schlagstockeinsätzen führte. Premierminister Luís Montenegro schloss eine vollständige Streichung des Mietgesetzes aus, erklärte jedoch, er sei vor einer finalen Abstimmung für Änderungen offen.",
+   "response": "Die Polizei räumte die Lager, nachdem Aufforderungen zur Auflösung ignoriert wurden, unter Berufung auf nicht genehmigte Strukturen und Ungehorsam. Premierminister Luís Montenegro schloss eine Verwerfung des Wohnungsbaugesetzes aus, zeigte sich jedoch offen für Änderungen. Die Polizei meldete mehrere Festnahmen und Verletzungen unter den Beamten.",
    "updates": [
-    "Wohnungsaktivisten marschierten vom Marquês de Pombal zum Rossio-Platz in Lissabon.",
-    "Die Polizei räumte ein Protestcamp auf dem Rossio-Platz, was Berichten zufolge zu 25 Festnahmen in Lissabon führte.",
-    "Tausende Demonstranten hielten einen weiteren Marsch durch das Zentrum von Lissabon ab und forderten bezahlbaren Wohnraum.",
-    "Die Polizei räumte nach Auflösungsbefehlen ein neu errichtetes Zeltlager auf dem Rossio-Platz und nahm sechs Personen in Lissabon in Gewahrsam.",
-    "Festgenommene Demonstranten aus den Wochenendaktionen erschienen vor Gericht, während Strafverteidiger rechtliche Beschwerden ankündigten.",
-    "Aktivisten feierten eine Gerichtsentscheidung und kündigten an, dass Protestzelte zum Rossio-Platz zurückkehren würden."
+    "Wohnungsbau-Aktivisten marschierten von Marquês de Pombal zum Rossio-Platz in Lissabon.",
+    "Die Polizei räumte ein Protestcamp auf dem Rossio-Platz, was zu 25 Festnahmen in Lissabon und sechs in Porto führte.",
+    "Die Bewegung Algarve em Resistência forderte den Rücktritt des Premierministers aufgrund der Polizeieinsätze.",
+    "Tausende Demonstranten versammelten sich vor dem Parlament in Lissabon, während die Gesetzgeber über Ausgabenpläne debattierten.",
+    "Die Polizei räumte ein neues Zeltlager auf dem Rossio-Platz, nachdem Tausende marschiert waren, und nahm 13 Personen in Lissabon und Porto fest.",
+    "Die US-Botschaft gab eine Protestwarnung heraus und riet Amerikanern, den Rossio-Platz und die Praça Dom João I zu meiden.",
+    "Die Protestorganisatoren kündigten an, dass nach einer Gerichtsentscheidung wieder Zelte auf dem Rossio-Platz aufgestellt würden."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Die Polizei meldete 13 verletzte Beamte und eine nicht näher bezifferte Anzahl an zivilen Verletzungen, während die Aktivistengruppe Acampada Lisboa behauptete, dass mehr als 30 Demonstranten verletzt wurden."
+   ],
    "numbers": {
-    "arrests": "Festnahme von 13 Personen",
-    "injuries": "25 Personen wurden in Einheiten versorgt"
+    "arrests": "13 Festnahmen",
+    "injuries": "13 verletzte Beamte"
    }
   }
  },
