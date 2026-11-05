@@ -3,7 +3,7 @@
  "slug": "lyon-cost-of-living-protest-oct-2026-2",
  "stage": "live",
  "title": "Protesters march in Lyon over living costs and public services",
- "seoTitle": "Lyon protest over living costs",
+ "seoTitle": "Lyon march over living costs",
  "place": {
   "city": "Lyon",
   "region": "Auvergne-Rhône-Alpes",
@@ -13,11 +13,11 @@
   "citySlug": "lyon",
   "regionSlug": "auvergne-rhone-alpes"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
+  "labour",
   "prices",
-  "education",
-  "labour"
+  "education"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-05",
@@ -33,92 +33,122 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against rising living costs, insufficient funding for public services, and issues in the education sector.",
-  "want": "Participants are demanding higher wages, increased investment in public services, and better funding for education.",
-  "changed": "Nov 5: Protesters marched in Lyon, with turnout estimates ranging from 30,500 to 55,000, amid reports of a vehicle fire."
+  "why": "Protesters are demonstrating against rising living costs, declining public services, and to demand better wages and education funding.",
+  "want": "The protesters demand higher wages, increased investment in public services and education, and greater social and fiscal justice.",
+  "changed": "Nov 5: Thousands marched in Lyon following a failed legal challenge against a prefectural order restricting the protest route."
  },
- "summary": "On November 5, 2026, a protest took place in Lyon, France, organised by an inter-union coalition. Participants marched to demand higher wages, improved public services, and increased funding for education. The demonstration occurred despite a prefectural order banning protests in parts of the city center. According to the prefecture, 30,500 people attended, while union organisers estimated the crowd at 55,000. During the event, a vehicle belonging to a homeless person was set on fire, with students reportedly assisting the owner in retrieving personal documents. The protest was part of a broader day of nationwide rallies and strikes. Authorities maintained a security presence, and tensions were reported between demonstrators and police, though the event concluded later that day.",
+ "summary": "On November 5, 2026, a large demonstration took place in Lyon as part of a nationwide strike and day of action. Organised by an inter-union coalition and supported by student groups, the march began at the Manufacture des Tabacs. Participants protested against the rising cost of living, inadequate public services, and education funding. The prefecture of the Rhône had previously issued an order banning protests in much of the city center, which was upheld by a court despite a legal challenge from unions. Tensions were reported, with police using tear gas against groups of protesters. One vehicle belonging to a homeless man was destroyed by fire during the event. Estimates of the crowd size varied significantly between official figures and those provided by the organisers.",
  "organizers": [
-  "intersyndicale"
+  "Intersyndicale",
+  "CGT"
  ],
  "demands": [
   "Higher wages",
   "Increased public service funding",
-  "More education funding",
+  "More resources for education",
   "Social and fiscal justice"
  ],
- "response": "The prefecture issued an order banning demonstrations in parts of the city center. Police were deployed to manage the event, and the Interior Ministry reported that violence was contained.",
+ "response": "The prefecture of the Rhône prohibited demonstrations in much of the city center. The Interior Ministry stated that police were confronted by several hundred protesters and that violence was contained.",
  "numbers": {
   "crowd": {
    "value": 55000,
-   "text": "30,500 according to the prefecture, and 55,000 according to the inter-union coalition",
+   "text": "The prefecture estimated 30,500 participants, while the inter-union coalition estimated 55,000.",
    "sources": [
-    3
+    5
    ]
   },
   "arrests": {
    "value": 24,
    "text": "24 people were arrested on November 5",
    "sources": [
-    5
+    7
    ]
   },
   "injuries": {
    "value": 40,
    "text": "40 people injured on November 5, including 34 police officers and 6 participants",
    "sources": [
-    5
+    7
    ]
   }
  },
  "updates": [
   {
-   "at": "2026-11-05",
-   "text": "Protesters gathered in Lyon for a march organised by the inter-union coalition.",
+   "at": "2026-11-02",
+   "text": "Unions and student groups called for a national strike and mobilization on November 5.",
    "sources": [
-    1,
+    1
+   ]
+  },
+  {
+   "at": "2026-11-04",
+   "text": "The prefecture issued an order banning protests in the city center, leading to disputes over the march route.",
+   "sources": [
+    2
+   ]
+  },
+  {
+   "at": "2026-11-05",
+   "text": "A court rejected a union appeal against the protest ban; the march proceeded on a modified route.",
+   "sources": [
     3
    ]
   },
   {
    "at": "2026-11-05",
-   "text": "A vehicle was set on fire during the demonstration; students assisted the owner in recovering documents.",
+   "text": "Thousands marched in Lyon, with reports of clashes and a vehicle fire.",
    "sources": [
-    4
+    4,
+    5,
+    6
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://actu.fr/auvergne-rhone-alpes/lyon_69123/une-semaine-noire-annoncee-a-lyon-blocages-manifestations-greve-voici-ce-qui-est-prevu_65002510.html",
+   "publisher": "actu.fr",
+   "title": "Une semaine noire annoncée à Lyon : blocages, manifestations, grève... voici ce qui est prévu",
+   "publishedAt": "2026-11-02T14:51:10.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.lyoncapitale.fr/actualite/manifestation-du-5-novembre-a-lyon-la-prefecture-interdit-le-centre-ville-et-demande-aux-organisateurs-de-revoir-leur-copie",
+   "publisher": "lyoncapitale.fr",
+   "title": "Pourquoi la manifestation du 5 novembre à Lyon est encore en suspens ?",
+   "publishedAt": "2026-11-04T07:38:30.000Z"
+  },
+  {
+   "n": 3,
    "url": "https://www.lefigaro.fr/lyon/tensions-entre-les-syndicats-et-la-prefecture-autour-du-parcours-de-la-manifestation-lyonnaise-20261105",
    "publisher": "lefigaro.fr",
    "title": "Tensions à Lyon entre les syndicats et la préfecture autour du parcours de la manifestation",
    "publishedAt": "2026-11-05T09:31:48.000Z"
   },
   {
-   "n": 2,
+   "n": 4,
    "url": "https://www.detroitnews.com/story/news/world/2026/11/05/french-police-clash-protesters-lyon-day-nationwide-rallies-strike/92623313007/",
    "publisher": "detroitnews.com",
    "title": "French police clash with protesters in Lyon on day of nationwide rallies, strike",
    "publishedAt": "2026-11-05T13:50:26.000Z"
   },
   {
-   "n": 3,
+   "n": 5,
    "url": "https://www.20minutes.fr/societe/greve/4260652-20261105-manifestation-5-novembre-100-euros-pres-fin-mois-sacrifient-salaire-greve?at_medium=display&at_campaign=149",
    "publisher": "20minutes.fr",
    "title": "À Lyon, les travailleurs « sacrifient » leur salaire pour faire grève",
    "publishedAt": "2026-11-05T17:05:06.516Z"
   },
   {
-   "n": 4,
+   "n": 6,
    "url": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/cette-voiture-est-la-seule-chose-qui-me-restait-a-lyon-un-sdf-a-vu-son-vehicule-bruler-lors-de-la-manifestation-3445098.html",
    "publisher": "france3-regions.franceinfo.fr",
    "title": "\"Cette voiture est la seule chose qui me restait\" : à Lyon, un SDF a vu son véhicule brûler lors de la manifestation",
    "publishedAt": "2026-11-05T17:41:13.000Z"
   },
   {
-   "n": 5,
+   "n": 7,
    "url": "https://www.20minutes.fr/societe/4260740-20261105-manifestation-5-novembre-lyon-tout-perdu-manifestants-incendient-voiture-sdf?at_medium=display&at_campaign=149",
    "publisher": "20minutes.fr",
    "title": "« J’ai tout perdu »… À Lyon, des manifestants incendient la voiture d’un SDF",
@@ -126,173 +156,184 @@
   }
  ],
  "conflicts": [
-  "The prefecture estimated 30,500 participants, while union organisers estimated 55,000."
+  "The prefecture estimated 30,500 participants, while the inter-union coalition estimated 55,000."
  ],
- "confidence": 0.71,
- "publishers": 4,
+ "confidence": 0.75,
+ "publishers": 6,
  "reports24h": 7,
  "reportsPrev24h": 1,
  "reports48h": 8,
  "firstSeenAt": "2026-10-24T16:01:48.363Z",
  "lastReportAt": "2026-11-05T17:41:13.000Z",
- "lastCheckedAt": "2026-11-05T20:21:58.483Z",
- "updatedAt": "2026-11-05T20:20:29.151Z",
+ "lastCheckedAt": "2026-11-05T23:13:57.275Z",
+ "updatedAt": "2026-11-05T23:13:05.468Z",
  "responseSources": [
-  1,
-  2
+  2,
+  3,
+  4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-05T20:20:29.151Z",
- "summaryOf": "67a706ee3d14",
+ "summarizedAt": "2026-11-05T23:13:05.468Z",
+ "summaryOf": "2bf10ac8e934",
  "publishedAt": "2026-10-24T19:33:33.787Z",
  "i18n": {
-  "of": "87f2584e916cd74b",
-  "at": "2026-11-05T20:23:04.029Z",
+  "of": "9c43bc719b3c9c73",
+  "at": "2026-11-05T23:15:02.595Z",
   "tries": 1,
   "hi": {
    "title": "ल्यों में जीवन यापन की लागत और सार्वजनिक सेवाओं को लेकर प्रदर्शनकारियों का मार्च",
-   "seoTitle": "ल्यों में जीवन यापन की लागत पर विरोध प्रदर्शन",
+   "seoTitle": "ल्यों में जीवन यापन की लागत पर मार्च",
    "tea": {
-    "why": "प्रदर्शनकारी जीवन यापन की बढ़ती लागत, सार्वजनिक सेवाओं के लिए अपर्याप्त धन और शिक्षा क्षेत्र में समस्याओं के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "प्रतिभागी उच्च वेतन, सार्वजनिक सेवाओं में निवेश बढ़ाने और शिक्षा के लिए बेहतर धन की मांग कर रहे हैं।",
-    "changed": "5 नवंबर: प्रदर्शनकारियों ने ल्यों में मार्च किया, जिसमें उपस्थिति का अनुमान 30,500 से 55,000 के बीच था, और एक वाहन में आग लगने की खबरें भी आईं।"
+    "why": "प्रदर्शनकारी जीवन यापन की बढ़ती लागत, घटती सार्वजनिक सेवाओं के खिलाफ प्रदर्शन कर रहे हैं और बेहतर वेतन तथा शिक्षा के लिए धन की मांग कर रहे हैं।",
+    "want": "प्रदर्शनकारी उच्च वेतन, सार्वजनिक सेवाओं और शिक्षा में अधिक निवेश, और अधिक सामाजिक तथा राजकोषीय न्याय की मांग कर रहे हैं।",
+    "changed": "5 नवंबर: प्रदर्शन के मार्ग को प्रतिबंधित करने वाले एक प्रशासनिक आदेश के खिलाफ कानूनी चुनौती विफल होने के बाद ल्यों में हजारों लोगों ने मार्च किया।"
    },
-   "summary": "5 नवंबर, 2026 को फ्रांस के ल्यों में एक अंतर-संघ गठबंधन द्वारा आयोजित एक विरोध प्रदर्शन हुआ। प्रतिभागियों ने उच्च वेतन, बेहतर सार्वजनिक सेवाओं और शिक्षा के लिए अधिक धन की मांग के लिए मार्च किया। यह प्रदर्शन शहर के केंद्र के कुछ हिस्सों में विरोध प्रदर्शनों पर प्रतिबंध लगाने वाले प्रीफेक्चरल आदेश के बावजूद हुआ। प्रीफेक्चर के अनुसार, 30,500 लोग शामिल हुए, जबकि संघ के आयोजकों ने भीड़ का अनुमान 55,000 लगाया। कार्यक्रम के दौरान, एक बेघर व्यक्ति का वाहन आग के हवाले कर दिया गया, जिसमें छात्रों द्वारा मालिक को व्यक्तिगत दस्तावेज निकालने में मदद करने की सूचना मिली। यह विरोध प्रदर्शन राष्ट्रव्यापी रैलियों और हड़तालों के एक व्यापक दिन का हिस्सा था। अधिकारियों ने सुरक्षा बनाए रखी, और प्रदर्शनकारियों तथा पुलिस के बीच तनाव की सूचना मिली, हालांकि कार्यक्रम दिन में बाद में समाप्त हो गया।",
+   "summary": "5 नवंबर 2026 को, राष्ट्रव्यापी हड़ताल और कार्रवाई के दिन के हिस्से के रूप में ल्यों में एक बड़ा प्रदर्शन हुआ। एक अंतर-संघ गठबंधन द्वारा आयोजित और छात्र समूहों द्वारा समर्थित, यह मार्च मैन्युफैक्चर डेस टैबैक्स से शुरू हुआ। प्रतिभागियों ने जीवन यापन की बढ़ती लागत, अपर्याप्त सार्वजनिक सेवाओं और शिक्षा के लिए धन की कमी का विरोध किया। रोन के प्रीफेक्चर ने पहले शहर के अधिकांश केंद्र में विरोध प्रदर्शनों पर प्रतिबंध लगाने का आदेश जारी किया था, जिसे यूनियनों द्वारा कानूनी चुनौती के बावजूद अदालत ने बरकरार रखा। तनाव की सूचना मिली, जिसमें पुलिस ने प्रदर्शनकारियों के समूहों के खिलाफ आंसू गैस का इस्तेमाल किया। घटना के दौरान एक बेघर व्यक्ति का वाहन आग से नष्ट हो गया। भीड़ के आकार का अनुमान आधिकारिक आंकड़ों और आयोजकों द्वारा प्रदान किए गए आंकड़ों के बीच काफी भिन्न था।",
    "demands": [
     "उच्च वेतन",
-    "सार्वजनिक सेवा निधि में वृद्धि",
-    "शिक्षा के लिए अधिक धन",
+    "सार्वजनिक सेवा के लिए अधिक धन",
+    "शिक्षा के लिए अधिक संसाधन",
     "सामाजिक और राजकोषीय न्याय"
    ],
-   "response": "प्रीफेक्चर ने शहर के केंद्र के कुछ हिस्सों में प्रदर्शनों पर प्रतिबंध लगाने का आदेश जारी किया। कार्यक्रम के प्रबंधन के लिए पुलिस तैनात की गई थी, और आंतरिक मंत्रालय ने बताया कि हिंसा को नियंत्रित कर लिया गया था।",
+   "response": "रोन के प्रीफेक्चर ने शहर के अधिकांश केंद्र में प्रदर्शनों पर प्रतिबंध लगा दिया। गृह मंत्रालय ने कहा कि पुलिस का सामना कई सौ प्रदर्शनकारियों से हुआ और हिंसा को नियंत्रित कर लिया गया।",
    "updates": [
-    "प्रदर्शनकारी अंतर-संघ गठबंधन द्वारा आयोजित मार्च के लिए ल्यों में एकत्र हुए।",
-    "प्रदर्शन के दौरान एक वाहन में आग लगा दी गई; छात्रों ने मालिक को दस्तावेज बरामद करने में मदद की।"
+    "यूनियनों और छात्र समूहों ने 5 नवंबर को राष्ट्रीय हड़ताल और लामबंदी का आह्वान किया।",
+    "प्रीफेक्चर ने शहर के केंद्र में विरोध प्रदर्शनों पर प्रतिबंध लगाने का आदेश जारी किया, जिससे मार्च के मार्ग को लेकर विवाद पैदा हो गया।",
+    "अदालत ने विरोध प्रदर्शन पर प्रतिबंध के खिलाफ यूनियन की अपील को खारिज कर दिया; मार्च एक संशोधित मार्ग पर आगे बढ़ा।",
+    "ल्यों में हजारों लोगों ने मार्च किया, जिसमें झड़पों और वाहन में आग लगने की खबरें हैं।"
    ],
    "conflicts": [
-    "प्रीफेक्चर ने 30,500 प्रतिभागियों का अनुमान लगाया, जबकि संघ के आयोजकों ने 55,000 का अनुमान लगाया।"
+    "प्रीफेक्चर ने 30,500 प्रतिभागियों का अनुमान लगाया, जबकि अंतर-संघ गठबंधन ने 55,000 का अनुमान लगाया।"
    ],
    "numbers": {
-    "crowd": "प्रीफेक्चर के अनुसार 30,500, और अंतर-संघ गठबंधन के अनुसार 55,000",
+    "crowd": "प्रीफेक्चर ने 30,500 प्रतिभागियों का अनुमान लगाया, जबकि अंतर-संघ गठबंधन ने 55,000 का अनुमान लगाया।",
     "arrests": "5 नवंबर को 24 लोगों को गिरफ्तार किया गया",
     "injuries": "5 नवंबर को 40 लोग घायल हुए, जिनमें 34 पुलिस अधिकारी और 6 प्रतिभागी शामिल हैं"
    }
   },
   "mr": {
-   "title": "ल्योंमध्ये राहणीमानाचा खर्च आणि सार्वजनिक सेवांविरोधात आंदोलकांचा मोर्चा",
-   "seoTitle": "ल्योंमध्ये राहणीमानाचा खर्च वाढल्याने आंदोलन",
+   "title": "ल्योंमध्ये राहणीमानाचा खर्च आणि सार्वजनिक सेवांबाबत निदर्शकांचा मोर्चा",
+   "seoTitle": "ल्योंमध्ये राहणीमानाचा खर्च वाढल्याने मोर्चा",
    "tea": {
-    "why": "आंदोलक राहणीमानाचा वाढता खर्च, सार्वजनिक सेवांसाठी अपुरा निधी आणि शिक्षण क्षेत्रातील समस्यांविरुद्ध निदर्शने करत आहेत.",
-    "want": "सहभागी उच्च वेतन, सार्वजनिक सेवांमध्ये वाढीव गुंतवणूक आणि शिक्षणासाठी अधिक निधीची मागणी करत आहेत.",
-    "changed": "५ नोव्हेंबर: आंदोलकांनी ल्योंमध्ये मोर्चा काढला, ज्यात उपस्थितीचा अंदाज ३०,५०० ते ५५,००० दरम्यान होता, तसेच एका वाहनाला आग लागल्याच्या बातम्या आल्या."
+    "why": "निदर्शक राहणीमानाचा वाढता खर्च आणि खालावलेल्या सार्वजनिक सेवांविरुद्ध निदर्शने करत आहेत, तसेच ते अधिक वेतन आणि शिक्षणासाठी निधीची मागणी करत आहेत.",
+    "want": "निदर्शक उच्च वेतन, सार्वजनिक सेवा आणि शिक्षणातील वाढीव गुंतवणूक आणि अधिक सामाजिक व आर्थिक न्यायाची मागणी करत आहेत.",
+    "changed": "५ नोव्हेंबर: निदर्शनाचा मार्ग मर्यादित करणाऱ्या प्रशासकीय आदेशाविरुद्धची कायदेशीर लढाई अयशस्वी ठरल्यानंतर ल्योंमध्ये हजारो लोकांनी मोर्चा काढला."
    },
-   "summary": "५ नोव्हेंबर २०२६ रोजी फ्रान्समधील ल्यों येथे आंतर-युनियन युतीद्वारे आयोजित एक निदर्शन झाले. सहभागींनी उच्च वेतन, सुधारित सार्वजनिक सेवा आणि शिक्षणासाठी वाढीव निधीची मागणी करण्यासाठी मोर्चा काढला. हे निदर्शन शहर केंद्राच्या काही भागांत आंदोलनावर बंदी घालणाऱ्या प्रीफेक्चरल आदेशाचे उल्लंघन करून झाले. प्रीफेक्चरनुसार, ३०,५०० लोक उपस्थित होते, तर युनियन आयोजकांनी गर्दीचा अंदाज ५५,००० लावला. कार्यक्रमादरम्यान, एका बेघर व्यक्तीचे वाहन पेटवून देण्यात आले, ज्यामध्ये विद्यार्थ्यांनी मालकाला वैयक्तिक कागदपत्रे मिळवून देण्यात मदत केल्याचे वृत्त आहे. हे आंदोलन देशव्यापी रॅली आणि संपाच्या व्यापक दिवसाचा भाग होते. अधिकाऱ्यांनी सुरक्षा व्यवस्था कायम ठेवली होती आणि आंदोलक व पोलीस यांच्यात तणाव निर्माण झाल्याचे वृत्त होते, मात्र कार्यक्रम दिवसाच्या उत्तरार्धात संपला.",
+   "summary": "५ नोव्हेंबर २०२६ रोजी, देशव्यापी संप आणि कृती दिनाचा भाग म्हणून ल्योंमध्ये एक मोठे निदर्शन झाले. आंतर-युनियन युतीद्वारे आयोजित आणि विद्यार्थी गटांच्या पाठिंब्याने, हा मोर्चा मॅन्युफॅक्चर डेस टॅबॅक्सपासून सुरू झाला. सहभागींनी राहणीमानाचा वाढता खर्च, अपुऱ्या सार्वजनिक सेवा आणि शिक्षणासाठी निधीची कमतरता यांविरुद्ध निषेध केला. रोनच्या प्रीफेक्चरने यापूर्वीच शहराच्या मध्यवर्ती भागात निदर्शनांवर बंदी घालणारा आदेश जारी केला होता, जो युनियनच्या कायदेशीर आव्हानानंतरही न्यायालयाने कायम ठेवला. तणावाचे वातावरण होते, ज्यामध्ये पोलिसांनी निदर्शकांच्या गटांविरुद्ध अश्रूधुराचा वापर केला. या घटनेदरम्यान एका बेघर व्यक्तीचे वाहन आगीत जळून खाक झाले. गर्दीच्या संख्येचा अंदाज अधिकृत आकडेवारी आणि आयोजकांनी दिलेल्या आकडेवारीमध्ये लक्षणीयरीत्या भिन्न होता.",
    "demands": [
     "उच्च वेतन",
-    "सार्वजनिक सेवा निधीत वाढ",
-    "शिक्षणासाठी अधिक निधी",
+    "सार्वजनिक सेवेसाठी वाढीव निधी",
+    "शिक्षणासाठी अधिक संसाधने",
     "सामाजिक आणि आर्थिक न्याय"
    ],
-   "response": "प्रीफेक्चरने शहर केंद्राच्या काही भागांत निदर्शनांवर बंदी घालणारा आदेश जारी केला. कार्यक्रम व्यवस्थापनासाठी पोलीस तैनात करण्यात आले होते आणि गृह मंत्रालयाने हिंसाचार नियंत्रणात असल्याचे सांगितले.",
+   "response": "रोनच्या प्रीफेक्चरने शहराच्या मध्यवर्ती भागात निदर्शनांवर बंदी घातली होती. गृह मंत्रालयाने सांगितले की पोलिसांचा सामना काही शे निदर्शकांशी झाला आणि हिंसाचार नियंत्रित करण्यात आला.",
    "updates": [
-    "आंदोलक आंतर-युनियन युतीद्वारे आयोजित मोर्चासाठी ल्योंमध्ये एकत्र आले.",
-    "निदर्शनादरम्यान एका वाहनाला आग लावण्यात आली; विद्यार्थ्यांनी मालकाला कागदपत्रे परत मिळवण्यात मदत केली."
+    "युनियन आणि विद्यार्थी गटांनी ५ नोव्हेंबर रोजी राष्ट्रीय संप आणि निदर्शनांचे आवाहन केले होते.",
+    "प्रीफेक्चरने शहराच्या मध्यवर्ती भागात निदर्शनांवर बंदी घालणारा आदेश जारी केला, ज्यामुळे मोर्चाच्या मार्गावरून वाद निर्माण झाला.",
+    "न्यायालयाने निदर्शनावरील बंदीविरुद्धची युनियनची अपील फेटाळून लावली; मोर्चा सुधारित मार्गावरून पुढे गेला.",
+    "ल्योंमध्ये हजारो लोकांनी मोर्चा काढला, ज्यामध्ये चकमकी आणि वाहनाला आग लागल्याच्या बातम्या आहेत."
    ],
    "conflicts": [
-    "प्रीफेक्चरने ३०,५०० सहभागींचा अंदाज वर्तवला, तर युनियन आयोजकांनी ५५,००० चा अंदाज वर्तवला."
+    "प्रीफेक्चरने ३०,५०० सहभागींचा अंदाज वर्तवला, तर आंतर-युनियन युतीने ५५,००० चा अंदाज वर्तवला."
    ],
    "numbers": {
-    "crowd": "प्रीफेक्चरनुसार ३०,५०० आणि आंतर-युनियन युतीनुसार ५५,०००",
+    "crowd": "प्रीफेक्चरने ३०,५०० सहभागींचा अंदाज वर्तवला, तर आंतर-युनियन युतीने ५५,००० चा अंदाज वर्तवला.",
     "arrests": "५ नोव्हेंबर रोजी २४ जणांना अटक करण्यात आली",
-    "injuries": "५ नोव्हेंबर रोजी ४० लोक जखमी झाले, ज्यात ३४ पोलीस अधिकारी आणि ६ सहभागींचा समावेश आहे"
+    "injuries": "५ नोव्हेंबर रोजी ४० लोक जखमी झाले, ज्यामध्ये ३४ पोलीस अधिकारी आणि ६ सहभागींचा समावेश आहे"
    }
   },
   "es": {
    "title": "Manifestantes marchan en Lyon por el costo de vida y los servicios públicos",
-   "seoTitle": "Protesta en Lyon por el costo de vida",
+   "seoTitle": "Marcha en Lyon por el costo de vida",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, la financiación insuficiente de los servicios públicos y los problemas en el sector educativo.",
-    "want": "Los participantes exigen salarios más altos, una mayor inversión en servicios públicos y una mejor financiación para la educación.",
-    "changed": "5 de noviembre: Los manifestantes marcharon en Lyon, con estimaciones de asistencia que oscilaron entre 30,500 y 55,000, en medio de informes de un vehículo incendiado."
+    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, la disminución de los servicios públicos y para exigir mejores salarios y financiamiento para la educación.",
+    "want": "Los manifestantes exigen salarios más altos, mayor inversión en servicios públicos y educación, y una mayor justicia social y fiscal.",
+    "changed": "5 de noviembre: Miles de personas marcharon en Lyon tras el fracaso de un desafío legal contra una orden prefectural que restringía la ruta de la protesta."
    },
-   "summary": "El 5 de noviembre de 2026, tuvo lugar una protesta en Lyon, Francia, organizada por una coalición intersindical. Los participantes marcharon para exigir salarios más altos, mejores servicios públicos y una mayor financiación para la educación. La manifestación ocurrió a pesar de una orden prefectural que prohibía las protestas en partes del centro de la ciudad. Según la prefectura, asistieron 30,500 personas, mientras que los organizadores sindicales estimaron la multitud en 55,000. Durante el evento, un vehículo perteneciente a una persona sin hogar fue incendiado, y se informó que estudiantes ayudaron al propietario a recuperar documentos personales. La protesta fue parte de una jornada más amplia de manifestaciones y huelgas a nivel nacional. Las autoridades mantuvieron una presencia de seguridad y se reportaron tensiones entre los manifestantes y la policía, aunque el evento concluyó más tarde ese día.",
+   "summary": "El 5 de noviembre de 2026, tuvo lugar una gran manifestación en Lyon como parte de una huelga nacional y un día de acción. Organizada por una coalición intersindical y apoyada por grupos estudiantiles, la marcha comenzó en la Manufacture des Tabacs. Los participantes protestaron contra el aumento del costo de vida, los servicios públicos inadecuados y la falta de financiamiento para la educación. La prefectura del Ródano había emitido previamente una orden prohibiendo las protestas en gran parte del centro de la ciudad, la cual fue confirmada por un tribunal a pesar de un desafío legal de los sindicatos. Se reportaron tensiones, con la policía utilizando gases lacrimógenos contra grupos de manifestantes. Un vehículo perteneciente a una persona sin hogar fue destruido por el fuego durante el evento. Las estimaciones sobre el tamaño de la multitud variaron significativamente entre las cifras oficiales y las proporcionadas por los organizadores.",
    "demands": [
     "Salarios más altos",
-    "Mayor financiación de los servicios públicos",
-    "Más financiación para la educación",
+    "Mayor financiamiento para servicios públicos",
+    "Más recursos para la educación",
     "Justicia social y fiscal"
    ],
-   "response": "La prefectura emitió una orden prohibiendo las manifestaciones en partes del centro de la ciudad. Se desplegó a la policía para gestionar el evento y el Ministerio del Interior informó que la violencia fue contenida.",
+   "response": "La prefectura del Ródano prohibió las manifestaciones en gran parte del centro de la ciudad. El Ministerio del Interior declaró que la policía fue confrontada por varios cientos de manifestantes y que la violencia fue contenida.",
    "updates": [
-    "Los manifestantes se reunieron en Lyon para una marcha organizada por la coalición intersindical.",
-    "Un vehículo fue incendiado durante la manifestación; los estudiantes ayudaron al propietario a recuperar documentos."
+    "Los sindicatos y grupos estudiantiles convocaron a una huelga nacional y movilización el 5 de noviembre.",
+    "La prefectura emitió una orden prohibiendo las protestas en el centro de la ciudad, lo que provocó disputas sobre la ruta de la marcha.",
+    "Un tribunal rechazó una apelación sindical contra la prohibición de la protesta; la marcha procedió por una ruta modificada.",
+    "Miles de personas marcharon en Lyon, con reportes de enfrentamientos y el incendio de un vehículo."
    ],
    "conflicts": [
-    "La prefectura estimó 30,500 participantes, mientras que los organizadores sindicales estimaron 55,000."
+    "La prefectura estimó 30,500 participantes, mientras que la coalición intersindical estimó 55,000."
    ],
    "numbers": {
-    "crowd": "30,500 según la prefectura y 55,000 según la coalición intersindical",
+    "crowd": "La prefectura estimó 30,500 participantes, mientras que la coalición intersindical estimó 55,000.",
     "arrests": "24 personas fueron arrestadas el 5 de noviembre",
-    "injuries": "40 personas heridas el 5 de noviembre, incluidos 34 agentes de policía y 6 participantes"
+    "injuries": "40 personas heridas el 5 de noviembre, incluyendo 34 oficiales de policía y 6 participantes"
    }
   },
   "fr": {
    "title": "Des manifestants défilent à Lyon pour le coût de la vie et les services publics",
    "seoTitle": "Manifestation à Lyon sur le coût de la vie",
    "tea": {
-    "why": "Les manifestants protestent contre la hausse du coût de la vie, le financement insuffisant des services publics et les problèmes dans le secteur de l'éducation.",
-    "want": "Les participants exigent des salaires plus élevés, un investissement accru dans les services publics et un meilleur financement de l'éducation.",
-    "changed": "5 novembre : Les manifestants ont défilé à Lyon, avec des estimations de participation allant de 30 500 à 55 000 personnes, sur fond d'informations faisant état d'un véhicule incendié."
+    "why": "Les manifestants protestent contre la hausse du coût de la vie, la dégradation des services publics, et réclament de meilleurs salaires ainsi qu'un financement accru pour l'éducation.",
+    "want": "Les manifestants exigent des salaires plus élevés, une augmentation des investissements dans les services publics et l'éducation, ainsi qu'une plus grande justice sociale et fiscale.",
+    "changed": "5 novembre : Des milliers de personnes ont défilé à Lyon après l'échec d'un recours juridique contre un arrêté préfectoral restreignant le parcours de la manifestation."
    },
-   "summary": "Le 5 novembre 2026, une manifestation a eu lieu à Lyon, en France, organisée par une coalition intersyndicale. Les participants ont défilé pour réclamer des salaires plus élevés, de meilleurs services publics et un financement accru pour l'éducation. La manifestation a eu lieu malgré un arrêté préfectoral interdisant les manifestations dans certaines parties du centre-ville. Selon la préfecture, 30 500 personnes étaient présentes, tandis que les organisateurs syndicaux ont estimé la foule à 55 000 personnes. Au cours de l'événement, un véhicule appartenant à une personne sans abri a été incendié, et des étudiants auraient aidé le propriétaire à récupérer des documents personnels. La manifestation faisait partie d'une journée plus large de rassemblements et de grèves à l'échelle nationale. Les autorités ont maintenu une présence sécuritaire et des tensions ont été signalées entre les manifestants et la police, bien que l'événement se soit terminé plus tard dans la journée.",
+   "summary": "Le 5 novembre 2026, une importante manifestation a eu lieu à Lyon dans le cadre d'une grève nationale et d'une journée d'action. Organisé par une coalition intersyndicale et soutenu par des groupes étudiants, le cortège est parti de la Manufacture des Tabacs. Les participants ont protesté contre la hausse du coût de la vie, l'insuffisance des services publics et le manque de financement pour l'éducation. La préfecture du Rhône avait préalablement pris un arrêté interdisant les manifestations dans une grande partie du centre-ville, décision confirmée par un tribunal malgré un recours des syndicats. Des tensions ont été signalées, la police ayant fait usage de gaz lacrymogènes contre des groupes de manifestants. Un véhicule appartenant à un sans-abri a été détruit par un incendie durant l'événement. Les estimations de la taille de la foule ont varié de manière significative entre les chiffres officiels et ceux fournis par les organisateurs.",
    "demands": [
     "Salaires plus élevés",
     "Augmentation du financement des services publics",
-    "Plus de financement pour l'éducation",
+    "Davantage de ressources pour l'éducation",
     "Justice sociale et fiscale"
    ],
-   "response": "La préfecture a émis un arrêté interdisant les manifestations dans certaines parties du centre-ville. La police a été déployée pour gérer l'événement et le ministère de l'Intérieur a rapporté que la violence a été contenue.",
+   "response": "La préfecture du Rhône a interdit les manifestations dans une grande partie du centre-ville. Le ministère de l'Intérieur a déclaré que la police a été confrontée à plusieurs centaines de manifestants et que la violence a été contenue.",
    "updates": [
-    "Les manifestants se sont rassemblés à Lyon pour une marche organisée par la coalition intersyndicale.",
-    "Un véhicule a été incendié pendant la manifestation ; des étudiants ont aidé le propriétaire à récupérer des documents."
+    "Les syndicats et les groupes étudiants ont appelé à une grève nationale et à une mobilisation le 5 novembre.",
+    "La préfecture a émis un arrêté interdisant les manifestations dans le centre-ville, entraînant des litiges sur le parcours du cortège.",
+    "Un tribunal a rejeté un recours syndical contre l'interdiction de manifester ; le cortège a suivi un itinéraire modifié.",
+    "Des milliers de personnes ont défilé à Lyon, avec des signalements d'affrontements et l'incendie d'un véhicule."
    ],
    "conflicts": [
-    "La préfecture a estimé à 30 500 le nombre de participants, tandis que les organisateurs syndicaux ont estimé ce nombre à 55 000."
+    "La préfecture a estimé le nombre de participants à 30 500, tandis que la coalition intersyndicale a estimé ce nombre à 55 000."
    ],
    "numbers": {
-    "crowd": "30 500 selon la préfecture, et 55 000 selon la coalition intersyndicale",
+    "crowd": "La préfecture a estimé le nombre de participants à 30 500, tandis que la coalition intersyndicale a estimé ce nombre à 55 000.",
     "arrests": "24 personnes ont été arrêtées le 5 novembre",
     "injuries": "40 personnes blessées le 5 novembre, dont 34 policiers et 6 participants"
    }
   },
   "de": {
    "title": "Demonstranten marschieren in Lyon wegen Lebenshaltungskosten und öffentlicher Dienste",
-   "seoTitle": "Protest in Lyon wegen Lebenshaltungskosten",
+   "seoTitle": "Marsch in Lyon wegen Lebenshaltungskosten",
    "tea": {
-    "why": "Die Demonstranten protestieren gegen steigende Lebenshaltungskosten, unzureichende Finanzierung öffentlicher Dienste und Probleme im Bildungssektor.",
-    "want": "Die Teilnehmer fordern höhere Löhne, verstärkte Investitionen in öffentliche Dienste und eine bessere Finanzierung für Bildung.",
-    "changed": "5. November: Demonstranten marschierten in Lyon, wobei die Teilnehmerzahlen auf 30.500 bis 55.000 geschätzt wurden, inmitten von Berichten über ein brennendes Fahrzeug."
+    "why": "Die Demonstranten protestieren gegen steigende Lebenshaltungskosten, nachlassende öffentliche Dienste und fordern höhere Löhne sowie Bildungsgelder.",
+    "want": "Die Demonstranten fordern höhere Löhne, verstärkte Investitionen in öffentliche Dienste und Bildung sowie mehr soziale und steuerliche Gerechtigkeit.",
+    "changed": "5. November: Tausende marschierten in Lyon, nachdem eine rechtliche Anfechtung gegen eine präfekturale Anordnung zur Einschränkung der Demonstrationsroute gescheitert war."
    },
-   "summary": "Am 5. November 2026 fand in Lyon, Frankreich, ein von einer gewerkschaftsübergreifenden Koalition organisierter Protest statt. Die Teilnehmer marschierten, um höhere Löhne, verbesserte öffentliche Dienste und eine erhöhte Finanzierung für Bildung zu fordern. Die Demonstration fand trotz einer präfekturalen Anordnung statt, die Proteste in Teilen der Innenstadt untersagte. Laut der Präfektur nahmen 30.500 Personen teil, während die Gewerkschaftsorganisatoren die Menge auf 55.000 schätzten. Während der Veranstaltung wurde ein Fahrzeug einer obdachlosen Person in Brand gesetzt, wobei Studenten dem Besitzer Berichten zufolge dabei halfen, persönliche Dokumente zu bergen. Der Protest war Teil eines breiteren Tages landesweiter Kundgebungen und Streiks. Die Behörden hielten eine Sicherheitspräsenz aufrecht und es wurde über Spannungen zwischen Demonstranten und der Polizei berichtet, obwohl die Veranstaltung später am Tag endete.",
+   "summary": "Am 5. November 2026 fand in Lyon im Rahmen eines landesweiten Streiks und Aktionstages eine große Demonstration statt. Der von einer gewerkschaftsübergreifenden Koalition organisierte und von Studentengruppen unterstützte Marsch begann an der Manufacture des Tabacs. Die Teilnehmer protestierten gegen die steigenden Lebenshaltungskosten, unzureichende öffentliche Dienste und die Finanzierung der Bildung. Die Präfektur des Rhône hatte zuvor eine Anordnung erlassen, die Proteste in weiten Teilen der Innenstadt verbot, was trotz einer rechtlichen Anfechtung durch die Gewerkschaften von einem Gericht bestätigt wurde. Es wurde von Spannungen berichtet, wobei die Polizei Tränengas gegen Gruppen von Demonstranten einsetzte. Ein Fahrzeug, das einem obdachlosen Mann gehörte, wurde während der Veranstaltung durch ein Feuer zerstört. Die Schätzungen zur Größe der Menschenmenge unterschieden sich erheblich zwischen den offiziellen Zahlen und denen der Organisatoren.",
    "demands": [
     "Höhere Löhne",
     "Erhöhte Finanzierung öffentlicher Dienste",
-    "Mehr Bildungsfinanzierung",
+    "Mehr Ressourcen für Bildung",
     "Soziale und steuerliche Gerechtigkeit"
    ],
-   "response": "Die Präfektur erließ eine Anordnung, die Demonstrationen in Teilen der Innenstadt untersagte. Die Polizei wurde eingesetzt, um die Veranstaltung zu verwalten, und das Innenministerium berichtete, dass die Gewalt eingedämmt wurde.",
+   "response": "Die Präfektur des Rhône verbot Demonstrationen in weiten Teilen der Innenstadt. Das Innenministerium erklärte, dass die Polizei mit mehreren hundert Demonstranten konfrontiert wurde und die Gewalt eingedämmt werden konnte.",
    "updates": [
-    "Demonstranten versammelten sich in Lyon zu einem Marsch, der von der gewerkschaftsübergreifenden Koalition organisiert wurde.",
-    "Während der Demonstration wurde ein Fahrzeug in Brand gesetzt; Studenten halfen dem Besitzer bei der Bergung von Dokumenten."
+    "Gewerkschaften und Studentengruppen riefen für den 5. November zu einem landesweiten Streik und Mobilisierung auf.",
+    "Die Präfektur erließ eine Anordnung zum Verbot von Protesten in der Innenstadt, was zu Streitigkeiten über die Marschroute führte.",
+    "Ein Gericht wies eine gewerkschaftliche Berufung gegen das Demonstrationsverbot zurück; der Marsch fand auf einer geänderten Route statt.",
+    "Tausende marschierten in Lyon, wobei von Zusammenstößen und einem Fahrzeugbrand berichtet wurde."
    ],
    "conflicts": [
-    "Die Präfektur schätzte 30.500 Teilnehmer, während die Gewerkschaftsorganisatoren 55.000 schätzten."
+    "Die Präfektur schätzte 30.500 Teilnehmer, während die gewerkschaftsübergreifende Koalition 55.000 schätzte."
    ],
    "numbers": {
-    "crowd": "30.500 laut der Präfektur und 55.000 laut der gewerkschaftsübergreifenden Koalition",
+    "crowd": "Die Präfektur schätzte 30.500 Teilnehmer, während die gewerkschaftsübergreifende Koalition 55.000 schätzte.",
     "arrests": "24 Personen wurden am 5. November festgenommen",
-    "injuries": "40 verletzte Personen am 5. November, darunter 34 Polizeibeamte und 6 Teilnehmer"
+    "injuries": "40 Personen wurden am 5. November verletzt, darunter 34 Polizeibeamte und 6 Teilnehmer"
    }
   }
  },

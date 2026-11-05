@@ -15,93 +15,123 @@
  },
  "scope": "multi-city",
  "causes": [
-  "governance",
-  "free-speech"
+  "free-speech",
+  "governance"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-03",
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence",
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Workers oppose a government plan to replace public media license fees with direct state budget funding, fearing loss of independence.",
-  "want": "Withdrawal of the proposed legislation and a transparent discussion on the future financial model for public media.",
-  "changed": "Nov 5: Student groups announced further protest actions for November 10 to continue supporting public media independence."
+  "why": "Workers and protesters oppose a government plan to replace public media license fees with direct state budget funding, fearing political control.",
+  "want": "Withdrawal of the proposed legislation and a transparent public debate on media funding.",
+  "changed": "Nov 4: Prime Minister Andrej Babiš stated the government will not withdraw the reform despite the strike and nationwide protests."
  },
- "summary": "On November 3, 2026, employees of Czech Television and Czech Radio held a 24-hour strike to protest a government proposal to abolish license fees and transition to state budget funding. Organised by the initiative Veřejnoprávně, the strike resulted in limited broadcasting, with channels airing archival content and news bulletins. Thousands of protesters, including students and artists, marched in Prague and other cities to support the media workers. Critics, including opposition parties and international media organisations, argue the funding shift threatens editorial independence and could lead to budget cuts. Prime Minister Andrej Babiš defended the reform as a cost-saving measure, denying any intent to exert political control. The bill passed a preliminary vote in parliament on October 24, with further debate expected in January.",
+ "summary": "On November 3, 2026, employees of Czech Television and Czech Radio held a one-day strike to protest a government-led funding overhaul. The legislation, supported by Prime Minister Andrej Babiš’s coalition, seeks to replace household license fees with direct state budget financing and includes a 15% budget cut. Critics, including media workers, opposition parties, and various civil society groups, argue this threatens editorial independence and mirrors media control tactics seen in other countries. During the strike, broadcasters limited operations to archival content and brief bulletins. Thousands of protesters, including students and artists, rallied in Prague and at least 15 other cities. The government maintains the reform is a cost-saving measure and denies it will impact media freedom. The bill passed a preliminary parliamentary vote in October.",
  "organizers": [
-  "Veřejnoprávně",
-  "Czech Television trade unions",
-  "Czech Radio trade unions"
+  "Czech Television strike committee",
+  "European Federation of Journalists",
+  "Reporters Without Borders"
  ],
  "demands": [
-  "Withdraw the proposed legislation",
-  "Maintain the current license fee system",
-  "Ensure editorial independence",
-  "Engage in transparent discussion with experts"
+  "Withdraw the proposed funding legislation",
+  "Protect editorial independence",
+  "Open a transparent public debate"
  ],
- "response": "Prime Minister Andrej Babiš stated the reform aims to reduce the financial burden on citizens and denied it would impact editorial policy. He dismissed the protests as hypocrisy.",
+ "response": "Prime Minister Andrej Babiš stated the government will fulfill its program to abolish fees and denied the reform would lead to state control or nationalization of public media. The government coalition has refused to withdraw the bill.",
  "numbers": {
   "crowd": {
    "value": 10000,
    "text": "Thousands of protesters gathered in Prague and other cities, with nearly 10,000 reported in Brno.",
    "sources": [
+    2,
+    4,
     5,
-    8,
     9
    ]
   }
  },
  "updates": [
   {
+   "at": "2026-10-24",
+   "text": "The government coalition pushed the funding reform through a preliminary parliamentary vote in an early morning session.",
+   "sources": [
+    8,
+    9
+   ]
+  },
+  {
    "at": "2026-11-03",
-   "text": "Public media workers began a 24-hour strike, and thousands of demonstrators gathered in Prague and other cities.",
+   "text": "Public media workers launched a 24-hour strike, limiting broadcasts to archival content and music.",
    "sources": [
     1,
+    2,
+    3,
+    9
+   ]
+  },
+  {
+   "at": "2026-11-03",
+   "text": "Thousands of protesters rallied in Prague and other cities across the country to support the striking media workers.",
+   "sources": [
+    2,
+    4,
     5,
-    8
+    9
+   ]
+  },
+  {
+   "at": "2026-11-04",
+   "text": "Prime Minister Andrej Babiš confirmed the government will not withdraw the reform bill.",
+   "sources": [
+    8,
+    9
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ct-a-cro-budou-3-listopadu-stavkovat-k-protestum-se-prida-verejnost-napric-zemi-379229",
-   "publisher": "ct24.ceskatelevize.cz",
-   "title": "ČT a ČRo budou 3. listopadu stávkovat. K protestům se přidá veřejnost napříč zemí",
-   "publishedAt": "2026-11-02T15:55:49.000Z"
-  },
-  {
-   "n": 2,
    "url": "https://www.derstandard.at/story/3000000347245/mitarbeiter-des-tschechischen-fernsehens-und-rundfunks-im-streik",
    "publisher": "derstandard.at",
    "title": "Mitarbeiter des Tschechischen Fernsehens und Rundfunks im Streik",
    "publishedAt": "2026-11-03T09:06:24.000Z"
   },
   {
-   "n": 3,
-   "url": "https://www.independent.co.uk/news/uk/politics/andrej-babis-prague-viktor-orban-robert-fico-hungary-b3078164.html",
-   "publisher": "independent.co.uk",
+   "n": 2,
+   "url": "https://abcnews.com/International/wireStory/czech-public-media-workers-strike-government-plan-overhaul-137800075",
+   "publisher": "abcnews.com",
    "title": "Czech public media workers go on strike over a government plan to overhaul their funding",
    "publishedAt": "2026-11-03T09:51:15.000Z"
   },
   {
-   "n": 4,
+   "n": 3,
    "url": "https://tvpworld.com/96279478/czech-public-media-goes-on-strike-amid-planned-funding-reforms",
    "publisher": "tvpworld.com",
    "title": "Czech public media goes dark amid protest against funding reforms",
    "publishedAt": "2026-11-03T14:17:00.000Z"
   },
   {
-   "n": 5,
+   "n": 4,
    "url": "https://www.asiaone.com/world/thousands-protest-prague-czech-broadcasters-strike-over-funding-overhaul",
    "publisher": "asiaone.com",
    "title": "Thousands protest in Prague as Czech broadcasters strike over funding overhaul",
    "publishedAt": "2026-11-04T04:08:59.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.euronews.com/2026/11/04/thousands-join-czech-protest-against-public-media-financing-plan",
+   "publisher": "euronews.com",
+   "title": "Thousands join Czech protest against public media financing plan",
+   "publishedAt": "2026-11-04T04:23:38.000Z"
   },
   {
    "n": 6,
@@ -119,114 +149,135 @@
   },
   {
    "n": 8,
+   "url": "https://ct24.ceskatelevize.cz/clanek/domaci/babis-vzal-stavku-stavku-ct-a-cro-na-vedomi-od-zruseni-poplatku-pry-neustoupi-379263",
+   "publisher": "ct24.ceskatelevize.cz",
+   "title": "Babiš vzal stávku ČT a ČRo na vědomí, od zrušení poplatků prý neustoupí",
+   "publishedAt": "2026-11-04T09:21:23.000Z"
+  },
+  {
+   "n": 9,
    "url": "https://taz.de/Pressefreiheit-Tschechien/!6227203/",
    "publisher": "taz.de",
    "title": "Pressefreiheit Tschechien: Tschechiens Sender sehen schwarz",
    "publishedAt": "2026-11-04T13:38:00.000Z"
   },
   {
-   "n": 9,
+   "n": 10,
    "url": "https://radiostudent.si/politika/offsajd/stavka-za-placevanje-rtv-prispevka",
    "publisher": "radiostudent.si",
    "title": "Stavka za plačevanje RTV-prispevka",
    "publishedAt": "2026-11-04T17:08:06.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.9,
- "publishers": 9,
+ "conflicts": [
+  "Prime Minister Babiš dismissed the protests as 'hypocrisy', while opposition figures and protesters described them as a vital defense of democracy."
+ ],
+ "confidence": 0.75,
+ "publishers": 10,
  "reports24h": 0,
  "reportsPrev24h": 8,
  "reports48h": 8,
  "firstSeenAt": "2026-11-03T09:52:01.541Z",
  "lastReportAt": "2026-11-04T17:08:06.000Z",
- "lastCheckedAt": "2026-11-05T20:21:58.483Z",
- "updatedAt": "2026-11-05T20:20:54.060Z",
+ "lastCheckedAt": "2026-11-05T23:13:57.275Z",
+ "updatedAt": "2026-11-05T23:12:58.777Z",
  "searchedAt": "2026-11-03T12:50:58.573Z",
  "endedOn": "2026-11-03",
  "responseSources": [
-  4,
+  3,
   5,
   8,
   9
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-05T20:20:54.060Z",
- "summaryOf": "eb500a6fae75",
+ "summarizedAt": "2026-11-05T23:12:58.777Z",
+ "summaryOf": "0a0aef515fa6",
  "publishedAt": "2026-11-03T12:55:15.920Z",
  "i18n": {
-  "of": "3266604a423dd6ad",
-  "at": "2026-11-05T20:23:28.064Z",
+  "of": "d1674b24f05731ef",
+  "at": "2026-11-05T23:15:27.315Z",
   "tries": 1,
   "hi": {
    "title": "चेक सार्वजनिक मीडिया कर्मियों की फंडिंग बदलाव के खिलाफ हड़ताल और विरोध",
-   "seoTitle": "चेक मीडिया फंडिंग सुधार के खिलाफ प्राग में विरोध",
+   "seoTitle": "मीडिया फंडिंग सुधार के खिलाफ प्राग में विरोध",
    "tea": {
-    "why": "कर्मी सार्वजनिक मीडिया लाइसेंस शुल्क को सीधे राज्य बजट फंडिंग से बदलने की सरकारी योजना का विरोध कर रहे हैं, उन्हें स्वतंत्रता खोने का डर है।",
-    "want": "प्रस्तावित कानून को वापस लेना और सार्वजनिक मीडिया के भविष्य के वित्तीय मॉडल पर पारदर्शी चर्चा।",
-    "changed": "5 नवंबर: छात्र समूहों ने सार्वजनिक मीडिया की स्वतंत्रता का समर्थन जारी रखने के लिए 10 नवंबर को और विरोध कार्यों की घोषणा की।"
+    "why": "कर्मचारी और प्रदर्शनकारी सार्वजनिक मीडिया लाइसेंस शुल्क को सीधे राज्य बजट फंडिंग से बदलने की सरकारी योजना का विरोध कर रहे हैं, उन्हें राजनीतिक नियंत्रण का डर है।",
+    "want": "प्रस्तावित कानून को वापस लेना और मीडिया फंडिंग पर पारदर्शी सार्वजनिक बहस।",
+    "changed": "4 नवंबर: प्रधानमंत्री आंद्रेज बाबिस ने कहा कि हड़ताल और राष्ट्रव्यापी विरोध के बावजूद सरकार सुधार को वापस नहीं लेगी।"
    },
-   "summary": "3 नवंबर 2026 को, चेक टेलीविजन और चेक रेडियो के कर्मचारियों ने लाइसेंस शुल्क को समाप्त करने और राज्य बजट फंडिंग में बदलाव करने के सरकारी प्रस्ताव के विरोध में 24 घंटे की हड़ताल की। Veřejnoprávně पहल द्वारा आयोजित, इस हड़ताल के परिणामस्वरूप प्रसारण सीमित रहा, जिसमें चैनलों ने अभिलेखीय सामग्री और समाचार बुलेटिन प्रसारित किए। छात्रों और कलाकारों सहित हजारों प्रदर्शनकारियों ने मीडिया कर्मियों का समर्थन करने के लिए प्राग और अन्य शहरों में मार्च किया। विपक्षी दलों और अंतरराष्ट्रीय मीडिया संगठनों सहित आलोचकों का तर्क है कि फंडिंग में बदलाव संपादकीय स्वतंत्रता के लिए खतरा है और इससे बजट में कटौती हो सकती है। प्रधानमंत्री Andrej Babiš ने सुधार का बचाव करते हुए इसे लागत बचाने वाला उपाय बताया और राजनीतिक नियंत्रण का कोई भी इरादा होने से इनकार किया। यह विधेयक 24 अक्टूबर को संसद में प्रारंभिक मतदान में पारित हो गया था, और जनवरी में आगे की बहस की उम्मीद है।",
+   "summary": "3 नवंबर 2026 को, चेक टेलीविजन और चेक रेडियो के कर्मचारियों ने सरकार के नेतृत्व वाले फंडिंग बदलाव के विरोध में एक दिवसीय हड़ताल की। प्रधानमंत्री आंद्रेज बाबिस के गठबंधन द्वारा समर्थित यह कानून, घरेलू लाइसेंस शुल्क को सीधे राज्य बजट वित्तपोषण से बदलने का प्रयास करता है और इसमें 15% बजट कटौती शामिल है। मीडिया कर्मियों, विपक्षी दलों और विभिन्न नागरिक समाज समूहों सहित आलोचकों का तर्क है कि यह संपादकीय स्वतंत्रता के लिए खतरा है और अन्य देशों में देखी गई मीडिया नियंत्रण रणनीतियों को दर्शाता है। हड़ताल के दौरान, प्रसारकों ने संचालन को पुरालेख सामग्री और संक्षिप्त बुलेटिनों तक सीमित कर दिया। छात्रों और कलाकारों सहित हजारों प्रदर्शनकारियों ने प्राग और कम से कम 15 अन्य शहरों में रैलियां कीं। सरकार का कहना है कि सुधार एक लागत-बचत उपाय है और वह मीडिया की स्वतंत्रता पर प्रभाव पड़ने से इनकार करती है। यह विधेयक अक्टूबर में प्रारंभिक संसदीय वोट पारित कर चुका है।",
    "demands": [
-    "प्रस्तावित कानून वापस लें",
-    "वर्तमान लाइसेंस शुल्क प्रणाली बनाए रखें",
-    "संपादकीय स्वतंत्रता सुनिश्चित करें",
-    "विशेषज्ञों के साथ पारदर्शी चर्चा में शामिल हों"
+    "प्रस्तावित फंडिंग कानून वापस लें",
+    "संपादकीय स्वतंत्रता की रक्षा करें",
+    "पारदर्शी सार्वजनिक बहस शुरू करें"
    ],
-   "response": "प्रधानमंत्री Andrej Babiš ने कहा कि सुधार का उद्देश्य नागरिकों पर वित्तीय बोझ कम करना है और उन्होंने इनकार किया कि इससे संपादकीय नीति प्रभावित होगी। उन्होंने विरोध प्रदर्शनों को पाखंड बताया।",
+   "response": "प्रधानमंत्री आंद्रेज बाबिस ने कहा कि सरकार शुल्क समाप्त करने के अपने कार्यक्रम को पूरा करेगी और इस बात से इनकार किया कि सुधार से सार्वजनिक मीडिया का राज्य नियंत्रण या राष्ट्रीयकरण होगा। सरकारी गठबंधन ने विधेयक वापस लेने से इनकार कर दिया है।",
    "updates": [
-    "सार्वजनिक मीडिया कर्मियों ने 24 घंटे की हड़ताल शुरू की, और हजारों प्रदर्शनकारी प्राग और अन्य शहरों में एकत्र हुए।"
+    "सरकारी गठबंधन ने फंडिंग सुधार को सुबह के सत्र में प्रारंभिक संसदीय वोट के माध्यम से पारित कराया।",
+    "सार्वजनिक मीडिया कर्मियों ने 24 घंटे की हड़ताल शुरू की, प्रसारण को पुरालेख सामग्री और संगीत तक सीमित कर दिया।",
+    "हड़ताली मीडिया कर्मियों के समर्थन में प्राग और देश भर के अन्य शहरों में हजारों प्रदर्शनकारियों ने रैलियां कीं।",
+    "प्रधानमंत्री आंद्रेज बाबिस ने पुष्टि की कि सरकार सुधार विधेयक वापस नहीं लेगी।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "प्रधानमंत्री बाबिस ने विरोध प्रदर्शनों को 'पाखंड' कहकर खारिज कर दिया, जबकि विपक्षी हस्तियों और प्रदर्शनकारियों ने इसे लोकतंत्र की महत्वपूर्ण रक्षा बताया।"
+   ],
    "numbers": {
-    "crowd": "हजारों प्रदर्शनकारी प्राग और अन्य शहरों में एकत्र हुए, ब्रनो में लगभग 10,000 लोगों के होने की सूचना है।"
+    "crowd": "प्राग और अन्य शहरों में हजारों प्रदर्शनकारी एकत्र हुए, ब्रनो में लगभग 10,000 लोगों की सूचना मिली।"
    }
   },
   "mr": {
    "title": "चेक सार्वजनिक मीडिया कर्मचाऱ्यांचा फंडिंग बदलाच्या विरोधात संप आणि निषेध",
-   "seoTitle": "चेक मीडिया फंडिंग सुधारणेच्या विरोधात प्रागमध्ये निषेध",
+   "seoTitle": "मीडिया फंडिंग सुधारणेच्या विरोधात प्रागमध्ये निषेध",
    "tea": {
-    "why": "कर्मचारी सार्वजनिक मीडिया परवाना शुल्क थेट राज्य अर्थसंकल्पीय निधीने बदलण्याच्या सरकारी योजनेला विरोध करत आहेत, त्यांना स्वातंत्र्याचा ऱ्हास होण्याची भीती वाटते.",
-    "want": "प्रस्तावित कायदा मागे घेणे आणि सार्वजनिक मीडियाच्या भविष्यातील आर्थिक मॉडेलवर पारदर्शक चर्चा.",
-    "changed": "५ नोव्हेंबर: विद्यार्थी गटांनी सार्वजनिक मीडियाच्या स्वातंत्र्याला पाठिंबा देण्यासाठी १० नोव्हेंबर रोजी पुढील निदर्शनांची घोषणा केली."
+    "why": "कर्मचारी आणि आंदोलक सार्वजनिक मीडिया परवाना शुल्क थेट राज्य अर्थसंकल्प निधीने बदलण्याच्या सरकारी योजनेला विरोध करत आहेत, त्यांना राजकीय नियंत्रणाची भीती वाटते.",
+    "want": "प्रस्तावित कायदा मागे घेणे आणि मीडिया फंडिंगवर पारदर्शक सार्वजनिक चर्चा.",
+    "changed": "४ नोव्हेंबर: पंतप्रधान आंद्रेज बाबिस यांनी सांगितले की संप आणि देशव्यापी निषेध असूनही सरकार सुधारणा मागे घेणार नाही."
    },
-   "summary": "३ नोव्हेंबर २०२६ रोजी, चेक टेलिव्हिजन आणि चेक रेडिओच्या कर्मचाऱ्यांनी परवाना शुल्क रद्द करून राज्य अर्थसंकल्पीय निधीकडे वळण्याच्या सरकारी प्रस्तावाच्या विरोधात २४ तासांचा संप केला. Veřejnoprávně या उपक्रमाद्वारे आयोजित या संपामुळे प्रसारण मर्यादित राहिले, ज्यामध्ये चॅनेलने जुनी सामग्री आणि बातम्यांचे बुलेटिन प्रसारित केले. विद्यार्थी आणि कलाकारांसह हजारो निदर्शकांनी मीडिया कर्मचाऱ्यांना पाठिंबा देण्यासाठी प्राग आणि इतर शहरांमध्ये मोर्चा काढला. विरोधी पक्ष आणि आंतरराष्ट्रीय मीडिया संस्थांसह टीकाकारांचे म्हणणे आहे की, निधीतील हा बदल संपादकीय स्वातंत्र्याला धोका निर्माण करतो आणि यामुळे अर्थसंकल्पात कपात होऊ शकते. पंतप्रधान Andrej Babiš यांनी या सुधारणेचा बचाव करताना हा खर्च कमी करण्याचा उपाय असल्याचे म्हटले आणि राजकीय नियंत्रण मिळवण्याचा कोणताही हेतू नसल्याचे नाकारले. हे विधेयक २४ ऑक्टोबर रोजी संसदेत प्राथमिक मतदानात मंजूर झाले असून, जानेवारीत पुढील चर्चेची अपेक्षा आहे.",
+   "summary": "३ नोव्हेंबर २०२६ रोजी, चेक टेलिव्हिजन आणि चेक रेडिओच्या कर्मचाऱ्यांनी सरकारप्रणीत फंडिंग बदलाच्या निषेधार्थ एक दिवसाचा संप केला. पंतप्रधान आंद्रेज बाबिस यांच्या युतीद्वारे समर्थित हा कायदा, घरगुती परवाना शुल्क थेट राज्य अर्थसंकल्प वित्तपुरवठ्याने बदलण्याचा प्रयत्न करतो आणि यात १५% अर्थसंकल्प कपात समाविष्ट आहे. मीडिया कर्मचारी, विरोधी पक्ष आणि विविध नागरी समाज गटांसह टीकाकारांचा असा युक्तिवाद आहे की हे संपादकीय स्वातंत्र्याला धोका निर्माण करते आणि इतर देशांमध्ये दिसणाऱ्या मीडिया नियंत्रण धोरणांचे प्रतिबिंब आहे. संपादरम्यान, प्रसारकांनी कामकाज केवळ संग्रहित सामग्री आणि संक्षिप्त बुलेटिनपर्यंत मर्यादित ठेवले. विद्यार्थी आणि कलाकारांसह हजारो आंदोलकांनी प्राग आणि किमान १५ इतर शहरांमध्ये रॅली काढल्या. सरकारचे म्हणणे आहे की सुधारणा हा खर्च वाचवण्याचा उपाय आहे आणि मीडिया स्वातंत्र्यावर परिणाम होईल याचा त्यांनी इन्कार केला आहे. हे विधेयक ऑक्टोबरमध्ये प्राथमिक संसदीय मतदानात मंजूर झाले आहे.",
    "demands": [
-    "प्रस्तावित कायदा मागे घ्या",
-    "सध्याची परवाना शुल्क प्रणाली कायम ठेवा",
-    "संपादकीय स्वातंत्र्य सुनिश्चित करा",
-    "तज्ञांशी पारदर्शक चर्चा करा"
+    "प्रस्तावित फंडिंग कायदा मागे घ्या",
+    "संपादकीय स्वातंत्र्याचे रक्षण करा",
+    "पारदर्शक सार्वजनिक चर्चा सुरू करा"
    ],
-   "response": "पंतप्रधान Andrej Babiš यांनी सांगितले की या सुधारणेचा उद्देश नागरिकांवरील आर्थिक भार कमी करणे आहे आणि त्यांनी संपादकीय धोरणावर परिणाम होईल हे नाकारले. त्यांनी या निदर्शनांना ढोंगीपणा म्हटले आहे.",
+   "response": "पंतप्रधान आंद्रेज बाबिस यांनी सांगितले की सरकार शुल्क रद्द करण्याचा आपला कार्यक्रम पूर्ण करेल आणि सुधारणेमुळे सार्वजनिक मीडियाचे राज्य नियंत्रण किंवा राष्ट्रीयीकरण होईल याचा इन्कार केला. सरकारी युतीने विधेयक मागे घेण्यास नकार दिला आहे.",
    "updates": [
-    "सार्वजनिक मीडिया कर्मचाऱ्यांनी २४ तासांचा संप सुरू केला आणि हजारो निदर्शक प्राग आणि इतर शहरांमध्ये जमले."
+    "सरकारी युतीने फंडिंग सुधारणा सकाळच्या सत्रात प्राथमिक संसदीय मतदानातून मंजूर करून घेतली.",
+    "सार्वजनिक मीडिया कर्मचाऱ्यांनी २४ तासांचा संप सुरू केला, प्रसारण केवळ संग्रहित सामग्री आणि संगीतापुरते मर्यादित ठेवले.",
+    "संपकरी मीडिया कर्मचाऱ्यांना पाठिंबा देण्यासाठी प्राग आणि देशभरातील इतर शहरांमध्ये हजारो आंदोलकांनी रॅली काढल्या.",
+    "पंतप्रधान आंद्रेज बाबिस यांनी पुष्टी केली की सरकार सुधारणा विधेयक मागे घेणार नाही."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "पंतप्रधान बाबिस यांनी निषेधांना 'पाखंड' म्हणून फेटाळून लावले, तर विरोधी पक्षनेते आणि आंदोलकांनी याला लोकशाहीचे महत्त्वाचे रक्षण असल्याचे वर्णन केले."
+   ],
    "numbers": {
-    "crowd": "हजारो निदर्शक प्राग आणि इतर शहरांमध्ये जमले, ब्रनोमध्ये सुमारे १०,००० लोक असल्याचे वृत्त आहे."
+    "crowd": "प्राग आणि इतर शहरांमध्ये हजारो आंदोलक जमले, ब्रनोमध्ये सुमारे १०,००० जण असल्याचे वृत्त आहे."
    }
   },
   "es": {
    "title": "Trabajadores de medios públicos checos en huelga y protesta contra la reforma de financiación",
    "seoTitle": "Protesta en Praga contra la reforma de medios",
    "tea": {
-    "why": "Los trabajadores se oponen a un plan gubernamental para reemplazar las tarifas de licencia de medios públicos con financiación directa del presupuesto estatal, temiendo una pérdida de independencia.",
-    "want": "La retirada de la legislación propuesta y una discusión transparente sobre el futuro modelo financiero para los medios públicos.",
-    "changed": "5 de noviembre: Grupos estudiantiles anunciaron más acciones de protesta para el 10 de noviembre para seguir apoyando la independencia de los medios públicos."
+    "why": "Los trabajadores y manifestantes se oponen a un plan gubernamental para reemplazar las tarifas de licencia de medios públicos con financiación directa del presupuesto estatal, temiendo un control político.",
+    "want": "La retirada de la legislación propuesta y un debate público transparente sobre la financiación de los medios.",
+    "changed": "4 de noviembre: El primer ministro Andrej Babiš declaró que el gobierno no retirará la reforma a pesar de la huelga y las protestas a nivel nacional."
    },
-   "summary": "El 3 de noviembre de 2026, empleados de la Televisión Checa y la Radio Checa llevaron a cabo una huelga de 24 horas para protestar contra una propuesta gubernamental de abolir las tarifas de licencia y hacer la transición a la financiación del presupuesto estatal. Organizada por la iniciativa Veřejnoprávně, la huelga resultó en una transmisión limitada, con canales emitiendo contenido de archivo y boletines informativos. Miles de manifestantes, incluidos estudiantes y artistas, marcharon en Praga y otras ciudades para apoyar a los trabajadores de los medios. Los críticos, incluidos partidos de oposición y organizaciones internacionales de medios, argumentan que el cambio de financiación amenaza la independencia editorial y podría llevar a recortes presupuestarios. El primer ministro Andrej Babiš defendió la reforma como una medida de ahorro de costos, negando cualquier intención de ejercer control político. El proyecto de ley fue aprobado en una votación preliminar en el parlamento el 24 de octubre, y se espera un debate adicional en enero.",
+   "summary": "El 3 de noviembre de 2026, los empleados de la Televisión Checa y la Radio Checa realizaron una huelga de un día para protestar contra una reforma de financiación liderada por el gobierno. La legislación, apoyada por la coalición del primer ministro Andrej Babiš, busca reemplazar las tarifas de licencia de los hogares con financiación directa del presupuesto estatal e incluye un recorte presupuestario del 15%. Los críticos, incluidos trabajadores de los medios, partidos de oposición y varios grupos de la sociedad civil, argumentan que esto amenaza la independencia editorial y refleja tácticas de control de medios vistas en otros países. Durante la huelga, las emisoras limitaron sus operaciones a contenido de archivo y boletines breves. Miles de manifestantes, incluidos estudiantes y artistas, se manifestaron en Praga y al menos en otras 15 ciudades. El gobierno sostiene que la reforma es una medida de ahorro de costos y niega que afectará la libertad de los medios. El proyecto de ley superó una votación parlamentaria preliminar en octubre.",
    "demands": [
-    "Retirar la legislación propuesta",
-    "Mantener el sistema actual de tarifas de licencia",
-    "Garantizar la independencia editorial",
-    "Participar en una discusión transparente con expertos"
+    "Retirar la legislación de financiación propuesta",
+    "Proteger la independencia editorial",
+    "Abrir un debate público transparente"
    ],
-   "response": "El primer ministro Andrej Babiš declaró que la reforma tiene como objetivo reducir la carga financiera sobre los ciudadanos y negó que afectaría la política editorial. Calificó las protestas de hipocresía.",
+   "response": "El primer ministro Andrej Babiš declaró que el gobierno cumplirá su programa de abolir las tarifas y negó que la reforma condujera al control estatal o la nacionalización de los medios públicos. La coalición gubernamental se ha negado a retirar el proyecto de ley.",
    "updates": [
-    "Los trabajadores de los medios públicos comenzaron una huelga de 24 horas, y miles de manifestantes se reunieron en Praga y otras ciudades."
+    "La coalición gubernamental impulsó la reforma de financiación a través de una votación parlamentaria preliminar en una sesión de madrugada.",
+    "Los trabajadores de los medios públicos lanzaron una huelga de 24 horas, limitando las transmisiones a contenido de archivo y música.",
+    "Miles de manifestantes se reunieron en Praga y otras ciudades del país para apoyar a los trabajadores de los medios en huelga.",
+    "El primer ministro Andrej Babiš confirmó que el gobierno no retirará el proyecto de ley de reforma."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "El primer ministro Babiš desestimó las protestas como 'hipocresía', mientras que figuras de la oposición y manifestantes las describieron como una defensa vital de la democracia."
+   ],
    "numbers": {
     "crowd": "Miles de manifestantes se reunieron en Praga y otras ciudades, con casi 10,000 reportados en Brno."
    }
@@ -235,48 +286,56 @@
    "title": "Grève et manifestation des travailleurs des médias publics tchèques contre la réforme du financement",
    "seoTitle": "Manifestation à Prague contre la réforme des médias",
    "tea": {
-    "why": "Les travailleurs s'opposent à un projet gouvernemental visant à remplacer les redevances des médias publics par un financement direct sur le budget de l'État, craignant une perte d'indépendance.",
-    "want": "Le retrait de la législation proposée et une discussion transparente sur le futur modèle financier des médias publics.",
-    "changed": "5 novembre : Des groupes d'étudiants ont annoncé de nouvelles actions de protestation pour le 10 novembre afin de continuer à soutenir l'indépendance des médias publics."
+    "why": "Les travailleurs et les manifestants s'opposent à un projet gouvernemental visant à remplacer les redevances des médias publics par un financement direct du budget de l'État, craignant un contrôle politique.",
+    "want": "Le retrait de la législation proposée et un débat public transparent sur le financement des médias.",
+    "changed": "4 novembre : Le Premier ministre Andrej Babiš a déclaré que le gouvernement ne retirerait pas la réforme malgré la grève et les manifestations nationales."
    },
-   "summary": "Le 3 novembre 2026, des employés de la Télévision tchèque et de la Radio tchèque ont mené une grève de 24 heures pour protester contre une proposition gouvernementale visant à supprimer les redevances et à passer à un financement sur le budget de l'État. Organisée par l'initiative Veřejnoprávně, la grève a entraîné une diffusion limitée, les chaînes diffusant du contenu d'archives et des bulletins d'information. Des milliers de manifestants, dont des étudiants et des artistes, ont défilé à Prague et dans d'autres villes pour soutenir les travailleurs des médias. Les critiques, notamment les partis d'opposition et les organisations médiatiques internationales, soutiennent que ce changement de financement menace l'indépendance éditoriale et pourrait entraîner des coupes budgétaires. Le Premier ministre Andrej Babiš a défendu la réforme comme une mesure d'économie, niant toute intention d'exercer un contrôle politique. Le projet de loi a été adopté lors d'un vote préliminaire au parlement le 24 octobre, et un débat supplémentaire est attendu en janvier.",
+   "summary": "Le 3 novembre 2026, les employés de la Télévision tchèque et de la Radio tchèque ont mené une grève d'une journée pour protester contre une réforme du financement menée par le gouvernement. La législation, soutenue par la coalition du Premier ministre Andrej Babiš, cherche à remplacer les redevances des ménages par un financement direct du budget de l'État et inclut une réduction budgétaire de 15 %. Les critiques, notamment les travailleurs des médias, les partis d'opposition et divers groupes de la société civile, soutiennent que cela menace l'indépendance éditoriale et reflète des tactiques de contrôle des médias observées dans d'autres pays. Pendant la grève, les diffuseurs ont limité leurs opérations à du contenu d'archives et à de brefs bulletins. Des milliers de manifestants, dont des étudiants et des artistes, ont manifesté à Prague et dans au moins 15 autres villes. Le gouvernement soutient que la réforme est une mesure d'économie et nie qu'elle affectera la liberté des médias. Le projet de loi a passé un vote parlementaire préliminaire en octobre.",
    "demands": [
-    "Retirer la législation proposée",
-    "Maintenir le système actuel de redevance",
-    "Garantir l'indépendance éditoriale",
-    "Engager une discussion transparente avec des experts"
+    "Retirer la législation de financement proposée",
+    "Protéger l'indépendance éditoriale",
+    "Ouvrir un débat public transparent"
    ],
-   "response": "Le Premier ministre Andrej Babiš a déclaré que la réforme visait à réduire la charge financière pesant sur les citoyens et a nié qu'elle affecterait la politique éditoriale. Il a qualifié les manifestations d'hypocrisie.",
+   "response": "Le Premier ministre Andrej Babiš a déclaré que le gouvernement remplirait son programme d'abolition des redevances et a nié que la réforme conduirait à un contrôle étatique ou à la nationalisation des médias publics. La coalition gouvernementale a refusé de retirer le projet de loi.",
    "updates": [
-    "Les travailleurs des médias publics ont entamé une grève de 24 heures, et des milliers de manifestants se sont rassemblés à Prague et dans d'autres villes."
+    "La coalition gouvernementale a fait passer la réforme du financement lors d'un vote parlementaire préliminaire lors d'une session matinale.",
+    "Les travailleurs des médias publics ont lancé une grève de 24 heures, limitant les diffusions à du contenu d'archives et de la musique.",
+    "Des milliers de manifestants ont manifesté à Prague et dans d'autres villes du pays pour soutenir les travailleurs des médias en grève.",
+    "Le Premier ministre Andrej Babiš a confirmé que le gouvernement ne retirerait pas le projet de loi de réforme."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Le Premier ministre Babiš a qualifié les manifestations d'« hypocrisie », tandis que des personnalités de l'opposition et des manifestants les ont décrites comme une défense vitale de la démocratie."
+   ],
    "numbers": {
     "crowd": "Des milliers de manifestants se sont rassemblés à Prague et dans d'autres villes, avec près de 10 000 personnes signalées à Brno."
    }
   },
   "de": {
-   "title": "Mitarbeiter tschechischer öffentlicher Medien streiken und protestieren gegen Finanzierungsreform",
+   "title": "Tschechische Medienmitarbeiter streiken und protestieren gegen Finanzierungsreform",
    "seoTitle": "Prager Protest gegen Medienfinanzierungsreform",
    "tea": {
-    "why": "Die Mitarbeiter lehnen einen Regierungsplan ab, die Rundfunkgebühren durch eine direkte Finanzierung aus dem Staatshaushalt zu ersetzen, da sie einen Verlust der Unabhängigkeit befürchten.",
-    "want": "Rücknahme der vorgeschlagenen Gesetzgebung und eine transparente Diskussion über das zukünftige Finanzmodell für öffentliche Medien.",
-    "changed": "5. November: Studentengruppen kündigten für den 10. November weitere Protestaktionen an, um die Unabhängigkeit der öffentlichen Medien weiterhin zu unterstützen."
+    "why": "Mitarbeiter und Demonstranten lehnen einen Regierungsplan ab, die Rundfunkgebühren durch eine direkte staatliche Budgetfinanzierung zu ersetzen, da sie politische Kontrolle befürchten.",
+    "want": "Rücknahme der vorgeschlagenen Gesetzgebung und eine transparente öffentliche Debatte über Medienfinanzierung.",
+    "changed": "4. November: Premierminister Andrej Babiš erklärte, die Regierung werde die Reform trotz des Streiks und der landesweiten Proteste nicht zurückziehen."
    },
-   "summary": "Am 3. November 2026 hielten Mitarbeiter des Tschechischen Fernsehens und des Tschechischen Rundfunks einen 24-stündigen Streik ab, um gegen einen Regierungsvorschlag zur Abschaffung der Rundfunkgebühren und den Übergang zur Finanzierung aus dem Staatshaushalt zu protestieren. Der von der Initiative Veřejnoprávně organisierte Streik führte zu einem eingeschränkten Sendebetrieb, wobei die Kanäle Archivinhalte und Nachrichtenbulletins ausstrahlten. Tausende Demonstranten, darunter Studenten und Künstler, marschierten in Prag und anderen Städten, um die Medienmitarbeiter zu unterstützen. Kritiker, darunter Oppositionsparteien und internationale Medienorganisationen, argumentieren, dass die Finanzierungsumstellung die redaktionelle Unabhängigkeit bedroht und zu Budgetkürzungen führen könnte. Premierminister Andrej Babiš verteidigte die Reform als kostensparende Maßnahme und bestritt jede Absicht, politische Kontrolle auszuüben. Der Gesetzentwurf wurde am 24. Oktober in einer vorläufigen Abstimmung im Parlament verabschiedet, eine weitere Debatte wird im Januar erwartet.",
+   "summary": "Am 3. November 2026 hielten Mitarbeiter des Tschechischen Fernsehens und des Tschechischen Rundfunks einen eintägigen Streik ab, um gegen eine von der Regierung geführte Finanzierungsreform zu protestieren. Die Gesetzgebung, die von der Koalition des Premierministers Andrej Babiš unterstützt wird, zielt darauf ab, Haushaltsgebühren durch direkte staatliche Budgetfinanzierung zu ersetzen und beinhaltet eine Budgetkürzung von 15 %. Kritiker, darunter Medienmitarbeiter, Oppositionsparteien und verschiedene zivilgesellschaftliche Gruppen, argumentieren, dass dies die redaktionelle Unabhängigkeit bedroht und Taktiken der Medienkontrolle widerspiegelt, die in anderen Ländern zu beobachten sind. Während des Streiks begrenzten die Sender ihren Betrieb auf Archivinhalte und kurze Bulletins. Tausende Demonstranten, darunter Studenten und Künstler, versammelten sich in Prag und mindestens 15 weiteren Städten. Die Regierung behauptet, die Reform sei eine Maßnahme zur Kosteneinsparung und bestreitet, dass sie die Medienfreiheit beeinträchtigen werde. Der Gesetzentwurf passierte im Oktober eine vorläufige parlamentarische Abstimmung.",
    "demands": [
-    "Vorgeschlagene Gesetzgebung zurückziehen",
-    "Aktuelles Rundfunkgebührensystem beibehalten",
-    "Redaktionelle Unabhängigkeit sicherstellen",
-    "Transparente Diskussion mit Experten führen"
+    "Rücknahme der vorgeschlagenen Finanzierungsgesetzgebung",
+    "Schutz der redaktionellen Unabhängigkeit",
+    "Eröffnung einer transparenten öffentlichen Debatte"
    ],
-   "response": "Premierminister Andrej Babiš erklärte, die Reform ziele darauf ab, die finanzielle Belastung der Bürger zu verringern, und bestritt, dass sie die redaktionelle Politik beeinflussen würde. Er bezeichnete die Proteste als Heuchelei.",
+   "response": "Premierminister Andrej Babiš erklärte, die Regierung werde ihr Programm zur Abschaffung der Gebühren erfüllen und bestritt, dass die Reform zu staatlicher Kontrolle oder Verstaatlichung der öffentlichen Medien führen würde. Die Regierungskoalition hat sich geweigert, den Gesetzentwurf zurückzuziehen.",
    "updates": [
-    "Mitarbeiter der öffentlichen Medien begannen einen 24-stündigen Streik, und Tausende Demonstranten versammelten sich in Prag und anderen Städten."
+    "Die Regierungskoalition brachte die Finanzierungsreform in einer frühen Morgensitzung durch eine vorläufige parlamentarische Abstimmung.",
+    "Mitarbeiter der öffentlichen Medien starteten einen 24-Stunden-Streik und begrenzten die Sendungen auf Archivinhalte und Musik.",
+    "Tausende Demonstranten versammelten sich in Prag und anderen Städten des Landes, um die streikenden Medienmitarbeiter zu unterstützen.",
+    "Premierminister Andrej Babiš bestätigte, dass die Regierung den Reformgesetzentwurf nicht zurückziehen werde."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Premierminister Babiš tat die Proteste als 'Heuchelei' ab, während Oppositionsfiguren und Demonstranten sie als lebenswichtige Verteidigung der Demokratie beschrieben."
+   ],
    "numbers": {
-    "crowd": "Tausende Demonstranten versammelten sich in Prag und anderen Städten, wobei in Brünn fast 10.000 gemeldet wurden."
+    "crowd": "Tausende Demonstranten versammelten sich in Prag und anderen Städten, wobei fast 10.000 in Brünn gemeldet wurden."
    }
   }
  }
