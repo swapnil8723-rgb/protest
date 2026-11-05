@@ -13,26 +13,29 @@
   "citySlug": "copenhagen",
   "regionSlug": "capital-region"
  },
- "scope": "nationwide",
+ "scope": "multi-city",
  "causes": [
   "students",
-  "education"
+  "education",
+  "anti-government"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-04",
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Students are protesting government plans to reduce or abolish student grants to reallocate funds toward national defense spending.",
-  "want": "Protesters demand the preservation of the current student allowance system and an end to proposed cuts.",
-  "changed": "Nov 4: Thousands of students marched to the parliament in Copenhagen while 40,000 students across the country participated in a strike."
+  "why": "Students are protesting government plans to cut education grants to reallocate funds toward defense spending.",
+  "want": "The protesters demand the preservation of the current student allowance system and oppose the proposed cuts.",
+  "changed": "Nov 4: Thousands of students marched from City Hall Square to Parliament in Copenhagen while 40,000 students went on strike across Denmark."
  },
- "summary": "On November 4, 2026, thousands of students marched from Copenhagen’s City Hall Square to the Danish Parliament to protest proposed cuts to the student allowance system, known as SU. Organised by 11 student and high school associations, including the Danish High School Students’ Association (DGS), the demonstration was part of a nationwide strike involving approximately 40,000 students across 57 schools. Protesters expressed opposition to government plans to reduce or eliminate grants for students living with parents who exceed certain income thresholds, arguing the funds are being diverted to defense spending. Minister for Science, Higher Education and Digital Affairs Christina Egelund acknowledged the students' right to protest but defended the government's need to prioritize security funding. The demonstration concluded peacefully with no reports of violence.",
+ "summary": "On November 4, 2026, thousands of students marched from Copenhagen’s City Hall Square to the Danish Parliament to protest government plans to reduce student grants. Organised by 11 student and high school associations, including the Danish High School Students’ Association (DGS), the demonstration was part of a broader wave of youth unrest across Europe. Protesters carried signs reading “Save SU” and “Broken Promises,” expressing opposition to budget proposals that would restrict eligibility for student allowances based on parental income to fund increased defense spending. According to reports, approximately 40,000 students participated in strikes at 57 schools nationwide. Christina Egelund, the Minister for Science, Higher Education and Digital Affairs, stated she understood the students' concerns but defended the government's need to make spending choices regarding national security.",
  "organizers": [
   "Danish High School Students’ Association (DGS)",
   "11 high school and university student associations"
@@ -40,14 +43,15 @@
  "demands": [
   "Preserve the current student allowance (SU) system",
   "Stop cuts to education funding",
-  "Maintain existing welfare support for students"
+  "Oppose reallocating education funds to defense"
  ],
- "response": "Minister for Science, Higher Education and Digital Affairs Christina Egelund stated she understood the students' views but defended the government's need to make spending choices to address defense and security funding requirements.",
+ "response": "Minister for Science, Higher Education and Digital Affairs Christina Egelund stated she understood the students' views but defended the necessity of making spending choices to fund defense and security. She noted the proposal remains under negotiation.",
  "numbers": {
   "crowd": {
-   "value": 13000,
-   "text": "Organisers estimated between 12,000 and 13,000 students participated in the Copenhagen protest.",
+   "value": 30000,
+   "text": "Some media outlets reported a crowd of 30,000 in Copenhagen, while organisers estimated 12,000 to 13,000 attended the…",
    "sources": [
+    1,
     2,
     6
    ]
@@ -56,19 +60,12 @@
  "updates": [
   {
    "at": "2026-11-04",
-   "text": "Approximately 40,000 students across Denmark participated in a strike against proposed grant cuts.",
+   "text": "Students marched from City Hall Square to Parliament in Copenhagen while 40,000 students went on strike across 57 schools in Denmark.",
    "sources": [
+    1,
+    2,
     8,
     9
-   ]
-  },
-  {
-   "at": "2026-11-04",
-   "text": "Thousands of students marched from City Hall Square to the Danish Parliament in Copenhagen.",
-   "sources": [
-    2,
-    4,
-    6
    ]
   }
  ],
@@ -143,16 +140,18 @@
    "publishedAt": "2026-11-05T11:34:19.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
+ "conflicts": [
+  "Media reports estimated 30,000 protesters in Copenhagen, while organisers stated the turnout was between 12,000 and 13,000."
+ ],
+ "confidence": 0.8,
  "publishers": 10,
- "reports24h": 13,
- "reportsPrev24h": 0,
- "reports48h": 13,
+ "reports24h": 10,
+ "reportsPrev24h": 4,
+ "reports48h": 14,
  "firstSeenAt": "2026-11-03T15:51:44.041Z",
  "lastReportAt": "2026-11-05T11:34:19.000Z",
- "lastCheckedAt": "2026-11-05T12:56:40.154Z",
- "updatedAt": "2026-11-05T12:54:46.284Z",
+ "lastCheckedAt": "2026-11-05T15:56:07.840Z",
+ "updatedAt": "2026-11-05T15:54:28.395Z",
  "searchedAt": "2026-11-04T10:10:51.312Z",
  "endedOn": "2026-11-04",
  "responseSources": [
@@ -160,131 +159,136 @@
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-05T12:54:46.284Z",
- "summaryOf": "6b4d1aab9172",
+ "summarizedAt": "2026-11-05T15:54:28.395Z",
+ "summaryOf": "2830335dd089",
  "publishedAt": "2026-11-04T10:15:48.062Z",
  "i18n": {
-  "of": "3d23ca97cfbc3d9f",
-  "at": "2026-11-05T12:57:30.549Z",
+  "of": "dc1fc10eb4bcaf34",
+  "at": "2026-11-05T15:57:37.744Z",
   "tries": 1,
   "hi": {
    "title": "कोपेनहेगन में प्रस्तावित शिक्षा अनुदान कटौती के खिलाफ डेनिश छात्रों का मार्च",
    "seoTitle": "अनुदान कटौती के खिलाफ कोपेनहेगन में छात्र मार्च",
    "tea": {
-    "why": "छात्र राष्ट्रीय रक्षा व्यय के लिए धन आवंटित करने हेतु छात्र अनुदान को कम करने या समाप्त करने की सरकारी योजनाओं का विरोध कर रहे हैं।",
-    "want": "प्रदर्शनकारी वर्तमान छात्र भत्ता प्रणाली को बनाए रखने और प्रस्तावित कटौती को समाप्त करने की मांग कर रहे हैं।",
-    "changed": "4 नवंबर: हजारों छात्रों ने कोपेनहेगन में संसद तक मार्च किया, जबकि देश भर में 40,000 छात्रों ने हड़ताल में भाग लिया।"
+    "why": "छात्र शिक्षा अनुदान में कटौती करके उस राशि को रक्षा खर्च के लिए आवंटित करने की सरकारी योजनाओं का विरोध कर रहे हैं।",
+    "want": "प्रदर्शनकारी वर्तमान छात्र भत्ता प्रणाली को बनाए रखने की मांग कर रहे हैं और प्रस्तावित कटौती का विरोध कर रहे हैं।",
+    "changed": "4 नवंबर: कोपेनहेगन में हजारों छात्रों ने सिटी हॉल स्क्वायर से संसद तक मार्च किया, जबकि पूरे डेनमार्क में 40,000 छात्र हड़ताल पर रहे।"
    },
-   "summary": "4 नवंबर, 2026 को, हजारों छात्रों ने छात्र भत्ता प्रणाली, जिसे SU के रूप में जाना जाता है, में प्रस्तावित कटौती का विरोध करने के लिए कोपेनहेगन के सिटी हॉल स्क्वायर से डेनिश संसद तक मार्च किया। 11 छात्र और हाई स्कूल संघों द्वारा आयोजित, जिसमें डैनिश हाई स्कूल स्टूडेंट्स एसोसिएशन (DGS) शामिल है, यह प्रदर्शन 57 स्कूलों के लगभग 40,000 छात्रों की राष्ट्रव्यापी हड़ताल का हिस्सा था। प्रदर्शनकारियों ने उन छात्रों के लिए अनुदान कम करने या समाप्त करने की सरकारी योजनाओं का विरोध किया जिनके माता-पिता की आय एक निश्चित सीमा से अधिक है, उनका तर्क है कि धन को रक्षा व्यय की ओर मोड़ा जा रहा है। विज्ञान, उच्च शिक्षा और डिजिटल मामलों की मंत्री क्रिस्टीना एगेलुंड ने छात्रों के विरोध करने के अधिकार को स्वीकार किया लेकिन सुरक्षा वित्तपोषण को प्राथमिकता देने की सरकार की आवश्यकता का बचाव किया। प्रदर्शन शांतिपूर्ण ढंग से समाप्त हुआ और हिंसा की कोई रिपोर्ट नहीं है।",
+   "summary": "4 नवंबर 2026 को, हजारों छात्रों ने सरकारी छात्र अनुदान कम करने की योजनाओं के विरोध में कोपेनहेगन के सिटी हॉल स्क्वायर से डेनिश संसद तक मार्च किया। Danish High School Students’ Association (DGS) सहित 11 छात्र और हाई स्कूल संघों द्वारा आयोजित यह प्रदर्शन पूरे यूरोप में युवा असंतोष की एक व्यापक लहर का हिस्सा था। प्रदर्शनकारियों ने \"Save SU\" और \"Broken Promises\" लिखे हुए पोस्टर लिए थे, जो बजट प्रस्तावों के प्रति अपना विरोध व्यक्त कर रहे थे, जिसके तहत रक्षा खर्च बढ़ाने के लिए माता-पिता की आय के आधार पर छात्र भत्ते की पात्रता को सीमित किया जाना था। रिपोर्टों के अनुसार, देश भर के 57 स्कूलों में लगभग 40,000 छात्रों ने हड़ताल में भाग लिया। विज्ञान, उच्च शिक्षा और डिजिटल मामलों की मंत्री Christina Egelund ने कहा कि वह छात्रों की चिंताओं को समझती हैं, लेकिन उन्होंने राष्ट्रीय सुरक्षा के संबंध में खर्च के विकल्प चुनने की सरकार की आवश्यकता का बचाव किया।",
    "demands": [
-    "वर्तमान छात्र भत्ता (SU) प्रणाली को संरक्षित करें",
-    "शिक्षा निधि में कटौती रोकें",
-    "छात्रों के लिए मौजूदा कल्याणकारी सहायता बनाए रखें"
+    "वर्तमान छात्र भत्ता (SU) प्रणाली को बनाए रखें",
+    "शिक्षा निधि में कटौती बंद करें",
+    "शिक्षा निधि को रक्षा के लिए पुन: आवंटित करने का विरोध करें"
    ],
-   "response": "विज्ञान, उच्च शिक्षा और डिजिटल मामलों की मंत्री क्रिस्टीना एगेलुंड ने कहा कि वह छात्रों के विचारों को समझती हैं, लेकिन रक्षा और सुरक्षा वित्तपोषण आवश्यकताओं को पूरा करने के लिए खर्च के विकल्प चुनने की सरकार की आवश्यकता का बचाव किया।",
+   "response": "विज्ञान, उच्च शिक्षा और डिजिटल मामलों की मंत्री Christina Egelund ने कहा कि वह छात्रों के विचारों को समझती हैं, लेकिन उन्होंने रक्षा और सुरक्षा के लिए धन जुटाने हेतु खर्च के विकल्प चुनने की आवश्यकता का बचाव किया। उन्होंने उल्लेख किया कि प्रस्ताव अभी भी बातचीत के अधीन है।",
    "updates": [
-    "डेनमार्क भर में लगभग 40,000 छात्रों ने प्रस्तावित अनुदान कटौती के खिलाफ हड़ताल में भाग लिया।",
-    "हजारों छात्रों ने कोपेनहेगन में सिटी हॉल स्क्वायर से डेनिश संसद तक मार्च किया।"
+    "छात्रों ने कोपेनहेगन में सिटी हॉल स्क्वायर से संसद तक मार्च किया, जबकि डेनमार्क के 57 स्कूलों में 40,000 छात्र हड़ताल पर रहे।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "मीडिया रिपोर्टों में कोपेनहेगन में 30,000 प्रदर्शनकारियों का अनुमान लगाया गया, जबकि आयोजकों ने कहा कि उपस्थिति 12,000 से 13,000 के बीच थी।"
+   ],
    "numbers": {
-    "crowd": "आयोजकों का अनुमान है कि कोपेनहेगन विरोध प्रदर्शन में 12,000 से 13,000 के बीच छात्रों ने भाग लिया।"
+    "crowd": "कुछ मीडिया आउटलेट्स ने कोपेनहेगन में 30,000 की भीड़ की सूचना दी, जबकि आयोजकों ने 12,000 से 13,000 के उपस्थित होने का अनुमान लगाया..."
    }
   },
   "mr": {
-   "title": "कोपेनहेगनमध्ये प्रस्तावित शिक्षण अनुदान कपातीविरुद्ध डॅनिश विद्यार्थ्यांचा मोर्चा",
-   "seoTitle": "अनुदान कपातीविरुद्ध कोपेनहेगनमध्ये विद्यार्थी मोर्चा",
+   "title": "कोपेनहेगनमध्ये प्रस्तावित शिक्षण अनुदान कपातीविरोधात डॅनिश विद्यार्थ्यांचा मोर्चा",
+   "seoTitle": "अनुदान कपातीविरोधात कोपेनहेगनमध्ये विद्यार्थी मोर्चा",
    "tea": {
-    "why": "राष्ट्रीय संरक्षण खर्चासाठी निधी वळवण्यासाठी विद्यार्थी अनुदान कमी करण्याच्या किंवा रद्द करण्याच्या सरकारी योजनांचा विद्यार्थी निषेध करत आहेत.",
-    "want": "प्रदर्शनकारी सध्याची विद्यार्थी भत्ता प्रणाली कायम ठेवण्याची आणि प्रस्तावित कपात थांबवण्याची मागणी करत आहेत.",
-    "changed": "4 नोव्हेंबर: हजारो विद्यार्थ्यांनी कोपेनहेगनमध्ये संसदेपर्यंत मोर्चा काढला, तर देशभरातील 40,000 विद्यार्थ्यांनी संपात सहभाग घेतला."
+    "why": "शिक्षण अनुदानात कपात करून ती रक्कम संरक्षण खर्चासाठी वळवण्याच्या सरकारी योजनांचा विद्यार्थी निषेध करत आहेत.",
+    "want": "आंदोलक सध्याची विद्यार्थी भत्ता प्रणाली कायम ठेवण्याची मागणी करत आहेत आणि प्रस्तावित कपातीला विरोध करत आहेत.",
+    "changed": "४ नोव्हेंबर: कोपेनहेगनमध्ये हजारो विद्यार्थ्यांनी सिटी हॉल स्क्वेअरपासून संसदेपर्यंत मोर्चा काढला, तर संपूर्ण डेन्मार्कमध्ये ४०,००० विद्यार्थी संपावर होते."
    },
-   "summary": "4 नोव्हेंबर 2026 रोजी, हजारो विद्यार्थ्यांनी SU म्हणून ओळखल्या जाणाऱ्या विद्यार्थी भत्ता प्रणालीतील प्रस्तावित कपातीचा निषेध करण्यासाठी कोपेनहेगनच्या सिटी हॉल स्क्वेअरपासून डॅनिश संसदेपर्यंत मोर्चा काढला. डॅनिश हायस्कूल स्टुडंट्स असोसिएशन (DGS) सह 11 विद्यार्थी आणि हायस्कूल संघटनांनी आयोजित केलेले हे आंदोलन 57 शाळांमधील सुमारे 40,000 विद्यार्थ्यांच्या देशव्यापी संपाचा भाग होते. प्रदर्शनकर्त्यांनी ज्या पालकांचे उत्पन्न ठराविक मर्यादेपेक्षा जास्त आहे अशा विद्यार्थ्यांसाठी अनुदान कमी करण्याच्या किंवा रद्द करण्याच्या सरकारी योजनांना विरोध दर्शवला, त्यांचा असा युक्तिवाद आहे की हा निधी संरक्षण खर्चासाठी वळवला जात आहे. विज्ञान, उच्च शिक्षण आणि डिजिटल व्यवहार मंत्री क्रिस्टीना एगेलुंड यांनी विद्यार्थ्यांचा निषेध करण्याचा अधिकार मान्य केला, परंतु सुरक्षा निधीला प्राधान्य देण्याच्या सरकारच्या गरजेचा बचाव केला. हे आंदोलन शांततेत पार पडले आणि हिंसाचाराची कोणतीही नोंद नाही.",
+   "summary": "४ नोव्हेंबर २०२६ रोजी, हजारो विद्यार्थ्यांनी सरकारी विद्यार्थी अनुदान कमी करण्याच्या योजनांच्या निषेधार्थ कोपेनहेगनच्या सिटी हॉल स्क्वेअरपासून डॅनिश संसदेपर्यंत मोर्चा काढला. Danish High School Students’ Association (DGS) सह ११ विद्यार्थी आणि हायस्कूल संघटनांनी आयोजित केलेले हे आंदोलन संपूर्ण युरोपमधील युवा असंतोषाच्या व्यापक लाटेचा भाग होते. आंदोलकांनी \"Save SU\" आणि \"Broken Promises\" असे लिहिलेले फलक हातात घेतले होते, जे बजेट प्रस्तावांना विरोध दर्शवत होते, ज्या अंतर्गत संरक्षण खर्च वाढवण्यासाठी पालकांच्या उत्पन्नावर आधारित विद्यार्थी भत्त्याची पात्रता मर्यादित केली जाणार होती. अहवालांनुसार, देशभरातील ५७ शाळांमध्ये सुमारे ४०,००० विद्यार्थ्यांनी संपात सहभाग घेतला. विज्ञान, उच्च शिक्षण आणि डिजिटल व्यवहार मंत्री Christina Egelund यांनी सांगितले की त्या विद्यार्थ्यांच्या चिंता समजतात, परंतु त्यांनी राष्ट्रीय सुरक्षेच्या संदर्भात खर्चाचे पर्याय निवडण्याच्या सरकारच्या गरजेचा बचाव केला.",
    "demands": [
-    "सध्याची विद्यार्थी भत्ता (SU) प्रणाली जतन करा",
+    "सध्याची विद्यार्थी भत्ता (SU) प्रणाली कायम ठेवा",
     "शिक्षण निधीतील कपात थांबवा",
-    "विद्यार्थ्यांसाठी विद्यमान कल्याणकारी मदत कायम ठेवा"
+    "शिक्षण निधी संरक्षणासाठी वळवण्यास विरोध करा"
    ],
-   "response": "विज्ञान, उच्च शिक्षण आणि डिजिटल व्यवहार मंत्री क्रिस्टीना एगेलुंड यांनी सांगितले की त्यांना विद्यार्थ्यांचे विचार समजले आहेत, परंतु संरक्षण आणि सुरक्षा निधीच्या गरजा पूर्ण करण्यासाठी खर्चाचे पर्याय निवडण्याच्या सरकारच्या गरजेचा त्यांनी बचाव केला.",
+   "response": "विज्ञान, उच्च शिक्षण आणि डिजिटल व्यवहार मंत्री Christina Egelund यांनी सांगितले की त्या विद्यार्थ्यांचे विचार समजतात, परंतु त्यांनी संरक्षण आणि सुरक्षेसाठी निधी उभारण्यासाठी खर्चाचे पर्याय निवडण्याच्या आवश्यकतेचा बचाव केला. त्यांनी नमूद केले की हा प्रस्ताव अद्याप चर्चेच्या अधीन आहे.",
    "updates": [
-    "डेन्मार्कभर सुमारे 40,000 विद्यार्थ्यांनी प्रस्तावित अनुदान कपातीविरुद्ध संपात सहभाग घेतला.",
-    "हजारो विद्यार्थ्यांनी कोपेनहेगनमध्ये सिटी हॉल स्क्वेअरपासून डॅनिश संसदेपर्यंत मोर्चा काढला."
+    "विद्यार्थ्यांनी कोपेनहेगनमध्ये सिटी हॉल स्क्वेअरपासून संसदेपर्यंत मोर्चा काढला, तर डेन्मार्कमधील ५७ शाळांमध्ये ४०,००० विद्यार्थी संपावर होते."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "मीडिया अहवालांनी कोपेनहेगनमध्ये ३०,००० आंदोलकांचा अंदाज वर्तवला, तर आयोजकांनी उपस्थिती १२,००० ते १३,००० च्या दरम्यान असल्याचे सांगितले."
+   ],
    "numbers": {
-    "crowd": "आयोजकांच्या अंदाजानुसार कोपेनहेगनमधील निदर्शनात 12,000 ते 13,000 विद्यार्थ्यांनी सहभाग घेतला होता."
+    "crowd": "काही मीडिया आउटलेट्सनी कोपेनहेगनमध्ये ३०,००० गर्दीची नोंद केली, तर आयोजकांनी १२,००० ते १३,००० उपस्थित असल्याचा अंदाज वर्तवला..."
    }
   },
   "es": {
-   "title": "Estudiantes daneses marchan en Copenhague contra los recortes propuestos a las becas",
+   "title": "Estudiantes daneses marchan en Copenhague contra los recortes propuestos a las becas educativas",
    "seoTitle": "Marcha estudiantil en Copenhague contra recortes",
    "tea": {
-    "why": "Los estudiantes protestan contra los planes del gobierno de reducir o eliminar las becas estudiantiles para reasignar fondos al gasto de defensa nacional.",
-    "want": "Los manifestantes exigen la preservación del sistema actual de subsidios estudiantiles y el fin de los recortes propuestos.",
-    "changed": "4 de noviembre: Miles de estudiantes marcharon hacia el parlamento en Copenhague mientras 40,000 estudiantes en todo el país participaron en una huelga."
+    "why": "Los estudiantes protestan contra los planes del gobierno de recortar las becas educativas para reasignar fondos al gasto en defensa.",
+    "want": "Los manifestantes exigen la preservación del sistema actual de subsidios estudiantiles y se oponen a los recortes propuestos.",
+    "changed": "4 de noviembre: Miles de estudiantes marcharon desde la Plaza del Ayuntamiento hasta el Parlamento en Copenhague, mientras que 40,000 estudiantes se declararon en huelga en toda Dinamarca."
    },
-   "summary": "El 4 de noviembre de 2026, miles de estudiantes marcharon desde la Plaza del Ayuntamiento de Copenhague hasta el Parlamento danés para protestar contra los recortes propuestos al sistema de subsidios estudiantiles, conocido como SU. Organizada por 11 asociaciones de estudiantes y escuelas secundarias, incluida la Asociación de Estudiantes de Escuelas Secundarias Danesas (DGS), la manifestación fue parte de una huelga nacional que involucró a aproximadamente 40,000 estudiantes en 57 escuelas. Los manifestantes expresaron su oposición a los planes del gobierno de reducir o eliminar las becas para estudiantes que viven con padres que superan ciertos umbrales de ingresos, argumentando que los fondos se están desviando al gasto en defensa. La ministra de Ciencia, Educación Superior y Asuntos Digitales, Christina Egelund, reconoció el derecho de los estudiantes a protestar, pero defendió la necesidad del gobierno de priorizar la financiación de la seguridad. La manifestación concluyó pacíficamente sin informes de violencia.",
+   "summary": "El 4 de noviembre de 2026, miles de estudiantes marcharon desde la Plaza del Ayuntamiento de Copenhague hasta el Parlamento danés para protestar contra los planes del gobierno de reducir las becas estudiantiles. Organizada por 11 asociaciones de estudiantes y de secundaria, incluida la Asociación de Estudiantes de Secundaria Daneses (DGS), la manifestación fue parte de una ola más amplia de malestar juvenil en toda Europa. Los manifestantes portaban carteles que decían \"Save SU\" y \"Broken Promises\", expresando su oposición a las propuestas presupuestarias que restringirían la elegibilidad para los subsidios estudiantiles según los ingresos de los padres para financiar un mayor gasto en defensa. Según los informes, aproximadamente 40,000 estudiantes participaron en huelgas en 57 escuelas a nivel nacional. Christina Egelund, ministra de Ciencia, Educación Superior y Asuntos Digitales, declaró que entendía las preocupaciones de los estudiantes, pero defendió la necesidad del gobierno de tomar decisiones de gasto con respecto a la seguridad nacional.",
    "demands": [
     "Preservar el sistema actual de subsidios estudiantiles (SU)",
-    "Detener los recortes a la financiación de la educación",
-    "Mantener el apoyo de bienestar existente para los estudiantes"
+    "Detener los recortes a la financiación educativa",
+    "Oponerse a la reasignación de fondos educativos a la defensa"
    ],
-   "response": "La ministra de Ciencia, Educación Superior y Asuntos Digitales, Christina Egelund, declaró que entendía los puntos de vista de los estudiantes, pero defendió la necesidad del gobierno de tomar decisiones de gasto para abordar los requisitos de financiación de defensa y seguridad.",
+   "response": "La ministra de Ciencia, Educación Superior y Asuntos Digitales, Christina Egelund, declaró que entendía los puntos de vista de los estudiantes, pero defendió la necesidad de tomar decisiones de gasto para financiar la defensa y la seguridad. Señaló que la propuesta sigue bajo negociación.",
    "updates": [
-    "Aproximadamente 40,000 estudiantes en toda Dinamarca participaron en una huelga contra los recortes propuestos a las becas.",
-    "Miles de estudiantes marcharon desde la Plaza del Ayuntamiento hasta el Parlamento danés en Copenhague."
+    "Los estudiantes marcharon desde la Plaza del Ayuntamiento hasta el Parlamento en Copenhague, mientras que 40,000 estudiantes se declararon en huelga en 57 escuelas de Dinamarca."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Los informes de los medios estimaron 30,000 manifestantes en Copenhague, mientras que los organizadores declararon que la asistencia fue de entre 12,000 y 13,000."
+   ],
    "numbers": {
-    "crowd": "Los organizadores estimaron que entre 12,000 y 13,000 estudiantes participaron en la protesta de Copenhague."
+    "crowd": "Algunos medios de comunicación informaron de una multitud de 30,000 personas en Copenhague, mientras que los organizadores estimaron que asistieron entre…"
    }
   },
   "fr": {
-   "title": "Des étudiants danois manifestent à Copenhague contre les coupes budgétaires prévues dans les bourses",
-   "seoTitle": "Manifestation étudiante à Copenhague",
+   "title": "Des étudiants danois manifestent à Copenhague contre les coupes budgétaires proposées dans les bourses d'études",
+   "seoTitle": "Manifestation étudiante à Copenhague contre les coupes",
    "tea": {
-    "why": "Les étudiants protestent contre les projets du gouvernement visant à réduire ou à supprimer les bourses d'études afin de réaffecter des fonds aux dépenses de défense nationale.",
-    "want": "Les manifestants exigent la préservation du système actuel d'allocations étudiantes et l'arrêt des coupes proposées.",
-    "changed": "4 novembre : Des milliers d'étudiants ont marché vers le parlement à Copenhague tandis que 40 000 étudiants à travers le pays ont participé à une grève."
+    "why": "Les étudiants protestent contre les projets du gouvernement de réduire les bourses d'études afin de réallouer des fonds aux dépenses de défense.",
+    "want": "Les manifestants exigent la préservation du système actuel d'allocations étudiantes et s'opposent aux coupes proposées.",
+    "changed": "4 novembre : Des milliers d'étudiants ont marché de la place de l'Hôtel de Ville jusqu'au Parlement à Copenhague, tandis que 40 000 étudiants ont fait grève à travers le Danemark."
    },
-   "summary": "Le 4 novembre 2026, des milliers d'étudiants ont marché de la place de l'hôtel de ville de Copenhague jusqu'au Parlement danois pour protester contre les coupes proposées dans le système d'allocations étudiantes, connu sous le nom de SU. Organisée par 11 associations d'étudiants et de lycéens, dont l'Association des lycéens danois (DGS), la manifestation faisait partie d'une grève nationale impliquant environ 40 000 étudiants dans 57 écoles. Les manifestants ont exprimé leur opposition aux projets du gouvernement de réduire ou d'éliminer les bourses pour les étudiants vivant avec des parents dépassant certains seuils de revenus, arguant que les fonds sont détournés vers les dépenses de défense. La ministre de la Science, de l'Enseignement supérieur et des Affaires numériques, Christina Egelund, a reconnu le droit des étudiants à manifester mais a défendu la nécessité pour le gouvernement de donner la priorité au financement de la sécurité. La manifestation s'est terminée pacifiquement sans aucun rapport de violence.",
+   "summary": "Le 4 novembre 2026, des milliers d'étudiants ont marché de la place de l'Hôtel de Ville de Copenhague jusqu'au Parlement danois pour protester contre les projets du gouvernement visant à réduire les bourses d'études. Organisée par 11 associations d'étudiants et de lycéens, dont l'Association des lycéens danois (DGS), la manifestation s'inscrivait dans une vague plus large de mécontentement des jeunes à travers l'Europe. Les manifestants portaient des pancartes indiquant « Save SU » et « Broken Promises », exprimant leur opposition aux propositions budgétaires qui restreindraient l'éligibilité aux allocations étudiantes en fonction du revenu des parents pour financer une augmentation des dépenses de défense. Selon les rapports, environ 40 000 étudiants ont participé à des grèves dans 57 écoles à l'échelle nationale. Christina Egelund, ministre de la Science, de l'Enseignement supérieur et des Affaires numériques, a déclaré qu'elle comprenait les préoccupations des étudiants, mais a défendu la nécessité pour le gouvernement de faire des choix de dépenses concernant la sécurité nationale.",
    "demands": [
     "Préserver le système actuel d'allocations étudiantes (SU)",
     "Arrêter les coupes dans le financement de l'éducation",
-    "Maintenir l'aide sociale existante pour les étudiants"
+    "S'opposer à la réallocation des fonds de l'éducation vers la défense"
    ],
-   "response": "La ministre de la Science, de l'Enseignement supérieur et des Affaires numériques, Christina Egelund, a déclaré qu'elle comprenait les points de vue des étudiants, mais a défendu la nécessité pour le gouvernement de faire des choix budgétaires pour répondre aux besoins de financement de la défense et de la sécurité.",
+   "response": "La ministre de la Science, de l'Enseignement supérieur et des Affaires numériques, Christina Egelund, a déclaré qu'elle comprenait les points de vue des étudiants, mais a défendu la nécessité de faire des choix de dépenses pour financer la défense et la sécurité. Elle a noté que la proposition reste en cours de négociation.",
    "updates": [
-    "Environ 40 000 étudiants à travers le Danemark ont participé à une grève contre les coupes proposées dans les bourses.",
-    "Des milliers d'étudiants ont marché de la place de l'hôtel de ville jusqu'au Parlement danois à Copenhague."
+    "Les étudiants ont marché de la place de l'Hôtel de Ville jusqu'au Parlement à Copenhague, tandis que 40 000 étudiants ont fait grève dans 57 écoles au Danemark."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Les rapports des médias ont estimé à 30 000 le nombre de manifestants à Copenhague, tandis que les organisateurs ont déclaré que la participation se situait entre 12 000 et 13 000."
+   ],
    "numbers": {
-    "crowd": "Les organisateurs ont estimé qu'entre 12 000 et 13 000 étudiants ont participé à la manifestation de Copenhague."
+    "crowd": "Certains médias ont fait état d'une foule de 30 000 personnes à Copenhague, tandis que les organisateurs ont estimé que 12 000 à 13 000 personnes y ont…"
    }
   },
   "de": {
    "title": "Dänische Studenten demonstrieren in Kopenhagen gegen geplante Kürzungen bei Bildungszuschüssen",
    "seoTitle": "Studentenprotest in Kopenhagen gegen Kürzungen",
    "tea": {
-    "why": "Studenten protestieren gegen Regierungspläne, Studentenzuschüsse zu kürzen oder abzuschaffen, um Mittel für die nationale Verteidigung umzuverteilen.",
-    "want": "Die Demonstranten fordern den Erhalt des aktuellen Studentenzuschusssystems und ein Ende der geplanten Kürzungen.",
-    "changed": "4. November: Tausende Studenten marschierten zum Parlament in Kopenhagen, während 40.000 Studenten im ganzen Land an einem Streik teilnahmen."
+    "why": "Studenten protestieren gegen Regierungspläne, Bildungszuschüsse zu kürzen, um Mittel für Verteidigungsausgaben umzuverteilen.",
+    "want": "Die Demonstranten fordern den Erhalt des aktuellen Studentenfördersystems und lehnen die vorgeschlagenen Kürzungen ab.",
+    "changed": "4. November: Tausende Studenten marschierten vom Rathausplatz zum Parlament in Kopenhagen, während 40.000 Studenten in ganz Dänemark streikten."
    },
-   "summary": "Am 4. November 2026 marschierten Tausende Studenten vom Rathausplatz in Kopenhagen zum dänischen Parlament, um gegen geplante Kürzungen des als SU bekannten Studentenzuschusssystems zu protestieren. Die von 11 Studenten- und Schülerverbänden, darunter der dänische Schülerverband (DGS), organisierte Demonstration war Teil eines landesweiten Streiks, an dem sich etwa 40.000 Studenten an 57 Schulen beteiligten. Die Demonstranten äußerten ihren Widerstand gegen die Regierungspläne, Zuschüsse für Studenten zu kürzen oder zu streichen, deren Eltern bestimmte Einkommensgrenzen überschreiten, und argumentierten, dass die Gelder für Verteidigungsausgaben abgezweigt würden. Die Ministerin für Wissenschaft, Hochschulbildung und digitale Angelegenheiten, Christina Egelund, erkannte das Recht der Studenten auf Protest an, verteidigte jedoch die Notwendigkeit der Regierung, die Sicherheitsfinanzierung zu priorisieren. Die Demonstration endete friedlich ohne Berichte über Gewalt.",
+   "summary": "Am 4. November 2026 marschierten Tausende Studenten vom Kopenhagener Rathausplatz zum dänischen Parlament, um gegen Regierungspläne zur Kürzung von Studentenzuschüssen zu protestieren. Die von 11 Studenten- und Schülerverbänden, darunter der dänische Schülerverband (DGS), organisierte Demonstration war Teil einer breiteren Welle jugendlicher Unruhen in ganz Europa. Die Demonstranten trugen Schilder mit der Aufschrift „Save SU“ und „Broken Promises“ und drückten damit ihren Widerstand gegen Haushaltsvorschläge aus, die die Anspruchsberechtigung für Studentenzuschüsse auf Basis des elterlichen Einkommens einschränken würden, um erhöhte Verteidigungsausgaben zu finanzieren. Berichten zufolge beteiligten sich landesweit etwa 40.000 Studenten an Streiks an 57 Schulen. Christina Egelund, Ministerin für Wissenschaft, Hochschulbildung und digitale Angelegenheiten, erklärte, sie verstehe die Sorgen der Studenten, verteidigte jedoch die Notwendigkeit der Regierung, Ausgabenentscheidungen im Hinblick auf die nationale Sicherheit zu treffen.",
    "demands": [
-    "Erhalt des aktuellen Studentenzuschusssystems (SU)",
+    "Erhalt des aktuellen Studentenfördersystems (SU)",
     "Stopp der Kürzungen bei der Bildungsfinanzierung",
-    "Beibehaltung der bestehenden Sozialhilfe für Studenten"
+    "Widerstand gegen die Umverteilung von Bildungsmitteln für die Verteidigung"
    ],
-   "response": "Die Ministerin für Wissenschaft, Hochschulbildung und digitale Angelegenheiten, Christina Egelund, erklärte, sie verstehe die Ansichten der Studenten, verteidigte jedoch die Notwendigkeit der Regierung, Ausgabenentscheidungen zu treffen, um die Finanzierungsanforderungen für Verteidigung und Sicherheit zu erfüllen.",
+   "response": "Die Ministerin für Wissenschaft, Hochschulbildung und digitale Angelegenheiten, Christina Egelund, erklärte, sie verstehe die Ansichten der Studenten, verteidigte jedoch die Notwendigkeit, Ausgabenentscheidungen zur Finanzierung von Verteidigung und Sicherheit zu treffen. Sie merkte an, dass der Vorschlag weiterhin Gegenstand von Verhandlungen sei.",
    "updates": [
-    "Etwa 40.000 Studenten in ganz Dänemark beteiligten sich an einem Streik gegen die geplanten Zuschusskürzungen.",
-    "Tausende Studenten marschierten vom Rathausplatz zum dänischen Parlament in Kopenhagen."
+    "Studenten marschierten vom Rathausplatz zum Parlament in Kopenhagen, während 40.000 Studenten an 57 Schulen in Dänemark streikten."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Medienberichte schätzten die Zahl der Demonstranten in Kopenhagen auf 30.000, während die Organisatoren angaben, die Teilnehmerzahl habe zwischen 12.000 und 13.000 gelegen."
+   ],
    "numbers": {
-    "crowd": "Die Organisatoren schätzten, dass zwischen 12.000 und 13.000 Studenten an dem Protest in Kopenhagen teilnahmen."
+    "crowd": "Einige Medien berichteten von einer Menschenmenge von 30.000 in Kopenhagen, während die Organisatoren von 12.000 bis 13.000 Teilnehmern ausgingen..."
    }
   }
  }

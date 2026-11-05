@@ -19,189 +19,277 @@
   "students",
   "education"
  ],
- "kind": "one-day",
- "startedOn": "2026-11-05",
+ "kind": "multi-day",
+ "startedOn": "2026-09-15",
  "status": "ongoing",
  "vibe": "tense",
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
   "serious",
-  "top-10"
+  "top-10",
+  "sources-disagree"
  ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against rising living costs, stagnant wages, and poor conditions in public schools and education.",
-  "want": "Demands include higher minimum wages, salary increases for all workers, tax reforms, and improved resources for schools.",
-  "changed": "Nov 5: Nationwide strikes and protests are underway in 260 cities, with authorities deploying 70,000 security personnel."
+  "why": "Protesters are demonstrating against rising living costs, fuel prices, and deteriorating conditions in schools and universities.",
+  "want": "Demands include higher wages, increased funding for education, improved school facilities, and a revision of university admission systems.",
+  "changed": "Nov 5: A nationwide strike involving unions, students, and various sectors took place following the rejection of the 2027 budget bill."
  },
- "summary": "On November 5, 2026, workers, students, and members of the 'yellow vest' movement initiated a nationwide day of action across France. Organised by trade unions and student groups, the protests seek to address the rising cost of living, low wages, and deteriorating conditions in public schools. Demonstrations were scheduled in 260 cities, with significant rallies expected in Paris, Marseille, and Lyon. Public transport, including trains and subways, faced major disruptions. The French government, led by President Emmanuel Macron, has deployed 70,000 police and gendarmes to maintain order, with Interior Minister Laurent Nuñez promising a firm response to potential violence. Authorities anticipate between 500,000 and 700,000 participants nationwide. The protests follow weeks of unrest that began with student-led movements in September and have since expanded to include broader social and economic grievances.",
+ "summary": "Since mid-September 2026, France has experienced a wave of nationwide protests initially sparked by high school students concerned about school infrastructure and university admissions. The movement has since expanded to include trade unions, the Yellow Vests movement, and workers from sectors such as healthcare, transport, and education, who are protesting against the rising cost of living and fuel prices. Demonstrations have occurred across the country, with significant activity in Paris. While many protests were peaceful, some events were marred by looting, vandalism, and clashes with police. Authorities have deployed tens of thousands of security personnel, implemented route restrictions, and closed metro stations in Paris. The government has responded by promising increased education funding, launching dialogue initiatives, and ordering police to act with proportionality while maintaining public order.",
  "organizers": [
-  "CGT",
-  "Trade unions",
-  "Student unions",
-  "Yellow vest movement"
+  "trade unions",
+  "student unions",
+  "Yellow Vests"
  ],
  "demands": [
-  "Increase in minimum wage",
-  "Higher salaries for all workers",
-  "Tax reforms",
-  "Better conditions in schools"
+  "Higher wages",
+  "Increased education funding",
+  "Improved school facilities",
+  "Reform of university admissions",
+  "Lower cost of living"
  ],
- "response": "President Emmanuel Macron convened a security meeting to ensure public order. Interior Minister Laurent Nuñez announced the deployment of 70,000 security personnel and promised a response of 'great firmness' to any violence.",
+ "response": "The government has deployed over 70,000 police and gendarmes, restricted protest routes, and proposed a 64 billion euro education budget. President Macron called for national unity, while Interior Minister Laurent Nunez ordered police to act with proportionality.",
  "numbers": {
   "crowd": {
-   "value": 500000,
-   "text": "Authorities expect between 500,000 and 700,000 protesters nationwide, according to ilfattoquotidiano.it.",
+   "value": 550000,
+   "text": "Authorities counted about 550,000 marchers on Oct. 17.",
    "sources": [
-    2
+    6,
+    7
    ]
   },
   "arrests": {
    "value": 10000,
    "text": "Over 10,000 people have been arrested",
    "sources": [
-    4
+    11
+   ]
+  },
+  "injuries": {
+   "value": 1000,
+   "text": "France's interior ministry said about 1,000 police officers were injured on Saturday, seven of them seriously.",
+   "sources": [
+    3
    ]
   },
   "deaths": {
    "value": 2,
    "text": "at least two deaths",
    "sources": [
-    5
+    12
    ]
   }
  },
  "updates": [
   {
-   "at": "2026-11-05",
-   "text": "Workers and students begin nationwide strikes and protests in 260 cities across France.",
+   "at": "2026-09-15",
+   "text": "High school students begin protests over school conditions and university admissions.",
    "sources": [
-    1,
-    2,
-    3
+    7,
+    8
+   ]
+  },
+  {
+   "at": "2026-10-17",
+   "text": "Nationwide protests draw an estimated 550,000 people; incidents of looting and clashes reported.",
+   "sources": [
+    6,
+    7
+   ]
+  },
+  {
+   "at": "2026-10-24",
+   "text": "Authorities deploy 70,000 police and gendarmes ahead of a new day of mobilization.",
+   "sources": [
+    4
    ]
   },
   {
    "at": "2026-11-05",
-   "text": "Clashes between protesters and police reported in Lyon; a high school set on fire near Toulouse.",
+   "text": "Nationwide strike and protests occur following the rejection of the 2027 budget bill.",
    "sources": [
-    1,
-    3
+    8,
+    9
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://www.aljazeera.com/news/2026/11/5/workers-strike-across-france-hundreds-of-thousands-expected-to-protest",
-   "publisher": "aljazeera.com",
-   "title": "Workers strike across France, hundreds of thousands expected to protest",
-   "publishedAt": "2026-11-05T12:21:13.000Z"
+   "url": "https://dailycaller.com/2026/10/01/france-student-protests-riots-violence-injured-arrests-fires/",
+   "publisher": "dailycaller.com",
+   "title": "France Rocked By Student Riots As Dozens Are Left Injured",
+   "publishedAt": "2026-10-01T18:57:03.000Z"
   },
   {
    "n": 2,
-   "url": "https://www.ilfattoquotidiano.it/2026/11/05/sciopero-generale-francia-parigi-corteo-diretta-notizie/8561419/",
-   "publisher": "ilfattoquotidiano.it",
-   "title": "Sciopero generale in Francia: \"Non lasciamo soli i liceali\"",
-   "publishedAt": "2026-11-05T12:29:24.000Z"
+   "url": "https://www.wtxl.com/world/europe/massive-demonstrations-injured-teenagers-french-students-say-theyre-just-getting-started",
+   "publisher": "wtxl.com",
+   "title": "Massive demonstrations. Injured teenagers. French students say they’re just getting started.",
+   "publishedAt": "2026-10-08T20:31:16.460Z"
   },
   {
    "n": 3,
-   "url": "https://www.svt.se/nyheter/utrikes/demonstrationer-i-frankrike-fortsatter-sammandrabbningar-i-lyon",
-   "publisher": "svt.se",
-   "title": "Demonstrationer i Frankrike fortsätter – sammandrabbningar i Lyon",
-   "publishedAt": "2026-11-05T12:42:12.000Z"
+   "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo",
+   "publisher": "bbc.co.uk",
+   "title": "France's government under pressure after weekend of widespread violence",
+   "publishedAt": "2026-10-19T04:16:46.383Z"
   },
   {
    "n": 4,
+   "url": "https://www.france24.com/fr/france/20261023-manifestations-du-24-octobre-70-000-policiers-et-gendarmes-d%C3%A9ploy%C3%A9s-les-lyc%C3%A9ens-toujours-mobilis%C3%A9s",
+   "publisher": "france24.com",
+   "title": "Manifestations du 24 octobre : 70 000 policiers et gendarmes déployés, les lycéens toujours mobilisés",
+   "publishedAt": "2026-10-23T21:13:14.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.livemint.com/news/world/from-the-french-revolution-to-yellow-vests-why-protest-is-embedded-in-france-s-political-history-amid-nationwide-unrest-11792950743622.html",
+   "publisher": "livemint.com",
+   "title": "From the French Revolution to Yellow Vests: Why protest is embedded in France’s political history amid nationwide unrest | Today News",
+   "publishedAt": "2026-10-25T18:24:25.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://www.taipeitimes.com/News/world/archives/2026/11/01/2003866967",
+   "publisher": "taipeitimes.com",
+   "title": "France braces for third week of protests - Taipei Times",
+   "publishedAt": "2026-10-31T16:00:00.000Z"
+  },
+  {
+   "n": 7,
+   "url": "https://www.enca.com/opinion/living-costs-housing-job-uncertainty-fuel-european-youth-anger",
+   "publisher": "enca.com",
+   "title": "Living costs, housing, job uncertainty fuel European youth anger"
+  },
+  {
+   "n": 8,
+   "url": "https://gr.euronews.com/2026/11/05/gallia-etoimazetai-gia-apergia",
+   "publisher": "gr.euronews.com",
+   "title": "Η Γαλλία προετοιμάζεται για πανεθνική απεργία κατά του προϋπολογισμού λιτότητας",
+   "publishedAt": "2026-11-05T15:02:12.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://www.lefigaro.fr/elections/presidentielles/candidats/tout-le-monde-deteste-le-ps-je-m-en-contrefous-repond-glucksmann-aux-manifestants-hostiles-a-sa-presence-a-la-manifestation-parisienne-20261105",
+   "publisher": "lefigaro.fr",
+   "title": "«Tout le monde déteste le PS !» : «Je m’en contrefous», répond Glucksmann aux manifestants «hostiles» à sa présence à la manifestation parisienne",
+   "publishedAt": "2026-11-05T15:04:29.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://timesofoman.com/article/178844-france-braces-for-fresh-protests-as-unions-strike-over-higher-wages",
+   "publisher": "timesofoman.com",
+   "title": "France braces for fresh protests as unions strike over higher wages"
+  },
+  {
+   "n": 11,
    "url": "https://www.wsws.org/en/articles/2026/10/22/filk-o22.html",
    "publisher": "wsws.org",
    "title": "French unions negotiate with Macron as mass protests explode across Europe",
    "publishedAt": "2026-10-22T04:23:00.000Z"
   },
   {
-   "n": 5,
+   "n": 12,
    "url": "https://www.cnn.com/2026/10/24/europe/france-weekend-protests-detained-latam-intl",
    "publisher": "cnn.com",
    "title": "France sees another weekend of mass protests as thousands rally across Europe | CNN",
    "publishedAt": "2026-10-24T23:50:02.473Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
- "publishers": 5,
- "reports24h": 106,
- "reportsPrev24h": 13,
- "reports48h": 119,
- "firstSeenAt": "2026-10-06T02:27:49.925Z",
- "lastReportAt": "2026-11-05T12:42:12.000Z",
- "lastCheckedAt": "2026-11-05T12:56:40.154Z",
- "updatedAt": "2026-11-05T12:54:17.598Z",
- "responseSources": [
-  1,
-  2
+ "conflicts": [
+  "Police reported 550,000 marchers on Oct 17, while other sources mention hundreds of thousands without specifying a single total for all dates."
  ],
- "seriousInjuries": false,
+ "confidence": 0.8,
+ "publishers": 12,
+ "reports24h": 127,
+ "reportsPrev24h": 14,
+ "reports48h": 141,
+ "firstSeenAt": "2026-10-06T02:27:49.925Z",
+ "lastReportAt": "2026-11-05T15:45:00.000Z",
+ "lastCheckedAt": "2026-11-05T15:56:07.840Z",
+ "updatedAt": "2026-11-05T15:53:49.166Z",
+ "responseSources": [
+  2,
+  3,
+  4,
+  5,
+  6,
+  8
+ ],
+ "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-11-05T12:54:17.598Z",
+ "summarizedAt": "2026-11-05T15:53:49.166Z",
  "publishedAt": "2026-10-20T04:29:54.302Z",
  "i18n": {
-  "of": "2e9608ce8ac269fd",
-  "at": "2026-11-05T12:56:52.624Z",
+  "of": "b9bc5c89a76c662e",
+  "at": "2026-11-05T15:56:20.781Z",
   "tries": 1,
   "hi": {
    "title": "फ्रांसीसी श्रमिकों और छात्रों ने जीवन यापन की लागत और शिक्षा को लेकर राष्ट्रव्यापी विरोध प्रदर्शन किया",
-   "seoTitle": "जीवन यापन की लागत पर पेरिस राष्ट्रव्यापी विरोध",
+   "seoTitle": "जीवन यापन की लागत पर पेरिस में राष्ट्रव्यापी विरोध",
    "tea": {
-    "why": "प्रदर्शनकारी जीवन यापन की बढ़ती लागत, स्थिर वेतन और पब्लिक स्कूलों तथा शिक्षा में खराब स्थितियों के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "मांगों में न्यूनतम वेतन में वृद्धि, सभी श्रमिकों के लिए वेतन वृद्धि, कर सुधार और स्कूलों के लिए बेहतर संसाधन शामिल हैं।",
-    "changed": "5 नवंबर: 260 शहरों में राष्ट्रव्यापी हड़ताल और विरोध प्रदर्शन चल रहे हैं, जिसमें अधिकारियों ने 70,000 सुरक्षा कर्मियों को तैनात किया है।"
+    "why": "प्रदर्शनकारी जीवन यापन की बढ़ती लागत, ईंधन की कीमतों और स्कूलों तथा विश्वविद्यालयों में बिगड़ती स्थितियों के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "मांगों में उच्च वेतन, शिक्षा के लिए बढ़ा हुआ वित्तपोषण, बेहतर स्कूल सुविधाएं और विश्वविद्यालय प्रवेश प्रणालियों में संशोधन शामिल है।",
+    "changed": "5 नवंबर: 2027 के बजट विधेयक को खारिज किए जाने के बाद यूनियनों, छात्रों और विभिन्न क्षेत्रों को शामिल करते हुए एक राष्ट्रव्यापी हड़ताल हुई।"
    },
-   "summary": "5 नवंबर, 2026 को फ्रांस भर में श्रमिकों, छात्रों और 'येलो वेस्ट' आंदोलन के सदस्यों ने राष्ट्रव्यापी कार्रवाई दिवस की शुरुआत की। ट्रेड यूनियनों और छात्र समूहों द्वारा आयोजित, ये विरोध प्रदर्शन जीवन यापन की बढ़ती लागत, कम वेतन और पब्लिक स्कूलों में बिगड़ती स्थितियों को संबोधित करना चाहते हैं। 260 शहरों में प्रदर्शन निर्धारित किए गए थे, जिसमें पेरिस, मार्सिले और ल्योन में बड़े रैलियों की उम्मीद थी। ट्रेनों और सबवे सहित सार्वजनिक परिवहन में बड़ी बाधाएं आईं। राष्ट्रपति इमैनुएल मैक्रों के नेतृत्व वाली फ्रांसीसी सरकार ने व्यवस्था बनाए रखने के लिए 70,000 पुलिस और जेंडरमे तैनात किए हैं, और आंतरिक मंत्री लॉरेंट नुनेज़ ने संभावित हिंसा के खिलाफ सख्त प्रतिक्रिया का वादा किया है। अधिकारियों को राष्ट्रव्यापी स्तर पर 5,00,000 से 7,00,000 प्रतिभागियों की उम्मीद है। ये विरोध प्रदर्शन सितंबर में छात्र-नेतृत्व वाले आंदोलनों के साथ शुरू हुए हफ्तों के अशांति के बाद हुए हैं और तब से इसमें व्यापक सामाजिक और आर्थिक शिकायतें शामिल हो गई हैं।",
+   "summary": "सितंबर 2026 के मध्य से, फ्रांस ने राष्ट्रव्यापी विरोध प्रदर्शनों की एक लहर का अनुभव किया है, जो शुरू में स्कूल के बुनियादी ढांचे और विश्वविद्यालय प्रवेश को लेकर चिंतित हाई स्कूल के छात्रों द्वारा शुरू हुई थी। यह आंदोलन तब से ट्रेड यूनियनों, येलो वेस्ट्स आंदोलन और स्वास्थ्य सेवा, परिवहन तथा शिक्षा जैसे क्षेत्रों के श्रमिकों को शामिल करने के लिए विस्तारित हो गया है, जो जीवन यापन की बढ़ती लागत और ईंधन की कीमतों के खिलाफ विरोध कर रहे हैं। पूरे देश में प्रदर्शन हुए हैं, जिनमें पेरिस में महत्वपूर्ण गतिविधि देखी गई है। हालांकि कई विरोध प्रदर्शन शांतिपूर्ण थे, लेकिन कुछ घटनाएं लूटपाट, तोड़फोड़ और पुलिस के साथ झड़पों से प्रभावित हुईं। अधिकारियों ने हजारों सुरक्षा कर्मियों को तैनात किया है, मार्ग प्रतिबंध लागू किए हैं और पेरिस में मेट्रो स्टेशनों को बंद कर दिया है। सरकार ने शिक्षा के लिए बढ़ा हुआ वित्तपोषण देने, संवाद पहल शुरू करने और सार्वजनिक व्यवस्था बनाए रखते हुए पुलिस को आनुपातिक रूप से कार्य करने का आदेश देकर प्रतिक्रिया दी है।",
    "demands": [
-    "न्यूनतम वेतन में वृद्धि",
-    "सभी श्रमिकों के लिए उच्च वेतन",
-    "कर सुधार",
-    "स्कूलों में बेहतर स्थितियां"
+    "उच्च वेतन",
+    "शिक्षा के लिए बढ़ा हुआ वित्तपोषण",
+    "बेहतर स्कूल सुविधाएं",
+    "विश्वविद्यालय प्रवेश में सुधार",
+    "जीवन यापन की कम लागत"
    ],
-   "response": "राष्ट्रपति इमैनुएल मैक्रों ने सार्वजनिक व्यवस्था सुनिश्चित करने के लिए एक सुरक्षा बैठक बुलाई। आंतरिक मंत्री लॉरेंट नुनेज़ ने 70,000 सुरक्षा कर्मियों की तैनाती की घोषणा की और किसी भी हिंसा के प्रति 'महान दृढ़ता' के साथ प्रतिक्रिया देने का वादा किया।",
+   "response": "सरकार ने 70,000 से अधिक पुलिस और जेंडरमे तैनात किए हैं, विरोध मार्गों को प्रतिबंधित किया है और 64 बिलियन यूरो के शिक्षा बजट का प्रस्ताव दिया है। राष्ट्रपति मैक्रों ने राष्ट्रीय एकता का आह्वान किया, जबकि आंतरिक मंत्री लॉरेंट नुनेज़ ने पुलिस को आनुपातिक रूप से कार्य करने का आदेश दिया।",
    "updates": [
-    "श्रमिकों और छात्रों ने फ्रांस के 260 शहरों में राष्ट्रव्यापी हड़ताल और विरोध प्रदर्शन शुरू किए।",
-    "ल्योन में प्रदर्शनकारियों और पुलिस के बीच झड़प की सूचना मिली; टूलूज़ के पास एक हाई स्कूल में आग लगा दी गई।"
+    "हाई स्कूल के छात्रों ने स्कूल की स्थितियों और विश्वविद्यालय प्रवेश को लेकर विरोध प्रदर्शन शुरू किया।",
+    "राष्ट्रव्यापी विरोध प्रदर्शनों में अनुमानित 550,000 लोग शामिल हुए; लूटपाट और झड़पों की घटनाएं दर्ज की गईं।",
+    "अधिकारियों ने लामबंदी के एक नए दिन से पहले 70,000 पुलिस और जेंडरमे तैनात किए।",
+    "2027 के बजट विधेयक को खारिज किए जाने के बाद राष्ट्रव्यापी हड़ताल और विरोध प्रदर्शन हुए।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "पुलिस ने 17 अक्टूबर को 550,000 प्रदर्शनकारियों की सूचना दी, जबकि अन्य स्रोतों ने सभी तारीखों के लिए एक कुल संख्या बताए बिना सैकड़ों हजारों का उल्लेख किया है।"
+   ],
    "numbers": {
-    "crowd": "ilfattoquotidiano.it के अनुसार, अधिकारियों को राष्ट्रव्यापी स्तर पर 5,00,000 से 7,00,000 प्रदर्शनकारियों की उम्मीद है।",
+    "crowd": "अधिकारियों ने 17 अक्टूबर को लगभग 550,000 प्रदर्शनकारियों की गिनती की।",
     "arrests": "10,000 से अधिक लोगों को गिरफ्तार किया गया है",
+    "injuries": "फ्रांस के आंतरिक मंत्रालय ने कहा कि शनिवार को लगभग 1,000 पुलिस अधिकारी घायल हुए, जिनमें से सात गंभीर रूप से घायल हुए।",
     "deaths": "कम से कम दो मौतें"
    }
   },
   "mr": {
    "title": "फ्रेंच कामगार आणि विद्यार्थ्यांनी राहणीमानाचा खर्च आणि शिक्षणावरून देशव्यापी निदर्शने केली",
-   "seoTitle": "राहणीमानाचा खर्च वाढल्याने पॅरिसमध्ये देशव्यापी निदर्शने",
+   "seoTitle": "राहणीमानाचा खर्च आणि पेरिसमध्ये देशव्यापी निदर्शने",
    "tea": {
-    "why": "निदर्शक राहणीमानाचा वाढता खर्च, स्थिर वेतन आणि सरकारी शाळा व शिक्षणातील खराब परिस्थितीच्या विरोधात निदर्शने करत आहेत.",
-    "want": "मागण्यांमध्ये किमान वेतनात वाढ, सर्व कामगारांसाठी वेतनवाढ, कर सुधारणा आणि शाळांसाठी सुधारित संसाधनांचा समावेश आहे.",
-    "changed": "५ नोव्हेंबर: २६० शहरांमध्ये देशव्यापी संप आणि निदर्शने सुरू आहेत, ज्यामध्ये प्रशासनाने ७०,००० सुरक्षा कर्मचारी तैनात केले आहेत."
+    "why": "निदर्शक वाढता राहणीमानाचा खर्च, इंधनाचे दर आणि शाळा व विद्यापीठांमधील खालावलेली परिस्थिती यांविरुद्ध निदर्शने करत आहेत.",
+    "want": "मागण्यांमध्ये उच्च वेतन, शिक्षणासाठी वाढीव निधी, सुधारित शाळा सुविधा आणि विद्यापीठ प्रवेश प्रणालीतील सुधारणा यांचा समावेश आहे.",
+    "changed": "५ नोव्हेंबर: २०२७ चे अर्थसंकल्पीय विधेयक फेटाळल्यानंतर युनियन, विद्यार्थी आणि विविध क्षेत्रांचा समावेश असलेला देशव्यापी संप झाला."
    },
-   "summary": "५ नोव्हेंबर २०२६ रोजी फ्रान्समध्ये कामगार, विद्यार्थी आणि 'येलो वेस्ट' चळवळीच्या सदस्यांनी देशव्यापी कृती दिनाची सुरुवात केली. ट्रेड युनियन्स आणि विद्यार्थी गटांद्वारे आयोजित, हे निदर्शन राहणीमानाचा वाढता खर्च, कमी वेतन आणि सरकारी शाळांमधील खालावलेली परिस्थिती यावर उपाय शोधण्यासाठी आहे. २६० शहरांमध्ये निदर्शने नियोजित होती, ज्यामध्ये पॅरिस, मार्सिले आणि ल्योनमध्ये मोठ्या रॅली अपेक्षित होत्या. ट्रेन आणि सबवेसह सार्वजनिक वाहतुकीत मोठा व्यत्यय आला. राष्ट्राध्यक्ष इमॅन्युएल मॅक्रॉन यांच्या नेतृत्वाखालील फ्रेंच सरकारने सुव्यवस्था राखण्यासाठी ७०,००० पोलीस आणि जेंडरमे तैनात केले आहेत आणि गृहमंत्री लॉरेंट नुनेझ यांनी संभाव्य हिंसाचाराला कठोर प्रत्युत्तर देण्याचे आश्वासन दिले आहे. प्रशासनाला देशभरात ५,००,००० ते ७,००,००० सहभागींची अपेक्षा आहे. हे निदर्शन सप्टेंबरमध्ये विद्यार्थी-नेतृत्वाखालील चळवळींपासून सुरू झालेल्या काही आठवड्यांच्या अशांततेनंतर होत आहेत आणि आता त्यात व्यापक सामाजिक आणि आर्थिक तक्रारींचा समावेश झाला आहे.",
+   "summary": "सप्टेंबर २०२६ च्या मध्यापासून, फ्रान्सने देशव्यापी निदर्शनांची लाट अनुभवली आहे, जी सुरुवातीला शाळेच्या पायाभूत सुविधा आणि विद्यापीठ प्रवेशाबद्दल चिंतित असलेल्या हायस्कूल विद्यार्थ्यांमुळे सुरू झाली होती. हे आंदोलन आता ट्रेड युनियन, येलो वेस्ट्स चळवळ आणि आरोग्य सेवा, वाहतूक व शिक्षण यांसारख्या क्षेत्रांतील कामगारांपर्यंत विस्तारले आहे, जे राहणीमानाचा वाढता खर्च आणि इंधनाच्या किमतींविरुद्ध निदर्शने करत आहेत. संपूर्ण देशात निदर्शने झाली असून पेरिसमध्ये मोठी हालचाल दिसून आली आहे. अनेक निदर्शने शांततापूर्ण असली तरी, काही घटनांमध्ये लूटमार, तोडफोड आणि पोलिसांशी झटापट झाली. प्रशासनाने हजारो सुरक्षा कर्मचारी तैनात केले आहेत, मार्गांवर निर्बंध लादले आहेत आणि पेरिसमधील मेट्रो स्थानके बंद केली आहेत. सरकारने शिक्षणासाठी वाढीव निधी देण्याचे आश्वासन देऊन, संवाद उपक्रम सुरू करून आणि सार्वजनिक सुव्यवस्था राखताना पोलिसांनी प्रमाणबद्धतेने वागावे असे आदेश देऊन प्रतिसाद दिला आहे.",
    "demands": [
-    "किमान वेतनात वाढ",
-    "सर्व कामगारांसाठी उच्च वेतन",
-    "कर सुधारणा",
-    "शाळांमध्ये उत्तम परिस्थिती"
+    "उच्च वेतन",
+    "शिक्षणासाठी वाढीव निधी",
+    "सुधारित शाळा सुविधा",
+    "विद्यापीठ प्रवेशातील सुधारणा",
+    "राहणीमानाचा कमी खर्च"
    ],
-   "response": "राष्ट्राध्यक्ष इमॅन्युएल मॅक्रॉन यांनी सार्वजनिक सुव्यवस्था सुनिश्चित करण्यासाठी सुरक्षा बैठक बोलावली. गृहमंत्री लॉरेंट नुनेझ यांनी ७०,००० सुरक्षा कर्मचारी तैनात करण्याची घोषणा केली आणि कोणत्याही हिंसाचाराला 'मोठ्या दृढतेने' उत्तर देण्याचे आश्वासन दिले.",
+   "response": "सरकारने ७०,००० हून अधिक पोलीस आणि जेंडरमे तैनात केले आहेत, निदर्शनांचे मार्ग प्रतिबंधित केले आहेत आणि ६४ अब्ज युरोच्या शिक्षण अर्थसंकल्पाचा प्रस्ताव दिला आहे. राष्ट्राध्यक्ष मॅक्रॉन यांनी राष्ट्रीय ऐक्याचे आवाहन केले, तर गृहमंत्री लॉरेंट नुनेझ यांनी पोलिसांना प्रमाणबद्धतेने वागण्याचे आदेश दिले.",
    "updates": [
-    "कामगार आणि विद्यार्थ्यांनी फ्रान्समधील २६० शहरांमध्ये देशव्यापी संप आणि निदर्शने सुरू केली.",
-    "ल्योनमध्ये निदर्शक आणि पोलीस यांच्यात चकमक झाल्याचे वृत्त आहे; टूलूझजवळ एका हायस्कूलला आग लावण्यात आली."
+    "हायस्कूलच्या विद्यार्थ्यांनी शाळेची परिस्थिती आणि विद्यापीठ प्रवेशावरून निदर्शने सुरू केली.",
+    "देशव्यापी निदर्शनांमध्ये अंदाजे ५५०,००० लोक सहभागी झाले; लूटमार आणि झटापटीच्या घटना नोंदवण्यात आल्या.",
+    "प्रशासनाने निदर्शनांच्या नवीन दिवसापूर्वी ७०,००० पोलीस आणि जेंडरमे तैनात केले.",
+    "२०२७ चे अर्थसंकल्पीय विधेयक फेटाळल्यानंतर देशव्यापी संप आणि निदर्शने झाली."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "पोलिसांनी १७ ऑक्टोबर रोजी ५५०,००० निदर्शकांची नोंद केली, तर इतर स्त्रोतांनी सर्व तारखांसाठी एकूण संख्या न देता शेकडो हजारो लोकांचा उल्लेख केला आहे."
+   ],
    "numbers": {
-    "crowd": "ilfattoquotidiano.it नुसार, प्रशासनाला देशभरात ५,००,००० ते ७,००,००० निदर्शकांची अपेक्षा आहे.",
-    "arrests": "१०,००० पेक्षा जास्त लोकांना अटक करण्यात आली आहे",
+    "crowd": "प्रशासनाने १७ ऑक्टोबर रोजी सुमारे ५५०,००० निदर्शकांची मोजणी केली.",
+    "arrests": "१०,००० हून अधिक लोकांना अटक करण्यात आली आहे",
+    "injuries": "फ्रान्सच्या गृह मंत्रालयाने सांगितले की शनिवारी सुमारे १,००० पोलीस अधिकारी जखमी झाले, त्यापैकी सात जण गंभीर जखमी झाले आहेत.",
     "deaths": "किमान दोन मृत्यू"
    }
   },
@@ -209,26 +297,32 @@
    "title": "Trabajadores y estudiantes franceses realizan protestas nacionales por el costo de vida y la educación",
    "seoTitle": "Protestas nacionales en París por el costo de vida",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, los salarios estancados y las malas condiciones en las escuelas públicas y la educación.",
-    "want": "Las demandas incluyen aumentos del salario mínimo, aumentos salariales para todos los trabajadores, reformas fiscales y mejores recursos para las escuelas.",
-    "changed": "5 de noviembre: Se están llevando a cabo huelgas y protestas nacionales en 260 ciudades, con las autoridades desplegando 70,000 efectivos de seguridad."
+    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, los precios del combustible y el deterioro de las condiciones en escuelas y universidades.",
+    "want": "Las demandas incluyen salarios más altos, mayor financiamiento para la educación, mejores instalaciones escolares y una revisión de los sistemas de admisión universitaria.",
+    "changed": "5 de noviembre: Se llevó a cabo una huelga nacional que involucró a sindicatos, estudiantes y diversos sectores tras el rechazo del proyecto de ley de presupuesto de 2027."
    },
-   "summary": "El 5 de noviembre de 2026, trabajadores, estudiantes y miembros del movimiento de los 'chalecos amarillos' iniciaron una jornada nacional de acción en toda Francia. Organizadas por sindicatos y grupos estudiantiles, las protestas buscan abordar el aumento del costo de vida, los bajos salarios y el deterioro de las condiciones en las escuelas públicas. Se programaron manifestaciones en 260 ciudades, con grandes concentraciones esperadas en París, Marsella y Lyon. El transporte público, incluidos trenes y metros, sufrió importantes interrupciones. El gobierno francés, encabezado por el presidente Emmanuel Macron, ha desplegado 70,000 policías y gendarmes para mantener el orden, y el ministro del Interior, Laurent Nuñez, prometió una respuesta firme ante una posible violencia. Las autoridades prevén entre 500,000 y 700,000 participantes a nivel nacional. Las protestas siguen a semanas de disturbios que comenzaron con movimientos estudiantiles en septiembre y que desde entonces se han ampliado para incluir agravios sociales y económicos más amplios.",
+   "summary": "Desde mediados de septiembre de 2026, Francia ha experimentado una ola de protestas nacionales iniciada por estudiantes de secundaria preocupados por la infraestructura escolar y las admisiones universitarias. El movimiento se ha expandido para incluir sindicatos, el movimiento de los Chalecos Amarillos y trabajadores de sectores como la salud, el transporte y la educación, quienes protestan contra el aumento del costo de vida y los precios del combustible. Las manifestaciones han ocurrido en todo el país, con una actividad significativa en París. Si bien muchas protestas fueron pacíficas, algunos eventos se vieron empañados por saqueos, vandalismo y enfrentamientos con la policía. Las autoridades han desplegado decenas de miles de efectivos de seguridad, implementado restricciones de ruta y cerrado estaciones de metro en París. El gobierno ha respondido prometiendo un mayor financiamiento para la educación, lanzando iniciativas de diálogo y ordenando a la policía que actúe con proporcionalidad mientras mantiene el orden público.",
    "demands": [
-    "Aumento del salario mínimo",
-    "Salarios más altos para todos los trabajadores",
-    "Reformas fiscales",
-    "Mejores condiciones en las escuelas"
+    "Salarios más altos",
+    "Mayor financiamiento para la educación",
+    "Mejores instalaciones escolares",
+    "Reforma de las admisiones universitarias",
+    "Menor costo de vida"
    ],
-   "response": "El presidente Emmanuel Macron convocó una reunión de seguridad para garantizar el orden público. El ministro del Interior, Laurent Nuñez, anunció el despliegue de 70,000 efectivos de seguridad y prometió una respuesta de 'gran firmeza' ante cualquier violencia.",
+   "response": "El gobierno ha desplegado más de 70,000 policías y gendarmes, restringido las rutas de protesta y propuesto un presupuesto educativo de 64 mil millones de euros. El presidente Macron pidió la unidad nacional, mientras que el ministro del Interior, Laurent Nunez, ordenó a la policía actuar con proporcionalidad.",
    "updates": [
-    "Trabajadores y estudiantes comienzan huelgas y protestas nacionales en 260 ciudades de Francia.",
-    "Se reportaron enfrentamientos entre manifestantes y la policía en Lyon; una escuela secundaria fue incendiada cerca de Toulouse."
+    "Estudiantes de secundaria comienzan protestas por las condiciones escolares y las admisiones universitarias.",
+    "Las protestas nacionales atraen a unas 550,000 personas; se reportan incidentes de saqueo y enfrentamientos.",
+    "Las autoridades despliegan 70,000 policías y gendarmes antes de un nuevo día de movilización.",
+    "Se producen huelgas y protestas nacionales tras el rechazo del proyecto de ley de presupuesto de 2027."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La policía reportó 550,000 manifestantes el 17 de octubre, mientras que otras fuentes mencionan cientos de miles sin especificar un total único para todas las fechas."
+   ],
    "numbers": {
-    "crowd": "Las autoridades esperan entre 500,000 y 700,000 manifestantes a nivel nacional, según ilfattoquotidiano.it.",
+    "crowd": "Las autoridades contaron alrededor de 550,000 manifestantes el 17 de octubre.",
     "arrests": "Más de 10,000 personas han sido arrestadas",
+    "injuries": "El ministerio del Interior de Francia dijo que alrededor de 1,000 agentes de policía resultaron heridos el sábado, siete de ellos de gravedad.",
     "deaths": "al menos dos muertes"
    }
   },
@@ -236,26 +330,32 @@
    "title": "Des travailleurs et étudiants français organisent des manifestations nationales sur le coût de la vie et l'éducation",
    "seoTitle": "Manifestations nationales à Paris sur le coût de la vie",
    "tea": {
-    "why": "Les manifestants protestent contre la hausse du coût de la vie, la stagnation des salaires et les mauvaises conditions dans les écoles publiques et l'éducation.",
-    "want": "Les revendications incluent une augmentation du salaire minimum, des hausses de salaire pour tous les travailleurs, des réformes fiscales et de meilleures ressources pour les écoles.",
-    "changed": "5 novembre : Des grèves et manifestations nationales sont en cours dans 260 villes, les autorités ayant déployé 70 000 membres des forces de sécurité."
+    "why": "Les manifestants protestent contre la hausse du coût de la vie, les prix du carburant et la détérioration des conditions dans les écoles et les universités.",
+    "want": "Les revendications incluent des salaires plus élevés, une augmentation du financement de l'éducation, l'amélioration des installations scolaires et une révision des systèmes d'admission à l'université.",
+    "changed": "5 novembre : Une grève nationale impliquant des syndicats, des étudiants et divers secteurs a eu lieu suite au rejet du projet de loi de finances 2027."
    },
-   "summary": "Le 5 novembre 2026, des travailleurs, des étudiants et des membres du mouvement des « gilets jaunes » ont lancé une journée d'action nationale à travers la France. Organisées par des syndicats et des groupes étudiants, les manifestations visent à répondre à la hausse du coût de la vie, aux bas salaires et à la détérioration des conditions dans les écoles publiques. Des manifestations étaient prévues dans 260 villes, avec des rassemblements importants attendus à Paris, Marseille et Lyon. Les transports publics, notamment les trains et les métros, ont subi des perturbations majeures. Le gouvernement français, dirigé par le président Emmanuel Macron, a déployé 70 000 policiers et gendarmes pour maintenir l'ordre, le ministre de l'Intérieur Laurent Nuñez promettant une réponse ferme à toute violence potentielle. Les autorités anticipent entre 500 000 et 700 000 participants à l'échelle nationale. Les manifestations font suite à des semaines de troubles qui ont commencé avec des mouvements étudiants en septembre et se sont depuis étendues pour inclure des griefs sociaux et économiques plus larges.",
+   "summary": "Depuis la mi-septembre 2026, la France a connu une vague de manifestations nationales initialement déclenchées par des lycéens préoccupés par l'infrastructure scolaire et les admissions à l'université. Le mouvement s'est depuis élargi pour inclure des syndicats, le mouvement des Gilets jaunes et des travailleurs de secteurs tels que la santé, les transports et l'éducation, qui protestent contre la hausse du coût de la vie et des prix du carburant. Des manifestations ont eu lieu dans tout le pays, avec une activité importante à Paris. Bien que de nombreuses manifestations aient été pacifiques, certains événements ont été entachés par des pillages, du vandalisme et des affrontements avec la police. Les autorités ont déployé des dizaines de milliers de membres des forces de sécurité, mis en œuvre des restrictions d'itinéraire et fermé des stations de métro à Paris. Le gouvernement a répondu en promettant une augmentation du financement de l'éducation, en lançant des initiatives de dialogue et en ordonnant à la police d'agir avec proportionnalité tout en maintenant l'ordre public.",
    "demands": [
-    "Augmentation du salaire minimum",
-    "Salaires plus élevés pour tous les travailleurs",
-    "Réformes fiscales",
-    "Meilleures conditions dans les écoles"
+    "Salaires plus élevés",
+    "Augmentation du financement de l'éducation",
+    "Amélioration des installations scolaires",
+    "Réforme des admissions à l'université",
+    "Baisse du coût de la vie"
    ],
-   "response": "Le président Emmanuel Macron a convoqué une réunion de sécurité pour assurer l'ordre public. Le ministre de l'Intérieur Laurent Nuñez a annoncé le déploiement de 70 000 membres des forces de sécurité et a promis une réponse d'une « grande fermeté » face à toute violence.",
+   "response": "Le gouvernement a déployé plus de 70 000 policiers et gendarmes, restreint les itinéraires de manifestation et proposé un budget de l'éducation de 64 milliards d'euros. Le président Macron a appelé à l'unité nationale, tandis que le ministre de l'Intérieur, Laurent Nunez, a ordonné à la police d'agir avec proportionnalité.",
    "updates": [
-    "Des travailleurs et des étudiants entament des grèves et des manifestations nationales dans 260 villes à travers la France.",
-    "Des affrontements entre manifestants et policiers ont été signalés à Lyon ; un lycée a été incendié près de Toulouse."
+    "Des lycéens commencent des manifestations sur les conditions scolaires et les admissions à l'université.",
+    "Les manifestations nationales attirent environ 550 000 personnes ; des incidents de pillage et des affrontements sont signalés.",
+    "Les autorités déploient 70 000 policiers et gendarmes avant une nouvelle journée de mobilisation.",
+    "Une grève et des manifestations nationales ont lieu suite au rejet du projet de loi de finances 2027."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La police a fait état de 550 000 manifestants le 17 octobre, tandis que d'autres sources mentionnent des centaines de milliers de personnes sans préciser de total unique pour toutes les dates."
+   ],
    "numbers": {
-    "crowd": "Les autorités attendent entre 500 000 et 700 000 manifestants à l'échelle nationale, selon ilfattoquotidiano.it.",
+    "crowd": "Les autorités ont compté environ 550 000 manifestants le 17 octobre.",
     "arrests": "Plus de 10 000 personnes ont été arrêtées",
+    "injuries": "Le ministère français de l'Intérieur a déclaré qu'environ 1 000 policiers ont été blessés samedi, dont sept grièvement.",
     "deaths": "au moins deux décès"
    }
   },
@@ -263,26 +363,32 @@
    "title": "Französische Arbeiter und Studenten halten landesweite Proteste wegen Lebenshaltungskosten und Bildung ab",
    "seoTitle": "Landesweite Proteste in Paris wegen Lebenshaltungskosten",
    "tea": {
-    "why": "Die Demonstranten protestieren gegen steigende Lebenshaltungskosten, stagnierende Löhne und schlechte Bedingungen an öffentlichen Schulen und im Bildungswesen.",
-    "want": "Zu den Forderungen gehören eine Erhöhung des Mindestlohns, Gehaltserhöhungen für alle Arbeitnehmer, Steuerreformen und bessere Ressourcen für Schulen.",
-    "changed": "5. November: Landesweite Streiks und Proteste finden in 260 Städten statt, wobei die Behörden 70.000 Sicherheitskräfte einsetzen."
+    "why": "Die Demonstranten protestieren gegen steigende Lebenshaltungskosten, Kraftstoffpreise und die sich verschlechternden Bedingungen an Schulen und Universitäten.",
+    "want": "Zu den Forderungen gehören höhere Löhne, eine Aufstockung der Bildungsmittel, verbesserte Schulanlagen und eine Überarbeitung der Zulassungssysteme an Universitäten.",
+    "changed": "5. November: Nach der Ablehnung des Haushaltsgesetzes für 2027 fand ein landesweiter Streik statt, an dem sich Gewerkschaften, Studenten und verschiedene Sektoren beteiligten."
    },
-   "summary": "Am 5. November 2026 initiierten Arbeiter, Studenten und Mitglieder der 'Gelbwesten'-Bewegung einen landesweiten Aktionstag in ganz Frankreich. Die von Gewerkschaften und Studentengruppen organisierten Proteste zielen darauf ab, die steigenden Lebenshaltungskosten, niedrige Löhne und die sich verschlechternden Bedingungen an öffentlichen Schulen anzugehen. Demonstrationen waren in 260 Städten geplant, wobei bedeutende Kundgebungen in Paris, Marseille und Lyon erwartet wurden. Der öffentliche Nahverkehr, einschließlich Zügen und U-Bahnen, war von erheblichen Störungen betroffen. Die französische Regierung unter Präsident Emmanuel Macron hat 70.000 Polizisten und Gendarmen zur Aufrechterhaltung der Ordnung eingesetzt, wobei Innenminister Laurent Nuñez eine entschlossene Reaktion auf mögliche Gewalt versprach. Die Behörden rechnen landesweit mit 500.000 bis 700.000 Teilnehmern. Die Proteste folgen auf wochenlange Unruhen, die im September mit studentisch geführten Bewegungen begannen und sich seitdem auf breitere soziale und wirtschaftliche Missstände ausgeweitet haben.",
+   "summary": "Seit Mitte September 2026 erlebt Frankreich eine Welle landesweiter Proteste, die ursprünglich von Schülern der Sekundarstufe ausging, die sich über die Schulinfrastruktur und die Zulassungen an Universitäten besorgt zeigten. Die Bewegung hat sich inzwischen auf Gewerkschaften, die Gelbwesten-Bewegung und Arbeitnehmer aus Sektoren wie dem Gesundheitswesen, dem Transportwesen und dem Bildungswesen ausgeweitet, die gegen die steigenden Lebenshaltungskosten und Kraftstoffpreise protestieren. Die Demonstrationen fanden im ganzen Land statt, mit erheblichen Aktivitäten in Paris. Während viele Proteste friedlich verliefen, wurden einige Veranstaltungen durch Plünderungen, Vandalismus und Zusammenstöße mit der Polizei beeinträchtigt. Die Behörden haben zehntausende Sicherheitskräfte eingesetzt, Routenbeschränkungen eingeführt und U-Bahn-Stationen in Paris geschlossen. Die Regierung hat darauf reagiert, indem sie eine Aufstockung der Bildungsmittel versprach, Dialoginitiativen startete und die Polizei anwies, bei der Aufrechterhaltung der öffentlichen Ordnung verhältnismäßig zu handeln.",
    "demands": [
-    "Erhöhung des Mindestlohns",
-    "Höhere Gehälter für alle Arbeitnehmer",
-    "Steuerreformen",
-    "Bessere Bedingungen an Schulen"
+    "Höhere Löhne",
+    "Aufstockung der Bildungsmittel",
+    "Verbesserte Schulanlagen",
+    "Reform der Universitätszulassungen",
+    "Niedrigere Lebenshaltungskosten"
    ],
-   "response": "Präsident Emmanuel Macron berief eine Sicherheitssitzung ein, um die öffentliche Ordnung zu gewährleisten. Innenminister Laurent Nuñez kündigte den Einsatz von 70.000 Sicherheitskräften an und versprach eine Reaktion von 'großer Härte' bei jeglicher Gewalt.",
+   "response": "Die Regierung hat über 70.000 Polizisten und Gendarmen eingesetzt, Protestrouten eingeschränkt und ein Bildungsbudget von 64 Milliarden Euro vorgeschlagen. Präsident Macron rief zur nationalen Einheit auf, während Innenminister Laurent Nunez die Polizei anwies, verhältnismäßig zu handeln.",
    "updates": [
-    "Arbeiter und Studenten beginnen landesweite Streiks und Proteste in 260 Städten in ganz Frankreich.",
-    "Zusammenstöße zwischen Demonstranten und Polizei wurden in Lyon gemeldet; eine High School wurde in der Nähe von Toulouse in Brand gesteckt."
+    "Schüler der Sekundarstufe beginnen mit Protesten gegen die schulischen Bedingungen und die Universitätszulassungen.",
+    "Landesweite Proteste ziehen schätzungsweise 550.000 Menschen an; Vorfälle von Plünderungen und Zusammenstößen werden gemeldet.",
+    "Die Behörden setzen vor einem neuen Mobilisierungstag 70.000 Polizisten und Gendarmen ein.",
+    "Nach der Ablehnung des Haushaltsgesetzes für 2027 kommt es zu einem landesweiten Streik und Protesten."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Die Polizei meldete am 17. Oktober 550.000 Demonstranten, während andere Quellen von Hunderttausenden sprechen, ohne eine Gesamtzahl für alle Daten zu nennen."
+   ],
    "numbers": {
-    "crowd": "Die Behörden erwarten laut ilfattoquotidiano.it landesweit zwischen 500.000 und 700.000 Demonstranten.",
+    "crowd": "Die Behörden zählten am 17. Oktober etwa 550.000 Demonstranten.",
     "arrests": "Über 10.000 Menschen wurden festgenommen",
+    "injuries": "Das französische Innenministerium teilte mit, dass am Samstag etwa 1.000 Polizeibeamte verletzt wurden, sieben davon schwer.",
     "deaths": "mindestens zwei Todesfälle"
    }
   }
@@ -293,5 +399,5 @@
   "e27156c7731",
   "e85828c51f4"
  ],
- "summaryOf": "6d46bfdca01d"
+ "summaryOf": "f3cdc35147d2"
 }
