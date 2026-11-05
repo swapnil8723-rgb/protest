@@ -19,44 +19,44 @@
   "education",
   "prices"
  ],
- "kind": "one-day",
- "startedOn": "2026-11-05",
+ "kind": "multi-day",
+ "startedOn": "2026-09-15",
  "status": "ongoing",
  "vibe": "tense",
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
   "serious",
-  "top-10"
+  "top-10",
+  "sources-disagree"
  ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the high cost of living, tax inequality, and poor conditions within the education system.",
-  "want": "Demands include a 100-euro increase in the minimum wage and the protection of public services.",
-  "changed": "Nov 5: Hundreds of thousands of people joined nationwide strikes and marches, leading to the closure of the Eiffel Tower and parts of the Louvre."
+  "why": "Protesters are demonstrating against rising living costs, inflation, and proposed government budget cuts to public services and education.",
+  "want": "Participants demand higher wages, tax reform, improved educational conditions, and increased funding for public services.",
+  "changed": "Nov 5: A nationwide general strike and mass demonstrations took place across France, with unions and students protesting government budget plans."
  },
- "summary": "On November 5, 2026, a nationwide day of strikes and protests took place across France, involving students, workers, and trade unionists. Organised by an inter-union coalition, the movement sought to address concerns regarding the cost of living, wage stagnation, and the state of public education. In Paris, authorities mandated a specific route from Place de la République to Place de la Nation to avoid sensitive government areas. The protest led to significant disruptions, including the closure of the Eiffel Tower and sections of the Louvre Museum. Interior Minister Laurent Nuñez deployed 70,000 police officers nationwide to manage the demonstrations, citing risks of violence and property damage. While the morning began with a peaceful atmosphere, authorities remained on high alert for potential clashes as the day progressed.",
+ "summary": "On November 5, 2026, hundreds of thousands of people participated in a nationwide general strike and demonstrations across France to protest against the rising cost of living and proposed public spending cuts. Organised by trade unions and joined by high school and university students, the movement highlights ongoing grievances regarding teacher shortages, overcrowded classrooms, and dilapidated school infrastructure. While the government reported 600,000 participants, the CGT union estimated the turnout at 1.6 million. Demonstrations were largely peaceful, though police used tear gas in cities like Paris, Bordeaux, and Lyon to manage crowds and prevent school blockades. The government has announced a social conference with unions and employers to address wage and purchasing power concerns, while maintaining a heavy security presence of 70,000 officers nationwide.",
  "organizers": [
   "CGT",
-  "Union étudiante",
-  "Fage",
-  "Unef",
-  "Union syndicale lycéenne"
+  "SNES-FSU",
+  "Union Syndicale Lyceenne"
  ],
  "demands": [
-  "100 euro minimum wage increase",
-  "Improved living standards",
-  "Protection of public services",
-  "Better education conditions"
+  "Higher wages",
+  "Tax reform",
+  "Improved educational conditions",
+  "Increased public service funding"
  ],
- "response": "Interior Minister Laurent Nuñez deployed 70,000 police and gendarmes nationwide to prevent looting and property damage. The Paris administrative court upheld a police ban on the original protest route due to security risks near government buildings.",
+ "response": "The government deployed 70,000 police officers and gendarmes nationwide. Prime Minister Sebastien Lecornu announced a social conference with unions and employers to address concerns regarding purchasing power and wages.",
  "numbers": {
   "crowd": {
-   "value": 270000,
-   "text": "Approximately 270,000 people were reported to have joined protests across France by midday, according to BNR News.",
+   "value": 600000,
+   "text": "The French Interior Ministry reported 600,000 participants nationwide, while the CGT union estimated 1.6 million.",
    "sources": [
-    4
+    1,
+    3
    ]
   },
   "arrests": {
@@ -83,55 +83,57 @@
  },
  "updates": [
   {
-   "at": "2026-11-04",
-   "text": "The Paris administrative court rejected a union appeal to protest on a route near the Place de la Concorde due to security risks.",
-   "sources": [
-    1
-   ]
-  },
-  {
-   "at": "2026-11-05",
-   "text": "Nationwide strikes and marches began, with 70,000 police deployed to maintain order.",
+   "at": "2026-09-15",
+   "text": "Student protests over educational conditions and school infrastructure begin in and around Paris.",
    "sources": [
     4
    ]
   },
   {
-   "at": "2026-11-05",
-   "text": "The Eiffel Tower and parts of the Louvre closed due to the national strike.",
+   "at": "2026-10-17",
+   "text": "Mass protests draw over 500,000 people nationwide, resulting in significant rioting and clashes with police.",
    "sources": [
-    2
+    3
+   ]
+  },
+  {
+   "at": "2026-11-05",
+   "text": "A nationwide general strike and mass demonstrations occur, with unions and students protesting budget cuts and living costs.",
+   "sources": [
+    1,
+    2,
+    3
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://www.franceinfo.fr/societe/manifestations/le-ministere-de-l-education-nationale-estime-a-17-54-le-taux-de-grevistes-dans-le-premier-degre-public-pour-la-mobilisation-du-5-novembre_8267255.html",
-   "publisher": "franceinfo.fr",
-   "title": "DIRECT. Mobilisation du 5 novembre : le minist&egrave;re de l'Education nationale estime &agrave; 17,54% le taux de gr&eacute;vistes dans le premier degr&eacute; public jeudi",
-   "publishedAt": "2026-11-04T08:21:09.000Z"
+   "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living",
+   "publisher": "theguardian.com",
+   "title": "Protesters to join nationwide march as France braces for day of strike action",
+   "publishedAt": "2026-11-05T05:00:54.000Z"
   },
   {
    "n": 2,
-   "url": "https://www.ilfattoquotidiano.it/2026/11/05/sciopero-generale-francia-tour-eiffel-notizie/8562017/",
-   "publisher": "ilfattoquotidiano.it",
-   "title": "Sciopero Francia, sbarrato l'ingresso della Tour Eiffel. Chiuse anche alcune sale del Louvre",
-   "publishedAt": "2026-11-05T16:31:32.000Z"
+   "url": "https://taz.de/Sozialproteste-in-Frankreich/!6228041/",
+   "publisher": "taz.de",
+   "title": "Sozialproteste in Frankreich: Mit Fanfaren und Trompeten",
+   "publishedAt": "2026-11-05T19:56:00.000Z"
   },
   {
    "n": 3,
-   "url": "https://24.hu/kulfold/2026/11/05/tuntetes-franciaorszag-megelhetes-krizis/",
-   "publisher": "24.hu",
-   "title": "Tüntetés: százezrek az utcán Franciaországban | 24.hu",
-   "publishedAt": "2026-11-05T16:40:30.000Z"
+   "url": "http://www.rtvslo.si/svet/evropa/francijo-zajela-mnozicna-stavka-protestniki-zahtevajo-visje-place-in-boljse-pogoje/799181",
+   "publisher": "rtvslo.si",
+   "title": "Francijo zajela množična stavka: protestniki zahtevajo višje plače in boljše pogoje",
+   "publishedAt": "2026-11-05T20:46:40.000Z"
   },
   {
    "n": 4,
-   "url": "https://bnrnews.bg/horizont/post/554148/protestite-vav-frantsiya-prelivat-v-stachka-na-darzhavniya-sektor",
-   "publisher": "bnrnews.bg",
-   "title": "Протестите във Франция преливат в стачка на държавния сектор",
-   "publishedAt": "2026-11-05T18:17:00.000Z"
+   "url": "https://www.aa.com.tr/en/europe/1-in-3-french-higher-education-institutions-disrupted-amid-nationwide-strike/4113340",
+   "publisher": "aa.com.tr",
+   "title": "1 in 3 French higher education institutions disrupted amid nationwide strike",
+   "publishedAt": "2026-11-05T21:03:14.963Z"
   },
   {
    "n": 5,
@@ -155,83 +157,93 @@
    "publishedAt": "2026-10-24T23:50:02.473Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
+ "conflicts": [
+  "The French Interior Ministry reported 600,000 protesters on November 5, while the CGT union estimated 1.6 million.",
+  "The Education Ministry reported 81 high schools blocked, while the Union Syndicale Lyceenne reported over 1,000."
+ ],
+ "confidence": 0.8,
  "publishers": 7,
- "reports24h": 144,
- "reportsPrev24h": 15,
- "reports48h": 159,
+ "reports24h": 165,
+ "reportsPrev24h": 19,
+ "reports48h": 184,
  "firstSeenAt": "2026-10-06T02:27:49.925Z",
- "lastReportAt": "2026-11-05T17:33:43.986Z",
- "lastCheckedAt": "2026-11-05T17:33:43.986Z",
- "updatedAt": "2026-11-05T17:31:56.031Z",
+ "lastReportAt": "2026-11-05T20:21:58.483Z",
+ "lastCheckedAt": "2026-11-05T20:21:58.483Z",
+ "updatedAt": "2026-11-05T20:19:54.862Z",
  "responseSources": [
   1,
+  3,
   4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-05T17:31:56.031Z",
+ "summarizedAt": "2026-11-05T20:19:54.862Z",
  "publishedAt": "2026-10-20T04:29:54.302Z",
  "i18n": {
-  "of": "b82a3bc0ef84ca39",
-  "at": "2026-11-05T17:33:57.736Z",
+  "of": "1d40ecdd11aeacaa",
+  "at": "2026-11-05T20:22:13.167Z",
   "tries": 1,
   "hi": {
    "title": "फ्रांसीसी श्रमिकों और छात्रों ने जीवन यापन की लागत और शिक्षा को लेकर राष्ट्रव्यापी विरोध प्रदर्शन किया",
    "seoTitle": "पेरिस में जीवन यापन की लागत को लेकर राष्ट्रव्यापी विरोध",
    "tea": {
-    "why": "प्रदर्शनकारी जीवन यापन की उच्च लागत, कर असमानता और शिक्षा प्रणाली के भीतर खराब स्थितियों के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "मांगों में न्यूनतम वेतन में 100 यूरो की वृद्धि और सार्वजनिक सेवाओं का संरक्षण शामिल है।",
-    "changed": "5 नवंबर: लाखों लोग राष्ट्रव्यापी हड़तालों और मार्च में शामिल हुए, जिसके कारण एफिल टॉवर और लौवर के कुछ हिस्से बंद हो गए।"
+    "why": "प्रदर्शनकारी जीवन यापन की बढ़ती लागत, मुद्रास्फीति और सार्वजनिक सेवाओं तथा शिक्षा में प्रस्तावित सरकारी बजट कटौती का विरोध कर रहे हैं।",
+    "want": "प्रतिभागी उच्च वेतन, कर सुधार, बेहतर शैक्षिक स्थितियों और सार्वजनिक सेवाओं के लिए अधिक धन की मांग कर रहे हैं।",
+    "changed": "5 नवंबर: फ्रांस भर में एक राष्ट्रव्यापी आम हड़ताल और बड़े पैमाने पर प्रदर्शन हुए, जिसमें यूनियनों और छात्रों ने सरकारी बजट योजनाओं का विरोध किया।"
    },
-   "summary": "5 नवंबर, 2026 को, पूरे फ्रांस में हड़तालों और विरोध प्रदर्शनों का एक राष्ट्रव्यापी दिन आयोजित किया गया, जिसमें छात्र, श्रमिक और ट्रेड यूनियन के सदस्य शामिल थे। एक अंतर-यूनियन गठबंधन द्वारा आयोजित, इस आंदोलन का उद्देश्य जीवन यापन की लागत, वेतन में ठहराव और सार्वजनिक शिक्षा की स्थिति से संबंधित चिंताओं को संबोधित करना था। पेरिस में, अधिकारियों ने संवेदनशील सरकारी क्षेत्रों से बचने के लिए प्लेस डी ला रिपब्लिक से प्लेस डी ला नेशन तक एक विशिष्ट मार्ग अनिवार्य किया। विरोध प्रदर्शन के कारण एफिल टॉवर और लौवर संग्रहालय के कुछ हिस्सों के बंद होने सहित महत्वपूर्ण व्यवधान उत्पन्न हुए। आंतरिक मंत्री लॉरेंट नुनेज़ ने हिंसा और संपत्ति के नुकसान के जोखिमों का हवाला देते हुए प्रदर्शनों को प्रबंधित करने के लिए देश भर में 70,000 पुलिस अधिकारियों को तैनात किया। हालांकि सुबह की शुरुआत शांतिपूर्ण माहौल के साथ हुई, लेकिन दिन बढ़ने के साथ अधिकारी संभावित झड़पों के लिए हाई अलर्ट पर रहे।",
+   "summary": "5 नवंबर, 2026 को, फ्रांस भर में सैकड़ों हजारों लोगों ने जीवन यापन की बढ़ती लागत और प्रस्तावित सार्वजनिक व्यय कटौती के विरोध में एक राष्ट्रव्यापी आम हड़ताल और प्रदर्शनों में भाग लिया। ट्रेड यूनियनों द्वारा आयोजित और हाई स्कूल तथा विश्वविद्यालय के छात्रों द्वारा समर्थित, यह आंदोलन शिक्षकों की कमी, भीड़भाड़ वाली कक्षाओं और जर्जर स्कूल बुनियादी ढांचे के बारे में चल रही शिकायतों को उजागर करता है। जबकि सरकार ने 600,000 प्रतिभागियों की सूचना दी, CGT यूनियन ने उपस्थिति का अनुमान 1.6 मिलियन लगाया। प्रदर्शन काफी हद तक शांतिपूर्ण थे, हालांकि पेरिस, बोर्डो और ल्योन जैसे शहरों में पुलिस ने भीड़ को नियंत्रित करने और स्कूल नाकेबंदी को रोकने के लिए आंसू गैस का इस्तेमाल किया। सरकार ने वेतन और क्रय शक्ति संबंधी चिंताओं को दूर करने के लिए यूनियनों और नियोक्ताओं के साथ एक सामाजिक सम्मेलन की घोषणा की है, जबकि देश भर में 70,000 अधिकारियों की भारी सुरक्षा उपस्थिति बनाए रखी है।",
    "demands": [
-    "न्यूनतम वेतन में 100 यूरो की वृद्धि",
-    "जीवन स्तर में सुधार",
-    "सार्वजनिक सेवाओं का संरक्षण",
-    "बेहतर शिक्षा स्थितियां"
+    "उच्च वेतन",
+    "कर सुधार",
+    "बेहतर शैक्षिक स्थितियां",
+    "सार्वजनिक सेवा के लिए बढ़ा हुआ धन"
    ],
-   "response": "आंतरिक मंत्री लॉरेंट नुनेज़ ने लूटपाट और संपत्ति के नुकसान को रोकने के लिए देश भर में 70,000 पुलिस और जेंडरमे तैनात किए। पेरिस प्रशासनिक न्यायालय ने सरकारी भवनों के पास सुरक्षा जोखिमों के कारण मूल विरोध मार्ग पर पुलिस प्रतिबंध को बरकरार रखा।",
+   "response": "सरकार ने देश भर में 70,000 पुलिस अधिकारियों और जेंडरमे को तैनात किया। प्रधानमंत्री सेबेस्टियन लेकोर्नू ने क्रय शक्ति और वेतन संबंधी चिंताओं को दूर करने के लिए यूनियनों और नियोक्ताओं के साथ एक सामाजिक सम्मेलन की घोषणा की।",
    "updates": [
-    "पेरिस प्रशासनिक न्यायालय ने सुरक्षा जोखिमों के कारण प्लेस डी ला कॉनकॉर्ड के पास विरोध प्रदर्शन करने के लिए यूनियन की अपील को खारिज कर दिया।",
-    "राष्ट्रव्यापी हड़तालें और मार्च शुरू हुए, जिसमें व्यवस्था बनाए रखने के लिए 70,000 पुलिस तैनात की गई।",
-    "राष्ट्रीय हड़ताल के कारण एफिल टॉवर और लौवर के कुछ हिस्से बंद हो गए।"
+    "पेरिस और उसके आसपास शैक्षिक स्थितियों और स्कूल के बुनियादी ढांचे को लेकर छात्र विरोध प्रदर्शन शुरू हुए।",
+    "बड़े पैमाने पर विरोध प्रदर्शनों ने देश भर में 500,000 से अधिक लोगों को आकर्षित किया, जिसके परिणामस्वरूप महत्वपूर्ण दंगे और पुलिस के साथ झड़पें हुईं।",
+    "एक राष्ट्रव्यापी आम हड़ताल और बड़े पैमाने पर प्रदर्शन हुए, जिसमें यूनियनों और छात्रों ने बजट कटौती और जीवन यापन की लागत का विरोध किया।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "फ्रांसीसी आंतरिक मंत्रालय ने 5 नवंबर को 600,000 प्रदर्शनकारियों की सूचना दी, जबकि CGT यूनियन ने 1.6 मिलियन का अनुमान लगाया।",
+    "शिक्षा मंत्रालय ने 81 हाई स्कूलों के अवरुद्ध होने की सूचना दी, जबकि यूनियन सिंडिकेल लिसिएन ने 1,000 से अधिक की सूचना दी।"
+   ],
    "numbers": {
-    "crowd": "BNR न्यूज़ के अनुसार, दोपहर तक पूरे फ्रांस में लगभग 270,000 लोग विरोध प्रदर्शनों में शामिल हुए।",
+    "crowd": "फ्रांसीसी आंतरिक मंत्रालय ने देश भर में 600,000 प्रतिभागियों की सूचना दी, जबकि CGT यूनियन ने 1.6 मिलियन का अनुमान लगाया।",
     "arrests": "10,000 से अधिक लोगों को गिरफ्तार किया गया है",
     "injuries": "फ्रांस के आंतरिक मंत्रालय ने कहा कि शनिवार को लगभग 1,000 पुलिस अधिकारी घायल हुए, जिनमें से सात गंभीर रूप से घायल हैं।",
     "deaths": "कम से कम दो मौतें"
    }
   },
   "mr": {
-   "title": "फ्रेंच कामगार आणि विद्यार्थ्यांनी राहणीमानाचा खर्च आणि शिक्षणाबाबत देशव्यापी निदर्शने केली",
+   "title": "फ्रेंच कामगार आणि विद्यार्थ्यांनी राहणीमानाचा खर्च आणि शिक्षणावरून देशव्यापी निदर्शने केली",
    "seoTitle": "पॅरिसमध्ये राहणीमानाचा खर्च वाढल्याने देशव्यापी निदर्शने",
    "tea": {
-    "why": "निदर्शक राहणीमानाचा उच्च खर्च, करातील असमानता आणि शिक्षण प्रणालीतील खराब परिस्थितीच्या विरोधात निदर्शने करत आहेत.",
-    "want": "मागण्यांमध्ये किमान वेतनात 100 युरोची वाढ आणि सार्वजनिक सेवांचे संरक्षण यांचा समावेश आहे.",
-    "changed": "5 नोव्हेंबर: लाखो लोक देशव्यापी संप आणि मोर्चांमध्ये सामील झाले, ज्यामुळे एफिल टॉवर आणि लौवरचे काही भाग बंद झाले."
+    "why": "निदर्शक राहणीमानाचा वाढता खर्च, महागाई आणि सार्वजनिक सेवा व शिक्षणातील प्रस्तावित सरकारी कपातीचा निषेध करत आहेत.",
+    "want": "सहभागी उच्च वेतन, कर सुधारणा, सुधारित शैक्षणिक परिस्थिती आणि सार्वजनिक सेवांसाठी वाढीव निधीची मागणी करत आहेत.",
+    "changed": "५ नोव्हेंबर: फ्रान्समध्ये देशव्यापी संप आणि मोठ्या प्रमाणावर निदर्शने झाली, ज्यामध्ये युनियन आणि विद्यार्थ्यांनी सरकारी अर्थसंकल्पीय योजनांचा निषेध केला."
    },
-   "summary": "5 नोव्हेंबर 2026 रोजी, संपूर्ण फ्रान्समध्ये संप आणि निदर्शनांचा एक देशव्यापी दिवस आयोजित करण्यात आला होता, ज्यामध्ये विद्यार्थी, कामगार आणि ट्रेड युनियनचे सदस्य सहभागी झाले होते. एका आंतर-युनियन युतीद्वारे आयोजित, या आंदोलनाचा उद्देश राहणीमानाचा खर्च, वेतनातील स्थिरता आणि सार्वजनिक शिक्षणाची स्थिती यासंबंधीच्या चिंता दूर करणे हा होता. पॅरिसमध्ये, संवेदनशील सरकारी भागांतून जाणे टाळण्यासाठी अधिकाऱ्यांनी प्लेस डी ला रिपब्लिक ते प्लेस डी ला नेशन असा एक विशिष्ट मार्ग अनिवार्य केला होता. या निदर्शनांमुळे एफिल टॉवर आणि लौवर संग्रहालयाचे काही भाग बंद होण्यासह मोठे अडथळे निर्माण झाले. गृहमंत्री लॉरेंट नुनेझ यांनी हिंसाचार आणि मालमत्तेच्या नुकसानीच्या जोखमीचा हवाला देत निदर्शने हाताळण्यासाठी देशभरात 70,000 पोलीस अधिकारी तैनात केले. सकाळची सुरुवात शांततेत झाली असली तरी, दिवस जसजसा पुढे सरकला तसतसे संभाव्य संघर्षासाठी अधिकारी हाय अलर्टवर होते.",
+   "summary": "५ नोव्हेंबर २०२६ रोजी, फ्रान्समध्ये राहणीमानाचा वाढता खर्च आणि प्रस्तावित सार्वजनिक खर्चातील कपातीचा निषेध करण्यासाठी शेकडो हजारो लोकांनी देशव्यापी संप आणि निदर्शनांमध्ये भाग घेतला. ट्रेड युनियनद्वारे आयोजित आणि हायस्कूल व विद्यापीठातील विद्यार्थ्यांचा सहभाग असलेल्या या आंदोलनाने शिक्षकांची कमतरता, गर्दीचे वर्ग आणि मोडकळीस आलेली शाळांची पायाभूत सुविधा यांसारख्या समस्या अधोरेखित केल्या. सरकारने ६००,००० सहभागींची नोंद केली असताना, CGT युनियनने ही संख्या १.६ दशलक्ष असल्याचे सांगितले. निदर्शने बहुतांशी शांततापूर्ण होती, तरीही पॅरिस, बोर्डो आणि ल्योन सारख्या शहरांमध्ये गर्दीवर नियंत्रण मिळवण्यासाठी आणि शाळांची नाकेबंदी रोखण्यासाठी पोलिसांनी अश्रूधुराचा वापर केला. सरकारने वेतन आणि क्रयशक्तीच्या चिंतेचे निराकरण करण्यासाठी युनियन आणि नियोक्त्यांसोबत सामाजिक परिषदेची घोषणा केली आहे, तसेच देशभरात ७०,००० अधिकाऱ्यांचा मोठा सुरक्षा ताफा तैनात ठेवला आहे.",
    "demands": [
-    "किमान वेतनात 100 युरोची वाढ",
-    "राहणीमानात सुधारणा",
-    "सार्वजनिक सेवांचे संरक्षण",
-    "शिक्षणाच्या चांगल्या परिस्थिती"
+    "उच्च वेतन",
+    "कर सुधारणा",
+    "सुधारित शैक्षणिक परिस्थिती",
+    "सार्वजनिक सेवांसाठी वाढीव निधी"
    ],
-   "response": "गृहमंत्री लॉरेंट नुनेझ यांनी लूटमार आणि मालमत्तेचे नुकसान टाळण्यासाठी देशभरात 70,000 पोलीस आणि जेंडरमे तैनात केले. पॅरिस प्रशासकीय न्यायालयाने सरकारी इमारतींजवळील सुरक्षा जोखमींमुळे मूळ निदर्शन मार्गावरील पोलीस बंदी कायम ठेवली.",
+   "response": "सरकारने देशभरात ७०,००० पोलीस अधिकारी आणि जेंडरमे तैनात केले. पंतप्रधान सेबेस्टियन लेकोर्नू यांनी क्रयशक्ती आणि वेतनाबाबतच्या चिंतेचे निराकरण करण्यासाठी युनियन आणि नियोक्त्यांसोबत सामाजिक परिषदेची घोषणा केली.",
    "updates": [
-    "पॅरिस प्रशासकीय न्यायालयाने सुरक्षा जोखमींमुळे प्लेस डी ला कॉनकॉर्ड जवळ निदर्शने करण्याच्या युनियनची अपील फेटाळून लावली.",
-    "देशव्यापी संप आणि मोर्चे सुरू झाले, ज्यामध्ये सुव्यवस्था राखण्यासाठी 70,000 पोलीस तैनात करण्यात आले.",
-    "राष्ट्रीय संपामुळे एफिल टॉवर आणि लौवरचे काही भाग बंद झाले."
+    "पॅरिस आणि आसपासच्या भागात शैक्षणिक परिस्थिती आणि शाळेच्या पायाभूत सुविधांवरून विद्यार्थी निदर्शने सुरू झाली.",
+    "मोठ्या प्रमाणावरील निदर्शनांमध्ये देशभरात ५००,००० हून अधिक लोक सहभागी झाले, ज्याचा परिणाम मोठ्या दंगली आणि पोलिसांशी चकमकींमध्ये झाला.",
+    "देशव्यापी संप आणि मोठ्या प्रमाणावर निदर्शने झाली, ज्यामध्ये युनियन आणि विद्यार्थ्यांनी अर्थसंकल्पीय कपात आणि राहणीमानाचा खर्च यावर निषेध केला."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "फ्रेंच गृह मंत्रालयाने ५ नोव्हेंबर रोजी ६००,००० निदर्शकांची नोंद केली, तर CGT युनियनने १.६ दशलक्षचा अंदाज वर्तवला.",
+    "शिक्षण मंत्रालयाने ८१ हायस्कूल बंद असल्याचे सांगितले, तर युनियन सिंडिकेल लिसिएनने १,००० हून अधिक शाळा बंद असल्याचे सांगितले."
+   ],
    "numbers": {
-    "crowd": "BNR न्यूजच्या माहितीनुसार, दुपारपर्यंत संपूर्ण फ्रान्समध्ये सुमारे 270,000 लोक निदर्शनांमध्ये सामील झाले होते.",
-    "arrests": "10,000 पेक्षा जास्त लोकांना अटक करण्यात आली आहे",
-    "injuries": "फ्रान्सच्या गृह मंत्रालयाने सांगितले की शनिवारी सुमारे 1,000 पोलीस अधिकारी जखमी झाले, त्यापैकी सात जण गंभीर जखमी आहेत.",
+    "crowd": "फ्रेंच गृह मंत्रालयाने देशभरात ६००,००० सहभागींची नोंद केली, तर CGT युनियनने १.६ दशलक्षचा अंदाज वर्तवला.",
+    "arrests": "१०,००० हून अधिक लोकांना अटक करण्यात आली आहे",
+    "injuries": "फ्रान्सच्या गृह मंत्रालयाने सांगितले की शनिवारी सुमारे १,००० पोलीस अधिकारी जखमी झाले, त्यापैकी सात जण गंभीर जखमी आहेत.",
     "deaths": "किमान दोन मृत्यू"
    }
   },
@@ -239,84 +251,93 @@
    "title": "Trabajadores y estudiantes franceses realizan protestas nacionales por el costo de vida y la educación",
    "seoTitle": "Protestas nacionales en París por el costo de vida",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el alto costo de vida, la desigualdad fiscal y las malas condiciones dentro del sistema educativo.",
-    "want": "Las demandas incluyen un aumento de 100 euros en el salario mínimo y la protección de los servicios públicos.",
-    "changed": "5 de noviembre: Cientos de miles de personas se unieron a huelgas y marchas nacionales, lo que provocó el cierre de la Torre Eiffel y partes del Louvre."
+    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, la inflación y los recortes presupuestarios gubernamentales propuestos en los servicios públicos y la educación.",
+    "want": "Los participantes exigen salarios más altos, reforma fiscal, mejores condiciones educativas y un mayor financiamiento para los servicios públicos.",
+    "changed": "5 de noviembre: Se llevó a cabo una huelga general nacional y manifestaciones masivas en toda Francia, con sindicatos y estudiantes protestando contra los planes presupuestarios del gobierno."
    },
-   "summary": "El 5 de noviembre de 2026, tuvo lugar una jornada nacional de huelgas y protestas en toda Francia, en la que participaron estudiantes, trabajadores y sindicalistas. Organizado por una coalición intersindical, el movimiento buscó abordar las preocupaciones relacionadas con el costo de vida, el estancamiento salarial y el estado de la educación pública. En París, las autoridades ordenaron una ruta específica desde la Place de la République hasta la Place de la Nation para evitar áreas gubernamentales sensibles. La protesta provocó interrupciones significativas, incluido el cierre de la Torre Eiffel y secciones del Museo del Louvre. El ministro del Interior, Laurent Nuñez, desplegó 70.000 agentes de policía en todo el país para gestionar las manifestaciones, citando riesgos de violencia y daños a la propiedad. Aunque la mañana comenzó con un ambiente pacífico, las autoridades permanecieron en alerta máxima ante posibles enfrentamientos a medida que avanzaba el día.",
+   "summary": "El 5 de noviembre de 2026, cientos de miles de personas participaron en una huelga general nacional y manifestaciones en toda Francia para protestar contra el aumento del costo de vida y los recortes propuestos al gasto público. Organizado por sindicatos y al que se unieron estudiantes de secundaria y universitarios, el movimiento destaca las quejas continuas sobre la escasez de maestros, las aulas superpobladas y la infraestructura escolar en ruinas. Si bien el gobierno informó de 600,000 participantes, el sindicato CGT estimó la asistencia en 1.6 millones. Las manifestaciones fueron en gran medida pacíficas, aunque la policía utilizó gases lacrimógenos en ciudades como París, Burdeos y Lyon para controlar a las multitudes y evitar bloqueos escolares. El gobierno ha anunciado una conferencia social con sindicatos y empleadores para abordar las preocupaciones sobre los salarios y el poder adquisitivo, mientras mantiene una fuerte presencia de seguridad de 70,000 agentes en todo el país.",
    "demands": [
-    "Aumento del salario mínimo de 100 euros",
-    "Mejora de los niveles de vida",
-    "Protección de los servicios públicos",
-    "Mejores condiciones educativas"
+    "Salarios más altos",
+    "Reforma fiscal",
+    "Mejores condiciones educativas",
+    "Mayor financiamiento para servicios públicos"
    ],
-   "response": "El ministro del Interior, Laurent Nuñez, desplegó 70.000 policías y gendarmes en todo el país para evitar saqueos y daños a la propiedad. El tribunal administrativo de París confirmó la prohibición policial de la ruta de protesta original debido a los riesgos de seguridad cerca de los edificios gubernamentales.",
+   "response": "El gobierno desplegó 70,000 agentes de policía y gendarmes en todo el país. El primer ministro Sebastien Lecornu anunció una conferencia social con sindicatos y empleadores para abordar las preocupaciones sobre el poder adquisitivo y los salarios.",
    "updates": [
-    "El tribunal administrativo de París rechazó una apelación sindical para protestar en una ruta cerca de la Place de la Concorde debido a riesgos de seguridad.",
-    "Comenzaron las huelgas y marchas nacionales, con 70.000 policías desplegados para mantener el orden.",
-    "La Torre Eiffel y partes del Louvre cerraron debido a la huelga nacional."
+    "Comienzan las protestas estudiantiles sobre las condiciones educativas y la infraestructura escolar en París y sus alrededores.",
+    "Las protestas masivas atraen a más de 500,000 personas en todo el país, lo que resulta en disturbios significativos y enfrentamientos con la policía.",
+    "Se produce una huelga general nacional y manifestaciones masivas, con sindicatos y estudiantes protestando contra los recortes presupuestarios y el costo de vida."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "El Ministerio del Interior francés informó de 600,000 manifestantes el 5 de noviembre, mientras que el sindicato CGT estimó 1.6 millones.",
+    "El Ministerio de Educación informó de 81 escuelas secundarias bloqueadas, mientras que la Union Syndicale Lyceenne informó de más de 1,000."
+   ],
    "numbers": {
-    "crowd": "Aproximadamente 270.000 personas se unieron a las protestas en toda Francia al mediodía, según BNR News.",
-    "arrests": "Más de 10.000 personas han sido arrestadas",
-    "injuries": "El ministerio del Interior de Francia dijo que alrededor de 1.000 agentes de policía resultaron heridos el sábado, siete de ellos de gravedad.",
+    "crowd": "El Ministerio del Interior francés informó de 600,000 participantes en todo el país, mientras que el sindicato CGT estimó 1.6 millones.",
+    "arrests": "Más de 10,000 personas han sido arrestadas",
+    "injuries": "El ministerio del interior de Francia dijo que alrededor de 1,000 agentes de policía resultaron heridos el sábado, siete de ellos de gravedad.",
     "deaths": "al menos dos muertes"
    }
   },
   "fr": {
-   "title": "Des travailleurs et étudiants français organisent des manifestations nationales sur le coût de la vie et l'éducation",
+   "title": "Les travailleurs et étudiants français organisent des manifestations nationales sur le coût de la vie et l'éducation",
    "seoTitle": "Manifestations nationales à Paris sur le coût de la vie",
    "tea": {
-    "why": "Les manifestants protestent contre le coût élevé de la vie, l'inégalité fiscale et les mauvaises conditions au sein du système éducatif.",
-    "want": "Les revendications incluent une augmentation de 100 euros du salaire minimum et la protection des services publics.",
-    "changed": "5 novembre : Des centaines de milliers de personnes ont rejoint des grèves et des marches nationales, entraînant la fermeture de la tour Eiffel et de certaines parties du Louvre."
+    "why": "Les manifestants protestent contre la hausse du coût de la vie, l'inflation et les coupes budgétaires gouvernementales proposées dans les services publics et l'éducation.",
+    "want": "Les participants exigent des salaires plus élevés, une réforme fiscale, de meilleures conditions éducatives et une augmentation du financement des services publics.",
+    "changed": "5 novembre : Une grève générale nationale et des manifestations massives ont eu lieu dans toute la France, avec des syndicats et des étudiants protestant contre les plans budgétaires du gouvernement."
    },
-   "summary": "Le 5 novembre 2026, une journée nationale de grèves et de manifestations a eu lieu à travers la France, impliquant des étudiants, des travailleurs et des syndicalistes. Organisé par une coalition intersyndicale, le mouvement visait à répondre aux préoccupations concernant le coût de la vie, la stagnation des salaires et l'état de l'éducation publique. À Paris, les autorités ont imposé un itinéraire spécifique de la place de la République à la place de la Nation pour éviter les zones gouvernementales sensibles. La manifestation a entraîné des perturbations importantes, notamment la fermeture de la tour Eiffel et de sections du musée du Louvre. Le ministre de l'Intérieur, Laurent Nuñez, a déployé 70 000 policiers à l'échelle nationale pour gérer les manifestations, citant des risques de violence et de dommages matériels. Bien que la matinée ait commencé dans une atmosphère pacifique, les autorités sont restées en état d'alerte maximale face à d'éventuels affrontements au fil de la journée.",
+   "summary": "Le 5 novembre 2026, des centaines de milliers de personnes ont participé à une grève générale nationale et à des manifestations à travers la France pour protester contre la hausse du coût de la vie et les coupes proposées dans les dépenses publiques. Organisé par des syndicats et rejoint par des lycéens et des étudiants, le mouvement souligne les griefs persistants concernant la pénurie d'enseignants, les classes surchargées et l'infrastructure scolaire délabrée. Alors que le gouvernement a fait état de 600 000 participants, le syndicat CGT a estimé la participation à 1,6 million. Les manifestations ont été largement pacifiques, bien que la police ait utilisé des gaz lacrymogènes dans des villes comme Paris, Bordeaux et Lyon pour gérer les foules et empêcher les blocages d'écoles. Le gouvernement a annoncé une conférence sociale avec les syndicats et les employeurs pour répondre aux préoccupations concernant les salaires et le pouvoir d'achat, tout en maintenant une forte présence de sécurité de 70 000 agents dans tout le pays.",
    "demands": [
-    "Augmentation du salaire minimum de 100 euros",
-    "Amélioration du niveau de vie",
-    "Protection des services publics",
-    "Meilleures conditions d'éducation"
+    "Salaires plus élevés",
+    "Réforme fiscale",
+    "Conditions éducatives améliorées",
+    "Augmentation du financement des services publics"
    ],
-   "response": "Le ministre de l'Intérieur, Laurent Nuñez, a déployé 70 000 policiers et gendarmes à l'échelle nationale pour prévenir les pillages et les dommages matériels. Le tribunal administratif de Paris a confirmé l'interdiction policière de l'itinéraire de manifestation initial en raison des risques de sécurité près des bâtiments gouvernementaux.",
+   "response": "Le gouvernement a déployé 70 000 policiers et gendarmes dans tout le pays. Le Premier ministre Sebastien Lecornu a annoncé une conférence sociale avec les syndicats et les employeurs pour répondre aux préoccupations concernant le pouvoir d'achat et les salaires.",
    "updates": [
-    "Le tribunal administratif de Paris a rejeté un recours syndical visant à manifester sur un itinéraire proche de la place de la Concorde en raison de risques de sécurité.",
-    "Des grèves et des marches nationales ont commencé, avec 70 000 policiers déployés pour maintenir l'ordre.",
-    "La tour Eiffel et certaines parties du Louvre ont fermé en raison de la grève nationale."
+    "Des manifestations étudiantes sur les conditions éducatives et l'infrastructure scolaire commencent à Paris et dans ses environs.",
+    "Des manifestations massives attirent plus de 500 000 personnes dans tout le pays, entraînant des émeutes importantes et des affrontements avec la police.",
+    "Une grève générale nationale et des manifestations massives ont lieu, avec des syndicats et des étudiants protestant contre les coupes budgétaires et le coût de la vie."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Le ministère français de l'Intérieur a fait état de 600 000 manifestants le 5 novembre, tandis que le syndicat CGT en a estimé 1,6 million.",
+    "Le ministère de l'Éducation a fait état de 81 lycées bloqués, tandis que l'Union Syndicale Lycéenne en a signalé plus de 1 000."
+   ],
    "numbers": {
-    "crowd": "Environ 270 000 personnes auraient rejoint les manifestations à travers la France à la mi-journée, selon BNR News.",
+    "crowd": "Le ministère français de l'Intérieur a fait état de 600 000 participants dans tout le pays, tandis que le syndicat CGT en a estimé 1,6 million.",
     "arrests": "Plus de 10 000 personnes ont été arrêtées",
     "injuries": "Le ministère français de l'Intérieur a déclaré qu'environ 1 000 policiers ont été blessés samedi, dont sept grièvement.",
     "deaths": "au moins deux décès"
    }
   },
   "de": {
-   "title": "Französische Arbeiter und Studenten halten landesweite Proteste zu Lebenshaltungskosten und Bildung ab",
-   "seoTitle": "Landesweite Proteste in Paris zu Lebenshaltungskosten",
+   "title": "Französische Arbeiter und Studenten halten landesweite Proteste wegen Lebenshaltungskosten und Bildung ab",
+   "seoTitle": "Landesweite Proteste in Paris wegen Lebenshaltungskosten",
    "tea": {
-    "why": "Die Demonstranten protestieren gegen die hohen Lebenshaltungskosten, Steuerungleichheit und schlechte Bedingungen im Bildungssystem.",
-    "want": "Zu den Forderungen gehören eine Erhöhung des Mindestlohns um 100 Euro und der Schutz öffentlicher Dienste.",
-    "changed": "5. November: Hunderttausende Menschen schlossen sich landesweiten Streiks und Märschen an, was zur Schließung des Eiffelturms und Teilen des Louvre führte."
+    "why": "Die Demonstranten protestieren gegen steigende Lebenshaltungskosten, Inflation und geplante staatliche Budgetkürzungen bei öffentlichen Dienstleistungen und Bildung.",
+    "want": "Die Teilnehmer fordern höhere Löhne, Steuerreformen, verbesserte Bildungsbedingungen und eine erhöhte Finanzierung für öffentliche Dienstleistungen.",
+    "changed": "5. November: Ein landesweiter Generalstreik und Massendemonstrationen fanden in ganz Frankreich statt, wobei Gewerkschaften und Studenten gegen die Haushaltspläne der Regierung protestierten."
    },
-   "summary": "Am 5. November 2026 fand in ganz Frankreich ein landesweiter Tag der Streiks und Proteste statt, an dem Studenten, Arbeiter und Gewerkschafter teilnahmen. Die von einer gewerkschaftsübergreifenden Koalition organisierte Bewegung zielte darauf ab, Bedenken hinsichtlich der Lebenshaltungskosten, der Lohnstagnation und des Zustands der öffentlichen Bildung anzusprechen. In Paris ordneten die Behörden eine spezifische Route vom Place de la République zum Place de la Nation an, um sensible Regierungsbereiche zu meiden. Der Protest führte zu erheblichen Störungen, einschließlich der Schließung des Eiffelturms und Teilen des Louvre-Museums. Innenminister Laurent Nuñez setzte landesweit 70.000 Polizeibeamte ein, um die Demonstrationen zu verwalten, wobei er auf Risiken von Gewalt und Sachschäden verwies. Obwohl der Morgen mit einer friedlichen Atmosphäre begann, blieben die Behörden im Laufe des Tages wegen möglicher Zusammenstöße in höchster Alarmbereitschaft.",
+   "summary": "Am 5. November 2026 nahmen Hunderttausende Menschen an einem landesweiten Generalstreik und Demonstrationen in ganz Frankreich teil, um gegen die steigenden Lebenshaltungskosten und die geplanten Kürzungen der öffentlichen Ausgaben zu protestieren. Die von Gewerkschaften organisierte und von Schülern und Studenten unterstützte Bewegung unterstreicht die anhaltenden Beschwerden über Lehrermangel, überfüllte Klassenzimmer und baufällige Schulinfrastruktur. Während die Regierung 600.000 Teilnehmer meldete, schätzte die Gewerkschaft CGT die Teilnehmerzahl auf 1,6 Millionen. Die Demonstrationen verliefen weitgehend friedlich, obwohl die Polizei in Städten wie Paris, Bordeaux und Lyon Tränengas einsetzte, um Menschenmengen zu kontrollieren und Schulblockaden zu verhindern. Die Regierung hat eine Sozialkonferenz mit Gewerkschaften und Arbeitgebern angekündigt, um Bedenken hinsichtlich Kaufkraft und Löhnen anzugehen, während sie gleichzeitig eine starke Sicherheitspräsenz von 70.000 Beamten im ganzen Land aufrechterhält.",
    "demands": [
-    "Erhöhung des Mindestlohns um 100 Euro",
-    "Verbesserung des Lebensstandards",
-    "Schutz öffentlicher Dienste",
-    "Bessere Bildungsbedingungen"
+    "Höhere Löhne",
+    "Steuerreform",
+    "Verbesserte Bildungsbedingungen",
+    "Erhöhte Finanzierung für öffentliche Dienstleistungen"
    ],
-   "response": "Innenminister Laurent Nuñez setzte landesweit 70.000 Polizisten und Gendarmen ein, um Plünderungen und Sachschäden zu verhindern. Das Verwaltungsgericht von Paris bestätigte ein polizeiliches Verbot der ursprünglichen Protestroute aufgrund von Sicherheitsrisiken in der Nähe von Regierungsgebäuden.",
+   "response": "Die Regierung setzte landesweit 70.000 Polizisten und Gendarmen ein. Premierminister Sebastien Lecornu kündigte eine Sozialkonferenz mit Gewerkschaften und Arbeitgebern an, um Bedenken hinsichtlich Kaufkraft und Löhnen anzugehen.",
    "updates": [
-    "Das Verwaltungsgericht von Paris wies einen Einspruch der Gewerkschaft gegen das Verbot einer Protestroute in der Nähe des Place de la Concorde aufgrund von Sicherheitsrisiken zurück.",
-    "Landesweite Streiks und Märsche begannen, wobei 70.000 Polizisten zur Aufrechterhaltung der Ordnung eingesetzt wurden.",
-    "Der Eiffelturm und Teile des Louvre wurden aufgrund des nationalen Streiks geschlossen."
+    "Studentenproteste wegen Bildungsbedingungen und Schulinfrastruktur beginnen in und um Paris.",
+    "Massendemonstrationen ziehen landesweit über 500.000 Menschen an, was zu erheblichen Ausschreitungen und Zusammenstößen mit der Polizei führt.",
+    "Ein landesweiter Generalstreik und Massendemonstrationen finden statt, bei denen Gewerkschaften und Studenten gegen Budgetkürzungen und Lebenshaltungskosten protestieren."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Das französische Innenministerium meldete am 5. November 600.000 Demonstranten, während die Gewerkschaft CGT 1,6 Millionen schätzte.",
+    "Das Bildungsministerium meldete 81 blockierte Gymnasien, während die Union Syndicale Lyceenne über 1.000 meldete."
+   ],
    "numbers": {
-    "crowd": "Laut BNR News schlossen sich bis zum Mittag schätzungsweise 270.000 Menschen den Protesten in ganz Frankreich an.",
+    "crowd": "Das französische Innenministerium meldete landesweit 600.000 Teilnehmer, während die Gewerkschaft CGT 1,6 Millionen schätzte.",
     "arrests": "Über 10.000 Menschen wurden festgenommen",
     "injuries": "Das französische Innenministerium teilte mit, dass am Samstag etwa 1.000 Polizeibeamte verletzt wurden, sieben davon schwer.",
     "deaths": "mindestens zwei Todesfälle"
@@ -328,7 +349,10 @@
   "e5a387be587",
   "e27156c7731",
   "e85828c51f4",
-  "e0bdfa1399f"
+  "e0bdfa1399f",
+  "eddb77a09eb",
+  "e3b12b1fb08",
+  "ed98ac82db1"
  ],
- "summaryOf": "f19616d3904c"
+ "summaryOf": "89863dcb5efe"
 }
