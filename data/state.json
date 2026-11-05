@@ -1,38 +1,9 @@
 {
  "aiCalls": {
-  "day": "2026-11-04",
-  "count": 201
+  "day": "2026-11-05",
+  "count": 15
  },
  "runs": [
-  {
-   "at": "2026-10-29T09:50:32.534Z",
-   "ms": 548101,
-   "discovered": 62,
-   "fetched": 56,
-   "classified": 46,
-   "protests": 20,
-   "summarized": 11,
-   "published": 235,
-   "live": 25,
-   "aiCalls": 23,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 12 files, 24 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss civil.ge: fetch failed",
-    "rss: 222 protest-word items",
-    "search: 25 single-source stories checked (6 in their own language), 17 other newsrooms found",
-    "fetch: 56 ok, 6 failed",
-    "classify: new candidate efeebea55cf \"IGPN investigates protester injury during clashes in Toulouse\" (Toulouse)",
-    "classify: new candidate ed360a18184 \"Charité healthcare workers strike outside Berlin parliament\" (Berlin)",
-    "classify: new candidate e73d2d3d02c \"Farmers retail staff strike across New Zealand over pay and conditions\" (Tauranga)",
-    "classify: new candidate e3bc3a03560 \"Train drivers strike disrupts Cercanías lines in Madrid\" (Madrid)",
-    "classify: new candidate e1ca8f7219d \"Gen Z youth plan Halloween protest in Hamburg\" (Hamburg)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 8 events"
-   ],
-   "translated": 8
-  },
   {
    "at": "2026-10-29T12:50:30.438Z",
    "ms": 339800,
@@ -1676,8 +1647,35 @@
     "translate: 6 events"
    ],
    "translated": 6
+  },
+  {
+   "at": "2026-11-05T02:50:30.836Z",
+   "ms": 447927,
+   "discovered": 62,
+   "fetched": 58,
+   "classified": 41,
+   "protests": 6,
+   "summarized": 6,
+   "published": 339,
+   "live": 14,
+   "aiCalls": 15,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 15 files, 43 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss news.err.ee: 403",
+    "rss: 160 protest-word items",
+    "search: 25 single-source stories checked (5 in their own language), 6 other newsrooms found",
+    "fetch: 58 ok, 4 failed",
+    "classify: new candidate ef5571cae2d \"BJP holds Loktantra Bachao campaign rally in Gorakhpur\" (Gorakhpur)",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: e6fd6b26ff6 failed: The operation was aborted due to timeout",
+    "translate: e7a33be664c failed: gemini 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "translate: 2 events"
+   ],
+   "translated": 2
   }
  ],
- "gdeltCursor": "20261104231500",
- "lastRunAt": "2026-11-04T23:08:11.244Z"
+ "gdeltCursor": "20261105030000",
+ "lastRunAt": "2026-11-05T02:50:30.836Z"
 }
