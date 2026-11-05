@@ -175,6 +175,21 @@ export function apply(e: ProtestEvent, out: SummaryOut, picked: Article[], all: 
     causes: [...new Set((out.causes ?? []).filter((c) => causeSet.has(c)))].slice(0, 3),
   };
   if (!next.causes!.length) next.causes = e.causes;
+  // A rewrite reads only some of the sources, so it can miss the one with the count: a sourced total
+  // of harm never falls or disappears (Frankfurt went from 100 injured to "one officer", Nov 2026).
+  for (const k of ['arrests', 'injuries', 'deaths'] as const) {
+    const old = e.numbers?.[k];
+    if (!old || (next.numbers![k]?.value ?? -1) >= old.value) continue;
+    const cited = old.sources.map((n) => e.sources.find((s) => s.n === n)).filter((s): s is SourceRef => !!s);
+    if (!cited.length) continue;
+    const ns = cited.map((s) => {
+      const have = sources.find((x) => x.url === s.url);
+      if (have) return have.n;
+      sources.push({ ...s, n: sources.length + 1 });
+      return sources.length;
+    });
+    next.numbers![k] = { ...old, sources: ns };
+  }
   next.seriousInjuries = !!out.serious_injuries;
   next.sensitive = !!out.sensitive;
 

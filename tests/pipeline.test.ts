@@ -145,6 +145,21 @@ test('summary validation drops unsourced numbers, unknown causes, off-story sour
   assert.equal(e.slug, 'mumbai-anti-cec-march-oct-2026');
 });
 
+test('a rewrite never loses a sourced count of harm, and keeps its source', () => {
+  const e = newEvent('Thackeray march', place, '2026-10-04', ['elections'], 'kept-count');
+  const picked = arts(4);
+  assert.ok(apply(e, summaryOut(), picked, picked, () => {}));
+  e.numbers.injuries = { value: 100, text: '100 police officers injured', sources: [1] };
+  const first = e.sources[0].url;
+  // The next summary drops source 1 and only finds one injured officer.
+  assert.ok(apply(e, summaryOut({ same_story_sources: [2, 3], injuries: { value: 1, text: 'one officer injured', sources: [2] } }), picked, picked, () => {}));
+  assert.equal(e.numbers.injuries?.value, 100);
+  assert.equal(e.sources.find((s) => s.n === e.numbers.injuries!.sources[0])?.url, first);
+  // A higher count replaces it.
+  assert.ok(apply(e, summaryOut({ same_story_sources: [2, 3], injuries: { value: 120, text: '120 injured', sources: [2] } }), picked, picked, () => {}));
+  assert.equal(e.numbers.injuries?.value, 120);
+});
+
 test('summary is rejected with fewer than 2 independent publishers on-story', () => {
   const e = newEvent('x', place, '2026-10-04', [], 'y');
   const picked = arts(3);
