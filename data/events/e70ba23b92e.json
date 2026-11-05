@@ -16,55 +16,83 @@
  "scope": "local",
  "causes": [
   "police",
-  "governance"
+  "justice"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-02",
  "status": "ended",
  "vibe": "wrapped-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Delhi Police personnel protested against the transfer of an ACP and an SHO following a confrontation with lawyers at Shahdara police station.",
-  "want": "Demonstrators demanded the reinstatement of the transferred officers and action regarding disputes with lawyers.",
-  "changed": "Nov 3: The Ministry of Home Affairs suspended Assistant Commissioner of Police Manasvi Vashistha following the protest."
+  "why": "Delhi Police personnel protested against the transfer of an ACP and an SHO following a standoff with lawyers over an October 23 incident.",
+  "want": "Protesters demanded the reversal of the officer transfers, the reinstatement of both officers, and action against lawyers involved in the confrontation.",
+  "changed": "Nov 2: About 500 police personnel gathered at the headquarters in protest, leading to the subsequent suspension of ACP Manasvi Vashistha by the MHA."
  },
- "summary": "Around one hundred Delhi Police personnel staged a demonstration outside the force's headquarters on Jai Singh Road in New Delhi. The protest was triggered by the transfer of Assistant Commissioner of Police Manasvi Vashistha and Shahdara Station House Officer Arun Kumar. These transfers followed a previous clash at the Shahdara police station on October 23, where an advocate sustained a head injury, leading to a lawyers' strike and subsequent pressure for disciplinary action against the officers. Protesters chanted slogans, carried placards, and demanded that the officers be returned to their previous posts, as well as calling for standard operating procedures to handle conflicts between police and lawyers. Senior officials, including the Police Commissioner, held discussions with the personnel inside the auditorium. Subsequently, the Ministry of Home Affairs suspended ACP Vashistha on disciplinary grounds.",
+ "summary": "Hundreds of Delhi Police personnel staged a demonstration outside and inside the force's headquarters in New Delhi to protest the transfer of Assistant Commissioner of Police Manasvi Vashistha and SHO Inspector Arun Kumar. The transfers followed an October 23 clash at the Shahdara police station involving lawyers and police personnel after an advocate allegedly sustained a serious head injury. Organised organically through messaging groups, the protesting officers demanded the reinstatement of the transferred officers, the registration of FIRs against individuals involved in violence against police, and the creation of standard operating procedures for handling lawyers entering police stations. Police Commissioner Anurag Kumar and Special Commissioners addressed the gathering inside the auditorium to hear their grievances, while senior officers urged personnel to follow departmental channels.",
  "organizers": [],
  "demands": [
-  "Reinstate the transferred ACP and SHO to their previous postings",
-  "Establish a standard operating procedure to address police-lawyer confrontations",
-  "Keep cases registered against lawyers active without withdrawal",
-  "Take no departmental action against police personnel who participated in the protest"
+  "Cancel the transfer orders and reinstate ACP Manasvi Vashistha and SHO Inspector Arun Kumar",
+  "Take action against lawyers involved in the Shahdara police station confrontation",
+  "Establish a clear standard operating procedure for lawyers entering police stations",
+  "Ensure that cases registered against lawyers are not withdrawn",
+  "Provide a dedicated cell at the police headquarters to address such incidents"
  ],
- "response": "Senior officers urged protesters to raise grievances inside the headquarters, and Police Commissioner Anurag Kumar met with personnel in an auditorium to hear their concerns. According to sources, the Ministry of Home Affairs later suspended ACP Vashistha.",
+ "response": "Police Commissioner Anurag Kumar and other senior officers held an interactive session with the protesting personnel inside the headquarters auditorium to hear their concerns. Additionally, the Ministry of Home Affairs suspended ACP Manasvi Vashistha on disciplinary grounds for leading the demonstration.",
  "numbers": {
   "crowd": {
-   "value": 100,
-   "text": "About 100 Delhi Police personnel",
+   "value": 500,
+   "text": "when the meeting was called, the number grew to about 500.",
    "sources": [
-    2
+    3
    ]
   }
  },
  "updates": [
   {
+   "at": "2026-10-31",
+   "text": "A section of Delhi Police personnel planned a protest outside the headquarters against the transfer of two officers following a standoff with lawyers.",
+   "sources": [
+    1
+   ]
+  },
+  {
    "at": "2026-11-02",
-   "text": "Around 100 to 150 police personnel gathered outside the Delhi Police Headquarters to protest officer transfers.",
+   "text": "About 100 to 500 Delhi Police personnel gathered outside and inside the police headquarters demanding the reinstatement of the transferred officers.",
    "sources": [
     2,
+    3,
     5
    ]
   },
   {
-   "at": "2026-11-03",
-   "text": "The Ministry of Home Affairs suspended ACP Manasvi Vashistha following his leadership during the protest.",
+   "at": "2026-11-02",
+   "text": "Police Commissioner Anurag Kumar and senior officers held a session inside the headquarters auditorium to hear the grievances of the protesting personnel.",
    "sources": [
     4,
-    5
+    7
+   ]
+  },
+  {
+   "at": "2026-11-02",
+   "text": "The Ministry of Home Affairs suspended ACP Manasvi Vashistha with immediate effect due to his participation and leadership in the demonstration.",
+   "sources": [
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "at": "2026-11-04",
+   "text": "Inspector Arun Kumar received a second transfer order moving him from the Security Unit to the Intelligence Fusion and Strategic Operations branch.",
+   "sources": [
+    9
    ]
   }
  ],
@@ -85,17 +113,17 @@
   },
   {
    "n": 3,
+   "url": "https://timesofindia.indiatimes.com/city/delhi/hundreds-of-cops-gather-at-phq-demand-security-at-police-stations-court-complexes/articleshow/135470850.cms",
+   "publisher": "timesofindia.indiatimes.com",
+   "title": "When cops take to the streets: 500 Delhi Police personnel protest at PHQ over transfer of 2 officers",
+   "publishedAt": "2026-11-02T18:02:00.000Z"
+  },
+  {
+   "n": 4,
    "url": "https://www.newsx.com/regionals/cops-vs-cops-delhi-police-delhi-police-revolt-inside-headquarters-refuse-to-listen-to-ips-officers-over-action-against-colleagues-289425/",
    "publisher": "newsx.com",
    "title": "Cops Vs Cops: Delhi Police Revolt Inside Headquarters, Refuse To Listen To IPS Officers Over Action Against Colleagues",
    "publishedAt": "2026-11-03T02:28:00.000Z"
-  },
-  {
-   "n": 4,
-   "url": "https://www.hindustantimes.com/india-news/acp-manasvi-vashishta-who-led-protest-outside-delhi-police-headquarters-suspended-101793675403346.html",
-   "publisher": "hindustantimes.com",
-   "title": "ACP Manasvi Vashishta who led protest outside Delhi Police headquarters suspended",
-   "publishedAt": "2026-11-03T03:12:33.000Z"
   },
   {
    "n": 5,
@@ -113,174 +141,194 @@
   },
   {
    "n": 7,
-   "url": "https://www.moneycontrol.com/city/who-is-manasvi-vashishtha-the-acp-suspended-by-mha-after-delhi-police-protest-over-shahdara-clash-article-14067862.html",
-   "publisher": "moneycontrol.com",
-   "title": "Who is ACP Manasvi Vashishtha, Delhi cop suspended by MHA after police protest over Shahdara clash- Moneycontrol.com"
-  },
-  {
-   "n": 8,
-   "url": "https://timesofindia.indiatimes.com/city/delhi/iit-kharagpur-alumnus-ex-ssb-officer-who-is-suspended-delhi-acp-manasvi-vashistha/articleshow/135507222.cms",
-   "publisher": "timesofindia.indiatimes.com",
-   "title": "IIT-Kharagpur alumnus, ex-SSB officer: Who is suspended Delhi ACP Manasvi Vashistha",
-   "publishedAt": "2026-11-03T17:19:00.000Z"
-  },
-  {
-   "n": 9,
    "url": "https://www.tribuneindia.com/news/delhi/day-after-cops-protest-at-hq-mha-suspends-acp-manasvi/",
    "publisher": "tribuneindia.com",
    "title": "Day after cops’ protest at HQ, MHA suspends ACP Manasvi - The Tribune",
    "publishedAt": "2026-11-03T23:30:17.000Z"
+  },
+  {
+   "n": 8,
+   "url": "https://www.thehindu.com/news/cities/Delhi/manasvi-vashishta-from-iit-kharagpur-graduate-former-vp-dhankhars-pso-and-acp-at-centre-of-delhi-police-protest/article71668611.ece",
+   "publisher": "thehindu.com",
+   "title": "Manasvi Vashishta: From IIT Kharagpur graduate, former VP Dhankhar’s PSO and ACP at centre of Delhi Police protest",
+   "publishedAt": "2026-11-05T05:57:35.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://www.moneycontrol.com/news/india/delhi-police-cop-arun-kumar-transferred-with-suspended-acp-manasvi-vashistha-gets-second-transfer-order-in-days-14070947.html",
+   "publisher": "moneycontrol.com",
+   "title": "Delhi Police cop transferred with suspended ACP Manasvi Vashistha gets second transfer order in days- Moneycontrol.com"
   }
  ],
  "conflicts": [],
  "confidence": 0.95,
  "publishers": 9,
- "reports24h": 0,
- "reportsPrev24h": 7,
- "reports48h": 7,
+ "reports24h": 2,
+ "reportsPrev24h": 6,
+ "reports48h": 8,
  "firstSeenAt": "2026-11-01T06:15:11.804Z",
- "lastReportAt": "2026-11-03T23:30:17.000Z",
- "lastCheckedAt": "2026-11-05T05:15:34.656Z",
- "updatedAt": "2026-11-04T02:20:19.506Z",
+ "lastReportAt": "2026-11-05T06:15:00.000Z",
+ "lastCheckedAt": "2026-11-05T07:01:25.086Z",
+ "updatedAt": "2026-11-05T06:59:14.748Z",
  "searchedAt": "2026-11-02T06:49:43.098Z",
  "responseSources": [
-  2,
   3,
   4,
-  5
+  5,
+  7
  ],
- "seriousInjuries": false,
+ "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-11-04T02:20:19.506Z",
- "summaryOf": "3359063e6e6b",
+ "summarizedAt": "2026-11-05T06:59:14.748Z",
+ "summaryOf": "cabe860784ed",
  "publishedAt": "2026-11-02T09:53:42.419Z",
  "i18n": {
-  "of": "26942b8277b37e51",
-  "at": "2026-11-04T02:25:03.376Z",
+  "of": "637de77fe72027a8",
+  "at": "2026-11-05T07:02:49.994Z",
   "tries": 1,
   "hi": {
    "title": "दिल्ली पुलिस कर्मियों ने अधिकारियों के तबादले को लेकर मुख्यालय पर प्रदर्शन किया",
-   "seoTitle": "दिल्ली पुलिस का अधिकारियों के तबादले पर प्रदर्शन",
+   "seoTitle": "दिल्ली पुलिस ने अधिकारियों के तबादले पर प्रदर्शन किया",
    "tea": {
-    "why": "दिल्ली पुलिस के कर्मियों ने शाहदरा पुलिस स्टेशन में वकीलों के साथ हुई झड़प के बाद एक एसीपी और एक एसएचओ के तबादले के विरोध में प्रदर्शन किया।",
-    "want": "प्रदर्शनकारियों ने स्थानांतरित अधिकारियों की बहाली और वकीलों के साथ विवादों पर कार्रवाई की मांग की।",
-    "changed": "3 नवंबर: गृह मंत्रालय ने प्रदर्शन के बाद असिस्टेंट कमिश्नर ऑफ पुलिस मनस्वी वशिष्ठ को निलंबित कर दिया।"
+    "why": "दिल्ली पुलिस के कर्मियों ने 23 अक्टूबर की घटना के बाद वकीलों के साथ गतिरोध के चलते एक एसीपी और एक एसएचओ के तबादले के खिलाफ प्रदर्शन किया।",
+    "want": "प्रदर्शनकारियों ने अधिकारियों के तबादले को रद्द करने, दोनों अधिकारियों को बहाल करने और टकराव में शामिल वकीलों के खिलाफ कार्रवाई की मांग की।",
+    "changed": "2 नवंबर: लगभग 500 पुलिसकर्मी विरोध में मुख्यालय पर एकत्र हुए, जिसके बाद एमएचए द्वारा एसीपी मनस्वी वशिष्ठ को निलंबित कर दिया गया।"
    },
-   "summary": "दिल्ली पुलिस के लगभग 100 कर्मियों ने नई दिल्ली में जय सिंह रोड स्थित मुख्यालय के बाहर प्रदर्शन किया। यह विरोध असिस्टेंट कमिश्नर ऑफ पुलिस मनस्वी वशिष्ठ और शाहदरा स्टेशन हाउस ऑफिसर अरुण कुमार के तबादले के कारण हुआ। ये तबादले 23 अक्टूबर को शाहदरा पुलिस स्टेशन में हुई एक झड़प के बाद किए गए थे, जिसमें एक वकील के सिर में चोट आई थी, जिसके बाद वकीलों ने हड़ताल की और अधिकारियों के खिलाफ अनुशासनात्मक कार्रवाई की मांग की। प्रदर्शनकारियों ने नारे लगाए, तख्तियां दिखाईं और मांग की कि अधिकारियों को उनके पुराने पदों पर वापस भेजा जाए, साथ ही पुलिस और वकीलों के बीच संघर्ष को संभालने के लिए मानक संचालन प्रक्रिया की मांग की। पुलिस कमिश्नर सहित वरिष्ठ अधिकारियों ने ऑडिटोरियम के अंदर कर्मियों के साथ चर्चा की। बाद में, गृह मंत्रालय ने अनुशासनात्मक आधार पर एसीपी वशिष्ठ को निलंबित कर दिया।",
+   "summary": "सैकड़ों दिल्ली पुलिस कर्मियों ने नई दिल्ली में बल के मुख्यालय के बाहर और अंदर प्रदर्शन किया, जिसका उद्देश्य सहायक पुलिस आयुक्त मनस्वी वशिष्ठ और एसएचओ इंस्पेक्टर अरुण कुमार के तबादले का विरोध करना था। यह तबादले 23 अक्टूबर को शाहदरा पुलिस स्टेशन में वकीलों और पुलिस कर्मियों के बीच हुई झड़प के बाद हुए थे, जिसमें एक वकील को कथित तौर पर सिर में गंभीर चोट लगी थी। मैसेजिंग समूहों के माध्यम से स्वतः संगठित होकर, प्रदर्शनकारी अधिकारियों ने तबादला किए गए अधिकारियों की बहाली, पुलिस के खिलाफ हिंसा में शामिल व्यक्तियों के खिलाफ एफआईआर दर्ज करने और पुलिस स्टेशनों में प्रवेश करने वाले वकीलों के लिए मानक संचालन प्रक्रिया बनाने की मांग की। पुलिस आयुक्त अनुराग कुमार और विशेष आयुक्तों ने उनकी शिकायतों को सुनने के लिए ऑडिटोरियम के अंदर प्रदर्शनकारियों को संबोधित किया, जबकि वरिष्ठ अधिकारियों ने कर्मियों से विभागीय चैनलों का पालन करने का आग्रह किया।",
    "demands": [
-    "स्थानांतरित एसीपी और एसएचओ को उनके पिछले पदों पर बहाल करें",
-    "पुलिस-वकील टकराव को हल करने के लिए एक मानक संचालन प्रक्रिया स्थापित करें",
-    "वकीलों के खिलाफ दर्ज मामलों को बिना वापस लिए सक्रिय रखें",
-    "प्रदर्शन में भाग लेने वाले पुलिस कर्मियों के खिलाफ कोई विभागीय कार्रवाई न करें"
+    "तबादला आदेश रद्द करें और एसीपी मनस्वी वशिष्ठ और एसएचओ इंस्पेक्टर अरुण कुमार को बहाल करें",
+    "शाहदरा पुलिस स्टेशन टकराव में शामिल वकीलों के खिलाफ कार्रवाई करें",
+    "पुलिस स्टेशनों में प्रवेश करने वाले वकीलों के लिए एक स्पष्ट मानक संचालन प्रक्रिया स्थापित करें",
+    "सुनिश्चित करें कि वकीलों के खिलाफ दर्ज मामले वापस न लिए जाएं",
+    "ऐसी घटनाओं को संबोधित करने के लिए पुलिस मुख्यालय में एक समर्पित सेल प्रदान करें"
    ],
-   "response": "वरिष्ठ अधिकारियों ने प्रदर्शनकारियों से मुख्यालय के अंदर अपनी शिकायतें रखने का आग्रह किया, और पुलिस कमिश्नर अनुराग कुमार ने उनकी चिंताएं सुनने के लिए ऑडिटोरियम में कर्मियों से मुलाकात की। सूत्रों के अनुसार, गृह मंत्रालय ने बाद में एसीपी वशिष्ठ को निलंबित कर दिया।",
+   "response": "पुलिस आयुक्त अनुराग कुमार और अन्य वरिष्ठ अधिकारियों ने उनकी चिंताओं को सुनने के लिए मुख्यालय ऑडिटोरियम के अंदर प्रदर्शनकारी कर्मियों के साथ एक इंटरैक्टिव सत्र आयोजित किया। इसके अतिरिक्त, गृह मंत्रालय ने अनुशासनात्मक आधार पर प्रदर्शन का नेतृत्व करने के लिए एसीपी मनस्वी वशिष्ठ को निलंबित कर दिया।",
    "updates": [
-    "अधिकारियों के तबादले के विरोध में लगभग 100 से 150 पुलिस कर्मी दिल्ली पुलिस मुख्यालय के बाहर जमा हुए।",
-    "गृह मंत्रालय ने प्रदर्शन के दौरान नेतृत्व करने के बाद एसीपी मनस्वी वशिष्ठ को निलंबित कर दिया।"
+    "दिल्ली पुलिस कर्मियों के एक वर्ग ने वकीलों के साथ गतिरोध के बाद दो अधिकारियों के तबादले के खिलाफ मुख्यालय के बाहर विरोध प्रदर्शन की योजना बनाई।",
+    "लगभग 100 से 500 दिल्ली पुलिस कर्मी तबादला किए गए अधिकारियों की बहाली की मांग करते हुए पुलिस मुख्यालय के बाहर और अंदर एकत्र हुए।",
+    "पुलिस आयुक्त अनुराग कुमार और वरिष्ठ अधिकारियों ने प्रदर्शनकारी कर्मियों की शिकायतों को सुनने के लिए मुख्यालय ऑडिटोरियम के अंदर एक सत्र आयोजित किया।",
+    "गृह मंत्रालय ने प्रदर्शन में भागीदारी और नेतृत्व के कारण एसीपी मनस्वी वशिष्ठ को तत्काल प्रभाव से निलंबित कर दिया।",
+    "इंस्पेक्टर अरुण कुमार को दूसरा तबादला आदेश मिला, जिसमें उन्हें सुरक्षा इकाई से इंटेलिजेंस फ्यूजन एंड स्ट्रैटेजिक ऑपरेशंस शाखा में स्थानांतरित कर दिया गया।"
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "लगभग 100 दिल्ली पुलिस कर्मी"
+    "crowd": "जब बैठक बुलाई गई, तो संख्या बढ़कर लगभग 500 हो गई।"
    }
   },
   "mr": {
    "title": "दिल्ली पोलीस कर्मचाऱ्यांचे अधिकाऱ्यांच्या बदलीवरून मुख्यालयासमोर आंदोलन",
    "seoTitle": "दिल्ली पोलिसांचे अधिकाऱ्यांच्या बदलीवरून आंदोलन",
    "tea": {
-    "why": "दिल्ली पोलीस कर्मचाऱ्यांनी शाहदरा पोलीस स्टेशनमध्ये वकिलांशी झालेल्या संघर्षानंतर एका एसीपी आणि एका एसएचओच्या बदलीच्या विरोधात आंदोलन केले.",
-    "want": "आंदोलकांनी बदली झालेल्या अधिकाऱ्यांना पुन्हा नियुक्त करण्याची आणि वकिलांशी असलेल्या वादाबाबत कारवाई करण्याची मागणी केली.",
-    "changed": "3 नोव्हेंबर: गृह मंत्रालयाने आंदोलनानंतर असिस्टंट कमिशनर ऑफ पोलीस मनस्वी वशिष्ठ यांना निलंबित केले."
+    "why": "दिल्ली पोलीस कर्मचाऱ्यांनी 23 ऑक्टोबरच्या घटनेनंतर वकिलांशी झालेल्या वादामुळे एका एसीपी आणि एका एसएचओच्या बदलीच्या विरोधात आंदोलन केले.",
+    "want": "आंदोलकांनी अधिकाऱ्यांच्या बदल्या रद्द करण्याची, दोन्ही अधिकाऱ्यांना पुन्हा कामावर घेण्याची आणि संघर्षात सहभागी असलेल्या वकिलांवर कारवाई करण्याची मागणी केली.",
+    "changed": "2 नोव्हेंबर: सुमारे 500 पोलीस कर्मचारी निषेधार्थ मुख्यालयासमोर जमले, त्यानंतर एमएचएने एसीपी मनस्वी वशिष्ठ यांना निलंबित केले."
    },
-   "summary": "दिल्ली पोलिसांच्या सुमारे 100 कर्मचाऱ्यांनी नवी दिल्लीतील जय सिंग रोडवरील मुख्यालयाबाहेर निदर्शने केली. हे आंदोलन असिस्टंट कमिशनर ऑफ पोलीस मनस्वी वशिष्ठ आणि शाहदरा स्टेशन हाऊस ऑफिसर अरुण कुमार यांच्या बदलीमुळे झाले. या बदल्या 23 ऑक्टोबर रोजी शाहदरा पोलीस स्टेशनमध्ये झालेल्या संघर्षानंतर करण्यात आल्या होत्या, ज्यामध्ये एका वकिलाच्या डोक्याला दुखापत झाली होती, ज्यामुळे वकिलांनी संप पुकारला होता आणि अधिकाऱ्यांवर शिस्तभंगाची कारवाई करण्याची मागणी केली होती. आंदोलकांनी घोषणाबाजी केली, फलक झळकावले आणि अधिकाऱ्यांना त्यांच्या जुन्या पदावर परत पाठवण्याची मागणी केली, तसेच पोलीस आणि वकिलांमधील संघर्ष हाताळण्यासाठी मानक कार्यप्रणालीची मागणी केली. पोलीस कमिशनरसह वरिष्ठ अधिकाऱ्यांनी ऑडिटोरियममध्ये कर्मचाऱ्यांशी चर्चा केली. त्यानंतर, गृह मंत्रालयाने शिस्तभंगाच्या कारणास्तव एसीपी वशिष्ठ यांना निलंबित केले.",
+   "summary": "शेकडो दिल्ली पोलीस कर्मचाऱ्यांनी सहाय्यक पोलीस आयुक्त मनस्वी वशिष्ठ आणि एसएचओ इन्स्पेक्टर अरुण कुमार यांच्या बदलीच्या निषेधार्थ नवी दिल्लीतील पोलीस मुख्यालयाच्या बाहेर आणि आत निदर्शने केली. 23 ऑक्टोबर रोजी शाहदरा पोलीस ठाण्यात वकील आणि पोलीस कर्मचारी यांच्यात झालेल्या संघर्षानंतर या बदल्या करण्यात आल्या होत्या, ज्यामध्ये एका वकिलाला कथितपणे डोक्याला गंभीर दुखापत झाली होती. मेसेजिंग ग्रुप्सद्वारे स्वतःहून संघटित होऊन, आंदोलन करणाऱ्या अधिकाऱ्यांनी बदली झालेल्या अधिकाऱ्यांना पुन्हा कामावर घेण्याची, पोलिसांविरुद्ध हिंसाचारात सहभागी असलेल्या व्यक्तींविरुद्ध एफआयआर नोंदवण्याची आणि पोलीस ठाण्यात येणाऱ्या वकिलांसाठी मानक कार्यप्रणाली तयार करण्याची मागणी केली. पोलीस आयुक्त अनुराग कुमार आणि विशेष आयुक्तांनी त्यांच्या तक्रारी ऐकून घेण्यासाठी सभागृहाच्या आत आंदोलनकर्त्यांशी संवाद साधला, तर वरिष्ठ अधिकाऱ्यांनी कर्मचाऱ्यांना विभागीय नियमांचे पालन करण्याचे आवाहन केले.",
    "demands": [
-    "बदली झालेल्या एसीपी आणि एसएचओला त्यांच्या जुन्या पदावर पुन्हा नियुक्त करा",
-    "पोलीस-वकील संघर्ष हाताळण्यासाठी मानक कार्यप्रणाली स्थापित करा",
-    "वकिलांविरुद्ध नोंदवलेले गुन्हे मागे न घेता सुरू ठेवा",
-    "आंदोलनात सहभागी झालेल्या पोलीस कर्मचाऱ्यांवर कोणतीही विभागीय कारवाई करू नका"
+    "बदलीचे आदेश रद्द करा आणि एसीपी मनस्वी वशिष्ठ आणि एसएचओ इन्स्पेक्टर अरुण कुमार यांना पुन्हा कामावर घ्या",
+    "शाहदरा पोलीस ठाण्यातील संघर्षात सहभागी असलेल्या वकिलांवर कारवाई करा",
+    "पोलीस ठाण्यात येणाऱ्या वकिलांसाठी स्पष्ट मानक कार्यप्रणाली स्थापित करा",
+    "वकिलांविरुद्ध नोंदवलेले गुन्हे मागे घेतले जाणार नाहीत याची खात्री करा",
+    "अशा घटना हाताळण्यासाठी पोलीस मुख्यालयात एक समर्पित सेल उपलब्ध करून द्या"
    ],
-   "response": "वरिष्ठ अधिकाऱ्यांनी आंदोलकांना मुख्यालयाच्या आत तक्रारी मांडण्याचे आवाहन केले आणि पोलीस कमिशनर अनुराग कुमार यांनी कर्मचाऱ्यांचे म्हणणे ऐकून घेण्यासाठी ऑडिटोरियममध्ये भेट घेतली. सूत्रांनुसार, गृह मंत्रालयाने नंतर एसीपी वशिष्ठ यांना निलंबित केले.",
+   "response": "पोलीस आयुक्त अनुराग कुमार आणि इतर वरिष्ठ अधिकाऱ्यांनी आंदोलन करणाऱ्या कर्मचाऱ्यांच्या तक्रारी ऐकून घेण्यासाठी मुख्यालयाच्या सभागृहात एक संवाद सत्र आयोजित केले. याव्यतिरिक्त, गृह मंत्रालयाने निदर्शनांचे नेतृत्व केल्याबद्दल शिस्तभंगाच्या कारणास्तव एसीपी मनस्वी वशिष्ठ यांना निलंबित केले.",
    "updates": [
-    "अधिकाऱ्यांच्या बदलीच्या विरोधात सुमारे 100 ते 150 पोलीस कर्मचारी दिल्ली पोलीस मुख्यालयाबाहेर जमा झाले.",
-    "गृह मंत्रालयाने आंदोलनादरम्यान नेतृत्व केल्यामुळे एसीपी मनस्वी वशिष्ठ यांना निलंबित केले."
+    "दिल्ली पोलीस कर्मचाऱ्यांच्या एका गटाने वकिलांशी झालेल्या वादामुळे दोन अधिकाऱ्यांच्या बदलीच्या विरोधात मुख्यालयाबाहेर आंदोलनाची योजना आखली होती.",
+    "सुमारे 100 ते 500 दिल्ली पोलीस कर्मचारी बदली झालेल्या अधिकाऱ्यांना पुन्हा कामावर घेण्याची मागणी करत पोलीस मुख्यालयाच्या बाहेर आणि आत जमले होते.",
+    "पोलीस आयुक्त अनुराग कुमार आणि वरिष्ठ अधिकाऱ्यांनी आंदोलन करणाऱ्या कर्मचाऱ्यांच्या तक्रारी ऐकून घेण्यासाठी मुख्यालयाच्या सभागृहात एक सत्र आयोजित केले.",
+    "गृह मंत्रालयाने निदर्शनांमध्ये सहभाग आणि नेतृत्वामुळे एसीपी मनस्वी वशिष्ठ यांना त्वरित प्रभावाने निलंबित केले.",
+    "इन्स्पेक्टर अरुण कुमार यांना दुसरा बदली आदेश मिळाला, ज्यामध्ये त्यांची सुरक्षा युनिटमधून इंटेलिजन्स फ्यूजन अँड स्ट्रॅटेजिक ऑपरेशन्स शाखेत बदली करण्यात आली."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "सुमारे 100 दिल्ली पोलीस कर्मचारी"
+    "crowd": "जेव्हा बैठक बोलावली गेली, तेव्हा संख्या सुमारे 500 पर्यंत वाढली."
    }
   },
   "es": {
    "title": "Personal de la policía de Delhi protesta en la sede por el traslado de oficiales",
-   "seoTitle": "Protesta de la policía de Delhi por traslados",
+   "seoTitle": "Policía de Delhi protesta por traslado de oficiales",
    "tea": {
-    "why": "Personal de la Policía de Delhi protestó contra el traslado de un ACP y un SHO tras un enfrentamiento con abogados en la comisaría de Shahdara.",
-    "want": "Los manifestantes exigieron la restitución de los oficiales trasladados y medidas respecto a las disputas con los abogados.",
-    "changed": "3 de noviembre: El Ministerio del Interior suspendió al Comisionado Adjunto de Policía Manasvi Vashistha tras la protesta."
+    "why": "El personal de la Policía de Delhi protestó contra el traslado de un ACP y un SHO tras un enfrentamiento con abogados por un incidente el 23 de octubre.",
+    "want": "Los manifestantes exigieron la revocación de los traslados de los oficiales, la restitución de ambos oficiales y medidas contra los abogados involucrados en la confrontación.",
+    "changed": "2 de noviembre: Cerca de 500 policías se reunieron en la sede en protesta, lo que llevó a la posterior suspensión del ACP Manasvi Vashistha por parte del MHA."
    },
-   "summary": "Alrededor de cien miembros de la Policía de Delhi organizaron una manifestación frente a la sede de la fuerza en Jai Singh Road, Nueva Delhi. La protesta fue provocada por el traslado del Comisionado Adjunto de Policía Manasvi Vashistha y del Oficial de la Estación de Shahdara, Arun Kumar. Estos traslados siguieron a un enfrentamiento previo en la comisaría de Shahdara el 23 de octubre, donde un abogado sufrió una lesión en la cabeza, lo que provocó una huelga de abogados y presión posterior para tomar medidas disciplinarias contra los oficiales. Los manifestantes corearon consignas, portaron pancartas y exigieron que los oficiales fueran devueltos a sus puestos anteriores, además de pedir procedimientos operativos estándar para manejar los conflictos entre la policía y los abogados. Altos funcionarios, incluido el Comisionado de Policía, mantuvieron conversaciones con el personal dentro del auditorio. Posteriormente, el Ministerio del Interior suspendió al ACP Vashistha por motivos disciplinarios.",
+   "summary": "Cientos de miembros de la Policía de Delhi realizaron una manifestación fuera y dentro de la sede de la fuerza en Nueva Delhi para protestar por el traslado del Comisionado Adjunto de Policía Manasvi Vashistha y del inspector SHO Arun Kumar. Los traslados siguieron a un enfrentamiento el 23 de octubre en la comisaría de Shahdara que involucró a abogados y personal policial después de que un abogado supuestamente sufriera una lesión grave en la cabeza. Organizados orgánicamente a través de grupos de mensajería, los oficiales manifestantes exigieron la restitución de los oficiales trasladados, el registro de FIR contra personas involucradas en violencia contra la policía y la creación de procedimientos operativos estándar para manejar a los abogados que ingresan a las comisarías. El Comisionado de Policía Anurag Kumar y los Comisionados Especiales se dirigieron a la reunión dentro del auditorio para escuchar sus quejas, mientras que los oficiales superiores instaron al personal a seguir los canales departamentales.",
    "demands": [
-    "Restituir al ACP y al SHO trasladados a sus puestos anteriores",
-    "Establecer un procedimiento operativo estándar para abordar los enfrentamientos entre policía y abogados",
-    "Mantener activos los casos registrados contra abogados sin retirarlos",
-    "No tomar medidas departamentales contra el personal policial que participó en la protesta"
+    "Cancelar las órdenes de traslado y restituir al ACP Manasvi Vashistha y al inspector SHO Arun Kumar",
+    "Tomar medidas contra los abogados involucrados en la confrontación en la comisaría de Shahdara",
+    "Establecer un procedimiento operativo estándar claro para los abogados que ingresan a las comisarías",
+    "Asegurar que los casos registrados contra abogados no sean retirados",
+    "Proporcionar una unidad dedicada en la sede de la policía para abordar tales incidentes"
    ],
-   "response": "Altos oficiales instaron a los manifestantes a presentar sus quejas dentro de la sede, y el Comisionado de Policía Anurag Kumar se reunió con el personal en un auditorio para escuchar sus preocupaciones. Según fuentes, el Ministerio del Interior suspendió más tarde al ACP Vashistha.",
+   "response": "El Comisionado de Policía Anurag Kumar y otros oficiales superiores llevaron a cabo una sesión interactiva con el personal manifestante dentro del auditorio de la sede para escuchar sus preocupaciones. Además, el Ministerio del Interior suspendió al ACP Manasvi Vashistha por motivos disciplinarios por liderar la manifestación.",
    "updates": [
-    "Alrededor de 100 a 150 miembros de la policía se reunieron fuera de la sede de la Policía de Delhi para protestar por el traslado de oficiales.",
-    "El Ministerio del Interior suspendió al ACP Manasvi Vashistha tras su liderazgo durante la protesta."
+    "Una sección del personal de la Policía de Delhi planeó una protesta fuera de la sede contra el traslado de dos oficiales tras un enfrentamiento con abogados.",
+    "Cerca de 100 a 500 miembros de la Policía de Delhi se reunieron fuera y dentro de la sede policial exigiendo la restitución de los oficiales trasladados.",
+    "El Comisionado de Policía Anurag Kumar y oficiales superiores llevaron a cabo una sesión dentro del auditorio de la sede para escuchar las quejas del personal manifestante.",
+    "El Ministerio del Interior suspendió al ACP Manasvi Vashistha con efecto inmediato debido a su participación y liderazgo en la manifestación.",
+    "El inspector Arun Kumar recibió una segunda orden de traslado moviéndolo de la Unidad de Seguridad a la rama de Operaciones Estratégicas y Fusión de Inteligencia."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Alrededor de 100 miembros de la Policía de Delhi"
+    "crowd": "cuando se convocó la reunión, el número aumentó a cerca de 500."
    }
   },
   "fr": {
    "title": "Le personnel de la police de Delhi manifeste au siège contre le transfert d'officiers",
-   "seoTitle": "Manifestation de la police de Delhi pour des transferts",
+   "seoTitle": "La police de Delhi manifeste contre le transfert d'officiers",
    "tea": {
-    "why": "Le personnel de la police de Delhi a manifesté contre le transfert d'un ACP et d'un SHO à la suite d'une confrontation avec des avocats au commissariat de Shahdara.",
-    "want": "Les manifestants ont exigé la réintégration des officiers transférés et des mesures concernant les différends avec les avocats.",
-    "changed": "3 novembre : Le ministère de l'Intérieur a suspendu le commissaire adjoint de police Manasvi Vashistha à la suite de la manifestation."
+    "why": "Le personnel de la police de Delhi a manifesté contre le transfert d'un ACP et d'un SHO à la suite d'un affrontement avec des avocats lors d'un incident le 23 octobre.",
+    "want": "Les manifestants ont exigé l'annulation des transferts des officiers, la réintégration des deux officiers et des mesures contre les avocats impliqués dans la confrontation.",
+    "changed": "2 novembre : Environ 500 policiers se sont rassemblés au siège en signe de protestation, ce qui a conduit à la suspension ultérieure de l'ACP Manasvi Vashistha par le MHA."
    },
-   "summary": "Environ une centaine de membres de la police de Delhi ont organisé une manifestation devant le siège de la force sur Jai Singh Road à New Delhi. La manifestation a été déclenchée par le transfert du commissaire adjoint de police Manasvi Vashistha et de l'officier de la station de Shahdara, Arun Kumar. Ces transferts ont fait suite à un affrontement précédent au commissariat de Shahdara le 23 octobre, où un avocat a subi une blessure à la tête, menant à une grève des avocats et à une pression ultérieure pour des mesures disciplinaires contre les officiers. Les manifestants ont scandé des slogans, porté des pancartes et exigé que les officiers soient réintégrés à leurs postes précédents, tout en appelant à des procédures opérationnelles standard pour gérer les conflits entre la police et les avocats. Des hauts fonctionnaires, dont le commissaire de police, ont tenu des discussions avec le personnel à l'intérieur de l'auditorium. Par la suite, le ministère de l'Intérieur a suspendu l'ACP Vashistha pour des raisons disciplinaires.",
+   "summary": "Des centaines de membres de la police de Delhi ont organisé une manifestation à l'extérieur et à l'intérieur du siège de la force à New Delhi pour protester contre le transfert du commissaire adjoint de police Manasvi Vashistha et de l'inspecteur SHO Arun Kumar. Les transferts ont fait suite à un affrontement le 23 octobre au poste de police de Shahdara impliquant des avocats et du personnel policier après qu'un avocat ait prétendument subi une grave blessure à la tête. Organisés organiquement via des groupes de messagerie, les officiers manifestants ont exigé la réintégration des officiers transférés, l'enregistrement de FIR contre les individus impliqués dans la violence contre la police et la création de procédures opérationnelles standard pour gérer les avocats entrant dans les postes de police. Le commissaire de police Anurag Kumar et les commissaires spéciaux se sont adressés au rassemblement à l'intérieur de l'auditorium pour entendre leurs griefs, tandis que les officiers supérieurs ont exhorté le personnel à suivre les canaux départementaux.",
    "demands": [
-    "Réintégrer l'ACP et le SHO transférés à leurs postes précédents",
-    "Établir une procédure opérationnelle standard pour traiter les confrontations entre la police et les avocats",
-    "Maintenir les dossiers enregistrés contre les avocats sans retrait",
-    "Ne prendre aucune mesure départementale contre le personnel de police ayant participé à la manifestation"
+    "Annuler les ordres de transfert et réintégrer l'ACP Manasvi Vashistha et l'inspecteur SHO Arun Kumar",
+    "Prendre des mesures contre les avocats impliqués dans la confrontation au poste de police de Shahdara",
+    "Établir une procédure opérationnelle standard claire pour les avocats entrant dans les postes de police",
+    "S'assurer que les dossiers enregistrés contre les avocats ne sont pas retirés",
+    "Fournir une cellule dédiée au siège de la police pour traiter de tels incidents"
    ],
-   "response": "Des officiers supérieurs ont exhorté les manifestants à soulever leurs griefs à l'intérieur du siège, et le commissaire de police Anurag Kumar a rencontré le personnel dans un auditorium pour entendre leurs préoccupations. Selon des sources, le ministère de l'Intérieur a plus tard suspendu l'ACP Vashistha.",
+   "response": "Le commissaire de police Anurag Kumar et d'autres officiers supérieurs ont tenu une session interactive avec le personnel manifestant à l'intérieur de l'auditorium du siège pour entendre leurs préoccupations. De plus, le ministère de l'Intérieur a suspendu l'ACP Manasvi Vashistha pour des raisons disciplinaires pour avoir dirigé la manifestation.",
    "updates": [
-    "Environ 100 à 150 membres de la police se sont rassemblés devant le siège de la police de Delhi pour protester contre le transfert d'officiers.",
-    "Le ministère de l'Intérieur a suspendu l'ACP Manasvi Vashistha suite à son leadership pendant la manifestation."
+    "Une section du personnel de la police de Delhi a prévu une manifestation devant le siège contre le transfert de deux officiers à la suite d'un affrontement avec des avocats.",
+    "Environ 100 à 500 membres de la police de Delhi se sont rassemblés à l'extérieur et à l'intérieur du siège de la police pour exiger la réintégration des officiers transférés.",
+    "Le commissaire de police Anurag Kumar et des officiers supérieurs ont tenu une session à l'intérieur de l'auditorium du siège pour entendre les griefs du personnel manifestant.",
+    "Le ministère de l'Intérieur a suspendu l'ACP Manasvi Vashistha avec effet immédiat en raison de sa participation et de son leadership dans la manifestation.",
+    "L'inspecteur Arun Kumar a reçu un deuxième ordre de transfert le déplaçant de l'unité de sécurité vers la branche des opérations stratégiques et de fusion du renseignement."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Environ 100 membres de la police de Delhi"
+    "crowd": "lorsque la réunion a été convoquée, le nombre a atteint environ 500."
    }
   },
   "de": {
    "title": "Polizeipersonal in Delhi protestiert am Hauptquartier gegen Versetzungen von Beamten",
-   "seoTitle": "Polizeiprotest in Delhi gegen Versetzungen",
+   "seoTitle": "Polizei in Delhi protestiert gegen Versetzungen",
    "tea": {
-    "why": "Polizeipersonal in Delhi protestierte gegen die Versetzung eines ACP und eines SHO nach einer Konfrontation mit Anwälten auf der Polizeistation Shahdara.",
-    "want": "Die Demonstranten forderten die Wiedereinsetzung der versetzten Beamten und Maßnahmen bezüglich der Streitigkeiten mit Anwälten.",
-    "changed": "3. November: Das Innenministerium suspendierte den stellvertretenden Polizeikommissar Manasvi Vashistha nach dem Protest."
+    "why": "Das Personal der Polizei von Delhi protestierte gegen die Versetzung eines ACP und eines SHO nach einer Konfrontation mit Anwälten bei einem Vorfall am 23. Oktober.",
+    "want": "Die Demonstranten forderten die Rücknahme der Versetzungen, die Wiedereinsetzung beider Beamten und Maßnahmen gegen die an der Konfrontation beteiligten Anwälte.",
+    "changed": "2. November: Etwa 500 Polizeibeamte versammelten sich aus Protest am Hauptquartier, was zur anschließenden Suspendierung von ACP Manasvi Vashistha durch das MHA führte."
    },
-   "summary": "Etwa einhundert Polizeibeamte aus Delhi demonstrierten vor dem Hauptquartier der Truppe an der Jai Singh Road in Neu-Delhi. Der Protest wurde durch die Versetzung des stellvertretenden Polizeikommissars Manasvi Vashistha und des Stationsleiters von Shahdara, Arun Kumar, ausgelöst. Diese Versetzungen folgten auf einen früheren Zusammenstoß auf der Polizeistation Shahdara am 23. Oktober, bei dem ein Anwalt eine Kopfverletzung erlitt, was zu einem Anwaltsstreik und anschließendem Druck auf disziplinarische Maßnahmen gegen die Beamten führte. Die Demonstranten skandierten Slogans, trugen Plakate und forderten die Rückkehr der Beamten auf ihre früheren Posten sowie die Einführung von Standardarbeitsabläufen zur Bewältigung von Konflikten zwischen Polizei und Anwälten. Höhere Beamte, einschließlich des Polizeikommissars, führten Gespräche mit dem Personal im Auditorium. In der Folge suspendierte das Innenministerium ACP Vashistha aus disziplinarischen Gründen.",
+   "summary": "Hunderte Polizeibeamte aus Delhi demonstrierten vor und im Hauptquartier der Truppe in Neu-Delhi, um gegen die Versetzung des stellvertretenden Polizeikommissars Manasvi Vashistha und des SHO-Inspektors Arun Kumar zu protestieren. Die Versetzungen folgten auf einen Zusammenstoß am 23. Oktober auf der Polizeistation Shahdara, an dem Anwälte und Polizeipersonal beteiligt waren, nachdem ein Anwalt angeblich eine schwere Kopfverletzung erlitten hatte. Die protestierenden Beamten, die sich organisch über Messaging-Gruppen organisiert hatten, forderten die Wiedereinsetzung der versetzten Beamten, die Registrierung von FIRs gegen Personen, die an Gewalt gegen die Polizei beteiligt waren, und die Schaffung von Standardarbeitsabläufen für den Umgang mit Anwälten, die Polizeistationen betreten. Polizeikommissar Anurag Kumar und Sonderkommissare sprachen im Auditorium zu der Versammlung, um ihre Beschwerden anzuhören, während leitende Beamte das Personal aufforderten, die Dienstwege einzuhalten.",
    "demands": [
-    "Die versetzten ACP und SHO auf ihre früheren Posten zurückversetzen",
-    "Ein Standardarbeitsverfahren zur Bewältigung von Konfrontationen zwischen Polizei und Anwälten etablieren",
-    "Gegen Anwälte registrierte Fälle ohne Rückzug aktiv halten",
-    "Keine disziplinarischen Maßnahmen gegen Polizeipersonal ergreifen, das am Protest teilgenommen hat"
+    "Die Versetzungsbefehle stornieren und ACP Manasvi Vashistha sowie SHO-Inspektor Arun Kumar wieder einsetzen",
+    "Maßnahmen gegen die Anwälte ergreifen, die an der Konfrontation auf der Polizeistation Shahdara beteiligt waren",
+    "Ein klares Standardarbeitsverfahren für Anwälte festlegen, die Polizeistationen betreten",
+    "Sicherstellen, dass gegen Anwälte registrierte Fälle nicht zurückgezogen werden",
+    "Eine dedizierte Zelle im Polizeihauptquartier bereitstellen, um solche Vorfälle zu bearbeiten"
    ],
-   "response": "Höhere Beamte forderten die Demonstranten auf, ihre Beschwerden innerhalb des Hauptquartiers vorzubringen, und Polizeikommissar Anurag Kumar traf sich mit dem Personal in einem Auditorium, um ihre Bedenken anzuhören. Quellen zufolge suspendierte das Innenministerium später ACP Vashistha.",
+   "response": "Polizeikommissar Anurag Kumar und andere leitende Beamte hielten eine interaktive Sitzung mit dem protestierenden Personal im Auditorium des Hauptquartiers ab, um ihre Bedenken anzuhören. Darüber hinaus suspendierte das Innenministerium ACP Manasvi Vashistha aus disziplinarischen Gründen, weil er die Demonstration angeführt hatte.",
    "updates": [
-    "Etwa 100 bis 150 Polizeibeamte versammelten sich vor dem Hauptquartier der Polizei von Delhi, um gegen die Versetzung von Beamten zu protestieren.",
-    "Das Innenministerium suspendierte ACP Manasvi Vashistha nach seiner Führung während des Protests."
+    "Ein Teil des Personals der Polizei von Delhi plante eine Protestaktion vor dem Hauptquartier gegen die Versetzung von zwei Beamten nach einer Konfrontation mit Anwälten.",
+    "Etwa 100 bis 500 Polizeibeamte aus Delhi versammelten sich vor und im Polizeihauptquartier und forderten die Wiedereinsetzung der versetzten Beamten.",
+    "Polizeikommissar Anurag Kumar und leitende Beamte hielten eine Sitzung im Auditorium des Hauptquartiers ab, um die Beschwerden des protestierenden Personals anzuhören.",
+    "Das Innenministerium suspendierte ACP Manasvi Vashistha mit sofortiger Wirkung aufgrund seiner Teilnahme und Führung bei der Demonstration.",
+    "Inspektor Arun Kumar erhielt einen zweiten Versetzungsbefehl, der ihn von der Sicherheitseinheit in die Abteilung für Geheimdienstfusion und strategische Operationen versetzte."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Etwa 100 Polizeibeamte aus Delhi"
+    "crowd": "als die Sitzung einberufen wurde, stieg die Zahl auf etwa 500."
    }
   }
  },
