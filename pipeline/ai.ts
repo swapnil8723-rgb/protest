@@ -60,9 +60,9 @@ export function makeAi(state: State): Ai {
 
   let lastCall = 0;
   const pace = async (ms: number) => {
-    const wait = lastCall + ms - Date.now();
-    if (wait > 0) await sleep(wait);
-    lastCall = Date.now();
+    const now = Date.now();
+    lastCall = Math.max(now, lastCall + ms); // reserve a slot first: calls can wait side by side
+    if (lastCall > now) await sleep(lastCall - now);
   };
 
   // Best free-tier model first; when its daily quota runs out (or Google retires it) the run

@@ -159,6 +159,7 @@ export interface ProtestEvent {
 
 export interface State {
   gdeltCursor?: string; // YYYYMMDDHHMMSS of the last 15-min file processed
+  swept?: Record<string, string>; // Google News links the sweep already looked at → when (sweep.ts)
   aiCalls: { day: string; count: number };
   telegramOffset?: number;
   lastRunAt?: string;

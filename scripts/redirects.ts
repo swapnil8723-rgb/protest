@@ -75,7 +75,7 @@ export function mergedRedirects(events: Map<string, ProtestEvent>, langs: readon
     for (let hops = 0; keep?.mergedInto && hops < 10; hops++) keep = events.get(keep.mergedInto);
     if (keep?.slug === e.slug) continue;
     const shown = keep && !keep.mergedInto && !keep.withdrawn && keep.published && keep.slug && (keep.stage === 'live' || keep.origin === 'reader');
-    const to = shown ? `/p/${keep.slug}` : `/country/${countrySlug(e.place.country)}`;
+    const to = shown ? `/p/${keep!.slug}` : `/country/${countrySlug(e.place.country)}`;
     out.push(
       { source: `/p/${e.slug}`, destination: to, permanent: true },
       { source: `/:lang(${langs.join('|')})/p/${e.slug}`, destination: `/:lang${to}`, permanent: true },

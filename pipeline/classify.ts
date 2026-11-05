@@ -6,7 +6,7 @@ import { OverBudget, Pending } from './ai.ts';
 import type { Page } from './article.ts';
 import { byIso, CAUSES, LIMITS } from './config.ts';
 import { findSimilar, newEvent } from './events.ts';
-import { resolvePlace } from './geo.ts';
+import { mainPlace, resolvePlace } from './geo.ts';
 import { classifyPrompt, classifySchema, SYSTEM, type ClassifyOut, type KnownEvent } from './prompts.ts';
 import type { Article, ProtestEvent } from './types.ts';
 import { daysBetween, hoursSince, nowIso, sha } from './util.ts';
@@ -97,7 +97,7 @@ export async function classify(
         cls.reason = 'started more than 120 days ago';
         continue;
       }
-      const place = resolvePlace(cls.city, cls.region, cls.country);
+      const place = cls.city ? resolvePlace(cls.city, cls.region, cls.country) : mainPlace(cls.region, cls.country);
       if (!place) {
         cls.isProtest = false;
         cls.reason = `place not resolved: ${cls.city ?? '?'}, ${cls.region ?? '?'}`;

@@ -57,7 +57,7 @@ Give not_reason in ≤ 8 words when false.
 
 When true:
 - story_label: neutral "who + action + about what", ≤ 70 chars, e.g. "Opposition march against Chief Election Commissioner".
-- city / region / country: where the protest physically happened (country as iso2 code from the list). For a village use the nearest town or district headquarters. For protests in many cities, the main city the article focuses on. Use null if the article does not say where.
+- city / region / country: where the protest physically happened (country as iso2 code from the list). For a village use the nearest town or district headquarters. For protests in many cities, the main city the article focuses on; for a nationwide action with no main city, the capital. Hong Kong and Macau are country cn. Use null if the article does not say where.
 - date: YYYY-MM-DD the action happened or starts.
 - causes: 1–3 from ${causeList}.
 - match_event_id: the id of a KNOWN EVENT below if this article is about the same protest (same place, same campaign, same or continuing dates). Otherwise null. Clashes, arrests, injuries or looting that came out of a known protest, and its later days, belong to that known event even when the headline only mentions the clashes.
@@ -164,7 +164,7 @@ Below are numbered news sources. Write the event card for this ONE protest.
 - organizers: organisations, unions, parties or named public leaders — never private individuals. [] if not stated.
 - demands: up to 5 short items as the protesters state them.
 - response: the government/police/authority response in ≤ 300 chars with attribution, or "No official response reported in the sources." response_sources: numbers.
-- crowd / arrests (include detentions) / injuries / deaths: only if a source states a number. value = the number as stated (lower bound for "over 5,000" → 5000); text = how it was phrased with attribution; sources = numbers. null if not stated.
+- crowd / arrests (include detentions) / injuries / deaths: only if a source states a number. value = the number as stated (lower bound for "over 5,000" → 5000). If sources give several counts, use the largest total for the whole protest that a source states, not one officer or an early count; text = how it was phrased with attribution; sources = numbers. null if not stated.
 - serious_injuries: true only if sources report serious/critical injuries or hospitalisation.
 - sensitive: true if the protest is ABOUT a death, suicide, sexual violence, or violence against a child (even if the protest itself was calm). Such cards are shown without playful styling.
 - updates: up to 8 dated developments, oldest first, each ≤ 160 chars, each with source numbers.

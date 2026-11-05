@@ -67,6 +67,8 @@ const BLOCKED_PUBLISHERS = new Set([
   'rt.com', 'sputnikglobe.com', 'sputniknews.com', 'globalresearch.ca', 'mintpressnews.com',
   // Iranian state TV and party papers (two of the four sources on the Vienna card, Oct 2026)
   'presstv.ir', 'presstv.co.uk', 'presstv.com', 'wsws.org', 'marxist.com',
+  // China's and Belarus's state outlets (added with those countries, Nov 2026): the government's side comes via independent newsrooms
+  'globaltimes.cn', 'cgtn.com', 'xinhuanet.com', 'news.cn', 'chinadaily.com.cn', 'people.com.cn', 'sb.by', 'belta.by',
 ]);
 
 export function hostOf(url: string): string {
@@ -152,15 +154,21 @@ export function daysBetween(a: string, b: string): number {
  *  Deliberately broad and multilingual; the classify step does the real judging. */
 export const PROTEST_WORDS = new RegExp(
   [
-    'protest', 'demonstrat', 'rally', 'rallies', 'march(?:ed|es|ers)?\\b', 'strike', 'walkout', 'walk-out', 'sit-in',
+    'protest', 'demonstr', 'rally', 'rallies', 'march(?:ed|es|ers)?\\b', 'strike', 'walkout', 'walk-out', 'sit-in',
     'dharna', 'agitat', 'bandh', 'hartal', 'gherao', 'blockade', 'block(?:ed|ing)? (?:road|highway|rail)', 'picket',
     'hunger strike', 'boycott', 'riot', 'unrest', 'clash', 'stir\\b', 'andolan', 'morcha', 'chakka jam', 'rail roko',
     'rasta roko', 'candle(?:light)? march', 'shutdown', 'occupy', 'encampment', 'vigil', 'uprising',
     // fr / es / de / nl / id
-    'manifest', 'grève', 'greve', 'mobilisation', 'huelga', 'protesta', 'concentraci', 'kundgebung', 'streik',
-    'demo\\b', 'betoging', 'stakingen', 'staakt', 'unjuk rasa', 'demonstrasi', 'aksi massa', 'mogok',
+    'manifest', 'grève', 'mobilisation', 'huelga', 'protesta', 'concentraci', 'kundgebung', 'streik',
+    'demo\\b', 'betoging', 'staking', 'staakt', 'unjuk rasa', 'demonstrasi', 'aksi massa', 'mogok',
+    // the rest of Europe (added Nov 2026: without these a Polish, Italian or Greek story never reached the AI)
+    'scioper', 'corteo', 'concentraç', 'strajk', 'pikiet', 'tüntet', 'sztrájk', 'stávk', 'štrajk', 'prosvjed', 'stavka', 'strejk', 'lakko', 'mielenosoitu', 'meeleavaldus', 'mótmæl', '\\bgrev[aeyă]?s?\\b', '\\bmiting', '\\beylem',
+    // el / ru / uk / bg / mk (Cyrillic and Greek: no \\b, it only works on Latin letters)
+    'διαδήλω', 'απεργ', 'κινητοποίησ', 'протест', 'митинг', 'мітинг', 'забастов', 'страйк', 'стачк', 'демонстрац',
     // ja (no \b: word boundaries don't work in Japanese script)
     'デモ', '抗議集会', '抗議活動', '集会', 'ストライキ', '座り込み',
+    // zh (simplified and traditional)
+    '抗议', '抗議', '示威', '游行', '遊行', '罢工', '罷工', '维权', '維權', '集會', '静坐', '靜坐',
   ].join('|'),
   'i',
 );

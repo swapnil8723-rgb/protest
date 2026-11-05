@@ -87,7 +87,7 @@ export function inCountry(iso: string, lang: Lang, fallback: string): string {
   switch (lang) {
     case 'en': return ['us', 'gb', 'nl'].includes(iso) ? `in the ${name}` : `in ${name}`;
     case 'es': return `en ${name}`;
-    case 'fr': return ({ us: 'aux États-Unis', gb: 'au Royaume-Uni', pk: 'au Pakistan', bd: 'au Bangladesh', np: 'au Népal', ke: 'au Kenya', nl: 'aux Pays-Bas', pt: 'au Portugal', dk: 'au Danemark', me: 'au Monténégro', cy: 'à Chypre', lb: 'au Liban', ma: 'au Maroc', ca: 'au Canada', jp: 'au Japon' } as Record<string, string>)[iso] ?? `en ${name}`;
+    case 'fr': return ({ us: 'aux États-Unis', gb: 'au Royaume-Uni', pk: 'au Pakistan', bd: 'au Bangladesh', np: 'au Népal', ke: 'au Kenya', nl: 'aux Pays-Bas', pt: 'au Portugal', dk: 'au Danemark', me: 'au Monténégro', cy: 'à Chypre', lb: 'au Liban', ma: 'au Maroc', ca: 'au Canada', jp: 'au Japon', lu: 'au Luxembourg', mt: 'à Malte' } as Record<string, string>)[iso] ?? `en ${name}`;
     case 'de': return ({ us: 'in den USA', gb: 'im Vereinigten Königreich', nl: 'in den Niederlanden', ch: 'in der Schweiz', tr: 'in der Türkei', ua: 'in der Ukraine', sk: 'in der Slowakei', md: 'in der Republik Moldau', lb: 'im Libanon', iq: 'im Irak', ir: 'im Iran' } as Record<string, string>)[iso] ?? `in ${name}`;
     case 'hi': return `${name} में`;
     case 'mr': return `${name} मध्ये`;

@@ -72,12 +72,17 @@ const BBOX: Record<string, [number, number, number, number]> = {
   au: [112.9, -43.8, 153.7, -10.6], // mainland and Tasmania
   nz: [166.3, -47.4, 178.6, -34.3],
   jp: [126.5, 24.0, 146.0, 45.6], // the four main islands and Okinawa
+  cn: [73.5, 18.0, 135.1, 53.6],
+  by: [23.1, 51.2, 32.8, 56.2],
+  lu: [5.7, 49.4, 6.6, 50.2],
+  mt: [14.1, 35.8, 14.6, 36.1],
+  is: [-24.6, 63.3, -13.4, 66.6],
   europe: [-10.5, 34.5, 45.0, 64.0], // hub map: Lisbon to the Caucasus
   'middle-east': [-13.0, 21.0, 63.5, 42.5], // hub map: Morocco to Iran
 };
 
 /** Hub maps highlight a group of countries instead of one. */
-const GROUPS: Record<string, string[]> = { europe: EUROPE, 'middle-east': MIDDLE_EAST };
+const GROUPS: Record<string, string[]> = { europe: EUROPE, 'middle-east': MIDDLE_EAST, cn: ['cn', 'hk', 'mo'] };
 
 export const MAP_W = 640;
 export const MAP_H = 440;

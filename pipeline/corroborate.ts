@@ -34,13 +34,13 @@ export interface Lead {
 }
 
 const words = (s: string) => new Set(s.toLowerCase().match(/[\p{L}\p{N}]{4,}/gu)?.filter((w) => !STOP.has(w)) ?? []);
-const get = (url: string, init: RequestInit = {}) =>
+export const get = (url: string, init: RequestInit = {}) =>
   fetch(url, { ...init, headers: { 'user-agent': UA, ...init.headers }, signal: AbortSignal.timeout(10000) });
 
-class Blocked extends Error {}
+export class Blocked extends Error {}
 
 /** news.google.com/rss/articles/<id> → the publisher's own URL (two requests). */
-async function decode(link: string): Promise<string | undefined> {
+export async function decode(link: string): Promise<string | undefined> {
   const id = new URL(link).pathname.split('/').pop()!;
   const res = await get(`https://news.google.com/rss/articles/${id}`);
   if (res.status === 429) throw new Blocked();

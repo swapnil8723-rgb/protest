@@ -12,6 +12,7 @@ import { corroborate } from './corroborate.ts';
 import { discoverDays, discoverRecent, type GdeltHit } from './gdelt.ts';
 import { discoverRss, type RssItem } from './rss.ts';
 import { score } from './score.ts';
+import { sweep, titleKey } from './sweep.ts';
 import { loadArticles, loadEvents, loadState, saveArticles, saveEvents, saveState, writeChanged } from './store.ts';
 import { reserveSlugs, summarize, visible } from './summarize.ts';
 import { fileInbox, httpInbox, processReaderReports, scoreReaders } from './reader.ts';
@@ -130,6 +131,20 @@ try {
         }
       } catch (e) {
         log(`search: ${(e as Error).message}`);
+      }
+      // Country-by-country search in the local language (never fatal to the run).
+      try {
+        const known = new Set<string>();
+        for (const a of articles.values()) if (a.title) known.add(titleKey(a.title));
+        state.swept ??= {};
+        for (const l of await sweep(known, state.swept, log, { max: LIMITS.sweepPerRun, budgetMs: LIMITS.sweepSeconds * 1000 })) {
+          const url = cleanUrl(l.url);
+          if (articles.has(url)) continue;
+          articles.set(url, { url, publisher: hostOf(url), via: 'search', firstSeenAt: nowIso(), title: l.title, publishedAt: l.publishedAt, fetch: 'new' });
+          run.discovered++;
+        }
+      } catch (e) {
+        log(`sweep: ${(e as Error).message}`);
       }
     }
   }

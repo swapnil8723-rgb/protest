@@ -70,8 +70,10 @@ export function score(events: Map<string, ProtestEvent>, articles: Map<string, A
     // Severity → Serious Mode
     const deaths = e.numbers.deaths?.value ?? 0;
     const arrests = e.numbers.arrests?.value ?? 0;
+    const injuries = e.numbers.injuries?.value ?? 0;
     // Serious Mode: harm at the protest, mass arrests, or a protest about a death / sexual violence.
-    e.severity = deaths > 0 || e.seriousInjuries || arrests >= RULES.massArrests || e.sensitive ? 'serious' : 'normal';
+    // The count is a backstop: the AI's serious_injuries flag once missed 100 injured in Frankfurt.
+    e.severity = deaths > 0 || e.seriousInjuries || injuries >= RULES.massInjuries || arrests >= RULES.massArrests || e.sensitive ? 'serious' : 'normal';
     e.confidence = confidence(e);
     e.lastCheckedAt = new Date(now).toISOString();
   }

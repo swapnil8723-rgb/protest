@@ -68,6 +68,25 @@ function fuzzy(cc: string, key: string, reg: string) {
   return hits.length === 1 ? hits : undefined; // ambiguous → refuse
 }
 
+// A nationwide story pins on the capital where that isn't the largest city.
+const CAPITALS: Record<string, string> = { nl: 'amsterdam', mt: 'valletta', sy: 'damascus', in: 'delhi', us: 'washington', ca: 'ottawa', cn: 'beijing', au: 'canberra', nz: 'wellington', tr: 'ankara', ch: 'bern', pk: 'islamabad', ma: 'rabat' };
+
+/** Where a story with no city sits: the largest city of its region if it names one, else the
+ *  country's capital. 115 of 164 stories dropped as "place not resolved" (Oct 2026) were
+ *  nationwide ones like "Train drivers strike across Spain". */
+export function mainPlace(region: string | undefined, country: string | undefined): Place | null {
+  load();
+  const cc = (country || '').toLowerCase();
+  const g = gaz![cc];
+  if (!g) return null;
+  const reg = norm(region || '');
+  const inRegion = reg ? g.cities.find((row) => {
+    const r = norm(g.admin1[row[1]] ?? '');
+    return r && (r === reg || r.includes(reg) || reg.includes(r));
+  }) : undefined;
+  return resolvePlace(inRegion?.[0] ?? CAPITALS[cc] ?? g.cities[0]?.[0], inRegion ? g.admin1[inRegion[1]] : undefined, cc);
+}
+
 export function resolvePlace(city: string | undefined, region: string | undefined, country: string | undefined): Place | null {
   load();
   const cc = (country || '').toLowerCase();

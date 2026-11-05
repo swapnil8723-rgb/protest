@@ -60,6 +60,11 @@ export const COUNTRIES: Country[] = [
   { iso: 'cy', fips: 'CY', name: 'Cyprus', slug: 'cyprus', tz: 'Asia/Nicosia' },
   { iso: 'am', fips: 'AM', name: 'Armenia', slug: 'armenia', tz: 'Asia/Yerevan' },
   { iso: 'az', fips: 'AJ', name: 'Azerbaijan', slug: 'azerbaijan', tz: 'Asia/Baku' },
+  // The rest of Europe (added 5 Nov 2026, owner's request; Kosovo stays out, see CLAUDE.md)
+  { iso: 'by', fips: 'BO', name: 'Belarus', slug: 'belarus', tz: 'Europe/Minsk' },
+  { iso: 'lu', fips: 'LU', name: 'Luxembourg', slug: 'luxembourg', tz: 'Europe/Luxembourg' },
+  { iso: 'mt', fips: 'MT', name: 'Malta', slug: 'malta', tz: 'Europe/Malta' },
+  { iso: 'is', fips: 'IC', name: 'Iceland', slug: 'iceland', tz: 'Atlantic/Reykjavik' },
   // Middle East & North Africa (added 24 Oct 2026)
   { iso: 'il', fips: 'IS', name: 'Israel', slug: 'israel', tz: 'Asia/Jerusalem' },
   { iso: 'ps', fips: 'WE', fipsAlt: ['GZ'], name: 'Palestine', slug: 'palestine', tz: 'Asia/Hebron' },
@@ -78,11 +83,13 @@ export const COUNTRIES: Country[] = [
   { iso: 'nz', fips: 'NZ', name: 'New Zealand', slug: 'new-zealand', tz: 'Pacific/Auckland' },
   // East Asia (added 31 Oct 2026, owner's request)
   { iso: 'jp', fips: 'JA', name: 'Japan', slug: 'japan', tz: 'Asia/Tokyo' },
+  // China with Hong Kong and Macau (added 5 Nov 2026, owner's request: readers there). Taiwan is left out, like Kosovo.
+  { iso: 'cn', fips: 'CH', fipsAlt: ['HK', 'MC'], name: 'China', slug: 'china', tz: 'Asia/Shanghai' },
 ];
 
 /** Region hubs (/region/<slug>): countries grouped for "protests in Europe today". */
 export const EUROPE = ['gb', 'fr', 'de', 'es', 'it', 'nl', 'be', 'pl', 'pt', 'gr', 'at', 'ch', 'se', 'dk', 'ie', 'cz', 'hu', 'ro', 'rs', 'al', 'ge', 'tr', 'ua', 'ru',
-  'fi', 'no', 'sk', 'bg', 'hr', 'si', 'ba', 'me', 'mk', 'md', 'lt', 'lv', 'ee', 'cy', 'am', 'az'];
+  'fi', 'no', 'sk', 'bg', 'hr', 'si', 'ba', 'me', 'mk', 'md', 'lt', 'lv', 'ee', 'cy', 'am', 'az', 'by', 'lu', 'mt', 'is'];
 export const MIDDLE_EAST = ['il', 'ps', 'lb', 'jo', 'sy', 'iq', 'ir', 'eg', 'tr', 'ma', 'tn'];
 
 export const byIso = new Map(COUNTRIES.map((c) => [c.iso, c]));
@@ -114,10 +121,13 @@ export const LIMITS = {
   searchPerRun: Number(process.env.SEARCH_PER_RUN || 25),
   searchPerEvent: 3,
   searchSeconds: 90,
+  /** Country-by-country search (sweep.ts): new leads per run and the step's time limit. */
+  sweepPerRun: Number(process.env.SWEEP_PER_RUN || 36),
+  sweepSeconds: 60,
   /** Max sources sent to the summary call. */
   summarySources: 10,
   /** No new AI call starts after this many minutes, so the run saves well inside the workflow's 20-minute timeout. */
-  aiMinutesPerRun: Number(process.env.AI_MINUTES_PER_RUN || 13),
+  aiMinutesPerRun: Number(process.env.AI_MINUTES_PER_RUN || 12),
 };
 
 /** Languages the site is published in besides English (src/i18n has the interface text). */
@@ -134,6 +144,7 @@ export const RULES = {
   minPublishers: 2, // independent publishers before an event can be shown
   wrapAfterHours: 48, // no new reports → Wrapped up
   massArrests: 100, // arrests at or above this count switch on Serious Mode
+  massInjuries: 20, // so do reported injuries at or above this count, police included (owner, 5 Nov 2026)
   reviewConfidence: 0.8, // below this an event needs review
   reviewTopN: 10, // biggest live events need review (once)
   twoSourcePerCountry: 10, // with no reviewer, at most this many two-newsroom events per country go up...

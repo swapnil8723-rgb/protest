@@ -8,7 +8,7 @@ import { OverBudget, Pending } from './ai.ts';
 import { RULES, TRANSLATE_TO } from './config.ts';
 import { SYSTEM, translatePrompt, translateSchema, type TranslatedCard } from './prompts.ts';
 import type { EventText, ProtestEvent, TransLang } from './types.ts';
-import { nowIso, sha } from './util.ts';
+import { nowIso, pool, sha } from './util.ts';
 
 const clip = (s: unknown, n: number) => {
   const t = String(s ?? '').replace(/\s+/g, ' ').trim();
@@ -97,7 +97,11 @@ export async function translate(ai: Ai, events: Map<string, ProtestEvent>, log: 
     .sort((a, b) => (a.isOngoing !== b.isOngoing ? (a.isOngoing ? -1 : 1) : a.lastReportAt < b.lastReportAt ? 1 : -1))
     .slice(0, max);
   const done: string[] = [];
-  for (const e of due) {
+  // Three at a time (each call still waits for its slot in ai.ts): a busy run has to stay inside the Actions budget.
+  let stopped: unknown;
+  await pool(due, 3, async (e) => {
+    if (stopped) return;
+    try {
     const hash = englishHash(e);
     // Same English as last time: only the languages still missing are asked for again.
     const again = e.i18n?.of === hash;
@@ -109,10 +113,10 @@ export async function translate(ai: Ai, events: Map<string, ProtestEvent>, log: 
     try {
       out = await ask(langs, again ? 10 + (e.i18n!.tries ?? 1) : 0);
     } catch (err) {
-      if (err instanceof Pending) continue;
+      if (err instanceof Pending) return;
       if (err instanceof OverBudget) throw err;
       log(`translate: ${e.id} failed: ${(err as Error).message}`);
-      continue;
+      return;
     }
     // One retry, in a smaller call, for the languages whose answer did not line up.
     const retry = langs.filter((l) => mismatch(e, out?.[l.code]));
@@ -140,7 +144,11 @@ export async function translate(ai: Ai, events: Map<string, ProtestEvent>, log: 
     if (bad.length) log(`translate: ${e.id} dropped ${bad.join(', ')}`);
     e.i18n = next;
     done.push(e.id);
-  }
+    } catch (err) {
+      stopped = err; // out of time or budget: the rest wait for the next run
+    }
+  });
+  if (stopped) throw stopped;
   if (done.length) log(`translate: ${done.length} events`);
   return done;
 }
