@@ -106,7 +106,7 @@ Serious Mode exactly like a protest card: grey, red border and label, no tilt, n
 Story page: the same Receipts panel; What happened · Who's saying what · What's next, each line with source chips.
 
 **KryVault ad** (owner decision 5 Nov 2026) — `Promo.astro`, one slim bar fixed to the bottom, under 56px on most phones: black (`--surface-2` in
-dark mode), white text, labelled Ad, a single yellow "Try free" pill, a 44px close button that hides it for 30 days. No motion, no sticker, no tilt.
+dark mode), white text, KryVault's shield and two-tone wordmark (no visible "Ad" word, owner's choice; `aria-label` and `rel="sponsored"` still say it), a single white "Try free" pill, a 44px close button that hides it for 30 days. No motion, no sticker, no tilt.
 Never on a Serious page or `/add`. The link is plain (`rel="sponsored"`, no tracking in the URL).
 
 **Globe** — canvas, orthographic, India-official boundaries (Natural Earth "IND" point of view). Land `--surface-2`,

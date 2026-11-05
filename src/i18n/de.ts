@@ -26,7 +26,6 @@ const de: Dict = {
   'footer.credits': 'Karte: Natural Earth (offizielle Grenzen Indiens) · Orte: GeoNames (CC BY 4.0)',
   'footer.languages': 'Sprachen',
   'promo.label': 'Werbung',
-  'promo.tag': 'Werbung',
   'promo.head': 'Deine Cloud kennt deinen Namen. Diese nicht.',
   'promo.sub': 'Im Browser verschlüsselt. Keine E-Mail, keine Telefonnummer. 100 MB gratis.',
   'promo.cta': 'Gratis testen',

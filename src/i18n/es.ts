@@ -26,7 +26,6 @@ const es: Dict = {
   'footer.credits': 'Mapa: Natural Earth (fronteras oficiales de la India) · Lugares: GeoNames (CC BY 4.0)',
   'footer.languages': 'Idiomas',
   'promo.label': 'Publicidad',
-  'promo.tag': 'Anuncio',
   'promo.head': 'Tu nube sabe tu nombre. Esta no.',
   'promo.sub': 'Cifrado en tu navegador. Sin correo ni teléfono. 100 MB gratis.',
   'promo.cta': 'Probar gratis',

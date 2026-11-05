@@ -26,7 +26,6 @@ const hi: Dict = {
   'footer.credits': 'नक्शा: Natural Earth (भारत की आधिकारिक सीमाएँ) · स्थान: GeoNames (CC BY 4.0)',
   'footer.languages': 'भाषाएँ',
   'promo.label': 'विज्ञापन',
-  'promo.tag': 'विज्ञापन',
   'promo.head': 'आपका क्लाउड आपका नाम जानता है। यह नहीं।',
   'promo.sub': 'आपके ब्राउज़र में ही एन्क्रिप्ट। न ईमेल, न फ़ोन। 100 MB मुफ़्त।',
   'promo.cta': 'मुफ़्त आज़माएँ',

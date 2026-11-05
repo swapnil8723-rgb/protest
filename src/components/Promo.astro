@@ -7,7 +7,14 @@ const t = useT(langOf(Astro.url));
 <div class="promo-space"></div>
 <aside id="promo" class="promo" aria-label={t('promo.label')} data-nosnippet>
   <a href="https://kryvault.com/" target="_blank" rel="sponsored noopener" class="promo-link">
-    <span class="promo-tag">{t('promo.tag')} · KryVault</span>
+    <span class="promo-brand">
+      <svg viewBox="0 0 64 64" width="20" height="20" aria-hidden="true">
+        <path d="M32 5 54 13V32C54 44.8 44.2 53.4 32 59 19.8 53.4 10 44.8 10 32V13Z" fill="#4f88f0" />
+        <path d="M26.5 31v-3.2a5.5 5.5 0 0 1 11 0V31" fill="none" stroke="#fff" stroke-width="3" />
+        <rect x="23.8" y="30.6" width="16.4" height="15" rx="3.2" fill="#fff" />
+      </svg>
+      <span>Kry<span class="promo-vault">Vault</span></span>
+    </span>
     <strong class="promo-head">{t('promo.head')}</strong>
     <span class="promo-sub">{t('promo.sub')}</span>
     <span class="promo-cta">{t('promo.cta')} →</span>

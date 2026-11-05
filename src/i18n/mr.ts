@@ -26,7 +26,6 @@ const mr: Dict = {
   'footer.credits': 'नकाशा: Natural Earth (भारताच्या अधिकृत सीमा) · ठिकाणे: GeoNames (CC BY 4.0)',
   'footer.languages': 'भाषा',
   'promo.label': 'जाहिरात',
-  'promo.tag': 'जाहिरात',
   'promo.head': 'तुमच्या क्लाउडला तुमचे नाव माहीत असते. याला नाही.',
   'promo.sub': 'तुमच्या ब्राउझरमध्येच एन्क्रिप्ट. ना ईमेल, ना फोन. 100 MB मोफत.',
   'promo.cta': 'मोफत वापरून पाहा',

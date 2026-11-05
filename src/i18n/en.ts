@@ -28,7 +28,6 @@ const en = {
   'footer.credits': "Map: Natural Earth (India's official boundaries) · Places: GeoNames (CC BY 4.0)",
   'footer.languages': 'Languages',
   'promo.label': 'Advertisement',
-  'promo.tag': 'Ad',
   'promo.head': "Your cloud knows your name. This one doesn't.",
   'promo.sub': 'Encrypted in your browser. No email, no phone. 100 MB free.',
   'promo.cta': 'Try free',
