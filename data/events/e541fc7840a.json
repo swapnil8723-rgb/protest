@@ -13,15 +13,15 @@
   "citySlug": "berlin",
   "regionSlug": "state-of-berlin"
  },
- "scope": "multi-city",
+ "scope": "nationwide",
  "causes": [
-  "students",
   "education",
+  "prices",
   "housing"
  ],
- "kind": "multi-day",
+ "kind": "one-day",
  "startedOn": "2026-10-31",
- "status": "ongoing",
+ "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
  "review": "pending",
@@ -31,25 +31,34 @@
  "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "Youth are protesting to address high living costs, underfunded schools, environmental issues, and potential mandatory military service.",
-  "want": "Demonstrators demand attention to youth priorities including living costs, increased education spending, and solutions for housing deficits.",
-  "changed": "Nov 2: Chancellor Friedrich Merz called for tough action against rioters while acknowledging legitimate youth concerns."
+  "why": "Youth are protesting against high living costs, underfunded schools and universities, environmental issues, and potential military service.",
+  "want": "They demand attention to youth priorities, including education spending, housing improvements, and reduced financial burdens.",
+  "changed": "Nov 2: Chancellor Friedrich Merz called for a hard stance against rioters, while the movement announced new demonstrations for November 14."
  },
- "summary": "Tens of thousands of young people participated in nationwide demonstrations organized by the movement \"Gen Z regelt!\" across German cities including Berlin, Frankfurt, Cologne, and Hamburg. The protests coincided with Halloween to maximize visibility and focused on issues such as the high cost of living, underfunded schools, environmental concerns, and potential mandatory military service. While the majority of participants demonstrated peacefully, unrest and clashes with police occurred on the sidelines in several locations, involving property damage, looting, and attacks on emergency personnel. Politicians responded by condemning the violence and pledging a hard stance against troublemakers, while also acknowledging the legitimacy of the youth's core demands.",
+ "summary": "Tens of thousands of participants joined demonstrations across major German cities, including Berlin, Frankfurt, Cologne, and Hamburg, organized by the youth movement 'GenZ regelt!'. The actions coincided with Halloween to maximize visibility, with participants demanding attention to underfunded education, high living costs, environmental concerns, and a potential return of mandatory military service. While most participants demonstrated peacefully, clashes, vandalism, and looting broke out on the sidelines in several cities, including Frankfurt and Cologne, where police deployed water cannons. Government officials, including Chancellor Friedrich Merz and Interior Minister Alexander Dobrindt, condemned the violence and pledged a strict legal response, while acknowledging the legitimacy of the peaceful protesters' concerns. The movement announced further demonstrations scheduled for November 14.",
  "organizers": [
-  "Gen Z regelt!"
+  "GenZ regelt!"
  ],
  "demands": [
-  "Lower cost of living",
-  "Increased education funding",
-  "Action on environmental concerns",
-  "Opposition to mandatory military service"
+  "Address the high cost of living",
+  "Increase funding for schools and universities",
+  "Address environmental concerns",
+  "Oppose the potential reintroduction of mandatory military service"
  ],
- "response": "Police deployed water cannons, riot guards, and extra personnel, resulting in dozens of investigations and some arrests. Chancellor Friedrich Merz and other officials condemned the violence, promising strict legal action against rioters while acknowledging the legitimate concerns of peaceful protesters.",
+ "response": "Chancellor Friedrich Merz and other politicians condemned the violence and property destruction while acknowledging the legitimacy of the youth's concerns. Interior Minister Alexander Dobrindt blamed the unrest on leftist groups and migrant communities.",
  "numbers": {
+  "crowd": {
+   "value": 10000,
+   "text": "tens of thousands of people",
+   "sources": [
+    1,
+    2,
+    3
+   ]
+  },
   "arrests": {
    "value": 54,
-   "text": "investigations are underway against 54 people in Frankfurt, with an 18-year-old placed in pre-trial detention",
+   "text": "investigating 54 people in Frankfurt and placed an 18-year-old in custody",
    "sources": [
     3
    ]
@@ -65,26 +74,26 @@
  "updates": [
   {
    "at": "2026-10-31",
-   "text": "Tens of thousands turned out across Germany for youth-led demonstrations organized by \"Gen Z regelt!\" coinciding with Halloween.",
+   "text": "Youth movement 'GenZ regelt!' staged nationwide demonstrations in cities including Berlin, Frankfurt, Cologne, and Hamburg.",
    "sources": [
-    1
-   ]
-  },
-  {
-   "at": "2026-11-01",
-   "text": "Clashes, looting, and attacks on police occurred on the margins of the demonstrations in cities like Frankfurt, Berlin, Cologne, and Hamburg.",
-   "sources": [
-    2,
-    3
+    1,
+    2
    ]
   },
   {
    "at": "2026-11-02",
-   "text": "Chancellor Friedrich Merz demanded strict legal action against rioters while recognizing the validity of the youth's underlying concerns.",
+   "text": "Chancellor Friedrich Merz condemned the sideline clashes and promised a strict response against rioters, while addressing youth concerns.",
    "sources": [
     3,
     4,
     5
+   ]
+  },
+  {
+   "at": "2026-11-02",
+   "text": "Organizers announced that the protests were only the start and called for fresh demonstrations on November 14.",
+   "sources": [
+    2
    ]
   }
  ],
@@ -132,11 +141,10 @@
  "reports48h": 0,
  "firstSeenAt": "2026-11-01T03:51:30.790Z",
  "lastReportAt": "2026-11-02T14:59:58.307Z",
- "lastCheckedAt": "2026-11-05T02:53:27.669Z",
- "updatedAt": "2026-11-04T05:14:04.074Z",
+ "lastCheckedAt": "2026-11-05T04:29:43.924Z",
+ "updatedAt": "2026-11-05T04:27:47.948Z",
  "searchedAt": "2026-11-02T17:50:37.814Z",
  "responseSources": [
-  1,
   2,
   3,
   4,
@@ -144,11 +152,12 @@
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-04T05:14:04.074Z",
+ "summarizedAt": "2026-11-05T04:27:47.948Z",
  "distinctFrom": [
   "ed360a18184",
   "ef15d58b287",
   "e2b5f7419ad",
   "e4c81dcff90"
- ]
+ ],
+ "summaryOf": "9ecbcec84ad1"
 }
