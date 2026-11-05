@@ -39,6 +39,7 @@ const article = {
   type="article"
   modified={s.updatedAt}
   jsonLd={[article, breadcrumbs(crumbs)]}
+  promo={!s.serious}
 >
   <article class="wrap pt-6 sm:pt-10">
     <nav aria-label="Breadcrumb" class="mono text-muted">

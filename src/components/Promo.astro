@@ -1,0 +1,16 @@
+---
+// The KryVault ad: one slim bar at the bottom (DESIGN.md §6). Base.astro leaves it off Serious
+// pages and the report form. Closing it and counting clicks are in scripts/live.ts.
+import { langOf, useT } from '../i18n';
+const t = useT(langOf(Astro.url));
+---
+<div class="promo-space"></div>
+<aside id="promo" class="promo" aria-label={t('promo.label')} data-nosnippet>
+  <a href="https://kryvault.com/" target="_blank" rel="sponsored noopener" class="promo-link">
+    <span class="promo-tag">{t('promo.tag')} · KryVault</span>
+    <strong class="promo-head">{t('promo.head')}</strong>
+    <span class="promo-sub">{t('promo.sub')}</span>
+    <span class="promo-cta">{t('promo.cta')} →</span>
+  </a>
+  <button type="button" class="promo-close" aria-label={t('promo.close')}>×</button>
+</aside>

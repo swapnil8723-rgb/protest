@@ -112,6 +112,28 @@ test('worker: the hourly backup starts the pipeline only after 165 quiet minutes
   assert.deepEqual(calls, ['GET pipeline.yml/runs?per_page=1', 'POST pipeline.yml/dispatches']);
 });
 
+test('worker: the ad counter keeps totals only, and only from our own pages', async () => {
+  const e = env();
+  const send = (q: string, origin = 'https://x', method = 'POST', cf?: { country: string }) => {
+    const r = new Request(`https://x/api/promo${q}`, { method, headers: { origin } });
+    if (cf) Object.defineProperty(r, 'cf', { value: cf });
+    return worker.fetch(r, e);
+  };
+  assert.equal((await send('?e=click', 'https://x', 'POST', { country: 'FR' })).status, 204);
+  assert.equal((await send('?e=click', 'https://x', 'POST', { country: 'FR' })).status, 204);
+  assert.equal((await send('?e=close', 'https://x', 'POST', { country: 'DE' })).status, 204);
+  assert.equal((await send('?e=click')).status, 204); // no country: still counted
+  assert.equal((await send('?e=click', 'https://elsewhere.example')).status, 400);
+  assert.equal((await send('?e=view')).status, 400);
+  assert.equal((await send('?e=click', 'https://x', 'GET')).status, 405);
+  const { results } = await e.INBOX.prepare('SELECT * FROM promo_counts ORDER BY event, country').all();
+  assert.deepEqual(results.map((r) => ({ ...r })), [
+    { day: today, event: 'click', country: 'FR', n: 2 },
+    { day: today, event: 'click', country: 'XX', n: 1 },
+    { day: today, event: 'close', country: 'DE', n: 1 },
+  ]);
+});
+
 test('_redirects: every vercel.json redirect is copied as a 308, lang groups written out', () => {
   const { redirects } = JSON.parse(fs.readFileSync('vercel.json', 'utf8'));
   const out = toCloudflareRedirects(redirects);

@@ -25,6 +25,12 @@ const fr: Dict = {
   'footer.made': 'Fait fort, vérifié deux fois. Résumés originaux ; on renvoie vers les articles.',
   'footer.credits': "Carte : Natural Earth (frontières officielles de l'Inde) · Lieux : GeoNames (CC BY 4.0)",
   'footer.languages': 'Langues',
+  'promo.label': 'Publicité',
+  'promo.tag': 'Pub',
+  'promo.head': 'Votre cloud connaît votre nom. Pas celui-ci.',
+  'promo.sub': 'Chiffré dans votre navigateur. Sans e-mail ni téléphone. 100 Mo gratuits.',
+  'promo.cta': 'Essai gratuit',
+  'promo.close': 'Fermer cette publicité',
   'lang.notice': "Cette manifestation n'est pas encore traduite, elle s'affiche donc en anglais.",
   'lang.sources': 'Les sources sont liées dans leur langue d’origine.',
 

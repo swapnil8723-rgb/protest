@@ -2,6 +2,7 @@
 // assets (dist/) served by Cloudflare without running this code; wrangler.jsonc sends
 // only /api/* here (run_worker_first). The hourly Cron Trigger runs the pipeline backup.
 import * as inbox from './inbox.ts';
+import * as promo from './promo.ts';
 import * as report from './report.ts';
 import { tick } from './tick.ts';
 import type { Env, ExecutionContext } from './types.ts';
@@ -20,6 +21,10 @@ export default {
     if (pathname === '/api/inbox') {
       if (request.method === 'GET') return inbox.GET(request, env);
       if (request.method === 'DELETE') return inbox.DELETE(request, env);
+      return methodNotAllowed();
+    }
+    if (pathname === '/api/promo') {
+      if (request.method === 'POST') return promo.POST(request, env);
       return methodNotAllowed();
     }
     // Anything else (e.g. an unknown /api/ path) gets the site's own 404 page, as on Vercel.

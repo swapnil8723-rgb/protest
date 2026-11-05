@@ -24,6 +24,7 @@ const mail = `<a class="underline" href="mailto:${CONTACT}">${CONTACT}</a>`;
   description={t('add.description')}
   path="/add"
   jsonLd={[breadcrumbs([[t('crumb.home'), href(lang, '/')], [t('add.crumb'), href(lang, '/add')]])]}
+  promo={false}
 >
   <div class="wrap max-w-3xl pt-10">
     <p class="eyebrow">{t('add.eyebrow')}</p>

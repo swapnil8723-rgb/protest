@@ -1,5 +1,5 @@
 // The only script every page loads (~1 KB): relative times, a stale-data warning,
-// the theme toggle and the share buttons. Words come from the page's #i18n block.
+// the theme toggle, the share buttons and the ad's close button. Words come from the page's #i18n block.
 
 const S: { locale: string; justNow: string; stale: string; copied: string } = (() => {
   try {
@@ -50,6 +50,19 @@ document.getElementById('theme')?.addEventListener('click', () => {
   try {
     localStorage.setItem('theme', dark ? 'dark' : 'light');
   } catch {}
+});
+
+// The ad: closed stays closed for 30 days in this browser. Clicks and closes only add to a
+// total (worker/promo.ts); the link works the same if the count fails.
+const promo = document.getElementById('promo');
+const countPromo = (e: 'click' | 'close') => navigator.sendBeacon?.(`/api/promo?e=${e}`);
+promo?.querySelector('a')?.addEventListener('click', () => countPromo('click'));
+promo?.querySelector('button')?.addEventListener('click', () => {
+  document.documentElement.dataset.promo = 'closed';
+  try {
+    localStorage.setItem('promo-closed', String(Date.now() + 30 * 864e5));
+  } catch {}
+  countPromo('close');
 });
 
 // Share: native sheet with the 9:16 story image when the device supports files,

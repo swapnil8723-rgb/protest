@@ -105,6 +105,10 @@ topic chip; never a vibe sticker or volume meter, which measure protests. A stor
 Serious Mode exactly like a protest card: grey, red border and label, no tilt, no "Still loud" line.
 Story page: the same Receipts panel; What happened · Who's saying what · What's next, each line with source chips.
 
+**KryVault ad** (owner decision 5 Nov 2026) — `Promo.astro`, one slim bar fixed to the bottom, under 56px on most phones: black (`--surface-2` in
+dark mode), white text, labelled Ad, a single yellow "Try free" pill, a 44px close button that hides it for 30 days. No motion, no sticker, no tilt.
+Never on a Serious page or `/add`. The link is plain (`rel="sponsored"`, no tracking in the URL).
+
 **Globe** — canvas, orthographic, India-official boundaries (Natural Earth "IND" point of view). Land `--surface-2`,
 coastlines/borders 0.6px `--hairline`, ocean disc with a soft violet rim. Pins: 6px dot in vibe colour + expanding ring
 (the only looping animation). Drag to spin, tap pin → fly-to + bottom drawer card. Idle auto-rotate stops on first touch.

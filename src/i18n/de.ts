@@ -25,6 +25,12 @@ const de: Dict = {
   'footer.made': 'Laut gemacht, doppelt geprüft. Zusammenfassungen sind eigene Texte; wir verlinken die Berichte.',
   'footer.credits': 'Karte: Natural Earth (offizielle Grenzen Indiens) · Orte: GeoNames (CC BY 4.0)',
   'footer.languages': 'Sprachen',
+  'promo.label': 'Werbung',
+  'promo.tag': 'Werbung',
+  'promo.head': 'Deine Cloud kennt deinen Namen. Diese nicht.',
+  'promo.sub': 'Im Browser verschlüsselt. Keine E-Mail, keine Telefonnummer. 100 MB gratis.',
+  'promo.cta': 'Gratis testen',
+  'promo.close': 'Diese Werbung schließen',
   'lang.notice': 'Dieser Protest ist noch nicht übersetzt und wird deshalb auf Englisch angezeigt.',
   'lang.sources': 'Die Quellen sind in ihrer Originalsprache verlinkt.',
 

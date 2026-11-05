@@ -49,6 +49,7 @@ const langs = LANGS.filter((l) => hasLang(raw, l));
   modified={lang === 'en' ? e.updatedAt : e.i18n?.at ?? e.updatedAt}
   jsonLd={reader ? [breadcrumbs(crumbs)] : [eventJsonLd(raw, lang), breadcrumbs(crumbs)]}
   noindex={reader}
+  promo={!serious}
 >
   <article class="wrap pt-6 sm:pt-10">
     <nav aria-label="Breadcrumb" class="mono text-muted">

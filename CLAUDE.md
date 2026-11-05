@@ -24,6 +24,8 @@ Owner decision (31 Oct 2026) on scope: news that is not a protest but readers sh
 
 Owner decision (5 Nov 2026) on rule 2: Serious Mode also switches on at `RULES.massInjuries` (20) or more reported injured, police included, because the AI's serious-injuries flag missed 100 injured in Frankfurt. The same day the owner asked to track Europe closely (`pipeline/sweep.ts`) and to add China, as readers are there. China includes Hong Kong and Macau; Taiwan is left out, like Kosovo (rule 5).
 
+Owner decision (5 Nov 2026) on ads: a slim closable bar at the bottom advertises the owner's KryVault (`src/components/Promo.astro`), always labelled as an ad, off Serious pages and `/add`, and never aimed at protesters or promising them safety. Clicks and closes are totals per day and country in D1 (`worker/promo.ts`, no IP or id): `npx wrangler d1 execute loud-reader-inbox --remote --command "SELECT * FROM promo_counts ORDER BY day DESC"`. Workers Builds doesn't apply migrations: run `npx wrangler d1 migrations apply loud-reader-inbox --remote` before pushing a new one.
+
 House interpretation of rule 4: organisations, parties, elected officials and police/government spokespeople may be named; ordinary participants, students, the injured, detained or dead are never named.
 
 ## Architecture

@@ -3,6 +3,7 @@ import '../styles/global.css';
 import { BRAND, SITE } from '../site';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Promo from '../components/Promo.astro';
 import { lastRunAt } from '../lib/data';
 import Analytics from '@vercel/analytics/astro';
 import { clientStrings, href, LANG_INFO, LANGS, langOf, useT, type Lang } from '../i18n';
@@ -19,10 +20,12 @@ interface Props {
   modified?: string;
   /** Languages this page exists in (event pages only exist once translated). */
   langs?: readonly Lang[];
+  /** The KryVault ad at the bottom. Off on Serious pages and the report form. */
+  promo?: boolean;
 }
 const lang = langOf(Astro.url);
 const t = useT(lang);
-const { title, description = t('home.description'), path, image = '/og-default.png', imageAlt = `${BRAND}: ${t('tagline')}`, jsonLd = [], noindex = false, type = 'website', modified, langs = LANGS } = Astro.props;
+const { title, description = t('home.description'), path, image = '/og-default.png', imageAlt = `${BRAND}: ${t('tagline')}`, jsonLd = [], noindex = false, type = 'website', modified, langs = LANGS, promo = true } = Astro.props;
 const url = (l: Lang) => SITE + (href(l, path) === '/' ? '' : href(l, path));
 const canonical = url(lang);
 const img = image.startsWith('http') ? image : SITE + image;
@@ -68,7 +71,7 @@ const onVercel = !!process.env.VERCEL;
     {(lang === 'hi' || lang === 'mr') && <link rel="preload" href="/fonts/baloo2-deva.woff2" as="font" type="font/woff2" crossorigin />}
     {jsonLd.map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
     <script is:inline>
-      try { if (localStorage.getItem('theme') === 'dark') { document.documentElement.dataset.theme = 'dark'; document.querySelector('meta[name=theme-color]').content = '#0B0B12'; } } catch {}
+      try { if (localStorage.getItem('theme') === 'dark') { document.documentElement.dataset.theme = 'dark'; document.querySelector('meta[name=theme-color]').content = '#0B0B12'; } if (Number(localStorage.getItem('promo-closed')) > Date.now()) document.documentElement.dataset.promo = 'closed'; } catch {}
     </script>
     <slot name="head" />
   </head>
@@ -79,6 +82,7 @@ const onVercel = !!process.env.VERCEL;
       <slot />
     </main>
     <Footer path={path} langs={langs} />
+    {promo && <Promo />}
     <script type="application/json" id="i18n" set:html={JSON.stringify(clientStrings(lang))} />
     <script>
       import '../scripts/live.ts';
