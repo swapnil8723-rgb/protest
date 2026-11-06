@@ -15,70 +15,72 @@
  },
  "scope": "local",
  "causes": [
+  "students",
   "education",
-  "jobs"
+  "labour"
  ],
  "kind": "multi-day",
  "startedOn": "2026-11-04",
- "status": "ongoing",
- "vibe": "peak-loud",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "top-10"
- ],
- "isOngoing": true,
+ "review": "auto",
+ "reviewReasons": [],
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters cite economic suffocation of public universities, underfunding, and alleged repression on campuses by the regional government.",
-  "want": "Increased public university funding, improved working conditions, and a meeting with the regional Education Minister.",
-  "changed": "Nov 5: A teacher was arrested during a protest outside the regional Education Department."
+  "why": "Public university students and staff protested against economic suffocation, underfunding, and campus repression by the regional government.",
+  "want": "Increased university funding, cancellation of the regional funding agreement, better salaries, and an end to public education privatization.",
+  "changed": "Nov 5: A secondary school teacher was detained by police during a protest outside the regional Ministry of Education."
  },
- "summary": "Students and staff from Madrid's six public universities launched a two-day strike on November 4, 2026, to protest against what they describe as the economic suffocation of public education. Organised by the Coordinadora en Defensa de la Universidad Pública and other platforms, the action included pickets at university campuses and a march from the PSOE headquarters to the PP headquarters. Participants demand increased funding, arguing that current agreements are insufficient and promote privatization. The university strike coincides with an ongoing four-week indefinite strike by primary and secondary school teachers. On November 5, members of the education strike committee entered the regional government's human resources offices to demand negotiations, while a teacher was arrested during a separate protest outside the Education Department. Authorities have maintained that negotiations are ongoing through established sectorial tables.",
+ "summary": "Public university students, researchers, and administrative staff across Madrid's six public universities launched a two-day strike accompanied by marches and informational pickets. Joined by pre-university educational staff who had been on indefinite strike since mid-October, protesters denounced what they described as intentional underfunding and economic suffocation by the regional government under the Partido Popular and Isabel Díaz Ayuso, arguing that the recent pluriannual funding agreement was inadequate. Demonstrators held rallies, marched from locations including Calle de Marqués de Urquijo toward the PP headquarters, and later demonstrated from Atocha toward Cibeles and the Ministry of Education. Authorities deployed heavy police presence, resulting in clashes and at least one arrest of a teacher outside the education ministry.",
  "organizers": [
   "Coordinadora en Defensa de la Universidad Pública",
   "UCM por la Pública",
   "Menos Lectivas"
  ],
  "demands": [
-  "Increased public university funding",
-  "End to university privatization",
-  "Improved teacher working conditions",
-  "Negotiations with the Education Minister"
+  "Increase public university financing from 0.4% toward the 1% established by the LOSU",
+  "Reject the pluriannual funding agreement signed with university rectors",
+  "Stop the expansion and privatization of public education",
+  "Improve working conditions and salaries for educational staff",
+  "Halt repression and police presence on campus"
  ],
- "response": "The regional government has stated that negotiations are being handled through the sectorial table and has previously described the broader education strike as political. Officials have not met with the strike committee.",
+ "response": "According to sources, the regional government refused to negotiate with striking educators. Police maintained a heavy presence, resulting in several incidents, clashes, and the arrest of a teacher outside the Ministry of Education for alleged disobedience and resistance.",
  "numbers": {
+  "crowd": {
+   "value": 10000,
+   "text": "more than 10,000 students, personal docente e investigador, and other staff during the first day, and thousands more…",
+   "sources": [
+    2,
+    6
+   ]
+  },
   "arrests": {
    "value": 1,
-   "text": "One teacher was arrested during a protest on November 5.",
+   "text": "One secondary school teacher was arrested outside the regional Ministry of Education",
    "sources": [
-    5,
-    6
+    4,
+    5
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-04",
-   "text": "Six public universities began a two-day strike with pickets and a march in Madrid.",
+   "text": "The six public universities in Madrid began a 48-hour strike with pickets and a march from Marqués de Urquijo to Calle Génova.",
    "sources": [
     1,
     2,
-    3
-   ]
-  },
-  {
-   "at": "2026-11-05",
-   "text": "Strike committee members entered regional government offices to demand negotiations.",
-   "sources": [
-    4,
+    3,
     6
    ]
   },
   {
    "at": "2026-11-05",
-   "text": "A teacher was arrested during a protest outside the regional Education Department.",
+   "text": "Strikers concluded their two-day university walkout with massive demonstrations from Atocha to Cibeles alongside pre-university staff.",
    "sources": [
+    4,
     5,
     6
    ]
@@ -108,182 +110,189 @@
   },
   {
    "n": 4,
-   "url": "https://www.elsaltodiario.com/comunidad-madrid/comite-huelga-educativa-madrid-irrumpe-instalaciones-del-gobierno-ayuso-negociar",
-   "publisher": "elsaltodiario.com",
-   "title": "El comité de huelga educativa de Madrid irrumpe en las instalaciones del Gobierno de Ayuso para negociar",
-   "publishedAt": "2026-11-05T09:37:00.000Z"
-  },
-  {
-   "n": 5,
    "url": "https://elpais.com/educacion/2026-11-05/detenido-un-profesor-de-secundaria-en-una-concentracion-por-la-educacion-publica-en-madrid.html",
    "publisher": "elpais.com",
    "title": "Detenido un profesor de Secundaria en una concentración por la educación pública en Madrid",
    "publishedAt": "2026-11-05T12:22:34.000Z"
   },
   {
-   "n": 6,
+   "n": 5,
    "url": "https://www.eldiario.es/sociedad/policia-detiene-profesor-protestas-docentes-madrid_1_13641048.html",
    "publisher": "eldiario.es",
    "title": "La policía detiene a un profesor en las protestas docentes en Madrid",
    "publishedAt": "2026-11-05T13:14:10.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://www.elsaltodiario.com/comunidad-madrid/universidades-publicas-madrid-cierran-ultimo-dia-huelga-protestas-masivas",
+   "publisher": "elsaltodiario.com",
+   "title": "Las universidades públicas de Madrid cierran su último día de huelga con protestas masivas",
+   "publishedAt": "2026-11-05T18:14:00.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.95,
  "publishers": 6,
- "reports24h": 3,
+ "reports24h": 4,
  "reportsPrev24h": 5,
- "reports48h": 8,
+ "reports48h": 9,
  "firstSeenAt": "2026-11-05T04:25:25.599Z",
- "lastReportAt": "2026-11-05T13:14:10.000Z",
- "lastCheckedAt": "2026-11-05T23:13:57.275Z",
- "updatedAt": "2026-11-05T15:54:58.018Z",
+ "lastReportAt": "2026-11-05T18:14:00.000Z",
+ "lastCheckedAt": "2026-11-06T02:54:59.040Z",
+ "updatedAt": "2026-11-06T02:53:49.594Z",
  "distinctFrom": [
   "e09d012429b",
   "efb74531070"
  ],
  "responseSources": [
+  2,
   4,
-  6
+  5
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-05T15:54:58.018Z",
- "summaryOf": "460608e54def",
+ "summarizedAt": "2026-11-06T02:53:49.594Z",
+ "summaryOf": "0d857a6a92bf",
  "publishedAt": "2026-11-05T04:29:43.924Z",
  "i18n": {
-  "of": "96b5256514377b8b",
-  "at": "2026-11-05T15:56:37.463Z",
+  "of": "c05abd087bb2a29a",
+  "at": "2026-11-06T02:56:16.651Z",
   "tries": 1,
   "hi": {
-   "title": "मैड्रिड विश्वविद्यालय के छात्रों और कर्मचारियों ने फंडिंग को लेकर हड़ताल और मार्च किया",
+   "title": "मैड्रिड के विश्वविद्यालय के छात्रों और कर्मचारियों ने फंडिंग को लेकर की हड़ताल और मार्च",
    "seoTitle": "मैड्रिड विश्वविद्यालय हड़ताल और मार्च",
    "tea": {
-    "why": "प्रदर्शनकारी सार्वजनिक विश्वविद्यालयों की आर्थिक घुटन, कम फंडिंग और क्षेत्रीय सरकार द्वारा परिसरों में कथित दमन का हवाला देते हैं।",
-    "want": "सार्वजनिक विश्वविद्यालय के लिए अधिक फंडिंग, बेहतर कामकाजी स्थिति और क्षेत्रीय शिक्षा मंत्री के साथ बैठक।",
-    "changed": "5 नवंबर: क्षेत्रीय शिक्षा विभाग के बाहर एक विरोध प्रदर्शन के दौरान एक शिक्षक को गिरफ्तार किया गया।"
+    "why": "सार्वजनिक विश्वविद्यालयों के छात्रों और कर्मचारियों ने क्षेत्रीय सरकार द्वारा आर्थिक दमघोंटू नीतियों, कम फंडिंग और परिसर में दमन के खिलाफ विरोध प्रदर्शन किया।",
+    "want": "विश्वविद्यालय के लिए अधिक फंडिंग, क्षेत्रीय फंडिंग समझौते को रद्द करना, बेहतर वेतन और सार्वजनिक शिक्षा के निजीकरण का अंत।",
+    "changed": "5 नवंबर: क्षेत्रीय शिक्षा मंत्रालय के बाहर एक विरोध प्रदर्शन के दौरान पुलिस ने एक माध्यमिक विद्यालय के शिक्षक को हिरासत में लिया।"
    },
-   "summary": "मैड्रिड के छह सार्वजनिक विश्वविद्यालयों के छात्रों और कर्मचारियों ने 4 नवंबर, 2026 को सार्वजनिक शिक्षा की आर्थिक घुटन के विरोध में दो दिवसीय हड़ताल शुरू की। Coordinadora en Defensa de la Universidad Pública और अन्य मंचों द्वारा आयोजित इस कार्रवाई में विश्वविद्यालय परिसरों में पिकेटिंग और PSOE मुख्यालय से PP मुख्यालय तक मार्च शामिल था। प्रतिभागियों ने अधिक फंडिंग की मांग की है, उनका तर्क है कि वर्तमान समझौते अपर्याप्त हैं और निजीकरण को बढ़ावा देते हैं। विश्वविद्यालय की हड़ताल प्राथमिक और माध्यमिक स्कूल के शिक्षकों की चार सप्ताह की अनिश्चितकालीन हड़ताल के साथ मेल खाती है। 5 नवंबर को, शिक्षा हड़ताल समिति के सदस्यों ने बातचीत की मांग के लिए क्षेत्रीय सरकार के मानव संसाधन कार्यालयों में प्रवेश किया, जबकि शिक्षा विभाग के बाहर एक अलग विरोध प्रदर्शन के दौरान एक शिक्षक को गिरफ्तार किया गया। अधिकारियों ने कहा है कि स्थापित क्षेत्रीय तालिकाओं के माध्यम से बातचीत चल रही है।",
+   "summary": "मैड्रिड के छह सार्वजनिक विश्वविद्यालयों के छात्रों, शोधकर्ताओं और प्रशासनिक कर्मचारियों ने दो दिवसीय हड़ताल शुरू की, जिसके साथ मार्च और सूचनात्मक पिकेट भी निकाले गए। मध्य अक्टूबर से अनिश्चितकालीन हड़ताल पर चल रहे पूर्व-विश्वविद्यालय शैक्षणिक कर्मचारियों के साथ मिलकर, प्रदर्शनकारियों ने पार्टीदो पॉपुलर और इसाबेल डियाज़ अयुसो के नेतृत्व वाली क्षेत्रीय सरकार द्वारा जानबूझकर कम फंडिंग देने और आर्थिक रूप से परेशान करने का आरोप लगाया, तथा तर्क दिया कि हालिया बहुवर्षीय फंडिंग समझौता अपर्याप्त था। प्रदर्शनकारियों ने रैलियां निकालीं, काले दे मार्खेस दे उरखिजो जैसे स्थानों से पीपी मुख्यालय की ओर मार्च किया, और बाद में अतोचा से सिबेलेस तथा शिक्षा मंत्रालय की ओर प्रदर्शन किया। अधिकारियों ने भारी पुलिस बल तैनात किया, जिसके परिणामस्वरूप झड़पें हुईं और शिक्षा मंत्रालय के बाहर कम से कम एक शिक्षक की गिरफ्तारी हुई।",
    "demands": [
-    "सार्वजनिक विश्वविद्यालय के लिए अधिक फंडिंग",
-    "विश्वविद्यालय के निजीकरण का अंत",
-    "शिक्षकों की कामकाजी स्थिति में सुधार",
-    "शिक्षा मंत्री के साथ बातचीत"
+    "सार्वजनिक विश्वविद्यालय वित्तपोषण को 0.4% से बढ़ाकर LOSU द्वारा निर्धारित 1% तक करना",
+    "विश्वविद्यालय कुलपतियों के साथ हस्ताक्षरित बहुवर्षीय वित्तपोषण समझौते को अस्वीकार करना",
+    "सार्वजनिक शिक्षा के विस्तार और निजीकरण को रोकना",
+    "शैक्षणिक कर्मचारियों के लिए कामकाजी परिस्थितियों और वेतन में सुधार करना",
+    "परिसर में दमन और पुलिस की उपस्थिति को रोकना"
    ],
-   "response": "क्षेत्रीय सरकार ने कहा है कि बातचीत क्षेत्रीय तालिका के माध्यम से की जा रही है और पहले व्यापक शिक्षा हड़ताल को राजनीतिक बताया है। अधिकारियों ने हड़ताल समिति के साथ बैठक नहीं की है।",
+   "response": "सूत्रों के अनुसार, क्षेत्रीय सरकार ने हड़ताल कर रहे शिक्षकों के साथ बातचीत करने से इनकार कर दिया। पुलिस ने भारी उपस्थिति बनाए रखी, जिसके परिणामस्वरूप कई घटनाएं, झड़पें हुईं, और कथित अवज्ञा तथा प्रतिरोध के लिए शिक्षा मंत्रालय के बाहर एक शिक्षक को गिरफ्तार कर लिया गया।",
    "updates": [
-    "छह सार्वजनिक विश्वविद्यालयों ने मैड्रिड में पिकेटिंग और मार्च के साथ दो दिवसीय हड़ताल शुरू की।",
-    "हड़ताल समिति के सदस्यों ने बातचीत की मांग के लिए क्षेत्रीय सरकारी कार्यालयों में प्रवेश किया।",
-    "क्षेत्रीय शिक्षा विभाग के बाहर एक विरोध प्रदर्शन के दौरान एक शिक्षक को गिरफ्तार किया गया।"
+    "मैड्रिड के छह सार्वजनिक विश्वविद्यालयों ने पिकेट और मार्खेस दे उरखिजो से काले हेनोवा तक मार्च के साथ 48 घंटे की हड़ताल शुरू की।",
+    "हड़ताल करने वालों ने पूर्व-विश्वविद्यालय कर्मचारियों के साथ मिलकर अतोचा से सिबेलेस तक विशाल प्रदर्शनों के साथ अपनी दो दिवसीय विश्वविद्यालय वॉकआउट समाप्त की।"
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "5 नवंबर को एक विरोध प्रदर्शन के दौरान एक शिक्षक को गिरफ्तार किया गया।"
+    "crowd": "पहले दिन 10,000 से अधिक छात्र, व्यक्तिगत शिक्षक और शोधकर्ता तथा अन्य कर्मचारी, और उसके बाद हजारों और...",
+    "arrests": "क्षेत्रीय शिक्षा मंत्रालय के बाहर एक माध्यमिक विद्यालय के शिक्षक को गिरफ्तार किया गया"
    }
   },
   "mr": {
-   "title": "फंडिंगच्या मुद्द्यावरून माद्रिद विद्यापीठातील विद्यार्थी आणि कर्मचाऱ्यांचा संप आणि मोर्चा",
-   "seoTitle": "माद्रिद विद्यापीठ संप आणि मोर्चा",
+   "title": "मड्रिडमधील विद्यापीठ विद्यार्थी आणि कर्मचाऱ्यांचा निधीसाठी संप आणि मोर्चा",
+   "seoTitle": "मड्रिड विद्यापीठ संप आणि मोर्चा",
    "tea": {
-    "why": "निदर्शकांनी सार्वजनिक विद्यापीठांची आर्थिक कोंडी, अपुरा निधी आणि प्रादेशिक सरकारकडून कॅम्पसमध्ये होणाऱ्या कथित दडपशाहीचा उल्लेख केला आहे.",
-    "want": "सार्वजनिक विद्यापीठांसाठी वाढीव निधी, कामाच्या सुधारित अटी आणि प्रादेशिक शिक्षण मंत्र्यांशी चर्चा.",
-    "changed": "५ नोव्हेंबर: प्रादेशिक शिक्षण विभागाबाहेर निदर्शने सुरू असताना एका शिक्षकाला अटक करण्यात आली."
+    "why": "सार्वजनिक विद्यापीठांचे विद्यार्थी आणि कर्मचाऱ्यांनी प्रादेशिक सरकारकडून आर्थिक कोंडी, अपुरा निधी आणि कॅम्पसवरील दडपशाहीविरुद्ध निषेध व्यक्त केला.",
+    "want": "वाढलेला विद्यापीठ निधी, प्रादेशिक निधी करार रद्द करणे, चांगले वेतन आणि सार्वजनिक शिक्षणाच्या खाजगीकरणाचा अंत.",
+    "changed": "५ नोव्हेंबर: प्रादेशिक शिक्षण मंत्रालयाबाहेर एका आंदोलनादरम्यान पोलिसांनी एका माध्यमिक शाळेच्या शिक्षकाला ताब्यात घेतले."
    },
-   "summary": "माद्रिदच्या सहा सार्वजनिक विद्यापीठांमधील विद्यार्थी आणि कर्मचाऱ्यांनी ४ नोव्हेंबर २०२६ रोजी सार्वजनिक शिक्षणाच्या आर्थिक कोंडीच्या निषेधार्थ दोन दिवसांचा संप पुकारला. Coordinadora en Defensa de la Universidad Pública आणि इतर संघटनांनी आयोजित केलेल्या या आंदोलनात विद्यापीठ परिसराबाहेर निदर्शने आणि PSOE मुख्यालयापासून PP मुख्यालयापर्यंत मोर्चा काढण्यात आला. सहभागींनी वाढीव निधीची मागणी केली असून, सध्याचे करार अपुरे असल्याचे आणि खाजगीकरणाला प्रोत्साहन देत असल्याचे म्हटले आहे. ही विद्यापीठीय संप प्राथमिक आणि माध्यमिक शाळेतील शिक्षकांच्या चार आठवड्यांच्या बेमुदत संपाच्या काळातच होत आहे. ५ नोव्हेंबर रोजी, संप समितीच्या सदस्यांनी चर्चेची मागणी करण्यासाठी प्रादेशिक सरकारच्या मानव संसाधन कार्यालयात प्रवेश केला, तर शिक्षण विभागाबाहेर वेगळ्या निदर्शनादरम्यान एका शिक्षकाला अटक करण्यात आली. प्राधिकरणांनी सांगितले आहे की, स्थापित क्षेत्रीय समित्यांमार्फत चर्चा सुरू आहे.",
+   "summary": "मड्रिडच्या सहा सार्वजनिक विद्यापीठांमधील विद्यार्थी, संशोधक आणि प्रशासकीय कर्मचाऱ्यांनी मोर्चे आणि माहितीपूर्ण निदर्शनांसह दोन दिवसांचा संप पुकारला. ऑक्टोबरच्या मध्यापासून बेमुदत संपावर असलेल्या पूर्व-विद्यापीठ शैक्षणिक कर्मचाऱ्यांच्या सहभागासह, आंदोलकांनी पार्टीदो पॉपुलर आणि इसाबेल डियाझ अयुसो यांच्या नेतृत्वाखालील प्रादेशिक सरकारकडून जाणूनबुजून अपुरा निधी पुरवल्याचा आणि आर्थिक कोंडी केल्याचा आरोप केला, आणि अलीकडील बहुवार्षिक निधी करार अपुरा असल्याचे म्हटले. निदर्शकानी रैल्या काढल्या, काये दे मार्खेस दे उरखिजो यांसारख्या ठिकाणांहून पीपी मुख्यालयाकडे मार्च काढला, आणि नंतर अतोचा येथून सिबेलेस आणि शिक्षण मंत्रालयाकडे प्रदर्शन केले. अधिकाऱ्यांनी मोठा पोलीस बंदोबस्त तैनात केला, ज्यामुळे संघर्ष झाला आणि शिक्षण मंत्रालयाबाहेर किमान एका शिक्षकाला अटक करण्यात आली.",
    "demands": [
-    "सार्वजनिक विद्यापीठांसाठी वाढीव निधी",
-    "विद्यापीठांचे खाजगीकरण थांबवणे",
-    "शिक्षकांच्या कामाच्या अटींमध्ये सुधारणा",
-    "शिक्षण मंत्र्यांशी चर्चा"
+    "सार्वजनिक विद्यापीठ वित्तपुरवठा ०.४% वरून LOSU द्वारे स्थापित १% पर्यंत वाढवणे",
+    "विद्यापीठ कुलगुरूंवर स्वाक्षरी केलेल्या बहुवार्षिक वित्तपुरवठा कराराचा नाकार करणे",
+    "सार्वजनिक शिक्षणाचा विस्तार आणि खाजगीकरण थांबवणे",
+    "शैक्षणिक कर्मचाऱ्यांसाठी कामाची परिस्थिती आणि वेतन सुधारणे",
+    "कॅम्पसवरील दडपशाही आणि पोलिसांची उपस्थिती थांबवणे"
    ],
-   "response": "प्रादेशिक सरकारने सांगितले आहे की चर्चा क्षेत्रीय समितीद्वारे हाताळली जात आहे आणि यापूर्वी व्यापक शिक्षण संपाला राजकीय म्हटले आहे. अधिकाऱ्यांनी संप समितीशी भेट घेतलेली नाही.",
+   "response": "सूत्रांनुसार, प्रादेशिक सरकारने संपकरी शिक्षकांशी वाटाघाटी करण्यास नकार दिला. पोलिसांनी मोठी उपस्थिती राखली, ज्यामुळे अनेक घटना घडल्या, संघर्ष झाला आणि कथित अनादर व प्रतिकारासाठी शिक्षण मंत्रालयाबाहेर एका शिक्षकाला अटक करण्यात आली.",
    "updates": [
-    "सहा सार्वजनिक विद्यापीठांनी माद्रिदमध्ये निदर्शने आणि मोर्चासह दोन दिवसांचा संप सुरू केला.",
-    "संप समितीच्या सदस्यांनी चर्चेची मागणी करण्यासाठी प्रादेशिक सरकारी कार्यालयात प्रवेश केला.",
-    "प्रादेशिक शिक्षण विभागाबाहेर निदर्शने सुरू असताना एका शिक्षकाला अटक करण्यात आली."
+    "मड्रिडमधील सहा सार्वजनिक विद्यापीठांनी पिकेट्स आणि मार्खेस दे उरखिजो येथून काये हेनोवापर्यंत मोर्चा काढून ४८ तासांचा संप सुरू केला.",
+    "संपकऱ्यांनी पूर्व-विद्यापीठ कर्मचाऱ्यांच्या सोबत अतोचा ते सिबेलेसपर्यंत मोठ्या निदर्शनांसह त्यांचा दोन दिवसांचा विद्यापीठ संप समाप्त केला."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "५ नोव्हेंबर रोजी निदर्शने सुरू असताना एका शिक्षकाला अटक करण्यात आली."
+    "crowd": "पहिल्या दिवशी १०,००० हून अधिक विद्यार्थी, शिक्षक व संशोधक कर्मचारी आणि इतर कर्मचारी, आणि आणखी हजारो...",
+    "arrests": "प्रादेशिक शिक्षण मंत्रालयाबाहेर एका माध्यमिक शाळेच्या शिक्षकाला अटक करण्यात आली"
    }
   },
   "es": {
-   "title": "Estudiantes y personal de universidades de Madrid en huelga y marcha por la financiación",
-   "seoTitle": "Huelga y marcha universitaria en Madrid",
+   "title": "Estudiantes y personal de universidades de Madrid se declaran en huelga y marchan por la financiación",
+   "seoTitle": "Huelga y marcha de universidades de Madrid",
    "tea": {
-    "why": "Los manifestantes citan la asfixia económica de las universidades públicas, la falta de financiación y la supuesta represión en los campus por parte del gobierno regional.",
-    "want": "Aumento de la financiación de las universidades públicas, mejores condiciones laborales y una reunión con el Consejero de Educación regional.",
-    "changed": "5 de noviembre: Un profesor fue detenido durante una protesta frente a la Consejería de Educación regional."
+    "why": "Estudiantes y personal de universidades públicas protestaron contra la asfixia económica, la infrafinanciación y la represión en los campus por parte del gobierno regional.",
+    "want": "Mayor financiación universitaria, la anulación del acuerdo regional de financiación, mejores salarios y el fin de la privatización de la educación pública.",
+    "changed": "5 de noviembre: Un profesor de secundaria fue detenido por la policía durante una protesta frente a la Consejería regional de Educación."
    },
-   "summary": "Estudiantes y personal de las seis universidades públicas de Madrid iniciaron una huelga de dos días el 4 de noviembre de 2026 para protestar contra lo que describen como la asfixia económica de la educación pública. Organizada por la Coordinadora en Defensa de la Universidad Pública y otras plataformas, la acción incluyó piquetes en los campus universitarios y una marcha desde la sede del PSOE hasta la sede del PP. Los participantes exigen un aumento de la financiación, argumentando que los acuerdos actuales son insuficientes y promueven la privatización. La huelga universitaria coincide con una huelga indefinida en curso desde hace cuatro semanas de los profesores de primaria y secundaria. El 5 de noviembre, miembros del comité de huelga de educación entraron en las oficinas de recursos humanos del gobierno regional para exigir negociaciones, mientras que un profesor fue detenido durante una protesta separada frente a la Consejería de Educación. Las autoridades han mantenido que las negociaciones están en curso a través de las mesas sectoriales establecidas.",
+   "summary": "Estudiantes, investigadores y personal administrativo de las seis universidades públicas de Madrid iniciaron una huelga de dos días acompañada de marchas y piquetes informativos. Acompañados por el personal educativo no universitario que se encontraba en huelga indefinida desde mediados de octubre, los manifestantes denunciaron lo que calificaron como una infrafinanciación intencionada y asfixia económica por parte del gobierno regional del Partido Popular e Isabel Díaz Ayuso, argumentando que el reciente acuerdo de financiación plurianual era inadecuado. Los manifestantes realizaron concentraciones, marcharon desde lugares como la calle del Marqués de Urquijo hacia la sede del PP, y posteriormente se manifestaron desde Atocha hacia Cibeles y la Consejería de Educación. Las autoridades desplegaron una fuerte presencia policial, lo que provocó enfrentamientos y al menos la detención de un docente frente a la consejería de educación.",
    "demands": [
-    "Aumento de la financiación de las universidades públicas",
-    "Fin de la privatización universitaria",
-    "Mejora de las condiciones laborales de los docentes",
-    "Negociaciones con el Consejero de Educación"
+    "Aumentar la financiación de las universidades públicas del 0,4% hacia el 1% establecido por la LOSU",
+    "Rechazar el acuerdo de financiación plurianual firmado con los rectores de las universidades",
+    "Frenar la expansión y privatización de la educación pública",
+    "Mejorar las condiciones laborales y los salarios del personal educativo",
+    "Detener la represión y la presencia policial en los campus"
    ],
-   "response": "El gobierno regional ha declarado que las negociaciones se están llevando a cabo a través de la mesa sectorial y anteriormente ha descrito la huelga educativa más amplia como política. Los funcionarios no se han reunido con el comité de huelga.",
+   "response": "Según fuentes, el gobierno regional se negó a negociar con los educadores en huelga. La policía mantuvo una fuerte presencia, lo que dio lugar a varios incidentes, enfrentamientos y la detención de un profesor frente a la Consejería de Educación por presunta desobediencia y resistencia.",
    "updates": [
-    "Seis universidades públicas comenzaron una huelga de dos días con piquetes y una marcha en Madrid.",
-    "Miembros del comité de huelga entraron en las oficinas del gobierno regional para exigir negociaciones.",
-    "Un profesor fue detenido durante una protesta frente a la Consejería de Educación regional."
+    "Las seis universidades públicas de Madrid iniciaron una huelga de 48 horas con piquetes y una marcha desde Marqués de Urquijo hasta la calle Génova.",
+    "Los huelguistas concluyeron su parón universitario de dos días con masivas manifestaciones desde Atocha hasta Cibeles junto con el personal no universitario."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Un profesor fue detenido durante una protesta el 5 de noviembre."
+    "crowd": "más de 10.000 estudiantes, personal docente e investigador, y otro personal durante el primer día, y miles más…",
+    "arrests": "Un profesor de secundaria fue detenido frente a la Consejería regional de Educación"
    }
   },
   "fr": {
    "title": "Grève et manifestation des étudiants et du personnel des universités de Madrid pour le financement",
-   "seoTitle": "Grève et manifestation universitaire à Madrid",
+   "seoTitle": "Grève et manifestation des universités de Madrid",
    "tea": {
-    "why": "Les manifestants évoquent l'asphyxie économique des universités publiques, le sous-financement et la répression présumée sur les campus par le gouvernement régional.",
-    "want": "Augmentation du financement des universités publiques, amélioration des conditions de travail et une réunion avec le ministre régional de l'Éducation.",
-    "changed": "5 novembre : Un enseignant a été arrêté lors d'une manifestation devant le département régional de l'Éducation."
+    "why": "Les étudiants et le personnel des universités publiques ont protesté contre l'asphyxie économique, le sous-financement et la répression sur les campus par le gouvernement régional.",
+    "want": "Une augmentation du financement des universités, l'annulation de l'accord régional de financement, de meilleurs salaires et la fin de la privatisation de l'éducation publique.",
+    "changed": "5 novembre : Un professeur de lycée a été interpellé par la police lors d'une manifestation devant le ministère regional de l'Éducation."
    },
-   "summary": "Les étudiants et le personnel des six universités publiques de Madrid ont entamé une grève de deux jours le 4 novembre 2026 pour protester contre ce qu'ils décrivent comme l'asphyxie économique de l'enseignement public. Organisée par la Coordinadora en Defensa de la Universidad Pública et d'autres plateformes, l'action comprenait des piquets de grève sur les campus universitaires et une marche du siège du PSOE au siège du PP. Les participants exigent une augmentation du financement, arguant que les accords actuels sont insuffisants et favorisent la privatisation. La grève universitaire coïncide avec une grève illimitée en cours depuis quatre semaines des enseignants du primaire et du secondaire. Le 5 novembre, des membres du comité de grève de l'éducation sont entrés dans les bureaux des ressources humaines du gouvernement régional pour exiger des négociations, tandis qu'un enseignant a été arrêté lors d'une manifestation distincte devant le département de l'Éducation. Les autorités ont maintenu que les négociations sont en cours par le biais des tables sectorielles établies.",
+   "summary": "Les étudiants, chercheurs et personnels administratifs des six universités publiques de Madrid ont entamé une grève de deux jours accompagnée de marches et de piquets d'information. Rejoints par le personnel éducatif du secondaire qui était en grève illimitée depuis la mi-octobre, les manifestants ont dénoncé ce qu'ils ont qualifié de sous-financement intentionnel et d'asphyxie économique de la part du gouvernement régional dirigé par le Parti populaire et Isabel Díaz Ayuso, arguant que le récent accord de financement pluriannuel était insuffisant. Les manifestants ont tenu des rassemblements, ont marché depuis des lieux tels que la calle de Marqués de Urquijo vers le siège du PP, puis ont manifesté d'Atocha vers Cibeles et le ministère de l'Éducation. Les autorités ont déployé une forte présence policière, entraînant des heurts et l'arrestation d'au moins un enseignant devant le ministère de l'éducation.",
    "demands": [
-    "Augmentation du financement des universités publiques",
-    "Fin de la privatisation des universités",
-    "Amélioration des conditions de travail des enseignants",
-    "Négociations avec le ministre de l'Éducation"
+    "Augmenter le financement des universités publiques de 0,4 % vers les 1 % fixés par la LOSU",
+    "Rejeter l'accord de financement pluriannuel signé avec les recteurs d'université",
+    "Stopper l'expansion et la privatisation de l'éducation publique",
+    "Améliorer les conditions de travail et les salaires du personnel éducatif",
+    "Mettre fin à la répression et à la présence policière sur les campus"
    ],
-   "response": "Le gouvernement régional a déclaré que les négociations sont gérées par le biais de la table sectorielle et a précédemment décrit la grève de l'éducation plus large comme politique. Les responsables n'ont pas rencontré le comité de grève.",
+   "response": "Selon des sources, le gouvernement régional a refusé de négocier avec les éducateurs en grève. La police a maintenu une forte présence, ce qui a provoqué plusieurs incidents, des heurts et l'arrestation d'un enseignant devant le ministère de l'Éducation pour désobéissance et résistance présumées.",
    "updates": [
-    "Six universités publiques ont entamé une grève de deux jours avec des piquets de grève et une marche à Madrid.",
-    "Des membres du comité de grève sont entrés dans les bureaux du gouvernement régional pour exiger des négociations.",
-    "Un enseignant a été arrêté lors d'une manifestation devant le département régional de l'Éducation."
+    "Les six universités publiques de Madrid ont entamé une grève de 48 heures avec des piquets et une marche de Marqués de Urquijo jusqu'à la calle Génova.",
+    "Les grévistes ont conclu leur débrayage universitaire de deux jours par des manifestations massives d'Atocha à Cibeles aux côtés du personnel pré-universitaire."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Un enseignant a été arrêté lors d'une manifestation le 5 novembre."
+    "crowd": "plus de 10 000 étudiants, personnel enseignant et chercheur, et autres membres du personnel lors de la première journée, et des milliers d'autres...",
+    "arrests": "Un professeur de lycée a été arrêté devant le ministère regional de l'Éducation"
    }
   },
   "de": {
-   "title": "Streik und Marsch von Studenten und Personal der Madrider Universitäten wegen Finanzierung",
-   "seoTitle": "Universitätsstreik und Marsch in Madrid",
+   "title": "Universitätsstudenten und -personal in Madrid streiken und demonstrieren für Finanzierung",
+   "seoTitle": "Madrid Universitätstreik und Demonstration",
    "tea": {
-    "why": "Die Demonstranten führen die wirtschaftliche Erstickung der öffentlichen Universitäten, Unterfinanzierung und angebliche Unterdrückung auf dem Campus durch die Regionalregierung an.",
-    "want": "Erhöhte Finanzierung der öffentlichen Universitäten, verbesserte Arbeitsbedingungen und ein Treffen mit dem regionalen Bildungsminister.",
-    "changed": "5. November: Ein Lehrer wurde während eines Protests vor dem regionalen Bildungsministerium festgenommen."
+    "why": "Studierende und Beschäftigte öffentlicher Universitäten protestierten gegen die wirtschaftliche Erstickung, Unterfinanzierung und Campus-Repression durch die Regionalregierung.",
+    "want": "Erhöhte Universitätsfinanzierung, die Aufhebung des regionalen Finanzierungsabkommens, bessere Gehälter und ein Ende der Privatisierung des öffentlichen Bildungswesens.",
+    "changed": "5. Nov.: Ein Sekundarschullehrer wurde während einer Demonstration vor dem regionalen Bildungsministerium von der Polizei festgenommen."
    },
-   "summary": "Studenten und Personal der sechs öffentlichen Universitäten in Madrid begannen am 4. November 2026 einen zweitägigen Streik, um gegen das zu protestieren, was sie als wirtschaftliche Erstickung der öffentlichen Bildung beschreiben. Die von der Coordinadora en Defensa de la Universidad Pública und anderen Plattformen organisierte Aktion umfasste Streikposten auf den Universitätsgeländen und einen Marsch vom PSOE-Hauptquartier zum PP-Hauptquartier. Die Teilnehmer fordern eine erhöhte Finanzierung und argumentieren, dass die aktuellen Vereinbarungen unzureichend seien und die Privatisierung fördern. Der Universitätsstreik fällt mit einem seit vier Wochen andauernden unbefristeten Streik der Grund- und Sekundarschullehrer zusammen. Am 5. November drangen Mitglieder des Bildungsstreikkomitees in die Personalbüros der Regionalregierung ein, um Verhandlungen zu fordern, während ein Lehrer während eines separaten Protests vor dem Bildungsministerium festgenommen wurde. Die Behörden haben erklärt, dass die Verhandlungen über die etablierten sektoralen Tische laufen.",
+   "summary": "Studierende, Forschende und Verwaltungspersonal der sechs öffentlichen Universitäten in Madrid traten in einen zweitägigen Streik, begleitet von Märschen und Informationsposten. Unterstützt von voruniversitärem Bildungspersonal, das sich seit Mitte Oktober im unbefristeten Streik befand, prangerten die Demonstrierenden an, was sie als absichtliche Unterfinanzierung und wirtschaftliche Erstickung durch die Regionalregierung unter der Partido Popular und Isabel Díaz Ayuso bezeichneten, und argumentierten, das kürzliche mehrjährige Finanzierungsabkommen sei unzureichend. Die Demonstrierenden hielten Kundgebungen ab, marschierten von Orten wie der Calle de Marqués de Urquijo zur PP-Zentrale und demonstrierten später von Atocha nach Cibeles und zum Bildungsministerium. Die Behörden zeigten starke Polizeipräsenz, was zu Zusammenstößen und mindestens der Festnahme einer Lehrkraft vor dem Bildungsministerium führte.",
    "demands": [
-    "Erhöhte Finanzierung der öffentlichen Universitäten",
-    "Ende der Universitätsprivatisierung",
-    "Verbesserte Arbeitsbedingungen für Lehrer",
-    "Verhandlungen mit dem Bildungsminister"
+    "Erhöhung der öffentlichen Universitätsfinanzierung von 0,4 % auf die von der LOSU festgelegten 1 %",
+    "Ablehnung des mit den Rektoren der Universitäten unterzeichneten mehrjährigen Finanzierungsabkommens",
+    "Stopp der Ausweitung und Privatisierung des öffentlichen Bildungswesens",
+    "Verbesserung der Arbeitsbedingungen und Gehälter des Bildungspersonals",
+    "Beendigung von Repression und Polizeipräsenz auf dem Campus"
    ],
-   "response": "Die Regionalregierung hat erklärt, dass die Verhandlungen über den sektoralen Tisch abgewickelt werden und hat den breiteren Bildungsstreik zuvor als politisch bezeichnet. Die Beamten haben sich nicht mit dem Streikkomitee getroffen.",
+   "response": "Berichten zufolge weigerte sich die Regionalregierung, mit den streikenden Lehrkräften zu verhandeln. Die Polizei hielt eine starke Präsenz aufrecht, was zu mehreren Zwischenfällen, Zusammenstößen und der Festnahme einer Lehrkraft vor dem Bildungsministerium wegen angeblicher Missachtung und Widerstands führte.",
    "updates": [
-    "Sechs öffentliche Universitäten begannen einen zweitägigen Streik mit Streikposten und einem Marsch in Madrid.",
-    "Mitglieder des Streikkomitees drangen in Büros der Regionalregierung ein, um Verhandlungen zu fordern.",
-    "Ein Lehrer wurde während eines Protests vor dem regionalen Bildungsministerium festgenommen."
+    "Die sechs öffentlichen Universitäten in Madrid begannen einen 48-Stunden-Streik mit Streikposten und einem Marsch von Marqués de Urquijo zur Calle Génova.",
+    "Die Streikenden beendeten ihren zweitägigen Universitätsausstand mit massiven Demonstrationen von Atocha nach Cibeles zusammen mit voruniversitärem Personal."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Ein Lehrer wurde während eines Protests am 5. November festgenommen."
+    "crowd": "mehr als 10.000 Studierende, Lehr- und Forschungspersonal sowie weiteres Personal am ersten Tag und Tausende weitere...",
+    "arrests": "Ein Sekundarschullehrer wurde vor dem regionalen Bildungsministerium festgenommen"
    }
   }
- }
+ },
+ "endedOn": "2026-11-05"
 }
