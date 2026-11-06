@@ -1,5 +1,5 @@
 // Decide whether this run deploys: only when a page changed, or every 2 hours so the
-// "checked X min ago" line stays fresh (pages show a stale warning after 3 hours).
+// "checked X min ago" line stays fresh (pages show a stale warning after 6 hours).
 // Keeps deploys to ~15-20/day whatever Cloudflare's per-month limits turn out to be.
 import fs from 'node:fs';
 

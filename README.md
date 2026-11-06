@@ -47,7 +47,7 @@ Vercel project `protest` connected to it — every push to `main` deploys.
 4. **Own domain later** (protesttracker.online, $1.99): add it in Vercel → Domains, then set `SITE_URL` both as a
    Vercel env var and a GitHub repo variable.
 
-Actions minutes: a private repo gets 2,000/month, so the pipeline runs every 3 hours (~6 min a run). Make the repo public to run it hourly.
+Actions minutes: a private repo gets 2,000/month, so the pipeline runs every 4 hours (~9 min a run). Make the repo public to run it hourly.
 
 Backup timer: GitHub's own schedule can skip hours on small repos, so Vercel Cron calls `/api/tick`, which starts the
 workflow if no run started in the last 150 minutes. It needs one Vercel env var: `GITHUB_DISPATCH_TOKEN` (GitHub →
@@ -76,6 +76,6 @@ with 3+ independent newsrooms and never with tone or low-confidence flags.
 | | Free tier | Watch |
 |---|---|---|
 | Gemini | ~1,500 req/day; pipeline caps itself at 1,000 (`AI_DAILY_CAP`) | switch `AI_PROVIDER=anthropic` (Haiku 4.5) if limits bite |
-| GitHub Actions | 2,000 min/month private (every 3 h ≈ 1,500), unlimited public | ~6 min per run |
+| GitHub Actions | 2,000 min/month private (every 4 h ≈ 1,650), unlimited public | ~9 min per run |
 | Vercel Hobby | free, non-commercial | deploys only when pages change or every 2 h |
 | Map | own canvas globe, no provider | none |

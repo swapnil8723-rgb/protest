@@ -94,22 +94,31 @@ test('worker: deleting more than 100 reports at once works (D1 binds 100 values 
   assert.equal(left.results[0].n, 0);
 });
 
-test('worker: the hourly backup starts the pipeline only after 165 quiet minutes', async () => {
+test('worker: the hourly backup starts the pipeline only after 225 quiet minutes', async () => {
   const NOW = Date.parse('2026-10-28T10:50:00Z');
   const calls: string[] = [];
-  const github = (lastRun: object | null) => (async (url: string | URL | Request, init?: RequestInit) => {
+  const github = (...list: object[]) => (async (url: string | URL | Request, init?: RequestInit) => {
     calls.push(`${init?.method ?? 'GET'} ${String(url).split('/workflows/')[1]}`);
     if (String(url).endsWith('/dispatches')) return new Response(null, { status: 204 });
-    return Response.json({ workflow_runs: lastRun ? [lastRun] : [] });
+    return Response.json({ workflow_runs: list });
   }) as typeof fetch;
   const e = { ...env(), GITHUB_DISPATCH_TOKEN: 'gh' };
 
-  assert.deepEqual(await tick({ ...e, GITHUB_DISPATCH_TOKEN: undefined }, NOW, github(null)), { skipped: 'GITHUB_DISPATCH_TOKEN not set' });
+  assert.deepEqual(await tick({ ...e, GITHUB_DISPATCH_TOKEN: undefined }, NOW, github()), { skipped: 'GITHUB_DISPATCH_TOKEN not set' });
   assert.equal(((await tick(e, NOW, github({ created_at: '2026-10-28T09:00:00Z', status: 'completed' }))) as any).skipped, 'recent run');
+  assert.equal(((await tick(e, NOW, github({ created_at: '2026-10-28T07:30:00Z', status: 'completed' }))) as any).skipped, 'recent run'); // 200 min: inside the 4-hour cadence
   assert.equal(((await tick(e, NOW, github({ created_at: '2026-10-28T05:00:00Z', status: 'in_progress' }))) as any).skipped, 'recent run');
   calls.length = 0;
-  assert.equal(((await tick(e, NOW, github({ created_at: '2026-10-28T07:00:00Z', status: 'completed' }))) as any).dispatched, true);
-  assert.deepEqual(calls, ['GET pipeline.yml/runs?per_page=1', 'POST pipeline.yml/dispatches']);
+  assert.equal(((await tick(e, NOW, github({ created_at: '2026-10-28T06:50:00Z', status: 'completed' }))) as any).dispatched, true);
+  assert.deepEqual(calls, ['GET pipeline.yml/runs?per_page=10', 'POST pipeline.yml/dispatches']);
+
+  // A scheduled run that skipped itself doesn't reset the clock; the real run before it counts.
+  const skipped = { event: 'schedule', status: 'completed', created_at: '2026-10-28T09:30:00Z', updated_at: '2026-10-28T09:30:40Z' };
+  const real = { event: 'workflow_dispatch', status: 'completed', created_at: '2026-10-28T06:50:00Z', updated_at: '2026-10-28T07:00:00Z' };
+  assert.equal(((await tick(e, NOW, github(skipped, real))) as any).dispatched, true);
+  // A scheduled run that really ran does count, and so does one still going.
+  assert.equal(((await tick(e, NOW, github({ ...skipped, updated_at: '2026-10-28T09:40:00Z' }, real))) as any).skipped, 'recent run');
+  assert.equal(((await tick(e, NOW, github({ ...skipped, status: 'in_progress' }, real))) as any).skipped, 'recent run');
 });
 
 test('worker: the ad counter keeps totals only, and only from our own pages', async () => {

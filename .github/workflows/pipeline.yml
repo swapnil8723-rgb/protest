@@ -1,14 +1,16 @@
 name: pipeline
 
-# Every 3 hours: discover → verify → summarise → translate → commit data/ to main.
+# Every 4 hours: discover → verify → summarise → translate → commit data/ to main.
 # Vercel's Git integration builds and deploys every push to main; runs where nothing
 # visible changed are committed with "[skip vercel]" (see vercel.json ignoreCommand).
-# Budget: private repo = 2,000 free Actions minutes/month; 8 runs/day × ~6 min ≈ 1,500.
+# Budget: private repo = 2,000 free Actions minutes/month; 6 runs/day × ~9 min ≈ 1,650,
+# plus up to 1 min for each scheduled run that skips itself. Every 3 hours was on course
+# for 2,100+ once the Europe/China search was added (owner moved it to 4 hours, 6 Nov 2026).
 # The pipeline needs no npm packages (plain Node), so there is no install step.
 # Hourly would need ~4,000 min: only if the repo goes public (unlimited minutes).
 on:
   schedule:
-    - cron: '17 */3 * * *'
+    - cron: '17 */4 * * *'
   workflow_dispatch:
     inputs:
       inbox_url:
@@ -22,7 +24,7 @@ concurrency:
 
 permissions:
   contents: write
-  actions: read # to see whether a run just happened (the Vercel /api/tick backup may have started one)
+  actions: read # to see whether a run just happened (the worker/tick.ts backup may have started one)
   id-token: write # proves to /api/inbox that this repo's workflow is asking (reader reports)
 
 jobs:
@@ -37,15 +39,16 @@ jobs:
         if: env.HAS_AI != 'true'
         run: echo "::notice::Add GEMINI_API_KEY (or ANTHROPIC_API_KEY) as a repo secret to start the pipeline."
 
-      # GitHub's timer and the hourly Vercel /api/tick backup can both fire: run once per
-      # window (90 min: a tick-started run covers the GitHub slot that follows it).
-      - name: Skip if a run started in the last 90 minutes
+      # GitHub's timer and the hourly Cloudflare backup (worker/tick.ts) can both fire: run
+      # once per window (3 hours: a tick-started run covers the GitHub slot that follows it).
+      # The backup ignores these skipped runs, so skipping never lengthens the gap.
+      - name: Skip if a run started in the last 3 hours
         if: github.event_name == 'schedule'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           last=$(gh run list -R "$GITHUB_REPOSITORY" --workflow pipeline.yml --limit 5 --json databaseId,createdAt             --jq "[.[] | select(.databaseId != ${{ github.run_id }})][0].createdAt // empty")
-          if [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 5400 ]; then
+          if [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 10800 ]; then
             echo "Run started at $last; skipping this one."; echo "SKIP=true" >> "$GITHUB_ENV"
           fi
 

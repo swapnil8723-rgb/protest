@@ -31,8 +31,8 @@ setInterval(tick, 60_000);
 
 // If deploys stop, pages would keep saying "YES it's on". Say so instead.
 const lastRun = document.body.dataset.lastRun;
-// Checks run every 3 hours; warn once one has clearly been missed.
-if (lastRun && Date.now() - Date.parse(lastRun) > 5 * 3.6e6) {
+// Checks run every 4 hours (at worst about 5 with the backup); warn once one has clearly been missed.
+if (lastRun && Date.now() - Date.parse(lastRun) > 6 * 3.6e6) {
   const bar = document.createElement('div');
   bar.setAttribute('role', 'status');
   bar.className = 'stale-bar';
