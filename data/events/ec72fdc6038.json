@@ -1,9 +1,9 @@
 {
  "id": "ec72fdc6038",
- "slug": "",
- "stage": "candidate",
- "title": "Thousands march in Bordeaux against cost of living",
- "seoTitle": "",
+ "slug": "bordeaux-cost-of-living-march-nov-2026",
+ "stage": "live",
+ "title": "Thousands march in Bordeaux against cost of living and for public services",
+ "seoTitle": "Bordeaux march against cost of living",
  "place": {
   "city": "Bordeaux",
   "region": "New Aquitaine",
@@ -15,39 +15,99 @@
  },
  "scope": "local",
  "causes": [
-  "prices",
-  "governance"
+  "prices"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-05",
- "status": "ongoing",
- "vibe": "heating-up",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": true,
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence",
+  "sources-disagree"
+ ],
+ "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Protesters are angry about the rising cost of living, difficulties in housing and feeding themselves, and a decline in purchasing power.",
+  "want": "Demonstrators demand better purchasing power, the defense of public services, and support for education.",
+  "changed": "Nov 5: Thousands marched through Bordeaux, with clashes reported between some individuals and police after the event concluded."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
- "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
+ "summary": "On November 5, 2026, thousands of people marched through the streets of Bordeaux during a general strike day to protest against the rising cost of living, decreasing purchasing power, and to demand the protection of public services. Organised with inter-union backing, the procession included students, teachers, retirees, and other participants who highlighted struggles with housing and food costs. While the march initially proceeded without major disruption from Place de la République to Place de la Victoire, sources reported that clashes with law enforcement broke out more than an hour after the demonstration officially ended at Place de la Victoire. Official crowd estimates ranged between 21,000 according to authorities and 120,000 according to union figures.",
+ "organizers": [
+  "intersyndicale",
+  "CGT"
+ ],
+ "demands": [
+  "Defend purchasing power",
+  "Protect public services",
+  "Support schools and education"
+ ],
+ "response": "According to the sources, authorities estimated the crowd size at 21,000 people, and law enforcement faced clashes with individuals more than an hour after the main demonstration ended.",
+ "numbers": {
+  "crowd": {
+   "value": 120000,
+   "text": "120,000 selon l’intersyndicale",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-11-05",
+   "text": "Thousands of demonstrators marched from Place de la République to Place de la Victoire during a general strike.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
+   "at": "2026-11-05",
+   "text": "Clashes between forces of order and individuals erupted more than an hour after the conclusion of the march at Place de la Victoire.",
+   "sources": [
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.sudouest.fr/gironde/bordeaux/mobilisation-du-5-novembre-a-bordeaux-on-galere-pour-se-loger-et-se-nourrir-la-colere-face-a-la-vie-chere-31400622.php",
+   "publisher": "sudouest.fr",
+   "title": "Mobilisation du 5 novembre à Bordeaux. « On galère pour se loger et se nourrir » : la colère face à la vie chère",
+   "publishedAt": "2026-11-05T19:38:04.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.ici.fr/emissions/l-info-d-ici-ici-gironde/manifestation-du-5-novembre-a-bordeaux-ca-prouve-que-le-mouvement-ne-s-essouffle-pas-7596587",
+   "publisher": "ici.fr",
+   "title": "Manifestation du 5 novembre à Bordeaux : \"Ça prouve que le mouvement ne s",
+   "publishedAt": "2026-11-06T00:00:00.000Z"
+  }
+ ],
+ "conflicts": [
+  "Authorities stated 21,000 people attended the march, while union figures claimed 120,000 participants."
+ ],
+ "confidence": 0.55,
+ "publishers": 2,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-05T20:19:02.416Z",
- "lastReportAt": "2026-11-05T20:19:02.416Z",
- "lastCheckedAt": "2026-11-05T20:19:02.416Z",
- "updatedAt": "2026-11-05T20:19:02.416Z",
- "searchedAt": "2026-11-06T02:50:55.003Z"
+ "lastReportAt": "2026-11-06T00:00:00.000Z",
+ "lastCheckedAt": "2026-11-06T09:57:47.783Z",
+ "updatedAt": "2026-11-06T09:57:33.627Z",
+ "searchedAt": "2026-11-06T02:50:55.003Z",
+ "endedOn": "2026-11-05",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-11-06T09:57:33.627Z",
+ "summaryOf": "a401c5ad40a0"
 }
