@@ -17,73 +17,81 @@
  "causes": [
   "environment",
   "climate",
-  "palestine"
+  "housing"
  ],
- "kind": "multi-day",
+ "kind": "one-day",
  "startedOn": "2026-11-06",
- "status": "ongoing",
- "vibe": "tense",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
   "serious",
-  "top-10",
   "tone-words"
  ],
- "isOngoing": true,
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters oppose the construction of a large Microsoft data centre, citing massive energy consumption, AI expansion, and alleged links to military actions.",
-  "want": "To halt the construction of data centres and express opposition to Big Tech and related geopolitical conflicts.",
-  "changed": "Nov 6: Police detained 150 to 200 protesters for trespassing after activists breached the construction site fences."
+  "why": "Activists oppose the rapid expansion of energy- and water-intensive data centres, artificial intelligence infrastructure, and Microsoft's ties to military and…",
+  "want": "Demonstrators demand an end to construction on the Microsoft data centre and a halt to unchecked data centre development.",
+  "changed": "Nov 6: Police used pepper spray and batons, detaining between 150 and 200 protesters who occupied the site."
  },
- "summary": "Several hundred activists occupied a construction site for a new Microsoft data centre in the Sloterdijk district of Amsterdam. Organised in part by the group Geef Tegengas alongside climate and pro-Palestinian groups including Fossielvrij NL, demonstrators breached perimeter fences using tools and climbed onto cranes and roofs to protest the facility's immense energy demands and corporate power. Riot police intervened with pepper spray and batons, clearing parts of the site and detaining numerous individuals. Microsoft stated it respects peaceful protest but condemns unlawful and dangerous actions.",
+ "summary": "On November 6, 2026, hundreds of activists broke into the construction site of a planned Microsoft data centre in the Sloterdijk district of Amsterdam, North Holland, Netherlands. The action was organized by groups including Geef Tegengas, alongside pro-Palestinian demonstrators and climate campaigners such as Extinction Rebellion and Fossielvrij NL. Protesters scaled scaffolding and cranes, hung banners and Palestinian flags, and spray-painted concrete foundations. They criticized the massive energy and water consumption of artificial intelligence infrastructure and accused Microsoft of supporting military and surveillance operations. Riot police intervened using pepper spray and batons to clear the area.",
  "organizers": [
   "Geef Tegengas",
-  "Fossielvrij NL",
-  "Extinction Rebellion"
+  "Extinction Rebellion",
+  "Fossielvrij NL"
  ],
  "demands": [
-  "Stop the construction of the Microsoft data centre",
-  "Halt the expansion of energy-intensive data infrastructure",
-  "End technological support for military and surveillance operations"
+  "Stop construction of the Microsoft data centre",
+  "Halt the expansion of energy- and water-intensive data centres",
+  "End Big Tech support for military operations and surveillance"
  ],
- "response": "Police used pepper spray, batons, and riot units to clear the site, detaining between 150 and 200 people for trespassing and property damage, according to police statements. Microsoft acknowledged the demonstration, stating it respects peaceful expression but does not condone unlawful or dangerous actions.",
+ "response": "Police intervened with riot units, deploying pepper spray and batons, and stated they detained 150 to 200 people for trespassing. A Microsoft spokesperson stated the company respects peaceful expression but does not condone unlawful actions or safety risks. According to police, one officer sustained a minor injury.",
  "numbers": {
+  "crowd": {
+   "value": 500,
+   "text": "several hundred activists occupied the site",
+   "sources": [
+    1,
+    8
+   ]
+  },
   "arrests": {
    "value": 200,
    "text": "150 to 200 demonstrators seien wegen Hausfriedensbruch festgenommen worden",
    "sources": [
-    5,
     6,
+    11,
     8,
     9
    ]
   },
   "injuries": {
    "value": 1,
-   "text": "Bij het protest raakte een agent lichtgewond.",
+   "text": "a police officer was lightly injured",
    "sources": [
-    1
+    1,
+    10
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-06",
-   "text": "Activists broke through fences at the Microsoft data centre construction site in Amsterdam, occupying the area.",
+   "text": "Activists breached the fencing around the Microsoft data centre construction site in Amsterdam, scaling cranes and hanging banners.",
    "sources": [
     1,
     2,
-    8
+    3
    ]
   },
   {
    "at": "2026-11-06",
-   "text": "Police deployed riot units, pepper spray, and batons, arresting between 150 and 200 protesters.",
+   "text": "Police deployed riot units, pepper spray, and batons, and reported detaining 150 to 200 individuals for trespassing.",
    "sources": [
     2,
-    5,
+    6,
     8,
     9
    ]
@@ -113,24 +121,24 @@
   },
   {
    "n": 4,
-   "url": "https://www.servustv.com/de/page/AA7YSDFA38CUXTGSBQKH/amsterdam-protest-bei-microsoft-bau",
-   "publisher": "servustv.com",
-   "title": "Amsterdam: Protest bei Microsoft-Bau",
-   "publishedAt": "2026-11-06T18:32:15.000Z"
+   "url": "https://www.svd.se/a/pMgdzW/nara-200-gripna-i-protest-mot-datacenter",
+   "publisher": "svd.se",
+   "title": "Demonstranter tog sig in på Microsoft",
+   "publishedAt": "2026-11-06T18:02:42.000Z"
   },
   {
    "n": 5,
+   "url": "https://focus.ua/uk/world/773893-protest-proti-shi-ta-microsoft-u-niderlandah-aktivisti-zahopili-budmaydanchik-data-centru",
+   "publisher": "focus.ua",
+   "title": "Протест проти ШІ та Microsoft: у Нідерландах активісти захопили будмайданчик дата-центру",
+   "publishedAt": "2026-11-06T18:45:43.000Z"
+  },
+  {
+   "n": 6,
    "url": "https://www.handelsblatt.com/politik/international/niederlande-protest-gegen-microsoft-rechenzentrum-in-amsterdam/100268012.html",
    "publisher": "handelsblatt.com",
    "title": "Niederlande: Protest gegen Microsoft-Rechenzentrum in Amsterdam",
    "publishedAt": "2026-11-06T19:34:38.000Z"
-  },
-  {
-   "n": 6,
-   "url": "https://www.svt.se/nyheter/utrikes/nara-200-gripna-i-protest-mot-datacenter-i-amsterdam",
-   "publisher": "svt.se",
-   "title": "Nära 200 gripna i protest mot datacenter i Amsterdam",
-   "publishedAt": "2026-11-06T20:40:15.000Z"
   },
   {
    "n": 7,
@@ -152,161 +160,181 @@
    "publisher": "spiegel.de",
    "title": "Demonstranten besetzen Baustelle von Microsoft-Rechenzentrum in Amsterdam",
    "publishedAt": "2026-11-06T23:23:00.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://informat.ro/international/activisti-geef-tegengas-protest-microsoft-inteligenta-artificiala-147211",
+   "publisher": "informat.ro",
+   "title": "Activiștii Geef Tegengas au ocupat un șantier Microsoft din Amsterdam, în semn de protest față de extinderea centrelor de date",
+   "publishedAt": "2026-11-07T05:31:15.000Z"
+  },
+  {
+   "n": 11,
+   "url": "https://www.svt.se/nyheter/utrikes/nara-200-gripna-i-protest-mot-datacenter-i-amsterdam",
+   "publisher": "svt.se",
+   "title": "Nära 200 gripna i protest mot datacenter i Amsterdam",
+   "publishedAt": "2026-11-06T20:40:15.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.95,
- "publishers": 9,
- "reports24h": 27,
+ "publishers": 11,
+ "reports24h": 32,
  "reportsPrev24h": 0,
- "reports48h": 27,
+ "reports48h": 32,
  "firstSeenAt": "2026-11-06T12:52:21.184Z",
- "lastReportAt": "2026-11-06T23:23:00.000Z",
- "lastCheckedAt": "2026-11-07T02:57:09.220Z",
- "updatedAt": "2026-11-07T02:55:44.065Z",
+ "lastReportAt": "2026-11-07T05:31:15.000Z",
+ "lastCheckedAt": "2026-11-07T06:12:17.052Z",
+ "updatedAt": "2026-11-07T06:11:25.268Z",
  "responseSources": [
   1,
   2,
   3,
-  5,
+  6,
   8,
-  9
+  9,
+  10
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-07T02:55:44.065Z",
- "summaryOf": "97dcb361fb86",
+ "summarizedAt": "2026-11-07T06:11:25.268Z",
+ "summaryOf": "c02ccee14844",
  "distinctFrom": [
   "e84b25b97d7"
  ],
  "publishedAt": "2026-11-06T19:33:52.349Z",
  "i18n": {
-  "of": "dea63b8a4c7efb5c",
-  "at": "2026-11-07T02:57:20.501Z",
+  "of": "f57efcd5afa93d4b",
+  "at": "2026-11-07T06:12:55.581Z",
   "tries": 1,
   "hi": {
    "title": "कार्यकर्ताओं ने एम्स्टर्डम में माइक्रोसॉफ्ट डेटा सेंटर निर्माण स्थल पर कब्जा किया",
-   "seoTitle": "एम्स्टर्डम में माइक्रोसॉफ्ट डेटा सेंटर के खिलाफ विरोध",
+   "seoTitle": "माइक्रोसॉफ्ट डेटा सेंटर के खिलाफ एम्स्टर्डम में विरोध",
    "tea": {
-    "why": "प्रदर्शनीकारी भारी ऊर्जा खपत, एआई विस्तार और सैन्य कार्रवाइयों से कथित संबंधों का हवाला देते हुए एक बड़े माइक्रोसॉफ्ट डेटा सेंटर के निर्माण का विरोध कर रहे हैं।",
-    "want": "डेटा सेंटरों के निर्माण को रोकना और बिग टेक तथा संबंधित भू-राजनीतिक संघर्षों के प्रति विरोध व्यक्त करना।",
-    "changed": "6 नवंबर: कार्यकर्ताओं द्वारा निर्माण स्थल की बाड़ तोड़ने के बाद पुलिस ने अतिचार के लिए 150 से 200 प्रदर्शनकारियों को हिरासत में लिया।"
+    "why": "कार्यकर्ता ऊर्जा और पानी की भारी खपत वाले डेटा सेंटर, कृत्रिम बुद्धिमत्ता के बुनियादी ढांचे और सैन्य से माइक्रोसॉफ्ट के संबंधों के तेजी से विस्तार का विरोध करते हैं...",
+    "want": "प्रर्दशनकारी माइक्रोसॉफ्ट डेटा सेंटर पर निर्माण कार्य समाप्त करने और अनियंत्रित डेटा सेंटर विकास पर रोक लगाने की मांग करते हैं।",
+    "changed": "6 नवंबर: पुलिस ने काली मिर्च स्प्रे और लाठियों का उपयोग किया, और स्थल पर कब्जा करने वाले 150 से 200 प्रदर्शनकारियों को हिरासत में लिया।"
    },
-   "summary": "सैकड़ों कार्यकर्ताओं ने एम्स्टर्डम के स्लोटेर्डिज्क जिले में एक नए माइक्रोसॉफ्ट डेटा सेंटर के निर्माण स्थल पर कब्जा कर लिया। गीफ टेजेनगास समूह द्वारा जलवायु और फिलिस्तीन समर्थक समूहों, जिनमें फोसिएलव्रिज एनएल शामिल है, के साथ मिलकर आंशिक रूप से आयोजित इस प्रदर्शन में, प्रदर्शनकारियों ने औजारों का उपयोग करके परिधि की बाड़ को तोड़ दिया और सुविधा की भारी ऊर्जा मांगों तथा कॉर्पोरेट सत्ता का विरोध करने के लिए क्रेन और छतों पर चढ़ गए। दंगा नियंत्रण पुलिस ने साइट के कुछ हिस्सों को खाली कराने और कई व्यक्तियों को हिरासत में लेने के लिए मिर्ची स्प्रे और लाठियों का इस्तेमाल किया। माइक्रोसॉफ्ट ने कहा कि वह शांतिपूर्ण विरोध का सम्मान करता है लेकिन गैरकानूनी और खतरनाक कार्रवाइयों की निंदा करता है।",
+   "summary": "6 नवंबर 2026 को, सैकड़ों कार्यकर्ताओं ने नीदरलैंड के उत्तर हॉलैंड में एम्स्टर्डम के स्लॉटरडijks जिले में एक नियोजित माइक्रोसॉफ्ट डेटा सेंटर के निर्माण स्थल में प्रवेश किया। इस कार्रवाई का आयोजन गीफ तेगेनगास जैसे समूहों द्वारा एक्सटिंक्शन रिबेल्लियन और फोसिलव्रिज एनएल जैसे फिलिस्तीन समर्थक प्रदर्शनकारियों और जलवायु कार्यकर्ताओं के साथ मिलकर किया गया था। प्रदर्शनकारियों ने मचान और क्रेन पर चढ़कर बैनर और फिलिस्तीनी झंडे लटकाए, और कंक्रीट की नींव पर स्प्रे-पेंट किया। उन्होंने कृत्रिम बुद्धिमत्ता के बुनियादी ढांचे की भारी ऊर्जा और पानी की खपत की आलोचना की और माइक्रोसॉफ्ट पर सैन्य और निगरानी अभियानों का समर्थन करने का आरोप लगाया। दंगा पुलिस ने क्षेत्र को खाली कराने के लिए काली मिर्च स्प्रे और लाठियों का उपयोग करके हस्तक्षेप किया।",
    "demands": [
     "माइक्रोसॉफ्ट डेटा सेंटर का निर्माण रोकें",
-    "ऊर्जा-गहन डेटा बुनियादी ढांचे के विस्तार को रोकें",
-    "सैन्य और निगरानी अभियानों के लिए तकनीकी समर्थन समाप्त करें"
+    "ऊर्जा और पानी की भारी खपत वाले डेटा केंद्रों के विस्तार पर रोक लगाएं",
+    "सैन्य अभियानों और निगरानी के लिए बिग टेक का समर्थन समाप्त करें"
    ],
-   "response": "पुलिस बयानों के अनुसार, पुलिस ने साइट को खाली कराने के लिए मिर्ची स्प्रे, लाठियों और दंगा रोधी इकाइयों का उपयोग किया, और अतिचार तथा संपत्ति को नुकसान पहुँचाने के लिए 150 से 200 लोगों को हिरासत में लिया। माइक्रोसॉफ्ट ने प्रदर्शन को स्वीकार करते हुए कहा कि वह शांतिपूर्ण अभिव्यक्ति का सम्मान करता है लेकिन गैरकानूनी या खतरनाक कार्रवाइयों का समर्थन नहीं करता है।",
+   "response": "पुलिस ने दंगा इकाइयों के साथ हस्तक्षेप किया, काली मिर्च स्प्रे और लाठियों का प्रयोग किया, और कहा कि उन्होंने अतिचार के लिए 150 से 200 लोगों को हिरासत में लिया। एक माइक्रोसॉफ्ट प्रवक्ता ने कहा कि कंपनी शांतिपूर्ण अभिव्यक्ति का सम्मान करती है लेकिन गैरकानूनी कार्यों या सुरक्षा जोखिमों को सहन नहीं करती है। पुलिस के अनुसार, एक अधिकारी को मामूली चोट आई।",
    "updates": [
-    "कार्यकर्ताओं ने एम्स्टर्डम में माइक्रोसॉफ्ट डेटा सेंटर निर्माण स्थल पर बाड़ तोड़कर क्षेत्र पर कब्जा कर लिया।",
-    "पुलिस ने दंगा रोधी इकाइयों, मिर्ची स्प्रे और लाठियों का उपयोग किया, और 150 से 200 प्रदर्शनकारियों को गिरफ्तार किया।"
+    "कार्यकर्ताओं ने एम्स्टर्डम में माइक्रोसॉफ्ट डेटा सेंटर निर्माण स्थल के चारों ओर की बाड़ को तोड़ दिया, क्रेन पर चढ़ गए और बैनर लटका दिए।",
+    "पुलिस ने दंगा इकाइयों, काली मिर्च स्प्रे और लाठियों को तैनात किया, और अतिचार के लिए 150 से 200 व्यक्तियों को हिरासत में लेने की सूचना दी।"
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "150 से 200 demonstrators seien wegen Hausfriedensbruch festgenommen worden",
-    "injuries": "Bij het protest raakte een agent lichtgewond."
+    "crowd": "कई सौ कार्यकर्ताओं ने स्थल पर कब्जा कर लिया",
+    "arrests": "150 से 200 प्रदर्शनकारी",
+    "injuries": "एक पुलिस अधिकारी को हल्की चोट आई"
    }
   },
   "mr": {
-   "title": "कार्यकर्त्यांनी अँमस्टरडॅममधील मायक्रोसॉफ्ट डेटा सेंटरच्या बांधकामाच्या ठिकाणाचा ताबा घेतला",
-   "seoTitle": "मायक्रोसॉफ्ट डेटा सेंटरविरोधात अँमस्टरडॅममध्ये आंदोलन",
+   "title": "कार्यकर्त्यांनी आम्सडॅममधील मायक्रोसॉफ्ट डेटा सेंटरच्या बांधकाम स्थळावर ताबा मिळवला",
+   "seoTitle": "मायक्रोसॉफ्ट डेटा सेंटरविरोधात आम्सडॅममध्ये निदर्शने",
    "tea": {
-    "why": "विशाल ऊर्जा वापर, एआय विस्तार आणि लष्करी कारवायांशी कथित संबंधांचा हवाला देत निदर्शकांनी एका मोठ्या मायक्रोसॉफ्ट डेटा सेंटरच्या बांधकामाला विरोध केला आहे.",
-    "want": "डेटा सेंटरचे बांधकाम थांबवणे आणि बिग टेक तसेच संबंधित भू-राजकीय संघर्षांविरुद्ध विरोध व्यक्त करणे.",
-    "changed": "६ नोव्हेंबर: कार्यकर्त्यांनी बांधकामाच्या ठिकाणाची कुंपणे तोडल्यानंतर पोलिसांनी हद्दीत प्रवेश केल्याबद्दल १५० ते २०० निदर्शकांना ताब्यात घेतले."
+    "why": "कार्यकर्ते ऊर्जा आणि पाण्याचा प्रचंड वापर करणारी डेटा सेंटर, कृत्रिम बुद्धिमत्ता पायाभूत सुविधा आणि लष्कराशी मायक्रोसॉफ्टच्या संबंधांच्या जलद विस्ताराला विरोध करतात...",
+    "want": "निदर्शक मायक्रोसॉफ्ट डेटा सेंटरचे बांधकाम थांबवण्याची आणि अनियंत्रित डेटा सेंटर विकासाला लगाम घालण्याची मागणी करतात.",
+    "changed": "६ नोव्हेंबर: पोलिसांनी पेपर स्प्रे आणि लाठ्यांचा वापर केला, आणि स्थळावर ताबा मिळवलेल्या १५० ते २०० निदर्शकांना ताब्यात घेतले."
    },
-   "summary": "शेकडो कार्यकर्त्यांनी अँमस्टरडॅमच्या स्लोटेर्डिज्क जिल्ह्यातील एका नवीन मायक्रोसॉफ्ट डेटा सेंटरच्या बांधकामाच्या ठिकाणाचा ताबा घेतला. गीफ टेजेनगास या गटाद्वारे हवामान आणि पॅलेस्टाईन समर्थक गटांच्या, ज्यामध्ये फोसिएलव्रिज एनएलचा समावेश आहे, सोबतीने अंशतः आयोजित केलेल्या या आंदोलनात, निदर्शकांनी साधनांचा वापर करून परिमितीची कुंपणे ओलांडली आणि सुविधेची प्रचंड ऊर्जा मागणी व कॉर्पोरेट सत्तेचा निषेध करण्यासाठी क्रेनवर आणि छतांवर चोळले. दंगलविरोधी पोलिसांनी साइटचे काही भाग मोकळे करण्यासाठी आणि अनेक व्यक्तींना ताब्यात घेण्यासाठी मिरपूड स्प्रे आणि लाठ्यांचा वापर केला. मायक्रोसॉफ्टने म्हटले की ते शांततापूर्ण निषेधाचा आदर करते परंतु बेकायदेशीर आणि धोकादायक कृत्यांचा निषेध करते.",
+   "summary": "६ नोव्हेंबर २०२६ रोजी, शेकडो कार्यकर्त्यांनी नेदरलँड्समधील उत्तर हॉलंडमधील आम्सडॅमच्या स्लॉटरडijk जिल्ह्यातील एका नियोजित मायक्रोसॉफ्ट डेटा सेंटरच्या बांधकाम स्थळात प्रवेश केला. ही कृती एक्सटिंक्शन रिबेल्लियन आणि फोसिलव्रिज एनएल सारख्या पॅलेस्टाईन समर्थक निदर्शक आणि हवामान कार्यकर्त्यांसोबत गीफ तेगेनगास यांसारख्या गटांनी आयोजित केली होती. निदर्शकांनी मचान आणि क्रेन्सवर चढून बॅनर्स आणि पॅलेस्टिनी झेंडे फडकवले, आणि काँक्रीटच्या पायांवर स्प्रे-पेंट केले. त्यांनी कृत्रिम बुद्धिमत्ता पायाभूत सुविधांच्या प्रचंड ऊर्जा आणि पाण्याच्या वापरावर टीका केली आणि मायक्रोसॉफ्टवर लष्करी आणि पाळत ठेवण्याच्या मोहिमांना पाठिंबा दिल्याचा आरोप केला. दंगल नियंत्रण पोलिसांनी परिसर मोकळा करण्यासाठी पेपर स्प्रे आणि लाठ्यांचा वापर करून हस्तक्षेप केला.",
    "demands": [
     "मायक्रोसॉफ्ट डेटा सेंटरचे बांधकाम थांबवा",
-    "ऊर्जा-केंद्रित डेटा पायाभूत सुविधांचा विस्तार थांबवा",
-    "लष्करी आणि पाळत ठेवण्याच्या मोहिमांसाठी तांत्रिक समर्थन संपवा"
+    "ऊर्जा आणि पाण्याचा प्रचंड वापर करणाऱ्या डेटा सेंटरचा विस्तार रोखा",
+    "लष्करी मोहिमा आणि पाळत ठेवण्यासाठी बिग टेकचा पाठिंबा संपवा"
    ],
-   "response": "पोलिसांच्या निवेदनानुसार, पोलिसांनी साइट मोकळी करण्यासाठी मिरपूड स्प्रे, लाठ्या आणि दंगलविरोधी पथकांचा वापर केला आणि हद्दपारी व मालमत्तेचे नुकसान केल्याबद्दल १५० ते २०० लोकांना ताब्यात घेतले. मायक्रोसॉफ्टने आंदोलनाची दखल घेतली आणि सांगितले की ते शांततापूर्ण अभिव्यक्तीचा आदर करते परंतु बेकायदेशीर किंवा धोकादायक कृत्यांना पाठिंबा देत नाही.",
+   "response": "पोलिसांनी दंगल नियंत्रण पथकांसह हस्तक्षेप केला, पेपर स्प्रे आणि लाठ्यांचा वापर केला, आणि सांगितले की त्यांनी हद्दपारीसाठी १५० ते २०० लोकांना ताब्यात घेतले. मायक्रोसॉफ्टच्या प्रवक्त्यांनी सांगितले की कंपनी शांततापूर्ण अभिव्यक्तीचा आदर करते परंतु बेकायदेशीर कृती किंवा सुरक्षेचा धोका सहन करत नाही. पोलिसांच्या मते, एका अधिकाऱ्याला किरकोळ दुखापत झाली.",
    "updates": [
-    "कार्यकर्त्यांनी अँमस्टरडॅममधील मायक्रोसॉफ्ट डेटा सेंटरच्या बांधकामाच्या ठिकाणची कुंपणे तोडून परिसरात ताба मिळवला.",
-    "पोलिसांनी दंगलविरोधी पथके, मिरपूड स्प्रे आणि लाठ्यांचा वापर करून १५० ते २०० निदर्शकांना अटक केली."
+    "कार्यकर्त्यांनी आम्सडॅममधील मायक्रोसॉफ्ट डेटा सेंटरच्या बांधकाम स्थळाभोवतीचे कुंपण तोडले, क्रेन्सवर चढले आणि बॅनर्स लटकावले.",
+    "पोलिसांनी दंगल नियंत्रण पथके, पेपर स्प्रे आणि लाठ्या तैनात केल्या, आणि हद्दपारीसाठी १५० ते २०० व्यक्तींना ताब्यात घेतल्याचे सांगितले."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "150 से 200 demonstrators seien wegen Hausfriedensbruch festgenommen worden",
-    "injuries": "Bij het protest raakte een agent lichtgewond."
+    "crowd": "अनेकशे कार्यकर्त्यांनी स्थळावर ताबा मिळवला",
+    "arrests": "१५० ते २०० निदर्शक",
+    "injuries": "एक पोलीस अधिकारी हलका जखमी झाला"
    }
   },
   "es": {
-   "title": "Activistas ocupan sitio de construcción de centro de datos de Microsoft en Ámsterdam",
-   "seoTitle": "Protesta en Ámsterdam contra centro de datos de Microsoft",
+   "title": "Activistas ocupan el sitio de construcción de un centro de datos de Microsoft en Ámsterdam",
+   "seoTitle": "Protesta en Ámsterdam contra el centro de datos",
    "tea": {
-    "why": "Los manifestantes se oponen a la construcción de un gran centro de datos de Microsoft, citando el consumo masivo de energía, la expansión de la IA y supuestos vínculos con acciones militares.",
-    "want": "Detener la construcción de centros de datos y expresar oposición a las grandes tecnológicas y a los conflictos geopolíticos relacionados.",
-    "changed": "6 de noviembre: La policía detuvo a entre 150 y 200 manifestantes por invasión de propiedad privada después de que los activistas rompieran las vallas del sitio de construcción."
+    "why": "Los activistas se oponen a la rápida expansión de centros de datos intensivos en energía y agua, infraestructura de inteligencia artificial y los vínculos de Microsoft con...",
+    "want": "Los manifestantes exigen el fin de la construcción del centro de datos de Microsoft y un alto al desarrollo descontrolado de centros de datos.",
+    "changed": "6 de noviembre: La policía usó gas pimienta y porras, deteniendo entre 150 y 200 manifestantes que ocuparon el sitio."
    },
-   "summary": "Varios cientos de activistas ocuparon un sitio de construcción para un nuevo centro de datos de Microsoft en el distrito de Sloterdijk en Ámsterdam. Organizado en parte por el grupo Geef Tegengas junto con grupos climáticos y pro-palestinos, incluido Fossielvrij NL, los manifestantes rompieron las vallas perimetrales utilizando herramientas y se subieron a grúas y techos para protestar contra las inmensas demandas de energía de la instalación y el poder corporativo. La policía antidisturbios intervino con gas pimienta y porras, despejando partes del sitio y deteniendo a numerosos individuos. Microsoft declaró que respeta la protesta pacífica pero condena las acciones ilegales y peligrosas.",
+   "summary": "El 6 de noviembre de 2026, cientos de activistas irrumpieron en el sitio de construcción de un centro de datos planeado por Microsoft en el distrito Sloterdijk de Ámsterdam, Holanda Septentrional, Países Bajos. La acción fue organizada por grupos como Geef Tegengas, junto con manifestantes propalestinos y activistas climáticos como Extinction Rebellion y Fossielvrij NL. Los manifestantes treparon andamios y grúas, colgaron pancartas y banderas palestinas, y pintaron cimientos de concreto. Criticaron el consumo masivo de energía y agua de la infraestructura de inteligencia artificial y acusaron a Microsoft de apoyar operaciones militares y de vigilancia. La policía antidisturbios intervino usando gas pimienta y porras para despejar el área.",
    "demands": [
     "Detener la construcción del centro de datos de Microsoft",
-    "Parar la expansión de la infraestructura de datos de alto consumo energético",
-    "Terminar el apoyo tecnológico para operaciones militares y de vigilancia"
+    "Frenar la expansión de centros de datos intensivos en energía y agua",
+    "Terminar el apoyo de las grandes tecnológicas a operaciones militares y vigilancia"
    ],
-   "response": "La policía utilizó gas pimienta, porras y unidades antidisturbios para despejar el sitio, deteniendo a entre 150 y 200 personas por allanamiento de morada y daños a la propiedad, según declaraciones policiales. Microsoft reconoció la manifestación, afirmando que respeta la expresión pacífica pero no condona acciones ilegales o peligrosas.",
+   "response": "La policía intervino con unidades antidisturbios, desplegando gas pimienta y porras, y declaró que detuvo a entre 150 y 200 personas por invasión de propiedad. Un portavoz de Microsoft afirmó que la empresa respeta la expresión pacífica pero no condona acciones ilegales ni riesgos de seguridad. Según la policía, un oficial sufrió una lesión menor.",
    "updates": [
-    "Los activistas rompieron las vallas en el sitio de construcción del centro de datos de Microsoft en Ámsterdam, ocupando la zona.",
-    "La policía desplegó unidades antidisturbios, gas pimienta y porras, arrestando a entre 150 y 200 manifestantes."
+    "Activistas rompieron las vallas alrededor del sitio de construcción del centro de datos de Microsoft en Ámsterdam, trepando grúas y colgando pancartas.",
+    "La policía desplegó unidades antidisturbios, gas pimienta y porras, y reportó la detención de entre 150 y 200 individuos por invasión de propiedad."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "150 से 200 demonstrators seien wegen Hausfriedensbruch festgenommen worden",
-    "injuries": "Bij het protest raakte een agent lichtgewond."
+    "crowd": "varios cientos de activistas ocuparon el lugar",
+    "arrests": "150 a 200 manifestantes",
+    "injuries": "un oficial de policía resultó levemente herido"
    }
   },
   "fr": {
-   "title": "Des militants occupent le site de construction d'un centre de données Microsoft à Amsterdam",
-   "seoTitle": "Protestation à Amsterdam contre le centre de données Microsoft",
+   "title": "Des militants occupent un chantier de centre de données Microsoft à Amsterdam",
+   "seoTitle": "Manifestation à Amsterdam contre le centre de données",
    "tea": {
-    "why": "Les manifestants s'opposent à la construction d'un grand centre de données Microsoft, invoquant la consommation massive d'énergie, l'expansion de l'IA et des liens présumés avec des actions militaires.",
-    "want": "Arrêter la construction de centres de données et exprimer leur opposition aux géants de la technologie et aux conflits géopolitiques connexes.",
-    "changed": "6 novembre : La police a interpellé entre 150 et 200 manifestants pour violation de propriété après que des militants ont franchi les clôtures du site de construction."
+    "why": "Les militants s'opposent à l'expansion rapide des centres de données gourmands en énergie et en eau, à l'infrastructure d'intelligence artificielle et aux liens de Microsoft avec...",
+    "want": "Les manifestants exigent l'arrêt de la construction du centre de données Microsoft et un coup d'arrêt au développement incontrôlé des centres de données.",
+    "changed": "6 novembre : La police a utilisé du gaz poivré et des matraques, arrêtant entre 150 et 200 manifestants qui ont occupé le site."
    },
-   "summary": "Plusieurs centaines de militants ont occupé un site de construction pour un nouveau centre de données Microsoft dans le district de Sloterdijk à Amsterdam. Organisée en partie par le groupe Geef Tegengas aux côtés de groupes climatiques et pro-palestiniens, dont Fossielvrij NL, la manifestation a vu des protestataires franchir les clôtures périmétriques à l'aide d'outils et grimper sur des grues et des toits pour protester contre les demandes énergétiques immenses de l'installation et le pouvoir des entreprises. La police anti-émeute est intervenue avec du gaz poivré et des matraques, dégageant des parties du site et interpellant de nombreux individus. Microsoft a déclaré qu'elle respectait les manifestations pacifiques mais condamnaient les actions illégales et dangereuses.",
+   "summary": "Le 6 novembre 2026, des centaines de militants ont fait irruption sur le chantier de construction d'un futur centre de données Microsoft dans le district de Sloterdijk à Amsterdam, en Hollande-Septentrionale, aux Pays-Bas. L'action a été organisée par des groupes dont Geef Tegengas, aux côtés de manifestants pro-palestiniens et de militants climatiques tels qu'Extinction Rebellion et Fossielvrij NL. Les manifestants ont escaladé des échafaudages et des grues, suspendu des banderoles et des drapeaux palestiniens, et tagué des fondations en béton. Ils ont critiqué la consommation massive d'énergie et d'eau des infrastructures d'intelligence artificielle et accusé Microsoft de soutenir des opérations militaires et de surveillance. La police anti-émeute est intervenue en utilisant du gaz poivré et des matraques pour dégager la zone.",
    "demands": [
     "Arrêter la construction du centre de données Microsoft",
-    "Mettre un terme à l'expansion des infrastructures de données énergivores",
-    "Mettre fin au soutien technologique aux opérations militaires et de surveillance"
+    "Stopper l'expansion des centres de données gourmands en énergie et en eau",
+    "Mettre fin au soutien des grandes entreprises technologiques aux opérations militaires et à la surveillance"
    ],
-   "response": "La police a utilisé du gaz poivré, des matraques et des unités anti-émeute pour dégager le site, interpellant entre 150 et 200 personnes pour violation de propriété et dégradations, selon des déclarations de la police. Microsoft a reconnu la manifestation, affirmant qu'elle respectait l'expression pacifique mais ne tolérait pas les actions illégales ou dangereuses.",
+   "response": "La police est intervenue avec des unités anti-émeute, déployant du gaz poivré et des matraques, et a déclaré avoir interpellé 150 à 200 personnes pour intrusion. Un porte-parole de Microsoft a déclaré que l'entreprise respecte l'expression pacifique mais ne tolère pas les actions illégales ni les risques pour la sécurité. Selon la police, un agent a été légèrement blessé.",
    "updates": [
-    "Des militants ont franchi les clôtures du site de construction du centre de données Microsoft à Amsterdam, occupant la zone.",
-    "La police a déployé des unités anti-émeute, du gaz poivré et des matraques, arrêtant entre 150 et 200 manifestants."
+    "Des militants ont franchi les clôtures autour du chantier du centre de données Microsoft à Amsterdam, escaladant des grues et suspendant des banderoles.",
+    "La police a déployé des unités anti-émeute, du gaz poivré et des matraques, et a signalé l'interpellation de 150 à 200 individus pour intrusion."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "150 से 200 demonstrators seien wegen Hausfriedensbruch festgenommen worden",
-    "injuries": "Bij het protest raakte een agent lichtgewond."
+    "crowd": "plusieurs centaines de militants ont occupé le site",
+    "arrests": "150 à 200 manifestants",
+    "injuries": "un agent de police a été légèrement blessé"
    }
   },
   "de": {
-   "title": "Aktivisten besetzen Baustelle eines Microsoft-Rechenzentrums in Amsterdam",
+   "title": "Aktivisten besetzen Microsoft-Rechenzentrum-Baustelle in Amsterdam",
    "seoTitle": "Protest in Amsterdam gegen Microsoft-Rechenzentrum",
    "tea": {
-    "why": "Demonstranten lehnen den Bau eines großen Microsoft-Rechenzentrums ab und verweisen dabei auf massiven Energieverbrauch, KI-Expansion und angebliche Verbindungen zu militärischen Aktionen.",
-    "want": "Den Bau von Rechenzentren stoppen und den Widerstand gegen Big Tech und damit verbundene geopolitische Konflikte zum Ausdruck bringen.",
-    "changed": "6. November: Die Polizei nahm 150 bis 200 Demonstranten wegen Hausfriedensbruchs fest, nachdem Aktivisten die Zäune der Baustelle durchbrochen hatten."
+    "why": "Aktivisten protestieren gegen die rasante Ausweitung energie- und wasserintensiver Rechenzentren, KI-Infrastruktur und Microsofts Verbindungen zum...",
+    "want": "Demonstranten fordern einen Baustopp für das Microsoft-Rechenzentrum und einen Stopp des ungezügelten Rechenzentrumsunternehmens.",
+    "changed": "6. Nov.: Die Polizei setzte Pfefferspray und Schlagstöcke ein und nahm zwischen 150 und 200 Demonstranten fest, die das Gelände besetzten."
    },
-   "summary": "Mehr Hundert Aktivisten besetzten eine Baustelle für ein neues Microsoft-Rechenzentrum im Amsterdamer Stadtteil Sloterdijk. Teilweise organisiert von der Gruppe Geef Tegengas zusammen mit Klima- und pro-palästinensischen Gruppen wie Fossielvrij NL, überwanden Demonstranten mit Werkzeugen Umzäunungen und kletterten auf Kräne und Dächer, um gegen den enormen Energiebedarf der Einrichtung und die Macht von Konzernen zu protestieren. Die Bereitschaftspolizei griff mit Pfefferspray und Schlagstöcken ein, räumte Teile des Geländes und nahm zahlreiche Personen fest. Microsoft erklärte, friedlichen Protest zu respektieren, aber rechtswidrige und gefährliche Aktionen zu verurteilen.",
+   "summary": "Am 6. November 2026 drangen Hunderte Aktivisten auf die Baustelle eines geplanten Microsoft-Rechenzentrums im Stadtteil Sloterdijk in Amsterdam, Nordholland, Niederlande, ein. Die Aktion wurde von Gruppen wie Geef Tegengas organisiert, zusammen mit pro-palästinensischen Demonstranten und Klimaaktivisten wie Extinction Rebellion und Fossielvrij NL. Demonstranten kletterten auf Gerüste und Kräne, hängten Transparente und palästinensische Flaggen auf und besprühten Betonfundamente mit Farbe. Sie kritisierten den massiven Energie- und Wasserverbrauch der KI-Infrastruktur und warfen Microsoft vor, Militär- und Überwachungsoperationen zu unterstützen. Die Bereitschaftspolizei schritt ein und setzte Pfefferspray und Schlagstöcke ein, um das Gebiet zu räumen.",
    "demands": [
-    "Den Bau des Microsoft-Rechenzentrums stoppen",
-    "Die Expansion energieintensiver Dateninfrastruktur anhalten",
-    "Die technologische Unterstützung für militärische und Überwachungsoperationen beenden"
+    "Baustopp für das Microsoft-Rechenzentrum",
+    "Ausbau energie- und wasserintensiver Rechenzentren stoppen",
+    "Unterstützung von Militäroperation und Überwachung durch Big Tech beenden"
    ],
-   "response": "Polizeiaussagen zufolge setzte die Polizei Pfefferspray, Schlagstöcke und Einheiten der Bereitschaftspolizei ein, um das Gelände zu räumen, und nahm zwischen 150 und 200 Personen wegen Hausfriedensbruchs und Sachbeschädigung fest. Microsoft erkannte die Demonstration an und erklärte, friedliche Meinungsäußerung zu respektieren, aber rechtswidrige oder gefährliche Handlungen nicht zu dulden.",
+   "response": "Die Polizei intervenierte mit Einheiten der Bereitschaftspolizei, setzte Pfefferspray und Schlagstöcke ein und gab an, 150 bis 200 Personen wegen Hausfriedensbruch festgenommen zu haben. Ein Microsoft-Sprecher erklärte, das Unternehmen respektiere friedliche Meinungsäußerung, dulde jedoch keine illegalen Handlungen oder Sicherheitsrisiken. Nach Angaben der Polizei erlitt ein Beamter eine leichte Verletzung.",
    "updates": [
-    "Aktivisten durchbrachen Zäune auf der Baustelle des Microsoft-Rechenzentrums in Amsterdam und besetzten das Gelände.",
-    "Die Polizei setzte Bereitschaftseinheiten, Pfefferspray und Schlagstöcke ein und nahm zwischen 150 und 200 Demonstranten fest."
+    "Aktivisten durchbrachen die Zäune um die Baustelle des Microsoft-Rechenzentrums in Amsterdam, kletterten auf Kräne und hängten Transparente auf.",
+    "Die Polizei setzte Bereitschaftseinheiten, Pfefferspray und Schlagstöcke ein und meldete die Festnahme von 150 bis 200 Personen wegen Hausfriedensbruch."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "150 से 200 demonstrators seien wegen Hausfriedensbruch festgenommen worden",
-    "injuries": "Bij het protest raakte een agent lichtgewond."
+    "crowd": "mehrere Hundert Aktivisten besetzten das Gelände",
+    "arrests": "150 bis 200 Demonstranten seien wegen Hausfriedensbruch festgenommen worden",
+    "injuries": "ein Polizeibeamter wurde leicht verletzt"
    }
   }
  }
