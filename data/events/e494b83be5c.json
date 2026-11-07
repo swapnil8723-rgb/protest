@@ -13,15 +13,16 @@
   "citySlug": "tampere",
   "regionSlug": "pirkanmaa"
  },
- "scope": "multi-city",
+ "scope": "local",
  "causes": [
   "environment",
+  "infrastructure",
   "local-civic"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-07",
- "status": "scheduled",
- "vibe": "heating-up",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
@@ -30,32 +31,46 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters oppose the rapid expansion of data center projects, citing concerns over environmental damage, electricity costs, and lack of regulation.",
-  "want": "They demand a freeze on data center projects, stricter environmental regulations, and protection of nature from industrial development.",
-  "changed": "Nov 5: Organizers announced a march scheduled for Saturday, November 7, starting at Sorin aukio and ending at Jugendtori."
+  "why": "Protesters are concerned about the rapid expansion of data centers, arguing that rules are missing and forests are being logged.",
+  "want": "They demand freezing data center projects, stricter environmental laws, protecting nature, and preventing electricity price hikes.",
+  "changed": "Nov 7: The march took place peacefully in Tampere, moving from Sorinaukio to Keskustori with speeches."
  },
- "summary": "A protest against the construction of data centers is scheduled to take place in Tampere on Saturday, November 7, 2026. Organised by a coalition including Elokapina Tampere, Luontoliiton Metsäryhmä, Maan ystävät, Museia, and the Stop datakeskuksille working group, the event is part of a broader European campaign titled Stop Dirty Data Centers. Participants plan to march from Sorin aukio to Jugendtori to demand a moratorium on new data center projects until comprehensive regulations are established. Protesters argue that current developments threaten local nature, contribute to rising electricity prices, and lack sufficient oversight. Similar demonstrations are planned in other Finnish cities, including Helsinki, Oulu, Jyväskylä, Turku, and Lahti. No official response from authorities regarding the specific protest in Tampere has been reported in the provided sources.",
+ "summary": "Organised by groups including Stop datakeskuksille -työryhmä, Elokapina Tampere, Luontoliiton Metsäryhmä, Museia, and Maan ystävät, a protest march took place in Tampere against data center construction projects. Participants gathered at Sorinaukio and marched to Jugendtorille at Keskustori, where speeches were delivered. The action is part of the Europe-wide Stop Dirty Data Centers campaign. Protesters demanded a pause on data center projects until common rules are established, stricter environmental regulations, protection of nature from construction, and safeguards for electricity sufficiency and pricing. According to reports, several hundred people participated, and the march proceeded peacefully.",
  "organizers": [
+  "Stop datakeskuksille -työryhmä",
   "Elokapina Tampere",
   "Luontoliiton Metsäryhmä",
-  "Maan ystävät",
   "Museia",
-  "Stop datakeskuksille -työryhmä"
+  "Maan ystävät"
  ],
  "demands": [
-  "Freeze on data center projects",
-  "Stricter environmental regulations",
-  "Protection of nature from data center construction",
-  "Ensure electricity supply and prevent price hikes"
+  "Put data center projects on hold until common rules are created",
+  "Stricter environmental legislation",
+  "Protect nature from data center construction",
+  "Ensure electricity sufficiency and prevent electricity price increases"
  ],
  "response": "No official response reported in the sources.",
- "numbers": {},
+ "numbers": {
+  "crowd": {
+   "value": 200,
+   "text": "useita satoja ihmisiä",
+   "sources": [
+    2
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-11-05",
-   "text": "Organizers announced a protest march scheduled for Saturday, November 7, in Tampere as part of a European-wide campaign.",
+   "text": "Organisers announced a demonstration in Tampere starting at Sorinaukio and marching to Jugendtorille.",
    "sources": [
-    1,
+    1
+   ]
+  },
+  {
+   "at": "2026-11-07",
+   "text": "Several hundred participants marched peacefully from Sorinaukio to Keskustori for speeches.",
+   "sources": [
     2
    ]
   }
@@ -70,143 +85,158 @@
   },
   {
    "n": 2,
-   "url": "https://www.aamulehti.fi/tampere/art-2000012390898.html",
+   "url": "https://www.aamulehti.fi/tampere/art-2000012395758.html",
    "publisher": "aamulehti.fi",
-   "title": "Elokapina mukana protestissa Tampereella: ”Tilanne ei ole kenenkään hallussa”",
-   "publishedAt": "2026-11-05T12:31:00.000Z"
+   "title": "Tampereella pidetty mielenosoitus vaatii datakeskusprojekteille aikalisää",
+   "publishedAt": "2026-11-07T15:04:00.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.7,
  "publishers": 2,
- "reports24h": 0,
- "reportsPrev24h": 1,
+ "reports24h": 1,
+ "reportsPrev24h": 0,
  "reports48h": 1,
  "firstSeenAt": "2026-11-05T09:55:12.472Z",
- "lastReportAt": "2026-11-05T12:31:00.000Z",
- "lastCheckedAt": "2026-11-07T12:28:14.983Z",
- "updatedAt": "2026-11-05T23:13:50.668Z",
+ "lastReportAt": "2026-11-07T15:04:00.000Z",
+ "lastCheckedAt": "2026-11-07T16:55:57.376Z",
+ "updatedAt": "2026-11-07T16:55:30.810Z",
  "searchedAt": "2026-11-05T20:16:05.566Z",
  "endedOn": "2026-11-07",
  "responseSources": [],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-05T23:13:50.668Z",
- "summaryOf": "b4ac088aca71",
+ "summarizedAt": "2026-11-07T16:55:30.810Z",
+ "summaryOf": "b33345bbe353",
  "publishedAt": "2026-11-05T23:13:57.275Z",
  "i18n": {
-  "of": "09b24c576f7efaf6",
-  "at": "2026-11-05T23:15:19.523Z",
+  "of": "2782a32191bf9d57",
+  "at": "2026-11-07T16:57:13.050Z",
   "tries": 1,
   "hi": {
-   "title": "टैम्परे में डेटा सेंटर निर्माण परियोजनाओं के खिलाफ प्रदर्शनकारियों का मार्च",
-   "seoTitle": "डेटा सेंटरों के खिलाफ टैम्परे मार्च",
+   "title": "डेटा सेंटर निर्माण परियोजनाओं के खिलाफ टैम्पere में प्रदर्शनकारियों का मार्च",
+   "seoTitle": "डेटा सेंटरों के खिलाफ टैम्पere मार्च",
    "tea": {
-    "why": "प्रदर्शनकारी डेटा सेंटर परियोजनाओं के तेजी से विस्तार का विरोध कर रहे हैं, और उन्होंने पर्यावरणीय क्षति, बिजली की लागत और विनियमन की कमी पर चिंता जताई है।",
-    "want": "वे डेटा सेंटर परियोजनाओं पर रोक, सख्त पर्यावरणीय नियमों और औद्योगिक विकास से प्रकृति के संरक्षण की मांग कर रहे हैं।",
-    "changed": "5 नवंबर: आयोजकों ने शनिवार, 7 नवंबर को सोरिन औकियो से शुरू होकर जुगेंडटोरी पर समाप्त होने वाले मार्च की घोषणा की।"
+    "why": "प्रदर्शनकारी डेटा सेंटरों के तीव्र विस्तार को लेकर चिंतित हैं और उनका तर्क है कि नियम गायब हैं और जंगलों की कटाई हो रही है।",
+    "want": "वे डेटा सेंटर परियोजनाओं पर रोक लगाने, कड़े पर्यावरणीय कानूनों, प्रकृति की सुरक्षा और बिजली की कीमतों में बढ़ोतरी को रोकने की मांग करते हैं।",
+    "changed": "7 नवंबर: टैम्पere में मार्च शांतिपूर्ण ढंग से आयोजित हुआ, जो सोरिनाउकियो से केंद्रस्तोरी तक भाषणों के साथ आगे बढ़ा।"
    },
-   "summary": "टैम्परे में शनिवार, 7 नवंबर, 2026 को डेटा सेंटरों के निर्माण के खिलाफ एक विरोध प्रदर्शन निर्धारित है। एलोकापिना टैम्परे, लुओंतोलिटन मेत्साहर्यमा, मान यस्तावत, मुसेइया और स्टॉप डेटाकेस्कुस्किले वर्किंग ग्रुप सहित एक गठबंधन द्वारा आयोजित, यह कार्यक्रम 'स्टॉप डर्टी डेटा सेंटर्स' नामक एक व्यापक यूरोपीय अभियान का हिस्सा है। प्रतिभागी सोरिन औकियो से जुगेंडटोरी तक मार्च करने की योजना बना रहे हैं ताकि व्यापक नियम स्थापित होने तक नई डेटा सेंटर परियोजनाओं पर रोक की मांग की जा सके। प्रदर्शनकारियों का तर्क है कि वर्तमान विकास स्थानीय प्रकृति के लिए खतरा हैं, बिजली की बढ़ती कीमतों में योगदान करते हैं, और उनमें पर्याप्त निगरानी का अभाव है। हेलसिंकी, ओउलू, ज्योतिस्क्युला, तुर्कू और लाहटी सहित अन्य फिनिश शहरों में भी इसी तरह के प्रदर्शनों की योजना है। टैम्परे में विशिष्ट विरोध प्रदर्शन के संबंध में अधिकारियों की ओर से कोई आधिकारिक प्रतिक्रिया नहीं दी गई है।",
+   "summary": "स्टॉप डेटाकेस्कुस्किल -त्योर्यूह्मा, एलोकापिना टैम्पere, लुंतोलीटोन मेत्साऱ्युह्मा, मुसेइया और मान यास्तावैत जैसे समूहों द्वारा आयोजित, डेटा सेंटर निर्माण परियोजनाओं के खिलाफ टैम्पere में एक विरोध मार्च निकाला गया। प्रतिभागी सोरिनाउकियो में एकत्र हुए और केंद्रस्तोरी में जुगेंदतोरिले तक मार्च किया, जहां भाषण दिए गए। यह कार्रवाई पूरे यूरोप में चल रहे स्टॉप डर्टी डेटा सेंटर्स अभियान का हिस्सा है। प्रदर्शनकारियों ने सामान्य नियम बनने तक डेटा सेंटर परियोजनाओं पर रोक, कड़े पर्यावरणीय नियमों, निर्माण से प्रकृति की रक्षा और बिजली की पर्याप्तता तथा मूल्य निर्धारण के लिए सुरक्षा उपायों की मांग की। रिपोर्टों के अनुसार, कई सौ लोगों ने भाग लिया और मार्च शांतिपूर्ण ढंग से संपन्न हुआ।",
    "demands": [
-    "डेटा सेंटर परियोजनाओं पर रोक",
-    "सख्त पर्यावरणीय नियम",
-    "डेटा सेंटर निर्माण से प्रकृति का संरक्षण",
-    "बिजली आपूर्ति सुनिश्चित करना और कीमतों में वृद्धि को रोकना"
+    "सामान्य नियम बनने तक डेटा सेंटर परियोजनाओं को रोक कर रखें",
+    "सख्त पर्यावरणीय कानून",
+    "डेटा सेंटर निर्माण से प्रकृति की रक्षा करें",
+    "बिजली की पर्याप्तता सुनिश्चित करें और बिजली की कीमतों में वृद्धि रोकें"
    ],
-   "response": "स्रोतों में कोई आधिकारिक प्रतिक्रिया नहीं दी गई है।",
+   "response": "स्रोतों में किसी आधिकारिक प्रतिक्रिया की सूचना नहीं दी गई है।",
    "updates": [
-    "आयोजकों ने एक यूरोपीय-व्यापी अभियान के हिस्से के रूप में शनिवार, 7 नवंबर को टैम्परे में एक विरोध मार्च की घोषणा की।"
+    "आयोजकों ने सोरिनाउकियो से शुरू होकर जुगेंदतोरिले तक मार्च करने वाले टैम्पere में एक प्रदर्शन की घोषणा की।",
+    "कई सौ प्रतिभागियों ने भाषणों के लिए सोरिनाउकियो से केंद्रस्तोरी तक शांतिपूर्ण ढंग से मार्च किया।"
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "useita satoja ihmisiä"
+   }
   },
   "mr": {
-   "title": "टॅम्परेमध्ये डेटा सेंटर बांधकाम प्रकल्पांविरुद्ध आंदोलकांचा मोर्चा",
-   "seoTitle": "डेटा सेंटरविरुद्ध टॅम्परे मोर्चा",
+   "title": "डेटा सेंटर बांधकाम प्रकल्पांवविरोधात टॅम्परेमध्ये निदर्शकांचा मोर्चा",
+   "seoTitle": "डेटा सेंटर्सविरोधात टॅम्परे मोर्चा",
    "tea": {
-    "why": "आंदोलक डेटा सेंटर प्रकल्पांच्या जलद विस्ताराला विरोध करत आहेत, त्यांनी पर्यावरणीय हानी, विजेचा खर्च आणि नियमनांचा अभाव यावर चिंता व्यक्त केली आहे.",
-    "want": "ते डेटा सेंटर प्रकल्पांवर स्थगिती, कडक पर्यावरणीय नियम आणि औद्योगिक विकासापासून निसर्गाचे संरक्षण करण्याची मागणी करत आहेत.",
-    "changed": "५ नोव्हेंबर: आयोजकांनी शनिवार, ७ नोव्हेंबर रोजी सोरिन औकियो येथून सुरू होऊन जुगेंडटोरी येथे संपणाऱ्या मोर्चाची घोषणा केली."
+    "why": "निदर्शक डेटा सेंटर्सच्या जलद विस्ताराबद्दल चिंतित आहेत, त्यांचा युक्तिवाद आहे की नियम नाही आणि जंगलांची तोड सुरू आहे.",
+    "want": "ते डेटा सेंटर प्रकल्पांना स्थगिती देण्याची, कठोर पर्यावरणीय कायदे, निसर्गाचे रक्षण आणि वीज दरातील वाढ रोखण्याची मागणी करत आहेत.",
+    "changed": "७ नोव्हेंबर: टॅम्परेमध्ये सोरिनाउकियो येथून केंद्रस्तोरीपर्यंत भाषणांसह मोर्चा शांततापूर्ण मार्गाने पार पडला."
    },
-   "summary": "टॅम्परेमध्ये शनिवार, ७ नोव्हेंबर २०२६ रोजी डेटा सेंटरच्या बांधकामाविरुद्ध एक निदर्शन नियोजित आहे. एलोकापिना टॅम्परे, लुओंतोलिटन मेत्साहर्यमा, मान यस्तावत, मुसेइया आणि स्टॉप डेटाकेस्कुस्किले वर्किंग ग्रुपसह एका युतीने आयोजित केलेला हा कार्यक्रम 'स्टॉप डर्टी डेटा सेंटर्स' या व्यापक युरोपियन मोहिमेचा भाग आहे. सहभागी सोरिन औकियो ते जुगेंडटोरी असा मोर्चा काढण्याची योजना आखत आहेत, जेणेकरून सर्वसमावेशक नियम लागू होईपर्यंत नवीन डेटा सेंटर प्रकल्पांवर स्थगितीची मागणी करता येईल. आंदोलकांचा असा युक्तिवाद आहे की सध्याचे प्रकल्प स्थानिक निसर्गासाठी धोकादायक आहेत, विजेच्या वाढत्या किमतींना कारणीभूत आहेत आणि त्यात पुरेशा देखरेखीचा अभाव आहे. हेलसिंकी, ओउलू, ज्योतिस्क्युला, तुर्कू आणि लाहटी यांसारख्या इतर फिन्निश शहरांमध्येही अशाच निदर्शनांचे नियोजन आहे. टॅम्परेमधील विशिष्ट निदर्शनाबाबत अधिकार्‍यांकडून कोणतीही अधिकृत प्रतिक्रिया मिळालेली नाही.",
+   "summary": "स्टॉप डेटाकेस्कुस्किल -त्योर्यूह्मा, एलोकापिना टॅम्परे, लुंतोलीटोन मेत्साऱ्युह्मा, मुसेइया आणि मान यास्तावैत यांसारख्या गटांच्या आयोजनाखाली डेटा सेंटर बांधकाम प्रकल्पांविरोधात टॅम्परेमध्ये निषेध मोर्चा काढण्यात आला. सहभागी लोक सोरिनाउकियो येथे जमले आणि केंद्रस्तोरी येथील जुगेंदतोरिलेपर्यंत मार्च केला, जिथे भाषणे झाली. ही कृती युरोपव्यापी 'स्टॉप डर्टी डेटा सेंटर्स' मोहिमेचा एक भाग आहे. निदर्शकांनी सामान्य नियम प्रस्थापित होईपर्यंत डेटा सेंटर प्रकल्पांना स्थगिती, कठोर पर्यावरणीय नियम, बांधकामापासून निसर्गाचे संरक्षण आणि वीज पुरवठा व किंमती सुरक्षित ठेवण्याची मागणी केली. अहवालानुसार, अनेकशे लोकांनी सहभाग घेतला आणि मोर्चा शांततापूर्ण पार पडला.",
    "demands": [
-    "डेटा सेंटर प्रकल्पांवर स्थगिती",
-    "कडक पर्यावरणीय नियम",
-    "डेटा सेंटर बांधकामापासून निसर्गाचे संरक्षण",
-    "वीज पुरवठा सुनिश्चित करणे आणि किमतीतील वाढ रोखणे"
+    "सामान्य नियम तयार होईपर्यंत डेटा सेंटर प्रकल्प थांबवून ठेवा",
+    "कठोर पर्यावरणीय कायदे",
+    "डेटा सेंटर बांधकामापासून निसर्गाचे रक्षण करा",
+    "वीज पुरवठा सुनिश्चित करा आणि वीज दरवाढ रोखा"
    ],
-   "response": "स्रोतांमध्ये कोणतीही अधिकृत प्रतिक्रिया नोंदवलेली नाही.",
+   "response": "स्रोतांमध्ये कोणतीही अधिकृत प्रतिक्रिया नोंदवली गेलेली नाही.",
    "updates": [
-    "आयोजकांनी युरोपव्यापी मोहिमेचा भाग म्हणून शनिवार, ७ नोव्हेंबर रोजी टॅम्परेमध्ये निदर्शन मोर्चाची घोषणा केली."
+    "आयोजकांनी सोरिनाउकियोपासून सुरू होणाऱ्या आणि जुगेंदतोरिलेपर्यंत मार्च करणाऱ्या टॅम्परेमधील आंदोलनाची घोषणा केली.",
+    "अनेकशे सहभागींनी सोरिनाउकियो ते केंद्रस्तोरी भाषणांसाठी शांततेने मार्च केला."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "useita satoja ihmisiä"
+   }
   },
   "es": {
    "title": "Manifestantes marchan en Tampere contra proyectos de construcción de centros de datos",
    "seoTitle": "Marcha en Tampere contra centros de datos",
    "tea": {
-    "why": "Los manifestantes se oponen a la rápida expansión de los proyectos de centros de datos, citando preocupaciones sobre el daño ambiental, los costos de electricidad y la falta de regulación.",
-    "want": "Exigen una congelación de los proyectos de centros de datos, regulaciones ambientales más estrictas y la protección de la naturaleza frente al desarrollo industrial.",
-    "changed": "5 de noviembre: Los organizadores anunciaron una marcha programada para el sábado 7 de noviembre, comenzando en Sorin aukio y terminando en Jugendtori."
+    "why": "Los manifestantes están preocupados por la rápida expansión de los centros de datos, argumentando que faltan normas y se están talando bosques.",
+    "want": "Exigen congelar los proyectos de centros de datos, leyes ambientales más estrictas, proteger la naturaleza y prevenir aumentos en el precio de la electricidad.",
+    "changed": "7 de noviembre: La marcha se llevó a cabo pacíficamente en Tampere, desplazándose desde Sorinaukio hasta Keskustori con discursos."
    },
-   "summary": "Una protesta contra la construcción de centros de datos está programada para llevarse a cabo en Tampere el sábado 7 de noviembre de 2026. Organizado por una coalición que incluye a Elokapina Tampere, Luontoliiton Metsäryhmä, Maan ystävät, Museia y el grupo de trabajo Stop datakeskuksille, el evento es parte de una campaña europea más amplia titulada Stop Dirty Data Centers. Los participantes planean marchar desde Sorin aukio hasta Jugendtori para exigir una moratoria en los nuevos proyectos de centros de datos hasta que se establezcan regulaciones integrales. Los manifestantes argumentan que los desarrollos actuales amenazan la naturaleza local, contribuyen al aumento de los precios de la electricidad y carecen de suficiente supervisión. Se planean manifestaciones similares en otras ciudades finlandesas, incluidas Helsinki, Oulu, Jyväskylä, Turku y Lahti. No se ha informado de ninguna respuesta oficial de las autoridades con respecto a la protesta específica en Tampere en las fuentes proporcionadas.",
+   "summary": "Organizada por grupos que incluyen Stop datakeskuksille -työryhmä, Elokapina Tampere, Luontoliiton Metsäryhmä, Museia y Maan ystävät, tuvo lugar una marcha de protesta en Tampere contra los proyectos de construcción de centros de datos. Los participantes se reunieron en Sorinaukio y marcharon hacia Jugendtorille en Keskustori, donde se pronunciaron discursos. La acción forma parte de la campaña paneuropea Stop Dirty Data Centers. Los manifestantes exigieron una pausa en los proyectos de centros de datos hasta que se establezcan normas comunes, regulaciones ambientales más estrictas, la protección de la naturaleza frente a la construcción y salvaguardias para la suficiencia y el precio de la electricidad. Según los informes, participaron varios cientos de personas y la marcha transcurrió pacíficamente.",
    "demands": [
-    "Congelación de proyectos de centros de datos",
-    "Regulaciones ambientales más estrictas",
-    "Protección de la naturaleza frente a la construcción de centros de datos",
-    "Garantizar el suministro eléctrico y evitar aumentos de precios"
+    "Poner en pausa los proyectos de centros de datos hasta que se creen normas comunes",
+    "Legislación ambiental más estricta",
+    "Proteger la naturaleza de la construcción de centros de datos",
+    "Garantizar la suficiencia de electricidad y prevenir aumentos en el precio de la electricidad"
    ],
-   "response": "No se informó de ninguna respuesta oficial en las fuentes.",
+   "response": "No se informó ninguna respuesta oficial en las fuentes.",
    "updates": [
-    "Los organizadores anunciaron una marcha de protesta programada para el sábado 7 de noviembre en Tampere como parte de una campaña europea."
+    "Los organizadores anunciaron una manifestación en Tampere comenzando en Sorinaukio y marchando hacia Jugendtorille.",
+    "Varios cientos de participantes marcharon pacíficamente desde Sorinaukio hasta Keskustori para realizar discursos."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "useita satoja ihmisiä"
+   }
   },
   "fr": {
-   "title": "Des manifestants marchent à Tampere contre des projets de construction de centres de données",
+   "title": "Des manifestants défilent à Tampere contre les projets de construction de centres de données",
    "seoTitle": "Marche à Tampere contre les centres de données",
    "tea": {
-    "why": "Les manifestants s'opposent à l'expansion rapide des projets de centres de données, citant des préoccupations concernant les dommages environnementaux, les coûts de l'électricité et le manque de réglementation.",
-    "want": "Ils exigent un gel des projets de centres de données, des réglementations environnementales plus strictes et la protection de la nature contre le développement industriel.",
-    "changed": "5 novembre : Les organisateurs ont annoncé une marche prévue pour le samedi 7 novembre, commençant à Sorin aukio et se terminant à Jugendtori."
+    "why": "Les manifestants s'inquiètent de l'expansion rapide des centres de données, arguant que les règles font défaut et que les forêts sont abattues.",
+    "want": "Ils exigent le gel des projets de centres de données, des lois environnementales plus strictes, la protection de la nature et la prévention des hausses des prix de l'électricité.",
+    "changed": "7 novembre : La marche s'est déroulée pacifiquement à Tampere, allant de Sorinaukio à Keskustori avec des discours."
    },
-   "summary": "Une manifestation contre la construction de centres de données est prévue à Tampere le samedi 7 novembre 2026. Organisé par une coalition comprenant Elokapina Tampere, Luontoliiton Metsäryhmä, Maan ystävät, Museia et le groupe de travail Stop datakeskuksille, l'événement fait partie d'une campagne européenne plus large intitulée Stop Dirty Data Centers. Les participants prévoient de marcher de Sorin aukio à Jugendtori pour exiger un moratoire sur les nouveaux projets de centres de données jusqu'à ce que des réglementations complètes soient établies. Les manifestants soutiennent que les développements actuels menacent la nature locale, contribuent à la hausse des prix de l'électricité et manquent de surveillance suffisante. Des manifestations similaires sont prévues dans d'autres villes finlandaises, notamment Helsinki, Oulu, Jyväskylä, Turku et Lahti. Aucune réponse officielle des autorités concernant la manifestation spécifique à Tampere n'a été signalée dans les sources fournies.",
+   "summary": "Organisée par des groupes comprenant Stop datakeskuksille -työryhmä, Elokapina Tampere, Luontoliiton Metsäryhmä, Museia et Maan ystävät, une marche de protestation a eu lieu à Tampere contre les projets de construction de centres de données. Les participants se sont rassemblés à Sorinaukio et ont marché vers Jugendtorille à Keskustori, où des discours ont été prononcés. Cette action s'inscrit dans le cadre de la campagne paneuropéenne Stop Dirty Data Centers. Les manifestants ont exigé une pause dans les projets de centres de données jusqu'à l'établissement de règles communes, des réglementations environnementales plus strictes, la protection de la nature contre la construction et des garanties pour l'autosuffisance et la tarification de l'électricité. Selon les rapports, plusieurs centaines de personnes ont participé et la marche s'est déroulée pacifiquement.",
    "demands": [
-    "Gel des projets de centres de données",
-    "Réglementations environnementales plus strictes",
-    "Protection de la nature contre la construction de centres de données",
-    "Assurer l'approvisionnement en électricité et empêcher les hausses de prix"
+    "Mettre en suspens les projets de centres de données jusqu'à ce que des règles communes soient créées",
+    "Une législation environnementale plus stricte",
+    "Protéger la nature de la construction des centres de données",
+    "Garantir l'autosuffisance en électricité et prévenir les augmentations des prix de l'électricité"
    ],
-   "response": "Aucune réponse officielle signalée dans les sources.",
+   "response": "Aucune réponse officielle n'a été signalée dans les sources.",
    "updates": [
-    "Les organisateurs ont annoncé une marche de protestation prévue pour le samedi 7 novembre à Tampere dans le cadre d'une campagne européenne."
+    "Les organisateurs ont annoncé une manifestation à Tampere commençant à Sorinaukio et marchant vers Jugendtorille.",
+    "Plusieurs centaines de participants ont marché pacifiquement de Sorinaukio à Keskustori pour des discours."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "useita satoja ihmisiä"
+   }
   },
   "de": {
-   "title": "Demonstranten marschieren in Tampere gegen den Bau von Rechenzentren",
-   "seoTitle": "Marsch in Tampere gegen Rechenzentren",
+   "title": "Demonstranten marschieren in Tampere gegen Rechenzentrum-Bauprojekte",
+   "seoTitle": "Tampere-Marsch gegen Rechenzentren",
    "tea": {
-    "why": "Die Demonstranten lehnen den schnellen Ausbau von Rechenzentrumsprojekten ab und führen Bedenken hinsichtlich Umweltschäden, Stromkosten und mangelnder Regulierung an.",
-    "want": "Sie fordern einen Stopp von Rechenzentrumsprojekten, strengere Umweltauflagen und den Schutz der Natur vor industrieller Entwicklung.",
-    "changed": "5. November: Die Organisatoren kündigten einen Marsch für Samstag, den 7. November, an, der am Sorin aukio beginnt und am Jugendtori endet."
+    "why": "Demonstranten sind besorgt über die rasante Expansion von Rechenzentren und argumentieren, dass Regeln fehlen und Wälder abgeholzt werden.",
+    "want": "Sie fordern einen Stopp von Rechenzentrum-Projekten, strengere Umweltgesetze, den Schutz der Natur und die Verhinderung von Strompreissteigerungen.",
+    "changed": "7. November: Der Marsch fand friedlich in Tampere statt und bewegte sich mit Reden von Sorinaukio nach Keskustori."
    },
-   "summary": "Ein Protest gegen den Bau von Rechenzentren ist für Samstag, den 7. November 2026, in Tampere geplant. Die Veranstaltung wird von einem Bündnis organisiert, dem Elokapina Tampere, Luontoliiton Metsäryhmä, Maan ystävät, Museia und die Arbeitsgruppe Stop datakeskuksille angehören, und ist Teil einer breiteren europäischen Kampagne mit dem Titel Stop Dirty Data Centers. Die Teilnehmer planen, vom Sorin aukio zum Jugendtori zu marschieren, um ein Moratorium für neue Rechenzentrumsprojekte zu fordern, bis umfassende Vorschriften erlassen sind. Die Demonstranten argumentieren, dass die derzeitigen Entwicklungen die lokale Natur bedrohen, zu steigenden Strompreisen beitragen und es an ausreichender Aufsicht mangelt. Ähnliche Demonstrationen sind in anderen finnischen Städten geplant, darunter Helsinki, Oulu, Jyväskylä, Turku und Lahti. In den vorliegenden Quellen wurde keine offizielle Reaktion der Behörden auf den spezifischen Protest in Tampere gemeldet.",
+   "summary": "Organisiert von Gruppen wie Stop datakeskuksille -työryhmä, Elokapina Tampere, Luontoliiton Metsäryhmä, Museia und Maan ystävät fand in Tampere ein Protestmarsch gegen Rechenzentrum-Bauprojekte statt. Die Teilnehmer versammelten sich am Sorinaukio und marschierten zum Jugendtorille am Keskustori, wo Reden gehalten wurden. Die Aktion ist Teil der europaweiten Kampagne Stop Dirty Data Centers. Demonstranten forderten eine Pause bei Rechenzentren-Projekten, bis gemeinsame Regeln aufgestellt sind, strengere Umweltvorschriften, den Schutz der Natur vor Bauarbeiten sowie Garantien für Stromversorgung und -preisgestaltung. Berichten zufolge nahmen mehrere Hundert Menschen teil, und der Marsch verlief friedlich.",
    "demands": [
-    "Stopp von Rechenzentrumsprojekten",
-    "Strengere Umweltauflagen",
-    "Schutz der Natur vor dem Bau von Rechenzentren",
-    "Sicherstellung der Stromversorgung und Verhinderung von Preiserhöhungen"
+    "Rechenzentrum-Projekte auf Eis legen, bis gemeinsame Regeln geschaffen sind",
+    "Strengere Umweltgesetzgebung",
+    "Natur vor Rechenzentrum-Bauten schützen",
+    "Stromversorgung sicherstellen und Strompreiserhöhungen verhindern"
    ],
    "response": "In den Quellen wurde keine offizielle Reaktion gemeldet.",
    "updates": [
-    "Die Organisatoren kündigten einen Protestmarsch für Samstag, den 7. November, in Tampere als Teil einer europaweiten Kampagne an."
+    "Die Organisatoren kündigten eine Demonstration in Tampere an, die am Sorinaukio beginnt und zum Jugendtorille führt.",
+    "Mehrere Hundert Teilnehmer marschierten friedlich von Sorinaukio nach Keskustori für Reden."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "useita satoja ihmisiä"
+   }
   }
  }
 }
