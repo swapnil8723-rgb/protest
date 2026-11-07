@@ -2,8 +2,8 @@
  "id": "e196a4614a6",
  "slug": "turin-living-costs-rearmament-march-nov-2026",
  "stage": "live",
- "title": "Turin protest march targets living costs and military spending",
- "seoTitle": "Torino march against living costs and rearmament",
+ "title": "Turin march targets living costs and military spending",
+ "seoTitle": "Turin protest against living costs and war",
  "place": {
   "city": "Turin",
   "region": "Piedmont",
@@ -16,7 +16,7 @@
  "scope": "local",
  "causes": [
   "prices",
-  "war-peace",
+  "housing",
   "education"
  ],
  "kind": "one-day",
@@ -24,48 +24,56 @@
  "status": "scheduled",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against high living costs, military rearmament, precarious labor, and budget cuts to education and healthcare.",
-  "want": "They demand concrete policy changes from the government and an end to military rearmament investments.",
-  "changed": "Nov 6: Authorities prepared heavy security deployments as organizers announced a planned march starting at Piazza Castello."
+  "why": "Protesters object to rising living costs, high rents, fuel prices, military spending, and cuts to education and healthcare.",
+  "want": "Demonstrators demand government policy changes, an end to military investments, and concrete solutions for social and economic issues.",
+  "changed": "Nov 7: Thousands are expected to march in Turin as part of a fourth consecutive weekend of mobilization organized by grassroots groups and students."
  },
- "summary": "A protest march was scheduled in Turin to oppose high living costs, military rearmament, precarious work conditions, high rents, and funding cuts in education and healthcare. The demonstration was organized by the \"Torino in Piazza\" movement alongside student collectives, labor union representatives, and groups such as Si Cobas and Cambiare Rotta. Organizers announced plans to gather at Piazza Castello before moving along a pre-notified route toward the northern periphery, with possible tension points regarding the final destination. The event marked the fourth consecutive weekend of mobilization in the city. Public authorities deployed a heavy security presence combining police, carabinieri, and financial police, while the Interior Minister stated that adequate security forces and reinforcements had been arranged for the area.",
+ "summary": "Students, workers, and various collectives in Turin have organized a fresh protest march on November 7, 2026, marking the fourth consecutive weekend of mobilizations in the city. The demonstration, promoted by the grassroots network 'Torino in piazza'—a local branch of 'Italia in piazza'—alongside student assemblies from the occupied Campus Luigi Einaudi and unions like Cobas, targets rising living costs, expensive rents, fuel prices, military spending, and budget cuts to healthcare and education. Participants plan to gather at Piazza Castello at 3:00 PM and proceed toward Piazza Crispi through several city streets. Authorities have deployed heightened security measures across Turin, anticipating thousands of attendees following previous unrest during earlier rallies.",
  "organizers": [
-  "Torino in Piazza",
-  "Si Cobas",
+  "Torino in piazza",
+  "Italia in piazza",
   "Assemblea studentesca Cps",
   "Cambiare Rotta",
-  "Torino è contro il riarmo"
+  "Torino è contro il riarmo",
+  "Torino per Gaza"
  ],
  "demands": [
-  "End to military rearmament investments",
-  "Government policy changes",
-  "Action against high living costs",
-  "Stop to cuts in education and healthcare"
+  "Stop military spending and war",
+  "Address high living costs and rent",
+  "Halt cuts to education and healthcare",
+  "Combat job precarity"
  ],
- "response": "Interior Minister Matteo Piantedosi stated that adequate security forces and reinforcements were deployed to Turin to manage public order during the demonstrations.",
+ "response": "According to sources, the Ministry of Interior and local police coordinated heightened security measures and reinforcements for public order, agreeing on a route with organizers while restricting certain areas.",
  "numbers": {
   "crowd": {
    "value": 10000,
-   "text": "at least 10,000 people",
+   "text": "At least 10,000 people are expected to participate.",
    "sources": [
-    1
+    1,
+    5
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-06",
-   "text": "Organizers and security forces discussed the planned march route, with disagreement over whether the final destination would reach Piazza Baldissera.",
+   "text": "Organizers announced that a new march would take place on Saturday starting from Piazza Castello.",
    "sources": [
     1,
-    2
+    2,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-07",
+   "text": "Public transport operator Gtt announced route deviations and parking closures ahead of the afternoon demonstration.",
+   "sources": [
+    4
    ]
   }
  ],
@@ -79,153 +87,181 @@
   },
   {
    "n": 2,
+   "url": "https://www.lastampa.it/torino/2026/11/06/news/corteo_torino_sabato_7_novembre_carovita_riarmo-15790205/",
+   "publisher": "lastampa.it",
+   "title": "“Stop al carovita, no al riarmo”: nuovo corteo sabato 7, ritrovo in piazza Castello alle 15",
+   "publishedAt": "2026-11-06T11:02:38.000Z"
+  },
+  {
+   "n": 3,
    "url": "https://torino.corriere.it/notizie/cronaca/26_novembre_06/domani-a-torino-un-nuovo-corteo-contro-carovita-e-riarmo-con-ritrovo-alle-15-in-piazza-castello-016f434c-7a91-4358-acf0-e5f096b6dxlk.shtml",
    "publisher": "torino.corriere.it",
    "title": "Domani a Torino un nuovo corteo contro carovita e riarmo: ritrovo alle 15 in piazza Castello. È il quarto weekend di protesta consecutivo",
    "publishedAt": "2026-11-06T14:03:21.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.torinotoday.it/cronaca/manifestazione-corteo-7-novembre-percorso-lavoratori-studenti-campus-occupazioni-gtt-deviazioni-chiusure-parcheggi-centro.html",
+   "publisher": "torinotoday.it",
+   "title": "Corteo del 7 novembre dal Campus occupato, Torino torna in piazza: Gtt annuncia disagi e parcheggi chiusi",
+   "publishedAt": "2026-11-07T07:29:00.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://tg24.sky.it/cronaca/2026/11/07/proteste-manifestazioni-cortei-italia-oggi",
+   "publisher": "tg24.sky.it",
+   "title": "Nuovo sabato di proteste, manifestazioni e cortei in diverse città",
+   "publishedAt": "2026-11-07T08:41:34.971Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 1,
+ "confidence": 0.9,
+ "publishers": 5,
+ "reports24h": 4,
  "reportsPrev24h": 1,
- "reports48h": 2,
+ "reports48h": 5,
  "firstSeenAt": "2026-11-05T04:25:25.600Z",
- "lastReportAt": "2026-11-06T14:03:21.000Z",
- "lastCheckedAt": "2026-11-07T06:12:17.052Z",
- "updatedAt": "2026-11-07T02:57:02.212Z",
+ "lastReportAt": "2026-11-07T08:41:34.971Z",
+ "lastCheckedAt": "2026-11-07T09:17:42.472Z",
+ "updatedAt": "2026-11-07T09:17:04.631Z",
  "searchedAt": "2026-11-06T23:50:42.430Z",
  "responseSources": [
-  1
+  1,
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-07T02:57:02.212Z",
- "summaryOf": "856ceaf81eed",
+ "summarizedAt": "2026-11-07T09:17:04.631Z",
+ "summaryOf": "f08b8f33c8ee",
  "publishedAt": "2026-11-06T23:55:32.729Z",
  "i18n": {
-  "of": "3bf4d0131cfb55c4",
-  "at": "2026-11-07T02:58:10.124Z",
+  "of": "29a9678d825516a6",
+  "at": "2026-11-07T09:18:39.061Z",
   "tries": 1,
   "hi": {
-   "title": "ट्यूरिन में विरोध मार्च का निशाना जीवनयापन की लागत और सैन्य खर्च हैं",
-   "seoTitle": "ट्यूरिन में जीवनयापन की लागत और सैन्यीकरण के खिलाफ मार्च",
+   "title": "ट्यूरिन मार्च में जीवनयापन की लागत और सैन्य खर्च को बनाया गया निशाना",
+   "seoTitle": "जीवनयापन की लागत और युद्ध के खिलाफ ट्यूरिन में विरोध",
    "tea": {
-    "why": "प्रदर्शनकारी उच्च जीवनयापन लागत, सैन्य पुनर्बद्रीकरण, अनिश्चित रोजगार और शिक्षा तथा स्वास्थ्य सेवा पर बजट कटौती के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "वे सरकार से ठोस नीतिगत बदलाव और सैन्य पुनर्बद्रीकरण में निवेश बंद करने की मांग करते हैं।",
-    "changed": "6 नवंबर: आयोजकों द्वारा Piazza Castello से शुरू होने वाले नियोजित मार्च की घोषणा के बाद अधिकारियों ने भारी सुरक्षा तैनाती की तैयारी की।"
+    "why": "प्रदर्शनकारी बढ़ते जीवनयापन खर्च, ऊंचे किराए, ईंधन की कीमतों, सैन्य खर्च तथा शिक्षा और स्वास्थ्य सेवा में कटौती का विरोध कर रहे हैं।",
+    "want": "प्रदर्शनकारियों की मांग है कि सरकार अपनी नीतियों में बदलाव करे, सैन्य निवेश बंद करे और सामाजिक तथा आर्थिक मुद्दों के लिए ठोस समाधान निकाले।",
+    "changed": "7 नवंबर: जमीनी स्तर के समूहों और छात्रों द्वारा आयोजित लगातार चौथे सप्ताह के प्रदर्शन के हिस्से के रूप में ट्यूरिन में हजारों लोगों के मार्च करने की उम्मीद है।"
    },
-   "summary": "ट्यूरिन में उच्च जीवनयापन लागत, सैन्य पुनर्बद्रीकरण, अनिश्चित कार्य स्थितियों, ऊंचे किराए और शिक्षा तथा स्वास्थ्य सेवा में धन की कटौती का विरोध करने के लिए एक विरोध मार्च निर्धारित किया गया था। इस प्रदर्शन का आयोजन \"Torino in Piazza\" आंदोलन द्वारा छात्र समूहों, श्रम संघ के प्रतिनिधियों और Si Cobas तथा Cambiare Rotta जैसे समूहों के साथ मिलकर किया गया था। आयोजकों ने अंतिम गंतव्य को लेकर संभावित तनाव बिंदुओं के साथ, उत्तरी बाहरी इलाके की ओर एक पूर्व-असूचति मार्ग पर आगे बढ़ने से पहले Piazza Castello पर एकत्र होने की योजना की घोषणा की। इस कार्यक्रम ने शहर में लामबंदी के चौथे लगातार सप्ताहांत को चिह्नित किया। सार्वजनिक अधिकारियों ने पुलिस, कैराबिनियर और वित्तीय पुलिस को मिलाकर एक भारी सुरक्षा उपस्थिति तैनात की, जबकि गृह मंत्री ने कहा कि क्षेत्र के लिए पर्याप्त सुरक्षा बल और सुदृढ़ीकरण की व्यवस्था की गई है।",
+   "summary": "ट्यूरिन में छात्रों, श्रमिकों और विभिन्न समूहों ने 7 नवंबर 2026 को एक नए विरोध मार्च का आयोजन किया है, जो शहर में लगातार चौथे सप्ताह के प्रदर्शन का प्रतीक है। 'इतालिया इन पियाज़ा' की स्थानीय शाखा 'टोरिनो इन पियाज़ा' ग्रासरूट नेटवर्क, कब्ज़ा किए गए कैंपस लुइगी इनाउदी की छात्र सभाओं और कोबास जैसे यूनियनों द्वारा समर्थित इस प्रदर्शन का निशाना बढ़ती जीवनयापन लागत, महंगे किराए, ईंधन की कीमतें, सैन्य खर्च और स्वास्थ्य तथा शिक्षा पर बजट कटौती हैं। प्रतिभागियों ने दोपहर 3:00 बजे पियाज़ा कैस्टेलो में एकत्र होने और कई शहर की सड़कों से होते हुए पियाज़ा क्रिस्पी की ओर बढ़ने की योजना बनाई है। पिछली रैलियों के दौरान हुई अशांति के मद्देनजर अधिकारियों ने हजारों लोगों के शामिल होने की आशंका जताते हुए पूरे ट्यूरिन में सुरक्षा के कड़े इंतजाम किए हैं।",
    "demands": [
-    "सैन्य पुनर्बद्रीकरण निवेश का अंत",
-    "सरकारी नीति में बदलाव",
-    "उच्च जीवनयापन लागत के खिलाफ कार्रवाई",
-    "शिक्षा और स्वास्थ्य सेवा में कटौती पर रोक"
+    "सैन्य खर्च और युद्ध बंद करें",
+    "जीवनयापन की अधिक लागत और किराए का समाधान करें",
+    "शिक्षा और स्वास्थ्य सेवा में कटौती रोकें",
+    "नौकरी की अनिश्चितता का मुकाबला करें"
    ],
-   "response": "गृह मंत्री Matteo Piantedosi ने कहा कि प्रदर्शनों के दौरान सार्वजनिक व्यवस्था बनाए रखने के लिए पर्याप्त सुरक्षा बल और सुदृढ़ीकरण ट्यूरिन में तैनात किए गए थे।",
+   "response": "सूत्रों के अनुसार, गृह मंत्रालय और स्थानीय पुलिस ने सार्वजनिक व्यवस्था के लिए सुरक्षा के कड़े उपायों और सुदृढ़ीकरण का समन्वय किया, आयोजकों के साथ एक मार्ग पर सहमति जताई जबकि कुछ क्षेत्रों को प्रतिबंधित कर दिया।",
    "updates": [
-    "आयोजकों और सुरक्षा बलों ने नियोजित मार्च मार्ग पर चर्चा की, जिसमें अंतिम गंतव्य Piazza Baldissera तक पहुंचेगा या नहीं, इस पर असहमति थी।"
+    "आयोजकों ने घोषणा की कि शनिवार को पियाज़ा कैस्टेलो से एक नया मार्च शुरू होगा।",
+    "सार्वजनिक परिवहन संचालक जीटीटी ने दोपहर के प्रदर्शन से पहले मार्ग में बदलाव और पार्किंग बंद करने की घोषणा की।"
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "कम से कम 10,000 लोग"
+    "crowd": "कम से कम 10,000 लोगों के भाग लेने की उम्मीद है।"
    }
   },
   "mr": {
-   "title": "ट्यूरिनमधील निषेध मोर्चाचे लक्ष्य राहणीमान खर्च आणि लष्करी खर्च आहेत",
-   "seoTitle": "ट्यूरिनमध्ये राहणीमान खर्च आणि लष्करीकरणाविरुद्ध मोर्चा",
+   "title": "ट्यूरिनमधील मार्चमध्ये वाढता खर्च आणि लष्करी खर्चाला लक्ष्य केले",
+   "seoTitle": "राहणीमानाचा खर्च आणि युद्धाविरुद्ध ट्यूरिनमध्ये निदर्शने",
    "tea": {
-    "why": "आंदोलक वाढता राहणीमान खर्च, लष्करी पुर्नसज्जता, अनिश्चित रोजगार आणि शिक्षण व आरोग्यसेवेतील बजेट कपातीचा निषेध करत आहेत.",
-    "want": "त्यांची सरकारकडून ठोस धोरणात्मक बदलांची आणि लष्करी पुर्नसज्जतेमधील गुंतवणुकी थांबवण्याची मागणी आहे.",
-    "changed": "६ नोव्हेंबर: आयोजकांनी Piazza Castello येथून सुरू होणाऱ्या नियोजित मोर्चाची घोषणा केल्यावर प्रशासनाने कडक सुरक्षा तैनातीची तयारी केली."
+    "why": "निदर्शक वाढता राहणीमान खर्च, जास्त भाडे, इंधनाचे दर, लष्करी खर्च आणि शिक्षण तसेच आरोग्यसेवेतील कपातीचा विरोध करत आहेत.",
+    "want": "निदर्शक सरकारी धोरणांमध्ये बदल, लष्करी गुंतवणुकीला पूर्णविराम आणि सामाजिक व आर्थिक समस्यांवर ठोस उपायांची मागणी करत आहेत.",
+    "changed": "७ नोव्हेंबर: तळागाळातील गट आणि विद्यार्थ्यांनी आयोजित केलेल्या सलग चौथ्या शनिवारच्या आंदोलनाचा एक भाग म्हणून ट्यूरिनमध्ये हजारो लोकांच्या मार्च काढण्याची अपेक्षा आहे."
    },
-   "summary": "वाढता राहणीमान खर्च, लष्करी पुर्नसज्जता, अनिश्चित कामाची परिस्थिती, वाढलेली भाडे आणि शिक्षण व आरोग्यसेवेतील निधी कपातीचा विरोध करण्यासाठी ट्यूरिनमध्ये एक निषेध मोर्चा नियोजित करण्यात आला होता. या आंदोलनाचे आयोजन \"Torino in Piazza\" चळवळीने विद्यार्थी गट, कामगार संघटनांचे प्रतिनिधी आणि Si Cobas तसेच Cambiare Rotta यांसारख्या गटांच्या सोबतीने केले होते. अंतिम गंतव्यस्थानाबाबत संभाव्य तणावाच्या मुद्द्यांसह, उत्तर बाह्य भागाकडे जाणाऱ्या पूर्व-सूचत मार्गावर जाण्यापूर्वी Piazza Castello येथे जमण्याच्या योजना आयोजकांनी जाहीर केल्या. या कार्यक्रमामुळे शहरातील सलग चौथ्या विकेंडच्या आंदोलनाची नोंद झाली. सार्वजनिक प्रशासनाने पोलीस, काराबिनीयेर आणि वित्तीय पोलीस एकत्र करून भारी सुरक्षा उपस्थिती तैनात केली, तर गृह मंत्र्यांनी सांगितले की या क्षेत्रासाठी पुरेसे सुरक्षा दल आणि कुमक मागवण्यात आली आहे.",
+   "summary": "ट्यूरिनमधील विद्यार्थी, कामगार आणि विविध समूहांनी ७ नोव्हेंबर २०२६ रोजी एका नवीन निषेध मार्चचे आयोजन केले आहे, जे शहरातील आंदोलनांचा सलग चौथा शनिवार दर्शवतो. 'इटालिया इन पियाझा'ची स्थानिक शाखा असलेल्या 'टोरिनो इन पियाझा' या तळागाळातील नेटवर्कद्वारे, ताबा घेतलेल्या कॅम्पस लुइगी इनाउदीच्या विद्यार्थी सभा आणि कोबास सारख्या युनियन्सच्या बाजूने आयोजित या प्रदर्शनाचा उद्देश वाढता राहणीमान खर्च, महागडे भाडे, इंधनाचे दर, लष्करी खर्च आणि आरोग्य व शिक्षणातील बजेट कपात हा आहे. सहभागींनी दुपारी ३:०० वाजता पियाझा कॅस्टेलो येथे जमण्याचे आणि अनेक शहरांच्या रस्त्यांवरून पियाझा क्रिस्पीच्या दिशेने जाण्याचे नियोजन केले आहे. मागील रैल्यांदरम्यान झालेल्या अशांततेच्या पार्श्वभूमीवर अधिकाऱ्यांनी हजारो लोकांच्या उपस्थितीचा अंदाज वर्तवून ट्यूरिनमध्ये सुरक्षेच्या कडक उपाययोजना केल्या आहेत.",
    "demands": [
-    "लष्करी पुर्नसज्जता गुंतवणुकीचा अंत",
-    "सरकारी धोरणातील बदल",
-    "वाढत्या राहणीमान खर्चाविरुद्ध कारवाई",
-    "शिक्षण आणि आरोग्यसेवेतील कपातीला बंदी"
+    "लष्करी खर्च आणि युद्ध थांबवा",
+    "राहणीमानाचा उच्च खर्च आणि भाड्याचा प्रश्न सोडवा",
+    "शिक्षण आणि आरोग्यसेवेतील कपात थांबवा",
+    "नोकरीच्या अनिश्चिततेशी मुकाबला करा"
    ],
-   "response": "गृह मंत्री Matteo Piantedosi यांनी सांगितले की निदर्शनांच्या दरम्यान सुव्यवस्था राखण्यासाठी पुरेसे सुरक्षा दल आणि कुमक ट्यूरिनमध्ये तैनात केली गेली होती.",
+   "response": "स्रोतांच्या मते, गृह मंत्रालय आणि स्थानिक पोलिसांनी सार्वजनिक सुव्यवस्थेसाठी सुरक्षा उपायांचे आणि कुमक पाठवण्याचे समन्वय साधले, आयोजकांशी एका मार्गावर सहमती दर्शवली तर काही परिसर प्रतिबंधित केले.",
    "updates": [
-    "आयोजक आणि सुरक्षा दलांनी नियोजित मोर्चाच्या मार्गावर चर्चा केली, ज्यामध्ये अंतिम गंतव्यस्थान Piazza Baldissera पर्यंत पोहोचेल की नाही यावर मतभेद होते."
+    "शनिवारी दुपारी पियाझा कॅस्टेलो येथून नवीन मार्च निघणार असल्याची घोषणा आयोजकांनी केली.",
+    "दुपारच्या निदर्शनापूर्वी सार्वजनिक वाहतूक चालक जीटीटीने मार्गात बदल आणि पार्किंग बंद करण्याची घोषणा केली."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "किमान १०,००० लोक"
+    "crowd": "किमान १०,००० लोकांच्या सहभागाची अपेक्षा आहे."
    }
   },
   "es": {
-   "title": "Marcha de protesta en Turín apunta al costo de vida y gasto militar",
-   "seoTitle": "Marcha en Turín contra costo de vida y rearme",
+   "title": "La marcha en Turín apunta contra el coste de vida y el gasto militar",
+   "seoTitle": "Protesta en Turín contra el coste de vida y la guerra",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el alto costo de vida, el rearme militar, el trabajo precario y los recortes presupuestarios en educación y salud.",
-    "want": "Exigen cambios políticos concretos al gobierno y el fin de las inversiones en rearme militar.",
-    "changed": "6 de noviembre: Las autoridades prepararon fuertes despliegues de seguridad cuando los organizadores anunciaron una marcha planificada que comenzaría en la Piazza Castello."
+    "why": "Los manifestantes se oponen al aumento del coste de la vida, los alquileres elevados, los precios de los combustibles, el gasto militar y los recortes en educación y sanidad.",
+    "want": "Los manifestantes exigen cambios en la política gubernamental, el cese de las inversiones militares y soluciones concretas para los problemas sociales y económicos.",
+    "changed": "7 de noviembre: Se espera que miles de personas marchen en Turín como parte de un cuarto fin de semana consecutivo de movilización organizado por grupos de base y estudiantes."
    },
-   "summary": "Se programó una marcha de protesta en Turín para oponerse al alto costo de vida, el rearme militar, las condiciones de trabajo precarias, los altos alquileres y los recortes de financiación en educación y salud. La manifestación fue organizada por el movimiento \"Torino in Piazza\" junto con colectivos estudiantiles, representantes sindicales y grupos como Si Cobas y Cambiare Rotta. Los organizadores anunciaron planes para reunirse en la Piazza Castello antes de avanzar por una ruta notificada previamente hacia la periferia norte, con posibles puntos de tensión respecto al destino final. El evento marcó el cuarto fin de semana consecutivo de movilización en la ciudad. Las autoridades públicas desplegaron una fuerte presencia de seguridad que combinó policía, carabineros y policía financiera, mientras que el Ministro del Interior declaró que se habían dispuesto fuerzas de seguridad y refuerzos adecuados para la zona.",
+   "summary": "Estudiantes, trabajadores y varios colectivos en Turín han organizado una nueva marcha de protesta el 7 de noviembre de 2026, marcando el cuarto fin de semana consecutivo de movilizaciones en la ciudad. La manifestación, promovida por la red de base 'Torino in piazza' —una filial local de 'Italia in piazza'— junto con las asambleas estudiantiles del ocupado Campus Luigi Einaudi y sindicatos como Cobas, apunta al aumento del coste de la vida, los alquileres caros, los precios de los combustibles, el gasto militar y los recortes presupuestarios en sanidad y educación. Los participantes planean reunirse en la Piazza Castello a las 15:00 horas y avanzar hacia la Piazza Crispi a través de varias calles de la ciudad. Las autoridades han desplegado medidas de seguridad reforzadas en todo Turín, anticipando la asistencia de miles de asistentes tras los disturbios previos durante manifestaciones anteriores.",
    "demands": [
-    "Fin a las inversiones en rearme militar",
-    "Cambios en la política gubernamental",
-    "Acción contra el alto costo de vida",
-    "Alto a los recortes en educación y salud"
+    "Detener el gasto militar y la guerra",
+    "Abordar el alto coste de vida y el alquiler",
+    "Frenar los recortes en educación y sanidad",
+    "Combatir la precariedad laboral"
    ],
-   "response": "El Ministro del Interior Matteo Piantedosi declaró que se desplegaron fuerzas de seguridad y refuerzos adecuados en Turín para gestionar el orden público durante las manifestaciones.",
+   "response": "Según fuentes, el Ministerio del Interior y la policía local coordinaron medidas de seguridad reforzadas y refuerzos para el orden público, acordando una ruta con los organizadores mientras restringían ciertas áreas.",
    "updates": [
-    "Los organizadores y las fuerzas de seguridad discutieron la ruta planificada de la marcha, con desacuerdo sobre si el destino final llegaría a la Piazza Baldissera."
+    "Los organizadores anunciaron que una nueva marcha tendría lugar el sábado comenzando desde la Piazza Castello.",
+    "El operador de transporte público Gtt anunció desvíos de rutas y cierres de estacionamiento antes de la manifestación de la tarde."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "al menos 10.000 personas"
+    "crowd": "Se espera que al menos 10 000 personas participen."
    }
   },
   "fr": {
-   "title": "Une manifestation de protestation à Turin vise le coût de la vie et les dépenses militaires",
-   "seoTitle": "Manifestation à Turin contre le coût de la vie et le réarmement",
+   "title": "La marche de Turin cible le coût de la vie et les dépenses militaires",
+   "seoTitle": "Manifestation à Turin contre la vie chère et la guerre",
    "tea": {
-    "why": "Les manifestants protestent contre le coût de la vie élevé, le réarmement militaire, le travail précaire et les coupes budgétaires dans l'éducation et la santé.",
-    "want": "Ils exigent des changements politiques concrets de la part du gouvernement et la fin des investissements dans le réarmement militaire.",
-    "changed": "6 novembre : Les autorités ont préparé d'importants déploiements de sécurité alors que les organisateurs annonçaient une marche prévue commençant à la Piazza Castello."
+    "why": "Les manifestants s'opposent à la hausse du coût de la vie, aux loyers élevés, aux prix des carburants, aux dépenses militaires et aux coupes dans l'éducation et la santé.",
+    "want": "Les manifestants exigent des changements de politique gouvernementale, la fin des investissements militaires et des solutions concrètes aux problèmes sociaux et économiques.",
+    "changed": "7 novembre : Des milliers de personnes devraient défiler à Turin dans le cadre d'un quatrième weekend consécutif de mobilisation organisé par des groupes de base et des étudiants."
    },
-   "summary": "Une marche de protestation a été programmée à Turin pour s'opposer au coût de la vie élevé, au réarmement militaire, aux conditions de travail précaires, aux loyers élevés et aux coupes budgétaires dans l'éducation et la santé. La manifestation a été organisée par le mouvement « Torino in Piazza » aux côtés de collectifs étudiants, de représentants syndicaux et de groupes tels que Si Cobas et Cambiare Rotta. Les organisateurs ont annoncé des plans pour se rassembler à la Piazza Castello avant de progresser le long d'un itinéraire notifié au préalable vers la périphérie nord, avec des points de tension possibles concernant la destination finale. L'événement a marqué le quatrième week-end consécutif de mobilisation dans la ville. Les autorités publiques ont déployé une forte présence de sécurité combinant police, carabiniers et police financière, tandis que le ministre de l'Intérieur a déclaré que des forces de sécurité et des renforts adéquats avaient été arrangés pour la zone.",
+   "summary": "Des étudiants, des travailleurs et divers collectifs de Turin ont organisé une nouvelle marche de protestation le 7 novembre 2026, marquant le quatrième weekend consécutif de mobilisations dans la ville. La manifestation, promue par le réseau de base 'Torino in piazza' — une antenne locale d''Italia in piazza' — ainsi que par les assemblées étudiantes du campus occupé Luigi Einaudi et des syndicats comme les Cobas, cible la hausse du coût de la vie, les loyers chers, les prix des carburants, les dépenses militaires et les coupes budgétaires dans la santé et l'éducation. Les participants prévoient de se rassembler sur la Piazza Castello à 15h00 et de progresser vers la Piazza Crispi par plusieurs rues de la ville. Les autorités ont déployé des mesures de sécurité renforcées à travers Turin, anticipant la présence de milliers de participants suite aux troubles survenus lors de précédents rassemblements.",
    "demands": [
-    "Fin des investissements dans le réarmement militaire",
-    "Changements de politique gouvernementale",
-    "Action contre le coût de la vie élevé",
-    "Arrêt des coupes dans l'éducation et la santé"
+    "Arrêter les dépenses militaires et la guerre",
+    "Répondre au coût de la vie élevé et aux loyers",
+    "Mettre fin aux coupes dans l'éducation et la santé",
+    "Combattre la précarité de l'emploi"
    ],
-   "response": "Le ministre de l'Intérieur Matteo Piantedosi a déclaré que des forces de sécurité et des renforts adéquats avaient été déployés à Turin pour gérer l'ordre public pendant les manifestations.",
+   "response": "Selon des sources, le ministère de l'Intérieur et la police locale ont coordonné des mesures de sécurité renforcées et des renforts pour l'ordre public, se mettant d'accord sur un itinéraire avec les organisateurs tout en restreignant certaines zones.",
    "updates": [
-    "Les organisateurs et les forces de sécurité ont discuté de l'itinéraire de marche prévu, avec un désaccord sur la question de savoir si la destination finale atteindrait la Piazza Baldissera."
+    "Les organisateurs ont annoncé qu'une nouvelle marche aurait lieu samedi au départ de la Piazza Castello.",
+    "L'opérateur de transport public Gtt a annoncé des déviations d'itinéraires et des fermetures de parkings avant la manifestation de l'après-midi."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "au moins 10 000 personnes"
+    "crowd": "Au moins 10 000 personnes sont attendues."
    }
   },
   "de": {
-   "title": "Protestmarsch in Turin zielt auf Lebenshaltungskosten und Militärausgaben ab",
-   "seoTitle": "Marsch in Turin gegen Lebenshaltungskosten und Aufrüstung",
+   "title": "Turiner Marsch richtet sich gegen Lebenshaltungskosten und Militärausgaben",
+   "seoTitle": "Turiner Protest gegen Lebenshaltungskosten und Krieg",
    "tea": {
-    "why": "Demonstranten protestieren gegen hohe Lebenshaltungskosten, militärische Aufrüstung, prekäre Arbeit sowie Budgetkürzungen in Bildung und im Gesundheitswesen.",
-    "want": "Sie fordern konkrete politische Änderungen von der Regierung und ein Ende der Investitionen in die militärische Aufrüstung.",
-    "changed": "6. November: Die Behörden bereiteten umfangreiche Sicherheitsvorkehrungen vor, nachdem Organisatoren einen geplanten Marsch ab der Piazza Castello ankündigten."
+    "why": "Demonstranten protestieren gegen steigende Lebenshaltungskosten, hohe Mieten, Kraftstoffpreise, Militärausgaben sowie Kürzungen in Bildung und Gesundheitswesen.",
+    "want": "Die Demonstranten fordern Änderungen der Regierungspolitik, ein Ende der Militärinvestitionen und konkrete Lösungen für soziale und wirtschaftliche Probleme.",
+    "changed": "7. November: Tausende Menschen werden voraussichtlich in Turin marschieren im Rahmen eines vierten aufeinanderfolgenden Mobilisierungswochenendes, das von Basisgruppen und Studenten organisiert wurde."
    },
-   "summary": "In Turin war ein Protestmarsch angesetzt, um sich gegen hohe Lebenshaltungskosten, militärische Aufrüstung, prekäre Arbeitsbedingungen, hohe Mieten sowie Kürzungen der Finanzierung in Bildung und im Gesundheitswesen zu wenden. Die Demonstration wurde von der Bewegung „Torino in Piazza“ gemeinsam mit Studentenkollektiven, Gewerkschaftsvertretern und Gruppen wie Si Cobas sowie Cambiare Rotta organisiert. Organisatoren kündigten Pläne an, sich an der Piazza Castello zu versammeln, bevor sie sich auf einer vorab angezeigten Route in Richtung der nördlichen Peripherie bewegen wollten, wobei es bezüglich des Endziels mögliche Spannspunkte gab. Die Veranstaltung markierte das vierte aufeinanderfolgende Mobilisierungswochenende in der Stadt. Die Behörden entfalteten eine starke Sicherheitspräsenz aus Polizei, Carabinieri und Finanzpolizei, während der Innenminister erklärte, dass ausreichende Sicherheitskräfte und Verstärkungen für das Gebiet arrangiert worden seien.",
+   "summary": "Studenten, Arbeiter und verschiedene Kollektive in Turin haben für den 7. November 2026 einen neuen Protestmarsch organisiert, der das vierte aufeinanderfolgende Mobilisierungswochenende in der Stadt markiert. Die von dem Basisnetzwerk 'Torino in piazza' – einem lokalen Ableger von 'Italia in piazza' – zusammen mit den Studentenversammlungen des besetzten Campus Luigi Einaudi und Gewerkschaften wie Cobas geförderte Demonstration richtet sich gegen steigende Lebenshaltungskosten, teure Mieten, Kraftstoffpreise, Militärausgaben sowie Haushaltskürzungen im Gesundheits- und Bildungswesen. Die Teilnehmer planen, sich um 15:00 Uhr auf der Piazza Castello zu versammeln und über mehrere Straßen der Stadt zur Piazza Crispi zu ziehen. Die Behörden haben in ganz Turin verstärkte Sicherheitsmaßnahmen ergriffen und erwarten angesichts früherer Ausschreitungen bei früheren Kundgebungen Tausende Teilnehmer.",
    "demands": [
-    "Ende der Investitionen in die militärische Aufrüstung",
-    "Änderungen der Regierungspolitik",
-    "Maßnahmen gegen hohe Lebenshaltungskosten",
-    "Stopp der Kürzungen in Bildung und im Gesundheitswesen"
+    "Militärausgaben und Krieg stoppen",
+    "Hohe Lebenshaltungskosten und Mieten angehen",
+    "Kürzungen bei Bildung und Gesundheitswesen stoppen",
+    "Arbeitsplatzunsicherheit bekämpfen"
    ],
-   "response": "Innenminister Matteo Piantedosi erklärte, dass ausreichende Sicherheitskräfte und Verstärkungen nach Turin entsandt wurden, um die öffentliche Ordnung während der Demonstrationen zu steuern.",
+   "response": "Quellen zufolge koordinierten das Innenministerium und die örtliche Polizei verstärkte Sicherheitsmaßnahmen und Verstärkungen für die öffentliche Ordnung, einigten sich mit den Organisatoren auf eine Route und schränkten bestimmte Bereiche ein.",
    "updates": [
-    "Organisatoren und Sicherheitskräfte diskutierten über die geplante Marschroute, wobei Uneinigkeit darüber bestand, ob das Endziel die Piazza Baldissera erreichen würde."
+    "Die Organisatoren kündigten an, dass am Samstag ein neuer Marsch beginnen werde, der an der Piazza Castello startet.",
+    "Der Betreiber des öffentlichen Nahverkehrs Gtt kündigte im Vorfeld der Nachmittagsdemonstration Routenumleitungen und Parkplatzsperrungen an."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "mindestens 10.000 Menschen"
+    "crowd": "Es wird erwartet, dass mindestens 10.000 Menschen teilnehmen."
    }
   }
  }
