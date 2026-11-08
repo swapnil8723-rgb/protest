@@ -1,34 +1,9 @@
 {
  "aiCalls": {
   "day": "2026-11-08",
-  "count": 155
+  "count": 177
  },
  "runs": [
-  {
-   "at": "2026-11-02T00:48:05.479Z",
-   "ms": 216223,
-   "discovered": 33,
-   "fetched": 32,
-   "classified": 24,
-   "protests": 14,
-   "summarized": 9,
-   "published": 323,
-   "live": 15,
-   "aiCalls": 18,
-   "notes": [
-    "run: AI provider gemini, reviewer none (strict auto-publish)",
-    "gdelt: 7 files, 19 protest URLs",
-    "rss indianexpress.com: 403",
-    "rss: 275 protest-word items",
-    "search: 17 single-source stories checked (5 in their own language), 21 other newsrooms found",
-    "fetch: 32 ok, 1 failed",
-    "classify: new candidate ef8f0af4d80 \"Anti-abortion demonstration and counter-protest in Boston\" (Boston)",
-    "classify: new candidate eecb2ee0138 \"Ultra-Orthodox protesters block light rail in Jerusalem\" (Jerusalem)",
-    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
-    "translate: 7 events"
-   ],
-   "translated": 7
-  },
   {
    "at": "2026-11-02T03:50:32.402Z",
    "ms": 222575,
@@ -1975,10 +1950,39 @@
     "translate: 22 events"
    ],
    "translated": 22
+  },
+  {
+   "at": "2026-11-08T17:50:29.949Z",
+   "ms": 418303,
+   "discovered": 43,
+   "fetched": 39,
+   "classified": 31,
+   "protests": 10,
+   "summarized": 9,
+   "published": 426,
+   "live": 15,
+   "aiCalls": 22,
+   "notes": [
+    "run: AI provider gemini, reviewer none (strict auto-publish)",
+    "gdelt: 20261108173000 http://data.gdeltproject.org/gdeltv2/20261108173000.export.CSV.zip → 404",
+    "gdelt: 20261108174500 http://data.gdeltproject.org/gdeltv2/20261108174500.export.CSV.zip → 404",
+    "gdelt: 20261108180000 http://data.gdeltproject.org/gdeltv2/20261108180000.export.CSV.zip → 404",
+    "gdelt: 16 files, 22 protest URLs",
+    "rss indianexpress.com: 403",
+    "rss: 192 protest-word items",
+    "search: 25 single-source stories checked (15 in their own language), 0 other newsrooms found",
+    "sweep: 35 country searches, 0 new leads",
+    "fetch: 39 ok, 4 failed",
+    "classify: new candidate e3ef12ce82d \"Activist replaces German flag with Palestinian flag at Reichstag\" (Berlin)",
+    "dedupe: merged e7166cd231a (prague-czech-tv-fees-protest-nov-2026) into e5ee4c13af8 (prague-media-funding-protest-oct-2026), 3 articles",
+    "reader: 0 published, 0 held, 0 duplicates, 0 rejected, 0 waiting",
+    "translate: 9 events"
+   ],
+   "translated": 9
   }
  ],
- "gdeltCursor": "20261108140000",
- "lastRunAt": "2026-11-08T13:50:30.676Z",
+ "gdeltCursor": "20261108180000",
+ "lastRunAt": "2026-11-08T17:50:29.949Z",
  "swept": {
   "627b311a1364": "2026-11-05T05:07:47.902Z",
   "9034aecc2cea": "2026-11-05T05:07:47.902Z",
