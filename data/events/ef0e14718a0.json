@@ -3,7 +3,7 @@
  "slug": "los-angeles-anti-ice-hospital-protest-nov-2026",
  "stage": "live",
  "title": "Protesters rally against ICE agents outside Los Angeles hospital",
- "seoTitle": "LA rally against ICE at Boyle Heights hospital",
+ "seoTitle": "Los Angeles protest against ICE at hospital",
  "place": {
   "city": "Los Angeles",
   "region": "California",
@@ -16,8 +16,8 @@
  "scope": "local",
  "causes": [
   "immigration",
-  "police",
-  "health"
+  "health",
+  "police"
  ],
  "kind": "multi-day",
  "startedOn": "2026-11-06",
@@ -26,51 +26,60 @@
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
-  "top-10"
+  "top-10",
+  "low-confidence",
+  "sources-disagree"
  ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Demonstrators protested against immigration enforcement activity and the presence of federal agents at a medical facility.",
-  "want": "Protesters demanded that federal immigration agents leave the hospital, Boyle Heights, and Los Angeles.",
-  "changed": "Nov 7: Rapid response groups and media reported that federal immigration agents detained at least two people outside the hospital."
+  "why": "Protesters gathered to oppose the presence of federal immigration agents at a hospital where they were detaining individuals.",
+  "want": "Protesters demanded that ICE agents leave the city and stop conducting enforcement operations at medical facilities.",
+  "changed": "Nov 7: Federal agents detained two protesters during a confrontation at the hospital, citing alleged assault on a federal officer."
  },
- "summary": "Community advocates, rapid response groups, and residents gathered outside Adventist Health White Memorial Hospital in the Boyle Heights neighborhood of Los Angeles after federal immigration agents brought someone in their custody to the facility's emergency department. The demonstration sparked a tense standoff as protesters confronted agents blocking the hospital's ambulance bay. According to rapid response networks and media reports, federal agents detained at least two people during the demonstrations. The protest drew sharp criticism from city leaders, including Mayor Karen Bass and Mayor-Elect Nithya Raman, who condemned the enforcement activity around a medical facility and called for federal agents to halt operations near health care centers.",
+ "summary": "Following reports that federal immigration agents were present at Adventist Health White Memorial in Boyle Heights, protesters gathered outside the facility to demonstrate against immigration enforcement. According to hospital officials, agents brought a person in custody to the emergency department, blocking the ambulance entrance for approximately two hours. The hospital stated it did not authorize this presence. Demonstrations continued into Saturday, with participants including Mayor-elect Nithya Raman and state Sen. María Elena Durazo. Protesters alleged that agents used pepper spray and detained individuals, while federal authorities stated two people were arrested for assaulting a federal officer. The Los Angeles Police Department confirmed they were called to the scene but stated they did not participate in immigration enforcement. Local leaders have condemned the federal presence at the medical facility.",
  "organizers": [
   "Boyle Heights Immigrant Rights Network",
   "Proyecto Pastoral"
  ],
  "demands": [
-  "ICE out of Boyle Heights",
-  "ICE out of LA",
-  "Stop all immigration enforcement in and around health care facilities"
+  "ICE out of Los Angeles",
+  "End immigration enforcement at health care facilities",
+  "Hospital accountability regarding ICE cooperation"
  ],
- "response": "The Department of Homeland Security and ICE did not immediately respond to requests for comment, according to reports. The Los Angeles Police Department stated that officers responded to reports of large crowds causing a disturbance but did not participate in any immigration enforcement operations.",
+ "response": "Federal authorities stated two arrests were made for assaulting a federal officer. The LAPD stated they were called to the scene but did not assist with immigration enforcement. Hospital officials stated they did not request or authorize the ICE presence.",
  "numbers": {
   "arrests": {
    "value": 2,
-   "text": "at least two people",
+   "text": "Federal authorities reported two arrests for assaulting a federal officer.",
    "sources": [
-    1,
-    2
+    4
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-06",
-   "text": "Protesters gathered outside Adventist White Memorial Hospital following reports of immigration enforcement activity.",
+   "text": "ICE agents arrive at White Memorial Hospital, leading to a standoff and initial protests.",
    "sources": [
     1,
-    2,
-    3
+    3,
+    4
    ]
   },
   {
    "at": "2026-11-07",
-   "text": "A march was held from Mariachi Plaza to the hospital with community advocates and elected officials.",
+   "text": "Two protesters are detained by federal agents outside the hospital.",
    "sources": [
     1,
+    2,
+    4
+   ]
+  },
+  {
+   "at": "2026-11-07",
+   "text": "Mayor-elect Nithya Raman and other officials join the protest at the hospital.",
+   "sources": [
     2,
     3,
     4
@@ -94,162 +103,178 @@
   },
   {
    "n": 3,
-   "url": "https://mynewsla.com/business/2026/11/07/crowd-protests-ice-presence-at-boyle-heights-hospital/",
-   "publisher": "mynewsla.com",
-   "title": "Crowd Protests ICE Presence at Boyle Heights Hospital - MyNewsLA.com",
-   "publishedAt": "2026-11-07T23:30:31.000Z"
-  },
-  {
-   "n": 4,
    "url": "https://nypost.com/2026/11/07/us-news/la-mayor-elect-nithya-raman-joins-anti-ice-protesters-after-hospital-showdown/",
    "publisher": "nypost.com",
    "title": "Mayor-elect Nithya Raman joins anti-ICE protests after tense standoff with agents at LA hospital",
    "publishedAt": "2026-11-08T01:12:21.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.pasadenastarnews.com/2026/11/07/crowd-protests-ice-presence-at-boyle-heights-hospital/",
+   "publisher": "pasadenastarnews.com",
+   "title": "Crowd protests ICE presence at Boyle Heights hospital",
+   "publishedAt": "2026-11-08T02:55:44.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.91,
+ "conflicts": [
+  "Protesters alleged agents pepper-sprayed demonstrators and arrested U.S. citizens, while federal authorities stated the two arrests were for assaulting a federal officer."
+ ],
+ "confidence": 0.76,
  "publishers": 4,
- "reports24h": 5,
+ "reports24h": 6,
  "reportsPrev24h": 0,
- "reports48h": 5,
+ "reports48h": 6,
  "firstSeenAt": "2026-11-07T23:09:20.077Z",
- "lastReportAt": "2026-11-08T01:12:21.000Z",
- "lastCheckedAt": "2026-11-08T02:22:23.262Z",
- "updatedAt": "2026-11-08T02:22:03.394Z",
+ "lastReportAt": "2026-11-08T02:55:44.000Z",
+ "lastCheckedAt": "2026-11-08T05:17:19.406Z",
+ "updatedAt": "2026-11-08T05:16:59.435Z",
  "responseSources": [
   1,
-  2,
   3,
   4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-08T02:22:03.394Z",
- "summaryOf": "7278f00376a6",
+ "summarizedAt": "2026-11-08T05:16:59.435Z",
+ "summaryOf": "d1d41032a6f8",
  "publishedAt": "2026-11-07T23:12:42.182Z",
  "i18n": {
-  "of": "14ab1ccba3ef4efa",
-  "at": "2026-11-08T02:22:34.572Z",
+  "of": "109e80ecbb3e8731",
+  "at": "2026-11-08T05:17:45.264Z",
   "tries": 1,
   "hi": {
-   "title": "लॉस एंजिल्स के अस्पताल के बाहर आईसीई एजेंटों के खिलाफ प्रदर्शनकारियों की रैली",
-   "seoTitle": "बॉयल हाइट्स अस्पताल में आईसीई के खिलाफ एलए रैली",
+   "title": "लॉस एंजिल्स अस्पताल के बाहर ICE एजेंटों के खिलाफ प्रदर्शन",
+   "seoTitle": "लॉस एंजिल्स अस्पताल में ICE के खिलाफ प्रदर्शन",
    "tea": {
-    "why": "प्रदर्शनकारियों ने आव्रजन प्रवर्तन कार्रवाई और एक चिकित्सा सुविधा में संघीय एजेंटों की उपस्थिति के खिलाफ विरोध प्रदर्शन किया।",
-    "want": "प्रदर्शनकारियों ने मांग की कि संघीय आव्रजन एजेंट अस्पताल, बॉयल हाइट्स और लॉस एंजिल्स को छोड़ दें।",
-    "changed": "7 नवंबर: त्वरित प्रतिक्रिया समूहों और मीडिया ने बताया कि संघीय आव्रजन एजेंटों ने अस्पताल के बाहर कम से कम दो लोगों को हिरासत में लिया।"
+    "why": "प्रदर्शनकारी एक अस्पताल में संघीय आव्रजन एजेंटों की उपस्थिति का विरोध करने के लिए एकत्र हुए, जहाँ वे व्यक्तियों को हिरासत में ले रहे थे।",
+    "want": "प्रदर्शनकारियों ने मांग की कि ICE एजेंट शहर छोड़ दें और चिकित्सा सुविधाओं पर प्रवर्तन अभियान चलाना बंद करें।",
+    "changed": "7 नवंबर: संघीय एजेंटों ने अस्पताल में एक टकराव के दौरान दो प्रदर्शनकारियों को हिरासत में लिया, और एक संघीय अधिकारी पर कथित हमले का हवाला दिया।"
    },
-   "summary": "लॉस एंजिल्स के बॉयल हाइट्स पड़ोस में एडवेंटिस्ट हेल्थ व्हाइट मेमोरियल अस्पताल के बाहर सामुदायिक पैरोकार, त्वरित प्रतिक्रिया समूह और निवासी एकत्र हुए, जब संघीय आव्रजन एजेंटों ने हिरासत में मौजूद किसी व्यक्ति को सुविधा के आपातकालीन विभाग में पहुंचाया। इस प्रदर्शन के कारण तनावपूर्ण स्थिति पैदा हो गई क्योंकि प्रदर्शनकारियों ने अस्पताल के एम्बुलेंस बे को अवरुद्ध कर रहे एजेंटों का सामना किया। त्वरित प्रतिक्रिया नेटवर्क और मीडिया रिपोर्टों के अनुसार, प्रदर्शन के दौरान संघीय एजेंटों ने कम से कम दो लोगों को हिरासत में लिया। इस विरोध प्रदर्शन की मेयर करेन बास और मेयर-एलेक्ट नित्या रमन सहित शहर के नेताओं ने तीखी आलोचना की, जिन्होंने एक चिकित्सा सुविधा के आसपास प्रवर्तन कार्रवाई की निंदा की और संघीय एजेंटों से स्वास्थ्य देखभाल केंद्रों के पास अभियानों को रोकने का आह्वान किया।",
+   "summary": "बॉयल हाइट्स में एडवेंटिस्ट हेल्थ व्हाइट मेमोरियल में संघीय आव्रजन एजेंटों की उपस्थिति की खबरों के बाद, प्रदर्शनकारी आव्रजन प्रवर्तन के खिलाफ प्रदर्शन करने के लिए सुविधा के बाहर एकत्र हुए। अस्पताल के अधिकारियों के अनुसार, एजेंटों ने हिरासत में लिए गए एक व्यक्ति को आपातकालीन विभाग में पहुँचाया, जिससे लगभग 2 घंटे तक एम्बुलेंस का प्रवेश द्वार अवरुद्ध रहा। अस्पताल ने कहा कि उसने इस उपस्थिति को अधिकृत नहीं किया था। प्रदर्शन शनिवार तक जारी रहे, जिसमें मेयर-इलेक्ट नित्या रमन और राज्य सीनेटर मारिया एलेना दुराज़ो सहित प्रतिभागी शामिल थे। प्रदर्शनकारियों ने आरोप लगाया कि एजेंटों ने काली मिर्च स्प्रे का इस्तेमाल किया और व्यक्तियों को हिरासत में लिया, जबकि संघीय अधिकारियों ने कहा कि एक संघीय अधिकारी पर हमला करने के लिए दो लोगों को गिरफ्तार किया गया था। लॉस एंजिल्स पुलिस विभाग ने पुष्टि की कि उन्हें घटनास्थल पर बुलाया गया था लेकिन कहा कि उन्होंने आव्रजन प्रवर्तन में भाग नहीं लिया। स्थानीय नेताओं ने चिकित्सा सुविधा में संघीय उपस्थिति की निंदा की है।",
    "demands": [
-    "बॉयल हाइट्स से आईसीई बाहर जाए",
-    "एलए से आईसीई बाहर जाए",
-    "स्वास्थ्य देखभाल सुविधाओं के अंदर और आसपास सभी आव्रजन प्रवर्तन को रोकें"
+    "ICE लॉस एंजिल्स से बाहर जाए",
+    "स्वास्थ्य देखभाल सुविधाओं पर आव्रजन प्रवर्तन समाप्त करें",
+    "ICE सहयोग के संबंध में अस्पताल की जवाबदेही"
    ],
-   "response": "रिपोर्टों के अनुसार, होमलैंड सुरक्षा विभाग और आईसीई ने टिप्पणी के अनुरोधों का तुरंत जवाब नहीं दिया। लॉस एंजिल्स पुलिस विभाग ने कहा कि अधिकारी भारी भीड़ द्वारा हंगामा करने की रिपोर्टों पर पहुंचे थे, लेकिन किसी भी आव्रजन प्रवर्तन अभियानों में भाग नहीं लिया।",
+   "response": "संघीय अधिकारियों ने कहा कि एक संघीय अधिकारी पर हमला करने के लिए दो गिरफ्तारियां की गईं। LAPD ने कहा कि उन्हें घटनास्थल पर बुलाया गया था लेकिन उन्होंने आव्रजन प्रवर्तन में सहायता नहीं की। अस्पताल के अधिकारियों ने कहा कि उन्होंने ICE की उपस्थिति का अनुरोध या अधिकृत नहीं किया था।",
    "updates": [
-    "आव्रजन प्रवर्तन गतिविधि की रिपोर्ट के बाद प्रदर्शनकारी एडवेंटिस्ट व्हाइट मेमोरियल अस्पताल के बाहर एकत्र हुए।",
-    "सामुदायिक पैरोकारों और निर्वाचित अधिकारियों के साथ मारियाची प्लाजा से अस्पताल तक एक मार्च निकाला गया।"
+    "ICE एजेंट व्हाइट मेमोरियल अस्पताल पहुँचे, जिससे गतिरोध और शुरुआती विरोध प्रदर्शन शुरू हो गए।",
+    "संघीय एजेंटों द्वारा अस्पताल के बाहर दो प्रदर्शनकारियों को हिरासत में लिया गया।",
+    "मेयर-इलेक्ट नित्या रमन और अन्य अधिकारी अस्पताल में विरोध प्रदर्शन में शामिल हुए।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "प्रदर्शनकारियों ने आरोप लगाया कि एजेंटों ने प्रदर्शनकारियों पर काली मिर्च स्प्रे का छिड़काव किया और अमेरिकी नागरिकों को गिरफ्तार किया, जबकि संघीय अधिकारियों ने कहा कि दो गिरफ्तारियां एक संघीय अधिकारी पर हमला करने के लिए थीं।"
+   ],
    "numbers": {
-    "arrests": "कम से कम दो लोग"
+    "arrests": "संघीय अधिकारियों ने एक संघीय अधिकारी पर हमला करने के लिए दो गिरफ्तारियों की सूचना दी।"
    }
   },
   "mr": {
-   "title": "लॉस एंजेलिसमधील रुग्णालयाबाहेर आईसीई एजंटांविरोधात आंदोलकांची रॅली",
-   "seoTitle": "बॉयल हाइट्स रुग्णालयाबाहेर आईसीईविरोधात एलए रॅली",
+   "title": "लॉस एंजिल्स रुग्णालयाबाहेर ICE एजंटविरोधात निदर्शने",
+   "seoTitle": "लॉस एंजिल्स रुग्णालयात ICE विरोधात निदर्शने",
    "tea": {
-    "why": "निदर्शकांनी स्थलांतरण अंमलबजावणी कारवाई आणि वैद्यकीय सुविधेत केंद्रीय एजंट्सच्या उपस्थितीविरोधात निषेध नोंदवला.",
-    "want": "निदर्शकांनी मागणी केली की केंद्रीय स्थलांतरण एजंट्सने रुग्णालय, बॉयल हाइट्स आणि लॉस एंजेलिस सोडावे.",
-    "changed": "७ नोव्हेंबर: जलद प्रतिसाद गट आणि माध्यमांनी वृत्त दिले की केंद्रीय स्थलांतरण एजंटांनी रुग्णालयाबाहेर किमान दोन जणांना ताब्यात घेतले."
+    "why": "रुग्णालयात जिथे फेडरल इमिग्रेशन एजंट व्यक्तींना ताब्यात घेत होते, तिथे त्यांच्या उपस्थितीला विरोध करण्यासाठी निदर्शक एकत्र आले होते.",
+    "want": "निदर्शकांनी मागणी केली की ICE एजंटनी शहर सोडावे आणि वैद्यकीय सुविधांमध्ये अंमलबजावणी मोहीम थांबवावी.",
+    "changed": "७ नोव्हेंबर: फेडरल एजंटनी रुग्णालयातील संघर्षादरम्यान दोन निदर्शकांना ताब्यात घेतले, आणि एका फेडरल अधिकाऱ्यावर कथित हल्ल्याचा उल्लेख केला."
    },
-   "summary": "लॉस एंजेलिसच्या बॉयल हाइट्स परिसरातील ॲडव्हेन्टिस्ट हेल्थ व्हाईट मेमोरियल रुग्णालयाबाहेर समुदाय पुरस्कर्ते, जलद प्रतिसाद गट आणि रहिवासी जमले, जेव्हा केंद्रीय स्थलांतरण एजंटांनी त्यांच्या ताब्यात असलेल्या एका व्यक्तीला रुग्णालयाच्या आपत्कालीन विभागात आणले. या निदर्शनामुळे तणावपूर्ण परिस्थिती निर्माण झाली कारण निदर्शकांनी रुग्णालयाच्या रुग्णवाहिका खाडीचा मार्ग अडवणाऱ्या एजंटांना रोखले. जलद प्रतिसाद नेटवर्क आणि वृत्तवाहिन्यांच्या अहवालानुसार, निदर्शनादरम्यान केंद्रीय एजंटांनी किमान दोन जणांना ताब्यात घेतले. या आंदोलनावर महापौर करेन बास आणि नवनिर्वाचित महापौर नित्या रामन यांच्यासह शहर नेत्यांनी तीव्र टीका केली, ज्यांनी वैद्यकीय सुविधेभोवतीच्या अंमलबजावणी कारवाईचा निषेध केला आणि केंद्रीय एजंटांना आरोग्य केंद्रांमागील कारवाया थांबवण्याचे आवाहन केले.",
+   "summary": "बॉयल हाइट्समधील ॲडव्हेंटिस्ट हेल्थ व्हाइट मेमोरियलमध्ये फेडरल इमिग्रेशन एजंट उपस्थित असल्याच्या वृत्तानंतर, निदर्शक इमिग्रेशन अंमलबजावणीच्या विरोधात निदर्शने करण्यासाठी सुविधेबाहेर एकत्र आले. रुग्णालय अधिकाऱ्यांच्या म्हणण्यानुसार, एजंटनी एका व्यक्तीला ताब्यात घेऊन आपत्कालीन विभागात आणले, ज्यामुळे सुमारे २ तास रुग्णवाहिकेचा प्रवेशद्वार बंद झाला होता. रुग्णालयाने सांगितले की त्यांनी या उपस्थितीला अधिकृत केले नव्हते. निदर्शने शनिवारी सुरू राहिली, ज्यामध्ये मेयर-इलेक्ट नित्या रमन आणि राज्य सीनेटर मारिया एलेना दुराझो यांचा समावेश होता. निदर्शकांनी आरोप केला की एजंटनी पेपर स्प्रेचा वापर केला आणि व्यक्तींना ताब्यात घेतले, तर फेडरल अधिकाऱ्यांनी सांगितले की एका फेडरल अधिकाऱ्यावर हल्ला केल्याबद्दल दोन जणांना अटक करण्यात आली. लॉस एंजिल्स पोलीस विभागाने पुष्टी केली की त्यांना घटनास्थळी बोलावले होते परंतु त्यांनी इमिग्रेशन अंमलबजावणीत भाग घेतला नाही असे सांगितले. स्थानिक नेत्यांनी वैद्यकीय सुविधेतील फेडरल उपस्थितीचा निषेध केला आहे.",
    "demands": [
-    "बॉयल हाइट्समधून आईसीई बाहेर जावे",
-    "एलएमधून आईसीई बाहेर जावे",
-    "आरोग्य सुविधांच्या आत आणि आजूबाजूला सर्व स्थलांतरण अंमलबजावणी थांबवा"
+    "ICE ने लॉस एंजिल्स सोडावे",
+    "आरोग्य सेवा सुविधांमध्ये इमिग्रेशन अंमलबजावणी थांबवा",
+    "ICE सहकार्याबाबत रुग्णालयाची जबाबदारी"
    ],
-   "response": "वृत्तानुसार, होमलँड सुरक्षा विभाग आणि आईसीईने टीकेच्या विनंत्यांवर तात्काळ प्रतिक्रिया दिली नाही. लॉस एंजेलिस पोलिसांनी सांगितले की अधिकारी मोठ्या जमावाकडून गोंधळ घातल्याच्या वृत्तांना प्रतिसाद देण्यासाठी आले होते, परंतु कोणत्याही स्थलांतरण अंमलबजावणी कारवायांमध्ये सहभागी झाले नाहीत.",
+   "response": "फेडरल अधिकाऱ्यांनी सांगितले की एका फेडरल अधिकाऱ्यावर हल्ला केल्याबद्दल दोन अटक करण्यात आल्या. LAPD ने सांगितले की त्यांना घटनास्थळी बोलावले होते परंतु त्यांनी इमिग्रेशन अंमलबजावणीत मदत केली नाही. रुग्णालय अधिकाऱ्यांनी सांगितले की त्यांनी ICE च्या उपस्थितीची विनंती किंवा अधिकृतता केली नव्हती.",
    "updates": [
-    "स्थलांतरण अंमलबजावणी कृतीच्या वृत्तांनंतर निदर्शक ॲडव्हेन्टिस्ट व्हाईट मेमोरियल रुग्णालयाबाहेर जमले.",
-    "समुदाय पुरस्कर्ते आणि निवडक अधिकाऱ्यांसह मरियाची प्लाझापासून रुग्णालयापर्यंत मोर्चा काढण्यात आला."
+    "ICE एजंट व्हाइट मेमोरियल हॉस्पिटलमध्ये पोहोचले, ज्यामुळे गतिरोध आणि सुरुवातीची निदर्शने झाली.",
+    "रुग्णालयाबाहेर फेडरल एजंटनी दोन निदर्शकांना ताब्यात घेतले.",
+    "मेयर-इलेक्ट नित्या रमन आणि इतर अधिकारी रुग्णालयातील निदर्शनात सामील झाले."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "निदर्शकांनी आरोप केला की एजंटनी निदर्शकांवर पेपर स्प्रे फवारला आणि अमेरिकन नागरिकांना अटक केली, तर फेडरल अधिकाऱ्यांनी सांगितले की दोन अटक एका फेडरल अधिकाऱ्यावर हल्ला केल्याबद्दल होत्या."
+   ],
    "numbers": {
-    "arrests": "किमान दोन व्यक्ती"
+    "arrests": "फेडरल अधिकाऱ्यांनी एका फेडरल अधिकाऱ्यावर हल्ला केल्याबद्दल दोन अटक झाल्याचे नोंदवले."
    }
   },
   "es": {
-   "title": "Manifestantes se concentran contra agentes de ICE frente a hospital de Los Ángeles",
-   "seoTitle": "Protesta en LA contra ICE en hospital de Boyle Heights",
+   "title": "Manifestantes se reúnen contra agentes de ICE fuera de un hospital de Los Ángeles",
+   "seoTitle": "Protesta en Los Ángeles contra ICE en hospital",
    "tea": {
-    "why": "Los manifestantes protestaron contra la actividad de control migratorio y la presencia de agentes federales en un centro médico.",
-    "want": "Los manifestantes exigieron que los agentes federales de inmigración abandonen el hospital, Boyle Heights y Los Ángeles.",
-    "changed": "7 de noviembre: Grupos de respuesta rápida y medios informaron que agentes federales de inmigración detuvieron al menos a dos personas fuera del hospital."
+    "why": "Los manifestantes se reunieron para oponerse a la presencia de agentes federales de inmigración en un hospital donde estaban deteniendo a personas.",
+    "want": "Los manifestantes exigieron que los agentes de ICE abandonen la ciudad y dejen de realizar operaciones de cumplimiento en instalaciones médicas.",
+    "changed": "7 de noviembre: Agentes federales detuvieron a dos manifestantes durante un enfrentamiento en el hospital, citando una supuesta agresión a un oficial federal."
    },
-   "summary": "Defensores comunitarios, grupos de respuesta rápida y residentes se congregaron frente al Hospital Adventist Health White Memorial en el vecindario de Boyle Heights en Los Ángeles después de que agentes federales de inmigración trajeran a una persona bajo su custodia al departamento de emergencias del centro. La manifestación provocó un enfrentamiento tenso cuando los manifestantes confrontaron a los agentes que bloqueaban la bahía de ambulancias del hospital. Según redes de respuesta rápida y reportes de prensa, los agentes federales detuvieron al menos a dos personas durante las manifestaciones. La protesta generó duras críticas por parte de líderes de la ciudad, incluida la alcaldesa Karen Bass y la alcaldesa electa Nithya Raman, quienes condenaron la actividad de control en torno a un centro médico y exigieron que los agentes federales detengan las operaciones cerca de los centros de salud.",
+   "summary": "Tras los informes de que agentes federales de inmigración estaban presentes en el Adventist Health White Memorial en Boyle Heights, los manifestantes se reunieron fuera de la instalación para demostrar contra el cumplimiento de la ley de inmigración. Según funcionarios del hospital, los agentes llevaron a una persona bajo custodia al departamento de emergencias, bloqueando la entrada de ambulancias durante aproximadamente dos horas. El hospital declaró que no autorizó esta presencia. Las manifestaciones continuaron hasta el sábado, con participantes que incluyeron a la alcaldesa electa Nithya Raman y la senadora estatal María Elena Durazo. Los manifestantes alegaron que los agentes usaron gas pimienta y detuvieron a personas, mientras que las autoridades federales declararon que dos personas fueron arrestadas por agredir a un oficial federal. El Departamento de Policía de Los Ángeles confirmó que fueron llamados a la escena pero declararon que no participaron en el cumplimiento de la ley de inmigración. Los líderes locales han condenado la presencia federal en la instalación médica.",
    "demands": [
-    "ICE fuera de Boyle Heights",
-    "ICE fuera de LA",
-    "Alto a todas las operaciones de control migratorio dentro y alrededor de centros de salud"
+    "ICE fuera de Los Ángeles",
+    "Terminar con el cumplimiento de la ley de inmigración en instalaciones de salud",
+    "Responsabilidad del hospital con respecto a la cooperación con ICE"
    ],
-   "response": "El Departamento de Seguridad Nacional y el ICE no respondieron de inmediato a las solicitudes de comentarios, según los informes. El Departamento de Policía de Los Ángeles declaró que los agentes respondieron a reportes de grandes multitudes causando disturbios pero no participaron en ninguna operación de control migratorio.",
+   "response": "Las autoridades federales declararon que se realizaron dos arrestos por agredir a un oficial federal. El LAPD declaró que fueron llamados a la escena pero no ayudaron con el cumplimiento de la ley de inmigración. Los funcionarios del hospital declararon que no solicitaron ni autorizaron la presencia de ICE.",
    "updates": [
-    "Los manifestantes se reunieron frente al Hospital Adventist White Memorial tras reportes de actividad de control migratorio.",
-    "Se realizó una marcha desde la Plaza Mariachi hasta el hospital con defensores comunitarios y funcionarios electos."
+    "Los agentes de ICE llegan al Hospital White Memorial, lo que lleva a un enfrentamiento y protestas iniciales.",
+    "Dos manifestantes son detenidos por agentes federales fuera del hospital.",
+    "La alcaldesa electa Nithya Raman y otros funcionarios se unen a la protesta en el hospital."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Los manifestantes alegaron que los agentes rociaron con gas pimienta a los manifestantes y arrestaron a ciudadanos estadounidenses, mientras que las autoridades federales declararon que los dos arrestos fueron por agredir a un oficial federal."
+   ],
    "numbers": {
-    "arrests": "al menos dos personas"
+    "arrests": "Las autoridades federales informaron de dos arrestos por agredir a un oficial federal."
    }
   },
   "fr": {
-   "title": "Des manifestants se rassemblent contre les agents de l'ICE devant un hôpital de Los Angeles",
-   "seoTitle": "Manifestation à LA contre l'ICE à l'hôpital de Boyle Heights",
+   "title": "Des manifestants se rassemblent contre des agents de l'ICE devant un hôpital de Los Angeles",
+   "seoTitle": "Protestation à Los Angeles contre l'ICE à l'hôpital",
    "tea": {
-    "why": "Des manifestants ont protesté contre l'activité de contrôle de l'immigration et la présence d'agents fédéraux dans un établissement médical.",
-    "want": "Les manifestants ont exigé que les agents fédéraux de l'immigration quittent l'hôpital, Boyle Heights et Los Angeles.",
-    "changed": "7 novembre : Des groupes d'intervention rapide et des médias ont rapporté que des agents fédéraux de l'immigration ont interpellé au moins deux personnes devant l'hôpital."
+    "why": "Les manifestants se sont rassemblés pour s'opposer à la présence d'agents fédéraux de l'immigration dans un hôpital où ils détenaient des individus.",
+    "want": "Les manifestants ont exigé que les agents de l'ICE quittent la ville et cessent de mener des opérations d'application de la loi dans les établissements médicaux.",
+    "changed": "7 novembre : Des agents fédéraux ont détenu deux manifestants lors d'une confrontation à l'hôpital, citant une agression présumée contre un officier fédéral."
    },
-   "summary": "Des défenseurs de la communauté, des groupes d'intervention rapide et des riverains se sont rassemblés devant l'hôpital Adventist Health White Memorial dans le quartier de Boyle Heights à Los Angeles après que des agents fédéraux de l'immigration ont amené une personne sous leur garde au service des urgences de l'établissement. La manifestation a provoqué un face-à-face tendu lorsque des manifestants ont confronté les agents bloquant la zone des ambulances de l'hôpital. Selon des réseaux d'intervention rapide et des reportages médiatiques, des agents fédéraux ont interpellé au moins deux personnes lors des manifestations. Le mouvement a suscité de vives critiques de la part de dirigeants municipaux, notamment la maire Karen Bass et la maire élue Nithya Raman, qui ont condamné l'activité de contrôle autour d'un établissement médical et ont appelé les agents fédéraux à cesser leurs opérations près des centres de soins de santé.",
+   "summary": "Suite à des rapports indiquant que des agents fédéraux de l'immigration étaient présents à l'Adventist Health White Memorial à Boyle Heights, des manifestants se sont rassemblés devant l'établissement pour manifester contre l'application des lois sur l'immigration. Selon les responsables de l'hôpital, les agents ont amené une personne en garde à vue au service des urgences, bloquant l'entrée des ambulances pendant environ 2 heures. L'hôpital a déclaré qu'il n'avait pas autorisé cette présence. Les manifestations se sont poursuivies jusqu'à samedi, avec la participation notamment de la maire élue Nithya Raman et de la sénatrice de l'État María Elena Durazo. Les manifestants ont allégué que les agents avaient utilisé du gaz poivre et détenu des individus, tandis que les autorités fédérales ont déclaré que deux personnes avaient été arrêtées pour avoir agressé un officier fédéral. Le département de police de Los Angeles a confirmé qu'ils avaient été appelés sur les lieux mais a déclaré qu'ils n'avaient pas participé à l'application des lois sur l'immigration. Les dirigeants locaux ont condamné la présence fédérale dans l'établissement médical.",
    "demands": [
-    "L'ICE hors de Boyle Heights",
-    "L'ICE hors de LA",
-    "Arrêt de toutes les opérations de contrôle de l'immigration dans et autour des établissements de santé"
+    "L'ICE hors de Los Angeles",
+    "Mettre fin à l'application des lois sur l'immigration dans les établissements de santé",
+    "Responsabilité de l'hôpital concernant la coopération avec l'ICE"
    ],
-   "response": "Le département de la Sécurité intérieure et l'ICE n'ont pas répondu immédiatement aux demandes de commentaires, selon les rapports. Le département de police de Los Angeles a déclaré que des agents avaient répondu à des signalements de foules importantes provoquant des troubles mais n'avaient pris part à aucune opération de contrôle de l'immigration.",
+   "response": "Les autorités fédérales ont déclaré que deux arrestations avaient été effectuées pour agression contre un officier fédéral. Le LAPD a déclaré qu'ils avaient été appelés sur les lieux mais n'avaient pas aidé à l'application des lois sur l'immigration. Les responsables de l'hôpital ont déclaré qu'ils n'avaient ni demandé ni autorisé la présence de l'ICE.",
    "updates": [
-    "Des manifestants se sont rassemblés devant l'hôpital Adventist White Memorial à la suite de signalements d'activités de contrôle de l'immigration.",
-    "Une marche a été organisée de la Plaza Mariachi jusqu'à l'hôpital avec des défenseurs de la communauté et des élus."
+    "Les agents de l'ICE arrivent au White Memorial Hospital, menant à une impasse et à des manifestations initiales.",
+    "Deux manifestants sont détenus par des agents fédéraux devant l'hôpital.",
+    "La maire élue Nithya Raman et d'autres responsables se joignent à la manifestation à l'hôpital."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Les manifestants ont allégué que les agents avaient aspergé les manifestants de gaz poivre et arrêté des citoyens américains, tandis que les autorités fédérales ont déclaré que les deux arrestations concernaient une agression contre un officier fédéral."
+   ],
    "numbers": {
-    "arrests": "au moins deux personnes"
+    "arrests": "Les autorités fédérales ont signalé deux arrestations pour agression contre un officier fédéral."
    }
   },
   "de": {
-   "title": "Demonstranten versammeln sich vor Krankenhaus in Los Angeles gegen ICE-Agenten",
-   "seoTitle": "LA-Protest gegen ICE am Krankenhaus in Boyle Heights",
+   "title": "Demonstranten versammeln sich gegen ICE-Agenten vor einem Krankenhaus in Los Angeles",
+   "seoTitle": "Protest in Los Angeles gegen ICE am Krankenhaus",
    "tea": {
-    "why": "Demonstranten protestierten gegen Einwanderungskontrollmaßnahmen und die Anwesenheit von Bundesagenten in einer medizinischen Einrichtung.",
-    "want": "Demonstranten forderten, dass die föderalen Einwanderungsagenten das Krankenhaus, Boyle Heights und Los Angeles verlassen.",
-    "changed": "7. November: Schnelleinsatzgruppen und Medien berichteten, dass bundesstaatliche Einwanderungsagenten mindestens zwei Personen vor dem Krankenhaus festgenommen haben."
+    "why": "Demonstranten versammelten sich, um gegen die Anwesenheit von föderalen Einwanderungsbeamten in einem Krankenhaus zu protestieren, wo diese Personen festhielten.",
+    "want": "Die Demonstranten forderten, dass ICE-Agenten die Stadt verlassen und keine Durchsetzungsmaßnahmen mehr in medizinischen Einrichtungen durchführen.",
+    "changed": "7. November: Bundesagenten nahmen während einer Konfrontation im Krankenhaus zwei Demonstranten fest und beriefen sich auf einen angeblichen Angriff auf einen Bundesbeamten."
    },
-   "summary": "Gemeinschaftsaktivisten, Schnelleinsatzgruppen und Anwohner versammelten sich vor dem Adventist Health White Memorial Hospital im Stadtteil Boyle Heights in Los Angeles, nachdem Bundesagenten für Einwanderung eine Person in ihrer Gewahrsamnahme in die Notaufnahme der Einrichtung gebracht hatten. Die Kundgebung löste ein krisenhaftes Tauziehen aus, als Demonstranten Agenten konfrontierten, die die Zufahrt für Krankenwagen des Krankenhauses blockierten. Berichten von Schnelleinsatznetzwerken und Medienberichten zufolge nahmen Bundesagenten während der Kundgebungen mindestens zwei Personen fest. Der Protest stieß auf scharfe Kritik von Stadtführern, darunter Bürgermeisterin Karen Bass und die gewählte Bürgermeisterin Nithya Raman, die die Kontrollaktivitäten um eine medizinische Einrichtung verurteilten und forderten, dass Bundesagenten ihre Operationen in der Nähe von Gesundheitseinrichtungen einstellen.",
+   "summary": "Nach Berichten, dass föderale Einwanderungsbeamte im Adventist Health White Memorial in Boyle Heights anwesend waren, versammelten sich Demonstranten vor der Einrichtung, um gegen die Durchsetzung der Einwanderungsgesetze zu demonstrieren. Laut Krankenhausbeamten brachten die Agenten eine in Gewahrsam befindliche Person in die Notaufnahme und blockierten dabei für etwa 2 Stunden die Zufahrt für Krankenwagen. Das Krankenhaus erklärte, es habe diese Anwesenheit nicht autorisiert. Die Demonstrationen dauerten bis Samstag an, wobei unter anderem die gewählte Bürgermeisterin Nithya Raman und die Senatorin des Bundesstaates María Elena Durazo teilnahmen. Demonstranten behaupteten, dass Agenten Pfefferspray einsetzten und Personen festnahmen, während die Bundesbehörden erklärten, dass zwei Personen wegen Angriffs auf einen Bundesbeamten verhaftet wurden. Das Los Angeles Police Department bestätigte, dass sie zum Tatort gerufen wurden, erklärte jedoch, dass sie nicht an der Durchsetzung der Einwanderungsgesetze beteiligt waren. Lokale Führungskräfte haben die föderale Präsenz in der medizinischen Einrichtung verurteilt.",
    "demands": [
-    "ICE raus aus Boyle Heights",
-    "ICE raus aus LA",
-    "Stopp aller Einwanderungskontrollen in und um Gesundheitseinrichtungen"
+    "ICE raus aus Los Angeles",
+    "Beendigung der Durchsetzung von Einwanderungsgesetzen in Gesundheitseinrichtungen",
+    "Verantwortlichkeit des Krankenhauses bezüglich der Zusammenarbeit mit ICE"
    ],
-   "response": "Das Heimatschutzministerium und die ICE reagierten Berichten zufolge nicht umgehend auf Anfragen nach Kommentaren. Die Polizeibehörde von Los Angeles erklärte, dass Beamte auf Berichte über große Menschenmengen reagierten, die Unruhe stifteten, sich jedoch nicht an Einwanderungskontrollmaßnahmen beteiligten.",
+   "response": "Die Bundesbehörden erklärten, dass zwei Verhaftungen wegen Angriffs auf einen Bundesbeamten vorgenommen wurden. Das LAPD erklärte, dass sie zum Tatort gerufen wurden, aber nicht bei der Durchsetzung der Einwanderungsgesetze halfen. Krankenhausbeamte erklärten, dass sie die ICE-Präsenz weder angefordert noch autorisiert hatten.",
    "updates": [
-    "Demonstranten versammelten sich nach Berichten über Einwanderungskontrollaktivitäten vor dem Adventist White Memorial Hospital.",
-    "Ein Marsch wurde von der Mariachi Plaza zum Krankenhaus abgehalten, an dem Gemeinschaftsaktivisten und gewählte Amtsträger teilnahmen."
+    "ICE-Agenten kommen im White Memorial Hospital an, was zu einer Pattsituation und ersten Protesten führt.",
+    "Zwei Demonstranten werden von Bundesagenten vor dem Krankenhaus festgenommen.",
+    "Die gewählte Bürgermeisterin Nithya Raman und andere Beamte schließen sich dem Protest am Krankenhaus an."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Demonstranten behaupteten, dass Agenten Demonstranten mit Pfefferspray besprühten und US-Bürger verhafteten, während die Bundesbehörden erklärten, dass die zwei Verhaftungen wegen eines Angriffs auf einen Bundesbeamten erfolgten."
+   ],
    "numbers": {
-    "arrests": "mindestens zwei Personen"
+    "arrests": "Die Bundesbehörden meldeten zwei Verhaftungen wegen Angriffs auf einen Bundesbeamten."
    }
   }
  }
