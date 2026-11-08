@@ -16,42 +16,66 @@
  "scope": "local",
  "causes": [
   "palestine",
-  "war-peace"
+  "war-peace",
+  "justice"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-08",
- "status": "scheduled",
- "vibe": "heating-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "status": "ended",
+ "vibe": "wrapped-up",
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the violence in Palestine and demanding government action regarding Israel.",
-  "want": "Organizers want the government to exert maximum political, economic, and diplomatic pressure on Israel, stop military ties, and enforce international law.",
-  "changed": "Nov 8: Amsterdam prepared for the march at Museumplein with street closures and diverted public transport."
+  "why": "Protesters are demonstrating against Israel's actions and violence in Gaza, demanding stronger government action.",
+  "want": "Demonstrators demand that the government maximize political, economic, and diplomatic pressure on Israel and stop weapon trade.",
+  "changed": "Nov 8: Organisers stated that at least 200,000 people attended the march in Amsterdam."
  },
- "summary": "Demonstrators are gathering at Museumplein in Amsterdam for the fourth 'Red Line' march against violence in Palestine. The protest is organized by groups including Oxfam Novib, Pax, Amnesty International, and around 150 other organizations, with former ministers Job Cohen and Jozias van Aartsen participating. Organizers expect tens of thousands of participants. They demand that the cabinet sever military and economic ties with Israel, stop the arms trade, and enforce international law. Authorities have implemented road closures and diverted trams around the demonstration route. Prime Minister Jetten stated that no extra measures will be taken and that pressure works better in a European context, while Foreign Minister Tom Berendsen rejected claims that the government is doing too little.",
+ "summary": "Thousands of people gathered at the Museumplein in Amsterdam for the fourth 'Red Line' protest march against Israel's military actions in Gaza. Organised by around 13 groups—including Amnesty International, Oxfam Novib, PAX, and The Rights Forum—along with roughly 150 supporting organisations, the march called for the Dutch government to sever military and economic ties with Israel and impose economic sanctions. High-profile attendees included former government ministers Job Cohen and Jozias van Aartsen. Prime Minister Rob Jetten declined to attend, noting that his role had changed since last year. Authorities implemented transport diversions and street closures across the city for the demonstration.",
  "organizers": [
   "Oxfam Novib",
   "Pax",
-  "Amnesty International"
+  "Amnesty International",
+  "The Rights Forum",
+  "Save the Children",
+  "Palestinian Community Netherlands"
  ],
  "demands": [
-  "Apply maximum political, economic, and diplomatic pressure on Israel",
-  "Stop military ties and the arms trade with Israel",
-  "End the occupation of Palestine and protect international law",
-  "Implement International Court of Justice rulings"
+  "End the illegal occupation of Palestine",
+  "Halt military cooperation and weapon trade with Israel",
+  "Impose economic sanctions on Israel",
+  "Implement rulings of the International Court of Justice",
+  "Protect and support international courts in The Hague"
  ],
- "response": "Prime Minister Jetten stated that no extra measures will be taken, noting that pressure works better in European coordination. Foreign Minister Tom Berendsen rejected claims that the government is doing too little, pointing to the September ban on imports from Israeli settlements.",
- "numbers": {},
+ "response": "Prime Minister Rob Jetten stated that the government has a duty to prevent further escalation and that pressure works better in a European context, noting that extra measures are not planned. Foreign Minister Tom Berendsen rejected claims that the government is doing too little.",
+ "numbers": {
+  "crowd": {
+   "value": 200000,
+   "text": "zeker 200.000 mensen",
+   "sources": [
+    4
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-11-08",
-   "text": "Amsterdam authorities closed streets and diverted trams ahead of the afternoon march at Museumplein.",
+   "text": "Organisers and media reported preparations and traffic disruptions ahead of the fourth Red Line protest in Amsterdam.",
    "sources": [
-    1
+    1,
+    3,
+    5
+   ]
+  },
+  {
+   "at": "2026-11-08",
+   "text": "Organisers stated that at least 200,000 participants attended the march starting and ending at Museumplein.",
+   "sources": [
+    4
    ]
   }
  ],
@@ -79,148 +103,176 @@
   },
   {
    "n": 4,
-   "url": "https://nos.nl/l/2638532",
+   "url": "https://nos.nl/artikel/2638553-rode-lijn-demonstratie-in-amsterdam-tegen-israel-beleid-van-start",
    "publisher": "nos.nl",
-   "title": "Wekdienst 8/11: Rode Lijn-protest tegen Israëlisch geweld • EK veldrijden in de Achterhoek",
-   "publishedAt": "2026-11-08T07:29:10.000Z"
+   "title": "Zeker 200.000 mensen bij Rode Lijn-demonstratie in Amsterdam, zegt organisatie",
+   "publishedAt": "2026-11-08T11:56:23.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.dutchnews.nl/2026/11/thousands-gather-for-red-line-gaza-protest-in-amsterdam/",
+   "publisher": "dutchnews.nl",
+   "title": "Thousands gather for Red Line Gaza protest in Amsterdam - DutchNews.nl",
+   "publishedAt": "2026-11-08T12:09:17.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.86,
- "publishers": 4,
- "reports24h": 4,
- "reportsPrev24h": 0,
- "reports48h": 4,
- "firstSeenAt": "2026-11-08T09:13:48.081Z",
- "lastReportAt": "2026-11-08T07:29:10.000Z",
- "lastCheckedAt": "2026-11-08T09:21:32.437Z",
- "updatedAt": "2026-11-08T09:21:08.292Z",
+ "confidence": 0.9,
+ "publishers": 5,
+ "reports24h": 7,
+ "reportsPrev24h": 1,
+ "reports48h": 8,
+ "firstSeenAt": "2026-11-05T12:51:53.396Z",
+ "lastReportAt": "2026-11-08T12:09:17.000Z",
+ "lastCheckedAt": "2026-11-08T13:58:59.757Z",
+ "updatedAt": "2026-11-08T13:57:44.099Z",
  "distinctFrom": [
   "e7508b3d674"
  ],
  "endedOn": "2026-11-08",
  "responseSources": [
   2,
-  3
+  3,
+  4
  ],
  "seriousInjuries": false,
- "sensitive": false,
- "summarizedAt": "2026-11-08T09:21:08.292Z",
- "summaryOf": "eccafe8cc83f",
+ "sensitive": true,
+ "summarizedAt": "2026-11-08T13:57:44.099Z",
+ "summaryOf": "c0b2db123292",
  "publishedAt": "2026-11-08T09:21:32.437Z",
  "i18n": {
-  "of": "67fb1659a4fb6452",
-  "at": "2026-11-08T09:22:28.514Z",
+  "of": "8998bdb06d73c698",
+  "at": "2026-11-08T14:00:10.572Z",
   "tries": 1,
   "hi": {
-   "title": "फलेस्टाइन में हिंसा के खिलाफ एम्स्टर्डम में विरोध मार्च",
-   "seoTitle": "फलेस्टाइन में हिंसा के खिलाफ एम्स्टर्डम मार्च",
+   "title": "गाजा में हिंसा के खिलाफ एम्स्टर्डम में विरोध मार्च",
+   "seoTitle": "गाजा में हिंसा के खिलाफ एम्स्टर्डम में मार्च",
    "tea": {
-    "why": "प्रदर्शनकारी फलेस्टाइन में हिंसा के खिलाफ प्रदर्शन कर रहे हैं और इजरायल के संबंध में सरकारी कार्रवाई की मांग कर रहे हैं।",
-    "want": "आयोजकों चाहते हैं कि सरकार इजरायल पर अधिकतम राजनीतिक, आर्थिक और कूटनीतिक दबाव डाले, सैन्य संबंध रोके और अंतरराष्ट्रीय कानून लागू करे।",
-    "changed": "8 नवंबर: एम्स्टर्डम ने सड़क बंद करने और सार्वजनिक परिवहन के मार्ग बदलने के साथ म्यूजियमप्लेन में मार्च की तैयारी की।"
+    "why": "प्रदर्शनकारी गाजा में इजरायल की कार्रवाई और हिंसा के खिलाफ प्रदर्शन कर रहे हैं और सरकार से कड़ी कार्रवाई की मांग कर रहे हैं।",
+    "want": "प्रदर्शनकारियों की मांग है कि सरकार इजरायल पर राजनीतिक, आर्थिक और कूटनीतिक दबाव को अधिकतम करे और हथियारों का व्यापार रोके।",
+    "changed": "8 नवंबर: आयोजकों ने बताया कि एम्स्टर्डम में मार्च में कम से कम 200,000 लोग शामिल हुए।"
    },
-   "summary": "फलेस्टाइन में हिंसा के खिलाफ चौथे 'रेड लाइन' मार्च के लिए प्रदर्शनकारी एम्स्टर्डम के म्यूजियमप्लेन में एकत्र हो रहे हैं। इस विरोध प्रदर्शन का आयोजन ऑक्सफैम नोविब, पैक्स, एमनेस्टी इंटरनेशनल और लगभग 150 अन्य संगठनों सहित समूहों द्वारा किया गया है, जिसमें पूर्व मंत्री जॉब कोहेन और जोजियास वान आर्टसेन भाग ले रहे हैं। आयोजकों को दसियों हजार प्रतिभागियों की उम्मीद है। वे मांग करते हैं कि कैबिनेट इजरायल के साथ सैन्य और आर्थिक संबंध तोड़े, हथियारों का व्यापार रोके और अंतरराष्ट्रीय कानून लागू करे। अधिकारियों ने प्रदर्शन मार्ग के आसपास सड़क बंद कर दी है और ट्राम के मार्ग बदल दिए हैं। प्रधान मंत्री जेट्टन ने कहा कि कोई अतिरिक्त उपाय नहीं किए जाएंगे और यूरोपीय संदर्भ में दबाव बेहतर काम करता है, जबकि विदेश मंत्री टॉम बेरेंडसेन ने उन दावों को खारिज कर दिया कि सरकार बहुत कम कर रही है।",
+   "summary": "गाजा में इजरायल की सैन्य कार्रवाई के खिलाफ चौथे 'रेड लाइन' विरोध मार्च के लिए हजारों लोग एम्स्टर्डम के म्यूजियमप्लेन में एकत्र हुए। एमनेस्टी इंटरनेशनल, ऑक्सफैम नोविब, पैक्स और द राइट्स फोरम सहित लगभग 13 समूहों और लगभग 150 समर्थक संगठनों द्वारा आयोजित इस मार्च में डच सरकार से इजरायल के साथ सैन्य और आर्थिक संबंध तोड़ने तथा आर्थिक प्रतिबंध लगाने की मांग की गई। हाई-प्रोफाइल उपस्थित लोगों में पूर्व सरकारी मंत्री जॉब कोहेन और जोजियास वान आर्टसेन शामिल थे। प्रधान मंत्री रॉब जेटेन ने यह कहते हुए भाग लेने से इनकार कर दिया कि पिछले साल की तुलना में उनकी भूमिका बदल गई है। अधिकारियों ने प्रदर्शन के लिए पूरे शहर में परिवहन डायवर्जन और सड़क बंद करने की व्यवस्था लागू की।",
    "demands": [
-    "इजरायल पर अधिकतम राजनीतिक, आर्थिक और कूटनीतिक दबाव लागू करें",
-    "इजरायल के साथ सैन्य संबंध और हथियारों का व्यापार रोकें",
-    "फलेस्टाइन पर कब्जा समाप्त करें और अंतरराष्ट्रीय कानून की रक्षा करें",
-    "अंतरराष्ट्रीय न्यायालय के फैसलों को लागू करें"
+    "फिलस्तीन पर अवैध कब्जा समाप्त करें",
+    "इजरायल के साथ सैन्य सहयोग और हथियार व्यापार बंद करें",
+    "इजरायल पर आर्थिक प्रतिबंध लगाएं",
+    "अंतर्राष्ट्रीय न्यायालय के फैसलों को लागू करें",
+    "हेग में अंतरराष्ट्रीय अदालतों की रक्षा और समर्थन करें"
    ],
-   "response": "प्रधान मंत्री जेट्टन ने कहा कि कोई अतिरिक्त उपाय नहीं किए जाएंगे, यह नोट करते हुए कि यूरोपीय समन्वय में दबाव बेहतर काम करता है। विदेश मंत्री टॉम बेरेंडसेन ने उन दावों को खारिज कर दिया कि सरकार बहुत कम कर रही है, और सितंबर में इजरायली बस्तियों से आयात पर प्रतिबंध की ओर इशारा किया।",
+   "response": "प्रधानमंत्री रॉब जेटेन ने कहा कि सरकार का कर्तव्य आगे की हिंसा को रोकना है और यूरोपीय संदर्भ में दबाव बेहतर काम करता है, साथ ही यह भी नोट किया कि अतिरिक्त उपायों की योजना नहीं है। विदेश मंत्री टॉम बेरेंडसेन ने उन दावों को खारिज कर दिया कि सरकार बहुत कम कर रही है।",
    "updates": [
-    "एम्स्टर्डम के अधिकारियों ने दोपहर के म्यूजियमप्लेन मार्च से पहले सड़कों को बंद कर दिया और ट्राम के मार्ग बदल दिए।"
+    "आयोजकों और मीडिया ने एम्स्टर्डम में चौथे रेड लाइन विरोध प्रदर्शन से पहले तैयारियों और यातायात में बाधाओं की सूचना दी।",
+    "आयोजकों ने बताया कि म्यूजियमप्लेन से शुरू और समाप्त होने वाले मार्च में कम से कम 200,000 प्रतिभागी शामिल हुए।"
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "zeker 200.000 mensen"
+   }
   },
   "mr": {
-   "title": "पलेस्टाईनमधील हिंसेविरोधात ॲमस्टरडॅममध्ये निषेध मार्च",
-   "seoTitle": "पलेस्टाईनमधील हिंसेविरोधात ॲमस्टरडॅम मार्च",
+   "title": "पैलस्टाईनमधील हिंसेविरुद्ध आम्सटरडॅममध्ये निषेध मोर्चा",
+   "seoTitle": "पैलस्टाईनमधील हिंसेविरुद्ध आम्सटरडॅममध्ये मोर्चा",
    "tea": {
-    "why": "निदर्शक पलेस्टाईनमधील हिंसेविरोधात निदर्शने करत आहेत आणि इस्रायलबाबत सरकारच्या कारवाईची मागणी करत आहेत.",
-    "want": "आयोजकांना हवे आहे की सरकारने इस्रायलवर जास्तीत जास्त राजकीय, आर्थिक आणि राजनैतिक दबाव आणावा, लष्करी संबंध थांबवावे आणि आंतरराष्ट्रीय कायदा लागू करावा.",
-    "changed": "८ नोव्हेंबर: ॲमस्टरडॅमने म्युझियमप्लेन येथील मार्चसाठी रस्ते बंद करून आणि सार्वजनिक वाहतूक वळवून तयारी केली."
+    "why": "गाझा मधील इस्रायलच्या कृती आणि हिंसेविरुद्ध निदर्शने करत आहेत आणि सरकारकडून मजबूत कारवाईची मागणी करत आहेत.",
+    "want": "निदर्शक मागण्या करत आहेत की सरकारने इस्रायलवर राजकीय, आर्थिक आणि राजनैतिक दबाव जास्तीत जास्त वाढवावा आणि शस्त्रास्त्रांचा व्यापार थांबवावा.",
+    "changed": "८ नोव्हेंबर: आयोजकांनी सांगितले की आम्सटरडॅममधील मोर्चानुसार किमान २००,००० लोक उपस्थित होते."
    },
-   "summary": "पलेस्टाईनमधील हिंसेविरोधातील चौथ्या 'रेड लाइन' मार्चसाठी निदर्शक ॲमस्टरडॅममधील म्युझियमप्लेन येथे जमले आहेत. हा निषेध ऑक्स्फॅम नोव्हिब, पॅक्स, ॲमनेस्टी इंटरनॅशनल आणि सुमारे १५० इतर संस्थांसह समूहांद्वारे आयोजित केला गेला आहे, ज्यामध्ये माजी मंत्री जॉब कोहेन आणि जोजियास व्हॅन आर्टसेन सहभागी होत आहेत. आयोजकांना दहा हजारांहून अधिक सहभागींची अपेक्षा आहे. त्यांची मागणी आहे की कॅबिनेट इज्झायलसोबतचे लष्करी आणि आर्थिक संबंध तोडावे, शस्त्रास्त्रांचा व्यापार थांबवावा आणि आंतरराष्ट्रीय कायदा लागू करावा. प्रशासनाने निदर्शनाच्या मार्गाभोवती रस्ते बंद केले आहेत आणि ट्रॅम वळवल्या आहेत. पंतप्रधान जेट्टन यांनी सांगितले की कोणतेही अतिरिक्त उपाय घेतले जाणार नाहीत आणि युरोपीय संदर्भात दबाव अधिक चांगले काम करतो, तर परराष्ट्र मंत्री टॉम बेरेंडसेन यांनी सरकारकडून खूप कमी केले जात असल्याचा दावा फेटाळून लावला.",
+   "summary": "गाझामधील इस्रायलच्या लष्करी कारवाईविरुद्ध चौथ्या 'रेड लाईन' निषेध मोर्चानिमित्त आम्सटरडॅममधील म्युझियमप्लेन येथे हजारो लोक जमले. आमनेस्टी इंटरनॅशनल, ऑक्स्फॅम नोव्हिब, पॅक्स आणि द राइट्स फोरमसह सुमारे १३ गट आणि अंदाजे १५० समर्थक संस्थांनी आयोजित केलेल्या या मोर्चामध्ये डच सरकारने इस्रायलशी लष्करी आणि आर्थिक संबंध तोडावेत आणि आर्थिक निर्बंध लादावेत अशी मागणी केली. हाय-प्रोफाइल उपस्थित लोकांमध्ये माजी सरकारी मंत्री जॉब कोहेन आणि जोजियास व्हॅन आट्रसेन यांचा समावेश होता. पंतप्रधान रॉब जेतेन यांनी गतवर्षीच्या तुलनेत आपली भूमिका बदलल्याचे सांगून उपस्थित राहण्यास नकार दिला. अधिकाऱ्यांनी निदर्शनासाठी संपूर्ण शहरात वाहतूक वळवणे आणि रस्ते बंद करणे लागू केले.",
    "demands": [
-    "इस्रायलवर जास्तीत जास्त राजकीय, आर्थिक आणि राजनैतिक दबाव आणा",
-    "इस्रायलसोबतचे लष्करी संबंध आणि शस्त्रास्त्रांचा व्यापार थांबवा",
-    "पलेस्टाईनवरील ताबा संपवा आणि आंतरराष्ट्रीय कायद्याचे रक्षण करा",
-    "आंतरराष्ट्रीय न्यायालयाचे निर्णय लागू करा"
+    "पैलस्टाईनचा बेकायदेशीर ताबा संपवा",
+    "इस्रायलसोबतचे लष्करी सहकार्य आणि शस्त्रास्त्रांचा व्यापार थांबवा",
+    "इस्रायलवर आर्थिक निर्बंध लादणे",
+    "आंतरराष्ट्रीय न्यायालयाचे निर्णय लागू करा",
+    "हेग येथील आंतरराष्ट्रीय न्यायालयांचे संरक्षण आणि समर्थन करा"
    ],
-   "response": "पंतप्रधान जेट्टन यांनी सांगितले की कोणतेही अतिरिक्त उपाय घेतले जाणार नाहीत, हे लक्षात घेताना की युरोपीय समन्वयामध्ये दबाव अधिक चांगले काम करतो. परराष्ट्र मंत्री टॉम बेरेंडसेन यांनी सरकार खूप कमी करत असल्याचा दावा फेटाळून लावला, आणि सप्टेंबरमधील इस्रायली वस्त्यांमधील आयातीवरील बंदीकडे निर्देश केला.",
+   "response": "पंतप्रधान रॉब जेतेन यांनी सांगितले की सरकारचे कर्तव्य पुढील वाढ रोखणे आहे आणि युरोपियन संदर्भात दबाव अधिक चांगले कार्य करतो, आणि नोंदवले की अतिरिक्त उपायांची योजना नाही. परराष्ट्र मंत्री टॉम बेरेंडसेन यांनी सरकार खूप कमी करत असल्याचा दावा फेटाळून लावला.",
    "updates": [
-    "ॲमस्टरडॅम प्रशासनाने दुपारच्या म्युझियमप्लेन येथील मार्चपूर्वी रस्ते बंद केले आणि ट्रॅम वळवल्या."
+    "आयोजकांनी आणि माध्यमांनी आम्सटरडॅममधील चौथ्या रेड लाईन निषेधापूर्वी तयारी आणि वाहतुकीत अडथळे आल्याचे वृत्त दिले.",
+    "आयोजकांनी सांगितले की म्युझियमप्लेन येथे सुरू होणाऱ्या आणि संपणाऱ्या मोर्चानुसार किमान २००,००० सहभागी उपस्थित होते."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "zeker 200.000 mensen"
+   }
   },
   "es": {
    "title": "Marcha de protesta en Ámsterdam contra la violencia en Palestina",
-   "seoTitle": "Marcha en Ámsterdam contra violencia en Palestina",
+   "seoTitle": "Marcha en Ámsterdam contra la violencia en Palestina",
    "tea": {
-    "why": "Los manifestantes se están manifestando contra la violencia en Palestina y exigiendo una acción gubernamental con respecto a Israel.",
-    "want": "Los organizadores quieren que el gobierno ejerza la máxima presión política, económica y diplomática sobre Israel, detenga los lazos militares y haga cumplir el derecho internacional.",
-    "changed": "8 de noviembre: Ámsterdam se preparó para la marcha en Museumplein con cierres de calles y transporte público desviado."
+    "why": "Los manifestantes se están manifestando contra las acciones y la violencia de Israel en Gaza, exigiendo una acción gubernamental más firme.",
+    "want": "Los manifestantes exigen que el gobierno maximice la presión política, económica y diplomática sobre Israel y detenga el comercio de armas.",
+    "changed": "8 de noviembre: los organizadores afirmaron que al menos 200.000 personas asistieron a la marcha en Ámsterdam."
    },
-   "summary": "Los manifestantes se están reunidos en Museumplein en Ámsterdam para la cuarta marcha 'Línea Roja' contra la violencia en Palestina. La protesta está organizada por grupos que incluyen a Oxfam Novib, Pax, Amnistía Internacional y alrededor de 150 otras organizaciones, con la participación de los exministros Job Cohen y Jozias van Aartsen. Los organizadores esperan decenas de miles de participantes. Exigen que el gabinete rompa los lazos militares y económicos con Israel, detenga el comercio de armas y haga cumplir el derecho internacional. Las autoridades han implementado cierres de carreteras y desviado tranvías alrededor de la ruta de la manifestación. El primer ministro Jetten declaró que no se tomarán medidas adicionales y que la presión funciona mejor en un contexto europeo, mientras que el ministro de Relaciones Exteriores Tom Berendsen rechazó las afirmaciones de que el gobierno está haciendo muy poco.",
+   "summary": "Miles de personas se reunieron en el Museumplein de Ámsterdam para la cuarta marcha de protesta 'Línea Roja' contra las acciones militares de Israel en Gaza. Organizada por alrededor de 13 grupos, incluidos Amnistía Internacional, Oxfam Novib, PAX y The Rights Forum, junto con aproximadamente 150 organizaciones de apoyo, la marcha pidió al gobierno holandés que corte los lazos militares y económicos con Israel y le imponga sanciones económicas. Entre los asistentes de alto perfil se encontraban los ex ministros del gobierno Job Cohen y Jozias van Aartsen. El primer ministro Rob Jetten declinó asistir, señalando que su rol había cambiado desde el año pasado. Las autoridades implementaron desvíos de transporte y cierres de calles en toda la ciudad para la manifestación.",
    "demands": [
-    "Aplicar la máxima presión política, económica y diplomática sobre Israel",
-    "Detener los lazos militares y el comercio de armas con Israel",
-    "Terminar la ocupación de Palestina y proteger el derecho internacional",
-    "Implementar los fallos de la Corte Internacional de Justicia"
+    "Poner fin a la ocupación ilegal de Palestina",
+    "Detener la cooperación militar y el comercio de armas con Israel",
+    "Imponer sanciones económicas a Israel",
+    "Implementar las sentencias de la Corte Internacional de Justicia",
+    "Proteger y apoyar a los tribunales internacionales en La Haya"
    ],
-   "response": "El primer ministro Jetten declaró que no se tomarán medidas adicionales, señalando que la presión funciona mejor en la coordinación europea. El ministro de Relaciones Exteriores Tom Berendsen rechazó las afirmaciones de que el gobierno está haciendo muy poco, señalando la prohibición de septiembre sobre las importaciones de los asentamientos israelíes.",
+   "response": "El primer ministro Rob Jetten declaró que el gobierno tiene el deber de prevenir una mayor escalada y que la presión funciona mejor en un contexto europeo, señalando que no se planean medidas adicionales. El ministro de Asuntos Exteriores, Tom Berendsen, rechazó las afirmaciones de que el gobierno está haciendo muy poco.",
    "updates": [
-    "Las autoridades de Ámsterdam cerraron calles y desviaron tranvías antes de la marcha de la tarde en Museumplein."
+    "Los organizadores y los medios informaron sobre los preparativos y las interrupciones del tráfico antes de la cuarta protesta de la Línea Roja en Ámsterdam.",
+    "Los organizadores afirmaron que al menos 200.000 participantes asistieron a la marcha que comenzó y terminó en Museumplein."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "zeker 200.000 mensen"
+   }
   },
   "fr": {
    "title": "Marche de protestation à Amsterdam contre la violence en Palestine",
    "seoTitle": "Marche à Amsterdam contre la violence en Palestine",
    "tea": {
-    "why": "Des manifestants protestent contre la violence en Palestine et exigent une action gouvernementale concernant Israël.",
-    "want": "Les organisateurs veulent que le gouvernement exerce une pression politique, économique et diplomatique maximale sur Israël, arrête les liens militaires et fasse respecter le droit international.",
-    "changed": "8 novembre : Amsterdam s'est préparée pour la marche à Museumplein avec des fermetures de rues et des transports publics déviés."
+    "why": "Les manifestants protestent contre les actions et la violence d'Israël à Gaza, exigeant une action gouvernementale plus forte.",
+    "want": "Les manifestants exigent que le gouvernement maximise la pression politique, économique et diplomatique sur Israël et arrête le commerce des armes.",
+    "changed": "8 novembre : les organisateurs ont déclaré qu'au moins 200 000 personnes avaient assisté à la marche à Amsterdam."
    },
-   "summary": "Des manifestants se rassemblent à Museumplein à Amsterdam pour la quatrième marche de la « Ligne rouge » contre la violence en Palestine. La protestation est organisée par des groupes comprenant Oxfam Novib, Pax, Amnesty International et environ 150 autres organisations, avec la participation des anciens ministres Job Cohen et Jozias van Aartsen. Les organisateurs attendent des dizaines de milliers de participants. Ils exigent que le cabinet rompe les liens militaires et économiques avec Israël, arrête le commerce des armes et fasse respecter le droit international. Les autorités ont mis en place des fermetures de routes et dévié des trams autour de l'itinéraire de la manifestation. Le Premier ministre Jetten a déclaré qu'aucune mesure supplémentaire ne sera prise et que la pression fonctionne mieux dans un contexte européen, tandis que le ministre des Affaires étrangères Tom Berendsen a rejeté les affirmations selon lesquelles le gouvernement en fait trop peu.",
+   "summary": "Des milliers de personnes se sont rassemblées au Museumplein à Amsterdam pour la quatrième marche de protestation « Ligne rouge » contre les actions militaires d'Israël à Gaza. Organisée par environ 13 groupes — dont Amnesty International, Oxfam Novib, PAX et The Rights Forum — ainsi que par environ 150 organisations de soutien, la marche a demandé au gouvernement néerlandais de rompre ses liens militaires et économiques avec Israël et d'imposer des sanctions économiques. Parmi les personnalités présentes figuraient les anciens ministres Job Cohen et Jozias van Aartsen. Le Premier ministre Rob Jetten a refusé d'assister, notant que son rôle avait changé depuis l'année dernière. Les autorités ont mis en place des déviations de transport et des fermetures de rues dans toute la ville pour la manifestation.",
    "demands": [
-    "Appliquer une pression politique, économique et diplomatique maximale sur Israël",
-    "Arrêter les liens militaires et le commerce des armes avec Israël",
-    "Mettre fin à l'occupation de la Palestine et protéger le droit international",
-    "Mettre en œuvre les arrêts de la Cour internationale de justice"
+    "Mettre fin à l'occupation illégale de la Palestine",
+    "Cesser la coopération militaire et le commerce des armes avec Israël",
+    "Imposer des sanctions économiques à Israël",
+    "Mettre en œuvre les arrêts de la Cour internationale de justice",
+    "Protéger et soutenir les tribunaux internationaux à La Haye"
    ],
-   "response": "Le Premier ministre Jetten a déclaré qu'aucunes mesures supplémentaires ne seront prises, notant que la pression fonctionne mieux dans la coordination européenne. Le ministre des Affaires étrangères Tom Berendsen a rejeté les affirmations selon lesquelles le gouvernement en fait trop peu, pointant vers l'interdiction de septembre sur les importations en provenance des colonies israéliennes.",
+   "response": "Le Premier ministre Rob Jetten a déclaré que le gouvernement a le devoir d'empêcher une nouvelle escalade et que la pression fonctionne mieux dans un contexte européen, notant que des mesures supplémentaires ne sont pas prévues. Le ministre des Affaires étrangères Tom Berendsen a rejeté les allégations selon lesquelles le gouvernement en fait trop peu.",
    "updates": [
-    "Les autorités d'Amsterdam ont fermé des rues et dévié des trams avant la marche de l'après-midi à Museumplein."
+    "Les organisateurs et les médias ont signalé des préparatifs et des perturbations de la circulation avant la quatrième manifestation de la Ligne rouge à Amsterdam.",
+    "Les organisateurs ont déclaré qu'au moins 200 000 participants ont assisté à la marche commençant et se terminant au Museumplein."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "zeker 200.000 mensen"
+   }
   },
   "de": {
    "title": "Protestmarsch in Amsterdam gegen Gewalt in Palästina",
-   "seoTitle": "Amsterdam-Marsch gegen Gewalt in Palästina",
+   "seoTitle": "Amsterdam: Marsch gegen Gewalt in Palästina",
    "tea": {
-    "why": "Demonstranten demonstrieren gegen die Gewalt in Palästina und fordern ein Regierungsangreifen bezüglich Israel.",
-    "want": "Die Organisatoren wollen, dass die Regierung maximalen politischen, wirtschaftlichen und diplomatischen Druck auf Israel ausübt, militärische Verbindungen stoppt und das Völkerrecht durchsetzt.",
-    "changed": "8. November: Amsterdam bereitete sich mit Straßensperren und umgeleiteten öffentlichen Verkehrsmitteln auf den Marsch am Museumplein vor."
+    "why": "Demonstranten protestieren gegen Israels Vorgehen und Gewalt im Gazastreifen und fordern ein härteres Vorgehen der Regierung.",
+    "want": "Demonstranten fordern, dass die Regierung den politischen, wirtschaftlichen und diplomatischen Druck auf Israel maximiert und den Waffenhandel stoppt.",
+    "changed": "8. November: Organisatoren gaben an, dass mindestens 200.000 Menschen an dem Marsch in Amsterdam teilnahmen."
    },
-   "summary": "Demonstranten versammeln sich am Museumplein in Amsterdam zum vierten „Rote Linie“-Marsch gegen Gewalt in Palästina. Der Protest wird von Gruppen wie Oxfam Novib, Pax, Amnesty International und rund 150 weiteren Organisationen organisiert, wobei die ehemaligen Minister Job Cohen und Jozias van Aartsen teilnehmen. Die Organisatoren erwarten Zehntausende Teilnehmer. Sie fordern, dass das Kabinett militärische und wirtschaftliche Verbindungen zu Israel abbricht, den Waffenhandel stoppt und das Völkerrecht durchsetzt. Die Behörden haben Straßensperren eingerichtet und Straßenbahnen um die Demonstrationsroute herum umgeleitet. Premierminister Jetten erklärte, dass keine zusätzlichen Maßnahmen ergriffen werden und Druck in einem europäischen Kontext besser funktioniere, während Außenminister Tom Berendsen Behauptungen zurückwies, die Regierung tue zu wenig.",
+   "summary": "Tausende Menschen versammelten sich auf dem Museumplein in Amsterdam zum vierten „Rote Linie“-Protestmarsch gegen Israels Militäraktionen im Gazastreifen. Organisiert von rund 13 Gruppen — darunter Amnesty International, Oxfam Novib, PAX und The Rights Forum — sowie etwa 150 unterstützenden Organisationen forderte der Marsch die niederländische Regierung auf, die militärischen und wirtschaftlichen Verbindungen zu Israel zu kappen und Wirtschaftssanktionen zu verhängen. Zu den prominenten Teilnehmern zählten die ehemaligen Regierungsminister Job Cohen und Jozias van Aartsen. Premierminister Rob Jetten lehnte die Teilnahme ab und verwies darauf, dass sich seine Rolle seit dem letzten Jahr geändert habe. Die Behörden setzten für die Demonstration Transportumleitungen und Straßensperrungen in der ganzen Stadt um.",
    "demands": [
-    "Maximalen politischen, wirtschaftlichen und diplomatischen Druck auf Israel ausüben",
-    "Militärische Verbindungen und den Waffenhandel mit Israel stoppen",
-    "Die Besatzung Palästinas beenden und das Völkerrecht schützen",
-    "Entscheidungen des Internationalen Gerichtshofs umsetzen"
+    "Die illegale Besatzung Palästinas beenden",
+    "Militärische Zusammenarbeit und Waffenhandel mit Israel stoppen",
+    "Wirtschaftssanktionen gegen Israel verhängen",
+    "Urteile des Internationalen Gerichtshofs umsetzen",
+    "Internationale Gerichte in Den Haag schützen und unterstützen"
    ],
-   "response": "Premierminister Jetten erklärte, dass keine zusätzlichen Maßnahmen ergriffen werden, und wies darauf hin, dass Druck in europäischer Abstimmung besser funktioniere. Außenminister Tom Berendsen wies Behauptungen zurück, dass die Regierung zu wenig tue, und verwies auf das Einfuhrverbot für israelische Siedlungen im September.",
+   "response": "Premierminister Rob Jetten erklärte, die Regierung habe die Pflicht, eine weitere Eskalation zu verhindern, und Druck funktioniere in einem europäischen Kontext besser, wobei er anmerkte, dass zusätzliche Maßnahmen nicht geplant seien. Außenminister Tom Berendsen wies Behauptungen zurück, die Regierung tue zu wenig.",
    "updates": [
-    "Die Amsterdamer Behörden sperrten im Vorfeld des Nachmittagsmarsches am Museumplein Straßen und leiteten Straßenbahnen um."
+    "Organisatoren und Medien berichteten vor dem vierten Rote-Linie-Protest in Amsterdam über Vorbereitungen und Verkehrsstörungen.",
+    "Organisatoren gaben an, dass mindestens 200.000 Teilnehmer an dem Marsch teilnahmen, der am Museumplein begann und endete."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "zeker 200.000 mensen"
+   }
   }
  }
 }
