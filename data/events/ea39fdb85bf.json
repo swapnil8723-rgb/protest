@@ -28,40 +28,55 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Train drivers protest over railway safety and unfulfilled commitments from a previous February agreement.",
-  "want": "Concrete, material, and verifiable safety measures to be implemented.",
-  "changed": "Nov 8: The Ministry of Transport established minimum services for the upcoming strikes."
+  "why": "Train drivers are protesting over railway safety concerns and the alleged breach of prior agreements signed with the Ministry of Transport.",
+  "want": "Concrete, material, and verifiable measures to reinforce railway safety.",
+  "changed": "Nov 9: Rodalies director and the president of the Generalitat urged users to seek alternative transport due to early disruptions and cancellations."
  },
- "summary": "Train drivers belonging to the Spanish Railway Machinists Union (Semaf) scheduled nationwide strikes affecting Renfe personnel for November 10 and 12, 2026. The industrial action follows unsuccessful meetings between union representatives and government officials, including the Minister of Economy Carlos Cuerpo, regarding safety protocols and prior commitments made by authorities. The Ministry of Transport and Mobility Sustainable established minimum operating services ranging from 20 percent for freight to 75 percent during peak hours for commuter rail, while estimating that tens of thousands of long-distance passengers would need to delay trips or seek alternate transport.",
+ "summary": "Train drivers represented by the Spanish Train Drivers Union (Semaf) have scheduled nationwide strikes affecting Renfe services for November 10 and 12, 2026, alongside a separate general strike on November 11. The industrial action follows unresolved disputes concerning railway safety and the implementation of previous commitments made by the Ministry of Transport. Negotiations between union representatives and government officials have taken place without immediate breakthroughs, leading the Ministry to establish minimum service levels ranging from 20 percent for freight to 75 percent during peak hours for commuter lines. Authorities estimate that tens of thousands of long-distance passengers will experience travel disruptions and have advised commuters to seek alternative transport.",
  "organizers": [
-  "Sindicato Español de Maquinistas Ferroviarios (Semaf)"
+  "Sindicato Español de Maquinistas Ferroviarios",
+  "Semaf"
  ],
  "demands": [
-  "Approve concrete, material, and verifiable safety measures",
-  "Fulfill prior commitments regarding railway safety procedures"
+  "Approval of concrete, material, and verifiable railway safety measures",
+  "Compliance with previous agreements signed with the Ministry of Transport"
  ],
- "response": "The Ministry of Transport established minimum operational services, ensuring 75 percent service during peak commuter hours, 65 percent for medium distance, 72 percent for high speed, and 20 percent for freight, while noting that alternative transport capacity remains limited.",
+ "response": "The Ministry of Transport and Mobility Sustainable established minimum service percentages for the strike days, ranging from 20% for freight to 75% during peak hours for commuter services. Government officials held meetings with union representatives to continue negotiations.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-05",
-   "text": "Semaf maintained strike calls for Nov 10 and 12 after negotiations with the Ministry concluded without progress.",
+   "text": "Semaf maintained strike calls for November 10 and 12 after a meeting with the Minister of Economy concluded without advances.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-06",
-   "text": "The Ministry of Transport established minimum service percentages for the upcoming railway strikes.",
+   "text": "The Ministry of Transport established minimum services for the upcoming strike days.",
    "sources": [
     2
    ]
   },
   {
+   "at": "2026-11-07",
+   "text": "Details regarding minimum operating percentages for commuter, medium-distance, and high-speed trains were published.",
+   "sources": [
+    3
+   ]
+  },
+  {
    "at": "2026-11-08",
-   "text": "The Ministry calculated that over 46,000 long-distance passengers would need to alter travel plans due to the strikes.",
+   "text": "The Ministry estimated that over 46,000 long-distance travelers would be forced to postpone or alter their trips.",
    "sources": [
     4
+   ]
+  },
+  {
+   "at": "2026-11-09",
+   "text": "Early disruptions and cancellations were reported, prompting regional authorities to advise users to look for alternative transport.",
+   "sources": [
+    5
    ]
   }
  ],
@@ -93,32 +108,40 @@
    "publisher": "eldebate.com",
    "title": "La huelga de Renfe del 10 y 12 de noviembre obligará a más de 46.000 viajeros a aplazar sus viajes o buscar alternativas",
    "publishedAt": "2026-11-08T10:04:20.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.eldiario.es/catalunya/nuevo-enfrentamiento-maquinistas-renfe-provoca-retrasos-generalizados-cancelaciones-rodalies_1_13648767.html",
+   "publisher": "eldiario.es",
+   "title": "Rodalies pide a los usuarios buscar alternativas al tren esta semana por el conflicto con los maquinistas",
+   "publishedAt": "2026-11-09T09:02:17.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.86,
- "publishers": 4,
- "reports24h": 2,
- "reportsPrev24h": 1,
- "reports48h": 3,
+ "confidence": 0.9,
+ "publishers": 5,
+ "reports24h": 3,
+ "reportsPrev24h": 2,
+ "reports48h": 5,
  "firstSeenAt": "2026-11-06T05:52:24.280Z",
- "lastReportAt": "2026-11-08T10:04:20.000Z",
- "lastCheckedAt": "2026-11-09T05:55:07.736Z",
- "updatedAt": "2026-11-09T05:53:54.178Z",
+ "lastReportAt": "2026-11-09T09:02:17.000Z",
+ "lastCheckedAt": "2026-11-09T10:02:44.498Z",
+ "updatedAt": "2026-11-09T10:02:25.023Z",
  "distinctFrom": [
   "e09d012429b",
   "e533d80ae9e"
  ],
  "searchedAt": "2026-11-09T01:50:45.582Z",
  "responseSources": [
+  1,
   2,
   3,
   4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-09T05:53:54.178Z",
- "summaryOf": "7dd939875e8e",
+ "summarizedAt": "2026-11-09T10:02:25.023Z",
+ "summaryOf": "563c2bb524aa",
  "publishedAt": "2026-11-09T01:56:20.318Z",
  "i18n": {
   "of": "9074947cecf34f50",
