@@ -15,9 +15,9 @@
  },
  "scope": "local",
  "causes": [
-  "environment",
   "climate",
-  "infrastructure"
+  "environment",
+  "housing"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-07",
@@ -29,44 +29,50 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters opposed the rapid expansion of energy-intensive data centres, citing environmental, water, noise, and electricity grid concerns.",
-  "want": "An immediate moratorium on new large-scale data centre projects until their impacts can be independently and properly assessed.",
-  "changed": "Nov 7: Around 2,000 campaigners marched from Parnell Square to Leinster House in Dublin."
+  "why": "Protesters are concerned that the rapid expansion of energy-intensive data centres is driving up electricity bills and threatening climate goals.",
+  "want": "They demand an immediate government moratorium on new large-scale data centre developments.",
+  "changed": "Nov 7: Around 2,000 campaigners marched through Dublin city centre to demand a moratorium on new data centres."
  },
- "summary": "On November 7, 2026, approximately 2,000 campaigners and community groups from across Ireland marched in Dublin city centre to protest the rapid expansion of energy-hungry data centres. Organised by Friends of the Earth Ireland alongside various community coalitions, the demonstration began at the Garden of Remembrance and proceeded from Parnell Square to Leinster House. Participants expressed concern that data centres strain the national electricity grid, drive up household energy bills, increase carbon emissions, and threaten environmental goals. The Dublin action formed part of a coordinated pan-European day of action across 15 countries involving over 100 groups. In response, Minister for Enterprise Peter Burke defended data centre expansion as a strategic opportunity that has boosted the economy, created jobs, and added tax revenue.",
+ "summary": "Demonstrators gathered in Dublin city centre on Saturday, November 7, 2026, for the country's first national protest against the rapid expansion of energy-intensive data centres. Organised by Friends of the Earth Ireland alongside community groups and politicians, the march began at Parnell Square and the Garden of Remembrance. Participants warned that the growing energy demands of big tech are raising household electricity bills, threatening energy security, and undermining national climate commitments. The Dublin demonstration formed part of a broader European day of action involving groups across multiple countries calling for restrictions on data centre growth. No official government response was detailed in the reports.",
  "organizers": [
   "Friends of the Earth Ireland",
-  "Stop Dirty Data Centres",
-  "Data Centre Awareness Kildare",
-  "Kilmeaden Says No",
-  "Climate Justice Universities Union"
+  "Stop Dirty Data Centres"
  ],
  "demands": [
-  "Impose an immediate moratorium on new large-scale data centres",
-  "Place firm limits on the expansion of existing data centre facilities",
-  "Independently assess the risks data centres pose to energy and water systems",
-  "Prioritise homes and essential services over Big Tech energy demands"
+  "Introduce an immediate moratorium on new data centres",
+  "Place firm limits on the expansion of existing facilities",
+  "Independently assess risks to energy and water systems",
+  "Prioritise homes and essential services in the electricity system"
  ],
- "response": "Minister for Enterprise Peter Burke stated that data centre expansion is a strategic opportunity for the Irish economy, citing government-commissioned research claiming the sector has added billions to the economy, generated tax revenue, and created jobs since 2010.",
+ "response": "No official response reported in the sources.",
  "numbers": {
   "crowd": {
    "value": 2000,
-   "text": "Around two thousand people have protested in Dublin city centre",
+   "text": "Around 2,000 campaigners and representatives from community groups joined the march according to reports.",
    "sources": [
     7,
     8,
-    9
+    10
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-07",
-   "text": "Around 2,000 people marched from Parnell Square to Leinster House in Dublin to protest data centre expansion.",
+   "text": "Protesters gathered in Dublin city centre starting from Parnell Square and the Garden of Remembrance for a national demonstration.",
+   "sources": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "at": "2026-11-07",
+   "text": "Broadcasters and local reports estimated around 2,000 people participated in the march through Dublin.",
    "sources": [
     7,
     8,
-    9
+    10
    ]
   }
  ],
@@ -94,195 +100,198 @@
   },
   {
    "n": 4,
-   "url": "https://www.irishtimes.com/environment/2026/11/06/all-the-benefit-is-for-big-tech-rally-against-data-centres-set-to-be-held-in-dublin/",
-   "publisher": "irishtimes.com",
-   "title": "‘All the benefit is for Big Tech’: Rally against data centres set to be held in Dublin",
-   "publishedAt": "2026-11-06T14:00:00.000Z"
-  },
-  {
-   "n": 5,
    "url": "https://www.kildare-nationalist.ie/news/kildare-data-centre-opponents-to-take-part-in-dublin-protest_arid-20332596.html",
    "publisher": "kildare-nationalist.ie",
    "title": "Kildare data centre opponents to take part in Dublin protest - News - Kildare Nationalist",
    "publishedAt": "2026-11-06T20:00:00.000Z"
   },
   {
-   "n": 6,
+   "n": 5,
    "url": "https://www.kfmradio.com/news/localnews/kildare-residents-to-join-dublin-protest-against-data-centre-developments-today/",
    "publisher": "kfmradio.com",
    "title": "Kildare Residents To Join Dublin Protest Against Data Centre Developments Today",
    "publishedAt": "2026-11-07T11:34:18.000Z"
   },
   {
-   "n": 7,
-   "url": "https://www.rte.ie/news/dublin/2026/1107/1598353-data-centres-protest/",
-   "publisher": "rte.ie",
-   "title": "Protest hears calls for moratorium on new data centres",
-   "publishedAt": "2026-11-07T13:24:35.000Z"
+   "n": 6,
+   "url": "https://www.thejournal.ie/dublin-data-centre-protest-7218841-Nov2026/",
+   "publisher": "thejournal.ie",
+   "title": "Thousands gather in Dublin for Ireland’s first national protest against data centres",
+   "publishedAt": "2026-11-07T14:25:59.000Z"
   },
   {
-   "n": 8,
+   "n": 7,
    "url": "https://www.deccanchronicle.com/technology/ai-backlash-spreads-across-europe-with-data-center-protests-2002714",
    "publisher": "deccanchronicle.com",
    "title": "AI Backlash Spreads Across Europe With Data Center Protests",
    "publishedAt": "2026-11-08T05:41:24.000Z"
   },
   {
-   "n": 9,
+   "n": 8,
    "url": "https://www.westmeathexaminer.ie/2026/11/08/march-in-dublin-to-demand-immediate-moratorium-on-new-data-centres/",
    "publisher": "westmeathexaminer.ie",
    "title": "March in Dublin to demand immediate moratorium on new data centres | Westmeath Examiner",
    "publishedAt": "2026-11-08T11:08:01.000Z"
   },
   {
-   "n": 10,
+   "n": 9,
    "url": "https://www.ilfattoquotidiano.it/2026/11/08/data-center-dublino-manifestazione-notizie/8564779/",
    "publisher": "ilfattoquotidiano.it",
    "title": "Dublino scende in piazza contro i data center delle Big Tech",
    "publishedAt": "2026-11-08T12:53:24.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://dublinpeople.com/news/dublin/articles/2026/11/09/thousands-march-dublin-data/",
+   "publisher": "dublinpeople.com",
+   "title": "Thousands march in Dublin calling for a moratorium on data centres",
+   "publishedAt": "2026-11-09T11:35:10.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.9,
  "publishers": 10,
- "reports24h": 2,
+ "reports24h": 1,
  "reportsPrev24h": 5,
- "reports48h": 7,
+ "reports48h": 6,
  "firstSeenAt": "2026-11-05T17:30:18.090Z",
- "lastReportAt": "2026-11-08T12:53:24.000Z",
- "lastCheckedAt": "2026-11-09T10:02:44.498Z",
- "updatedAt": "2026-11-08T17:55:49.702Z",
+ "lastReportAt": "2026-11-09T11:35:10.000Z",
+ "lastCheckedAt": "2026-11-09T13:59:03.924Z",
+ "updatedAt": "2026-11-09T13:56:00.093Z",
  "endedOn": "2026-11-07",
- "responseSources": [
-  7
- ],
+ "responseSources": [],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-08T17:55:49.702Z",
- "summaryOf": "5a02999aca8c",
+ "summarizedAt": "2026-11-09T13:56:00.093Z",
+ "summaryOf": "8372fe2fec09",
  "publishedAt": "2026-11-05T17:33:43.986Z",
  "i18n": {
-  "of": "d770fa8629c00955",
-  "at": "2026-11-08T17:57:15.977Z",
+  "of": "079cbbe245ecb98a",
+  "at": "2026-11-09T14:00:46.419Z",
   "tries": 1,
   "hi": {
-   "title": "ऊर्जा-गहन डेटा सेंटर विस्तार के खिलाफ डबलिन में प्रदर्शनकारियों का मार्च",
-   "seoTitle": "डेटा सेंटर विस्तार के खिलाफ डबलिन मार्च",
+   "title": "ऊर्जा-गहन डेटा सेंटर विस्तार के विरोध में डबलिन में प्रदर्शनकारियों ने मार्च निकाला",
+   "seoTitle": "डेटा सेंटर विस्तार के खिलाफ डबलिन में मार्च",
    "tea": {
-    "why": "प्रदर्शनकारियों ने पर्यावरण, पानी, शोर और बिजली ग्रिड संबंधी चिंताओं का हवाला देते हुए ऊर्जा-गहन डेटा सेंटरों के तीव्र विस्तार का विरोध किया।",
-    "want": "नई बड़ी डेटा सेंटर परियोजनाओं पर तत्काल रोक जब तक कि उनके प्रभावों का स्वतंत्र और उचित मूल्यांकन न हो सके।",
-    "changed": "7 नवंबर: लगभग 2,000 कार्यकर्ताओं ने डबलिन में पार्नेल स्क्वायर से लेनिनस्टर हाउस तक मार्च किया।"
+    "why": "प्रदर्शनकारियों को चिंता है कि ऊर्जा-गहन डेटा केंद्रों का तेजी से विस्तार बिजली के बिलों को बढ़ा रहा है और जलवायु लक्ष्यों को खतरे में डाल रहा है।",
+    "want": "वे नए बड़े पैमाने पर डेटा सेंटर विकास पर तत्काल सरकारी रोक की मांग करते हैं।",
+    "changed": "7 नवंबर: नए डेटा केंद्रों पर रोक की मांग के लिए लगभग 2000 अभियानकर्ताओं ने डबलिन शहर के केंद्र में मार्च किया।"
    },
-   "summary": "7 नवंबर 2026 को, आयरलैंड भर से लगभग 2,000 कार्यकर्ताओं और सामुदायिक समूहों ने ऊर्जा-प्यास से भरे डेटा सेंटरों के तीव्र विस्तार के विरोध में डबलिन शहर के केंद्र में मार्च किया। फ्रेंड्स ऑफ द अर्थ आयरलैंड द्वारा विभिन्न सामुदायिक गठबंधनों के साथ मिलकर आयोजित यह प्रदर्शन रिमेंबरेंस गार्डन से शुरू हुआ और पार्नेल स्क्वायर से लेनिनस्टर हाउस की ओर बढ़ा। प्रतिभागियों ने चिंता व्यक्त की कि डेटा सेंटर राष्ट्रीय बिजली ग्रिड पर दबाव डालते हैं, घरेलू ऊर्जा बिल बढ़ाते हैं, कार्बन उत्सर्जन बढ़ाते हैं और पर्यावरणीय लक्ष्यों को खतरे में डालते हैं। डबलिन की यह कार्रवाई 100 से अधिक समूहों को शामिल करते हुए 15 देशों में समन्वित अखिल यूरोपीय कार्रवाई दिवस का हिस्सा थी। इसके जवाब में, उद्यम मंत्री पीटर बर्क ने डेटा सेंटर के विस्तार का एक रणनीतिक अवसर के रूप में बचाव किया जिसने अर्थव्यवस्था को बढ़ावा दिया है, नौकरियां पैदा की हैं और कर राजस्व जोड़ा है।",
+   "summary": "ऊर्जा-गहन डेटा केंद्रों के तीव्र विस्तार के खिलाफ देश के पहले राष्ट्रीय विरोध प्रदर्शन के लिए शनिवार, 7 नवंबर 2026 को प्रदर्शनकारी डबलिन शहर के केंद्र में एकत्र हुए। फ्रेंड्स ऑफ़ द अर्थ आयरलैंड द्वारा सामुदायिक समूहों और राजनेताओं के साथ मिलकर आयोजित यह मार्च पार्नेल स्क्वायर और गार्डन ऑफ़ रिमेंबरेंस से शुरू हुआ। प्रतिभागियों ने चेतावनी दी कि बड़ी तकनीकी कंपनियों की बढ़ती ऊर्जा मांगें घरेलू बिजली बिलों को बढ़ा रही हैं, ऊर्जा सुरक्षा को खतरे में डाल रही हैं और राष्ट्रीय जलवायु प्रतिबद्धताओं को कमजोर कर रही हैं। डबलिन का यह प्रदर्शन कई देशों के समूहों को शामिल करने वाली व्यापक यूरोपीय कार्रवाई के दिन का हिस्सा था, जो डेटा सेंटर के विकास पर प्रतिबंध लगाने की मांग कर रहे थे। रिपोर्टों में किसी आधिकारिक सरकार की प्रतिक्रिया का विवरण नहीं दिया गया था।",
    "demands": [
-    "नए बड़े पैमाने के डेटा सेंटरों पर तत्काल रोक लगाई जाए",
-    "मौजूदा डेटा सेंटर सुविधाओं के विस्तार पर सख्त सीमाएं तय की जाएं",
-    "ऊर्जा और जल प्रणालियों के लिए डेटा सेंटरों से होने वाले जोखिमों का स्वतंत्र मूल्यांकन किया जाए",
-    "बिक टेक की ऊर्जा मांगों पर घरों और आवश्यक सेवाओं को प्राथमिकता दी जाए"
+    "नए डेटा केंद्रों पर तत्काल रोक लगाई जाए",
+    "मौजूदा सुविधाओं के विस्तार पर सख्त सीमाएं तय की जाएं",
+    "ऊर्जा और जल प्रणालियों के जोखिमों का स्वतंत्र रूप से आकलन किया जाए",
+    "बिजली प्रणाली में घरों और आवश्यक सेवाओं को प्राथमिकता दी जाए"
    ],
-   "response": "उद्यम मंत्री पीटर बर्क ने कहा कि डेटा सेंटर का विस्तार आयरिश अर्थव्यवस्था के लिए एक रणनीतिक अवसर है, और उन्होंने सरकार द्वारा कमीशन किए गए शोध का हवाला दिया जिसमें दावा किया गया कि इस क्षेत्र ने 2010 से अर्थव्यवस्था में अरबों जोड़े हैं, कर राजस्व उत्पन्न किया है और नौकरियां पैदा की हैं।",
+   "response": "सूत्रों में किसी आधिकारिक प्रतिक्रिया की सूचना नहीं दी गई।",
    "updates": [
-    "डेटा सेंटर विस्तार के विरोध में लगभग 2,000 लोगों ने डबलिन में पार्नेल स्क्वायर से लेनिनस्टर हाउस तक मार्च किया।"
+    "एक राष्ट्रीय प्रदर्शन के लिए पार्नेल स्क्वायर और गार्डन ऑफ़ रिमेंबरेंस से शुरू होकर प्रदर्शनकारी डबलिन शहर के केंद्र में एकत्र हुए।",
+    "प्रसारकों और स्थानीय रिपोर्टों के अनुसार अनुमान लगाया गया कि डबलिन में मार्च में लगभग 2000 लोगों ने हिस्सा लिया।"
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "डबलिन शहर के केंद्र में लगभग 2,000 लोगों ने प्रदर्शन किया"
+    "crowd": "रिपोर्टों के अनुसार लगभग 2000 अभियानकर्ताओं और सामुदायिक समूहों के प्रतिनिधियों ने मार्च में भाग लिया।"
    }
   },
   "mr": {
-   "title": "ऊर्जा-गहन डेटा सेंटर विस्तारविरोधात डब्लिनमध्ये आंदोलकांचा मोर्चा",
-   "seoTitle": "डेटा सेंटर विस्तारविरोधात डब्लिन मोर्चा",
+   "title": "ऊर्जा-केंद्रित डेटा सेंटर विस्ताराच्या विरोधात डब्लिनमध्ये निदर्शक मार्च काढतात",
+   "seoTitle": "डेटा सेंटर विस्ताराविरोधात डब्लिनमध्ये मार्च",
    "tea": {
-    "why": "आंदोलकांनी पर्यावरण, पाणी, आवाज आणि वीज ग्रीडच्या चिंतेचा हवाला देत ऊर्जा-गहन डेटा केंद्रांच्या जलद विस्ताराला विरोध केला.",
-    "want": "नवीन मोठ्या प्रमाणातील डेटा सेंटर प्रकल्पांवर तात्काळ स्थगिती जोपर्यंत त्यांच्या परिणामांचे स्वतंत्र आणि योग्य मूल्यांकन होत नाही.",
-    "changed": "७ नोव्हेंबर: सुमारे २,००० कार्यकर्त्यांनी डब्लिनमध्ये पार्नेल स्क्वेअर ते लेनिन्स्टर हाऊसपर्यंत मोर्चा काढला."
+    "why": "ऊर्जा-केंद्रित डेटा सेंटरचा जलद विस्तार वीज बिल वाढवत आहे आणि हवामान उद्दिष्टांना धोका निर्माण करत आहे, अशी निदर्शकांना चिंता वाटते.",
+    "want": "नवीन मोठ्या प्रमाणातील डेटा सेंटर विकासावर त्वरित सरकारी बंदी घालण्याची ते मागणी करतात.",
+    "changed": "७ नोव्हेंबर: नवीन डेटा केंद्रांवर बंदीची मागणी करण्यासाठी सुमारे २००० मोहिमेकर्त्यांनी डब्लिन शहराच्या मध्यवर्ती भागातून मार्च काढला."
    },
-   "summary": "७ नोव्हेंबर २०२६ रोजी, आयर्लंडभरातून सुमारे २,००आउट कार्यकर्त्यांनी आणि समुदाय गटांनी ऊर्जा-खाऊ डेटा केंद्रांच्या जलद विस्ताराचा निषेध करण्यासाठी डब्लिन शहर केंद्रात मोर्चा काढला. फ्रेंड्स ऑफ द अर्थ आयर्लंडने विविध समुदाय आघाड्यांच्या समवेत आयोजित केलेले हे प्रदर्शन गार्डन ऑफ रिमेम्ब्रन्स येथून सुरू झाले आणि पार्नेल स्क्वेअरपासून लेनिन्स्टर हाऊसपर्यंत गेले. सहभागींनी चिंता व्यक्त केली की डेटा सेंटर राष्ट्रीय वीज ग्रीडवर ताण आणतात, घरगुती ऊर्जा बिल वाढवतात, कार्बन उत्सर्जन वाढवतात आणि पर्यावरणीय ध्येयांना धोका निर्माण करतात. डब्लिनची ही कृती १०० हून अधिक गटांचा सहभाग असलेल्या १५ देशांमधील समन्वित पॅन-युरोपीय कृती दिनाचा एक भाग होती. याला उत्तर देताना, उद्योग मंत्री पीटर बर्क यांनी डेटा सेंटरच्या विस्ताराचा एक धोरणात्मक संधी म्हणून बचाव केला ज्याने अर्थव्यवस्थेला चालना दिली आहे, नोकऱ्या निर्माण केल्या आहेत आणि कर महसूल जोडला आहे.",
+   "summary": "ऊर्जा-केंद्रित डेटा सेंटरच्या जलद विस्ताराविरुद्ध देशाच्या पहिल्या राष्ट्रीय निषेध आंदोलनासाठी शनिवार, ७ नोव्हेंबर २०२६ रोजी निदर्शक डब्लिन शहराच्या मध्यवर्ती भागात जमले. फ्रेंड्स ऑफ द अर्थ आयर्लंडने समुदाय गट आणि राजकारण्यांसोबत आयोजित केलेला हा मार्च पार्नेल स्क्वेअर आणि गार्डन ऑफ रिमेब्रन्स येथून सुरू झाला. मोठ्या तंत्रज्ञानाची वाढती ऊर्जा मागणी घरगुती वीज बिल वाढवत आहे, ऊर्जा सुरक्षेला धोका निर्माण करत आहे आणि राष्ट्रीय हवामान वचनबद्धतेला कमकुवत करत आहे, असा इशारा उपस्थितांनी दिला. डब्लिनमधील हे प्रदर्शन डेटा सेंटरच्या वाढीवर निर्बंध घालण्याची मागणी करणाऱ्या अनेक देशांमधील गटांचा समावेश असलेल्या व्यापक युरोपियन कृती दिनाचा भाग होते. अहवालांमध्ये कोणत्याही अधिकृत सरकारच्या प्रतिसादाचा तपशील दिला गेला नाही.",
    "demands": [
-    "नवीन मोठ्या प्रमाणातील डेटा केंद्रांवर तात्काळ स्थगिती लादली जावी",
-    "विद्यमान डेटा सेंटर सुविधांच्या विस्तारावर कडक मर्यादा घातल्या जाव्यात",
-    "ऊर्जा आणि जल प्रणालींना डेटा केंद्रांमुळे निर्माण होणाऱ्या धोक्यांचे स्वतंत्रपणे मूल्यांकन केले जावे",
-    "बिग टेकच्या ऊर्जा मागण्यांपेक्षा घरे आणि आवश्यक सेवांना प्राधान्य दिले जावे"
+    "नवीन डेटा केंद्रांवर त्वरित बंदी घालावी",
+    "विद्यमान सुविधांच्या विस्तारावर कठोर मर्यादा घालाव्यात",
+    "ऊर्जा आणि पाणी प्रणालीच्या जोखमींचे स्वतंत्रपणे मूल्यांकन करावे",
+    "वीज यंत्रणेमध्ये घरे आणि आवश्यक सेवांना प्राधान्य द्यावे"
    ],
-   "response": "उद्योग मंत्री पीटर बर्क यांनी सांगितले की डेटा सेंटरचा विस्तार आयर्लंडच्या अर्थव्यवस्थेसाठी एक धोरणात्मक संधी आहे, आणि त्यांनी २०१० पासून या क्षेत्राने अर्थव्यवस्थेत अब्जावधी जोडले आहेत, कर महसूल निर्माण केला आहे आणि नोकऱ्या निर्माण केल्या आहेत असा दावा करणाऱ्या सरकारी-आदेशित संशोधनाचा हवाला दिला.",
+   "response": "स्रोतांमध्ये कोणत्याही अधिकृत प्रतिसादाची नोंद नाही.",
    "updates": [
-    "डेटा सेंटरच्या विस्ताराचा निषेध करण्यासाठी सुमारे २,००० लोकांनी डब्लिनमध्ये पार्नेल स्क्वेअर ते लेनिन्स्टर हाऊसपर्यंत मोर्चा काढला."
+    "राष्ट्रीय निदर्शनासाठी पार्नेल स्क्वेअर आणि गार्डन ऑफ रिमेब्रन्सपासून सुरुवात करून निदर्शक डब्लिन शहराच्या मध्यवर्ती भागात जमा झाले.",
+    "डब्लिनमधील मार्चमध्ये सुमारे २००० लोकांनी सहभाग घेतला असा अंदाज प्रसारमाध्यम आणि स्थानिक अहवालांनी वर्तवला."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "डब्लिन शहर केंद्रात सुमारे दोन हजार लोकांनी आंदोलन केले"
+    "crowd": "अहवालानुसार सुमारे २००० मोहिमेकर्ते आणि समुदाय गटांचे प्रतिनिधी मार्चमध्ये सहभागी झाले होते."
    }
   },
   "es": {
-   "title": "Manifestantes marchan en Dublín contra la expansión de centros de datos de uso intensivo de energía",
+   "title": "Manifestantes marchan en Dublín contra la expansión de centros de datos de alto consumo energético",
    "seoTitle": "Marcha en Dublín contra expansión de centros de datos",
    "tea": {
-    "why": "Los manifestantes se opusieron a la rápida expansión de centros de datos de uso intensivo de energía, citando preocupaciones ambientales, de agua, ruido y de la red eléctrica.",
-    "want": "Una moratoria inmediata a los nuevos proyectos de centros de datos a gran escala hasta que sus impactos puedan evaluarse de forma independiente y adecuada.",
-    "changed": "7 de noviembre: Alrededor de 2 000 activistas marcharon desde Parnell Square hasta Leinster House en Dublín."
+    "why": "Los manifestantes están preocupados de que la rápida expansión de centros de datos de alto consumo energético esté elevando las facturas de electricidad y amenazando las metas climáticas.",
+    "want": "Exigen una moratoria gubernamental inmediata sobre nuevos desarrollos de centros de datos a gran escala.",
+    "changed": "7 de noviembre: Alrededor de 2,000 activistas marcharon por el centro de Dublín para exigir una moratoria sobre nuevos centros de datos."
    },
-   "summary": "El 7 de noviembre de 2026, aproximadamente 2 000 activistas y grupos comunitarios de toda Irlanda marcharon en el centro de la ciudad de Dublín para protestar contra la rápida expansión de centros de datos devoradores de energía. Organizada por Friends of the Earth Ireland junto con varias coaliciones comunitarias, la manifestación comenzó en el Garden of Remembrance y avanzó desde Parnell Square hasta Leinster House. Los participantes expresaron su preocupación de que los centros de datos sobrecargan la red eléctrica nacional, elevan las facturas de energía de los hogares, aumentan las emisiones de carbono y amenazan los objetivos ambientales. La acción en Dublín formó parte de una jornada de acción paneuropea coordinada en 15 países que involucró a más de 100 grupos. En respuesta, el ministro de Empresa, Peter Burke, defendió la expansión de los centros de datos como una oportunidad estratégica que ha impulsado la economía, creado empleo y aumentado los ingresos fiscales.",
+   "summary": "Los manifestantes se reunieron en el centro de Dublín el sábado 7 de noviembre de 2026 para la primera protesta nacional del país contra la rápida expansión de centros de datos de alto consumo energético. Organizada por Friends of the Earth Ireland junto con grupos comunitarios y políticos, la marcha comenzó en Parnell Square y el Garden of Remembrance. Los participantes advirtieron que la creciente demanda energética de las grandes tecnológicas está aumentando las facturas eléctricas de los hogares, amenazando la seguridad energética y socavando los compromisos climáticos nacionales. La manifestación en Dublín formó parte de una jornada de acción europea más amplia que involucró a grupos de múltiples países pidiendo restricciones al crecimiento de los centros de datos. No se detalló ninguna respuesta gubernamental oficial en los informes.",
    "demands": [
-    "Imponer una moratoria inmediata a los nuevos centros de datos a gran escala",
-    "Establecer límites firmes a la expansión de las instalaciones de centros de datos existentes",
-    "Evaluar de forma independiente los riesgos que los centros de datos representan para los sistemas de energía y agua",
-    "Priorizar los hogares y los servicios esenciales sobre las demandas energéticas de las grandes tecnológicas"
+    "Introducir una moratoria inmediata sobre nuevos centros de datos",
+    "Establecer límites firmes a la expansión de las instalaciones existentes",
+    "Evaluar de forma independiente los riesgos para los sistemas de energía y agua",
+    "Priorizar los hogares y los servicios esenciales en el sistema eléctrico"
    ],
-   "response": "El ministro de Empresa, Peter Burke, declaró que la expansión de los centros de datos es una oportunidad estratégica para la economía irlandesa, citando investigaciones encargadas por el gobierno que afirman que el sector ha agregado miles de millones a la economía, generado ingresos fiscales y creado empleos desde 2010.",
+   "response": "No se informó ninguna respuesta oficial en las fuentes.",
    "updates": [
-    "Alrededor de 2 000 personas marcharon desde Parnell Square hasta Leinster House en Dublín para protestar contra la expansión de los centros de datos."
+    "Los manifestantes se reunieron en el centro de Dublín comenzando desde Parnell Square y el Garden of Remembrance para una manifestación nacional.",
+    "Radiodifusores e informes locales estimaron que alrededor de 2,000 personas participaron en la marcha por Dublín."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Alrededor de dos mil personas se han manifestado en el centro de la ciudad de Dublín"
+    "crowd": "Alrededor de 2,000 activistas y representantes de grupos comunitarios se unieron a la marcha según los informes."
    }
   },
   "fr": {
-   "title": "Des manifestants défilent à Dublin contre l'expansion de centres de données énergivores",
-   "seoTitle": "Marche à Dublin contre l'expansion des centres de données",
+   "title": "Des manifestants défilent à Dublin contre l'expansion des centres de données énergivores",
+   "seoTitle": "Manifestation à Dublin contre l'expansion des data centers",
    "tea": {
-    "why": "Les manifestants se sont opposés à la rapidité de l'expansion des centres de données énergivores, invoquant des préoccupations environnementales, liées à l'eau, au bruit et au réseau électrique.",
-    "want": "Un moratoire immédiat sur les nouveaux projets de centres de données à grande échelle jusqu'à ce que leurs impacts puissent être évalués de manière indépendante et adéquate.",
-    "changed": "7 nov. : Environ 2 000 militants ont défilé de Parnell Square jusqu'à Leinster House à Dublin."
+    "why": "Les manifestants s'inquiètent du fait que la rapidité de l'expansion des centres de données énergivores fait grimper les factures d'électricité et menace les objectifs climatiques.",
+    "want": "Ils exigent un moratoire gouvernemental immédiat sur les nouveaux développements de centres de données à grande échelle.",
+    "changed": "7 novembre : Environ 2 000 militants ont défilé dans le centre-ville de Dublin pour exiger un moratoire sur les nouveaux centres de données."
    },
-   "summary": "Le 7 novembre 2026, environ 2 000 militants et groupes communautaires de toute l'Irlande ont défilé dans le centre-ville de Dublin pour protester contre l'expansion rapide de centres de données gourmands en énergie. Organisée par Friends of the Earth Ireland aux côtés de diverses coalitions communautaires, la manifestation a débuté au Garden of Remembrance et s'est déroulée de Parnell Square à Leinster House. Les participants ont exprimé leur inquiétude quant au fait que les centres de données pèsent sur le réseau électrique national, font grimper les factures d'énergie des ménages, augmentent les émissions de carbone et menacent les objectifs environnementaux. L'action de Dublin s'inscrivait dans le cadre d'une journée d'action paneuropéenne coordonnée dans 15 pays et impliquant plus de 100 groupes. En réponse, le ministre de l'Entreprise, Peter Burke, a défendu l'expansion des centres de données comme une opportunité stratégique qui a stimulé l'économie, créé des emplois et généré des recettes fiscales.",
+   "summary": "Des manifestants se sont rassemblés dans le centre-ville de Dublin le samedi 7 novembre 2026 pour la première manifestation nationale du pays contre l'expansion rapide des centres de données énergivores. Organisée par Friends of the Earth Ireland aux côtés de groupes communautaires et de politiciens, la marche a débuté à Parnell Square et au Garden of Remembrance. Les participants ont prévenu que la demande énergétique croissante des grandes entreprises technologiques fait augmenter les factures d'électricité des ménages, menace la sécurité énergétique et compromet les engagements climatiques nationaux. La manifestation de Dublin faisait partie d'une journée d'action européenne plus large impliquant des groupes de plusieurs pays qui réclament des restrictions sur la croissance des centres de données. Aucune réponse gouvernementale officielle n'a été détaillée dans les rapports.",
    "demands": [
-    "Imposer un moratoire immédiat sur les nouveaux centres de données à grande échelle",
-    "Placer des limites strictes sur l'expansion des installations de centres de données existantes",
-    "Évaluer de manière indépendante les risques que les centres de données font peser sur les systèmes énergétiques et aquatiques",
-    "Donner la priorité aux foyers et aux services essentiels par rapport aux demandes énergétiques des géants de la tech"
+    "Instaurer un moratoire immédiat sur les nouveaux centres de données",
+    "Fixer des limites strictes à l'expansion des installations existantes",
+    "Évaluer de manière indépendante les risques pour les systèmes énergétiques et aquatiques",
+    "Donner la priorité aux foyers et aux services essentiels dans le système électrique"
    ],
-   "response": "Le ministre de l'Entreprise, Peter Burke, a déclaré que l'expansion des centres de données constitue une opportunité stratégique pour l'économie irlandaise, citant des recherches commandées par le gouvernement selon lesquelles le secteur a injecté des milliards dans l'économie, généré des recettes fiscales et créé des emplois depuis 2010.",
+   "response": "Aucune réponse officielle signalée dans les sources.",
    "updates": [
-    "Environ 2 000 personnes ont défilé de Parnell Square jusqu'à Leinster House à Dublin pour protester contre l'expansion des centres de données."
+    "Des manifestants se sont rassemblés dans le centre-ville de Dublin en partant de Parnell Square et du Garden of Remembrance pour une manifestation nationale.",
+    "Les radiodiffuseurs et les rapports locaux ont estimé qu'environ 2 000 personnes ont participé à la marche à travers Dublin."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Environ deux mille personnes ont manifesté dans le centre-ville de Dublin"
+    "crowd": "Environ 2 000 militants et représentants de groupes communautaires se sont joints à la marche selon les rapports."
    }
   },
   "de": {
-   "title": "Demonstranten ziehen in Dublin gegen den Ausbau energieintensiver Rechenzentren auf",
-   "seoTitle": "Dublin-Marsch gegen den Ausbau von Rechenzentren",
+   "title": "Demonstranten marschieren in Dublin gegen den Ausbau energieintensiver Rechenzentren",
+   "seoTitle": "Dublin-Marsch gegen Rechenzentrumsausbau",
    "tea": {
-    "why": "Demonstranten wandten sich gegen den raschen Ausbau energieintensiver Rechenzentren und verwiesen dabei auf Umwelt-, Wasser-, Lärm- und Stromnetzbedenken.",
-    "want": "Ein sofortiges Moratorium für neue große Rechenzentrumsprojekte, bis deren Auswirkungen unabhängig und angemessen bewertet werden können.",
-    "changed": "7. Nov.: Etwa 2 000 Aktivisten marschierten vom Parnell Square zum Leinster House in Dublin."
+    "why": "Demonstranten sind besorgt, dass der rasant voranschreitende Ausbau energieintensiver Rechenzentren die Stromrechnungen in die Höhe treibt und Klimaziele gefährdet.",
+    "want": "Sie fordern ein sofortiges Moratorium der Regierung für neue großflächige Rechenzentrumsprojekte.",
+    "changed": "7. November: Rund 2.000 Aktivisten zogen durch Dublins Innenstadt, um ein Moratorium für neue Rechenzentren zu fordern."
    },
-   "summary": "Am 7. November 2026 marschierten schätzungsweise 2 000 Aktivisten und Gemeinschaftsinitiativen aus ganz Irland im Dubliner Stadtzentrum, um gegen den raschen Ausbau energiehungriger Rechenzentren zu protestieren. Organisiert von Friends of the Earth Ireland gemeinsam mit verschiedenen Gemeindekoalitionen begann die Demonstration am Garden of Remembrance und führte vom Parnell Square zum Leinster House. Die Teilnehmer äußerten die Sorge, dass Rechenzentren das nationale Stromnetz belasten, die Haushaltsenergiekosten in die Höhe treiben, die Kohlenstoffemissionen erhöhen und Umweltziele gefährden. Die Aktion in Dublin war Teil eines koordinierten pan-europäischen Aktionstages in 15 Ländern, an dem über 100 Gruppen beteiligt waren. Als Reaktion darauf verteidigte Wirtschaftsminister Peter Burke den Ausbau von Rechenzentren als strategische Chance, die die Wirtschaft angekurbelt, Arbeitsplätze geschaffen und Steuereinnahmen eingebracht hat.",
+   "summary": "Demonstranten versammelten sich am Samstag, dem 7. November 2026, in der Innenstadt von Dublin zum ersten nationalen Protest des Landes gegen die rasante Expansion energieintensiver Rechenzentren. Organisiert von Friends of the Earth Ireland zusammen mit Gemeindegruppen und Politikern, begann der Marsch am Parnell Square und Garden of Remembrance. Teilnehmer warnten, dass der steigende Energiebedarf von Big Tech die Stromrechnungen der Haushalte erhöht, die Energiesicherheit gefährdet und nationale Klimazusagen untergräbt. Die Demonstration in Dublin war Teil eines breiteren europäischen Aktionstages, an dem Gruppen aus mehreren Ländern Einschränkungen des Rechenzentrumswachstums forderten. In den Berichten wurde keine offizielle Regierungsantwort genannt.",
    "demands": [
-    "Ein sofortiges Moratorium für neue große Rechenzentren verhängen",
-    "Feste Grenzen für den Ausbau bestehender Rechenzentrumsanlagen setzen",
-    "Die Risiken, die Rechenzentren für Energie- und Wassersysteme darstellen, unabhängig bewerten",
-    "Haushalte und wesentliche Dienste gegenüber den Energieanforderungen von Big Tech priorisieren"
+    "Ein sofortiges Moratorium für neue Rechenzentren einführen",
+    "Feste Grenzen für den Ausbau bestehender Anlagen setzen",
+    "Risiken für Energie- und Wassersysteme unabhängig bewerten",
+    "Haushalte und wesentliche Dienste im Stromsystem priorisieren"
    ],
-   "response": "Wirtschaftsminister Peter Burke erklärte, dass der Ausbau von Rechenzentren eine strategische Chance für die irische Wirtschaft sei, und verwies dabei auf eine im Auftrag der Regierung erstellte Studie, die besagt, dass der Sektor seit 2010 Milliarden zur Wirtschaft beigetragen, Steuereinnahmen generiert und Arbeitsplätze geschaffen hat.",
+   "response": "In den Quellen wurde keine offizielle Reaktion gemeldet.",
    "updates": [
-    "Etwa 2 000 Menschen marschierten vom Parnell Square zum Leinster House in Dublin, um gegen den Ausbau von Rechenzentren zu protestieren."
+    "Demonstranten versammelten sich in der Dubliner Innenstadt und starteten am Parnell Square und Garden of Remembrance zu einer nationalen Demonstration.",
+    "Medien und lokale Berichte schätzten, dass rund 2.000 Menschen an dem Marsch durch Dublin teilnahmen."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Etwa zweitausend Menschen haben im Dubliner Stadtzentrum protestiert"
+    "crowd": "Berichten zufolge schlossen sich etwa 2.000 Aktivisten und Vertreter von Gemeindegruppen dem Marsch an."
    }
   }
  },

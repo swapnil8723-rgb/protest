@@ -1,9 +1,9 @@
 {
  "id": "ecfe5479f14",
- "slug": "",
- "stage": "candidate",
- "title": "French protesters demonstrate against government ahead of general strike",
- "seoTitle": "",
+ "slug": "paris-cost-of-living-protest-nov-2026",
+ "stage": "live",
+ "title": "French demonstrators protest against government and living costs in Paris",
+ "seoTitle": "Paris protests against cost of living",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -13,45 +13,103 @@
   "citySlug": "paris",
   "regionSlug": "ile-de-france"
  },
- "scope": "local",
+ "scope": "nationwide",
  "causes": [
-  "housing",
-  "anti-government"
+  "labour",
+  "jobs",
+  "prices"
  ],
- "kind": "one-day",
- "startedOn": "2026-10-17",
+ "kind": "multi-day",
+ "startedOn": "2026-11-07",
  "status": "ongoing",
- "vibe": "heating-up",
+ "vibe": "cooling-down",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "top-10",
+  "low-confidence",
+  "sources-disagree"
+ ],
  "isOngoing": true,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Protesters are angry over the rising cost of living, falling purchasing power, and measures in the 2027 draft budget.",
+  "want": "Demonstrators demand wage increases, a 10% hike in the minimum wage, defense of public services, jobs, and industry.",
+  "changed": "Nov 7: Thousands demonstrated across France on the fourth consecutive weekend of protests, with clashes reported in Paris."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
- "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
- "reportsPrev24h": 0,
- "reports48h": 0,
+ "summary": "Thousands of people demonstrated across France, including Paris, in a new show of anger against the government and the rising cost of living. The actions marked the fourth consecutive weekend of demonstrations, organized by labour unions, the Yellow Vests movement, and joined by high school and university students. Protesters demanded wage increases, a 10% hike in the minimum wage, and the protection of public services and jobs, while denouncing measures in the 2027 draft budget. In Paris, unions marched from Place de la Republique to Place de la Nation, where clashes erupted at the end of the demonstration as individuals threw projectiles and fireworks at security forces. Meanwhile, a separate Yellow Vests rally at Place de la Concorde was banned by authorities, leading to a heavy police presence and encirclement of participants. The Interior Ministry stated that 146,000 people took part nationwide, with 46,000 in Paris, while unions reported 250,000 protesters nationwide and 75,000 in the capital.",
+ "organizers": [
+  "Yellow Vests movement",
+  "labour unions",
+  "CFDT",
+  "CGT",
+  "Student Union"
+ ],
+ "demands": [
+  "Wage increases",
+  "10% hike in the minimum wage",
+  "Defense of public services",
+  "Protection of jobs and industry"
+ ],
+ "response": "According to the Interior Ministry, 70,000 members of the security forces were deployed. Police used tear gas against individuals throwing projectiles and homemade fireworks at the end of the Paris march, and surrounded a banned gathering at Place de la Concorde.",
+ "numbers": {
+  "crowd": {
+   "value": 75000,
+   "text": "Unions put the figure at 250,000 protesters nationwide, with 75,000 in the capital.",
+   "sources": [
+    1
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-11-07",
+   "text": "Thousands protested across France on Nov 7 in the fourth consecutive weekend of demonstrations against living costs.",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.straitstimes.com/world/europe/clashes-in-paris-after-new-french-protests",
+   "publisher": "straitstimes.com",
+   "title": "Clashes in Paris after new French protests",
+   "publishedAt": "2026-11-07T19:47:07.000Z"
+  },
+  {
+   "n": 2,
+   "url": "http://news.radioalgerie.dz/en/node/98462",
+   "publisher": "news.radioalgerie.dz",
+   "title": "French Citizens Maintain Pressure on Fourth Saturday of Mobilization Against High Cost of Living | Algerian Radio",
+   "publishedAt": "2026-11-08T17:35:00.000Z"
+  }
+ ],
+ "conflicts": [
+  "The Interior Ministry stated 146,000 participated nationwide and 46,000 in Paris; unions stated 250,000 nationwide and 75,000 in Paris."
+ ],
+ "confidence": 0.55,
+ "publishers": 2,
+ "reports24h": 1,
+ "reportsPrev24h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-09T05:51:41.709Z",
- "lastReportAt": "2026-11-09T05:51:41.709Z",
- "lastCheckedAt": "2026-11-09T05:51:41.709Z",
- "updatedAt": "2026-11-09T05:51:41.709Z",
+ "lastReportAt": "2026-11-08T17:35:00.000Z",
+ "lastCheckedAt": "2026-11-09T13:59:03.924Z",
+ "updatedAt": "2026-11-09T13:58:01.927Z",
  "distinctFrom": [
   "eb3c6e0ca01",
   "ec6385243c0"
  ],
- "searchedAt": "2026-11-09T09:50:44.872Z"
+ "searchedAt": "2026-11-09T09:50:44.872Z",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-11-09T13:58:01.927Z",
+ "summaryOf": "67de62f79a6b"
 }

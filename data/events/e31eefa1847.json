@@ -3,7 +3,7 @@
  "slug": "namur-tec-driver-strike-nov-2026",
  "stage": "live",
  "title": "TEC Private Bus Drivers Strike Over Wages and Costs in Wallonia",
- "seoTitle": "Namur TEC Private Bus Driver Strike",
+ "seoTitle": "Namur TEC bus drivers strike",
  "place": {
   "city": "Namur",
   "region": "Wallonia",
@@ -16,53 +16,51 @@
  "scope": "multi-city",
  "causes": [
   "labour",
-  "prices",
-  "transport"
+  "transport",
+  "prices"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-09",
- "status": "ongoing",
- "vibe": "heating-up",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "top-10",
-  "low-confidence"
- ],
- "isOngoing": true,
+ "review": "auto",
+ "reviewReasons": [],
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Private bus drivers contracted by TEC are striking over low wages and rising operational costs.",
-  "want": "Drivers demand higher wages, meal vouchers raised to eight euros, travel cost reimbursements, and articulatred bus allowances.",
-  "changed": "Nov 9: Public transport disruptions occurred across multiple provinces as private bus drivers initiated a strike."
+  "why": "Private bus drivers operating under TEC subcontracts protested over wages, low cost competition, and working conditions.",
+  "want": "Better salary conditions, meal vouchers worth 8 euros, reimbursed travel expenses, full pay for waiting time, and a social clause.",
+  "changed": "Nov 9: TEC private bus drivers launched a one-day strike affecting multiple provinces across Wallonia."
  },
- "summary": "Private bus drivers operating under subcontract for the Wallonian public transport company TEC launched a strike on November 9, 2026, causing widespread disruptions across several provinces including Namur, Liege, Luxembourg, Hainaut, and Walloon Brabant. The action was initiated by the Christian union, CSC Public Services, to protest working conditions and wage levels. The demands include pay increases, meal voucher adjustments to eight euros, commuting expense refunds, articulated bus allowances, and a social clause to prevent competing private firms from undercutting labor costs. Approximately 57 private depots were reported at risk of involvement, with school transport heavily impacted. TEC confirmed disruptions on its online channels and advised travelers to check schedules. Organizers announced further strikes and a demonstration outside the Walloon Parliament in Namur on December 4 if demands are unmet.",
+ "summary": "Private bus drivers working for subcontractors of the Walloon public transport company TEC held a one-day strike across multiple provinces in Wallonia, causing widespread disruptions on regular bus lines and school transport networks. According to news reports, the action was called by the CSC Public Services union. Protesters are demanding improved salary conditions, the introduction of a social clause to prevent private firms from undercutting wages during contract biddings, 8-euro meal vouchers, reimbursement of commuting costs, and full remuneration for waiting times. The transport company reported disruptions affecting provinces including Namur, Liège, Luxembourg, Hainaut, and Walloon Brabant. The union has also announced a follow-up strike and a demonstration outside the Walloon Parliament in Namur on December 4.",
  "organizers": [
-  "CSC",
   "CSC Services publics"
  ],
  "demands": [
-  "Higher wages",
-  "Meal vouchers raised to eight euros",
-  "Reimbursement of travel costs between home and work",
-  "An allowance for drivers of articulated buses",
-  "A social clause preventing private companies from offering lower labor costs during contract tenders"
+  "Better wage conditions for private sector bus drivers",
+  "A social clause preventing private companies from undercutting wages in TEC contracts",
+  "Meal vouchers worth 8 euros",
+  "Full reimbursement of travel expenses and paid waiting times"
  ],
- "response": "According to Letec's website, multiple bus lines were disrupted across the provinces of Liege, Namur, Luxembourg, Hainaut, and Walloon Brabant, with travelers advised to check digital updates.",
+ "response": "Letec stated on its website that multiple bus lines were disrupted across several provinces and recommended passengers check updates online. The CSC union called on the Walloon Minister of Mobility and OTW to open negotiations.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-06",
-   "text": "The Christian union announced a strike of private TEC bus drivers for November 9, with expected school transport disruptions.",
+   "text": "CSC announced a strike action for November 9 and scheduled a follow-up demonstration at the Walloon Parliament in Namur for December 4.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-09",
-   "text": "CSC Services publics confirmed that approximately 57 private driver depots were at risk of involvement in the strike across multiple provinces.",
+   "text": "Private bus drivers went on strike, causing disruptions across multiple TEC lines and school transport routes in Wallonia.",
    "sources": [
-    2
+    2,
+    3,
+    4,
+    5
    ]
   }
  ],
@@ -80,148 +78,166 @@
    "publisher": "dhnet.be",
    "title": "De nombreuses lignes Letec perturbées ce lundi matin en raison d'une grève: le point sur la situation",
    "publishedAt": "2026-11-09T05:44:58.844Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.bruxellestoday.be/mobilite/greve-perturbations-letec-transport-trajets-bus.html",
+   "publisher": "bruxellestoday.be",
+   "title": "Gr&egrave;ve chez Letec ce lundi : quelles cons&eacute;quences pour les voyageurs bruxellois ?",
+   "publishedAt": "2026-11-09T06:00:00.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.rtbf.be/article/letec-de-nombreuses-lignes-perturbees-en-raison-d-une-greve-des-chauffeurs-prives-11812862",
+   "publisher": "rtbf.be",
+   "title": "Letec : de nombreuses lignes perturbées en raison d’une grève des chauffeurs privés - RTBF Actus",
+   "publishedAt": "2026-11-09T06:26:05.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.todayinliege.be/greve-annoncee-des-chauffeurs-de-bus-du-prive-qui-assurent-notamment-le-ramassage-scolaire/",
+   "publisher": "todayinliege.be",
+   "title": "Grève des chauffeurs de bus du #privé, qui assurent notamment le ramassage scolaire",
+   "publishedAt": "2026-11-09T07:10:37.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 3,
+ "confidence": 0.9,
+ "publishers": 5,
+ "reports24h": 4,
  "reportsPrev24h": 0,
- "reports48h": 3,
+ "reports48h": 4,
  "firstSeenAt": "2026-11-06T12:54:36.393Z",
- "lastReportAt": "2026-11-09T06:26:05.000Z",
- "lastCheckedAt": "2026-11-09T10:02:44.498Z",
- "updatedAt": "2026-11-09T05:55:01.304Z",
+ "lastReportAt": "2026-11-09T07:10:37.000Z",
+ "lastCheckedAt": "2026-11-09T13:59:03.924Z",
+ "updatedAt": "2026-11-09T13:56:22.169Z",
  "searchedAt": "2026-11-08T09:12:53.091Z",
  "endedOn": "2026-11-09",
  "responseSources": [
-  2
+  2,
+  4,
+  5
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-09T05:55:01.304Z",
- "summaryOf": "c51f1a073998",
+ "summarizedAt": "2026-11-09T13:56:22.169Z",
+ "summaryOf": "b5f5eda3e110",
  "publishedAt": "2026-11-09T05:55:07.736Z",
  "i18n": {
-  "of": "08a34d26dab21343",
-  "at": "2026-11-09T05:55:20.689Z",
+  "of": "29d0d92c489abc30",
+  "at": "2026-11-09T14:02:30.648Z",
   "tries": 1,
   "hi": {
-   "title": "वेतन और लागत को लेकर वालोनिया में टीईसी निजी बस चालकों की हड़ताल",
-   "seoTitle": "नामुर टीईसी निजी बस चालक हड़ताल",
+   "title": "वलोनिया में वेतन और लागत को लेकर टीईसी निजी बस चालकों की हड़ताल",
+   "seoTitle": "नामुर टीईसी बस चालकों की हड़ताल",
    "tea": {
-    "why": "टीईसी द्वारा अनुबंधित निजी बस चालक कम वेतन और बढ़ती परिचालन लागत को लेकर हड़ताल कर रहे हैं।",
-    "want": "चालकों की मांग है कि वेतन बढ़ाया जाए, भोजन वाउचर बढ़ाकर 8 यूरो किए जाएं, यात्रा लागत की भरपाई की जाए और आर्थर्र्कुलेटेड बस भत्ता दिया जाए।",
-    "changed": "9 नवंबर: निजी बस चालकों द्वारा हड़ताल शुरू किए जाने के कारण कई प्रांतों में सार्वजनिक परिवहन सेवाएं बाधित हुईं।"
+    "why": "टीईसी उप-ठेकों के तहत काम करने वाले निजी बस चालकों ने वेतन, कम लागत वाली प्रतिस्पर्धा और काम करने की स्थितियों को लेकर विरोध प्रदर्शन किया।",
+    "want": "बेहतर वेतन शर्तें, 8 यूरो मूल्य के भोजन वाउचर, यात्रा खर्च की भरपाई, प्रतीक्षा समय का पूरा वेतन और एक सामाजिक खंड।",
+    "changed": "9 नवंबर: टीईसी निजी बस चालकों ने वलोनिया के कई प्रांतों को प्रभावित करने वाली एक दिन की हड़ताल शुरू की।"
    },
-   "summary": "वालोनियन सार्वजनिक परिवहन कंपनी टीईसी के तहत उप-अनुबंध पर काम करने वाले निजी बस चालकों ने 9 नवंबर 2026 को हड़ताल शुरू कर दी, जिससे नामुर, लीज, लक्जमबर्ग, हेनाउट और वालून ब्रैबेंट सहित कई प्रांतों में व्यापक व्यवधान पैदा हुआ। यह कार्रवाई कामकाजी परिस्थितियों और वेतन स्तर के विरोध में ईसाई यूनियन, सीएससी पब्लिक सर्विसेज द्वारा शुरू की गई थी। मांगों में वेतन वृद्धि, भोजन वाउचर को 8 यूरो तक समायोजित करना, आने-जाने के खर्च की वापसी, आर्थर्र्कुलेटेड बस भत्ता और प्रतिस्पर्धी निजी फर्मों को श्रम लागत कम करने से रोकने के लिए एक सामाजिक खंड शामिल हैं। लगभग 57 निजी डिपो के शामिल होने के जोखिम की सूचना दी गई थी, जिससे स्कूली परिवहन पर भारी असर पड़ा। टीईसी ने अपने ऑनलाइन चैनलों पर व्यवधानों की पुष्टि की और यात्रियों को शेड्यूल की जांच करने की सलाह दी। आयोजकों ने घोषणा की कि यदि मांगें पूरी नहीं हुईं तो 4 दिसंबर को नामुर में वालून संसद के बाहर और हड़तालें तथा प्रदर्शन किया जाएगा।",
+   "summary": "वल्हून सार्वजनिक परिवहन कंपनी टीईसी के उप-ठेकेदारों के लिए काम करने वाले निजी बस चालकों ने वलोनिया के कई प्रांतों में एक दिन की हड़ताल की, जिससे नियमित बस लाइनों और स्कूल परिवहन नेटवर्क पर व्यापक व्यवधान उत्पन्न हुआ। समाचार रिपोर्टों के अनुसार, यह कार्रवाई सीएससी पब्लिक सर्विसेज यूनियन द्वारा बुलाई गई थी। प्रदर्शनकारी बेहतर वेतन शर्तों, अनुबंध बोलियों के दौरान निजी फर्मों को वेतन कम करने से रोकने के लिए एक सामाजिक खंड की शुरुआत, 8 यूरो के भोजन वाउचर, आने-जाने के खर्च की प्रतिपूर्ति और प्रतीक्षा समय के पूर्ण पारिश्रमिक की मांग कर रहे हैं। परिवहन कंपनी ने नामुर, लिएज, लक्जमबर्ग, हेनॉट और वल्हून ब्रैबेंट सहित प्रांतों को प्रभावित करने वाले व्यवधानों की सूचना दी। यूनियन ने नामुर में वल्हून संसद के बाहर 4 दिसंबर को एक अनुवर्ती हड़ताल और प्रदर्शन की भी घोषणा की है।",
    "demands": [
-    "उच्च वेतन",
-    "भोजन वाउचर बढ़ाकर 8 यूरो करना",
-    "घर और काम के बीच यात्रा की लागत की प्रतिपूर्ति",
-    "आर्थर्र्कुलेटेड बसों के चालकों के लिए भत्ता",
-    "अनुबंध टेंडर के दौरान निजी कंपनियों को कम श्रम लागत की पेशकश करने से रोकने वाला एक सामाजिक खंड"
+    "निजी क्षेत्र के बस चालकों के लिए बेहतर वेतन शर्तें",
+    "टीईसी अनुबंधों में निजी कंपनियों को वेतन कम करने से रोकने वाला एक सामाजिक खंड",
+    "8 यूरो मूल्य के भोजन वाउचर",
+    "यात्रा खर्च की पूरी प्रतिपूर्ति और भुगतान किया गया प्रतीक्षा समय"
    ],
-   "response": "Letec की वेबसाइट के अनुसार, लीज, नामुर, लक्जमबर्ग, हेनाउट और वालून ब्रैबेंट प्रांतों में कई बस लाइनें बाधित हुईं, और यात्रियों को डिजिटल अपडेट की जांच करने की सलाह दी गई।",
+   "response": "लेटेक ने अपनी वेबसाइट पर बताया कि कई प्रांतों में कई बस लाइनें बाधित हुईं और यात्रियों को ऑनलाइन अपडेट देखने की सलाह दी। सीएससी यूनियन ने वल्हून गतिशीलता मंत्री और ओएडब्ल्यू से बातचीत शुरू करने का आह्वान किया।",
    "updates": [
-    "क्रिश्चियन यूनियन ने 9 नवंबर के लिए निजी टीईसी बस चालकों की हड़ताल की घोषणा की, जिससे स्कूल परिवहन में व्यवधान की आशंका है।",
-    "सीएससी सर्विसेज पब्लिकस ने पुष्टि की कि कई प्रांतों में हड़ताल में शामिल होने के जोखिम पर लगभग 57 निजी ड्राइवर डिपो थे।"
+    "सीएससी ने 9 नवंबर के लिए हड़ताल की कार्रवाई की घोषणा की और 4 दिसंबर को नामुर में वल्हून संसद में एक अनुवर्ती प्रदर्शन निर्धारित किया।",
+    "निजी बस चालक हड़ताल पर चले गए, जिससे वलोनिया में कई टीईसी लाइनों और स्कूल परिवहन मार्गों पर व्यवधान उत्पन्न हुआ।"
    ],
    "conflicts": [],
    "numbers": {}
   },
   "mr": {
-   "title": "वालोनियामध्ये वेतन आणि खर्चाविरोधात टीईसी खाजगी बस चालकांचा संप",
-   "seoTitle": "नामूर टीईसी खाजगी बस चालक संप",
+   "title": "वलोनियामध्ये वेतन आणि खर्चावरून टीईसी खाजगी बस चालकांचा संप",
+   "seoTitle": "नामूर टीईसी बस चालकांचा संप",
    "tea": {
-    "why": "टीईसी द्वारे कंत्राटी पद्धतीने घेतलेले खाजगी बस चालक कमी वेतन आणि वाढत्या ऑपरेशनल खर्चामुळे संप करत आहेत.",
-    "want": "चालकांची मागणी आहे की वेतन वाढवले जावे, जेवणाचे व्हाउचर 8 युरो पर्यंत वाढवले जावेत, प्रवासाचा खर्च परत दिला जावा आणि आर्थर्र्कुलेटेड बस भत्ता दिला जावा.",
-    "changed": "9 नोव्हेंबर: खाजगी बस चालकांनी संप सुरू केल्यामुळे अनेक प्रांतांमध्ये सार्वजनिक वाहतूक विस्कळीत झाली."
+    "why": "टीईसी उपकंदरांच्या अंतर्गत काम करणाऱ्या खाजगी बस चालकांनी वेतन, कमी खर्चाची स्पर्धा आणि कामाच्या परिस्थितीवरून निषेध नोंदवला.",
+    "want": "उत्तम वेतन अटी, 8 युरो किंमतीचे जेवणाचे व्हाउचर, प्रवास खर्चाची परतफेड, प्रतीक्षा वेळेसाठी पूर्ण वेतन आणि सामाजिक कलमाची मागणी.",
+    "changed": "9 नोव्हेंबर: टीईसी खाजगी बस चालकांनी वलोनियामधील अनेक प्रांतांवर परिणाम करणारा एक दिवसाचा संप सुरू केला."
    },
-   "summary": "वालोनियन सार्वजनिक वाहतूक कंपनी टीईसी अंतर्गत उप-कंत्राटावर काम करणाऱ्या खाजगी बस चालकांनी 9 नोव्हेंबर 2026 रोजी संप सुरू केला, ज्यामुळे नामूर, लीज, लक्झेंबर्ग, हेनाउट आणि वालून ब्रॅबेंटसह अनेक प्रांतांमध्ये मोठ्या प्रमाणावर अडथळे निर्माण झाले. ही कारवाई काम करण्याच्या परिस्थितीच्या आणि वेतनाच्या पातळीच्या विरोधात ख्रिश्चन युनियन, सीएससी पब्लिक सर्व्हिसेस द्वारे सुरू करण्यात आली होती. मागण्यांमध्ये वेतनवाढ, जेवणाचे व्हाउचर 8 युरो पर्यंत सुधारित करणे, प्रवासाचा खर्च परत करणे, आर्थर्र्कुलेटेड बस भत्ता आणि प्रतिस्पर्धी खाजगी कंपन्यांना मजुरीचा खर्च कमी करण्यापासून रोखण्यासाठी एक सामाजिक कलमाचा समावेश आहे. सुमारे 57 खाजगी डेपो सहभागी होण्याच्या धोक्यात असल्याचे वृत्त आहे, ज्यामुळे शालेय वाहतुकीवर मोठा परिणाम झाला. टीईसीने त्यांच्या ऑनलाइन चॅनेलवर विस्कळीतपणाची पुष्टी केली आणि प्रवाशांना वेळापत्रक तपासण्याचा सल्ला दिला. आयोजकांनी घोषणा केली की मागण्या पूर्ण न झाल्यास 4 डिसेंबर रोजी नामूरमधील वालून संसदेबाहेर आणखी संप आणि निदर्शने केली जातील.",
+   "summary": "वल्हून सार्वजनिक वाहतूक कंपनी टीईसीच्या उपकंदरांसाठी काम करणाऱ्या खाजगी बस चालकांनी वलोनियामधील अनेक प्रांतांमध्ये एक दिवसाचा संप पुकारला, ज्यामुळे नियमित बस मार्ग आणि शाळा वाहतूक नेटवर्कवर मोठ्या प्रमाणावर अडथळे निर्माण झाले. वृत्तवाहिन्यांच्या अहवालानुसार, ही कारवाई सीएससी पब्लिक सर्व्हिसेस युनियनने पुकारली होती. आंदोलक सुधारित वेतन अटी, कंत्राट बोलीच्या वेळी खाजगी कंपन्यांना वेतन कमी करण्यापासून रोखण्यासाठी सामाजिक कलमाचा समावेश, 8 युरोचे जेवणाचे व्हाउचर, प्रवासाच्या खर्चाची भरपाई आणि प्रतीक्षा वेळेसाठी पूर्ण मोबदला यांची मागणी करत आहेत. वाहतूक कंपनीने नामूर, लीज, लक्झेंबर्ग, हेनॉट आणि वल्हून ब्रॅबंटसह प्रांतांवर परिणाम करणाऱ्या व्यत्ययांची माहिती दिली. युनियनने 4 डिसेंबर रोजी नामूरमधील वल्हून संसदेबाहेर पुढील संप आणि निदर्शनाची घोषणा देखील केली आहे.",
    "demands": [
-    "उच्च वेतन",
-    "जेवणाचे व्हाउचर 8 युरो पर्यंत वाढवणे",
-    "घर आणि कामाच्या ठिकाणामधील प्रवासाच्या खर्चाची भरपाई",
-    "आर्थर्र्कुलेटेड बस चालकांसाठी भत्ता",
-    "कंत्राट निविदांच्या वेळी खाजगी कंपन्यांना कमी मजुरीचा खर्च देऊ करण्यापासून रोखणारा एक सामाजिक नियम"
+    "खाजगी क्षेत्रातील बस चालकांसाठी चांगल्या वेतन अटी",
+    "टीईसी कंत्राटांमध्ये खाजगी कंपन्यांना वेतन कमी करण्यापासून रोखणारे सामाजिक कलम",
+    "8 युरो किंमतीचे जेवणाचे व्हाउचर",
+    "प्रवास खर्चाची पूर्ण भरपाई आणि सशुल्क प्रतीक्षा वेळ"
    ],
-   "response": "Letec च्या वेबसाइटनुसार, लीज, नामूर, लक्झेंबर्ग, हेनाउट आणि वालून ब्रॅबेंट प्रांतांमध्ये अनेक बस मार्ग विस्कळीत झाले असून प्रवाशांना डिजिटल अपडेट्स तपासण्याचा सल्ला देण्यात आला आहे.",
+   "response": "लेटेकने त्यांच्या वेबसाइटवर म्हटले की अनेक प्रांतांमध्ये अनेक बस मार्ग बाधित झाले आहेत आणि प्रवाशांना ऑनलाइन अपडेट तपाण्याचा सल्ला दिला. सीएससी युनियनने वल्हून गतिशीलता मंत्री आणि ओएडब्ल्यू यांना वाटाघाटी सुरू करण्याचे आवाहन केले.",
    "updates": [
-    "ख्रिश्चन युनियनने 9 नोव्हेंबरसाठी खाजगी टीईसी बस चालकांच्या संप San जाहीर केला, ज्यामध्ये शालेय वाहतूक विस्कळीत होण्याची अपेक्षा होती.",
-    "CSC सर्व्हिसेस पब्लिकसने पुष्टी केली की अनेक प्रांतांमध्ये संपामध्ये सहभागी होण्याच्या धोक्यात अंदाजे 57 खाजगी ड्रायव्हर डेपो होते."
+    "सीएससीने 9 नोव्हेंबरसाठी संप कृतीची घोषणा केली आणि 4 डिसेंबर रोजी नामूरमधील वल्हून संसदेत पुढील निदर्शनाचे आयोजन केले.",
+    "खाजगी बस चालक संपावर गेले, ज्यामुळे वलोनियामधील अनेक टीईसी मार्ग आणि शाळा वाहतूक मार्गांवर अडथळे निर्माण झाले."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "es": {
-   "title": "Huelga de conductores de autobuses privados de TEC por salarios y costos en Valonia",
-   "seoTitle": "Huelga de conductores de TEC en Namur",
+   "title": "Huelga de conductores de autobuses privados de TEC por salarios y costes en Valonia",
+   "seoTitle": "Huelga de conductores de autobuses TEC en Namur",
    "tea": {
-    "why": "Los conductores de autobuses privados contratados por TEC están en huelga debido a los bajos salarios y al aumento de los costos operativos.",
-    "want": "Los conductores exigen salarios más altos, vales de comida aumentados a ocho euros, reembolsos de costos de viaje y subsidios para autobuses articulados.",
-    "changed": "9 de nov.: Se produjeron interrupciones en el transporte público en múltiples provincias cuando los conductores de autobuses privados iniciaron una huelga."
+    "why": "Los conductores de autobuses privados que operan bajo subcontratos de TEC protestaron por los salarios, la competencia de bajos costes y las condiciones laborales.",
+    "want": "Mejores condiciones salariales, vales de comida por valor de 8 euros, reembolso de gastos de viaje, pago completo por el tiempo de espera y una cláusula social.",
+    "changed": "9 de noviembre: los conductores de autobuses privados de TEC iniciaron una huelga de un día que afectó a múltiples provincias en Valonia."
    },
-   "summary": "Los conductores de autobuses privados que operan bajo subcontrato para la empresa de transporte público de Valonia, TEC, iniciaron una huelga el 9 de noviembre de 2026, lo que causó interrupciones generalizadas en varias provincias, incluidas Namur, Lieja, Luxemburgo, Henao y Brabante Valón. La acción fue iniciada por el sindicato cristiano, CSC Public Services, para protestar contra las condiciones laborales y los niveles salariales. Las demandas incluyen aumentos salariales, ajustes de los vales de comida a ocho euros, reembolsos de gastos de transporte, subsidios para autobuses articulados y una cláusula social para evitar que las empresas privadas de la competencia reduzcan los costos laborales. Se informó que aproximadamente 57 depósitos privados corrían el riesgo de participar, y el transporte escolar se vio fuertemente afectado. TEC confirmó las interrupciones en sus canales en línea y aconsejó a los viajeros que consultaran los horarios. Los organizadores anunciaron más huelgas y una manifestación frente al Parlamento Valón en Namur el 4 de diciembre si no se atienden las demandas.",
+   "summary": "Los conductores de autobuses privados que trabajan para subcontratistas de la empresa pública de transporte valona TEC realizaron una huelga de un día en varias provincias de Valonia, provocando importantes interrupciones en las líneas regulares de autobuses y las redes de transporte escolar. Según informes de prensa, la acción fue convocada por el sindicato CSC Servicios Públicos. Los manifestantes exigen mejores condiciones salariales, la introducción de una cláusula social para evitar que las empresas privadas recorten los salarios durante las licitaciones de contratos, vales de comida de 8 euros, el reembolso de los costes de desplazamiento y la remuneración íntegra de los tiempos de espera. La empresa de transporte informó de interrupciones que afectaron a provincias como Namur, Lieja, Luxemburgo, Henao y Brabante Valón. El sindicato también ha anunciado una huelga de seguimiento y una manifestación frente al Parlamento Valón en Namur para el 4 de diciembre.",
    "demands": [
-    "Salarios más altos",
-    "Vales de comida aumentados a ocho euros",
-    "Reembolso de los costos de viaje entre el hogar y el trabajo",
-    "Un subsidio para los conductores de autobuses articulados",
-    "Una cláusula social que impida que las empresas privadas ofrezcan costos laborales más bajos durante las licitaciones de contratos"
+    "Mejores condiciones salariales para los conductores de autobuses del sector privado",
+    "Una cláusula social que impida a las empresas privadas recortar los salarios en los contratos de TEC",
+    "Vales de comida por valor de 8 euros",
+    "Reembolso total de los gastos de viaje y tiempos de espera pagados"
    ],
-   "response": "Según el sitio web de Letec, múltiples líneas de autobús sufrieron interrupciones en las provincias de Lieja, Namur, Luxemburgo, Henao y Brabante Valón, y se recomendó a los viajeros que consultaran las actualizaciones digitales.",
+   "response": "Letec declaró en su sitio web que múltiples líneas de autobús sufrieron interrupciones en varias provincias y recomendó a los pasajeros consultar las actualizaciones en línea. El sindicato CSC pidió al ministro valón de Movilidad y a OTW que abran negociaciones.",
    "updates": [
-    "El sindicato cristiano anunció una huelga de los conductores de autobuses privados de TEC para el 9 de noviembre, con esperadas interrupciones en el transporte escolar.",
-    "CSC Services publics confirmó que aproximadamente 57 depósitos de conductores privados corrían el riesgo de participar en la huelga en múltiples provincias."
+    "CSC anunció una huelga para el 9 de noviembre y programó una manifestación de seguimiento en el Parlamento Valón en Namur para el 4 de diciembre.",
+    "Los conductores de autobuses privados se fueron a la huelga, causando interrupciones en múltiples líneas de TEC y rutas de transporte escolar en Valonia."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "fr": {
-   "title": "Grève des conducteurs de bus privés TEC pour les salaires et les coûts en Wallonie",
-   "seoTitle": "Grève des conducteurs TEC à Namur",
+   "title": "Grève des chauffeurs de bus privés TEC pour les salaires et les coûts en Wallonie",
+   "seoTitle": "Grève des chauffeurs de bus TEC à Namur",
    "tea": {
-    "why": "Les conducteurs de bus privés sous contrat avec TEC font grève en raison de bas salaires et de la hausse des coûts opérationnels.",
-    "want": "Les conducteurs exigent des salaires plus élevés, des chèques-repas augmentés à huit euros, le remboursement des frais de déplacement et des primes pour bus articulés.",
-    "changed": "9 nov. : Des perturbations des transports publics se sont produites dans de nombreuses provinces alors que les conducteurs de bus privés entamaient une grève."
+    "why": "Des chauffeurs de bus privés travaillant sous sous-traitance TEC ont manifesté pour les salaires, la concurrence à bas coûts et les conditions de travail.",
+    "want": "De meilleures conditions salariales, des chèques-repas d'une valeur de 8 euros, le remboursement des frais de déplacement, la rémunération intégrale du temps d'attente et une clause sociale.",
+    "changed": "9 nov. : les chauffeurs de bus privés TEC ont lancé une grève d'un jour touchant plusieurs provinces à travers la Wallonie."
    },
-   "summary": "Les conducteurs de bus privés travaillant en sous-traitance pour la société de transport public wallonne TEC ont lancé une grève le 9 novembre 2026, provoquant des perturbations généralisées dans plusieurs provinces, notamment Namur, Liège, Luxembourg, Hainaut et Brabant wallon. L'action a été initiée par le syndicat chrétien, CSC Services publics, pour protester contre les conditions de travail et les niveaux de salaire. Les revendications comprennent des augmentations salariales, l'ajustement des chèques-repas à huit euros, le remboursement des frais de navettage, des primes pour bus articulés et une clause sociale pour empêcher les entreprises privées concurrentes de casser les coûts de main-d'œuvre. Environ 57 dépôts privés ont été signalés comme risquant d'être impliqués, le transport scolaire étant fortement touché. TEC a confirmé les perturbations sur ses canaux en ligne et a conseillé aux voyageurs de vérifier les horaires. Les organisateurs ont annoncé d'autres grèves et une manifestation devant le Parlement wallon à Namur le 4 décembre si les demandes ne sont pas satisfaites.",
+   "summary": "Des chauffeurs de bus privés travaillant pour des sous-traitants de la société de transport public wallonne TEC ont mené une grève d'un jour dans plusieurs provinces en Wallonie, provoquant des perturbations généralisées sur les lignes de bus régulières et les réseaux de transport scolaire. Selon des reportages de presse, l'action a été appelée par le syndicat CSC Services Publics. Les manifestants réclament de meilleures conditions salariales, l'introduction d'une clause sociale pour empêcher les entreprises privées de rogner sur les salaires lors des attributions de marchés, des chèques-repas de 8 euros, le remboursement des frais de navettage et une rémunération complète des temps d'attente. L'entreprise de transport a signalé des perturbations touchant des provinces incluant Namur, Liège, Luxembourg, Hainaut et le Brabant wallon. Le syndicat a également annoncé une grève de suivi et une manifestation devant le Parlement wallon à Namur le 4 décembre.",
    "demands": [
-    "Des salaires plus élevés",
-    "Des chèques-repas augmentés à huit euros",
-    "Le remboursement des frais de déplacement entre le domicile et le lieu de travail",
-    "Une prime pour les conducteurs de bus articulés",
-    "Une clause sociale empêchant les entreprises privées d'offrir des coûts de main-d'œuvre inférieurs lors des appels d'offres de contrats"
+    "De meilleures conditions salariales pour les chauffeurs de bus du secteur privé",
+    "Une clause sociale empêchant les entreprises privées de casser les salaires dans les contrats TEC",
+    "Des chèques-repas d'une valeur de 8 euros",
+    "Le remboursement intégral des frais de déplacement et des temps d'attente payés"
    ],
-   "response": "Selon le site web de Letec, plusieurs lignes de bus ont été perturbées dans les provinces de Liège, Namur, Luxembourg, Hainaut et Brabant wallon, et il a été conseillé aux voyageurs de consulter les mises à jour numériques.",
+   "response": "Letec a déclaré sur son site web que de nombreuses lignes de bus ont été perturbées à travers plusieurs provinces et a recommandé aux passagers de vérifier les mises à jour en ligne. Le syndicat CSC a appelé le ministre wallon de la Mobilité et l'OTW à ouvrir des négociations.",
    "updates": [
-    "Le syndicat chrétien a annoncé une grève des conducteurs de bus privés TEC pour le 9 novembre, avec des perturbations attendues du transport scolaire.",
-    "CSC Services publics a confirmé qu'environ 57 dépôts de conducteurs privés risquaient d'être impliqués dans la grève à travers de multiples provinces."
+    "La CSC a annoncé une action de grève pour le 9 novembre et a programmé une manifestation de suivi au Parlement wallon à Namur pour le 4 décembre.",
+    "Des chauffeurs de bus privés se sont mis en grève, provoquant des perturbations sur de nombreuses lignes TEC et des trajets de transport scolaire en Wallonie."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "de": {
    "title": "Streik der TEC-Privatbusfahrer für Löhne und Kosten in Wallonien",
-   "seoTitle": "TEC-Privatbusfahrer-Streik in Namur",
+   "seoTitle": "Streik der TEC-Busfahrer in Namur",
    "tea": {
-    "why": "Von TEC beauftragte Privatbusfahrer streiken wegen niedriger Löhne und steigender Betriebskosten.",
-    "want": "Die Fahrer fordern höhere Löhne, auf acht Euro erhöhte Essensgutscheine, Fahrtkostenerstattungen und Gelenkbuszulagen.",
-    "changed": "9. Nov.: In mehreren Provinzen kam es zu Störungen im öffentlichen Nahverkehr, da Privatbusfahrer in den Streik traten."
+    "why": "Privatbusfahrer, die unter TEC-Unterverträgen arbeiten, protestierten für Löhne, Billiglohnkonkurrenz und Arbeitsbedingungen.",
+    "want": "Bessere Lohnbedingungen, Essensgutscheine im Wert von 8 Euro, erstattete Reisekosten, volle Bezahlung der Wartezeit und eine soziale Klausel.",
+    "changed": "9. Nov.: TEC-Privatbusfahrer begannen einen eintägigen Streik, der mehrere Provinzen in ganz Wallonien betraf."
    },
-   "summary": "Privatbusfahrer, die im Unterauftrag für das wallonische Nahverkehrsunternehmen TEC tätig sind, haben am 9. November 2026 einen Streik begonnen und damit weitreichende Störungen in mehreren Provinzen wie Namur, Lüttich, Luxemburg, Hennegau und Wallonisch-Brabant verursacht. Die Aktion wurde von der christlichen Gewerkschaft CSC Public Services initiiert, um gegen Arbeitsbedingungen und Lohnniveaus zu protestieren. Zu den Forderungen gehören Lohnerhöhungen, die Anpassung der Essensgutscheine auf acht Euro, die Erstattung von Pendlerkosten, Gelenkbuszulagen und eine soziale Klausel, um zu verhindern, dass konkurrierende Privatunternehmen die Lohnkosten unterbieten. Es wurde berichtet, dass etwa 57 private Depots von einer Beteiligung bedroht waren, wobei der Schülerverkehr stark beeinträchtigt wurde. TEC bestätigte Störungen auf seinen Online-Kanälen und riet Reisenden, Fahrpläne zu prüfen. Die Organisatoren kündigten für den 4. Dezember weitere Streiks und eine Demonstration vor dem Wallonischen Parlament in Namur an, falls die Forderungen nicht erfüllt werden.",
+   "summary": "Privatbusfahrer, die für Subunternehmer des wallonischen öffentlichen Verkehrsunternehmens TEC arbeiten, führten in mehreren Provinzen Walloniens einen eintägigen Streik durch, der zu weitreichenden Störungen auf regulären Buslinien und Schultransportnetzen führte. Berichten zufolge wurde die Aktion von der Gewerkschaft CSC Public Services ausgerufen. Die Demonstrierenden fordern bessere Lohnbedingungen, die Einführung einer sozialen Klausel, um zu verhindern, dass private Firmen bei Ausschreibungen die Löhne unterbieten, 8-Euro-Essensgutscheine, die Erstattung von Pendlerkosten sowie die volle Vergütung von Wartezeiten. Das Verkehrsunternehmen meldete Störungen in Provinzen wie Namur, Lüttich, Luxemburg, Hennegau und Wallonisch-Brabant. Die Gewerkschaft hat zudem einen Folgestreik und eine Demonstration vor dem wallonischen Parlament in Namur für den 4. Dezember angekündigt.",
    "demands": [
-    "Höhere Löhne",
-    "Auf acht Euro erhöhte Essensgutscheine",
-    "Erstattung der Fahrtkosten zwischen Wohnort und Arbeitsstätte",
-    "Eine Zulage für Gelenkbusfahrer",
-    "Eine soziale Klausel, die verhindert, dass Privatunternehmen bei Auftragsvergaben niedrigere Lohnkosten anbieten"
+    "Bessere Lohnbedingungen für Busfahrer im privaten Sektor",
+    "Eine soziale Klausel, die private Unternehmen daran hindert, Löhne bei TEC-Verträgen zu unterbieten",
+    "Essensgutscheine im Wert von 8 Euro",
+    "Volle Erstattung der Reisekosten und bezahlte Wartezeiten"
    ],
-   "response": "Laut der Website von Letec wurden mehrere Buslinien in den Provinzen Lüttich, Namur, Luxemburg, Hennegau und Wallonisch-Brabant unterbrochen, und Reisenden wurde geraten, digitale Aktualisierungen zu prüfen.",
+   "response": "Letec erklärte auf seiner Website, dass mehrere Buslinien in mehreren Provinzen gestört waren, und empfahl Fahrgästen, Aktualisierungen online zu prüfen. Die Gewerkschaft CSC rief den wallonischen Mobilitätsminister und die OTW auf, Verhandlungen aufzunehmen.",
    "updates": [
-    "Die christliche Gewerkschaft kündigte einen Streik der privaten TEC-Busfahrer für den 9. November an, wobei Störungen im Schülerverkehr erwartet wurden.",
-    "CSC Services publics bestätigte, dass schätzungsweise 57 private Fahrerdepots in mehreren Provinzen von einer Beteiligung am Streik bedroht waren."
+    "Die CSC kündigte eine Streikaktion für den 9. November an und setzte eine Folge-Demonstration am wallonischen Parlament in Namur für den 4. Dezember an.",
+    "Privatbusfahrer traten in den Streik und verursachten Störungen auf mehreren TEC-Linien und Schulstrassen in Wallonien."
    ],
    "conflicts": [],
    "numbers": {}
