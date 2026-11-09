@@ -17,7 +17,7 @@
  "causes": [
   "environment",
   "land",
-  "infrastructure"
+  "governance"
  ],
  "kind": "multi-day",
  "startedOn": "2026-10-23",
@@ -26,34 +26,42 @@
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "serious"
+  "serious",
+  "top-10",
+  "tone-words"
  ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Locals and indigenous groups oppose the proposed 11,200-MW Siang Upper Multipurpose Project, fearing displacement and environmental damage.",
-  "want": "Demonstrators demand the release of detained protesters, the withdrawal of security forces, and the cancellation of the dam project.",
-  "changed": "Nov 3: Chief Minister Pema Khandu stated that no final decision on construction has been made and concerns will be addressed through dialogue."
+  "why": "Locals oppose the proposed 11,200-MW Siang Upper Multipurpose Project, fearing ancestral land submergence, displacement, and environmental loss.",
+  "want": "Demonstrators demand the cancellation of the dam project, the release of detained protesters and activists, and the withdrawal of security forces.",
+  "changed": "Nov 9: Scroll reported ongoing tensions and a heavy security crackdown in the Siang Valley following previous arrests and raids."
  },
- "summary": "Protests erupted across districts in Arunachal Pradesh, including Pasighat, following a 12-hour bandh called by local organisations and youth groups under the aegis of ABKU and other bodies. Demonstrators voiced strong opposition to the proposed 11,200-megawatt Siang Upper Multipurpose Project (SUMP), expressing fears over the potential submergence of ancestral lands, displacement, and ecological destruction. The protests turned violent with arson attacks targeting an NHPC office, a police station, and the residences of political leaders including the State BJP chief. Authorities deployed additional security forces, including Central Reserve Police Force personnel, and launched a crackdown involving arrests and internet restrictions, while Chief Minister Pema Khandu defended the project as a strategic counter to upstream Chinese dam developments.",
+ "summary": "Protests and subsequent unrest erupted across Arunachal Pradesh's Siang Valley following a 12-hour bandh called on October 23, 2026, by local organisations including the Adi Bane Kebang United and the Siang Indigenous Farmers Forum. The demonstrations targeted the proposed 11,200-megawatt Siang Upper Multipurpose Project, a massive hydroelectric dam spearheaded by the National Hydroelectric Power Corporation. While morning shutdowns were largely peaceful, tensions escalated after police used tear gas to disperse crowds, resulting in arson and vandalism of an NHPC office, a local police station, and the residences of several political leaders and the state BJP chief in Pasighat. Authorities responded by deploying additional police, central paramilitary units, and the Rapid Action Force, alongside sweeping internet shutdowns, searches, and arrests. Chief Minister Pema Khandu condemned the violence, urging dialogue while defending the project as a strategic counter to upstream Chinese dam developments.",
  "organizers": [
   "Adi Bane Kebang United (ABKU)",
   "Siang Indigenous Farmers Forum (SIFF)",
-  "SUMP Affected Area Youth Association",
   "Adi Galo Welfare Society"
  ],
  "demands": [
-  "Release detained protesters",
   "Scrap the Siang Upper Multipurpose Project",
-  "Withdraw security forces from the Siang belt"
+  "Release all detained protesters and youth leaders",
+  "Withdraw armed forces and police personnel from the Siang belt"
  ],
- "response": "Chief Minister Pema Khandu urged opponents to engage in dialogue instead of violence, stating the project is at a pre-feasibility stage. Police deployed tear gas and forces, leading to dozens of arrests.",
+ "response": "According to Deputy Commissioner Jayanti Pertin and police officials, security forces used tear gas shells after protesters refused to disperse. The government condemned the violence, deployed additional central paramilitary and Rapid Action Force personnel, and initiated arrests and investigations.",
  "numbers": {
+  "crowd": {
+   "value": 200,
+   "text": "a mob comprising 150 to 200 agitators",
+   "sources": [
+    6
+   ]
+  },
   "arrests": {
    "value": 75,
    "text": "Over 75 individuals have been arrested or detained",
    "sources": [
-    8
+    11
    ]
   },
   "injuries": {
@@ -61,51 +69,57 @@
    "text": "four women injured by tear gas and around 40 police personnel injured by stones",
    "sources": [
     1,
-    2,
     3,
-    10
+    12,
+    9
    ]
   }
  },
  "updates": [
   {
    "at": "2026-10-23",
-   "text": "A 12-hour bandh was enforced across Siang, Upper Siang, and East Siang districts, followed by violent clashes and arson in Pasighat.",
+   "text": "A 12-hour bandh called by local bodies led to clashes and evening arson in Pasighat.",
    "sources": [
     2,
-    8,
-    9
-   ]
-  },
-  {
-   "at": "2026-10-24",
-   "text": "Chief Minister Pema Khandu confirmed damage to properties, police stations, and leaders' homes, calling for peaceful dialogue.",
-   "sources": [
-    3
-   ]
-  },
-  {
-   "at": "2026-10-27",
-   "text": "Authorities intensified security deployments and reported dozens of apprehensions amidst continuing unrest.",
-   "sources": [
-    6,
-    8,
-    10
-   ]
-  },
-  {
-   "at": "2026-11-03",
-   "text": "Chief Minister Pema Khandu stated that no construction decision has been finalized, while opposition groups called for further shutdowns.",
-   "sources": [
-    7,
+    3,
     8
    ]
   },
   {
-   "at": "2026-11-04",
-   "text": "Reports highlighted a widespread state crackdown involving internet restrictions and actions against the movement.",
+   "at": "2026-10-24",
+   "text": "Authorities confirmed damage to political leaders' homes, an NHPC office, and a police station.",
    "sources": [
+    2,
+    3
+   ]
+  },
+  {
+   "at": "2026-10-25",
+   "text": "The Ministry of Home Affairs airlifted two Rapid Action Force companies to the region.",
+   "sources": [
+    4
+   ]
+  },
+  {
+   "at": "2026-10-27",
+   "text": "Police reported 26 arrests and extra security deployments as protests continued.",
+   "sources": [
+    7,
     9
+   ]
+  },
+  {
+   "at": "2026-11-04",
+   "text": "Reports highlighted ongoing internet shutdowns and a widespread crackdown on protesters and journalists.",
+   "sources": [
+    8
+   ]
+  },
+  {
+   "at": "2026-11-09",
+   "text": "Media reported continued heavy security presence and persistent local resistance in the Siang Valley.",
+   "sources": [
+    10
    ]
   }
  ],
@@ -119,229 +133,252 @@
   },
   {
    "n": 2,
+   "url": "https://www.hindustantimes.com/india-news/arunachal-pradesh-dam-protesters-burn-nhpc-office-vandalise-mlas-houses-in-pasighat-101792829395475.html",
+   "publisher": "hindustantimes.com",
+   "title": "Arunachal Pradesh: Dam protesters burn NHPC office, vandalise MLAs' houses in Pasighat",
+   "publishedAt": "2026-10-24T08:25:56.000Z"
+  },
+  {
+   "n": 3,
    "url": "https://www.thehindu.com/news/national/arunachal-pradesh/arunachal-pradesh-protests-against-the-11200-mw-sump-hydropower-project/article71619501.ece",
    "publisher": "thehindu.com",
    "title": "NHPC office, police station set ablaze, Arunachal BJP chief's house vandalised amid stir over power project",
    "publishedAt": "2026-10-24T09:28:55.000Z"
   },
   {
-   "n": 3,
-   "url": "https://www.freemalaysiatoday.com/category/world/2026/10/25/protesters-clash-with-police-over-india-s-proposed-dam-near-china-border",
-   "publisher": "freemalaysiatoday.com",
-   "title": "Protesters clash with police over India’s proposed dam near China border",
-   "publishedAt": "2026-10-25T08:55:27.000Z"
+   "n": 4,
+   "url": "https://economictimes.indiatimes.com/news/india/centre-rushes-2-raf-companies-to-violence-hit-arunachal-pradesh/articleshow/135186868.cms",
+   "publisher": "economictimes.indiatimes.com",
+   "title": "Centre rushes 2 RAF companies to violence-hit Arunachal Pradesh",
+   "publishedAt": "2026-10-25T08:39:00.000Z"
   },
   {
-   "n": 4,
+   "n": 5,
    "url": "https://www.businesstoday.in/india/story/chinas-mega-dam-indias-siang-project-why-are-arunachal-locals-protesting-against-it-563518-2026-10-25",
    "publisher": "businesstoday.in",
    "title": "China's mega dam, India's Siang project: Why are Arunachal locals protesting against it? - BusinessToday",
    "publishedAt": "2026-10-25T15:52:52.000Z"
   },
   {
-   "n": 5,
-   "url": "https://tribune.com.pk/story/2636930/protesters-clash-over-india-china-dam",
-   "publisher": "tribune.com.pk",
-   "title": "Protesters clash over India-China dam | The Express Tribune",
-   "publishedAt": "2026-10-26T06:33:29.000Z"
-  },
-  {
    "n": 6,
-   "url": "https://www.nationpathindia.com/national/arunachal-pradesh-siang-project-protests-security-deployment",
-   "publisher": "nationpathindia.com",
-   "title": "Anti-Dam Protests Spread in Arunachal Pradesh as Security Deployment Intensifies",
-   "publishedAt": "2026-10-27T02:53:16.348Z"
+   "url": "https://www.sentinelassam.com/more-news/editorial/violence-in-arunachal",
+   "publisher": "sentinelassam.com",
+   "title": "Violence in Arunachal",
+   "publishedAt": "2026-10-26T07:47:23.000Z"
   },
   {
    "n": 7,
-   "url": "https://www.hindustantimes.com/india-news/arunachal-pradesh-protests-siang-upper-multipurpose-project-dam-construction-news-pema-khandu-101793673459988.html",
-   "publisher": "hindustantimes.com",
-   "title": "'Not talking about dam construction now': CM Pema Khandu amid protests against Arunachal project",
-   "publishedAt": "2026-11-03T02:43:23.000Z"
+   "url": "https://www.asiaone.com/asia/india-deploys-extra-forces-after-protests-over-dam-chinese-border-escalate",
+   "publisher": "asiaone.com",
+   "title": "India deploys extra forces after protests over dam on Chinese border escalate",
+   "publishedAt": "2026-10-28T03:15:01.000Z"
   },
   {
    "n": 8,
-   "url": "https://economictimes.indiatimes.com/news/india/arunachal-bandh-over-siang-dam-project-protests-against-capf-deployment/articleshow/135482204.cms",
-   "publisher": "economictimes.indiatimes.com",
-   "title": "Arunachal bandh over Siang dam project, protests against CAPF deployment",
-   "publishedAt": "2026-11-03T04:37:00.000Z"
-  },
-  {
-   "n": 9,
    "url": "https://www.newslaundry.com/2026/11/04/censorship-arrests-internet-shutdown-pr-campaign-how-arunachal-is-trying-to-control-the-siang-dam-narrative",
    "publisher": "newslaundry.com",
    "title": "Censorship, arrests, internet shutdown, PR campaign: How Arunachal is trying to control the Siang dam narrative",
    "publishedAt": "2026-11-04T07:54:16.000Z"
   },
   {
-   "n": 10,
+   "n": 9,
    "url": "https://slguardian.org/indias-anti-china-mega-dam-triggers-a-crisis-at-home/",
    "publisher": "slguardian.org",
    "title": "India’s Anti-China Mega-Dam Triggers a Crisis at Home",
    "publishedAt": "2026-11-08T23:00:25.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://scroll.in/article/1096934/is-removing-citizens-forever-national-interest-arunachals-siang-valley-simmers-after-crackdown",
+   "publisher": "scroll.in",
+   "title": "Is removing citizens forever ‘national interest’? Arunachal’s Siang Valley simmers after crackdown",
+   "publishedAt": "2026-11-09T14:00:00.000Z"
+  },
+  {
+   "n": 11,
+   "url": "https://economictimes.indiatimes.com/news/india/arunachal-bandh-over-siang-dam-project-protests-against-capf-deployment/articleshow/135482204.cms",
+   "publisher": "economictimes.indiatimes.com",
+   "title": "Arunachal bandh over Siang dam project, protests against CAPF deployment",
+   "publishedAt": "2026-11-03T04:37:00.000Z"
+  },
+  {
+   "n": 12,
+   "url": "https://www.freemalaysiatoday.com/category/world/2026/10/25/protesters-clash-with-police-over-india-s-proposed-dam-near-china-border",
+   "publisher": "freemalaysiatoday.com",
+   "title": "Protesters clash with police over India’s proposed dam near China border",
+   "publishedAt": "2026-10-25T08:55:27.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.95,
- "publishers": 10,
- "reports24h": 1,
+ "publishers": 11,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-10-24T10:11:28.356Z",
- "lastReportAt": "2026-11-08T23:00:25.000Z",
- "lastCheckedAt": "2026-11-09T13:59:03.924Z",
- "updatedAt": "2026-11-09T01:54:08.944Z",
+ "lastReportAt": "2026-11-09T14:00:00.000Z",
+ "lastCheckedAt": "2026-11-09T17:57:36.796Z",
+ "updatedAt": "2026-11-09T17:54:38.446Z",
  "responseSources": [
   2,
-  3,
-  7,
-  8
+  4,
+  7
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-09T01:54:08.944Z",
- "summaryOf": "140ebf27fa9f",
+ "summarizedAt": "2026-11-09T17:54:38.446Z",
+ "summaryOf": "3fd7de18c1ff",
  "publishedAt": "2026-10-24T10:12:44.107Z",
  "i18n": {
-  "of": "b9b04ae0d1ae853d",
-  "at": "2026-11-09T01:56:44.360Z",
+  "of": "67db245b8f4e56f3",
+  "at": "2026-11-09T17:58:11.258Z",
   "tries": 1,
   "hi": {
-   "title": "अरुणाचल प्रदेश में सियांग बांध परियोजना के प्रस्ताव पर विरोध प्रदर्शन और आगजनी",
+   "title": "अरुणाचल प्रदेश में प्रस्तावित सियांग बांध परियोजना के खिलाफ विरोध प्रदर्शन और आगजनी",
    "seoTitle": "पासीघाट में सियांग बांध परियोजना के खिलाफ विरोध",
    "tea": {
-    "why": "स्थानीय लोगों और स्वदेशी समूहों ने प्रस्तावित 11,200 मेगावाट की सियांग अपर बहुउद्देशीय परियोजना का विरोध किया, जिन्हें विस्थापन और पर्यावरणीय क्षति का डर है।",
-    "want": "प्रदर्शनकारियों ने हिरासत में लिए गए प्रदर्शनकारियों की रिहाई, सुरक्षा बलों की वापसी और बांध परियोजना को रद्द करने की मांग की।",
-    "changed": "3 नवंबर: मुख्यमंत्री पेमा खांडू ने कहा कि निर्माण पर कोई अंतिम निर्णय नहीं लिया गया है और चिंताओं को बातचीत के जरिए दूर किया जाएगा।"
+    "why": "स्थानीय लोग प्रस्तावित 11,200 मेगावाट की सियांग अपर बहुउद्देशीय परियोजना का विरोध कर रहे हैं, क्योंकि उन्हें अपनी पुश्तैनी ज़मीन के डूबने, विस्थापन और पर्यावरण के नुकसान की आशंका है।",
+    "want": "प्रदर्शनकारियों की मांग है कि बांध परियोजना को रद्द किया जाए, हिरासत में लिए गए प्रदर्शनकारियों और कार्यकर्ताओं को रिहा किया जाए और सुरक्षा बलों को हटाया जाए।",
+    "changed": "9 नवंबर: स्क्रॉल ने पिछली गिरफ्तारियों और छापों के बाद सियांग घाटी में जारी तनाव और भारी सुरक्षा कार्रवाई की रिपोर्ट दी।"
    },
-   "summary": "एबीकेयू और अन्य निकायों के नेतृत्व में स्थानीय संगठनों और युवा समूहों द्वारा बुलाए गए 12 घंटे के बंद के बाद, पासीघाट सहित अरुणाचल प्रदेश के जिलों में विरोध प्रदर्शन शुरू हो गए। प्रदर्शनकारियों ने प्रस्तावित 11,200 मेगावाट की सियांग अपर बहुउद्देशीय परियोजना (SUMP) के खिलाफ कड़ा विरोध जताया, और पैतृक भूमि के डूबने, विस्थापन और पारिस्थितिक विनाश की संभावनाओं पर चिंता व्यक्त की। एनएचपीसी कार्यालय, एक पुलिस थाने और राज्य भाजपा प्रमुख सहित राजनीतिक नेताओं के आवासों को निशाना बनाकर किए गए आगजनी हमलों के साथ विरोध प्रदर्शन हिंसक हो गए। अधिकारियों ने केंद्रीय रिजर्व पुलिस बल के कर्मियों सहित अतिरिक्त सुरक्षा बलों को तैनात किया और गिरफ्तारियों तथा इंटरनेट प्रतिबंधों से जुड़ा एक अभियान शुरू किया, जबकि मुख्यमंत्री पेमा खांडू ने ऊपरी क्षेत्र में चीनी बांध विकास के रणनीतिक जवाब के रूप में परियोजना का बचाव किया।",
+   "summary": "आदि बाने केबांग यूनाइटेड और सियांग इंडिजिनस फार्मर्स फोरम सहित स्थानीय संगठनों द्वारा 23 अक्टूबर 2026 को आहूत 12 घंटे के बंद के बाद अरुणाचल प्रदेश की सियांग घाटी में विरोध प्रदर्शन और उसके बाद अशांति फैल गई। इन प्रदर्शनों का निशाना राष्ट्रीय जलविद्युत पावर कॉर्पोरेशन द्वारा संचालित 11,200 मेगावाट की प्रस्तावित सियांग अपर बहुउद्देशीय परियोजना थी, जो एक विशाल जलविद्युत बांध है। हालांकि सुबह का बंद काफी हद तक शांतिपूर्ण रहा, लेकिन पुलिस द्वारा भीड़ को तितर-बितर करने के लिए आंसू गैस का इस्तेमाल करने के बाद तनाव बढ़ गया, जिसके परिणामस्वरूप पासीघाट में एक एनएचपीसी कार्यालय, एक स्थानीय पुलिस स्टेशन और कई राजनीतिक नेताओं तथा राज्य भाजपा प्रमुख के आवासों में आगजनी और तोड़फोड़ हुई। अधिकारियों ने इंटरनेट बंद करने, तलाशी और गिरफ्तारियों के साथ-साथ अतिरिक्त पुलिस, केंद्रीय अर्धसैनिक इकाइयों और रैपिड एक्शन फोर्स को तैनात करके प्रतिक्रिया दी। मुख्यमंत्री पेमा खांडू ने हिंसा की निंदा की, बातचीत का आग्रह किया और ऊपर की ओर हो रहे चीनी बांध विकास के रणनीतिक प्रतिकार के रूप में परियोजना का बचाव किया।",
    "demands": [
-    "हिरासत में लिए गए प्रदर्शनकारियों को रिहा करें",
     "सियांग अपर बहुउद्देशीय परियोजना को रद्द करें",
-    "सियांग बेल्ट से सुरक्षा बलों को हटाएं"
+    "हिरासत में लिए गए सभी प्रदर्शनकारियों और युवा नेताओं को रिहा करें",
+    "सियांग बेल्ट से सशस्त्र बलों और पुलिस कर्मियों को वापस बुलाएं"
    ],
-   "response": "मुख्यमंत्री पेमा खांडू ने विरोधियों से हिंसा के बजाय बातचीत करने का आग्रह किया, और कहा कि परियोजना पूर्व-व्यवहार्यता चरण में है। पुलिस ने आंसू गैस और बलों का इस्तेमाल किया, जिससे दर्जनों गिरफ्तारियां हुईं।",
+   "response": "उपायुक्त जयंती पर्तिन और पुलिस अधिकारियों के अनुसार, प्रदर्शनकारियों के तितर-बितर होने से मना करने के बाद सुरक्षा बलों ने आंसू गैस के गोले छोड़े। सरकार ने हिंसा की निंदा की, अतिरिक्त केंद्रीय अर्धसैनिक और रैपिड एक्शन फोर्स के जवानों को तैनात किया और गिरफ्तारियां तथा जांच शुरू की।",
    "updates": [
-    "सियांग, अपर सियांग और ईस्ट सियांग जिलों में 12 घंटे का बंद लागू किया गया, जिसके बाद पासीघाट में हिंसक झड़पें और आगजनी हुई।",
-    "मुख्यमंत्री पेमा खांडू ने संपत्तियों, पुलिस थानों और नेताओं के घरों को नुकसान पहुंचने की पुष्टि की, और शांतिपूर्ण बातचीत की अपील की।",
-    "अधिकारियों ने सुरक्षा तैनाती बढ़ाई और जारी अशांति के बीच दर्जनों लोगों को हिरासत में लिए जाने की सूचना दी।",
-    "मुख्यमंत्री पेमा खांडू ने कहा कि निर्माण का कोई फैसला अंतिम रूप से तय नहीं हुआ है, जबकि विपक्षी समूहों ने और shutdowns बुलाए।",
-    "रिपोर्टों में इंटरनेट प्रतिबंधों और आंदोलन के खिलाफ कार्रवाई से जुड़े व्यापक राज्य दमन पर प्रकाश डाला गया।"
+    "स्थानीय निकायों द्वारा बुलाए गए 12 घंटे के बंद के कारण पासीघाट में झड़पें हुईं और शाम को आगजनी हुई।",
+    "अधिकारियों ने राजनीतिक नेताओं के घरों, एक एनएचपीसी कार्यालय और एक पुलिस स्टेशन को नुकसान पहुंचने की पुष्टि की।",
+    "गृह मंत्रालय ने दो रैपिड एक्शन फोर्स कंपनियों को क्षेत्र में हवाई मार्ग से भेजा।",
+    "पुलिस ने विरोध प्रदर्शन जारी रहने पर 26 गिरफ्तारियों और अतिरिक्त सुरक्षा तैनाती की सूचना दी।",
+    "रिपोर्टों में इंटरनेट बंद रहने और प्रदर्शनकारियों तथा पत्रकारों के खिलाफ व्यापक कार्रवाई पर प्रकाश डाला गया।",
+    "मीडिया ने सियांग घाटी में निरंतर भारी सुरक्षा उपस्थिति और लगातार स्थानीय प्रतिरोध की खबर दी।"
    ],
    "conflicts": [],
    "numbers": {
+    "crowd": "150 से 200 आंदोलनकारियों की भीड़",
     "arrests": "75 से अधिक व्यक्तियों को गिरफ्तार या हिरासत में लिया गया है",
-    "injuries": "आंसू गैस से चार महिलाएं घायल हुईं और पत्थरों से करीब 40 पुलिसकर्मी घायल हुए"
+    "injuries": "आंसू गैस से चार महिलाएं घायल हुईं और पत्थरों से लगभग 40 पुलिसकर्मी घायल हुए"
    }
   },
   "mr": {
-   "title": "सुचविलेल्या सियांग धरण प्रकल्पावरून अरुणाचल प्रदेशमध्ये आंदोलने आणि जाळपोळ",
-   "seoTitle": "सियांग धरण प्रकल्पाविरोधात पासीघाट येथे आंदोलन",
+   "title": "प्रस्तावित सियांग धरण प्रकल्पावरून अरुणाचल प्रदेशमध्ये निदर्शने आणि जाळपोळ",
+   "seoTitle": "पासीघाट येथे सियांग धरण प्रकल्पाविरोधात निदर्शने",
    "tea": {
-    "why": "स्थानिक लोक आणि आदिवासी गटांनी सुचविलेल्या ११,२०० मेगावॅटच्या सियांग अपर बहुउद्देशीय प्रकल्पाला विरोध केला असून त्यांना विस्थापन आणि पर्यावरणीय हानीची भीती वाटते.",
-    "want": "आंदोलकांनी ताब्यात घेतलेल्या निदर्शक आंदोलकांची सुटका, सुरक्षा दलांची माघार आणि धरण प्रकल्प रद्द करण्याची मागणी केली.",
-    "changed": "३ नोव्हेंबर: मुख्यमंत्री पेमा खांडू यांनी सांगितले की बांधकामाबाबत कोणताही अंतिम निर्णय घेण्यात आलेला नाही आणि संभाषणाद्वारे चिंता दूर केल्या जातील."
+    "why": "स्थानिक लोक प्रस्तावित ११,२०० मेगावॅटच्या सियांग अपर बहुउद्देशीय प्रकल्पाला विरोध करत असून त्यांना वडिलोपार्जित जमीन पाण्याखाली जाणे, विस्थापन आणि पर्यावरणाचे नुकसान होण्याची भीती वाटते.",
+    "want": "निदर्शक धरण प्रकल्प रद्द करण्याची, ताब्यात घेतलेल्या निदर्शक व कार्यकर्त्यांच्या सुटकेची आणि सुरक्षा दल मागे घेण्याची मागणी करत आहेत.",
+    "changed": "९ नोव्हेंबर: मागील गिरफ्तार्या आणि छाप्यांनंतर सियांग खोऱ्यात सुरू असलेला तणाव आणि तीव्र सुरक्षा कारवाईचे वृत्त स्क्रॉलने दिले."
    },
-   "summary": "एबीकेयू आणि इतर संघटनांच्या नेतृत्वाखालील स्थानिक संस्था व युवा गटांनी पुकारलेल्या १२ तासांच्या बंदनंतर अरुणाचल प्रदेशमधील पासीघाटसह विविध जिल्ह्यांमध्ये निदर्शने उसळली. आंदोलकांनी सुचविलेल्या ११,२०० मेगावॅटच्या सियांग अपर बहुउद्देशीय प्रकल्पाला (SUMP) तीव्र विरोध दर्शवला, ज्यामध्ये वडिलोपार्जित जमिनी पाण्याखाली जाणे, विस्थापन आणि परिसंस्थेचा नाश होण्याची भीती व्यक्त करण्यात आली. एनएचपीसी कार्यालय, एक पोलीस ठाणे आणि राज्याचेभाजप प्रमुख यांच्यासह राजकीय नेत्यांच्या निवासस्थानांना लक्ष्य करून करण्यात आलेल्या जाळपोळीच्या हल्ल्यांमुळे आंदोलनाला हिंसक वळण लागले. अधिकाऱ्यांनी केंद्रीय राखीव पोलीस दलाच्या जवानांसह अतिरिक्त सुरक्षा दल तैनात केले आणि गिरफ्तार्या तसेच इंटरनेट बंदीची कारवाई सुरू केली, तर मुख्यमंत्री पेमा खांडू यांनी चीनच्या वरच्या बाजूकडील धरण विकासाला रणनीतिक प्रत्युत्तर म्हणून प्रकल्पाचे समर्थन केले.",
+   "summary": "आदी बाने केबांग युनायटेड आणि सियांग इंडिजिनस फार्मर्स फोरमसह स्थानिक संघटनांनी २३ ऑक्टोबर २०२६ रोजी पुकारलेल्या १२ तासांच्या बंदनंतर अरुणाचल प्रदेशच्या सियांग खोऱ्यात निदर्शने आणि त्यानंतर अशांतता उसळली. नॅशनल हायड्रोइलेक्ट्रिक पॉवर कॉर्पोरेशनद्वारे चालवल्या जाणाऱ्या ११,२०० मेगावॅटच्या प्रस्तावित सियांग अपर बहुउद्देशीय प्रकल्पावर, जो एक मोठा जलविद्युत धरण प्रकल्प आहे, हे निदर्शने केंद्रित होती. सकाळचे बंद मोठे शांततापूर्ण असले, तरी पोलिसांनी गर्दी पांगवण्यासाठी अश्रुधुराचा वापर केल्यानंतर तणाव वाढला, ज्यामुळे पासीघाटमध्ये एनएचपीसी कार्यालय, एक स्थानिक पोलीस ठाणे आणि अनेक राजकीय नेत्यांच्या व राज्य भाजप प्रमुखांच्या घरांवर जाळपोळ व तोडफोड झाली. प्रशासनाने अतिरिक्त पोलीस, केंद्रीय निमलष्करी दल आणि रॅपिड ॲक्शन फोर्स तैनात करण्यासोबतच इंटरनेट बंद करणे, झडत्या घेणे आणि गिरफ्तार्या करून प्रत्युत्तर दिले. मुख्यमंत्री पेमा खांडू यांनी हिंसेचा निषेध केला, संवादाचे आवाहन केले आणि चीनच्या वरच्या बाजूकडील धरण विकासाविरुद्ध एक रणनीतिक उपाय म्हणून प्रकल्पाचा बचाव केला.",
    "demands": [
-    "ताबा घेतलेल्या आंदोलकांची सुटका करा",
     "सियांग अपर बहुउद्देशीय प्रकल्प रद्द करा",
-    "सियांग पट्ट्यातून सुरक्षा दल मागे घ्या"
+    "सर्व ताब्यात घेतलेले निदर्शक व तरुण नेत्यांची सुटका करा",
+    "सियांग पट्ट्यातून सशस्त्र दल आणि पोलीस कर्मचाऱ्यांना मागे घ्या"
    ],
-   "response": "मुख्यमंत्री पेमा खांडू यांनी विरोधकांना हिंसेऐवजी संभाषणात सहभागी होण्याचे आवाहन केले आणि प्रकल्प पूर्व-व्यवहार्यता टप्प्यात असल्याचे सांगितले. पोलिसांनी अश्रुधूर आणि दलांचा वापर केला, ज्यामुळे डझनभर गिरफ्तार्या झाल्या.",
+   "response": "उपायुक्त जयंत पर्तिन आणि पोलीस अधिकाऱ्यांच्या म्हणण्यानुसार, निदर्शकांनी पांगण्यास नकार दिल्यानंतर सुरक्षा दलांनी अश्रुधुराच्या नळकांड्या फोडल्या. सरकारने हिंसेचा निषेध केला, अतिरिक्त केंद्रीय निमलष्करी व रॅपिड ॲक्शन फोर्सचे जवान तैनात केले आणि गिरफ्तार्या व तपास सुरू केला.",
    "updates": [
-    "सियांग, अपर सियांग आणि पूर्व सियांग जिल्ह्यांमध्ये १२ तासांचा बंद लागू करण्यात आला, त्यानंतर पासीघाटमध्ये हिंसक चकमकी आणि जाळपोळ झाली.",
-    "मुख्यमंत्री पेमा खांडू यांनी मालमत्ता, पोलीस ठाणी आणि नेत्यांच्या घरांचे नुकसान झाल्याची पुष्टी केली आणि शांततापूर्ण चर्चेचे आवाहन केले.",
-    "अधिकाऱ्यांनी सुरक्षा तैनाती वाढवली आणि चालू असलेल्या अशान्तीच्या पार्श्वभूमीवर डझनभर लोकांना ताब्यात घेतल्याची माहिती दिली.",
-    "मुख्यमंत्री पेमा खांडू यांनी सांगितले की बांधकामाचा कोणताही निर्णय अंतिम झालेला नाही, तर विरोधी गटांनी पुढील बंदची हाक दिली.",
-    "वृत्तांमध्ये इंटरनेट बंदी आणि आंदोलनावरील कारवाईशी संबंधित व्यापक राज्य दंडात्मक कारवाईवर प्रकाश टाकला गेला."
+    "स्थानिक संस्थांनी पुकारलेल्या १२ तासांच्या बंदमुळे पासीघाटमध्ये संघर्ष आणि संध्याकाळी जाळपोळ झाली.",
+    "राजकीय नेत्यांची घरे, एक एनएचपीसी कार्यालय आणि एक पोलीस ठाणे यांचे नुकसान झाल्याची पुष्टी अधिकाऱ्यांनी केली.",
+    "गृह मंत्रालयाने रॅपिड ॲक्शन फोर्सच्या दोन कंपन्या विमानाने या भागात पाठवल्या.",
+    "निदर्शने सुरू असताना पोलिसांनी २६ गिरफ्तार्या आणि अतिरिक्त सुरक्षा तैनातीची माहिती दिली.",
+    "वृत्तांमध्ये सुरू असलेला इंटरनेट बंद आणि निदर्शक व पत्रकारांवर व्यापक कारवाई अधोरेखित करण्यात आली.",
+    "सियांग खोऱ्यात सतत भारी सुरक्षा उपस्थिती आणि कायमस्वरूपी स्थानिक विरोध असल्याचे माध्यमांनी वृत्त दिले."
    ],
    "conflicts": [],
    "numbers": {
+    "crowd": "१५० ते २०० आंदोलकांचा समावेश असलेला एक जमवाजमव",
     "arrests": "७५ हून अधिक व्यक्तींना अटक किंवा ताब्यात घेण्यात आले आहे",
-    "injuries": "अश्रुधूरमुळे चार महिला जखमी झाल्या आणि दगडफेकीत सुमारे ४० पोलीस कर्मचारी जखमी झाले"
+    "injuries": "अश्रुधुरामुळे चार महिला जखमी झाल्या आणि दगडफेकीमुळे सुमारे ४० पोलीस कर्मचारी जखमी झाले"
    }
   },
   "es": {
    "title": "Protestas e incendios estallan en Arunachal Pradesh por el proyecto propuesto de la presa de Siang",
    "seoTitle": "Protesta en Pasighat contra el proyecto de la presa de Siang",
    "tea": {
-    "why": "Los lugareños y los grupos indígenas se oponen al propuesto Proyecto Multipropósito Superior de Siang de 11.200 megavatios, temiendo el desplazamiento y el daño ambiental.",
-    "want": "Los manifestantes exigen la liberación de los manifestantes detenidos, la retirada de las fuerzas de seguridad y la cancelación del proyecto de la presa.",
-    "changed": "3 de noviembre: el ministro principal Pema Khandu declaró que no se ha tomado ninguna decisión final sobre la construcción y que las preocupaciones se abordarán mediante el diálogo."
+    "why": "Los lugareños se oponen al propuesto Proyecto Multipropósito Superior de Siang de 11.200 MW, por temor a la sumersión de tierras ancestrales, el desplazamiento y la pérdida ambiental.",
+    "want": "Los manifestantes exigen la cancelación del proyecto de la presa, la liberación de los manifestantes y activistas detenidos, y la retirada de las fuerzas de seguridad.",
+    "changed": "9 de noviembre: Scroll informó sobre tensiones continuas y una fuerte represión de seguridad en el Valle de Siang tras arrestos y redadas anteriores."
    },
-   "summary": "Estallaron protestas en distritos de Arunachal Pradesh, incluido Pasighat, tras un cierre de 12 horas convocado por organizaciones locales y grupos juveniles bajo los auspicios de ABKU y otros organismos. Los manifestantes expresaron una fuerte oposición al propuesto Proyecto Multipropósito Superior de Siang de 11.200 megavatios (SUMP), manifestando temores sobre la posible sumersión de tierras ancestrales, el desplazamiento y la destrucción ecológica. Las protestas se tornaron violentas con ataques incendiarios dirigidos a una oficina de NHPC, una comisaría de policía y las residencias de líderes políticos, incluido el jefe estatal del BJP. Las autoridades desplegaron fuerzas de seguridad adicionales, incluido personal de la Fuerza Policial de Reserva Central, y lanzaron una represión que incluyó arrestos y restricciones de internet, mientras que el ministro principal Pema Khandu defendió el proyecto como una contramedida estratégica contra los desarrollos de presas chinas río arriba.",
+   "summary": "Protestas y disturbios posteriores estallaron en el Valle de Siang de Arunachal Pradesh tras un cierre de 12 horas convocado el 23 de octubre de 2026 por organizaciones locales, incluyendo el Adi Bane Kebang United y el Siang Indigenous Farmers Forum. Las manifestaciones se dirigieron contra el propuesto Proyecto Multipropósito Superior de Siang de 11.200 megavatios, una presa hidroeléctrica masiva encabezada por la Corporación Nacional de Energía Hidroeléctrica. Si bien los cierres matutinos fueron mayormente pacíficos, las tensiones escalaron después de que la policía usara gas lacrimógeno para dispersar a las multitudes, lo que resultó en incendios provócalos y vandalismo en una oficina de NHPC, una comisaría de policía local y las residencias de varios líderes políticos y el jefe estatal del BJP en Pasighat. Las autoridades respondieron desplegando policía adicional, unidades paramilitares centrales y la Fuerza de Acción Rápida, junto con cortes de internet generalizados, registros y arrestos. El ministro principal Pema Khandu condenó la violencia, instando al diálogo mientras defendía el proyecto como un contrapunto estratégico a los desarrollos de presas chinas aguas arriba.",
    "demands": [
-    "Liberar a los manifestantes detenidos",
-    "Cancelar el Proyecto Multipropósito Superior de Siang",
-    "Retirar a las fuerzas de seguridad del cinturón de Siang"
+    "Descartar el Proyecto Multipropósito Superior de Siang",
+    "Liberar a todos los manifestantes y líderes juveniles detenidos",
+    "Retirar a las fuerzas armadas y al personal policial del cinturón de Siang"
    ],
-   "response": "El ministro principal Pema Khandu instó a los opositores a participar en el diálogo en lugar de la violencia, afirmando que el proyecto se encuentra en una etapa de prefactibilidad. La policía desplegó gases lacrimógenos y fuerzas, lo que provocó decenas de arrestos.",
+   "response": "Según la comisionada adjunta Jayanti Pertin y funcionarios policiales, las fuerzas de seguridad utilizaron botes de gas lacrimógeno después de que los manifestantes se negaran a dispersarse. El gobierno condenó la violencia, desplegó personal adicional paramilitar central y de la Fuerza de Acción Rápida, e inició arrestos e investigaciones.",
    "updates": [
-    "Se impuso un cierre de 12 horas en los distritos de Siang, Alto Siang y Este de Siang, seguido de enfrentamientos violentos e incendios en Pasighat.",
-    "El ministro principal Pema Khandu confirmó daños a propiedades, comisarías y hogares de líderes, pidiendo un diálogo pacífico.",
-    "Las autoridades intensificaron los despliegues de seguridad y reportaron decenas de aprehensiones en medio de la continua agitación.",
-    "El ministro principal Pema Khandu declaró que no se ha finalizado ninguna decisión de construcción, mientras que los grupos de oposición convocaron más cierres.",
-    "Los informes destacaron una represión estatal generalizada que involucró restricciones de internet y acciones contra el movimiento."
+    "Un cierre de 12 horas convocado por órganos locales provocó enfrentamientos e incendios vespertinos en Pasighat.",
+    "Las autoridades confirmaron daños en las casas de líderes políticos, una oficina de NHPC y una comisaría de policía.",
+    "El Ministerio del Asuntos del Interior transportó por aire dos compañías de la Fuerza de Acción Rápida a la región.",
+    "La policía informó de 26 arrestos y despliegues de seguridad adicionales a medida que continuaban las protestas.",
+    "Los informes destacaron los continuos cortes de internet y una represión generalizada contra manifestantes y periodistas.",
+    "Los medios informaron de una continua presencia pesada de seguridad y una persistente resistencia local en el Valle de Siang."
    ],
    "conflicts": [],
    "numbers": {
+    "crowd": "una turba compuesta por 150 a 200 agitadores",
     "arrests": "Más de 75 personas han sido arrestadas o detenidas",
     "injuries": "cuatro mujeres heridas por gas lacrimógeno y alrededor de 40 policías heridos por piedras"
    }
   },
   "fr": {
-   "title": "Des manifestations et des incendies éclatent dans l'Arunachal Pradesh à propos du projet de barrage de Siang",
+   "title": "Des manifestations et des incendies éclatent en Arunachal Pradesh contre le projet de barrage de Siang",
    "seoTitle": "Manifestation à Pasighat contre le projet de barrage de Siang",
    "tea": {
-    "why": "Les habitants locaux et les groupes autochtones s'opposent au projet polyvalent supérieur de Siang de 11 200 mégawatts, craignant des déplacements et des dommages environnementaux.",
-    "want": "Les manifestants exigent la libération des manifestants détenus, le retrait des forces de sécurité et l'annulation du projet de barrage.",
-    "changed": "3 novembre : le ministre en chef Pema Khandu a déclaré qu'aucune décision finale concernant la construction n'avait été prise et que les préoccupations seraient traitées par le dialogue."
+    "why": "Les habitants s'opposent au projet polyvalent supérieur de Siang de 11 200 MW, craignant la submersion des terres ancestrales, le déplacement et la perte environnementale.",
+    "want": "Les manifestants exigent l'annulation du projet de barrage, la libération des manifestants et militants détenus, ainsi que le retrait des forces de sécurité.",
+    "changed": "9 novembre : Scroll a fait état de tensions continues et d'une forte répression sécuritaire dans la vallée de Siang à la suite d'arrestations et de perquisitions précédentes."
    },
-   "summary": "Des manifestations ont éclaté dans les districts de l'Arunachal Pradesh, notamment à Pasighat, à la suite d'une grève générale de 12 heures appelée par des organisations locales et des groupes de jeunesse sous l'égide de l'ABKU et d'autres instances. Les manifestants ont exprimé une forte opposition au projet polyvalent supérieur de Siang de 11 200 mégawatts (SUMP), exprimant des craintes quant à la submersion potentielle de terres ancestrales, au déplacement et à la destruction écologique. Les manifestations ont pris un tour violent avec des attaques incendiaires ciblant un bureau de la NHPC, un poste de police et les résidences de dirigeants politiques, y compris le chef du BJP de l'État. Les autorités ont déployé des forces de sécurité supplémentaires, notamment du personnel de la Force de police de réserve centrale, et ont lancé une répression impliquant des arrestations et des restrictions d'Internet, tandis que le ministre en chef Pema Khandu a défendu le projet comme une contre-mesure stratégique aux développements de barrages chinois en amont.",
+   "summary": "Des manifestations et des troubles ont éclaté dans la vallée de Siang en Arunachal Pradesh à la suite d'une grève générale de 12 heures appelée le 23 octobre 2026 par des organisations locales, notamment l'Adi Bane Kebang United et le Siang Indigenous Farmers Forum. Les manifestations visaient le projet polyvalent supérieur de Siang de 11 200 mégawatts, un barrage hydroélectrique massif mené par la National Hydroelectric Power Corporation. Bien que les fermetures matinales aient été largement pacifiques, les tensions se sont intensifiées après que la police a utilisé des gaz lacrymogènes pour disperser les foules, entraînant des incendies criminels et du vandalisme dans un bureau de la NHPC, un poste de police local et les résidences de plusieurs dirigeants politiques et du chef du BJP de l'État à Pasighat. Les autorités ont réagi en déployant des forces de police supplémentaires, des unités paramilitaires centrales et la Rapid Action Force, ainsi qu'en procédant à des coupures d'Internet généralisées, des perquisitions et des arrestations. Le ministre en chef Pema Khandu a condamné la violence, exhortant au dialogue tout en défendant le projet comme un contrepoids stratégique face aux développements de barrages chinois en amont.",
    "demands": [
-    "Libérer les manifestants détenus",
     "Abandonner le projet polyvalent supérieur de Siang",
-    "Retirer les forces de sécurité de la ceinture de Siang"
+    "Libérer tous les manifestants et jeunes dirigeants détenus",
+    "Retirer les forces armées et le personnel de police de la ceinture de Siang"
    ],
-   "response": "Le ministre en chef Pema Khandu a exhorté les opposants à engager le dialogue plutôt que la violence, affirmant que le projet en est à un stade de pré-faisabilité. La police a déployé du gaz lacrymogène et des forces, entraînant des dizaines d'arrestations.",
+   "response": "Selon la commissaire adjointe Jayanti Pertin et des responsables de la police, les forces de sécurité ont utilisé des grenades lacrymogènes après que les manifestants ont refusé de se disperser. Le gouvernement a condamné la violence, déployé du personnel paramilitaire central et de la Rapid Action Force supplémentaire, et a initié des arrestations et des enquêtes.",
    "updates": [
-    "Une grève générale de 12 heures a été imposée dans les districts de Siang, du Haut-Siang et de l'Est du Siang, suivie d'affrontements violents et d'incendies à Pasighat.",
-    "Le ministre en chef Pema Khandu a confirmé des dégâts matériels sur des propriétés, des postes de police et des domiciles de dirigeants, appelant à un dialogue pacifique.",
-    "Les autorités ont intensifié les déploiements de sécurité et signalé des dizaines d'interpellations au milieu des troubles persistants.",
-    "Le ministre en chef Pema Khandu a déclaré qu'aucune décision de construction n'avait été finalisée, tandis que des groupes d'opposition ont appelé à de nouvelles fermetures.",
-    "Des rapports ont mis en évidence une répression étatique généralisée impliquant des restrictions d'Internet et des actions contre le mouvement."
+    "Une grève de 12 heures appelée par des organes locaux a entraîné des affrontements et des incendies en soirée à Pasighat.",
+    "Les autorités ont confirmé des dommages aux maisons de dirigeants politiques, à un bureau de la NHPC et à un poste de police.",
+    "Le ministère de l'Intérieur a héliporté deux compagnies de la Rapid Action Force dans la région.",
+    "La police a fait état de 26 arrestations et de déploiements de sécurité supplémentaires alors que les manifestations se poursuivaient.",
+    "Les rapports ont souligné les coupures d'Internet en cours et une répression généralisée contre les manifestants et les journalistes.",
+    "Les médias ont fait état d'une présence sécuritaire lourde et continue ainsi que d'une résistance locale persistante dans la vallée de Siang."
    ],
    "conflicts": [],
    "numbers": {
+    "crowd": "une foule composée de 150 à 200 agitateurs",
     "arrests": "Plus de 75 personnes ont été arrêtées ou détenues",
     "injuries": "quatre femmes blessées par du gaz lacrymogène et environ 40 policiers blessés par des pierres"
    }
   },
   "de": {
-   "title": "Proteste und Brandstiftungen in Arunachal Pradesh wegen geplanter Siang-Talsperre",
-   "seoTitle": "Pasighat-Protest gegen Siang-Dammprojekt",
+   "title": "Proteste und Brandstiftungen in Arunachal Pradesh wegen geplantem Siang-Damm-Projekt",
+   "seoTitle": "Pasighat-Protest gegen Siang-Damm-Projekt",
    "tea": {
-    "why": "Einheimische und indigene Gruppen lehnen das vorgeschlagene 11.200-Megawatt-Siang-Upper-Mehrzweckprojekt ab, da sie Vertreibung und Umweltschäden befürchten.",
-    "want": "Demonstranten fordern die Freilassung festgenommener Protestierer, den Abzug von Sicherheitskräften und die Absage des Dammprojekts.",
-    "changed": "3. November: Ministerpräsident Pema Khandu erklärte, dass noch keine endgültige Entscheidung über den Bau getroffen wurde und Bedenken durch Dialog ausgeräumt werden sollen."
+    "why": "Anwohner lehnen das geplante 11.200-MW-Siang-Upper-Multipurpose-Projekt ab, da sie die Überflutung von Ahnenerbe-Land, Vertreibung und Umweltverlust befürchten.",
+    "want": "Demonstranten fordern die Einstellung des Dammprojekts, die Freilassung inhaftierter Demonstranten und Aktivisten sowie den Abzug von Sicherheitskräften.",
+    "changed": "9. November: Scroll berichtete über anhaltende Spannungen und ein hartes Vorgehen der Sicherheitskräfte im Siang-Tal nach früheren Festnahmen und Razzien."
    },
-   "summary": "In Bezirken von Arunachal Pradesh, darunter Pasighat, kam es zu Protesten nach einem zwölfstündigen Streik, der von lokalen Organisationen und Jugendgruppen unter der Schirmherrschaft von ABKU und anderen Gremien ausgerufen wurde. Demonstranten äußerten heftigen Widerstand gegen das vorgeschlagene 11.200-Megawatt-Siang-Upper-Mehrzweckprojekt (SUMP) und brachten Befürchtungen hinsichtlich der möglichen Überflutung von Ahnenerbland, Vertreibung und ökologischer Zerstörung zum Ausdruck. Die Proteste wurden gewalttätig mit Brandstiftungsangriffen auf ein NHPC-Büro, eine Polizeistation und die Wohnsitze politischer Führer, einschließlich des BJP-Landesvorsitzenden. Die Behörden setzten zusätzliche Sicherheitskräfte ein, darunter Personal der Zentralen Reservepolizeitruppe, und leiteten ein Vorgehen ein, das Festnahmen und Internetbeschränkungen umfasste, während Ministerpräsident Pema Khandu das Projekt als strategische Gegenmaßnahme zu chinesischen Talsperrenbauten stromaufwärts verteidigte.",
+   "summary": "Proteste und anschließende Unruhen brachen im Siang-Tal in Arunachal Pradesh aus, nachdem lokale Organisationen, darunter das Adi Bane Kebang United und das Siang Indigenous Farmers Forum, für den 23. Oktober 2026 zu einem 12-stündigen Bandh aufgerufen hatten. Die Demonstrationen richteten sich gegen das vorgeschlagene 11.200-Megawatt-Siang-Upper-Multipurpose-Projekt, ein massives Wasserkraftwerk, das von der National Hydroelectric Power Corporation vorangetrieben wird. Während die Schließungen am Morgen größtenteils friedlich verliefen, eskalierten die Spannungen, nachdem die Polizei Tränengas eingesetzt hatte, um Menschenmengen zu zerstreuen, was zu Brandstiftungen und Vandalismus an einem NHPC-Büro, einer örtlichen Polizeistation sowie den Residenzen mehrerer politischer Führungspersönlichkeiten und des BJP-Landesvorsitzenden in Pasighat führte. Die Behörden reagierten mit der Entsendung zusätzlicher Polizei, zentraler paramilitärischer Einheiten und der Rapid Action Force sowie mit weitreichenden Internetabschaltungen, Durchsuchungen und Festnahmen. Premierminister Pema Khandu verurteilte die Gewalt, drängte auf Dialog und verteidigte das Projekt gleichzeitig als strategisches Gegengewicht zu flussaufwärts gelegenen chinesischen Dammprojekten.",
    "demands": [
-    "Festgenommene Protestierer freilassen",
-    "Siang-Upper-Mehrzweckprojekt einstellen",
-    "Sicherheitskräfte aus dem Siang-Gürtel abziehen"
+    "Das Siang-Upper-Multipurpose-Projekt verwerfen",
+    "Alle inhaftierten Demonstranten und Jugendführer freilassen",
+    "Streitkräfte und Polizeipersonal aus dem Siang-Gürtel abziehen"
    ],
-   "response": "Ministerpräsident Pema Khandu forderte die Gegner auf, sich anstelle von Gewalt auf einen Dialog einzulassen, und erklärte, das Projekt befinde sich in einer Machbarkeitsvorstufe. Die Polizei setzte Tränengas und Kräfte ein, was zu Dutzenden Festnahmen führte.",
+   "response": "Laut der stellvertretenden Kommissarin Jayanti Pertin und Polizeibeamten setzten die Sicherheitskräfte Tränengasgranaten ein, nachdem sich die Demonstranten geweigert hatten, sich zu zerstreuen. Die Regierung verurteilte die Gewalt, setzte zusätzliches zentrales paramilitärisches Personal und Einheiten der Rapid Action Force ein und leitete Festnahmen und Ermittlungen ein.",
    "updates": [
-    "In den Bezirken Siang, Upper Siang und East Siang wurde ein zwölfstündiger Streik durchgesetzt, gefolgt von gewaltsamen Zusammenstößen und Brandstiftungen in Pasighat.",
-    "Ministerpräsident Pema Khandu bestätigte Schäden an Eigentum, Polizeistationen und Häusern von Führern und rief zu einem friedlichen Dialog auf.",
-    "Die Behörden verstärkten die Sicherheitsvorkehrungen und meldeten inmitten anhaltender Unruhen Dutzende Ingewahrsamnahmen.",
-    "Ministerpräsident Pema Khandu erklärte, dass keine Baubeschlussfassung finalisiert sei, während Oppositionsgruppen zu weiteren Schließungen aufriefen.",
-    "Berichte hoben ein weitverbreitetes staatliches Vorgehen hervor, das Internetbeschränkungen und Maßnahmen gegen die Bewegung beinhaltete."
+    "Ein von lokalen Gremien aufgerufener 12-stündiger Bandh führte zu Zusammenstößen und abendlichen Brandstiftungen in Pasighat.",
+    "Behörden bestätigten Schäden an den Häusern politischer Führungspersönlichkeiten, einem NHPC-Büro und einer Polizeistation.",
+    "Das Innenministerium flog zwei Kompanien der Rapid Action Force per Hubschrauber in die Region ein.",
+    "Die Polizei meldete 26 Festnahmen und zusätzliche Sicherheitseinsätze, während die Proteste weitergingen.",
+    "Berichte hoben anhaltende Internetabschaltungen und ein weit verbreitetes Vorgehen gegen Demonstranten und Journalisten hervor.",
+    "Medien berichteten von einer anhaltend starken Präsenz von Sicherheitskräften und anhaltendem lokalem Widerstand im Siang-Tal."
    ],
    "conflicts": [],
    "numbers": {
+    "crowd": "ein Mob aus 150 bis 200 Rädelsführern",
     "arrests": "Über 75 Personen wurden festgenommen oder in Gewahrsam genommen",
     "injuries": "vier Frauen durch Tränengas verletzt und rund 40 Polizeibeamte durch Steine verletzt"
    }
