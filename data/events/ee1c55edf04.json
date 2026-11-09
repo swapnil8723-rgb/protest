@@ -24,40 +24,50 @@
  "status": "scheduled",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Students are protesting against the government's approach to debating a public media bill involving state budget financing.",
-  "want": "They demand changes regarding the proposed legislation affecting public broadcasting fees and funding for Czech Television and Czech Radio.",
-  "changed": "Nov 9: University student initiatives announced detailed march routes and rally times across Prague for Tuesday, Nov 10."
+  "why": "Students are protesting against government plans to alter the funding of public television and radio.",
+  "want": "They demand that the government preserve the independence of public media and drop changes to its funding model.",
+  "changed": "Nov 9: Student groups announced feeder marches and rally routes converging on Republic Square in Prague for Tuesday."
  },
- "summary": "Students from several Prague universities, including Charles University, Czech Technical University, University of Chemistry and Technology, Czech University of Life Sciences, Academy of Fine Arts, and Prague University of Economics and Business, are organising marches and a rally in central Prague to support Czech Television and Czech Radio. Organised by initiatives such as Vstávej, Techniko!, the protesters oppose the government's legislative proposal to abolish broadcasting fees and shift public media funding to the state budget, which passed its first reading in the Chamber of Deputies. Government representatives, including Prime Minister Andrej Babiš, argued that the change fulfills a government promise and that fee-based public funding is a minority system in Europe.",
+ "summary": "Students from multiple universities in Prague are organizing marches and a central rally to support public media organizations, including Czech Television and Czech Radio. The protests stem from opposition to government legislative proposals to replace viewer and listener license fees with direct state budget funding, which participating student groups fear will compromise editorial independence. Organizers including the initiative Vstávej, Techniko! scheduled feeder marches from various campus locations such as Dejvice, Suchdol, and university faculties to converge on Republic Square. According to reports, government representatives defended the proposed changes by pointing to European funding practices and coalition commitments, while stating that the administration does not intend to step back from its program goals.",
  "organizers": [
-  "Vstávej, Techniko!"
+  "Vstávej, Techniko!",
+  "Česká konference rektorů",
+  "Univerzita Karlova",
+  "České vysoké učení technické",
+  "Vysoká škola chemicko-technologická",
+  "Česká zemědělská univerzita"
  ],
  "demands": [
-  "Protect public media funding",
-  "Oppose the abolition of radio and television fees"
+  "Protect the independence of public media",
+  "Reject the shift from license fees to direct state budget financing"
  ],
- "response": "According to ceskenoviny.cz, government representatives argued that the citizen-paid fee system is a minority approach in Europe, and Prime Minister Andrej Babiš stated that the government is fulfilling its promise through the proposed funding change.",
+ "response": "According to reports, government representatives argued that the public fee model is a minority approach in Europe, and Prime Minister Andrej Babiš stated that the government is fulfilling its program promises and does not intend to back down.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-03",
-   "text": "Charles University students announced plans for a November 10 protest supporting Czech public media.",
+   "text": "Charles University students announced plans for a November 10 protest in support of Czech public media.",
    "sources": [
     1
    ]
   },
   {
-   "at": "2026-11-09",
-   "text": "Student initiatives announced detailed plans for marches from multiple campuses converging on Republic Square.",
+   "at": "2026-11-05",
+   "text": "Novinky reported that universities granted rectors' days off for students to attend the upcoming Tuesday protest.",
    "sources": [
     2
+   ]
+  },
+  {
+   "at": "2026-11-09",
+   "text": "Student initiatives released detailed schedules for feeder marches from Dejvice and other campuses heading to Republic Square.",
+   "sources": [
+    3
    ]
   }
  ],
@@ -71,6 +81,13 @@
   },
   {
    "n": 2,
+   "url": "https://www.novinky.cz/clanek/domaci-protest-studentu-40606925",
+   "publisher": "novinky.cz",
+   "title": "Protest studentů bude v úterý na náměstí Republiky - Novinky",
+   "publishedAt": "2026-11-05T11:16:23.000Z"
+  },
+  {
+   "n": 3,
    "url": "https://www.ceskenoviny.cz/zpravy/2897774",
    "publisher": "ceskenoviny.cz",
    "title": "Studentskému protestu v centru Prahy budou předcházet pochody, třeba z Dejvic | ČeskéNoviny.cz",
@@ -78,132 +95,139 @@
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
+ "confidence": 0.8,
+ "publishers": 3,
  "reports24h": 1,
  "reportsPrev24h": 0,
  "reports48h": 1,
  "firstSeenAt": "2026-11-05T17:30:30.969Z",
  "lastReportAt": "2026-11-09T12:55:36.000Z",
- "lastCheckedAt": "2026-11-09T17:57:36.796Z",
- "updatedAt": "2026-11-09T17:56:45.532Z",
+ "lastCheckedAt": "2026-11-09T21:56:39.835Z",
+ "updatedAt": "2026-11-09T21:56:13.847Z",
  "searchedAt": "2026-11-05T20:16:03.911Z",
  "responseSources": [
-  2
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-09T17:56:45.532Z",
- "summaryOf": "4285a78ecba6",
+ "summarizedAt": "2026-11-09T21:56:13.847Z",
+ "summaryOf": "9cf1125bb2ba",
  "publishedAt": "2026-11-05T20:21:58.483Z",
  "i18n": {
-  "of": "636b6e1226a6ac1e",
-  "at": "2026-11-09T17:59:25.284Z",
+  "of": "e8f70d0550e2b768",
+  "at": "2026-11-09T21:58:28.858Z",
   "tries": 1,
   "hi": {
    "title": "छात्रों ने सार्वजनिक मीडिया के समर्थन में प्राग में मार्च और रैली की योजना बनाई",
    "seoTitle": "सार्वजनिक मीडिया के लिए प्राग छात्र विरोध",
    "tea": {
-    "why": "छात्र राज्य बजट वित्तपोषण से जुड़े सार्वजनिक मीडिया विधेयक पर बहस करने के सरकार के दृष्टिकोण का विरोध कर रहे हैं।",
-    "want": "वे चेक टेलीविज़न और चेक रेडियो के लिए प्रस्तावित कानून से प्रभावित होने वाले सार्वजनिक प्रसारण शुल्क और वित्तपोषण में बदलाव की मांग करते हैं।",
-    "changed": "9 नवंबर: विश्वविद्यालय छात्र पहलों ने मंगलवार, 10 नवंबर के लिए प्राग भर में विस्तृत मार्च मार्गों और रैली के समय की घोषणा की।"
+    "why": "छात्र सार्वजनिक टेलीविजन और रेडियो के वित्तपोषण में बदलाव करने की सरकारी योजनाओं का विरोध कर रहे हैं।",
+    "want": "वे मांग करते हैं कि सरकार सार्वजनिक मीडिया की स्वतंत्रता को सुरक्षित रखे और इसके वित्तपोषण मॉडल में बदलाव को छोड़े।",
+    "changed": "9 नवंबर: छात्र समूहों ने मंगलवार को प्राग के रिपब्लिक स्क्वायर पर मिलने वाले फीडर मार्च और रैली मार्गों की घोषणा की।"
    },
-   "summary": "चार्ल्स यूनिवर्सिटी, चेक टेक्निकल यूनिवर्सिटी, यूनिवर्सिटी ऑफ़ केमिस्ट्री एंड टेक्नोलॉजी, चेक यूनिवर्सिटी ऑफ़ लाइफ़ साइंसेज, एकेडमी ऑफ़ फाइन आर्ट्स और प्राग यूनिवर्सिटी ऑफ़ इकोनॉमिक्स एंड बिज़नेस सहित प्राग के कई विश्वविद्यालयों के छात्र चेक टेलीविज़न और चेक रेडियो का समर्थन करने के लिए मध्य प्राग में मार्च और एक रैली का आयोजन कर रहे हैं। Vstávej, Techniko! जैसी पहलों द्वारा आयोजित, प्रदर्शनकारी प्रसारण शुल्क को समाप्त करने और सार्वजनिक मीडिया के वित्तपोषण को राज्य के बजट में स्थानांतरित करने के सरकार के विधायी प्रस्ताव का विरोध करते हैं, जो चैंबर ऑफ डेप्युटी में अपने पहले वाचन को पार कर चुका है। प्रधान मंत्री आंद्रेज बाबिश सहित सरकार के प्रतिनिधियों ने तर्क दिया कि यह परिवर्तन एक सरकारी वादे को पूरा करता है और शुल्क-आधारित सार्वजनिक वित्तपोषण यूरोप में एक अल्पसंख्यक प्रणाली है।",
+   "summary": "प्राग के कई विश्वविद्यालयों के छात्र चेक टेलीविजन और चेक रेडियो सहित सार्वजनिक मीडिया संगठनों का समर्थन करने के लिए मार्च और एक केंद्रीय रैली आयोजित कर रहे हैं। ये विरोध प्रदर्शन दर्शक और श्रोता लाइसेंस शुल्क को सीधे राज्य के बजट वित्तपोषण से बदलने के सरकारी विधायी प्रस्तावों के विरोध से उत्पन्न हुए हैं, जिससे भाग लेने वाले छात्र समूहों को डर है कि संपादकीय स्वतंत्रता से समझौता होगा। Vstávej, Techniko! पहल सहित आयोजकों ने रिपब्लिक स्क्वायर पर मिलने के लिए डेजविक, सुखडोल और विश्वविद्यालय संकायों जैसे विभिन्न परिसरों के स्थानों से फीडर मार्च तय किए। रिपोर्टों के अनुसार, सरकारी प्रतिनिधियों ने यूरोपीय वित्तपोषण प्रथाओं और गठबंधन की प्रतिबद्धताओं की ओर इशारा करते हुए प्रस्तावित परिवर्तनों का बचाव किया, साथ ही यह भी कहा कि प्रशासन अपने कार्यक्रम के लक्ष्यों से पीछे हटने का इरादा नहीं रखता है।",
    "demands": [
-    "सार्वजनिक मीडिया वित्तपोषण की रक्षा करें",
-    "रेडियो और टेलीविजन शुल्क को समाप्त करने का विरोध करें"
+    "सार्वजनिक मीडिया की स्वतंत्रता की रक्षा करें",
+    "लाइसेंस शुल्क से सीधे राज्य बजट वित्तपोषण में बदलाव को खारिज करें"
    ],
-   "response": "ceskenoviny.cz के अनुसार, सरकार के प्रतिनिधियों ने तर्क दिया कि नागरिक-भुगतान शुल्क प्रणाली यूरोप में एक अल्पसंख्यक दृष्टिकोण है, और प्रधान मंत्री आंद्रेज बाबिश ने कहा कि सरकार प्रस्तावित वित्तपोषण परिवर्तन के माध्यम से अपना वादा पूरा कर रही है।",
+   "response": "रिपोर्टों के अनुसार, सरकारी प्रतिनिधियों ने तर्क दिया कि सार्वजनिक शुल्क मॉडल यूरोप में एक अल्पसंख्यक दृष्टिकोण है, और प्रधान मंत्री Andrej Babiš ने कहा कि सरकार अपने कार्यक्रम के वादों को पूरा कर रही है और पीछे हटने का इरादा नहीं रखती है।",
    "updates": [
-    "चार्ल्स यूनिवर्सिटी के छात्रों ने 10 नवंबर को चेक सार्वजनिक मीडिया का समर्थन करने वाले विरोध प्रदर्शन की योजनाओं की घोषणा की।",
-    "छात्र पहलों ने गणतंत्र चौक पर मिलने वाले कई परिसरों से मार्च के लिए विस्तृत योजनाओं की घोषणा की।"
+    "चार्ल्स यूनिवर्सिटी के छात्रों ने चेक सार्वजनिक मीडिया के समर्थन में 10 नवंबर के विरोध प्रदर्शन की योजना की घोषणा की।",
+    "Novinky ने बताया कि विश्वविद्यालयों ने छात्रों को आगामी मंगलवार के विरोध प्रदर्शन में शामिल होने के लिए रेक्टर के दिनों की छुट्टी दी।",
+    "छात्र पहलों ने डेजविक और रिपब्लिक स्क्वायर की ओर जाने वाले अन्य परिसरों से फीडर मार्च के लिए विस्तृत कार्यक्रम जारी किए।"
    ],
    "conflicts": [],
    "numbers": {}
   },
   "mr": {
-   "title": "विद्यार्थ्यांनी सार्वजनिक मीडियाच्या समर्थनात प्रागमध्ये मोर्चे आणि सभेचे नियोजन केले",
-   "seoTitle": "सार्वजनिक मीडियासाठी प्राग विद्यार्थी निषेध",
+   "title": "विद्यार्थ्यांनी सार्वजनिक माध्यमांच्या समर्थनासाठी प्रागमध्ये मोर्चे आणि रॅलीचे नियोजन केले",
+   "seoTitle": "सार्वजनिक माध्यमांसाठी प्राग विद्यार्थी आंदोलन",
    "tea": {
-    "why": "राज्य बजेटच्या निधीशी संबंधित सार्वजनिक मीडिया विधेयकावर चर्चा करण्याच्या सरकारच्या दृष्टिकोनाच्या विरोधात विद्यार्थी निषेध करत आहेत.",
-    "want": "ते चेक टेलिव्हिजन आणि चेक रेडिओसाठी प्रस्तावित कायद्यामुळे प्रभावित होणाऱ्या सार्वजनिक प्रसारण शुल्कात आणि निधीमध्ये बदल करण्याची मागणी करतात.",
-    "changed": "९ नोव्हेंबर: विद्यापीठ विद्यार्थी उपक्रमांनी मंगळवार, १० नोव्हेंबरसाठी प्रागभर सविस्तर मार्च मार्ग आणि सभेच्या वेळा जाहीर केल्या."
+    "why": "सार्वजनिक दूरदर्शन आणि रेडिओच्या निधीमध्ये बदल करण्याच्या सरकारी योजनांच्या विरोधात विद्यार्थी आंदोलन करत आहेत.",
+    "want": "त्यांची मागणी आहे की सरकारने सार्वजनिक माध्यमांचे स्वातंत्र्य जपावे आणि त्यांच्या निधीच्या रचनेतील बदल रद्द करावेत.",
+    "changed": "९ नोव्हेंबर: विद्यार्थी गटांनी मंगळवारी प्रागच्या रिपब्लिक स्क्वेअरवर एकत्र येणाऱ्या फीडर मोर्चांची आणि रॅलीच्या मार्गांची घोषणा केली."
    },
-   "summary": "चार्ल्स युनिव्हर्सिटी, चेक टेक्निकल युनिव्हर्सिटी, युनिव्हर्सिटी ऑफ केमिस्ट्री अँड टेक्नॉलॉजी, चेक युनिव्हर्सिटी ऑफ लाईफ सायन्सेस, अकादमी ऑफ फाईन आर्ट्स आणि प्राग युनिव्हर्सिटी ऑफ इकॉनॉमिक्स अँड बिझनेससह प्रागमधील अनेक विद्यापीठांचे विद्यार्थी चेक टेलिव्हिजन आणि चेक रेडिओला पाठिंबा देण्यासाठी मध्य प्रागमध्ये मार्च आणि सभेचे आयोजन करत आहेत. Vstávej, Techniko! सारख्या उपक्रमांद्वारे आयोजित, आंदोलक प्रसारण शुल्क रद्द करण्याच्या आणि सार्वजनिक मीडियाचा निधी राज्य बजेटमध्ये हस्तांतरित करण्याच्या सरकारच्या विधायी प्रस्तावाला विरोध करतात, ज्याने चेंबर ऑफ डेप्युटीमध्ये त्याचे पहिले वाचन पार केले आहे. पंतप्रधान आंद्रेज बाबीश यांच्यासह सरकारच्या प्रतिनिधींनी असा युक्तिवाद केला की हा बदल सरकारी वचन पूर्ण करतो आणि शुल्क-आधारित सार्वजनिक निधी ही युरोपमधील अल्पसंख्याक प्रणाली आहे.",
+   "summary": "प्रागमधील अनेक विद्यापीठांचे विद्यार्थी चेक टेलिव्हिजन आणि चेक रेडिओसह सार्वजनिक मीडिया संस्थांना पाठिंबा देण्यासाठी मोर्चे आणि केंद्रीय रॅली आयोजित करत आहेत. दर्शक आणि श्रोता परवाना शुल्काऐवजी थेट राज्याच्या अर्थसंकल्पातून निधी देण्याच्या सरकारच्या कायदेशीर प्रस्तावांना विरोध दर्शवण्यासाठी हे आंदोलन होत आहे, ज्यामुळे सहभागी विद्यार्थी गटांना संपादकीय स्वातंत्र्याला धोका निर्माण होईल अशी भीती वाटते. Vstávej, Techniko! या उपक्रमासह आयोजकांनी डेजविक, सुखडोल आणि विद्यापीठ विद्याशाखा यांसारख्या विविध परिसर ठिकाणांवरून रिपब्लिक स्क्वेअरवर एकत्र येणाऱ्या फीडर मोर्चांचे नियोजन केले. वृत्तांमानुसार, सरकारी प्रतिनिधींनी युरोपियन निधी पद्धती आणि युतींच्या वचनांचा दाखला देत प्रस्तावित बदलांचा बचाव केला, तसेच प्रशासनाचा आपल्या कार्यक्रमाच्या उद्दिष्टांपासून मागे हटण्याचा कोणताही हेतू नाही असे सांगितले.",
    "demands": [
-    "सार्वजनिक मीडिया निधीचे रक्षण करा",
-    "रेडिओ आणि टेलिव्हिजन शुल्क रद्द करण्यास विरोध करा"
+    "सार्वजनिक माध्यमांच्या स्वातंत्र्याचे रक्षण करा",
+    "परवाना शुल्कावरून थेट राज्य अर्थसंकल्प वित्तावर जाण्यास नकार द्या"
    ],
-   "response": "ceskenoviny.cz नुसार, सरकारच्या प्रतिनिधींनी युक्तिवाद केला की नागरिक-भरलेली शुल्क प्रणाली हा युरोपमधील अल्पसंख्याक दृष्टिकोन आहे, आणि पंतप्रधान आंद्रेज बाबीश यांनी заяви केले की सरकार प्रस्तावित निधी बदलाद्वारे आपले वचन पूर्ण करत आहे.",
+   "response": "वृत्तांमानुसार, सरकारी प्रतिनिधींनी युक्तिवाद केला की सार्वजनिक शुल्क मॉडेल युरोपमध्ये अल्पसंख्याक दृष्टिकोन आहे, आणि पंतप्रधान Andrej Babiš यांनी सांगितले की सरकार आपल्या कार्यक्रमाची वचने पाळत असून मागे हटण्याचा तिचा कोणताही हेतू नाही.",
    "updates": [
-    "चार्ल्स युनिव्हर्सिटीच्या विद्यार्थ्यांनी १० नोव्हेंबरला चेक सार्वजनिक मीडियाला पाठिंबा देणाऱ्या निषेध आंदोलनांची योजना जाहीर केली.",
-    "विद्यार्थी उपक्रमांनी रिपब्लिक स्क्वेअरवर एकत्र येणाऱ्या अनेक कॅम्पसवरून मार्च काढण्याच्या सविस्तर योजना जाहीर केल्या."
+    "चार्ल्स युनिव्हर्सिटीच्या विद्यार्थ्यांनी चेक सार्वजनिक माध्यमांच्या समर्थनासाठी १० नोव्हेंबरच्या आंदोलनाची योजना जाहीर केली.",
+    "Novinky ने वृत्त दिले की विद्यापीठांनी आगामी मंगळवारच्या आंदोलनाला उपस्थित राहण्यासाठी विद्यार्थ्यांना कुलपतींच्या दिवसांची रजा मंजूर केली.",
+    "विद्यार्थी उपक्रमांनी डेजविक आणि इतर परिसराಗಳಿಂದ रिपब्लिक स्क्वेअरकडे जाणाऱ्या फीडर मोर्चांचे तपशीलवार वेळापत्रक जाहीर केले."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "es": {
-   "title": "Estudiantes planean marchas y mitin en Praga para apoyar a los medios públicos",
+   "title": "Estudiantes planifican marchas y manifestación en Praga para apoyar a los medios públicos",
    "seoTitle": "Protesta estudiantil en Praga por medios públicos",
    "tea": {
-    "why": "Los estudiantes protestan contra el enfoque del gobierno para debatir un proyecto de ley de medios públicos que involucra el financiamiento del presupuesto estatal.",
-    "want": "Exigen cambios con respecto a la legislación propuesta que afecta las tarifas de transmisión pública y el financiamiento para la Televisión Checa y la Radio Checa.",
-    "changed": "9 de noviembre: Iniciativas estudiantiles universitarias anunciaron rutas detalladas de marcha y horarios de mítines en Praga para el martes 10 de noviembre."
+    "why": "Los estudiantes protestan contra los planes gubernamentales de alterar la financiación de la televisión y la radio públicas.",
+    "want": "Exigen que el gobierno preserve la independencia de los medios públicos y retire los cambios en su modelo de financiación.",
+    "changed": "9 de noviembre: Grupos estudiantiles anunciaron marchas de aproximación y rutas de manifestación que convergerán en la Plaza de la República en Praga para el martes."
    },
-   "summary": "Estudiantes de varias universidades de Praga, incluida la Universidad Charles, la Universidad Técnica Checa, la Universidad de Química y Tecnología, la Universidad Checa de Ciencias de la Vida, la Academia de Bellas Artes y la Universidad de Economía y Negocios de Praga, están organizando marchas y un mitin en el centro de Praga para apoyar a la Televisión Checa y la Radio Checa. Organizado por iniciativas como Vstávej, Techniko!, los manifestantes se oponen a la propuesta legislativa del gobierno para abolir las tarifas de transmisión y trasladar el financiamiento de los medios públicos al presupuesto estatal, que aprobó su primera lectura en la Cámara de Diputados. Representantes del gobierno, incluido el primer ministro Andrej Babiš, argumentaron que el cambio cumple una promesa del gobierno y que el financiamiento público basado en tarifas es un sistema minoritario en Europa.",
+   "summary": "Estudiantes de múltiples universidades en Praga están organizando marchas y una manifestación central para apoyar a las organizaciones de medios públicos, incluidos la Televisión Checa y la Radio Checa. Las protestas surgen de la oposición a las propuestas legislativas del gobierno para reemplazar las tarifas de licencia de espectadores y oyentes con fondos directos del presupuesto estatal, lo que los grupos estudiantiles participantes temen que comprometa la independencia editorial. Los organizadores, incluida la iniciativa Vstávej, Techniko!, programaron marchas de aproximación desde varios lugares del campus como Dejvice, Suchdol y facultades universitarias para converger en la Plaza de la República. Según los informes, los representantes gubernamentales defendieron los cambios propuestos señalando las prácticas de financiación europeas y los compromisos de coalición, al tiempo que afirmaron que la administración no tiene la intención de dar marcha atrás en sus objetivos programáticos.",
    "demands": [
-    "Proteger el financiamiento de los medios públicos",
-    "Oponerse a la abolición de las tarifas de radio y televisión"
+    "Proteger la independencia de los medios públicos",
+    "Rechazar el cambio de las tarifas de licencia a la financiación directa del presupuesto estatal"
    ],
-   "response": "Según ceskenoviny.cz, los representantes del gobierno argumentaron que el sistema de tarifas pagadas por los ciudadanos es un enfoque minoritario en Europa, y el primer ministro Andrej Babiš afirmó que el gobierno está cumpliendo su promesa a través del cambio de financiamiento propuesto.",
+   "response": "Según los informes, los representantes gubernamentales argumentaron que el modelo de tarifa pública es un enfoque minoritario en Europa, y el primer ministro Andrej Babiš declaró que el gobierno está cumpliendo sus promesas programáticas y no tiene la intención de ceder.",
    "updates": [
-    "Los estudiantes de la Universidad Charles anunciaron planes para una protesta el 10 de noviembre en apoyo a los medios públicos checos.",
-    "Las iniciativas estudiantiles anunciaron planes detallados para marchas desde múltiples campus que convergerán en la Plaza de la República."
+    "Estudiantes de la Universidad Carlos anunciaron planes para una protesta el 10 de noviembre en apoyo a los medios públicos checos.",
+    "Novinky informó que las universidades concedieron días libres de rectores para que los estudiantes asistan a la protesta del próximo martes.",
+    "Las iniciativas estudiantiles publicaron horarios detallados para las marchas de aproximación desde Dejvice y otros campus con destino a la Plaza de la República."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "fr": {
    "title": "Des étudiants prévoient des marches et un rassemblement à Prague pour soutenir les médias publics",
-   "seoTitle": "Manifestation étudiante à Prague pour les médias publics",
+   "seoTitle": "Protestation étudiante à Prague pour les médias publics",
    "tea": {
-    "why": "Les étudiants protestent contre l'approche du gouvernement concernant le débat sur un projet de loi sur les médias publics impliquant un financement par le budget de l'État.",
-    "want": "Ils exigent des modifications concernant la législation proposée affectant les redevances de radiodiffusion publique et le financement de la Télévision tchèque et de la Radio tchèque.",
-    "changed": "9 nov. : Des initiatives d'étudiants universitaires ont annoncé des itinéraires de marche détaillés et des horaires de rassemblement à travers Prague pour le mardi 10 nov."
+    "why": "Les étudiants protestent contre les projets gouvernementaux de modification du financement de la télévision et de la radio publiques.",
+    "want": "Ils exigent que le gouvernement préserve l'indépendance des médias publics et abandonne les changements apportés à leur modèle de financement.",
+    "changed": "9 nov. : Des groupes d'étudiants ont annoncé des marches de ralliement et des itinéraires de rassemblement convergent vers la place de la République à Prague pour mardi."
    },
-   "summary": "Des étudiants de plusieurs universités de Prague, notamment l'Université Charles, l'Université technique tchèque, l'Université de chimie et de technologie, l'Université tchèque des sciences de la vie, l'Académie des beaux-arts et l'Université d'économie et de commerce de Prague, organisent des marches et un rassemblement dans le centre de Prague pour soutenir la Télévision tchèque et la Radio tchèque. Organisées par des initiatives telles que Vstávej, Techniko !, les manifestants s'opposent à la proposition législative du gouvernement visant à abolir les redevances de radiodiffusion et à transférer le financement des médias publics au budget de l'État, qui a franchi sa première lecture à la Chambre des députés. Des représentants du gouvernement, dont le Premier ministre Andrej Babiš, ont soutenu que ce changement remplit une promesse gouvernementale et que le financement public basé sur les redevances est un système minoritaire en Europe.",
+   "summary": "Des étudiants de plusieurs universités de Prague organisent des marches et un rassemblement central pour soutenir les organisations de médias publics, notamment la télévision tchèque et la radio tchèque. Les protestations découlent de l'opposition aux propositions législatives du gouvernement visant à remplacer les redevances des spectateurs et des auditeurs par un financement direct du budget de l'État, ce qui, selon les craintes des groupes d'étudiants participants, compromettra l'indépendance éditoriale. Des organisateurs, dont l'initiative Vstávej, Techniko!, ont programmé des marches de ralliement depuis divers campus tels que Dejvice, Suchdol et des facultés universitaires pour converger vers la place de la République. Selon les rapports, des représentants du gouvernement ont défendu les changements proposés en soulignant les pratiques de financement européennes et les engagements de la coalition, tout en affirmant que l'administration n'a pas l'intention de reculer sur ses objectifs programmatiques.",
    "demands": [
-    "Protéger le financement des médias publics",
-    "S'opposer à l'abolition des redevances de radio et de télévision"
+    "Protéger l'indépendance des médias publics",
+    "Rejeter le passage des redevances à un financement direct par le budget de l'État"
    ],
-   "response": "Selon ceskenoviny.cz, les représentants du gouvernement ont soutenu que le système de redevances payées par les citoyens est une approche minoritaire en Europe, et le Premier ministre Andrej Babiš a déclaré que le gouvernement tient sa promesse grâce au changement de financement proposé.",
+   "response": "Selon les rapports, des représentants du gouvernement ont soutenu que le modèle de redevance publique est une approche minoritaire en Europe, et le Premier ministre Andrej Babiš a déclaré que le gouvernement remplit ses promesses programmatiques et n'a pas l'intention de céder.",
    "updates": [
-    "Les étudiants de l'Université Charles ont annoncé des projets de manifestation le 10 novembre pour soutenir les médias publics tchèques.",
-    "Des initiatives étudiantes ont annoncé des plans détaillés pour des marches partant de plusieurs campus et convergeant vers la place de la République."
+    "Des étudiants de l'Université Charles ont annoncé des projets de manifestation le 10 novembre pour soutenir les médias publics tchèques.",
+    "Novinky a rapporté que les universités ont accordé des journées libres de recteur pour permettre aux étudiants d'assister à la manifestation de mardi prochain.",
+    "Des initiatives étudiantes ont publié des horaires détaillés pour les marches de ralliement depuis Dejvice et d'autres campus se dirigeant vers la place de la République."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "de": {
-   "title": "Studenten planen Märsche und Kundgebung in Prag zur Unterstützung der öffentlich-rechtlichen Medien",
-   "seoTitle": "Prager Studentenprotest für öffentlich-rechtliche Medien",
+   "title": "Studierende planen Märsche und Kundgebung in Prag zur Unterstützung der öffentlich-rechtlichen Medien",
+   "seoTitle": "Prager Studentenprotest für öffentliche Medien",
    "tea": {
-    "why": "Studenten protestieren gegen den Ansatz der Regierung bei der Debatte über ein Gesetz zu den öffentlich-rechtlichen Medien, das eine Finanzierung aus dem Staatshaushalt beinhaltet.",
-    "want": "Sie fordern Änderungen bezüglich der vorgeschlagenen Gesetzgebung, die die Rundfunkgebühren und die Finanzierung des Tschechischen Fernsehens und des Tschechischen Rundfunks betrifft.",
-    "changed": "9. Nov.: Universitäre Studenteninitiativen kündigten detaillierte Marschrouten und Kundgebungszeiten in ganz Prag für Dienstag, den 10. Nov., an."
+    "why": "Studierende protestieren gegen Regierungspläne zur Änderung der Finanzierung von öffentlich-rechtlichem Fernsehen und Radio.",
+    "want": "Sie fordern, dass die Regierung die Unabhängigkeit der öffentlichen Medien wahrt und Änderungen an deren Finanzierungsmodell fallen lässt.",
+    "changed": "9. Nov.: Studentengruppen kündigten Zubräumärsche und Kundgebungsrouten an, die am Dienstag auf dem Platz der Republik in Prag zusammenlaufen."
    },
-   "summary": "Studenten mehrerer Prager Universitäten, darunter die Karls-Universität, die Tschechische Technische Universität, die Universität für Chemie und Technologie, die Tschechische Universität für Biowissenschaften, die Akademie der Bildenden Künste und die Wirtschaftsuniversität Prag, organisieren Märsche und eine Kundgebung im Zentrum von Prag, um das Tschechische Fernsehen und den Tschechischen Rundfunk zu unterstützen. Organisiert von Initiativen wie Vstávej, Techniko!, lehnen die Demonstrierenden den Gesetzesvorschlag der Regierung ab, die Rundfunkgebühren abzuschaffen und die Finanzierung der öffentlich-rechtlichen Medien in den Staatshaushalt zu verlagern, der seine erste Lesung im Abgeordnetenhaus passiert hat. Regierungsvertreter, darunter Premierminister Andrej Babiš, argumentierten, dass die Änderung ein Versprechen der Regierung erfüllt und dass eine gebührenbasierte öffentliche Finanzierung in Europa ein Minderheitensystem ist.",
+   "summary": "Studierende mehrerer Universitäten in Prag organisieren Märsche und eine zentrale Kundgebung zur Unterstützung öffentlich-rechtlicher Medienorganisationen, darunter das tschechische Fernsehen und der tschechische Rundfunk. Die Proteste resultieren aus der Ablehnung von Regierungsgesetzesvorschlägen, die Rundfunkgebühren von Zuschauern und Zuhörern durch direkte Staatshaushaltsfinanzierung zu ersetzen, was nach Befürchtungen teilnehmender Studentengruppen die redaktionelle Unabhängigkeit gefährden wird. Organisatoren, darunter die Initiative Vstávej, Techniko!, planten Zubräumärsche von verschiedenen Campusstandorten wie Dejvice, Suchdol und Universitätsfakultäten, die auf dem Platz der Republik zusammenlaufen. Berichten zufolge verteidigten Regierungsvertreter die vorgeschlagenen Änderungen unter Verweis auf europäische Finanzierungspraktiken und Koalitionsverpflichtungen, während sie erklärten, dass die Verwaltung nicht die Absicht hat, von ihren Programmzielen abzuweichen.",
    "demands": [
-    "Schutz der Finanzierung der öffentlich-rechtlichen Medien",
-    "Ablehnung der Abschaffung der Radio- und Fernsehgebühren"
+    "Die Unabhängigkeit der öffentlichen Medien schützen",
+    "Den Wechsel von Rundfunkgebühren zur direkten Staatshaushaltsfinanzierung ablehnen"
    ],
-   "response": "Laut ceskenoviny.cz argumentierten Regierungsvertreter, dass das von den Bürgern bezahlte Gebührensystem in Europa ein Minderheitsansatz sei, und Premierminister Andrej Babiš erklärte, dass die Regierung ihr Versprechen durch die vorgeschlagene Finanzierungsänderung erfülle.",
+   "response": "Berichten zufolge argumentierten Regierungsvertreter, dass das Modell der öffentlichen Gebühr in Europa ein Minderheitsansatz sei, und Premierminister Andrej Babiš erklärte, dass die Regierung ihre Programmversprechen erfülle und nicht die Absicht habe, nachzugeben.",
    "updates": [
-    "Studenten der Karls-Universität kündigten Pläne für eine Protestkundgebung am 10. November zur Unterstützung der tschechischen öffentlich-rechtlichen Medien an.",
-    "Studenteninitiativen kündigten detaillierte Pläne für Märsche von mehreren Campusstandorten an, die am Platz der Republik zusammenlaufen."
+    "Studierende der Karls-Universität kündigten Pläne für einen Protest am 10. November zur Unterstützung der tschechischen öffentlich-rechtlichen Medien an.",
+    "Novinky berichtete, dass Universitäten Rektorentage gewährt haben, damit Studierende an dem kommenden Dienstagprotest teilnehmen können.",
+    "Studentische Initiativen veröffentlichten detaillierte Zeitpläne für Zubräumärsche aus Dejvice und anderen Standorten zum Platz der Republik."
    ],
    "conflicts": [],
    "numbers": {}
   }
- }
+ },
+ "endedOn": "2026-11-10"
 }

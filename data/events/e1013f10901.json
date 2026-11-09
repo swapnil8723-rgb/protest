@@ -15,59 +15,84 @@
  },
  "scope": "nationwide",
  "causes": [
-  "labour"
+  "labour",
+  "education",
+  "governance"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-20",
  "status": "scheduled",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "CGIL called a nationwide general strike across public and private sectors in Italy.",
-  "want": "Participate in the nationwide general strike for the entire working day.",
-  "changed": "Nov 9: CGIL announced a nationwide general strike across all public and private sectors for November 20, 2026."
+  "why": "Protesters are striking over government budget spending cuts, public service disinvestments, and educational reforms.",
+  "want": "Workers demand an end to public spending cuts, funding restoration, and the protection of public education and services.",
+  "changed": "Nov 9: CGIL and various sector unions announced a nationwide general strike across public and private sectors for November 20."
  },
- "summary": "The Italian General Confederation of Labour (CGIL) has announced a nationwide general strike scheduled for November 20, 2026. The work stoppage will span the entire working day across all public and private sectors, including contracted and auxiliary services. According to municipal communications in Bergamo regarding urban hygiene and waste collection services, disruptions are expected throughout the entire day and across all shifts, though essential services will remain guaranteed as mandated by law. Organisers have outlined the motivations for the industrial action, while local service operators have issued warnings about potential service impacts for residents.",
+ "summary": "The Italian General Confederation of Labour (CGIL) and other trade unions have called for a nationwide general strike across all public and private sectors scheduled for November 20, 2026. The mobilisation includes various sectors, such as education, healthcare, and urban hygiene services, with additional calls by unions like Federazione Gilda Unams. Organisers stated that the protests target continuous public spending cuts, lack of funding for public education, and government budget laws affecting workers and services. While essential public services and minimum activity levels will be guaranteed according to legal standards, authorities and municipal services have warned citizens of potential disruptions.",
  "organizers": [
-  "CGIL"
+  "CGIL",
+  "Federazione Gilda Unams"
  ],
  "demands": [
-  "Participate in the nationwide general strike for the entire working day"
+  "Stop public spending cuts in the budget",
+  "Reverse disinvestments in public education",
+  "Address teacher and school staff grievances"
  ],
  "response": "No official response reported in the sources.",
  "numbers": {},
  "updates": [
   {
-   "at": "2026-11-09",
-   "text": "CGIL proclaimed a nationwide general strike for November 20 across all public and private sectors.",
+   "at": "2026-11-05",
+   "text": "Federazione Gilda Unams announced a national strike for school personnel on November 20, citing funding cuts.",
    "sources": [
-    2
+    1
    ]
   },
   {
    "at": "2026-11-09",
-   "text": "Urban hygiene service providers warned of possible disruptions and service impacts during the November 20 strike.",
+   "text": "Healthcare and urban hygiene sectors announced potential service disruptions and adherence to the November 20 strike.",
    "sources": [
-    1
+    2,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-09",
+   "text": "CGIL proclaimed a full-day nationwide general strike across all public and private sectors for November 20.",
+   "sources": [
+    4
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://sapere.virgilio.it/scuola/mondo-scuola/sciopero-scuola-20-novembre-nuova-agitazione-annunciata",
+   "publisher": "sapere.virgilio.it",
+   "title": "Sciopero scuola 20 novembre, nuova agitazione annunciata: i motivi",
+   "publishedAt": "2026-11-05T10:14:00.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.aosp.bo.it/il-policlinico/notizie/proclamazione-sciopero-generale-nazionale-indetto-lintera-giornata-del-20-novembre-2026",
+   "publisher": "aosp.bo.it",
+   "title": "Proclamazione sciopero generale nazionale indetto per l'intera giornata del 20 novembre 2026 | Policlinico SantOrsola",
+   "publishedAt": "2026-11-09T08:13:48.000Z"
+  },
+  {
+   "n": 3,
    "url": "https://www.comune.bergamo.it/notizie/sciopero-nazionale-del-20-novembre-possibili-disagi-nei-servizi-di-igiene-urbana-e-raccolta-rifiuti",
    "publisher": "comune.bergamo.it",
    "title": "Sciopero nazionale del 20 novembre: possibili disagi nei servizi di igiene urbana e raccolta rifiuti",
    "publishedAt": "2026-11-09T11:04:47.000Z"
   },
   {
-   "n": 2,
+   "n": 4,
    "url": "https://www.flai.it/primo-piano/20-novembre-i-perche-dello-sciopero/",
    "publisher": "flai.it",
    "title": "20 novembre, i perché dello sciopero!",
@@ -75,102 +100,114 @@
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 2,
+ "confidence": 0.86,
+ "publishers": 4,
+ "reports24h": 3,
  "reportsPrev24h": 0,
- "reports48h": 2,
- "firstSeenAt": "2026-11-09T17:52:44.930Z",
+ "reports48h": 3,
+ "firstSeenAt": "2026-11-06T05:52:34.232Z",
  "lastReportAt": "2026-11-09T12:52:13.000Z",
- "lastCheckedAt": "2026-11-09T17:57:36.796Z",
- "updatedAt": "2026-11-09T17:57:36.165Z",
+ "lastCheckedAt": "2026-11-09T21:56:39.835Z",
+ "updatedAt": "2026-11-09T21:55:33.065Z",
  "endedOn": "2026-11-20",
  "responseSources": [],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-09T17:57:36.165Z",
- "summaryOf": "848671b3f512",
+ "summarizedAt": "2026-11-09T21:55:33.065Z",
+ "summaryOf": "b04dbacde315",
  "publishedAt": "2026-11-09T17:57:36.796Z",
  "i18n": {
-  "of": "1e891015fb835362",
-  "at": "2026-11-09T17:59:30.328Z",
+  "of": "edcf4687c5a2f024",
+  "at": "2026-11-09T21:59:07.273Z",
   "tries": 1,
   "hi": {
-   "title": "CGIL ने 20 नवंबर को इटली में राष्ट्रव्यापी आम हड़ताल का आह्वान किया",
-   "seoTitle": "रोम सीजीआईएल राष्ट्रव्यापी आम हड़ताल",
+   "title": "CGIL ने 20 नवंबर को इटली में राष्ट्रव्यापी आम हड़ताल बुलाई",
+   "seoTitle": "रोम CGIL राष्ट्रव्यापी आम हड़ताल",
    "tea": {
-    "why": "CGIL ने इटली में सार्वजनिक और निजी क्षेत्रों में राष्ट्रव्यापी आम हड़ताल बुलाई।",
-    "want": "पूरे कार्यदिवस के लिए राष्ट्रव्यापी आम हड़ताल में भाग लें।",
-    "changed": "9 नवंबर: CGIL ने 20 नवंबर 2026 के लिए सभी सार्वजनिक और निजी क्षेत्रों में राष्ट्रव्यापी आम हड़ताल की घोषणा की।"
+    "why": "प्रदर्शनकारी सरकारी बजट खर्च में कटौती, सार्वजनिक सेवा निवेश में कमी और शैक्षिक सुधारों के खिलाफ हड़ताल कर रहे हैं।",
+    "want": "शमकि सार्वजनिक खर्च में कटौती को समाप्त करने, वित्त पोषण की बहाली तथा सार्वजनिक शिक्षा और सेवाओं की सुरक्षा की मांग करते हैं।",
+    "changed": "9 नवंबर: CGIL और विभिन्न क्षेत्र के संघों ने 20 नवंबर के लिए सार्वजनिक और निजी क्षेत्रों में एक राष्ट्रव्यापी आम हड़ताल की घोषणा की।"
    },
-   "summary": "इतालियन जनरल कन्फेडरेशन ऑफ लेबर (CGIL) ने 20 नवंबर 2026 के लिए निर्धारित राष्ट्रव्यापी आम हड़ताल की घोषणा की है। यह कार्य रुकावट अनुबंधित और सहायक सेवाओं सहित सभी सार्वजनिक और निजी क्षेत्रों में पूरे कार्यदिवस तक रहेगी। शहरी स्वच्छता और कचरा संग्रहण सेवाओं के संबंध में बर्गामा के नगरपालिका संचार के अनुसार, पूरे दिन और सभी पालियों में व्यवधानों की आशंका है, हालांकि कानून द्वारा अनिवार्य रूप से आवश्यक सेवाएं बनी रहेंगी। आयोजकों ने औद्योगिक कार्रवाई के उद्देश्यों की रूपरेखा तैयार की है, जबकि स्थानीय सेवा ऑपरेटरों ने निवासियों के लिए संभावित सेवा प्रभावों के बारे में चेतावनी जारी की है।",
+   "summary": "इतालवी जनरल कॉन्फेडरेशन ऑफ लेबर (CGIL) और अन्य ट्रेड यूनियनों ने 20 नवंबर 2026 को निर्धारित सभी सार्वजनिक और निजी क्षेत्रों में राष्ट्रव्यापी आम हड़ताल का आह्वान किया है। इस लामबंदी में शिक्षा, स्वास्थ्य सेवा और शहरी स्वच्छता सेवाओं जैसे विभिन्न क्षेत्र शामिल हैं, जिसमें फेडेराज़ियोन गिल्डा उनाम्स जैसे संघों द्वारा अतिरिक्त आह्वान किए गए हैं। आयोजकों ने कहा कि विरोध प्रदर्शन निरंतर सार्वजनिक खर्च में कटौती, सार्वजनिक शिक्षा के लिए धन की कमी और कर्मचारियों तथा सेवाओं को प्रभावित करने वाले सरकारी बजट कानूनों को निशाना बनाते हैं। हालांकि कानूनी मानकों के अनुसार आवश्यक सार्वजनिक सेवाएं और न्यूनतम गतिविधि स्तर की गारंटी दी जाएगी, लेकिन अधिकारियों और नगरपालिका सेवाओं ने नागरिकों को संभावित व्यवधानों के प्रति सचेत किया है।",
    "demands": [
-    "पूरे कार्यदिवस के लिए राष्ट्रव्यापी आम हड़ताल में भाग लें"
+    "बजट में सार्वजनिक खर्च में कटौती बंद करें",
+    "सार्वजनिक शिक्षा में निवेश में कमी को उलटें",
+    "शिक्षक और स्कूल स्टाफ की शिकायतों का समाधान करें"
    ],
-   "response": "स्रोतों में किसी आधिकारिक प्रतिक्रिया की सूचना नहीं दी गई है।",
+   "response": "सूत्रों में किसी आधिकारिक प्रतिक्रिया की सूचना नहीं दी गई है।",
    "updates": [
-    "CGIL ने 20 नवंबर के लिए सभी सार्वजनिक और निजी क्षेत्रों में राष्ट्रव्यापी आम हड़ताल की घोषणा की।",
-    "शहरी स्वच्छता सेवा प्रदाताओं ने 20 नवंबर की हड़ताल के दौरान संभावित व्यवधानों और सेवा प्रभावों के बारे में चेतावनी दी।"
+    "फेडेराज़ियोन गिल्डा उनाम्स ने वित्त पोषण में कटौती का हवाला देते हुए 20 नवंबर को स्कूली कर्मियों के लिए राष्ट्रीय हड़ताल की घोषणा की।",
+    "स्वास्थ्य सेवा और शहरी स्वच्छता क्षेत्रों ने संभावित सेवा व्यवधानों और 20 नवंबर की हड़ताल के पालन की घोषणा की।",
+    "CGIL ने 20 नवंबर के लिए सभी सार्वजनिक और निजी क्षेत्रों में पूरे दिन की राष्ट्रव्यापी आम हड़ताल की घोषणा की।"
    ],
    "conflicts": [],
    "numbers": {}
   },
   "mr": {
-   "title": "CGIL कडून इटलीमध्ये २० नोव्हेंबर रोजी देशव्यापी लांब संप पुकारला",
-   "seoTitle": "रोम CGIL देशव्यापी लांब संप",
+   "title": "CGIL ने 20 नोव्हेंबर रोजी इटलीमध्ये देशव्यापी सार्वत्रिक संप पुकारला",
+   "seoTitle": "रोम CGIL देशव्यापी सार्वत्रिक संप",
    "tea": {
-    "why": "CGIL ने इटलीमध्ये सार्वजनिक आणि खाजगी क्षेत्रांमध्ये देशव्यापी लांब संप बोलावला.",
-    "want": "संपूर्ण कामाच्या दिवसासाठी देशव्यापी लांब संपामध्ये सहभागी व्हा.",
-    "changed": "९ नोव्हेंबर: CGIL ने २० नोव्हेंबर २०२६ साठी सर्व सार्वजनिक आणि खाजगी क्षेत्रांमध्ये देशव्यापी लांब संप जाहीर केला."
+    "why": "निदर्शक सरकारी अर्थसंकल्पातील खर्च कपात, सार्वजनिक सेवांमधील गुंतवणूक मागे घेणे आणि शैक्षणिक सुधारणांच्या निषेधार्थ संप करत आहेत.",
+    "want": "कामगार सार्वजनिक खर्चातील कपात संपवणे, निधीची पुनःस्थापना करणे आणि सार्वजनिक शिक्षण व सेवांच्या संरक्षणाची मागणी करतात.",
+    "changed": "9 नोव्हेंबर: CGIL आणि विविध क्षेत्रातील युनियननी 20 नोव्हेंबरसाठी सार्वजनिक आणि खाजगी क्षेत्रात देशव्यापी सार्वत्रिक संप जाहीर केला."
    },
-   "summary": "इटालियन जनरल कॉन्फेडरेशन ऑफ लेबर (CGIL) ने २० नोव्हेंबर २०२६ रोजी नियोजित देशव्यापी लांब संप जाहीर केला आहे. हे काम थांबवणे कंत्राटी आणि सहाय्यक सेवांसह सर्व सार्वजनिक आणि खाजगी क्षेत्रांमध्ये संपूर्ण कामाच्या दिवसभर चालेल. शहरी स्वच्छता आणि कचरा संकलन सेवांच्या संदर्भात बर्गॅमोमधील पालिकेच्या संप्रेषणांनुसार, संपूर्ण दिवसभर आणि सर्व शिफ्टमध्ये व्यत्यय येण्याची शक्यता आहे, तथापि कायद्यानुसार आवश्यक सेवा हमीयुक्त राहतील. आयोजकांनी औद्योगिक कृतीच्या प्रेरणांची रूपरेषा दिली आहे, तर स्थानिक सेवा ऑपरेटरंनी रहिवाशांसाठी संभाव्य सेवा प्रभावांबद्दल चेतावणी जारी केली आहे.",
+   "summary": "इटालियन जनरल कॉन्फेडरेशन ऑफ लेबर (CGIL) आणि इतर कामगार संघटनांनी 20 नोव्हेंबर 2026 रोजी सर्व सार्वजनिक आणि खाजगी क्षेत्रांमध्ये देशव्यापी सार्वत्रिक संप पुकारला आहे. या आंदोलनात शिक्षण, आरोग्य सेवा आणि शहरी स्वच्छता सेवा यांसारख्या विविध क्षेत्रांचा समावेश असून, फेडेराझिओन गिल्डा उनाम्स सारख्या युनियननीही याला पाठिंबा दिला आहे. आयोजकांनी सांगितले की हे विरोध प्रदर्शन सततची सार्वजनिक खर्चातील कपात, सार्वजनिक शिक्षणासाठी निधीचा अभाव आणि कामगार व सेवांवर परिणाम करणारे सरकारी अर्थसंकल्पीय कायदे यांना लक्ष्य करतात. कायदेशीर मानकांनुसार आवश्यक सार्वजनिक सेवा आणि किमान क्रियाकलाप स्तर हमी दिले जातील, तरीही अधिकारी आणि महानगरपालिका सेवांनी नागरिकांना संभाव्य व्यत्ययांबद्दल सतर्क केले आहे.",
    "demands": [
-    "संपूर्ण कामाच्या दिवसासाठी देशव्यापी लांब संपामध्ये सहभागी व्हा"
+    "अर्थसंकल्पातील सार्वजनिक खर्च कपात थांबवा",
+    "सार्वजनिक शिक्षणातील गुंतवणूक मागे घेण्याचे धोरण बदला",
+    "शिक्षक आणि शाळा कर्मचाऱ्यांच्या तक्रारींचे निराकरण करा"
    ],
-   "response": "स्रोतांमध्ये कोणत्याही अधिकृत প্রতিক्रियेची नोंद नाही.",
+   "response": "स्त्रोतांमध्ये कोणतीही अधिकृत प्रतिक्रिया नोंदवली गेलेली नाही.",
    "updates": [
-    "CGIL ने २० नोव्हेंबरसाठी सर्व सार्वजनिक आणि खाजगी क्षेत्रांमध्ये देशव्यापी लांब संप घोषित केला.",
-    "शहरी स्वच्छता सेवा पुरवठादारांनी २० नोव्हेंबरच्या संपदरम्यान संभाव्य व्यत्यय आणि सेवा प्रभावांबद्दल चेतावणी दिली."
+    "फेडेराझिओन गिल्डा उनाम्सने निधी कपातीचा हवाला देत 20 नोव्हेंबर रोजी शाळा कर्मचाऱ्यांसाठी राष्ट्रीय संपाची घोषणा केली.",
+    "आरोग्य सेवा आणि शहरी स्वच्छता क्षेत्रांनी संभाव्य सेवा व्यत्यय आणि 20 नोव्हेंबरच्या संपामध्ये सहभागाची घोषणा केली.",
+    "CGIL ने 20 नोव्हेंबरसाठी सर्व सार्वजनिक आणि खाजगी क्षेत्रांमध्ये पूर्ण दिवस देशव्यापी सार्वत्रिक संप घोषित केला."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "es": {
    "title": "CGIL convoca huelga general nacional en Italia para el 20 de noviembre",
-   "seoTitle": "Roma CGIL huelga general nacional",
+   "seoTitle": "Huelga general nacional CGIL Roma",
    "tea": {
-    "why": "La CGIL convocó una huelga general nacional en los sectores público y privado en Italia.",
-    "want": "Participar en la huelga general nacional durante toda la jornada laboral.",
-    "changed": "9 de nov.: La CGIL anunció una huelga general nacional en todos los sectores público y privado para el 20 de noviembre de 2026."
+    "why": "Los manifestantes están en huelga debido a los recortes de gasto en el presupuesto del gobierno, las desinversiones en servicios públicos y las reformas educativas.",
+    "want": "Los trabajadores exigen el fin de los recortes del gasto público, la restauración de la financiación y la protección de la educación y los servicios públicos.",
+    "changed": "9 de noviembre: CGIL y varios sindicatos sectoriales anunciaron una huelga general nacional en los sectores público y privado para el 20 de noviembre."
    },
-   "summary": "La Confederación General Italiana del Trabajo (CGIL) ha anunciado una huelga general nacional programada para el 20 de noviembre de 2026. La paralización laboral abarcará toda la jornada laboral en todos los sectores público y privado, incluidos los servicios contratados y auxiliares. Según las comunicaciones municipales en Bérgamo sobre los servicios de higiene urbana y recogida de residuos, se esperan interrupciones durante todo el día y en todos los turnos, aunque los servicios esenciales permanecerán garantizados según lo mandata la ley. Los organizadores han delineado las motivaciones de la acción industrial, mientras que los operadores de servicios locales han emitido advertencias sobre posibles impactos en el servicio para los residentes.",
+   "summary": "La Confederación General Italiana del Trabajo (CGIL) y otros sindicatos han convocado una huelga general nacional en todos los sectores públicos y privados programada para el 20 de noviembre de 2026. La movilización incluye varios sectores, como la educación, la sanidad y los servicios de higiene urbana, con llamamientos adicionales de sindicatos como Federazione Gilda Unams. Los organizadores afirmaron que las protestas apuntan a los continuos recortes del gasto público, la falta de financiación para la educación pública y las leyes de presupuestos del gobierno que afectan a los trabajadores y servicios. Aunque se garantizarán los servicios públicos esenciales y los niveles mínimos de actividad según los estándares legales, las autoridades y los servicios municipales han advertido a los ciudadanos sobre posibles interrupciones.",
    "demands": [
-    "Participar en la huelga general nacional durante toda la jornada laboral"
+    "Detener los recortes del gasto público en el presupuesto",
+    "Revertir las desinversiones en la educación pública",
+    "Abordar las quejas del profesorado y del personal escolar"
    ],
-   "response": "No se informó de ninguna respuesta oficial en las fuentes.",
+   "response": "No se ha informado de ninguna respuesta oficial en las fuentes.",
    "updates": [
-    "La CGIL proclamó una huelga general nacional para el 20 de noviembre en todos los sectores público y privado.",
-    "Los proveedores de servicios de higiene urbana advirtieron sobre posibles interrupciones e impactos en el servicio durante la huelga del 20 de noviembre."
+    "Federazione Gilda Unams anunció una huelga nacional para el personal escolar el 20 de noviembre, citando recortes de financiación.",
+    "Los sectores de sanidad e higiene urbana anunciaron posibles interrupciones del servicio y adhesión a la huelga del 20 de noviembre.",
+    "CGIL proclamó una huelga general nacional de jornada completa en todos los sectores públicos y privados para el 20 de noviembre."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "fr": {
-   "title": "La CGIL appelle à une grève générale nationale en Italie pour le 20 novembre",
-   "seoTitle": "Rome CGIL grève générale nationale",
+   "title": "La CGIL appelle à une grève générale nationale en Italie le 20 novembre",
+   "seoTitle": "Grève générale nationale CGIL Rome",
    "tea": {
-    "why": "La CGIL a appelé à une grève générale nationale dans les secteurs public et privé en Italie.",
-    "want": "Participer à la grève générale nationale pendant toute la journée de travail.",
-    "changed": "9 nov. : La CGIL a annoncé une grève générale nationale dans tous les secteurs public et privé pour le 20 novembre 2026."
+    "why": "Les manifestants font grève pour protester contre les coupes budgétaires du gouvernement, les désinvestissements dans les services publics et les réformes de l'éducation.",
+    "want": "Les travailleurs exigent la fin des coupes dans les dépenses publiques, le rétablissement des financements et la protection de l'éducation et des services publics.",
+    "changed": "9 nov. : la CGIL et divers syndicats sectoriels ont annoncé une grève générale nationale dans les secteurs public et privé pour le 20 novembre."
    },
-   "summary": "La Confédération générale italienne du travail (CGIL) a annoncé une grève générale nationale prévue pour le 20 novembre 2026. L'arrêt de travail s'étendra sur toute la journée de travail dans tous les secteurs public et privé, y compris les services sous contrat et auxiliaires. Selon les communications municipales de Bergame concernant l'hygiène urbaine et les services de collecte des déchets, des perturbations sont attendues toute la journée et sur tous les quarts de travail, bien que les services essentiels restent garantis comme le mandate la loi. Les organisateurs ont exposé les motivations de l'action syndicale, tandis que les opérateurs de services locaux ont émis des avertissements concernant les impacts potentiels sur les services pour les résidents.",
+   "summary": "La Confédération générale italienne du travail (CGIL) et d'autres syndicats ont appelé à une grève générale nationale dans tous les secteurs publics et privés prévue pour le 20 novembre 2026. La mobilisation comprend divers secteurs, tels que l'éducation, la santé et les services d'hygiène urbaine, avec des appels supplémentaires de syndicats comme la Federazione Gilda Unams. Les organisateurs ont déclaré que les protestations ciblent les coupes continues dans les dépenses publiques, le manque de financement pour l'éducation publique et les lois de finances du gouvernement qui affectent les travailleurs et les services. Bien que les services publics essentiels et les niveaux d'activité minimum soient garantis conformément aux normes légales, les autorités et les services municipaux ont averti les citoyens de perturbations potentiels.",
    "demands": [
-    "Participer à la grève générale nationale pendant toute la journée de travail"
+    "Mettre fin aux coupes dans les dépenses publiques du budget",
+    "Inverser les désinvestissements dans l'éducation publique",
+    "Répondre aux griefs des enseignants et du personnel scolaire"
    ],
    "response": "Aucune réponse officielle signalée dans les sources.",
    "updates": [
-    "La CGIL a proclamé une grève générale nationale pour le 20 novembre dans tous les secteurs public et privé.",
-    "Les fournisseurs de services d'hygiène urbaine ont mis en garde contre d'possibles perturbations et impacts sur les services pendant la grève du 20 novembre."
+    "La Federazione Gilda Unams a annoncé une grève nationale du personnel scolaire le 20 novembre, invoquant des coupes budgétaires.",
+    "Les secteurs de la santé et de l'hygiène urbaine ont annoncé des perturbations de service potentielles et leur adhésion à la grève du 20 novembre.",
+    "La CGIL a proclamé une grève générale nationale d'une journée entière dans tous les secteurs publics et privés pour le 20 novembre."
    ],
    "conflicts": [],
    "numbers": {}
@@ -179,18 +216,21 @@
    "title": "CGIL ruft zu landesweitem Generalstreik in Italien für den 20. November auf",
    "seoTitle": "Rom CGIL landesweiter Generalstreik",
    "tea": {
-    "why": "Die CGIL rief zu einem landesweiten Generalstreik im öffentlichen und privaten Sektor in Italien auf.",
-    "want": "Sich am landesweiten Generalstreik für den gesamten Arbeitstag beteiligen.",
-    "changed": "9. Nov.: Die CGIL kündigte für den 20. November 2026 einen landesweiten Generalstreik in allen öffentlichen und privaten Sektoren an."
+    "why": "Demonstranten streiken wegen staatlicher Haushaltskürzungen, Desinvestitionen im öffentlichen Dienst und Bildungsreformen.",
+    "want": "Arbeiter fordern ein Ende der Kürzungen der öffentlichen Ausgaben, die Wiederherstellung der Finanzierung sowie den Schutz des öffentlichen Bildungswesens und der Dienstleistungen.",
+    "changed": "9. Nov.: CGIL und verschiedene Branchengewerkschaften kündigten einen landesweiten Generalstreik im öffentlichen und privaten Sektor für den 20. November an."
    },
-   "summary": "Der Italienische Allgemeine Arbeitsverband (CGIL) hat einen landesweiten Generalstreik angekündigt, der für den 20. November 2026 angesetzt ist. Die Arbeitsniederlegung erstreckt sich über den gesamten Arbeitstag in allen öffentlichen und privaten Sektoren, einschließlich vertraglicher und Hilfsdienste. Gemäß städtischen Mitteilungen in Bergamo bezüglich der Stadtreinigung und Müllabfuhrdienste werden ganztägig und in allen Schichten Störungen erwartet, wobei wesentliche Dienste gesetzlich garantiert bleiben. Die Organisatoren haben die Beweggründe für die Arbeitskampfmaßnahme dargelegt, während lokale Dienstleister Warnungen vor möglichen Auswirkungen auf die Dienste für Anwohner herausgegeben haben.",
+   "summary": "Der italienische Gewerkschaftsbund (CGIL) und andere Gewerkschaften haben zu einem landesweiten Generalstreik in allen öffentlichen und privaten Sektoren für den 20. November 2026 aufgerufen. Die Mobilisierung umfasst verschiedene Bereiche wie Bildung, Gesundheitswesen und Stadtreinigung, wobei zusätzliche Aufrufe von Gewerkschaften wie der Federazione Gilda Unams erfolgten. Organisatoren erklärten, dass sich die Proteste gegen anhaltende Kürzungen der öffentlichen Ausgaben, mangelnde Finanzierung für das öffentliche Bildungswesen und staatliche Haushaltsgesetze richten, die Arbeiter und Dienstleistungen betreffen. Während wesentliche öffentliche Dienstleistungen und Mindestaktivitätsniveaus gemäß den gesetzlichen Standards garantiert werden, haben Behörden und städtische Dienste Bürger vor möglichen Störungen gewarnt.",
    "demands": [
-    "Sich am landesweiten Generalstreik für den gesamten Arbeitstag beteiligen"
+    "Kürzungen der öffentlichen Ausgaben im Haushaltsplan stoppen",
+    "Desinvestitionen im öffentlichen Bildungswesen rückgängig machen",
+    "Beschwerden von Lehrkräften und Schulpersonal adressieren"
    ],
    "response": "In den Quellen wurde keine offizielle Reaktion gemeldet.",
    "updates": [
-    "Die CGIL hat einen landesweiten Generalstreik für den 20. November in allen öffentlichen und privaten Sektoren ausgerufen.",
-    "Anbieter von Stadtreinigungsdiensten warnten vor möglichen Störungen und Auswirkungen auf den Dienst während des Streiks am 20. November."
+    "Die Federazione Gilda Unams kündigte unter Verweis auf Kürzungen der Finanzierung einen nationalen Streik für das Schulpersonal am 20. November an.",
+    "Das Gesundheitswesen und die Stadtreinigung kündigten mögliche Dienstleistungsunterbrechungen und die Teilnahme am Streik vom 20. November an.",
+    "Die CGIL proklamierte einen ganztägigen landesweiten Generalstreik in allen öffentlichen und privaten Sektoren für den 20. November."
    ],
    "conflicts": [],
    "numbers": {}
