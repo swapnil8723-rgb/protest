@@ -16,7 +16,7 @@
  "scope": "local",
  "causes": [
   "prices",
-  "jobs",
+  "labour",
   "education"
  ],
  "kind": "one-day",
@@ -32,29 +32,28 @@
  "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "Protesters marched against the rising cost of living, lower pensions, and in support of youth and public services like education and health.",
-  "want": "Demonstrators demanded better purchasing power, ecological transition, generational justice, and improved conditions for public services and students.",
-  "changed": "Nov 5: A large demonstration took place in Bordeaux drawing thousands of participants, followed by late clashes with law enforcement."
+  "why": "Protesters marched to express dissatisfaction with the rising cost of living, declining purchasing power, and the state of public services.",
+  "want": "Participants demanded improved purchasing power, better funding for public services, and support for youth and education.",
+  "changed": "Nov 5: A large-scale demonstration took place in Bordeaux, followed by reports of clashes between some participants and police."
  },
- "summary": "On November 5, 2026, a large demonstration took place in Bordeaux, France, as part of a general strike day against the cost of living and in defense of public services. Initiated by trade union coalitions including the CGT, FSU, and FO, and heavily supported by students, teachers, and healthcare workers, the march brought together diverse groups of citizens, including retirees and first-time participants. According to the prefecture, 21,000 people participated, while organizers from the CGT estimated the crowd at 120,000. While the main march initially proceeded in a calm atmosphere along a route bypassing the hypercenter, clashes with security forces broke out more than an hour after the gathering ended at Place de la Victoire.",
+ "summary": "On November 5, 2026, a significant demonstration occurred in Bordeaux, France, as part of a broader national movement against the rising cost of living. Organised by an inter-union coalition, the march drew a large crowd, including students, teachers, healthcare workers, and retirees. Participants voiced concerns over economic hardship, the quality of educational facilities, and the need for better social protections. While the march proceeded calmly for most of the day, some sources reported clashes between protesters and law enforcement following the event's conclusion at Place de la Victoire. Estimates of the turnout varied significantly, with the prefecture reporting 21,000 participants, while the CGT union estimated 120,000. The protest was part of a series of mobilisations that continued in the city throughout the week.",
  "organizers": [
   "CGT",
   "FSU",
   "FO",
-  "intersyndicale"
+  "Intersyndicale"
  ],
  "demands": [
-  "Defense of purchasing power",
-  "Support for youth and student demands",
-  "Ecological and economic transition",
-  "Generational justice",
-  "Public services support"
+  "Improved purchasing power",
+  "Increased funding for public services",
+  "Better support for youth and education",
+  "Economic and generational justice"
  ],
- "response": "According to sources, authorities validated a specific march route avoiding the hypercenter to protect businesses, and reported that clashes with law enforcement occurred more than an hour after the demonstration concluded at Place de la Victoire.",
+ "response": "The prefecture authorised the march route while implementing security measures to protect businesses. Following the event, the Ministry of the Interior denied allegations regarding the use of sound cannons against protesters during subsequent demonstrations.",
  "numbers": {
   "crowd": {
    "value": 120000,
-   "text": "120 000 selon la CGT",
+   "text": "The CGT estimated 120,000 participants, while the prefecture reported 21,000.",
    "sources": [
     1,
     2,
@@ -65,24 +64,25 @@
  "updates": [
   {
    "at": "2026-11-05",
-   "text": "Thousands marched through Bordeaux for a general strike day against the cost of living.",
+   "text": "A large demonstration against the cost of living took place in Bordeaux with varying turnout estimates.",
    "sources": [
     1,
     2
    ]
   },
   {
-   "at": "2026-11-05",
-   "text": "Clashes between individuals and law enforcement occurred after the demonstration concluded at Place de la Victoire.",
+   "at": "2026-11-07",
+   "text": "A subsequent protest was held in Bordeaux, following a route authorised by the prefecture.",
    "sources": [
-    2
+    3,
+    4
    ]
   },
   {
-   "at": "2026-11-06",
-   "text": "Authorities announced a subsequent authorized march scheduled for Saturday, November 7.",
+   "at": "2026-11-10",
+   "text": "The Ministry of the Interior denied claims that sound cannons were used against protesters during the November 7 event.",
    "sources": [
-    3
+    4
    ]
   }
  ],
@@ -107,29 +107,36 @@
    "publisher": "sudouest.fr",
    "title": "Bordeaux : une nouvelle manifestation « contre la vie chère » ce samedi 7 novembre, le parcours validé par la préfecture",
    "publishedAt": "2026-11-06T16:46:05.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.lefigaro.fr/bordeaux/le-ministere-de-l-interieur-dement-l-utilisation-de-canons-a-son-contre-les-manifestants-a-bordeaux-20261110",
+   "publisher": "lefigaro.fr",
+   "title": "Le ministère de l’Intérieur dément l’utilisation de canons à son contre les manifestants à Bordeaux",
+   "publishedAt": "2026-11-10T10:16:03.000Z"
   }
  ],
  "conflicts": [
-  "The prefecture reported 21,000 participants while the CGT claimed 120,000 attendees."
+  "Police reported 21,000 attendees, while organisers claimed 120,000."
  ],
- "confidence": 0.65,
- "publishers": 3,
- "reports24h": 0,
+ "confidence": 0.71,
+ "publishers": 4,
+ "reports24h": 1,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 1,
  "firstSeenAt": "2026-11-05T17:30:24.818Z",
- "lastReportAt": "2026-11-06T16:46:05.000Z",
- "lastCheckedAt": "2026-11-10T14:04:12.951Z",
- "updatedAt": "2026-11-07T02:56:52.898Z",
+ "lastReportAt": "2026-11-10T10:16:03.000Z",
+ "lastCheckedAt": "2026-11-10T17:57:33.909Z",
+ "updatedAt": "2026-11-10T17:54:41.327Z",
  "searchedAt": "2026-11-06T02:50:55.003Z",
  "endedOn": "2026-11-05",
  "responseSources": [
   1,
-  2,
-  3
+  3,
+  4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-07T02:56:52.898Z",
- "summaryOf": "903f8a051088"
+ "summarizedAt": "2026-11-10T17:54:41.327Z",
+ "summaryOf": "538bc5c0984d"
 }
