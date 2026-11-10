@@ -20,7 +20,7 @@
  "kind": "multi-day",
  "startedOn": "2026-11-09",
  "status": "ongoing",
- "vibe": "heating-up",
+ "vibe": "cooling-down",
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
@@ -111,12 +111,12 @@
  "conflicts": [],
  "confidence": 0.8,
  "publishers": 3,
- "reports24h": 3,
- "reportsPrev24h": 0,
+ "reports24h": 1,
+ "reportsPrev24h": 2,
  "reports48h": 3,
  "firstSeenAt": "2026-11-09T21:53:09.876Z",
  "lastReportAt": "2026-11-09T16:56:08.000Z",
- "lastCheckedAt": "2026-11-10T09:59:02.846Z",
+ "lastCheckedAt": "2026-11-10T14:04:12.951Z",
  "updatedAt": "2026-11-10T09:57:43.226Z",
  "searchedAt": "2026-11-10T09:50:49.612Z",
  "responseSources": [],
@@ -264,5 +264,8 @@
     "injuries": "Laut CCOO wurden nach dem Polizeieinsatz mindestens drei Personen verletzt."
    }
   }
- }
+ },
+ "distinctFrom": [
+  "e8cccb54ff7"
+ ]
 }
