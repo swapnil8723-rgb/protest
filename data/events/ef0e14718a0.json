@@ -19,292 +19,329 @@
   "health",
   "police"
  ],
- "kind": "multi-day",
- "startedOn": "2026-11-06",
- "status": "ongoing",
- "vibe": "cooling-down",
+ "kind": "one-day",
+ "startedOn": "2026-11-07",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": true,
+ "review": "pending",
+ "reviewReasons": [
+  "sources-disagree"
+ ],
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters gathered after federal immigration agents brought a detainee to a Boyle Heights hospital and blocked an ambulance entrance.",
-  "want": "Demonstrators demanded that federal immigration agents leave the hospital and questioned hospital leadership regarding cooperation with ICE.",
-  "changed": "Nov 7: Hundreds of demonstrators marched from Mariachi Plaza to the hospital, joined by elected officials, following earlier detentions."
+  "why": "Protesters gathered to oppose the presence of federal immigration agents at Adventist Health White Memorial hospital.",
+  "want": "They demanded an end to ICE operations at healthcare facilities and accountability from hospital leadership regarding collaboration with agents.",
+  "changed": "Nov 7: Elected officials delivered a letter to hospital leadership demanding an end to any collaboration with federal immigration agents."
  },
- "summary": "Community members, advocates, and rapid response groups gathered outside Adventist Health White Memorial Hospital in Boyle Heights, Los Angeles, following reports of federal immigration enforcement activity. According to officials, Immigration and Customs Enforcement agents had brought a detainee to the hospital's emergency department for medical treatment late Friday. Protesters and advocates rallied against the ICE presence after agents allegedly blocked the facility's ambulance entrance and detained two individuals, whom rapid response groups identified as U.S. citizens. The demonstration drew sharp condemnation from local leaders, including Mayor Karen Bass, Mayor-elect Nithya Raman, state Senator María Elena Durazo, and Councilmember Ysabel Jurado, who criticized the federal presence at a healthcare facility. On Saturday, hundreds marched from Mariachi Plaza to the hospital to demand answers from hospital leadership regarding their protocols. First Assistant U.S. Attorney Bill Essayli stated that ICE agents were securing medical treatment for a detainee when agitators harassed them, resulting in the arrest of two individuals for allegedly assaulting federal agents.",
+ "summary": "Following reports that federal immigration agents blocked an ambulance entrance at Adventist Health White Memorial in Boyle Heights, community members and advocates held a protest on November 7, 2026. The demonstration, which included a march from Mariachi Plaza, featured participation from Mayor-elect Nithya Raman and state Sen. María Elena Durazo. Protesters demanded that the hospital cease any cooperation with ICE and protect patient privacy. Hospital officials stated that agents had brought a detainee for medical care but denied authorizing the blockage of the ambulance bay, which forced a two-hour diversion of emergency traffic. Federal authorities claimed the agents were present for medical treatment and alleged that protesters assaulted officers. Two individuals were detained by federal agents during the incident. Local leaders have since requested a formal review of hospital protocols regarding federal immigration enforcement.",
  "organizers": [
   "Boyle Heights Immigrant Rights Network",
   "Proyecto Pastoral"
  ],
  "demands": [
-  "Stop immigration enforcement in and around health care facilities",
-  "Demand answers from hospital leadership regarding ICE cooperation",
-  "Remove ICE agents from the hospital"
+  "End immigration enforcement at healthcare facilities",
+  "Disclose agreements between hospital and ICE",
+  "Strengthen protections for immigrant patients",
+  "End voluntary medical service contracts with ICE"
  ],
- "response": "First Assistant U.S. Attorney Bill Essayli stated that agents were securing medical treatment for a detainee when agitators created a dangerous situation and two individuals were arrested for assaulting federal agents. The LAPD responded to maintain public safety.",
+ "response": "First Assistant U.S. Atty. Bill Essayli stated that agents were at the hospital to obtain medical treatment for a detainee and alleged that agitators assaulted federal agents. The LAPD stated they responded to maintain public safety and did not assist in immigration enforcement.",
  "numbers": {
   "crowd": {
-   "value": 100,
-   "text": "hundreds of demonstrators marched",
+   "value": 30,
+   "text": "The LAPD reported that about 30 protesters had entered the area.",
    "sources": [
-    5
+    4
    ]
   },
   "arrests": {
    "value": 2,
-   "text": "detained at least two people",
+   "text": "Federal immigration officers detained two people.",
    "sources": [
     1,
-    2
+    4,
+    5,
+    8
    ]
   },
   "injuries": {
    "value": 1,
-   "text": "a teenage girl receiving assistance after she was pepper-sprayed",
+   "text": "A teenage girl received assistance after being pepper-sprayed.",
    "sources": [
-    4
+    3
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-06",
-   "text": "Federal immigration agents arrived at Adventist Health White Memorial Hospital with a person in custody, sparking an initial gathering.",
+   "text": "ICE agents arrive at Adventist Health White Memorial with a detainee, leading to a standoff and ambulance diversion.",
    "sources": [
     1,
-    6
+    5,
+    7
    ]
   },
   {
    "at": "2026-11-07",
-   "text": "Rapid response groups reported that federal agents detained two U.S. citizens protesting outside the hospital.",
+   "text": "Community members and elected officials march to the hospital to protest the federal presence.",
    "sources": [
-    1
-   ]
-  },
-  {
-   "at": "2026-11-07",
-   "text": "Hundreds of demonstrators marched from Mariachi Plaza to the hospital alongside elected officials and community advocates.",
-   "sources": [
+    2,
     3,
-    5
+    4
+   ]
+  },
+  {
+   "at": "2026-11-07",
+   "text": "Elected officials deliver a letter to hospital leadership demanding an end to collaboration with ICE.",
+   "sources": [
+    5,
+    8
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://laist.com/news/politics/ice-detains-two-u-s-citizens-protesting-outside-white-memorial-hospital-rapid-response-groups-say",
-   "publisher": "laist.com",
-   "title": "ICE detains two US citizens protesting outside White Memorial Hospital, rapid response groups say",
-   "publishedAt": "2026-11-07T18:59:41.465Z"
-  },
-  {
-   "n": 2,
    "url": "https://www.latimes.com/entertainment-arts/story/2026-11-07/two-detained-during-anti-ice-protest-at-boyle-heights-hospital",
    "publisher": "latimes.com",
    "title": "Two detained during anti-ICE protest at White Memorial Hospital in Boyle Heights: reports say",
    "publishedAt": "2026-11-07T22:14:12.997Z"
   },
   {
-   "n": 3,
+   "n": 2,
    "url": "https://mynewsla.com/business/2026/11/07/crowd-protests-ice-presence-at-boyle-heights-hospital/",
    "publisher": "mynewsla.com",
    "title": "Crowd Protests ICE Presence at Boyle Heights Hospital - MyNewsLA.com",
    "publishedAt": "2026-11-07T23:30:31.000Z"
   },
   {
-   "n": 4,
+   "n": 3,
    "url": "https://abc7.com/post/ice-presence-outside-boyle-heights-hospital-prompts-protest/20023368/",
    "publisher": "abc7.com",
    "title": "Protest erupts at Boyle Heights hospital after ICE transports patient, blocks ambulance entrance",
    "publishedAt": "2026-11-08T04:11:00.000Z"
   },
   {
-   "n": 5,
+   "n": 4,
    "url": "https://www.hindustantimes.com/world-news/us-news/two-detained-after-anti-ice-protest-outside-los-angeles-hospital-as-nithya-raman-condemn-federal-operation-101794115993256.html",
    "publisher": "hindustantimes.com",
    "title": "Two detained after anti-ICE protest outside Los Angeles hospital; Nithya Raman condemns federal operation",
    "publishedAt": "2026-11-08T07:34:27.000Z"
   },
   {
-   "n": 6,
+   "n": 5,
    "url": "https://econotimes.com/Los-Angeles-Hospital-Says-Federal-Agents-Blocked-Ambulance-Access-1773118",
    "publisher": "econotimes.com",
    "title": "Los Angeles Hospital Says Federal Agents Blocked Ambulance Access | EconoTimes",
    "publishedAt": "2026-11-08T07:51:25.000Z"
   },
   {
-   "n": 7,
+   "n": 6,
    "url": "https://nypost.com/2026/11/08/opinion/mayor-elect-raman-puts-anti-ice-protests-ahead-of-the-city/",
    "publisher": "nypost.com",
    "title": "Nithya Raman was elected to fix LA. Her first move should infuriate voters",
    "publishedAt": "2026-11-09T01:03:08.000Z"
+  },
+  {
+   "n": 7,
+   "url": "https://92q.com/5919785/ice-blocks-hospital-entrance-los-angeles/",
+   "publisher": "92q.com",
+   "title": "Protests In LA After ICE Blocks Entrance To Hospital",
+   "publishedAt": "2026-11-10T16:27:22.000Z"
+  },
+  {
+   "n": 8,
+   "url": "https://laist.com/news/politics/whats-in-the-letter-la-leaders-delivered-to-white-memorial-after-ice-activity",
+   "publisher": "laist.com",
+   "title": "What’s in the letter LA leaders delivered to White Memorial after ICE activity?",
+   "publishedAt": "2026-11-10T17:29:54.309Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
- "publishers": 7,
- "reports24h": 0,
- "reportsPrev24h": 1,
- "reports48h": 1,
+ "conflicts": [
+  "Federal officials claimed protesters assaulted agents; protesters and advocates described the event as a peaceful rally against ICE presence.",
+  "The LAPD reported about 30 protesters, while other reports described the crowd as 'hundreds'."
+ ],
+ "confidence": 0.8,
+ "publishers": 8,
+ "reports24h": 2,
+ "reportsPrev24h": 0,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-07T23:09:20.077Z",
- "lastReportAt": "2026-11-09T01:03:08.000Z",
- "lastCheckedAt": "2026-11-10T22:02:17.877Z",
- "updatedAt": "2026-11-09T01:54:54.342Z",
+ "lastReportAt": "2026-11-10T17:29:54.309Z",
+ "lastCheckedAt": "2026-11-11T01:55:47.335Z",
+ "updatedAt": "2026-11-11T01:54:49.094Z",
  "responseSources": [
   1,
-  2,
   3,
   4,
-  5,
-  6
+  5
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-09T01:54:54.342Z",
- "summaryOf": "9543c31d82a6",
+ "summarizedAt": "2026-11-11T01:54:49.094Z",
+ "summaryOf": "af9c85bcab79",
  "publishedAt": "2026-11-07T23:12:42.182Z",
  "i18n": {
-  "of": "c9c4ed5041a78907",
-  "at": "2026-11-09T01:56:31.342Z",
+  "of": "6607aa4a75841e98",
+  "at": "2026-11-11T01:57:45.032Z",
   "tries": 1,
   "hi": {
-   "title": "बॉयल हाइट्स अस्पताल में आईसीई एजेंटों के खिलाफ लॉस एंजिल्स में प्रदर्शनकारियों की रैली",
-   "seoTitle": "अस्पताल में आईसीई के खिलाफ लॉस एंजिल्स में प्रदर्शन",
+   "title": "लॉस एंजिल्स में बॉयल हाइट्स अस्पताल में ICE एजेंटों के खिलाफ प्रदर्शन",
+   "seoTitle": "लॉस एंजिल्स में अस्पताल में ICE के खिलाफ प्रदर्शन",
    "tea": {
-    "why": "संघीय आव्रजन एजेंटों द्वारा बॉयल हाइट्स के एक अस्पताल में एक बंदी को लाए जाने और एम्बुलेंस के प्रवेश द्वार को अवरुद्ध करने के बाद प्रदर्शनकारी एकत्र हुए।",
-    "want": "प्रदर्शनकारियों ने मांग की कि संघीय आव्रजन एजेंट अस्पताल छोड़ दें और आईसीई के साथ सहयोग को लेकर अस्पताल के नेतृत्व से सवाल किए।",
-    "changed": "7 नवंबर: पहले की गई हिरासत के बाद, सैकड़ों प्रदर्शनकारी मारियाची प्लाजा से अस्पताल तक मार्चे पर निकले, जिसमें निर्वाचित अधिकारी भी शामिल हुए।"
+    "why": "प्रदर्शनकारी एडवेंटिस्ट हेल्थ व्हाइट मेमोरियल अस्पताल में संघीय आव्रजन एजेंटों की उपस्थिति का विरोध करने के लिए एकत्र हुए।",
+    "want": "उन्होंने स्वास्थ्य सुविधाओं पर ICE के संचालन को समाप्त करने और एजेंटों के साथ सहयोग के संबंध में अस्पताल के नेतृत्व से जवाबदेही की मांग की।",
+    "changed": "7 नवंबर: निर्वाचित अधिकारियों ने अस्पताल के नेतृत्व को एक पत्र सौंपा जिसमें संघीय आव्रजन एजेंटों के साथ किसी भी सहयोग को समाप्त करने की मांग की गई।"
    },
-   "summary": "संघीय आव्रजन प्रवर्तन गतिविधि की रिपोर्टों के बाद, बॉयल हाइट्स, लॉस एंजिल्स में एडवेंटिस्ट हेल्थ व्हाइट मेमोरियल अस्पताल के बाहर समुदाय के सदस्य, अधिवक्ता और त्वरित प्रतिक्रिया समूह एकत्र हुए। अधिकारियों के अनुसार, आव्रजन और सीमा शुल्क प्रवर्तन (आईसीई) के एजेंटों ने शुक्रवार देर रात एक बंदी को चिकित्सा उपचार के लिए अस्पताल के आपातकालीन विभाग में पहुंचाया था। एजेंटों द्वारा कथित तौर पर सुविधा के एम्बुलेंस प्रवेश द्वार को अवरुद्ध करने और दो व्यक्तियों को हिरासत में लेने के बाद, प्रदर्शनकारियों और अधिवक्ताओं ने आईसीई की उपस्थिति के खिलाफ रैली निकाली; त्वरित प्रतिक्रिया समूहों ने इन दो व्यक्तियों की पहचान अमेरिकी नागरिकों के रूप में की। इस प्रदर्शन की स्थानीय नेताओं द्वारा कड़ी निंदा की गई, जिनमें मेयर करेन बास, नवनिर्वाचित मेयर निथ्या रमन, राज्य सीनेटर मारिया एलेना दुराजो और काउंसिल मेंबर इसाबेल जुराडो शामिल हैं, जिन्होंने स्वास्थ्य सुविधा में संघीय उपस्थिति की आलोचना की। शनिवार को, अस्पताल के नेतृत्व से उनके प्रोटोकॉल के बारे में जवाब मांगने के लिए सैकड़ों लोगों ने मारियाची प्लाजा से अस्पताल तक मार्च किया। अमेरिकी के प्रथम सहायक अटॉर्नी बिल एस्सेली ने कहा कि आईसीई एजेंट एक बंदी के लिए चिकित्सा उपचार सुरक्षित कर रहे थे जब आंदोलनकारियों ने उन्हें परेशान किया, जिसके परिणामस्वरूप संघीय एजेंटों पर कथित हमले के लिए दो व्यक्तियों को गिरफ्तार किया गया।",
+   "summary": "बॉयल हाइट्स में एडवेंटिस्ट हेल्थ व्हाइट मेमोरियल में संघीय आव्रजन एजेंटों द्वारा एम्बुलेंस प्रवेश द्वार को अवरुद्ध करने की खबरों के बाद, सामुदायिक सदस्यों और समर्थकों ने 7 नवंबर, 2026 को एक विरोध प्रदर्शन किया। मारियाची प्लाजा से मार्च सहित इस प्रदर्शन में मेयर-इलेक्ट नित्या रमन और राज्य सीनेटर मारिया एलेना दुराज़ो ने भाग लिया। प्रदर्शनकारियों ने मांग की कि अस्पताल ICE के साथ कोई भी सहयोग बंद करे और रोगी की गोपनीयता की रक्षा करे। अस्पताल के अधिकारियों ने कहा कि एजेंट एक बंदी को चिकित्सा देखभाल के लिए लाए थे, लेकिन एम्बुलेंस बे को अवरुद्ध करने के लिए अधिकृत करने से इनकार किया, जिसके कारण आपातकालीन यातायात को दो घंटे के लिए मोड़ना पड़ा। संघीय अधिकारियों ने दावा किया कि एजेंट चिकित्सा उपचार के लिए उपस्थित थे और आरोप लगाया कि प्रदर्शनकारियों ने अधिकारियों पर हमला किया। घटना के दौरान संघीय एजेंटों द्वारा दो व्यक्तियों को हिरासत में लिया गया। स्थानीय नेताओं ने तब से संघीय आव्रजन प्रवर्तन के संबंध में अस्पताल के प्रोटोकॉल की औपचारिक समीक्षा का अनुरोध किया है।",
    "demands": [
-    "स्वास्थ्य देखभाल सुविधाओं के अंदर और आसपास आव्रजन प्रवर्तन बंद करें",
-    "आईसीई सहयोग के संबंध में अस्पताल के नेतृत्व से जवाब मांगें",
-    "अस्पताल से आईसीई एजेंटों को हटाएं"
+    "स्वास्थ्य सुविधाओं पर आव्रजन प्रवर्तन समाप्त करें",
+    "अस्पताल और ICE के बीच समझौतों का खुलासा करें",
+    "आप्रवासी रोगियों के लिए सुरक्षा मजबूत करें",
+    "ICE के साथ स्वैच्छिक चिकित्सा सेवा अनुबंध समाप्त करें"
    ],
-   "response": "अमेरिकी के प्रथम सहायक अटॉर्नी बिल एस्सेली ने कहा कि एजेंट एक बंदी के लिए चिकित्सा उपचार सुरक्षित कर रहे थे जब आंदोलनकारियों ने एक खतरनाक स्थिति पैदा कर दी और संघीय एजेंटों पर हमला करने के आरोप में दो व्यक्तियों को गिरफ्तार किया गया। सार्वजनिक सुरक्षा बनाए रखने के लिए एलएपीडी ने प्रतिक्रिया दी।",
+   "response": "प्रथम सहायक अमेरिकी अटॉर्नी बिल एसेली ने कहा कि एजेंट एक बंदी के लिए चिकित्सा उपचार प्राप्त करने के लिए अस्पताल में थे और आरोप लगाया कि आंदोलनकारियों ने संघीय एजेंटों पर हमला किया। LAPD ने कहा कि उन्होंने सार्वजनिक सुरक्षा बनाए रखने के लिए प्रतिक्रिया दी और आव्रजन प्रवर्तन में सहायता नहीं की।",
    "updates": [
-    "संघीय आव्रजन एजेंट हिरासत में एक व्यक्ति के साथ एडवेंटिस्ट हेल्थ व्हाइट मेमोरियल अस्पताल पहुंचे, जिससे शुरुआती भीड़ जमा हो गई।",
-    "त्वरित प्रतिक्रिया समूहों ने बताया कि संघीय एजेंटों ने अस्पताल के बाहर प्रदर्शन कर रहे दो अमेरिकी नागरिकों को हिरासत में ले लिया।",
-    "सैकड़ों प्रदर्शनकारियों ने निर्वाचित अधिकारियों और सामुदायिक अधिवक्ताओं के साथ मारियाची प्लाजा से अस्पताल तक मार्च किया।"
+    "ICE एजेंट एक बंदी के साथ एडवेंटिस्ट हेल्थ व्हाइट मेमोरियल पहुंचे, जिससे गतिरोध और एम्बुलेंस डायवर्जन हुआ।",
+    "सामुदायिक सदस्यों और निर्वाचित अधिकारियों ने संघीय उपस्थिति का विरोध करने के लिए अस्पताल तक मार्च किया।",
+    "निर्वाचित अधिकारियों ने अस्पताल के नेतृत्व को ICE के साथ सहयोग समाप्त करने की मांग वाला पत्र सौंपा।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "संघीय अधिकारियों ने दावा किया कि प्रदर्शनकारियों ने एजेंटों पर हमला किया; प्रदर्शनकारियों और समर्थकों ने घटना को ICE की उपस्थिति के खिलाफ एक शांतिपूर्ण रैली बताया।",
+    "LAPD ने लगभग 30 प्रदर्शनकारियों की सूचना दी, जबकि अन्य रिपोर्टों ने भीड़ को 'सैकड़ों' बताया।"
+   ],
    "numbers": {
-    "crowd": "सैकड़ों प्रदर्शनकारियों ने मार्च किया",
-    "arrests": "कम से कम दो लोगों को हिरासत में लिया गया",
-    "injuries": "एक किशोर लड़की जिसे काली मिर्च स्प्रे किए जाने के बाद सहायता मिल रही थी"
+    "crowd": "LAPD ने बताया कि लगभग 30 प्रदर्शनकारी क्षेत्र में प्रवेश कर चुके थे।",
+    "arrests": "संघीय आव्रजन अधिकारियों ने दो लोगों को हिरासत में लिया।",
+    "injuries": "एक किशोरी को पेपर-स्प्रे किए जाने के बाद सहायता मिली।"
    }
   },
   "mr": {
-   "title": "बॉयेल हाइट्स रुग्णालयात ICE एजंटविरोधात लॉस एंजेलिसमध्ये निदर्शक एकत्र आले",
-   "seoTitle": "लॉस एंजेलिसमध्ये रुग्णालयातील ICE विरोधात आंदोलन",
+   "title": "लॉस एंजिल्समध्ये बॉयल हाइट्स रुग्णालयात ICE एजंटविरोधात निदर्शने",
+   "seoTitle": "लॉस एंजिल्समध्ये रुग्णालयात ICE विरोधात निदर्शने",
    "tea": {
-    "why": "संघीय इमिग्रेशन एजंट्सनी बॉयेल हाइट्स रुग्णालयात एका कैद्याला आणल्यानंतर आणि रुग्णवाहिकेचा रस्ता अडवल्यानंतर निदर्शक एकत्र आले.",
-    "want": "संघीय इमिग्रेशन एजंट्सनी रुग्णालय सोडावे अशी निदर्शकांनी मागणी केली आणि ICE सोबतच्या सहकार्याबद्दल रुग्णालयाच्या नेतृत्वाला जाब विचारला.",
-    "changed": "7 नोव्हेंबर: आधीच्या अटकेनंतर, शेकडो निदर्शक मारियाची प्लाझा ते रुग्णालयापर्यंत मार्च करत गेले, ज्यात निर्वाचित अधिकारीही सामील झाले होते."
+    "why": "एडव्हेंटिस्ट हेल्थ व्हाईट मेमोरियल रुग्णालयात फेडरल इमिग्रेशन एजंट्सच्या उपस्थितीला विरोध करण्यासाठी निदर्शक एकत्र आले होते.",
+    "want": "त्यांनी आरोग्य सुविधांमधील ICE चे कामकाज थांबवण्याची आणि एजंट्ससोबतच्या सहकार्याबाबत रुग्णालय नेतृत्वाकडून उत्तरदायित्वाची मागणी केली.",
+    "changed": "७ नोव्हेंबर: निवडून आलेल्या अधिकाऱ्यांनी रुग्णालय नेतृत्वाला पत्र देऊन फेडरल इमिग्रेशन एजंट्ससोबतचे कोणतेही सहकार्य थांबवण्याची मागणी केली."
    },
-   "summary": "संघीय इमिग्रेशन अंमलबजावणीच्या अहवालानंतर, लॉस एंजेलिसमधील बॉयेल हाइट्स येथील एडव्हेंटिस्ट हेल्थ व्हाईट मेमोरियल रुग्णालयाबाहेर समुदाय सदस्य, समर्थक आणि त्वरित प्रतिसाद गट एकत्र आले. अधिकाऱ्यांच्या मते, इमिग्रेशन अँड कस्टम्स एन्फोर्समेंट (ICE) च्या एजंट्सनी शुक्रवारी उशिरा एका कैद्याला वैद्यकीय उपचारांसाठी रुग्णालयाच्या आपत्कालीन विभागात आणले होते. एजंट्सनी कथितपणे सुविधेचा रुग्णवाहिका प्रवेशद्वार अडवल्यानंतर आणि दोन व्यक्तींना ताब्यात घेतल्यानंतर निदर्शक आणि समर्थकांनी ICE च्या उपस्थितीविरुद्ध निदर्शने केली; त्वरित प्रतिसाद गटांनी या दोन व्यक्तींची ओळख अमेरिकन नागरिक म्हणून पटवली. या निदर्शनांवर स्थानिक नेत्यांनी तीव्र नाराजी व्यक्त केली, ज्यामध्ये मेयर कॅरेन बास, नवनिर्वाचित मेयर निथ्या रमण, राज्य सेनेटर मारिया एलेना दुराजो आणि कौन्सिल मेंबर इसाबेल जुराडो यांचा समावेश आहे, ज्यांनी आरोग्य सुविधेतील संघीय उपस्थितीवर टीका केली. शनिवारी, रुग्णालयाच्या नेतृत्वाला त्यांच्या प्रोटोकॉलबद्दल उत्तरे मागण्यासाठी शेकडो लोकांनी मारियाची प्लाझा ते रुग्णालयापर्यंत मार्च काढला. युनायटेड स्टेट्सचे पहिले सहाय्यक वकील बिल एसेली यांनी सांगितले की, ICE एजंट एका कैद्यासाठी वैद्यकीय उपचार सुरक्षित करत असताना आंदोलकांनी त्यांना त्रास दिला, ज्यामुळे संघीय एजंट्सवर कथित हल्ल्याप्रकरणी दोन व्यक्तींना अटक करण्यात आली.",
+   "summary": "बॉयल हाइट्समधील एडव्हेंटिस्ट हेल्थ व्हाईट मेमोरियल येथे फेडरल इमिग्रेशन एजंट्सनी रुग्णवाहिकेचा मार्ग अडवल्याच्या वृत्तानंतर, ७ नोव्हेंबर २०२६ रोजी समुदाय सदस्य आणि समर्थकांनी निदर्शने केली. मारियाची प्लाझापासून काढलेल्या मोर्चात मेयर-इलेक्ट नित्या रमन आणि राज्य सीनेटर मारिया एलेना दुराझो सहभागी झाले होते. निदर्शकांनी मागणी केली की रुग्णालयाने ICE सोबतचे सहकार्य थांबवावे आणि रुग्णांच्या गोपनीयतेचे रक्षण करावे. रुग्णालय अधिकाऱ्यांनी सांगितले की एजंट एका कैद्याला वैद्यकीय उपचारांसाठी घेऊन आले होते, परंतु रुग्णवाहिकेचा मार्ग अडवण्यास अधिकृत परवानगी दिल्याचे नाकारले, ज्यामुळे आपत्कालीन वाहतूक दोन तास वळवावी लागली. फेडरल अधिकाऱ्यांनी दावा केला की एजंट वैद्यकीय उपचारांसाठी उपस्थित होते आणि आरोप केला की निदर्शकांनी अधिकाऱ्यांवर हल्ला केला. या घटनेदरम्यान फेडरल एजंट्सनी दोन व्यक्तींना ताब्यात घेतले. स्थानिक नेत्यांनी फेडरल इमिग्रेशन अंमलबजावणीबाबत रुग्णालयाच्या प्रोटोकॉलची औपचारिक पुनरावलोकनाची मागणी केली आहे.",
    "demands": [
-    "आरोग्य सेवा सुविधांच्या आत आणि आजूबाजूला इमिग्रेशन अंमलबजावणी थांबवा",
-    "ICE सहकार्याबाबत रुग्णालयाच्या नेतृत्वाला जाब विचार",
-    "रुग्णालयातून ICE एजंट्सना काढून टाका"
+    "आरोग्य सुविधांमधील इमिग्रेशन अंमलबजावणी थांबवा",
+    "रुग्णालय आणि ICE मधील करारांचा खुलासा करा",
+    "आप्रवासी रुग्णांसाठी सुरक्षा मजबूत करा",
+    "ICE सोबतचे ऐच्छिक वैद्यकीय सेवा करार संपवा"
    ],
-   "response": "युनायटेड स्टेट्सचे पहिले सहाय्यक वकील बिल एसेली यांनी सांगितले की, एजंट एका कैद्यासाठी वैद्यकीय उपचार सुरक्षित करत असताना आंदोलकांनी धोकादायक परिस्थिती निर्माण केली आणि संघीय एजंट्सवर हल्ला केल्याप्रकरणी दोन व्यक्तींना अटक करण्यात आली. सार्वजनिक सुरक्षा राखण्यासाठी LAPD ने कारवाई केली.",
+   "response": "प्रथम सहाय्यक अमेरिकन ॲटर्नी बिल एसेली यांनी सांगितले की एजंट एका कैद्यावर वैद्यकीय उपचार मिळवण्यासाठी रुग्णालयात होते आणि आरोप केला की आंदोलकांनी फेडरल एजंट्सवर हल्ला केला. LAPD ने सांगितले की त्यांनी सार्वजनिक सुरक्षा राखण्यासाठी प्रतिसाद दिला आणि इमिग्रेशन अंमलबजावणीमध्ये मदत केली नाही.",
    "updates": [
-    "संघीय इमिग्रेशन एजंट्स एका व्यक्तीला ताब्यात घेऊन एडव्हेंटिस्ट हेल्थ व्हाईट मेमोरियल रुग्णालयात पोहोचले, ज्यामुळे सुरुवातीला गर्दी जमा झाली.",
-    "त्वरित प्रतिसाद गटांनी वृत्त दिले की संघीय एजंट्सनी रुग्णालयाबाहेर निदर्शने करत असलेल्या दोन अमेरिकन नागरिकांना ताब्यात घेतले.",
-    "शेकडो निदर्शकांनी निर्वाचित अधिकारी आणि समुदाय समर्थकांसह मारियाची प्लाझा ते रुग्णालयापर्यंत मार्च काढला."
+    "ICE एजंट एका कैद्यासह एडव्हेंटिस्ट हेल्थ व्हाईट मेमोरियलमध्ये पोहोचले, ज्यामुळे तणाव निर्माण झाला आणि रुग्णवाहिका वळवावी लागली.",
+    "समुदाय सदस्य आणि निवडून आलेले अधिकारी फेडरल उपस्थितीचा निषेध करण्यासाठी रुग्णालयाकडे मोर्चा काढतात.",
+    "निवडून आलेले अधिकारी रुग्णालय नेतृत्वाला ICE सोबतचे सहकार्य थांबवण्याची मागणी करणारे पत्र देतात."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "फेडरल अधिकाऱ्यांनी दावा केला की निदर्शकांनी एजंट्सवर हल्ला केला; निदर्शक आणि समर्थकांनी या घटनेचे वर्णन ICE च्या उपस्थितीविरुद्ध शांततापूर्ण रॅली म्हणून केले.",
+    "LAPD ने सुमारे ३० निदर्शकांची नोंद केली, तर इतर अहवालांनी गर्दीचे वर्णन 'शेकडो' असे केले."
+   ],
    "numbers": {
-    "crowd": "शेकडो निदर्शकांनी मार्च केला",
-    "arrests": "किमान दोन जणांना ताब्यात घेतले",
-    "injuries": "पेपर स्प्रे मारल्यानंतर मदत मिळणारी एक तरुण मुलगी"
+    "crowd": "LAPD ने नोंदवले की सुमारे ३० निदर्शक परिसरात दाखल झाले होते.",
+    "arrests": "फेडरल इमिग्रेशन अधिकाऱ्यांनी दोन लोकांना ताब्यात घेतले.",
+    "injuries": "एका किशोरवयीन मुलीला पेपर-स्प्रेचा फवारा मारल्यानंतर मदत मिळाली."
    }
   },
   "es": {
-   "title": "Manifestantes se concentran en Los Ángeles contra agentes de ICE en hospital de Boyle Heights",
+   "title": "Manifestantes se reúnen en Los Ángeles contra agentes de ICE en hospital de Boyle Heights",
    "seoTitle": "Protesta en Los Ángeles contra ICE en hospital",
    "tea": {
-    "why": "Los manifestantes se reunieron después de que agentes federales de inmigración llevaran a un detenido a un hospital de Boyle Heights y bloquearan la entrada de una ambulancia.",
-    "want": "Los manifestantes exigieron que los agentes federales de inmigración abandonaran el hospital y cuestionaron a los líderes del hospital sobre su cooperación con ICE.",
-    "changed": "7 de noviembre: Cientos de manifestantes marcharon desde la Plaza Mariachi hasta el hospital, acompañados por funcionarios electos, tras detenciones previas."
+    "why": "Los manifestantes se reunieron para oponerse a la presencia de agentes federales de inmigración en el hospital Adventist Health White Memorial.",
+    "want": "Exigieron el fin de las operaciones de ICE en centros de salud y rendición de cuentas por parte del liderazgo del hospital respecto a la colaboración con los agentes.",
+    "changed": "7 de noviembre: Funcionarios electos entregaron una carta al liderazgo del hospital exigiendo el fin de cualquier colaboración con agentes federales de inmigración."
    },
-   "summary": "Miembros de la comunidad, defensores y grupos de respuesta rápida se congregaron frente al Hospital Adventist Health White Memorial en Boyle Heights, Los Ángeles, tras informes de actividad federal de control migratorio. Según los funcionarios, agentes de Inmigración y Control de Aduanas habían llevado a un detenido al departamento de emergencias del hospital para recibir tratamiento médico el viernes por la noche. Manifestantes y defensores protestaron contra la presencia de ICE después de que los agentes supuestamente bloquearan la entrada de ambulancias de las instalaciones y detuvieran a dos personas, a quienes los grupos de respuesta rápida identificaron como ciudadanos estadounidenses. La manifestación generó duras críticas por parte de líderes locales, incluida la alcaldesa Karen Bass, la alcaldesa electa Nithya Raman, la senadora estatal María Elena Durazo y la concejala Ysabel Jurado, quienes criticaron la presencia federal en un centro de salud. El sábado, cientos marcharon desde la Plaza Mariachi hasta el hospital para exigir respuestas a los líderes del hospital sobre sus protocolos. El primer fiscal federal adjunto Bill Essayli declaró que los agentes de ICE estaban asegurando tratamiento médico para un detenido cuando los agitadores los acosaron, lo que resultó en el arresto de dos personas por supuestamente agredir a agentes federales.",
+   "summary": "Tras los informes de que agentes federales de inmigración bloquearon una entrada de ambulancias en el Adventist Health White Memorial en Boyle Heights, miembros de la comunidad y defensores realizaron una protesta el 7 de noviembre de 2026. La manifestación, que incluyó una marcha desde Mariachi Plaza, contó con la participación de la alcaldesa electa Nithya Raman y la senadora estatal María Elena Durazo. Los manifestantes exigieron que el hospital cese cualquier cooperación con ICE y proteja la privacidad de los pacientes. Los funcionarios del hospital declararon que los agentes habían traído a un detenido para recibir atención médica, pero negaron haber autorizado el bloqueo de la bahía de ambulancias, lo que obligó a una desviación de dos horas del tráfico de emergencia. Las autoridades federales afirmaron que los agentes estaban presentes para recibir tratamiento médico y alegaron que los manifestantes agredieron a los oficiales. Dos personas fueron detenidas por agentes federales durante el incidente. Los líderes locales han solicitado desde entonces una revisión formal de los protocolos del hospital respecto a la aplicación de la ley federal de inmigración.",
    "demands": [
-    "Detener la aplicación de las leyes de inmigración dentro y alrededor de las instalaciones de atención médica",
-    "Exigir respuestas a los líderes del hospital sobre la cooperación con ICE",
-    "Retirar a los agentes de ICE del hospital"
+    "Terminar con la aplicación de leyes de inmigración en centros de salud",
+    "Revelar los acuerdos entre el hospital y ICE",
+    "Fortalecer las protecciones para pacientes inmigrantes",
+    "Terminar los contratos voluntarios de servicios médicos con ICE"
    ],
-   "response": "El primer fiscal federal adjunto Bill Essayli declaró que los agentes estaban asegurando tratamiento médico para un detenido cuando los agitadores crearon una situación peligrosa y dos personas fueron arrestadas por agredir a agentes federales. El Departamento de Policía de Los Ángeles (LAPD) respondió para mantener la seguridad pública.",
+   "response": "El primer asistente del fiscal de EE. UU., Bill Essayli, declaró que los agentes estaban en el hospital para obtener tratamiento médico para un detenido y alegó que los agitadores agredieron a los agentes federales. El LAPD declaró que respondieron para mantener la seguridad pública y no ayudaron en la aplicación de la ley de inmigración.",
    "updates": [
-    "Agentes federales de inmigración llegaron al Hospital Adventist Health White Memorial con una persona bajo custodia, lo que provocó una concentración inicial.",
-    "Grupos de respuesta rápida informaron que agentes federales detuvieron a dos ciudadanos estadounidenses que protestaban frente al hospital.",
-    "Cientos de manifestantes marcharon desde la Plaza Mariachi hasta el hospital junto con funcionarios electos y defensores comunitarios."
+    "Agentes de ICE llegan al Adventist Health White Memorial con un detenido, lo que lleva a un enfrentamiento y al desvío de ambulancias.",
+    "Miembros de la comunidad y funcionarios electos marchan al hospital para protestar contra la presencia federal.",
+    "Funcionarios electos entregan una carta al liderazgo del hospital exigiendo el fin de la colaboración con ICE."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Los funcionarios federales afirmaron que los manifestantes agredieron a los agentes; los manifestantes y defensores describieron el evento como una manifestación pacífica contra la presencia de ICE.",
+    "El LAPD informó de unos 30 manifestantes, mientras que otros informes describieron a la multitud como 'cientos'."
+   ],
    "numbers": {
-    "crowd": "cientos de manifestantes marcharon",
-    "arrests": "detuvieron al menos a dos personas",
-    "injuries": "una adolescente que recibió asistencia tras ser rociada con gas pimienta"
+    "crowd": "El LAPD informó que unos 30 manifestantes habían entrado en el área.",
+    "arrests": "Los oficiales federales de inmigración detuvieron a dos personas.",
+    "injuries": "Una adolescente recibió asistencia después de ser rociada con gas pimienta."
    }
   },
   "fr": {
-   "title": "Des manifestants se rassemblent à Los Angeles contre les agents de l'ICE dans un hôpital de Boyle Heights",
+   "title": "Manifestation à Los Angeles contre des agents de l'ICE dans un hôpital de Boyle Heights",
    "seoTitle": "Manifestation à Los Angeles contre l'ICE à l'hôpital",
    "tea": {
-    "why": "Des manifestants se sont rassemblés après que des agents fédéraux de l'immigration ont amené un détenu dans un hôpital de Boyle Heights et ont bloqué l'entrée d'une ambulance.",
-    "want": "Les manifestants ont exigé que les agents fédéraux de l'immigration quittent l'hôpital et ont interrogé la direction de l'hôpital concernant leur coopération avec l'ICE.",
-    "changed": "7 novembre : Des centaines de manifestants ont marché de la Plaza Mariachi jusqu'à l'hôpital, rejoints par des élus, à la suite de détentions survenues plus tôt."
+    "why": "Des manifestants se sont rassemblés pour s'opposer à la présence d'agents fédéraux de l'immigration à l'hôpital Adventist Health White Memorial.",
+    "want": "Ils ont exigé la fin des opérations de l'ICE dans les établissements de santé et une reddition de comptes de la part de la direction de l'hôpital concernant la collaboration avec les agents.",
+    "changed": "7 novembre : Des élus ont remis une lettre à la direction de l'hôpital exigeant la fin de toute collaboration avec les agents fédéraux de l'immigration."
    },
-   "summary": "Des membres de la communauté, des militants et des groupes d'intervention rapide se sont rassemblés devant l'hôpital Adventist Health White Memorial à Boyle Heights, Los Angeles, à la suite de signalements d'activités fédérales de contrôle de l'immigration. Selon des responsables, des agents de l'Immigration and Customs Enforcement (ICE) avaient amené un détenu au service des urgences de l'hôpital pour y recevoir des soins médicaux tard vendredi. Des manifestants et des militants ont protesté contre la présence de l'ICE après que des agents ont prétendument bloqué l'entrée des ambulances de l'établissement et détenu deux personnes, que les groupes d'intervention rapide ont identifiées comme des citoyens américains. La manifestation a suscité de vives condamnations de la part de dirigeants locaux, notamment la maire Karen Bass, la maire élue Nithya Raman, la sénatrice de l'État María Elena Durazo et la conseillère municipale Ysabel Jurado, qui ont critiqué la présence fédérale dans un établissement de santé. Samedi, des centaines de personnes ont marché de la Plaza Mariachi jusqu'à l'hôpital pour exiger des réponses de la direction de l'hôpital concernant leurs protocoles. Le premier procureur fédéral adjoint Bill Essayli a déclaré que les agents de l'ICE veillaient à ce qu'un détenu reçoive des soins médicaux lorsque des agitateurs les ont harcelés, ce qui a entraîné l'arrestation de deux personnes pour agression présumée contre des agents fédéraux.",
+   "summary": "Suite à des rapports indiquant que des agents fédéraux de l'immigration ont bloqué une entrée d'ambulance à l'Adventist Health White Memorial à Boyle Heights, des membres de la communauté et des défenseurs ont organisé une manifestation le 7 novembre 2026. La manifestation, qui comprenait une marche depuis Mariachi Plaza, a vu la participation de la maire élue Nithya Raman et de la sénatrice de l'État María Elena Durazo. Les manifestants ont exigé que l'hôpital cesse toute coopération avec l'ICE et protège la vie privée des patients. Les responsables de l'hôpital ont déclaré que les agents avaient amené un détenu pour des soins médicaux, mais ont nié avoir autorisé le blocage de la baie des ambulances, ce qui a forcé une déviation de deux heures du trafic d'urgence. Les autorités fédérales ont affirmé que les agents étaient présents pour un traitement médical et ont allégué que les manifestants avaient agressé des officiers. Deux personnes ont été détenues par des agents fédéraux lors de l'incident. Les dirigeants locaux ont depuis demandé un examen formel des protocoles de l'hôpital concernant l'application des lois fédérales sur l'immigration.",
    "demands": [
-    "Mettre fin au contrôle de l'immigration dans et autour des établissements de santé",
-    "Exiger des réponses de la direction de l'hôpital concernant la coopération avec l'ICE",
-    "Retirer les agents de l'ICE de l'hôpital"
+    "Mettre fin à l'application des lois sur l'immigration dans les établissements de santé",
+    "Divulguer les accords entre l'hôpital et l'ICE",
+    "Renforcer les protections pour les patients immigrés",
+    "Mettre fin aux contrats de services médicaux volontaires avec l'ICE"
    ],
-   "response": "Le premier procureur fédéral adjoint Bill Essayli a déclaré que les agents assuraient des soins médicaux à un détenu lorsque des agitateurs ont créé une situation dangereuse et que deux personnes ont été arrêtées pour agression contre des agents fédéraux. Le LAPD est intervenu pour maintenir la sécurité publique.",
+   "response": "Le premier assistant du procureur américain, Bill Essayli, a déclaré que les agents étaient à l'hôpital pour obtenir un traitement médical pour un détenu et a allégué que des agitateurs avaient agressé des agents fédéraux. Le LAPD a déclaré qu'ils étaient intervenus pour maintenir la sécurité publique et n'avaient pas aidé à l'application des lois sur l'immigration.",
    "updates": [
-    "Des agents fédéraux de l'immigration sont arrivés à l'hôpital Adventist Health White Memorial avec une personne en garde à vue, provoquant un premier rassemblement.",
-    "Des groupes d'intervention rapide ont signalé que des agents fédéraux avaient détenu deux citoyens américains qui manifestaient devant l'hôpital.",
-    "Des centaines de manifestants ont marché de la Plaza Mariachi jusqu'à l'hôpital aux côtés d'élus et de militants communautaires."
+    "Des agents de l'ICE arrivent à l'Adventist Health White Memorial avec un détenu, menant à un face-à-face et à la déviation des ambulances.",
+    "Des membres de la communauté et des élus marchent vers l'hôpital pour protester contre la présence fédérale.",
+    "Des élus remettent une lettre à la direction de l'hôpital exigeant la fin de la collaboration avec l'ICE."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Les responsables fédéraux ont affirmé que les manifestants avaient agressé des agents ; les manifestants et les défenseurs ont décrit l'événement comme un rassemblement pacifique contre la présence de l'ICE.",
+    "Le LAPD a fait état d'environ 30 manifestants, tandis que d'autres rapports ont décrit la foule comme étant composée de « centaines » de personnes."
+   ],
    "numbers": {
-    "crowd": "des centaines de manifestants ont marché",
-    "arrests": "au moins deux personnes ont été interpellées",
-    "injuries": "une adolescente recevant des soins après avoir été aspergée de gaz poivré"
+    "crowd": "Le LAPD a rapporté qu'environ 30 manifestants étaient entrés dans la zone.",
+    "arrests": "Les agents fédéraux de l'immigration ont détenu deux personnes.",
+    "injuries": "Une adolescente a reçu de l'aide après avoir été aspergée de gaz poivré."
    }
   },
   "de": {
-   "title": "Demonstranten versammeln sich in Los Angeles gegen ICE-Agenten an einem Krankenhaus in Boyle Heights",
-   "seoTitle": "Protest in Los Angeles gegen ICE am Krankenhaus",
+   "title": "Demonstranten in Los Angeles protestieren gegen ICE-Agenten in Krankenhaus in Boyle Heights",
+   "seoTitle": "Protest in Los Angeles gegen ICE im Krankenhaus",
    "tea": {
-    "why": "Demonstranten versammelten sich, nachdem Bundes-Einwanderungsagenten einen Häftling in ein Krankenhaus in Boyle Heights gebracht und einen Rettungswageneingang blockiert hatten.",
-    "want": "Demonstranten forderten, dass Bundes-Einwanderungsagenten das Krankenhaus verlassen, und stellten die Krankenhausleitung wegen der Zusammenarbeit mit ICE zur Rede.",
-    "changed": "7. November: Hunderte Demonstranten marschierten von der Mariachi Plaza zum Krankenhaus, begleitet von gewählten Amtsträgern, nach vorherigen Festnahmen."
+    "why": "Demonstranten versammelten sich, um gegen die Anwesenheit von föderalen Einwanderungsbehörden im Adventist Health White Memorial Krankenhaus zu protestieren.",
+    "want": "Sie forderten ein Ende der ICE-Operationen in Gesundheitseinrichtungen und Rechenschaftspflicht von der Krankenhausleitung bezüglich der Zusammenarbeit mit den Agenten.",
+    "changed": "7. November: Gewählte Amtsträger übergaben der Krankenhausleitung einen Brief, in dem sie ein Ende jeglicher Zusammenarbeit mit föderalen Einwanderungsbehörden forderten."
    },
-   "summary": "Gemeindemitglieder, Aktivisten und Schnellreaktionsgruppen versammelten sich vor dem Adventist Health White Memorial Hospital in Boyle Heights, Los Angeles, nach Berichten über Aktivitäten von Einwanderungsbehörden des Bundes. Beamten zufolge hatten Agenten der Einwanderungs- und Zollbehörde (ICE) am späten Freitag einen Häftling zur medizinischen Behandlung in die Notaufnahme des Krankenhauses gebracht. Demonstranten und Aktivisten protestierten gegen die ICE-Präsenz, nachdem Agenten angeblich den Rettungswageneingang der Einrichtung blockiert und zwei Personen festgenommen hatten, die von Schnellreaktionsgruppen als US-Bürger identifiziert wurden. Die Demonstration stieß auf scharfe Verurteilung durch lokale Führungspersönlichkeiten, darunter Bürgermeisterin Karen Bass, die gewählte Bürgermeisterin Nithya Raman, die Bundessenatorin María Elena Durazo und die Stadträtin Ysabel Jurado, die die Bundespräsenz in einer Gesundheitseinrichtung kritisierten. Am Samstag marschierten Hunderte von der Mariachi Plaza zum Krankenhaus, um von der Krankenhausleitung Antworten bezüglich deren Protokollen zu fordern. Der erste stellvertretende US-Staatsanwalt Bill Essayli erklärte, dass ICE-Agenten die medizinische Behandlung eines Häftlings absicherten, als Rädelsführer sie belästigten, was zur Festnahme von zwei Personen wegen des angeblichen Angriffs auf Bundesagenten führte.",
+   "summary": "Nach Berichten, dass föderale Einwanderungsbeamte einen Krankenwageneingang im Adventist Health White Memorial in Boyle Heights blockierten, hielten Gemeindemitglieder und Aktivisten am 7. November 2026 einen Protest ab. Die Demonstration, die einen Marsch von der Mariachi Plaza beinhaltete, wurde von der gewählten Bürgermeisterin Nithya Raman und der Senatorin des Bundesstaates María Elena Durazo unterstützt. Die Demonstranten forderten, dass das Krankenhaus jegliche Zusammenarbeit mit der ICE einstellt und die Privatsphäre der Patienten schützt. Krankenhausbeamte erklärten, dass Agenten einen Häftling zur medizinischen Versorgung gebracht hatten, bestritten jedoch, die Blockade der Krankenwagenbucht autorisiert zu haben, was eine zweistündige Umleitung des Notverkehrs erzwang. Föderale Behörden behaupteten, die Agenten seien zur medizinischen Behandlung anwesend gewesen und behaupteten, Demonstranten hätten Beamte angegriffen. Zwei Personen wurden während des Vorfalls von föderalen Agenten festgenommen. Lokale Führungskräfte haben seitdem eine formelle Überprüfung der Krankenhausprotokolle bezüglich der Durchsetzung der föderalen Einwanderungsgesetze gefordert.",
    "demands": [
-    "Einwanderungskontrollen in und um Gesundheitseinrichtungen stoppen",
-    "Antworten von der Krankenhausleitung zur ICE-Zusammenarbeit fordern",
-    "ICE-Agenten aus dem Krankenhaus entfernen"
+    "Beendigung der Einwanderungsdurchsetzung in Gesundheitseinrichtungen",
+    "Offenlegung der Vereinbarungen zwischen Krankenhaus und ICE",
+    "Stärkung des Schutzes für Einwanderer-Patienten",
+    "Beendigung freiwilliger medizinischer Dienstleistungsverträge mit der ICE"
    ],
-   "response": "Der erste stellvertretende US-Staatsanwalt Bill Essayli erklärte, dass Agenten die medizinische Behandlung eines Häftlings absicherten, als Rädelsführer eine gefährliche Situation schufen und zwei Personen wegen Angriffs auf Bundesagenten festgenommen wurden. Das LAPD reagierte zur Aufrechterhaltung der öffentlichen Sicherheit.",
+   "response": "Der erste stellvertretende US-Staatsanwalt Bill Essayli erklärte, dass Agenten im Krankenhaus waren, um eine medizinische Behandlung für einen Häftling zu erhalten, und behauptete, dass Agitatoren föderale Agenten angegriffen hätten. Das LAPD erklärte, sie hätten reagiert, um die öffentliche Sicherheit aufrechtzuerhalten, und nicht bei der Durchsetzung der Einwanderungsgesetze geholfen.",
    "updates": [
-    "Bundes-Einwanderungsagenten trafen mit einer Person in Gewahrsam im Adventist Health White Memorial Hospital ein, was eine erste Versammlung auslöste.",
-    "Schnellreaktionsgruppen berichteten, dass Bundesagenten zwei US-Bürger festnahmen, die vor dem Krankenhaus protestierten.",
-    "Hunderte Demonstranten marschierten zusammen mit gewählten Amtsträgern und Gemeindevertretern von der Mariachi Plaza zum Krankenhaus."
+    "ICE-Agenten kommen mit einem Häftling im Adventist Health White Memorial an, was zu einer Konfrontation und der Umleitung von Krankenwagen führt.",
+    "Gemeindemitglieder und gewählte Amtsträger marschieren zum Krankenhaus, um gegen die föderale Präsenz zu protestieren.",
+    "Gewählte Amtsträger übergeben der Krankenhausleitung einen Brief, in dem sie ein Ende der Zusammenarbeit mit der ICE fordern."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Föderale Beamte behaupteten, Demonstranten hätten Agenten angegriffen; Demonstranten und Aktivisten beschrieben das Ereignis als eine friedliche Kundgebung gegen die ICE-Präsenz.",
+    "Das LAPD berichtete von etwa 30 Demonstranten, während andere Berichte die Menge als 'Hunderte' beschrieben."
+   ],
    "numbers": {
-    "crowd": "hunderte Demonstranten marschierten",
-    "arrests": "mindestens zwei Personen festgenommen",
-    "injuries": "ein jugendliches Mädchen, das Hilfe erhielt, nachdem es mit Pfefferspray besprüht worden war"
+    "crowd": "Das LAPD berichtete, dass etwa 30 Demonstranten das Gebiet betreten hatten.",
+    "arrests": "Föderale Einwanderungsbeamte nahmen zwei Personen fest.",
+    "injuries": "Ein jugendliches Mädchen erhielt Hilfe, nachdem sie mit Pfefferspray besprüht wurde."
    }
   }
- }
+ },
+ "endedOn": "2026-11-07"
 }
