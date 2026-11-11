@@ -1,5 +1,5 @@
 import type { Article, Place, ProtestEvent } from './types.ts';
-import { nowIso, publisherOf, sha, titleSimilarity } from './util.ts';
+import { nowIso, publisherOf, sha, titleSimilarity, titleTokens, tokenSimilarity } from './util.ts';
 
 export function newEvent(label: string, place: Place, date: string, causes: string[], seed: string): ProtestEvent {
   const now = nowIso();
@@ -52,15 +52,18 @@ export const reportedAt = (a: Article) =>
  * (re-published wire copy is one report, not several).
  */
 export function independentGroups(articles: Article[]): Article[][] {
-  const groups: Article[][] = [];
-  for (const a of articles) {
-    const g = groups.find((grp) =>
-      grp.some((b) => publisherOf(b.url) === publisherOf(a.url) || titleSimilarity(b.title || '', a.title || '') >= 0.6),
-    );
-    if (g) g.push(a);
-    else groups.push([a]);
-  }
-  return groups;
+  // Each article's newsroom and headline words are worked out once: the comparison below is
+  // pairwise, and an event can hold 1,000+ articles (the French protest wave, Nov 2026), where
+  // recomputing them per pair took over a minute per call.
+  const pub = articles.map((a) => publisherOf(a.url));
+  const toks = articles.map((a) => titleTokens(a.title || ''));
+  const groups: number[][] = [];
+  articles.forEach((_, i) => {
+    const g = groups.find((grp) => grp.some((j) => pub[j] === pub[i] || tokenSimilarity(toks[j], toks[i]) >= 0.6));
+    if (g) g.push(i);
+    else groups.push([i]);
+  });
+  return groups.map((g) => g.map((i) => articles[i]));
 }
 
 /**

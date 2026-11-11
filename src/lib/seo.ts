@@ -58,6 +58,7 @@ export function eventJsonLd(raw: ProtestEvent, lang: Lang = 'en') {
   const event = {
     '@type': 'Event',
     '@id': `${url}#event`,
+    url, // Search Console flagged "Missing field url" on every event (Nov 2026)
     name: e.title,
     description: [e.tea.why, e.tea.want].filter(Boolean).join(' '),
     startDate: e.startedOn,

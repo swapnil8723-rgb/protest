@@ -30,6 +30,7 @@ test(`form validation (${host}): accepts a normal report, rejects bots and bad i
   assert.equal(validate({ ...form, website: 'http://spam' }, NOW).ok, false); // honeypot
   assert.equal(validate({ ...form, ms: 900 }, NOW).ok, false); // too fast for a person
   assert.equal(validate({ ...form, country: 'br' }, NOW).ok, false); // not tracked
+  for (const country of ['it', 'pt', 'nl', 'ca', 'au', 'ua', 'cn']) assert.equal(validate({ ...form, country }, NOW).ok, true, country); // every tracked country (was 11 until 11 Nov 2026)
   assert.equal(validate({ ...form, startedOn: '2026-08-01' }, NOW).ok, false); // > 30 days ago
   assert.equal(validate({ ...form, why: 'fees' }, NOW).ok, false);
   assert.equal(validate({ ...form, link: 'javascript:alert(1)' }, NOW).ok, false);

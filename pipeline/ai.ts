@@ -40,7 +40,9 @@ export function parseJson<T>(text: string): T {
   }
 }
 
-export function makeAi(state: State): Ai {
+/** `wait` is swappable so tests can run the retry paths without real delays. */
+export function makeAi(state: State, opts: { wait?: (ms: number) => Promise<void> } = {}): Ai {
+  const wait = opts.wait ?? sleep;
   const provider = (process.env.AI_PROVIDER || (process.env.GEMINI_API_KEY ? 'gemini' : process.env.ANTHROPIC_API_KEY ? 'anthropic' : 'replay')).toLowerCase();
   const today = new Date().toISOString().slice(0, 10);
   if (state.aiCalls.day !== today) state.aiCalls = { day: today, count: 0 };
@@ -62,7 +64,7 @@ export function makeAi(state: State): Ai {
   const pace = async (ms: number) => {
     const now = Date.now();
     lastCall = Math.max(now, lastCall + ms); // reserve a slot first: calls can wait side by side
-    if (lastCall > now) await sleep(lastCall - now);
+    if (lastCall > now) await wait(lastCall - now);
   };
 
   // Best free-tier model first; when its daily quota runs out (or Google retires it) the run
@@ -71,26 +73,37 @@ export function makeAi(state: State): Ai {
     process.env.GEMINI_MODEL || 'gemini-2.5-flash',
     ...(process.env.GEMINI_FALLBACK || 'gemini-2.5-flash-lite').split(',').filter(Boolean),
   ];
+  // Calls in a row that failed because even the last model was overloaded. Two of them and the
+  // run stops asking (10 Nov 2026: every model answered 503, each summary then spent ~3 min in
+  // retries and a 13-minute run published nothing). The next run, 4 hours later, tries again.
+  let overloadedInARow = 0;
   const gemini = async (system: string, prompt: string, schema: object) => {
     const key = process.env.GEMINI_API_KEY;
     if (!key) throw new Error('GEMINI_API_KEY not set');
     for (let attempt = 0; ; attempt++) {
       const model = geminiModels[0];
       await pace(6500); // free tier ≈ 10 requests/minute on Flash
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json', 'x-goog-api-key': key },
-        body: JSON.stringify({
-          systemInstruction: { parts: [{ text: system }] },
-          contents: [{ role: 'user', parts: [{ text: prompt }] }],
-          generationConfig: { temperature: 0.2, responseMimeType: 'application/json', responseJsonSchema: schema },
-        }),
-        signal: AbortSignal.timeout(120000),
-      });
+      let res: Response;
+      try {
+        res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+          method: 'POST',
+          headers: { 'content-type': 'application/json', 'x-goog-api-key': key },
+          body: JSON.stringify({
+            systemInstruction: { parts: [{ text: system }] },
+            contents: [{ role: 'user', parts: [{ text: prompt }] }],
+            generationConfig: { temperature: 0.2, responseMimeType: 'application/json', responseJsonSchema: schema },
+          }),
+          signal: AbortSignal.timeout(90000),
+        });
+      } catch (err) {
+        // A call that hangs this long is the model being overloaded: same handling as a 503.
+        if (!/abort|timeout/i.test(`${(err as Error).name} ${(err as Error).message}`)) throw err;
+        res = new Response(JSON.stringify({ error: { message: 'timed out after 90 s' } }), { status: 504 });
+      }
       const body: any = await res.json().catch(() => ({}));
       const msg = String(body?.error?.message ?? '');
       const outOfQuota = res.status === 429 && /per ?day|daily|PerDay/i.test(msg + JSON.stringify(body?.error?.details ?? ''));
-      // 503 "high demand" can last for hours: one retry, then the lighter model (retrying alone cost ~10 min per call).
+      // 503 "high demand" can last for hours: one short retry, then the lighter model.
       const overloaded = res.status >= 500 && attempt >= 1;
       if ((res.status === 404 || outOfQuota || overloaded || (res.status === 429 && attempt >= 3)) && geminiModels.length > 1) {
         console.warn(`gemini: ${model} unavailable (${res.status}), switching to ${geminiModels[1]}`);
@@ -98,12 +111,18 @@ export function makeAi(state: State): Ai {
         attempt = -1;
         continue;
       }
-      if ((res.status === 429 || res.status >= 500) && attempt < 3) {
-        await sleep(15000 * (attempt + 1));
+      if (overloaded) {
+        // No lighter model left: fail this call fast, and stop the run's AI work after two such calls.
+        if (++overloadedInARow >= 2) throw new OverBudget(`every Gemini model is overloaded (${res.status}); AI work stops for this run`);
+        throw new Error(`gemini ${res.status}: ${msg}`.slice(0, 300));
+      }
+      if ((res.status === 429 && attempt < 3) || (res.status >= 500 && attempt < 1)) {
+        await wait(res.status === 429 ? 15000 * (attempt + 1) : 10000);
         checkTime();
         continue;
       }
       if (!res.ok) throw new Error(`gemini ${res.status}: ${msg}`.slice(0, 300));
+      overloadedInARow = 0;
       const text = body?.candidates?.[0]?.content?.parts?.map((p: any) => p.text ?? '').join('') ?? '';
       return parseJson(text);
     }
@@ -130,7 +149,7 @@ export function makeAi(state: State): Ai {
         signal: AbortSignal.timeout(120000),
       });
       if ((res.status === 429 || res.status === 529 || res.status >= 500) && attempt < 3) {
-        await sleep(10000 * (attempt + 1));
+        await wait(10000 * (attempt + 1));
         checkTime();
         continue;
       }

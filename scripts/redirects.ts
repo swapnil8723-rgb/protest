@@ -76,10 +76,13 @@ export function mergedRedirects(events: Map<string, ProtestEvent>, langs: readon
     if (keep?.slug === e.slug) continue;
     const shown = keep && !keep.mergedInto && !keep.withdrawn && keep.published && keep.slug && (keep.stage === 'live' || keep.origin === 'reader');
     const to = shown ? `/p/${keep!.slug}` : `/country/${countrySlug(e.place.country)}`;
-    out.push(
-      { source: `/p/${e.slug}`, destination: to, permanent: true },
-      { source: `/:lang(${langs.join('|')})/p/${e.slug}`, destination: `/:lang${to}`, permanent: true },
-    );
+    out.push({ source: `/p/${e.slug}`, destination: to, permanent: true });
+    // Only the languages this page existed in: each one is a line in Cloudflare's _redirects,
+    // which allows 2,000, and a language added later (it/pt/nl) never had these pages.
+    const had = langs.filter((l) => (e.i18n as Record<string, unknown> | undefined)?.[l]);
+    if (had.length) out.push({ source: `/:lang(${had.join('|')})/p/${e.slug}`, destination: `/:lang${to}`, permanent: true });
+    // Its share image too: shared posts and image search keep the old card URL (these 404'd).
+    if (shown) out.push({ source: `/cards/${e.slug}-og.png`, destination: `/cards/${keep!.slug}-og.png`, permanent: true });
   }
   return out;
 }

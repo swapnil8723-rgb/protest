@@ -148,7 +148,7 @@ export function summaryPrompt(now: string, place: string, label: string, sources
 
 Below are numbered news sources. Write the event card for this ONE protest.
 
-- is_real: true only if the sources, taken together, report a real physical protest action at or around ${place}. If false, give not_real_reason and fill the rest with empty values.
+- is_real: true only if the sources, taken together, report a real physical protest action at or around ${place}: one that happened, is happening, or has been formally called for a stated date by a named union, group or party (status scheduled; a called action later cancelled is status called-off). False for vague threats, "considering" or "may strike", opinion pieces and diplomatic protests. If false, give not_real_reason and fill the rest with empty values.
 - same_story_sources: numbers of the sources that are actually about this protest (drop unrelated ones).
 - title: neutral headline ≤ 90 chars. Say who, what, about what. No adjectives, no clickbait.
 - seo_title: ≤ 45 chars, starts with the city, e.g. "Mumbai march against CEC Gyanesh Kumar".

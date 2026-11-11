@@ -2,12 +2,12 @@
 // has ≥ 2 independent publishers AND its source set changed since the last summary.
 import type { Ai } from './ai.ts';
 import { OverBudget, Pending } from './ai.ts';
-import { fetchPage } from './article.ts';
+import { fetchPage, type Page } from './article.ts';
 import { byIso, CAUSES, LIMITS, RULES } from './config.ts';
 import { independentGroups, reportedAt } from './events.ts';
 import { SYSTEM, summaryPrompt, summarySchema, type SummaryOut, type SummarySource } from './prompts.ts';
 import type { Article, Figure, ProtestEvent, SourceRef } from './types.ts';
-import { MONTHS, nowIso, sha, slugify } from './util.ts';
+import { MONTHS, nowIso, pool, sha, slugify } from './util.ts';
 import { decode } from './rss.ts';
 
 const causeSet = new Set<string>(CAUSES);
@@ -47,20 +47,31 @@ export function sourceHash(articles: Article[]) {
   return sha(articles.map((a) => a.url).sort().join('|'));
 }
 
+export interface SummarizeOptions {
+  max?: number;
+  /** Events already summarised earlier in this run: left for the next run. */
+  skip?: Set<string>;
+  /** Article text this run already fetched (url → page), so sources are not downloaded twice. */
+  pages?: Map<string, Page>;
+  /** Summaries written side by side (each still waits for its AI slot in ai.ts). */
+  concurrency?: number;
+}
+
 export async function summarize(
   ai: Ai,
   events: Map<string, ProtestEvent>,
   articles: Map<string, Article>,
   log: (s: string) => void,
-  maxPerRun = Number(process.env.SUMMARIES_PER_RUN || 40),
+  opts: SummarizeOptions = {},
 ): Promise<string[]> {
+  const maxPerRun = opts.max ?? Number(process.env.SUMMARIES_PER_RUN || 40);
   const byEvent = new Map<string, Article[]>();
   for (const a of articles.values()) {
     if (!a.eventId || a.fetch !== 'ok') continue;
     (byEvent.get(a.eventId) ?? byEvent.set(a.eventId, []).get(a.eventId)!).push(a);
   }
   const due = [...events.values()]
-    .filter((e) => e.review !== 'rejected' && !e.mergedInto)
+    .filter((e) => e.review !== 'rejected' && !e.mergedInto && !opts.skip?.has(e.id))
     .map((e) => ({ e, arts: byEvent.get(e.id) ?? [] }))
     .filter(({ e, arts }) => independentGroups(arts).length >= RULES.minPublishers && e.summaryOf !== sourceHash(arts))
     // live events first (readers are waiting), then the best-sourced candidates
@@ -68,18 +79,27 @@ export async function summarize(
     .slice(0, maxPerRun);
 
   const done: string[] = [];
-  for (const { e, arts } of due) {
+  // Sources download while other summaries wait for the AI, instead of one event at a time.
+  let stopped: unknown;
+  await pool(due, opts.concurrency ?? 3, async ({ e, arts }) => {
+    if (stopped) return;
+    opts.skip?.add(e.id); // one attempt per event per run, whatever the outcome
     const picked = pickSources(arts);
-    const srcs: SummarySource[] = [];
-    for (const a of picked) {
-      let text = '';
-      try {
-        text = (await fetchPage(a.url)).text;
-      } catch {
-        text = a.description || '';
-      }
-      srcs.push({ n: srcs.length + 1, publisher: a.publisher, published: a.publishedAt?.slice(0, 16), title: a.title || '', text: text.slice(0, 2500) });
-    }
+    const texts = await Promise.all(
+      picked.map(async (a) => {
+        const cached = opts.pages?.get(a.url)?.text;
+        if (cached) return cached;
+        try {
+          const page = await fetchPage(a.url);
+          opts.pages?.set(a.url, page);
+          return page.text;
+        } catch {
+          return a.description || '';
+        }
+      }),
+    );
+    if (stopped) return;
+    const srcs: SummarySource[] = picked.map((a, i) => ({ n: i + 1, publisher: a.publisher, published: a.publishedAt?.slice(0, 16), title: a.title || '', text: texts[i].slice(0, 2500) }));
     const place = `${e.place.city}, ${e.place.region ? e.place.region + ', ' : ''}${byIso.get(e.place.country)?.name}`;
     let out: SummaryOut;
     try {
@@ -87,16 +107,23 @@ export async function summarize(
     } catch (err) {
       if (err instanceof Pending) {
         log(`summary: ${e.id} queued for answer (${err.key})`);
-        continue;
+        return;
       }
-      if (err instanceof OverBudget) throw err;
+      if (err instanceof OverBudget) {
+        stopped = err; // out of time or AI: the rest wait for the next run
+        return;
+      }
       log(`summary: ${e.id} failed: ${(err as Error).message}`);
-      continue;
+      return;
     }
     const hash = sourceHash(arts);
     const applied = apply(e, out, picked, arts, log);
     e.summaryOf = hash;
     if (applied) done.push(e.id);
+  });
+  if (stopped) {
+    if (done.length) log(`summary: ${done.length} written before the stop`);
+    throw stopped;
   }
   return done;
 }

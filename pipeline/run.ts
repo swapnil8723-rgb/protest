@@ -1,4 +1,5 @@
-// The hourly pipeline: discover → fetch → classify → summarize → reader reports → score → review → save.
+// The pipeline (every 4 hours): discover → fetch → summaries already due → classify → dedupe →
+// new summaries → reader reports → score → translate → review → save.
 // usage: node pipeline/run.ts                 (normal run, GitHub Actions)
 //        node pipeline/run.ts --backfill=5   (launch: last 5 days of GDELT daily files)
 //        node pipeline/run.ts --no-discover  (re-process what is already stored)
@@ -59,6 +60,16 @@ const ai = makeAi(state);
 const snap = (e: ProtestEvent) => JSON.stringify([visible(e), e.published, e.vibe, e.isOngoing, e.i18n?.of]);
 const before = new Map([...events.values()].map((e) => [e.id, snap(e)]));
 const run: RunLog = { at: nowIso(), ms: 0, discovered: 0, fetched: 0, classified: 0, protests: 0, summarized: 0, published: 0, live: 0, aiCalls: 0, notes };
+const summarized: string[] = [];
+const summarizedIds = new Set<string>();
+const pages = new Map<string, Page>();
+// Seconds each step took, logged once per run (to see where the Actions minutes go).
+const laps: string[] = [];
+let lastLap = Date.now();
+const lap = (step: string) => {
+  laps.push(`${step} ${Math.round((Date.now() - lastLap) / 1000)}s`);
+  lastLap = Date.now();
+};
 log(`run: AI provider ${ai.name}, reviewer ${reviewerConfigured() ? 'telegram' : 'none (strict auto-publish)'}`);
 
 try {
@@ -150,7 +161,6 @@ try {
   }
 
   // 3. Fetch new articles (newest first), cheap keyword gate before any AI.
-  const pages = new Map<string, Page>();
   const fresh = [...articles.values()].filter((a) => a.fetch === 'new').sort((a, b) => (a.firstSeenAt < b.firstSeenAt ? 1 : -1));
   const cap = args.backfill ? 5000 : LIMITS.fetchPerRun;
   let n = 0;
@@ -176,6 +186,13 @@ try {
     }
   });
   log(`fetch: ${run.fetched} ok, ${fresh.slice(0, cap).filter((a) => a.fetch === 'failed').length} failed`);
+  lap('discover+fetch');
+
+  // 4a. Summaries that were already due (left over when an earlier run ran out of time or AI)
+  // come before judging new articles: these are what publish, the new ones only become
+  // candidates. On 9–10 Nov 2026 two runs spent their AI time classifying and published nothing.
+  summarized.push(...(await summarize(ai, events, articles, log, { skip: summarizedIds, pages })));
+  lap('summaries waiting');
 
   // 4. Classify (articles fetched in an earlier run but not yet judged are re-read).
   const todo = [...articles.values()].filter((a) => a.fetch === 'ok' && !a.cls).sort((a, b) => (a.firstSeenAt < b.firstSeenAt ? -1 : 1));
@@ -189,12 +206,16 @@ try {
   const c = await classify(ai, todo, pages, events, log);
   run.classified = c.classified;
   run.protests = c.protests;
+  lap('classify');
 
   // 4b. Fold duplicate events in one city together before their summaries are written.
   await dedupe(ai, events, articles, log);
+  lap('dedupe');
 
-  // 5. Summaries for events with ≥ 2 independent publishers and new sources
-  run.summarized = (await summarize(ai, events, articles, log)).length;
+  // 5. Summaries for events that reached ≥ 2 independent publishers in this run
+  // (events summarised in 4a wait for the next run, so none costs two calls in one run).
+  summarized.push(...(await summarize(ai, events, articles, log, { skip: summarizedIds, pages })));
+  lap('new summaries');
 
   // 6. Reader reports from the "Add a protest" form, at least an hour old.
   const inbox = process.env.READER_INBOX_FILE ? fileInbox(process.env.READER_INBOX_FILE) : httpInbox(SITE);
@@ -206,11 +227,13 @@ try {
       if (e instanceof OverBudget) throw e;
       log(`reader: inbox unavailable: ${(e as Error).message}`);
     }
+    lap('reader reports');
   }
 } catch (e) {
   if (e instanceof OverBudget) log(`AI budget: ${e.message} — remaining work waits for a later run`);
   else throw e;
 } finally {
+  run.summarized = summarized.length;
   // 7. Score, review, save — always, so partial progress is kept.
   score(events, articles, { reviewer: reviewerConfigured() });
   scoreReaders(events);
@@ -220,6 +243,8 @@ try {
   } catch (e) {
     log(`translate: stopped: ${(e as Error).message}`);
   }
+  lap('translate');
+  log(`timing: ${laps.join(', ')}`);
   try {
     await sendReviews(events, SITE, log);
   } catch (e) {

@@ -90,15 +90,20 @@ export function isBlockedUrl(url: string): boolean {
 }
 
 /** Token-set Jaccard on titles; ≥ 0.6 means "same wire story re-published". */
-export function titleSimilarity(a: string, b: string): number {
-  const stop = new Set(['the', 'a', 'an', 'of', 'in', 'on', 'to', 'for', 'and', 'at', 'as', 'with', 'by', 'over', 'after', 'amid']);
-  const toks = (s: string) => new Set(norm(s).split(' ').filter((w) => w.length > 1 && !stop.has(w)));
-  const A = toks(a);
-  const B = toks(b);
+const TITLE_STOP = new Set(['the', 'a', 'an', 'of', 'in', 'on', 'to', 'for', 'and', 'at', 'as', 'with', 'by', 'over', 'after', 'amid']);
+/** A headline's words for titleSimilarity (compute once when comparing one headline many times). */
+export const titleTokens = (s: string) => new Set(norm(s).split(' ').filter((w) => w.length > 1 && !TITLE_STOP.has(w)));
+
+/** Word overlap (Jaccard) of two headlines' tokens. */
+export function tokenSimilarity(A: Set<string>, B: Set<string>): number {
   if (!A.size || !B.size) return 0;
   let inter = 0;
   for (const w of A) if (B.has(w)) inter++;
   return inter / (A.size + B.size - inter);
+}
+
+export function titleSimilarity(a: string, b: string): number {
+  return tokenSimilarity(titleTokens(a), titleTokens(b));
 }
 
 /** Extract the single file from a GDELT zip (handles data-descriptor zips). */

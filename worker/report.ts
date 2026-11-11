@@ -3,8 +3,11 @@
 // Blob; nothing is shown until the pipeline has checked it (pipeline/reader.ts).
 // tests/reader.test.ts runs the same cases against both copies.
 import type { Env } from './types.ts';
+import { COUNTRIES as TRACKED } from '../pipeline/config.ts';
 
-const COUNTRIES = new Set(['in', 'us', 'gb', 'fr', 'de', 'es', 'pk', 'bd', 'np', 'ke', 'id']);
+// Every country the site tracks, the same list the form offers (it was a hard-coded 11 until
+// 11 Nov 2026, so a report from Italy, Portugal or Canada was turned away as "pick a country").
+const COUNTRIES = new Set(TRACKED.map((c) => c.iso));
 const PER_IP_PER_DAY = 3;
 
 export interface ReportInput {

@@ -270,10 +270,12 @@ test('duplicate check: same-city pairs with overlapping dates, merged into the o
   assert.ok(!dedupePairs(events.values()).some(([a, b]) => [a, b].includes(other) && [a, b].includes(first)), 'a pair judged different is never asked again');
 
   score(events, articles, { reviewer: false });
-  const r = mergedRedirects(events, ['fr', 'de'], () => 'india');
+  twin.i18n = { of: 'x', at: '2026-11-01T00:00:00Z', fr: {} as any, de: {} as any }; // its French and German pages existed
+  const r = mergedRedirects(events, ['fr', 'de', 'it'], () => 'india'); // no Italian page ever: no Italian line
   assert.deepEqual(r, [
     { source: `/p/${twin.slug}`, destination: `/p/${first.slug}`, permanent: true },
     { source: `/:lang(fr|de)/p/${twin.slug}`, destination: `/:lang/p/${first.slug}`, permanent: true },
+    { source: `/cards/${twin.slug}-og.png`, destination: `/cards/${first.slug}-og.png`, permanent: true },
   ]);
   first.withdrawn = 'owner';
   assert.equal(mergedRedirects(events, ['fr'], () => 'india')[0].destination, '/country/india'); // never a 404

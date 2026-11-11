@@ -3,7 +3,9 @@
 // Kept self-contained (no imports from pipeline/) so Vercel bundles only this file.
 import { head, put } from '@vercel/blob';
 
-const COUNTRIES = new Set(['in', 'us', 'gb', 'fr', 'de', 'es', 'pk', 'bd', 'np', 'ke', 'id']);
+// Every country in pipeline/config.ts COUNTRIES, written out to keep this file self-contained
+// (tests/reader.test.ts checks it gives the same answers as the Cloudflare copy).
+const COUNTRIES = new Set('in us gb fr de es pk bd np ke id it nl be pl pt gr at ch se dk ie cz hu ro rs al ge tr ua ru fi no sk bg hr si ba me mk md lt lv ee cy am az by lu mt is il ps lb jo sy iq ir eg ma tn ca au nz jp cn'.split(' '));
 const PER_IP_PER_DAY = 3;
 
 export interface ReportInput {
