@@ -20,6 +20,8 @@ const fr: Dict = {
   'footer.today': "Manifestations du jour",
   'footer.add': 'Ajouter une manifestation',
   'footer.how': 'Notre méthode (et corrections)',
+  'footer.aboutLink': 'À propos de LOUD',
+  'footer.privacy': 'Confidentialité',
   'footer.rss': 'Flux RSS (anglais)',
   'footer.corrections': 'Corrections :',
   'footer.made': 'Fait fort, vérifié deux fois. Résumés originaux ; on renvoie vers les articles.',

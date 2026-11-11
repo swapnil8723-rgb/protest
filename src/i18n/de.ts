@@ -20,6 +20,8 @@ const de: Dict = {
   'footer.today': 'Proteste heute',
   'footer.add': 'Protest melden',
   'footer.how': 'Unsere Methode (und Korrekturen)',
+  'footer.aboutLink': 'Über LOUD',
+  'footer.privacy': 'Datenschutz',
   'footer.rss': 'RSS-Feed (Englisch)',
   'footer.corrections': 'Korrekturen:',
   'footer.made': 'Laut gemacht, doppelt geprüft. Zusammenfassungen sind eigene Texte; wir verlinken die Berichte.',

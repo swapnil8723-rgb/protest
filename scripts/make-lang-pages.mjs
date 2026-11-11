@@ -9,6 +9,8 @@ const pages = [
   ['today.astro', 'Today', null],
   ['add.astro', 'Add', null],
   ['how-we-know.astro', 'HowWeKnow', null],
+  ['about.astro', 'About', null],
+  ['privacy.astro', 'Privacy', null],
   ['p/[slug].astro', 'Event', 'event'],
   ['country/[country].astro', 'Country', 'country'],
   ['city/[cc]/[region]/[city].astro', 'City', 'city'],

@@ -20,6 +20,8 @@ const mr: Dict = {
   'footer.today': 'आजची आंदोलने',
   'footer.add': 'आंदोलन जोडा',
   'footer.how': 'आम्ही कसे तपासतो (पद्धत आणि दुरुस्त्या)',
+  'footer.aboutLink': 'LOUD विषयी',
+  'footer.privacy': 'गोपनीयता',
   'footer.rss': 'RSS फीड (इंग्रजी)',
   'footer.corrections': 'दुरुस्तीसाठी:',
   'footer.made': 'आवाज मोठा, तपासणी दुहेरी. सारांश आमच्या स्वतःच्या शब्दांत; मूळ बातमीची लिंक आम्ही देतो.',

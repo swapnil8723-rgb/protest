@@ -47,6 +47,7 @@ House interpretation of rule 4: organisations, parties, elected officials and po
 - Maps: `scripts/build-map.ts` erases India's area from every other country (Natural Earth IND view overlaps). Re-run the PoK/Aksai Chin/Tawang point checks after touching it.
 - Mobile first (most readers are on phones): every tap target ≥ 44 px, no sideways scroll at 320–414 px in any language (German/French words are long). Check with `npm run preview` + `PORT=4321 npm run audit:mobile` before shipping UI changes.
 - Motion: only the three animations in DESIGN.md §7, all off under `prefers-reduced-motion`.
+- `/about` and `/privacy` (text in `src/i18n/pages.ts`, all six languages, rendered by `src/components/InfoPage.astro`; publisher and contact email in `src/site.ts`). Privacy lists exactly what is collected: change it, and `INFO_UPDATED`, together with `worker/report.ts`, `worker/promo.ts`, `src/scripts/live.ts`, the analytics setup or the AI provider.
 
 ## Commands
 `npm run pipeline` (needs `GEMINI_API_KEY` or `ANTHROPIC_API_KEY`; `AI_PROVIDER=replay` for offline) · `npm run build` · `npm test` · `npm run shot -- <dir> <width> <paths…>` (needs `npm run preview`).

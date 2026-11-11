@@ -22,6 +22,8 @@ const en = {
   'footer.today': 'Protests today',
   'footer.add': 'Add a protest',
   'footer.how': 'How we know (methods & corrections)',
+  'footer.aboutLink': 'About LOUD',
+  'footer.privacy': 'Privacy',
   'footer.rss': 'RSS feed (English)',
   'footer.corrections': 'Corrections:',
   'footer.made': 'Made loud, checked twice. Summaries are original; we link to the reporting.',

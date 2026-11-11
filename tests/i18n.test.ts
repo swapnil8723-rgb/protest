@@ -14,6 +14,7 @@ import es from '../src/i18n/es.ts';
 import fr from '../src/i18n/fr.ts';
 import de from '../src/i18n/de.ts';
 import { loc } from '../src/i18n/event.ts';
+import { infoContent } from '../src/i18n/pages.ts';
 
 function liveEvent(): ProtestEvent {
   const e = newEvent('Farmers march over crop prices', resolvePlace('Pune', 'Maharashtra', 'in')!, '2026-10-05', ['farmers'], 'x');
@@ -117,6 +118,25 @@ test('dictionaries: every language has every key, placeholders match', () => {
       // A translation may drop {country} for {in} (or the reverse) but no other placeholder.
       const norm = (s: string) => s.split(',').filter((x) => x && x !== 'in' && x !== 'country').filter((x, i, a) => a.indexOf(x) === i).join(',');
       assert.equal(norm(ph(d[k])), norm(ph(en[k])), `${name}.${k} placeholders`);
+    }
+  }
+});
+
+test('about and privacy: every language has the same sections and links', () => {
+  const ph = (v: unknown) => [...new Set([...JSON.stringify(v).matchAll(/{(w+)}/g)].map((m) => m[1]))].sort().join(',');
+  for (const page of ['about', 'privacy'] as const) {
+    const base = infoContent(page, 'en');
+    for (const lang of ['hi', 'mr', 'es', 'fr', 'de'] as const) {
+      const c = infoContent(page, lang);
+      assert.deepEqual(c.sections.map((x) => x.id), base.sections.map((x) => x.id), `${lang} ${page} sections`);
+      base.sections.forEach((b, i) => {
+        const x = c.sections[i];
+        assert.equal(x.p?.length ?? 0, b.p?.length ?? 0, `${lang} ${page}#${b.id} paragraphs`);
+        assert.equal(x.list?.length ?? 0, b.list?.length ?? 0, `${lang} ${page}#${b.id} list`);
+        assert.equal(ph(x), ph(b), `${lang} ${page}#${b.id} placeholders`);
+      });
+      assert.equal(ph(c.intro), ph(base.intro), `${lang} ${page} intro placeholders`);
+      assert.ok(c.title && c.description && c.h1 && c.updated, `${lang} ${page} headings`);
     }
   }
 });

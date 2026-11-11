@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { BRAND, DESCRIPTION, SITE } from '../site';
+import { BRAND, CONTACT, DESCRIPTION, PUBLISHER, SITE } from '../site';
 import { COUNTRIES, countryOf, verified as events } from '../lib/data';
 
 // llms.txt: a plain map of the site for AI answer engines.
@@ -10,6 +10,8 @@ export const GET: APIRoute = () => {
     `> ${DESCRIPTION}`,
     '',
     `Every event page states why people are protesting, what they demand, the authorities' response and whether it is still on, and links each claim to at least two independent newsrooms. Method: ${SITE}/how-we-know`,
+    '',
+    `Published by ${PUBLISHER.name} (${PUBLISHER.url}). About and funding: ${SITE}/about. Corrections: ${CONTACT}. Privacy: ${SITE}/privacy`,
     '',
     '## Hubs',
     `- [Protests today](${SITE}/today): every live protest`,

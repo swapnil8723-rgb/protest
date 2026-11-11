@@ -1,6 +1,6 @@
 // Structured data builders (schema.org). dateModified always comes from the
 // pipeline's updatedAt, so Google sees real changes, not build times.
-import { BRAND, SITE } from '../site';
+import { BRAND, CONTACT, PUBLISHER, SITE } from '../site';
 import type { ProtestEvent } from '../../pipeline/types.ts';
 import { byIso } from '../../pipeline/config.ts';
 import { countryName, href, LANG_INFO, type Lang } from '../i18n/index.ts';
@@ -15,6 +15,11 @@ export const org = {
   publishingPrinciples: `${SITE}/how-we-know`,
   correctionsPolicy: `${SITE}/how-we-know#corrections`,
   verificationFactCheckingPolicy: `${SITE}/how-we-know#confidence`,
+  ownershipFundingInfo: `${SITE}/about#funding`,
+  foundingDate: '2026-10',
+  email: CONTACT,
+  contactPoint: { '@type': 'ContactPoint', contactType: 'corrections', email: CONTACT },
+  parentOrganization: { '@type': 'Organization', name: PUBLISHER.name, url: PUBLISHER.url },
 };
 
 export const website = {

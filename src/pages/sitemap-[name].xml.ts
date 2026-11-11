@@ -4,6 +4,7 @@ import { activeCountries, cities, COUNTRIES, HUBS, verified as events } from '..
 import { stories } from '../lib/stories';
 import { href, LANGS, type Lang } from '../i18n';
 import { hasLang } from '../i18n/event';
+import { INFO_UPDATED } from '../i18n/pages';
 
 export const getStaticPaths: GetStaticPaths = () => [{ params: { name: 'pages' } }, ...COUNTRIES.map((c) => ({ params: { name: c.slug } }))];
 
@@ -22,7 +23,7 @@ export const GET: APIRoute = ({ params }) => {
   if (params.name === 'pages') {
     const n = newest(events);
     // Only pages with protests on them: empty country/hub pages are noindex until the pipeline fills them.
-    body = url('/', n) + url('/today', n) + url('/how-we-know') + url('/add') +
+    body = url('/', n) + url('/today', n) + url('/how-we-know') + url('/add') + url('/about', INFO_UPDATED.about) + url('/privacy', INFO_UPDATED.privacy) +
       HUBS.filter((h) => h.list.length > 0).map((h) => url(h.path, newest(h.list))).join('') +
       activeCountries.map((c) => url(`/country/${c.slug}`, newest(events.filter((e) => e.place.country === c.iso)))).join('') +
       stories.map((s) => url(`/story/${s.slug}`, s.updatedAt, undefined, ['en'])).join('');

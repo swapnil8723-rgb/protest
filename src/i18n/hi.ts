@@ -20,6 +20,8 @@ const hi: Dict = {
   'footer.today': 'आज के प्रदर्शन',
   'footer.add': 'प्रदर्शन जोड़ें',
   'footer.how': 'हम कैसे जाँचते हैं (तरीका और सुधार)',
+  'footer.aboutLink': 'LOUD के बारे में',
+  'footer.privacy': 'गोपनीयता',
   'footer.rss': 'RSS फ़ीड (अंग्रेज़ी)',
   'footer.corrections': 'सुधार के लिए:',
   'footer.made': 'आवाज़ बुलंद, जाँच दोहरी। सारांश हमारे अपने शब्दों में हैं; हम मूल रिपोर्ट का लिंक देते हैं।',
