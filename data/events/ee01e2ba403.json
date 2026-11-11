@@ -1,9 +1,9 @@
 {
  "id": "ee01e2ba403",
- "slug": "",
- "stage": "candidate",
- "title": "General strike and protest in Valencia over housing and wages",
- "seoTitle": "",
+ "slug": "valencia-general-strike-nov-2026",
+ "stage": "live",
+ "title": "General strike and protests held in Valencia over housing and wages",
+ "seoTitle": "Valencia general strike and housing protest",
  "place": {
   "city": "Valencia",
   "region": "Valencia",
@@ -13,41 +13,232 @@
   "citySlug": "valencia",
   "regionSlug": "valencia"
  },
- "scope": "local",
+ "scope": "nationwide",
  "causes": [
-  "housing",
-  "prices",
-  "labour"
+  "labour",
+  "housing"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-11",
  "status": "ongoing",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence"
+ ],
  "isOngoing": true,
- "published": false,
+ "published": true,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Protesters are striking due to the housing access crisis, stagnant wages, and the need to reactivate collective bargaining agreements.",
+  "want": "Improved wages, better access to housing, and the reactivation of collective bargaining.",
+  "changed": "Nov 11: A 24-hour general strike is underway with various pickets and marches scheduled throughout the city."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
+ "summary": "A nationwide general strike is taking place in Valencia on November 11, 2026, to protest the housing crisis and demand wage improvements. Organised by a coalition including CCOO PV, UGT PV, IV-PV, CGT, CNT, COS, Sindicat de Llogateres de Valencia, PAH, Sindicat d'Habitatge, and Entrebarris, the action began at midnight with pickets at the City Hall, Mercavalencia, and public transport depots. Throughout the day, multiple columns and pickets are moving through the city, including an education sector march. A final major demonstration is scheduled for the evening, starting at Xàtiva street and ending at the City Hall. Authorities have implemented minimum service requirements for public transport, set at 80% for the EMT and Metrovalencia, and 70% for the metropolitan transport authority, while preparing traffic diversions for the protest routes.",
+ "organizers": [
+  "CCOO PV",
+  "UGT PV",
+  "IV-PV",
+  "CGT",
+  "CNT",
+  "COS"
+ ],
+ "demands": [
+  "Improved wages",
+  "Better access to housing",
+  "Reactivation of collective bargaining"
+ ],
+ "response": "The Valencia City Council has implemented a special traffic management plan and established minimum service levels for public transport, requiring 80% operation for EMT and Metrovalencia, and 70% for the metropolitan transport authority.",
  "numbers": {},
- "updates": [],
- "sources": [],
+ "updates": [
+  {
+   "at": "2026-11-11",
+   "text": "The 24-hour general strike began at midnight with pickets at the City Hall, Mercavalencia, and EMT bus depots.",
+   "sources": [
+    1
+   ]
+  },
+  {
+   "at": "2026-11-11",
+   "text": "Morning pickets and marches occurred at the Port of Valencia, Torres de Serranos, and the regional Education Department.",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.abc.es/espana/comunidad-valenciana/huelga-general-noviembre-valencia-horario-recorrido-cortes-20261111053000-nt.html",
+   "publisher": "abc.es",
+   "title": "Huelga general 11 de noviembre en Valencia: horario, recorrido y cortes de tráfico previstos por la manifestación hoy",
+   "publishedAt": "2026-11-11T04:30:07.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.larazon.es/comunidad-valenciana/cortes-trafico-valencia-hoy-miercoles-11-noviembre-calles-afectadas-huelga-general-obras-centro_202611116af41ac64196933d7ed8f644.html",
+   "publisher": "larazon.es",
+   "title": "Cortes de tráfico en Valencia hoy, miércoles 11 de noviembre: calles afectadas por la huelga general y obras en el centro",
+   "publishedAt": "2026-11-11T07:35:34.000Z"
+  }
+ ],
  "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
+ "confidence": 0.7,
+ "publishers": 2,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-11T05:54:41.605Z",
- "lastReportAt": "2026-11-11T05:54:41.605Z",
- "lastCheckedAt": "2026-11-11T05:54:41.605Z",
- "updatedAt": "2026-11-11T05:54:41.605Z"
+ "lastReportAt": "2026-11-11T07:35:34.000Z",
+ "lastCheckedAt": "2026-11-11T09:55:17.563Z",
+ "updatedAt": "2026-11-11T09:55:10.852Z",
+ "searchedAt": "2026-11-11T09:50:45.212Z",
+ "endedOn": "2026-11-11",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-11-11T09:55:10.852Z",
+ "summaryOf": "763e4c190a24",
+ "publishedAt": "2026-11-11T09:55:17.563Z",
+ "i18n": {
+  "of": "edbec0478a060457",
+  "at": "2026-11-11T09:55:50.100Z",
+  "tries": 1,
+  "es": {
+   "title": "Huelga general y protestas en Valencia por la vivienda y los salarios",
+   "seoTitle": "Huelga general y protesta por la vivienda en Valencia",
+   "tea": {
+    "why": "Los manifestantes están en huelga debido a la crisis de acceso a la vivienda, los salarios estancados y la necesidad de reactivar los convenios colectivos.",
+    "want": "Mejora de los salarios, mejor acceso a la vivienda y la reactivación de la negociación colectiva.",
+    "changed": "11 de noviembre: Una huelga general de 24 horas está en curso con varios piquetes y marchas programados por toda la ciudad."
+   },
+   "summary": "Una huelga general se lleva a cabo en Valencia el 11 de noviembre de 2026 para protestar contra la crisis de la vivienda y exigir mejoras salariales. Organizada por una coalición que incluye a CCOO PV, UGT PV, IV-PV, CGT, CNT, COS, Sindicat de Llogateres de Valencia, PAH, Sindicat d'Habitatge y Entrebarris, la acción comenzó a medianoche con piquetes en el Ayuntamiento, Mercavalencia y depósitos de transporte público. A lo largo del día, múltiples columnas y piquetes se desplazan por la ciudad, incluida una marcha del sector educativo. Una manifestación final está programada para la tarde, comenzando en la calle Xàtiva y terminando en el Ayuntamiento. Las autoridades han implementado requisitos de servicios mínimos para el transporte público, fijados en el 80% para la EMT y Metrovalencia, y el 70% para la autoridad de transporte metropolitano, mientras preparan desvíos de tráfico para las rutas de protesta.",
+   "demands": [
+    "Mejora de los salarios",
+    "Mejor acceso a la vivienda",
+    "Reactivación de la negociación colectiva"
+   ],
+   "response": "El Ayuntamiento de Valencia ha implementado un plan especial de gestión de tráfico y ha establecido niveles de servicios mínimos para el transporte público, requiriendo una operación del 80% para la EMT y Metrovalencia, y del 70% para la autoridad de transporte metropolitano.",
+   "updates": [
+    "La huelga general de 24 horas comenzó a medianoche con piquetes en el Ayuntamiento, Mercavalencia y los depósitos de autobuses de la EMT.",
+    "Piquetes y marchas matutinos ocurrieron en el Puerto de Valencia, las Torres de Serranos y la Consejería de Educación regional."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "fr": {
+   "title": "Grève générale et manifestations à Valence sur le logement et les salaires",
+   "seoTitle": "Grève générale et manifestation pour le logement à Valence",
+   "tea": {
+    "why": "Les manifestants sont en grève en raison de la crise de l'accès au logement, de la stagnation des salaires et de la nécessité de réactiver les conventions collectives.",
+    "want": "Amélioration des salaires, meilleur accès au logement et réactivation de la négociation collective.",
+    "changed": "11 novembre : Une grève générale de 24 heures est en cours avec divers piquets et marches prévus à travers la ville."
+   },
+   "summary": "Une grève générale a lieu à Valence le 11 novembre 2026 pour protester contre la crise du logement et exiger des améliorations salariales. Organisée par une coalition comprenant CCOO PV, UGT PV, IV-PV, CGT, CNT, COS, Sindicat de Llogateres de Valencia, PAH, Sindicat d'Habitatge et Entrebarris, l'action a débuté à minuit avec des piquets devant la mairie, Mercavalencia et les dépôts de transports publics. Tout au long de la journée, de multiples colonnes et piquets se déplacent dans la ville, dont une marche du secteur de l'éducation. Une manifestation finale est prévue dans la soirée, partant de la rue Xàtiva et se terminant à la mairie. Les autorités ont mis en place des exigences de service minimum pour les transports publics, fixées à 80 % pour l'EMT et Metrovalencia, et à 70 % pour l'autorité de transport métropolitain, tout en préparant des déviations de circulation pour les itinéraires de manifestation.",
+   "demands": [
+    "Amélioration des salaires",
+    "Meilleur accès au logement",
+    "Réactivation de la négociation collective"
+   ],
+   "response": "La mairie de Valence a mis en place un plan spécial de gestion du trafic et a établi des niveaux de service minimum pour les transports publics, exigeant un fonctionnement à 80 % pour l'EMT et Metrovalencia, et à 70 % pour l'autorité de transport métropolitain.",
+   "updates": [
+    "La grève générale de 24 heures a débuté à minuit avec des piquets devant la mairie, Mercavalencia et les dépôts de bus de l'EMT.",
+    "Des piquets et des marches ont eu lieu le matin au port de Valence, aux Torres de Serranos et au département régional de l'Éducation."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "de": {
+   "title": "Generalstreik und Proteste in Valencia wegen Wohnraum und Löhnen",
+   "seoTitle": "Generalstreik und Wohnraumprotest in Valencia",
+   "tea": {
+    "why": "Die Demonstranten streiken aufgrund der Krise beim Zugang zu Wohnraum, stagnierender Löhne und der Notwendigkeit, Tarifverträge zu reaktivieren.",
+    "want": "Verbesserte Löhne, besserer Zugang zu Wohnraum und die Reaktivierung von Tarifverhandlungen.",
+    "changed": "11. November: Ein 24-stündiger Generalstreik ist im Gange, mit verschiedenen Streikposten und Märschen, die in der ganzen Stadt geplant sind."
+   },
+   "summary": "Am 11. November 2026 findet in Valencia ein landesweiter Generalstreik statt, um gegen die Wohnraumkrise zu protestieren und Lohnverbesserungen zu fordern. Die Aktion wurde von einem Bündnis organisiert, dem CCOO PV, UGT PV, IV-PV, CGT, CNT, COS, Sindicat de Llogateres de Valencia, PAH, Sindicat d'Habitatge und Entrebarris angehören. Sie begann um Mitternacht mit Streikposten am Rathaus, bei Mercavalencia und in den Depots des öffentlichen Nahverkehrs. Den ganzen Tag über bewegen sich mehrere Kolonnen und Streikposten durch die Stadt, darunter ein Marsch des Bildungssektors. Eine abschließende Großdemonstration ist für den Abend geplant, die in der Xàtiva-Straße beginnt und am Rathaus endet. Die Behörden haben Mindestdienstleistungen für den öffentlichen Nahverkehr eingeführt, die auf 80 % für EMT und Metrovalencia sowie 70 % für die Metropolverkehrsbehörde festgelegt wurden, während sie gleichzeitig Verkehrsumleitungen für die Protestrouten vorbereiten.",
+   "demands": [
+    "Verbesserte Löhne",
+    "Besserer Zugang zu Wohnraum",
+    "Reaktivierung von Tarifverhandlungen"
+   ],
+   "response": "Der Stadtrat von Valencia hat einen speziellen Verkehrsmanagementplan umgesetzt und Mindestdienstleistungen für den öffentlichen Nahverkehr festgelegt, die einen Betrieb von 80 % für EMT und Metrovalencia sowie 70 % für die Metropolverkehrsbehörde erfordern.",
+   "updates": [
+    "Der 24-stündige Generalstreik begann um Mitternacht mit Streikposten am Rathaus, bei Mercavalencia und in den EMT-Busdepots.",
+    "Morgendliche Streikposten und Märsche fanden am Hafen von Valencia, an den Torres de Serranos und beim regionalen Bildungsministerium statt."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "it": {
+   "title": "Sciopero generale e proteste a Valencia su alloggi e salari",
+   "seoTitle": "Sciopero generale e protesta per la casa a Valencia",
+   "tea": {
+    "why": "I manifestanti sono in sciopero a causa della crisi dell'accesso agli alloggi, dei salari stagnanti e della necessità di riattivare i contratti collettivi.",
+    "want": "Miglioramento dei salari, migliore accesso agli alloggi e riattivazione della contrattazione collettiva.",
+    "changed": "11 novembre: È in corso uno sciopero generale di 24 ore con vari picchetti e cortei programmati in tutta la città."
+   },
+   "summary": "Uno sciopero generale nazionale si sta svolgendo a Valencia l'11 novembre 2026 per protestare contro la crisi abitativa e chiedere miglioramenti salariali. Organizzata da una coalizione che comprende CCOO PV, UGT PV, IV-PV, CGT, CNT, COS, Sindicat de Llogateres de Valencia, PAH, Sindicat d'Habitatge ed Entrebarris, l'azione è iniziata a mezzanotte con picchetti presso il Municipio, Mercavalencia e i depositi del trasporto pubblico. Durante la giornata, diverse colonne e picchetti si stanno muovendo per la città, inclusa una marcia del settore dell'istruzione. Una manifestazione finale è prevista per la sera, con partenza da via Xàtiva e arrivo al Municipio. Le autorità hanno implementato requisiti di servizio minimo per il trasporto pubblico, fissati all'80% per EMT e Metrovalencia, e al 70% per l'autorità di trasporto metropolitano, preparando al contempo deviazioni del traffico per i percorsi di protesta.",
+   "demands": [
+    "Miglioramento dei salari",
+    "Migliore accesso agli alloggi",
+    "Riattivazione della contrattazione collettiva"
+   ],
+   "response": "Il Consiglio comunale di Valencia ha implementato un piano speciale di gestione del traffico e ha stabilito livelli di servizio minimo per il trasporto pubblico, richiedendo un'operatività dell'80% per EMT e Metrovalencia, e del 70% per l'autorità di trasporto metropolitano.",
+   "updates": [
+    "Lo sciopero generale di 24 ore è iniziato a mezzanotte con picchetti presso il Municipio, Mercavalencia e i depositi degli autobus EMT.",
+    "Picchetti e marce mattutine si sono verificati al porto di Valencia, alle Torres de Serranos e presso il Dipartimento regionale dell'Istruzione."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "pt": {
+   "title": "Greve geral e protestos em Valência sobre habitação e salários",
+   "seoTitle": "Greve geral e protesto por habitação em Valência",
+   "tea": {
+    "why": "Os manifestantes estão em greve devido à crise de acesso à habitação, aos salários estagnados e à necessidade de reativar os contratos coletivos de trabalho.",
+    "want": "Melhoria dos salários, melhor acesso à habitação e a reativação da negociação coletiva.",
+    "changed": "11 de novembro: Uma greve geral de 24 horas está em curso com vários piquetes e marchas agendados por toda a cidade."
+   },
+   "summary": "Uma greve geral nacional está a decorrer em Valência a 11 de novembro de 2026, para protestar contra a crise da habitação e exigir melhorias salariais. Organizada por uma coligação que inclui a CCOO PV, UGT PV, IV-PV, CGT, CNT, COS, Sindicat de Llogateres de Valencia, PAH, Sindicat d'Habitatge e Entrebarris, a ação começou à meia-noite com piquetes na Câmara Municipal, em Mercavalencia e nos depósitos de transportes públicos. Ao longo do dia, várias colunas e piquetes deslocam-se pela cidade, incluindo uma marcha do setor da educação. Uma manifestação final está agendada para a noite, começando na rua Xàtiva e terminando na Câmara Municipal. As autoridades implementaram requisitos de serviços mínimos para os transportes públicos, fixados em 80% para a EMT e Metrovalencia, e 70% para a autoridade de transportes metropolitana, enquanto preparam desvios de tráfego para as rotas de protesto.",
+   "demands": [
+    "Melhoria dos salários",
+    "Melhor acesso à habitação",
+    "Reativação da negociação coletiva"
+   ],
+   "response": "A Câmara Municipal de Valência implementou um plano especial de gestão de tráfego e estabeleceu níveis de serviço mínimo para os transportes públicos, exigindo uma operação de 80% para a EMT e Metrovalencia, e de 70% para a autoridade de transportes metropolitana.",
+   "updates": [
+    "A greve geral de 24 horas começou à meia-noite com piquetes na Câmara Municipal, em Mercavalencia e nos depósitos de autocarros da EMT.",
+    "Piquetes e marchas matinais ocorreram no Porto de Valência, nas Torres de Serranos e no Departamento regional de Educação."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "nl": {
+   "title": "Algemene staking en protesten in Valencia over huisvesting en lonen",
+   "seoTitle": "Algemene staking en woonprotest in Valencia",
+   "tea": {
+    "why": "De demonstranten staken vanwege de crisis in de toegang tot huisvesting, stagnerende lonen en de noodzaak om collectieve arbeidsovereenkomsten te reactiveren.",
+    "want": "Verbeterde lonen, betere toegang tot huisvesting en de reactivering van collectieve onderhandelingen.",
+    "changed": "11 november: Een 24-uurs algemene staking is aan de gang met diverse stakingsposten en marsen gepland door de hele stad."
+   },
+   "summary": "Op 11 november 2026 vindt in Valencia een landelijke algemene staking plaats om te protesteren tegen de wooncrisis en loonverbeteringen te eisen. De actie is georganiseerd door een coalitie waaronder CCOO PV, UGT PV, IV-PV, CGT, CNT, COS, Sindicat de Llogateres de Valencia, PAH, Sindicat d'Habitatge en Entrebarris. De actie begon om middernacht met stakingsposten bij het stadhuis, Mercavalencia en de depots van het openbaar vervoer. Gedurende de dag trekken meerdere colonnes en stakingsposten door de stad, waaronder een mars van de onderwijssector. Een afsluitende grote demonstratie staat gepland voor de avond, beginnend in de Xàtiva-straat en eindigend bij het stadhuis. De autoriteiten hebben minimale dienstverleningseisen voor het openbaar vervoer ingevoerd, vastgesteld op 80% voor EMT en Metrovalencia, en 70% voor de metropolitane vervoersautoriteit, terwijl ze verkeersomleidingen voor de protestroutes voorbereiden.",
+   "demands": [
+    "Verbeterde lonen",
+    "Betere toegang tot huisvesting",
+    "Reactivering van collectieve onderhandelingen"
+   ],
+   "response": "De gemeenteraad van Valencia heeft een speciaal verkeersbeheersplan uitgevoerd en minimale serviceniveaus voor het openbaar vervoer vastgesteld, waarbij een exploitatie van 80% voor EMT en Metrovalencia en 70% voor de metropolitane vervoersautoriteit vereist is.",
+   "updates": [
+    "De 24-uurs algemene staking begon om middernacht met stakingsposten bij het stadhuis, Mercavalencia en de EMT-busdepots.",
+    "Ochtendstakingsposten en marsen vonden plaats bij de haven van Valencia, de Torres de Serranos en het regionale departement van Onderwijs."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  }
+ }
 }

@@ -16,40 +16,41 @@
  "scope": "multi-city",
  "causes": [
   "students",
-  "education",
-  "free-speech"
+  "free-speech",
+  "education"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-10",
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence",
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Students and teachers protested against government plans to alter public television and radio funding and reduce education budgets.",
-  "want": "They demanded the protection of independent public media, stable university funding, and the culture minister's resignation.",
-  "changed": "Nov 10, 2026: Hundreds of students marched through Prague to Republic Square, delivering an open letter with thousands of signatures."
+  "why": "Protesters oppose proposed legislation to change funding for Czech public television and radio and cut culture and education budgets.",
+  "want": "Protesters demand the withdrawal of media funding reforms, resignation of the Culture Minister, and adequate university funding.",
+  "changed": "Nov 10: Hundreds to thousands of university students marched across Prague to a central rally at Republic Square."
  },
- "summary": "University students and faculty members marched through Prague to Republic Square to protest controversial government plans regarding the financing of public broadcasters. Demonstrators criticized proposed changes that would replace license fees with direct state budget funding and reduce financial support, fearing government interference in editorial independence. Protesters also voiced concerns over the underfunding of public universities, science, and culture, while calling for the resignation of Culture Minister Ota Klempíř. The rally featured speeches from university rectors and international press freedom advocates, alongside deliveries of open letters containing thousands of signatures. Similar student demonstrations took place in other Czech cities including Brno, Ostrava, and Pilsen.",
+ "summary": "On November 10, 2026, university students and academics marched through Prague and gathered at Republic Square to protest against proposed changes to public media funding and express concerns over funding for culture, education, and science. Demonstrators opposed government plans to eliminate public broadcasting license fees in favor of direct state budget funding for Czech Television and Czech Radio, as well as proposed budget cuts. Speakers included Charles University Rector Jiří Zima and Reporters Without Borders Director Thibaut Bruttin. Student speakers called for the resignation of Culture Minister Ota Klempíř and the withdrawal of the media funding bill. Organisers estimated attendance at 4,000, while ČTK reporters reported higher hundreds. Similar student demonstrations occurred in several other Czech cities.",
  "organizers": [
-  "Charles University",
-  "Academy of Performing Arts in Prague",
   "Stojíme za kulturou"
  ],
  "demands": [
-  "Preserve independent public media and license fee financing",
-  "Increase funding for public universities and scientific research",
-  "Dismiss the culture minister and revoke certain council appointments",
-  "Withdraw proposed changes to public broadcaster financing"
+  "Withdrawal of proposed public media funding reforms",
+  "Resignation of Culture Minister Ota Klempíř",
+  "Dismissal of new members of the Human Rights Council and Czech Radio Council",
+  "Sufficient, transparent, and sustainable funding for public universities and science"
  ],
- "response": "No official government response to the demonstrations was reported in the sources.",
+ "response": "No official response from the government was reported in the sources.",
  "numbers": {
   "crowd": {
    "value": 4000,
-   "text": "According to the organizers, approximately 4,000 people took part in the Prague demonstration.",
+   "text": "Organisers claimed 4,000 participants, while ČTK reporters estimated higher hundreds",
    "sources": [
     1,
     6
@@ -59,17 +60,14 @@
  "updates": [
   {
    "at": "2026-11-10",
-   "text": "Students gathered in campus areas in Dejvice and marched toward Republic Square in Prague.",
+   "text": "Students marched from several university campuses in Prague to Republic Square to protest proposed public media funding reforms.",
    "sources": [
     1,
-    2
-   ]
-  },
-  {
-   "at": "2026-11-10",
-   "text": "Protesters delivered an open letter with over 2,300 signatures to the government.",
-   "sources": [
-    1
+    2,
+    3,
+    4,
+    5,
+    6
    ]
   }
  ],
@@ -117,22 +115,24 @@
    "publishedAt": "2026-11-11T00:00:46.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.9,
+ "conflicts": [
+  "Organisers claimed 4,000 people attended the Prague demonstration, whereas ČTK reporters estimated the crowd at higher hundreds."
+ ],
+ "confidence": 0.75,
  "publishers": 6,
  "reports24h": 5,
  "reportsPrev24h": 1,
  "reports48h": 6,
  "firstSeenAt": "2026-11-05T17:30:30.969Z",
  "lastReportAt": "2026-11-11T00:00:46.000Z",
- "lastCheckedAt": "2026-11-11T05:58:51.329Z",
- "updatedAt": "2026-11-11T05:57:52.956Z",
+ "lastCheckedAt": "2026-11-11T09:55:17.563Z",
+ "updatedAt": "2026-11-11T09:51:59.113Z",
  "searchedAt": "2026-11-05T20:16:03.911Z",
  "responseSources": [],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-11T05:57:52.956Z",
- "summaryOf": "78405bd4dfe8",
+ "summarizedAt": "2026-11-11T09:51:59.113Z",
+ "summaryOf": "f7f8742ebc89",
  "publishedAt": "2026-11-05T20:21:58.483Z",
  "i18n": {
   "of": "b51fcd3e42b8e060",
