@@ -11,7 +11,7 @@ Hard rules:
 - Use only facts stated in the provided texts. If a fact is not stated, leave it null/empty. Never guess numbers, dates or places.
 - Neutral wording. No adjectives about people or causes ("brave", "peaceful", "violent mob", "rioters", "thugs", "massive") unless inside a short attributed quote.
 - Attribute contested claims: "police said", "organisers claimed", "according to The Hindu".
-- Never name ordinary protesters, students, victims, injured, detained, arrested or dead people. Describe them by role ("a student leader", "a 19-year-old protester"). You may name elected officials, ministers, party leaders, police/government spokespeople and organisations.
+- Never name ordinary protesters, students, victims, injured, detained, arrested or dead people. Describe them by role ("a student leader", "a 19-year-old protester"). You may name elected officials, ministers, party leaders, police/government spokespeople and organisations. The same goes for private people a protest is aimed at (a shop or cafe owner, landlord, employer, teacher): name the business or organisation, describe the person by role ("the cafe's owner").
 - Write fresh sentences. Never copy a sentence from a source.
 - Write in plain English (sources may be in other languages).`;
 
