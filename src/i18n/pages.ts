@@ -32,7 +32,7 @@ const en: Record<InfoKey, InfoContent> = {
     description: 'LOUD (protesttracker.online) is an independent protest tracker published by FinTrack AI Solutions. Who runs it, how pages are made, how it is paid for and how to reach us.',
     eyebrow: 'Who is behind this',
     h1: 'About LOUD',
-    intro: 'LOUD is an independent, neutral tracker of protests, strikes and demonstrations. Every page says why people are protesting, what they want, how the authorities answered and whether it is still on, with a link to every source. It started in October 2026 and follows {countries} countries in six languages.',
+    intro: 'LOUD is an independent, neutral tracker of protests, strikes and demonstrations. Every page says why people are protesting, what they want, how the authorities answered and whether it is still on, with a link to every source. It started in October 2026 and follows {countries} countries in nine languages.',
     sections: [
       {
         id: 'who',
@@ -159,7 +159,7 @@ const fr: Record<InfoKey, InfoContent> = {
     description: 'LOUD (protesttracker.online) est un suivi indépendant des manifestations, publié par FinTrack AI Solutions. Qui le gère, comment les pages sont faites, qui paie et comment nous écrire.',
     eyebrow: 'Qui est derrière',
     h1: 'À propos de LOUD',
-    intro: 'LOUD est un suivi indépendant et neutre des manifestations, des grèves et des rassemblements. Chaque page dit pourquoi les gens manifestent, ce qu’ils demandent, ce que les autorités ont répondu et si c’est toujours en cours, avec un lien vers chaque source. Le site a démarré en octobre 2026 et suit {countries} pays en six langues.',
+    intro: 'LOUD est un suivi indépendant et neutre des manifestations, des grèves et des rassemblements. Chaque page dit pourquoi les gens manifestent, ce qu’ils demandent, ce que les autorités ont répondu et si c’est toujours en cours, avec un lien vers chaque source. Le site a démarré en octobre 2026 et suit {countries} pays en neuf langues.',
     sections: [
       {
         id: 'who',
@@ -286,7 +286,7 @@ const de: Record<InfoKey, InfoContent> = {
     description: 'LOUD (protesttracker.online) ist ein unabhängiger Protest-Tracker von FinTrack AI Solutions. Wer ihn betreibt, wie die Seiten entstehen, wer bezahlt und wie du uns erreichst.',
     eyebrow: 'Wer dahintersteht',
     h1: 'Über LOUD',
-    intro: 'LOUD ist ein unabhängiger, neutraler Tracker für Proteste, Streiks und Demos. Jede Seite sagt, warum Menschen protestieren, was sie fordern, wie die Behörden reagiert haben und ob es noch läuft, mit einem Link zu jeder Quelle. LOUD ist im Oktober 2026 gestartet und verfolgt {countries} Länder in sechs Sprachen.',
+    intro: 'LOUD ist ein unabhängiger, neutraler Tracker für Proteste, Streiks und Demos. Jede Seite sagt, warum Menschen protestieren, was sie fordern, wie die Behörden reagiert haben und ob es noch läuft, mit einem Link zu jeder Quelle. LOUD ist im Oktober 2026 gestartet und verfolgt {countries} Länder in neun Sprachen.',
     sections: [
       {
         id: 'who',
@@ -413,7 +413,7 @@ const es: Record<InfoKey, InfoContent> = {
     description: 'LOUD (protesttracker.online) es un rastreador de protestas independiente, publicado por FinTrack AI Solutions. Quién lo lleva, cómo se hacen las páginas, quién lo paga y cómo escribirnos.',
     eyebrow: 'Quién está detrás',
     h1: 'Sobre LOUD',
-    intro: 'LOUD es un rastreador independiente y neutral de protestas, huelgas y manifestaciones. Cada página dice por qué protesta la gente, qué pide, qué respondieron las autoridades y si sigue en marcha, con un enlace a cada fuente. Empezó en octubre de 2026 y sigue {countries} países en seis idiomas.',
+    intro: 'LOUD es un rastreador independiente y neutral de protestas, huelgas y manifestaciones. Cada página dice por qué protesta la gente, qué pide, qué respondieron las autoridades y si sigue en marcha, con un enlace a cada fuente. Empezó en octubre de 2026 y sigue {countries} países en nueve idiomas.',
     sections: [
       {
         id: 'who',
@@ -540,7 +540,7 @@ const hi: Record<InfoKey, InfoContent> = {
     description: 'LOUD (protesttracker.online) एक स्वतंत्र प्रोटेस्ट ट्रैकर है, जिसे FinTrack AI Solutions प्रकाशित करता है। इसे कौन चलाता है, पेज कैसे बनते हैं, ख़र्च कौन उठाता है और हमसे संपर्क कैसे करें।',
     eyebrow: 'इसके पीछे कौन है',
     h1: 'LOUD के बारे में',
-    intro: 'LOUD विरोध प्रदर्शनों, हड़तालों और धरनों का एक स्वतंत्र और निष्पक्ष ट्रैकर है। हर पेज बताता है कि लोग क्यों विरोध कर रहे हैं, क्या चाहते हैं, प्रशासन ने क्या जवाब दिया और क्या यह अब भी जारी है, और हर बात के साथ स्रोत का लिंक होता है। यह अक्टूबर 2026 में शुरू हुआ और छह भाषाओं में {countries} देशों पर नज़र रखता है।',
+    intro: 'LOUD विरोध प्रदर्शनों, हड़तालों और धरनों का एक स्वतंत्र और निष्पक्ष ट्रैकर है। हर पेज बताता है कि लोग क्यों विरोध कर रहे हैं, क्या चाहते हैं, प्रशासन ने क्या जवाब दिया और क्या यह अब भी जारी है, और हर बात के साथ स्रोत का लिंक होता है। यह अक्टूबर 2026 में शुरू हुआ और नौ भाषाओं में {countries} देशों पर नज़र रखता है।',
     sections: [
       {
         id: 'who',
@@ -667,7 +667,7 @@ const mr: Record<InfoKey, InfoContent> = {
     description: 'LOUD (protesttracker.online) हा एक स्वतंत्र आंदोलन ट्रॅकर आहे; तो FinTrack AI Solutions प्रकाशित करते. तो कोण चालवते, पाने कशी तयार होतात, खर्च कोण करते आणि आमच्याशी संपर्क कसा साधायचा.',
     eyebrow: 'यामागे कोण आहे',
     h1: 'LOUD विषयी',
-    intro: 'LOUD हा आंदोलने, संप आणि निदर्शनांचा स्वतंत्र आणि निःपक्ष ट्रॅकर आहे. प्रत्येक पान सांगते की लोक आंदोलन का करत आहेत, त्यांना काय हवे आहे, प्रशासनाने काय उत्तर दिले आणि ते अजून सुरू आहे का, आणि प्रत्येक गोष्टीसोबत स्रोताची लिंक असते. तो ऑक्टोबर 2026 मध्ये सुरू झाला आणि सहा भाषांमध्ये {countries} देशांवर लक्ष ठेवतो.',
+    intro: 'LOUD हा आंदोलने, संप आणि निदर्शनांचा स्वतंत्र आणि निःपक्ष ट्रॅकर आहे. प्रत्येक पान सांगते की लोक आंदोलन का करत आहेत, त्यांना काय हवे आहे, प्रशासनाने काय उत्तर दिले आणि ते अजून सुरू आहे का, आणि प्रत्येक गोष्टीसोबत स्रोताची लिंक असते. तो ऑक्टोबर 2026 मध्ये सुरू झाला आणि नऊ भाषांमध्ये {countries} देशांवर लक्ष ठेवतो.',
     sections: [
       {
         id: 'who',
@@ -788,6 +788,387 @@ const mr: Record<InfoKey, InfoContent> = {
   },
 };
 
-const ALL: Record<Lang, Record<InfoKey, InfoContent>> = { en, hi, mr, es, fr, de };
+const it: Record<InfoKey, InfoContent> = {
+  about: {
+    title: 'Chi siamo: chi gestisce LOUD, il tracker delle proteste, e come funziona',
+    description: 'LOUD (protesttracker.online) è un tracker indipendente delle proteste pubblicato da FinTrack AI Solutions. Chi lo gestisce, come nascono le pagine, chi lo paga e come contattarci.',
+    eyebrow: 'Chi c’è dietro',
+    h1: 'Chi siamo',
+    intro: 'LOUD è un tracker indipendente e neutrale di proteste, scioperi e manifestazioni. Ogni pagina dice perché le persone protestano, cosa chiedono, come hanno risposto le autorità e se è ancora in corso, con un link a ogni fonte. È nato nell’ottobre 2026 e segue {countries} paesi in nove lingue.',
+    sections: [
+      {
+        id: 'who',
+        h: 'Chi gestisce LOUD',
+        p: [
+          'LOUD è creato, gestito e finanziato da {publisher}, un’azienda che sviluppa siti web e software di automazione.',
+          'LOUD non è legato a nessun governo, partito politico, gruppo di attivisti od organizzatore di proteste. Non organizziamo, promuoviamo né contrastiamo alcuna protesta.',
+        ],
+      },
+      {
+        id: 'how',
+        h: 'Come nascono le pagine',
+        p: [
+          'LOUD è prodotto da un software, e lo diciamo chiaramente. Un programma legge le notizie ogni 4 ore. Un modello di IA scrive un breve riassunto originale solo quando almeno {min} redazioni indipendenti riportano la stessa protesta. Sono regole fisse, non l’IA, a decidere lo stato, il punteggio di affidabilità e la Modalità seria.',
+          'Noi curiamo queste regole, rispondiamo alle richieste di correzione e togliamo tutto ciò che le viola. Il metodo completo, la formula di affidabilità e ciò che ci può sfuggire sono su {how}.',
+        ],
+      },
+      {
+        id: 'standards',
+        h: 'Le regole che ci diamo',
+        list: [
+          '<strong>Parole neutrali.</strong> Le richieste dei manifestanti e la risposta ufficiale, ciascuna con le sue fonti.',
+          '<strong>Solo la città.</strong> Niente punti di ritrovo, percorsi o spostamenti in diretta.',
+          '<strong>Niente nomi né volti</strong> di partecipanti comuni, né di persone ferite, fermate o uccise.',
+          '<strong>Solo testo originale.</strong> Rimandiamo agli articoli e non copiamo mai testi o foto.',
+          '<strong>Niente battute quando qualcuno si fa male.</strong> Quelle pagine passano a una grafica grigia e sobria.',
+        ],
+      },
+      {
+        id: 'funding',
+        h: 'Chi paga LOUD',
+        p: [
+          'LOUD è gratuito. Lo paga il suo editore. La barra in fondo ad alcune pagine promuove {kryvault}, un prodotto dello stesso proprietario; non compare mai sulle pagine in Modalità seria né sul modulo di segnalazione.',
+          'LOUD non ha altri inserzionisti, sponsor o finanziatori esterni, e nessuno può pagare per aggiungere, modificare o togliere una protesta.',
+        ],
+      },
+      {
+        id: 'contact',
+        h: 'Correzioni e contatti',
+        p: [
+          'Hai trovato un errore, o il tuo nome compare su una pagina e vuoi che venga cambiato? Scrivi a {email} con il link della pagina. Correggiamo in fretta gli errori verificati, e l’orario di «aggiornato» della pagina cambia quando lo facciamo.',
+          'Lo stesso indirizzo vale per stampa, dati e privacy. Cosa raccogliamo è spiegato in {privacy}.',
+        ],
+      },
+    ],
+    updated: 'Ultima verifica',
+  },
+  privacy: {
+    title: 'Privacy: cosa raccoglie LOUD e cosa no',
+    description: 'LOUD non ha account, cookie né tracciamento pubblicitario. Cosa raccolgono il conteggio delle visite, il modulo di segnalazione e le email, chi tratta i dati e quali sono i tuoi diritti.',
+    eyebrow: 'In breve: pochissimo',
+    h1: 'Privacy',
+    intro: 'Puoi leggere LOUD senza account, e non usiamo cookie. Questa pagina elenca tutto ciò che viene raccolto quando usi protesttracker.online, perché e chi se ne occupa.',
+    sections: [
+      {
+        id: 'who',
+        h: 'Chi è responsabile',
+        p: ['LOUD è pubblicato da {publisher}, che decide come vengono usati i dati descritti qui. Domande e richieste: {email}.'],
+      },
+      {
+        id: 'reading',
+        h: 'Quando leggi il sito',
+        list: [
+          '<strong>Niente cookie, niente account, niente tracciamento pubblicitario.</strong> Non creiamo profili e non vendiamo né condividiamo dati per la pubblicità.',
+          '<strong>Conteggio delle visite.</strong> Usiamo Cloudflare Web Analytics. Carica un piccolo script da Cloudflare e registra la pagina, il sito da cui arrivi, il tuo paese, il browser e il tipo di dispositivo, e la velocità di caricamento. Non usa cookie e non ti segue da un sito all’altro.',
+          '<strong>Log del server.</strong> Il sito è ospitato su Cloudflare. Come ogni hosting, tratta il tuo indirizzo IP e i dati del browser per consegnare le pagine e bloccare gli attacchi. Non usiamo questi log per identificare chi legge.',
+          '<strong>Due impostazioni salvate nel tuo browser.</strong> Tema chiaro o scuro, e se hai chiuso la barra di KryVault (ricordato per 30 giorni). Restano sul tuo dispositivo e non ci vengono inviate.',
+          '<strong>La barra di KryVault.</strong> Un clic o una chiusura aggiunge uno al totale giornaliero per paese. Non viene salvato nessun indirizzo IP, cookie o identificativo. KryVault è un sito separato con la sua informativa sulla privacy.',
+          '<strong>Caratteri e mappe</strong> arrivano dal nostro dominio, non da altre aziende.',
+        ],
+      },
+      {
+        id: 'report',
+        h: 'Quando aggiungi una protesta',
+        p: ['Il modulo su {add} non chiede nome, email né numero di telefono. Per favore non scriverci dati personali tuoi o di altre persone.'],
+        list: [
+          'Ciò che scrivi (titolo, città, data, motivi, richieste, organizzatori e un link facoltativo) resta in un database privato su Cloudflare finché non viene controllato, di solito entro poche ore, poi viene cancellato da quella casella.',
+          'Per limitare quante segnalazioni una persona può inviare al giorno, conserviamo un breve codice non reversibile ricavato dal tuo indirizzo IP. Cambia ogni giorno e viene cancellato insieme alla segnalazione. L’indirizzo IP in sé non lo conserviamo.',
+          'Un servizio di IA (al momento Gemini di Google) controlla la segnalazione e la riscrive con parole neutrali. Se la supera, il testo riscritto e il tuo link vengono mostrati pubblicamente, con l’etichetta di segnalazione di un lettore non verificata. Le tue parole originali non vengono pubblicate.',
+          'Le segnalazioni che parlano di morti, feriti o arresti restano nascoste finché le redazioni non le confermano. Quelle che le redazioni non confermano mai lasciano il sito dopo la fine della protesta.',
+        ],
+      },
+      {
+        id: 'email',
+        h: 'Quando ci scrivi',
+        p: ['Riceviamo il tuo indirizzo email e il tuo messaggio e li usiamo solo per risponderti e correggere il sito. La posta inviata al nostro indirizzo viene inoltrata da Cloudflare alla nostra casella.'],
+      },
+      {
+        id: 'people',
+        h: 'Le persone nominate nelle pagine',
+        p: [
+          'LOUD riassume notizie già pubblicate. La nostra regola è nominare solo organizzazioni, partiti, eletti e portavoce ufficiali, mai partecipanti comuni né persone ferite, fermate o uccise.',
+          'Se trovi il tuo nome su LOUD e pensi che non dovrebbe esserci, scrivi a {email} con il link della pagina. Lo verificheremo in fretta.',
+        ],
+      },
+      {
+        id: 'processors',
+        h: 'Chi tratta i dati',
+        list: [
+          '<strong>Cloudflare:</strong> hosting, conteggio delle visite, casella delle segnalazioni e inoltro della posta.',
+          '<strong>GitHub:</strong> conserva il codice del sito e i dati pubblicati sulle proteste, ed esegue il programma che li produce.',
+          '<strong>Google (Gemini):</strong> scrive i riassunti a partire dalle notizie e controlla le segnalazioni dei lettori.',
+        ],
+        after: ['Queste aziende possono trattare dati fuori dal tuo paese, anche negli Stati Uniti. Non vendiamo dati personali.'],
+      },
+      {
+        id: 'rights',
+        h: 'I tuoi diritti',
+        p: ['Non abbiamo quasi nulla che ti identifichi. Se ci hai scritto, o pensi che una pagina contenga tuoi dati personali, puoi chiederne una copia, la correzione o la cancellazione a {email}; rispondiamo entro 30 giorni. Se vivi nell’UE o nel Regno Unito puoi anche opporti al trattamento e presentare reclamo alla tua autorità per la protezione dei dati (in Italia, il Garante per la protezione dei dati personali).'],
+      },
+      {
+        id: 'changes',
+        h: 'Modifiche',
+        p: ['Se cambia ciò che raccogliamo, aggiorniamo questa pagina e la data qui sotto.'],
+      },
+    ],
+    updated: 'Ultimo aggiornamento',
+  },
+};
+
+const pt: Record<InfoKey, InfoContent> = {
+  about: {
+    title: 'Sobre o LOUD: quem gere o rastreador de protestos e como funciona',
+    description: 'O LOUD (protesttracker.online) é um rastreador independente de protestos publicado pela FinTrack AI Solutions. Quem o gere, como são feitas as páginas, quem paga e como nos contactar.',
+    eyebrow: 'Quem está por trás',
+    h1: 'Sobre o LOUD',
+    intro: 'O LOUD é um rastreador independente e neutro de protestos, greves e manifestações. Cada página diz porque as pessoas protestam, o que exigem, como responderam as autoridades e se ainda está a decorrer, com um link para cada fonte. Começou em outubro de 2026 e acompanha {countries} países em nove línguas.',
+    sections: [
+      {
+        id: 'who',
+        h: 'Quem gere o LOUD',
+        p: [
+          'O LOUD é criado, gerido e pago pela {publisher}, uma empresa que desenvolve sites e software de automação.',
+          'O LOUD não está ligado a nenhum governo, partido político, grupo ativista ou organizador de protestos. Não organizamos, promovemos nem combatemos nenhum protesto.',
+        ],
+      },
+      {
+        id: 'how',
+        h: 'Como são feitas as páginas',
+        p: [
+          'O LOUD é produzido por software, e dizemo-lo claramente. Um programa lê as notícias a cada 4 horas. Um modelo de IA escreve um resumo curto e original só quando pelo menos {min} redações independentes noticiam o mesmo protesto. São regras fixas, e não a IA, que definem o estado, a pontuação de confiança e o Modo sério.',
+          'Somos nós que mantemos essas regras, respondemos a pedidos de correção e retiramos tudo o que as viole. O método completo, a fórmula de confiança e o que nos pode escapar estão em {how}.',
+        ],
+      },
+      {
+        id: 'standards',
+        h: 'As regras que seguimos',
+        list: [
+          '<strong>Palavras neutras.</strong> As exigências dos manifestantes e a resposta oficial, cada uma com as suas fontes.',
+          '<strong>Só a cidade.</strong> Nada de pontos de encontro, percursos ou movimentos em direto.',
+          '<strong>Sem nomes nem rostos</strong> de participantes comuns, nem de pessoas feridas, detidas ou mortas.',
+          '<strong>Só texto original.</strong> Remetemos para as notícias e nunca copiamos textos ou fotos.',
+          '<strong>Sem piadas quando alguém se magoa.</strong> Essas páginas passam a um design cinzento e sóbrio.',
+        ],
+      },
+      {
+        id: 'funding',
+        h: 'Quem paga o LOUD',
+        p: [
+          'O LOUD é gratuito. Quem paga é o seu editor. A barra no fundo de algumas páginas promove o {kryvault}, um produto do mesmo dono; nunca aparece nas páginas em Modo sério nem no formulário de relatos.',
+          'O LOUD não tem outros anunciantes, patrocinadores ou financiadores externos, e ninguém pode pagar para acrescentar, alterar ou retirar um protesto.',
+        ],
+      },
+      {
+        id: 'contact',
+        h: 'Correções e contacto',
+        p: [
+          'Encontraste um erro, ou o teu nome aparece numa página e queres que seja alterado? Escreve para {email} com o link da página. Corrigimos depressa os erros confirmados, e a hora de «atualizado» da página muda quando o fazemos.',
+          'O mesmo endereço serve para imprensa, dados e privacidade. O que recolhemos está em {privacy}.',
+        ],
+      },
+    ],
+    updated: 'Última verificação',
+  },
+  privacy: {
+    title: 'Privacidade: o que o LOUD recolhe e o que não recolhe',
+    description: 'O LOUD não tem contas, cookies nem rastreamento publicitário. O que recolhem a contagem de visitas, o formulário de relatos e o email, quem trata os dados e quais são os teus direitos.',
+    eyebrow: 'Em resumo: muito pouco',
+    h1: 'Privacidade',
+    intro: 'Podes ler o LOUD sem conta, e não usamos cookies. Esta página enumera tudo o que é recolhido quando usas o protesttracker.online, porquê, e quem trata disso.',
+    sections: [
+      {
+        id: 'who',
+        h: 'Quem é o responsável',
+        p: ['O LOUD é publicado pela {publisher}, que decide como são usados os dados descritos aqui. Perguntas e pedidos: {email}.'],
+      },
+      {
+        id: 'reading',
+        h: 'Quando lês o site',
+        list: [
+          '<strong>Sem cookies, sem contas, sem rastreadores publicitários.</strong> Não criamos perfis, e não vendemos nem partilhamos dados para publicidade.',
+          '<strong>Contagem de visitas.</strong> Usamos o Cloudflare Web Analytics. Carrega um pequeno script da Cloudflare e regista a página, o site de onde vens, o teu país, o browser e o tipo de dispositivo, e a velocidade de carregamento. Não usa cookies nem te segue de site em site.',
+          '<strong>Registos do servidor.</strong> O site está alojado na Cloudflare. Como qualquer alojamento, trata o teu endereço IP e os dados do browser para entregar as páginas e travar ataques. Não usamos esses registos para identificar leitores.',
+          '<strong>Duas definições guardadas no teu browser.</strong> Tema claro ou escuro, e se fechaste a barra do KryVault (lembrado durante 30 dias). Ficam no teu dispositivo e não nos são enviadas.',
+          '<strong>A barra do KryVault.</strong> Um clique ou um fecho soma um ao total diário por país. Não fica guardado nenhum endereço IP, cookie ou identificador. O KryVault é um site à parte, com a sua própria política de privacidade.',
+          '<strong>Tipos de letra e mapas</strong> vêm do nosso próprio domínio, não de outras empresas.',
+        ],
+      },
+      {
+        id: 'report',
+        h: 'Quando adicionas um protesto',
+        p: ['O formulário em {add} não pede o teu nome, email nem número de telefone. Por favor, não escrevas lá dados pessoais teus nem de outras pessoas.'],
+        list: [
+          'O que escreves (título, cidade, data, motivos, exigências, organizadores e um link opcional) fica numa base de dados privada na Cloudflare até ser verificado, normalmente em poucas horas, e depois é apagado dessa caixa.',
+          'Para limitar quantos relatos uma pessoa pode enviar por dia, guardamos um código curto e irreversível calculado a partir do teu endereço IP. Muda todos os dias e é apagado com o relato. Não guardamos o endereço IP em si.',
+          'Um serviço de IA (neste momento o Gemini, da Google) verifica o relato e reescreve-o em palavras neutras. Se passar, o texto reescrito e o teu link são mostrados publicamente, com a etiqueta de relato de leitor não verificado. As tuas palavras originais não são publicadas.',
+          'Os relatos que falam de mortes, feridos ou detenções ficam escondidos até as redações os confirmarem. Os que as redações nunca confirmam saem do site depois de o protesto terminar.',
+        ],
+      },
+      {
+        id: 'email',
+        h: 'Quando nos escreves',
+        p: ['Recebemos o teu endereço de email e a tua mensagem, e só os usamos para te responder e corrigir o site. O correio enviado para o nosso endereço é reencaminhado pela Cloudflare para a nossa caixa.'],
+      },
+      {
+        id: 'people',
+        h: 'Pessoas nomeadas nas páginas',
+        p: [
+          'O LOUD resume notícias já publicadas. A nossa regra é nomear só organizações, partidos, eleitos e porta-vozes oficiais, nunca participantes comuns nem pessoas feridas, detidas ou mortas.',
+          'Se encontrares o teu nome no LOUD e achares que não devia lá estar, escreve para {email} com o link da página. Vamos analisar depressa.',
+        ],
+      },
+      {
+        id: 'processors',
+        h: 'Quem trata os dados',
+        list: [
+          '<strong>Cloudflare:</strong> alojamento, contagem de visitas, caixa de relatos e reencaminhamento de email.',
+          '<strong>GitHub:</strong> guarda o código do site e os dados publicados sobre protestos, e corre o programa que os produz.',
+          '<strong>Google (Gemini):</strong> escreve os resumos a partir das notícias e verifica os relatos dos leitores.',
+        ],
+        after: ['Estas empresas podem tratar dados fora do teu país, incluindo nos Estados Unidos. Não vendemos dados pessoais.'],
+      },
+      {
+        id: 'rights',
+        h: 'Os teus direitos',
+        p: ['Não temos quase nada que te identifique. Se nos escreveste, ou achas que uma página contém dados pessoais teus, podes pedir uma cópia, a correção ou o apagamento em {email}; respondemos no prazo de 30 dias. Se vives na UE ou no Reino Unido, também podes opor-te ao tratamento e apresentar queixa à tua autoridade de proteção de dados (em Portugal, a CNPD).'],
+      },
+      {
+        id: 'changes',
+        h: 'Alterações',
+        p: ['Se o que recolhemos mudar, atualizamos esta página e a data abaixo.'],
+      },
+    ],
+    updated: 'Última atualização',
+  },
+};
+
+const nl: Record<InfoKey, InfoContent> = {
+  about: {
+    title: 'Over LOUD: wie de protesttracker maakt en hoe hij werkt',
+    description: 'LOUD (protesttracker.online) is een onafhankelijke protesttracker, uitgegeven door FinTrack AI Solutions. Wie hem maakt, hoe de pagina’s ontstaan, wie betaalt en hoe je ons bereikt.',
+    eyebrow: 'Wie erachter zit',
+    h1: 'Over LOUD',
+    intro: 'LOUD is een onafhankelijke, neutrale tracker van protesten, stakingen en demonstraties. Elke pagina vertelt waarom mensen protesteren, wat ze willen, hoe de autoriteiten reageerden en of het nog bezig is, met een link naar elke bron. LOUD begon in oktober 2026 en volgt {countries} landen in negen talen.',
+    sections: [
+      {
+        id: 'who',
+        h: 'Wie LOUD maakt',
+        p: [
+          'LOUD wordt gebouwd, beheerd en betaald door {publisher}, een bedrijf dat websites en automatiseringssoftware maakt.',
+          'LOUD is niet verbonden aan een regering, politieke partij, actiegroep of organisator van protesten. We organiseren, promoten of bestrijden geen enkel protest.',
+        ],
+      },
+      {
+        id: 'how',
+        h: 'Hoe de pagina’s ontstaan',
+        p: [
+          'LOUD wordt door software gemaakt, en dat zeggen we eerlijk. Een programma leest elke 4 uur het nieuws. Een AI-model schrijft alleen een korte, eigen samenvatting als minstens {min} onafhankelijke redacties over hetzelfde protest berichten. Vaste regels, niet de AI, bepalen de status, de betrouwbaarheidsscore en de Ernstige modus.',
+          'Wij onderhouden die regels, reageren op verzoeken om correctie en halen weg wat ze overtreedt. De volledige methode, de betrouwbaarheidsformule en wat we kunnen missen staan op {how}.',
+        ],
+      },
+      {
+        id: 'standards',
+        h: 'Waar we ons aan houden',
+        list: [
+          '<strong>Neutrale woorden.</strong> De eisen van demonstranten en de officiële reactie, elk met bronnen.',
+          '<strong>Alleen de stad.</strong> Geen verzamelplekken, routes of live bewegingen.',
+          '<strong>Geen namen of gezichten</strong> van gewone deelnemers, of van mensen die gewond raakten, werden aangehouden of omkwamen.',
+          '<strong>Alleen eigen tekst.</strong> We linken naar de berichtgeving en kopiëren nooit artikelen of foto’s.',
+          '<strong>Geen grappen als mensen gewond raken.</strong> Die pagina’s schakelen over op een rustig, grijs ontwerp.',
+        ],
+      },
+      {
+        id: 'funding',
+        h: 'Wie LOUD betaalt',
+        p: [
+          'LOUD is gratis te lezen. De uitgever betaalt het. De balk onderaan sommige pagina’s promoot {kryvault}, een product van dezelfde eigenaar; hij verschijnt nooit op pagina’s in Ernstige modus of op het meldformulier.',
+          'LOUD heeft geen andere adverteerders, sponsors of externe financiers, en niemand kan betalen om een protest toe te voegen, te wijzigen of te verwijderen.',
+        ],
+      },
+      {
+        id: 'contact',
+        h: 'Correcties en contact',
+        p: [
+          'Een fout gezien, of staat je naam op een pagina en wil je dat veranderen? Mail {email} met de link van de pagina. We herstellen bevestigde fouten snel, en de „bijgewerkt”-tijd van de pagina verandert dan.',
+          'Hetzelfde adres is er voor pers, data en privacy. Wat we verzamelen staat op {privacy}.',
+        ],
+      },
+    ],
+    updated: 'Laatst gecontroleerd',
+  },
+  privacy: {
+    title: 'Privacy: wat LOUD wel en niet verzamelt',
+    description: 'LOUD heeft geen accounts, geen cookies en geen advertentietracking. Wat bezoekstatistieken, het meldformulier en e-mail verzamelen, wie de gegevens verwerkt en wat je rechten zijn.',
+    eyebrow: 'Kort gezegd: heel weinig',
+    h1: 'Privacy',
+    intro: 'Je kunt LOUD lezen zonder account, en we plaatsen geen cookies. Op deze pagina staat alles wat er wordt verzameld als je protesttracker.online gebruikt, waarom, en wie ermee omgaat.',
+    sections: [
+      {
+        id: 'who',
+        h: 'Wie verantwoordelijk is',
+        p: ['LOUD wordt uitgegeven door {publisher}, dat bepaalt hoe de hier beschreven gegevens worden gebruikt. Vragen en verzoeken: {email}.'],
+      },
+      {
+        id: 'reading',
+        h: 'Als je de site leest',
+        list: [
+          '<strong>Geen cookies, geen accounts, geen advertentietrackers.</strong> We maken geen profielen en verkopen of delen geen gegevens voor advertenties.',
+          '<strong>Bezoekstatistieken.</strong> We gebruiken Cloudflare Web Analytics. Dat laadt een klein script van Cloudflare en registreert de pagina, de site waar je vandaan kwam, je land, browser en type apparaat, en hoe snel de pagina laadde. Het plaatst geen cookies en volgt je niet over sites heen.',
+          '<strong>Serverlogs.</strong> De site draait bij Cloudflare. Zoals elke hostingpartij verwerkt Cloudflare je IP-adres en browsergegevens om pagina’s te leveren en aanvallen tegen te houden. Wij gebruiken die logs niet om lezers te herkennen.',
+          '<strong>Twee instellingen in je browser.</strong> Licht of donker thema, en of je de KryVault-balk hebt gesloten (30 dagen onthouden). Ze blijven op je apparaat en worden niet naar ons gestuurd.',
+          '<strong>De KryVault-balk.</strong> Een klik of het sluiten telt één op bij een dagtotaal per land. Daarbij wordt geen IP-adres, cookie of ID opgeslagen. KryVault is een aparte site met een eigen privacybeleid.',
+          '<strong>Lettertypes en kaarten</strong> komen van ons eigen domein, niet van andere bedrijven.',
+        ],
+      },
+      {
+        id: 'report',
+        h: 'Als je een protest toevoegt',
+        p: ['Het formulier op {add} vraagt niet om je naam, e-mailadres of telefoonnummer. Zet er alsjeblieft geen persoonlijke gegevens van jezelf of anderen in.'],
+        list: [
+          'Wat je invult (kop, stad, datum, redenen, eisen, organisatoren en een optionele link) staat in een afgeschermde database bij Cloudflare tot het is gecontroleerd, meestal binnen een paar uur, en wordt daarna uit die inbox verwijderd.',
+          'Om te beperken hoeveel meldingen iemand per dag kan sturen, bewaren we een korte code die in één richting uit je IP-adres is berekend. Die verandert elke dag en wordt met de melding verwijderd. Het IP-adres zelf bewaren we niet.',
+          'Een AI-dienst (op dit moment Gemini van Google) controleert de melding en herschrijft haar in neutrale woorden. Komt ze erdoor, dan worden de herschreven tekst en je link openbaar getoond, met het label ongecontroleerde lezersmelding. Je eigen woorden worden niet gepubliceerd.',
+          'Meldingen over doden, gewonden of arrestaties blijven verborgen tot redacties ze bevestigen. Meldingen die redacties nooit bevestigen, verdwijnen van de site nadat het protest is afgelopen.',
+        ],
+      },
+      {
+        id: 'email',
+        h: 'Als je ons mailt',
+        p: ['We ontvangen je e-mailadres en je bericht en gebruiken die alleen om je te antwoorden en de site te verbeteren. Mail aan ons adres wordt door Cloudflare doorgestuurd naar onze mailbox.'],
+      },
+      {
+        id: 'people',
+        h: 'Mensen die op protestpagina’s worden genoemd',
+        p: [
+          'LOUD vat gepubliceerd nieuws samen. Onze regel is dat we alleen organisaties, partijen, gekozen bestuurders en officiële woordvoerders noemen, nooit gewone deelnemers of mensen die gewond raakten, werden aangehouden of omkwamen.',
+          'Vind je je naam op LOUD en vind je dat die er niet hoort, mail dan {email} met de link van de pagina. We kijken er snel naar.',
+        ],
+      },
+      {
+        id: 'processors',
+        h: 'Wie de gegevens verwerkt',
+        list: [
+          '<strong>Cloudflare:</strong> hosting, bezoekstatistieken, de inbox voor meldingen en het doorsturen van mail.',
+          '<strong>GitHub:</strong> bewaart de code van de site en de gepubliceerde protestgegevens, en draait het programma dat ze maakt.',
+          '<strong>Google (Gemini):</strong> schrijft samenvattingen op basis van nieuwsberichten en controleert lezersmeldingen.',
+        ],
+        after: ['Deze bedrijven kunnen gegevens buiten je land verwerken, ook in de Verenigde Staten. We verkopen geen persoonsgegevens.'],
+      },
+      {
+        id: 'rights',
+        h: 'Je rechten',
+        p: ['We hebben bijna niets waarmee je herkenbaar bent. Heb je ons gemaild, of denk je dat een pagina persoonsgegevens van jou bevat, dan kun je via {email} om een kopie, een correctie of verwijdering vragen; we antwoorden binnen 30 dagen. Woon je in de EU of het VK, dan kun je ook bezwaar maken tegen de verwerking en een klacht indienen bij je toezichthouder (in Nederland de Autoriteit Persoonsgegevens).'],
+      },
+      {
+        id: 'changes',
+        h: 'Wijzigingen',
+        p: ['Als verandert wat we verzamelen, passen we deze pagina en de datum hieronder aan.'],
+      },
+    ],
+    updated: 'Laatst bijgewerkt',
+  },
+};
+
+const ALL: Record<Lang, Record<InfoKey, InfoContent>> = { en, hi, mr, es, fr, de, it, pt, nl };
 
 export const infoContent = (page: InfoKey, lang: Lang): InfoContent => ALL[lang][page];

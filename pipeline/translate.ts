@@ -41,12 +41,22 @@ export const englishHash = (e: ProtestEvent) => sha(JSON.stringify([PROMPT_VERSI
 
 const MAX_TRIES = 3;
 /** Shown on the site and not yet (fully) translated from its current English. */
-export const needsTranslation = (e: ProtestEvent) =>
+export const needsTranslation = (e: ProtestEvent, now = Date.now()) =>
   e.published && !!e.slug && (e.stage === 'live' || e.origin === 'reader') &&
-  (e.i18n?.of !== englishHash(e) || (absent(e).length > 0 && (e.i18n.tries ?? 1) < MAX_TRIES));
+  (e.i18n?.of !== englishHash(e) || (absent(e, now).length > 0 && (e.i18n.tries ?? 1) < MAX_TRIES));
 
-/** Site languages this event has no translation for yet. */
-const absent = (e: ProtestEvent) => TRANSLATE_TO.filter((l) => !e.i18n?.[l.code]);
+type Target = (typeof TRANSLATE_TO)[number];
+const has = (e: ProtestEvent, l: Target) => !!e.i18n?.[l.code];
+/** Live, upcoming or reported in the last week: worth a newly added language. */
+const current = (e: ProtestEvent, now: number) => e.isOngoing || e.status === 'scheduled' || now - Date.parse(e.lastReportAt || e.firstSeenAt) < 7 * 864e5;
+
+/** The languages this event is translated into (see TRANSLATE_TO: legacy and since). */
+export const wantedLangs = (e: ProtestEvent, now = Date.now()) =>
+  TRANSLATE_TO.filter((l) => has(e, l) || (!l.legacy && (!l.since || (e.publishedAt ?? e.firstSeenAt) >= l.since || current(e, now))));
+
+/** Wanted languages with no translation of the current English yet (never made, or kept from
+ *  an older English after a failed retry, see `missing`). */
+const absent = (e: ProtestEvent, now = Date.now()) => wantedLangs(e, now).filter((l) => !has(e, l) || e.i18n?.missing?.includes(l.code));
 
 const filled = (x: unknown) => String(x ?? '').trim().length >= 2;
 
@@ -93,7 +103,7 @@ export function toEventText(e: ProtestEvent, t: TranslatedCard[string] | undefin
 export async function translate(ai: Ai, events: Map<string, ProtestEvent>, log: (s: string) => void, max = RULES.translatePerRun): Promise<string[]> {
   // Live events first (readers are waiting), then the newest.
   const due = [...events.values()]
-    .filter(needsTranslation)
+    .filter((e) => needsTranslation(e))
     .sort((a, b) => (a.isOngoing !== b.isOngoing ? (a.isOngoing ? -1 : 1) : a.lastReportAt < b.lastReportAt ? 1 : -1))
     .slice(0, max);
   const done: string[] = [];
@@ -105,7 +115,7 @@ export async function translate(ai: Ai, events: Map<string, ProtestEvent>, log: 
     const hash = englishHash(e);
     // Same English as last time: only the languages still missing are asked for again.
     const again = e.i18n?.of === hash;
-    const langs = again ? absent(e) : [...TRANSLATE_TO];
+    const langs = again ? absent(e) : wantedLangs(e);
     const codes = langs.map((l) => l.code);
     const ask = async (langs: typeof TRANSLATE_TO[number][], attempt: number) =>
       ai.json<TranslatedCard>('translate', SYSTEM, translatePrompt(englishCard(e), langs), translateSchema(langs.map((l) => l.code)), `${e.id}-${hash}${attempt ? `-r${attempt}` : ''}`);
@@ -128,19 +138,21 @@ export async function translate(ai: Ai, events: Map<string, ProtestEvent>, log: 
         if (err instanceof OverBudget) throw err;
       }
     }
-    // Keep earlier good translations of this English; add what came back now.
-    const next: NonNullable<ProtestEvent['i18n']> = again ? { ...e.i18n!, at: nowIso(), tries: (e.i18n!.tries ?? 1) + 1 } : { of: hash, at: nowIso(), tries: 1 };
-    const missing: TransLang[] = [];
+    // Keep every earlier translation and lay what came back now over it. A language whose new
+    // answer does not line up keeps its previous text (marked missing, so it is asked again)
+    // instead of losing its page: dropping it turned live /hi/p/... URLs into 404s.
+    const next: NonNullable<ProtestEvent['i18n']> = again ? { ...e.i18n!, at: nowIso(), tries: (e.i18n!.tries ?? 1) + 1 } : { ...e.i18n, of: hash, at: nowIso(), tries: 1 };
+    const missing = new Set<TransLang>(again ? (e.i18n!.missing ?? []).filter((c) => !codes.includes(c)) : []);
     const bad: string[] = [];
     for (const code of codes) {
       const text = toEventText(e, out?.[code]);
       if (text) next[code as TransLang] = text;
       else {
-        missing.push(code as TransLang);
+        missing.add(code as TransLang);
         bad.push(`${code} (${mismatch(e, out?.[code])})`);
       }
     }
-    next.missing = missing.length ? missing : undefined;
+    next.missing = missing.size ? [...missing] : undefined;
     if (bad.length) log(`translate: ${e.id} dropped ${bad.join(', ')}`);
     e.i18n = next;
     done.push(e.id);

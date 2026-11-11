@@ -13,6 +13,10 @@ import mr from '../src/i18n/mr.ts';
 import es from '../src/i18n/es.ts';
 import fr from '../src/i18n/fr.ts';
 import de from '../src/i18n/de.ts';
+import it from '../src/i18n/it.ts';
+import pt from '../src/i18n/pt.ts';
+import nl from '../src/i18n/nl.ts';
+import { howContent } from '../src/i18n/how.ts';
 import { loc } from '../src/i18n/event.ts';
 import { infoContent } from '../src/i18n/pages.ts';
 
@@ -52,23 +56,49 @@ test('translation: runs once per English version, keeps good languages', async (
   const e = liveEvent();
   const events = new Map([[e.id, e]]);
   let calls = 0;
-  const ai = { name: 'fake', calls: 0, async json() { calls++; return { hi: card(), mr: card(), es: card(), fr: card(), de: card({ demands: [] }) } as any; } } as Ai;
+  const asked: string[][] = [];
+  const ai = { name: 'fake', calls: 0, async json(_t: string, _s: string, _p: string, schema: any) { calls++; asked.push(Object.keys(schema.properties)); return { hi: card(), mr: card(), es: card(), fr: card(), de: card({ demands: [] }), it: card(), pt: card(), nl: card() } as any; } } as unknown as Ai;
   assert.equal(needsTranslation(e), true);
   await translate(ai, events, () => {});
-  assert.equal(calls, 2); // one call for all five, one retry for the language that did not line up
-  assert.ok(e.i18n?.hi && e.i18n.fr);
+  assert.equal(calls, 2); // one call for every language, one retry for the language that did not line up
+  assert.deepEqual(asked[0].sort(), ['de', 'es', 'fr', 'it', 'nl', 'pt']); // new events: no Hindi or Marathi (owner, 11 Nov 2026)
+  assert.ok(e.i18n?.fr && e.i18n.it && e.i18n.pt && e.i18n.nl);
+  assert.equal(e.i18n?.hi, undefined);
   assert.equal(e.i18n?.de, undefined); // still misaligned after the retry: German page stays English
   assert.equal(e.i18n?.of, englishHash(e));
   assert.deepEqual(e.i18n?.missing, ['de']);
   await translate(ai, events, () => {}); // next runs ask only for German again, up to 3 tries
   assert.equal(calls, 4);
-  assert.ok(e.i18n?.hi); // earlier languages kept
+  assert.deepEqual(asked[2], ['de']);
+  assert.ok(e.i18n?.fr); // earlier languages kept
   await translate(ai, events, () => {});
   assert.equal(calls, 6);
   await translate(ai, events, () => {});
   assert.equal(calls, 6); // gave up after 3 tries; English unchanged → no new call
   e.tea = { ...e.tea, changed: 'Oct 6: talks began.' };
   assert.equal(needsTranslation(e), true);
+});
+
+test('translation: Hindi/Marathi stay where they were, old pages never lose their text', async () => {
+  const now = Date.parse('2026-11-20T00:00:00Z');
+  // An October event that already had Hindi, wrapped up long ago.
+  const old = liveEvent();
+  Object.assign(old, { firstSeenAt: '2026-10-05T08:00:00Z', publishedAt: '2026-10-05T09:00:00Z', lastReportAt: '2026-10-06T08:00:00Z', isOngoing: false, status: 'ended' });
+  old.i18n = { of: 'older-english', at: '2026-10-06T00:00:00Z', hi: toEventText(old, card())!, fr: toEventText(old, card({ title: 'Ancien titre' }))! };
+  const { wantedLangs } = await import('../pipeline/translate.ts');
+  assert.deepEqual(wantedLangs(old, now).map((l) => l.code), ['hi', 'es', 'fr', 'de']); // keeps Hindi; no Italian/Portuguese/Dutch for the archive
+  // The same event while it is still live gets the new languages too.
+  assert.deepEqual(wantedLangs({ ...old, isOngoing: true }, now).map((l) => l.code), ['hi', 'es', 'fr', 'de', 'it', 'pt', 'nl']);
+
+  // The English changed and French comes back misaligned: the old French stays up (marked missing), Hindi updates.
+  const asked: string[][] = [];
+  const ai = { name: 'fake', calls: 0, async json(_t: string, _s: string, _p: string, schema: any) { asked.push(Object.keys(schema.properties)); return { hi: card({ title: 'नया शीर्षक' }), es: card(), fr: card({ updates: [] }), de: card() } as any; } } as unknown as Ai;
+  await translate(ai, new Map([[old.id, old]]), () => {});
+  assert.deepEqual(asked[0].sort(), ['de', 'es', 'fr', 'hi']);
+  assert.equal(old.i18n?.hi?.title, 'नया शीर्षक');
+  assert.equal(old.i18n?.fr?.title, 'Ancien titre'); // kept: /fr/p/... must not turn into a 404
+  assert.deepEqual(old.i18n?.missing, ['fr']); // ...and asked for again next run
+  assert.equal(old.i18n?.of, englishHash(old));
 });
 
 test('site: localized event keeps facts, numbers and the English figure phrasing', () => {
@@ -101,6 +131,14 @@ test('site: URLs, prefixes and country phrases', () => {
   assert.equal(inCountry('it', 'fr', 'Italy'), 'en Italie');
   assert.equal(inCountry('ua', 'de', 'Ukraine'), 'in der Ukraine');
   assert.equal(inCountry('ch', 'de', 'Switzerland'), 'in der Schweiz');
+  assert.equal(inCountry('fr', 'pt', 'France'), 'na França');
+  assert.equal(inCountry('jp', 'pt', 'Japan'), 'no Japão');
+  assert.equal(inCountry('us', 'pt', 'United States'), 'nos Estados Unidos');
+  assert.equal(inCountry('pt', 'pt', 'Portugal'), 'em Portugal');
+  assert.equal(inCountry('gb', 'it', 'United Kingdom'), 'nel Regno Unito');
+  assert.equal(inCountry('de', 'it', 'Germany'), 'in Germania');
+  assert.equal(inCountry('gb', 'nl', 'United Kingdom'), 'in het Verenigd Koninkrijk');
+  assert.equal(inCountry('nl', 'nl', 'Netherlands'), 'in Nederland');
   assert.equal(inCountry('lb', 'fr', 'Lebanon'), 'au Liban');
   assert.equal(inCountry('iq', 'de', 'Iraq'), 'im Irak');
   assert.equal(inCountry('ps', 'fr', 'Palestine'), 'en Palestine'); // not "Territoires palestiniens"
@@ -112,7 +150,7 @@ test('site: URLs, prefixes and country phrases', () => {
 
 test('dictionaries: every language has every key, placeholders match', () => {
   const ph = (v: unknown) => [...JSON.stringify(v).matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort().join(',');
-  for (const [name, d] of Object.entries({ hi, mr, es, fr, de })) {
+  for (const [name, d] of Object.entries({ hi, mr, es, fr, de, it, pt, nl })) {
     for (const k of Object.keys(en) as (keyof typeof en)[]) {
       assert.ok(k in d, `${name} is missing ${k}`);
       // A translation may drop {country} for {in} (or the reverse) but no other placeholder.
@@ -126,7 +164,7 @@ test('about and privacy: every language has the same sections and links', () => 
   const ph = (v: unknown) => [...new Set([...JSON.stringify(v).matchAll(/{(w+)}/g)].map((m) => m[1]))].sort().join(',');
   for (const page of ['about', 'privacy'] as const) {
     const base = infoContent(page, 'en');
-    for (const lang of ['hi', 'mr', 'es', 'fr', 'de'] as const) {
+    for (const lang of ['hi', 'mr', 'es', 'fr', 'de', 'it', 'pt', 'nl'] as const) {
       const c = infoContent(page, lang);
       assert.deepEqual(c.sections.map((x) => x.id), base.sections.map((x) => x.id), `${lang} ${page} sections`);
       base.sections.forEach((b, i) => {
@@ -138,5 +176,15 @@ test('about and privacy: every language has the same sections and links', () => 
       assert.equal(ph(c.intro), ph(base.intro), `${lang} ${page} intro placeholders`);
       assert.ok(c.title && c.description && c.h1 && c.updated, `${lang} ${page} headings`);
     }
+  }
+});
+
+test('method page: every language has the same steps, stickers and rules', () => {
+  const base = howContent('en');
+  for (const lang of ['hi', 'mr', 'es', 'fr', 'de', 'it', 'pt', 'nl'] as const) {
+    const h = howContent(lang);
+    for (const k of ['steps', 'vibes', 'confidence', 'reader', 'rules', 'credits'] as const) assert.equal(h[k].length, base[k].length, `${lang} ${k}`);
+    assert.deepEqual(h.vibes.map((v) => v[1]), base.vibes.map((v) => v[1]), `${lang} sticker classes`);
+    for (const k of ['intro', 'readerIntro', 'corrections'] as const) assert.equal([...h[k].matchAll(/{(w+)}/g)].map((m) => m[1]).sort().join(), [...base[k].matchAll(/{(w+)}/g)].map((m) => m[1]).sort().join(), `${lang} ${k} placeholders`);
   }
 });

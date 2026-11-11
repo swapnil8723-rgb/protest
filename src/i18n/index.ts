@@ -8,8 +8,11 @@ import mr from './mr.ts';
 import es from './es.ts';
 import fr from './fr.ts';
 import de from './de.ts';
+import it from './it.ts';
+import pt from './pt.ts';
+import nl from './nl.ts';
 
-export const LANGS = ['en', 'hi', 'mr', 'es', 'fr', 'de'] as const;
+export const LANGS = ['en', 'hi', 'mr', 'es', 'fr', 'de', 'it', 'pt', 'nl'] as const;
 export type Lang = (typeof LANGS)[number];
 export type OtherLang = Exclude<Lang, 'en'>;
 export const OTHER_LANGS = LANGS.filter((l): l is OtherLang => l !== 'en');
@@ -21,9 +24,12 @@ export const LANG_INFO: Record<Lang, { native: string; english: string; locale: 
   es: { native: 'Español', english: 'Spanish', locale: 'es-ES', og: 'es_ES' },
   fr: { native: 'Français', english: 'French', locale: 'fr-FR', og: 'fr_FR' },
   de: { native: 'Deutsch', english: 'German', locale: 'de-DE', og: 'de_DE' },
+  it: { native: 'Italiano', english: 'Italian', locale: 'it-IT', og: 'it_IT' },
+  pt: { native: 'Português', english: 'Portuguese', locale: 'pt-PT', og: 'pt_PT' },
+  nl: { native: 'Nederlands', english: 'Dutch', locale: 'nl-NL', og: 'nl_NL' },
 };
 
-const DICTS: Record<Lang, Dict> = { en, hi, mr, es, fr, de };
+const DICTS: Record<Lang, Dict> = { en, hi, mr, es, fr, de, it, pt, nl };
 
 /** The page's language from its URL: /hi/... → 'hi', anything else → 'en'. */
 export function langOf(url: URL | string): Lang {
@@ -67,7 +73,7 @@ export function useT(lang: Lang) {
 
 /** Intl calls PS "Palestinian Territories"; the site (and India's MEA) says "Palestine". */
 const NAME_OVERRIDES: Record<string, Partial<Record<Lang, string>>> = {
-  ps: { fr: 'Palestine', de: 'Palästina', es: 'Palestina', hi: 'फ़िलिस्तीन', mr: 'पॅलेस्टाईन' },
+  ps: { fr: 'Palestine', de: 'Palästina', es: 'Palestina', hi: 'फ़िलिस्तीन', mr: 'पॅलेस्टाईन', it: 'Palestina', pt: 'Palestina', nl: 'Palestina' },
 };
 
 /** Country name in the page language (Intl knows them all). */
@@ -91,6 +97,13 @@ export function inCountry(iso: string, lang: Lang, fallback: string): string {
     case 'de': return ({ us: 'in den USA', gb: 'im Vereinigten Königreich', nl: 'in den Niederlanden', ch: 'in der Schweiz', tr: 'in der Türkei', ua: 'in der Ukraine', sk: 'in der Slowakei', md: 'in der Republik Moldau', lb: 'im Libanon', iq: 'im Irak', ir: 'im Iran' } as Record<string, string>)[iso] ?? `in ${name}`;
     case 'hi': return `${name} में`;
     case 'mr': return `${name} मध्ये`;
+    case 'it': return ({ us: 'negli Stati Uniti', gb: 'nel Regno Unito', nl: 'nei Paesi Bassi', cy: 'a Cipro', mt: 'a Malta' } as Record<string, string>)[iso] ?? `in ${name}`;
+    case 'nl': return ({ us: 'in de Verenigde Staten', gb: 'in het Verenigd Koninkrijk' } as Record<string, string>)[iso] ?? `in ${name}`;
+    case 'pt': {
+      // em Portugal, nos Estados Unidos, na França, no Japão: the article depends on the country.
+      const fixed: Record<string, string> = { pt: 'em Portugal', mt: 'em Malta', il: 'em Israel', cy: 'em Chipre', ma: 'em Marrocos', us: 'nos Estados Unidos', nl: 'nos Países Baixos', mk: 'na Macedónia do Norte' };
+      return fixed[iso] ?? (/a$/.test(name) ? `na ${name}` : `no ${name}`);
+    }
   }
 }
 

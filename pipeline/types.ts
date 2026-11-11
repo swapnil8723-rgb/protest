@@ -70,7 +70,7 @@ export interface Update {
 }
 
 /** Site languages besides English (pipeline/translate.ts writes these). */
-export type TransLang = 'hi' | 'mr' | 'es' | 'fr' | 'de';
+export type TransLang = 'hi' | 'mr' | 'es' | 'fr' | 'de' | 'it' | 'pt' | 'nl';
 
 /** The reader-facing text of an event in one language. Arrays line up with the English ones. */
 export interface EventText {

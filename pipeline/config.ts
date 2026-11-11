@@ -130,13 +130,20 @@ export const LIMITS = {
   aiMinutesPerRun: Number(process.env.AI_MINUTES_PER_RUN || 12),
 };
 
-/** Languages the site is published in besides English (src/i18n has the interface text). */
+/** Languages the site is published in besides English (src/i18n has the interface text).
+ *  legacy: kept up to date only on events that already have it (owner, 11 Nov 2026: Hindi and
+ *  Marathi brought 3 search impressions in 36 days), so no live page loses its text.
+ *  since: added that day; events reported before it get the language only while they are live,
+ *  upcoming or in the news (translating the whole archive would use the AI calls publishing needs). */
 export const TRANSLATE_TO = [
-  { code: 'hi', name: 'Hindi', note: 'Devanagari script, neutral standard Hindi as in Hindi newspapers' },
-  { code: 'mr', name: 'Marathi', note: 'Devanagari script, standard Marathi as in Marathi newspapers' },
-  { code: 'es', name: 'Spanish', note: 'neutral international Spanish' },
-  { code: 'fr', name: 'French', note: 'standard French with French typography (space before : ; ? !)' },
-  { code: 'de', name: 'German', note: 'standard German' },
+  { code: 'hi', name: 'Hindi', note: 'Devanagari script, neutral standard Hindi as in Hindi newspapers', legacy: true, since: '' },
+  { code: 'mr', name: 'Marathi', note: 'Devanagari script, standard Marathi as in Marathi newspapers', legacy: true, since: '' },
+  { code: 'es', name: 'Spanish', note: 'neutral international Spanish', legacy: false, since: '' },
+  { code: 'fr', name: 'French', note: 'standard French with French typography (space before : ; ? !)', legacy: false, since: '' },
+  { code: 'de', name: 'German', note: 'standard German', legacy: false, since: '' },
+  { code: 'it', name: 'Italian', note: 'standard Italian as in Italian newspapers', legacy: false, since: '2026-11-11' },
+  { code: 'pt', name: 'Portuguese', note: 'European Portuguese as in Portuguese newspapers (not Brazilian)', legacy: false, since: '2026-11-11' },
+  { code: 'nl', name: 'Dutch', note: 'standard Dutch as in Dutch newspapers', legacy: false, since: '2026-11-11' },
 ] as const;
 
 /** Rules the score/publish steps apply. Mirrors /how-we-know — change both together. */

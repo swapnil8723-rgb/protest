@@ -19,7 +19,7 @@ const mail = `<a class="prose-link" href="mailto:${CONTACT}?subject=Correction">
   path="/how-we-know"
   jsonLd={[{ '@context': 'https://schema.org', ...org }, breadcrumbs([[t('crumb.home'), href(lang, '/')], [h.h1, href(lang, '/how-we-know')]])]}
 >
-  <article class="wrap max-w-4xl pt-10">
+  <article class="wrap max-w-4xl pt-10 [overflow-wrap:anywhere]">
     <p class="eyebrow">{h.eyebrow}</p>
     <h1 class="mt-3 text-[clamp(32px,10.5vw,44px)] sm:text-[72px]">{h.h1}</h1>
     <p class="mt-5 text-[19px] leading-relaxed sm:text-[21px]" set:html={intro} />
