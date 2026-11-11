@@ -24,7 +24,7 @@ export interface InfoContent {
 }
 
 /** The day a person last checked each page against what the site does. */
-export const INFO_UPDATED: Record<InfoKey, string> = { about: '2026-11-10', privacy: '2026-11-10' };
+export const INFO_UPDATED: Record<InfoKey, string> = { about: '2026-11-11', privacy: '2026-11-11' };
 
 const en: Record<InfoKey, InfoContent> = {
   about: {
@@ -38,7 +38,7 @@ const en: Record<InfoKey, InfoContent> = {
         id: 'who',
         h: 'Who runs LOUD',
         p: [
-          'LOUD is built, run and paid for by {publisher}, a company based in India that makes websites and automation software.',
+          'LOUD is built, run and paid for by {publisher}, a company that makes websites and automation software.',
           'LOUD is not connected to any government, political party, campaign group or protest organiser. We do not organise, promote or oppose any protest.',
         ],
       },
@@ -90,7 +90,7 @@ const en: Record<InfoKey, InfoContent> = {
       {
         id: 'who',
         h: 'Who is responsible',
-        p: ['LOUD is published by {publisher} (India), which decides how the data described here is used. Questions and requests go to {email}.'],
+        p: ['LOUD is published by {publisher}, which decides how the data described here is used. Questions and requests go to {email}.'],
       },
       {
         id: 'reading',
@@ -165,7 +165,7 @@ const fr: Record<InfoKey, InfoContent> = {
         id: 'who',
         h: 'Qui gère LOUD',
         p: [
-          'LOUD est conçu, géré et financé par {publisher}, une entreprise basée en Inde qui crée des sites web et des logiciels d’automatisation.',
+          'LOUD est conçu, géré et financé par {publisher}, une entreprise qui crée des sites web et des logiciels d’automatisation.',
           'LOUD n’est lié à aucun gouvernement, parti politique, groupe militant ou organisateur de manifestation. Nous n’organisons, ne soutenons et ne combattons aucune manifestation.',
         ],
       },
@@ -217,7 +217,7 @@ const fr: Record<InfoKey, InfoContent> = {
       {
         id: 'who',
         h: 'Qui est responsable',
-        p: ['LOUD est publié par {publisher} (Inde), qui décide de l’usage des données décrites ici. Questions et demandes : {email}.'],
+        p: ['LOUD est publié par {publisher}, qui décide de l’usage des données décrites ici. Questions et demandes : {email}.'],
       },
       {
         id: 'reading',
@@ -292,7 +292,7 @@ const de: Record<InfoKey, InfoContent> = {
         id: 'who',
         h: 'Wer LOUD betreibt',
         p: [
-          'LOUD wird von {publisher} entwickelt, betrieben und bezahlt, einem Unternehmen aus Indien, das Websites und Automatisierungssoftware baut.',
+          'LOUD wird von {publisher} entwickelt, betrieben und bezahlt, einem Unternehmen, das Websites und Automatisierungssoftware baut.',
           'LOUD ist mit keiner Regierung, Partei, Kampagnengruppe und keinem Protestveranstalter verbunden. Wir organisieren, bewerben oder bekämpfen keinen Protest.',
         ],
       },
@@ -344,7 +344,7 @@ const de: Record<InfoKey, InfoContent> = {
       {
         id: 'who',
         h: 'Wer verantwortlich ist',
-        p: ['LOUD wird von {publisher} (Indien) herausgegeben. Das Unternehmen entscheidet, wie die hier beschriebenen Daten verwendet werden. Fragen und Anträge: {email}.'],
+        p: ['LOUD wird von {publisher} herausgegeben. Das Unternehmen entscheidet, wie die hier beschriebenen Daten verwendet werden. Fragen und Anträge: {email}.'],
       },
       {
         id: 'reading',
@@ -419,7 +419,7 @@ const es: Record<InfoKey, InfoContent> = {
         id: 'who',
         h: 'Quién lleva LOUD',
         p: [
-          'LOUD lo crea, lo mantiene y lo paga {publisher}, una empresa con sede en la India que hace sitios web y software de automatización.',
+          'LOUD lo crea, lo mantiene y lo paga {publisher}, una empresa que hace sitios web y software de automatización.',
           'LOUD no está vinculado a ningún gobierno, partido político, grupo de campaña ni organizador de protestas. No organizamos, promovemos ni combatimos ninguna protesta.',
         ],
       },
@@ -471,7 +471,7 @@ const es: Record<InfoKey, InfoContent> = {
       {
         id: 'who',
         h: 'Quién es el responsable',
-        p: ['LOUD lo publica {publisher} (India), que decide cómo se usan los datos descritos aquí. Preguntas y solicitudes: {email}.'],
+        p: ['LOUD lo publica {publisher}, que decide cómo se usan los datos descritos aquí. Preguntas y solicitudes: {email}.'],
       },
       {
         id: 'reading',
@@ -546,7 +546,7 @@ const hi: Record<InfoKey, InfoContent> = {
         id: 'who',
         h: 'LOUD कौन चलाता है',
         p: [
-          'LOUD को {publisher} ने बनाया है, वही इसे चलाती है और इसका ख़र्च उठाती है। यह भारत की एक कंपनी है जो वेबसाइट और ऑटोमेशन सॉफ़्टवेयर बनाती है।',
+          'LOUD को {publisher} ने बनाया है, वही इसे चलाती है और इसका ख़र्च उठाती है। यह एक कंपनी है जो वेबसाइट और ऑटोमेशन सॉफ़्टवेयर बनाती है।',
           'LOUD का किसी सरकार, राजनीतिक दल, अभियान समूह या प्रदर्शन के आयोजक से कोई संबंध नहीं है। हम किसी प्रदर्शन का आयोजन, प्रचार या विरोध नहीं करते।',
         ],
       },
@@ -598,7 +598,7 @@ const hi: Record<InfoKey, InfoContent> = {
       {
         id: 'who',
         h: 'ज़िम्मेदार कौन है',
-        p: ['LOUD को {publisher} (भारत) प्रकाशित करती है, और वही तय करती है कि यहाँ बताई गई जानकारी का उपयोग कैसे हो। सवाल और अनुरोध: {email}।'],
+        p: ['LOUD को {publisher} प्रकाशित करती है, और वही तय करती है कि यहाँ बताई गई जानकारी का उपयोग कैसे हो। सवाल और अनुरोध: {email}।'],
       },
       {
         id: 'reading',
@@ -673,7 +673,7 @@ const mr: Record<InfoKey, InfoContent> = {
         id: 'who',
         h: 'LOUD कोण चालवते',
         p: [
-          'LOUD {publisher} या कंपनीने तयार केला आहे; तीच तो चालवते आणि त्याचा खर्च करते. ही भारतातील कंपनी वेबसाइट आणि ऑटोमेशन सॉफ्टवेअर बनवते.',
+          'LOUD {publisher} या कंपनीने तयार केला आहे; तीच तो चालवते आणि त्याचा खर्च करते. ही कंपनी वेबसाइट आणि ऑटोमेशन सॉफ्टवेअर बनवते.',
           'LOUD चा कोणत्याही सरकारशी, राजकीय पक्षाशी, मोहीम गटाशी किंवा आंदोलनाच्या आयोजकांशी संबंध नाही. आम्ही कोणतेही आंदोलन आयोजित करत नाही, त्याचा प्रचार करत नाही आणि त्याला विरोधही करत नाही.',
         ],
       },
@@ -725,7 +725,7 @@ const mr: Record<InfoKey, InfoContent> = {
       {
         id: 'who',
         h: 'जबाबदार कोण आहे',
-        p: ['LOUD {publisher} (भारत) प्रकाशित करते, आणि येथे सांगितलेली माहिती कशी वापरायची हे तीच ठरवते. प्रश्न आणि विनंत्या: {email}.'],
+        p: ['LOUD {publisher} प्रकाशित करते, आणि येथे सांगितलेली माहिती कशी वापरायची हे तीच ठरवते. प्रश्न आणि विनंत्या: {email}.'],
       },
       {
         id: 'reading',
