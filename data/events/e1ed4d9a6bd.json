@@ -16,106 +16,89 @@
  "scope": "nationwide",
  "causes": [
   "housing",
-  "prices"
+  "prices",
+  "labour"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-11",
  "status": "ended",
  "vibe": "wrapped-up",
- "severity": "normal",
+ "severity": "serious",
  "review": "pending",
  "reviewReasons": [
+  "serious",
   "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters and union members went on strike to protest against soaring housing costs, unaffordable rents, low wages, and the high cost of living.",
-  "want": "Demonstrators demanded affordable housing, decent wages, government action against real estate speculation, and improved renter protections.",
-  "changed": "Nov 11: Evening disturbances and clashes with police occurred in Barcelona following a large general strike demonstration, leading to arrests and property damage."
+  "why": "Protesters are striking over soaring housing costs, unaffordable rents, low wages, and the high cost of living.",
+  "want": "Demands include affordable housing, two million public homes, rent caps tied to minimum wages, and better working conditions.",
+  "changed": "Nov 11: General strike and demonstrations took place in Barcelona, concluding with clashes, property damage, and police arrests."
  },
- "summary": "On November 11, 2026, a general strike took place across Spain, with major mobilizations in Barcelona, Catalonia. The nationwide walkout was called by labor unions including CCOO and UGT, alongside tenants' associations such as the Tenants' Union, to protest against the housing affordability crisis, high rents, evictions, and low wages. In Barcelona, tens of thousands participated in a march along Passeig de Gràcia to Plaça Catalunya. While the daytime demonstration was largely peaceful, evening events turned chaotic as masked groups set fire to rubbish bins, built barricades, and clashed with police, leading to arrests, shop looting, and police baton charges. Catalan President Salvador Illa condemned the violence while affirming the legitimacy of peaceful protest.",
+ "summary": "Workers, unions, and social organisations held a nationwide general strike in Spain on November 11, 2026, with significant mobilisations in Barcelona. Organised by major unions including CCOO and UGT, alongside tenant and student syndicates, the action sought to protest the housing crisis, high living costs, and inadequate wages under the slogan \"Salaries. Housing. Prices.\" In Barcelona, thousands marched from Jardinets de Gràcia to Plaça de Catalunya. While the daytime marches were largely peaceful, the demonstrations later saw disturbances, with masked groups setting fire to bins, launching pyrotechnics, and looting stores on Passeig de Gràcia. Police detained numerous individuals in connection with the unrest. Business groups claimed the strike had low participation and limited impact, whereas unions hailed the walkout as a major success.",
  "organizers": [
   "CCOO",
   "UGT",
-  "Sindicat de Llogaters"
+  "CGT",
+  "Sindicat de Llogateres",
+  "Sindicat d'Estudiants"
  ],
  "demands": [
-  "Affordable housing and lower rents",
-  "Decent wages",
-  "Measures against real estate speculation",
-  "Better tenant protections"
+  "Affordable housing",
+  "Two million public housing units",
+  "Rent prices not to exceed 20% of the minimum wage",
+  "Expropriation of large real estate property owners",
+  "Dignified wages and better working conditions"
  ],
- "response": "According to sources, Catalan President Salvador Illa condemned the vandalism and expressed full support for police actions, stating that violence does not represent peaceful protesters. Police deployed riot gear, tear gas, and conducted baton charges.",
+ "response": "According to the sources, police in Barcelona detained over 50 people following disturbances and looting near Passeig de Gràcia. The Mossos d'Esquadra deployed officers across the city centre. Nationally, the Interior Ministry reported dozens of arrests, while business associations such as CEOE claimed the strike had low participation.",
  "numbers": {
   "crowd": {
    "value": 55000,
-   "text": "Over 50,000 to 55,000 people according to police estimates.",
+   "text": "55,000 according to the Guardia Urbana",
    "sources": [
-    7,
-    8,
+    5,
+    6,
     10
    ]
   },
   "arrests": {
    "value": 50,
-   "text": "50 people arrested in Barcelona.",
+   "text": "more than 50 people detained in Barcelona alone according to reports",
    "sources": [
-    10
+    9
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-06",
-   "text": "The Generalitat established minimum essential public services ahead of the announced November 11 general strike.",
+   "text": "The Generalitat established minimum public services of 25% for urban and interurban transport ahead of the announced general strike.",
    "sources": [
     1
    ]
   },
   {
-   "at": "2026-11-09",
-   "text": "Catalonia faced early transport disruptions and rail strikes preceding the main general strike mobilization.",
-   "sources": [
-    2
-   ]
-  },
-  {
    "at": "2026-11-11",
-   "text": "A group of demonstrators interrupted the morning broadcast of RTVE Catalonia's program 'El café de ideas'.",
+   "text": "Pickets blocked transport lines, roads, and factory gates across Catalonia as the 24-hour general strike began at midnight.",
    "sources": [
-    4
-   ]
-  },
-  {
-   "at": "2026-11-11",
-   "text": "Tens of thousands marched from Passeig de Gràcia to Plaça Catalunya in Barcelona during the general strike.",
-   "sources": [
-    6,
-    10
-   ]
-  },
-  {
-   "at": "2026-11-11",
-   "text": "Evening clashes broke out in Barcelona, with protesters setting fire to rubbish bins, launching fireworks, and looting shops.",
-   "sources": [
-    6,
-    7,
-    8
-   ]
-  },
-  {
-   "at": "2026-11-11",
-   "text": "Police formed lines and carried out charges to disperse crowds and clear barricades in central Barcelona.",
-   "sources": [
-    6,
     7
    ]
   },
   {
-   "at": "2026-11-12",
-   "text": "Catalan authorities reported 50 arrests in Barcelona following the unrest, while organizers defended the strike's success.",
+   "at": "2026-11-11",
+   "text": "A large demonstration marched from Jardinets de Gràcia to Plaça de Catalunya in Barcelona.",
    "sources": [
+    6,
+    9
+   ]
+  },
+  {
+   "at": "2026-11-11",
+   "text": "Disturbances erupted in Barcelona after the march, involving burned bins, clashes, and looted shops on Passeig de Gràcia.",
+   "sources": [
+    3,
+    9,
     10
    ]
   }
@@ -130,24 +113,24 @@
   },
   {
    "n": 2,
-   "url": "https://www.catalannews.com/society-science/item/catalonia-faces-a-week-of-strikes-on-the-eve-of-the-election-campaign",
-   "publisher": "catalannews.com",
-   "title": "Catalonia faces a week of strikes on the eve of the election campaign",
-   "publishedAt": "2026-11-09T11:29:00.000Z"
+   "url": "https://elpais.com/opinion/2026-11-10/si-vivir-nos-cuesta-la-vida.html",
+   "publisher": "elpais.com",
+   "title": "Si vivir nos cuesta la vida",
+   "publishedAt": "2026-11-10T04:30:01.000Z"
   },
   {
    "n": 3,
-   "url": "https://elpais.com/espana/catalunya/2026-11-11/el-caos-en-la-movilidad-en-cataluna-da-fuelle-a-la-huelga-general.html",
-   "publisher": "elpais.com",
-   "title": "El caos en la movilidad en Cataluña da fuelle a la huelga general",
-   "publishedAt": "2026-11-11T04:30:01.000Z"
+   "url": "https://www.expansion.com/economia/2026/11/11/6af40da37b2e43e9c57d5047-directo.html",
+   "publisher": "expansion.com",
+   "title": "Huelga general, en directo | El fin de la manifestación deja disturbios e intentos de saqueo en Barcelona",
+   "publishedAt": "2026-11-11T06:51:51.000Z"
   },
   {
    "n": 4,
-   "url": "https://www.europapress.es/sociedad/noticia-grupo-manifestantes-impide-emision-programa-cafe-ideas-rtve-cataluna-huelga-general-20261111105556.html",
-   "publisher": "europapress.es",
-   "title": "Un grupo de manifestantes impide la emisión del programa 'El café de ideas' en RTVE Cataluña por la huelga general",
-   "publishedAt": "2026-11-11T09:55:56.000Z"
+   "url": "https://www.durangoherald.com/articles/associated-press/spains-first-general-strike-in-14-years-brings-clashing-social-and-political-desires-to-the-fore/",
+   "publisher": "durangoherald.com",
+   "title": "Spain’s workers hold a general strike over housing costs ahead of a national election",
+   "publishedAt": "2026-11-11T13:28:10.000Z"
   },
   {
    "n": 5,
@@ -158,331 +141,316 @@
   },
   {
    "n": 6,
-   "url": "https://www.eldiario.es/catalunya/manifestacion-vivienda-barcelona-acaba-disturbios-barricadas-cargas-mossos_1_13656622.html",
-   "publisher": "eldiario.es",
-   "title": "Disturbios, ataques a comercios y quema de contenedores tras la manifestación por la vivienda en Barcelona",
-   "publishedAt": "2026-11-11T19:51:25.000Z"
+   "url": "https://www.ilfattoquotidiano.it/2026/11/11/sciopero-casa-barcellona-catalogna-notizie/8568713/",
+   "publisher": "ilfattoquotidiano.it",
+   "title": "Barcellona in piazza per la casa: \"È un diritto, non un lusso\". Le voci raccolte dal Fattoquotidiano.it",
+   "publishedAt": "2026-11-11T20:13:18.000Z"
   },
   {
    "n": 7,
-   "url": "https://www.digi24.ro/stiri/externe/mapamond/greva-generala-in-spania-ciocniri-intre-protestatari-si-fortele-de-ordine-la-barcelona-4032527",
-   "publisher": "digi24.ro",
-   "title": "Grevă generală în Spania: ciocniri între protestatari și forțele de ordine la Barcelona",
-   "publishedAt": "2026-11-11T23:34:13.000Z"
+   "url": "https://www.eldiario.es/catalunya/huelga-general-vivienda-catalunya-industria-vacia-aulas-llena-calles_1_13656320.html",
+   "publisher": "eldiario.es",
+   "title": "La huelga general por la vivienda en Catalunya para la industria, vacía las aulas y llena las calles",
+   "publishedAt": "2026-11-11T22:10:45.000Z"
   },
   {
    "n": 8,
-   "url": "https://timesofindia.indiatimes.com/world/europe/protesters-set-fires-clash-with-police-during-spains-general-strike-watch/articleshow/135750754.cms",
-   "publisher": "timesofindia.indiatimes.com",
-   "title": "Protesters clash with police, set fires during Spain's general strike: Watch",
-   "publishedAt": "2026-11-11T22:29:00.000Z"
-  },
-  {
-   "n": 9,
    "url": "https://kprcradio.iheart.com/content/2026-11-11-clashes-erupt-in-spain-amid-general-strike/",
    "publisher": "kprcradio.iheart.com",
    "title": "Clashes Erupt In Spain Amid General Strike | KPRC AM 950"
   },
   {
+   "n": 9,
+   "url": "https://www.publico.pt/2026/11/12/mundo/noticia/dia-greve-geral-termina-disturbios-madrid-lojas-saqueadas-barcelona-2194674",
+   "publisher": "publico.pt",
+   "title": "Dia de greve geral termina com distúrbios em Madrid e lojas saqueadas em Barcelona",
+   "publishedAt": "2026-11-12T01:11:35.000Z"
+  },
+  {
    "n": 10,
-   "url": "https://www.bbc.com/russian/articles/crz9dw0qk9xvo",
+   "url": "https://www.bbc.com/zhongwen/articles/c8wy5x2q2wryo/trad.amp",
    "publisher": "bbc.com",
-   "title": "В Барселоне акции протеста завершились столкновениями с полицией и грабежами - BBC News Русская служба",
-   "publishedAt": "2026-11-12T01:21:10.601Z"
+   "title": "西班牙全國大罷工數萬人上街 巴塞隆納爆發警民衝突 - BBC News 中文",
+   "publishedAt": "2026-11-12T03:10:40.341Z"
   }
  ],
  "conflicts": [
-  "Organizers claimed hundreds of thousands participated in nationwide actions, while official participation figures varied by region."
+  "Unions claimed the strike was a major success with high participation, while business owners' groups asserted it had low participation and limited impact."
  ],
  "confidence": 0.8,
  "publishers": 10,
- "reports24h": 31,
- "reportsPrev24h": 4,
- "reports48h": 35,
+ "reports24h": 33,
+ "reportsPrev24h": 5,
+ "reports48h": 38,
  "firstSeenAt": "2026-11-06T16:20:28.944Z",
- "lastReportAt": "2026-11-12T01:21:10.601Z",
- "lastCheckedAt": "2026-11-12T01:54:17.293Z",
- "updatedAt": "2026-11-12T01:53:26.917Z",
+ "lastReportAt": "2026-11-12T03:10:40.341Z",
+ "lastCheckedAt": "2026-11-12T05:56:31.219Z",
+ "updatedAt": "2026-11-12T05:55:18.268Z",
  "searchedAt": "2026-11-09T09:50:42.387Z",
  "responseSources": [
+  3,
   5,
-  6,
+  9,
   10
  ],
  "seriousInjuries": false,
- "sensitive": false,
- "summarizedAt": "2026-11-12T01:53:26.917Z",
- "summaryOf": "72ea715ffb92",
+ "sensitive": true,
+ "summarizedAt": "2026-11-12T05:55:18.268Z",
+ "summaryOf": "90f545644d89",
  "publishedAt": "2026-11-09T13:59:03.924Z",
  "distinctFrom": [
   "e8661a3d04c"
  ],
  "i18n": {
-  "of": "ec55431e1812d16a",
-  "at": "2026-11-12T01:54:38.956Z",
+  "of": "f05cf4a29b14b63b",
+  "at": "2026-11-12T05:57:07.617Z",
   "tries": 1,
   "hi": {
-   "title": "बार्सिलोना में आवास और वेतन को लेकर यूनियनों और सामाजिक समूहों ने आम हड़ताल की",
-   "seoTitle": "आवास और वेतन को लेकर बार्सिलोना में हड़ताल",
+   "title": "बार्सिलोना में आवास और वेतन को लेकर यूनियनों और सामाजिक समूहों की आम हड़ताल",
+   "seoTitle": "आवास और वेतन पर बार्सिलोना हड़ताल",
    "tea": {
-    "why": "आसमान छूती आवास लागत, चुकाने में असमर्थ किराए, कम वेतन और जीवनयापन के उच्च खर्च के खिलाफ विरोध प्रदर्शन करने के लिए प्रदर्शनकारी और यूनियन सदस्य हड़ताल पर बैठे।",
-    "want": "प्रदर्शनकारियों ने किफायती आवास, सम्मानजनक वेतन, रियल एस्टेट सट्टेबाजी के खिलाफ सरकारी कार्रवाई और बेहतर किराएदार सुरक्षा की मांग की।",
-    "changed": "11 नवंबर: बार्सिलोना में एक बड़े आम हड़ताल प्रदर्शन के बाद शाम को अशांति और पुलिस के साथ झड़पें हुईं, जिससे गिरफ्तारियां हुईं और संपत्ति को नुकसान पहुंचा।"
+    "why": "आसमान छूते आवास खर्च, अप्राप्य किराए, कम वेतन और जीवनयापन के उच्च लागत के खिलाफ प्रदर्शनकारी हड़ताल कर रहे हैं।",
+    "want": "मांगों में किफायती आवास, बीस लाख सार्वजनिक घर, न्यूनतम वेतन से जुड़े किराए की सीमा और बेहतर काम करने की स्थिति शामिल हैं।",
+    "changed": "11 नवंबर: बार्सिलोना में आम हड़ताल और प्रदर्शन हुए, जो झड़पों, संपत्ति के नुकसान और पुलिस की गिरफ्तारियों के साथ समाप्त हुए।"
    },
-   "summary": "11 नवंबर 2026 को पूरे स्पेन में एक आम हड़ताल हुई, जिसमें कैटलोनिया के बार्सिलोना में बड़े पैमाने पर लामबंदी देखी गई। राष्ट्रव्यापी वॉकआउट का आह्वान CCOO और UGT सहित श्रम यूनियनों और टेनेंट्स यूनियन जैसे किराएदार संघों द्वारा आवास वहनीयता संकट, उच्च किराए, बेदखली और कम वेतन के विरोध में किया गया था। बार्सिलोना में, पसेइग डी ग्रासिया से प्लाका कातालोनिया तक मार्च में दसियों हज़ारों लोगों ने हिस्सा लिया। हालाँकि दिन का प्रदर्शन काफी हद तक शांतिपूर्ण था, शाम की घटनाएं अराजक हो गईं क्योंकि नकाबपोश समूहों ने कचरे के डिब्बों में आग लगा दी, बैरिकेड्स बनाए और पुलिस के साथ झड़पें कीं, जिससे गिरफ्तारियां हुईं, दुकानों में लूटपाट हुई और पुलिस ने लाठीचार्ज किया। कैटलन राष्ट्रपति साल्वाडोर इल्ला ने शांतिपूर्ण विरोध के औचित्य की पुष्टि करते हुए हिंसा की निंदा की।",
+   "summary": "11 नवंबर 2026 को स्पेन में कामगारों, यूनियनों और सामाजिक संगठनों ने एक देशव्यापी आम हड़ताल की, जिसमें बार्सिलोना में बड़े पैमाने पर लामबंदी हुई। CCOO और UGT सहित प्रमुख यूनियनों के साथ-साथ किरायेदार और छात्र सिंडिकेट द्वारा आयोजित इस कार्रवाई का उद्देश्य \"वेतन। आवास। कीमतें\" नारे के तहत आवास संकट, उच्च जीवन लागत और अपर्याप्त वेतन के खिलाफ विरोध करना था। बार्सिलोना में हजारों लोगों ने जार्डिनेट्स डी ग्रासिया से प्लाका डी कैटालुन्या तक मार्च किया। जबकि दिन के मार्च काफी हद तक शांतिपूर्ण थे, बाद में प्रदर्शनों में व्यवधान देखा गया, जिसमें नकाबपोश समूहों ने डिब्बों में आग लगाई, आतिशबाजी शुरू की और पासेग डी ग्रासिया पर दुकानों में लूटपाट की। पुलिस ने अशांति के सिलसिले में कई व्यक्तियों को हिरासत में लिया। व्यापारिक समूहों ने दावा किया कि हड़ताल में कम भागीदारी और सीमित प्रभाव था, जबकि यूनियनों ने इस वॉकआउट को एक बड़ी सफलता बताया।",
    "demands": [
-    "किफायती आवास और कम किराए",
-    "सम्मानजनक वेतन",
-    "रियल एस्टेट सट्टेबाजी के खिलाफ उपाय",
-    "बेहतर किराएदार सुरक्षा"
+    "किफायती आवास",
+    "दस लाख सार्वजनिक आवास इकाइयां",
+    "किराये की कीमतें न्यूनतम वेतन के 20% से अधिक न हों",
+    "बड़े रियल एस्टेट संपत्ति मालिकों की जब्ती",
+    "गरिमापूर्ण वेतन और बेहतर काम करने की स्थिति"
    ],
-   "response": "सूत्रों के अनुसार, कैटलन राष्ट्रपति साल्वाडोर इल्ला ने तोड़फोड़ की निंदा की और पुलिस कार्रवाई के लिए पूर्ण समर्थन व्यक्त किया, यह कहते हुए कि हिंसा शांतिपूर्ण प्रदर्शनकारियों का प्रतिनिधित्व नहीं करती है। पुलिस ने दंगा रोधी गियर, आंसू गैस का इस्तेमाल किया और लाठीचार्ज किया।",
+   "response": "सूत्रों के अनुसार, पासेग डी ग्रासिया के पास उपद्रव और लूटपाट के बाद बार्सिलोना में पुलिस ने 50 से अधिक लोगों को हिरासत में लिया। मोसोस डी'एस्क्वाड्रा ने शहर के केंद्र में अधिकारियों को तैनात किया। राष्ट्रीय स्तर पर, आंतरिक मंत्रालय ने दर्जनों गिरफ्तारियों की सूचना दी, जबकि CEOE जैसे व्यावसायिक संघों ने दावा किया कि हड़ताल में कम भागीदारी थी।",
    "updates": [
-    "जनरैलिटैट ने 11 नवंबर की घोषित आम हड़ताल से पहले न्यूनतम आवश्यक सार्वजनिक सेवाएं स्थापित कीं।",
-    "मुख्य आम हड़ताल लामबंदी से पहले कैटलोनिया को शुरुआती परिवहन व्यवधानों और रेल हड़तालों का सामना करना पड़ा।",
-    "प्रदर्शनकारियों के एक समूह ने आरटीवीई कैटलोनिया के कार्यक्रम 'एल कैफे डे आइडियास' के सुबह के प्रसारण में बाधा डाली।",
-    "आम हड़ताल के दौरान बार्सिलोना में पसेइग डी ग्रासिया से प्लाका कातालोनिया तक दसियों हज़ारों लोगों ने मार्च किया।",
-    "बार्सिलोना में शाम को झड़पें हुईं, जिसमें प्रदर्शनकारियों ने कचरे के डिब्बों में आग लगा दी, आतिशबाजी छोड़ी और दुकानों में लूटपाट की।",
-    "पुलिस ने केंद्रीय बार्सिलोना में भीड़ को तितर-बितर करने और बैरिकेड्स को हटाने के लिए लाइनें बनाईं और चार्ज किए।",
-    "कैटलन अधिकारियों ने अशांति के बाद बार्सिलोना में 50 गिरफ्तारियों की सूचना दी, जबकि आयोजकों ने हड़ताल की सफलता का बचाव किया।"
+    "घोषणा की गई आम हड़ताल से पहले जनरलिटैट ने शहरी और अंतरशहरी परिवहन के लिए 25% की न्यूनतम सार्वजनिक सेवाएं स्थापित कीं।",
+    "मध्यरात्रि को 24 घंटे की आम हड़ताल शुरू होते ही पिकटों ने पूरे कैटालोनिया में परिवहन लाइनों, सड़कों और कारखाने के फाटकों को अवरुद्ध कर दिया।",
+    "बार्सिलोना में जार्डिनेट्स डी ग्रासिया से प्लाका डी कैटालुन्या तक एक बड़ा प्रदर्शन मार्च निकाला गया।",
+    "मार्च के बाद बार्सिलोना में अशांति भड़क उठी, जिसमें जलाए गए डिब्बे, झड़पें और पासेग डी ग्रासिया पर लूटी गई दुकानें शामिल थीं।"
    ],
    "conflicts": [
-    "आयोजकों ने दावा किया कि राष्ट्रव्यापी कार्रवाइयों में लाखों लोगों ने हिस्सा लिया, जबकि आधिकारिक भागीदारी के आंकड़े क्षेत्र के अनुसार भिन्न थे।"
+    "यूनियनों ने दावा किया कि उच्च भागीदारी के साथ हड़ताल एक बड़ी सफलता थी, जबकि व्यापार मालिकों के समूहों ने जोर देकर कहा कि इसमें कम भागीदारी और सीमित प्रभाव था।"
    ],
    "numbers": {
-    "crowd": "पुलिस के अनुमान के अनुसार 50,000 से 55,000 से अधिक लोग।",
-    "arrests": "बार्सिलोना में 50 लोग गिरफ्तार किए गए।"
+    "crowd": "गार्डिया उरबाना के अनुसार 55,000",
+    "arrests": "रिपोर्टों के अनुसार अकेले बार्सिलोना में 50 से अधिक लोग हिरासत में लिए गए"
    }
   },
   "mr": {
-   "title": "बार्सिलोनामध्ये युनियन आणि सामाजिक गटांची घरे आणि वेतनावरून आम लाक्षणिक संप",
-   "seoTitle": "घरे आणि वेतनावरून बार्सिलोनामध्ये संप",
+   "title": "बार्सिलोनामध्ये युनियन आणि सामाजिक गटांची घरभाडे आणि वेतनाबाबत सर्वसाधारण संप",
+   "seoTitle": "घरभाडे आणि वेतनासाठी बार्सिलोना संप",
    "tea": {
-    "why": "गगनाला भिडणाऱ्या घरांच्या किमती, परवडत नसलेली भाडे, कमी वेतन आणि जगण्याच्या उच्च खर्चाविरोधात निषेध नोंदवण्यासाठी आंदोलक आणि युनियन सदस्य संपावर गेले.",
-    "want": "निदर्शकांनी परवडणारी घरे, सन्माननीय वेतन, रिअल इस्टेट सट्टेबाजीविरोधात सरकारी कारवाई आणि चांगल्या भाडेकरू संरक्षणाची मागणी केली.",
-    "changed": "११ नोव्हेंबर: बार्सिलोनामध्ये एका मोठ्या आम संपाच्या निदर्शनानंतर संध्याकाळी अशांतता आणि पोलिसांशी संघर्ष झाला, ज्यामुळे arrests आणि मालमत्तेचे नुकसान झाले."
+    "why": "गगनचुंबी घरभाडे खर्च, परवडणारी नसलेली भाडी, कमी वेतन आणि जगण्याच्या उच्च खर्चाविरोधात आंदोलक संप करत आहेत.",
+    "want": "परवडणारी घरे, वीस लाख सार्वजनिक घरे, किमान वेतनाशी जोडलेले भाड्याचे कमाल मूल्य आणि चांगल्या कामाच्या परिस्थितीचा मागण्यांमध्ये समावेश आहे.",
+    "changed": "११ नोव्हेंबर: बार्सिलोनामध्ये सर्वसाधारण संप आणि निदर्शने झाली, जी संघर्ष, मालमत्तेचे नुकसान आणि पोलिसांच्या अटकेसह संपली."
    },
-   "summary": "११ नोव्हेंबर २०२६ रोजी संपूर्ण स्पेनमध्ये एक आम संप झाला, ज्यामध्ये कॅटलोनियाच्या बार्सिलोनामध्ये मोठे मोर्चे निघाले. देशव्यापी वॉकआउटचे आवाहन CCOO आणि UGT सह कामगार युनियन आणि टेनंट्स युनियन सारख्या भाडेकरू संघटनांनी घरांच्या परवडण्यायोग्यतेचे संकट, उच्च भाडे, निष्कासन आणि कमी वेतना विरुद्ध निषेध करण्यासाठी केले होते. बार्सिलोनामध्ये, पसेइग डी ग्रासिया ते प्लाका कातालोनिया पर्यंतच्या मार्चमध्ये हजारो लोकांनी सहभाग घेतला. दिवसाचे निदर्शन बऱ्याच अंशी शांततापूर्ण असले तरी, संध्याकाळच्या घटना अराजक बनल्या कारण मुखवटा घातलेल्या गटांनी कचऱ्याच्या डब्यांना आग लावली, बॅरिकेड्स तयार केले आणि पोलिसांशी संघर्ष केला, ज्यामुळे arrests, दुकानांची लूटमार आणि पोलिसांचा लाठीचार्ज झाला. कॅटलन अध्यक्ष साल्वाडोर इल्ला यांनी शांततापूर्ण निदर्शनांच्या वैधतेची पुष्टी करत हिंसेचा निषेध केला.",
+   "summary": "११ नोव्हेंबर २०२६ रोजी स्पेनमध्ये कामगार, युनियन आणि सामाजिक संस्थांनी देशव्यापी सर्वसाधारण संप पुकारला, ज्यामध्ये बार्सिलोनामध्ये मोठे मोर्चे निघाले. CCOO आणि UGT यांसारख्या प्रमुख युनियन तसेच भाडेकरू आणि विद्यार्थी संघटनांच्या नेतृत्वाखाली झालेल्या या कृतीचा उद्देश \"वेतन. घरभाडे. किमती\" या घोषणेखाली आवास संकट, उच्च जीवन खर्च आणि अपुऱ्या वेतनावर निषेध नोंदवणे हा होता. बार्सिलोनामध्ये हजारो लोकांनी जार्डिनेट्स डी ग्रासिया ते प्लाका डी कॅटालुन्यापर्यंत मार्च काढला. दिवसाचे मोर्चे बऱ्याच आंशाने शांततापूर्ण असले, तरी नंतर निदर्शनांमध्ये अशांतता निर्माण झाली, ज्यामध्ये मुखवटा घातलेल्या गटांनी कचऱ्याच्या डब्यांना आग लावली, दारूगोळा उडवला आणि पासेग डी ग्रासिया येथील दुकानांमध्ये लूटमार केली. पोलिसांनी या अशांततेच्या संबंधात अनेक जणांना ताब्यात घेतले. व्यापारी गटांनी दावा केला की संपामध्ये सहभाग कमी होता आणि प्रभाव मर्यादित होता, तर युनियनने या संपाचे मोठे यश म्हणून स्वागत केले.",
    "demands": [
-    "परवडणारी घरे आणि कमी भाडे",
-    "सन्माननीय वेतन",
-    "रिअल इस्टेट सट्टेबाजीविरोधात उपाय",
-    "चांगले भाडेकरू संरक्षण"
+    "परवडणारे घर",
+    "दोन दशलक्ष सार्वजनिक घरकुल युनिट्स",
+    "भाड्याची किंमत किमान वेतनाच्या २०% पेक्षा जास्त नसावी",
+    "मोठ्या रिअल इस्टेट मालमत्ता मालकांची जप्ती",
+    "सन्माननीय वेतन आणि कामाची चांगली परिस्थिती"
    ],
-   "response": "सुत्रांच्या मते, कॅटलन अध्यक्ष साल्वाडोर इल्ला यांनी तोडफोडीचा निषेध केला आणि पोलिसांच्या कारवाईस पूर्ण पाठिंबा दर्शवला, असे stating केले की हिंसाचार शांततापूर्ण आंदोलकांचे प्रतिनिधित्व करत नाही. पोलिसांनी दंगल नियंत्रण गियर, अश्रुधूर वापरला आणि लाठीचार्ज केला.",
+   "response": "सूत्रांनुसार, पासेग डी ग्रासिया जवळील गोंधळ आणि लूटमारीनंतर बार्सिलोनामध्ये पोलिसांनी ५० हून अधिक लोकांना ताब्यात घेतले. मोसोस डी'एस्क्वाड्राने शहर केंद्रात अधिकारी तैनात केले. राष्ट्रीय स्तरावर, गृह मंत्रालयाने डझनभर अटकेची माहिती दिली, तर CEOE सारख्या व्यावसायिक संघटनांनी दावा केला की संपामध्ये सहभाग कमी होता.",
    "updates": [
-    "घोषित ११ नोव्हेंबरच्या आम संपापूर्वी जेनेरॅलिटॅटने किमान आवश्यक सार्वजनिक सेवा स्थापित केल्या.",
-    "मुख्य आम संप mobilization च्या आधी कॅटलोनियाला सुरुवातीच्या वाहतूक व्यत्ययांचा आणि रेल्वे संपाचा सामना करावा लागला.",
-    "निदर्शकांच्या एका गटाने आरटीव्हीई कॅटलोनियाच्या 'एल कॅफे डे आइडियास' या कार्यक्रमाच्या सकाळच्या प्रसारणात व्यत्यय आणला.",
-    "आम संपादरम्यान बार्सिलोनामध्ये पसेइग डी ग्रासिया ते प्लाका कातालोनिया पर्यंत हजारो लोकांनी मार्च काढला.",
-    "बार्सिलोनामध्ये संध्याकाळी संघर्ष उसळला, ज्यामध्ये आंदोलकांनी कचऱ्याच्या डब्यांना आग लावली, आतषबाजी केली आणि दुकानांची लूटमार केली.",
-    "मध्य बार्सिलोनामध्ये गर्दीला छिडकावण्यासाठी आणि बॅरिकेड्स हटवण्यासाठी पोलिसांनी रांगा तयार केल्या आणि charge केले.",
-    "अशांततेनंतर कॅटलन अधिकाऱ्यांनी बार्सिलोनामध्ये ५० arrests झाल्याचे वृत्त दिले, तर आयोजकांनी संपाच्या यशाचा बचाव केला."
+    "जाहीर केलेल्या सर्वसाधारण संपूूर्वी जनरलिटॅटने शहरी आणि आंतरशहरी वाहतुकीसाठी २५% किमान सार्वजनिक सेवा प्रस्थापित केल्या.",
+    "मध्यरात्री २४ तासांचा सर्वसाधारण संप सुरू झाल्यामुळे संपूर्ण कॅटालोनियामध्ये पिकट्सने वाहतूक मार्ग, रस्ते आणि कारखान्याचे दरवाजे अडवले.",
+    "बार्सिलोनामध्ये जार्डिनेट्स डी ग्रासिया ते प्लाका डी कॅटालुन्या असा मोठा निदर्शनाचा मार्च काढला.",
+    "मार्चनंतर बार्सिलोनामध्ये अशांतता उसळली, ज्यामध्ये जळलेले डबे, संघर्ष आणि पासेग डी ग्रासियावरील लुटलेल्या दुकानांचा समावेश होता."
    ],
    "conflicts": [
-    "आयोजकांनी दावा केला की देशव्यापी कृतींमध्ये लाखो लोकांचा सहभाग होता, तर अधिकृत सहभागाची आकडेवारी प्रदेशानुसार भिन्न होती."
+    "युनियनने दावा केला की उच्च सहभागासह संप मोठे यश होते, तर व्यवसाय मालकांच्या गटांनी प्रतिपादन केले की त्याला कमी सहभाग आणि मर्यादित प्रभाव होता."
    ],
    "numbers": {
-    "crowd": "पोलिसांच्या अंदाजानुसार ५०,००० ते ५५,००० हून अधिक लोक.",
-    "arrests": "बार्सिलोनामध्ये ५० लोकांना अटक करण्यात आली."
+    "crowd": "गार्डिया उरबानानुसार ५५,०००",
+    "arrests": "अहवालानुसार केवळ बार्सिलोनामध्ये ५० हून अधिक लोकांना अटक"
    }
   },
   "es": {
-   "title": "Sindicatos y grupos sociales realizan una huelga general en Barcelona por la vivienda y los salarios",
+   "title": "Sindicatos y grupos sociales realizan huelga general en Barcelona por la vivienda y los salarios",
    "seoTitle": "Huelga en Barcelona por vivienda y salarios",
    "tea": {
-    "why": "Manifestantes y miembros de sindicales se declararon en huelga para protestar contra el encarecimiento de la vivienda, los alquileres inasequibles, los bajos salarios y el alto coste de la vida.",
-    "want": "Los manifestantes exigieron vivienda asequible, salarios dignos, medidas gubernamentales contra la especulación inmobiliaria y una mejor protección para los inquilinos.",
-    "changed": "11 de noviembre: Se produjeron disturbios nocturnos y enfrentamientos con la policía en Barcelona tras una gran manifestación de huelga general, lo que provocó detenciones y daños materiales."
+    "why": "Los manifestantes están en huelga debido al encarecimiento de la vivienda, los alquileres inasumibles, los bajos salarios y el alto costo de la vida.",
+    "want": "Las demandas incluyen vivienda asequible, dos millones de viviendas públicas, topes de alquiler vinculados al salario mínimo y mejores condiciones laborales.",
+    "changed": "11 de noviembre: Se llevaron a cabo huelga general y manifestaciones en Barcelona, concluyendo con disturbios, daños a la propiedad y detenciones policiales."
    },
-   "summary": "El 11 de noviembre de 2026 tuvo lugar una huelga general en toda España, con importantes movilizaciones en Barcelona, Cataluña. El paro nacional fue convocado por sindicatos como CCOO y UGT, junto con asociaciones de inquilinos como el Sindicat de Llogateres, para protestar contra la crisis de asequibilidad de la vivienda, los alquileres elevados, los desahucios y los bajos salarios. En Barcelona, decenas de miles de personas participaron en una marcha desde el Passeig de Gràcia hasta la Plaça Catalunya. Aunque la manifestación diurna fue mayoritariamente pacífica, los eventos nocturnos se volvieron caóticos cuando grupos encapuchados prendieron fuego a contenedores de basura, levantaron barricadas y se enfrentaron a la policía, lo que provocó detenciones, saqueos de tiendas y cargas policiales con porras. El presidente catalán, Salvador Illa, condenó la violencia a la vez que afirmó la legitimidad de la protesta pacífica.",
+   "summary": "Trabajadores, sindicatos y organizaciones sociales realizaron una huelga general en toda España el 11 de noviembre de 2026, con movilizaciones significativas en Barcelona. Organizada por los principales sindicatos, incluidos CCOO y UGT, junto con sindicatos de inquilinos y estudiantes, la acción buscó protestar contra la crisis de vivienda, el alto costo de vida y los salarios inadecuados bajo el lema \"Salarios. Vivienda. Precios.\" En Barcelona, miles marcharon desde los Jardinets de Gràcia hasta la Plaça de Catalunya. Si bien las marchas diurnas fueron mayoritariamente pacíficas, las manifestaciones posteriormente registraron disturbios, con grupos enmascarados prendiendo fuego a contenedores, lanzando pirotecnia y saqueando tiendas en el Passeig de Gràcia. La policía detuvo a numerosos individuos en relación con los disturbios. Los grupos empresariales afirmaron que la huelga tuvo baja participación y un impacto limitado, mientras que los sindicatos calificaron la movilización como un gran éxito.",
    "demands": [
-    "Vivienda asequible y alquileres más bajos",
-    "Salarios dignos",
-    "Medidas contra la especulación inmobiliaria",
-    "Mejor protección para los inquilinos"
+    "Vivienda asequible",
+    "Dos millones de viviendas públicas",
+    "Precios de alquiler que no superen el 20% del salario mínimo",
+    "Expropiación de grandes propietarios de bienes raíces",
+    "Salarios dignos y mejores condiciones de trabajo"
    ],
-   "response": "Según fuentes, el presidente catalán, Salvador Illa, condenó el vandalismo y expresó su total apoyo a las actuaciones policiales, afirmando que la violencia no representa a los manifestantes pacíficos. La policía desplegó equipos antidisturbios, gases lacrimógenos y realizó cargas con porras.",
+   "response": "Según las fuentes, la policía en Barcelona detuvo a más de 50 personas tras los disturbios y saqueos cerca del Passeig de Gràcia. Los Mossos d'Esquadra desplegaron agentes por el centro de la ciudad. A nivel nacional, el Ministerio del Interior informó de decenas de detenciones, mientras que asociaciones empresariales como la CEOE afirmaron que la huelga tuvo una baja participación.",
    "updates": [
-    "La Generalitat estableció servicios públicos esenciales mínimos de cara a la convocada huelga general del 11 de noviembre.",
-    "Cataluña se enfrentó a primeras interrupciones del transporte y huelgas ferroviarias previas a la movilización principal de la huelga general.",
-    "Un grupo de manifestantes interrumpió la emisión matinal del programa 'El café de ideas' de RTVE Cataluña.",
-    "Decenas de miles de personas marcharon desde el Passeig de Gràcia hasta la Plaça Catalunya en Barcelona durante la huelga general.",
-    "Se desataron enfrentamientos nocturnos en Barcelona, con manifestantes prendiendo fuego a contenedores de basura, lanzando fuegos artificiales y saqueando tiendas.",
-    "La policía formó líneas y realizó cargas para dispersar a las multitudes y despejar barricadas en el centro de Barcelona.",
-    "Las autoridades catalanas informaron de 50 detenidos en Barcelona tras los disturbios, mientras que los organizadores defendieron el éxito de la huelga."
+    "La Generalitat estableció servicios públicos mínimos del 25% para el transporte urbano e interurbano antes de la huelga general anunciada.",
+    "Los piquetes bloquearon líneas de transporte, carreteras y puertas de fábricas en toda Cataluña cuando la huelga general de 24 horas comenzó a la medianoche.",
+    "Una gran manifestación marchó desde los Jardinets de Gràcia hasta la Plaça de Catalunya en Barcelona.",
+    "Estallaron disturbios en Barcelona tras la marcha, con contenedores quemados, enfrentamientos y tiendas saqueadas en el Passeig de Gràcia."
    ],
    "conflicts": [
-    "Los organizadores afirmaron que cientos de miles de personas participaron en las acciones a nivel nacional, mientras que las cifras oficiales de participación variaron según la región."
+    "Los sindicatos afirmaron que la huelga fue un gran éxito con alta participación, mientras que los grupos empresariales afirmaron que tuvo baja participación e impacto limitado."
    ],
    "numbers": {
-    "crowd": "Más de 50 000 a 55 000 personas según las estimaciones policiales.",
-    "arrests": "50 personas detenidas en Barcelona."
+    "crowd": "55 000 según la Guardia Urbana",
+    "arrests": "más de 50 personas detenidas solo en Barcelona según los informes"
    }
   },
   "fr": {
-   "title": "Des syndicats et des groupes sociaux organisent une grève générale à Barcelone concernant le logement et les salaires",
+   "title": "Des syndicats et groupes sociaux organisent une grève générale à Barcelone concernant le logement et les salaires",
    "seoTitle": "Grève à Barcelone pour le logement et les salaires",
    "tea": {
-    "why": "Des manifestants et des membres syndക്iaux se sont mis en grève pour protester contre la flambée des coûts du logement, les loyers inabordables, les bas salaires et le coût de la vie élevé.",
-    "want": "Les manifestants ont réclamé des logements abordables, des salaires décents, une action gouvernementale contre la spéculation immobilière et une meilleure protection des locataires.",
-    "changed": "11 nov. : Des troubles nocturnes et des affrontements avec la police se sont produites à Barcelone à la suite d'une grande manifestation de grève générale, entraînant des arrestations et des dégâts matériels."
+    "why": "Les manifestants font grève en raison de la flambée des coûts du logement, des loyers inabordables, des bas salaires et du coût de la vie élevé.",
+    "want": "Les revendications incluent le logement abordable, deux millions de logements publics, des plafonds de loyers liés au salaire minimum et de meilleures conditions de travail.",
+    "changed": "11 nov. : Une grève générale et des manifestations ont eu lieu à Barcelone, se terminant par des affrontements, des dégâts matériels et des arrestations policières."
    },
-   "summary": "Le 11 novembre 2026, une grève générale a eu lieu dans toute l'Espagne, avec des mobilisations majeures à Barcelone, en Catalogne. L'arrêt de travail national a été appelé par des syndicats dont CCOO et UGT, aux côtés d'associations de locataires telles que le Sindicat de Llogateres, pour protester contre la crise de l'accessibilité au logement, les loyers élevés, les expulsions et les bas salaires. À Barcelone, des dizaines de milliers de personnes ont participé à une marche du Passeig de Gràcia jusqu'à la Plaça Catalunya. Bien que la manifestation de journée ait été largement pacifique, les événements de la soirée sont devenus chaotiques lorsque des groupes masqués ont mis le feu à des poubelles, érigé des barricades et se sont accrochés avec la police, entraînant des arrestations, des pillages de magasins et des charges de police à la matraque. Le président catalan Salvador Illa a condamné la violence tout en affirmant la légitimité de la manifestation pacifique.",
+   "summary": "Des travailleurs, des syndicats et des organisations sociales ont mené une grève générale à l'échelle nationale en Espagne le 11 novembre 2026, avec des mobilisations importantes à Barcelone. Organisée par de grands syndicats incluant CCOO et UGT, aux côtés de syndicats de locataires et d'étudiants, l'action visait à protester contre la crise du logement, la vie chère et des salaires inadéquats sous le slogan « Salaires. Logement. Prix. » À Barcelone, des milliers de personnes ont défilé des Jardinets de Gràcia jusqu'à la Plaça de Catalunya. Bien que les manifestations diurnes aient été largement pacifiques, les rassemblements ont ensuite connu des troubles, des groupes masqués incendiant des poubelles, lançant des feux d'artifice et pillant des magasins sur le Passeig de Gràcia. La police a interpellé de nombreux individus en lien avec ces troubles. Des groupes patronaux ont affirmé que la grève avait une faible participation et un impact limité, tandis que les syndicats ont salué le débrayage comme un succès majeur.",
    "demands": [
-    "Logement abordable et loyers plus bas",
-    "Salaires décents",
-    "Mesures contre la spéculation immobilière",
-    "Meilleure protection des locataires"
+    "Logement abordable",
+    "Deux millions de logements publics",
+    "Des prix de loyer ne dépassant pas 20 % du salaire minimum",
+    "Expropriation des grands propriétaires immobiliers",
+    "Salaires dignes et meilleures conditions de travail"
    ],
-   "response": "Selon des sources, le président catalan Salvador Illa a condamné le vandalisme et a exprimé son plein soutien aux actions de la police, déclarant que la violence ne représente pas les manifestants pacifiques. La police a déployé du matériel anti-émeute, du gaz lacrymogène et a effectué des charges à la matraque.",
+   "response": "Selon les sources, la police à Barcelone a interpellé plus de 50 personnes à la suite de troubles et de pillages près du Passeig de Gràcia. Les Mossos d'Esquadra ont déployé des agents dans le centre-ville. À l'échelle nationale, le ministère de l'Intérieur a fait état de dizaines d'arrestations, tandis que des associations patronales telles que la CEOE ont affirmé que la grève avait connu une faible participation.",
    "updates": [
-    "La Generalitat a établi des services publics essentiels minimums en amont de la grève générale annoncée du 11 novembre.",
-    "La Catalogne a fait face à des perturbations de transport précoces et à des grèves ferroviaires précédant la principale mobilisation de la grève générale.",
-    "Un groupe de manifestants a interrompu la diffusion matinale de l'émission 'El café de ideas' de RTVE Catalunya.",
-    "Des dizaines de milliers de personnes ont défilé du Passeig de Gràcia à la Plaça Catalunya à Barcelone pendant la grève générale.",
-    "Des affrontements nocturnes ont éclaté à Barcelone, avec des manifestants mettant le feu à des poubelles, lançant des feux d'artifice et pillant des magasins.",
-    "La police a formé des lignes et a effectué des charges pour disperser les foules et dégager les barricades dans le centre de Barcelone.",
-    "Les autorités catalanes ont signalé 50 arrestations à Barcelone à la suite des troubles, tandis que les organisateurs ont défendu le succès de la grève."
+    "La Generalitat a établi des services publics minimaux de 25 % pour les transports urbains et interurbains avant la grève générale annoncée.",
+    "Des piquets de grève ont bloqué des lignes de transport, des routes et des portes d'usines à travers la Catalogne alors que la grève générale de 24 heures débutait à minuit.",
+    "Une grande manifestation a défilé des Jardinets de Gràcia jusqu'à la Plaça de Catalunya à Barcelone.",
+    "Des troubles ont éclaté à Barcelone après la marche, impliquant des poubelles brûlées, des affrontements et des magasins pillés sur le Passeig de Gràcia."
    ],
    "conflicts": [
-    "Les organisateurs ont affirmé que des centaines de milliers de personnes ont participé aux actions nationales, tandis que les chiffres officiels de participation variaient selon les régions."
+    "Les syndicats ont affirmé que la grève était un succès majeur avec une forte participation, tandis que des groupes patronaux ont soutenu qu'elle avait une faible participation et un impact limité."
    ],
    "numbers": {
-    "crowd": "Plus de 50 000 à 55 000 personnes selon les estimations de la police.",
-    "arrests": "50 personnes arrêtées à Barcelone."
+    "crowd": "55 000 selon la Guardia Urbana",
+    "arrests": "plus de 50 personnes interpellées à Barcelone seulement selon des rapports"
    }
   },
   "de": {
    "title": "Gewerkschaften und soziale Gruppen halten Generalstreik in Barcelona wegen Wohnungsnot und Löhnen ab",
-   "seoTitle": "Streik in Barcelona wegen Wohnen und Löhnen",
+   "seoTitle": "Streik in Barcelona für Wohnen und Löhne",
    "tea": {
-    "why": "Demonstrierende und Gewerkschaftsmitglieder traten in den Streik, um gegen explodierende Wohnkosten, unbezahlbare Mieten, niedrige Löhne und die hohen Lebenshaltungskosten zu protestieren.",
-    "want": "Die Demonstrierenden forderten bezahlbaren Wohnraum, anständige Löhne, staatliches Vorgehen gegen Immobilienspekulation und einen besseren Mieterschutz.",
-    "changed": "11. Nov.: Abends kam es in Barcelona nach einer großen Generalstreikdemonstration zu Unruhen und Zusammenstößen mit der Polizei, was zu Festnahmen und Sachschäden führte."
+    "why": "Demonstranten streiken wegen explodierender Wohnkosten, unbezahlbarer Mieten, niedriger Löhne und der hohen Lebenshaltungskosten.",
+    "want": "Zu den Forderungen gehören bezahlbarer Wohnraum, zwei Millionen öffentliche Wohnungen, an den Mindestlohn gekoppelte Mietpreisobergrenzen und bessere Arbeitsbedingungen.",
+    "changed": "11. Nov.: Ein Generalstreik und Demonstrationen fanden in Barcelona statt und endeten mit Zusammenstößen, Sachschäden und polizeilichen Festnahmen."
    },
-   "summary": "Am 11. November 2026 fand in ganz Spanien ein Generalstreik statt, mit großen Mobilisierungen in Barcelona, Katalonien. Der landesweite Ausstand wurde von Gewerkschaften wie CCOO und UGT sowie Mietervereinigungen wie der Mietergewerkschaft ausgerufen, um gegen die Krise der Wohnungsbezahlbarkeit, hohe Mieten, Räumungen und niedrige Löhne zu protestieren. In Barcelona beteiligten sich Zehntausende an einem Marsch vom Passeig de Gràcia zur Plaça Catalunya. Während die Demonstration bei Tag weitgehend friedlich verlief, wurde es am Abend chaotisch, als maskierte Gruppen Mülltonnen anzündeten, Barrikaden bauten und mit der Polizei zusammenstießen, was zu Festnahmen, Plünderungen von Geschäften und Polizeieinsätzen mit Gummiknüppeln führte. Der katalanische Präsident Salvador Illa verurteilte die Gewalt und bekräftigte gleichzeitig die Legitimität des friedlichen Protests.",
+   "summary": "Arbeiter, Gewerkschaften und soziale Organisationen hielten am 11. November 2026 einen landesweiten Generalstreik in Spanien ab, mit signifikanten Mobilisierungen in Barcelona. Organisiert von großen Gewerkschaften einschließlich CCOO und UGT sowie Mieter- und Studentensyndikaten zielte die Aktion darauf ab, unter dem Slogan „Löhne. Wohnen. Preise.“ gegen die Wohnungsnot, hohe Lebenshaltungskosten und unzureichende Löhne zu protestieren. In Barcelona marschierten Tausende von den Jardinets de Gràcia zur Plaça de Catalunya. Während die Märsche am Tag weitgehend friedlich verliefen, kam es später bei den Demonstrationen zu Ausschreitungen, bei denen maskierte Gruppen Mülltonnen anzündeten, Pyrotechnik zündeten und Geschäfte am Passeig de Gràcia plünderten. Die Polizei nahm im Zusammenhang mit den Unruhen zahlreiche Personen fest. Unternehmensgruppen behaupteten, der Streik habe eine geringe Beteiligung und begrenzte Auswirkungen gehabt, wohingegen Gewerkschaften den Ausstand als großen Erfolg feierten.",
    "demands": [
-    "Bezahlbarer Wohnraum und niedrigere Mieten",
-    "Anständige Löhne",
-    "Maßnahmen gegen Immobilienspekulation",
-    "Besserer Mieterschutz"
+    "Bezahlbarer Wohnraum",
+    "Zwei Millionen öffentliche Wohneinheiten",
+    "Mietpreise von höchstens 20 % des Mindestlohns",
+    "Enteignung von großen Immobilienbesitzern",
+    "Würdige Löhne und bessere Arbeitsbedingungen"
    ],
-   "response": "Quellen zufolge verurteilte der katalanische Präsident Salvador Illa den Vandalismus und sprach den polizeilichen Maßnahmen seine volle Unterstützung aus, wobei er erklärte, dass Gewalt keine friedlichen Demonstrierenden repräsentiere. Die Polizei setzte Schutzkleidung, Tränengas und Schlagstöcke ein.",
+   "response": "Berichten zufolge nahm die Polizei in Barcelona nach Ausschreitungen und Plünderungen in der Nähe des Passeig de Gràcia über 50 Personen fest. Die Mossos d'Esquadra setzten Beamte im Stadtzentrum ein. Landesweit meldete das Innenministerium Dutzende Festnahmen, während Wirtschaftsverbände wie die CEOE erklärten, der Streik habe eine geringe Beteiligung verzeichnet.",
    "updates": [
-    "Die Generalitat legte im Vorfeld des angekündigten Generalstreiks vom 11. November minimale wesentliche öffentliche Dienste fest.",
-    "Katalonien war vor der Hauptmobilisierung des Generalstreiks mit frühen Transportstörungen und Bahnstreiks konfrontiert.",
-    "Eine Gruppe von Demonstrierenden unterbrach die morgendliche Ausstrahlung der Sendung 'El café de ideas' von RTVE Catalunya.",
-    "Zehntausende marschierten während des Generalstreiks vom Passeig de Gràcia zur Plaça Catalunya in Barcelona.",
-    "Abendliche Zusammenstöße brachen in Barcelona aus, wobei Demonstrierende Mülltonnen anzündeten, Feuerwerkskörper abfeuerten und Geschäfte plünderten.",
-    "Die Polizei bildete Linien und führte Einsätze durch, um die Menschenmengen zu verteilen und Barrikaden im Zentrum Barcelonas zu räumen.",
-    "Katalanische Behörden meldeten 50 Festnahmen in Barcelona nach den Unruhen, während die Organisatoren den Erfolg des Streiks verteidigten."
+    "Die Generalitat legte vor dem angekündigten Generalstreik Mindestpublic Services von 25 % für den Stadt- und Überlandverkehr fest.",
+    "Streikposten blockierten zu Beginn des 24-stündigen Generalstreiks um Mitternacht Verkehrslinien, Straßen und Fabriktore in ganz Katalonien.",
+    "Eine große Demonstration zog von den Jardinets de Gràcia zur Plaça de Catalunya in Barcelona.",
+    "Nach dem Marsch kam es in Barcelona zu Ausschreitungen mit brennenden Mülltonnen, Zusammenstößen und geplünderten Geschäften am Passeig de Gràcia."
    ],
    "conflicts": [
-    "Die Organisatoren behaupteten, Hunderttausende hätten sich an landesweiten Aktionen beteiligt, während offizielle Beteiligungszahlen je nach Region variierten."
+    "Gewerkschaften erklärten, der Streik sei ein großer Erfolg mit hoher Beteiligung gewesen, während Arbeitgeberverbände betonten, er habe eine geringe Beteiligung und begrenzte Auswirkungen gehabt."
    ],
    "numbers": {
-    "crowd": "Über 50 000 bis 55 000 Menschen nach polizeilichen Schätzungen.",
-    "arrests": "50 Personen in Barcelona festgenommen."
+    "crowd": "55.000 laut Guardia Urbana",
+    "arrests": "mehr als 50 Personen allein in Barcelona festgenommen laut Berichten"
    }
   },
   "it": {
-   "title": "Sindacati e gruppi sociali tengono uno sciopero generale a Barcellona su casa e salari",
-   "seoTitle": "Sciopero a Barcellona per casa e salari",
+   "title": "Sindacati e gruppi sociali tengono uno sciopero generale a Barcellona su alloggi e salari",
+   "seoTitle": "Sciopero a Barcellona per alloggi e salari",
    "tea": {
-    "why": "Manifestanti e membri sindacali hanno scioperato per protestare contro l'aumento vertiginoso dei costi degli alloggi, gli affitti inaffordabili, i salari bassi e l'alto costo della vita.",
-    "want": "I manifestanti hanno chiesto alloggi a prezzi accessibili, salari dignitosi, un'azione governativa contro la speculazione immobiliare e migliori tutele per gli inquilini.",
-    "changed": "11 nov: Scontri serali e tafferugli con la polizia si sono verificati a Barcellona in seguito a una grande manifestazione di sciopero generale, portando ad arresti e danni materiali."
+    "why": "I manifestanti sono in sciopero per l'aumento vertiginoso dei costi degli alloggi, affitti inaccessibili, salari bassi e l'alto costo della vita.",
+    "want": "Le richieste includono alloggi accessibili, due milioni di case popolari, tetti agli affitti legati ai salari minimi e migliori condizioni di lavoro.",
+    "changed": "11 nov: Si sono svolti uno sciopero generale e manifestazioni a Barcellona, concluse con scontri, danni alla proprietà e arresti di polizia."
    },
-   "summary": "L'11 novembre 2026 si è tenuto uno sciopero generale in tutta la Spagna, con mobilitazioni importanti a Barcellona, in Catalogna. Lo stop nazionale è stato proclamato dai sindacati tra cui CCOO e UGT, insieme ad associazioni di inquilini come il Sindicat de Llogateres, per protestare contro la crisi dell'accessibilità abitativa, gli affitti alti, gli sfratti e i bassi salari. A Barcellona, decine di migliaia di persone hanno partecipato a un corteo dal Passeig de Gràcia a Plaça Catalunya. Sebbene la manifestazione diurna sia stata ampiamente pacifica, gli eventi serali sono diventati caotici quando gruppi mascherati hanno dato fuoco ai cassonetti dell'immondizia, eretto barricate e si sono scontrati con la polizia, portando ad arresti, saccheggi di negozi e cariche della polizia con manganelli. Il presidente catalano Salvador Illa ha condannato la violenza ribadendo al contempo la legittimità della protesta pacifica.",
+   "summary": "Lavoratori, sindacati e organizzazioni sociali hanno tenuto uno sciopero generale nazionale in Spagna l'11 novembre 2026, con significative mobilitazioni a Barcellona. Organizzata dai principali sindacati tra cui CCOO e UGT, insieme a sindacati di inquilini e studenti, l'azione mirava a protestare contro la crisi abitativa, il costo della vita elevato e salari inadeguati sotto lo slogan \"Salari. Alloggio. Prezzi.\" A Barcellona, migliaia di persone hanno marciato dai Jardinets de Gràcia a Plaça de Catalunya. Sebbene i cortei diurni siano stati in gran parte pacifici, le manifestazioni hanno poi registrato disordini, con gruppi mascherati che hanno dato fuoco a cassonetti, lanciato fuochi d'artificio e saccheggiato negozi sul Passeig de Gràcia. La polizia ha fermato numerose persone in relazione ai disordini. I gruppi imprenditoriali hanno affermato che lo sciopero ha registrato una bassa partecipazione e un impatto limitato, mentre i sindacati hanno acclamato l'astensione dal lavoro come un grande successo.",
    "demands": [
-    "Alloggi a prezzi accessibili e affitti più bassi",
-    "Salari dignitosi",
-    "Misure contro la speculazione immobiliare",
-    "Migliori tutele per gli inquilini"
+    "Alloggi accessibili",
+    "Due milioni di unità di edilizia popolare",
+    "Prezzi degli affitti non superiori al 20% del salario minimo",
+    "Espropriazione dei grandi proprietari di beni immobili",
+    "Salari dignitosi e migliori condizioni di lavoro"
    ],
-   "response": "Secondo le fonti, il presidente catalano Salvador Illa ha condannato il vandalismo e ha espresso pieno sostegno alle azioni della polizia, affermando che la violenza non rappresenta i manifestanti pacifici. La polizia ha schierato attrezzature antisommossa, gas lacrimogeni e ha effettuato cariche con manganelli.",
+   "response": "Secondo le fonti, la polizia di Barcellona ha fermato oltre 50 persone a seguito di disordini e saccheggi vicino a Passeig de Gràcia. I Mossos d'Esquadra hanno schierato agenti nel centro della città. A livello nazionale, il Ministero dell'Interno ha riportato decine di arresti, mentre associazioni imprenditoriali come la CEOE hanno sostenuto che lo sciopero ha avuto una bassa partecipazione.",
    "updates": [
-    "La Generalitat ha stabilito servizi pubblici essenziali minimi in vista dello sciopero generale annunciato per l'11 novembre.",
-    "La Catalogna ha affrontato disagi nei trasporti anticipati e scioperi ferroviari che hanno preceduto la principale mobilitazione dello sciopero generale.",
-    "Un gruppo di manifestanti ha interrotto la trasmissione mattutina del programma 'El café de ideas' di RTVE Catalunya.",
-    "Decine di migliaia di persone hanno marciato dal Passeig de Gràcia a Plaça Catalunya a Barcellona durante lo sciopero generale.",
-    "Scontri serali sono scoppiati a Barcellona, con manifestanti che hanno dato fuoco ai cassonetti dell'immondizia, lanciato fuochi d'artificio e saccheggiato negozi.",
-    "La polizia ha formato linee e ha effettuato cariche per disperdere le folle e sgomberare le barricate nel centro di Barcellona.",
-    "Le autorità catalane hanno segnalato 50 arresti a Barcellona in seguito ai disordini, mentre gli organizzatori hanno difeso il successo dello sciopero."
+    "La Generalitat ha stabilito servizi pubblici minimi del 25% per il trasporto urbano e interurbano in vista dello sciopero generale annunciato.",
+    "I picchetti hanno bloccato linee di trasporto, strade e cancelli di fabbriche in tutta la Catalogna quando lo sciopero generale di 24 ore è iniziato a mezzanotte.",
+    "Una grande manifestazione ha sfilato dai Jardinets de Gràcia a Plaça de Catalunya a Barcellona.",
+    "I disordini sono scoppiati a Barcellona dopo il corteo, con cassonetti bruciati, scontri e negozi saccheggiati sul Passeig de Gràcia."
    ],
    "conflicts": [
-    "Gli organizzatori hanno sostenuto che centinaia di migliaia di persone hanno partecipato alle azioni a livello nazionale, mentre le cifre ufficiali della partecipazione variavano a seconda della regione."
+    "I sindacati hanno sostenuto che lo sciopero è stato un grande successo con un'alta partecipazione, mentre i gruppi di datori di lavoro hanno affermato che ha avuto una bassa partecipazione e un impatto limitato."
    ],
    "numbers": {
-    "crowd": "Oltre 50 000 - 55 000 persone secondo le stime della polizia.",
-    "arrests": "50 persone arrestate a Barcellona."
+    "crowd": "55.000 secondo la Guardia Urbana",
+    "arrests": "più di 50 persone fermate solo a Barcellona secondo le segnalazioni"
    }
   },
   "pt": {
-   "title": "Sindicatos e grupos sociais realizam greve geral em Barcelona devido a habitação e salários",
-   "seoTitle": "Greve em Barcelona por habitação e salários",
+   "title": "Sindicatos e grupos sociais realizam greve geral em Barcelona sobre habitação e salários",
+   "seoTitle": "Greve em Barcelona sobre habitação e salários",
    "tea": {
-    "why": "Manifestantes e membros sindicais entraram em greve para protestar contra o aumento vertiginoso dos custos da habitação, rendas inacessíveis, salários baixos e o alto custo de vida.",
-    "want": "Os manifestantes exigiram habitação acessível, salários dignos, ação governamental contra a especulação imobiliária e melhores proteções para os inquilinos.",
-    "changed": "11 de nov.: Distúrbios à noite e confrontos com a polícia ocorreram em Barcelona após uma grande manifestação de greve geral, levando a detenções e danos materiais."
+    "why": "Os manifestantes estão em greve devido aos custos crescentes da habitação, rendas insequíveis, salários baixos e ao elevado custo de vida.",
+    "want": "As reivindicações incluem habitação acessível, dois milhões de casas públicas, limites de rendas atrelados aos salários mínimos e melhores condições de trabalho.",
+    "changed": "11 de nov.: Realizaram-se uma greve geral e manifestações em Barcelona, terminando com confrontos, danos materiais e detenções policiais."
    },
-   "summary": "Em 11 de novembro de 2026, ocorreu uma greve geral em toda a Espanha, com grandes mobilizações em Barcelona, na Catalunha. A paralisação nacional foi convocada por sindicatos, incluindo CCOO e UGT, juntamente com associações de inquilinos como o Sindicat de Llogateres, para protestar contra a crise de acessibilidade à habitação, rendas altas, despejos e salários baixos. Em Barcelona, dezenas de milhares participaram numa marcha ao longo do Passeig de Gràcia até à Plaça Catalunya. Embora a manifestação diurna tenha sido amplamente pacífica, os eventos noturnos tornaram-se caóticos quando grupos mascarados incendiaram caixotes do lixo, construíram barricadas e confrontaram a polícia, levando a detenções, roubos a lojas e cargas policiais com cassetetes. O presidente catalão Salvador Illa condenou a violência, afirmando a legitimidade do protesto pacífico.",
+   "summary": "Trabalhadores, sindicatos e organizações sociais realizaram uma greve geral a nível nacional em Espanha a 11 de novembro de 2026, com mobilizações significativas em Barcelona. Organizada pelos principais sindicatos, incluindo CCOO e UGT, juntamente com sindicatos de inquilinos e estudantes, a ação visava protestar contra a crise da habitação, o custo de vida elevado e salários inadequados sob o lema \"Salários. Habitação. Preços\". Em Barcelona, milhares marcharam desde os Jardinets de Gràcia até à Plaça de Catalunya. Embora as marchas diurnas tenham decorrido de forma amplamente pacífica, as manifestações registaram mais tarde desacatos, com grupos mascarados a incendiar caixotes do lixo, a lançar pirotecnia e a saquear lojas no Passeig de Gràcia. A polícia deteve vários indivíduos no âmbito dos distúrbios. Os grupos empresariais afirmaram que a greve teve baixa participação e impacto limitado, enquanto os sindicatos aclamaram a paralisação como um grande sucesso.",
    "demands": [
-    "Habitação acessível e rendas mais baixas",
-    "Salários dignos",
-    "Medidas contra a especulação imobiliária",
-    "Melhor proteção para os inquilinos"
+    "Habitação acessível",
+    "Dois milhões de unidades de habitação pública",
+    "Preços de arrendamento que não excedam 20% do salário mínimo",
+    "Expropriação de grandes proprietários imobiliários",
+    "Salários dignos e melhores condições de trabalho"
    ],
-   "response": "Segundo fontes, o presidente catalão Salvador Illa condenou o vandalismo e expressou total apoio às ações policiais, afirmando que a violência não representa os manifestantes pacíficos. A polícia mobilizou equipamento de choque, gás lacrimogéneo e realizou cargas com cassetetes.",
+   "response": "Segundo as fontes, a polícia em Barcelona deteve mais de 50 pessoas na sequência de distúrbios e saques perto do Passeig de Gràcia. Os Mossos d'Esquadra mobilizaram agentes por todo o centro da cidade. A nível nacional, o Ministério do Interno reportou dezenas de detenções, enquanto associações empresariais como a CEOE afirmaram que a greve teve baixa participação.",
    "updates": [
-    "A Generalitat estabeleceu serviços públicos essenciais mínimos antes da greve geral anunciada para 11 de novembro.",
-    "A Catalunha enfrentou perturbações iniciais nos transportes e greves ferroviárias que antecederam a principal mobilização da greve geral.",
-    "Um grupo de manifestantes interrompeu a transmissão matinal do programa 'El café de ideas' da RTVE Catalunya.",
-    "Dezenas de milhares marcharam do Passeig de Gràcia até à Plaça Catalunya em Barcelona durante a greve geral.",
-    "Confrontos noturnos eclodiram em Barcelona, com manifestantes a incendiar caixotes do lixo, lançar fogo-de-artifício e saquear lojas.",
-    "A polícia formou linhas e realizou cargas para dispersar multidões e limpar barricadas no centro de Barcelona.",
-    "As autoridades catalãs relataram 50 detenções em Barcelona após os distúrbios, enquanto os organizadores defenderam o sucesso da greve."
+    "A Generalitat estabeleceu serviços públicos mínimos de 25% para o transporte urbano e interurbano antes da greve geral anunciada.",
+    "Os piquetes bloquearam linhas de transporte, estradas e portões de fábricas em toda a Catalunha à medida que a greve geral de 24 horas começava à meia-noite.",
+    "Uma grande manifestação marchou desde os Jardinets de Gràcia até à Plaça de Catalunya em Barcelona.",
+    "Os distúrbios eclodiram em Barcelona após a marcha, envolvendo caixotes do lixo queimados, confrontos e lojas saqueadas no Passeig de Gràcia."
    ],
    "conflicts": [
-    "Os organizadores afirmaram que centenas de milhares participaram em ações a nível nacional, enquanto os números oficiais de participação variaram por região."
+    "Os sindicatos afirmaram que a greve foi um grande sucesso com alta participação, enquanto os grupos patronais afirmaram que teve baixa participação e impacto limitado."
    ],
    "numbers": {
-    "crowd": "Mais de 50 000 a 55 000 pessoas, segundo estimativas da polícia.",
-    "arrests": "50 pessoas detidas em Barcelona."
+    "crowd": "55.000 segundo a Guardia Urbana",
+    "arrests": "mais de 50 pessoas detidas apenas em Barcelona segundo relatórios"
    }
   },
   "nl": {
-   "title": "Vakbonden en sociale groepen houden algemene staking in Barcelona om woningen en lonen",
-   "seoTitle": "Staking in Barcelona om woningen en lonen",
+   "title": "Vakbonden en sociale groepen houden algemene staking in Barcelona over huisvesting en lonen",
+   "seoTitle": "Staking in Barcelona om wonen en lonen",
    "tea": {
-    "why": "Demonstranten en vakbondsleden gingen in staking om te protesteren tegen de soaring stijgende huisvestingskosten, onbetaalbare huurprijzen, lage lonen en de hoge kosten van levensonderhoud.",
-    "want": "Demonstranten eisten betaalbare huisvesting, fatsoenlijke lonen, overheidsoptreden tegen vastgoedspeculatie en betere huurdersbescherming.",
-    "changed": "11 nov.: Avondonrust en botsingen met de politie vonden plaats in Barcelona na een grote algemene stakingdemonstratie, wat leidde tot arrestaties en materiële schade."
+    "why": "Demonstranten staken vanwege stijgende huisvestingskosten, onbetaalbare huurprijzen, lage lonen en de hoge kosten van levensonderhoud.",
+    "want": "De eisen omvatten betaalbare huisvesting, twee miljoen sociale huurwoningen, huurplafonds gekoppeld aan minimumlonen en betere arbeidsomstandigheden.",
+    "changed": "11 nov.: Een algemene staking en demonstraties vonden plaats in Barcelona, die eindigden in rellen, materiële schade en politie-arrestaties."
    },
-   "summary": "Op 11 november 2026 vond in heel Spanje een algemene staking plaats, met grote mobilisaties in Barcelona, Catalonië. De landelijke werkonderbreking werd uitgeroepen door vakbonden waaronder CCOO en UGT, samen met huurdersverenigingen zoals de huurdersbond, om te protesteren tegen de betaalbaarheidscrisis op de woningmarkt, hoge huurprijzen, uitzettingen en lage lonen. In Barcelona namen tienduizenden deel aan een mars langs de Passeig de Gràcia naar Plaça Catalunya. Hoewel de demonstratie overdag grotendeels vredig verliep, sloegen de avondgebeurtenissen om in chaos toen gemaskerde groepen vuilnisbakken in brand staken, barricades opwierpen en slaags raakten met de politie, wat leidde tot arrestaties, plunderingen van winkels en politieladingen met wapenstokken. De Catalaanse president Salvador Illa veroordeelde het geweld en bevestigde tegelijkertijd de legitimiteit van vreedzaam protest.",
+   "summary": "Arbeiders, vakbonden en sociale organisaties hielden op 11 november 2026 een landelijke algemene staking in Spanje, met aanzienlijke mobilisaties in Barcelona. Georganiseerd door grote vakbonden waaronder CCOO en UGT, samen met huurders- en studentenvakbonden, was de actie bedoeld om onder de slogan \"Lonen. Huisvesting. Prijzen\" te protesteren tegen de woningcrisis, hoge kosten van levensonderhoud en ontoereikende lonen. In Barcelona marcheerden duizenden mensen van Jardinets de Gràcia naar Plaça de Catalunya. Hoewel de overdag gehouden marsen grotendeels vredig verliepen, kenden de demonstraties later ongeregeldheden waarbij gemaskerde groepen vuilnisbakken in brand staken, vuurwerk afstaken en winkels plunderden op de Passeig de Gràcia. De politie hield tal van personen aan in verband met de onrust. Bedrijfsgroeperingen beweerden dat de staking een lage opkomst en een beperkte impact had, terwijl vakbonden de werkonderbreking prezen als een groot succes.",
    "demands": [
-    "Betaalbare huisvesting en lagere huurprijzen",
-    "Fatsoenlijke lonen",
-    "Maatregelen tegen vastgoedspeculatie",
-    "Betere huurdersbescherming"
+    "Betaalbare huisvesting",
+    "Twee miljoen openbare woningbouweenheden",
+    "Huurprijzen die niet hoger zijn dan 20% van het minimumloon",
+    "Enteigening van grote vastgoedeigenaren",
+    "Waardige lonen en betere arbeidsomstandigheden"
    ],
-   "response": "Volgens bronnen veroordeelde de Catalaanse president Salvador Illa het vandalisme en sprak hij volledige steun uit voor het politieoptreden, waarbij hij verklaarde dat geweld vreedzame demonstranten niet vertegenwoordigt. De politie zette oproeruitrusting en tranengas in en voerde charges uit met wapenstokken.",
+   "response": "Volgens bronnen heeft de politie in Barcelona ruim 50 mensen aangehouden na ongeregeldheden en plunderingen in de buurt van de Passeig de Gràcia. De Mossos d'Esquadra zetten agenten in door het stadscentrum. Landelijk meldde het ministerie van Binnenlandse Zaken tientallen arrestaties, terwijl bedrijfsorganisaties zoals de CEOE beweerden dat de staking een lage opkomst kende.",
    "updates": [
-    "De Generalitat stelde minimale essentiële openbare diensten in voorafgaand aan de aangekondigde algemene staking van 11 november.",
-    "Catalonië kreeg te maken met vroege transportverstoringen en spoorwegstakingen voorafgaand aan de belangrijkste mobilisatie voor de algemene staking.",
-    "Een groep demonstranten onderbrak de ochtenduitzending van het programma 'El café de ideas' van RTVE Catalunya.",
-    "Tienduizenden marcheerden tijdens de algemene staking van Passeig de Gràcia naar Plaça Catalunya in Barcelona.",
-    "Avondconflicten barstten los in Barcelona, waarbij demonstranten vuilnisbakken in brand staken, vuurwerk afstaken en winkels punderden.",
-    "De politie vormde linies en voerde charges uit om menigten te verspreiden en barricades op te ruimen in centraal Barcelona.",
-    "Catalaanse autoriteiten meldden 50 arrestaties in Barcelona na de onrust, terwijl organisatoren het succes van de staking verdedigden."
+    "De Generalitat stelde minimale openbare diensten van 25% vast voor stedelijk en interstedelijk vervoer voorafgaand aan de aangekondigde algemene staking.",
+    "Piketposten blokkeerden transportlijnen, wegen en fabriekspoorten in heel Catalonië toen de 24-uurs algemene staking om middernacht begon.",
+    "Een grote demonstratie marcheerde van Jardinets de Gràcia naar Plaça de Catalunya in Barcelona.",
+    "Na de mars ontstonden er ongeregeldheden in Barcelona, met verbrande vuilnisbakken, confrontaties en geplunderde winkels op de Passeig de Gràcia."
    ],
    "conflicts": [
-    "Organisatoren beweerden dat honderdduizenden deelnamen aan landelijke acties, terwijl de officiële deelnamecijfers per regio variëerden."
+    "Vakbonden beweerden dat de staking een groot succes was met een hoge opkomst, terwijl werkgeversorganisaties benadrukten dat deze een lage opkomst en beperkte impact had."
    ],
    "numbers": {
-    "crowd": "Ruim 50 000 tot 55 000 mensen volgens schattingen van de politie.",
-    "arrests": "50 mensen gearresteerd in Barcelona."
+    "crowd": "55.000 volgens de Guardia Urbana",
+    "arrests": "ruim 50 personen gearresteerd in Barcelona alleen volgens rapporten"
    }
   }
  },
