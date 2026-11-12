@@ -13,14 +13,14 @@
   "citySlug": "paris",
   "regionSlug": "ile-de-france"
  },
- "scope": "multi-city",
+ "scope": "nationwide",
  "causes": [
-  "students",
   "education",
-  "prices"
+  "prices",
+  "labour"
  ],
  "kind": "multi-day",
- "startedOn": "2026-09-30",
+ "startedOn": "2026-10-01",
  "status": "ongoing",
  "vibe": "tense",
  "severity": "serious",
@@ -33,28 +33,28 @@
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against overcrowded classrooms, teacher shortages, crumbling school facilities, and the rising cost of living.",
-  "want": "They demand improved educational resources, better learning conditions, and immediate government action to address inflation and living costs.",
-  "changed": "Nov 10: Students and teachers held a nationwide strike following an impasse in negotiations with the government regarding education reforms."
+  "why": "Protesters are demonstrating against rising living costs, fuel prices, and conditions in the education system, including teacher shortages.",
+  "want": "They demand improved learning conditions, more teachers, and government action to address inflation and education reform.",
+  "changed": "Nov 10: Students and teachers held a nationwide strike following an impasse in negotiations with the government."
  },
- "summary": "Since late September 2026, students, teachers, and union members have engaged in a series of protests and school blockades across France. The movement, which began in schools over classroom conditions and resource shortages, expanded to include broader grievances regarding the cost of living and inequality. Demonstrations have frequently involved clashes between protesters and police, with authorities reporting thousands of arrests and injuries to both officers and participants. Prime Minister Sébastien Lecornu has attributed the unrest to the far-left and criminal groups, stating the government will not be intimidated. Conversely, organizers and student representatives have accused the state of disproportionate police violence and failing to address systemic issues in the education system. Ongoing strikes and marches continue as negotiations between unions and the government remain at an impasse.",
+ "summary": "Since early October 2026, students, teachers, and labor unions have engaged in a series of protests and school blockades across France. Organised by various student groups and unions, including the CGT, the movement demands better educational resources, smaller class sizes, and relief from the rising cost of living. Demonstrations have frequently occurred in Paris and other major cities, often resulting in clashes between protesters and police. The government, led by Prime Minister Sébastien Lecornu, has attributed the unrest to radical groups and rejected intimidation. Authorities have deployed significant police forces, leading to thousands of arrests and reports of injuries on both sides. Despite ongoing negotiations, student and teacher unions maintain that government concessions remain insufficient, with further strikes and marches scheduled for mid-November.",
  "organizers": [
   "CGT",
-  "Popular Youth Front",
-  "La France Insoumise"
+  "La France Insoumise",
+  "student unions"
  ],
  "demands": [
-  "Increased funding for education",
-  "More teachers and support staff",
-  "Improved school facilities",
-  "Action on rising living costs",
-  "Reform of the Parcoursup admissions system"
+  "Improved classroom conditions",
+  "More teachers",
+  "Lower living costs",
+  "Reform of Parcoursup",
+  "Resolution of social problems"
  ],
- "response": "Prime Minister Sébastien Lecornu stated the government would not be intimidated by violence, which he blamed on the far-left and criminal groups. The Interior Ministry deployed 70,000 police and soldiers during major protest days, and the government has launched internal probes into allegations of police brutality.",
+ "response": "Prime Minister Sébastien Lecornu stated the government would not be intimidated by violence, blaming the unrest on the far left and criminal groups. The Interior Ministry has deployed tens of thousands of police and gendarmes to manage the protests.",
  "numbers": {
   "crowd": {
    "value": 800000,
-   "text": "The CGT trade union estimated 800,000 people participated in nationwide demonstrations on October 17.",
+   "text": "The CGT trade union reported around 800,000 participants nationwide on October 17.",
    "sources": [
     2,
     4
@@ -85,31 +85,39 @@
  "updates": [
   {
    "at": "2026-10-01",
-   "text": "Interior ministry reported 1,949 arrests and 305 injured officers following school blockades.",
+   "text": "Students across France began blockades and protests over classroom conditions and teacher shortages.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-10-17",
-   "text": "Nationwide protests occurred with reports of 800,000 participants and 2,400 detentions.",
+   "text": "Massive nationwide demonstrations occurred, resulting in widespread clashes and thousands of arrests.",
    "sources": [
     2,
     3
    ]
   },
   {
-   "at": "2026-11-07",
-   "text": "A new day of mobilization took place in Paris with an authorized union march and banned yellow vest gatherings.",
+   "at": "2026-10-31",
+   "text": "A third consecutive weekend of youth-led protests took place across France.",
    "sources": [
+    5
+   ]
+  },
+  {
+   "at": "2026-11-05",
+   "text": "Unions and students held a new day of mobilization, with clashes reported in Paris.",
+   "sources": [
+    6,
     7
    ]
   },
   {
    "at": "2026-11-10",
-   "text": "Students and teachers held a nationwide strike after talks with the government reached an impasse.",
+   "text": "Students and teachers held a nationwide strike after negotiations with the government reached an impasse.",
    "sources": [
-    10
+    9
    ]
   }
  ],
@@ -144,44 +152,44 @@
   },
   {
    "n": 5,
-   "url": "https://www.lefigaro.fr/conjoncture/manifestations-du-31-octobre-20-commerces-degrades-samedi-20261101",
-   "publisher": "lefigaro.fr",
-   "title": "Manifestations du 31 octobre : 20 commerces dégradés samedi",
-   "publishedAt": "2026-11-01T10:30:55.000Z"
+   "url": "https://www.hurriyetdailynews.com/amp/youth-led-rallies-sweep-across-europe-228875",
+   "publisher": "hurriyetdailynews.com",
+   "title": "Youth-led rallies sweep across Europe - World News",
+   "publishedAt": "2026-11-01T10:50:17.000Z"
   },
   {
    "n": 6,
-   "url": "https://www.naftemporiki.gr/kosmos/2184824/gallia-panethniki-apergia-kai-ekatontades-chiliades-stoys-dromoys/",
-   "publisher": "naftemporiki.gr",
-   "title": "Γαλλία: Πανεθνική απεργία και εκατοντάδες χιλιάδες στους δρόμους",
-   "publishedAt": "2026-11-05T08:58:54.000Z"
+   "url": "https://hotnews.ro/franta-se-confrunta-cu-un-nou-val-de-proteste-sindicalistii-alaturandu-se-studentilor-trebuie-sa-iesim-in-numar-cat-mai-mare-2395543",
+   "publisher": "hotnews.ro",
+   "title": "Franța se confruntă cu un nou val de proteste, sindicaliștii alăturându-se studenților: „Trebuie să ieșim în număr cât mai mare” - HotNews.ro",
+   "publishedAt": "2026-11-05T09:18:26.000Z"
   },
   {
    "n": 7,
-   "url": "https://www.sortiraparis.com/et/uudised/pariisis/articles/357646-7-novembri-meeleavaldus-pariisis-sel-laupaeval-suletud-metroojaamade-nimekiri",
+   "url": "https://www.sortiraparis.com/fi/uutiset/pariisissa/articles/357646-mielenosoitus-pariisissa-7-marraskuuta-16-metroasemaa-suljettuina-lauantaina",
    "publisher": "sortiraparis.com",
-   "title": "7. novembri meeleavaldus Pariisis: sel laupäeval suletud metroojaamade nimekiri",
+   "title": "Mielenosoitus Pariisissa 7. marraskuuta: 16 metroasemaa suljettuina tänä lauantaina",
    "publishedAt": "2026-11-06T14:46:37.000Z"
   },
   {
    "n": 8,
-   "url": "https://www.ipsnews.net/2026/11/france-the-government-should-learn-to-respect-its-people-listen-to-them-and-consult-them/",
-   "publisher": "ipsnews.net",
-   "title": "FRANCE: ‘The Government Should Learn to Respect Its People, Listen to Them and Consult Them’",
-   "publishedAt": "2026-11-11T11:20:59.000Z"
-  },
-  {
-   "n": 9,
    "url": "https://www.balcanicaucaso.org/event/what-future-lies-ahead-for-the-young-people-taking-to-the-streets-across-europe/",
    "publisher": "balcanicaucaso.org",
    "title": "What future lies ahead for the young people taking to the streets across Europe? - OBCT"
   },
   {
-   "n": 10,
+   "n": 9,
    "url": "https://countercurrents.org/2026/11/french-student-strikes-continue-after-impasse-in-talks/",
    "publisher": "countercurrents.org",
    "title": "French Student Strikes Continue after Impasse in Talks | Countercurrents",
    "publishedAt": "2026-11-12T09:08:57.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/les-lyceens-et-leurs-parents-inquiets-face-aux-milliers-d-heures-de-cours-perdues_8279993.html",
+   "publisher": "franceinfo.fr",
+   "title": "Les lyc&eacute;ens et leurs parents inquiets face aux milliers d'heures de cours perdues",
+   "publishedAt": "2026-11-12T20:10:03.000Z"
   },
   {
    "n": 11,
@@ -206,7 +214,8 @@
   }
  ],
  "conflicts": [
-  "The Interior Ministry reported 410,000 protesters nationwide on October 17, while the CGT union estimated 800,000."
+  "On October 17, the CGT reported 800,000 participants nationwide, while the Interior Ministry did not provide an estimate.",
+  "On November 5, police reported 65,000 protesters in Paris, while unions reported 350,000."
  ],
  "confidence": 0.8,
  "publishers": 13,
@@ -214,85 +223,90 @@
  "reportsPrev24h": 5,
  "reports48h": 7,
  "firstSeenAt": "2026-10-06T02:27:49.925Z",
- "lastReportAt": "2026-11-12T09:08:57.000Z",
- "lastCheckedAt": "2026-11-12T16:57:47.761Z",
- "updatedAt": "2026-11-12T13:58:38.316Z",
+ "lastReportAt": "2026-11-12T20:10:03.000Z",
+ "lastCheckedAt": "2026-11-12T20:55:03.991Z",
+ "updatedAt": "2026-11-12T20:53:48.032Z",
  "responseSources": [
   1,
   2,
   4,
+  5,
   6
  ],
  "seriousInjuries": true,
- "sensitive": true,
- "summarizedAt": "2026-11-12T13:58:38.316Z",
+ "sensitive": false,
+ "summarizedAt": "2026-11-12T20:53:48.032Z",
  "publishedAt": "2026-10-20T04:29:54.302Z",
  "i18n": {
-  "of": "3ffa106b2d1118ea",
-  "at": "2026-11-12T14:00:03.363Z",
+  "of": "7ec2cca5ec930d96",
+  "at": "2026-11-12T20:55:19.869Z",
   "tries": 1,
   "hi": {
-   "title": "पेरिस में शिक्षा और जीवन यापन की लागत को लेकर छात्रों और शिक्षकों का मार्च",
-   "seoTitle": "पेरिस में शिक्षा और जीवन यापन की लागत पर मार्च",
+   "title": "पेरिस में शिक्षा और जीवन-यापन की लागत को लेकर छात्रों और शिक्षकों का मार्च",
+   "seoTitle": "पेरिस में शिक्षा और जीवन-यापन की लागत पर मार्च",
    "tea": {
-    "why": "प्रदर्शनकारी भीड़भाड़ वाली कक्षाओं, शिक्षकों की कमी, जर्जर स्कूल सुविधाओं और जीवन यापन की बढ़ती लागत के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "वे बेहतर शैक्षिक संसाधनों, बेहतर शिक्षण स्थितियों और मुद्रास्फीति तथा जीवन यापन की लागत को संबोधित करने के लिए तत्काल सरकारी कार्रवाई की मांग करते हैं।",
-    "changed": "10 नवंबर: शिक्षा सुधारों के संबंध में सरकार के साथ बातचीत में गतिरोध के बाद छात्रों और शिक्षकों ने राष्ट्रव्यापी हड़ताल की।"
+    "why": "प्रदर्शनकारी जीवन-यापन की बढ़ती लागत, ईंधन की कीमतों और शिक्षा प्रणाली की स्थितियों, जिसमें शिक्षकों की कमी भी शामिल है, के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "वे बेहतर शिक्षण स्थितियों, अधिक शिक्षकों और मुद्रास्फीति तथा शिक्षा सुधार को संबोधित करने के लिए सरकारी कार्रवाई की मांग करते हैं।",
+    "changed": "10 नवंबर: सरकार के साथ बातचीत में गतिरोध के बाद छात्रों और शिक्षकों ने राष्ट्रव्यापी हड़ताल की।"
    },
-   "summary": "सितंबर 2026 के अंत से, छात्र, शिक्षक और यूनियन सदस्य पूरे फ्रांस में विरोध प्रदर्शनों और स्कूल नाकेबंदी की एक श्रृंखला में शामिल हैं। यह आंदोलन, जो कक्षाओं की स्थिति और संसाधनों की कमी को लेकर स्कूलों में शुरू हुआ था, जीवन यापन की लागत और असमानता से संबंधित व्यापक शिकायतों को शामिल करने के लिए विस्तारित हो गया। प्रदर्शनों में अक्सर प्रदर्शनकारियों और पुलिस के बीच झड़पें हुई हैं, जिसमें अधिकारियों ने हजारों गिरफ्तारियों और अधिकारियों तथा प्रतिभागियों दोनों के घायल होने की सूचना दी है। प्रधानमंत्री सेबेस्टियन लेकोर्नू ने अशांति का श्रेय सुदूर-वामपंथियों और आपराधिक समूहों को दिया है, और कहा है कि सरकार डरेगी नहीं। इसके विपरीत, आयोजकों और छात्र प्रतिनिधियों ने राज्य पर पुलिस की अत्यधिक हिंसा और शिक्षा प्रणाली में प्रणालीगत मुद्दों को संबोधित करने में विफल रहने का आरोप लगाया है। यूनियनों और सरकार के बीच बातचीत गतिरोध में रहने के कारण चल रही हड़तालें और मार्च जारी हैं।",
+   "summary": "अक्टूबर 2026 की शुरुआत से, छात्र, शिक्षक और श्रमिक संघ पूरे फ्रांस में विरोध प्रदर्शनों और स्कूल नाकेबंदी की एक श्रृंखला में शामिल रहे हैं। विभिन्न छात्र समूहों और CGT सहित संघों द्वारा आयोजित, यह आंदोलन बेहतर शैक्षिक संसाधनों, छोटी कक्षा के आकार और जीवन-यापन की बढ़ती लागत से राहत की मांग करता है। प्रदर्शन अक्सर पेरिस और अन्य प्रमुख शहरों में हुए हैं, जिसके परिणामस्वरूप अक्सर प्रदर्शनकारियों और पुलिस के बीच झड़पें हुई हैं। प्रधानमंत्री सेबेस्टियन लेकोर्नू के नेतृत्व वाली सरकार ने अशांति के लिए कट्टरपंथी समूहों को जिम्मेदार ठहराया है और धमकी को खारिज कर दिया है। अधिकारियों ने बड़ी संख्या में पुलिस बल तैनात किए हैं, जिससे हजारों गिरफ्तारियां हुई हैं और दोनों पक्षों में चोटों की खबरें आई हैं। चल रही बातचीत के बावजूद, छात्र और शिक्षक संघों का कहना है कि सरकारी रियायतें अपर्याप्त हैं, और नवंबर के मध्य के लिए और अधिक हड़तालें और मार्च निर्धारित हैं।",
    "demands": [
-    "शिक्षा के लिए बढ़ा हुआ वित्त पोषण",
-    "अधिक शिक्षक और सहायक कर्मचारी",
-    "बेहतर स्कूल सुविधाएं",
-    "बढ़ती जीवन यापन की लागत पर कार्रवाई",
-    "Parcoursup प्रवेश प्रणाली में सुधार"
+    "बेहतर कक्षा स्थितियां",
+    "अधिक शिक्षक",
+    "जीवन-यापन की कम लागत",
+    "Parcoursup का सुधार",
+    "सामाजिक समस्याओं का समाधान"
    ],
-   "response": "प्रधानमंत्री सेबेस्टियन लेकोर्नू ने कहा कि सरकार हिंसा से डरेगी नहीं, जिसका दोष उन्होंने सुदूर-वामपंथियों और आपराधिक समूहों पर मढ़ा। गृह मंत्रालय ने प्रमुख विरोध दिनों के दौरान 70,000 पुलिस और सैनिकों को तैनात किया, और सरकार ने पुलिस की बर्बरता के आरोपों की आंतरिक जांच शुरू की है।",
+   "response": "प्रधानमंत्री सेबेस्टियन लेकोर्नू ने कहा कि सरकार हिंसा से डरेगी नहीं, उन्होंने अशांति के लिए सुदूर वामपंथियों और आपराधिक समूहों को दोषी ठहराया। गृह मंत्रालय ने विरोध प्रदर्शनों को प्रबंधित करने के लिए हजारों पुलिस और जेंडरमे तैनात किए हैं।",
    "updates": [
-    "गृह मंत्रालय ने स्कूल नाकेबंदी के बाद 1,949 गिरफ्तारियों और 305 घायल अधिकारियों की सूचना दी।",
-    "राष्ट्रव्यापी विरोध प्रदर्शन हुए जिसमें 800,000 प्रतिभागियों और 2,400 हिरासत में लिए जाने की खबरें हैं।",
-    "पेरिस में एक अधिकृत यूनियन मार्च और प्रतिबंधित येलो वेस्ट सभाओं के साथ लामबंदी का एक नया दिन हुआ।",
+    "पूरे फ्रांस में छात्रों ने कक्षा की स्थितियों और शिक्षकों की कमी को लेकर नाकेबंदी और विरोध प्रदर्शन शुरू किए।",
+    "राष्ट्रव्यापी प्रदर्शन हुए, जिसके परिणामस्वरूप व्यापक झड़पें हुईं और हजारों गिरफ्तारियां हुईं।",
+    "पूरे फ्रांस में युवाओं के नेतृत्व वाले विरोध प्रदर्शनों का लगातार तीसरा सप्ताहांत हुआ।",
+    "संघों और छात्रों ने लामबंदी का एक नया दिन आयोजित किया, जिसमें पेरिस में झड़पों की सूचना मिली।",
     "सरकार के साथ बातचीत में गतिरोध आने के बाद छात्रों और शिक्षकों ने राष्ट्रव्यापी हड़ताल की।"
    ],
    "conflicts": [
-    "गृह मंत्रालय ने 17 अक्टूबर को राष्ट्रव्यापी स्तर पर 410,000 प्रदर्शनकारियों की सूचना दी, जबकि CGT यूनियन ने 800,000 का अनुमान लगाया।"
+    "17 अक्टूबर को, CGT ने राष्ट्रव्यापी स्तर पर 800,000 प्रतिभागियों की सूचना दी, जबकि गृह मंत्रालय ने कोई अनुमान नहीं दिया।",
+    "5 नवंबर को, पुलिस ने पेरिस में 65,000 प्रदर्शनकारियों की सूचना दी, जबकि संघों ने 350,000 की सूचना दी।"
    ],
    "numbers": {
-    "crowd": "CGT ट्रेड यूनियन ने अनुमान लगाया कि 17 अक्टूबर को राष्ट्रव्यापी प्रदर्शनों में 800,000 लोग शामिल हुए।",
-    "arrests": "El Salto Diario के अनुसार 10,000 से अधिक हिरासत में लिए गए",
+    "crowd": "CGT ट्रेड यूनियन ने 17 अक्टूबर को राष्ट्रव्यापी स्तर पर लगभग 800,000 प्रतिभागियों की सूचना दी।",
+    "arrests": "El Salto Diario के अनुसार 10,000 से अधिक हिरासतें",
     "injuries": "सरकारी आंकड़ों के अनुसार प्रदर्शन शुरू होने के बाद से 1,000 से अधिक लोग घायल हुए",
     "deaths": "कम से कम दो मौतें"
    }
   },
   "mr": {
-   "title": "पॅरिसमध्ये शिक्षण आणि राहणीमानाचा खर्च यावरून विद्यार्थी आणि शिक्षकांचा मोर्चा",
-   "seoTitle": "पॅरिसमध्ये शिक्षण आणि राहणीमानाचा खर्च यावरून मोर्चा",
+   "title": "पॅरिसमध्ये शिक्षण आणि राहणीमानाच्या खर्चावरून विद्यार्थी आणि शिक्षकांचा मोर्चा",
+   "seoTitle": "पॅरिसमध्ये शिक्षण आणि राहणीमानाच्या खर्चावर मोर्चा",
    "tea": {
-    "why": "प्रदर्शनकारी गर्दीने भरलेले वर्ग, शिक्षकांची कमतरता, मोडकळीस आलेल्या शाळांच्या सुविधा आणि राहणीमानाचा वाढता खर्च याविरुद्ध निदर्शने करत आहेत.",
-    "want": "ते सुधारित शैक्षणिक संसाधने, उत्तम शिक्षण परिस्थिती आणि महागाई व राहणीमानाचा खर्च हाताळण्यासाठी त्वरित सरकारी कारवाईची मागणी करत आहेत.",
-    "changed": "१० नोव्हेंबर: शिक्षण सुधारणांबाबत सरकारसोबतच्या वाटाघाटींमध्ये कोंडी निर्माण झाल्यानंतर विद्यार्थी आणि शिक्षकांनी देशव्यापी संप केला."
+    "why": "निदर्शक वाढता राहणीमानाचा खर्च, इंधनाचे दर आणि शिक्षकांमधील कमतरतेसह शिक्षण प्रणालीतील परिस्थितीच्या विरोधात निदर्शने करत आहेत.",
+    "want": "ते सुधारित शिक्षण परिस्थिती, अधिक शिक्षक आणि महागाई व शैक्षणिक सुधारणा हाताळण्यासाठी सरकारी कारवाईची मागणी करत आहेत.",
+    "changed": "१० नोव्हेंबर: सरकारसोबतच्या वाटाघाटींमध्ये कोंडी झाल्यानंतर विद्यार्थी आणि शिक्षकांनी देशव्यापी संप केला."
    },
-   "summary": "सप्टेंबर २०२६ च्या अखेरीपासून, विद्यार्थी, शिक्षक आणि युनियन सदस्य संपूर्ण फ्रान्समध्ये निदर्शने आणि शाळांच्या नाकेबंदीमध्ये सहभागी झाले आहेत. वर्गातील परिस्थिती आणि संसाधनांच्या कमतरतेमुळे शाळांमध्ये सुरू झालेले हे आंदोलन राहणीमानाचा खर्च आणि असमानता यांसारख्या व्यापक तक्रारींपर्यंत विस्तारले. निदर्शनांमध्ये अनेकदा प्रदर्शनकारी आणि पोलीस यांच्यात संघर्ष झाला आहे, ज्यामध्ये अधिकाऱ्यांनी हजारो अटकेची आणि अधिकारी व सहभागी दोघेही जखमी झाल्याची माहिती दिली आहे. पंतप्रधान सेबेस्टियन लेकोर्नू यांनी या अशांततेचे खापर अति-डाव्या आणि गुन्हेगारी गटांवर फोडले आहे आणि सरकार घाबरणार नाही असे म्हटले आहे. याउलट, आयोजक आणि विद्यार्थी प्रतिनिधींनी राज्यावर पोलिसांच्या अवाजवी हिंसाचाराचा आणि शिक्षण प्रणालीतील पद्धतशीर समस्या सोडवण्यात अपयशी ठरल्याचा आरोप केला आहे. युनियन आणि सरकार यांच्यातील वाटाघाटींमध्ये कोंडी कायम असल्याने संप आणि मोर्चे सुरू आहेत.",
+   "summary": "ऑक्टोबर २०२६ च्या सुरुवातीपासून, विद्यार्थी, शिक्षक आणि कामगार संघटना संपूर्ण फ्रान्समध्ये निदर्शने आणि शाळांच्या नाकेबंदीमध्ये सहभागी आहेत. विविध विद्यार्थी गट आणि CGT सह संघटनांद्वारे आयोजित, हे आंदोलन अधिक चांगले शैक्षणिक संसाधने, लहान वर्गांचा आकार आणि राहणीमानाच्या वाढत्या खर्चापासून दिलासा देण्याची मागणी करत आहे. पॅरिस आणि इतर प्रमुख शहरांमध्ये वारंवार निदर्शने झाली आहेत, ज्याचा परिणाम अनेकदा निदर्शक आणि पोलीस यांच्यातील चकमकींमध्ये झाला आहे. पंतप्रधान सेबेस्टियन लेकोर्नू यांच्या नेतृत्वाखालील सरकारने अशांततेसाठी कट्टरपंथी गटांना जबाबदार धरले आहे आणि धमकावण्यास नकार दिला आहे. अधिकाऱ्यांनी मोठ्या प्रमाणात पोलीस दल तैनात केले आहे, ज्यामुळे हजारो अटक आणि दोन्ही बाजूंनी जखमी झाल्याच्या बातम्या आल्या आहेत. वाटाघाटी सुरू असूनही, विद्यार्थी आणि शिक्षक संघटनांचे म्हणणे आहे की सरकारी सवलती अपुऱ्या आहेत, आणि नोव्हेंबरच्या मध्यावर आणखी संप आणि मोर्चे नियोजित आहेत.",
    "demands": [
-    "शिक्षणासाठी वाढीव निधी",
-    "अधिक शिक्षक आणि सहाय्यक कर्मचारी",
-    "शाळेच्या सुविधांमध्ये सुधारणा",
-    "राहणीमानाचा वाढता खर्च यावर कारवाई",
-    "Parcoursup प्रवेश प्रणालीमध्ये सुधारणा"
+    "सुधारित वर्ग परिस्थिती",
+    "अधिक शिक्षक",
+    "कमी राहणीमान खर्च",
+    "Parcoursup ची सुधारणा",
+    "सामाजिक समस्यांचे निराकरण"
    ],
-   "response": "पंतप्रधान सेबेस्टियन लेकोर्नू यांनी सांगितले की सरकार हिंसाचाराला घाबरणार नाही, ज्याचा दोष त्यांनी अति-डाव्या आणि गुन्हेगारी गटांवर दिला. गृह मंत्रालयाने प्रमुख निदर्शनांच्या दिवशी ७०,००० पोलीस आणि सैनिकांना तैनात केले होते आणि सरकारने पोलिसांच्या क्रूरतेच्या आरोपांची अंतर्गत चौकशी सुरू केली आहे.",
+   "response": "पंतप्रधान सेबेस्टियन लेकोर्नू यांनी सांगितले की सरकार हिंसेला घाबरणार नाही, त्यांनी अशांततेसाठी कट्टर डाव्यांना आणि गुन्हेगारी गटांना दोष दिला. गृह मंत्रालयाने निदर्शने हाताळण्यासाठी हजारो पोलीस आणि जेंडरमे तैनात केले आहेत.",
    "updates": [
-    "गृह मंत्रालयाने शाळांच्या नाकेबंदीनंतर १,९४९ अटकेची आणि ३०५ अधिकारी जखमी झाल्याची माहिती दिली.",
-    "देशव्यापी निदर्शने झाली, ज्यामध्ये ८,००,००० सहभागी आणि २,४०० जणांना ताब्यात घेतल्याच्या बातम्या आहेत.",
-    "पॅरिसमध्ये अधिकृत युनियन मोर्चा आणि प्रतिबंधित येलो वेस्ट सभांसह आंदोलनाचा एक नवीन दिवस पार पडला.",
-    "सरकारसोबतच्या वाटाघाटींमध्ये कोंडी निर्माण झाल्यानंतर विद्यार्थी आणि शिक्षकांनी देशव्यापी संप केला."
+    "संपूर्ण फ्रान्समधील विद्यार्थ्यांनी वर्गातील परिस्थिती आणि शिक्षकांच्या कमतरतेवरून नाकेबंदी आणि निदर्शने सुरू केली.",
+    "देशव्यापी निदर्शने झाली, ज्याचा परिणाम व्यापक चकमकी आणि हजारो अटकेत झाला.",
+    "संपूर्ण फ्रान्समध्ये तरुणांच्या नेतृत्वाखालील निदर्शनांचा सलग तिसरा शनिवार-रविवार झाला.",
+    "संघटना आणि विद्यार्थ्यांनी निदर्शनांचा एक नवीन दिवस आयोजित केला, ज्यामध्ये पॅरिसमध्ये चकमकी झाल्याची नोंद झाली.",
+    "सरकारसोबतच्या वाटाघाटींमध्ये कोंडी झाल्यानंतर विद्यार्थी आणि शिक्षकांनी देशव्यापी संप केला."
    ],
    "conflicts": [
-    "गृह मंत्रालयाने १७ ऑक्टोबर रोजी देशभरात ४,१०,००० प्रदर्शनकारी असल्याचे सांगितले, तर CGT युनियनने ८,००,००० चा अंदाज वर्तवला."
+    "१७ ऑक्टोबर रोजी, CGT ने देशव्यापी ८,००,००० सहभागींची नोंद केली, तर गृह मंत्रालयाने कोणताही अंदाज दिला नाही.",
+    "५ नोव्हेंबर रोजी, पोलिसांनी पॅरिसमध्ये ६५,००० निदर्शकांची नोंद केली, तर संघटनांनी ३,५०,००० ची नोंद केली."
    ],
    "numbers": {
-    "crowd": "CGT ट्रेड युनियनने १७ ऑक्टोबर रोजी देशव्यापी निदर्शनांमध्ये ८,००,००० लोक सहभागी झाल्याचा अंदाज वर्तवला.",
-    "arrests": "El Salto Diario नुसार १०,००० पेक्षा जास्त जणांना ताब्यात घेतले",
+    "crowd": "CGT ट्रेड युनियनने १७ ऑक्टोबर रोजी देशव्यापी सुमारे ८,००,००० सहभागींची नोंद केली.",
+    "arrests": "El Salto Diario नुसार १०,००० पेक्षा जास्त स्थानबद्धता",
     "injuries": "सरकारी आकडेवारीनुसार निदर्शने सुरू झाल्यापासून १,००० पेक्षा जास्त लोक जखमी",
     "deaths": "किमान दोन मृत्यू"
    }
@@ -301,30 +315,32 @@
    "title": "Estudiantes y profesores marchan en París por la educación y el coste de la vida",
    "seoTitle": "Marcha en París por educación y coste de vida",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra las aulas superpobladas, la escasez de profesores, las instalaciones escolares en ruinas y el aumento del coste de la vida.",
-    "want": "Exigen mejores recursos educativos, mejores condiciones de aprendizaje y una acción gubernamental inmediata para hacer frente a la inflación y al coste de la vida.",
-    "changed": "10 de noviembre: Estudiantes y profesores realizaron una huelga nacional tras un estancamiento en las negociaciones con el gobierno sobre las reformas educativas."
+    "why": "Los manifestantes se manifiestan contra el aumento del coste de la vida, los precios del combustible y las condiciones del sistema educativo, incluida la escasez de profesores.",
+    "want": "Exigen mejores condiciones de aprendizaje, más profesores y medidas gubernamentales para hacer frente a la inflación y la reforma educativa.",
+    "changed": "10 de noviembre: Estudiantes y profesores realizaron una huelga nacional tras un punto muerto en las negociaciones con el gobierno."
    },
-   "summary": "Desde finales de septiembre de 2026, estudiantes, profesores y miembros de sindicatos han participado en una serie de protestas y bloqueos escolares en toda Francia. El movimiento, que comenzó en las escuelas debido a las condiciones de las aulas y la escasez de recursos, se amplió para incluir quejas más amplias sobre el coste de la vida y la desigualdad. Las manifestaciones han implicado frecuentemente enfrentamientos entre manifestantes y la policía, y las autoridades han informado de miles de detenciones y heridos tanto entre los agentes como entre los participantes. El primer ministro Sébastien Lecornu ha atribuido los disturbios a la extrema izquierda y a grupos criminales, afirmando que el gobierno no se dejará intimidar. Por el contrario, los organizadores y representantes estudiantiles han acusado al Estado de violencia policial desproporcionada y de no abordar los problemas sistémicos del sistema educativo. Las huelgas y marchas continúan mientras las negociaciones entre los sindicatos y el gobierno siguen estancadas.",
+   "summary": "Desde principios de octubre de 2026, estudiantes, profesores y sindicatos han participado en una serie de protestas y bloqueos escolares en toda Francia. Organizado por varios grupos estudiantiles y sindicatos, incluido el CGT, el movimiento exige mejores recursos educativos, clases más reducidas y alivio ante el aumento del coste de la vida. Las manifestaciones han ocurrido frecuentemente en París y otras ciudades importantes, resultando a menudo en enfrentamientos entre manifestantes y la policía. El gobierno, liderado por el Primer Ministro Sébastien Lecornu, ha atribuido los disturbios a grupos radicales y rechazado la intimidación. Las autoridades han desplegado importantes fuerzas policiales, lo que ha llevado a miles de detenciones e informes de heridos en ambos lados. A pesar de las negociaciones en curso, los sindicatos de estudiantes y profesores sostienen que las concesiones gubernamentales siguen siendo insuficientes, con más huelgas y marchas programadas para mediados de noviembre.",
    "demands": [
-    "Aumento de la financiación para la educación",
-    "Más profesores y personal de apoyo",
-    "Mejora de las instalaciones escolares",
-    "Acción sobre el aumento del coste de la vida",
-    "Reforma del sistema de admisión Parcoursup"
+    "Mejores condiciones en las aulas",
+    "Más profesores",
+    "Menor coste de vida",
+    "Reforma de Parcoursup",
+    "Resolución de problemas sociales"
    ],
-   "response": "El primer ministro Sébastien Lecornu declaró que el gobierno no se dejaría intimidar por la violencia, a la que culpó a la extrema izquierda y a grupos criminales. El Ministerio del Interior desplegó 70.000 policías y soldados durante los días de protesta más importantes, y el gobierno ha puesto en marcha investigaciones internas sobre las acusaciones de brutalidad policial.",
+   "response": "El Primer Ministro Sébastien Lecornu declaró que el gobierno no se dejaría intimidar por la violencia, culpando de los disturbios a la extrema izquierda y a grupos criminales. El Ministerio del Interior ha desplegado decenas de miles de policías y gendarmes para gestionar las protestas.",
    "updates": [
-    "El Ministerio del Interior informó de 1.949 detenciones y 305 agentes heridos tras los bloqueos escolares.",
-    "Se produjeron protestas a nivel nacional con informes de 800.000 participantes y 2.400 detenciones.",
-    "Tuvo lugar una nueva jornada de movilización en París con una marcha sindical autorizada y concentraciones prohibidas de chalecos amarillos.",
-    "Estudiantes y profesores realizaron una huelga nacional después de que las conversaciones con el gobierno llegaran a un punto muerto."
+    "Estudiantes de toda Francia comenzaron bloqueos y protestas por las condiciones de las aulas y la escasez de profesores.",
+    "Ocurrieron manifestaciones masivas a nivel nacional, resultando en enfrentamientos generalizados y miles de detenciones.",
+    "Un tercer fin de semana consecutivo de protestas lideradas por jóvenes tuvo lugar en toda Francia.",
+    "Los sindicatos y los estudiantes celebraron una nueva jornada de movilización, con enfrentamientos reportados en París.",
+    "Estudiantes y profesores realizaron una huelga nacional después de que las negociaciones con el gobierno llegaran a un punto muerto."
    ],
    "conflicts": [
-    "El Ministerio del Interior informó de 410.000 manifestantes en todo el país el 17 de octubre, mientras que el sindicato CGT estimó 800.000."
+    "El 17 de octubre, la CGT informó de 800.000 participantes a nivel nacional, mientras que el Ministerio del Interior no proporcionó una estimación.",
+    "El 5 de noviembre, la policía informó de 65.000 manifestantes en París, mientras que los sindicatos informaron de 350.000."
    ],
    "numbers": {
-    "crowd": "El sindicato CGT estimó que 800.000 personas participaron en las manifestaciones nacionales el 17 de octubre.",
+    "crowd": "El sindicato CGT informó de alrededor de 800.000 participantes a nivel nacional el 17 de octubre.",
     "arrests": "más de 10.000 detenciones según El Salto Diario",
     "injuries": "más de 1.000 personas heridas desde que comenzaron las manifestaciones, según cifras del gobierno",
     "deaths": "al menos dos muertes"
@@ -334,65 +350,69 @@
    "title": "Des étudiants et des enseignants manifestent à Paris pour l'éducation et le coût de la vie",
    "seoTitle": "Manifestation à Paris pour l'éducation et le coût de la vie",
    "tea": {
-    "why": "Les manifestants protestent contre le surpeuplement des classes, la pénurie d'enseignants, la dégradation des infrastructures scolaires et la hausse du coût de la vie.",
-    "want": "Ils exigent une amélioration des ressources éducatives, de meilleures conditions d'apprentissage et une action gouvernementale immédiate pour lutter contre l'inflation et le coût de la vie.",
-    "changed": "10 novembre : Des étudiants et des enseignants ont mené une grève nationale suite à une impasse dans les négociations avec le gouvernement concernant les réformes de l'éducation."
+    "why": "Les manifestants protestent contre la hausse du coût de la vie, les prix du carburant et les conditions dans le système éducatif, y compris la pénurie d'enseignants.",
+    "want": "Ils exigent de meilleures conditions d'apprentissage, davantage d'enseignants et une action gouvernementale pour lutter contre l'inflation et réformer l'éducation.",
+    "changed": "10 novembre : Les étudiants et les enseignants ont organisé une grève nationale suite à une impasse dans les négociations avec le gouvernement."
    },
-   "summary": "Depuis fin septembre 2026, des étudiants, des enseignants et des membres de syndicats participent à une série de manifestations et de blocages d'écoles à travers la France. Le mouvement, qui a débuté dans les écoles en raison des conditions de classe et de la pénurie de ressources, s'est élargi pour inclure des griefs plus larges concernant le coût de la vie et les inégalités. Les manifestations ont fréquemment donné lieu à des affrontements entre les manifestants et la police, les autorités faisant état de milliers d'arrestations et de blessés parmi les agents et les participants. Le Premier ministre Sébastien Lecornu a attribué ces troubles à l'extrême gauche et à des groupes criminels, affirmant que le gouvernement ne se laisserait pas intimider. À l'inverse, les organisateurs et les représentants des étudiants ont accusé l'État de violence policière disproportionnée et de ne pas s'attaquer aux problèmes systémiques du système éducatif. Les grèves et les marches se poursuivent alors que les négociations entre les syndicats et le gouvernement restent dans l'impasse.",
+   "summary": "Depuis début octobre 2026, des étudiants, des enseignants et des syndicats participent à une série de manifestations et de blocages d'écoles à travers la France. Organisé par divers groupes étudiants et syndicats, dont la CGT, le mouvement exige de meilleures ressources éducatives, des classes moins chargées et un soulagement face à la hausse du coût de la vie. Des manifestations ont fréquemment eu lieu à Paris et dans d'autres grandes villes, entraînant souvent des affrontements entre les manifestants et la police. Le gouvernement, dirigé par le Premier ministre Sébastien Lecornu, a attribué les troubles à des groupes radicaux et a rejeté toute intimidation. Les autorités ont déployé d'importantes forces de police, entraînant des milliers d'arrestations et des rapports de blessés des deux côtés. Malgré les négociations en cours, les syndicats étudiants et enseignants soutiennent que les concessions gouvernementales restent insuffisantes, avec d'autres grèves et marches prévues pour la mi-novembre.",
    "demands": [
-    "Augmentation du financement de l'éducation",
-    "Davantage d'enseignants et de personnel de soutien",
-    "Amélioration des installations scolaires",
-    "Action sur la hausse du coût de la vie",
-    "Réforme du système d'admission Parcoursup"
+    "Amélioration des conditions de classe",
+    "Davantage d'enseignants",
+    "Baisse du coût de la vie",
+    "Réforme de Parcoursup",
+    "Résolution des problèmes sociaux"
    ],
-   "response": "Le Premier ministre Sébastien Lecornu a déclaré que le gouvernement ne se laisserait pas intimider par la violence, qu'il a imputée à l'extrême gauche et à des groupes criminels. Le ministère de l'Intérieur a déployé 70 000 policiers et soldats lors des journées de manifestation majeures, et le gouvernement a lancé des enquêtes internes sur les allégations de brutalité policière.",
+   "response": "Le Premier ministre Sébastien Lecornu a déclaré que le gouvernement ne se laisserait pas intimider par la violence, blâmant les troubles sur l'extrême gauche et des groupes criminels. Le ministère de l'Intérieur a déployé des dizaines de milliers de policiers et de gendarmes pour gérer les manifestations.",
    "updates": [
-    "Le ministère de l'Intérieur a fait état de 1 949 arrestations et de 305 agents blessés suite aux blocages d'écoles.",
-    "Des manifestations nationales ont eu lieu avec des rapports faisant état de 800 000 participants et 2 400 interpellations.",
-    "Une nouvelle journée de mobilisation a eu lieu à Paris avec une marche syndicale autorisée et des rassemblements interdits de gilets jaunes.",
-    "Des étudiants et des enseignants ont mené une grève nationale après que les discussions avec le gouvernement ont abouti à une impasse."
+    "Des étudiants à travers la France ont commencé des blocages et des manifestations concernant les conditions de classe et la pénurie d'enseignants.",
+    "Des manifestations nationales massives ont eu lieu, entraînant des affrontements généralisés et des milliers d'arrestations.",
+    "Un troisième week-end consécutif de manifestations menées par des jeunes a eu lieu à travers la France.",
+    "Les syndicats et les étudiants ont tenu une nouvelle journée de mobilisation, avec des affrontements signalés à Paris.",
+    "Les étudiants et les enseignants ont organisé une grève nationale après que les négociations avec le gouvernement ont atteint une impasse."
    ],
    "conflicts": [
-    "Le ministère de l'Intérieur a fait état de 410 000 manifestants au niveau national le 17 octobre, tandis que le syndicat CGT en a estimé 800 000."
+    "Le 17 octobre, la CGT a rapporté 800 000 participants à l'échelle nationale, tandis que le ministère de l'Intérieur n'a pas fourni d'estimation.",
+    "Le 5 novembre, la police a rapporté 65 000 manifestants à Paris, tandis que les syndicats en ont rapporté 350 000."
    ],
    "numbers": {
-    "crowd": "Le syndicat CGT a estimé que 800 000 personnes ont participé aux manifestations nationales le 17 octobre.",
-    "arrests": "plus de 10 000 interpellations selon El Salto Diario",
+    "crowd": "Le syndicat CGT a rapporté environ 800 000 participants à l'échelle nationale le 17 octobre.",
+    "arrests": "plus de 10 000 détentions selon El Salto Diario",
     "injuries": "plus de 1 000 personnes blessées depuis le début des manifestations, selon les chiffres du gouvernement",
     "deaths": "au moins deux décès"
    }
   },
   "de": {
-   "title": "Studenten und Lehrer demonstrieren in Paris für Bildung und gegen Lebenshaltungskosten",
-   "seoTitle": "Protest in Paris für Bildung und Lebenshaltungskosten",
+   "title": "Studenten und Lehrer demonstrieren in Paris für Bildung und Lebenshaltungskosten",
+   "seoTitle": "Marsch in Paris für Bildung und Lebenshaltungskosten",
    "tea": {
-    "why": "Die Demonstranten protestieren gegen überfüllte Klassenzimmer, Lehrermangel, marode Schulanlagen und die steigenden Lebenshaltungskosten.",
-    "want": "Sie fordern verbesserte Bildungsressourcen, bessere Lernbedingungen und sofortige staatliche Maßnahmen gegen die Inflation und die Lebenshaltungskosten.",
-    "changed": "10. November: Studenten und Lehrer führten einen landesweiten Streik durch, nachdem die Verhandlungen mit der Regierung über Bildungsreformen in eine Sackgasse geraten waren."
+    "why": "Die Demonstranten protestieren gegen steigende Lebenshaltungskosten, Kraftstoffpreise und die Bedingungen im Bildungssystem, einschließlich des Lehrermangels.",
+    "want": "Sie fordern verbesserte Lernbedingungen, mehr Lehrer und staatliche Maßnahmen zur Bekämpfung der Inflation und zur Bildungsreform.",
+    "changed": "10. November: Studenten und Lehrer hielten einen landesweiten Streik ab, nachdem die Verhandlungen mit der Regierung in eine Sackgasse geraten waren."
    },
-   "summary": "Seit Ende September 2026 beteiligen sich Studenten, Lehrer und Gewerkschaftsmitglieder an einer Reihe von Protesten und Schulblockaden in ganz Frankreich. Die Bewegung, die in den Schulen aufgrund der Klassensituation und des Ressourcenmangels begann, weitete sich auf breitere Beschwerden über die Lebenshaltungskosten und Ungleichheit aus. Bei den Demonstrationen kam es häufig zu Zusammenstößen zwischen Demonstranten und der Polizei, wobei die Behörden von Tausenden Festnahmen und Verletzten sowohl auf Seiten der Beamten als auch der Teilnehmer berichteten. Premierminister Sébastien Lecornu hat die Unruhen der extremen Linken und kriminellen Gruppen zugeschrieben und erklärt, die Regierung werde sich nicht einschüchtern lassen. Umgekehrt haben Organisatoren und Studentenvertreter dem Staat unverhältnismäßige Polizeigewalt vorgeworfen und behauptet, er gehe nicht auf die systemischen Probleme im Bildungssystem ein. Die Streiks und Märsche dauern an, da die Verhandlungen zwischen den Gewerkschaften und der Regierung weiterhin festgefahren sind.",
+   "summary": "Seit Anfang Oktober 2026 beteiligen sich Studenten, Lehrer und Gewerkschaften an einer Reihe von Protesten und Schulblockaden in ganz Frankreich. Die von verschiedenen Studentengruppen und Gewerkschaften, darunter die CGT, organisierte Bewegung fordert bessere Bildungsressourcen, kleinere Klassengrößen und eine Entlastung von den steigenden Lebenshaltungskosten. Demonstrationen haben häufig in Paris und anderen Großstädten stattgefunden und führten oft zu Zusammenstößen zwischen Demonstranten und der Polizei. Die Regierung unter Premierminister Sébastien Lecornu hat die Unruhen radikalen Gruppen zugeschrieben und Einschüchterungen zurückgewiesen. Die Behörden haben erhebliche Polizeikräfte eingesetzt, was zu Tausenden von Verhaftungen und Berichten über Verletzte auf beiden Seiten führte. Trotz laufender Verhandlungen halten die Studenten- und Lehrergewerkschaften die Zugeständnisse der Regierung für unzureichend, wobei für Mitte November weitere Streiks und Märsche geplant sind.",
    "demands": [
-    "Erhöhte Finanzierung für Bildung",
-    "Mehr Lehrer und Unterstützungspersonal",
-    "Verbesserte Schulanlagen",
-    "Maßnahmen gegen steigende Lebenshaltungskosten",
-    "Reform des Zulassungssystems Parcoursup"
+    "Verbesserte Bedingungen im Klassenzimmer",
+    "Mehr Lehrer",
+    "Niedrigere Lebenshaltungskosten",
+    "Reform von Parcoursup",
+    "Lösung sozialer Probleme"
    ],
-   "response": "Premierminister Sébastien Lecornu erklärte, die Regierung werde sich nicht von Gewalt einschüchtern lassen, für die er die extreme Linke und kriminelle Gruppen verantwortlich machte. Das Innenministerium setzte an den wichtigsten Protesttagen 70.000 Polizisten und Soldaten ein, und die Regierung hat interne Untersuchungen zu Vorwürfen von Polizeibrutalität eingeleitet.",
+   "response": "Premierminister Sébastien Lecornu erklärte, die Regierung werde sich nicht durch Gewalt einschüchtern lassen und machte die extreme Linke und kriminelle Gruppen für die Unruhen verantwortlich. Das Innenministerium hat Zehntausende von Polizisten und Gendarmen eingesetzt, um die Proteste zu bewältigen.",
    "updates": [
-    "Das Innenministerium meldete 1.949 Festnahmen und 305 verletzte Beamte nach Schulblockaden.",
-    "Es kam zu landesweiten Protesten mit Berichten über 800.000 Teilnehmer und 2.400 Ingewahrsamnahmen.",
-    "Ein neuer Mobilisierungstag fand in Paris mit einem genehmigten Gewerkschaftsmarsch und verbotenen Gelbwesten-Versammlungen statt.",
-    "Studenten und Lehrer führten einen landesweiten Streik durch, nachdem die Gespräche mit der Regierung in eine Sackgasse geraten waren."
+    "Studenten in ganz Frankreich begannen Blockaden und Proteste wegen der Bedingungen in den Klassenzimmern und des Lehrermangels.",
+    "Es kam zu massiven landesweiten Demonstrationen, die zu weit verbreiteten Zusammenstößen und Tausenden von Verhaftungen führten.",
+    "Ein drittes aufeinanderfolgendes Wochenende mit von Jugendlichen angeführten Protesten fand in ganz Frankreich statt.",
+    "Gewerkschaften und Studenten hielten einen neuen Mobilisierungstag ab, wobei Zusammenstöße in Paris gemeldet wurden.",
+    "Studenten und Lehrer hielten einen landesweiten Streik ab, nachdem die Verhandlungen mit der Regierung in eine Sackgasse geraten waren."
    ],
    "conflicts": [
-    "Das Innenministerium meldete am 17. Oktober 410.000 Demonstranten landesweit, während die Gewerkschaft CGT 800.000 schätzte."
+    "Am 17. Oktober meldete die CGT 800.000 Teilnehmer landesweit, während das Innenministerium keine Schätzung abgab.",
+    "Am 5. November meldete die Polizei 65.000 Demonstranten in Paris, während die Gewerkschaften 350.000 meldeten."
    ],
    "numbers": {
-    "crowd": "Die Gewerkschaft CGT schätzte, dass am 17. Oktober 800.000 Menschen an den landesweiten Demonstrationen teilnahmen.",
-    "arrests": "mehr als 10.000 Ingewahrsamnahmen laut El Salto Diario",
-    "injuries": "mehr als 1.000 verletzte Personen seit Beginn der Demonstrationen, laut Regierungsangaben",
+    "crowd": "Die Gewerkschaft CGT meldete am 17. Oktober landesweit rund 800.000 Teilnehmer.",
+    "arrests": "mehr als 10.000 Festnahmen laut El Salto Diario",
+    "injuries": "mehr als 1.000 verletzte Personen seit Beginn der Demonstrationen, laut Regierungszahlen",
     "deaths": "mindestens zwei Todesfälle"
    }
   },
@@ -400,98 +420,104 @@
    "title": "Studenti e insegnanti marciano a Parigi per l'istruzione e il costo della vita",
    "seoTitle": "Marcia a Parigi per istruzione e costo della vita",
    "tea": {
-    "why": "I manifestanti protestano contro le classi sovraffollate, la carenza di insegnanti, le strutture scolastiche fatiscenti e l'aumento del costo della vita.",
-    "want": "Chiedono migliori risorse educative, migliori condizioni di apprendimento e un'azione governativa immediata per affrontare l'inflazione e il costo della vita.",
-    "changed": "10 novembre: Studenti e insegnanti hanno tenuto uno sciopero nazionale in seguito a uno stallo nelle trattative con il governo riguardo alle riforme dell'istruzione."
+    "why": "I manifestanti protestano contro l'aumento del costo della vita, i prezzi del carburante e le condizioni del sistema educativo, inclusa la carenza di insegnanti.",
+    "want": "Chiedono migliori condizioni di apprendimento, più insegnanti e un'azione governativa per affrontare l'inflazione e la riforma dell'istruzione.",
+    "changed": "10 novembre: Studenti e insegnanti hanno tenuto uno sciopero nazionale dopo uno stallo nelle negoziazioni con il governo."
    },
-   "summary": "Dalla fine di settembre 2026, studenti, insegnanti e membri dei sindacati sono stati coinvolti in una serie di proteste e blocchi scolastici in tutta la Francia. Il movimento, iniziato nelle scuole a causa delle condizioni delle aule e della carenza di risorse, si è esteso fino a includere rimostranze più ampie riguardanti il costo della vita e la disuguaglianza. Le manifestazioni hanno spesso comportato scontri tra manifestanti e polizia, con le autorità che hanno segnalato migliaia di arresti e feriti sia tra gli agenti che tra i partecipanti. Il primo ministro Sébastien Lecornu ha attribuito i disordini all'estrema sinistra e a gruppi criminali, affermando che il governo non si lascerà intimidire. Al contrario, gli organizzatori e i rappresentanti degli studenti hanno accusato lo Stato di violenza poliziesca sproporzionata e di non affrontare i problemi sistemici del sistema educativo. Gli scioperi e le marce continuano mentre le trattative tra i sindacati e il governo rimangono in una situazione di stallo.",
+   "summary": "Dall'inizio di ottobre 2026, studenti, insegnanti e sindacati sono stati coinvolti in una serie di proteste e blocchi scolastici in tutta la Francia. Organizzato da vari gruppi studenteschi e sindacati, inclusa la CGT, il movimento richiede migliori risorse educative, classi meno numerose e un sollievo dall'aumento del costo della vita. Le manifestazioni si sono verificate frequentemente a Parigi e in altre grandi città, portando spesso a scontri tra manifestanti e polizia. Il governo, guidato dal Primo Ministro Sébastien Lecornu, ha attribuito i disordini a gruppi radicali e ha respinto le intimidazioni. Le autorità hanno dispiegato significative forze di polizia, portando a migliaia di arresti e segnalazioni di feriti da entrambe le parti. Nonostante le negoziazioni in corso, i sindacati degli studenti e degli insegnanti sostengono che le concessioni governative rimangano insufficienti, con ulteriori scioperi e marce programmati per metà novembre.",
    "demands": [
-    "Aumento dei finanziamenti per l'istruzione",
-    "Più insegnanti e personale di supporto",
-    "Miglioramento delle strutture scolastiche",
-    "Azione sull'aumento del costo della vita",
-    "Riforma del sistema di ammissione Parcoursup"
+    "Migliori condizioni in aula",
+    "Più insegnanti",
+    "Minore costo della vita",
+    "Riforma di Parcoursup",
+    "Risoluzione dei problemi sociali"
    ],
-   "response": "Il primo ministro Sébastien Lecornu ha dichiarato che il governo non si lascerà intimidire dalla violenza, che ha attribuito all'estrema sinistra e a gruppi criminali. Il Ministero dell'Interno ha schierato 70.000 poliziotti e soldati durante le principali giornate di protesta e il governo ha avviato indagini interne sulle accuse di brutalità poliziesca.",
+   "response": "Il Primo Ministro Sébastien Lecornu ha dichiarato che il governo non si lascerà intimidire dalla violenza, incolpando dei disordini l'estrema sinistra e gruppi criminali. Il Ministero dell'Interno ha dispiegato decine di migliaia di poliziotti e gendarmi per gestire le proteste.",
    "updates": [
-    "Il Ministero dell'Interno ha segnalato 1.949 arresti e 305 agenti feriti in seguito ai blocchi scolastici.",
-    "Si sono verificate proteste a livello nazionale con segnalazioni di 800.000 partecipanti e 2.400 fermi.",
-    "Una nuova giornata di mobilitazione ha avuto luogo a Parigi con una marcia sindacale autorizzata e raduni vietati dei gilet gialli.",
-    "Studenti e insegnanti hanno tenuto uno sciopero nazionale dopo che i colloqui con il governo hanno raggiunto uno stallo."
+    "Studenti in tutta la Francia hanno iniziato blocchi e proteste per le condizioni delle aule e la carenza di insegnanti.",
+    "Si sono verificate massicce manifestazioni a livello nazionale, con conseguenti scontri diffusi e migliaia di arresti.",
+    "Un terzo fine settimana consecutivo di proteste guidate dai giovani ha avuto luogo in tutta la Francia.",
+    "I sindacati e gli studenti hanno tenuto una nuova giornata di mobilitazione, con scontri segnalati a Parigi.",
+    "Studenti e insegnanti hanno tenuto uno sciopero nazionale dopo che le negoziazioni con il governo hanno raggiunto uno stallo."
    ],
    "conflicts": [
-    "Il Ministero dell'Interno ha segnalato 410.000 manifestanti a livello nazionale il 17 ottobre, mentre il sindacato CGT ne ha stimati 800.000."
+    "Il 17 ottobre, la CGT ha riportato 800.000 partecipanti a livello nazionale, mentre il Ministero dell'Interno non ha fornito una stima.",
+    "Il 5 novembre, la polizia ha riportato 65.000 manifestanti a Parigi, mentre i sindacati ne hanno riportati 350.000."
    ],
    "numbers": {
-    "crowd": "Il sindacato CGT ha stimato che 800.000 persone hanno partecipato alle manifestazioni nazionali il 17 ottobre.",
-    "arrests": "più di 10.000 fermi secondo El Salto Diario",
-    "injuries": "più di 1.000 persone ferite dall'inizio delle manifestazioni, secondo i dati del governo",
+    "crowd": "Il sindacato CGT ha riportato circa 800.000 partecipanti a livello nazionale il 17 ottobre.",
+    "arrests": "più di 10.000 detenzioni secondo El Salto Diario",
+    "injuries": "più di 1.000 persone ferite dall'inizio delle manifestazioni, secondo le cifre del governo",
     "deaths": "almeno due morti"
    }
   },
   "pt": {
-   "title": "Estudantes e professores marcham em Paris pela educação e pelo custo de vida",
-   "seoTitle": "Marcha em Paris pela educação e custo de vida",
+   "title": "Estudantes e professores marcham em Paris por educação e custo de vida",
+   "seoTitle": "Marcha em Paris por educação e custo de vida",
    "tea": {
-    "why": "Os manifestantes estão a protestar contra salas de aula sobrelotadas, falta de professores, instalações escolares em ruínas e o aumento do custo de vida.",
-    "want": "Exigem melhores recursos educativos, melhores condições de aprendizagem e uma ação governamental imediata para combater a inflação e o custo de vida.",
-    "changed": "10 de novembro: Estudantes e professores realizaram uma greve nacional após um impasse nas negociações com o governo sobre reformas educativas."
+    "why": "Os manifestantes estão a protestar contra o aumento do custo de vida, os preços dos combustíveis e as condições no sistema educativo, incluindo a escassez de professores.",
+    "want": "Exigem melhores condições de aprendizagem, mais professores e ação governamental para combater a inflação e a reforma da educação.",
+    "changed": "10 de novembro: Estudantes e professores realizaram uma greve nacional após um impasse nas negociações com o governo."
    },
-   "summary": "Desde o final de setembro de 2026, estudantes, professores e membros de sindicatos têm participado numa série de protestos e bloqueios escolares em toda a França. O movimento, que começou nas escolas devido às condições das salas de aula e à escassez de recursos, expandiu-se para incluir queixas mais amplas sobre o custo de vida e a desigualdade. As manifestações envolveram frequentemente confrontos entre manifestantes e a polícia, com as autoridades a reportarem milhares de detenções e feridos tanto entre os agentes como entre os participantes. O primeiro-ministro Sébastien Lecornu atribuiu a agitação à extrema-esquerda e a grupos criminosos, afirmando que o governo não se deixará intimidar. Pelo contrário, os organizadores e representantes dos estudantes acusaram o Estado de violência policial desproporcional e de não resolver os problemas sistémicos do sistema educativo. As greves e marchas continuam enquanto as negociações entre os sindicatos e o governo permanecem num impasse.",
+   "summary": "Desde o início de outubro de 2026, estudantes, professores e sindicatos têm participado numa série de protestos e bloqueios escolares em toda a França. Organizado por vários grupos estudantis e sindicatos, incluindo a CGT, o movimento exige melhores recursos educativos, turmas mais pequenas e alívio face ao aumento do custo de vida. As manifestações ocorreram frequentemente em Paris e noutras grandes cidades, resultando muitas vezes em confrontos entre manifestantes e a polícia. O governo, liderado pelo Primeiro-Ministro Sébastien Lecornu, atribuiu os distúrbios a grupos radicais e rejeitou a intimidação. As autoridades destacaram forças policiais significativas, levando a milhares de detenções e relatos de feridos em ambos os lados. Apesar das negociações em curso, os sindicatos de estudantes e professores sustentam que as concessões governamentais permanecem insuficientes, com mais greves e marchas agendadas para meados de novembro.",
    "demands": [
-    "Aumento do financiamento para a educação",
-    "Mais professores e pessoal de apoio",
-    "Melhoria das instalações escolares",
-    "Ação sobre o aumento do custo de vida",
-    "Reforma do sistema de admissão Parcoursup"
+    "Melhores condições nas salas de aula",
+    "Mais professores",
+    "Menor custo de vida",
+    "Reforma do Parcoursup",
+    "Resolução de problemas sociais"
    ],
-   "response": "O primeiro-ministro Sébastien Lecornu declarou que o governo não se deixaria intimidar pela violência, que atribuiu à extrema-esquerda e a grupos criminosos. O Ministério do Interior destacou 70.000 polícias e soldados durante os principais dias de protesto, e o governo iniciou investigações internas sobre alegações de brutalidade policial.",
+   "response": "O Primeiro-Ministro Sébastien Lecornu declarou que o governo não se deixaria intimidar pela violência, culpando a extrema-esquerda e grupos criminosos pelos distúrbios. O Ministério do Interior destacou dezenas de milhares de polícias e gendarmes para gerir os protestos.",
    "updates": [
-    "O Ministério do Interior reportou 1.949 detenções e 305 agentes feridos após os bloqueios escolares.",
-    "Ocorreram protestos a nível nacional com relatos de 800.000 participantes e 2.400 detenções.",
-    "Um novo dia de mobilização teve lugar em Paris com uma marcha sindical autorizada e concentrações proibidas de coletes amarelos.",
-    "Estudantes e professores realizaram uma greve nacional depois de as conversações com o governo terem chegado a um impasse."
+    "Estudantes em toda a França iniciaram bloqueios e protestos devido às condições das salas de aula e à escassez de professores.",
+    "Ocorreram manifestações nacionais massivas, resultando em confrontos generalizados e milhares de detenções.",
+    "Um terceiro fim de semana consecutivo de protestos liderados por jovens ocorreu em toda a França.",
+    "Sindicatos e estudantes realizaram um novo dia de mobilização, com confrontos relatados em Paris.",
+    "Estudantes e professores realizaram uma greve nacional após as negociações com o governo terem chegado a um impasse."
    ],
    "conflicts": [
-    "O Ministério do Interior reportou 410.000 manifestantes a nível nacional a 17 de outubro, enquanto o sindicato CGT estimou 800.000."
+    "A 17 de outubro, a CGT reportou 800.000 participantes a nível nacional, enquanto o Ministério do Interior não forneceu uma estimativa.",
+    "A 5 de novembro, a polícia reportou 65.000 manifestantes em Paris, enquanto os sindicatos reportaram 350.000."
    ],
    "numbers": {
-    "crowd": "O sindicato CGT estimou que 800.000 pessoas participaram nas manifestações nacionais a 17 de outubro.",
+    "crowd": "O sindicato CGT reportou cerca de 800.000 participantes a nível nacional a 17 de outubro.",
     "arrests": "mais de 10.000 detenções segundo o El Salto Diario",
     "injuries": "mais de 1.000 pessoas feridas desde o início das manifestações, segundo números do governo",
     "deaths": "pelo menos duas mortes"
    }
   },
   "nl": {
-   "title": "Studenten en docenten demonstreren in Parijs voor onderwijs en tegen kosten van levensonderhoud",
+   "title": "Studenten en docenten demonstreren in Parijs voor onderwijs en kosten van levensonderhoud",
    "seoTitle": "Mars in Parijs voor onderwijs en kosten van levensonderhoud",
    "tea": {
-    "why": "De demonstranten protesteren tegen overvolle klaslokalen, lerarentekorten, vervallen schoolfaciliteiten en de stijgende kosten van levensonderhoud.",
-    "want": "Zij eisen verbeterde onderwijsmiddelen, betere leeromstandigheden en onmiddellijke overheidsactie om de inflatie en de kosten van levensonderhoud aan te pakken.",
-    "changed": "10 november: Studenten en docenten hielden een landelijke staking na een impasse in de onderhandelingen met de regering over onderwijshervormingen."
+    "why": "De demonstranten protesteren tegen de stijgende kosten van levensonderhoud, brandstofprijzen en de omstandigheden in het onderwijssysteem, inclusief het lerarentekort.",
+    "want": "Zij eisen betere leeromstandigheden, meer leraren en overheidsactie om de inflatie en onderwijshervorming aan te pakken.",
+    "changed": "10 november: Studenten en docenten hielden een landelijke staking na een impasse in de onderhandelingen met de regering."
    },
-   "summary": "Sinds eind september 2026 zijn studenten, docenten en vakbondsleden betrokken bij een reeks protesten en schoolblokkades in heel Frankrijk. De beweging, die op scholen begon vanwege de klassituatie en het tekort aan middelen, breidde zich uit naar bredere grieven over de kosten van levensonderhoud en ongelijkheid. Bij de demonstraties zijn vaak botsingen geweest tussen demonstranten en de politie, waarbij de autoriteiten duizenden arrestaties en gewonden meldden aan zowel de kant van de agenten als de deelnemers. Premier Sébastien Lecornu heeft de onrust toegeschreven aan extreemlinks en criminele groepen en verklaarde dat de regering zich niet zal laten intimideren. Omgekeerd hebben organisatoren en studentenvertegenwoordigers de staat beschuldigd van buitenproportioneel politiegeweld en het niet aanpakken van systemische problemen in het onderwijssysteem. De stakingen en marsen gaan door terwijl de onderhandelingen tussen de vakbonden en de regering in een impasse blijven.",
+   "summary": "Sinds begin oktober 2026 zijn studenten, docenten en vakbonden betrokken bij een reeks protesten en schoolblokkades in heel Frankrijk. De beweging, georganiseerd door diverse studentengroepen en vakbonden, waaronder de CGT, eist betere onderwijsmiddelen, kleinere klassen en verlichting van de stijgende kosten van levensonderhoud. Demonstraties hebben regelmatig plaatsgevonden in Parijs en andere grote steden, wat vaak leidde tot botsingen tussen demonstranten en de politie. De regering, onder leiding van premier Sébastien Lecornu, heeft de onrust toegeschreven aan radicale groepen en intimidatie afgewezen. De autoriteiten hebben aanzienlijke politiemachten ingezet, wat heeft geleid tot duizenden arrestaties en meldingen van gewonden aan beide kanten. Ondanks lopende onderhandelingen stellen de studenten- en docentenvakbonden dat de concessies van de regering onvoldoende blijven, met verdere stakingen en marsen gepland voor medio november.",
    "demands": [
-    "Verhoogde financiering voor onderwijs",
-    "Meer leraren en ondersteunend personeel",
-    "Verbeterde schoolfaciliteiten",
-    "Actie tegen stijgende kosten van levensonderhoud",
-    "Hervorming van het Parcoursup-toelatingssysteem"
+    "Verbeterde klasomstandigheden",
+    "Meer leraren",
+    "Lagere kosten van levensonderhoud",
+    "Hervorming van Parcoursup",
+    "Oplossing van sociale problemen"
    ],
-   "response": "Premier Sébastien Lecornu verklaarde dat de regering zich niet zou laten intimideren door geweld, waarvoor hij extreemlinks en criminele groepen de schuld gaf. Het ministerie van Binnenlandse Zaken zette tijdens de belangrijkste protestdagen 70.000 politieagenten en soldaten in, en de regering is interne onderzoeken gestart naar beschuldigingen van politiegeweld.",
+   "response": "Premier Sébastien Lecornu verklaarde dat de regering zich niet door geweld zou laten intimideren en gaf de uiterst linkse en criminele groepen de schuld van de onrust. Het ministerie van Binnenlandse Zaken heeft tienduizenden politieagenten en gendarmes ingezet om de protesten te beheersen.",
    "updates": [
-    "Het ministerie van Binnenlandse Zaken meldde 1.949 arrestaties en 305 gewonde agenten na schoolblokkades.",
-    "Er vonden landelijke protesten plaats met berichten over 800.000 deelnemers en 2.400 aanhoudingen.",
-    "Een nieuwe dag van mobilisatie vond plaats in Parijs met een geautoriseerde vakbondsmars en verboden gele hesjes-bijeenkomsten.",
-    "Studenten en docenten hielden een landelijke staking nadat gesprekken met de regering op een dood spoor waren beland."
+    "Studenten in heel Frankrijk begonnen blokkades en protesten vanwege de klasomstandigheden en het lerarentekort.",
+    "Er vonden massale landelijke demonstraties plaats, wat resulteerde in wijdverbreide botsingen en duizenden arrestaties.",
+    "Een derde opeenvolgend weekend van door jongeren geleide protesten vond plaats in heel Frankrijk.",
+    "Vakbonden en studenten hielden een nieuwe dag van mobilisatie, waarbij botsingen in Parijs werden gemeld.",
+    "Studenten en docenten hielden een landelijke staking nadat de onderhandelingen met de regering in een impasse waren geraakt."
    ],
    "conflicts": [
-    "Het ministerie van Binnenlandse Zaken meldde op 17 oktober 410.000 demonstranten landelijk, terwijl de vakbond CGT er 800.000 schatte."
+    "Op 17 oktober rapporteerde de CGT 800.000 deelnemers landelijk, terwijl het ministerie van Binnenlandse Zaken geen schatting gaf.",
+    "Op 5 november rapporteerde de politie 65.000 demonstranten in Parijs, terwijl de vakbonden er 350.000 rapporteerden."
    ],
    "numbers": {
-    "crowd": "De vakbond CGT schatte dat 800.000 mensen deelnamen aan de landelijke demonstraties op 17 oktober.",
-    "arrests": "meer dan 10.000 aanhoudingen volgens El Salto Diario",
-    "injuries": "meer dan 1.000 gewonden sinds het begin van de demonstraties, volgens cijfers van de overheid",
+    "crowd": "De vakbond CGT rapporteerde op 17 oktober landelijk ongeveer 800.000 deelnemers.",
+    "arrests": "meer dan 10.000 detenties volgens El Salto Diario",
+    "injuries": "meer dan 1.000 gewonden sinds het begin van de demonstraties, volgens cijfers van de regering",
     "deaths": "ten minste twee doden"
    }
   }
@@ -510,5 +536,5 @@
   "eb79ee3056c",
   "e727d28e1c6"
  ],
- "summaryOf": "132efb59fa21"
+ "summaryOf": "7f16f0a75b41"
 }
