@@ -16,8 +16,7 @@
  "scope": "local",
  "causes": [
   "labour",
-  "housing",
-  "prices"
+  "housing"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-11",
@@ -31,9 +30,9 @@
  "tea": {
   "why": "Protesters cited difficulties in accessing housing, low wages, high prices, and the need to defend public services.",
   "want": "Improved access to housing, higher wages, and the protection of public services.",
-  "changed": "Nov 12: Police cleared a protest encampment at Las Setas that had remained following the strike."
+  "changed": "Nov 12: National Police cleared a housing protest encampment at 6:00 a.m. following orders from the Government Sub-delegation."
  },
- "summary": "On November 11, 2026, Seville experienced a general strike, the first in 14 years, organised by unions including UGT, CCOO, CGT, and the Sindicato de Inquilinas. The action focused on housing accessibility, wage levels, and the preservation of public services. Throughout the day, participants held informational pickets at various workplaces, including Mercasevilla and Tussam, and conducted marches across the city. While the strike was planned to culminate in a major demonstration at the Setas de la Encarnación, organisers noted that adverse weather conditions posed a challenge to the scheduled activities. The following day, police cleared an encampment at the same location that had been established during the preceding weeks. The Subdelegación del Gobierno reported no injuries during the police operation, while participants alleged the intervention was forceful.",
+ "summary": "On November 11, 2026, Seville experienced a general strike, the first in 14 years, organized by unions including UGT, CCOO, CGT, and the Sindicato de Inquilinas. The action focused on housing accessibility, wage levels, and the preservation of public services. Throughout the day, pickets were stationed at various workplaces, including Mercasevilla and Tussam. The strike impacted public media, causing interruptions to Canal Sur Television broadcasts, which the station's management attributed to a failure to reach an agreement with the strike committee regarding minimum service programming. While the strike concluded on November 11, authorities subsequently cleared a housing protest encampment on the morning of November 12. Weather warnings for rain and wind were reported to have threatened the planned demonstrations during the strike day.",
  "organizers": [
   "UGT",
   "CCOO",
@@ -41,26 +40,33 @@
   "Sindicato de Inquilinas"
  ],
  "demands": [
-  "Better access to housing",
+  "Improved housing access",
   "Higher wages",
-  "Protection of public services",
-  "Lower cost of living"
+  "Protection of public services"
  ],
- "response": "The Subdelegación del Gobierno stated that no individuals were injured or mistreated during the police operation to clear the encampment on November 12. Canal Sur management stated they engaged in dialogue with the strike committee but could not reach an agreement.",
+ "response": "The Andalusian government established minimum service requirements for public media via the Ministry of Employment, Business and Self-Employment. Canal Sur management stated they attempted to negotiate with the strike committee to maintain essential services.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-11",
-   "text": "Unions and staff held a general strike across Seville to protest housing and economic conditions.",
+   "text": "General strike begins with pickets at various work centers and planned demonstrations throughout the day.",
    "sources": [
     1
    ]
   },
   {
-   "at": "2026-11-12",
-   "text": "Police cleared a protest encampment at Las Setas that had persisted after the strike.",
+   "at": "2026-11-11",
+   "text": "Canal Sur Television experiences multiple broadcast interruptions due to the strike action.",
    "sources": [
+    2,
     3
+   ]
+  },
+  {
+   "at": "2026-11-12",
+   "text": "National Police remove a housing protest encampment following an order from the Government Sub-delegation.",
+   "sources": [
+    4
    ]
   }
  ],
@@ -74,29 +80,36 @@
   },
   {
    "n": 2,
+   "url": "https://www.eldiario.es/andalucia/canal-sur-television-negro-huelga-general-disculpen-molestias_1_13654366.html",
+   "publisher": "eldiario.es",
+   "title": "Canal Sur Televisión se va a negro por la huelga general: \"Disculpen las molestias\"",
+   "publishedAt": "2026-11-11T08:36:20.000Z"
+  },
+  {
+   "n": 3,
    "url": "https://www.canalsur.es/rtva/comunicacion/rtva/comunicado-direccion-canal-sur-huelga_1_1451731.html",
    "publisher": "canalsur.es",
    "title": "Comunicado de la Dirección de Canal Sur | Huelga General 11-N",
    "publishedAt": "2026-11-11T10:30:48.000Z"
   },
   {
-   "n": 3,
-   "url": "https://www.eldiario.es/sevilla/policia-desaloja-primera-hora-acampada-vivienda-sevilla-dia-despues-huelga-general_1_13656986.html",
-   "publisher": "eldiario.es",
-   "title": "La Policía desaloja a primera hora la acampada por la vivienda de Sevilla el día después de la huelga general",
-   "publishedAt": "2026-11-12T08:54:06.000Z"
+   "n": 4,
+   "url": "https://elpais.com/espana/andalucia/2026-11-12/la-policia-nacional-desaloja-la-acampada-por-la-vivienda-de-sevilla.html",
+   "publisher": "elpais.com",
+   "title": "La Policía Nacional desaloja la acampada por la vivienda de Sevilla, un día después de la huelga general",
+   "publishedAt": "2026-11-12T09:25:11.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.8,
- "publishers": 3,
+ "confidence": 0.91,
+ "publishers": 4,
  "reports24h": 2,
  "reportsPrev24h": 3,
  "reports48h": 5,
  "firstSeenAt": "2026-11-11T09:53:08.548Z",
  "lastReportAt": "2026-11-12T09:25:11.000Z",
- "lastCheckedAt": "2026-11-12T13:59:24.716Z",
- "updatedAt": "2026-11-12T13:52:41.454Z",
+ "lastCheckedAt": "2026-11-12T16:57:47.761Z",
+ "updatedAt": "2026-11-12T16:53:50.636Z",
  "endedOn": "2026-11-11",
  "responseSources": [
   2,
@@ -104,78 +117,78 @@
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-12T13:52:41.454Z",
- "summaryOf": "439850d4e0d3",
+ "summarizedAt": "2026-11-12T16:53:50.636Z",
+ "summaryOf": "1038f1eda6f0",
  "publishedAt": "2026-11-11T17:57:44.518Z",
  "i18n": {
-  "of": "c6b5fdbc40199541",
-  "at": "2026-11-12T14:01:08.681Z",
+  "of": "60ec9462068a0bb0",
+  "at": "2026-11-12T17:00:10.387Z",
   "tries": 1,
   "es": {
-   "title": "Sindicatos y personal realizan huelga general en Sevilla por la vivienda y los servicios públicos",
+   "title": "Sindicatos y personal realizan una huelga general en Sevilla por la vivienda y los servicios públicos",
    "seoTitle": "Huelga general en Sevilla por la vivienda",
    "tea": {
     "why": "Los manifestantes citaron dificultades para acceder a la vivienda, salarios bajos, precios altos y la necesidad de defender los servicios públicos.",
     "want": "Mejor acceso a la vivienda, salarios más altos y la protección de los servicios públicos.",
-    "changed": "12 de noviembre: La policía desalojó un campamento de protesta en Las Setas que había permanecido tras la huelga."
+    "changed": "12 de noviembre: La Policía Nacional desalojó un campamento de protesta por la vivienda a las 6:00 a. m. siguiendo órdenes de la Subdelegación del Gobierno."
    },
-   "summary": "El 11 de noviembre de 2026, Sevilla vivió una huelga general, la primera en 14 años, organizada por sindicatos como UGT, CCOO, CGT y el Sindicato de Inquilinas. La acción se centró en la accesibilidad a la vivienda, los niveles salariales y la preservación de los servicios públicos. Durante el día, los participantes realizaron piquetes informativos en diversos centros de trabajo, incluidos Mercasevilla y Tussam, y llevaron a cabo marchas por la ciudad. Aunque la huelga estaba prevista para culminar en una manifestación en las Setas de la Encarnación, los organizadores señalaron que las condiciones meteorológicas adversas supusieron un desafío para las actividades programadas. Al día siguiente, la policía desalojó un campamento en el mismo lugar que se había establecido durante las semanas anteriores. La Subdelegación del Gobierno informó de que no hubo heridos durante la operación policial, mientras que los participantes alegaron que la intervención fue contundente.",
+   "summary": "El 11 de noviembre de 2026, Sevilla vivió una huelga general, la primera en 14 años, organizada por sindicatos como UGT, CCOO, CGT y el Sindicato de Inquilinas. La acción se centró en la accesibilidad a la vivienda, los niveles salariales y la preservación de los servicios públicos. Durante el día, se establecieron piquetes en varios centros de trabajo, incluidos Mercasevilla y Tussam. La huelga afectó a los medios públicos, provocando interrupciones en las emisiones de Canal Sur Televisión, lo que la dirección de la cadena atribuyó a la falta de acuerdo con el comité de huelga sobre la programación de servicios mínimos. Aunque la huelga concluyó el 11 de noviembre, las autoridades desalojaron posteriormente un campamento de protesta por la vivienda en la mañana del 12 de noviembre. Se informó que las alertas meteorológicas por lluvia y viento amenazaron las manifestaciones previstas durante el día de huelga.",
    "demands": [
     "Mejor acceso a la vivienda",
     "Salarios más altos",
-    "Protección de los servicios públicos",
-    "Menor coste de la vida"
+    "Protección de los servicios públicos"
    ],
-   "response": "La Subdelegación del Gobierno declaró que ninguna persona resultó herida o maltratada durante la operación policial para desalojar el campamento el 12 de noviembre. La dirección de Canal Sur declaró que mantuvo un diálogo con el comité de huelga pero que no pudo llegar a un acuerdo.",
+   "response": "El gobierno andaluz estableció requisitos de servicios mínimos para los medios públicos a través de la Consejería de Empleo, Empresa y Trabajo Autónomo. La dirección de Canal Sur declaró que intentó negociar con el comité de huelga para mantener los servicios esenciales.",
    "updates": [
-    "Sindicatos y personal realizaron una huelga general en Sevilla para protestar por la vivienda y las condiciones económicas.",
-    "La policía desalojó un campamento de protesta en Las Setas que había persistido tras la huelga."
+    "La huelga general comienza con piquetes en varios centros de trabajo y manifestaciones previstas durante todo el día.",
+    "Canal Sur Televisión experimenta múltiples interrupciones en sus emisiones debido a la huelga.",
+    "La Policía Nacional retira un campamento de protesta por la vivienda tras una orden de la Subdelegación del Gobierno."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "fr": {
-   "title": "Les syndicats et le personnel organisent une grève générale à Séville sur le logement et les services publics",
+   "title": "Des syndicats et du personnel mènent une grève générale à Séville concernant le logement et les services publics",
    "seoTitle": "Grève générale à Séville sur le logement",
    "tea": {
     "why": "Les manifestants ont cité des difficultés d'accès au logement, des bas salaires, des prix élevés et la nécessité de défendre les services publics.",
     "want": "Un meilleur accès au logement, des salaires plus élevés et la protection des services publics.",
-    "changed": "12 novembre : La police a démantelé un campement de protestation à Las Setas qui était resté en place après la grève."
+    "changed": "12 novembre : La police nationale a démantelé un campement de protestation pour le logement à 6 h 00 suite à des ordres de la sous-délégation du gouvernement."
    },
-   "summary": "Le 11 novembre 2026, Séville a connu une grève générale, la première en 14 ans, organisée par des syndicats dont l'UGT, la CCOO, la CGT et le Sindicato de Inquilinas. L'action s'est concentrée sur l'accessibilité au logement, les niveaux de salaire et la préservation des services publics. Tout au long de la journée, les participants ont tenu des piquets d'information sur divers lieux de travail, notamment Mercasevilla et Tussam, et ont mené des marches à travers la ville. Bien que la grève devait culminer par une manifestation majeure aux Setas de la Encarnación, les organisateurs ont noté que les conditions météorologiques défavorables ont posé un défi aux activités prévues. Le lendemain, la police a démantelé un campement au même endroit qui avait été établi au cours des semaines précédentes. La Subdelegación del Gobierno a signalé aucune blessure lors de l'opération policière, tandis que les participants ont allégué que l'intervention était musclée.",
+   "summary": "Le 11 novembre 2026, Séville a connu une grève générale, la première en 14 ans, organisée par des syndicats dont l'UGT, la CCOO, la CGT et le Sindicato de Inquilinas. L'action s'est concentrée sur l'accessibilité au logement, les niveaux de salaire et la préservation des services publics. Tout au long de la journée, des piquets de grève ont été postés sur divers lieux de travail, notamment Mercasevilla et Tussam. La grève a touché les médias publics, provoquant des interruptions des émissions de Canal Sur Televisión, que la direction de la chaîne a attribuées à l'échec des négociations avec le comité de grève concernant la programmation des services minimums. Bien que la grève ait pris fin le 11 novembre, les autorités ont par la suite démantelé un campement de protestation pour le logement au matin du 12 novembre. Des alertes météorologiques pour pluie et vent auraient menacé les manifestations prévues durant la journée de grève.",
    "demands": [
-    "Un meilleur accès au logement",
-    "Des salaires plus élevés",
-    "La protection des services publics",
-    "Un coût de la vie plus bas"
+    "Meilleur accès au logement",
+    "Salaires plus élevés",
+    "Protection des services publics"
    ],
-   "response": "La Subdelegación del Gobierno a déclaré qu'aucune personne n'a été blessée ou maltraitée lors de l'opération policière visant à démanteler le campement le 12 novembre. La direction de Canal Sur a déclaré avoir engagé un dialogue avec le comité de grève mais n'avoir pu parvenir à un accord.",
+   "response": "Le gouvernement andalou a établi des exigences de service minimum pour les médias publics via le ministère de l'Emploi, des Entreprises et du Travail indépendant. La direction de Canal Sur a déclaré avoir tenté de négocier avec le comité de grève pour maintenir les services essentiels.",
    "updates": [
-    "Les syndicats et le personnel ont organisé une grève générale à travers Séville pour protester contre le logement et les conditions économiques.",
-    "La police a démantelé un campement de protestation à Las Setas qui avait persisté après la grève."
+    "La grève générale commence avec des piquets de grève sur divers lieux de travail et des manifestations prévues tout au long de la journée.",
+    "Canal Sur Televisión subit de multiples interruptions de diffusion en raison de l'action de grève.",
+    "La police nationale retire un campement de protestation pour le logement suite à un ordre de la sous-délégation du gouvernement."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "de": {
-   "title": "Gewerkschaften und Personal halten Generalstreik in Sevilla wegen Wohnungsbau und öffentlicher Dienste ab",
+   "title": "Gewerkschaften und Personal führen Generalstreik in Sevilla wegen Wohnungsbau und öffentlicher Dienste durch",
    "seoTitle": "Generalstreik in Sevilla wegen Wohnungsbau",
    "tea": {
     "why": "Die Demonstranten nannten Schwierigkeiten beim Zugang zu Wohnraum, niedrige Löhne, hohe Preise und die Notwendigkeit, öffentliche Dienste zu verteidigen.",
-    "want": "Besserer Zugang zu Wohnraum, höhere Löhne und der Schutz öffentlicher Dienste.",
-    "changed": "12. November: Die Polizei räumte ein Protestlager an den Las Setas, das nach dem Streik bestehen geblieben war."
+    "want": "Verbesserter Zugang zu Wohnraum, höhere Löhne und der Schutz öffentlicher Dienste.",
+    "changed": "12. November: Die Nationalpolizei räumte um 6:00 Uhr morgens ein Protestlager für Wohnraum auf Anordnung der Regierungsunterdelegation."
    },
-   "summary": "Am 11. November 2026 erlebte Sevilla einen Generalstreik, den ersten seit 14 Jahren, der von Gewerkschaften wie UGT, CCOO, CGT und dem Sindicato de Inquilinas organisiert wurde. Die Aktion konzentrierte sich auf die Zugänglichkeit von Wohnraum, das Lohnniveau und die Erhaltung öffentlicher Dienste. Den ganzen Tag über hielten die Teilnehmer an verschiedenen Arbeitsplätzen, darunter Mercasevilla und Tussam, Informationsposten ab und führten Märsche durch die Stadt durch. Obwohl der Streik in einer großen Demonstration an den Setas de la Encarnación gipfeln sollte, stellten die Organisatoren fest, dass widrige Wetterbedingungen eine Herausforderung für die geplanten Aktivitäten darstellten. Am nächsten Tag räumte die Polizei ein Lager am selben Ort, das in den vorangegangenen Wochen errichtet worden war. Die Subdelegación del Gobierno meldete keine Verletzungen während des Polizeieinsatzes, während die Teilnehmer behaupteten, der Eingriff sei gewaltsam gewesen.",
+   "summary": "Am 11. November 2026 erlebte Sevilla einen Generalstreik, den ersten seit 14 Jahren, der von Gewerkschaften wie UGT, CCOO, CGT und dem Sindicato de Inquilinas organisiert wurde. Die Aktion konzentrierte sich auf die Zugänglichkeit von Wohnraum, das Lohnniveau und die Erhaltung öffentlicher Dienste. Den ganzen Tag über waren Streikposten an verschiedenen Arbeitsplätzen stationiert, darunter Mercasevilla und Tussam. Der Streik wirkte sich auf die öffentlichen Medien aus und verursachte Unterbrechungen bei den Sendungen von Canal Sur Televisión, was die Leitung des Senders auf das Scheitern einer Einigung mit dem Streikkomitee bezüglich der Mindestdienstprogrammierung zurückführte. Obwohl der Streik am 11. November endete, räumten die Behörden am Morgen des 12. November ein Protestlager für Wohnraum. Wetterwarnungen wegen Regen und Wind sollen die geplanten Demonstrationen während des Streiktages bedroht haben.",
    "demands": [
-    "Besserer Zugang zu Wohnraum",
+    "Verbesserter Zugang zu Wohnraum",
     "Höhere Löhne",
-    "Schutz öffentlicher Dienste",
-    "Niedrigere Lebenshaltungskosten"
+    "Schutz öffentlicher Dienste"
    ],
-   "response": "Die Subdelegación del Gobierno erklärte, dass während des Polizeieinsatzes zur Räumung des Lagers am 12. November keine Personen verletzt oder misshandelt wurden. Das Management von Canal Sur erklärte, dass es einen Dialog mit dem Streikkomitee geführt habe, aber keine Einigung erzielen konnte.",
+   "response": "Die andalusische Regierung legte über das Ministerium für Beschäftigung, Unternehmen und Selbstständige Mindestdienstanforderungen für öffentliche Medien fest. Die Leitung von Canal Sur erklärte, sie habe versucht, mit dem Streikkomitee zu verhandeln, um wesentliche Dienste aufrechtzuerhalten.",
    "updates": [
-    "Gewerkschaften und Personal hielten einen Generalstreik in ganz Sevilla ab, um gegen Wohnungs- und Wirtschaftsbedingungen zu protestieren.",
-    "Die Polizei räumte ein Protestlager an den Las Setas, das nach dem Streik bestehen geblieben war."
+    "Der Generalstreik beginnt mit Streikposten an verschiedenen Arbeitszentren und geplanten Demonstrationen im Laufe des Tages.",
+    "Canal Sur Televisión erlebt aufgrund der Streikaktion mehrere Sendeunterbrechungen.",
+    "Die Nationalpolizei entfernt ein Protestlager für Wohnraum auf Anordnung der Regierungsunterdelegation."
    ],
    "conflicts": [],
    "numbers": {}
@@ -186,42 +199,42 @@
    "tea": {
     "why": "I manifestanti hanno citato le difficoltà di accesso all'edilizia abitativa, i bassi salari, i prezzi elevati e la necessità di difendere i servizi pubblici.",
     "want": "Migliore accesso all'edilizia abitativa, salari più alti e la protezione dei servizi pubblici.",
-    "changed": "12 novembre: La polizia ha sgomberato un accampamento di protesta a Las Setas che era rimasto dopo lo sciopero."
+    "changed": "12 novembre: La Polizia Nazionale ha sgomberato un accampamento di protesta per l'edilizia abitativa alle 6:00 del mattino in seguito agli ordini della Sottodelegazione del Governo."
    },
-   "summary": "L'11 novembre 2026, Siviglia ha vissuto uno sciopero generale, il primo in 14 anni, organizzato da sindacati tra cui UGT, CCOO, CGT e il Sindicato de Inquilinas. L'azione si è concentrata sull'accessibilità all'edilizia abitativa, sui livelli salariali e sulla preservazione dei servizi pubblici. Durante la giornata, i partecipanti hanno tenuto picchetti informativi in vari luoghi di lavoro, tra cui Mercasevilla e Tussam, e hanno condotto marce in tutta la città. Sebbene lo sciopero fosse previsto per culminare in una grande manifestazione alle Setas de la Encarnación, gli organizzatori hanno notato che le condizioni meteorologiche avverse hanno rappresentato una sfida per le attività programmate. Il giorno seguente, la polizia ha sgomberato un accampamento nello stesso luogo che era stato stabilito durante le settimane precedenti. La Subdelegación del Gobierno ha riferito che non ci sono stati feriti durante l'operazione di polizia, mentre i partecipanti hanno sostenuto che l'intervento è stato energico.",
+   "summary": "L'11 novembre 2026, Siviglia ha vissuto uno sciopero generale, il primo in 14 anni, organizzato da sindacati tra cui UGT, CCOO, CGT e il Sindicato de Inquilinas. L'azione si è concentrata sull'accessibilità all'edilizia abitativa, sui livelli salariali e sulla preservazione dei servizi pubblici. Per tutta la giornata, sono stati posizionati picchetti in vari luoghi di lavoro, inclusi Mercasevilla e Tussam. Lo sciopero ha avuto un impatto sui media pubblici, causando interruzioni alle trasmissioni di Canal Sur Televisión, che la direzione della stazione ha attribuito al mancato raggiungimento di un accordo con il comitato di sciopero riguardo alla programmazione dei servizi minimi. Sebbene lo sciopero si sia concluso l'11 novembre, le autorità hanno successivamente sgomberato un accampamento di protesta per l'edilizia abitativa la mattina del 12 novembre. È stato riferito che le allerte meteo per pioggia e vento hanno minacciato le manifestazioni previste durante la giornata di sciopero.",
    "demands": [
     "Migliore accesso all'edilizia abitativa",
     "Salari più alti",
-    "Protezione dei servizi pubblici",
-    "Costo della vita più basso"
+    "Protezione dei servizi pubblici"
    ],
-   "response": "La Subdelegación del Gobierno ha dichiarato che nessuna persona è rimasta ferita o maltrattata durante l'operazione di polizia per sgomberare l'accampamento il 12 novembre. La direzione di Canal Sur ha dichiarato di aver avviato un dialogo con il comitato di sciopero ma di non essere riuscita a raggiungere un accordo.",
+   "response": "Il governo andaluso ha stabilito i requisiti di servizio minimo per i media pubblici tramite il Ministero dell'Occupazione, delle Imprese e del Lavoro Autonomo. La direzione di Canal Sur ha dichiarato di aver tentato di negoziare con il comitato di sciopero per mantenere i servizi essenziali.",
    "updates": [
-    "Sindacati e personale hanno tenuto uno sciopero generale in tutta Siviglia per protestare contro l'edilizia abitativa e le condizioni economiche.",
-    "La polizia ha sgomberato un accampamento di protesta a Las Setas che era persistito dopo lo sciopero."
+    "Lo sciopero generale inizia con picchetti in vari centri di lavoro e manifestazioni previste per tutta la giornata.",
+    "Canal Sur Televisión subisce molteplici interruzioni di trasmissione a causa dell'azione di sciopero.",
+    "La Polizia Nazionale rimuove un accampamento di protesta per l'edilizia abitativa in seguito a un ordine della Sottodelegazione del Governo."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "pt": {
-   "title": "Sindicatos e funcionários realizam greve geral em Sevilha sobre habitação e serviços públicos",
+   "title": "Sindicatos e pessoal realizam greve geral em Sevilha sobre habitação e serviços públicos",
    "seoTitle": "Greve geral em Sevilha sobre habitação",
    "tea": {
     "why": "Os manifestantes citaram dificuldades no acesso à habitação, baixos salários, preços elevados e a necessidade de defender os serviços públicos.",
     "want": "Melhor acesso à habitação, salários mais altos e a proteção dos serviços públicos.",
-    "changed": "12 de novembro: A polícia desmantelou um acampamento de protesto em Las Setas que tinha permanecido após a greve."
+    "changed": "12 de novembro: A Polícia Nacional desmantelou um acampamento de protesto sobre habitação às 6:00 da manhã, seguindo ordens da Subdelegação do Governo."
    },
-   "summary": "No dia 11 de novembro de 2026, Sevilha viveu uma greve geral, a primeira em 14 anos, organizada por sindicatos incluindo a UGT, CCOO, CGT e o Sindicato de Inquilinas. A ação centrou-se na acessibilidade à habitação, nos níveis salariais e na preservação dos serviços públicos. Ao longo do dia, os participantes realizaram piquetes informativos em vários locais de trabalho, incluindo Mercasevilla e Tussam, e conduziram marchas por toda a cidade. Embora a greve estivesse planeada para culminar numa grande manifestação nas Setas de la Encarnación, os organizadores notaram que as condições meteorológicas adversas representaram um desafio para as atividades agendadas. No dia seguinte, a polícia desmantelou um acampamento no mesmo local que tinha sido estabelecido durante as semanas anteriores. A Subdelegación del Gobierno informou que não houve feridos durante a operação policial, enquanto os participantes alegaram que a intervenção foi contundente.",
+   "summary": "No dia 11 de novembro de 2026, Sevilha viveu uma greve geral, a primeira em 14 anos, organizada por sindicatos incluindo a UGT, CCOO, CGT e o Sindicato de Inquilinas. A ação focou-se na acessibilidade à habitação, nos níveis salariais e na preservação dos serviços públicos. Ao longo do dia, piquetes foram estacionados em vários locais de trabalho, incluindo Mercasevilla e Tussam. A greve impactou os meios de comunicação públicos, causando interrupções nas transmissões da Canal Sur Televisión, o que a direção da estação atribuiu a uma falha em chegar a um acordo com o comité de greve relativamente à programação de serviços mínimos. Embora a greve tenha terminado no dia 11 de novembro, as autoridades desmantelaram posteriormente um acampamento de protesto sobre habitação na manhã do dia 12 de novembro. Avisos meteorológicos de chuva e vento foram reportados como tendo ameaçado as manifestações planeadas durante o dia de greve.",
    "demands": [
     "Melhor acesso à habitação",
     "Salários mais altos",
-    "Proteção dos serviços públicos",
-    "Custo de vida mais baixo"
+    "Proteção dos serviços públicos"
    ],
-   "response": "A Subdelegación del Gobierno declarou que nenhum indivíduo ficou ferido ou foi maltratado durante a operação policial para desmantelar o acampamento no dia 12 de novembro. A direção da Canal Sur declarou que encetou um diálogo com o comité de greve, mas não conseguiu chegar a um acordo.",
+   "response": "O governo andaluz estabeleceu requisitos de serviço mínimo para os meios de comunicação públicos através do Ministério do Emprego, Empresas e Trabalho Autónomo. A direção da Canal Sur declarou que tentou negociar com o comité de greve para manter os serviços essenciais.",
    "updates": [
-    "Sindicatos e funcionários realizaram uma greve geral em Sevilha para protestar contra a habitação e as condições económicas.",
-    "A polícia desmantelou um acampamento de protesto em Las Setas que tinha persistido após a greve."
+    "A greve geral começa com piquetes em vários centros de trabalho e manifestações planeadas ao longo do dia.",
+    "A Canal Sur Televisión sofre múltiplas interrupções de transmissão devido à ação de greve.",
+    "A Polícia Nacional remove um acampamento de protesto sobre habitação seguindo uma ordem da Subdelegação do Governo."
    ],
    "conflicts": [],
    "numbers": {}
@@ -232,19 +245,19 @@
    "tea": {
     "why": "Betogers noemden moeilijkheden bij de toegang tot huisvesting, lage lonen, hoge prijzen en de noodzaak om openbare diensten te verdedigen.",
     "want": "Betere toegang tot huisvesting, hogere lonen en de bescherming van openbare diensten.",
-    "changed": "12 november: De politie ontruimde een protestkamp bij Las Setas dat na de staking was blijven staan."
+    "changed": "12 november: De nationale politie ontruimde om 6:00 uur 's ochtends een protestkamp voor huisvesting na bevelen van de onderdelegatie van de regering."
    },
-   "summary": "Op 11 november 2026 beleefde Sevilla een algemene staking, de eerste in 14 jaar, georganiseerd door vakbonden waaronder UGT, CCOO, CGT en het Sindicato de Inquilinas. De actie richtte zich op de toegankelijkheid van huisvesting, loonniveaus en het behoud van openbare diensten. Gedurende de dag hielden deelnemers informatieposten bij verschillende werkplekken, waaronder Mercasevilla en Tussam, en voerden ze marsen door de stad uit. Hoewel de staking zou uitmonden in een grote demonstratie bij de Setas de la Encarnación, merkten de organisatoren op dat ongunstige weersomstandigheden een uitdaging vormden voor de geplande activiteiten. De volgende dag ontruimde de politie een kamp op dezelfde locatie dat in de voorgaande weken was opgezet. De Subdelegación del Gobierno meldde geen gewonden tijdens de politieoperatie, terwijl deelnemers beweerden dat de interventie hardhandig was.",
+   "summary": "Op 11 november 2026 beleefde Sevilla een algemene staking, de eerste in 14 jaar, georganiseerd door vakbonden waaronder UGT, CCOO, CGT en het Sindicato de Inquilinas. De actie richtte zich op de toegankelijkheid van huisvesting, loonniveaus en het behoud van openbare diensten. Gedurende de dag waren stakingsposten gestationeerd op verschillende werkplekken, waaronder Mercasevilla en Tussam. De staking had invloed op de publieke media, wat leidde tot onderbrekingen in de uitzendingen van Canal Sur Televisión, wat de directie van de zender toeschreef aan het niet bereiken van een akkoord met het stakingscomité over de programmering van minimale diensten. Hoewel de staking op 11 november eindigde, ontruimden de autoriteiten op de ochtend van 12 november vervolgens een protestkamp voor huisvesting. Weerwaarschuwingen voor regen en wind zouden de geplande demonstraties tijdens de stakingsdag hebben bedreigd.",
    "demands": [
     "Betere toegang tot huisvesting",
     "Hogere lonen",
-    "Bescherming van openbare diensten",
-    "Lagere kosten van levensonderhoud"
+    "Bescherming van openbare diensten"
    ],
-   "response": "De Subdelegación del Gobierno verklaarde dat er geen individuen gewond of mishandeld zijn tijdens de politieoperatie om het kamp op 12 november te ontruimen. Het management van Canal Sur verklaarde dat ze in dialoog waren gegaan met het stakingscomité, maar geen overeenkomst konden bereiken.",
+   "response": "De Andalusische regering stelde via het ministerie van Werkgelegenheid, Bedrijfsleven en Zelfstandigen eisen voor minimale diensten vast voor de publieke media. De directie van Canal Sur verklaarde dat zij probeerde te onderhandelen met het stakingscomité om essentiële diensten te behouden.",
    "updates": [
-    "Vakbonden en personeel hielden een algemene staking in heel Sevilla om te protesteren tegen huisvesting en economische omstandigheden.",
-    "De politie ontruimde een protestkamp bij Las Setas dat na de staking was blijven staan."
+    "De algemene staking begint met stakingsposten op verschillende werkcentra en geplande demonstraties gedurende de dag.",
+    "Canal Sur Televisión ervaart meerdere uitzendonderbrekingen door de stakingsactie.",
+    "De nationale politie verwijdert een protestkamp voor huisvesting na een bevel van de onderdelegatie van de regering."
    ],
    "conflicts": [],
    "numbers": {}
