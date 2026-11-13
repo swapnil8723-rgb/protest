@@ -15,8 +15,8 @@
  },
  "scope": "nationwide",
  "causes": [
-  "prices",
   "labour",
+  "prices",
   "anti-government"
  ],
  "kind": "one-day",
@@ -26,16 +26,17 @@
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
+  "low-confidence",
   "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the rising cost of living, high fuel prices, and government policies ahead of the presidential election.",
-  "want": "Demands include significant increases to the minimum wage, protection of public services, and measures to address inflation and poverty.",
-  "changed": "Nov 9: The government announced a 1.6% minimum wage increase, which unions rejected as insufficient."
+  "why": "Protesters are demonstrating against the rising cost of living, high fuel prices, and government economic policies.",
+  "want": "Demands include significant wage increases, a 10% hike in the minimum wage, and the protection of public services and jobs.",
+  "changed": "Nov 9: The government announced a minimum wage increase of 1.6% effective December 1, which unions rejected as insufficient."
  },
- "summary": "On November 7, 2026, thousands of people participated in nationwide demonstrations across France to protest the rising cost of living and government policies. In Paris, unions led a march from Place de la Republique to Place de la Nation, while the Yellow Vests movement attempted a separate rally at Place de la Concorde, which authorities had banned. The Interior Ministry reported 146,000 participants nationwide, including 46,000 in Paris, while unions estimated 250,000 nationwide and 75,000 in the capital. Clashes occurred in Paris between police and protesters, with authorities using tear gas against individuals throwing projectiles. Following the protests, the government convened a social conference on November 9, where it proposed a minimum wage increase that unions subsequently criticized as inadequate.",
+ "summary": "On November 7, 2026, thousands of people participated in nationwide demonstrations across France to protest the rising cost of living and government policies. Organised by labour unions, the \"Yellow Vests\" movement, and student groups, the protests saw significant turnout in Paris, where marchers moved from Place de la République to Place de la Nation. While the main union march was largely orderly, clashes occurred at the end of the event, with police using tear gas against individuals who threw projectiles and fireworks. Authorities reported that 70,000 security personnel were deployed nationwide. The Interior Ministry stated 146,000 people participated across France, while unions estimated the figure at 250,000. A separate, unauthorised rally by the Yellow Vests at Place de la Concorde was blocked by police, resulting in arrests.",
  "organizers": [
   "Yellow Vests",
   "CGT",
@@ -44,16 +45,16 @@
   "Union étudiante"
  ],
  "demands": [
-  "Increase minimum wage",
-  "Address rising cost of living",
-  "Defend public services",
-  "Protect jobs and industry"
+  "Increase in the minimum wage",
+  "Wage increases indexed to inflation",
+  "Protection of public services",
+  "Protection of jobs and industry"
  ],
- "response": "The government deployed 70,000 security forces nationwide. Prime Minister Sébastien Lecornu convened a social conference on November 9, offering a 1.6% minimum wage increase, which unions rejected as insufficient.",
+ "response": "The Interior Ministry reported a deployment of 70,000 security forces. Prime Minister Sébastien Lecornu convened a social conference on November 9, offering a 1.6% minimum wage increase, which unions described as a provocation and insufficient.",
  "numbers": {
   "crowd": {
    "value": 250000,
-   "text": "Unions estimated 250,000 protesters nationwide, with 75,000 in Paris; the Interior Ministry reported 146,000…",
+   "text": "Unions estimated 250,000 protesters nationwide, while the Interior Ministry reported 146,000.",
    "sources": [
     1
    ]
@@ -62,24 +63,10 @@
  "updates": [
   {
    "at": "2026-11-07",
-   "text": "Protests held across France with clashes reported in Paris between police and protesters.",
+   "text": "Thousands demonstrate across France; clashes occur in Paris between police and protesters.",
    "sources": [
-    1
-   ]
-  },
-  {
-   "at": "2026-11-09",
-   "text": "Government held a social conference with unions and employers to discuss wage and cost of living concerns.",
-   "sources": [
-    3,
-    4
-   ]
-  },
-  {
-   "at": "2026-11-09",
-   "text": "Government announced a 1.6% minimum wage increase, which was rejected by major unions as inadequate.",
-   "sources": [
-    4
+    1,
+    2
    ]
   }
  ],
@@ -97,41 +84,21 @@
    "publisher": "news.radioalgerie.dz",
    "title": "French Citizens Maintain Pressure on Fourth Saturday of Mobilization Against High Cost of Living | Algerian Radio",
    "publishedAt": "2026-11-08T17:35:00.000Z"
-  },
-  {
-   "n": 3,
-   "url": "https://www.franceinfo.fr/economie/pouvoir-achat/revendications-des-syndicats-pistes-du-gouvernement-fonction-publique-absente-trois-questions-sur-la-conference-sociale-organisee-a-matignon_8273354.html",
-   "publisher": "franceinfo.fr",
-   "title": "Revendications des syndicats, pistes du gouvernement, fonction publique absente… Trois questions sur la conf&eacute;rence sociale organis&eacute;e &agrave; Matignon",
-   "publishedAt": "2026-11-09T04:52:42.000Z"
-  },
-  {
-   "n": 4,
-   "url": "https://taz.de/Proteste-in-Frankreich/!6228720/",
-   "publisher": "taz.de",
-   "title": "Proteste in Frankreich: Mit fünf Euro mehr abgespeist",
-   "publishedAt": "2026-11-09T16:27:00.000Z"
-  },
-  {
-   "n": 5,
-   "url": "https://www.theguardian.com/commentisfree/2026/nov/10/france-protests-response-islamophobia-far-right-hate-speech",
-   "publisher": "theguardian.com",
-   "title": "France’s response to protests is making Islamophobia worse. But ministers won’t even utter the word | Kamélia Ouaissa",
-   "publishedAt": "2026-11-10T11:22:05.000Z"
   }
  ],
  "conflicts": [
-  "Police reported 146,000 protesters nationwide; unions reported 250,000."
+  "The Interior Ministry reported 146,000 protesters nationwide, while unions claimed 250,000.",
+  "The Interior Ministry reported 46,000 protesters in Paris, while unions claimed 75,000."
  ],
- "confidence": 0.8,
- "publishers": 5,
+ "confidence": 0.55,
+ "publishers": 2,
  "reports24h": 0,
  "reportsPrev24h": 0,
  "reports48h": 0,
  "firstSeenAt": "2026-11-09T05:51:41.709Z",
- "lastReportAt": "2026-11-10T11:22:05.000Z",
- "lastCheckedAt": "2026-11-13T00:55:28.152Z",
- "updatedAt": "2026-11-10T13:55:19.701Z",
+ "lastReportAt": "2026-11-08T17:35:00.000Z",
+ "lastCheckedAt": "2026-11-13T04:53:56.966Z",
+ "updatedAt": "2026-11-13T04:53:18.290Z",
  "distinctFrom": [
   "eb3c6e0ca01",
   "ec6385243c0",
@@ -141,242 +108,232 @@
  "searchedAt": "2026-11-09T09:50:44.872Z",
  "responseSources": [
   1,
-  2,
-  3,
-  4
+  2
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-10T13:55:19.701Z",
- "summaryOf": "f02ac03768b3",
+ "summarizedAt": "2026-11-13T04:53:18.290Z",
+ "summaryOf": "c18e2287ae74",
  "endedOn": "2026-11-07",
  "publishedAt": "2026-11-10T14:04:12.951Z",
  "i18n": {
-  "of": "d1321238a2fb367a",
-  "at": "2026-11-11T18:01:41.887Z",
-  "tries": 2,
+  "of": "0763b478209b595f",
+  "at": "2026-11-13T04:55:32.315Z",
+  "tries": 1,
   "hi": {
-   "title": "फ्रांस में प्रदर्शनकारियों ने उच्च जीवन यापन लागत और सरकारी नीतियों के खिलाफ विरोध किया",
-   "seoTitle": "पेरिस में जीवन यापन लागत के खिलाफ विरोध",
+   "title": "फ्रांस भर में प्रदर्शनकारियों ने उच्च जीवन यापन लागत और सरकारी नीतियों के खिलाफ विरोध किया",
+   "seoTitle": "जीवन यापन लागत के खिलाफ पेरिस में विरोध",
    "tea": {
-    "why": "प्रदर्शनकारी राष्ट्रपति चुनाव से पहले जीवन यापन की बढ़ती लागत, ईंधन की उच्च कीमतों और सरकारी नीतियों के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "मांगों में न्यूनतम वेतन में महत्वपूर्ण वृद्धि, सार्वजनिक सेवाओं का संरक्षण, और मुद्रास्फीति तथा गरीबी को संबोधित करने के उपाय शामिल हैं।",
-    "changed": "9 नवंबर: सरकार ने 1.6% न्यूनतम वेतन वृद्धि की घोषणा की, जिसे यूनियनों ने अपर्याप्त बताते हुए खारिज कर दिया।"
+    "why": "प्रदर्शनकारी जीवन यापन की बढ़ती लागत, ईंधन की उच्च कीमतों और सरकारी आर्थिक नीतियों के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "मांगों में वेतन में महत्वपूर्ण वृद्धि, न्यूनतम वेतन में 10% की बढ़ोतरी, और सार्वजनिक सेवाओं तथा नौकरियों का संरक्षण शामिल है।",
+    "changed": "9 नवंबर: सरकार ने 1 दिसंबर से प्रभावी 1.6% न्यूनतम वेतन वृद्धि की घोषणा की, जिसे यूनियनों ने अपर्याप्त बताते हुए खारिज कर दिया।"
    },
-   "summary": "7 नवंबर, 2026 को, हजारों लोगों ने जीवन यापन की बढ़ती लागत और सरकारी नीतियों का विरोध करने के लिए पूरे फ्रांस में राष्ट्रव्यापी प्रदर्शनों में भाग लिया। पेरिस में, यूनियनों ने प्लेस डे ला रिपब्लिक से प्लेस डे ला नेशन तक एक मार्च का नेतृत्व किया, जबकि येलो वेस्ट्स आंदोलन ने प्लेस डे ला कॉनकॉर्ड पर एक अलग रैली का प्रयास किया, जिस पर अधिकारियों ने प्रतिबंध लगा दिया था। आंतरिक मंत्रालय ने पेरिस में 46,000 सहित देश भर में 146,000 प्रतिभागियों की सूचना दी, जबकि यूनियनों ने देश भर में 250,000 और राजधानी में 75,000 का अनुमान लगाया। पेरिस में पुलिस और प्रदर्शनकारियों के बीच झड़पें हुईं, जिसमें अधिकारियों ने वस्तुएं फेंकने वाले व्यक्तियों के खिलाफ आंसू गैस का इस्तेमाल किया। विरोध प्रदर्शनों के बाद, सरकार ने 9 नवंबर को एक सामाजिक सम्मेलन बुलाया, जहां उसने न्यूनतम वेतन वृद्धि का प्रस्ताव रखा जिसे यूनियनों ने बाद में अपर्याप्त बताया।",
+   "summary": "7 नवंबर, 2026 को, हजारों लोगों ने जीवन यापन की बढ़ती लागत और सरकारी नीतियों का विरोध करने के लिए फ्रांस भर में राष्ट्रव्यापी प्रदर्शनों में भाग लिया। श्रमिक यूनियनों, \"येलो वेस्ट्स\" आंदोलन और छात्र समूहों द्वारा आयोजित, इन विरोध प्रदर्शनों में पेरिस में बड़ी संख्या में लोग शामिल हुए, जहाँ मार्च करने वाले प्लेस डे ला रिपब्लिक से प्लेस डे ला नेशन तक गए। जबकि मुख्य यूनियन मार्च काफी हद तक व्यवस्थित था, कार्यक्रम के अंत में झड़पें हुईं, जिसमें पुलिस ने उन व्यक्तियों के खिलाफ आंसू गैस का इस्तेमाल किया जिन्होंने प्रोजेक्टाइल और आतिशबाजी फेंकी। अधिकारियों ने बताया कि देश भर में 70,000 सुरक्षा कर्मियों को तैनात किया गया था। आंतरिक मंत्रालय ने कहा कि फ्रांस भर में 146,000 लोगों ने भाग लिया, जबकि यूनियनों ने यह आंकड़ा 250,000 बताया। प्लेस डे ला कॉनकॉर्ड में येलो वेस्ट्स द्वारा एक अलग, अनधिकृत रैली को पुलिस ने रोक दिया, जिसके परिणामस्वरूप गिरफ्तारियां हुईं।",
    "demands": [
-    "न्यूनतम वेतन बढ़ाएं",
-    "जीवन यापन की बढ़ती लागत को संबोधित करें",
-    "सार्वजनिक सेवाओं की रक्षा करें",
-    "नौकरियों और उद्योग की रक्षा करें"
+    "न्यूनतम वेतन में वृद्धि",
+    "मुद्रास्फीति से जुड़े वेतन में वृद्धि",
+    "सार्वजनिक सेवाओं का संरक्षण",
+    "नौकरियों और उद्योग का संरक्षण"
    ],
-   "response": "सरकार ने देश भर में 70,000 सुरक्षा बलों को तैनात किया। प्रधानमंत्री सेबेस्टियन लेकोर्नू ने 9 नवंबर को एक सामाजिक सम्मेलन बुलाया, जिसमें 1.6% न्यूनतम वेतन वृद्धि की पेशकश की गई, जिसे यूनियनों ने अपर्याप्त बताते हुए खारिज कर दिया।",
+   "response": "आंतरिक मंत्रालय ने 70,000 सुरक्षा बलों की तैनाती की सूचना दी। प्रधानमंत्री सेबेस्टियन लेकोर्नू ने 9 नवंबर को एक सामाजिक सम्मेलन बुलाया, जिसमें 1.6% न्यूनतम वेतन वृद्धि की पेशकश की गई, जिसे यूनियनों ने उकसावे वाला और अपर्याप्त बताया।",
    "updates": [
-    "पूरे फ्रांस में विरोध प्रदर्शन हुए और पेरिस में पुलिस तथा प्रदर्शनकारियों के बीच झड़पों की सूचना मिली।",
-    "सरकार ने वेतन और जीवन यापन की लागत संबंधी चिंताओं पर चर्चा करने के लिए यूनियनों और नियोक्ताओं के साथ एक सामाजिक सम्मेलन आयोजित किया।",
-    "सरकार ने 1.6% न्यूनतम वेतन वृद्धि की घोषणा की, जिसे प्रमुख यूनियनों ने अपर्याप्त बताते हुए खारिज कर दिया।"
+    "फ्रांस भर में हजारों लोगों ने प्रदर्शन किया; पेरिस में पुलिस और प्रदर्शनकारियों के बीच झड़पें हुईं।"
    ],
    "conflicts": [
-    "पुलिस ने देश भर में 146,000 प्रदर्शनकारियों की सूचना दी; यूनियनों ने 250,000 की सूचना दी।"
+    "आंतरिक मंत्रालय ने देश भर में 146,000 प्रदर्शनकारियों की सूचना दी, जबकि यूनियनों ने 250,000 का दावा किया।",
+    "आंतरिक मंत्रालय ने पेरिस में 46,000 प्रदर्शनकारियों की सूचना दी, जबकि यूनियनों ने 75,000 का दावा किया।"
    ],
    "numbers": {
-    "crowd": "यूनियनों ने देश भर में 250,000 प्रदर्शनकारियों का अनुमान लगाया, जिसमें पेरिस में 75,000 शामिल थे; आंतरिक मंत्रालय ने 146,000 की सूचना दी..."
+    "crowd": "यूनियनों ने देश भर में 250,000 प्रदर्शनकारियों का अनुमान लगाया, जबकि आंतरिक मंत्रालय ने 146,000 की सूचना दी।"
    }
   },
   "mr": {
-   "title": "फ्रान्समध्ये निदर्शकांनी उच्च राहणीमान खर्च आणि सरकारी धोरणांविरुद्ध निदर्शने केली",
-   "seoTitle": "पॅरिसमध्ये राहणीमान खर्चाविरुद्ध निदर्शने",
+   "title": "फ्रान्समध्ये वाढती महागाई आणि सरकारी धोरणांविरुद्ध निदर्शने",
+   "seoTitle": "महागाईविरुद्ध पॅरिसमध्ये निदर्शने",
    "tea": {
-    "why": "राष्ट्राध्यक्ष निवडणुकीपूर्वी निदर्शक राहणीमानाचा वाढता खर्च, इंधनाचे उच्च दर आणि सरकारी धोरणांविरुद्ध निदर्शने करत आहेत.",
-    "want": "मागण्यांमध्ये किमान वेतनात लक्षणीय वाढ, सार्वजनिक सेवांचे संरक्षण आणि महागाई व गरिबीवर उपाययोजनांचा समावेश आहे.",
-    "changed": "९ नोव्हेंबर: सरकारने १.६% किमान वेतन वाढीची घोषणा केली, जी युनियन्सनी अपुरी असल्याचे सांगून नाकारली."
+    "why": "वाढती महागाई, इंधनाचे उच्च दर आणि सरकारी आर्थिक धोरणांविरुद्ध निदर्शक आंदोलन करत आहेत.",
+    "want": "मागण्यांमध्ये वेतनात लक्षणीय वाढ, किमान वेतनात 10% वाढ आणि सार्वजनिक सेवा व नोकऱ्यांचे संरक्षण यांचा समावेश आहे.",
+    "changed": "9 नोव्हेंबर: सरकारने 1 डिसेंबरपासून लागू होणारी 1.6% किमान वेतन वाढ जाहीर केली, जी युनियन्सनी अपुरी असल्याचे सांगून नाकारली."
    },
-   "summary": "७ नोव्हेंबर २०२६ रोजी, हजारो लोकांनी राहणीमानाचा वाढता खर्च आणि सरकारी धोरणांचा निषेध करण्यासाठी संपूर्ण फ्रान्समध्ये राष्ट्रव्यापी निदर्शनांमध्ये भाग घेतला. पॅरिसमध्ये, युनियन्सनी प्लेस डे ला रिपब्लिकपासून प्लेस डे ला नेशनपर्यंत मोर्चा काढला, तर येलो वेस्ट्स चळवळीने प्लेस डे ला कॉनकॉर्डवर स्वतंत्र रॅलीचा प्रयत्न केला, ज्यावर अधिकाऱ्यांनी बंदी घातली होती. गृह मंत्रालयाने पॅरिसमधील ४६,००० सह देशभरात १४६,००० सहभागींची नोंद केली, तर युनियन्सनी देशभरात २५०,००० आणि राजधानीत ७५,००० चा अंदाज वर्तवला. पॅरिसमध्ये पोलीस आणि निदर्शकांमध्ये चकमकी झाल्या, ज्यामध्ये अधिकाऱ्यांनी वस्तू फेकणाऱ्या व्यक्तींविरुद्ध अश्रूधुराचा वापर केला. निदर्शनांनंतर, सरकारने ९ नोव्हेंबर रोजी एक सामाजिक परिषद बोलावली, जिथे त्यांनी किमान वेतन वाढीचा प्रस्ताव दिला, ज्यावर युनियन्सनी नंतर अपुरे असल्याचे टीका केली.",
+   "summary": "7 नोव्हेंबर 2026 रोजी, हजारो लोकांनी वाढती महागाई आणि सरकारी धोरणांचा निषेध करण्यासाठी फ्रान्समध्ये राष्ट्रव्यापी निदर्शनांमध्ये भाग घेतला. कामगार संघटना, \"येलो वेस्ट्स\" चळवळ आणि विद्यार्थी गटांनी आयोजित केलेल्या या निदर्शनांमध्ये पॅरिसमध्ये मोठी गर्दी झाली, जिथे मोर्चा प्लेस डे ला रिपब्लिकपासून प्लेस डे ला नेशनपर्यंत गेला. मुख्य युनियन मोर्चा बऱ्यापैकी शांततापूर्ण असला तरी, कार्यक्रमाच्या शेवटी चकमकी झाल्या, ज्यामध्ये पोलिसांनी दगडफेक आणि फटाके फोडणाऱ्या व्यक्तींविरुद्ध अश्रूधुराचा वापर केला. अधिकाऱ्यांनी सांगितले की देशभरात 70,000 सुरक्षा कर्मचारी तैनात करण्यात आले होते. गृह मंत्रालयाने सांगितले की फ्रान्समध्ये 146,000 लोकांनी भाग घेतला, तर युनियन्सनी हा आकडा 250,000 असल्याचे सांगितले. प्लेस डे ला कॉनकॉर्ड येथे \"येलो वेस्ट्स\" द्वारे आयोजित एक अनधिकृत रॅली पोलिसांनी रोखली, ज्यामुळे अटक करण्यात आली.",
    "demands": [
-    "किमान वेतन वाढवा",
-    "राहणीमानाचा वाढता खर्च हाताळा",
-    "सार्वजनिक सेवांचे रक्षण करा",
-    "नोकऱ्या आणि उद्योगांचे संरक्षण करा"
+    "किमान वेतनात वाढ",
+    "महागाईशी निगडित वेतन वाढ",
+    "सार्वजनिक सेवांचे संरक्षण",
+    "नोकऱ्या आणि उद्योगांचे संरक्षण"
    ],
-   "response": "सरकारने देशभरात ७०,००० सुरक्षा दले तैनात केली. पंतप्रधान सेबेस्टियन लेकोर्नू यांनी ९ नोव्हेंबर रोजी एक सामाजिक परिषद बोलावली, ज्यामध्ये १.६% किमान वेतन वाढीची ऑफर दिली, जी युनियन्सनी अपुरी असल्याचे सांगून नाकारली.",
+   "response": "गृह मंत्रालयाने 70,000 सुरक्षा दलांच्या तैनातीची माहिती दिली. पंतप्रधान सेबेस्टियन लेकोर्नू यांनी 9 नोव्हेंबर रोजी एक सामाजिक परिषद बोलावली, ज्यामध्ये 1.6% किमान वेतन वाढीची ऑफर दिली, ज्याला युनियन्सनी चिथावणीखोर आणि अपुरी असल्याचे म्हटले.",
    "updates": [
-    "संपूर्ण फ्रान्समध्ये निदर्शने झाली आणि पॅरिसमध्ये पोलीस व निदर्शकांमध्ये चकमकी झाल्याची नोंद झाली.",
-    "सरकारने वेतन आणि राहणीमान खर्चाच्या चिंतेवर चर्चा करण्यासाठी युनियन्स आणि नियोक्त्यांसोबत सामाजिक परिषद आयोजित केली.",
-    "सरकारने १.६% किमान वेतन वाढीची घोषणा केली, जी प्रमुख युनियन्सनी अपुरी असल्याचे सांगून नाकारली."
+    "फ्रान्समध्ये हजारो लोकांची निदर्शने; पॅरिसमध्ये पोलीस आणि निदर्शकांमध्ये चकमकी."
    ],
    "conflicts": [
-    "पोलिसांनी देशभरात १४६,००० निदर्शकांची नोंद केली; युनियन्सनी २५०,००० ची नोंद केली."
+    "गृह मंत्रालयाने देशभरात 146,000 निदर्शक असल्याचे सांगितले, तर युनियन्सनी 250,000 असल्याचा दावा केला.",
+    "गृह मंत्रालयाने पॅरिसमध्ये 46,000 निदर्शक असल्याचे सांगितले, तर युनियन्सनी 75,000 असल्याचा दावा केला."
    ],
    "numbers": {
-    "crowd": "युनियन्सनी देशभरात २५०,००० निदर्शकांचा अंदाज वर्तवला, ज्यामध्ये पॅरिसमध्ये ७५,००० होते; गृह मंत्रालयाने १४६,००० ची नोंद केली..."
+    "crowd": "युनियन्सनी देशभरात 250,000 निदर्शक असल्याचा अंदाज वर्तवला, तर गृह मंत्रालयाने 146,000 असल्याचे सांगितले."
    }
   },
   "es": {
    "title": "Manifestantes protestan en toda Francia contra el alto costo de vida y las políticas gubernamentales",
    "seoTitle": "Protesta en París contra el costo de vida",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, los altos precios del combustible y las políticas gubernamentales antes de las elecciones presidenciales.",
-    "want": "Las demandas incluyen aumentos significativos en el salario mínimo, la protección de los servicios públicos y medidas para abordar la inflación y la pobreza.",
-    "changed": "9 de noviembre: El gobierno anunció un aumento del 1.6% en el salario mínimo, que los sindicatos rechazaron por considerarlo insuficiente."
+    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, los altos precios del combustible y las políticas económicas del gobierno.",
+    "want": "Las demandas incluyen aumentos salariales significativos, un incremento del 10% en el salario mínimo y la protección de los servicios públicos y los empleos.",
+    "changed": "9 de noviembre: El gobierno anunció un aumento del salario mínimo del 1.6% efectivo a partir del 1 de diciembre, que los sindicatos rechazaron por considerarlo insuficiente."
    },
-   "summary": "El 7 de noviembre de 2026, miles de personas participaron en manifestaciones a nivel nacional en toda Francia para protestar por el aumento del costo de vida y las políticas gubernamentales. En París, los sindicatos lideraron una marcha desde la Place de la République hasta la Place de la Nation, mientras que el movimiento de los Chalecos Amarillos intentó realizar una manifestación separada en la Place de la Concorde, que las autoridades habían prohibido. El Ministerio del Interior informó de 146,000 participantes a nivel nacional, incluidos 46,000 en París, mientras que los sindicatos estimaron 250,000 a nivel nacional y 75,000 en la capital. Se produjeron enfrentamientos en París entre la policía y los manifestantes, y las autoridades utilizaron gases lacrimógenos contra personas que lanzaban proyectiles. Tras las protestas, el gobierno convocó una conferencia social el 9 de noviembre, donde propuso un aumento del salario mínimo que los sindicatos criticaron posteriormente por considerarlo inadecuado.",
+   "summary": "El 7 de noviembre de 2026, miles de personas participaron en manifestaciones a nivel nacional en toda Francia para protestar contra el aumento del costo de vida y las políticas gubernamentales. Organizadas por sindicatos laborales, el movimiento de los \"Chalecos Amarillos\" y grupos estudiantiles, las protestas tuvieron una participación significativa en París, donde los manifestantes marcharon desde la Place de la République hasta la Place de la Nation. Aunque la marcha sindical principal fue mayoritariamente ordenada, se produjeron enfrentamientos al final del evento, con la policía utilizando gases lacrimógenos contra individuos que lanzaron proyectiles y fuegos artificiales. Las autoridades informaron que se desplegaron 70,000 efectivos de seguridad en todo el país. El Ministerio del Interior declaró que 146,000 personas participaron en toda Francia, mientras que los sindicatos estimaron la cifra en 250,000. Una manifestación separada y no autorizada de los Chalecos Amarillos en la Place de la Concorde fue bloqueada por la policía, lo que resultó en arrestos.",
    "demands": [
-    "Aumentar el salario mínimo",
-    "Abordar el aumento del costo de vida",
-    "Defender los servicios públicos",
-    "Proteger los empleos y la industria"
+    "Aumento del salario mínimo",
+    "Aumentos salariales indexados a la inflación",
+    "Protección de los servicios públicos",
+    "Protección de empleos e industria"
    ],
-   "response": "El gobierno desplegó 70,000 fuerzas de seguridad a nivel nacional. El primer ministro Sébastien Lecornu convocó una conferencia social el 9 de noviembre, ofreciendo un aumento del 1.6% en el salario mínimo, que los sindicatos rechazaron por considerarlo insuficiente.",
+   "response": "El Ministerio del Interior informó el despliegue de 70,000 fuerzas de seguridad. El primer ministro Sébastien Lecornu convocó una conferencia social el 9 de noviembre, ofreciendo un aumento del salario mínimo del 1.6%, que los sindicatos describieron como una provocación e insuficiente.",
    "updates": [
-    "Se llevaron a cabo protestas en toda Francia con enfrentamientos reportados en París entre la policía y los manifestantes.",
-    "El gobierno celebró una conferencia social con sindicatos y empleadores para discutir las preocupaciones sobre los salarios y el costo de vida.",
-    "El gobierno anunció un aumento del 1.6% en el salario mínimo, que fue rechazado por los principales sindicatos por considerarlo inadecuado."
+    "Miles se manifiestan en toda Francia; ocurren enfrentamientos en París entre la policía y los manifestantes."
    ],
    "conflicts": [
-    "La policía reportó 146,000 manifestantes a nivel nacional; los sindicatos reportaron 250,000."
+    "El Ministerio del Interior informó de 146,000 manifestantes a nivel nacional, mientras que los sindicatos afirmaron que fueron 250,000.",
+    "El Ministerio del Interior informó de 46,000 manifestantes en París, mientras que los sindicatos afirmaron que fueron 75,000."
    ],
    "numbers": {
-    "crowd": "Los sindicatos estimaron 250,000 manifestantes a nivel nacional, con 75,000 en París; el Ministerio del Interior reportó 146,000..."
+    "crowd": "Los sindicatos estimaron 250,000 manifestantes a nivel nacional, mientras que el Ministerio del Interior informó de 146,000."
    }
   },
   "fr": {
-   "title": "Des manifestants protestent à travers la France contre le coût de la vie élevé et les politiques gouvernementales",
+   "title": "Des manifestants protestent à travers la France contre la vie chère et les politiques gouvernementales",
    "seoTitle": "Manifestation à Paris contre le coût de la vie",
    "tea": {
-    "why": "Les manifestants protestent contre la hausse du coût de la vie, les prix élevés du carburant et les politiques gouvernementales à l'approche de l'élection présidentielle.",
-    "want": "Les revendications incluent des augmentations significatives du salaire minimum, la protection des services publics et des mesures pour lutter contre l'inflation et la pauvreté.",
-    "changed": "9 novembre : Le gouvernement a annoncé une augmentation de 1,6 % du salaire minimum, que les syndicats ont rejetée comme étant insuffisante."
+    "why": "Les manifestants protestent contre la hausse du coût de la vie, les prix élevés du carburant et les politiques économiques du gouvernement.",
+    "want": "Les revendications incluent des augmentations de salaire significatives, une hausse de 10 % du salaire minimum, ainsi que la protection des services publics et des emplois.",
+    "changed": "9 novembre : Le gouvernement a annoncé une augmentation du salaire minimum de 1,6 % effective au 1er décembre, que les syndicats ont rejetée comme étant insuffisante."
    },
-   "summary": "Le 7 novembre 2026, des milliers de personnes ont participé à des manifestations nationales à travers la France pour protester contre la hausse du coût de la vie et les politiques gouvernementales. À Paris, les syndicats ont mené une marche de la place de la République à la place de la Nation, tandis que le mouvement des Gilets jaunes a tenté d'organiser un rassemblement distinct place de la Concorde, que les autorités avaient interdit. Le ministère de l'Intérieur a fait état de 146 000 participants à l'échelle nationale, dont 46 000 à Paris, tandis que les syndicats ont estimé le nombre à 250 000 à l'échelle nationale et 75 000 dans la capitale. Des affrontements ont eu lieu à Paris entre la police et les manifestants, les autorités ayant utilisé des gaz lacrymogènes contre des individus lançant des projectiles. À la suite des manifestations, le gouvernement a convoqué une conférence sociale le 9 novembre, où il a proposé une augmentation du salaire minimum que les syndicats ont par la suite critiquée comme étant inadéquate.",
+   "summary": "Le 7 novembre 2026, des milliers de personnes ont participé à des manifestations nationales à travers la France pour protester contre la hausse du coût de la vie et les politiques gouvernementales. Organisées par des syndicats, le mouvement des « Gilets jaunes » et des groupes étudiants, les manifestations ont connu une participation importante à Paris, où les cortèges ont défilé de la place de la République à la place de la Nation. Bien que la manifestation syndicale principale ait été largement ordonnée, des affrontements ont eu lieu à la fin de l'événement, la police ayant utilisé des gaz lacrymogènes contre des individus ayant lancé des projectiles et des feux d'artifice. Les autorités ont rapporté que 70 000 membres des forces de sécurité ont été déployés à l'échelle nationale. Le ministère de l'Intérieur a déclaré que 146 000 personnes ont participé à travers la France, tandis que les syndicats ont estimé ce chiffre à 250 000. Un rassemblement séparé et non autorisé des Gilets jaunes place de la Concorde a été bloqué par la police, entraînant des arrestations.",
    "demands": [
-    "Augmenter le salaire minimum",
-    "Lutter contre la hausse du coût de la vie",
-    "Défendre les services publics",
-    "Protéger les emplois et l'industrie"
+    "Augmentation du salaire minimum",
+    "Augmentations de salaire indexées sur l'inflation",
+    "Protection des services publics",
+    "Protection des emplois et de l'industrie"
    ],
-   "response": "Le gouvernement a déployé 70 000 membres des forces de sécurité à l'échelle nationale. Le Premier ministre Sébastien Lecornu a convoqué une conférence sociale le 9 novembre, proposant une augmentation de 1,6 % du salaire minimum, que les syndicats ont rejetée comme étant insuffisante.",
+   "response": "Le ministère de l'Intérieur a fait état du déploiement de 70 000 membres des forces de sécurité. Le Premier ministre Sébastien Lecornu a convoqué une conférence sociale le 9 novembre, proposant une augmentation du salaire minimum de 1,6 %, que les syndicats ont qualifiée de provocation et d'insuffisante.",
    "updates": [
-    "Des manifestations ont eu lieu à travers la France avec des affrontements signalés à Paris entre la police et les manifestants.",
-    "Le gouvernement a tenu une conférence sociale avec les syndicats et les employeurs pour discuter des préoccupations concernant les salaires et le coût de la vie.",
-    "Le gouvernement a annoncé une augmentation de 1,6 % du salaire minimum, qui a été rejetée par les principaux syndicats comme étant inadéquate."
+    "Des milliers de personnes manifestent à travers la France ; des affrontements ont lieu à Paris entre la police et les manifestants."
    ],
    "conflicts": [
-    "La police a fait état de 146 000 manifestants à l'échelle nationale ; les syndicats ont fait état de 250 000."
+    "Le ministère de l'Intérieur a rapporté 146 000 manifestants à l'échelle nationale, tandis que les syndicats en ont revendiqué 250 000.",
+    "Le ministère de l'Intérieur a rapporté 46 000 manifestants à Paris, tandis que les syndicats en ont revendiqué 75 000."
    ],
    "numbers": {
-    "crowd": "Les syndicats ont estimé le nombre de manifestants à 250 000 à l'échelle nationale, dont 75 000 à Paris ; le ministère de l'Intérieur a fait état de 146 000..."
+    "crowd": "Les syndicats ont estimé à 250 000 le nombre de manifestants à l'échelle nationale, tandis que le ministère de l'Intérieur en a rapporté 146 000."
    }
   },
   "de": {
    "title": "Demonstranten protestieren in ganz Frankreich gegen hohe Lebenshaltungskosten und Regierungspolitik",
    "seoTitle": "Protest in Paris gegen Lebenshaltungskosten",
    "tea": {
-    "why": "Die Demonstranten protestieren vor der Präsidentschaftswahl gegen die steigenden Lebenshaltungskosten, hohe Kraftstoffpreise und die Regierungspolitik.",
-    "want": "Zu den Forderungen gehören deutliche Erhöhungen des Mindestlohns, der Schutz öffentlicher Dienste sowie Maßnahmen gegen Inflation und Armut.",
-    "changed": "9. November: Die Regierung kündigte eine Mindestlohnerhöhung um 1,6 % an, die von den Gewerkschaften als unzureichend abgelehnt wurde."
+    "why": "Demonstranten protestieren gegen die steigenden Lebenshaltungskosten, hohe Kraftstoffpreise und die Wirtschaftspolitik der Regierung.",
+    "want": "Zu den Forderungen gehören deutliche Lohnerhöhungen, eine Anhebung des Mindestlohns um 10 % sowie der Schutz öffentlicher Dienste und Arbeitsplätze.",
+    "changed": "9. November: Die Regierung kündigte eine Mindestlohnerhöhung um 1,6 % zum 1. Dezember an, was die Gewerkschaften als unzureichend ablehnten."
    },
-   "summary": "Am 7. November 2026 nahmen Tausende Menschen an landesweiten Demonstrationen in ganz Frankreich teil, um gegen die steigenden Lebenshaltungskosten und die Regierungspolitik zu protestieren. In Paris führten Gewerkschaften einen Marsch vom Place de la République zum Place de la Nation an, während die Gelbwesten-Bewegung versuchte, eine separate Kundgebung am Place de la Concorde abzuhalten, die von den Behörden verboten worden war. Das Innenministerium meldete 146.000 Teilnehmer landesweit, darunter 46.000 in Paris, während die Gewerkschaften 250.000 landesweit und 75.000 in der Hauptstadt schätzten. In Paris kam es zu Zusammenstößen zwischen Polizei und Demonstranten, wobei die Behörden Tränengas gegen Personen einsetzten, die Wurfgeschosse warfen. Nach den Protesten berief die Regierung am 9. November eine Sozialkonferenz ein, auf der sie eine Mindestlohnerhöhung vorschlug, die von den Gewerkschaften anschließend als unzureichend kritisiert wurde.",
+   "summary": "Am 7. November 2026 nahmen Tausende Menschen an landesweiten Demonstrationen in ganz Frankreich teil, um gegen die steigenden Lebenshaltungskosten und die Regierungspolitik zu protestieren. Die von Gewerkschaften, der „Gelbwesten“-Bewegung und Studentengruppen organisierten Proteste verzeichneten in Paris eine hohe Teilnehmerzahl, wo die Demonstranten vom Place de la République zum Place de la Nation zogen. Während der gewerkschaftliche Hauptmarsch weitgehend geordnet verlief, kam es am Ende der Veranstaltung zu Zusammenstößen, bei denen die Polizei Tränengas gegen Personen einsetzte, die Wurfgeschosse und Feuerwerkskörper warfen. Die Behörden berichteten, dass landesweit 70.000 Sicherheitskräfte im Einsatz waren. Das Innenministerium gab an, dass 146.000 Menschen in ganz Frankreich teilnahmen, während die Gewerkschaften die Zahl auf 250.000 schätzten. Eine separate, nicht genehmigte Kundgebung der Gelbwesten am Place de la Concorde wurde von der Polizei blockiert, was zu Festnahmen führte.",
    "demands": [
-    "Mindestlohn erhöhen",
-    "Steigende Lebenshaltungskosten angehen",
-    "Öffentliche Dienste verteidigen",
-    "Arbeitsplätze und Industrie schützen"
+    "Erhöhung des Mindestlohns",
+    "An die Inflation angepasste Lohnerhöhungen",
+    "Schutz öffentlicher Dienste",
+    "Schutz von Arbeitsplätzen und Industrie"
    ],
-   "response": "Die Regierung setzte landesweit 70.000 Sicherheitskräfte ein. Premierminister Sébastien Lecornu berief am 9. November eine Sozialkonferenz ein und bot eine Mindestlohnerhöhung um 1,6 % an, die von den Gewerkschaften als unzureichend abgelehnt wurde.",
+   "response": "Das Innenministerium meldete den Einsatz von 70.000 Sicherheitskräften. Premierminister Sébastien Lecornu berief am 9. November eine Sozialkonferenz ein und bot eine Mindestlohnerhöhung von 1,6 % an, was die Gewerkschaften als Provokation und unzureichend bezeichneten.",
    "updates": [
-    "In ganz Frankreich fanden Proteste statt, wobei in Paris Zusammenstöße zwischen Polizei und Demonstranten gemeldet wurden.",
-    "Die Regierung hielt eine Sozialkonferenz mit Gewerkschaften und Arbeitgebern ab, um Bedenken hinsichtlich Löhnen und Lebenshaltungskosten zu erörtern.",
-    "Die Regierung kündigte eine Mindestlohnerhöhung um 1,6 % an, die von den großen Gewerkschaften als unzureichend abgelehnt wurde."
+    "Tausende demonstrieren in ganz Frankreich; in Paris kommt es zu Zusammenstößen zwischen Polizei und Demonstranten."
    ],
    "conflicts": [
-    "Die Polizei meldete 146.000 Demonstranten landesweit; die Gewerkschaften meldeten 250.000."
+    "Das Innenministerium meldete 146.000 Demonstranten landesweit, während die Gewerkschaften 250.000 angaben.",
+    "Das Innenministerium meldete 46.000 Demonstranten in Paris, während die Gewerkschaften 75.000 angaben."
    ],
    "numbers": {
-    "crowd": "Die Gewerkschaften schätzten 250.000 Demonstranten landesweit, davon 75.000 in Paris; das Innenministerium meldete 146.000..."
+    "crowd": "Die Gewerkschaften schätzten 250.000 Demonstranten landesweit, während das Innenministerium 146.000 meldete."
    }
   },
   "it": {
-   "title": "Manifestanti protestano in tutta la Francia contro il caro vita e le politiche governative",
-   "seoTitle": "Protesta a Parigi contro il caro vita",
+   "title": "Manifestanti protestano in tutta la Francia contro l'alto costo della vita e le politiche governative",
+   "seoTitle": "Protesta a Parigi contro il costo della vita",
    "tea": {
-    "why": "I manifestanti protestano contro l'aumento del costo della vita, i prezzi elevati del carburante e le politiche governative in vista delle elezioni presidenziali.",
-    "want": "Le richieste includono aumenti significativi del salario minimo, la tutela dei servizi pubblici e misure per affrontare l'inflazione e la povertà.",
-    "changed": "9 novembre: Il governo ha annunciato un aumento del salario minimo dell'1,6%, che i sindacati hanno respinto in quanto insufficiente."
+    "why": "I manifestanti protestano contro l'aumento del costo della vita, i prezzi elevati del carburante e le politiche economiche del governo.",
+    "want": "Le richieste includono significativi aumenti salariali, un incremento del 10% del salario minimo e la protezione dei servizi pubblici e dei posti di lavoro.",
+    "changed": "9 novembre: Il governo ha annunciato un aumento del salario minimo dell'1,6% a partire dal 1° dicembre, che i sindacati hanno respinto definendolo insufficiente."
    },
-   "summary": "Il 7 novembre 2026, migliaia di persone hanno partecipato a manifestazioni a livello nazionale in tutta la Francia per protestare contro l'aumento del costo della vita e le politiche governative. A Parigi, i sindacati hanno guidato un corteo da Place de la République a Place de la Nation, mentre il movimento dei Gilet Gialli ha tentato un raduno separato a Place de la Concorde, che le autorità avevano vietato. Il Ministero dell'Interno ha segnalato 146.000 partecipanti a livello nazionale, di cui 46.000 a Parigi, mentre i sindacati hanno stimato 250.000 persone a livello nazionale e 75.000 nella capitale. A Parigi si sono verificati scontri tra polizia e manifestanti, con le autorità che hanno utilizzato gas lacrimogeni contro individui che lanciavano proiettili. In seguito alle proteste, il governo ha convocato una conferenza sociale il 9 novembre, durante la quale ha proposto un aumento del salario minimo che i sindacati hanno successivamente criticato come inadeguato.",
+   "summary": "Il 7 novembre 2026, migliaia di persone hanno partecipato a manifestazioni nazionali in tutta la Francia per protestare contro l'aumento del costo della vita e le politiche governative. Organizzate dai sindacati, dal movimento dei \"Gilet Gialli\" e da gruppi studenteschi, le proteste hanno visto una partecipazione significativa a Parigi, dove i manifestanti hanno marciato da Place de la République a Place de la Nation. Sebbene il corteo sindacale principale sia stato in gran parte ordinato, alla fine dell'evento si sono verificati scontri, con la polizia che ha utilizzato gas lacrimogeni contro individui che hanno lanciato proiettili e fuochi d'artificio. Le autorità hanno riferito che 70.000 agenti di sicurezza sono stati dispiegati a livello nazionale. Il Ministero dell'Interno ha dichiarato che 146.000 persone hanno partecipato in tutta la Francia, mentre i sindacati hanno stimato la cifra a 250.000. Un raduno separato e non autorizzato dei Gilet Gialli a Place de la Concorde è stato bloccato dalla polizia, portando ad arresti.",
    "demands": [
-    "Aumentare il salario minimo",
-    "Affrontare l'aumento del costo della vita",
-    "Difendere i servizi pubblici",
-    "Proteggere posti di lavoro e industria"
+    "Aumento del salario minimo",
+    "Aumenti salariali indicizzati all'inflazione",
+    "Protezione dei servizi pubblici",
+    "Protezione dei posti di lavoro e dell'industria"
    ],
-   "response": "Il governo ha dispiegato 70.000 forze di sicurezza a livello nazionale. Il Primo Ministro Sébastien Lecornu ha convocato una conferenza sociale il 9 novembre, offrendo un aumento del salario minimo dell'1,6%, che i sindacati hanno respinto in quanto insufficiente.",
+   "response": "Il Ministero dell'Interno ha riferito il dispiegamento di 70.000 forze di sicurezza. Il Primo Ministro Sébastien Lecornu ha convocato una conferenza sociale il 9 novembre, offrendo un aumento del salario minimo dell'1,6%, che i sindacati hanno descritto come una provocazione e insufficiente.",
    "updates": [
-    "Proteste tenutesi in tutta la Francia con scontri segnalati a Parigi tra polizia e manifestanti.",
-    "Il governo ha tenuto una conferenza sociale con sindacati e datori di lavoro per discutere le preoccupazioni su salari e costo della vita.",
-    "Il governo ha annunciato un aumento del salario minimo dell'1,6%, respinto dai principali sindacati come inadeguato."
+    "Migliaia di persone manifestano in tutta la Francia; scontri a Parigi tra polizia e manifestanti."
    ],
    "conflicts": [
-    "La polizia ha segnalato 146.000 manifestanti a livello nazionale; i sindacati ne hanno segnalati 250.000."
+    "Il Ministero dell'Interno ha riportato 146.000 manifestanti a livello nazionale, mentre i sindacati ne hanno rivendicati 250.000.",
+    "Il Ministero dell'Interno ha riportato 46.000 manifestanti a Parigi, mentre i sindacati ne hanno rivendicati 75.000."
    ],
    "numbers": {
-    "crowd": "I sindacati hanno stimato 250.000 manifestanti a livello nazionale, con 75.000 a Parigi; il Ministero dell'Interno ne ha segnalati 146.000..."
+    "crowd": "I sindacati hanno stimato 250.000 manifestanti a livello nazionale, mentre il Ministero dell'Interno ne ha riportati 146.000."
    }
   },
   "pt": {
-   "title": "Manifestantes protestam por toda a França contra o custo de vida elevado e as políticas governamentais",
+   "title": "Manifestantes protestam por toda a França contra o elevado custo de vida e as políticas governamentais",
    "seoTitle": "Protesto em Paris contra o custo de vida",
    "tea": {
-    "why": "Os manifestantes estão a demonstrar contra o aumento do custo de vida, os preços elevados dos combustíveis e as políticas governamentais antes das eleições presidenciais.",
-    "want": "As exigências incluem aumentos significativos do salário mínimo, a proteção dos serviços públicos e medidas para combater a inflação e a pobreza.",
-    "changed": "9 de novembro: O governo anunciou um aumento de 1,6% no salário mínimo, que os sindicatos rejeitaram por ser insuficiente."
+    "why": "Os manifestantes protestam contra o aumento do custo de vida, os preços elevados dos combustíveis e as políticas económicas do governo.",
+    "want": "As exigências incluem aumentos salariais significativos, um aumento de 10% no salário mínimo e a proteção dos serviços públicos e dos empregos.",
+    "changed": "9 de novembro: O governo anunciou um aumento do salário mínimo de 1,6% com efeitos a partir de 1 de dezembro, que os sindicatos rejeitaram por considerarem insuficiente."
    },
-   "summary": "No dia 7 de novembro de 2026, milhares de pessoas participaram em manifestações nacionais por toda a França para protestar contra o aumento do custo de vida e as políticas governamentais. Em Paris, os sindicatos lideraram uma marcha da Place de la République até à Place de la Nation, enquanto o movimento dos Coletes Amarelos tentou realizar uma manifestação separada na Place de la Concorde, que as autoridades tinham proibido. O Ministério do Interior reportou 146.000 participantes a nível nacional, incluindo 46.000 em Paris, enquanto os sindicatos estimaram 250.000 a nível nacional e 75.000 na capital. Ocorreram confrontos em Paris entre a polícia e os manifestantes, tendo as autoridades utilizado gás lacrimogéneo contra indivíduos que lançavam projéteis. Após os protestos, o governo convocou uma conferência social a 9 de novembro, onde propôs um aumento do salário mínimo que os sindicatos criticaram posteriormente como inadequado.",
+   "summary": "A 7 de novembro de 2026, milhares de pessoas participaram em manifestações nacionais por toda a França para protestar contra o aumento do custo de vida e as políticas governamentais. Organizadas por sindicatos, pelo movimento dos \"Coletes Amarelos\" e por grupos de estudantes, os protestos registaram uma participação significativa em Paris, onde os manifestantes marcharam da Place de la République até à Place de la Nation. Embora a marcha sindical principal tenha sido maioritariamente ordeira, ocorreram confrontos no final do evento, com a polícia a utilizar gás lacrimogéneo contra indivíduos que lançaram projéteis e fogo de artifício. As autoridades informaram que 70 000 elementos das forças de segurança foram destacados a nível nacional. O Ministério do Interior declarou que 146 000 pessoas participaram por toda a França, enquanto os sindicatos estimaram o número em 250 000. Uma manifestação separada e não autorizada dos Coletes Amarelos na Place de la Concorde foi bloqueada pela polícia, resultando em detenções.",
    "demands": [
-    "Aumentar o salário mínimo",
-    "Combater o aumento do custo de vida",
-    "Defender os serviços públicos",
-    "Proteger o emprego e a indústria"
+    "Aumento do salário mínimo",
+    "Aumentos salariais indexados à inflação",
+    "Proteção dos serviços públicos",
+    "Proteção dos empregos e da indústria"
    ],
-   "response": "O governo destacou 70.000 forças de segurança a nível nacional. O Primeiro-Ministro Sébastien Lecornu convocou uma conferência social a 9 de novembro, oferecendo um aumento de 1,6% no salário mínimo, que os sindicatos rejeitaram por ser insuficiente.",
+   "response": "O Ministério do Interior informou sobre a mobilização de 70 000 forças de segurança. O primeiro-ministro Sébastien Lecornu convocou uma conferência social a 9 de novembro, oferecendo um aumento do salário mínimo de 1,6%, que os sindicatos descreveram como uma provocação e insuficiente.",
    "updates": [
-    "Protestos realizados por toda a França com confrontos reportados em Paris entre a polícia e os manifestantes.",
-    "O governo realizou uma conferência social com sindicatos e empregadores para discutir preocupações sobre salários e custo de vida.",
-    "O governo anunciou um aumento de 1,6% no salário mínimo, que foi rejeitado pelos principais sindicatos como inadequado."
+    "Milhares manifestam-se por toda a França; ocorrem confrontos em Paris entre a polícia e os manifestantes."
    ],
    "conflicts": [
-    "A polícia reportou 146.000 manifestantes a nível nacional; os sindicatos reportaram 250.000."
+    "O Ministério do Interior reportou 146 000 manifestantes a nível nacional, enquanto os sindicatos reivindicaram 250 000.",
+    "O Ministério do Interior reportou 46 000 manifestantes em Paris, enquanto os sindicatos reivindicaram 75 000."
    ],
    "numbers": {
-    "crowd": "Os sindicatos estimaram 250.000 manifestantes a nível nacional, com 75.000 em Paris; o Ministério do Interior reportou 146.000..."
+    "crowd": "Os sindicatos estimaram 250 000 manifestantes a nível nacional, enquanto o Ministério do Interior reportou 146 000."
    }
   },
   "nl": {
-   "title": "Demonstranten protesteren in heel Frankrijk tegen hoge kosten van levensonderhoud en overheidsbeleid",
-   "seoTitle": "Parijs protest tegen kosten van levensonderhoud",
+   "title": "Demonstranten protesteren door heel Frankrijk tegen hoge kosten van levensonderhoud en overheidsbeleid",
+   "seoTitle": "Protest in Parijs tegen kosten van levensonderhoud",
    "tea": {
-    "why": "Demonstranten protesteren tegen de stijgende kosten van levensonderhoud, hoge brandstofprijzen en het overheidsbeleid in de aanloop naar de presidentsverkiezingen.",
-    "want": "De eisen omvatten aanzienlijke verhogingen van het minimumloon, bescherming van publieke diensten en maatregelen om inflatie en armoede aan te pakken.",
-    "changed": "9 november: De regering kondigde een verhoging van het minimumloon met 1,6% aan, wat door vakbonden als onvoldoende werd afgewezen."
+    "why": "Demonstranten protesteren tegen de stijgende kosten van levensonderhoud, hoge brandstofprijzen en het economisch beleid van de overheid.",
+    "want": "De eisen omvatten aanzienlijke loonsverhogingen, een stijging van 10% van het minimumloon en de bescherming van openbare diensten en banen.",
+    "changed": "9 november: De regering kondigde een verhoging van het minimumloon met 1,6% aan, ingaande op 1 december, wat door de vakbonden werd afgewezen als onvoldoende."
    },
-   "summary": "Op 7 november 2026 namen duizenden mensen deel aan landelijke demonstraties in heel Frankrijk om te protesteren tegen de stijgende kosten van levensonderhoud en het overheidsbeleid. In Parijs leidden vakbonden een mars van Place de la République naar Place de la Nation, terwijl de Gele Hesjes-beweging een aparte bijeenkomst probeerde te houden op Place de la Concorde, die door de autoriteiten was verboden. Het Ministerie van Binnenlandse Zaken rapporteerde 146.000 deelnemers landelijk, waaronder 46.000 in Parijs, terwijl vakbonden 250.000 landelijk en 75.000 in de hoofdstad schatten. In Parijs vonden confrontaties plaats tussen de politie en demonstranten, waarbij de autoriteiten traangas gebruikten tegen individuen die projectielen gooiden. Na de protesten riep de regering op 9 november een sociale conferentie bijeen, waar zij een verhoging van het minimumloon voorstelde die door vakbonden vervolgens als ontoereikend werd bekritiseerd.",
+   "summary": "Op 7 november 2026 namen duizenden mensen deel aan landelijke demonstraties in heel Frankrijk om te protesteren tegen de stijgende kosten van levensonderhoud en het overheidsbeleid. De protesten, georganiseerd door vakbonden, de \"Gele Hesjes\"-beweging en studentengroepen, trokken veel mensen in Parijs, waar demonstranten van de Place de la République naar de Place de la Nation trokken. Hoewel de belangrijkste vakbondsoptocht grotendeels ordelijk verliep, vonden er aan het einde van het evenement confrontaties plaats, waarbij de politie traangas gebruikte tegen individuen die projectielen en vuurwerk gooiden. De autoriteiten meldden dat er landelijk 70.000 veiligheidsmedewerkers waren ingezet. Het ministerie van Binnenlandse Zaken verklaarde dat 146.000 mensen in heel Frankrijk deelnamen, terwijl de vakbonden het aantal op 250.000 schatten. Een aparte, niet-geautoriseerde bijeenkomst van de Gele Hesjes op de Place de la Concorde werd door de politie geblokkeerd, wat leidde tot arrestaties.",
    "demands": [
-    "Verhoog het minimumloon",
-    "Pak de stijgende kosten van levensonderhoud aan",
-    "Verdedig publieke diensten",
-    "Bescherm banen en industrie"
+    "Verhoging van het minimumloon",
+    "Loonstijgingen gekoppeld aan inflatie",
+    "Bescherming van openbare diensten",
+    "Bescherming van banen en industrie"
    ],
-   "response": "De regering zette 70.000 veiligheidstroepen in op landelijk niveau. Premier Sébastien Lecornu riep op 9 november een sociale conferentie bijeen en bood een verhoging van het minimumloon met 1,6% aan, wat door vakbonden als onvoldoende werd afgewezen.",
+   "response": "Het ministerie van Binnenlandse Zaken meldde de inzet van 70.000 veiligheidstroepen. Premier Sébastien Lecornu riep op 9 november een sociale conferentie bijeen en bood een verhoging van het minimumloon met 1,6% aan, wat door de vakbonden werd omschreven als een provocatie en onvoldoende.",
    "updates": [
-    "Protesten gehouden in heel Frankrijk met confrontaties gemeld in Parijs tussen politie en demonstranten.",
-    "De regering hield een sociale conferentie met vakbonden en werkgevers om zorgen over lonen en kosten van levensonderhoud te bespreken.",
-    "De regering kondigde een verhoging van het minimumloon met 1,6% aan, wat door grote vakbonden als ontoereikend werd afgewezen."
+    "Duizenden demonstreren door heel Frankrijk; confrontaties in Parijs tussen politie en demonstranten."
    ],
    "conflicts": [
-    "De politie rapporteerde 146.000 demonstranten landelijk; vakbonden rapporteerden 250.000."
+    "Het ministerie van Binnenlandse Zaken meldde 146.000 demonstranten landelijk, terwijl de vakbonden 250.000 claimden.",
+    "Het ministerie van Binnenlandse Zaken meldde 46.000 demonstranten in Parijs, terwijl de vakbonden 75.000 claimden."
    ],
    "numbers": {
-    "crowd": "Vakbonden schatten 250.000 demonstranten landelijk, met 75.000 in Parijs; het Ministerie van Binnenlandse Zaken rapporteerde 146.000..."
+    "crowd": "De vakbonden schatten 250.000 demonstranten landelijk, terwijl het ministerie van Binnenlandse Zaken 146.000 meldde."
    }
   }
  }
