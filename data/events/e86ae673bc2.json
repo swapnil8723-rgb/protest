@@ -2,8 +2,8 @@
  "id": "e86ae673bc2",
  "slug": "porto-housing-protest-nov-2026",
  "stage": "live",
- "title": "Police dismantle housing protest camp in Porto",
- "seoTitle": "Porto housing protest camp dismantled by police",
+ "title": "Porto housing protesters clash with police over rent bill and camp eviction",
+ "seoTitle": "Porto housing protest camp clashes",
  "place": {
   "city": "Porto",
   "region": "Porto",
@@ -13,59 +13,72 @@
   "citySlug": "porto",
   "regionSlug": "porto"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "housing",
-  "prices"
+  "prices",
+  "governance"
  ],
  "kind": "multi-day",
  "startedOn": "2026-10-31",
- "status": "ended",
- "vibe": "wrapped-up",
+ "status": "ongoing",
+ "vibe": "tense",
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "serious"
+  "serious",
+  "low-confidence",
+  "sources-disagree"
  ],
- "isOngoing": false,
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the housing crisis and a new government bill on rents.",
-  "want": "Demonstrators demand that the government abandon plans to ease evictions and end rent caps for new contracts.",
-  "changed": "Nov 4: Minister of Infrastructure and Housing stated the government wants to maintain a dialogue posture with protesters."
+  "why": "Protesters oppose high housing costs and government proposals that ease evictions and end rent caps on new contracts.",
+  "want": "Demonstrators demand affordable housing policies, rent controls, and the withdrawal of proposed tenancy law changes.",
+  "changed": "Nov 10: Protesters voted to share Praça D. João I with reduced Christmas installations after a Nov 1 eviction attempt."
  },
- "summary": "Portuguese police dismantled a housing protest camp at Dom Joao I Square in Porto early Sunday morning following marches against high housing costs and a new rent bill. Protesters had set up tents after Saturday's demonstrations. During the operation, police used shields and batons, while stating that demonstrators threw bottles and paint. An undercover police incident occurred when demonstrators identified plainclothes officers, leading to one drawing a firearm as a deterrent. The activist group Acampada do Porto and other sources reported dozens of civilian injuries, and police stated thirteen officers were injured and seven individuals were arrested in Porto for refusing orders to disperse.",
+ "summary": "Demonstrators gathered in Porto to protest rising housing costs and government proposals easing evictions and removing rent caps on new lease contracts. Organised by groups including Acampada do Porto and Mães da Acampada, activists set up an encampment at Praça D. João I following weekend marches. Early on November 1, 2026, Public Security Police (PSP) officers moved in to clear the camp. Clashes broke out, during which a plainclothes officer drew a firearm, which PSP described as a deterrent after officers were attacked. Organisers reported at least 38 protesters were injured in Porto, including three seriously, while PSP stated 13 officers sustained injuries. Police detained seven people in Porto. Infrastructure Minister Miguel Pinto Luz reaffirmed a commitment to dialogue, and city authorities later negotiated with organisers regarding space usage in the square.",
  "organizers": [
   "Acampada do Porto",
   "Mães da Acampada"
  ],
  "demands": [
-  "Abandon plans to ease evictions",
-  "End rent caps for new contracts",
-  "Address the severe housing crisis"
+  "Withdrawal of proposed rent legislation",
+  "Preservation of rent caps on new contracts",
+  "Protection against easier evictions",
+  "Measures ensuring affordable housing"
  ],
- "response": "Police dismantled the camp using shields and batons after issuing orders to disperse, and described an undercover officer drawing a weapon as a passive deterrent during a clash. A lawyer representing those detained called the police response excessive, while the government stated a posture of dialogue.",
+ "response": "PSP stated officers cleared camps and used a firearm as a passive deterrent after being attacked. Infrastructure Minister Miguel Pinto Luz affirmed the government maintains a stance of dialogue with housing protesters.",
  "numbers": {
   "arrests": {
    "value": 7,
-   "text": "seven in Porto",
+   "text": "7 people detained in Porto according to police and legal representatives",
    "sources": [
     3,
     4
    ]
   },
   "injuries": {
-   "value": 38,
-   "text": "organização contabiliza pelo menos 38 feridos no Porto",
+   "value": 51,
+   "text": "At least 38 protesters and 13 police officers injured in Porto according to organisers and PSP",
    "sources": [
+    1,
     4
    ]
   }
  },
  "updates": [
   {
+   "at": "2026-10-31",
+   "text": "Protesters march through central Porto against housing costs and tent camps are established in Praça D. João I.",
+   "sources": [
+    1,
+    3
+   ]
+  },
+  {
    "at": "2026-11-01",
-   "text": "Police dismantled the protest camp in Porto at around 4:30 a.m. local time, arresting seven people and injuring officers and protesters.",
+   "text": "PSP police clear the Porto protest camp around 4:30 a.m., leading to clashes, 13 police and at least 38 protester injuries, and 7 arrests.",
    "sources": [
     1,
     3,
@@ -73,10 +86,26 @@
    ]
   },
   {
+   "at": "2026-11-01",
+   "text": "PSP confirms a plainclothes officer unholstered a firearm during the Porto eviction as a deterrent after being confronted by demonstrators.",
+   "sources": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
    "at": "2026-11-04",
-   "text": "The Minister of Infrastructure and Housing stated that the government wishes to maintain a posture of dialogue with housing protesters in Porto.",
+   "text": "Infrastructure Minister Miguel Pinto Luz states in Porto that the government intends to maintain a posture of dialogue with housing protesters.",
    "sources": [
     5
+   ]
+  },
+  {
+   "at": "2026-11-10",
+   "text": "Porto housing protesters vote in a popular assembly to remain in Praça D. João I while sharing space with select Christmas decorations.",
+   "sources": [
+    6
    ]
   }
  ],
@@ -115,18 +144,27 @@
    "publisher": "rtp.pt",
    "title": "Pinto Luz confrontado com protestos garante \"postura de diálogo\" e Seguro saúda conversações",
    "publishedAt": "2026-11-04T13:36:11.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://www.publico.pt/2026/11/11/sociedade/noticia/nao-vem-pista-gelo-ha-vitoria-acampada-porto-aceita-partilhar-praca-decoracoes-natal-2194586",
+   "publisher": "publico.pt",
+   "title": "“Não vem a pista de gelo, há essa vitória”: Acampada do Porto aceita partilhar praça com decorações de Natal",
+   "publishedAt": "2026-11-11T13:57:14.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.9,
- "publishers": 5,
+ "conflicts": [
+  "Organisers stated police used excessive force and that a plainclothes officer provoked violence before drawing a gun, while PSP stated officers were attacked and used the weapon as a passive…"
+ ],
+ "confidence": 0.75,
+ "publishers": 6,
  "reports24h": 0,
- "reportsPrev24h": 0,
- "reports48h": 0,
+ "reportsPrev24h": 1,
+ "reports48h": 1,
  "firstSeenAt": "2026-10-31T22:52:20.123Z",
- "lastReportAt": "2026-11-04T13:36:11.000Z",
- "lastCheckedAt": "2026-11-13T04:53:56.966Z",
- "updatedAt": "2026-11-04T13:55:36.642Z",
+ "lastReportAt": "2026-11-11T13:57:14.000Z",
+ "lastCheckedAt": "2026-11-13T08:55:47.916Z",
+ "updatedAt": "2026-11-13T08:55:09.288Z",
  "searchedAt": "2026-11-01T19:44:18.836Z",
  "responseSources": [
   1,
@@ -137,140 +175,262 @@
  ],
  "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-11-04T13:55:36.642Z",
- "summaryOf": "a7f47345f41d",
+ "summarizedAt": "2026-11-13T08:55:09.288Z",
+ "summaryOf": "9c29ba674374",
  "publishedAt": "2026-11-01T19:48:24.860Z",
  "i18n": {
-  "of": "93ec33c0001a1019",
-  "at": "2026-11-04T17:03:02.966Z",
+  "of": "492e8c1955d87594",
+  "at": "2026-11-13T08:56:40.886Z",
   "tries": 1,
   "hi": {
-   "title": "पोर्टो में पुलिस ने आवास विरोध शिविर को हटाया",
-   "seoTitle": "पोर्टो में पुलिस ने आवास विरोध शिविर हटाया",
+   "title": "पोर्टो में आवास प्रदर्शनकारी किराए के बिल और शिविर बेदखली पर पुलिस से भिड़े",
+   "seoTitle": "पोर्टो आवास विरोध शिविर संघर्ष",
    "tea": {
-    "why": "प्रदर्शनकारी आवास संकट और किराए पर नए सरकारी विधेयक के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "प्रदर्शनकारियों की मांग है कि सरकार बेदखली को आसान बनाने की योजनाओं को छोड़े और नए अनुबंधों के लिए किराया सीमा समाप्त करे।",
-    "changed": "4 नवंबर: बुनियादी ढांचा और आवास मंत्री ने कहा कि सरकार प्रदर्शनकारियों के साथ बातचीत का रुख बनाए रखना चाहती है।"
+    "why": "प्रदर्शनकारी उच्च आवास लागत और सरकारी प्रस्तावों का विरोध कर रहे हैं जो बेदखली को आसान बनाते हैं और नए अनुबंधों पर किराए की सीमा को समाप्त करते हैं।",
+    "want": "प्रदर्शनकारियों ने सस्ती आवास नीतियों, किराए के नियंत्रण और प्रस्तावित tenancy कानून में बदलावों को वापस लेने की मांग की है।",
+    "changed": "10 नवंबर: 1 नवंबर को बेदखली के प्रयास के बाद प्रदर्शनकारियों ने घटी हुई क्रिसमस स्थापनाओं के साथ प्राका डी. जोआओ I को साझा करने के लिए मतदान किया।"
    },
-   "summary": "पुर्तगाली पुलिस ने रविवार सुबह पोर्टो के डोम जोआओ I स्क्वायर में आवास विरोध शिविर को हटा दिया, जो उच्च आवास लागत और नए किराया विधेयक के खिलाफ मार्च के बाद लगाया गया था। शनिवार के प्रदर्शनों के बाद प्रदर्शनकारियों ने टेंट लगाए थे। कार्रवाई के दौरान पुलिस ने ढाल और लाठियों का इस्तेमाल किया, जबकि कहा कि प्रदर्शनकारियों ने बोतलें और पेंट फेंके। एक गुप्त पुलिस घटना तब हुई जब प्रदर्शनकारियों ने सादे कपड़ों में अधिकारियों की पहचान की, जिसके बाद एक अधिकारी ने निवारक के रूप में हथियार निकाला। कार्यकर्ता समूह Acampada do Porto और अन्य स्रोतों ने दर्जनों नागरिकों के घायल होने की सूचना दी, और पुलिस ने कहा कि पोर्टो में तेरह अधिकारी घायल हुए और सात लोगों को तितर-बितर होने के आदेशों का पालन न करने पर गिरफ्तार किया गया।",
+   "summary": "बढ़ती आवास लागत और बेदखली को आसान बनाने तथा नए पट्टे के अनुबंधों पर किराए की सीमा हटाने वाले सरकारी प्रस्तावों का विरोध करने के लिए पोर्टो में प्रदर्शनकारी एकत्र हुए। अकाम्पाडा डो पोर्टो और मेस दा अकाम्पाडा सहित समूहों द्वारा आयोजित, कार्यकर्ताओं ने सप्ताहांत के मार्च के बाद प्राका डी. जोआओ I में एक शिविर स्थापित किया। 1 नवंबर 2026 की शुरुआत में, पब्लिक सिक्योरिटी पुलिस (PSP) के अधिकारियों ने शिविर को खाली कराने के लिए कदम बढ़ाया। झड़पें भड़क उठीं, इस दौरान एक सादे कपड़ों में अधिकारी ने आग्नेयास्त्र निकाला, जिसे PSP ने अधिकारियों पर हमला होने के बाद एक निवारक के रूप में वर्णित किया। आयोजकों ने बताया कि पोर्टो में कम से कम 38 प्रदर्शनकारी घायल हुए, जिनमें तीन गंभीर रूप से घायल थे, जबकि PSP ने कहा कि 13 अधिकारियों को चोटें आईं। पुलिस ने पोर्टो में सात लोगों को हिरासत में लिया। बुनियादी ढांचा मंत्री मिगुएल पिंटो लूज़ ने संवाद के प्रति प्रतिबद्धता की पुष्टि की, और बाद में शहर के अधिकारियों ने चौक में स्थान के उपयोग के संबंध में आयोजकों के साथ बातचीत की।",
    "demands": [
-    "बेदखली को आसान बनाने की योजनाओं को छोड़ें",
-    "नए अनुबंधों के लिए किराया सीमा समाप्त करें",
-    "गंभीर आवास संकट का समाधान करें"
+    "प्रस्तावित किराया कानून की वापसी",
+    "नए अनुबंधों पर किराए की सीमा का संरक्षण",
+    "आसान बेदखली के खिलाफ सुरक्षा",
+    "सस्ते आवास सुनिश्चित करने वाले उपाय"
    ],
-   "response": "पुलिस ने तितर-बितर होने के आदेश जारी करने के बाद ढाल और लाठियों का उपयोग करके शिविर को हटा दिया, और झड़प के दौरान एक गुप्त अधिकारी द्वारा हथियार निकालने को एक निष्क्रिय निवारक बताया। हिरासत में लिए गए लोगों का प्रतिनिधित्व करने वाले एक वकील ने पुलिस की प्रतिक्रिया को अत्यधिक बताया, जबकि सरकार ने बातचीत का रुख बनाए रखने की बात कही।",
+   "response": "PSP ने कहा कि अधिकारियों ने शिविरों को खाली कराया और हमला किए जाने के बाद एक निष्क्रिय निवारक के रूप में आग्नेयास्त्र का उपयोग किया। बुनियादी ढांचा मंत्री मिगुएल पिंटो लूज़ ने पुष्टि की कि सरकार आवास प्रदर्शनकारियों के साथ संवाद का रुख बनाए रखती है।",
    "updates": [
-    "पुलिस ने पोर्टो में स्थानीय समयानुसार सुबह 4:30 बजे विरोध शिविर को हटा दिया, सात लोगों को गिरफ्तार किया और अधिकारियों तथा प्रदर्शनकारियों को घायल किया।",
-    "बुनियादी ढांचा और आवास मंत्री ने कहा कि सरकार पोर्टो में आवास प्रदर्शनकारियों के साथ बातचीत का रुख बनाए रखना चाहती है।"
+    "प्रदर्शनकारियों ने आवास लागत के खिलाफ केंद्रीय पोर्टो में मार्च किया और प्राका डी. जोआओ I में तंबू शिविर स्थापित किए गए।",
+    "PSP पुलिस ने सुबह करीब 4:30 बजे पोर्टो विरोध शिविर को खाली कराया, जिससे झड़पें हुईं, 13 पुलिस और कम से कम 38 प्रदर्शनकारी घायल हुए, और 7 गिरफ्तारियां हुईं।",
+    "PSP ने पुष्टि की कि पोर्टो बेदखली के दौरान सादे कपड़ों में एक अधिकारी ने प्रदर्शनकारियों द्वारा सामना किए जाने के बाद निवारक के रूप में आग्नेयास्त्र निकाला।",
+    "बुनियादी ढांचा मंत्री मिगुएल पिंटो लूज़ ने पोर्टो में कहा कि सरकार आवास प्रदर्शनकारियों के साथ संवाद की मुद्रा बनाए रखने का इरादा रखती है।",
+    "पोर्टो आवास प्रदर्शनकारियों ने कुछ क्रिसमस सजावट के साथ जगह साझा करते हुए प्राका डी. जोआओ I में बने रहने के लिए एक लोकप्रिय विधानसभा में मतदान किया।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "आयोजकों ने कहा कि पुलिस ने अत्यधिक बल का प्रयोग किया और बंदूक निकालने से पहले सादे कपड़ों में एक अधिकारी ने हिंसा भड़काई, जबकि PSP ने कहा कि अधिकारियों पर हमला किया गया और हथियार का उपयोग एक निष्क्रिय..."
+   ],
    "numbers": {
-    "arrests": "पोर्टो में सात",
-    "injuries": "संगठन ने पोर्टो में कम से कम 38 लोगों के घायल होने की सूचना दी"
+    "arrests": "पुलिस और कानूनी प्रतिनिधियों के अनुसार पोर्टो में 7 लोग हिरासत में लिए गए",
+    "injuries": "आयोजकों और PSP के अनुसार पोर्टो में कम से कम 38 प्रदर्शनकारी और 13 पुलिस अधिकारी घायल हुए"
    }
   },
   "mr": {
-   "title": "पोर्टोमध्ये पोलिसांनी गृहनिर्माण निषेध छावणी हटवली",
-   "seoTitle": "पोर्टोमध्ये पोलिसांनी गृहनिर्माण निषेध छावणी हटवली",
+   "title": "पोर्टोमध्ये भाडे बिल आणि छावणी बेदखलीवरून आवास आंदोलक पोलिसांशी भिडले",
+   "seoTitle": "पोर्टो आवास निषेध छावणी संघर्ष",
    "tea": {
-    "why": "प्रदर्शनकारी गृहनिर्माण संकट आणि भाड्यावरील नवीन सरकारी विधेयकाविरुद्ध निदर्शने करत आहेत.",
-    "want": "प्रदर्शनकर्त्यांची मागणी आहे की सरकारने बेदखली सुलभ करण्याच्या योजना सोडून द्याव्यात आणि नवीन करारांसाठी भाड्याची मर्यादा संपवावी.",
-    "changed": "4 नोव्हेंबर: पायाभूत सुविधा आणि गृहनिर्माण मंत्र्यांनी सांगितले की सरकार प्रदर्शनकर्त्यांशी संवादाची भूमिका कायम ठेवू इच्छिते."
+    "why": "आंदोलक वाढत्या घरांच्या किमती आणि बेदखली सुलभ करणाऱ्या आणि नवीन करारांवरील भाडे मर्यादा समाप्त करणाऱ्या सरकारी प्रस्तावांना विरोध करतात.",
+    "want": "निदर्शक परवडणाऱ्या घरांच्या धोरणे, भाडे नियंत्रण आणि प्रस्तावित भाडेकरू कायदा बदलांच्या मागे घेण्याची मागणी करतात.",
+    "changed": "१० नोव्हेंबर: १ नोव्हेंबर रोजी बेदखलीच्या प्रयत्नानंतर आंदोलकांनी कमी केलेल्या ख्रिसमस प्रतिष्ठापनांसह प्राका डी. जोआओ I सामायिक करण्यासाठी मतदान केले."
    },
-   "summary": "पोर्तुगीज पोलिसांनी रविवारी पहाटे पोर्टोमधील डोम जोआओ I स्क्वेअर येथे गृहनिर्माण निषेध छावणी हटवली, जी उच्च गृहनिर्माण खर्च आणि नवीन भाडे विधेयकाविरुद्धच्या मोर्चानंतर उभारली गेली होती. शनिवारी झालेल्या निदर्शनांनंतर प्रदर्शनकर्त्यांनी तंबू ठोकले होते. कारवाईदरम्यान पोलिसांनी ढाल आणि लाठ्यांचा वापर केला, तर प्रदर्शनकर्त्यांनी बाटल्या आणि पेंट फेकल्याचे सांगितले. जेव्हा प्रदर्शनकर्त्यांनी साध्या गणवेशातील अधिकाऱ्यांना ओळखले तेव्हा एक गुप्त पोलीस घटना घडली, ज्यामुळे एका अधिकाऱ्याने प्रतिबंधात्मक उपाय म्हणून शस्त्र काढले. कार्यकर्ता गट Acampada do Porto आणि इतर सूत्रांनी डझनभर नागरिक जखमी झाल्याचे वृत्त दिले आहे आणि पोलिसांनी सांगितले की पोर्टोमध्ये तेरा अधिकारी जखमी झाले आणि सात जणांना विखुरण्याचे आदेश न पाळल्याबद्दल अटक करण्यात आली.",
+   "summary": "वाढत्या घरांच्या किमती आणि बेदखली सुलभ करणारे आणि नवीन भाडे करारांवरील भाडे मर्यादा काढून टाकणारे सरकारी प्रस्ताव यांच्या निषेधार्थ निदर्शक पोर्टोमध्ये जमले. अकाम्पाडा डो पोर्टो आणि मेस दा अकाम्पाडा यांसारख्या गटांद्वारे आयोजित, कार्यकर्त्यांनी शनिवार व रविवारी मोर्चा काढल्यानंतर प्राका डी. जोआओ I येथे तळ ठोकला. १ नोव्हेंबर २०२६ रोजी सकाळी, पब्लिक सिक्युरिटी पोलिस (PSP) अधिकारी छावणी खाली करण्यासाठी पुढे सरसावले. संघर्ष उसळला, ज्या दरम्यान साध्या वेशातील अधिकाऱ्याने बंदूक काढली, ज्याला अधिकाऱ्यांवर हल्ला झाल्यानंतर प्रतिबंधक उपाय म्हणून PSP ने वर्णन केले. आयोजकांनी वृत्त दिले की पोर्टोमध्ये किमान ३८ आंदोलक जखमी झाले, ज्यात तीन गंभीर होते, तर PSP ने सांगितले की १३ अधिकारी जखमी झाले. पोलिसांनी पोर्टोमध्ये सात जणांना ताब्यात घेतले. पायाभूत सुविधा मंत्री मिगुएल पिंटो लूझ यांनी संवादाची प्रतिबद्धता पुन्हा पुष्टी केली आणि नंतर शहर अधिकार्‍यांनी चौकातील जागेच्या वापराबद्दल आयोजकांशी वाटाघाटी केल्या.",
    "demands": [
-    "बेदखली सुलभ करण्याच्या योजना सोडून द्या",
-    "नवीन करारांसाठी भाड्याची मर्यादा संपवा",
-    "गंभीर गृहनिर्माण संकटाचे निराकरण करा"
+    "प्रस्तावित भाडे कायद्याची माघार",
+    "नवीन करारांवर भाडे मर्यादांचे जतन",
+    "सुलभ बेदखलीपासून संरक्षण",
+    "परवडणारी घरे सुनिश्चित करणारे उपाय"
    ],
-   "response": "पोलिसांनी विखुरण्याचे आदेश दिल्यानंतर ढाल आणि लाठ्यांचा वापर करून छावणी हटवली आणि चकमकीदरम्यान एका गुप्त अधिकाऱ्याने शस्त्र काढल्याचे वर्णन एक निष्क्रिय प्रतिबंधात्मक उपाय म्हणून केले. अटक केलेल्यांचे प्रतिनिधित्व करणाऱ्या वकिलाने पोलिसांच्या प्रतिसादाला अतिरेकी म्हटले, तर सरकारने संवादाची भूमिका असल्याचे सांगितले.",
+   "response": "PSP ने सांगितले की अधिकाऱ्यांनी छावण्या खाली केल्या आणि हल्ला झाल्यानंतर निष्क्रीय प्रतिबंधक म्हणून बंदुकीचा वापर केला. पायाभूत सुविधा मंत्री मिगुएल पिंटो लूझ यांनी पुष्टी केली की सरकार आवास आंदोलकांशी संवादाची भूमिका कायम ठेवते.",
    "updates": [
-    "पोलिसांनी पोर्टोमध्ये स्थानिक वेळेनुसार पहाटे 4:30 वाजता निषेध छावणी हटवली, सात जणांना अटक केली आणि अधिकारी व प्रदर्शनकर्ते जखमी झाले.",
-    "पायाभूत सुविधा आणि गृहनिर्माण मंत्र्यांनी सांगितले की सरकार पोर्टोमधील गृहनिर्माण प्रदर्शनकर्त्यांशी संवादाची भूमिका कायम ठेवू इच्छिते."
+    "आंदोलकांनी घरांच्या किमतींविरुद्ध मध्य पोर्टोमध्ये मोर्चा काढला आणि प्राका डी. जोआओ I मध्ये तंबू छावण्या उभारल्या.",
+    "PSP पोलिसांनी पहाटे ४:३० च्या सुमारास पोर्टो निषेध छावणी खाली केली, ज्यामुळे संघर्ष झाला, १३ पोलीस आणि किमान ३८ आंदोलक जखमी झाले आणि ७ जणांना अटक झाली.",
+    "PSP ने पुष्टी केली की पोर्टो बेदखलीदरम्यान साध्या वेशातील अधिकाऱ्याने निदर्शकांनी विरोध केल्यानंतर प्रतिबंधक म्हणून बंदूक म्यान बाहेर काढली.",
+    "पायाभूत सुविधा मंत्री मिगुएल पिंटो लूझ यांनी पोर्टोमध्ये सांगितले की सरकार आवास आंदोलकांसोबत संवादाची भूमिका राखण्याचा विचार करत आहे.",
+    "पोर्टो आवास आंदोलकांनी काही ख्रिसमस सजावटीसह जागा सामायिक करत प्राका डी. जोआओ I मध्ये राहण्यासाठी लोकप्रिय सभेत मतदान केले."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "आयोजकांनी सांगितले की पोलिसांनी अत्याधिक बळाचा वापर केला आणि बंदूक काढण्यापूर्वी साध्या वेशातील अधिकाऱ्याने हिंसाचार भडकावला, तर PSP ने सांगितले की अधिकाऱ्यांवर हल्ला झाला आणि त्यांनी शस्त्राचा वापर निष्क्रीय..."
+   ],
    "numbers": {
-    "arrests": "पोर्टोमध्ये सात",
-    "injuries": "संस्थेने पोर्टोमध्ये किमान 38 जण जखमी झाल्याची नोंद केली आहे"
+    "arrests": "पोलिस आणि कायदेशीर प्रतिनिधींच्या मते पोर्टोमध्ये ७ लोकांना ताब्यात घेण्यात आले",
+    "injuries": "आयोजक आणि PSP नुसार पोर्टोमध्ये किमान ३८ आंदोलक आणि १३ पोलीस अधिकारी जखमी"
    }
   },
   "es": {
-   "title": "La policía desmantela un campamento de protesta por la vivienda en Oporto",
-   "seoTitle": "Desmantelado campamento de protesta por vivienda en Oporto",
+   "title": "Manifestantes de vivienda en Oporto se enfrentan a la policía por ley de alquileres y desalojo de campamento",
+   "seoTitle": "Choques en campamento de protesta por vivienda en Oporto",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra la crisis de la vivienda y un nuevo proyecto de ley gubernamental sobre los alquileres.",
-    "want": "Los manifestantes exigen que el gobierno abandone los planes para facilitar los desalojos y ponga fin a los límites de alquiler para los nuevos contratos.",
-    "changed": "4 de noviembre: El Ministro de Infraestructuras y Vivienda declaró que el gobierno quiere mantener una postura de diálogo con los manifestantes."
+    "why": "Los manifestantes se oponen a los altos costos de la vivienda y a las propuestas gubernamentales que facilitan los desalojos y eliminan los topes a los alquileres en los nuevos contratos.",
+    "want": "Los manifestantes exigen políticas de vivienda asequible, controles de alquiler y la retirada de los cambios propuestos en la ley de arrendamientos.",
+    "changed": "10 de nov.: Los manifestantes votaron compartir la Praça D. João I con instalaciones navideñas reducidas tras un intento de desalojo el 1 de nov."
    },
-   "summary": "La policía portuguesa desmanteló un campamento de protesta por la vivienda en la Plaza Dom Joao I en Oporto el domingo por la mañana temprano tras las marchas contra los altos costes de la vivienda y un nuevo proyecto de ley de alquileres. Los manifestantes habían instalado tiendas de campaña tras las manifestaciones del sábado. Durante la operación, la policía utilizó escudos y porras, mientras afirmaba que los manifestantes lanzaron botellas y pintura. Se produjo un incidente policial encubierto cuando los manifestantes identificaron a agentes de paisano, lo que llevó a uno de ellos a sacar un arma de fuego como elemento disuasorio. El grupo activista Acampada do Porto y otras fuentes informaron de decenas de heridos civiles, y la policía declaró que trece agentes resultaron heridos y siete personas fueron detenidas en Oporto por negarse a cumplir las órdenes de dispersión.",
+   "summary": "Los manifestantes se reunieron en Oporto para protestar contra el aumento de los costos de la vivienda y las propuestas gubernamentales que facilitan los desalojos y eliminan los topes de alquiler en los nuevos contratos de arrendamiento. Organizados por grupos como Acampada do Porto y Mães da Acampada, los activistas instalaron un campamento en la Praça D. João I tras las marchas del fin de semana. Temprano el 1 de noviembre de 2026, agentes de la Policía de Seguridad Pública (PSP) intervinieron para despejar el campamento. Se desataron enfrentamientos durante los cuales un oficial vestido de civil sacó un arma de fuego, lo cual la PSP describió como un elemento disuasorio después de que los agentes fueran atacados. Los organizadores informaron que al menos 38 manifestantes resultaron heridos en Oporto, incluidos tres de gravedad, mientras que la PSP declaró que 13 agentes sufrieron lesiones. La policía detuvo a siete personas en Oporto. El ministro de Infraestructuras, Miguel Pinto Luz, reafirmó su compromiso con el diálogo y las autoridades municipales negociaron posteriormente con los organizadores sobre el uso del espacio en la plaza.",
    "demands": [
-    "Abandonar los planes para facilitar los desalojos",
-    "Poner fin a los límites de alquiler para los nuevos contratos",
-    "Abordar la grave crisis de la vivienda"
+    "Retirada de la legislación de alquiler propuesta",
+    "Preservación de los topes de alquiler en los nuevos contratos",
+    "Protección contra desalojos más fáciles",
+    "Medidas que garanticen una vivienda asequible"
    ],
-   "response": "La policía desmanteló el campamento utilizando escudos y porras tras emitir órdenes de dispersión, y describió el hecho de que un agente encubierto sacara un arma como un elemento disuasorio pasivo durante un enfrentamiento. Un abogado que representa a los detenidos calificó la respuesta policial de excesiva, mientras que el gobierno declaró una postura de diálogo.",
+   "response": "La PSP declaró que los agentes despejaron los campamentos y utilizaron un arma de fuego como elemento disuasorio pasivo tras ser atacados. El ministro de Infraestructuras, Miguel Pinto Luz, afirmó que el gobierno mantiene una postura de diálogo con los manifestantes por la vivienda.",
    "updates": [
-    "La policía desmanteló el campamento de protesta en Oporto alrededor de las 4:30 a.m. hora local, deteniendo a siete personas e hiriendo a agentes y manifestantes.",
-    "El Ministro de Infraestructuras y Vivienda declaró que el gobierno desea mantener una postura de diálogo con los manifestantes por la vivienda en Oporto."
+    "Los manifestantes marchan por el centro de Oporto contra los costos de la vivienda y se establecen campamentos de tiendas en la Praça D. João I.",
+    "La policía PSP despeja el campamento de protesta de Oporto alrededor de las 4:30 a. m., lo que provoca enfrentamientos, 13 policías y al menos 38 manifestantes heridos, y 7 arrestos.",
+    "La PSP confirma que un oficial vestido de civil desenvainó un arma de fuego durante el desalojo en Oporto como elemento disuasorio tras ser confrontado por los manifestantes.",
+    "El ministro de Infraestructuras, Miguel Pinto Luz, declara en Oporto que el gobierno tiene la intención de mantener una postura de diálogo con los manifestantes por la vivienda.",
+    "Los manifestantes de vivienda de Oporto votan en asamblea popular permanecer en la Praça D. João I compartiendo espacio con decoraciones navideñas selectas."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Los organizadores afirmaron que la policía usó fuerza excesiva y que un oficial vestido de civil provocó violencia antes de sacar un arma, mientras que la PSP declaró que los agentes fueron atacados y usaron el arma como un paso..."
+   ],
    "numbers": {
-    "arrests": "siete en Oporto",
-    "injuries": "la organización contabiliza al menos 38 heridos en Oporto"
+    "arrests": "7 personas detenidas en Oporto según la policía y representantes legales",
+    "injuries": "Al menos 38 manifestantes y 13 policías heridos en Oporto según los organizadores y la PSP"
    }
   },
   "fr": {
-   "title": "La police démantèle un campement de protestation pour le logement à Porto",
-   "seoTitle": "Campement de protestation pour le logement démantelé à Porto",
+   "title": "Des manifestants pour le logement à Porto s'affrontent avec la police à propos d'un projet de loi sur les loyers et de l'expulsion d'un…",
+   "seoTitle": "Affrontements au camp de protestation pour le logement à Porto",
    "tea": {
-    "why": "Les manifestants protestent contre la crise du logement et un nouveau projet de loi gouvernemental sur les loyers.",
-    "want": "Les manifestants exigent que le gouvernement abandonne ses projets visant à faciliter les expulsions et mette fin au plafonnement des loyers pour les nouveaux contrats.",
-    "changed": "4 novembre : Le ministre des Infrastructures et du Logement a déclaré que le gouvernement souhaite maintenir une posture de dialogue avec les manifestants."
+    "why": "Les manifestants s'opposent aux coûts élevés du logement et aux propositions gouvernementales qui facilitent les expulsions et suppriment l'encadrement des loyers sur les nouveaux contrats.",
+    "want": "Les manifestants exigent des politiques de logement abordable, un contrôle des loyers et le retrait des modifications proposées de la loi sur les baux.",
+    "changed": "10 nov. : Les manifestants ont voté pour partager la Praça D. João I avec des installations de Noël réduites après une tentative d'expulsion le 1er nov."
    },
-   "summary": "La police portugaise a démantelé un campement de protestation pour le logement sur la place Dom Joao I à Porto tôt dimanche matin, suite à des marches contre le coût élevé du logement et un nouveau projet de loi sur les loyers. Les manifestants avaient installé des tentes après les manifestations de samedi. Au cours de l'opération, la police a utilisé des boucliers et des matraques, tout en affirmant que les manifestants avaient lancé des bouteilles et de la peinture. Un incident impliquant la police en civil s'est produit lorsque des manifestants ont identifié des agents, ce qui a conduit l'un d'eux à sortir une arme à feu à titre dissuasif. Le groupe militant Acampada do Porto et d'autres sources ont fait état de dizaines de blessés parmi les civils, et la police a déclaré que treize agents avaient été blessés et sept personnes arrêtées à Porto pour avoir refusé d'obtempérer aux ordres de dispersion.",
+   "summary": "Des manifestants se sont rassemés à Porto pour protester contre la hausse des coûts du logement et les propositions du gouvernement facilitant les expulsions et supprimant le plafonnement des loyers sur les nouveaux contrats de bail. Organisés par des groupes dont Acampada do Porto et Mães da Acampada, des militants ont dressé un campement sur la Praça D. João I à la suite de marches de week-end. Tôt le 1er novembre 2026, des agents de la Police de sécurité publique (PSP) sont intervenus pour évacuer le camp. Des affrontements ont éclaté, au cours desquels un agent en civil a sorti une arme à feu, ce que la PSP a décrit comme un moyen de dissuasion après que des agents ont été attaqués. Les organisateurs ont signalé qu'au moins 38 manifestants ont été blessés à Porto, dont trois gravement, tandis que la PSP a déclaré que 13 agents ont subi des blessures. La police a interpellé sept personnes à Porto. Le ministre des Infrastructures, Miguel Pinto Luz, a réaffirmé son engagement en faveur du dialogue, et les autorités municipales ont ensuite négocié avec les organisateurs concernant l'utilisation de l'espace sur la place.",
    "demands": [
-    "Abandonner les projets visant à faciliter les expulsions",
-    "Mettre fin au plafonnement des loyers pour les nouveaux contrats",
-    "Résoudre la grave crise du logement"
+    "Retrait de la législation sur les loyers proposée",
+    "Préservation du plafonnement des loyers sur les nouveaux contrats",
+    "Protection contre des expulsions facilitées",
+    "Mesures garantissant un logement abordable"
    ],
-   "response": "La police a démantelé le campement en utilisant des boucliers et des matraques après avoir donné l'ordre de se disperser, et a décrit le fait qu'un agent en civil ait sorti une arme comme un moyen de dissuasion passif lors d'un affrontement. Un avocat représentant les personnes détenues a qualifié la réponse de la police d'excessive, tandis que le gouvernement a fait état d'une posture de dialogue.",
+   "response": "La PSP a déclaré que les agents ont évacué les camps et ont utilisé une arme à feu comme moyen de dissuasion passif après avoir été attaqués. Le ministre des Infrastructures, Miguel Pinto Luz, a affirmé que le gouvernement maintient une position de dialogue avec les manifestants pour le logement.",
    "updates": [
-    "La police a démantelé le campement de protestation à Porto vers 4h30 heure locale, arrêtant sept personnes et blessant des agents et des manifestants.",
-    "Le ministre des Infrastructures et du Logement a déclaré que le gouvernement souhaite maintenir une posture de dialogue avec les manifestants pour le logement à Porto."
+    "Des manifestants marchent dans le centre de Porto contre les coûts du logement et des camps de tentes sont installés sur la Praça D. João I.",
+    "La police de la PSP évacue le camp de protestation de Porto vers 4 h 30, entraînant des affrontements, 13 policiers et au moins 38 manifestants blessés, ainsi que 7 arrestations.",
+    "La PSP confirme qu'un agent en civil a dégainé une arme à feu lors de l'expulsion à Porto à titre de dissuasion après avoir été confronté par des manifestants.",
+    "Le ministre des Infrastructures, Miguel Pinto Luz, déclare à Porto que le gouvernement a l'intention de maintenir une posture de dialogue avec les manifestants pour le logement.",
+    "Les manifestants pour le logement de Porto votent en assemblée populaire pour rester sur la Praça D. João I tout en partageant l'espace avec certaines décorations de Noël."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Les organisateurs ont affirmé que la police avait fait usage d'une force excessive et qu'un agent en civil avait provoqué la violence avant de sortir une arme, tandis que la PSP a déclaré que les agents avaient été attaqués et avaient utilisé l'arme comme moyen passif..."
+   ],
    "numbers": {
-    "arrests": "sept à Porto",
-    "injuries": "l'organisation dénombre au moins 38 blessés à Porto"
+    "arrests": "7 personnes interpellées à Porto selon la police et des représentants légaux",
+    "injuries": "Au moins 38 manifestants et 13 policiers blessés à Porto selon les organisateurs et la PSP"
    }
   },
   "de": {
-   "title": "Polizei räumt Wohnungsbau-Protestcamp in Porto",
-   "seoTitle": "Wohnungsbau-Protestcamp in Porto von Polizei geräumt",
+   "title": "Wohnungsdemonstranten in Porto liefern sich Zusammenstöße mit der Polizei wegen Mietgesetzes und Räumung des Camps",
+   "seoTitle": "Zusammenstöße im Wohnungs-Protestcamp in Porto",
    "tea": {
-    "why": "Die Demonstranten protestieren gegen die Wohnungskrise und einen neuen Gesetzentwurf der Regierung zu Mieten.",
-    "want": "Die Demonstranten fordern, dass die Regierung ihre Pläne zur Erleichterung von Zwangsräumungen aufgibt und Mietpreisobergrenzen für neue Verträge beendet.",
-    "changed": "4. November: Der Minister für Infrastruktur und Wohnungsbau erklärte, die Regierung wolle eine Dialoghaltung gegenüber den Demonstranten beibehalten."
+    "why": "Demonstranten wenden sich gegen hohe Wohnkosten und Regierungsvorschläge, die Räumungen erleichtern und Mietpreisobergrenzen für neue Verträge aufheben.",
+    "want": "Demonstranten fordern bezahlbare Wohnungspolitik, Mietkontrollen und die Rücknahme der vorgeschlagenen Änderungen des Mietrechts.",
+    "changed": "10. Nov.: Demonstranten stimmten dafür, die Praça D. João I nach einem Räumungsversuch am 1. Nov. mit reduzierten Weihnachtsinstallationen zu teilen."
    },
-   "summary": "Die portugiesische Polizei räumte am frühen Sonntagmorgen ein Protestcamp für Wohnraum auf dem Dom Joao I Platz in Porto, nachdem es zu Märschen gegen hohe Wohnkosten und einen neuen Mietgesetzentwurf gekommen war. Die Demonstranten hatten nach den Protesten am Samstag Zelte aufgestellt. Während des Einsatzes setzte die Polizei Schilde und Schlagstöcke ein und gab an, dass Demonstranten Flaschen und Farbe geworfen hätten. Ein Vorfall mit verdeckten Ermittlern ereignete sich, als Demonstranten Zivilpolizisten identifizierten, woraufhin einer der Beamten zur Abschreckung eine Schusswaffe zog. Die Aktivistengruppe Acampada do Porto und andere Quellen berichteten von Dutzenden zivilen Verletzten, und die Polizei teilte mit, dass dreizehn Beamte verletzt und sieben Personen in Porto festgenommen wurden, weil sie sich weigerten, den Platz zu räumen.",
+   "summary": "Demonstranten versammelten sich in Porto, um gegen steigende Wohnkosten und Regierungsvorschläge zu protestieren, die Räumungen erleichtern und Mietpreisobergrenzen für neue Mietverträge aufheben. Organisiert von Gruppen wie Acampada do Porto und Mães da Acampada, errichteten Aktivisten nach Märschen am Wochenende ein Zeltlager auf der Praça D. João I. Am frühen 1. November 2026 rückten Beamte der Öffentlichen Sicherheitspolizei (PSP) an, um das Camp zu räumen. Es kam zu Zusammenstößen, bei denen ein Zivilpolizist eine Schusswaffe zog, was die PSP als Abschreckung nach Angriffen auf Beamte bezeichnete. Organisatoren gaben an, dass in Porto mindestens 38 Demonstranten verletzt wurden, darunter drei schwer, während die PSP erklärte, dass 13 Beamte Verletzungen erlitten. Die Polizei nahm in Porto sieben Personen fest. Infrastrukturminister Miguel Pinto Luz bekräftigte das Bekenntnis zum Dialog, und die Stadtbehörden verhandelten später mit den Organisatoren über die Nutzung des Platzes.",
    "demands": [
-    "Pläne zur Erleichterung von Zwangsräumungen aufgeben",
-    "Mietpreisobergrenzen für neue Verträge beenden",
-    "Die schwere Wohnungskrise angehen"
+    "Rücknahme der vorgeschlagenen Mietgesetzgebung",
+    "Beibehaltung von Mietpreisobergrenzen für neue Verträge",
+    "Schutz vor erleichterten Räumungen",
+    "Maßnahmen zur Sicherung von bezahlbarem Wohnraum"
    ],
-   "response": "Die Polizei räumte das Camp unter Einsatz von Schilden und Schlagstöcken, nachdem sie Räumungsbefehle erteilt hatte, und beschrieb das Ziehen einer Waffe durch einen verdeckten Ermittler während eines Zusammenstoßes als passive Abschreckung. Ein Anwalt der Festgenommenen bezeichnete das Vorgehen der Polizei als übertrieben, während die Regierung eine Dialogbereitschaft signalisierte.",
+   "response": "Die PSP erklärte, Beamte hätten Camps geräumt und nach Angriffen eine Schusswaffe als passive Abschreckung eingesetzt. Infrastrukturminister Miguel Pinto Luz bekräftigte, dass die Regierung an einer Haltung des Dialogs mit den Wohnungsdemonstranten festhält.",
    "updates": [
-    "Die Polizei räumte das Protestcamp in Porto gegen 4:30 Uhr Ortszeit, nahm sieben Personen fest und verletzte Beamte und Demonstranten.",
-    "Der Minister für Infrastruktur und Wohnungsbau erklärte, die Regierung wolle eine Dialoghaltung gegenüber den Wohnungsbau-Demonstranten in Porto beibehalten."
+    "Demonstranten marschieren durch das Zentrum von Porto gegen Wohnkosten, und auf der Praça D. João I werden Zelte errichtet.",
+    "PSP-Polizei räumt das Protestcamp in Porto gegen 4:30 Uhr morgens, was zu Zusammenstößen, 13 verletzten Polizisten und mindestens 38 verletzten Demonstranten sowie 7 Festnahmen führt.",
+    "Die PSP bestätigt, dass ein Zivilbeamter während der Räumung in Porto eine Schusswaffe als Abschreckung zog, nachdem er von Demonstranten konfrontiert worden war.",
+    "Infrastrukturminister Miguel Pinto Luz erklärt in Porto, dass die Regierung beabsichtigt, eine Dialoghaltung gegenüber den Wohnungsdemonstranten beizubehalten.",
+    "Wohnungsdemonstranten in Porto stimmen in einer Volksversammlung dafür, auf der Praça D. João I zu bleiben und den Platz mit ausgewählten Weihnachtsdekorationen zu teilen."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Organisatoren erklärten, die Polizei habe übermäßige Gewalt angewendet und ein Zivilbeamter habe Gewalt provoziert, bevor er eine Waffe zog, während die PSP erklärte, Beamte seien angegriffen worden und hätten die Waffe als passives..."
+   ],
    "numbers": {
-    "arrests": "sieben in Porto",
-    "injuries": "die Organisation zählt mindestens 38 Verletzte in Porto"
+    "arrests": "7 Personen in Porto festgenommen laut Polizei und Rechtsvertretern",
+    "injuries": "Mindestens 38 Demonstranten und 13 Polizeibeamte in Porto verletzt laut Organisatoren und PSP"
+   }
+  },
+  "it": {
+   "title": "Manifestanti per il diritto all'abasa a Porto si scontrano con la polizia per la legge sugli affitti e lo sgombero del campo",
+   "seoTitle": "Scontri al campo di protesta per la casa a Porto",
+   "tea": {
+    "why": "I manifestanti si oppongono agli alti costi degli alloggi e alle proposte del governo che facilitano gli sfratti e rimuovono i tetti agli affitti sui nuovi contratti.",
+    "want": "I manifestanti chiedono politiche per la casa a prezzi accessibili, controlli sugli affitti e il ritiro delle modifiche proposte alla legge sulle locazioni.",
+    "changed": "10 nov.: I manifestanti hanno votato per condividere la Praça D. João I con installazioni natalizie ridotte dopo un tentativo di sgombero il 1 nov."
+   },
+   "summary": "I manifestanti si sono radunati a Porto per protestare contro l'aumento dei costi degli alloggi e le proposte del governo che facilitano gli sfratti e rimuovono i tetti agli affitti sui nuovi contratti di locazione. Organizzati da gruppi tra cui Acampada do Porto e Mães da Acampada, gli attivisti hanno allestito un accampamento in Praça D. João I in seguito alle marce del fine settimana. La mattina presto del 1 novembre 2026, gli agenti della Polizia di Sicurezza Pubblica (PSP) sono intervenuti per sgomberare il campo. Sono scoppiati scontri durante i quali un agente in borghese ha estratto un'arma da fuoco, che la PSP ha descritto come un deterrente dopo che gli agenti erano stati attaccati. Gli organizzatori hanno riferito che almeno 38 manifestanti sono rimasti feriti a Porto, di cui tre in modo grave, mentre la polizia ha dichiarato che 13 agenti hanno riportato lesioni. La polizia ha fermato sette persone a Porto. Il Ministro delle Infrastrutture Miguel Pinto Luz ha ribadito l'impegno al dialogo e le autorità cittadine hanno successivamente negoziato con gli organizzatori riguardo all'uso dello spazio nella piazza.",
+   "demands": [
+    "Ritiro della proposta di legge sugli affitti",
+    "Conservazione dei tetti agli affitti sui nuovi contratti",
+    "Protezione contro sfratti facilitati",
+    "Misure che garantiscano alloggi accessibili"
+   ],
+   "response": "La PSP ha dichiarato che gli agenti hanno sgomberato i campi e utilizzato un'arma da fuoco come deterrente passivo dopo essere stati attaccati. Il Ministro delle Infrastrutture Miguel Pinto Luz ha affermato che il governo mantiene una posizione di dialogo con i manifestanti per la casa.",
+   "updates": [
+    "I manifestanti sfilano nel centro di Porto contro il costo degli alloggi e vengono allestiti campi tendati in Praça D. João I.",
+    "La polizia della PSP sgombera il campo di protesta di Porto intorno alle 4:30 del mattino, provocando scontri, 13 poliziotti e almeno 38 manifestanti feriti, e 7 arresti.",
+    "La PSP conferma che un agente in borghese ha estratto un'arma da fuoco durante lo sgombero a Porto come deterrente dopo essere stato affrontato dai manifestanti.",
+    "Il Ministro delle Infrastrutture Miguel Pinto Luz dichiara a Porto che il governo intende mantenere una posizione di dialogo con i manifestanti per la casa.",
+    "I manifestanti per la casa di Porto votano in assemblea popolare per rimanere in Praça D. João I condividendo lo spazio con alcune decorazioni natalizie."
+   ],
+   "conflicts": [
+    "Gli organizzatori hanno dichiarato che la polizia ha usato una forza eccessiva e che un agente in borghese ha provocato disordini prima di estrarre una pistola, mentre la PSP ha dichiarato che gli agenti sono stati attaccati e hanno usato l'arma come passivo..."
+   ],
+   "numbers": {
+    "arrests": "7 persone trattenute a Porto secondo la polizia e i rappresentanti legali",
+    "injuries": "Almeno 38 manifestanti e 13 agenti di polizia feriti a Porto secondo gli organizzatori e la PSP"
+   }
+  },
+  "pt": {
+   "title": "Manifestantes pela habitação no Porto entram em confronto com a polícia devido a lei das rendas e despejo de acampamento",
+   "seoTitle": "Confrontos em acampamento de protesto pela habitação no Porto",
+   "tea": {
+    "why": "Os manifestantes opõem-se aos elevados custos da habitação e às propostas do governo que facilitam os despejos e acabam com os limites às rendas em novos contratos.",
+    "want": "Os manifestantes exigem políticas de habitação acessível, controlo de rendas e a retirada das alterações propostas à lei do arrendamento.",
+    "changed": "10 de nov.: Manifestantes votaram para partilhar a Praça D. João I com decorações de Natal reduzidas após uma tentativa de despejo a 1 de nov."
+   },
+   "summary": "Manifestantes reuniram-se no Porto para protestar contra o aumento dos custos da habitação e as propostas do governo que facilitam despejos e removeem os limites de renda em novos contratos de arrendamento. Organizados por grupos como Acampada do Porto e Mães da Acampada, os ativistas montaram um acampamento na Praça D. João I na sequência de marchas no fim de semana. No início de 1 de novembro de 2026, agentes da Polícia de Segurança Pública (PSP) avançaram para desmantelar o acampamento. Ocorreram confrontos durante os quais um agente à civil sacou uma arma de fogo, o que a PSP descreveu como um elemento dissuasor após os agentes terem sido atacados. Os organizadores relataram que pelo menos 38 manifestantes ficaram feridos no Porto, incluindo três com gravidade, enquanto a PSP afirmou que 13 agentes sofreram ferimentos. A polícia deteve sete pessoas no Porto. O ministro das Infraestruturas, Miguel Pinto Luz, reafirmou o compromisso com o diálogo, e as autoridades municipais negociaram posteriormente com os organizadores a utilização do espaço na praça.",
+   "demands": [
+    "Retirada da proposta de legislação sobre rendas",
+    "Preservação de limites de renda em novos contratos",
+    "Proteção contra despejos facilitados",
+    "Medidas que garantam habitação acessível"
+   ],
+   "response": "A PSP declarou que os agentes desmantelaram acampamentos e usaram uma arma de fogo como dissuasor passivo após terem sido atacados. O ministro das Infraestruturas, Miguel Pinto Luz, afirmou que o governo mantém uma postura de diálogo com os manifestantes pela habitação.",
+   "updates": [
+    "Manifestantes marcham pelo centro do Porto contra os custos da habitação e acampamentos de tendas são estabelecidos na Praça D. João I.",
+    "A polícia da PSP desmantela o acampamento de protesto do Porto por volta das 4:30 da manhã, resultando em confrontos, 13 polícias e pelo menos 38 manifestantes feridos, e 7 detenções.",
+    "A PSP confirma que um agente à civil sacou uma arma de fogo durante o despejo no Porto como dissuasor após ter sido confrontado por manifestantes.",
+    "O ministro das Infraestruturas, Miguel Pinto Luz, declara no Porto que o governo pretende manter uma postura de diálogo com os manifestantes pela habitação.",
+    "Manifestantes pela habitação do Porto votam em assembleia popular para permanecer na Praça D. João I partilhando o espaço com decorações de Natal selecionadas."
+   ],
+   "conflicts": [
+    "Os organizadores afirmaram que a polícia usou força excessiva e que um agente à civil provocou violência antes de sacar uma arma, enquanto a PSP declarou que os agentes foram atacados e usaram a arma como um passivo..."
+   ],
+   "numbers": {
+    "arrests": "7 pessoas detidas no Porto segundo a polícia e representantes legais",
+    "injuries": "Pelo menos 38 manifestantes e 13 agentes da polícia feridos no Porto segundo organizadores e PSP"
+   }
+  },
+  "nl": {
+   "title": "Woonprotestanten in Porto botsen met politie over huurwet en ontruiming van kamp",
+   "seoTitle": "Botsingen bij woonprotestkamp in Porto",
+   "tea": {
+    "why": "Demonstranten verzetten zich tegen hoge woonkosten en overheidsvoorstellen die uitzettingen vergemakkelijken en huurplafonds op nieuwe contracten opheffen.",
+    "want": "Demonstranten eisen betaalbaar huisvestingsbeleid, huurcontroles en intrekking van voorgestelde wijzigingen in de huurwet.",
+    "changed": "10 nov.: Demonstranten stemden om de Praça D. João I te delen met verminderde kerstversiering na een ontruimingspoging op 1 nov."
+   },
+   "summary": "Demonstranten verzamelden zich in Porto om te protesteren tegen stijgende woonkosten en overheidsvoorstellen die uitzettingen vergemakkelijken en huurplafonds op nieuwe huurcontracten schrappen. Georganiseerd door groepen waaronder Acampada do Porto en Mães da Acampada, sloegen activisten na weekendmarsen een tentenkamp op op de Praça D. João I. Vroeg op 1 november 2026 rukten agenten van de Openbare Veiligheidspolitie (PSP) op om het kamp te ontruimen. Er braken rellen uit, waarbij een agent in kleding zonder uniform een vuurwapen trok, wat de PSP omschreef als een afschrikwekkend middel nadat agenten waren aangevallen. Organisatoren meldden dat in Porto ten minste 38 demonstranten gewond raakten, onder wie drie ernstig, terwijl de PSP verklaarde dat 13 agenten letsel opliepen. De politie hield zeven mensen aan in Porto. Minister van Infrastructuur Miguel Pinto Luz herbevestigde de inzet voor dialoog, en stadsautoriteiten onderhandelden later met organisatoren over het gebruik van de ruimte op het plein.",
+   "demands": [
+    "Intrekking van voorgestelde huurwetgeving",
+    "Behoud van huurplafonds op nieuwe contracten",
+    "Bescherming tegen vergemakkelijkte uitzettingen",
+    "Maatregelen diebetaalbare huisvesting waarborgen"
+   ],
+   "response": "De PSP verklaarde dat agenten kampen ontruimden en na te zijn aangevallen een vuurwapen gebruikten als passief afschrikmiddel. Minister van Infrastructuur Miguel Pinto Luz bevestigde dat de regering een houding van dialoog aanhoudt met de woonprotestanten.",
+   "updates": [
+    "Demonstranten marcheren door centraal Porto tegen de woonkosten en er worden tentenkampen opgezet op de Praça D. João I.",
+    "PSP-politie ontruimt het protestkamp in Porto rond 4:30 uur 's ochtends, wat leidt tot botsingen, 13 gewonde agenten en ten minste 38 gewonde demonstranten, en 7 arrestaties.",
+    "De PSP bevestigt dat een agent in burger tijdens de ontruiming in Porto een vuurwapen ontsloot als afschrikmiddel nadat hij werd geconfronteerd door demonstranten.",
+    "Minister van Infrastructuur Miguel Pinto Luz verklaart in Porto dat de regering de intentie heeft om een houding van dialoog te behouden met woonprotestanten.",
+    "Woonprotestanten in Porto stemmen in een volksvergadering om op de Praça D. João I te blijven terwijl ze de ruimte delen met selecte kerstversieringen."
+   ],
+   "conflicts": [
+    "Organisatoren verklaarden dat de politie buitensporige kracht gebruikte en dat een agent in burger geweld uitlokte voordat hij een wapen trok, terwijl de PSP verklaarde dat agenten werden aangevallen en het wapen gebruikten als een passief..."
+   ],
+   "numbers": {
+    "arrests": "7 personen vastgehouden in Porto volgens de politie en juridische vertegenwoordigers",
+    "injuries": "Ten minste 38 demonstranten en 13 politieagenten gewond in Porto volgens organisatoren en PSP"
    }
   }
  },
- "endedOn": "2026-11-01",
  "distinctFrom": [
   "ec72182423b"
  ]

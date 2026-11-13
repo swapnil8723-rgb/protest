@@ -17,44 +17,38 @@
  "causes": [
   "housing"
  ],
- "kind": "one-day",
+ "kind": "multi-day",
  "startedOn": "2026-11-12",
- "status": "ended",
- "vibe": "wrapped-up",
+ "status": "ongoing",
+ "vibe": "peak-loud",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": false,
+ "review": "pending",
+ "reviewReasons": [
+  "top-10"
+ ],
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters say Lisbon is marketed as a luxury showcase while residents earning regular salaries cannot afford high rents.",
-  "want": "They demand housing rights, affordable rents, and criticize public land sales and municipal housing waiting lists.",
-  "changed": "Nov 12: Dozens of activists gathered near the Web Summit venue for rallies, debates, and a popular assembly."
+  "why": "Protesters highlight soaring rents and luxury housing developments while ordinary workers struggle to afford homes in Lisbon.",
+  "want": "Action on the housing crisis, affordable rents, and an end to the sale of public land.",
+  "changed": "Nov 12: Dozens of protesters held a Camp Summit rally near the Web Summit venue following a temporary suspension due to storm conditions."
  },
- "summary": "Housing activists from the Acampada de Lisboa movement organized a protest called 'Camp Summit' near the Web Summit tech conference venue in Lisbon's Parque das Nações. Following a temporary two-day suspension of activities due to severe weather from Storm Charles, the demonstration took place on Alameda dos Oceanos in front of the Vasco da Gama shopping center. Activists criticized municipal spending on the tech summit while residents struggle with high rents, lack of affordable municipal housing, and the planned sale of public land by Lisbon City Council under Mayor Carlos Moedas. The event included a gathering, debates at the Estação do Oriente regarding digital technology and the right to the city, and a popular assembly.",
+ "summary": "Housing activists from the Lisbon Encampment movement organized a protest action named 'Camp Summit' outside the Web Summit tech conference venue in Lisbon. The demonstration featured a rally, debates, and a popular assembly, timed to coincide with the tech summit's resumption after storm disruptions. Organizers criticized the stark contrast between luxury branding and affordable housing shortages, denouncing municipal plans to sell public land for millions of euros. The protest followed a temporary two-day weather suspension due to Storm Charles and comes amidst ongoing nationwide housing demonstrations criticizing government policies and landlord protections.",
  "organizers": [
   "Acampada de Lisboa"
  ],
  "demands": [
-  "Right to housing and the city",
-  "Action against expensive rents",
-  "Opposition to municipal housing waiting lists",
-  "Stop the sale of public land plots"
+  "Right to housing",
+  "Right to the city",
+  "Stop selling public land",
+  "Affordable rents"
  ],
- "response": "No official response reported in the sources.",
- "numbers": {
-  "crowd": {
-   "value": 10,
-   "text": "Dezenas de pessoas",
-   "sources": [
-    4
-   ]
-  }
- },
+ "response": "No official response reported in the sources regarding the Camp Summit action, though previous actions faced displacement orders from Lisbon Mayor Carlos Moedas and Prime Minister Luís Montenegro criticized ongoing demonstrations as selfish.",
+ "numbers": {},
  "updates": [
   {
    "at": "2026-11-11",
-   "text": "Acampada de Lisboa announced the Camp Summit protest scheduled for Thursday near the Web Summit.",
+   "text": "The Lisbon Encampment announced plans for a Camp Summit protest on Thursday near the Web Summit venue following a weather suspension.",
    "sources": [
     1,
     2
@@ -62,7 +56,7 @@
   },
   {
    "at": "2026-11-12",
-   "text": "Dozens of activists demonstrated outside the Web Summit venue following weather-related suspensions.",
+   "text": "Dozens of protesters demonstrated for housing rights near the Web Summit entrance in Lisbon, holding debates and a popular assembly.",
    "sources": [
     3,
     4
@@ -97,179 +91,176 @@
    "publisher": "rtp.pt",
    "title": "Movimento \"Acampada de Lisboa\" protestou junto à Web Summit",
    "publishedAt": "2026-11-12T21:39:10.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/13/housing-protests-portugal-police-politicians-crisis-renters",
+   "publisher": "theguardian.com",
+   "title": "As housing protests sweep Portugal, police and politicians here seem bent on making the crisis worse | Ana Naomi de Sousa",
+   "publishedAt": "2026-11-13T05:00:11.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.86,
- "publishers": 4,
- "reports24h": 4,
+ "confidence": 0.95,
+ "publishers": 5,
+ "reports24h": 5,
  "reportsPrev24h": 2,
- "reports48h": 6,
+ "reports48h": 7,
  "firstSeenAt": "2026-11-12T13:57:30.641Z",
- "lastReportAt": "2026-11-12T21:39:10.000Z",
- "lastCheckedAt": "2026-11-13T04:53:56.966Z",
- "updatedAt": "2026-11-13T00:54:42.170Z",
+ "lastReportAt": "2026-11-13T05:00:11.000Z",
+ "lastCheckedAt": "2026-11-13T08:55:47.916Z",
+ "updatedAt": "2026-11-13T08:55:28.090Z",
  "searchedAt": "2026-11-12T16:51:54.776Z",
- "endedOn": "2026-11-12",
- "responseSources": [],
+ "responseSources": [
+  2,
+  5
+ ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-13T00:54:42.170Z",
- "summaryOf": "2889cc3e7cf0",
+ "summarizedAt": "2026-11-13T08:55:28.090Z",
+ "summaryOf": "15cff0cf2a21",
  "publishedAt": "2026-11-12T16:57:47.761Z",
  "i18n": {
-  "of": "4994b2b3f52197eb",
-  "at": "2026-11-13T00:56:31.316Z",
+  "of": "8c42730e841b152a",
+  "at": "2026-11-13T08:56:06.524Z",
   "tries": 1,
   "es": {
-   "title": "Activistas por la vivienda realizan protesta Camp Summit cerca del Web Summit en Lisboa",
-   "seoTitle": "Protesta por la vivienda en Lisboa cerca del Web Summit",
+   "title": "Activistas de la vivienda realizan protesta Camp Summit cerca del Web Summit en Lisboa",
+   "seoTitle": "Protesta de vivienda en Lisboa cerca de Web Summit",
    "tea": {
-    "why": "Los manifestantes afirman que Lisboa se promociona como un escaparate de lujo mientras los residentes con salarios normales no pueden pagar los altos alquileres.",
-    "want": "Exigen el derecho a la vivienda, alquileres asequibles y critican la venta de terrenos públicos y las listas de espera de vivienda municipal.",
-    "changed": "12 de noviembre: Decenas de activistas se reunieron cerca del recinto del Web Summit para mítines, debates y una asamblea popular."
+    "why": "Los manifestantes denuncian el encarecimiento de los alquileres y los desarrollos de vivienda de lujo, mientras los trabajadores comunes luchan por permitirse una vivienda en Lisboa.",
+    "want": "Medidas ante la crisis de la vivienda, alquileres asequibles y el cese de la venta de suelo público.",
+    "changed": "12 de noviembre: Decenas de manifestantes realizaron una concentración de Camp Summit cerca del recinto del Web Summit tras una suspensión temporal por condiciones de tormenta."
    },
-   "summary": "Activistas por la vivienda del movimiento Acampada de Lisboa organizaron una protesta llamada 'Camp Summit' cerca del recinto de la conferencia tecnológica Web Summit en el Parque de las Naciones de Lisboa. Tras una suspensión temporal de dos días de las actividades debido al clima severo de la tormenta Charles, la manifestación tuvo lugar en la Alameda dos Oceanos frente al centro comercial Vasco da Gama. Los activistas criticaron el gasto municipal en la cumbre tecnológica mientras los residentes luchan contra los altos alquileres, la falta de vivienda municipal asequible y la venta planeada de terrenos públicos por parte del Ayuntamiento de Lisboa bajo el alcalde Carlos Moedas. El evento incluyó una concentración, debates en la Estación de Oriente sobre la tecnología digital y el derecho a la ciudad, y una asamblea popular.",
+   "summary": "Activistas por la vivienda del movimiento Acampada de Lisboa organizaron una protesta denominada 'Camp Summit' frente al recinto de la conferencia tecnológica Web Summit en Lisboa. La manifestación incluyó una concentración, debates y una asamblea popular, programadas para coincidir con la reanudación de la cumbre tecnológica tras las interrupciones por tormentas. Los organizadores criticaron el marcado contraste entre la imagen de lujo y la escasez de vivienda asequible, denunciando los planes municipales de vender suelo público por millones de euros. La protesta se produjo tras una suspensión temporal de dos días por el temporal de la tormenta Charles y en medio de continuas manifestaciones estatales sobre vivienda que critican las políticas gubernamentales y las protecciones a los propietarios.",
    "demands": [
-    "Derecho a la vivienda y a la ciudad",
-    "Acción contra los alquileres caros",
-    "Oposición a las listas de espera de vivienda municipal",
-    "Detener la venta de parcelas de terreno público"
+    "Derecho a la vivienda",
+    "Derecho a la ciudad",
+    "Detener la venta de suelo público",
+    "Alquileres asequibles"
    ],
-   "response": "No se informó de ninguna respuesta oficial en las fuentes.",
+   "response": "No se informó de ninguna respuesta oficial en las fuentes sobre la acción de Camp Summit, aunque acciones anteriores se enfrentaron a órdenes de desalojo del alcalde de Lisboa, Carlos Moedas, y el primer ministro Luís Montenegro criticó las manifestaciones continuas por considerarlas egoístas.",
    "updates": [
-    "Acampada de Lisboa anunció la protesta Camp Summit programada para el jueves cerca del Web Summit.",
-    "Decenas de activistas se manifestaron frente al recinto del Web Summit tras las suspensiones relacionadas con el clima."
+    "El campamento de Lisboa anunció planes para una protesta de Camp Summit el jueves cerca del recinto del Web Summit tras una suspensión por mal tiempo.",
+    "Decenas de manifestantes se manifestaron por el derecho a la vivienda cerca de la entrada del Web Summit en Lisboa, celebrando debates y una asamblea popular."
    ],
    "conflicts": [],
-   "numbers": {
-    "crowd": "Dezenas de pessoas"
-   }
+   "numbers": {}
   },
   "fr": {
-   "title": "Des militants pour le logement organisent une manifestation Camp Summit près du Web Summit à Lisbonne",
+   "title": "Des militants du logement organisent une manifestation Camp Summit près du Web Summit à Lisbonne",
    "seoTitle": "Manifestation pour le logement à Lisbonne près du Web Summit",
    "tea": {
-    "why": "Les manifestants affirment que Lisbonne est commercialisée comme une vitrine de luxe alors que les résidents gagnant des salaires ordinaires ne peuvent pas payer les loyers élevés.",
-    "want": "Ils exigent le droit au logement, des loyers abordables et critiquent la vente de terrains publics ainsi que les listes d'attente pour le logement municipal.",
-    "changed": "12 nov. : Des dizaines de militants se sont rassemblés près du lieu du Web Summit pour des rassemblements, des débats et une assemblée populaire."
+    "why": "Les manifestants soulignent la flambée des loyers et les projets de logements de luxe alors que les travailleurs ordinaires peinent à se loger à Lisbonne.",
+    "want": "Des mesures face à la crise du logement, des loyers abordables et l'arrêt de la vente de terrains publics.",
+    "changed": "12 nov. : Des dizaines de manifestants ont tenu un rassemblement Camp Summit près du site du Web Summit à la suite d'une suspension temporaire due aux conditions de tempête."
    },
-   "summary": "Des militants pour le logement du mouvement Acampada de Lisboa ont organisé une manifestation appelée 'Camp Summit' près du lieu de la conférence technologique Web Summit dans le Parque das Nações à Lisbonne. Après une suspension temporaire de deux jours des activités en raison des intempéries de la tempête Charles, la manifestation a eu lieu sur l'Alameda dos Oceanos devant le centre commercial Vasco da Gama. Les militants ont critiqué les dépenses municipales pour le sommet technologique alors que les résidents luttent contre des loyers élevés, le manque de logements municipaux abordables et la vente prévue de terrains publics par la mairie de Lisbonne sous la direction du maire Carlos Moedas. L'événement comprenait un rassemblement, des débats à la gare de l'Est concernant la technologie numérique et le droit à la ville, ainsi qu'une assemblée populaire.",
+   "summary": "Des militants du logement du mouvement du campement de Lisbonne ont organisé une action de protestation appelée « Camp Summit » devant le site de la conférence technologique Web Summit à Lisbonne. La manifestation comprenait un rassemblement, des débats et une assemblée populaire, programmés pour coïncider avec la reprise du sommet technologique après les perturbations dues aux tempêtes. Les organisateurs ont critiqué le contraste saisissant entre le prestige du luxe et la pénurie de logements abordables, dénonçant les projets municipaux de vente de terrains publics pour des millions d'euros. La protestation a fait suite à une suspension météo temporaire de deux jours en raison de la tempête Charles et intervient au milieu de manifestations continues pour le logement dans tout le pays critiquant les politiques gouvernementales et les protections des propriétaires.",
    "demands": [
-    "Droit au logement et à la ville",
-    "Action contre les loyers onéreux",
-    "Opposition aux listes d'attente pour le logement municipal",
-    "Arrêter la vente de parcelles de terrain public"
+    "Droit au logement",
+    "Droit à la ville",
+    "Arrêter la vente de terrains publics",
+    "Loyers abordables"
    ],
-   "response": "Aucune réponse officielle signalée dans les sources.",
+   "response": "Aucune réponse officielle n'a été signalée dans les sources concernant l'action du Camp Summit, bien que des actions précédentes aient fait face à des ordres d'expulsion de la part du maire de Lisbonne, Carlos Moedas, et que le Premier ministre Luís Montenegro ait qualifié les manifestations en cours d'égoïstes.",
    "updates": [
-    "Acampada de Lisboa a annoncé la manifestation Camp Summit prévue jeudi près du Web Summit.",
-    "Des dizaines de militants ont manifesté à l'extérieur du lieu du Web Summit à la suite des suspensions liées aux conditions météorologiques."
+    "Le campement de Lisbonne a annoncé des projets de manifestation Camp Summit jeudi près du site du Web Summit à la suite d'une suspension liée aux intempéries.",
+    "Des dizaines de manifestants ont manifesté pour le droit au logement près de l'entrée du Web Summit à Lisbonne, tenant des débats et une assemblée populaire."
    ],
    "conflicts": [],
-   "numbers": {
-    "crowd": "Dezenas de pessoas"
-   }
+   "numbers": {}
   },
   "de": {
    "title": "Wohnungsaktivisten veranstalten Camp-Summit-Protest in der Nähe des Web Summit in Lissabon",
    "seoTitle": "Wohnungsprotest in Lissabon nahe dem Web Summit",
    "tea": {
-    "why": "Demonstranten sagen, Lissabon werde als Luxusschaufenster vermarktet, während sich Bewohner mit normalen Gehältern keine hohen Mieten leisten können.",
-    "want": "Sie fordern das Recht auf Wohnen, bezahlbare Mieten und kritisieren den Verkauf öffentlicher Grundstücke sowie städtische Wartelisten für Wohnraum.",
-    "changed": "12. Nov.: Dutzende Aktivisten versammelten sich in der Nähe des Web-Summit-Veranstaltungsortes zu Kundgebungen, Debatten und einer Volksversammlung."
+    "why": "Demonstranten machen auf drastisch gestiegene Mieten und Luxusbauprojekte aufmerksam, während normale Arbeiter in Lissabon Schwierigkeiten haben, sich Wohnraum zu leisten.",
+    "want": "Maßnahmen gegen die Wohnungsnot, bezahlbare Mieten und ein Ende des Verkaufs von öffentlichem Land.",
+    "changed": "12. Nov.: Dutzende Demonstranten hielten nach einer wetterbedingten vorübergehenden Unterbrechung eine Camp-Summit-Kundgebung in der Nähe des Veranstaltungsortes des Web Summit ab."
    },
-   "summary": "Wohnungsaktivisten der Bewegung Acampada de Lisboa organisierten einen Protest namens 'Camp Summit' in der Nähe des Veranstaltungsortes der Technologiekonferenz Web Summit im Lissabonner Parque das Nações. Nach einer zweitägigen vorübergehenden Aussetzung der Aktivitäten aufgrund des schweren Wetters von Sturm Charles fand die Demonstration auf der Alameda dos Oceanos vor dem Einkaufszentrum Vasco da Gama statt. Aktivisten kritisierten die städtischen Ausgaben für den Technologiegipfel, während die Bewohner mit hohen Mieten, einem Mangel an bezahlbarem kommunalem Wohnraum und dem geplanten Verkauf öffentlicher Grundstücke durch den Stadtrat von Lissabon unter Bürgermeister Carlos Moedas zu kämpfen haben. Die Veranstaltung umfasste eine Versammlung, Debatten am Bahnhof Oriente über digitale Technologie und das Recht auf Stadt sowie eine Volksversammlung.",
+   "summary": "Wohnungsaktivisten der Lissabon-Lager-Bewegung organisierten eine Protestaktion namens „Camp Summit“ vor dem Veranstaltungsort der Technologiekonferenz Web Summit in Lissabon. Die Demonstration umfasste eine Kundgebung, Debatten und eine Volksversammlung, die zeitlich auf die Wiederaufnahme des Technologiegipfels nach Sturmuntersbrechungen abgestimmt waren. Organisatoren kritisierten den krassen Gegensatz zwischen Luxusbranding und Mangel an bezahlbarem Wohnraum und prangerten städtische Pläne an, öffentliches Land für Millionen von Euros zu verkaufen. Der Protest folgte auf eine zweitägige wetterbedingte Unterbrechung aufgrund des Sturms Charles und findet inmitten anhaltender landesweiter Wohnungsdemonstrationen statt, die die Regierungspolitik und den Mieterschutz kritisieren.",
    "demands": [
-    "Recht auf Wohnen und auf die Stadt",
-    "Maßnahmen gegen teure Mieten",
-    "Opposition gegen städtische Wartelisten für Wohnraum",
-    "Stopp des Verkaufs öffentlicher Grundstücke"
+    "Recht auf Wohnen",
+    "Recht auf die Stadt",
+    "Stopp des Verkaufs von öffentlichem Land",
+    "Bezahlbare Mieten"
    ],
-   "response": "In den Quellen wurde keine offizielle Reaktion gemeldet.",
+   "response": "In den Quellen wurde keine offizielle Reaktion auf die Camp-Summit-Aktion gemeldet, obwohl frühere Aktionen Räumungsbefehle vom Bürgermeister von Lissabon, Carlos Moedas, erhielten und Premierminister Luís Montenegro laufende Demonstrationen als egoistisch kritisierte.",
    "updates": [
-    "Acampada de Lisboa kündigte den für Donnerstag in der Nähe des Web Summit geplanten Camp-Summit-Protest an.",
-    "Dutzende Aktivisten demonstrierten nach wetterbedingten Aussetzungen außerhalb des Web-Summit-Veranstaltungsortes."
+    "Das Lager in Lissabon kündigte Pläne für einen Camp-Summit-Protest am Donnerstag in der Nähe des Web-Summit-Veranstaltungsortes nach einer wetterbedingten Unterbrechung an.",
+    "Dutzende Demonstranten demonstrierten in Lissabon in der Nähe des Web-Summit-Eingangs für Wohnungsrechte und hielten Debatten sowie eine Volksversammlung ab."
    ],
    "conflicts": [],
-   "numbers": {
-    "crowd": "Dezenas de pessoas"
-   }
+   "numbers": {}
   },
   "it": {
    "title": "Attivisti per la casa tengono una protesta Camp Summit vicino al Web Summit a Lisbona",
    "seoTitle": "Protesta per la casa a Lisbona vicino al Web Summit",
    "tea": {
-    "why": "I manifestanti affermano che Lisbona viene commercializzata come una vetrina di lusso mentre i residenti con stipendi normali non possono permettersi affitti elevati.",
-    "want": "Chiedono il diritto alla casa, affitti accessibili e criticano la vendita di terreni pubblici e le liste d'attesa per gli alloggi comunali.",
-    "changed": "12 nov: Decine di attivisti si sono radunati vicino alla sede del Web Summit per comizi, dibattiti e un'assemblea popolare."
+    "why": "I manifestanti evidenziano l'imennso aumento degli affitti e i progetti edilizi di lusso, mentre i lavoratori comuni faticano a permettersi una casa a Lisbona.",
+    "want": "Interventi sulla crisi abitativa, affitti accessibili e la fine della vendita di terreni pubblici.",
+    "changed": "12 nov.: Decine di manifestanti hanno tenuto un raduno Camp Summit vicino alla sede del Web Summit in seguito a una sospensione temporanea dovuta alle condizioni di tempesta."
    },
-   "summary": "Attivisti per la casa del movimento Acampada de Lisboa hanno organizzato una protesta denominata 'Camp Summit' vicino alla sede della conferenza tecnologica Web Summit nel Parque das Nações a Lisbona. In seguito a una sospensione temporanea di due giorni delle attività a causa del maltempo della tempesta Charles, la manifestazione si è svolta sull'Alameda dos Oceanos di fronte al centro commerciale Vasco da Gama. Gli attivisti hanno criticato la spesa comunale per il vertice tecnologico mentre i residenti lottano con affitti alti, la mancanza di alloggi comunali accessibili e la prevista vendita di terreni pubblici da parte del Consiglio comunale di Lisbona guidato dal sindaco Carlos Moedas. L'evento ha incluso un raduno, dibattiti alla Stazione di Oriente sulla tecnologia digitale e il diritto alla città, e un'assemblea popolare.",
+   "summary": "Attivisti per il diritto alla casa del movimento Accampamento di Lisbona hanno organizzato un'azione di protesta denominata 'Camp Summit' fuori dalla sede della conferenza tecnologica Web Summit a Lisbona. La manifestazione ha incluso un comizio, dibattiti e un'assemblea popolare, programmati per coincidere con la ripresa del vertice tecnologico dopo le interruzioni dovute alle tempeste. Gli organizzatori hanno criticato il netto contrasto tra il marchio di lusso e la carenza di alloggi a prezzi accessibili, denunciando i piani comunali di vendita di terreni pubblici per milioni di euro. La protesta è avvenuta dopo una temporanea sospensione meteorologica di due giorni causata dalla tempesta Charles e si inserisce nel contesto di continue manifestazioni abitative a livello nazionale che criticano le politiche governative e le tutele per i proprietari.",
    "demands": [
-    "Diritto alla casa e alla città",
-    "Azione contro gli affitti costosi",
-    "Opposizione alle liste d'attesa per gli alloggi comunali",
-    "Fermare la vendita di lotti di terreno pubblico"
+    "Diritto alla casa",
+    "Diritto alla città",
+    "Fermare la vendita di terreni pubblici",
+    "Affitti accessibili"
    ],
-   "response": "Nessuna risposta ufficiale riportata nelle fonti.",
+   "response": "Nessuna risposta ufficiale è stata riportata nelle fonti riguardo all'azione Camp Summit, sebbene azioni precedenti abbiano affrontato ordini di sgombero da parte del sindaco di Lisbona Carlos Moedas e il primo ministro Luís Montenegro abbia criticato le manifestazioni in corso definendole egoiste.",
    "updates": [
-    "Acampada de Lisboa ha annunciato la protesta Camp Summit prevista per giovedì vicino al Web Summit.",
-    "Decine di attivisti hanno manifestato all'esterno della sede del Web Summit a seguito delle sospensioni legate alle condizioni meteorologiche."
+    "L'accampamento di Lisbona ha annunciato piani per una protesta Camp Summit giovedì vicino alla sede del Web Summit a seguito di una sospensione per maltempo.",
+    "Decine di manifestanti hanno manifestato per il diritto alla casa vicino all'ingresso del Web Summit a Lisbona, tenendo dibattiti e un'assemblea popolare."
    ],
    "conflicts": [],
-   "numbers": {
-    "crowd": "Dezenas de pessoas"
-   }
+   "numbers": {}
   },
   "pt": {
-   "title": "Ativistas da habitação realizam protesto Camp Summit perto do Web Summit em Lisboa",
-   "seoTitle": "Protesto pela habitação em Lisboa perto do Web Summit",
+   "title": "Ativistas da habitação realizam protesto Camp Summit perto da Web Summit em Lisboa",
+   "seoTitle": "Protesto pela habitação em Lisboa perto da Web Summit",
    "tea": {
-    "why": "Os manifestantes afirmam que Lisboa é comercializada como uma montra de luxo enquanto os residentes que ganham salários normais não conseguem pagar rendas elevadas.",
-    "want": "Exigem o direito à habitação, rendas acessíveis e criticam a venda de terrenos públicos e as listas de espera municipais para habitação.",
-    "changed": "12 de nov.: Dezenas de ativistas reuniram-se perto do local do Web Summit para comícios, debates e uma assembleia popular."
+    "why": "Os manifestantes destacam a subida acentuada das rendas e os empreendimentos habitacionais de luxo, enquanto os trabalhadores comuns lutam para conseguir pagar uma casa em Lisboa.",
+    "want": "Ação sobre a crise da habitação, rendas acessíveis e o fim da venda de terrenos públicos.",
+    "changed": "12 de nov.: Dezenas de manifestantes realizaram um comício do Camp Summit perto do local da Web Summit na sequência de uma suspensão temporária devido a condições de tempestade."
    },
-   "summary": "Ativistas da habitação do movimento Acampada de Lisboa organizaram um protesto chamado 'Camp Summit' perto do recinto da conferência tecnológica Web Summit, no Parque das Nações, em Lisboa. Após uma suspensão temporária de dois dias das atividades devido ao mau tempo provocado pela tempestade Charles, a manifestação decorreu na Alameda dos Oceanos, em frente ao centro comercial Vasco da Gama. Os ativistas criticaram os gastos municipais com a cimeira tecnológica enquanto os residentes lutam contra rendas elevadas, a falta de habitação municipal acessível e a prevista venda de terrenos públicos pela Câmara Municipal de Lisboa sob a liderança do presidente Carlos Moedas. O evento incluiu um acampamento, debates na Estação do Oriente sobre tecnologia digital e o direito à cidade, e uma assembleia popular.",
+   "summary": "Ativistas da habitação do movimento Acampamento de Lisboa organizaram uma ação de protesto denominada 'Camp Summit' junto ao recinto da conferência tecnológica Web Summit em Lisboa. A manifestação incluiu um comício, debates e um plenário popular, cronometrados para coincidir com a retoma da cimeira tecnológica após as interrupções provocadas pelas tempestades. Os organizadores criticaram o contraste acentuado entre a marca de luxo e a escassez de habitação acessível, denunciando os planos municipais de venda de terrenos públicos por milhões de euros. O protesto seguiu-se a uma suspensão meteorológica temporária de dois dias devido à tempestade Charles e ocorre no enquadramento de contínuas manifestações nacionais sobre habitação que criticam as políticas governamentais e as proteções aos senhorios.",
    "demands": [
-    "Direito à habitação e à cidade",
-    "Ação contra as rendas caras",
-    "Oposição às listas de espera municipais para habitação",
-    "Parar a venda de lotes de terrenos públicos"
+    "Direito à habitação",
+    "Direito à cidade",
+    "Parar de vender terrenos públicos",
+    "Rendas acessíveis"
    ],
-   "response": "Nenhuma resposta oficial relatada nas fontes.",
+   "response": "Não foi relatada nenhuma resposta oficial nas fontes relativamente à ação do Camp Summit, embora ações anteriores tenham enfrentado ordens de despejo do presidente da Câmara de Lisboa, Carlos Moedas, e o primeiro-ministro Luís Montenegro tenha criticado as manifestações em curso como sendo egoístas.",
    "updates": [
-    "A Acampada de Lisboa anunciou o protesto Camp Summit agendado para quinta-feira perto do Web Summit.",
-    "Dezenas de ativistas demonstraram do lado de fora do local do Web Summit após suspensões relacionadas com o clima."
+    "O Acampamento de Lisboa anunciou planos para um protesto do Camp Summit na quinta-feira perto do local da Web Summit na sequência de uma suspensão devido ao mau tempo.",
+    "Dezenas de manifestantes protestaram pelos direitos à habitação perto da entrada da Web Summit em Lisboa, realizando debates e um plenário popular."
    ],
    "conflicts": [],
-   "numbers": {
-    "crowd": "Dezenas de pessoas"
-   }
+   "numbers": {}
   },
   "nl": {
    "title": "Woonactivisten houden Camp Summit-protest bij Web Summit in Lissabon",
-   "seoTitle": "Woonprotest in Lissabon bij de Web Summit",
+   "seoTitle": "Woonprotest in Lissabon bij Web Summit",
    "tea": {
-    "why": "Demonstranten zeggen dat Lissabon wordt gepromoot als een luxeshowcase terwijl inwoners met een normaal salaris hoge huurprijzen niet kunnen betalen.",
-    "want": "Ze eisen woonrechten, betaalbare huurprijzen en bekritiseren de verkoop van openbare grond en gemeentelijke wachtlijsten voor sociale huurwoningen.",
-    "changed": "12 nov.: Tientallen activisten verzamelden zich in de buurt van de locaties van de Web Summit voor bijeenkomsten, debatten en een volksvergadering."
+    "why": "Demonstranten benadrukken de stijgende huurprijzen en luxe woningbouwprojecten terwijl gewone werknemers moeite hebben om zich een woning te veroorloven in Lissabon.",
+    "want": "Maatregelen tegen de wooncrisis, betaalbare huurprijzen en een stop op de verkoop van openbare grond.",
+    "changed": "12 nov.: Tientallen demonstranten hielden een Camp Summit-bijeenkomst nabij de locatie van de Web Summit na een tijdelijke opschorting als gevolg van stormomstandigheden."
    },
-   "summary": "Woonactivisten van de beweging Acampada de Lisboa organiseerden een protest genaamd 'Camp Summit' in de buurt van de locatie van de techconferentie Web Summit in het Parque das Nações in Lissabon. Na een tijdelijke opschorting van de activiteiten van twee dagen vanwege het zware weer door storm Charles, vond de demonstratie plaats op de Alameda dos Oceanos voor het winkelcentrum Vasco da Gama. Activisten bekritiseerden de gemeentelijke uitgaven aan de techtop terwijl inwoners worstelen met hoge huren, een gebrek aan betaalbare gemeentelijke woningen en de geplande verkoop van openbare grond door de gemeenteraad van Lissabon onder burgemeester Carlos Moedas. Het evenement bestond uit een bijeenkomst, debatten op het station Oriente over digitale technologie en het recht op de stad, en een volksvergadering.",
+   "summary": "Woonactivisten van de Lissabon Kampement-beweging organiseerden een protestactie genaamd 'Camp Summit' buiten de locatie van de technologieconferentie Web Summit in Lissabon. De demonstratie bestond uit een bijeenkomst, debatten en een volksvergadering, getimed om samen te vallen met de hervatting van de techtop na verstoringen door stormen. Organisatoren bekritiseerden het schril contrast tussen luxe branding en tekorten aan betaalbare huisvesting, waarbij ze gemeentelijke plannen veroordeelden om openbare grond te verkopen voor miljoenen euro's. Het protest volgde op een tijdelijke tweedaagse weersopschorting als gevolg van storm Charles en komt te midden van aanhoudende landelijke woningdemonstraties die het overheidsbeleid en de huurdersbescherming bekritiseren.",
    "demands": [
-    "Recht op huisvesting en de stad",
-    "Actie tegen duur huur",
-    "Verzet tegen gemeentelijke wachtlijsten voor woningen",
-    "Stop de verkoop van openbare grond"
+    "Recht op huisvesting",
+    "Recht op de stad",
+    "Stop de verkoop van openbare grond",
+    "Betaalbare huurprijzen"
    ],
-   "response": "Geen officiële reactie gemeld in de bronnen.",
+   "response": "Er werd geen officiële reactie gemeld in de bronnen over de Camp Summit-actie, hoewel eerdere acties te maken kregen met uitzettingsbevelen van de burgemeester van Lissabon, Carlos Moedas, en premier Luís Montenegro lopende demonstraties als egoïstisch bekritiseerde.",
    "updates": [
-    "Acampada de Lisboa kondigde het Camp Summit-protest aan dat voor donderdag gepland stond in de buurt van de Web Summit.",
-    "Tientallen activisten demonstreerden buiten de locatie van de Web Summit na opschortingen vanwege het weer."
+    "Het kampement van Lissabon kondigde plannen aan voor een Camp Summit-protest op donderdag nabij de Web Summit-locatie na een weeropschorting.",
+    "Tientallen demonstranten demonstreerden voor woonrechten nabij de ingang van de Web Summit in Lissabon, waarbij ze debatten en een volksvergadering hielden."
    ],
    "conflicts": [],
-   "numbers": {
-    "crowd": "Dezenas de pessoas"
-   }
+   "numbers": {}
   }
  }
 }
