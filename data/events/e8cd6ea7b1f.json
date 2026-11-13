@@ -13,7 +13,7 @@
   "citySlug": "madrid",
   "regionSlug": "madrid"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "housing",
   "prices"
@@ -30,21 +30,22 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters set up camp to protest against runaway housing costs, high rents, and a lack of tenant protections.",
-  "want": "Affordable housing, better tenant protections, and an end to evictions.",
-  "changed": "Nov 3: Police cleared the protest camp in Puerta del Sol, removing 334 people and making two arrests."
+  "why": "Protesters demonstrated against high housing costs, a lack of tenant protections, and the eviction of elderly tenants.",
+  "want": "They demanded affordable housing, better tenant protections, and limits on evictions.",
+  "changed": "Nov 3: Police dismantled the protest camp in Madrid's Puerta del Sol, removing 334 people and making two arrests."
  },
- "summary": "Authorities and activists reported that Spanish police dismantled a month-long protest encampment in Madrid's Puerta del Sol square. The camp was originally established on September 26 following nationwide outrage over the eviction of an elderly resident from her home due to sharply raised rent. The makeshift tent city grew to host hundreds of people with its own clinic and canteen. The central government's delegation and municipal authorities stated that 334 individuals were removed and two were arrested during an operation involving 400 national and municipal police officers, firefighters, and social services, which authorities claimed took place without violence. Conversely, protest organisers labelled the action a violent police operation and stated that several people suffered injuries from strikes and tear gas. Following the clearance, the movement announced plans to continue protest activities in local neighbourhoods and support a general strike scheduled for November 11.",
+ "summary": "For over a month, demonstrators maintained a sprawling tent encampment in Madrid's Puerta del Sol square to protest soaring housing costs and weak tenant protections across Spain. The movement originally sparked following the eviction of an elderly woman from her long-term home. On November 3, security forces comprising 400 national and municipal police officers, along with firefighters and social services, carried out an overnight operation to clear the camp. Authorities stated that 334 individuals were removed and two were arrested for resisting authority, describing the operation as peaceful and without major incident. In contrast, protest organisers condemned the action as a violent police operation involving physical strikes and tear gas that left several people injured. Similar camps emerged in other Spanish cities, and the movement contributed to wider national demonstrations and a general strike.",
  "organizers": [
-  "Acampada 26S",
-  "Sindicato de Inquilinas"
+  "sindicato de inquilinas",
+  "Movimiento 26S"
  ],
  "demands": [
-  "Affordable housing",
-  "Enhanced tenant protections",
-  "Limits on evictions"
+  "Affordable and dignified housing",
+  "Stronger tenant protections",
+  "Limits on evictions",
+  "Automatic renewals of tenant contracts"
  ],
- "response": "According to government and city sources, the eviction of the Puerta del Sol camp involved 400 national and municipal police officers, firefighters, and social services. Authorities stated the operation cleared 334 people and resulted in two arrests without violence. Organisers described it as a violent police operation involving tear…",
+ "response": "Authorities cleared the camp using 400 national and municipal police officers, firefighters, and social services. City and government sources stated the operation took place without incident or violence, removing 334 people and arresting two for resisting authority. Organisers called it a violent operation involving tear gas and…",
  "numbers": {
   "crowd": {
    "value": 334,
@@ -53,51 +54,47 @@
     3,
     4,
     5,
-    6,
-    7
+    6
    ]
   },
   "arrests": {
    "value": 2,
-   "text": "two arrested",
+   "text": "two arrested for resisting authority",
    "sources": [
     2,
     3,
     4,
     5,
-    6,
-    7
+    6
+   ]
+  },
+  "injuries": {
+   "value": 0,
+   "text": "several people injured after being hit or as a result of tear gas, according to organisers",
+   "sources": [
+    3,
+    4,
+    6
    ]
   }
  },
  "updates": [
   {
    "at": "2026-09-26",
-   "text": "Demonstrators set up a tent camp in Puerta del Sol square following a major protest over housing costs.",
+   "text": "The protest camp was established in Madrid's Puerta del Sol square following a large demonstration.",
    "sources": [
     3,
-    6,
-    7
-   ]
-  },
-  {
-   "at": "2026-10-31",
-   "text": "Most of the coordinating committees left the camp site ahead of planned neighbourhood relocations.",
-   "sources": [
-    1,
-    7
+    6
    ]
   },
   {
    "at": "2026-11-03",
-   "text": "Police and municipal crews dismantled the camp, removing 334 people and arresting two individuals.",
+   "text": "Police dismantled the protest camp in Madrid overnight, removing 334 people and making two arrests.",
    "sources": [
-    2,
     3,
     4,
     5,
-    6,
-    7
+    6
    ]
   }
  ],
@@ -146,179 +143,270 @@
   },
   {
    "n": 7,
-   "url": "https://www.surinenglish.com/spain/camp-puerta-come-20261103000500-nt.html",
+   "url": "https://www.surinenglish.com/spain/housing-protests-drawing-20261112000500-nt.html",
    "publisher": "surinenglish.com",
-   "title": "Madrid camp in Puerta del Sol dismantled after 38 days of protest | Sur in English",
-   "publishedAt": "2026-11-03T13:43:50.000Z"
+   "title": "Spain",
+   "publishedAt": "2026-11-13T05:45:01.000Z"
   }
  ],
  "conflicts": [
-  "Police and city authorities stated the camp clearance took place without violence or incidents, while organisers described it as a violent police operation involving tear gas and injuries."
+  "Authorities stated the camp clearance was peaceful and without violence, while organisers described it as a violent police operation involving tear gas and injuries."
  ],
  "confidence": 0.8,
  "publishers": 7,
- "reports24h": 0,
+ "reports24h": 1,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 1,
  "firstSeenAt": "2026-10-27T15:22:11.690Z",
- "lastReportAt": "2026-11-03T13:43:50.000Z",
- "lastCheckedAt": "2026-11-13T08:55:47.916Z",
- "updatedAt": "2026-11-03T20:23:50.472Z",
+ "lastReportAt": "2026-11-13T05:45:01.000Z",
+ "lastCheckedAt": "2026-11-13T12:23:26.812Z",
+ "updatedAt": "2026-11-13T12:22:29.141Z",
  "searchedAt": "2026-11-01T22:50:37.122Z",
  "responseSources": [
   3,
   4,
   5,
-  6,
-  7
+  6
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-03T20:23:50.472Z",
- "summaryOf": "30c645c37d0f",
+ "summarizedAt": "2026-11-13T12:22:29.141Z",
+ "summaryOf": "132aa554f263",
  "publishedAt": "2026-11-02T03:52:53.247Z",
  "i18n": {
-  "of": "5ddf340d8037fa6c",
-  "at": "2026-11-03T20:28:14.656Z",
+  "of": "4eac0ccb512d585e",
+  "at": "2026-11-13T12:25:22.598Z",
   "tries": 1,
   "hi": {
    "title": "स्पेनिश पुलिस ने मैड्रिड में एक महीने से चल रहे आवास विरोध शिविर को हटाया",
-   "seoTitle": "मैड्रिड पुलिस ने आवास विरोध शिविर हटाया",
+   "seoTitle": "मैड्रिड पुलिस ने आवास विरोध शिविर को हटाया",
    "tea": {
-    "why": "प्रदर्शनकारियों ने बेलगाम आवास लागत, ऊंचे किराए और tenant सुरक्षा की कमी के खिलाफ विरोध करने के लिए शिविर लगाया था।",
-    "want": "किफायती आवास, बेहतर tenant सुरक्षा और evictions का अंत।",
-    "changed": "3 नवंबर: पुलिस ने Puerta del Sol में विरोध शिविर को हटा दिया, 334 लोगों को वहां से हटाया और दो गिरफ्तारियां कीं।"
+    "why": "प्रदर्शनकारियों ने महंगे आवास, किरायेदारों के संरक्षण की कमी और बुजुर्ग किरायेदारों को बेदखल किए जाने के खिलाफ प्रदर्शन किया।",
+    "want": "उन्होंने किफायती आवास, बेहतर किरायेदार संरक्षण और बेदखली पर रोक की मांग की।",
+    "changed": "3 नवंबर: पुलिस ने मैड्रिड के पुएर्ता डेल सोल में विरोध शिविर को हटाया, 334 लोगों को वहां से हटाया और दो लोगों को गिरफ्तार किया।"
    },
-   "summary": "प्राधिकारियों और कार्यकर्ताओं ने बताया कि स्पेनिश पुलिस ने मैड्रिड के Puerta del Sol चौक पर एक महीने से चल रहे विरोध शिविर को हटा दिया। यह शिविर मूल रूप से 26 सितंबर को किराए में भारी वृद्धि के कारण एक बुजुर्ग निवासी को उसके घर से निकाले जाने पर राष्ट्रव्यापी आक्रोश के बाद स्थापित किया गया था। इस अस्थायी तंबू शहर में सैकड़ों लोग रहने लगे थे और इसका अपना क्लिनिक तथा कैंटीन था। केंद्र सरकार के प्रतिनिधिमंडल और नगरपालिका प्राधिकारियों ने बताया कि 400 राष्ट्रीय और नगरपालिका पुलिस अधिकारियों, अग्निशामकों तथा सामाजिक सेवाओं से जुड़े अभियान के दौरान 334 व्यक्तियों को हटाया गया और दो को गिरफ्तार किया गया, जिसे प्राधिकारियों ने दावा किया कि यह बिना किसी हिंसा के हुआ। इसके विपरीत, विरोध आयोजकों ने इस कार्रवाई को एक हिंसक पुलिस अभियान बताया और कहा कि लाठियों और आंसू गैस से कई लोग घायल हो गए। शिविर हटाए जाने के बाद, आंदोलन ने स्थानीय मोहल्लों में विरोध गतिविधियों को जारी रखने और 11 नवंबर को होने वाली आम हड़ताल का समर्थन करने की योजना की घोषणा की।",
+   "summary": "एक महीने से अधिक समय तक, प्रदर्शनकारियों ने स्पेन भर में बढ़ते आवास खर्चों और कमजोर किरायेदार सुरक्षा का विरोध करने के लिए मैड्रिड के पुएर्ता डेल सोल चौक पर एक बड़ा तंबू शिविर लगाया था। यह आंदोलन मूल रूप से एक बुजुर्ग महिला को उसके लंबे समय के घर से बेदखल किए जाने के बाद शुरू हुआ था। 3 नवंबर को, 400 राष्ट्रीय और नगरपालिका पुलिस अधिकारियों, अग्निशमकों और सामाजिक सेवाओं से मिलकर बने सुरक्षा बलों ने शिविर को हटाने के लिए रात भर अभियान चलाया। अधिकारियों ने बताया कि 334 व्यक्तियों को हटाया गया और अधिकार का विरोध करने के लिए दो लोगों को गिरफ्तार किया गया, और इस अभियान को शांतिपूर्ण तथा किसी बड़ी घटना के बिना बताया। इसके विपरीत, विरोध प्रदर्शन के आयोजकों ने इस कार्रवाई की निंदा करते हुए इसे एक हिंसक पुलिस अभियान बताया जिसमें शारीरिक मारपीट और आंसू गैस का इस्तेमाल किया गया जिससे कई लोग घायल हो गए। स्पेन के अन्य शहरों में भी इसी तरह के शिविर उभरे, और इस आंदोलन ने देशव्यापी व्यापक प्रदर्शनों और एक आम हड़ताल में योगदान दिया।",
    "demands": [
-    "किफायती आवास",
-    "बढ़ी हुई tenant सुरक्षा",
-    "Evictions पर सीमाएं"
+    "किफायती और गरिमापूर्ण आवास",
+    "मजबूत किरायेदार संरक्षण",
+    "बेदखली पर सीमाएं",
+    "किरायेदार अनुबंधों का स्वतः नवीनीकरण"
    ],
-   "response": "सरकारी और शहर के सूत्रों के अनुसार, Puerta del Sol शिविर को हटाने में 400 राष्ट्रीय और नगरपालिका पुलिस अधिकारी, अग्निशामक और सामाजिक सेवाएं शामिल थीं। प्राधिकारियों ने बताया कि अभियान में 334 लोगों को हटाया गया और बिना किसी हिंसा के दो गिरफ्तारियां हुईं। आयोजकों ने इसे आंसू गैस से जुड़ा एक हिंसक पुलिस अभियान बताया।",
+   "response": "अधिकारियों ने 400 राष्ट्रीय और नगरपालिका पुलिस अधिकारियों, अग्निशमकों और सामाजिक सेवाओं का उपयोग करके शिविर को खाली कराया। शहर और सरकार के सूत्रों ने बताया कि यह अभियान बिना किसी घटना या हिंसा के हुआ, जिसमें 334 लोगों को हटाया गया और अधिकार का विरोध करने के लिए दो को गिरफ्तार किया गया। आयोजकों ने इसे आंसू गैस से जुड़ा एक हिंसक अभियान बताया और...",
    "updates": [
-    "प्रदर्शनकारियों ने आवास लागत पर एक बड़े विरोध प्रदर्शन के बाद Puerta del Sol चौक पर एक तंबू शिविर स्थापित किया।",
-    "अधिकांश समन्वय समितियां नियोजित पड़ोस पुनर्वास से पहले शिविर स्थल से चली गईं।",
-    "पुलिस और नगरपालिका कर्मियों ने शिविर को ध्वस्त कर दिया, 334 लोगों को हटा दिया और दो व्यक्तियों को गिरफ्तार कर लिया।"
+    "एक बड़े प्रदर्शन के बाद मैड्रिड के पुएर्ता डेल सोल चौक में विरोध शिविर स्थापित किया गया था।",
+    "पुलिस ने रात भर में मैड्रिड में विरोध शिविर को ध्वस्त कर दिया, 334 लोगों को हटाया और दो गिरफ्तारियां कीं।"
    ],
    "conflicts": [
-    "पुलिस और शहर के प्राधिकारियों ने बताया कि शिविर को हटाने की कार्रवाई बिना किसी हिंसा या घटना के हुई, जबकि आयोजकों ने इसे आंसू गैस और चोटों से जुड़ा एक हिंसक पुलिस अभियान बताया।"
+    "अधिकारियों ने बताया कि शिविर को हटाना शांतिपूर्ण और हिंसा रहित था, जबकि आयोजकों ने इसे आंसू गैस और चोटों से जुड़े एक हिंसक पुलिस अभियान के रूप में वर्णित किया।"
    ],
    "numbers": {
     "crowd": "334 लोगों को हटाया गया",
-    "arrests": "दो गिरफ्तार"
+    "arrests": "अधिकार का विरोध करने के लिए दो गिरफ्तार",
+    "injuries": "आयोजकों के अनुसार, पिटाई या आंसू गैस के परिणामस्वरूप कई लोग घायल हुए"
    }
   },
   "mr": {
-   "title": "स्पॅनिश पोलिसांनी मड्रिडमधील एक महिन्यापासून सुरू असलेला गृहनिर्माण निषेध कॅम्प हटवला",
-   "seoTitle": "मड्रिड पोलिसांनी गृहनिर्माण निषेध कॅम्प हटवला",
+   "title": "स्पॅनिश पोलिसांनी मॅड्रिडमधील महिनाभर चाललेले गृहनिर्माण निषेध शिबिर उद्ध्वस्त केले",
+   "seoTitle": "मॅड्रिड पोलिसांनी गृहनिर्माण निषेध शिबिर हटवले",
    "tea": {
-    "why": "अतिरिक्त वाढलेला गृहनिर्माण खर्च, वाढीव भाडे आणि भाडेकरूंच्या संरक्षणाचा अभाव यांच्या निषेधार्थ निदर्शकांनी कॅम्प उभारला होता.",
-    "want": "परवडणारे घर, चांगले भाडेकरू संरक्षण आणि बेदखलीला आळा.",
-    "changed": "३ नोव्हेंबर: पोलिसांनी Puerta del Sol येथील निषेध कॅम्प हटवला, ३३४ लोकांना बाहेर काढले आणि दोन जणांना अटक केली."
+    "why": "निदर्शकांनी वाढता गृहनिर्माण खर्च, भाडेकरूंच्या संरक्षणाचा अभाव आणि वृद्ध भाडेकरूंच्या हकालपट्टीविरोधात निदर्शने केली.",
+    "want": "त्यांनी परवडणारे गृहनिर्माण, भाडेकरूंचे उत्तम संरक्षण आणि हकालपट्टीवर मर्यादा घालण्याची मागणी केली.",
+    "changed": "३ नोव्हेंबर: पोलिसांनी मॅड्रिडच्या पुएर्तात डेल सोल येथील निषेध शिबिर हटवले, ३३४ लोकांना बाहेर काढले आणि दोन जणांना अटक केली."
    },
-   "summary": "अधिकारी आणि कार्यकर्त्यांनी वृत्त दिले की स्पॅनिश पोलिसांनी मड्रिडच्या Puerta del Sol चौकातील एक महिन्यापासून सुरू असलेले निषेध छावणी उद्ध्वस्त केले. भाड्यात प्रचंड वाढ झाल्यामुळे एका वृद्ध रहिवाशाला तिच्या घरातून हुकूमशाही पद्धतीने बाहेर काढल्याच्या देशव्यापी संतापानंतर हा कॅम्प मूळतः २६ सप्टेंबर रोजी स्थापन करण्यात आला होता. या तात्पुरत्या तंबुरू शहरात शेकडो लोक राहत होते आणि त्याचे स्वतःचे क्लिनिक व कॅन्टीन होते. केंद्र सरकारच्या प्रतिनिधी मंडळाने आणि पालिका अधिकाऱ्यांनी सांगितले की, ४०० राष्ट्रीय आणि पालिका पोलीस अधिकारी, अग्निशामक दल आणि सामाजिक सेवांचा समावेश असलेल्या कारवाईदरम्यान ३३४ व्यक्तींना हटवण्यात आले आणि दोघांना अटक करण्यात आली, जी कारवाई प्राधिकाऱ्यांच्या दाव्यानुसार हिंसेविना पार पडली. याउलट, निदर्शनांचे आयोजककर्ते यांनी या कृतीला हिंसक पोलीस कारवाई म्हटले आणि सांगितले की लाठीमार व अश्रुधुरामुळे अनेक जण जखमी झाले. छावणी हटवल्यानंतर, या चळवळीने स्थानिक भागात निदर्शने सुरू ठेवण्याची आणि ११ नोव्हेंबर रोजी नियोजित असलेल्या सार्वत्रिक संपAssemblyNameचा पाठिंबा देण्याची योजना जाहीर केली.",
+   "summary": "महिनाभरापेक्षा जास्त काळ, स्पेनमधील वाढता गृहनिर्माण खर्च आणि भाडेकरूंच्या कमकुवत संरक्षणाचा निषेध करण्यासाठी निदर्शकांनी मॅड्रिडच्या पुएर्ता डेल सोल चौकात एक मोठे तंबू शिबिर सुरू ठेवले होते. हे आंदोलन मूळतः एका वृद्ध महिलेला तिच्या दीर्घकाळच्या घरातून हुडकून लावल्यानंतर सुरू झाले. ३ नोव्हेंबर रोजी, ४०० राष्ट्रीय आणि म्युनिसिपल पोलीस अधिकारी, तसेच अग्निशामक दल आणि सामाजिक सेवांनी मिळून शिबिर उठवण्यासाठी रात्रीभर कारवाई केली. अधिकाऱ्यांनी सांगितले की ३३४ व्यक्तींना हटवण्यात आले आणि अधिकाराला विरोध केल्याबद्दल दोघांना अटक करण्यात आली, त्यांनी ही कारवाई शांततापूर्ण आणि मोठ्या घटनेविना पार पडल्याचे सांगितले. याउलट, निषेध आयोजकांनी या कारवाईचा निषेध करत याला मारहाण आणि अश्रुधुराचा वापर केलेले हिंसक पोलीस अभियान म्हटले ज्यामुळे अनेकजण जखमी झाले. स्पेनच्या इतर शहरांमध्येही अशीच शिबिरे उदयास आली आणि या आंदोलनामुळे देशव्यापी व्यापक निदर्शने आणि संप झाला.",
    "demands": [
-    "परवडणारी घरे",
-    "सुधारित भाडेकरू संरक्षण",
-    "बेदखलीवर मर्यादा"
+    "परवडणारी आणि सन्मानाची घरे",
+    "भाडेकरूंचे बळकट संरक्षण",
+    "हकालपट्टीवर मर्यादा",
+    "भाडेकरू करारांचे आपोआप नूतनीकरण"
    ],
-   "response": "सरकारी आणि शहर सूत्रांनुसार, Puerta del Sol कॅम्प हटवण्याच्या कारवाईत ४०० राष्ट्रीय आणि पालिका पोलीस अधिकारी, अग्निशामक आणि सामाजिक सेवा सहभागी होत्या. अधिकाऱ्यांनी सांगितले की या कारवाईत ३३४ लोकांना हटवले गेले आणि हिंसेविना दोन जणांना अटक करण्यात आली. आयोजकांनी याचे वर्णन अश्रुधुराचा वापर केलेली हिंसक पोलीस कारवाई असे केले.",
+   "response": "अधिकाऱ्यांनी ४०० राष्ट्रीय आणि म्युनिसिपल पोलीस अधिकारी, अग्निशामक आणि सामाजिक सेवांचा वापर करून शिबिर रिकामे केले. शहर आणि सरकारच्या सूत्रांनी सांगितले की ही कारवाई कोणतीही घटना किंवा हिंसाचाराशिवाय पार पडली, ज्यामध्ये ३३४ लोकांना हटवले गेले आणि अधिकाराला विरोध केल्याबद्दल दोघांना अटक करण्यात आली. आयोजकांनी याला अश्रुधुराचा वापर केलेले हिंसक अभियान म्हटले आणि...",
    "updates": [
-    "गृहनिर्माण खर्चावरील मोठ्या निदर्शनानंतर निदर्शकांनी Puerta del Sol चौकात तंबू कॅम्प उभारला.",
-    "नियोजित परिसर स्थलांतरापूर्वी बहुतांश समन्वय समित्या कॅम्पच्या ठिकाणाहून निघून गेल्या.",
-    "पोलिसांनी आणि पालिका कर्मचाऱ्यांनी कॅम्प उध्वस्त केला, ३३४ लोकांना हटवले आणि दोन व्यक्तींना अटक केली."
+    "एका मोठ्या निदर्शनानंतर मॅड्रिडच्या पुएर्ता डेल सोल चौकात निषेध शिबिर उभारण्यात आले होते.",
+    "पोलिसांनी रात्रीभर मॅड्रिडमधील निषेध शिबिर उद्ध्वस्त केले, ३३४ लोकांना बाहेर काढले आणि दोन जणांना अटक केली."
    ],
    "conflicts": [
-    "पोलिसांनी आणि शहर अधिकाऱ्यांनी सांगितले की कॅम्प हटवण्याची कारवाई हिंसेविना किंवा कोणत्याही घटनेविना पार पडली, तर आयोजकांनी याचे वर्णन अश्रुधूर व दुखापतींचा समावेश असलेली हिंसक पोलीस कारवाई असे केले."
+    "अधिकाऱ्यांनी सांगितले की शिबिर हटवण्याची कारवाई शांततापूर्ण आणि हिंसाचारमुक्त होती, तर आयोजकांनी त्याचे वर्णन अश्रुधूर आणि दुखापतींसह हिंसक पोलीस अभियान म्हणून केले."
    ],
    "numbers": {
-    "crowd": "३३४ लोकांना हटवले",
-    "arrests": "दोन जणांना अटक"
+    "crowd": "३३४ लोकांना बाहेर काढले",
+    "arrests": "अधिकाराला विरोध केल्याबद्दल दोघे जण अटक",
+    "injuries": "आयोजकांच्या मते, मारहाण झाल्यानंतर किंवा अश्रुधुरामुळे अनेकजण जखमी झाले"
    }
   },
   "es": {
-   "title": "La policía española desmantela un campamento de protesta por la vivienda de un mes en Madrid",
+   "title": "La policía española desmantela un campamento de protesta por la vivienda en Madrid tras un mes",
    "seoTitle": "La policía de Madrid despeja campamento de protesta",
    "tea": {
-    "why": "Los manifestantes instalaron un campamento para protestar contra los costos desbocados de la vivienda, los altos alquileres y la falta de protecciones para los inquilinos.",
-    "want": "Vivienda asequible, mejores protecciones para los inquilinos y el fin de los desalojos.",
-    "changed": "3 de noviembre: La policía despejó el campamento de protesta en la Puerta del Sol, retirando a 334 personas y realizando dos detenciones."
+    "why": "Los manifestantes protestaron contra los altos costos de la vivienda, la falta de protecciones para los inquilinos y el desalojo de inquilinos de la tercera edad.",
+    "want": "Exigieron vivienda asequible, mejores protecciones para los inquilinos y límites a los desalojos.",
+    "changed": "3 de noviembre: La policía desmanteló el campamento de protesta en la Puerta del Sol de Madrid, desalojando a 334 personas y realizando dos detenciones."
    },
-   "summary": "Las autoridades y los activistas informaron que la policía española desmanteló un campamento de protesta de un mes de duración en la madrileña Puerta del Sol. El campamento se estableció originalmente el 26 de septiembre tras la indignación nacional por el desalojo de una residente de edad avanzada de su hogar debido a un fuerte aumento del alquiler. La ciudad de tiendas improvisada llegó a albergar a cientos de personas con su propia clínica y comedor. La delegación del gobierno central y las autoridades municipales declararon que 334 individuos fueron retirados y dos fueron arrestados durante una operación que involucró a 400 agentes de la policía nacional y municipal, bomberos y servicios sociales, la cual las autoridades afirmaron que se llevó a cabo sin violencia. Por el contrario, los organizadores de la protesta calificaron la acción como una operación policial violenta y afirmaron que varias personas sufrieron lesiones por golpes y gas lacrimógeno. Tras el desalojo, el movimiento anunció planes para continuar las actividades de protesta en los barrios locales y apoyar una huelga general programada para el 11 de noviembre.",
+   "summary": "Durante más de un mes, los manifestantes mantuvieron un extenso campamento de tiendas de campaña en la plaza Puerta del Sol de Madrid para protestar por el aumento de los costos de la vivienda y la débil protección de los inquilinos en toda España. El movimiento surgió originalmente tras el desalojo de una mujer anciana de su hogar de larga duración. El 3 de noviembre, las fuerzas de seguridad compuestas por 400 agentes de la policía nacional y municipal, junto con bomberos y servicios sociales, llevaron a cabo una operación nocturna para despejar el campamento. Las autoridades afirmaron que 334 personas fueron desalojadas y dos fueron arrestadas por resistencia a la autoridad, describiendo la operación como pacífica y sin incidentes mayores. Por el contrario, los organizadores de la protesta condenaron la acción como una operación policial violenta que incluyó agresiones físicas y gases lacrimógenos, dejando a varias personas heridas. Campamentos similares surgieron en otras ciudades españolas, y el movimiento contribuyó a protestas nacionales más amplias y a una huelga general.",
    "demands": [
-    "Vivienda asequible",
-    "Protecciones mejoradas para los inquilinos",
-    "Límites a los desalojos"
+    "Vivienda asequible y digna",
+    "Protecciones más firmes para los inquilinos",
+    "Límites a los desahucios",
+    "Renovaciones automáticas de los contratos de alquiler"
    ],
-   "response": "Según fuentes gubernamentales y de la ciudad, el desalojo del campamento de la Puerta del Sol involucró a 400 agentes de la policía nacional y municipal, bomberos y servicios sociales. Las autoridades declararon que la operación despejó a 334 personas y resultó en dos arrestos sin violencia. Los organizadores lo describieron como una operación policial violenta que involucró gas...",
+   "response": "Las autoridades despejaron el campamento utilizando 400 agentes de la policía nacional y municipal, bomberos y servicios sociales. Fuentes de la ciudad y del gobierno afirmaron que la operación se llevó a cabo sin incidentes ni violencia, desalojando a 334 personas y arrestando a dos por resistencia a la autoridad. Los organizadores la calificaron de operación violenta que involucró gas lacrimógeno y...",
    "updates": [
-    "Los manifestantes montaron un campamento de tiendas en la Puerta del Sol tras una gran protesta por los costos de la vivienda.",
-    "La mayoría de los comités de coordinación abandonaron el sitio del campamento antes de los traslados planificados a los barrios.",
-    "La policía y los equipos municipales desmantelaron el campamento, retirando a 334 personas y arrestando a dos individuos."
+    "El campamento de protesta se estableció en la plaza Puerta del Sol de Madrid tras una gran manifestación.",
+    "La policía desmanteló el campamento de protesta en Madrid durante la noche, desalojando a 334 personas y realizando dos detenciones."
    ],
    "conflicts": [
-    "La policía y las autoridades de la ciudad afirmaron que el despeje del campamento se llevó a cabo sin violencia ni incidentes, mientras que los organizadores lo describieron como una operación policial violenta que involucró gas lacrimógeno y lesiones."
+    "Las autoridades afirmaron que el desalojo del campamento fue pacífico y sin violencia, mientras que los organizadores lo describieron como una operación policial violenta que incluyó gas lacrimógeno y lesiones."
    ],
    "numbers": {
-    "crowd": "334 personas fueron retiradas",
-    "arrests": "dos arrestados"
+    "crowd": "334 personas fueron desalojadas",
+    "arrests": "dos arrestados por resistencia a la autoridad",
+    "injuries": "varias personas heridas tras ser golpeadas o como resultado del gas lacrimógeno, según los organizadores"
    }
   },
   "fr": {
-   "title": "La police espagnole démantèle un camp de protestation pour le logement d'un mois à Madrid",
+   "title": "La police espagnole démantèle un camp de protestation pour le logement à Madrid après un mois",
    "seoTitle": "La police de Madrid évacue un camp de protestation",
    "tea": {
-    "why": "Des manifestants ont installé un camp pour protester contre la flambée des coûts du logement, les loyers élevés et le manque de protections pour les locataires.",
-    "want": "Un logement abordable, de meilleures protections pour les locataires et la fin des expulsions.",
-    "changed": "3 nov. : La police a évacué le camp de protestation de la Puerta del Sol, délogeant 334 personnes et procédant à deux arrestations."
+    "why": "Les manifestants ont protesté contre le coût élevé du logement, le manque de protections pour les locataires et l'expulsion de locataires âgés.",
+    "want": "Ils ont exigé des logements abordables, de meilleures protections pour les locataires et des limites aux expulsions.",
+    "changed": "3 nov. : La police a démantelé le camp de protestation sur la Puerta del Sol à Madrid, évacuant 334 personnes et procédant à deux arrestations."
    },
-   "summary": "Les autorités et les militants ont rapporté que la police espagnole a démantelé un campement de protestation d'un mois sur la place de la Puerta del Sol à Madrid. Le camp avait été initialement établi le 26 septembre à la suite d'une indignation nationale concernant l'expulsion d'une résidente âgée de son domicile en raison d'une augmentation abrupte de son loyer. La ville de tentes de fortune a grandi pour accueillir des centaines de personnes avec sa propre clinique et sa propre cantine. La délégation du gouvernement central et les autorités municipales ont déclaré que 334 individus ont été évacués et deux ont été arrêtés lors d'une opération impliquant 400 policiers nationaux et municipaux, des pompiers et des services sociaux, que les autorités ont affirmé s'être déroulée sans violence. À l'inverse, les organisateurs de la protestation ont qualifié l'action d'opération policière violente et ont déclaré que plusieurs personnes ont subi des blessures dues à des coups et du gaz lacrymogène. Après l'évacuation, le mouvement a annoncé son intention de poursuivre les activités de protestation dans les quartiers locaux et de soutenir une grève générale prévue pour le 11 novembre.",
+   "summary": "Pendant plus d'un mois, des manifestants ont maintenu un vaste campement de tentes sur la place de la Puerta del Sol à Madrid pour protester contre la flambée des coûts du logement et la faiblesse de la protection des locataires dans toute l'Espagne. Le mouvement a initialement éclaté à la suite de l'expulsion d'une femme âgée de son domicile de longue date. Le 3 novembre, les forces de sécurité comprenant 400 agents de police nationaux et municipaux, ainsi que des pompiers et des services sociaux, ont mené une opération nocturne pour évacuer le camp. Les autorités ont déclaré que 334 personnes avaient été évacuées et deux arrêtées pour rébellion, qualifiant l'opération de pacifique et sans incidents majeurs. En revanche, les organisateurs de la protestation ont condamné l'action comme une opération policière violente impliquant des coups et du gaz lacrymogène qui a fait plusieurs blessés. Des camps similaires ont vu le jour dans d'autres villes espagnoles, et le mouvement a contribué à des manifestations nationales plus larges et à une grève générale.",
    "demands": [
-    "Logement abordable",
-    "Protections renforcées pour les locataires",
-    "Limites aux expulsions"
+    "Un logement abordable et digne",
+    "Des protections renforcées pour les locataires",
+    "Des limites aux expulsions",
+    "Le renouvellement automatique des contrats de location"
    ],
-   "response": "Selon des sources gouvernementales et municipales, l'évacuation du camp de la Puerta del Sol a mobilisé 400 agents de police nationaux et municipaux, des pompiers et des services sociaux. Les autorités ont déclaré que l'opération a évacué 334 personnes et a entraîné deux arrestations sans violence. Les organisateurs l'ont qualifiée d'opération policière violente impliquant du gaz...",
+   "response": "Les autorités ont évacué le camp en mobilisant 400 agents de police nationaux et municipaux, des pompiers et les services sociaux. Des sources municipales et gouvernementales ont déclaré que l'opération s'était déroulée sans incident ni violence, évacuant 334 personnes et en arrêtant deux pour rébellion. Les organisateurs ont qualifié l'intervention d'opération violente impliquant du gaz lacrymogène et...",
    "updates": [
-    "Des manifestants ont installé un camp de tentes sur la place de la Puerta del Sol à la suite d'une importante manifestation contre les coûts du logement.",
-    "La plupart des comités de coordination ont quitté le site du camp avant les relocalisations prévues dans les quartiers.",
-    "La police et les équipes municipales ont démantelé le camp, évacuant 334 personnes et arrêtant deux individus."
+    "Le camp de protestation a été établi sur la place de la Puerta del Sol à Madrid à la suite d'une grande manifestation.",
+    "La police a démantelé le camp de protestation à Madrid pendant la nuit, évacuant 334 personnes et procédant à deux arrestations."
    ],
    "conflicts": [
-    "La police et les autorités municipales ont affirmé que l'évacuation du camp s'est déroulée sans violence ni incidents, tandis que les organisateurs l'ont décrite comme une opération policière violente impliquant du gaz lacrymogène et des blessures."
+    "Les autorités ont déclaré que l'évacuation du camp s'était faite de manière pacifique et sans violence, tandis que les organisateurs l'ont décrite comme une opération policière violente impliquant du gaz lacrymogène et des blessés."
    ],
    "numbers": {
     "crowd": "334 personnes ont été évacuées",
-    "arrests": "deux arrestations"
+    "arrests": "deux personnes arrêtées pour rébellion",
+    "injuries": "plusieurs personnes blessées après avoir été frappées ou à la suite de l'utilisation de gaz lacrymogène, selon les organisateurs"
    }
   },
   "de": {
-   "title": "Spanische Polizei räumt einmonatiges Wohnungsbau-Protestcamp in Madrid",
-   "seoTitle": "Madrider Polizei räumt Wohnungs-Protestcamp",
+   "title": "Spanische Polizei räumt monatelanges Protestlager für bezahlbaren Wohnraum in Madrid",
+   "seoTitle": "Polizei in Madrid räumt Wohnungsnot-Protestlager",
    "tea": {
-    "why": "Demonstranten bauten ein Camp auf, um gegen explodierende Wohnkosten, hohe Mieten und mangelnden Mieterschutz zu protestieren.",
-    "want": "Bezahlbaren Wohnraum, besseren Mieterschutz und ein Ende von Räumungen.",
-    "changed": "3. Nov.: Die Polizei räumte das Protestcamp an der Puerta del Sol, entfernte 334 Personen und nahm zwei Festnahmen vor."
+    "why": "Demonstranten protestierten gegen hohe Wohnkosten, mangelnden Mieterschutz und die Räumung älterer Mieter.",
+    "want": "Sie forderten bezahlbaren Wohnraum, einen besseren Mieterschutz und Begrenzungen von Räumungen.",
+    "changed": "3. Nov.: Die Polizei räumte das Protestlager an der Puerta del Sol in Madrid, evakuierte 334 Personen und nahm zwei Festnahmen vor."
    },
-   "summary": "Behörden und Aktivisten berichteten, dass die spanische Polizei ein einmonatiges Protestlager auf der Madrider Puerta-del-Sol-Plaza aufgelöst hat. Das Camp wurde ursprünglich am 26. September nach landesweiter Empörung über die Räumung einer älteren Bewohnerin aus ihrem Zuhause infolge stark erhöhter Miete eingerichtet. Die provisorische Zeltstadt wuchs heran und beherbergte Hunderte von Menschen mit einer eigenen Klinik und Kantine. Die Delegation der Zentralregierung und die städtischen Behörden gaben an, dass während einer Operation mit 400 nationalen und städtischen Polizeibeamten, Feuerwehrleuten und Sozialdiensten 334 Personen entfernt und zwei festgenommen wurden, was nach Angaben der Behörden gewaltfrei verlief. Umgekehrt bezeichneten die Organisatoren des Protests die Aktion als gewaltsamen Polizeieinsatz und gaben an, dass mehrere Personen Verletzungen durch Schläge und Tränengas erlitten. Nach der Räumung kündigte die Bewegung an, Protestaktivitäten in lokalen Vierteln fortzusetzen und einen für den 11. November angesetzten Generalstreik zu unterstützen.",
+   "summary": "Über einen Monat lang unterhielten Demonstranten ein weitläufiges Zeltdorf auf der Puerta del Sol in Madrid, um gegen sprunghaft gestiegene Wohnkosten und einen schwachen Mieterschutz in ganz Spanien zu protestieren. Die Bewegung entfachte ursprünglich nach der Räumung einer älteren Frau aus ihrer langjährigen Wohnung. Am 3. November führten Sicherheitskräfte bestehend aus 400 nationalen und städtischen Polizeibeamten sowie Feuerwehr und sozialen Diensten einen nächtlichen Einsatz zur Räumung des Lagers durch. Die Behörden gaben an, dass 334 Personen entfernt und zwei wegen Widerstands gegen die Staatsgewalt festgenommen wurden, und bezeichneten die Operation als friedlich und ohne größere Zwischenfälle. Im Gegensatz dazu verurteilten die Protestorganisatoren die Aktion als gewaltsamen Polizeieinsatz mit körperlichen Hieben und Tränengas, bei dem mehrere Menschen verletzt wurden. Ähnliche Lager entstanden in anderen spanischen Städten, und die Bewegung trug zu größeren landesweiten Demonstrationen und einem Generalstreik bei.",
    "demands": [
-    "Bezahlbarer Wohnraum",
-    "Verbesserter Mieterschutz",
-    "Einschränkungen von Räumungen"
+    "Bezahlbarer und würdiger Wohnraum",
+    "Stärkerer Mieterschutz",
+    "Begrenzungen von Räumungen",
+    "Automatische Verlängerungen von Mietverträgen"
    ],
-   "response": "Regierungs- und Stadtkreisen zufolge waren an der Räumung des Puerta-del-Sol-Camps 400 nationale und städtische Polizeibeamte, Feuerwehrleute und Sozialdienste beteiligt. Die Behörden erklärten, die Operation habe 334 Personen entfernt und zu zwei gewaltfreien Festnahmen geführt. Organisatoren beschrieben es als gewaltsamen Polizeieinsatz mit Tränengas...",
+   "response": "Die Behörden räumten das Lager unter Einsatz von 400 nationalen und städtischen Polizeibeamten, Feuerwehr und sozialen Diensten. Stadt- und Regierungsquellen erklärten, dass die Operation ohne Zwischenfälle oder Gewalt ablief, wobei 334 Personen entfernt und zwei wegen Widerstands gegen die Staatsgewalt festgenommen wurden. Organisatoren nannten es einen gewaltsamen Einsatz mit Tränengas und...",
    "updates": [
-    "Demonstranten errichteten nach einem großen Protest gegen Wohnkosten ein Zeltlager an der Puerta del Sol.",
-    "Die meisten Koordinierungskomitees verließen das Lagergelände vor den geplanten Verlagerungen in die Stadtteile.",
-    "Polizei und städtische Teams räumten das Camp, entfernten 334 Personen und nahmen zwei Personen fest."
+    "Das Protestlager wurde im Anschluss an eine Großdemonstration auf der Puerta del Sol in Madrid errichtet.",
+    "Die Polizei räumte das Protestlager in Madrid über Nacht, entfernte 334 Personen und nahm zwei Festnahmen vor."
    ],
    "conflicts": [
-    "Polizei und Stadtbehörden gaben an, dass die Räumung des Camps gewaltfrei und ohne Zwischenfälle verlief, während Organisatoren es als gewaltsamen Polizeieinsatz mit Tränengas und Verletzten beschrieben."
+    "Die Behörden erklärten, die Räumung des Lagers sei friedlich und gewaltfrei verlaufen, während Organisatoren sie als gewaltsamen Polizeieinsatz mit Tränengas und Verletzten beschrieben."
    ],
    "numbers": {
     "crowd": "334 Personen wurden entfernt",
-    "arrests": "zwei festgenommen"
+    "arrests": "zwei Personen wegen Widerstands gegen die Staatsgewalt festgenommen",
+    "injuries": "mehrere Personen nach Schlägen oder infolge von Tränengas verletzt, so die Organisatoren"
+   }
+  },
+  "it": {
+   "title": "La polizia spagnola smantella un accampamento di protesta per la casa a Madrid dopo un mese",
+   "seoTitle": "La polizia di Madrid sgombera l'accampamento",
+   "tea": {
+    "why": "I manifestanti hanno protestato contro gli alti costi degli alloggi, la mancanza di tutele per gli inquilini e lo sfratto di inquilini anziani.",
+    "want": "Hanno chiesto alloggi a prezzi accessibili, maggiori tutele per gli inquilini e limiti agli sfratti.",
+    "changed": "3 nov: la polizia ha smantellato l'accampamento di protesta nella Puerta del Sol a Madrid, allontanando 334 persone e arrestando due persone."
+   },
+   "summary": "Per oltre un mese, i manifestanti hanno mantenuto un ampio accampamento di tende nella piazza Puerta del Sol a Madrid per protestare contro l'aumento vertiginoso dei costi degli alloggi e la debole tutela degli inquilini in tutta la Spagna. Il movimento è nato originariamente in seguito allo sfratto di un'anziana signora dalla sua casa di lunga data. Il 3 novembre, le forze di sicurezza composte da 400 agenti di polizia nazionale e municipale, insieme a vigili del fuoco e servizi sociali, hanno condotto un'operazione notturna per sgomberare l'accampamento. Le autorità hanno dichiarato che 334 persone sono state allontanate e due sono state arrestate per resistenza a pubblico ufficiale, descrivendo l'operazione come pacifica e senza incidenti di rilievo. Al contrario, gli organizzatori della protesta hanno condannato l'azione definendola un'operazione di polizia violenta che ha comportato percosse fisiche e gas lacrimogeni, lasciando diverse persone ferite. Accampamenti simili sono sorti in altre città spagnole e il movimento ha contribuito a manifestazioni nazionali più ampie e a uno sciopero generale.",
+   "demands": [
+    "Alloggi accessibili e dignitosi",
+    "Tutele più forti per gli inquilini",
+    "Limiti agli sfratti",
+    "Rinnovi automatici dei contratti di locazione"
+   ],
+   "response": "Le autorità hanno sgomberato l'accampamento impiegando 400 agenti di polizia nazionale e municipale, vigili del fuoco e servizi sociali. Fonti cittadine e governative hanno dichiarato che l'operazione si è svolta senza incidenti né violenze, allontanando 334 persone e arrestando due persone per resistenza a pubblico ufficiale. Gli organizzatori l'hanno definita un'operazione violenta che ha coinvolto gas lacrimogeni e...",
+   "updates": [
+    "L'accampamento di protesta è stato allestito nella piazza Puerta del Sol a Madrid in seguito a una grande manifestazione.",
+    "La polizia ha smantellato l'accampamento di protesta a Madrid durante la notte, allontanando 334 persone e arrestando due persone."
+   ],
+   "conflicts": [
+    "Le autorità hanno dichiarato che lo sgombero dell'accampamento è stato pacifico e senza violenza, mentre gli organizzatori lo hanno descritto come un'operazione di polizia violenta che ha comportato gas lacrimogeni e feriti."
+   ],
+   "numbers": {
+    "crowd": "334 persone sono state allontanate",
+    "arrests": "due persone arrestate per resistenza a pubblico ufficiale",
+    "injuries": "diverse persone ferite dopo essere state colpite o a causa dei gas lacrimogeni, secondo gli organizzatori"
+   }
+  },
+  "pt": {
+   "title": "Polícia espanhola desmantela acampamento de protesto pela habitação em Madrid após um mês",
+   "seoTitle": "Polícia de Madrid desmantela acampamento de protesto",
+   "tea": {
+    "why": "Os manifestantes protestaram contra os elevados custos da habitação, a falta de proteção para os inquilinos e o despejo de inquilinos idosos.",
+    "want": "Exigiram habitação acessível, melhores proteções para os inquilinos e limites aos despejos.",
+    "changed": "3 de nov.: A polícia desmantelou o acampamento de protesto na Puerta del Sol, em Madrid, retirando 334 pessoas e efetuando duas detenções."
+   },
+   "summary": "Durante mais de um mês, os manifestantes mantiveram um amplo acampamento de tendas na praça Puerta del Sol, em Madrid, para protestar contra o aumento vertiginoso dos custos da habitação e a fraca proteção dos inquilinos em toda a Espanha. O movimento surgiu originalmente na sequência do despejo de uma mulher idosa da sua casa de longa data. A 3 de novembro, as forças de segurança, compostas por 400 agentes da polícia nacional e municipal, juntamente com bombeiros e serviços sociais, realizaram uma operação noturna para desmantelar o acampamento. As autoridades afirmaram que 334 pessoas foram retiradas e duas foram detidas por desobediência à autoridade, descrevendo a operação como pacífica e sem incidentes graves. Em contrapartida, os organizadores do protesto condenaram a ação como uma operação policial violenta que envolveu agressões físicas e gás lacrimogéneo, deixando várias pessoas feridas. Acampamentos semelhantes surgiram noutras cidades espanholas, e o movimento contribuiu para manifestações nacionais mais alargadas e uma greve geral.",
+   "demands": [
+    "Habitação acessível e digna",
+    "Proteções mais fortes para os inquilinos",
+    "Limites aos despejos",
+    "Renovações automáticas de contratos de arrendamento"
+   ],
+   "response": "As autoridades desmantelaram o acampamento utilizando 400 agentes da polícia nacional e municipal, bombeiros e serviços sociais. Fontes municipais e governamentais afirmaram que a operação decorreu sem incidentes ou violência, retirando 334 pessoas e detendo duas por desobediência à autoridade. Os organizadores apelidaram-na de operação violenta que envolveu gás lacrimogéneo e...",
+   "updates": [
+    "O acampamento de protesto foi estabelecido na praça Puerta del Sol, em Madrid, na sequência de uma grande manifestação.",
+    "A polícia desmantelou o acampamento de protesto em Madrid durante a noite, retirando 334 pessoas e efetuando duas detenções."
+   ],
+   "conflicts": [
+    "As autoridades afirmaram que o desmantelamento do acampamento foi pacífico e sem violência, enquanto os organizadores o descreveram como uma operação policial violenta que envolveu gás lacrimogéneo e feridos."
+   ],
+   "numbers": {
+    "crowd": "334 pessoas foram retiradas",
+    "arrests": "duas pessoas detidas por desobediência à autoridade",
+    "injuries": "várias pessoas feridas após terem sido agredidas ou na sequência de gás lacrimogéneo, de acordo com os organizadores"
+   }
+  },
+  "nl": {
+   "title": "Spaanse politie ontmantelt maand lang woningprotestkamp in Madrid",
+   "seoTitle": "Madridse politie ontruimt woningprotestkamp",
+   "tea": {
+    "why": "Demonstranten protesteerden tegen hoge huisvestingskosten, een gebrek aan huurdersbescherming en de uitzetting van oudere huurders.",
+    "want": "Zij eisten betaalbare huisvesting, betere huurdersbescherming en beperkingen op uitzettingen.",
+    "changed": "3 nov.: De politie ontmantelde het protestkamp op de Puerta del Sol in Madrid, waarbij 334 mensen werden verwijderd en twee arrestaties werden verricht."
+   },
+   "summary": "Ruim een maand lang hielden demonstranten een uitgestrekt tentenkamp in stand op het Puerta del Sol-plein in Madrid om te protesteren tegen de stijgende huisvestingskosten en de zwakke huurdersbescherming in heel Spanje. De beweging ontstond oorspronkelijk naar aanleiding van de uitzetting van een bejaarde vrouw uit haar langdurige woning. Op 3 november voerden de veiligheidstroepen, bestaande uit 400 nationale en gemeentelijke politieagenten, samen met brandweer en sociale diensten een nachtelijke operatie uit om het kamp te ontruimen. Autoriteiten verklaarden dat 334 personen werden verwijderd en twee werden gearresteerd wegens verzet tegen het gezag, en omschreven de operatie als vredig en zonder grote incidenten. Daartegenover veroordeelden protestorganisatoren de actie als een gewelddadige politieoperatie waarbij fysieke klappen en traangas werden gebruikt, en verscheidene mensen gewond raakten. Soortgelijke kampen doken op in andere Spaanse steden, en de beweging droeg bij aan bredere nationale demonstraties en een algemene staking.",
+   "demands": [
+    "Betaalbare en waardige huisvesting",
+    "Sterkere huurdersbescherming",
+    "Beperkingen op uitzettingen",
+    "Automatische verlengingen van huurcontracten"
+   ],
+   "response": "Autoriteiten ontruimden het kamp met inzet van 400 nationale en gemeentelijke politieagenten, brandweer en sociale diensten. Stads- en overheidsbronnen verklaarden dat de operatie zonder incidenten of geweld plaatsvond, waarbij 334 mensen werden verwijderd en twee werden gearresteerd wegens verzet tegen het gezag. Organisatoren noemden het een gewelddadige operatie waarbij traangas werd ingezet en...",
+   "updates": [
+    "Het protestkamp werd opgezet op het Puerta del Sol-plein in Madrid volgend op een grote demonstratie.",
+    "De politie ontmantelde het protestkamp in Madrid 's nachts, waarbij 334 mensen werden verwijderd en twee arrestaties werden verricht."
+   ],
+   "conflicts": [
+    "Autoriteiten verklaarden dat de ontruiming van het kamp vreedzaam en zonder geweld verliep, terwijl organisatoren het omschreven als een gewelddadige politieoperatie waarbij traangas en verwondingen waren betrokken."
+   ],
+   "numbers": {
+    "crowd": "334 mensen werden verwijderd",
+    "arrests": "twee personen gearresteerd wegens verzet tegen het gezag",
+    "injuries": "verscheidene mensen gewond geraakt na te zijn geslagen of als gevolg van traangas, aldus organisatoren"
    }
   }
  },
