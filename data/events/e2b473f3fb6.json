@@ -15,34 +15,35 @@
  },
  "scope": "local",
  "causes": [
-  "labour"
+  "labour",
+  "jobs"
  ],
- "kind": "one-day",
+ "kind": "multi-day",
  "startedOn": "2026-11-12",
- "status": "ended",
- "vibe": "wrapped-up",
+ "status": "ongoing",
+ "vibe": "cooling-down",
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
-  "low-confidence"
+  "top-10"
  ],
- "isOngoing": false,
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Garment workers are protesting to demand an increase in their minimum monthly wage.",
-  "want": "The protesters are demanding a minimum monthly wage of Tk 30,000.",
-  "changed": "Nov 12: Police cleared the highway after firing sound grenades, and traffic resumed by 11:30 am."
+  "why": "Garment workers protested over wages and rumours of a worker dying from injuries sustained in prior clashes with police.",
+  "want": "A minimum monthly wage increase to Tk 30,000.",
+  "changed": "Nov 14: Workers gathered in scattered groups and blocked the Dhaka-Tangail highway in the Chandra Palli Bidyut area."
  },
- "summary": "On November 12, 2026, garment workers from several factories in the Kaliakair upazila of Gazipur, Bangladesh, blocked the Dhaka–Tangail Highway to demand a minimum monthly wage of Tk 30,000. According to police, the blockade began around 9:20 am and halted traffic for approximately two hours. The protest involved workers from multiple factories, including Lavender, Bay Footwear, Purbani, Logic, ATS, and Libas. In response to the unrest, seven factories declared a holiday. Gazipur Industrial Police Superintendent Amzad Hossain stated that police used sound grenades and chased the protesters to clear the road. By 11:30 am, traffic had returned to normal. Industrial police and the Border Guard Bangladesh were deployed to the area to maintain order. The protest is part of broader ongoing labour unrest in the garment sector regarding wage adjustments.",
+ "summary": "Garment workers in Kaliakair upazila of Gazipur staged multi-day protests and blocked the Dhaka-Tangail highway to demand a minimum monthly wage increase to Tk 30,000. The demonstrations involved employees from multiple factories, including Lavender, Bay Footwear, Purbani, Logic, ATS, Libas, Tropical Garments, and Apex Lingerie. The protests led to factory holiday declarations, traffic standstills, and severe disruptions for commuters. According to police and news reports, law enforcement deployed industrial police, highway police, and Border Guard Bangladesh (BGB) troopers, using sound grenades and tear gas to disperse crowds. Authorities stated that tensions were further fuelled by rumours that a worker injured during earlier clashes had died.",
  "organizers": [],
  "demands": [
-  "Increase minimum monthly wage to Tk 30,000"
+  "Raise the minimum monthly wage to Tk 30,000"
  ],
- "response": "Police fired sound grenades and chased workers to clear the highway, according to Gazipur Industrial Police Superintendent Amzad Hossain. Industrial police and Border Guard Bangladesh were also deployed to the area.",
+ "response": "According to police, officers attempted to persuade protesters to clear the road, and deployed industrial police, highway police, and Border Guard Bangladesh troopers, firing tear gas and sound grenades to disperse demonstrators.",
  "numbers": {
   "crowd": {
    "value": 2000,
-   "text": "Inspector Monzur Morshed of Naojor Highway Police stated around 2,000 workers blocked the highway.",
+   "text": "around 2,000 workers",
    "sources": [
     2
    ]
@@ -51,17 +52,17 @@
  "updates": [
   {
    "at": "2026-11-12",
-   "text": "Workers blocked the Dhaka-Tangail highway in Gazipur starting around 9:20 am to demand higher wages.",
+   "text": "Workers blocked the Dhaka-Tangail highway in Kaliakair, leading police to use sound grenades and clear the road.",
    "sources": [
     1,
     2
    ]
   },
   {
-   "at": "2026-11-12",
-   "text": "Police used sound grenades to disperse the crowd and cleared the highway by 11:30 am.",
+   "at": "2026-11-14",
+   "text": "Workers resumed protests and blocked the highway again amid rumours that an injured worker had died.",
    "sources": [
-    1
+    3
    ]
   }
  ],
@@ -79,162 +80,169 @@
    "publisher": "thestar.com.my",
    "title": "Bangladeshi garment workers block Gazipur highway demanding wage hike",
    "publishedAt": "2026-11-12T16:13:00.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://bdnews24.com/bangladesh/xwnvdmtsfa",
+   "publisher": "bdnews24.com",
+   "title": "Garment workers block Dhaka-Tangail highway in Gazipur, halting traffic",
+   "publishedAt": "2026-11-14T06:05:28.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 0,
- "reportsPrev24h": 2,
+ "confidence": 0.85,
+ "publishers": 3,
+ "reports24h": 1,
+ "reportsPrev24h": 1,
  "reports48h": 2,
  "firstSeenAt": "2026-11-13T04:52:38.539Z",
- "lastReportAt": "2026-11-12T16:13:00.000Z",
- "lastCheckedAt": "2026-11-14T04:53:29.712Z",
- "updatedAt": "2026-11-13T04:53:56.177Z",
- "endedOn": "2026-11-12",
+ "lastReportAt": "2026-11-14T06:05:28.000Z",
+ "lastCheckedAt": "2026-11-14T09:02:09.109Z",
+ "updatedAt": "2026-11-14T09:01:16.394Z",
  "responseSources": [
   1,
-  2
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-13T04:53:56.177Z",
- "summaryOf": "4d3396586df2",
+ "summarizedAt": "2026-11-14T09:01:16.394Z",
+ "summaryOf": "282f2e583b62",
  "publishedAt": "2026-11-13T04:53:56.966Z",
  "i18n": {
-  "of": "119daad9923e5bd4",
-  "at": "2026-11-13T04:55:07.829Z",
+  "of": "b4978ca51d59892a",
+  "at": "2026-11-14T09:02:27.681Z",
   "tries": 1,
   "es": {
-   "title": "Trabajadores textiles bloquean la carretera Dhaka-Tangail en Gazipur exigiendo un aumento salarial",
-   "seoTitle": "Protesta de trabajadores textiles en Gazipur",
+   "title": "Trabajadores de la confección bloquean la autopista Daca-Tangail en Gazipur exigiendo un aumento salarial",
+   "seoTitle": "Protesta de trabajadores en Gazipur",
    "tea": {
-    "why": "Los trabajadores textiles protestan para exigir un aumento de su salario mínimo mensual.",
-    "want": "Los manifestantes exigen un salario mínimo mensual de 30.000 Tk.",
-    "changed": "12 de noviembre: La policía despejó la carretera tras lanzar granadas aturdidoras y el tráfico se reanudó a las 11:30 am."
+    "why": "Los trabajadores de la confección protestaron por los salarios y los rumores de que un trabajador había muerto a causa de las heridas sufridas en enfrentamientos previos con la policía.",
+    "want": "Un aumento del salario mínimo mensual a 30.000 Tk.",
+    "changed": "14 de noviembre: Los trabajadores se reunieron en grupos dispersos y bloquearon la autopista Daca-Tangail en la zona de Chandra Palli Bidyut."
    },
-   "summary": "El 12 de noviembre de 2026, trabajadores textiles de varias fábricas en el upazila de Kaliakair en Gazipur, Bangladesh, bloquearon la carretera Dhaka-Tangail para exigir un salario mínimo mensual de 30.000 Tk. Según la policía, el bloqueo comenzó alrededor de las 9:20 am y detuvo el tráfico durante aproximadamente dos horas. La protesta involucró a trabajadores de múltiples fábricas, incluyendo Lavender, Bay Footwear, Purbani, Logic, ATS y Libas. En respuesta a los disturbios, siete fábricas declararon un día festivo. El superintendente de la Policía Industrial de Gazipur, Amzad Hossain, declaró que la policía utilizó granadas aturdidoras y persiguió a los manifestantes para despejar la carretera. A las 11:30 am, el tráfico había vuelto a la normalidad. La policía industrial y la Guardia Fronteriza de Bangladesh fueron desplegadas en la zona para mantener el orden. La protesta es parte de una agitación laboral más amplia en el sector textil respecto a los ajustes salariales.",
+   "summary": "Trabajadores de la confección en el subdistrito de Kaliakair, en Gazipur, organizaron protestas de varios días y bloquearon la autopista Daca-Tangail para exigir un aumento del salario mínimo mensual a 30.000 Tk. Las manifestaciones incluyeron a empleados de múltiples fábricas, incluidas Lavender, Bay Footwear, Purbani, Logic, ATS, Libas, Tropical Garments y Apex Lingerie. Las protestas provocaron declaraciones de días festivos en las fábricas, parones en el tráfico y graves interrupciones para los viajeros. Según la policía y los informes de prensa, las fuerzas del orden desplegaron a la policía industrial, la policía de carreteras y agentes de la Guardia Fronteriza de Bangladés (BGB), utilizando granadas aturdidoras y gases lacrimógenos para dispersar a las multitudes. Las autoridades afirmaron que las tensiones se vieron avivadas además por rumores de que un trabajador herido durante enfrentamientos anteriores había muerto.",
    "demands": [
     "Aumentar el salario mínimo mensual a 30.000 Tk"
    ],
-   "response": "La policía disparó granadas aturdidoras y persiguió a los trabajadores para despejar la carretera, según el superintendente de la Policía Industrial de Gazipur, Amzad Hossain. La policía industrial y la Guardia Fronteriza de Bangladesh también fueron desplegadas en la zona.",
+   "response": "Según la policía, los agentes intentaron persuadir a los manifestantes para que despejaran la carretera y desplegaron a la policía industrial, la policía de carreteras y agentes de la Guardia Fronteriza de Bangladés, disparando gases lacrimógenos y granadas aturdidoras para dispersar a los manifestantes.",
    "updates": [
-    "Los trabajadores bloquearon la carretera Dhaka-Tangail en Gazipur a partir de las 9:20 am aproximadamente para exigir salarios más altos.",
-    "La policía utilizó granadas aturdidoras para dispersar a la multitud y despejó la carretera a las 11:30 am."
+    "Los trabajadores bloquearon la autopista Daca-Tangail en Kaliakair, lo que llevó a la policía a utilizar granadas aturdidoras y despejar la carretera.",
+    "Los trabajadores reanudaron las protestas y volvieron a bloquear la autopista en medio de rumores de que un trabajador herido había muerto."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "El inspector Monzur Morshed de la Policía de Carreteras de Naojor declaró que alrededor de 2.000 trabajadores bloquearon la carretera."
+    "crowd": "alrededor de 2.000 trabajadores"
    }
   },
   "fr": {
-   "title": "Des ouvriers du textile bloquent l'autoroute Dhaka-Tangail à Gazipur pour exiger une hausse des salaires",
-   "seoTitle": "Manifestation des ouvriers du textile à Gazipur",
+   "title": "Des ouvriers du textile bloquent l'autoroute Dacca-Tangail à Gazipur pour exiger une hausse des salaires",
+   "seoTitle": "Manifestation d'ouvriers du textile à Gazipur",
    "tea": {
-    "why": "Les ouvriers du textile manifestent pour exiger une augmentation de leur salaire mensuel minimum.",
-    "want": "Les manifestants exigent un salaire mensuel minimum de 30 000 Tk.",
-    "changed": "12 novembre : La police a dégagé l'autoroute après avoir tiré des grenades assourdissantes, et le trafic a repris à 11 h 30."
+    "why": "Des ouvriers du textile ont manifesté pour des raisons salariales et en raison de rumeurs concernant le décès d'un travailleur des suites de blessures subies lors de précédents affrontements avec la police.",
+    "want": "Une augmentation du salaire minimum mensuel à 30 000 Tk.",
+    "changed": "14 nov. : Des ouvriers se sont rassemblés en groupes éparpillés et ont bloqué l'autoroute Dacca-Tangail dans la zone de Chandra Palli Bidyut."
    },
-   "summary": "Le 12 novembre 2026, des ouvriers du textile provenant de plusieurs usines de l'upazila de Kaliakair à Gazipur, au Bangladesh, ont bloqué l'autoroute Dhaka-Tangail pour exiger un salaire mensuel minimum de 30 000 Tk. Selon la police, le blocage a débuté vers 9 h 20 et a interrompu la circulation pendant environ deux heures. La manifestation impliquait des ouvriers de plusieurs usines, dont Lavender, Bay Footwear, Purbani, Logic, ATS et Libas. En réponse aux troubles, sept usines ont déclaré une journée chômée. Le surintendant de la police industrielle de Gazipur, Amzad Hossain, a déclaré que la police a utilisé des grenades assourdissantes et a poursuivi les manifestants pour dégager la route. À 11 h 30, le trafic était revenu à la normale. La police industrielle et les gardes-frontières du Bangladesh ont été déployés dans la zone pour maintenir l'ordre. La manifestation s'inscrit dans le cadre d'un mouvement social plus large dans le secteur du textile concernant les ajustements salariaux.",
+   "summary": "Des ouvriers du textile de l'upazila de Kaliakair, à Gazipur, ont organisé des manifestations sur plusieurs jours et ont bloqué l'autoroute Dacca-Tangail pour exiger une augmentation du salaire minimum mensuel à 30 000 Tk. Les mobilisations ont impliqué des employés de plusieurs usines, notamment Lavender, Bay Footwear, Purbani, Logic, ATS, Libas, Tropical Garments et Apex Lingerie. Les manifestations ont entraîné la déclaration de congés dans les usines, des arrêts de la circulation et de graves perturbations pour les navetteurs. Selon la police et des reportages de presse, les forces de l'ordre ont déployé la police industrielle, la police routière et des troupes des Gardes-frontières du Bangladesh (BGB), en ayant recours à des grenades sonores et à des gaz lacrymogènes pour disperser les foules. Les autorités ont déclaré que les tensions avaient été alimentées davantage par des rumeurs selon lesquelles un travailleur blessé lors d'affrontements antérieurs était décédé.",
    "demands": [
-    "Augmenter le salaire mensuel minimum à 30 000 Tk"
+    "Augmenter le salaire minimum mensuel à 30 000 Tk"
    ],
-   "response": "La police a tiré des grenades assourdissantes et a poursuivi les ouvriers pour dégager l'autoroute, selon le surintendant de la police industrielle de Gazipur, Amzad Hossain. La police industrielle et les gardes-frontières du Bangladesh ont également été déployés dans la zone.",
+   "response": "Selon la police, les agents ont tenté de persuader les manifestants de libérer la route et ont déployé la police industrielle, la police routière ainsi que des troupes des Gardes-frontières du Bangladesh, tirant des gaz lacrymogènes et des grenades sonores pour disperser les manifestants.",
    "updates": [
-    "Les ouvriers ont bloqué l'autoroute Dhaka-Tangail à Gazipur à partir de 9 h 20 environ pour exiger des salaires plus élevés.",
-    "La police a utilisé des grenades assourdissantes pour disperser la foule et a dégagé l'autoroute à 11 h 30."
+    "Des ouvriers ont bloqué l'autoroute Dacca-Tangail à Kaliakair, incitant la police à utiliser des grenades sonores et à dégager la route.",
+    "Des ouvriers ont repris les protestations et ont bloqué à nouveau l'autoroute sur fond de rumeurs selon lesquelles un ouvrier blessé était décédé."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "L'inspecteur Monzur Morshed de la police de l'autoroute de Naojor a déclaré qu'environ 2 000 ouvriers ont bloqué l'autoroute."
+    "crowd": "environ 2 000 travailleurs"
    }
   },
   "de": {
-   "title": "Textilarbeiter blockieren Autobahn Dhaka-Tangail in Gazipur und fordern Lohnerhöhung",
-   "seoTitle": "Protest von Textilarbeitern in Gazipur",
+   "title": "Textilarbeiter blockieren Dhaka-Tangail-Autobahn in Gazipur und fordern Lohnerhöhung",
+   "seoTitle": "Textilarbeiter-Protest auf Autobahn in Gazipur",
    "tea": {
-    "why": "Textilarbeiter protestieren, um eine Erhöhung ihres monatlichen Mindestlohns zu fordern.",
-    "want": "Die Demonstranten fordern einen monatlichen Mindestlohn von 30.000 Tk.",
-    "changed": "12. November: Die Polizei räumte die Autobahn nach dem Einsatz von Blendgranaten, und der Verkehr wurde bis 11:30 Uhr wieder aufgenommen."
+    "why": "Textilarbeiter protestierten wegen Löhnen und Gerüchten über den Tod eines Arbeiters an Verletzungen aus früheren Zusammenstößen mit der Polizei.",
+    "want": "Eine Erhöhung des monatlichen Mindestlohns auf 30.000 Tk.",
+    "changed": "14. Nov.: Arbeiter versammelten sich in verstreuten Gruppen und blockierten die Dhaka-Tangail-Autobahn im Gebiet Chandra Palli Bidyut."
    },
-   "summary": "Am 12. November 2026 blockierten Textilarbeiter aus mehreren Fabriken im Upazila Kaliakair in Gazipur, Bangladesch, die Autobahn Dhaka-Tangail, um einen monatlichen Mindestlohn von 30.000 Tk zu fordern. Laut Polizei begann die Blockade gegen 9:20 Uhr und legte den Verkehr für etwa zwei Stunden lahm. An dem Protest waren Arbeiter aus mehreren Fabriken beteiligt, darunter Lavender, Bay Footwear, Purbani, Logic, ATS und Libas. Als Reaktion auf die Unruhen erklärten sieben Fabriken einen arbeitsfreien Tag. Der Superintendent der Industriepolizei von Gazipur, Amzad Hossain, erklärte, dass die Polizei Blendgranaten einsetzte und die Demonstranten verfolgte, um die Straße zu räumen. Bis 11:30 Uhr hatte sich der Verkehr normalisiert. Die Industriepolizei und die Grenzschutzbehörde von Bangladesch wurden in das Gebiet entsandt, um die Ordnung aufrechtzuerhalten. Der Protest ist Teil breiterer, anhaltender Arbeitsunruhen im Textilsektor bezüglich Lohnanpassungen.",
+   "summary": "Textilarbeiter im Upazila Kaliakair in Gazipur veranstalteten mehrtägige Proteste und blockierten die Dhaka-Tangail-Autobahn, um eine Erhöhung des monatlichen Mindestlohns auf 30.000 Tk zu fordern. An den Kundgebungen waren Beschäftigte aus mehreren Fabriken beteiligt, darunter Lavender, Bay Footwear, Purbani, Logic, ATS, Libas, Tropical Garments und Apex Lingerie. Die Proteste führten zu Fabrikurlaubserklärungen, Verkehrsstillständen und schweren Beeinträchtigungen für Pendler. Laut Polizei und Medienberichten setzten die Sicherheitskräfte Industriepolizei, Autobahnpolizei und Truppen der Grenzschutzbehörde von Bangladesch (BGB) ein und verwendeten Blendgranaten und Tränengas, um die Menschenmengen zu verteilen. Behörden erklärten, dass die Spannungen durch Gerüchte weiter angeheizt wurden, wonach ein bei früheren Zusammenstößen verletzter Arbeiter gestorben sei.",
    "demands": [
-    "Erhöhung des monatlichen Mindestlohns auf 30.000 Tk"
+    "Anhebung des monatlichen Mindestlohns auf 30.000 Tk"
    ],
-   "response": "Die Polizei feuerte Blendgranaten ab und verfolgte die Arbeiter, um die Autobahn zu räumen, so der Superintendent der Industriepolizei von Gazipur, Amzad Hossain. Die Industriepolizei und die Grenzschutzbehörde von Bangladesch wurden ebenfalls in das Gebiet entsandt.",
+   "response": "Laut Polizei versuchten Beamte, die Demonstranten zum Räumen der Straße zu bewegen, und setzten Industriepolizei, Autobahnpolizei sowie Truppen der Grenzschutzbehörde von Bangladesch ein, wobei sie Tränengas und Blendgranaten abfeuerten, um die Demonstrierenden zu zerstreuen.",
    "updates": [
-    "Arbeiter blockierten die Autobahn Dhaka-Tangail in Gazipur ab etwa 9:20 Uhr, um höhere Löhne zu fordern.",
-    "Die Polizei setzte Blendgranaten ein, um die Menge zu zerstreuen, und räumte die Autobahn bis 11:30 Uhr."
+    "Arbeiter blockierten die Dhaka-Tangail-Autobahn in Kaliakair, woraufhin die Polizei Blendgranaten einsetzte und die Straße räumte.",
+    "Arbeiter nahmen die Proteste wieder auf und blockierten die Autobahn erneut inmitten von Gerüchten, dass ein verletzter Arbeiter gestorben sei."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Inspektor Monzur Morshed von der Autobahnpolizei Naojor erklärte, dass etwa 2.000 Arbeiter die Autobahn blockierten."
+    "crowd": "rund 2.000 Arbeiter"
    }
   },
   "it": {
-   "title": "Operai tessili bloccano l'autostrada Dhaka-Tangail a Gazipur chiedendo un aumento salariale",
-   "seoTitle": "Protesta operai tessili a Gazipur",
+   "title": "Operai del settore abbigliamento bloccano l'autostrada Daka-Tangail a Gazipur chiedendo un aumento salariale",
+   "seoTitle": "Protesta autostradale degli operai a Gazipur",
    "tea": {
-    "why": "Gli operai tessili stanno protestando per richiedere un aumento del loro salario minimo mensile.",
-    "want": "I manifestanti chiedono un salario minimo mensile di 30.000 Tk.",
-    "changed": "12 novembre: La polizia ha liberato l'autostrada dopo aver lanciato granate stordenti e il traffico è ripreso entro le 11:30."
+    "why": "Gli operai del settore abbigliamento hanno protestato per i salari e per le voci sulla morte di un lavoratore a causa delle ferite riportate in precedenti scontri con la polizia.",
+    "want": "Un aumento del salario minimo mensile a 30.000 Tk.",
+    "changed": "14 nov: I lavoratori si sono radunati in gruppi sparsi e hanno bloccato l'autostrada Daka-Tangail nella zona di Chandra Palli Bidyut."
    },
-   "summary": "Il 12 novembre 2026, gli operai tessili di diverse fabbriche nell'upazila di Kaliakair a Gazipur, in Bangladesh, hanno bloccato l'autostrada Dhaka-Tangail per chiedere un salario minimo mensile di 30.000 Tk. Secondo la polizia, il blocco è iniziato intorno alle 9:20 e ha interrotto il traffico per circa due ore. La protesta ha coinvolto lavoratori di diverse fabbriche, tra cui Lavender, Bay Footwear, Purbani, Logic, ATS e Libas. In risposta ai disordini, sette fabbriche hanno dichiarato una giornata di chiusura. Il sovrintendente della polizia industriale di Gazipur, Amzad Hossain, ha dichiarato che la polizia ha utilizzato granate stordenti e ha inseguito i manifestanti per liberare la strada. Entro le 11:30, il traffico era tornato alla normalità. La polizia industriale e la Guardia di frontiera del Bangladesh sono state dispiegate nell'area per mantenere l'ordine. La protesta fa parte di una più ampia agitazione sindacale in corso nel settore tessile riguardo agli adeguamenti salariali.",
+   "summary": "Gli operai del settore abbigliamento nell'upazila di Kaliakair, a Gazipur, hanno organizzato proteste durate più giorni e hanno bloccato l'autostrada Daka-Tangail per chiedere un aumento del salario minimo mensile a 30.000 Tk. Le manifestazioni hanno coinvolto dipendenti di molteplici fabbriche, tra cui Lavender, Bay Footwear, Purbani, Logic, ATS, Libas, Tropical Garments e Apex Lingerie. Le proteste hanno portato alla dichiarazione di ferie aziendali, a blocchi del traffico e a gravi disagi per i pendolari. Secondo la polizia e i resoconti giornalistici, le forze dell'ordine hanno schierato la polizia industriale, la polizia autostradale e truppe delle Guardie di frontiera del Bangladesh (BGB), utilizzando granate stordenti e gas lacrimogeni per disperdere la folla. Le autorità hanno dichiarato che le tensioni sono state ulteriormente alimentate da voci secondo cui un lavoratore ferito durante i precedenti scontri sarebbe deceduto.",
    "demands": [
     "Aumentare il salario minimo mensile a 30.000 Tk"
    ],
-   "response": "La polizia ha sparato granate stordenti e ha inseguito i lavoratori per liberare l'autostrada, secondo il sovrintendente della polizia industriale di Gazipur, Amzad Hossain. La polizia industriale e la Guardia di frontiera del Bangladesh sono state anch'esse dispiegate nell'area.",
+   "response": "Secondo la polizia, gli agenti hanno tentato di persuadere i manifestanti a sgomberare la strada e hanno schierato la polizia industriale, la polizia autostradale e truppe delle Guardie di frontiera del Bangladesh, sparando gas lacrimogeni e granate stordenti per disperdere i dimostranti.",
    "updates": [
-    "I lavoratori hanno bloccato l'autostrada Dhaka-Tangail a Gazipur a partire dalle 9:20 circa per chiedere salari più alti.",
-    "La polizia ha utilizzato granate stordenti per disperdere la folla e ha liberato l'autostrada entro le 11:30."
+    "I lavoratori hanno bloccato l'autostrada Daka-Tangail a Kaliakair, spingendo la polizia a usare granate stordenti e a liberare la strada.",
+    "I lavoratori hanno ripreso le proteste e hanno bloccato nuovamente l'autostrada tra le voci secondo cui un lavoratore ferito era deceduto."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "L'ispettore Monzur Morshed della polizia autostradale di Naojor ha dichiarato che circa 2.000 lavoratori hanno bloccato l'autostrada."
+    "crowd": "circa 2.000 lavoratori"
    }
   },
   "pt": {
-   "title": "Trabalhadores têxteis bloqueiam a autoestrada Dhaka-Tangail em Gazipur a exigir aumento salarial",
-   "seoTitle": "Protesto de trabalhadores têxteis em Gazipur",
+   "title": "Trabalhadores do vestuário bloqueiam autoestrada Daca-Tangail em Gazipur a exigir aumento salarial",
+   "seoTitle": "Protesto de trabalhadores de vestuário em Gazipur",
    "tea": {
-    "why": "Os trabalhadores têxteis estão a protestar para exigir um aumento do seu salário mínimo mensal.",
-    "want": "Os manifestantes exigem um salário mínimo mensal de 30.000 Tk.",
-    "changed": "12 de novembro: A polícia desobstruiu a autoestrada após disparar granadas atordoantes, e o trânsito foi retomado às 11:30."
+    "why": "Trabalhadores do vestuário protestaram devido a salários e a rumores sobre a morte de um trabalhador na sequência de ferimentos sofridos em confrontos anteriores com a polícia.",
+    "want": "Um aumento do salário mínimo mensal para 30.000 Tk.",
+    "changed": "14 nov.: Trabalhadores reuniram-se em grupos dispersos e bloquearam a autoestrada Daca-Tangail na zona de Chandra Palli Bidyut."
    },
-   "summary": "A 12 de novembro de 2026, trabalhadores têxteis de várias fábricas no upazila de Kaliakair em Gazipur, no Bangladesh, bloquearam a autoestrada Dhaka-Tangail para exigir um salário mínimo mensal de 30.000 Tk. Segundo a polícia, o bloqueio começou por volta das 9:20 e interrompeu o trânsito durante aproximadamente duas horas. O protesto envolveu trabalhadores de várias fábricas, incluindo Lavender, Bay Footwear, Purbani, Logic, ATS e Libas. Em resposta aos distúrbios, sete fábricas declararam um dia de folga. O superintendente da Polícia Industrial de Gazipur, Amzad Hossain, afirmou que a polícia utilizou granadas atordoantes e perseguiu os manifestantes para desobstruir a estrada. Às 11:30, o trânsito tinha voltado ao normal. A polícia industrial e a Guarda de Fronteira do Bangladesh foram destacadas para a zona para manter a ordem. O protesto faz parte de uma agitação laboral mais vasta em curso no setor têxtil relativamente a ajustes salariais.",
+   "summary": "Trabalhadores do vestuário no subdistrito de Kaliakair, em Gazipur, realizaram protestos de vários dias e bloquearam a autoestrada Daca-Tangail para exigir um aumento do salário mínimo mensal para 30.000 Tk. As manifestações envolveram funcionários de várias fábricas, incluindo Lavender, Bay Footwear, Purbani, Logic, ATS, Libas, Tropical Garments e Apex Lingerie. Os protestos resultaram na declaração de feriados fabris, paralisações no trânsito e graves perturbações para os passageiros pendulares. Segundo a polícia e relatos noticiosos, as autoridades policiais mobilizaram a polícia industrial, a polícia rodoviária e tropas da Guarda de Fronteira do Bangladeche (BGB), utilizando granadas de efeito moral e gás lacrimogéneo para dispersar as multidões. As autoridades declararam que as tensões foram ainda alimentadas por rumores de que um trabalhador ferido durante confrontos anteriores tinha morrido.",
    "demands": [
     "Aumentar o salário mínimo mensal para 30.000 Tk"
    ],
-   "response": "A polícia disparou granadas atordoantes e perseguiu os trabalhadores para desobstruir a autoestrada, segundo o superintendente da Polícia Industrial de Gazipur, Amzad Hossain. A polícia industrial e a Guarda de Fronteira do Bangladesh também foram destacadas para a zona.",
+   "response": "Segundo a polícia, os agentes tentaram persuadir os manifestantes a desobstruir a estrada e mobilizaram a polícia industrial, a polícia rodoviária e tropas da Guarda de Fronteira do Bangladeche, disparando gás lacrimogéneo e granadas de efeito moral para dispersar os manifestantes.",
    "updates": [
-    "Os trabalhadores bloquearam a autoestrada Dhaka-Tangail em Gazipur a partir das 9:20 aproximadamente para exigir salários mais altos.",
-    "A polícia utilizou granadas atordoantes para dispersar a multidão e desobstruiu a autoestrada às 11:30."
+    "Trabalhadores bloquearam a autoestrada Daca-Tangail em Kaliakair, levando a polícia a utilizar granadas de efeito moral e a desobstruir a estrada.",
+    "Trabalhadores retomaram os protestos e voltaram a bloquear a autoestrada em amid de rumores de que um trabalhador ferido tinha morrido."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "O inspetor Monzur Morshed da Polícia de Autoestradas de Naojor afirmou que cerca de 2.000 trabalhadores bloquearam a autoestrada."
+    "crowd": "cerca de 2.000 trabalhadores"
    }
   },
   "nl": {
-   "title": "Kledingarbeiders blokkeren snelweg Dhaka-Tangail in Gazipur met eis voor loonsverhoging",
-   "seoTitle": "Protest kledingarbeiders Gazipur",
+   "title": "Kledingarbeiders blokkeren Dhaka-Tangail-snelweg in Gazipur en eisen loonsverhoging",
+   "seoTitle": "Protest van kledingarbeiders op snelweg in Gazipur",
    "tea": {
-    "why": "Kledingarbeiders protesteren om een verhoging van hun maandelijkse minimumloon te eisen.",
-    "want": "De demonstranten eisen een maandelijks minimumloon van 30.000 Tk.",
-    "changed": "12 november: De politie maakte de snelweg vrij na het afvuren van flitsgranaten en het verkeer werd om 11:30 uur hervat."
+    "why": "Kledingarbeiders protesteerden vanwege lonen en geruchten dat een arbeider was overleden aan verwondingen opgelopen bij eerdere botsingen met de politie.",
+    "want": "Een verhoging van het maandelijkse minimumloon naar 30.000 Tk.",
+    "changed": "14 nov.: Arbeiders verzamelden zich in verspreide groepen en blokkeerden de Dhaka-Tangail-snelweg in het gebied Chandra Palli Bidyut."
    },
-   "summary": "Op 12 november 2026 blokkeerden kledingarbeiders van verschillende fabrieken in de upazila Kaliakair in Gazipur, Bangladesh, de snelweg Dhaka-Tangail om een maandelijks minimumloon van 30.000 Tk te eisen. Volgens de politie begon de blokkade rond 09:20 uur en lag het verkeer ongeveer twee uur stil. Bij het protest waren arbeiders betrokken van meerdere fabrieken, waaronder Lavender, Bay Footwear, Purbani, Logic, ATS en Libas. Als reactie op de onrust verklaarden zeven fabrieken een vrije dag. De superintendent van de industriële politie van Gazipur, Amzad Hossain, verklaarde dat de politie flitsgranaten gebruikte en de demonstranten achtervolgde om de weg vrij te maken. Om 11:30 uur was het verkeer weer normaal. De industriële politie en de grenswacht van Bangladesh werden naar het gebied gestuurd om de orde te handhaven. Het protest maakt deel uit van bredere, aanhoudende arbeidsonrust in de kledingsector over loonaanpassingen.",
+   "summary": "Kledingarbeiders in het upazila Kaliakair in Gazipur hielden meerdaagse protesten en blokkeerden de Dhaka-Tangail-snelweg om een verhoging van het maandelijkse minimumloon naar 30.000 Tk te eisen. Bij de betogingen waren werknemers van meerdere fabrieken betrokken, waaronder Lavender, Bay Footwear, Purbani, Logic, ATS, Libas, Tropical Garments en Apex Lingerie. De protesten leidden tot aankondigingen van fabrieksvakanties, verkeersstilstanden en ernstige verstoringen voor pendelaars. Volgens de politie en nieuwsberichten zetten de handhavingsinstanties industriële politie, snelwegpolitie en troepen van de Grenswacht van Bangladesh (BGB) in, waarbij ze gebruikmaakten van persluchtgranaten en tranengas om de menigten uiteen te jagen. Autoriteiten verklaarden dat de spanningen verder werden aangewakkerd door geruchten dat een arbeider die tijdens eerdere botsingen gewond was geraakt, was overleden.",
    "demands": [
-    "Verhoog het maandelijkse minimumloon naar 30.000 Tk"
+    "Verhoog het maandelijkse minimumloon tot 30.000 Tk"
    ],
-   "response": "De politie vuurde flitsgranaten af en achtervolgde de arbeiders om de snelweg vrij te maken, aldus de superintendent van de industriële politie van Gazipur, Amzad Hossain. De industriële politie en de grenswacht van Bangladesh werden ook naar het gebied gestuurd.",
+   "response": "Volgens de politie probeerden agenten demonstranten over the halen de weg vrij te maken en zetten ze industriële politie, snelwegpolitie en troepen van de Grenswacht van Bangladesh in, waarbij ze tranengas en persluchtgranaten afvuurden om de betogers uiteen te jagen.",
    "updates": [
-    "Arbeiders blokkeerden de snelweg Dhaka-Tangail in Gazipur vanaf ongeveer 09:20 uur om hogere lonen te eisen.",
-    "De politie gebruikte flitsgranaten om de menigte uiteen te drijven en maakte de snelweg om 11:30 uur vrij."
+    "Arbeiders blokkeerden de Dhaka-Tangail-snelweg in Kaliakair, wat de politie ertoe bracht persluchtgranaten te gebruiken en de weg vrij te maken.",
+    "Arbeiders hervatten de protesten en blokkeerden de snelweg opnieuw te midden van geruchten dat een gewonde arbeider was overleden."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Inspecteur Monzur Morshed van de snelwegpolitie van Naojor verklaarde dat ongeveer 2.000 arbeiders de snelweg blokkeerden."
+    "crowd": "ongeveer 2.000 arbeiders"
    }
   }
  }

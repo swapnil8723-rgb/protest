@@ -23,40 +23,51 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Railway workers protested over low wages and long-standing issues in Slovak railways.",
-  "want": "A 10 percent wage increase starting January 1, 2027.",
-  "changed": "Nov 12: Railway workers marched from the main station past the finance ministry to the transport ministry."
+  "why": "Railway workers protested due to rising inflation, lagging salaries, and long-standing problems within the railway sector.",
+  "want": "A 10 percent wage increase starting January 2027, sector-wide agreements, and better infrastructure investments.",
+  "changed": "Nov 12: Railway workers marched in Bratislava to the Transport Ministry to demand higher pay."
  },
- "summary": "Railway workers marched through the streets of Bratislava to protest low wages and long-standing issues in Slovakia's railway sector, after negotiations with ŽSR failed. Organised by railway trade unions, the march began at the main railway station, moved past the finance ministry, and concluded in front of the Ministry of Transport building. Protesters demanded a ten percent wage increase starting January 1, 2027, noting that salaries lag behind inflation and rising costs, and expressed concern that money for promised wage hikes is missing from the state budget. In response, the Ministry of Transport stated that wages have grown under the current leadership and that companies are negotiating further pay increases. ŽSR stated they respect the social partner's actions and will continue social dialogue, while noting they do not currently plan an immediate full strike.",
+ "summary": "Hundreds of railway workers gathered outside Slovakia's Transport Ministry in Bratislava on Thursday to demand higher wages, improved workplace safety, and increased investment in railway infrastructure. Organised by representatives of 17 trade unions, the protest procession started at Bratislava's main railway station and moved past the finance ministry to Freedom Square. Protesters called for a ten percent wage increase from January 2027, better legal protections, and a sector-wide collective agreement. The Ministry of Transport and Slovak Railways stated that wages had already risen under current leadership and noted that ongoing collective bargaining would continue.",
  "organizers": [
-  "Odborové združenie železničiarov"
+  "Odborové združenie železničiarov",
+  "Slovak Train Drivers' Federation"
  ],
  "demands": [
-  "Ten percent wage increase from January 1, 2027"
+  "A 10 percent wage increase starting January 1, 2027",
+  "Improved workplace safety and stronger legal protection",
+  "Sector-wide collective agreements",
+  "Addressing staff shortages in key professions",
+  "Establishment of a state transport infrastructure fund"
  ],
- "response": "The transport ministry stated that salaries in the three railway companies have grown by 18 percent in ŽSR, 17 percent in ZSSK, and 13.4 percent in ZSSK Cargo under current leadership. ŽSR stated they respect the social dialogue and will continue negotiations.",
- "numbers": {},
+ "response": "The Transport Ministry and Slovak Railways stated that wages have increased under current leadership by 18 percent at ŽSR, 17 percent at ZSSK, and 13.4 percent at ZSSK Cargo, while negotiations and social dialogue continue.",
+ "numbers": {
+  "crowd": {
+   "value": 100,
+   "text": "Hundreds of railway workers gathered outside Slovakia's Transport Ministry",
+   "sources": [
+    3
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-11-11",
-   "text": "Following failed negotiations with ŽSR, a protest march was announced to take place in Bratislava on November 12.",
+   "text": "Negotiations with ŽSR failed, leading unions to announce a march and protest in Bratislava for the following day.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-12",
-   "text": "Railway workers marched from the main station to the Ministry of Transport to demand higher salaries.",
+   "text": "Railway workers marched from the main railway station to the Transport Ministry, demanding a 10 percent pay rise.",
    "sources": [
-    1,
-    2
+    2,
+    3
    ]
   }
  ],
@@ -74,27 +85,35 @@
    "publisher": "tnlive.sk",
    "title": "Odborári vyšli do ulíc, časť je v štrajkovej pohotovosti. Železničiari požadujú vyššie platy | tnlive.sk",
    "publishedAt": "2026-11-12T18:36:00.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://enrsi.stvr.sk/articles/topical-issue/468605/railway-workers-protest-in-bratislava-over-pay-and-working-conditions",
+   "publisher": "enrsi.stvr.sk",
+   "title": "Railway Workers Protest in Bratislava Over Pay and Working Conditions - Topical Issue - Rádio RSI English - STVR",
+   "publishedAt": "2026-11-13T12:00:00.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 0,
+ "confidence": 0.8,
+ "publishers": 3,
+ "reports24h": 1,
  "reportsPrev24h": 1,
- "reports48h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-12T10:01:22.912Z",
- "lastReportAt": "2026-11-12T18:36:00.000Z",
- "lastCheckedAt": "2026-11-14T04:53:29.712Z",
- "updatedAt": "2026-11-14T04:53:22.549Z",
+ "lastReportAt": "2026-11-13T12:00:00.000Z",
+ "lastCheckedAt": "2026-11-14T09:02:09.109Z",
+ "updatedAt": "2026-11-14T09:01:23.068Z",
  "searchedAt": "2026-11-14T04:50:45.197Z",
  "endedOn": "2026-11-12",
  "responseSources": [
-  2
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-14T04:53:22.549Z",
- "summaryOf": "5b175bf6032d",
+ "summarizedAt": "2026-11-14T09:01:23.068Z",
+ "summaryOf": "266f7a2e47e0",
  "publishedAt": "2026-11-14T04:53:29.712Z",
  "i18n": {
   "of": "ef530f4b42bf1c0e",
@@ -220,5 +239,8 @@
    "conflicts": [],
    "numbers": {}
   }
- }
+ },
+ "distinctFrom": [
+  "e75101ef3d2"
+ ]
 }
