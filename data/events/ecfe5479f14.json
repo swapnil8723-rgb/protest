@@ -16,45 +16,46 @@
  "scope": "nationwide",
  "causes": [
   "prices",
-  "labour",
-  "anti-government"
+  "jobs",
+  "labour"
  ],
- "kind": "one-day",
+ "kind": "multi-day",
  "startedOn": "2026-11-07",
- "status": "ended",
- "vibe": "wrapped-up",
+ "status": "ongoing",
+ "vibe": "heating-up",
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
+  "top-10",
   "low-confidence",
   "sources-disagree"
  ],
- "isOngoing": false,
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the rising cost of living, fuel prices, and government policies ahead of the upcoming presidential election.",
-  "want": "Demands include a 100-euro monthly increase in the minimum wage, wage hikes, and the protection of public services, jobs, and industry.",
-  "changed": "Nov 7: Police used tear gas against protesters in Paris following clashes at the end of the demonstration."
+  "why": "Protesters are demonstrating against the rising cost of living, soaring fuel prices, and plummeting purchasing power.",
+  "want": "Demands include wage increases, a minimum wage hike, defense of public services, jobs, and industry.",
+  "changed": "Nov 13: Authorities prepared security measures and metro station closures ahead of planned weekend demonstrations."
  },
- "summary": "On November 7, 2026, thousands of people participated in demonstrations across France to protest the rising cost of living. In Paris, the march proceeded from Place de la République to Place de la Nation. The event was organised by the Yellow Vests movement, labour unions, and student groups. While the main march remained largely orderly, clashes occurred at the end of the event in Paris, where police reported that individuals threw projectiles and fireworks at security forces. Authorities deployed 70,000 security personnel nationwide. A separate, unauthorised rally by the Yellow Vests at Place de la Concorde was blocked by police, resulting in the encirclement of participants and at least one arrest. The Interior Ministry reported 146,000 participants nationwide, while unions estimated 250,000.",
+ "summary": "Thousands of people took part in demonstrations across France, including Paris, marking consecutive weekends of protests against the rising cost of living and fuel prices. The movement was organized by various groups including the Yellow Vests and youth and labor unions. Protesters marched to demand wage increases, the defense of public services, and government action on purchasing power. Authorities deployed security forces and banned certain separate rallies, leading to isolated clashes and police use of tear gas at the end of previous demonstrations.",
  "organizers": [
   "Yellow Vests",
   "CGT",
   "FSU",
   "FO",
-  "Union étudiante"
+  "Student Union"
  ],
  "demands": [
-  "100 euro monthly minimum wage increase",
   "Wage increases",
+  "10% hike in the minimum wage",
   "Defense of public services",
   "Protection of jobs and industry"
  ],
- "response": "The Interior Ministry deployed 70,000 security personnel. Police used tear gas in Paris following reports of projectiles and fireworks being thrown at officers. Authorities also blocked an unauthorised rally near the Elysee Palace.",
+ "response": "Police deployed tens of thousands of security personnel, banned separate rallies at Place de la Concorde, and used tear gas against individuals throwing projectiles and fireworks during earlier demonstrations.",
  "numbers": {
   "crowd": {
    "value": 250000,
-   "text": "Unions estimated 250,000 protesters nationwide, while the Interior Ministry reported 146,000.",
+   "text": "250,000 protesters nationwide, with 75,000 in the capital according to unions",
    "sources": [
     1
    ]
@@ -63,16 +64,30 @@
  "updates": [
   {
    "at": "2026-11-07",
-   "text": "Thousands protested across France; clashes occurred in Paris between police and protesters.",
+   "text": "Thousands protested across France for the fourth consecutive weekend, with clashes erupting in Paris.",
    "sources": [
     1
    ]
   },
   {
-   "at": "2026-11-07",
-   "text": "Police used tear gas in Paris after projectiles and fireworks were thrown at security forces.",
+   "at": "2026-11-08",
+   "text": "Citizens maintained pressure on the fourth Saturday of mobilization, while trade unions demanded wage increases.",
    "sources": [
-    1
+    2
+   ]
+  },
+  {
+   "at": "2026-11-13",
+   "text": "Youth unions and Yellow Vests called for further demonstrations, while authorities prepared security measures.",
+   "sources": [
+    3
+   ]
+  },
+  {
+   "at": "2026-11-13",
+   "text": "Transport authorities announced the closure of 21 metro stations in Paris ahead of weekend protests.",
+   "sources": [
+    4
    ]
   }
  ],
@@ -93,31 +108,31 @@
   },
   {
    "n": 3,
-   "url": "https://www.sortiraparis.com/nl/nieuws/in-parijs/articles/358215-demonstratie-van-14-november-in-parijs-de-geplande-routes",
-   "publisher": "sortiraparis.com",
-   "title": "Zaterdag worden tot 60.000 demonstranten verwacht in Parijs: wat er op stapel staat",
-   "publishedAt": "2026-11-13T08:39:36.000Z"
-  },
-  {
-   "n": 4,
    "url": "https://www.franceinfo.fr/societe/manifestations/convergence-de-differents-mots-d-ordre-important-dispositif-policier-a-quoi-s-attendre-pour-la-journee-de-mobilisation-du-samedi-14-novembre_8280806.html",
    "publisher": "franceinfo.fr",
    "title": "Convergence de diff&eacute;rents mots d'ordre, important dispositif policier… A quoi s'attendre pour la journ&eacute;e de mobilisation du samedi 14 novembre ?",
    "publishedAt": "2026-11-13T13:55:06.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.sortiraparis.com/et/uudised/pariisis/articles/358295-14-novembri-meeleavaldus-laupaeval-suletakse-21-metroojaama",
+   "publisher": "sortiraparis.com",
+   "title": "Laupäeval Pariisis toimuvad meeleavaldused: nimekiri 21 suletud metroojaamast",
+   "publishedAt": "2026-11-13T20:52:39.000Z"
   }
  ],
  "conflicts": [
-  "The Interior Ministry reported 146,000 protesters nationwide, while unions estimated 250,000."
+  "The Interior Ministry stated 146,000 people demonstrated nationwide on Nov 7, while unions claimed 250,000."
  ],
  "confidence": 0.71,
  "publishers": 4,
- "reports24h": 2,
+ "reports24h": 4,
  "reportsPrev24h": 0,
- "reports48h": 2,
+ "reports48h": 4,
  "firstSeenAt": "2026-11-09T05:51:41.709Z",
- "lastReportAt": "2026-11-13T13:55:06.000Z",
- "lastCheckedAt": "2026-11-13T20:55:28.871Z",
- "updatedAt": "2026-11-13T16:55:23.964Z",
+ "lastReportAt": "2026-11-13T20:52:39.000Z",
+ "lastCheckedAt": "2026-11-14T00:54:41.940Z",
+ "updatedAt": "2026-11-14T00:54:02.497Z",
  "distinctFrom": [
   "eb3c6e0ca01",
   "ec6385243c0",
@@ -129,233 +144,250 @@
  "searchedAt": "2026-11-09T09:50:44.872Z",
  "responseSources": [
   1,
-  2
+  2,
+  3,
+  4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-13T16:55:23.964Z",
- "summaryOf": "b6fd40c47ac1",
+ "summarizedAt": "2026-11-14T00:54:02.497Z",
+ "summaryOf": "b171cf995573",
  "publishedAt": "2026-11-10T14:04:12.951Z",
  "i18n": {
-  "of": "0a0172663d68235d",
-  "at": "2026-11-13T16:57:00.260Z",
+  "of": "afbaa3c24bec2e9a",
+  "at": "2026-11-14T00:55:44.318Z",
   "tries": 1,
   "hi": {
    "title": "पेरिस में बढ़ती महंगाई के खिलाफ विरोध प्रदर्शन",
-   "seoTitle": "पेरिस में महंगाई के खिलाफ विरोध प्रदर्शन",
+   "seoTitle": "पेरिस में महंगाई के खिलाफ विरोध",
    "tea": {
-    "why": "प्रदर्शनकारी आगामी राष्ट्रपति चुनाव से पहले बढ़ती महंगाई, ईंधन की कीमतों और सरकारी नीतियों के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "मांगों में न्यूनतम वेतन में 100 यूरो की मासिक वृद्धि, वेतन वृद्धि, और सार्वजनिक सेवाओं, नौकरियों तथा उद्योग का संरक्षण शामिल है।",
-    "changed": "7 नवंबर: पेरिस में प्रदर्शन के अंत में झड़पों के बाद पुलिस ने प्रदर्शनकारियों पर आंसू गैस का इस्तेमाल किया।"
+    "why": "प्रदर्शनकारी बढ़ती महंगाई, ईंधन की बढ़ती कीमतों और घटती क्रय शक्ति के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "मांगों में वेतन वृद्धि, न्यूनतम वेतन में बढ़ोतरी, सार्वजनिक सेवाओं की रक्षा, नौकरियां और उद्योग शामिल हैं।",
+    "changed": "13 नवंबर: अधिकारियों ने सप्ताहांत के नियोजित प्रदर्शनों से पहले सुरक्षा उपाय और मेट्रो स्टेशन बंद करने की तैयारी की।"
    },
-   "summary": "7 नवंबर, 2026 को, हजारों लोगों ने बढ़ती महंगाई के विरोध में पूरे फ्रांस में प्रदर्शनों में भाग लिया। पेरिस में, मार्च प्लेस डे ला रिपब्लिक से प्लेस डे ला नेशन तक गया। इस कार्यक्रम का आयोजन येलो वेस्ट्स आंदोलन, श्रमिक संघों और छात्र समूहों द्वारा किया गया था। जबकि मुख्य मार्च काफी हद तक व्यवस्थित रहा, पेरिस में कार्यक्रम के अंत में झड़पें हुईं, जहां पुलिस ने बताया कि कुछ व्यक्तियों ने सुरक्षा बलों पर प्रोजेक्टाइल और आतिशबाजी फेंकी। अधिकारियों ने देश भर में 70,000 सुरक्षा कर्मियों को तैनात किया। प्लेस डे ला कॉनकॉर्ड पर येलो वेस्ट्स द्वारा एक अलग, अनधिकृत रैली को पुलिस ने रोक दिया, जिसके परिणामस्वरूप प्रतिभागियों को घेर लिया गया और कम से कम एक गिरफ्तारी हुई। गृह मंत्रालय ने देश भर में 146,000 प्रतिभागियों की सूचना दी, जबकि संघों ने 250,000 का अनुमान लगाया।",
+   "summary": "फ्रांस भर में, पेरिस सहित, हजारों लोगों ने प्रदर्शनों में भाग लिया, जो बढ़ती महंगाई और ईंधन की कीमतों के खिलाफ लगातार सप्ताहांतों पर विरोध का प्रतीक है। यह आंदोलन येलो वेस्ट्स और युवा व श्रमिक संघों सहित विभिन्न समूहों द्वारा आयोजित किया गया था। प्रदर्शनकारियों ने वेतन वृद्धि, सार्वजनिक सेवाओं की रक्षा और क्रय शक्ति पर सरकारी कार्रवाई की मांग के लिए मार्च किया। अधिकारियों ने सुरक्षा बलों को तैनात किया और कुछ अलग रैलियों पर प्रतिबंध लगा दिया, जिससे पिछले प्रदर्शनों के अंत में छिटपुट झड़पें हुईं और पुलिस ने आंसू गैस का इस्तेमाल किया।",
    "demands": [
-    "न्यूनतम वेतन में 100 यूरो की मासिक वृद्धि",
     "वेतन वृद्धि",
-    "सार्वजनिक सेवाओं का बचाव",
+    "न्यूनतम वेतन में 10% की बढ़ोतरी",
+    "सार्वजनिक सेवाओं की रक्षा",
     "नौकरियों और उद्योग का संरक्षण"
    ],
-   "response": "गृह मंत्रालय ने 70,000 सुरक्षा कर्मियों को तैनात किया। अधिकारियों पर प्रोजेक्टाइल और आतिशबाजी फेंके जाने की खबरों के बाद पुलिस ने पेरिस में आंसू गैस का इस्तेमाल किया। अधिकारियों ने एलीसी पैलेस के पास एक अनधिकृत रैली को भी रोक दिया।",
+   "response": "पुलिस ने हजारों सुरक्षा कर्मियों को तैनात किया, प्लेस डे ला कॉनकॉर्ड पर अलग रैलियों पर प्रतिबंध लगा दिया, और पहले के प्रदर्शनों के दौरान प्रोजेक्टाइल और आतिशबाजी फेंकने वाले व्यक्तियों के खिलाफ आंसू गैस का इस्तेमाल किया।",
    "updates": [
-    "पूरे फ्रांस में हजारों लोगों ने विरोध किया; पेरिस में पुलिस और प्रदर्शनकारियों के बीच झड़पें हुईं।",
-    "सुरक्षा बलों पर प्रोजेक्टाइल और आतिशबाजी फेंके जाने के बाद पुलिस ने पेरिस में आंसू गैस का इस्तेमाल किया।"
+    "लगातार चौथे सप्ताहांत फ्रांस भर में हजारों लोगों ने विरोध किया, पेरिस में झड़पें हुईं।",
+    "नागरिकों ने लामबंदी के चौथे शनिवार को दबाव बनाए रखा, जबकि श्रमिक संघों ने वेतन वृद्धि की मांग की।",
+    "युवा संघों और येलो वेस्ट्स ने और प्रदर्शनों का आह्वान किया, जबकि अधिकारियों ने सुरक्षा उपायों की तैयारी की।",
+    "परिवहन अधिकारियों ने सप्ताहांत के विरोध प्रदर्शनों से पहले पेरिस में 21 मेट्रो स्टेशनों को बंद करने की घोषणा की।"
    ],
    "conflicts": [
-    "गृह मंत्रालय ने देश भर में 146,000 प्रदर्शनकारियों की सूचना दी, जबकि संघों ने 250,000 का अनुमान लगाया।"
+    "गृह मंत्रालय ने कहा कि 7 नवंबर को देश भर में 146,000 लोगों ने प्रदर्शन किया, जबकि संघों ने 250,000 का दावा किया।"
    ],
    "numbers": {
-    "crowd": "संघों ने देश भर में 250,000 प्रदर्शनकारियों का अनुमान लगाया, जबकि गृह मंत्रालय ने 146,000 की सूचना दी।"
+    "crowd": "संघों के अनुसार देश भर में 250,000 प्रदर्शनकारी, जिनमें राजधानी में 75,000 शामिल हैं"
    }
   },
   "mr": {
-   "title": "पेरिसमध्ये वाढत्या महागाईविरुद्ध निदर्शने",
-   "seoTitle": "पेरिसमध्ये महागाईविरुद्ध निदर्शने",
+   "title": "पॅरिसमध्ये वाढत्या महागाईविरुद्ध निदर्शने",
+   "seoTitle": "पॅरिसमध्ये महागाईविरुद्ध निदर्शने",
    "tea": {
-    "why": "येणाऱ्या राष्ट्राध्यक्षपदाच्या निवडणुकीपूर्वी वाढती महागाई, इंधनाचे दर आणि सरकारी धोरणांविरुद्ध निदर्शक निदर्शने करत आहेत.",
-    "want": "मागण्यांमध्ये किमान वेतनात 100 युरोची मासिक वाढ, वेतनवाढ आणि सार्वजनिक सेवा, नोकऱ्या व उद्योगांचे संरक्षण यांचा समावेश आहे.",
-    "changed": "7 नोव्हेंबर: पेरिसमध्ये निदर्शनाच्या शेवटी झालेल्या संघर्षानंतर पोलिसांनी निदर्शकांवर अश्रूधुराचा वापर केला."
+    "why": "निदर्शक वाढती महागाई, इंधनाचे वाढते दर आणि घटती क्रयशक्ती यांच्या विरोधात निदर्शने करत आहेत.",
+    "want": "मागण्यांमध्ये वेतन वाढ, किमान वेतनात वाढ, सार्वजनिक सेवांचे संरक्षण, नोकऱ्या आणि उद्योगांचा समावेश आहे.",
+    "changed": "१३ नोव्हेंबर: सप्ताहाच्या शेवटी नियोजित निदर्शनांपूर्वी अधिकाऱ्यांनी सुरक्षा उपाय आणि मेट्रो स्थानके बंद करण्याची तयारी केली."
    },
-   "summary": "7 नोव्हेंबर 2026 रोजी, हजारो लोकांनी वाढत्या महागाईचा निषेध करण्यासाठी संपूर्ण फ्रान्समध्ये निदर्शनांमध्ये भाग घेतला. पेरिसमध्ये, मोर्चा प्लेस डे ला रिपब्लिकपासून प्लेस डे ला नेशनपर्यंत निघाला. या कार्यक्रमाचे आयोजन येलो वेस्ट्स चळवळ, कामगार संघटना आणि विद्यार्थी गटांनी केले होते. मुख्य मोर्चा बऱ्याच अंशी शांततापूर्ण असला तरी, पेरिसमध्ये कार्यक्रमाच्या शेवटी संघर्ष झाला, जिथे पोलिसांनी सांगितले की काही व्यक्तींनी सुरक्षा दलांवर प्रोजेक्टाइल आणि फटाके फेकले. अधिकाऱ्यांनी देशभरात 70,000 सुरक्षा कर्मचारी तैनात केले होते. प्लेस डे ला कॉनकॉर्ड येथे येलो वेस्ट्सच्या एका वेगळ्या, अनधिकृत रॅलीला पोलिसांनी रोखले, ज्यामुळे सहभागींना वेढा घालण्यात आला आणि किमान एका व्यक्तीला अटक करण्यात आली. गृह मंत्रालयाने देशभरात 146,000 सहभागी असल्याचे सांगितले, तर संघटनांनी 250,000 चा अंदाज वर्तवला.",
+   "summary": "पॅरिससह संपूर्ण फ्रान्समध्ये हजारो लोकांनी निदर्शनांमध्ये भाग घेतला, जे वाढती महागाई आणि इंधनाच्या दरांविरुद्ध सलग सप्ताहांच्या शेवटी सुरू असलेले निषेध आहेत. हे आंदोलन येलो वेस्ट्स आणि युवा व कामगार संघटनांसह विविध गटांनी आयोजित केले होते. निदर्शकांनी वेतन वाढ, सार्वजनिक सेवांचे संरक्षण आणि क्रयशक्तीवर सरकारी कारवाईची मागणी करण्यासाठी मोर्चा काढला. अधिकाऱ्यांनी सुरक्षा दले तैनात केली आणि काही स्वतंत्र रॅलींवर बंदी घातली, ज्यामुळे मागील निदर्शनांच्या शेवटी तुरळक चकमकी झाल्या आणि पोलिसांनी अश्रूधुराचा वापर केला.",
    "demands": [
-    "किमान वेतनात 100 युरोची मासिक वाढ",
-    "वेतनवाढ",
+    "वेतन वाढ",
+    "किमान वेतनात १०% वाढ",
     "सार्वजनिक सेवांचे संरक्षण",
     "नोकऱ्या आणि उद्योगांचे संरक्षण"
    ],
-   "response": "गृह मंत्रालयाने 70,000 सुरक्षा कर्मचारी तैनात केले. अधिकाऱ्यांवर प्रोजेक्टाइल आणि फटाके फेकल्याच्या वृत्तानंतर पोलिसांनी पेरिसमध्ये अश्रूधुराचा वापर केला. अधिकाऱ्यांनी एलीसी पॅलेसजवळ एक अनधिकृत रॅली देखील रोखली.",
+   "response": "पोलिसांनी हजारो सुरक्षा कर्मचारी तैनात केले, प्लेस डे ला कॉनकॉर्ड येथील स्वतंत्र रॅलींवर बंदी घातली आणि आधीच्या निदर्शनांदरम्यान दगडफेक व फटाके फोडणाऱ्या व्यक्तींविरुद्ध अश्रूधुराचा वापर केला.",
    "updates": [
-    "संपूर्ण फ्रान्समध्ये हजारो लोकांनी निदर्शने केली; पेरिसमध्ये पोलीस आणि निदर्शकांमध्ये संघर्ष झाला.",
-    "सुरक्षा दलांवर प्रोजेक्टाइल आणि फटाके फेकल्यानंतर पोलिसांनी पेरिसमध्ये अश्रूधुराचा वापर केला."
+    "सलग चौथ्या सप्ताहाच्या शेवटी संपूर्ण फ्रान्समध्ये हजारो लोकांनी निदर्शने केली, पॅरिसमध्ये चकमकी झाल्या.",
+    "नागरिकांनी आंदोलनाच्या चौथ्या शनिवारी दबाव कायम ठेवला, तर कामगार संघटनांनी वेतन वाढीची मागणी केली.",
+    "युवा संघटना आणि येलो वेस्ट्सनी पुढील निदर्शनांचे आवाहन केले, तर अधिकाऱ्यांनी सुरक्षा उपायांची तयारी केली.",
+    "वाहतूक अधिकाऱ्यांनी सप्ताहाच्या शेवटी होणाऱ्या निदर्शनांपूर्वी पॅरिसमधील २१ मेट्रो स्थानके बंद करण्याची घोषणा केली."
    ],
    "conflicts": [
-    "गृह मंत्रालयाने देशभरात 146,000 निदर्शक असल्याचे सांगितले, तर संघटनांनी 250,000 चा अंदाज वर्तवला."
+    "गृह मंत्रालयाने सांगितले की ७ नोव्हेंबर रोजी देशभरात १४६,००० लोकांनी निदर्शने केली, तर संघटनांनी २५०,००० चा दावा केला."
    ],
    "numbers": {
-    "crowd": "संघटनांनी देशभरात 250,000 निदर्शक असल्याचा अंदाज वर्तवला, तर गृह मंत्रालयाने 146,000 ची नोंद केली."
+    "crowd": "संघटनांच्या मते देशभरात २५०,००० निदर्शक, ज्यामध्ये राजधानीत ७५,००० होते"
    }
   },
   "es": {
    "title": "Protestas en París contra el aumento del costo de vida",
    "seoTitle": "Protestas en París contra el costo de vida",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, los precios del combustible y las políticas gubernamentales antes de las próximas elecciones presidenciales.",
-    "want": "Las demandas incluyen un aumento mensual de 100 euros en el salario mínimo, aumentos salariales y la protección de los servicios públicos, los empleos y la industria.",
-    "changed": "7 de noviembre: La policía utilizó gases lacrimógenos contra los manifestantes en París tras enfrentamientos al final de la manifestación."
+    "why": "Los manifestantes se manifiestan contra el aumento del costo de vida, el alza de los precios del combustible y la caída del poder adquisitivo.",
+    "want": "Las demandas incluyen aumentos salariales, un incremento del salario mínimo, la defensa de los servicios públicos, el empleo y la industria.",
+    "changed": "13 de noviembre: Las autoridades prepararon medidas de seguridad y cierres de estaciones de metro antes de las manifestaciones planeadas para el fin de semana."
    },
-   "summary": "El 7 de noviembre de 2026, miles de personas participaron en manifestaciones en toda Francia para protestar por el aumento del costo de vida. En París, la marcha avanzó desde la Place de la République hasta la Place de la Nation. El evento fue organizado por el movimiento de los Chalecos Amarillos, sindicatos laborales y grupos estudiantiles. Si bien la marcha principal se mantuvo en gran medida ordenada, se produjeron enfrentamientos al final del evento en París, donde la policía informó que individuos lanzaron proyectiles y fuegos artificiales contra las fuerzas de seguridad. Las autoridades desplegaron 70.000 efectivos de seguridad en todo el país. Una manifestación separada y no autorizada de los Chalecos Amarillos en la Place de la Concorde fue bloqueada por la policía, lo que resultó en el cerco de los participantes y al menos un arresto. El Ministerio del Interior informó de 146.000 participantes en todo el país, mientras que los sindicatos estimaron 250.000.",
+   "summary": "Miles de personas participaron en manifestaciones en toda Francia, incluida París, marcando fines de semana consecutivos de protestas contra el aumento del costo de vida y los precios del combustible. El movimiento fue organizado por varios grupos, incluidos los Chalecos Amarillos y sindicatos juveniles y laborales. Los manifestantes marcharon para exigir aumentos salariales, la defensa de los servicios públicos y medidas gubernamentales sobre el poder adquisitivo. Las autoridades desplegaron fuerzas de seguridad y prohibieron ciertas manifestaciones separadas, lo que provocó enfrentamientos aislados y el uso de gases lacrimógenos por parte de la policía al final de manifestaciones anteriores.",
    "demands": [
-    "Aumento mensual del salario mínimo de 100 euros",
     "Aumentos salariales",
+    "Aumento del 10% en el salario mínimo",
     "Defensa de los servicios públicos",
     "Protección del empleo y la industria"
    ],
-   "response": "El Ministerio del Interior desplegó 70.000 efectivos de seguridad. La policía utilizó gases lacrimógenos en París tras los informes de lanzamiento de proyectiles y fuegos artificiales contra los agentes. Las autoridades también bloquearon una manifestación no autorizada cerca del Palacio del Elíseo.",
+   "response": "La policía desplegó decenas de miles de efectivos de seguridad, prohibió manifestaciones separadas en la Place de la Concorde y utilizó gases lacrimógenos contra personas que lanzaban proyectiles y fuegos artificiales durante manifestaciones anteriores.",
    "updates": [
-    "Miles de personas protestaron en toda Francia; se produjeron enfrentamientos en París entre la policía y los manifestantes.",
-    "La policía utilizó gases lacrimógenos en París después de que se lanzaran proyectiles y fuegos artificiales contra las fuerzas de seguridad."
+    "Miles de personas protestaron en toda Francia por cuarto fin de semana consecutivo, con enfrentamientos en París.",
+    "Los ciudadanos mantuvieron la presión en el cuarto sábado de movilización, mientras los sindicatos exigían aumentos salariales.",
+    "Los sindicatos juveniles y los Chalecos Amarillos convocaron a más manifestaciones, mientras las autoridades preparaban medidas de seguridad.",
+    "Las autoridades de transporte anunciaron el cierre de 21 estaciones de metro en París antes de las protestas del fin de semana."
    ],
    "conflicts": [
-    "El Ministerio del Interior informó de 146.000 manifestantes en todo el país, mientras que los sindicatos estimaron 250.000."
+    "El Ministerio del Interior declaró que 146,000 personas se manifestaron a nivel nacional el 7 de noviembre, mientras que los sindicatos afirmaron que fueron 250,000."
    ],
    "numbers": {
-    "crowd": "Los sindicatos estimaron 250.000 manifestantes en todo el país, mientras que el Ministerio del Interior informó de 146.000."
+    "crowd": "250,000 manifestantes a nivel nacional, con 75,000 en la capital según los sindicatos"
    }
   },
   "fr": {
    "title": "Manifestations à Paris contre la hausse du coût de la vie",
    "seoTitle": "Manifestations à Paris contre le coût de la vie",
    "tea": {
-    "why": "Les manifestants protestent contre la hausse du coût de la vie, les prix du carburant et les politiques gouvernementales à l'approche de l'élection présidentielle.",
-    "want": "Les revendications incluent une augmentation mensuelle de 100 euros du salaire minimum, des hausses de salaires, et la protection des services publics, des emplois et de l'industrie.",
-    "changed": "7 novembre : La police a utilisé des gaz lacrymogènes contre les manifestants à Paris suite à des affrontements à la fin de la manifestation."
+    "why": "Les manifestants protestent contre la hausse du coût de la vie, l'envolée des prix du carburant et la baisse du pouvoir d'achat.",
+    "want": "Les revendications incluent des augmentations de salaire, une hausse du salaire minimum, la défense des services publics, de l'emploi et de l'industrie.",
+    "changed": "13 novembre : Les autorités ont préparé des mesures de sécurité et des fermetures de stations de métro avant les manifestations prévues pour le week-end."
    },
-   "summary": "Le 7 novembre 2026, des milliers de personnes ont participé à des manifestations à travers la France pour protester contre la hausse du coût de la vie. À Paris, le cortège a progressé de la place de la République à la place de la Nation. L'événement a été organisé par le mouvement des Gilets jaunes, des syndicats et des groupes étudiants. Bien que la manifestation principale soit restée largement ordonnée, des affrontements ont eu lieu à la fin de l'événement à Paris, où la police a rapporté que des individus ont lancé des projectiles et des feux d'artifice sur les forces de sécurité. Les autorités ont déployé 70 000 membres des forces de sécurité à l'échelle nationale. Un rassemblement séparé et non autorisé des Gilets jaunes place de la Concorde a été bloqué par la police, entraînant l'encerclement des participants et au moins une arrestation. Le ministère de l'Intérieur a fait état de 146 000 participants à l'échelle nationale, tandis que les syndicats en ont estimé 250 000.",
+   "summary": "Des milliers de personnes ont participé à des manifestations à travers la France, y compris à Paris, marquant des week-ends consécutifs de protestations contre la hausse du coût de la vie et des prix du carburant. Le mouvement a été organisé par divers groupes, dont les Gilets jaunes ainsi que des syndicats de jeunes et de travailleurs. Les manifestants ont défilé pour exiger des augmentations de salaire, la défense des services publics et une action gouvernementale sur le pouvoir d'achat. Les autorités ont déployé des forces de sécurité et interdit certains rassemblements séparés, entraînant des affrontements isolés et l'utilisation de gaz lacrymogènes par la police à la fin de précédentes manifestations.",
    "demands": [
-    "Augmentation mensuelle de 100 euros du salaire minimum",
-    "Hausses de salaires",
+    "Augmentations de salaire",
+    "Hausse de 10 % du salaire minimum",
     "Défense des services publics",
-    "Protection des emplois et de l'industrie"
+    "Protection de l'emploi et de l'industrie"
    ],
-   "response": "Le ministère de l'Intérieur a déployé 70 000 membres des forces de sécurité. La police a utilisé des gaz lacrymogènes à Paris suite à des signalements de projectiles et de feux d'artifice lancés sur les agents. Les autorités ont également bloqué un rassemblement non autorisé près du palais de l'Élysée.",
+   "response": "La police a déployé des dizaines de milliers d'agents de sécurité, a interdit des rassemblements séparés sur la place de la Concorde et a utilisé des gaz lacrymogènes contre des individus lançant des projectiles et des feux d'artifice lors de précédentes manifestations.",
    "updates": [
-    "Des milliers de personnes ont manifesté à travers la France ; des affrontements ont eu lieu à Paris entre la police et les manifestants.",
-    "La police a utilisé des gaz lacrymogènes à Paris après que des projectiles et des feux d'artifice ont été lancés sur les forces de sécurité."
+    "Des milliers de personnes ont manifesté à travers la France pour le quatrième week-end consécutif, avec des affrontements éclatant à Paris.",
+    "Les citoyens ont maintenu la pression lors du quatrième samedi de mobilisation, tandis que les syndicats réclamaient des augmentations de salaire.",
+    "Les syndicats de jeunes et les Gilets jaunes ont appelé à de nouvelles manifestations, tandis que les autorités préparaient des mesures de sécurité.",
+    "Les autorités de transport ont annoncé la fermeture de 21 stations de métro à Paris avant les manifestations du week-end."
    ],
    "conflicts": [
-    "Le ministère de l'Intérieur a rapporté 146 000 manifestants à l'échelle nationale, tandis que les syndicats en ont estimé 250 000."
+    "Le ministère de l'Intérieur a déclaré que 146 000 personnes ont manifesté à l'échelle nationale le 7 novembre, tandis que les syndicats en ont revendiqué 250 000."
    ],
    "numbers": {
-    "crowd": "Les syndicats ont estimé 250 000 manifestants à l'échelle nationale, tandis que le ministère de l'Intérieur en a rapporté 146 000."
+    "crowd": "250 000 manifestants à l'échelle nationale, dont 75 000 dans la capitale selon les syndicats"
    }
   },
   "de": {
    "title": "Proteste in Paris gegen steigende Lebenshaltungskosten",
-   "seoTitle": "Proteste in Paris gegen Lebenshaltungskosten",
+   "seoTitle": "Paris-Proteste gegen Lebenshaltungskosten",
    "tea": {
-    "why": "Die Demonstranten protestieren vor der bevorstehenden Präsidentschaftswahl gegen die steigenden Lebenshaltungskosten, Kraftstoffpreise und die Regierungspolitik.",
-    "want": "Zu den Forderungen gehören eine monatliche Erhöhung des Mindestlohns um 100 Euro, Lohnerhöhungen sowie der Schutz öffentlicher Dienste, Arbeitsplätze und der Industrie.",
-    "changed": "7. November: Die Polizei setzte in Paris nach Zusammenstößen am Ende der Demonstration Tränengas gegen Demonstranten ein."
+    "why": "Die Demonstranten protestieren gegen die steigenden Lebenshaltungskosten, die explodierenden Kraftstoffpreise und die sinkende Kaufkraft.",
+    "want": "Zu den Forderungen gehören Lohnerhöhungen, eine Anhebung des Mindestlohns, die Verteidigung öffentlicher Dienste, Arbeitsplätze und die Industrie.",
+    "changed": "13. November: Die Behörden bereiteten Sicherheitsmaßnahmen und die Schließung von U-Bahn-Stationen im Vorfeld der geplanten Wochenenddemonstrationen vor."
    },
-   "summary": "Am 7. November 2026 beteiligten sich Tausende Menschen in ganz Frankreich an Demonstrationen gegen die steigenden Lebenshaltungskosten. In Paris verlief der Marsch vom Place de la République zum Place de la Nation. Die Veranstaltung wurde von der Gelbwesten-Bewegung, Gewerkschaften und Studentengruppen organisiert. Während der Hauptmarsch weitgehend geordnet verlief, kam es am Ende der Veranstaltung in Paris zu Zusammenstößen, bei denen die Polizei berichtete, dass Einzelpersonen Projektile und Feuerwerkskörper auf Sicherheitskräfte warfen. Die Behörden setzten landesweit 70.000 Sicherheitskräfte ein. Eine separate, nicht genehmigte Kundgebung der Gelbwesten am Place de la Concorde wurde von der Polizei blockiert, was zur Einkesselung der Teilnehmer und mindestens einer Festnahme führte. Das Innenministerium meldete 146.000 Teilnehmer landesweit, während Gewerkschaften 250.000 schätzten.",
+   "summary": "Tausende Menschen nahmen in ganz Frankreich, einschließlich Paris, an Demonstrationen teil, was aufeinanderfolgende Wochenenden mit Protesten gegen die steigenden Lebenshaltungs- und Kraftstoffkosten markierte. Die Bewegung wurde von verschiedenen Gruppen organisiert, darunter die Gelbwesten sowie Jugend- und Gewerkschaftsverbände. Die Demonstranten marschierten, um Lohnerhöhungen, die Verteidigung öffentlicher Dienste und staatliche Maßnahmen zur Kaufkraft zu fordern. Die Behörden setzten Sicherheitskräfte ein und verboten bestimmte separate Kundgebungen, was zu vereinzelten Zusammenstößen und dem Einsatz von Tränengas durch die Polizei am Ende früherer Demonstrationen führte.",
    "demands": [
-    "Monatliche Erhöhung des Mindestlohns um 100 Euro",
     "Lohnerhöhungen",
+    "10% Anhebung des Mindestlohns",
     "Verteidigung öffentlicher Dienste",
     "Schutz von Arbeitsplätzen und Industrie"
    ],
-   "response": "Das Innenministerium setzte 70.000 Sicherheitskräfte ein. Die Polizei setzte in Paris Tränengas ein, nachdem berichtet wurde, dass Projektile und Feuerwerkskörper auf Beamte geworfen wurden. Die Behörden blockierten zudem eine nicht genehmigte Kundgebung in der Nähe des Élysée-Palastes.",
+   "response": "Die Polizei setzte zehntausende Sicherheitskräfte ein, verbot separate Kundgebungen auf der Place de la Concorde und setzte bei früheren Demonstrationen Tränengas gegen Personen ein, die Wurfgeschosse und Feuerwerkskörper warfen.",
    "updates": [
-    "Tausende protestierten in ganz Frankreich; in Paris kam es zu Zusammenstößen zwischen Polizei und Demonstranten.",
-    "Die Polizei setzte in Paris Tränengas ein, nachdem Projektile und Feuerwerkskörper auf Sicherheitskräfte geworfen wurden."
+    "Tausende protestierten am vierten Wochenende in Folge in ganz Frankreich, wobei es in Paris zu Zusammenstößen kam.",
+    "Die Bürger hielten den Druck am vierten Samstag der Mobilisierung aufrecht, während Gewerkschaften Lohnerhöhungen forderten.",
+    "Jugendverbände und Gelbwesten riefen zu weiteren Demonstrationen auf, während die Behörden Sicherheitsmaßnahmen vorbereiteten.",
+    "Die Verkehrsbehörden kündigten die Schließung von 21 U-Bahn-Stationen in Paris vor den Wochenendprotesten an."
    ],
    "conflicts": [
-    "Das Innenministerium meldete 146.000 Demonstranten landesweit, während Gewerkschaften 250.000 schätzten."
+    "Das Innenministerium gab an, dass am 7. November landesweit 146.000 Menschen demonstrierten, während Gewerkschaften 250.000 angaben."
    ],
    "numbers": {
-    "crowd": "Gewerkschaften schätzten 250.000 Demonstranten landesweit, während das Innenministerium 146.000 meldete."
+    "crowd": "250.000 Demonstranten landesweit, davon 75.000 in der Hauptstadt laut Gewerkschaften"
    }
   },
   "it": {
    "title": "Proteste a Parigi contro l'aumento del costo della vita",
    "seoTitle": "Proteste a Parigi contro il costo della vita",
    "tea": {
-    "why": "I manifestanti protestano contro l'aumento del costo della vita, i prezzi del carburante e le politiche governative in vista delle prossime elezioni presidenziali.",
-    "want": "Le richieste includono un aumento mensile di 100 euro del salario minimo, aumenti salariali e la protezione dei servizi pubblici, dei posti di lavoro e dell'industria.",
-    "changed": "7 novembre: La polizia ha usato gas lacrimogeni contro i manifestanti a Parigi in seguito a scontri alla fine della manifestazione."
+    "why": "I manifestanti protestano contro l'aumento del costo della vita, l'impennata dei prezzi del carburante e il calo del potere d'acquisto.",
+    "want": "Le richieste includono aumenti salariali, un incremento del salario minimo, la difesa dei servizi pubblici, del lavoro e dell'industria.",
+    "changed": "13 novembre: Le autorità hanno preparato misure di sicurezza e la chiusura di stazioni della metropolitana in vista delle manifestazioni previste per il fine settimana."
    },
-   "summary": "Il 7 novembre 2026, migliaia di persone hanno partecipato a manifestazioni in tutta la Francia per protestare contro l'aumento del costo della vita. A Parigi, il corteo è avanzato da Place de la République a Place de la Nation. L'evento è stato organizzato dal movimento dei Gilet gialli, dai sindacati e dai gruppi studenteschi. Sebbene la marcia principale sia rimasta in gran parte ordinata, si sono verificati scontri alla fine dell'evento a Parigi, dove la polizia ha riferito che alcuni individui hanno lanciato proiettili e fuochi d'artificio contro le forze di sicurezza. Le autorità hanno dispiegato 70.000 agenti di sicurezza a livello nazionale. Un raduno separato e non autorizzato dei Gilet gialli a Place de la Concorde è stato bloccato dalla polizia, con conseguente accerchiamento dei partecipanti e almeno un arresto. Il Ministero dell'Interno ha riportato 146.000 partecipanti a livello nazionale, mentre i sindacati ne hanno stimati 250.000.",
+   "summary": "Migliaia di persone hanno partecipato a manifestazioni in tutta la Francia, inclusa Parigi, segnando fine settimana consecutivi di proteste contro l'aumento del costo della vita e dei prezzi del carburante. Il movimento è stato organizzato da vari gruppi, tra cui i Gilet Gialli e sindacati giovanili e dei lavoratori. I manifestanti hanno marciato per chiedere aumenti salariali, la difesa dei servizi pubblici e un'azione governativa sul potere d'acquisto. Le autorità hanno dispiegato forze di sicurezza e vietato alcune manifestazioni separate, portando a scontri isolati e all'uso di gas lacrimogeni da parte della polizia al termine di precedenti manifestazioni.",
    "demands": [
-    "Aumento mensile del salario minimo di 100 euro",
     "Aumenti salariali",
+    "Aumento del 10% del salario minimo",
     "Difesa dei servizi pubblici",
-    "Protezione dei posti di lavoro e dell'industria"
+    "Protezione del lavoro e dell'industria"
    ],
-   "response": "Il Ministero dell'Interno ha dispiegato 70.000 agenti di sicurezza. La polizia ha usato gas lacrimogeni a Parigi in seguito a segnalazioni di proiettili e fuochi d'artificio lanciati contro gli agenti. Le autorità hanno anche bloccato un raduno non autorizzato vicino al Palazzo dell'Eliseo.",
+   "response": "La polizia ha dispiegato decine di migliaia di agenti di sicurezza, ha vietato manifestazioni separate a Place de la Concorde e ha utilizzato gas lacrimogeni contro individui che lanciavano proiettili e fuochi d'artificio durante precedenti manifestazioni.",
    "updates": [
-    "Migliaia di persone hanno protestato in tutta la Francia; a Parigi si sono verificati scontri tra polizia e manifestanti.",
-    "La polizia ha usato gas lacrimogeni a Parigi dopo che proiettili e fuochi d'artificio sono stati lanciati contro le forze di sicurezza."
+    "Migliaia di persone hanno protestato in tutta la Francia per il quarto fine settimana consecutivo, con scontri scoppiati a Parigi.",
+    "I cittadini hanno mantenuto la pressione nel quarto sabato di mobilitazione, mentre i sindacati chiedevano aumenti salariali.",
+    "I sindacati giovanili e i Gilet Gialli hanno chiesto ulteriori manifestazioni, mentre le autorità preparavano misure di sicurezza.",
+    "Le autorità dei trasporti hanno annunciato la chiusura di 21 stazioni della metropolitana a Parigi prima delle proteste del fine settimana."
    ],
    "conflicts": [
-    "Il Ministero dell'Interno ha riportato 146.000 manifestanti a livello nazionale, mentre i sindacati ne hanno stimati 250.000."
+    "Il Ministero dell'Interno ha dichiarato che 146.000 persone hanno manifestato a livello nazionale il 7 novembre, mentre i sindacati ne hanno rivendicate 250.000."
    ],
    "numbers": {
-    "crowd": "I sindacati hanno stimato 250.000 manifestanti a livello nazionale, mentre il Ministero dell'Interno ne ha riportati 146.000."
+    "crowd": "250.000 manifestanti a livello nazionale, di cui 75.000 nella capitale secondo i sindacati"
    }
   },
   "pt": {
    "title": "Protestos em Paris contra o aumento do custo de vida",
    "seoTitle": "Protestos em Paris contra o custo de vida",
    "tea": {
-    "why": "Os manifestantes estão a protestar contra o aumento do custo de vida, os preços dos combustíveis e as políticas governamentais antes das próximas eleições presidenciais.",
-    "want": "As exigências incluem um aumento mensal de 100 euros no salário mínimo, aumentos salariais e a proteção dos serviços públicos, dos empregos e da indústria.",
-    "changed": "7 de novembro: A polícia utilizou gás lacrimogéneo contra os manifestantes em Paris após confrontos no final da manifestação."
+    "why": "Os manifestantes protestam contra o aumento do custo de vida, a subida dos preços dos combustíveis e a queda do poder de compra.",
+    "want": "As exigências incluem aumentos salariais, um aumento do salário mínimo, a defesa dos serviços públicos, do emprego e da indústria.",
+    "changed": "13 de novembro: As autoridades prepararam medidas de segurança e o encerramento de estações de metro antes das manifestações planeadas para o fim de semana."
    },
-   "summary": "No dia 7 de novembro de 2026, milhares de pessoas participaram em manifestações por toda a França para protestar contra o aumento do custo de vida. Em Paris, a marcha avançou da Place de la République até à Place de la Nation. O evento foi organizado pelo movimento dos Coletes Amarelos, sindicatos e grupos estudantis. Embora a marcha principal tenha decorrido de forma maioritariamente ordenada, ocorreram confrontos no final do evento em Paris, onde a polícia relatou que indivíduos atiraram projéteis e fogo de artifício contra as forças de segurança. As autoridades destacaram 70.000 elementos das forças de segurança a nível nacional. Uma manifestação separada e não autorizada dos Coletes Amarelos na Place de la Concorde foi bloqueada pela polícia, resultando no cerco dos participantes e pelo menos uma detenção. O Ministério do Interior reportou 146.000 participantes a nível nacional, enquanto os sindicatos estimaram 250.000.",
+   "summary": "Milhares de pessoas participaram em manifestações por toda a França, incluindo Paris, marcando fins de semana consecutivos de protestos contra o aumento do custo de vida e dos preços dos combustíveis. O movimento foi organizado por vários grupos, incluindo os Coletes Amarelos e sindicatos de jovens e trabalhadores. Os manifestantes marcharam para exigir aumentos salariais, a defesa dos serviços públicos e uma ação governamental sobre o poder de compra. As autoridades destacaram forças de segurança e proibiram certas manifestações separadas, levando a confrontos isolados e ao uso de gás lacrimogéneo pela polícia no final de manifestações anteriores.",
    "demands": [
-    "Aumento mensal do salário mínimo de 100 euros",
     "Aumentos salariais",
+    "Aumento de 10% no salário mínimo",
     "Defesa dos serviços públicos",
-    "Proteção dos empregos e da indústria"
+    "Proteção do emprego e da indústria"
    ],
-   "response": "O Ministério do Interior destacou 70.000 elementos das forças de segurança. A polícia utilizou gás lacrimogéneo em Paris após relatos de projéteis e fogo de artifício serem atirados contra os agentes. As autoridades também bloquearam uma manifestação não autorizada perto do Palácio do Eliseu.",
+   "response": "A polícia destacou dezenas de milhares de elementos de segurança, proibiu manifestações separadas na Place de la Concorde e usou gás lacrimogéneo contra indivíduos que lançavam projéteis e fogo de artifício durante manifestações anteriores.",
    "updates": [
-    "Milhares protestaram por toda a França; ocorreram confrontos em Paris entre a polícia e os manifestantes.",
-    "A polícia utilizou gás lacrimogéneo em Paris após projéteis e fogo de artifício serem atirados contra as forças de segurança."
+    "Milhares de pessoas protestaram por toda a França pelo quarto fim de semana consecutivo, com confrontos a eclodirem em Paris.",
+    "Os cidadãos mantiveram a pressão no quarto sábado de mobilização, enquanto os sindicatos exigiam aumentos salariais.",
+    "Os sindicatos de jovens e os Coletes Amarelos apelaram a mais manifestações, enquanto as autoridades preparavam medidas de segurança.",
+    "As autoridades de transportes anunciaram o encerramento de 21 estações de metro em Paris antes dos protestos do fim de semana."
    ],
    "conflicts": [
-    "O Ministério do Interior reportou 146.000 manifestantes a nível nacional, enquanto os sindicatos estimaram 250.000."
+    "O Ministério do Interior declarou que 146.000 pessoas manifestaram-se a nível nacional a 7 de novembro, enquanto os sindicatos reivindicaram 250.000."
    ],
    "numbers": {
-    "crowd": "Os sindicatos estimaram 250.000 manifestantes a nível nacional, enquanto o Ministério do Interior reportou 146.000."
+    "crowd": "250.000 manifestantes a nível nacional, com 75.000 na capital segundo os sindicatos"
    }
   },
   "nl": {
    "title": "Protesten in Parijs tegen stijgende kosten van levensonderhoud",
-   "seoTitle": "Protesten in Parijs tegen kosten levensonderhoud",
+   "seoTitle": "Parijs protesten tegen kosten levensonderhoud",
    "tea": {
-    "why": "Demonstranten protesteren tegen de stijgende kosten van levensonderhoud, brandstofprijzen en het overheidsbeleid in de aanloop naar de komende presidentsverkiezingen.",
-    "want": "De eisen omvatten een maandelijkse verhoging van het minimumloon met 100 euro, loonsverhogingen en de bescherming van openbare diensten, banen en de industrie.",
-    "changed": "7 november: De politie gebruikte traangas tegen demonstranten in Parijs na confrontaties aan het einde van de demonstratie."
+    "why": "Betogers demonstreren tegen de stijgende kosten van levensonderhoud, de stijgende brandstofprijzen en de dalende koopkracht.",
+    "want": "De eisen omvatten loonsverhogingen, een verhoging van het minimumloon, de verdediging van openbare diensten, banen en de industrie.",
+    "changed": "13 november: De autoriteiten bereidden veiligheidsmaatregelen en de sluiting van metrostations voor in de aanloop naar geplande weekenddemonstraties."
    },
-   "summary": "Op 7 november 2026 namen duizenden mensen in heel Frankrijk deel aan demonstraties tegen de stijgende kosten van levensonderhoud. In Parijs trok de mars van Place de la République naar Place de la Nation. Het evenement werd georganiseerd door de Gele Hesjes-beweging, vakbonden en studentengroepen. Hoewel de hoofdmars grotendeels ordelijk verliep, vonden er aan het einde van het evenement in Parijs confrontaties plaats, waarbij de politie meldde dat individuen projectielen en vuurwerk naar de veiligheidstroepen gooiden. De autoriteiten zetten landelijk 70.000 veiligheidsmedewerkers in. Een afzonderlijke, niet-geautoriseerde bijeenkomst van de Gele Hesjes op de Place de la Concorde werd door de politie geblokkeerd, wat leidde tot de omsingeling van deelnemers en ten minste één arrestatie. Het ministerie van Binnenlandse Zaken meldde 146.000 deelnemers landelijk, terwijl vakbonden uitgingen van 250.000.",
+   "summary": "Duizenden mensen namen deel aan demonstraties in heel Frankrijk, waaronder Parijs, wat opeenvolgende weekenden van protesten tegen de stijgende kosten van levensonderhoud en brandstofprijzen markeerde. De beweging werd georganiseerd door verschillende groepen, waaronder de Gele Hesjes en jongeren- en vakbonden. Betogers marcheerden om loonsverhogingen, de verdediging van openbare diensten en overheidsactie op het gebied van koopkracht te eisen. De autoriteiten zetten veiligheidstroepen in en verboden bepaalde afzonderlijke bijeenkomsten, wat leidde tot geïsoleerde botsingen en het gebruik van traangas door de politie aan het einde van eerdere demonstraties.",
    "demands": [
-    "Maandelijkse verhoging van het minimumloon met 100 euro",
     "Loonsverhogingen",
+    "10% verhoging van het minimumloon",
     "Verdediging van openbare diensten",
     "Bescherming van banen en industrie"
    ],
-   "response": "Het ministerie van Binnenlandse Zaken zette 70.000 veiligheidsmedewerkers in. De politie gebruikte traangas in Parijs na meldingen dat er projectielen en vuurwerk naar agenten werden gegooid. De autoriteiten blokkeerden ook een niet-geautoriseerde bijeenkomst nabij het Élysée-paleis.",
+   "response": "De politie zette tienduizenden veiligheidsmensen in, verbood afzonderlijke bijeenkomsten op de Place de la Concorde en gebruikte traangas tegen individuen die projectielen en vuurwerk gooiden tijdens eerdere demonstraties.",
    "updates": [
-    "Duizenden mensen protesteerden in heel Frankrijk; in Parijs vonden confrontaties plaats tussen politie en demonstranten.",
-    "De politie gebruikte traangas in Parijs nadat er projectielen en vuurwerk naar de veiligheidstroepen waren gegooid."
+    "Duizenden mensen protesteerden voor het vierde opeenvolgende weekend in heel Frankrijk, waarbij botsingen uitbraken in Parijs.",
+    "Burgers hielden de druk vast op de vierde zaterdag van mobilisatie, terwijl vakbonden loonsverhogingen eisten.",
+    "Jongerenbonden en Gele Hesjes riepen op tot verdere demonstraties, terwijl de autoriteiten veiligheidsmaatregelen voorbereidden.",
+    "Vervoersautoriteiten kondigden de sluiting van 21 metrostations in Parijs aan voorafgaand aan de weekendprotesten."
    ],
    "conflicts": [
-    "Het ministerie van Binnenlandse Zaken meldde 146.000 demonstranten landelijk, terwijl vakbonden uitgingen van 250.000."
+    "Het ministerie van Binnenlandse Zaken verklaarde dat 146.000 mensen landelijk demonstreerden op 7 november, terwijl vakbonden 250.000 claimden."
    ],
    "numbers": {
-    "crowd": "Vakbonden schatten 250.000 demonstranten landelijk, terwijl het ministerie van Binnenlandse Zaken 146.000 meldde."
+    "crowd": "250.000 betogers landelijk, met 75.000 in de hoofdstad volgens vakbonden"
    }
   }
- },
- "endedOn": "2026-11-07"
+ }
 }
