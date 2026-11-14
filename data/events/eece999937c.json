@@ -16,70 +16,87 @@
  "scope": "local",
  "causes": [
   "immigration",
-  "ethnic-rights"
+  "ethnic-rights",
+  "free-speech"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-13",
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Hundreds protested in Prague 9 against a right-wing conference discussing remigration organised by the Svobodní party.",
-  "want": "Protesters opposed the remigration conference, chanting slogans and holding banners denouncing the event.",
-  "changed": "Nov 13: Hundreds of protesters gathered outside a Prague 9 hotel hosting a right-wing conference, leading police to secure passage for departing vehicles before…"
+  "why": "Hundreds protested against a right-wing conference discussing remigration organised by the Free Citizens party in Prague.",
+  "want": "Protesters opposed the event and the concept of remigration, which organisers described as ethnic cleansing.",
+  "changed": "Nov 13: Demonstrators surrounded a hotel hosting the conference in Prague 9, and organisers officially ended the protest around 20:35."
  },
- "summary": "Hundreds of people gathered in Prague 9 on November 13 to protest against a right-wing conference regarding remigration organised by the Svobodní party. The demonstration, titled \"Prague doesn't want Nazis\" and called by the platform Praha je feministická, featured banners with slogans such as \"Black, white, join forces\" alongside Palestinian flags. Organisers argued that remigration serves as an ethnic-cleansing initiative targeting even multi-generational residents. Several dozens of police officers monitored the public order and secured passage for conference attendees leaving the hotel in cars through the crowd. The organisers officially ended the demonstration at approximately 20:35.",
+ "summary": "Hundreds of demonstrators gathered in Prague 9 on November 13, 2026, to protest against a conference focused on remigration organised by the Free Citizens party. The rally, named \"Prague does not want nazis\" and called by the platform Prague is Feminist, featured participants holding banners and Palestinian flags while surrounding the venue. Protest organizers stated that remigration amounts to ethnic cleansing based on ethnic keys. Dozens of police officers supervised the assembly and managed public order, eventually securing passage for conference attendees leaving the hotel in cars through the crowd. The protest concluded at around 20:35.",
  "organizers": [
   "Praha je feministická",
   "Svobodní"
  ],
  "demands": [
-  "Stop the remigration conference",
-  "Oppose ethnic-cleansing policies"
+  "Oppose the remigration conference",
+  "Reject ethnically based migration policies"
  ],
- "response": "Police officers monitored public safety and ensured that conference participants were able to drive away through the crowd, as reported by zpravy.aktualne.cz.",
+ "response": "According to police statements on the social media network X, officers monitored the authorized assembly in Prague 9, supervised public order, and ensured the safety of all individuals, including securing passage for cars leaving the hotel.",
  "numbers": {
   "crowd": {
    "value": 100,
    "text": "Stovky lidí",
    "sources": [
     1,
-    2
+    2,
+    3
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-13",
-   "text": "Police stated they were monitoring the announced assembly in Prague 9 after a crowd of people surrounded a hotel.",
+   "text": "Police stated they were monitoring the announced assembly in Prague 9 as protesters surrounded a hotel.",
    "sources": [
-    1
+    1,
+    2
    ]
   },
   {
    "at": "2026-11-13",
-   "text": "Conference attendees left the hotel in cars as police ensured a path through the crowd, and organisers ended the protest at approximately 20:35.",
+   "text": "Conference participants departed in cars after 20:00, with police securing their passage through the crowd of demonstrators.",
    "sources": [
-    1
+    1,
+    2
+   ]
+  },
+  {
+   "at": "2026-11-13",
+   "text": "Organisers officially ended the demonstration at approximately 20:35.",
+   "sources": [
+    1,
+    2
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://romea.cz/cz/domaci/stovky-lidi-v-praze-9-protestuji-proti-konferenci-krajni-pravice-o-remigraci/",
+   "publisher": "romea.cz",
+   "title": "„Praha nácky nechce!“ Stovky lidí protestovaly proti konferenci Svobodných spojených s vládní SPD. Dorazit měl i Mazurek odsouzený za protiromské výroky",
+   "publishedAt": "2026-11-13T18:44:35.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://zpravy.aktualne.cz/domaci/stovky-lidi-v-praze-9-protestuji-proti-konferenci-krajni-pravice-o-remigraci/r~aaa29048b1023c60a4af9573644fc7f9/",
    "publisher": "zpravy.aktualne.cz",
    "title": "Stovky lidí v Praze 9 protestovaly proti konferenci krajní pravice o remigraci",
    "publishedAt": "2026-11-13T19:37:00.000Z"
   },
   {
-   "n": 2,
+   "n": 3,
    "url": "https://denikn.cz/2257252/mazurek-se-pres-demonstranty-nedostal-byli-jsme-na-konferenci-krajni-pravice-v-praze/",
    "publisher": "denikn.cz",
    "title": "Mazurek se přes demonstranty nedostal. Byli jsme na konferenci krajní pravice v Praze",
@@ -87,49 +104,51 @@
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 2,
+ "confidence": 0.8,
+ "publishers": 3,
+ "reports24h": 3,
  "reportsPrev24h": 0,
- "reports48h": 2,
+ "reports48h": 3,
  "firstSeenAt": "2026-11-14T00:52:38.304Z",
  "lastReportAt": "2026-11-13T22:37:03.000Z",
- "lastCheckedAt": "2026-11-14T12:54:51.992Z",
- "updatedAt": "2026-11-14T00:54:41.281Z",
+ "lastCheckedAt": "2026-11-14T16:55:21.382Z",
+ "updatedAt": "2026-11-14T16:54:49.487Z",
  "distinctFrom": [
   "ea66651d9a9"
  ],
  "endedOn": "2026-11-13",
  "responseSources": [
   1,
-  2
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-14T00:54:41.281Z",
- "summaryOf": "95b9c9c010ba",
+ "summarizedAt": "2026-11-14T16:54:49.487Z",
+ "summaryOf": "1f8714bef6b4",
  "publishedAt": "2026-11-14T00:54:41.940Z",
  "i18n": {
-  "of": "23e9dc2cc9eb0f3b",
-  "at": "2026-11-14T00:55:14.037Z",
+  "of": "432bdd1c822e47ef",
+  "at": "2026-11-14T16:57:30.758Z",
   "tries": 1,
   "es": {
-   "title": "Manifestantes protestan contra conferencia derechista de remigración en Praga",
+   "title": "Manifestantes protestan contra conferencia de remigración de derecha en Praga",
    "seoTitle": "Protesta en Praga contra conferencia de remigración",
    "tea": {
-    "why": "Cientos de personas protestaron en Praga 9 contra una conferencia de derechas que debatía sobre la remigración, organizada por el partido Svobodní.",
-    "want": "Los manifestantes se opusieron a la conferencia sobre remigración coreando consignas y portando pancartas en contra del evento.",
-    "changed": "13 de nov.: Cientos de manifestantes se congregaron frente a un hotel de Praga 9 que albergaba una conferencia derechista, lo que llevó a la policía a asegurar el paso para los vehículos que se marchaban antes de..."
+    "why": "Cientos de personas protestaron contra una conferencia de derecha que discutía la remigración, organizada por el partido Ciudadanos Libres en Praga.",
+    "want": "Los manifestantes se opusieron al evento y al concepto de remigración, que los organizadores describieron como limpieza étnica.",
+    "changed": "13 de noviembre: Los manifestantes rodearon un hotel que albergaba la conferencia en Praga 9, y los organizadores finalizaron oficialmente la protesta alrededor de las 20:35."
    },
-   "summary": "Cientos de personas se reunieron en Praga 9 el 13 de noviembre para protestar contra una conferencia de derechas sobre la remigración organizada por el partido Svobodní. La manifestación, titulada \"Praga no quiere nazis\" y convocada por la plataforma Praha je feministická, incluyó pancartas con lemas como \"Negros, blancos, unan fuerzas\" junto a banderas palestinas. Los organizadores argumentaron que la remigración sirve como una iniciativa de limpieza étnica dirigida incluso a residentes de varias generaciones. Varias decenas de agentes de policía vigilaron el orden público y aseguraron el paso para los asistentes a la conferencia que salían del hotel en coches a través de la multitud. Los organizadores concluyeron oficialmente la manifestación aproximadamente a las 20:35.",
+   "summary": "Cientos de manifestantes se reunieron en Praga 9 el 13 de noviembre de 2026 para protestar contra una conferencia centrada en la remigración organizada por el partido Ciudadanos Libres. La manifestación, llamada \"Praga no quiere nazis\" y convocada por la plataforma Praga es Feminista, contó con participantes que sostenían pancartas y banderas palestinas mientras rodeaban el lugar. Los organizadores de la protesta declararon que la remigración equivale a una limpieza étnica basada en claves étnicas. Decenas de agentes de policía supervisaron la asamblea y gestionaron el orden público, asegurando finalmente el paso a los asistentes a la conferencia que salían del hotel en coches a través de la multitud. La protesta concluyó alrededor de las 20:35.",
    "demands": [
-    "Detener la conferencia de remigración",
-    "Oponerse a las políticas de limpieza étnica"
+    "Oponerse a la conferencia de remigración",
+    "Rechazar las políticas migratorias basadas en criterios étnicos"
    ],
-   "response": "Los agentes de policía vigilaron la seguridad pública y garantizaron que los participantes en la conferencia pudieran marcharse en coche a través de la multitud, según informó zpravy.aktualne.cz.",
+   "response": "Según declaraciones de la policía en la red social X, los agentes supervisaron la asamblea autorizada en Praga 9, vigilaron el orden público y garantizaron la seguridad de todas las personas, incluyendo asegurar el paso de los coches que salían del hotel.",
    "updates": [
-    "La policía declaró que estaba vigilando la concentración anunciada en Praga 9 después de que una multitud de personas rodeara un hotel.",
-    "Los asistentes a la conferencia salieron del hotel en coches mientras la policía aseguraba un camino a través de la multitud, y los organizadores dieron por terminada la protesta aproximadamente a las 20:35."
+    "La policía declaró que estaba supervisando la asamblea anunciada en Praga 9 mientras los manifestantes rodeaban un hotel.",
+    "Los participantes de la conferencia se marcharon en coches después de las 20:00, con la policía asegurando su paso a través de la multitud de manifestantes.",
+    "Los organizadores finalizaron oficialmente la manifestación aproximadamente a las 20:35."
    ],
    "conflicts": [],
    "numbers": {
@@ -138,21 +157,22 @@
   },
   "fr": {
    "title": "Des manifestants protestent contre une conférence de remigration de droite à Prague",
-   "seoTitle": "Manifestation à Prague contre la conférence de remigration",
+   "seoTitle": "Manifestation à Prague contre une conférence",
    "tea": {
-    "why": "Des centaines de personnes ont manifesté à Prague 9 contre une conférence de droite discutant de la remigration et organisée par le parti Svobodní.",
-    "want": "Les manifestants se sont opposés à la conférence sur la remigration en scandant des slogans et en tenant des banderoles dénonçant l'événement.",
-    "changed": "13 nov. : Des centaines de manifestants se sont rassemés devant un hôtel de Prague 9 accueillant une conférence de droite, incitant la police à sécuriser le passage pour les véhicules au départ avant..."
+    "why": "Des centaines de personnes ont manifesté contre une conférence de droite discutant de la remigration, organisée par le parti des Citoyens libres à Prague.",
+    "want": "Les manifestants se sont opposés à l'événement et au concept de remigration, que les organisateurs ont décrit comme un nettoyage ethnique.",
+    "changed": "13 novembre : Des manifestants ont encerclé un hôtel accueillant la conférence à Prague 9, et les organisateurs ont officiellement mis fin à la manifestation vers 20 h 35."
    },
-   "summary": "Des centaines de personnes se sont rassemblées à Prague 9 le 13 novembre pour protester contre une conférence de droite concernant la remigration organisée par le parti Svobodní. La manifestation, intitulée \"Prague ne veut pas de nazis\" et appelée par la plateforme Praha je feministická, présentait des banderoles avec des slogans tels que \"Noirs, blancs, unissez vos forces\" ainsi que des drapeaux palestiniens. Les organisateurs ont affirmé que la remigration sert d'initiative de nettoyage ethnique ciblant même les résidents de plusieurs générations. Plusieurs dizaines de policiers ont surveillé l'ordre public et ont sécurisé le passage pour les participants à la conférence quittant l'hôtel en voiture à travers la foule. Les organisateurs ont officiellement mis fin à la manifestation vers 20:35.",
+   "summary": "Des centaines de manifestants se sont rassemblés à Prague 9 le 13 novembre 2026 pour protester contre une conférence axée sur la remigration organisée par le parti des Citoyens libres. Le rassemblement, intitulé « Prague ne veut pas de nazis » et appelé par la plateforme Prague est féministe, a vu des participants tenir des pancartes et des drapeaux palestiniens tout en encerclant le lieu. Les organisateurs de la manifestation ont déclaré que la remigration équivaut à un nettoyage ethnique fondé sur des critères ethniques. Des dizaines de policiers ont supervisé l'assemblée et maintenu l'ordre public, assurant finalement le passage aux participants de la conférence quittant l'hôtel en voiture à travers la foule. La manifestation s'est terminée vers 20 h 35.",
    "demands": [
-    "Arrêter la conférence sur la remigration",
-    "S'opposer aux politiques de nettoyage ethnique"
+    "S'opposer à la conférence sur la remigration",
+    "Rejeter les politiques migratoires fondées sur des critères ethniques"
    ],
-   "response": "Des policiers ont surveillé la sécurité publique et ont veillé à ce que les participants à la conférence puissent repartir en voiture à travers la foule, selon zpravy.aktualne.cz.",
+   "response": "Selon les déclarations de la police sur le réseau social X, les agents ont surveillé l'assemblée autorisée à Prague 9, ont supervisé l'ordre public et ont assuré la sécurité de toutes les personnes, notamment en sécurisant le passage des voitures quittant l'hôtel.",
    "updates": [
-    "La police a déclaré qu'elle surveillait le rassemblement annoncé à Prague 9 après qu'une foule de personnes a encerclé un hôtel.",
-    "Les participants à la conférence ont quitté l'hôtel en voiture tandis que la police assurait un passage à travers la foule, et les organisateurs ont mis fin à la manifestation vers 20:35."
+    "La police a déclaré qu'elle surveillait l'assemblée annoncée à Prague 9 alors que des manifestants encerclaient un hôtel.",
+    "Les participants à la conférence sont partis en voiture après 20 h 00, la police assurant leur passage à travers la foule de manifestants.",
+    "Les organisateurs ont officiellement mis fin à la manifestation vers 20 h 35."
    ],
    "conflicts": [],
    "numbers": {
@@ -163,19 +183,20 @@
    "title": "Demonstranten protestieren gegen rechte Remigrationskonferenz in Prag",
    "seoTitle": "Prager Protest gegen Remigrationskonferenz",
    "tea": {
-    "why": "Hunderte demonstrierten in Prag 9 gegen eine von der Partei Svobodní organisierte rechte Konferenz zum Thema Remigration.",
-    "want": "Demonstranten wandten sich gegen die Remigrationskonferenz, skandierten Parolen und hielten Transparente zur Verurteilung der Veranstaltung.",
-    "changed": "13. Nov.: Hunderte Demonstranten versammelten sich vor einem Hotel in Prag 9, in dem eine rechte Konferenz stattfand, was die Polizei dazu veranlasste, abfahrenden Fahrzeugen den Weg zu sichern, bevor..."
+    "why": "Hunderte protestierten gegen eine rechte Konferenz zur Remigration, die von der Partei der Freien Bürger in Prag organisiert wurde.",
+    "want": "Die Demonstranten lehnten die Veranstaltung und das Konzept der Remigration ab, das von den Organisatoren als ethnische Säuberung beschrieben wurde.",
+    "changed": "13. November: Demonstranten umstellten ein Hotel, in dem die Konferenz in Prag 9 stattfand, und die Organisatoren beendeten den Protest offiziell gegen 20:35 Uhr."
    },
-   "summary": "Hunderte Menschen versammelten sich am 13. November in Prag 9, um gegen eine von der Partei Svobodní organisierte rechte Konferenz zur Remigration zu protestieren. Die Demonstration mit dem Titel „Prag will keine Nazis“, zu der die Plattform Praha je feministická aufgerufen hatte, zeigte Transparente mit Parolen wie „Schwarz, weiß,kräfte bündeln“ neben palästinensischen Flaggen. Die Organisatoren argumentierten, dass Remigration als ethnische Säuberungsinitiative dient, die selbst mehrgenerationenhafte Bewohner ins Visier nimmt. Mehr Dutzend Polizeibeamte überwachten die öffentliche Ordnung und sicherten Konferenzteilnehmern, die das Hotel in Autos verließen, den Weg durch die Menge. Die Organisatoren beendeten die Demonstration offiziell um etwa 20:35 Uhr.",
+   "summary": "Hunderte Demonstranten versammelten sich am 13. November 2026 in Prag 9, um gegen eine von der Partei der Freien Bürger organisierte Konferenz zum Thema Remigration zu protestieren. Die Kundgebung mit dem Namen „Prag will keine Nazis“, zu der die Plattform Prag ist feministisch aufgerufen hatte, bestand aus Teilnehmern, die Transparente und palästinensische Flaggen hielten, während sie den Veranstaltungsort umstellten. Die Organisatoren des Protests erklärten, dass Remigration einer ethnischen Säuberung auf Basis ethnischer Schlüssel gleichkomme. Dutzende Polizeibeamte überwachten die Versammlung und sorgten für die öffentliche Ordnung, wobei sie schließlich den Konferenzteilnehmern, die das Hotel in Autos verließen, den Weg durch die Menge bahnten. Der Protest endete gegen 20:35 Uhr.",
    "demands": [
-    "Die Remigrationskonferenz stoppen",
-    "Sich gegen ethnische Säuberungspolitik stellen"
+    "Gegen die Remigrationskonferenz protestieren",
+    "Ethnisch basierte Migrationspolitik ablehnen"
    ],
-   "response": "Polizeibeamte überwachten die öffentliche Sicherheit und stellten sicher, dass Konferenzteilnehmer durch die Menge wegfahren konnten, wie zpravy.aktualne.cz berichtete.",
+   "response": "Laut Polizeiaussagen im sozialen Netzwerk X überwachten Beamte die genehmigte Versammlung in Prag 9, sorgten für die öffentliche Ordnung und gewährleisteten die Sicherheit aller Personen, einschließlich der Sicherung der Durchfahrt für Autos, die das Hotel verließen.",
    "updates": [
-    "Die Polizei erklärte, sie überwache die angekündigte Versammlung in Prag 9, nachdem eine Menschenmenge ein Hotel umringt hatte.",
-    "Konferenzteilnehmer verließen das Hotel in Autos, während die Polizei einen Weg durch die Menge sicherte, und die Organisatoren beendeten den Protest gegen 20:35 Uhr."
+    "Die Polizei erklärte, sie beobachte die angekündigte Versammlung in Prag 9, während Demonstranten ein Hotel umstellten.",
+    "Konferenzteilnehmer fuhren nach 20:00 Uhr in Autos ab, wobei die Polizei ihre Durchfahrt durch die Menge der Demonstranten sicherte.",
+    "Die Organisatoren beendeten die Demonstration offiziell gegen 20:35 Uhr."
    ],
    "conflicts": [],
    "numbers": {
@@ -183,22 +204,23 @@
    }
   },
   "it": {
-   "title": "Dimostranti protestano contro la conferenza di remigrazione di destra a Praga",
-   "seoTitle": "Protesta a Praga contro la conferenza sulla remigrazione",
+   "title": "Manifestanti protestano contro una conferenza di destra sulla remigrazione a Praga",
+   "seoTitle": "Protesta a Praga contro conferenza sulla remigrazione",
    "tea": {
-    "why": "Centinaia di persone hanno protestato a Praga 9 contro una conferenza di destra incentrata sulla remigrazione, organizzata dal partito Svobodní.",
-    "want": "I manifestanti si sono opposti alla conferenza sulla remigrazione scandendo slogan e mostrando striscioni di condanna dell'evento.",
-    "changed": "13 nov: Centinaia di manifestanti si sono radunati fuori da un hotel di Praga 9 che ospitava una conferenza di destra, spingendo la polizia a garantire il passaggio dei veicoli in partenza prima che..."
+    "why": "Centinaia di persone hanno protestato contro una conferenza di destra che discuteva di remigrazione, organizzata dal partito dei Cittadini Liberi a Praga.",
+    "want": "I manifestanti si sono opposti all'evento e al concetto di remigrazione, che gli organizzatori hanno descritto come pulizia etnica.",
+    "changed": "13 novembre: I manifestanti hanno circondato un hotel che ospitava la conferenza a Praga 9 e gli organizzatori hanno ufficialmente terminato la protesta intorno alle 20:35."
    },
-   "summary": "Centinaia di persone si sono radunate a Praga 9 il 13 novembre per protestare contro una conferenza di destra sulla remigrazione organizzata dal partito Svobodní. La manifestazione, intitolata \"Praga non vuole i nazisti\" e indetta dalla piattaforma Praha je feministická, ha esibito striscioni con slogan come \"Neri, bianchi, uniamo le forze\" insieme a bandiere palestinesi. Gli organizzatori hanno sostenuto che la remigrazione funge da iniziativa di pulizia etnica mirata anche ai residenti di più generazioni. Diverse decine di agenti di polizia hanno monitorato l'ordine pubblico e garantito il passaggio ai partecipanti alla conferenza che lasciavano l'hotel in auto attraverso la folla. Gli organizzatori hanno concluso ufficialmente la manifestazione intorno alle 20:35.",
+   "summary": "Centinaia di manifestanti si sono riuniti a Praga 9 il 13 novembre 2026 per protestare contro una conferenza incentrata sulla remigrazione organizzata dal partito dei Cittadini Liberi. Il raduno, chiamato \"Praga non vuole i nazisti\" e indetto dalla piattaforma Praga è femminista, ha visto i partecipanti tenere striscioni e bandiere palestinesi mentre circondavano il luogo dell'evento. Gli organizzatori della protesta hanno dichiarato che la remigrazione equivale a una pulizia etnica basata su chiavi etniche. Decine di agenti di polizia hanno supervisionato l'assemblea e gestito l'ordine pubblico, assicurando infine il passaggio ai partecipanti alla conferenza che lasciavano l'hotel in auto attraverso la folla. La protesta si è conclusa intorno alle 20:35.",
    "demands": [
-    "Fermare la conferenza sulla remigrazione",
-    "Opporsi alle politiche di pulizia etnica"
+    "Opporsi alla conferenza sulla remigrazione",
+    "Rifiutare le politiche migratorie basate su criteri etnici"
    ],
-   "response": "Gli agenti di polizia hanno monitorato la sicurezza pubblica e assicurato che i partecipanti alla conferenza potessero allontanarsi in auto attraverso la folla, come riportato da zpravy.aktualne.cz.",
+   "response": "Secondo le dichiarazioni della polizia sul social network X, gli agenti hanno monitorato l'assemblea autorizzata a Praga 9, hanno supervisionato l'ordine pubblico e hanno garantito la sicurezza di tutte le persone, assicurando anche il passaggio alle auto che lasciavano l'hotel.",
    "updates": [
-    "La polizia ha dichiarato di stare monitorando l'assemblea annunciata a Praga 9 dopo che una folla di persone ha circondato un hotel.",
-    "I partecipanti alla conferenza hanno lasciato l'hotel in auto mentre la polizia garantiva un varco attraverso la folla, e gli organizzatori hanno concluso la protesta intorno alle 20:35."
+    "La polizia ha dichiarato di stare monitorando l'assemblea annunciata a Praga 9 mentre i manifestanti circondavano un hotel.",
+    "I partecipanti alla conferenza sono partiti in auto dopo le 20:00, con la polizia che ha assicurato il loro passaggio attraverso la folla di manifestanti.",
+    "Gli organizzatori hanno ufficialmente terminato la manifestazione alle 20:35 circa."
    ],
    "conflicts": [],
    "numbers": {
@@ -206,22 +228,23 @@
    }
   },
   "pt": {
-   "title": "Manifestantes protestam contra conferência de remigração de direita em Praga",
+   "title": "Manifestantes protestam contra conferência de direita sobre remigração em Praga",
    "seoTitle": "Protesto em Praga contra conferência de remigração",
    "tea": {
-    "why": "Centenas protestaram em Praga 9 contra uma conferência de direita que discutia a remigração, organizada pelo partido Svobodní.",
-    "want": "Os manifestantes opuseram-se à conferência de remigração, entoando palavras de ordem e empunhando faixas de denúncia do evento.",
-    "changed": "13 de nov.: Centenas de manifestantes reuniram-se à porta de um hotel em Praga 9 que acolhia uma conferência de direita, levando a polícia a garantir a passagem de veículos em partida antes de..."
+    "why": "Centenas de pessoas protestaram contra uma conferência de direita que discutia a remigração, organizada pelo partido Cidadãos Livres em Praga.",
+    "want": "Os manifestantes opuseram-se ao evento e ao conceito de remigração, que os organizadores descreveram como limpeza étnica.",
+    "changed": "13 de novembro: Os manifestantes cercaram um hotel que acolhia a conferência em Praga 9, e os organizadores terminaram oficialmente o protesto por volta das 20:35."
    },
-   "summary": "Centenas de pessoas reuniram-se em Praga 9 a 13 de novembro para protestar contra uma conferência de direita sobre a remigração organizada pelo partido Svobodní. A manifestação, intitulada \"Praga não quer nazis\" e convocada pela plataforma Praha je feministická, apresentou faixas com slogans como \"Pretos, brancos, unam forças\" juntamente com bandeiras palestinianas. Os organizadores argumentaram que a remigração serve como uma iniciativa de limpeza étnica visando inclusive residentes de várias gerações. Várias dezenas de agentes da polícia monitorizaram a ordem pública e garantiram a passagem aos participantes da conferência que abandonavam o hotel de carro através da multidão. Os organizadores encerraram oficialmente a manifestação por volta das 20:35.",
+   "summary": "Centenas de manifestantes reuniram-se em Praga 9 no dia 13 de novembro de 2026 para protestar contra uma conferência focada na remigração organizada pelo partido Cidadãos Livres. A manifestação, denominada \"Praga não quer nazis\" e convocada pela plataforma Praga é Feminista, contou com participantes que seguravam cartazes e bandeiras palestinianas enquanto cercavam o local. Os organizadores do protesto declararam que a remigração equivale a uma limpeza étnica baseada em chaves étnicas. Dezenas de agentes da polícia supervisionaram a assembleia e geriram a ordem pública, acabando por garantir a passagem aos participantes da conferência que saíam do hotel em carros através da multidão. O protesto terminou por volta das 20:35.",
    "demands": [
-    "Parar a conferência de remigração",
-    "Opor-se às políticas de limpeza étnica"
+    "Opor-se à conferência sobre remigração",
+    "Rejeitar políticas migratórias baseadas em critérios étnicos"
    ],
-   "response": "Agentes da polícia monitorizaram a segurança pública e asseguraram que os participantes na conferencia conseguiram afastar-se de carro através da multidão, conforme noticiado por zpravy.aktualne.cz.",
+   "response": "Segundo declarações da polícia na rede social X, os agentes monitorizaram a assembleia autorizada em Praga 9, supervisionaram a ordem pública e garantiram a segurança de todos os indivíduos, incluindo a garantia de passagem para os carros que saíam do hotel.",
    "updates": [
-    "A polícia declarou que estava a monitorizar a concentração anunciada em Praga 9 depois de uma multidão ter cercado um hotel.",
-    "Os participantes na conferência deixaram o hotel em carros enquanto a polícia garantia um caminho através da multidão, e os organizadores terminaram o protesto por volta das 20:35."
+    "A polícia declarou que estava a monitorizar a assembleia anunciada em Praga 9 enquanto os manifestantes cercavam um hotel.",
+    "Os participantes da conferência partiram em carros depois das 20:00, com a polícia a garantir a sua passagem através da multidão de manifestantes.",
+    "Os organizadores terminaram oficialmente a manifestação aproximadamente às 20:35."
    ],
    "conflicts": [],
    "numbers": {
@@ -229,22 +252,23 @@
    }
   },
   "nl": {
-   "title": "Demonstranten protesteren tegen rechtse remigratieconferentie in Praag",
-   "seoTitle": "Praags protest tegen remigratieconferentie",
+   "title": "Demonstranten protesteren tegen rechts-georiënteerde remigratieconferentie in Praag",
+   "seoTitle": "Praagse protest tegen remigratieconferentie",
    "tea": {
-    "why": "Honderden protesteerden in Praag 9 tegen een rechtse conferentie over remigratie, georganiseerd door de partij Svobodní.",
-    "want": "Demonstranten verzetten zich tegen de remigratieconferentie door leuzen te scanderen en spandoeken vast te houden die de gebeurtenis veroordeelden.",
-    "changed": "13 nov.: Honderden demonstranten verzamelden zich voor een hotel in Praag 9 waar een rechtse conferentie plaatsvond, waardoor de politie een vrije doorgang moest beveiligen voor vertrekkende voertuigen voordat..."
+    "why": "Honderden mensen protesteerden tegen een rechtse conferentie over remigratie, georganiseerd door de partij Vrije Burgers in Praag.",
+    "want": "De demonstranten verzetten zich tegen het evenement en het concept van remigratie, dat door de organisatoren werd omschreven als etnische zuivering.",
+    "changed": "13 november: Demonstranten omsingelden een hotel waar de conferentie in Praag 9 plaatsvond, en de organisatoren beëindigden het protest officieel rond 20:35 uur."
    },
-   "summary": "Honderden mensen verzamelden zich op 13 november in Praag 9 om te protesteren tegen een rechtse conferentie over remigratie die werd georganiseerd door de partij Svobodní. De demonstratie, getiteld \"Praag wil geen nazi's\" en bijeengeroepen door het platform Praha je feministická, bevatte spandoeken met leuzen als \"Zwart, wit, krachten bundelen\" naast Palestijnse vlaggen. Organisatoren voerden aan dat remigratie dient als een etnisch zuiveringsinitiatief dat zelfs gericht is op meergeneratiebewoners. Enkele tientallen politieagenten hielden toezicht op de openbare orde en verzekerden een doorgang voor conferentiedeelnemers die het hotel per auto door de menigte verlieten. De organisatoren beëindigden de demonstratie officieel omstreeks 20:35 uur.",
+   "summary": "Honderden demonstranten verzamelden zich op 13 november 2026 in Praag 9 om te protesteren tegen een conferentie over remigratie, georganiseerd door de partij Vrije Burgers. De bijeenkomst, genaamd \"Praag wil geen nazi's\" en opgeroepen door het platform Praag is feministisch, bestond uit deelnemers die spandoeken en Palestijnse vlaggen vasthielden terwijl ze de locatie omsingelden. De organisatoren van het protest verklaarden dat remigratie neerkomt op etnische zuivering op basis van etnische sleutels. Tientallen politieagenten hielden toezicht op de bijeenkomst en handhaafden de openbare orde, waarbij ze uiteindelijk de doorgang veiligstelden voor conferentiedeelnemers die het hotel per auto verlieten door de menigte heen. Het protest eindigde rond 20:35 uur.",
    "demands": [
-    "Stop de remigratieconferentie",
-    "Verzet tegen etnisch zuiveringsbeleid"
+    "Verzet tegen de remigratieconferentie",
+    "Afwijzing van etnisch gebaseerd migratiebeleid"
    ],
-   "response": "Politieagenten hielden toezicht op de openbare veiligheid en zorgden ervoor dat conferentiedeelnemers door de menigte weg konden rijden, zoals gemeld door zpravy.aktualne.cz.",
+   "response": "Volgens politieverklaringen op het sociale netwerk X hielden agenten toezicht op de toegestane bijeenkomst in Praag 9, handhaafden ze de openbare orde en waarborgden ze de veiligheid van alle individuen, inclusief het beveiligen van de doorgang voor auto's die het hotel verlieten.",
    "updates": [
-    "De politie verklaarde dat zij de aangekondigde bijeenkomst in Praag 9 in de gaten hield nadat een mensenmassa een hotel had omringd.",
-    "Conferentiedeelnemers verlieten het hotel in auto's terwijl de politie een pad door de menigte vrijhield, en de organisatoren beëindigden het protest omstreeks 20:35 uur."
+    "De politie verklaarde dat ze de aangekondigde bijeenkomst in Praag 9 in de gaten hielden terwijl demonstranten een hotel omsingelden.",
+    "Conferentiedeelnemers vertrokken na 20:00 uur per auto, waarbij de politie hun doorgang door de menigte demonstranten beveiligde.",
+    "De organisatoren beëindigden de demonstratie officieel rond 20:35 uur."
    ],
    "conflicts": [],
    "numbers": {

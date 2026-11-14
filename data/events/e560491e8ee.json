@@ -3,7 +3,7 @@
  "slug": "montreal-student-protest-nov-2026",
  "stage": "live",
  "title": "Montreal students and police clash during protest over living costs",
- "seoTitle": "Montreal student protest",
+ "seoTitle": "Montreal student protest living costs",
  "place": {
   "city": "Montréal",
   "region": "Quebec",
@@ -19,35 +19,52 @@
   "education",
   "prices"
  ],
- "kind": "one-day",
- "startedOn": "2026-11-13",
- "status": "ended",
- "vibe": "wrapped-up",
+ "kind": "multi-day",
+ "startedOn": "2026-11-09",
+ "status": "ongoing",
+ "vibe": "heating-up",
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
-  "low-confidence"
+  "top-10"
  ],
- "isOngoing": false,
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Rising education, food, and housing costs affecting students and causing growing financial insecurity.",
-  "want": "Reform the provincial student financial assistance program, increase funding for CEGEPs and universities, and address underfunding.",
-  "changed": "Nov 13: Police deployed tear gas and flash bangs after clashes erupted during a downtown student demonstration."
+  "why": "Students are protesting against rising education, food, and housing costs, government austerity measures, and deteriorating campus conditions.",
+  "want": "Demonstrators are demanding a reform of the provincial student financial assistance program and increased funding for CEGEPs and universities.",
+  "changed": "Nov 13: Montreal police deployed tear gas and flash-bangs to disperse crowds after clashes broke out during a student demonstration."
  },
- "summary": "Thousands of students gathered in downtown Montreal for a demonstration called by the Coalition de résistance pour l'unité étudiante syndicale (CRUES) to protest rising education, food, and housing costs. Protesters demanded that the provincial government reform student financial assistance and increase funding for higher education institutions. The demonstration turned chaotic when some protesters threw projectiles and rocks at police officers in riot gear, resulting in broken windows and property mischief. Montreal police deployed tear gas and flash-bang devices to disperse the crowds, arresting three people for assaults on officers. Quebec Higher Education Minister Elsie Lefebvre condemned the acts of violence and vandalism while acknowledging the right to protest.",
+ "summary": "Thousands of students took to the streets in downtown Montreal during a student strike that began on November 9, 2026. Organised by the Coalition de résistance pour l'unité étudiante syndicale (CRUES), the mobilization brought together demonstrators to protest against increasing living, food, and housing costs, as well as government austerity and underfunded educational institutions. The protest turned chaotic near Square Victoria and Viger Street, where some participants threw rocks and projectiles at officers. According to police reports, authorities responded with tear gas and flash-bang devices to disperse the crowds after windows were broken and instances of vandalism were reported. Quebec Higher Education Minister Elsie Lefebvre acknowledged the right to protest while condemning the violence.",
  "organizers": [
   "Coalition de résistance pour l'unité étudiante syndicale (CRUES)"
  ],
  "demands": [
-  "Reform the student financial assistance program",
-  "Increase funding for CEGEPs and universities"
+  "Reform the provincial student financial assistance program",
+  "Increase funding and reinvest in CEGEPs and universities",
+  "Address growing student financial insecurity caused by the cost of living"
  ],
- "response": "According to CBC News, Montreal police deployed tear gas and flash bangs, made three arrests for assaults on officers, and moved to disperse the crowds. Quebec Higher Education Minister Elsie Lefebvre condemned the violence and vandalism, while stating that the government recognizes the right to protest.",
+ "response": "According to CBC News and Expert.ru, Montreal police deployed tear gas and flash-bangs and made three arrests for assaults on officers following reported projectiles and vandalism. Quebec Higher Education Minister Elsie Lefebvre stated that the government recognizes the right to protest but condemned violence and vandalism.",
  "numbers": {
+  "crowd": {
+   "value": 100000,
+   "text": "CRUES estimated that a total of 100,000 people took part in the strike, while reports noted thousands brought into…",
+   "sources": [
+    1,
+    3
+   ]
+  },
   "arrests": {
    "value": 3,
-   "text": "Police say two people were arrested for armed assault on a police officer and another was arrested for assault on a…",
+   "text": "Police stated three people were arrested, including two for armed assault on a police officer and one for assault on a…",
+   "sources": [
+    2,
+    3
+   ]
+  },
+  "injuries": {
+   "value": 0,
+   "text": "Police noted no citizen injuries.",
    "sources": [
     2
    ]
@@ -55,19 +72,36 @@
  },
  "updates": [
   {
-   "at": "2026-11-13",
-   "text": "Thousands of students demonstrated in downtown Montreal, with clashes breaking out between protesters and police officers in riot gear.",
+   "at": "2026-11-09",
+   "text": "A student strike began in the province of Quebec over education conditions and living costs.",
    "sources": [
-    1,
-    2
+    3
    ]
   },
   {
    "at": "2026-11-13",
-   "text": "Montreal police used tear gas and flash-bang devices and arrested three individuals following reports of projectiles thrown at officers.",
+   "text": "Thousands of students gathered in downtown Montreal for a demonstration called by CRUES.",
    "sources": [
     1,
-    2
+    2,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-13",
+   "text": "Police deployed tear gas and flash-bangs following clashes and projectiles thrown near Square Victoria.",
+   "sources": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-13",
+   "text": "Police reported three arrests for assaults on officers and eight instances of mischief targeting buildings or vehicles.",
+   "sources": [
+    2,
+    3
    ]
   }
  ],
@@ -85,28 +119,35 @@
    "publisher": "cbc.ca",
    "title": "Montreal police use tear gas to disperse downtown student protest | CBC News",
    "publishedAt": "2026-11-13T21:31:30.508Z"
+  },
+  {
+   "n": 3,
+   "url": "https://expert.ru/news/v-kanade-tysyachi-studentov-vyshli-na-protesty",
+   "publisher": "expert.ru",
+   "title": "В Канаде тысячи студентов вышли на протесты | Эксперт",
+   "publishedAt": "2026-11-14T12:47:00.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 2,
+ "confidence": 0.8,
+ "publishers": 3,
+ "reports24h": 3,
  "reportsPrev24h": 1,
- "reports48h": 3,
+ "reports48h": 4,
  "firstSeenAt": "2026-11-13T00:53:11.831Z",
- "lastReportAt": "2026-11-13T21:31:30.508Z",
- "lastCheckedAt": "2026-11-14T12:54:51.992Z",
- "updatedAt": "2026-11-14T12:54:12.354Z",
+ "lastReportAt": "2026-11-14T12:47:00.000Z",
+ "lastCheckedAt": "2026-11-14T16:55:21.382Z",
+ "updatedAt": "2026-11-14T16:54:36.592Z",
  "searchedAt": "2026-11-14T08:50:41.453Z",
- "endedOn": "2026-11-13",
  "responseSources": [
   1,
-  2
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-14T12:54:12.354Z",
- "summaryOf": "c33c64372b80",
+ "summarizedAt": "2026-11-14T16:54:36.592Z",
+ "summaryOf": "1da22a2b5bad",
  "publishedAt": "2026-11-14T09:02:09.109Z",
  "i18n": {
   "of": "accc99c26c494a69",

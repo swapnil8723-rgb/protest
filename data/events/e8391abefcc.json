@@ -16,7 +16,7 @@
  "scope": "local",
  "causes": [
   "ukraine-war",
-  "governance",
+  "police",
   "local-civic"
  ],
  "kind": "one-day",
@@ -29,123 +29,128 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Locals and relatives gathered after unconfirmed online rumors claimed that draftees and deserters were being tortured in a private house.",
-  "want": "Protesters demanded the release of people allegedly detained inside the building and access to the facility.",
-  "changed": "Nov 6: Reports noted that the clashes fueled an anti-Ukrainian disinformation campaign, while authorities stated the site was a temporary holding point."
+  "why": "Locals and relatives gathered after unconfirmed social media reports claimed that men and draftees were being detained and tortured in a house.",
+  "want": "Demonstrators demanded the release of detainees allegedly held inside the building.",
+  "changed": "Nov 6: Reports noted that an online disinformation campaign amplified unverified claims surrounding the facility."
  },
- "summary": "On November 2, 2026, a protest broke out in the Kyiv suburb of Petropavlivska Borshchahivka outside a private house used by the National Guard's Azov Corps. Triggered by unconfirmed social media rumors claiming the building was a secret torture center holding dozens of forced draftees or deserters, a crowd of local residents and relatives gathered around the facility. Demonstrators attempted to break through gates, rocked a National Guard bus, and threw eggs and tomatoes at law enforcement officers. According to sources, police and military personnel deployed pepper spray and fired warning shots to disperse the crowd, and clashes eased by midnight. Authorities stated the building served as a temporary holding point for soldiers who left their units without authorization, denying allegations of illegal detention and torture. Officials also noted that an internal inquiry and an ombudsman review were launched.",
+ "summary": "On November 2, 2026, a protest erupted outside a National Guard facility in Petropavlivska Borshchahivka near Kyiv, Ukraine. Hundreds of residents and relatives gathered following unverified social media claims alleging that draftees and deserters were being illegally detained and tortured in the basement of a private house. The confrontation escalated into scuffles, with protesters throwing eggs, tomatoes, and stones, rocking a National Guard bus, and attempting to enter the building, while security forces responded with pepper spray and warning shots. National Guard and police officials stated that the house was used as a temporary holding point for soldiers who had left their units without authorization, denying allegations of illegal detention or torture. Authorities reported that four servicemen were sent for medical care, and investigations were launched into the incident.",
  "organizers": [],
  "demands": [
-  "Release detainees from the facility",
-  "Gain entry to inspect the building"
+  "Release detained individuals from the facility"
  ],
- "response": "According to sources, police and military forces deployed pepper spray and fired warning shots. Officials stated the house was a temporary holding point for unauthorized absent servicemen, denied illegal detentions, and launched an internal inquiry and ombudsman review.",
+ "response": "The National Guard stated the house was a temporary holding point for unauthorized absent soldiers and denied torture allegations. Police denied illegal detention and deaths. Officials reported that four servicemen needing medical care were sent for treatment, and investigations were launched.",
  "numbers": {
   "crowd": {
    "value": 200,
-   "text": "about 200 people gathered",
+   "text": "About 200 people gathered near a house used by the National Guard",
    "sources": [
-    6
+    7
    ]
   },
   "arrests": {
    "value": 3,
    "text": "Three individuals were remanded in custody without the right to bail.",
    "sources": [
-    7
+    8
    ]
   },
   "injuries": {
    "value": 4,
-   "text": "four needing medical care were sent for treatment",
+   "text": "four of the detained men suffered injuries of unspecified extent and origin",
    "sources": [
-    3,
-    6
+    1,
+    4
    ]
   },
   "deaths": {
    "value": 0,
    "text": "Police denied illegal detention and any deaths.",
    "sources": [
-    3
+    4
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-02",
-   "text": "Residents and relatives gathered outside a National Guard facility following unconfirmed rumors of detainees.",
+   "text": "A crowd gathered outside a National Guard building following unverified social media claims of detained draftees.",
    "sources": [
     1,
     2,
-    3,
     4,
-    6
+    7
    ]
   },
   {
    "at": "2026-11-02",
-   "text": "Clashes escalated with scuffles, pepper spray, and warning shots as protesters attempted to breach the building.",
+   "text": "Clashes broke out with protesters throwing objects and security forces using pepper spray and managing the site.",
    "sources": [
+    1,
     2,
-    3,
-    6
+    4,
+    7
    ]
   },
   {
-   "at": "2026-11-02",
-   "text": "The confrontations eased by night around midnight, and authorities confirmed an internal inquiry.",
+   "at": "2026-11-06",
+   "text": "Authorities and fact-checkers reported that online rumors regarding torture chambers were part of a broader disinformation campaign.",
    "sources": [
-    3,
-    6
+    7
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://marker.sk/clanky/2197/udajne-mucenie-odvedencov-spustilo-pri-kyjeve-protest-konanie-azovu-vysetruju",
+   "publisher": "marker.sk",
+   "title": "Údajné mučenie odvedencov spustilo pri Kyjeve protest. Konanie Azovu vyšetrujú | Marker.sk",
+   "publishedAt": "2026-11-03T15:15:00.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://www.tf1info.fr/international/verif-que-sait-on-de-ces-chambres-de-torture-supposement-decouvertes-a-kiev-2473646.html",
    "publisher": "tf1info.fr",
    "title": "VÉRIF' - Que sait-on de ces \"chambres de torture\" supposément découvertes à Kiev ? | TF1 Info",
    "publishedAt": "2026-11-03T16:40:51.446Z"
   },
   {
-   "n": 2,
+   "n": 3,
    "url": "https://denikn.cz/2242430/zbehy-na-ukrajine-veznili-v-soukromem-dome-chaotickeho-protestu-se-zmocnila-nepratelska-propaganda/",
    "publisher": "denikn.cz",
    "title": "Zběhy na Ukrajině věznili v soukromém domě. Chaotického protestu se zmocnila nepřátelská propaganda",
    "publishedAt": "2026-11-03T20:13:30.000Z"
   },
   {
-   "n": 3,
+   "n": 4,
    "url": "https://n1info.rs/svet/ukrajina-kijev-azov-dezerteri-sukob-petropavlivska-borscahivka/",
    "publisher": "n1info.rs",
    "title": "Sukob građana sa Azovom i policijom: Nemiri pored Kijeva otkrili dublje društvene tenzije",
    "publishedAt": "2026-11-04T21:28:58.505Z"
   },
   {
-   "n": 4,
+   "n": 5,
    "url": "https://www.ladepeche.fr/2026/11/05/vrai-ou-faux-guerre-en-ukraine-des-soldats-ukrainiens-ont-ils-vraiment-ete-detenus-et-violentes-dans-une-maison-situee-pres-de-kiev-13633307.php",
    "publisher": "ladepeche.fr",
    "title": "VRAI OU FAUX. Guerre en Ukraine : des soldats ukrainiens ont-ils vraiment été détenus et violentés dans une maison située près de Kiev ?",
    "publishedAt": "2026-11-05T19:31:02.000Z"
   },
   {
-   "n": 5,
+   "n": 6,
    "url": "https://meduza.io/en/feature/2026/11/06/here-s-what-we-know-three-days-after-the-clash-at-a-temporary-base-for-the-national-guard-s-azov-corps-outside-kyiv",
    "publisher": "meduza.io",
    "title": "Here’s what we know three days after the clash at a temporary base for the National Guard’s Azov Corps outside Kyiv — Meduza",
    "publishedAt": "2026-11-05T21:31:09.000Z"
   },
   {
-   "n": 6,
+   "n": 7,
    "url": "https://kyivindependent.com/fact-check-how-clashes-on-kyivs-outskirts-fueled-russian-disinformation-blitz/",
    "publisher": "kyivindependent.com",
    "title": "Fact check: How clashes on Kyiv's outskirts fueled Russian disinformation blitz",
    "publishedAt": "2026-11-06T15:18:17.000Z"
   },
   {
-   "n": 7,
+   "n": 8,
    "url": "https://kyivindependent.com/police-sbu-identify-130-people-potentially-involved-in-clashes-near-national-guard-facility-in-kyiv-oblast/",
    "publisher": "kyivindependent.com",
    "title": "Police, SBU identify 130 people potentially involved in clashes near National Guard facility in Kyiv Oblast",
@@ -154,107 +159,103 @@
  ],
  "conflicts": [],
  "confidence": 0.9,
- "publishers": 6,
+ "publishers": 7,
  "reports24h": 0,
  "reportsPrev24h": 0,
  "reports48h": 0,
  "firstSeenAt": "2026-11-03T15:52:12.171Z",
  "lastReportAt": "2026-11-06T15:18:17.000Z",
- "lastCheckedAt": "2026-11-14T12:54:51.992Z",
- "updatedAt": "2026-11-06T16:22:05.111Z",
+ "lastCheckedAt": "2026-11-14T16:55:21.382Z",
+ "updatedAt": "2026-11-14T16:54:17.185Z",
  "searchedAt": "2026-11-04T23:08:20.843Z",
  "endedOn": "2026-11-02",
  "responseSources": [
-  3,
-  6
+  4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-06T16:22:05.111Z",
- "summaryOf": "fe1792be0a03",
+ "summarizedAt": "2026-11-14T16:54:17.185Z",
+ "summaryOf": "ad40ef89a53c",
  "publishedAt": "2026-11-05T07:01:25.086Z",
  "i18n": {
-  "of": "2e541f0689250a0c",
-  "at": "2026-11-12T20:58:36.785Z",
-  "tries": 2,
+  "of": "33b73393e7f26deb",
+  "at": "2026-11-14T16:57:48.652Z",
+  "tries": 1,
   "hi": {
-   "title": "पेट्रोपाव्लिवस्का बोर्शचाहिव्का में नेशनल गार्ड सुविधा के बाहर निवासियों का विरोध प्रदर्शन",
-   "seoTitle": "पेट्रोपाव्लिवस्का बोर्शचाहिव्का विरोध",
+   "title": "पेट्रोपावलिवस्का बोर्शचाविका में नेशनल गार्ड सुविधा के बाहर निवासियों का विरोध",
+   "seoTitle": "पेट्रोपावलिवस्का बोर्शचाविका विरोध",
    "tea": {
-    "why": "अपुष्ट ऑनलाइन अफवाहों में यह दावा किए जाने के बाद कि एक निजी घर में रंगरूटों और भगोड़ों को प्रताड़ित किया जा रहा है, स्थानीय लोग और रिश्तेदार एकत्र हुए।",
-    "want": "प्रदर्शनकारियों ने इमारत के अंदर कथित तौर पर हिरासत में लिए गए लोगों की रिहाई और उस सुविधा तक पहुंच की मांग की।",
-    "changed": "6 नवंबर: रिपोर्टों में उल्लेख किया गया कि झड़पों ने एक यूक्रेन-विरोधी दुष्प्रचार अभियान को हवा दी, जबकि अधिकारियों ने कहा कि यह स्थल एक अस्थायी हिरासत बिंदु था।"
+    "why": "सोशल मीडिया पर अपुष्ट खबरों में दावा किया गया कि एक घर में पुरुषों और रंगरूटों को हिरासत में रखा गया है और उन्हें प्रताड़ित किया जा रहा है, जिसके बाद स्थानीय लोग और रिश्तेदार वहां जमा हुए।",
+    "want": "प्रदर्शनकारियों ने इमारत के अंदर कथित तौर पर रखे गए बंदियों की रिहाई की मांग की।",
+    "changed": "6 नवंबर: रिपोर्टों में उल्लेख किया गया कि एक ऑनलाइन दुष्प्रचार अभियान ने सुविधा के बारे में अपुष्ट दावों को बढ़ावा दिया।"
    },
-   "summary": "2 नवंबर 2026 को, कीव के उपनगर पेट्रोपाव्लिवस्का बोर्शचाहिव्का में नेशनल गार्ड के आज़ोव कॉर्प्स द्वारा उपयोग किए जाने वाले एक निजी घर के बाहर एक विरोध प्रदर्शन भड़क उठा। सोशल मीडिया की उन अपुष्ट अफवाहों से प्रेरित होकर जिनमें दावा किया गया था कि यह इमारत एक गुप्त प्रताड़ना केंद्र है जहाँ दर्जनों जबरन भर्ती किए गए लोगों या भगोड़ों को रखा गया है, स्थानीय निवासियों और रिश्तेदारों की भीड़ सुविधा के इर्द-गिर्द जमा हो गई। प्रदर्शनकारियों ने फाटकों को तोड़ने का प्रयास किया, नेशनल गार्ड की एक बस को हिलाया, और कानून प्रवर्तन अधिकारियों पर अंडे तथा टमाटर फेंके। सूत्रों के अनुसार, पुलिस और सैन्यकर्मियों ने भीड़ को तितर-बितर करने के लिए मिर्ची स्प्रे का इस्तेमाल किया और चेतावनी भरे गोलियां चलाईं, तथा आधी रात तक झड़पें शांत हो गईं। अधिकारियों ने कहा कि यह इमारत बिना अनुमति के अपनी इकाइयों को छोड़ने वाले सैनिकों के लिए एक अस्थायी हिरासत बिंदु के रूप में काम करती थी, और उन्होंने अवैध हिरासत तथा प्रताड़ना के आरोपों से इनकार किया। अधिकारियों ने यह भी बताया कि एक आंतरिक जांच और एक लोकपाल समीक्षा शुरू की गई है।",
+   "summary": "2 नवंबर, 2026 को कीव, यूक्रेन के पास पेट्रोपावलिवस्का बोर्शचाविका में एक नेशनल गार्ड सुविधा के बाहर विरोध प्रदर्शन हुआ। सैकड़ों निवासी और रिश्तेदार सोशल मीडिया के अपुष्ट दावों के बाद जमा हुए, जिनमें आरोप लगाया गया था कि रंगरूटों और भगोड़ों को एक निजी घर के बेसमेंट में अवैध रूप से हिरासत में रखा गया है और उन्हें प्रताड़ित किया जा रहा है। टकराव हाथापाई में बदल गया, जिसमें प्रदर्शनकारियों ने अंडे, टमाटर और पत्थर फेंके, नेशनल गार्ड की एक बस को हिलाया और इमारत में घुसने की कोशिश की, जबकि सुरक्षा बलों ने काली मिर्च स्प्रे और चेतावनी के तौर पर गोलियां चलाईं। नेशनल गार्ड और पुलिस अधिकारियों ने कहा कि घर का उपयोग उन सैनिकों के लिए अस्थायी होल्डिंग पॉइंट के रूप में किया गया था जो बिना अनुमति के अपनी इकाइयों से चले गए थे, और उन्होंने अवैध हिरासत या यातना के आरोपों से इनकार किया। अधिकारियों ने बताया कि चार सैनिकों को चिकित्सा देखभाल के लिए भेजा गया और घटना की जांच शुरू की गई।",
    "demands": [
-    "सुविधा से बंदियों को रिहाई दें",
-    "भवन का निरीक्षण करने के लिए प्रवेश प्राप्त करें"
+    "सुविधा से हिरासत में लिए गए व्यक्तियों को रिहा करें"
    ],
-   "response": "सूत्रों के अनुसार, पुलिस और सैन्य बलों ने मिर्ची स्प्रे का उपयोग किया और चेतावनी के तौर पर गोलियां चलाईं। अधिकारियों ने कहा कि यह घर अनाधिकृत रूप से अनुपस्थित सैनिकों के लिए एक अस्थायी हिरासत बिंदु था, अवैध हिरासत से इनकार किया, और एक आंतरिक जांच तथा लोकपाल समीक्षा शुरू की।",
+   "response": "नेशनल गार्ड ने कहा कि घर बिना अनुमति के अनुपस्थित सैनिकों के लिए एक अस्थायी होल्डिंग पॉइंट था और यातना के आरोपों से इनकार किया। पुलिस ने अवैध हिरासत और मौतों से इनकार किया। अधिकारियों ने बताया कि चिकित्सा देखभाल की आवश्यकता वाले चार सैनिकों को उपचार के लिए भेजा गया और जांच शुरू की गई।",
    "updates": [
-    "बंदियों की अपुष्ट अफवाहों के बाद निवासी और रिश्तेदार नेशनल गार्ड सुविधा के बाहर एकत्र हुए।",
-    "जैसे ही प्रदर्शनकारियों ने इमारत में घुसने की कोशिश की, हाथापाई, मिर्ची स्प्रे और चेतावनी भरे गोलियों के साथ झड़पें बढ़ गईं।",
-    "आधी रात के आसपास टकराव कम हो गए, और अधिकारियों ने आंतरिक जांच की पुष्टि की।"
+    "हिरासत में लिए गए रंगरूटों के बारे में अपुष्ट सोशल मीडिया दावों के बाद नेशनल गार्ड की इमारत के बाहर भीड़ जमा हो गई।",
+    "प्रदर्शनकारियों द्वारा वस्तुएं फेंकने और सुरक्षा बलों द्वारा काली मिर्च स्प्रे का उपयोग करने और स्थल का प्रबंधन करने के साथ झड़पें हुईं।",
+    "अधिकारियों और फैक्ट-चेकर्स ने बताया कि यातना कक्षों के बारे में ऑनलाइन अफवाहें एक व्यापक दुष्प्रचार अभियान का हिस्सा थीं।"
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "लगभग 200 लोग एकत्र हुए",
-    "arrests": "तीन व्यक्तियों को बिना जमानत के अधिकार के हिरासत में भेजा गया।",
-    "injuries": "चिकित्सा सहायता की आवश्यकता वाले चार लोगों को इलाज के लिए भेजा गया",
+    "crowd": "नेशनल गार्ड द्वारा उपयोग किए जाने वाले घर के पास लगभग 200 लोग जमा हुए",
+    "arrests": "तीन व्यक्तियों को बिना जमानत के अधिकार के हिरासत में भेज दिया गया।",
+    "injuries": "हिरासत में लिए गए चार पुरुषों को अज्ञात सीमा और मूल की चोटें आईं",
     "deaths": "पुलिस ने अवैध हिरासत और किसी भी मौत से इनकार किया।"
    }
   },
   "mr": {
-   "title": "पेट्रोपाव्लिवस्का बोर्शचाहिव्का येथील नॅशनल गार्ड सुविधेबाहेर रहिवाशांचे निदर्शने",
-   "seoTitle": "पेट्रोपाव्लिवस्का बोर्शचाहिव्का निदर्शने",
+   "title": "पेट्रोपावलिवस्का बोर्शचाविका येथे नॅशनल गार्ड सुविधेबाहेर रहिवाशांचे आंदोलन",
+   "seoTitle": "पेट्रोपावलिवस्का बोर्शचाविका आंदोलन",
    "tea": {
-    "why": "एका खाजगी घरात भरती केलेले तरुण आणि पळून गेलेल्या सैनिकांवर अत्याचार होत असल्याच्या अप्रमाणित ऑनलाइन अफवा पसरल्यानंतर स्थानिक आणि नातेवाईक जमले.",
-    "want": "निदर्शकांनी इमारतीमध्ये कथितरीत्या डांबून ठेवलेल्या लोकांच्या सुटकेची आणि सुविधेमध्ये प्रवेश मिळण्याची मागणी केली.",
-    "changed": "६ नोव्हेंबर: अहवालांनी नमूद केले की या संघर्षामुळे युक्रेन-विरोधी अपप्रचाराच्या मोहिमेला बळ मिळाले, तर अधिकाऱ्यांनी सांगितले की ही जागा एक तात्पुरता कोठडी पॉइंट होती."
+    "why": "सोशल मीडियावर अपुष्ट वृत्तांमध्ये असा दावा करण्यात आला की एका घरात पुरुषांना आणि सैन्यात भरती झालेल्यांना डांबून ठेवले आहे आणि त्यांचा छळ केला जात आहे, त्यानंतर स्थानिक लोक आणि नातेवाईक तिथे जमा झाले.",
+    "want": "निदर्शकांनी इमारतीच्या आत कथितपणे डांबून ठेवलेल्या बंद्यांच्या सुटकेची मागणी केली.",
+    "changed": "६ नोव्हेंबर: अहवालात नमूद केले आहे की एका ऑनलाइन चुकीच्या माहितीच्या मोहिमेने या सुविधेभोवतीच्या अपुष्ट दाव्यांना वाढवून सांगितले."
    },
-   "summary": "२ नोव्हेंबर २०२६ रोजी, कीवच्या उपनगरातील पेट्रोपाव्लिवस्का बोर्शचाहिव्का येथे नॅशनल गार्डच्या अझोव्ह कॉर्प्स द्वारे वापरल्या जाणाऱ्या खाजगी घराबाहेर एक आंदोलन पेटले. ही इमारत एक गुप्त अत्याचार केंद्र असून तेथे डझनभर सक्तीने भरती केलेले किंवा पळून गेलेले सैनिक ठेवले आहेत, अशा अप्रमाणित सोशल मीडिया अफवांमुळे स्थानिक रहिवासी आणि नातेवाईकांच्या गर्दीने सुविधेभोवती जमवाजमव केली. निदर्शकांनी प्रवेशद्वार तोडण्याचा प्रयत्न केला, नॅशनल गार्डची बस हलवली आणि कायद्याची अंमलबजावणी करणाऱ्या अधिकाऱ्यांवर अंडी व टोमॅटो फेकले. सूत्रांनुसार, गर्दीला हुडकून लावण्यासाठी पोलीस आणि लष्करी कर्मचाऱ्यांनी पेपर स्प्रेचा वापर केला आणि हवेत ताकीदीचे गोळीबार केले, आणि मध्यरात्रीपर्यंत संघर्ष शांत झाला. अधिकाऱ्यांनी सांगितले की ही इमारत विनापरवाना युनिट्स सोडून गेलेल्या सैनिकांसाठी तात्पुरता कोठडी पॉइंट म्हणून काम करत होती, आणि त्यांनी बेकायदेशीर स्थानबद्धता व अत्याचाराचे आरोप फेटाळून लावले. अधिकाऱ्यांनी असेही नमूद केले की अंतर्गत चौकशी आणि लोकपाल पुनरावलोकन सुरू करण्यात आले आहे.",
+   "summary": "२ नोव्हेंबर २०२६ रोजी, कीव, युक्रेनजवळील पेट्रोपावलिवस्का बोर्शचाविका येथे नॅशनल गार्ड सुविधेबाहेर निदर्शने झाली. सोशल मीडियावरील अपुष्ट दाव्यांनंतर शेकडो रहिवासी आणि नातेवाईक जमा झाले, ज्यात असा आरोप होता की सैन्यात भरती झालेले आणि पळून गेलेले सैनिक यांना एका खाजगी घराच्या तळघरात बेकायदेशीरपणे डांबून ठेवले आहे आणि त्यांचा छळ केला जात आहे. हा संघर्ष हाणामारीत बदलला, ज्यात निदर्शकांनी अंडी, टोमॅटो आणि दगडफेक केली, नॅशनल गार्डची बस हलवली आणि इमारतीत शिरण्याचा प्रयत्न केला, तर सुरक्षा दलांनी पेपर स्प्रे आणि हवेत गोळीबार करून प्रतिसाद दिला. नॅशनल गार्ड आणि पोलीस अधिकाऱ्यांनी सांगितले की, हे घर परवानगीशिवाय युनिट सोडून गेलेल्या सैनिकांसाठी तात्पुरते होल्डिंग पॉइंट म्हणून वापरले जात होते, आणि त्यांनी बेकायदेशीर कोठडी किंवा छळाचे आरोप फेटाळले. अधिकाऱ्यांनी सांगितले की चार सैनिकांना वैद्यकीय उपचारांसाठी पाठवण्यात आले आणि या घटनेची चौकशी सुरू करण्यात आली.",
    "demands": [
-    "सुविधेतील कैद्यांची सुटका करा",
-    "इमारतीची पाहणी करण्यासाठी प्रवेश मिळवा"
+    "सुविधेतील डांबून ठेवलेल्या व्यक्तींची सुटका करा"
    ],
-   "response": "सूत्रांनुसार, पोलीस आणि लष्करी दलांनी पेपर स्प्रे वापरला आणि ताकीदीचे गोळीबार केले. अधिकाऱ्यांनी सांगितले की हे घर विनापरवाना गैरहजर सैनिकांसाठी तात्पुरता कोठडी पॉइंट होते, बेकायदेशीर स्थानबद्धतेचे आरोप फेटाळले, आणि अंतर्गत चौकशी तसेच लोकपाल पुनरावलोकन सुरू केले.",
+   "response": "नॅशनल गार्डने सांगितले की हे घर परवानगीशिवाय अनुपस्थित असलेल्या सैनिकांसाठी तात्पुरते होल्डिंग पॉइंट होते आणि छळाचे आरोप फेटाळले. पोलिसांनी बेकायदेशीर कोठडी आणि मृत्यूचे आरोप फेटाळले. अधिकाऱ्यांनी सांगितले की वैद्यकीय उपचारांची गरज असलेल्या चार सैनिकांना उपचारांसाठी पाठवण्यात आले आणि चौकशी सुरू करण्यात आली.",
    "updates": [
-    "कैद्यांच्या अप्रमाणित अफवांनंतर रहिवासी आणि नातेवाईक नॅशनल गार्ड सुविधेबाहेर जमले.",
-    "निदर्शकांनी इमारतीत घुसण्याचा प्रयत्न केल्याने झटापट, पेपर स्प्रे आणि ताकीदीच्या गोळीबारासह संघर्ष तीव्र झाला.",
-    "मध्यरात्रीच्या सुमारास संघर्ष शांत झाला आणि अधिकाऱ्यांनी अंतर्गत चौकशीची पुष्टी केली."
+    "डांबून ठेवलेल्या सैनिकांच्या अपुष्ट सोशल मीडिया दाव्यांनंतर नॅशनल गार्डच्या इमारतीबाहेर गर्दी जमा झाली.",
+    "निदर्शकांनी वस्तू फेकल्या आणि सुरक्षा दलांनी पेपर स्प्रेचा वापर करून परिस्थिती हाताळली, ज्यामुळे चकमकी झाल्या.",
+    "अधिकारी आणि फॅक्ट-चेकर्सनी सांगितले की छळछावणीबद्दलच्या ऑनलाइन अफवा या व्यापक चुकीच्या माहितीच्या मोहिमेचा भाग होत्या."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "सुमारे २०० लोक जमले",
-    "arrests": "तीन व्यक्तींना जामीनाच्या अधिकाराशिवाय कोठडीत पाठवण्यात आले.",
-    "injuries": "वैद्यकीय उपचारांची गरज असलेल्या चार जणांना उपचारासाठी पाठवण्यात आले",
-    "deaths": "पोलिसांनी बेकायदेशीर स्थानबद्धता आणि कोणत्याही मृत्यूची शक्यता फेटाळून लावली."
+    "crowd": "नॅशनल गार्डने वापरलेल्या घराच्या जवळ सुमारे २०० लोक जमा झाले",
+    "arrests": "तीन व्यक्तींना जामिनाच्या अधिकाराशिवाय कोठडीत पाठवण्यात आले.",
+    "injuries": "डांबून ठेवलेल्या चार पुरुषांना अज्ञात स्वरूपाच्या आणि कारणांच्या दुखापती झाल्या",
+    "deaths": "पोलिसांनी बेकायदेशीर कोठडी आणि कोणत्याही मृत्यूचे आरोप फेटाळले."
    }
   },
   "es": {
-   "title": "Residentes protestan frente a instalación de la Guardia Nacional en Petropavlivska Borshchahivka",
+   "title": "Residentes protestan frente a una instalación de la Guardia Nacional en Petropavlivska Borshchahivka",
    "seoTitle": "Protesta en Petropavlivska Borshchahivka",
    "tea": {
-    "why": "Lugareños y familiares se reunieron después de que rumores no confirmados en línea afirmaran que reclutas y desertores estaban siendo torturados en una casa privada.",
-    "want": "Los manifestantes exigieron la liberación de las personas presuntamente detenidas dentro del edificio y acceso a la instalación.",
-    "changed": "6 de noviembre: Los informes señalaron que los enfrentamientos avivaron una campaña de desinformación antiucraniana, mientras que las autoridades afirmaron que el sitio era un punto de retención temporal."
+    "why": "Locales y familiares se reunieron después de que informes no confirmados en redes sociales afirmaran que hombres y reclutas estaban siendo detenidos y torturados en una casa.",
+    "want": "Los manifestantes exigieron la liberación de los detenidos supuestamente retenidos dentro del edificio.",
+    "changed": "6 de noviembre: Los informes señalaron que una campaña de desinformación en línea amplificó afirmaciones no verificadas sobre la instalación."
    },
-   "summary": "El 2 de noviembre de 2026, estalló una protesta en el suburbio de Kiev, Petropavlivska Borshchahivka, frente a una casa privada utilizada por el Cuerpo Azov de la Guardia Nacional. Desencadenada por rumores no confirmados en las redes sociales que afirmaban que el edificio era un centro de tortura secreto que retenía a decenas de reclutas forzados o desertores, una multitud de residentes locales y familiares se congregó alrededor de la instalación. Los manifestantes intentaron romper las puertas, mecieron un autobús de la Guardia Nacional y lanzaron huevos y tomates a los agentes del orden. Según fuentes, la policía y el personal militar desplegaron gas pimienta y realizaron disparos de advertencia para dispersar a la multitud, y los enfrentamientos disminuyeron hacia la medianoche. Las autoridades afirmaron que el edificio servía como un punto de retención temporal para los soldados que abandonaron sus unidades sin autorización, negando las acusaciones de detención ilegal y tortura. Los funcionarios también señalaron que se inició una investigación interna y una revisión del defensor del pueblo.",
+   "summary": "El 2 de noviembre de 2026, estalló una protesta frente a una instalación de la Guardia Nacional en Petropavlivska Borshchahivka, cerca de Kiev, Ucrania. Cientos de residentes y familiares se reunieron tras afirmaciones no verificadas en redes sociales que alegaban que reclutas y desertores estaban siendo detenidos ilegalmente y torturados en el sótano de una casa privada. La confrontación escaló a forcejeos, con manifestantes lanzando huevos, tomates y piedras, sacudiendo un autobús de la Guardia Nacional e intentando entrar al edificio, mientras las fuerzas de seguridad respondieron con gas pimienta y disparos de advertencia. Funcionarios de la Guardia Nacional y la policía declararon que la casa se utilizaba como punto de retención temporal para soldados que habían abandonado sus unidades sin autorización, negando las acusaciones de detención ilegal o tortura. Las autoridades informaron que cuatro militares fueron enviados a recibir atención médica y se iniciaron investigaciones sobre el incidente.",
    "demands": [
-    "Liberar a los detenidos de la instalación",
-    "Obtener acceso para inspeccionar el edificio"
+    "Liberar a las personas detenidas en la instalación"
    ],
-   "response": "Según fuentes, las fuerzas policiales y militares desplegaron gas pimienta y realizaron disparos de advertencia. Los funcionarios afirmaron que la casa era un punto de retención temporal para militares ausentes sin autorización, negaron detenciones ilegales e iniciaron una investigación interna y una revisión del defensor del pueblo.",
+   "response": "La Guardia Nacional declaró que la casa era un punto de retención temporal para soldados ausentes sin autorización y negó las acusaciones de tortura. La policía negó la detención ilegal y las muertes. Las autoridades informaron que cuatro militares que necesitaban atención médica fueron enviados a tratamiento y se iniciaron investigaciones.",
    "updates": [
-    "Residentes y familiares se reunieron frente a una instalación de la Guardia Nacional tras rumores no confirmados de detenidos.",
-    "Los enfrentamientos escalaron con refriegas, gas pimienta y disparos de advertencia mientras los manifestantes intentaban romper el edificio.",
-    "Las confrontaciones disminuyeron por la noche alrededor de la medianoche, y las autoridades confirmaron una investigación interna."
+    "Una multitud se reunió frente a un edificio de la Guardia Nacional tras afirmaciones no verificadas en redes sociales sobre reclutas detenidos.",
+    "Se produjeron enfrentamientos con manifestantes lanzando objetos y fuerzas de seguridad utilizando gas pimienta y gestionando el lugar.",
+    "Las autoridades y los verificadores de hechos informaron que los rumores en línea sobre cámaras de tortura eran parte de una campaña de desinformación más amplia."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "cerca de 200 personas se reunieron",
-    "arrests": "Tres individuos fueron puestos en prisión preventiva sin derecho a fianza.",
-    "injuries": "cuatro personas que necesitaban atención médica fueron enviadas para recibir tratamiento",
+    "crowd": "Alrededor de 200 personas se reunieron cerca de una casa utilizada por la Guardia Nacional",
+    "arrests": "Tres personas fueron puestas en prisión preventiva sin derecho a fianza.",
+    "injuries": "cuatro de los hombres detenidos sufrieron lesiones de extensión y origen no especificados",
     "deaths": "La policía negó la detención ilegal y cualquier muerte."
    }
   },
@@ -262,135 +263,130 @@
    "title": "Des résidents manifestent devant une installation de la Garde nationale à Petropavlivska Borshchahivka",
    "seoTitle": "Manifestation à Petropavlivska Borshchahivka",
    "tea": {
-    "why": "Des habitants et des proches se sont rassemés après que des rumeurs en ligne non confirmées ont affirmé que des conscrits et des déserteurs étaient torturés dans une maison privée.",
-    "want": "Les manifestants ont exigé la libération des personnes prétendument détenues à l'intérieur du bâtiment et l'accès à l'installation.",
-    "changed": "6 novembre : Des rapports ont souligné que les affrontements ont alimenté une campagne de désinformation anti-ukrainienne, tandis que les autorités ont déclaré que le site était un point de rétention temporaire."
+    "why": "Des habitants et des proches se sont rassemblés après que des rapports non confirmés sur les réseaux sociaux ont affirmé que des hommes et des recrues étaient détenus et torturés dans une maison.",
+    "want": "Les manifestants ont exigé la libération des détenus prétendument retenus à l'intérieur du bâtiment.",
+    "changed": "6 novembre : Des rapports ont noté qu'une campagne de désinformation en ligne a amplifié des affirmations non vérifiées concernant l'installation."
    },
-   "summary": "Le 2 novembre 2026, une manifestation a éclaté dans la banlieue de Kiev, à Petropavlivska Borshchahivka, devant une maison privée utilisée par le corps Azov de la Garde nationale. Déclenchée par des rumeurs non confirmées sur les réseaux sociaux affirmant que le bâtiment était un centre de torture secret détenant des dizaines de conscrits forcés ou de déserteurs, une foule de résidents locaux et de proches s'est rassemblée autour de l'installation. Les manifestants ont tenté de briser les portails, ont secoué un bus de la Garde nationale et ont jeté des œufs et des tomates sur les forces de l'ordre. Selon des sources, la police et le personnel militaire ont déployé du gaz poivré et ont tiré des coups de feu de sommation pour disperser la foule, et les affrontements se sont calmés vers minuit. Les autorités ont déclaré que le bâtiment servait de point de rétention temporaire pour les soldats ayant quitté leurs unités sans autorisation, niant les allégations de détention illégale et de torture. Des responsables ont également noté qu'une enquête interne et un examen par le médiateur ont été lancés.",
+   "summary": "Le 2 novembre 2026, une manifestation a éclaté devant une installation de la Garde nationale à Petropavlivska Borshchahivka, près de Kiev, en Ukraine. Des centaines de résidents et de proches se sont rassemblés suite à des affirmations non vérifiées sur les réseaux sociaux alléguant que des recrues et des déserteurs étaient détenus illégalement et torturés dans le sous-sol d'une maison privée. La confrontation a dégénéré en échauffourées, les manifestants lançant des œufs, des tomates et des pierres, secouant un bus de la Garde nationale et tentant d'entrer dans le bâtiment, tandis que les forces de sécurité ont répondu avec du gaz poivre et des tirs de sommation. Des responsables de la Garde nationale et de la police ont déclaré que la maison était utilisée comme point de détention temporaire pour des soldats ayant quitté leurs unités sans autorisation, niant les allégations de détention illégale ou de torture. Les autorités ont rapporté que quatre militaires ont été envoyés pour recevoir des soins médicaux et que des enquêtes ont été ouvertes sur l'incident.",
    "demands": [
-    "Libérer les détenus de l'installation",
-    "Obtenir l'accès pour inspecter le bâtiment"
+    "Libérer les personnes détenues dans l'installation"
    ],
-   "response": "Selon des sources, les forces de police et militaires ont déployé du gaz poivré et ont tiré des coups de feu de sommation. Des responsables ont déclaré que la maison était un point de rétention temporaire pour les militaires absents sans autorisation, ont nié les détentions illégales et ont lancé une enquête interne ainsi qu'un examen par le médiateur.",
+   "response": "La Garde nationale a déclaré que la maison était un point de détention temporaire pour des soldats absents sans autorisation et a nié les allégations de torture. La police a nié toute détention illégale et tout décès. Les autorités ont rapporté que quatre militaires nécessitant des soins médicaux ont été envoyés pour traitement et que des enquêtes ont été ouvertes.",
    "updates": [
-    "Des résidents et des proches se sont rassemblés devant une installation de la Garde nationale à la suite de rumeurs non confirmées de détenus.",
-    "Les affrontements ont escaladé avec des bousculades, du gaz poivré et des tirs de sommation alors que les manifestants tentaient de percer le bâtiment.",
-    "Les confrontations se sont apaisées la nuit vers minuit, et les autorités ont confirmé une enquête interne."
+    "Une foule s'est rassemblée devant un bâtiment de la Garde nationale suite à des affirmations non vérifiées sur les réseaux sociaux concernant des recrues détenues.",
+    "Des affrontements ont éclaté, les manifestants lançant des objets et les forces de sécurité utilisant du gaz poivre et gérant le site.",
+    "Les autorités et les vérificateurs de faits ont rapporté que les rumeurs en ligne concernant des chambres de torture faisaient partie d'une campagne de désinformation plus large."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "environ 200 personnes se sont rassemblées",
+    "crowd": "Environ 200 personnes se sont rassemblées près d'une maison utilisée par la Garde nationale",
     "arrests": "Trois individus ont été placés en détention provisoire sans droit à la caution.",
-    "injuries": "quatre personnes ayant besoin de soins médicaux ont été envoyées pour être traitées",
+    "injuries": "quatre des hommes détenus ont subi des blessures d'étendue et d'origine non spécifiées",
     "deaths": "La police a nié toute détention illégale et tout décès."
    }
   },
   "de": {
-   "title": "Anwohner protestieren vor Nationalgardeeinrichtung in Petropavliwka Borschtschahiwka",
-   "seoTitle": "Protest in Petropavliwka Borschtschahiwka",
+   "title": "Anwohner protestieren vor einer Einrichtung der Nationalgarde in Petropavlivska Borshchahivka",
+   "seoTitle": "Protest in Petropavlivska Borshchahivka",
    "tea": {
-    "why": "Anwohner und Angehörige versammelten sich, nachdem unbestätigte Online-Gerüchte behauptet hatten, Rekruten und Deserteure würden in einem privaten Haus gefoltert.",
-    "want": "Demonstranten forderten die Freilassung von Personen, die angeblich in dem Gebäude festgehalten wurden, sowie Zugang zu der Einrichtung.",
-    "changed": "6. November: Berichte wiesen darauf hin, dass die Zusammenstöße eine ukrainenfeindliche Desinformationskampagne anheizten, während die Behörden erklärten, das Gelände sei ein temporärer Haltepunkt gewesen."
+    "why": "Einheimische und Angehörige versammelten sich, nachdem unbestätigte Berichte in sozialen Medien behaupteten, dass Männer und Rekruten in einem Haus festgehalten und gefoltert würden.",
+    "want": "Demonstranten forderten die Freilassung der angeblich im Gebäude festgehaltenen Personen.",
+    "changed": "6. November: Berichte stellten fest, dass eine Online-Desinformationskampagne unbestätigte Behauptungen über die Einrichtung verstärkte."
    },
-   "summary": "Am 2. November 2026 brach im Kiewer Vorort Petropavliwka Borschtschahiwka ein Protest vor einem privaten Haus aus, das vom Asow-Korps der Nationalgarde genutzt wurde. Ausgelöst durch unbestätigte Gerüchte in den sozialen Medien, die besagten, das Gebäude sei ein geheimes Folterzentrum, in dem Dutzende zwangsrekrutierte Personen oder Deserteure festgehalten würden, versammelte sich eine Menge von Anwohnern und Angehörigen um die Einrichtung. Demonstranten versuchten, Tore zu durchbrechen, brachten einen Bus der Nationalgarde zum Wanken und warfen Eier und Tomaten auf Gesetzeshüter. Quellen zufolge setzten Polizei und Militärpersonal Pfefferspray ein und gaben Warnschüsse ab, um die Menge zu zerstreuen, und die Zusammenstöße klangen gegen Mitternacht ab. Behörden erklärten, das Gebäude diene als temporärer Haltepunkt für Soldaten, die ihre Einheiten unerlaubt verlassen hatten, und wiesen Vorwürfe illegaler Haft und Folter zurück. Offizielle merkten zudem an, dass eine interne Untersuchung und eine Überprüfung durch den Ombudsmann eingeleitet wurden.",
+   "summary": "Am 2. November 2026 kam es zu einem Protest vor einer Einrichtung der Nationalgarde in Petropavlivska Borshchahivka bei Kiew, Ukraine. Hunderte Anwohner und Angehörige versammelten sich nach unbestätigten Behauptungen in sozialen Medien, wonach Rekruten und Deserteure illegal im Keller eines Privathauses festgehalten und gefoltert würden. Die Konfrontation eskalierte zu Handgemengen, wobei Demonstranten Eier, Tomaten und Steine warfen, einen Bus der Nationalgarde schüttelten und versuchten, das Gebäude zu betreten, während Sicherheitskräfte mit Pfefferspray und Warnschüssen reagierten. Beamte der Nationalgarde und der Polizei erklärten, dass das Haus als vorübergehender Aufbewahrungsort für Soldaten diente, die ihre Einheiten ohne Genehmigung verlassen hatten, und wiesen Vorwürfe der illegalen Inhaftierung oder Folter zurück. Die Behörden berichteten, dass vier Soldaten zur medizinischen Versorgung geschickt wurden und Ermittlungen zu dem Vorfall eingeleitet wurden.",
    "demands": [
-    "Häftlinge aus der Einrichtung freilassen",
-    "Zugang zur Inspektion des Gebäudes erhalten"
+    "Freilassung der in der Einrichtung festgehaltenen Personen"
    ],
-   "response": "Quellen zufolge setzten Polizei- und Militärkräfte Pfefferspray ein und gaben Warnschüsse ab. Offizielle erklärten, das Haus sei ein temporärer Haltepunkt für unerlaubt abwesende Soldaten gewesen, wiesen illegale Inhaftierungen zurück und leiteten eine interne Untersuchung sowie eine Ombudsmann-Überprüfung ein.",
+   "response": "Die Nationalgarde erklärte, das Haus sei ein vorübergehender Aufbewahrungsort für unerlaubt abwesende Soldaten gewesen und wies Foltervorwürfe zurück. Die Polizei bestritt illegale Inhaftierungen und Todesfälle. Die Behörden berichteten, dass vier Soldaten, die medizinische Versorgung benötigten, zur Behandlung geschickt wurden und Ermittlungen eingeleitet wurden.",
    "updates": [
-    "Anwohner und Angehörige versammelten sich nach unbestätigten Gerüchten über Häftlinge vor einer Nationalgardeeinrichtung.",
-    "Die Zusammenstöße eskalierten mit Handgemengen, Pfefferspray und Warnschüssen, als Demonstranten versuchten, in das Gebäude einzudringen.",
-    "Die Konfrontationen beruhigten sich in der Nacht gegen Mitternacht, und die Behörden bestätigten eine interne Untersuchung."
+    "Eine Menschenmenge versammelte sich vor einem Gebäude der Nationalgarde nach unbestätigten Behauptungen in sozialen Medien über festgehaltene Rekruten.",
+    "Es kam zu Zusammenstößen, bei denen Demonstranten Gegenstände warfen und Sicherheitskräfte Pfefferspray einsetzten und den Ort sicherten.",
+    "Behörden und Faktenprüfer berichteten, dass Online-Gerüchte über Folterkammern Teil einer umfassenderen Desinformationskampagne waren."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "etwa 200 Personen versammelten sich",
-    "arrests": "Drei Personen wurden ohne Recht auf Kaution in Untersuchungshaft geschickt.",
-    "injuries": "vier Personen mit medizinischem Bedarf wurden zur Behandlung geschickt",
-    "deaths": "Die Polizei wies illegale Inhaftierung und jegliche Todesfälle zurück."
+    "crowd": "Etwa 200 Menschen versammelten sich in der Nähe eines von der Nationalgarde genutzten Hauses",
+    "arrests": "Drei Personen wurden ohne Recht auf Kaution in Untersuchungshaft genommen.",
+    "injuries": "vier der festgehaltenen Männer erlitten Verletzungen unbestimmten Ausmaßes und Ursprungs",
+    "deaths": "Die Polizei bestritt illegale Inhaftierungen und jegliche Todesfälle."
    }
   },
   "it": {
-   "title": "Residenti protestano fuori da una struttura della Guardia Nazionale a Petropavlivska Borshchahivka",
+   "title": "Residenti protestano davanti a una struttura della Guardia Nazionale a Petropavlivska Borshchahivka",
    "seoTitle": "Protesta a Petropavlivska Borshchahivka",
    "tea": {
-    "why": "Residenti e parenti si sono radunati dopo che voci online non confermate sostenevano che coscritti e disertori venissero torturati in una casa privata.",
-    "want": "I manifestanti hanno chiesto il rilascio delle persone presumibilmente detenute all'interno dell'edificio e l'accesso alla struttura.",
-    "changed": "6 novembre: I rapporti hanno rilevato che gli scontri hanno alimentato una campagna di disinformazione anti-ucraina, mentre le autorità hanno dichiarato che il sito era un punto di detenzione temporaneo."
+    "why": "Locali e parenti si sono riuniti dopo che rapporti non confermati sui social media hanno affermato che uomini e reclute venivano detenuti e torturati in una casa.",
+    "want": "I manifestanti hanno chiesto il rilascio dei detenuti presumibilmente tenuti all'interno dell'edificio.",
+    "changed": "6 novembre: I rapporti hanno notato che una campagna di disinformazione online ha amplificato affermazioni non verificate riguardanti la struttura."
    },
-   "summary": "Il 2 novembre 2026, una protesta è scoppiata nel sobborgo di Kiev di Petropavlivska Borshchahivka fuori da una casa privata utilizzata dal Corpo Azov della Guardia Nazionale. Innescata da voci non confermate sui social media che sostenevano che l'edificio fosse un centro di tortura segreto che deteneva decine di coscritti forzati o disertori, una folla di residenti locali e parenti si è radunata attorno alla struttura. I manifestanti hanno tentato di sfondare i cancelli, hanno scosso un autobus della Guardia Nazionale e hanno lanciato uova e pomodori contro gli agenti delle forze dell'ordine. Secondo le fonti, la polizia e il personale militare hanno utilizzato spray al peperoncino e sparato colpi di avvertimento per disperdere la folla, e gli scontri si sono placati entro mezzanotte. Le autorità hanno dichiarato che l'edificio fungeva da punto di detenzione temporaneo per i soldati che avevano lasciato le loro unità senza autorizzazione, negando le accuse di detenzione illegale e tortura. I funzionari hanno anche osservato che sono stati avviati un'inchiesta interna e una revisione dell'ombudsman.",
+   "summary": "Il 2 novembre 2026, è scoppiata una protesta davanti a una struttura della Guardia Nazionale a Petropavlivska Borshchahivka, vicino a Kiev, in Ucraina. Centinaia di residenti e parenti si sono riuniti in seguito ad affermazioni non verificate sui social media che sostenevano che reclute e disertori venissero detenuti illegalmente e torturati nel seminterrato di una casa privata. Il confronto è degenerato in scontri, con i manifestanti che hanno lanciato uova, pomodori e pietre, scosso un autobus della Guardia Nazionale e tentato di entrare nell'edificio, mentre le forze di sicurezza hanno risposto con spray al peperoncino e colpi di avvertimento. Funzionari della Guardia Nazionale e della polizia hanno dichiarato che la casa veniva utilizzata come punto di detenzione temporaneo per i soldati che avevano lasciato le loro unità senza autorizzazione, negando le accuse di detenzione illegale o tortura. Le autorità hanno riferito che quattro militari sono stati inviati a ricevere cure mediche e sono state avviate indagini sull'incidente.",
    "demands": [
-    "Rilascio dei detenuti dalla struttura",
-    "Accesso per ispezionare l'edificio"
+    "Rilasciare le persone detenute nella struttura"
    ],
-   "response": "Secondo le fonti, la polizia e le forze militari hanno utilizzato spray al peperoncino e sparato colpi di avvertimento. I funzionari hanno dichiarato che la casa era un punto di detenzione temporaneo per militari assenti senza autorizzazione, hanno negato detenzioni illegali e hanno avviato un'inchiesta interna e una revisione dell'ombudsman.",
+   "response": "La Guardia Nazionale ha dichiarato che la casa era un punto di detenzione temporaneo per soldati assenti senza autorizzazione e ha negato le accuse di tortura. La polizia ha negato la detenzione illegale e i decessi. Le autorità hanno riferito che quattro militari che necessitavano di cure mediche sono stati inviati per il trattamento e sono state avviate indagini.",
    "updates": [
-    "Residenti e parenti si sono radunati fuori da una struttura della Guardia Nazionale in seguito a voci non confermate di detenuti.",
-    "Gli scontri si sono intensificati con colluttazioni, spray al peperoncino e colpi di avvertimento mentre i manifestanti tentavano di irrompere nell'edificio.",
-    "I confronti si sono placati verso mezzanotte e le autorità hanno confermato un'inchiesta interna."
+    "Una folla si è riunita davanti a un edificio della Guardia Nazionale in seguito ad affermazioni non verificate sui social media riguardanti reclute detenute.",
+    "Si sono verificati scontri con manifestanti che lanciavano oggetti e forze di sicurezza che utilizzavano spray al peperoncino e gestivano il sito.",
+    "Le autorità e i fact-checker hanno riferito che le voci online riguardanti camere di tortura facevano parte di una campagna di disinformazione più ampia."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "circa 200 persone radunate",
+    "crowd": "Circa 200 persone si sono riunite vicino a una casa utilizzata dalla Guardia Nazionale",
     "arrests": "Tre individui sono stati posti in custodia cautelare senza diritto alla cauzione.",
-    "injuries": "quattro persone che necessitavano di cure mediche sono state inviate per il trattamento",
+    "injuries": "quattro degli uomini detenuti hanno riportato lesioni di entità e origine non specificate",
     "deaths": "La polizia ha negato la detenzione illegale e qualsiasi decesso."
    }
   },
   "pt": {
-   "title": "Residentes protestam fora de instalação da Guarda Nacional em Petropavlivska Borshchahivka",
+   "title": "Residentes protestam em frente a uma instalação da Guarda Nacional em Petropavlivska Borshchahivka",
    "seoTitle": "Protesto em Petropavlivska Borshchahivka",
    "tea": {
-    "why": "Locais e familiares reuniram-se após rumores online não confirmados alegarem que recrutas e desertores estavam a ser torturados numa casa privada.",
-    "want": "Os manifestantes exigiram a libertação de pessoas alegadamente detidas dentro do edifício e acesso à instalação.",
-    "changed": "6 de novembro: Relatórios notaram que os confrontos alimentaram uma campanha de desinformação anti-ucraniana, enquanto as autoridades declararam que o local era um ponto de detenção temporário."
+    "why": "Locais e familiares reuniram-se após relatos não confirmados nas redes sociais afirmarem que homens e recrutas estavam a ser detidos e torturados numa casa.",
+    "want": "Os manifestantes exigiram a libertação dos detidos alegadamente mantidos dentro do edifício.",
+    "changed": "6 de novembro: Relatórios notaram que uma campanha de desinformação online amplificou alegações não verificadas em torno da instalação."
    },
-   "summary": "A 2 de novembro de 2026, um protesto eclodiu no subúrbio de Kiev de Petropavlivska Borshchahivka fora de uma casa privada usada pelo Corpo Azov da Guarda Nacional. Desencadeada por rumores não confirmados nas redes sociais alegando que o edifício era um centro de tortura secreto que mantinha dezenas de recrutas forçados ou desertores, uma multidão de residentes locais e familiares reuniu-se em torno da instalação. Os manifestantes tentaram romper os portões, abanaram um autocarro da Guarda Nacional e atiraram ovos e tomates aos agentes da autoridade. Segundo fontes, a polícia e o pessoal militar utilizaram spray de pimenta e dispararam tiros de aviso para dispersar a multidão, e os confrontos diminuíram por volta da meia-noite. As autoridades declararam que o edifício servia como um ponto de detenção temporário para soldados que deixaram as suas unidades sem autorização, negando alegações de detenção ilegal e tortura. Os funcionários também notaram que um inquérito interno e uma revisão pelo provedor de justiça foram lançados.",
+   "summary": "A 2 de novembro de 2026, eclodiu um protesto em frente a uma instalação da Guarda Nacional em Petropavlivska Borshchahivka, perto de Kiev, na Ucrânia. Centenas de residentes e familiares reuniram-se após alegações não verificadas nas redes sociais que alegavam que recrutas e desertores estavam a ser detidos ilegalmente e torturados na cave de uma casa privada. O confronto escalou para escaramuças, com manifestantes a atirar ovos, tomates e pedras, a abanar um autocarro da Guarda Nacional e a tentar entrar no edifício, enquanto as forças de segurança responderam com spray pimenta e tiros de aviso. Funcionários da Guarda Nacional e da polícia declararam que a casa era utilizada como ponto de detenção temporário para soldados que tinham abandonado as suas unidades sem autorização, negando as alegações de detenção ilegal ou tortura. As autoridades relataram que quatro militares foram enviados para receber cuidados médicos e foram iniciadas investigações sobre o incidente.",
    "demands": [
-    "Libertação dos detidos da instalação",
-    "Acesso para inspecionar o edifício"
+    "Libertar as pessoas detidas na instalação"
    ],
-   "response": "Segundo fontes, a polícia e as forças militares utilizaram spray de pimenta e dispararam tiros de aviso. Os funcionários declararam que a casa era um ponto de detenção temporário para militares ausentes sem autorização, negaram detenções ilegais e lançaram um inquérito interno e uma revisão pelo provedor de justiça.",
+   "response": "A Guarda Nacional declarou que a casa era um ponto de detenção temporário para soldados ausentes sem autorização e negou as alegações de tortura. A polícia negou a detenção ilegal e mortes. As autoridades relataram que quatro militares que necessitavam de cuidados médicos foram enviados para tratamento e foram iniciadas investigações.",
    "updates": [
-    "Residentes e familiares reuniram-se fora de uma instalação da Guarda Nacional após rumores não confirmados de detidos.",
-    "Os confrontos escalaram com escaramuças, spray de pimenta e tiros de aviso enquanto os manifestantes tentavam romper o edifício.",
-    "Os confrontos diminuíram por volta da meia-noite e as autoridades confirmaram um inquérito interno."
+    "Uma multidão reuniu-se em frente a um edifício da Guarda Nacional após alegações não verificadas nas redes sociais sobre recrutas detidos.",
+    "Ocorreram confrontos com manifestantes a atirar objetos e forças de segurança a utilizar spray pimenta e a gerir o local.",
+    "As autoridades e os verificadores de factos relataram que os rumores online sobre câmaras de tortura faziam parte de uma campanha de desinformação mais ampla."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "cerca de 200 pessoas reunidas",
+    "crowd": "Cerca de 200 pessoas reuniram-se perto de uma casa utilizada pela Guarda Nacional",
     "arrests": "Três indivíduos foram colocados em prisão preventiva sem direito a fiança.",
-    "injuries": "quatro pessoas que necessitavam de cuidados médicos foram enviadas para tratamento",
-    "deaths": "A polícia negou detenção ilegal e quaisquer mortes."
+    "injuries": "quatro dos homens detidos sofreram ferimentos de extensão e origem não especificadas",
+    "deaths": "A polícia negou a detenção ilegal e quaisquer mortes."
    }
   },
   "nl": {
-   "title": "Bewoners protesteren bij faciliteit van de Nationale Garde in Petropavlivska Borshchahivka",
+   "title": "Bewoners protesteren buiten faciliteit van de Nationale Garde in Petropavlivska Borshchahivka",
    "seoTitle": "Protest in Petropavlivska Borshchahivka",
    "tea": {
-    "why": "Omwonenden en familieleden verzamelden zich nadat onbevestigde online geruchten beweerden dat dienstplichtigen en deserteurs werden gemarteld in een privéwoning.",
-    "want": "Betogers eisten de vrijlating van mensen die naar verluidt in het gebouw werden vastgehouden en toegang tot de faciliteit.",
-    "changed": "6 november: Rapporten merkten op dat de confrontaties een anti-Oekraïense desinformatiecampagne aanwakkerden, terwijl de autoriteiten verklaarden dat de locatie een tijdelijk detentiepunt was."
+    "why": "Lokale bewoners en familieleden verzamelden zich nadat onbevestigde berichten op sociale media beweerden dat mannen en rekruten in een huis werden vastgehouden en gemarteld.",
+    "want": "Demonstranten eisten de vrijlating van de gedetineerden die naar verluidt in het gebouw werden vastgehouden.",
+    "changed": "6 november: Rapporten merkten op dat een online desinformatiecampagne onverifieerbare beweringen over de faciliteit versterkte."
    },
-   "summary": "Op 2 november 2026 brak er een protest uit in de voorstad van Kiev, Petropavlivska Borshchahivka, bij een privéwoning die werd gebruikt door het Azov-korps van de Nationale Garde. Getriggerd door onbevestigde geruchten op sociale media dat het gebouw een geheim martelcentrum was waar tientallen gedwongen dienstplichtigen of deserteurs werden vastgehouden, verzamelde een menigte lokale bewoners en familieleden zich rond de faciliteit. Betogers probeerden door de hekken te breken, schudden aan een bus van de Nationale Garde en gooiden eieren en tomaten naar wetshandhavers. Volgens bronnen zetten de politie en militair personeel pepperspray in en losten zij waarschuwingsschoten om de menigte uiteen te drijven, en de confrontaties namen rond middernacht af. De autoriteiten verklaarden dat het gebouw diende als een tijdelijk detentiepunt voor soldaten die hun eenheden zonder toestemming hadden verlaten, waarbij zij beschuldigingen van illegale detentie en marteling ontkenden. Ambtenaren merkten ook op dat er een intern onderzoek en een beoordeling door de ombudsman waren gestart.",
+   "summary": "Op 2 november 2026 brak er een protest uit buiten een faciliteit van de Nationale Garde in Petropavlivska Borshchahivka nabij Kiev, Oekraïne. Honderden bewoners en familieleden verzamelden zich na onverifieerbare beweringen op sociale media dat rekruten en deserteurs illegaal werden vastgehouden en gemarteld in de kelder van een privéwoning. De confrontatie escaleerde in handgemeen, waarbij demonstranten eieren, tomaten en stenen gooiden, een bus van de Nationale Garde schudden en probeerden het gebouw binnen te gaan, terwijl veiligheidstroepen reageerden met pepperspray en waarschuwingsschoten. Functionarissen van de Nationale Garde en de politie verklaarden dat het huis werd gebruikt als tijdelijk detentiepunt voor soldaten die hun eenheden zonder toestemming hadden verlaten, en ontkenden beschuldigingen van illegale detentie of marteling. De autoriteiten meldden dat vier militairen naar medische zorg werden gestuurd en dat er onderzoeken naar het incident werden gestart.",
    "demands": [
-    "Vrijlating van gedetineerden uit de faciliteit",
-    "Toegang om het gebouw te inspecteren"
+    "Laat de gedetineerde personen uit de faciliteit vrij"
    ],
-   "response": "Volgens bronnen zetten de politie en militaire troepen pepperspray in en losten zij waarschuwingsschoten. Ambtenaren verklaarden dat het huis een tijdelijk detentiepunt was voor ongeoorloofd afwezige militairen, ontkenden illegale detenties en startten een intern onderzoek en een beoordeling door de ombudsman.",
+   "response": "De Nationale Garde verklaarde dat het huis een tijdelijk detentiepunt was voor ongeoorloofd afwezige soldaten en ontkende martelingsbeschuldigingen. De politie ontkende illegale detentie en sterfgevallen. De autoriteiten meldden dat vier militairen die medische zorg nodig hadden, voor behandeling werden gestuurd en dat er onderzoeken werden gestart.",
    "updates": [
-    "Bewoners en familieleden verzamelden zich buiten een faciliteit van de Nationale Garde na onbevestigde geruchten over gedetineerden.",
-    "De confrontaties escaleerden met opstootjes, pepperspray en waarschuwingsschoten terwijl betogers probeerden het gebouw binnen te dringen.",
-    "De confrontaties namen rond middernacht af en de autoriteiten bevestigden een intern onderzoek."
+    "Een menigte verzamelde zich buiten een gebouw van de Nationale Garde na onverifieerbare beweringen op sociale media over gedetineerde rekruten.",
+    "Er braken confrontaties uit waarbij demonstranten voorwerpen gooiden en veiligheidstroepen pepperspray gebruikten en de locatie beheerden.",
+    "Autoriteiten en factcheckers meldden dat online geruchten over martelkamers deel uitmaakten van een bredere desinformatiecampagne."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "ongeveer 200 mensen verzameld",
-    "arrests": "Drie individuen werden in voorlopige hechtenis genomen zonder recht op borgtocht.",
-    "injuries": "vier personen die medische zorg nodig hadden werden voor behandeling gestuurd",
-    "deaths": "De politie ontkende illegale detentie en enige sterfgevallen."
+    "crowd": "Ongeveer 200 mensen verzamelden zich nabij een huis dat door de Nationale Garde werd gebruikt",
+    "arrests": "Drie personen werden in voorlopige hechtenis genomen zonder recht op borgtocht.",
+    "injuries": "vier van de gedetineerde mannen liepen verwondingen op van ongespecificeerde omvang en oorsprong",
+    "deaths": "De politie ontkende illegale detentie en eventuele sterfgevallen."
    }
   }
  }
