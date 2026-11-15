@@ -2,8 +2,8 @@
  "id": "ee9d0af9279",
  "slug": "berlin-gen-z-protest-nov-2026",
  "stage": "live",
- "title": "Gen Z protest march held in Berlin over schools and military service",
- "seoTitle": "Berlin Gen Z protest march",
+ "title": "Gen Z march held in Berlin over education, military service and cost of living",
+ "seoTitle": "Berlin Gen Z march",
  "place": {
   "city": "Berlin",
   "region": "State of Berlin",
@@ -26,16 +26,17 @@
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
-  "low-confidence"
+  "low-confidence",
+  "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated against broken schools, military conscription, and university and social funding cuts.",
-  "want": "Demonstrators demanded increased funding for education, stronger climate action, and measures against rising living costs.",
-  "changed": "Nov 14: Around 1,400 people marched in Berlin-Charlottenburg, resulting in 13 arrests."
+  "why": "Youth are frustrated with funding cuts in education, social spending, the climate crisis, and potential military service.",
+  "want": "More funding for education, stronger climate protection, and action against rising living costs.",
+  "changed": "Nov 14: Around 1,400 people marched in Berlin, resulting in police detaining several individuals for offenses including pyrotechnics use."
  },
- "summary": "According to news reports, a protest march organised by the \"Gen Z regelt\" initiative took place in Berlin-Charlottenburg on November 14, 2026. The demonstration began around 17:00 at Savignyplatz and moved along Kurfürstendamm to the Halensee S-Bahn station, where it dispersed in the early evening. Participants raised concerns regarding deteriorating schools, the reintroduction of military service, and cuts to social and university budgets, demanding better educational funding, climate action, and relief from rising living costs. While 100 participants were initially registered, police reported an attendance of approximately 1,400 people. Authorities deployed 700 officers to monitor the event, reporting 13 arrests primarily due to the use of pyrotechnics.",
+ "summary": "On Saturday evening, a demonstration organized under the banner of the initiative \"Gen Z regelt\" took place in Berlin-Charlottenburg, moving from Savignyplatz via Kurfürstendamm to the Halensee S-Bahn station. The march brought together individuals protesting against military service, deteriorating schools, and university and social budget cuts, while also raising demands for enhanced climate action and measures against increased living costs. Police stated that approximately 1,200 to 1,400 participants attended the protest, which had initially registered for 100 participants. Security forces deployed 700 personnel, and officers intervened to stop initial attempts to break through police lines, reporting multiple arrests for offenses such as throwing fireworks and resisting officers.",
  "organizers": [
   "Gen Z regelt"
  ],
@@ -43,226 +44,282 @@
   "More money for education",
   "Stronger climate protection",
   "Measures against rising living costs",
-  "Opposition to military conscription"
+  "Opposition to military service"
  ],
- "response": "According to rbb24, the police deployed 700 officers to monitor the demonstration and reported 13 arrests, partly due to the throwing of pyrotechnics.",
+ "response": "According to police, officers deployed 700 personnel and used direct force such as pushing, shoving, and punches when participants attempted to break through the police line. Police reported making between 13 and 22 arrests for offenses including fireworks violations, breach of the peace, and attacks on law enforcement.",
  "numbers": {
   "crowd": {
    "value": 1400,
-   "text": "Rund 1.400 Menschen",
+   "text": "nach Angaben der Polizei in der Spitze rund 1200 Menschen / Rund 1.400 Menschen",
    "sources": [
-    2
+    1,
+    3
    ]
   },
   "arrests": {
-   "value": 13,
-   "text": "13 Festnahmen",
+   "value": 22,
+   "text": "22 Personen festgenommen / 13 Festnahmen",
    "sources": [
-    2
+    1,
+    3
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-14",
-   "text": "Approximately 1,400 demonstrators participated in the \"Gen Z regelt\" protest march in Berlin-Charlottenburg, according to police.",
+   "text": "A protest march organized by Gen Z regelt started at Savignyplatz in Berlin, drawing hundreds of participants.",
    "sources": [
-    2
+    1,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-14",
+   "text": "Police reported peak attendance at around 1,200 to 1,400 people as the procession moved along Kurfürstendamm.",
+   "sources": [
+    1,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-14",
+   "text": "Authorities reported multiple arrests for pyrotechnics and resistance against officers before the protest dispersed at Halensee.",
+   "sources": [
+    1,
+    3
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.tagesspiegel.de/berlin/gen-z-regelt-ruft-am-samstag-erneut-zu-demonstration-in-berlin-auf-16283968.html",
+   "publisher": "tagesspiegel.de",
+   "title": "„Messer bleibt zuhause“: „Gen Z regelt“ geht in Berlin erneut auf die Straße – deutlich mehr Teilnehmende als angemeldet",
+   "publishedAt": "2026-11-14T16:50:00.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://www.morgenpost.de/berlin/article413667171/droht-gewalt-naechster-gen-z-protest-am-kurfuerstendamm-angekuendigt.html",
    "publisher": "morgenpost.de",
    "title": "Droht Gewalt? Nächster „Gen-Z“-Protest am Kurfürstendamm angekündigt",
    "publishedAt": "2026-11-14T07:49:23.000Z"
   },
   {
-   "n": 2,
+   "n": 3,
    "url": "https://www.rbb24.de/panorama/beitrag/2026/11/berlin-charlottenburg-gen-z-regelt-demo-jugend-protest-polizei.html",
    "publisher": "rbb24.de",
    "title": "Rund 1.400 Menschen protestieren auf dem Ku",
    "publishedAt": "2026-11-14T19:15:21.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 2,
+ "conflicts": [
+  "Police reported peak attendance figures ranging from approximately 1,200 to 1,400 people."
+ ],
+ "confidence": 0.65,
+ "publishers": 3,
+ "reports24h": 4,
  "reportsPrev24h": 0,
- "reports48h": 2,
- "firstSeenAt": "2026-11-14T12:52:48.581Z",
+ "reports48h": 4,
+ "firstSeenAt": "2026-11-14T04:51:52.908Z",
  "lastReportAt": "2026-11-14T19:15:21.000Z",
- "lastCheckedAt": "2026-11-14T20:50:14.748Z",
- "updatedAt": "2026-11-14T20:50:07.333Z",
+ "lastCheckedAt": "2026-11-15T00:54:37.260Z",
+ "updatedAt": "2026-11-15T00:54:12.008Z",
  "distinctFrom": [
   "ed09a81bb12",
-  "eee740d6ba9"
+  "eee740d6ba9",
+  "e3529d6fbf7",
+  "e500f422dff",
+  "e854f0a9c21"
  ],
  "searchedAt": "2026-11-14T16:50:40.857Z",
  "endedOn": "2026-11-14",
  "responseSources": [
-  2
+  1,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-14T20:50:07.333Z",
- "summaryOf": "5443aa36a6c2",
+ "summarizedAt": "2026-11-15T00:54:12.008Z",
+ "summaryOf": "8ea87fd81ac2",
  "publishedAt": "2026-11-14T20:50:14.748Z",
  "i18n": {
-  "of": "624c71a2d2d4f819",
-  "at": "2026-11-14T20:51:17.847Z",
+  "of": "7777b23f320984d4",
+  "at": "2026-11-15T00:55:50.643Z",
   "tries": 1,
   "es": {
-   "title": "Marcha de protesta de la Generación Z en Berlín por las escuelas y el servicio militar",
-   "seoTitle": "Protesta de la Generación Z en Berlín",
+   "title": "Marcha de la Generación Z en Berlín por educación, servicio militar y costo de vida",
+   "seoTitle": "Marcha de la Gen Z en Berlín",
    "tea": {
-    "why": "Los manifestantes se manifestaron contra las escuelas en ruinas, el servicio militar obligatorio y los recortes en la financiación universitaria y social.",
-    "want": "Los manifestantes exigieron un aumento de la financiación para la educación, una acción climática más firme y medidas contra el aumento del costo de vida.",
-    "changed": "14 de noviembre: Alrededor de 1.400 personas marcharon en Berlín-Charlottenburg, lo que resultó en 13 detenciones."
+    "why": "Los jóvenes están frustrados con los recortes de financiación en educación, el gasto social, la crisis climática y el servicio militar potencial.",
+    "want": "Mayor financiación para la educación, mayor protección climática y medidas contra el aumento del costo de vida.",
+    "changed": "14 de nov.: Alrededor de 1.400 personas marcharon en Berlín, lo que resultó en que la policía detuviera a varias personas por delitos que incluían el uso de pirotecnia."
    },
-   "summary": "Según informes de prensa, una marcha de protesta organizada por la iniciativa \"Gen Z regelt\" tuvo lugar en Berlín-Charlottenburg el 14 de noviembre de 2026. La manifestación comenzó alrededor de las 17:00 en Savignyplatz y se desplazó por Kurfürstendamm hasta la estación de S-Bahn de Halensee, donde se disolvió al early evening. Los participantes plantearon su preocupación por el deterioro de las escuelas, la reintroducción del servicio militar y los recortes en los presupuestos sociales y universitarios, exigiendo una mejor financiación educativa, acción climática y alivio frente al aumento del costo de vida. Aunque se registraron inicialmente 100 participantes, la policía informó de una asistencia de aproximadamente 1.400 personas. Las autoridades desplegaron 700 agentes para supervisar el evento e informaron de 13 detenciones principalmente debido al uso de pirotecnia.",
+   "summary": "El sábado por la tarde se llevó a cabo en Berlín-Charlottenburg una manifestación organizada bajo el estandarte de la iniciativa \"Gen Z regelt\", que se desplazó desde Savignyplatz pasando por Kurfürstendamm hasta la estación de S-Bahn de Halensee. La marcha reunió a personas que protestaban contra el servicio militar, el deterioro de las escuelas y los recortes en los presupuestos universitarios y sociales, al tiempo que planteaban demandas de una acción climática reforzada y medidas contra el aumento del costo de vida. La policía declaró que aproximadamente entre 1.200 y 1.400 participantes asistieron a la protesta, que inicialmente se había registrado para 100 participantes. Las fuerzas de seguridad desplegaron 700 efectivos y los agentes intervinieron para detener los intentos iniciales de romper las líneas policiales, informando de múltiples arrestos por delitos como el lanzamiento de fuegos artificiales y la resistencia a los agentes.",
    "demands": [
     "Más dinero para la educación",
-    "Mayor protección del clima",
+    "Mayor protección climática",
     "Medidas contra el aumento del costo de vida",
-    "Oposición al servicio militar obligatorio"
+    "Oposición al servicio militar"
    ],
-   "response": "Según rbb24, la policía desplegó 700 agentes para supervisar la manifestación e informó de 13 detenciones, en parte debido al lanzamiento de pirotecnia.",
+   "response": "Según la policía, los agentes desplegaron 700 efectivos y utilizaron la fuerza directa como empujones, forcejeos y puñetazos cuando los participantes intentaron romper la línea policial. La policía informó haber realizado entre 13 y 22 arrestos por delitos que incluyeron violaciones de pirotecnia, alteración del orden público y ataques contra las fuerzas del orden.",
    "updates": [
-    "Aproximadamente 1.400 manifestantes participaron en la marcha de protesta \"Gen Z regelt\" en Berlín-Charlottenburg, según la policía."
+    "Una marcha de protesta organizada por Gen Z regelt comenzó en Savignyplatz en Berlín, atrayendo a cientos de participantes.",
+    "La policía informó de una asistencia máxima de alrededor de 1.200 a 1.400 personas a medida que la procesión avanzaba por Kurfürstendamm.",
+    "Las autoridades informaron de múltiples arrestos por pirotecnia y resistencia contra los agentes antes de que la protesta se dispersara en Halensee."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La policía informó de cifras de asistencia máxima que oscilaron entre aproximadamente 1.200 y 1.400 personas."
+   ],
    "numbers": {
-    "crowd": "Rund 1.400 Menschen",
-    "arrests": "13 Festnahmen"
+    "crowd": "nach Angaben der Polizei in der Spitze rund 1200 Menschen / Rund 1.400 Menschen",
+    "arrests": "22 Personen festgenommen / 13 Festnahmen"
    }
   },
   "fr": {
-   "title": "Marche de protestation de la Génération Z à Berlin concernant les écoles et le service militaire",
-   "seoTitle": "Manifestation de la Génération Z à Berlin",
+   "title": "Marche de la génération Z à Berlin contre la vie chère, le service militaire et pour l'éducation",
+   "seoTitle": "Marche de la Gen Z à Berlin",
    "tea": {
-    "why": "Des manifestants ont manifesté contre la dégradation des écoles, la conscription militaire et les coupes budgétaires dans les universités et l'aide sociale.",
-    "want": "Les manifestants ont exigé une augmentation du financement de l'éducation, une action climatique renforcée et des mesures contre la hausse du coût de la vie.",
-    "changed": "14 nov. : Environ 1 400 personnes ont défilé à Berlin-Charlottenburg, entraînant 13 arrestations."
+    "why": "Les jeunes sont frustrés par les coupes budgétaires dans l'éducation, les dépenses sociales, la crise climatique et le service militaire potentiel.",
+    "want": "Plus de financement pour l'éducation, une protection climatique renforcée et des mesures contre la hausse du coût de la vie.",
+    "changed": "14 nov. : Environ 1 400 personnes ont défilé à Berlin, entraînant l'interpellation par la police de plusieurs individus pour des infractions incluant l'utilisation de pyrotechnie."
    },
-   "summary": "Selon des articles de presse, une marche de protestation organisée par l'initiative \"Gen Z regelt\" s'est déroulée à Berlin-Charlottenburg le 14 novembre 2026. La manifestation a débuté vers 17:00 à Savignyplatz et a emprunté le Kurfürstendamm jusqu'à la station de S-Bahn de Halensee, où elle s'est dispersée en début de soirée. Les participants ont soulevé des inquiétudes concernant la détérioration des écoles, le rétablissement du service militaire et les coupes dans les budgets sociaux et universitaires, réclamant un meilleur financement de l'éducation, une action pour le climat et un soulagement face à la hausse du coût de la vie. Bien que 100 participants aient été initialement enregistrés, la police a fait état d'une affluence d'environ 1 400 personnes. Les autorités ont déployé 700 agents pour surveiller l'événement et ont signalé 13 arrestations principalement en raison de l'utilisation de feux d'artifice.",
+   "summary": "Samedi soir, une manifestation organisée sous la bannière de l'initiative « Gen Z regelt » s'est déroulée à Berlin-Charlottenburg, se déplaçant de Savignyplatz en passant par le Kurfürstendamm jusqu'à la station de S-Bahn de Halensee. La marche a rassemblé des individus protestant contre le service militaire, la dégradation des écoles et les coupes budgétaires universitaires et sociales, tout en formulant des revendications pour une action climatique renforcée et des mesures contre l'augmentation du coût de la vie. La police a déclaré qu'environ 1 200 à 1 400 participants avaient assisté à la protesta, initialement enregistrée pour 100 participants. Les forces de sécurité ont déployé 700 agents, et les fonctionnaires sont intervenus pour stopper les tentatives initiales de percée des cordons de police, signalant de multiples arrestations pour des infractions telles que des jets de feux d'artifice et rébellion contre les forces de l'ordre.",
    "demands": [
     "Plus d'argent pour l'éducation",
     "Une protection climatique renforcée",
     "Des mesures contre la hausse du coût de la vie",
-    "Une opposition à la conscription militaire"
+    "L'opposition au service militaire"
    ],
-   "response": "Selon rbb24, la police a déployé 700 agents pour surveiller la manifestation et a signalé 13 arrestations, en partie en raison du lancement de pièces pyrotechniques.",
+   "response": "Selon la police, les agents ont déployé 700 effectifs et ont fait usage de la force directe, notamment des bousculades, des coups et des poings, lorsque les participants ont tenté de rompre le cordon de police. La police a fait état de 13 à 22 arrestations pour des infractions comprenant des violations de la législation sur les feux d'artifice, des troubles à l'ordre public et des attaques contre les forces de l'ordre.",
    "updates": [
-    "Environ 1 400 manifestants ont participé à la marche de protestation \"Gen Z regelt\" à Berlin-Charlottenburg, selon la police."
+    "Une marche de protestation organisée par Gen Z regelt a débuté à Savignyplatz à Berlin, attirant des centaines de participants.",
+    "La police a signalé une affluence maximale d'environ 1 200 à 1 400 personnes alors que le cortège progressait le long du Kurfürstendamm.",
+    "Les autorités ont signalé de multiples arrestations pour pyrotechnie et résistance envers les agents avant que la manifestation ne se dissipe à Halensee."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La police a rapporté des chiffres de fréquentation maximale allant d'environ 1 200 à 1 400 personnes."
+   ],
    "numbers": {
-    "crowd": "Rund 1.400 Menschen",
-    "arrests": "13 Festnahmen"
+    "crowd": "nach Angaben der Polizei in der Spitze rund 1200 Menschen / Rund 1.400 Menschen",
+    "arrests": "22 Personen festgenommen / 13 Festnahmen"
    }
   },
   "de": {
-   "title": "Gen-Z-Protestmarsch in Berlin zu Schulen und Wehrdienst",
-   "seoTitle": "Berlin Gen-Z-Protestmarsch",
+   "title": "Gen-Z-Marsch in Berlin zu Bildung, Wehrdienst und Lebenshaltungskosten",
+   "seoTitle": "Gen-Z-Marsch Berlin",
    "tea": {
-    "why": "Demonstranten protestierten gegen marode Schulen, Wehrpflicht sowie Kürzungen bei Universitäts- und Sozialgeldern.",
-    "want": "Demonstranten forderten erhöhte Bildungsausgaben, stärkeren Klimaschutz und Maßnahmen gegen steigende Lebenshaltungskosten.",
-    "changed": "14. Nov.: Rund 1.400 Menschen marschierten in Berlin-Charlottenburg, was zu 13 Festnahmen führte."
+    "why": "Jugendliche sind frustriert über Kürzungen bei Bildung, Sozialausgaben, die Klimakrise und den potenziellen Wehrdienst.",
+    "want": "Mehr Gelder für Bildung, stärkeren Klimaschutz und Maßnahmen gegen steigende Lebenshaltungskosten.",
+    "changed": "14. Nov.: Rund 1.400 Menschen marschierten in Berlin, was dazu führte, dass die Polizei mehrere Personen wegen Straftaten wie der Verwendung von Pyrotechnik in Gewahrsam nahm."
    },
-   "summary": "Berichten zufolge fand am 14. November 2026 ein von der Initiative „Gen Z regelt“ organisierter Protestmarsch in Berlin-Charlottenburg statt. Die Demonstration begann gegen 17:00 Uhr am Savignyplatz und bewegte sich den Kurfürstendamm entlang zum S-Bahnhof Halensee, wo sie sich am frühen Abend auflöste. Die Teilnehmer äußerten Besorgnis über marode Schulen, die Wiedereinführung des Wehrdienstes sowie Kürzungen in Sozial- und Universitätsetats und forderten eine bessere Bildungsfinanzierung, Klimaschutz und Entlastung von den steigenden Lebenshaltungskosten. Obwohl ursprünglich 100 Teilnehmer angemeldet waren, sprach die Polizei von etwa 1.400 anwesenden Personen. Die Behörden setzten 700 Einsatzkräfte zur Beobachtung der Veranstaltung ein und meldeten 13 Festnahmen, vor allem wegen des Einsatzes von Pyrotechnik.",
+   "summary": "Am Samstagabend fand in Berlin-Charlottenburg eine Demonstration statt, die unter dem Banner der Initiative „Gen Z regelt“ organisiert wurde und vom Savignyplatz über den Kurfürstendamm zum S-Bahnhof Halensee zog. Der Marsch versammelte Personen, die gegen den Wehrdienst, marode Schulen sowie Budgetkürzungen im Hochschul- und Sozialbereich protestierten, während sie gleichzeitig Forderungen nach verstärktem Klimaschutz und Maßnahmen gegen gestiegene Lebenshaltungskosten erhoben. Die Polizei gab an, dass etwa 1.200 bis 1.400 Teilnehmer an der Protestaktion teilnahmen, die ursprünglich für 100 Teilnehmer angemeldet worden war. Die Sicherheitskräfte setzten 700 Einsatzkräfte ein, und Beamte schritten ein, um erste Versuche eines Durchbrechens von Polizeiketten zu stoppen, wobei sie mehrere Festnahmen wegen Delikten wie dem Werfen von Feuerwerkskörpern und Widerstand gegen Vollzugsbeamte meldeten.",
    "demands": [
     "Mehr Geld für Bildung",
     "Stärkerer Klimaschutz",
     "Maßnahmen gegen steigende Lebenshaltungskosten",
-    "Ablehnung der Wehrpflicht"
+    "Ablehnung des Wehrdienstes"
    ],
-   "response": "Laut rbb24 setzte die Polizei 700 Einsatzkräfte zur Beobachtung der Demonstration ein und meldete 13 Festnahmen, teilweise wegen des Werfens von Pyrotechnik.",
+   "response": "Angaben der Polizei zufolge setzten die Beamten 700 Einsatzkräfte ein und wandten unmittelbaren Zwang wie Drücken, Schieben und Faustschläge an, als Teilnehmer versuchten, die Polizeikette zu durchbrechen. Die Polizei meldete zwischen 13 und 22 Festnahmen wegen Vergehen wie Verstößen gegen das Pyrotechnikgesetz, Landfriedensbruch und Angriffen auf Einsatzkräfte.",
    "updates": [
-    "Etwa 1.400 Demonstranten nahmen laut Polizei am „Gen Z regelt“-Protestmarsch in Berlin-Charlottenburg teil."
+    "Ein von Gen Z regelt organisierter Protestmarsch begann am Savignyplatz in Berlin und zog Hunderte Teilnehmer an.",
+    "Die Polizei meldete eine Höchstteilnehmerzahl von rund 1.200 bis 1.400 Personen, als der Zug den Kurfürstendamm entlangzog.",
+    "Die Behörden meldeten mehrere Festnahmen wegen Pyrotechnik und Widerstands gegen Beamte, bevor sich der Protest am Halensee auflöste."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Die Polizei nannte Höchstteilnehmerzahlen zwischen rund 1.200 und 1.400 Personen."
+   ],
    "numbers": {
-    "crowd": "Rund 1.400 Menschen",
-    "arrests": "13 Festnahmen"
+    "crowd": "nach Angaben der Polizei in der Spitze rund 1200 Menschen / Rund 1.400 Menschen",
+    "arrests": "22 Personen festgenommen / 13 Festnahmen"
    }
   },
   "it": {
-   "title": "Marcia di protesta della Generazione Z a Berlino su scuole e servizio militare",
-   "seoTitle": "Marcia di protesta Gen Z a Berlino",
+   "title": "Marcia della Generazione Z a Berlino su istruzione, servizio militare e costo della vita",
+   "seoTitle": "Marcia Gen Z Berlino",
    "tea": {
-    "why": "I manifestanti hanno protestato contro le scuole fatiscenti, la coscrizione militare e i tagli ai finanziamenti universitari e sociali.",
-    "want": "I manifestanti hanno chiesto maggiori fondi per l'istruzione, un'azione climatica più forte e misure contro l'aumento del costo della vita.",
-    "changed": "14 nov: circa 1.400 persone hanno sfilato a Berlino-Charlottenburg, con un bilancio di 13 arresti."
+    "why": "I giovani sono frustrati dai tagli ai finanziamenti nell'istruzione, nella spesa sociale, dalla crisi climatica e dal potenziale servizio militare.",
+    "want": "Maggiore finanziamento per l'istruzione, una più forte protezione climatica e azioni contro l'aumento del costo della vita.",
+    "changed": "14 nov.: Circa 1.400 persone hanno marciato a Berlino, portando la polizia a trattenere diverse persone per reati tra cui l'uso di materiale pirotecnico."
    },
-   "summary": "Secondo quanto riportato dai media, una marcia di protesta organizzata dall'iniziativa \"Gen Z regelt\" si è svolta a Berlino-Charlottenburg il 14 novembre 2026. La manifestazione è iniziata intorno alle 17:00 a Savignyplatz e si è mossa lungo Kurfürstendamm fino alla stazione S-Bahn di Halensee, dove si è dispersa nel primo)}\\u00e0 sera. I partecipanti hanno sollevato preoccupazioni riguardo al deterioramento delle scuole, alla reintroduzione del servizio militare e ai tagli ai bilanci sociali e universitari, chiedendo migliori finanziamenti per l'istruzione, azioni per il clima e sgravi dall'aumento del costo della vita. Sebbene fossero stati inizialmente registrati 100 partecipanti, la polizia ha segnalato una presenza di circa 1.400 persone. Le autorità hanno schierato 700 agenti per monitorare l'evento, segnalando 13 arresti principalmente dovuti all'uso di materiale pirotecnico.",
+   "summary": "Sabato sera si è tenuta a Berlino-Charlottenburg una manifestazione organizzata sotto l'insegna dell'iniziativa \"Gen Z regelt\", che si è mossa da Savignyplatz passando per Kurfürstendamm fino alla stazione della S-Bahn di Halensee. La marcia ha riunito persone che protestavano contro il servizio militare, il degrado delle scuole e i tagli ai bilanci universitari e sociali, sollevando inoltre richieste di maggiore azione climatica e misure contro l'aumento del costo della vita. La polizia ha dichiarato che circa 1.200-1.400 partecipanti hanno preso parte alla protesta, che era stata inizialmente registrata per 100 partecipanti. Le forze di sicurezza hanno dispiegato 700 agenti e sono intervenute per bloccare i tentativi iniziali di sfondare gli schieramenti di polizia, segnalando molteplici arresti per reati quali il lancio di fuochi d'artificio e la resistenza a pubblico ufficiale.",
    "demands": [
-    "Più soldi per l'istruzione",
-    "Maggiore protezione del clima",
+    "Più fondi per l'istruzione",
+    "Più forte protezione climatica",
     "Misure contro l'aumento del costo della vita",
-    "Opposizione alla coscrizione militare"
+    "Opposizione al servizio militare"
    ],
-   "response": "Secondo rbb24, la polizia ha schierato 700 agenti per monitorare la manifestazione e ha segnalato 13 arresti, in parte dovuti al lancio di materiale pirotecnico.",
+   "response": "Secondo la polizia, gli agenti hanno impiegato 700 unità di personale e hanno fatto uso di forza diretta come spinte, strattoni e pugni quando i partecipanti hanno tentato di rompere lo sbarramento della polizia. La polizia ha riferito di aver effettuato tra i 13 e i 22 arresti per reati che includono violazioni in materia di fuochi d'artificio, turbativa dell'ordine pubblico e aggressioni alle forze dell'ordine.",
    "updates": [
-    "Circa 1.400 manifestanti hanno partecipato alla marcia di protesta \"Gen Z regelt\" a Berlino-Charlottenburg, secondo la polizia."
+    "Una marcia di protesta organizzata da Gen Z regelt è iniziata a Savignyplatz a Berlino, attirando centinaia di partecipanti.",
+    "La polizia ha riportato un'affluenza di picco di circa 1.200-1.400 persone mentre il corteo si muoveva lungo Kurfürstendamm.",
+    "Le autorità hanno segnalato molteplici arresti per materiale pirotecnico e resistenza agli agenti prima che la protesta si disperdesse a Halensee."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La polizia ha riportato cifre di affluenza di picco che vanno da circa 1.200 a 1.400 persone."
+   ],
    "numbers": {
-    "crowd": "Rund 1.400 Menschen",
-    "arrests": "13 Festnahmen"
+    "crowd": "nach Angaben der Polizei in der Spitze rund 1200 Menschen / Rund 1.400 Menschen",
+    "arrests": "22 Personen festgenommen / 13 Festnahmen"
    }
   },
   "pt": {
-   "title": "Marcha de protesto da Geração Z em Berlim sobre escolas e serviço militar",
-   "seoTitle": "Protesto da Geração Z em Berlim",
+   "title": "Marcha da Geração Z realizada em Berlim sobre educação, serviço militar e custo de vida",
+   "seoTitle": "Marcha da Geração Z em Berlim",
    "tea": {
-    "why": "Os manifestantes protestaram contra escolas degradadas, o serviço militar obrigatório e cortes de financiamento universitário e social.",
-    "want": "Os manifestantes exigiram maior financiamento para a educação, uma ação climática mais forte e medidas contra o aumento do custo de vida.",
-    "changed": "14 nov: Cerca de 1.400 pessoas marcharam em Berlim-Charlottenburg, resultando em 13 detenções."
+    "why": "Os jovens estão frustrados com cortes de financiamento na educação, despesa social, a crise climática e o serviço militar potencial.",
+    "want": "Mais financiamento para a educação, maior proteção climática e ação contra o aumento do custo de vida.",
+    "changed": "14 de nov.: Cerca de 1.400 pessoas marcharam em Berlim, resultando na detenção pela polícia de vários indivíduos por crimes incluindo o uso de pirotecnia."
    },
-   "summary": "Segundo notícias, uma marcha de protesto organizada pela iniciativa \"Gen Z regelt\" teve lugar em Berlim-Charlottenburg a 14 de novembro de 2026. A manifestação começou por volta das 17:00 em Savignyplatz e seguiu ao longo de Kurfürstendamm até à estação de S-Bahn de Halensee, onde se dispersou ao princípio da noite. Os participantes levantaram preocupações relativamente à degradação das escolas, à reintrodução do serviço militar e a cortes nos orçamentos sociais e universitários, exigindo melhor financiamento educativo, ação climática e alívio face ao aumento do custo de vida. Embora estivessem inicialmente registados 100 participantes, a polícia relatou uma assistência de aproximadamente 1.400 pessoas. As autoridades mobilizaram 700 agentes para monitorizar o evento, reportando 13 detenções principalmente devido ao uso de pirotecnia.",
+   "summary": "No sábado à noite, realizou-se em Berlim-Charlottenburg uma manifestação organizada sob a bandeira da iniciativa \"Gen Z regelt\", deslocando-se de Savignyplatz através da Kurfürstendamm até à estação de S-Bahn de Halensee. A marcha juntou indivíduos que protestavam contra o serviço militar, a degradação das escolas e os cortes nos orçamentos universitários e sociais, levantando também exigências de ação climática reforçada e medidas contra o aumento do custo de vida. A polícia declarou que aproximadamente 1.200 a 1.400 participantes assistiram ao protesto, que tinha sido inicialmente registado para 100 participantes. As forças de segurança mobilizaram 700 efetivos, e os agentes intervieram para travar as tentativas iniciais de romper as linhas policiais, reportando múltiplos arrestos por crimes como lançamento de fogo de artifício e resistência a agentes.",
    "demands": [
     "Mais dinheiro para a educação",
-    "Mais forte proteção climática",
+    "Maior proteção climática",
     "Medidas contra o aumento do custo de vida",
-    "Oposição ao serviço militar obrigatório"
+    "Oposição ao serviço militar"
    ],
-   "response": "Segundo a rbb24, a polícia mobilizou 700 agentes para monitorizar a manifestação e reportou 13 detenções, em parte devido ao lançamento de pirotecnia.",
+   "response": "Segundo a polícia, os agentes mobilizaram 700 efetivos e usaram força direta como empurrões, encontrões e murros quando os participantes tentaram romper a linha policial. A polícia relatou ter efetuado entre 13 e 22 detenções por crimes que incluíram violações de pirotecnia, perturbação da ordem pública e ataques às forças de segurança.",
    "updates": [
-    "Aproximadamente 1.400 manifestantes participaram na marcha de protesto \"Gen Z regelt\" em Berlim-Charlottenburg, segundo a polícia."
+    "Uma marcha de protesto organizada por Gen Z regelt começou em Savignyplatz em Berlim, atraindo centenas de participantes.",
+    "A polícia relatou uma afluência máxima de cerca de 1.200 a 1.400 pessoas à medida que o desfile avançava ao longo da Kurfürstendamm.",
+    "As autoridades relataram múltiplos arrestos por pirotecnia e resistência contra agentes antes de o protesto se dispersar em Halensee."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "A polícia reportou números de afluência máxima que variaram entre aproximadamente 1.200 e 1.400 pessoas."
+   ],
    "numbers": {
-    "crowd": "Rund 1.400 Menschen",
-    "arrests": "13 Festnahmen"
+    "crowd": "nach Angaben der Polizei in der Spitze rund 1200 Menschen / Rund 1.400 Menschen",
+    "arrests": "22 Personen festgenommen / 13 Festnahmen"
    }
   },
   "nl": {
-   "title": "Protestmars van Gen Z in Berlijn over scholen en militaire dienst",
-   "seoTitle": "Protestmars Gen Z Berlijn",
+   "title": "Gen Z-mars gehouden in Berlijn over onderwijs, militaire dienst en kosten van levensonderhoud",
+   "seoTitle": "Gen Z-mars Berlijn",
    "tea": {
-    "why": "Demonstranten protesteerden tegen slechte scholen, de militaire dienstplicht en bezuinigingen op universiteits- en sociale fondsen.",
-    "want": "Demonstranten eisten meer financiering voor onderwijs, strengere klimaatactie en maatregelen tegen stijgende levensonderhoudskosten.",
-    "changed": "14 nov: Ongeveer 1.400 mensen marcheerden in Berlijn-Charlottenburg, wat leidde tot 13 arrestaties."
+    "why": "Jongeren zijn gefrustreerd over bezuinigingen op onderwijs, sociale uitgaven, de klimaatcrisis en mogelijke militaire dienst.",
+    "want": "Meer financiering voor onderwijs, sterkere klimaatbescherming en actie tegen stijgende kosten van levensonderhoud.",
+    "changed": "14 nov.: Ongeveer 1.400 mensen marcheerden in Berlijn, wat ertoe leidde dat de politie verscheidene personen vasthield voor vergrijpen waaronder het gebruik van pyrotechniek."
    },
-   "summary": "Volgens nieuwsberichten vond er op 14 november 2026 in Berlijn-Charlottenburg een protestmars plaats die was georganiseerd door het initiatief \"Gen Z regelt\". De demonstratie begon rond 17:00 uur op Savignyplatz en verplaatste zich via de Kurfürstendamm naar het S-Bahnstation Halensee, waar deze in de early evening uiteenviel. De deelnemers uitten hun bezorgdheid over verslechterende scholen, de herinvoering van de militaire dienstplicht en bezuinigingen op sociale en universitaire budgetten, en eisten betere onderwijsfinanciering, klimaatactie en verlichting van de stijgende kosten van levensonderhoud. Hoewel er aanvankelijk 100 deelnemers waren geregistreerd, meldde de politie een opkomst van ongeveer 1.400 personen. De autoriteiten zetten 700 agenten in om het evenement te bewaken en rapporteerden 13 arrestaties, voornamelijk vanwege het gebruik van vuurwerk.",
+   "summary": "Op zaterdagavond vond in Berlijn-Charlottenburg een demonstratie plaats die was georganiseerd onder de vlag van het initiatief \"Gen Z regelt\", lopend van Savignyplatz via de Kurfürstendamm naar het S-Bahnstation Halensee. De mars bracht personen bijeen die protesteerden tegen de militaire dienst, verslechterende scholen en bezuinigingen op universiteits- en sociale budgetten, terwijl zij ook eisen luidden voor versterkte klimaatactie en maatregelen tegen gestegen kosten van levensonderhoud. De politie verklaarde dat ongeveer 1.200 tot 1.400 deelnemers de protestbijeenkomst bijwoonden, die aanvankelijk voor 100 deelnemers was aangemeld. Veiligheidstroepen zetten 700 agenten in, en functionarissen grepen in om eerste pogingen om door politielinies te breken te stoppen, waarbij zij meerdere arrestaties meldden voor vergrijpen zoals het gooien van vuurwerk en verzet tegen agenten.",
    "demands": [
     "Meer geld voor onderwijs",
     "Sterkere klimaatbescherming",
-    "Maatregelen tegen stijgende levensonderhoudskosten",
-    "Verzet tegen militaire dienstplicht"
+    "Maatregelen tegen stijgende kosten van levensonderhoud",
+    "Verzet tegen militaire dienst"
    ],
-   "response": "Volgens rbb24 zette de politie 700 agenten in om de demonstratie te bewaken en meldde zij 13 arrestaties, deels vanwege het gooien van vuurwerk.",
+   "response": "Volgens de politie zetten agenten 700 personeelsleden in en gebruikten zij directe kracht zoals duwen, trekken en slaan toen deelnemers probeerden door de politielinie te breken. De politie meldde dat zij tussen 13 en 22 arrestaties verrichtten voor vergrijpen waaronder vuurwerkovertredingen, openbare ordeverstoring en aanvallen op handhavers.",
    "updates": [
-    "Ongeveer 1.400 demonstranten namen deel aan de protestmars \"Gen Z regelt\" in Berlijn-Charlottenburg, aldus de politie."
+    "Een protestmars georganiseerd door Gen Z regelt begon op de Savignyplatz in Berlijn en trok honderden deelnemers.",
+    "De politie meldde een piekbezetting van rond de 1.200 tot 1.400 mensen toen de stoet zich over de Kurfürstendamm beweging.",
+    "Autoriteiten meldden verscheidene arrestaties wegens pyrotechniek en verzet tegen agenten voordat het protest bij Halensee uiteenviel."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "De politie rapporteerde piekgehaltes aan opkomst variërend van ongeveer 1.200 tot 1.400 mensen."
+   ],
    "numbers": {
-    "crowd": "Rund 1.400 Menschen",
-    "arrests": "13 Festnahmen"
+    "crowd": "nach Angaben der Polizei in der Spitze rund 1200 Menschen / Rund 1.400 Menschen",
+    "arrests": "22 Personen festgenommen / 13 Festnahmen"
    }
   }
  }

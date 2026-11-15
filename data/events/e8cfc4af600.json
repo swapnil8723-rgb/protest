@@ -15,48 +15,51 @@
  },
  "scope": "local",
  "causes": [
-  "governance",
   "justice",
-  "free-speech"
+  "governance",
+  "elections"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-14",
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence",
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Supporters rallied to demand the release of detained former presidential candidate Călin Georgescu and protest against authorities.",
-  "want": "Release of Călin Georgescu, defense of constitutional rights, freedom of expression, and the resignation of Bucharest Mayor Ciprian Ciucu.",
-  "changed": "Nov 14: Several thousand protesters gathered in Izvor Park and later marched to the Central Arrest facility, ending without major incidents."
+  "why": "Supporters gathered to protest against the detention of former presidential candidate Călin Georgescu and to defend constitutional rights.",
+  "want": "Demonstrators demanded the release of Călin Georgescu and the protection of democratic freedoms and fundamental rights.",
+  "changed": "Nov 14: Minister of Internal Affairs Marian Neacșu thanked citizens and police for a peaceful demonstration."
  },
- "summary": "Thousands of people gathered in Bucharest near the Palace of Parliament and Izvor Park to demand the release of detained former presidential candidate Călin Georgescu. The demonstration took place despite Bucharest City Hall refusing to approve the event, a decision upheld by the Bucharest Tribunal on Friday. Leaders of the right-wing party Alliance for the Union of Romanians (AUR), including party president George Simion, mobilized supporters and attended the rally, though the party claimed it was not the formal organizer. Protesters chanted slogans, waved Romanian and American flags, and later marched toward the Central Arrest facility where Georgescu is held. The Ministry of Internal Affairs reported that the demonstration concluded without major public safety incidents.",
+ "summary": "On November 14, 2026, thousands of demonstrators gathered near Izvor Park and the Palace of Parliament in Bucharest to voice support for detained former presidential candidate Călin Georgescu. Although Bucharest City Hall did not authorize the protest, citing safety concerns, participants arrived from across the country, backed by members and leaders of the Alliance for the Union of Romanians (AUR). Protesters chanted slogans calling for Georgescu's release, the return of the presidential election run-off, and the resignation of Bucharest Mayor Ciprian Ciucu. Some participants later marched toward the Central Arrest facility. Authorities reported that the demonstration remained largely peaceful, with traffic restrictions in the area lifted by evening.",
  "organizers": [
-  "Alliance for the Union of Romanians (AUR)"
+  "Alliance for the Union of Romanians"
  ],
  "demands": [
   "Release Călin Georgescu",
-  "Resignation of Bucharest Mayor Ciprian Ciucu",
-  "Protect constitutional rights and freedom of expression"
+  "Return the second round of the elections",
+  "Defend democratic freedoms and constitutional rights",
+  "Resignation of Bucharest Mayor Ciprian Ciucu"
  ],
- "response": "Interior Minister Marian Neacșu thanked citizens and Ministry employees, stating that the demonstration ended without incidents affecting public safety. Gendarmerie forces maintained a heavy presence and detained two people during the rally according to reports.",
+ "response": "According to reports, police restricted traffic around Izvor Park, and gendarmes immobilized two people for aggressive language toward law enforcement. One protester received medical care from a SMURD crew. Later, the Minister of Internal Affairs praised the crowd for a peaceful demonstration.",
  "numbers": {
   "crowd": {
    "value": 10000,
-   "text": "Over 10,000 people participated according to BTA, while other sources noted several thousand attendees.",
+   "text": "Over 10,000 people",
    "sources": [
-    8,
-    9,
-    10
+    9
    ]
   },
   "arrests": {
    "value": 2,
-   "text": "Gendarmerie officers detained two individuals during the demonstration.",
+   "text": "Two people were immobilized by gendarmes",
    "sources": [
+    7,
     9
    ]
   },
@@ -71,46 +74,38 @@
  "updates": [
   {
    "at": "2026-11-08",
-   "text": "AUR MEP Gheorghe Piperea accused Bucharest Mayor Ciprian Ciucu of restricting protests after an initial permit request was rejected.",
+   "text": "AUR MEP Gheorghe Piperea accused Bucharest Mayor Ciprian Ciucu of restricting the right to protest after a permit was denied.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-10",
-   "text": "AUR leader George Simion announced plans for a mass rally on November 14 in Bucharest, stating it would proceed without authorization.",
+   "text": "AUR leader George Simion announced plans to hold a mass rally on November 14 regardless of municipal authorization.",
    "sources": [
-    2,
-    3
-   ]
-  },
-  {
-   "at": "2026-11-13",
-   "text": "The Bucharest Tribunal rejected a legal challenge against the municipality's refusal to approve the protest.",
-   "sources": [
-    7
+    2
    ]
   },
   {
    "at": "2026-11-14",
-   "text": "Several thousand protesters gathered in Izvor Park near the Palace of Parliament, with AUR figures including George Simion attending.",
+   "text": "Thousands of demonstrators gathered in Izvor Park near the Palace of Parliament for the unauthorized protest.",
    "sources": [
+    7,
     8,
-    9,
-    10
+    9
    ]
   },
   {
    "at": "2026-11-14",
-   "text": "Part of the crowd marched from Izvor Park to the Central Arrest facility where Călin Georgescu is held.",
+   "text": "Gendarmes detained two individuals during the demonstration for aggressive language.",
    "sources": [
-    8,
-    10
+    7,
+    9
    ]
   },
   {
    "at": "2026-11-14",
-   "text": "The Interior Ministry stated that the protest concluded without incidents that compromised public order.",
+   "text": "Minister of Internal Affairs Marian Neacșu stated that the protest concluded without major public safety incidents.",
    "sources": [
     8,
     10
@@ -155,17 +150,17 @@
   },
   {
    "n": 6,
-   "url": "https://www.goldring.ro/ro/news/george-simion-anunta-protest-pentru-calin-georgescu-la-bucuresti-sambata-la-ora-1400",
-   "publisher": "goldring.ro",
-   "title": "George Simion anunță protest pentru Călin Georgescu la București, s&acirc;mbătă la ora 14:00",
-   "publishedAt": "2026-11-13T08:45:43.000Z"
+   "url": "https://www.digi24.ro/stiri/actualitate/politica/george-simion-il-acuza-de-minciuna-pe-ciprian-ciucu-inaintea-manifestatiei-pentru-calin-georgescu-au-fost-mai-multe-cereri-depuse-4034679",
+   "publisher": "digi24.ro",
+   "title": "George Simion îl acuză de minciună pe Ciprian Ciucu înaintea manifestației pentru Călin Georgescu: „Au fost mai multe cereri depuse”",
+   "publishedAt": "2026-11-13T10:55:03.000Z"
   },
   {
    "n": 7,
-   "url": "https://www.digi24.ro/stiri/actualitate/primaria-capitalei-anunta-ca-a-castigat-procesul-in-prima-instanta-privind-decizia-de-neavizare-a-protestului-de-sambata-4035469",
-   "publisher": "digi24.ro",
-   "title": "Primăria Capitalei anunţă că a câştigat procesul, în primă instanţă, privind decizia de neavizare a protestului de sâmbătă",
-   "publishedAt": "2026-11-13T17:13:00.000Z"
+   "url": "https://www.romania-actualitati.ro/stiri/romania/peste-5-000-de-oameni-s-au-adunat-in-parcul-izvor-la-protestul-pentru-sustinerea-lui-calin-georgescu-id237470.html",
+   "publisher": "romania-actualitati.ro",
+   "title": "Peste 5.000 de oameni s-au adunat în Parcul Izvor la protestul pentru susţinerea lui Călin Georgescu",
+   "publishedAt": "2026-11-14T13:06:00.000Z"
   },
   {
    "n": 8,
@@ -196,268 +191,287 @@
    "publishedAt": "2026-11-14T07:00:28.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.9,
+ "conflicts": [
+  "Sources differed on crowd size, with estimates ranging from over 5,000 to over 10,000 participants."
+ ],
+ "confidence": 0.75,
  "publishers": 10,
- "reports24h": 12,
+ "reports24h": 14,
  "reportsPrev24h": 7,
- "reports48h": 19,
+ "reports48h": 21,
  "firstSeenAt": "2026-11-09T05:52:18.064Z",
  "lastReportAt": "2026-11-14T18:50:25.000Z",
- "lastCheckedAt": "2026-11-14T20:50:14.748Z",
- "updatedAt": "2026-11-14T20:48:56.749Z",
+ "lastCheckedAt": "2026-11-15T00:54:37.260Z",
+ "updatedAt": "2026-11-15T00:53:07.479Z",
  "searchedAt": "2026-11-09T09:50:41.829Z",
  "responseSources": [
+  7,
   8,
   9,
   10
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-14T20:48:56.749Z",
- "summaryOf": "765b61e3ff47",
+ "summarizedAt": "2026-11-15T00:53:07.479Z",
+ "summaryOf": "005d7e902393",
  "publishedAt": "2026-11-09T13:59:03.924Z",
  "i18n": {
-  "of": "52eb059e8e648f62",
-  "at": "2026-11-14T20:51:32.301Z",
+  "of": "37924412c8a6eacc",
+  "at": "2026-11-15T00:56:01.363Z",
   "tries": 1,
   "hi": {
-   "title": "ब्यूखारेस्ट में कलिन जॉर्जेसकु के लिए एयूआर समर्थकों की रैली",
-   "seoTitle": "कलिन जॉर्जेसकु के लिए ब्यूखारेस्ट रैली",
+   "title": "बुखारेस्ट में काशिन ज्योर्गेस्कु के लिए AUR समर्थकों की रैली",
+   "seoTitle": "काशिन ज्योर्गेस्कु के लिए बुखारेस्ट रैली",
    "tea": {
-    "why": "समर्थकों ने हिरासत में लिए गए पूर्व राष्ट्रपति पद के उम्मीदवार कलिन जॉर्जेसकु की रिहाई की मांग करने और अधिकारियों के खिलाफ प्रदर्शन करने के लिए रैली निकाली।",
-    "want": "कलिन जॉर्जेसकु की रिहाई, संवैधानिक अधिकारों की रक्षा, अभिव्यक्ति की स्वतंत्रता और ब्यूखारेस्ट के मेयर सिप्रियन चिउकू का इस्तीफा।",
-    "changed": "14 नवंबर: कई हजार प्रदर्शनकारी इज़वोर पार्क में एकत्र हुए और बाद में सेंट्रल अरेस्ट सुविधा की ओर मार्च किया, जो बिना किसी बड़ी घटना के समाप्त हुआ।"
+    "why": "पूर्व राष्ट्रपति पद के उम्मीदवार काशिन ज्योर्गेस्कु की हिरासत के खिलाफ विरोध प्रदर्शन करने और संवैधानिक अधिकारों की रक्षा के लिए समर्थक एकत्र हुए।",
+    "want": "प्रदर्शनकारियों ने काशिन ज्योर्गेस्कु की रिहाई तथा लोकतांत्रिक स्वतंत्रताओं और मौलिक अधिकारों की सुरक्षा की मांग की।",
+    "changed": "14 नवंबर: आंतरिक मामलों के मंत्री मारियान निआशू ने शांतिपूर्ण प्रदर्शन के लिए नागरिकों और पुलिस को धन्यवाद दिया।"
    },
-   "summary": "हिरासत में लिए गए पूर्व राष्ट्रपति पद के उम्मीदवार कलिन जॉर्जेसकु की रिहाई की मांग के लिए संसद भवन और इज़वोर पार्क के पास ब्यूखारेस्ट में हजारों लोग एकत्र हुए। यह प्रदर्शन ब्यूखारेस्ट सिटी हॉल द्वारा इस कार्यक्रम को मंजूरी देने से इनकार करने के बावजूद हुआ, जिस फैसले को शुक्रवार को ब्यूखारेस्ट ट्रिब्यूनल ने बरकरार रखा था। दक्षिणपंथी पार्टी अलायंस फॉर द यूनियन ऑफ रोमानियांस (AUR) के नेताओं, जिनमें पार्टी अध्यक्ष जॉर्ज सिमियन शामिल हैं, ने समर्थकों को संगठित किया और रैली में भाग लिया, हालांकि पार्टी ने दावा किया कि यह औपचारिक आयोजक नहीं था। प्रदर्शनकारियों ने नारे लगाए, रोमानियाई और अमेरिकी झंडे लहराए और बाद में सेंट्रल अरेस्ट सुविधा की ओर मार्च किया जहां जॉर्जेसकु को रखा गया है। आंतरिक मंत्रालय ने बताया कि प्रदर्शन बिना किसी बड़ी सार्वजनिक सुरक्षा घटना के संपन्न हुआ।",
+   "summary": "14 नवंबर 2026 को, हिरासत में लिए गए पूर्व राष्ट्रपति पद के उम्मीदवार काशिन ज्योर्गेस्कु के समर्थन में बुखारेस्ट में इज़वोर पार्क और संसद भवन के पास हजारों प्रदर्शनकारी एकत्र हुए। हालांकि बुखारेस्ट सिटी हॉल ने सुरक्षा चिंताओं का हवाला देते हुए प्रदर्शन को अधिकृत नहीं किया था, फिर भी एलायंस फॉर द यूनियन ऑफ रोमानियाियंस (AUR) के सदस्यों और नेताओं के समर्थन से देश भर से प्रतिभागी पहुंचे। प्रदर्शनकारियों ने ज्योर्गेस्कु की रिहाई, राष्ट्रपति चुनाव के रन-ऑफ की बहाली और बुखारेस्ट के मेयर सिप्रियन चिउकू के इस्तीफे की मांग करते हुए नारे लगाए। कुछ प्रतिभागी बाद में सेंट्रल अरेस्ट सुविधा की ओर मार्च कर गए। अधिकारियों ने बताया कि प्रदर्शन काफी हद तक शांतिपूर्ण रहा और शाम तक क्षेत्र में यातायात प्रतिबंध हटा लिए गए।",
    "demands": [
-    "कलिन जॉर्जेसकु को रिहा करें",
-    "ब्यूखारेस्ट के मेयर सिप्रियन चिउकू का इस्तीफा",
-    "संवैधानिक अधिकारों और अभिव्यक्ति की स्वतंत्रता की रक्षा करें"
+    "काशिन ज्योर्गेस्कु को रिहा करें",
+    "चुनाव के दूसरे दौर को वापस लाएं",
+    "लोकतांत्रिक स्वतंत्रताओं और संवैधानिक अधिकारों की रक्षा करें",
+    "बुखारेस्ट के मेयर सिप्रियन चिउकू का इस्तीफा"
    ],
-   "response": "आंतरिक मंत्री मारियन नेआक्सू ने नागरिकों और मंत्रालय के कर्मचारियों को धन्यवाद दिया, और कहा कि प्रदर्शन बिना किसी ऐसी घटना के समाप्त हुआ जो सार्वजनिक सुरक्षा को प्रभावित करे। रिपोर्टों के अनुसार, रैली के दौरान जेंडरमेरी बलों ने भारी मौजूदगी बनाए रखी और दो लोगों को हिरासत में लिया।",
+   "response": "रिपोर्टों के अनुसार, पुलिस ने इज़वोर पार्क के आसपास यातायात प्रतिबंधित कर दिया, और जेंडरमों ने कानून प्रवर्तन के प्रति आक्रामक भाषा का उपयोग करने के लिए दो लोगों को immobilize कर दिया। एक प्रदर्शनकारी को SMURD क्रू से चिकित्सा सहायता मिली। बाद में, आंतरिक मामलों के मंत्री ने शांतिपूर्ण प्रदर्शन के लिए भीड़ की प्रशंसा की।",
    "updates": [
-    "AUR के MEP घेओर्गे पिपेरिया ने प्रारंभिक अनुमति अनुरोध खारिज होने के बाद विरोध प्रदर्शनों को प्रतिबंधित करने का आरोप ब्यूखारेस्ट के मेयर सिप्रियन चिउकू पर लगाया।",
-    "AUR नेता जॉर्ज सिमियन ने 14 नवंबर को ब्यूखारेस्ट में एक विशाल रैली की योजना की घोषणा की, और कहा कि यह बिना प्राधिकरण के आगे बढ़ेगी।",
-    "ब्यूखारेस्ट ट्रिब्यूनल ने नगरपालिका द्वारा विरोध प्रदर्शन को मंजूरी देने से इनकार करने के खिलाफ एक कानूनी चुनौती को खारिज कर दिया।",
-    "संसद भवन के पास इज़वोर पार्क में कई हजार प्रदर्शनकारी एकत्र हुए, जिसमें जॉर्ज सिमियन सहित AUR के व्यक्ति शामिल हुए।",
-    "भीड़ का एक हिस्सा इज़वोर पार्क से सेंट्रल अरेस्ट सुविधा तक मार्च करके गया जहाँ कलिन जॉर्जेसकु को रखा गया है।",
-    "आंतरिक मंत्रालय ने कहा कि विरोध प्रदर्शन बिना किसी ऐसी घटना के समाप्त हुआ जिससे सार्वजनिक व्यवस्था प्रभावित हुई हो।"
+    "AUR के MEP घियोर्गे पिपेरिया ने परमिट अस्वीकार किए जाने के बाद बुखारेस्ट के मेयर सिप्रियन चिउकू पर प्रदर्शन के अधिकार को प्रतिबंधित करने का आरोप लगाया।",
+    "AUR नेता जॉर्ज सिमियन ने नगरपालिका प्राधिकरण की परवाह किए बिना 14 नवंबर को एक विशाल रैली आयोजित करने की योजना की घोषणा की।",
+    "अनधिकृत प्रदर्शन के लिए संसद भवन के पास इज़वोर पार्क में हजारों प्रदर्शनकारी एकत्र हुए।",
+    "जेंडरमों ने प्रदर्शन के दौरान आक्रामक भाषा के लिए दो व्यक्तियों को हिरासत में लिया।",
+    "आंतरिक मामलों के मंत्री मारियान निआशू ने कहा कि प्रदर्शन बिना किसी बड़ी सार्वजनिक सुरक्षा घटना के समाप्त हुआ।"
    ],
-   "conflicts": [],
+   "conflicts": [
+    "भीड़ के आकार पर स्रोतों में मतभेद था, जिसमें अनुमान 5,000 से अधिक से लेकर 10,000 से अधिक प्रतिभागियों तक थे।"
+   ],
    "numbers": {
-    "crowd": "BTA के अनुसार 10,000 से अधिक लोगों ने भाग लिया, जबकि अन्य स्रोतों ने कई हजार उपस्थित लोगों का उल्लेख किया।",
-    "arrests": "प्रदर्शन के दौरान जेंडरमेरी अधिकारियों ने दो व्यक्तियों को हिरासत में लिया।",
+    "crowd": "10,000 से अधिक लोग",
+    "arrests": "जेंडरमों द्वारा दो लोगों को immobilize किया गया",
     "injuries": "un echipaj SMURD a acordat îngrijiri medicale unui participant"
    }
   },
   "mr": {
-   "title": "बुखारेस्टमध्ये कालिन जॉर्जस्कू यांच्यासाठी एयूआर समर्थकांची रॅली",
-   "seoTitle": "कालिन जॉर्जस्कू यांच्यासाठी बुखारेस्ट रॅली",
+   "title": "बुखारेस्टमध्ये काॅलिन ज्योर्गेस्कु यांच्यासाठी AUR समर्थकांची रॅली",
+   "seoTitle": "काॅलिन ज्योर्गेस्कु यांच्यासाठी बुखारेस्ट रॅली",
    "tea": {
-    "why": "अटकेत असलेले माजी राष्ट्राध्यक्षपदाचे उमेदवार कालिन जॉर्जस्कू यांच्या सुटकेची मागणी करण्यासाठी आणि अधिकाऱ्यांच्या निषेधार्थ समर्थकांनी रॅली काढली.",
-    "want": "कालिन जॉर्जस्कू यांची सुटका, घटनात्मक हक्कांचे रक्षण, अभिव्यक्ती स्वातंत्र्य आणि बुखारेस्टचे महापौर सिप्रियन सिउकु यांचा राजीनामा.",
-    "changed": "१४ नोव्हेंबर: अनेक हजार निदर्शक इझव्होर पार्कमध्ये जमले आणि नंतर सेंट्रल अरेस्ट सुविधा केंद्राच्या दिशेने मार्च काढला, जो कोणत्याही मोठ्या घटनेविना संपला."
+    "why": "माजी राष्ट्रपतीपदाचे उमेदवार काॅलिन ज्योर्गेस्कु यांच्या अटकेच्या निषेधार्थ आणि घटनात्मक अधिकारांचे रक्षण करण्यासाठी समर्थक जमा झाले.",
+    "want": "निदर्शकांनी काॅलिन ज्योर्गेस्कु यांच्या सुटकेची आणि लोकशाही स्वातंत्र्य व मूलभूत अधिकारांच्या संरक्षणाची मागणी केली.",
+    "changed": "१४ नोव्हेंबर: अंतर्गत व्यवहार मंत्री मारियान निआशू यांनी शांततापूर्ण निदर्शनाबद्दल नागरिक व पोलिसांचे आभार मानले."
    },
-   "summary": "अटकेत असलेले माजी राष्ट्राध्यक्षपदाचे उमेदवार कालिन जॉर्जस्कू यांच्या सुटकेची मागणी करण्यासाठी संसद भवन आणि इझव्होर पार्कजवळ बुखारेस्टमध्ये हजारो लोक जमले. बुखारेस्ट सिटी हॉलने कार्यक्रमास मंजुरी देण्यास नकार दिल्यानंतरही हे आंदोलन झाले, ज्या निर्णयाला शुक्रवारी बुखारेस्ट ट्रिब्यूनलने कायम ठेवले होते. युनियन ऑफ रोमानियन्स अलायन्स (AUR) या उजव्या विचारसरणीच्या पक्षाच्या नेत्यांनी, ज्यामध्ये पक्षध्यक्ष जॉर्ज सिमियन यांचा समावेश आहे, समर्थकांना एकत्र केले आणि रॅलीत हजेरी लावली, जरी पक्षाने दावा केला की तो औपचारिक आयोजक नव्हता. निदर्शकांनी घोषणा दिल्या, रोमानियन आणि अमेरिकन झेंडे फडकवले आणि नंतर सेंट्रल अरेस्ट सुविधा केंद्राकडे मार्च केला जिथे जॉर्जस्कू यांना ठेवण्यात आले आहे. अंतर्गत मंत्रालयाने अहवाल दिला की प्रदर्शन कोणतीही मोठी सार्वजनिक सुरक्षेची घटना घडल्याशिवाय समाप्त झाले.",
+   "summary": "१४ नोव्हेंबर २०२६ रोजी, ताब्यात घेतलेले माजी राष्ट्रपतीपदाचे उमेदवार काॅलिन ज्योर्गेस्कु यांच्या समर्थनार्थ बुखारेस्टमध्ये इझव्होर पार्क आणि संसद भवनाजवळ हजारो निदर्शक जमले. सुरक्षेच्या कारणांचा हवाला देत बुखारेस्ट सिटी हॉलने या आंदोलनाला मंजुरी दिली नसली, तरी 'अलायन्स फॉर द युनियन ऑफ रोमानियन्स' (AUR) च्या सदस्यांसोबत आणि नेत्यांच्या पाठिंब्याने देशभारतून सहभागी आले. निदर्शकांनी ज्योर्गेस्कु यांची सुटका, राष्ट्रपती पदाच्या निवडणुकीची फेरी परत आणणे आणि बुखारेस्टचे महापौर सिप्रियन चिउकू यांच्या राजीनाम्याची मागणी करत घोषणा दिल्या. काही सहभागींनी नंतर सेंट्रल अरेस्ट सुविधा केंद्राच्या दिशेने मार्च केला. अधिकाऱ्यांनी सांगितले की निदर्शन मोठ्या प्रमाणावर शांततापूर्ण राहिले आणि संध्याकाळपर्यंत परिसरातील वाहतूक निर्बंध उठवण्यात आले.",
    "demands": [
-    "कालिन जॉर्जस्कू यांना मुक्त करा",
-    "बुखारेस्टचे महापौर सिप्रियन सिउकु यांचा राजीनामा",
-    "घटनात्मक हक्क आणि अभिव्यक्ती स्वातंत्र्याचे रक्षण करा"
+    "काॅलिन ज्योर्गेस्कु यांची सुटका करा",
+    "निवडणुकीची दुसरी फेरी परत आणा",
+    "लोकशाही स्वातंत्र्य आणि घटनात्मक अधिकारांचे रक्षण करा",
+    "बुखारेस्टचे महापौर सिप्रियन चिउकू यांचा राजीनामा"
    ],
-   "response": "अंतर्गत मंत्री मारियन नेआक्सू यांनी नागरिकांचे आणि मंत्रालयाच्या कर्मचाऱ्यांचे आभार मानले, आणि सांगितले की सार्वजनिक सुरक्षेवर परिणाम करणारी कोणतीही घटना न घडता प्रदर्शन संपले. अहवालानुसार, रॅलीदरम्यान जेंडरमेरी दलांनी मोठा बंदोबस्त राखला आणि दोन जणांना ताब्यात घेतले.",
+   "response": "वृत्तानुसार, पोलिसांनी इझव्होर पार्कभोवती वाहतूक प्रतिबंधित केली आणि कायद्याची अंमलबजावणी करणाऱ्या अधिकाऱ्यांप्रति आक्रमक भाषा वापरल्याबद्दल जेंडरमोंनी दोन जणांना अचल केले. एका निदर्शकाला SMURD पथकाकडून वैद्यकीय मदत मिळाली. नंतर, अंतर्गत व्यवहार मंत्र्यांनी शांततापूर्ण निदर्शनाबद्दल जमावाचे कौतुक केले.",
    "updates": [
-    "AUR चे MEP घेओर्गे पिपेरिया यांनी सुरुवातीचा परवानगी अर्ज फेटाळल्यानंतर बुखारेस्टचे महापौर सिप्रियन सिउकु यांच्यावर आंदोलनांवर मर्यादा आणल्याचा आरोप केला.",
-    "AUR नेते जॉर्ज सिमियन यांनी बुखारेस्टमध्ये १४ नोव्हेंबर रोजी एका भव्य रॅलीची योजना जाहीर केली, आणि ती मंजुरीशिवाय पुढे जाईल असे सांगितले.",
-    "बुखारेस्ट ट्रिब्यूनलने पालिकेच्या आंदोलनास मंजुरी देण्यास नकार देण्याच्या निर्णयाविरुद्धचे कायदेशीर आव्हान फेटाळून लावले.",
-    "संसद भवनाजवळ इझव्होर पार्कमध्ये अनेक हजार निदर्शक जमले, ज्यात जॉर्ज सिमियन यांच्यासह AUR चे नेते उपस्थित होते.",
-    "गर्दीचा एक भाग इझव्होर पार्कमधून सेंट्रल अरेस्ट सुविधा केंद्रापर्यंत मार्च करत गेला जिथे कालिन जॉर्जस्कू यांना ठेवले आहे.",
-    "अंतर्गत मंत्रालयाने सांगितले की आंदोलन सार्वजनिक सुव्यवस्था धोक्यात आणणाऱ्या कोणत्याही घटनांशिवाय संपले."
+    "AUR चे MEP घिओर्गे पिपेरिया यांनी परवानगी नाकारल्यानंतर बुखारेस्टचे महापौर सिप्रियन चिउकू यांच्यावर आंदोलनाच्या अधिकारावर गदा आणल्याचा आरोप केला.",
+    "AUR नेते जॉर्ज सिमियन यांनी महानगरपालिकेच्या अधिकाराची पर्वा न करता १४ नोव्हेंबर रोजी भव्य रॅली काढण्याची घोषणा केली.",
+    "अनधिकृत निदर्शनासाठी संसद भवनाजवळील इझव्होर पार्क येथे हजारो निदर्शक एकत्र आले.",
+    "निदर्शनादरम्यान आक्रमक भाषा वापरल्याबद्दल जेंडरमोंनी दोन जणांना ताब्यात घेतले.",
+    "अंतर्गत व्यवहार मंत्री मारियान निआशू यांनी सांगितले की निदर्शन कोणतीही मोठी सार्वजनिक सुरक्षेची घटना न घडता संपले."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "स्रोतांमध्ये गर्दीच्या आकाराबाबत मतभेद होते, ज्यांचे अंदाज ५,००० हून अधिक ते १०,००० हून अधिक सहभागींपर्यंत होते."
+   ],
    "numbers": {
-    "crowd": "BTA नुसार १०,००० हून अधिक लोकांनी सहभाग घेतला, तर इतर स्रोतांनी काही हजार उपस्थितांची नोंद केली.",
-    "arrests": "निदर्शनादरम्यान जेंडरमेरी अधिकाऱ्यांनी दोन व्यक्तींना ताब्यात घेतले.",
+    "crowd": "१०,००० हून अधिक लोक",
+    "arrests": "जेंडरमोंद्वारे दोन जणांना अचल करण्यात आले",
     "injuries": "un echipaj SMURD a acordat îngrijiri medicale unui participant"
    }
   },
   "es": {
-   "title": "Simpatizantes de AUR se manifiestan en Bucarest por Călin Georgescu",
+   "title": "Partidarios de AUR se manifiestan en Bucarest por Călin Georgescu",
    "seoTitle": "Manifestación en Bucarest por Călin Georgescu",
    "tea": {
-    "why": "Los simpatizantes se manifestaron para exigir la liberación del ex candidato presidencial detenido Călin Georgescu y protestar contra las autoridades.",
-    "want": "Liberación de Călin Georgescu, defensa de los derechos constitucionales, libertad de expresión y dimisión del alcalde de Bucarest, Ciprian Ciucu.",
-    "changed": "14 de noviembre: Varios miles de manifestantes se congregaron en el Parque Izvor y luego marcharon hacia el centro de detención central, terminando sin incidentes mayores."
+    "why": "Los partidarios se reunieron para protestar contra la detención del ex candidato presidencial Călin Georgescu y para defender los derechos constitucionales.",
+    "want": "Los manifestantes exigieron la liberación de Călin Georgescu y la protección de las libertades democráticas y los derechos fundamentales.",
+    "changed": "14 de nov.: El ministro de Asuntos Internos, Marian Neacșu, agradeció a los ciudadanos y a la policía por una manifestación pacífica."
    },
-   "summary": "Miles de personas se reunieron en Bucarest, cerca del Palacio del Parlamento y del Parque Izvor, para exigir la liberación del ex candidato presidencial detenido Călin Georgescu. La manifestación tuvo lugar a pesar de que el Ayuntamiento de Bucarest se negó a aprobar el evento, una decisión respaldada por el Tribunal de Bucarest el viernes. Líderes del partido de derecha Alianza para la Unión de los Rumanos (AUR), incluido el presidente del partido George Simion, movilizaron a los simpatizantes y asistieron a la concentración, aunque el partido afirmó que no era el organizador formal. Los manifestantes corearon consignas, ondearon banderas rumanas y estadounidenses, y posteriormente marcharon hacia el centro de detención central donde Georgescu se encuentra recluido. El Ministerio de Asuntos Internos informó que la manifestación concluyó sin incidentes graves de seguridad pública.",
+   "summary": "El 14 de noviembre de 2026, miles de manifestantes se reunieron cerca del parque Izvor y del Palacio del Parlamento en Bucarest para expresar su apoyo al ex candidato presidencial detenido Călin Georgescu. Aunque el Ayuntamiento de Bucarest no autorizó la protesta citando motivos de seguridad, los participantes llegaron de todo el país, respaldados por miembros y líderes de la Alianza para la Unión de los Rumanos (AUR). Los manifestantes corearon consignas pidiendo la liberación de Georgescu, el regreso de la segunda vuelta de las elecciones presidenciales y la renuncia del alcalde de Bucarest, Ciprian Ciucu. Algunos participantes marcharon más tarde hacia el centro de detención central. Las autoridades informaron que la manifestación transcurrió en su mayoría de manera pacífica, y las restricciones de tráfico en la zona se levantaron por la noche.",
    "demands": [
     "Liberar a Călin Georgescu",
-    "Dimisión del alcalde de Bucarest, Ciprian Ciucu",
-    "Proteger los derechos constitucionales y la libertad de expresión"
+    "Devolver la segunda vuelta de las elecciones",
+    "Defender las libertades democráticas y los derechos constitucionales",
+    "Dimisión del alcalde de Bucarest Ciprian Ciucu"
    ],
-   "response": "El ministro del Interior, Marian Neacșu, agradeció a los ciudadanos y a los empleados del Ministerio, afirmando que la manifestación terminó sin incidentes que afectaran la seguridad pública. Las fuerzas de la Gendarmería mantuvieron una fuerte presencia y detuvieron a dos personas durante la concentración según los informes.",
+   "response": "Según los informes, la policía restringió el tráfico alrededor del parque Izvor y los gendarmes inmovilizaron a dos personas por lenguaje agresivo hacia las fuerzas del orden. Un manifestante recibió atención médica de una tripulación de SMURD. Más tarde, el ministro de Asuntos Internos elogió a la multitud por una manifestación pacífica.",
    "updates": [
-    "El eurodiputado de AUR Gheorghe Piperea acusó al alcalde de Bucarest, Ciprian Ciucu, de restringir las protestas después de que se rechazara una solicitud de permiso inicial.",
-    "El líder de AUR, George Simion, anunció planes para una concentración masiva el 14 de noviembre en Bucarest, afirmando que se llevaría a cabo sin autorización.",
-    "El Tribunal de Bucarest rechazó un recurso legal contra la negativa del municipio a aprobar la protesta.",
-    "Varios miles de manifestantes se congregaron en el Parque Izvor, cerca del Palacio del Parlamento, con la asistencia de figuras de AUR, incluido George Simion.",
-    "Parte de la multitud marchó desde el Parque Izvor hasta el centro de detención central donde se encuentra recluido Călin Georgescu.",
-    "El Ministerio del Interior declaró que la protesta concluyó sin incidentes que comprometieran el orden público."
+    "El eurodiputado de AUR Gheorghe Piperea acusó al alcalde de Bucarest Ciprian Ciucu de restringir el derecho a protestar después de que se negara un permiso.",
+    "El líder de AUR George Simion anunció planes para celebrar una manifestación masiva el 14 de noviembre sin importar la autorización municipal.",
+    "Miles de manifestantes se reunieron en el parque Izvor, cerca del Palacio del Parlamento, para la protesta no autorizada.",
+    "Los gendarmes detuvieron a dos personas durante la manifestación por lenguaje agresivo.",
+    "El ministro de Asuntos Internos Marian Neacșu declaró que la protesta concluyó sin mayores incidentes de seguridad pública."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Las fuentes difirieron sobre el tamaño de la multitud, con estimaciones que van desde más de 5,000 hasta más de 10,000 participantes."
+   ],
    "numbers": {
-    "crowd": "Más de 10 000 personas participaron según BTA, mientras que otras fuentes señalaron varios miles de asistentes.",
-    "arrests": "Los agentes de la Gendarmería detuvieron a dos personas durante la manifestación.",
+    "crowd": "Más de 10,000 personas",
+    "arrests": "Dos personas fueron inmovilizadas por los gendarmes",
     "injuries": "un echipaj SMURD a acordat îngrijiri medicale unui participant"
    }
   },
   "fr": {
-   "title": "Des partisans d'AUR manifestent à Bucarest pour Călin Georgescu",
-   "seoTitle": "Manifestation à Bucarest pour Călin Georgescu",
+   "title": "Des partisans de l'AUR se rassemblent à Bucarest pour Călin Georgescu",
+   "seoTitle": "Rassemblement à Bucarest pour Călin Georgescu",
    "tea": {
-    "why": "Des partisans se sont rassemblés pour exiger la libération de l'ancien candidat présidentiel détenu Călin Georgescu et pour protester contre les autorités.",
-    "want": "La libération de Călin Georgescu, la défense des droits constitutionnels, la liberté d'expression et la démission du maire de Bucarest, Ciprian Ciucu.",
-    "changed": "14 nov. : Plusieurs milliers de manifestants se sont rassemblés dans le parc Izvor puis ont marché vers le centre de détention central, se terminant sans incidents majeurs."
+    "why": "Des partisans se sont rassemés pour protester contre la détention de l'ancien candidat à la présidence Călin Georgescu et pour défendre les droits constitutionnels.",
+    "want": "Les manifestants ont exigé la libération de Călin Georgescu ainsi que la protection des libertés démocratiques et des droits fondamentaux.",
+    "changed": "14 nov. : Le ministre de l'Intérieur Marian Neacșu a remercié les citoyens et la police pour une manifestation pacifique."
    },
-   "summary": "Des milliers de personnes se sont rassemblées à Bucarest près du Palais du Parlement et du parc Izvor pour exiger la libération de l'ancien candidat présidentiel détenu Călin Georgescu. La manifestation a eu lieu malgré le refus de la mairie de Bucarest d'approuver l'événement, une décision confirmée par le tribunal de Bucarest vendredi. Des dirigeants du parti de droite Alliance pour l'union des Roumains (AUR), dont le président du parti George Simion, ont mobilisé des partisans et ont assisté au rassemblement, bien que le parti ait affirmé qu'il n'était pas l'organisateur officiel. Les manifestants ont scandé des slogans, agité des drapeau roumains et américains, puis ont marché vers le centre de détention central où Georgescu est détenu. Le ministère de l'Intérieur a signalé que la manifestation s'est conclue sans incidents majeurs de sécurité publique.",
+   "summary": "Le 14 novembre 2026, des milliers de manifestants se sont rassemblés près du parc Izvor et du Palais du Parlement à Bucarest pour exprimer leur soutien à l'ancien candidat à la présidence en détention Călin Georgescu. Bien que la mairie de Bucarest n'ait pas autorisé la manifestation en invoquant des raisons de sécurité, des participants sont arrivés de tout le pays, soutenus par des membres et des dirigeants de l'Alliance pour l'union des Roumains (AUR). Les manifestants ont scandé des slogans appelant à la libération de Georgescu, au retour du second tour de l'élection présidentielle et à la démission du maire de Bucarest Ciprian Ciucu. Certains participants ont ensuite marché vers le centre de détention central. Les autorités ont indiqué que la manifestation s'était déroulée dans le calme général et que les restrictions de circulation dans la zone avaient été levées dans la soirée.",
    "demands": [
     "Libérer Călin Georgescu",
-    "Démission du maire de Bucarest, Ciprian Ciucu",
-    "Protéger les droits constitutionnels et la liberté d'expression"
+    "Rétablir le second tour des élections",
+    "Défendre les libertés démocratiques et les droits constitutionnels",
+    "Démission du maire de Bucarest Ciprian Ciucu"
    ],
-   "response": "Le ministre de l'Intérieur, Marian Neacșu, a remercié les citoyens et les employés du ministère, déclarant que la manifestation s'est terminée sans incidents affectant la sécurité publique. Les forces de gendarmerie ont maintenu une forte présence et ont interpellé deux personnes lors du rassemblement selon des rapports.",
+   "response": "Selon les rapports, la police a restreint la circulation autour du parc Izvor et les gendarmes ont immobilisé deux personnes pour propos agressifs envers les forces de l'ordre. Un manifestant a reçu des soins médicaux d'une équipe SMURD. Plus tard, le ministre de l'Intérieur a salué la foule pour une manifestation pacifique.",
    "updates": [
-    "L'eurodéputé AUR Gheorghe Piperea a accusé le maire de Bucarest, Ciprian Ciucu, de restreindre les manifestations après le rejet d'une demande de permis initiale.",
-    "Le dirigeant d'AUR, George Simion, a annoncé des projets de rassemblement de masse le 14 novembre à Bucarest, affirmant qu'il se déroulerait sans autorisation.",
-    "Le tribunal de Bucarest a rejeté un recours juridique contre le refus de la municipalité d'approuver la manifestation.",
-    "Plusieurs milliers de manifestants se sont rassemblés dans le parc Izvor près du Palais du Parlement, avec la participation de figures d'AUR, dont George Simion.",
-    "Une partie de la foule a marché du parc Izvor vers le centre de détention central où Călin Georgescu est détenu.",
-    "Le ministère de l'Intérieur a déclaré que la manifestation s'est conclue sans incidents compromettant l'ordre public."
+    "L'eurodéputé de l'AUR Gheorghe Piperea a accusé le maire de Bucarest Ciprian Ciucu de restreindre le droit de manifester après le refus d'un permis.",
+    "Le dirigeant de l'AUR George Simion a annoncé son intention d'organiser un rassemblement de masse le 14 novembre sans se soucier de l'autorisation municipale.",
+    "Des milliers de manifestants se sont rassemblés dans le parc Izvor près du Palais du Parlement pour la manifestation non autorisée.",
+    "Les gendarmes ont interpellé deux individus pendant la manifestation pour propos agressifs.",
+    "Le ministre de l'Intérieur Marian Neacșu a déclaré que la manifestation s'était conclue sans incident majeur de sécurité publique."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Les sources ont divergé sur la taille de la foule, avec des estimations allant de plus de 5 000 à plus de 10 000 participants."
+   ],
    "numbers": {
-    "crowd": "Plus de 10 000 personnes ont participé selon BTA, tandis que d'autres sources ont noté plusieurs milliers de participants.",
-    "arrests": "Des agents de la gendarmerie ont interpellé deux individus lors de la manifestation.",
+    "crowd": "Plus de 10 000 personnes",
+    "arrests": "Deux personnes ont été immobilisées par les gendarmes",
     "injuries": "un echipaj SMURD a acordat îngrijiri medicale unui participant"
    }
   },
   "de": {
-   "title": "AUR-Anhänger demonstrieren in Bukarest für Călin Georgescu",
+   "title": "AUR-Unterstützer versammeln sich in Bukarest für Călin Georgescu",
    "seoTitle": "Bukarest-Kundgebung für Călin Georgescu",
    "tea": {
-    "why": "Anhänger versammelten sich, um die Freilassung des inhaftierten ehemaligen Präsidentschaftskandidaten Călin Georgescu zu fordern und gegen die Behörden zu protestieren.",
-    "want": "Freilassung von Călin Georgescu, Verteidigung der Verfassungsrechte, Meinungsfreiheit und Rücktritt des Bukarester Bürgermeisters Ciprian Ciucu.",
-    "changed": "14. Nov.: Mehr Tausend Demonstranten versammelten sich im Izvor-Park und zogen später zum zentralen Arrestgebäude, wobei die Versammlung ohne größere Zwischenfälle endete."
+    "why": "Unterstützer versammelten sich, um gegen die Inhaftierung des ehemaligen Präsidentschaftskandidaten Călin Georgescu zu protestieren und die Verfassungsrechte zu verteidigen.",
+    "want": "Demonstranten forderten die Freilassung von Călin Georgescu sowie den Schutz der demokratischen Freiheiten und Grundrechte.",
+    "changed": "14. Nov.: Innenminister Marian Neacșu dankte den Bürgern und der Polizei für eine friedliche Demonstration."
    },
-   "summary": "Tausende Menschen versammelten sich in Bukarest in der Nähe des Parlamentspalastes und des Izvor-Park, um die Freilassung des inhaftierten ehemaligen Präsidentschaftskandidaten Călin Georgescu zu fordern. Die Demonstration fand statt, obwohl das Rathaus von Bukarest die Genehmigung der Veranstaltung verweigert hatte, eine Entscheidung, die am Freitag vom Gericht in Bukarest bestätigt wurde. Führungspersönlichkeiten der rechtspopulistischen Partei Allianz für die Vereinigung der Rumänen (AUR), darunter Parteichef George Simion, mobilisierten Anhänger und nahmen an der Kundgebung teil, obwohl die Partei erklärte, sie sei nicht der offizielle Veranstalter gewesen. Demonstranten skandierten Parolen, schwenkten rumänische und amerikanische Flaggen und zogen später zum zentralen Arrestgebäude, in dem Georgescu festgehalten wird. Das Innenministerium berichtete, dass die Demonstration ohne größere Vorfälle der öffentlichen Sicherheit endete.",
+   "summary": "Am 14. November 2026 versammelten sich Tausende Demonstranten in der Nähe des Izvor-Parks und des Parlamentspalasts in Bukarest, um ihre Unterstützung für den inhaftierten ehemaligen Präsidentschaftskandidaten Călin Georgescu auszudrücken. Obwohl das Rathaus von Bukarest die Proteste unter Berufung auf Sicherheitsbedenken nicht genehmigt hatte, trafen Teilnehmer aus dem ganzen Land ein, unterstützt von Mitgliedern und Führungspersonen der Allianz für die Vereinigung der Rumänen (AUR). Demonstranten skandierten Parolen, die die Freilassung von Georgescu, die Wiederholung der Stichwahl der Präsidentschaftswahl und den Rücktritt des Bukarester Bürgermeisters Ciprian Ciucu forderten. Einige Teilnehmer zogen später zum zentralen Arrestgebäude. Behörden berichteten, dass die Demonstration größtenteils friedlich verlief und die Verkehrseinschränkungen in dem Gebiet am Abend aufgehoben wurden.",
    "demands": [
     "Călin Georgescu freilassen",
-    "Rücktritt des Bukarester Bürgermeisters Ciprian Ciucu",
-    "Verfassungsrechte und Meinungsfreiheit schützen"
+    "Die zweite Runde der Wahlen zurückbringen",
+    "Demokratische Freiheiten und Verfassungsrechte verteidigen",
+    "Rücktritt des Bukarester Bürgermeisters Ciprian Ciucu"
    ],
-   "response": "Innenminister Marian Neacșu dankte den Bürgern und den Mitarbeitern des Ministeriums und erklärte, dass die Demonstration ohne Zwischenfälle endete, die die öffentliche Sicherheit beeinträchtigten. Gendarmeriekräfte waren stark präsent und nahmen Berichten zufolge während der Kundgebung zwei Personen fest.",
+   "response": "Berichten zufolge sperrte die Polizei den Verkehr rund um den Izvor-Park ab, und Gendarmen fixierten zwei Personen wegen aggressiver Sprache gegenüber den Strafverfolgungsbehörden. Ein Demonstrant wurde von einer SMURD-Besatzung medizinisch versorgt. Später lobte der Innenminister die Menge für eine friedliche Demonstration.",
    "updates": [
-    "AUR-EU-Parlamentarier Gheorghe Piperea warf Bukarests Bürgermeister Ciprian Ciucu vor, Proteste einzuschränken, nachdem ein anfänglicher Genehmigungsantrag abgelehnt worden war.",
-    "AUR-Chef George Simion kündigte Pläne für eine Massenkundgebung am 14. November in Bukarest an und erklärte, diese werde ohne Genehmigung stattfinden.",
-    "Das Gericht in Bukarest wies eine rechtliche Anfechtung gegen die Weigerung der Stadtverwaltung ab, den Protest zu genehmigen.",
-    "Mehrere tausend Demonstranten versammelten sich im Izvor-Park in der Nähe des Parlamentspalastes, wobei auch AUR-Persönlichkeiten wie George Simion anwesend waren.",
-    "Ein Teil der Menge zog vom Izvor-Park zum zentralen Arrestgebäude, in dem Călin Georgescu festgehalten wird.",
-    "Das Innenministerium erklärte, dass der Protest ohne Zwischenfälle endete, die die öffentliche Ordnung gefährdeten."
+    "AUR-EU-Parlamentarier Gheorghe Piperea warf dem Bukarester Bürgermeister Ciprian Ciucu vor, das Recht auf Protest einzuschränken, nachdem eine Genehmigung verweigert worden war.",
+    "AUR-Chef George Simion kündigte an, ungeachtet der städtischen Genehmigung am 14. November eine Massenkundgebung abzuhalten.",
+    "Tausende Demonstranten versammelten sich für den nicht genehmigten Protest im Izvor-Park in der Nähe des Parlamentspalasts.",
+    "Gendarmen nahmen während der Demonstration zwei Personen wegen aggressiver Sprache fest.",
+    "Innenminister Marian Neacșu erklärte, dass die Demonstration ohne größere Zwischenfälle bezüglich der öffentlichen Sicherheit endete."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Quellen wichen bei der Schätzung der Menschenmenge voneinander ab, wobei die Schätzungen von über 5.000 bis über 10.000 Teilnehmern reichten."
+   ],
    "numbers": {
-    "crowd": "Über 10.000 Menschen nahmen laut BTA teil, während andere Quellen mehrere tausend Teilnehmer nannten.",
-    "arrests": "Gendarmeriebeamte nahmen während der Demonstration zwei Personen fest.",
+    "crowd": "Über 10.000 Menschen",
+    "arrests": "Zwei Personen wurden von Gendarmen fixiert",
     "injuries": "un echipaj SMURD a acordat îngrijiri medicale unui participant"
    }
   },
   "it": {
-   "title": "Sostenitori dell'AUR manifestano a Bucarest per Călin Georgescu",
-   "seoTitle": "Manifestazione a Bucarest per Călin Georgescu",
+   "title": "Sostenitori dell'AUR raduni a Bucarest per Călin Georgescu",
+   "seoTitle": "Raduno a Bucarest per Călin Georgescu",
    "tea": {
-    "why": "I sostenitori si sono radunati per chiedere la liberazione dell'ex candidato presidenziale detenuto Călin Georgescu e per protestare contro le autorità.",
-    "want": "Liberazione di Călin Georgescu, difesa dei diritti costituzionali, libertà di espressione e dimissioni del sindaco di Bucarest Ciprian Ciucu.",
-    "changed": "14 nov: Diverse migliaia di manifestanti si sono radunati nel parco Izvor e hanno poi marciato verso la struttura di arresto centrale, concludendosi senza incidenti di rilievo."
+    "why": "I sostenitori si sono riuniti per protestare contro la detenzione dell'ex candidato alla presidenza Călin Georgescu e per difendere i diritti costituzionali.",
+    "want": "I manifestanti hanno chiesto la scarcerazione di Călin Georgescu e la protezione delle libertà democratiche e dei diritti fondamentali.",
+    "changed": "14 nov: Il ministro degli Affari interni Marian Neacșu ha ringraziato i cittadini e la polizia per una manifestazione pacifica."
    },
-   "summary": "Migliaia di persone si sono radunate a Bucarest vicino al Palazzo del Parlamento e al parco Izvor per chiedere la liberazione dell'ex candidato presidenziale detenuto Călin Georgescu. La manifestazione si è svolta nonostante il municipio di Bucarest si fosse rifiutato di approvare l'evento, una decisione confermata venerdì dal tribunale di Bucarest. I leader del partito di destra Alleanza per l'Unione dei Rumeni (AUR), tra cui il presidente del partito George Simion, hanno mobilitato i sostenitori e hanno partecipato al raduno, sebbene il partito abbia affermato di non essere l'organizzatore formale. I manifestanti hanno cantato slogan, sventolato bandiere rumene e americane e hanno poi marciato verso la struttura di arresto centrale dove Georgescu è trattenuto. Il Ministero dell'Interno ha riferito che la manifestazione si è conclusa senza gravi incidenti per la sicurezza pubblica.",
+   "summary": "Il 14 novembre 2026, migliaia di manifestanti si sono radunati vicino al parco Izvor e al Palazzo del Parlamento a Bucarest per esprimere sostegno all'ex candidato alla presidenza detenuto Călin Georgescu. Sebbene il Comune di Bucarest non avesse autorizzato la protesta, adducendo motivi di sicurezza, i partecipanti sono arrivati da tutto il paese, sostenuti da membri e leader dell'Alleanza per l'Unione dei Rumeni (AUR). I manifestanti hanno cantato slogan chiedendo la liberazione di Georgescu, il ritorno del ballottaggio delle elezioni presidenziali e le dimissioni del sindaco di Bucarest Ciprian Ciucu. Alcuni partecipanti hanno poi marciato verso la struttura di arresto centrale. Le autorità hanno riferito che la manifestazione è rimasta prevalentemente pacifica e le restrizioni al traffico nell'area sono state rimosse in serata.",
    "demands": [
-    "Liberare Călin Georgescu",
-    "Dimissioni del sindaco di Bucarest Ciprian Ciucu",
-    "Proteggere i diritti costituzionali e la libertà di espressione"
+    "Rilasciare Călin Georgescu",
+    "Riportare il secondo turno delle elezioni",
+    "Difendere le libertà democratiche e i diritti costituzionali",
+    "Dimissioni del sindaco di Bucarest Ciprian Ciucu"
    ],
-   "response": "Il Ministro dell'Interno Marian Neacșu ha ringraziato i cittadini e i dipendenti del Ministero, affermando che la manifestazione si è conclusa senza incidenti che abbiano compromesso la sicurezza pubblica. Le forze della Gendarmeria hanno mantenuto una forte presenza e hanno fermato due persone durante il raduno secondo quanto riferito.",
+   "response": "Secondo i rapporti, la polizia ha limitato il traffico intorno al parco Izvor e i gendarmi hanno immobilizzato due persone per linguaggio aggressivo nei confronti delle forze dell'ordine. Un manifestante ha ricevuto cure mediche da un equipaggio SMURD. Successivamente, il ministro degli Affari interni ha elogiato la folla per una manifestazione pacifica.",
    "updates": [
-    "L'eurodeputato dell'AUR Gheorghe Piperea ha accusato il sindaco di Bucarest Ciprian Ciucu di limitare le proteste dopo il rigetto di una richiesta di autorizzazione iniziale.",
-    "Il leader dell'AUR George Simion ha annunciato piani per un raduno di massa il 14 novembre a Bucarest, dichiarando che si sarebbe svolto senza autorizzazione.",
-    "Il tribunale di Bucarest ha respinto un ricorso legale contro il rifiuto del comune di approvare la protesta.",
-    "Diverse migliaia di manifestanti si sono radunati nel parco Izvor vicino al Palazzo del Parlamento, con la partecipazione di figure dell'AUR tra cui George Simion.",
-    "Parte della folla ha marciato dal parco Izvor verso la struttura di arresto centrale dove è detenuto Călin Georgescu.",
-    "Il Ministero dell'Interno ha dichiarato che la protesta si è conclusa senza incidenti che compromettessero l'ordine pubblico."
+    "L'eurodeputato dell'AUR Gheorghe Piperea ha accusato il sindaco di Bucarest Ciprian Ciucu di limitare il diritto di protesta dopo il diniego di un permesso.",
+    "Il leader dell'AUR George Simion ha annunciato l'intenzione di tenere un raduno di massa il 14 novembre indipendentemente dall'autorizzazione comunale.",
+    "Migliaia di manifestanti si sono radunati nel parco Izvor vicino al Palazzo del Parlamento per la protesta non autorizzata.",
+    "I gendarmi hanno fermato due individui durante la manifestazione per linguaggio aggressivo.",
+    "Il ministro degli Affari interni Marian Neacșu ha dichiarato che la manifestazione si è conclusa senza grandi incidenti di sicurezza pubblica."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Le fonti differivano sulle dimensioni della folla, con stime che andavano da oltre 5.000 a oltre 10.000 partecipanti."
+   ],
    "numbers": {
-    "crowd": "Oltre 10.000 persone hanno partecipato secondo la BTA, mentre altre fonti hanno registrato diverse migliaia di presenti.",
-    "arrests": "Gli agenti della Gendarmeria hanno fermato due individui durante la manifestazione.",
+    "crowd": "Oltre 10.000 persone",
+    "arrests": "Due persone sono state immobilizzate dai gendarmi",
     "injuries": "un echipaj SMURD a acordat îngrijiri medicale unui participant"
    }
   },
   "pt": {
-   "title": "Apoiantes da AUR manifestam-se em Bucareste por Călin Georgescu",
+   "title": "Apoiantes do AUR manifestam-se em Bucareste por Călin Georgescu",
    "seoTitle": "Manifestação em Bucareste por Călin Georgescu",
    "tea": {
-    "why": "Os apoiantes concentraram-se para exigir a libertação do antigo candidato presidencial detido Călin Georgescu e para protestar contra as autoridades.",
-    "want": "Libertação de Călin Georgescu, defesa dos direitos constitucionais, liberdade de expressão e demissão do presidente da Câmara de Bucareste, Ciprian Ciucu.",
-    "changed": "14 de nov.: Vários milhares de manifestantes reuniram-se no Parque Izvor e depois marcharam em direção à instalação de detenção central, terminando sem incidentes graves."
+    "why": "Apoiantes reuniram-se para protestar contra a detenção do antigo candidato presidencial Călin Georgescu e para defender os direitos constitucionais.",
+    "want": "Os manifestantes exigiram a libertação de Călin Georgescu e a proteção das liberdades democráticas e dos direitos fundamentais.",
+    "changed": "14 nov.: O ministro da Administração Interna, Marian Neacșu, agradeceu aos cidadãos e à polícia por uma manifestação pacífica."
    },
-   "summary": "Milhares de pessoas reuniram-se em Bucareste, perto do Palácio do Parlamento e do Parque Izvor, para exigir a libertação do antigo candidato presidencial detido Călin Georgescu. A manifestação ocorreu apesar de a Câmara Municipal de Bucareste ter recusado aprovar o evento, uma decisão confirmada pelo Tribunal de Bucareste na sexta-feira. Líderes do partido de direita Aliança para a União dos Romenos (AUR), incluindo o presidente do partido George Simion, mobilizaram apoiantes e participaram na concentração, embora o partido tenha afirmado não ser o organizador formal. Os manifestantes entoaram palavras de ordem, agitaram bandeiras romenas e americanas e marcharam posteriormente em direção à instalação de detenção central onde Georgescu se encontra detido. O Ministério da Administração Interna informou que a manifestação terminou sem incidentes de maior para a segurança pública.",
+   "summary": "A 14 de novembro de 2026, milhares de manifestantes reuniram-se perto do parque Izvor e do Palácio do Parlamento em Bucareste para manifestar apoio ao antigo candidato presidencial detido Călin Georgescu. Embora a Câmara Municipal de Bucareste não tenha autorizado o protesto, invocando razões de segurança, os participantes chegaram de todo o país, apoiados por membros e líderes da Aliança para a União dos Romenos (AUR). Os manifestantes entoaram palavras de ordem a pedir a libertação de Georgescu, o regresso da segunda volta das eleições presidenciais e a demissão do presidente da Câmara de Bucarest, Ciprian Ciucu. Alguns participantes marcharam mais tarde em direção à instalação de detenção central. As autoridades relataram que a manifestação decorreu de forma maioritariamente pacífica, tendo as restrições de trânsito na área sido levantadas ao anoitecer.",
    "demands": [
     "Libertar Călin Georgescu",
-    "Demissão do presidente da Câmara de Bucareste, Ciprian Ciucu",
-    "Proteger os direitos constitucionais e a liberdade de expressão"
+    "Devolver a segunda volta das eleições",
+    "Defender as liberdades democráticas e os direitos constitucionais",
+    "Demissão do presidente da Câmara de Bucareste Ciprian Ciucu"
    ],
-   "response": "O ministro da Administração Interna, Marian Neacșu, agradeceu aos cidadãos e aos funcionários do Ministério, afirmando que a manifestação terminou sem incidentes que afetassem a segurança pública. As forças da Gendarmerie mantiveram uma forte presença e detiveram duas pessoas durante a concentração, segundo relatos.",
+   "response": "Segundo relatos, a polícia restringiu o tráfego em redor do parque Izvor e os gendarmes imobilizaram duas pessoas por linguagem agressiva para com as forças de ordem. Um manifestante recebeu assistência médica de uma equipa do SMURD. Mais tarde, o ministro da Administração Interna elogiou a multidão por uma manifestação pacífica.",
    "updates": [
-    "O eurodeputado da AUR Gheorghe Piperea acusou o presidente da Câmara de Bucareste, Ciprian Ciucu, de restringir os protestos após a rejeição de um pedido de autorização inicial.",
-    "O líder da AUR, George Simion, anunciou planos para uma concentração em massa a 14 de novembro em Bucareste, afirmando que a mesma avançaria sem autorização.",
-    "O Tribunal de Bucareste rejeitou um recurso legal contra a recusa da autarquia em aprovar o protesto.",
-    "Vários milhares de manifestantes reuniram-se no Parque Izvor, perto do Palácio do Parlamento, contando com a presença de figuras da AUR, incluindo George Simion.",
-    "Parte da multidão marchou do Parque Izvor para a instalação de detenção central onde Călin Georgescu está detido.",
-    "O Ministério da Administração Interna declarou que o protesto terminou sem incidentes que comprometessem a ordem pública."
+    "O eurodeputado do AUR Gheorghe Piperea acusou o presidente da Câmara de Bucareste Ciprian Ciucu de restringir o direito ao protesto após a negação de uma licença.",
+    "O líder do AUR George Simion anunciou planos para realizar um comício de massa a 14 de novembro independentemente da autorização municipal.",
+    "Milhares de manifestantes reuniram-se no parque Izvor perto do Palácio do Parlamento para o protesto não autorizado.",
+    "Os gendarmes detiveram dois indivíduos durante a manifestação por linguagem agressiva.",
+    "O ministro da Administração Interna Marian Neacșu afirmou que o protesto concluiu sem incidentes de maior segurança pública."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "As fontes diferiram quanto à dimensão da multidão, com estimativas que variam de mais de 5.000 a mais de 10.000 participantes."
+   ],
    "numbers": {
-    "crowd": "Mais de 10 000 pessoas participaram segundo a BTA, enquanto outras fontes apontaram vários milhares de participantes.",
-    "arrests": "Agentes da Gendarmerie detiveram dois indivíduos durante a manifestação.",
+    "crowd": "Mais de 10.000 pessoas",
+    "arrests": "Duas pessoas foram imobilizadas pelos gendarmes",
     "injuries": "un echipaj SMURD a acordat îngrijiri medicale unui participant"
    }
   },
   "nl": {
-   "title": "AUR-aanhangers demonstreren in Boekarest voor Călin Georgescu",
+   "title": "AUR-supporters demonstreren in Boekarest voor Călin Georgescu",
    "seoTitle": "Boekarest-protest voor Călin Georgescu",
    "tea": {
-    "why": "Aanhangers kwamen bijeen om de vrijlating te eisen van de vastgehouden voormalige kandidaat-president Călin Georgescu en om te protesteren tegen de autoriteiten.",
-    "want": "Vrijlating van Călin Georgescu, verdediging van grondwettelijke rechten, vrijheid van meningsuiting en het aftreden van de burgemeester van Boekarest, Ciprian Ciucu.",
-    "changed": "14 nov.: Enkele duizenden demonstranten verzamelden zich in het Izvor-park en marcheerden vervolgens naar de centrale detentiefaciliteit, waarbij de actie zonder grote incidenten eindigde."
+    "why": "Supporters kwamen bijeen om te protesteren tegen de detentie van voormalig presidenciael kandidaat Călin Georgescu en om grondwettelijke rechten te verdedigen.",
+    "want": "Demonstranten eisten de vrijlating van Călin Georgescu en de bescherming van democratische vrijheden en fundamentele rechten.",
+    "changed": "14 nov.: Minister van Binnenlandse Zaken Marian Neacșu bedankte burgers en politie voor een vreedzame demonstratie."
    },
-   "summary": "Duizenden mensen verzamelden zich in Boekarest nabij het Paleis van het Parlement en het Izvor-park om de vrijlating te eisen van de vastgehouden voormalige kandidaat-president Călin Georgescu. De demonstratie vond plaats ondanks het feit dat het stadsbestuur van Boekarest weigerde om goedkeuring te verlenen voor het evenement, een beslissing die vrijdag werd bevestigd door de rechtbank van Boekarest. Leiders van de rechtse partij Alliantie voor de Unie van Roemenen (AUR), onder wie partijvoorzitter George Simion, mobiliseerden aanhangers en waren aanwezig bij de bijeenkomst, hoewel de partij beweerde niet de formele organisator te zijn. Demonstranten riepen leuzen, zwaaiden met Roemeense en Amerikaanse vlaggen en marcheerden later naar de centrale detentiefaciliteit waar Georgescu wordt vastgehouden. Het ministerie van Binnenlandse Zaken meldde dat de demonstratie zonder noemenswaardige incidenten voor de openbare veiligheid is geëindigd.",
+   "summary": "Op 14 november 2026 verzamelden duizenden demonstranten zich nabij het Izvor-park en het Paleis van het Parlement in Boekarest om steun uit te spreken voor de vastgehouden voormalige presidentskandidaat Călin Georgescu. Hoewel het stadhuis van Boekarest het protest niet had goedgekeurd onder vermelding van veiligheidszorgen, arriveerden deelnemers uit het hele land, gesteund door leden en leiders van de Alliantie voor de Unie van Roemenen (AUR). Demonstranten riepen slogans op tot de vrijlating van Georgescu, de terugkeer van de tweede ronde van de presidentsverkiezingen en het aftreden van de burgemeester van Boekarest Ciprian Ciucu. Enkele deelnemers marcheerden later richting de centrale arrestatieinrichting. Autoriteiten meldden dat de demonstratie grotendeels vreedzaam bleef, en verkeersbeperkingen in het gebied werden tegen de avond opgeheven.",
    "demands": [
     "Laat Călin Georgescu vrij",
-    "Aftreden van de burgemeester van Boekarest, Ciprian Ciucu",
-    "Bescherm grondwettelijke rechten en de vrijheid van meningsuiting"
+    "Breng de tweede ronde van de verkiezingen terug",
+    "Verdedig democratische vrijheden en grondwettelijke rechten",
+    "Ontslag van de burgemeester van Boekarest Ciprian Ciucu"
    ],
-   "response": "Minister van Binnenlandse Zaken Marian Neacșu bedankte burgers en medewerkers van het ministerie en verklaarde dat de demonstratie was geëindigd zonder incidenten die de openbare veiligheid aantastten. Gendarmerietroepen waren massaal aanwezig en hielden tijdens de bijeenkomst volgens berichten twee mensen aan.",
+   "response": "Volgens berichten beperkte de politie het verkeer rond het Izvor-park en immobiliseerden gendarmes twee personen vanwege agressieve taal jegens de wetshandhaving. Een demonstrant kreeg medische zorg van een SMURD-team. Later prees de minister van Binnenlandse Zaken de menigte voor een vreedzame demonstratie.",
    "updates": [
-    "AUR-Europarlementariër Gheorghe Piperea beschuldigde de burgemeester van Boekarest, Ciprian Ciucu, ervan protesten aan banden te leggen nadat een aanvankelijke vergunningsaanvraag was afgewezen.",
-    "AUR-leider George Simion kondigde plannen aan voor een massabijeenkomst op 14 november in Boekarest en verklaarde dat deze ongeautoriseerd zou doorgaan.",
-    "De rechtbank van Boekarest verwierp een juridische uitdaging tegen de weigering van de gemeente om het protest goed te keuren.",
-    "Enkele duizenden demonstranten verzamelden zich in het Izvor-park nabij het Paleis van het Parlement, waarbij AUR-kopstukken onder wie George Simion aanwezig waren.",
-    "Een deel van de menigte marcheerde van het Izvor-park naar de centrale detentiefaciliteit waar Călin Georgescu wordt vastgehouden.",
-    "Het ministerie van Binnenlandse Zaken verklaarde dat het protest eindigde zonder incidenten die de openbare orde schaadden."
+    "AUR-Europarlementariër Gheorghe Piperea beschuldigde de burgemeester van Boekarest Ciprian Ciucu ervan het demonstratierecht te beperken nadat een vergunning werd geweigerd.",
+    "AUR-leider George Simion kondigde plannen aan om op 14 november een massabijeenkomst te houden ongeacht gemeentelijke autorisatie.",
+    "Duizenden demonstranten verzamelden zich in het Izvor-park nabij het Paleis van het Parlement voor het niet-geautoriseerde protest.",
+    "Gendarmes hielden twee individuen aan tijdens de demonstratie vanwege agressieve taal.",
+    "Minister van Binnenlandse Zaken Marian Neacșu verklaarde dat het protest eindigde zonder grote openbare veiligheidsincidenten."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Bronnen verschilden over de schatting van de menigte, met schattingen variërend van meer dan 5.000 tot meer dan 10.000 deelnemers."
+   ],
    "numbers": {
-    "crowd": "Ruim 10.000 mensen namen deel volgens BTA, terwijl andere bronnen melding maakten van enkele duizenden aanwezigen.",
-    "arrests": "Gendarmerie-agenten hielden tijdens de demonstratie twee personen aan.",
+    "crowd": "Meer dan 10.000 mensen",
+    "arrests": "Twee personen werden door gendarmes geïmmobiliseerd",
     "injuries": "un echipaj SMURD a acordat îngrijiri medicale unui participant"
    }
   }
