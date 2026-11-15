@@ -13,7 +13,7 @@
   "citySlug": "edinburgh",
   "regionSlug": "scotland"
  },
- "scope": "nationwide",
+ "scope": "local",
  "causes": [
   "environment",
   "climate",
@@ -24,18 +24,16 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "tone-words"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are opposed to plans for large-scale AI data centres in Scotland, citing concerns over high energy use, water strain, and climate impacts.",
-  "want": "Demonstrators are demanding a halt to new large-scale data centre developments, proper public consultation, and policies led by local communities rather than…",
-  "changed": "Nov 14: Thousands of protesters marched down Edinburgh's Royal Mile to the Scottish Parliament to oppose proposed AI data centres."
+  "why": "Protesters opposed the development of large-scale AI data centres across Scotland, warning of threats to energy, water, climate, and bills.",
+  "want": "Demonstrators demanded that the Scottish Government halt proposed AI data centres and hold a proper public consultation.",
+  "changed": "Nov 14: Thousands of protesters marched down the Royal Mile to the Scottish Parliament in Edinburgh to rally against data centre projects."
  },
- "summary": "Thousands of campaigners from across Scotland gathered in Edinburgh on November 14 to protest against the development of proposed artificial intelligence data centres. Organised by groups including Friends of the Earth Scotland, Action to Protect Rural Scotland, and Stop Climate Chaos Scotland alongside over 80 other organisations, the demonstration featured a mass march down the Royal Mile leading to a rally outside the Scottish Parliament at Holyrood. Protesters expressed concerns over the massive energy consumption, water strain, and environmental impact of more than 20 planned data centre projects, demanding a halt to developments and proper public consultation. In response, the Scottish Government stated it is developing strategic planning guidance and noted that new regulations require planning authorities to notify ministers and submit environmental impact assessments for large data centre projects exceeding 50 megawatts.",
+ "summary": "On Saturday, November 14, 2026, thousands of demonstrators marched through Edinburgh to the Scottish Parliament to protest against proposed hyperscale AI data centres across Scotland. Organised by groups including Friends of the Earth Scotland, Action to Protect Rural Scotland, and Stop Climate Chaos Scotland, along with dozens of other community campaigns and trade unions, the action called for a halt to developments and a proper public consultation. Campaigners warned that dozens of proposed facilities would severely strain energy grids, water supplies, and local environments while benefiting big tech corporations. The Scottish Government stated it planned to issue new planning guidance addressing community concerns by the end of the year, while officials defended the projects as potential economic opportunities.",
  "organizers": [
   "Friends of the Earth Scotland",
   "Action to Protect Rural Scotland",
@@ -46,16 +44,17 @@
  ],
  "demands": [
   "Halt proposed AI data centre projects",
-  "Conduct proper public consultations before developments proceed",
-  "Ensure local communities have a voice in resource decisions",
-  "Protect local environments, climate, and public utility services"
+  "Conduct a proper public consultation before approving major developments",
+  "Prioritise public interest and resources over big tech profits",
+  "Protect local environments, water supplies, and energy grids from strain"
  ],
- "response": "The Scottish Government stated it is developing a strategic approach to maximize public benefit from data centres and will publish new planning guidance before the end of the year. Officials also noted that new directions require planning authorities to notify ministers and submit environmental impact assessments for facilities…",
+ "response": "The Scottish Government pledged to issue new planning guidance addressing community concerns by the end of the year, while SNP Innovation Minister Alyn Smith claimed the developments are the \"whisky bonds of the AI sector.\"",
  "numbers": {
   "crowd": {
    "value": 6000,
-   "text": "Around 6000 came in total",
+   "text": "estimated 6,000 people",
    "sources": [
+    4,
     5,
     6
    ]
@@ -63,8 +62,22 @@
  },
  "updates": [
   {
+   "at": "2026-10-16",
+   "text": "Friends of the Earth Scotland announced a national march against hyperscale data centres in Edinburgh for November 14.",
+   "sources": [
+    1
+   ]
+  },
+  {
+   "at": "2026-11-11",
+   "text": "Campaign groups from East Lothian and other regions prepared to join the mass protest on the Royal Mile.",
+   "sources": [
+    2
+   ]
+  },
+  {
    "at": "2026-11-14",
-   "text": "Thousands of protesters marched down Edinburgh's Royal Mile to the Scottish Parliament to oppose proposed AI data centres.",
+   "text": "Thousands of protesters marched down the Royal Mile to the Scottish Parliament, demanding a halt to AI data centre plans.",
    "sources": [
     4,
     5,
@@ -96,240 +109,255 @@
   },
   {
    "n": 4,
-   "url": "https://www.lbc.co.uk/article/thousands-march-through-edinburgh-in-protest-against-ai-centres-5HjdmN5_2/",
-   "publisher": "lbc.co.uk",
-   "title": "Thousands march through Edinburgh in protest against AI centres | LBC",
-   "publishedAt": "2026-11-14T18:14:58.523Z"
-  },
-  {
-   "n": 5,
    "url": "https://www.thenational.scot/news/26729906.inside-ai-protest-brought-edinburgh-standstill/",
    "publisher": "thenational.scot",
    "title": "Inside the 6000-strong AI data centre protest that brought Edinburgh to a standstill",
    "publishedAt": "2026-11-14T19:11:48.000Z"
   },
   {
-   "n": 6,
+   "n": 5,
    "url": "https://metro.co.uk/2026/11/14/massive-street-protest-monstrosity-ai-data-centres-29793343/",
    "publisher": "metro.co.uk",
    "title": "Massive street protest over 'monstrosity' AI data centres",
    "publishedAt": "2026-11-14T20:57:33.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://extra.ie/2026/11/15/news/thousands-march-protest-ai-data-centres",
+   "publisher": "extra.ie",
+   "title": "Thousands march in protest of 'monstrosity' AI data centres",
+   "publishedAt": "2026-11-15T08:34:43.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.9,
  "publishers": 6,
- "reports24h": 11,
- "reportsPrev24h": 0,
- "reports48h": 11,
+ "reports24h": 10,
+ "reportsPrev24h": 2,
+ "reports48h": 12,
  "firstSeenAt": "2026-10-16T11:31:43.686Z",
- "lastReportAt": "2026-11-14T20:57:33.000Z",
- "lastCheckedAt": "2026-11-15T04:54:38.111Z",
- "updatedAt": "2026-11-15T00:53:45.189Z",
+ "lastReportAt": "2026-11-15T08:34:43.000Z",
+ "lastCheckedAt": "2026-11-15T08:55:54.347Z",
+ "updatedAt": "2026-11-15T08:55:15.114Z",
  "responseSources": [
   1,
-  4,
-  6
+  5
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-15T00:53:45.189Z",
- "summaryOf": "51bc9ed6f19b",
+ "summarizedAt": "2026-11-15T08:55:15.114Z",
+ "summaryOf": "4a09d3edefa6",
  "publishedAt": "2026-11-07T06:12:17.052Z",
  "i18n": {
-  "of": "3d380c58ebd02739",
-  "at": "2026-11-15T00:55:46.094Z",
+  "of": "5381ac3001f81b71",
+  "at": "2026-11-15T08:56:49.989Z",
   "tries": 1,
   "hi": {
    "title": "प्रस्तावित एआई डेटा केंद्रों के खिलाफ एडिनबर्ग में अभियान कार्यकर्ताओं ने मार्च निकाला",
-   "seoTitle": "प्रस्तावित एआई डेटा केंद्रों के खिलाफ एडिनबर्ग में मार्च",
+   "seoTitle": "एआई डेटा केंद्रों के खिलाफ एडिनबर्ग में मार्च",
    "tea": {
-    "why": "प्रदर्शक स्कॉटलैंड में बड़े पैमाने पर एआई डेटा केंद्रों की योजनाओं का विरोध कर रहे हैं, तथा उच्च ऊर्जा उपयोग, जल तनाव और जलवायु प्रभावों को लेकर चिंता जता रहे हैं।",
-    "want": "प्रदर्शनकारी नए बड़े पैमाने पर डेटा केंद्र विकास को रोकने, उचित सार्वजनिक परामर्श, तथा स्थानीय समुदायों के नेतृत्व वाली नीतियों की मांग कर रहे हैं...",
-    "changed": "14 नवंबर: प्रस्तावित एआई डेटा केंद्रों का विरोध करने के लिए हजारों प्रदर्शनकारियों ने एडिनबर्ग के रॉयल माइल से स्कॉटिश संसद तक मार्च किया।"
+    "why": "प्रदर्शनकारियों ने पूरे स्कॉटलैंड में बड़े पैमाने पर एआई डेटा केंद्रों के विकास का विरोध किया और ऊर्जा, पानी, जलवायु तथा बिलों के लिए खतरों से आगाह किया।",
+    "want": "प्रदर्शनकारियों ने मांग की कि स्कॉटिश सरकार प्रस्तावित एआई डेटा केंद्रों को रोके और उचित जन परामर्श आयोजित करे।",
+    "changed": "14 नवंबर: डेटा सेंटर परियोजनाओं के खिलाफ रैली निकालने के लिए हजारों प्रदर्शनकारियों ने रॉयल माइल से होते हुए एडिनबर्ग में स्कॉटिश संसद तक मार्च किया।"
    },
-   "summary": "14 नवंबर को पूरे स्कॉटलैंड से हजारों अभियान कार्यकर्ता प्रस्तावित कृत्रिम बुद्धिमत्ता डेटा केंद्रों के विकास के विरोध में एडिनबर्ग में एकत्र हुए। फ्रेंड्स ऑफ द अर्थ स्कॉटलैंड, एक्शन टू प्रोटेक्ट रूरल स्कॉटलैंड और स्टॉप क्लाइमेट चाओस स्कॉटलैंड सहित 80 से अधिक संगठनों द्वारा आयोजित इस प्रदर्शन में रॉयल माइल पर एक विशाल मार्च निकाला गया जो हॉलीलूड में स्कॉटिश संसद के बाहर एक रैली पर समाप्त हुआ। प्रदर्शनकारियों ने 20 से अधिक नियोजित डेटा केंद्र परियोजनाओं की भारी ऊर्जा खपत, जल तनाव और पर्यावरणीय प्रभाव को लेकर चिंता व्यक्त की, तथा विकास को रोकने और उचित सार्वजनिक परामर्श की मांग की। इसके जवाब में, स्कॉटिश सरकार ने कहा कि वह रणनीतिक योजना मार्गदर्शन विकसित कर रही है और नोट किया कि नए नियमों के तहत योजना प्राधिकरणों को मंत्रियों को सूचित करना होगा और 50 मेगावाट से अधिक की बड़ी डेटा केंद्र परियोजनाओं के लिए पर्यावरण प्रभाव आकलन जमा करना होगा।",
+   "summary": "शनिवार, 14 नवंबर 2026 को, पूरे स्कॉटलैंड में प्रस्तावित हाइपरस्केल एआई डेटा केंद्रों का विरोध करने के लिए हजारों प्रदर्शनकारियों ने एडिनबर्ग में स्कॉटिश संसद तक मार्च किया। फ्रेंड्स ऑफ द अर्थ स्कॉटलैंड, एक्शन टू प्रोटेक्ट रूरल स्कॉटलैंड और स्टॉप क्लाइमेट चाओस स्कॉटलैंड सहित कई समूहों और दर्जनों अन्य सामुदायिक अभियानों तथा ट्रेड यूनियनों द्वारा आयोजित इस कार्रवाई में विकास कार्यों को रोकने और उचित जन परामर्श की मांग की गई। अभियानकर्ताओं ने चेतावनी दी कि प्रस्तावित दर्जनों सुविधाएं बड़ी तकनीकी कंपनियों को लाभ पहुंचाते हुए ऊर्जा ग्रिड, पानी की आपूर्ति और स्थानीय पर्यावरण पर भारी दबाव डालेंगी। स्कॉटिश सरकार ने कहा कि उसकी योजना वर्ष के अंत तक सामुदायिक चिंताओं का समाधान करने वाले नए नियोजन दिशा-निर्देश जारी करने की है, जबकि अधिकारियों ने इन परियोजनाओं का संभावित आर्थिक अवसरों के रूप में बचाव किया।",
    "demands": [
-    "प्रस्तावित एआई डेटा केंद्र परियोजनाओं पर रोक लगाएं",
-    "विकास आगे बढ़ने से पहले उचित सार्वजनिक परामर्श आयोजित करें",
-    "सुनिश्चित करें कि संसाधन निर्णयों में स्थानीय समुदायों की आवाज हो",
-    "स्थानीय पर्यावरण, जलवायु और सार्वजनिक उपयोगिता सेवाओं की रक्षा करें"
+    "प्रस्तावित एआई डेटा सेंटर परियोजनाओं को रोकें",
+    "बड़े विकास कार्यों को मंजूरी देने से पहले उचित जन परामर्श आयोजित करें",
+    "बड़ी तकनीक के मुनाफे पर जनहित और संसाधनों को प्राथमिकता दें",
+    "स्थानीय पर्यावरण, पानी की आपूर्ति और ऊर्जा ग्रिड को दबाव से बचाएं"
    ],
-   "response": "स्कॉटिश सरकार ने कहा कि वह डेटा केंद्रों से सार्वजनिक लाभ को अधिकतम करने के लिए एक रणनीतिक दृष्टिकोण विकसित कर रही है और वर्ष के अंत से पहले नया योजना मार्गदर्शन प्रकाशित करेगी। अधिकारियों ने यह भी उल्लेख किया कि नए निर्देशों के तहत योजना प्राधिकरणों को मंत्रियों को सूचित करना होगा और सुविधाओं के लिए पर्यावरण प्रभाव आकलन जमा करना होगा...",
+   "response": "स्कॉटिश सरकार ने वर्ष के अंत तक सामुदायिक चिंताओं का समाधान करने वाले नए नियोजन दिशा-निर्देश जारी करने का संकल्प लिया, जबकि एसएनपी नवाचार मंत्री एलिन स्मिथ ने दावा किया कि ये विकास \"एआई क्षेत्र के व्हिस्की बॉन्ड\" हैं।",
    "updates": [
-    "प्रस्तावित एआई डेटा केंद्रों का विरोध करने के लिए हजारों प्रदर्शनकारियों ने एडिनबर्ग के रॉयल माइल से स्कॉटिश संसद तक मार्च किया।"
+    "फ्रेंड्स ऑफ द अर्थ स्कॉटलैंड ने 14 नवंबर को एडिनबर्ग में हाइपरस्केल डेटा केंद्रों के खिलाफ एक राष्ट्रीय मार्च की घोषणा की।",
+    "पूर्व लोथियन और अन्य क्षेत्रों के अभियान समूहों ने रॉयल माइल पर बड़े पैमाने पर विरोध प्रदर्शन में शामिल होने की तैयारी की।",
+    "एआई डेटा सेंटर योजनाओं को रोकने की मांग करते हुए हजारों प्रदर्शनकारियों ने रॉयल माइल से स्कॉटिश संसद तक मार्च किया।"
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "कुल मिलाकर लगभग 6000 लोग आए"
+    "crowd": "अनुमानित 6,000 लोग"
    }
   },
   "mr": {
-   "title": "सुचविलेल्या एआय डेटा केंद्रांच्या विरोधात एडिनबर्गमध्ये कार्यकर्त्यांचा मोर्चा",
-   "seoTitle": "सुचविलेल्या एआय डेटा केंद्रांविरोधात एडिनबर्गमध्ये मोर्चा",
+   "title": "प्रस्तावित एआय डेटा केंद्रांच्या विरोधात एडिनबर्गमध्ये कार्यकर्त्यांचा मोर्चा",
+   "seoTitle": "प्रस्तावित एआय डेटा केंद्रांच्या विरोधात एडिनबर्गमध्ये मोर्चा",
    "tea": {
-    "why": "स्कॉटलंडमधील मोठ्या प्रमाणावरील एआय डेटा केंद्रांच्या योजनांना निदर्शक विरोध करत असून, उच्च ऊर्जा वापर, पाण्याचा ताण आणि हवामानावर होणारे परिणाम याविषयी चिंता व्यक्त करत आहेत.",
-    "want": "मोर्चेकरी नवीन मोठ्या प्रमाणावरील डेटा सेंटर विकासाला स्थगिती, योग्य सार्वजनिक सल्लामसलत आणि स्थानिक समुदायांच्या नेतृत्वाखालील धोरणांची मागणी करत आहेत...",
-    "changed": "14 नोव्हेंबर: सुचविलेल्या एआय डेटा केंद्रांना विरोध करण्यासाठी हजारो निदर्शकांनी एडिनबर्गच्या रॉयल माईलवरून स्कॉटिश संसदेपर्यंत मोर्चा काढला."
+    "why": "स्कॉटलंडमधील मोठ्या प्रमाणातील एआय डेटा केंद्रांच्या विकासाला निदर्शकांनी विरोध केला आणि ऊर्जा, पाणी, हवामान आणि बिलांना धोके निर्माण झाल्याचा इशारा दिला.",
+    "want": "स्कॉटिश सरकारने प्रस्तावित एआय डेटा केंद्रांना स्थगिती द्यावी आणि योग्य सार्वजनिक सल्लामसलत घ्यावी, अशी मागणी निदर्शकांनी केली.",
+    "changed": "१४ नोव्हेंबर: डेटा सेंटर प्रकल्पांच्या निषेधार्थ रॅली काढण्यासाठी हजारो निदर्शकांनी रॉयल माईलवरून एडिनबर्गमधील स्कॉटिश संसदेपर्यंत मोर्चा काढला."
    },
-   "summary": "सुचविलेल्या कृत्रिम बुद्धिमत्ता डेटा केंद्रांच्या विकासाचा विरोध करण्यासाठी 14 नोव्हेंबर रोजी संपूर्ण स्कॉटलंडमधून हजारो कार्यकर्ते एडिनबर्गमध्ये जमले. फ्रेंड्स ऑफ द अर्थ स्कॉटलंड, एक्शन टू प्रोटेक्ट रूरल स्कॉटलैंड आणि स्टॉप क्लाइमेट चाओस स्कॉटलैंड यांच्यासह 80 हून अधिक संस्थांनी आयोजित केलेल्या या निदर्शनामध्ये रॉयल माईलवर मोठा मोर्चा काढण्यात आला जो हॉलीलूड येथील स्कॉटिश संसदेबाहेर एका सभेत संपला. 20 हून अधिक नियोजित डेटा सेंटर प्रकल्पांचा प्रचंड ऊर्जा वापर, पाण्याचा ताण आणि पर्यावरणीय परिणाम याबद्दल निदर्शकांनी चिंता व्यक्त केली, तसेच विकासाला स्थगिती देण्याची आणि योग्य सार्वजनिक सल्लामसलत करण्याची मागणी केली. याला उत्तर देताना, स्कॉटिश सरकारने म्हटले की ते धोरणात्मक नियोजन मार्गदर्शन विकसित करत आहे आणि नवीन नियमांनुसार नियोजन प्राधिकरणांना मंत्र्यांना सूचित करणे आणि 50 मेगावाट पेक्षा जास्त क्षमतेच्या मोठ्या डेटा सेंटर प्रकल्पांसाठी पर्यावरण प्रभाव मूल्यांकन सादर करणे बंधनकारक आहे.",
+   "summary": "शनिवार, १४ नोव्हेंबर २०२६ रोजी, स्कॉटलंडमधील प्रस्तावित हायपरस्केल एआय डेटा केंद्रांच्या विरोधात निषेध नोंदवण्यासाठी हजारो निदर्शकांनी एडिनबर्गमध्ये स्कॉटिश संसदेपर्यंत मोर्चा काढला. फ्रेंड्स ऑफ द अर्थ स्कॉटलैंड, एक्शन टू प्रोटेक्ट रूरल स्कॉटलैंड आणि स्टॉप क्लाइमेट चाओस स्कॉटलैंड यांसारख्या संघटना तसेच डझनभर इतर समुदाय मोहिमा आणि कामगार संघटनांनी आयोजित केलेल्या या कृतीत विकासकामांना स्थगिती देण्याची आणि योग्य सार्वजनिक सल्लामसलत घेण्याची मागणी करण्यात आली. मोहीमकर्त्यांनी असा इशारा दिला की प्रस्तावित डझनभर सुविधा मोठ्या तंत्रज्ञान कंपन्यांना फायदा पोहोचवताना ऊर्जा ग्रिड, पाणीपुरवठा आणि स्थानिक पर्यावरणावर कमालीचा ताण आणतील. स्कॉटिश सरकारने वर्षाच्या अखेरीस सामुदायिक चिंता दूर करणारी नवीन नियोजन मार्गदर्शक तत्त्वे जारी करण्याची योजना असल्याचे सांगितले, तर अधिकाऱ्यांनी या प्रकल्पांचे संभाव्य आर्थिक संधी म्हणून समर्थन केले.",
    "demands": [
-    "सुचविलेल्या एआय डेटा सेंटर प्रकल्पांना स्थगिती द्या",
-    "विकास पुढे जाण्यापूर्वी योग्य सार्वजनिक सल्लामसलत घ्या",
-    "संसाधन निर्णयांमध्ये स्थानिक समुदायांना आवाज असल्याची खात्री करा",
-    "स्थानिक पर्यावरण, हवामान आणि सार्वजनिक उपयुक्तता सेवांचे संरक्षण करा"
+    "प्रस्तावित एआय डेटा सेंटर प्रकल्पांना स्थगिती द्या",
+    "मोठे विकास प्रकल्प मंजूर करण्यापूर्वी योग्य सार्वजनिक सल्लामसलत घ्या",
+    "मोठ्या तंत्रज्ञानाच्या नफ्यापेक्षा सार्वजनिक हित आणि संसाधनांना प्राधान्य द्या",
+    "स्थानिक पर्यावरण, पाणीपुरवठा आणि ऊर्जा ग्रिडला ताणापासून वाचवा"
    ],
-   "response": "स्कॉटिश सरकारने म्हटले की ते डेटा केंद्रांमधून सार्वजनिक फायदा जास्तीत जास्त करण्यासाठी एक धोरणात्मक दृष्टिकोन विकसित करत आहे आणि वर्षाच्या अखेरीस नवीन नियोजन मार्गदर्शन प्रकाशित करेल. अधिकाऱ्यांनी असेही नमूद केले की नवीन निर्देशांनुसार नियोजन प्राधिकरणांना मंत्र्यांना सूचित करणे आणि सुविधांसाठी पर्यावरण प्रभाव मूल्यांकन सादर करणे आवश्यक आहे...",
+   "response": "स्कॉटिश सरकारने वर्षाच्या अखेरीस सामुदायिक चिंता दूर करणारी नवीन नियोजन मार्गदर्शक तत्त्वे जारी करण्याचे आश्वासन दिले, तर एसएनपी इनोव्हेशन मिनिस्टर एलिन स्मिथ यांनी दावा केला की हे विकास प्रकल्प \"एआय क्षेत्राचे व्हिस्की बाँड्स\" आहेत.",
    "updates": [
-    "सुचविलेल्या एआय डेटा केंद्रांना विरोध करण्यासाठी हजारो निदर्शकांनी एडिनबर्गच्या रॉयल माईलवरून स्कॉटिश संसदेपर्यंत मोर्चा काढला."
+    "फ्रेंड्स ऑफ द अर्थ स्कॉटलैंडने १४ नोव्हेंबर रोजी एडिनबर्गमध्ये हायपरस्केल डेटा केंद्रांच्या विरोधात राष्ट्रीय मोर्ची घोषणा केली.",
+    "ईस्ट लोथियन आणि इतर भागांतील मोहीम गटांनी रॉयल माईलवरील विशाल निषेध आंदोलनात सहभागी होण्याची तयारी केली.",
+    "एआय डेटा सेंटर योजनांना स्थगिती देण्याची मागणी करत हजारो निदर्शकांनी रॉयल माईलवरून स्कॉटिश संसदेपर्यंत मोर्चा काढला."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "एकूण सुमारे 6000 लोक आले"
+    "crowd": "अंदाजे ६,००० लोक"
    }
   },
   "es": {
    "title": "Manifestantes marchan en Edimburgo contra los centros de datos de IA propuestos",
    "seoTitle": "Marcha en Edimburgo contra centros de datos de IA",
    "tea": {
-    "why": "Los manifestantes se oponen a los planes para centros de datos de inteligencia artificial a gran escala en Escocia, citando preocupaciones sobre el alto consumo de energía, la presión sobre el agua y los impactos climáticos.",
-    "want": "Los manifestantes exigen un alto a los nuevos desarrollos de centros de datos a gran escala, una consulta pública adecuada y políticas lideradas por las comunidades locales en lugar de...",
-    "changed": "14 de noviembre: Miles de manifestantes marcharon por la Royal Mile de Edimburgo hasta el Parlamento escocés para oponerse a los centros de datos de IA propuestos."
+    "why": "Los manifestantes se opusieron al desarrollo de centros de datos de IA a gran escala en todo Escocia, advirtiendo sobre amenazas para la energía, el agua, el clima y las facturas.",
+    "want": "Los manifestantes exigieron que el Gobierno escocés detenga los centros de datos de IA propuestos y celebre una consulta pública adecuada.",
+    "changed": "14 de noviembre: Miles de manifestantes marcharon por la Royal Mile hasta el Parlamento escocés en Edimburgo para protestar contra los proyectos de centros de datos."
    },
-   "summary": "Miles de manifestantes de toda Escocia se reunieron en Edimburgo el 14 de noviembre para protestar contra el desarrollo de los centros de datos de inteligencia artificial propuestos. Organizada por grupos como Friends of the Earth Scotland, Action to Protect Rural Scotland y Stop Climate Chaos Scotland junto con más de 80 organizaciones más, la manifestación incluyó una marcha masiva por la Royal Mile que condujo a un mitin frente al Parlamento escocés en Holyrood. Los manifestantes expresaron su preocupación por el consumo masivo de energía, la presión sobre el agua y el impacto ambiental de más de 20 proyectos de centros de datos planificados, exigiendo un alto a los desarrollos y una consulta pública adecuada. En respuesta, el Gobierno escocés afirmó que está elaborando una directriz de planificación estratégica y señaló que las nuevas normativas exigen que las autoridades de planificación notifiquen a los ministros y presenten evaluaciones de impacto ambiental para los grandes proyectos de centros de datos que superen los 50 megavatios.",
+   "summary": "El sábado 14 de noviembre de 2026, miles de manifestantes marcharon por Edimburgo hasta el Parlamento escocés para protestar contra los centros de datos de IA a gran escala propuestos en todo Escocia. Organizada por grupos como Friends of the Earth Scotland, Action to Protect Rural Scotland y Stop Climate Chaos Scotland, junto con decenas de otras campañas comunitarias y sindicatos, la acción pidió la paralización de los desarrollos y una consulta pública adecuada. Los activistas advirtieron que decenas de instalaciones propuestas someterán a una fuerte tensión a las redes energéticas, los suministros de agua y los entornos locales mientras benefician a las grandes tecnológicas. El Gobierno escocés declaró que planeaba emitir nuevas directrices de planificación que aborden las preocupaciones de la comunidad para fin de año, mientras que los funcionarios defendieron los proyectos como oportunidades económicas potenciales.",
    "demands": [
-    "Detener los proyectos propuestos de centros de datos de IA",
-    "Realizar consultas públicas adecuadas antes de que los desarrollos avancen",
-    "Garantizar que las comunidades locales tengan voz en las decisiones sobre recursos",
-    "Proteger los entornos locales, el clima y los servicios de servicios públicos"
+    "Detener los proyectos de centros de datos de IA propuestos",
+    "Llevar a cabo una consulta pública adecuada antes de aprobar desarrollos importantes",
+    "Priorizar el interés público y los recursos sobre las ganancias de las grandes tecnológicas",
+    "Proteger los entornos locales, los suministros de agua y las redes energéticas de la tensión"
    ],
-   "response": "El Gobierno escocés afirmó que está desarrollando un enfoque estratégico para maximizar el beneficio público de los centros de datos y publicará nuevas directrices de planificación antes de fin de año. Los funcionarios también señalaron que las nuevas directrices exigen que las autoridades de planificación notifiquen a los ministros y presenten evaluaciones de impacto ambiental para las instalaciones...",
+   "response": "El Gobierno escocés se comprometió a emitir nuevas directrices de planificación que aborden las preocupaciones de la comunidad para fin de año, mientras que el ministro de Innovación del SNP, Alyn Smith, afirmó que los desarrollos son los \"bonos de whisky del sector de la IA\".",
    "updates": [
-    "Miles de manifestantes marcharon por la Royal Mile de Edimburgo hasta el Parlamento escocés para oponerse a los centros de datos de IA propuestos."
+    "Friends of the Earth Scotland anunció una marcha nacional contra los centros de datos a gran escala en Edimburgo para el 14 de noviembre.",
+    "Grupos de campaña de East Lothian y otras regiones se prepararon para unirse a la protesta masiva en la Royal Mile.",
+    "Miles de manifestantes marcharon por la Royal Mile hasta el Parlamento escocés, exigiendo la paralización de los planes de centros de datos de IA."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Alrededor de 6000 personas acudieron en total"
+    "crowd": "estimadas 6.000 personas"
    }
   },
   "fr": {
    "title": "Des militants manifestent à Édimbourg contre les projets de centres de données d'IA",
-   "seoTitle": "Marche à Édimbourg contre des centres de données d'IA",
+   "seoTitle": "Manifestation à Édimbourg contre les centres de données d'IA",
    "tea": {
-    "why": "Les manifestants s'opposent aux projets de grands centres de données d'intelligence artificielle en Écosse, invoquant des inquiétudes concernant la forte consommation d'énergie, la pression sur l'eau et les impacts climatiques.",
-    "want": "Les manifestants exigent un arrêt des nouveaux projets de grands centres de données, une véritable consultation publique et des politiques menées par les communautés locales plutôt que...",
-    "changed": "14 nov. : Des milliers de manifestants ont défilé le long du Royal Mile d'Édimbourg jusqu'au Parlement écossais pour s'opposer aux projets de centres de données d'IA."
+    "why": "Les manifestants se sont opposés au développement de centres de données d'IA à grande échelle à travers l'Écosse, mettant en garde contre des menaces pesant sur l'énergie, l'eau, le climat et les factures.",
+    "want": "Les manifestants ont exigé que le gouvernement écossais suspende les projets de centres de données d'IA et mène une véritable consultation publique.",
+    "changed": "14 nov. : Des milliers de manifestants ont défilé le long du Royal Mile jusqu'au Parlement écossais à Édimbourg pour protester contre les projets de centres de données."
    },
-   "summary": "Des milliers de militants venus de toute l'Écosse se sont rassemblés à Édimbourg le 14 novembre pour protester contre le développement de projets de centres de données d'intelligence artificielle. Organisée par des groupes tels que Friends of the Earth Scotland, Action to Protect Rural Scotland et Stop Climate Chaos Scotland ainsi que plus de 80 autres organisations, la manifestation a pris la forme d'une grande marche sur le Royal Mile menant à un rassemblement devant le Parlement écossais à Holyrood. Les manifestants ont exprimé leurs préoccupations face à la consommation massive d'énergie, à la pression sur l'eau et à l'impact environnemental de plus de 20 projets de centres de données prévus, exigeant l'arrêt des chantiers et une consultation publique adéquate. En réponse, le gouvernement écossais a déclaré qu'il éelaborait des orientations de planification stratégique et a noté que de nouvelles réglementations obligent les autorités d'urbanisme à informer les ministres et à soumettre des études d'impact environnemental pour les grands projets de centres de données dépassant 50 mégawatts.",
+   "summary": "Le samedi 14 novembre 2026, des milliers de manifestants ont défilé à Édimbourg jusqu'au Parlement écossais pour protester contre les projets de centres de données d'IA hyperscale à travers l'Écosse. Organisée par des groupes tels que Friends of the Earth Scotland, Action to Protect Rural Scotland et Stop Climate Chaos Scotland, ainsi que par des dizaines d'autres campagnes communautaires et syndicats, l'action a réclamé l'arrêt des projets et une consultation publique adéquate. Les militants ont averti que des dizaines d'installations proposées soumettraient à rude épreuve les réseaux énergétiques, les approvisionnements en eau et les environnements locaux tout en profitant aux grandes entreprises technologiques. Le gouvernement écossais a déclaré qu'il prévoyait de publier de nouvelles directives d'aménagement répondant aux préoccupations des communautés d'ici la fin de l'année, tandis que des responsables ont défendu les projets comme des opportunités économiques potentielles.",
    "demands": [
-    "Stopper les projets proposés de centres de données d'IA",
-    "Mener de véritables consultations publiques avant que les projets n'avancent",
-    "Garantir aux communautés locales un droit de regard sur les décisions relatives aux ressources",
-    "Protéger les environnements locaux, le climat et les services publics"
+    "Suspendre les projets de centres de données d'IA proposés",
+    "Mener une véritable consultation publique avant d'approuver les grands projets de développement",
+    "Donner la priorité à l'intérêt public et aux ressources plutôt qu'aux profits des géants de la tech",
+    "Protéger les environnements locaux, les approvisionnements en eau et les réseaux énergétiques contre la pression"
    ],
-   "response": "Le gouvernement écossais a déclaré qu'il élaborait une approche stratégique pour maximiser l'intérêt public des centres de données et publierait de nouvelles directives d'urbanisme avant la fin de l'année. Des responsables ont également souligné que de nouvelles instructions exigent que les autorités d'urbanisme informent les ministres et soumettent des études d'impact environnemental pour les installations...",
+   "response": "Le gouvernement écossais s'est engagé à publier de nouvelles directives d'aménagement répondant aux préoccupations des communautés d'ici la fin de l'année, tandis que le ministre de l'Innovation du SNP, Alyn Smith, a affirmé que ces développements constituent les « obligations whisky du secteur de l'IA ».",
    "updates": [
-    "Des milliers de manifestants ont défilé le long du Royal Mile d'Édimbourg jusqu'au Parlement écossais pour s'opposer aux projets de centres de données d'IA."
+    "Friends of the Earth Scotland a annoncé une marche nationale contre les centres de données hyperscale à Édimbourg pour le 14 novembre.",
+    "Des groupes de militants d'East Lothian et d'autres régions se sont préparés à se joindre à la manifestation de masse sur le Royal Mile.",
+    "Des milliers de manifestants ont défilé le long du Royal Mile jusqu'au Parlement écossais, exigeant l'arrêt des projets de centres de données d'IA."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Environ 6000 personnes sont venues au total"
+    "crowd": "environ 6 000 personnes"
    }
   },
   "de": {
    "title": "Aktivisten demonstrieren in Edinburgh gegen geplante KI-Rechenzentren",
-   "seoTitle": "Edinburgh: Marsch gegen geplante KI-Rechenzentren",
+   "seoTitle": "Edinburgh-Marsch gegen geplante KI-Rechenzentren",
    "tea": {
-    "why": "Demonstranten lehnen Pläne für große KI-Rechenzentren in Schottland ab und verweisen dabei auf Bedenken wegen hoher Energienutzung, Wasserknappheit und Klimafolgen.",
-    "want": "Demonstranten fordern einen Stopp neuer groß angelegter Rechenzentrumsprojekte, ordnungsgemäße öffentliche Konsultationen und eine von lokalen Gemeinschaften geführte Politik statt...",
-    "changed": "14. Nov.: Tausende Demonstranten zogen die Royal Mile in Edinburgh entlang zum schottischen Parlament, um gegen geplante KI-Rechenzentren zu protestieren."
+    "why": "Demonstranten wandten sich gegen den Bau großflächiger KI-Rechenzentren in ganz Schottland und warnten vor Gefahren für Energie, Wasser, Klima und Rechnungen.",
+    "want": "Die Demonstrierenden forderten die schottische Regierung auf, die geplanten KI-Rechenzentren zu stoppen und eine ordnungsgemäße öffentliche Konsultation durchzuführen.",
+    "changed": "14. Nov.: Tausende Demonstranten zogen die Royal Mile entlang zum schottischen Parlament in Edinburgh, um gegen Rechenzentrumsprojekte zu protestieren."
    },
-   "summary": "Tausende Aktivisten aus ganz Schottland versammelten sich am 14. November in Edinburgh, um gegen die Entwicklung geplanter Rechenzentren für künstliche Intelligenz zu protestieren. Die Demonstration, die von Gruppen wie Friends of the Earth Scotland, Action to Protect Rural Scotland und Stop Climate Chaos Scotland sowie über 80 weiteren Organisationen organisiert wurde, umfasste einen massiven Marsch die Royal Mile hinab zu einer Kundgebung vor dem schottischen Parlament in Holyrood. Demonstranten äußerten Besorgnis über den massiven Energieverbrauch, die Belastung der Wasserressourcen und die Umweltauswirkungen von mehr als 20 geplanten Rechenzentrumsprojekten und forderten einen Entwicklungsstopp sowie ordnungsgemäße öffentliche Konsultationen. Als Reaktion darauf erklärte die schottische Regierung, dass sie strategische Planungsleitlinien erarbeite, und wies darauf hin, dass neue Vorschriften vorsehen, dass Planungsbehörden Minister benachrichtigen und Umweltverträglichkeitsprüfungen für große Rechenzentrumsprojekte mit einer Leistung von über 50 Megawatt vorlegen müssen.",
+   "summary": "Am Samstag, den 14. November 2026, zogen Tausende Demonstrierende durch Edinburgh zum schottischen Parlament, um gegen geplante Hyperscale-KI-Rechenzentren in ganz Schottland zu protestieren. Organisiert von Gruppen wie Friends of the Earth Scotland, Action to Protect Rural Scotland und Stop Climate Chaos Scotland sowie Dutzenden anderen Bürgerinitiativen und Gewerkschaften forderte die Aktion einen Baustopp und eine ordnungsgemäße öffentliche Konsultation. Aktivisten warnten davor, dass Dutzende geplante Anlagen die Stromnetze, die Wasserversorgung und die lokale Umwelt stark belasten und gleichzeitig großen Technologiekonzernen nützen würden. Die schottische Regierung erklärte, sie plane, bis Jahresende neue Planungsrichtlinien herauszugeben, die auf die Bedenken der Bevölkerung eingehen, während Regierungsvertreter die Projekte als potenzielle wirtschaftliche Chancen verteidigten.",
    "demands": [
-    "Vorgeschlagene KI-Rechenzentrumsprojekte stoppen",
-    "Ordnungsgemäße öffentliche Konsultationen vorantreiben, bevor Entwicklungen fortgesetzt werden",
-    "Sicherstellen, dass lokale Gemeinschaften bei Ressourcenentscheidungen Mitspracherecht haben",
-    "Lokale Umwelten, das Klima und öffentliche Versorgungsdienste schützen"
+    "Geplante KI-Rechenzentrumsprojekte stoppen",
+    "Eine ordnungsgemäße öffentliche Konsultation vor der Genehmigung großer Vorhaben durchführen",
+    "Öffentliche Interessen und Ressourcen über die Gewinne großer Technologiekonzerne stellen",
+    "Lokale Umwelt, Wasserversorgung und Stromnetze vor Überlastung schützen"
    ],
-   "response": "Die schottische Regierung erklärte, sie erarbeite einen strategischen Ansatz zur Maximierung des öffentlichen Nutzens von Rechenzentren und werde vor Jahresende neue Planungsleitlinien veröffentlichen. Beamte wiesen zudem darauf hin, dass neue Anweisungen verlangen, dass Planungsbehörden Minister benachrichtigen und Umweltverträglichkeitsprüfungen für Anlagen einreichen...",
+   "response": "Die schottische Regierung sagte zu, bis Jahresende neue Planungsrichtlinien vorzulegen, die auf die Bedenken der Gemeinschaft eingehen, während der SNP-Innovationsminister Alyn Smith erklärte, die Entwicklungen seien die „Whisky-Anleihen des KI-Sektors“.",
    "updates": [
-    "Tausende Demonstranten zogen die Royal Mile in Edinburgh entlang zum schottischen Parlament, um gegen geplante KI-Rechenzentren zu protestieren."
+    "Friends of the Earth Scotland kündigte für den 14. November einen nationalen Marsch gegen Hyperscale-Rechenzentren in Edinburgh an.",
+    "Aktivistengruppen aus East Lothian und anderen Regionen bereiteten sich darauf vor, sich dem Massenprotest auf der Royal Mile anzuschließen.",
+    "Tausende Demonstranten zogen die Royal Mile entlang zum schottischen Parlament und forderten einen Stopp der KI-Rechenzentrumspläne."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Etwa 6000 Personen kamen insgesamt"
+    "crowd": "geschätzte 6.000 Personen"
    }
   },
   "it": {
-   "title": "Manifestanti sfilano a Edimburgo contro i centri dati di IA proposti",
-   "seoTitle": "Marcia a Edimburgo contro i centri dati di IA proposti",
+   "title": "Manifestanti sfilano a Edimburgo contro i centri dati IA proposti",
+   "seoTitle": "Marcia a Edimburgo contro i centri dati IA",
    "tea": {
-    "why": "I manifestanti si oppongono ai piani per la realizzazione di grandi centri dati di intelligenza artificiale in Scozia, citando preoccupazioni per il consumo energetico elevato, la pressione sulle risorse idriche e gli impatti climatici.",
-    "want": "I dimostranti chiedono uno stop ai nuovi sviluppi di centri dati su larga scala, adeguate consultazioni pubbliche e politiche guidate dalle comunità locali anziché...",
-    "changed": "14 nov: migliaia di manifestanti hanno sfilato lungo il Royal Mile di Edimburgo fino al Parlamento scozzese per opporsi ai centri dati di IA proposti."
+    "why": "I manifestanti si sono opposti allo sviluppo di centri dati di intelligenza artificiale su larga scala in tutta la Scozia, mettendo in guardia contro le minacce a energia, acqua, clima e bollette.",
+    "want": "I dimostranti hanno chiesto che il governo scozzese blocchi i centri dati IA proposti e organizzi una consultazione pubblica adeguata.",
+    "changed": "14 nov: migliaia di manifestanti hanno sfilato lungo il Royal Mile fino al Parlamento scozzese a Edimburgo per protestare contro i progetti di centri dati."
    },
-   "summary": "Migliaia di attivisti provenienti da tutta la Scozia si sono radunati a Edimburgo il 14 novembre per protestare contro lo sviluppo di centri dati di intelligenza artificiale proposti. Organizzata da gruppi tra cui Friends of the Earth Scotland, Action to Protect Rural Scotland e Stop Climate Chaos Scotland insieme ad oltre 80 altre organizzazioni, la manifestazione ha visto una grande marcia lungo il Royal Mile che ha portato a un comizio fuori dal Parlamento scozzese a Holyrood. I manifestanti hanno espresso preoccupazione per il massiccio consumo energetico, la pressione sulle risorse idriche e l'impatto ambientale di oltre 20 progetti di centri dati pianificati, chiedendo lo stop agli sviluppi e adeguate consultazioni pubbliche. In risposta, il governo scozzese ha dichiarato di essere al lavoro su linee guida di pianificazione strategica e ha osservato che le nuove normative richiedono alle autorità di pianificazione di notificare i ministri e presentare valutazioni di impatto ambientale per i grandi progetti di centri dati che superano i 50 megawatt.",
+   "summary": "Sabato 14 novembre 2026, migliaia di dimostranti hanno sfilato attraverso Edimburgo fino al Parlamento scozzese per protestare contro i progetti di centri dati IA hyperscale proposti in tutta la Scozia. Organizzata da gruppi tra cui Friends of the Earth Scotland, Action to Protect Rural Scotland e Stop Climate Chaos Scotland, insieme a decine di altre campagne locali e sindacati, l'azione ha chiesto lo stop agli sviluppi e una consultazione pubblica adeguata. Gli attivisti hanno avvertito che decine di strutture proposte metteranno a dura prova le reti energetiche, le forniture idriche e gli ambienti locali a vantaggio delle grandi aziende tecnologiche. Il governo scozzese ha dichiarato di voler emettere nuove linee guida di pianificazione che affrontino le preoccupazioni della comunità entro la fine dell'anno, mentre i funzionari hanno difeso i progetti come potenziali opportunità economiche.",
    "demands": [
-    "Fermare i progetti di centri dati di IA proposti",
-    "Condurre adeguate consultazioni pubbliche prima che i progetti procedano",
-    "Garantire alle comunità locali voce in capitolo nelle decisioni sulle risorse",
-    "Proteggere gli ambienti locali, il clima e i servizi di pubblica utilità"
+    "Bloccare i progetti proposti di centri dati IA",
+    "Condurre un'adeguata consultazione pubblica prima di approvare i grandi sviluppi",
+    "Dare priorità all'interesse pubblico e alle risorse rispetto ai profitti delle grandi aziende tecnologiche",
+    "Proteggere gli ambienti locali, le forniture idriche e le reti energetiche dalla pressione"
    ],
-   "response": "Il governo scozzese ha dichiarato di stare sviluppando un approccio strategico per massimizzare il beneficio pubblico derivante dai centri dati e pubblicherà nuove linee guida di pianificazione prima della fine dell'anno. I funzionari hanno inoltre osservato che le nuove direttive impongono alle autorità di pianificazione di notificare i ministri e presentare valutazioni di impatto ambientale per le strutture...",
+   "response": "Il governo scozzese si è impegnato a emettere nuove linee guida di pianificazione che affrontino le preoccupazioni della comunità entro la fine dell'anno, mentre il ministro dell'Innovazione dell'SNP Alyn Smith ha affermato che gli sviluppi sono le \"obbligazioni di whisky del settore dell'IA\".",
    "updates": [
-    "Migliaia di manifestanti hanno sfilato lungo il Royal Mile di Edimburgo fino al Parlamento scozzese per opporsi ai centri dati di IA proposti."
+    "Friends of the Earth Scotland ha annunciato una marcia nazionale contro i centri dati hyperscale a Edimburgo per il 14 novembre.",
+    "Gruppi di attivisti provenienti dall'East Lothian e da altre regioni si sono preparati a unirsi alla protesta di massa sul Royal Mile.",
+    "Migliaia di manifestanti hanno sfilato lungo il Royal Mile fino al Parlamento scozzese, chiedendo lo stop ai piani per i centri dati IA."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Circa 6000 persone sono intervenute in totale"
+    "crowd": "stimate 6.000 persone"
    }
   },
   "pt": {
-   "title": "Manifestantes marcham em Edimburgo contra propostas de centros de dados de IA",
-   "seoTitle": "Marcha em Edimburgo contra propostas de centros de dados de IA",
+   "title": "Manifestantes marcham em Edimburgo contra os centros de dados de IA propostos",
+   "seoTitle": "Marcha em Edimburgo contra centros de dados de IA",
    "tea": {
-    "why": "Os manifestantes opõem-se aos planos para centros de dados de inteligência artificial de grande escala na Escócia, apontando preocupações sobre o elevado consumo de energia, o esforço hídrico e os impactos climáticos.",
-    "want": "Os manifestantes exigem uma paragem nos novos desenvolvimentos de centros de dados de grande escala, consultas públicas adequadas e políticas lideradas pelas comunidades locais em vez de...",
-    "changed": "14 de nov.: Milhares de manifestantes marcharam pela Royal Mile de Edimburgo até ao Parlamento escocês para se oporem aos centros de dados de IA propostos."
+    "why": "Os manifestantes opuseram-se ao desenvolvimento de centros de dados de IA em grande escala em toda a Escócia, alertando para ameaças à energia, à água, ao clima e às faturas.",
+    "want": "Os manifestantes exigiram que o Governo escocês suspenda os centros de dados de IA propostos e realize uma consulta pública adequada.",
+    "changed": "14 de nov.: Milhares de manifestantes marcharam pela Royal Mile até ao Parlamento escocês em Edimburgo para protestar contra os projetos de centros de dados."
    },
-   "summary": "Milhares de ativistas de toda a Escócia reuniram-se em Edimburgo a 14 de novembro para protestar contra o desenvolvimento de propostas de centros de dados de inteligência artificial. Organizada por grupos como Friends of the Earth Scotland, Action to Protect Rural Scotland e Stop Climate Chaos Scotland, juntamente com mais de 80 outras organizações, a manifestação incluiu uma marcha em massa pela Royal Mile que culminou num comício à porta do Parlamento escocês em Holyrood. Os manifestantes expressaram preocupações sobre o consumo maciço de energia, a pressão sobre a água e o impacto ambiental de mais de 20 projetos de centros de dados planeados, exigindo uma paragem nos desenvolvimentos e consultas públicas adequadas. Em resposta, o Governo escocês afirmou estar a desenvolver orientações de planeamento estratégico e assinalou que os novos regulamentos exigem que as autoridades de planeamentonotifiquem os ministros e submetam avaliações de impacte ambiental para grandes projetos de centros de dados que excedam 50 megawatts.",
+   "summary": "No sábado, 14 de novembro de 2026, milhares de manifestantes marcharam por Edimburgo até ao Parlamento escocês para protestar contra os centros de dados de IA em hiper-escala propostos em toda a Escócia. Organizada por grupos como a Friends of the Earth Scotland, a Action to Protect Rural Scotland e a Stop Climate Chaos Scotland, juntamente com dezenas de outras campanhas comunitárias e sindicatos, a ação apelou à suspensão dos desenvolvimentos e a uma consulta pública adequada. Os ativistas alertaram que dezenas de instalações propostas irão sobrecarregar severamente as redes energéticas, o abastecimento de água e os ambientes locais, beneficiando as grandes empresas tecnológicas. O Governo escocês declarou que planeia emitir novas orientações de planeamento que abordem as preocupações da comunidade até ao final do ano, enquanto os funcionários defenderam os projetos como potenciais oportunidades económicas.",
    "demands": [
-    "Parar os projetos propostos de centros de dados de IA",
-    "Conduzir consultas públicas adequadas antes que os desenvolvimentos avancem",
-    "Garantir que as comunidades locais tenham voz nas decisões sobre recursos",
-    "Proteger os ambientes locais, o clima e os serviços de utilidade pública"
+    "Suspender os projetos propostos de centros de dados de IA",
+    "Conduzir uma consulta pública adequada antes de aprovar grandes empreendimentos",
+    "Priorizar o interesse público e os recursos em detrimento dos lucros das grandes tecnológicas",
+    "Proteger os ambientes locais, o abastecimento de água e as redes energéticas da pressão"
    ],
-   "response": "O Governo escocês afirmou que está a desenvolver uma abordagem estratégica para maximizar o benefício público dos centros de dados e publicará novas orientações de planeamento antes do final do ano. Os responsáveis também observaram que as novas diretrizes exigem que as autoridades de planeamento notifiquem os ministros e submetam avaliações de impacte ambiental para as instalações...",
+   "response": "O Governo escocês comprometeu-se a emitir novas orientações de planeamento para resolver as preocupações da comunidade até ao final do ano, enquanto o Ministro da Inovação do SNP, Alyn Smith, afirmou que os empreendimentos são as \"obrigações de uísque do setor da IA\".",
    "updates": [
-    "Milhares de manifestantes marcharam pela Royal Mile de Edimburgo até ao Parlamento escocês para se oporem aos centros de dados de IA propostos."
+    "A Friends of the Earth Scotland anunciou uma marcha nacional contra os centros de dados em hiper-escala em Edimburgo para 14 de novembro.",
+    "Grupos de campanha de East Lothian e outras regiões prepararam-se para se juntar ao protesto em massa na Royal Mile.",
+    "Milhares de manifestantes marcharam pela Royal Mile até ao Parlamento escocês, exigindo a suspensão dos planos de centros de dados de IA."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Cerca de 6000 pessoas compareceram no total"
+    "crowd": "estimadas 6.000 pessoas"
    }
   },
   "nl": {
-   "title": "Campagnevoerders marcheren in Edinburgh tegen voorgenomen AI-datacenters",
-   "seoTitle": "Edinburgh: mars tegen voorgenomen AI-datacenters",
+   "title": "Demonstranten marcheren in Edinburgh tegen voorgestelde AI-datacenters",
+   "seoTitle": "Edinburgh-mars tegen voorgestelde AI-datacenters",
    "tea": {
-    "why": "Demonstranten verzetten zich tegen plannen voor grootschalige AI-datacenters in Schotland, onder verwijzing naar zorgen over een hoog energieverbruik, druk op de watervoorziening en klimaateffecten.",
-    "want": "Demonstranten eisen een stop op nieuwe grootschalige datacenterontwikkelingen, behoorlijk publiek overleg en beleid dat wordt geleid door lokale gemeenschappen in plaats van...",
-    "changed": "14 nov.: Duizenden demonstranten marcheerden over de Royal Mile in Edinburgh naar het Schotse Parlement om te protesteren tegen voorgenomen AI-datacenters."
+    "why": "Demonstranten verzetten zich tegen de ontwikkeling van grootschalige AI-datacenters in heel Schotland en waarschuwden voor bedreigingen voor energie, water, klimaat en energierekeningen.",
+    "want": "Demonstranten eisten dat de Schotse regering de voorgestelde AI-datacenters stopzet en een fatsoenlijke openbare raadpleging houdt.",
+    "changed": "14 nov.: Duizenden demonstranten marcheerden over de Royal Mile naar het Schotse Parlement in Edinburgh om te protesteren tegen datacenterprojecten."
    },
-   "summary": "Duizenden campagnevoerders uit heel Schotland verzamelden zich op 14 november in Edinburgh om te protesteren tegen de ontwikkeling van voorgenomen datacenters voor kunstmatige intelligentie. De demonstratie, georganiseerd door groepen waaronder Friends of the Earth Scotland, Action to Protect Rural Scotland en Stop Climate Chaos Scotland samen met meer dan 80 andere organisaties, bestond uit een massale mars over de Royal Mile die leidde tot een bijeenkomst buiten het Schotse Parlement bij Holyrood. Demonstranten uitten hun bezorgdheid over het enorme energieverbruik, de druk op water en de ecologische impact van meer dan 20 geplande datacenterprojecten, en eisten een stop op de ontwikkelingen en een behoorlijke openbare raadpleging. In reactie hierop verklaarde de Schotse regering dat zij werkt aan strategische planningsrichtlijnen en merkte op dat nieuwe regels vereisen dat planologische instanties ministers op de hoogte brengen en milieueffectrapportages indienen voor grote datacenterprojecten van meer dan 50 megawatt.",
+   "summary": "Op zaterdag 14 november 2026 marcheerden duizenden demonstranten door Edinburgh naar het Schotse Parlement om te protesteren tegen voorgestelde hyperscale AI-datacenters in heel Schotland. De actie, georganiseerd door groepen zoals Friends of the Earth Scotland, Action to Protect Rural Scotland en Stop Climate Chaos Scotland, samen met tientallen andere lokale campagnes en vakbonden, riep op tot een stop op de ontwikkelingen en een fatsoenlijke openbare raadpleging. Campagnevoerders waarschuwden dat tientallen voorgestelde faciliteiten energienetwerken, watervoorziening en lokale milieus zwaar onder druk zouden zetten ten behoeve van grote techbedrijven. De Schotse regering verklaarde van plan te zijn om tegen het einde van het jaar nieuwe planningrichtlijnen uit te brengen die ingaan op zorgen van de gemeenschap, terwijl functionarissen de projecten verdedigden als potentiële economische kansen.",
    "demands": [
-    "Stop voorgenomen AI-datacenterprojecten",
-    "Voer behoorlijke openbare raadplegingen uit voordat ontwikkelingen doorgaan",
-    "Zorg ervoor dat lokale gemeenschappen een stem hebben in beslissingen over hulpbronnen",
-    "Bescherm lokale milieus, het klimaat en openbare nutsvoorzieningen"
+    "Voorgestelde AI-datacenterprojecten stopzetten",
+    "Een fatsoenlijke openbare raadpleging houden voordat grote ontwikkelingen worden goedgekeurd",
+    "Algemeen belang en middelen prioriteren boven de winsten van grote techbedrijven",
+    "Lokale milieus, watervoorziening en energienetwerken beschermen tegen overbelasting"
    ],
-   "response": "De Schotse regering verklaarde dat zij een strategische aanpak ontwikkelt om het maatschappelijk nut van datacenters te maximaliseren en voor het einde van het jaar nieuwe planningsrichtlijnen zal publiceren. Ambtenaren merkten tevens op dat nieuwe richtlijnen vereisen dat planologische instanties ministers op de hoogte brengen en milieueffectrapportages indienen voor faciliteiten...",
+   "response": "De Schotse regering beloofde om tegen het einde van het jaar nieuwe planningrichtlijnen uit te brengen die ingaan op de zorgen van de gemeenschap, terwijl SNP-innovatieminister Alyn Smith beweerde dat de ontwikkelingen de \"whisky-obligaties van de AI-sector\" zijn.",
    "updates": [
-    "Duizenden demonstranten marcheerden over de Royal Mile in Edinburgh naar het Schotse Parlement om te protesteren tegen voorgenomen AI-datacenters."
+    "Friends of the Earth Scotland kondigde een nationale mars aan tegen hyperscale datacenters in Edinburgh voor 14 november.",
+    "Campanegroepen uit East Lothian en andere regio's maakten zich op om zich aan te sluiten bij het massaprotest op de Royal Mile.",
+    "Duizenden demonstranten marcheerden over de Royal Mile naar het Schotse Parlement en eisten een stop op de plannen voor AI-datacenters."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Ongeveer 6000 personen kwamen in totaal"
+    "crowd": "geschat 6.000 mensen"
    }
   }
  },

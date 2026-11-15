@@ -21,81 +21,85 @@
  "kind": "multi-day",
  "startedOn": "2026-11-09",
  "status": "ongoing",
- "vibe": "cooling-down",
+ "vibe": "heating-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "top-10",
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Metal industry workers are on an indefinite strike after rejecting a provincial sector agreement signed by trade unions and employers.",
-  "want": "Workers demand a 35-hour workweek, wage parity with Barcelona, retirement at 60, elimination of temporary employment agencies, and hazard bonuses.",
-  "changed": "Nov 14: Strikers marched along Rambla Nova despite the rain to maintain pressure for reopened negotiations."
+  "why": "Metal industry workers are on strike to reject the provincial collective agreement signed by major unions and employers.",
+  "want": "Protesters demand a 35-hour work week, wage parity with Barcelona, retirement at 60, and elimination of temporary agencies.",
+  "changed": "Nov 14: Strikers marched along Rambla Nova despite rain as the indefinite metal sector strike continued."
  },
- "summary": "Metal industry workers in Tarragona launched an indefinite strike on November 9, 2026, organised by the Plataforma del Metal de Tarragona. The mobilisation follows the rejection of a provincial collective agreement signed by the UGT and CCOO unions alongside business employers, which protesters view as insufficient. The actions have included road blockades, demonstrations near the Port of Tarragona, and rallies outside industrial estates and union headquarters. According to sources, around 500 workers demonstrated in the city center after police cleared access points on November 12, followed by a gathering of about 300 workers at the northern chemical estate on November 13, and a march along Rambla Nova on November 14. UGT and CCOO have defended the signed agreement, which includes an 8 percent salary increase over two years with CPI linkage.",
+ "summary": "An indefinite strike by metal industry workers in Tarragona, organized by the Plataforma del Metal de Tarragona, entered its second week following the rejection of a provincial agreement signed by UGT and CCOO with employers. The mobilization involves daily actions, including roadblocks and rallies near industrial estates, the Port of Tarragona, and the city center. Protesters demand a 35-hour work week, wage parity with Barcelona, retirement at age 60, and an end to temporary work agencies. Meanwhile, trade unions UGT and CCOO defend the signed agreement for 2026 and 2027, which includes an 8 percent salary increase with a CPI-linked review. Police forces have cleared picket lines at various industrial access points during the course of the mobilization.",
  "organizers": [
   "Plataforma del Metal de Tarragona"
  ],
  "demands": [
-  "A 35-hour workweek",
+  "35-hour work week",
   "Wage parity with the Barcelona metal agreement",
-  "Retirement at 60 years of age",
+  "Retirement at 60 years old",
   "Elimination of temporary work agencies",
-  "Improvements to hazard and toxicity bonuses"
+  "Improvements in toxicity and hazard bonuses"
  ],
- "response": "UGT and CCOO defended the signed agreement for 2026 and 2027, featuring an 8 percent wage increase. According to Diari de Tarragona, Mossos d'Esquadra cleared picket lines at port accesses and industrial estates.",
+ "response": "According to sources, UGT and CCOO defend the signed agreement providing an 8 percent salary increase over two years. Mossos d'Esquadra have intervened to clear picket lines at industrial zones and port access points.",
  "numbers": {
-  "crowd": {
-   "value": 500,
-   "text": "unos 500 trabajadores se desplazaron hasta el centro de Tarragona",
+  "injuries": {
+   "value": 1,
+   "text": "Un manifestante herido leve en un atropello durante un piquete",
    "sources": [
-    2
+    1
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-09",
-   "text": "The indefinite metal sector strike organised by Plataforma del Metal de Tarragona began.",
+   "text": "An indefinite metal sector strike began in Tarragona called by the Plataforma del Metal de Tarragona.",
    "sources": [
-    2
+    3
    ]
   },
   {
    "at": "2026-11-12",
-   "text": "Around 500 workers marched to the center of Tarragona after police cleared access points at the port and industrial areas.",
+   "text": "About 500 workers marched to central Tarragona after police cleared picket lines at port and industrial access points.",
    "sources": [
-    2
+    3
    ]
   },
   {
    "at": "2026-11-13",
-   "text": "About 300 workers gathered at the northern chemical estate in La Pobla de Mafumet, causing intermittent traffic cuts.",
+   "text": "The indefinite metal strike intensified with road cuts and protests in the city center.",
    "sources": [
     2
    ]
   },
   {
    "at": "2026-11-14",
-   "text": "Strikers marched along Rambla Nova despite rain to continue demanding labor condition improvements.",
+   "text": "Strikers marched along Rambla Nova despite the rain to maintain pressure for reopened negotiations.",
    "sources": [
-    2
+    3
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.europapress.es/catalunya/noticia-manifestante-herido-leve-atropello-piquete-acceso-tarragona-20261111100218.html",
+   "publisher": "europapress.es",
+   "title": "Un manifestante herido leve en un atropello durante un piquete en un acceso a Tarragona",
+   "publishedAt": "2026-11-11T09:02:18.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://industrytalks.es/la-huelga-indefinida-del-metal-en-tarragona-se-intensifica-con-cortes-y-protestas-en-el-centro-de-la-ciudad/",
    "publisher": "industrytalks.es",
    "title": "La huelga indefinida del metal en Tarragona se intensifica con cortes y protestas en el centro de la ciudad – industry TALKS. Diario Digital de la Industria Española",
    "publishedAt": "2026-11-13T06:02:19.000Z"
   },
   {
-   "n": 2,
+   "n": 3,
    "url": "https://www.diaridetarragona.com/economia/275741/huelga-metal-sigue-tarragona-trabajadores-recorren-rambla-nova-pese-lluvia.html",
    "publisher": "diaridetarragona.com",
    "title": "La huelga del metal sigue en Tarragona: trabajadores recorren la Rambla Nova pese a la lluvia",
@@ -103,194 +107,194 @@
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
+ "confidence": 0.8,
+ "publishers": 3,
  "reports24h": 1,
- "reportsPrev24h": 1,
- "reports48h": 2,
- "firstSeenAt": "2026-11-13T08:53:34.504Z",
+ "reportsPrev24h": 0,
+ "reports48h": 1,
+ "firstSeenAt": "2026-11-11T09:53:15.568Z",
  "lastReportAt": "2026-11-14T17:44:09.000Z",
- "lastCheckedAt": "2026-11-15T04:54:38.111Z",
- "updatedAt": "2026-11-15T04:54:25.262Z",
+ "lastCheckedAt": "2026-11-15T08:55:54.347Z",
+ "updatedAt": "2026-11-15T08:55:53.991Z",
  "searchedAt": "2026-11-13T12:19:37.222Z",
  "responseSources": [
-  2
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-15T04:54:25.262Z",
- "summaryOf": "7a782890d072",
+ "summarizedAt": "2026-11-15T08:55:53.991Z",
+ "summaryOf": "e62f81192ed0",
  "publishedAt": "2026-11-15T04:54:38.111Z",
  "i18n": {
-  "of": "e83c66a058a86690",
-  "at": "2026-11-15T04:55:11.893Z",
+  "of": "aef3fb04def5a566",
+  "at": "2026-11-15T08:56:27.844Z",
   "tries": 1,
   "es": {
-   "title": "Huelga y protesta de trabajadores de la industria del metal en Tarragona",
+   "title": "Huelga y protesta de los trabajadores de la industria del metal en Tarragona",
    "seoTitle": "Huelga de metalúrgicos en Tarragona",
    "tea": {
-    "why": "Los trabajadores de la industria del metal se encuentran en huelga indefinida tras rechazar un convenio sectorial provincial firmado por los sindicatos y la patronal.",
-    "want": "Los trabajadores exigen una jornada laboral de 35 horas, paridad salarial con Barcelona, jubilación a los 60 años, eliminación de las empresas de trabajo temporal y complementos de peligrosidad.",
-    "changed": "14 de nov.: Los huelguistas marcharon por la Rambla Nova a pesar de la lluvia para mantener la presión en favor de la reapertura de negociaciones."
+    "why": "Los trabajadores de la industria del metal están en huelga para rechazar el convenio colectivo provincial firmado por los principales sindicatos y la patronal.",
+    "want": "Los manifestantes exigen una jornada laboral de 35 horas, la paridad salarial con Barcelona, la jubilación a los 60 años y la eliminación de las empresas de trabajo temporal.",
+    "changed": "14 de nov.: Los huelguistas marcharon por la Rambla Nova a pesar de la lluvia mientras continuaba la huelga indefinida en el sector del metal."
    },
-   "summary": "Los trabajadores de la industria del metal en Tarragona iniciaron una huelga indefinida el 9 de noviembre de 2026, organizada por la Plataforma del Metal de Tarragona. La movilización llega tras el rechazo de un convenio colectivo provincial firmado por los sindicatos UGT y CCOO junto con los empresarios, el cual los manifestantes consideran insuficiente. Las acciones han incluido cortes de carreteras, manifestaciones cerca del Port de Tarragona y concentraciones frente a polígonos industriales y sedes sindicales. Según fuentes, unos 500 trabajadores se manifestaron en el centro de la ciudad tras despejar la policía los puntos de acceso el 12 de noviembre, seguidos de una concentración de unos 300 trabajadores en el polígono químico norte el 13 de noviembre y una marcha por la Rambla Nova el 14 de noviembre. UGT y CCOO han defendido el convenio firmado, que incluye un incremento salarial del 8 por ciento en dos años con vinculación al IPC.",
+   "summary": "Una huelga indefinida de los trabajadores de la industria del metal en Tarragona, convocada por la Plataforma del Metal de Tarragona, entró en su segunda semana tras el rechazo de un acuerdo provincial firmado por la UGT y CCOO con la patronal. La movilización incluye acciones diarias, como cortes de carreteras y concentraciones cerca de polígonos industriales, el puerto de Tarragona y el centro de la ciudad. Los manifestantes exigen una jornada laboral de 35 horas, la paridad salarial con Barcelona, la jubilación a los 60 años y el fin de las empresas de trabajo temporal. Por su parte, los sindicatos UGT y CCOO defienden el acuerdo firmado para 2026 y 2027, que incluye un incremento salarial del 8 por ciento con una revisión vinculada al IPC. Las fuerzas policiales han despejado los piquetes en varios accesos industriales durante el transcurso de la movilización.",
    "demands": [
-    "Una jornada laboral de 35 horas",
+    "Jornada laboral de 35 horas",
     "Paridad salarial con el convenio del metal de Barcelona",
-    "Jubilación a los 60 años de edad",
+    "Jubilación a los 60 años",
     "Eliminación de las empresas de trabajo temporal",
-    "Mejoras en los complementos de peligrosidad y toxicidad"
+    "Mejoras en los complementos de toxicidad y penosidad"
    ],
-   "response": "UGT y CCOO defendieron el convenio firmado para 2026 y 2027, que contempla un incremento salarial del 8 por ciento. Según Diari de Tarragona, los Mossos d'Esquadra desalojaron los piquetes en los accesos al puerto y en los polígonos industriales.",
+   "response": "Según fuentes, UGT y CCOO defienden el acuerdo firmado que contempla un incremento salarial del 8 por ciento en dos años. Los Mossos d'Esquadra han intervenido para despejar los piquetes en zonas industriales y accesos al puerto.",
    "updates": [
-    "Comenzó la huelga indefinida del sector del metal organizada por la Plataforma del Metal de Tarragona.",
-    "Alrededor de 500 trabajadores marcharon hacia el centro de Tarragona después de que la policía despejara los puntos de acceso al puerto y a las zonas industriales.",
-    "Unos 300 trabajadores se concentraron en el polígono químico norte en La Pobla de Mafumet, provocando cortes intermitentes de tráfico.",
-    "Los huelguistas marcharon por la Rambla Nova a pesar de la lluvia para seguir exigiendo mejoras en las condiciones laborales."
+    "Comenzó una huelga indefinida en el sector del metal en Tarragona convocada por la Plataforma del Metal de Tarragona.",
+    "Cerca de 500 trabajadores marcharon hacia el centro de Tarragona después de que la policía despejara los piquetes en los accesos al puerto y a los polígonos industriales.",
+    "La huelga indefinida del metal se intensificó con cortes de carreteras y protestas en el centro de la ciudad.",
+    "Los huelguistas marcharon por la Rambla Nova a pesar de la lluvia para mantener la presión a favor de la reapertura de las negociaciones."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "unos 500 trabajadores se desplazaron hasta el centro de Tarragona"
+    "injuries": "Un manifestante herido leve en un atropello durante un piquete"
    }
   },
   "fr": {
    "title": "Grève et manifestation des travailleurs de l'industrie métallurgique à Tarragone",
-   "seoTitle": "Grève des métallos à Tarragone",
+   "seoTitle": "Grève des métallurgistes de Tarragone",
    "tea": {
-    "why": "Les travailleurs de l'industrie métallurgique sont en grève illimitée après avoir rejeté un accord sectoriel provincial signé par les syndicats et les employeurs.",
-    "want": "Les travailleurs réclament une semaine de 35 heures, la parité salariale avec Barcelone, la retraite à 60 ans, la suppression des agences d'intérim et des primes de risque.",
-    "changed": "14 nov. : Des grévistes ont défilé le long de la Rambla Nova malgré la pluie pour maintenir la pression en vue de la reprise des négociations."
+    "why": "Les travailleurs de l'industrie métallurgique sont en grève pour rejeter la convention collective provinciale signée par les grands syndicats et les employeurs.",
+    "want": "Les manifestants exigent une semaine de travail de 35 heures, la parité salariale avec Barcelone, la retraite à 60 ans et la suppression des agences de travail intérimaire.",
+    "changed": "14 nov. : Les grévistes ont défilé le long de la Rambla Nova malgré la pluie alors que la grève illimitée du secteur de la métallurgie se poursuivait."
    },
-   "summary": "Les travailleurs de l'industrie métallurgique de Tarragone ont entamé une grève illimitée le 9 novembre 2026, organisée par la Plataforma del Metal de Tarragona. Cette mobilisation fait suite au rejet d'une convention collective provinciale signée par les syndicats UGT et CCOO ainsi que par le patronat, que les manifestants jugent insuffisante. Les actions ont compris des blocages de routes, des manifestations près du port de Tarragone et des rassemblements devant des zones industrielles et des sièges syndicaux. Selon des sources, environ 500 travailleurs ont manifesté dans le centre-ville après que la police eut dégagé les points d'accès le 12 novembre, suivis d'un rassemblement d'environ 300 travailleurs dans la zone chimique nord le 13 novembre, et d'une marche le long de la Rambla Nova le 14 novembre. L'UGT et les CCOO ont défendu l'accord signé, qui prévoit une augmentation de salaire de 8 pour cent sur deux ans liée à l'IPC.",
+   "summary": "Une grève illimitée des travailleurs de l'industrie métallurgique à Tarragone, organisée par la Plataforma del Metal de Tarragona, est entrée dans sa deuxième semaine à la suite du rejet d'un accord provincial signé par l'UGT et les CCOO avec les employeurs. La mobilisation comprend des actions quotidiennes, notamment des barrages routiers et des rassemblements près des zones industrielles, du port de Tarragone et du centre-ville. Les manifestants exigent une semaine de travail de 35 heures, la parité salariale avec Barcelone, la retraite à 60 ans et la fin des agences de travail intérimaire. Pendant ce temps, les syndicats UGT et CCOO défendent l'accord signé pour 2026 et 2027, qui comprend une augmentation salariale de 8 pour cent avec une révision liée à l'IPC. Les forces de police ont dégagé les piquets de grève à divers points d'accès industriels au cours de la mobilisation.",
    "demands": [
-    "Une semaine de travail de 35 heures",
-    "La parité salariale avec la convention de la métallurgie de Barcelone",
-    "Le départ à la retraite à 60 ans",
-    "La suppression des agences de travail intérimaire",
-    "L'amélioration des primes de risque et de toxicité"
+    "Semaine de travail de 35 heures",
+    "Parité salariale avec la convention de la métallurgie de Barcelone",
+    "Retraite à 60 ans",
+    "Suppression des agences de travail intérimaire",
+    "Améliorations des primes de toxicité et de pénibilité"
    ],
-   "response": "L'UGT et les CCOO ont défendu l'accord signé pour 2026 et 2027, prévoyant une augmentation salariale de 8 pour cent. Selon le Diari de Tarragona, les Mossos d'Esquadra ont évacué les piquets de grève aux accès du port et des zones industrielles.",
+   "response": "Selon des sources, l'UGT et les CCOO défendent l'accord signé prévoyant une augmentation salariale de 8 pour cent sur deux ans. Les Mossos d'Esquadra sont intervenus pour dégager les piquets de grève dans les zones industrielles et aux points d'accès au port.",
    "updates": [
-    "La grève illimitée du secteur de la métallurgie organisée par la Plataforma del Metal de Tarragona a commencé.",
-    "Environ 500 travailleurs ont défilé vers le centre de Tarragone après que la police a dégagé les points d'accès au port et aux zones industrielles.",
-    "Près de 300 travailleurs se sont rassemblés dans la zone chimique nord à La Pobla de Mafumet, provoquant des coupures de circulation intermittentes.",
-    "Des grévistes ont défilé le long de la Rambla Nova malgré la pluie pour continuer à exiger l'amélioration des conditions de travail."
+    "Une grève illimitée du secteur de la métallurgie a débuté à Tarragone, appelée par la Plataforma del Metal de Tarragona.",
+    "Environ 500 travailleurs ont marché vers le centre de Tarragone après que la police a dégagé les piquets de grève aux accès du port et des zones industrielles.",
+    "La grève illimitée de la métallurgie s'est intensifiée avec des coupures de routes et des protestations dans le centre-ville.",
+    "Les grévistes ont défilé le long de la Rambla Nova malgré la pluie pour maintenir la pression en faveur de la réouverture des négociations."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "environ 500 travailleurs"
+    "injuries": "Un manifestante herido leve en un atropello durante un piquete"
    }
   },
   "de": {
-   "title": "Streik und Protest von Arbeitern der Metallindustrie in Tarragona",
-   "seoTitle": "Tarragona Metallarbeiter Streik",
+   "title": "Streik und Protest der Metallindustriearbeiter in Tarragona",
+   "seoTitle": "Tarragona Metallarbeiterstreik",
    "tea": {
-    "why": "Arbeiter der Metallindustrie befinden sich nach der Ablehnung eines von Gewerkschaften und Arbeitgebern unterzeichneten regionalen Branchenabkommens in einem unbefristeten Streik.",
-    "want": "Die Arbeiter fordern eine 35-Stunden-Woche, Lohnparität mit Barcelona, den Ruhestand mit 60 Jahren, die Abschaffung von Zeitarbeitsfirmen und Erschwerniszulagen.",
-    "changed": "14. Nov.: Streikende zogen trotz Regens über die Rambla Nova, um den Druck für wiederaufgenommene Verhandlungen aufrechtzuerhalten."
+    "why": "Arbeiter der Metallindustrie streiken, um den von großen Gewerkschaften und Arbeitgebern unterzeichneten provinzweiten Tarifvertrag abzulehnen.",
+    "want": "Demonstranten fordern eine 35-Stunden-Woche, Lohnparität mit Barcelona, den Ruhestand mit 60 Jahren und die Abschaffung von Leiharbeitsfirmen.",
+    "changed": "14. Nov.: Streikende zogen trotz Regens die Rambla Nova entlang, während der unbefristete Streik im Metallsektor weiterging."
    },
-   "summary": "Arbeiter der Metallindustrie in Tarragona begannen am 9. November 2026 einen unbefristeten Streik, der von der Plataforma del Metal de Tarragona organisiert wurde. Die Mobilisierung folgt auf die Ablehnung eines provinziellen Tarifvertrags, der von den Gewerkschaften UGT und CCOO zusammen mit Arbeitgebern unterzeichnet wurde und den die Demonstrierenden als unzureichend betrachten. Zu den Aktionen gehörten Straßenblockaden, Kundgebungen in der Nähe des Hafens von Tarragona sowie Versammlungen vor Industriegebieten und Gewerkschaftszentralen. Quellen zufolge demonstrierten am 12. November rund 500 Arbeiter im Stadtzentrum, nachdem die Polizei die Zugangspunkte geräumt hatte, gefolgt von einer Versammlung von etwa 300 Arbeitern am nördlichen Chemiepark am 13. November und einem Marsch entlang der Rambla Nova am 14. November. UGT und CCOO haben den unterzeichneten Vertrag verteidigt, der eine Gehaltserhöhung von 8 Prozent über zwei Jahre mit Verbraucherpreisindexbindung beinhaltet.",
+   "summary": "Ein unbefristeter Streik von Arbeitern der Metallindustrie in Tarragona, organisiert von der Plataforma del Metal de Tarragona, ging in seine zweite Woche, nachdem ein von UGT und CCOO mit den Arbeitgebern unterzeichneter Provinzialvertrag abgelehnt worden war. Die Mobilisierung umfasst tägliche Aktionen wie Straßenblockaden und Kundgebungen in der Nähe von Industriegebieten, dem Hafen von Tarragona und dem Stadtzentrum. Demonstranten fordern eine 35-Stunden-Woche, Lohnparität mit Barcelona, den Ruhestand mit 60 Jahren und ein Ende von Leiharbeitsfirmen. Unterdessen verteidigen die Gewerkschaften UGT und CCOO den unterzeichneten Vertrag für 2026 und 2027, der eine Gehaltserhöhung von 8 Prozent mit einer an den Verbraucherpreisindex gekoppelten Überprüfung beinhaltet. Polizeikräfte haben im Laufe der Mobilisierung Streikposten an verschiedenen Industriezugangspunkten geräumt.",
    "demands": [
-    "Eine 35-Stunden-Woche",
-    "Lohnparität mit dem Metallabkommen von Barcelona",
+    "35-Stunden-Woche",
+    "Lohnparität mit dem Metalltarifvertrag von Barcelona",
     "Ruhestand mit 60 Jahren",
-    "Abschaffung von Zeitarbeitsagenturen",
-    "Verbesserungen bei Gefahren- und Giftstoffzulagen"
+    "Abschaffung von Leiharbeitsfirmen",
+    "Verbesserungen bei Toxizitäts- und Gefahrenzulagen"
    ],
-   "response": "UGT und CCOO verteidigten das unterzeichnete Abkommen für 2026 und 2027, das eine Lohnerhöhung von 8 Prozent vorsieht. Dem Diari de Tarragona zufolge räumten die Mossos d'Esquadra Streikposten an Hafenzufahrten und Industriegebieten.",
+   "response": "Quellen zufolge verteidigen UGT und CCOO den unterzeichneten Vertrag, der eine Gehaltserhöhung von 8 Prozent über zwei Jahre vorsieht. Die Mossos d'Esquadra sind eingeschritten, um Streikposten in Industriezonen und Hafenzugängen zu räumen.",
    "updates": [
-    "Der von der Plataforma del Metal de Tarragona organisierte unbefristete Metallsektorstreik hat begonnen.",
-    "Etwa 500 Arbeiter marschierten in das Zentrum von Tarragona, nachdem die Polizei die Zugangspunkte am Hafen und in den Industriegebieten geräumt hatte.",
-    "Etwa 300 Arbeiter versammelten sich im nördlichen Chemiepark in La Pobla de Mafumet und verursachten zeitweise Verkehrsbehinderungen.",
-    "Streikende zogen trotz Regens über die Rambla Nova, um weiterhin Verbesserungen der Arbeitsbedingungen zu fordern."
+    "Ein unbefristeter Streik im Metallsektor begann in Tarragona, ausgerufen von der Plataforma del Metal de Tarragona.",
+    "Etwa 500 Arbeiter marschierten ins Zentrum von Tarragona, nachdem die Polizei Streikposten an Hafen- und Industriezugangspunkten geräumt hatte.",
+    "Der unbefristete Metallstreik verschärfte sich mit Straßensperren und Protesten im Stadtzentrum.",
+    "Streikende zogen trotz des Regens die Rambla Nova entlang, um den Druck für wiederaufgenommene Verhandlungen aufrechtzuerhalten."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "etwa 500 Arbeiter"
+    "injuries": "Un manifestante herido leve en un atropello durante un piquete"
    }
   },
   "it": {
    "title": "Sciopero e protesta dei lavoratori dell'industria metalmeccanica a Tarragona",
    "seoTitle": "Sciopero metalmeccanici a Tarragona",
    "tea": {
-    "why": "I lavoratori dell'industria metalmeccanica sono in sciopero a tempo indeterminato dopo aver respinto un accordo di settore provinciale firmato dai sindacati e dai datori di lavoro.",
-    "want": "I lavoratori chiedono una settimana lavorativa di 35 ore, la parità salariale con Barcellona, il pensionamento a 60 anni, l'eliminazione delle agenzie di lavoro interinale e indennità di rischio.",
-    "changed": "14 nov.: I manifestanti hanno sfilato lungo la Rambla Nova nonostante la pioggia per mantenere alta la pressione per la riapertura dei negoziati."
+    "why": "I lavoratori dell'industria metalmeccanica sono in sciopero per respingere il contratto collettivo provinciale firmato dai principali sindacati e dai datori di lavoro.",
+    "want": "I manifestanti chiedono una settimana lavorativa di 35 ore, la parità salariale con Barcellona, la pensione a 60 anni e l'eliminazione delle agenzie di lavoro temporaneo.",
+    "changed": "14 nov.: I manifestanti hanno sfilato lungo la Rambla Nova nonostante la pioggia mentre continuava lo sciopero a tempo indeterminato nel settore metalmeccanico."
    },
-   "summary": "I lavoratori dell'industria metalmeccanica di Tarragona hanno avviato uno sciopero a tempo indeterminato il 9 novembre 2026, organizzato dalla Plataforma del Metal de Tarragona. La mobilitazione fa seguito al respingimento di un contratto collettivo provinciale firmato dai sindacati UGT e CCOO insieme ai datori di lavoro, ritenuto insufficiente dai manifestanti. Le azioni hanno incluso blocchi stradali, manifestazioni vicino al porto di Tarragona e raduni all'esterno di zone industriali e sedi sindacali. Secondo alcune fonti, circa 500 lavoratori hanno manifestato nel centro della città dopo che la polizia ha liberato i punti di accesso il 12 novembre, seguiti da un raduno di circa 300 lavoratori presso il polo chimico settentrionale il 13 novembre e da una marcia lungo la Rambla Nova il 14 novembre. UGT e CCOO hanno difeso l'accordo firmato, che prevede un aumento salariale dell'8 per cento in due anni con adeguamento all'indice dei prezzi al consumo.",
+   "summary": "Uno sciopero a tempo indeterminato dei lavoratori dell'industria metalmeccanica a Tarragona, organizzato dalla Plataforma del Metal de Tarragona, è entrato nella sua seconda settimana in seguito al rifiuto di un accordo provinciale firmato da UGT e CCOO con i datori di lavoro. La mobilitazione prevede azioni quotidiane, tra cui blocchi stradali e comizi vicino alle aree industriali, al porto di Tarragona e al centro città. I manifestanti chiedono una settimana lavorativa di 35 ore, la parità salariale con Barcellona, la pensione a 60 anni e la fine delle agenzie di lavoro temporaneo. Nel frattempo, i sindacati UGT e CCOO difendono l'accordo firmato per il 2026 e il 2027, che comprende un aumento salariale dell'8 percento con una revisione legata all'indice dei prezzi al consumo. Le forze di polizia hanno sgomberato i picchetti in vari punti di accesso industriale nel corso della mobilitazione.",
    "demands": [
-    "Una settimana lavorativa di 35 ore",
-    "Parità salariale con l'accordo metalmeccanico di Barcellona",
-    "Pensionamento a 60 anni di età",
-    "Eliminazione delle agenzie di lavoro interinale",
-    "Miglioramenti alle indennità di rischio e tossicità"
+    "Settimana lavorativa di 35 ore",
+    "Parità salariale con il contratto metalmeccanico di Barcellona",
+    "Pensione a 60 anni",
+    "Eliminazione delle agenzie di lavoro temporaneo",
+    "Miglioramenti delle indennità di tossicità e pericolosità"
    ],
-   "response": "UGT e CCOO hanno difeso l'accordo firmato per il 2026 e il 2027, caratterizzato da un aumento salariale dell'8 per cento. Secondo il Diari de Tarragona, i Mossos d'Esquadra hanno sgomberato i picchetti agli accessi del porto e delle zone industriali.",
+   "response": "Secondo fonti, UGT e CCOO difendono l'accordo firmato che prevede un aumento salariale dell'8 percento in due anni. I Mossos d'Esquadra sono intervenuti per sgomberare i picchetti nelle zone industriali e nei punti di accesso al porto.",
    "updates": [
-    "È iniziato lo sciopero a tempo indeterminato del settore metalmeccanico organizzato dalla Plataforma del Metal de Tarragona.",
-    "Circa 500 lavoratori hanno marciato verso il centro di Tarragona dopo che la polizia ha liberato i punti di accesso al porto e alle aree industriali.",
-    "About 300 lavoratori si sono radunati presso il polo chimico settentrionale a La Pobla de Mafumet, causando interruzioni del traffico.",
-    "I manifestanti hanno sfilato lungo la Rambla Nova nonostante la pioggia per continuare a chiedere miglioramenti delle condizioni di lavoro."
+    "È iniziato a Tarragona uno sciopero a tempo indeterminato del settore metalmeccanico proclamato dalla Plataforma del Metal de Tarragona.",
+    "Circa 500 lavoratori hanno marciato verso il centro di Tarragona dopo che la polizia ha sgomberato i picchetti agli accessi portuali e industriali.",
+    "Lo sciopero metalmeccanico a tempo indeterminato si è intensificato con blocchi stradali e proteste nel centro della città.",
+    "I manifestanti hanno sfilato lungo la Rambla Nova nonostante la pioggia per mantenere la pressione per la riapertura dei negoziati."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "circa 500 lavoratori"
+    "injuries": "Un manifestante herido leve en un atropello durante un piquete"
    }
   },
   "pt": {
-   "title": "Greve e protesto de trabalhadores da indústria metalúrgica em Tarragona",
+   "title": "Trabalhadores da indústria metalúrgica entram em greve e protestam em Tarragona",
    "seoTitle": "Greve dos metalúrgicos em Tarragona",
    "tea": {
-    "why": "Os trabalhadores da indústria metalúrgica estão em greve por tempo indeterminado após rejeitarem um acordo sectorial provincial assinado por sindicatos e empregadores.",
-    "want": "Os trabalhadores exigem uma semana de trabalho de 35 horas, paridade salarial com Barcelona, reforma aos 60 anos, eliminação das agências de trabalho temporário e subsídios de risco.",
-    "changed": "14 nov.: Os grevistas marcharam ao longo da Rambla Nova apesar da chuva para manter a pressão pela reabertura das negociações."
+    "why": "Os trabalhadores da indústria metalúrgica estão em greve para rejeitar o acordo coletivo provincial assinado pelos principais sindicatos e empregadores.",
+    "want": "Os manifestantes exigem uma semana de trabalho de 35 horas, paridade salarial com Barcelona, reforma aos 60 anos e a eliminação das agências de trabalho temporário.",
+    "changed": "14 de nov.: Os grevistas marcharam ao longo da Rambla Nova apesar da chuva, enquanto a greve por tempo indeterminado no setor metalúrgico continuava."
    },
-   "summary": "Os trabalhadores da indústria metalúrgica em Tarragona iniciaram uma greve por tempo indeterminado a 9 de Novembro de 2026, organizada pela Plataforma del Metal de Tarragona. A mobilização surge na sequência da rejeição de um acordo colectivo provincial assinado pelos sindicatos UGT e CCOO juntamente com os empregadores, o qual os manifestantes consideram insuficiente. As acções incluíram bloqueios de estradas, manifestações perto do Porto de Tarragona e concentrações em frente a zonas industriais e sedes sindicais. Segundo fontes, cerca de 500 trabalhadores manifestaram-se no centro da cidade após a polícia ter desobstruído os pontos de acesso a 12 de Novembro, seguidos por uma concentração de cerca de 300 trabalhadores no polo químico do norte a 13 de Novembro, e por uma marcha ao longo da Rambla Nova a 14 de Novembro. A UGT e a CCOO defenderam o acordo assinado, que inclui um aumento salarial de 8 por cento ao longo de dois anos com actualização pelo IPC.",
+   "summary": "Uma greve por tempo indeterminado dos trabalhadores da indústria metalúrgica em Tarragona, organizada pela Plataforma del Metal de Tarragona, entrou na sua segunda semana na sequência da rejeição de um acordo provincial assinado pela UGT e CCOO com os empregadores. A mobilização envolve ações diárias, incluindo bloqueios de estradas e comícios perto de zonas industriais, do Porto de Tarragona e do centro da cidade. Os manifestantes exigem uma semana de trabalho de 35 horas, paridade salarial com Barcelona, reforma aos 60 anos e o fim das agências de trabalho temporário. Enquanto isso, os sindicatos UGT e CCOO defendem o acordo assinado para 2026 e 2027, que inclui um aumento salarial de 8 por cento com uma revisão indexada à inflação. As forças policiais dispersaram os piquetes em vários pontos de acesso industrial durante o decurso da mobilização.",
    "demands": [
-    "Uma semana de trabalho de 35 horas",
+    "Semana de trabalho de 35 horas",
     "Paridade salarial com o acordo do metal de Barcelona",
     "Reforma aos 60 anos de idade",
     "Eliminação das agências de trabalho temporário",
-    "Melhorias nos subsídios de risco e toxicidade"
+    "Melhorias nos subsídios de toxicidad e perigosidade"
    ],
-   "response": "A UGT e a CCOO defenderam o acordo assinado para 2026 e 2027, que prevê um aumento salarial de 8 por cento. Segundo o Diari de Tarragona, os Mossos d'Esquadra dispersaram piquetes de greve nos acessos ao porto e zonas industriais.",
+   "response": "Segundo fontes, a UGT e a CCOO defendem o acordo assinado que prevê um aumento salarial de 8 por cento ao longo de dois anos. Os Mossos d'Esquadra intervieram para dispersar os piquetes nas zonas industriais e nos pontos de acesso ao porto.",
    "updates": [
-    "Teve início a greve por tempo indeterminado do setor metalúrgico organizada pela Plataforma del Metal de Tarragona.",
-    "Cerca de 500 trabalhadores marcharam em direção ao centro de Tarragona depois de a polícia ter desobstruído os pontos de acesso ao porto e às zonas industriais.",
-    "Cerca de 300 trabalhadores reuniram-se no polo químico do norte em La Pobla de Mafumet, causando cortes intermitentes no trânsito.",
-    "Os grevistas marcharam ao longo da Rambla Nova apesar da chuva para continuarem a exigir melhorias nas condições laborais."
+    "Iniciou-se em Tarragona uma greve por tempo indeterminado no setor metalúrgico convocada pela Plataforma del Metal de Tarragona.",
+    "Cerca de 500 trabalhadores marcharam para o centro de Tarragona depois de a polícia ter dispersado os piquetes nos acessos ao porto e às zonas industriais.",
+    "A greve metalúrgica por tempo indeterminado intensificou-se com cortes de estradas e protestos no centro da cidade.",
+    "Os grevistas marcharam ao longo da Rambla Nova apesar da chuva para manter a pressão com vista à reabertura das negociações."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "cerca de 500 trabalhadores"
+    "injuries": "Un manifestante herido leve en un atropello durante un piquete"
    }
   },
   "nl": {
-   "title": "Staking en protest van metaalarbeiders in Tarragona",
-   "seoTitle": "Staking metaalarbeiders Tarragona",
+   "title": "Metaalindustrie-arbeiders staken en protesteren in Tarragona",
+   "seoTitle": "Metaalarbeidersstaking Tarragona",
    "tea": {
-    "why": "Metaalarbeiders zijn in een onbepaalde staking na het afwijzen van een provinciaal sectorakkoord dat door vakbonden en werkgevers is getekend.",
-    "want": "Arbeiders eisen een werkweek van 35 uur, loonpariteit met Barcelona, gepensioneerd worden op 60-jarige leeftijd, afschaffing van uitzendbureaus en gevarenpremies.",
-    "changed": "14 nov.: Stakers marcheerden ondanks de regen over de Rambla Nova om de druk op te voeren voor heropende onderhandelingen."
+    "why": "Arbeiders in de metaalindustrie staken om het provinciale collectieve akkoord dat is getekend door grote vakbonden en werkgevers af te wijzen.",
+    "want": "Demonstranten eisen een werkweek van 35 uur, loonpariteit met Barcelona, pensioen op 60-jarige leeftijd en de afschaffing van uitzendbureaus.",
+    "changed": "14 nov.: Stakers marcheerden ondanks regen langs de Rambla Nova terwijl de onbepaalde tijd durende staking in de metaalsector voortduurde."
    },
-   "summary": "Metaalarbeiders in Tarragona begonnen op 9 november 2026 een onbepaalde staking, georganiseerd door de Plataforma del Metal de Tarragona. De mobilisatie volgt op de verwerping van een provinciale collectieve arbeidsovereenkomst die door de bonden UGT en CCOO samen met werkgevers was getekend en die demonstranten onvoldoende vinden. De acties omvatten wegblokkades, demonstraties bij de Haven van Tarragona en bijeenkomsten buiten industrieterreinen en vakbondshoofdkwartieren. Volgens bronnen demonstreerden rond de 500 arbeiders in het stadscentrum nadat de politie op 12 november toegangspunten had vrijgemaakt, gevolgd door een bijeenkomst van ongeveer 300 arbeiders bij het noordelijke chemische terrein op 13 november en een mars langs de Rambla Nova op 14 november. UGT en CCOO hebben het getekende akkoord verdedigd, dat een loonsverhoging van 8 procent over twee jaar met koppeling aan de consumentenprijsindex omvat.",
+   "summary": "Een voor onbepaalde tijd durende staking door metaalindustrie-arbeiders in Tarragona, georganiseerd door de Plataforma del Metal de Tarragona, is de tweede week ingegaan na de afwijzing van een provinciaal akkoord dat door UGT en CCOO met werkgevers was getekend. De mobilisatie omvat dagelijkse acties, waaronder wegblokkades en bijeenkomsten nabij industrieterreinen, de haven van Tarragona en het stadscentrum. Demonstranten eisen een werkweek van 35 uur, loonpariteit met Barcelona, pensioen op 60-jarige leeftijd en een einde aan uitzendbureaus. Ondertussen verdedigen vakbonden UGT en CCOO het getekende akkoord voor 2026 en 2027, dat een loonsverhoging van 8 procent omvat met een aan de consumentenprijsindex gekoppelde herziening. Politietroepen hebben tijdens de mobilisatie piketlijnen bij diverse industriële toegangspunten ontruimd.",
    "demands": [
-    "Een werkweek van 35 uur",
-    "Loonpariteit met het metaalakkoord van Barcelona",
+    "Werkweek van 35 uur",
+    "Loonpariteit met het metaalcao van Barcelona",
     "Pensioen op 60-jarige leeftijd",
     "Afschaffing van uitzendbureaus",
-    "Verbeteringen van gevaren- en toxiciteitspremies"
+    "Verbeteringen in toxiciteits- en gevarenpremies"
    ],
-   "response": "UGT en CCOO verdedigden het getekende akkoord voor 2026 en 2027, met daarin een loonsverhoging van 8 procent. Volgens Diari de Tarragona ruimden de Mossos d'Esquadra stakingsposten bij de poorttoegangen en industrieterreinen.",
+   "response": "Volgens bronnen verdedigen UGT en CCOO het getekende akkoord dat voorziet in een loonsverhoging van 8 procent over twee jaar. De Mossos d'Esquadra hebben ingegrepen om piketlijnen bij industriële zones en havantoegangspunten te ontruimen.",
    "updates": [
-    "De onbepaalde metaalsectorstaking georganiseerd door de Plataforma del Metal de Tarragona ging van start.",
-    "Ongeveer 500 arbeiders marcheerden naar het centrum van Tarragona nadat de politie toegangspunten bij de haven en industriële gebieden had vrijgemaakt.",
-    "Ongeveer 300 arbeiders verzamelden zich bij het noordelijke chemische terrein in La Pobla de Mafumet, wat tot intermitterende verkeersstremmingen leidde.",
-    "Stakers marcheerden ondanks regen over de Rambla Nova om te blijven eisen dat de arbeidsomstandigheden worden verbeterd."
+    "Een voor onbepaalde tijd durende metaalsectorstaking is begonnen in Tarragona, uitgeroepen door de Plataforma del Metal de Tarragona.",
+    "Ongeveer 500 arbeiders marcheerden naar centraal Tarragona nadat de politie piketlijnen bij haven- en industriële toegangspunten had ontruimd.",
+    "De onbepaalde tijd durende metaalstaking intensivseerde met wegbrekingen en protesten in het stadscentrum.",
+    "Stakers marcheerden ondanks de regen langs de Rambla Nova om de druk te handhaven voor heropende onderhandelingen."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "ongeveer 500 arbeiders"
+    "injuries": "Un manifestante herido leve en un atropello durante un piquete"
    }
   }
  }
