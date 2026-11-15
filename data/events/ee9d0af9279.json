@@ -2,8 +2,8 @@
  "id": "ee9d0af9279",
  "slug": "berlin-gen-z-protest-nov-2026",
  "stage": "live",
- "title": "Gen Z protesters march in Berlin against education cuts and military service",
- "seoTitle": "Berlin Gen Z protest against education cuts",
+ "title": "Gen Z youth march in Berlin against education cuts and military service",
+ "seoTitle": "Berlin march against education cuts",
  "place": {
   "city": "Berlin",
   "region": "State of Berlin",
@@ -13,7 +13,7 @@
   "citySlug": "berlin",
   "regionSlug": "state-of-berlin"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "education",
   "students",
@@ -24,42 +24,48 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated against inadequate school infrastructure, university and social spending cuts, and planned military service.",
-  "want": "Demonstrators demanded increased funding for education, better climate protection, and action against rising living costs.",
-  "changed": "Nov 14: About 1,200 people marched in Berlin-Charlottenburg, resulting in 22 arrests, 28 criminal charges, and injuries to police officers."
+  "why": "Youth protested against education spending cuts, military service plans, and rising living costs.",
+  "want": "Demands include increased funding for education, stronger climate protection, and lower living costs.",
+  "changed": "Nov 15: Police reported 20 to 22 detentions and three injured officers following clashes in Charlottenburg."
  },
- "summary": "On Saturday evening, November 14, 2026, a youth protest organized under the \"Gen Z regelt\" initiative took place in Berlin-Charlottenburg. Demonstrators marched from Savignyplatz along Kurfürstendamm to the Halensee S-Bahn station. According to police estimates, about 1,200 people participated, significantly exceeding the 100 registered attendees. The marchers voiced opposition to poor school conditions, university and social budget cuts, and upcoming military service plans. Some participants set off pyrotechnics, attempted to breach police lines, and chanted slogans against Israel, Chancellor Friedrich Merz, and the police. Law enforcement deployed 700 officers, using pushes, shoves, and punches to manage the crowd. Authorities reported 22 temporary arrests, 28 criminal complaints for offenses including breach of the peace and resisting officers, and injuries to three police officers.",
+ "summary": "On November 14, 2026, about 1,200 to 1,500 people marched in Berlin from Savignyplatz through Kurfürstendamm to the Halensee S-Bahn station. The rally was part of nationwide actions linked to the youth initiative Gen Z regelt. Demonstrators voiced opposition to mandatory military service, university and social budget cuts, inadequate school infrastructure, and rising living costs, while calling for education funding and climate action. Some participants chanted slogans against German Chancellor Friedrich Merz, Israel, and the police. Police deployed 700 officers to monitor the demonstration. According to police statements, scuffles broke out when marchers tried to breach a police line, leading officers to use physical force. Authorities reported detaining between 20 and 22 people for offences including pyrotechnic use, assault, and resisting officers. Three police officers sustained injuries during the event.",
  "organizers": [
   "Gen Z regelt"
  ],
  "demands": [
-  "More money for education and better school infrastructure",
-  "Stronger climate protection",
-  "Measures against rising living costs",
-  "Cancellation of military service plans",
-  "Halt to university and social budget cuts"
+  "Increased funding for education and universities",
+  "Opposition to mandatory military service",
+  "Stronger climate protection measures",
+  "Action against rising living costs",
+  "Protection of social programs"
  ],
- "response": "According to police, officers deployed 700 personnel who used shoves, pushes, and punches to counter attempts to break through police lines and handle pyrotechnics, resulting in 22 arrests, 28 criminal complaints, and three injured officers.",
+ "response": "Police deployed 700 officers, registered 28 criminal complaints, and used physical force to maintain lines after reported attempts to break through.",
  "numbers": {
   "crowd": {
-   "value": 1200,
-   "text": "Rund 1.200 Menschen hatten nach Angaben der Polizei am Samstagabend in Berlin-Charlottenburg demonstriert.",
+   "value": 1500,
+   "text": "up to 1,500 participants according to Habertürk, while Berlin police estimated around 1,200",
    "sources": [
     2,
+    5,
     6,
-    8
+    8,
+    9
    ]
   },
   "arrests": {
    "value": 22,
-   "text": "22 Personen wurden vorläufig festgenommen.",
+   "text": "20 to 22 people detained according to police",
    "sources": [
     2,
+    3,
+    4,
     6,
     8,
     9
@@ -67,39 +73,36 @@
   },
   "injuries": {
    "value": 3,
-   "text": "Nach Angaben der Polizeisprecherin wurden drei Polizisten während er Demonstration verletzt.",
+   "text": "three police officers injured according to police",
    "sources": [
     2,
-    8
+    3,
+    6,
+    8,
+    9
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-14",
-   "text": "About 1,200 protesters gathered at Savignyplatz in Berlin-Charlottenburg for a demonstration organized by \"Gen Z regelt\".",
+   "text": "Around 1,200 to 1,500 youth march from Savignyplatz to Halensee in Berlin against conscription and education cuts.",
    "sources": [
     2,
-    6,
-    8
-   ]
-  },
-  {
-   "at": "2026-11-14",
-   "text": "Participants marched along Kurfürstendamm toward Halensee while some set off pyrotechnics and clashed with police.",
-   "sources": [
-    2,
+    5,
     6,
     8
    ]
   },
   {
    "at": "2026-11-15",
-   "text": "Police announced that 22 people were arrested and 28 criminal investigations were launched following the protest.",
+   "text": "Police report detaining up to 22 participants and state that three officers were injured during clashes.",
    "sources": [
     2,
+    3,
     6,
-    8
+    8,
+    9
    ]
   }
  ],
@@ -168,16 +171,19 @@
    "publishedAt": "2026-11-15T11:41:00.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
+ "conflicts": [
+  "Police initially reported 22 arrests, later updated to 20, while dpa and DW reported 22.",
+  "Police reported two to three officers injured during the demonstration."
+ ],
+ "confidence": 0.8,
  "publishers": 9,
- "reports24h": 9,
+ "reports24h": 10,
  "reportsPrev24h": 4,
- "reports48h": 13,
+ "reports48h": 14,
  "firstSeenAt": "2026-11-14T04:51:52.908Z",
- "lastReportAt": "2026-11-15T11:41:00.000Z",
- "lastCheckedAt": "2026-11-15T12:54:50.881Z",
- "updatedAt": "2026-11-15T12:53:26.242Z",
+ "lastReportAt": "2026-11-15T13:41:55.000Z",
+ "lastCheckedAt": "2026-11-15T16:55:22.863Z",
+ "updatedAt": "2026-11-15T16:51:25.664Z",
  "distinctFrom": [
   "ed09a81bb12",
   "eee740d6ba9",
@@ -194,185 +200,197 @@
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-15T12:53:26.242Z",
- "summaryOf": "34ffad21c9e7",
+ "summarizedAt": "2026-11-15T16:51:25.664Z",
+ "summaryOf": "79c00b166b8c",
  "publishedAt": "2026-11-14T20:50:14.748Z",
  "i18n": {
-  "of": "efdeb07d6d41e50a",
-  "at": "2026-11-15T12:55:50.024Z",
+  "of": "e64361733f584dd6",
+  "at": "2026-11-15T16:57:12.882Z",
   "tries": 1,
   "es": {
-   "title": "Manifestantes de la Generación Z marchan en Berlín contra los recortes educativos y el servicio militar",
-   "seoTitle": "Protesta de la Gen Z en Berlín contra recortes",
+   "title": "Jóvenes de la Generación Z marchan en Berlín contra los recortes en educación y el servicio militar",
+   "seoTitle": "Marcha en Berlín contra recortes educativos",
    "tea": {
-    "why": "Los manifestantes se manifestaron contra la infraestructura escolar inadecuada, los recortes en el gasto universitario y social, y el servicio militar planeado.",
-    "want": "Los manifestantes exigieron un mayor financiamiento para la educación, una mejor protección climática y medidas contra el aumento del costo de vida.",
-    "changed": "14 de nov: Unas 1.200 personas marcharon en Berlín-Charlottenburg, lo que resultó en 22 arrestos, 28 cargos penales y lesiones a agentes de policía."
+    "why": "Los jóvenes protestaron contra los recortes en el gasto educativo, los planes de servicio militar y el aumento del coste de la vida.",
+    "want": "Las demandas incluyen un mayor financiamiento para la educación, una mayor protección climática y menores costes de vida.",
+    "changed": "15 de noviembre: La policía informó de entre 20 y 22 detenciones y tres agentes heridos tras enfrentamientos en Charlottenburg."
    },
-   "summary": "El sábado por la tarde, 14 de noviembre de 2026, tuvo lugar en Berlín-Charlottenburg una protesta juvenil organizada bajo la iniciativa \"Gen Z regelt\". Los manifestantes marcharon desde Savignyplatz a lo largo de Kurfürstendamm hasta la estación de S-Bahn de Halensee. Según estimaciones policiales, participaron unas 1.200 personas, superando significativamente a los 100 asistentes registrados. Los manifestantes expresaron su oposición a las malas condiciones escolares, a los recortes presupuestarios universitarios y sociales, y a los próximos planes de servicio militar. Algunos participantes encendieron pirotecnia, intentaron romper las líneas policiales y corearon consignas contra Israel, el canciller Friedrich Merz y la policía. Las fuerzas de seguridad desplegaron 700 agentes, utilizando empujones, forcejeos y puñetazos para controlar a la multitud. Las autoridades informaron de 22 arrestos temporales, 28 denuncias penales por delitos que incluyen alteración del orden público y resistencia a la autoridad, y lesiones a tres policías.",
+   "summary": "El 14 de noviembre de 2026, entre 1.200 y 1.500 personas marcharon en Berlín desde Savignyplatz a través de Kurfürstendamm hasta la estación de S-Bahn de Halensee. La manifestación formó parte de acciones a nivel nacional vinculadas a la iniciativa juvenil Gen Z regelt. Los manifestantes expresaron su oposición al servicio militar obligatorio, a los recortes en los presupuestos universitarios y sociales, a la infraestructura escolar inadecuada y al aumento del coste de la vida, al tiempo que pedían financiación para la educación y medidas climáticas. Algunos participantes corearon eslóganes contra el canciller alemán Friedrich Merz, Israel y la policía. La policía desplegó 700 agentes para supervisar la manifestación. Según declaraciones policiales, se produjeron forcejeos cuando los manifestantes intentaron romper una línea policial, lo que llevó a los agentes a utilizar la fuerza física. Las autoridades informaron de la detención de entre 20 y 22 personas por delitos que incluyen el uso de pirotecnia, agresión y resistencia a la autoridad. Tres agentes de policía sufrieron lesiones durante el evento.",
    "demands": [
-    "Más dinero para la educación y mejor infraestructura escolar",
-    "Mayor protección climática",
-    "Medidas contra el aumento del costo de vida",
-    "Cancelación de los planes de servicio militar",
-    "Alto a los recortes presupuestarios universitarios y sociales"
+    "Mayor financiamiento para la educación y las universidades",
+    "Oposición al servicio militar obligatorio",
+    "Medidas de protección climática más fuertes",
+    "Acción contra el aumento del coste de la vida",
+    "Protección de los programas sociales"
    ],
-   "response": "Según la policía, los agentes desplegaron 700 efectivos que utilizaron forcejeos, empujones y puñetazos para contrarrestar los intentos de romper las líneas policiales y manejar la pirotecnia, lo que resultó en 22 arrestos, 28 denuncias penales y tres agentes heridos.",
+   "response": "La policía desplegó 700 agentes, registró 28 denuncias penales y utilizó la fuerza física para mantener las líneas tras intentos reportados de romperlas.",
    "updates": [
-    "Unas 1.200 personas se reunieron en Savignyplatz, en Berlín-Charlottenburg, para una manifestación organizada por \"Gen Z regelt\".",
-    "Los participantes marcharon a lo largo de Kurfürstendamm hacia Halensee mientras algunos encendían pirotecnia y se enfrentaban con la policía.",
-    "La policía anunció que 22 personas fueron arrestadas y se iniciaron 28 investigaciones penales tras la protesta."
+    "Alrededor de 1.200 a 1.500 jóvenes marchan desde Savignyplatz hasta Halensee en Berlín contra el servicio militar obligatorio y los recortes en educación.",
+    "La policía informa de la detención de hasta 22 participantes y declara que tres agentes resultaron heridos durante los enfrentamientos."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La policía informó inicialmente de 22 detenciones, cifra actualizada posteriormente a 20, mientras que dpa y DW informaron de 22.",
+    "La policía informó de dos a tres agentes heridos durante la manifestación."
+   ],
    "numbers": {
-    "crowd": "Unas 1.200 personas se manifestaron, según la policía, el sábado por la tarde en Berlín-Charlottenburg.",
-    "arrests": "22 personas fueron detenidas provisionalmente.",
-    "injuries": "Según la portavoz de la policía, tres agentes resultaron heridos durante la manifestación."
+    "crowd": "hasta 1.500 participantes según Habertürk, mientras que la policía de Berlín estimó alrededor de 1.200",
+    "arrests": "20 a 22 personas detenidas según la policía",
+    "injuries": "tres agentes de policía heridos según la policía"
    }
   },
   "fr": {
-   "title": "Des manifestants de la génération Z défilent à Berlin contre les coupes budgétaires dans l'éducation et le service militaire",
-   "seoTitle": "Manifestation de la Gen Z à Berlin contre les coupes",
+   "title": "Des jeunes de la génération Z manifestent à Berlin contre les coupes dans l'éducation et le service militaire",
+   "seoTitle": "Manifestation à Berlin contre les coupes éducatives",
    "tea": {
-    "why": "Les manifestants ont manifesté contre des infrastructures scolaires inadéquates, des coupes dans les dépenses universitaires et sociales, et le service militaire prévu.",
-    "want": "Les manifestants ont exigé un financement accru pour l'éducation, une meilleure protection climatique et des mesures contre la hausse du coût de la vie.",
-    "changed": "14 nov. : Environ 1 200 personnes ont défilé à Berlin-Charlottenburg, entraînant 22 arrestations, 28 poursuites pénales et des blessures parmi les policiers."
+    "why": "Les jeunes ont manifesté contre les coupes dans les dépenses d'éducation, les projets de service militaire et la hausse du coût de la vie.",
+    "want": "Les revendications incluent une augmentation du financement de l'éducation, une protection climatique renforcée et une baisse du coût de la vie.",
+    "changed": "15 novembre : La police a fait état de 20 à 22 interpellations et de trois policiers blessés suite à des affrontements à Charlottenburg."
    },
-   "summary": "Samedi soir, le 14 novembre 2026, une manifestation de jeunes organisée dans le cadre de l'initiative « Gen Z regelt » a eu lieu à Berlin-Charlottenburg. Les manifestants ont défilé de Savignyplatz le long de Kurfürstendamm jusqu'à la station de S-Bahn de Halensee. Selon les estimations de la police, environ 1 200 personnes y ont participé, dépassant largement les 100 participants inscrits. Les manifestants ont exprimé leur opposition aux mauvaises conditions scolaires, aux coupes budgétaires universitaires et sociales, ainsi qu'aux projets de service militaire à venir. Certains participants ont tiré des feux d'artifice, tenté de franchir les cordons de police et scandé des slogans contre Israël, le chancelier Friedrich Merz et la police. Les forces de l'ordre ont déployé 700 agents, utilisant des bousculades, des poussées et des coups de poing pour maîtriser la foule. Les autorités ont fait état de 22 interpellations provisoires, de 28 plaintes pénales pour des infractions comprenant trouble à l'ordre public et rébellion, ainsi que de blessures sur trois policiers.",
+   "summary": "Le 14 novembre 2026, environ 1 200 à 1 500 personnes ont manifesté à Berlin, de Savignyplatz à la station de S-Bahn Halensee, en passant par le Kurfürstendamm. Le rassemblement faisait partie d'actions nationales liées à l'initiative jeunesse Gen Z regelt. Les manifestants ont exprimé leur opposition au service militaire obligatoire, aux coupes dans les budgets universitaires et sociaux, à l'infrastructure scolaire inadéquate et à la hausse du coût de la vie, tout en appelant à un financement de l'éducation et à une action climatique. Certains participants ont scandé des slogans contre le chancelier allemand Friedrich Merz, Israël et la police. La police a déployé 700 agents pour surveiller la manifestation. Selon les déclarations de la police, des échauffourées ont éclaté lorsque des manifestants ont tenté de franchir un cordon policier, conduisant les agents à utiliser la force physique. Les autorités ont rapporté l'interpellation de 20 à 22 personnes pour des infractions incluant l'usage de pyrotechnie, des agressions et la résistance aux agents. Trois policiers ont été blessés au cours de l'événement.",
    "demands": [
-    "Plus d'argent pour l'éducation et de meilleures infrastructures scolaires",
-    "Une protection climatique renforcée",
-    "Des mesures contre la hausse du coût de la vie",
-    "L'annulation des projets de service militaire",
-    "Un arrêt des coupes budgétaires universitaires et sociales"
+    "Augmentation du financement pour l'éducation et les universités",
+    "Opposition au service militaire obligatoire",
+    "Mesures de protection climatique plus fortes",
+    "Action contre la hausse du coût de la vie",
+    "Protection des programmes sociaux"
    ],
-   "response": "Selon la police, les forces de l'ordre ont déployé 700 agents qui ont eu recours à des poussées, des bousculades et des coups de poing pour contrer les tentatives de franchissement des cordons de police et gérer les feux d'artifice, ce qui a entraîné 22 arrestations, 28 plaintes pénales et trois policiers blessés.",
+   "response": "La police a déployé 700 agents, enregistré 28 plaintes pénales et utilisé la force physique pour maintenir les lignes après des tentatives signalées de percée.",
    "updates": [
-    "Environ 1 200 manifestants se sont rassemblés à Savignyplatz à Berlin-Charlottenburg pour une manifestation organisée par « Gen Z regelt ».",
-    "Les participants ont défilé le long de Kurfürstendamm en direction de Halensee tandis que certains déclenchaient des feux d'artifice et s'affrontaient avec la police.",
-    "La police a annoncé que 22 personnes avaient été interpellées et que 28 enquêtes criminelles avaient été ouvertes à la suite de la manifestation."
+    "Environ 1 200 à 1 500 jeunes manifestent de Savignyplatz à Halensee à Berlin contre la conscription et les coupes dans l'éducation.",
+    "La police rapporte l'interpellation de jusqu'à 22 participants et déclare que trois agents ont été blessés lors d'affrontements."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La police a initialement rapporté 22 arrestations, chiffre mis à jour à 20, tandis que dpa et DW ont rapporté 22.",
+    "La police a rapporté deux à trois agents blessés pendant la manifestation."
+   ],
    "numbers": {
-    "crowd": "Environ 1 200 personnes ont manifesté, selon la police, samedi soir à Berlin-Charlottenburg.",
-    "arrests": "22 personnes ont été interpellées à titre provisoire.",
-    "injuries": "Selon la porte-parole de la police, trois policiers ont été blessés pendant la manifestation."
+    "crowd": "jusqu'à 1 500 participants selon Habertürk, tandis que la police de Berlin en a estimé environ 1 200",
+    "arrests": "20 à 22 personnes interpellées selon la police",
+    "injuries": "trois policiers blessés selon la police"
    }
   },
   "de": {
-   "title": "Gen-Z-Demonstranten ziehen in Berlin gegen Bildungskürzungen und Wehrdienst durch die Straßen",
-   "seoTitle": "Berliner Gen-Z-Protest gegen Bildungskürzungen",
+   "title": "Jugendliche der Generation Z demonstrieren in Berlin gegen Bildungskürzungen und Wehrpflicht",
+   "seoTitle": "Berlin-Demo gegen Bildungskürzungen",
    "tea": {
-    "why": "Demonstranten protestierten gegen unzureichende schulische Infrastruktur, Kürzungen der Universitäts- und Sozialausgaben sowie den geplanten Wehrdienst.",
-    "want": "Demonstranten forderten erhöhte Bildungsmittel, besseren Klimaschutz und Maßnahmen gegen steigende Lebenshaltungskosten.",
-    "changed": "14. Nov.: Etwa 1.200 Menschen demonstrierten in Berlin-Charlottenburg, was zu 22 Festnahmen, 28 Strafanzeigen und Verletzten bei der Polizei führte."
+    "why": "Jugendliche protestierten gegen Kürzungen bei Bildungsausgaben, Pläne zur Wehrpflicht und steigende Lebenshaltungskosten.",
+    "want": "Die Forderungen umfassen eine Erhöhung der Bildungsmittel, stärkeren Klimaschutz und niedrigere Lebenshaltungskosten.",
+    "changed": "15. November: Die Polizei meldete 20 bis 22 Festnahmen und drei verletzte Beamte nach Zusammenstößen in Charlottenburg."
    },
-   "summary": "Am Samstagabend, den 14. November 2026, fand in Berlin-Charlottenburg ein Jugendprotest im Rahmen der Initiative „Gen Z regelt“ statt. Demonstranten zogen vom Savignyplatz über den Kurfürstendamm zum S-Bahnhof Halensee. Nach Polizeischätzungen nahmen rund 1.200 Menschen teil, womit die angemeldeten 100 Teilnehmer deutlich übertroffen wurden. Die Teilnehmer äußerten ihren Unmut über schlechte Schulbedingungen, Kürzungen im Universitäts- und Sozialhaushalt sowie bevorstehende Wehrdienstpläne. Einige Teilnehmer zündeten Pyrotechnik ab, versuchten Polizeiketten zu durchbrechen und skandierten Parolen gegen Israel, Kanzler Friedrich Merz und die Polizei. Die Einsatzkräfte waren mit 700 Beamten vor Ort und setzten Schieben, Drücken und Faustschläge ein, um die Menge zu kontrollieren. Die Behörden meldeten 22 vorläufige Festnahmen, 28 Strafanzeigen wegen Delikten wie Landfriedensbruch und Widerstands gegen Vollstreckungsbeamte sowie Verletzungen bei drei Polizeibeamten.",
+   "summary": "Am 14. November 2026 marschierten etwa 1.200 bis 1.500 Menschen in Berlin vom Savignyplatz über den Kurfürstendamm bis zum S-Bahnhof Halensee. Die Kundgebung war Teil bundesweiter Aktionen der Jugendinitiative Gen Z regelt. Die Demonstranten äußerten ihren Widerstand gegen die Wehrpflicht, Kürzungen im Hochschul- und Sozialhaushalt, unzureichende Schulinfrastruktur und steigende Lebenshaltungskosten, während sie gleichzeitig Bildungsfinanzierung und Klimaschutz forderten. Einige Teilnehmer skandierten Parolen gegen den deutschen Bundeskanzler Friedrich Merz, Israel und die Polizei. Die Polizei setzte 700 Beamte ein, um die Demonstration zu überwachen. Nach Angaben der Polizei kam es zu Handgemengen, als Demonstranten versuchten, eine Polizeikette zu durchbrechen, woraufhin Beamte körperliche Gewalt anwendeten. Die Behörden meldeten die Festnahme von 20 bis 22 Personen wegen Delikten wie Pyrotechnikgebrauch, Körperverletzung und Widerstand gegen Vollstreckungsbeamte. Drei Polizeibeamte erlitten während der Veranstaltung Verletzungen.",
    "demands": [
-    "Mehr Geld für Bildung und eine bessere Schulinfrastruktur",
-    "Stärkerer Klimaschutz",
+    "Erhöhung der Mittel für Bildung und Universitäten",
+    "Widerstand gegen die Wehrpflicht",
+    "Stärkere Klimaschutzmaßnahmen",
     "Maßnahmen gegen steigende Lebenshaltungskosten",
-    "Rücknahme der Wehrdienstpläne",
-    "Stopp der Kürzungen im Universitäts- und Sozialhaushalt"
+    "Schutz sozialer Programme"
    ],
-   "response": "Nach Angaben der Polizei waren 700 Einsatzkräfte im Einsatz, die mit Drücken, Schieben und Faustschlägen gegen Durchbruchsversuche von Polizeiketten und Pyrotechnik vorgingen, was zu 22 Festnahmen, 28 Strafanzeigen und drei verletzten Beamten führte.",
+   "response": "Die Polizei setzte 700 Beamte ein, registrierte 28 Strafanzeigen und wandte körperliche Gewalt an, um die Linien nach gemeldeten Durchbruchsversuchen zu halten.",
    "updates": [
-    "Rund 1.200 Demonstranten versammelten sich am Savignyplatz in Berlin-Charlottenburg zu einer von „Gen Z regelt“ organisierten Demonstration.",
-    "Teilnehmer zogen den Kurfürstendamm entlang in Richtung Halensee, während einige Pyrotechnik zündeten und Auseinandersetzungen mit der Polizei hatten.",
-    "Die Polizei gab bekannt, dass im Anschluss an die Proteste 22 Personen festgenommen und 28 Ermittlungsverfahren eingeleitet wurden."
+    "Etwa 1.200 bis 1.500 Jugendliche marschieren vom Savignyplatz nach Halensee in Berlin gegen Wehrpflicht und Bildungskürzungen.",
+    "Die Polizei meldet die Festnahme von bis zu 22 Teilnehmern und gibt an, dass drei Beamte bei Zusammenstößen verletzt wurden."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Die Polizei meldete zunächst 22 Festnahmen, korrigierte dies später auf 20, während dpa und DW 22 meldeten.",
+    "Die Polizei meldete zwei bis drei verletzte Beamte während der Demonstration."
+   ],
    "numbers": {
-    "crowd": "Rund 1.200 Menschen hatten nach Angaben der Polizei am Samstagabend in Berlin-Charlottenburg demonstriert.",
-    "arrests": "22 Personen wurden vorläufig festgenommen.",
-    "injuries": "Nach Angaben der Polizeisprecherin wurden drei Polizisten während er Demonstration verletzt."
+    "crowd": "bis zu 1.500 Teilnehmer laut Habertürk, während die Berliner Polizei etwa 1.200 schätzte",
+    "arrests": "20 bis 22 Personen festgenommen laut Polizei",
+    "injuries": "drei Polizeibeamte verletzt laut Polizei"
    }
   },
   "it": {
-   "title": "Manifestanti della Gen Z sfilano a Berlino contro i tagli all'istruzione e il servizio militare",
-   "seoTitle": "Protesta della Gen Z a Berlino contro i tagli",
+   "title": "Giovani della Generazione Z marciano a Berlino contro i tagli all'istruzione e il servizio militare",
+   "seoTitle": "Marcia a Berlino contro i tagli all'istruzione",
    "tea": {
-    "why": "I manifestanti hanno protestato contro inadeguate infrastrutture scolastiche, tagli alla spesa universitaria e sociale e il servizio militare pianificato.",
-    "want": "I manifestanti hanno chiesto maggiori fondi per l'istruzione, una migliore protezione del clima e misure contro l'aumento del costo della vita.",
-    "changed": "14 nov: Circa 1.200 persone hanno sfilato a Berlino-Charlottenburg, provocando 22 arresti, 28 denunce penali e il ferimento di agenti di polizia."
+    "why": "I giovani hanno protestato contro i tagli alla spesa per l'istruzione, i piani per il servizio militare e l'aumento del costo della vita.",
+    "want": "Le richieste includono un aumento dei finanziamenti per l'istruzione, una maggiore protezione del clima e una riduzione del costo della vita.",
+    "changed": "15 novembre: La polizia ha riferito di 20-22 fermi e tre agenti feriti in seguito agli scontri a Charlottenburg."
    },
-   "summary": "Sabato sera, 14 novembre 2026, si è svolta a Berlino-Charlottenburg una protesta giovanile organizzata nell'ambito dell'iniziativa \"Gen Z regelt\". I manifestanti hanno marciato da Savignyplatz lungo Kurfürstendamm fino alla stazione della S-Bahn di Halensee. Secondo le stime della polizia, hanno partecipato circa 1.200 persone, superando significativamente i 100 partecipanti registrati. I manifestanti hanno espresso opposizione alle scarse condizioni scolastiche, ai tagli di bilancio universitario e sociale e ai prossimi piani per il servizio militare. Alcuni partecipanti hanno acceso fuochi d'artificio, hanno tentato di sfondare i cordoni di polizia e hanno gridato slogan contro Israele, il cancelliere Friedrich Merz e la polizia. Le forze dell'ordine hanno impiegato 700 agenti, utilizzando spinte, strattoni e pugni per gestire la folla. Le autorità hanno segnalato 22 arresti temporanei, 28 denunce penali per reati tra cui turbativa dell'ordine pubblico e resistenza a pubblico ufficiale, e il ferimento di tre poliziotti.",
+   "summary": "Il 14 novembre 2026, circa 1.200-1.500 persone hanno marciato a Berlino da Savignyplatz lungo il Kurfürstendamm fino alla stazione S-Bahn di Halensee. Il corteo faceva parte di azioni a livello nazionale legate all'iniziativa giovanile Gen Z regelt. I manifestanti hanno espresso opposizione al servizio militare obbligatorio, ai tagli ai bilanci universitari e sociali, alle infrastrutture scolastiche inadeguate e all'aumento del costo della vita, chiedendo al contempo finanziamenti per l'istruzione e azioni per il clima. Alcuni partecipanti hanno scandito slogan contro il cancelliere tedesco Friedrich Merz, Israele e la polizia. La polizia ha dispiegato 700 agenti per monitorare la manifestazione. Secondo le dichiarazioni della polizia, sono scoppiati tafferugli quando i manifestanti hanno tentato di rompere un cordone di polizia, portando gli agenti a usare la forza fisica. Le autorità hanno riferito di aver fermato tra le 20 e le 22 persone per reati che includono l'uso di materiale pirotecnico, aggressione e resistenza a pubblico ufficiale. Tre agenti di polizia hanno riportato ferite durante l'evento.",
    "demands": [
-    "Più soldi per l'istruzione e migliori infrastrutture scolastiche",
-    "Maggiore protezione del clima",
-    "Misure contro l'aumento del costo della vita",
-    "Annullamento dei piani per il servizio militare",
-    "Stop ai tagli di bilancio universitario e sociale"
+    "Aumento dei finanziamenti per l'istruzione e le università",
+    "Opposizione al servizio militare obbligatorio",
+    "Misure di protezione del clima più forti",
+    "Azione contro l'aumento del costo della vita",
+    "Protezione dei programmi sociali"
    ],
-   "response": "Secondo la polizia, gli agenti impiegati sono stati 700 e hanno utilizzato strattoni, spinte e pugni per contrastare i tentativi di sfondare i cordoni di polizia e gestire i fuochi d'artificio, provocando 22 arresti, 28 denunce penali e tre agenti feriti.",
+   "response": "La polizia ha dispiegato 700 agenti, registrato 28 denunce penali e usato la forza fisica per mantenere le linee dopo i tentativi segnalati di sfondamento.",
    "updates": [
-    "Circa 1.200 manifestanti si sono radunati a Savignyplatz, a Berlino-Charlottenburg, per una manifestazione organizzata da \"Gen Z regelt\".",
-    "I partecipanti hanno sfilato lungo Kurfürstendamm in direzione di Halensee, mentre alcuni accendevano fuochi d'artificio e si scontravano con la polizia.",
-    "La polizia ha annunciato che 22 persone sono state arrestate e sono state avviate 28 indagini penali in seguito alla protesta."
+    "Circa 1.200-1.500 giovani marciano da Savignyplatz a Halensee a Berlino contro la leva obbligatoria e i tagli all'istruzione.",
+    "La polizia riferisce di aver fermato fino a 22 partecipanti e dichiara che tre agenti sono rimasti feriti durante gli scontri."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La polizia ha inizialmente riferito di 22 arresti, aggiornati poi a 20, mentre dpa e DW hanno riportato 22.",
+    "La polizia ha riferito di due o tre agenti feriti durante la manifestazione."
+   ],
    "numbers": {
-    "crowd": "Rund 1.200 Menschen hatten nach Angaben der Polizei am Samstagabend in Berlin-Charlottenburg demonstriert.",
-    "arrests": "22 Personen wurden vorläufig festgenommen.",
-    "injuries": "Nach Angaben der Polizeisprecherin wurden drei Polizisten während er Demonstration verletzt."
+    "crowd": "fino a 1.500 partecipanti secondo Habertürk, mentre la polizia di Berlino ne ha stimati circa 1.200",
+    "arrests": "20-22 persone fermate secondo la polizia",
+    "injuries": "tre agenti di polizia feriti secondo la polizia"
    }
   },
   "pt": {
-   "title": "Manifestantes da Geração Z marcham em Berlim contra cortes na educação e serviço militar",
-   "seoTitle": "Protesto da Geração Z em Berlim contra cortes",
+   "title": "Jovens da Geração Z marcham em Berlim contra cortes na educação e serviço militar",
+   "seoTitle": "Marcha em Berlim contra cortes na educação",
    "tea": {
-    "why": "Os manifestantes protestaram contra infraestruturas escolares inadequadas, cortes nas despesas universitárias e sociais, e o serviço militar planeado.",
-    "want": "Os manifestantes exigiram maior financiamento para a educação, melhor proteção climática e medidas contra o aumento do custo de vida.",
-    "changed": "14 de nov: Cerca de 1.200 pessoas marcharam em Berlim-Charlottenburg, resultando em 22 detenções, 28 acusações criminais e ferimentos em agentes policiais."
+    "why": "Os jovens protestaram contra cortes nas despesas com educação, planos de serviço militar e o aumento do custo de vida.",
+    "want": "As exigências incluem um aumento do financiamento para a educação, uma proteção climática mais forte e custos de vida mais baixos.",
+    "changed": "15 de novembro: A polícia reportou 20 a 22 detenções e três agentes feridos após confrontos em Charlottenburg."
    },
-   "summary": "No sábado à noite, 14 de novembro de 2026, realizou-se em Berlim-Charlottenburg um protesto de jovens organizado no âmbito da iniciativa \"Gen Z regelt\". Os manifestantes marcharam desde Savignyplatz ao longo da Kurfürstendamm até à estação de S-Bahn de Halensee. Segundo estimativas policiais, participaram cerca de 1.200 pessoas, superando significativamente os 100 participantes registados. Os manifestantes manifestaram oposição às más condições escolares, aos cortes orçamentais universitários e sociais, e aos futuros planos de serviço militar. Alguns participantes acenderam pirotecnia, tentaram romper as linhas policiais e entoaram palavras de ordem contra Israel, o chanceler Friedrich Merz e a polícia. As forças de segurança mobilizaram 700 agentes, recorrendo a empurrões, encontrões e murais para controlar a multidão. As autoridades registaram 22 detenções temporárias, 28 queixas-crime por infrações que incluem perturbação da ordem pública e resistência a agentes, e ferimentos em três polícias.",
+   "summary": "No dia 14 de novembro de 2026, cerca de 1.200 a 1.500 pessoas marcharam em Berlim, desde Savignyplatz através de Kurfürstendamm até à estação de S-Bahn de Halensee. A manifestação fez parte de ações a nível nacional ligadas à iniciativa juvenil Gen Z regelt. Os manifestantes expressaram oposição ao serviço militar obrigatório, aos cortes nos orçamentos universitários e sociais, às infraestruturas escolares inadequadas e ao aumento do custo de vida, apelando simultaneamente ao financiamento da educação e à ação climática. Alguns participantes entoaram palavras de ordem contra o chanceler alemão Friedrich Merz, Israel e a polícia. A polícia destacou 700 agentes para monitorizar a manifestação. Segundo declarações da polícia, ocorreram confrontos quando os manifestantes tentaram romper uma linha policial, levando os agentes a usar força física. As autoridades reportaram a detenção de 20 a 22 pessoas por crimes que incluem o uso de pirotecnia, agressão e resistência às autoridades. Três agentes da polícia sofreram ferimentos durante o evento.",
    "demands": [
-    "Mais dinheiro para a educação e melhores infraestruturas escolares",
-    "Maior proteção climática",
-    "Medidas contra o aumento do custo de vida",
-    "Cancelamento dos planos de serviço militar",
-    "Travagem dos cortes orçamentais universitários e sociais"
+    "Aumento do financiamento para a educação e universidades",
+    "Oposição ao serviço militar obrigatório",
+    "Medidas de proteção climática mais fortes",
+    "Ação contra o aumento do custo de vida",
+    "Proteção de programas sociais"
    ],
-   "response": "Segundo a polícia, os agentes mobilizaram 700 efetivos que utilizaram empurrões, encontrões e murais para conter as tentativas de romper as linhas policiais e lidar com a pirotecnia, resultando em 22 detenções, 28 queixas-crime e três agentes feridos.",
+   "response": "A polícia destacou 700 agentes, registou 28 queixas criminais e usou força física para manter as linhas após tentativas reportadas de rutura.",
    "updates": [
-    "Cerca de 1.200 manifestantes reuniram-se em Savignyplatz, em Berlim-Charlottenburg, para uma manifestação organizada por \"Gen Z regelt\".",
-    "Os participantes marcharam ao longo da Kurfürstendamm em direção a Halensee, enquanto alguns acendiam pirotecnia e se envolviam em confrontos com a polícia.",
-    "A polícia anunciou que 22 pessoas foram detidas e que foram abertas 28 investigações criminais na sequência do protesto."
+    "Cerca de 1.200 a 1.500 jovens marcham de Savignyplatz para Halensee em Berlim contra o recrutamento e cortes na educação.",
+    "A polícia reporta a detenção de até 22 participantes e afirma que três agentes ficaram feridos durante confrontos."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "A polícia reportou inicialmente 22 detenções, atualizadas depois para 20, enquanto a dpa e a DW reportaram 22.",
+    "A polícia reportou dois a três agentes feridos durante a manifestação."
+   ],
    "numbers": {
-    "crowd": "Rund 1.200 Menschen hatten nach Angaben der Polizei am Samstagabend in Berlin-Charlottenburg demonstriert.",
-    "arrests": "22 Personen wurden vorläufig festgenommen.",
-    "injuries": "Nach Angaben der Polizeisprecherin wurden drei Polizisten während er Demonstration verletzt."
+    "crowd": "até 1.500 participantes segundo a Habertürk, enquanto a polícia de Berlim estimou cerca de 1.200",
+    "arrests": "20 a 22 pessoas detidas segundo a polícia",
+    "injuries": "três agentes da polícia feridos segundo a polícia"
    }
   },
   "nl": {
-   "title": "Gen Z-demonstranten marcheren in Berlijn tegen onderwijsbezuinigingen en militaire dienst",
-   "seoTitle": "Berlijns Gen Z-protest tegen onderwijsbezuinigingen",
+   "title": "Jongeren van Generatie Z marcheren in Berlijn tegen onderwijsbezuinigingen en militaire dienst",
+   "seoTitle": "Berlijnse mars tegen onderwijsbezuinigingen",
    "tea": {
-    "why": "Demonstranten protesteerden tegen gebrekkige schoolinfrastructuren, bezuinigingen op universitaire en sociale uitgaven, en de geplande militaire dienst.",
-    "want": "Demonstranten eisten meer financiering voor onderwijs, betere klimaatbescherming en maatregelen tegen stijgende kosten van levensonderhoud.",
-    "changed": "14 nov: Ongeveer 1.200 mensen marcheerden in Berlijn-Charlottenburg, wat leidde tot 22 arrestaties, 28 strafrechtelijke aanklachten en verwondingen bij politieagenten."
+    "why": "Jongeren protesteerden tegen bezuinigingen op onderwijsuitgaven, plannen voor militaire dienst en stijgende kosten van levensonderhoud.",
+    "want": "De eisen omvatten meer financiering voor onderwijs, sterkere klimaatbescherming en lagere kosten van levensonderhoud.",
+    "changed": "15 november: De politie meldde 20 tot 22 arrestaties en drie gewonde agenten na confrontaties in Charlottenburg."
    },
-   "summary": "Op zaterdagavond 14 november 2026 vond in Berlijn-Charlottenburg een jongerenprotest plaats dat werd georganiseerd onder het initiatief \"Gen Z regelt\". Demonstranten marcheerden van Savignyplatz langs de Kurfürstendamm naar het S-Bahn-station Halensee. Volgens politieschattingen namen ongeveer 1.200 mensen deel, waarmee het aantal van 100 geregistreerde deelnemers ruimschoots werd overtroffen. De demonstranten spraken zich uit tegen slechte schoolomstandigheden, bezuinigingen op de universitaire en sociale begroting en aankomende plannen voor militaire dienst. Sommige deelnemers staken pyrotechniek af, probeerden politielories te doorbreken en riepen leuzen tegen Israël, bondskanselier Friedrich Merz en de politie. De handhaving zette 700 agenten in en gebruikte duwen, trekken en stoten om de menigte te beheersen. Autoriteiten meldden 22 tijdelijke arrestaties, 28 strafrechtelijke aanklachten voor delicten waaronder openbare ordeverstoring en verzet tegen agenten, en verwondingen bij drie politieagenten.",
+   "summary": "Op 14 november 2026 marcheerden ongeveer 1.200 tot 1.500 mensen in Berlijn van Savignyplatz via de Kurfürstendamm naar het S-Bahnstation Halensee. De demonstratie maakte deel uit van landelijke acties verbonden aan het jongereninitiatief Gen Z regelt. De demonstranten uitten hun verzet tegen de militaire dienstplicht, bezuinigingen op universiteits- en sociale budgetten, ontoereikende schoolinfrastructuur en stijgende kosten van levensonderhoud, terwijl ze opriepen tot onderwijsfinanciering en klimaatactie. Sommige deelnemers scandeerden leuzen tegen de Duitse bondskanselier Friedrich Merz, Israël en de politie. De politie zette 700 agenten in om de demonstratie te bewaken. Volgens politieverklaringen braken er schermutselingen uit toen demonstranten probeerden een politielinie te doorbreken, waarna agenten fysiek geweld gebruikten. De autoriteiten meldden de arrestatie van 20 tot 22 personen voor overtredingen waaronder het gebruik van vuurwerk, mishandeling en verzet tegen agenten. Drie politieagenten raakten gewond tijdens het evenement.",
    "demands": [
-    "Meer geld voor onderwijs en betere schoolinfrastructuur",
-    "Sterkere klimaatbescherming",
-    "Maatregelen tegen stijgende kosten van levensonderhoud",
-    "Intrekking van de militaire dienstplannen",
-    "Stop op bezuinigingen op de universitaire en sociale begroting"
+    "Verhoogde financiering voor onderwijs en universiteiten",
+    "Verzet tegen de militaire dienstplicht",
+    "Sterkere klimaatbeschermingsmaatregelen",
+    "Actie tegen stijgende kosten van levensonderhoud",
+    "Bescherming van sociale programma's"
    ],
-   "response": "Volgens de politie zetten agenten 700 personeelsleden in die duwen, trekken en stoten gebruikten om pogingen om door politieordens te breken tegen te gaan en pyrotechniek aan te pakken, wat resulteerde in 22 arrestaties, 28 strafrechtelijke aanklachten en drie gewonde agenten.",
+   "response": "De politie zette 700 agenten in, registreerde 28 strafrechtelijke klachten en gebruikte fysiek geweld om de linies te behouden na gemelde doorbraakpogingen.",
    "updates": [
-    "Ongeveer 1.200 demonstranten verzamelden zich op de Savignyplatz in Berlijn-Charlottenburg voor een demonstratie georganiseerd door \"Gen Z regelt\".",
-    "Deelnemers marcheerden over de Kurfürstendamm richting Halensee terwijl sommigen pyrotechniek afstaken en slaags raakten met de politie.",
-    "De politie kondigde aan dat 22 mensen werden gearresteerd en 28 strafrechtelijke onderzoeken werden gestart naar aanleiding van het protest."
+    "Ongeveer 1.200 tot 1.500 jongeren marcheren van Savignyplatz naar Halensee in Berlijn tegen de dienstplicht en onderwijsbezuinigingen.",
+    "De politie meldt de arrestatie van maximaal 22 deelnemers en stelt dat drie agenten gewond raakten tijdens confrontaties."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "De politie meldde aanvankelijk 22 arrestaties, later bijgewerkt naar 20, terwijl dpa en DW 22 meldden.",
+    "De politie meldde twee tot drie gewonde agenten tijdens de demonstratie."
+   ],
    "numbers": {
-    "crowd": "Rund 1.200 Menschen hatten nach Angaben der Polizei am Samstagabend in Berlin-Charlottenburg demonstriert.",
-    "arrests": "22 Personen wurden vorläufig festgenommen.",
-    "injuries": "Nach Angaben der Polizeisprecherin wurden drei Polizisten während er Demonstration verletzt."
+    "crowd": "tot 1.500 deelnemers volgens Habertürk, terwijl de Berlijnse politie ongeveer 1.200 schatte",
+    "arrests": "20 tot 22 personen gearresteerd volgens de politie",
+    "injuries": "drie politieagenten gewond volgens de politie"
    }
   }
  }
