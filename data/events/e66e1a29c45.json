@@ -2,8 +2,8 @@
  "id": "e66e1a29c45",
  "slug": "lisbon-housing-rent-laws-protest-nov-2026",
  "stage": "live",
- "title": "Tens of thousands march across Portugal over housing crisis",
- "seoTitle": "Lisbon housing protest",
+ "title": "Tens of thousands march across Portugal in major housing protest",
+ "seoTitle": "Lisbon housing crisis march",
  "place": {
   "city": "Lisbon",
   "region": "Lisbon",
@@ -13,84 +13,93 @@
   "citySlug": "lisbon",
   "regionSlug": "lisbon"
  },
- "scope": "multi-city",
+ "scope": "nationwide",
  "causes": [
   "housing",
-  "prices"
+  "prices",
+  "labour"
  ],
- "kind": "multi-day",
+ "kind": "one-day",
  "startedOn": "2026-11-14",
- "status": "ongoing",
- "vibe": "heating-up",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "top-10"
- ],
- "isOngoing": true,
+ "review": "auto",
+ "reviewReasons": [],
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against surging rental prices, stagnant wages, and a worsening housing crisis outpacing incomes.",
-  "want": "Demonstrators demand caps on rent increases, greater legal protection against eviction, and more affordable housing.",
-  "changed": "Nov 14: Tens of thousands marched across more than 30 towns and cities in Portugal under the slogan \"They will not steal our right to a home.\""
+  "why": "Protesters marched against a worsening housing crisis, surging rental and home prices, and legislation facilitating property evictions.",
+  "want": "Demonstrators demanded rent caps, stronger tenant protections against eviction, increased affordable housing, and higher wages.",
+  "changed": "Nov 14: Tens of thousands marched across Lisbon and over 30 cities and towns in Portugal under the Casa Para Viver platform."
  },
- "summary": "Tens of thousands of people marched across more than 30 towns and cities in Portugal, including Lisbon and Porto, to protest soaring housing costs and rental prices. Organised by the Casa Para Viver platform, the demonstrations featured participants carrying banners and chanting slogans such as \"Lower rents, higher salaries.\" Protesters demanded rent caps, stronger tenant protections against evictions, and more affordable housing following a parliamentary move to accelerate eviction procedures. Authorities responded with heavy-handed policing, including riot police and dogs clearing some protest camps, while political talks between the Prime Minister, the opposition, and other parties have yet to yield concrete solutions.",
+ "summary": "Tens of thousands of people took to the streets across more than 30 towns and cities in Portugal, including Lisbon and Porto, to protest against soaring housing costs and rental prices. Organised by the Casa Para Viver platform under the slogan \"They will not steal our right to a home,\" participants marched with drums, music, and banners demanding rent caps, stronger tenant protections against evictions, and more affordable housing. The demonstrations followed weeks of rising social unrest and protests over housing affordability, fueled further by a parliamentary bill to accelerate eviction procedures. Eurostat data showed Portugal experienced the largest increase in the home price-to-income ratio in the European Union between 2015 and 2025. Authorities responded with heavy-handed policing in some earlier tent camps, while the President called for dialogue as political talks yielded no immediate breakthroughs.",
  "organizers": [
   "Casa Para Viver"
  ],
  "demands": [
-  "Place caps on rent increases",
-  "Provide greater legal protection for tenants against eviction",
-  "Increase affordable housing",
-  "Reverse proposed changes to rental legislation"
+  "Caps on rent increases",
+  "Greater legal protection for tenants against eviction",
+  "More affordable housing",
+  "Reversal of proposed changes to rental legislation",
+  "Higher salaries"
  ],
- "response": "According to reports, police have forcibly cleared some protest camps using riot police and dogs, drawing accusations of heavy-handed tactics. President Antonio José Seguro called for dialogue, but meetings between Prime Minister Luis Montenegro and political parties produced no concrete breakthroughs.",
- "numbers": {},
+ "response": "Police used riot squads and dogs to forcibly clear tent camps set up by activists in central squares, drawing accusations of heavy-handed tactics. President Antonio José Seguro called for dialogue between the government and opposition.",
+ "numbers": {
+  "crowd": {
+   "value": 10000,
+   "text": "Tens of thousands of people have taken to the streets",
+   "sources": [
+    4,
+    7
+   ]
+  }
+ },
  "updates": [
   {
-   "at": "2026-11-14",
-   "text": "Tens of thousands participated in protests across more than 30 towns and cities in Portugal over surging housing costs.",
+   "at": "2026-11-13",
+   "text": "The public prosecutor's office announced an investigation into a firecracker explosion in Lisbon and an armed police officer in Porto during housing protests.",
    "sources": [
-    3,
-    6
+    1
    ]
   },
   {
-   "at": "2026-11-15",
-   "text": "Protesters spent the night in Lisbon's Restauradores square without confrontations.",
+   "at": "2026-11-14",
+   "text": "Tens of thousands participated in national demonstrations organised by Casa Para Viver across more than 30 Portuguese cities and towns.",
    "sources": [
-    8
+    4,
+    7
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.rtp.pt/noticias/pais/ministerio-publico-investiga-psp-a-paisana-no-porto-e-lancamento-de-petardo-em-lisboa_n1778993",
+   "publisher": "rtp.pt",
+   "title": "Ministério Público investiga PSP à paisana no Porto e lançamento de petardo em Lisboa",
+   "publishedAt": "2026-11-13T17:38:05.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://www.publico.pt/2026/11/14/sociedade/noticia/manifestacoes-habitacao-saem-rua-pais-2194984",
    "publisher": "publico.pt",
    "title": "Manifestações pela habitação saem à rua em todo o país",
    "publishedAt": "2026-11-14T14:55:35.000Z"
   },
   {
-   "n": 2,
+   "n": 3,
    "url": "https://www.seattletimes.com/business/tens-of-thousands-march-in-portuguese-cities-against-surging-home-prices/",
    "publisher": "seattletimes.com",
    "title": "Tens of thousands march in Portuguese cities against surging home prices",
    "publishedAt": "2026-11-14T16:54:05.000Z"
   },
   {
-   "n": 3,
+   "n": 4,
    "url": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss",
    "publisher": "aljazeera.com",
    "title": "Tens of thousands march in latest Portugal housing protests",
    "publishedAt": "2026-11-14T19:27:55.000Z"
-  },
-  {
-   "n": 4,
-   "url": "https://www.cmjornal.pt/mais-cm/especiais/manifestacoes-pela-habitacao/detalhe/casa-para-viver-marca-nova-manifestacao-para-12-de-dezembro",
-   "publisher": "cmjornal.pt",
-   "title": "Casa para Viver marca nova manifestação para 12 de dezembro",
-   "publishedAt": "2026-11-14T20:23:00.000Z"
   },
   {
    "n": 5,
@@ -101,10 +110,10 @@
   },
   {
    "n": 6,
-   "url": "https://www.chinadaily.com.cn/a/202611/15/WS6af8d747e4b03ebf8519c680.html",
-   "publisher": "chinadaily.com.cn",
-   "title": "Protest against housing crisis and cost of living in Lisbon",
-   "publishedAt": "2026-11-14T21:48:54.000Z"
+   "url": "https://www.in.gr/2026/11/15/world/xiliades-portogaloi-stous-dromous-se-diadilosi-kata-tis-stegastikis-krisis/",
+   "publisher": "in.gr",
+   "title": "Χιλιάδες Πορτογάλοι στους δρόμους σε διαδήλωση κατά της στεγαστικής κρίσης | in.gr",
+   "publishedAt": "2026-11-14T22:45:38.000Z"
   },
   {
    "n": 7,
@@ -115,192 +124,211 @@
   },
   {
    "n": 8,
-   "url": "https://www.rtp.pt/noticias/noticiario-antena1/06h-sem-confrontos-dezenas-de-manifestantes-passam-a-noite-nos-restauradore_a1_1779279",
-   "publisher": "rtp.pt",
-   "title": "06h Sem confrontos dezenas de manifestantes passam a noite nos Restauradore",
-   "publishedAt": "2026-11-15T07:19:02.000Z"
-  },
-  {
-   "n": 9,
    "url": "https://www.lsm.lv/raksts/zinas/arzemes/15.11.2026-portugale-desmitiem-tukstosi-cilveku-proteste-pret-majoklu-dardzibu.a671976/",
    "publisher": "lsm.lv",
    "title": "Portugālē desmitiem tūkstoši cilvēku protestē pret mājokļu dārdzību",
    "publishedAt": "2026-11-15T08:00:35.000Z"
   },
   {
-   "n": 10,
+   "n": 9,
    "url": "https://www.lequotidien.lu/monde/lisbonne-manifestation-contre-la-crise-du-logement/1672145",
    "publisher": "lequotidien.lu",
    "title": "Lisbonne : manifestation contre la crise du logement",
    "publishedAt": "2026-11-15T13:19:26.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://www.pcp.pt/manifestacao-casa-para-viver-nao-nos-vao-roubar-direito-morar",
+   "publisher": "pcp.pt",
+   "title": "Manifestação Casa para Viver «Não nos vão roubar o direito a morar»",
+   "publishedAt": "2026-11-15T16:22:29.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.95,
  "publishers": 10,
- "reports24h": 15,
- "reportsPrev24h": 4,
+ "reports24h": 13,
+ "reportsPrev24h": 6,
  "reports48h": 19,
  "firstSeenAt": "2026-11-13T20:52:09.323Z",
- "lastReportAt": "2026-11-15T13:19:26.000Z",
- "lastCheckedAt": "2026-11-15T16:55:22.863Z",
- "updatedAt": "2026-11-15T16:53:51.615Z",
+ "lastReportAt": "2026-11-15T16:22:29.000Z",
+ "lastCheckedAt": "2026-11-15T20:54:50.410Z",
+ "updatedAt": "2026-11-15T20:53:58.214Z",
  "distinctFrom": [
   "ec9b4127006",
   "ebf038a7a88"
  ],
  "searchedAt": "2026-11-14T20:46:36.505Z",
  "responseSources": [
-  6,
   7,
-  10
+  8,
+  9
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-15T16:53:51.615Z",
- "summaryOf": "cd9b47633e0a",
+ "summarizedAt": "2026-11-15T20:53:58.214Z",
+ "summaryOf": "55972f785573",
  "publishedAt": "2026-11-14T20:50:14.748Z",
  "i18n": {
-  "of": "4bc4835bd4918329",
-  "at": "2026-11-15T16:56:21.520Z",
+  "of": "40f11e1861911a01",
+  "at": "2026-11-15T20:56:09.818Z",
   "tries": 1,
   "es": {
-   "title": "Decenas de miles marchan en Portugal por la crisis de la vivienda",
-   "seoTitle": "Protesta por la vivienda en Lisboa",
+   "title": "Decenas de miles marchan en Portugal en una gran protesta por la vivienda",
+   "seoTitle": "Marcha por la crisis de vivienda en Lisboa",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el aumento de los precios de los alquileres, el estancamiento de los salarios y una crisis de la vivienda que empeora y supera a los ingresos.",
-    "want": "Los manifestantes exigen límites a los aumentos de los alquileres, mayor protección legal contra los desahucios y más viviendas asequibles.",
-    "changed": "14 de noviembre: Decenas de miles de personas marcharon en más de 30 pueblos y ciudades de Portugal bajo el lema \"No nos robarán nuestro derecho a una vivienda\"."
+    "why": "Los manifestantes marcharon contra el empeoramiento de la crisis de vivienda, el aumento de los precios del alquiler y de la vivienda, y la legislación que facilita los desahucios de propiedades.",
+    "want": "Los manifestantes exigieron topes a los alquileres, mayor protección para los inquilinos contra los desahucios, un aumento de la vivienda asequible y salarios más altos.",
+    "changed": "14 de noviembre: Decenas de miles marcharon por Lisboa y más de 30 ciudades y pueblos de Portugal bajo la plataforma Casa Para Viver."
    },
-   "summary": "Decenas de miles de personas marcharon en más de 30 pueblos y ciudades de Portugal, incluidos Lisboa y Oporto, para protestar por el aumento de los costes de la vivienda y los precios de los alquileres. Organizadas por la plataforma Casa Para Viver, las manifestaciones contaron con participantes que llevaban pancartas y coreaban consignas como \"Alquileres más bajos, salarios más altos\". Los manifestantes exigieron límites a los alquileres, una mayor protección de los inquilinos contra los desahucios y más viviendas asequibles tras una medida parlamentaria para acelerar los procedimientos de desahucio. Las autoridades respondieron con una actuación policial contundente, incluyendo policía antidisturbios y perros para desalojar algunos campamentos de protesta, mientras que las conversaciones políticas entre el Primer Ministro, la oposición y otros partidos aún no han dado soluciones concretas.",
+   "summary": "Decenas de miles de personas salieron a las calles en más de 30 pueblos y ciudades de Portugal, incluidos Lisboa y Oporto, para protestar contra el encarecimiento de la vivienda y los precios de los alquileres. Organizados por la plataforma Casa Para Viver bajo el lema \"No nos robarán el derecho a una vivienda\", los participantes marcharon con tambores, música y pancartas exigiendo topes a los alquileres, mayor protección para los inquilinos contra los desahucios y más vivienda asequible. Las manifestaciones se produjeron tras semanas de creciente malestar social y protestas por la asequibilidad de la vivienda, alimentadas aún más por un proyecto de ley parlamentario para acelerar los procedimientos de desahucio. Los datos de Eurostat mostraron que Portugal experimentó el mayor aumento en la relación entre el precio de la vivienda y los ingresos en la Unión Europea entre 2015 y 2025. Las autoridades respondieron con una actuación policial contundente en algunos campamentos de tiendas anteriores, mientras que el Presidente pidió diálogo ante la falta de avances inmediatos en las conversaciones políticas.",
    "demands": [
-    "Establecer límites a los aumentos de los alquileres",
-    "Proporcionar mayor protección legal a los inquilinos contra los desahucios",
-    "Aumentar la vivienda asequible",
-    "Revertir los cambios propuestos en la legislación de alquileres"
+    "Topes a los aumentos de los alquileres",
+    "Mayor protección legal para los inquilinos contra los desahucios",
+    "Más vivienda asequible",
+    "Reversión de los cambios propuestos en la legislación de alquileres",
+    "Salarios más altos"
    ],
-   "response": "Según los informes, la policía ha desalojado por la fuerza algunos campamentos de protesta utilizando policía antidisturbios y perros, lo que ha provocado acusaciones de tácticas contundentes. El Presidente Antonio José Seguro pidió diálogo, pero las reuniones entre el Primer Ministro Luis Montenegro y los partidos políticos no produjeron avances concretos.",
+   "response": "La policía utilizó unidades antidisturbios y perros para desalojar por la fuerza los campamentos de tiendas instalados por activistas en plazas céntricas, lo que generó acusaciones de tácticas excesivas. El presidente Antonio José Seguro pidió diálogo entre el gobierno y la oposición.",
    "updates": [
-    "Decenas de miles de personas participaron en protestas en más de 30 pueblos y ciudades de Portugal por el aumento de los costes de la vivienda.",
-    "Los manifestantes pasaron la noche en la plaza de los Restauradores de Lisboa sin enfrentamientos."
+    "La fiscalía general anunció una investigación sobre la explosión de un petardo en Lisboa y un agente de policía armado en Oporto durante las protestas por la vivienda.",
+    "Decenas de miles participaron en manifestaciones nacionales organizadas por Casa Para Viver en más de 30 ciudades y pueblos portugueses."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Decenas de miles de personas han salido a las calles"
+   }
   },
   "fr": {
-   "title": "Des dizaines de milliers de personnes manifestent au Portugal contre la crise du logement",
-   "seoTitle": "Manifestation pour le logement à Lisbonne",
+   "title": "Des dizaines de milliers de personnes manifestent à travers le Portugal lors d'une importante mobilisation pour le logement",
+   "seoTitle": "Manifestation sur la crise du logement à Lisbonne",
    "tea": {
-    "why": "Les manifestants protestent contre la flambée des prix des loyers, la stagnation des salaires et une crise du logement qui s'aggrave et dépasse les revenus.",
-    "want": "Les manifestants exigent un plafonnement des augmentations de loyer, une meilleure protection juridique contre les expulsions et davantage de logements abordables.",
-    "changed": "14 novembre : Des dizaines de milliers de personnes ont manifesté dans plus de 30 villes et villages du Portugal sous le slogan « Ils ne voleront pas notre droit à un logement »."
+    "why": "Les manifestants ont défilé contre l'aggravation de la crise du logement, la flambée des loyers et des prix immobiliers, ainsi que contre la législation facilitant les expulsions de biens.",
+    "want": "Les manifestants ont exigé un plafonnement des loyers, une meilleure protection des locataires contre les expulsions, une augmentation des logements abordables et des salaires plus élevés.",
+    "changed": "14 nov. : Des dizaines de milliers de personnes ont défilé à Lisbonne et dans plus de 30 villes et villages du Portugal sous la bannière de la plateforme Casa Para Viver."
    },
-   "summary": "Des dizaines de milliers de personnes ont manifesté dans plus de 30 villes et villages du Portugal, dont Lisbonne et Porto, pour protester contre la flambée des coûts du logement et des prix des loyers. Organisées par la plateforme Casa Para Viver, les manifestations ont vu les participants porter des banderoles et scander des slogans tels que « Des loyers plus bas, des salaires plus élevés ». Les manifestants ont exigé un plafonnement des loyers, une protection plus forte des locataires contre les expulsions et davantage de logements abordables, suite à une mesure parlementaire visant à accélérer les procédures d'expulsion. Les autorités ont répondu par une police musclée, notamment avec des unités anti-émeutes et des chiens pour démanteler certains camps de protestation, tandis que les discussions politiques entre le Premier ministre, l'opposition et d'autres partis n'ont pas encore abouti à des solutions concrètes.",
+   "summary": "Des dizaines de milliers de personnes sont descendues dans la rue dans plus de 30 villes et villages du Portugal, notamment à Lisbonne et Porto, pour protester contre la flambée des coûts du logement et des prix des loyers. Organisés par la plateforme Casa Para Viver sous le slogan \"On ne volera pas notre droit à un logement\", les participants ont défilé au son des tambours, de la musique et derrière des banderoles exigeant un plafonnement des loyers, une protection renforcée des locataires contre les expulsions et davantage de logements abordables. Ces manifestations ont fait suite à des semaines de troubles sociaux croissants et de protestations concernant l'accessibilité au logement, alimentées en outre par un projet de loi parlementaire visant à accélérer les procédures d'expulsion. Les données d'Eurostat ont montré que le Portugal a enregistré la plus forte augmentation du ratio prix des logements/revenus dans l'Union européenne entre 2015 et 2025. Les autorités ont réagi par une répression musclée dans certains camps de tentes installés plus tôt, tandis que le président a appelé au dialogue alors que les pourparlers politiques n'ont donné lieu à aucune avancée immédiate.",
    "demands": [
-    "Plafonner les augmentations de loyer",
-    "Offrir une meilleure protection juridique aux locataires contre les expulsions",
-    "Augmenter le nombre de logements abordables",
-    "Annuler les changements proposés à la législation sur les loyers"
+    "Plafonds sur les augmentations de loyer",
+    "Une protection juridique accrue pour les locataires contre les expulsions",
+    "Davantage de logements abordables",
+    "Abrogation des modifications proposées de la législation sur la location",
+    "Des salaires plus élevés"
    ],
-   "response": "Selon des rapports, la police a démantelé de force certains camps de protestation en utilisant des unités anti-émeutes et des chiens, ce qui a suscité des accusations de tactiques musclées. Le président Antonio José Seguro a appelé au dialogue, mais les réunions entre le Premier ministre Luis Montenegro et les partis politiques n'ont pas permis de réaliser de percées concrètes.",
+   "response": "La police a eu recours à des unités anti-émeute et à des chiens pour déloger de force les camps de tentes dressés par des militants sur les places centrales, provoquant des accusations de méthodes brutales. Le président Antonio José Seguro a appelé au dialogue entre le gouvernement et l'opposition.",
    "updates": [
-    "Des dizaines de milliers de personnes ont participé à des manifestations dans plus de 30 villes et villages du Portugal en raison de la flambée des coûts du logement.",
-    "Les manifestants ont passé la nuit sur la place des Restauradores à Lisbonne sans affrontements."
+    "Le parquet a annoncé l'ouverture d'une enquête concernant l'explosion d'un pétard à Lisbonne et un policier armé à Porto lors des manifestations pour le logement.",
+    "Des dizaines de milliers de personnes ont participé aux manifestations nationales organisées par Casa Para Viver dans plus de 30 villes et villages portugais."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Des dizaines de milliers de personnes sont descendues dans la rue"
+   }
   },
   "de": {
-   "title": "Zehntausende demonstrieren in Portugal gegen die Wohnungskrise",
-   "seoTitle": "Wohnungsprotest in Lissabon",
+   "title": "Zehntausende demonstrieren in ganz Portugal bei großem Wohnungsbauprotest",
+   "seoTitle": "Demonstration zur Wohnungskrise in Lissabon",
    "tea": {
-    "why": "Die Demonstranten protestieren gegen steigende Mietpreise, stagnierende Löhne und eine sich verschärfende Wohnungskrise, die die Einkommen übersteigt.",
-    "want": "Die Demonstranten fordern Mietpreisobergrenzen, einen besseren rechtlichen Schutz vor Zwangsräumungen und mehr bezahlbaren Wohnraum.",
-    "changed": "14. November: Zehntausende marschierten in mehr als 30 Städten und Gemeinden in Portugal unter dem Motto „Sie werden unser Recht auf ein Zuhause nicht stehlen“."
+    "why": "Demonstranten protestierten gegen eine sich verschlechternde Wohnungskrise, steigende Miet- und Immobilienpreise sowie Gesetze, die Zwangsräumungen erleichtern.",
+    "want": "Demonstranten forderten Mietpreisbremsen, stärkeren Mieterschutz vor Zwangsräumungen, mehr bezahlbaren Wohnraum und höhere Löhne.",
+    "changed": "14. Nov.: Zehntausende demonstrierten in Lissabon und über 30 Städten und Gemeinden in Portugal im Rahmen der Plattform Casa Para Viver."
    },
-   "summary": "Zehntausende Menschen marschierten in mehr als 30 Städten und Gemeinden in Portugal, darunter Lissabon und Porto, um gegen die explodierenden Wohnkosten und Mietpreise zu protestieren. Die von der Plattform Casa Para Viver organisierten Demonstrationen zeichneten sich durch Teilnehmer aus, die Transparente trugen und Slogans wie „Niedrigere Mieten, höhere Gehälter“ skandierten. Die Demonstranten forderten Mietpreisobergrenzen, einen stärkeren Mieterschutz vor Zwangsräumungen und mehr bezahlbaren Wohnraum nach einem parlamentarischen Vorstoß zur Beschleunigung von Räumungsverfahren. Die Behörden reagierten mit hartem Vorgehen, darunter Bereitschaftspolizei und Hunde, die einige Protestcamps räumten, während politische Gespräche zwischen dem Premierminister, der Opposition und anderen Parteien noch keine konkreten Lösungen hervorgebracht haben.",
+   "summary": "Zehntausende Menschen gingen in mehr als 30 Städten und Gemeinden in Portugal, darunter Lissabon und Porto, auf die Straße, um gegen explodierende Wohnkosten und Mietpreise zu protestieren. Organisiert von der Plattform Casa Para Viver unter dem Slogan \"Sie werden uns unser Recht auf ein Zuhause nicht stehlen\", marschierten die Teilnehmer mit Trommeln, Musik und Transparenten, um Mietpreisbremsen, einen stärkeren Mieterschutz vor Zwangsräumungen und mehr bezahlbaren Wohnraum zu fordern. Die Demonstrationen folgten auf wochenlang wachsende soziale Unruhen und Proteste zur Bezahlbarkeit von Wohnraum, die durch einen Gesetzesentwurf des Parlaments zur Beschleunigung von Räumungsverfahren weiter angeheizt wurden. Daten von Eurostat zeigten, dass Portugal zwischen 2015 und 2025 den größten Anstieg des Verhältnisses von Hauspreisen zu Einkommen in der Europäischen Union verzeichnete. Die Behörden reagierten in einigen früheren Zeltlagern mit hartem Polizeigleichgewicht, während der Präsident zum Dialog aufrief, da politische Gespräche keine sofortigen Durchbrüche brachten.",
    "demands": [
-    "Mietpreisobergrenzen für Mieterhöhungen festlegen",
-    "Einen besseren rechtlichen Schutz für Mieter vor Zwangsräumungen bieten",
-    "Bezahlbaren Wohnraum erhöhen",
-    "Vorgeschlagene Änderungen der Mietgesetzgebung rückgängig machen"
+    "Obergrenzen für Mieterhöhungen",
+    "Besserer rechtlicher Schutz für Mieter vor Zwangsräumungen",
+    "Mehr bezahlbarer Wohnraum",
+    "Rücknahme geplanter Änderungen der Mietgesetzgebung",
+    "Höhere Gehälter"
    ],
-   "response": "Berichten zufolge hat die Polizei einige Protestcamps unter Einsatz von Bereitschaftspolizei und Hunden gewaltsam geräumt, was Vorwürfe über hartes Vorgehen nach sich zog. Präsident Antonio José Seguro rief zum Dialog auf, doch Treffen zwischen Premierminister Luis Montenegro und den politischen Parteien führten zu keinen konkreten Durchbrüchen.",
+   "response": "Die Polizei setzte Bereitschaftspolizei und Hunde ein, um von Aktivisten auf zentralen Plätzen errichtete Zeltlager gewaltsam zu räumen, was zu Vorwürfen harten Vorgehens führte. Präsident Antonio José Seguro forderte einen Dialog zwischen Regierung und Opposition.",
    "updates": [
-    "Zehntausende beteiligten sich an Protesten in mehr als 30 Städten und Gemeinden in Portugal wegen der steigenden Wohnkosten.",
-    "Die Demonstranten verbrachten die Nacht auf dem Platz Restauradores in Lissabon ohne Konfrontationen."
+    "Die Staatsanwaltschaft kündigte eine Untersuchung zu einer Böschungsexplosion in Lissabon und einem bewaffneten Polizisten in Porto während der Wohnungsproteste an.",
+    "Zehntausende beteiligten sich an nationalen Demonstrationen, die von Casa Para Viver in mehr als 30 portugiesischen Städten und Gemeinden organisiert wurden."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Zehntausende Menschen sind auf die Straße gegangen"
+   }
   },
   "it": {
-   "title": "Decine di migliaia di persone marciano in Portogallo per la crisi abitativa",
-   "seoTitle": "Protesta per la casa a Lisbona",
+   "title": "Decine di migliaia in marcia in tutto il Portogallo in una grande protesta per la casa",
+   "seoTitle": "Marcia per la crisi abitativa a Lisbona",
    "tea": {
-    "why": "I manifestanti protestano contro l'aumento dei prezzi degli affitti, la stagnazione dei salari e una crisi abitativa che peggiora superando i redditi.",
-    "want": "I manifestanti chiedono tetti agli aumenti degli affitti, una maggiore protezione legale contro gli sfratti e più alloggi a prezzi accessibili.",
-    "changed": "14 novembre: Decine di migliaia di persone hanno marciato in più di 30 città e paesi del Portogallo sotto lo slogan \"Non ruberanno il nostro diritto a una casa\"."
+    "why": "I manifestanti hanno sfilato contro il peggioramento della crisi abitativa, l'aumento vertiginoso dei prezzi degli affitti e delle case e la legislazione che facilita gli sfratti immobiliari.",
+    "want": "I manifestanti hanno chiesto tetti agli affitti, maggiori tutele per gli inquilini contro gli sfratti, un aumento degli alloggi accessibili e salari più alti.",
+    "changed": "14 nov: Decine di migliaia di persone hanno sfilato a Lisbona e in oltre 30 città e paesi del Portogallo sotto la piattaforma Casa Para Viver."
    },
-   "summary": "Decine di migliaia di persone hanno marciato in più di 30 città e paesi del Portogallo, tra cui Lisbona e Porto, per protestare contro l'impennata dei costi abitativi e dei prezzi degli affitti. Organizzate dalla piattaforma Casa Para Viver, le manifestazioni hanno visto i partecipanti portare striscioni e scandire slogan come \"Affitti più bassi, salari più alti\". I manifestanti hanno chiesto tetti agli affitti, una maggiore protezione degli inquilini contro gli sfratti e più alloggi a prezzi accessibili in seguito a una mossa parlamentare per accelerare le procedure di sfratto. Le autorità hanno risposto con una polizia dura, tra cui agenti antisommossa e cani per sgomberare alcuni campi di protesta, mentre i colloqui politici tra il Primo Ministro, l'opposizione e altri partiti non hanno ancora prodotto soluzioni concrete.",
+   "summary": "Decine di migliaia di persone sono scese in piazza in più di 30 città e paesi del Portogallo, tra cui Lisbona e Porto, per protestare contro l'aumento dei costi degli alloggi e dei prezzi degli affitti. Organizzati dalla piattaforma Casa Para Viver sotto lo slogan \"Non ci ruberanno il diritto a una casa\", i partecipanti hanno sfilato con tamburi, musica e striscioni chiedendo tetti agli affitti, maggiori tutele per gli inquilini contro gli sfratti e alloggi più accessibili. Le manifestazioni sono seguite a settimane di crescenti disordini sociali e proteste sull'accessibilità economica degli alloggi, ulteriormente alimentate da un disegno di legge parlamentare volto ad accelerare le procedure di sfratto. I dati di Eurostat hanno mostrato che il Portogallo ha registrato il maggiore aumento del rapporto tra i prezzi delle case e il reddito nell'Unione Europea tra il 2015 e il 2025. Le autorità hanno risposto con una linea di polizia dura in alcuni precedenti accampamenti di tende, mentre il Presidente ha chiesto il dialogo poiché i colloqui politici non hanno prodotto alcun risultato immediato.",
    "demands": [
-    "Imporre tetti agli aumenti degli affitti",
-    "Fornire una maggiore protezione legale agli inquilini contro gli sfratti",
-    "Aumentare gli alloggi a prezzi accessibili",
-    "Invertire le modifiche proposte alla legislazione sugli affitti"
+    "Tetti agli aumenti degli affitti",
+    "Maggiore tutela legale per gli inquilini contro gli sfratti",
+    "Alloggi più accessibili",
+    "Inversione delle modifiche proposte alla legislazione sugli affitti",
+    "Stipendi più alti"
    ],
-   "response": "Secondo i rapporti, la polizia ha sgomberato con la forza alcuni campi di protesta utilizzando agenti antisommossa e cani, attirando accuse di tattiche dure. Il Presidente Antonio José Seguro ha chiesto il dialogo, ma gli incontri tra il Primo Ministro Luis Montenegro e i partiti politici non hanno prodotto svolte concrete.",
+   "response": "La polizia ha utilizzato reparti antisommossa e cani per sgomberare con la forza gli accampamenti di tende allestiti dagli attivisti nelle piazze centrali, attirando accuse di tattiche pesanti. Il presidente Antonio José Seguro ha chiesto il dialogo tra il governo e l'opposizione.",
    "updates": [
-    "Decine di migliaia di persone hanno partecipato a proteste in più di 30 città e paesi del Portogallo a causa dell'aumento dei costi abitativi.",
-    "I manifestanti hanno trascorso la notte in piazza Restauradores a Lisbona senza scontri."
+    "La procura ha annunciato un'indagine su un'esplosione di petardi a Lisbona e su un agente di polizia armato a Porto durante le proteste per la casa.",
+    "Decine di migliaia di persone hanno partecipato a manifestazioni nazionali organizzate da Casa Para Viver in oltre 30 città e paesi portoghesi."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Decine di migliaia di persone sono scese in piazza"
+   }
   },
   "pt": {
-   "title": "Dezenas de milhares marcham por Portugal devido à crise da habitação",
-   "seoTitle": "Protesto pela habitação em Lisboa",
+   "title": "Dezenas de milhares marcham por Portugal em protesto massivo pela habitação",
+   "seoTitle": "Marcha sobre a crise da habitação em Lisboa",
    "tea": {
-    "why": "Os manifestantes estão a demonstrar contra a subida dos preços das rendas, salários estagnados e uma crise habitacional que se agrava e ultrapassa os rendimentos.",
-    "want": "Os manifestantes exigem limites aos aumentos das rendas, maior proteção legal contra despejos e mais habitação acessível.",
-    "changed": "14 de novembro: Dezenas de milhares marcharam por mais de 30 vilas e cidades em Portugal sob o lema \"Não nos vão roubar o direito a uma casa\"."
+    "why": "Os manifestantes marcharam contra o agravamento da crise da habitação, o aumento galopante das rendas e dos preços das casas, e a legislação que facilita os despejos de propriedades.",
+    "want": "Os manifestantes exigiram limites máximos para as rendas, maiores proteções legais para os inquilinos contra despejos, o aumento da habitação acessível e salários mais altos.",
+    "changed": "14 nov: Dezenas de milhares marcharam por Lisboa e mais de 30 cidades e vilas em Portugal sob a plataforma Casa Para Viver."
    },
-   "summary": "Dezenas de milhares de pessoas marcharam por mais de 30 vilas e cidades em Portugal, incluindo Lisboa e Porto, para protestar contra a subida dos custos da habitação e dos preços das rendas. Organizadas pela plataforma Casa Para Viver, as manifestações contaram com participantes que transportavam cartazes e entoavam palavras de ordem como \"Rendas mais baixas, salários mais altos\". Os manifestantes exigiram limites às rendas, maior proteção dos inquilinos contra despejos e mais habitação acessível após uma medida parlamentar para acelerar os procedimentos de despejo. As autoridades responderam com um policiamento pesado, incluindo polícia de choque e cães a limpar alguns campos de protesto, enquanto as conversações políticas entre o Primeiro-Ministro, a oposição e outros partidos ainda não produziram soluções concretas.",
+   "summary": "Dezenas de milhares de pessoas saíram à rua em mais de 30 vilas e cidades em Portugal, incluindo Lisboa e Porto, para protestar contra os custos crescentes da habitação e os preços das rendas. Organizados pela plataforma Casa Para Viver sob o lema \"Não nos vão roubar o direito a uma casa\", os participantes marcharam com tambores, música e faixas exigindo limites às rendas, proteções mais fortes para os inquilinos contra despejos e mais habitação acessível. As manifestações seguiram-se a semanas de crescente agitação social e protestos sobre a acessibilidade à habitação, alimentadas ainda por um projeto de lei parlamentar para acelerar os procedimentos de despejo. Dados do Eurostat mostraram que Portugal registou o maior aumento no rácio entre o preço da habitação e o rendimento na União Europeia entre 2015 e 2025. As autoridades responderam com um policiamento musculado em alguns acampamentos de tendas anteriores, enquanto o Presidente apelou ao diálogo, uma vez que as conversações políticas não produziram avanços imediatos.",
    "demands": [
-    "Colocar limites aos aumentos das rendas",
-    "Fornecer maior proteção legal aos inquilinos contra despejos",
-    "Aumentar a habitação acessível",
-    "Reverter as alterações propostas à legislação de arrendamento"
+    "Limites nos aumentos de rendas",
+    "Maior proteção jurídica para os inquilinos contra despejos",
+    "Mais habitação acessível",
+    "Reversão das alterações propostas à legislação de arrendamento",
+    "Salários mais altos"
    ],
-   "response": "Segundo relatos, a polícia limpou à força alguns campos de protesto usando polícia de choque e cães, atraindo acusações de táticas pesadas. O Presidente Antonio José Seguro apelou ao diálogo, mas as reuniões entre o Primeiro-Ministro Luis Montenegro e os partidos políticos não produziram avanços concretos.",
+   "response": "A polícia utilizou esquadrões de choque e cães para limpar à força os acampamentos de tendas montados por ativistas em praças centrais, gerando acusações de táticas duras. O presidente Antonio José Seguro apelou ao diálogo entre o governo e a oposição.",
    "updates": [
-    "Dezenas de milhares participaram em protestos por mais de 30 vilas e cidades em Portugal devido à subida dos custos da habitação.",
-    "Os manifestantes passaram a noite na praça dos Restauradores, em Lisboa, sem confrontos."
+    "O Ministério Público anunciou uma investigação a uma explosão de bombinha em Lisboa e a um agente da polícia armado no Porto durante os protestos pela habitação.",
+    "Dezenas de milhares participaram em manifestações nacionais organizadas pela Casa Para Viver em mais de 30 cidades e vilas portuguesas."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Dezenas de milhares de pessoas saíram à rua"
+   }
   },
   "nl": {
-   "title": "Tienduizenden demonstreren in Portugal tegen de wooncrisis",
-   "seoTitle": "Woonprotest in Lissabon",
+   "title": "Tientallen duizenden marcheren door Portugal bij groots protest om huisvesting",
+   "seoTitle": "Wooncrisis-mars in Lissabon",
    "tea": {
-    "why": "De demonstranten protesteren tegen de stijgende huurprijzen, stagnerende lonen en een verergerende wooncrisis die de inkomens overstijgt.",
-    "want": "De demonstranten eisen een plafond voor huurverhogingen, betere juridische bescherming tegen huisuitzettingen en meer betaalbare woningen.",
-    "changed": "14 november: Tienduizenden mensen marcheerden door meer dan 30 steden en dorpen in Portugal onder de slogan \"Ze zullen ons recht op een woning niet stelen\"."
+    "why": "Demonstranten marcheerden tegen een verergerende wooncrisis, stijgende huur- en huizenprijzen en wetgeving die huisuitzettingen vergemakkelijkt.",
+    "want": "Demonstranten eisten huurmaxima, sterkere huurdersbescherming tegen uitzetting, meer betaalbare woningen en hogere lonen.",
+    "changed": "14 nov: Tientallen duizenden marcheerden door Lissabon en meer dan 30 steden en dorpen in Portugal onder de vlag van het platform Casa Para Viver."
    },
-   "summary": "Tienduizenden mensen marcheerden door meer dan 30 steden en dorpen in Portugal, waaronder Lissabon en Porto, om te protesteren tegen de stijgende woonkosten en huurprijzen. De demonstraties, georganiseerd door het platform Casa Para Viver, bestonden uit deelnemers die spandoeken droegen en slogans scandeerden zoals \"Lagere huren, hogere salarissen\". De demonstranten eisten huurplafonds, een sterkere huurbescherming tegen huisuitzettingen en meer betaalbare woningen na een parlementair besluit om uitzettingsprocedures te versnellen. De autoriteiten reageerden met hardhandig optreden, waaronder oproerpolitie en honden die enkele protestkampen ontruimden, terwijl politieke gesprekken tussen de premier, de oppositie en andere partijen nog geen concrete oplossingen hebben opgeleverd.",
+   "summary": "Tientallen duizenden mensen gingen de straat op in meer dan 30 steden en dorpen in Portugal, waaronder Lissabon en Porto, om te protesteren tegen de stijgende woonlasten en huurprijzen. Georganiseerd door het platform Casa Para Viver onder de slogan \"Ze zullen ons recht op een woning niet stelen\", marcheerden deelnemers met trommels, muziek and spandoeken om huurmaxima, betere bescherming voor huurders tegen uitzetting en meer betaalbare woningen te eisen. De demonstraties volgden op weken van toenemende sociale onrust en protesten over de betaalbaarheid van woningen, verder aangewakkerd door een parlementair wetsvoorstel om uitzettingsprocedures te versnellen. Gegevens van Eurostat toonden aan dat Portugal tussen 2015 en 2025 de grootste stijging in de verhouding tussen huizenprijzen en inkomen kende in de Europese Unie. Autoriteiten reageerden met hardhandig politieoptreden bij eerdere tentenkampen, terwijl de president opriep tot dialoog nu politieke besprekingen geen onmiddellijke doorbraken opleverden.",
    "demands": [
-    "Plafonds instellen voor huurverhogingen",
-    "Betere juridische bescherming bieden aan huurders tegen huisuitzettingen",
-    "Betaalbare woningen vergroten",
-    "Voorgestelde wijzigingen in de huurwetgeving terugdraaien"
+    "Maxima op huurstijgingen",
+    "Grotere wettelijke bescherming voor huurders tegen uitzetting",
+    "Meer betaalbare huisvesting",
+    "Terugdraaien van voorgestelde wijzigingen in de huurwetgeving",
+    "Hogere salarissen"
    ],
-   "response": "Volgens berichten heeft de politie enkele protestkampen met geweld ontruimd met behulp van oproerpolitie en honden, wat leidde tot beschuldigingen van hardhandige tactieken. President Antonio José Seguro riep op tot dialoog, maar ontmoetingen tussen premier Luis Montenegro en politieke partijen leverden geen concrete doorbraken op.",
+   "response": "De politie zette ME-eenheden en honden in om tentenkampen die door activisten waren opgezet op centrale pleinen met harde hand te ontruimen, wat leidde tot beschuldigingen van ruwe tactieken. President Antonio José Seguro riep op tot dialoog tussen de regering en de oppositie.",
    "updates": [
-    "Tienduizenden mensen namen deel aan protesten in meer dan 30 steden en dorpen in Portugal vanwege de stijgende woonkosten.",
-    "De demonstranten brachten de nacht door op het Restauradores-plein in Lissabon zonder confrontaties."
+    "Het openbaar ministerie kondigde een onderzoek aan naar een vuurwerkexplosie in Lissabon en een bewoonde politieagent in Porto tijdens de woonprotesten.",
+    "Tientallen duizenden namen deel aan nationale demonstraties die door Casa Para Viver werden georganiseerd in meer dan 30 Portugese steden en dorpen."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Tientallen duizenden mensen zijn de straat op gegaan"
+   }
   }
- }
+ },
+ "endedOn": "2026-11-14"
 }
