@@ -15,50 +15,58 @@
  },
  "scope": "local",
  "causes": [
-  "transport"
+  "transport",
+  "jobs"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-16",
  "status": "scheduled",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Transport workers in Naples are protesting over corporate bonuses, economic recognition, work organization, and safety.",
-  "want": "Workers are demanding better company bonuses, economic recognitions, improved work organization, and enhanced safety measures.",
-  "changed": "Nov 14: The Ministry of Infrastructure and Transport confirmed the strike scheduled for November 16."
+  "why": "Transport workers are protesting over contract compliance, economic disparities, and safety issues.",
+  "want": "They demand a revision of production bonuses, economic improvements for all staff, and better workplace safety.",
+  "changed": "Nov 15: Unions and company confirmed the four-hour strike details and guaranteed service windows for November 16."
  },
- "summary": "Transport personnel employed by ANM in Naples have scheduled a four-hour strike for November 16, 2026. According to the sources, the action will affect metro lines, buses, trams, and funiculars between 11:00 and 15:00. The dispute centers on issues including corporate bonuses, economic recognitions, work organization, and safety. Commuters and students are advised to monitor official updates, as service reductions and temporary suspensions are expected during the stated window. The strike has been confirmed on the website of the Ministry of Infrastructure and Transport as well as through company announcements.",
+ "summary": "ANM transport workers in Naples have scheduled a four-hour strike for November 16, running from 11:00 to 15:00, affecting metro lines, buses, and funiculars. The action was called by trade unions including Usb, Fit Cisl, Orsa, and Faisa Confail. According to the unions, the mobilization focuses on issues regarding contract norms, economic disparities, recognition of professional roles, equitable resource distribution, and operational safety, alongside a demand to revise production bonuses. The Ministry of Infrastructure and Transport and company notices confirmed the upcoming stoppage, while advising commuters on alternative transport and guaranteed service intervals.",
  "organizers": [
-  "ANM personnel",
-  "Ministero delle Infrastrutture e dei Trasporti"
+  "Usb",
+  "Fit Cisl",
+  "Orsa",
+  "Faisa Confail"
  ],
  "demands": [
-  "Better corporate bonuses",
-  "Economic recognitions",
-  "Improved work organization",
-  "Enhanced safety measures"
+  "Respect for contract norms and resolution of economic disparities",
+  "Revision of production bonuses for 2026/2027",
+  "Economic and parameter improvements for all ANM personnel",
+  "Better safety, efficiency, and quality of public transport"
  ],
- "response": "No official response reported in the sources.",
+ "response": "ANM and the Ministry of Infrastructure and Transport acknowledged the strike, publishing schedules and guaranteed service windows for commuters.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-06",
-   "text": "ANM workers announced a four-hour strike for November 16 regarding bonuses, recognition, organization, and safety.",
+   "text": "ANM announced a potential four-hour transport strike scheduled for November 16.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-14",
-   "text": "The Ministry of Infrastructure and Transport confirmed the transport strike for November 16 from 11:00 to 15:00.",
+   "text": "The Ministry of Infrastructure and Transport confirmed the strike action for November 16.",
    "sources": [
     2
+   ]
+  },
+  {
+   "at": "2026-11-15",
+   "text": "Unions and ANM released final details regarding service guarantees and stoppage hours.",
+   "sources": [
+    3
    ]
   }
  ],
@@ -76,48 +84,59 @@
    "publisher": "moveo.telepass.com",
    "title": "Sciopero Anm Napoli 16 novembre 2026: orari e fasce garantite",
    "publishedAt": "2026-11-14T05:08:33.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://napoli.repubblica.it/cronaca/2026/11/15/news/napoli_sciopero_dei_trasporti_disagi_e_corse_saltate_per_metropolitana_bus_e_funicolari-425725986/",
+   "publisher": "napoli.repubblica.it",
+   "title": "Napoli, sciopero dei trasporti: disagi e corse saltate per metropolitana, bus e funicolari",
+   "publishedAt": "2026-11-15T21:30:16.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 0,
+ "confidence": 0.8,
+ "publishers": 3,
+ "reports24h": 1,
  "reportsPrev24h": 1,
- "reports48h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-06T12:54:00.938Z",
- "lastReportAt": "2026-11-14T05:08:33.000Z",
- "lastCheckedAt": "2026-11-15T20:54:50.410Z",
- "updatedAt": "2026-11-15T12:53:51.003Z",
+ "lastReportAt": "2026-11-15T21:30:16.000Z",
+ "lastCheckedAt": "2026-11-16T00:53:21.787Z",
+ "updatedAt": "2026-11-16T00:53:02.078Z",
  "endedOn": "2026-11-16",
- "responseSources": [],
+ "responseSources": [
+  2,
+  3
+ ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-15T12:53:51.003Z",
- "summaryOf": "880c0b3b2d22",
+ "summarizedAt": "2026-11-16T00:53:02.078Z",
+ "summaryOf": "c19904718581",
  "publishedAt": "2026-11-15T12:54:50.881Z",
  "i18n": {
-  "of": "6a83c38f645a277a",
-  "at": "2026-11-15T12:56:57.363Z",
+  "of": "0416470b2623b7e8",
+  "at": "2026-11-16T00:54:19.146Z",
   "tries": 1,
   "es": {
    "title": "Trabajadores de transporte de ANM programan huelga de cuatro horas en Nápoles",
-   "seoTitle": "Huelga de transporte ANM en Nápoles",
+   "seoTitle": "Huelga transporte ANM Nápoles",
    "tea": {
-    "why": "Los trabajadores de transporte en Nápoles protestan por primas corporativas, reconocimiento económico, organización laboral y seguridad.",
-    "want": "Los trabajadores exigen mejores primas de la empresa, reconocimientos económicos, una mejor organización laboral y medidas de seguridad mejoradas.",
-    "changed": "14 de nov: El Ministerio de Infraestructuras y Transportes confirmó la huelga programada para el 16 de noviembre."
+    "why": "Los trabajadores del transporte protestan por el cumplimiento de contratos, disparidades económicas y cuestiones de seguridad.",
+    "want": "Exigen una revisión de las primas de producción, mejoras económicas para todo el personal y mayor seguridad en el lugar de trabajo.",
+    "changed": "15 de nov.: Los sindicatos y la empresa confirmaron los detalles de la huelga de cuatro horas y garantizaron las franjas horarias de servicio para el 16 de noviembre."
    },
-   "summary": "El personal de transporte empleado por ANM en Nápoles ha programado una huelga de cuatro horas para el 16 de noviembre de 2026. Según las fuentes, la medida afectará a las líneas de metro, autobuses, tranvías y funiculares entre las 11:00 y las 15:00. El conflicto se centra en cuestiones que incluyen primas corporativas, reconocimientos económicos, organización laboral y seguridad. Se aconseja a los viajeros y estudiantes que sigan las actualizaciones oficiales, ya que se esperan reducciones de servicio y suspensiones temporales durante la ventana indicada. La huelga ha sido confirmada en el sitio web del Ministerio de Infraestructuras y Transportes, así como a través de anuncios de la empresa.",
+   "summary": "Los trabajadores de transporte de ANM en Nápoles han programado una huelga de cuatro horas para el 16 de noviembre, desde las 11:00 hasta las 15:00, lo que afecta a las líneas de metro, autobuses y funiculares. La medida fue convocada por sindicatos como Usb, Fit Cisl, Orsa y Faisa Confail. Según los sindicatos, la movilización se centra en cuestiones relativas a normas contractuales, disparidades económicas, reconocimiento de funciones profesionales, distribución equitativa de recursos y seguridad operativa, además de una exigencia de revisar las primas de producción. El Ministerio de Infraestructuras y Transportes y los avisos de la empresa confirmaron el inminente paro, al tiempo que aconsejaron a los viajeros sobre el transporte alternativo y los intervalos de servicio garantizados.",
    "demands": [
-    "Mejores primas corporativas",
-    "Reconocimientos económicos",
-    "Organización laboral mejorada",
-    "Medidas de seguridad mejoradas"
+    "Respeto a las normas contractuales y resolución de las disparidades económicas",
+    "Revisión de las primas de producción para 2026/2027",
+    "Mejoras económicas y de parámetros para todo el personal de ANM",
+    "Mejor seguridad, eficiencia y calidad del transporte público"
    ],
-   "response": "No se ha informado de ninguna respuesta oficial en las fuentes.",
+   "response": "ANM y el Ministerio de Infraestructuras y Transportes reconocieron la huelga y publicaron los horarios y las franjas de servicio garantizado para los viajeros.",
    "updates": [
-    "Los trabajadores de ANM anunciaron una huelga de cuatro horas para el 16 de noviembre en relación con las primas, el reconocimiento, la organización y la seguridad.",
-    "El Ministerio de Infraestructuras y Transportes confirmó la huelga de transporte para el 16 de noviembre de 11:00 a 15:00."
+    "ANM anunció una posible huelga de transporte de cuatro horas prevista para el 16 de noviembre.",
+    "El Ministerio de Infraestructuras y Transportes confirmó la huelga para el 16 de noviembre.",
+    "Los sindicatos y ANM publicaron los detalles finales sobre las garantías de servicio y las horas de paro."
    ],
    "conflicts": [],
    "numbers": {}
@@ -126,21 +145,22 @@
    "title": "Les travailleurs des transports de l'ANM prévoient une grève de quatre heures à Naples",
    "seoTitle": "Grève des transports ANM à Naples",
    "tea": {
-    "why": "Les travailleurs des transports à Naples protestent contre les primes d'entreprise, la reconnaissance économique, l'organisation du travail et la sécurité.",
-    "want": "Les travailleurs exigent de meilleures primes d'entreprise, des reconnaissances économiques, une meilleure organisation du travail et des mesures de sécurité renforcées.",
-    "changed": "14 nov. : Le ministère des Infrastructures et des Transports a confirmé la grève prévue pour le 16 novembre."
+    "why": "Les travailleurs des transports protestent contre le respect des contrats, les disparités économiques et les problèmes de sécurité.",
+    "want": "Ils exigent une révision des primes de production, des améliorations économiques pour l'ensemble du personnel et une meilleure sécurité au travail.",
+    "changed": "15 nov. : Les syndicats et l'entreprise ont confirmé les détails de la grève de quatre heures et garanti des créneaux de service pour le 16 novembre."
    },
-   "summary": "Le personnel de transport employé par l'ANM à Naples a programmé une grève de quatre heures pour le 16 novembre 2026. Selon les sources, l'action touchera les lignes de métro, les bus, les tramways et les funiculaires entre 11:00 et 15:00. Le litige porte notamment sur les primes d'entreprise, les reconnaissances économiques, l'organisation du travail et la sécurité. Il est conseillé aux navetteurs et aux étudiants de suivre les mises à jour officielles, car des réductions de service et des suspensions temporaires sont attendues pendant la période indiquée. La grève a été confirmée sur le site web du ministère des Infrastructures et des Transports ainsi que par le biais d'annonces de l'entreprise.",
+   "summary": "Les travailleurs des transports de l'ANM à Naples ont programmé une grève de quatre heures pour le 16 novembre, de 11:00 à 15:00, affectant les lignes de métro, les bus et les funiculaires. L'action a été lancée par des syndicats, notamment l'Usb, la Fit Cisl, l'Orsa et la Faisa Confail. Selon les syndicats, la mobilisation se concentre sur des questions concernant les normes contractuelles, les disparités économiques, la reconnaissance des rôles professionnels, la répartition équitable des ressources et la sécurité opérationnelle, ainsi que sur une demande de révision des primes de production. Le ministère des Infrastructures et des Transports et les avis de l'entreprise ont confirmé l'arrêt de travail à venir, tout en informant les usagers sur les transports alternatifs et les intervalles de service garantis.",
    "demands": [
-    "De meilleures primes d'entreprise",
-    "Des reconnaissances économiques",
-    "Une organisation du travail améliorée",
-    "Des mesures de sécurité renforcées"
+    "Respect des normes contractuelles et résolution des disparités économiques",
+    "Révision des primes de production pour 2026/2027",
+    "Améliorations économiques et de paramètres pour l'ensemble du personnel de l'ANM",
+    "Meilleure sécurité, efficacité et qualité des transports publics"
    ],
-   "response": "Aucune réponse officielle signalée dans les sources.",
+   "response": "L'ANM et le ministère des Infrastructures et des Transports ont pris acte de la grève et ont publié les horaires ainsi que les fenêtres de service garanti pour les usagers.",
    "updates": [
-    "Les travailleurs de l'ANM ont annoncé une grève de quatre heures pour le 16 novembre concernant les primes, la reconnaissance, l'organisation et la sécurité.",
-    "Le ministère des Infrastructures et des Transports a confirmé la grève des transports pour le 16 novembre de 11:00 à 15:00."
+    "L'ANM a annoncé une grève potentielle des transports de quatre heures prévue le 16 novembre.",
+    "Le ministère des Infrastructures et des Transports a confirmé l'action de grève pour le 16 novembre.",
+    "Les syndicats et l'ANM ont publié les derniers détails concernant les garanties de service et les heures d'arrêt."
    ],
    "conflicts": [],
    "numbers": {}
@@ -149,90 +169,94 @@
    "title": "ANM-Verkehrsarbeiter planen vierstündigen Streik in Neapel",
    "seoTitle": "Streik der ANM-Verkehrsarbeiter in Neapel",
    "tea": {
-    "why": "Verkehrsarbeiter in Neapel protestieren wegen Bonuszahlungen von Unternehmen, wirtschaftlicher Anerkennung, Arbeitsorganisation und Sicherheit.",
-    "want": "Arbeiter fordern bessere Firmenboni, wirtschaftliche Anerkennungen, eine verbesserte Arbeitsorganisation und verstärkte Sicherheitsmaßnahmen.",
-    "changed": "14. Nov.: Das Ministerium für Infrastruktur und Verkehr bestätigte den für den 16. November geplante Streik."
+    "why": "Verkehrsarbeiter protestieren wegen Vertragstreue, wirtschaftlichen Ungleichheiten und Sicherheitsfragen.",
+    "want": "Sie fordern eine Überarbeitung der Leistungsprämien, wirtschaftliche Verbesserungen für das gesamte Personal und mehr Arbeitssicherheit.",
+    "changed": "15. Nov.: Gewerkschaften und Unternehmen bestätigten die Details des vierstündigen Streiks und garantierten Service-Zeitfenster für den 16. November."
    },
-   "summary": "Beim ANM in Neapel beschäftigtes Verkehrspersonal hat für den 16. November 2026 einen vierstündigen Streik angesetzt. Quellen zufolge wird die Aktion U-Bahn-Linien, Busse, Straßenbahnen und Standseilbahnen zwischen 11:00 und 15:00 Uhr betreffen. Der Streit dreht sich um Themen wie Firmenboni, wirtschaftliche Anerkennungen, Arbeitsorganisation und Sicherheit. Pendler und Studenten werden gebeten, offizielle Updates zu verfolgen, da während des angegebenen Zeitfensters mit Leistungseinschränkungen und vorübergehenden Einstellungen zu rechnen ist. Der Streik wurde auf der Website des Ministeriums für Infrastruktur und Verkehr sowie durch Ankündigungen des Unternehmens bestätigt.",
+   "summary": "ANM-Verkehrsarbeiter in Neapel haben für den 16. November einen vierstündigen Streik von 11:00 bis 15:00 Uhr angekündigt, der Metrolinien, Busse und Standseilbahnen betrifft. Die Aktion wurde von Gewerkschaften wie Usb, Fit Cisl, Orsa und Faisa Confail ausgerufen. Nach Angaben der Gewerkschaften konzentriert sich die Mobilisierung auf Fragen bezüglich der Vertragsnormen, wirtschaftlicher Ungleichheiten, der Anerkennung beruflicher Rollen, einer gerechten Ressourcenverteilung und der Betriebssicherheit sowie auf die Forderung nach Überarbeitung der Leistungsprämien. Das Ministerium für Infrastruktur und Verkehr und Unternehmensmitteilungen bestätigten den bevorstehenden Ausstand und informierten Pendler über alternative Transportmittel und garantierte Serviceintervalle.",
    "demands": [
-    "Bessere Firmenboni",
-    "Wirtschaftliche Anerkennungen",
-    "Verbesserte Arbeitsorganisation",
-    "Verstärkte Sicherheitsmaßnahmen"
+    "Einhaltung der Vertragsnormen und Behebung wirtschaftlicher Ungleichheiten",
+    "Überarbeitung der Leistungsprämien für 2026/2027",
+    "Wirtschaftliche und parameterbezogene Verbesserungen für das gesamte ANM-Personal",
+    "Bessere Sicherheit, Effizienz und Qualität des öffentlichen Verkehrs"
    ],
-   "response": "In den Quellen wurde keine offizielle Reaktion gemeldet.",
+   "response": "ANM und das Ministerium für Infrastruktur und Verkehr nahmen den Streik zur Kenntnis und veröffentlichten Fahrpläne sowie garantierte Service-Zeitfenster für Pendler.",
    "updates": [
-    "ANM-Arbeiter kündigten einen vierstündigen Streik für den 16. November in Bezug auf Boni, Anerkennung, Organisation und Sicherheit an.",
-    "Das Ministerium für Infrastruktur und Verkehr bestätigte den Verkehrsstreik für den 16. November von 11:00 bis 15:00 Uhr."
+    "ANM kündigte einen potenziellen vierstündigen Verkehrsstreik für den 16. November an.",
+    "Das Ministerium für Infrastruktur und Verkehr bestätigte die Streikaktion für den 16. November.",
+    "Gewerkschaften und ANM gaben finale Details zu Servicegarantien und Ausstandszeiten bekannt."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "it": {
-   "title": "Lavoratori dei trasporti ANM programmano uno sciopero di quattro ore a Napoli",
-   "seoTitle": "Sciopero dei trasporti ANM a Napoli",
+   "title": "Lavoratori dei trasporti ANM indicono sciopero di quattro ore a Napoli",
+   "seoTitle": "Sciopero trasporti ANM Napoli",
    "tea": {
-    "why": "I lavoratori dei trasporti a Napoli protestano per i bonus aziendali, il riconoscimento economico, l'organizzazione del lavoro e la sicurezza.",
-    "want": "I lavoratori chiedono bonus aziendali migliori, riconoscimenti economici, una migliore organizzazione del lavoro e maggiori misure di sicurezza.",
-    "changed": "14 nov: Il Ministero delle Infrastrutture e dei Trasporti ha confermato lo sciopero previsto per il 16 novembre."
+    "why": "I lavoratori dei trasporti protestano per il rispetto dei contratti, le disparità economiche e le questioni di sicurezza.",
+    "want": "Chiedono una revisione dei bonus di produzione, miglioramenti economici per tutto il personale e maggiore sicurezza sul lavoro.",
+    "changed": "15 nov: I sindacati e l'azienda hanno confermato i dettagli dello sciopero di quattro ore e garantito le fasce di servizio per il 16 novembre."
    },
-   "summary": "Il personale di trasporto dipendente di ANM a Napoli ha programmato uno sciopero di quattro ore per il 16 novembre 2026. Secondo le fonti, l'azione interesserà linee metropolitane, autobus, tram e funicolari tra le 11:00 e le 15:00. La vertenza è incentrata su questioni tra cui bonus aziendali, riconoscimenti economici, organizzazione del lavoro e sicurezza. Ai pendolari e agli studenti si consiglia di seguire gli aggiornamenti ufficiali, poiché sono previste riduzioni del servizio e sospensioni temporanee durante la fascia oraria indicata. Lo sciopero è stato confermato sul sito web del Ministero delle Infrastrutture e dei Trasporti nonché tramite comunicazioni dell'azienda.",
+   "summary": "I lavoratori dei trasporti ANM di Napoli hanno indetto uno sciopero di quattro ore per il 16 novembre, dalle 11:00 alle 15:00, che interessa linee metropolitane, bus e funicolari. L'azione è stata proclamata da sindacati tra cui Usb, Fit Cisl, Orsa e Faisa Confail. Secondo i sindacati, la mobilitazione si concentra su questioni riguardanti le norme contrattuali, le disparità economiche, il riconoscimento dei ruoli professionali, un'equa distribuzione delle risorse e la sicurezza operativa, oltre alla richiesta di rivedere i bonus di produzione. Il Ministero delle Infrastrutture e dei Trasporti e gli avvisi dell'azienda hanno confermato l'imminente fermata, consigliando al contempo ai pendolari trasporti alternativi e intervalli di servizio garantiti.",
    "demands": [
-    "Bonus aziendali migliori",
-    "Riconoscimenti economici",
-    "Migliore organizzazione del lavoro",
-    "Maggiori misure di sicurezza"
+    "Rispetto delle norme contrattuali e risoluzione delle disparità economiche",
+    "Revisione dei bonus di produzione per il 2026/2027",
+    "Miglioramenti economici e di parametro per tutto il personale ANM",
+    "Maggiore sicurezza, efficienza e qualità del trasporto pubblico"
    ],
-   "response": "Nessuna risposta ufficiale riportata nelle fonti.",
+   "response": "ANM e il Ministero delle Infrastrutture e dei Trasporti hanno preso atto dello sciopero, pubblicando gli orari e le fasce di servizio garantito per i pendolari.",
    "updates": [
-    "I lavoratori di ANM hanno annunciato uno sciopero di quattro ore per il 16 novembre riguardante bonus, riconoscimento, organizzazione e sicurezza.",
-    "Il Ministero delle Infrastrutture e dei Trasporti ha confermato lo sciopero dei trasporti per il 16 novembre dalle 11:00 alle 15:00."
+    "L'ANM ha annunciato un potenziale sciopero dei trasporti di quattro ore previsto per il 16 novembre.",
+    "Il Ministero delle Infrastrutture e dei Trasporti ha confermato l'azione di sciopero per il 16 de noviembre.",
+    "I sindacati e l'ANM hanno diffuso i dettagli finali relativi alle garanzie di servizio e agli orari dello stop."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "pt": {
-   "title": "Trabalhadores de transportes da ANM marcam greve de quatro horas em Nápoles",
-   "seoTitle": "Greve dos trabalhadores de transportes da ANM em Nápoles",
+   "title": "Trabalhadores dos transportes da ANM marcam greve de quatro horas em Nápoles",
+   "seoTitle": "Greve dos transportes da ANM em Nápoles",
    "tea": {
-    "why": "Os trabalhadores de transportes em Nápoles protestam contra os bónus empresariais, o reconhecimento económico, a organização do trabalho e a segurança.",
-    "want": "Os trabalhadores exigem melhores bónus da empresa, reconhecimento económico, melhor organização do trabalho e medidas de segurança reforçadas.",
-    "changed": "14 de nov.: O Ministério das Infraestruturas e dos Transportes confirmou a greve marcada para 16 de novembro."
+    "why": "Os trabalhadores dos transportes protestam contra o cumprimento de contratos, disparidades económicas e questões de segurança.",
+    "want": "Exigem uma revisão dos prémios de produção, melhorias económicas para todo o pessoal e melhor segurança no local de trabalho.",
+    "changed": "15 de nov.: Sindicatos e empresa confirmaram os detalhes da greve de quatro horas e garantiram janelas de serviço para 16 de novembro."
    },
-   "summary": "O pessoal de transportes empregado pela ANM em Nápoles marcou uma greve de quatro horas para 16 de novembro de 2026. Segundo as fontes, a ação afetará as linhas de metro, autocarros, elétricos e funiculares entre as 11:00 e as 15:00. O litígio centra-se em questões que incluem bónus empresariais, reconhecimentos económicos, organização do trabalho e segurança. Aconselha-se os passageiros e estudantes a acompanharem as atualizações oficiais, uma vez que são esperadas reduções de serviço e suspensões temporárias durante o período indicado. A greve foi confirmada no sítio Web do Ministério das Infraestruturas e dos Transportes, bem como através de anúncios da empresa.",
+   "summary": "Os trabalhadores dos transportes da ANM em Nápoles agendaram uma greve de quatro horas para 16 de novembro, decorrendo entre as 11:00 e as 15:00, afetando linhas de metro, autocarros e funiculares. A ação foi convocada por sindicatos incluindo Usb, Fit Cisl, Orsa e Faisa Confail. Segundo os sindicatos, a mobilização centra-se em questões relativas a normas contratuais, disparidades económicas, reconhecimento de funções profissionais, distribuição equitativa de recursos e segurança operacional, juntamente com a exigência de rever os prémios de produção. O Ministério das Infraestruturas e dos Transportes e avisos da empresa confirmaram a paralisação iminente, aconselhando simultaneamente os passageiros sobre transportes alternativos e intervalos de serviço garantidos.",
    "demands": [
-    "Melhores bónus empresariais",
-    "Reconhecimentos económicos",
-    "Melhor organização do trabalho",
-    "Medidas de segurança reforçadas"
+    "Respeito pelas normas contratuais e resolução de disparidades económicas",
+    "Revisão dos prémios de produção para 2026/2027",
+    "Melhorias económicas e de parâmetros para todo o pessoal da ANM",
+    "Melhor segurança, eficiência e qualidade do transporte público"
    ],
-   "response": "Nenhuma resposta oficial relatada nas fontes.",
+   "response": "A ANM e o Ministério das Infraestruturas e dos Transportes tomaram conhecimento da greve, publicando horários e janelas de serviço garantido para os passageiros.",
    "updates": [
-    "Os trabalhadores da ANM anunciaram uma greve de quatro horas para 16 de novembro relativamente a bónus, reconhecimento, organização e segurança.",
-    "O Ministério das Infraestruturas e dos Transportes confirmou a greve dos transportes para 16 de novembro das 11:00 às 15:00."
+    "A ANM anunciou uma potencial greve de transportes de quatro horas agendada para 16 de novembro.",
+    "O Ministério das Infraestruturas e dos Transportes confirmou a ação de greve para 16 de novembro.",
+    "Sindicatos e ANM divulgaram os detalhes finais relativos às garantias de serviço e horas de paralisação."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "nl": {
-   "title": "ANM-transportmedewerkers plannen vier uur durende staking in Napels",
-   "seoTitle": "Staking ANM-transportmedewerkers in Napels",
+   "title": "ANM-transportarbeiders plannen vierjarige staking in Napels",
+   "seoTitle": "Staking ANM-transportarbeiders Napels",
    "tea": {
-    "why": "Transportmedewerkers in Napels protesteren over bedrijfsbonussen, economische erkenning, werkorganisatie en veiligheid.",
-    "want": "Werknemers eisen betere bedrijfsbonussen, economische erkenningen, een verbeterde werkorganisatie en versterkte veiligheidsmaatregelen.",
-    "changed": "14 nov.: Het Ministerie van Infrastructuur en Transport bevestigde de staking gepland voor 16 november."
+    "why": "Transportarbeiders protesteren over contractnaleving, economische ongelijkheden en veiligheidskwesties.",
+    "want": "Zij eisen een herziening van productiebonussen, economische verbeteringen voor al het personeel en betere werkveiligheid.",
+    "changed": "15 nov.: Vakbonden en het bedrijf bevestigden de details van de vier uur durende staking en garandeerden dienstverleningsvensters voor 16 november."
    },
-   "summary": "Transportpersoneel in loondienst bij ANM in Napels heeft een vier uur durende staking gepland voor 16 november 2026. Volgens de bronnen zal de actie metrolijnen, bussen, trams en kabelspoorwegen treffen tussen 11:00 en 15:00 uur. Het geschil draait om kwesties waaronder bedrijfsbonussen, economische erkenningen, werkorganisatie en veiligheid. Pendelaars en studenten wordt aangeraden officiële updates in de gaten te houden, aangezien dienstverminderingen en tijdelijke opschortingen worden verwacht tijdens het vermelde venster. De staking is bevestigd op de website van het Ministerie van Infrastructuur en Transport en via aankondigingen van het bedrijf.",
+   "summary": "ANM-transportarbeiders in Napels hebben een vier uur durende staking gepland voor 16 november, lopende van 11:00 tot 15:00 uur, wat van invloed is op metrolijnen, bussen en kabelbanen. De actie werd uitgeroepen door vakbonden waaronder Usb, Fit Cisl, Orsa en Faisa Confail. Volgens de vakbonden richt de mobilisatie zich op kwesties met betrekking tot contractnormen, economische ongelijkheden, erkenning van professionele rollen, een eerlijke verdeling van middelen en operationele veiligheid, naast de eis om de productiebonussen te herzien. Het Ministerie van Infrastructuur en Transport en bedrijfsmededelingen bevestigden de aankomende werkonderbreking, terwijl pendelaars werden geadviseerd over alternatief vervoer en gegarandeerde service-intervallen.",
    "demands": [
-    "Betere bedrijfsbonussen",
-    "Economische erkenningen",
-    "Verbeterde werkorganisatie",
-    "Versterkte veiligheidsmaatregelen"
+    "Naleving van contractnormen en oplossing van economische ongelijkheden",
+    "Herziening van productiebonussen voor 2026/2027",
+    "Economische en parameterverbeteringen voor al het ANM-personeel",
+    "Beter veiligheid, efficiëntie en kwaliteit van het openbaar vervoer"
    ],
-   "response": "Geen officiële reactie gemeld in de bronnen.",
+   "response": "ANM en het Ministerie van Infrastructuur en Transport namen kennis van de staking en publiceerden dienstregelingen en gegarandeerde servicevensters voor pendelaars.",
    "updates": [
-    "ANM-werknemers kondigden een vier uur durende staking aan voor 16 november met betrekking tot bonussen, erkenning, organisatie en veiligheid.",
-    "Het Ministerie van Infrastructuur en Transport bevestigde de transportstaking voor 16 november van 11:00 tot 15:00 uur."
+    "ANM kondigde een mogelijke transportstaking van vier uur aan voor 16 november.",
+    "Het Ministerie van Infrastructuur en Transport bevestigde de stakingsactie voor 16 november.",
+    "Vakbonden en ANM brachten de laatste details naar buiten over servicegaranties en uren van de werkonderbreking."
    ],
    "conflicts": [],
    "numbers": {}
