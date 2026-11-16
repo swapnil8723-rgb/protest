@@ -1,9 +1,9 @@
 {
  "id": "e6d69e7a7b9",
- "slug": "",
- "stage": "candidate",
- "title": "Nationwide protests in France against living costs and police bill",
- "seoTitle": "",
+ "slug": "paris-france-cost-living-police-bill-sep-2026",
+ "stage": "live",
+ "title": "Protests across France against high living costs and police powers bill",
+ "seoTitle": "Paris cost-of-living and police bill protests",
  "place": {
   "city": "Paris",
   "region": "Île-de-France",
@@ -13,44 +13,123 @@
   "citySlug": "paris",
   "regionSlug": "ile-de-france"
  },
- "scope": "local",
+ "scope": "nationwide",
  "causes": [
   "prices",
   "police",
-  "anti-government"
+  "labour"
  ],
- "kind": "one-day",
- "startedOn": "2026-11-14",
+ "kind": "multi-day",
+ "startedOn": "2026-09-01",
  "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "vibe": "tense",
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious",
+  "low-confidence",
+  "sources-disagree"
+ ],
  "isOngoing": true,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "People protested against soaring living costs, public service cuts, and a proposed parliamentary bill increasing legal protections for police.",
+  "want": "Protesters demanded better living conditions, better learning conditions, children's rights, and the withdrawal of the police powers bill.",
+  "changed": "Nov 16: Six major unions called for a nationwide strike on November 17 after rejecting the government's minimum wage increase proposals."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
- "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
- "reportsPrev24h": 0,
- "reports48h": 0,
+ "summary": "Mass protests and high-school blockades have gripped France for over a month, with demonstrators taking to the streets for the fifth consecutive Saturday. Organised by students, unions, and Yellow Vest activists, the movement denounces soaring living costs, public service cuts, and a proposed bill that would establish a legal presumption of self-defence for police using firearms. Opponents argue the legislation acts as a licence to kill and shields security forces from accountability. According to the interior minister, around 106,000 people demonstrated nationwide, including 24,000 in Paris, while student unions estimated the turnout at 200,000. Clashes occurred in several cities, leading to 219 arrests. In response, Prime Minister Sebastien Lecornu announced a 1.6% minimum wage hike and wage talks, though major unions dismissed the measures as insufficient and called for a nationwide strike.",
+ "organizers": [
+  "student unions",
+  "Yellow Vest activists",
+  "French Democratic Confederation of Labour",
+  "General Confederation of Labour"
+ ],
+ "demands": [
+  "Withdraw the police protection bill",
+  "Lower living costs",
+  "Improve learning conditions",
+  "Increase minimum wages by at least 10%"
+ ],
+ "response": "According to World Journal, police deployed tear gas and water cannons to disperse crowds in cities including Paris, Bordeaux, Nantes, and Marseille. The government announced a 1.6% increase to the net minimum wage starting in December and a one-month low-wage negotiation period with unions.",
+ "numbers": {
+  "crowd": {
+   "value": 200000,
+   "text": "Student unions put the number of demonstrators at 200,000, including almost 100,000 in the capital.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  "arrests": {
+   "value": 219,
+   "text": "clash-related arrests totalled 219",
+   "sources": [
+    2
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-11-14",
+   "text": "Around 106,000 to 200,000 people protested across France for the fifth consecutive weekend, with 219 arrests reported.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
+   "at": "2026-11-15",
+   "text": "Public Accounts Minister Emilie announced that raising minimum public service wages will benefit 1.35 million people.",
+   "sources": [
+    2
+   ]
+  },
+  {
+   "at": "2026-11-16",
+   "text": "Six major French unions called for a nationwide general strike on November 17 to demand a 10% minimum wage hike.",
+   "sources": [
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.trtworld.com/article/c4caaf5aaf52",
+   "publisher": "trtworld.com",
+   "title": "TRT World - France rocked by fresh mass protests over soaring living costs and police powers",
+   "publishedAt": "2026-11-14T18:01:58.050Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.worldjournal.com/wj/story/121488/9881201?from\\\\u003dwj_maintab_cate",
+   "publisher": "worldjournal.com",
+   "title": "法國10萬人上街反對通脹、警察法案 葡萄牙、德國也傳抗議 | 世界新聞網",
+   "publishedAt": "2026-11-16T06:24:00.000Z"
+  }
+ ],
+ "conflicts": [
+  "The interior minister stated that about 106,000 people participated nationwide, whereas student unions estimated the crowd at 200,000."
+ ],
+ "confidence": 0.55,
+ "publishers": 2,
+ "reports24h": 1,
+ "reportsPrev24h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-16T08:53:39.853Z",
- "lastReportAt": "2026-11-16T08:53:39.853Z",
- "lastCheckedAt": "2026-11-16T08:53:39.853Z",
- "updatedAt": "2026-11-16T08:53:39.853Z",
+ "lastReportAt": "2026-11-16T06:24:00.000Z",
+ "lastCheckedAt": "2026-11-16T12:57:41.178Z",
+ "updatedAt": "2026-11-16T12:57:28.114Z",
  "distinctFrom": [
   "ec6385243c0"
- ]
+ ],
+ "searchedAt": "2026-11-16T12:51:05.636Z",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-11-16T12:57:28.114Z",
+ "summaryOf": "9fe4b83f2f49"
 }
