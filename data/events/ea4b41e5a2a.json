@@ -32,266 +32,336 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Public sector workers and unions are protesting to demand higher wages and address concerns over budget cuts and working conditions.",
-  "want": "An immediate increase of at least 5% for all salaries and a minimum wage exceeding 1,500 euros.",
-  "changed": "Nov 17: Demonstrations took place across France, with reports of police using tear gas and water cannons to disperse crowds in Nantes."
+  "why": "Protesters are demanding higher wages and better working conditions, citing inflation and dissatisfaction with government pay offers.",
+  "want": "A monthly net wage increase of 150 euros, indexation of wages to inflation, and improved public service funding.",
+  "changed": "Nov 17: The Paris police prefecture reported 28,000 participants in the capital, while the CGT claimed 175,000."
  },
- "summary": "On November 17, 2026, public sector workers and unions held a nationwide day of action across France to demand wage increases. Organised by an inter-union coalition, including the CGT, the movement sought a minimum 5% salary hike for all workers and a minimum wage above 1,500 euros. In Paris, a march departed from the Place de la Nation. Protests occurred in multiple cities, including Marseille, Rennes, Nantes, and Perpignan. Authorities reported varying turnout figures, with the Marseille police citing 4,900 participants while the CGT claimed 80,000. In Nantes, police used tear gas and water cannons to disperse demonstrators following reports of mortar fire. The government had previously announced wage adjustments for 1.35 million public servants, which unions deemed insufficient. Transport disruptions were reported in the Île-de-France region, though TGV services remained largely unaffected.",
+ "summary": "On November 17, 2026, public sector workers, rail employees, students, and other groups held a nationwide day of action in France to demand wage increases. Organised by an inter-union alliance including the CGT, CFDT, and others, the protests followed a government offer of a 1.6% minimum wage increase, which unions rejected as insufficient. In Paris, a march took place from Place de la Nation to Place d’Italie. While the Ministry of the Interior reported 146,000 protesters nationwide, the CGT claimed 500,000. The day saw disruptions to transport and education services. Authorities implemented security measures, including a temporary ban on fireworks, and the Paris administrative court suspended a police order that had restricted gatherings near certain schools and universities.",
  "organizers": [
   "CGT",
-  "Intersyndicale"
+  "CFDT",
+  "SUD-Rail",
+  "Unsa",
+  "FSU",
+  "Solidaires"
  ],
  "demands": [
-  "5% salary increase for all workers",
-  "Minimum wage above 1,500 euros"
+  "150 euro net monthly wage increase",
+  "Indexation of wages to inflation",
+  "Increased funding for public services",
+  "More university places"
  ],
- "response": "The government announced on November 13 a wage revaluation for 1.35 million public sector agents. Police forces were deployed nationwide to manage the demonstrations, using tear gas and water cannons in Nantes to disperse protesters.",
+ "response": "The government, led by Prime Minister Sébastien Lecornu, offered a 1.6% minimum wage increase, which unions described as insufficient. The Ministry of the Interior reported 146,000 protesters nationwide and deployed police to monitor the demonstrations.",
  "numbers": {
   "crowd": {
-   "value": 80000,
-   "text": "The CGT claimed 80,000 participants in Marseille, while the police reported 4,900.",
+   "value": 500000,
+   "text": "The CGT claimed 500,000 protesters nationwide, while the Ministry of the Interior reported 146,000.",
    "sources": [
-    2
+    3,
+    4
    ]
   }
  },
  "updates": [
   {
-   "at": "2026-11-17",
-   "text": "Protests began across France with significant turnout in cities like Marseille and Paris.",
+   "at": "2026-11-13",
+   "text": "The CFDT joined the inter-union call for strikes following a meeting at Matignon.",
    "sources": [
-    2,
-    3
+    1
    ]
   },
   {
    "at": "2026-11-17",
-   "text": "Police in Nantes used tear gas and water cannons to disperse protesters following reports of mortar fire.",
+   "text": "Protests began across France, with significant participation in Paris, Lyon, and other cities.",
    "sources": [
-    2,
+    3,
+    6,
+    8
+   ]
+  },
+  {
+   "at": "2026-11-17",
+   "text": "The Paris administrative court suspended a police order banning gatherings near schools and universities.",
+   "sources": [
+    3,
     4
-   ]
-  },
-  {
-   "at": "2026-11-17",
-   "text": "Demonstrations in Perpignan concluded after an hour without incident.",
-   "sources": [
-    2
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://www.sortiraparis.com/fi/uutiset/pariisissa/articles/358322-sncf-n-ja-ratp-n-lakko-17-marraskuuta-tgv-rer-ja-transilien-junat-seka-metro-tana-tiistaina",
+   "url": "https://www.sortiraparis.com/de/nachricht/in-paris/articles/357817-streik-am-17-november-in-paris-schulen-offentlicher-dienst-verkehr-der-uberblick",
    "publisher": "sortiraparis.com",
-   "title": "Lakko tiistaina: TGV-junat kulkevat normaalisti, mutta RER D:llä sekä J- ja N-linjoilla on häiriöitä",
-   "publishedAt": "2026-11-15T20:04:15.000Z"
+   "title": "Streik am 17. November: Bis zu 80.000 Demonstranten in Paris erwartet",
+   "publishedAt": "2026-11-09T16:29:36.000Z"
   },
   {
    "n": 2,
-   "url": "https://www.20minutes.fr/societe/4263432-20261117-direct-mobilisation-17-novembre-fonctionnaires-nouveau-rue-hausses-salaires?at_medium=display&at_campaign=149",
+   "url": "https://www.20minutes.fr/economie/4263174-20261116-transports-education-quoi-attendre-greve-17-novembre?at_medium=display&at_campaign=149",
    "publisher": "20minutes.fr",
-   "title": "EN DIRECT Mobilisation du 17 novembre : Les fonctionnaires de nouveau dans …",
-   "publishedAt": "2026-11-17T04:00:22.000Z"
+   "title": "À quoi s’attendre pour la grève du 17 novembre ?",
+   "publishedAt": "2026-11-16T09:32:23.533Z"
   },
   {
    "n": 3,
-   "url": "https://www.lefigaro.fr/actualite-france/en-direct-colere-sociale-toutes-les-organisations-appellent-a-se-mobiliser-massivement-ce-mardi-pour-transformer-l-essai-20261117",
-   "publisher": "lefigaro.fr",
-   "title": "EN DIRECT - Grève du 17 novembre : toutes les organisations appellent à se mobiliser «massivement» ce mardi pour «transformer l’essai»",
-   "publishedAt": "2026-11-17T05:38:42.000Z"
+   "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-et-manifestations-du-17-novembre-suivez-la-journee-de-mobilisation_8285927.html",
+   "publisher": "franceinfo.fr",
+   "title": "DIRECT. Manifestations du 17 novembre : \"Franchement, le compte n'y est pas !\", pour la patronne de la CGT avant une nouvelle journ&eacute;e de mobilisation",
+   "publishedAt": "2026-11-17T05:33:40.000Z"
   },
   {
    "n": 4,
-   "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/loire-atlantique/nantes/manifestation-du-17-novembre-des-rassemblements-prevus-ce-mardi-matin-dans-les-limites-prevues-par-les-prefectures-3450930.html",
-   "publisher": "france3-regions.franceinfo.fr",
-   "title": "DIRECT. Manifestation du 17 novembre : un retour au calme après des tensions entre manifestants et forces de l'ordre à Nantes, bonne ambiance à Saint-Nazaire et Le Mans",
-   "publishedAt": "2026-11-17T08:06:56.000Z"
+   "url": "https://www.la-croix.com/economie/direct-greve-mardi-17-novembre-2026-sncf-ecole-parcours-manifestation-aujourdhui-20261117",
+   "publisher": "la-croix.com",
+   "title": "DIRECT. Grève du 17 novembre : 146 000 personnes ont défilé selon le ministère, 500 000 selon la CGT",
+   "publishedAt": "2026-11-17T07:26:38.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://socialistworker.co.uk/france-in-revolt/thousands-on-the-streets-of-france-defy-violent-government-crackdown/",
+   "publisher": "socialistworker.co.uk",
+   "title": "Thousands of students and strikers in France defy violent crackdown",
+   "publishedAt": "2026-11-17T12:44:58.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://wydarzenia.interia.pl/zagranica/news-protesty-znow-miazdza-francje-setki-policjantow-ruszylo-po-z,nId,23574821",
+   "publisher": "wydarzenia.interia.pl",
+   "title": "Francja wrze, ruszył ogólnokrajowy protest. Media: Policjanci mówią \"dość\"",
+   "publishedAt": "2026-11-17T13:25:44.000Z"
+  },
+  {
+   "n": 7,
+   "url": "https://www.rtp.pt/noticias/mundo/mais-um-dia-de-greve-em-franca-escolas-transportes-e-servicos-publicos-afetados_v1779769",
+   "publisher": "rtp.pt",
+   "title": "Mais um dia de greve em França. Escolas, transportes e serviços públicos afetados",
+   "publishedAt": "2026-11-17T14:07:47.000Z"
+  },
+  {
+   "n": 8,
+   "url": "https://www.chinadaily.com.cn/a/202611/17/WS6afc600ae4b03ebf8519cfc9.html",
+   "publisher": "chinadaily.com.cn",
+   "title": "France braces for fresh public sector strike over pay",
+   "publishedAt": "2026-11-17T14:09:13.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://www.tanea.gr/2026/11/17/world/gallia-nea-imera-apergion-kai-diadiloseon-se-ekseliksi-simera-se-oli-ti-xora/",
+   "publisher": "tanea.gr",
+   "title": "Γαλλία: Νέα ημέρα απεργιών και διαδηλώσεων σε εξέλιξη σήμερα σε όλη τη χώρα",
+   "publishedAt": "2026-11-17T14:12:09.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://www.lefigaro.fr/social/point-d-indice-primes-indemnites-comment-fonctionne-la-remuneration-des-fonctionnaires-20261117",
+   "publisher": "lefigaro.fr",
+   "title": "Point d’indice, primes, indemnités : comment fonctionne la rémunération des fonctionnaires ?",
+   "publishedAt": "2026-11-17T15:45:10.000Z"
   }
  ],
  "conflicts": [
-  "In Marseille, police reported 4,900 protesters while the CGT claimed 80,000."
+  "The Ministry of the Interior reported 146,000 protesters nationwide, while the CGT claimed 500,000.",
+  "The Paris police prefecture reported 28,000 participants in Paris, while the CGT claimed 175,000."
  ],
- "confidence": 0.71,
- "publishers": 4,
- "reports24h": 5,
- "reportsPrev24h": 4,
- "reports48h": 9,
+ "confidence": 0.75,
+ "publishers": 10,
+ "reports24h": 15,
+ "reportsPrev24h": 6,
+ "reports48h": 21,
  "firstSeenAt": "2026-11-17T04:51:42.209Z",
- "lastReportAt": "2026-11-17T08:06:56.000Z",
- "lastCheckedAt": "2026-11-17T12:58:44.052Z",
- "updatedAt": "2026-11-17T12:57:37.268Z",
+ "lastReportAt": "2026-11-17T15:45:10.000Z",
+ "lastCheckedAt": "2026-11-17T16:56:51.346Z",
+ "updatedAt": "2026-11-17T16:55:46.827Z",
  "searchedAt": "2026-11-17T08:50:43.051Z",
  "endedOn": "2026-11-17",
  "responseSources": [
-  2,
   3,
-  4
+  4,
+  5,
+  8
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-17T12:57:37.268Z",
- "summaryOf": "2e8457e8d379",
+ "summarizedAt": "2026-11-17T16:55:46.827Z",
+ "summaryOf": "21220970377a",
  "publishedAt": "2026-11-17T08:54:29.570Z",
  "i18n": {
-  "of": "07dd501f94cdf6a4",
-  "at": "2026-11-17T13:00:34.870Z",
+  "of": "d07cd511665e5483",
+  "at": "2026-11-17T16:57:38.673Z",
   "tries": 1,
   "es": {
    "title": "Trabajadores y sindicatos del sector público protestan en Francia por salarios más altos",
    "seoTitle": "Protesta en París por salarios más altos",
    "tea": {
-    "why": "Los trabajadores y sindicatos del sector público protestan para exigir salarios más altos y abordar las preocupaciones sobre los recortes presupuestarios y las condiciones laborales.",
-    "want": "Un aumento inmediato de al menos el 5% para todos los salarios y un salario mínimo superior a 1.500 euros.",
-    "changed": "17 de noviembre: Se llevaron a cabo manifestaciones en toda Francia, con informes de la policía utilizando gases lacrimógenos y cañones de agua para dispersar a las multitudes en Nantes."
+    "why": "Los manifestantes exigen salarios más altos y mejores condiciones laborales, citando la inflación y la insatisfacción con las ofertas salariales del gobierno.",
+    "want": "Un aumento salarial neto mensual de 150 euros, la indexación de los salarios a la inflación y una mejor financiación de los servicios públicos.",
+    "changed": "17 de noviembre: La prefectura de policía de París informó de 28.000 participantes en la capital, mientras que la CGT afirmó que fueron 175.000."
    },
-   "summary": "El 17 de noviembre de 2026, los trabajadores y sindicatos del sector público llevaron a cabo una jornada nacional de acción en toda Francia para exigir aumentos salariales. Organizado por una coalición intersindical, incluida la CGT, el movimiento buscaba un aumento salarial mínimo del 5% para todos los trabajadores y un salario mínimo superior a 1.500 euros. En París, una marcha partió de la Place de la Nation. Se produjeron protestas en varias ciudades, incluidas Marsella, Rennes, Nantes y Perpiñán. Las autoridades informaron de cifras de participación variables, con la policía de Marsella citando 4.900 participantes mientras que la CGT afirmó que fueron 80.000. En Nantes, la policía utilizó gases lacrimógenos y cañones de agua para dispersar a los manifestantes tras informes de disparos de mortero. El gobierno había anunciado previamente ajustes salariales para 1,35 millones de funcionarios públicos, que los sindicatos consideraron insuficientes. Se informaron interrupciones en el transporte en la región de Île-de-France, aunque los servicios de TGV permanecieron en gran medida sin afectaciones.",
+   "summary": "El 17 de noviembre de 2026, trabajadores del sector público, empleados ferroviarios, estudiantes y otros grupos llevaron a cabo una jornada nacional de acción en Francia para exigir aumentos salariales. Organizadas por una alianza intersindical que incluye a la CGT, la CFDT y otros, las protestas siguieron a una oferta gubernamental de un aumento del salario mínimo del 1,6%, que los sindicatos rechazaron por considerarlo insuficiente. En París, tuvo lugar una marcha desde la Place de la Nation hasta la Place d’Italie. Mientras que el Ministerio del Interior informó de 146.000 manifestantes a nivel nacional, la CGT afirmó que fueron 500.000. La jornada registró interrupciones en los servicios de transporte y educación. Las autoridades implementaron medidas de seguridad, incluida una prohibición temporal de fuegos artificiales, y el tribunal administrativo de París suspendió una orden policial que restringía las reuniones cerca de ciertas escuelas y universidades.",
    "demands": [
-    "Aumento salarial del 5% para todos los trabajadores",
-    "Salario mínimo superior a 1.500 euros"
+    "Aumento salarial neto mensual de 150 euros",
+    "Indexación de los salarios a la inflación",
+    "Mayor financiación para los servicios públicos",
+    "Más plazas universitarias"
    ],
-   "response": "El gobierno anunció el 13 de noviembre una revalorización salarial para 1,35 millones de agentes del sector público. Se desplegaron fuerzas policiales en todo el país para gestionar las manifestaciones, utilizando gases lacrimógenos y cañones de agua en Nantes para dispersar a los manifestantes.",
+   "response": "El gobierno, dirigido por el primer ministro Sébastien Lecornu, ofreció un aumento del salario mínimo del 1,6%, que los sindicatos calificaron de insuficiente. El Ministerio del Interior informó de 146.000 manifestantes a nivel nacional y desplegó a la policía para vigilar las manifestaciones.",
    "updates": [
-    "Las protestas comenzaron en toda Francia con una participación significativa en ciudades como Marsella y París.",
-    "La policía en Nantes utilizó gases lacrimógenos y cañones de agua para dispersar a los manifestantes tras informes de disparos de mortero.",
-    "Las manifestaciones en Perpiñán concluyeron después de una hora sin incidentes."
+    "La CFDT se unió al llamamiento intersindical a la huelga tras una reunión en Matignon.",
+    "Las protestas comenzaron en toda Francia, con una participación significativa en París, Lyon y otras ciudades.",
+    "El tribunal administrativo de París suspendió una orden policial que prohibía las reuniones cerca de escuelas y universidades."
    ],
    "conflicts": [
-    "En Marsella, la policía informó de 4.900 manifestantes mientras que la CGT afirmó que fueron 80.000."
+    "El Ministerio del Interior informó de 146.000 manifestantes a nivel nacional, mientras que la CGT afirmó que fueron 500.000.",
+    "La prefectura de policía de París informó de 28.000 participantes en París, mientras que la CGT afirmó que fueron 175.000."
    ],
    "numbers": {
-    "crowd": "La CGT afirmó que hubo 80.000 participantes en Marsella, mientras que la policía informó de 4.900."
+    "crowd": "La CGT afirmó que hubo 500.000 manifestantes a nivel nacional, mientras que el Ministerio del Interior informó de 146.000."
    }
   },
   "fr": {
-   "title": "Les travailleurs et syndicats du secteur public manifestent à travers la France pour des salaires plus élevés",
+   "title": "Les travailleurs et syndicats du secteur public manifestent en France pour des salaires plus élevés",
    "seoTitle": "Manifestation à Paris pour des salaires plus élevés",
    "tea": {
-    "why": "Les travailleurs et syndicats du secteur public manifestent pour exiger des salaires plus élevés et répondre aux préoccupations concernant les coupes budgétaires et les conditions de travail.",
-    "want": "Une augmentation immédiate d'au moins 5 % pour tous les salaires et un salaire minimum supérieur à 1 500 euros.",
-    "changed": "17 novembre : Des manifestations ont eu lieu à travers la France, avec des rapports faisant état de l'utilisation par la police de gaz lacrymogènes et de canons à eau pour disperser les foules à Nantes."
+    "why": "Les manifestants exigent des salaires plus élevés et de meilleures conditions de travail, citant l'inflation et l'insatisfaction face aux offres salariales du gouvernement.",
+    "want": "Une augmentation nette du salaire mensuel de 150 euros, l'indexation des salaires sur l'inflation et un meilleur financement des services publics.",
+    "changed": "17 novembre : La préfecture de police de Paris a fait état de 28 000 participants dans la capitale, tandis que la CGT en a revendiqué 175 000."
    },
-   "summary": "Le 17 novembre 2026, les travailleurs et syndicats du secteur public ont organisé une journée d'action nationale à travers la France pour exiger des augmentations de salaire. Organisé par une coalition intersyndicale, incluant la CGT, le mouvement réclamait une hausse salariale minimale de 5 % pour tous les travailleurs et un salaire minimum supérieur à 1 500 euros. À Paris, un cortège est parti de la place de la Nation. Des manifestations ont eu lieu dans plusieurs villes, dont Marseille, Rennes, Nantes et Perpignan. Les autorités ont rapporté des chiffres de participation variables, la police de Marseille citant 4 900 participants tandis que la CGT en revendiquait 80 000. À Nantes, la police a utilisé des gaz lacrymogènes et des canons à eau pour disperser les manifestants suite à des signalements de tirs de mortier. Le gouvernement avait précédemment annoncé des ajustements salariaux pour 1,35 million d'agents publics, que les syndicats ont jugés insuffisants. Des perturbations des transports ont été signalées dans la région Île-de-France, bien que les services TGV soient restés largement épargnés.",
+   "summary": "Le 17 novembre 2026, des travailleurs du secteur public, des cheminots, des étudiants et d'autres groupes ont organisé une journée d'action nationale en France pour exiger des augmentations de salaire. Organisées par une alliance intersyndicale incluant la CGT, la CFDT et d'autres, les manifestations ont fait suite à une offre gouvernementale d'augmentation du salaire minimum de 1,6 %, que les syndicats ont rejetée comme étant insuffisante. À Paris, une marche a eu lieu de la place de la Nation à la place d'Italie. Alors que le ministère de l'Intérieur a fait état de 146 000 manifestants à l'échelle nationale, la CGT en a revendiqué 500 000. La journée a été marquée par des perturbations dans les services de transport et d'éducation. Les autorités ont mis en œuvre des mesures de sécurité, notamment une interdiction temporaire des feux d'artifice, et le tribunal administratif de Paris a suspendu un arrêté préfectoral qui restreignait les rassemblements à proximité de certaines écoles et universités.",
    "demands": [
-    "Augmentation salariale de 5 % pour tous les travailleurs",
-    "Salaire minimum supérieur à 1 500 euros"
+    "Augmentation nette du salaire mensuel de 150 euros",
+    "Indexation des salaires sur l'inflation",
+    "Augmentation du financement des services publics",
+    "Davantage de places à l'université"
    ],
-   "response": "Le gouvernement a annoncé le 13 novembre une revalorisation salariale pour 1,35 million d'agents du secteur public. Les forces de police ont été déployées à l'échelle nationale pour gérer les manifestations, utilisant des gaz lacrymogènes et des canons à eau à Nantes pour disperser les manifestants.",
+   "response": "Le gouvernement, dirigé par le Premier ministre Sébastien Lecornu, a proposé une augmentation du salaire minimum de 1,6 %, que les syndicats ont qualifiée d'insuffisante. Le ministère de l'Intérieur a fait état de 146 000 manifestants à l'échelle nationale et a déployé la police pour surveiller les manifestations.",
    "updates": [
-    "Les manifestations ont commencé à travers la France avec une participation significative dans des villes comme Marseille et Paris.",
-    "La police à Nantes a utilisé des gaz lacrymogènes et des canons à eau pour disperser les manifestants suite à des signalements de tirs de mortier.",
-    "Les manifestations à Perpignan se sont terminées après une heure sans incident."
+    "La CFDT a rejoint l'appel intersyndical à la grève à la suite d'une réunion à Matignon.",
+    "Les manifestations ont débuté dans toute la France, avec une participation significative à Paris, Lyon et dans d'autres villes.",
+    "Le tribunal administratif de Paris a suspendu un arrêté préfectoral interdisant les rassemblements à proximité des écoles et des universités."
    ],
    "conflicts": [
-    "À Marseille, la police a rapporté 4 900 manifestants tandis que la CGT en revendiquait 80 000."
+    "Le ministère de l'Intérieur a fait état de 146 000 manifestants à l'échelle nationale, tandis que la CGT en a revendiqué 500 000.",
+    "La préfecture de police de Paris a fait état de 28 000 participants à Paris, tandis que la CGT en a revendiqué 175 000."
    ],
    "numbers": {
-    "crowd": "La CGT a revendiqué 80 000 participants à Marseille, tandis que la police en a rapporté 4 900."
+    "crowd": "La CGT a revendiqué 500 000 manifestants à l'échelle nationale, tandis que le ministère de l'Intérieur en a comptabilisé 146 000."
    }
   },
   "de": {
-   "title": "Beschäftigte des öffentlichen Dienstes und Gewerkschaften protestieren in ganz Frankreich für höhere Löhne",
+   "title": "Beschäftigte des öffentlichen Dienstes und Gewerkschaften protestieren in Frankreich für höhere Löhne",
    "seoTitle": "Protest in Paris für höhere Löhne",
    "tea": {
-    "why": "Beschäftigte des öffentlichen Dienstes und Gewerkschaften protestieren, um höhere Löhne zu fordern und Bedenken hinsichtlich Budgetkürzungen und Arbeitsbedingungen anzusprechen.",
-    "want": "Eine sofortige Erhöhung von mindestens 5 % für alle Gehälter und ein Mindestlohn von über 1.500 Euro.",
-    "changed": "17. November: In ganz Frankreich fanden Demonstrationen statt, wobei Berichten zufolge die Polizei in Nantes Tränengas und Wasserwerfer einsetzte, um Menschenmengen aufzulösen."
+    "why": "Die Demonstranten fordern höhere Löhne und bessere Arbeitsbedingungen und verweisen dabei auf die Inflation und die Unzufriedenheit mit den Lohnangeboten der Regierung.",
+    "want": "Eine monatliche Netto-Lohnerhöhung von 150 Euro, die Indexierung der Löhne an die Inflation und eine verbesserte Finanzierung des öffentlichen Dienstes.",
+    "changed": "17. November: Die Pariser Polizeipräfektur meldete 28.000 Teilnehmer in der Hauptstadt, während die CGT 175.000 angab."
    },
-   "summary": "Am 17. November 2026 hielten Beschäftigte des öffentlichen Dienstes und Gewerkschaften einen landesweiten Aktionstag in ganz Frankreich ab, um Lohnerhöhungen zu fordern. Die von einer gewerkschaftsübergreifenden Koalition, einschließlich der CGT, organisierte Bewegung forderte eine Mindestlohnerhöhung von 5 % für alle Arbeitnehmer und einen Mindestlohn von über 1.500 Euro. In Paris startete ein Marsch vom Place de la Nation. Proteste fanden in mehreren Städten statt, darunter Marseille, Rennes, Nantes und Perpignan. Die Behörden meldeten unterschiedliche Teilnehmerzahlen; die Polizei in Marseille gab 4.900 Teilnehmer an, während die CGT 80.000 beanspruchte. In Nantes setzte die Polizei nach Berichten über Mörserbeschuss Tränengas und Wasserwerfer ein, um Demonstranten aufzulösen. Die Regierung hatte zuvor Lohnanpassungen für 1,35 Millionen Beamte angekündigt, die von den Gewerkschaften als unzureichend erachtet wurden. In der Region Île-de-France wurden Transportstörungen gemeldet, obwohl TGV-Dienste weitgehend unbeeinträchtigt blieben.",
+   "summary": "Am 17. November 2026 hielten Beschäftigte des öffentlichen Dienstes, Eisenbahner, Studenten und andere Gruppen einen landesweiten Aktionstag in Frankreich ab, um Lohnerhöhungen zu fordern. Die von einem gewerkschaftsübergreifenden Bündnis, darunter CGT, CFDT und andere, organisierten Proteste folgten auf ein Regierungsangebot einer Mindestlohnerhöhung um 1,6 %, das die Gewerkschaften als unzureichend ablehnten. In Paris fand ein Marsch von der Place de la Nation zur Place d’Italie statt. Während das Innenministerium 146.000 Demonstranten landesweit meldete, gab die CGT 500.000 an. Der Tag war von Störungen im Transport- und Bildungswesen geprägt. Die Behörden setzten Sicherheitsmaßnahmen um, darunter ein vorübergehendes Verbot von Feuerwerkskörpern, und das Verwaltungsgericht Paris setzte eine polizeiliche Anordnung aus, die Versammlungen in der Nähe bestimmter Schulen und Universitäten eingeschränkt hatte.",
    "demands": [
-    "5 % Lohnerhöhung für alle Arbeitnehmer",
-    "Mindestlohn über 1.500 Euro"
+    "150 Euro Netto-Lohnerhöhung pro Monat",
+    "Indexierung der Löhne an die Inflation",
+    "Erhöhte Finanzierung für öffentliche Dienste",
+    "Mehr Studienplätze"
    ],
-   "response": "Die Regierung kündigte am 13. November eine Lohnanpassung für 1,35 Millionen Beschäftigte des öffentlichen Dienstes an. Polizeikräfte wurden landesweit eingesetzt, um die Demonstrationen zu verwalten, wobei in Nantes Tränengas und Wasserwerfer verwendet wurden, um Demonstranten aufzulösen.",
+   "response": "Die Regierung unter Premierminister Sébastien Lecornu bot eine Mindestlohnerhöhung um 1,6 % an, die die Gewerkschaften als unzureichend bezeichneten. Das Innenministerium meldete 146.000 Demonstranten landesweit und setzte Polizei zur Überwachung der Demonstrationen ein.",
    "updates": [
-    "Die Proteste begannen in ganz Frankreich mit signifikanter Beteiligung in Städten wie Marseille und Paris.",
-    "Die Polizei in Nantes setzte Tränengas und Wasserwerfer ein, um Demonstranten nach Berichten über Mörserbeschuss aufzulösen.",
-    "Die Demonstrationen in Perpignan endeten nach einer Stunde ohne Zwischenfälle."
+    "Die CFDT schloss sich nach einem Treffen in Matignon dem gewerkschaftsübergreifenden Streikaufruf an.",
+    "Die Proteste begannen in ganz Frankreich, mit signifikanter Beteiligung in Paris, Lyon und anderen Städten.",
+    "Das Verwaltungsgericht Paris setzte eine polizeiliche Anordnung aus, die Versammlungen in der Nähe von Schulen und Universitäten verbot."
    ],
    "conflicts": [
-    "In Marseille meldete die Polizei 4.900 Demonstranten, während die CGT 80.000 beanspruchte."
+    "Das Innenministerium meldete 146.000 Demonstranten landesweit, während die CGT 500.000 angab.",
+    "Die Pariser Polizeipräfektur meldete 28.000 Teilnehmer in Paris, während die CGT 175.000 angab."
    ],
    "numbers": {
-    "crowd": "Die CGT beanspruchte 80.000 Teilnehmer in Marseille, während die Polizei 4.900 meldete."
+    "crowd": "Die CGT gab 500.000 Demonstranten landesweit an, während das Innenministerium 146.000 meldete."
    }
   },
   "it": {
-   "title": "Lavoratori del settore pubblico e sindacati protestano in tutta la Francia per salari più alti",
+   "title": "Lavoratori del settore pubblico e sindacati protestano in Francia per salari più alti",
    "seoTitle": "Protesta a Parigi per salari più alti",
    "tea": {
-    "why": "I lavoratori del settore pubblico e i sindacati stanno protestando per chiedere salari più alti e affrontare le preoccupazioni sui tagli al bilancio e le condizioni di lavoro.",
-    "want": "Un aumento immediato di almeno il 5% per tutti gli stipendi e un salario minimo superiore a 1.500 euro.",
-    "changed": "17 novembre: Si sono svolte manifestazioni in tutta la Francia, con segnalazioni della polizia che ha utilizzato gas lacrimogeni e idranti per disperdere la folla a Nantes."
+    "why": "I manifestanti chiedono salari più alti e migliori condizioni di lavoro, citando l'inflazione e l'insoddisfazione per le offerte salariali del governo.",
+    "want": "Un aumento salariale netto mensile di 150 euro, l'indicizzazione dei salari all'inflazione e un miglior finanziamento dei servizi pubblici.",
+    "changed": "17 novembre: La prefettura di polizia di Parigi ha riferito di 28.000 partecipanti nella capitale, mentre la CGT ne ha rivendicati 175.000."
    },
-   "summary": "Il 17 novembre 2026, i lavoratori del settore pubblico e i sindacati hanno tenuto una giornata nazionale di azione in tutta la Francia per chiedere aumenti salariali. Organizzato da una coalizione intersindacale, inclusa la CGT, il movimento ha cercato un aumento salariale minimo del 5% per tutti i lavoratori e un salario minimo superiore a 1.500 euro. A Parigi, un corteo è partito da Place de la Nation. Le proteste si sono verificate in diverse città, tra cui Marsiglia, Rennes, Nantes e Perpignano. Le autorità hanno riportato cifre di partecipazione variabili, con la polizia di Marsiglia che ha citato 4.900 partecipanti mentre la CGT ne ha rivendicati 80.000. A Nantes, la polizia ha utilizzato gas lacrimogeni e idranti per disperdere i manifestanti in seguito a segnalazioni di lanci di mortaio. Il governo aveva precedentemente annunciato adeguamenti salariali per 1,35 milioni di dipendenti pubblici, che i sindacati hanno ritenuto insufficienti. Sono state segnalate interruzioni dei trasporti nella regione dell'Île-de-France, sebbene i servizi TGV siano rimasti in gran parte inalterati.",
+   "summary": "Il 17 novembre 2026, lavoratori del settore pubblico, dipendenti ferroviari, studenti e altri gruppi hanno tenuto una giornata nazionale di azione in Francia per chiedere aumenti salariali. Organizzate da un'alleanza intersindacale che include CGT, CFDT e altri, le proteste hanno fatto seguito a un'offerta governativa di un aumento del salario minimo dell'1,6%, che i sindacati hanno respinto in quanto insufficiente. A Parigi, si è svolto un corteo da Place de la Nation a Place d’Italie. Mentre il Ministero dell'Interno ha riferito di 146.000 manifestanti a livello nazionale, la CGT ne ha rivendicati 500.000. La giornata ha visto interruzioni nei servizi di trasporto e istruzione. Le autorità hanno attuato misure di sicurezza, tra cui un divieto temporaneo di fuochi d'artificio, e il tribunale amministrativo di Parigi ha sospeso un'ordinanza di polizia che limitava le riunioni vicino a determinate scuole e università.",
    "demands": [
-    "Aumento salariale del 5% per tutti i lavoratori",
-    "Salario minimo superiore a 1.500 euro"
+    "Aumento salariale netto mensile di 150 euro",
+    "Indicizzazione dei salari all'inflazione",
+    "Maggiore finanziamento per i servizi pubblici",
+    "Più posti universitari"
    ],
-   "response": "Il governo ha annunciato il 13 novembre una rivalutazione salariale per 1,35 milioni di agenti del settore pubblico. Le forze di polizia sono state dispiegate a livello nazionale per gestire le manifestazioni, utilizzando gas lacrimogeni e idranti a Nantes per disperdere i manifestanti.",
+   "response": "Il governo, guidato dal Primo Ministro Sébastien Lecornu, ha offerto un aumento del salario minimo dell'1,6%, che i sindacati hanno descritto come insufficiente. Il Ministero dell'Interno ha riferito di 146.000 manifestanti a livello nazionale e ha dispiegato la polizia per monitorare le manifestazioni.",
    "updates": [
-    "Le proteste sono iniziate in tutta la Francia con una partecipazione significativa in città come Marsiglia e Parigi.",
-    "La polizia a Nantes ha utilizzato gas lacrimogeni e idranti per disperdere i manifestanti in seguito a segnalazioni di lanci di mortaio.",
-    "Le manifestazioni a Perpignano si sono concluse dopo un'ora senza incidenti."
+    "La CFDT si è unita all'appello intersindacale allo sciopero dopo un incontro a Matignon.",
+    "Le proteste sono iniziate in tutta la Francia, con una partecipazione significativa a Parigi, Lione e altre città.",
+    "Il tribunale amministrativo di Parigi ha sospeso un'ordinanza di polizia che vietava le riunioni vicino a scuole e università."
    ],
    "conflicts": [
-    "A Marsiglia, la polizia ha riportato 4.900 manifestanti mentre la CGT ne ha rivendicati 80.000."
+    "Il Ministero dell'Interno ha riferito di 146.000 manifestanti a livello nazionale, mentre la CGT ne ha rivendicati 500.000.",
+    "La prefettura di polizia di Parigi ha riferito di 28.000 partecipanti a Parigi, mentre la CGT ne ha rivendicati 175.000."
    ],
    "numbers": {
-    "crowd": "La CGT ha rivendicato 80.000 partecipanti a Marsiglia, mentre la polizia ne ha riportati 4.900."
+    "crowd": "La CGT ha rivendicato 500.000 manifestanti a livello nazionale, mentre il Ministero dell'Interno ne ha riferiti 146.000."
    }
   },
   "pt": {
-   "title": "Trabalhadores do setor público e sindicatos protestam em toda a França por salários mais altos",
+   "title": "Trabalhadores do setor público e sindicatos protestam em França por salários mais altos",
    "seoTitle": "Protesto em Paris por salários mais altos",
    "tea": {
-    "why": "Os trabalhadores do setor público e os sindicatos estão a protestar para exigir salários mais altos e abordar preocupações sobre cortes orçamentais e condições de trabalho.",
-    "want": "Um aumento imediato de pelo menos 5% para todos os salários e um salário mínimo superior a 1.500 euros.",
-    "changed": "17 de novembro: Manifestações ocorreram em toda a França, com relatos da polícia a utilizar gás lacrimogéneo e canhões de água para dispersar multidões em Nantes."
+    "why": "Os manifestantes exigem salários mais altos e melhores condições de trabalho, citando a inflação e o descontentamento com as ofertas salariais do governo.",
+    "want": "Um aumento salarial líquido mensal de 150 euros, a indexação dos salários à inflação e um melhor financiamento dos serviços públicos.",
+    "changed": "17 de novembro: A prefeitura de polícia de Paris reportou 28.000 participantes na capital, enquanto a CGT reivindicou 175.000."
    },
-   "summary": "A 17 de novembro de 2026, trabalhadores do setor público e sindicatos realizaram um dia nacional de ação em toda a França para exigir aumentos salariais. Organizado por uma coligação intersindical, incluindo a CGT, o movimento procurou um aumento salarial mínimo de 5% para todos os trabalhadores e um salário mínimo acima de 1.500 euros. Em Paris, uma marcha partiu da Place de la Nation. Protestos ocorreram em várias cidades, incluindo Marselha, Rennes, Nantes e Perpinhão. As autoridades relataram números de participação variáveis, com a polícia de Marselha a citar 4.900 participantes enquanto a CGT reivindicou 80.000. Em Nantes, a polícia utilizou gás lacrimogéneo e canhões de água para dispersar manifestantes após relatos de disparos de morteiro. O governo tinha anunciado anteriormente ajustes salariais para 1,35 milhões de funcionários públicos, que os sindicatos consideraram insuficientes. Foram relatadas perturbações nos transportes na região de Île-de-France, embora os serviços TGV tenham permanecido em grande parte inalterados.",
+   "summary": "No dia 17 de novembro de 2026, trabalhadores do setor público, funcionários ferroviários, estudantes e outros grupos realizaram um dia nacional de ação em França para exigir aumentos salariais. Organizados por uma aliança intersindical que inclui a CGT, a CFDT e outros, os protestos seguiram-se a uma oferta governamental de um aumento do salário mínimo de 1,6%, que os sindicatos rejeitaram por considerarem insuficiente. Em Paris, realizou-se uma marcha da Place de la Nation até à Place d’Italie. Enquanto o Ministério do Interior reportou 146.000 manifestantes a nível nacional, a CGT reivindicou 500.000. O dia registou perturbações nos serviços de transporte e educação. As autoridades implementaram medidas de segurança, incluindo uma proibição temporária de fogo de artifício, e o tribunal administrativo de Paris suspendeu uma ordem policial que restringia reuniões perto de certas escolas e universidades.",
    "demands": [
-    "Aumento salarial de 5% para todos os trabalhadores",
-    "Salário mínimo superior a 1.500 euros"
+    "Aumento salarial líquido mensal de 150 euros",
+    "Indexação dos salários à inflação",
+    "Aumento do financiamento para serviços públicos",
+    "Mais vagas universitárias"
    ],
-   "response": "O governo anunciou a 13 de novembro uma revalorização salarial para 1,35 milhões de agentes do setor público. Forças policiais foram destacadas a nível nacional para gerir as manifestações, utilizando gás lacrimogéneo e canhões de água em Nantes para dispersar manifestantes.",
+   "response": "O governo, liderado pelo primeiro-ministro Sébastien Lecornu, ofereceu um aumento do salário mínimo de 1,6%, que os sindicatos descreveram como insuficiente. O Ministério do Interior reportou 146.000 manifestantes a nível nacional e destacou a polícia para monitorizar as manifestações.",
    "updates": [
-    "Os protestos começaram em toda a França com uma participação significativa em cidades como Marselha e Paris.",
-    "A polícia em Nantes utilizou gás lacrimogéneo e canhões de água para dispersar manifestantes após relatos de disparos de morteiro.",
-    "As manifestações em Perpinhão terminaram após uma hora sem incidentes."
+    "A CFDT juntou-se ao apelo intersindical à greve após uma reunião em Matignon.",
+    "Os protestos começaram em toda a França, com participação significativa em Paris, Lyon e outras cidades.",
+    "O tribunal administrativo de Paris suspendeu uma ordem policial que proibia reuniões perto de escolas e universidades."
    ],
    "conflicts": [
-    "Em Marselha, a polícia relatou 4.900 manifestantes enquanto a CGT reivindicou 80.000."
+    "O Ministério do Interior reportou 146.000 manifestantes a nível nacional, enquanto a CGT reivindicou 500.000.",
+    "A prefeitura de polícia de Paris reportou 28.000 participantes em Paris, enquanto a CGT reivindicou 175.000."
    ],
    "numbers": {
-    "crowd": "A CGT reivindicou 80.000 participantes em Marselha, enquanto a polícia relatou 4.900."
+    "crowd": "A CGT reivindicou 500.000 manifestantes a nível nacional, enquanto o Ministério do Interior reportou 146.000."
    }
   },
   "nl": {
-   "title": "Overheidspersoneel en vakbonden protesteren in heel Frankrijk voor hogere lonen",
+   "title": "Medewerkers in de publieke sector en vakbonden protesteren in Frankrijk voor hogere lonen",
    "seoTitle": "Protest in Parijs voor hogere lonen",
    "tea": {
-    "why": "Overheidspersoneel en vakbonden protesteren om hogere lonen te eisen en zorgen over bezuinigingen en arbeidsomstandigheden aan te pakken.",
-    "want": "Een onmiddellijke verhoging van ten minste 5% voor alle salarissen en een minimumloon van meer dan 1.500 euro.",
-    "changed": "17 november: Er vonden demonstraties plaats in heel Frankrijk, met berichten dat de politie traangas en waterkanonnen gebruikte om menigten in Nantes uiteen te drijven."
+    "why": "De demonstranten eisen hogere lonen en betere arbeidsomstandigheden, onder verwijzing naar de inflatie en ontevredenheid over de loonaanbiedingen van de regering.",
+    "want": "Een netto loonsverhoging van 150 euro per maand, indexering van de lonen aan de inflatie en betere financiering voor de publieke sector.",
+    "changed": "17 november: De politieprefectuur van Parijs meldde 28.000 deelnemers in de hoofdstad, terwijl de CGT er 175.000 claimde."
    },
-   "summary": "Op 17 november 2026 hielden overheidspersoneel en vakbonden een landelijke actiedag in heel Frankrijk om loonsverhogingen te eisen. De beweging, georganiseerd door een intersyndicale coalitie inclusief de CGT, streefde naar een minimale loonsverhoging van 5% voor alle werknemers en een minimumloon van meer dan 1.500 euro. In Parijs vertrok een mars vanaf de Place de la Nation. Er vonden protesten plaats in meerdere steden, waaronder Marseille, Rennes, Nantes en Perpignan. De autoriteiten rapporteerden variërende opkomstcijfers; de politie van Marseille noemde 4.900 deelnemers, terwijl de CGT er 80.000 claimde. In Nantes gebruikte de politie traangas en waterkanonnen om demonstranten uiteen te drijven na berichten over mortiervuur. De regering had eerder loonaanpassingen aangekondigd voor 1,35 miljoen ambtenaren, die de vakbonden onvoldoende vonden. Er werden transportverstoringen gemeld in de regio Île-de-France, hoewel TGV-diensten grotendeels ongemoeid bleven.",
+   "summary": "Op 17 november 2026 hielden medewerkers in de publieke sector, spoorwegmedewerkers, studenten en andere groepen een landelijke actiedag in Frankrijk om loonsverhogingen te eisen. De protesten, georganiseerd door een inter-vakbondscoalitie waaronder de CGT, CFDT en anderen, volgden op een regeringsaanbod van 1,6% verhoging van het minimumloon, wat de vakbonden als onvoldoende afwezen. In Parijs vond een mars plaats van Place de la Nation naar Place d’Italie. Terwijl het Ministerie van Binnenlandse Zaken 146.000 demonstranten landelijk meldde, claimde de CGT er 500.000. De dag zag verstoringen in het transport- en onderwijsverkeer. De autoriteiten voerden veiligheidsmaatregelen in, waaronder een tijdelijk verbod op vuurwerk, en de administratieve rechtbank van Parijs schorste een politiebevel dat bijeenkomsten nabij bepaalde scholen en universiteiten had beperkt.",
    "demands": [
-    "5% loonsverhoging voor alle werknemers",
-    "Minimumloon boven 1.500 euro"
+    "150 euro netto maandelijkse loonsverhoging",
+    "Indexering van lonen aan de inflatie",
+    "Verhoogde financiering voor publieke diensten",
+    "Meer universiteitsplaatsen"
    ],
-   "response": "De regering kondigde op 13 november een loonherwaardering aan voor 1,35 miljoen werknemers in de publieke sector. Politie-eenheden werden landelijk ingezet om de demonstraties te beheren, waarbij in Nantes traangas en waterkanonnen werden gebruikt om demonstranten uiteen te drijven.",
+   "response": "De regering, onder leiding van premier Sébastien Lecornu, bood een verhoging van het minimumloon van 1,6% aan, wat de vakbonden als onvoldoende omschreven. Het Ministerie van Binnenlandse Zaken meldde 146.000 demonstranten landelijk en zette politie in om de demonstraties te monitoren.",
    "updates": [
-    "De protesten begonnen in heel Frankrijk met een aanzienlijke opkomst in steden als Marseille en Parijs.",
-    "De politie in Nantes gebruikte traangas en waterkanonnen om demonstranten uiteen te drijven na berichten over mortiervuur.",
-    "De demonstraties in Perpignan eindigden na een uur zonder incidenten."
+    "De CFDT sloot zich aan bij de inter-vakbondsstakingsoproep na een vergadering in Matignon.",
+    "De protesten begonnen in heel Frankrijk, met aanzienlijke deelname in Parijs, Lyon en andere steden.",
+    "De administratieve rechtbank van Parijs schorste een politiebevel dat bijeenkomsten nabij scholen en universiteiten verbood."
    ],
    "conflicts": [
-    "In Marseille rapporteerde de politie 4.900 demonstranten, terwijl de CGT er 80.000 claimde."
+    "Het Ministerie van Binnenlandse Zaken meldde 146.000 demonstranten landelijk, terwijl de CGT er 500.000 claimde.",
+    "De politieprefectuur van Parijs meldde 28.000 deelnemers in Parijs, terwijl de CGT er 175.000 claimde."
    ],
    "numbers": {
-    "crowd": "De CGT claimde 80.000 deelnemers in Marseille, terwijl de politie er 4.900 rapporteerde."
+    "crowd": "De CGT claimde 500.000 demonstranten landelijk, terwijl het Ministerie van Binnenlandse Zaken er 146.000 meldde."
    }
   }
  }
