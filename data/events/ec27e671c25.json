@@ -23,43 +23,50 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence",
-  "sources-disagree"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
- "published": false,
+ "published": true,
  "tea": {
-  "why": "Students are protesting against U.S. Immigration and Customs Enforcement (ICE) raids and the Trump administration's immigration policies.",
-  "want": "Protesters are demanding an end to ICE enforcement actions and increased protections for undocumented families.",
-  "changed": "Nov 16: Thousands of students walked out of classes across Los Angeles to demonstrate at City Hall and other locations."
+  "why": "Students are protesting against federal immigration enforcement and the policies of the Trump administration.",
+  "want": "Organizers are calling for an end to ICE operations and the establishment of 'dream centers' on every LAUSD campus.",
+  "changed": "Nov 16: Thousands of students walked out of class to protest, with some incidents of property damage and fighting reported by police."
  },
- "summary": "On November 16, 2026, thousands of students from the Los Angeles Unified School District and surrounding areas walked out of their classrooms to protest U.S. Immigration and Customs Enforcement (ICE) activities. Organized by South Central Community, the demonstration saw students from over 100 schools gather at Los Angeles City Hall and other local sites, such as Huntington Park City Hall. Participants carried signs and chanted slogans against federal immigration enforcement and the current administration's policies. While organizers promoted the event as a peaceful demonstration, reports noted a student burning an American flag during the gathering. The Los Angeles Unified School District stated that the walkouts were not school-sponsored events. Estimates regarding the number of participants varied, with a school police source citing over 7,000 students involved.",
+ "summary": "On November 16, 2026, thousands of students from the Los Angeles Unified School District walked out of their classrooms to protest U.S. Immigration and Customs Enforcement (ICE) operations. Organised by South Central Community, the demonstration saw students from various schools gather at Los Angeles City Hall and Huntington Park City Hall. Protesters carried signs and chanted slogans against federal immigration policies. While organisers promoted the event as a peaceful demonstration, the Los Angeles Police Department reported incidents of fighting, property damage, and objects being thrown at federal buildings. The Department of Homeland Security stated that federal enforcement would continue, noting that ICE does not target schools. The school district clarified that the walkouts were not school-sponsored events and that they did not condone or facilitate the demonstrations.",
  "organizers": [
   "South Central Community"
  ],
  "demands": [
-  "End to ICE enforcement actions",
-  "Stop ICE terror"
+  "End all ICE operations",
+  "Fund 'dream centers' on every campus"
  ],
- "response": "The Los Angeles Unified School District stated that the walkouts were not school-sponsored events and that students leaving without permission could be marked absent, though California law allows for certain excused absences for civic activities.",
+ "response": "The Department of Homeland Security stated that ICE operations will continue, adding that the agency does not target schools. The Los Angeles Unified School District stated the walkouts were not school-sponsored and were not endorsed by the district or school police.",
  "numbers": {
   "crowd": {
    "value": 7000,
-   "text": "A school police source estimated that more than 7,000 students participated.",
+   "text": "A school police source estimated more than 7,000 students participated.",
    "sources": [
-    2
+    2,
+    3
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-16",
-   "text": "Thousands of students walked out of classes to protest ICE, with many gathering at Los Angeles City Hall.",
+   "text": "Thousands of students walked out of class to protest ICE, with groups gathering at Los Angeles City Hall and Huntington Park.",
    "sources": [
     1,
-    2
+    2,
+    4
+   ]
+  },
+  {
+   "at": "2026-11-16",
+   "text": "The LAPD reported that some protesters threw objects at federal buildings and engaged in fighting, leading to street closures.",
+   "sources": [
+    3,
+    4
    ]
   }
  ],
@@ -77,26 +84,182 @@
    "publisher": "latimes.com",
    "title": "‘We cannot close our eyes.’ Thousands of LAUSD students walk out to protest ICE",
    "publishedAt": "2026-11-16T23:04:01.222Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.theblaze.com/news/student-ice-protest-los-angeles",
+   "publisher": "theblaze.com",
+   "title": "Thousands of students walk out to protest ICE in Los Angeles — fights break out, and objects are thrown, LAPD says | Blaze Media",
+   "publishedAt": "2026-11-17T12:50:00.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.foxnews.com/media/lapd-warns-parents-about-student-safety-says-3rd-party-organizers-recruit-kids-anti-ice-walkouts",
+   "publisher": "foxnews.com",
+   "title": "LAPD warns parents about student safety, says '3rd party organizers' recruit kids for anti-ICE walkouts",
+   "publishedAt": "2026-11-17T18:31:06.000Z"
   }
  ],
- "conflicts": [
-  "While a school police source estimated over 7,000 participants, other reports described the crowd as 'hundreds' at City Hall."
- ],
- "confidence": 0.6,
- "publishers": 2,
- "reports24h": 2,
+ "conflicts": [],
+ "confidence": 0.91,
+ "publishers": 4,
+ "reports24h": 4,
  "reportsPrev24h": 0,
- "reports48h": 2,
+ "reports48h": 4,
  "firstSeenAt": "2026-11-17T00:52:22.052Z",
- "lastReportAt": "2026-11-16T23:04:01.222Z",
- "lastCheckedAt": "2026-11-17T16:56:51.346Z",
- "updatedAt": "2026-11-17T00:54:30.450Z",
+ "lastReportAt": "2026-11-17T18:31:06.000Z",
+ "lastCheckedAt": "2026-11-17T20:57:21.304Z",
+ "updatedAt": "2026-11-17T20:55:56.148Z",
  "endedOn": "2026-11-16",
  "responseSources": [
-  1
+  4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-17T00:54:30.450Z",
- "summaryOf": "30801387ac75"
+ "summarizedAt": "2026-11-17T20:55:56.148Z",
+ "summaryOf": "e35eb3d01efe",
+ "publishedAt": "2026-11-17T20:57:21.304Z",
+ "i18n": {
+  "of": "a128285653cef5bb",
+  "at": "2026-11-17T20:57:59.928Z",
+  "tries": 1,
+  "es": {
+   "title": "Estudiantes de Los Ángeles abandonan las aulas para protestar contra las medidas migratorias del ICE",
+   "seoTitle": "Protesta estudiantil en Los Ángeles contra el ICE",
+   "tea": {
+    "why": "Los estudiantes protestan contra las medidas federales de control migratorio y las políticas de la administración Trump.",
+    "want": "Los organizadores piden el fin de las operaciones del ICE y la creación de 'centros de ensueño' en todos los campus del LAUSD.",
+    "changed": "16 de nov: Miles de estudiantes abandonaron las aulas para protestar; la policía informó de algunos incidentes de daños a la propiedad y peleas."
+   },
+   "summary": "El 16 de noviembre de 2026, miles de estudiantes del Distrito Escolar Unificado de Los Ángeles abandonaron sus aulas para protestar contra las operaciones del Servicio de Inmigración y Control de Aduanas (ICE) de EE. UU. La manifestación, organizada por South Central Community, reunió a estudiantes de varias escuelas en el Ayuntamiento de Los Ángeles y en el Ayuntamiento de Huntington Park. Los manifestantes portaron pancartas y corearon consignas contra las políticas migratorias federales. Aunque los organizadores promovieron el evento como una manifestación pacífica, el Departamento de Policía de Los Ángeles informó de incidentes de peleas, daños a la propiedad y lanzamiento de objetos contra edificios federales. El Departamento de Seguridad Nacional declaró que la aplicación de la ley federal continuaría, señalando que el ICE no tiene como objetivo las escuelas. El distrito escolar aclaró que los abandonos de clase no fueron eventos patrocinados por las escuelas y que no aprobaron ni facilitaron las manifestaciones.",
+   "demands": [
+    "Poner fin a todas las operaciones del ICE",
+    "Financiar 'centros de ensueño' en todos los campus"
+   ],
+   "response": "El Departamento de Seguridad Nacional declaró que las operaciones del ICE continuarán, añadiendo que la agencia no tiene como objetivo las escuelas. El Distrito Escolar Unificado de Los Ángeles declaró que los abandonos de clase no fueron patrocinados por las escuelas y no fueron respaldados por el distrito ni por la policía escolar.",
+   "updates": [
+    "Miles de estudiantes abandonaron las aulas para protestar contra el ICE, reuniéndose grupos en el Ayuntamiento de Los Ángeles y en Huntington Park.",
+    "El LAPD informó que algunos manifestantes lanzaron objetos contra edificios federales y participaron en peleas, lo que provocó el cierre de calles."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "Una fuente de la policía escolar estimó que participaron más de 7 000 estudiantes."
+   }
+  },
+  "fr": {
+   "title": "Des étudiants de Los Angeles quittent les cours pour protester contre les mesures migratoires de l'ICE",
+   "seoTitle": "Manifestation étudiante à Los Angeles contre l'ICE",
+   "tea": {
+    "why": "Les étudiants manifestent contre les mesures fédérales de contrôle de l'immigration et les politiques de l'administration Trump.",
+    "want": "Les organisateurs demandent la fin des opérations de l'ICE et la création de « centres de rêve » sur chaque campus du LAUSD.",
+    "changed": "16 nov. : Des milliers d'étudiants ont quitté les cours pour manifester, avec quelques incidents de dégradations et de bagarres signalés par la police."
+   },
+   "summary": "Le 16 novembre 2026, des milliers d'étudiants du district scolaire unifié de Los Angeles ont quitté leurs salles de classe pour protester contre les opérations du service américain de l'immigration et des douanes (ICE). Organisée par South Central Community, la manifestation a vu des étudiants de diverses écoles se rassembler à l'hôtel de ville de Los Angeles et à l'hôtel de ville de Huntington Park. Les manifestants portaient des pancartes et scandaient des slogans contre les politiques fédérales d'immigration. Bien que les organisateurs aient présenté l'événement comme une manifestation pacifique, le département de police de Los Angeles a signalé des incidents de bagarres, de dégradations et de jets d'objets sur des bâtiments fédéraux. Le département de la Sécurité intérieure a déclaré que l'application de la loi fédérale se poursuivrait, notant que l'ICE ne cible pas les écoles. Le district scolaire a précisé que les débrayages n'étaient pas des événements parrainés par les écoles et qu'ils n'avaient ni approuvé ni facilité les manifestations.",
+   "demands": [
+    "Mettre fin à toutes les opérations de l'ICE",
+    "Financer des « centres de rêve » sur chaque campus"
+   ],
+   "response": "Le département de la Sécurité intérieure a déclaré que les opérations de l'ICE se poursuivraient, ajoutant que l'agence ne cible pas les écoles. Le district scolaire unifié de Los Angeles a déclaré que les débrayages n'étaient pas parrainés par les écoles et n'étaient pas approuvés par le district ou la police scolaire.",
+   "updates": [
+    "Des milliers d'étudiants ont quitté les cours pour protester contre l'ICE, des groupes se rassemblant à l'hôtel de ville de Los Angeles et à Huntington Park.",
+    "Le LAPD a signalé que certains manifestants ont jeté des objets sur des bâtiments fédéraux et se sont battus, entraînant des fermetures de rues."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "Une source de la police scolaire a estimé que plus de 7 000 étudiants ont participé."
+   }
+  },
+  "de": {
+   "title": "Schüler in Los Angeles verlassen den Unterricht aus Protest gegen die Einwanderungspolitik der ICE",
+   "seoTitle": "Schülerprotest in Los Angeles gegen ICE",
+   "tea": {
+    "why": "Schüler protestieren gegen die föderale Einwanderungskontrolle und die Politik der Trump-Regierung.",
+    "want": "Die Organisatoren fordern ein Ende der ICE-Operationen und die Einrichtung von „Dream Centers“ auf jedem Campus des LAUSD.",
+    "changed": "16. Nov.: Tausende Schüler verließen den Unterricht, um zu protestieren; die Polizei meldete einige Vorfälle von Sachbeschädigung und Schlägereien."
+   },
+   "summary": "Am 16. November 2026 verließen Tausende Schüler des Los Angeles Unified School District ihre Klassenzimmer, um gegen die Operationen der US-Einwanderungs- und Zollbehörde (ICE) zu protestieren. Die von South Central Community organisierte Demonstration führte Schüler verschiedener Schulen zum Rathaus von Los Angeles und zum Rathaus von Huntington Park. Die Demonstranten trugen Schilder und skandierten Slogans gegen die föderale Einwanderungspolitik. Obwohl die Organisatoren die Veranstaltung als friedliche Demonstration bewarben, berichtete das Los Angeles Police Department von Vorfällen wie Schlägereien, Sachbeschädigungen und dem Werfen von Gegenständen auf Bundesgebäude. Das Heimatschutzministerium erklärte, dass die föderalen Durchsetzungsmaßnahmen fortgesetzt würden, und wies darauf hin, dass die ICE nicht auf Schulen abziele. Der Schulbezirk stellte klar, dass es sich bei den Schulschwänzungen nicht um von der Schule gesponserte Veranstaltungen handelte und dass diese weder gebilligt noch unterstützt wurden.",
+   "demands": [
+    "Beendigung aller ICE-Operationen",
+    "Finanzierung von „Dream Centers“ auf jedem Campus"
+   ],
+   "response": "Das Heimatschutzministerium erklärte, dass die ICE-Operationen fortgesetzt werden, und fügte hinzu, dass die Behörde nicht auf Schulen abziele. Der Los Angeles Unified School District erklärte, dass die Schulschwänzungen nicht von der Schule gesponsert wurden und weder vom Bezirk noch von der Schulpolizei unterstützt wurden.",
+   "updates": [
+    "Tausende Schüler verließen den Unterricht, um gegen die ICE zu protestieren, wobei sich Gruppen am Rathaus von Los Angeles und in Huntington Park versammelten.",
+    "Das LAPD berichtete, dass einige Demonstranten Gegenstände auf Bundesgebäude warfen und in Schlägereien verwickelt waren, was zu Straßensperrungen führte."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "Eine Quelle der Schulpolizei schätzte, dass mehr als 7 000 Schüler teilnahmen."
+   }
+  },
+  "it": {
+   "title": "Studenti di Los Angeles abbandonano le lezioni per protestare contro le misure migratorie dell'ICE",
+   "seoTitle": "Protesta studentesca a Los Angeles contro l'ICE",
+   "tea": {
+    "why": "Gli studenti protestano contro le misure federali di controllo dell'immigrazione e le politiche dell'amministrazione Trump.",
+    "want": "Gli organizzatori chiedono la fine delle operazioni dell'ICE e l'istituzione di 'centri dei sogni' in ogni campus del LAUSD.",
+    "changed": "16 nov: Migliaia di studenti hanno abbandonato le lezioni per protestare, con alcuni incidenti di danni alla proprietà e risse segnalati dalla polizia."
+   },
+   "summary": "Il 16 novembre 2026, migliaia di studenti del distretto scolastico unificato di Los Angeles hanno abbandonato le loro aule per protestare contro le operazioni dell'Immigration and Customs Enforcement (ICE) degli Stati Uniti. Organizzata dalla South Central Community, la manifestazione ha visto studenti di varie scuole riunirsi presso il municipio di Los Angeles e il municipio di Huntington Park. I manifestanti hanno portato cartelli e scandito slogan contro le politiche federali sull'immigrazione. Sebbene gli organizzatori abbiano promosso l'evento come una manifestazione pacifica, il dipartimento di polizia di Los Angeles ha segnalato incidenti di risse, danni alla proprietà e lancio di oggetti contro edifici federali. Il dipartimento della Sicurezza interna ha dichiarato che l'applicazione della legge federale continuerà, osservando che l'ICE non prende di mira le scuole. Il distretto scolastico ha chiarito che gli abbandoni delle lezioni non sono stati eventi sponsorizzati dalle scuole e che non hanno approvato né facilitato le manifestazioni.",
+   "demands": [
+    "Porre fine a tutte le operazioni dell'ICE",
+    "Finanziare 'centri dei sogni' in ogni campus"
+   ],
+   "response": "Il dipartimento della Sicurezza interna ha dichiarato che le operazioni dell'ICE continueranno, aggiungendo che l'agenzia non prende di mira le scuole. Il distretto scolastico unificato di Los Angeles ha dichiarato che gli abbandoni delle lezioni non sono stati sponsorizzati dalle scuole e non sono stati approvati dal distretto o dalla polizia scolastica.",
+   "updates": [
+    "Migliaia di studenti hanno abbandonato le lezioni per protestare contro l'ICE, con gruppi che si sono riuniti presso il municipio di Los Angeles e a Huntington Park.",
+    "Il LAPD ha riferito che alcuni manifestanti hanno lanciato oggetti contro edifici federali e sono stati coinvolti in risse, portando alla chiusura di strade."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "Una fonte della polizia scolastica ha stimato che abbiano partecipato più di 7 000 studenti."
+   }
+  },
+  "pt": {
+   "title": "Estudantes de Los Angeles abandonam as aulas para protestar contra as medidas migratórias do ICE",
+   "seoTitle": "Protesto estudantil em Los Angeles contra o ICE",
+   "tea": {
+    "why": "Os estudantes protestam contra as medidas federais de controlo da imigração e as políticas da administração Trump.",
+    "want": "Os organizadores pedem o fim das operações do ICE e o estabelecimento de 'centros de sonho' em todos os campus do LAUSD.",
+    "changed": "16 de nov: Milhares de estudantes abandonaram as aulas para protestar, com alguns incidentes de danos à propriedade e confrontos reportados pela polícia."
+   },
+   "summary": "No dia 16 de novembro de 2026, milhares de estudantes do Distrito Escolar Unificado de Los Angeles abandonaram as suas salas de aula para protestar contra as operações do Serviço de Imigração e Controlo Aduaneiro (ICE) dos EUA. Organizada pela South Central Community, a manifestação reuniu estudantes de várias escolas na Câmara Municipal de Los Angeles e na Câmara Municipal de Huntington Park. Os manifestantes transportaram cartazes e entoaram palavras de ordem contra as políticas federais de imigração. Embora os organizadores tenham promovido o evento como uma manifestação pacífica, o Departamento de Polícia de Los Angeles reportou incidentes de confrontos, danos à propriedade e lançamento de objetos contra edifícios federais. O Departamento de Segurança Interna declarou que a aplicação da lei federal continuaria, observando que o ICE não tem como alvo as escolas. O distrito escolar esclareceu que os abandonos das aulas não foram eventos patrocinados pelas escolas e que não aprovaram nem facilitaram as manifestações.",
+   "demands": [
+    "Pôr fim a todas as operações do ICE",
+    "Financiar 'centros de sonho' em todos os campus"
+   ],
+   "response": "O Departamento de Segurança Interna declarou que as operações do ICE continuarão, acrescentando que a agência não tem como alvo as escolas. O Distrito Escolar Unificado de Los Angeles declarou que os abandonos das aulas não foram patrocinados pelas escolas e não foram apoiados pelo distrito ou pela polícia escolar.",
+   "updates": [
+    "Milhares de estudantes abandonaram as aulas para protestar contra o ICE, com grupos a reunirem-se na Câmara Municipal de Los Angeles e em Huntington Park.",
+    "O LAPD reportou que alguns manifestantes lançaram objetos contra edifícios federais e envolveram-se em confrontos, levando ao encerramento de ruas."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "Uma fonte da polícia escolar estimou que participaram mais de 7 000 estudantes."
+   }
+  },
+  "nl": {
+   "title": "Studenten in Los Angeles verlaten de les uit protest tegen immigratiehandhaving door ICE",
+   "seoTitle": "Studentenprotest in Los Angeles tegen ICE",
+   "tea": {
+    "why": "Studenten protesteren tegen federale immigratiehandhaving en het beleid van de Trump-regering.",
+    "want": "Organisatoren roepen op tot een einde aan ICE-operaties en de oprichting van 'droomcentra' op elke LAUSD-campus.",
+    "changed": "16 nov: Duizenden studenten verlieten de les om te protesteren, waarbij door de politie melding werd gemaakt van incidenten met schade aan eigendommen en vechtpartijen."
+   },
+   "summary": "Op 16 november 2026 verlieten duizenden studenten van het Los Angeles Unified School District hun klaslokalen om te protesteren tegen operaties van de Amerikaanse immigratie- en douanedienst (ICE). De demonstratie, georganiseerd door South Central Community, bracht studenten van verschillende scholen samen bij het stadhuis van Los Angeles en het stadhuis van Huntington Park. Betogers droegen borden en scandeerden slogans tegen het federale immigratiebeleid. Hoewel de organisatoren het evenement promootten als een vreedzame demonstratie, rapporteerde het Los Angeles Police Department incidenten van vechtpartijen, schade aan eigendommen en het gooien van voorwerpen naar federale gebouwen. Het ministerie van Binnenlandse Veiligheid verklaarde dat de federale handhaving zou worden voortgezet en merkte op dat de ICE zich niet op scholen richt. Het schooldistrict verduidelijkte dat de stakingen geen door de school gesponsorde evenementen waren en dat zij de demonstraties niet goedkeurden of faciliteerden.",
+   "demands": [
+    "Beëindig alle ICE-operaties",
+    "Financier 'droomcentra' op elke campus"
+   ],
+   "response": "Het ministerie van Binnenlandse Veiligheid verklaarde dat de ICE-operaties zullen doorgaan en voegde eraan toe dat het agentschap zich niet op scholen richt. Het Los Angeles Unified School District verklaarde dat de stakingen niet door de school werden gesponsord en niet werden gesteund door het district of de schoolpolitie.",
+   "updates": [
+    "Duizenden studenten verlieten de les om te protesteren tegen de ICE, waarbij groepen zich verzamelden bij het stadhuis van Los Angeles en in Huntington Park.",
+    "Het LAPD meldde dat sommige demonstranten voorwerpen naar federale gebouwen gooiden en betrokken waren bij vechtpartijen, wat leidde tot straatafsluitingen."
+   ],
+   "conflicts": [],
+   "numbers": {
+    "crowd": "Een bron bij de schoolpolitie schatte dat meer dan 7 000 studenten deelnamen."
+   }
+  }
+ }
 }

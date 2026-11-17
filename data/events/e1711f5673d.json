@@ -2,8 +2,8 @@
  "id": "e1711f5673d",
  "slug": "london-ncp-clash-nov-2026",
  "stage": "live",
- "title": "Clashes between Bangladeshi political groups in London",
- "seoTitle": "London protest between Bangladeshi groups",
+ "title": "Clashes between rival Bangladeshi political groups in London",
+ "seoTitle": "London clash between Bangladeshi groups",
  "place": {
   "city": "London",
   "region": "England",
@@ -15,39 +15,43 @@
  },
  "scope": "local",
  "causes": [
-  "anti-government"
+  "anti-government",
+  "governance"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-16",
  "status": "ended",
  "vibe": "wrapped-up",
- "severity": "normal",
+ "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "low-confidence",
+  "serious",
   "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Political tensions between supporters of the National Citizen Party and the Awami League regarding the 2024 political upheaval in Bangladesh.",
-  "want": "Not explicitly stated; the event involved a reception for an NCP leader and counter-protests by rival political activists.",
-  "changed": "Nov 16: Clashes occurred between two groups in Chadwell Heath, resulting in three hospitalisations and police intervention."
+  "why": "Political tensions in Bangladesh following the 2024 government change, involving supporters of the NCP and the banned Awami League.",
+  "want": "Protesters sought to disrupt an event featuring National Citizen Party leader Nahid Islam.",
+  "changed": "Nov 16: Clashes occurred outside a venue in London, resulting in three hospitalisations and an ongoing police investigation."
  },
- "summary": "On the night of November 16, 2026, violent clashes occurred in Chadwell Heath, London, between supporters of the National Citizen Party (NCP) and activists associated with the Awami League. The incident began outside a venue hosting an event for NCP leader Nahid Islam. According to reports, protesters attempted to disrupt the event, leading to a confrontation that spilled into the streets. Participants reportedly used sticks, bottles, and bins as weapons. The Metropolitan Police attended the scene following reports of a disturbance involving approximately 50 men. The London Ambulance Service treated individuals at the scene, and three people were transported to the hospital with non-life-threatening injuries. No arrests have been made, and an investigation is ongoing. Local officials clarified that the incident took place in Chadwell Heath rather than Romford.",
+ "summary": "On the night of November 16, 2026, violent clashes broke out in London between supporters of Bangladesh's National Citizen Party (NCP) and activists identified as members of the Awami League. The incident began outside the Mayfair Venue during a reception for NCP leader Nahid Islam. According to reports, protesters attempted to enter the venue and threw objects at attendees. The confrontation escalated into street fighting involving approximately 50 men using sticks, bins, and bottles as weapons. The Metropolitan Police attended the scene to disperse the groups. While some reports indicated five or six people were injured, the Metropolitan Police confirmed that three individuals were taken to hospital with non-life-threatening injuries. No arrests have been made, and an investigation into the disturbance is ongoing.",
  "organizers": [
   "National Citizen Party",
   "Awami League"
  ],
- "demands": [],
- "response": "The Metropolitan Police attended the scene, dispersed the crowd, and launched an investigation. No arrests were made. The London Ambulance Service treated six people at the scene, with three requiring hospitalisation.",
+ "demands": [
+  "Disruption of NCP event"
+ ],
+ "response": "The Metropolitan Police attended the scene to disperse the group and confirmed that an investigation is ongoing. No arrests have been made as of November 17.",
  "numbers": {
   "crowd": {
    "value": 50,
-   "text": "around 50 men",
+   "text": "a group of around 50 men",
    "sources": [
     3,
-    4
+    4,
+    5
    ]
   },
   "arrests": {
@@ -55,7 +59,8 @@
    "text": "no arrests have been made",
    "sources": [
     3,
-    4
+    4,
+    5
    ]
   },
   "injuries": {
@@ -69,18 +74,19 @@
  "updates": [
   {
    "at": "2026-11-16",
-   "text": "Clashes between rival political groups occur outside a venue in Chadwell Heath.",
+   "text": "Clashes occur between rival political groups outside a venue in London.",
    "sources": [
-    3,
-    4
+    1,
+    3
    ]
   },
   {
    "at": "2026-11-17",
-   "text": "Police confirm no arrests were made and three people were hospitalised with non-life-threatening injuries.",
+   "text": "Metropolitan Police confirm three people were hospitalised and no arrests have been made.",
    "sources": [
     3,
-    4
+    4,
+    5
    ]
   }
  ],
@@ -112,20 +118,28 @@
    "publisher": "london-now.co.uk",
    "title": "Bins, sticks and fists used as weapons as 50-man street brawl erupts in east London",
    "publishedAt": "2026-11-17T14:17:23.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.echo-news.co.uk/news/26737888.romford-riot--50-men-clash-bins-sticks-fists-used-weapons/",
+   "publisher": "echo-news.co.uk",
+   "title": "Violence breaks out at 50-man protest on high street leaving three in hospital",
+   "publishedAt": "2026-11-17T15:03:27.000Z"
   }
  ],
  "conflicts": [
-  "Police and media reports initially cited the location as Romford, but the leader of Havering Council stated the incident occurred in Chadwell Heath."
+  "Sources differ on the number of injured, with reports ranging from five to six people.",
+  "Local authorities and police reports disagree on whether the incident occurred in Romford or Chadwell Heath."
  ],
- "confidence": 0.76,
- "publishers": 4,
- "reports24h": 5,
+ "confidence": 0.8,
+ "publishers": 5,
+ "reports24h": 6,
  "reportsPrev24h": 0,
- "reports48h": 5,
+ "reports48h": 6,
  "firstSeenAt": "2026-11-17T08:52:34.090Z",
- "lastReportAt": "2026-11-17T14:17:23.000Z",
- "lastCheckedAt": "2026-11-17T16:56:51.346Z",
- "updatedAt": "2026-11-17T16:56:05.964Z",
+ "lastReportAt": "2026-11-17T15:03:27.000Z",
+ "lastCheckedAt": "2026-11-17T20:57:21.304Z",
+ "updatedAt": "2026-11-17T20:56:04.004Z",
  "distinctFrom": [
   "eba956bd400",
   "e28d966eaa0"
@@ -134,157 +148,176 @@
  "endedOn": "2026-11-16",
  "responseSources": [
   3,
-  4
+  4,
+  5
  ],
- "seriousInjuries": false,
+ "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-11-17T16:56:05.964Z",
- "summaryOf": "d23cebc774b1",
+ "summarizedAt": "2026-11-17T20:56:04.004Z",
+ "summaryOf": "90b2f19596f9",
  "publishedAt": "2026-11-17T12:58:44.052Z",
  "i18n": {
-  "of": "222b4cb9bc234588",
-  "at": "2026-11-17T16:58:00.503Z",
+  "of": "1a23655030bd5b4a",
+  "at": "2026-11-17T20:58:24.584Z",
   "tries": 1,
   "es": {
-   "title": "Enfrentamientos entre grupos políticos bangladesíes en Londres",
-   "seoTitle": "Protesta en Londres entre grupos bangladesíes",
+   "title": "Enfrentamientos entre grupos políticos rivales de Bangladés en Londres",
+   "seoTitle": "Enfrentamiento en Londres entre grupos de Bangladés",
    "tea": {
-    "why": "Tensiones políticas entre partidarios del National Citizen Party y la Awami League respecto a la agitación política de 2024 en Bangladés.",
-    "want": "No se ha indicado explícitamente; el evento incluyó una recepción para un líder del NCP y contramanifestaciones de activistas políticos rivales.",
-    "changed": "16 de noviembre: Se produjeron enfrentamientos entre dos grupos en Chadwell Heath, que resultaron en tres hospitalizaciones y la intervención policial."
+    "why": "Tensiones políticas en Bangladés tras el cambio de gobierno de 2024, que involucran a partidarios del NCP y de la prohibida Liga Awami.",
+    "want": "Los manifestantes intentaron interrumpir un evento en el que participaba el líder del Partido Nacional Ciudadano, Nahid Islam.",
+    "changed": "16 de noviembre: Se produjeron enfrentamientos fuera de un local en Londres, que resultaron en tres hospitalizaciones y una investigación policial en curso."
    },
-   "summary": "En la noche del 16 de noviembre de 2026, ocurrieron enfrentamientos violentos en Chadwell Heath, Londres, entre partidarios del National Citizen Party (NCP) y activistas asociados con la Awami League. El incidente comenzó fuera de un lugar que albergaba un evento para el líder del NCP, Nahid Islam. Según los informes, los manifestantes intentaron interrumpir el evento, lo que provocó una confrontación que se extendió a las calles. Los participantes habrían utilizado palos, botellas y contenedores como armas. La Policía Metropolitana acudió al lugar tras recibir informes de un disturbio que involucraba a aproximadamente 50 hombres. El Servicio de Ambulancias de Londres atendió a personas en el lugar y tres fueron trasladadas al hospital con lesiones que no ponen en peligro su vida. No se han realizado arrestos y la investigación está en curso. Funcionarios locales aclararon que el incidente tuvo lugar en Chadwell Heath y no en Romford.",
-   "demands": [],
-   "response": "La Policía Metropolitana acudió al lugar, dispersó a la multitud e inició una investigación. No se realizaron arrestos. El Servicio de Ambulancias de Londres atendió a seis personas en el lugar, de las cuales tres requirieron hospitalización.",
+   "summary": "En la noche del 16 de noviembre de 2026, estallaron enfrentamientos violentos en Londres entre partidarios del Partido Nacional Ciudadano (NCP) de Bangladés y activistas identificados como miembros de la Liga Awami. El incidente comenzó fuera del Mayfair Venue durante una recepción para el líder del NCP, Nahid Islam. Según los informes, los manifestantes intentaron entrar al local y lanzaron objetos a los asistentes. La confrontación escaló hasta convertirse en una pelea callejera en la que participaron aproximadamente 50 hombres que utilizaron palos, contenedores y botellas como armas. La Policía Metropolitana acudió al lugar para dispersar a los grupos. Aunque algunos informes indicaron que cinco o seis personas resultaron heridas, la Policía Metropolitana confirmó que tres personas fueron trasladadas al hospital con heridas que no ponen en peligro su vida. No se han realizado detenciones y la investigación sobre los disturbios está en curso.",
+   "demands": [
+    "Interrupción del evento del NCP"
+   ],
+   "response": "La Policía Metropolitana acudió al lugar para dispersar al grupo y confirmó que hay una investigación en curso. No se han realizado detenciones hasta el 17 de noviembre.",
    "updates": [
-    "Se producen enfrentamientos entre grupos políticos rivales fuera de un lugar en Chadwell Heath.",
-    "La policía confirma que no se realizaron arrestos y que tres personas fueron hospitalizadas con lesiones que no ponen en peligro su vida."
+    "Se producen enfrentamientos entre grupos políticos rivales fuera de un local en Londres.",
+    "La Policía Metropolitana confirma que tres personas fueron hospitalizadas y que no se han realizado detenciones."
    ],
    "conflicts": [
-    "Los informes policiales y de los medios citaron inicialmente la ubicación como Romford, pero el líder del Consejo de Havering declaró que el incidente ocurrió en Chadwell Heath."
+    "Las fuentes difieren sobre el número de heridos, con informes que oscilan entre cinco y seis personas.",
+    "Las autoridades locales y los informes policiales discrepan sobre si el incidente ocurrió en Romford o en Chadwell Heath."
    ],
    "numbers": {
-    "crowd": "alrededor de 50 hombres",
-    "arrests": "no se han realizado arrestos",
+    "crowd": "un grupo de alrededor de 50 hombres",
+    "arrests": "no se han realizado detenciones",
     "injuries": "al menos seis personas heridas"
    }
   },
   "fr": {
-   "title": "Affrontements entre groupes politiques bangladais à Londres",
-   "seoTitle": "Manifestation à Londres entre groupes bangladais",
+   "title": "Affrontements entre groupes politiques rivaux bangladais à Londres",
+   "seoTitle": "Affrontement à Londres entre groupes bangladais",
    "tea": {
-    "why": "Tensions politiques entre les partisans du National Citizen Party et de l'Awami League concernant les troubles politiques de 2024 au Bangladesh.",
-    "want": "Non explicitement déclaré ; l'événement impliquait une réception pour un dirigeant du NCP et des contre-manifestations d'activistes politiques rivaux.",
-    "changed": "16 novembre : Des affrontements ont eu lieu entre deux groupes à Chadwell Heath, entraînant trois hospitalisations et l'intervention de la police."
+    "why": "Tensions politiques au Bangladesh suite au changement de gouvernement de 2024, impliquant des partisans du NCP et de la Ligue Awami interdite.",
+    "want": "Les manifestants cherchaient à perturber un événement mettant en vedette le dirigeant du Parti national citoyen, Nahid Islam.",
+    "changed": "16 novembre : Des affrontements ont eu lieu devant une salle à Londres, entraînant trois hospitalisations et une enquête policière en cours."
    },
-   "summary": "Dans la nuit du 16 novembre 2026, des affrontements violents ont eu lieu à Chadwell Heath, à Londres, entre des partisans du National Citizen Party (NCP) et des activistes associés à l'Awami League. L'incident a débuté à l'extérieur d'un lieu accueillant un événement pour le dirigeant du NCP, Nahid Islam. Selon les rapports, des manifestants ont tenté de perturber l'événement, menant à une confrontation qui s'est propagée dans les rues. Les participants auraient utilisé des bâtons, des bouteilles et des poubelles comme armes. La police métropolitaine s'est rendue sur les lieux après des signalements de troubles impliquant environ 50 hommes. Le London Ambulance Service a soigné des individus sur place, et trois personnes ont été transportées à l'hôpital avec des blessures ne mettant pas leur vie en danger. Aucune arrestation n'a été effectuée et une enquête est en cours. Des responsables locaux ont précisé que l'incident a eu lieu à Chadwell Heath plutôt qu'à Romford.",
-   "demands": [],
-   "response": "La police métropolitaine s'est rendue sur les lieux, a dispersé la foule et a ouvert une enquête. Aucune arrestation n'a été effectuée. Le London Ambulance Service a soigné six personnes sur place, dont trois ont nécessité une hospitalisation.",
+   "summary": "Dans la nuit du 16 novembre 2026, des affrontements violents ont éclaté à Londres entre des partisans du Parti national citoyen (NCP) du Bangladesh et des militants identifiés comme membres de la Ligue Awami. L'incident a débuté devant le Mayfair Venue lors d'une réception pour le dirigeant du NCP, Nahid Islam. Selon des rapports, des manifestants ont tenté de pénétrer dans la salle et ont jeté des objets sur les participants. La confrontation a dégénéré en une bagarre de rue impliquant environ 50 hommes utilisant des bâtons, des poubelles et des bouteilles comme armes. La police métropolitaine s'est rendue sur les lieux pour disperser les groupes. Bien que certains rapports aient indiqué que cinq ou six personnes avaient été blessées, la police métropolitaine a confirmé que trois individus avaient été transportés à l'hôpital avec des blessures ne mettant pas leur vie en danger. Aucune arrestation n'a été effectuée et une enquête sur les troubles est en cours.",
+   "demands": [
+    "Perturbation de l'événement du NCP"
+   ],
+   "response": "La police métropolitaine s'est rendue sur les lieux pour disperser le groupe et a confirmé qu'une enquête était en cours. Aucune arrestation n'a été effectuée au 17 novembre.",
    "updates": [
-    "Des affrontements entre groupes politiques rivaux se produisent à l'extérieur d'un lieu à Chadwell Heath.",
-    "La police confirme qu'aucune arrestation n'a été effectuée et que trois personnes ont été hospitalisées avec des blessures ne mettant pas leur vie en danger."
+    "Des affrontements ont lieu entre des groupes politiques rivaux devant une salle à Londres.",
+    "La police métropolitaine confirme que trois personnes ont été hospitalisées et qu'aucune arrestation n'a été effectuée."
    ],
    "conflicts": [
-    "Les rapports de police et des médias citaient initialement le lieu comme étant Romford, mais le dirigeant du conseil de Havering a déclaré que l'incident s'était produit à Chadwell Heath."
+    "Les sources divergent sur le nombre de blessés, avec des rapports allant de cinq à six personnes.",
+    "Les autorités locales et les rapports de police ne sont pas d'accord sur le fait que l'incident ait eu lieu à Romford ou à Chadwell Heath."
    ],
    "numbers": {
-    "crowd": "environ 50 hommes",
+    "crowd": "un groupe d'environ 50 hommes",
     "arrests": "aucune arrestation n'a été effectuée",
     "injuries": "au moins six personnes blessées"
    }
   },
   "de": {
-   "title": "Zusammenstöße zwischen bangladeschischen politischen Gruppen in London",
-   "seoTitle": "Protest in London zwischen bangladeschischen Gruppen",
+   "title": "Zusammenstöße zwischen rivalisierenden bangladeschischen politischen Gruppen in London",
+   "seoTitle": "Zusammenstoß in London zwischen bangladeschischen Gruppen",
    "tea": {
-    "why": "Politische Spannungen zwischen Anhängern der National Citizen Party und der Awami League bezüglich der politischen Umwälzungen 2024 in Bangladesch.",
-    "want": "Nicht explizit angegeben; die Veranstaltung umfasste einen Empfang für einen NCP-Führer und Gegenproteste rivalisierender politischer Aktivisten.",
-    "changed": "16. November: Zusammenstöße zwischen zwei Gruppen in Chadwell Heath führten zu drei Krankenhauseinweisungen und Polizeieinsätzen."
+    "why": "Politische Spannungen in Bangladesch nach dem Regierungswechsel 2024, an denen Anhänger der NCP und der verbotenen Awami-Liga beteiligt sind.",
+    "want": "Demonstranten versuchten, eine Veranstaltung mit dem Vorsitzenden der National Citizen Party, Nahid Islam, zu stören.",
+    "changed": "16. November: Zusammenstöße vor einem Veranstaltungsort in London führten zu drei Krankenhauseinweisungen und einer laufenden polizeilichen Untersuchung."
    },
-   "summary": "In der Nacht des 16. November 2026 kam es in Chadwell Heath, London, zu gewaltsamen Zusammenstößen zwischen Anhängern der National Citizen Party (NCP) und Aktivisten der Awami League. Der Vorfall begann vor einem Veranstaltungsort, an dem ein Event für den NCP-Führer Nahid Islam stattfand. Berichten zufolge versuchten Demonstranten, die Veranstaltung zu stören, was zu einer Konfrontation führte, die sich auf die Straßen verlagerte. Teilnehmer sollen Stöcke, Flaschen und Mülltonnen als Waffen benutzt haben. Die Metropolitan Police erschien am Tatort, nachdem Berichte über eine Störung mit etwa 50 Männern eingegangen waren. Der London Ambulance Service behandelte Personen vor Ort, und drei Menschen wurden mit nicht lebensbedrohlichen Verletzungen ins Krankenhaus gebracht. Es wurden keine Festnahmen vorgenommen und eine Untersuchung läuft. Lokale Beamte stellten klar, dass der Vorfall in Chadwell Heath und nicht in Romford stattfand.",
-   "demands": [],
-   "response": "Die Metropolitan Police erschien am Tatort, löste die Menschenmenge auf und leitete eine Untersuchung ein. Es wurden keine Festnahmen vorgenommen. Der London Ambulance Service behandelte sechs Personen vor Ort, von denen drei ins Krankenhaus eingeliefert werden mussten.",
+   "summary": "In der Nacht des 16. November 2026 kam es in London zu gewaltsamen Zusammenstößen zwischen Anhängern der National Citizen Party (NCP) aus Bangladesch und Aktivisten, die als Mitglieder der Awami-Liga identifiziert wurden. Der Vorfall begann vor dem Mayfair Venue während eines Empfangs für den NCP-Vorsitzenden Nahid Islam. Berichten zufolge versuchten Demonstranten, den Veranstaltungsort zu betreten, und bewarfen die Teilnehmer mit Gegenständen. Die Konfrontation eskalierte zu einer Straßenschlacht, an der etwa 50 Männer beteiligt waren, die Stöcke, Mülltonnen und Flaschen als Waffen einsetzten. Die Metropolitan Police erschien vor Ort, um die Gruppen aufzulösen. Während einige Berichte von fünf oder sechs Verletzten sprachen, bestätigte die Metropolitan Police, dass drei Personen mit nicht lebensbedrohlichen Verletzungen ins Krankenhaus gebracht wurden. Es wurden keine Festnahmen vorgenommen, und die Untersuchung der Ausschreitungen dauert an.",
+   "demands": [
+    "Störung der NCP-Veranstaltung"
+   ],
+   "response": "Die Metropolitan Police erschien vor Ort, um die Gruppe aufzulösen, und bestätigte, dass eine Untersuchung läuft. Bis zum 17. November wurden keine Festnahmen vorgenommen.",
    "updates": [
-    "Zusammenstöße zwischen rivalisierenden politischen Gruppen ereignen sich vor einem Veranstaltungsort in Chadwell Heath.",
-    "Die Polizei bestätigt, dass keine Festnahmen vorgenommen wurden und drei Personen mit nicht lebensbedrohlichen Verletzungen ins Krankenhaus eingeliefert wurden."
+    "Zusammenstöße zwischen rivalisierenden politischen Gruppen vor einem Veranstaltungsort in London.",
+    "Die Metropolitan Police bestätigt, dass drei Personen ins Krankenhaus eingeliefert wurden und keine Festnahmen erfolgten."
    ],
    "conflicts": [
-    "Polizei- und Medienberichte nannten zunächst Romford als Ort des Geschehens, doch der Vorsitzende des Havering Council erklärte, der Vorfall habe sich in Chadwell Heath ereignet."
+    "Die Quellen unterscheiden sich in der Anzahl der Verletzten, wobei Berichte von fünf bis sechs Personen reichen.",
+    "Lokale Behörden und Polizeiberichte sind sich uneinig darüber, ob der Vorfall in Romford oder Chadwell Heath stattfand."
    ],
    "numbers": {
-    "crowd": "etwa 50 Männer",
+    "crowd": "eine Gruppe von etwa 50 Männern",
     "arrests": "es wurden keine Festnahmen vorgenommen",
     "injuries": "mindestens sechs verletzte Personen"
    }
   },
   "it": {
-   "title": "Scontri tra gruppi politici bengalesi a Londra",
-   "seoTitle": "Protesta a Londra tra gruppi bengalesi",
+   "title": "Scontri tra gruppi politici rivali del Bangladesh a Londra",
+   "seoTitle": "Scontro a Londra tra gruppi del Bangladesh",
    "tea": {
-    "why": "Tensioni politiche tra i sostenitori del National Citizen Party e dell'Awami League riguardo agli sconvolgimenti politici del 2024 in Bangladesh.",
-    "want": "Non dichiarato esplicitamente; l'evento prevedeva un ricevimento per un leader del NCP e contro-proteste di attivisti politici rivali.",
-    "changed": "16 novembre: Si sono verificati scontri tra due gruppi a Chadwell Heath, con conseguenti tre ricoveri ospedalieri e l'intervento della polizia."
+    "why": "Tensioni politiche in Bangladesh in seguito al cambio di governo del 2024, che coinvolgono i sostenitori del NCP e della bandita Lega Awami.",
+    "want": "I manifestanti hanno cercato di interrompere un evento con il leader del Partito Nazionale dei Cittadini, Nahid Islam.",
+    "changed": "16 novembre: Scontri avvenuti fuori da un locale a Londra, con tre ricoveri ospedalieri e un'indagine di polizia in corso."
    },
-   "summary": "Nella notte del 16 novembre 2026, si sono verificati violenti scontri a Chadwell Heath, Londra, tra i sostenitori del National Citizen Party (NCP) e attivisti associati all'Awami League. L'incidente è iniziato fuori da un locale che ospitava un evento per il leader del NCP, Nahid Islam. Secondo i rapporti, i manifestanti hanno tentato di interrompere l'evento, portando a un confronto che si è riversato nelle strade. I partecipanti avrebbero usato bastoni, bottiglie e bidoni come armi. La Metropolitan Police è intervenuta sul posto dopo segnalazioni di disordini che coinvolgevano circa 50 uomini. Il London Ambulance Service ha curato le persone sul posto e tre individui sono stati trasportati in ospedale con ferite non in pericolo di vita. Non sono stati effettuati arresti e le indagini sono in corso. I funzionari locali hanno chiarito che l'incidente ha avuto luogo a Chadwell Heath anziché a Romford.",
-   "demands": [],
-   "response": "La Metropolitan Police è intervenuta sul posto, ha disperso la folla e ha avviato un'indagine. Non sono stati effettuati arresti. Il London Ambulance Service ha curato sei persone sul posto, tre delle quali hanno richiesto il ricovero in ospedale.",
+   "summary": "Nella notte del 16 novembre 2026, violenti scontri sono scoppiati a Londra tra i sostenitori del Partito Nazionale dei Cittadini (NCP) del Bangladesh e attivisti identificati come membri della Lega Awami. L'incidente è iniziato fuori dal Mayfair Venue durante un ricevimento per il leader del NCP, Nahid Islam. Secondo i rapporti, i manifestanti hanno tentato di entrare nel locale e hanno lanciato oggetti contro i partecipanti. Il confronto è degenerato in una rissa di strada che ha coinvolto circa 50 uomini che hanno usato bastoni, bidoni e bottiglie come armi. La Polizia Metropolitana è intervenuta sul posto per disperdere i gruppi. Mentre alcuni rapporti indicavano cinque o sei persone ferite, la Polizia Metropolitana ha confermato che tre individui sono stati portati in ospedale con ferite non pericolose per la vita. Non sono stati effettuati arresti e un'indagine sui disordini è in corso.",
+   "demands": [
+    "Interruzione dell'evento del NCP"
+   ],
+   "response": "La Polizia Metropolitana è intervenuta sul posto per disperdere il gruppo e ha confermato che un'indagine è in corso. Non sono stati effettuati arresti al 17 novembre.",
    "updates": [
-    "Scontri tra gruppi politici rivali si verificano fuori da un locale a Chadwell Heath.",
-    "La polizia conferma che non sono stati effettuati arresti e che tre persone sono state ricoverate in ospedale con ferite non in pericolo di vita."
+    "Scontri tra gruppi politici rivali fuori da un locale a Londra.",
+    "La Polizia Metropolitana conferma che tre persone sono state ricoverate in ospedale e che non sono stati effettuati arresti."
    ],
    "conflicts": [
-    "I rapporti della polizia e dei media citavano inizialmente la località come Romford, ma il leader dell'Havering Council ha dichiarato che l'incidente è avvenuto a Chadwell Heath."
+    "Le fonti differiscono sul numero dei feriti, con rapporti che vanno da cinque a sei persone.",
+    "Le autorità locali e i rapporti della polizia non sono d'accordo sul fatto che l'incidente sia avvenuto a Romford o a Chadwell Heath."
    ],
    "numbers": {
-    "crowd": "circa 50 uomini",
+    "crowd": "un gruppo di circa 50 uomini",
     "arrests": "non sono stati effettuati arresti",
     "injuries": "almeno sei persone ferite"
    }
   },
   "pt": {
-   "title": "Confrontos entre grupos políticos do Bangladeche em Londres",
-   "seoTitle": "Protesto em Londres entre grupos do Bangladeche",
+   "title": "Confrontos entre grupos políticos rivais do Bangladeche em Londres",
+   "seoTitle": "Confronto em Londres entre grupos do Bangladeche",
    "tea": {
-    "why": "Tensões políticas entre apoiantes do National Citizen Party e da Awami League relativamente à agitação política de 2024 no Bangladeche.",
-    "want": "Não declarado explicitamente; o evento envolveu uma receção para um líder do NCP e contraprotestos de ativistas políticos rivais.",
-    "changed": "16 de novembro: Ocorreram confrontos entre dois grupos em Chadwell Heath, resultando em três hospitalizações e intervenção policial."
+    "why": "Tensões políticas no Bangladeche após a mudança de governo de 2024, envolvendo apoiantes do NCP e da proibida Liga Awami.",
+    "want": "Os manifestantes tentaram interromper um evento com o líder do Partido Nacional dos Cidadãos, Nahid Islam.",
+    "changed": "16 de novembro: Confrontos ocorreram fora de um local em Londres, resultando em três hospitalizações e uma investigação policial em curso."
    },
-   "summary": "Na noite de 16 de novembro de 2026, ocorreram confrontos violentos em Chadwell Heath, Londres, entre apoiantes do National Citizen Party (NCP) e ativistas associados à Awami League. O incidente começou fora de um local que acolhia um evento para o líder do NCP, Nahid Islam. Segundo relatos, os manifestantes tentaram interromper o evento, levando a um confronto que se estendeu às ruas. Os participantes terão utilizado paus, garrafas e caixotes do lixo como armas. A Polícia Metropolitana compareceu no local após relatos de distúrbios envolvendo cerca de 50 homens. O London Ambulance Service prestou assistência a indivíduos no local, e três pessoas foram transportadas para o hospital com ferimentos sem risco de vida. Não foram efetuadas detenções e a investigação está em curso. Responsáveis locais esclareceram que o incidente ocorreu em Chadwell Heath e não em Romford.",
-   "demands": [],
-   "response": "A Polícia Metropolitana compareceu no local, dispersou a multidão e iniciou uma investigação. Não foram efetuadas detenções. O London Ambulance Service prestou assistência a seis pessoas no local, sendo que três necessitaram de hospitalização.",
+   "summary": "Na noite de 16 de novembro de 2026, eclodiram confrontos violentos em Londres entre apoiantes do Partido Nacional dos Cidadãos (NCP) do Bangladeche e ativistas identificados como membros da Liga Awami. O incidente começou fora do Mayfair Venue durante uma receção para o líder do NCP, Nahid Islam. Segundo relatos, os manifestantes tentaram entrar no local e atiraram objetos contra os participantes. O confronto escalou para uma luta de rua envolvendo aproximadamente 50 homens que usaram paus, caixotes e garrafas como armas. A Polícia Metropolitana compareceu ao local para dispersar os grupos. Embora alguns relatos indicassem cinco ou seis pessoas feridas, a Polícia Metropolitana confirmou que três indivíduos foram levados para o hospital com ferimentos sem risco de vida. Não foram efetuadas detenções e uma investigação sobre os distúrbios está em curso.",
+   "demands": [
+    "Interrupção do evento do NCP"
+   ],
+   "response": "A Polícia Metropolitana compareceu ao local para dispersar o grupo e confirmou que uma investigação está em curso. Não foram efetuadas detenções até 17 de novembro.",
    "updates": [
-    "Ocorrem confrontos entre grupos políticos rivais fora de um local em Chadwell Heath.",
-    "A polícia confirma que não foram efetuadas detenções e que três pessoas foram hospitalizadas com ferimentos sem risco de vida."
+    "Confrontos ocorrem entre grupos políticos rivais fora de um local em Londres.",
+    "A Polícia Metropolitana confirma que três pessoas foram hospitalizadas e que não foram efetuadas detenções."
    ],
    "conflicts": [
-    "Relatos da polícia e dos meios de comunicação citaram inicialmente a localização como Romford, mas o líder do Conselho de Havering declarou que o incidente ocorreu em Chadwell Heath."
+    "As fontes divergem quanto ao número de feridos, com relatos que variam entre cinco e seis pessoas.",
+    "As autoridades locais e os relatórios policiais discordam sobre se o incidente ocorreu em Romford ou em Chadwell Heath."
    ],
    "numbers": {
-    "crowd": "cerca de 50 homens",
+    "crowd": "um grupo de cerca de 50 homens",
     "arrests": "não foram efetuadas detenções",
     "injuries": "pelo menos seis pessoas feridas"
    }
   },
   "nl": {
-   "title": "Botsingen tussen Bengaalse politieke groepen in Londen",
-   "seoTitle": "Protest in Londen tussen Bengaalse groepen",
+   "title": "Botsingen tussen rivaliserende Bengaalse politieke groepen in Londen",
+   "seoTitle": "Botsing in Londen tussen Bengaalse groepen",
    "tea": {
-    "why": "Politieke spanningen tussen aanhangers van de National Citizen Party en de Awami League met betrekking tot de politieke onrust van 2024 in Bangladesh.",
-    "want": "Niet expliciet vermeld; het evenement betrof een receptie voor een NCP-leider en tegendemonstraties door rivaliserende politieke activisten.",
-    "changed": "16 november: Er vonden botsingen plaats tussen twee groepen in Chadwell Heath, wat leidde tot drie ziekenhuisopnames en politieoptreden."
+    "why": "Politieke spanningen in Bangladesh na de regeringswisseling van 2024, waarbij aanhangers van de NCP en de verboden Awami-Liga betrokken zijn.",
+    "want": "Demonstranten probeerden een evenement met de leider van de National Citizen Party, Nahid Islam, te verstoren.",
+    "changed": "16 november: Botsingen vonden plaats buiten een locatie in Londen, wat leidde tot drie ziekenhuisopnames en een lopend politieonderzoek."
    },
-   "summary": "In de nacht van 16 november 2026 vonden er gewelddadige botsingen plaats in Chadwell Heath, Londen, tussen aanhangers van de National Citizen Party (NCP) en activisten verbonden aan de Awami League. Het incident begon buiten een locatie waar een evenement voor NCP-leider Nahid Islam plaatsvond. Volgens rapporten probeerden demonstranten het evenement te verstoren, wat leidde tot een confrontatie die zich naar de straten verplaatste. Deelnemers zouden stokken, flessen en afvalbakken als wapens hebben gebruikt. De Metropolitan Police kwam ter plaatse na meldingen van een verstoring waarbij ongeveer 50 mannen betrokken waren. De London Ambulance Service verleende ter plaatse hulp aan individuen en drie personen werden naar het ziekenhuis vervoerd met niet-levensbedreigende verwondingen. Er zijn geen arrestaties verricht en er loopt een onderzoek. Lokale functionarissen verduidelijkten dat het incident plaatsvond in Chadwell Heath in plaats van Romford.",
-   "demands": [],
-   "response": "De Metropolitan Police kwam ter plaatse, verspreidde de menigte en startte een onderzoek. Er werden geen arrestaties verricht. De London Ambulance Service verleende ter plaatse hulp aan zes personen, van wie er drie naar het ziekenhuis moesten.",
+   "summary": "In de nacht van 16 november 2026 braken er in Londen gewelddadige botsingen uit tussen aanhangers van de National Citizen Party (NCP) uit Bangladesh en activisten die werden geïdentificeerd als leden van de Awami-Liga. Het incident begon buiten de Mayfair Venue tijdens een receptie voor NCP-leider Nahid Islam. Volgens berichten probeerden demonstranten de locatie binnen te dringen en gooiden ze met voorwerpen naar aanwezigen. De confrontatie escaleerde tot een straatgevecht waarbij ongeveer 50 mannen betrokken waren die stokken, afvalbakken en flessen als wapens gebruikten. De Metropolitan Police kwam ter plaatse om de groepen uiteen te drijven. Hoewel sommige berichten aangaven dat er vijf of zes mensen gewond waren geraakt, bevestigde de Metropolitan Police dat drie personen naar het ziekenhuis werden gebracht met niet-levensbedreigende verwondingen. Er zijn geen arrestaties verricht en een onderzoek naar de ongeregeldheden is gaande.",
+   "demands": [
+    "Verstoring van het NCP-evenement"
+   ],
+   "response": "De Metropolitan Police kwam ter plaatse om de groep uiteen te drijven en bevestigde dat er een onderzoek gaande is. Er zijn tot 17 november geen arrestaties verricht.",
    "updates": [
-    "Botsingen tussen rivaliserende politieke groepen vinden plaats buiten een locatie in Chadwell Heath.",
-    "De politie bevestigt dat er geen arrestaties zijn verricht en dat drie personen met niet-levensbedreigende verwondingen in het ziekenhuis zijn opgenomen."
+    "Botsingen vinden plaats tussen rivaliserende politieke groepen buiten een locatie in Londen.",
+    "De Metropolitan Police bevestigt dat drie mensen in het ziekenhuis zijn opgenomen en dat er geen arrestaties zijn verricht."
    ],
    "conflicts": [
-    "Politie- en mediaverslagen noemden aanvankelijk Romford als locatie, maar de leider van de Havering Council verklaarde dat het incident in Chadwell Heath plaatsvond."
+    "Bronnen verschillen van mening over het aantal gewonden, met berichten variërend van vijf tot zes personen.",
+    "Lokale autoriteiten en politierapporten zijn het oneens over de vraag of het incident in Romford of Chadwell Heath plaatsvond."
    ],
    "numbers": {
-    "crowd": "ongeveer 50 mannen",
+    "crowd": "een groep van ongeveer 50 mannen",
     "arrests": "er zijn geen arrestaties verricht",
     "injuries": "ten minste zes gewonden"
    }
