@@ -23,94 +23,115 @@
  "status": "scheduled",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesting the unfair dismissal of a colleague and alleged GDPR breaches by Transport for London's investigation team.",
-  "want": "Reversal of the unfair dismissal and a fair resolution from London Underground.",
-  "changed": "Nov 17: Rail union TSSA announced a 24-hour strike starting November 20."
+  "why": "Protesting the unfair dismissal of a colleague and alleged GDPR breaches by TfL's investigation team.",
+  "want": "Reversal of the unfair treatment of their member and a fair resolution from London Underground.",
+  "changed": "Nov 17: TSSA announced a 24-hour strike starting November 20 following a unanimous ballot vote."
  },
- "summary": "Rail union TSSA members working across Service Control on the London Underground Piccadilly Line have scheduled a 24-hour strike. The action is set to begin at 12 noon on Friday, November 20, and run until 12 noon on Saturday, November 21, with picket lines established at 49 Pelham St in South Kensington. According to TSSA, the protest aims to support a service control colleague who was unfairly dismissed by London Underground. Participants are also protesting against the alleged improper conduct of Transport for London's investigation team, which the union claims breached GDPR regulations by sharing private and confidential information with third parties. The strike follows a unanimous vote with an 83 percent turnout among nearly two dozen service control members. TSSA General Secretary Maryam Eslamdoust stated that there remains time for London Underground to reach a reasonable resolution.",
+ "summary": "Transport Salaried Staffs' Association (TSSA) members working across service control on the London Underground Piccadilly Line have scheduled a 24-hour strike starting at midday on Friday, November 20, 2026. The industrial action is organised in protest against the unfair dismissal of a service control colleague by London Underground, as well as alleged GDPR breaches involving the improper sharing of confidential member information by Transport for London's investigation team. Nearly two dozen TSSA service control members voted unanimously in favour of the walkout, which is expected to bring the Piccadilly Line to a standstill and severely disrupt parts of the District line. Picket lines are planned at 49 Pelham St in South Kensington. Transport for London has warned passengers of severe service reductions and advised completing journeys ahead of the strike.",
  "organizers": [
-  "TSSA"
+  "Transport Salaried Staffs' Association (TSSA)"
  ],
  "demands": [
-  "Reverse the unfair dismissal of the service control colleague",
-  "Address alleged GDPR breaches by Transport for London's investigation team"
+  "Fair resolution regarding the unfairly dismissed colleague",
+  "Address alleged GDPR breaches and improper sharing of confidential data"
  ],
- "response": "According to source [1], TSSA has written to City Hall and raised complaints with the Information Commissioner's Office regarding the investigation's conduct. Source [2] noted that Transport for London had been approached for a comment.",
+ "response": "Transport for London stated that the strike is expected to cause severe service disruption on the Piccadilly line and parts of the District line, advising customers to complete journeys early.",
  "numbers": {},
  "updates": [
   {
-   "at": "2026-11-17",
-   "text": "Rail union TSSA announced a 24-hour strike on the Piccadilly Line starting November 20 at midday.",
+   "at": "2026-11-13",
+   "text": "Transport for London warned that a potential TSSA strike could disrupt the Piccadilly and District lines on November 20-21.",
    "sources": [
-    1,
-    2
+    1
+   ]
+  },
+  {
+   "at": "2026-11-17",
+   "text": "TSSA officially announced the Piccadilly Line strike following an 83 percent turnout and unanimous ballot vote by service control members.",
+   "sources": [
+    2,
+    3,
+    4
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.ianvisits.co.uk/articles/tube-strike-expected-to-cause-severe-disruption-on-the-piccadilly-line-94072/",
+   "publisher": "ianvisits.co.uk",
+   "title": "Tube strike expected to cause severe disruption on the Piccadilly line",
+   "publishedAt": "2026-11-13T12:10:07.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://www.tssa.org.uk/news-and-events/tssa-news/tssa-to-strike-on-piccadilly-line-this-weekend",
    "publisher": "tssa.org.uk",
    "title": "TSSA to strike on Piccadilly Line this weekend",
    "publishedAt": "2026-11-17T00:00:00.000Z"
   },
   {
-   "n": 2,
+   "n": 3,
    "url": "https://www.london-now.co.uk/news/26738942.piccadilly-line-strike-announced-rail-union-tssa/",
    "publisher": "london-now.co.uk",
    "title": "London Tube passengers WARNED as major line faces possible 24-HOUR SHUTDOWN",
    "publishedAt": "2026-11-17T17:32:48.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.standard.co.uk/news/london/full-list-strikes-london-tube-rail-rmt-tssa-gwr-b1305279.html",
+   "publisher": "standard.co.uk",
+   "title": "All the strikes set to hit London’s Tube and train network",
+   "publishedAt": "2026-11-17T19:54:35.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 1,
+ "confidence": 0.86,
+ "publishers": 4,
+ "reports24h": 3,
  "reportsPrev24h": 1,
- "reports48h": 2,
- "firstSeenAt": "2026-11-17T20:55:43.907Z",
- "lastReportAt": "2026-11-17T17:32:48.000Z",
- "lastCheckedAt": "2026-11-18T00:54:26.504Z",
- "updatedAt": "2026-11-18T00:53:57.619Z",
+ "reports48h": 4,
+ "firstSeenAt": "2026-11-13T16:53:46.193Z",
+ "lastReportAt": "2026-11-17T19:54:35.000Z",
+ "lastCheckedAt": "2026-11-18T04:55:34.687Z",
+ "updatedAt": "2026-11-18T04:54:29.967Z",
  "searchedAt": "2026-11-18T00:50:41.459Z",
  "endedOn": "2026-11-21",
  "responseSources": [
   1,
-  2
+  4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-18T00:53:57.619Z",
- "summaryOf": "f5e2d10324bf",
+ "summarizedAt": "2026-11-18T04:54:29.967Z",
+ "summaryOf": "4a0f6efd75d4",
  "publishedAt": "2026-11-18T00:54:26.504Z",
  "i18n": {
-  "of": "a65fd08aacdbf71d",
-  "at": "2026-11-18T00:56:04.692Z",
+  "of": "9ad00c8416238a8d",
+  "at": "2026-11-18T04:57:30.588Z",
   "tries": 1,
   "es": {
-   "title": "Miembros del TSSA se huelgan en la línea Piccadilly del metro de Londres",
+   "title": "Miembros del TSSA se declaran en huelga en la línea Piccadilly del metro de Londres",
    "seoTitle": "Huelga del TSSA en la línea Piccadilly de Londres",
    "tea": {
-    "why": "En protesta por el despido injusto de un colega y supuestas infracciones del RGPD por parte del equipo de investigación de Transport for London.",
-    "want": "La revocación del despido injusto y una resolución justa por parte de London Underground.",
-    "changed": "17 de nov.: El sindicato ferroviario TSSA anunció una huelga de 24 horas a partir del 20 de noviembre."
+    "why": "En protesta por el despido injusto de un colega y por supuestas infracciones del RGPD por parte del equipo de investigación de TfL.",
+    "want": "La anulación del trato injusto a su miembro y una resolución justa por parte de London Underground.",
+    "changed": "17 de nov.: El TSSA anunció una huelga de 24 horas a partir del 20 de noviembre tras una votación unánime."
    },
-   "summary": "Los miembros del sindicato ferroviario TSSA que trabajan en el control de servicios en la línea Piccadilly del metro de Londres han programado una huelga de 24 horas. La medida comenzará a las 12:00 del mediodía del viernes 20 de noviembre y durará hasta las 12:00 del mediodía del sábado 21 de noviembre, con piquetes establecidos en el 49 de Pelham St en South Kensington. Según el TSSA, la protesta tiene como objetivo apoyar a un colega de control de servicios que fue despedido injustamente por London Underground. Los participantes también protestan contra la supuesta conducta indebida del equipo de investigación de Transport for London, el cual, según el sindicato, infringió las normativas del RGPD al compartir información privada y confidencial con terceros. La huelga sigue a una votación unánime con una participación del 83 por ciento entre casi dos docenas de miembros de control de servicios. La secretaria general del TSSA, Maryam Eslamdoust, declaró que todavía hay tiempo para que London Underground alcance una resolución razonable.",
+   "summary": "Los miembros de la Asociación de Empleados Assalariados del Transporte (TSSA, por sus siglas en inglés) que trabajan en el control de servicios de la línea Piccadilly del metro de Londres han programado una huelga de 24 horas a partir de las 12:00 del viernes 20 de noviembre de 2026. La medida de fuerza se organiza en protesta por el despido injusto de un colega de control de servicios por parte de London Underground, así como por supuestas infracciones del RGPD que implican la compartición indebida de información confidencial de los miembros por parte del equipo de investigación de Transport for London. Casi dos docenas de miembros de control de servicios del TSSA votaron por unanimidad a favor del paro, el cual se espera que paralice la línea Piccadilly y perturbe gravemente partes de la línea District. Se planean piquetes en el número 49 de Pelham St, en South Kensington. Transport for London ha advertido a los pasajeros sobre graves reducciones del servicio y ha aconsejado completar los viajes antes de la huelga.",
    "demands": [
-    "Revocar el despido injusto del colega de control de servicios",
-    "Abordar las supuestas infracciones del RGPD por parte del equipo de investigación de Transport for London"
+    "Una resolución justa con respecto al colega despedido injustamente",
+    "Abordar las supuestas infracciones del RGPD y la compartición indebida de datos confidenciales"
    ],
-   "response": "Según la fuente [1], el TSSA ha escrito al Ayuntamiento y ha presentado quejas ante la Oficina del Comisionado de Información con respecto a la conducta de la investigación. La fuente [2] señaló que se había contactado a Transport for London para obtener comentarios.",
+   "response": "Transport for London declaró que se espera que la huelga cause una grave interrupción del servicio en la línea Piccadilly y en partes de la línea District, y aconsejó a los clientes que completen sus viajes con antelación.",
    "updates": [
-    "El sindicato ferroviario TSSA anunció una huelga de 24 horas en la línea Piccadilly a partir del 20 de noviembre al mediodía."
+    "Transport for London advirtió que una posible huelga del TSSA podría perturbar las líneas Piccadilly y District los días 20 y 21 de noviembre.",
+    "El TSSA anunció oficialmente la huelga en la línea Piccadilly tras una participación del 83 por ciento y una votación unánime de los miembros de control de servicios."
    ],
    "conflicts": [],
    "numbers": {}
@@ -119,98 +140,103 @@
    "title": "Les membres du TSSA font grève sur la ligne Piccadilly du métro de Londres",
    "seoTitle": "Grève du TSSA sur la ligne Piccadilly à Londres",
    "tea": {
-    "why": "Pour protester contre le licenciement abusif d'un collègue et de prétendues violations du RGPD par l'équipe d'enquête de Transport for London.",
-    "want": "L'annulation du licenciement abusif et une résolution équitable de la part de London Underground.",
-    "changed": "17 nov. : Le syndicat ferroviaire TSSA a annoncé une grève de 24 heures commençant le 20 novembre."
+    "why": "Pour protester contre le licenciement abusif d'un collègue et les prétendues violations du RGPD par l'équipe d'enquête de TfL.",
+    "want": "L'annulation du traitement inéquitable infligé à leur membre et une résolution équitable de la part de London Underground.",
+    "changed": "17 nov. : Le TSSA a annoncé une grève de 24 heures débutant le 20 novembre à la suite d'un vote unanime."
    },
-   "summary": "Les membres du syndicat ferroviaire TSSA travaillant au sein du contrôle du trafic sur la ligne Piccadilly du métro de Londres ont programmé une grève de 24 heures. L'action doit débuter à 12 h le vendredi 20 novembre et se poursuivre jusqu'à 12 h le samedi 21 novembre, avec des piquets de grève établis au 49 Pelham St à South Kensington. Selon le TSSA, la contestation vise à soutenir un collègue du contrôle du trafic qui a été licencié de manière abusive par London Underground. Les participants protestent également contre la conduite prétendument inappropriée de l'équipe d'enquête de Transport for London, qui, selon le syndicat, a violé les règlements du RGPD en partageant des informations privées et confidentielles avec des tiers. Cette grève fait suite à un vote unanime avec une participation de 83 pour cent parmi près de deux douzaines de membres du contrôle du trafic. La secrétaire générale du TSSA, Maryam Eslamdoust, a déclaré qu'il restait du temps pour que London Underground parvienne à une résolution raisonnable.",
+   "summary": "Les membres de la Transport Salaried Staffs' Association (TSSA) travaillant dans le contrôle du service sur la ligne Piccadilly du métro de Londres ont prévu une grève de 24 heures commençant à midi le vendredi 20 novembre 2026. L'action syndicale est organisée pour protester contre le licenciement abusif d'un collègue du contrôle du service par London Underground, ainsi que contre de prétendues violations du RGPD impliquant le partage inapproprié d'informations confidentielles sur les membres par l'équipe d'enquête de Transport for London. Près de deux douzaines de membres du contrôle du service du TSSA ont voté à l'unanimité en faveur du débrayage, qui devrait paralyser la ligne Piccadilly et perturber gravement certaines parties de la ligne District. Des piquets de grève sont prévus au 49 Pelham St à South Kensington. Transport for London a averti les usagers d'importantes réductions de service et leur a conseillé de terminer leurs trajets avant la grève.",
    "demands": [
-    "Annuler le licenciement abusif du collègue du contrôle du trafic",
-    "Traiter les prétendues violations du RGPD par l'équipe d'enquête de Transport for London"
+    "Une résolution équitable concernant le collègue licencié de manière abusive",
+    "Traiter les prétendues violations du RGPD et le partage inapproprié de données confidentielles"
    ],
-   "response": "Selon la source [1], le TSSA a écrit à la mairie et a déposé des plaintes auprès du Bureau du commissaire à l'information concernant la conduite de l'enquête. La source [2] a indiqué que Transport for London avait été contacté pour un commentaire.",
+   "response": "Transport for London a déclaré que la grève devrait entraîner de graves perturbations de service sur la ligne Piccadilly et sur certaines parties de la ligne District, conseillant aux clients de terminer leurs trajets en avance.",
    "updates": [
-    "Le syndicat ferroviaire TSSA a annoncé une grève de 24 heures sur la ligne Piccadilly à partir du 20 novembre à midi."
+    "Transport for London a averti qu'une grève potentielle du TSSA pourrait perturber les lignes Piccadilly et District les 20 et 21 novembre.",
+    "Le TSSA a officiellement annoncé la grève de la ligne Piccadilly à la suite d'une participation de 83 pour cent et d'un vote unanime des membres du contrôle du service."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "de": {
-   "title": "TSSA-Mitglieder streiken auf der Londoner U-Bahn-Linie Piccadilly",
-   "seoTitle": "Londoner TSSA-Streik auf der Piccadilly Line",
+   "title": "TSSA-Mitglieder streiken auf der Londoner U-Bahn-Linie Piccadilly Line",
+   "seoTitle": "TSSA-Streik auf der Piccadilly Line in London",
    "tea": {
-    "why": "Aus Protest gegen die unfaire Entlassung eines Kollegen und angeblicher DSGVO-Verstöße durch das Ermittlungsteam von Transport for London.",
-    "want": "Die Rücknahme der unfair erfolgten Entlassung und eine faire Lösung seitens London Underground.",
-    "changed": "17. Nov.: Die Bahngewerkschaft TSSA kündigte einen 24-stündigen Streik ab dem 20. November an."
+    "why": "Aus Protest gegen die unfaire Entlassung eines Kollegen und angeblich DSGVO-Verstöße des Ermittlungsteams von TfL.",
+    "want": "Die Rücknahme der unfairen Behandlung ihres Mitglieds und eine faire Lösung seitens der London Underground.",
+    "changed": "17. Nov.: Die TSSA kündigte einen 24-stündigen Streik ab dem 20. November nach einer einstimmigen Abstimmung an."
    },
-   "summary": "Mitglieder der Bahngewerkschaft TSSA, die in der Dienstleistungssteuerung auf der Londoner U-Bahn-Linie Piccadilly arbeiten, haben einen 24-stündigen Streik angesetzt. Die Aktion soll am Freitag, den 20. November, um 12 Uhr mittags beginnen und bis Samstag, den 21. November, um 12 Uhr mittags dauern, wobei in der Pelham St 49 in South Kensington Streikposten eingerichtet wurden. Laut Tressa zielt der Protest darauf ab, einen Kollegen aus der Dienstleistungssteuerung zu unterstützen, der von London Underground unfair entlassen wurde. Die Teilnehmer protestieren zudem gegen das angebliche Fehlverhalten des Ermittlungsteams von Transport for London, das nach Angaben der Gewerkschaft gegen DSGVO-Vorschriften verstoßen und private sowie vertrauliche Informationen an Dritte weitergegeben hat. Dem Streik ging eine einstimmige Abstimmung bei einer Wahlbeteiligung von 83 Prozent unter knapp zwei Dutzend Mitgliedern der Dienstleistungssteuerung voraus. TSSA-Generalsekretärin Maryam Eslamdoust erklärte, dass es noch Zeit für London Underground gebe, eine vernünftige Lösung zu finden.",
+   "summary": "Mitglieder der Transport Salaried Staffs' Association (TSSA), die in der Fahrüberwachung der London Underground Piccadilly Line tätig sind, haben einen 24-stündigen Streik angesetzt, der am Freitag, den 20. November 2026, um Mitternacht beginnt. Die Arbeitskampfmaßnahme wird aus Protest gegen die unfaire Entlassung eines Kollegen aus der Fahrüberwachung durch die London Underground sowie gegen angebliche DSGVO-Verstöße im Zusammenhang mit der unzulässigen Weitergabe vertraulicher Mitgliederinformationen durch das Ermittlungsteam von Transport for London organisiert. Knapp zwei Dutzend TSSA-Mitglieder der Fahrüberwachung stimmten einstimmig für den Ausstand, der voraussichtlich die Piccadilly Line zum Stillstand bringen und Teile der District Line schwer beeinträchtigen wird. Streikposten sind in der Pelham St 49 in South Kensington geplant. Transport for London hat Fahrgäste vor massiven Betriebseinschränkungen gewarnt und empfohlen, Fahrten vor dem Streik abzuschließen.",
    "demands": [
-    "Die unfaire Entlassung des Kollegen aus der Dienstleistungssteuerung rückgängig machen",
-    "Angeblicher DSGVO-Verstöße durch das Ermittlungsteam von Transport for London nachgehen"
+    "Eine faire Lösung bezüglich des unfair entlassenen Kollegen",
+    "Aufarbeitung angeblicher DSGVO-Verstöße und der unzulässigen Weitergabe vertraulicher Daten"
    ],
-   "response": "Laut Quelle [1] hat die TSSA an das Rathaus geschrieben und Beschwerden beim Informationskommissariat bezüglich der Durchführung der Ermittlung eingereicht. Quelle [2] wies darauf hin, dass Transport for London um eine Stellungnahme gebeten worden war.",
+   "response": "Transport for London erklärte, dass der Streik voraussichtlich zu schweren Betriebsstörungen auf der Piccadilly Line und Teilen der District Line führen wird, und riet Kunden, Fahrten frühzeitig zu beenden.",
    "updates": [
-    "Die Bahngewerkschaft TSSA kündigte einen 24-stündigen Streik auf der Piccadilly Line ab dem 20. November um mittags an."
+    "Transport for London warnte, dass ein potenzieller TSSA-Streik die Piccadilly und District Lines am 20. und 21. November stören könnte.",
+    "Die TSSA kündigte den Streik auf der Piccadilly Line nach einer Wahlbeteiligung von 83 Prozent und einer einstimmigen Abstimmung der Mitglieder der Fahrüberwachung offiziell an."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "it": {
    "title": "I membri del TSSA scioperano sulla linea Piccadilly della metropolitana di Londra",
-   "seoTitle": "Scioperi del TSSA sulla linea Piccadilly a Londra",
+   "seoTitle": "Sciopero del TSSA sulla linea Piccadilly a Londra",
    "tea": {
-    "why": "Per protestare contro il licenziamento ingiusto di un collega e presunte violazioni del GDPR da parte del team investigativo di Transport for London.",
-    "want": "La revoca del licenziamento ingiusto e una risoluzione equa da parte di London Underground.",
-    "changed": "17 nov: Il sindacato ferroviario TSSA ha annunciato uno sciopero di 24 ore a partire dal 20 novembre."
+    "why": "Per protestare contro il licenziamento ingiusto di un collega e presunte violazioni del GDPR da parte del team investigativo di TfL.",
+    "want": "La revoca del trattamento ingiusto riservato al loro membro e una giusta risoluzione da parte di London Underground.",
+    "changed": "17 nov: Il TSSA ha annunciato uno sciopero di 24 ore a partire dal 20 novembre in seguito a una votazione unanime."
    },
-   "summary": "I membri del sindacato ferroviario TSSA che lavorano nel controllo dei servizi sulla linea Piccadilly della metropolitana di Londra hanno programmato uno sciopero di 24 ore. L'azione inizierà alle 12:00 di venerdì 20 novembre e durerà fino alle 12:00 di sabato 21 novembre, con picchetti stabiliti al 49 di Pelham St a South Kensington. Secondo il TSSA, la protesta mira a sostenere un collega del controllo dei servizi che è stato ingiustamente licenziato da London Underground. I partecipanti stanno inoltre protestando contro la presunta condotta scorretta del team investigativo di Transport for London, che secondo il sindacato avrebbe violato le normative GDPR condividendo informazioni private e riservate con terze parti. Lo sciopero fa seguito a un voto unanime con una percentuale di partecipazione dell'83 percento tra quasi due dozzine di membri del controllo dei servizi. La segretaria generale del TSSA Maryam Eslamdoust ha dichiarato che c'è ancora tempo affinché London Underground raggiunga una soluzione ragionevole.",
+   "summary": "I membri della Transport Salaried Staffs' Association (TSSA) che lavorano nel controllo del servizio sulla linea Piccadilly della metropolitana di Londra hanno programmato uno sciopero di 24 ore a partire da mezzogiorno di venerdì 20 novembre 2026. L'azione sindacale è organizzata per protestare contro il licenziamento ingiusto di un collega del controllo del servizio da parte di London Underground, nonché contro presunte violazioni del GDPR che coinvolgono la condivisione impropria di informazioni riservate sui membri da parte del team investigativo di Transport for London. Quasi due dozzine di membri del controllo del servizio del TSSA hanno votato all'unanimità a favore dell'astensione dal lavoro, che si prevede paralizzerà la linea Piccadilly e interromperà gravemente parti della linea District. Sono previsti picchetti al numero 49 di Pelham St a South Kensington. Transport for London ha avvertito i passeggeri di gravi riduzioni del servizio e ha consigliato di completare i viaggi prima dello sciopero.",
    "demands": [
-    "Revocare il licenziamento ingiusto del collega del controllo dei servizi",
-    "Affrontare le presunte violazioni del GDPR da parte del team investigativo di Transport for London"
+    "Una giusta risoluzione riguardo al collega licenziato ingiustamente",
+    "Affrontare le presunte violazioni del GDPR e la condivisione impropria di dati riservati"
    ],
-   "response": "Secondo la fonte [1], il TSSA ha scritto al Municipio e ha presentato reclami all'Ufficio del Commissario per l'Informazione in merito alla condotta dell'indagine. La fonte [2] ha osservato che Transport for London era stata contattata per un commento.",
+   "response": "Transport for London ha dichiarato che lo sciopero dovrebbe causare gravi interruzioni del servizio sulla linea Piccadilly e su parti della linea District, consigliando ai clienti di completare i viaggi in anticipo.",
    "updates": [
-    "Il sindacato ferroviario TSSA ha annunciato uno sciopero di 24 ore sulla linea Piccadilly a partire dal 20 novembre a mezzogiorno."
+    "Transport for London ha avvertito che un potenziale sciopero del TSSA potrebbe interrompere le linee Piccadilly e District il 20-21 novembre.",
+    "Il TSSA ha ufficialmente annunciato lo sciopero della linea Piccadilly in seguito a una partecipazione dell'83 percento e a una votazione unanime dei membri del controllo del servizio."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "pt": {
-   "title": "Membros do TSSA entram em greve na linha Piccadilly do metro de Londres",
+   "title": "Membros do TSSA entram em greve na linha Piccadilly do metropolitano de Londres",
    "seoTitle": "Greve do TSSA na linha Piccadilly em Londres",
    "tea": {
-    "why": "Em protesto contra o despedimento injusto de um colega e alegadas violações do RGPD por parte da equipa de investigação da Transport for London.",
-    "want": "A reversão do despedimento injusto e uma resolução justa por parte da London Underground.",
-    "changed": "17 nov: O sindicato ferroviário TSSA anunciou uma greve de 24 horas com início a 20 de novembro."
+    "why": "Em protesto contra o despedimento injusto de um colega e alegadas violações do RGPD por parte da equipa de investigação da TfL.",
+    "want": "A reversão do tratamento injusto dado ao seu membro e uma resolução justa por parte da London Underground.",
+    "changed": "17 de nov.: O TSSA anunciou uma greve de 24 horas com início a 20 de novembro após uma votação unânime."
    },
-   "summary": "Membros do sindicato ferroviário TSSA que trabalham no Controlo de Serviços na linha Piccadilly do metro de Londres agendaram uma greve de 24 horas. A ação tem início marcado para as 12:00 de sexta-feira, 20 de novembro, e decorrerá até às 12:00 de sábado, 21 de novembro, com piquetes estabelecidos no número 49 da Pelham St, em South Kensington. Segundo o TSSA, o protesto visa apoiar um colega do controlo de serviços que foi injustamente despedido pela London Underground. Os participantes também estão a protestar contra a alegada conduta imprópria da equipa de investigação da Transport for London, que o sindicato alega ter violado os regulamentos do RGPD ao partilhar informações privadas e confidenciais com terceiros. A greve surge na sequência de uma votação unânime com uma participação de 83 por cento entre quase duas dezenas de membros do controlo de serviços. A secretária-geral do TSSA, Maryam Eslamdoust, afirmou que ainda há tempo para a London Underground alcançar uma resolução razoável.",
+   "summary": "Membros da Transport Salaried Staffs' Association (TSSA) que trabalham no controlo de serviços na linha Piccadilly do metropolitano de Londres agendaram uma greve de 24 horas com início ao meio-dia de sexta-feira, 20 de novembro de 2026. A ação de luta é organizada em protesto contra o despedimento injusto de um colega do controlo de serviços pela London Underground, bem como contra alegadas violações do RGPD que envolvem a partilha indevida de informações confidenciais de membros por parte da equipa de investigação da Transport for London. Quase duas dezenas de membros do controlo de serviços do TSSA votaram por unanimidade a favor da paralisação, que se espera que paralise a linha Piccadilly e perturbe gravemente partes da linha District. Estão planeados piquetes de greve no número 49 da Pelham St em South Kensington. A Transport for London avisou os passageiros de graves reduções no serviço e aconselhou a conclusão das viagens antes da greve.",
    "demands": [
-    "Reverter o despedimento injusto do colega do controlo de serviços",
-    "Abordar as alegadas violações do RGPD pela equipa de investigação da Transport for London"
+    "Uma resolução justa relativamente ao colega injustamente despedidos",
+    "Abordar as alegadas violações do RGPD e a partilha indevida de dados confidenciais"
    ],
-   "response": "Segundo a fonte [1], o TSSA escreveu à Câmara Municipal e apresentou queixas junto do Gabinete do Comissário de Informação relativamente à conduta da investigação. A fonte [2] assinalou que a Transport for London tinha sido contactada para prestar declarações.",
+   "response": "A Transport for London afirmou que se espera que a greve cause graves perturbações no serviço da linha Piccadilly e em partes da linha District, aconselhando os clientes a concluírem as viagens mais cedo.",
    "updates": [
-    "O sindicato ferroviario TSSA anunciou uma greve de 24 horas na linha Piccadilly com início a 20 de novembro ao meio-dia."
+    "A Transport for London avisou que uma potencial greve do TSSA poderá perturbar as linhas Piccadilly e District nos dias 20 a 21 de novembro.",
+    "O TSSA anunciou oficialmente a greve da linha Piccadilly após uma participação de 83 por cento e uma votação unânime dos membros do controlo de serviços."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "nl": {
-   "title": "TSSA-leden staken op Piccadilly Line van metro van Londen",
-   "seoTitle": "Londen TSSA-staking op Piccadilly Line",
+   "title": "TSSA-leden staken op de Piccadilly Line van de Londense metro",
+   "seoTitle": "TSSA-staking op Piccadilly Line in Londen",
    "tea": {
-    "why": "Protesterend tegen het onterechte ontslag van een collega en vermeende AVG-schendingen door het onderzoeksteam van Transport for London.",
-    "want": "De terugdraaiing van het onterechte ontslag en een eerlijke oplossing van London Underground.",
-    "changed": "17 nov.: Spoorwegvakbond TSSA heeft een staking van 24 uur aangekondigd die op 20 november begint."
+    "why": "Uit protest tegen het onterechte ontslag van een collega en vermeende AVG-schendingen door het onderzoeksteam van TfL.",
+    "want": "Het terugdraaien van de oneerlijke behandeling van hun lid en een eerlijke oplossing van London Underground.",
+    "changed": "17 nov.: TSSA kondigde een staking van 24 uur aan vanaf 20 november na een unanieme stemming."
    },
-   "summary": "Leden van spoorwegvakbond TSSA die werkzaam zijn bij Service Control op de Piccadilly Line van de Londense metro hebben een 24-uurstaking gepland. De actie gaat van start op vrijdag 20 november om 12.00 uur 's middags en duurt tot zaterdag 21 november om 12.00 uur 's middags, waarbij piketlijnen zijn opgezet bij 49 Pelham St in South Kensington. Volgens TSSA is het protest bedoeld om een collega van de servicecontrole te steunen die onterecht is ontslagen door London Underground. De deelnemers protesteren tevens tegen het vermeende onjuiste gedrag van het onderzoeksteam van Transport for London, dat volgens de vakbond de AVG-regelgeving heeft geschonden door privé- en vertrouwelijke informatie te delen met derden. De staking volgt op een unanieme stemming met een opkomst van 83 procent onder bijna twee dozen servicecontroleleden. TSSA-secretaris-generaal Maryam Eslamdoust verklaarde dat er nog tijd is voor London Underground om tot een redelijke oplossing te komen.",
+   "summary": "Leden van de Transport Salaried Staffs' Association (TSSA) die werkzaam zijn bij de servicedienst van de Piccadilly Line van de Londense metro hebben een staking van 24 uur aangekondigd, ingaande op vrijdag 20 november 2026 om twaalf uur 's middags. De actie is georganiseerd uit protest tegen het onterechte ontslag van een collega van de servicedienst door London Underground, evenals vermeende AVG-schendingen waarbij vertrouwelijke ledeninformatie onterecht werd gedeeld door het onderzoeksteam van Transport for London. Bijna twee dozijn TSSA-leden van de servicedienst stemden unaniem voor de werkonderbreking, die naar verwachting de Piccadilly Line zal platleggen en delen van de District Line ernstig zal verstoren. Er zijn picketlines gepland op Pelham St 49 in South Kensington. Transport for London heeft reizigers gewaarschuwd voor ernstige dienstreducties en geadviseerd reizen voorafgaand aan de staking te voltooien.",
    "demands": [
-    "Het onterechte ontslag van de collega van de servicecontrole terugdraaien",
-    "Vermeende AVG-schendingen door het onderzoeksteam van Transport for London aanpakken"
+    "Een eerlijke oplossing met betrekking tot de onterecht ontslagen collega",
+    "Het aanpakken van vermeende AVG-schendingen en het onterecht delen van vertrouwelijke gegevens"
    ],
-   "response": "Volgens bron [1] heeft TSSA geschreven naar City Hall en klachten ingediend bij het Information Commissioner's Office met betrekking tot het verloop van het onderzoek. Bron [2] merkte op dat Transport for London om een reactie was gevraagd.",
+   "response": "Transport for London verklaarde dat de staking naar verwachting ernstige dienstverstoringen zal veroorzaken op de Piccadilly Line en delen van de District Line, en adviseerde reizigers om reizen vroegtijdig te voltooien.",
    "updates": [
-    "Spoorwegvakbond TSSA kondigde een 24-uurstaking aan op de Piccadilly Line vanaf 20 november 's middags."
+    "Transport for London waarschuwde dat een mogelijke TSSA-staking de Piccadilly Line en District Line op 20-21 november kan verstoren.",
+    "TSSA kondigde de staking op de Piccadilly Line officieel aan na een opkomst van 83 procent en een unanieme stemmingsronde door leden van de servicedienst."
    ],
    "conflicts": [],
    "numbers": {}

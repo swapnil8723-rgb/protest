@@ -13,14 +13,14 @@
   "citySlug": "lyon",
   "regionSlug": "auvergne-rhone-alpes"
  },
- "scope": "multi-city",
+ "scope": "local",
  "causes": [
   "labour",
-  "education",
-  "prices"
+  "prices",
+  "education"
  ],
  "kind": "multi-day",
- "startedOn": "2026-11-05",
+ "startedOn": "2026-11-02",
  "status": "ongoing",
  "vibe": "tense",
  "severity": "serious",
@@ -34,30 +34,27 @@
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against rising living costs, insufficient public service funding, and education sector conditions.",
-  "want": "Demands include higher wages, increased resources for national education, and improved social and fiscal justice.",
-  "changed": "Nov 16: The Lyon administrative court suspended a prefectural ban, allowing a protest to reach Place Bellecour on Nov 17."
+  "why": "Protesters are demonstrating against high living costs, inadequate public service funding, and low wages.",
+  "want": "They demand better wages, increased funding for national education, and social and fiscal justice.",
+  "changed": "Nov 17: A demonstration took place in Lyon following a court ruling allowing access to Place Bellecour, drawing between 7,000 and 15,000 participants."
  },
- "summary": "Since early November 2026, Lyon has experienced a series of protests and strikes organized by inter-union coalitions and student groups. Participants are demonstrating against the rising cost of living, demanding better wages, and calling for increased funding for public services and national education. The movement has seen significant turnout, with estimates for the November 5 demonstration ranging from 30,500 to 55,000 people. While most events have been peaceful, authorities have reported tensions, including clashes with police, the use of tear gas, and property damage. The prefecture has frequently issued orders restricting protest routes, citing security concerns and the presence of radical groups. Recent developments include a court ruling permitting a march to reach the city center on November 17, despite government warnings regarding potential public disorder.",
+ "summary": "A wave of strikes and demonstrations has unfolded in Lyon, driven by widespread discontent over living costs, stagnant wages, and public service funding. The movement, spearheaded by inter-union coalitions, student groups, and organizations such as the Gilets Jaunes, has featured recurring rallies, high school blockades, and transport disruptions. Demonstrators have taken to the streets to demand increased resources for education, better salaries, and greater fiscal and social justice. Authorities have responded with heavy police deployments, tear gas usage, and strict administrative bans on certain routes, alongside clashes and incidents of property damage and violence reported on the margins of the marches.",
  "organizers": [
   "intersyndicale",
-  "CGT",
-  "Snes-FSU",
-  "FSU-Snuipp",
-  "Interfac de Lyon",
-  "Gilets jaunes"
+  "Gilets jaunes",
+  "CGT"
  ],
  "demands": [
-  "Higher wages",
-  "Increased funding for national education",
-  "Improved social and fiscal justice",
-  "Better working conditions"
+  "Better wages",
+  "More resources for national education",
+  "Social and fiscal justice",
+  "Support for students and high schools"
  ],
- "response": "The prefecture has deployed significant security forces, including riot police and armored vehicles, and frequently issued administrative orders banning protests in specific areas of Lyon to prevent public disorder. The government has condemned violence during demonstrations.",
+ "response": "The prefecture deployed heavy security forces, including riot police and armored vehicles, used tear gas, and issued temporary route bans, while government ministers condemned violence and property damage during the demonstrations.",
  "numbers": {
   "crowd": {
    "value": 55000,
-   "text": "Organisers claimed 55,000 participants on November 5, while the prefecture reported 30,500.",
+   "text": "30,500 according to the prefecture and 55,000 according to unions during the November 5 demonstration",
    "sources": [
     3,
     4
@@ -80,8 +77,15 @@
  },
  "updates": [
   {
+   "at": "2026-11-02",
+   "text": "Protesters and student groups attempted blockades at several high schools in Lyon.",
+   "sources": [
+    1
+   ]
+  },
+  {
    "at": "2026-11-05",
-   "text": "Nationwide strike and protests occur, with significant turnout in Lyon and clashes reported between police and protesters.",
+   "text": "A large interprofessional strike and march drew tens of thousands of participants to the streets of Lyon.",
    "sources": [
     2,
     3,
@@ -90,24 +94,24 @@
   },
   {
    "at": "2026-11-07",
-   "text": "The prefecture bans protests in large parts of Lyon due to security concerns ahead of potential weekend demonstrations.",
+   "text": "An action referred to as 'act V' brought further demonstrations and clashes with police.",
    "sources": [
     5,
+    7
+   ]
+  },
+  {
+   "at": "2026-11-10",
+   "text": "A new march took place between Place Jean-Macé and Place Guichard amid ongoing social tension.",
+   "sources": [
     6
    ]
   },
   {
-   "at": "2026-11-14",
-   "text": "Tensions occur during a demonstration; a media crew is assaulted, and eight security personnel are reported injured.",
+   "at": "2026-11-17",
+   "text": "The administrative court suspended a prefectural ban, allowing protesters to march onto Place Bellecour.",
    "sources": [
-    7,
-    8
-   ]
-  },
-  {
-   "at": "2026-11-16",
-   "text": "The Lyon administrative court overturns a prefectural ban, allowing a protest to proceed to Place Bellecour on November 17.",
-   "sources": [
+    9,
     10
    ]
   }
@@ -150,10 +154,10 @@
   },
   {
    "n": 6,
-   "url": "https://www.leprogres.fr/social/2026/11/07/mobilisation-contre-la-vie-chere-aucune-manifestation-declaree-ce-samedi-un-large-perimetre-interdit-aux-eventuels-corteges",
-   "publisher": "leprogres.fr",
-   "title": "Lyon. Vie chère : aucune manifestation déclarée ce samedi, un large périmètre interdit aux éventuels cortèges",
-   "publishedAt": "2026-11-07T05:00:00.000Z"
+   "url": "https://www.lyonmag.com/article/154827/nouvelle-manifestation-a-lyon-ce-mardi-le-trajet-est-desormais-connu",
+   "publisher": "lyonmag.com",
+   "title": "Nouvelle manifestation &agrave; Lyon ce mardi : le trajet est d&eacute;sormais connu",
+   "publishedAt": "2026-11-09T16:58:00.000Z"
   },
   {
    "n": 7,
@@ -164,24 +168,24 @@
   },
   {
    "n": 8,
-   "url": "https://www.lyonmag.com/article/154943/appels-a-refaire-le-17-octobre-la-manifestation-de-mardi-a-lyon-devra-changer-de-parcours",
-   "publisher": "lyonmag.com",
-   "title": "Appels &agrave; \"refaire le 17 octobre\" : la manifestation de mardi &agrave; Lyon devra changer de parcours",
-   "publishedAt": "2026-11-15T18:56:00.000Z"
-  },
-  {
-   "n": 9,
    "url": "https://www.lyoncapitale.fr/actualite/une-nouvelle-journee-de-greve-prevue-dans-les-tcl-ce-vendredi-a-lyon",
    "publisher": "lyoncapitale.fr",
    "title": "Une nouvelle journée de grève prévue dans les TCL ce vendredi à Lyon",
    "publishedAt": "2026-11-16T07:44:00.000Z"
   },
   {
-   "n": 10,
+   "n": 9,
    "url": "https://www.lefigaro.fr/lyon/lyon-la-justice-autorise-une-manifestation-place-bellecour-mardi-pour-la-premiere-fois-depuis-le-17-octobre-20261116",
    "publisher": "lefigaro.fr",
    "title": "Lyon : la justice autorise une manifestation place Bellecour mardi pour la première fois depuis le 17 octobre",
    "publishedAt": "2026-11-16T20:58:30.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://mesinfos.fr/69000-lyon/manifestation-a-lyon-tension-et-incomprehension-chez-les-commercants-avant-l-arrivee-a-bellecour-343392.html",
+   "publisher": "mesinfos.fr",
+   "title": "Manifestation &agrave; Lyon : tension et incompr&eacute;hension chez les commer&ccedil;ants avant l’arriv&eacute;e &agrave; Bellecour",
+   "publishedAt": "2026-11-17T12:47:00.000Z"
   },
   {
    "n": 11,
@@ -199,280 +203,287 @@
   }
  ],
  "conflicts": [
-  "Police reported 30,500 protesters on November 5, while organisers claimed 55,000."
+  "Police reported 30,500 participants while unions claimed 55,000 on November 5."
  ],
  "confidence": 0.75,
  "publishers": 10,
- "reports24h": 0,
+ "reports24h": 1,
  "reportsPrev24h": 3,
- "reports48h": 3,
+ "reports48h": 4,
  "firstSeenAt": "2026-10-24T16:01:48.363Z",
- "lastReportAt": "2026-11-16T20:58:30.000Z",
- "lastCheckedAt": "2026-11-18T00:54:26.504Z",
- "updatedAt": "2026-11-17T00:53:52.924Z",
+ "lastReportAt": "2026-11-17T12:47:00.000Z",
+ "lastCheckedAt": "2026-11-18T04:55:34.687Z",
+ "updatedAt": "2026-11-18T04:53:51.972Z",
  "responseSources": [
+  1,
   2,
   5,
-  6,
   7,
-  8,
-  10
+  9
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-17T00:53:52.924Z",
- "summaryOf": "901bdb20f0b5",
+ "summarizedAt": "2026-11-18T04:53:51.972Z",
+ "summaryOf": "f595c4f125f7",
  "publishedAt": "2026-10-24T19:33:33.787Z",
  "i18n": {
-  "of": "17ef4d51cb878db2",
-  "at": "2026-11-17T00:54:56.908Z",
+  "of": "a4a191c7a9312b84",
+  "at": "2026-11-18T04:56:44.840Z",
   "tries": 1,
   "hi": {
-   "title": "ल्यों में जीवन-यापन की लागत और सार्वजनिक सेवाओं को लेकर विरोध प्रदर्शन और हड़ताल",
-   "seoTitle": "ल्यों में जीवन-यापन की लागत को लेकर विरोध",
+   "title": "लियोन में जीवनयापन की लागत और सार्वजनिक सेवाओं को लेकर प्रदर्शन और हड़तालें",
+   "seoTitle": "जीवनयापन की लागत पर लियोन में प्रदर्शन",
    "tea": {
-    "why": "प्रदर्शनकारी जीवन-यापन की बढ़ती लागत, सार्वजनिक सेवाओं के लिए अपर्याप्त धन और शिक्षा क्षेत्र की स्थितियों के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "मांगों में उच्च वेतन, राष्ट्रीय शिक्षा के लिए बढ़े हुए संसाधन और बेहतर सामाजिक और राजकोषीय न्याय शामिल हैं।",
-    "changed": "16 नवंबर: ल्यों प्रशासनिक न्यायालय ने एक प्रीफेक्चुरल प्रतिबंध को निलंबित कर दिया, जिससे 17 नवंबर को प्लेस बेलेकौर तक विरोध प्रदर्शन की अनुमति मिल गई।"
+    "why": "प्रदर्शनकारी उच्च जीवनयापन लागत, सार्वजनिक सेवा के लिए अपर्याप्त धन और कम वेतन के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "वे बेहतर वेतन, राष्ट्रीय शिक्षा के लिए बढ़ा हुआ धन और सामाजिक व राजकोषीय न्याय की मांग करते हैं।",
+    "changed": "17 नवंबर: प्लेस बेलेकॉर तक पहुंच की अनुमति देने वाले अदालत के फैसले के बाद लियोन में एक प्रदर्शन हुआ, जिसमें 7,000 से 15,000 प्रतिभागी शामिल हुए।"
    },
-   "summary": "नवंबर 2026 की शुरुआत से, ल्यों में अंतर-संघ गठबंधनों और छात्र समूहों द्वारा आयोजित विरोध प्रदर्शनों और हड़तालों की एक श्रृंखला देखी गई है। प्रतिभागी जीवन-यापन की बढ़ती लागत के खिलाफ प्रदर्शन कर रहे हैं, बेहतर वेतन की मांग कर रहे हैं, और सार्वजनिक सेवाओं और राष्ट्रीय शिक्षा के लिए अधिक धन की मांग कर रहे हैं। आंदोलन में बड़ी संख्या में लोग शामिल हुए हैं, 5 नवंबर के प्रदर्शन के लिए अनुमान 30,500 से 55,000 लोगों के बीच है। हालांकि अधिकांश कार्यक्रम शांतिपूर्ण रहे हैं, अधिकारियों ने तनाव की सूचना दी है, जिसमें पुलिस के साथ झड़प, आंसू गैस का उपयोग और संपत्ति को नुकसान शामिल है। प्रीफेक्चर ने सुरक्षा चिंताओं और कट्टरपंथी समूहों की उपस्थिति का हवाला देते हुए अक्सर विरोध मार्गों को प्रतिबंधित करने के आदेश जारी किए हैं। हाल के घटनाक्रमों में एक अदालती फैसला शामिल है जो 17 नवंबर को शहर के केंद्र तक मार्च करने की अनुमति देता है, बावजूद इसके कि सरकार ने संभावित सार्वजनिक अव्यवस्था के बारे में चेतावनी दी है।",
+   "summary": "जीवनयापन की लागत, स्थिर वेतन और सार्वजनिक सेवा के वित्तपोषण को लेकर व्यापक असंतोष के कारण लियोन में हड़तालों और प्रदर्शनों की एक लहर चल पड़ी है। अंतर-संघ गठबंधनों, छात्र समूहों और जिलेट्स जौन्स जैसे संगठनों के नेतृत्व में इस आंदोलन में बार-बार रैलियां, हाई स्कूल नाकाबंदी और परिवहन व्यवधान देखे गए हैं। प्रदर्शनकारियों ने शिक्षा के लिए अधिक संसाधनों, बेहतर वेतन और अधिक राजकोषीय और सामाजिक न्याय की मांग के लिए सड़कों का रुख किया है। अधिकारियों ने भारी पुलिस तैनाती, आंसुओं गैस के इस्तेमाल और कुछ मार्गों पर सख्त प्रशासनिक प्रतिबंधों के साथ-साथ मार्च के हाशिए पर झड़पों और संपत्ति के नुकसान व हिंसा की घटनाओं के साथ प्रतिक्रिया दी है।",
    "demands": [
-    "उच्च वेतन",
-    "राष्ट्रीय शिक्षा के लिए बढ़ा हुआ धन",
-    "बेहतर सामाजिक और राजकोषीय न्याय",
-    "बेहतर काम करने की स्थिति"
+    "बेहतर वेतन",
+    "राष्ट्रीय शिक्षा के लिए अधिक संसाधन",
+    "सामाजिक और राजकोषीय न्याय",
+    "छात्रों और हाई स्कूलों के लिए समर्थन"
    ],
-   "response": "प्रीफेक्चर ने दंगा पुलिस और बख्तरबंद वाहनों सहित महत्वपूर्ण सुरक्षा बलों को तैनात किया है, और सार्वजनिक अव्यवस्था को रोकने के लिए ल्यों के विशिष्ट क्षेत्रों में विरोध प्रदर्शनों पर प्रतिबंध लगाने वाले प्रशासनिक आदेश अक्सर जारी किए हैं। सरकार ने प्रदर्शनों के दौरान हिंसा की निंदा की है।",
+   "response": "डिफेक्ट ने दंगा रोधी पुलिस और बख्तरबंद वाहनों सहित भारी सुरक्षा बलों को तैनात किया, आंसू गैस का इस्तेमाल किया और अस्थायी मार्ग प्रतिबंध जारी किए, जबकि सरकार के मंत्रियों ने प्रदर्शनों के दौरान हिंसा और संपत्ति के नुकसान की निंदा की।",
    "updates": [
-    "राष्ट्रव्यापी हड़ताल और विरोध प्रदर्शन हुए, जिसमें ल्यों में बड़ी संख्या में लोग शामिल हुए और पुलिस तथा प्रदर्शनकारियों के बीच झड़प की सूचना मिली।",
-    "प्रीफेक्चर ने संभावित सप्ताहांत प्रदर्शनों से पहले सुरक्षा चिंताओं के कारण ल्यों के बड़े हिस्सों में विरोध प्रदर्शनों पर प्रतिबंध लगा दिया।",
-    "एक प्रदर्शन के दौरान तनाव हुआ; एक मीडिया क्रू पर हमला किया गया, और आठ सुरक्षा कर्मियों के घायल होने की सूचना है।",
-    "ल्यों प्रशासनिक न्यायालय ने एक प्रीफेक्चुरल प्रतिबंध को पलट दिया, जिससे 17 नवंबर को प्लेस बेलेकौर तक विरोध प्रदर्शन जारी रखने की अनुमति मिल गई।"
+    "प्रदर्शनकारियों और छात्र समूहों ने लियोन के कई हाई स्कूलों में नाकाबंदी का प्रयास किया।",
+    "एक बड़े अंतर-व्यावसायिक हड़ताल और मार्च ने लियोन की सड़कों पर दसियों हज़ार प्रतिभागियों को आकर्षित किया।",
+    "एक कार्रवाई जिसे 'एक्ट V' कहा गया, ने आगे के प्रदर्शन और पुलिस के साथ झड़पें लाईं।",
+    "चल रहे सामाजिक तनाव के बीच प्लेस जीन-मासे और प्लेस गुइचार्ड के बीच एक नया मार्च हुआ।",
+    "प्रशासनिक अदालत ने एक प्रांतीय प्रतिबंध को निलंबित कर दिया, जिससे प्रदर्शनकारियों को प्लेस बेलेकॉर पर मार्च करने की अनुमति मिल गई।"
    ],
    "conflicts": [
-    "पुलिस ने 5 नवंबर को 30,500 प्रदर्शनकारियों की सूचना दी, जबकि आयोजकों ने 55,000 का दावा किया।"
+    "पुलिस ने 5 नवंबर को 30,500 प्रतिभागियों की सूचना दी जबकि यूनियनों ने 55,000 का दावा किया।"
    ],
    "numbers": {
-    "crowd": "आयोजकों ने 5 नवंबर को 55,000 प्रतिभागियों का दावा किया, जबकि प्रीफेक्चर ने 30,500 की सूचना दी।",
-    "arrests": "सोमवार, 2 नवंबर से 47 लोग गिरफ्तार किए गए",
-    "injuries": "40 घायल, जिनमें 34 सुरक्षा बल के सदस्य और छह प्रतिभागी शामिल हैं"
+    "crowd": "5 नवंबर के प्रदर्शन के दौरान प्रशासन के अनुसार 30,500 और यूनियनों के अनुसार 55,000",
+    "arrests": "सोमवार, 2 नवंबर से 47 व्यक्तियों को गिरफ्तार किया गया",
+    "injuries": "40 घायल, जिनमें सुरक्षा बलों के 34 सदस्य और छह प्रतिभागी शामिल हैं"
    }
   },
   "mr": {
-   "title": "ल्योंमध्ये राहणीमानाचा खर्च आणि सार्वजनिक सेवांबाबत निदर्शने आणि संप",
-   "seoTitle": "ल्योंमध्ये राहणीमानाचा खर्च वाढल्याने निदर्शने",
+   "title": "लियोनमध्ये राहणीमानाचा खर्च आणि सार्वजनिक सेवांवरून निदर्शने आणि संप",
+   "seoTitle": "राहणीमानाचा खर्च वाढल्याने लियोनमध्ये निदर्शने",
    "tea": {
-    "why": "निदर्शक राहणीमानाचा वाढता खर्च, सार्वजनिक सेवांसाठी अपुरा निधी आणि शिक्षण क्षेत्रातील परिस्थितीच्या विरोधात निदर्शने करत आहेत.",
-    "want": "मागण्यांमध्ये उच्च वेतन, राष्ट्रीय शिक्षणासाठी वाढीव संसाधने आणि सुधारित सामाजिक आणि आर्थिक न्याय यांचा समावेश आहे.",
-    "changed": "१६ नोव्हेंबर: ल्यों प्रशासकीय न्यायालयाने प्रीफेक्चरल बंदी स्थगित केली, ज्यामुळे १७ नोव्हेंबरला प्लेस बेलेकौरपर्यंत निदर्शने करण्याची परवानगी मिळाली."
+    "why": "निदर्शक वाढलेला राहणीमानाचा खर्च, सार्वजनिक सेवेसाठी अपुरा निधी आणि कमी वेतनाच्या विरोधात निदर्शने करत आहेत.",
+    "want": "त्यांची चांगला पगार, राष्ट्रीय शिक्षणासाठी वाढलेला निधी आणि सामाजिक व आर्थिक न्यायाची मागणी आहे.",
+    "changed": "१७ नोव्हेंबर: प्लेस बेलेकॉरमध्ये प्रवेश देणाऱ्या न्यायालयाच्या निकालानंतर लियोनमध्ये एक निदर्शन झाले, ज्यामध्ये ७,००० ते १५,००० सहभाग नोंदवला गेला."
    },
-   "summary": "नोव्हेंबर २०२६ च्या सुरुवातीपासून, ल्योंमध्ये आंतर-युनियन युती आणि विद्यार्थी गटांनी आयोजित केलेल्या निदर्शनांची आणि संपांची मालिका पाहिली आहे. सहभागी राहणीमानाचा वाढता खर्च, चांगल्या वेतनाची मागणी आणि सार्वजनिक सेवा आणि राष्ट्रीय शिक्षणासाठी वाढीव निधीची मागणी करत आहेत. या आंदोलनात मोठी गर्दी झाली आहे, ५ नोव्हेंबरच्या निदर्शनासाठी ३०,५०० ते ५५,००० लोकांचा अंदाज आहे. बहुतेक कार्यक्रम शांततापूर्ण असले तरी, अधिकाऱ्यांनी तणावाची नोंद केली आहे, ज्यात पोलिसांशी संघर्ष, अश्रूधुराचा वापर आणि मालमत्तेचे नुकसान यांचा समावेश आहे. प्रीफेक्चरने सुरक्षा चिंता आणि कट्टरपंथी गटांच्या उपस्थितीचा हवाला देऊन वारंवार निदर्शनांच्या मार्गांवर निर्बंध घालणारे आदेश जारी केले आहेत. अलीकडील घडामोडींमध्ये १७ नोव्हेंबरला शहराच्या मध्यवर्ती भागात मोर्चा काढण्याची परवानगी देणारा न्यायालयाचा निर्णय समाविष्ट आहे, जरी सरकारने संभाव्य सार्वजनिक गोंधळाबाबत चेतावणी दिली होती.",
+   "summary": "राहणीमानाचा खर्च, रखडलेले पगार आणि सार्वजनिक सेवांच्या निधीबद्दलच्या व्यापक असंतोषामुळे लियोनमध्ये संप आणि निदर्शनांची लाट उसळली आहे. आंतर-युनियन आघाड्या, विद्यार्थी गट आणि जिलेट्स जौन्स यांसारख्या संस्थांच्या नेतृत्वात या आंदोलनात वारंवार रैल्या, हायस्कूलची नाकेबंदी आणि वाहतूक विस्कळीत झाल्याचे दिसून आले आहे. शिक्षणासाठी अधिक संसाधने, चांगले वेतन आणि अधिक आर्थिक व सामाजिक न्यायाची मागणी करण्यासाठी निदर्शक रस्त्यावर उतरले आहेत. प्रशासनाने भारी पोलिस बंदोबस्त, अश्रुधुराचा वापर आणि विशिष्ट मार्गांवर कडक प्रशासकीय बंदी, तसेच मोर्चानच्या कडेवर हिंसाचार व मालमत्तेच्या नुकसानीच्या घटनांच्या पार्श्वभूमीवर प्रतिक्रिया दिली आहे.",
    "demands": [
-    "उच्च वेतन",
-    "राष्ट्रीय शिक्षणासाठी वाढीव निधी",
-    "सुधारित सामाजिक आणि आर्थिक न्याय",
-    "कामाच्या चांगल्या अटी"
+    "चांगले वेतन",
+    "राष्ट्रीय शिक्षणासाठी अधिक संसाधने",
+    "सामाजिक आणि आर्थिक न्याय",
+    "विद्यार्थी आणि हायस्कूलसाठी पाठिंबा"
    ],
-   "response": "प्रीफेक्चरने दंगल नियंत्रण पोलीस आणि चिलखती वाहनांसह महत्त्वपूर्ण सुरक्षा दल तैनात केले आहेत आणि सार्वजनिक गोंधळ टाळण्यासाठी ल्योंच्या विशिष्ट भागात निदर्शनांवर बंदी घालणारे प्रशासकीय आदेश वारंवार जारी केले आहेत. सरकारने निदर्शनांदरम्यान झालेल्या हिंसाचाराचा निषेध केला आहे.",
+   "response": "प्रिफेक्चरने दंगल नियंत्रण पोलिसांसह आणि चिलखती गाड्यांसह भारी सुरक्षा दल तैनात केले, अश्रुधुराचा वापर केला आणि तात्पुरती मार्ग बंदी जारी केली, तर सरकारी मंत्र्यांनी निदर्शनादरम्यान हिंसाचार आणि मालमत्तेच्या नुकसानीचा निषेध केला.",
    "updates": [
-    "देशव्यापी संप आणि निदर्शने झाली, ज्यात ल्योंमध्ये मोठी गर्दी झाली आणि पोलीस व निदर्शकांमध्ये संघर्ष झाल्याची नोंद झाली.",
-    "संभाव्य शनिवार-रविवारच्या निदर्शनांपूर्वी सुरक्षा चिंतेमुळे प्रीफेक्चरने ल्योंच्या मोठ्या भागांत निदर्शनांवर बंदी घातली.",
-    "एका निदर्शनादरम्यान तणाव निर्माण झाला; एका मीडिया क्रूवर हल्ला झाला आणि आठ सुरक्षा कर्मचारी जखमी झाल्याची नोंद आहे.",
-    "ल्यों प्रशासकीय न्यायालयाने प्रीफेक्चरल बंदी उठवली, ज्यामुळे १७ नोव्हेंबरला प्लेस बेलेकौरपर्यंत निदर्शने सुरू ठेवण्याची परवानगी मिळाली."
+    "निदर्शक आणि विद्यार्थी गटांनी लियोनच्या अनेक हायस्कूलमध्ये नाकेबंदीचा प्रयत्न केला.",
+    "एका मोठ्या आंतर-व्यावसायिक संप आणि मोर्चानने लियोनच्या रस्त्यांवर हजारो सहभागांना आकर्षित केले.",
+    "'अॅक्ट V' म्हणून ओळखल्या जाणाऱ्या कृषी कृतीने पुढील निदर्शने आणि पोलिसांशी संघर्ष घडवून आणला.",
+    "चालू सामाजिक तणावाच्या दरम्यान प्लेस जीन-मासे आणि प्लेस गुइचार्ड दरम्यान एक नवीन मोर्चा काढण्यात आला.",
+    "प्रशासकीय न्यायालयाने प्रिफेक्चर्ची बंदी निलंबित केली, ज्यामुळे निदर्शकांना प्लेस बेलेकॉरवर मार्च करण्याची परवानगी मिळाली."
    ],
    "conflicts": [
-    "पोलिसांनी ५ नोव्हेंबर रोजी ३०,५०० निदर्शकांची नोंद केली, तर आयोजकांनी ५५,००० असल्याचा दावा केला."
+    "पोलिसांनी ५ नोव्हेंबर रोजी ३०,५०० सहभागी सांगितल्या तर युनियन्सनी ५५,००० असल्याचा दावा केला."
    ],
    "numbers": {
-    "crowd": "आयोजकांनी ५ नोव्हेंबर रोजी ५५,००० सहभागी असल्याचा दावा केला, तर प्रीफेक्चरने ३०,५०० ची नोंद केली.",
+    "crowd": "५ नोव्हेंबरच्या निदर्शनादरम्यान प्रिफेक्चरनुसार ३०,५०० आणि युनियन्सनुसार ५५,०००",
     "arrests": "सोमवार, २ नोव्हेंबरपासून ४७ व्यक्तींना अटक करण्यात आली",
-    "injuries": "४० जखमी, ज्यात ३४ सुरक्षा दलाचे सदस्य आणि सहा सहभागींचा समावेश आहे"
+    "injuries": "४० जखमी, ज्यामध्ये सुरक्षा दलाचे ३४ सदस्य आणि सहा सहभागींचा समावेश आहे"
    }
   },
   "es": {
-   "title": "Protestas y huelgas en Lyon por el coste de la vida y los servicios públicos",
-   "seoTitle": "Protestas en Lyon por el coste de la vida",
+   "title": "Protestas y huelgas en Lyon por el costo de la vida y los servicios públicos",
+   "seoTitle": "Protestas en Lyon por el costo de la vida",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el aumento del coste de la vida, la financiación insuficiente de los servicios públicos y las condiciones del sector educativo.",
-    "want": "Las demandas incluyen salarios más altos, mayores recursos para la educación nacional y una mejor justicia social y fiscal.",
-    "changed": "16 de noviembre: El tribunal administrativo de Lyon suspendió una prohibición prefectural, permitiendo que una protesta llegara a la Place Bellecour el 17 de noviembre."
+    "why": "Los manifestantes se manifiestan contra el alto costo de la vida, la financiación inadecuada de los servicios públicos y los bajos salarios.",
+    "want": "Exigen mejores salarios, un aumento de la financiación para la educación nacional y justicia social y fiscal.",
+    "changed": "17 de noviembre: Se llevó a cabo una manifestación en Lyon tras un fallo judicial que permitía el acceso a la Place Bellecour, atrayendo entre 7.000 y 15.000 participantes."
    },
-   "summary": "Desde principios de noviembre de 2026, Lyon ha experimentado una serie de protestas y huelgas organizadas por coaliciones intersindicales y grupos estudiantiles. Los participantes se manifiestan contra el aumento del coste de la vida, exigiendo mejores salarios y pidiendo una mayor financiación para los servicios públicos y la educación nacional. El movimiento ha tenido una participación significativa, con estimaciones para la manifestación del 5 de noviembre que oscilan entre 30.500 y 55.000 personas. Aunque la mayoría de los eventos han sido pacíficos, las autoridades han informado de tensiones, incluidos enfrentamientos con la policía, el uso de gases lacrimógenos y daños a la propiedad. La prefectura ha emitido con frecuencia órdenes que restringen las rutas de protesta, citando preocupaciones de seguridad y la presencia de grupos radicales. Los acontecimientos recientes incluyen una decisión judicial que permite que una marcha llegue al centro de la ciudad el 17 de noviembre, a pesar de las advertencias del gobierno sobre posibles desórdenes públicos.",
+   "summary": "Una ola de huelgas y manifestaciones se ha desatado en Lyon, impulsada por el descontento generalizado debido al costo de la vida, los salarios estancados y la financiación de los servicios públicos. El movimiento, encabezado por coaliciones intersindicales, grupos estudiantiles y organizaciones como los Gilets Jaunes, ha presentado mítines recurrentes, bloqueos de escuelas secundarias y alteraciones en el transporte. Los manifestantes han salido a las calles para exigir mayores recursos para la educación, mejores salarios y una mayor justicia fiscal y social. Las autoridades han respondido con fuertes despliegues policiales, uso de gases lacrimógenos y estrictas prohibiciones administrativas en ciertas rutas, junto con enfrentamientos e incidentes de daños a la propiedad y violencia reportados al margen de las marchas.",
    "demands": [
-    "Salarios más altos",
-    "Mayor financiación para la educación nacional",
-    "Mejor justicia social y fiscal",
-    "Mejores condiciones laborales"
+    "Mejores salarios",
+    "Más recursos para la educación nacional",
+    "Justicia social y fiscal",
+    "Apoyo para estudiantes y escuelas secundarias"
    ],
-   "response": "La prefectura ha desplegado importantes fuerzas de seguridad, incluidos antidisturbios y vehículos blindados, y ha emitido con frecuencia órdenes administrativas que prohíben las protestas en áreas específicas de Lyon para evitar el desorden público. El gobierno ha condenado la violencia durante las manifestaciones.",
+   "response": "La prefectura desplegó fuertes fuerzas de seguridad, incluyendo policía antidisturbios y vehículos blindados, utilizó gases lacrimógenos y emitió prohibiciones temporales de ruta, mientras que los ministros del gobierno condenaron la violencia y los daños a la propiedad durante las manifestaciones.",
    "updates": [
-    "Se producen huelgas y protestas a nivel nacional, con una participación significativa en Lyon y enfrentamientos reportados entre la policía y los manifestantes.",
-    "La prefectura prohíbe las protestas en gran parte de Lyon debido a preocupaciones de seguridad antes de posibles manifestaciones durante el fin de semana.",
-    "Se producen tensiones durante una manifestación; un equipo de medios es agredido y ocho miembros del personal de seguridad resultan heridos.",
-    "El tribunal administrativo de Lyon anula una prohibición prefectural, permitiendo que una protesta continúe hasta la Place Bellecour el 17 de noviembre."
+    "Manifestantes y grupos estudiantiles intentaron bloqueos en varias escuelas secundarias de Lyon.",
+    "Una gran huelga interprofesional y marcha atrajo a decenas de miles de participantes a las calles de Lyon.",
+    "Una acción denominada 'acto V' trajo más manifestaciones y enfrentamientos con la policía.",
+    "Una nueva marcha tuvo lugar entre la Place Jean-Macé y la Place Guichard en medio de la continua tensión social.",
+    "El tribunal administrativo suspendió una prohibición prefectoral, permitiendo a los manifestantes marchar hacia la Place Bellecour."
    ],
    "conflicts": [
-    "La policía informó de 30.500 manifestantes el 5 de noviembre, mientras que los organizadores afirmaron que fueron 55.000."
+    "La policía reportó 30.500 participantes mientras que los sindicatos afirmaron que fueron 55.000 el 5 de noviembre."
    ],
    "numbers": {
-    "crowd": "Los organizadores afirmaron que hubo 55.000 participantes el 5 de noviembre, mientras que la prefectura informó de 30.500.",
+    "crowd": "30.500 según la prefectura y 55.000 según los sindicatos durante la manifestación del 5 de noviembre",
     "arrests": "47 personas arrestadas desde el lunes 2 de noviembre",
-    "injuries": "40 heridos, incluidos 34 miembros de las fuerzas de seguridad y seis participantes"
+    "injuries": "40 heridos, incluidos 34 miembros de las fuerzas del orden y seis participantes"
    }
   },
   "fr": {
-   "title": "Manifestations et grèves à Lyon sur le coût de la vie et les services publics",
-   "seoTitle": "Manifestations à Lyon sur le coût de la vie",
+   "title": "Manifestations et grèves à Lyon contre la vie chère et pour les services publics",
+   "seoTitle": "Manifestations à Lyon contre la vie chère",
    "tea": {
-    "why": "Les manifestants protestent contre la hausse du coût de la vie, le financement insuffisant des services publics et les conditions dans le secteur de l'éducation.",
-    "want": "Les revendications incluent des salaires plus élevés, des ressources accrues pour l'éducation nationale et une meilleure justice sociale et fiscale.",
-    "changed": "16 novembre : Le tribunal administratif de Lyon a suspendu une interdiction préfectorale, permettant à une manifestation d'atteindre la place Bellecour le 17 novembre."
+    "why": "Les manifestants protestent contre le coût de la vie élevé, le financement inadéquat des services publics et les bas salaires.",
+    "want": "Ils réclament de meilleurs salaires, une augmentation du financement de l'éducation nationale et la justice sociale et fiscale.",
+    "changed": "17 novembre : Une manifestation a eu lieu à Lyon à la suite d'une décision de justice autorisant l'accès à la place Bellecour, rassemblant entre 7 000 et 15 000 participants."
    },
-   "summary": "Depuis début novembre 2026, Lyon connaît une série de manifestations et de grèves organisées par des coalitions intersyndicales et des groupes étudiants. Les participants manifestent contre la hausse du coût de la vie, réclamant de meilleurs salaires et demandant un financement accru pour les services publics et l'éducation nationale. Le mouvement a connu une participation importante, avec des estimations pour la manifestation du 5 novembre allant de 30 500 à 55 000 personnes. Bien que la plupart des événements aient été pacifiques, les autorités ont signalé des tensions, notamment des affrontements avec la police, l'utilisation de gaz lacrymogènes et des dommages matériels. La préfecture a fréquemment émis des arrêtés restreignant les itinéraires de manifestation, citant des préoccupations de sécurité et la présence de groupes radicaux. Les développements récents incluent une décision de justice autorisant une marche à atteindre le centre-ville le 17 novembre, malgré les avertissements du gouvernement concernant des troubles potentiels à l'ordre public.",
+   "summary": "Une vague de grèves et de manifestations s'est déroulée à Lyon, portée par un mécontentement généralisé face au coût de la vie, à la stagnation des salaires et au financement des services publics. Le mouvement, mené par des coalitions intersyndicales, des groupes étudiants et des organisations telles que les Gilets Jaunes, a été marqué par des rassemblements récurrents, des blocus de lycées et des perturbations dans les transports. Les manifestants sont descendus dans la rue pour exiger davantage de ressources pour l'éducation, de meilleurs salaires et une plus grande justice fiscale et sociale. Les autorités ont répondu par de lourds déploiements policiers, l'utilisation de gaz lacrymogènes et de strictes interdictions administratives sur certains axes, ainsi que par des heurts et des incidents de dégradations matérielles et de violences signalés en marge des cortèges.",
    "demands": [
-    "Salaires plus élevés",
-    "Financement accru pour l'éducation nationale",
-    "Meilleure justice sociale et fiscale",
-    "Meilleures conditions de travail"
+    "De meilleurs salaires",
+    "Plus de ressources pour l'éducation nationale",
+    "La justice sociale et fiscale",
+    "Le soutien aux étudiants et aux lycées"
    ],
-   "response": "La préfecture a déployé d'importantes forces de sécurité, notamment des unités anti-émeutes et des véhicules blindés, et a fréquemment émis des arrêtés administratifs interdisant les manifestations dans des zones spécifiques de Lyon pour prévenir les troubles à l'ordre public. Le gouvernement a condamné la violence lors des manifestations.",
+   "response": "La préfecture a déployé d'importantes forces de sécurité, comprenant des forces de l'ordre anti-émeute et des véhicules blindés, a employé du gaz lacrymogène et a prononcé des interdictions temporaires d'itinéraires, tandis que des ministres du gouvernement ont condamné les violences et les dégradations matérielles survenues lors des manifestations.",
    "updates": [
-    "Une grève et des manifestations nationales ont lieu, avec une participation importante à Lyon et des affrontements signalés entre la police et les manifestants.",
-    "La préfecture interdit les manifestations dans une grande partie de Lyon en raison de préoccupations de sécurité avant d'éventuelles manifestations le week-end.",
-    "Des tensions surviennent lors d'une manifestation ; une équipe de presse est agressée et huit membres des forces de sécurité sont signalés blessés.",
-    "Le tribunal administratif de Lyon annule une interdiction préfectorale, permettant à une manifestation de se poursuivre jusqu'à la place Bellecour le 17 novembre."
+    "Des manifestants et des groupes étudiants ont tenté des blocus dans plusieurs lycées à Lyon.",
+    "Une vaste grève interprofessionnelle et marche a rassemblé des dizaines de milliers de participants dans les rues de Lyon.",
+    "Une action qualifiée d'« acte V » a entraîné de nouvelles manifestations et des affrontements avec la police.",
+    "Une nouvelle marche s'est déroulée entre la place Jean-Macé et la place Guichard dans un contexte de tension sociale persistante.",
+    "Le tribunal administratif a suspendu un arrêté d'interdiction préfectoral, permettant aux manifestants de défiler sur la place Bellecour."
    ],
    "conflicts": [
-    "La police a signalé 30 500 manifestants le 5 novembre, tandis que les organisateurs en ont revendiqué 55 000."
+    "La police a recensé 30 500 participants tandis que les syndicats en ont revendiqué 55 000 le 5 novembre."
    ],
    "numbers": {
-    "crowd": "Les organisateurs ont revendiqué 55 000 participants le 5 novembre, tandis que la préfecture en a signalé 30 500.",
-    "arrests": "47 personnes arrêtées depuis le lundi 2 novembre",
+    "crowd": "30 500 selon la préfecture et 55 000 selon les syndicats lors de la manifestation du 5 novembre",
+    "arrests": "47 individus interpellés depuis le lundi 2 novembre",
     "injuries": "40 blessés, dont 34 membres des forces de l'ordre et six participants"
    }
   },
   "de": {
    "title": "Proteste und Streiks in Lyon wegen Lebenshaltungskosten und öffentlicher Dienste",
-   "seoTitle": "Proteste in Lyon wegen Lebenshaltungskosten",
+   "seoTitle": "Lyoner Proteste gegen hohe Lebenshaltungskosten",
    "tea": {
-    "why": "Die Demonstranten protestieren gegen steigende Lebenshaltungskosten, unzureichende Finanzierung öffentlicher Dienste und die Bedingungen im Bildungssektor.",
-    "want": "Zu den Forderungen gehören höhere Löhne, mehr Ressourcen für die nationale Bildung sowie verbesserte soziale und steuerliche Gerechtigkeit.",
-    "changed": "16. November: Das Verwaltungsgericht Lyon setzte ein präfekturales Verbot aus, wodurch eine Demonstration am 17. November den Place Bellecour erreichen konnte."
+    "why": "Demonstranten protestieren gegen hohe Lebenshaltungskosten, unzureichende Finanzierung öffentlicher Dienste und niedrige Löhne.",
+    "want": "Sie fordern bessere Löhne, erhöhte Mittel für die nationale Bildung sowie soziale und steuerliche Gerechtigkeit.",
+    "changed": "17. November: Nach einer Gerichtsentscheidung, die den Zugang zur Place Bellecour erlaubte, fand in Lyon eine Demonstration statt, die zwischen 7.000 und 15.000 Teilnehmer anzog."
    },
-   "summary": "Seit Anfang November 2026 erlebt Lyon eine Reihe von Protesten und Streiks, die von gewerkschaftsübergreifenden Koalitionen und Studentengruppen organisiert wurden. Die Teilnehmer demonstrieren gegen die steigenden Lebenshaltungskosten, fordern bessere Löhne und verlangen eine erhöhte Finanzierung für öffentliche Dienste und die nationale Bildung. Die Bewegung verzeichnete eine erhebliche Beteiligung, wobei die Schätzungen für die Demonstration am 5. November zwischen 30.500 und 55.000 Personen liegen. Obwohl die meisten Veranstaltungen friedlich verliefen, berichteten die Behörden von Spannungen, darunter Zusammenstöße mit der Polizei, der Einsatz von Tränengas und Sachschäden. Die Präfektur hat häufig Anordnungen zur Einschränkung von Demonstrationsrouten erlassen, wobei sie Sicherheitsbedenken und die Anwesenheit radikaler Gruppen anführte. Zu den jüngsten Entwicklungen gehört eine gerichtliche Entscheidung, die einen Marsch in das Stadtzentrum am 17. November erlaubt, trotz Warnungen der Regierung vor möglichen öffentlichen Unruhen.",
+   "summary": "Eine Welle von Streiks und Demonstrationen hat sich in Lyon entfaltet, angetrieben von weit verbreiteter Unzufriedenheit über Lebenshaltungskosten, stagnierende Löhne und die Finanzierung öffentlicher Dienste. Die Bewegung, angeführt von gewerkschaftsübergreifenden Koalitionen, Studentengruppen und Organisationen wie den Gilets Jaunes, war geprägt von wiederkehrenden Kundgebungen, Schulblockaden und Verkehrsstörungen. Demonstranten sind auf die Straße gegangen, um mehr Ressourcen für das Bildungswesen, bessere Gehälter und größere steuerliche sowie soziale Gerechtigkeit zu fordern. Die Behörden haben mit starken Polizeiaufgeboten, dem Einsatz von Tränengas und strengen behördlichen Verboten für bestimmte Routen reagiert, während am Rande der Märsche Zusammenstöße sowie Vorfälle von Sachbeschädigung und Gewalt gemeldet wurden.",
    "demands": [
-    "Höhere Löhne",
-    "Erhöhte Finanzierung für die nationale Bildung",
-    "Verbesserte soziale und steuerliche Gerechtigkeit",
-    "Bessere Arbeitsbedingungen"
+    "Bessere Löhne",
+    "Mehr Mittel für das nationale Bildungswesen",
+    "Soziale und steuerliche Gerechtigkeit",
+    "Unterstützung für Schüler und Oberschulen"
    ],
-   "response": "Die Präfektur hat erhebliche Sicherheitskräfte eingesetzt, darunter Bereitschaftspolizei und gepanzerte Fahrzeuge, und häufig Verwaltungsanordnungen erlassen, die Proteste in bestimmten Gebieten von Lyon verbieten, um öffentliche Unruhen zu verhindern. Die Regierung hat die Gewalt während der Demonstrationen verurteilt.",
+   "response": "Die Präfektur stationierte starke Sicherheitskräfte, darunter Bereitschaftspolizei und Panzerwagen, setzte Tränengas ein und erließ vorübergehende Routenverbote, während Regierungsminister Gewalt und Sachbeschädigungen während der Demonstrationen verurteilten.",
    "updates": [
-    "Landesweite Streiks und Proteste finden statt, mit erheblicher Beteiligung in Lyon und berichteten Zusammenstößen zwischen Polizei und Demonstranten.",
-    "Die Präfektur verbietet Proteste in weiten Teilen Lyons aufgrund von Sicherheitsbedenken vor möglichen Demonstrationen am Wochenende.",
-    "Während einer Demonstration kommt es zu Spannungen; ein Medienteam wird angegriffen und acht Sicherheitskräfte werden als verletzt gemeldet.",
-    "Das Verwaltungsgericht Lyon hebt ein präfekturales Verbot auf, wodurch eine Demonstration am 17. November bis zum Place Bellecour fortgesetzt werden kann."
+    "Demonstranten und Studentengruppen versuchten Blockaden an mehreren Oberschulen in Lyon.",
+    "Ein großer branchenübergreifender Streik und Marsch zog zehntausende Teilnehmer auf die Straßen von Lyon.",
+    "Eine als 'Akt V' bezeichnete Aktion brachte weitere Demonstrationen und Zusammenstöße mit der Polizei mit sich.",
+    "Ein neuer Marsch fand zwischen dem Place Jean-Macé und dem Place Guichard inmitten anhaltender sozialer Spannungen statt.",
+    "Das Verwaltungsgericht setzte ein präfekturales Verbot aus, wodurch Demonstranten zum Place Bellecour marschieren durften."
    ],
    "conflicts": [
-    "Die Polizei meldete am 5. November 30.500 Demonstranten, während die Organisatoren 55.000 angaben."
+    "Die Polizei meldete am 5. November 30.500 Teilnehmer, während Gewerkschaften 55.000 angaben."
    ],
    "numbers": {
-    "crowd": "Die Organisatoren gaben am 5. November 55.000 Teilnehmer an, während die Präfektur 30.500 meldete.",
+    "crowd": "30.500 laut Präfektur und 55.000 laut Gewerkschaften während der Demonstration am 5. November",
     "arrests": "47 Personen seit Montag, dem 2. November, festgenommen",
-    "injuries": "40 Verletzte, darunter 34 Sicherheitskräfte und sechs Teilnehmer"
+    "injuries": "40 Verletzte, darunter 34 Einsatzkräfte der Ordnungskräfte und sechs Teilnehmer"
    }
   },
   "it": {
-   "title": "Proteste e scioperi a Lione sul costo della vita e i servizi pubblici",
-   "seoTitle": "Proteste a Lione sul costo della vita",
+   "title": "Proteste e scioperi a Lione per il costo della vita e i servizi pubblici",
+   "seoTitle": "Proteste a Lione per il costo della vita",
    "tea": {
-    "why": "I manifestanti protestano contro l'aumento del costo della vita, l'insufficiente finanziamento dei servizi pubblici e le condizioni del settore dell'istruzione.",
-    "want": "Le richieste includono salari più alti, maggiori risorse per l'istruzione nazionale e una migliore giustizia sociale e fiscale.",
-    "changed": "16 novembre: Il tribunale amministrativo di Lione ha sospeso un divieto prefettizio, consentendo a una protesta di raggiungere Place Bellecour il 17 novembre."
+    "why": "I manifestanti protestano contro l'alto costo della vita, l'inadeguatezza dei finanziamenti ai servizi pubblici e i bassi salari.",
+    "want": "Chiedono salari migliori, maggiori fondi per l'istruzione nazionale e giustizia sociale e fiscale.",
+    "changed": "17 novembre: si è svolta a Lione una manifestazione a seguito di una sentenza del tribunale che consentiva l'accesso a Place Bellecour, attirando tra i 7.000 e i 15.000 partecipanti."
    },
-   "summary": "Dall'inizio di novembre 2026, Lione ha vissuto una serie di proteste e scioperi organizzati da coalizioni intersindacali e gruppi studenteschi. I partecipanti manifestano contro l'aumento del costo della vita, chiedendo salari migliori e un maggiore finanziamento per i servizi pubblici e l'istruzione nazionale. Il movimento ha visto una partecipazione significativa, con stime per la manifestazione del 5 novembre che vanno da 30.500 a 55.000 persone. Sebbene la maggior parte degli eventi sia stata pacifica, le autorità hanno segnalato tensioni, inclusi scontri con la polizia, l'uso di gas lacrimogeni e danni alla proprietà. La prefettura ha emesso frequentemente ordinanze che limitano i percorsi di protesta, citando preoccupazioni per la sicurezza e la presenza di gruppi radicali. Gli sviluppi recenti includono una decisione del tribunale che consente a un corteo di raggiungere il centro città il 17 novembre, nonostante gli avvertimenti del governo riguardo a potenziali disordini pubblici.",
+   "summary": "Un'ondata di scioperi e manifestazioni si è sviluppata a Lione, spinta dal diffuso malcontento per il costo della vita, i salari stagnanti e i finanziamenti dei servizi pubblici. Il movimento, guidato da coalizioni intersindacali, gruppi studenteschi e organizzazioni come i Gilets Jaunes, ha visto raduni ricorrenti, blocchi delle scuole superiori e disagi nei trasporti. I manifestanti sono scesi in piazza per chiedere maggiori risorse per l'istruzione, stipendi migliori e una maggiore giustizia fiscale e sociale. Le autorità hanno risposto con ingenti schieramenti di polizia, l'uso di gas lacrimogeni e severi divieti amministrativi su determinati percorsi, oltre a scontri e episodi di danneggiamenti alla proprietà e violenze segnalati ai margini dei cortei.",
    "demands": [
-    "Salari più alti",
-    "Maggiore finanziamento per l'istruzione nazionale",
-    "Migliore giustizia sociale e fiscale",
-    "Migliori condizioni di lavoro"
+    "Salari migliori",
+    "Più risorse per l'istruzione nazionale",
+    "Giustizia sociale e fiscale",
+    "Sostegno per gli studenti e le scuole superiori"
    ],
-   "response": "La prefettura ha dispiegato ingenti forze di sicurezza, inclusi reparti antisommossa e veicoli blindati, e ha emesso frequentemente ordinanze amministrative che vietano le proteste in aree specifiche di Lione per prevenire disordini pubblici. Il governo ha condannato la violenza durante le manifestazioni.",
+   "response": "La prefettura ha dispiegato pesanti forze di sicurezza, tra cui reparti antisommossa e veicoli blindati, ha usato gas lacrimogeni e ha emesso divieti temporanei di percorso, mentre i ministri del governo hanno condannato le violenze e i danni alla proprietà durante le manifestazioni.",
    "updates": [
-    "Si verificano scioperi e proteste a livello nazionale, con una partecipazione significativa a Lione e scontri segnalati tra polizia e manifestanti.",
-    "La prefettura vieta le proteste in gran parte di Lione a causa di preoccupazioni per la sicurezza prima di potenziali manifestazioni durante il fine settimana.",
-    "Si verificano tensioni durante una manifestazione; una troupe mediatica viene aggredita e otto membri del personale di sicurezza risultano feriti.",
-    "Il tribunale amministrativo di Lione annulla un divieto prefettizio, consentendo a una protesta di proseguire fino a Place Bellecour il 17 novembre."
+    "Manifestanti e gruppi studenteschi hanno tentato blocchi in diverse scuole superiori di Lione.",
+    "Un grande sciopero interprofessionale e corteo ha attirato decine di migliaia di partecipanti nelle strade di Lione.",
+    "Un'azione denominata 'atto V' ha portato ulteriori manifestazioni e scontri con la polizia.",
+    "Una nuova marcia ha avuto luogo tra Place Jean-Macé e Place Guichard tra le continue tensioni sociali.",
+    "Il tribunale amministrativo ha sospeso un divieto prefettizio, permettendo ai manifestanti di marciare su Place Bellecour."
    ],
    "conflicts": [
-    "La polizia ha segnalato 30.500 manifestanti il 5 novembre, mentre gli organizzatori ne hanno rivendicati 55.000."
+    "La polizia ha riportato 30.500 partecipanti mentre i sindacati ne hanno rivendicati 55.000 il 5 novembre."
    ],
    "numbers": {
-    "crowd": "Gli organizzatori hanno rivendicato 55.000 partecipanti il 5 novembre, mentre la prefettura ne ha segnalati 30.500.",
+    "crowd": "30.500 secondo la prefettura e 55.000 secondo i sindacati durante la manifestazione del 5 novembre",
     "arrests": "47 persone arrestate da lunedì 2 novembre",
-    "injuries": "40 feriti, inclusi 34 membri delle forze dell'ordine e sei partecipanti"
+    "injuries": "40 feriti, tra cui 34 membri delle forze dell'ordine e sei partecipanti"
    }
   },
   "pt": {
-   "title": "Protestos e greves em Lyon sobre o custo de vida e serviços públicos",
+   "title": "Protestos e greves em Lyon devido ao custo de vida e aos serviços públicos",
    "seoTitle": "Protestos em Lyon sobre o custo de vida",
    "tea": {
-    "why": "Os manifestantes protestam contra o aumento do custo de vida, o financiamento insuficiente dos serviços públicos e as condições no setor da educação.",
-    "want": "As reivindicações incluem salários mais altos, maiores recursos para a educação nacional e uma melhor justiça social e fiscal.",
-    "changed": "16 de novembro: O tribunal administrativo de Lyon suspendeu uma proibição da prefeitura, permitindo que um protesto chegasse à Place Bellecour no dia 17 de novembro."
+    "why": "Os manifestantes estão a manifestar-se contra o elevado custo de vida, o financiamento inadequado dos serviços públicos e os baixos salários.",
+    "want": "Exigem melhores salários, um aumento do financiamento para a educação nacional e justiça social e fiscal.",
+    "changed": "17 de novembro: Realizou-se uma manifestação em Lyon na sequência de uma decisão judicial que permitiu o acesso à Place Bellecour, atraindo entre 7.000 e 15.000 participantes."
    },
-   "summary": "Desde o início de novembro de 2026, Lyon tem vivido uma série de protestos e greves organizados por coligações intersindicais e grupos estudantis. Os participantes manifestam-se contra o aumento do custo de vida, exigindo melhores salários e pedindo um maior financiamento para os serviços públicos e a educação nacional. O movimento teve uma participação significativa, com estimativas para a manifestação de 5 de novembro variando entre 30.500 e 55.000 pessoas. Embora a maioria dos eventos tenha sido pacífica, as autoridades relataram tensões, incluindo confrontos com a polícia, o uso de gás lacrimogéneo e danos à propriedade. A prefeitura emitiu frequentemente ordens restringindo as rotas de protesto, citando preocupações de segurança e a presença de grupos radicais. Os desenvolvimentos recentes incluem uma decisão judicial que permite que uma marcha chegue ao centro da cidade no dia 17 de novembro, apesar dos avisos do governo sobre potenciais distúrbios públicos.",
+   "summary": "Uma onda de greves e manifestações desenrolou-se em Lyon, impulsionada pelo descontentamento generalizado relativamente ao custo de vida, à estagnação dos salários e ao financiamento dos serviços públicos. O movimento, encabeçado por coligações intersindicais, grupos estudantis e organizações como os Gilets Jaunes, tem registado comícios recorrentes, bloqueios de escolas secundárias e perturbações nos transportes. Os manifestantes saíram à rua para exigir mais recursos para a educação, melhores salários e maior justiça fiscal e social. As autoridades responderam com fortes destacamentos policiais, o uso de gás lacrimogéneo e proibições administrativas rigorosas em certas rotas, a par de confrontos e incidentes de danos materiais e violência registados à margem das marchas.",
    "demands": [
-    "Salários mais altos",
-    "Maior financiamento para a educação nacional",
-    "Melhor justiça social e fiscal",
-    "Melhores condições de trabalho"
+    "Melhores salários",
+    "Mais recursos para a educação nacional",
+    "Justiça social e fiscal",
+    "Apoio aos estudantes e às escolas secundárias"
    ],
-   "response": "A prefeitura destacou forças de segurança significativas, incluindo polícia de choque e veículos blindados, e emitiu frequentemente ordens administrativas proibindo protestos em áreas específicas de Lyon para evitar distúrbios públicos. O governo condenou a violência durante as manifestações.",
+   "response": "A prefeitura mobilizou fortes forças de segurança, incluindo polícia de choque e veículos blindados, utilizou gás lacrimogéneo e emitiu proibições temporárias de percursos, enquanto ministros do governo condenaram a violência e os danos materiais durante as manifestações.",
    "updates": [
-    "Ocorrem greves e protestos a nível nacional, com uma participação significativa em Lyon e confrontos relatados entre a polícia e os manifestantes.",
-    "A prefeitura proíbe protestos em grande parte de Lyon devido a preocupações de segurança antes de potenciais manifestações durante o fim de semana.",
-    "Ocorrem tensões durante uma manifestação; uma equipa de comunicação social é agredida e oito membros das forças de segurança são dados como feridos.",
-    "O tribunal administrativo de Lyon anula uma proibição da prefeitura, permitindo que um protesto continue até à Place Bellecour no dia 17 de novembro."
+    "Manifestantes e grupos estudantis tentaram realizar bloqueios em várias escolas secundárias em Lyon.",
+    "Uma ampla greve interprofissional e marcha atraiu dezenas de milhares de participantes para as ruas de Lyon.",
+    "Uma ação referida como 'ato V' trouxe novas manifestações e confrontos com a polícia.",
+    "Uma nova marcha decorreu entre a Place Jean-Macé e a Place Guichard em plena tensão social contínua.",
+    "O tribunal administrativo suspendeu uma proibição prefeitural, permitindo aos manifestantes marchar para a Place Bellecour."
    ],
    "conflicts": [
-    "A polícia relatou 30.500 manifestantes no dia 5 de novembro, enquanto os organizadores reivindicaram 55.000."
+    "A polícia reportou 30.500 participantes, enquanto os sindicatos alegaram 55.000 em 5 de novembro."
    ],
    "numbers": {
-    "crowd": "Os organizadores reivindicaram 55.000 participantes no dia 5 de novembro, enquanto a prefeitura relatou 30.500.",
-    "arrests": "47 pessoas detidas desde segunda-feira, 2 de novembro",
+    "crowd": "30.500 segundo a prefeitura e 55.000 segundo os sindicatos durante a manifestação de 5 de novembro",
+    "arrests": "47 indivíduos detidos desde segunda-feira, 2 de novembro",
     "injuries": "40 feridos, incluindo 34 membros das forças de segurança e seis participantes"
    }
   },
   "nl": {
-   "title": "Protesten en stakingen in Lyon over kosten van levensonderhoud en openbare diensten",
-   "seoTitle": "Protesten in Lyon over kosten van levensonderhoud",
+   "title": "Protesten en stakingen in Lyon over kosten van bestaan en openbare diensten",
+   "seoTitle": "Protesten in Lyon over kosten van bestaan",
    "tea": {
-    "why": "De demonstranten protesteren tegen de stijgende kosten van levensonderhoud, onvoldoende financiering van openbare diensten en de omstandigheden in de onderwijssector.",
-    "want": "De eisen omvatten hogere lonen, meer middelen voor het nationaal onderwijs en verbeterde sociale en fiscale rechtvaardigheid.",
-    "changed": "16 november: De administratieve rechtbank van Lyon schortte een verbod van de prefectuur op, waardoor een protest op 17 november Place Bellecour kon bereiken."
+    "why": "Demonstranten betogen tegen de hoge kosten van bestaan, onvoldoende financiering voor openbare diensten en lage lonen.",
+    "want": "Zij eisen betere lonen, meer financiering voor het nationale onderwijs en sociale en fiscale rechtvaardigheid.",
+    "changed": "17 november: In Lyon vond een demonstratie plaats naar aanleiding van een rechterlijke uitspraak die toegang tot de Place Bellecour toestond, met een opkomst tussen 7.000 en 15.000 deelnemers."
    },
-   "summary": "Sinds begin november 2026 kent Lyon een reeks protesten en stakingen die zijn georganiseerd door inter-vakbondscoalities en studentengroepen. De deelnemers demonstreren tegen de stijgende kosten van levensonderhoud, eisen betere lonen en vragen om meer financiering voor openbare diensten en het nationaal onderwijs. De beweging heeft een aanzienlijke opkomst gezien, met schattingen voor de demonstratie van 5 november variërend van 30.500 tot 55.000 mensen. Hoewel de meeste evenementen vreedzaam zijn verlopen, hebben de autoriteiten melding gemaakt van spanningen, waaronder confrontaties met de politie, het gebruik van traangas en schade aan eigendommen. De prefectuur heeft regelmatig bevelen uitgevaardigd die protestroutes beperken, onder verwijzing naar veiligheidsoverwegingen en de aanwezigheid van radicale groepen. Recente ontwikkelingen omvatten een rechterlijke uitspraak die een mars naar het stadscentrum op 17 november toestaat, ondanks waarschuwingen van de overheid over mogelijke openbare wanorde.",
+   "summary": "Een golf van stakingen en demonstraties heeft zich voltrokken in Lyon, gedreven door wijdverbreide ontevredenheid over de kosten van bestaan, stagnerende lonen en de financiering van openbare diensten. De beweging, aangevoerd door intersyndicale coalities, studentengroepen en organisaties zoals de Gilets Jaunes, kenmerkte zich door terugkerende bijeenkomsten, middelbare schoolblokkades en transportverstoringen. Demonstranten zijn de straat op gegaan om meer middelen voor het onderwijs, betere salarissen en grotere fiscale en sociale rechtvaardigheid te eisen. De autoriteiten hebben gereageerd met zware politie-inzet, het gebruik van tranengas en strikte administratieve verboden op bepaalde routes, naast botsingen en incidenten van materiële schade en geweld die aan de randen van de marsen werden gemeld.",
    "demands": [
-    "Hogere lonen",
-    "Meer financiering voor het nationaal onderwijs",
-    "Verbeterde sociale en fiscale rechtvaardigheid",
-    "Betere arbeidsomstandigheden"
+    "Betere lonen",
+    "Meer middelen voor het nationale onderwijs",
+    "Sociale en fiscale rechtvaardigheid",
+    "Steun voor studenten en middelbare scholen"
    ],
-   "response": "De prefectuur heeft aanzienlijke veiligheidstroepen ingezet, waaronder oproerpolitie en gepantserde voertuigen, en heeft regelmatig administratieve bevelen uitgevaardigd die protesten in specifieke gebieden van Lyon verbieden om openbare wanorde te voorkomen. De regering heeft geweld tijdens demonstraties veroordeeld.",
+   "response": "De prefectuur zette zware veiligheidstroepen in, waaronder oproerpolitie en gepantserde voertuigen, gebruikte tranengas en vaardigde tijdelijke routeverboden uit, terwijl regeringsministers geweld en materiële schade tijdens de demonstraties veroordeelden.",
    "updates": [
-    "Er vinden landelijke stakingen en protesten plaats, met een aanzienlijke opkomst in Lyon en gemelde confrontaties tussen politie en demonstranten.",
-    "De prefectuur verbiedt protesten in grote delen van Lyon vanwege veiligheidsoverwegingen voorafgaand aan mogelijke demonstraties in het weekend.",
-    "Er ontstaan spanningen tijdens een demonstratie; een mediateam wordt aangevallen en acht veiligheidsmedewerkers raken gewond.",
-    "De administratieve rechtbank van Lyon vernietigt een verbod van de prefectuur, waardoor een protest op 17 november kan doorgaan naar Place Bellecour."
+    "Demonstranten en studentengroepen probeerden blokkades op te werpen bij verschillende middelbare scholen in Lyon.",
+    "Een grote interprofessionele staking en mars trok tienduizenden deelnemers naar de straten van Lyon.",
+    "Een actie genaamd 'akte V' bracht verdere demonstraties en confrontaties met de politie teweeg.",
+    "Een nieuwe mars vond plaats tussen de Place Jean-Macé en de Place Guichard te midden van aanhoudende sociale spanningen.",
+    "De administratieve rechtbank schorste een prefecturaal verbod, waardoor demonstranten naar de Place Bellecour mochten marcheren."
    ],
    "conflicts": [
-    "De politie meldde 30.500 demonstranten op 5 november, terwijl de organisatoren er 55.000 claimden."
+    "De politie rapporteerde 30.500 deelnemers terwijl vakbonden 55.000 claimden op 5 november."
    ],
    "numbers": {
-    "crowd": "De organisatoren claimden 55.000 deelnemers op 5 november, terwijl de prefectuur er 30.500 meldde.",
+    "crowd": "30.500 volgens de prefectuur en 55.000 volgens de vakbonden tijdens de demonstratie van 5 november",
     "arrests": "47 personen gearresteerd sinds maandag 2 november",
-    "injuries": "40 gewonden, waaronder 34 leden van de veiligheidstroepen en zes deelnemers"
+    "injuries": "40 gewonden, waaronder 34 leden van de ordediensten en zes deelnemers"
    }
   }
  },
