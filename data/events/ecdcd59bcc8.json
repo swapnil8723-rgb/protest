@@ -3,7 +3,7 @@
  "slug": "berlin-gen-z-regelt-protest-nov-2026",
  "stage": "live",
  "title": "Gen Z Regelt alliance calls for demonstration in Berlin",
- "seoTitle": "Berlin Gen Z Regelt demonstration",
+ "seoTitle": "Berlin Gen Z Regelt protest",
  "place": {
   "city": "Berlin",
   "region": "State of Berlin",
@@ -13,53 +13,97 @@
   "citySlug": "berlin",
   "regionSlug": "state-of-berlin"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
-  "ukraine-war"
+  "education",
+  "climate",
+  "jobs"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-20",
  "status": "scheduled",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "The alliance Gen Z Regelt has called for a demonstration in Berlin, coinciding with international diplomatic events in the city.",
-  "want": "The specific demands of the protest have not been stated in the provided reports.",
-  "changed": "Nov 17: The alliance Gen Z Regelt announced a demonstration scheduled for Friday, November 20, 2026."
+  "why": "Young people are protesting due to frustration with ignored political demands and an overall lack of political representation.",
+  "want": "Protesters demand better education funding, increased climate protection, affordable living for youth, and an end to military rearmament.",
+  "changed": "Nov 17: Police unions expected at least 3,000 police officers deployed in Berlin due to concurrent high-security state visits and the demonstration."
  },
- "summary": "The alliance known as Gen Z Regelt has announced a demonstration to take place in Berlin on Friday, November 20, 2026. The protest is scheduled to occur alongside a series of high-level diplomatic meetings, including a summit between French President Emmanuel Macron, British Prime Minister Andy Burnham, and German Chancellor Friedrich Merz regarding the situation in Ukraine, as well as a German-Ukrainian economic forum. Authorities and the police union (GdP) have indicated that the city will face significant security operations and traffic restrictions due to the combination of these state visits and the planned demonstration. The police union expects at least 3,000 officers to be deployed across the city on Thursday and Friday to manage the security requirements for the visiting officials and the public events.",
+ "summary": "The Gen Z Regelt alliance has called for a nationwide protest day in dozens of German cities, with organisers registering an expected 15,000 demonstrators specifically for Berlin. The action coincides with the UN Day of Children's Rights and runs alongside school strikes called by Fridays for Future and actions by the Network Peace Cooperative against military conscription. Demands center on education improvements, enhanced climate protection, affordable living conditions, and opposition to rearmament and the reintroduction of military service. Political figures such as the Green Party leadership expressed support and announced their presence, while police unions anticipated heavy deployments amid overlapping high-level international summits in the capital.",
  "organizers": [
-  "Gen Z Regelt"
+  "Gen Z Regelt",
+  "Gen Z regelt Studis",
+  "Fridays for Future",
+  "Netzwerk Friedenskooperative"
  ],
- "demands": [],
- "response": "No official response reported in the sources.",
- "numbers": {},
+ "demands": [
+  "Merz must go",
+  "End to rearmament policy and no return of military service",
+  "More money for education and an end to fixed-term university contracts",
+  "Better climate protection and affordable living for young people"
+ ],
+ "response": "Green Party co-chair Banaszak expressed support for the concerns regarding education, climate, and affordable living, announcing attendance. Researchers urged politicians to take the youth's demands seriously and avoid protest bans.",
+ "numbers": {
+  "crowd": {
+   "value": 15000,
+   "text": "Allein für Berlin haben die Veranstalter indes schon 15.000 Demonstranten angemeldet.",
+   "sources": [
+    2
+   ]
+  }
+ },
  "updates": [
   {
-   "at": "2026-11-17",
-   "text": "The alliance Gen Z Regelt announced a demonstration for Friday, November 20, 2026.",
+   "at": "2026-11-08",
+   "text": "The student branch Gen Z regelt Studis announced university strikes across up to 35 universities for November 20.",
    "sources": [
-    1,
+    1
+   ]
+  },
+  {
+   "at": "2026-11-15",
+   "text": "Organisers registered 15,000 participants for the upcoming Berlin protest on Friday, part of a nationwide day of action.",
+   "sources": [
     2
+   ]
+  },
+  {
+   "at": "2026-11-17",
+   "text": "Police unions expected at least 3,000 security personnel deployed in Berlin due to overlapping state visits and the demonstration.",
+   "sources": [
+    3,
+    4
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "http://www.rbb-online.de/panorama/beitrag/2026/11/ukraine-gipfel-macron-burnham-merz-berlin-selenskyj-sperrungen-polizei.html",
-   "publisher": "rbb-online.de",
+   "url": "https://taz.de/Gen-Z-Proteste-in-Deutschland/!6228544/",
+   "publisher": "taz.de",
+   "title": "Gen-Z-Proteste in Deutschland: Unistreiks angekündigt",
+   "publishedAt": "2026-11-08T20:00:00.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.mdr.de/nachrichten/deutschland/gesellschaft/genz-regelt-fridays-for-future-schulstreik-wehrpflicht-sachsen-anhalt-thueringen,gen-z-regelt-proteste-104.html",
+   "publisher": "mdr.de",
+   "title": "GenZ regelt \"Phase II\" ihrer Proteste – am kommenden Freitag",
+   "publishedAt": "2026-11-15T19:16:04.424Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.rbb24.de/panorama/beitrag/2026/11/ukraine-gipfel-macron-burnham-merz-berlin-selenskyj-sperrungen-polizei.html",
+   "publisher": "rbb24.de",
    "title": "Verkehrsbehinderungen ab Donnerstag erwartet - Staatsschefs in Berlin",
    "publishedAt": "2026-11-17T15:08:00.000Z"
   },
   {
-   "n": 2,
+   "n": 4,
    "url": "https://www.tagesschau.de/inland/regional/berlin/rbb-verkehr-in-berlin-wegen-staatsbesuchen-ab-donnerstag-beeintraechtigt-100.html",
    "publisher": "tagesschau.de",
    "title": "Berlin: Verkehr in Berlin wegen Staatsbesuchen ab Donnerstag beeinträchtigt",
@@ -67,128 +111,183 @@
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
+ "confidence": 0.86,
+ "publishers": 4,
  "reports24h": 3,
  "reportsPrev24h": 0,
  "reports48h": 3,
- "firstSeenAt": "2026-11-17T16:54:44.054Z",
+ "firstSeenAt": "2026-11-08T21:52:03.504Z",
  "lastReportAt": "2026-11-17T16:34:53.000Z",
- "lastCheckedAt": "2026-11-17T20:57:21.304Z",
- "updatedAt": "2026-11-17T20:57:00.323Z",
+ "lastCheckedAt": "2026-11-18T00:54:26.504Z",
+ "updatedAt": "2026-11-18T00:53:25.879Z",
  "searchedAt": "2026-11-17T20:50:49.725Z",
- "endedOn": "2026-11-20",
- "responseSources": [],
+ "responseSources": [
+  2
+ ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-17T20:57:00.323Z",
- "summaryOf": "e22d4e829b88",
+ "summarizedAt": "2026-11-18T00:53:25.879Z",
+ "summaryOf": "5b9091433d23",
  "publishedAt": "2026-11-17T20:57:21.304Z",
  "i18n": {
-  "of": "add5f4f17877faaf",
-  "at": "2026-11-17T20:58:09.839Z",
+  "of": "706aa2c48069cc82",
+  "at": "2026-11-18T00:56:12.486Z",
   "tries": 1,
   "es": {
-   "title": "La alianza Gen Z Regelt convoca una manifestación en Berlín",
-   "seoTitle": "Manifestación de Gen Z Regelt en Berlín",
+   "title": "La alianza Gen Z Regelt convoca manifestación en Berlín",
+   "seoTitle": "Protesta de Gen Z Regelt en Berlín",
    "tea": {
-    "why": "La alianza Gen Z Regelt ha convocado una manifestación en Berlín, coincidiendo con eventos diplomáticos internacionales en la ciudad.",
-    "want": "Las demandas específicas de la protesta no han sido declaradas en los informes proporcionados.",
-    "changed": "17 de noviembre: La alianza Gen Z Regelt anunció una manifestación programada para el viernes 20 de noviembre de 2026."
+    "why": "Los jóvenes protestan debido a la frustración por demandas políticas ignoradas y una falta general de representación política.",
+    "want": "Los manifestantes exigen mejor financiación para la educación, mayor protección climática, vivienda asequible para los jóvenes y el fin del rearme militar.",
+    "changed": "17 de noviembre: Los sindicatos policiales esperaban el despliegue de al menos 3.000 agentes de policía en Berlín debido a visitas de Estado de alta seguridad simultáneas y a la manifestación."
    },
-   "summary": "La alianza conocida como Gen Z Regelt ha anunciado una manifestación que tendrá lugar en Berlín el viernes 20 de noviembre de 2026. La protesta está programada para ocurrir junto a una serie de reuniones diplomáticas de alto nivel, incluyendo una cumbre entre el presidente francés Emmanuel Macron, el primer ministro británico Andy Burnham y el canciller alemán Friedrich Merz sobre la situación en Ucrania, así como un foro económico germano-ucraniano. Las autoridades y el sindicato de policía (GdP) han indicado que la ciudad enfrentará importantes operaciones de seguridad y restricciones de tráfico debido a la combinación de estas visitas de Estado y la manifestación planificada. El sindicato de policía espera que al menos 3.000 agentes sean desplegados por toda la ciudad el jueves y el viernes para gestionar los requisitos de seguridad para los funcionarios visitantes y los eventos públicos.",
-   "demands": [],
-   "response": "No se ha informado de ninguna respuesta oficial en las fuentes.",
+   "summary": "La alianza Gen Z Regelt ha convocado una jornada de protesta nacional en decenas de ciudades alemanas; los organizadores han registrado una previsión de 15.000 manifestantes específicamente para Berlín. La acción coincide con el Día de las Naciones Unidas para los Derechos del Niño y se desarrolla junto con huelgas escolares convocadas por Fridays for Future y acciones de la Red de Cooperación por la Paz contra el servicio militar obligatorio. Las demandas se centran en mejoras educativas, mayor protección del clima, condiciones de vida asequibles y oposición al rearme y a la reintroducción del servicio militar. Figuras políticas como la cúpula de Los Verdes expresaron su apoyo y anunciaron su asistencia, mientras que los sindicatos policiales anticiparon grandes despliegues en medio de cumbres internacionales de alto nivel que se solapan en la capital.",
+   "demands": [
+    "Merz debe irse",
+    "Fin de la política de rearme y no al retorno del servicio militar",
+    "Más dinero para la educación y fin de los contratos universitarios de duración determinada",
+    "Mejor protección climática y vivienda asequible para los jóvenes"
+   ],
+   "response": "El copresidente del partido Los Verdes, Banaszak, expresó su apoyo a las preocupaciones relativas a la educación, el clima y la vivienda asequible, anunciando su asistencia. Los investigadores instaron a los políticos a tomarse en serio las demandas de la juventud y evitar prohibiciones de protestas.",
    "updates": [
-    "La alianza Gen Z Regelt anunció una manifestación para el viernes 20 de noviembre de 2026."
+    "La rama estudiantil Gen Z regelt Studis anunció huelgas universitarias en hasta 35 universidades para el 20 de noviembre.",
+    "Los organizadores registraron 15.000 participantes para la próxima protesta en Berlín el viernes, parte de una jornada de acción nacional.",
+    "Los sindicatos policiales esperaban el despliegue de al menos 3.000 agentes de seguridad en Berlín debido al solapamiento de visitas de Estado y la manifestación."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Allein für Berlin haben die Veranstalter indes schon 15.000 Demonstranten angemeldet."
+   }
   },
   "fr": {
-   "title": "L'alliance Gen Z Regelt appelle à manifester à Berlin",
-   "seoTitle": "Manifestation Gen Z Regelt à Berlin",
+   "title": "L'alliance Gen Z Regelt appelle à une manifestation à Berlin",
+   "seoTitle": "Manifestation de Gen Z Regelt à Berlin",
    "tea": {
-    "why": "L'alliance Gen Z Regelt a appelé à une manifestation à Berlin, coïncidant avec des événements diplomatiques internationaux dans la ville.",
-    "want": "Les revendications spécifiques de la manifestation n'ont pas été indiquées dans les rapports fournis.",
-    "changed": "17 novembre : L'alliance Gen Z Regelt a annoncé une manifestation prévue pour le vendredi 20 novembre 2026."
+    "why": "Les jeunes manifestent en raison de leur frustration face à des revendications politiques ignorées et à un manque global de représentation politique.",
+    "want": "Les manifestants exigent un meilleur financement de l'éducation, une protection climatique accrue, un logement abordable pour la jeunesse et la fin du réarmement militaire.",
+    "changed": "17 nov. : Les syndicats de police s'attendaient au déploiement d'au moins 3 000 policiers à Berlin en raison de visites d'État de haute sécurité simultanées et de la manifestation."
    },
-   "summary": "L'alliance connue sous le nom de Gen Z Regelt a annoncé une manifestation qui aura lieu à Berlin le vendredi 20 novembre 2026. La manifestation est prévue en marge d'une série de réunions diplomatiques de haut niveau, notamment un sommet entre le président français Emmanuel Macron, le Premier ministre britannique Andy Burnham et le chancelier allemand Friedrich Merz concernant la situation en Ukraine, ainsi qu'un forum économique germano-ukrainien. Les autorités et le syndicat de police (GdP) ont indiqué que la ville ferait face à d'importantes opérations de sécurité et à des restrictions de circulation en raison de la combinaison de ces visites d'État et de la manifestation prévue. Le syndicat de police s'attend à ce qu'au moins 3 000 agents soient déployés dans toute la ville jeudi et vendredi pour gérer les exigences de sécurité liées aux officiels en visite et aux événements publics.",
-   "demands": [],
-   "response": "Aucune réponse officielle n'a été signalée dans les sources.",
+   "summary": "L'alliance Gen Z Regelt a appelé à une journée de protestation nationale dans des dizaines de villes allemandes, les organisateurs ayant enregistré 15 000 manifestants attendus spécifiquement pour Berlin. Cette action coïncide avec la Journée des droits de l'enfant des Nations unies et se déroule parallèlement à des grèves scolaires appelées par Fridays for Future ainsi qu'à des actions du Réseau de coopération pour la paix contre la conscription militaire. Les revendications s'articulent autour d'améliorations de l'éducation, d'une protection climatique renforcée, de conditions de vie abordables, ainsi que de l'opposition au réarmement et au rétablissement du service militaire. Des personnalités politiques telles que la direction des Verts ont exprimé leur soutien et annoncé leur présence, tandis que les syndicats de police ont anticipé d'importants déploiements dans un contexte de sommets internationaux de haut niveau qui se chevauchent dans la capitale.",
+   "demands": [
+    "Merz doit partir",
+    "Fin de la politique de réarmement et non au retour du service militaire",
+    "Plus d'argent pour l'éducation et fin des contrats universitaires à durée déterminée",
+    "Meilleure protection climatique et logement abordable pour les jeunes"
+   ],
+   "response": "Le co-président du parti Les Verts, M. Banaszak, a exprimé son soutien aux préoccupations concernant l'éducation, le climat et le logement abordable, annonçant sa participation. Des chercheurs ont exhorté les politiciens à prendre au sérieux les exigences de la jeunesse et à éviter les interdictions de manifester.",
    "updates": [
-    "L'alliance Gen Z Regelt a annoncé une manifestation pour le vendredi 20 novembre 2026."
+    "La branche étudiante Gen Z regelt Studis a annoncé des grèves universitaires dans un maximum de 35 universités pour le 20 novembre.",
+    "Les organisateurs ont enregistré 15 000 participants pour la prochaine manifestation à Berlin vendredi, dans le cadre d'une journée d'action nationale.",
+    "Les syndicats de police s'attendaient au déploiement d'au moins 3 000 agents de sécurité à Berlin en raison du chevauchement des visites d'État et de la manifestation."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Allein für Berlin haben die Veranstalter indes schon 15.000 Demonstranten angemeldet."
+   }
   },
   "de": {
-   "title": "Bündnis Gen Z Regelt ruft zu Demonstration in Berlin auf",
-   "seoTitle": "Berlin Gen Z Regelt Demonstration",
+   "title": "Gen-Z-Regelt-Bündnis ruft zu Demonstration in Berlin auf",
+   "seoTitle": "Berlin Gen-Z-Regelt-Protest",
    "tea": {
-    "why": "Das Bündnis Gen Z Regelt hat zu einer Demonstration in Berlin aufgerufen, die mit internationalen diplomatischen Ereignissen in der Stadt zusammenfällt.",
-    "want": "Die spezifischen Forderungen des Protests wurden in den vorliegenden Berichten nicht genannt.",
-    "changed": "17. November: Das Bündnis Gen Z Regelt kündigte eine Demonstration für Freitag, den 20. November 2026, an."
+    "why": "Junge Menschen protestieren wegen Frustration über ignorierte politische Forderungen und einem generellen Mangel an politischer Repräsentation.",
+    "want": "Demonstranten fordern bessere Bildungsfinanzierung, verstärkten Klimaschutz, bezahlbares Wohnen für Jugendliche und ein Ende der militärischen Aufrüstung.",
+    "changed": "17. Nov.: Polizeigewerkschaften erwarteten wegen zeitgleich stattfindender hochgesicherter Staatsbesuche und der Demonstration mindestens 3.000 in Berlin im Einsatz befindliche Polizeibeamte."
    },
-   "summary": "Das Bündnis Gen Z Regelt hat eine Demonstration angekündigt, die am Freitag, dem 20. November 2026, in Berlin stattfinden soll. Der Protest ist zeitgleich mit einer Reihe hochrangiger diplomatischer Treffen geplant, darunter ein Gipfel zwischen dem französischen Präsidenten Emmanuel Macron, dem britischen Premierminister Andy Burnham und dem deutschen Bundeskanzler Friedrich Merz zur Lage in der Ukraine sowie ein deutsch-ukrainisches Wirtschaftsforum. Behörden und die Gewerkschaft der Polizei (GdP) haben darauf hingewiesen, dass die Stadt aufgrund der Kombination dieser Staatsbesuche und der geplanten Demonstration mit erheblichen Sicherheitsmaßnahmen und Verkehrsbeschränkungen konfrontiert sein wird. Die Polizeigewerkschaft erwartet, dass am Donnerstag und Freitag mindestens 3.000 Beamte in der Stadt eingesetzt werden, um die Sicherheitsanforderungen für die besuchenden Amtsträger und die öffentlichen Veranstaltungen zu bewältigen.",
-   "demands": [],
-   "response": "In den Quellen wurde keine offizielle Reaktion gemeldet.",
+   "summary": "Das Bündnis Gen Z Regelt hat zu einem bundesweiten Protesttag in Dutzenden deutschen Städten aufgerufen, wobei die Organisatoren allein für Berlin 15.000 erwartete Demonstranten angemeldet haben. Die Aktion fällt mit dem UN-Weltkindertag zusammen und läuft parallel zu Schulstreiks von Fridays for Future sowie Aktionen des Netzwerk Friedenskooperative gegen die Wehrpflicht. Die Forderungen konzentrieren sich auf Bildungsverbesserungen, verstärkten Klimaschutz, bezahlbare Lebensbedingungen sowie Ablehnung von Aufrüstung und der Wiedereinführung des Wehrdienstes. Politische Figuren wie die Grünen-Spitze drückten Unterstützung aus und kündigten ihre Anwesenheit an, während Polizeigewerkschaften angesichts sich überschneidender hochrangiger internationaler Gipfeltreffen in der Hauptstadt schwere Einsätze erwarteten.",
+   "demands": [
+    "Merz muss weg",
+    "Ende der Aufrüstungspolitik und keine Rückkehr des Wehrdienstes",
+    "Mehr Geld für Bildung und ein Ende befristeter Hochschulverträge",
+    "Besserer Klimaschutz und bezahlbares Wohnen für junge Menschen"
+   ],
+   "response": "Der Grünen-Co-Vorsitzende Banaszak äußerte Unterstützung für die Anliegen bezüglich Bildung, Klima und bezahlbarem Wohnen und kündigte seine Teilnahme an. Forscher forderten Politiker auf, die Forderungen der Jugend ernst zu nehmen und Protestverbote zu vermeiden.",
    "updates": [
-    "Das Bündnis Gen Z Regelt kündigte eine Demonstration für Freitag, den 20. November 2026, an."
+    "Der Studierendenableger Gen Z regelt Studis kündigte für den 20. November Universitätsstreiks an bis zu 35 Universitäten an.",
+    "Organisatoren meldeten 15.000 Teilnehmer für die bevorstehende Berliner Demonstration am Freitag an, die Teil eines bundesweiten Aktionstages ist.",
+    "Polizeigewerkschaften erwarteten wegen sich überschneidender Staatsbesuche und der Demonstration mindestens 3.000 in Berlin eingesetzte Sicherheitskräfte."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Allein für Berlin haben die Veranstalter indes schon 15.000 Demonstranten angemeldet."
+   }
   },
   "it": {
-   "title": "L'alleanza Gen Z Regelt chiama a una manifestazione a Berlino",
-   "seoTitle": "Manifestazione Gen Z Regelt a Berlino",
+   "title": "L'alleanza Gen Z Regelt indice una manifestazione a Berlino",
+   "seoTitle": "Protesta Gen Z Regelt a Berlino",
    "tea": {
-    "why": "L'alleanza Gen Z Regelt ha indetto una manifestazione a Berlino, in coincidenza con eventi diplomatici internazionali in città.",
-    "want": "Le richieste specifiche della protesta non sono state dichiarate nei rapporti forniti.",
-    "changed": "17 novembre: L'alleanza Gen Z Regelt ha annunciato una manifestazione programmata per venerdì 20 novembre 2026."
+    "why": "I giovani protestano a causa della frustrazione per le richieste politiche ignorate e per una generale mancanza di rappresentanza politica.",
+    "want": "I manifestanti chiedono migliori finanziamenti per l'istruzione, una maggiore tutela del clima, alloggi accessibili per i giovani e la fine del riarmo militare.",
+    "changed": "17 nov: I sindacati di polizia prevedevano l'impiego di almeno 3.000 agenti di polizia a Berlino a causa di visite di Stato ad alta sicurezza concomitanti e della manifestazione."
    },
-   "summary": "L'alleanza nota come Gen Z Regelt ha annunciato una manifestazione che si terrà a Berlino venerdì 20 novembre 2026. La protesta è programmata in concomitanza con una serie di incontri diplomatici di alto livello, tra cui un vertice tra il presidente francese Emmanuel Macron, il primo ministro britannico Andy Burnham e il cancelliere tedesco Friedrich Merz sulla situazione in Ucraina, oltre a un forum economico tedesco-ucraino. Le autorità e il sindacato di polizia (GdP) hanno indicato che la città affronterà significative operazioni di sicurezza e restrizioni al traffico a causa della combinazione di queste visite di Stato e della manifestazione pianificata. Il sindacato di polizia prevede che almeno 3.000 agenti saranno dispiegati in tutta la città giovedì e venerdì per gestire i requisiti di sicurezza per i funzionari in visita e gli eventi pubblici.",
-   "demands": [],
-   "response": "Nessuna risposta ufficiale riportata nelle fonti.",
+   "summary": "L'alleanza Gen Z Regelt ha indetto una giornata di protesta nazionale in decine di città tedesche, con gli organizzatori che hanno registrato 15.000 manifestanti previsti specificamente per Berlino. L'azione coincide con la Giornata internazionale dei diritti dell'infanzia e dell'adolescenza delle Nazioni Unite e si svolge parallelamente agli scioperi scolastici indetti da Fridays for Future e alle azioni della Rete cooperazione per la pace contro la coscrizione militare. Le richieste sono incentrate su miglioramenti dell'istruzione, maggiore protezione del clima, condizioni di vita accessibili e opposizione al riarmo e alla reintroduzione del servizio militare. Figure politiche come la dirigenza dei Verdi hanno espresso sostegno e annunciato la loro presenza, mentre i sindacati di polizia hanno anticipato ingenti schieramenti a causa della concomitanza di vertici internazionali di alto livello nella capitale.",
+   "demands": [
+    "Merz deve andarsene",
+    "Fine della politica di riarmo e nessun ritorno del servizio militare",
+    "Più soldi per l'istruzione e fine dei contratti universitari a termine",
+    "Migliore protezione del clima e alloggi accessibili per i giovani"
+   ],
+   "response": "Il co-presidente dei Verdi Banaszak ha espresso sostegno per le questioni relative all'istruzione, al clima e agli alloggi accessibili, annunciando la sua presenza. I ricercatori hanno esortato i politici a prendere sul serio le richieste dei giovani e a evitare il divieto di protestare.",
    "updates": [
-    "L'alleanza Gen Z Regelt ha annunciato una manifestazione per venerdì 20 novembre 2026."
+    "La branca studentesca Gen Z regelt Studis ha annunciato scioperi universitari in un massimo di 35 università per il 20 novembre.",
+    "Gli organizzatori hanno registrato 15.000 partecipanti per la prossima protesta di Berlino di venerdì, parte di una giornata di mobilitazione nazionale.",
+    "I sindacati di polizia prevedevano l'impiego di almeno 3.000 addetti alla sicurezza a Berlino a causa della sovrapposizione di visite di Stato e della manifestazione."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Allein für Berlin haben die Veranstalter indes schon 15.000 Demonstranten angemeldet."
+   }
   },
   "pt": {
-   "title": "A aliança Gen Z Regelt convoca manifestação em Berlim",
-   "seoTitle": "Manifestação Gen Z Regelt em Berlim",
+   "title": "Aliança Gen Z Regelt convoca manifestação em Berlim",
+   "seoTitle": "Protesto do Gen Z Regelt em Berlim",
    "tea": {
-    "why": "A aliança Gen Z Regelt convocou uma manifestação em Berlim, coincidindo com eventos diplomáticos internacionais na cidade.",
-    "want": "As exigências específicas do protesto não foram declaradas nos relatórios fornecidos.",
-    "changed": "17 de novembro: A aliança Gen Z Regelt anunciou uma manifestação agendada para sexta-feira, 20 de novembro de 2026."
+    "why": "Os jovens estão a protestar devido à frustração com reivindicações políticas ignoradas e a uma falta global de representação política.",
+    "want": "Os manifestantes exigem melhor financiamento para a educação, maior proteção climática, habitação acessível para os jovens e o fim do rearmamento militar.",
+    "changed": "17 de nov.: Os sindicatos da polícia esperavam pelo menos 3.000 polícias destacados em Berlim devido a visitas de Estado de alta segurança concorrentes e à manifestação."
    },
-   "summary": "A aliança conhecida como Gen Z Regelt anunciou uma manifestação que terá lugar em Berlim na sexta-feira, 20 de novembro de 2026. O protesto está agendado para ocorrer paralelamente a uma série de reuniões diplomáticas de alto nível, incluindo uma cimeira entre o presidente francês Emmanuel Macron, o primeiro-ministro britânico Andy Burnham e o chanceler alemão Friedrich Merz sobre a situação na Ucrânia, bem como um fórum económico germano-ucraniano. As autoridades e o sindicato da polícia (GdP) indicaram que a cidade enfrentará operações de segurança significativas e restrições de tráfego devido à combinação destas visitas de Estado e da manifestação planeada. O sindicato da polícia espera que pelo menos 3.000 agentes sejam destacados por toda a cidade na quinta e sexta-feira para gerir os requisitos de segurança para os funcionários visitantes e os eventos públicos.",
-   "demands": [],
-   "response": "Nenhuma resposta oficial reportada nas fontes.",
+   "summary": "A aliança Gen Z Regelt convocou um dia de protesto nacional em dezenas de cidades alemãs, tendo os organizadores registado uma previsão de 15.000 manifestantes especificamente para Berlim. A ação coincide com o Dia Universal das Crianças da ONU e decorre paralelamente a greves escolares convocadas pelo Fridays for Future e a ações da Rede de Cooperação pela Paz contra o serviço militar obrigatório. As reivindicações centram-se em melhorias na educação, proteção climática reforçada, condições de vida acessíveis e oposição ao rearmamento e à reintrodução do serviço militar. Figuras políticas como a liderança do partido Os Verdes expressaram apoio e anunciaram a sua presença, enquanto os sindicatos da polícia anteciparam forte mobilização devido a cimeiras internacionais de alto nível sobrepostas na capital.",
+   "demands": [
+    "Merz tem de sair",
+    "Fim da política de rearmamento e nenhum regresso do serviço militar",
+    "Mais dinheiro para a educação e fim dos contratos universitários a termo certo",
+    "Melhor proteção climática e habitação acessível para os jovens"
+   ],
+   "response": "O co-presidente do partido Os Verdes, Banaszak, expressou apoio às preocupações relativas à educação, ao clima e à habitação acessível, anunciando a sua presença. Os investigadores instaram os políticos a levarem a sério as exigências da juventude e a evitarem proibições de protestos.",
    "updates": [
-    "A aliança Gen Z Regelt anunciou uma manifestação para sexta-feira, 20 de novembro de 2026."
+    "O ramo estudantil Gen Z regelt Studis anunciou greves universitárias em até 35 universidades para 20 de novembro.",
+    "Os organizadores registaram 15.000 participantes para o próximo protesto em Berlim na sexta-feira, parte de um dia de ação nacional.",
+    "Os sindicatos da polícia esperavam pelo menos 3.000 elementos de segurança destacados em Berlim devido à sobreposição de visitas de Estado e da manifestação."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Allein für Berlin haben die Veranstalter indes schon 15.000 Demonstranten angemeldet."
+   }
   },
   "nl": {
-   "title": "Alliantie Gen Z Regelt roept op tot demonstratie in Berlijn",
-   "seoTitle": "Berlijn Gen Z Regelt demonstratie",
+   "title": "Gen Z Regelt-alliantie roept op tot demonstratie in Berlijn",
+   "seoTitle": "Berlijn Gen Z Regelt-protest",
    "tea": {
-    "why": "De alliantie Gen Z Regelt heeft opgeroepen tot een demonstratie in Berlijn, die samenvalt met internationale diplomatieke evenementen in de stad.",
-    "want": "De specifieke eisen van het protest zijn niet vermeld in de verstrekte rapporten.",
-    "changed": "17 november: De alliantie Gen Z Regelt kondigde een demonstratie aan die gepland staat voor vrijdag 20 november 2026."
+    "why": "Jonge mensen protesteren vanwege frustratie over genegeerde politieke eisen en een algemeen gebrek aan politieke vertegenwoordiging.",
+    "want": "Demonstranten eisen betere financiering voor onderwijs, verhoogde klimaatbescherming, betaalbaar wonen voor jongeren en een stop op militaire herbewapening.",
+    "changed": "17 nov.: Politievakbonden verwachtten minstens 3.000 ingezette politieagenten in Berlijn vanwege gelijktijdige staatsbezoeken met hoge beveiliging en de demonstratie."
    },
-   "summary": "De alliantie bekend als Gen Z Regelt heeft een demonstratie aangekondigd die op vrijdag 20 november 2026 in Berlijn zal plaatsvinden. Het protest is gepland naast een reeks diplomatieke ontmoetingen op hoog niveau, waaronder een top tussen de Franse president Emmanuel Macron, de Britse premier Andy Burnham en de Duitse bondskanselier Friedrich Merz over de situatie in Oekraïne, evenals een Duits-Oekraïens economisch forum. Autoriteiten en de politievakbond (GdP) hebben aangegeven dat de stad te maken zal krijgen met aanzienlijke veiligheidsoperaties en verkeersbeperkingen vanwege de combinatie van deze staatsbezoeken en de geplande demonstratie. De politievakbond verwacht dat er op donderdag en vrijdag ten minste 3.000 agenten in de stad zullen worden ingezet om de veiligheidseisen voor de bezoekende functionarissen en de publieke evenementen te beheren.",
-   "demands": [],
-   "response": "Geen officiële reactie gemeld in de bronnen.",
+   "summary": "De Gen Z Regelt-alliantie heeft opgeroepen tot een landelijke protestdag in tientallen Duitse steden, waarbij organisatoren een verwacht aantal van 15.000 demonstranten specifiek voor Berlijn hebben geregistreerd. De actie valt samen met de VN-Dag van de Rechten van het Kind en loopt parallel aan schoolstakingen opgeroepen door Fridays for Future en acties van het Netwerk Vredescoöperatie tegen de militaire dienstplicht. De eisen concentreren zich op onderwijsverbeteringen, versterkte klimaatbescherming, betaalbare leefomstandigheden en verzet tegen herbewapening en de herinvoering van de dienstplicht. Politieke figuren zoals de leiding van de Groene Partij betuigden steun en kondigden hun aanwezigheid aan, terwijl politievakbonden zware inzet verwachtten te midden van samenvallende internationale topontmoetingen op hoog niveau in de hoofdstad.",
+   "demands": [
+    "Merz moet opstappen",
+    "Einde aan het herbewapeningsbeleid en geen terugkeer van de militaire dienst",
+    "Meer geld voor onderwijs en een einde aan tijdelijke universitaire contracten",
+    "Betere klimaatbescherming en betaalbaar wonen voor jonge mensen"
+   ],
+   "response": "GroenLinks-co-voorzitter Banaszak sprak steun uit voor de zorgen over onderwijs, klimaat en betaalbaar wonen en kondigde zijn aanwezigheid aan. Onderzoekers drongen er bij politici op aan om de eisen van de jeugd serieus te nemen en protestverboden te vermijden.",
    "updates": [
-    "De alliantie Gen Z Regelt kondigde een demonstratie aan voor vrijdag 20 november 2026."
+    "De studententak Gen Z regelt Studis kondigde universiteitsstakingen aan bij maximaal 35 universiteiten voor 20 november.",
+    "Organisatoren registreerden 15.000 deelnemers voor het aanstaande Berlijnse protest op vrijdag, onderdeel van een landelijke actiedag.",
+    "Politievakbonden verwachtten minstens 3.000 ingezette beveiligingsmedewerkers in Berlijn vanwege samenvallende staatsbezoeken en de demonstratie."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Allein für Berlin haben die Veranstalter indes schon 15.000 Demonstranten angemeldet."
+   }
   }
  }
 }

@@ -20,66 +20,82 @@
  ],
  "kind": "one-day",
  "startedOn": "2026-11-17",
- "status": "ongoing",
- "vibe": "tense",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
   "serious",
-  "top-10"
+  "low-confidence",
+  "sources-disagree"
  ],
- "isOngoing": true,
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Students are protesting against budget cuts in education, higher tuition fees, and government spending priorities.",
-  "want": "Demonstrators demand quality and accessible education, the reversal of fee hikes, and better funding for schools.",
-  "changed": "Nov 17: Students took to the streets of Brussels on International Students' Day to protest educational budget cuts."
+  "why": "Students are protesting against higher university fees, education budget cuts, and deteriorating learning conditions in French-speaking Belgium.",
+  "want": "They want authorities to reverse education reforms, lower tuition fees, and increase funding for education instead of military investments.",
+  "changed": "Nov 17: Several thousand students protested in Brussels, leading to police interventions with tear water cannons and multiple arrests near Rogier square."
  },
- "summary": "Francophone and Flemish students mobilized in Brussels on International Students' Day, November 17, to protest budget cuts and rising tuition fees in higher education. Organised by groups including the Federation of Francophone Students (FEF) and VVS, the demonstrators gathered near Brussels Central Station and the Mont des Arts. Participants criticized government spending on military investments while funding for education, social sectors, and housing remains constrained. The mobilization is part of a broader wave of protests that have gained momentum over recent months, receiving support from various trade union strike notices.",
+ "summary": "On November 17, 2026, on the occasion of International Students' Day, students marched in Brussels to denounce education reforms, tuition fee hikes, and budget cuts in French-speaking Belgium. Organised notably by the Fédération des étudiants francophones (FEF) and supported by trade union organisations, the demonstration gathered several thousand participants. Protesters criticized the increased cost of studies and government spending priorities favoring military investments over education. According to reports, police used tear gas and water cannons to disperse crowds following interventions near Rogier square and Botanique, resulting in several arrests.",
  "organizers": [
-  "Fédération des étudiants francophones (FEF)",
-  "VVS",
-  "Union syndicale étudiante (USE)"
+  "Fédération des étudiants francophones",
+  "CSC francophone",
+  "Métallos FGTB"
  ],
  "demands": [
-  "Quality and accessible education for all",
-  "Cancellation of tuition fee increases",
-  "Reversal of budget cuts in education"
+  "Reverse educational reforms",
+  "Cancel tuition fee increases",
+  "Increase funding for education and social services",
+  "Halt military budget increases"
  ],
- "response": "No official response reported in the sources.",
+ "response": "According to reports, police used tear gas and water cannons to push back demonstrators around Rogier square and Botanique, and deployed helmeted officers equipped with batons, resulting in several arrests.",
  "numbers": {
+  "crowd": {
+   "value": 15000,
+   "text": "3200 jeunes ont manifesté selon la police. Ils étaient 15.000 selon la FEF",
+   "sources": [
+    5
+   ]
+  },
   "arrests": {
    "value": 600,
    "text": "600'ü aşkın kişi gözaltına alındı",
    "sources": [
-    1
+    2
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-17",
-   "text": "Students marched in Brussels on International Students' Day to protest educational budget cuts and fee increases.",
+   "text": "Several thousand students gathered in Brussels on International Students' Day to protest educational conditions and budget cuts.",
    "sources": [
-    2,
-    3
+    3,
+    5
+   ]
+  },
+  {
+   "at": "2026-11-17",
+   "text": "Police intervened with tear gas, water cannons, and batons near Botanique and Rogier square, leading to arrests and crowd dispersal.",
+   "sources": [
+    5
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.bruxellestoday.be/actualite/manifestations-etudiants-programme-calendrier-recap.html",
+   "publisher": "bruxellestoday.be",
+   "title": "Manifestations &agrave; Bruxelles : voici le r&eacute;cap des mobilisations pr&eacute;vues en novembre",
+   "publishedAt": "2026-11-08T11:30:00.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://www.aa.com.tr/tr/dunya/belcikada-universite-ogrencileri-harc-artisini-ve-egitimde-butce-kesintilerini-protesto-etti/4124000",
    "publisher": "aa.com.tr",
    "title": "Belçika'da üniversite öğrencileri harç artışını ve eğitimde bütçe kesintilerini protesto etti",
    "publishedAt": "2026-11-13T14:32:24.727Z"
-  },
-  {
-   "n": 2,
-   "url": "https://www.bruxellestoday.be/actualite/manifestation-17-novembre-parcours-revendications-a-savoir.html",
-   "publisher": "bruxellestoday.be",
-   "title": "Manifestation du 17 novembre &agrave; Bruxelles : parcours et revendications, ce qu’il faut savoir",
-   "publishedAt": "2026-11-16T11:01:00.000Z"
   },
   {
    "n": 3,
@@ -87,117 +103,155 @@
    "publisher": "rtl.be",
    "title": "« On ne lâchera pas » : pourquoi les étudiants ont-ils choisi ce mardi pour manifester à nouveau à Bruxelles ?",
    "publishedAt": "2026-11-17T07:49:34.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.chinadaily.com.cn/a/202611/17/WS6afc6a76e4b03ebf8519cfd4.html",
+   "publisher": "chinadaily.com.cn",
+   "title": "Students' protest on International Students' Day in Brussels",
+   "publishedAt": "2026-11-17T14:53:41.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.rtbf.be/article/le-recap-du-mardi-17-novembre-manifestations-etudiantes-a-bruxelles-dette-publique-plombee-et-sextorsion-11816925",
+   "publisher": "rtbf.be",
+   "title": "Le Récap du mardi 17 novembre : manifestations étudiantes à Bruxelles, dette publique plombée et sextorsion - RTBF Actus",
+   "publishedAt": "2026-11-17T15:16:34.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.8,
- "publishers": 3,
+ "conflicts": [
+  "Police stated that 3,200 young people took part in the demonstration, whereas organisers from the FEF claimed there were 15,000 protesters."
+ ],
+ "confidence": 0.75,
+ "publishers": 5,
  "reports24h": 3,
  "reportsPrev24h": 1,
  "reports48h": 4,
  "firstSeenAt": "2026-11-08T13:54:04.300Z",
  "lastReportAt": "2026-11-17T15:16:34.000Z",
- "lastCheckedAt": "2026-11-17T20:57:21.304Z",
- "updatedAt": "2026-11-17T20:53:41.979Z",
+ "lastCheckedAt": "2026-11-18T00:54:26.504Z",
+ "updatedAt": "2026-11-18T00:51:41.513Z",
  "searchedAt": "2026-11-13T16:50:41.087Z",
- "responseSources": [],
+ "responseSources": [
+  5
+ ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-17T20:53:41.979Z",
+ "summarizedAt": "2026-11-18T00:51:41.513Z",
  "publishedAt": "2026-11-13T20:55:28.871Z",
  "i18n": {
-  "of": "780c18defea8b4f0",
-  "at": "2026-11-17T20:57:31.027Z",
+  "of": "cb087a3e6507e0ec",
+  "at": "2026-11-18T00:56:18.549Z",
   "tries": 1,
   "es": {
    "title": "Estudiantes protestan en Bruselas en el Día Internacional del Estudiante",
    "seoTitle": "Protesta estudiantil en Bruselas",
    "tea": {
-    "why": "Los estudiantes protestan contra los recortes presupuestarios en educación, el aumento de las tasas universitarias y las prioridades de gasto del gobierno.",
-    "want": "Los manifestantes exigen una educación de calidad y accesible, la reversión de las subidas de tasas y una mejor financiación para las escuelas.",
-    "changed": "17 de noviembre: Los estudiantes salieron a las calles de Bruselas en el Día Internacional del Estudiante para protestar contra los recortes presupuestarios en educación."
+    "why": "Los estudiantes protestan contra el aumento de las tasas universitarias, los recortes en el presupuesto educativo y el deterioro de las condiciones de aprendizaje en la Bélgica francófona.",
+    "want": "Quieren que las autoridades reviertan las reformas educativas, reduzcan las matrículas y aumenten la financiación para la educación en lugar de las inversiones militares.",
+    "changed": "17 de noviembre: Varios miles de estudiantes protestaron en Bruselas, lo que dio lugar a intervenciones policiales con cañones de agua y múltiples detenciones cerca de la plaza Rogier."
    },
-   "summary": "Estudiantes francófonos y flamencos se movilizaron en Bruselas el 17 de noviembre, Día Internacional del Estudiante, para protestar contra los recortes presupuestarios y el aumento de las tasas en la educación superior. Organizados por grupos como la Federación de Estudiantes Francófonos (FEF) y la VVS, los manifestantes se reunieron cerca de la Estación Central de Bruselas y el Mont des Arts. Los participantes criticaron el gasto gubernamental en inversiones militares mientras la financiación para la educación, los sectores sociales y la vivienda sigue siendo limitada. La movilización es parte de una ola más amplia de protestas que ha ganado impulso en los últimos meses, recibiendo el apoyo de varios avisos de huelga sindical.",
+   "summary": "El 17 de noviembre de 2026, con motivo del Día Internacional del Estudiante, los estudiantes marcharon en Bruselas para denunciar las reformas educativas, las subidas de las tasas de matrícula y los recortes presupuestarios en la Bélgica francófona. Organizada principalmente por la Federación de Estudiantes Francófonos (FEF) y respaldada por organizaciones sindicales, la manifestación reunió a varios miles de participantes. Los manifestantes criticaron el mayor coste de los estudios y las prioridades de gasto gubernamental que favorecen las inversiones militares frente a la educación. Según los informes, la policía utilizó gas lacrimógeno y cañones de agua para dispersar a las multitudes tras las intervenciones cerca de la plaza Rogier y Botanique, lo que resultó en varias detenciones.",
    "demands": [
-    "Educación de calidad y accesible para todos",
-    "Cancelación de los aumentos en las tasas universitarias",
-    "Reversión de los recortes presupuestarios en educación"
+    "Revertir las reformas educativas",
+    "Cancelar los aumentos de las tasas de matrícula",
+    "Aumentar la financiación para la educación y los servicios sociales",
+    "Detener los aumentos del presupuesto militar"
    ],
-   "response": "No se ha informado de ninguna respuesta oficial en las fuentes.",
+   "response": "Según los informes, la policía utilizó gas lacrimógeno y cañones de agua para hacer retroceder a los manifestantes alrededor de la plaza Rogier y Botanique, y desplegó agentes con cascos y equipados con porras, lo que dio lugar a varias detenciones.",
    "updates": [
-    "Los estudiantes marcharon en Bruselas en el Día Internacional del Estudiante para protestar contra los recortes presupuestarios en educación y el aumento de las tasas."
+    "Varios miles de estudiantes se reunieron en Bruselas en el Día Internacional del Estudiante para protestar contra las condiciones educativas y los recortes presupuestarios.",
+    "La policía intervino con gas lacrimógeno, cañones de agua y porras cerca de Botanique y la plaza Rogier, lo que provocó detenciones y la dispersión de la multitud."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La policía declaró que 3200 jóvenes participaron en la manifestación, mientras que los organizadores de la FEF afirmaron que hubo 15 000 manifestantes."
+   ],
    "numbers": {
+    "crowd": "3200 jóvenes manifestaron según la policía. Eran 15 000 según la FEF",
     "arrests": "Más de 600 personas fueron detenidas"
    }
   },
   "fr": {
-   "title": "Manifestation étudiante à Bruxelles lors de la Journée internationale des étudiants",
+   "title": "Manifestation d'étudiants à Bruxelles lors de la Journée internationale des étudiants",
    "seoTitle": "Manifestation étudiante à Bruxelles",
    "tea": {
-    "why": "Les étudiants manifestent contre les coupes budgétaires dans l'éducation, la hausse des frais d'inscription et les priorités de dépenses du gouvernement.",
-    "want": "Les manifestants exigent une éducation de qualité et accessible, l'annulation des hausses de frais et un meilleur financement pour les écoles.",
-    "changed": "17 novembre : Des étudiants sont descendus dans les rues de Bruxelles lors de la Journée internationale des étudiants pour protester contre les coupes budgétaires dans l'éducation."
+    "why": "Les étudiants manifestent contre la hausse des frais d'inscription universitaires, les coupes budgétaires dans l'éducation et la détérioration des conditions d'apprentissage en Belgique francophone.",
+    "want": "Ils veulent que les autorités reviennent sur les réformes de l'éducation, baissent les frais de scolarité et augmentent le financement de l'éducation au lieu des investissements militaires.",
+    "changed": "17 nov. : Plusieurs milliers d'étudiants ont manifesté à Bruxelles, entraînant des interventions policières avec des canons à eau lacrymogènes et de multiples arrestations près de la place Rogier."
    },
-   "summary": "Des étudiants francophones et flamands se sont mobilisés à Bruxelles lors de la Journée internationale des étudiants, le 17 novembre, pour protester contre les coupes budgétaires et la hausse des frais d'inscription dans l'enseignement supérieur. Organisés par des groupes dont la Fédération des étudiants francophones (FEF) et la VVS, les manifestants se sont rassemblés près de la gare centrale de Bruxelles et du Mont des Arts. Les participants ont critiqué les dépenses gouvernementales en investissements militaires alors que le financement de l'éducation, des secteurs sociaux et du logement reste limité. La mobilisation s'inscrit dans une vague plus large de manifestations qui a pris de l'ampleur ces derniers mois, bénéficiant du soutien de divers préavis de grève syndicaux.",
+   "summary": "Le 17 novembre 2026, à l'occasion de la Journée internationale des étudiants, des étudiants ont défilé à Bruxelles pour dénoncer les réformes de l'éducation, la hausse des frais d'inscription et les coupes budgétaires en Belgique francophone. Organisée notamment par la Fédération des étudiants francophones (FEF) et soutenue par des organisations syndicales, la manifestation a rassemblé plusieurs milliers de participants. Les manifestants ont critiqué le coût accru des études et les priorités de dépenses du gouvernement favorisant les investissements militaires au détriment de l'éducation. Selon des rapports, la police a utilisé du gaz lacrymogène et des canons à eau pour disperser les foules à la suite d'interventions près de la place Rogier et de Botanique, entraînant plusieurs arrestations.",
    "demands": [
-    "Une éducation de qualité et accessible à tous",
-    "Annulation des hausses des frais d'inscription",
-    "Inversion des coupes budgétaires dans l'éducation"
+    "Revenir sur les réformes éducatives",
+    "Annuler les hausses des frais de scolarité",
+    "Augmenter le financement de l'éducation et des services sociaux",
+    "Arrêter les augmentations du budget militaire"
    ],
-   "response": "Aucune réponse officielle signalée dans les sources.",
+   "response": "Selon des rapports, la police a utilisé du gaz lacrymogène et des canons à eau pour repousser les manifestants autour de la place Rogier et de Botanique, et a déployé des agents casqués équipés de matraques, entraînant plusieurs arrestations.",
    "updates": [
-    "Des étudiants ont manifesté à Bruxelles lors de la Journée internationale des étudiants pour protester contre les coupes budgétaires dans l'éducation et la hausse des frais."
+    "Plusieurs milliers d'étudiants se sont rassemblés à Bruxelles lors de la Journée internationale des étudiants pour protester contre les conditions d'enseignement et les coupes budgétaires.",
+    "La police est intervenue avec du gaz lacrymogène, des canons à eau et des matraques près de Botanique et de la place Rogier, entraînant des arrestations et la dispersion de la foule."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La police a déclaré que 3 200 jeunes ont pris part à la manifestation, tandis que les organisateurs de la FEF ont affirmé qu'il y avait 15 000 manifestants."
+   ],
    "numbers": {
+    "crowd": "3 200 jeunes ont manifesté selon la police. Ils étaient 15 000 selon la FEF",
     "arrests": "Plus de 600 personnes ont été arrêtées"
    }
   },
   "de": {
-   "title": "Studierende protestieren in Brüssel am Internationalen Studententag",
+   "title": "Studenten demonstrieren in Brüssel zum Internationalen Studententag",
    "seoTitle": "Studentenprotest in Brüssel",
    "tea": {
-    "why": "Studierende protestieren gegen Budgetkürzungen im Bildungswesen, höhere Studiengebühren und die Ausgabenprioritäten der Regierung.",
-    "want": "Die Demonstranten fordern eine qualitativ hochwertige und zugängliche Bildung, die Rücknahme von Gebührenerhöhungen und eine bessere Finanzierung für Schulen.",
-    "changed": "17. November: Studierende gingen am Internationalen Studententag in Brüssel auf die Straße, um gegen Bildungsbudgetkürzungen zu protestieren."
+    "why": "Studenten protestieren gegen höhere Studiengebühren, Kürzungen im Bildungsetat und verschlechterte Lernbedingungen im französischsprachigen Teil Belgiens.",
+    "want": "Sie fordern die Behörden auf, Bildungsreformen rückgängig zu machen, Studiengebühren zu senken und die Finanzierung für Bildung statt für Militärinvestitionen zu erhöhen.",
+    "changed": "17. Nov.: Mehr mehrere Tausend Studenten protestierten in Brüssel, was in der Nähe des Rogier-Platzes zu Polizeieinsätzen mit Tränengas-Wasserwerfern und zahlreichen Festnahmen führte."
    },
-   "summary": "Frankophone und flämische Studierende mobilisierten sich am 17. November, dem Internationalen Studententag, in Brüssel, um gegen Budgetkürzungen und steigende Studiengebühren in der Hochschulbildung zu protestieren. Organisiert von Gruppen wie der Fédération des étudiants francophones (FEF) und der VVS, versammelten sich die Demonstranten in der Nähe des Brüsseler Hauptbahnhofs und des Mont des Arts. Die Teilnehmer kritisierten die Staatsausgaben für militärische Investitionen, während die Finanzierung für Bildung, soziale Sektoren und Wohnungsbau begrenzt bleibt. Die Mobilisierung ist Teil einer breiteren Protestwelle, die in den letzten Monaten an Dynamik gewonnen hat und von verschiedenen gewerkschaftlichen Streikaufrufen unterstützt wird.",
+   "summary": "Am 17. November 2026 zogen Studenten anlässlich des Internationalen Studententags durch Brüssel, um gegen Bildungsreformen, Erhöhungen der Studiengebühren und Haushaltskürzungen im französischsprachigen Belgien zu protestieren. Die hauptsächlich von der Fédération des étudiants francophones (FEF) organisierte und von Gewerkschaftsorganisationen unterstützte Demonstration brachte mehrere Tausend Teilnehmer zusammen. Die Demonstranten kritisierten die gestiegenen Studienkosten und die Prioritäten der Regierungsausgaben, die Militärinvestitionen gegenüber der Bildung bevorzugen. Berichten zufolge setzte die Polizei nach Einsätzen in der Nähe des Rogier-Platzes und der Botanique Tränengas und Wasserwerfer ein, um Menschenmengen zu zerstreuen, was zu mehreren Festnahmen führte.",
    "demands": [
-    "Qualitativ hochwertige und zugängliche Bildung für alle",
-    "Stornierung der Erhöhungen der Studiengebühren",
-    "Rücknahme der Budgetkürzungen im Bildungswesen"
+    "Bildungsreformen rückgängig machen",
+    "Erhöhungen der Studiengebühren annullieren",
+    "Finanzierung für Bildung und soziale Dienste erhöhen",
+    "Erhöhungen des Militärbudgets stoppen"
    ],
-   "response": "In den Quellen wurde keine offizielle Reaktion gemeldet.",
+   "response": "Berichten zufolge setzte die Polizei Tränengas und Wasserwerfer ein, um Demonstranten rund um den Rogier-Platz und die Botanique zurückzudrängen, und setzte behelmte, mit Schlagstöcken ausgerüstete Beamte ein, was zu mehreren Festnahmen führte.",
    "updates": [
-    "Studierende marschierten am Internationalen Studententag in Brüssel, um gegen Bildungsbudgetkürzungen und Gebührenerhöhungen zu protestieren."
+    "Mehrere Tausend Studenten versammelten sich zum Internationalen Studententag in Brüssel, um gegen Bildungsbedingungen und Haushaltskürzungen zu protestieren.",
+    "Die Polizei schritt in der Nähe der Botanique und des Rogier-Platzes mit Tränengas, Wasserwerfern und Schlagstöcken ein, was zu Festnahmen und zur Auflösung der Menge führte."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Die Polizei gab an, dass 3200 junge Menschen an der Demonstration teilnahmen, während Organisatoren der FEF von 15 000 Demonstranten sprachen."
+   ],
    "numbers": {
-    "arrests": "Mehr als 600 Personen wurden festgenommen"
+    "crowd": "3200 junge Menschen demonstrierten laut Polizei. Es waren 15 000 laut der FEF",
+    "arrests": "Über 600 Personen wurden festgenommen"
    }
   },
   "it": {
-   "title": "Studenti in protesta a Bruxelles nella Giornata internazionale degli studenti",
+   "title": "Studenti protestano a Bruxelles in occasione della Giornata internazionale degli studenti",
    "seoTitle": "Protesta studentesca a Bruxelles",
    "tea": {
-    "why": "Gli studenti protestano contro i tagli al bilancio dell'istruzione, l'aumento delle tasse universitarie e le priorità di spesa del governo.",
-    "want": "I manifestanti chiedono un'istruzione di qualità e accessibile, l'annullamento degli aumenti delle tasse e maggiori finanziamenti per le scuole.",
-    "changed": "17 novembre: Gli studenti sono scesi in piazza a Bruxelles nella Giornata internazionale degli studenti per protestare contro i tagli al bilancio dell'istruzione."
+    "why": "Gli studenti protestano contro l'aumento delle tasse universitarie, i tagli al bilancio dell'istruzione e il deterioramento delle condizioni di apprendimento nel Belgio francofono.",
+    "want": "Vogliono che le autorità invertano le riforme dell'istruzione, abbassino le tasse scolastiche e aumentino i finanziamenti per l'istruzione anziché per gli investimenti militari.",
+    "changed": "17 nov.: Diverse migliaia di studenti hanno protestato a Bruxelles, portando a interventi della polizia con cannoni ad acqua lacrimogena e molteplici arresti vicino a piazza Rogier."
    },
-   "summary": "Studenti francofoni e fiamminghi si sono mobilitati a Bruxelles nella Giornata internazionale degli studenti, il 17 novembre, per protestare contro i tagli al bilancio e l'aumento delle tasse nell'istruzione superiore. Organizzati da gruppi tra cui la Fédération des étudiants francophones (FEF) e la VVS, i manifestanti si sono riuniti vicino alla Stazione Centrale di Bruxelles e al Mont des Arts. I partecipanti hanno criticato la spesa pubblica per investimenti militari mentre i finanziamenti per l'istruzione, i settori sociali e l'edilizia abitativa rimangono limitati. La mobilitazione fa parte di una più ampia ondata di proteste che ha guadagnato slancio negli ultimi mesi, ricevendo il sostegno di vari avvisi di sciopero sindacale.",
+   "summary": "Il 17 novembre 2026, in occasione della Giornata internazionale degli studenti, gli studenti hanno sfilato a Bruxelles per denunciare le riforme dell'istruzione, i rincari delle tasse universitarie e i tagli di bilancio nel Belgio francofono. Organizzata in particolare dalla Fédération des étudiants francophones (FEF) e sostenuta da organizzazioni sindacali, la manifestazione ha riunito diverse migliaia di partecipanti. I manifestanti hanno criticato l'aumento del costo degli studi e le priorità di spesa del governo che favoriscono gli investimenti militari a scapito dell'istruzione. Secondo i resoconti, la polizia ha usato gas lacrimogeni e cannoni ad acqua per disperdere la folla in seguito a interventi vicino a piazza Rogier e Botanique, provocando diversi arresti.",
    "demands": [
-    "Istruzione di qualità e accessibile per tutti",
-    "Cancellazione degli aumenti delle tasse universitarie",
-    "Inversione dei tagli al bilancio dell'istruzione"
+    "Invertire le riforme educative",
+    "Annullare gli aumenti delle tasse scolastiche",
+    "Aumentare i finanziamenti per l'istruzione e i servizi sociali",
+    "Fermare gli aumenti del bilancio militare"
    ],
-   "response": "Nessuna risposta ufficiale segnalata nelle fonti.",
+   "response": "Secondo i resoconti, la polizia ha usato gas lacrimogeni e cannoni ad acqua per respingere i manifestanti intorno a piazza Rogier e Botanique, e ha schierato agenti con il casco dotati di manganelli, provocando diversi arresti.",
    "updates": [
-    "Gli studenti hanno marciato a Bruxelles nella Giornata internazionale degli studenti per protestare contro i tagli al bilancio dell'istruzione e l'aumento delle tasse."
+    "Diverse migliaia di studenti si sono radunati a Bruxelles in occasione della Giornata internazionale degli studenti per protestare contro le condizioni educative e i tagli di bilancio.",
+    "La polizia è intervenuta con gas lacrimogeni, cannoni ad acqua e manganelli vicino a Botanique e piazza Rogier, portando ad arresti e alla dispersione della folla."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La polizia ha dichiarato che 3200 giovani hanno preso parte alla manifestazione, mentre gli organizzatori della FEF hanno sostenuto che vi fossero 15 000 manifestanti."
+   ],
    "numbers": {
+    "crowd": "3200 giovani hanno manifestato secondo la polizia. Erano 15 000 secondo la FEF",
     "arrests": "Più di 600 persone sono state arrestate"
    }
   },
@@ -205,46 +259,56 @@
    "title": "Estudantes protestam em Bruxelas no Dia Internacional do Estudante",
    "seoTitle": "Protesto estudantil em Bruxelas",
    "tea": {
-    "why": "Os estudantes protestam contra os cortes orçamentais na educação, o aumento das propinas e as prioridades de despesa do governo.",
-    "want": "Os manifestantes exigem uma educação de qualidade e acessível, a reversão dos aumentos das propinas e um melhor financiamento para as escolas.",
-    "changed": "17 de novembro: Estudantes saíram às ruas de Bruxelas no Dia Internacional do Estudante para protestar contra os cortes orçamentais na educação."
+    "why": "Os estudantes protestam contra o aumento das propinas universitárias, os cortes no orçamento da educação e a deterioração das condições de aprendizagem na Bélgica francófona.",
+    "want": "Eles querem que as autoridades revertam as reformas educativas, baixem as propinas e aumentem o financiamento para a educação em vez de investimentos militares.",
+    "changed": "17 nov.: Vários milhares de estudantes protestaram em Bruxelas, levando a intervenções policiais com canhões de água e múltiplas detenções perto da praça Rogier."
    },
-   "summary": "Estudantes francófonos e flamengos mobilizaram-se em Bruxelas no Dia Internacional do Estudante, a 17 de novembro, para protestar contra os cortes orçamentais e o aumento das propinas no ensino superior. Organizados por grupos como a Fédération des étudiants francophones (FEF) e a VVS, os manifestantes reuniram-se perto da Estação Central de Bruxelas e do Mont des Arts. Os participantes criticaram as despesas governamentais em investimentos militares enquanto o financiamento para a educação, os setores sociais e a habitação permanece limitado. A mobilização faz parte de uma onda mais vasta de protestos que ganhou força nos últimos meses, recebendo o apoio de vários avisos de greve sindicais.",
+   "summary": "A 17 de novembro de 2026, por ocasião do Dia Internacional do Estudante, os estudantes marcharam em Bruxelas para denunciar as reformas educativas, os aumentos das propinas e os cortes orçamentais na Bélgica francófona. Organizada notadamente pela Federação dos Estudantes Francófonos (FEF) e apoiada por organizações sindicais, a manifestação reuniu vários milhares de participantes. Os manifestantes criticaram o custo acrescido dos estudos e as prioridades de despesa do governo que favorecem os investimentos militares em detrimento da educação. Segundo relatos, a polícia usou gás lacrimogéneo e canhões de água para dispersar multidões após intervenções perto da praça Rogier e Botanique, resultando em várias detenções.",
    "demands": [
-    "Educação de qualidade e acessível para todos",
-    "Cancelamento dos aumentos das propinas",
-    "Reversão dos cortes orçamentais na educação"
+    "Reverter as reformas educativas",
+    "Cancelar os aumentos das propinas",
+    "Aumentar o financiamento para a educação e os serviços sociais",
+    "Travar os aumentos do orçamento militar"
    ],
-   "response": "Nenhuma resposta oficial reportada nas fontes.",
+   "response": "Segundo relatos, a polícia usou gás lacrimogéneo e canhões de água para repelir os manifestantes em redor da praça Rogier e Botanique, e implementou agentes com capacetes equipados com cassetetes, resultando em várias detenções.",
    "updates": [
-    "Estudantes marcharam em Bruxelas no Dia Internacional do Estudante para protestar contra os cortes orçamentais na educação e o aumento das propinas."
+    "Vários milhares de estudantes reuniram-se em Bruxelas no Dia Internacional do Estudante para protestar contra as condições educativas e os cortes orçamentais.",
+    "A polícia interveio com gás lacrimogéneo, canhões de água e cassetetes perto de Botanique e da praça Rogier, conduzindo a detenções e à dispersão da multidão."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "A polícia afirmou que 3200 jovens participaram na manifestação, enquanto os organizadores da FEF alegaram que havia 15 000 manifestantes."
+   ],
    "numbers": {
+    "crowd": "3200 jovens manifestaram-se segundo a polícia. Eram 15 000 segundo a FEF",
     "arrests": "Mais de 600 pessoas foram detidas"
    }
   },
   "nl": {
-   "title": "Studenten protesteren in Brussel op Internationale Studenten Dag",
+   "title": "Studenten protesteren in Brussel op Internationale Studentenheldendag",
    "seoTitle": "Studentenprotest in Brussel",
    "tea": {
-    "why": "Studenten protesteren tegen bezuinigingen op het onderwijs, hogere collegegelden en de uitgavenprioriteiten van de overheid.",
-    "want": "Demonstranten eisen kwalitatief en toegankelijk onderwijs, het terugdraaien van verhogingen van het collegegeld en betere financiering voor scholen.",
-    "changed": "17 november: Studenten gingen de straat op in Brussel op Internationale Studenten Dag om te protesteren tegen bezuinigingen op het onderwijs."
+    "why": "Studenten protesteren tegen hogere collegegeldtarieven, onderwijsbezuinigingen en verslechterende leeromstandigheden in Franstalig België.",
+    "want": "Ze willen dat de autoriteiten onderwijshervormingen terugdraaien, het collegegeld verlagen en de financiering voor onderwijs verhogen in plaats van militaire investeringen.",
+    "changed": "17 nov.: Enkele duizenden studenten protesteerden in Brussel, wat leidde tot politie-interventies met traangas-waterkanonnen en meerdere arrestaties nabij het Rogierplein."
    },
-   "summary": "Franstalige en Vlaamse studenten mobiliseerden zich op 17 november, Internationale Studenten Dag, in Brussel om te protesteren tegen bezuinigingen en stijgende collegegelden in het hoger onderwijs. Georganiseerd door groepen waaronder de Fédération des étudiants francophones (FEF) en de VVS, verzamelden de demonstranten zich nabij het Centraal Station van Brussel en de Kunstberg. Deelnemers bekritiseerden de overheidsuitgaven aan militaire investeringen terwijl de financiering voor onderwijs, sociale sectoren en huisvesting beperkt blijft. De mobilisatie maakt deel uit van een bredere golf van protesten die de afgelopen maanden aan kracht heeft gewonnen en steun krijgt van diverse vakbondsstakingen.",
+   "summary": "Op 17 november 2026, naar aanleiding van de Internationale Studentenheldendag, the studenten marcheerden in Brussel om onderwijshervormingen, collegegeldverhogingen en bezuinigingen in Franstalig België aan de kaak te stellen. De demonstratie werd met name georganiseerd door de Fédération des étudiants francophones (FEF) en gesteund door vakbondsorganisaties, en bracht enkele duizenden deelnemers samen. Demonstranten bekritiseerden de gestegen studiekosten en de uitgavenprioriteiten van de overheid die militaire investeringen boven onderwijs verkiezen. Volgens berichten gebruikte de politie traangas en waterkanonnen om menigten te verspreiden na interventies nabij het Rogierplein en Botanique, wat leidde tot verschillende arrestaties.",
    "demands": [
-    "Kwalitatief en toegankelijk onderwijs voor iedereen",
-    "Annulering van verhogingen van het collegegeld",
-    "Terugdraaien van bezuinigingen op het onderwijs"
+    "Onderwijshervormingen terugdraaien",
+    "Collegegeldverhogingen annuleren",
+    "Financiering voor onderwijs en sociale diensten verhogen",
+    "Verhogingen van het militaire budget stopzetten"
    ],
-   "response": "Geen officiële reactie gemeld in de bronnen.",
+   "response": "Volgens berichten gebruikte de politie traangas en waterkanonnen om demonstranten rond het Rogierplein en Botanique terug te dringen, en zette zij met helmen uitgeruste agenten met stokken in, wat leidde tot meerdere arrestaties.",
    "updates": [
-    "Studenten marcheerden in Brussel op Internationale Studenten Dag om te protesteren tegen bezuinigingen op het onderwijs en verhogingen van het collegegeld."
+    "Enkele duizenden studenten verzamelden zich in Brussel op Internationale Studentenheldendag om te protesteren tegen de onderwijsomstandigheden en bezuinigingen.",
+    "De politie greep in met traangas, waterkanonnen en stokken nabij Botanique en het Rogierplein, wat leidde tot arrestaties en het uiteendrijven van de menigte."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "De politie verklaarde dat 3200 jonge mensen deelnamen aan de demonstratie, terwijl organisatoren van de FEF beweerden dat er 15 000 demonstranten waren."
+   ],
    "numbers": {
-    "arrests": "Meer dan 600 personen werden gearresteerd"
+    "crowd": "3200 jonge mensen demonstreerden volgens de politie. Dat waren er 15 000 volgens de FEF",
+    "arrests": "Ruim 600 mensen werden gearresteerd"
    }
   }
  },
@@ -253,5 +317,5 @@
   "e671a134074"
  ],
  "endedOn": "2026-11-17",
- "summaryOf": "dc3f2800b0cf"
+ "summaryOf": "e26c1e82f838"
 }
