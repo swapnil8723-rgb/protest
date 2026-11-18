@@ -2,8 +2,8 @@
  "id": "e474a806dd6",
  "slug": "abdanan-bus-crash-protest-nov-2026",
  "stage": "live",
- "title": "Protesters in Abdanan Demand Accountability After Fatal Bus Crash",
- "seoTitle": "Abdanan bus crash protest",
+ "title": "Protesters in Abdanan demand accountability following fatal bus crash",
+ "seoTitle": "Abdanan protest after fatal bus crash",
  "place": {
   "city": "Abdanan",
   "region": "Ilam Province",
@@ -15,9 +15,9 @@
  },
  "scope": "local",
  "causes": [
-  "transport",
   "governance",
-  "anti-government"
+  "anti-government",
+  "transport"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-17",
@@ -26,36 +26,38 @@
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "serious"
+  "serious",
+  "low-confidence",
+  "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters gathered over a deadly bus crash that killed 13 oil and gas industry workers and engineers in western Iran.",
-  "want": "Demonstrators demanded accountability, road safety improvements, and the resignation of officials.",
-  "changed": "Nov 17: Security forces used tear gas against protesters in Abdanan, leading to several arrests."
+  "why": "Residents protested against state incompetence and poor road safety following a bus crash that killed 13 oil and gas industry workers.",
+  "want": "Protesters demanded the resignation of officials and accountability for the fatal accident.",
+  "changed": "Nov 17: Security forces used tear gas to disperse the crowd, and at least four to seven people were reported arrested."
  },
- "summary": "Hundreds of residents took to the streets in Abdanan, Ilam Province, Iran, following a fatal bus crash that claimed the lives of 13 workers and engineers from the Dehloran Petrorefining Company. Initially gathering at Vali-e Asr Square, participants chanted slogans demanding accountability and the resignation of local authorities, which later evolved into anti-government and political slogans. According to reports, security forces deployed tear gas and special police units to disperse the crowd, resulting in confrontations and at least four arrests, including a 15-year-old boy. The Abdanan Security Council called for calm and urged citizens to avoid unlawful gatherings, while local judiciary officials warned of a firm response against those disrupting public order.",
+ "summary": "On November 17, 2026, hundreds of residents in Abdanan, Ilam Province, gathered in Vali-e Asr Square to protest the deaths of 13 employees of the Dehloran Petrorefining Company in a bus crash on November 14. According to Fars news agency, the protest began with demands for accountability and the resignation of officials but escalated into anti-government slogans. Videos verified by the Associated Press showed participants chanting against the country's leadership. The Hengaw Organization for Human Rights reported that security forces used tear gas to suppress the demonstration. The Abdanan prosecutor warned of a firm response to those disrupting public order. While Fars estimated the crowd at approximately 1,000, rights groups reported that several individuals were arrested during the confrontations between protesters and security units.",
  "organizers": [],
  "demands": [
-  "Clarify the circumstances of the fatal bus crash",
-  "Identify and hold accountable those responsible",
-  "Address road safety concerns"
+  "Accountability for the bus crash",
+  "Resignation of responsible officials"
  ],
- "response": "The Abdanan Security Council urged citizens to remain calm and avoid unlawful actions, while local prosecutor Amrollah Misaie warned that individuals seeking to disrupt public order or exploit the incident would be dealt with firmly.",
+ "response": "The Abdanan public prosecutor stated that those exploiting the incident to disrupt order would be dealt with firmly, and the Abdanan Security Council called on citizens to remain calm and avoid unlawful actions.",
  "numbers": {
   "crowd": {
    "value": 1000,
    "text": "approximately 1,000",
    "sources": [
-    1
+    1,
+    3
    ]
   },
   "arrests": {
-   "value": 4,
-   "text": "At least four Kurdish residents",
+   "value": 7,
+   "text": "at least seven",
    "sources": [
-    2
+    6
    ]
   },
   "injuries": {
@@ -79,18 +81,26 @@
  "updates": [
   {
    "at": "2026-11-17",
-   "text": "Hundreds of protesters gathered in Vali-e Asr Square in Abdanan following a fatal bus crash.",
+   "text": "Protesters gathered in Vali-e Asr Square, with numbers reaching approximately 1,000.",
    "sources": [
     1,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-17",
+   "text": "Security forces used tear gas to disperse the crowd following confrontations.",
+   "sources": [
     2,
     3
    ]
   },
   {
    "at": "2026-11-17",
-   "text": "Security forces used tear gas and special police units intervened, leading to confrontations and arrests.",
+   "text": "At least four to seven individuals were arrested by security forces.",
    "sources": [
-    2
+    2,
+    6
    ]
   }
  ],
@@ -122,193 +132,222 @@
    "publisher": "fffi.se",
    "title": "Iran: stor regimkritisk demonstration i Abdanan efter dödlig bussolycka - FFFI",
    "publishedAt": "2026-11-17T23:06:20.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.iranintl.com/en/202611180521",
+   "publisher": "iranintl.com",
+   "title": "Abdanan protests draw solidarity and fears of renewed crackdown",
+   "publishedAt": "2026-11-18T10:36:18.915Z"
+  },
+  {
+   "n": 6,
+   "url": "http://www.thegazette.com/news/world/protesters-rally-in-a-town-in-southwestern-iran-after-a-road-crash-killed-13-refinery/article_8b98c56f-f468-5827-b655-8c36cec54f17.html",
+   "publisher": "thegazette.com",
+   "title": "Protesters rally in a town in southwestern Iran after a road crash killed 13 refinery workers",
+   "publishedAt": "2026-11-18T11:30:35.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.86,
- "publishers": 4,
- "reports24h": 4,
+ "conflicts": [
+  "Hengaw reported at least four arrests, while other sources cited at least seven."
+ ],
+ "confidence": 0.75,
+ "publishers": 6,
+ "reports24h": 8,
  "reportsPrev24h": 0,
- "reports48h": 4,
+ "reports48h": 8,
  "firstSeenAt": "2026-11-17T20:54:38.914Z",
- "lastReportAt": "2026-11-17T23:06:20.000Z",
- "lastCheckedAt": "2026-11-18T08:55:20.279Z",
- "updatedAt": "2026-11-18T04:54:36.566Z",
+ "lastReportAt": "2026-11-18T11:30:35.000Z",
+ "lastCheckedAt": "2026-11-18T12:56:00.461Z",
+ "updatedAt": "2026-11-18T12:55:37.284Z",
  "responseSources": [
   1,
   3
  ],
- "seriousInjuries": true,
+ "seriousInjuries": false,
  "sensitive": true,
- "summarizedAt": "2026-11-18T04:54:36.566Z",
- "summaryOf": "f5dda0ff2dd6",
+ "summarizedAt": "2026-11-18T12:55:37.284Z",
+ "summaryOf": "7ea883772cd7",
  "searchedAt": "2026-11-18T00:50:44.056Z",
  "publishedAt": "2026-11-18T00:54:26.504Z",
  "i18n": {
-  "of": "3d7ad7e49b9f4f27",
-  "at": "2026-11-18T04:57:24.592Z",
+  "of": "09e2a38e87114bfc",
+  "at": "2026-11-18T12:57:07.592Z",
   "tries": 1,
   "es": {
-   "title": "Manifestantes en Abdanan exigen rendición de cuentas tras accidente fatal de autobús",
-   "seoTitle": "Protesta por accidente en Abdanan",
+   "title": "Manifestantes en Abdanan exigen rendición de cuentas tras accidente mortal de autobús",
+   "seoTitle": "Protesta en Abdanan tras accidente mortal de autobús",
    "tea": {
-    "why": "Los manifestantes se reunieron por un accidente mortal de autobús que mató a 13 trabajadores e ingenieros de la industria del petróleo y el gas en el oeste de Irán.",
-    "want": "Los manifestantes exigieron rendición de cuentas, mejoras en la seguridad vial y la dimisión de los funcionarios.",
-    "changed": "17 de noviembre: Las fuerzas de seguridad utilizaron gases lacrimógenos contra los manifestantes en Abdanan, lo que provocó varias detenciones."
+    "why": "Los residentes protestaron contra la incompetencia estatal y la deficiente seguridad vial tras un accidente de autobús que causó la muerte de 13 trabajadores de la industria del petróleo y el gas.",
+    "want": "Los manifestantes exigieron la dimisión de los funcionarios y la rendición de cuentas por el accidente mortal.",
+    "changed": "17 de noviembre: Las fuerzas de seguridad utilizaron gases lacrimógenos para dispersar a la multitud, y se informó de la detención de al menos entre cuatro y siete personas."
    },
-   "summary": "Cientos de residentes salieron a las calles en Abdanan, provincia de Ilam, Irán, tras un trágico accidente de autobús que se cobró la vida de 13 trabajadores e ingenieros de la empresa Dehloran Petrorefining Company. Reunidos inicialmente en la plaza Vali-e Asr, los participantes corearon consignas exigiendo rendición de cuentas y la dimisión de las autoridades locales, las cuales derivaron más tarde en eslóganes antigubernamentales y políticos. Según los informes, las fuerzas de seguridad desplegaron gases lacrimógenos y unidades policiales especiales para dispersar a la multitud, lo que dio lugar a enfrentamientos y al menos cuatro detenciones, incluido un menor de 15 años. El Consejo de Seguridad de Abdanan hizo un llamado a la calma e instó a los ciudadanos a evitar concentraciones ilegales, mientras que los funcionarios judiciales locales advirtieron de una respuesta firme contra quienes alteren el orden público.",
+   "summary": "El 17 de noviembre de 2026, cientos de residentes en Abdanan, provincia de Ilam, se reunieron en la plaza Vali-e Asr para protestar por la muerte de 13 empleados de la empresa Dehloran Petrorefining en un accidente de autobús ocurrido el 14 de noviembre. Según la agencia de noticias Fars, la protesta comenzó con demandas de rendición de cuentas y la dimisión de funcionarios, pero derivó en consignas antigubernamentales. Vídeos verificados por Associated Press mostraron a los participantes coreando contra el liderazgo del país. La Organización Hengaw para los Derechos Humanos informó de que las fuerzas de seguridad utilizaron gases lacrimógenos para reprimir la manifestación. El fiscal de Abdanan advirtió de una respuesta firme contra quienes alteren el orden público. Aunque Fars estimó la multitud en aproximadamente 1.000 personas, grupos de derechos humanos informaron de que varias personas fueron detenidas durante los enfrentamientos entre manifestantes y unidades de seguridad.",
    "demands": [
-    "Esclarecer las circunstancias del accidente mortal de autobús",
-    "Identificar y exigir responsabilidades a los culpables",
-    "Abordar las preocupaciones sobre la seguridad vial"
+    "Rendición de cuentas por el accidente de autobús",
+    "Dimisión de los funcionarios responsables"
    ],
-   "response": "El Consejo de Seguridad de Abdanan instó a los ciudadanos a mantener la calma y evitar acciones ilegales, mientras que el fiscal local Amrollah Misaie advirtió que los individuos que busquen alterar el orden público o explotar el incidente serán tratados con firmeza.",
+   "response": "El fiscal público de Abdanan declaró que quienes exploten el incidente para alterar el orden serán tratados con firmeza, y el Consejo de Seguridad de Abdanan pidió a los ciudadanos que mantengan la calma y eviten acciones ilegales.",
    "updates": [
-    "Cientos de manifestantes se congregaron en la plaza Vali-e Asr en Abdanan tras un accidente mortal de autobús.",
-    "Las fuerzas de seguridad utilizaron gases lacrimógenos y unidades policiales especiales intervinieron, lo que provocó enfrentamientos y detenciones."
+    "Los manifestantes se reunieron en la plaza Vali-e Asr, con un número que alcanzó aproximadamente las 1.000 personas.",
+    "Las fuerzas de seguridad utilizaron gases lacrimógenos para dispersar a la multitud tras los enfrentamientos.",
+    "Al menos entre cuatro y siete personas fueron detenidas por las fuerzas de seguridad."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Hengaw informó de al menos cuatro detenciones, mientras que otras fuentes citaron al menos siete."
+   ],
    "numbers": {
-    "crowd": "aproximadamente 1 000",
-    "arrests": "Al menos cuatro residentes kurdos",
+    "crowd": "aproximadamente 1.000",
+    "arrests": "al menos siete",
     "injuries": "17 personas más heridas",
     "deaths": "13 personas murieron"
    }
   },
   "fr": {
-   "title": "Des manifestants à Abdanan exigent des comptes après un accident de bus mortel",
-   "seoTitle": "Manifestation suite à l'accident de bus à Abdanan",
+   "title": "À Abdanan, des manifestants réclament des comptes après un accident de bus mortel",
+   "seoTitle": "Protestation à Abdanan après un accident de bus mortel",
    "tea": {
-    "why": "Des manifestants se sont rassemblés à la suite d'un accident de bus mortel qui a coûté la vie à 13 travailleurs et ingénieurs de l'industrie pétrolière et gazière dans l'ouest de l'Iran.",
-    "want": "Les manifestants ont exigé des comptes, des améliorations de la sécurité routière et la démission des responsables.",
-    "changed": "17 nov. : Les forces de sécurité ont utilisé des gaz lacrymogènes contre les manifestants à Abdanan, entraînant plusieurs arrestations."
+    "why": "Des résidents ont manifesté contre l'incompétence de l'État et le manque de sécurité routière à la suite d'un accident de bus ayant causé la mort de 13 travailleurs de l'industrie pétrolière et gazière.",
+    "want": "Les manifestants ont exigé la démission des responsables et des comptes concernant l'accident mortel.",
+    "changed": "17 novembre : Les forces de sécurité ont utilisé des gaz lacrymogènes pour disperser la foule, et au moins quatre à sept personnes ont été signalées comme arrêtées."
    },
-   "summary": "Des centaines de résidents sont descendus dans les rues d'Abdanan, dans la province d'Ilam en Iran, à la suite d'un accident de bus mortel qui a coûté la vie à 13 travailleurs et ingénieurs de la Dehloran Petrorefining Company. Rassemblés initialement sur la place Vali-e Asr, les participants ont scandé des slogans exigeant des comptes et la démission des autorités locales, qui ont ensuite évolué vers des slogans antigouvernementaux et politiques. Selon des rapports, les forces de sécurité ont déployé des gaz lacrymogènes et des unités de police spéciales pour disperser la foule, ce qui a entraîné des affrontements et au moins quatre arrestations, dont un garçon de 15 ans. Le Conseil de sécurité d'Abdanan a appelé au calme et a exhorté les citoyens à éviter les rassemblements illégaux, tandis que les autorités judiciaires locales ont averti d'une réponse ferme à l'encontre de ceux qui perturbent l'ordre public.",
+   "summary": "Le 17 novembre 2026, des centaines de résidents d'Abdanan, dans la province d'Ilam, se sont rassemblés sur la place Vali-e Asr pour protester contre le décès de 13 employés de la société Dehloran Petrorefining lors d'un accident de bus survenu le 14 novembre. Selon l'agence de presse Fars, la manifestation a débuté par des demandes de comptes et la démission de responsables, mais a dégénéré en slogans antigouvernementaux. Des vidéos vérifiées par l'Associated Press ont montré des participants scandant des slogans contre les dirigeants du pays. L'organisation Hengaw pour les droits de l'homme a rapporté que les forces de sécurité ont utilisé des gaz lacrymogènes pour réprimer la manifestation. Le procureur d'Abdanan a averti qu'une réponse ferme serait apportée à ceux qui troublent l'ordre public. Alors que Fars a estimé la foule à environ 1 000 personnes, des groupes de défense des droits ont rapporté que plusieurs individus ont été arrêtés lors des affrontements entre les manifestants et les unités de sécurité.",
    "demands": [
-    "Clarifier les circonstances de l'accident de bus mortel",
-    "Identifier et traduire en justice les responsables",
-    "Aborder les préoccupations en matière de sécurité routière"
+    "Des comptes pour l'accident de bus",
+    "La démission des responsables concernés"
    ],
-   "response": "Le Conseil de sécurité d'Abdanan a exhorté les citoyens à rester calmes et à éviter les actions illégales, tandis que le procureur local Amrollah Misaie a prévenu que les individus cherchant à perturber l'ordre public ou à exploiter l'incident feraient l'objet d'une réponse ferme.",
+   "response": "Le procureur public d'Abdanan a déclaré que ceux qui exploitent l'incident pour troubler l'ordre seraient traités avec fermeté, et le Conseil de sécurité d'Abdanan a appelé les citoyens à rester calmes et à éviter les actions illégales.",
    "updates": [
-    "Des centaines de manifestants se sont rassemblés sur la place Vali-e Asr à Abdanan à la suite d'un accident de bus mortel.",
-    "Les forces de sécurité ont utilisé des gaz lacrymogènes et des unités de police spéciales sont intervenues, entraînant des affrontements et des arrestations."
+    "Les manifestants se sont rassemblés sur la place Vali-e Asr, atteignant un nombre d'environ 1 000 personnes.",
+    "Les forces de sécurité ont utilisé des gaz lacrymogènes pour disperser la foule après des affrontements.",
+    "Au moins quatre à sept individus ont été arrêtés par les forces de sécurité."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Hengaw a rapporté au moins quatre arrestations, tandis que d'autres sources en ont cité au moins sept."
+   ],
    "numbers": {
     "crowd": "environ 1 000",
-    "arrests": "Au moins quatre résidents kurdes",
-    "injuries": "17 autres blessés",
+    "arrests": "au moins sept",
+    "injuries": "17 autres personnes blessées",
     "deaths": "13 personnes ont été tuées"
    }
   },
   "de": {
-   "title": "Demonstranten in Abdanan fordern Aufklärung nach tödlichem Busunfall",
-   "seoTitle": "Busunfall-Protest in Abdanan",
+   "title": "Demonstranten in Abdanan fordern Rechenschaft nach tödlichem Busunglück",
+   "seoTitle": "Protest in Abdanan nach tödlichem Busunglück",
    "tea": {
-    "why": "Demonstranten versammelten sich wegen eines tödlichen Busunfalls, bei dem 13 Arbeiter und Ingenieure der Öl- und Gasindustrie im Westen des Irans ums Leben kamen.",
-    "want": "Demonstranten forderten Rechenschaftspflicht, Verbesserungen der Verkehrssicherheit und den Rücktritt von Amtsträgern.",
-    "changed": "17. Nov.: Sicherheitskräfte setzten in Abdanan Tränengas gegen Demonstranten ein, was zu mehreren Festnahmen führte."
+    "why": "Anwohner protestierten gegen staatliche Inkompetenz und mangelnde Verkehrssicherheit nach einem Busunglück, bei dem 13 Arbeiter der Öl- und Gasindustrie ums Leben kamen.",
+    "want": "Die Demonstranten forderten den Rücktritt von Amtsträgern und Rechenschaft für den tödlichen Unfall.",
+    "changed": "17. November: Sicherheitskräfte setzten Tränengas ein, um die Menge aufzulösen, und mindestens vier bis sieben Personen wurden Berichten zufolge festgenommen."
    },
-   "summary": "Hunderte Einwohner gingen in Abdanan in der Provinz Ilam im Iran auf die Straße, nachdem ein tödlicher Busunfall das Leben von 13 Arbeitern und Ingenieuren der Dehloran Petrorefining Company gefordert hatte. Die Teilnehmer versammelten sich zunächst am Vali-e Asr Platz und riefen Parolen, in denen sie Rechenschaftspflicht und den Rücktritt der lokalen Behörden forderten, was sich später zu regierungskritischen und politischen Parolen entwickelte. Berichten zufolge setzen Sicherheitskräfte Tränengas und Sondereinheiten der Polizei ein, um die Menge aufzulösen, was zu Konfrontationen und mindestens vier Festnahmen, darunter ein 15-jähriger Junge, führte. Der Sicherheitsrat von Abdanan rief zur Ruhe auf und forderte die Bürger auf, ungesetzliche Versammlungen zu vermeiden, während lokale Justizbeamte vor einer entschlossenen Reaktion gegen diejenigen warnten, die die öffentliche Ordnung stören.",
+   "summary": "Am 17. November 2026 versammelten sich Hunderte Anwohner in Abdanan, Provinz Ilam, auf dem Vali-e Asr Platz, um gegen den Tod von 13 Mitarbeitern der Dehloran Petrorefining Company bei einem Busunglück am 14. November zu protestieren. Laut der Nachrichtenagentur Fars begann der Protest mit Forderungen nach Rechenschaft und dem Rücktritt von Amtsträgern, eskalierte jedoch zu regierungsfeindlichen Parolen. Von der Associated Press verifizierte Videos zeigten Teilnehmer, die gegen die Führung des Landes skandierten. Die Hengaw Organization for Human Rights berichtete, dass Sicherheitskräfte Tränengas einsetzten, um die Demonstration zu unterdrücken. Der Staatsanwalt von Abdanan warnte vor einer entschlossenen Reaktion gegen diejenigen, die die öffentliche Ordnung stören. Während Fars die Menge auf etwa 1.000 schätzte, berichteten Menschenrechtsgruppen, dass während der Konfrontationen zwischen Demonstranten und Sicherheitseinheiten mehrere Personen festgenommen wurden.",
    "demands": [
-    "Die Umstände des tödlichen Busunfalls klären",
-    "Verantwortliche ermitteln und zur Rechenschaft ziehen",
-    "Bedenken bezüglich der Verkehrssicherheit angehen"
+    "Rechenschaft für das Busunglück",
+    "Rücktritt der verantwortlichen Amtsträger"
    ],
-   "response": "Der Sicherheitsrat von Abdanan forderte die Bürger auf, ruhig zu bleiben und ungesetzliche Handlungen zu vermeiden, während der lokale Staatsanwalt Amrollah Misaie warnte, dass Personen, die versuchen, die öffentliche Ordnung zu stören oder den Vorfall auszunutzen, hart bestraft werden.",
+   "response": "Der Staatsanwalt von Abdanan erklärte, dass diejenigen, die den Vorfall zur Störung der Ordnung ausnutzen, entschlossen behandelt würden, und der Sicherheitsrat von Abdanan rief die Bürger dazu auf, ruhig zu bleiben und rechtswidrige Handlungen zu unterlassen.",
    "updates": [
-    "Hunderte Demonstranten versammelten sich nach einem tödlichen Busunfall auf dem Vali-e Asr Platz in Abdanan.",
-    "Sicherheitskräfte setzten Tränengas ein und Sondereinheiten der Polizei griffen ein, was zu Konfrontationen und Festnahmen führte."
+    "Demonstranten versammelten sich auf dem Vali-e Asr Platz, wobei die Zahl etwa 1.000 erreichte.",
+    "Sicherheitskräfte setzten nach Konfrontationen Tränengas ein, um die Menge aufzulösen.",
+    "Mindestens vier bis sieben Personen wurden von Sicherheitskräften festgenommen."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Hengaw berichtete von mindestens vier Festnahmen, während andere Quellen mindestens sieben nannten."
+   ],
    "numbers": {
-    "crowd": "etwa 1 000",
-    "arrests": "Mindestens vier kurdische Bewohner",
-    "injuries": "17 weitere Verletzte",
-    "deaths": "13 Menschen wurden getötet"
+    "crowd": "etwa 1.000",
+    "arrests": "mindestens sieben",
+    "injuries": "17 weitere Personen verletzt",
+    "deaths": "13 Menschen kamen ums Leben"
    }
   },
   "it": {
-   "title": "Manifestanti ad Abdanan chiedono responsabilità dopo un incidente d'autobus mortale",
-   "seoTitle": "Protesta per incidente d'autobus ad Abdanan",
+   "title": "Manifestanti ad Abdanan chiedono giustizia dopo un incidente mortale in autobus",
+   "seoTitle": "Protesta ad Abdanan dopo incidente mortale in autobus",
    "tea": {
-    "why": "I manifestanti si sono riuniti per un incidente d'autobus mortale che ha ucciso 13 lavoratori e ingegneri dell'industria petrolifera e del gas nell'Iran occidentale.",
-    "want": "I manifestanti hanno chiesto responsabilità, miglioramenti della sicurezza stradale e le dimissioni dei funzionari.",
-    "changed": "17 nov: Le forze di sicurezza hanno usato gas lacrimogeni contro i manifestanti ad Abdanan, portando a diversi arresti."
+    "why": "I residenti hanno protestato contro l'incompetenza statale e la scarsa sicurezza stradale in seguito a un incidente in autobus che ha ucciso 13 lavoratori dell'industria petrolifera e del gas.",
+    "want": "I manifestanti hanno chiesto le dimissioni dei funzionari e la responsabilità per l'incidente mortale.",
+    "changed": "17 novembre: Le forze di sicurezza hanno usato gas lacrimogeni per disperdere la folla e sono stati segnalati almeno da quattro a sette arresti."
    },
-   "summary": "Centinaia di residenti sono scesi in piazza ad Abdanan, nella provincia di Ilam, in Iran, a seguito di un incidente d'autobus mortale che ha tolto la vita a 13 lavoratori e ingegneri della Dehloran Petrorefining Company. Riunitisi inizialmente in piazza Vali-e Asr, i partecipanti hanno intonato slogan chiedendo responsabilità e le dimissioni delle autorità locali, che si sono poi trasformati in slogan antigovernativi e politici. Secondo quanto riferito, le forze di sicurezza hanno impiegato gas lacrimogeni e reparti speciali della polizia per disperdere la folla, provocando scontri e almeno quattro arresti, tra cui un ragazzo di 15 anni. Il Consiglio di sicurezza di Abdanan ha lanciato un appello alla calma e ha esortato i cittadini ad evitare assembramenti illegali, mentre i funzionari giudiziari locali hanno avvertito che ci sarà una risposta ferma contro chi turba l'ordine pubblico.",
+   "summary": "Il 17 novembre 2026, centinaia di residenti ad Abdanan, nella provincia di Ilam, si sono riuniti in piazza Vali-e Asr per protestare contro la morte di 13 dipendenti della Dehloran Petrorefining Company in un incidente in autobus il 14 novembre. Secondo l'agenzia di stampa Fars, la protesta è iniziata con richieste di responsabilità e le dimissioni dei funzionari, ma è degenerata in slogan antigovernativi. I video verificati dall'Associated Press hanno mostrato i partecipanti inneggiare contro la leadership del paese. L'Organizzazione Hengaw per i diritti umani ha riferito che le forze di sicurezza hanno usato gas lacrimogeni per reprimere la manifestazione. Il procuratore di Abdanan ha avvertito di una risposta ferma contro coloro che disturbano l'ordine pubblico. Mentre Fars ha stimato la folla in circa 1.000 persone, i gruppi per i diritti umani hanno riferito che diversi individui sono stati arrestati durante gli scontri tra manifestanti e unità di sicurezza.",
    "demands": [
-    "Chiarire le circostanze dell'incidente d'autobus mortale",
-    "Identificare e ritenere responsabili i colpevoli",
-    "Affrontare i problemi di sicurezza stradale"
+    "Responsabilità per l'incidente in autobus",
+    "Dimissioni dei funzionari responsabili"
    ],
-   "response": "Il Consiglio di sicurezza di Abdanan ha esortato i cittadini a mantenere la calma e a evitare azioni illegali, mentre il procuratore locale Amrollah Misaie ha avvertito che gli individui che cercano di turbare l'ordine pubblico o di sfruttare l'incidente saranno trattati con fermezza.",
+   "response": "Il procuratore pubblico di Abdanan ha dichiarato che coloro che sfruttano l'incidente per disturbare l'ordine saranno trattati con fermezza, e il Consiglio di sicurezza di Abdanan ha invitato i cittadini a mantenere la calma ed evitare azioni illegali.",
    "updates": [
-    "Centinaia di manifestanti si sono radunati in piazza Vali-e Asr ad Abdanan a seguito di un incidente d'autobus mortale.",
-    "Le forze di sicurezza hanno usato gas lacrimogeni e reparti speciali della polizia sono intervenuti, portando a scontri e arresti."
+    "I manifestanti si sono riuniti in piazza Vali-e Asr, con un numero che ha raggiunto circa 1.000 persone.",
+    "Le forze di sicurezza hanno usato gas lacrimogeni per disperdere la folla in seguito agli scontri.",
+    "Almeno da quattro a sette individui sono stati arrestati dalle forze di sicurezza."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Hengaw ha riferito di almeno quattro arresti, mentre altre fonti ne hanno citati almeno sette."
+   ],
    "numbers": {
-    "crowd": "circa 1 000",
-    "arrests": "Almeno quattro residenti curdi",
-    "injuries": "Altri 17 feriti",
-    "deaths": "13 persone sono state uccise"
+    "crowd": "circa 1.000",
+    "arrests": "almeno sette",
+    "injuries": "17 altre persone ferite",
+    "deaths": "13 persone sono morte"
    }
   },
   "pt": {
-   "title": "Manifestantes em Abdanan exigem responsabilização após acidente fatal de autocarro",
-   "seoTitle": "Protesto por acidente de autocarro em Abdanan",
+   "title": "Manifestantes em Abdanan exigem responsabilidade após acidente mortal de autocarro",
+   "seoTitle": "Protesto em Abdanan após acidente mortal de autocarro",
    "tea": {
-    "why": "Os manifestantes reuniram-se devido a um acidente de autocarro mortal que vitimou 13 trabalhadores e engenheiros da indústria do petróleo e gás no oeste do Irão.",
-    "want": "Os manifestantes exigiram responsabilização, melhorias na segurança rodoviária e a demissão de responsáveis.",
-    "changed": "17 nov: As forças de segurança utilizaram gás lacrimogéneo contra os manifestantes em Abdanan, resultando em várias detenções."
+    "why": "Os residentes protestaram contra a incompetência estatal e a fraca segurança rodoviária após um acidente de autocarro que matou 13 trabalhadores da indústria petrolífera e de gás.",
+    "want": "Os manifestantes exigiram a demissão de funcionários e a responsabilização pelo acidente mortal.",
+    "changed": "17 de novembro: As forças de segurança usaram gás lacrimogéneo para dispersar a multidão, e pelo menos quatro a sete pessoas foram dadas como detidas."
    },
-   "summary": "Centenas de residentes saíram à rua em Abdanan, na província de Ilam, no Irão, na sequência de um acidente de autocarro fatal que tirou a vida a 13 trabalhadores e engenheiros da empresa Dehloran Petrorefining Company. Reunidos inicialmente na Praça Vali-e Asr, os participantes entoaram palavras de ordem a exigir responsabilização e a demissão das autoridades locais, que mais tarde evoluíram para slogans antigovernamentais e políticos. Segundo relatos, as forças de segurança despregaram gás lacrimogéneo e unidades policiais especiais para dispersar a multidão, resultando em confrontos e em pelo menos quatro detenções, incluindo um rapaz de 15 anos. O Conselho de Segurança de Abdanan apelou à calma e instou os cidadãos a evitarem concentrações ilegais, enquanto responsáveis judiciais locais alertaram para uma resposta firme contra os que perturbem a ordem pública.",
+   "summary": "No dia 17 de novembro de 2026, centenas de residentes em Abdanan, na província de Ilam, reuniram-se na praça Vali-e Asr para protestar contra a morte de 13 funcionários da empresa Dehloran Petrorefining num acidente de autocarro a 14 de novembro. Segundo a agência noticiosa Fars, o protesto começou com exigências de responsabilidade e a demissão de funcionários, mas escalou para slogans antigovernamentais. Vídeos verificados pela Associated Press mostraram os participantes a gritar contra a liderança do país. A Organização Hengaw para os Direitos Humanos informou que as forças de segurança usaram gás lacrimogéneo para suprimir a manifestação. O procurador de Abdanan avisou que haveria uma resposta firme contra aqueles que perturbassem a ordem pública. Embora a Fars tenha estimado a multidão em aproximadamente 1.000 pessoas, grupos de direitos humanos informaram que vários indivíduos foram detidos durante os confrontos entre manifestantes e unidades de segurança.",
    "demands": [
-    "Esclarecer as circunstâncias do acidente de autocarro fatal",
-    "Identificar e responsabilizar os culpados",
-    "Abordar as preocupações de segurança rodoviária"
+    "Responsabilidade pelo acidente de autocarro",
+    "Demissão dos funcionários responsáveis"
    ],
-   "response": "O Conselho de Segurança de Abdanan instou os cidadãos a manterem a calma e a evitarem ações ilegais, enquanto o procurador local Amrollah Misaie avisou que os indivíduos que procurem perturbar a ordem pública ou explorar o incidente serão tratados com firmeza.",
+   "response": "O procurador público de Abdanan declarou que aqueles que explorassem o incidente para perturbar a ordem seriam tratados com firmeza, e o Conselho de Segurança de Abdanan apelou aos cidadãos para que mantivessem a calma e evitassem ações ilegais.",
    "updates": [
-    "Centenas de manifestantes reuniram-se na Praça Vali-e Asr em Abdanan na sequência de um acidente de autocarro fatal.",
-    "As forças de segurança utilizaram gás lacrimogéneo e unidades policiais especiais intervenham, resultando em confrontos e detenções."
+    "Os manifestantes reuniram-se na praça Vali-e Asr, com números a atingirem aproximadamente 1.000.",
+    "As forças de segurança usaram gás lacrimogéneo para dispersar a multidão após confrontos.",
+    "Pelo menos quatro a sete indivíduos foram detidos pelas forças de segurança."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "A Hengaw informou pelo menos quatro detenções, enquanto outras fontes citaram pelo menos sete."
+   ],
    "numbers": {
-    "crowd": "aproximadamente 1 000",
-    "arrests": "Pelo menos quatro residentes curdos",
-    "injuries": "Outros 17 feridos",
-    "deaths": "13 pessoas foram mortas"
+    "crowd": "aproximadamente 1.000",
+    "arrests": "pelo menos sete",
+    "injuries": "17 outras pessoas feridas",
+    "deaths": "13 pessoas morreram"
    }
   },
   "nl": {
-   "title": "Demonstranten in Abdanan eisen verantwoording na dodelijk busongeluk",
-   "seoTitle": "Protest om busongeluk in Abdanan",
+   "title": "Betogers in Abdanan eisen verantwoording na dodelijk busongeluk",
+   "seoTitle": "Protest in Abdanan na dodelijk busongeluk",
    "tea": {
-    "why": "Demonstranten kwamen bijeen naar aanleiding van een dodelijk busongeluk waarbij 13 werknemers en ingenieurs uit de olie- en gasindustrie in het westen van Iran om het leven kwamen.",
-    "want": "Demonstranten eisten verantwoording, verbeteringen in de verkeersveiligheid en het aftreden vanfunctionarissen.",
-    "changed": "17 nov.: Veiligheidstroepen gebruikten tranengas tegen demonstranten in Abdanan, wat leidde tot verschillende arrestaties."
+    "why": "Bewoners protesteerden tegen incompetentie van de staat en slechte verkeersveiligheid na een busongeluk waarbij 13 werknemers uit de olie- en gasindustrie omkwamen.",
+    "want": "Betogers eisten het aftreden van functionarissen en verantwoording voor het dodelijke ongeluk.",
+    "changed": "17 november: Veiligheidstroepen gebruikten traangas om de menigte uiteen te drijven en er werd gemeld dat ten minste vier tot zeven mensen waren gearresteerd."
    },
-   "summary": "Honderden inwoners gingen de straat op in Abdanan, in de provincie Ilam in Iran, na een dodelijk busongeluk dat het leven kostte aan 13 werknemers en ingenieurs van de Dehloran Petrorefining Company. De deelnemers verzamelden zich aanvankelijk op het Vali-e Asr-plein en riepen leuzen waarin om verantwoording en het aftreden van lokale autoriteiten werd gevraagd, wat later overging in antigeregeringssollen en politieke leuzen. Volgens berichten zetten de veiligheidstroepen tranengas en speciale politie-eenheden in om de menigte uiteen te drijven, wat leidde tot confrontaties en ten minste vier arrestaties, waaronder een 15-jarige jongen. De Veiligheidsraad van Abdanan riep op tot kalmte en drong er bij burgers op aan illegale bijeenkomsten te vermijden, terwijl lokale justitiefunctionarissen waarschuwden voor een harde reactie tegen hen die de openbare orde verstoren.",
+   "summary": "Op 17 november 2026 verzamelden honderden bewoners in Abdanan, provincie Ilam, zich op het Vali-e Asr-plein om te protesteren tegen de dood van 13 werknemers van de Dehloran Petrorefining Company bij een busongeluk op 14 november. Volgens persbureau Fars begon het protest met eisen voor verantwoording en het aftreden van functionarissen, maar escaleerde het in anti-regeringsleuzen. Video's die door de Associated Press zijn geverifieerd, toonden deelnemers die leuzen riepen tegen de leiding van het land. De Hengaw Organization for Human Rights meldde dat veiligheidstroepen traangas gebruikten om de demonstratie te onderdrukken. De officier van justitie van Abdanan waarschuwde voor een krachtige reactie tegen degenen die de openbare orde verstoren. Terwijl Fars de menigte schatte op ongeveer 1.000 personen, meldden mensenrechtengroepen dat verschillende individuen werden gearresteerd tijdens de confrontaties tussen betogers en veiligheidseenheden.",
    "demands": [
-    "De omstandigheden van het dodelijke busongeluk ophelderen",
-    "De verantwoordelijken identificeren en ter verantwoording roepen",
-    "Zorgen over de verkeersveiligheid aanpakken"
+    "Verantwoording voor het busongeluk",
+    "Aftreden van verantwoordelijke functionarissen"
    ],
-   "response": "De Veiligheidsraad van Abdanan drong er bij burgers op aan kalm te blijven en illegale handelingen te vermijden, terwijl de lokale aanklager Amrollah Misaie waarschuwde dat personen die de openbare orde proberen te verstoren of het incident willen misbruiken hard zullen worden aangepakt.",
+   "response": "De officier van justitie van Abdanan verklaarde dat degenen die het incident misbruiken om de orde te verstoren krachtig zouden worden aangepakt, en de Veiligheidsraad van Abdanan riep burgers op om kalm te blijven en onwettige acties te vermijden.",
    "updates": [
-    "Honderden demonstranten verzamelden zich op het Vali-e Asr-plein in Abdanan na een dodelijk busongeluk.",
-    "Veiligheidstroepen gebruikten tranengas en speciale politie-eenheden grepen in, wat leidde tot confrontaties en arrestaties."
+    "Betogers verzamelden zich op het Vali-e Asr-plein, met aantallen die ongeveer 1.000 bereikten.",
+    "Veiligheidstroepen gebruikten traangas om de menigte na confrontaties uiteen te drijven.",
+    "Ten minste vier tot zeven individuen werden gearresteerd door veiligheidstroepen."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Hengaw meldde ten minste vier arrestaties, terwijl andere bronnen er ten minste zeven noemden."
+   ],
    "numbers": {
     "crowd": "ongeveer 1.000",
-    "arrests": "Ten minste vier Koerdische inwoners",
+    "arrests": "ten minste zeven",
     "injuries": "17 anderen gewond",
     "deaths": "13 mensen kwamen om het leven"
    }
   }
- }
+ },
+ "endedOn": "2026-11-17"
 }
