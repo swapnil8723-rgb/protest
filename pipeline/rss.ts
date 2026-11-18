@@ -205,24 +205,52 @@ export function parseFeed(xml: string): RssItem[] {
   return items;
 }
 
+/** Worth a second try: the network dropped, timed out, rate-limited or the server erred.
+ *  A 403/404 is a block or a moved feed and won't change in seconds. */
+export const retryableFeedError = (msg: string) => !/^(4\d\d)$/.test(msg) || msg === '429';
+
 export async function discoverRss(log: (s: string) => void, maxAgeHours = 72): Promise<RssItem[]> {
   const out: RssItem[] = [];
+  const read = async (f: string, ms: number) => {
+    const res = await fetch(f, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(ms) });
+    if (!res.ok) throw new Error(String(res.status));
+    out.push(
+      ...parseFeed(await res.text()).filter(
+        (i) =>
+          looksLikeProtest(`${i.title} ${i.description}`) &&
+          !isBlockedUrl(i.url) &&
+          (!i.publishedAt || Date.now() - Date.parse(i.publishedAt) < maxAgeHours * 3.6e6),
+      ),
+    );
+  };
+  // Every feed at once; the runner's network sometimes drops a whole burst (13, 14, 16 Nov 2026:
+  // 15–22 feeds, Guardian included), so failed ones get one short retry instead of waiting 4 hours.
+  const failed: string[] = [];
   await Promise.all(
     FEEDS.map(async (f) => {
       try {
-        const res = await fetch(f, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(20000) });
-        if (!res.ok) throw new Error(String(res.status));
-        const items = parseFeed(await res.text()).filter(
-          (i) =>
-            looksLikeProtest(`${i.title} ${i.description}`) &&
-            !isBlockedUrl(i.url) &&
-            (!i.publishedAt || Date.now() - Date.parse(i.publishedAt) < maxAgeHours * 3.6e6),
-        );
-        out.push(...items);
+        await read(f, 20000);
       } catch (e) {
-        log(`rss ${new URL(f).hostname}: ${(e as Error).message}`);
+        const msg = (e as Error).message;
+        if (retryableFeedError(msg)) failed.push(f);
+        else log(`rss ${new URL(f).hostname}: ${msg}`);
       }
     }),
   );
+  if (failed.length) {
+    await new Promise((r) => setTimeout(r, 3000));
+    let recovered = 0;
+    await Promise.all(
+      failed.map(async (f) => {
+        try {
+          await read(f, 10000);
+          recovered++;
+        } catch (e) {
+          log(`rss ${new URL(f).hostname}: ${(e as Error).message}`);
+        }
+      }),
+    );
+    log(`rss: ${failed.length} feeds retried, ${recovered} recovered`);
+  }
   return out;
 }

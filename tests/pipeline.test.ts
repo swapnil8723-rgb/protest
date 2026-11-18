@@ -10,7 +10,7 @@ import { edition, toSearch } from '../pipeline/corroborate.ts';
 import { independentGroups, newEvent, findSimilar } from '../pipeline/events.ts';
 import { parseEvents } from '../pipeline/gdelt.ts';
 import { resolvePlace } from '../pipeline/geo.ts';
-import { parseFeed } from '../pipeline/rss.ts';
+import { parseFeed, retryableFeedError } from '../pipeline/rss.ts';
 import { score, confidence } from '../pipeline/score.ts';
 import { apply, makeSlug, reserveSlugs } from '../pipeline/summarize.ts';
 import { extract } from '../pipeline/article.ts';
@@ -347,4 +347,9 @@ test("second-newsroom search uses the source newsroom's language and edition", (
   assert.equal(edition('pt', 'pt').params, 'hl=pt-150&gl=PT&ceid=PT:pt-150');
   assert.deepEqual(edition('de', 'en'), { q: 'en', params: 'hl=en-US&gl=US&ceid=US:en' }); // DW English stays on our title
   assert.equal(edition('us', undefined).q, 'en');
+});
+
+test('rss: network drops, timeouts, 429 and 5xx are retried; 403/404 are not', () => {
+  for (const m of ['fetch failed', 'The operation was aborted due to timeout', '429', '500', '503']) assert.equal(retryableFeedError(m), true, m);
+  for (const m of ['403', '404', '410']) assert.equal(retryableFeedError(m), false, m);
 });
