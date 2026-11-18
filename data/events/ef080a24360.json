@@ -16,47 +16,62 @@
  "scope": "multi-city",
  "causes": [
   "labour",
-  "prices"
+  "prices",
+  "jobs"
  ],
  "kind": "multi-day",
  "startedOn": "2026-11-15",
  "status": "ongoing",
  "vibe": "cooling-down",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "top-10"
+ ],
  "isOngoing": true,
  "published": true,
  "tea": {
   "why": "Workers state their current monthly wage of 12,500 taka is insufficient to cover rising costs for food, housing, transport, and healthcare.",
   "want": "An increase in the minimum monthly wage to 30,000 taka.",
-  "changed": "Nov 17: Reports indicate the scheduled meeting of the Minimum Wage Board was postponed."
+  "changed": "Nov 18: Police and workers clashed in Gazipur and Savar as protesters blocked major highways, leading to police using tear gas and batons."
  },
- "summary": "Garment workers in Gazipur, Bangladesh, have engaged in ongoing protests demanding a 140 percent increase in their minimum monthly wage, from 12,500 taka to 30,000 taka. Demonstrations occurred in the Konabari and Mouchak areas, where workers attempted to block the Dhaka-Tangail highway. In response, police used tear gas and sound grenades to disperse the crowds. Authorities have deployed 13 platoons of Border Guard Bangladesh, along with police and the Special Response Battalion, to secure industrial zones. Factory owners reported that dozens of units in Gazipur and the Savar-Ashulia belt closed indefinitely or for the day due to the unrest. The government-appointed Minimum Wage Board, tasked with reviewing the pay structure, was scheduled to meet to discuss proposals, though reports indicate this meeting was subsequently postponed.",
- "organizers": [
-  "Bangladesh Garments and Sweaters Workers Trade Union Centre"
- ],
+ "summary": "Garment workers in Gazipur and surrounding industrial areas have been protesting for several weeks to demand a minimum monthly wage increase from 12,500 taka to 30,000 taka. The unrest intensified on November 15, leading to the indefinite closure of at least 13 factories in Gazipur and dozens more across the Savar-Ashulia belt. Authorities responded by deploying 13 platoons of Border Guard Bangladesh, police in riot gear, and the Special Response Battalion. Law enforcement officials, including Gazipur Industrial Police Superintendent Amzad Hossain, stated they have actively prevented workers from gathering at key locations. While the government-appointed Minimum Wage Board was scheduled to meet to discuss pay structures, protests continued through November 18, involving highway blockades and clashes with police who utilized tear gas, sound grenades, and batons to disperse crowds.",
+ "organizers": [],
  "demands": [
   "Increase minimum monthly wage to 30,000 taka"
  ],
- "response": "Police used tear gas and sound grenades to disperse protesters. Authorities deployed 13 platoons of Border Guard Bangladesh, police in riot gear, the Special Response Battalion, and Ansar personnel, while 25 executive magistrates were assigned to oversee security.",
- "numbers": {},
+ "response": "Authorities deployed 13 platoons of Border Guard Bangladesh, police in riot gear, and the Special Response Battalion. Gazipur Industrial Police Superintendent Amzad Hossain stated that law enforcement personnel have been deployed to prevent gatherings and maintain order.",
+ "numbers": {
+  "crowd": {
+   "value": 20000,
+   "text": "Around 20,000 workers at a garment factory took to the streets in Savar, according to local media reports.",
+   "sources": [
+    5
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-11-15",
-   "text": "Workers gathered in Gazipur and attempted to block the Dhaka-Tangail highway; police used tear gas and sound grenades to disperse them.",
+   "text": "Workers gathered in Gazipur; police used tear gas and sound grenades to disperse them. Multiple factories closed indefinitely.",
    "sources": [
     1,
     2,
-    3,
-    4
+    3
    ]
   },
   {
    "at": "2026-11-17",
-   "text": "Reports indicate the Minimum Wage Board meeting scheduled for Monday was postponed.",
+   "text": "Factory owners reported at least 22 factories closed in Gazipur, while 40 remained closed in the Savar-Ashulia belt.",
    "sources": [
     4
+   ]
+  },
+  {
+   "at": "2026-11-18",
+   "text": "Workers blocked the Dhaka-Mymensingh and Dhaka-Aricha highways; police clashed with protesters using tear gas and batons.",
+   "sources": [
+    5
    ]
   }
  ],
@@ -88,33 +103,41 @@
    "publisher": "globalpost.com",
    "title": "Nearly Two Dozen Bangladesh Garment Factories Close Amid Wage Protests",
    "publishedAt": "2026-11-17T09:14:14.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.tribdem.com/news/latest_news/police-in-bangladesh-clash-with-garment-workers-demanding-higher-minimum-wages/article_5500e54e-af12-53b7-94c1-bbdd792dcb65.html",
+   "publisher": "tribdem.com",
+   "title": "Police in Bangladesh clash with garment workers demanding higher minimum wages",
+   "publishedAt": "2026-11-18T14:45:00.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.91,
- "publishers": 4,
- "reports24h": 0,
+ "confidence": 0.95,
+ "publishers": 5,
+ "reports24h": 1,
  "reportsPrev24h": 1,
- "reports48h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-15T12:51:55.244Z",
- "lastReportAt": "2026-11-17T09:14:14.000Z",
- "lastCheckedAt": "2026-11-18T16:59:05.256Z",
- "updatedAt": "2026-11-17T12:57:45.812Z",
+ "lastReportAt": "2026-11-18T14:45:00.000Z",
+ "lastCheckedAt": "2026-11-18T20:54:45.303Z",
+ "updatedAt": "2026-11-18T20:54:18.453Z",
  "searchedAt": "2026-11-15T16:50:43.925Z",
  "responseSources": [
   1,
   2,
   3,
-  4
+  4,
+  5
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-17T12:57:45.812Z",
- "summaryOf": "b0377864229d",
+ "summarizedAt": "2026-11-18T20:54:18.453Z",
+ "summaryOf": "98c68b7d537b",
  "publishedAt": "2026-11-15T16:55:22.863Z",
  "i18n": {
-  "of": "a7a4afd9c79b49d0",
-  "at": "2026-11-17T12:59:09.715Z",
+  "of": "a1f2354612457ab4",
+  "at": "2026-11-18T20:54:59.822Z",
   "tries": 1,
   "es": {
    "title": "Trabajadores textiles protestan por salarios mínimos más altos en Gazipur",
@@ -122,39 +145,45 @@
    "tea": {
     "why": "Los trabajadores afirman que su salario mensual actual de 12.500 taka es insuficiente para cubrir el aumento de los costos de alimentación, vivienda, transporte y atención médica.",
     "want": "Un aumento del salario mínimo mensual a 30.000 taka.",
-    "changed": "17 de noviembre: Los informes indican que la reunión programada de la Junta de Salario Mínimo fue pospuesta."
+    "changed": "18 de noviembre: La policía y los trabajadores se enfrentaron en Gazipur y Savar mientras los manifestantes bloqueaban las principales carreteras, lo que llevó a la policía a utilizar gases lacrimógenos y porras."
    },
-   "summary": "Los trabajadores textiles en Gazipur, Bangladesh, han participado en protestas continuas exigiendo un aumento del 140 por ciento en su salario mínimo mensual, de 12.500 a 30.000 taka. Las manifestaciones ocurrieron en las áreas de Konabari y Mouchak, donde los trabajadores intentaron bloquear la autopista Dhaka-Tangail. En respuesta, la policía utilizó gases lacrimógenos y granadas aturdidoras para dispersar a las multitudes. Las autoridades han desplegado 13 pelotones de la Guardia Fronteriza de Bangladesh, junto con la policía y el Batallón de Respuesta Especial, para asegurar las zonas industriales. Los propietarios de las fábricas informaron que decenas de unidades en Gazipur y el cinturón de Savar-Ashulia cerraron indefinidamente o por el día debido a los disturbios. La Junta de Salario Mínimo designada por el gobierno, encargada de revisar la estructura salarial, tenía programado reunirse para discutir propuestas, aunque los informes indican que esta reunión fue posteriormente pospuesta.",
+   "summary": "Los trabajadores textiles en Gazipur y las zonas industriales circundantes han estado protestando durante varias semanas para exigir un aumento del salario mínimo mensual de 12.500 a 30.000 taka. Los disturbios se intensificaron el 15 de noviembre, lo que provocó el cierre indefinido de al menos 13 fábricas en Gazipur y decenas más en el cinturón de Savar-Ashulia. Las autoridades respondieron desplegando 13 pelotones de la Guardia Fronteriza de Bangladesh, policía antidisturbios y el Batallón de Respuesta Especial. Los funcionarios encargados de hacer cumplir la ley, incluido el superintendente de la Policía Industrial de Gazipur, Amzad Hossain, declararon que han impedido activamente que los trabajadores se reúnan en lugares clave. Si bien la Junta de Salario Mínimo designada por el gobierno tenía programado reunirse para discutir las estructuras salariales, las protestas continuaron hasta el 18 de noviembre, involucrando bloqueos de carreteras y enfrentamientos con la policía, que utilizó gases lacrimógenos, granadas aturdidoras y porras para dispersar a las multitudes.",
    "demands": [
     "Aumentar el salario mínimo mensual a 30.000 taka"
    ],
-   "response": "La policía utilizó gases lacrimógenos y granadas aturdidoras para dispersar a los manifestantes. Las autoridades desplegaron 13 pelotones de la Guardia Fronteriza de Bangladesh, policía antidisturbios, el Batallón de Respuesta Especial y personal de Ansar, mientras que 25 magistrados ejecutivos fueron asignados para supervisar la seguridad.",
+   "response": "Las autoridades desplegaron 13 pelotones de la Guardia Fronteriza de Bangladesh, policía antidisturbios y el Batallón de Respuesta Especial. El superintendente de la Policía Industrial de Gazipur, Amzad Hossain, declaró que se ha desplegado personal de las fuerzas del orden para evitar reuniones y mantener el orden.",
    "updates": [
-    "Los trabajadores se reunieron en Gazipur e intentaron bloquear la autopista Dhaka-Tangail; la policía utilizó gases lacrimógenos y granadas aturdidoras para dispersarlos.",
-    "Los informes indican que la reunión de la Junta de Salario Mínimo programada para el lunes fue pospuesta."
+    "Los trabajadores se reunieron en Gazipur; la policía utilizó gases lacrimógenos y granadas aturdidoras para dispersarlos. Varias fábricas cerraron indefinidamente.",
+    "Los propietarios de las fábricas informaron que al menos 22 fábricas cerraron en Gazipur, mientras que 40 permanecieron cerradas en el cinturón de Savar-Ashulia.",
+    "Los trabajadores bloquearon las carreteras Dhaka-Mymensingh y Dhaka-Aricha; la policía se enfrentó a los manifestantes utilizando gases lacrimógenos y porras."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Alrededor de 20.000 trabajadores de una fábrica textil salieron a las calles en Savar, según informes de los medios locales."
+   }
   },
   "fr": {
-   "title": "Des travailleurs du textile manifestent pour une hausse des salaires minimums à Gazipur",
+   "title": "Les travailleurs du textile manifestent pour une hausse des salaires minimums à Gazipur",
    "seoTitle": "Manifestations salariales des travailleurs à Gazipur",
    "tea": {
-    "why": "Les travailleurs déclarent que leur salaire mensuel actuel de 12 500 taka est insuffisant pour couvrir la hausse des coûts de l'alimentation, du logement, du transport et des soins de santé.",
+    "why": "Les travailleurs déclarent que leur salaire mensuel actuel de 12 500 taka est insuffisant pour couvrir la hausse des coûts de l'alimentation, du logement, des transports et des soins de santé.",
     "want": "Une augmentation du salaire mensuel minimum à 30 000 taka.",
-    "changed": "17 novembre : Des rapports indiquent que la réunion prévue du Conseil des salaires minimums a été reportée."
+    "changed": "18 novembre : La police et les travailleurs se sont affrontés à Gazipur et Savar alors que les manifestants bloquaient des axes routiers majeurs, conduisant la police à utiliser des gaz lacrymogènes et des matraques."
    },
-   "summary": "Les travailleurs du textile à Gazipur, au Bangladesh, ont mené des manifestations continues pour exiger une augmentation de 140 pour cent de leur salaire mensuel minimum, passant de 12 500 à 30 000 taka. Des manifestations ont eu lieu dans les zones de Konabari et Mouchak, où les travailleurs ont tenté de bloquer l'autoroute Dhaka-Tangail. En réponse, la police a utilisé des gaz lacrymogènes et des grenades assourdissantes pour disperser les foules. Les autorités ont déployé 13 pelotons de la Garde des frontières du Bangladesh, ainsi que la police et le Bataillon d'intervention spéciale, pour sécuriser les zones industrielles. Les propriétaires d'usines ont signalé que des dizaines d'unités à Gazipur et dans la ceinture de Savar-Ashulia ont fermé indéfiniment ou pour la journée en raison des troubles. Le Conseil des salaires minimums nommé par le gouvernement, chargé d'examiner la structure salariale, devait se réunir pour discuter des propositions, bien que des rapports indiquent que cette réunion a été reportée par la suite.",
+   "summary": "Les travailleurs du textile à Gazipur et dans les zones industrielles environnantes manifestent depuis plusieurs semaines pour exiger une augmentation du salaire mensuel minimum de 12 500 à 30 000 taka. Les troubles se sont intensifiés le 15 novembre, entraînant la fermeture indéfinie d'au moins 13 usines à Gazipur et de dizaines d'autres dans la ceinture de Savar-Ashulia. Les autorités ont réagi en déployant 13 pelotons de la Garde des frontières du Bangladesh, la police antiémeute et le Bataillon d'intervention spéciale. Les responsables de l'application des lois, dont le surintendant de la police industrielle de Gazipur, Amzad Hossain, ont déclaré qu'ils avaient activement empêché les travailleurs de se rassembler dans des lieux clés. Bien que le Conseil des salaires minimums nommé par le gouvernement ait prévu de se réunir pour discuter des structures salariales, les manifestations se sont poursuivies jusqu'au 18 novembre, impliquant des blocages routiers et des affrontements avec la police qui a utilisé des gaz lacrymogènes, des grenades assourdissantes et des matraques pour disperser les foules.",
    "demands": [
     "Augmenter le salaire mensuel minimum à 30 000 taka"
    ],
-   "response": "La police a utilisé des gaz lacrymogènes et des grenades assourdissantes pour disperser les manifestants. Les autorités ont déployé 13 pelotons de la Garde des frontières du Bangladesh, la police antiémeute, le Bataillon d'intervention spéciale et du personnel d'Ansar, tandis que 25 magistrats exécutifs ont été chargés de superviser la sécurité.",
+   "response": "Les autorités ont déployé 13 pelotons de la Garde des frontières du Bangladesh, la police antiémeute et le Bataillon d'intervention spéciale. Le surintendant de la police industrielle de Gazipur, Amzad Hossain, a déclaré que du personnel des forces de l'ordre a été déployé pour empêcher les rassemblements et maintenir l'ordre.",
    "updates": [
-    "Les travailleurs se sont rassemblés à Gazipur et ont tenté de bloquer l'autoroute Dhaka-Tangail ; la police a utilisé des gaz lacrymogènes et des grenades assourdissantes pour les disperser.",
-    "Des rapports indiquent que la réunion du Conseil des salaires minimums prévue lundi a été reportée."
+    "Les travailleurs se sont rassemblés à Gazipur ; la police a utilisé des gaz lacrymogènes et des grenades assourdissantes pour les disperser. Plusieurs usines ont fermé indéfiniment.",
+    "Les propriétaires d'usines ont signalé qu'au moins 22 usines étaient fermées à Gazipur, tandis que 40 restaient fermées dans la ceinture de Savar-Ashulia.",
+    "Les travailleurs ont bloqué les autoroutes Dhaka-Mymensingh et Dhaka-Aricha ; la police s'est affrontée aux manifestants en utilisant des gaz lacrymogènes et des matraques."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Environ 20 000 travailleurs d'une usine textile sont descendus dans la rue à Savar, selon des rapports des médias locaux."
+   }
   },
   "de": {
    "title": "Textilarbeiter protestieren für höhere Mindestlöhne in Gazipur",
@@ -162,79 +191,91 @@
    "tea": {
     "why": "Die Arbeiter geben an, dass ihr derzeitiger Monatslohn von 12.500 Taka nicht ausreicht, um die steigenden Kosten für Lebensmittel, Wohnen, Transport und Gesundheitsversorgung zu decken.",
     "want": "Eine Erhöhung des monatlichen Mindestlohns auf 30.000 Taka.",
-    "changed": "17. November: Berichten zufolge wurde die geplante Sitzung des Mindestlohnausschusses verschoben."
+    "changed": "18. November: Polizei und Arbeiter stießen in Gazipur und Savar zusammen, als Demonstranten wichtige Autobahnen blockierten, woraufhin die Polizei Tränengas und Schlagstöcke einsetzte."
    },
-   "summary": "Textilarbeiter in Gazipur, Bangladesch, haben anhaltende Proteste geführt, in denen sie eine 140-prozentige Erhöhung ihres monatlichen Mindestlohns von 12.500 auf 30.000 Taka fordern. Demonstrationen fanden in den Gebieten Konabari und Mouchak statt, wo Arbeiter versuchten, den Dhaka-Tangail-Highway zu blockieren. Als Reaktion darauf setzte die Polizei Tränengas und Blendgranaten ein, um die Menschenmengen zu zerstreuen. Die Behörden haben 13 Züge der Grenzschutzbehörde von Bangladesch sowie die Polizei und das Special Response Battalion eingesetzt, um die Industriegebiete zu sichern. Fabrikbesitzer berichteten, dass Dutzende Einheiten in Gazipur und im Gürtel von Savar-Ashulia aufgrund der Unruhen auf unbestimmte Zeit oder für den Tag geschlossen wurden. Der von der Regierung ernannte Mindestlohnausschuss, der mit der Überprüfung der Lohnstruktur beauftragt ist, sollte zusammentreten, um Vorschläge zu erörtern, obwohl Berichten zufolge diese Sitzung anschließend verschoben wurde.",
+   "summary": "Textilarbeiter in Gazipur und den umliegenden Industriegebieten protestieren seit mehreren Wochen, um eine Erhöhung des monatlichen Mindestlohns von 12.500 auf 30.000 Taka zu fordern. Die Unruhen verschärften sich am 15. November und führten zur unbefristeten Schließung von mindestens 13 Fabriken in Gazipur und Dutzenden weiteren im Savar-Ashulia-Gürtel. Die Behörden reagierten mit dem Einsatz von 13 Zügen der Border Guard Bangladesh, Bereitschaftspolizei und dem Special Response Battalion. Strafverfolgungsbeamte, darunter der Superintendent der Industriepolizei von Gazipur, Amzad Hossain, erklärten, sie hätten Arbeiter aktiv daran gehindert, sich an wichtigen Orten zu versammeln. Obwohl das von der Regierung ernannte Mindestlohn-Gremium zu Beratungen über Lohnstrukturen zusammentreten sollte, dauerten die Proteste bis zum 18. November an, wobei es zu Autobahnblockaden und Zusammenstößen mit der Polizei kam, die Tränengas, Blendgranaten und Schlagstöcke einsetzte, um die Menschenmengen aufzulösen.",
    "demands": [
     "Erhöhung des monatlichen Mindestlohns auf 30.000 Taka"
    ],
-   "response": "Die Polizei setzte Tränengas und Blendgranaten ein, um die Demonstranten zu zerstreuen. Die Behörden setzten 13 Züge der Grenzschutzbehörde von Bangladesch, Bereitschaftspolizei, das Special Response Battalion und Ansar-Personal ein, während 25 Exekutivmagistrate zur Überwachung der Sicherheit zugewiesen wurden.",
+   "response": "Die Behörden setzten 13 Züge der Border Guard Bangladesh, Bereitschaftspolizei und das Special Response Battalion ein. Der Superintendent der Industriepolizei von Gazipur, Amzad Hossain, erklärte, dass Strafverfolgungspersonal eingesetzt wurde, um Versammlungen zu verhindern und die Ordnung aufrechtzuerhalten.",
    "updates": [
-    "Arbeiter versammelten sich in Gazipur und versuchten, den Dhaka-Tangail-Highway zu blockieren; die Polizei setzte Tränengas und Blendgranaten ein, um sie zu zerstreuen.",
-    "Berichten zufolge wurde die für Montag geplante Sitzung des Mindestlohnausschusses verschoben."
+    "Arbeiter versammelten sich in Gazipur; die Polizei setzte Tränengas und Blendgranaten ein, um sie aufzulösen. Mehrere Fabriken schlossen auf unbestimmte Zeit.",
+    "Fabrikbesitzer meldeten mindestens 22 geschlossene Fabriken in Gazipur, während 40 im Savar-Ashulia-Gürtel geschlossen blieben.",
+    "Arbeiter blockierten die Autobahnen Dhaka-Mymensingh und Dhaka-Aricha; die Polizei stieß mit Demonstranten zusammen und setzte Tränengas und Schlagstöcke ein."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Rund 20.000 Arbeiter einer Textilfabrik gingen in Savar auf die Straße, wie lokale Medien berichteten."
+   }
   },
   "it": {
-   "title": "Lavoratori del settore tessile protestano per salari minimi più alti a Gazipur",
+   "title": "I lavoratori del settore tessile protestano per salari minimi più alti a Gazipur",
    "seoTitle": "Proteste salariali dei lavoratori tessili a Gazipur",
    "tea": {
     "why": "I lavoratori dichiarano che il loro attuale salario mensile di 12.500 taka è insufficiente a coprire l'aumento dei costi per cibo, alloggio, trasporti e assistenza sanitaria.",
     "want": "Un aumento del salario mensile minimo a 30.000 taka.",
-    "changed": "17 novembre: I rapporti indicano che la riunione programmata del Consiglio per il salario minimo è stata rinviata."
+    "changed": "18 novembre: La polizia e i lavoratori si sono scontrati a Gazipur e Savar mentre i manifestanti bloccavano le principali autostrade, portando la polizia a utilizzare gas lacrimogeni e manganelli."
    },
-   "summary": "I lavoratori del settore tessile a Gazipur, in Bangladesh, hanno intrapreso proteste continue chiedendo un aumento del 140 per cento del loro salario mensile minimo, da 12.500 a 30.000 taka. Le manifestazioni si sono svolte nelle aree di Konabari e Mouchak, dove i lavoratori hanno tentato di bloccare l'autostrada Dhaka-Tangail. In risposta, la polizia ha utilizzato gas lacrimogeni e granate stordenti per disperdere la folla. Le autorità hanno dispiegato 13 plotoni della Guardia di frontiera del Bangladesh, insieme alla polizia e al Battaglione di risposta speciale, per proteggere le zone industriali. I proprietari delle fabbriche hanno riferito che decine di unità a Gazipur e nella cintura di Savar-Ashulia hanno chiuso a tempo indeterminato o per la giornata a causa dei disordini. Il Consiglio per il salario minimo nominato dal governo, incaricato di rivedere la struttura retributiva, doveva riunirsi per discutere le proposte, sebbene i rapporti indichino che tale riunione è stata successivamente rinviata.",
+   "summary": "I lavoratori del settore tessile a Gazipur e nelle aree industriali circostanti protestano da diverse settimane per chiedere un aumento del salario mensile minimo da 12.500 a 30.000 taka. I disordini si sono intensificati il 15 novembre, portando alla chiusura a tempo indeterminato di almeno 13 fabbriche a Gazipur e di decine di altre nella cintura di Savar-Ashulia. Le autorità hanno risposto schierando 13 plotoni della Guardia di Frontiera del Bangladesh, la polizia antisommossa e il Battaglione di Risposta Speciale. I funzionari delle forze dell'ordine, tra cui il sovrintendente della polizia industriale di Gazipur, Amzad Hossain, hanno dichiarato di aver impedito attivamente ai lavoratori di riunirsi in luoghi chiave. Sebbene la Commissione per il salario minimo nominata dal governo avesse in programma di riunirsi per discutere le strutture salariali, le proteste sono continuate fino al 18 novembre, coinvolgendo blocchi stradali e scontri con la polizia, che ha utilizzato gas lacrimogeni, granate stordenti e manganelli per disperdere la folla.",
    "demands": [
     "Aumentare il salario mensile minimo a 30.000 taka"
    ],
-   "response": "La polizia ha utilizzato gas lacrimogeni e granate stordenti per disperdere i manifestanti. Le autorità hanno dispiegato 13 plotoni della Guardia di frontiera del Bangladesh, polizia in tenuta antisommossa, il Battaglione di risposta speciale e personale Ansar, mentre 25 magistrati esecutivi sono stati assegnati per supervisionare la sicurezza.",
+   "response": "Le autorità hanno schierato 13 plotoni della Guardia di Frontiera del Bangladesh, la polizia antisommossa e il Battaglione di Risposta Speciale. Il sovrintendente della polizia industriale di Gazipur, Amzad Hossain, ha dichiarato che il personale delle forze dell'ordine è stato schierato per impedire assembramenti e mantenere l'ordine.",
    "updates": [
-    "I lavoratori si sono radunati a Gazipur e hanno tentato di bloccare l'autostrada Dhaka-Tangail; la polizia ha utilizzato gas lacrimogeni e granate stordenti per disperderli.",
-    "I rapporti indicano che la riunione del Consiglio per il salario minimo prevista per lunedì è stata rinviata."
+    "I lavoratori si sono riuniti a Gazipur; la polizia ha utilizzato gas lacrimogeni e granate stordenti per disperderli. Diverse fabbriche hanno chiuso a tempo indeterminato.",
+    "I proprietari delle fabbriche hanno segnalato almeno 22 fabbriche chiuse a Gazipur, mentre 40 sono rimaste chiuse nella cintura di Savar-Ashulia.",
+    "I lavoratori hanno bloccato le autostrade Dhaka-Mymensingh e Dhaka-Aricha; la polizia si è scontrata con i manifestanti utilizzando gas lacrimogeni e manganelli."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Circa 20.000 lavoratori di una fabbrica tessile sono scesi in strada a Savar, secondo quanto riportato dai media locali."
+   }
   },
   "pt": {
    "title": "Trabalhadores têxteis protestam por salários mínimos mais altos em Gazipur",
-   "seoTitle": "Protestos salariais de trabalhadores em Gazipur",
+   "seoTitle": "Protestos salariais de trabalhadores têxteis em Gazipur",
    "tea": {
     "why": "Os trabalhadores afirmam que o seu salário mensal atual de 12.500 taka é insuficiente para cobrir o aumento dos custos de alimentação, habitação, transporte e cuidados de saúde.",
     "want": "Um aumento do salário mensal mínimo para 30.000 taka.",
-    "changed": "17 de novembro: Relatórios indicam que a reunião agendada do Conselho de Salário Mínimo foi adiada."
+    "changed": "18 de novembro: A polícia e os trabalhadores entraram em confronto em Gazipur e Savar enquanto os manifestantes bloqueavam as principais autoestradas, levando a polícia a utilizar gás lacrimogéneo e bastões."
    },
-   "summary": "Os trabalhadores têxteis em Gazipur, no Bangladesh, têm participado em protestos contínuos exigindo um aumento de 140 por cento no seu salário mensal mínimo, de 12.500 para 30.000 taka. As manifestações ocorreram nas áreas de Konabari e Mouchak, onde os trabalhadores tentaram bloquear a autoestrada Dhaka-Tangail. Em resposta, a polícia utilizou gás lacrimogéneo e granadas de som para dispersar as multidões. As autoridades destacaram 13 pelotões da Guarda de Fronteira do Bangladesh, juntamente com a polícia e o Batalhão de Resposta Especial, para garantir a segurança das zonas industriais. Os proprietários das fábricas relataram que dezenas de unidades em Gazipur e no cinturão de Savar-Ashulia encerraram por tempo indeterminado ou durante o dia devido aos distúrbios. O Conselho de Salário Mínimo nomeado pelo governo, encarregado de rever a estrutura salarial, tinha uma reunião agendada para discutir propostas, embora os relatórios indiquem que esta reunião foi posteriormente adiada.",
+   "summary": "Os trabalhadores têxteis em Gazipur e nas zonas industriais circundantes têm protestado durante várias semanas para exigir um aumento do salário mensal mínimo de 12.500 para 30.000 taka. Os distúrbios intensificaram-se a 15 de novembro, levando ao encerramento por tempo indeterminado de pelo menos 13 fábricas em Gazipur e dezenas de outras no cinturão de Savar-Ashulia. As autoridades responderam destacando 13 pelotões da Guarda de Fronteira do Bangladesh, polícia de choque e o Batalhão de Resposta Especial. Os responsáveis pela aplicação da lei, incluindo o superintendente da Polícia Industrial de Gazipur, Amzad Hossain, declararam que impediram ativamente os trabalhadores de se reunirem em locais-chave. Embora a Comissão de Salário Mínimo nomeada pelo governo tivesse agendado uma reunião para discutir as estruturas salariais, os protestos continuaram até 18 de novembro, envolvendo bloqueios de estradas e confrontos com a polícia, que utilizou gás lacrimogéneo, granadas de som e bastões para dispersar as multidões.",
    "demands": [
     "Aumentar o salário mensal mínimo para 30.000 taka"
    ],
-   "response": "A polícia utilizou gás lacrimogéneo e granadas de som para dispersar os manifestantes. As autoridades destacaram 13 pelotões da Guarda de Fronteira do Bangladesh, polícia de choque, o Batalhão de Resposta Especial e pessoal da Ansar, enquanto 25 magistrados executivos foram designados para supervisionar a segurança.",
+   "response": "As autoridades destacaram 13 pelotões da Guarda de Fronteira do Bangladesh, polícia de choque e o Batalhão de Resposta Especial. O superintendente da Polícia Industrial de Gazipur, Amzad Hossain, declarou que foi destacado pessoal das forças de segurança para impedir reuniões e manter a ordem.",
    "updates": [
-    "Os trabalhadores reuniram-se em Gazipur e tentaram bloquear a autoestrada Dhaka-Tangail; a polícia utilizou gás lacrimogéneo e granadas de som para os dispersar.",
-    "Relatórios indicam que a reunião do Conselho de Salário Mínimo agendada para segunda-feira foi adiada."
+    "Os trabalhadores reuniram-se em Gazipur; a polícia utilizou gás lacrimogéneo e granadas de som para os dispersar. Várias fábricas encerraram por tempo indeterminado.",
+    "Os proprietários das fábricas relataram pelo menos 22 fábricas encerradas em Gazipur, enquanto 40 permaneceram encerradas no cinturão de Savar-Ashulia.",
+    "Os trabalhadores bloquearam as autoestradas Dhaka-Mymensingh e Dhaka-Aricha; a polícia entrou em confronto com os manifestantes utilizando gás lacrimogéneo e bastões."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Cerca de 20.000 trabalhadores de uma fábrica têxtil saíram à rua em Savar, segundo relatos dos meios de comunicação locais."
+   }
   },
   "nl": {
    "title": "Kledingarbeiders protesteren voor hogere minimumlonen in Gazipur",
    "seoTitle": "Loonprotesten van kledingarbeiders in Gazipur",
    "tea": {
-    "why": "Arbeiders verklaren dat hun huidige maandloon van 12.500 taka onvoldoende is om de stijgende kosten voor voedsel, huisvesting, vervoer en gezondheidszorg te dekken.",
+    "why": "Arbeiders stellen dat hun huidige maandloon van 12.500 taka onvoldoende is om de stijgende kosten voor voedsel, huisvesting, vervoer en gezondheidszorg te dekken.",
     "want": "Een verhoging van het maandelijkse minimumloon naar 30.000 taka.",
-    "changed": "17 november: Rapporten geven aan dat de geplande vergadering van de Minimumloonraad is uitgesteld."
+    "changed": "18 november: Politie en arbeiders raakten slaags in Gazipur en Savar toen demonstranten belangrijke snelwegen blokkeerden, waarna de politie traangas en wapenstokken inzette."
    },
-   "summary": "Kledingarbeiders in Gazipur, Bangladesh, voeren aanhoudende protesten en eisen een verhoging van 140 procent van hun maandelijkse minimumloon, van 12.500 naar 30.000 taka. Demonstraties vonden plaats in de gebieden Konabari en Mouchak, waar arbeiders probeerden de Dhaka-Tangail-snelweg te blokkeren. Als reactie hierop gebruikte de politie traangas en geluidsgranaten om de menigte uiteen te drijven. De autoriteiten hebben 13 pelotons van de Grenswacht van Bangladesh, samen met de politie en het Special Response Battalion, ingezet om de industriële zones te beveiligen. Fabriekseigenaren meldden dat tientallen eenheden in Gazipur en de Savar-Ashulia-gordel voor onbepaalde tijd of voor de dag gesloten waren vanwege de onrust. De door de regering aangestelde Minimumloonraad, belast met het herzien van de loonstructuur, zou samenkomen om voorstellen te bespreken, hoewel rapporten aangeven dat deze vergadering vervolgens is uitgesteld.",
+   "summary": "Kledingarbeiders in Gazipur en de omliggende industriegebieden protesteren al enkele weken om een verhoging van het maandelijkse minimumloon van 12.500 naar 30.000 taka te eisen. De onrust nam toe op 15 november, wat leidde tot de voor onbepaalde tijd gesloten deuren van ten minste 13 fabrieken in Gazipur en tientallen andere in de Savar-Ashulia-gordel. De autoriteiten reageerden door 13 pelotons van de Border Guard Bangladesh, de oproerpolitie en het Special Response Battalion in te zetten. Wetshandhavers, waaronder de hoofdcommissaris van de industriële politie van Gazipur, Amzad Hossain, verklaarden dat zij arbeiders actief hebben verhinderd zich op belangrijke locaties te verzamelen. Hoewel de door de regering benoemde commissie voor het minimumloon gepland stond om te vergaderen over loonstructuren, gingen de protesten door tot 18 november, met wegblokkades en confrontaties met de politie, die traangas, geluidsgranaten en wapenstokken gebruikte om de menigten uiteen te drijven.",
    "demands": [
-    "Verhoog het maandelijkse minimumloon naar 30.000 taka"
+    "Verhoging van het maandelijkse minimumloon naar 30.000 taka"
    ],
-   "response": "De politie gebruikte traangas en geluidsgranaten om demonstranten uiteen te drijven. De autoriteiten zetten 13 pelotons van de Grenswacht van Bangladesh, oproerpolitie, het Special Response Battalion en Ansar-personeel in, terwijl 25 uitvoerende magistraten werden aangewezen om toezicht te houden op de veiligheid.",
+   "response": "De autoriteiten zetten 13 pelotons van de Border Guard Bangladesh, de oproerpolitie en het Special Response Battalion in. De hoofdcommissaris van de industriële politie van Gazipur, Amzad Hossain, verklaarde dat er wetshandhavers zijn ingezet om bijeenkomsten te voorkomen en de orde te handhaven.",
    "updates": [
-    "Arbeiders verzamelden zich in Gazipur en probeerden de Dhaka-Tangail-snelweg te blokkeren; de politie gebruikte traangas en geluidsgranaten om hen uiteen te drijven.",
-    "Rapporten geven aan dat de vergadering van de Minimumloonraad die voor maandag gepland stond, is uitgesteld."
+    "Arbeiders verzamelden zich in Gazipur; de politie gebruikte traangas en geluidsgranaten om hen uiteen te drijven. Meerdere fabrieken sloten voor onbepaalde tijd.",
+    "Fabriekseigenaren meldden dat ten minste 22 fabrieken gesloten waren in Gazipur, terwijl er 40 gesloten bleven in de Savar-Ashulia-gordel.",
+    "Arbeiders blokkeerden de snelwegen Dhaka-Mymensingh en Dhaka-Aricha; de politie raakte slaags met demonstranten en gebruikte traangas en wapenstokken."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Ongeveer 20.000 arbeiders van een kledingfabriek gingen de straat op in Savar, volgens berichten in lokale media."
+   }
   }
  },
  "distinctFrom": [

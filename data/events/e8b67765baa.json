@@ -16,8 +16,8 @@
  "scope": "nationwide",
  "causes": [
   "labour",
-  "transport",
-  "infrastructure"
+  "infrastructure",
+  "transport"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-17",
@@ -33,147 +33,122 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Workers are demanding increased investment in infrastructure and safety measures following several fatal train accidents this year.",
-  "want": "Improved safety protocols, increased infrastructure investment, and additional staffing.",
-  "changed": "Nov 17: A nationwide strike caused significant transport disruptions, with Renfe reporting nearly 666,275 affected passengers."
+  "why": "Workers are demanding improved safety measures and infrastructure investment following fatal train accidents in Urda and Adamuz.",
+  "want": "Implementation of safety agreements from February, increased staffing, and modernized protection systems.",
+  "changed": "Nov 18: Unions reached an agreement with the Ministry of Transport regarding safety and staffing, leading to the cancellation of future strikes."
  },
- "summary": "On November 17, 2026, railway workers across Spain participated in a 24-hour nationwide strike to demand improved safety standards and infrastructure investment following recent fatal accidents in Urda, Adamuz, and Angrois. The action, which involved staff from Renfe and private operators like Ouigo and Iryo, led to widespread service cancellations. Madrid and Barcelona were particularly affected, with Renfe reporting that nearly 98% of minimum services in Madrid's Cercanías network were not met during morning hours. While the Ministry of Transport had established minimum service requirements, the operator accused protesters of failing to comply, leading to severe delays. The strike impacted high-speed, medium-distance, and commuter lines, leaving hundreds of thousands of passengers stranded. Authorities have threatened disciplinary action against employees who failed to report for duty.",
+ "summary": "On November 17, 2026, railway workers across Spain held a 24-hour nationwide strike to demand enhanced safety protocols and better working conditions. Organised by a coalition including Semaf, CCOO, UGT, and other unions, the action affected Renfe, Adif, and private operators like Iryo and Ouigo. Protesters cited the recent fatal train accidents in Urda and Adamuz as primary drivers for their demands, which include modernized signaling, independent weather alert systems, and increased personnel. Renfe reported significant service disruptions, particularly in Madrid's Cercanías network, where the operator claimed a 97.7% impact on services. While the government and Renfe accused unions of failing to meet minimum service requirements, union representatives argued that delays stemmed from poor management. The strike concluded at the end of the day, followed by subsequent negotiations.",
  "organizers": [
-  "Sindicato Español de Maquinistas Ferroviarios (Semaf)",
-  "Sindicato Ferroviario"
+  "Sindicato Español de Maquinistas y Ayudantes Ferroviarios (Semaf)",
+  "Comisiones Obreras (CCOO)",
+  "Unión General de Trabajadores (UGT)",
+  "Sector Federal Ferroviario de la Confederación General del Trabajo (SFF-CGT)",
+  "Sindicato Ferroviario Intersindical (SF-I)",
+  "Alternativa Ferroviaria (Alferro)"
  ],
  "demands": [
-  "Increased investment in infrastructure",
-  "Enhanced safety measures",
-  "Additional staffing"
+  "Improved railway safety measures",
+  "Increased staffing levels",
+  "Modernization of train protection systems",
+  "Implementation of February safety agreements",
+  "Creation of an independent weather alert system"
  ],
- "response": "The Ministry of Transport and Mobility Sustainable established minimum service levels ranging from 50% to 75%. Renfe officials described the service disruptions as chaotic, blamed protesters for failing to meet minimum requirements, and threatened disciplinary action.",
+ "response": "The Ministry of Transport and Renfe engaged in negotiations with unions, offering a decree on safety and a victim support office. Renfe officials publicly criticised the strike for failing to meet mandated minimum service levels.",
  "numbers": {
   "deaths": {
    "value": 115,
    "text": "Two deadly rail accidents earlier in the year resulted in a total of 115 deaths.",
    "sources": [
-    11,
-    12,
-    13
+    8,
+    9,
+    10
    ]
   }
  },
  "updates": [
   {
-   "at": "2026-11-10",
-   "text": "Railway workers held a 24-hour strike, causing significant disruptions in Madrid and Barcelona.",
-   "sources": [
-    1,
-    2,
-    3
-   ]
-  },
-  {
-   "at": "2026-11-14",
-   "text": "The Ministry of Transport set minimum service levels for the upcoming November 17 strike.",
-   "sources": [
-    4
-   ]
-  },
-  {
    "at": "2026-11-17",
-   "text": "A nationwide strike took place, resulting in the cancellation of numerous train services and affecting over 666,000 passengers.",
+   "text": "Nationwide 24-hour strike takes place across the Spanish rail network.",
    "sources": [
-    7,
-    8,
-    9,
-    10
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "at": "2026-11-18",
+   "text": "Unions reach an agreement with the Ministry of Transport on safety and staffing, cancelling further planned strikes.",
+   "sources": [
+    7
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://www.europapress.es/economia/transportes-00343/noticia-renfe-cifra-seguimiento-196-huelga-maquinistas-incumplimiento-servicios-minimos-20261110113536.html",
-   "publisher": "europapress.es",
-   "title": "Renfe cifra seguimiento del 19,6% de la huelga de maquinistas, con incumplimiento de servicios mínimos",
-   "publishedAt": "2026-11-10T10:35:36.000Z"
-  },
-  {
-   "n": 2,
-   "url": "https://www.kathimerini.gr/world/564579568/ispania-se-apergia-oi-odigoi-trenon-meta-ta-dyo-polynekra-sidirodromika-dystychimata/",
-   "publisher": "kathimerini.gr",
-   "title": "Ισπανία: Σε απεργία οι οδηγοί τρένων μετά τα δύο πολύνεκρα σιδηροδρομικά δυστυχήματα",
-   "publishedAt": "2026-11-10T12:24:47.000Z"
-  },
-  {
-   "n": 3,
-   "url": "https://www.ukrinform.ua/amp/rubric-world/4183398-v-ispanii-masinisti-poizdiv-ogolosili-strajk.html",
-   "publisher": "ukrinform.ua",
-   "title": "В Іспанії машиністи поїздів оголосили страйк",
-   "publishedAt": "2026-11-10T13:59:00.000Z"
-  },
-  {
-   "n": 4,
    "url": "https://www.elcorreo.com/economia/fijados-servicios-minimos-ave-cercanias-huelga-noviembre-20261114113430-ntrc.html",
    "publisher": "elcorreo.com",
    "title": "Fijados los servicios mínimos para la huelga del próximo 17 de noviembre en Renfe | El Correo",
    "publishedAt": "2026-11-14T10:34:31.000Z"
   },
   {
-   "n": 5,
+   "n": 2,
    "url": "https://www.elconfidencial.com/espana/2026-11-16/huelga-renfe-17-noviembre-servicios-minimos-horarios-1qrt_4465584/",
    "publisher": "elconfidencial.com",
    "title": "Huelga de Renfe del 17 de noviembre: servicios mínimos, horarios y trenes que circularán",
    "publishedAt": "2026-11-16T07:35:00.000Z"
   },
   {
-   "n": 6,
-   "url": "https://web.gencat.cat/es/inici/actualitat/noticies/2026/11/vaga-rodalies-serveis-minims",
-   "publisher": "web.gencat.cat",
-   "title": "Huelga en Rodalies: estos son los servicios mínimos",
-   "publishedAt": "2026-11-16T10:27:59.000Z"
+   "n": 3,
+   "url": "https://www.elperiodicomediterraneo.com/economia/2026/11/16/huelga-trenes-martes-17-noviembre-136513245.html",
+   "publisher": "elperiodicomediterraneo.com",
+   "title": "El sector ferroviario llama a la huelga este martes para reclamar mejoras en la seguridad",
+   "publishedAt": "2026-11-16T18:05:42.000Z"
   },
   {
-   "n": 7,
-   "url": "https://www.abc.es/economia/huelga-maquinistas-deja-cercanias-madrid-servicio-rodalies-20261117074616-nt.html",
-   "publisher": "abc.es",
-   "title": "La huelga de maquinistas colapsa Madrid y Barcelona tras no cumplirse los servicios mínimos previstos",
-   "publishedAt": "2026-11-17T06:46:16.000Z"
+   "n": 4,
+   "url": "https://www.expansion.com/economia/2026/11/17/huelga-renfe-recomiendan-transporte-alternativo-cumplirse-servicios-minimos.html",
+   "publisher": "expansion.com",
+   "title": "Huelga en Renfe: recomiendan transporte alternativo por no cumplirse los servicios mínimos",
+   "publishedAt": "2026-11-17T07:42:52.000Z"
   },
   {
-   "n": 8,
-   "url": "https://www.eldiario.es/madrid/somos/atocha-vive-martes-caos-malestar-resignacion-huelga-total-trenes-jefe-sigue-esperando_1_13669640.html",
-   "publisher": "eldiario.es",
-   "title": "Atocha vive otro martes de caos, malestar y resignación por una huelga casi total sin trenes: \"Mi jefe sigue esperando\"",
-   "publishedAt": "2026-11-17T12:24:33.000Z"
-  },
-  {
-   "n": 9,
+   "n": 5,
    "url": "https://grupo.renfe.com/es/es/sala-de-prensa/noticias/2026/11/huelga-registra-incidencia-desigual",
    "publisher": "grupo.renfe.com",
    "title": "La huelga convocada en el sector registra una incidencia desigual por territorio, con mayor afectación en Cercanías Madrid y Rodalies",
    "publishedAt": "2026-11-17T18:50:32.000Z"
   },
   {
-   "n": 10,
+   "n": 6,
    "url": "https://bnrnews.bg/horizont/post/559624/stachka-zatrudni-zhp-transporta-v-ispaniya",
    "publisher": "bnrnews.bg",
    "title": "Стачка затрудни жп транспорта в Испания",
    "publishedAt": "2026-11-18T02:25:23.000Z"
   },
   {
-   "n": 11,
+   "n": 7,
+   "url": "https://www.rtve.es/noticias/20261118/sindicatos-huelga-19-noviembre-ferroviaria-ccoo-ugt-scf-ministerio/17320278.shtml",
+   "publisher": "rtve.es",
+   "title": "Desconvocada la huelga de controladores ferroviarios prevista para este jueves tras un acuerdo con el Ministerio",
+   "publishedAt": "2026-11-18T17:24:16.000Z"
+  },
+  {
+   "n": 8,
    "url": "https://www.kiprinform.com/en/news/spanish-train-drivers-strike-over-rail-safety-after-second-deadly-crash-this-year-disrupting-services-nationwide/",
    "publisher": "kiprinform.com",
    "title": "Spanish train drivers strike over rail safety after second deadly crash this year, disrupting services nationwide – Cyprus Inform",
    "publishedAt": "2026-11-10T10:57:25.000Z"
   },
   {
-   "n": 12,
+   "n": 9,
    "url": "https://www.blic.rs/vesti/svet/masinovodje-u-spaniji-stupile-u-strajk-zbog-bezbednosti-zeleznice-nakon-dve-nesrece/hbj7vxf",
    "publisher": "blic.rs",
    "title": "Mašinovođe u Španiji stupile u štrajk zbog bezbednosti železnice nakon dve nesreće",
    "publishedAt": "2026-11-10T23:22:00.000Z"
   },
   {
-   "n": 13,
+   "n": 10,
    "url": "https://amp.rtve.es/noticias/20261114/nueva-protesta-madrid-maquinistas-renfe-demanda-aumento-seguridad/17314182.shtml",
    "publisher": "rtve.es",
    "title": "Nueva protesta en Madrid de los maquinistas de Renfe en demanda de un aumento de la seguridad",
@@ -181,17 +156,17 @@
   }
  ],
  "conflicts": [
-  "Renfe stated that minimum services were not met, while the Semaf union claimed that duty orders were not delivered to staff in a timely manner."
+  "Renfe claimed a 97.7% impact on Madrid's Cercanías services, while unions stated they adhered to government-mandated minimum service quotas."
  ],
  "confidence": 0.75,
- "publishers": 13,
+ "publishers": 9,
  "reports24h": 2,
  "reportsPrev24h": 11,
  "reports48h": 13,
  "firstSeenAt": "2026-11-09T21:53:09.876Z",
- "lastReportAt": "2026-11-18T02:25:23.000Z",
- "lastCheckedAt": "2026-11-18T16:59:05.256Z",
- "updatedAt": "2026-11-18T08:53:17.200Z",
+ "lastReportAt": "2026-11-18T17:24:16.000Z",
+ "lastCheckedAt": "2026-11-18T20:54:45.303Z",
+ "updatedAt": "2026-11-18T20:53:27.085Z",
  "distinctFrom": [
   "e09d012429b",
   "e4b5a48cca8",
@@ -201,70 +176,71 @@
  ],
  "searchedAt": "2026-11-10T01:50:45.370Z",
  "responseSources": [
+  3,
   4,
-  7,
-  8,
-  9,
-  10
+  5,
+  7
  ],
  "seriousInjuries": false,
  "sensitive": true,
- "summarizedAt": "2026-11-18T08:53:17.200Z",
- "summaryOf": "930b06937627",
+ "summarizedAt": "2026-11-18T20:53:27.085Z",
+ "summaryOf": "fdf3f220c9b6",
  "publishedAt": "2026-11-10T01:55:48.372Z",
  "i18n": {
-  "of": "26996f35e5050e34",
-  "at": "2026-11-18T08:56:44.580Z",
+  "of": "1a1385a7661a2fa9",
+  "at": "2026-11-18T20:55:54.534Z",
   "tries": 1,
   "hi": {
-   "title": "स्पेन के रेलवे कर्मचारियों ने सुरक्षा सुधारों के लिए राष्ट्रव्यापी हड़ताल की",
+   "title": "स्पेनिश रेलवे कर्मचारियों ने सुरक्षा सुधारों के लिए राष्ट्रव्यापी हड़ताल की",
    "seoTitle": "मैड्रिड रेलवे कर्मचारियों की हड़ताल",
    "tea": {
-    "why": "इस वर्ष कई घातक ट्रेन दुर्घटनाओं के बाद कर्मचारी बुनियादी ढांचे और सुरक्षा उपायों में अधिक निवेश की मांग कर रहे हैं।",
-    "want": "बेहतर सुरक्षा प्रोटोकॉल, बुनियादी ढांचे में अधिक निवेश और अतिरिक्त स्टाफिंग।",
-    "changed": "17 नवंबर: एक राष्ट्रव्यापी हड़ताल के कारण परिवहन में भारी व्यवधान हुआ, Renfe के अनुसार लगभग 666,275 यात्री प्रभावित हुए।"
+    "why": "उर्डा और अडामाज़ में घातक ट्रेन दुर्घटनाओं के बाद कर्मचारी बेहतर सुरक्षा उपायों और बुनियादी ढांचे में निवेश की मांग कर रहे हैं।",
+    "want": "फरवरी के सुरक्षा समझौतों का कार्यान्वयन, कर्मचारियों की संख्या में वृद्धि, और आधुनिक सुरक्षा प्रणालियाँ।",
+    "changed": "18 नवंबर: यूनियनों ने सुरक्षा और स्टाफिंग के संबंध में परिवहन मंत्रालय के साथ एक समझौते पर हस्ताक्षर किए, जिससे भविष्य की हड़तालें रद्द कर दी गईं।"
    },
-   "summary": "17 नवंबर 2026 को, Urda, Adamuz और Angrois में हाल ही में हुई घातक दुर्घटनाओं के बाद बेहतर सुरक्षा मानकों और बुनियादी ढांचे में निवेश की मांग को लेकर स्पेन भर के रेलवे कर्मचारियों ने 24 घंटे की राष्ट्रव्यापी हड़ताल में भाग लिया। Renfe और Ouigo तथा Iryo जैसे निजी ऑपरेटरों के कर्मचारियों को शामिल करने वाली इस कार्रवाई के कारण बड़े पैमाने पर सेवाएं रद्द कर दी गईं। मैड्रिड और बार्सिलोना विशेष रूप से प्रभावित हुए, Renfe ने बताया कि सुबह के घंटों के दौरान मैड्रिड के Cercanías नेटवर्क में न्यूनतम सेवाओं का लगभग 98% पूरा नहीं हुआ। हालांकि परिवहन मंत्रालय ने न्यूनतम सेवा आवश्यकताएं निर्धारित की थीं, लेकिन ऑपरेटर ने प्रदर्शनकारियों पर अनुपालन न करने का आरोप लगाया, जिससे गंभीर देरी हुई। हड़ताल ने हाई-स्पीड, मध्यम-दूरी और कम्यूटर लाइनों को प्रभावित किया, जिससे लाखों यात्री फंस गए। अधिकारियों ने ड्यूटी पर न आने वाले कर्मचारियों के खिलाफ अनुशासनात्मक कार्रवाई की धमकी दी है।",
+   "summary": "17 नवंबर, 2026 को, स्पेन भर में रेलवे कर्मचारियों ने बेहतर सुरक्षा प्रोटोकॉल और बेहतर कामकाजी परिस्थितियों की मांग के लिए 24 घंटे की राष्ट्रव्यापी हड़ताल की। Semaf, CCOO, UGT और अन्य यूनियनों के गठबंधन द्वारा आयोजित, इस कार्रवाई ने Renfe, Adif और Iryo तथा Ouigo जैसे निजी ऑपरेटरों को प्रभावित किया। प्रदर्शनकारियों ने उर्डा और अडामाज़ में हाल ही में हुई घातक ट्रेन दुर्घटनाओं को अपनी मांगों का प्राथमिक कारण बताया, जिसमें आधुनिक सिग्नलिंग, स्वतंत्र मौसम चेतावनी प्रणाली और कर्मचारियों की संख्या में वृद्धि शामिल है। Renfe ने महत्वपूर्ण सेवा व्यवधानों की सूचना दी, विशेष रूप से मैड्रिड के Cercanías नेटवर्क में, जहाँ ऑपरेटर ने सेवाओं पर 97.7% प्रभाव का दावा किया। जबकि सरकार और Renfe ने यूनियनों पर न्यूनतम सेवा आवश्यकताओं को पूरा करने में विफल रहने का आरोप लगाया, यूनियन प्रतिनिधियों ने तर्क दिया कि देरी खराब प्रबंधन के कारण हुई। हड़ताल दिन के अंत में समाप्त हुई, जिसके बाद बातचीत हुई।",
    "demands": [
-    "बुनियादी ढांचे में अधिक निवेश",
-    "बेहतर सुरक्षा उपाय",
-    "अतिरिक्त स्टाफिंग"
+    "बेहतर रेलवे सुरक्षा उपाय",
+    "कर्मचारियों की संख्या में वृद्धि",
+    "ट्रेन सुरक्षा प्रणालियों का आधुनिकीकरण",
+    "फरवरी के सुरक्षा समझौतों का कार्यान्वयन",
+    "स्वतंत्र मौसम चेतावनी प्रणाली का निर्माण"
    ],
-   "response": "परिवहन और सतत गतिशीलता मंत्रालय ने 50% से 75% तक न्यूनतम सेवा स्तर निर्धारित किए। Renfe के अधिकारियों ने सेवा व्यवधानों को अराजक बताया, न्यूनतम आवश्यकताओं को पूरा न करने के लिए प्रदर्शनकारियों को दोषी ठहराया और अनुशासनात्मक कार्रवाई की धमकी दी।",
+   "response": "परिवहन मंत्रालय और Renfe ने यूनियनों के साथ बातचीत की, जिसमें सुरक्षा पर एक डिक्री और पीड़ित सहायता कार्यालय की पेशकश की गई। Renfe अधिकारियों ने अनिवार्य न्यूनतम सेवा स्तरों को पूरा करने में विफल रहने के लिए सार्वजनिक रूप से हड़ताल की आलोचना की।",
    "updates": [
-    "रेलवे कर्मचारियों ने 24 घंटे की हड़ताल की, जिससे मैड्रिड और बार्सिलोना में भारी व्यवधान हुआ।",
-    "परिवहन मंत्रालय ने आगामी 17 नवंबर की हड़ताल के लिए न्यूनतम सेवा स्तर निर्धारित किए।",
-    "एक राष्ट्रव्यापी हड़ताल हुई, जिसके परिणामस्वरूप कई ट्रेन सेवाएं रद्द हो गईं और 666,000 से अधिक यात्री प्रभावित हुए।"
+    "स्पेनिश रेल नेटवर्क पर 24 घंटे की राष्ट्रव्यापी हड़ताल हुई।",
+    "यूनियनों ने सुरक्षा और स्टाफिंग पर परिवहन मंत्रालय के साथ समझौता किया, जिससे आगे की नियोजित हड़तालें रद्द हो गईं।"
    ],
    "conflicts": [
-    "Renfe ने कहा कि न्यूनतम सेवाएं पूरी नहीं हुईं, जबकि Semaf यूनियन ने दावा किया कि ड्यूटी ऑर्डर कर्मचारियों को समय पर नहीं दिए गए थे।"
+    "Renfe ने मैड्रिड की Cercanías सेवाओं पर 97.7% प्रभाव का दावा किया, जबकि यूनियनों ने कहा कि उन्होंने सरकार द्वारा अनिवार्य न्यूनतम सेवा कोटा का पालन किया।"
    ],
    "numbers": {
     "deaths": "वर्ष की शुरुआत में हुई दो घातक रेल दुर्घटनाओं में कुल 115 लोगों की मौत हुई।"
    }
   },
   "mr": {
-   "title": "स्पेनमधील रेल्वे कर्मचाऱ्यांनी सुरक्षा सुधारणांसाठी देशव्यापी संप पुकारला",
-   "seoTitle": "मॅड्रिड रेल्वे कर्मचाऱ्यांचा संप",
+   "title": "स्पॅनिश रेल्वे कर्मचाऱ्यांनी सुरक्षा सुधारणांसाठी देशव्यापी संप केला",
+   "seoTitle": "मद्रिद रेल्वे कर्मचाऱ्यांचा संप",
    "tea": {
-    "why": "यावर्षी झालेल्या अनेक घातक रेल्वे अपघातांनंतर कर्मचारी पायाभूत सुविधा आणि सुरक्षा उपायांमध्ये वाढीव गुंतवणुकीची मागणी करत आहेत.",
-    "want": "सुधारित सुरक्षा प्रोटोकॉल, पायाभूत सुविधांमध्ये वाढीव गुंतवणूक आणि अतिरिक्त कर्मचारी.",
-    "changed": "१७ नोव्हेंबर: देशव्यापी संपामुळे वाहतुकीत मोठा व्यत्यय आला, Renfe च्या अहवालानुसार सुमारे ६६६,२७५ प्रवासी प्रभावित झाले."
+    "why": "उर्डा आणि अडामाझ येथे झालेल्या घातक रेल्वे अपघातानंतर कर्मचारी सुधारित सुरक्षा उपाय आणि पायाभूत सुविधांमध्ये गुंतवणुकीची मागणी करत आहेत.",
+    "want": "फेब्रुवारीच्या सुरक्षा करारांची अंमलबजावणी, कर्मचारी संख्येत वाढ आणि आधुनिक सुरक्षा प्रणाली.",
+    "changed": "१८ नोव्हेंबर: युनियननी सुरक्षा आणि कर्मचारी भरतीबाबत परिवहन मंत्रालयाशी करार केला, ज्यामुळे भविष्यातील संप रद्द करण्यात आले."
    },
-   "summary": "१७ नोव्हेंबर २०२६ रोजी, Urda, Adamuz आणि Angrois येथे अलीकडेच झालेल्या घातक अपघातांनंतर सुधारित सुरक्षा मानके आणि पायाभूत सुविधांमध्ये गुंतवणुकीची मागणी करण्यासाठी स्पेनमधील रेल्वे कर्मचाऱ्यांनी २४ तासांच्या देशव्यापी संपात भाग घेतला. Renfe आणि Ouigo व Iryo सारख्या खाजगी ऑपरेटरच्या कर्मचाऱ्यांचा समावेश असलेल्या या कृतीमुळे मोठ्या प्रमाणावर सेवा रद्द करण्यात आल्या. मॅड्रिड आणि बार्सिलोना विशेषतः प्रभावित झाले, Renfe ने सांगितले की सकाळच्या वेळी मॅड्रिडच्या Cercanías नेटवर्कमधील सुमारे ९८% किमान सेवा पूर्ण झाल्या नाहीत. जरी परिवहन मंत्रालयाने किमान सेवा आवश्यकता निश्चित केल्या होत्या, तरीही ऑपरेटरने आंदोलकांवर नियमांचे पालन न केल्याचा आरोप केला, ज्यामुळे गंभीर विलंब झाला. या संपामुळे हाय-स्पीड, मध्यम-अंतराच्या आणि कम्युटर लाईन्सवर परिणाम झाला, ज्यामुळे लाखो प्रवासी अडकून पडले. अधिकाऱ्यांनी कर्तव्यावर हजर न राहणाऱ्या कर्मचाऱ्यांवर शिस्तभंगाची कारवाई करण्याची धमकी दिली आहे.",
+   "summary": "१७ नोव्हेंबर २०२६ रोजी, स्पेनमधील रेल्वे कर्मचाऱ्यांनी सुधारित सुरक्षा प्रोटोकॉल आणि चांगल्या कामाच्या अटींच्या मागणीसाठी २४ तासांचा देशव्यापी संप केला. Semaf, CCOO, UGT आणि इतर युनियनच्या युतीने आयोजित केलेल्या या कृतीचा परिणाम Renfe, Adif आणि Iryo व Ouigo सारख्या खाजगी ऑपरेटरवर झाला. आंदोलकांनी उर्डा आणि अडामाझ येथील अलीकडील घातक रेल्वे अपघातांना त्यांच्या मागण्यांचे मुख्य कारण सांगितले, ज्यामध्ये आधुनिक सिग्नलिंग, स्वतंत्र हवामान इशारा प्रणाली आणि कर्मचारी संख्येत वाढ यांचा समावेश आहे. Renfe ने महत्त्वपूर्ण सेवा विस्कळीत झाल्याची माहिती दिली, विशेषतः मद्रिदच्या Cercanías नेटवर्कमध्ये, जिथे ऑपरेटरने सेवांवर ९७.७% परिणाम झाल्याचा दावा केला. सरकारने आणि Renfe ने युनियनवर किमान सेवा आवश्यकता पूर्ण करण्यात अपयशी ठरल्याचा आरोप केला, तर युनियन प्रतिनिधींनी असा युक्तिवाद केला की विलंब खराब व्यवस्थापनामुळे झाला. संप दिवसाच्या शेवटी संपला आणि त्यानंतर वाटाघाटी झाल्या.",
    "demands": [
-    "पायाभूत सुविधांमध्ये वाढीव गुंतवणूक",
-    "सुधारित सुरक्षा उपाय",
-    "अतिरिक्त कर्मचारी"
+    "सुधारित रेल्वे सुरक्षा उपाय",
+    "कर्मचारी संख्येत वाढ",
+    "ट्रेन सुरक्षा प्रणालीचे आधुनिकीकरण",
+    "फेब्रुवारीच्या सुरक्षा करारांची अंमलबजावणी",
+    "स्वतंत्र हवामान इशारा प्रणालीची निर्मिती"
    ],
-   "response": "परिवहन आणि शाश्वत गतिशीलता मंत्रालयाने ५०% ते ७५% पर्यंत किमान सेवा स्तर निश्चित केले. Renfe च्या अधिकाऱ्यांनी सेवा व्यत्ययांना अराजक म्हटले, किमान आवश्यकता पूर्ण न केल्याबद्दल आंदोलकांना जबाबदार धरले आणि शिस्तभंगाची कारवाई करण्याची धमकी दिली.",
+   "response": "परिवहन मंत्रालय आणि Renfe यांनी युनियनशी वाटाघाटी केल्या, ज्यामध्ये सुरक्षेबाबतचा अध्यादेश आणि पीडित मदत कार्यालयाची ऑफर दिली. Renfe अधिकाऱ्यांनी अनिवार्य किमान सेवा स्तर पूर्ण न केल्याबद्दल सार्वजनिकपणे संपावर टीका केली.",
    "updates": [
-    "रेल्वे कर्मचाऱ्यांनी २४ तासांचा संप केला, ज्यामुळे मॅड्रिड आणि बार्सिलोनामध्ये मोठा व्यत्यय आला.",
-    "परिवहन मंत्रालयाने १७ नोव्हेंबरच्या आगामी संपासाठी किमान सेवा स्तर निश्चित केले.",
-    "देशव्यापी संप झाला, ज्याचा परिणाम अनेक रेल्वे सेवा रद्द होण्यात झाला आणि ६६६,००० पेक्षा जास्त प्रवासी प्रभावित झाले."
+    "स्पॅनिश रेल्वे नेटवर्कवर २४ तासांचा देशव्यापी संप झाला.",
+    "युनियननी सुरक्षा आणि कर्मचारी भरतीबाबत परिवहन मंत्रालयाशी करार केला, ज्यामुळे पुढील नियोजित संप रद्द झाले."
    ],
    "conflicts": [
-    "Renfe ने सांगितले की किमान सेवा पूर्ण झाल्या नाहीत, तर Semaf युनियनने दावा केला की ड्युटी ऑर्डर कर्मचाऱ्यांना वेळेवर देण्यात आल्या नाहीत."
+    "Renfe ने मद्रिदच्या Cercanías सेवांवर ९७.७% परिणाम झाल्याचा दावा केला, तर युनियननी सांगितले की त्यांनी सरकारने अनिवार्य केलेल्या किमान सेवा कोट्याचे पालन केले."
    ],
    "numbers": {
     "deaths": "वर्षाच्या सुरुवातीला झालेल्या दोन घातक रेल्वे अपघातांमध्ये एकूण ११५ मृत्यू झाले."
@@ -274,78 +250,81 @@
    "title": "Los trabajadores ferroviarios españoles realizan una huelga nacional por mejoras de seguridad",
    "seoTitle": "Huelga de trabajadores ferroviarios en Madrid",
    "tea": {
-    "why": "Los trabajadores exigen una mayor inversión en infraestructura y medidas de seguridad tras varios accidentes ferroviarios mortales este año.",
-    "want": "Protocolos de seguridad mejorados, mayor inversión en infraestructura y personal adicional.",
-    "changed": "17 de noviembre: Una huelga nacional causó importantes interrupciones en el transporte, con Renfe informando de casi 666,275 pasajeros afectados."
+    "why": "Los trabajadores exigen mejores medidas de seguridad e inversión en infraestructura tras los accidentes ferroviarios mortales en Urda y Adamuz.",
+    "want": "Implementación de los acuerdos de seguridad de febrero, aumento de personal y modernización de los sistemas de protección.",
+    "changed": "18 de noviembre: Los sindicatos alcanzaron un acuerdo con el Ministerio de Transportes sobre seguridad y personal, lo que llevó a la cancelación de futuras huelgas."
    },
-   "summary": "El 17 de noviembre de 2026, los trabajadores ferroviarios de toda España participaron en una huelga nacional de 24 horas para exigir mejores estándares de seguridad e inversión en infraestructura tras los recientes accidentes mortales en Urda, Adamuz y Angrois. La acción, que involucró a personal de Renfe y operadores privados como Ouigo e Iryo, provocó cancelaciones generalizadas de servicios. Madrid y Barcelona se vieron particularmente afectadas, y Renfe informó que casi el 98% de los servicios mínimos en la red de Cercanías de Madrid no se cumplieron durante las horas de la mañana. Aunque el Ministerio de Transportes había establecido requisitos de servicios mínimos, el operador acusó a los manifestantes de no cumplirlos, lo que provocó graves retrasos. La huelga afectó a las líneas de alta velocidad, media distancia y cercanías, dejando a cientos de miles de pasajeros varados. Las autoridades han amenazado con tomar medidas disciplinarias contra los empleados que no se presentaron a trabajar.",
+   "summary": "El 17 de noviembre de 2026, los trabajadores ferroviarios de toda España realizaron una huelga nacional de 24 horas para exigir protocolos de seguridad mejorados y mejores condiciones laborales. Organizada por una coalición que incluye a Semaf, CCOO, UGT y otros sindicatos, la acción afectó a Renfe, Adif y operadores privados como Iryo y Ouigo. Los manifestantes citaron los recientes accidentes ferroviarios mortales en Urda y Adamuz como impulsores principales de sus demandas, que incluyen señalización modernizada, sistemas independientes de alerta meteorológica y un aumento de personal. Renfe informó de importantes interrupciones en el servicio, particularmente en la red de Cercanías de Madrid, donde el operador afirmó un impacto del 97,7% en los servicios. Mientras que el gobierno y Renfe acusaron a los sindicatos de no cumplir con los requisitos mínimos de servicio, los representantes sindicales argumentaron que los retrasos se debían a una mala gestión. La huelga concluyó al final del día, seguida de negociaciones posteriores.",
    "demands": [
-    "Mayor inversión en infraestructura",
-    "Medidas de seguridad mejoradas",
-    "Personal adicional"
+    "Medidas de seguridad ferroviaria mejoradas",
+    "Aumento de los niveles de personal",
+    "Modernización de los sistemas de protección de trenes",
+    "Implementación de los acuerdos de seguridad de febrero",
+    "Creación de un sistema independiente de alerta meteorológica"
    ],
-   "response": "El Ministerio de Transportes y Movilidad Sostenible estableció niveles de servicio mínimo que oscilaron entre el 50% y el 75%. Los funcionarios de Renfe describieron las interrupciones del servicio como caóticas, culparon a los manifestantes por no cumplir con los requisitos mínimos y amenazaron con tomar medidas disciplinarias.",
+   "response": "El Ministerio de Transportes y Renfe entablaron negociaciones con los sindicatos, ofreciendo un decreto sobre seguridad y una oficina de apoyo a las víctimas. Los funcionarios de Renfe criticaron públicamente la huelga por no cumplir con los niveles mínimos de servicio exigidos.",
    "updates": [
-    "Los trabajadores ferroviarios realizaron una huelga de 24 horas, causando importantes interrupciones en Madrid y Barcelona.",
-    "El Ministerio de Transportes estableció niveles de servicio mínimo para la próxima huelga del 17 de noviembre.",
-    "Se llevó a cabo una huelga nacional, lo que resultó en la cancelación de numerosos servicios ferroviarios y afectó a más de 666,000 pasajeros."
+    "Se lleva a cabo una huelga nacional de 24 horas en toda la red ferroviaria española.",
+    "Los sindicatos llegan a un acuerdo con el Ministerio de Transportes sobre seguridad y personal, cancelando más huelgas planificadas."
    ],
    "conflicts": [
-    "Renfe declaró que no se cumplieron los servicios mínimos, mientras que el sindicato Semaf afirmó que las órdenes de servicio no se entregaron al personal de manera oportuna."
+    "Renfe afirmó un impacto del 97,7% en los servicios de Cercanías de Madrid, mientras que los sindicatos declararon que cumplieron con las cuotas de servicio mínimo exigidas por el gobierno."
    ],
    "numbers": {
     "deaths": "Dos accidentes ferroviarios mortales a principios de año resultaron en un total de 115 muertes."
    }
   },
   "fr": {
-   "title": "Les cheminots espagnols organisent une grève nationale pour des améliorations de la sécurité",
-   "seoTitle": "Grève des cheminots à Madrid",
+   "title": "Les travailleurs ferroviaires espagnols organisent une grève nationale pour des améliorations de la sécurité",
+   "seoTitle": "Grève des travailleurs ferroviaires à Madrid",
    "tea": {
-    "why": "Les travailleurs exigent une augmentation des investissements dans l'infrastructure et des mesures de sécurité suite à plusieurs accidents ferroviaires mortels cette année.",
-    "want": "Protocoles de sécurité améliorés, augmentation des investissements dans l'infrastructure et personnel supplémentaire.",
-    "changed": "17 novembre : Une grève nationale a causé d'importantes perturbations des transports, Renfe signalant près de 666 275 passagers affectés."
+    "why": "Les travailleurs exigent de meilleures mesures de sécurité et des investissements dans les infrastructures à la suite des accidents ferroviaires mortels à Urda et Adamuz.",
+    "want": "Mise en œuvre des accords de sécurité de février, augmentation des effectifs et modernisation des systèmes de protection.",
+    "changed": "18 novembre : Les syndicats ont conclu un accord avec le ministère des Transports concernant la sécurité et les effectifs, entraînant l'annulation des futures grèves."
    },
-   "summary": "Le 17 novembre 2026, les cheminots à travers l'Espagne ont participé à une grève nationale de 24 heures pour exiger de meilleures normes de sécurité et des investissements dans l'infrastructure suite aux récents accidents mortels à Urda, Adamuz et Angrois. L'action, qui impliquait le personnel de Renfe et des opérateurs privés comme Ouigo et Iryo, a conduit à des annulations de services généralisées. Madrid et Barcelone ont été particulièrement touchées, Renfe signalant que près de 98 % des services minimums sur le réseau Cercanías de Madrid n'ont pas été respectés pendant les heures du matin. Bien que le ministère des Transports ait établi des exigences de service minimum, l'opérateur a accusé les manifestants de ne pas s'y conformer, entraînant de graves retards. La grève a touché les lignes à grande vitesse, moyenne distance et de banlieue, laissant des centaines de milliers de passagers bloqués. Les autorités ont menacé de prendre des mesures disciplinaires contre les employés qui ne se sont pas présentés au travail.",
+   "summary": "Le 17 novembre 2026, les travailleurs ferroviaires à travers l'Espagne ont organisé une grève nationale de 24 heures pour exiger des protocoles de sécurité renforcés et de meilleures conditions de travail. Organisée par une coalition comprenant Semaf, CCOO, UGT et d'autres syndicats, l'action a affecté Renfe, Adif et des opérateurs privés comme Iryo et Ouigo. Les manifestants ont cité les récents accidents ferroviaires mortels à Urda et Adamuz comme principaux moteurs de leurs revendications, qui incluent une signalisation modernisée, des systèmes d'alerte météorologique indépendants et une augmentation du personnel. Renfe a signalé d'importantes perturbations de service, en particulier sur le réseau Cercanías de Madrid, où l'opérateur a affirmé un impact de 97,7 % sur les services. Alors que le gouvernement et Renfe ont accusé les syndicats de ne pas respecter les exigences de service minimum, les représentants syndicaux ont fait valoir que les retards étaient dus à une mauvaise gestion. La grève s'est terminée à la fin de la journée, suivie de négociations ultérieures.",
    "demands": [
-    "Augmentation des investissements dans l'infrastructure",
-    "Mesures de sécurité améliorées",
-    "Personnel supplémentaire"
+    "Amélioration des mesures de sécurité ferroviaire",
+    "Augmentation des niveaux de personnel",
+    "Modernisation des systèmes de protection des trains",
+    "Mise en œuvre des accords de sécurité de février",
+    "Création d'un système d'alerte météorologique indépendant"
    ],
-   "response": "Le ministère des Transports et de la Mobilité durable a établi des niveaux de service minimum allant de 50 % à 75 %. Les responsables de Renfe ont décrit les perturbations du service comme chaotiques, ont blâmé les manifestants pour ne pas avoir respecté les exigences minimales et ont menacé de prendre des mesures disciplinaires.",
+   "response": "Le ministère des Transports et Renfe ont engagé des négociations avec les syndicats, proposant un décret sur la sécurité et un bureau d'aide aux victimes. Les responsables de Renfe ont publiquement critiqué la grève pour ne pas avoir respecté les niveaux de service minimum requis.",
    "updates": [
-    "Les cheminots ont organisé une grève de 24 heures, causant d'importantes perturbations à Madrid et Barcelone.",
-    "Le ministère des Transports a fixé des niveaux de service minimum pour la grève du 17 novembre à venir.",
-    "Une grève nationale a eu lieu, entraînant l'annulation de nombreux services ferroviaires et affectant plus de 666 000 passagers."
+    "Une grève nationale de 24 heures a lieu sur l'ensemble du réseau ferroviaire espagnol.",
+    "Les syndicats parviennent à un accord avec le ministère des Transports sur la sécurité et les effectifs, annulant les autres grèves prévues."
    ],
    "conflicts": [
-    "Renfe a déclaré que les services minimums n'ont pas été respectés, tandis que le syndicat Semaf a affirmé que les ordres de service n'avaient pas été remis au personnel en temps opportun."
+    "Renfe a affirmé un impact de 97,7 % sur les services de Cercanías de Madrid, tandis que les syndicats ont déclaré avoir respecté les quotas de service minimum imposés par le gouvernement."
    ],
    "numbers": {
     "deaths": "Deux accidents ferroviaires mortels plus tôt dans l'année ont entraîné un total de 115 décès."
    }
   },
   "de": {
-   "title": "Spanische Eisenbahner halten landesweiten Streik für Sicherheitsverbesserungen ab",
+   "title": "Spanische Eisenbahner führen landesweiten Streik für Sicherheitsverbesserungen durch",
    "seoTitle": "Streik der Eisenbahner in Madrid",
    "tea": {
-    "why": "Die Arbeiter fordern nach mehreren tödlichen Zugunglücken in diesem Jahr erhöhte Investitionen in die Infrastruktur und Sicherheitsmaßnahmen.",
-    "want": "Verbesserte Sicherheitsprotokolle, erhöhte Infrastrukturinvestitionen und zusätzliches Personal.",
-    "changed": "17. November: Ein landesweiter Streik verursachte erhebliche Transportstörungen, wobei Renfe fast 666.275 betroffene Passagiere meldete."
+    "why": "Die Arbeiter fordern verbesserte Sicherheitsmaßnahmen und Investitionen in die Infrastruktur nach tödlichen Zugunglücken in Urda und Adamuz.",
+    "want": "Umsetzung der Sicherheitsvereinbarungen vom Februar, Aufstockung des Personals und Modernisierung der Schutzsysteme.",
+    "changed": "18. November: Die Gewerkschaften erzielten eine Einigung mit dem Verkehrsministerium bezüglich Sicherheit und Personal, was zur Absage zukünftiger Streiks führte."
    },
-   "summary": "Am 17. November 2026 beteiligten sich Eisenbahner in ganz Spanien an einem 24-stündigen landesweiten Streik, um nach den jüngsten tödlichen Unfällen in Urda, Adamuz und Angrois verbesserte Sicherheitsstandards und Investitionen in die Infrastruktur zu fordern. Die Aktion, an der Personal von Renfe sowie privaten Betreibern wie Ouigo und Iryo beteiligt war, führte zu weit verbreiteten Dienstausfällen. Madrid und Barcelona waren besonders betroffen, wobei Renfe berichtete, dass fast 98 % der Mindestdienste im Cercanías-Netz von Madrid während der Morgenstunden nicht erfüllt wurden. Obwohl das Verkehrsministerium Anforderungen an Mindestdienste festgelegt hatte, beschuldigte der Betreiber die Demonstranten, diese nicht einzuhalten, was zu schweren Verspätungen führte. Der Streik betraf Hochgeschwindigkeits-, Mittelstrecken- und Pendlerlinien und ließ Hunderttausende von Passagieren stranden. Die Behörden haben Disziplinarmaßnahmen gegen Mitarbeiter angedroht, die nicht zum Dienst erschienen sind.",
+   "summary": "Am 17. November 2026 führten Eisenbahner in ganz Spanien einen 24-stündigen landesweiten Streik durch, um verbesserte Sicherheitsprotokolle und bessere Arbeitsbedingungen zu fordern. Die von einem Bündnis aus Semaf, CCOO, UGT und anderen Gewerkschaften organisierte Aktion betraf Renfe, Adif und private Betreiber wie Iryo und Ouigo. Die Demonstranten nannten die jüngsten tödlichen Zugunglücke in Urda und Adamuz als Hauptgrund für ihre Forderungen, zu denen modernisierte Signaltechnik, unabhängige Wetterwarnsysteme und eine Aufstockung des Personals gehören. Renfe meldete erhebliche Dienstunterbrechungen, insbesondere im Cercanías-Netz von Madrid, wo der Betreiber einen Einfluss von 97,7 % auf die Dienste geltend machte. Während die Regierung und Renfe den Gewerkschaften vorwarfen, die Anforderungen an den Mindestbetrieb nicht zu erfüllen, argumentierten Gewerkschaftsvertreter, dass die Verzögerungen auf schlechtes Management zurückzuführen seien. Der Streik endete am Ende des Tages, gefolgt von anschließenden Verhandlungen.",
    "demands": [
-    "Erhöhte Investitionen in die Infrastruktur",
-    "Verbesserte Sicherheitsmaßnahmen",
-    "Zusätzliches Personal"
+    "Verbesserte Eisenbahnsicherheitsmaßnahmen",
+    "Erhöhung des Personalbestands",
+    "Modernisierung der Zugschutzsysteme",
+    "Umsetzung der Sicherheitsvereinbarungen vom Februar",
+    "Schaffung eines unabhängigen Wetterwarnsystems"
    ],
-   "response": "Das Ministerium für Verkehr und nachhaltige Mobilität legte Mindestdienstniveaus zwischen 50 % und 75 % fest. Renfe-Beamte beschrieben die Dienststörungen als chaotisch, machten die Demonstranten für die Nichteinhaltung der Mindestanforderungen verantwortlich und drohten mit Disziplinarmaßnahmen.",
+   "response": "Das Verkehrsministerium und Renfe nahmen Verhandlungen mit den Gewerkschaften auf und boten ein Dekret zur Sicherheit sowie eine Opferunterstützungsstelle an. Renfe-Beamte kritisierten den Streik öffentlich dafür, dass er die vorgeschriebenen Mindestdienstniveaus nicht einhielt.",
    "updates": [
-    "Eisenbahner hielten einen 24-stündigen Streik ab, der erhebliche Störungen in Madrid und Barcelona verursachte.",
-    "Das Verkehrsministerium legte Mindestdienstniveaus für den bevorstehenden Streik am 17. November fest.",
-    "Ein landesweiter Streik fand statt, der zur Annullierung zahlreicher Zugverbindungen führte und über 666.000 Passagiere betraf."
+    "Ein landesweiter 24-Stunden-Streik findet im gesamten spanischen Schienennetz statt.",
+    "Die Gewerkschaften erzielen eine Einigung mit dem Verkehrsministerium über Sicherheit und Personal und sagen weitere geplante Streiks ab."
    ],
    "conflicts": [
-    "Renfe erklärte, dass die Mindestdienste nicht erfüllt wurden, während die Gewerkschaft Semaf behauptete, dass Dienstbefehle nicht rechtzeitig an das Personal übermittelt wurden."
+    "Renfe behauptete einen Einfluss von 97,7 % auf die Cercanías-Dienste in Madrid, während die Gewerkschaften erklärten, sie hätten die von der Regierung vorgeschriebenen Mindestdienstquoten eingehalten."
    ],
    "numbers": {
     "deaths": "Zwei tödliche Zugunglücke früher im Jahr führten zu insgesamt 115 Todesfällen."
@@ -355,81 +334,84 @@
    "title": "I lavoratori ferroviari spagnoli tengono uno sciopero nazionale per miglioramenti della sicurezza",
    "seoTitle": "Sciopero dei lavoratori ferroviari a Madrid",
    "tea": {
-    "why": "I lavoratori chiedono maggiori investimenti nelle infrastrutture e misure di sicurezza in seguito a diversi incidenti ferroviari mortali quest'anno.",
-    "want": "Protocolli di sicurezza migliorati, maggiori investimenti nelle infrastrutture e personale aggiuntivo.",
-    "changed": "17 novembre: Uno sciopero nazionale ha causato significative interruzioni dei trasporti, con Renfe che ha segnalato quasi 666.275 passeggeri colpiti."
+    "why": "I lavoratori chiedono migliori misure di sicurezza e investimenti nelle infrastrutture in seguito ai fatali incidenti ferroviari a Urda e Adamuz.",
+    "want": "Attuazione degli accordi di sicurezza di febbraio, aumento del personale e modernizzazione dei sistemi di protezione.",
+    "changed": "18 novembre: I sindacati hanno raggiunto un accordo con il Ministero dei Trasporti in merito alla sicurezza e al personale, portando alla cancellazione dei futuri scioperi."
    },
-   "summary": "Il 17 novembre 2026, i lavoratori ferroviari in tutta la Spagna hanno partecipato a uno sciopero nazionale di 24 ore per chiedere migliori standard di sicurezza e investimenti nelle infrastrutture in seguito ai recenti incidenti mortali a Urda, Adamuz e Angrois. L'azione, che ha coinvolto il personale di Renfe e operatori privati come Ouigo e Iryo, ha portato a diffuse cancellazioni dei servizi. Madrid e Barcellona sono state particolarmente colpite, con Renfe che ha riferito che quasi il 98% dei servizi minimi nella rete Cercanías di Madrid non è stato rispettato durante le ore mattutine. Sebbene il Ministero dei Trasporti avesse stabilito requisiti di servizio minimo, l'operatore ha accusato i manifestanti di non conformarsi, causando gravi ritardi. Lo sciopero ha colpito le linee ad alta velocità, a media distanza e pendolari, lasciando centinaia di migliaia di passeggeri bloccati. Le autorità hanno minacciato azioni disciplinari contro i dipendenti che non si sono presentati al lavoro.",
+   "summary": "Il 17 novembre 2026, i lavoratori ferroviari in tutta la Spagna hanno tenuto uno sciopero nazionale di 24 ore per chiedere protocolli di sicurezza migliorati e migliori condizioni di lavoro. Organizzata da una coalizione che include Semaf, CCOO, UGT e altri sindacati, l'azione ha colpito Renfe, Adif e operatori privati come Iryo e Ouigo. I manifestanti hanno citato i recenti incidenti ferroviari fatali a Urda e Adamuz come fattori principali delle loro richieste, che includono segnaletica modernizzata, sistemi indipendenti di allerta meteorologica e un aumento del personale. Renfe ha segnalato significative interruzioni del servizio, in particolare nella rete Cercanías di Madrid, dove l'operatore ha affermato un impatto del 97,7% sui servizi. Mentre il governo e Renfe hanno accusato i sindacati di non rispettare i requisiti minimi di servizio, i rappresentanti sindacali hanno sostenuto che i ritardi erano dovuti a una cattiva gestione. Lo sciopero si è concluso alla fine della giornata, seguito da successivi negoziati.",
    "demands": [
-    "Maggiori investimenti nelle infrastrutture",
-    "Misure di sicurezza migliorate",
-    "Personale aggiuntivo"
+    "Migliori misure di sicurezza ferroviaria",
+    "Aumento dei livelli di personale",
+    "Modernizzazione dei sistemi di protezione dei treni",
+    "Attuazione degli accordi di sicurezza di febbraio",
+    "Creazione di un sistema indipendente di allerta meteorologica"
    ],
-   "response": "Il Ministero dei Trasporti e della Mobilità Sostenibile ha stabilito livelli di servizio minimo compresi tra il 50% e il 75%. I funzionari di Renfe hanno descritto le interruzioni del servizio come caotiche, hanno incolpato i manifestanti per non aver soddisfatto i requisiti minimi e hanno minacciato azioni disciplinari.",
+   "response": "Il Ministero dei Trasporti e Renfe hanno avviato negoziati con i sindacati, offrendo un decreto sulla sicurezza e un ufficio di supporto alle vittime. I funzionari di Renfe hanno criticato pubblicamente lo sciopero per non aver rispettato i livelli minimi di servizio richiesti.",
    "updates": [
-    "I lavoratori ferroviari hanno tenuto uno sciopero di 24 ore, causando significative interruzioni a Madrid e Barcellona.",
-    "Il Ministero dei Trasporti ha fissato i livelli di servizio minimo per il prossimo sciopero del 17 novembre.",
-    "Si è svolto uno sciopero nazionale, che ha portato alla cancellazione di numerosi servizi ferroviari e ha colpito oltre 666.000 passeggeri."
+    "Si svolge uno sciopero nazionale di 24 ore in tutta la rete ferroviaria spagnola.",
+    "I sindacati raggiungono un accordo con il Ministero dei Trasporti sulla sicurezza e sul personale, cancellando ulteriori scioperi pianificati."
    ],
    "conflicts": [
-    "Renfe ha dichiarato che i servizi minimi non sono stati rispettati, mentre il sindacato Semaf ha affermato che gli ordini di servizio non sono stati consegnati al personale in modo tempestivo."
+    "Renfe ha affermato un impatto del 97,7% sui servizi Cercanías di Madrid, mentre i sindacati hanno dichiarato di aver rispettato le quote di servizio minimo imposte dal governo."
    ],
    "numbers": {
-    "deaths": "Due incidenti ferroviari mortali all'inizio dell'anno hanno provocato un totale di 115 morti."
+    "deaths": "Due incidenti ferroviari fatali all'inizio dell'anno hanno provocato un totale di 115 morti."
    }
   },
   "pt": {
    "title": "Trabalhadores ferroviários espanhóis realizam greve nacional por melhorias na segurança",
    "seoTitle": "Greve dos trabalhadores ferroviários em Madrid",
    "tea": {
-    "why": "Os trabalhadores exigem um aumento do investimento em infraestruturas e medidas de segurança após vários acidentes ferroviários mortais este ano.",
-    "want": "Protocolos de segurança melhorados, aumento do investimento em infraestruturas e pessoal adicional.",
-    "changed": "17 de novembro: Uma greve nacional causou perturbações significativas nos transportes, com a Renfe a reportar quase 666.275 passageiros afetados."
+    "why": "Os trabalhadores exigem melhores medidas de segurança e investimento em infraestruturas após os acidentes ferroviários fatais em Urda e Adamuz.",
+    "want": "Implementação dos acordos de segurança de fevereiro, aumento de pessoal e modernização dos sistemas de proteção.",
+    "changed": "18 de novembro: Os sindicatos chegaram a um acordo com o Ministério dos Transportes sobre segurança e pessoal, levando ao cancelamento de futuras greves."
    },
-   "summary": "A 17 de novembro de 2026, os trabalhadores ferroviários em toda a Espanha participaram numa greve nacional de 24 horas para exigir melhores padrões de segurança e investimento em infraestruturas após os recentes acidentes mortais em Urda, Adamuz e Angrois. A ação, que envolveu pessoal da Renfe e operadores privados como a Ouigo e a Iryo, levou a cancelamentos generalizados de serviços. Madrid e Barcelona foram particularmente afetadas, com a Renfe a reportar que quase 98% dos serviços mínimos na rede Cercanías de Madrid não foram cumpridos durante as horas da manhã. Embora o Ministério dos Transportes tivesse estabelecido requisitos de serviços mínimos, o operador acusou os manifestantes de não os cumprirem, causando atrasos graves. A greve afetou as linhas de alta velocidade, média distância e suburbanas, deixando centenas de milhares de passageiros retidos. As autoridades ameaçaram tomar medidas disciplinares contra os funcionários que não compareceram ao trabalho.",
+   "summary": "No dia 17 de novembro de 2026, os trabalhadores ferroviários em toda a Espanha realizaram uma greve nacional de 24 horas para exigir protocolos de segurança melhorados e melhores condições de trabalho. Organizada por uma coligação que inclui a Semaf, CCOO, UGT e outros sindicatos, a ação afetou a Renfe, a Adif e operadores privados como a Iryo e a Ouigo. Os manifestantes citaram os recentes acidentes ferroviários fatais em Urda e Adamuz como impulsionadores principais das suas exigências, que incluem sinalização modernizada, sistemas independentes de alerta meteorológico e um aumento de pessoal. A Renfe reportou interrupções significativas no serviço, particularmente na rede de Cercanías de Madrid, onde o operador afirmou um impacto de 97,7% nos serviços. Enquanto o governo e a Renfe acusaram os sindicatos de não cumprirem os requisitos mínimos de serviço, os representantes sindicais argumentaram que os atrasos se deveram a uma má gestão. A greve terminou no final do dia, seguida de negociações posteriores.",
    "demands": [
-    "Aumento do investimento em infraestruturas",
-    "Medidas de segurança melhoradas",
-    "Pessoal adicional"
+    "Melhores medidas de segurança ferroviária",
+    "Aumento dos níveis de pessoal",
+    "Modernização dos sistemas de proteção de comboios",
+    "Implementação dos acordos de segurança de fevereiro",
+    "Criação de um sistema independente de alerta meteorológico"
    ],
-   "response": "O Ministério dos Transportes e da Mobilidade Sustentável estabeleceu níveis de serviço mínimo que variaram entre 50% e 75%. Os responsáveis da Renfe descreveram as perturbações do serviço como caóticas, culparam os manifestantes por não cumprirem os requisitos mínimos e ameaçaram tomar medidas disciplinares.",
+   "response": "O Ministério dos Transportes e a Renfe encetaram negociações com os sindicatos, oferecendo um decreto sobre segurança e um gabinete de apoio às vítimas. Os responsáveis da Renfe criticaram publicamente a greve por não cumprir os níveis mínimos de serviço exigidos.",
    "updates": [
-    "Os trabalhadores ferroviários realizaram uma greve de 24 horas, causando perturbações significativas em Madrid e Barcelona.",
-    "O Ministério dos Transportes estabeleceu níveis de serviço mínimo para a próxima greve de 17 de novembro.",
-    "Realizou-se uma greve nacional, resultando no cancelamento de numerosos serviços ferroviários e afetando mais de 666.000 passageiros."
+    "Realiza-se uma greve nacional de 24 horas em toda a rede ferroviária espanhola.",
+    "Os sindicatos chegam a acordo com o Ministério dos Transportes sobre segurança e pessoal, cancelando outras greves planeadas."
    ],
    "conflicts": [
-    "A Renfe declarou que os serviços mínimos não foram cumpridos, enquanto o sindicato Semaf afirmou que as ordens de serviço não foram entregues ao pessoal de forma atempada."
+    "A Renfe afirmou um impacto de 97,7% nos serviços de Cercanías de Madrid, enquanto os sindicatos declararam que cumpriram as quotas de serviço mínimo exigidas pelo governo."
    ],
    "numbers": {
-    "deaths": "Dois acidentes ferroviários mortais no início do ano resultaram num total de 115 mortes."
+    "deaths": "Dois acidentes ferroviários fatais no início do ano resultaram num total de 115 mortes."
    }
   },
   "nl": {
    "title": "Spaanse spoorwegmedewerkers houden landelijke staking voor veiligheidsupgrades",
-   "seoTitle": "Staking van spoorwegmedewerkers in Madrid",
+   "seoTitle": "Staking spoorwegmedewerkers in Madrid",
    "tea": {
-    "why": "Werknemers eisen meer investeringen in infrastructuur en veiligheidsmaatregelen na verschillende dodelijke treinongevallen dit jaar.",
-    "want": "Verbeterde veiligheidsprotocollen, verhoogde investeringen in infrastructuur en extra personeel.",
-    "changed": "17 november: Een landelijke staking veroorzaakte aanzienlijke transportverstoringen, waarbij Renfe bijna 666.275 getroffen passagiers meldde."
+    "why": "Medewerkers eisen verbeterde veiligheidsmaatregelen en investeringen in infrastructuur na dodelijke treinongevallen in Urda en Adamuz.",
+    "want": "Implementatie van veiligheidsafspraken uit februari, meer personeel en gemoderniseerde beveiligingssystemen.",
+    "changed": "18 november: Vakbonden bereikten een akkoord met het Ministerie van Transport over veiligheid en personeel, wat leidde tot het annuleren van toekomstige stakingen."
    },
-   "summary": "Op 17 november 2026 namen spoorwegmedewerkers in heel Spanje deel aan een 24-uurs landelijke staking om verbeterde veiligheidsnormen en investeringen in infrastructuur te eisen na recente dodelijke ongevallen in Urda, Adamuz en Angrois. De actie, waarbij personeel van Renfe en private exploitanten zoals Ouigo en Iryo betrokken was, leidde tot wijdverbreide annuleringen van diensten. Madrid en Barcelona werden bijzonder hard getroffen, waarbij Renfe meldde dat bijna 98% van de minimale diensten in het Cercanías-netwerk van Madrid tijdens de ochtenduren niet werd gehaald. Hoewel het Ministerie van Transport eisen voor minimale diensten had vastgesteld, beschuldigde de exploitant de demonstranten ervan deze niet na te leven, wat leidde tot ernstige vertragingen. De staking trof hogesnelheids-, middellangeafstands- en forensenlijnen, waardoor honderdduizenden passagiers strandden. De autoriteiten hebben gedreigd met disciplinaire maatregelen tegen werknemers die niet op het werk verschenen.",
+   "summary": "Op 17 november 2026 hielden spoorwegmedewerkers in heel Spanje een 24-uurs landelijke staking om verbeterde veiligheidsprotocollen en betere arbeidsomstandigheden te eisen. De actie, georganiseerd door een coalitie waaronder Semaf, CCOO, UGT en andere vakbonden, trof Renfe, Adif en private exploitanten zoals Iryo en Ouigo. Betogers noemden de recente dodelijke treinongevallen in Urda en Adamuz als voornaamste reden voor hun eisen, waaronder gemoderniseerde signalering, onafhankelijke weerwaarschuwingssystemen en meer personeel. Renfe rapporteerde aanzienlijke verstoringen van de dienstregeling, met name in het Cercanías-netwerk van Madrid, waar de exploitant een impact van 97,7% op de diensten claimde. Terwijl de overheid en Renfe de vakbonden beschuldigden van het niet voldoen aan de minimale dienstverleningseisen, stelden vakbondsvertegenwoordigers dat vertragingen voortkwamen uit slecht management. De staking eindigde aan het einde van de dag, gevolgd door latere onderhandelingen.",
    "demands": [
-    "Verhoogde investeringen in infrastructuur",
-    "Verbeterde veiligheidsmaatregelen",
-    "Extra personeel"
+    "Verbeterde veiligheidsmaatregelen voor het spoor",
+    "Verhoogde personeelsbezetting",
+    "Modernisering van treinbeveiligingssystemen",
+    "Implementatie van veiligheidsafspraken uit februari",
+    "Creatie van een onafhankelijk weerwaarschuwingssysteem"
    ],
-   "response": "Het Ministerie van Transport en Duurzame Mobiliteit stelde minimale serviceniveaus vast variërend van 50% tot 75%. Functionarissen van Renfe beschreven de verstoringen van de dienstverlening als chaotisch, gaven de demonstranten de schuld van het niet voldoen aan de minimumeisen en dreigden met disciplinaire maatregelen.",
+   "response": "Het Ministerie van Transport en Renfe gingen in onderhandeling met de vakbonden en boden een decreet over veiligheid en een ondersteuningsbureau voor slachtoffers aan. Functionarissen van Renfe bekritiseerden de staking publiekelijk omdat deze niet voldeed aan de verplichte minimale dienstverleningsniveaus.",
    "updates": [
-    "Spoorwegmedewerkers hielden een 24-uurs staking, wat aanzienlijke verstoringen in Madrid en Barcelona veroorzaakte.",
-    "Het Ministerie van Transport stelde minimale serviceniveaus vast voor de komende staking van 17 november.",
-    "Er vond een landelijke staking plaats, wat resulteerde in de annulering van talloze treindiensten en meer dan 666.000 passagiers trof."
+    "Een landelijke 24-uurs staking vindt plaats in het gehele Spaanse spoorwegnet.",
+    "Vakbonden bereiken een akkoord met het Ministerie van Transport over veiligheid en personeel, waardoor verdere geplande stakingen worden geannuleerd."
    ],
    "conflicts": [
-    "Renfe verklaarde dat de minimale diensten niet werden gehaald, terwijl de vakbond Semaf beweerde dat dienstopdrachten niet tijdig aan het personeel werden verstrekt."
+    "Renfe claimde een impact van 97,7% op de Cercanías-diensten in Madrid, terwijl de vakbonden verklaarden dat zij zich aan de door de overheid opgelegde quota voor minimale dienstverlening hadden gehouden."
    ],
    "numbers": {
-    "deaths": "Twee dodelijke treinongevallen eerder dit jaar resulteerden in in totaal 115 doden."
+    "deaths": "Twee dodelijke treinongevallen eerder in het jaar resulteerden in in totaal 115 doden."
    }
   }
  },
