@@ -16,7 +16,8 @@
  "scope": "local",
  "causes": [
   "housing",
-  "prices"
+  "police",
+  "governance"
  ],
  "kind": "multi-day",
  "startedOn": "2026-11-01",
@@ -25,27 +26,26 @@
  "severity": "serious",
  "review": "pending",
  "reviewReasons": [
-  "serious",
-  "low-confidence",
-  "sources-disagree"
+  "serious"
  ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against high housing costs and a new rent bill that they claim will ease evictions and end rent caps.",
-  "want": "The protesters demand the abandonment of the government's rent bill and the rehabilitation of vacant buildings in the city.",
-  "changed": "Nov 18: The government announced plans to meet with two groups from the Porto protest camp to discuss their demands."
+  "why": "Protesters are demonstrating against high housing costs and a new rent bill.",
+  "want": "They demand the abandonment of plans to ease evictions, an end to rent caps for new contracts, and the rehabilitation of vacant buildings.",
+  "changed": "Nov 18: The government announced it intends to meet with two groups from the Porto protest camp."
  },
- "summary": "In early November 2026, police in Porto dismantled a protest camp set up in Praça D. João I by activists campaigning for housing rights. The eviction, which occurred in the early hours of Sunday, November 1, led to clashes between protesters and police. According to the Public Security Police (PSP), 13 officers were injured, and seven protesters were arrested. Protesters reported that dozens of participants were injured during the operation. A notable incident involved an undercover officer drawing a firearm, which the police described as a passive deterrent measure. Following the eviction, the protest movement continued to occupy the space, leading to ongoing negotiations with the Porto City Council regarding the use of the square for holiday decorations. As of mid-November, the movement remains active and has received an invitation to meet with government officials.",
+ "summary": "In early November 2026, police dismantled a protest camp in Porto's Praça D. João I, where demonstrators had gathered to protest the housing crisis. The operation, which occurred in the early hours of Sunday, November 1, involved clashes between police and protesters. According to the PSP, 13 officers were injured, and seven people were arrested. Protesters reported at least 38 injuries among their ranks. A notable incident involved an undercover officer drawing a firearm, which the police described as a passive deterrent. Since the eviction, the movement has continued to occupy the space and engage in negotiations with the Porto City Council regarding the use of the square for holiday events. The protesters maintain their presence while seeking dialogue with the government regarding housing policies.",
  "organizers": [
   "Acampada do Porto",
   "Mães da Acampada"
  ],
  "demands": [
-  "Abandonment of the new rent bill",
+  "Abandonment of plans to ease evictions",
+  "End to rent caps for new contracts",
   "Rehabilitation of vacant buildings"
  ],
- "response": "The PSP stated that the eviction was necessary to disperse the camp and that officers used force in response to aggression. The government has acknowledged the housing crisis and recently invited protest representatives to a meeting.",
+ "response": "The PSP stated that officers used shields and batons to disperse protesters who refused orders to leave. The government has acknowledged the housing crisis and recently announced plans to meet with representatives of the protest movement.",
  "numbers": {
   "arrests": {
    "value": 7,
@@ -67,7 +67,7 @@
  "updates": [
   {
    "at": "2026-11-01",
-   "text": "Police dismantled the protest camp in Porto, resulting in clashes, 13 injured officers, and seven arrests.",
+   "text": "Police dismantled the protest camp in Porto, leading to clashes, 13 police injuries, and seven arrests.",
    "sources": [
     1,
     3,
@@ -76,21 +76,21 @@
   },
   {
    "at": "2026-11-08",
-   "text": "Protesters expressed opposition to the city's plan to install an ice rink in the square, viewing it as a potential sabotage of their protest.",
+   "text": "Protesters expressed opposition to the city council's plan to install an ice rink in the square.",
    "sources": [
     5
    ]
   },
   {
    "at": "2026-11-11",
-   "text": "Protesters reached an agreement with the city to share the square with holiday decorations, excluding the ice rink.",
+   "text": "Protesters agreed to share the square with holiday decorations after the city cancelled the ice rink.",
    "sources": [
     6
    ]
   },
   {
    "at": "2026-11-18",
-   "text": "The government announced an intention to meet with representatives from the Porto protest camp.",
+   "text": "The government announced it intends to meet with two groups from the Porto protest camp.",
    "sources": [
     7
    ]
@@ -147,19 +147,16 @@
    "publishedAt": "2026-11-18T10:49:37.000Z"
   }
  ],
- "conflicts": [
-  "Police reported 13 injured officers; the protest organization reported at least 38 injured protesters in Porto.",
-  "Protesters claimed the undercover officer's use of a firearm was an act of intimidation; police described it as a passive deterrent."
- ],
- "confidence": 0.75,
+ "conflicts": [],
+ "confidence": 0.9,
  "publishers": 7,
  "reports24h": 1,
  "reportsPrev24h": 0,
  "reports48h": 1,
  "firstSeenAt": "2026-10-31T22:52:20.123Z",
  "lastReportAt": "2026-11-18T10:49:37.000Z",
- "lastCheckedAt": "2026-11-18T12:56:00.461Z",
- "updatedAt": "2026-11-18T12:55:15.666Z",
+ "lastCheckedAt": "2026-11-18T16:59:05.256Z",
+ "updatedAt": "2026-11-18T16:57:01.779Z",
  "searchedAt": "2026-11-01T19:44:18.836Z",
  "responseSources": [
   1,
@@ -168,8 +165,8 @@
  ],
  "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-11-18T12:55:15.666Z",
- "summaryOf": "8e71b5de322a",
+ "summarizedAt": "2026-11-18T16:57:01.779Z",
+ "summaryOf": "48342431880d",
  "publishedAt": "2026-11-01T19:48:24.860Z",
  "i18n": {
   "of": "0880e83ab9921e17",
@@ -410,6 +407,7 @@
  },
  "distinctFrom": [
   "ec72182423b",
-  "efe6e6f8f7f"
+  "efe6e6f8f7f",
+  "e70a88c09f4"
  ]
 }
