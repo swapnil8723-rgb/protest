@@ -13,48 +13,51 @@
   "citySlug": "madrid",
   "regionSlug": "madrid"
  },
- "scope": "multi-city",
+ "scope": "nationwide",
  "causes": [
-  "students",
   "education",
-  "governance"
+  "students"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-20",
  "status": "scheduled",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters cite the deterioration of public education, rising privatization, militarism, and the growth of far-right political movements.",
-  "want": "Increased funding for public education, protection of LGTBI and women's rights, and an end to privatization and police repression.",
-  "changed": "Nov 16: The Sindicato de Estudiantes announced a coordinated European student strike scheduled for November 20."
+  "why": "Students are protesting against the deterioration of public education, rising privatization, militarism, and the rise of the far right.",
+  "want": "They demand defending public education, halting privatization, ending militarism and police repression, and protecting marginalized groups.",
+  "changed": "Nov 18: The Sindicato de Estudiantes announced that the protest in Madrid will gather at Puerta del Sol at 12:00 hours on November 20."
  },
- "summary": "The Sindicato de Estudiantes has called for a student strike and demonstrations in Spain on November 20, 2026, as part of a broader European mobilization. Students in countries including France, Germany, Italy, Greece, and Great Britain are also expected to participate. The organizers aim to protest the decline of public education, the allocation of public funds to private institutions, and the rise of far-right ideologies. Additionally, the movement demands action against militarism, gender-based violence, and discrimination against the LGTBI community. The union also expressed opposition to police responses during previous student protests. The initiative seeks to mobilize youth from both secondary schools and universities to advocate for improved public education and social rights across Europe.",
+ "summary": "Student organizations across several European countries, including Spain, have called for a strike and mobilization day on November 20. In Spain, the action is organised by the Sindicato de Estudiantes. The participants aim to empty classrooms and fill the streets to protest against the degradation of public education, privatization policies, militarism, imperialist wars, and the rise of the far right. According to the organisers, private teaching institutions receive billions in subsidies while public schools and universities deteriorate. The union also criticized police repression during student protests and accused political leaders of supporting large military budgets while public services degrade. In Madrid, a demonstration has been scheduled at Puerta del Sol.",
  "organizers": [
   "Sindicato de Estudiantes"
  ],
  "demands": [
-  "Defend public education",
-  "End privatization",
-  "Combat far-right influence",
-  "Protect LGTBI and women's rights",
-  "End militarism"
+  "Defend public education and stop privatization",
+  "Reject militarism and imperialist wars",
+  "Oppose police repression and far-right hate speech",
+  "Defend LGTBI rights and combat gender violence"
  ],
  "response": "No official response reported in the sources.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-16",
-   "text": "The Sindicato de Estudiantes announced a European-wide student strike for November 20 to protest education policies and social issues.",
+   "text": "The Sindicato de Estudiantes announced a European student strike for November 20 to protest public education degradation and privatization.",
    "sources": [
     1,
     2
+   ]
+  },
+  {
+   "at": "2026-11-18",
+   "text": "The Sindicato de Estudiantes fixed Puerta del Sol in Madrid as the meeting point for the November 20 mobilization at 12:00 hours.",
+   "sources": [
+    3
    ]
   }
  ],
@@ -72,95 +75,101 @@
    "publisher": "elconfidencial.com",
    "title": "Huelga de estudiantes en España: quién la convoca, por qué protestan y qué países se suman el 20 de noviembre",
    "publishedAt": "2026-11-16T11:39:00.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.elmundo.es/como/2026/11/18/6afd7acbe85ece764d8b458e.html",
+   "publisher": "elmundo.es",
+   "title": "Huelga de estudiantes este 20 de noviembre: qui�n la convoca, horario y lugar de la movilizaci�n en Madrid",
+   "publishedAt": "2026-11-18T10:39:39.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 0,
+ "confidence": 0.8,
+ "publishers": 3,
+ "reports24h": 1,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 1,
  "firstSeenAt": "2026-11-16T12:55:04.304Z",
- "lastReportAt": "2026-11-16T11:39:00.000Z",
- "lastCheckedAt": "2026-11-18T20:54:45.303Z",
- "updatedAt": "2026-11-16T21:00:05.729Z",
+ "lastReportAt": "2026-11-18T10:39:39.000Z",
+ "lastCheckedAt": "2026-11-19T00:55:34.533Z",
+ "updatedAt": "2026-11-19T00:55:09.118Z",
  "searchedAt": "2026-11-16T16:50:41.598Z",
- "endedOn": "2026-11-20",
  "responseSources": [],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-16T21:00:05.729Z",
- "summaryOf": "990be969cdca",
+ "summarizedAt": "2026-11-19T00:55:09.118Z",
+ "summaryOf": "ece14241d608",
  "publishedAt": "2026-11-16T21:00:12.585Z",
  "i18n": {
-  "of": "52a4f7b5dcfac880",
-  "at": "2026-11-16T21:02:21.422Z",
+  "of": "8586633afe4c48a8",
+  "at": "2026-11-19T00:57:24.067Z",
   "tries": 1,
   "es": {
    "title": "Estudiantes en España convocan huelga el 20 de noviembre por la educación pública",
    "seoTitle": "Huelga estudiantil en Madrid por la educación pública",
    "tea": {
-    "why": "Los manifestantes citan el deterioro de la educación pública, el aumento de la privatización, el militarismo y el crecimiento de los movimientos políticos de extrema derecha.",
-    "want": "Mayor financiación para la educación pública, protección de los derechos LGTBI y de las mujeres, y el fin de la privatización y la represión policial.",
-    "changed": "16 de noviembre: El Sindicato de Estudiantes anunció una huelga estudiantil europea coordinada programada para el 20 de noviembre."
+    "why": "Los estudiantes protestan contra el deterioro de la educación pública, el aumento de la privatización, el militarismo y el auge de la ultraderecha.",
+    "want": "Exigen defender la educación pública, frenar la privatización, poner fin al militarismo y la represión policial, y proteger a los grupos marginados.",
+    "changed": "18 de nov: El Sindicato de Estudiantes anunció que la protesta en Madrid se concentrará en la Puerta del Sol a las 12:00 horas del 20 de noviembre."
    },
-   "summary": "El Sindicato de Estudiantes ha convocado una huelga estudiantil y manifestaciones en España el 20 de noviembre de 2026, como parte de una movilización europea más amplia. Se espera que también participen estudiantes de países como Francia, Alemania, Italia, Grecia y Gran Bretaña. Los organizadores pretenden protestar contra el declive de la educación pública, la asignación de fondos públicos a instituciones privadas y el auge de las ideologías de extrema derecha. Además, el movimiento exige medidas contra el militarismo, la violencia de género y la discriminación contra el colectivo LGTBI. El sindicato también expresó su oposición a las respuestas policiales durante anteriores protestas estudiantiles. La iniciativa busca movilizar a jóvenes tanto de escuelas secundarias como de universidades para abogar por una mejor educación pública y derechos sociales en toda Europa.",
+   "summary": "Organizaciones estudiantiles de varios países europeos, incluida España, han convocado una jornada de huelga y movilización para el 20 de noviembre. En España, la acción está organizada por el Sindicato de Estudiantes. Los participantes pretenden vaciar las aulas y llenar las calles para protestar contra la degradación de la educación pública, las políticas de privatización, el militarismo, las guerras imperialistas y el auge de la ultraderecha. Según los organizadores, los centros de enseñanza privados reciben miles de millones en subvenciones mientras los colegios y universidades públicas se deterioran. El sindicato también criticó la represión policial en las protestas estudiantiles y acusó a los líderes políticos de apoyar grandes presupuestos militares mientras los servicios públicos se degradan. En Madrid se ha programado una manifestación en la Puerta del Sol.",
    "demands": [
-    "Defender la educación pública",
-    "Terminar con la privatización",
-    "Combatir la influencia de la extrema derecha",
-    "Proteger los derechos LGTBI y de las mujeres",
-    "Terminar con el militarismo"
+    "Defender la educación pública y detener la privatización",
+    "Rechazar el militarismo y las guerras imperialistas",
+    "Oponerse a la represión policial y al discurso de odio de la ultraderecha",
+    "Defender los derechos LGTBI y combatir la violencia de género"
    ],
    "response": "No se ha informado de ninguna respuesta oficial en las fuentes.",
    "updates": [
-    "El Sindicato de Estudiantes anunció una huelga estudiantil a nivel europeo para el 20 de noviembre para protestar contra las políticas educativas y cuestiones sociales."
+    "El Sindicato de Estudiantes convocó una huelga estudiantil europea para el 20 de noviembre para protestar contra la degradación y privatización de la educación pública.",
+    "El Sindicato de Estudiantes fijó la Puerta del Sol en Madrid como punto de encuentro para la movilización del 20 de noviembre a las 12:00 horas."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "fr": {
-   "title": "Des étudiants en Espagne appellent à la grève le 20 novembre pour l'éducation publique",
-   "seoTitle": "Grève étudiante à Madrid pour l'éducation publique",
+   "title": "Des étudiants en Espagne appellent à la grève le 20 novembre pour l'enseignement public",
+   "seoTitle": "Grève étudiante à Madrid pour l'enseignement public",
    "tea": {
-    "why": "Les manifestants citent la détérioration de l'éducation publique, la privatisation croissante, le militarisme et la montée des mouvements politiques d'extrême droite.",
-    "want": "Une augmentation du financement de l'éducation publique, la protection des droits des personnes LGTBI et des femmes, ainsi que la fin de la privatisation et de la répression policière.",
-    "changed": "16 novembre : Le Sindicato de Estudiantes a annoncé une grève étudiante européenne coordonnée prévue pour le 20 novembre."
+    "why": "Les étudiants protestent contre la détérioration de l'enseignement public, la privatisation croissante, le militarisme et la montée de l'extrême droite.",
+    "want": "Ils exigent la défense de l'enseignement public, l'arrêt des privatisations, la fin du militarisme et de la répression policière, ainsi que la protection des groupes marginalisés.",
+    "changed": "18 nov. : Le Sindicato de Estudiantes a annoncé que la manifestation à Madrid se rassemblera à la Puerta del Sol à 12 h 00 le 20 novembre."
    },
-   "summary": "Le Sindicato de Estudiantes a appelé à une grève étudiante et à des manifestations en Espagne le 20 novembre 2026, dans le cadre d'une mobilisation européenne plus large. Des étudiants de pays tels que la France, l'Allemagne, l'Italie, la Grèce et la Grande-Bretagne devraient également y participer. Les organisateurs visent à protester contre le déclin de l'éducation publique, l'allocation de fonds publics à des institutions privées et la montée des idéologies d'extrême droite. De plus, le mouvement exige des mesures contre le militarisme, la violence basée sur le genre et la discrimination envers la communauté LGTBI. Le syndicat a également exprimé son opposition aux réponses policières lors de précédentes manifestations étudiantes. L'initiative cherche à mobiliser les jeunes des écoles secondaires et des universités pour défendre une meilleure éducation publique et les droits sociaux à travers l'Europe.",
+   "summary": "Des organisations étudiantes de plusieurs pays européens, dont l'Espagne, ont appelé à une journée de grève et de mobilisation le 20 novembre. En Espagne, l'action est organisée par le Sindicato de Estudiantes. Les participants ont pour objectif de vider les salles de classe et de remplir les rues pour protester contre la dégradation de l'enseignement public, les politiques de privatisation, le militarisme, les guerres impérialistes et la montée de l'extrême droite. Selon les organisateurs, les établissements d'enseignement privés reçoivent des milliards de subventions tandis que les écoles et universités publiques se détériorent. Le syndicat a également critiqué la répression policière lors des manifestations étudiantes et a accusé les dirigeants politiques de soutenir des budgets militaires importants pendant que les services publics se dégradent. À Madrid, une manifestation a été programmée à la Puerta del Sol.",
    "demands": [
-    "Défendre l'éducation publique",
-    "Mettre fin à la privatisation",
-    "Combattre l'influence de l'extrême droite",
-    "Protéger les droits des personnes LGTBI et des femmes",
-    "Mettre fin au militarisme"
+    "Défendre l'enseignement public et arrêter la privatisation",
+    "Rejeter le militarisme et les guerres impérialistes",
+    "S'opposer à la répression policière et aux discours de haine d'extrême droite",
+    "Défendre les droits des LGTBI et lutter contre les violences sexistes"
    ],
    "response": "Aucune réponse officielle signalée dans les sources.",
    "updates": [
-    "Le Sindicato de Estudiantes a annoncé une grève étudiante à l'échelle européenne pour le 20 novembre afin de protester contre les politiques éducatives et les questions sociales."
+    "Le Sindicato de Estudiantes a annoncé une grève étudiante européenne pour le 20 novembre afin de protester contre la dégradation et la privatisation de l'enseignement public.",
+    "Le Sindicato de Estudiantes a fixé la Puerta del Sol à Madrid comme point de rendez-vous pour la mobilisation du 20 novembre à 12 h 00."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "de": {
-   "title": "Studierende in Spanien rufen für den 20. November zum Streik für öffentliche Bildung auf",
+   "title": "Studierende in Spanien rufen zu Streik am 20. November für öffentliche Bildung auf",
    "seoTitle": "Studentenstreik in Madrid für öffentliche Bildung",
    "tea": {
-    "why": "Die Protestierenden führen die Verschlechterung der öffentlichen Bildung, zunehmende Privatisierung, Militarismus und das Wachstum rechtsextremer politischer Bewegungen an.",
-    "want": "Erhöhte Finanzierung für öffentliche Bildung, Schutz von LGTBI- und Frauenrechten sowie ein Ende von Privatisierung und Polizeirepression.",
-    "changed": "16. November: Das Sindicato de Estudiantes kündigte einen koordinierten europäischen Studentenstreik für den 20. November an."
+    "why": "Studierende protestieren gegen den Verfall der öffentlichen Bildung, zunehmende Privatisierung, Militarismus und den Aufstieg der extremen Rechten.",
+    "want": "Sie fordern die Verteidigung der öffentlichen Bildung, den Stopp der Privatisierung, ein Ende von Militarismus und Polizeirepression sowie den Schutz marginalisierter Gruppen.",
+    "changed": "18. Nov.: Die Gewerkschaft Sindicato de Estudiantes gab bekannt, dass sich die Proteste in Madrid am 20. November um 12:00 Uhr an der Puerta del Sol versammeln werden."
    },
-   "summary": "Das Sindicato de Estudiantes hat für den 20. November 2026 zu einem Studentenstreik und Demonstrationen in Spanien aufgerufen, als Teil einer breiteren europäischen Mobilisierung. Es wird erwartet, dass sich auch Studierende aus Ländern wie Frankreich, Deutschland, Italien, Griechenland und Großbritannien beteiligen. Die Organisatoren wollen gegen den Niedergang der öffentlichen Bildung, die Zuweisung öffentlicher Gelder an private Einrichtungen und den Aufstieg rechtsextremer Ideologien protestieren. Zudem fordert die Bewegung Maßnahmen gegen Militarismus, geschlechtsspezifische Gewalt und Diskriminierung der LGTBI-Gemeinschaft. Die Gewerkschaft äußerte zudem ihren Widerstand gegen polizeiliche Reaktionen bei früheren Studentenprotesten. Die Initiative zielt darauf ab, Jugendliche sowohl von weiterführenden Schulen als auch von Universitäten zu mobilisieren, um sich für eine verbesserte öffentliche Bildung und soziale Rechte in ganz Europa einzusetzen.",
+   "summary": "Studentenorganisationen in mehreren europäischen Ländern, darunter Spanien, haben für den 20. November zu einem Streik und Mobilisierungstag aufgerufen. In Spanien wird die Aktion von der Gewerkschaft Sindicato de Estudiantes organisiert. Die Teilnehmenden wollen Klassenzimmer leeren und die Straßen füllen, um gegen die Verschlechterung der öffentlichen Bildung, Privatisierungspolitik, Militarismus, imperialistische Kriege und den Aufstieg der extremen Rechten zu protestieren. Nach Angaben der Organisatoren erhalten private Bildungseinrichtungen Subventionen in Milliardenhöhe, während öffentliche Schulen und Universitäten verfallen. Die Gewerkschaft kritisierte zudem die Polizeirepression bei Studentenprotesten und warf politischen Führungspersonen vor, große Militärbudgets zu unterstützen, während die öffentlichen Dienste verfallen. In Madrid ist eine Demonstration an der Puerta del Sol geplant.",
    "demands": [
-    "Öffentliche Bildung verteidigen",
-    "Privatisierung beenden",
-    "Rechtsextremen Einfluss bekämpfen",
-    "LGTBI- und Frauenrechte schützen",
-    "Militarismus beenden"
+    "Öffentliche Bildung verteidigen und Privatisierung stoppen",
+    "Militarismus und imperialistische Kriege ablehnen",
+    "Polizeirepression und rechtsextremer Hetze entgegentreten",
+    "LGTBI-Rechte verteidigen und geschlechtsspezifische Gewalt bekämpfen"
    ],
    "response": "In den Quellen wurde keine offizielle Reaktion gemeldet.",
    "updates": [
-    "Das Sindicato de Estudiantes kündigte einen europaweiten Studentenstreik für den 20. November an, um gegen Bildungspolitik und soziale Themen zu protestieren."
+    "Das Sindicato de Estudiantes kündigte einen europäischen Studentenstreik für den 20. November an, um gegen den Verfall und die Privatisierung der öffentlichen Bildung zu protestieren.",
+    "Das Sindicato de Estudiantes legte die Puerta del Sol in Madrid als Treffpunkt für die Mobilisierung am 20. November um 12:00 Uhr fest."
    ],
    "conflicts": [],
    "numbers": {}
@@ -169,21 +178,21 @@
    "title": "Studenti in Spagna indicono uno sciopero il 20 novembre per l'istruzione pubblica",
    "seoTitle": "Sciopero studentesco a Madrid per l'istruzione pubblica",
    "tea": {
-    "why": "I manifestanti citano il deterioramento dell'istruzione pubblica, la crescente privatizzazione, il militarismo e la crescita dei movimenti politici di estrema destra.",
-    "want": "Maggiore finanziamento per l'istruzione pubblica, protezione dei diritti LGTBI e delle donne, e la fine della privatizzazione e della repressione poliziesca.",
-    "changed": "16 novembre: Il Sindicato de Estudiantes ha annunciato uno sciopero studentesco europeo coordinato previsto per il 20 novembre."
+    "why": "Gli studenti protestano contro il deterioramento dell'istruzione pubblica, la crescente privatizzazione, il militarismo e l'ascesa dell'estrema destra.",
+    "want": "Chiedono di difendere l'istruzione pubblica, fermare la privatizzazione, porre fine al militarismo e alla repressione della polizia, e proteggere i gruppi emarginati.",
+    "changed": "18 nov: Il Sindicato de Estudiantes ha annunciato che la protesta a Madrid si radunerà alla Puerta del Sol alle ore 12:00 del 20 novembre."
    },
-   "summary": "Il Sindicato de Estudiantes ha indetto uno sciopero studentesco e manifestazioni in Spagna il 20 novembre 2026, come parte di una mobilitazione europea più ampia. Si prevede che parteciperanno anche studenti di paesi tra cui Francia, Germania, Italia, Grecia e Gran Bretagna. Gli organizzatori mirano a protestare contro il declino dell'istruzione pubblica, l'assegnazione di fondi pubblici a istituzioni private e l'ascesa delle ideologie di estrema destra. Inoltre, il movimento richiede azioni contro il militarismo, la violenza di genere e la discriminazione contro la comunità LGTBI. Il sindacato ha anche espresso opposizione alle risposte della polizia durante le precedenti proteste studentesche. L'iniziativa cerca di mobilitare i giovani sia delle scuole secondarie che delle università per sostenere una migliore istruzione pubblica e i diritti sociali in tutta Europa.",
+   "summary": "Organizzazioni studentesche in diversi Paesi europei, tra cui la Spagna, hanno indetto una giornata di sciopero e mobilitazione per il 20 novembre. In Spagna l'azione è organizzata dal Sindicato de Estudiantes. I partecipanti mirano a svuotare le aule e riempire le piazze per protestare contro il degrado dell'istruzione pubblica, le politiche di privatizzazione, il militarismo, le guerre imperialiste e l'ascesa dell'estrema destra. Secondo gli organizzatori, gli istituti di insegnamento privato ricevono miliardi in sussidi mentre scuole e università pubbliche si deteriorano. Il sindacato ha anche criticato la repressione della polizia durante le proteste studentesche e ha accusato i leader politici di sostenere grandi budget militari mentre i servizi pubblici si degradano. A Madrid è stata programmata una manifestazione alla Puerta del Sol.",
    "demands": [
-    "Difendere l'istruzione pubblica",
-    "Porre fine alla privatizzazione",
-    "Combattere l'influenza dell'estrema destra",
-    "Proteggere i diritti LGTBI e delle donne",
-    "Porre fine al militarismo"
+    "Difendere l'istruzione pubblica e fermare la privatizzazione",
+    "Respingere il militarismo e le guerre imperialiste",
+    "Opporsi alla repressione della polizia e ai discorsi d'odio dell'estrema destra",
+    "Difendere i diritti LGTBI e combattere la violenza di genere"
    ],
    "response": "Nessuna risposta ufficiale riportata nelle fonti.",
    "updates": [
-    "Il Sindicato de Estudiantes ha annunciato uno sciopero studentesco a livello europeo per il 20 novembre per protestare contro le politiche educative e le questioni sociali."
+    "Il Sindicato de Estudiantes ha annunciato uno sciopero studentesco europeo per il 20 novembre per protestare contro il degrado e la privatizzazione dell'istruzione pubblica.",
+    "Il Sindicato de Estudiantes ha fissato la Puerta del Sol a Madrid come punto di ritrovo per la mobilitazione del 20 novembre alle ore 12:00."
    ],
    "conflicts": [],
    "numbers": {}
@@ -192,21 +201,21 @@
    "title": "Estudantes em Espanha convocam greve a 20 de novembro pelo ensino público",
    "seoTitle": "Greve estudantil em Madrid pelo ensino público",
    "tea": {
-    "why": "Os manifestantes citam a deterioração do ensino público, a crescente privatização, o militarismo e o crescimento de movimentos políticos de extrema-direita.",
-    "want": "Aumento do financiamento para o ensino público, proteção dos direitos LGTBI e das mulheres, e o fim da privatização e da repressão policial.",
-    "changed": "16 de novembro: O Sindicato de Estudiantes anunciou uma greve estudantil europeia coordenada agendada para 20 de novembro."
+    "why": "Os estudantes estão a protestar contra a deterioração do ensino público, a crescente privatização, o militarismo e a ascensão da extrema-direita.",
+    "want": "Exigem defender o ensino público, travar a privatização, acabar com o militarismo e a repressão policial, e proteger os grupos marginalizados.",
+    "changed": "18 nov: O Sindicato de Estudiantes anunciou que o protesto em Madrid se reunirá na Puerta del Sol às 12:00 horas de 20 de novembro."
    },
-   "summary": "O Sindicato de Estudiantes convocou uma greve estudantil e manifestações em Espanha a 20 de novembro de 2026, como parte de uma mobilização europeia mais vasta. Espera-se que participem também estudantes de países como França, Alemanha, Itália, Grécia e Grã-Bretanha. Os organizadores pretendem protestar contra o declínio do ensino público, a atribuição de fundos públicos a instituições privadas e a ascensão de ideologias de extrema-direita. Além disso, o movimento exige medidas contra o militarismo, a violência de género e a discriminação contra a comunidade LGTBI. O sindicato também expressou oposição às respostas policiais durante protestos estudantis anteriores. A iniciativa procura mobilizar jovens tanto do ensino secundário como das universidades para defender um melhor ensino público e direitos sociais em toda a Europa.",
+   "summary": "Organizações estudantis em vários países europeus, incluindo Espanha, convocaram um dia de greve e mobilização para 20 de novembro. Em Espanha, a ação é organizada pelo Sindicato de Estudiantes. Os participantes pretendem esvaziar as salas de aula e encher as ruas para protestar contra a degradação do ensino público, as políticas de privatização, o militarismo, as guerras imperialistas e a ascensão da extrema-direita. Segundo os organizadores, as instituições de ensino privado recebem milhares de milhões em subsídios enquanto as escolas e universidades públicas se deterioram. O sindicato também criticou a repressão policial durante os protestos estudantis e acusou os líderes políticos de apoiarem grandes orçamentos militares enquanto os serviços públicos se degradam. Em Madrid, foi agendada uma manifestação na Puerta del Sol.",
    "demands": [
-    "Defender o ensino público",
-    "Acabar com a privatização",
-    "Combater a influência da extrema-direita",
-    "Proteger os direitos LGTBI e das mulheres",
-    "Acabar com o militarismo"
+    "Defender o ensino público e parar a privatização",
+    "Rejeitar o militarismo e as guerras imperialistas",
+    "Opor-se à repressão policial e ao discurso de ódio de extrema-direita",
+    "Defender os direitos LGTBI e combater a violência de género"
    ],
-   "response": "Nenhuma resposta oficial reportada nas fontes.",
+   "response": "Nenhuma resposta oficial relatada nas fontes.",
    "updates": [
-    "O Sindicato de Estudiantes anunciou uma greve estudantil à escala europeia para 20 de novembro para protestar contra políticas educativas e questões sociais."
+    "O Sindicato de Estudiantes anunciou uma greve estudantil europeia para 20 de novembro para protestar contra a degradação e privatização do ensino público.",
+    "O Sindicato de Estudiantes fixou a Puerta del Sol em Madrid como o ponto de encontro para a mobilização de 20 de novembro às 12:00 horas."
    ],
    "conflicts": [],
    "numbers": {}
@@ -215,21 +224,21 @@
    "title": "Studenten in Spanje roepen op tot staking op 20 november voor openbaar onderwijs",
    "seoTitle": "Studentenstaking in Madrid voor openbaar onderwijs",
    "tea": {
-    "why": "Betogers noemen de achteruitgang van het openbaar onderwijs, toenemende privatisering, militarisme en de groei van extreemrechtse politieke bewegingen als reden.",
-    "want": "Meer financiering voor openbaar onderwijs, bescherming van LGTBI- en vrouwenrechten, en een einde aan privatisering en politierepressie.",
-    "changed": "16 november: Het Sindicato de Estudiantes kondigde een gecoördineerde Europese studentenstaking aan voor 20 november."
+    "why": "Studenten protesteren tegen de verslechtering van het openbaar onderwijs, de toenemende privatisering, het militarisme en de opkomst van uiterst rechts.",
+    "want": "Ze eisen de verdediging van het openbaar onderwijs, het stopzetten van de privatisering, een einde aan het militarisme en de politierepressie, en de bescherming van gemarginaliseerde groepen.",
+    "changed": "18 nov: De Sindicato de Estudiantes heeft aangekondigd dat het protest in Madrid op 20 november om 12:00 uur samenkomt op de Puerta del Sol."
    },
-   "summary": "Het Sindicato de Estudiantes heeft opgeroepen tot een studentenstaking en demonstraties in Spanje op 20 november 2026, als onderdeel van een bredere Europese mobilisatie. Er wordt verwacht dat ook studenten uit landen als Frankrijk, Duitsland, Italië, Griekenland en Groot-Brittannië zullen deelnemen. De organisatoren willen protesteren tegen de achteruitgang van het openbaar onderwijs, de toewijzing van overheidsgeld aan private instellingen en de opkomst van extreemrechtse ideologieën. Daarnaast eist de beweging actie tegen militarisme, gendergerelateerd geweld en discriminatie van de LGTBI-gemeenschap. De vakbond uitte ook verzet tegen de reacties van de politie tijdens eerdere studentenprotesten. Het initiatief beoogt jongeren van zowel middelbare scholen als universiteiten te mobiliseren om te pleiten voor beter openbaar onderwijs en sociale rechten in heel Europa.",
+   "summary": "Studentenorganisaties in verschillende Europese landen, waaronder Spanje, hebben opgeroepen tot een staking en mobilisatiedag op 20 november. In Spanje wordt de actie georganiseerd door de Sindicato de Estudiantes. De deelnemers willen de klaslokalen leegmaken en de straten vullen om te protesteren tegen de achteruitgang van het openbaar onderwijs, het privatiseringsbeleid, het militarisme, imperialistische oorlogen en de opkomst van uiterst rechts. Volgens de organisatoren ontvangen particuliere onderwijsinstellingen miljarden aan subsidies terwijl openbare scholen en universiteiten achteruitgaan. De vakbond bekritiseerde ook de politierepressie tijdens studentenprotesten en beschuldigde politieke leiders ervan grote militaire budgetten te steunen terwijl de openbare diensten verslechteren. In Madrid is een demonstratie gepland op de Puerta del Sol.",
    "demands": [
-    "Openbaar onderwijs verdedigen",
-    "Privatisering beëindigen",
-    "Extreemrechtse invloed bestrijden",
-    "LGTBI- en vrouwenrechten beschermen",
-    "Militarisme beëindigen"
+    "Openbaar onderwijs verdedigen en privatisering stoppen",
+    "Militarisme en imperialistische oorlogen afwijzen",
+    "Zich verzetten tegen politierepressie en extreemrechtse haatspraak",
+    "LGTBI-rechten verdedigen en gendergerelateerd geweld bestrijden"
    ],
    "response": "Geen officiële reactie gemeld in de bronnen.",
    "updates": [
-    "Het Sindicato de Estudiantes kondigde een Europese studentenstaking aan voor 20 november om te protesteren tegen onderwijsbeleid en sociale kwesties."
+    "De Sindicato de Estudiantes kondigde een Europese studentenstaking aan voor 20 november om te protesteren tegen de achteruitgang en privatisering van het openbaar onderwijs.",
+    "De Sindicato de Estudiantes heeft de Puerta del Sol in Madrid vastgesteld als verzamelplaats voor de mobilisatie op 20 november om 12:00 uur."
    ],
    "conflicts": [],
    "numbers": {}

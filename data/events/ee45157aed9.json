@@ -21,37 +21,34 @@
  "kind": "multi-day",
  "startedOn": "2026-10-27",
  "status": "ongoing",
- "vibe": "wrapped-up",
+ "vibe": "heating-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence",
-  "sources-disagree"
- ],
- "isOngoing": false,
+ "review": "auto",
+ "reviewReasons": [],
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Workers are striking for higher wages, improved workplace harassment protections, and better conditions for international and disabled staff.",
-  "want": "Higher pay, independent harassment grievance processes, protections for non-citizen workers, and pay equity.",
-  "changed": "Nov 10: Academic workers joined the graduate student strike, bringing the total number of striking employees to approximately 6,500."
+  "why": "Harvard graduate students and academic workers are striking to demand higher wages, cost-of-living adjustments, and better working conditions.",
+  "want": "Higher wages, third-party oversight for harassment claims, and stronger workplace protections.",
+  "changed": "Nov 18: Harvard academic workers voted to end their week-long strike after the university offered higher proposed salary raises, though graduate student worker strikes…"
  },
- "summary": "Graduate student workers at Harvard University began a strike on October 27, 2026, following stalled contract negotiations. Organised by the Harvard Graduate Students Union-United Auto Workers (HGSU-UAW), the action expanded on November 10 when the Harvard Academic Workers Union also walked off the job. Together, approximately 6,500 researchers, teachers, and instructors are participating in the strike, which has disrupted classes, laboratory work, and campus events. The unions are demanding increased wages, independent processes for addressing harassment and discrimination, and specific protections for international and disabled workers. Harvard administrators, including Provost John F. Manning and Executive Vice President Meredith Weenick, have described the strikes as \"unwarranted,\" stating the university has offered wage increases and remains committed to good-faith negotiations. Tensions have risen, with university officials recently halting a bargaining session citing disrespectful conduct by union representatives.",
+ "summary": "Graduate student workers and academic employees at Harvard University launched strikes in Cambridge, Massachusetts, to demand increased compensation, cost-of-living adjustments, and independent procedures to address workplace harassment and discrimination. The walkouts, organized by the Harvard Graduate Students Union-United Auto Workers and the Harvard Academic Workers-United Auto Workers, disrupted classes, midterm exams, and campus events, including a talk featuring comedian Stephen Colbert that was cut short by a fire alarm. University administrators called the strikes unwarranted, pointing to ongoing negotiations and revised salary raise proposals, while discussions regarding non-economic protections continue.",
  "organizers": [
-  "Harvard Graduate Students Union-United Auto Workers (HGSU-UAW)",
-  "Harvard Academic Workers Union"
+  "Harvard Graduate Students Union-United Auto Workers",
+  "Harvard Academic Workers-United Auto Workers"
  ],
  "demands": [
-  "Higher wages and annual cost-of-living adjustments",
-  "Independent grievance process for harassment and discrimination",
+  "Higher wages and annual raises",
+  "Independent grievance process for harassment and discrimination complaints",
   "Protections for non-citizen and disabled workers",
-  "Pay equity between research assistants and teaching fellows",
-  "Legal and financial support for workers in unsafe environments"
+  "Expanded childcare support",
+  "Pay equity between research assistants and teaching fellows"
  ],
- "response": "Harvard administrators have called the strikes \"unwarranted,\" citing previous wage proposals and progress on contract articles. Officials have also accused union representatives of \"inappropriate, disrespectful remarks\" during bargaining sessions.",
+ "response": "According to university officials, Harvard remained committed to good-faith bargaining, offering initial raises while calling the strikes unwarranted and citing unproductive remarks by union representatives during negotiations.",
  "numbers": {
   "crowd": {
    "value": 50,
-   "text": "About 50 union protesters demonstrated outside the Sanders Theatre during an event.",
+   "text": "About 50 union protesters demonstrated outside the theater before and during the event",
    "sources": [
     4
    ]
@@ -60,7 +57,7 @@
  "updates": [
   {
    "at": "2026-10-27",
-   "text": "Harvard graduate student workers launch a strike after failing to reach a new contract agreement.",
+   "text": "Harvard graduate student workers launched their second strike of the year after contract negotiations stalled.",
    "sources": [
     1,
     2
@@ -68,15 +65,23 @@
   },
   {
    "at": "2026-11-05",
-   "text": "University officials end a bargaining session early, citing disrespectful remarks from union representatives.",
+   "text": "University officials halted a bargaining session with the graduate student union following disrespectful remarks.",
    "sources": [
     5,
-    7
+    6
    ]
   },
   {
    "at": "2026-11-06",
-   "text": "A fire alarm disrupts a campus event featuring Stephen Colbert and Yo-Yo Ma while union members picket outside.",
+   "text": "Harvard's deputy provost and managing director issued updates regarding the breakdown in bargaining sessions.",
+   "sources": [
+    5,
+    6
+   ]
+  },
+  {
+   "at": "2026-11-07",
+   "text": "Union protesters demonstrated outside Sanders Theatre during an event featuring Stephen Colbert and Yo-Yo Ma.",
    "sources": [
     3,
     4
@@ -84,9 +89,16 @@
   },
   {
    "at": "2026-11-10",
-   "text": "Harvard academic workers join the graduate student strike, increasing the number of participants to approximately 6,500.",
+   "text": "Harvard academic workers joined the labor action, expanding the strike to include non-tenure track teachers and researchers.",
    "sources": [
     6,
+    7
+   ]
+  },
+  {
+   "at": "2026-11-18",
+   "text": "Harvard academic workers voted to return to work after the university raised its proposed salary increases.",
+   "sources": [
     7
    ]
   }
@@ -129,285 +141,282 @@
   },
   {
    "n": 6,
-   "url": "https://www.bostonglobe.com/2026/11/10/metro/academics-workers-strike-harvard/",
-   "publisher": "bostonglobe.com",
-   "title": "‘We’re not asking for the moon’: Harvard strike grows as academic workers walk out - The Boston Globe",
-   "publishedAt": "2026-11-10T22:52:45.822Z"
-  },
-  {
-   "n": 7,
    "url": "https://www.harvardmagazine.com/university-news/harvard-academic-workers-union-join-strike",
    "publisher": "harvardmagazine.com",
    "title": "Harvard Academic Workers Begin Strike | Harvard Magazine",
    "publishedAt": "2026-11-13T13:20:51.000Z"
+  },
+  {
+   "n": 7,
+   "url": "https://www.bostonglobe.com/2026/11/18/metro/harvard-academic-workers-end-strike/",
+   "publisher": "bostonglobe.com",
+   "title": "Hundreds of Harvard academic workers vote to end strike after one week, officials say - The Boston Globe",
+   "publishedAt": "2026-11-18T21:09:48.602Z"
   }
  ],
- "conflicts": [
-  "The university and the union provided conflicting accounts regarding why a November 5 bargaining session was ended early."
- ],
- "confidence": 0.75,
+ "conflicts": [],
+ "confidence": 0.9,
  "publishers": 7,
- "reports24h": 0,
+ "reports24h": 1,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 1,
  "firstSeenAt": "2026-10-27T22:20:32.967Z",
- "lastReportAt": "2026-11-13T13:20:51.000Z",
- "lastCheckedAt": "2026-11-18T20:54:45.303Z",
- "updatedAt": "2026-11-13T16:54:19.604Z",
+ "lastReportAt": "2026-11-18T21:09:48.602Z",
+ "lastCheckedAt": "2026-11-19T00:55:34.533Z",
+ "updatedAt": "2026-11-19T00:54:30.124Z",
  "responseSources": [
   1,
   2,
-  5,
   6,
   7
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-13T16:54:19.604Z",
- "summaryOf": "2d60633048ce",
+ "summarizedAt": "2026-11-19T00:54:30.124Z",
+ "summaryOf": "20a7b034ae31",
  "publishedAt": "2026-10-28T01:53:16.011Z",
  "i18n": {
-  "of": "68d826b92a8efd8c",
-  "at": "2026-11-13T16:56:10.958Z",
+  "of": "3301dd4b10cfd143",
+  "at": "2026-11-19T00:55:53.592Z",
   "tries": 1,
   "hi": {
-   "title": "हार्वर्ड के स्नातक और शैक्षणिक कर्मचारी उच्च वेतन और बेहतर स्थितियों के लिए हड़ताल पर",
-   "seoTitle": "कैम्ब्रिज हार्वर्ड कर्मचारी हड़ताल",
+   "title": "हार्वर्ड के स्नातक और शैक्षणिक कर्मचारी उच्च वेतन और बेहतर स्थितियों के लिए हड़ताल पर",
+   "seoTitle": "कैम्ब्रिज में हार्वर्ड कर्मचारियों की हड़ताल",
    "tea": {
-    "why": "कर्मचारी उच्च वेतन, कार्यस्थल पर उत्पीड़न से बेहतर सुरक्षा, और अंतरराष्ट्रीय तथा दिव्यांग कर्मचारियों के लिए बेहतर स्थितियों की मांग को लेकर हड़ताल कर रहे हैं।",
-    "want": "उच्च वेतन, उत्पीड़न की शिकायतों के लिए स्वतंत्र प्रक्रिया, गैर-नागरिक कर्मचारियों के लिए सुरक्षा, और वेतन समानता।",
-    "changed": "10 नवंबर: शैक्षणिक कर्मचारी स्नातक छात्र हड़ताल में शामिल हुए, जिससे हड़ताली कर्मचारियों की कुल संख्या लगभग 6,500 हो गई।"
+    "why": "हार्वर्ड के स्नातक छात्र और शैक्षणिक कर्मचारी उच्च वेतन, जीवन-यापन लागत समायोजन और बेहतर कार्य स्थितियों की मांग के लिए हड़ताल कर रहे हैं।",
+    "want": "उच्च वेतन, उत्पीड़न के दावों के लिए तीसरी पक्ष की निगरानी, और कार्यस्थल की मजबूत सुरक्षा।",
+    "changed": "18 नवंबर: विश्वविद्यालय द्वारा उच्च प्रस्तावित वेतन वृद्धि की पेशकश के बाद हार्वर्ड के शैक्षणिक कर्मचारियों ने अपनी सप्ताह भर की हड़ताल समाप्त करने के लिए मतदान किया, हालांकि स्नातक छात्र कर्मचारी हड़तालें..."
    },
-   "summary": "हार्वर्ड विश्वविद्यालय में स्नातक छात्र कर्मचारियों ने अनुबंध वार्ता रुकने के बाद 27 अक्टूबर, 2026 को हड़ताल शुरू की। हार्वर्ड ग्रेजुएट स्टूडेंट्स यूनियन-यूनाइटेड ऑटो वर्कर्स (HGSU-UAW) द्वारा आयोजित, यह कार्रवाई 10 नवंबर को तब और बढ़ गई जब हार्वर्ड एकेडमिक वर्कर्स यूनियन भी काम से हट गई। कुल मिलाकर, लगभग 6,500 शोधकर्ता, शिक्षक और प्रशिक्षक हड़ताल में भाग ले रहे हैं, जिससे कक्षाएं, प्रयोगशाला का काम और परिसर के कार्यक्रम बाधित हुए हैं। यूनियनें बढ़े हुए वेतन, उत्पीड़न और भेदभाव को संबोधित करने के लिए स्वतंत्र प्रक्रियाओं, और अंतरराष्ट्रीय तथा दिव्यांग कर्मचारियों के लिए विशिष्ट सुरक्षा की मांग कर रही हैं। प्रोवोस्ट जॉन एफ. मैनिंग और कार्यकारी उपाध्यक्ष मेरेडिथ वीनिक सहित हार्वर्ड के प्रशासकों ने हड़तालों को \"अनुचित\" बताया है, और कहा है कि विश्वविद्यालय ने वेतन वृद्धि की पेशकश की है और वे निष्पक्ष वार्ता के लिए प्रतिबद्ध हैं। तनाव बढ़ गया है, विश्वविद्यालय के अधिकारियों ने हाल ही में यूनियन प्रतिनिधियों द्वारा अपमानजनक व्यवहार का हवाला देते हुए एक वार्ता सत्र रोक दिया है।",
+   "summary": "हार्वर्ड यूनिवर्सिटी में स्नातक छात्र कर्मचारियों और शैक्षणिक कर्मचारियों ने बढ़े हुए मुआवजे, जीवन-यापन लागत समायोजन और कार्यस्थल पर उत्पीड़न व भेदभाव से निपटने के लिए स्वतंत्र प्रक्रियाओं की मांग को लेकर कैम्ब्रिज, मैसाचुसेट्स में हड़तालें शुरू कीं। हार्वर्ड ग्रेजुएट स्टूडेंट्स यूनियन-यूनाइटेड ऑटो वर्कर्स और हार्वर्ड एकेडमिक वर्कर्स-यूनाइटेड ऑटो वर्कर्स द्वारा आयोजित इन वॉकआउट्स ने कक्षाओं, मध्यावधि परीक्षाओं और परिसरों के कार्यक्रमों को बाधित किया, जिसमें कॉमेडियन स्टीफन कोल्बर्ट की एक बातचीत भी शामिल थी जिसे फायर अलार्म के कारण बीच में ही रोकना पड़ा था। विश्वविद्यालय प्रशासकों ने चल रही वार्ताओं और संशोधित वेतन वृद्धि प्रस्तावों का हवाला देते हुए हड़तालों को अनुचित बताया, जबकि गैर-आर्थिक सुरक्षा से संबंधित चर्चाएं जारी हैं।",
    "demands": [
-    "उच्च वेतन और वार्षिक जीवन-यापन लागत समायोजन",
-    "उत्पीड़न और भेदभाव के लिए स्वतंत्र शिकायत प्रक्रिया",
-    "गैर-नागरिक और दिव्यांग कर्मचारियों के लिए सुरक्षा",
-    "शोध सहायकों और शिक्षण अध्येताओं के बीच वेतन समानता",
-    "असुरक्षित वातावरण में काम करने वाले कर्मचारियों के लिए कानूनी और वित्तीय सहायता"
+    "उच्च वेतन और वार्षिक वृद्धि",
+    "उत्पीड़न और भेदभाव की शिकायतों के लिए स्वतंत्र शिकायत प्रक्रिया",
+    "गैर-नागरिक और विकलांग श्रमिकों के लिए सुरक्षा",
+    "विस्तृत चाइल्डकैअर सहायता",
+    "शोध सहायकों और शिक्षण साथियों के बीच वेतन समानता"
    ],
-   "response": "हार्वर्ड के प्रशासकों ने हड़तालों को \"अनुचित\" बताया है, और पिछले वेतन प्रस्तावों तथा अनुबंध लेखों पर प्रगति का हवाला दिया है। अधिकारियों ने वार्ता सत्रों के दौरान यूनियन प्रतिनिधियों पर \"अनुचित, अपमानजनक टिप्पणियां\" करने का भी आरोप लगाया है।",
+   "response": "विश्वविद्यालय के अधिकारियों के अनुसार, हार्वर्ड ने सद्भावनापूर्ण सौदेबाजी के प्रति अपनी प्रतिबद्धता बनाए रखी, प्रारंभिक वेतन वृद्धि की पेशकश की जबकि हड़तालों को अनुचित बताया और वार्ताओं के दौरान संघ प्रतिनिधियों की अनुत्पादक टिप्पणियों का हवाला दिया।",
    "updates": [
-    "हार्वर्ड के स्नातक छात्र कर्मचारियों ने नया अनुबंध समझौता करने में विफल रहने के बाद हड़ताल शुरू की।",
-    "विश्वविद्यालय के अधिकारियों ने यूनियन प्रतिनिधियों की अपमानजनक टिप्पणियों का हवाला देते हुए एक वार्ता सत्र जल्दी समाप्त कर दिया।",
-    "यूनियन सदस्यों द्वारा बाहर पिकेटिंग करने के दौरान एक फायर अलार्म ने स्टीफन कोलबर्ट और यो-यो मा वाले परिसर कार्यक्रम को बाधित किया।",
-    "हार्वर्ड के शैक्षणिक कर्मचारी स्नातक छात्र हड़ताल में शामिल हुए, जिससे प्रतिभागियों की संख्या बढ़कर लगभग 6,500 हो गई।"
+    "अनुबंध वार्ता के रुक जाने के बाद हार्वर्ड के स्नातक छात्र कर्मचारियों ने साल की अपनी दूसरी हड़ताल शुरू की।",
+    "अपमानजनक टिप्पणियों के बाद विश्वविद्यालय के अधिकारियों ने स्नातक छात्र संघ के साथ सौदेबाजी के सत्र को रोक दिया।",
+    "हार्वर्ड के उप प्रोवोस्ट और प्रबंध निदेशक ने सौदेबाजी के सत्रों में टूटन के संबंध में अपडेट जारी किए।",
+    "यूनियन के प्रदर्शनकारियों ने स्टीफन कोल्बर्ट और यो-यो मा वाले एक कार्यक्रम के दौरान सैंडर्स थिएटर के बाहर प्रदर्शन किया।",
+    "हार्वर्ड के शैक्षणिक कर्मचारी इस श्रम कार्रवाई में शामिल हुए, जिससे गैर-टेन्योर ट्रैक शिक्षकों और शोधकर्ताओं को शामिल करते हुए हड़ताल का दायरा बढ़ गया।",
+    "विश्वविद्यालय द्वारा अपने प्रस्तावित वेतन वृद्धि को बढ़ाने के बाद हार्वर्ड के शैक्षणिक कर्मचारियों ने काम पर लौटने के लिए मतदान किया।"
    ],
-   "conflicts": [
-    "विश्वविद्यालय और यूनियन ने इस बारे में परस्पर विरोधी दावे किए हैं कि 5 नवंबर का वार्ता सत्र जल्दी क्यों समाप्त किया गया।"
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "लगभग 50 यूनियन प्रदर्शनकारियों ने एक कार्यक्रम के दौरान सैंडर्स थिएटर के बाहर प्रदर्शन किया।"
+    "crowd": "लगभग 50 यूनियन प्रदर्शनकारियों ने कार्यक्रम से पहले और उसके दौरान थिएटर के बाहर प्रदर्शन किया"
    }
   },
   "mr": {
-   "title": "हार्वर्डचे पदवीधर आणि शैक्षणिक कर्मचारी उच्च वेतन आणि चांगल्या परिस्थितीसाठी संपावर",
-   "seoTitle": "केंब्रिज हार्वर्ड कर्मचारी संप",
+   "title": "हार्वर्डचे पदवीधर आणि शैक्षणिक कर्मचारी उच्च वेतन व चांगल्या परिस्थितीसाठी संप करत आहेत",
+   "seoTitle": "केंब्रिज हार्वर्ड कर्मचाऱ्यांचा संप",
    "tea": {
-    "why": "कर्मचारी उच्च वेतन, कामाच्या ठिकाणी छळापासून अधिक संरक्षण आणि आंतरराष्ट्रीय व दिव्यांग कर्मचाऱ्यांसाठी चांगल्या परिस्थितीसाठी संप करत आहेत.",
-    "want": "उच्च वेतन, छळाच्या तक्रारींसाठी स्वतंत्र प्रक्रिया, गैर-नागरिक कर्मचाऱ्यांसाठी संरक्षण आणि वेतन समानता.",
-    "changed": "१० नोव्हेंबर: शैक्षणिक कर्मचारी पदवीधर विद्यार्थ्यांच्या संपात सामील झाले, ज्यामुळे संपावर असलेल्या कर्मचाऱ्यांची एकूण संख्या सुमारे ६,५०० झाली."
+    "why": "हार्वर्डचे पदवीधर विद्यार्थी आणि शैक्षणिक कर्मचारी उच्च वेतन, जीवनमान खर्च जुळवून घेणे आणि चांगल्या कामाच्या परिस्थितीची मागणी करण्यासाठी संप करत आहेत.",
+    "want": "उच्च वेतन, छळाच्या दाव्यांसाठी तृतीय-पक्ष देखरेख, आणि बळकट कामाच्या ठिकाणची सुरक्षितता.",
+    "changed": "१८ नोव्हेंबर: विद्यापीठाने उच्च प्रस्तावित वेतन वाढीची ऑफर दिल्यानंतर हार्वर्डच्या शैक्षणिक कर्मचाऱ्यांनी त्यांचा आठवडाभराचा संप संपवण्यासाठी मतदान केले, जरी पदवीधर विद्यार्थी कर्मचारी संप..."
    },
-   "summary": "हार्वर्ड विद्यापीठातील पदवीधर विद्यार्थी कर्मचाऱ्यांनी कराराची चर्चा रखडल्यानंतर २७ ऑक्टोबर २०२६ रोजी संप सुरू केला. हार्वर्ड ग्रॅज्युएट स्टुडंट्स युनियन-युनायटेड ऑटो वर्कर्स (HGSU-UAW) द्वारे आयोजित, ही कृती १० नोव्हेंबर रोजी अधिक व्यापक झाली जेव्हा हार्वर्ड ॲकॅडमिक वर्कर्स युनियननेही काम बंद केले. एकत्रितपणे, सुमारे ६,५०० संशोधक, शिक्षक आणि प्रशिक्षक संपात सहभागी होत आहेत, ज्यामुळे वर्ग, प्रयोगशाळेतील काम आणि कॅम्पस कार्यक्रम विस्कळीत झाले आहेत. युनियन वाढीव वेतन, छळ आणि भेदभाव हाताळण्यासाठी स्वतंत्र प्रक्रिया आणि आंतरराष्ट्रीय व दिव्यांग कर्मचाऱ्यांसाठी विशिष्ट संरक्षणाची मागणी करत आहेत. प्रोव्होस्ट जॉन एफ. मॅनिंग आणि कार्यकारी उपाध्यक्ष मेरेडिथ वीनिक यांच्यासह हार्वर्डच्या प्रशासकांनी संपांना \"अनुचित\" म्हटले आहे, आणि सांगितले आहे की विद्यापीठाने वेतन वाढीची ऑफर दिली आहे आणि ते चांगल्या विश्वासाने वाटाघाटी करण्यासाठी वचनबद्ध आहेत. तणाव वाढला असून, युनियन प्रतिनिधींच्या अपमानजनक वर्तनाचा हवाला देत विद्यापीठ अधिकाऱ्यांनी अलीकडेच एक वाटाघाटी सत्र थांबवले आहे.",
+   "summary": "हार्वर्ड युनिव्हर्सिटीमधील पदवीधर विद्यार्थी कर्मचारी आणि शैक्षणिक कर्मचाऱ्यांनी वाढीव भरपाई, जीवनमान खर्च जुळवून घेणे आणि कामाच्या ठिकाणचा छळ व भेदभाव दूर करण्यासाठी स्वतंत्र प्रक्रियांची मागणी करण्यासाठी केंब्रिज, मॅसेच्युसेट्स येथे संप सुरू केले. हार्वर्ड ग्रॅज्युएट स्टुडंट्स युनियन-युनायटेड ऑटो वर्कर्स आणि हार्वर्ड अकॅडमिक वर्कर्स-युनायटेड ऑटो वर्कर्स यांनी आयोजित केलेल्या या वॉकआउट्समुळे वर्ग, सत्र परीक्षा आणि कॅम्पस कार्यक्रमांमध्ये अडथळा आला, ज्यामध्ये कॉमेडियन स्टीफन कोल्बर्ट यांच्या एका चर्चेचा समावेश होता जी फायर अलार्ममुळे मध्येच आटोपती घ्यावी लागली. विद्यापीठ प्रशासनाने सुरू वाटाघाटी आणि सुधारित वेतन वाढीच्या प्रस्तावांचा हवाला देत संप अनाठायी असल्याचे म्हटले, तर आर्थिक-तेतर सुरक्षेबाबत चर्चा सुरू आहेत.",
    "demands": [
-    "उच्च वेतन आणि वार्षिक जीवनमान खर्च समायोजन",
-    "छळ आणि भेदभावासाठी स्वतंत्र तक्रार प्रक्रिया",
-    "गैर-नागरिक आणि दिव्यांग कर्मचाऱ्यांसाठी संरक्षण",
-    "संशोधन सहाय्यक आणि शिक्षण फेलो यांच्यातील वेतन समानता",
-    "असुरक्षित वातावरणात काम करणाऱ्या कर्मचाऱ्यांसाठी कायदेशीर आणि आर्थिक मदत"
+    "उच्च वेतन आणि वार्षिक वाढ",
+    "छळ आणि भेदभाव तक्रारींसाठी स्वतंत्र grievance प्रक्रिया",
+    "अनागरिक आणि अपंग कामगारांसाठी संरक्षण",
+    "विस्तारित बालसंगोपन सहाय्य",
+    "संशोधन सहाय्यक आणि शिक्षण सहकारी यांच्यातील वेतन समानता"
    ],
-   "response": "हार्वर्डच्या प्रशासकांनी संपांना \"अनुचित\" म्हटले आहे, आणि मागील वेतन प्रस्ताव व कराराच्या कलमांवरील प्रगतीचा हवाला दिला आहे. अधिकाऱ्यांनी वाटाघाटी सत्रांदरम्यान युनियन प्रतिनिधींवर \"अयोग्य, अपमानजनक टिप्पणी\" केल्याचा आरोपही केला आहे.",
+   "response": "विद्यापीठ अधिकाऱ्यांनुसार, हार्वर्ड चांगल्या हेतूने वाटाघाटी करण्यासाठी कटिबद्ध राहिले, सुरुवातीच्या वाढीची ऑफर दिली तर संप अनाठायी असल्याचे म्हटले आणि वाटाघाटीदरम्यान युनियन प्रतिनिधींच्या अनुत्पादक टिप्पण्यांचा हवाला दिला.",
    "updates": [
-    "हार्वर्डच्या पदवीधर विद्यार्थी कर्मचाऱ्यांनी नवीन करार करण्यात अपयश आल्यानंतर संप सुरू केला.",
-    "युनियन प्रतिनिधींच्या अपमानजनक टिप्पणीचा हवाला देत विद्यापीठ अधिकाऱ्यांनी वाटाघाटी सत्र लवकर संपवले.",
-    "युनियन सदस्य बाहेर निदर्शने करत असताना फायर अलार्ममुळे स्टीफन कोलबर्ट आणि यो-यो मा यांचा कॅम्पस कार्यक्रम विस्कळीत झाला.",
-    "हार्वर्डचे शैक्षणिक कर्मचारी पदवीधर विद्यार्थ्यांच्या संपात सामील झाले, ज्यामुळे सहभागींची संख्या सुमारे ६,५०० झाली."
+    "करार वाटाघाटी रखडल्यानंतर हार्वर्डच्या पदवीधर विद्यार्थी कर्मचाऱ्यांनी वर्षाचा त्यांचा दुसरा संप सुरू केला.",
+    "अपमानजनक टिप्पण्यांनंतर विद्यापीठ अधिकाऱ्यांनी पदवीधर विद्यार्थी युनियनसोबतची वाटाघाटी सत्र थांबवली.",
+    "हार्वर्डच्या उप provost आणि व्यवस्थापकीय संचालकांनी वाटाघाटी सत्रांमधील तुटीबाबत अपडेट्स जारी केले.",
+    "स्टीफन कोल्बर्ट आणि यो-यो मा यांचा समावेश असलेल्या कार्यक्रमादरम्यान युनियन निदर्शकांनी सँडर्स थिएटर बाहेर निदर्शने केली.",
+    "हार्वर्डचे शैक्षणिक कर्मचारी श्रम कृतीत सामील झाले, ज्यामुळे tenure-track नसलेले शिक्षक आणि संशोधकांना समाविष्ट करत संप विस्तारला.",
+    "विद्यापीठाने प्रस्तावित वेतन वाढवल्यानंतर हार्वर्डच्या शैक्षणिक कर्मचाऱ्यांनी कामावर परत जाण्यासाठी मतदान केले."
    ],
-   "conflicts": [
-    "५ नोव्हेंबरचे वाटाघाटी सत्र लवकर का संपवण्यात आले, याबद्दल विद्यापीठ आणि युनियनने परस्परविरोधी माहिती दिली आहे."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "एका कार्यक्रमादरम्यान सुमारे ५० युनियन निदर्शकांनी सँडर्स थिएटरबाहेर निदर्शने केली."
+    "crowd": "सुमारे ५० युनियन निदर्शकांनी कार्यक्रमापूर्वी आणि दरम्यान थिएटरच्या बाहेर निदर्शने केली"
    }
   },
   "es": {
-   "title": "Graduados y trabajadores académicos de Harvard en huelga por mejores salarios y condiciones",
+   "title": "Graduados y trabajadores académicos de Harvard se declaran en huelga por mejores salarios y condiciones",
    "seoTitle": "Huelga de trabajadores de Harvard en Cambridge",
    "tea": {
-    "why": "Los trabajadores están en huelga por salarios más altos, mejores protecciones contra el acoso en el lugar de trabajo y mejores condiciones para el personal internacional y discapacitado.",
-    "want": "Salarios más altos, procesos independientes para quejas por acoso, protecciones para trabajadores no ciudadanos y equidad salarial.",
-    "changed": "10 de noviembre: Los trabajadores académicos se unieron a la huelga de estudiantes graduados, elevando el número total de empleados en huelga a aproximadamente 6,500."
+    "why": "Los estudiantes de posgrado y trabajadores académicos de Harvard están en huelga para exigir salarios más altos, ajustes por costo de vida y mejores condiciones laborales.",
+    "want": "Salarios más altos, supervisión de terceros para denuncias de acoso y protecciones laborales más fuertes.",
+    "changed": "18 de noviembre: Los trabajadores académicos de Harvard votaron para poner fin a su huelga de una semana después de que la universidad ofreciera aumentos salariales propuestos más altos, aunque las huelgas de estudiantes graduados..."
    },
-   "summary": "Los estudiantes graduados trabajadores de la Universidad de Harvard iniciaron una huelga el 27 de octubre de 2026, tras el estancamiento de las negociaciones contractuales. Organizada por el Sindicato de Estudiantes Graduados de Harvard-United Auto Workers (HGSU-UAW), la acción se expandió el 10 de noviembre cuando el Sindicato de Trabajadores Académicos de Harvard también abandonó sus puestos. En conjunto, aproximadamente 6,500 investigadores, docentes e instructores participan en la huelga, lo que ha interrumpido clases, trabajos de laboratorio y eventos en el campus. Los sindicatos exigen aumentos salariales, procesos independientes para abordar el acoso y la discriminación, y protecciones específicas para los trabajadores internacionales y discapacitados. Los administradores de Harvard, incluidos el rector John F. Manning y la vicepresidenta ejecutiva Meredith Weenick, han calificado las huelgas de \"injustificadas\", afirmando que la universidad ha ofrecido aumentos salariales y sigue comprometida con negociaciones de buena fe. Las tensiones han aumentado, y los funcionarios universitarios detuvieron recientemente una sesión de negociación citando una conducta irrespetuosa por parte de los representantes sindicales.",
+   "summary": "Estudiantes graduados y empleados académicos de la Universidad de Harvard iniciaron huelgas en Cambridge, Massachusetts, para exigir una mayor remuneración, ajustes por costo de vida y procedimientos independientes para abordar el acoso y la discriminación laboral. Los paros, organizados por el Sindicato de Estudiantes Graduados de Harvard-Trabajadores Unidos del Automóvil y los Trabajadores Académicos de Harvard-Trabajadores Unidos del Automóvil, interrumpieron clases, exámenes parciales y eventos en el campus, incluida una charla con el comediante Stephen Colbert que fue interrumpida por una alarma de incendios. Los administradores universitarios calificaron las huelgas de injustificadas, señalando las negociaciones en curso y las propuestas de aumento salarial revisadas, mientras continúan las discusiones sobre protecciones no económicas.",
    "demands": [
-    "Salarios más altos y ajustes anuales por costo de vida",
-    "Proceso independiente de quejas por acoso y discriminación",
+    "Salarios más altos y aumentos anuales",
+    "Proceso de quejas independiente para denuncias de acoso y discriminación",
     "Protecciones para trabajadores no ciudadanos y discapacitados",
-    "Equidad salarial entre asistentes de investigación y becarios docentes",
-    "Apoyo legal y financiero para trabajadores en entornos inseguros"
+    "Apoyo ampliado para el cuidado infantil",
+    "Equidad salarial entre asistentes de investigación y becarios de enseñanza"
    ],
-   "response": "Los administradores de Harvard han calificado las huelgas de \"injustificadas\", citando propuestas salariales previas y el progreso en los artículos del contrato. Los funcionarios también han acusado a los representantes sindicales de hacer \"comentarios inapropiados e irrespetuosos\" durante las sesiones de negociación.",
+   "response": "Según funcionarios universitarios, Harvard se mantuvo comprometida con la negociación de buena fe, ofreciendo aumentos iniciales al tiempo que calificaba las huelgas de injustificadas y citaba comentarios improductivos de los representantes sindicales durante las negociaciones.",
    "updates": [
-    "Los estudiantes graduados trabajadores de Harvard lanzan una huelga tras no lograr un nuevo acuerdo contractual.",
-    "Los funcionarios de la universidad terminan una sesión de negociación antes de tiempo, citando comentarios irrespetuosos de los representantes sindicales.",
-    "Una alarma de incendio interrumpe un evento en el campus con Stephen Colbert y Yo-Yo Ma mientras los miembros del sindicato se manifiestan afuera.",
-    "Los trabajadores académicos de Harvard se unen a la huelga de estudiantes graduados, aumentando el número de participantes a aproximadamente 6,500."
+    "Los trabajadores estudiantes graduados de Harvard lanzaron su segunda huelga del año después de que las negociaciones contractuales se estancaran.",
+    "Los funcionarios universitarios detuvieron una sesión de negociación con el sindicato de estudiantes graduados tras comentarios irrespetuosos.",
+    "El vicerrector adjunto y director gerente de Harvard emitieron actualizaciones sobre la ruptura en las sesiones de negociación.",
+    "Manifestantes sindicales se manifestaron frente al Teatro Sanders durante un evento con Stephen Colbert y Yo-Yo Ma.",
+    "Los trabajadores académicos de Harvard se sumaron a la acción laboral, expandiendo la huelga para incluir a profesores e investigadores sin permanencia.",
+    "Los trabajadores académicos de Harvard votaron para regresar al trabajo después de que la universidad aumentara sus aumentos salariales propuestos."
    ],
-   "conflicts": [
-    "La universidad y el sindicato proporcionaron relatos contradictorios sobre por qué se terminó antes de tiempo una sesión de negociación el 5 de noviembre."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "Alrededor de 50 manifestantes sindicales se manifestaron fuera del Sanders Theatre durante un evento."
+    "crowd": "Alrededor de 50 manifestantes sindicales se manifestaron fuera del teatro antes y durante el evento"
    }
   },
   "fr": {
-   "title": "Les diplômés et les travailleurs universitaires de Harvard en grève pour de meilleurs salaires et conditions",
+   "title": "Des diplômés et des travailleurs académiques de Harvard en grève pour de meilleurs salaires et conditions",
    "seoTitle": "Grève des travailleurs de Harvard à Cambridge",
    "tea": {
-    "why": "Les travailleurs sont en grève pour obtenir des salaires plus élevés, de meilleures protections contre le harcèlement au travail et de meilleures conditions pour le personnel international et handicapé.",
-    "want": "Des salaires plus élevés, des processus indépendants pour les plaintes liées au harcèlement, des protections pour les travailleurs non citoyens et l'équité salariale.",
-    "changed": "10 novembre : Les travailleurs universitaires se sont joints à la grève des étudiants diplômés, portant le nombre total d'employés en grève à environ 6 500."
+    "why": "Les étudiants diplômés et les travailleurs académiques de Harvard font grève pour exiger des salaires plus élevés, des ajustements du coût de la vie et de meilleures conditions de travail.",
+    "want": "Des salaires plus élevés, une supervision par un tiers pour les plaintes de harcèlement et de meilleures protections sur le lieu de travail.",
+    "changed": "18 nov. : Les travailleurs académiques de Harvard ont voté pour mettre fin à leur grève d'une semaine après que l'université a proposé de plus fortes hausses de salaire, bien que les grèves des étudiants diplômés…"
    },
-   "summary": "Les étudiants diplômés travaillant à l'Université Harvard ont entamé une grève le 27 octobre 2026, suite à l'impasse des négociations contractuelles. Organisée par le Harvard Graduate Students Union-United Auto Workers (HGSU-UAW), l'action s'est étendue le 10 novembre lorsque le Harvard Academic Workers Union a également cessé le travail. Au total, environ 6 500 chercheurs, enseignants et instructeurs participent à la grève, ce qui a perturbé les cours, les travaux de laboratoire et les événements sur le campus. Les syndicats exigent des augmentations de salaire, des processus indépendants pour traiter le harcèlement et la discrimination, ainsi que des protections spécifiques pour les travailleurs internationaux et handicapés. Les administrateurs de Harvard, dont le recteur John F. Manning et la vice-présidente exécutive Meredith Weenick, ont qualifié les grèves d'« injustifiées », affirmant que l'université a proposé des augmentations de salaire et reste engagée dans des négociations de bonne foi. Les tensions se sont accrues, les responsables de l'université ayant récemment interrompu une séance de négociation en invoquant une conduite irrespectueuse de la part des représentants syndicaux.",
+   "summary": "Des étudiants diplômés et des employés académiques de l'Université Harvard ont lancé des grèves à Cambridge, dans le Massachusetts, pour exiger une rémunération accrue, des ajustements du coût de la vie et des procédures indépendantes pour traiter le harcèlement et la discrimination au travail. Les débrayages, organisés par le Harvard Graduate Students Union-United Auto Workers et les Harvard Academic Workers-United Auto Workers, ont perturbé les cours, les examens partiels et les événements sur le campus, notamment une intervention de l'humoriste Stephen Colbert qui a été écourtée par une alarme incendie. Les administrateurs de l'université ont qualifié les grèves d'injustifiées, soulignant les négociations en cours et les propositions révisées de hausse de salaire, tandis que les discussions concernant les protections non économiques se poursuivent.",
    "demands": [
-    "Des salaires plus élevés et des ajustements annuels au coût de la vie",
-    "Un processus indépendant de traitement des plaintes pour harcèlement et discrimination",
-    "Des protections pour les travailleurs non citoyens et handicapés",
-    "L'équité salariale entre les assistants de recherche et les chargés d'enseignement",
-    "Un soutien juridique et financier pour les travailleurs dans des environnements dangereux"
+    "Salaires plus élevés et augmentations annuelles",
+    "Processus de grief indépendant pour les plaintes de harcèlement et de discrimination",
+    "Protections pour les travailleurs non-citoyens et handicapés",
+    "Aide élargie à la garde d'enfants",
+    "Équité salariale entre assistants de recherche et chargés d'enseignement"
    ],
-   "response": "Les administrateurs de Harvard ont qualifié les grèves d'« injustifiées », citant les propositions salariales précédentes et les progrès réalisés sur les articles du contrat. Les responsables ont également accusé les représentants syndicaux d'avoir tenu des « remarques inappropriées et irrespectueuses » lors des séances de négociation.",
+   "response": "Selon des responsables universitaires, Harvard est restée attachée à des négociations de bonne foi, proposant des augmentations initiales tout en qualifiant les grèves d'injustifiées et en invoquant des remarques improductives des représentants syndicaux lors des négociations.",
    "updates": [
-    "Les étudiants diplômés travaillant à Harvard lancent une grève après avoir échoué à parvenir à un nouvel accord contractuel.",
-    "Les responsables de l'université mettent fin prématurément à une séance de négociation, invoquant des remarques irrespectueuses de la part des représentants syndicaux.",
-    "Une alarme incendie perturbe un événement sur le campus avec Stephen Colbert et Yo-Yo Ma alors que des membres du syndicat manifestent à l'extérieur.",
-    "Les travailleurs universitaires de Harvard se joignent à la grève des étudiants diplômés, portant le nombre de participants à environ 6 500."
+    "Les étudiants diplômés travailleurs de Harvard ont lancé leur deuxième grève de l'année après l'impasse des négociations contractuelles.",
+    "Des responsables universitaires ont interrompu une session de négociation avec le syndicat des étudiants diplômés à la suite de remarques manquant de respect.",
+    "Le vice-provost et directeur général de Harvard ont publié des points sur la rupture des sessions de négociation.",
+    "Des manifestants syndicaux ont fait une démonstration devant le Sanders Theatre lors d'un événement avec Stephen Colbert et Yo-Yo Ma.",
+    "Les travailleurs académiques de Harvard se sont joints au mouvement social, élargissant la grève pour inclure les enseignants et chercheurs non titulaires.",
+    "Les travailleurs académiques de Harvard ont voté pour reprendre le travail après que l'université a augmenté ses propositions de hausse de salaire."
    ],
-   "conflicts": [
-    "L'université et le syndicat ont fourni des récits contradictoires sur les raisons pour lesquelles une séance de négociation du 5 novembre a été interrompue prématurément."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "Environ 50 manifestants syndicaux ont manifesté devant le Sanders Theatre lors d'un événement."
+    "crowd": "Environ 50 manifestants syndicaux ont manifesté devant le théâtre avant et pendant l'événement"
    }
   },
   "de": {
-   "title": "Harvard-Absolventen und akademische Mitarbeiter streiken für höhere Löhne und bessere Bedingungen",
+   "title": "Harvard-Absolventen und wissenschaftliche Mitarbeiter streiken für höhere Löhne und bessere Bedingungen",
    "seoTitle": "Streik der Harvard-Mitarbeiter in Cambridge",
    "tea": {
-    "why": "Die Beschäftigten streiken für höhere Löhne, verbesserten Schutz vor Belästigung am Arbeitsplatz und bessere Bedingungen für internationales und behindertes Personal.",
-    "want": "Höhere Löhne, unabhängige Beschwerdeverfahren bei Belästigung, Schutz für nicht-staatsangehörige Arbeitnehmer und Lohngerechtigkeit.",
-    "changed": "10. November: Akademische Mitarbeiter schlossen sich dem Streik der studentischen Hilfskräfte an, wodurch die Gesamtzahl der streikenden Mitarbeiter auf etwa 6.500 stieg."
+    "why": "Promovierende und wissenschaftliche Mitarbeiter der Harvard University streiken, um höhere Löhne, den Ausgleich der Lebenshaltungskosten und bessere Arbeitsbedingungen zu fordern.",
+    "want": "Höhere Löhne, unabhängige Aufsicht bei Belästigungsvorwürfen und stärkere Schutzmaßnahmen am Arbeitsplatz.",
+    "changed": "18. Nov.: Wissenschaftliche Mitarbeiter von Harvard stimmten für die Beendigung ihres wochenlangen Streiks, nachdem die Universität höhere Gehaltserhöhungen vorgeschlagen hatte, obwohl die Streiks der studentischen Beschäftigten…"
    },
-   "summary": "Studentische Hilfskräfte an der Harvard University begannen am 27. Oktober 2026 einen Streik, nachdem die Vertragsverhandlungen ins Stocken geraten waren. Die vom Harvard Graduate Students Union-United Auto Workers (HGSU-UAW) organisierte Aktion weitete sich am 10. November aus, als auch die Harvard Academic Workers Union die Arbeit niederlegte. Insgesamt beteiligen sich etwa 6.500 Forscher, Dozenten und Lehrkräfte an dem Streik, der den Unterricht, die Laborarbeit und Campus-Veranstaltungen beeinträchtigt hat. Die Gewerkschaften fordern Lohnerhöhungen, unabhängige Verfahren zur Bekämpfung von Belästigung und Diskriminierung sowie spezifische Schutzmaßnahmen für internationale und behinderte Arbeitnehmer. Die Harvard-Verwaltung, darunter Provost John F. Manning und die Executive Vice President Meredith Weenick, bezeichnete die Streiks als \"ungerechtfertigt\" und erklärte, die Universität habe Lohnerhöhungen angeboten und sei weiterhin zu Verhandlungen nach Treu und Glauben bereit. Die Spannungen haben zugenommen, nachdem Universitätsvertreter kürzlich eine Verhandlungssitzung mit Verweis auf respektloses Verhalten der Gewerkschaftsvertreter abgebrochen haben.",
+   "summary": "Studentische Beschäftigte und wissenschaftliche Mitarbeiter der Harvard University traten in Cambridge, Massachusetts, in den Streik, um eine höhere Vergütung, den Ausgleich der Lebenshaltungskosten und unabhängige Verfahren zur Bekämpfung von Belästigung und Diskriminierung am Arbeitsplatz zu fordern. Die Arbeitsniederlegungen, organisiert von der Harvard Graduate Students Union-United Auto Workers und den Harvard Academic Workers-United Auto Workers, störten den Vorlesungsbetrieb, Zwischenprüfungen und Campus-Veranstaltungen, darunter einen Auftritt des Komikers Stephen Colbert, der durch einen Feueralarm vorzeitig beendet wurde. Die Universitätsleitung bezeichnete die Streiks als unbegründet, verwies auf laufende Verhandlungen und überarbeitete Vorschläge für Gehaltserhöhungen, während die Gespräche über nicht-ökonomische Schutzmaßnahmen fortgesetzt werden.",
    "demands": [
-    "Höhere Löhne und jährliche Anpassungen an die Lebenshaltungskosten",
-    "Unabhängiges Beschwerdeverfahren bei Belästigung und Diskriminierung",
-    "Schutz für nicht-staatsangehörige und behinderte Arbeitnehmer",
-    "Lohngerechtigkeit zwischen wissenschaftlichen Assistenten und Lehrbeauftragten",
-    "Rechtliche und finanzielle Unterstützung für Arbeitnehmer in unsicheren Umgebungen"
+    "Höhere Löhne und jährliche Erhöhungen",
+    "Unabhängiges Beschwerdeverfahren bei Belästigungs- und Diskriminierungsvorwürfen",
+    "Schutzmaßnahmen für nicht-staatsbürgerliche und behinderte Arbeitskräfte",
+    "Ausgeweitete Kinderbetreuungsunterstützung",
+    "Lohngerechtigkeit zwischen wissenschaftlichen Mitarbeitern und Lehrbeauftragten"
    ],
-   "response": "Die Harvard-Verwaltung bezeichnete die Streiks als \"ungerechtfertigt\" und verwies auf frühere Lohnvorschläge und Fortschritte bei den Vertragsartikeln. Die Verantwortlichen warfen den Gewerkschaftsvertretern zudem \"unangemessene, respektlose Bemerkungen\" während der Verhandlungssitzungen vor.",
+   "response": "Laut Universitätsverantwortlichen blieb Harvard zu Verhandlungen nach Treu und Glauben verpflichtet, bot anfängliche Gehaltserhöhungen an, während es die Streiks als unbegründet bezeichnete und unproduktive Äußerungen von Gewerkschaftsvertretern während der Verhandlungen anführte.",
    "updates": [
-    "Studentische Hilfskräfte in Harvard treten in den Streik, nachdem eine neue Vertragsvereinbarung nicht zustande kam.",
-    "Universitätsvertreter beenden eine Verhandlungssitzung vorzeitig und verweisen auf respektlose Bemerkungen der Gewerkschaftsvertreter.",
-    "Ein Feueralarm stört eine Campus-Veranstaltung mit Stephen Colbert und Yo-Yo Ma, während Gewerkschaftsmitglieder draußen demonstrieren.",
-    "Akademische Mitarbeiter in Harvard schließen sich dem Streik der studentischen Hilfskräfte an, wodurch die Teilnehmerzahl auf etwa 6.500 steigt."
+    "Studentische Beschäftigte von Harvard begannen ihren zweiten Streik des Jahres, nachdem die Tarifverhandlungen ins Stocken geraten waren.",
+    "Universitätsvertreter brachen eine Verhandlungsrunde mit der Gewerkschaft der studentischen Beschäftigten nach respektlosen Äußerungen ab.",
+    "Der stellvertretende Rektor und geschäftsführende Direktor von Harvard gaben Updates zum Scheitern der Verhandlungsrunden heraus.",
+    "Gewerkschaftsprotestierende demonstrierten vor dem Sanders Theatre während einer Veranstaltung mit Stephen Colbert und Yo-Yo Ma.",
+    "Wissenschaftliche Mitarbeiter von Harvard schlossen sich den Arbeitsniederlegungen an und weiteten den Streik auf Lehrkräfte ohne Festanstellung und Forschende aus.",
+    "Wissenschaftliche Mitarbeiter von Harvard stimmten für die Wiederaufnahme der Arbeit, nachdem die Universität ihre vorgeschlagenen Gehaltserhöhungen erhöht hatte."
    ],
-   "conflicts": [
-    "Die Universität und die Gewerkschaft machten widersprüchliche Angaben darüber, warum eine Verhandlungssitzung am 5. November vorzeitig abgebrochen wurde."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "Etwa 50 Gewerkschaftsdemonstranten protestierten während einer Veranstaltung vor dem Sanders Theatre."
+    "crowd": "Etwa 50 Gewerkschaftsprotestierende demonstrierten vor und während der Veranstaltung vor dem Theater"
    }
   },
   "it": {
-   "title": "Laureati e lavoratori accademici di Harvard in sciopero per salari più alti e condizioni migliori",
+   "title": "Laureati e lavoratori accademici di Harvard in sciopero per salari più alti e migliori condizioni",
    "seoTitle": "Sciopero dei lavoratori di Harvard a Cambridge",
    "tea": {
-    "why": "I lavoratori sono in sciopero per ottenere salari più alti, migliori tutele contro le molestie sul posto di lavoro e condizioni migliori per il personale internazionale e disabile.",
-    "want": "Salari più alti, processi indipendenti per le denunce di molestie, tutele per i lavoratori non cittadini ed equità salariale.",
-    "changed": "10 novembre: i lavoratori accademici si sono uniti allo sciopero degli studenti laureati, portando il numero totale dei dipendenti in sciopero a circa 6.500."
+    "why": "Gli studenti di dottorato e i lavoratori accademici di Harvard stanno protestando per richiedere salari più alti, adeguamenti al costo della vita e migliori condizioni di lavoro.",
+    "want": "Salari più alti, supervisione di terze parti per le denunce di molestie e maggiori tutele sul posto di lavoro.",
+    "changed": "18 nov: I lavoratori accademici di Harvard hanno votato per terminare il loro sciopero di una settimana dopo che l'università ha offerto aumenti salariali proposti più alti, sebbene gli scioperi dei lavoratori studenti laureati..."
    },
-   "summary": "Gli studenti laureati che lavorano all'Università di Harvard hanno iniziato uno sciopero il 27 ottobre 2026, in seguito allo stallo delle trattative contrattuali. Organizzata dal Harvard Graduate Students Union-United Auto Workers (HGSU-UAW), l'azione si è estesa il 10 novembre quando anche il Harvard Academic Workers Union ha incrociato le braccia. Complessivamente, circa 6.500 ricercatori, insegnanti e istruttori stanno partecipando allo sciopero, che ha interrotto le lezioni, il lavoro di laboratorio e gli eventi nel campus. I sindacati chiedono aumenti salariali, processi indipendenti per affrontare le molestie e la discriminazione e tutele specifiche per i lavoratori internazionali e disabili. Gli amministratori di Harvard, tra cui il rettore John F. Manning e la vicepresidente esecutiva Meredith Weenick, hanno definito gli scioperi \"ingiustificati\", affermando che l'università ha offerto aumenti salariali e rimane impegnata in trattative in buona fede. Le tensioni sono aumentate, con i funzionari universitari che hanno recentemente interrotto una sessione di contrattazione citando una condotta irrispettosa da parte dei rappresentanti sindacali.",
+   "summary": "Studenti lavoratori laureati e dipendenti accademici della Harvard University hanno avviato scioperi a Cambridge, in Massachusetts, per richiedere una maggiore retribuzione, adeguamenti al costo della vita e procedure indipendenti per affrontare le molestie e la discriminazione sul posto di lavoro. Gli scioperi, organizzati dall'Harvard Graduate Students Union-United Auto Workers e dagli Harvard Academic Workers-United Auto Workers, hanno interrotto le lezioni, gli esami di metà semestre e gli eventi nel campus, tra cui un discorso con il comico Stephen Colbert interrotto da un allarme antincendio. Gli amministratori dell'università hanno definito gli scioperi ingiustificati, indicando i negoziati in corso e le proposte di aumento salariale riviste, mentre continuano le discussioni sulle tutele non economiche.",
    "demands": [
-    "Salari più alti e adeguamenti annuali al costo della vita",
-    "Processo indipendente di reclamo per molestie e discriminazione",
+    "Salari più alti e aumenti annuali",
+    "Processo di reclamo indipendente per le denunce di molestie e discriminazione",
     "Tutele per i lavoratori non cittadini e disabili",
-    "Equità salariale tra assistenti di ricerca e borsisti didattici",
-    "Supporto legale e finanziario per i lavoratori in ambienti non sicuri"
+    "Supporto ampliato per l'assistenza all'infanzia",
+    "Equità salariale tra assistenti di ricerca e collaboratori alla didattica"
    ],
-   "response": "Gli amministratori di Harvard hanno definito gli scioperi \"ingiustificati\", citando le precedenti proposte salariali e i progressi sugli articoli del contratto. I funzionari hanno anche accusato i rappresentanti sindacali di aver fatto \"osservazioni inappropriate e irrispettose\" durante le sessioni di contrattazione.",
+   "response": "Secondo i funzionari universitari, Harvard è rimasta impegnata in una contrattazione in buona fede, offrendo aumenti iniziali pur definendo gli scioperi ingiustificati e citando osservazioni improduttive da parte dei rappresentanti sindacali durante i negoziati.",
    "updates": [
-    "Gli studenti laureati che lavorano ad Harvard lanciano uno sciopero dopo non essere riusciti a raggiungere un nuovo accordo contrattuale.",
-    "I funzionari dell'università terminano una sessione di contrattazione in anticipo, citando osservazioni irrispettose da parte dei rappresentanti sindacali.",
-    "Un allarme antincendio interrompe un evento nel campus con Stephen Colbert e Yo-Yo Ma mentre i membri del sindacato manifestano all'esterno.",
-    "I lavoratori accademici di Harvard si uniscono allo sciopero degli studenti laureati, portando il numero dei partecipanti a circa 6.500."
+    "I lavoratori studenti laureati di Harvard hanno lanciato il loro secondo sciopero dell'anno dopo che i negoziati contrattuali si sono arenati.",
+    "I funzionari universitari hanno interrotto una sessione di contrattazione con il sindacato degli studenti laureati a seguito di osservazioni irrispettose.",
+    "Il vice provost e direttore generale di Harvard hanno rilasciato aggiornamenti riguardanti la rottura delle sessioni di contrattazione.",
+    "I manifestanti sindacali hanno dimostrato fuori dal Sanders Theatre durante un evento con Stephen Colbert e Yo-Yo Ma.",
+    "I lavoratori accademici di Harvard si sono uniti all'azione sindacale, estendendo lo sciopero per includere insegnanti senza tenure-track e ricercatori.",
+    "I lavoratori accademici di Harvard hanno votato per tornare al lavoro dopo che l'università ha aumentato i suoi aumenti salariali proposti."
    ],
-   "conflicts": [
-    "L'università e il sindacato hanno fornito resoconti contrastanti sul motivo per cui una sessione di contrattazione del 5 novembre è stata interrotta in anticipo."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "Circa 50 manifestanti sindacali hanno protestato fuori dal Sanders Theatre durante un evento."
+    "crowd": "Circa 50 manifestanti sindacali hanno manifestato fuori dal teatro prima e durante l'evento"
    }
   },
   "pt": {
-   "title": "Graduados e trabalhadores académicos de Harvard em greve por melhores salários e condições",
-   "seoTitle": "Greve dos trabalhadores de Harvard em Cambridge",
+   "title": "Graduados e trabalhadores acadêmicos de Harvard entram em greve por melhores salários e condições",
+   "seoTitle": "Greve de trabalhadores de Harvard em Cambridge",
    "tea": {
-    "why": "Os trabalhadores estão em greve por salários mais altos, melhores proteções contra assédio no local de trabalho e melhores condições para o pessoal internacional e com deficiência.",
-    "want": "Salários mais altos, processos independentes para queixas de assédio, proteções para trabalhadores não cidadãos e equidade salarial.",
-    "changed": "10 de novembro: Os trabalhadores académicos juntaram-se à greve dos estudantes graduados, elevando o número total de funcionários em greve para aproximadamente 6.500."
+    "why": "Estudantes de pós-graduação e trabalhadores acadêmicos de Harvard estão em greve para exigir salários mais altos, ajustes devido ao custo de vida e melhores condições de trabalho.",
+    "want": "Salários mais altos, supervisão de terceiros para denúncias de assédio e proteções laborais mais fortes.",
+    "changed": "18 de nov.: Trabalhadores acadêmicos de Harvard votaram para encerrar a greve de uma semana após a universidade oferecer aumentos salariais propostos mais altos, embora as greves de estudantes graduados..."
    },
-   "summary": "Os estudantes graduados que trabalham na Universidade de Harvard iniciaram uma greve a 27 de outubro de 2026, após o impasse nas negociações contratuais. Organizada pelo Sindicato de Estudantes Graduados de Harvard-United Auto Workers (HGSU-UAW), a ação expandiu-se a 10 de novembro quando o Sindicato de Trabalhadores Académicos de Harvard também abandonou o trabalho. No total, aproximadamente 6.500 investigadores, professores e instrutores estão a participar na greve, o que interrompeu aulas, trabalho de laboratório e eventos no campus. Os sindicatos exigem aumentos salariais, processos independentes para lidar com assédio e discriminação, e proteções específicas para trabalhadores internacionais e com deficiência. Os administradores de Harvard, incluindo o reitor John F. Manning e a vice-presidente executiva Meredith Weenick, descreveram as greves como \"injustificadas\", afirmando que a universidade ofereceu aumentos salariais e permanece comprometida com negociações de boa-fé. As tensões aumentaram, com funcionários da universidade a interromperem recentemente uma sessão de negociação, citando conduta desrespeitosa por parte dos representantes sindicais.",
+   "summary": "Estudantes graduados e funcionários acadêmicos da Universidade de Harvard iniciaram greves em Cambridge, Massachusetts, para exigir maior remuneração, ajustes devido ao custo de vida e procedimentos independentes para combater o assédio e a discriminação no local de trabalho. As paralisações, organizadas pelo Harvard Graduate Students Union-United Auto Workers e pelo Harvard Academic Workers-United Auto Workers, interromperam aulas, exames intercalares e eventos no campus, incluindo uma palestra com o comediante Stephen Colbert que foi interrompida por um alarme de incêndio. Os administradores da universidade classificaram as greves como injustificadas, apontando para as negociações em curso e propostas revisadas de aumento salarial, enquanto continuam as discussões sobre proteções não económicas.",
    "demands": [
-    "Salários mais altos e ajustes anuais ao custo de vida",
-    "Processo independente de queixa para assédio e discriminação",
+    "Salários mais altos e aumentos anuais",
+    "Processo de reclamação independente para queixas de assédio e discriminação",
     "Proteções para trabalhadores não cidadãos e com deficiência",
-    "Equidade salarial entre assistentes de investigação e bolseiros de ensino",
-    "Apoio jurídico e financeiro para trabalhadores em ambientes inseguros"
+    "Apoio alargado a creches",
+    "Equidade salarial entre assistentes de investigação e bolseiros de ensino"
    ],
-   "response": "Os administradores de Harvard classificaram as greves como \"injustificadas\", citando propostas salariais anteriores e o progresso nos artigos do contrato. Os funcionários também acusaram os representantes sindicais de fazerem \"comentários inapropriados e desrespeitosos\" durante as sessões de negociação.",
+   "response": "Segundo responsáveis universitários, Harvard manteve-se comprometida com a negociação de boa-fé, oferecendo aumentos iniciais ao mesmo tempo que classificava as greves como injustificadas e citava comentários improdutivos por parte dos representantes sindicais durante as negociações.",
    "updates": [
-    "Os estudantes graduados que trabalham em Harvard iniciam uma greve após falharem a obtenção de um novo acordo contratual.",
-    "Os funcionários da universidade terminam uma sessão de negociação mais cedo, citando comentários desrespeitosos dos representantes sindicais.",
-    "Um alarme de incêndio interrompe um evento no campus com Stephen Colbert e Yo-Yo Ma enquanto membros do sindicato manifestam-se no exterior.",
-    "Os trabalhadores académicos de Harvard juntam-se à greve dos estudantes graduados, aumentando o número de participantes para aproximadamente 6.500."
+    "Estudantes graduados trabalhadores de Harvard lançaram a sua segunda greve do ano após o impasse nas negociações contratuais.",
+    "Responsáveis universitários interromperam uma sessão de negociação com o sindicato de estudantes graduados após observações desrespeitosas.",
+    "O vice-reitor e diretor geral de Harvard emitiram atualizações relativas à rutura nas sessões de negociação.",
+    "Manifestantes sindicais protestaram fora do Sanders Theatre durante um evento com Stephen Colbert e Yo-Yo Ma.",
+    "Trabalhadores acadêmicos de Harvard juntaram-se à ação laboral, expandindo a greve para incluir professores sem vínculo permanente e investigadores.",
+    "Trabalhadores acadêmicos de Harvard votaram pelo regresso ao trabalho depois de a universidade ter aumentado os seus aumentos salariais propostos."
    ],
-   "conflicts": [
-    "A universidade e o sindicato forneceram relatos contraditórios sobre o motivo pelo qual uma sessão de negociação de 5 de novembro foi terminada mais cedo."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "Cerca de 50 manifestantes sindicais protestaram fora do Sanders Theatre durante um evento."
+    "crowd": "Cerca de 50 manifestantes sindicais protestaram fora do teatro antes e durante o evento"
    }
   },
   "nl": {
-   "title": "Afgestudeerden en academisch personeel van Harvard staken voor hogere lonen en betere omstandigheden",
-   "seoTitle": "Staking Harvard-medewerkers in Cambridge",
+   "title": "Harvard-alumni en academische medewerkers staken voor hoger loon en betere omstandigheden",
+   "seoTitle": "Cambridge Harvard-medewerkers staken",
    "tea": {
-    "why": "De werknemers staken voor hogere lonen, betere bescherming tegen intimidatie op de werkvloer en betere omstandigheden voor internationaal en gehandicapt personeel.",
-    "want": "Hogere lonen, onafhankelijke klachtenprocedures voor intimidatie, bescherming voor werknemers zonder staatsburgerschap en loongelijkheid.",
-    "changed": "10 november: Academisch personeel sloot zich aan bij de staking van promovendi, waardoor het totaal aantal stakende werknemers op ongeveer 6.500 kwam."
+    "why": "Promovendi en academische medewerkers van Harvard staken om hogere lonen, aanpassingen aan de kosten van levensonderhoud en betere arbeidsomstandigheden te eisen.",
+    "want": "Hogere lonen, externe controle bij meldingen van intimidatie en sterkere bescherming op de werkplek.",
+    "changed": "18 nov.: Academische medewerkers van Harvard stemden voor het beëindigen van hun een week durende staking nadat de universiteit hogere voorgestelde loonsverhogingen had aangeboden, hoewel de stakingen van promovendi..."
    },
-   "summary": "Promovendi aan de Harvard University begonnen op 27 oktober 2026 een staking na vastgelopen contractonderhandelingen. De actie, georganiseerd door de Harvard Graduate Students Union-United Auto Workers (HGSU-UAW), breidde zich op 10 november uit toen ook de Harvard Academic Workers Union het werk neerlegde. In totaal nemen ongeveer 6.500 onderzoekers, docenten en instructeurs deel aan de staking, wat heeft geleid tot verstoringen van lessen, laboratoriumwerk en evenementen op de campus. De vakbonden eisen loonsverhogingen, onafhankelijke processen voor het aanpakken van intimidatie en discriminatie, en specifieke bescherming voor internationale en gehandicapte werknemers. De Harvard-administratie, waaronder Provost John F. Manning en Executive Vice President Meredith Weenick, heeft de stakingen \"ongegrond\" genoemd en verklaard dat de universiteit loonsverhogingen heeft aangeboden en zich blijft inzetten voor onderhandelingen te goeder trouw. De spanningen zijn opgelopen, waarbij universiteitsfunctionarissen onlangs een onderhandelingssessie stopzetten onder verwijzing naar respectloos gedrag door vakbondsvertegenwoordigers.",
+   "summary": "Promovendi en academische medewerkers van de Harvard-universiteit zijn in Cambridge, Massachusetts, gestaakt om een hoger loon, aanpassingen aan de kosten van levensonderhoud en onafhankelijke procedures te eisen om intimidatie en discriminatie op de werkplek aan te pakken. De werkonderbrekingen, georganiseerd door de Harvard Graduate Students Union-United Auto Workers en de Harvard Academic Workers-United Auto Workers, verstoorden lessen, tentamens en campusevenementen, waaronder een optreden van komiek Stephen Colbert dat werd ingekort door een brandalarm. Universiteitsbestuurders noemden de stakingen onterecht, wijzend op lopende onderhandelingen en herziene voorstellen voor loonsverhogingen, terwijl besprekingen over niet-economische beschermingsmaatregelen doorgaan.",
    "demands": [
-    "Hogere lonen en jaarlijkse aanpassingen aan de kosten van levensonderhoud",
-    "Onafhankelijke klachtenprocedure voor intimidatie en discriminatie",
-    "Bescherming voor werknemers zonder staatsburgerschap en gehandicapte werknemers",
-    "Loongelijkheid tussen onderzoeksassistenten en docenten",
-    "Juridische en financiële steun voor werknemers in onveilige omgevingen"
+    "Hogere lonen en jaarlijkse verhogingen",
+    "Onafhankelijke klachtenprocedure voor klachten over intimidatie en discriminatie",
+    "Bescherming voor niet-staatsburgers en werknemers met een beperking",
+    "Uitgebreide kinderopvangondersteuning",
+    "Loongelijkheid tussen onderzoeksassistenten en docenten"
    ],
-   "response": "De Harvard-administratie heeft de stakingen \"ongegrond\" genoemd, onder verwijzing naar eerdere loonvoorstellen en vooruitgang bij contractartikelen. Functionarissen hebben vakbondsvertegenwoordigers ook beschuldigd van \"ongepaste, respectloze opmerkingen\" tijdens onderhandelingssessies.",
+   "response": "Volgens universiteitsfunctionarissen bleef Harvard zich inzetten voor te goeder trouw onderhandelen, bood het initiële verhogingen aan terwijl het de stakingen onterecht noemde en verwees het naar onproductieve opmerkingen van vakbondsvertegenwoordigers tijdens de onderhandelingen.",
    "updates": [
-    "Promovendi aan Harvard staken nadat het niet lukte om een nieuw contractakkoord te bereiken.",
-    "Universiteitsfunctionarissen beëindigen een onderhandelingssessie voortijdig, onder verwijzing naar respectloze opmerkingen van vakbondsvertegenwoordigers.",
-    "Een brandalarm verstoort een evenement op de campus met Stephen Colbert en Yo-Yo Ma terwijl vakbondsleden buiten demonstreren.",
-    "Academisch personeel van Harvard sluit zich aan bij de staking van promovendi, waardoor het aantal deelnemers stijgt tot ongeveer 6.500."
+    "Promovendi van Harvard begonnen hun tweede staking van het jaar nadat de cao-onderhandelingen waren vastgelopen.",
+    "Universiteitsfunctionarissen legden een onderhandelingsronde met de vakbond van promovendi stil na respectloze opmerkingen.",
+    "Harvard's vice-provost en algemeen directeur brachten updates uit over de breuk in de onderhandelingsronden.",
+    "Vakbondsdemonstranten voerden actie buiten het Sanders Theatre tijdens een evenement met Stephen Colbert en Yo-Yo Ma.",
+    "Academische medewerkers van Harvard sloten zich aan bij de actie, waardoor de staking werd uitgebreid naar docenten zonder vast dienstverband en onderzoekers.",
+    "Academische medewerkers van Harvard stemden om weer aan het werk te gaan nadat de universiteit haar voorgestelde loonsverhogingen had verhoogd."
    ],
-   "conflicts": [
-    "De universiteit en de vakbond gaven tegenstrijdige lezingen over waarom een onderhandelingssessie op 5 november voortijdig werd beëindigd."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "Ongeveer 50 vakbondsdemonstranten protesteerden tijdens een evenement buiten het Sanders Theatre."
+    "crowd": "Ongeveer 50 vakbondsdemonstranten voerden actie buiten het theater voor en tijdens het evenement"
    }
   }
  },
