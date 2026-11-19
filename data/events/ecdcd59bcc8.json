@@ -3,7 +3,7 @@
  "slug": "berlin-gen-z-regelt-protest-nov-2026",
  "stage": "live",
  "title": "Gen Z Regelt alliance calls for nationwide demonstration",
- "seoTitle": "Berlin Gen Z Regelt protest",
+ "seoTitle": "Berlin Gen Z Regelt alliance protest",
  "place": {
   "city": "Berlin",
   "region": "State of Berlin",
@@ -15,9 +15,9 @@
  },
  "scope": "nationwide",
  "causes": [
-  "students",
   "education",
-  "jobs"
+  "jobs",
+  "climate"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-20",
@@ -29,46 +29,61 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Young people are protesting to demand better political representation, greater action on climate change, and relief from rising living costs.",
-  "want": "More funding for schools, measures against living costs, social justice, and increased climate protection.",
-  "changed": "Nov 18: Authorities and politicians expressed understanding for the upcoming youth protests while noting heavy police deployments for concurrent state visits in Berlin."
+  "why": "Protesters are demonstrating against high living costs, deteriorating education, and a potential return to military conscription.",
+  "want": "Demonstrators demand better education, affordable living, stronger climate action, and opposition to military conscription.",
+  "changed": "Nov 19: Organizers and supporting student groups prepared for nationwide demonstrations scheduled across multiple German cities."
  },
- "summary": "The youth initiative \"Gen Z regelt\" has called for a nationwide day of demonstrations across numerous German cities, including Berlin, where organizers registered 15,000 participants. The protests focus on demands for better education and school funding, climate protection, affordable living, and opposition to a potential military conscription reinstatement. Political figures from various parties, including Chancellor Friedrich Merz and union representatives, acknowledged the legitimate concerns of the youth, while police and unions prepared for major security operations in the capital due to overlapping high-level international summits.",
+ "summary": "The Gen Z Regelt alliance, alongside groups such as Fridays for Future, the Federal Student Conference, and the School Strike Against Conscription network, called for nationwide demonstrations across dozens of German cities, including Berlin. According to news reports, organizers registered thousands of participants in Berlin, where a march was planned from Alexanderplatz toward Mariannenplatz in Kreuzberg. The protests address concerns over the rising cost of living, inadequate school and education systems, climate change, and opposition to the reinstatement of military service. While researchers and polling figures highlighted widespread public understanding of the youth grievances, authorities and transit networks warned of extensive traffic restrictions in Berlin due to concurrent international political meetings.",
  "organizers": [
   "Gen Z regelt",
-  "Bundesschüler:innenkonferenz",
   "Fridays for Future",
-  "Netzwerk Friedenskooperative"
+  "Bundesschüler:innenkonferenz",
+  "Schulstreik gegen Wehrpflicht"
  ],
  "demands": [
-  "More funding for schools, addiction support, and psychotherapy",
-  "Opposition to military conscription",
-  "Protection of fundamental rights instead of expanded surveillance",
-  "Consistent climate protection",
-  "Affordable living and fairer burden-sharing"
+  "Better education and school systems",
+  "Affordable living costs",
+  "Stronger climate action",
+  "Opposition to military conscription"
  ],
- "response": "Politicians from various parties expressed understanding and acknowledged the legitimate concerns of young people. Some regional officials had previously considered demonstration bans following violence at earlier rallies, which youth researchers criticized.",
- "numbers": {},
+ "response": "According to the sources, police and traffic information services warned of widespread traffic restrictions and road closures in Berlin due to concurrent international political events, while researchers and politicians debated the appropriate political response to youth dissatisfaction.",
+ "numbers": {
+  "crowd": {
+   "value": 15000,
+   "text": "Allein für Berlin haben die Veranstalter indes schon 15.000 Demonstranten angemeldet.",
+   "sources": [
+    1
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-11-15",
-   "text": "The \"Gen Z regelt\" movement announced a second nationwide protest day for the coming Friday across 40 cities, with 15,000 registered in Berlin.",
+   "text": "The Gen Z regelt movement announced its second nationwide protest day involving dozens of German cities.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-17",
-   "text": "Authorities announced major police deployments in Berlin for Friday due to concurrent international state visits and the upcoming demonstration.",
+   "text": "Authorities in Berlin announced major traffic disruptions, noting that the demonstration is scheduled to start at Alexanderplatz.",
    "sources": [
-    2
+    2,
+    3
    ]
   },
   {
    "at": "2026-11-18",
-   "text": "Politicians from various parties voiced support and understanding for the youth grievances ahead of the scheduled Friday demonstrations.",
+   "text": "Additional student and youth groups across multiple federal states confirmed their participation in Friday's actions.",
    "sources": [
-    3
+    4
+   ]
+  },
+  {
+   "at": "2026-11-19",
+   "text": "Organizers emphasized demands for climate action, education reform, and opposition to conscription ahead of the rallies.",
+   "sources": [
+    6
    ]
   }
  ],
@@ -89,10 +104,10 @@
   },
   {
    "n": 3,
-   "url": "https://www.tagesschau.de/inland/gesellschaft/gen-z-proteste-union-100.html",
+   "url": "https://www.tagesschau.de/inland/regional/berlin/rbb-verkehr-in-berlin-wegen-staatsbesuchen-ab-donnerstag-beeintraechtigt-100.html",
    "publisher": "tagesschau.de",
-   "title": "Unions-Fraktionsvize sieht Nachholbedarf bei Politik für junge Menschen",
-   "publishedAt": "2026-11-18T10:32:57.052Z"
+   "title": "Berlin: Verkehr in Berlin wegen Staatsbesuchen ab Donnerstag beeinträchtigt",
+   "publishedAt": "2026-11-17T16:34:53.000Z"
   },
   {
    "n": 4,
@@ -107,186 +122,207 @@
    "publisher": "tagesspiegel.de",
    "title": "Zwischenfrage – der Talk zum Mitreden: Verbaut Deutschland der Gen Z die Zukunft?",
    "publishedAt": "2026-11-18T15:30:04.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://www.aa.com.tr/en/europe/won-t-just-sit-back-germany-s-gen-z-mobilizes-over-conscription-living-costs-climate/4131209",
+   "publisher": "aa.com.tr",
+   "title": "Won’t just sit back’: Germany’s Gen Z mobilizes over conscription, living costs, climate",
+   "publishedAt": "2026-11-19T18:22:08.990Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.9,
- "publishers": 5,
- "reports24h": 0,
+ "publishers": 6,
+ "reports24h": 1,
  "reportsPrev24h": 6,
- "reports48h": 6,
+ "reports48h": 7,
  "firstSeenAt": "2026-11-08T21:52:03.504Z",
- "lastReportAt": "2026-11-18T15:30:04.000Z",
- "lastCheckedAt": "2026-11-19T16:56:11.678Z",
- "updatedAt": "2026-11-19T00:54:55.803Z",
+ "lastReportAt": "2026-11-19T18:22:08.990Z",
+ "lastCheckedAt": "2026-11-19T20:56:38.568Z",
+ "updatedAt": "2026-11-19T20:55:59.376Z",
  "searchedAt": "2026-11-17T20:50:49.725Z",
  "responseSources": [
   1,
+  2,
   3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-19T00:54:55.803Z",
- "summaryOf": "864c18e9fe77",
+ "summarizedAt": "2026-11-19T20:55:59.376Z",
+ "summaryOf": "b8dbd4edcd72",
  "publishedAt": "2026-11-17T20:57:21.304Z",
  "i18n": {
-  "of": "5ca5a85c06bae435",
-  "at": "2026-11-19T00:57:12.628Z",
+  "of": "0fb105b1a486a3dd",
+  "at": "2026-11-19T20:58:31.687Z",
   "tries": 1,
   "es": {
    "title": "La alianza Gen Z Regelt convoca una manifestación nacional",
-   "seoTitle": "Protesta de Gen Z Regelt en Berlín",
+   "seoTitle": "Protesta de la alianza Gen Z Regelt en Berlín",
    "tea": {
-    "why": "Los jóvenes se manifiestan para exigir una mejor representación política, mayor acción contra el cambio climático y alivio ante el aumento del coste de la vida.",
-    "want": "Más financiación para las escuelas, medidas contra el coste de la vida, justicia social y mayor protección climática.",
-    "changed": "18 de noviembre: Autoridades y políticos expresaron comprensión ante las próximas protestas juveniles, al tiempo que señalaron el fuerte despliegue policial por visitas de Estado simultáneas en Berlín."
+    "why": "Los manifestantes se manifiestan contra el elevado coste de la vida, el deterioro de la educación y una posible vuelta al servicio militar obligatorio.",
+    "want": "Los manifestantes exigen una mejor educación, una vida asequible, una acción climática más firme y la oposición al servicio militar obligatorio.",
+    "changed": "19 de noviembre: Los organizadores y los grupos estudiantiles de apoyo prepararon manifestaciones a escala nacional programadas en varias ciudades alemanas."
    },
-   "summary": "La iniciativa juvenil \"Gen Z regelt\" ha convocado una jornada nacional de manifestaciones en numerosas ciudades alemanas, incluida Berlín, donde los organizadores registraron 15.000 participantes. Las protestas se centran en demandas de mejor educación y financiación escolar, protección climática, vida asequible y oposición a una posible reintroducción del servicio militar obligatorio. Figuras políticas de varios partidos, incluido el canciller Friedrich Merz y representantes sindicales, reconocieron las legítimas preocupaciones de la juventud, mientras la policía y los sindicatos se preparaban para importantes operaciones de seguridad en la capital debido a cumbres internacionales de alto nivel concurrentes.",
+   "summary": "La alianza Gen Z Regelt, junto con grupos como Fridays for Future, la Conferencia Federal de Estudiantes y la red School Strike Against Conscription, convocó manifestaciones a escala nacional en decenas de ciudades alemanas, incluida Berlín. Según los informes de prensa, los organizadores registraron a miles de participantes en Berlín, donde se planeó una marcha desde Alexanderplatz hacia Mariannenplatz en Kreuzberg. Las protestas abordan la preocupación por el aumento del coste de la vida, la insuficiencia de los sistemas escolares y educativos, el cambio climático y la oposición al restablecimiento del servicio militar. Aunque los investigadores y las cifras de las encuestas destacaron la comprensión pública generalizada de las quejas de los jóvenes, las autoridades y las redes de transporte advirtieron de importantes restricciones de tráfico en Berlín debido a la celebración simultánea de reuniones políticas internacionales.",
    "demands": [
-    "Más financiación para escuelas, apoyo contra las adicciones y psicoterapia",
-    "Oposición al servicio militar obligatorio",
-    "Protección de los derechos fundamentales en lugar de una mayor vigilancia",
-    "Protección climática constante",
-    "Vida asequible y un reparto de cargas más justo"
+    "Mejor educación y sistemas escolares",
+    "Coste de vida asequible",
+    "Acción climática más firme",
+    "Oposición al servicio militar obligatorio"
    ],
-   "response": "Políticos de varios partidos expresaron comprensión y reconocieron las legítimas preocupaciones de los jóvenes. Algunos funcionarios regionales habían considerado previamente prohibiciones de manifestaciones tras la violencia en concentraciones anteriores, lo cual fue criticado por investigadores juveniles.",
+   "response": "Según las fuentes, la policía y los servicios de información de tráfico advirtieron de importantes restricciones de tráfico y cortes de carreteras en Berlín debido a la celebración simultánea de actos políticos internacionales, mientras que investigadores y políticos debatieron la respuesta política adecuada al descontento juvenil.",
    "updates": [
-    "El movimiento \"Gen Z regelt\" anunció un segundo día de protesta nacional para el próximo viernes en 40 ciudades, con 15.000 inscritos en Berlín.",
-    "Las autoridades anunciaron importantes despliegues policiales en Berlín para el viernes debido a visitas de Estado internacionales concurrentes y a la próxima manifestación.",
-    "Políticos de varios partidos expresaron su apoyo y comprensión hacia las quejas de la juventud antes de las manifestaciones programadas para el viernes."
+    "El movimiento Gen Z regelt anunció su segunda jornada nacional de protesta en decenas de ciudades alemanas.",
+    "Las autoridades de Berlín anunciaron importantes alteraciones del tráfico, señalando que la manifestación está programada para comenzar en Alexanderplatz.",
+    "Grupos adicionales de estudiantes y jóvenes de varios estados federados confirmaron su participación en las acciones del viernes.",
+    "Los organizadores hicieron hincapié en las demandas de acción climática, reforma educativa y oposición al servicio militar obligatorio antes de las concentraciones."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Solo para Berlín, los organizadores ya han registrado a 15.000 manifestantes."
+   }
   },
   "fr": {
    "title": "L'alliance Gen Z Regelt appelle à une manifestation nationale",
-   "seoTitle": "Protestation de Gen Z Regelt à Berlin",
+   "seoTitle": "Manifestation de l'alliance Gen Z Regelt à Berlin",
    "tea": {
-    "why": "Les jeunes manifestent pour exiger une meilleure représentation politique, une action accrue contre le changement climatique et un soulagement face à la hausse du coût de la vie.",
-    "want": "Plus de financement pour les écoles, des mesures contre le coût de la vie, la justice sociale et une protection climatique accrue.",
-    "changed": "18 novembre : Les autorités et les politiciens ont exprimé leur compréhension face aux prochaines manifestations de la jeunesse tout en notant d'importants déploiements policiers pour des visites d'État simultanées à Berlin."
+    "why": "Les manifestants protestent contre le coût élevé de la vie, la détérioration de l'éducation et un retour potentiel au service militaire obligatoire.",
+    "want": "Les manifestants exigent une meilleure éducation, un coût de la vie abordable, une action climatique plus forte et une opposition au service militaire obligatoire.",
+    "changed": "19 novembre : Les organisateurs et les groupes étudiants de soutien ont préparé des manifestations nationales prévues dans plusieurs villes allemandes."
    },
-   "summary": "L'initiative jeunesse « Gen Z regelt » a appelé à une journée nationale de manifestations dans de nombreuses villes allemandes, dont Berlin, où les organisateurs ont enregistré 15 000 participants. Les protestations se concentrent sur des revendications pour une meilleure éducation et un meilleur financement des écoles, la protection climatique, un mode de vie abordable et l'opposition à un éventuel rétablissement de la conscription militaire. Des personnalités politiques de divers partis, dont le chancelier Friedrich Merz et des représentants syndicaux, ont reconnu les préoccupations légitimes de la jeunesse, tandis que la police et les syndicats se préparaient à d'importantes opérations de sécurité dans la capitale en raison de sommets internationaux de haut niveau concomitants.",
+   "summary": "L'alliance Gen Z Regelt, aux côtés de groupes tels que Fridays for Future, la Conférence fédérale des étudiants et le réseau School Strike Against Conscription, a appelé à des manifestations nationales dans des dizaines de villes allemandes, dont Berlin. Selon les reportages, les organisateurs ont enregistré des milliers de participants à Berlin, où une marche était prévue d'Alexanderplatz vers Mariannenplatz à Kreuzberg. Les manifestations portent sur les préoccupations concernant la hausse du coût de la vie, l'inadéquation des systèmes scolaires et éducatifs, le changement climatique et l'opposition au rétablissement du service militaire. Alors que les chercheurs et les chiffres des sondages ont mis en évidence une compréhension publique généralisée des griefs des jeunes, les autorités et les réseaux de transport ont mis en garde contre d'importantes restrictions de circulation à Berlin en raison de réunions politiques internationales simultanées.",
    "demands": [
-    "Plus de financement pour les écoles, le soutien contre les addictions et la psychothérapie",
-    "Opposition à la conscription militaire",
-    "Protection des droits fondamentaux au lieu d'une surveillance accrue",
-    "Protection climatique cohérente",
-    "Mode de vie abordable et partage plus équitable des charges"
+    "Une meilleure éducation et de meilleurs systèmes scolaires",
+    "Un coût de la vie abordable",
+    "Une action climatique plus forte",
+    "Une opposition au service militaire obligatoire"
    ],
-   "response": "Des politiciens de divers partis ont exprimé leur compréhension et ont reconnu les préoccupations légitimes des jeunes. Certains responsables régionaux avaient précédemment envisagé des interdictions de manifester à la suite de violences lors de rassemblements précédents, ce que des chercheurs spécialisés dans la jeunesse ont critiqué.",
+   "response": "Selon les sources, la police et les services d'information routière ont mis en garde contre d'importantes restrictions de circulation et des fermetures de routes à Berlin en raison d'événements politiques internationaux simultanés, tandis que des chercheurs et des politiciens ont débattu de la réponse politique appropriée au mécontentement des jeunes.",
    "updates": [
-    "Le mouvement « Gen Z regelt » a annoncé une deuxième journée de protestation nationale pour vendredi prochain dans 40 villes, avec 15 000 inscrits à Berlin.",
-    "Les autorités ont annoncé d'importants déploiements policiers à Berlin pour vendredi en raison de visites d'État internationales concomitantes et de la manifestation à venir.",
-    "Des politiciens de divers partis ont exprimé leur soutien et leur compréhension à l'égard des griefs de la jeunesse avant les manifestations programmées de vendredi."
+    "Le mouvement Gen Z regelt a annoncé sa deuxième journée nationale de protestation impliquant des dizaines de villes allemandes.",
+    "Les autorités de Berlin ont annoncé des perturbations majeures du trafic, notant que la manifestation doit commencer à Alexanderplatz.",
+    "Des groupes d'étudiants et de jeunes supplémentaires dans plusieurs États fédéraux ont confirmé leur participation aux actions de vendredi.",
+    "Les organisateurs ont souligné les demandes d'action climatique, de réforme de l'éducation et d'opposition à la conscription avant les rassemblements."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Rien qu'à Berlin, les organisateurs ont déjà enregistré 15 000 manifestants."
+   }
   },
   "de": {
-   "title": "Gen-Z-Regelt-Bündnis ruft zu bundesweiter Demonstration auf",
-   "seoTitle": "Berlin Gen-Z-Regelt-Protest",
+   "title": "Bündnis Gen Z Regelt ruft zu bundesweiter Demonstration auf",
+   "seoTitle": "Protest des Bündnisses Gen Z Regelt in Berlin",
    "tea": {
-    "why": "Junge Menschen protestieren, um eine bessere politische représentation, mehr Klimaschutz und Entlastung von den steigenden Lebenshaltungskosten zu fordern.",
-    "want": "Mehr Gelder für Schulen, Maßnahmen gegen die Lebenshaltungskosten, soziale Gerechtigkeit und verstärkter Klimaschutz.",
-    "changed": "18. Nov.: Behörden und Politiker zeigten Verständnis für die bevorstehenden Jugendproteste und wiesen gleichzeitig auf massive Polizeieinsätze wegen zeitgleicher Staatsbesuche in Berlin hin."
+    "why": "Die Demonstranten protestieren gegen hohe Lebenshaltungskosten, die Verschlechterung der Bildung und eine mögliche Rückkehr zur Wehrpflicht.",
+    "want": "Die Demonstranten fordern bessere Bildung, bezahlbares Wohnen, stärkeren Klimaschutz und Widerstand gegen die Wehrpflicht.",
+    "changed": "19. Nov.: Organisatoren und unterstützende Studentengruppen bereiteten bundesweite Demonstrationen vor, die in mehreren deutschen Städten geplant sind."
    },
-   "summary": "Die Jugendinitiative „Gen Z regelt“ hat zu einem bundesweiten Demonstrationstag in zahlreichen deutschen Städten aufgerufen, darunter Berlin, wo Veranstalter 15.000 Teilnehmer anmeldeten. Die Proteste konzentrieren sich auf Forderungen nach besserer Bildung und Schulfinanzierung, Klimaschutz, bezahlbarem Wohnen und der Ablehnung einer möglichen Wiedereinführung der Wehrpflicht. Politische Persönlichkeiten verschiedener Parteien, darunter Bundeskanzler Friedrich Merz und Gewerkschaftsvertreter, erkannten die berechtigten Anliegen der Jugend an, während sich Polizei und Gewerkschaften aufgrund überschneidender hochrangiger internationaler Gipfel auf Großeinsätze in der Hauptstadt vorbereiteten.",
+   "summary": "Das Bündnis Gen Z Regelt rief gemeinsam mit Gruppen wie Fridays for Future, der Bundesvertretung der Studierenden und dem Netzwerk School Strike Against Conscription zu bundesweiten Demonstrationen in Dutzenden deutschen Städten, darunter Berlin, auf. Medienberichten zufolge meldeten die Organisatoren in Berlin Tausende Teilnehmer an, wo ein Marsch vom Alexanderplatz zum Mariannenplatz in Kreuzberg geplant war. Die Proteste richten sich gegen die steigenden Lebenshaltungskosten, unzureichende Schul- und Bildungssysteme, den Klimawandel und die Wiedereinführung der Wehrpflicht. Während Forscher und Umfragezahlen ein breites öffentliches Verständnis für die Anliegen der Jugend hervorhoben, warnten Behörden und Verkehrsbetriebe aufgrund gleichzeitiger internationaler politischer Treffen vor umfangreichen Verkehrsbeschränkungen in Berlin.",
    "demands": [
-    "Mehr Mittel für Schulen, Suchthilfe und Psychotherapie",
-    "Ablehnung der Wehrpflicht",
-    "Schutz der Grundrechte statt erweiterter Überwachung",
-    "Konsequenter Klimaschutz",
-    "Bezahlbares Leben und gerechtere Lastenverteilung"
+    "Bessere Bildung und Schulsysteme",
+    "Bezahlbare Lebenshaltungskosten",
+    "Stärkerer Klimaschutz",
+    "Widerstand gegen die Wehrpflicht"
    ],
-   "response": "Politiker verschiedener Parteien äußerten Verständnis und erkannten die berechtigten Anliegen junger Menschen an. Einige Landespolitiker hatten nach Ausschreitungen bei früheren Kundgebungen zuvor Verbote von Demonstrationen erwogen, was Jugendforscher kritisierten.",
+   "response": "Quellen zufolge warnten Polizei und Verkehrsinformationsdienste aufgrund gleichzeitiger internationaler politischer Ereignisse vor weitreichenden Verkehrsbeschränkungen und Straßensperrungen in Berlin, während Forscher und Politiker über die angemessene politische Reaktion auf die Unzufriedenheit der Jugend debattierten.",
    "updates": [
-    "Die Bewegung „Gen Z regelt“ kündigte einen zweiten bundesweiten Protesttag für den kommenden Freitag in 40 Städten an, wobei in Berlin 15.000 angemeldet sind.",
-    "Die Behörden kündigten für Freitag in Berlin wegen gleichzeitiger internationaler Staatsbesuche und der bevorstehenden Demonstration massive Polizeieinsätze an.",
-    "Politiker verschiedener Parteien brachten im Vorfeld der für Freitag angesetzten Demonstrationen Unterstützung und Verständnis für den Frust der Jugend zum Ausdruck."
+    "Die Bewegung Gen Z regelt kündigte ihren zweiten bundesweiten Protesttag an, an dem sich Dutzende deutsche Städte beteiligen.",
+    "Die Behörden in Berlin kündigten erhebliche Verkehrsbehinderungen an und wiesen darauf hin, dass die Demonstration am Alexanderplatz beginnen soll.",
+    "Weitere Studenten- und Jugendgruppen aus mehreren Bundesländern bestätigten ihre Teilnahme an den Aktionen am Freitag.",
+    "Die Organisatoren betonten im Vorfeld der Kundgebungen ihre Forderungen nach Klimaschutz, Bildungsreform und Widerstand gegen die Wehrpflicht."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Allein für Berlin haben die Veranstalter indes schon 15.000 Demonstranten angemeldet."
+   }
   },
   "it": {
    "title": "L'alleanza Gen Z Regelt chiama a una manifestazione nazionale",
-   "seoTitle": "Protesta di Gen Z Regelt a Berlino",
+   "seoTitle": "Protesta dell'alleanza Gen Z Regelt a Berlino",
    "tea": {
-    "why": "I giovani protestano per chiedere una migliore rappresentanza politica, maggiore azione contro il cambiamento climatico e sollievo dall'aumento del costo della vita.",
-    "want": "Più fondi per le scuole, misure contro il costo della vita, giustizia sociale e maggiore protezione climatica.",
-    "changed": "18 novembre: Autorità e politici hanno espresso comprensione per le imminenti proteste giovanili, pur segnalando pesanti schieramenti di polizia per visite di Stato concomitanti a Berlino."
+    "why": "I manifestanti protestano contro l'alto costo della vita, il deterioramento dell'istruzione e un potenziale ritorno alla leva militare obbligatoria.",
+    "want": "I manifestanti chiedono una migliore istruzione, un costo della vita accessibile, una più forte azione per il clima e l'opposizione alla leva militare obbligatoria.",
+    "changed": "19 novembre: Gli organizzatori e i gruppi studenteschi di supporto hanno preparato manifestazioni a livello nazionale programmate in diverse città tedesche."
    },
-   "summary": "L'iniziativa giovanile \"Gen Z regelt\" ha indetto una giornata nazionale di manifestazioni in numerose città tedesche, tra cui Berlino, dove gli organizzatori hanno registrato 15.000 partecipanti. Le proteste si concentrano sulle richieste di una migliore istruzione e finanziamento scolastico, protezione climatica, vita accessibile e opposizione a una potenziale reintroduzione della coscrizione militare. Figure politiche di vari partiti, tra cui il cancelliere Friedrich Merz e rappresentanti sindacali, hanno riconosciuto le legittime preoccupazioni dei giovani, mentre la polizia e i sindacati si preparavano a imponenti operazioni di sicurezza nella capitale a causa di vertici internazionali di alto livello sovrapposti.",
+   "summary": "L'alleanza Gen Z Regelt, insieme a gruppi come Fridays for Future, la Conferenza federale degli studenti e la rete School Strike Against Conscription, ha indetto manifestazioni a livello nazionale in decine di città tedesche, inclusa Berlino. Secondo i notiziari, gli organizzatori hanno registrato migliaia di partecipanti a Berlino, dove era prevista una marcia da Alexanderplatz verso Mariannenplatz a Kreuzberg. Le proteste affrontano le preoccupazioni per l'aumento del costo della vita, l'inadeguatezza dei sistemi scolastici ed educativi, il cambiamento climatico e l'opposizione al ripristino del servizio militare. Mentre i ricercatori e i dati dei sondaggi hanno evidenziato una diffusa comprensione pubblica delle rimostranze dei giovani, le autorità e le reti di trasporto hanno avvertito di estese restrizioni al traffico a Berlino a causa di riunioni politiche internazionali concomitanti.",
    "demands": [
-    "Più finanziamenti per le scuole, supporto contro le dipendenze e psicoterapia",
-    "Opposizione alla coscrizione militare",
-    "Protezione dei diritti fondamentali invece di una sorveglianza ampliata",
-    "Protezione climatica coerente",
-    "Vita accessibile e più equa ripartizione degli oneri"
+    "Migliore istruzione e sistemi scolastici",
+    "Costo della vita accessibile",
+    "Più forte azione per il clima",
+    "Opposizione alla leva militare obbligatoria"
    ],
-   "response": "Politici di vari partiti hanno espresso comprensione e riconosciuto le legittime preoccupazioni dei giovani. Alcuni funzionari regionali avevano precedentemente preso in considerazione divieti di manifestazione in seguito alle violenze registrate in precedenti raduni, cosa che i ricercatori giovanili hanno criticato.",
+   "response": "Secondo le fonti, la polizia e i servizi di informazione sul traffico hanno avvertito di estese restrizioni al traffico e chiusure stradali a Berlino a causa di eventi politici internazionali concomitanti, mentre ricercatori e politici hanno dibattuto sulla risposta politica appropriata al malcontento giovanile.",
    "updates": [
-    "Il movimento \"Gen Z regelt\" ha annunciato una seconda giornata di protesta nazionale per il prossimo venerdì in 40 città, con 15.000 iscritti a Berlino.",
-    "Le autorità hanno annunciato imponenti schieramenti di polizia a Berlino per venerdì a causa di visite di Stato internazionali concomitanti e della prossima manifestazione.",
-    "Politici di vari partiti hanno espresso sostegno e comprensione per le lamentele della gioventù in vista delle manifestazioni programmate per venerdì."
+    "Il movimento Gen Z regelt ha annunciato la sua seconda giornata nazionale di protesta che coinvolge decine di città tedesche.",
+    "Le autorità di Berlino hanno annunciato importanti interruzioni del traffico, notando che la manifestazione è programmata per iniziare ad Alexanderplatz.",
+    "Ulteriori gruppi studenteschi e giovanili in diversi stati federali hanno confermato la loro partecipazione alle azioni di venerdì.",
+    "Gli organizzatori hanno sottolineato le richieste di azione per il clima, riforma dell'istruzione e opposizione alla leva obbligatoria prima dei raduni."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Solo per Berlino, gli organizzatori hanno già registrato 15.000 manifestanti."
+   }
   },
   "pt": {
-   "title": "A aliança Gen Z Regelt apela a uma manifestação nacional",
-   "seoTitle": "Protesto do Gen Z Regelt em Berlim",
+   "title": "A aliança Gen Z Regelt convoca uma manifestação nacional",
+   "seoTitle": "Protesto da aliança Gen Z Regelt em Berlim",
    "tea": {
-    "why": "Os jovens estão a protestar para exigir uma melhor representação política, maior ação sobre as alterações climáticas e alívio do aumento do custo de vida.",
-    "want": "Mais financiamento para as escolas, medidas contra o custo de vida, justiça social e maior proteção climática.",
-    "changed": "18 de nov.: As autoridades e os políticos exprimiram compreensão em relação aos próximos protestos juvenis, assinalando simultaneamente fortes destacamentos policiais devido a visitas de Estado concorrentes em Berlim."
+    "why": "Os manifestantes estão a protestar contra o elevado custo de vida, a deterioração da educação e um potencial regresso ao serviço militar obrigatório.",
+    "want": "Os manifestantes exigem uma melhor educação, um custo de vida acessível, uma ação climática mais forte e a oposição ao serviço militar obrigatório.",
+    "changed": "19 de novembro: Os organizadores e os grupos de estudantes de apoio prepararam manifestações a nível nacional agendadas em várias cidades alemãs."
    },
-   "summary": "A iniciativa juvenil \"Gen Z regelt\" convocou um dia nacional de manifestações em várias cidades alemãs, incluindo Berlim, onde os organizadores registaram 15.000 participantes. Os protestos centram-se em exigências de melhor educação e financiamento escolar, proteção climática, vida acessível e oposição a uma potencial reintrodução do recrutamento militar obrigatório. Figuras políticas de vários partidos, incluindo o chanceler Friedrich Merz e representantes sindicais, reconheceram as preocupações legítimas da juventude, enquanto a polícia e os sindicatos se preparavam para grandes operações de segurança na capital devido a cimeiras internacionais de alto nível sobrepostas.",
+   "summary": "A aliança Gen Z Regelt, juntamente com grupos como Fridays for Future, a Conferência Federal de Estudantes e a rede School Strike Against Conscription, convocou manifestações a nível nacional em dezenas de cidades alemãs, incluindo Berlim. Segundo as notícias, os organizadores registaram milhares de participantes em Berlim, onde estava planeada uma marcha de Alexanderplatz em direção a Mariannenplatz, em Kreuzberg. Os protestos abordam preocupações sobre o aumento do custo de vida, sistemas escolares e educativos inadequados, alterações climáticas e a oposição ao restabelecimento do serviço militar. Embora os investigadores e os números das sondagens tenham destacado uma compreensão pública generalizada das queixas dos jovens, as autoridades e as redes de transportes alertaram para extensas restrições de tráfego em Berlim devido a reuniões políticas internacionais simultâneas.",
    "demands": [
-    "Mais financiamento para escolas, apoio à toxicodependência e psicoterapia",
-    "Oposição ao recrutamento militar",
-    "Proteção dos direitos fundamentais em vez de vigilância alargada",
-    "Proteção climática consistente",
-    "Vida acessível e partilha de encargos mais justa"
+    "Melhor educação e sistemas escolares",
+    "Custo de vida acessível",
+    "Ação climática mais forte",
+    "Oposição ao serviço militar obrigatório"
    ],
-   "response": "Políticos de vários partidos exprimiram compreensão e reconheceram as preocupações legítimas dos jovens. Alguns responsáveis regionais tinham considerado anteriormente proibições de manifestações na sequência de violência em comícios anteriores, o que foi criticado por investigadores da juventude.",
+   "response": "Segundo as fontes, a polícia e os serviços de informação de tráfego alertaram para extensas restrições de tráfego e cortes de estradas em Berlim devido a eventos políticos internacionais simultâneos, enquanto investigadores e políticos debateram a resposta política adequada ao descontentamento dos jovens.",
    "updates": [
-    "O movimento \"Gen Z regelt\" anunciou um segundo dia de protesto nacional para a próxima sexta-feira em 40 cidades, com 15.000 inscritos em Berlim.",
-    "As autoridades anunciaram grandes destacamentos policiais em Berlim para sexta-feira devido a visitas de Estado internacionais concorrentes e à próxima manifestação.",
-    "Políticos de vários partidos manifestaram apoio e compreensão pelas reivindicações da juventude antes das manifestações agendadas para sexta-feira."
+    "O movimento Gen Z regelt anunciou o seu segundo dia nacional de protesto envolvendo dezenas de cidades alemãs.",
+    "As autoridades em Berlim anunciaram grandes perturbações no tráfego, observando que a manifestação está agendada para começar em Alexanderplatz.",
+    "Grupos adicionais de estudantes e jovens em vários estados federais confirmaram a sua participação nas ações de sexta-feira.",
+    "Os organizadores enfatizaram as exigências de ação climática, reforma da educação e oposição ao serviço militar obrigatório antes dos comícios."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Só para Berlim, os organizadores já registaram 15.000 manifestantes."
+   }
   },
   "nl": {
-   "title": "Gen Z Regelt-alliantie roept op tot landelijke demonstratie",
-   "seoTitle": "Berlijns Gen Z Regelt-protest",
+   "title": "Alliantie Gen Z Regelt roept op tot landelijke demonstratie",
+   "seoTitle": "Protest van alliantie Gen Z Regelt in Berlijn",
    "tea": {
-    "why": "Jonge mensen protesteren om te eisen dat er betere politieke vertegenwoordiging komt, meer actie tegen klimaatverandering en verlichting van de stijgende kosten van levensonderhoud.",
-    "want": "Meer financiering voor scholen, maatregelen tegen de kosten van levensonderhoud, sociale rechtvaardigheid en verhoogde klimaatbescherming.",
-    "changed": "18 nov.: Autoriteiten en politici toonden begrip voor de komende jeugdprotesten en wezen tegelijkertijd op zware politie-inzetten vanwege gelijktijdige staatsbezoeken in Berlijn."
+    "why": "Demonstranten protesteren tegen hoge kosten van levensonderhoud, verslechterend onderwijs en een mogelijke terugkeer naar de militaire dienstplicht.",
+    "want": "Demonstranten eisen beter onderwijs, betaalbaar wonen, sterkere klimaatactie en verzet tegen de militaire dienstplicht.",
+    "changed": "19 nov.: Organisatoren en ondersteunende studentengroepen bereidden landelijke demonstraties voor die gepland staan in meerdere Duitse steden."
    },
-   "summary": "Het jeugdinitiatief \"Gen Z regelt\" heeft opgeroepen tot een landelijke demonstratiedag in talrijke Duitse steden, waaronder Berlijn, waar organisatoren 15.000 deelnemers registreerden. De protesten richten zich op eisen voor beter onderwijs en schoolfinanciering, klimaatbescherming, betaalbaar wonen en verzet tegen een mogelijke herinvoering van de militaire dienstplicht. Politieke figuren uit verschillende partijen, waaronder bondskanselier Friedrich Merz en vakbondsvertegenwoordigers, erkenden de legitieme zorgen van de jeugd, terwijl de politie en vakbonden zich opmaakten voor grote veiligheidsoperaties in de hoofdstad vanwege samenvallende internationale topontmoetingen op hoog niveau.",
+   "summary": "De alliantie Gen Z Regelt riep, samen met groepen zoals Fridays for Future, de Federale Studentenconferentie en het netwerk School Strike Against Conscription, op tot landelijke demonstraties in tientallen Duitse steden, waaronder Berlijn. Volgens nieuwsberichten registreerden de organisatoren duizenden deelnemers in Berlijn, waar een mars gepland was van Alexanderplatz naar Mariannenplatz in Kreuzberg. De protesten adresseren zorgen over de stijgende kosten van levensonderhoud, ontoereikende school- en onderwijssystemen, klimaatverandering en verzet tegen het herinvoeren van de militaire dienstplicht. Terwijl onderzoekers en peilingen wezen op breed begrip in de samenleving voor de grieven van jongeren, waarschuwden autoriteiten en vervoersnetwerken voor uitgebreide verkeersbeperkingen in Berlijn vanwege gelijktijdige internationale politieke bijeenkomsten.",
    "demands": [
-    "Meer financiering voor scholen, verslavingszorg en psychotherapie",
-    "Verzet tegen de militaire dienstplicht",
-    "Bescherming van grondrechten in plaats van uitgebreide surveillance",
-    "Consequente klimaatbescherming",
-    "Betaalbaar leven en eerlijkere lastenverdeling"
+    "Beter onderwijs en schoolsystemen",
+    "Betaalbare kosten van levensonderhoud",
+    "Sterkere klimaatactie",
+    "Verzet tegen de militaire dienstplicht"
    ],
-   "response": "Politici uit verschillende partijen toonden begrip en erkenden de legitieme zorgen van jonge mensen. Sommige regionale functionarissen hadden eerder demonstratieverboden overwogen na geweld bij eerdere bijeenkomsten, wat door jeugdonderzoekers werd bekritiseerd.",
+   "response": "Volgens de bronnen waarschuwden de politie en verkeersinformatiediensten voor wijdverbreide verkeersbeperkingen en wegafsluitingen in Berlijn vanwege gelijktijdige internationale politieke evenementen, terwijl onderzoekers en politici debatteerden over de passende politieke reactie op de ontevredenheid onder jongeren.",
    "updates": [
-    "De beweging \"Gen Z regelt\" kondigde een tweede landelijke protestdag aan voor aankomende vrijdag in 40 steden, met 15.000 geregistreerden in Berlijn.",
-    "Autoriteiten kondigden grote politie-inzetten in Berlijn aan voor vrijdag vanwege samenvallende internationale staatsbezoeken en de aanstaande demonstratie.",
-    "Politici uit verschillende partijen spraken steun en begrip uit voor de grieven van de jeugd voorafgaand aan de geplande demonstraties van vrijdag."
+    "De beweging Gen Z regelt kondigde haar tweede landelijke protestdag aan waarbij tientallen Duitse steden betrokken zijn.",
+    "De autoriteiten in Berlijn kondigden grote verkeershinder aan en merkten op dat de demonstratie gepland staat om te beginnen op Alexanderplatz.",
+    "Extra studenten- en jongerengroepen in meerdere deelstaten bevestigden hun deelname aan de acties van vrijdag.",
+    "De organisatoren benadrukten de eisen voor klimaatactie, onderwijshervorming en verzet tegen de dienstplicht voorafgaand aan de bijeenkomsten."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Alleen al voor Berlijn hebben de organisatoren 15.000 demonstranten geregistreerd."
+   }
   }
  },
  "distinctFrom": [
   "e51ab92c371",
   "eff08f756af",
-  "e49a00a03eb"
+  "e49a00a03eb",
+  "ee9dd973cd7"
  ]
 }
