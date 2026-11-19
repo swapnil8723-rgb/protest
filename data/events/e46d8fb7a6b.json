@@ -23,33 +23,36 @@
  "status": "ongoing",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "top-10"
+ ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Workers are protesting stalled collective bargaining negotiations and seeking better pay and job security in the metal and electrical industry.",
-  "want": "A 5 percent wage increase over 12 months, job security, and investment guarantees for production sites.",
-  "changed": "Nov 19: IG Metall announced full-day warning strikes across Berlin, Brandenburg, and Saxony for Friday to increase pressure on employers."
+  "why": "Workers are protesting stalled collective bargaining negotiations regarding wages, job security, and site closures in the industrial sector.",
+  "want": "A 5 percent wage increase over 12 months, job security guarantees, profit sharing, and better conditions for lower-paid workers.",
+  "changed": "Nov 19: IG Metall announced 24-hour warning strikes across Berlin, Brandenburg, and Saxony for Friday, Nov 20."
  },
- "summary": "Since November 1, 2026, the industrial union IG Metall has organised nationwide warning strikes and protests involving hundreds of thousands of workers in the metal, electrical, and automotive sectors. The action follows the breakdown of collective bargaining negotiations. The union demands a 5 percent wage increase over a 12-month period, improved conditions for lower-paid workers, and firm guarantees regarding job security and the maintenance of production sites. Employers have offered a 1.3 percent increase starting in July 2028 alongside a one-time payment, which the union rejected as insufficient. Following failed negotiations, the union has escalated tactics, moving from short warning strikes to planned 24-hour work stoppages across multiple German states, including Berlin. The union reports that over 460,000 workers have participated in actions to date.",
+ "summary": "Since November 1, 2026, the IG Metall union has organised nationwide industrial action involving hundreds of thousands of workers in the automotive, mechanical, and electrical sectors. Following the expiration of a collective agreement, workers have participated in warning strikes and demonstrations at over 2,000 company locations across Germany. The union demands a 5 percent wage increase over 12 months, alongside job security guarantees and profit-sharing schemes. Employers have proposed a 1.3 percent increase effective in 2028 and a one-off payment, which the union rejected as insufficient. As negotiations remain deadlocked, the union has escalated tactics, moving from short warning strikes to 24-hour work stoppages in several regions, including Berlin, Brandenburg, and Saxony. Union leaders state these actions aim to increase pressure on employers to provide a more substantial wage offer.",
  "organizers": [
   "IG Metall"
  ],
  "demands": [
   "5 percent wage increase over 12 months",
   "Job security guarantees",
-  "Investment in production sites",
+  "Site closure protection",
   "Profit sharing for employees",
-  "Better conditions for lower-paid workers"
+  "Improved conditions for lower pay grades"
  ],
- "response": "Employers have rejected the union's demands, citing economic pressures, and have proposed a 1.3 percent wage increase effective from July 2028, which the union has characterized as a real-terms pay cut.",
+ "response": "Employers have rejected the union's demands, offering a 1.3 percent wage increase starting in July 2028 and a one-off payment, arguing that the industry faces economic pressure and competition.",
  "numbers": {
   "crowd": {
-   "value": 464000,
-   "text": "The union reported that 464,000 workers have participated in warning strikes as of mid-November.",
+   "value": 413000,
+   "text": "Over 413,000 workers participated in strikes and protests nationwide according to union data.",
    "sources": [
-    7
+    3,
+    4
    ]
   }
  },
@@ -65,21 +68,28 @@
   },
   {
    "at": "2026-11-04",
-   "text": "IG Metall announced the third round of negotiations in Berlin and Brandenburg, rejecting the employers' offer.",
+   "text": "IG Metall rejected the employers' offer of a 1.3 percent increase in 2028 and a one-off payment.",
    "sources": [
     1
    ]
   },
   {
+   "at": "2026-11-09",
+   "text": "IG Metall called for strikes at a Mercedes-Benz factory in Berlin due to stalled negotiations.",
+   "sources": [
+    5
+   ]
+  },
+  {
    "at": "2026-11-12",
-   "text": "IG Metall announced plans for full-day strikes, a tactic not used since 2018.",
+   "text": "The union announced plans for 24-hour work stoppages, a significant escalation in the industrial action.",
    "sources": [
     6
    ]
   },
   {
    "at": "2026-11-19",
-   "text": "The union called for full-day warning strikes in Berlin, Brandenburg, and Saxony for the following Friday.",
+   "text": "IG Metall called for 24-hour warning strikes in Berlin, Brandenburg, and Saxony for Friday, November 20.",
    "sources": [
     8
    ]
@@ -146,13 +156,13 @@
  "conflicts": [],
  "confidence": 0.9,
  "publishers": 8,
- "reports24h": 1,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-04T13:50:58.508Z",
  "lastReportAt": "2026-11-19T11:58:45.000Z",
- "lastCheckedAt": "2026-11-19T12:56:22.120Z",
- "updatedAt": "2026-11-19T12:55:37.126Z",
+ "lastCheckedAt": "2026-11-19T16:56:11.678Z",
+ "updatedAt": "2026-11-19T16:53:06.922Z",
  "searchedAt": "2026-11-05T09:50:44.560Z",
  "responseSources": [
   1,
@@ -164,235 +174,243 @@
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-19T12:55:37.126Z",
- "summaryOf": "a7611ad49f97",
+ "summarizedAt": "2026-11-19T16:53:06.922Z",
+ "summaryOf": "3e93389d764e",
  "publishedAt": "2026-11-07T09:17:42.472Z",
  "i18n": {
-  "of": "b0d3403f04dcf9e5",
-  "at": "2026-11-19T12:56:40.501Z",
+  "of": "eecd4f71b4f86acc",
+  "at": "2026-11-19T16:56:54.569Z",
   "tries": 1,
   "hi": {
-   "title": "बर्लिन में वेतन विवाद को लेकर IG Metall के औद्योगिक श्रमिकों की हड़ताल",
+   "title": "बर्लिन में वेतन विवाद को लेकर IG Metall औद्योगिक श्रमिकों की हड़ताल",
    "seoTitle": "बर्लिन IG Metall औद्योगिक हड़ताल",
    "tea": {
-    "why": "श्रमिक रुकी हुई सामूहिक सौदेबाजी वार्ता का विरोध कर रहे हैं और धातु एवं विद्युत उद्योग में बेहतर वेतन और नौकरी की सुरक्षा की मांग कर रहे हैं।",
-    "want": "12 महीनों में 5 प्रतिशत वेतन वृद्धि, नौकरी की सुरक्षा, और उत्पादन स्थलों के लिए निवेश की गारंटी।",
-    "changed": "19 नवंबर: IG Metall ने नियोक्ताओं पर दबाव बढ़ाने के लिए शुक्रवार को बर्लिन, ब्रैंडेनबर्ग और सैक्सोनी में पूरे दिन की चेतावनी हड़ताल की घोषणा की।"
+    "why": "श्रमिक औद्योगिक क्षेत्र में वेतन, नौकरी की सुरक्षा और साइट बंद होने से संबंधित रुकी हुई सामूहिक सौदेबाजी वार्ता के विरोध में प्रदर्शन कर रहे हैं।",
+    "want": "12 महीनों में 5 प्रतिशत वेतन वृद्धि, नौकरी की सुरक्षा की गारंटी, लाभ में हिस्सेदारी और कम वेतन पाने वाले श्रमिकों के लिए बेहतर स्थिति।",
+    "changed": "19 नवंबर: IG Metall ने शुक्रवार, 20 नवंबर के लिए बर्लिन, ब्रैंडेनबर्ग और सैक्सोनी में 24 घंटे की चेतावनी हड़ताल की घोषणा की।"
    },
-   "summary": "1 नवंबर, 2026 से, औद्योगिक संघ IG Metall ने धातु, विद्युत और ऑटोमोटिव क्षेत्रों में सैकड़ों हजारों श्रमिकों को शामिल करते हुए राष्ट्रव्यापी चेतावनी हड़ताल और विरोध प्रदर्शन आयोजित किए हैं। यह कार्रवाई सामूहिक सौदेबाजी वार्ता के विफल होने के बाद हुई है। संघ 12 महीने की अवधि में 5 प्रतिशत वेतन वृद्धि, कम वेतन पाने वाले श्रमिकों के लिए बेहतर स्थिति, और नौकरी की सुरक्षा तथा उत्पादन स्थलों के रखरखाव के संबंध में ठोस गारंटी की मांग करता है। नियोक्ताओं ने जुलाई 2028 से 1.3 प्रतिशत वृद्धि के साथ एकमुश्त भुगतान की पेशकश की है, जिसे संघ ने अपर्याप्त बताते हुए खारिज कर दिया। विफल वार्ता के बाद, संघ ने अपनी रणनीति को तेज कर दिया है, और बर्लिन सहित कई जर्मन राज्यों में छोटी चेतावनी हड़तालों से 24 घंटे के कार्य बहिष्कार की योजना बनाई है। संघ की रिपोर्ट है कि अब तक 460,000 से अधिक श्रमिक इन कार्यों में भाग ले चुके हैं।",
+   "summary": "1 नवंबर, 2026 से, IG Metall यूनियन ने ऑटोमोटिव, मैकेनिकल और इलेक्ट्रिकल क्षेत्रों में लाखों श्रमिकों को शामिल करते हुए राष्ट्रव्यापी औद्योगिक कार्रवाई आयोजित की है। सामूहिक समझौते की समाप्ति के बाद, श्रमिकों ने जर्मनी भर में 2,000 से अधिक कंपनी स्थानों पर चेतावनी हड़ताल और प्रदर्शनों में भाग लिया है। यूनियन 12 महीनों में 5 प्रतिशत वेतन वृद्धि, नौकरी की सुरक्षा की गारंटी और लाभ-साझाकरण योजनाओं की मांग कर रही है। नियोक्ताओं ने 2028 में प्रभावी 1.3 प्रतिशत वृद्धि और एकमुश्त भुगतान का प्रस्ताव दिया है, जिसे यूनियन ने अपर्याप्त बताते हुए खारिज कर दिया है। चूंकि वार्ता गतिरोध में है, यूनियन ने बर्लिन, ब्रैंडेनबर्ग और सैक्सोनी सहित कई क्षेत्रों में छोटी चेतावनी हड़तालों से 24 घंटे के कार्य रोक तक अपनी रणनीति को तेज कर दिया है। यूनियन नेताओं का कहना है कि इन कार्रवाइयों का उद्देश्य नियोक्ताओं पर अधिक ठोस वेतन प्रस्ताव देने के लिए दबाव बढ़ाना है।",
    "demands": [
     "12 महीनों में 5 प्रतिशत वेतन वृद्धि",
     "नौकरी की सुरक्षा की गारंटी",
-    "उत्पादन स्थलों में निवेश",
-    "कर्मचारियों के लिए लाभ साझाकरण",
-    "कम वेतन पाने वाले श्रमिकों के लिए बेहतर स्थिति"
+    "साइट बंद होने से सुरक्षा",
+    "कर्मचारियों के लिए लाभ में हिस्सेदारी",
+    "कम वेतन ग्रेड के लिए बेहतर स्थिति"
    ],
-   "response": "नियोक्ताओं ने आर्थिक दबाव का हवाला देते हुए संघ की मांगों को खारिज कर दिया है, और जुलाई 2028 से प्रभावी 1.3 प्रतिशत वेतन वृद्धि का प्रस्ताव दिया है, जिसे संघ ने वास्तविक वेतन कटौती बताया है।",
+   "response": "नियोक्ताओं ने यूनियन की मांगों को खारिज कर दिया है, जुलाई 2028 से 1.3 प्रतिशत वेतन वृद्धि और एकमुश्त भुगतान की पेशकश की है, यह तर्क देते हुए कि उद्योग आर्थिक दबाव और प्रतिस्पर्धा का सामना कर रहा है।",
    "updates": [
     "पिछले सामूहिक समझौते की समाप्ति के बाद जर्मनी भर में आधी रात को चेतावनी हड़ताल शुरू हुई।",
-    "IG Metall ने बर्लिन और ब्रैंडेनबर्ग में वार्ता के तीसरे दौर की घोषणा की और नियोक्ताओं के प्रस्ताव को खारिज कर दिया।",
-    "IG Metall ने पूरे दिन की हड़ताल की योजना की घोषणा की, ऐसी रणनीति जिसका उपयोग 2018 के बाद से नहीं किया गया था।",
-    "संघ ने अगले शुक्रवार के लिए बर्लिन, ब्रैंडेनबर्ग और सैक्सोनी में पूरे दिन की चेतावनी हड़ताल का आह्वान किया।"
+    "IG Metall ने 2028 में 1.3 प्रतिशत वृद्धि और एकमुश्त भुगतान के नियोक्ताओं के प्रस्ताव को खारिज कर दिया।",
+    "IG Metall ने रुकी हुई वार्ता के कारण बर्लिन में मर्सिडीज-बेंज फैक्ट्री में हड़ताल का आह्वान किया।",
+    "यूनियन ने 24 घंटे के कार्य रोक की योजना की घोषणा की, जो औद्योगिक कार्रवाई में एक महत्वपूर्ण वृद्धि है।",
+    "IG Metall ने शुक्रवार, 20 नवंबर के लिए बर्लिन, ब्रैंडेनबर्ग और सैक्सोनी में 24 घंटे की चेतावनी हड़ताल का आह्वान किया।"
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "संघ ने बताया कि नवंबर के मध्य तक 464,000 श्रमिकों ने चेतावनी हड़ताल में भाग लिया है।"
+    "crowd": "यूनियन के आंकड़ों के अनुसार, राष्ट्रव्यापी हड़तालों और विरोध प्रदर्शनों में 413,000 से अधिक श्रमिकों ने भाग लिया।"
    }
   },
   "mr": {
-   "title": "बर्लिनमध्ये वेतनवाढीच्या मागणीसाठी IG Metall च्या औद्योगिक कामगारांचा संप",
+   "title": "बर्लिनमध्ये वेतनवाढीच्या वादावरून IG Metall औद्योगिक कामगारांचा संप",
    "seoTitle": "बर्लिन IG Metall औद्योगिक संप",
    "tea": {
-    "why": "कामगार प्रलंबित सामूहिक वाटाघाटींचा निषेध करत आहेत आणि धातू व विद्युत उद्योगात अधिक वेतन आणि नोकरीच्या सुरक्षिततेची मागणी करत आहेत.",
-    "want": "12 महिन्यांत 5 टक्के वेतनवाढ, नोकरीची सुरक्षा आणि उत्पादन केंद्रांसाठी गुंतवणुकीची हमी.",
-    "changed": "19 नोव्हेंबर: IG Metall ने नियोक्त्यांवर दबाव वाढवण्यासाठी शुक्रवारी बर्लिन, ब्रँडेनबर्ग आणि सॅक्सनीमध्ये पूर्ण दिवसाच्या इशारा संपाची घोषणा केली."
+    "why": "कामगार औद्योगिक क्षेत्रातील वेतन, नोकरीची सुरक्षा आणि कारखाने बंद होण्याबाबत रखडलेल्या सामूहिक वाटाघाटींच्या विरोधात निदर्शने करत आहेत.",
+    "want": "12 महिन्यांत 5 टक्के वेतनवाढ, नोकरीच्या सुरक्षेची हमी, नफ्यातील वाटा आणि कमी पगार असलेल्या कामगारांसाठी चांगल्या अटी.",
+    "changed": "19 नोव्हेंबर: IG Metall ने शुक्रवार, 20 नोव्हेंबरसाठी बर्लिन, ब्रँडेनबर्ग आणि सॅक्सनीमध्ये 24 तासांच्या इशारा संपाची घोषणा केली."
    },
-   "summary": "1 नोव्हेंबर 2026 पासून, औद्योगिक संघटना IG Metall ने धातू, विद्युत आणि ऑटोमोटिव्ह क्षेत्रातील शेकडो हजारो कामगारांना सहभागी करून घेत देशव्यापी इशारा संप आणि निदर्शने आयोजित केली आहेत. ही कृती सामूहिक वाटाघाटी अयशस्वी झाल्यानंतर करण्यात आली आहे. संघटना 12 महिन्यांच्या कालावधीत 5 टक्के वेतनवाढ, कमी पगार असलेल्या कामगारांसाठी सुधारित अटी आणि नोकरीची सुरक्षा व उत्पादन केंद्रे टिकवून ठेवण्याबाबत ठोस हमीची मागणी करत आहे. नियोक्त्यांनी जुलै 2028 पासून 1.3 टक्के वाढ आणि एकरकमी भरपाईची ऑफर दिली आहे, जी संघटनेने अपुरी असल्याचे सांगून नाकारली आहे. वाटाघाटी अयशस्वी झाल्यानंतर, संघटनेने आपली रणनीती तीव्र केली असून, बर्लिनसह अनेक जर्मन राज्यांमध्ये लहान इशारा संपावरून 24 तासांच्या कामाच्या संपाची योजना आखली आहे. संघटनेच्या अहवालानुसार, आतापर्यंत 460,000 हून अधिक कामगारांनी या आंदोलनात सहभाग घेतला आहे.",
+   "summary": "1 नोव्हेंबर 2026 पासून, IG Metall युनियनने ऑटोमोटिव्ह, मेकॅनिकल आणि इलेक्ट्रिकल क्षेत्रातील लाखो कामगारांना सहभागी करून घेत देशव्यापी औद्योगिक कृती आयोजित केली आहे. सामूहिक करार संपल्यानंतर, कामगारांनी जर्मनीमधील 2,000 हून अधिक कंपनीच्या ठिकाणी इशारा संप आणि निदर्शनांमध्ये भाग घेतला आहे. युनियन 12 महिन्यांत 5 टक्के वेतनवाढ, नोकरीच्या सुरक्षेची हमी आणि नफा वाटप योजनांची मागणी करत आहे. नियोक्त्यांनी 2028 मध्ये लागू होणारी 1.3 टक्के वाढ आणि एकरकमी पेमेंटचा प्रस्ताव दिला आहे, जो युनियनने अपुरा असल्याचे सांगून फेटाळला आहे. वाटाघाटी रखडल्यामुळे, युनियनने बर्लिन, ब्रँडेनबर्ग आणि सॅक्सनीसह अनेक प्रदेशांमध्ये छोट्या इशारा संपावरून 24 तासांच्या काम बंद आंदोलनापर्यंत आपली रणनीती तीव्र केली आहे. युनियन नेत्यांचे म्हणणे आहे की या कृतींचा उद्देश नियोक्त्यांवर अधिक ठोस वेतन प्रस्ताव देण्यासाठी दबाव वाढवणे हा आहे.",
    "demands": [
     "12 महिन्यांत 5 टक्के वेतनवाढ",
-    "नोकरीच्या सुरक्षिततेची हमी",
-    "उत्पादन केंद्रांमध्ये गुंतवणूक",
-    "कर्मचाऱ्यांसाठी नफा वाटप",
-    "कमी पगार असलेल्या कामगारांसाठी सुधारित अटी"
+    "नोकरीच्या सुरक्षेची हमी",
+    "कारखाने बंद होण्यापासून संरक्षण",
+    "कर्मचाऱ्यांसाठी नफ्यातील वाटा",
+    "कमी वेतन श्रेणीसाठी सुधारित अटी"
    ],
-   "response": "नियोक्त्यांनी आर्थिक दबावाचे कारण देत संघटनेच्या मागण्या फेटाळल्या आहेत आणि जुलै 2028 पासून 1.3 टक्के वेतनवाढीचा प्रस्ताव दिला आहे, ज्याला संघटनेने वास्तविक वेतन कपात असे म्हटले आहे.",
+   "response": "नियोक्त्यांनी युनियनच्या मागण्या फेटाळल्या आहेत आणि जुलै 2028 पासून 1.3 टक्के वेतनवाढ आणि एकरकमी पेमेंटची ऑफर दिली आहे, असा युक्तिवाद केला आहे की उद्योग आर्थिक दबाव आणि स्पर्धेचा सामना करत आहे.",
    "updates": [
-    "मागील सामूहिक करार संपल्यानंतर जर्मनीभर मध्यरात्री इशारा संप सुरू झाले.",
-    "IG Metall ने बर्लिन आणि ब्रँडेनबर्गमध्ये वाटाघाटींच्या तिसऱ्या फेरीची घोषणा केली आणि नियोक्त्यांचा प्रस्ताव नाकारला.",
-    "IG Metall ने पूर्ण दिवसाच्या संपाची योजना जाहीर केली, अशी रणनीती 2018 नंतर वापरली गेली नव्हती.",
-    "संघटनेने पुढील शुक्रवारी बर्लिन, ब्रँडेनबर्ग आणि सॅक्सनीमध्ये पूर्ण दिवसाच्या इशारा संपाचे आवाहन केले."
+    "मागील सामूहिक करार संपल्यानंतर जर्मनीमध्ये मध्यरात्री इशारा संप सुरू झाले.",
+    "IG Metall ने 2028 मधील 1.3 टक्के वाढ आणि एकरकमी पेमेंटचा नियोक्त्यांचा प्रस्ताव फेटाळला.",
+    "IG Metall ने रखडलेल्या वाटाघाटींमुळे बर्लिनमधील मर्सिडीज-बेंज कारखान्यात संपाचे आवाहन केले.",
+    "युनियनने 24 तासांच्या काम बंद आंदोलनाची योजना जाहीर केली, जी औद्योगिक कृतीमधील एक महत्त्वपूर्ण वाढ आहे.",
+    "IG Metall ने शुक्रवार, 20 नोव्हेंबरसाठी बर्लिन, ब्रँडेनबर्ग आणि सॅक्सनीमध्ये 24 तासांच्या इशारा संपाचे आवाहन केले."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "संघटनेच्या अहवालानुसार, नोव्हेंबरच्या मध्यापर्यंत 464,000 कामगारांनी इशारा संपात सहभाग घेतला आहे."
+    "crowd": "युनियनच्या आकडेवारीनुसार, देशव्यापी संप आणि निदर्शनांमध्ये 413,000 हून अधिक कामगारांनी भाग घेतला."
    }
   },
   "es": {
    "title": "Trabajadores industriales de IG Metall realizan huelgas por disputa salarial en Berlín",
    "seoTitle": "Huelgas industriales IG Metall Berlín",
    "tea": {
-    "why": "Los trabajadores protestan por el estancamiento de las negociaciones colectivas y buscan mejores salarios y seguridad laboral en la industria metalúrgica y eléctrica.",
-    "want": "Un aumento salarial del 5 por ciento en 12 meses, seguridad laboral y garantías de inversión para los centros de producción.",
-    "changed": "19 de noviembre: IG Metall anunció huelgas de advertencia de día completo en Berlín, Brandeburgo y Sajonia para el viernes con el fin de aumentar la presión sobre los empleadores."
+    "why": "Los trabajadores protestan por las estancadas negociaciones de convenios colectivos sobre salarios, seguridad laboral y cierres de plantas en el sector industrial.",
+    "want": "Un aumento salarial del 5 por ciento en 12 meses, garantías de seguridad laboral, participación en los beneficios y mejores condiciones para los trabajadores con salarios más bajos.",
+    "changed": "19 de noviembre: IG Metall anunció huelgas de advertencia de 24 horas en Berlín, Brandeburgo y Sajonia para el viernes 20 de noviembre."
    },
-   "summary": "Desde el 1 de noviembre de 2026, el sindicato industrial IG Metall ha organizado huelgas de advertencia y protestas a nivel nacional que involucran a cientos de miles de trabajadores en los sectores metalúrgico, eléctrico y automotriz. La acción sigue al colapso de las negociaciones colectivas. El sindicato exige un aumento salarial del 5 por ciento en un período de 12 meses, mejores condiciones para los trabajadores con salarios más bajos y garantías firmes sobre la seguridad laboral y el mantenimiento de los centros de producción. Los empleadores han ofrecido un aumento del 1.3 por ciento a partir de julio de 2028 junto con un pago único, que el sindicato rechazó por considerarlo insuficiente. Tras el fracaso de las negociaciones, el sindicato ha intensificado las tácticas, pasando de breves huelgas de advertencia a paros laborales planificados de 24 horas en varios estados alemanes, incluido Berlín. El sindicato informa que más de 460,000 trabajadores han participado en las acciones hasta la fecha.",
+   "summary": "Desde el 1 de noviembre de 2026, el sindicato IG Metall ha organizado acciones industriales a nivel nacional que involucran a cientos de miles de trabajadores en los sectores automotriz, mecánico y eléctrico. Tras la expiración de un convenio colectivo, los trabajadores han participado en huelgas de advertencia y manifestaciones en más de 2,000 ubicaciones de empresas en toda Alemania. El sindicato exige un aumento salarial del 5 por ciento en 12 meses, junto con garantías de seguridad laboral y planes de participación en los beneficios. Los empleadores han propuesto un aumento del 1.3 por ciento efectivo en 2028 y un pago único, que el sindicato rechazó por considerarlo insuficiente. Como las negociaciones siguen estancadas, el sindicato ha intensificado las tácticas, pasando de breves huelgas de advertencia a paros laborales de 24 horas en varias regiones, incluidas Berlín, Brandeburgo y Sajonia. Los líderes sindicales afirman que estas acciones tienen como objetivo aumentar la presión sobre los empleadores para que presenten una oferta salarial más sustancial.",
    "demands": [
     "Aumento salarial del 5 por ciento en 12 meses",
     "Garantías de seguridad laboral",
-    "Inversión en centros de producción",
+    "Protección contra el cierre de plantas",
     "Participación en los beneficios para los empleados",
-    "Mejores condiciones para los trabajadores con salarios más bajos"
+    "Mejores condiciones para los grados salariales más bajos"
    ],
-   "response": "Los empleadores han rechazado las demandas del sindicato, citando presiones económicas, y han propuesto un aumento salarial del 1.3 por ciento efectivo a partir de julio de 2028, lo que el sindicato ha calificado como un recorte salarial en términos reales.",
+   "response": "Los empleadores han rechazado las demandas del sindicato, ofreciendo un aumento salarial del 1.3 por ciento a partir de julio de 2028 y un pago único, argumentando que la industria enfrenta presión económica y competencia.",
    "updates": [
     "Las huelgas de advertencia comenzaron a medianoche en toda Alemania tras la expiración del convenio colectivo anterior.",
-    "IG Metall anunció la tercera ronda de negociaciones en Berlín y Brandeburgo, rechazando la oferta de los empleadores.",
-    "IG Metall anunció planes para huelgas de día completo, una táctica no utilizada desde 2018.",
-    "El sindicato convocó huelgas de advertencia de día completo en Berlín, Brandeburgo y Sajonia para el viernes siguiente."
+    "IG Metall rechazó la oferta de los empleadores de un aumento del 1.3 por ciento en 2028 y un pago único.",
+    "IG Metall convocó huelgas en una fábrica de Mercedes-Benz en Berlín debido al estancamiento de las negociaciones.",
+    "El sindicato anunció planes para paros laborales de 24 horas, una escalada significativa en la acción industrial.",
+    "IG Metall convocó huelgas de advertencia de 24 horas en Berlín, Brandeburgo y Sajonia para el viernes 20 de noviembre."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "El sindicato informó que 464,000 trabajadores han participado en huelgas de advertencia hasta mediados de noviembre."
+    "crowd": "Más de 413,000 trabajadores participaron en huelgas y protestas a nivel nacional según datos del sindicato."
    }
   },
   "fr": {
    "title": "Les travailleurs industriels d'IG Metall font grève pour un litige salarial à Berlin",
    "seoTitle": "Grèves industrielles IG Metall Berlin",
    "tea": {
-    "why": "Les travailleurs protestent contre l'impasse des négociations collectives et réclament de meilleurs salaires et une sécurité de l'emploi dans l'industrie métallurgique et électrique.",
-    "want": "Une augmentation de salaire de 5 pour cent sur 12 mois, la sécurité de l'emploi et des garanties d'investissement pour les sites de production.",
-    "changed": "19 novembre : IG Metall a annoncé des grèves d'avertissement d'une journée complète à Berlin, dans le Brandebourg et en Saxe pour vendredi afin d'accroître la pression sur les employeurs."
+    "why": "Les travailleurs manifestent contre le blocage des négociations collectives concernant les salaires, la sécurité de l'emploi et les fermetures de sites dans le secteur industriel.",
+    "want": "Une augmentation de salaire de 5 pour cent sur 12 mois, des garanties de sécurité de l'emploi, un intéressement aux bénéfices et de meilleures conditions pour les bas salaires.",
+    "changed": "19 novembre : IG Metall a annoncé des grèves d'avertissement de 24 heures à Berlin, dans le Brandebourg et en Saxe pour le vendredi 20 novembre."
    },
-   "summary": "Depuis le 1er novembre 2026, le syndicat industriel IG Metall a organisé des grèves d'avertissement et des manifestations nationales impliquant des centaines de milliers de travailleurs dans les secteurs de la métallurgie, de l'électricité et de l'automobile. Cette action fait suite à l'échec des négociations collectives. Le syndicat exige une augmentation de salaire de 5 pour cent sur une période de 12 mois, de meilleures conditions pour les travailleurs les moins bien rémunérés, ainsi que des garanties fermes concernant la sécurité de l'emploi et le maintien des sites de production. Les employeurs ont proposé une augmentation de 1,3 pour cent à partir de juillet 2028 accompagnée d'un paiement unique, ce que le syndicat a rejeté comme étant insuffisant. Après l'échec des négociations, le syndicat a intensifié ses tactiques, passant de courtes grèves d'avertissement à des arrêts de travail prévus de 24 heures dans plusieurs États allemands, dont Berlin. Le syndicat rapporte que plus de 460 000 travailleurs ont participé aux actions à ce jour.",
+   "summary": "Depuis le 1er novembre 2026, le syndicat IG Metall a organisé des actions industrielles à l'échelle nationale impliquant des centaines de milliers de travailleurs dans les secteurs de l'automobile, de la mécanique et de l'électricité. Suite à l'expiration d'une convention collective, les travailleurs ont participé à des grèves d'avertissement et à des manifestations sur plus de 2 000 sites d'entreprises à travers l'Allemagne. Le syndicat exige une augmentation de salaire de 5 pour cent sur 12 mois, ainsi que des garanties de sécurité de l'emploi et des plans d'intéressement aux bénéfices. Les employeurs ont proposé une augmentation de 1,3 pour cent effective en 2028 et un paiement unique, que le syndicat a rejeté comme étant insuffisant. Alors que les négociations restent dans l'impasse, le syndicat a intensifié ses tactiques, passant de courtes grèves d'avertissement à des arrêts de travail de 24 heures dans plusieurs régions, dont Berlin, le Brandebourg et la Saxe. Les dirigeants syndicaux déclarent que ces actions visent à accroître la pression sur les employeurs pour qu'ils présentent une offre salariale plus substantielle.",
    "demands": [
     "Augmentation de salaire de 5 pour cent sur 12 mois",
     "Garanties de sécurité de l'emploi",
-    "Investissement dans les sites de production",
-    "Participation aux bénéfices pour les employés",
-    "Meilleures conditions pour les travailleurs les moins bien rémunérés"
+    "Protection contre la fermeture de sites",
+    "Intéressement aux bénéfices pour les employés",
+    "Amélioration des conditions pour les bas salaires"
    ],
-   "response": "Les employeurs ont rejeté les demandes du syndicat, invoquant des pressions économiques, et ont proposé une augmentation de salaire de 1,3 pour cent effective à partir de juillet 2028, ce que le syndicat a qualifié de baisse de salaire réelle.",
+   "response": "Les employeurs ont rejeté les demandes du syndicat, proposant une augmentation de salaire de 1,3 pour cent à partir de juillet 2028 et un paiement unique, arguant que l'industrie fait face à une pression économique et à la concurrence.",
    "updates": [
-    "Les grèves d'avertissement ont commencé à minuit dans toute l'Allemagne après l'expiration de la convention collective précédente.",
-    "IG Metall a annoncé le troisième cycle de négociations à Berlin et dans le Brandebourg, rejetant l'offre des employeurs.",
-    "IG Metall a annoncé des plans pour des grèves d'une journée complète, une tactique non utilisée depuis 2018.",
-    "Le syndicat a appelé à des grèves d'avertissement d'une journée complète à Berlin, dans le Brandebourg et en Saxe pour le vendredi suivant."
+    "Les grèves d'avertissement ont commencé à minuit à travers l'Allemagne suite à l'expiration de la convention collective précédente.",
+    "IG Metall a rejeté l'offre des employeurs d'une augmentation de 1,3 pour cent en 2028 et d'un paiement unique.",
+    "IG Metall a appelé à des grèves dans une usine Mercedes-Benz à Berlin en raison du blocage des négociations.",
+    "Le syndicat a annoncé des plans pour des arrêts de travail de 24 heures, une escalade significative de l'action industrielle.",
+    "IG Metall a appelé à des grèves d'avertissement de 24 heures à Berlin, dans le Brandebourg et en Saxe pour le vendredi 20 novembre."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Le syndicat a rapporté que 464 000 travailleurs ont participé aux grèves d'avertissement à la mi-novembre."
+    "crowd": "Plus de 413 000 travailleurs ont participé à des grèves et à des manifestations à l'échelle nationale selon les données du syndicat."
    }
   },
   "de": {
-   "title": "IG Metall-Industriearbeiter streiken wegen Lohnstreit in Berlin",
+   "title": "IG Metall-Industriebeschäftigte streiken wegen Tarifstreit in Berlin",
    "seoTitle": "Industriestreiks IG Metall Berlin",
    "tea": {
-    "why": "Die Arbeiter protestieren gegen festgefahrene Tarifverhandlungen und fordern bessere Löhne und Arbeitsplatzsicherheit in der Metall- und Elektroindustrie.",
-    "want": "Eine Lohnerhöhung von 5 Prozent über 12 Monate, Arbeitsplatzsicherheit und Investitionsgarantien für Produktionsstandorte.",
-    "changed": "19. November: Die IG Metall kündigte für Freitag ganztägige Warnstreiks in Berlin, Brandenburg und Sachsen an, um den Druck auf die Arbeitgeber zu erhöhen."
+    "why": "Die Beschäftigten protestieren gegen festgefahrene Tarifverhandlungen zu Löhnen, Arbeitsplatzsicherheit und Standortschließungen in der Industrie.",
+    "want": "5 Prozent mehr Lohn über 12 Monate, Garantien zur Arbeitsplatzsicherheit, Gewinnbeteiligung und bessere Bedingungen für untere Lohngruppen.",
+    "changed": "19. Nov.: Die IG Metall kündigte für Freitag, den 20. Nov., 24-stündige Warnstreiks in Berlin, Brandenburg und Sachsen an."
    },
-   "summary": "Seit dem 1. November 2026 organisiert die Industriegewerkschaft IG Metall bundesweite Warnstreiks und Proteste, an denen Hunderttausende Arbeiter in der Metall-, Elektro- und Automobilbranche beteiligt sind. Die Aktion folgt auf das Scheitern der Tarifverhandlungen. Die Gewerkschaft fordert eine Lohnerhöhung von 5 Prozent über einen Zeitraum von 12 Monaten, verbesserte Bedingungen für Geringverdiener sowie feste Garantien zur Arbeitsplatzsicherheit und zum Erhalt der Produktionsstandorte. Die Arbeitgeber haben eine Erhöhung um 1,3 Prozent ab Juli 2028 sowie eine Einmalzahlung angeboten, was die Gewerkschaft als unzureichend ablehnte. Nach gescheiterten Verhandlungen hat die Gewerkschaft ihre Taktik verschärft und geht von kurzen Warnstreiks zu geplanten 24-stündigen Arbeitsniederlegungen in mehreren Bundesländern, einschließlich Berlin, über. Die Gewerkschaft berichtet, dass bisher über 460.000 Arbeiter an den Aktionen teilgenommen haben.",
+   "summary": "Seit dem 1. November 2026 organisiert die Gewerkschaft IG Metall bundesweite Arbeitskampfmaßnahmen, an denen hunderttausende Beschäftigte in der Automobil-, Metall- und Elektroindustrie beteiligt sind. Nach Auslaufen eines Tarifvertrags haben sich die Beschäftigten an Warnstreiks und Demonstrationen an über 2.000 Unternehmensstandorten in ganz Deutschland beteiligt. Die Gewerkschaft fordert 5 Prozent mehr Lohn über 12 Monate sowie Garantien zur Arbeitsplatzsicherheit und Gewinnbeteiligungsmodelle. Die Arbeitgeber haben eine Erhöhung um 1,3 Prozent ab 2028 sowie eine Einmalzahlung vorgeschlagen, was die Gewerkschaft als unzureichend ablehnte. Da die Verhandlungen festgefahren sind, hat die Gewerkschaft die Taktik verschärft und ist von kurzen Warnstreiks zu 24-stündigen Arbeitsniederlegungen in mehreren Regionen übergegangen, darunter Berlin, Brandenburg und Sachsen. Gewerkschaftsführer erklären, diese Aktionen zielten darauf ab, den Druck auf die Arbeitgeber zu erhöhen, ein substanzielleres Lohnangebot vorzulegen.",
    "demands": [
-    "5 Prozent Lohnerhöhung über 12 Monate",
+    "5 Prozent Lohnsteigerung über 12 Monate",
     "Garantien zur Arbeitsplatzsicherheit",
-    "Investitionen in Produktionsstandorte",
-    "Gewinnbeteiligung für Mitarbeiter",
-    "Bessere Bedingungen für Geringverdiener"
+    "Schutz vor Standortschließungen",
+    "Gewinnbeteiligung für Beschäftigte",
+    "Verbesserte Bedingungen für untere Lohngruppen"
    ],
-   "response": "Die Arbeitgeber haben die Forderungen der Gewerkschaft unter Verweis auf wirtschaftliche Belastungen zurückgewiesen und eine Lohnerhöhung von 1,3 Prozent ab Juli 2028 vorgeschlagen, was die Gewerkschaft als Reallohnkürzung bezeichnete.",
+   "response": "Die Arbeitgeber haben die Forderungen der Gewerkschaft zurückgewiesen und eine Lohnsteigerung von 1,3 Prozent ab Juli 2028 sowie eine Einmalzahlung angeboten, mit dem Argument, die Branche stehe unter wirtschaftlichem Druck und Wettbewerb.",
    "updates": [
-    "Nach Ablauf des vorherigen Tarifvertrags begannen deutschlandweit um Mitternacht Warnstreiks.",
-    "Die IG Metall kündigte die dritte Verhandlungsrunde in Berlin und Brandenburg an und lehnte das Angebot der Arbeitgeber ab.",
-    "Die IG Metall kündigte Pläne für ganztägige Streiks an, eine Taktik, die seit 2018 nicht mehr angewendet wurde.",
-    "Die Gewerkschaft rief für den folgenden Freitag zu ganztägigen Warnstreiks in Berlin, Brandenburg und Sachsen auf."
+    "Nach Auslaufen des vorherigen Tarifvertrags begannen um Mitternacht bundesweit Warnstreiks.",
+    "Die IG Metall lehnte das Arbeitgeberangebot von 1,3 Prozent Erhöhung im Jahr 2028 und einer Einmalzahlung ab.",
+    "Die IG Metall rief aufgrund festgefahrener Verhandlungen zu Streiks in einem Mercedes-Benz-Werk in Berlin auf.",
+    "Die Gewerkschaft kündigte 24-stündige Arbeitsniederlegungen an, eine deutliche Eskalation des Arbeitskampfes.",
+    "Die IG Metall rief für Freitag, den 20. November, zu 24-stündigen Warnstreiks in Berlin, Brandenburg und Sachsen auf."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Die Gewerkschaft berichtete, dass bis Mitte November 464.000 Arbeiter an Warnstreiks teilgenommen haben."
+    "crowd": "Über 413.000 Beschäftigte beteiligten sich laut Gewerkschaftsangaben bundesweit an Streiks und Protesten."
    }
   },
   "it": {
    "title": "I lavoratori industriali della IG Metall scioperano per una disputa salariale a Berlino",
    "seoTitle": "Scioperi industriali IG Metall Berlino",
    "tea": {
-    "why": "I lavoratori protestano contro lo stallo delle trattative collettive e chiedono salari migliori e sicurezza del lavoro nell'industria metalmeccanica ed elettrica.",
-    "want": "Un aumento salariale del 5 per cento in 12 mesi, sicurezza del lavoro e garanzie di investimento per i siti produttivi.",
-    "changed": "19 novembre: La IG Metall ha annunciato scioperi di avvertimento di un'intera giornata a Berlino, nel Brandeburgo e in Sassonia per venerdì, per aumentare la pressione sui datori di lavoro."
+    "why": "I lavoratori protestano contro lo stallo delle trattative per il contratto collettivo riguardanti salari, sicurezza del lavoro e chiusure di siti nel settore industriale.",
+    "want": "Un aumento salariale del 5 per cento su 12 mesi, garanzie di sicurezza del lavoro, partecipazione agli utili e migliori condizioni per le fasce salariali più basse.",
+    "changed": "19 novembre: IG Metall ha annunciato scioperi di avvertimento di 24 ore a Berlino, nel Brandeburgo e in Sassonia per venerdì 20 novembre."
    },
-   "summary": "Dal 1° novembre 2026, il sindacato industriale IG Metall ha organizzato scioperi di avvertimento e proteste a livello nazionale che coinvolgono centinaia di migliaia di lavoratori nei settori metalmeccanico, elettrico e automobilistico. L'azione segue il fallimento delle trattative collettive. Il sindacato richiede un aumento salariale del 5 per cento in un periodo di 12 mesi, migliori condizioni per i lavoratori meno pagati e garanzie ferme sulla sicurezza del lavoro e sul mantenimento dei siti produttivi. I datori di lavoro hanno offerto un aumento dell'1,3 per cento a partire da luglio 2028 insieme a un pagamento una tantum, che il sindacato ha respinto in quanto insufficiente. Dopo il fallimento delle trattative, il sindacato ha intensificato le tattiche, passando da brevi scioperi di avvertimento a interruzioni del lavoro pianificate di 24 ore in diversi stati tedeschi, inclusa Berlino. Il sindacato riferisce che oltre 460.000 lavoratori hanno partecipato alle azioni fino ad oggi.",
+   "summary": "Dal 1° novembre 2026, il sindacato IG Metall ha organizzato azioni industriali a livello nazionale che coinvolgono centinaia di migliaia di lavoratori nei settori automobilistico, meccanico ed elettrico. In seguito alla scadenza di un contratto collettivo, i lavoratori hanno partecipato a scioperi di avvertimento e manifestazioni in oltre 2.000 sedi aziendali in tutta la Germania. Il sindacato richiede un aumento salariale del 5 per cento su 12 mesi, insieme a garanzie di sicurezza del lavoro e piani di partecipazione agli utili. I datori di lavoro hanno proposto un aumento dell'1,3 per cento effettivo nel 2028 e un pagamento una tantum, che il sindacato ha respinto in quanto insufficiente. Poiché le trattative rimangono in stallo, il sindacato ha intensificato le tattiche, passando da brevi scioperi di avvertimento a fermi lavorativi di 24 ore in diverse regioni, tra cui Berlino, Brandeburgo e Sassonia. I leader sindacali affermano che queste azioni mirano ad aumentare la pressione sui datori di lavoro affinché presentino un'offerta salariale più sostanziosa.",
    "demands": [
-    "Aumento salariale del 5 per cento in 12 mesi",
+    "Aumento salariale del 5 per cento su 12 mesi",
     "Garanzie di sicurezza del lavoro",
-    "Investimenti nei siti produttivi",
+    "Protezione contro la chiusura dei siti",
     "Partecipazione agli utili per i dipendenti",
-    "Migliori condizioni per i lavoratori meno pagati"
+    "Migliori condizioni per le fasce salariali più basse"
    ],
-   "response": "I datori di lavoro hanno respinto le richieste del sindacato, citando pressioni economiche, e hanno proposto un aumento salariale dell'1,3 per cento effettivo da luglio 2028, che il sindacato ha definito un taglio salariale in termini reali.",
+   "response": "I datori di lavoro hanno respinto le richieste del sindacato, offrendo un aumento salariale dell'1,3 per cento a partire da luglio 2028 e un pagamento una tantum, sostenendo che l'industria sta affrontando pressioni economiche e concorrenza.",
    "updates": [
-    "Gli scioperi di avvertimento sono iniziati a mezzanotte in tutta la Germania dopo la scadenza del precedente contratto collettivo.",
-    "La IG Metall ha annunciato il terzo round di trattative a Berlino e nel Brandeburgo, respingendo l'offerta dei datori di lavoro.",
-    "La IG Metall ha annunciato piani per scioperi di un'intera giornata, una tattica non utilizzata dal 2018.",
-    "Il sindacato ha indetto scioperi di avvertimento di un'intera giornata a Berlino, nel Brandeburgo e in Sassonia per il venerdì successivo."
+    "Gli scioperi di avvertimento sono iniziati a mezzanotte in tutta la Germania in seguito alla scadenza del precedente contratto collettivo.",
+    "IG Metall ha respinto l'offerta dei datori di lavoro di un aumento dell'1,3 per cento nel 2028 e di un pagamento una tantum.",
+    "IG Metall ha indetto scioperi in uno stabilimento Mercedes-Benz a Berlino a causa dello stallo delle trattative.",
+    "Il sindacato ha annunciato piani per fermi lavorativi di 24 ore, un'escalation significativa nell'azione industriale.",
+    "IG Metall ha indetto scioperi di avvertimento di 24 ore a Berlino, nel Brandeburgo e in Sassonia per venerdì 20 novembre."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "Il sindacato ha riferito che 464.000 lavoratori hanno partecipato agli scioperi di avvertimento a metà novembre."
+    "crowd": "Oltre 413.000 lavoratori hanno partecipato a scioperi e proteste a livello nazionale secondo i dati del sindacato."
    }
   },
   "pt": {
    "title": "Trabalhadores industriais da IG Metall realizam greves devido a disputa salarial em Berlim",
    "seoTitle": "Greves industriais IG Metall Berlim",
    "tea": {
-    "why": "Os trabalhadores protestam contra o impasse nas negociações coletivas e procuram melhores salários e segurança no emprego na indústria metalúrgica e elétrica.",
-    "want": "Um aumento salarial de 5 por cento ao longo de 12 meses, segurança no emprego e garantias de investimento para os locais de produção.",
-    "changed": "19 de novembro: A IG Metall anunciou greves de aviso de dia inteiro em Berlim, Brandeburgo e Saxónia para sexta-feira, a fim de aumentar a pressão sobre os empregadores."
+    "why": "Os trabalhadores protestam contra o impasse nas negociações coletivas sobre salários, segurança no emprego e encerramento de instalações no setor industrial.",
+    "want": "Um aumento salarial de 5 por cento ao longo de 12 meses, garantias de segurança no emprego, participação nos lucros e melhores condições para os escalões salariais mais baixos.",
+    "changed": "19 de novembro: A IG Metall anunciou greves de aviso de 24 horas em Berlim, Brandeburgo e Saxónia para sexta-feira, 20 de novembro."
    },
-   "summary": "Desde 1 de novembro de 2026, o sindicato industrial IG Metall organizou greves de aviso e protestos a nível nacional envolvendo centenas de milhares de trabalhadores nos setores metalúrgico, elétrico e automóvel. A ação segue-se ao colapso das negociações coletivas. O sindicato exige um aumento salarial de 5 por cento num período de 12 meses, melhores condições para os trabalhadores com salários mais baixos e garantias firmes relativamente à segurança no emprego e à manutenção dos locais de produção. Os empregadores ofereceram um aumento de 1,3 por cento a partir de julho de 2028, juntamente com um pagamento único, que o sindicato rejeitou por considerar insuficiente. Após o fracasso das negociações, o sindicato intensificou as táticas, passando de breves greves de aviso para paralisações planeadas de 24 horas em vários estados alemães, incluindo Berlim. O sindicato informa que mais de 460.000 trabalhadores participaram nas ações até à data.",
+   "summary": "Desde 1 de novembro de 2026, o sindicato IG Metall organizou ações industriais a nível nacional envolvendo centenas de milhares de trabalhadores nos setores automóvel, mecânico e elétrico. Após a expiração de um acordo coletivo, os trabalhadores participaram em greves de aviso e manifestações em mais de 2.000 locais de empresas em toda a Alemanha. O sindicato exige um aumento salarial de 5 por cento ao longo de 12 meses, juntamente com garantias de segurança no emprego e planos de participação nos lucros. Os empregadores propuseram um aumento de 1,3 por cento efetivo em 2028 e um pagamento único, que o sindicato rejeitou por considerar insuficiente. Como as negociações permanecem num impasse, o sindicato intensificou as táticas, passando de breves greves de aviso para paralisações de 24 horas em várias regiões, incluindo Berlim, Brandeburgo e Saxónia. Os líderes sindicais afirmam que estas ações visam aumentar a pressão sobre os empregadores para apresentarem uma oferta salarial mais substancial.",
    "demands": [
     "Aumento salarial de 5 por cento ao longo de 12 meses",
     "Garantias de segurança no emprego",
-    "Investimento em locais de produção",
-    "Partilha de lucros para os empregados",
-    "Melhores condições para os trabalhadores com salários mais baixos"
+    "Proteção contra o encerramento de instalações",
+    "Participação nos lucros para os funcionários",
+    "Melhores condições para os escalões salariais mais baixos"
    ],
-   "response": "Os empregadores rejeitaram as exigências do sindicato, citando pressões económicas, e propuseram um aumento salarial de 1,3 por cento efetivo a partir de julho de 2028, o que o sindicato classificou como um corte salarial em termos reais.",
+   "response": "Os empregadores rejeitaram as exigências do sindicato, oferecendo um aumento salarial de 1,3 por cento a partir de julho de 2028 e um pagamento único, argumentando que a indústria enfrenta pressão económica e concorrência.",
    "updates": [
     "As greves de aviso começaram à meia-noite em toda a Alemanha após a expiração do acordo coletivo anterior.",
-    "A IG Metall anunciou a terceira ronda de negociações em Berlim e Brandeburgo, rejeitando a oferta dos empregadores.",
-    "A IG Metall anunciou planos para greves de dia inteiro, uma tática não utilizada desde 2018.",
-    "O sindicato convocou greves de aviso de dia inteiro em Berlim, Brandeburgo e Saxónia para a sexta-feira seguinte."
+    "A IG Metall rejeitou a oferta dos empregadores de um aumento de 1,3 por cento em 2028 e um pagamento único.",
+    "A IG Metall convocou greves numa fábrica da Mercedes-Benz em Berlim devido ao impasse nas negociações.",
+    "O sindicato anunciou planos para paralisações de 24 horas, uma escalada significativa na ação industrial.",
+    "A IG Metall convocou greves de aviso de 24 horas em Berlim, Brandeburgo e Saxónia para sexta-feira, 20 de novembro."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "O sindicato informou que 464.000 trabalhadores participaram em greves de aviso até meados de novembro."
+    "crowd": "Mais de 413.000 trabalhadores participaram em greves e protestos a nível nacional segundo dados do sindicato."
    }
   },
   "nl": {
-   "title": "Industriële arbeiders van IG Metall staken vanwege loongeschil in Berlijn",
+   "title": "Industriële arbeiders van IG Metall staken om loongeschil in Berlijn",
    "seoTitle": "Industriële stakingen IG Metall Berlijn",
    "tea": {
-    "why": "Arbeiders protesteren tegen vastgelopen collectieve onderhandelingen en streven naar betere lonen en werkzekerheid in de metaal- en elektro-industrie.",
-    "want": "Een loonsverhoging van 5 procent over 12 maanden, werkzekerheid en investeringsgaranties voor productielocaties.",
-    "changed": "19 november: IG Metall kondigde voor vrijdag dagvullende waarschuwingsstakingen aan in Berlijn, Brandenburg en Saksen om de druk op werkgevers te verhogen."
+    "why": "Arbeiders protesteren tegen vastgelopen collectieve onderhandelingen over lonen, werkgelegenheid en bedrijfssluitingen in de industriële sector.",
+    "want": "Een loonsverhoging van 5 procent over 12 maanden, garanties voor werkgelegenheid, winstdeling en betere voorwaarden voor lagere loonschalen.",
+    "changed": "19 nov.: IG Metall kondigde 24-uurs waarschuwingsstakingen aan in Berlijn, Brandenburg en Saksen voor vrijdag 20 november."
    },
-   "summary": "Sinds 1 november 2026 organiseert de industriële vakbond IG Metall landelijke waarschuwingsstakingen en protesten waarbij honderdduizenden arbeiders in de metaal-, elektro- en automobielsector betrokken zijn. De actie volgt op het mislukken van de collectieve onderhandelingen. De vakbond eist een loonsverhoging van 5 procent over een periode van 12 maanden, verbeterde voorwaarden voor lagerbetaalde arbeiders en stevige garanties met betrekking tot werkzekerheid en het behoud van productielocaties. Werkgevers hebben een verhoging van 1,3 procent vanaf juli 2028 aangeboden, samen met een eenmalige betaling, wat de vakbond als onvoldoende heeft afgewezen. Na mislukte onderhandelingen heeft de vakbond de tactiek aangescherpt, waarbij ze zijn overgestapt van korte waarschuwingsstakingen naar geplande 24-uurs werkonderbrekingen in meerdere Duitse deelstaten, waaronder Berlijn. De vakbond meldt dat tot op heden meer dan 460.000 arbeiders aan de acties hebben deelgenomen.",
+   "summary": "Sinds 1 november 2026 organiseert de vakbond IG Metall landelijke industriële acties waarbij honderdduizenden arbeiders in de automobiel-, mechanische en elektrische sector betrokken zijn. Na het verstrijken van een collectieve arbeidsovereenkomst hebben arbeiders deelgenomen aan waarschuwingsstakingen en demonstraties op meer dan 2.000 bedrijfslocaties in heel Duitsland. De vakbond eist een loonsverhoging van 5 procent over 12 maanden, naast garanties voor werkgelegenheid en winstdelingsregelingen. Werkgevers hebben een verhoging van 1,3 procent voorgesteld, effectief in 2028, en een eenmalige betaling, wat de vakbond als onvoldoende heeft afgewezen. Omdat de onderhandelingen in een impasse verkeren, heeft de vakbond de tactiek aangescherpt, van korte waarschuwingsstakingen naar 24-uurs werkonderbrekingen in verschillende regio's, waaronder Berlijn, Brandenburg en Saksen. Vakbondsleiders stellen dat deze acties bedoeld zijn om de druk op werkgevers te verhogen om een substantiëler loonaanbod te doen.",
    "demands": [
-    "5 procent loonsverhoging over 12 maanden",
-    "Garanties voor werkzekerheid",
-    "Investeringen in productielocaties",
+    "Loonsverhoging van 5 procent over 12 maanden",
+    "Garanties voor werkgelegenheid",
+    "Bescherming tegen bedrijfssluitingen",
     "Winstdeling voor werknemers",
-    "Betere voorwaarden voor lagerbetaalde arbeiders"
+    "Verbeterde voorwaarden voor lagere loonschalen"
    ],
-   "response": "Werkgevers hebben de eisen van de vakbond afgewezen, onder verwijzing naar economische druk, en hebben een loonsverhoging van 1,3 procent voorgesteld die ingaat vanaf juli 2028, wat de vakbond heeft bestempeld als een reële loonsverlaging.",
+   "response": "Werkgevers hebben de eisen van de vakbond afgewezen en een loonsverhoging van 1,3 procent vanaf juli 2028 en een eenmalige betaling aangeboden, met het argument dat de industrie onder economische druk en concurrentie staat.",
    "updates": [
-    "De waarschuwingsstakingen begonnen om middernacht in heel Duitsland na het verstrijken van de vorige collectieve arbeidsovereenkomst.",
-    "IG Metall kondigde de derde onderhandelingsronde aan in Berlijn en Brandenburg en wees het aanbod van de werkgevers af.",
-    "IG Metall kondigde plannen aan voor dagvullende stakingen, een tactiek die sinds 2018 niet meer was gebruikt.",
-    "De vakbond riep op tot dagvullende waarschuwingsstakingen in Berlijn, Brandenburg en Saksen voor de daaropvolgende vrijdag."
+    "Waarschuwingsstakingen begonnen om middernacht in heel Duitsland na het verstrijken van de vorige collectieve arbeidsovereenkomst.",
+    "IG Metall wees het aanbod van de werkgevers van 1,3 procent verhoging in 2028 en een eenmalige betaling af.",
+    "IG Metall riep op tot stakingen bij een Mercedes-Benz-fabriek in Berlijn vanwege vastgelopen onderhandelingen.",
+    "De vakbond kondigde plannen aan voor 24-uurs werkonderbrekingen, een significante escalatie van de industriële actie.",
+    "IG Metall riep op tot 24-uurs waarschuwingsstakingen in Berlijn, Brandenburg en Saksen voor vrijdag 20 november."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "De vakbond meldde dat 464.000 arbeiders tot medio november aan waarschuwingsstakingen hebben deelgenomen."
+    "crowd": "Meer dan 413.000 arbeiders namen deel aan stakingen en protesten landelijk volgens gegevens van de vakbond."
    }
   }
  },
