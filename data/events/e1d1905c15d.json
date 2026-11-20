@@ -13,74 +13,79 @@
   "citySlug": "frankfurt-am-main",
   "regionSlug": "hesse"
  },
- "scope": "multi-city",
+ "scope": "local",
  "causes": [
-  "students",
   "education",
-  "jobs"
+  "jobs",
+  "housing"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-20",
- "status": "ongoing",
- "vibe": "heating-up",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "top-10",
-  "low-confidence",
-  "sources-disagree"
- ],
- "isOngoing": true,
+ "review": "auto",
+ "reviewReasons": [],
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters oppose the potential reintroduction of compulsory military service, social and education budget cuts, and rising living costs.",
-  "want": "They demand increased investment in education, mental health services, climate protection, and a rejection of mandatory military conscription.",
-  "changed": "Nov 20: Police reported approximately 1,000 participants in Frankfurt by late afternoon, with multiple demonstrations taking place throughout the city."
+  "why": "Young people demonstrated against proposed conscription and spending cuts in education and social services amid rainy weather.",
+  "want": "Protesters demanded better school funding, addiction help, psychotherapy resources, affordable living, and no military conscription.",
+  "changed": "Nov 20: Police reported that all registered youth protests in Frankfurt had ended peacefully by the evening, with four preliminary arrests."
  },
- "summary": "On November 20, 2026, various youth groups and organizations, including 'Gen Z regelt' and the Verdi trade union, held multiple demonstrations in Frankfurt am Main. The protests, part of a broader European movement, focused on opposition to the potential reintroduction of military conscription, social and education spending cuts, and climate policy. In Frankfurt, five separate assemblies were registered. A 'school strike against conscription' saw hundreds of participants in the morning. Organizers faced challenges due to inclement weather and internal disagreements, leading to lower turnout than initially anticipated. Authorities deployed a large police presence to prevent potential unrest following previous incidents in October. While some businesses boarded up windows as a precaution, police described the demonstrations as peaceful throughout the day.",
+ "summary": "Youth groups and school strikes took to the streets in Frankfurt am Main as part of a coordinated day of action across Europe under the motto \"Fight for Our Future, Not Their Wars.\" Organised by initiatives such as \"Gen Z regelt,\" the International Youth Association, and trade union Verdi, demonstrators gathered at multiple locations including the Bahnhofsviertel, Bockenheim, and the university. Participants demanded increased investment in education, psychotherapy, and climate protection, while voicing strong opposition to potential military conscription and government spending cuts. Despite initial expectations of thousands of attendees, turnout was lower due to continuous rain and internal disagreements among groups. Authorities deployed over 2,000 police officers across the city, and officials confirmed that the demonstrations remained largely peaceful, though some retail stores boarded up windows following earlier unrest in October.",
  "organizers": [
   "Gen Z regelt",
   "Verdi",
-  "Bundesschülerkonferenz"
+  "Internationaler Jugendverband"
  ],
  "demands": [
-  "No mandatory military conscription",
-  "Increased funding for education",
-  "Affordable living costs",
-  "Climate protection measures",
-  "Improved mental health services"
+  "More funding for schools, addiction support, and psychotherapy",
+  "An affordable life and housing",
+  "No to military conscription",
+  "Increased climate protection"
  ],
- "response": "Police deployed a large force of 2,000 officers to maintain order and prevent potential violence. Authorities reported that the demonstrations remained peaceful throughout the day.",
+ "response": "Police deployed more than 2,000 officers across Frankfurt to monitor the demonstrations. Hesse Interior Minister Roman Poseck gave a positive interim assessment, stating that the events remained peaceful thanks to the heavy police presence.",
  "numbers": {
   "crowd": {
-   "value": 1000,
-   "text": "Police reported 1,000 demonstrators by late afternoon.",
+   "value": 500,
+   "text": "Aktuell sind schätzungsweise um die 500 Menschen da.",
    "sources": [
-    4
+    1
+   ]
+  },
+  "arrests": {
+   "value": 4,
+   "text": "vier Menschen vorläufig festgenommen",
+   "sources": [
+    1
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-20",
-   "text": "Morning: A 'school strike against conscription' began with approximately 400 to 600 participants.",
+   "text": "Protests against conscription and social cuts commenced in Frankfurt amid continuous rain and heavy police deployments.",
    "sources": [
+    1,
     3,
-    4
+    5
    ]
   },
   {
    "at": "2026-11-20",
-   "text": "Afternoon: A planned rally at Weseler Werft was cancelled by organizers due to low turnout.",
+   "text": "Police reported four preliminary arrests during identity checks of individuals, including one suspected of involvement in October riots.",
    "sources": [
-    4
+    1
    ]
   },
   {
    "at": "2026-11-20",
-   "text": "Late afternoon: Police reported 1,000 participants in the ongoing demonstrations.",
+   "text": "Authorities confirmed that all registered demonstrations in Frankfurt concluded peacefully by the evening.",
    "sources": [
-    4
+    1,
+    3,
+    6
    ]
   }
  ],
@@ -94,243 +99,229 @@
   },
   {
    "n": 2,
-   "url": "https://www.sueddeutsche.de/politik/gen-z-regelt-jugendproteste-demonstrationen-frankfurt-berlin-bundesschuelerkonferenz-li.3582324",
-   "publisher": "sueddeutsche.de",
-   "title": "Jugendproteste am Freitag – Warum die Bewegung jetzt zerfasern könnte",
-   "publishedAt": "2026-11-19T13:58:12.000Z"
-  },
-  {
-   "n": 3,
    "url": "https://www.tagesspiegel.de/politik/dpa-demos-und-schulstreiks-neuer-jugendprotest-fur-bessere-bildung-und-zukunftschancen-16305158.html",
    "publisher": "tagesspiegel.de",
    "title": "Demos und Schulstreiks: Neuer Jugendprotest für bessere Bildung und Zukunftschancen",
    "publishedAt": "2026-11-20T14:03:09.000Z"
   },
   {
-   "n": 4,
+   "n": 3,
    "url": "https://www.hessenschau.de/gesellschaft/jugendproteste-am-freitag-tausende-demonstranten-in-hessen-erwartet-v1,genz-demos-freitag-100.html",
    "publisher": "hessenschau.de",
    "title": "Gegen Wehrpflicht und Sozialkürzungen: Tausende junge Menschen wollen in Hessen demonstrieren",
    "publishedAt": "2026-11-20T07:32:00.000Z"
   },
   {
-   "n": 5,
+   "n": 4,
    "url": "https://www.manilatimes.net/2026/11/20/world/americas-emea/young-protesters-hit-the-streets-across-europe/2475092",
    "publisher": "manilatimes.net",
    "title": "Young protesters hit the streets across Europe",
    "publishedAt": "2026-11-20T13:26:00.000Z"
   },
   {
+   "n": 5,
+   "url": "https://www.sueddeutsche.de/politik/gen-z-proteste-schueler-studierende-frankfurt-berlin-ausschreitungen-gewerkschaften-li.3582673",
+   "publisher": "sueddeutsche.de",
+   "title": "Gen-Z-Proteste: Wie die Jugend versucht, aus Demos eine Bewegung zu machen",
+   "publishedAt": "2026-11-20T14:04:56.000Z"
+  },
+  {
    "n": 6,
-   "url": "https://www.faz.net/aktuell/rhein-main/jugendproteste-in-frankfurt-weniger-teilnehmer-bei-demo-von-genz-regelt-erwartet-aktuelle-nachrichten-aus-frankfurt-hessen-faz-19735361.html",
+   "url": "https://www.faz.net/aktuell/rhein-main/demos-und-proteste-in-frankfurt-beendet-aktuelle-nachrichten-aus-frankfurt-hessen-faz-19735361.html",
    "publisher": "faz.net",
-   "title": "Jugendproteste in Frankfurt: Weniger Teilnehmer bei Demo von \"GenZ regelt\" erwartet: Aktuelle Nachrichten aus Frankfurt & Hessen | FAZ",
-   "publishedAt": "2026-11-20T15:59:14.000Z"
+   "title": "Demos und Proteste in Frankfurt beendet: Aktuelle Nachrichten aus Frankfurt & Hessen | FAZ",
+   "publishedAt": "2026-11-20T19:33:00.000Z"
   }
  ],
- "conflicts": [
-  "Organizers of the 'Schulstreik gegen Wehrpflicht' claimed 50,000 participants nationwide, a figure described by media as difficult to verify."
- ],
- "confidence": 0.75,
+ "conflicts": [],
+ "confidence": 0.9,
  "publishers": 6,
- "reports24h": 7,
- "reportsPrev24h": 1,
- "reports48h": 8,
+ "reports24h": 8,
+ "reportsPrev24h": 2,
+ "reports48h": 10,
  "firstSeenAt": "2026-11-17T16:54:50.129Z",
- "lastReportAt": "2026-11-20T15:59:14.000Z",
- "lastCheckedAt": "2026-11-20T17:00:11.298Z",
- "updatedAt": "2026-11-20T16:58:23.952Z",
+ "lastReportAt": "2026-11-20T19:33:00.000Z",
+ "lastCheckedAt": "2026-11-20T20:55:01.578Z",
+ "updatedAt": "2026-11-20T20:54:03.897Z",
  "responseSources": [
   1,
-  3,
-  4
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-20T16:58:23.952Z",
- "summaryOf": "a3002df1945b",
+ "summarizedAt": "2026-11-20T20:54:03.897Z",
+ "summaryOf": "c2f5980d13fd",
  "publishedAt": "2026-11-20T13:02:38.826Z",
  "distinctFrom": [
   "e7daf1675a4",
   "ed7b92607f0"
  ],
  "i18n": {
-  "of": "8726e67c2a271b2e",
-  "at": "2026-11-20T17:01:34.504Z",
+  "of": "9e24b063949a5f5b",
+  "at": "2026-11-20T20:58:16.048Z",
   "tries": 1,
   "es": {
    "title": "Grupos juveniles protestan en Fráncfort contra el servicio militar obligatorio y los recortes sociales",
-   "seoTitle": "Protesta juvenil en Fráncfort contra el servicio militar",
+   "seoTitle": "Jóvenes protestan en Fráncfort contra el servicio militar",
    "tea": {
-    "why": "Los manifestantes se oponen a la posible reintroducción del servicio militar obligatorio, a los recortes en los presupuestos de educación y servicios sociales, y al aumento del coste de la vida.",
-    "want": "Exigen un aumento de la inversión en educación, servicios de salud mental y protección climática, además del rechazo al servicio militar obligatorio.",
-    "changed": "20 de noviembre: La policía informó de aproximadamente 1.000 participantes en Fráncfort al final de la tarde, con múltiples manifestaciones llevándose a cabo por toda la ciudad."
+    "why": "Jóvenes se manifestaron contra la propuesta de servicio militar obligatorio y los recortes de gasto en educación y servicios sociales en medio de un clima lluvioso.",
+    "want": "Los manifestantes exigieron una mejor financiación escolar, ayuda contra las adicciones, recursos de psicoterapia, vivienda asequible y la no implementación del servicio militar obligatorio.",
+    "changed": "20 de noviembre: La policía informó que todas las protestas juveniles registradas en Fráncfort habían terminado pacíficamente por la tarde, con cuatro detenciones preliminares."
    },
-   "summary": "El 20 de noviembre de 2026, varios grupos y organizaciones juveniles, incluidos 'Gen Z regelt' y el sindicato Verdi, celebraron múltiples manifestaciones en Fráncfort del Meno. Las protestas, parte de un movimiento europeo más amplio, se centraron en la oposición a la posible reintroducción del servicio militar obligatorio, los recortes en el gasto social y educativo, y la política climática. En Fráncfort se registraron cinco asambleas separadas. Una 'huelga escolar contra el servicio militar' contó con cientos de participantes por la mañana. Los organizadores se enfrentaron a dificultades debido a las inclemencias del tiempo y a desacuerdos internos, lo que provocó una participación menor a la prevista inicialmente. Las autoridades desplegaron una gran presencia policial para evitar posibles disturbios tras los incidentes de octubre. Aunque algunos comercios tapiaron sus escaparates como medida de precaución, la policía describió las manifestaciones como pacíficas durante todo el día.",
+   "summary": "Grupos juveniles y huelgas escolares salieron a las calles en Fráncfort del Meno como parte de una jornada de acción coordinada en toda Europa bajo el lema \"Lucha por nuestro futuro, no por sus guerras\". Organizados por iniciativas como \"Gen Z regelt\", la Asociación Internacional de la Juventud y el sindicato Verdi, los manifestantes se reunieron en múltiples lugares, incluidos el Bahnhofsviertel, Bockenheim y la universidad. Los participantes exigieron una mayor inversión en educación, psicoterapia y protección climática, al tiempo que expresaron una fuerte oposición al posible servicio militar obligatorio y a los recortes del gasto público. A pesar de las expectativas iniciales de miles de asistentes, la participación fue menor debido a la lluvia continua y a los desacuerdos internos entre los grupos. Las autoridades desplegaron más de 2.000 agentes de policía por toda la ciudad, y los funcionarios confirmaron que las manifestaciones se mantuvieron en gran medida pacíficas, aunque algunas tiendas tapiaron sus escaparates tras los disturbios ocurridos en octubre.",
    "demands": [
+    "Más financiación para escuelas, apoyo a las adicciones y psicoterapia",
+    "Una vida y vivienda asequibles",
     "No al servicio militar obligatorio",
-    "Mayor financiación para la educación",
-    "Coste de vida asequible",
-    "Medidas de protección climática",
-    "Mejora de los servicios de salud mental"
+    "Mayor protección climática"
    ],
-   "response": "La policía desplegó un gran contingente de 2.000 agentes para mantener el orden y evitar posibles actos de violencia. Las autoridades informaron de que las manifestaciones se mantuvieron pacíficas durante todo el día.",
+   "response": "La policía desplegó más de 2.000 agentes en Fráncfort para vigilar las manifestaciones. El ministro del Interior de Hesse, Roman Poseck, hizo una evaluación provisional positiva, afirmando que los eventos permanecieron pacíficos gracias a la fuerte presencia policial.",
    "updates": [
-    "Mañana: Una 'huelga escolar contra el servicio militar' comenzó con aproximadamente 400 a 600 participantes.",
-    "Tarde: Una concentración prevista en Weseler Werft fue cancelada por los organizadores debido a la baja participación.",
-    "Final de la tarde: La policía informó de 1.000 participantes en las manifestaciones en curso."
+    "Las protestas contra el servicio militar obligatorio y los recortes sociales comenzaron en Fráncfort en medio de una lluvia continua y un fuerte despliegue policial.",
+    "La policía informó de cuatro detenciones preliminares durante los controles de identidad de personas, incluida una sospechosa de participar en los disturbios de octubre.",
+    "Las autoridades confirmaron que todas las manifestaciones registradas en Fráncfort concluyeron pacíficamente por la tarde."
    ],
-   "conflicts": [
-    "Los organizadores de la 'Schulstreik gegen Wehrpflicht' afirmaron que hubo 50.000 participantes a nivel nacional, una cifra que los medios de comunicación calificaron de difícil de verificar."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "La policía informó de 1.000 manifestantes al final de la tarde."
+    "crowd": "Actualmente hay unas 500 personas estimadas.",
+    "arrests": "cuatro personas detenidas preliminarmente"
    }
   },
   "fr": {
    "title": "Des groupes de jeunes manifestent à Francfort contre la conscription et les coupes sociales",
-   "seoTitle": "Protestation des jeunes à Francfort contre la conscription",
+   "seoTitle": "Manifestation de jeunes à Francfort contre la conscription",
    "tea": {
-    "why": "Les manifestants s'opposent à la réintroduction potentielle du service militaire obligatoire, aux coupes dans les budgets sociaux et éducatifs, ainsi qu'à la hausse du coût de la vie.",
-    "want": "Ils exigent une augmentation des investissements dans l'éducation, les services de santé mentale et la protection du climat, ainsi qu'un rejet de la conscription militaire obligatoire.",
-    "changed": "20 novembre : La police a fait état d'environ 1 000 participants à Francfort en fin d'après-midi, avec de multiples manifestations se déroulant à travers la ville."
+    "why": "Des jeunes ont manifesté contre le projet de conscription et les réductions de dépenses dans l'éducation et les services sociaux sous une pluie battante.",
+    "want": "Les manifestants ont exigé un meilleur financement des écoles, une aide contre les addictions, des ressources en psychothérapie, un logement abordable et le refus de la conscription militaire.",
+    "changed": "20 novembre : La police a rapporté que toutes les manifestations de jeunes enregistrées à Francfort s'étaient terminées pacifiquement dans la soirée, avec quatre arrestations préliminaires."
    },
-   "summary": "Le 20 novembre 2026, divers groupes et organisations de jeunes, dont 'Gen Z regelt' et le syndicat Verdi, ont organisé de multiples manifestations à Francfort-sur-le-Main. Les protestations, faisant partie d'un mouvement européen plus large, se sont concentrées sur l'opposition à la réintroduction potentielle de la conscription militaire, aux coupes dans les dépenses sociales et éducatives, et à la politique climatique. À Francfort, cinq rassemblements distincts ont été enregistrés. Une 'grève scolaire contre la conscription' a rassemblé des centaines de participants dans la matinée. Les organisateurs ont fait face à des difficultés dues aux conditions météorologiques défavorables et à des désaccords internes, entraînant une participation plus faible que prévu initialement. Les autorités ont déployé une présence policière importante pour prévenir d'éventuels troubles suite aux incidents d'octobre. Bien que certains commerces aient barricadé leurs vitrines par précaution, la police a décrit les manifestations comme pacifiques tout au long de la journée.",
+   "summary": "Des groupes de jeunes et des grévistes scolaires sont descendus dans les rues de Francfort-sur-le-Main dans le cadre d'une journée d'action coordonnée à travers l'Europe sous le slogan « Battez-vous pour notre avenir, pas pour leurs guerres ». Organisés par des initiatives telles que « Gen Z regelt », l'Association internationale de la jeunesse et le syndicat Verdi, les manifestants se sont rassemblés dans plusieurs lieux, notamment le Bahnhofsviertel, Bockenheim et l'université. Les participants ont exigé une augmentation des investissements dans l'éducation, la psychothérapie et la protection du climat, tout en exprimant une forte opposition à une éventuelle conscription militaire et aux coupes budgétaires gouvernementales. Malgré les attentes initiales de milliers de participants, la participation a été plus faible en raison de la pluie continue et de désaccords internes entre les groupes. Les autorités ont déployé plus de 2 000 policiers à travers la ville, et les responsables ont confirmé que les manifestations sont restées largement pacifiques, bien que certains magasins aient barricadé leurs vitrines suite aux troubles survenus en octobre.",
    "demands": [
-    "Non à la conscription militaire obligatoire",
-    "Augmentation du financement de l'éducation",
-    "Coût de la vie abordable",
-    "Mesures de protection du climat",
-    "Amélioration des services de santé mentale"
+    "Plus de financement pour les écoles, le soutien aux addictions et la psychothérapie",
+    "Une vie et un logement abordables",
+    "Non à la conscription militaire",
+    "Protection accrue du climat"
    ],
-   "response": "La police a déployé un effectif important de 2 000 agents pour maintenir l'ordre et prévenir toute violence potentielle. Les autorités ont rapporté que les manifestations sont restées pacifiques tout au long de la journée.",
+   "response": "La police a déployé plus de 2 000 agents à travers Francfort pour surveiller les manifestations. Le ministre de l'Intérieur de Hesse, Roman Poseck, a dressé un bilan provisoire positif, déclarant que les événements sont restés pacifiques grâce à la forte présence policière.",
    "updates": [
-    "Matin : Une 'grève scolaire contre la conscription' a débuté avec environ 400 à 600 participants.",
-    "Après-midi : Un rassemblement prévu à Weseler Werft a été annulé par les organisateurs en raison d'une faible participation.",
-    "Fin d'après-midi : La police a rapporté 1 000 participants aux manifestations en cours."
+    "Les manifestations contre la conscription et les coupes sociales ont commencé à Francfort sous une pluie continue et avec d'importants déploiements policiers.",
+    "La police a signalé quatre arrestations préliminaires lors de contrôles d'identité de personnes, dont une suspectée d'implication dans les émeutes d'octobre.",
+    "Les autorités ont confirmé que toutes les manifestations enregistrées à Francfort se sont terminées pacifiquement dans la soirée."
    ],
-   "conflicts": [
-    "Les organisateurs de la 'Schulstreik gegen Wehrpflicht' ont revendiqué 50 000 participants à l'échelle nationale, un chiffre décrit par les médias comme difficile à vérifier."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "La police a rapporté 1 000 manifestants en fin d'après-midi."
+    "crowd": "Actuellement, on estime qu'environ 500 personnes sont présentes.",
+    "arrests": "quatre personnes arrêtées à titre préliminaire"
    }
   },
   "de": {
    "title": "Jugendgruppen protestieren in Frankfurt gegen Wehrpflicht und Sozialkürzungen",
-   "seoTitle": "Jugendprotest in Frankfurt gegen Wehrpflicht",
+   "seoTitle": "Frankfurter Jugend protestiert gegen Wehrpflicht",
    "tea": {
-    "why": "Die Demonstranten lehnen die mögliche Wiedereinführung der allgemeinen Wehrpflicht, Kürzungen im Sozial- und Bildungsetat sowie steigende Lebenshaltungskosten ab.",
-    "want": "Sie fordern höhere Investitionen in Bildung, psychische Gesundheitsdienste und Klimaschutz sowie eine Ablehnung der verpflichtenden militärischen Wehrpflicht.",
-    "changed": "20. November: Die Polizei meldete am späten Nachmittag etwa 1.000 Teilnehmer in Frankfurt, wobei mehrere Demonstrationen im gesamten Stadtgebiet stattfanden."
+    "why": "Junge Menschen demonstrierten bei regnerischem Wetter gegen die geplante Wehrpflicht sowie gegen Ausgabenkürzungen in Bildung und sozialen Diensten.",
+    "want": "Die Protestierenden forderten eine bessere Schulfinanzierung, Suchthilfe, Psychotherapie-Ressourcen, bezahlbares Wohnen und keine militärische Wehrpflicht.",
+    "changed": "20. November: Die Polizei berichtete, dass alle angemeldeten Jugendproteste in Frankfurt am Abend friedlich beendet wurden, wobei es zu vier vorläufigen Festnahmen kam."
    },
-   "summary": "Am 20. November 2026 hielten verschiedene Jugendgruppen und Organisationen, darunter 'Gen Z regelt' und die Gewerkschaft Verdi, mehrere Demonstrationen in Frankfurt am Main ab. Die Proteste, die Teil einer breiteren europäischen Bewegung sind, konzentrierten sich auf den Widerstand gegen die mögliche Wiedereinführung der Wehrpflicht, Kürzungen bei Sozial- und Bildungsausgaben sowie die Klimapolitik. In Frankfurt wurden fünf separate Versammlungen angemeldet. Ein 'Schulstreik gegen Wehrpflicht' verzeichnete am Vormittag Hunderte Teilnehmer. Die Organisatoren sahen sich aufgrund von schlechtem Wetter und internen Unstimmigkeiten mit Herausforderungen konfrontiert, was zu einer geringeren Teilnehmerzahl als ursprünglich erwartet führte. Die Behörden setzten eine große Polizeipräsenz ein, um nach den Vorfällen im Oktober mögliche Unruhen zu verhindern. Während einige Geschäfte vorsorglich ihre Fenster vernagelten, beschrieb die Polizei die Demonstrationen den ganzen Tag über als friedlich.",
+   "summary": "Jugendgruppen und Schulstreikende gingen in Frankfurt am Main im Rahmen eines koordinierten europaweiten Aktionstages unter dem Motto „Fight for Our Future, Not Their Wars“ auf die Straße. Organisiert von Initiativen wie „Gen Z regelt“, der International Youth Association und der Gewerkschaft Verdi versammelten sich die Demonstranten an mehreren Orten, darunter das Bahnhofsviertel, Bockenheim und die Universität. Die Teilnehmer forderten verstärkte Investitionen in Bildung, Psychotherapie und Klimaschutz und äußerten gleichzeitig starken Widerstand gegen eine mögliche Wehrpflicht und staatliche Ausgabenkürzungen. Trotz der anfänglichen Erwartungen von Tausenden Teilnehmern war die Beteiligung aufgrund des Dauerregens und interner Meinungsverschiedenheiten zwischen den Gruppen geringer. Die Behörden setzten über 2.000 Polizeibeamte in der Stadt ein, und Beamte bestätigten, dass die Demonstrationen weitgehend friedlich blieben, obwohl einige Einzelhandelsgeschäfte nach früheren Unruhen im Oktober ihre Fenster verbarrikadierten.",
    "demands": [
-    "Keine verpflichtende militärische Wehrpflicht",
-    "Erhöhte Finanzierung für Bildung",
-    "Bezahlbare Lebenshaltungskosten",
-    "Klimaschutzmaßnahmen",
-    "Verbesserte psychische Gesundheitsdienste"
+    "Mehr Finanzierung für Schulen, Suchthilfe und Psychotherapie",
+    "Ein bezahlbares Leben und Wohnen",
+    "Nein zur militärischen Wehrpflicht",
+    "Verstärkter Klimaschutz"
    ],
-   "response": "Die Polizei setzte eine große Einheit von 2.000 Beamten ein, um die Ordnung aufrechtzuerhalten und mögliche Gewalt zu verhindern. Die Behörden berichteten, dass die Demonstrationen den ganzen Tag über friedlich blieben.",
+   "response": "Die Polizei setzte über 2.000 Beamte in ganz Frankfurt ein, um die Demonstrationen zu überwachen. Hessens Innenminister Roman Poseck gab eine positive Zwischenbilanz und erklärte, dass die Veranstaltungen dank der starken Polizeipräsenz friedlich geblieben seien.",
    "updates": [
-    "Vormittag: Ein 'Schulstreik gegen Wehrpflicht' begann mit etwa 400 bis 600 Teilnehmern.",
-    "Nachmittag: Eine geplante Kundgebung an der Weseler Werft wurde von den Organisatoren aufgrund geringer Teilnehmerzahlen abgesagt.",
-    "Später Nachmittag: Die Polizei meldete 1.000 Teilnehmer bei den laufenden Demonstrationen."
+    "Die Proteste gegen Wehrpflicht und Sozialkürzungen begannen in Frankfurt bei Dauerregen und starkem Polizeiaufgebot.",
+    "Die Polizei meldete vier vorläufige Festnahmen bei Identitätskontrollen von Personen, darunter eine Person, die verdächtigt wird, an den Unruhen im Oktober beteiligt gewesen zu sein.",
+    "Die Behörden bestätigten, dass alle angemeldeten Demonstrationen in Frankfurt am Abend friedlich endeten."
    ],
-   "conflicts": [
-    "Die Organisatoren des 'Schulstreiks gegen Wehrpflicht' gaben 50.000 Teilnehmer bundesweit an, eine Zahl, die von Medien als schwer überprüfbar beschrieben wurde."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "Die Polizei meldete am späten Nachmittag 1.000 Demonstranten."
+    "crowd": "Aktuell sind schätzungsweise um die 500 Menschen da.",
+    "arrests": "vier Menschen vorläufig festgenommen"
    }
   },
   "it": {
-   "title": "Gruppi giovanili protestano a Francoforte contro la leva obbligatoria e i tagli al sociale",
-   "seoTitle": "Protesta giovanile a Francoforte contro la leva",
+   "title": "Gruppi giovanili protestano a Francoforte contro la leva obbligatoria e i tagli sociali",
+   "seoTitle": "Giovani protestano a Francoforte contro la leva",
    "tea": {
-    "why": "I manifestanti si oppongono alla potenziale reintroduzione del servizio militare obbligatorio, ai tagli ai bilanci per l'istruzione e i servizi sociali, e all'aumento del costo della vita.",
-    "want": "Chiedono un aumento degli investimenti nell'istruzione, nei servizi di salute mentale e nella protezione climatica, oltre al rifiuto della leva militare obbligatoria.",
-    "changed": "20 novembre: La polizia ha riferito di circa 1.000 partecipanti a Francoforte nel tardo pomeriggio, con molteplici manifestazioni in corso in tutta la città."
+    "why": "I giovani hanno manifestato contro la proposta di leva obbligatoria e i tagli alla spesa per l'istruzione e i servizi sociali in mezzo a un clima piovoso.",
+    "want": "I manifestanti hanno chiesto maggiori finanziamenti per le scuole, assistenza per le dipendenze, risorse per la psicoterapia, alloggi a prezzi accessibili e il no alla leva militare obbligatoria.",
+    "changed": "20 novembre: La polizia ha riferito che tutte le proteste giovanili registrate a Francoforte si sono concluse pacificamente in serata, con quattro arresti preliminari."
    },
-   "summary": "Il 20 novembre 2026, vari gruppi e organizzazioni giovanili, tra cui 'Gen Z regelt' e il sindacato Verdi, hanno tenuto diverse manifestazioni a Francoforte sul Meno. Le proteste, parte di un più ampio movimento europeo, si sono concentrate sull'opposizione alla potenziale reintroduzione della leva militare, ai tagli alla spesa sociale e per l'istruzione, e alla politica climatica. A Francoforte sono stati registrati cinque raduni separati. Uno 'sciopero scolastico contro la leva' ha visto centinaia di partecipanti in mattinata. Gli organizzatori hanno affrontato difficoltà dovute al maltempo e a disaccordi interni, portando a un'affluenza inferiore a quella inizialmente prevista. Le autorità hanno dispiegato una massiccia presenza di polizia per prevenire potenziali disordini in seguito agli incidenti di ottobre. Sebbene alcune attività commerciali abbiano sbarrato le vetrine per precauzione, la polizia ha descritto le manifestazioni come pacifiche per tutta la giornata.",
+   "summary": "Gruppi giovanili e scioperanti scolastici sono scesi in piazza a Francoforte sul Meno come parte di una giornata di azione coordinata in tutta Europa sotto lo slogan \"Lottate per il nostro futuro, non per le loro guerre\". Organizzati da iniziative come \"Gen Z regelt\", l'Associazione Internazionale della Gioventù e il sindacato Verdi, i manifestanti si sono riuniti in diversi luoghi, tra cui il Bahnhofsviertel, Bockenheim e l'università. I partecipanti hanno chiesto maggiori investimenti nell'istruzione, nella psicoterapia e nella protezione del clima, esprimendo al contempo una forte opposizione alla potenziale leva militare obbligatoria e ai tagli alla spesa pubblica. Nonostante le aspettative iniziali di migliaia di partecipanti, l'affluenza è stata inferiore a causa della pioggia continua e dei disaccordi interni tra i gruppi. Le autorità hanno dispiegato oltre 2.000 agenti di polizia in tutta la città e i funzionari hanno confermato che le manifestazioni sono rimaste in gran parte pacifiche, sebbene alcuni negozi abbiano sbarrato le vetrine in seguito ai disordini di ottobre.",
    "demands": [
+    "Più finanziamenti per le scuole, supporto per le dipendenze e psicoterapia",
+    "Una vita e un alloggio a prezzi accessibili",
     "No alla leva militare obbligatoria",
-    "Maggiore finanziamento per l'istruzione",
-    "Costo della vita accessibile",
-    "Misure di protezione climatica",
-    "Miglioramento dei servizi di salute mentale"
+    "Maggiore protezione del clima"
    ],
-   "response": "La polizia ha dispiegato un grande contingente di 2.000 agenti per mantenere l'ordine e prevenire potenziali violenze. Le autorità hanno riferito che le manifestazioni sono rimaste pacifiche per tutta la giornata.",
+   "response": "La polizia ha dispiegato oltre 2.000 agenti in tutta Francoforte per monitorare le manifestazioni. Il ministro dell'Interno dell'Assia, Roman Poseck, ha fornito una valutazione provvisoria positiva, affermando che gli eventi sono rimasti pacifici grazie alla forte presenza della polizia.",
    "updates": [
-    "Mattina: Uno 'sciopero scolastico contro la leva' è iniziato con circa 400-600 partecipanti.",
-    "Pomeriggio: Un raduno previsto alla Weseler Werft è stato annullato dagli organizzatori a causa della scarsa affluenza.",
-    "Tardo pomeriggio: La polizia ha riferito di 1.000 partecipanti alle manifestazioni in corso."
+    "Le proteste contro la leva obbligatoria e i tagli sociali sono iniziate a Francoforte tra pioggia continua e massicci dispiegamenti di polizia.",
+    "La polizia ha riferito di quattro arresti preliminari durante i controlli di identità di individui, incluso uno sospettato di coinvolgimento nelle rivolte di ottobre.",
+    "Le autorità hanno confermato che tutte le manifestazioni registrate a Francoforte si sono concluse pacificamente in serata."
    ],
-   "conflicts": [
-    "Gli organizzatori dello 'Schulstreik gegen Wehrpflicht' hanno rivendicato 50.000 partecipanti a livello nazionale, una cifra descritta dai media come difficile da verificare."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "La polizia ha riferito di 1.000 manifestanti nel tardo pomeriggio."
+    "crowd": "Attualmente si stima che ci siano circa 500 persone.",
+    "arrests": "quattro persone arrestate in via preliminare"
    }
   },
   "pt": {
    "title": "Grupos de jovens protestam em Frankfurt contra o serviço militar obrigatório e cortes sociais",
-   "seoTitle": "Protesto juvenil em Frankfurt contra o serviço militar",
+   "seoTitle": "Jovens protestam em Frankfurt contra o serviço militar",
    "tea": {
-    "why": "Os manifestantes opõem-se à potencial reintrodução do serviço militar obrigatório, a cortes nos orçamentos da educação e serviços sociais, e ao aumento do custo de vida.",
-    "want": "Exigem um aumento do investimento na educação, serviços de saúde mental e proteção climática, e a rejeição do serviço militar obrigatório.",
-    "changed": "20 de novembro: A polícia reportou aproximadamente 1.000 participantes em Frankfurt ao final da tarde, com múltiplas manifestações a decorrer por toda a cidade."
+    "why": "Jovens manifestaram-se contra a proposta de serviço militar obrigatório e cortes nas despesas de educação e serviços sociais sob chuva.",
+    "want": "Os manifestantes exigiram melhor financiamento escolar, apoio a dependentes, recursos de psicoterapia, habitação acessível e não ao serviço militar obrigatório.",
+    "changed": "20 de novembro: A polícia informou que todos os protestos juvenis registados em Frankfurt terminaram pacificamente durante a noite, com quatro detenções preliminares."
    },
-   "summary": "No dia 20 de novembro de 2026, vários grupos e organizações de jovens, incluindo 'Gen Z regelt' e o sindicato Verdi, realizaram múltiplas manifestações em Frankfurt am Main. Os protestos, parte de um movimento europeu mais vasto, focaram-se na oposição à potencial reintrodução do serviço militar obrigatório, cortes na despesa social e educativa, e na política climática. Em Frankfurt, foram registadas cinco assembleias separadas. Uma 'greve escolar contra o serviço militar' contou com centenas de participantes durante a manhã. Os organizadores enfrentaram desafios devido ao mau tempo e a divergências internas, levando a uma afluência inferior à inicialmente prevista. As autoridades destacaram uma grande presença policial para prevenir potenciais distúrbios após os incidentes de outubro. Embora algumas empresas tenham tapado as montras por precaução, a polícia descreveu as manifestações como pacíficas ao longo de todo o dia.",
+   "summary": "Grupos de jovens e grevistas escolares saíram às ruas em Frankfurt am Main como parte de um dia de ação coordenado em toda a Europa sob o lema \"Lutem pelo nosso futuro, não pelas guerras deles\". Organizados por iniciativas como \"Gen Z regelt\", a Associação Internacional da Juventude e o sindicato Verdi, os manifestantes reuniram-se em vários locais, incluindo o Bahnhofsviertel, Bockenheim e a universidade. Os participantes exigiram um maior investimento na educação, psicoterapia e proteção climática, ao mesmo tempo que expressaram uma forte oposição ao potencial serviço militar obrigatório e aos cortes nas despesas governamentais. Apesar das expectativas iniciais de milhares de participantes, a afluência foi menor devido à chuva contínua e a divergências internas entre os grupos. As autoridades destacaram mais de 2.000 agentes da polícia por toda a cidade, e os responsáveis confirmaram que as manifestações se mantiveram em grande parte pacíficas, embora algumas lojas tenham tapado as montras após os distúrbios ocorridos em outubro.",
    "demands": [
+    "Mais financiamento para escolas, apoio a dependentes e psicoterapia",
+    "Uma vida e habitação acessíveis",
     "Não ao serviço militar obrigatório",
-    "Aumento do financiamento para a educação",
-    "Custo de vida acessível",
-    "Medidas de proteção climática",
-    "Melhoria dos serviços de saúde mental"
+    "Maior proteção climática"
    ],
-   "response": "A polícia destacou uma grande força de 2.000 agentes para manter a ordem e prevenir potencial violência. As autoridades reportaram que as manifestações permaneceram pacíficas ao longo do dia.",
+   "response": "A polícia destacou mais de 2.000 agentes por toda Frankfurt para monitorizar as manifestações. O ministro do Interior de Hesse, Roman Poseck, fez uma avaliação provisória positiva, afirmando que os eventos se mantiveram pacíficos graças à forte presença policial.",
    "updates": [
-    "Manhã: Uma 'greve escolar contra o serviço militar' começou com aproximadamente 400 a 600 participantes.",
-    "Tarde: Uma concentração planeada em Weseler Werft foi cancelada pelos organizadores devido à baixa afluência.",
-    "Final da tarde: A polícia reportou 1.000 participantes nas manifestações em curso."
+    "Os protestos contra o serviço militar obrigatório e os cortes sociais começaram em Frankfurt sob chuva contínua e forte destacamento policial.",
+    "A polícia informou quatro detenções preliminares durante verificações de identidade de indivíduos, incluindo um suspeito de envolvimento nos distúrbios de outubro.",
+    "As autoridades confirmaram que todas as manifestações registadas em Frankfurt terminaram pacificamente durante a noite."
    ],
-   "conflicts": [
-    "Os organizadores da 'Schulstreik gegen Wehrpflicht' reivindicaram 50.000 participantes a nível nacional, um número descrito pelos meios de comunicação como difícil de verificar."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "A polícia reportou 1.000 manifestantes ao final da tarde."
+    "crowd": "Atualmente, estima-se que estejam presentes cerca de 500 pessoas.",
+    "arrests": "quatro pessoas detidas preliminarmente"
    }
   },
   "nl": {
    "title": "Jongerengroepen protesteren in Frankfurt tegen dienstplicht en sociale bezuinigingen",
-   "seoTitle": "Jongerenprotest in Frankfurt tegen dienstplicht",
+   "seoTitle": "Frankfurtse jongeren protesteren tegen dienstplicht",
    "tea": {
-    "why": "De demonstranten verzetten zich tegen de mogelijke herinvoering van de militaire dienstplicht, bezuinigingen op het onderwijs- en sociale budget, en stijgende kosten van levensonderhoud.",
-    "want": "Zij eisen meer investeringen in onderwijs, geestelijke gezondheidszorg en klimaatbescherming, en een afwijzing van de verplichte militaire dienstplicht.",
-    "changed": "20 november: De politie meldde eind van de middag ongeveer 1.000 deelnemers in Frankfurt, waarbij meerdere demonstraties door de hele stad plaatsvonden."
+    "why": "Jongeren demonstreerden tegen de voorgestelde dienstplicht en bezuinigingen op onderwijs en sociale voorzieningen tijdens regenachtig weer.",
+    "want": "De demonstranten eisten betere financiering voor scholen, hulp bij verslavingen, middelen voor psychotherapie, betaalbaar wonen en geen militaire dienstplicht.",
+    "changed": "20 november: De politie meldde dat alle geregistreerde jongerenprotesten in Frankfurt 's avonds vredig waren beëindigd, met vier voorlopige arrestaties."
    },
-   "summary": "Op 20 november 2026 hielden diverse jongerengroepen en organisaties, waaronder 'Gen Z regelt' en de vakbond Verdi, meerdere demonstraties in Frankfurt am Main. De protesten, onderdeel van een bredere Europese beweging, richtten zich op het verzet tegen de mogelijke herinvoering van de militaire dienstplicht, bezuinigingen op sociale en onderwijsuitgaven, en het klimaatbeleid. In Frankfurt werden vijf afzonderlijke bijeenkomsten geregistreerd. Een 'schoolstaking tegen de dienstplicht' trok in de ochtend honderden deelnemers. De organisatoren kregen te maken met uitdagingen door slecht weer en interne meningsverschillen, wat leidde tot een lagere opkomst dan aanvankelijk verwacht. De autoriteiten zetten een grote politiemacht in om mogelijke onrust na eerdere incidenten in oktober te voorkomen. Hoewel sommige bedrijven uit voorzorg hun ramen dichtgetimmerd hadden, omschreef de politie de demonstraties de hele dag als vreedzaam.",
+   "summary": "Jongerengroepen en stakende scholieren gingen de straat op in Frankfurt am Main als onderdeel van een gecoördineerde actiedag in heel Europa onder het motto \"Vecht voor onze toekomst, niet voor hun oorlogen\". Georganiseerd door initiatieven zoals \"Gen Z regelt\", de International Youth Association en de vakbond Verdi, verzamelden demonstranten zich op meerdere locaties, waaronder het Bahnhofsviertel, Bockenheim en de universiteit. De deelnemers eisten hogere investeringen in onderwijs, psychotherapie en klimaatbescherming, terwijl ze zich fel uitspraken tegen een mogelijke militaire dienstplicht en bezuinigingen door de overheid. Ondanks de aanvankelijke verwachtingen van duizenden aanwezigen, was de opkomst lager door de aanhoudende regen en interne meningsverschillen tussen groepen. De autoriteiten zetten meer dan 2.000 politieagenten in door de hele stad, en functionarissen bevestigden dat de demonstraties grotendeels vredig bleven, hoewel sommige winkels hun ramen dichtgetimmerd hadden na eerdere onrust in oktober.",
    "demands": [
-    "Geen verplichte militaire dienstplicht",
-    "Verhoogde financiering voor onderwijs",
-    "Betaalbare kosten van levensonderhoud",
-    "Maatregelen voor klimaatbescherming",
-    "Verbeterde geestelijke gezondheidszorg"
+    "Meer financiering voor scholen, verslavingszorg en psychotherapie",
+    "Een betaalbaar leven en woning",
+    "Nee tegen militaire dienstplicht",
+    "Verhoogde klimaatbescherming"
    ],
-   "response": "De politie zette een grote macht van 2.000 agenten in om de orde te handhaven en mogelijk geweld te voorkomen. De autoriteiten meldden dat de demonstraties de hele dag vreedzaam bleven.",
+   "response": "De politie zette meer dan 2.000 agenten in heel Frankfurt in om de demonstraties te monitoren. De minister van Binnenlandse Zaken van Hessen, Roman Poseck, gaf een positieve tussentijdse beoordeling en verklaarde dat de evenementen vredig bleven dankzij de zware politieaanwezigheid.",
    "updates": [
-    "Ochtend: Een 'schoolstaking tegen de dienstplicht' begon met ongeveer 400 tot 600 deelnemers.",
-    "Middag: Een geplande bijeenkomst bij Weseler Werft werd door de organisatoren geannuleerd vanwege een lage opkomst.",
-    "Eind van de middag: De politie meldde 1.000 deelnemers bij de lopende demonstraties."
+    "De protesten tegen de dienstplicht en sociale bezuinigingen begonnen in Frankfurt tijdens aanhoudende regen en met zware politie-inzet.",
+    "De politie meldde vier voorlopige arrestaties tijdens identiteitscontroles van individuen, waaronder één persoon die verdacht wordt van betrokkenheid bij de rellen in oktober.",
+    "De autoriteiten bevestigden dat alle geregistreerde demonstraties in Frankfurt 's avonds vredig waren beëindigd."
    ],
-   "conflicts": [
-    "De organisatoren van de 'Schulstreik gegen Wehrpflicht' claimden 50.000 deelnemers landelijk, een cijfer dat door media als moeilijk verifieerbaar werd omschreven."
-   ],
+   "conflicts": [],
    "numbers": {
-    "crowd": "De politie meldde eind van de middag 1.000 demonstranten."
+    "crowd": "Op dit moment zijn er naar schatting ongeveer 500 mensen aanwezig.",
+    "arrests": "vier personen voorlopig gearresteerd"
    }
   }
- }
+ },
+ "endedOn": "2026-11-20"
 }
