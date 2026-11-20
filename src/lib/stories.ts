@@ -1,7 +1,8 @@
 // Big Stories: news that is not a protest but readers shouldn't miss (owner decision, 31 Oct 2026).
-// Hand-picked and hand-written in data/stories/<slug>.json, under the same newsroom rules as a
-// protest card: neutral text, both sides, every line sourced, ≥ 2 independent newsrooms or it
-// isn't shown, and the same confidence formula. The pipeline never writes these.
+// data/stories/<slug>.json, under the same newsroom rules as a protest card: neutral text, both
+// sides, every line sourced, ≥ 2 independent newsrooms or it isn't shown, and the same confidence
+// formula. Written by hand, and since 20 Nov 2026 also refreshed once a day by pipeline/stories.ts
+// (owner decision), whose rule checks enforce the same bar before a file is written.
 import fs from 'node:fs';
 import path from 'node:path';
 import { RULES } from '../../pipeline/config.ts';
@@ -30,7 +31,8 @@ export interface Story {
   summary: string;
   sources: ProtestEvent['sources'];
   conflicts: string[];
-  verifiedAt: string; // when a human last checked every line against the sources
+  verifiedAt: string; // when every line was last checked against the sources (by a human, or by the daily step when auto)
+  auto?: boolean; // written by pipeline/stories.ts
   updatedAt: string;
   // Filled in here, never in the file:
   publishers: number;

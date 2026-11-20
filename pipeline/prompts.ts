@@ -328,6 +328,147 @@ export const readerSchema = {
   required: ['decision', 'reason', 'title', 'why', 'want', 'summary', 'organizers', 'demands', 'causes', 'slug_words'],
 } as const;
 
+// ── Big Stories, once a day (stories.ts) ───────────────────────────────────────
+
+export interface HeadlineIn {
+  market: string;
+  title: string;
+  publisher: string;
+}
+export interface KnownStory {
+  slug: string;
+  title: string;
+  checked: string;
+}
+export interface StoryPickOut {
+  picks: { existing_slug: string | null; query: string; label: string }[];
+}
+
+export function storyPickPrompt(today: string, headlines: HeadlineIn[], known: KnownStory[], max: { all: number; updates: number }): string {
+  return `Today is ${today} (UTC). LOUD is a protest tracker. Besides protests it shows a few "Big Stories": news that is NOT a protest but that readers in the US, Europe and Japan shouldn't miss.
+
+Below are today's top headlines from Google News in several markets, and the Big Stories already on the site.
+
+Choose up to ${max.all} stories to write or update today:
+- Updates first: pick an existing story (existing_slug = its slug) only if today's headlines show a new development in it. At most ${max.updates} updates.
+- New stories: major news covered in at least two markets, or the clear top story of one big market: elections and governments, wars and diplomacy, big disasters and attacks, major economic or business news, landmark court rulings, a top sports result.
+- Never pick: protests, strikes, marches or rallies (the protest tracker covers those), celebrity gossip, crime stories about private individuals, health tips, product launches, weather, horoscopes, opinion pieces, or anything only local.
+- Do not pick two stories about the same event, and do not pick a new story that an existing one already covers (update that one instead).
+
+For each pick give:
+- query: 3–8 plain English words to find today's newsroom coverage in a news search, e.g. "Kerch bridge strike Ukraine".
+- label: a neutral 6–12 word description of the story.
+
+EXISTING BIG STORIES:
+${known.length ? known.map((k) => `${k.slug} | ${k.title} | last checked ${k.checked}`).join('\n') : '(none)'}
+
+TODAY'S HEADLINES:
+${headlines.map((h) => `[${h.market}] ${h.title} — ${h.publisher}`).join('\n')}
+
+Return {"picks":[...]}, most important first.`;
+}
+
+export const storyPickSchema = {
+  type: 'object',
+  properties: {
+    picks: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: { existing_slug: { type: ['string', 'null'] }, query: { type: 'string' }, label: { type: 'string' } },
+        required: ['existing_slug', 'query', 'label'],
+      },
+    },
+  },
+  required: ['picks'],
+} as const;
+
+export interface StoryOut {
+  is_news: boolean;
+  is_protest: boolean;
+  names_private_people: boolean;
+  not_reason: string | null;
+  same_story_sources: number[];
+  title: string;
+  seo_title: string;
+  slug_words: string;
+  topic: 'sport' | 'politics' | 'business' | 'world';
+  countries: string[];
+  status: 'developing' | 'settled';
+  serious: boolean;
+  started_on: string;
+  dek: string;
+  happened: string;
+  happened_sources: number[];
+  sides: { who: string; says: string; sources: number[] }[];
+  next: string;
+  next_sources: number[];
+  summary: string;
+  conflicts: string[];
+}
+
+export function storyPrompt(now: string, label: string, previous: { title: string; dek: string; summary: string } | null, sources: SummarySource[]): string {
+  return `Now: ${now} (UTC). Big Story: "${label}".
+
+Write LOUD's Big Story page from the numbered news sources below. It is checked like a protest card: at least two newsrooms, every side with its sources, every line sourced, neutral words.
+${previous ? `\nThe page already exists. Its earlier version is below for context only: it is NOT a source. Keep what the sources below still support, update what changed, and leave out anything they do not state.\nEARLIER VERSION: ${JSON.stringify(previous)}\n` : ''}
+- is_news: true if the sources, taken together, report this real news story. False for rumours, opinion pieces, or sources about different stories. If false, give not_reason and fill the rest with empty values.
+- is_protest: true if the story is mainly a protest, strike, march or rally (the protest tracker covers those instead).
+- names_private_people: true if you could not write the story without naming a private person who is not a public figure (a victim, suspect, witness, relative, ordinary employee). Public officials, politicians, company executives, public spokespeople, athletes and organisations may be named. Describe everyone else by role ("a 24-year-old man", "a former executive"), and then answer false.
+- same_story_sources: numbers of the sources that are news reports about this story. Leave out opinion columns, analysis or explainer pieces, think-tank pages, press releases and NGO or company statements (what an NGO or company says can still be a side when a news report in the list quotes it).
+- title: neutral headline ≤ 110 chars: who did what. No adjectives, no clickbait, no question.
+- seo_title: ≤ 60 chars, the words people would search, e.g. "Kerch Bridge strike: road span collapses into the strait".
+- slug_words: 3–6 lowercase kebab words naming the story, no date, e.g. "ukraine-kerch-bridge-strike".
+- topic: sport | politics | business | world.
+- countries: ISO 3166-1 alpha-2 codes, lowercase, of the main countries involved (1–6).
+- status: developing, or settled when the story has concluded (a final result, a verdict, a completed vote).
+- serious: true if the story involves deaths, serious injuries or attacks on people.
+- started_on: YYYY-MM-DD when the story began.
+- dek: one or two sentences, ≤ 280 chars: what is going on now.
+- happened: 120–220 words, the facts in order, with dates written as "17 November". Attribute every claim ("police said", "according to AP").
+- happened_sources: numbers of the sources for it.
+- sides: 2–5 entries, one per party with a stake (government, opposition, company, country, court, experts...). who: the party; says: ≤ 70 words of what they say or did, with short exact quotes in double quotes where the sources give them; sources: numbers.
+- next: ≤ 70 words: what happens next, dates if stated. next_sources: numbers.
+- summary: 70–120 words: the whole story in brief, neutral, for search results.
+- conflicts: plain statements where sources disagree on a number, date or fact, naming each source. [] if none.
+Rules: use only what the sources state. Never guess a number. Every number you write must appear in a source. Never copy a sentence from a source: only short exact quotes inside double quotes may repeat source wording. No adjectives such as "brave", "massive", "shameful", "violent mob" outside a quote.
+
+SOURCES:
+${sources.map((s) => `[${s.n}] ${s.publisher} — ${s.published ?? 'date unknown'}\n${s.title}\n${s.text}`).join('\n\n')}`;
+}
+
+export const storySchema = {
+  type: 'object',
+  properties: {
+    is_news: { type: 'boolean' },
+    is_protest: { type: 'boolean' },
+    names_private_people: { type: 'boolean' },
+    not_reason: { type: ['string', 'null'] },
+    same_story_sources: nums,
+    title: { type: 'string' },
+    seo_title: { type: 'string' },
+    slug_words: { type: 'string' },
+    topic: { type: 'string', enum: ['sport', 'politics', 'business', 'world'] },
+    countries: { type: 'array', items: { type: 'string' } },
+    status: { type: 'string', enum: ['developing', 'settled'] },
+    serious: { type: 'boolean' },
+    started_on: { type: 'string' },
+    dek: { type: 'string' },
+    happened: { type: 'string' },
+    happened_sources: nums,
+    sides: {
+      type: 'array',
+      items: { type: 'object', properties: { who: { type: 'string' }, says: { type: 'string' }, sources: nums }, required: ['who', 'says', 'sources'] },
+    },
+    next: { type: 'string' },
+    next_sources: nums,
+    summary: { type: 'string' },
+    conflicts: { type: 'array', items: { type: 'string' } },
+  },
+  required: ['is_news', 'is_protest', 'names_private_people', 'not_reason', 'same_story_sources', 'title', 'seo_title', 'slug_words', 'topic',
+    'countries', 'status', 'serious', 'started_on', 'dek', 'happened', 'happened_sources', 'sides', 'next', 'next_sources', 'summary', 'conflicts'],
+};
+
 // ── Translations (site languages) ─────────────────────────────────────────────
 
 export function translatePrompt(source: object, langs: readonly { code: string; name: string; note: string }[]): string {

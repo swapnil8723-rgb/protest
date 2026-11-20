@@ -1,6 +1,7 @@
 name: pipeline
 
 # Every 4 hours: discover → verify → summarise → translate → commit data/ to main.
+# Once a day (first run from 06:00 UTC) the same run also refreshes the Big Stories: ~3 more minutes.
 # Vercel's Git integration builds and deploys every push to main; runs where nothing
 # visible changed are committed with "[skip vercel]" (see vercel.json ignoreCommand).
 # Budget: private repo = 2,000 free Actions minutes/month; 6 runs/day × ~9 min ≈ 1,650,
@@ -68,6 +69,7 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           GEMINI_FALLBACK: ${{ vars.GEMINI_FALLBACK }}
           READER_REPORTS: ${{ vars.READER_REPORTS }}
+          STORIES: ${{ vars.STORIES }} # Big Stories once a day (pipeline/stories.ts); repo variable STORIES=off stops it
           READER_INBOX_URL: ${{ inputs.inbox_url }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

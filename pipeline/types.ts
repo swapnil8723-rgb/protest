@@ -162,6 +162,7 @@ export interface State {
   swept?: Record<string, string>; // Google News links the sweep already looked at → when (sweep.ts)
   aiCalls: { day: string; count: number };
   telegramOffset?: number;
+  storiesDay?: string; // UTC day the Big Stories were last refreshed (stories.ts)
   lastRunAt?: string;
   runs: RunLog[];
 }

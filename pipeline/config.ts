@@ -128,6 +128,14 @@ export const LIMITS = {
   summarySources: 10,
   /** No new AI call starts after this many minutes, so the run saves well inside the workflow's 20-minute timeout. */
   aiMinutesPerRun: Number(process.env.AI_MINUTES_PER_RUN || 12),
+  /** Big Stories (stories.ts), once a day in the first run from this UTC hour: stories written or
+   *  updated (one AI call each, plus one to pick them), of which at most this many updates, and the
+   *  time the news search and article downloads may take. About 3 Actions minutes a day. */
+  storiesFromHourUtc: 6,
+  storiesPerDay: Number(process.env.STORIES_PER_DAY || 6),
+  storyUpdatesPerDay: 3,
+  storySources: 6,
+  storySeconds: 150,
 };
 
 /** Languages the site is published in besides English (src/i18n has the interface text).

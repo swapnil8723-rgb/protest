@@ -17,7 +17,7 @@ export const ESTABLISHED = new Set([
   'thelocal.fr', 'thelocal.de', 'thelocal.es', 'politico.com', 'politico.eu', 'axios.com', 'latimes.com',
 ]);
 
-const SERIOUS_WORDS = /\b(brave|heroic|thugs?|goons?|mob|rioters|hooligans|anarchists|massive|huge crowd|shameful|disgraceful)\b/i;
+export const SERIOUS_WORDS = /\b(brave|heroic|thugs?|goons?|mob|rioters|hooligans|anarchists|massive|huge crowd|shameful|disgraceful)\b/i;
 
 export function confidence(e: Pick<ProtestEvent, 'publishers' | 'sources' | 'conflicts' | 'lastReportAt' | 'isOngoing'>): number {
   const n = e.publishers;

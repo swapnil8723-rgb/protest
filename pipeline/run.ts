@@ -1,5 +1,5 @@
 // The pipeline (every 4 hours): discover → fetch → summaries already due → classify → dedupe →
-// new summaries → reader reports → score → translate → review → save.
+// new summaries → reader reports → Big Stories (once a day) → score → translate → review → save.
 // usage: node pipeline/run.ts                 (normal run, GitHub Actions)
 //        node pipeline/run.ts --backfill=5   (launch: last 5 days of GDELT daily files)
 //        node pipeline/run.ts --no-discover  (re-process what is already stored)
@@ -13,6 +13,7 @@ import { corroborate } from './corroborate.ts';
 import { discoverDays, discoverRecent, type GdeltHit } from './gdelt.ts';
 import { discoverRss, type RssItem } from './rss.ts';
 import { score } from './score.ts';
+import { refreshStories, storiesDue } from './stories.ts';
 import { sweep, titleKey } from './sweep.ts';
 import { loadArticles, loadEvents, loadState, saveArticles, saveEvents, saveState, writeChanged } from './store.ts';
 import { reserveSlugs, summarize, visible } from './summarize.ts';
@@ -63,6 +64,7 @@ const run: RunLog = { at: nowIso(), ms: 0, discovered: 0, fetched: 0, classified
 const summarized: string[] = [];
 const summarizedIds = new Set<string>();
 const pages = new Map<string, Page>();
+const storyPaths: string[] = []; // Big Story pages written this run (for the deploy gate and IndexNow)
 // Seconds each step took, logged once per run (to see where the Actions minutes go).
 const laps: string[] = [];
 let lastLap = Date.now();
@@ -229,6 +231,17 @@ try {
     }
     lap('reader reports');
   }
+
+  // 7. Big Stories, once a day (stories.ts). Never fatal to the run; protests come first.
+  if (storiesDue(state)) {
+    try {
+      storyPaths.push(...(await refreshStories(ai, state, log)).map((slug) => `/story/${slug}`));
+    } catch (e) {
+      if (e instanceof OverBudget) throw e;
+      log(`stories: stopped: ${(e as Error).message}`);
+    }
+    lap('stories');
+  }
 } catch (e) {
   if (e instanceof OverBudget) log(`AI budget: ${e.message} — remaining work waits for a later run`);
   else throw e;
@@ -262,6 +275,7 @@ try {
       for (const l of TRANSLATE_TO) if (e.i18n?.[l.code]) changed.push(...paths.map((p) => `/${l.code}${p}`));
     }
   }
+  changed.push(...storyPaths);
   if (changed.length) changed.push('/', '/today');
   writeChanged(changed);
   saveEvents(events);
