@@ -16,65 +16,61 @@
  "scope": "nationwide",
  "causes": [
   "education",
-  "climate",
-  "jobs"
+  "jobs",
+  "prices"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-20",
- "status": "scheduled",
- "vibe": "heating-up",
+ "status": "ongoing",
+ "vibe": "peak-loud",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": false,
+ "review": "pending",
+ "reviewReasons": [
+  "top-10",
+  "sources-disagree"
+ ],
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Young people feel ignored by politicians amid crumbling schools, rising living costs, and increasing military spending and conscription fears.",
-  "want": "Better funding for education, mental health and addiction support, affordable living, climate action, and an end to the military draft.",
-  "changed": "Nov 20: Organisers warned politicians against empty promises as thousands prepared to demonstrate across dozens of German cities."
+  "why": "Young people feel ignored by political decision-makers regarding deteriorating schools, high living costs, and military conscription.",
+  "want": "Better education funding, affordable living, effective climate action, more psychotherapy places, and an end to conscription plans.",
+  "changed": "Nov 20: Thousands of protesters gathered in Berlin for demonstrations organised by the Gen Z Regelt alliance and other student groups."
  },
- "summary": "The youth-led movement \"Gen Z Regelt\" called for nationwide demonstrations across more than 70 German cities, with events planned in Berlin starting at Alexanderplatz and moving toward Mariannenplatz. Separate rallies were also organized by the Federal Student Conference and the \"School strike against conscription\" alliance. Protesters demanded increased funding for schools and infrastructure, climate protection, affordable living, and opposition to military conscription and rearmament policies. Authorities reported that thousands of participants were registered for the events in Berlin, which coincided with high-level international political meetings and state visits.",
+ "summary": "Thousands of young people took to the streets in Berlin and across Germany for a wave of demonstrations organised by the Gen Z Regelt alliance and various student groups. The protesters voiced opposition to military service modernization and conscription plans, while demanding increased funding for schools, affordable housing, stronger climate action, and better mental health support. Demonstrators gathered near Alexanderplatz with banners bearing slogans against military involvement and burdened education systems. The rallies followed earlier actions on October 31 and coincided with similar youth mobilizations across Europe. Police deployed a large force of up to 1,600 additional officers in Berlin to accompany the march, noting that the gathering remained peaceful.",
  "organizers": [
-  "Gen Z regelt",
+  "Gen Z Regelt",
   "Bundesschülerkonferenz",
   "Schulstreik gegen Wehrpflicht",
   "Fridays for Future"
  ],
  "demands": [
-  "More funding for schools and education",
-  "Affordable living and housing",
-  "Stronger climate action",
-  "No return to military conscription",
-  "Better mental health and addiction support"
+  "Reject military conscription and rearmament policies",
+  "Increase funding and resources for schools and education",
+  "Provide affordable living and housing",
+  "Expand access to psychotherapy places",
+  "Take stronger action on climate protection"
  ],
- "response": "No official response reported in the sources regarding policy changes, though researchers and politicians from various parties commented on the legitimacy of the youth concerns.",
+ "response": "According to rbb and Tagesspiegel, police deployed up to 1,600 additional officers to accompany the peaceful protest marches in Berlin.",
  "numbers": {
   "crowd": {
-   "value": 15000,
-   "text": "Allein für Berlin haben die Veranstalter jedoch schon 15.000 Demonstranten angemeldet.",
+   "value": 4000,
+   "text": "bislang etwa 4,000 Menschen friedlich zusammengekommen, wie die Polizei dem rbb mitgeteilt hat",
    "sources": [
-    1
+    4
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-15",
-   "text": "The \"Gen Z regelt\" initiative announced its second nationwide day of protest across more than 70 German cities.",
+   "text": "The Gen Z Regelt movement announced a second nationwide day of protest across more than 70 German cities.",
    "sources": [
     1
    ]
   },
   {
-   "at": "2026-11-17",
-   "text": "Police announced large-scale traffic restrictions in Berlin due to concurrent state visits and the upcoming demonstrations.",
-   "sources": [
-    2
-   ]
-  },
-  {
    "at": "2026-11-20",
-   "text": "Organisers warned the government against empty promises, demanding concrete political consequences and assurances.",
+   "text": "Thousands of young protesters gathered near Alexanderplatz in Berlin as part of the nationwide demonstration day.",
    "sources": [
     9
    ]
@@ -90,84 +86,82 @@
   },
   {
    "n": 2,
-   "url": "https://www.tagesschau.de/inland/regional/berlin/rbb-verkehr-in-berlin-wegen-staatsbesuchen-ab-donnerstag-beeintraechtigt-100.html",
-   "publisher": "tagesschau.de",
-   "title": "Berlin: Verkehr in Berlin wegen Staatsbesuchen ab Donnerstag beeinträchtigt",
-   "publishedAt": "2026-11-17T16:34:53.000Z"
-  },
-  {
-   "n": 3,
    "url": "https://www.ndr.de/nachrichten/niedersachsen/gen-z-regelt-wieder-zahlreiche-demos-am-freitag,genz-282.html",
    "publisher": "ndr.de",
    "title": "\"Gen Z regelt\": Wieder zahlreiche Demos am Freitag - das sind die Forderungen",
    "publishedAt": "2026-11-18T10:51:49.513Z"
   },
   {
-   "n": 4,
+   "n": 3,
    "url": "https://aa.com.tr/en/europe/won-t-just-sit-back-germany-s-gen-z-mobilizes-over-conscription-living-costs-climate/4131209",
    "publisher": "aa.com.tr",
    "title": "Won’t just sit back’: Germany’s Gen Z mobilizes over conscription, living costs, climate",
    "publishedAt": "2026-11-19T18:22:08.990Z"
   },
   {
-   "n": 5,
+   "n": 4,
    "url": "https://www.rbb24.de/panorama/beitrag/2026/11/berlin-jugend-demonstrationen-gen-z-regelt-schulstreik-gegen-wehrpflicht.html",
    "publisher": "rbb24.de",
    "title": "Neue Jugendproteste am Freitag angekündigt",
    "publishedAt": "2026-11-20T05:17:11.000Z"
   },
   {
-   "n": 6,
-   "url": "https://www.zdfheute.de/briefing/gen-z-proteste-kunz-zdfheute-update-100.html",
-   "publisher": "zdfheute.de",
-   "title": "Update am Morgen: Gen Z gleich \"Generation Zero\"?",
-   "publishedAt": "2026-11-20T05:55:48.927Z"
-  },
-  {
-   "n": 7,
+   "n": 5,
    "url": "https://www.aljazeera.com/news/2026/11/20/we-dont-want-our-future-decided-by-the-military-young-germans-protest?traffic_source=rss",
    "publisher": "aljazeera.com",
    "title": "A tale of two protesters: Young Germans resist military expansion",
    "publishedAt": "2026-11-20T06:20:26.000Z"
   },
   {
-   "n": 8,
-   "url": "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/oekonom-zum-bildungsprotest-die-schulen-sind-nicht-kaputtgespart-im-gegenteil-accg-201694211.html",
-   "publisher": "faz.net",
-   "title": "Ökonom zum Bildungsprotest: „Die Schulen sind nicht kaputtgespart, im Gegenteil\"",
-   "publishedAt": "2026-11-20T07:07:40.000Z"
-  },
-  {
-   "n": 9,
-   "url": "https://www.tagesspiegel.de/berlin/dpa-demonstrationen-gen-z-regelt-warnt-politik-vor-leeren-versprechen-16305348.html",
-   "publisher": "tagesspiegel.de",
-   "title": "Demonstrationen: „Gen Z regelt“ warnt Politik vor „leeren Versprechen“",
-   "publishedAt": "2026-11-20T07:53:52.000Z"
-  },
-  {
-   "n": 10,
+   "n": 6,
    "url": "https://www.thelocal.se/20261120/fight-for-our-future-youth-protesters-to-join-forces-across-europe",
    "publisher": "thelocal.se",
    "title": "'Fight for our future': Youth protesters to join forces across Europe",
    "publishedAt": "2026-11-20T08:14:13.000Z"
+  },
+  {
+   "n": 7,
+   "url": "https://www.tagesschau.de/inland/gesellschaft/gen-z-regelt-proteste-106.html",
+   "publisher": "tagesschau.de",
+   "title": "Die Protestbewegung \"Gen Z regelt\" stellt viele Forderungen für die junge Generation. Mit Erfolg?",
+   "publishedAt": "2026-11-20T11:40:48.947Z"
+  },
+  {
+   "n": 8,
+   "url": "https://www.derstandard.at/story/3000000350188/gegen-wehrpflicht-und-marode-klos-neue-jugendproteste-in-deutschland",
+   "publisher": "derstandard.at",
+   "title": "Gegen Wehrpflicht und marode Klos: Neue Jugendproteste in Deutschland",
+   "publishedAt": "2026-11-20T11:44:42.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://www.tagesspiegel.de/berlin/dpa-jugendprotest-gen-z-regelt-tausende-protestieren-in-berlin-16307600.html",
+   "publisher": "tagesspiegel.de",
+   "title": "Jugendprotest: „Gen Z regelt“: Tausende protestieren in Berlin",
+   "publishedAt": "2026-11-20T12:45:03.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.95,
- "publishers": 10,
- "reports24h": 16,
- "reportsPrev24h": 4,
- "reports48h": 20,
+ "conflicts": [
+  "Police reported 2,000 to 3,000 participants near Alexanderplatz, while a Gen Z Regelt spokesperson claimed 6,000 demonstrators."
+ ],
+ "confidence": 0.8,
+ "publishers": 9,
+ "reports24h": 20,
+ "reportsPrev24h": 2,
+ "reports48h": 22,
  "firstSeenAt": "2026-11-08T21:52:03.504Z",
- "lastReportAt": "2026-11-20T08:14:13.000Z",
- "lastCheckedAt": "2026-11-20T08:55:51.961Z",
- "updatedAt": "2026-11-20T08:53:11.397Z",
+ "lastReportAt": "2026-11-20T12:45:03.000Z",
+ "lastCheckedAt": "2026-11-20T13:02:38.826Z",
+ "updatedAt": "2026-11-20T12:59:47.219Z",
  "searchedAt": "2026-11-17T20:50:49.725Z",
- "responseSources": [],
+ "responseSources": [
+  4,
+  9
+ ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-20T08:53:11.397Z",
- "summaryOf": "be7e061c451a",
+ "summarizedAt": "2026-11-20T12:59:47.219Z",
+ "summaryOf": "60b15c4328d2",
  "publishedAt": "2026-11-17T20:57:21.304Z",
  "i18n": {
   "of": "d06cbd9a67fb3c52",

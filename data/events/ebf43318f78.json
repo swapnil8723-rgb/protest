@@ -16,41 +16,49 @@
  "scope": "multi-city",
  "causes": [
   "labour",
-  "jobs"
+  "jobs",
+  "prices"
  ],
  "kind": "multi-day",
  "startedOn": "2026-11-19",
- "status": "scheduled",
- "vibe": "heating-up",
+ "status": "ongoing",
+ "vibe": "cooling-down",
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
-  "low-confidence"
+  "top-10"
  ],
- "isOngoing": false,
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Workers are protesting amid a stalled collective bargaining dispute in the metal and electrical industry.",
-  "want": "The union is demanding a 5 percent wage increase for a twelve-month contract period.",
-  "changed": "Nov 19: The union announced that workers at approximately 90 plants across Baden-Wuerttemberg will be called out for full-day warning strikes starting Thursday evening."
+  "why": "Workers are striking over a deadlocked wage dispute and unacceptable offers from employers amid high living costs.",
+  "want": "Protesters demand a five percent wage increase over a twelve-month period and verifiable commitments on investments.",
+  "changed": "Nov 20, 2026: IG Metall district leader Barbara Resch addressed protesting employees at a Bosch plant in Stuttgart-Feuerbach during 24-hour strikes."
  },
- "summary": "Industrial workers represented by the IG Metall union have been called to stage full-day warning strikes across multiple facilities in Baden-Wuerttemberg. According to union district manager Barbara Resch, employers failed to show any movement during the third round of negotiations in Düsseldorf, prompting the escalation. The union is demanding a 5 percent pay increase over twelve months. Employers, represented by Südwestmetall negotiator Peter Krause, countered that a fair offer had been proposed despite difficult economic conditions, and criticized the union's decision to escalate as the wrong path. The strikes are set to begin with actions at Rolls-Royce Power Systems and ZF, and will expand to encompass around 90 plants by the following Tuesday.",
+ "summary": "Industrial workers represented by the IG Metall union launched 24-hour warning strikes across Baden-Wuerttemberg and other parts of Germany. Following a failed third round of tariff negotiations, the union called on employees in numerous facilities—including sites in Stuttgart, Friedrichshafen, and Munich—to walk off the job to increase economic pressure on employers. The union is demanding a 5 percent pay increase over twelve months and guarantees for job security and investments. Employers, represented by organizations such as Südwestmetall, argued that the industry faces a difficult economic situation and falling job numbers, having previously offered a combination of a one-off payment and a delayed 1.3 percent raise. According to reports, this marks the first time since 2018 that the union has resorted to 24-hour work stoppages.",
  "organizers": [
-  "IG Metall",
-  "Südwestmetall"
+  "IG Metall"
  ],
  "demands": [
-  "5 percent more pay for a 12-month contract period"
+  "Five percent higher wages over a twelve-month duration",
+  "Verifiable commitments from companies regarding future investments and jobs"
  ],
- "response": "According to Südwestmetall negotiator Peter Krause, employers offered a lump-sum payment over 26 months next year and a 1.3 percent tiered increase in 2028, citing high cost pressures and the need to secure future investments and jobs. Employers criticized the strikes as an escalation and the wrong approach.",
+ "response": "According to Südwestmetall negotiator Peter Krause, employers offered a fair wage package considering the difficult economic climate, and criticized the union's escalation as the wrong path.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-19",
-   "text": "IG Metall announced full-day warning strikes across 20 Baden-Wuerttemberg plants, expanding to about 90 plants by Tuesday.",
+   "text": "IG Metall announced 24-hour warning strikes across approximately 20 businesses in Baden-Wuerttemberg following stalled negotiations.",
    "sources": [
     1,
     2
+   ]
+  },
+  {
+   "at": "2026-11-20",
+   "text": "Union members began full-day work stoppages at multiple locations, including a Bosch facility in Stuttgart-Feuerbach and other sites nationwide.",
+   "sources": [
+    3
    ]
   }
  ],
@@ -68,27 +76,33 @@
    "publisher": "swr.de",
    "title": "Tarifstreit eskaliert: IG Metall ruft zu ganztägigen Warnstreiks auf",
    "publishedAt": "2026-11-19T11:24:31.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.faz.net/aktuell/wirtschaft/ig-metall-erstmals-seit-2018-wieder-24-stunden-streiks-accg-201701268.html",
+   "publisher": "faz.net",
+   "title": "IG Metall: Erstmals seit 2018 wieder 24-Stunden-Streiks",
+   "publishedAt": "2026-11-20T12:28:49.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 2,
- "reportsPrev24h": 0,
- "reports48h": 2,
+ "confidence": 0.8,
+ "publishers": 3,
+ "reports24h": 1,
+ "reportsPrev24h": 2,
+ "reports48h": 3,
  "firstSeenAt": "2026-11-19T12:55:11.186Z",
- "lastReportAt": "2026-11-19T11:24:31.000Z",
- "lastCheckedAt": "2026-11-20T08:55:51.961Z",
- "updatedAt": "2026-11-19T20:54:01.744Z",
+ "lastReportAt": "2026-11-20T12:28:49.000Z",
+ "lastCheckedAt": "2026-11-20T13:02:38.826Z",
+ "updatedAt": "2026-11-20T13:00:33.944Z",
  "searchedAt": "2026-11-19T16:50:41.752Z",
  "responseSources": [
-  1,
-  2
+  1
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-19T20:54:01.744Z",
- "summaryOf": "d4eaff6e5ff5",
+ "summarizedAt": "2026-11-20T13:00:33.944Z",
+ "summaryOf": "92f4731d94f8",
  "publishedAt": "2026-11-19T20:56:38.568Z",
  "i18n": {
   "of": "133bcf9f4d494c87",
