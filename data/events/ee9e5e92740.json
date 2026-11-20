@@ -13,44 +13,42 @@
   "citySlug": "ingolstadt",
   "regionSlug": "bavaria"
  },
- "scope": "multi-city",
+ "scope": "local",
  "causes": [
   "labour",
   "jobs"
  ],
  "kind": "multi-day",
- "startedOn": "2026-11-19",
- "status": "scheduled",
- "vibe": "heating-up",
+ "startedOn": "2026-11-09",
+ "status": "ongoing",
+ "vibe": "cooling-down",
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
   "low-confidence",
   "sources-disagree"
  ],
- "isOngoing": false,
+ "isOngoing": true,
  "published": false,
  "tea": {
-  "why": "Failed collective bargaining negotiations and employers offering a 1.3 percent pay rise.",
-  "want": "A five percent increase in pay and a combination of employment security, investments, and competitiveness.",
-  "changed": "Nov 17: IG Metall Bavaria announced a escalation to 24-hour warning strikes, with the Audi plant strike in Ingolstadt scheduled for Friday, Nov 20."
+  "why": "Metal and electrical industry workers are staging warning strikes following failed collective bargaining negotiations.",
+  "want": "The union demands a 5 percent wage increase.",
+  "changed": "Nov 20: Production halted at the Audi plant in Ingolstadt as part of 24-hour warning strikes across Bavaria."
  },
- "summary": "Metal and electrical industry workers represented by the IG Metall union have announced a wave of 24-hour warning strikes across Bavaria as part of an ongoing collective bargaining dispute. Following failed negotiations and an un-upgraded 1.3 percent pay offer from employers, the union leadership escalated actions. Staged warning strikes and rallies are slated for multiple sites, including the Audi plant in Ingolstadt on Friday, November 20, alongside actions at BMW and other facilities. Previous rallies in Ingolstadt earlier in the month saw thousands of participants, with the union reporting 15,000 attendees and police estimating 8,000. The union demands a 5 percent wage increase and addresses matters of job security.",
+ "summary": "Metal workers at the Audi plant in Ingolstadt and other industrial sites in Bavaria staged 24-hour warning strikes. The industrial action was organized by the IG Metall union following failed collective bargaining negotiations. While the union demanded a 5 percent wage increase, the employers' side offered a 1.3 percent raise. Previous actions in the ongoing wage dispute included a major rally on the Audi-Piazza in Ingolstadt, which drew thousands of participants according to different estimates. The union escalated the dispute by initiating 24-hour warning strikes across various facilities in the region.",
  "organizers": [
-  "IG Metall",
-  "IG Metall Bavaria"
+  "IG Metall"
  ],
  "demands": [
-  "A five percent pay increase",
+  "5 percent wage increase",
   "Employment security",
-  "Investment commitments",
-  "Competitiveness measures"
+  "Investments"
  ],
  "response": "No official response reported in the sources.",
  "numbers": {
   "crowd": {
    "value": 15000,
-   "text": "15,000 Beschäftigte von Audi, Airbus und weiteren Betrieben laut IG Metall (die Polizei sprach von 8,000…",
+   "text": "The IG Metall stated 15,000 workers attended the rally on the Audi-Piazza in Ingolstadt, while police estimated 8,000…",
    "sources": [
     1
    ]
@@ -59,23 +57,24 @@
  "updates": [
   {
    "at": "2026-11-09",
-   "text": "IG Metall reported 36,000 participants in temporary walkouts across 110 companies during a peak wave.",
+   "text": "The strike wave reached a high point with about 36,000 workers participating in temporary work stoppages across 110 businesses.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-16",
-   "text": "IG Metall Bavaria decided on 24-hour warning strike escalations after failed tariff negotiations.",
+   "text": "Following failed tariff negotiations, IG Metall Bavaria decided to escalate the dispute to 24-hour warning strikes.",
    "sources": [
     1
    ]
   },
   {
-   "at": "2026-11-17",
-   "text": "Union announced the start of a major 24-hour strike wave across Bavaria, with Audi in Ingolstadt set for Nov 20.",
+   "at": "2026-11-20",
+   "text": "Production at the Audi plant in Ingolstadt halted for a full-day warning strike.",
    "sources": [
-    1
+    1,
+    3
    ]
   }
  ],
@@ -93,24 +92,31 @@
    "publisher": "spiegel.de",
    "title": "IG Metall startet Ganztages-Streiks",
    "publishedAt": "2026-11-19T07:38:00.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://novekedes.hu/hirek/ma-leall-a-termeles-az-audi-gyarban-sztrajk-miatt",
+   "publisher": "novekedes.hu",
+   "title": "Ma leáll a termelés az Audi-gyárban: sztrájk miatt",
+   "publishedAt": "2026-11-20T09:06:00.000Z"
   }
  ],
  "conflicts": [
-  "Police said 8,000 attended the Ingolstadt rally; organisers said 15,000."
+  "IG Metall stated that 15,000 people attended the rally on the Audi-Piazza in Ingolstadt, whereas police put the figure at 8,000 participants."
  ],
- "confidence": 0.6,
- "publishers": 2,
- "reports24h": 1,
- "reportsPrev24h": 0,
+ "confidence": 0.7,
+ "publishers": 3,
+ "reports24h": 0,
+ "reportsPrev24h": 1,
  "reports48h": 1,
  "firstSeenAt": "2026-11-18T00:52:15.459Z",
- "lastReportAt": "2026-11-19T07:38:00.000Z",
- "lastCheckedAt": "2026-11-20T04:54:31.525Z",
- "updatedAt": "2026-11-19T08:54:46.454Z",
+ "lastReportAt": "2026-11-20T08:55:51.961Z",
+ "lastCheckedAt": "2026-11-20T08:55:51.961Z",
+ "updatedAt": "2026-11-20T08:54:16.210Z",
  "searchedAt": "2026-11-18T04:50:40.472Z",
  "responseSources": [],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-19T08:54:46.454Z",
- "summaryOf": "9e0e156eff7d"
+ "summarizedAt": "2026-11-20T08:54:16.210Z",
+ "summaryOf": "273c16826dbb"
 }
