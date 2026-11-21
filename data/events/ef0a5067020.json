@@ -3,7 +3,7 @@
  "slug": "zurich-youth-strike-nov-2026",
  "stage": "live",
  "title": "Youth strike march in Zurich against war and for the future",
- "seoTitle": "Zurich youth strike march against war and cuts",
+ "seoTitle": "Zurich youth strike march",
  "place": {
   "city": "Zürich",
   "region": "Zurich",
@@ -24,67 +24,74 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence",
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters expressed anger at federal politicians over government spending cuts, the climate crisis, and rising military rearmament.",
-  "want": "Demanded an end to military rearmament and investments shifted to social security, climate protection, healthcare, and education.",
-  "changed": "Nov 21: Police reported that 29 individuals were temporarily detained and dozens were turned away during the authorized demonstration."
+  "why": "Protesters demonstrated against military spending, the climate crisis, and austerity measures affecting education and social policy.",
+  "want": "The movement demanded an end to militarization, increased funding for education and social services, and climate justice.",
+  "changed": "Nov 20: Police arrested four individuals for obstructing official duties and detained 29 others for questioning during the march."
  },
- "summary": "Thousands of young people participated in a youth strike demonstration in Zurich on Friday, 20 November 2026, protesting against military rearmament, austerity, and the climate crisis. Organised by the \"Bündnis gegen Austerität\" with backing from groups like Juso, Young Greens, and the Climate Strike, the march followed an approved route from the Landesmuseum to Tessinerplatz after city police rejected an initial inner-city request. Official organisers called for a peaceful protest despite prior online controversy involving violent videos from a local branch. Police carried out identity checks and detentions during the event, while participants chanted for the release of detained individuals.",
+ "summary": "On November 20, 2026, thousands of students and young people participated in a youth strike in Zurich, part of a multi-city mobilization across Switzerland. Organizers included the Bündnis gegen Austerität, Juso, Unia youth, Jungen Grünen, and climate and feminist strike groups. The march, which followed an authorized route from the Landesmuseum to Tessinerplatz, focused on demands for climate justice, increased social and educational spending, and an end to global conflicts and militarization. While the event was largely peaceful, Zurich police conducted checks on dozens of participants, leading to four arrests for obstructing official duties and 29 temporary detentions. Authorities had previously denied the organizers' request to march through the city center, citing tactical reasons and Advent foot traffic, instead approving a route through Kreis 4.",
  "organizers": [
   "Bündnis gegen Austerität",
   "Juso",
-  "Junge Grünen",
+  "Unia",
+  "Jungen Grünen",
   "Feministischer Streik",
   "Klimastreik"
  ],
  "demands": [
-  "End the military rearmament spiral",
-  "Invest money in social security",
-  "Fund climate protection",
-  "Support health, social welfare, education, and infrastructure"
+  "Stop militarization",
+  "Increase education and social spending",
+  "Climate justice"
  ],
- "response": "According to the Zurich cantonal and city police, officers conducted checks and made arrests, with 29 people temporarily detained for further clarifications, four arrested for obstructing official actions, and around 60 people turned away.",
+ "response": "Zurich police authorized a specific route, conducted security checks, and detained several dozen individuals, citing the need to prevent potential escalations following online calls for violence.",
  "numbers": {
   "crowd": {
-   "value": 3000,
-   "text": "rund 3000 Personen",
+   "value": 5000,
+   "text": "Organizers and observers estimated approximately 5,000 participants at the start of the march, while police reported…",
    "sources": [
     2,
-    3
+    3,
+    4
    ]
   },
   "arrests": {
-   "value": 29,
-   "text": "29 Personen seien vorübergehend angehalten",
+   "value": 33,
+   "text": "Police reported four arrests for obstruction and 29 temporary detentions.",
    "sources": [
-    3
+    2,
+    4
    ]
   }
  },
  "updates": [
   {
-   "at": "2026-11-20",
-   "text": "Around 3,000 protesters gathered at the Landesmuseum for the youth strike, according to Keystone-SDA.",
+   "at": "2026-11-11",
+   "text": "Organizers requested a route through the city center, which police denied citing tactical reasons and Advent traffic.",
    "sources": [
-    2
+    1
+   ]
+  },
+  {
+   "at": "2026-11-19",
+   "text": "Police published an approved route for the march that avoided the city's shopping core.",
+   "sources": [
+    1
    ]
   },
   {
    "at": "2026-11-20",
-   "text": "The demonstration march departed around 17:45 along an approved route toward Tessinerplatz.",
+   "text": "The march took place in Zurich with thousands of participants; police conducted checks and made arrests.",
    "sources": [
-    2
-   ]
-  },
-  {
-   "at": "2026-11-21",
-   "text": "Zurich police reported 29 temporary detentions, 4 arrests for obstruction, and around 60 banishment orders.",
-   "sources": [
-    3
+    2,
+    3,
+    4
    ]
   }
  ],
@@ -105,197 +112,213 @@
   },
   {
    "n": 3,
+   "url": "https://tsri.ch/a/5000-jugendliche-demonstrieren-in-zuerich",
+   "publisher": "tsri.ch",
+   "title": "Tausende junge Menschen demonstrieren am Jugendstreik in Zürich",
+   "publishedAt": "2026-11-20T20:28:18.521Z"
+  },
+  {
+   "n": 4,
    "url": "https://www.nau.ch/politik/bundeshaus/jugendliche-protestieren-in-zurich-gegen-aufrustung-und-sparpolitik-67205037",
    "publisher": "nau.ch",
    "title": "Tausende Jugendliche demonstrieren in Schweizer Städten | Nau.ch",
    "publishedAt": "2026-11-21T01:27:32.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.8,
- "publishers": 3,
+ "conflicts": [
+  "Police reported 3,000 participants while other sources estimated 5,000."
+ ],
+ "confidence": 0.71,
+ "publishers": 4,
  "reports24h": 3,
- "reportsPrev24h": 0,
- "reports48h": 3,
+ "reportsPrev24h": 1,
+ "reports48h": 4,
  "firstSeenAt": "2026-11-20T08:52:38.956Z",
  "lastReportAt": "2026-11-21T01:27:32.000Z",
- "lastCheckedAt": "2026-11-21T06:22:42.376Z",
- "updatedAt": "2026-11-21T06:21:27.437Z",
+ "lastCheckedAt": "2026-11-21T10:59:07.799Z",
+ "updatedAt": "2026-11-21T10:58:14.109Z",
  "searchedAt": "2026-11-20T20:50:51.460Z",
  "endedOn": "2026-11-20",
  "responseSources": [
+  1,
   2,
-  3
+  4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-21T06:21:27.437Z",
- "summaryOf": "9166a31973fb",
+ "summarizedAt": "2026-11-21T10:58:14.109Z",
+ "summaryOf": "aeb2b9b66614",
  "publishedAt": "2026-11-20T20:55:01.578Z",
  "i18n": {
-  "of": "e910d922bec118e7",
-  "at": "2026-11-21T06:24:13.100Z",
+  "of": "e3948dcac4b0333f",
+  "at": "2026-11-21T11:01:57.558Z",
   "tries": 1,
   "es": {
    "title": "Marcha de huelga juvenil en Zúrich contra la guerra y por el futuro",
-   "seoTitle": "Marcha juvenil en Zúrich contra la guerra y los recortes",
+   "seoTitle": "Marcha de huelga juvenil en Zúrich",
    "tea": {
-    "why": "Los manifestantes expresaron su enfado con los políticos federales por los recortes del gasto público, la crisis climática y el creciente rearme militar.",
-    "want": "Exigieron el fin del rearme militar y que las inversiones se destinen a la seguridad social, la protección del clima, la sanidad y la educación.",
-    "changed": "21 de noviembre: La policía informó de que 29 personas fueron detenidas temporalmente y decenas fueron rechazadas durante la manifestación autorizada."
+    "why": "Los manifestantes se manifestaron contra el gasto militar, la crisis climática y las medidas de austeridad que afectan a la educación y la política social.",
+    "want": "El movimiento exigió el fin de la militarización, un aumento de la financiación para la educación y los servicios sociales, y justicia climática.",
+    "changed": "20 de noviembre: La policía arrestó a cuatro personas por obstrucción a las funciones oficiales y detuvo a otras 29 para interrogarlas durante la marcha."
    },
-   "summary": "Miles de jóvenes participaron en una manifestación de huelga juvenil en Zúrich el viernes 20 de noviembre de 2026, protestando contra el rearme militar, la austeridad y la crisis climática. Organizada por la \"Bündnis gegen Austerität\" con el apoyo de grupos como Juso, Jóvenes Verdes y la Huelga Climática, la marcha siguió una ruta aprobada desde el Landesmuseum hasta Tessinerplatz después de que la policía municipal rechazara una solicitud inicial para el centro de la ciudad. Los organizadores oficiales pidieron una protesta pacífica a pesar de la controversia previa en línea que involucraba vídeos violentos de una rama local. La policía llevó a cabo controles de identidad y detenciones durante el evento, mientras los participantes coreaban consignas por la liberación de las personas detenidas.",
+   "summary": "El 20 de noviembre de 2026, miles de estudiantes y jóvenes participaron en una huelga juvenil en Zúrich, parte de una movilización en varias ciudades de Suiza. Entre los organizadores se encontraban Bündnis gegen Austerität, Juso, Unia youth, Jungen Grünen y grupos de huelga climática y feminista. La marcha, que siguió una ruta autorizada desde el Landesmuseum hasta Tessinerplatz, se centró en las demandas de justicia climática, un mayor gasto social y educativo, y el fin de los conflictos globales y la militarización. Aunque el evento fue mayoritariamente pacífico, la policía de Zúrich realizó controles a decenas de participantes, lo que dio lugar a cuatro detenciones por obstrucción a las funciones oficiales y 29 detenciones temporales. Las autoridades habían denegado previamente la solicitud de los organizadores de marchar por el centro de la ciudad, citando razones tácticas y el tráfico peatonal de Adviento, aprobando en su lugar una ruta por el Kreis 4.",
    "demands": [
-    "Poner fin a la espiral de rearme militar",
-    "Invertir dinero en seguridad social",
-    "Financiar la protección del clima",
-    "Apoyar la salud, el bienestar social, la educación y las infraestructuras"
+    "Detener la militarización",
+    "Aumentar el gasto en educación y social",
+    "Justicia climática"
    ],
-   "response": "Según la policía cantonal y municipal de Zúrich, los agentes realizaron controles y detenciones, con 29 personas detenidas temporalmente para realizar aclaraciones, cuatro detenidas por obstruir las acciones oficiales y alrededor de 60 personas rechazadas.",
+   "response": "La policía de Zúrich autorizó una ruta específica, realizó controles de seguridad y detuvo a varias decenas de personas, citando la necesidad de evitar posibles escaladas tras los llamamientos a la violencia en línea.",
    "updates": [
-    "Alrededor de 3000 manifestantes se reunieron en el Landesmuseum para la huelga juvenil, según Keystone-SDA.",
-    "La marcha de manifestación partió alrededor de las 17:45 por una ruta aprobada hacia Tessinerplatz.",
-    "La policía de Zúrich informó de 29 detenciones temporales, 4 detenciones por obstrucción y alrededor de 60 órdenes de expulsión."
+    "Los organizadores solicitaron una ruta por el centro de la ciudad, que la policía denegó citando razones tácticas y el tráfico de Adviento.",
+    "La policía publicó una ruta aprobada para la marcha que evitaba el núcleo comercial de la ciudad.",
+    "La marcha tuvo lugar en Zúrich con miles de participantes; la policía realizó controles y efectuó detenciones."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La policía informó de 3.000 participantes, mientras que otras fuentes estimaron 5.000."
+   ],
    "numbers": {
-    "crowd": "Alrededor de 3000 personas",
-    "arrests": "29 personas fueron detenidas temporalmente"
+    "crowd": "Los organizadores y observadores estimaron aproximadamente 5.000 participantes al inicio de la marcha, mientras que la policía informó...",
+    "arrests": "La policía informó de cuatro detenciones por obstrucción y 29 detenciones temporales."
    }
   },
   "fr": {
-   "title": "Marche de grève de la jeunesse à Zurich contre la guerre et pour l'avenir",
-   "seoTitle": "Marche de la jeunesse à Zurich contre la guerre et les coupes",
+   "title": "Marche de grève des jeunes à Zurich contre la guerre et pour l'avenir",
+   "seoTitle": "Marche de grève des jeunes à Zurich",
    "tea": {
-    "why": "Les manifestants ont exprimé leur colère envers les politiciens fédéraux concernant les coupes budgétaires du gouvernement, la crise climatique et le réarmement militaire croissant.",
-    "want": "Ils ont exigé la fin du réarmement militaire et le transfert des investissements vers la sécurité sociale, la protection du climat, la santé et l'éducation.",
-    "changed": "21 novembre : La police a rapporté que 29 individus ont été temporairement détenus et des dizaines ont été refoulés lors de la manifestation autorisée."
+    "why": "Les manifestants ont protesté contre les dépenses militaires, la crise climatique et les mesures d'austérité affectant l'éducation et la politique sociale.",
+    "want": "Le mouvement a exigé la fin de la militarisation, une augmentation du financement de l'éducation et des services sociaux, ainsi que la justice climatique.",
+    "changed": "20 novembre : La police a arrêté quatre personnes pour entrave aux fonctions officielles et en a placé 29 autres en détention provisoire pour interrogatoire pendant la marche."
    },
-   "summary": "Des milliers de jeunes ont participé à une manifestation de grève de la jeunesse à Zurich le vendredi 20 novembre 2026, protestant contre le réarmement militaire, l'austérité et la crise climatique. Organisée par la « Bündnis gegen Austerität » avec le soutien de groupes comme Juso, les Jeunes Verts et la Grève du climat, la marche a suivi un itinéraire approuvé du Landesmuseum vers la Tessinerplatz après que la police municipale a rejeté une demande initiale pour le centre-ville. Les organisateurs officiels ont appelé à une manifestation pacifique malgré une controverse en ligne préalable impliquant des vidéos violentes d'une branche locale. La police a effectué des contrôles d'identité et des détentions pendant l'événement, tandis que les participants scandaient des slogans pour la libération des personnes détenues.",
+   "summary": "Le 20 novembre 2026, des milliers d'étudiants et de jeunes ont participé à une grève des jeunes à Zurich, dans le cadre d'une mobilisation multi-villes à travers la Suisse. Les organisateurs comprenaient le Bündnis gegen Austerität, Juso, Unia youth, Jungen Grünen, ainsi que des groupes de grève climatique et féministe. La marche, qui a suivi un itinéraire autorisé du Landesmuseum à la Tessinerplatz, s'est concentrée sur des revendications pour la justice climatique, une augmentation des dépenses sociales et éducatives, et la fin des conflits mondiaux et de la militarisation. Bien que l'événement ait été largement pacifique, la police de Zurich a effectué des contrôles sur des dizaines de participants, menant à quatre arrestations pour entrave aux fonctions officielles et 29 détentions temporaires. Les autorités avaient précédemment refusé la demande des organisateurs de marcher à travers le centre-ville, citant des raisons tactiques et le trafic piétonnier de l'Avent, approuvant plutôt un itinéraire passant par le Kreis 4.",
    "demands": [
-    "Mettre fin à la spirale du réarmement militaire",
-    "Investir de l'argent dans la sécurité sociale",
-    "Financer la protection du climat",
-    "Soutenir la santé, le bien-être social, l'éducation et les infrastructures"
+    "Arrêter la militarisation",
+    "Augmenter les dépenses éducatives et sociales",
+    "Justice climatique"
    ],
-   "response": "Selon la police cantonale et municipale de Zurich, les agents ont effectué des contrôles et procédé à des arrestations, avec 29 personnes temporairement détenues pour des clarifications supplémentaires, quatre arrêtées pour entrave aux actions officielles, et environ 60 personnes refoulées.",
+   "response": "La police de Zurich a autorisé un itinéraire spécifique, effectué des contrôles de sécurité et placé plusieurs dizaines de personnes en détention, citant la nécessité de prévenir d'éventuelles escalades suite à des appels à la violence en ligne.",
    "updates": [
-    "Environ 3 000 manifestants se sont rassemblés au Landesmuseum pour la grève de la jeunesse, selon Keystone-SDA.",
-    "Le cortège de la manifestation est parti vers 17 h 45 le long d'un itinéraire approuvé vers la Tessinerplatz.",
-    "La police de Zurich a rapporté 29 détentions temporaires, 4 arrestations pour obstruction et environ 60 ordres de renvoi."
+    "Les organisateurs ont demandé un itinéraire à travers le centre-ville, ce que la police a refusé en citant des raisons tactiques et le trafic de l'Avent.",
+    "La police a publié un itinéraire approuvé pour la marche qui évitait le cœur commerçant de la ville.",
+    "La marche a eu lieu à Zurich avec des milliers de participants ; la police a effectué des contrôles et procédé à des arrestations."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La police a rapporté 3 000 participants tandis que d'autres sources en ont estimé 5 000."
+   ],
    "numbers": {
-    "crowd": "Environ 3 000 personnes",
-    "arrests": "29 personnes ont été temporairement détenues"
+    "crowd": "Les organisateurs et les observateurs ont estimé à environ 5 000 le nombre de participants au début de la marche, tandis que la police a rapporté...",
+    "arrests": "La police a rapporté quatre arrestations pour entrave et 29 détentions temporaires."
    }
   },
   "de": {
    "title": "Jugendstreik-Marsch in Zürich gegen Krieg und für die Zukunft",
-   "seoTitle": "Jugendstreik-Marsch in Zürich gegen Krieg und Kürzungen",
+   "seoTitle": "Jugendstreik-Marsch in Zürich",
    "tea": {
-    "why": "Demonstrierende äußerten ihren Ärger über Bundespolitiker wegen staatlicher Ausgabenkürzungen, der Klimakrise und der zunehmenden militärischen Aufrüstung.",
-    "want": "Sie forderten ein Ende der militärischen Aufrüstung und eine Umschichtung der Investitionen in soziale Sicherheit, Klimaschutz, Gesundheitswesen und Bildung.",
-    "changed": "21. November: Die Polizei berichtete, dass 29 Personen vorübergehend festgehalten und Dutzende während der bewilligten Demonstration abgewiesen wurden."
+    "why": "Die Demonstranten protestierten gegen Militärausgaben, die Klimakrise und Sparmaßnahmen, die Bildung und Sozialpolitik betreffen.",
+    "want": "Die Bewegung forderte ein Ende der Militarisierung, eine Erhöhung der Mittel für Bildung und soziale Dienste sowie Klimagerechtigkeit.",
+    "changed": "20. November: Die Polizei nahm vier Personen wegen Behinderung der Amtstätigkeit fest und hielt 29 weitere während des Marsches zur Befragung fest."
    },
-   "summary": "Tausende junge Menschen nahmen am Freitag, den 20. November 2026, an einer Jugendstreik-Demonstration in Zürich teil, um gegen militärische Aufrüstung, Sparmaßnahmen und die Klimakrise zu protestieren. Organisiert vom \"Bündnis gegen Austerität\" mit Unterstützung von Gruppen wie Juso, Junge Grüne und Klimastreik, folgte der Marsch einer bewilligten Route vom Landesmuseum zum Tessinerplatz, nachdem die Stadtpolizei einen ursprünglichen Antrag für die Innenstadt abgelehnt hatte. Die offiziellen Organisatoren riefen zu einem friedlichen Protest auf, trotz vorangegangener Online-Kontroversen um gewalttätige Videos einer lokalen Gruppe. Die Polizei führte während der Veranstaltung Identitätskontrollen und Festnahmen durch, während die Teilnehmer die Freilassung der festgenommenen Personen forderten.",
+   "summary": "Am 20. November 2026 nahmen Tausende von Schülern und jungen Menschen an einem Jugendstreik in Zürich teil, der Teil einer städteübergreifenden Mobilisierung in der Schweiz war. Zu den Organisatoren gehörten das Bündnis gegen Austerität, Juso, Unia youth, Jungen Grünen sowie Klima- und Frauenstreikgruppen. Der Marsch, der einer genehmigten Route vom Landesmuseum zum Tessinerplatz folgte, konzentrierte sich auf Forderungen nach Klimagerechtigkeit, erhöhten Sozial- und Bildungsausgaben sowie einem Ende globaler Konflikte und der Militarisierung. Obwohl die Veranstaltung weitgehend friedlich verlief, führte die Zürcher Polizei Kontrollen bei Dutzenden von Teilnehmern durch, was zu vier Festnahmen wegen Behinderung der Amtstätigkeit und 29 vorübergehenden Ingewahrsamnahmen führte. Die Behörden hatten zuvor den Antrag der Organisatoren, durch das Stadtzentrum zu marschieren, unter Berufung auf taktische Gründe und den Adventsverkehr abgelehnt und stattdessen eine Route durch den Kreis 4 genehmigt.",
    "demands": [
-    "Die Spirale der militärischen Aufrüstung beenden",
-    "Geld in soziale Sicherheit investieren",
-    "Klimaschutz finanzieren",
-    "Gesundheit, soziale Wohlfahrt, Bildung und Infrastruktur unterstützen"
+    "Stopp der Militarisierung",
+    "Erhöhung der Bildungs- und Sozialausgaben",
+    "Klimagerechtigkeit"
    ],
-   "response": "Nach Angaben der Zürcher Kantons- und Stadtpolizei führten Beamte Kontrollen durch und nahmen Festnahmen vor, wobei 29 Personen zur weiteren Abklärung vorübergehend festgehalten, vier wegen Behinderung offizieller Maßnahmen verhaftet und rund 60 Personen abgewiesen wurden.",
+   "response": "Die Zürcher Polizei genehmigte eine spezifische Route, führte Sicherheitskontrollen durch und nahm mehrere Dutzend Personen fest, wobei sie die Notwendigkeit anführte, potenzielle Eskalationen nach Online-Aufrufen zur Gewalt zu verhindern.",
    "updates": [
-    "Rund 3000 Demonstrierende versammelten sich laut Keystone-SDA am Landesmuseum zum Jugendstreik.",
-    "Der Demonstrationszug startete gegen 17:45 Uhr auf einer bewilligten Route in Richtung Tessinerplatz.",
-    "Die Zürcher Polizei meldete 29 vorübergehende Anhaltungen, 4 Festnahmen wegen Behinderung und rund 60 Wegweisungen."
+    "Die Organisatoren beantragten eine Route durch das Stadtzentrum, die die Polizei unter Berufung auf taktische Gründe und den Adventsverkehr ablehnte.",
+    "Die Polizei veröffentlichte eine genehmigte Route für den Marsch, die den Einkaufskern der Stadt mied.",
+    "Der Marsch fand in Zürich mit Tausenden von Teilnehmern statt; die Polizei führte Kontrollen durch und nahm Festnahmen vor."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Die Polizei meldete 3.000 Teilnehmer, während andere Quellen 5.000 schätzten."
+   ],
    "numbers": {
-    "crowd": "rund 3000 Personen",
-    "arrests": "29 Personen seien vorübergehend angehalten"
+    "crowd": "Organisatoren und Beobachter schätzten etwa 5.000 Teilnehmer zu Beginn des Marsches, während die Polizei berichtete...",
+    "arrests": "Die Polizei meldete vier Festnahmen wegen Behinderung und 29 vorübergehende Ingewahrsamnahmen."
    }
   },
   "it": {
    "title": "Marcia di sciopero giovanile a Zurigo contro la guerra e per il futuro",
-   "seoTitle": "Marcia giovanile a Zurigo contro guerra e tagli",
+   "seoTitle": "Marcia di sciopero giovanile a Zurigo",
    "tea": {
-    "why": "I manifestanti hanno espresso rabbia verso i politici federali per i tagli alla spesa pubblica, la crisi climatica e il crescente riarmo militare.",
-    "want": "Hanno chiesto la fine del riarmo militare e lo spostamento degli investimenti verso la sicurezza sociale, la protezione del clima, la sanità e l'istruzione.",
-    "changed": "21 novembre: La polizia ha riferito che 29 persone sono state trattenute temporaneamente e decine sono state allontanate durante la manifestazione autorizzata."
+    "why": "I manifestanti hanno protestato contro le spese militari, la crisi climatica e le misure di austerità che colpiscono l'istruzione e la politica sociale.",
+    "want": "Il movimento ha chiesto la fine della militarizzazione, un aumento dei finanziamenti per l'istruzione e i servizi sociali, e giustizia climatica.",
+    "changed": "20 novembre: La polizia ha arrestato quattro persone per intralcio alle funzioni ufficiali e ne ha trattenute altre 29 per accertamenti durante la marcia."
    },
-   "summary": "Migliaia di giovani hanno partecipato a una manifestazione di sciopero giovanile a Zurigo venerdì 20 novembre 2026, protestando contro il riarmo militare, l'austerità e la crisi climatica. Organizzata dal \"Bündnis gegen Austerität\" con il sostegno di gruppi come Juso, Giovani Verdi e lo Sciopero per il Clima, la marcia ha seguito un percorso approvato dal Landesmuseum verso Tessinerplatz dopo che la polizia municipale aveva respinto una richiesta iniziale per il centro città. Gli organizzatori ufficiali hanno chiesto una protesta pacifica nonostante le precedenti controversie online riguardanti video violenti di una sezione locale. La polizia ha effettuato controlli di identità e fermi durante l'evento, mentre i partecipanti scandivano slogan per il rilascio delle persone trattenute.",
+   "summary": "Il 20 novembre 2026, migliaia di studenti e giovani hanno partecipato a uno sciopero giovanile a Zurigo, parte di una mobilitazione in diverse città della Svizzera. Tra gli organizzatori figuravano il Bündnis gegen Austerität, Juso, Unia youth, Jungen Grünen e gruppi per lo sciopero climatico e femminista. La marcia, che ha seguito un percorso autorizzato dal Landesmuseum alla Tessinerplatz, si è concentrata sulle richieste di giustizia climatica, maggiori spese sociali e per l'istruzione, e la fine dei conflitti globali e della militarizzazione. Sebbene l'evento sia stato in gran parte pacifico, la polizia di Zurigo ha effettuato controlli su decine di partecipanti, portando a quattro arresti per intralcio alle funzioni ufficiali e 29 fermi temporanei. Le autorità avevano precedentemente respinto la richiesta degli organizzatori di marciare attraverso il centro città, citando ragioni tattiche e il traffico pedonale dell'Avvento, approvando invece un percorso attraverso il Kreis 4.",
    "demands": [
-    "Porre fine alla spirale del riarmo militare",
-    "Investire denaro nella sicurezza sociale",
-    "Finanziare la protezione del clima",
-    "Sostenere la salute, il benessere sociale, l'istruzione e le infrastrutture"
+    "Stop alla militarizzazione",
+    "Aumentare la spesa per l'istruzione e il sociale",
+    "Giustizia climatica"
    ],
-   "response": "Secondo la polizia cantonale e municipale di Zurigo, gli agenti hanno condotto controlli ed effettuato arresti, con 29 persone trattenute temporaneamente per ulteriori chiarimenti, quattro arrestate per aver ostacolato le azioni ufficiali e circa 60 persone allontanate.",
+   "response": "La polizia di Zurigo ha autorizzato un percorso specifico, effettuato controlli di sicurezza e trattenuto diverse decine di persone, citando la necessità di prevenire potenziali escalation a seguito di appelli alla violenza online.",
    "updates": [
-    "Circa 3.000 manifestanti si sono radunati al Landesmuseum per lo sciopero giovanile, secondo Keystone-SDA.",
-    "Il corteo della manifestazione è partito verso le 17:45 lungo un percorso approvato verso Tessinerplatz.",
-    "La polizia di Zurigo ha riferito di 29 fermi temporanei, 4 arresti per ostruzione e circa 60 ordini di allontanamento."
+    "Gli organizzatori hanno richiesto un percorso attraverso il centro città, che la polizia ha negato citando ragioni tattiche e il traffico dell'Avvento.",
+    "La polizia ha pubblicato un percorso approvato per la marcia che evitava il nucleo commerciale della città.",
+    "La marcia si è svolta a Zurigo con migliaia di partecipanti; la polizia ha effettuato controlli e arresti."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "La polizia ha riferito di 3.000 partecipanti mentre altre fonti ne hanno stimati 5.000."
+   ],
    "numbers": {
-    "crowd": "Circa 3.000 persone",
-    "arrests": "29 persone sono state trattenute temporaneamente"
+    "crowd": "Gli organizzatori e gli osservatori hanno stimato circa 5.000 partecipanti all'inizio della marcia, mentre la polizia ha riferito...",
+    "arrests": "La polizia ha riferito di quattro arresti per intralcio e 29 fermi temporanei."
    }
   },
   "pt": {
    "title": "Marcha de greve juvenil em Zurique contra a guerra e pelo futuro",
-   "seoTitle": "Marcha juvenil em Zurique contra a guerra e cortes",
+   "seoTitle": "Marcha de greve juvenil em Zurique",
    "tea": {
-    "why": "Os manifestantes expressaram raiva contra os políticos federais devido aos cortes nas despesas governamentais, à crise climática e ao crescente rearmamento militar.",
-    "want": "Exigiram o fim do rearmamento militar e que os investimentos fossem transferidos para a segurança social, proteção climática, saúde e educação.",
-    "changed": "21 de novembro: A polícia informou que 29 indivíduos foram detidos temporariamente e dezenas foram afastados durante a manifestação autorizada."
+    "why": "Os manifestantes protestaram contra as despesas militares, a crise climática e as medidas de austeridade que afetam a educação e a política social.",
+    "want": "O movimento exigiu o fim da militarização, um aumento do financiamento para a educação e serviços sociais, e justiça climática.",
+    "changed": "20 de novembro: A polícia prendeu quatro indivíduos por obstrução de funções oficiais e deteve outros 29 para interrogatório durante a marcha."
    },
-   "summary": "Milhares de jovens participaram numa manifestação de greve juvenil em Zurique na sexta-feira, 20 de novembro de 2026, protestando contra o rearmamento militar, a austeridade e a crise climática. Organizada pela \"Bündnis gegen Austerität\" com o apoio de grupos como Juso, Jovens Verdes e a Greve Climática, a marcha seguiu uma rota aprovada desde o Landesmuseum até à Tessinerplatz, depois de a polícia municipal ter rejeitado um pedido inicial para o centro da cidade. Os organizadores oficiais apelaram a um protesto pacífico, apesar da controvérsia online anterior envolvendo vídeos violentos de um ramo local. A polícia realizou verificações de identidade e detenções durante o evento, enquanto os participantes gritavam pela libertação das pessoas detidas.",
+   "summary": "No dia 20 de novembro de 2026, milhares de estudantes e jovens participaram numa greve juvenil em Zurique, parte de uma mobilização em várias cidades da Suíça. Os organizadores incluíram o Bündnis gegen Austerität, Juso, Unia youth, Jungen Grünen, e grupos de greve climática e feminista. A marcha, que seguiu uma rota autorizada desde o Landesmuseum até à Tessinerplatz, focou-se em exigências de justiça climática, aumento das despesas sociais e educativas, e o fim dos conflitos globais e da militarização. Embora o evento tenha sido maioritariamente pacífico, a polícia de Zurique realizou verificações a dezenas de participantes, levando a quatro detenções por obstrução de funções oficiais e 29 detenções temporárias. As autoridades tinham anteriormente negado o pedido dos organizadores para marchar pelo centro da cidade, citando razões táticas e o tráfego pedonal do Advento, aprovando em vez disso uma rota através do Kreis 4.",
    "demands": [
-    "Acabar com a espiral de rearmamento militar",
-    "Investir dinheiro na segurança social",
-    "Financiar a proteção climática",
-    "Apoiar a saúde, o bem-estar social, a educação e as infraestruturas"
+    "Parar a militarização",
+    "Aumentar as despesas com educação e sociais",
+    "Justiça climática"
    ],
-   "response": "Segundo a polícia cantonal e municipal de Zurique, os agentes realizaram verificações e efetuaram detenções, com 29 pessoas detidas temporariamente para esclarecimentos adicionais, quatro detidas por obstrução a ações oficiais e cerca de 60 pessoas afastadas.",
+   "response": "A polícia de Zurique autorizou uma rota específica, realizou verificações de segurança e deteve várias dezenas de indivíduos, citando a necessidade de prevenir potenciais escaladas após apelos à violência online.",
    "updates": [
-    "Cerca de 3.000 manifestantes reuniram-se no Landesmuseum para a greve juvenil, segundo a Keystone-SDA.",
-    "A marcha de manifestação partiu por volta das 17:45 ao longo de uma rota aprovada em direção à Tessinerplatz.",
-    "A polícia de Zurique reportou 29 detenções temporárias, 4 detenções por obstrução e cerca de 60 ordens de afastamento."
+    "Os organizadores solicitaram uma rota pelo centro da cidade, que a polícia negou citando razões táticas e o tráfego do Advento.",
+    "A polícia publicou uma rota aprovada para a marcha que evitava o núcleo comercial da cidade.",
+    "A marcha ocorreu em Zurique com milhares de participantes; a polícia realizou verificações e efetuou detenções."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "A polícia reportou 3.000 participantes enquanto outras fontes estimaram 5.000."
+   ],
    "numbers": {
-    "crowd": "Cerca de 3.000 pessoas",
-    "arrests": "29 pessoas foram detidas temporariamente"
+    "crowd": "Os organizadores e observadores estimaram aproximadamente 5.000 participantes no início da marcha, enquanto a polícia reportou...",
+    "arrests": "A polícia reportou quatro detenções por obstrução e 29 detenções temporárias."
    }
   },
   "nl": {
    "title": "Jeugdstakingsmars in Zürich tegen oorlog en voor de toekomst",
-   "seoTitle": "Jeugdmars in Zürich tegen oorlog en bezuinigingen",
+   "seoTitle": "Jeugdstakingsmars in Zürich",
    "tea": {
-    "why": "Betogers uitten hun woede op federale politici vanwege bezuinigingen op overheidsuitgaven, de klimaatcrisis en de toenemende militaire herbewapening.",
-    "want": "Ze eisten een einde aan de militaire herbewapening en het overhevelen van investeringen naar sociale zekerheid, klimaatbescherming, gezondheidszorg en onderwijs.",
-    "changed": "21 november: De politie meldde dat 29 personen tijdelijk werden vastgehouden en tientallen werden weggestuurd tijdens de toegestane demonstratie."
+    "why": "De demonstranten protesteerden tegen militaire uitgaven, de klimaatcrisis en bezuinigingsmaatregelen die onderwijs en sociaal beleid beïnvloeden.",
+    "want": "De beweging eiste een einde aan de militarisering, verhoogde financiering voor onderwijs en sociale diensten, en klimaatrechtvaardigheid.",
+    "changed": "20 november: De politie arresteerde vier personen wegens belemmering van officiële taken en hield 29 anderen vast voor verhoor tijdens de mars."
    },
-   "summary": "Duizenden jongeren namen op vrijdag 20 november 2026 deel aan een jeugdstakingsdemonstratie in Zürich, protesterend tegen militaire herbewapening, bezuinigingen en de klimaatcrisis. De mars, georganiseerd door de \"Bündnis gegen Austerität\" met steun van groepen zoals Juso, Jonge Groenen en de Klimaatstaking, volgde een goedgekeurde route van het Landesmuseum naar de Tessinerplatz nadat de stadspolitie een aanvankelijk verzoek voor de binnenstad had afgewezen. De officiële organisatoren riepen op tot een vreedzaam protest ondanks eerdere online controverse over gewelddadige video's van een lokale afdeling. De politie voerde tijdens het evenement identiteitscontroles en aanhoudingen uit, terwijl deelnemers scandeerden voor de vrijlating van de aangehouden personen.",
+   "summary": "Op 20 november 2026 namen duizenden studenten en jongeren deel aan een jeugdstaking in Zürich, onderdeel van een mobilisatie in meerdere steden in Zwitserland. De organisatoren waren onder meer Bündnis gegen Austerität, Juso, Unia youth, Jungen Grünen en klimaat- en vrouwenstakingsgroepen. De mars, die een goedgekeurde route volgde van het Landesmuseum naar de Tessinerplatz, richtte zich op eisen voor klimaatrechtvaardigheid, verhoogde sociale en onderwijsuitgaven, en een einde aan wereldwijde conflicten en militarisering. Hoewel het evenement grotendeels vreedzaam verliep, voerde de politie van Zürich controles uit bij tientallen deelnemers, wat leidde tot vier arrestaties wegens belemmering van officiële taken en 29 tijdelijke detenties. De autoriteiten hadden eerder het verzoek van de organisatoren om door het stadscentrum te marcheren afgewezen, onder verwijzing naar tactische redenen en het voetgangersverkeer tijdens de advent, en keurden in plaats daarvan een route door Kreis 4 goed.",
    "demands": [
-    "Beëindig de spiraal van militaire herbewapening",
-    "Investeer geld in sociale zekerheid",
-    "Financier klimaatbescherming",
-    "Ondersteun gezondheidszorg, maatschappelijk welzijn, onderwijs en infrastructuur"
+    "Stop de militarisering",
+    "Verhoog onderwijs- en sociale uitgaven",
+    "Klimaatrechtvaardigheid"
    ],
-   "response": "Volgens de kanton- en stadspolitie van Zürich voerden agenten controles uit en verrichtten ze arrestaties, waarbij 29 personen tijdelijk werden vastgehouden voor verdere opheldering, vier werden gearresteerd wegens het belemmeren van officiële acties en ongeveer 60 personen werden weggestuurd.",
+   "response": "De politie van Zürich autoriseerde een specifieke route, voerde veiligheidscontroles uit en hield enkele tientallen personen vast, onder verwijzing naar de noodzaak om mogelijke escalaties na online oproepen tot geweld te voorkomen.",
    "updates": [
-    "Ongeveer 3.000 betogers verzamelden zich bij het Landesmuseum voor de jeugdstaking, volgens Keystone-SDA.",
-    "De demonstratiemars vertrok rond 17:45 uur langs een goedgekeurde route richting de Tessinerplatz.",
-    "De politie van Zürich meldde 29 tijdelijke aanhoudingen, 4 arrestaties wegens obstructie en ongeveer 60 verwijderingsbevelen."
+    "De organisatoren vroegen om een route door het stadscentrum, wat de politie weigerde onder verwijzing naar tactische redenen en het adventsverkeer.",
+    "De politie publiceerde een goedgekeurde route voor de mars die de winkelkern van de stad vermeed.",
+    "De mars vond plaats in Zürich met duizenden deelnemers; de politie voerde controles uit en verrichtte arrestaties."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "De politie rapporteerde 3.000 deelnemers, terwijl andere bronnen 5.000 schatten."
+   ],
    "numbers": {
-    "crowd": "Ongeveer 3.000 personen",
-    "arrests": "29 personen werden tijdelijk vastgehouden"
+    "crowd": "Organisatoren en waarnemers schatten ongeveer 5.000 deelnemers aan het begin van de mars, terwijl de politie rapporteerde...",
+    "arrests": "De politie rapporteerde vier arrestaties wegens belemmering en 29 tijdelijke detenties."
    }
   }
  }
