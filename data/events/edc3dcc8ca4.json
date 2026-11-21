@@ -13,11 +13,11 @@
   "citySlug": "hyderabad",
   "regionSlug": "telangana"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "free-speech",
-  "corruption",
-  "governance"
+  "governance",
+  "anti-government"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-20",
@@ -29,46 +29,58 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated against the suspension of social media accounts belonging to national Youth Congress leaders.",
-  "want": "They demanded the immediate restoration of suspended accounts belonging to opposition leaders, journalists, and creators.",
-  "changed": "Nov 20: Police detained 21 Youth Congress workers after they entered the Meta office in Hyderabad and demonstrated."
+  "why": "Protesters are angry over the suspension of social media accounts belonging to national Youth Congress leaders by Meta.",
+  "want": "They demand the immediate restoration of restricted accounts of opposition leaders, journalists, creators, and influencers.",
+  "changed": "Nov 20: Police detained 21 Youth Congress workers in Hyderabad after a demonstration at Meta's office, and they were released after three hours."
  },
- "summary": "On Friday, November 20, 2026, members of the Telangana Youth Congress staged a demonstration at Meta's office located in the Gachibowli area of Hyderabad. Led by State Party President Jakkidi Shivacharan Reddy, the participants protested the suspension and restriction of social media accounts belonging to Indian Youth Congress President Uday Bhanu Chib and National In-charge Manish Sharma. During the demonstration, some participants entered the premises, moved through the corridors, and damaged flower pots. The Indian Youth Congress issued a seven-day ultimatum demanding the removal of restrictions on opposition voices, journalists, and influencers. Raidurgam police detained 21 workers, who were released after roughly three hours. A ruling party spokesperson criticized the demonstration as vandalism, while the Indian Youth Congress claimed the affected accounts were restored shortly after the action.",
+ "summary": "On Friday, November 20, 2026, Telangana Youth Congress workers led by State President Jakkidi Shivacharan Reddy staged a protest at Meta's office in Gachibowli, Hyderabad. Demonstrators entered the premises, moving through corridors and the cafeteria area, and smashed flower pots while calling for the restoration of suspended Instagram accounts belonging to Indian Youth Congress President Uday Bhanu Chib and National In-charge Manish Sharma. The participants accused Meta of silencing opposition voices and acting under pressure from the ruling Bharatiya Janata Party. Similar demonstrations occurred in Mumbai and Gurugram. Raidurgam police detained 21 workers in Hyderabad, who were released after roughly three hours. BJP representatives condemned the demonstrations as vandalism.",
  "organizers": [
   "Youth Congress",
-  "Indian Youth Congress",
-  "Telangana Youth Congress"
+  "Telangana Youth Congress",
+  "Indian Youth Congress"
  ],
  "demands": [
-  "Restore restricted accounts of opposition leaders, journalists and influencers",
-  "Stop censorship and follow the Indian Constitution"
+  "Restore restricted accounts of national Youth Congress leaders",
+  "Lift restrictions on all opposition leaders, journalists, and influencers",
+  "Stop censorship and adhere to India's Constitution"
  ],
- "response": "According to the sources, Raidurgam police detained 21 workers who had entered the building, releasing them after about three hours. A ruling party spokesperson condemned the actions, calling the group a party of goons for damaging the office premises.",
+ "response": "Raidurgam police in Cyberabad detained 21 Youth Congress workers during the protest, releasing them after about three hours. BJP spokesperson Pradeep Bhandari condemned the demonstration as vandalism and accused Congress of being a party of goons.",
  "numbers": {
-  "arrests": {
+  "crowd": {
    "value": 21,
-   "text": "21 Youth Congress workers, including State president Siva Charan Reddy, were detained by Raidurgam police",
+   "text": "Twenty-one Youth Congress workers",
    "sources": [
     3,
-    4
+    4,
+    8
+   ]
+  },
+  "arrests": {
+   "value": 21,
+   "text": "21 workers were detained",
+   "sources": [
+    3,
+    4,
+    8
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-20",
-   "text": "Youth Congress workers staged a protest at Meta's office in Hyderabad over account suspensions.",
+   "text": "Telangana Youth Congress workers staged a demonstration at Meta's Hyderabad office and were detained by police.",
    "sources": [
     1,
-    2
+    4
    ]
   },
   {
-   "at": "2026-11-20",
-   "text": "Raidurgam police detained 21 protesters who entered the building, releasing them after three hours.",
+   "at": "2026-11-21",
+   "text": "The Indian Youth Congress issued a seven-day ultimatum demanding the lifting of all restrictions on opposition accounts.",
    "sources": [
     3,
-    4
+    5,
+    9
    ]
   }
  ],
@@ -122,173 +134,200 @@
   },
   {
    "n": 8,
-   "url": "https://www.aljazeera.com/news/2026/11/21/indias-opposition-stages-protests-against-meta-over-account-removals?traffic_source=rss",
-   "publisher": "aljazeera.com",
-   "title": "India’s opposition stages protests against Meta over account removals",
-   "publishedAt": "2026-11-21T16:14:01.000Z"
+   "url": "https://www.independent.co.uk/asia/india/meta-india-censorship-congress-protest-bjp-modi-b3089119.html",
+   "publisher": "independent.co.uk",
+   "title": "Meta offices vandalised in India over account removals",
+   "publishedAt": "2026-11-21T11:10:53.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://grenadachronicle.com/indias-opposition-stages-protests-against-meta-over-account-removals/",
+   "publisher": "grenadachronicle.com",
+   "title": "India’s opposition stages protests against Meta over account removals - Grenada Chronicle – Daily Grenada And Caribbean News",
+   "publishedAt": "2026-11-21T17:09:21.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://dominicanrepublicpost.com/indias-opposition-stages-protests-against-meta-over-account-removals/",
+   "publisher": "dominicanrepublicpost.com",
+   "title": "India’s opposition stages protests against Meta over account removals - Dominican Republic Post – Caribbean News, Business, Travel & Culture",
+   "publishedAt": "2026-11-21T17:31:47.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.95,
- "publishers": 8,
- "reports24h": 6,
+ "publishers": 10,
+ "reports24h": 10,
  "reportsPrev24h": 2,
- "reports48h": 8,
+ "reports48h": 12,
  "firstSeenAt": "2026-11-20T20:52:39.384Z",
- "lastReportAt": "2026-11-21T16:14:01.000Z",
- "lastCheckedAt": "2026-11-21T18:54:33.456Z",
- "updatedAt": "2026-11-21T18:53:34.826Z",
+ "lastReportAt": "2026-11-21T17:31:47.000Z",
+ "lastCheckedAt": "2026-11-21T22:54:39.452Z",
+ "updatedAt": "2026-11-21T22:53:27.412Z",
  "endedOn": "2026-11-20",
  "responseSources": [
   3,
   4,
-  5
+  5,
+  8
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-21T18:53:34.826Z",
- "summaryOf": "b6a49ba32b71",
+ "summarizedAt": "2026-11-21T22:53:27.412Z",
+ "summaryOf": "6221fbeac2a2",
  "publishedAt": "2026-11-20T20:55:01.578Z",
  "i18n": {
-  "of": "7371fd7f1a7a1bd4",
-  "at": "2026-11-21T18:56:56.500Z",
+  "of": "0676fd5acd904e3c",
+  "at": "2026-11-21T22:56:22.352Z",
   "tries": 1,
   "es": {
-   "title": "Juventudes del Congreso protestan en la oficina de Meta en Hyderabad por la suspensión de cuentas",
-   "seoTitle": "Juventudes del Congreso protestan en Meta Hyderabad",
+   "title": "Las Juventudes del Congreso protestan en la oficina de Meta en Hyderabad por la suspensión de cuentas",
+   "seoTitle": "Juventudes del Congreso protestan en Meta",
    "tea": {
-    "why": "Los manifestantes se manifestaron contra la suspensión de cuentas de redes sociales pertenecientes a líderes nacionales de las Juventudes del Congreso.",
-    "want": "Exigieron la restauración inmediata de las cuentas suspendidas pertenecientes a líderes de la oposición, periodistas y creadores.",
-    "changed": "20 de noviembre: La policía detuvo a 21 trabajadores de las Juventudes del Congreso tras entrar en la oficina de Meta en Hyderabad y manifestarse."
+    "why": "Los manifestantes están indignados por la suspensión por parte de Meta de cuentas en redes sociales pertenecientes a líderes nacionales de las Juventudes del Congreso.",
+    "want": "Exigen la restauración inmediata de las cuentas restringidas de líderes de la oposición, periodistas, creadores e influencers.",
+    "changed": "20 de nov.: La policía detuvo a 21 trabajadores de las Juventudes del Congreso en Hyderabad tras una manifestación en la oficina de Meta, y fueron liberados tras tres horas."
    },
-   "summary": "El viernes 20 de noviembre de 2026, miembros de las Juventudes del Congreso de Telangana protagonizaron una manifestación en la oficina de Meta situada en la zona de Gachibowli en Hyderabad. Encabezados por el presidente del partido estatal Jakkidi Shivacharan Reddy, los participantes protestaron por la suspensión y restricción de cuentas en redes sociales pertenecientes al presidente de las Juventudes del Congreso de la India, Uday Bhanu Chib, y al encargado nacional Manish Sharma. Durante la manifestación, algunos participantes entraron en el recinto, recorrieron los pasillos y dañaron macetas. Las Juventudes del Congreso de la India emitieron un ultimátum de siete días en el que exigieron la eliminación de las restricciones a las voces de la oposición, periodistas e influenciadores. La policía de Raidurgam detuvo a 21 trabajadores, quienes fueron liberados tras aproximadamente tres horas. Un portavoz del partido gobernante calificó la manifestación de vandalismo, mientras que las Juventudes del Congreso de la India afirmaron que las cuentas afectadas fueron restablecidas poco después de la acción.",
+   "summary": "El viernes 20 de noviembre de 2026, trabajadores de las Juventudes del Congreso de Telangana, liderados por el presidente estatal Jakkidi Shivacharan Reddy, protagonizaron una protesta en la oficina de Meta en Gachibowli, Hyderabad. Los manifestantes ingresaron a las instalaciones, recorriendo los pasillos y la zona de la cafetería, y rompieron macetas mientras exigían la restauración de las cuentas de Instagram suspendidas pertenecientes al presidente del Congreso Juvenil Indio, Uday Bhanu Chib, y al encargado nacional Manish Sharma. Los participantes acusaron a Meta de silenciar voces opositoras y de actuar bajo presión del partido gobernante Bharatiya Janata Party. Manifestaciones similares ocurrieron en Bombay y Gurugram. La policía de Raidurgam detuvo a 21 trabajadores en Hyderabad, quienes fueron liberados después de aproximadamente tres horas. Representantes del BJP condenaron las manifestaciones calificándolas de vandalismo.",
    "demands": [
-    "Restaurar las cuentas restringidas de líderes de la oposición, periodistas e influyentes",
-    "Detener la censura y cumplir la Constitución de la India"
+    "Restaurar las cuentas restringidas de los líderes nacionales de las Juventudes del Congreso",
+    "Levantar las restricciones a todos los líderes de la oposición, periodistas e influencers",
+    "Detener la censura y cumplir con la Constitución de la India"
    ],
-   "response": "Según las fuentes, la policía de Raidurgam detuvo a 21 trabajadores que habían entrado en el edificio y los liberó al cabo de unas tres horas. Un portavoz del partido gobernante condenó los actos y tildó al grupo de partido de matones por dañar el recinto de la oficina.",
+   "response": "La policía de Raidurgam en Cyberabad detuvo a 21 trabajadores de las Juventudes del Congreso durante la protesta, liberándolos después de unas tres horas. El portavoz del BJP, Pradeep Bhandari, condenó la manifestación como un acto de vandalismo y acusó al Congreso de ser un partido de matones.",
    "updates": [
-    "Trabajadores de las Juventudes del Congreso protagonizaron una protesta en la oficina de Meta en Hyderabad por la suspensión de cuentas.",
-    "La policía de Raidurgam detuvo a 21 manifestantes que entraron en el edificio y los liberó al cabo de tres horas."
+    "Trabajadores de las Juventudes del Congreso de Telangana protagonizaron una manifestación en la oficina de Meta en Hyderabad y fueron detenidos por la policía.",
+    "El Congreso Juvenil Indio emitió un ultimátum de siete días exigiendo el levantamiento de todas las restricciones a las cuentas de la oposición."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "21 trabajadores de las Juventudes del Congreso, incluido el presidente estatal Siva Charan Reddy, fueron detenidos por la policía de Raidurgam"
+    "crowd": "Veintiún trabajadores de las Juventudes del Congreso",
+    "arrests": "21 trabajadores fueron detenidos"
    }
   },
   "fr": {
-   "title": "Jeunesse du Congrès manifeste au bureau de Meta à Hyderabad contre la suspension de comptes",
-   "seoTitle": "Jeunesse du Congrès manifeste au bureau de Meta",
+   "title": "La Jeunesse du Congrès manifeste au bureau de Meta à Hyderabad contre la suspension de comptes",
+   "seoTitle": "La Jeunesse du Congrès manifeste chez Meta",
    "tea": {
-    "why": "Des manifestants ont protesté contre la suspension de comptes de réseaux sociaux appartenant à des dirigeants nationaux de la Jeunesse du Congrès.",
-    "want": "Ils ont exigé le rétablissement immédiat des comptes suspendus appartenant à des dirigeants de l'opposition, des journalistes et des créateurs.",
-    "changed": "20 nov. : La police a interpellé 21 travailleurs de la Jeunesse du Congrès après leur entrée dans le bureau de Meta à Hyderabad et leur manifestation."
+    "why": "Les manifestants sont mécontents de la suspension par Meta de comptes de réseaux sociaux appartenant à des dirigeants nationaux de la Jeunesse du Congrès.",
+    "want": "Ils exigent le rétablissement immédiat des comptes restreints de dirigeants de l'opposition, de journalistes, de créateurs et d'influenceurs.",
+    "changed": "20 nov. : La police a interpellé 21 travailleurs de la Jeunesse du Congrès à Hyderabad après une manifestation au bureau de Meta, et ils ont été libérés après trois heures."
    },
-   "summary": "Le vendredi 20 novembre 2026, des membres de la Jeunesse du Congrès du Telangana ont organisé une manifestation au bureau de Meta situé dans le quartier de Gachibowli à Hyderabad. Menés par le président du parti d'État Jakkidi Shivacharan Reddy, les participants ont protesté contre la suspension et la restriction de comptes de réseaux sociaux appartenant au président de la Jeunesse du Congrès de l'Inde, Uday Bhanu Chib, et au responsable national Manish Sharma. Pendant la manifestation, certains participants sont entrés dans les locaux, ont circulé dans les couloirs et ont endommagé des pots de fleurs. La Jeunesse du Congrès de l'Inde a émis un ultimatum de sept jours exigeant la levée des restrictions pesant sur les voix de l'opposition, les journalistes et les influenceurs. La police de Raidurgam a interpellé 21 travailleurs, qui ont été libérés après environ trois heures. Un porte-parole du parti au pouvoir a qualifié la manifestation de vandalisme, tandis que la Jeunesse du Congrès de l'Inde a affirmé que les comptes concernés avaient été rétablis peu de temps après l'action.",
+   "summary": "Le vendredi 20 novembre 2026, des travailleurs de la Jeunesse du Congrès du Telangana, menés par le président d'État Jakkidi Shivacharan Reddy, ont organisé une manifestation au bureau de Meta à Gachibowli, Hyderabad. Des manifestants sont entrés dans les locaux, se déplaçant dans les couloirs et la zone de la cafétéria, et ont brisé des pots de fleurs tout en réclamant le rétablissement des comptes Instagram suspendus appartenant au président de la Jeunesse du Congrès indien Uday Bhanu Chib et au responsable national Manish Sharma. Les participants ont accusé Meta de faire taire les voix de l'opposition et d'agir sous la pression du parti au pouvoir, le Bharatiya Janata Party. Des manifestations similaires ont eu lieu à Mumbai et Gurugram. La police de Raidurgam a interpellé 21 travailleurs à Hyderabad, qui ont été relâchés après environ trois heures. Des représentants du BJP ont condamné ces manifestations qualifiées de vandalisme.",
    "demands": [
-    "Rétablir les comptes restreints des dirigeants de l'opposition, des journalistes et des influenceurs",
-    "Arrêter la censure et respecter la Constitution indienne"
+    "Rétablir les comptes restreints des dirigeants nationaux de la Jeunesse du Congrès",
+    "Lever les restrictions sur tous les dirigeants de l'opposition, journalistes et influenceurs",
+    "Cesser la censure et respecter la Constitution de l'Inde"
    ],
-   "response": "Selon des sources, la police de Raidurgam a interpellé 21 travailleurs qui étaient entrés dans le bâtiment et les a relâchés au bout d'environ trois heures. Un porte-parole du parti au pouvoir a condamné ces agissements, qualifiant le groupe de parti de voyous pour avoir endommagé les locaux du bureau.",
+   "response": "La police de Raidurgam à Cyberabad a interpellé 21 travailleurs de la Jeunesse du Congrès pendant la protesta, les relâchant après environ trois heures. Le porte-parole du BJP, Pradeep Bhandari, a condamné la manifestation comme étant du vandalisme et a accusé le Congrès d'être un parti de voyous.",
    "updates": [
-    "Des travailleurs de la Jeunesse du Congrès ont organisé une manifestation au bureau de Meta à Hyderabad en raison de suspensions de comptes.",
-    "La police de Raidurgam a interpellé 21 manifestants entrés dans le bâtiment et les a libérés après trois heures."
+    "Des travailleurs de la Jeunesse du Congrès du Telangana ont organisé une manifestation au bureau de Meta à Hyderabad et ont été interpellés par la police.",
+    "La Jeunesse du Congrès indien a émis un ultimatum de sept jours exigeant la levée de toutes les restrictions sur les comptes de l'opposition."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "21 travailleurs de la Jeunesse du Congrès, dont le président d'État Siva Charan Reddy, ont été interpellés par la police de Raidurgam"
+    "crowd": "Vingt et un travailleurs de la Jeunesse du Congrès",
+    "arrests": "21 travailleurs ont été interpellés"
    }
   },
   "de": {
-   "title": "Kongress-Jugendorganisation protestiert am Meta-Büro in Hyderabad gegen Kontosperrungen",
-   "seoTitle": "Kongress-Jugend protestiert am Meta-Büro in Hyderabad",
+   "title": "Jugend des Kongress protestiert wegen Kontosperrungen am Meta-Büro in Hyderabad",
+   "seoTitle": "Kongress-Jugend protestiert bei Meta",
    "tea": {
-    "why": "Demonstranten protestierten gegen die Sperrung von Social-Media-Konten nationaler Führungspersönlichkeiten der Kongress-Jugendorganisation.",
-    "want": "Sie forderten die sofortige Wiederherstellung gesperrter Konten von Oppositionsführern, Journalisten und Kreativen.",
-    "changed": "20. Nov.: Die Polizei nahm 21 Mitarbeiter der Kongress-Jugendorganisation fest, nachdem sie das Meta-Büro in Hyderabad betreten und demonstriert hatten."
+    "why": "Demonstranten sind verärgert über die von Meta vorgenommene Sperrung von Social-Media-Konten nationaler Jugendkongress-Führer.",
+    "want": "Sie fordern die sofortige Wiederherstellung eingeschränkter Konten von Oppositionspolitikern, Journalisten, Kreativen und Influencern.",
+    "changed": "20. Nov.: Die Polizei nahm in Hyderabad 21 Arbeiter der Kongress-Jugend nach einer Demonstration am Meta-Büro fest, und sie wurden nach drei Stunden freigelassen."
    },
-   "summary": "Am Freitag, den 20. November 2026, hielten Mitglieder der Telangana Youth Congress eine Demonstration am Meta-Büro im Gebiet Gachibowli in Hyderabad ab. Angeführt vom Landesparteipräsidenten Jakkidi Shivacharan Reddy protestierten die Teilnehmer gegen die Sperrung und Einschränkung von Social-Media-Konten des Präsidenten des Indian Youth Congress, Uday Bhanu Chib, und des nationalen Beauftragten Manish Sharma. Während der Demonstration betraten einige Teilnehmer das Gebäude, gingen durch die Flure und beschädigten Blumentöpfe. Der Indian Youth Congress stellte ein siebentägiges Ultimatum mit der Forderung nach Aufhebung der Beschränkungen für Oppositionsstimmen, Journalisten und Influencer. Die Polizei von Raidurgam nahm 21 Arbeiter fest, die nach etwa drei Stunden freigelassen wurden. Ein Sprecher der Regierungspartei kritisierte die Demonstration als Vandalismus, während der Indian Youth Congress angab, die betroffenen Konten seien kurz nach der Aktion wiederhergestellt worden.",
+   "summary": "Am Freitag, den 20. November 2026, veranstalteten Arbeiter der Telangana-Kongress-Jugend unter der Führung des Landesvorsitzenden Jakkidi Shivacharan Reddy einen Protest am Meta-Büro in Gachibowli, Hyderabad. Demonstranten betraten das Gelände, bewegten sich durch Flure und den Cafeteria-Bereich und zerschlugen Blumentöpfe, während sie die Wiederherstellung gesperrter Instagram-Konten forderten, die dem Präsidenten des Indischen Jugendkongresses Uday Bhanu Chib und dem nationalen Verantwortlichen Manish Sharma gehören. Die Teilnehmer warfen Meta vor, Oppositionsstimmen zum Schweigen zu bringen und auf Druck der regierenden Bharatiya Janata Party zu handeln. Ähnliche Demonstrationen fanden in Mumbai und Gurugram statt. Die Polizei von Raidurgam nahm in Hyderabad 21 Arbeiter fest, die nach etwa drei Stunden freigelassen wurden. BJP-Vertreter verurteilten die Demonstrationen als Vandalismus.",
    "demands": [
-    "Eingeschränkte Konten von Oppositionsführern, Journalisten und Influencern wiederherstellen",
-    "Zensur stoppen und der indischen Verfassung folgen"
+    "Eingeschränkte Konten nationaler Jugendkongress-Führer wiederherstellen",
+    "Beschränkungen für alle Oppositionsführer, Journalisten und Influencer aufheben",
+    "Zensur stoppen und Indiens Verfassung einhalten"
    ],
-   "response": "Quellen zufolge nahm die Polizei von Raidurgam 21 Arbeiter fest, die das Gebäude betreten hatten, und ließ sie nach etwa drei Stunden frei. Ein Sprecher der Regierungspartei verurteilte das Vorgehen und bezeichnete die Gruppe als Schlägertruppe, da Büroräume beschädigt wurden.",
+   "response": "Die Polizei von Raidurgam in Cyberabad nahm während des Protests 21 Arbeiter der Kongress-Jugend fest und ließ sie nach etwa drei Stunden wieder frei. BJP-Sprecher Pradeep Bhandari verurteilte die Demonstration als Vandalismus und warf dem Kongress vor, eine Partei von Schlägern zu sein.",
    "updates": [
-    "Mitarbeiter der Kongress-Jugendorganisation veranstalteten einen Protest am Meta-Büro in Hyderabad wegen Kontosperrungen.",
-    "Die Polizei von Raidurgam nahm 21 Demonstranten fest, die das Gebäude betreten hatten, und ließ sie nach drei Stunden frei."
+    "Arbeiter der Telangana-Kongress-Jugend veranstalteten eine Demonstration am Meta-Büro in Hyderabad und wurden von der Polizei festgenommen.",
+    "Der Indische Jugendkongress stellte ein siebentägiges Ultimatum mit der Forderung nach Aufhebung aller Beschränkungen für Oppositionskonten."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "21 Arbeiter der Kongress-Jugendorganisation, darunter der Landesvorsitzende Siva Charan Reddy, wurden von der Polizei Raidurgam festgenommen"
+    "crowd": "Einundzwanzig Arbeiter der Kongress-Jugend",
+    "arrests": "21 Arbeiter wurden festgenommen"
    }
   },
   "it": {
    "title": "La Gioventù del Congresso protesta all'ufficio Meta di Hyderabad per la sospensione degli account",
-   "seoTitle": "La Gioventù del Congresso protesta all'ufficio Meta",
+   "seoTitle": "La Gioventù del Congresso protesta da Meta",
    "tea": {
-    "why": "I manifestanti hanno protestato contro la sospensione di account di social media appartenenti a leader nazionali della Gioventù del Congresso.",
-    "want": "Hanno chiesto il ripristino immediato degli account sospesi appartenenti a leader dell'opposizione, giornalisti e creatori.",
-    "changed": "20 nov: La polizia ha fermato 21 lavoratori della Gioventù del Congresso dopo che erano entrati nell'ufficio Meta di Hyderabad e avevano manifestato."
+    "why": "I manifestanti sono arrabbiati per la sospensione da parte di Meta degli account social appartenenti ai leader nazionali della Gioventù del Congresso.",
+    "want": "Chiedono l'immediato ripristino degli account limitati di leader dell'opposizione, giornalisti, creatori e influencer.",
+    "changed": "20 nov: La polizia ha fermato 21 lavoratori della Gioventù del Congresso a Hyderabad dopo una manifestazione all'ufficio di Meta, e sono stati rilasciati dopo tre ore."
    },
-   "summary": "Venerdì 20 novembre 2026, i membri della Gioventù del Congresso del Telangana hanno tenuto una dimostrazione presso l'ufficio di Meta situato nell'area di Gachibowli a Hyderabad. Guidati dal presidente del partito statale Jakkidi Shivacharan Reddy, i partecipanti hanno protestato contro la sospensione e la restrizione degli account di social media appartenenti al presidente della Gioventù del Congresso indiano Uday Bhanu Chib e al responsabile nazionale Manish Sharma. Durante la manifestazione, alcuni partecipanti sono entrati nei locali, si sono mossi nei corridoi e hanno danneggiato dei vasi di fiori. La Gioventù del Congresso indiano ha emesso un ultimatum di sette giorni chiedendo la rimozione delle restrizioni sulle voci dell'opposizione, sui giornalisti e sugli influencer. La polizia di Raidurgam ha fermato 21 lavoratori, che sono stati rilasciati dopo circa tre ore. Un portavoce del partito di governo ha criticato la manifestazione definendola un atto di vandalismo, mentre la Gioventù del Congresso indiano ha affermato che gli account interessati sono stati ripristinati poco dopo l'azione.",
+   "summary": "Venerdì 20 novembre 2026, i lavoratori della Gioventù del Congresso del Telangana guidati dal presidente statale Jakkidi Shivacharan Reddy hanno organizzato una protesta presso l'ufficio di Meta a Gachibowli, Hyderabad. I manifestanti sono entrati nei locali, muovendosi attraverso i corridoi e l'area della caffetteria, e hanno distrutto vasi di fiori invocando il ripristino degli account Instagram sospesi appartenenti al presidente della Gioventù del Congresso Indiano Uday Bhanu Chib e al responsabile nazionale Manish Sharma. I partecipanti hanno accusato Meta di mettere a tacere le voci dell'opposizione e di agire sotto la pressione del partito di governo Bharatiya Janata Party. Dimostrazioni simili si sono verificate a Mumbai e Gurugram. La polizia di Raidurgam ha fermato 21 lavoratori a Hyderabad, i quali sono stati rilasciati dopo circa tre ore. I rappresentanti del BJP hanno condannato le manifestazioni definendole atti di vandalismo.",
    "demands": [
-    "Ripristinare gli account limitati di leader dell'opposizione, giornalisti e influencer",
-    "Fermare la censura e rispettare la Costituzione indiana"
+    "Ripristinare gli account limitati dei leader nazionali della Gioventù del Congresso",
+    "Revocare le restrizioni su tutti i leader dell'opposizione, giornalisti e influencer",
+    "Fermare la censura e rispettare la Costituzione dell'India"
    ],
-   "response": "Secondo le fonti, la polizia di Raidurgam ha fermato 21 lavoratori che erano entrati nell'edificio, rilasciandoli dopo circa tre ore. Un portavoce del partito di governo ha condannato le azioni, definendo il gruppo un partito di teppisti per aver danneggiato i locali dell'ufficio.",
+   "response": "La polizia di Raidurgam a Cyberabad ha fermato 21 lavoratori della Gioventù del Congresso durante la protesta, rilasciandoli dopo circa tre ore. Il portavoce del BJP Pradeep Bhandari ha condannato la dimostrazione come atto di vandalismo e ha accusato il Congresso di essere un partito di teppisti.",
    "updates": [
-    "I lavoratori della Gioventù del Congresso hanno tenuto una protesta presso l'ufficio di Meta a Hyderabad per la sospensione degli account.",
-    "La polizia di Raidurgam ha fermato 21 manifestanti entrati nell'edificio, rilasciandoli dopo tre ore."
+    "I lavoratori della Gioventù del Congresso del Telangana hanno organizzato una manifestazione presso l'ufficio Meta di Hyderabad e sono stati fermati dalla polizia.",
+    "La Gioventù del Congresso Indiano ha emesso un ultimatum di sette giorni chiedendo la rimozione di tutte le restrizioni sugli account dell'opposizione."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "21 lavoratori della Gioventù del Congresso, tra cui il presidente statale Siva Charan Reddy, sono stati fermati dalla polizia di Raidurgam"
+    "crowd": "Ventuno lavoratori della Gioventù del Congresso",
+    "arrests": "21 lavoratori sono stati fermati"
    }
   },
   "pt": {
-   "title": "Juventude do Congresso protesta no escritório da Meta em Hyderabad devido a suspensões de contas",
-   "seoTitle": "Juventude do Congresso protesta no escritório da Meta",
+   "title": "Juventude do Congresso protesta no escritório da Meta em Hyderabad devido à suspensão de contas",
+   "seoTitle": "Juventude do Congresso protesta na Meta",
    "tea": {
-    "why": "Manifestantes protestaram contra a suspensão de contas de redes sociais pertencentes a líderes nacionais da Juventude do Congresso.",
-    "want": "Exigiram a restauração imediata de contas suspensas pertencentes a líderes da oposição, jornalistas e criadores.",
-    "changed": "20 de nov.: A polícia deteve 21 trabalhadores da Juventude do Congresso depois de entrarem no escritório da Meta em Hyderabad e demonstrarem."
+    "why": "Os manifestantes estão indignados com a suspensão de contas nas redes sociais pertencentes a líderes nacionais da Juventude do Congresso por parte da Meta.",
+    "want": "Exigem a restauração imediata das contas restritas de líderes da oposição, jornalistas, criadores e influenciadores.",
+    "changed": "20 de nov.: A polícia deteve 21 trabalhadores da Juventude do Congresso em Hyderabad após uma manifestação no escritório da Meta, tendo sido libertados após três horas."
    },
-   "summary": "Na sexta-feira, 20 de novembro de 2026, membros da Juventude do Congresso de Telangana realizaram uma manifestação no escritório da Meta localizado na zona de Gachibowli, em Hyderabad. Liderados pelo presidente do partido estadual Jakkidi Shivacharan Reddy, os participantes protestaram contra a suspensão e restrição de contas de redes sociais pertencentes ao presidente da Juventude do Congresso Indiano, Uday Bhanu Chib, e ao encarregado nacional Manish Sharma. Durante a manifestação, alguns participantes entraram nas instalações, circularam pelos corredores e danificaram vasos de flores. A Juventude do Congresso Indiano emitiu um ultimato de sete dias a exigir a remoção das restrições às vozes da oposição, jornalistas e influenciadores. A polícia de Raidurgam deteve 21 trabalhadores, que foram libertados após cerca de três horas. Um porta-voz do partido no poder criticou a manifestação como vandalismo, enquanto a Juventude do Congresso Indiano afirmou que as contas afetadas foram restauradas pouco depois da ação.",
+   "summary": "Na sexta-feira, 20 de novembro de 2026, trabalhadores da Juventude do Congresso de Telangana liderados pelo presidente estadual Jakkidi Shivacharan Reddy realizaram um protesto no escritório da Meta em Gachibowli, Hyderabad. Os manifestantes entraram nas instalações, circulando pelos corredores e pela área da cafetaria, e partiram vasos de flores enquanto apelavam à restauração das contas de Instagram suspensas pertencentes ao presidente do Congresso da Juventude Indiana, Uday Bhanu Chib, e ao encarregado nacional Manish Sharma. Os participantes acusaram a Meta de silenciar vozes da oposição e de agir sob pressão do partido no poder, o Bharatiya Janata Party. Manifestações semelhantes ocorreram em Mumbai e Gurugram. A polícia de Raidurgam deteve 21 trabalhadores em Hyderabad, que foram libertados após cerca de três horas. Representantes do BJP condenaram as manifestações como vandalismo.",
    "demands": [
-    "Restaurar contas restritas de líderes da oposição, jornalistas e influenciadores",
-    "Parar a censura e cumprir a Constituição Indiana"
+    "Restaurar as contas restritas dos líderes nacionais da Juventude do Congresso",
+    "Retirar as restrições a todos os líderes da oposição, jornalistas e influenciadores",
+    "Parar a censura e cumprir a Constituição da Índia"
    ],
-   "response": "Segundo fontes, a polícia de Raidurgam deteve 21 trabalhadores que tinham entrado no edifício, libertando-os após cerca de três horas. Um porta-voz do partido no poder condenou as ações, chamando ao grupo um partido de arruaceiros por danificarem as instalações do escritório.",
+   "response": "A polícia de Raidurgam em Cyberabad deteve 21 trabalhadores da Juventude do Congresso durante o protesto, libertando-os após cerca de três horas. O porta-voz do BJP, Pradeep Bhandari, condenou a manifestação como vandalismo e acusou o Congresso de ser um partido de arruaceiros.",
    "updates": [
-    "Trabalhadores da Juventude do Congresso realizaram um protesto no escritório da Meta em Hyderabad devido a suspensões de contas.",
-    "A polícia de Raidurgam deteve 21 manifestantes que entraram no edifício, libertando-os após três horas."
+    "Trabalhadores da Juventude do Congresso de Telangana realizaram uma manifestação no escritório da Meta em Hyderabad e foram detidos pela polícia.",
+    "O Congresso da Juventude Indiana emitiu um ultimato de sete dias a exigir o levantamento de todas as restrições às contas da oposição."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "21 trabalhadores da Juventude do Congresso, incluindo o presidente estadual Siva Charan Reddy, foram detidos pela polícia de Raidurgam"
+    "crowd": "Vinte e um trabalhadores da Juventude do Congresso",
+    "arrests": "21 trabalhadores foram detidos"
    }
   },
   "nl": {
-   "title": "Congresjongeren demonstreren bij Meta-kantoor in Hyderabad om accountopschortingen",
-   "seoTitle": "Congresjongeren demonstreren bij Meta-kantoor Hyderabad",
+   "title": "Congresjeugd protesteert bij Meta-kantoor in Hyderabad om accountopschortingen",
+   "seoTitle": "Congresjeugd protesteert bij Meta",
    "tea": {
-    "why": "Demonstranten protesteerden tegen de opschorting van socialemedia-accounts van nationale leiders van de Congresjongeren.",
-    "want": "Zij eisten het onmiddellijke herstel van opgeschorte accounts van oppositieleiders, journalisten en makers.",
-    "changed": "20 nov.: De politie hield 21 medewerkers van de Congresjongeren vast nadat zij het Meta-kantoor in Hyderabad waren binnengegaan en hadden gedemonstreerd."
+    "why": "Demonstranten zijn boos over het opschorten van socialemedia-accounts van nationale jongerencongresleiders door Meta.",
+    "want": "Ze eisen het onmiddellijke herstel van beperkte accounts van opposisieleiders, journalisten, makers en influencers.",
+    "changed": "20 nov.: De politie hield 21 Congresjeugdwerkers in Hyderabad vast na een demonstratie bij het kantoor van Meta, en zij werden na drie uur vrijgelaten."
    },
-   "summary": "Op vrijdag 20 november 2026 hielden leden van de Telangana Youth Congress een demonstratie bij het kantoor van Meta in het Gachibowli-gebied in Hyderabad. Onder leiding van staatspartijvoorzitter Jakkidi Shivacharan Reddy protesteerden de deelnemers tegen de opschorting en beperking van socialemedia-accounts van de voorzitter van de Indian Youth Congress, Uday Bhanu Chib, en de nationale verantwoordelijke Manish Sharma. Tijdens de demonstratie betraden enkele deelnemers het pand, liepen door de gangen en vernielden bloempotten. De Indian Youth Congress vaardigde een ultimatum van zeven dagen uit waarin werd geëist dat de beperkingen op oppositiestemmen, journalisten en influencers worden opgeheven. De politie van Raidurgam hield 21 medewerkers vast, die na ongeveer drie uur werden vrijgelaten. Een woordvoerder van de regerende partij bekritiseerde de demonstratie als vandalisme, terwijl de Indian Youth Congress verklaarde dat de getroffen accounts kort na de actie waren hersteld.",
+   "summary": "Op vrijdag 20 november 2026 hielden werknemers van de Telangana Congresjeugd onder leiding van staatsvoorzitter Jakkidi Shivacharan Reddy een protest bij het kantoor van Meta in Gachibowli, Hyderabad. Demonstranten betraden het pand, liepen door gangen en de kantine, en sloegen bloempotten kapot terwijl ze opriepen tot het herstellen van opgeschorte Instagram-accounts van de voorzitter van de Indian Youth Congress, Uday Bhanu Chib, en nationaal verantwoordelijke Manish Sharma. De deelnemers beschuldigden Meta ervan oppositiestemmen te monddood te maken en te handelen onder druk van de heersende Bharatiya Janata Party. Soortgelijke demonstraties vonden plaats in Mumbai en Gurugram. De politie van Raidurgam hield 21 werknemers vast in Hyderabad, die na ongeveer drie uur werden vrijgelaten. Vertegenwoordigers van de BJP veroordeelden de demonstraties als vandalisme.",
    "demands": [
-    "Beperkte accounts van oppositieleiders, journalisten en influencers herstellen",
-    "Censuur stoppen en de Indiase grondwet volgen"
+    "Beperkte accounts van nationale jongerencongresleiders herstellen",
+    "Beperkingen opheffen voor alle oppositieleiders, journalisten en influencers",
+    "Censuur stoppen en de Indiase grondwet naleven"
    ],
-   "response": "Volgens bronnen hield de politie van Raidurgam 21 medewerkers vast die het gebouw waren binnengegaan en liet hen na ongeveer drie uur weer vrij. Een woordvoerder van de regerende partij veroordeelde de acties en noemde de groep een partij van uitschot wegens het beschadigen van de kantoorpand.",
+   "response": "De politie van Raidurgam in Cyberabad hield 21 Congresjeugdwerkers vast tijdens het protest en liet hen na ongeveer drie uur weer vrij. BJP-woordvoerder Pradeep Bhandari noemde de demonstratie vandalisme en beschuldigde het Congres ervan een partij van uitschot te zijn.",
    "updates": [
-    "Medewerkers van de Congresjongeren hielden een protest bij het Meta-kantoor in Hyderabad over accountopschortingen.",
-    "De politie van Raidurgam hield 21 demonstranten vast die het gebouw waren binnengegaan en liet hen na drie uur vrij."
+    "Werknemers van de Telangana Congresjeugd hielden een demonstratie bij het kantoor van Meta in Hyderabad en werden door de politie vastgehouden.",
+    "De Indian Youth Congress gaf een ultimatum van zeven dagen af waarin werd geëist dat alle beperkingen op oppositieaccounts worden opgeheven."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "21 medewerkers van de Congresjongeren, onder wie staatspresident Siva Charan Reddy, werden vastgehouden door de politie van Raidurgam"
+    "crowd": "Eenentwintig Congresjeugdwerkers",
+    "arrests": "21 werknemers werden vastgehouden"
    }
   }
  },
