@@ -16,61 +16,81 @@
  "scope": "multi-city",
  "causes": [
   "labour",
-  "education",
-  "climate"
+  "climate",
+  "war-peace"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-20",
- "status": "scheduled",
- "vibe": "heating-up",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence",
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters oppose rising military spending and government austerity measures affecting education, healthcare, and climate protection.",
-  "want": "They demand increased funding for social services and climate action instead of military buildup.",
-  "changed": "Nov 20: Demonstrations are scheduled to take place in multiple cities, including a march in Bern starting at 3:00 p.m."
+  "why": "Protesters oppose military buildup and austerity measures affecting education, healthcare, and climate protection.",
+  "want": "They demand an end to military spending and increased investment in social services and climate action.",
+  "changed": "Nov 20: Demonstrations took place in several cities, with reports of peaceful marches in Bern and clashes in Basel and Lausanne."
  },
- "summary": "On November 20, 2026, youth demonstrations were scheduled to take place across several Swiss cities, including Bern, as part of a broader European protest movement. Organised by a coalition including the Young Social Democrats, the Young Greens, the Group for a Switzerland without an Army (GSoA), and various student groups and unions, the participants aimed to protest against increased military spending and government austerity policies. The organisers stated that the demonstrations were intended to be peaceful. While authorities in various cities confirmed that the events were authorised, police forces maintained a presence to monitor the situation, citing concerns over potential unrest following previous incidents in late October. The protests reflect ongoing national debates regarding Switzerland's budgetary priorities and the allocation of public funds between the military and social sectors.",
+ "summary": "On November 20, 2026, youth strike demonstrations occurred across approximately ten Swiss cities, including Bern, Zurich, Basel, and Lausanne. Organised by a coalition including the Young Socialists (Juso), Young Greens, and the Group for a Switzerland without an Army (GSoA), the protests were part of a Europe-wide movement against militarisation and austerity policies. In Bern, several thousand participants marched from Münsterplatz to the Reitschule in a peaceful demonstration. While most events were reported as peaceful, authorities in Basel and Lausanne reported clashes involving masked individuals, property damage, and the use of pyrotechnics, leading police to deploy water cannons and tear gas. Organisers claimed a nationwide turnout of 40,000 people, while police and news agency counts varied significantly by location.",
  "organizers": [
-  "Young Social Democrats",
-  "Young Greens",
-  "Group for a Switzerland without an Army (GSoA)",
-  "trade unions",
-  "student groups"
+  "Juso",
+  "Jungen Grünen",
+  "Gruppe für eine Schweiz ohne Armee (GSoA)"
  ],
  "demands": [
-  "Reduce military spending",
-  "Stop austerity measures",
-  "Increase funding for education",
-  "Increase funding for healthcare",
-  "Increase funding for climate protection"
+  "End to military buildup",
+  "Increased funding for education",
+  "Increased funding for healthcare",
+  "Increased climate protection"
  ],
- "response": "Police in various cities confirmed the demonstrations were authorised and stated they would be present with appropriate resources to ensure public safety and manage the situation.",
- "numbers": {},
+ "response": "Police in various cities authorised the marches and monitored the events. In Basel and Lausanne, police intervened with water cannons, rubber bullets, and tear gas following reports of property damage and attacks on officers.",
+ "numbers": {
+  "crowd": {
+   "value": 40000,
+   "text": "Organisers claimed 40,000 people took part across Switzerland.",
+   "sources": [
+    6
+   ]
+  },
+  "arrests": {
+   "value": 4,
+   "text": "Four people were arrested in Zurich on suspicion of obstructing a public official.",
+   "sources": [
+    6
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-11-17",
-   "text": "Authorities in various cities confirmed that demonstrations were planned for November 20 and that some had received official authorisation.",
+   "text": "Organisers announced youth protests across Switzerland for November 20 against austerity and militarisation.",
    "sources": [
     1
    ]
   },
   {
-   "at": "2026-11-18",
-   "text": "An alliance of left-wing parties and unions announced that youth strike actions would take place in eleven Swiss cities.",
+   "at": "2026-11-20",
+   "text": "Demonstrations took place in multiple cities including Bern, Zurich, and Basel.",
    "sources": [
-    2
+    6
    ]
   },
   {
    "at": "2026-11-20",
-   "text": "Demonstrations were scheduled to proceed in cities including Bern, with organisers reiterating their call for peaceful protest.",
+   "text": "In Bern, several thousand protesters marched peacefully from Münsterplatz to the Reitschule.",
    "sources": [
-    3,
-    4,
+    6
+   ]
+  },
+  {
+   "at": "2026-11-20",
+   "text": "Police in Basel and Lausanne used water cannons and tear gas following clashes with masked protesters.",
+   "sources": [
     6
    ]
   }
@@ -113,30 +133,32 @@
   },
   {
    "n": 6,
-   "url": "https://www.swissinfo.ch/eng/swiss-abroad-community/switzerland-today/92411126",
+   "url": "https://www.swissinfo.ch/eng/swiss-democracy/thousands-of-young-people-are-demonstrating-in-swiss-cities/92416483",
    "publisher": "swissinfo.ch",
-   "title": "Switzerland Today",
-   "publishedAt": "2026-11-20T15:30:00.000Z"
+   "title": "Thousands turn out for coordinated youth protests in Swiss cities",
+   "publishedAt": "2026-11-21T09:34:52.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.9,
+ "conflicts": [
+  "Organisers claimed 40,000 participants nationwide; Keystone-SDA reported thousands across ten cities.",
+  "In Lausanne, police estimated 9,000 to 10,000 participants, while trade unions estimated 25,000."
+ ],
+ "confidence": 0.75,
  "publishers": 6,
- "reports24h": 1,
+ "reports24h": 2,
  "reportsPrev24h": 4,
- "reports48h": 5,
+ "reports48h": 6,
  "firstSeenAt": "2026-11-17T20:55:37.589Z",
- "lastReportAt": "2026-11-20T15:30:00.000Z",
- "lastCheckedAt": "2026-11-21T10:59:07.799Z",
- "updatedAt": "2026-11-20T16:58:37.875Z",
+ "lastReportAt": "2026-11-21T09:34:52.000Z",
+ "lastCheckedAt": "2026-11-21T15:02:35.872Z",
+ "updatedAt": "2026-11-21T15:01:04.261Z",
  "responseSources": [
-  1,
-  3
+  6
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-20T16:58:37.875Z",
- "summaryOf": "4e0f8e55ba12",
+ "summarizedAt": "2026-11-21T15:01:04.261Z",
+ "summaryOf": "5e48e4e7663f",
  "publishedAt": "2026-11-20T08:55:51.961Z",
  "i18n": {
   "of": "7bdde6af3cbd7df8",

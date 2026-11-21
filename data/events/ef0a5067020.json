@@ -13,11 +13,11 @@
   "citySlug": "zurich",
   "regionSlug": "zurich"
  },
- "scope": "multi-city",
+ "scope": "local",
  "causes": [
-  "students",
-  "education",
-  "climate"
+  "war-peace",
+  "climate",
+  "education"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-20",
@@ -32,66 +32,65 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters demonstrated against military spending, the climate crisis, and austerity measures affecting education and social policy.",
-  "want": "The movement demanded an end to militarization, increased funding for education and social services, and climate justice.",
-  "changed": "Nov 20: Police arrested four individuals for obstructing official duties and detained 29 others for questioning during the march."
+  "why": "Protesters demonstrated against militarisation, the climate crisis, and austerity measures affecting education and social policy.",
+  "want": "Demands included an end to military spending, increased funding for education and social services, and climate justice.",
+  "changed": "Nov 20: Police arrested 33 people and issued 60 expulsion orders during the demonstration."
  },
- "summary": "On November 20, 2026, thousands of students and young people participated in a youth strike in Zurich, part of a multi-city mobilization across Switzerland. Organizers included the Bündnis gegen Austerität, Juso, Unia youth, Jungen Grünen, and climate and feminist strike groups. The march, which followed an authorized route from the Landesmuseum to Tessinerplatz, focused on demands for climate justice, increased social and educational spending, and an end to global conflicts and militarization. While the event was largely peaceful, Zurich police conducted checks on dozens of participants, leading to four arrests for obstructing official duties and 29 temporary detentions. Authorities had previously denied the organizers' request to march through the city center, citing tactical reasons and Advent foot traffic, instead approving a route through Kreis 4.",
+ "summary": "On November 20, 2026, thousands of students and young people participated in a youth strike march in Zurich. Organised by groups including the Juso, the Young Greens, and various climate and feminist alliances, the demonstration aimed to protest against global conflicts, militarisation, and budget cuts. While the event was authorised, police restricted the route to avoid the city centre. During the march, participants protested against the detention of individuals travelling from Winterthur. Authorities deployed plainclothes officers, leading to confrontations on Stockerstrasse where police used tear gas and rubber bullets. According to the Zurich City Police, 33 people were arrested, including four for obstructing official duties, and approximately 60 individuals were expelled from the area. The event remained largely peaceful, though some participants criticised the police tactics.",
  "organizers": [
   "Bündnis gegen Austerität",
   "Juso",
-  "Unia",
-  "Jungen Grünen",
+  "Jugend der Unia",
+  "Junge Grünen",
   "Feministischer Streik",
   "Klimastreik"
  ],
  "demands": [
-  "Stop militarization",
-  "Increase education and social spending",
+  "Stop militarisation",
+  "Increase funding for education",
+  "Increase funding for social policy",
   "Climate justice"
  ],
- "response": "Zurich police authorized a specific route, conducted security checks, and detained several dozen individuals, citing the need to prevent potential escalations following online calls for violence.",
+ "response": "The Zurich City Police stated that routes are assessed individually. During the event, police deployed plainclothes officers and used tear gas and rubber bullets following confrontations on Stockerstrasse.",
  "numbers": {
   "crowd": {
    "value": 5000,
-   "text": "Organizers and observers estimated approximately 5,000 participants at the start of the march, while police reported…",
+   "text": "Approximately 5,000 people according to reports from the scene.",
    "sources": [
-    2,
-    3,
-    4
+    3
    ]
   },
   "arrests": {
    "value": 33,
-   "text": "Police reported four arrests for obstruction and 29 temporary detentions.",
+   "text": "33 people were arrested, with 4 facing charges for obstructing official duties.",
    "sources": [
     2,
-    4
+    4,
+    5
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-11",
-   "text": "Organizers requested a route through the city center, which police denied citing tactical reasons and Advent traffic.",
+   "text": "Police rejected the organisers' request to march through the city centre, citing Advent foot traffic.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-19",
-   "text": "Police published an approved route for the march that avoided the city's shopping core.",
+   "text": "Police published an approved route for the demonstration avoiding the shopping core.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-20",
-   "text": "The march took place in Zurich with thousands of participants; police conducted checks and made arrests.",
+   "text": "The demonstration took place with approximately 5,000 participants; police arrested 33 people during the event.",
    "sources": [
-    2,
     3,
-    4
+    5
    ]
   }
  ],
@@ -123,31 +122,37 @@
    "publisher": "nau.ch",
    "title": "Tausende Jugendliche demonstrieren in Schweizer Städten | Nau.ch",
    "publishedAt": "2026-11-21T01:27:32.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.20min.ch/story/zuercher-jugendstreik-vermummt-und-mit-schlagstock-polizisten-undercover-an-protest-103671135",
+   "publisher": "20min.ch",
+   "title": "Jugendstreik Zürich: Vermummte Zivilbeamte mischen sich unter Demo",
+   "publishedAt": "2026-11-21T11:40:57.054Z"
   }
  ],
  "conflicts": [
-  "Police reported 3,000 participants while other sources estimated 5,000."
+  "Police reported approximately 3,000 participants, while other sources estimated 5,000."
  ],
- "confidence": 0.71,
- "publishers": 4,
- "reports24h": 3,
+ "confidence": 0.75,
+ "publishers": 5,
+ "reports24h": 4,
  "reportsPrev24h": 1,
- "reports48h": 4,
+ "reports48h": 5,
  "firstSeenAt": "2026-11-20T08:52:38.956Z",
- "lastReportAt": "2026-11-21T01:27:32.000Z",
- "lastCheckedAt": "2026-11-21T10:59:07.799Z",
- "updatedAt": "2026-11-21T10:58:14.109Z",
+ "lastReportAt": "2026-11-21T11:40:57.054Z",
+ "lastCheckedAt": "2026-11-21T15:02:35.872Z",
+ "updatedAt": "2026-11-21T15:01:24.392Z",
  "searchedAt": "2026-11-20T20:50:51.460Z",
  "endedOn": "2026-11-20",
  "responseSources": [
   1,
-  2,
-  4
+  5
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-21T10:58:14.109Z",
- "summaryOf": "aeb2b9b66614",
+ "summarizedAt": "2026-11-21T15:01:24.392Z",
+ "summaryOf": "ab045fb75ce8",
  "publishedAt": "2026-11-20T20:55:01.578Z",
  "i18n": {
   "of": "e3948dcac4b0333f",

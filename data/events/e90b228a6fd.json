@@ -16,8 +16,8 @@
  "scope": "multi-city",
  "causes": [
   "labour",
-  "education",
-  "prices"
+  "students",
+  "education"
  ],
  "kind": "multi-day",
  "startedOn": "2026-11-05",
@@ -33,32 +33,30 @@
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against rising living costs, declining public services, and insufficient wages amid high inflation.",
-  "want": "Participants demand higher wages, increased funding for public education, and improved social and fiscal justice.",
-  "changed": "Nov 21: Merchants in the city center are preparing for further protests amid ongoing concerns over potential property damage and lost revenue."
+  "why": "Protesters are demonstrating against rising living costs, insufficient public services, and education policies.",
+  "want": "Demands include higher wages, increased funding for education, improved student housing, and social aid.",
+  "changed": "Nov 21: Merchants in the city center are preparing for further protests amid fears of property damage and loss of revenue."
  },
- "summary": "Since early November 2026, Lyon has experienced a series of protests and strikes organized by trade unions, student groups, and the Gilets Jaunes movement. Demonstrators are calling for better wages, increased resources for public education, and action against the rising cost of living. Major mobilizations occurred on November 5 and November 17, with thousands of participants marching through the city. While many demonstrations remained peaceful, some events involved clashes between protesters and police, property damage, and the use of tear gas. Authorities have frequently issued orders restricting protest routes in the city center, though some were challenged in court. Local businesses have expressed significant concern regarding the impact of these recurring protests on their operations and safety, citing previous incidents of looting and vandalism.",
+ "summary": "Since early November 2026, Lyon has experienced a series of protests and strikes linked to a nationwide movement against living costs and public service conditions. Organised by various trade unions, student groups, and the Gilets Jaunes, the demonstrations have included large marches, school blockades, and strikes in the transport sector. While many participants have demonstrated peacefully, authorities have reported incidents of violence, including the burning of a high school entrance, attacks on journalists, and looting of businesses. The Prefecture of the Rhône has repeatedly issued decrees banning protests in parts of the city, though these have been contested. Authorities have deployed significant police forces to manage the unrest, while business owners have expressed concern over the economic impact and potential for further property damage during ongoing mobilisations.",
  "organizers": [
-  "intersyndicale",
   "CGT",
-  "CGT TCL Mode Lourd",
-  "Gilets jaunes",
+  "Gilets Jaunes",
   "Interfac de Lyon",
-  "Snes-FSU"
+  "CGT TCL Mode Lourd"
  ],
  "demands": [
   "Higher wages",
-  "Increased funding for education",
-  "Improved social and fiscal justice",
-  "Better public services"
+  "Increased education funding",
+  "Improved student housing",
+  "Access to affordable meals",
+  "End to university selection processes"
  ],
- "response": "The prefecture of the Rhône has repeatedly deployed security forces, implemented protest route restrictions, and condemned acts of violence. Education Minister Edouard Geffray described certain protest-related incidents as a scandal.",
+ "response": "The government and local authorities have deployed riot police and mobile units to contain protests. The Prefecture of the Rhône has issued multiple decrees banning gatherings in specific areas, and the public prosecutor has opened investigations into acts of violence and property damage.",
  "numbers": {
   "crowd": {
    "value": 55000,
-   "text": "55,000 according to unions on November 5",
+   "text": "55,000 according to trade union organisations on November 5",
    "sources": [
-    3,
     4
    ]
   },
@@ -80,39 +78,38 @@
  "updates": [
   {
    "at": "2026-11-05",
-   "text": "Large-scale protests and strikes take place across Lyon, with turnout estimates ranging from 30,500 to 55,000.",
+   "text": "Nationwide strike and protests take place, with clashes reported between police and protesters in Lyon.",
    "sources": [
-    3,
-    4
+    2
    ]
   },
   {
-   "at": "2026-11-07",
-   "text": "The prefecture bans protests in large parts of the city center for the weekend.",
+   "at": "2026-11-06",
+   "text": "The entrance of the Édouard-Herriot high school is damaged by fire during a blockade.",
    "sources": [
-    5
+    3
    ]
   },
   {
    "at": "2026-11-14",
-   "text": "A media team is assaulted during a protest; authorities report 8,000 participants.",
+   "text": "A BFMTV news crew is assaulted by protesters during a demonstration.",
    "sources": [
+    5,
     6
    ]
   },
   {
    "at": "2026-11-17",
-   "text": "Protesters march to Place Bellecour following a court ruling; police report 7,000 participants.",
+   "text": "A protest march proceeds to Place Bellecour after a court suspends a prefectural ban.",
    "sources": [
-    8,
-    9
+    7
    ]
   },
   {
    "at": "2026-11-20",
-   "text": "Public transport workers represented by CGT TCL strike for higher wages.",
+   "text": "Students and education staff hold a protest march as part of a youth mobilization.",
    "sources": [
-    7
+    9
    ]
   }
  ],
@@ -133,52 +130,52 @@
   },
   {
    "n": 3,
-   "url": "https://www.cafepedagogique.net/2026/11/05/greve-du-5-novembre-professeurs-et-lyceens-ont-manifeste-nombreux-malgre-les-annonces-du-gouvernement/",
-   "publisher": "cafepedagogique.net",
-   "title": "Grève du 5 novembre : professeurs et lycéens ont manifesté nombreux malgré les annonces du gouvernement",
-   "publishedAt": "2026-11-05T17:00:38.000Z"
+   "url": "https://www.lefigaro.fr/actualite-france/les-flammes-montaient-jusqu-au-1er-etage-a-lyon-la-porte-du-lycee-edouard-herriot-incendiee-lors-d-un-blocus-20261106",
+   "publisher": "lefigaro.fr",
+   "title": "«Les flammes montaient jusqu’au 1er étage» : à Lyon, la porte du lycée Édouard-Herriot incendiée lors d’un blocus",
+   "publishedAt": "2026-11-06T19:35:22.000Z"
   },
   {
    "n": 4,
-   "url": "https://www.20minutes.fr/societe/greve/4260652-20261105-manifestation-5-novembre-100-euros-pres-fin-mois-sacrifient-salaire-greve?at_medium=display&at_campaign=149",
-   "publisher": "20minutes.fr",
-   "title": "À Lyon, les travailleurs « sacrifient » leur salaire pour faire grève",
-   "publishedAt": "2026-11-05T17:05:06.516Z"
-  },
-  {
-   "n": 5,
    "url": "https://www.leprogres.fr/social/2026/11/07/mobilisation-contre-la-vie-chere-aucune-manifestation-declaree-ce-samedi-un-large-perimetre-interdit-aux-eventuels-corteges",
    "publisher": "leprogres.fr",
    "title": "Lyon. Vie chère : aucune manifestation déclarée ce samedi, un large périmètre interdit aux éventuels cortèges",
    "publishedAt": "2026-11-07T05:00:00.000Z"
   },
   {
+   "n": 5,
+   "url": "https://www.lalibre.be/international/europe/2026/11/14/sa-camera-a-ete-jetee-par-terre-cassee-une-equipe-de-bfmtv-violemment-agressee-en-marge-de-la-manifestation-a-lyon-CUBIONINABAWLI354Z2ZVENGDA/",
+   "publisher": "lalibre.be",
+   "title": "\"Sa caméra a été jetée par terre, cassée\" : une équipe de BFMTV violemment agressée en marge de la manifestation à Lyon",
+   "publishedAt": "2026-11-14T17:42:46.100Z"
+  },
+  {
    "n": 6,
-   "url": "https://www.lefigaro.fr/actualite-france/volonte-de-lynchage-camera-brisee-et-volee-une-equipe-de-bfmtv-violemment-agressee-en-marge-de-la-manifestation-a-lyon-20261114",
-   "publisher": "lefigaro.fr",
-   "title": "«Volonté de lynchage», caméra brisée et volée… Une équipe de BFMTV violemment agressée en marge de la manifestation à Lyon",
-   "publishedAt": "2026-11-14T17:16:41.000Z"
+   "url": "https://www.20minutes.fr/faits_divers/4262973-20261115-lyon-volonte-lynchage-aucune-interpellation-sait-agression-journalistes-bfmtv?at_medium=display&at_campaign=149",
+   "publisher": "20minutes.fr",
+   "title": "Lyon : « Volonté de lynchage », aucune interpellation… Ce que l'on sait de …",
+   "publishedAt": "2026-11-15T16:31:59.645Z"
   },
   {
    "n": 7,
-   "url": "https://www.lyoncapitale.fr/actualite/une-nouvelle-journee-de-greve-prevue-dans-les-tcl-ce-vendredi-a-lyon",
-   "publisher": "lyoncapitale.fr",
-   "title": "Une nouvelle journée de grève prévue dans les TCL ce vendredi à Lyon",
-   "publishedAt": "2026-11-16T07:44:00.000Z"
-  },
-  {
-   "n": 8,
    "url": "https://mesinfos.fr/69000-lyon/manifestation-a-lyon-tension-et-incomprehension-chez-les-commercants-avant-l-arrivee-a-bellecour-343392.html",
    "publisher": "mesinfos.fr",
    "title": "Manifestation &agrave; Lyon : tension et incompr&eacute;hension chez les commer&ccedil;ants avant l’arriv&eacute;e &agrave; Bellecour",
    "publishedAt": "2026-11-17T12:47:00.000Z"
   },
   {
+   "n": 8,
+   "url": "https://www.lyoncapitale.fr/actualite/nouveau-week-end-de-manifestation-a-lyon-a-quoi-faut-il-s-attendre",
+   "publisher": "lyoncapitale.fr",
+   "title": "Un nouveau week-end de manifestation attendu à Lyon",
+   "publishedAt": "2026-11-18T15:13:36.000Z"
+  },
+  {
    "n": 9,
-   "url": "https://www.lyonmag.com/article/154963/manifestation-du-17-novembre-a-lyon-pas-de-casse-malgre-un-retour-a-bellecour-7-000-personnes-dans-la-rue",
+   "url": "https://www.lyonmag.com/article/155059/etudes-logement-pouvoir-d-achat-la-jeunesse-appelee-a-manifester-ce-vendredi-a-lyon",
    "publisher": "lyonmag.com",
-   "title": "Manifestation &agrave; Lyon : pas de casse malgr&eacute; un retour &agrave; Bellecour",
-   "publishedAt": "2026-11-17T14:00:00.000Z"
+   "title": "Manifestation &agrave; Lyon ce vendredi : d&eacute;part &agrave; 10 h de la Manufacture",
+   "publishedAt": "2026-11-20T06:54:00.000Z"
   },
   {
    "n": 10,
@@ -203,28 +200,32 @@
   }
  ],
  "conflicts": [
-  "On November 5, the prefecture reported 30,500 protesters while unions claimed 55,000.",
-  "On November 17, the prefecture reported 7,000 protesters while unions claimed 15,000."
+  "On November 5, police reported 30,500 participants while trade unions reported 55,000.",
+  "On November 17, police reported 7,000 participants while trade unions reported 15,000."
  ],
  "confidence": 0.75,
  "publishers": 10,
  "reports24h": 1,
- "reportsPrev24h": 0,
- "reports48h": 1,
+ "reportsPrev24h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-10-24T16:01:48.363Z",
  "lastReportAt": "2026-11-21T09:51:43.000Z",
- "lastCheckedAt": "2026-11-21T10:59:07.799Z",
- "updatedAt": "2026-11-21T10:57:21.539Z",
+ "lastCheckedAt": "2026-11-21T15:02:35.872Z",
+ "updatedAt": "2026-11-21T15:00:49.257Z",
  "responseSources": [
   2,
+  3,
+  4,
   5,
   6,
-  9
+  7,
+  8,
+  10
  ],
- "seriousInjuries": false,
+ "seriousInjuries": true,
  "sensitive": false,
- "summarizedAt": "2026-11-21T10:57:21.539Z",
- "summaryOf": "b1438f7b7fe4",
+ "summarizedAt": "2026-11-21T15:00:49.257Z",
+ "summaryOf": "a5b304b8ae33",
  "publishedAt": "2026-10-24T19:33:33.787Z",
  "i18n": {
   "of": "4e503a26f83c4fa1",
