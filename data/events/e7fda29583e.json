@@ -3,7 +3,7 @@
  "slug": "turin-general-strike-march-nov-2026",
  "stage": "live",
  "title": "Italian workers and students march in Turin during general strike",
- "seoTitle": "Turin strike march against war and cost",
+ "seoTitle": "Turin workers and students general strike march",
  "place": {
   "city": "Turin",
   "region": "Piedmont",
@@ -13,7 +13,7 @@
   "citySlug": "turin",
   "regionSlug": "piedmont"
  },
- "scope": "multi-city",
+ "scope": "nationwide",
  "causes": [
   "labour",
   "students",
@@ -24,208 +24,289 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Workers and students are striking and marching across multiple cities against war and the rising cost of living.",
-  "want": "Action against war and high living costs.",
-  "changed": "Nov 20: Police deployed a light baton charge in Turin after protesters tried to deviate from the planned route."
+  "why": "Workers and students joined a general strike against the government financial maneuver, rising living costs, and military spending.",
+  "want": "Demanded secure jobs, higher wages and pensions, fair taxation, public healthcare, the right to education and housing, and a stop to war.",
+  "changed": "Nov 20: Police used water cannons and tear gas against protesters attempting to cross the Po river toward the city center."
  },
- "summary": "Italian workers and students marched across multiple cities, including Turin, as part of a general strike called by unions and student groups. In Turin, a demonstration organized by CGIL and student movements moved through the city centre. Tensions arose when the march attempted to deviate from via Po toward corso Vittorio Emanuele II. Law enforcement blocked the path and used a light baton charge to repel the crowd, after which the participants turned back along via Po. Earlier footage also showed demonstrators climbing onto the statue of Vittorio Emanuele II.",
+ "summary": "Workers and students took to the streets in Turin on November 20, 2026, as part of a nationwide general strike called by Cgil alongside a student mobilization. Participants marched against the government's financial policies, rising living costs, and military spending, demanding better wages, public healthcare, education, and peace. In Turin, events included a morning rally beginning at Piazza XVIII Dicembre and continuing with actions throughout the day. By the evening, tensions escalated near the Gran Madre church and Ponte Vittorio Emanuele as a march organized by the Turin Against Rearmament coordination attempted to cross toward the city center. Police and carabinieri deployed water cannons and tear gas after bottles and laser lights were directed at officers, eventually dispersing the demonstration near Piazza Borromini.",
  "organizers": [
-  "CGIL",
-  "student mobilization groups"
+  "Cgil",
+  "coordinamento Torino è Contro il Riarmo"
  ],
  "demands": [
-  "Opposition to war",
-  "Action against the rising cost of living"
+  "Secure and dignified employment",
+  "Higher salaries and pensions",
+  "A fair and progressive tax system",
+  "Stop inflation and high living costs",
+  "True public healthcare and education"
  ],
- "response": "According to reports, law enforcement deployed schieramenti to block the route and conducted a light baton charge (carica di alleggerimento) when the march attempted to bypass police lines in via Accademia Albertina.",
- "numbers": {},
+ "response": "Police deployed water cannons and tear gas and conducted light charges to block protesters from crossing bridges toward the city center, following bottle throwing and laser use by demonstrators, according to news reports.",
+ "numbers": {
+  "crowd": {
+   "value": 1000,
+   "text": "circa un migliaio di partecipanti",
+   "sources": [
+    4
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-11-20",
-   "text": "General strike marches take place from Milan to Naples, with demonstrators in Turin climbing a monument.",
+   "text": "Morning demonstrations began in Turin with participants gathering at Piazza XVIII Dicembre.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-20",
-   "text": "Police execute a light charge in Turin after protesters trying to avoid high living costs attempt to alter their route.",
+   "text": "An afternoon protest gathered initial crowds of around 300 in Piazza Castello, growing to about a thousand participants.",
    "sources": [
-    2
+    4
+   ]
+  },
+  {
+   "at": "2026-11-20",
+   "text": "Police used water cannons and tear gas near Ponte Vittorio Emanuele and the Gran Madre church to block marchers from reaching the center.",
+   "sources": [
+    3,
+    4
+   ]
+  },
+  {
+   "at": "2026-11-20",
+   "text": "The demonstration ended in the evening after reaching Piazza Borromini following earlier street clashes and standoffs.",
+   "sources": [
+    4
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.lastampa.it/torino/2026/11/17/news/sciopero_generale_20_novembre_cortei_piemonte-15800939/",
+   "publisher": "lastampa.it",
+   "title": "Il Piemonte si organizza per lo sciopero generale del 20 novembre: i cortei in tutta la regione",
+   "publishedAt": "2026-11-17T16:40:44.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://www.ansa.it/sito/notizie/cronaca/2026/11/20/sciopero-generale-le-piazze-da-milano-a-napoli_6e8664c2-d3b8-454f-b25f-4d6839031630.html",
    "publisher": "ansa.it",
    "title": "Sciopero generale, le piazze da Milano a Napoli - Notizie - Ansa.it",
    "publishedAt": "2026-11-20T12:01:06.000Z"
   },
   {
-   "n": 2,
-   "url": "https://www.ilfattoquotidiano.it/2026/11/20/sciopero-generale-torino-carica-alleggerimento-notizie/8579044/",
+   "n": 3,
+   "url": "https://www.ilfattoquotidiano.it/2026/11/20/sciopero-torino-idranti-lacrimogeni-notizie/8579062/",
    "publisher": "ilfattoquotidiano.it",
-   "title": "Tensione a Torino: carica di alleggerimento al corteo dello sciopero",
-   "publishedAt": "2026-11-20T18:34:25.000Z"
+   "title": "Sciopero Torino, idranti e lacrimogeni sul corteo a Ponte Vittorio Emanuele",
+   "publishedAt": "2026-11-20T20:02:45.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.giornalelavoce.it/news/cronaca/759019/bottiglie-contro-gli-agenti-la-polizia-risponde-con-idranti-e-lacrimogeni-finisce-il-corteo-dopo-le-tensioni.html",
+   "publisher": "giornalelavoce.it",
+   "title": "Bottiglie contro gli agenti, la polizia risponde con idranti e lacrimogeni. Finisce il corteo dopo le tensioni",
+   "publishedAt": "2026-11-20T20:47:55.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 2,
+ "confidence": 0.86,
+ "publishers": 4,
+ "reports24h": 5,
  "reportsPrev24h": 0,
- "reports48h": 2,
- "firstSeenAt": "2026-11-20T12:59:04.037Z",
- "lastReportAt": "2026-11-20T18:34:25.000Z",
- "lastCheckedAt": "2026-11-20T20:55:01.578Z",
- "updatedAt": "2026-11-20T20:54:42.187Z",
+ "reports48h": 5,
+ "firstSeenAt": "2026-11-18T04:53:06.503Z",
+ "lastReportAt": "2026-11-20T20:47:55.000Z",
+ "lastCheckedAt": "2026-11-21T00:53:52.220Z",
+ "updatedAt": "2026-11-21T00:53:00.026Z",
  "endedOn": "2026-11-20",
  "responseSources": [
-  2
+  3,
+  4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-20T20:54:42.187Z",
- "summaryOf": "2630b62d9713",
+ "summarizedAt": "2026-11-21T00:53:00.026Z",
+ "summaryOf": "1d778e23e322",
  "publishedAt": "2026-11-20T20:55:01.578Z",
  "i18n": {
-  "of": "440693375a4797bd",
-  "at": "2026-11-20T20:57:09.772Z",
+  "of": "dd3e16f282cb0783",
+  "at": "2026-11-21T00:55:23.933Z",
   "tries": 1,
   "es": {
-   "title": "Trabajadores y estudiantes italianos marchan en Turín durante una huelga general",
-   "seoTitle": "Marcha de huelga en Turín contra la guerra y los costes",
+   "title": "Trabajadores y estudiantes italianos marchan en Turín durante la huelga general",
+   "seoTitle": "Huelga general y marcha en Turín",
    "tea": {
-    "why": "Trabajadores y estudiantes están en huelga y marchan en varias ciudades contra la guerra y el aumento del coste de la vida.",
-    "want": "Acción contra la guerra y los altos costes de vida.",
-    "changed": "20 de noviembre: La policía desplegó una carga ligera con porras en Turín después de que los manifestantes intentaran desviarse de la ruta planificada."
+    "why": "Trabajadores y estudiantes se sumaron a una huelga general contra la maniobra financiera del gobierno, el aumento del costo de vida y el gasto militar.",
+    "want": "Exigieron empleos seguros, salarios y pensiones más altos, fiscalidad justa, sanidad pública, el derecho a la educación y a la vivienda, y un alto a la guerra.",
+    "changed": "20 de noviembre: La policía empleó cañones de agua y gas lacrimógeno contra los manifestantes que intentaban cruzar el río Po hacia el centro de la ciudad."
    },
-   "summary": "Trabajadores y estudiantes italianos marcharon en varias ciudades, incluida Turín, como parte de una huelga general convocada por sindicatos y grupos estudiantiles. En Turín, una manifestación organizada por la CGIL y movimientos estudiantiles recorrió el centro de la ciudad. Surgieron tensiones cuando la marcha intentó desviarse de via Po hacia corso Vittorio Emanuele II. Las fuerzas del orden bloquearon el paso y utilizaron una carga ligera con porras para repeler a la multitud, tras lo cual los participantes regresaron por via Po. Imágenes anteriores también mostraron a manifestantes subiéndose a la estatua de Vittorio Emanuele II.",
+   "summary": "Trabajadores y estudiantes salieron a las calles en Turín el 20 de noviembre de 2026, como parte de una huelga general nacional convocada por la Cgil junto con una movilización estudiantil. Los participantes marcharon contra las políticas financieras del gobierno, el aumento del costo de vida y el gasto militar, exigiendo mejores salarios, sanidad pública, educación y paz. En Turín, los eventos incluyeron una concentración matutina que comenzó en la Piazza XVIII Dicembre y continuó con acciones durante todo el día. Hacia la noche, las tensiones aumentaron cerca de la iglesia de la Gran Madre y el puente Vittorio Emanuele cuando una marcha organizada por la coordinación Turín Contra el Rearme intentó cruzar hacia el centro de la ciudad. La policía y los carabineros desplegaron cañones de agua y gas lacrimógeno después de que se lanzaran botellas y luces láser contra los agentes, dispersando finalmente la manifestación cerca de la Piazza Borromini.",
    "demands": [
-    "Oposición a la guerra",
-    "Acción contra el aumento del coste de la vida"
+    "Empleo seguro y digno",
+    "Salarios y pensiones más altos",
+    "Un sistema fiscal justo y progresivo",
+    "Frenar la inflación y el alto costo de vida",
+    "Sanidad y educación públicas reales"
    ],
-   "response": "Según los informes, las fuerzas del orden desplegaron schieramenti para bloquear la ruta y llevaron a cabo una carga ligera con porras (carica di alleggerimento) cuando la marcha intentó eludir las líneas policiales en via Accademia Albertina.",
+   "response": "La policía desplegó cañones de agua y gas lacrimógeno y llevó a cabo cargas leves para impedir que los manifestantes cruzaran los puentes hacia el centro de la ciudad, tras el lanzamiento de botellas y el uso de láseres por parte de los manifestantes, según informes de prensa.",
    "updates": [
-    "Las marchas de huelga general tienen lugar desde Milán hasta Nápoles, con manifestantes en Turín subiéndose a un monumento.",
-    "La policía ejecuta una carga ligera en Turín después de que los manifestantes que intentan evitar los altos costes de vida intentan alterar su ruta."
+    "Las manifestaciones matutinas comenzaron en Turín con participantes reunidos en la Piazza XVIII Dicembre.",
+    "Una protesta vespertina reunió a multitudes iniciales de unas 300 personas en la Piazza Castello, creciendo hasta alcanzar unos mil participantes.",
+    "La policía utilizó cañones de agua y gas lacrimógeno cerca del puente Vittorio Emanuele y de la iglesia de la Gran Madre para impedir que los manifestantes llegaran al centro.",
+    "La manifestación terminó por la tarde tras llegar a la Piazza Borromini luego de enfrentamientos callejeros y tensiones previos."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "circa un migliaio di partecipanti"
+   }
   },
   "fr": {
    "title": "Des travailleurs et étudiants italiens manifestent à Turin lors d'une grève générale",
-   "seoTitle": "Manifestation à Turin contre la guerre et les coûts",
+   "seoTitle": "Grève générale et manifestation à Turin",
    "tea": {
-    "why": "Des travailleurs et des étudiants sont en grève et manifestent dans plusieurs villes contre la guerre et la hausse du coût de la vie.",
-    "want": "Action contre la guerre et les coûts de la vie élevés.",
-    "changed": "20 nov. : La police a déployé une légère charge à la matraque à Turin après que des manifestants ont tenté de dévier de l'itinéraire prévu."
+    "why": "Des travailleurs et des étudiants se sont joints à une grève générale contre la manœuvre financière du gouvernement, la hausse du coût de la vie et les dépenses militaires.",
+    "want": "Ont réclamé des emplois sûrs, des salaires et des pensions plus élevés, une fiscalité juste, la santé publique, le droit à l'éducation et au logement, ainsi que l'arrêt de la guerre.",
+    "changed": "20 nov. : La police a employé des canons à eau et des gaz lacrymogènes contre des manifestants tentant de traverser le fleuve Pô en direction du centre-ville."
    },
-   "summary": "Des travailleurs et étudiants italiens ont manifesté dans plusieurs villes, dont Turin, dans le cadre d'une grève générale appelée par des syndicats et des groupes étudiants. À Turin, une manifestation organisée par la CGIL et des mouvements étudiants a traversé le centre-ville. Des tensions sont apparues lorsque le cortège a tenté de dévier de la via Po vers le corso Vittorio Emanuele II. Les forces de l'ordre ont bloqué le passage et ont utilisé une légère charge à la matraque pour repousser la foule, après quoi les participants ont fait demi-tour le long de la via Po. Des images ont également montré des manifestants grimpant sur la statue de Vittorio Emanuele II.",
+   "summary": "Des travailleurs et des étudiants sont descendus dans les rues de Turin le 20 novembre 2026, dans le cadre d'une grève générale nationale appelée par la Cgil aux côtés d'une mobilisation étudiante. Les participants ont défilé contre les politiques financières du gouvernement, la hausse du coût de la vie et les dépenses militaires, réclamant de meilleurs salaires, la santé publique, l'éducation et la paix. À Turin, les événements ont inclus un rassemblement matinal débutant sur la Piazza XVIII Dicembre et s'est poursuivi par des actions tout au long de la journée. Vers le soirée, les tensions se sont intensifiées près de l'église de la Gran Madre et du pont Vittorio Emanuele lorsqu'une marche organisée par la coordination Turin Contre le Réarmement a tenté de traverser vers le centre-ville. La police et les carabiniers ont déployé des canons à eau et des gaz lacrymogènes après que des bouteilles et des lasers ont été dirigés vers les agents, dispersant finalement la manifestation près de la Piazza Borromini.",
    "demands": [
-    "Opposition à la guerre",
-    "Action contre la hausse du coût de la vie"
+    "Emploi sûr et digne",
+    "Salaires et pensions plus élevés",
+    "Un système fiscal juste et progressif",
+    "Stopper l'inflation et le coût de la vie élevé",
+    "Vraie santé publique et éducation"
    ],
-   "response": "Selon les rapports, les forces de l'ordre ont déployé des schieramenti pour bloquer l'itinéraire et ont effectué une légère charge à la matraque (carica di alleggerimento) lorsque la manifestation a tenté de contourner les lignes de police via Accademia Albertina.",
+   "response": "La police a déployé des canons à eau et des gaz lacrymogènes et a mené des charges légères pour empêcher les manifestants de traverser les ponts en direction du centre-ville, à la suite de jets de bouteilles et de l'utilisation de lasers par des manifestants, selon des reportages de presse.",
    "updates": [
-    "Des marches de grève générale ont lieu de Milan à Naples, avec des manifestants à Turin grimpant sur un monument.",
-    "La police exécute une légère charge à Turin après que des manifestants tentant d'éviter les coûts de la vie élevés ont essayé de modifier leur itinéraire."
+    "Des manifestations matinales ont débuté à Turin avec des participants rassemblés sur la Piazza XVIII Dicembre.",
+    "Une manifestation de l'après-midi a rassemblé des foules initiales d'environ 300 personnes sur la Piazza Castello, pour atteindre environ un millier de participants.",
+    "La police a utilisé des canons à eau et des gaz lacrymogènes près du pont Vittorio Emanuele et de l'église de la Gran Madre pour empêcher les manifestants d'atteindre le centre.",
+    "La manifestation s'est terminée dans la soirée après avoir atteint la Piazza Borromini à la suite de précédents affrontements de rue et face-à-face."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "circa un migliaio di partecipanti"
+   }
   },
   "de": {
-   "title": "Italienische Arbeiter und Studenten marschieren während eines Generalstreiks in Turin",
-   "seoTitle": "Streikmarsch in Turin gegen Krieg und Kosten",
+   "title": "Italienische Arbeiter und Studierende marschieren bei Generalstreik in Turin",
+   "seoTitle": "Generalstreik und Marsch in Turin",
    "tea": {
-    "why": "Arbeiter und Studenten streiken und marschieren in mehreren Städten gegen den Krieg und die steigenden Lebenshaltungskosten.",
-    "want": "Maßnahmen gegen Krieg und hohe Lebenshaltungskosten.",
-    "changed": "20. Nov.: Die Polizei setzte in Turin einen leichten Schlagstockeinsatz ein, nachdem Demonstranten versucht hatten, von der geplanten Route abzuweichen."
+    "why": "Arbeiter und Studierende schlossen sich einem Generalstreik gegen das finanzielle Manöver der Regierung, die steigen Lebenshaltungskosten und die Militärausgaben an.",
+    "want": "Forderten sichere Arbeitsplätze, höhere Löhne und Renten, faire Besteuerung, öffentliches Gesundheitswesen, das Recht auf Bildung und Wohnen sowie ein Ende des Krieges.",
+    "changed": "20. Nov.: Die Polizei setzte Wasserwerfer und Tränengas gegen Demonstrierende ein, die versuchten, den Po in Richtung Innenstadt zu überqueren."
    },
-   "summary": "Italienische Arbeiter und Studenten marschierten in mehreren Städten, darunter Turin, im Rahmen eines von Gewerkschaften und Studentengruppen ausgerufenen Generalstreiks. In Turin zog eine von der CGIL und Studentenbewegungen organisierte Demonstration durch das Stadtzentrum. Spannungen entstanden, als der Marsch versuchte, von der via Po in Richtung corso Vittorio Emanuele II abzuweichen. Die Polizei blockierte den Weg und setzte einen leichten Schlagstockeinsatz ein, um die Menge zurückzudrängen, woraufhin die Teilnehmer entlang der via Po umkehrten. Frühere Aufnahmen zeigten zudem Demonstranten, die auf die Statue von Vittorio Emanuele II kletterten.",
+   "summary": "Arbeiter und Studierende gingen am 20. November 2026 in Turin auf die Straße, als Teil eines von der Cgil und einer studentischen Mobilisierung ausgerufenem landesweiten Generalstreiks. Die Teilnehmer marschierten gegen die Finanzpolitik der Regierung, die steigenden Lebenshaltungskosten und die Militärausgaben und forderten bessere Löhne, ein öffentliches Gesundheitswesen, Bildung und Frieden. In Turin umfassten die Veranstaltungen eine morgendliche Kundgebung, die an der Piazza XVIII Dicembre begann und mit Aktionen über den Tag hinweg fortgesetzt wurde. Gegen Abend eskalierten die Spannungen nahe der Kirche Gran Madre und der Ponte Vittorio Emanuele, als ein von der Koordination Turin gegen die Wiederbewaffnung organisierter Marsch versuchte, in Richtung Innenstadt zu überqueren. Polizei und Carabinieri setzten Wasserwerfer und Tränengas ein, nachdem Flaschen und Laserpointer auf Beamte gerichtet worden waren, und lösten die Demonstration schließlich nahe der Piazza Borromini auf.",
    "demands": [
-    "Opposition gegen den Krieg",
-    "Maßnahmen gegen die steigenden Lebenshaltungskosten"
+    "Sichere und würdige Arbeit",
+    "Höhere Gehälter und Renten",
+    "Ein faire und progressive Steuergeld",
+    "Inflation und hohe Lebenshaltungskosten stoppen",
+    "Echtes öffentliches Gesundheitswesen und Bildung"
    ],
-   "response": "Berichten zufolge setzten die Sicherheitskräfte schieramenti ein, um die Route zu blockieren, und führten einen leichten Schlagstockeinsatz (carica di alleggerimento) durch, als der Marsch versuchte, die Polizeilinien in der via Accademia Albertina zu umgehen.",
+   "response": "Die Polizei setzte Wasserwerfer und Tränengas ein und führte leichte Ladungen durch, um Demonstrierende daran zu hindern, Brücken in Richtung Innenstadt zu überqueren, nachdem Demonstrierende Flaschen geworfen und Laser eingesetzt hatten, Medienberichten zufolge.",
    "updates": [
-    "Generalstreik-Märsche finden von Mailand bis Neapel statt, wobei Demonstranten in Turin auf ein Denkmal klettern.",
-    "Die Polizei führt in Turin einen leichten Einsatz durch, nachdem Demonstranten, die die hohen Lebenshaltungskosten vermeiden wollen, versuchen, ihre Route zu ändern."
+    "Morgendliche Demonstrationen begannen in Turin, wobei sich Teilnehmer an der Piazza XVIII Dicembre versammelten.",
+    "Eine nachmittägliche Protestversammlung zog anfangs etwa 300 Menschen auf der Piazza Castello an und wuchs auf rund tausend Teilnehmer an.",
+    "Die Polizei setzte Wasserwerfer und Tränengas nahe der Ponte Vittorio Emanuele und der Gran-Madre-Kirche ein, um Marschierende daran zu hindern, das Zentrum zu erreichen.",
+    "Die Demonstration endete am Abend nach Erreichen der Piazza Borromini nach vorherigen Straßenzusammenstößen und Pattsituationen."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "circa un migliaio di partecipanti"
+   }
   },
   "it": {
-   "title": "Lavoratori e studenti italiani marciano a Torino durante lo sciopero generale",
-   "seoTitle": "Corteo di sciopero a Torino contro guerra e costi",
+   "title": "Lavoratori e studenti italiani in corteo a Torino durante lo sciopero generale",
+   "seoTitle": "Sciopero generale e corteo a Torino",
    "tea": {
-    "why": "Lavoratori e studenti sono in sciopero e marciano in diverse città contro la guerra e il rincaro del costo della vita.",
-    "want": "Azione contro la guerra e gli alti costi della vita.",
-    "changed": "20 nov: La polizia ha effettuato una carica di alleggerimento a Torino dopo che i manifestanti hanno tentato di deviare dal percorso previsto."
+    "why": "Lavoratori e studenti hanno aderito a uno sciopero generale contro la manovra finanziaria del governo, l'aumento del costo della vita e le spese militari.",
+    "want": "Hanno chiesto posti di lavoro sicuri, salari e pensioni più alti, equità fiscale, sanità pubblica, il diritto allo studio e alla casa, e la fine della guerra.",
+    "changed": "20 nov: La polizia ha usato idranti e lacrimogeni contro i manifestanti che tentavano di attraversare il fiume Po verso il centro città."
    },
-   "summary": "Lavoratori e studenti italiani hanno marciato in diverse città, inclusa Torino, come parte di uno sciopero generale indetto da sindacati e gruppi studenteschi. A Torino, una manifestazione organizzata dalla CGIL e dai movimenti studenteschi ha attraversato il centro città. Le tensioni sono sorte quando il corteo ha tentato di deviare da via Po verso corso Vittorio Emanuele II. Le forze dell'ordine hanno bloccato il passaggio e utilizzato una carica di alleggerimento per respingere la folla, dopodiché i partecipanti sono tornati indietro lungo via Po. Filmati precedenti hanno anche mostrato manifestanti arrampicarsi sulla statua di Vittorio Emanuele II.",
+   "summary": "Lavoratori e studenti sono scesi in piazza a Torino il 20 novembre 2026, nell'ambito di uno sciopero generale nazionale indetto dalla Cgil insieme a una mobilitazione studentesca. I partecipanti hanno sfilato contro le politiche finanziarie del governo, l'aumento del costo della vita e le spese militari, chiedendo salari migliori, sanità pubblica, istruzione e pace. A Torino, le iniziative hanno incluso un presidio mattutino iniziato in piazza XVIII Dicembre e proseguito con azioni per tutta la giornata. Verso sera, le tensioni sono salite nei pressi della chiesa della Gran Madre e di ponte Vittorio Emanuele quando un corteo organizzato dal coordinamento Torino Contro il Riarmo ha tentato di attraversare verso il centro. Polizia e carabinieri hanno impiegato idranti e lacrimogeni dopo che bottiglie e puntatori laser sono stati diretti contro gli agenti, disperdendo infine la manifestazione nei pressi di piazza Borromini.",
    "demands": [
-    "Opposizione alla guerra",
-    "Azione contro il rincaro del costo della vita"
+    "Occupazione sicura e dignitosa",
+    "Stipendi e pensioni più alti",
+    "Un sistema fiscale equo e progressivo",
+    "Fermare l'inflazione e il caro vita",
+    "Vera sanità e istruzione pubblica"
    ],
-   "response": "Secondo quanto riferito, le forze dell'ordine hanno schierato schieramenti per bloccare il percorso e hanno effettuato una carica di alleggerimento quando il corteo ha tentato di superare le linee di polizia in via Accademia Albertina.",
+   "response": "La polizia ha impiegato idranti e lacrimogeni e ha effettuato lievi cariche per bloccare i manifestanti dall'attraversare i ponti verso il centro città, in seguito al lancio di bottiglie e all'uso di laser da parte dei manifestanti, secondo quanto riportato dai notiziari.",
    "updates": [
-    "I cortei dello sciopero generale si svolgono da Milano a Napoli, con manifestanti a Torino che si arrampicano su un monumento.",
-    "La polizia esegue una carica a Torino dopo che i manifestanti che cercano di evitare gli alti costi della vita tentano di modificare il loro percorso."
+    "Le manifestazioni mattutine sono iniziate a Torino con i partecipanti radunati in piazza XVIII Dicembre.",
+    "Un corteo pomeridiano ha raccolto folle iniziali di circa 300 persone in piazza Castello, crescendo fino a circa un millimetro di partecipanti.",
+    "La polizia ha usato idranti e lacrimogeni nei pressi di ponte Vittorio Emanuele e della chiesa della Gran Madre per bloccare i manifestanti dal raggiungere il centro.",
+    "La manifestazione si è conclusa in serata dopo aver raggiunto piazza Borromini in seguito a precedenti scontri di strada e momenti di tensione."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "circa un migliaio di partecipanti"
+   }
   },
   "pt": {
    "title": "Trabalhadores e estudantes italianos marcham em Turim durante greve geral",
-   "seoTitle": "Marcha de greve em Turim contra a guerra e custos",
+   "seoTitle": "Greve geral e marcha de trabalhadores em Turim",
    "tea": {
-    "why": "Trabalhadores e estudantes estão em greve e a marchar por várias cidades contra a guerra e o aumento do custo de vida.",
-    "want": "Ação contra a guerra e os elevados custos de vida.",
-    "changed": "20 de nov.: A polícia realizou uma carga ligeira com bastões em Turim depois de os manifestantes terem tentado desviar-se da rota planeada."
+    "why": "Trabalhadores e estudantes juntaram-se a uma greve geral contra a manobra financeira do governo, o aumento do custo de vida e a despesa militar.",
+    "want": "Exigiram empregos seguros, salários e pensões mais altos, tributação justa, saúde pública, o direito à educação e à habitação, e o fim da guerra.",
+    "changed": "20 de nov.: A polícia usou canhões de água e gás lacrimogéneo contra manifestantes que tentavam atravessar o rio Pó em direção ao centro da cidade."
    },
-   "summary": "Trabalhadores e estudantes italianos marcharam por várias cidades, incluindo Turim, como parte de uma greve geral convocada por sindicatos e grupos estudantis. Em Turim, uma manifestação organizada pela CGIL e movimentos estudantis percorreu o centro da cidade. Surgiram tensões quando a marcha tentou desviar-se da via Po em direção ao corso Vittorio Emanuele II. As forças de segurança bloquearam o caminho e utilizaram uma carga ligeira com bastões para repelir a multidão, após o que os participantes voltaram para trás ao longo da via Po. Imagens anteriores também mostraram manifestantes a subir para a estátua de Vittorio Emanuele II.",
+   "summary": "Trabalhadores e estudantes saíram às ruas em Turim a 20 de novembro de 2026, como parte de uma greve geral nacional convocada pela Cgil juntamente com uma mobilização estudantil. Os participantes marcharam contra as políticas financeiras do governo, o aumento do custo de vida e a despesa militar, exigindo melhores salários, saúde pública, educação e paz. Em Turim, os eventos incluíram um comício matinal com início na Praça XVIII Dicembre e continuado com ações ao longo do dia. Pela noite, as tensões escalaram perto da igreja da Gran Madre e da Ponte Vittorio Emanuele quando uma marcha organizada pela coordenação Turim Contra o Rearme tentou atravessar em direção ao centro da cidade. A polícia e os carabinieri mobilizaram canhões de água e gás lacrimogéneo após garrafas e luzes laser terem sido direcionadas aos agentes, acabando por dispersar a manifestação perto da Praça Borromini.",
    "demands": [
-    "Oposição à guerra",
-    "Ação contra o aumento do custo de vida"
+    "Emprego seguro e digno",
+    "Salários e pensões mais altos",
+    "Um sistema fiscal justo e progressivo",
+    "Parar a inflação e o alto custo de vida",
+    "Verdadeira saúde e educação públicas"
    ],
-   "response": "Segundo relatos, as forças de segurança destacaram schieramenti para bloquear a rota e realizaram uma carga ligeira com bastões (carica di alleggerimento) quando a marcha tentou contornar as linhas policiais na via Accademia Albertina.",
+   "response": "A polícia mobilizou canhões de água e gás lacrimogéneo e realizou cargas ligeiras para impedir os manifestantes de atravessarem pontes em direção ao centro da cidade, na sequência do arremesso de garrafas e do uso de lasers por manifestantes, segundo relatos noticiosos.",
    "updates": [
-    "Marchas de greve geral ocorrem de Milão a Nápoles, com manifestantes em Turim a subir para um monumento.",
-    "A polícia executa uma carga ligeira em Turim depois de manifestantes que tentam evitar os elevados custos de vida tentarem alterar a sua rota."
+    "As manifestações matinais começaram em Turim com participantes reunidos na Praça XVIII Dicembre.",
+    "Um protesto da tarde reuniu multidões iniciais de cerca de 300 pessoas na Praça Castello, crescendo para cerca de mil participantes.",
+    "A polícia utilizou canhões de água e gás lacrimogéneo perto da Ponte Vittorio Emanuele e da igreja da Gran Madre para impedir que os marchantes chegassem ao centro.",
+    "A manifestação terminou ao fim do dia após alcançar a Praça Borromini na sequência de confrontos de rua e confrontações anteriores."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "circa un migliaio di partecipanti"
+   }
   },
   "nl": {
-   "title": "Italiaanse arbeiders en studenten marcheren in Turijn tijdens algemene staking",
-   "seoTitle": "Stakingsmars in Turijn tegen oorlog en kosten",
+   "title": "Italiaanse werknemers en studenten marcheren in Turijn tijdens algemene staking",
+   "seoTitle": "Algemene staking en mars in Turijn",
    "tea": {
-    "why": "Arbeiders en studenten staken en marcheren door meerdere steden tegen de oorlog en de stijgende kosten van levensonderhoud.",
-    "want": "Actie tegen oorlog en hoge kosten van levensonderhoud.",
-    "changed": "20 nov.: De politie voerde een lichte charge met wapenstokken uit in Turijn nadat demonstranten probeerden af te wijken van de geplande route."
+    "why": "Werknemers en studenten sloten zich aan bij een algemene staking tegen de financiële manoeuvre van de regering, stijgende kosten van levensonderhoud en militaire uitgaven.",
+    "want": "Eisten veilige banen, hogere lonen en pensioenen, eerlijke belastingheffing, openbare gezondheidszorg, het recht op onderwijs en huisvesting, en een stop aan oorlog.",
+    "changed": "20 nov.: Politie zette waterkanonnen en tranengas in tegen demonstranten die de rivier de Po probeerden over te steken richting het stadscentrum."
    },
-   "summary": "Italiaanse arbeiders en studenten marcheerden door meerdere steden, waaronder Turijn, als onderdeel van een algemene staking die was uitgeroepen door vakbonden en studentengroepen. In Turijn trok een demonstratie, georganiseerd door de CGIL en studentenbewegingen, door het stadscentrum. Er ontstonden spanningen toen de mars probeerde af te wijken van de via Po richting corso Vittorio Emanuele II. De politie blokkeerde de weg en gebruikte een lichte charge met wapenstokken om de menigte terug te dringen, waarna de deelnemers via de via Po terugkeerden. Eerdere beelden toonden ook demonstranten die op het standbeeld van Vittorio Emanuele II klommen.",
+   "summary": "Werknemers en studenten gingen op 20 november 2026 de straat op in Turijn als onderdeel van een landelijke algemene staking uitgeroepen door de Cgil samen met een studentenmobilisatie. Deelnemers marcheerden tegen het financielle beleid van de regering, stijgende kosten van levensonderhoud en militaire uitgaven, en eisten betere lonen, openbare gezondheidszorg, onderwijs en vrede. In Turijn omvatten de evenementen een ochtendbijeenkomst die begon op het Piazza XVIII Dicembre en werd voortgezet met acties gedurende de dag. Tegen de avond escaleerden de spanningen nabij de Gran Madre-kerk en de Ponte Vittorio Emanuele toen een mars georganiseerd door de coördinatie Turijn Tegen Herwapening probeerde over te steken naar het stadscentrum. Politie en carabinieri zetten waterkanonnen en tranengas in nadat flessen en laserpennen naar agenten waren gericht, en uiteindelijke de demonstratie nabij het Piazza Borromini uiteenvroegen.",
    "demands": [
-    "Verzet tegen de oorlog",
-    "Actie tegen de stijgende kosten van levensonderhoud"
+    "Veilige en waardige werkgelegenheid",
+    "Hogere salarissen en pensioenen",
+    "Een eerlijk en progressief belastingstelsel",
+    "Inflatie en hoge kosten van levensonderhoud stoppen",
+    "Echte openbare gezondheidszorg en onderwijs"
    ],
-   "response": "Volgens berichten zetten de ordediensten schieramenti in om de route te blokkeren en voerden ze een lichte charge (carica di alleggerimento) uit toen de mars probeerde de politielinies in de via Accademia Albertina te omzeilen.",
+   "response": "De politie zette waterkanonnen en tranengas in en voerde lichte charges uit om demonstranten te beletten bruggen over te steken richting het stadscentrum, na het gooien van flessen en het gebruik van lasers door demonstranten, volgens nieuwsberichten.",
    "updates": [
-    "Stakingsmarsen vinden plaats van Milaan tot Napels, waarbij demonstranten in Turijn op een monument klimmen.",
-    "De politie voert een lichte charge uit in Turijn nadat demonstranten die de hoge kosten van levensonderhoud willen vermijden, proberen hun route te wijzigen."
+    "Ochtenddemonstraties begrepen in Turijn met deelnemers die zich verzamelden op het Piazza XVIII Dicembre.",
+    "Een middagprotest verzamelde initiële menigten van zo'n 300 personen op het Piazza Castello, dat groeide tot ongeveer duizend deelnemers.",
+    "De politie gebruikte waterkanonnen en tranengas nabij de Ponte Vittorio Emanuele en de Gran Madre-kerk om marcherenden te beletten het centrum te bereiken.",
+    "De demonstratie eindigde 's avonds na het bereiken van het Piazza Borromini volgend op eerdere straatgevechten en afstanden."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "circa un migliaio di partecipanti"
+   }
   }
  }
 }
