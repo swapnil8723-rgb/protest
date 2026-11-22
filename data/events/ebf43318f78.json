@@ -13,7 +13,7 @@
   "citySlug": "stuttgart",
   "regionSlug": "baden-wurttemberg"
  },
- "scope": "multi-city",
+ "scope": "nationwide",
  "causes": [
   "labour",
   "jobs"
@@ -30,33 +30,35 @@
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Workers are protesting against stalled wage negotiations and insufficient offers from employers in the metal and electrical industry.",
-  "want": "A 5 percent wage increase over 12 months, social components for lower pay groups, and job security guarantees.",
-  "changed": "Nov 21: The union announced that 24-hour strikes will continue into the following week at additional plants."
+  "why": "Wage talks stalled after three rounds without progress, prompting the union to increase pressure on employers.",
+  "want": "A 5% wage increase over 12 months, binding job and site security commitments, and lower-wage benefits.",
+  "changed": "Nov 21: IG Metall announced that nationwide strikes involving over 150,000 workers across roughly 100 plants would continue into the following week."
  },
- "summary": "The IG Metall union has initiated 24-hour warning strikes across Germany's metal and electrical industry, marking the first such action in eight years. In Stuttgart and other regions, employees at major manufacturers and suppliers, including Bosch, ZF, and Rolls-Royce Power Systems, have ceased work to pressure employers during stalled collective bargaining. The union demands a 5 percent pay rise over one year, while employers have proposed a one-time payment followed by a 1.3 percent increase in 2028, citing economic pressures and the need for investment security. According to the union, over 150,000 workers participated in strikes across approximately 100 plants on Friday. Employers, represented by associations like Südwestmetall, have criticized the escalation as damaging to the industry and potentially harmful to future employment stability.",
+ "summary": "Germany's largest industrial union, IG Metall, launched 24-hour warning strikes across the country, marking the first time in eight years that the union has organized full-day work stoppages. Thousands of industrial workers walked off the job at various sites, including automotive plants, suppliers, and shipyards. The escalation follows three rounds of stalled negotiations over pay and job security. The union demands a 5 percent wage increase over twelve months and binding commitments to protect jobs and production facilities. Employers have proposed a 26-month agreement featuring a one-time payment and a 1.3 percent wage increase, arguing that high cost pressures and difficult economic conditions make further concessions harmful to employment.",
  "organizers": [
-  "IG Metall"
+  "IG Metall",
+  "IG Metall Baden-Württemberg"
  ],
  "demands": [
   "5 percent wage increase over 12 months",
-  "Social component for lower pay groups",
-  "Job security guarantees"
+  "Binding commitments to protect jobs and production facilities",
+  "Profit-sharing arrangements at financially stronger companies",
+  "Additional benefits for lower-paid workers"
  ],
- "response": "Employers represented by Südwestmetall and other regional associations rejected the strikes as an escalation that threatens jobs and production sites, arguing that their offer reflects the current difficult economic climate. Source: 1, 2, 4.",
+ "response": "Employers represented by associations such as Südwestmetall and the Bavarian Metal and Electrical Employers' Association criticized the strikes as an unnecessary escalation that threatens jobs and causes significant economic damage during a difficult financial climate, noting they had offered a fair package including a one-time payment…",
  "numbers": {
   "crowd": {
    "value": 150000,
-   "text": "The union reported that more than 150,000 workers stopped work across about 100 plants on Friday.",
+   "text": "more than 150,000 workers",
    "sources": [
-    4
+    5
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-19",
-   "text": "IG Metall announced 24-hour warning strikes in 20 plants in Baden-Wuerttemberg following failed negotiations.",
+   "text": "IG Metall announced 24-hour warning strikes across 20 businesses in Baden-Württemberg following stalled negotiations.",
    "sources": [
     1,
     2
@@ -64,16 +66,17 @@
   },
   {
    "at": "2026-11-20",
-   "text": "The 24-hour strikes commenced at various sites, including Bosch in Stuttgart-Feuerbach.",
+   "text": "Thousands of workers walked off the job at multiple industrial sites nationwide, including BMW, Audi, Bosch, and ZF facilities.",
    "sources": [
-    3
+    3,
+    4
    ]
   },
   {
    "at": "2026-11-21",
-   "text": "The union reported over 150,000 participants nationwide and confirmed that strikes will continue next week.",
+   "text": "The union reported that over 150,000 workers participated in strikes across roughly 100 plants and announced further actions for next week.",
    "sources": [
-    4
+    5
    ]
   }
  ],
@@ -94,13 +97,20 @@
   },
   {
    "n": 3,
+   "url": "https://www.aa.com.tr/en/europe/german-metalworkers-launch-24-hour-strikes-as-wage-talks-stall/4131896",
+   "publisher": "aa.com.tr",
+   "title": "German metalworkers launch 24-hour strikes as wage talks stall",
+   "publishedAt": "2026-11-20T11:56:13.800Z"
+  },
+  {
+   "n": 4,
    "url": "https://www.faz.net/aktuell/wirtschaft/ig-metall-erstmals-seit-2018-wieder-24-stunden-streiks-accg-201701268.html",
    "publisher": "faz.net",
    "title": "IG Metall: Erstmals seit 2018 wieder 24-Stunden-Streiks",
    "publishedAt": "2026-11-20T12:28:49.000Z"
   },
   {
-   "n": 4,
+   "n": 5,
    "url": "https://www.vezess.hu/vezetunk/2026/11/21/sztrajk-fesziti-tovabb-az-europai-autoipart/",
    "publisher": "vezess.hu",
    "title": "Sztrájk feszíti tovább az európai autóipart",
@@ -108,25 +118,25 @@
   }
  ],
  "conflicts": [],
- "confidence": 0.86,
- "publishers": 4,
- "reports24h": 1,
- "reportsPrev24h": 1,
- "reports48h": 2,
+ "confidence": 0.9,
+ "publishers": 5,
+ "reports24h": 0,
+ "reportsPrev24h": 3,
+ "reports48h": 3,
  "firstSeenAt": "2026-11-19T12:55:11.186Z",
  "lastReportAt": "2026-11-21T09:02:00.000Z",
- "lastCheckedAt": "2026-11-22T06:56:00.886Z",
- "updatedAt": "2026-11-21T10:58:25.684Z",
+ "lastCheckedAt": "2026-11-22T11:02:47.183Z",
+ "updatedAt": "2026-11-22T11:02:06.083Z",
  "searchedAt": "2026-11-19T16:50:41.752Z",
  "responseSources": [
   1,
-  2,
-  4
+  3,
+  5
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-21T10:58:25.684Z",
- "summaryOf": "add1b14098e6",
+ "summarizedAt": "2026-11-22T11:02:06.083Z",
+ "summaryOf": "5612054b7a38",
  "publishedAt": "2026-11-19T20:56:38.568Z",
  "i18n": {
   "of": "a5258e28f79d7e84",
