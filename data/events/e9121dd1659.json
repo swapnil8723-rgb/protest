@@ -24,75 +24,88 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Participants protested against the rising cost of living, lack of housing, and in support of student and youth demands.",
-  "want": "Lower prices, more teachers, and opposition to a proposed law regarding police self-defense.",
-  "changed": "Nov 14: Authorities reported 3,500 participants and 14 arrests following tensions in the city center."
+  "why": "Protesters demonstrated against the rising cost of living and in support of youth and student demands.",
+  "want": "Lower prices, more teachers, better housing, and opposition to police self-defense legislation.",
+  "changed": "Nov 14: Protesters marched in Montpellier despite an official ban, leading to clashes with police and several arrests."
  },
- "summary": "On November 14, 2026, a protest occurred in Montpellier, France, as part of a series of weekly demonstrations focused on the cost of living and youth issues. Participants gathered at Place Max Rouquette, despite a local prefecture ban on protest activities in the city center. While the event began with a static rally featuring a brass band, tensions later emerged between some protesters and law enforcement. According to the Hérault prefecture, 3,500 people attended the event. Authorities reported that 14 individuals were arrested during the day. The protest also served as a platform to oppose a proposed law concerning police self-defense. Law enforcement utilized tear gas to disperse groups that entered restricted areas of the city center. The prefecture stated that one officer was injured during the confrontations, which concluded by the evening.",
+ "summary": "On November 14, 2026, demonstrations took place in Montpellier against the high cost of living and in support of youth and student concerns. The mobilization marked a continuing series of Saturday protests. Organised despite a ban issued by the prefect of Hérault, participants gathered initially near Place Max Rouquette and other locations before moving toward the city center. According to authorities, crowd numbers reached between 3,500 and 5,000 participants. The events included peaceful moments featuring a solidarity fanfare, but later involved clashes with security forces in restricted areas, burning bins, and projectile throwing. Police deployed tear gas to disperse groups. Authorities reported multiple arrests and injuries among law enforcement personnel.",
  "organizers": [],
  "demands": [
-  "Lower cost of living",
-  "Increased teacher staffing",
-  "Improved housing access",
-  "Opposition to police self-defense legislation"
+  "Lower prices",
+  "More teachers",
+  "Better housing",
+  "Opposition to proposed police self-defense legislation"
  ],
- "response": "The Hérault prefecture banned protest activities in the city center from 12:00 to 23:00. Police deployed to protect the area, used tear gas to disperse crowds, and reported 14 arrests and one injured officer.",
+ "response": "The prefect of Hérault banned protests in the city center prior to the event. According to the prefecture, law enforcement used tear gas to disperse groups, leading to 14 arrests initially and 13 in another update, alongside one officer injured.",
  "numbers": {
   "crowd": {
-   "value": 3500,
-   "text": "3,500 participants according to the Hérault prefecture",
+   "value": 5000,
+   "text": "entre 4000 et 5000 manifestants",
    "sources": [
-    1
+    3
    ]
   },
   "arrests": {
    "value": 14,
-   "text": "14 people were arrested according to the Hérault prefecture",
+   "text": "quatorze personnes ont été interpellées",
    "sources": [
-    1
+    2
    ]
   },
   "injuries": {
    "value": 1,
-   "text": "One police officer was reported injured by the prefecture",
+   "text": "un fonctionnaire a été blessé",
    "sources": [
-    2
+    3
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-14",
-   "text": "Approximately 3,500 people gathered in Montpellier to protest against the cost of living and for youth.",
+   "text": "The prefect of Hérault prohibited protest marches in central Montpellier citing public order and local events.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-14",
-   "text": "The prefecture reported 14 arrests following tensions between protesters and police.",
+   "text": "Demonstrators gathered at Place Max Rouquette with a fanfare, with authorities estimating 3,500 participants.",
    "sources": [
-    1
+    2
+   ]
+  },
+  {
+   "at": "2026-11-14",
+   "text": "Tensions erupted as groups entered prohibited downtown areas, resulting in clashes, tear gas use, and multiple arrests.",
+   "sources": [
+    2,
+    3
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.midilibre.fr/2026/11/14/manifestation-du-14-novembre-montpellier-nimes-carcassonne-a-quoi-sattendre-en-occitanie-ce-samedi-13651571.php",
+   "publisher": "midilibre.fr",
+   "title": "Manifestation du 14 novembre : Montpellier, Nîmes, Carcassonne… À quoi s’attendre en Occitanie ce samedi ?",
+   "publishedAt": "2026-11-14T06:02:04.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/manifestation-du-14-novembre-fanfare-esprit-festif-et-feu-de-poubelles-3-500-personnes-se-sont-mobilisees-a-montpellier-selon-les-autorites-six-personnes-interpellees-3449691.html",
    "publisher": "france3-regions.franceinfo.fr",
    "title": "Manifestation du 14 novembre : Fanfare, esprit festif et feu de poubelles, 3 500 personnes se sont mobilisées à Montpellier selon les autorités, six personnes interpellées",
    "publishedAt": "2026-11-14T17:36:22.000Z"
   },
   {
-   "n": 2,
+   "n": 3,
    "url": "https://actu.fr/occitanie/montpellier_34172/manifestation-a-montpellier-affrontements-dans-l-ecusson-13-interpellations-un-policier-blesse_65086188.html",
    "publisher": "actu.fr",
    "title": "Manifestation à Montpellier : affrontements dans l'Ecusson, 13 interpellations, un policier blessé",
@@ -100,190 +113,197 @@
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
+ "confidence": 0.8,
+ "publishers": 3,
  "reports24h": 1,
  "reportsPrev24h": 0,
  "reports48h": 1,
- "firstSeenAt": "2026-11-15T00:52:41.761Z",
+ "firstSeenAt": "2026-11-14T08:56:03.168Z",
  "lastReportAt": "2026-11-22T08:52:55.000Z",
- "lastCheckedAt": "2026-11-22T18:55:26.700Z",
- "updatedAt": "2026-11-22T18:55:20.599Z",
+ "lastCheckedAt": "2026-11-22T22:54:41.047Z",
+ "updatedAt": "2026-11-22T22:53:59.748Z",
  "searchedAt": "2026-11-15T04:50:43.483Z",
  "endedOn": "2026-11-14",
  "responseSources": [
   1,
-  2
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-22T18:55:20.599Z",
- "summaryOf": "6721cadf7593",
+ "summarizedAt": "2026-11-22T22:53:59.748Z",
+ "summaryOf": "98736dd20d0f",
  "publishedAt": "2026-11-22T18:55:26.700Z",
  "i18n": {
-  "of": "936f4a225a0215c6",
-  "at": "2026-11-22T18:57:44.151Z",
+  "of": "b46911525f8836fd",
+  "at": "2026-11-22T22:56:44.033Z",
   "tries": 1,
   "es": {
-   "title": "Manifestantes se reúnen en Montpellier contra el coste de la vida y por la juventud",
-   "seoTitle": "Protesta en Montpellier contra el coste de la vida",
+   "title": "Manifestantes se concentran en Montpellier contra el costo de la vida y por la juventud",
+   "seoTitle": "Protesta en Montpellier contra el costo de la vida",
    "tea": {
-    "why": "Los participantes protestaron contra el aumento del coste de la vida, la falta de vivienda y en apoyo a las demandas de estudiantes y jóvenes.",
-    "want": "Precios más bajos, más profesores y oposición a una ley propuesta sobre la legítima defensa policial.",
-    "changed": "14 de noviembre: Las autoridades informaron de 3.500 participantes y 14 detenciones tras las tensiones en el centro de la ciudad."
+    "why": "Los manifestantes se manifestaron contra el aumento del costo de la vida y en apoyo de las demandas de los jóvenes y estudiantes.",
+    "want": "Precios más bajos, más profesores, mejor vivienda y oposición a la legislación de autodefensa policial.",
+    "changed": "14 de noviembre: Los manifestantes marcharon en Montpellier a pesar de una prohibición oficial, lo que dio lugar a enfrentamientos con la policía y varias detenciones."
    },
-   "summary": "El 14 de noviembre de 2026, tuvo lugar una protesta en Montpellier, Francia, como parte de una serie de manifestaciones semanales centradas en el coste de la vida y los problemas de la juventud. Los participantes se reunieron en la Place Max Rouquette, a pesar de la prohibición de la prefectura local de realizar actividades de protesta en el centro de la ciudad. Aunque el evento comenzó con una concentración estática con una banda de música, más tarde surgieron tensiones entre algunos manifestantes y las fuerzas del orden. Según la prefectura de Hérault, 3.500 personas asistieron al evento. Las autoridades informaron de que 14 personas fueron detenidas durante el día. La protesta también sirvió como plataforma para oponerse a una ley propuesta sobre la legítima defensa policial. Las fuerzas del orden utilizaron gases lacrimógenos para dispersar a los grupos que entraron en zonas restringidas del centro de la ciudad. La prefectura declaró que un agente resultó herido durante los enfrentamientos, que concluyeron por la tarde.",
+   "summary": "El 14 de noviembre de 2026, se celebraron manifestaciones en Montpellier contra el alto costo de la vida y en apoyo de las inquietudes de los jóvenes y los estudiantes. La movilización marcó una serie continuada de protestas de los sábados. Organizados a pesar de la prohibición emitida por el prefecto de Hérault, los participantes se reunieron inicialmente cerca de la Place Max Rouquette y otros lugares antes de marchar hacia el centro de la ciudad. Según las autoridades, el número de asistentes alcanzó entre 3.500 y 5.000 participantes. Los acontecimientos incluyeron momentos pacíficos con una fanfarria de solidaridad, pero posteriormente implicaron enfrentamientos con las fuerzas de seguridad en zonas restringidas, quema de contenedores y lanzamiento de proyectiles. La policía desplegó gases lacrimógenos para dispersar a los grupos. Las autoridades informaron de múltiples detenciones y heridos entre el personal policial.",
    "demands": [
-    "Menor coste de la vida",
-    "Aumento de la plantilla de profesores",
-    "Mejora del acceso a la vivienda",
-    "Oposición a la legislación sobre legítima defensa policial"
+    "Precios más bajos",
+    "Más profesores",
+    "Mejor vivienda",
+    "Oposición a la propuesta de legislación de autodefensa policial"
    ],
-   "response": "La prefectura de Hérault prohibió las actividades de protesta en el centro de la ciudad de 12:00 a 23:00. La policía se desplegó para proteger la zona, utilizó gases lacrimógenos para dispersar a las multitudes e informó de 14 detenciones y un agente herido.",
+   "response": "El prefecto de Hérault prohibió las protestas en el centro de la ciudad antes del evento. Según la prefectura, las fuerzas del orden utilizaron gases lacrimógenos para dispersar a los grupos, lo que dio lugar a 14 detenciones inicialmente y 13 en otra actualización, además de un agente herido.",
    "updates": [
-    "Aproximadamente 3.500 personas se reunieron en Montpellier para protestar contra el coste de la vida y por la juventud.",
-    "La prefectura informó de 14 detenciones tras las tensiones entre manifestantes y la policía."
+    "El prefecto de Hérault prohibió las marchas de protesta en el centro de Montpellier aduciendo el orden público y actos locales.",
+    "Los manifestantes se reunieron en la Place Max Rouquette con una fanfarria, y las autoridades estimaron la asistencia en 3.500 participantes.",
+    "Estallaron tensiones cuando los grupos entraron en zonas del centro prohibidas, lo que dio lugar a enfrentamientos, uso de gases lacrimógenos y múltiples detenciones."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "3.500 participantes según la prefectura de Hérault",
-    "arrests": "14 personas fueron detenidas según la prefectura de Hérault",
-    "injuries": "Un agente de policía resultó herido según la prefectura"
+    "crowd": "entre 4.000 y 5.000 manifestantes",
+    "arrests": "catorce personas fueron detenidas",
+    "injuries": "un funcionario resultó herido"
    }
   },
   "fr": {
-   "title": "Manifestation à Montpellier contre le coût de la vie et pour la jeunesse",
-   "seoTitle": "Manifestation à Montpellier contre le coût de la vie",
+   "title": "Manifestation à Montpellier contre la vie chère et pour la jeunesse",
+   "seoTitle": "Manifestation à Montpellier contre la vie chère",
    "tea": {
-    "why": "Les participants ont manifesté contre la hausse du coût de la vie, le manque de logements, et en soutien aux revendications des étudiants et des jeunes.",
-    "want": "Baisse des prix, davantage d'enseignants, et opposition à un projet de loi concernant la légitime défense policière.",
-    "changed": "14 novembre : Les autorités ont fait état de 3 500 participants et 14 arrestations suite à des tensions dans le centre-ville."
+    "why": "Des manifestants ont manifesté contre la hausse du coût de la vie et en soutien aux revendications de la jeunesse et des étudiants.",
+    "want": "La baisse des prix, davantage d'enseignants, un meilleur logement et l'opposition à la législation sur la légitime défense policière.",
+    "changed": "14 nov. : Des manifestants ont défilé à Montpellier malgré une interdiction officielle, entraînant des heurts avec la police et plusieurs arrestations."
    },
-   "summary": "Le 14 novembre 2026, une manifestation a eu lieu à Montpellier, en France, dans le cadre d'une série de rassemblements hebdomadaires axés sur le coût de la vie et les enjeux liés à la jeunesse. Les participants se sont réunis place Max Rouquette, malgré une interdiction préfectorale locale des activités de manifestation dans le centre-ville. Bien que l'événement ait débuté par un rassemblement statique avec une fanfare, des tensions sont apparues plus tard entre certains manifestants et les forces de l'ordre. Selon la préfecture de l'Hérault, 3 500 personnes ont assisté à l'événement. Les autorités ont rapporté que 14 personnes ont été arrêtées au cours de la journée. La manifestation a également servi de plateforme pour s'opposer à un projet de loi concernant la légitime défense policière. Les forces de l'ordre ont utilisé des gaz lacrymogènes pour disperser les groupes ayant pénétré dans des zones restreintes du centre-ville. La préfecture a déclaré qu'un policier a été blessé lors des affrontements, qui se sont terminés dans la soirée.",
+   "summary": "Le 14 novembre 2026, des manifestations ont eu lieu à Montpellier contre la cherté de la vie et en soutien aux préoccupations des jeunes et des étudiants. La mobilisation s'inscrit dans une série continue de manifestations le samedi. Organisées malgré l'interdiction prononcée par le préfet de l'Hérault, les participants se sont rassemblés initialement près de la place Max Rouquette et d'autres lieux avant de se diriger vers le centre-ville. Selon les autorités, l'affluence a atteint entre 3 500 et 5 000 participants. Les événements ont comporté des moments pacifiques animés par une fanfare de solidarité, mais ont ensuite donné lieu à des affrontements avec les forces de l'ordre dans des zones interdites, des incendies de poubelles et des jets de projectils. La police a fait usage de gaz lacrymogènes pour disperser les groupes. Les autorités ont fait état de multiples interpellations et de blessés parmi les forces de l'ordre.",
    "demands": [
-    "Baisse du coût de la vie",
-    "Augmentation des effectifs enseignants",
-    "Amélioration de l'accès au logement",
-    "Opposition à la législation sur la légitime défense policière"
+    "La baisse des prix",
+    "Davantage d'enseignants",
+    "Un meilleur logement",
+    "L'opposition au projet de loi sur la légitime défense policière"
    ],
-   "response": "La préfecture de l'Hérault a interdit les activités de manifestation dans le centre-ville de 12h00 à 23h00. La police s'est déployée pour protéger la zone, a utilisé des gaz lacrymogènes pour disperser les foules, et a rapporté 14 arrestations et un policier blessé.",
+   "response": "Le préfet de l'Hérault avait interdit les manifestations dans le centre-ville avant l'événement. Selon la préfecture, les forces de l'ordre ont employé des gaz lacrymogènes pour disperser les groupes, ce qui a conduit à 14 interpellations dans un premier temps puis 13 dans une autre mise à jour, ainsi qu'à un fonctionnaire blessé.",
    "updates": [
-    "Environ 3 500 personnes se sont rassemblées à Montpellier pour manifester contre le coût de la vie et pour la jeunesse.",
-    "La préfecture a rapporté 14 arrestations suite à des tensions entre manifestants et policiers."
+    "Le préfet de l'Hérault a interdit les cortèges de manifestation dans le centre de Montpellier en invoquant l'ordre public et des événements locaux.",
+    "Des manifestants se sont rassemblés place Max Rouquette au son d'une fanfare, les autorités estimant le nombre de participants à 3 500.",
+    "Des tensions ont éclaté lorsque des groupes sont entrés dans des zones du centre-ville interdites, entraînant des heurts, l'utilisation de gaz lacrymogènes et de multiples interpellations."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "3 500 participants selon la préfecture de l'Hérault",
-    "arrests": "14 personnes ont été arrêtées selon la préfecture de l'Hérault",
-    "injuries": "Un policier a été rapporté blessé par la préfecture"
+    "crowd": "entre 3 500 et 5 000 participants",
+    "arrests": "plusieurs interpellations",
+    "injuries": "un fonctionnaire a été blessé"
    }
   },
   "de": {
-   "title": "Demonstranten versammeln sich in Montpellier gegen Lebenshaltungskosten und für die Jugend",
+   "title": "Demonstration in Montpellier gegen Lebenshaltungskosten und für die Jugend",
    "seoTitle": "Protest in Montpellier gegen Lebenshaltungskosten",
    "tea": {
-    "why": "Die Teilnehmer protestierten gegen die steigenden Lebenshaltungskosten, den Mangel an Wohnraum und zur Unterstützung der Forderungen von Studenten und Jugendlichen.",
-    "want": "Niedrigere Preise, mehr Lehrer und Widerstand gegen ein geplantes Gesetz zur polizeilichen Notwehr.",
-    "changed": "14. November: Die Behörden meldeten 3.500 Teilnehmer und 14 Festnahmen nach Spannungen im Stadtzentrum."
+    "why": "Demonstranten protestierten gegen die steigenden Lebenshaltungskosten sowie zur Unterstützung von Jugend- und Studierendenforderungen.",
+    "want": "Niedrigere Preise, mehr Lehrkräfte, besseren Wohnraum und Ablehnung der Gesetzesvorschläge zur polizeilichen Notwehr.",
+    "changed": "14. Nov.: Demonstrierende zogen trotz eines offiziellen Verbots durch Montpellier, was zu Zusammenstößen mit der Polizei und mehreren Festnahmen führte."
    },
-   "summary": "Am 14. November 2026 fand in Montpellier, Frankreich, eine Demonstration statt, die Teil einer Reihe wöchentlicher Proteste zu den Themen Lebenshaltungskosten und Jugend war. Die Teilnehmer versammelten sich auf dem Place Max Rouquette, trotz eines lokalen Verbots der Präfektur für Protestaktivitäten im Stadtzentrum. Obwohl die Veranstaltung mit einer statischen Kundgebung und einer Blaskapelle begann, kam es später zu Spannungen zwischen einigen Demonstranten und den Sicherheitskräften. Laut der Präfektur Hérault nahmen 3.500 Personen an der Veranstaltung teil. Die Behörden berichteten, dass 14 Personen im Laufe des Tages festgenommen wurden. Der Protest diente auch als Plattform, um sich gegen ein geplantes Gesetz zur polizeilichen Notwehr auszusprechen. Die Sicherheitskräfte setzten Tränengas ein, um Gruppen zu zerstreuen, die in gesperrte Bereiche des Stadtzentrums eingedrungen waren. Die Präfektur erklärte, dass ein Beamter während der Konfrontationen verletzt wurde, die am Abend endeten.",
+   "summary": "Am 14. November 2026 fanden in Montpellier Kundgebungen gegen die hohen Lebenshaltungskosten und zur Unterstützung von Anliegen der Jugend und Studierenden statt. Die Mobilisierung bildete die Fortsetzung einer Reihe von Samstagsdemonstrationen. Trotz eines vom Präfekten des Départements Hérault erlassenen Verbots versammelten sich die Teilnehmer zunächst in der Nähe des Place Max Rouquette und an anderen Orten, bevor sie in Richtung Innenstadt zogen. Nach Angaben der Behörden erreichte die Teilnehmerzahl zwischen 3.500 und 5.000 Personen. Die Ereignisse umfassten friedliche Momente mit einer Solidaritätskapelle, führten später jedoch zu Zusammenstößen mit den Sicherheitskräften in Sperrgebieten, brennenden Mülleimern und dem Werfen von Projektilen. Die Polizei setzte Tränengas ein, um Gruppen zu trennen. Die Behörden meldeten mehrere Festnahmen sowie Verletzte unter den Einsatzkräften.",
    "demands": [
-    "Niedrigere Lebenshaltungskosten",
-    "Erhöhung des Lehrpersonals",
-    "Verbesserter Zugang zu Wohnraum",
-    "Widerstand gegen die Gesetzgebung zur polizeilichen Notwehr"
+    "Niedrigere Preise",
+    "Mehr Lehrkräfte",
+    "Besseren Wohnraum",
+    "Ablehnung der geplanten Polizeigesetzgebung zur Notwehr"
    ],
-   "response": "Die Präfektur Hérault verbot Protestaktivitäten im Stadtzentrum von 12:00 bis 23:00 Uhr. Die Polizei wurde zum Schutz des Gebiets eingesetzt, setzte Tränengas zur Auflösung von Menschenmengen ein und meldete 14 Festnahmen sowie einen verletzten Beamten.",
+   "response": "Der Präfekt des Départements Hérault hatte Proteste in der Innenstadt im Vorfeld der Veranstaltung verboten. Nach Angaben der Präfektur setzten die Einsatzkräfte Tränengas ein, um Gruppen auseinanderzutreiben, was zu zunächst 14 Festnahmen und 13 weiteren in einem späteren Update sowie zu einem verletzten Beamten führte.",
    "updates": [
-    "Etwa 3.500 Menschen versammelten sich in Montpellier, um gegen die Lebenshaltungskosten und für die Jugend zu protestieren.",
-    "Die Präfektur meldete 14 Festnahmen nach Spannungen zwischen Demonstranten und der Polizei."
+    "Der Präfekt des Départements Hérault untersagte Protestmärsche im Zentrum von Montpellier unter Verweis auf die öffentliche Ordnung und lokale Veranstaltungen.",
+    "Demonstranten versammelten sich mit einer Blaskapelle am Place Max Rouquette, wobei die Behörden von 3.500 Teilnehmern ausgingen.",
+    "Spannungen brachen aus, als Gruppen verbotene Innenstadtbereiche betraten, was zu Zusammenstößen, dem Einsatz von Tränengas und zahlreichen Festnahmen führte."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "3.500 Teilnehmer laut der Präfektur Hérault",
-    "arrests": "14 Personen wurden laut der Präfektur Hérault festgenommen",
-    "injuries": "Ein Polizeibeamter wurde laut der Präfektur verletzt"
+    "crowd": "zwischen 3.500 und 5.000 Teilnehmer",
+    "arrests": "mehrere Festnahmen",
+    "injuries": "ein Polizeibeamter wurde verletzt"
    }
   },
   "it": {
-   "title": "Manifestanti a Montpellier contro il costo della vita e per la gioventù",
-   "seoTitle": "Protesta a Montpellier contro il costo della vita",
+   "title": "Manifestazione a Montpellier contro il carovita e per i giovani",
+   "seoTitle": "Protesta a Montpellier contro il carovita",
    "tea": {
-    "why": "I partecipanti hanno protestato contro l'aumento del costo della vita, la mancanza di alloggi e a sostegno delle richieste di studenti e giovani.",
-    "want": "Prezzi più bassi, più insegnanti e opposizione a una proposta di legge sulla legittima difesa della polizia.",
-    "changed": "14 novembre: Le autorità hanno segnalato 3.500 partecipanti e 14 arresti in seguito a tensioni nel centro città."
+    "why": "I manifestanti hanno protestato contro l'aumento del costo della vita e a sostegno delle richieste dei giovani e degli studenti.",
+    "want": "Prezzi più bassi, più insegnanti, alloggi migliori e opposizione alla legislazione sull'autodifesa della polizia.",
+    "changed": "14 nov.: I manifestanti hanno sfilato a Montpellier nonostante un divieto ufficiale, provocando scontri con la polizia e diversi arresti."
    },
-   "summary": "Il 14 novembre 2026, si è svolta una protesta a Montpellier, in Francia, come parte di una serie di manifestazioni settimanali incentrate sul costo della vita e sulle questioni giovanili. I partecipanti si sono riuniti in Place Max Rouquette, nonostante il divieto della prefettura locale di svolgere attività di protesta nel centro città. Sebbene l'evento sia iniziato con un raduno statico con una banda musicale, in seguito sono emerse tensioni tra alcuni manifestanti e le forze dell'ordine. Secondo la prefettura dell'Hérault, 3.500 persone hanno partecipato all'evento. Le autorità hanno riferito che 14 persone sono state arrestate durante la giornata. La protesta è servita anche come piattaforma per opporsi a una proposta di legge riguardante la legittima difesa della polizia. Le forze dell'ordine hanno utilizzato gas lacrimogeni per disperdere i gruppi che erano entrati in aree riservate del centro città. La prefettura ha dichiarato che un agente è rimasto ferito durante gli scontri, che si sono conclusi in serata.",
+   "summary": "Il 14 novembre 2026 si sono tenute manifestazioni a Montpellier contro l'alto costo della vita e a sostegno delle istanze dei giovani e degli studenti. La mobilitazione ha segnato una serie continua di proteste del sabato. Organizzati nonostante il divieto emesso dal prefetto dell'Hérault, i partecipanti si sono radunati inizialmente nei pressi di Place Max Rouquette e in altri luoghi prima di dirigersi verso il centro città. Secondo le autorità, il numero di persone ha raggiunto tra i 3.500 e i 5.000 partecipanti. Gli eventi hanno incluso momenti pacifici con una fanfare di solidarietà, ma in seguito hanno comportato scontri con le forze di sicurezza in aree transennate, roghi di cassonetti e lancio di oggetti. La polizia ha impiegato gas lacrimogeni per disperdere i gruppi. Le autorità hanno riferito di molteplici arresti e di feriti tra il personale delle forze dell'ordine.",
    "demands": [
-    "Costo della vita più basso",
-    "Aumento del personale docente",
-    "Miglioramento dell'accesso agli alloggi",
-    "Opposizione alla legislazione sulla legittima difesa della polizia"
+    "Prezzi più bassi",
+    "Più insegnanti",
+    "Alloggi migliori",
+    "Opposizione alla proposta di legislazione sull'autodifesa della polizia"
    ],
-   "response": "La prefettura dell'Hérault ha vietato le attività di protesta nel centro città dalle 12:00 alle 23:00. La polizia è stata schierata per proteggere l'area, ha usato gas lacrimogeni per disperdere la folla e ha segnalato 14 arresti e un agente ferito.",
+   "response": "Il prefetto dell'Hérault aveva vietato le proteste nel centro cittadino prima dell'evento. Secondo la prefettura, le forze dell'ordine hanno usato gas lacrimogeni per disperdere i gruppi, portando a 14 arresti iniziali e 13 in un successivo aggiornamento, oltre a un agente ferito.",
    "updates": [
-    "Circa 3.500 persone si sono riunite a Montpellier per protestare contro il costo della vita e per la gioventù.",
-    "La prefettura ha segnalato 14 arresti in seguito alle tensioni tra manifestanti e polizia."
+    "Il prefetto dell'Hérault ha vietato i cortei di protesta nel centro di Montpellier citando l'ordine pubblico e gli eventi locali.",
+    "I manifestanti si sono radunati a Place Max Rouquette con una fanfare, e le autorità hanno stimato 3.500 partecipanti.",
+    "Le tensioni sono esplose quando i gruppi sono entrati nelle aree del centro vietate, provocando scontri, l'uso di gas lacrimogeni e molteplici arresti."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "3.500 partecipanti secondo la prefettura dell'Hérault",
-    "arrests": "14 persone sono state arrestate secondo la prefettura dell'Hérault",
-    "injuries": "Un agente di polizia è stato segnalato ferito dalla prefettura"
+    "crowd": "tra 3.500 e 5.000 partecipanti",
+    "arrests": "molteplici arresti",
+    "injuries": "un agente è rimasto ferito"
    }
   },
   "pt": {
-   "title": "Manifestantes reúnem-se em Montpellier contra o custo de vida e pela juventude",
+   "title": "Manifestantes realizam protesto em Montpellier contra o custo de vida e pela juventude",
    "seoTitle": "Protesto em Montpellier contra o custo de vida",
    "tea": {
-    "why": "Os participantes protestaram contra o aumento do custo de vida, a falta de habitação e em apoio às reivindicações dos estudantes e jovens.",
-    "want": "Preços mais baixos, mais professores e oposição a uma proposta de lei sobre a legítima defesa policial.",
-    "changed": "14 de novembro: As autoridades reportaram 3.500 participantes e 14 detenções após tensões no centro da cidade."
+    "why": "Os manifestantes protestaram contra o aumento do custo de vida e em apoio às reivindicações da juventude e dos estudantes.",
+    "want": "Preços mais baixos, mais professores, melhores habitações e oposição à legislação de autodefesa policial.",
+    "changed": "14 de nov.: Os manifestantes marcharam em Montpellier apesar de uma proibição oficial, resultando em confrontos com a polícia e várias detenções."
    },
-   "summary": "A 14 de novembro de 2026, ocorreu um protesto em Montpellier, França, como parte de uma série de manifestações semanais focadas no custo de vida e em questões da juventude. Os participantes reuniram-se na Place Max Rouquette, apesar de uma proibição da prefeitura local sobre atividades de protesto no centro da cidade. Embora o evento tenha começado com uma concentração estática com uma banda de música, surgiram mais tarde tensões entre alguns manifestantes e as forças de segurança. Segundo a prefeitura de Hérault, 3.500 pessoas compareceram ao evento. As autoridades reportaram que 14 indivíduos foram detidos durante o dia. O protesto serviu também como plataforma para se opor a uma proposta de lei sobre a legítima defesa policial. As forças de segurança utilizaram gás lacrimogéneo para dispersar grupos que entraram em áreas restritas do centro da cidade. A prefeitura declarou que um agente ficou ferido durante os confrontos, que terminaram ao anoitecer.",
+   "summary": "Em 14 de novembro de 2026, realizaram-se manifestações em Montpellier contra o elevado custo de vida e em apoio às preocupações dos jovens e estudantes. A mobilização marcou uma série contínua de protestos de sábado. Organizados apesar de uma proibição emitida pelo prefeito de Hérault, os participantes reuniram-se inicialmente perto da Place Max Rouquette e de outros locais antes de avançarem em direção ao centro da cidade. Segundo as autoridades, a afluência de público atingiu entre 3.500 e 5.000 participantes. Os acontecimentos incluíram momentos pacíficos com uma fanfarra de solidariedade, mas envolveram posteriormente confrontos com as forças de segurança em zonas restritas, caixotes do lixo a arder e lançamento de projéteis. A polícia mobilizou gás lacrimogéneo para dispersar os grupos. As autoridades relataram múltiplas detenções e feridos entre o pessoal das forças de segurança.",
    "demands": [
-    "Custo de vida mais baixo",
-    "Aumento do pessoal docente",
-    "Melhoria do acesso à habitação",
-    "Oposição à legislação sobre a legítima defesa policial"
+    "Preços mais baixos",
+    "Mais professores",
+    "Melhores habitações",
+    "Oposição à proposta de legislação de autodefesa policial"
    ],
-   "response": "A prefeitura de Hérault proibiu atividades de protesto no centro da cidade das 12:00 às 23:00. A polícia foi destacada para proteger a área, utilizou gás lacrimogéneo para dispersar multidões e reportou 14 detenções e um agente ferido.",
+   "response": "O prefeito de Hérault proibiu os protestos no centro da cidade antes do evento. Segundo a prefeitura, as forças de segurança utilizaram gás lacrimogéneo para dispersar os grupos, resultando em 14 detenções iniciais e 13 numa outra atualização, juntamente com um agente ferido.",
    "updates": [
-    "Aproximadamente 3.500 pessoas reuniram-se em Montpellier para protestar contra o custo de vida e pela juventude.",
-    "A prefeitura reportou 14 detenções após tensões entre manifestantes e a polícia."
+    "O prefeito de Hérault proibiu marchas de protesto no centro de Montpellier, invocando a ordem pública e eventos locais.",
+    "Os manifestantes reuniram-se na Place Max Rouquette com uma fanfarra, estimando as autoridades 3.500 participantes.",
+    "A tensão estalou quando os grupos entraram em áreas do centro proibidas, resultando em confrontos, uso de gás lacrimogéneo e múltiplas detenções."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "3.500 participantes segundo a prefeitura de Hérault",
-    "arrests": "14 pessoas foram detidas segundo a prefeitura de Hérault",
-    "injuries": "Um agente da polícia foi reportado ferido pela prefeitura"
+    "crowd": "entre 3.500 e 5.000 participantes",
+    "arrests": "múltiplas detenções",
+    "injuries": "um agente ferido"
    }
   },
   "nl": {
-   "title": "Betogers verzamelen zich in Montpellier tegen kosten van levensonderhoud en voor de jeugd",
-   "seoTitle": "Protest in Montpellier tegen kosten van levensonderhoud",
+   "title": "Demonstranten komen in Montpellier in opstand tegen kosten van het bestaan en voor de jeugd",
+   "seoTitle": "Protest in Montpellier tegen kosten van het bestaan",
    "tea": {
-    "why": "Deelnemers protesteerden tegen de stijgende kosten van levensonderhoud, het gebrek aan huisvesting en ter ondersteuning van de eisen van studenten en jongeren.",
-    "want": "Lagere prijzen, meer leraren en verzet tegen een voorgestelde wet over zelfverdediging door de politie.",
-    "changed": "14 november: De autoriteiten meldden 3.500 deelnemers en 14 arrestaties na spanningen in het stadscentrum."
+    "why": "Demonstranten protesteerden tegen de stijgende kosten van het bestaan en ter ondersteuning van de eisen van jongeren en studenten.",
+    "want": "Lagere prijzen, meer leraren, betere huisvesting en verzet tegen de voorgestelde wetgeving rond politiezelfverdediging.",
+    "changed": "14 nov.: Demonstranten marcheerden door Montpellier ondanks een officieel verbod, wat leidde tot aanvaringen met de politie en verscheidene arrestaties."
    },
-   "summary": "Op 14 november 2026 vond er een protest plaats in Montpellier, Frankrijk, als onderdeel van een reeks wekelijkse demonstraties gericht op de kosten van levensonderhoud en jongerenvraagstukken. Deelnemers verzamelden zich op het Place Max Rouquette, ondanks een lokaal verbod van de prefectuur op protestactiviteiten in het stadscentrum. Hoewel het evenement begon met een statische bijeenkomst met een fanfare, ontstonden er later spanningen tussen sommige betogers en de politie. Volgens de prefectuur van Hérault woonden 3.500 mensen het evenement bij. De autoriteiten meldden dat 14 personen gedurende de dag werden gearresteerd. Het protest diende ook als platform om zich te verzetten tegen een voorgestelde wet over zelfverdediging door de politie. De politie gebruikte traangas om groepen te verspreiden die verboden gebieden van het stadscentrum waren binnengegaan. De prefectuur verklaarde dat één agent gewond raakte tijdens de confrontaties, die tegen de avond eindigden.",
+   "summary": "Op 14 november 2026 vonden in Montpellier demonstraties plaats tegen de hoge kosten van het bestaan en ter ondersteuning van de zorgen van jongeren en studenten. De mobilisatie vormde een voortzetting van een reeks zaterdagprotesten. Ondanks een door de prefect van Hérault uitgevaardigd verbod verzamelden de deelnemers zich aanvankelijk nabij Place Max Rouquette en andere locaties alvorens richting het stadscentrum te trekken. Volgens de autoriteiten bereikte het aantal aanwezigen tussen de 3.500 en 5.000 deelnemers. De gebeurtenissen kenden vreedzame momenten met een solidariteitsfanfare, maar gingen later gepaard met aanvaringen met de ordediensten in afgesloten zones, brandende vuilnisbakken en het gooien van projectielen. De politie zette traangas in om groepen uiteen te jagen. De autoriteiten meldden meerdere arrestaties en gewonden onder het personeel van de ordediensten.",
    "demands": [
-    "Lagere kosten van levensonderhoud",
-    "Toename van het aantal leraren",
-    "Verbeterde toegang tot huisvesting",
-    "Verzet tegen de wetgeving over zelfverdediging door de politie"
+    "Lagere prijzen",
+    "Meer leraren",
+    "Betere huisvesting",
+    "Verzet tegen de voorgestelde wetgeving rond politiezelfverdediging"
    ],
-   "response": "De prefectuur van Hérault verbood protestactiviteiten in het stadscentrum van 12:00 tot 23:00 uur. De politie werd ingezet om het gebied te beschermen, gebruikte traangas om menigten te verspreiden en meldde 14 arrestaties en één gewonde agent.",
+   "response": "De prefect van Hérault verbood voorafgaand aan het evenement protesten in het stadscentrum. Volgens de prefectuur gebruikten de ordediensten traangas om groepen te verspreiden, wat leidde tot aanvankelijk 14 arrestaties en 13 in een andere update, naast één gewonde agent.",
    "updates": [
-    "Ongeveer 3.500 mensen verzamelden zich in Montpellier om te protesteren tegen de kosten van levensonderhoud en voor de jeugd.",
-    "De prefectuur meldde 14 arrestaties na spanningen tussen betogers en de politie."
+    "De prefect van Hérault verbood protestmarsen in het centrum van Montpellier vanwege de openbare orde en lokale evenementen.",
+    "Demonstranten verzamelden zich op Place Max Rouquette met een fanfare, waarbij de autoriteiten het aantal deelnemers schatten op 3.500.",
+    "De spanningen namen toe toen groepen verboden binnenstadsgebieden betraden, wat resulteerde in aanvaringen, de inzet van traangas en verscheidene arrestaties."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "3.500 deelnemers volgens de prefectuur van Hérault",
-    "arrests": "14 personen werden gearresteerd volgens de prefectuur van Hérault",
-    "injuries": "Eén politieagent raakte gewond volgens de prefectuur"
+    "crowd": "tussen 3.500 en 5.000 deelnemers",
+    "arrests": "verscheidene arrestaties",
+    "injuries": "één agent gewond"
    }
   }
  }

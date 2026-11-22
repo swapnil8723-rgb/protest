@@ -1,9 +1,9 @@
 {
  "id": "eea50213089",
- "slug": "",
- "stage": "candidate",
+ "slug": "besancon-cost-of-living-march-nov-2026",
+ "stage": "live",
  "title": "Protesters march in Besançon against cost of living",
- "seoTitle": "",
+ "seoTitle": "Besançon march against cost of living",
  "place": {
   "city": "Besançon",
   "region": "Bourgogne-Franche-Comté",
@@ -15,37 +15,109 @@
  },
  "scope": "local",
  "causes": [
-  "prices"
+  "prices",
+  "anti-government"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-21",
- "status": "ongoing",
- "vibe": "heating-up",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": true,
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence",
+  "sources-disagree"
+ ],
+ "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "People marched to protest the high cost of living and to mark the eighth anniversary of the yellow vest movement.",
+  "want": "Protesters expressed general economic distress and frustration with the political situation.",
+  "changed": "Nov 21: Police and protesters clashed near rue de Belfort following an undeclared march, resulting in six arrests."
  },
- "summary": "",
+ "summary": "On November 21, 2026, an undeclared march took place in Besançon to protest the cost of living and mark the eighth anniversary of the yellow vest movement. Beginning peacefully at the parc des Glacis with music and chanting, the crowd later moved toward the city centre. Due to a prefectural ban forbidding gatherings in the city centre, police blocked access points and diverted the procession toward rue de Belfort. There, the demonstration turned tense, featuring bin fires and confrontations with law enforcement. According to local sources, crowd estimates ranged from about 1,600 people reported by the prefecture to around 2,000 participants noted by journalists. Authorities reported six arrests and damage to a bank window in the Chaprais sector by the time the gathering concluded around 6 p.m.",
  "organizers": [],
  "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
- "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
- "reportsPrev24h": 0,
- "reports48h": 0,
+ "response": "The prefecture banned gatherings in the city centre of Besançon for the day. Police forces blocked access to downtown areas and deployed tear gas during clashes on rue de Belfort, ultimately arresting six individuals, as stated by the Doubs prefecture.",
+ "numbers": {
+  "crowd": {
+   "value": 2000,
+   "text": "nearly 2,000 people",
+   "sources": [
+    1
+   ]
+  },
+  "arrests": {
+   "value": 6,
+   "text": "six arrests",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-11-21",
+   "text": "An undeclared protest began at parc des Glacis in Besançon around 14:00 against the cost of living.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
+   "at": "2026-11-21",
+   "text": "Police blocked access to the city centre due to a prefectural ban, redirecting the march toward rue de Belfort.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
+   "at": "2026-11-21",
+   "text": "Clashes, bin fires, and tear gas deployment occurred near rue de Belfort before the gathering ended at 18:00.",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.estrepublicain.fr/social/2026/11/21/acte-vi-de-la-mobilisation-un-rassemblement-annonce-a-14-h-malgre-l-interdiction-du-prefet",
+   "publisher": "estrepublicain.fr",
+   "title": "Besançon . Manifestation du 21 novembre : 2 000 personnes dans les rues, des violences et six interpellations",
+   "publishedAt": "2026-11-21T18:30:00.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.macommune.info/manifestation-du-21-novembre-2026-un-rassemblement-marque-par-des-tensions-et-six-interpellations-a-besancon/",
+   "publisher": "macommune.info",
+   "title": "Manifestation du 21 novembre 2026 : un rassemblement marqué par des tensions et six interpellations à Besançon",
+   "publishedAt": "2026-11-22T06:57:00.000Z"
+  }
+ ],
+ "conflicts": [
+  "The prefecture estimated about 1,600 participants, while reports stated nearly 2,000 people attended."
+ ],
+ "confidence": 0.55,
+ "publishers": 2,
+ "reports24h": 1,
+ "reportsPrev24h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-22T18:53:42.959Z",
- "lastReportAt": "2026-11-22T18:53:42.959Z",
- "lastCheckedAt": "2026-11-22T18:53:42.959Z",
- "updatedAt": "2026-11-22T18:53:42.959Z"
+ "lastReportAt": "2026-11-22T06:57:00.000Z",
+ "lastCheckedAt": "2026-11-22T22:54:41.047Z",
+ "updatedAt": "2026-11-22T22:54:39.719Z",
+ "searchedAt": "2026-11-22T22:50:43.436Z",
+ "endedOn": "2026-11-21",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-11-22T22:54:39.719Z",
+ "summaryOf": "ea9386e88989"
 }
