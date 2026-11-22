@@ -19,61 +19,64 @@
   "transport"
  ],
  "kind": "multi-day",
- "startedOn": "2026-11-05",
+ "startedOn": "2026-11-19",
  "status": "ongoing",
  "vibe": "heating-up",
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
-  "low-confidence"
+  "top-10"
  ],
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against the arrest and military imprisonment of an ultra-Orthodox draft evader.",
-  "want": "The release of the detained ultra-Orthodox draft evader.",
-  "changed": "Nov 22: Police arrested a minor for spitting at officers during a protest on Haim Bar Lev Boulevard that disrupted light rail services."
+  "why": "Protesters are demonstrating against the arrest and imprisonment of an ultra-Orthodox man for draft evasion.",
+  "want": "The release of the detained draft evader.",
+  "changed": "Nov 22: Police detained a minor and cleared a blockade on Haim Bar Lev Boulevard after protesters halted the light rail."
  },
- "summary": "Ultra-Orthodox protesters have engaged in multiple demonstrations in Jerusalem, blocking roads and disrupting light rail operations. According to reports, these actions were triggered by the arrest and subsequent 20-day military prison sentence of an ultra-Orthodox draft evader. The Jerusalem Faction (Peleg Yerushalmi) has been identified as an organizing group behind these demonstrations. Protesters have blocked traffic, including a military bus, and engaged in confrontations with security forces. Israel Police, including the Special Patrol Unit and Border Police, have been deployed to disperse the crowds, declaring the gatherings illegal. Police reported that officers rescued a female IDF soldier trapped within a crowd and arrested a minor for spitting at personnel. Authorities have stated they are prepared for further large-scale demonstrations and road blockages in response to the ongoing situation regarding draft evaders.",
+ "summary": "Ultra-Orthodox protesters, associated with the Jerusalem Faction, have held multiple demonstrations in Jerusalem to protest the arrest of a draft evader. On November 19, police dispersed a protest where a military bus was blocked. Further demonstrations occurred on November 22 on Haim Bar Lev Boulevard, where protesters blocked the light rail and roads. According to the Israel Police, officers used crowd-control measures to disperse the crowd and rescued a female soldier who had become trapped. Police reported that protesters threw objects at officers and refused to clear the area. One minor was detained for spitting at police. The protests were reportedly triggered by the arrest of an ultra-Orthodox individual at Ben-Gurion Airport, who was subsequently sentenced to 20 days in military prison.",
  "organizers": [
   "Jerusalem Faction"
  ],
  "demands": [
   "Release of the detained draft evader"
  ],
- "response": "Israel Police stated they are working to disperse the protests, which they have declared illegal. Police reported arresting a minor and rescuing a soldier trapped by the crowd. They also noted preparations for additional demonstrations and road blockages.",
+ "response": "The Israel Police stated they used crowd-control measures to disperse the crowds, reopened blocked roads, and rescued a trapped soldier. Police also detained a minor for spitting at officers.",
  "numbers": {
   "arrests": {
    "value": 1,
-   "text": "One minor was arrested for spitting at officers, according to Israel Police.",
+   "text": "One minor was detained by police.",
    "sources": [
-    2
+    2,
+    3
    ]
   }
  },
  "updates": [
   {
-   "at": "2026-11-05",
-   "text": "Protesters blocked roads and threw rocks at police on Bar-Ilan Street; police declared the protest illegal and began clearing the area.",
+   "at": "2026-11-19",
+   "text": "Police dispersed a protest in a Haredi neighborhood where a military bus was blocked.",
    "sources": [
-    1
+    1,
+    2
    ]
   },
   {
    "at": "2026-11-22",
-   "text": "Protesters blocked the light rail on Haim Bar Lev Boulevard; police arrested a minor and rescued a soldier from the crowd.",
+   "text": "Protesters blocked the light rail on Haim Bar Lev Boulevard; police detained a minor and cleared the area.",
    "sources": [
-    2
+    2,
+    3
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://www.israelnationalnews.com/flashes/696870",
-   "publisher": "israelnationalnews.com",
-   "title": "Jerusalem: Rioters block roads, threw rocks at officers",
-   "publishedAt": "2026-11-05T22:08:10.000Z"
+   "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-19/ty-article/.premium/police-violently-disperse-ultra-orthodox-protest-in-jerusalem/000001a1-f427-d9ff-a7b5-f5af85cf0000",
+   "publisher": "haaretz.com",
+   "title": "Israel Police violently disperse ultra-Orthodox protest in Jerusalem",
+   "publishedAt": "2026-11-19T15:16:00.000Z"
   },
   {
    "n": 2,
@@ -81,206 +84,217 @@
    "publisher": "jpost.com",
    "title": "Police arrest minor at haredi protesters blocking Jerusalem light rail | The Jerusalem Post",
    "publishedAt": "2026-11-22T13:04:48.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.israelnationalnews.com/flashes/698213",
+   "publisher": "israelnationalnews.com",
+   "title": "Police disperse riot in Jerusalem, rescue soldier trapped by the crowd",
+   "publishedAt": "2026-11-22T15:54:17.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 1,
+ "confidence": 0.8,
+ "publishers": 3,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-02T00:49:16.365Z",
- "lastReportAt": "2026-11-22T13:04:48.000Z",
- "lastCheckedAt": "2026-11-22T14:56:17.276Z",
- "updatedAt": "2026-11-22T14:56:08.353Z",
+ "lastReportAt": "2026-11-22T15:54:17.000Z",
+ "lastCheckedAt": "2026-11-22T18:55:26.700Z",
+ "updatedAt": "2026-11-22T18:54:53.955Z",
  "responseSources": [
   1,
-  2
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-22T14:56:08.353Z",
- "summaryOf": "031ccef35cab",
+ "summarizedAt": "2026-11-22T18:54:53.955Z",
+ "summaryOf": "25f48dfb235e",
  "publishedAt": "2026-11-02T00:50:35.266Z",
  "i18n": {
-  "of": "df71467935da8bc2",
-  "at": "2026-11-22T14:56:46.683Z",
+  "of": "e5ac901c91370793",
+  "at": "2026-11-22T18:55:41.564Z",
   "tries": 1,
   "hi": {
-   "title": "यरूशलेम में अति-रूढ़िवादी प्रदर्शनकारियों ने सड़कों और लाइट रेल को अवरुद्ध किया",
-   "seoTitle": "यरूशलेम अति-रूढ़िवादी विरोध",
+   "title": "यरूशलेम में अल्ट्रा-ऑर्थोडॉक्स प्रदर्शनकारियों ने सड़कों और लाइट रेल को अवरुद्ध किया",
+   "seoTitle": "यरूशलेम अल्ट्रा-ऑर्थोडॉक्स विरोध",
    "tea": {
-    "why": "प्रदर्शनकारी एक अति-रूढ़िवादी ड्राफ्ट इवेडर (सैन्य सेवा से बचने वाले) की गिरफ्तारी और सैन्य कारावास के खिलाफ प्रदर्शन कर रहे हैं।",
-    "want": "हिरासत में लिए गए अति-रूढ़िवादी ड्राफ्ट इवेडर की रिहाई।",
-    "changed": "22 नवंबर: पुलिस ने हैम बार लेव बुलेवार्ड पर एक विरोध प्रदर्शन के दौरान अधिकारियों पर थूकने के आरोप में एक नाबालिग को गिरफ्तार किया, जिससे लाइट रेल सेवाएं बाधित हुईं।"
+    "why": "प्रदर्शनकारी ड्राफ्ट चोरी के लिए एक अल्ट्रा-ऑर्थोडॉक्स व्यक्ति की गिरफ्तारी और कारावास के खिलाफ प्रदर्शन कर रहे हैं।",
+    "want": "हिरासत में लिए गए ड्राफ्ट चोरी के आरोपी की रिहाई।",
+    "changed": "22 नवंबर: प्रदर्शनकारियों द्वारा लाइट रेल रोकने के बाद पुलिस ने एक नाबालिग को हिरासत में लिया और हाइम बार लेव बुलेवार्ड पर नाकाबंदी हटाई।"
    },
-   "summary": "अति-रूढ़िवादी प्रदर्शनकारियों ने यरूशलेम में कई प्रदर्शन किए हैं, सड़कों को अवरुद्ध किया है और लाइट रेल संचालन को बाधित किया है। रिपोर्टों के अनुसार, ये कार्रवाई एक अति-रूढ़िवादी ड्राफ्ट इवेडर की गिरफ्तारी और उसके बाद 20 दिन की सैन्य जेल की सजा से प्रेरित थी। यरूशलेम फैक्शन (पेलेग येरुशालमी) की पहचान इन प्रदर्शनों के पीछे एक आयोजन समूह के रूप में की गई है। प्रदर्शनकारियों ने यातायात को अवरुद्ध किया है, जिसमें एक सैन्य बस भी शामिल है, और सुरक्षा बलों के साथ टकराव में शामिल हुए हैं। इज़राइल पुलिस, जिसमें स्पेशल पेट्रोल यूनिट और बॉर्डर पुलिस शामिल है, को भीड़ को तितर-बितर करने के लिए तैनात किया गया है, और सभाओं को अवैध घोषित किया गया है। पुलिस ने बताया कि अधिकारियों ने भीड़ में फंसी एक महिला आईडीएफ सैनिक को बचाया और कर्मियों पर थूकने के लिए एक नाबालिग को गिरफ्तार किया। अधिकारियों ने कहा है कि वे ड्राफ्ट इवेडर्स के संबंध में चल रही स्थिति के जवाब में आगे के बड़े पैमाने पर प्रदर्शनों और सड़क अवरोधों के लिए तैयार हैं।",
+   "summary": "यरूशलेम फैक्शन से जुड़े अल्ट्रा-ऑर्थोडॉक्स प्रदर्शनकारियों ने ड्राफ्ट चोरी के आरोपी की गिरफ्तारी के विरोध में यरूशलेम में कई प्रदर्शन किए हैं। 19 नवंबर को, पुलिस ने एक विरोध प्रदर्शन को तितर-बितर किया जहां एक सैन्य बस को रोका गया था। 22 नवंबर को हाइम बार लेव बुलेवार्ड पर और प्रदर्शन हुए, जहां प्रदर्शनकारियों ने लाइट रेल और सड़कों को अवरुद्ध कर दिया। इज़राइल पुलिस के अनुसार, अधिकारियों ने भीड़ को तितर-बितर करने के लिए भीड़-नियंत्रण उपायों का उपयोग किया और एक महिला सैनिक को बचाया जो फंस गई थी। पुलिस ने बताया कि प्रदर्शनकारियों ने अधिकारियों पर वस्तुएं फेंकी और क्षेत्र खाली करने से इनकार कर दिया। पुलिस पर थूकने के आरोप में एक नाबालिग को हिरासत में लिया गया। ये विरोध प्रदर्शन कथित तौर पर बेन-गुरियन हवाई अड्डे पर एक अल्ट्रा-ऑर्थोडॉक्स व्यक्ति की गिरफ्तारी से शुरू हुए, जिसे बाद में 20 दिनों के सैन्य कारावास की सजा सुनाई गई थी।",
    "demands": [
-    "हिरासत में लिए गए ड्राफ्ट इवेडर की रिहाई"
+    "हिरासत में लिए गए ड्राफ्ट चोरी के आरोपी की रिहाई"
    ],
-   "response": "इज़राइल पुलिस ने कहा कि वे विरोध प्रदर्शनों को तितर-बितर करने के लिए काम कर रहे हैं, जिसे उन्होंने अवैध घोषित किया है। पुलिस ने एक नाबालिग को गिरफ्तार करने और भीड़ द्वारा फंसी एक सैनिक को बचाने की सूचना दी। उन्होंने अतिरिक्त प्रदर्शनों और सड़क अवरोधों के लिए तैयारियों का भी उल्लेख किया।",
+   "response": "इज़राइल पुलिस ने कहा कि उन्होंने भीड़ को तितर-बितर करने के लिए भीड़-नियंत्रण उपायों का उपयोग किया, अवरुद्ध सड़कों को फिर से खोला और एक फंसी हुई सैनिक को बचाया। पुलिस ने अधिकारियों पर थूकने के लिए एक नाबालिग को भी हिरासत में लिया।",
    "updates": [
-    "प्रदर्शनकारियों ने बार-इलान स्ट्रीट पर सड़कों को अवरुद्ध किया और पुलिस पर पत्थर फेंके; पुलिस ने विरोध को अवैध घोषित किया और क्षेत्र को खाली करना शुरू कर दिया।",
-    "प्रदर्शनकारियों ने हैम बार लेव बुलेवार्ड पर लाइट रेल को अवरुद्ध किया; पुलिस ने एक नाबालिग को गिरफ्तार किया और भीड़ से एक सैनिक को बचाया।"
+    "पुलिस ने एक हरेदी पड़ोस में एक विरोध प्रदर्शन को तितर-बितर किया जहां एक सैन्य बस को रोका गया था।",
+    "प्रदर्शनकारियों ने हाइम बार लेव बुलेवार्ड पर लाइट रेल को अवरुद्ध किया; पुलिस ने एक नाबालिग को हिरासत में लिया और क्षेत्र को खाली कराया।"
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "इज़राइल पुलिस के अनुसार, अधिकारियों पर थूकने के लिए एक नाबालिग को गिरफ्तार किया गया था।"
+    "arrests": "पुलिस द्वारा एक नाबालिग को हिरासत में लिया गया।"
    }
   },
   "mr": {
-   "title": "जेरुसलेममध्ये अति-रूढीवादी आंदोलकांकडून रस्ते आणि लाइट रेल रोखले",
-   "seoTitle": "जेरुसलेम अति-रूढीवादी आंदोलन",
+   "title": "जेरुसलेममध्ये अल्ट्रा-ऑर्थोडॉक्स आंदोलकांकडून रस्ते आणि लाइट रेल रोखले",
+   "seoTitle": "जेरुसलेम अल्ट्रा-ऑर्थोडॉक्स आंदोलन",
    "tea": {
-    "why": "आंदोलक एका अति-रूढीवादी ड्राफ्ट इवेडरच्या (लष्करी सेवा टाळणाऱ्या व्यक्तीच्या) अटकेच्या आणि लष्करी कारावासाच्या विरोधात निदर्शने करत आहेत.",
-    "want": "अटक केलेल्या अति-रूढीवादी ड्राफ्ट इवेडरची सुटका.",
-    "changed": "२२ नोव्हेंबर: हैम बार लेव्ह बुलेवार्डवर झालेल्या आंदोलनादरम्यान अधिकाऱ्यांवर थुंकल्याप्रकरणी पोलिसांनी एका अल्पवयीन मुलाला अटक केली, ज्यामुळे लाइट रेल सेवा विस्कळीत झाली."
+    "why": "आंदोलक ड्राफ्ट चोरीसाठी एका अल्ट्रा-ऑर्थोडॉक्स व्यक्तीच्या अटकेच्या आणि कारावासाच्या विरोधात निदर्शने करत आहेत.",
+    "want": "अटक केलेल्या ड्राफ्ट चोरीच्या आरोपीची सुटका.",
+    "changed": "२२ नोव्हेंबर: आंदोलकांनी लाइट रेल रोखल्यानंतर पोलिसांनी एका अल्पवयीन मुलाला ताब्यात घेतले आणि हाइम बार लेव्ह बुलेवार्डवरील नाकेबंदी हटवली."
    },
-   "summary": "अति-रूढीवादी आंदोलकांनी जेरुसलेममध्ये अनेक निदर्शने केली असून रस्ते अडवले आहेत आणि लाइट रेल सेवा विस्कळीत केली आहे. अहवालानुसार, या कृती एका अति-रूढीवादी ड्राफ्ट इवेडरच्या अटकेमुळे आणि त्यानंतर त्याला मिळालेल्या २० दिवसांच्या लष्करी कारावासाच्या शिक्षेमुळे झाल्या आहेत. जेरुसलेम फॅक्शन (पेलेग येरुशालमी) ही संघटना या निदर्शनांमागे असल्याचे ओळखले गेले आहे. आंदोलकांनी लष्करी बससह वाहतूक रोखून धरली असून सुरक्षा दलांशी त्यांचा संघर्ष झाला आहे. स्पेशल पेट्रोल युनिट आणि बॉर्डर पोलिसांसह इस्रायल पोलिसांनी गर्दी पांगवण्यासाठी तैनात केले असून ही सभा बेकायदेशीर असल्याचे घोषित केले आहे. पोलिसांनी सांगितले की, अधिकाऱ्यांनी गर्दीत अडकलेल्या एका महिला आयडीएफ सैनिकाची सुटका केली आणि कर्मचाऱ्यांवर थुंकल्याबद्दल एका अल्पवयीन मुलाला अटक केली. ड्राफ्ट इवेडर्सच्या संदर्भात सुरू असलेल्या परिस्थितीच्या पार्श्वभूमीवर पुढील मोठ्या प्रमाणावरील निदर्शने आणि रस्ते रोखण्यासाठी सज्ज असल्याचे अधिकाऱ्यांनी म्हटले आहे.",
+   "summary": "जेरुसलेम फॅक्शनशी संबंधित अल्ट्रा-ऑर्थोडॉक्स आंदोलकांनी ड्राफ्ट चोरीच्या आरोपीच्या अटकेच्या निषेधार्थ जेरुसलेममध्ये अनेक निदर्शने केली आहेत. १९ नोव्हेंबर रोजी, पोलिसांनी एका निदर्शनाचे विसर्जन केले जिथे एक लष्करी बस रोखली गेली होती. २२ नोव्हेंबर रोजी हाइम बार लेव्ह बुलेवार्डवर अधिक निदर्शने झाली, जिथे आंदोलकांनी लाइट रेल आणि रस्ते रोखले. इस्रायल पोलिसांच्या म्हणण्यानुसार, अधिकाऱ्यांनी गर्दी पांगवण्यासाठी गर्दी-नियंत्रण उपायांचा वापर केला आणि अडकलेल्या एका महिला सैनिकाची सुटका केली. पोलिसांनी सांगितले की आंदोलकांनी अधिकाऱ्यांवर वस्तू फेकल्या आणि परिसर रिकामा करण्यास नकार दिला. पोलिसांवर थुंकल्याबद्दल एका अल्पवयीन मुलाला ताब्यात घेण्यात आले. हे आंदोलन बेन-गुरियन विमानतळावर एका अल्ट्रा-ऑर्थोडॉक्स व्यक्तीच्या अटकेमुळे सुरू झाले, ज्याला नंतर २० दिवसांच्या लष्करी कारावासाची शिक्षा सुनावण्यात आली.",
    "demands": [
-    "अटक केलेल्या ड्राफ्ट इवेडरची सुटका"
+    "अटक केलेल्या ड्राफ्ट चोरीच्या आरोपीची सुटका"
    ],
-   "response": "इस्रायल पोलिसांनी सांगितले की ते निदर्शने पांगवण्यासाठी काम करत आहेत, जी त्यांनी बेकायदेशीर घोषित केली आहेत. पोलिसांनी एका अल्पवयीन मुलाला अटक केल्याची आणि गर्दीत अडकलेल्या सैनिकाची सुटका केल्याची माहिती दिली. त्यांनी अतिरिक्त निदर्शने आणि रस्ते रोखण्याच्या तयारीचीही नोंद घेतली.",
+   "response": "इस्रायल पोलिसांनी सांगितले की त्यांनी गर्दी पांगवण्यासाठी गर्दी-नियंत्रण उपायांचा वापर केला, रोखलेले रस्ते पुन्हा खुले केले आणि अडकलेल्या सैनिकाची सुटका केली. पोलिसांनी अधिकाऱ्यांवर थुंकल्याबद्दल एका अल्पवयीन मुलालाही ताब्यात घेतले.",
    "updates": [
-    "आंदोलकांनी बार-इलान स्ट्रीटवर रस्ते अडवले आणि पोलिसांवर दगडफेक केली; पोलिसांनी आंदोलन बेकायदेशीर घोषित केले आणि परिसर रिकामा करण्यास सुरुवात केली.",
-    "आंदोलकांनी हैम बार लेव्ह बुलेवार्डवर लाइट रेल रोखली; पोलिसांनी एका अल्पवयीन मुलाला अटक केली आणि गर्दीतून एका सैनिकाची सुटका केली."
+    "पोलिसांनी एका हरेदी परिसरात निदर्शन पांगवले जिथे एक लष्करी बस रोखली गेली होती.",
+    "आंदोलकांनी हाइम बार लेव्ह बुलेवार्डवर लाइट रेल रोखली; पोलिसांनी एका अल्पवयीन मुलाला ताब्यात घेतले आणि परिसर रिकामा केला."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "इस्रायल पोलिसांच्या म्हणण्यानुसार, अधिकाऱ्यांवर थुंकल्याप्रकरणी एका अल्पवयीन मुलाला अटक करण्यात आली."
+    "arrests": "पोलिसांनी एका अल्पवयीन मुलाला ताब्यात घेतले."
    }
   },
   "es": {
    "title": "Manifestantes ultraortodoxos bloquean carreteras y el tren ligero en Jerusalén",
    "seoTitle": "Protesta ultraortodoxa en Jerusalén",
    "tea": {
-    "why": "Los manifestantes se manifiestan contra el arresto y el encarcelamiento militar de un evasor del servicio militar ultraortodoxo.",
-    "want": "La liberación del evasor del servicio militar ultraortodoxo detenido.",
-    "changed": "22 de noviembre: La policía arrestó a un menor por escupir a los agentes durante una protesta en el bulevar Haim Bar Lev que interrumpió los servicios de tren ligero."
+    "why": "Los manifestantes se manifiestan contra el arresto y encarcelamiento de un hombre ultraortodoxo por evasión del servicio militar.",
+    "want": "La liberación del evasor detenido.",
+    "changed": "22 de noviembre: La policía detuvo a un menor y despejó un bloqueo en el bulevar Haim Bar Lev después de que los manifestantes detuvieran el tren ligero."
    },
-   "summary": "Manifestantes ultraortodoxos han participado en múltiples manifestaciones en Jerusalén, bloqueando carreteras e interrumpiendo las operaciones del tren ligero. Según los informes, estas acciones fueron provocadas por el arresto y la posterior sentencia de 20 días de prisión militar de un evasor del servicio militar ultraortodoxo. La Facción de Jerusalén (Peleg Yerushalmi) ha sido identificada como un grupo organizador detrás de estas manifestaciones. Los manifestantes han bloqueado el tráfico, incluido un autobús militar, y se han enfrentado a las fuerzas de seguridad. La Policía de Israel, incluida la Unidad Especial de Patrulla y la Policía de Fronteras, ha sido desplegada para dispersar a las multitudes, declarando las reuniones ilegales. La policía informó que los agentes rescataron a una soldado de las FDI atrapada dentro de una multitud y arrestaron a un menor por escupir al personal. Las autoridades han declarado que están preparadas para más manifestaciones a gran escala y bloqueos de carreteras en respuesta a la situación actual con respecto a los evasores del servicio militar.",
+   "summary": "Manifestantes ultraortodoxos, asociados con la Facción de Jerusalén, han realizado múltiples manifestaciones en Jerusalén para protestar por el arresto de un evasor del servicio militar. El 19 de noviembre, la policía dispersó una protesta donde se bloqueó un autobús militar. El 22 de noviembre se produjeron más manifestaciones en el bulevar Haim Bar Lev, donde los manifestantes bloquearon el tren ligero y las carreteras. Según la Policía de Israel, los agentes utilizaron medidas de control de multitudes para dispersar a la multitud y rescataron a una soldado que había quedado atrapada. La policía informó que los manifestantes lanzaron objetos a los agentes y se negaron a despejar el área. Un menor fue detenido por escupir a la policía. Las protestas fueron provocadas, según se informa, por el arresto de un individuo ultraortodoxo en el aeropuerto Ben-Gurion, quien posteriormente fue sentenciado a 20 días de prisión militar.",
    "demands": [
     "Liberación del evasor del servicio militar detenido"
    ],
-   "response": "La Policía de Israel declaró que están trabajando para dispersar las protestas, las cuales han declarado ilegales. La policía informó del arresto de un menor y del rescate de una soldado atrapada por la multitud. También señalaron preparativos para manifestaciones adicionales y bloqueos de carreteras.",
+   "response": "La Policía de Israel declaró que utilizó medidas de control de multitudes para dispersar a las multitudes, reabrió las carreteras bloqueadas y rescató a una soldado atrapada. La policía también detuvo a un menor por escupir a los agentes.",
    "updates": [
-    "Los manifestantes bloquearon carreteras y lanzaron piedras a la policía en la calle Bar-Ilan; la policía declaró la protesta ilegal y comenzó a despejar el área.",
-    "Los manifestantes bloquearon el tren ligero en el bulevar Haim Bar Lev; la policía arrestó a un menor y rescató a una soldado de la multitud."
+    "La policía dispersó una protesta en un barrio haredi donde se bloqueó un autobús militar.",
+    "Los manifestantes bloquearon el tren ligero en el bulevar Haim Bar Lev; la policía detuvo a un menor y despejó el área."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Un menor fue arrestado por escupir a los agentes, según la Policía de Israel."
+    "arrests": "Un menor fue detenido por la policía."
    }
   },
   "fr": {
    "title": "Des manifestants ultra-orthodoxes bloquent des routes et le tramway à Jérusalem",
    "seoTitle": "Manifestation ultra-orthodoxe à Jérusalem",
    "tea": {
-    "why": "Les manifestants protestent contre l'arrestation et l'emprisonnement militaire d'un réfractaire ultra-orthodoxe.",
-    "want": "La libération du réfractaire ultra-orthodoxe détenu.",
-    "changed": "22 novembre : La police a arrêté un mineur pour avoir craché sur des agents lors d'une manifestation sur le boulevard Haim Bar Lev qui a perturbé les services de tramway."
+    "why": "Les manifestants protestent contre l'arrestation et l'emprisonnement d'un homme ultra-orthodoxe pour insoumission.",
+    "want": "La libération de l'insoumis détenu.",
+    "changed": "22 novembre : La police a arrêté un mineur et levé un blocage sur le boulevard Haim Bar Lev après que des manifestants ont arrêté le tramway."
    },
-   "summary": "Des manifestants ultra-orthodoxes ont participé à de multiples manifestations à Jérusalem, bloquant des routes et perturbant les opérations du tramway. Selon les rapports, ces actions ont été déclenchées par l'arrestation et la peine de 20 jours de prison militaire infligée à un réfractaire ultra-orthodoxe. La Faction de Jérusalem (Peleg Yerushalmi) a été identifiée comme un groupe organisateur derrière ces manifestations. Les manifestants ont bloqué la circulation, y compris un bus militaire, et se sont engagés dans des confrontations avec les forces de sécurité. La police israélienne, y compris l'unité spéciale de patrouille et la police des frontières, a été déployée pour disperser les foules, déclarant les rassemblements illégaux. La police a rapporté que des agents ont secouru une soldate de Tsahal piégée dans une foule et ont arrêté un mineur pour avoir craché sur le personnel. Les autorités ont déclaré qu'elles étaient préparées à d'autres manifestations à grande échelle et à des blocages routiers en réponse à la situation actuelle concernant les réfractaires.",
+   "summary": "Des manifestants ultra-orthodoxes, associés à la Faction de Jérusalem, ont organisé de multiples manifestations à Jérusalem pour protester contre l'arrestation d'un insoumis. Le 19 novembre, la police a dispersé une manifestation où un bus militaire avait été bloqué. D'autres manifestations ont eu lieu le 22 novembre sur le boulevard Haim Bar Lev, où les manifestants ont bloqué le tramway et les routes. Selon la police israélienne, les agents ont utilisé des mesures de contrôle de la foule pour disperser les manifestants et ont secouru une soldate qui avait été piégée. La police a rapporté que les manifestants ont lancé des objets sur les agents et ont refusé de libérer la zone. Un mineur a été arrêté pour avoir craché sur la police. Les manifestations auraient été déclenchées par l'arrestation d'un individu ultra-orthodoxe à l'aéroport Ben Gourion, qui a ensuite été condamné à 20 jours de prison militaire.",
    "demands": [
-    "Libération du réfractaire détenu"
+    "Libération de l'insoumis détenu"
    ],
-   "response": "La police israélienne a déclaré qu'elle travaillait à disperser les manifestations, qu'elle a déclarées illégales. La police a rapporté l'arrestation d'un mineur et le sauvetage d'une soldate piégée par la foule. Ils ont également noté des préparatifs pour des manifestations supplémentaires et des blocages routiers.",
+   "response": "La police israélienne a déclaré avoir utilisé des mesures de contrôle de la foule pour disperser les manifestants, rouvert les routes bloquées et secouru une soldate piégée. La police a également arrêté un mineur pour avoir craché sur des agents.",
    "updates": [
-    "Les manifestants ont bloqué des routes et jeté des pierres sur la police dans la rue Bar-Ilan ; la police a déclaré la manifestation illégale et a commencé à dégager la zone.",
-    "Les manifestants ont bloqué le tramway sur le boulevard Haim Bar Lev ; la police a arrêté un mineur et a secouru une soldate de la foule."
+    "La police a dispersé une manifestation dans un quartier haredi où un bus militaire était bloqué.",
+    "Les manifestants ont bloqué le tramway sur le boulevard Haim Bar Lev ; la police a arrêté un mineur et a libéré la zone."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Un mineur a été arrêté pour avoir craché sur des agents, selon la police israélienne."
+    "arrests": "Un mineur a été arrêté par la police."
    }
   },
   "de": {
    "title": "Ultraorthodoxe Demonstranten blockieren Straßen und Stadtbahn in Jerusalem",
    "seoTitle": "Ultraorthodoxe Proteste in Jerusalem",
    "tea": {
-    "why": "Die Demonstranten protestieren gegen die Verhaftung und die militärische Inhaftierung eines ultraorthodoxen Wehrdienstverweigerers.",
-    "want": "Die Freilassung des inhaftierten ultraorthodoxen Wehrdienstverweigerers.",
-    "changed": "22. November: Die Polizei verhaftete einen Minderjährigen, weil er während eines Protests auf dem Haim-Bar-Lev-Boulevard, der den Stadtbahnverkehr unterbrach, auf Beamte gespuckt hatte."
+    "why": "Die Demonstranten protestieren gegen die Verhaftung und Inhaftierung eines ultraorthodoxen Mannes wegen Wehrdienstverweigerung.",
+    "want": "Die Freilassung des inhaftierten Wehrdienstverweigerers.",
+    "changed": "22. November: Die Polizei nahm einen Minderjährigen fest und räumte eine Blockade auf dem Haim Bar Lev Boulevard, nachdem Demonstranten die Stadtbahn gestoppt hatten."
    },
-   "summary": "Ultraorthodoxe Demonstranten haben an mehreren Protesten in Jerusalem teilgenommen, Straßen blockiert und den Betrieb der Stadtbahn gestört. Berichten zufolge wurden diese Aktionen durch die Verhaftung und die anschließende 20-tägige Militärhaftstrafe eines ultraorthodoxen Wehrdienstverweigerers ausgelöst. Die Jerusalem-Fraktion (Peleg Yerushalmi) wurde als organisierende Gruppe hinter diesen Demonstrationen identifiziert. Die Demonstranten haben den Verkehr, einschließlich eines Militärbusses, blockiert und sich Konfrontationen mit Sicherheitskräften geliefert. Die israelische Polizei, einschließlich der Spezialeinheit der Patrouille und der Grenzpolizei, wurde eingesetzt, um die Menschenmengen aufzulösen, und erklärte die Versammlungen für illegal. Die Polizei berichtete, dass Beamte eine in einer Menschenmenge gefangene IDF-Soldatin retteten und einen Minderjährigen verhafteten, weil er auf Personal gespuckt hatte. Die Behörden haben erklärt, dass sie auf weitere groß angelegte Demonstrationen und Straßenblockaden als Reaktion auf die anhaltende Situation bezüglich der Wehrdienstverweigerer vorbereitet sind.",
+   "summary": "Ultraorthodoxe Demonstranten, die mit der Jerusalem-Fraktion verbunden sind, haben in Jerusalem mehrere Demonstrationen abgehalten, um gegen die Verhaftung eines Wehrdienstverweigerers zu protestieren. Am 19. November löste die Polizei eine Demonstration auf, bei der ein Militärbus blockiert wurde. Am 22. November kam es zu weiteren Demonstrationen auf dem Haim Bar Lev Boulevard, wo Demonstranten die Stadtbahn und Straßen blockierten. Nach Angaben der israelischen Polizei setzten die Beamten Maßnahmen zur Massenkontrolle ein, um die Menge aufzulösen, und retteten eine Soldatin, die eingeschlossen worden war. Die Polizei berichtete, dass Demonstranten Gegenstände auf Beamte warfen und sich weigerten, das Gebiet zu räumen. Ein Minderjähriger wurde festgenommen, weil er auf Polizisten gespuckt hatte. Die Proteste wurden Berichten zufolge durch die Verhaftung eines ultraorthodoxen Individuums am Flughafen Ben-Gurion ausgelöst, das anschließend zu 20 Tagen Militärgefängnis verurteilt wurde.",
    "demands": [
     "Freilassung des inhaftierten Wehrdienstverweigerers"
    ],
-   "response": "Die israelische Polizei erklärte, sie arbeite daran, die Proteste aufzulösen, die sie für illegal erklärt hat. Die Polizei berichtete von der Verhaftung eines Minderjährigen und der Rettung einer von der Menge eingeschlossenen Soldatin. Sie wiesen auch auf Vorbereitungen für weitere Demonstrationen und Straßenblockaden hin.",
+   "response": "Die israelische Polizei erklärte, sie habe Maßnahmen zur Massenkontrolle eingesetzt, um die Menschenmengen aufzulösen, blockierte Straßen wieder geöffnet und eine eingeschlossene Soldatin gerettet. Die Polizei nahm zudem einen Minderjährigen fest, weil er auf Beamte gespuckt hatte.",
    "updates": [
-    "Demonstranten blockierten Straßen und bewarfen die Polizei in der Bar-Ilan-Straße mit Steinen; die Polizei erklärte den Protest für illegal und begann mit der Räumung des Gebiets.",
-    "Demonstranten blockierten die Stadtbahn auf dem Haim-Bar-Lev-Boulevard; die Polizei verhaftete einen Minderjährigen und rettete eine Soldatin aus der Menge."
+    "Die Polizei löste eine Demonstration in einem Haredi-Viertel auf, bei der ein Militärbus blockiert wurde.",
+    "Demonstranten blockierten die Stadtbahn auf dem Haim Bar Lev Boulevard; die Polizei nahm einen Minderjährigen fest und räumte das Gebiet."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Ein Minderjähriger wurde laut israelischer Polizei wegen Spuckens auf Beamte verhaftet."
+    "arrests": "Ein Minderjähriger wurde von der Polizei festgenommen."
    }
   },
   "it": {
    "title": "Manifestanti ultraortodossi bloccano strade e tram a Gerusalemme",
    "seoTitle": "Protesta ultraortodossa a Gerusalemme",
    "tea": {
-    "why": "I manifestanti stanno protestando contro l'arresto e la detenzione militare di un obiettore di coscienza ultraortodosso.",
-    "want": "Il rilascio dell'obiettore di coscienza ultraortodosso detenuto.",
-    "changed": "22 novembre: La polizia ha arrestato un minore per aver sputato contro gli agenti durante una protesta sul boulevard Haim Bar Lev che ha interrotto i servizi del tram."
+    "why": "I manifestanti protestano contro l'arresto e la detenzione di un uomo ultraortodosso per evasione della leva militare.",
+    "want": "Il rilascio dell'evasore detenuto.",
+    "changed": "22 novembre: La polizia ha arrestato un minore e rimosso un blocco sul boulevard Haim Bar Lev dopo che i manifestanti avevano fermato il tram."
    },
-   "summary": "I manifestanti ultraortodossi hanno partecipato a molteplici manifestazioni a Gerusalemme, bloccando strade e interrompendo le operazioni del tram. Secondo i rapporti, queste azioni sono state innescate dall'arresto e dalla successiva condanna a 20 giorni di carcere militare di un obiettore di coscienza ultraortodosso. La Fazione di Gerusalemme (Peleg Yerushalmi) è stata identificata come gruppo organizzatore dietro queste manifestazioni. I manifestanti hanno bloccato il traffico, incluso un autobus militare, e si sono scontrati con le forze di sicurezza. La polizia israeliana, inclusa l'unità speciale di pattuglia e la polizia di frontiera, è stata dispiegata per disperdere le folle, dichiarando illegali i raduni. La polizia ha riferito che gli agenti hanno salvato una soldatessa dell'IDF intrappolata all'interno di una folla e hanno arrestato un minore per aver sputato contro il personale. Le autorità hanno dichiarato di essere preparate per ulteriori manifestazioni su larga scala e blocchi stradali in risposta alla situazione in corso riguardante gli obiettori di coscienza.",
+   "summary": "Manifestanti ultraortodossi, associati alla Fazione di Gerusalemme, hanno tenuto diverse manifestazioni a Gerusalemme per protestare contro l'arresto di un evasore della leva. Il 19 novembre, la polizia ha disperso una protesta in cui era stato bloccato un autobus militare. Ulteriori manifestazioni si sono verificate il 22 novembre sul boulevard Haim Bar Lev, dove i manifestanti hanno bloccato il tram e le strade. Secondo la Polizia di Israele, gli agenti hanno utilizzato misure di controllo della folla per disperdere i manifestanti e hanno salvato una soldatessa rimasta intrappolata. La polizia ha riferito che i manifestanti hanno lanciato oggetti contro gli agenti e si sono rifiutati di sgomberare l'area. Un minore è stato arrestato per aver sputato contro la polizia. Le proteste sarebbero state scatenate dall'arresto di un individuo ultraortodosso all'aeroporto Ben-Gurion, successivamente condannato a 20 giorni di carcere militare.",
    "demands": [
-    "Rilascio dell'obiettore di coscienza detenuto"
+    "Rilascio dell'evasore della leva detenuto"
    ],
-   "response": "La polizia israeliana ha dichiarato che sta lavorando per disperdere le proteste, che ha dichiarato illegali. La polizia ha riferito dell'arresto di un minore e del salvataggio di una soldatessa intrappolata dalla folla. Hanno anche notato i preparativi per ulteriori manifestazioni e blocchi stradali.",
+   "response": "La Polizia di Israele ha dichiarato di aver utilizzato misure di controllo della folla per disperdere i manifestanti, riaperto le strade bloccate e salvato una soldatessa intrappolata. La polizia ha anche arrestato un minore per aver sputato contro gli agenti.",
    "updates": [
-    "I manifestanti hanno bloccato le strade e lanciato pietre contro la polizia in via Bar-Ilan; la polizia ha dichiarato la protesta illegale e ha iniziato a sgomberare l'area.",
-    "I manifestanti hanno bloccato il tram sul boulevard Haim Bar Lev; la polizia ha arrestato un minore e ha salvato una soldatessa dalla folla."
+    "La polizia ha disperso una protesta in un quartiere haredi dove era stato bloccato un autobus militare.",
+    "I manifestanti hanno bloccato il tram sul boulevard Haim Bar Lev; la polizia ha arrestato un minore e sgomberato l'area."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Un minore è stato arrestato per aver sputato contro gli agenti, secondo la polizia israeliana."
+    "arrests": "Un minore è stato arrestato dalla polizia."
    }
   },
   "pt": {
-   "title": "Manifestantes ultraortodoxos bloqueiam estradas e o elétrico em Jerusalém",
+   "title": "Manifestantes ultraortodoxos bloqueiam estradas e o metro ligeiro em Jerusalém",
    "seoTitle": "Protesto ultraortodoxo em Jerusalém",
    "tea": {
-    "why": "Os manifestantes estão a protestar contra a detenção e o encarceramento militar de um evasor do serviço militar ultraortodoxo.",
-    "want": "A libertação do evasor do serviço militar ultraortodoxo detido.",
-    "changed": "22 de novembro: A polícia deteve um menor por cuspir em agentes durante um protesto no boulevard Haim Bar Lev que interrompeu os serviços de elétrico."
+    "why": "Os manifestantes estão a demonstrar contra a detenção e o encarceramento de um homem ultraortodoxo por evasão ao serviço militar.",
+    "want": "A libertação do evasor detido.",
+    "changed": "22 de novembro: A polícia deteve um menor e desobstruiu um bloqueio no boulevard Haim Bar Lev depois de os manifestantes terem parado o metro ligeiro."
    },
-   "summary": "Manifestantes ultraortodoxos participaram em múltiplas manifestações em Jerusalém, bloqueando estradas e interrompendo as operações do elétrico. Segundo relatos, estas ações foram desencadeadas pela detenção e pela subsequente sentença de 20 dias de prisão militar de um evasor do serviço militar ultraortodoxo. A Facção de Jerusalém (Peleg Yerushalmi) foi identificada como um grupo organizador por detrás destas manifestações. Os manifestantes bloquearam o trânsito, incluindo um autocarro militar, e envolveram-se em confrontos com as forças de segurança. A Polícia de Israel, incluindo a Unidade Especial de Patrulha e a Polícia de Fronteira, foi destacada para dispersar as multidões, declarando as reuniões ilegais. A polícia informou que agentes resgataram uma soldada das FDI presa numa multidão e detiveram um menor por cuspir no pessoal. As autoridades declararam que estão preparadas para mais manifestações em larga escala e bloqueios de estradas em resposta à situação em curso relativa aos evasores do serviço militar.",
+   "summary": "Manifestantes ultraortodoxos, associados à Facção de Jerusalém, realizaram múltiplas manifestações em Jerusalém para protestar contra a detenção de um evasor ao serviço militar. A 19 de novembro, a polícia dispersou um protesto onde um autocarro militar foi bloqueado. Ocorreram mais manifestações a 22 de novembro no boulevard Haim Bar Lev, onde os manifestantes bloquearam o metro ligeiro e as estradas. Segundo a Polícia de Israel, os agentes utilizaram medidas de controlo de multidões para dispersar a multidão e resgataram uma soldada que tinha ficado presa. A polícia informou que os manifestantes atiraram objetos aos agentes e recusaram-se a desobstruir a área. Um menor foi detido por cuspir na polícia. Os protestos foram alegadamente desencadeados pela detenção de um indivíduo ultraortodoxo no aeroporto Ben-Gurion, que foi posteriormente condenado a 20 dias de prisão militar.",
    "demands": [
-    "Libertação do evasor do serviço militar detido"
+    "Libertação do evasor ao serviço militar detido"
    ],
-   "response": "A Polícia de Israel declarou que está a trabalhar para dispersar os protestos, que declarou ilegais. A polícia informou a detenção de um menor e o resgate de uma soldada presa pela multidão. Também notaram preparativos para manifestações adicionais e bloqueios de estradas.",
+   "response": "A Polícia de Israel declarou que utilizou medidas de controlo de multidões para dispersar as multidões, reabriu as estradas bloqueadas e resgatou uma soldada presa. A polícia também deteve um menor por cuspir nos agentes.",
    "updates": [
-    "Os manifestantes bloquearam estradas e atiraram pedras à polícia na rua Bar-Ilan; a polícia declarou o protesto ilegal e começou a limpar a área.",
-    "Os manifestantes bloquearam o elétrico no boulevard Haim Bar Lev; a polícia deteve um menor e resgatou uma soldada da multidão."
+    "A polícia dispersou um protesto num bairro haredi onde um autocarro militar foi bloqueado.",
+    "Os manifestantes bloquearam o metro ligeiro no boulevard Haim Bar Lev; a polícia deteve um menor e desobstruiu a área."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Um menor foi detido por cuspir em agentes, segundo a Polícia de Israel."
+    "arrests": "Um menor foi detido pela polícia."
    }
   },
   "nl": {
-   "title": "Ultraorthodoxe demonstranten blokkeren wegen en tram in Jeruzalem",
+   "title": "Ultraorthodoxe demonstranten blokkeren wegen en sneltram in Jeruzalem",
    "seoTitle": "Ultraorthodox protest in Jeruzalem",
    "tea": {
-    "why": "Demonstranten protesteren tegen de arrestatie en militaire gevangenschap van een ultraorthodoxe dienstweigeraar.",
-    "want": "De vrijlating van de gedetineerde ultraorthodoxe dienstweigeraar.",
-    "changed": "22 november: De politie arresteerde een minderjarige wegens het spugen naar agenten tijdens een protest op de Haim Bar Lev Boulevard dat het tramverkeer verstoorde."
+    "why": "Demonstranten protesteren tegen de arrestatie en gevangenzetting van een ultraorthodoxe man wegens dienstweigering.",
+    "want": "De vrijlating van de gedetineerde dienstweigeraar.",
+    "changed": "22 november: De politie hield een minderjarige aan en hief een blokkade op de Haim Bar Lev Boulevard op nadat demonstranten de sneltram hadden stilgelegd."
    },
-   "summary": "Ultraorthodoxe demonstranten hebben deelgenomen aan meerdere demonstraties in Jeruzalem, waarbij ze wegen blokkeerden en het tramverkeer verstoorden. Volgens berichten werden deze acties uitgelokt door de arrestatie en de daaropvolgende militaire gevangenisstraf van 20 dagen van een ultraorthodoxe dienstweigeraar. De Jeruzalem-fractie (Peleg Yerushalmi) is geïdentificeerd als een organiserende groep achter deze demonstraties. Demonstranten hebben het verkeer, waaronder een militaire bus, geblokkeerd en zijn in confrontatie gekomen met veiligheidstroepen. De Israëlische politie, inclusief de speciale patrouille-eenheid en de grenspolitie, is ingezet om de menigten uiteen te drijven en heeft de bijeenkomsten illegaal verklaard. De politie meldde dat agenten een vrouwelijke IDF-soldaat hebben gered die vastzat in een menigte en een minderjarige hebben gearresteerd wegens het spugen naar personeel. De autoriteiten hebben verklaard dat ze voorbereid zijn op verdere grootschalige demonstraties en wegblokkades als reactie op de aanhoudende situatie met betrekking tot dienstweigeraars.",
+   "summary": "Ultraorthodoxe demonstranten, verbonden aan de Jeruzalem-factie, hebben meerdere demonstraties gehouden in Jeruzalem om te protesteren tegen de arrestatie van een dienstweigeraar. Op 19 november verspreidde de politie een protest waarbij een militaire bus werd geblokkeerd. Op 22 november vonden er verdere demonstraties plaats op de Haim Bar Lev Boulevard, waar demonstranten de sneltram en wegen blokkeerden. Volgens de Israëlische politie gebruikten agenten maatregelen voor crowd-control om de menigte uiteen te drijven en redden ze een vrouwelijke militair die vast was komen te zitten. De politie meldde dat demonstranten voorwerpen naar agenten gooiden en weigerden het gebied te verlaten. Een minderjarige werd aangehouden voor het spugen naar de politie. De protesten werden naar verluidt uitgelokt door de arrestatie van een ultraorthodox individu op de luchthaven Ben-Gurion, die vervolgens werd veroordeeld tot 20 dagen militaire gevangenisstraf.",
    "demands": [
     "Vrijlating van de gedetineerde dienstweigeraar"
    ],
-   "response": "De Israëlische politie verklaarde dat ze werken aan het uiteendrijven van de protesten, die ze illegaal hebben verklaard. De politie meldde de arrestatie van een minderjarige en de redding van een soldaat die vastzat in de menigte. Ze merkten ook voorbereidingen op voor extra demonstraties en wegblokkades.",
+   "response": "De Israëlische politie verklaarde dat ze maatregelen voor crowd-control had gebruikt om de menigten uiteen te drijven, geblokkeerde wegen had heropend en een vastzittende militair had gered. De politie hield ook een minderjarige aan voor het spugen naar agenten.",
    "updates": [
-    "Demonstranten blokkeerden wegen en gooiden met stenen naar de politie in de Bar-Ilanstraat; de politie verklaarde het protest illegaal en begon het gebied te ontruimen.",
-    "Demonstranten blokkeerden de tram op de Haim Bar Lev Boulevard; de politie arresteerde een minderjarige en redde een soldaat uit de menigte."
+    "De politie verspreidde een protest in een Haredi-wijk waar een militaire bus werd geblokkeerd.",
+    "Demonstranten blokkeerden de sneltram op de Haim Bar Lev Boulevard; de politie hield een minderjarige aan en ontruimde het gebied."
    ],
    "conflicts": [],
    "numbers": {
-    "arrests": "Een minderjarige werd gearresteerd wegens het spugen naar agenten, volgens de Israëlische politie."
+    "arrests": "Een minderjarige werd door de politie aangehouden."
    }
   }
- }
+ },
+ "distinctFrom": [
+  "e24736391ca"
+ ]
 }

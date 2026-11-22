@@ -2,7 +2,7 @@
  "id": "e8a3c19c668",
  "slug": "perugia-general-strike-umbria-nov-2026",
  "stage": "live",
- "title": "General strike held across Umbria",
+ "title": "CGIL union holds general strike in Perugia and Terni",
  "seoTitle": "Perugia general strike",
  "place": {
   "city": "Perugia",
@@ -13,9 +13,10 @@
   "citySlug": "perugia",
   "regionSlug": "umbria"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
   "labour",
+  "jobs",
   "governance"
  ],
  "kind": "one-day",
@@ -25,220 +26,273 @@
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
-  "low-confidence"
+  "low-confidence",
+  "sources-disagree"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters held a general strike to express concerns regarding regional economic and labour conditions.",
-  "want": "The strike aimed to highlight labour issues and advocate for policy changes in the region.",
-  "changed": "Nov 20: The general strike took place across the Umbria region with reported participation."
+  "why": "Protesters oppose the national government's financial policies, citing concerns over low wages, pension cuts, and welfare system reductions.",
+  "want": "Higher wages and pensions, increased public service investment, tax reform, and policies to reduce job insecurity for youth.",
+  "changed": "Nov 20: Demonstrations concluded in Perugia and Terni with thousands of participants across the region."
  },
- "summary": "On November 20, 2026, a general strike took place across the Umbria region, including in Perugia. Participants gathered to voice concerns regarding regional labour and economic policies. According to reports from local news outlets and regional government sources, the action saw significant participation, with estimates reaching 13,000 people across the region. The strike was organised to draw attention to ongoing labour issues and to demand improvements in regional governance and economic support. While the event caused disruptions to local services, no major incidents were reported by authorities. The regional government acknowledged the occurrence of the strike in its official communications, noting the impact on public services throughout the day.",
- "organizers": [],
+ "summary": "On November 20, 2026, a general strike organized by the CGIL union took place across the Umbria region, with major demonstrations held in Perugia and Terni. Participants, including workers, pensioners, and students, marched to protest the national government's current financial maneuvers, which the union claims negatively impact living conditions and social welfare. Key demands included higher wages, improved pension security, increased funding for public health and education, and a more equitable tax system. In Perugia, protesters marched from Piazza Partigiani to Piazza IV Novembre. The regional secretary of CGIL Umbria, Maria Rita Paggio, emphasized the need for a radical change in both national and regional policies to support future generations and industrial development. No official government response to the specific demands was reported in the provided sources.",
+ "organizers": [
+  "CGIL"
+ ],
  "demands": [
-  "Improved labour conditions",
-  "Economic policy reform"
+  "Higher wages and pensions",
+  "Increased public service investment",
+  "Tax reform",
+  "Reduced job insecurity",
+  "Improved workplace safety"
  ],
  "response": "No official response reported in the sources.",
  "numbers": {
   "crowd": {
    "value": 13000,
-   "text": "13mila in piazza in Umbria",
+   "text": "13,000 in piazza in Umbria",
    "sources": [
-    1
+    3
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-20",
-   "text": "A general strike occurred across the Umbria region with 13,000 participants reported.",
+   "text": "General strike demonstrations held in Perugia and Terni organized by CGIL.",
    "sources": [
-    1
+    1,
+    2
    ]
   },
   {
-   "at": "2026-11-21",
-   "text": "The regional government of Umbria acknowledged the general strike held on November 20.",
+   "at": "2026-11-20",
+   "text": "Reports indicate approximately 13,000 people participated in demonstrations across Umbria.",
    "sources": [
-    2
+    3
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.ansa.it/umbria/notizie/2026/11/20/segretaria-cgil-umbria-perugia-e-terni-in-piazza-per-lo-sciopero-generale_ee7eff26-67a5-4fb1-af26-4432d678c7b3.html",
+   "publisher": "ansa.it",
+   "title": "Segretaria Cgil Umbria, Perugia e Terni in piazza per lo sciopero generale - Notizie - Ansa.it",
+   "publishedAt": "2026-11-20T09:23:00.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.quotidianodellumbria.it/attualita/sciopero-generale-in-umbria-manifestazioni-a-perugia-e-terni/",
+   "publisher": "quotidianodellumbria.it",
+   "title": "Sciopero generale in Umbria, manifestazioni a Perugia e Terni - Quotidiano Dell'Umbria",
+   "publishedAt": "2026-11-20T10:15:42.000Z"
+  },
+  {
+   "n": 3,
    "url": "https://news-umbria.tuttoggi.info/articolo/1658/sciopero-generale-tredicimila-in-piazza-in-umbria-per-chiedere-un-cambiamento-profondo",
    "publisher": "news-umbria.tuttoggi.info",
    "title": "Sciopero generale: 13mila in piazza in Umbria",
    "publishedAt": "2026-11-20T14:20:00.000Z"
   },
   {
-   "n": 2,
+   "n": 4,
    "url": "https://www.regione.umbria.it/ufficio-stampa/agenzia-umbria-notizie/-/asset_publisher/lU1Y2yh4H8pu/content/id/26494617",
    "publisher": "regione.umbria.it",
    "title": "Sciopero generale del 20 novembre - Agenzia Umbria Notizie - Regione Umbria",
    "publishedAt": "2026-11-21T03:54:04.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
+ "conflicts": [
+  "Initial estimates for the Perugia march were around 800, while regional totals reached 13,000."
+ ],
+ "confidence": 0.71,
+ "publishers": 4,
  "reports24h": 0,
  "reportsPrev24h": 1,
  "reports48h": 1,
- "firstSeenAt": "2026-11-22T14:54:46.138Z",
+ "firstSeenAt": "2026-11-22T10:57:56.600Z",
  "lastReportAt": "2026-11-21T03:54:04.000Z",
- "lastCheckedAt": "2026-11-22T14:56:17.276Z",
- "updatedAt": "2026-11-22T14:56:16.185Z",
+ "lastCheckedAt": "2026-11-22T18:55:26.700Z",
+ "updatedAt": "2026-11-22T18:54:41.530Z",
  "endedOn": "2026-11-20",
  "responseSources": [],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-22T14:56:16.185Z",
- "summaryOf": "8ccea49abe78",
+ "summarizedAt": "2026-11-22T18:54:41.530Z",
+ "summaryOf": "a093ef80d47a",
  "publishedAt": "2026-11-22T14:56:17.276Z",
  "i18n": {
-  "of": "e26275aafebf8cb9",
-  "at": "2026-11-22T15:00:19.443Z",
+  "of": "76c847a414553a6b",
+  "at": "2026-11-22T18:58:12.657Z",
   "tries": 1,
   "es": {
-   "title": "Huelga general en toda Umbría",
+   "title": "El sindicato CGIL realiza una huelga general en Perugia y Terni",
    "seoTitle": "Huelga general en Perugia",
    "tea": {
-    "why": "Los manifestantes realizaron una huelga general para expresar sus preocupaciones sobre las condiciones económicas y laborales de la región.",
-    "want": "La huelga tuvo como objetivo resaltar los problemas laborales y abogar por cambios en las políticas de la región.",
-    "changed": "20 de noviembre: La huelga general tuvo lugar en toda la región de Umbría con participación reportada."
+    "why": "Los manifestantes se oponen a las políticas financieras del gobierno nacional, citando preocupaciones sobre los bajos salarios, los recortes en las pensiones y las reducciones en el sistema de bienestar.",
+    "want": "Salarios y pensiones más altos, mayor inversión en servicios públicos, reforma fiscal y políticas para reducir la precariedad laboral de los jóvenes.",
+    "changed": "20 de noviembre: Las manifestaciones concluyeron en Perugia y Terni con miles de participantes en toda la región."
    },
-   "summary": "El 20 de noviembre de 2026, se llevó a cabo una huelga general en toda la región de Umbría, incluida Perugia. Los participantes se reunieron para expresar sus preocupaciones sobre las políticas laborales y económicas regionales. Según informes de medios locales y fuentes del gobierno regional, la acción contó con una participación significativa, con estimaciones que alcanzaron las 13.000 personas en toda la región. La huelga se organizó para llamar la atención sobre los problemas laborales en curso y exigir mejoras en la gobernanza regional y el apoyo económico. Aunque el evento causó interrupciones en los servicios locales, las autoridades no reportaron incidentes importantes. El gobierno regional reconoció la ocurrencia de la huelga en sus comunicaciones oficiales, señalando el impacto en los servicios públicos durante todo el día.",
+   "summary": "El 20 de noviembre de 2026, una huelga general organizada por el sindicato CGIL tuvo lugar en toda la región de Umbría, con importantes manifestaciones en Perugia y Terni. Los participantes, incluidos trabajadores, pensionistas y estudiantes, marcharon para protestar contra las actuales maniobras financieras del gobierno nacional, que según el sindicato afectan negativamente a las condiciones de vida y al bienestar social. Las demandas clave incluyeron salarios más altos, mayor seguridad en las pensiones, mayor financiación para la salud y la educación públicas, y un sistema fiscal más equitativo. En Perugia, los manifestantes marcharon desde la Piazza Partigiani hasta la Piazza IV Novembre. La secretaria regional de CGIL Umbría, Maria Rita Paggio, enfatizó la necesidad de un cambio radical en las políticas nacionales y regionales para apoyar a las generaciones futuras y el desarrollo industrial. No se informó de ninguna respuesta oficial del gobierno a las demandas específicas en las fuentes proporcionadas.",
    "demands": [
-    "Mejora de las condiciones laborales",
-    "Reforma de la política económica"
+    "Salarios y pensiones más altos",
+    "Mayor inversión en servicios públicos",
+    "Reforma fiscal",
+    "Reducción de la precariedad laboral",
+    "Mejora de la seguridad laboral"
    ],
-   "response": "No se reportó ninguna respuesta oficial en las fuentes.",
+   "response": "No se informó de ninguna respuesta oficial en las fuentes.",
    "updates": [
-    "Se produjo una huelga general en toda la región de Umbría con 13.000 participantes reportados.",
-    "El gobierno regional de Umbría reconoció la huelga general celebrada el 20 de noviembre."
+    "Manifestaciones de huelga general celebradas en Perugia y Terni organizadas por la CGIL.",
+    "Los informes indican que aproximadamente 13.000 personas participaron en las manifestaciones en toda Umbría."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Las estimaciones iniciales para la marcha de Perugia fueron de alrededor de 800, mientras que los totales regionales alcanzaron los 13.000."
+   ],
    "numbers": {
-    "crowd": "13.000 personas en Umbría"
+    "crowd": "13.000 en las plazas de Umbría"
    }
   },
   "fr": {
-   "title": "Grève générale en Ombrie",
+   "title": "Le syndicat CGIL organise une grève générale à Pérouse et Terni",
    "seoTitle": "Grève générale à Pérouse",
    "tea": {
-    "why": "Les manifestants ont tenu une grève générale pour exprimer leurs préoccupations concernant les conditions économiques et de travail régionales.",
-    "want": "La grève visait à souligner les problèmes de travail et à plaider pour des changements de politique dans la région.",
-    "changed": "20 novembre : La grève générale a eu lieu dans toute la région de l'Ombrie avec une participation signalée."
+    "why": "Les manifestants s'opposent aux politiques financières du gouvernement national, citant des inquiétudes concernant les bas salaires, les coupes dans les retraites et les réductions du système de protection sociale.",
+    "want": "Des salaires et des retraites plus élevés, un investissement accru dans les services publics, une réforme fiscale et des politiques visant à réduire la précarité de l'emploi chez les jeunes.",
+    "changed": "20 novembre : Les manifestations se sont terminées à Pérouse et Terni avec des milliers de participants à travers la région."
    },
-   "summary": "Le 20 novembre 2026, une grève générale a eu lieu dans toute la région de l'Ombrie, y compris à Pérouse. Les participants se sont rassemblés pour exprimer leurs préoccupations concernant les politiques régionales du travail et économiques. Selon des rapports de médias locaux et de sources du gouvernement régional, l'action a connu une participation significative, avec des estimations atteignant 13 000 personnes dans toute la région. La grève a été organisée pour attirer l'attention sur les problèmes de travail en cours et pour exiger des améliorations dans la gouvernance régionale et le soutien économique. Bien que l'événement ait causé des perturbations des services locaux, aucun incident majeur n'a été signalé par les autorités. Le gouvernement régional a reconnu la tenue de la grève dans ses communications officielles, notant l'impact sur les services publics tout au long de la journée.",
+   "summary": "Le 20 novembre 2026, une grève générale organisée par le syndicat CGIL a eu lieu dans toute la région de l'Ombrie, avec des manifestations majeures organisées à Pérouse et Terni. Les participants, incluant des travailleurs, des retraités et des étudiants, ont défilé pour protester contre les manœuvres financières actuelles du gouvernement national, qui, selon le syndicat, ont un impact négatif sur les conditions de vie et la protection sociale. Les revendications principales comprenaient des salaires plus élevés, une meilleure sécurité des retraites, une augmentation du financement de la santé et de l'éducation publiques, ainsi qu'un système fiscal plus équitable. À Pérouse, les manifestants ont défilé de la Piazza Partigiani à la Piazza IV Novembre. La secrétaire régionale de la CGIL Ombrie, Maria Rita Paggio, a souligné la nécessité d'un changement radical des politiques nationales et régionales pour soutenir les générations futures et le développement industriel. Aucune réponse officielle du gouvernement aux revendications spécifiques n'a été rapportée dans les sources fournies.",
    "demands": [
-    "Amélioration des conditions de travail",
-    "Réforme de la politique économique"
+    "Des salaires et des retraites plus élevés",
+    "Un investissement accru dans les services publics",
+    "Une réforme fiscale",
+    "Une réduction de la précarité de l'emploi",
+    "Une amélioration de la sécurité au travail"
    ],
-   "response": "Aucune réponse officielle signalée dans les sources.",
+   "response": "Aucune réponse officielle rapportée dans les sources.",
    "updates": [
-    "Une grève générale a eu lieu dans toute la région de l'Ombrie avec 13 000 participants signalés.",
-    "Le gouvernement régional de l'Ombrie a reconnu la grève générale tenue le 20 novembre."
+    "Manifestations de grève générale organisées par la CGIL à Pérouse et Terni.",
+    "Les rapports indiquent qu'environ 13 000 personnes ont participé aux manifestations à travers l'Ombrie."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Les estimations initiales pour la marche de Pérouse étaient d'environ 800 personnes, tandis que les totaux régionaux ont atteint 13 000."
+   ],
    "numbers": {
-    "crowd": "13 000 personnes en Ombrie"
+    "crowd": "13 000 personnes sur les places en Ombrie"
    }
   },
   "de": {
-   "title": "Generalstreik in Umbrien",
+   "title": "Gewerkschaft CGIL hält Generalstreik in Perugia und Terni ab",
    "seoTitle": "Generalstreik in Perugia",
    "tea": {
-    "why": "Demonstranten hielten einen Generalstreik ab, um ihre Besorgnis über die wirtschaftlichen und arbeitsrechtlichen Bedingungen in der Region auszudrücken.",
-    "want": "Der Streik zielte darauf ab, auf Arbeitsprobleme hinzuweisen und politische Änderungen in der Region zu fordern.",
-    "changed": "20. November: Der Generalstreik fand in der gesamten Region Umbrien statt, wobei eine Teilnahme gemeldet wurde."
+    "why": "Die Demonstranten lehnen die Finanzpolitik der nationalen Regierung ab und führen Bedenken hinsichtlich niedriger Löhne, Rentenkürzungen und Kürzungen im Sozialsystem an.",
+    "want": "Höhere Löhne und Renten, verstärkte Investitionen in öffentliche Dienste, Steuerreform und Maßnahmen zur Verringerung der Arbeitsplatzunsicherheit für junge Menschen.",
+    "changed": "20. November: Die Demonstrationen in Perugia und Terni endeten mit Tausenden von Teilnehmern in der gesamten Region."
    },
-   "summary": "Am 20. November 2026 fand in der gesamten Region Umbrien, einschließlich Perugia, ein Generalstreik statt. Die Teilnehmer versammelten sich, um ihre Besorgnis über die regionale Arbeits- und Wirtschaftspolitik zu äußern. Laut Berichten lokaler Nachrichtenquellen und regionaler Regierungsquellen verzeichnete die Aktion eine signifikante Beteiligung, wobei Schätzungen von 13.000 Personen in der gesamten Region ausgehen. Der Streik wurde organisiert, um auf anhaltende Arbeitsprobleme aufmerksam zu machen und Verbesserungen bei der regionalen Regierungsführung und wirtschaftlichen Unterstützung zu fordern. Obwohl die Veranstaltung zu Störungen lokaler Dienste führte, wurden von den Behörden keine größeren Zwischenfälle gemeldet. Die Regionalregierung erkannte das Stattfinden des Streiks in ihren offiziellen Mitteilungen an und wies auf die Auswirkungen auf die öffentlichen Dienste im Laufe des Tages hin.",
+   "summary": "Am 20. November 2026 fand in der Region Umbrien ein von der Gewerkschaft CGIL organisierter Generalstreik statt, bei dem es zu größeren Demonstrationen in Perugia und Terni kam. Die Teilnehmer, darunter Arbeiter, Rentner und Studenten, marschierten, um gegen die aktuellen Finanzmanöver der nationalen Regierung zu protestieren, die sich nach Ansicht der Gewerkschaft negativ auf die Lebensbedingungen und die soziale Wohlfahrt auswirken. Zu den Hauptforderungen gehörten höhere Löhne, eine verbesserte Rentensicherheit, eine Aufstockung der Mittel für das öffentliche Gesundheits- und Bildungswesen sowie ein gerechteres Steuersystem. In Perugia marschierten die Demonstranten von der Piazza Partigiani zur Piazza IV Novembre. Die Regionalsekretärin der CGIL Umbrien, Maria Rita Paggio, betonte die Notwendigkeit eines radikalen Wandels sowohl in der nationalen als auch in der regionalen Politik, um künftige Generationen und die industrielle Entwicklung zu unterstützen. In den vorliegenden Quellen wurde keine offizielle Reaktion der Regierung auf die spezifischen Forderungen gemeldet.",
    "demands": [
-    "Verbesserte Arbeitsbedingungen",
-    "Reform der Wirtschaftspolitik"
+    "Höhere Löhne und Renten",
+    "Verstärkte Investitionen in öffentliche Dienste",
+    "Steuerreform",
+    "Verringerung der Arbeitsplatzunsicherheit",
+    "Verbesserung der Arbeitssicherheit"
    ],
-   "response": "In den Quellen wurde keine offizielle Antwort gemeldet.",
+   "response": "In den Quellen wurde keine offizielle Reaktion gemeldet.",
    "updates": [
-    "Ein Generalstreik fand in der gesamten Region Umbrien mit 13.000 gemeldeten Teilnehmern statt.",
-    "Die Regionalregierung von Umbrien erkannte den am 20. November abgehaltenen Generalstreik an."
+    "Von der CGIL organisierte Generalstreik-Demonstrationen in Perugia und Terni.",
+    "Berichten zufolge nahmen etwa 13.000 Menschen an den Demonstrationen in ganz Umbrien teil."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Die ersten Schätzungen für den Marsch in Perugia lagen bei etwa 800, während die regionalen Gesamtzahlen 13.000 erreichten."
+   ],
    "numbers": {
-    "crowd": "13.000 Personen in Umbrien"
+    "crowd": "13.000 auf den Plätzen in Umbrien"
    }
   },
   "it": {
-   "title": "Sciopero generale in Umbria",
-   "seoTitle": "Sciopero generale Perugia",
+   "title": "Il sindacato CGIL tiene uno sciopero generale a Perugia e Terni",
+   "seoTitle": "Sciopero generale a Perugia",
    "tea": {
-    "why": "I manifestanti hanno tenuto uno sciopero generale per esprimere preoccupazioni riguardo alle condizioni economiche e lavorative regionali.",
-    "want": "Lo sciopero mirava a evidenziare le questioni lavorative e a sostenere cambiamenti politici nella regione.",
-    "changed": "20 novembre: Lo sciopero generale si è svolto in tutta la regione dell'Umbria con una partecipazione segnalata."
+    "why": "I manifestanti si oppongono alle politiche finanziarie del governo nazionale, citando preoccupazioni per i bassi salari, i tagli alle pensioni e le riduzioni del sistema di welfare.",
+    "want": "Salari e pensioni più alti, maggiori investimenti nei servizi pubblici, riforma fiscale e politiche per ridurre la precarietà lavorativa dei giovani.",
+    "changed": "20 novembre: Le manifestazioni si sono concluse a Perugia e Terni con migliaia di partecipanti in tutta la regione."
    },
-   "summary": "Il 20 novembre 2026, uno sciopero generale ha avuto luogo in tutta la regione dell'Umbria, inclusa Perugia. I partecipanti si sono riuniti per esprimere preoccupazioni riguardo alle politiche lavorative ed economiche regionali. Secondo i rapporti di testate giornalistiche locali e fonti del governo regionale, l'azione ha visto una partecipazione significativa, con stime che hanno raggiunto le 13.000 persone in tutta la regione. Lo sciopero è stato organizzato per attirare l'attenzione sulle questioni lavorative in corso e per richiedere miglioramenti nella governance regionale e nel sostegno economico. Sebbene l'evento abbia causato interruzioni ai servizi locali, nessun incidente grave è stato segnalato dalle autorità. Il governo regionale ha riconosciuto lo svolgimento dello sciopero nelle sue comunicazioni ufficiali, notando l'impatto sui servizi pubblici durante la giornata.",
+   "summary": "Il 20 novembre 2026, uno sciopero generale organizzato dal sindacato CGIL si è svolto in tutta la regione Umbria, con importanti manifestazioni tenutesi a Perugia e Terni. I partecipanti, tra cui lavoratori, pensionati e studenti, hanno marciato per protestare contro le attuali manovre finanziarie del governo nazionale, che secondo il sindacato incidono negativamente sulle condizioni di vita e sul benessere sociale. Le richieste principali includevano salari più alti, una maggiore sicurezza pensionistica, un aumento dei finanziamenti per la sanità e l'istruzione pubblica e un sistema fiscale più equo. A Perugia, i manifestanti hanno marciato da Piazza Partigiani a Piazza IV Novembre. La segretaria regionale della CGIL Umbria, Maria Rita Paggio, ha sottolineato la necessità di un cambiamento radicale nelle politiche nazionali e regionali per sostenere le generazioni future e lo sviluppo industriale. Nelle fonti fornite non è stata riportata alcuna risposta ufficiale del governo alle richieste specifiche.",
    "demands": [
-    "Migliori condizioni lavorative",
-    "Riforma della politica economica"
+    "Salari e pensioni più alti",
+    "Maggiori investimenti nei servizi pubblici",
+    "Riforma fiscale",
+    "Riduzione della precarietà lavorativa",
+    "Miglioramento della sicurezza sul lavoro"
    ],
-   "response": "Nessuna risposta ufficiale segnalata nelle fonti.",
+   "response": "Nessuna risposta ufficiale riportata nelle fonti.",
    "updates": [
-    "Uno sciopero generale si è verificato in tutta la regione dell'Umbria con 13.000 partecipanti segnalati.",
-    "Il governo regionale dell'Umbria ha riconosciuto lo sciopero generale tenutosi il 20 novembre."
+    "Manifestazioni di sciopero generale tenutesi a Perugia e Terni organizzate dalla CGIL.",
+    "I rapporti indicano che circa 13.000 persone hanno partecipato alle manifestazioni in tutta l'Umbria."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "Le stime iniziali per il corteo di Perugia erano di circa 800 persone, mentre i totali regionali hanno raggiunto le 13.000 unità."
+   ],
    "numbers": {
-    "crowd": "13.000 persone in Umbria"
+    "crowd": "13.000 in piazza in Umbria"
    }
   },
   "pt": {
-   "title": "Greve geral na Úmbria",
-   "seoTitle": "Greve geral em Perúgia",
+   "title": "Sindicato CGIL realiza greve geral em Perugia e Terni",
+   "seoTitle": "Greve geral em Perugia",
    "tea": {
-    "why": "Os manifestantes realizaram uma greve geral para expressar preocupações relativamente às condições económicas e laborais regionais.",
-    "want": "A greve visou destacar questões laborais e defender mudanças políticas na região.",
-    "changed": "20 de novembro: A greve geral ocorreu em toda a região da Úmbria com participação reportada."
+    "why": "Os manifestantes opõem-se às políticas financeiras do governo nacional, citando preocupações com os baixos salários, cortes nas pensões e reduções no sistema de bem-estar social.",
+    "want": "Salários e pensões mais elevados, maior investimento nos serviços públicos, reforma fiscal e políticas para reduzir a precariedade laboral dos jovens.",
+    "changed": "20 de novembro: As manifestações terminaram em Perugia e Terni com milhares de participantes em toda a região."
    },
-   "summary": "No dia 20 de novembro de 2026, realizou-se uma greve geral em toda a região da Úmbria, incluindo em Perúgia. Os participantes reuniram-se para manifestar preocupações sobre as políticas laborais e económicas regionais. Segundo relatos de meios de comunicação locais e fontes do governo regional, a ação registou uma participação significativa, com estimativas a atingir as 13 000 pessoas em toda a região. A greve foi organizada para chamar a atenção para questões laborais em curso e para exigir melhorias na governação regional e no apoio económico. Embora o evento tenha causado perturbações nos serviços locais, não foram reportados incidentes graves pelas autoridades. O governo regional reconheceu a ocorrência da greve nas suas comunicações oficiais, notando o impacto nos serviços públicos ao longo do dia.",
+   "summary": "No dia 20 de novembro de 2026, uma greve geral organizada pelo sindicato CGIL ocorreu em toda a região da Úmbria, com grandes manifestações realizadas em Perugia e Terni. Os participantes, incluindo trabalhadores, pensionistas e estudantes, marcharam para protestar contra as atuais manobras financeiras do governo nacional, que o sindicato afirma afetarem negativamente as condições de vida e o bem-estar social. As principais exigências incluíram salários mais elevados, melhor segurança nas pensões, aumento do financiamento para a saúde e educação públicas e um sistema fiscal mais equitativo. Em Perugia, os manifestantes marcharam da Piazza Partigiani até à Piazza IV Novembre. A secretária regional da CGIL Úmbria, Maria Rita Paggio, enfatizou a necessidade de uma mudança radical nas políticas nacionais e regionais para apoiar as gerações futuras e o desenvolvimento industrial. Não foi reportada qualquer resposta oficial do governo às exigências específicas nas fontes fornecidas.",
    "demands": [
-    "Melhoria das condições laborais",
-    "Reforma da política económica"
+    "Salários e pensões mais elevados",
+    "Maior investimento nos serviços públicos",
+    "Reforma fiscal",
+    "Redução da precariedade laboral",
+    "Melhoria da segurança no trabalho"
    ],
    "response": "Nenhuma resposta oficial reportada nas fontes.",
    "updates": [
-    "Ocorreu uma greve geral em toda a região da Úmbria com 13 000 participantes reportados.",
-    "O governo regional da Úmbria reconheceu a greve geral realizada a 20 de novembro."
+    "Manifestações de greve geral realizadas em Perugia e Terni organizadas pela CGIL.",
+    "Os relatórios indicam que aproximadamente 13.000 pessoas participaram nas manifestações em toda a Úmbria."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "As estimativas iniciais para a marcha de Perugia foram de cerca de 800, enquanto os totais regionais atingiram os 13.000."
+   ],
    "numbers": {
-    "crowd": "13 000 pessoas na Úmbria"
+    "crowd": "13.000 nas praças na Úmbria"
    }
   },
   "nl": {
-   "title": "Algemene staking in Umbrië",
-   "seoTitle": "Algemene staking Perugia",
+   "title": "Vakbond CGIL houdt algemene staking in Perugia en Terni",
+   "seoTitle": "Algemene staking in Perugia",
    "tea": {
-    "why": "Betogers hielden een algemene staking om hun zorgen te uiten over de economische en arbeidsomstandigheden in de regio.",
-    "want": "De staking was bedoeld om arbeidsvraagstukken onder de aandacht te brengen en te pleiten voor beleidswijzigingen in de regio.",
-    "changed": "20 november: De algemene staking vond plaats in de hele regio Umbrië met gerapporteerde deelname."
+    "why": "De demonstranten verzetten zich tegen het financiële beleid van de nationale regering en noemen zorgen over lage lonen, pensioenkortingen en bezuinigingen op het welzijnssysteem.",
+    "want": "Hogere lonen en pensioenen, meer investeringen in openbare diensten, belastinghervorming en beleid om de onzekerheid op de arbeidsmarkt voor jongeren te verminderen.",
+    "changed": "20 november: De demonstraties in Perugia en Terni zijn beëindigd met duizenden deelnemers in de hele regio."
    },
-   "summary": "Op 20 november 2026 vond er een algemene staking plaats in de hele regio Umbrië, inclusief Perugia. Deelnemers kwamen samen om hun zorgen te uiten over het regionale arbeids- en economische beleid. Volgens berichten van lokale nieuwsmedia en bronnen van de regionale overheid kende de actie een aanzienlijke deelname, met schattingen die opliepen tot 13.000 mensen in de hele regio. De staking werd georganiseerd om de aandacht te vestigen op lopende arbeidsvraagstukken en om verbeteringen in het regionale bestuur en de economische steun te eisen. Hoewel het evenement leidde tot verstoringen van lokale diensten, werden er door de autoriteiten geen grote incidenten gemeld. De regionale overheid erkende het plaatsvinden van de staking in haar officiële communicatie en merkte de impact op de openbare diensten gedurende de dag op.",
+   "summary": "Op 20 november 2026 vond er in de regio Umbrië een algemene staking plaats, georganiseerd door de vakbond CGIL, met grote demonstraties in Perugia en Terni. De deelnemers, waaronder arbeiders, gepensioneerden en studenten, marcheerden om te protesteren tegen de huidige financiële manoeuvres van de nationale regering, die volgens de vakbond een negatieve invloed hebben op de levensomstandigheden en het sociaal welzijn. De belangrijkste eisen waren hogere lonen, betere pensioenzekerheid, meer financiering voor de openbare gezondheidszorg en het onderwijs, en een eerlijker belastingstelsel. In Perugia marcheerden de demonstranten van Piazza Partigiani naar Piazza IV Novembre. De regionale secretaris van CGIL Umbrië, Maria Rita Paggio, benadrukte de noodzaak van een radicale verandering in zowel het nationale als het regionale beleid om toekomstige generaties en industriële ontwikkeling te ondersteunen. In de verstrekte bronnen werd geen officiële reactie van de regering op de specifieke eisen gemeld.",
    "demands": [
-    "Verbeterde arbeidsomstandigheden",
-    "Hervorming van het economisch beleid"
+    "Hogere lonen en pensioenen",
+    "Meer investeringen in openbare diensten",
+    "Belastinghervorming",
+    "Vermindering van de onzekerheid op de arbeidsmarkt",
+    "Verbetering van de arbeidsveiligheid"
    ],
    "response": "Geen officiële reactie gemeld in de bronnen.",
    "updates": [
-    "Een algemene staking vond plaats in de hele regio Umbrië met 13.000 gerapporteerde deelnemers.",
-    "De regionale overheid van Umbrië erkende de algemene staking die op 20 november werd gehouden."
+    "Demonstraties tijdens de algemene staking in Perugia en Terni, georganiseerd door de CGIL.",
+    "Rapporten geven aan dat ongeveer 13.000 mensen deelnamen aan de demonstraties in heel Umbrië."
    ],
-   "conflicts": [],
+   "conflicts": [
+    "De eerste schattingen voor de mars in Perugia waren ongeveer 800, terwijl het regionale totaal 13.000 bereikte."
+   ],
    "numbers": {
-    "crowd": "13.000 mensen in Umbrië"
+    "crowd": "13.000 op de pleinen in Umbrië"
    }
   }
  }
