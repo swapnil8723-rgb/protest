@@ -15,8 +15,7 @@
  },
  "scope": "local",
  "causes": [
-  "prices",
-  "anti-government"
+  "prices"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-21",
@@ -31,25 +30,28 @@
  "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "People marched to protest the high cost of living and to mark the eighth anniversary of the yellow vest movement.",
-  "want": "Protesters expressed general economic distress and frustration with the political situation.",
-  "changed": "Nov 21: Police and protesters clashed near rue de Belfort following an undeclared march, resulting in six arrests."
+  "why": "Participants demonstrated against the rising cost of living, marking the eighth anniversary of the yellow vest movement.",
+  "want": "Protesters demanded relief from high living costs and expressed frustration with the political situation.",
+  "changed": "Nov 21: Police reported six arrests following clashes and property damage at the end of the march in Besançon."
  },
- "summary": "On November 21, 2026, an undeclared march took place in Besançon to protest the cost of living and mark the eighth anniversary of the yellow vest movement. Beginning peacefully at the parc des Glacis with music and chanting, the crowd later moved toward the city centre. Due to a prefectural ban forbidding gatherings in the city centre, police blocked access points and diverted the procession toward rue de Belfort. There, the demonstration turned tense, featuring bin fires and confrontations with law enforcement. According to local sources, crowd estimates ranged from about 1,600 people reported by the prefecture to around 2,000 participants noted by journalists. Authorities reported six arrests and damage to a bank window in the Chaprais sector by the time the gathering concluded around 6 p.m.",
+ "summary": "On November 21, 2026, an undeclared demonstration took place in Besançon against the rising cost of living, coinciding with the eighth anniversary of the yellow vest movement. According to news reports, approximately 1,600 to 2,000 people gathered at the Parc des Glacis before marching through the streets. Because authorities had issued a ban on entering the city center, police forces blocked access routes, prompting the procession to redirect toward the Belfort street area. The demonstration concluded around 18:00 amid heightened tensions, clashes with police, and bin fires. According to the prefecture, security forces carried out six arrests and reported damage to a bank storefront in the Chaprais sector.",
  "organizers": [],
- "demands": [],
- "response": "The prefecture banned gatherings in the city centre of Besançon for the day. Police forces blocked access to downtown areas and deployed tear gas during clashes on rue de Belfort, ultimately arresting six individuals, as stated by the Doubs prefecture.",
+ "demands": [
+  "Address the cost of living"
+ ],
+ "response": "According to the prefecture, the protest was not declared and city center access was banned by decree. Police deployed tear gas during clashes, and authorities reported six arrests alongside damage to a bank storefront.",
  "numbers": {
   "crowd": {
    "value": 2000,
-   "text": "nearly 2,000 people",
+   "text": "environ 1 600 personnes, selon un bilan de la préfecture, ont défilé... Près de 2 000 personnes se sont retrouvées",
    "sources": [
-    1
+    1,
+    2
    ]
   },
   "arrests": {
    "value": 6,
-   "text": "six arrests",
+   "text": "six interpellations",
    "sources": [
     1,
     2
@@ -59,7 +61,14 @@
  "updates": [
   {
    "at": "2026-11-21",
-   "text": "An undeclared protest began at parc des Glacis in Besançon around 14:00 against the cost of living.",
+   "text": "An undeclared protest against the cost of living starts at Parc des Glacis in Besançon with around 2,000 participants.",
+   "sources": [
+    1
+   ]
+  },
+  {
+   "at": "2026-11-21",
+   "text": "Police block access to the city center due to a prefectural ban, redirecting the procession toward Belfort street.",
    "sources": [
     1,
     2
@@ -67,15 +76,7 @@
   },
   {
    "at": "2026-11-21",
-   "text": "Police blocked access to the city centre due to a prefectural ban, redirecting the march toward rue de Belfort.",
-   "sources": [
-    1,
-    2
-   ]
-  },
-  {
-   "at": "2026-11-21",
-   "text": "Clashes, bin fires, and tear gas deployment occurred near rue de Belfort before the gathering ended at 18:00.",
+   "text": "The demonstration ends with clashes, tear gas, bin fires, and six arrests reported by the prefecture.",
    "sources": [
     1,
     2
@@ -99,17 +100,17 @@
   }
  ],
  "conflicts": [
-  "The prefecture estimated about 1,600 participants, while reports stated nearly 2,000 people attended."
+  "Police estimated the crowd at approximately 1,600 people, while reports also cited nearly 2,000 participants."
  ],
  "confidence": 0.55,
  "publishers": 2,
  "reports24h": 1,
  "reportsPrev24h": 1,
  "reports48h": 2,
- "firstSeenAt": "2026-11-22T18:53:42.959Z",
+ "firstSeenAt": "2026-11-21T06:19:17.678Z",
  "lastReportAt": "2026-11-22T06:57:00.000Z",
- "lastCheckedAt": "2026-11-22T22:54:41.047Z",
- "updatedAt": "2026-11-22T22:54:39.719Z",
+ "lastCheckedAt": "2026-11-23T02:53:38.300Z",
+ "updatedAt": "2026-11-23T02:53:05.991Z",
  "searchedAt": "2026-11-22T22:50:43.436Z",
  "endedOn": "2026-11-21",
  "responseSources": [
@@ -118,6 +119,6 @@
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-22T22:54:39.719Z",
- "summaryOf": "ea9386e88989"
+ "summarizedAt": "2026-11-23T02:53:05.991Z",
+ "summaryOf": "e55c055e766b"
 }
