@@ -20,45 +20,53 @@
  ],
  "kind": "multi-day",
  "startedOn": "2026-11-23",
- "status": "scheduled",
+ "status": "ongoing",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": false,
+ "review": "pending",
+ "reviewReasons": [
+  "top-10"
+ ],
+ "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Collective bargaining negotiations for a new public transport contract have stalled, with unions rejecting the employers' final offer.",
-  "want": "Improved working conditions, specifically regarding irregular shift rosters, irregular hour allowances, and retirement regulations.",
-  "changed": "Nov 22: Unions confirmed the strike will proceed on Nov 23 and 24, with further dates planned for December."
+  "why": "Collective agreement negotiations broke down after union members overwhelmingly rejected the employers' final contract offer.",
+  "want": "Better shift schedules with more regularity and the preservation of seniority benefits instead of the employers' proposed terms.",
+  "changed": "Nov 18, 2026: FNV and CNV announced a two-day nationwide public transport strike for November 23 and 24."
  },
- "summary": "Unions FNV and CNV have announced a nationwide strike in the regional transport sector, scheduled for November 23 and 24, 2026. This action follows the collapse of negotiations for a new collective labour agreement (CAO) covering approximately 13,000 employees, including bus drivers and regional train staff at companies such as Arriva, Transdev, EBS, and Qbuzz. Union members overwhelmingly rejected the employers' final offer, citing concerns over irregular shift allowances and proposed changes to retirement schemes. While the unions have planned additional strike days in December, they stated that city transport services in Amsterdam, Rotterdam, and The Hague remain unaffected as they fall under different agreements. Transport operators have advised passengers to check travel planners on the day of travel due to expected service disruptions.",
+ "summary": "Regional bus and train drivers across the Netherlands went on a two-day strike after contract negotiations collapsed. Organised by trade unions FNV and CNV, the strike affects around 13,000 workers covered by the public transport collective agreement, causing widespread cancellations and delays on services operated by companies such as Arriva, EBS, Qbuzz, Keolis, and Transdev. City transport services in Amsterdam, Rotterdam, and The Hague as well as national rail services operated by NS are not part of the strike. The action follows earlier disruptions in October. Unions stated that members rejected the employers' final offer because it altered irregular hours allowances and scaled back arrangements for older staff. Employers' organisation VWOV defended its final offer as reflecting the sector's financial limits. Further strike actions have been scheduled for December if no agreement is reached.",
  "organizers": [
   "FNV",
   "CNV"
  ],
  "demands": [
-  "Better shift rosters",
-  "Retention of irregular hour allowances",
-  "Improved retirement regulations"
+  "Better and more regular shift schedules",
+  "Protection of seniority and older workers' arrangements",
+  "Fair collective employment agreement"
  ],
- "response": "The employers' organisation VWOV stated their final offer allowed for pay increases while respecting the sector's financial limits, but this was rejected by union members.",
+ "response": "Employers' organisation VWOV stated that its final offer provided for pay rises while keeping within the sector's financial limits, according to news sources.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-18",
-   "text": "Unions FNV and CNV announce a two-day nationwide strike for November 23 and 24 following failed contract negotiations.",
+   "text": "Unions FNV and CNV announced a two-day nationwide transport strike for November 23 and 24 after talks failed.",
    "sources": [
     1,
-    2,
-    3
+    2
    ]
   },
   {
-   "at": "2026-11-22",
-   "text": "Unions confirm the strike will proceed, with further dates scheduled for December 3, 4, 14, 15, and 18.",
+   "at": "2026-11-20",
+   "text": "Courts advised visitors affected by the transport strike to request digital participation or adjournment.",
    "sources": [
-    9,
+    7
+   ]
+  },
+  {
+   "at": "2026-11-23",
+   "text": "The two-day regional transport strike began across the Netherlands, causing service cancellations and delays.",
+   "sources": [
+    8,
     10
    ]
   }
@@ -66,228 +74,233 @@
  "sources": [
   {
    "n": 1,
-   "url": "https://nos.nl/l/2640043",
-   "publisher": "nos.nl",
-   "title": "Volgende week maandag en dinsdag weer stakingen in streekvervoer",
-   "publishedAt": "2026-11-18T15:58:36.000Z"
-  },
-  {
-   "n": 2,
    "url": "https://www.gld.nl/nieuws/8548739/twee-dagen-staking-in-het-stads-en-streekvervoer",
    "publisher": "gld.nl",
    "title": "Twee dagen staking in het stads- en streekvervoer",
    "publishedAt": "2026-11-18T16:12:33.000Z"
   },
   {
-   "n": 3,
+   "n": 2,
    "url": "https://www.cnv.nl/nieuws/tweedaagse-staking-van-buschauffeurs-tegen-afbraak-van-de-cao/",
    "publisher": "cnv.nl",
    "title": "Tweedaagse staking van buschauffeurs, tegen afbraak van de cao | CNV",
    "publishedAt": "2026-11-18T16:17:28.000Z"
   },
   {
-   "n": 4,
+   "n": 3,
    "url": "https://www.nieuwsplein33.nl/nieuws/4120977/opnieuw-stakingen-in-streekvervoer-twee-dagen-minder-bussen",
    "publisher": "nieuwsplein33.nl",
    "title": "Opnieuw stakingen in streekvervoer: twee dagen minder bussen",
    "publishedAt": "2026-11-19T05:09:31.000Z"
   },
   {
-   "n": 5,
+   "n": 4,
    "url": "https://www.dutchnews.nl/2026/11/regional-bus-and-train-strikes-return-on-monday-and-tuesday/",
    "publisher": "dutchnews.nl",
    "title": "Regional bus and train strikes return on Monday and Tuesday - DutchNews.nl",
    "publishedAt": "2026-11-19T09:02:11.000Z"
   },
   {
-   "n": 6,
+   "n": 5,
    "url": "https://www.debunschoter-online.nl/algemeen/26778/maandag-en-dinsdag-nieuwe-staking-streekvervoer",
    "publisher": "debunschoter-online.nl",
    "title": "Maandag en dinsdag nieuwe staking streekvervoer",
    "publishedAt": "2026-11-19T09:38:08.000Z"
   },
   {
-   "n": 7,
+   "n": 6,
    "url": "https://www.omroeppenm.nl/nieuws/maandag-23-en-dinsdag-24-november-weer-landelijke-ov-staking",
    "publisher": "omroeppenm.nl",
    "title": "Maandag 23 en dinsdag 24 november weer landelijke OV-staking",
    "publishedAt": "2026-11-19T12:06:00.000Z"
   },
   {
-   "n": 8,
+   "n": 7,
    "url": "https://www.rechtspraak.nl/organisatie-en-contact/organisatie/raad-voor-de-rechtspraak/nieuws/2026/11/staking-streekvervoer-zittingen-rechtszaken-gaan-door",
    "publisher": "rechtspraak.nl",
    "title": "Staking streekvervoer: zittingen rechtszaken gaan door | Rechtspraak",
    "publishedAt": "2026-11-20T07:53:49.000Z"
   },
   {
-   "n": 9,
-   "url": "https://www.omroepdelft.nl/delft/landelijke-staking-streekvervoer-ligt-weer-stil/",
-   "publisher": "omroepdelft.nl",
-   "title": "Landelijke staking: streekvervoer ligt weer stil - Omroep Delft",
-   "publishedAt": "2026-11-22T08:13:00.000Z"
-  },
-  {
-   "n": 10,
+   "n": 8,
    "url": "https://www.omroepwest.nl/verkeer/5175017/staking-in-streekvervoer-welke-bussen-rijden-wel-en-niet",
    "publisher": "omroepwest.nl",
    "title": "Staking in streekvervoer: welke bussen rijden wel en niet?",
    "publishedAt": "2026-11-22T15:30:00.000Z"
+  },
+  {
+   "n": 9,
+   "url": "https://nos.nl/l/2640667",
+   "publisher": "nos.nl",
+   "title": "Wekdienst 23/11: Staking in streekvervoer • Erasmusschutter hoort strafeis",
+   "publishedAt": "2026-11-23T05:41:03.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://www.omroepbrabant.nl/nieuws/6035290/ov-ligt-twee-dagen-plat-door-landelijke-staking-in-het-streekvervoer",
+   "publisher": "omroepbrabant.nl",
+   "title": "OV ligt twee dagen plat door landelijke staking in het streekvervoer",
+   "publishedAt": "2026-11-23T05:45:00.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.9,
  "publishers": 10,
- "reports24h": 2,
+ "reports24h": 5,
  "reportsPrev24h": 0,
- "reports48h": 2,
+ "reports48h": 5,
  "firstSeenAt": "2026-11-18T16:54:41.174Z",
- "lastReportAt": "2026-11-22T15:30:00.000Z",
- "lastCheckedAt": "2026-11-23T02:53:38.300Z",
- "updatedAt": "2026-11-22T18:54:21.425Z",
+ "lastReportAt": "2026-11-23T05:45:00.000Z",
+ "lastCheckedAt": "2026-11-23T06:54:35.302Z",
+ "updatedAt": "2026-11-23T06:53:05.131Z",
  "searchedAt": "2026-11-18T20:50:41.810Z",
  "responseSources": [
-  1,
-  5,
-  7
+  4,
+  10
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-22T18:54:21.425Z",
- "summaryOf": "8f9a3fc0c5dd",
+ "summarizedAt": "2026-11-23T06:53:05.131Z",
+ "summaryOf": "f7d10694b0cb",
  "publishedAt": "2026-11-19T00:55:34.533Z",
  "i18n": {
-  "of": "aa7c45b4c9e5dcff",
-  "at": "2026-11-22T18:56:46.328Z",
+  "of": "42d3408c536aa581",
+  "at": "2026-11-23T06:55:14.706Z",
   "tries": 1,
   "es": {
-   "title": "Los sindicatos anuncian una huelga nacional de transporte regional en los Países Bajos por una disputa contractual",
+   "title": "Los sindicatos anuncian una huelga nacional de transporte regional en Países Bajos por un conflicto de convenios",
    "seoTitle": "Huelga de transporte regional en Utrecht",
    "tea": {
-    "why": "Las negociaciones de negociación colectiva para un nuevo contrato de transporte público se han estancado, y los sindicatos han rechazado la oferta final de los empleadores.",
-    "want": "Mejores condiciones laborales, específicamente en relación con los turnos irregulares, las compensaciones por horas irregulares y las regulaciones de jubilación.",
-    "changed": "22 de noviembre: Los sindicatos confirmaron que la huelga seguirá adelante el 23 y 24 de noviembre, con fechas adicionales planificadas para diciembre."
+    "why": "Las negociaciones del convenio colectivo fracasaron después de que los afiliados sindicales rechazaran abrumadoramente la oferta contractual final de la patronal.",
+    "want": "Mejores horarios de turnos con mayor regularidad y la preservación de los beneficios por antigüedad en lugar de los términos propuestos por los empleadores.",
+    "changed": "18 de noviembre de 2026: FNV y CNV anunciaron una huelga de transporte público nacional de dos días para los días 23 y 24 de noviembre."
    },
-   "summary": "Los sindicatos FNV y CNV han anunciado una huelga nacional en el sector del transporte regional, programada para el 23 y 24 de noviembre de 2026. Esta acción sigue al colapso de las negociaciones para un nuevo convenio colectivo de trabajo (CAO) que cubre a aproximadamente 13 000 empleados, incluidos conductores de autobús y personal de trenes regionales en empresas como Arriva, Transdev, EBS y Qbuzz. Los miembros de los sindicatos rechazaron mayoritariamente la oferta final de los empleadores, citando preocupaciones sobre las compensaciones por turnos irregulares y los cambios propuestos en los planes de jubilación. Aunque los sindicatos han planeado días de huelga adicionales en diciembre, declararon que los servicios de transporte urbano en Ámsterdam, Róterdam y La Haya no se verán afectados, ya que se rigen por acuerdos diferentes. Los operadores de transporte han aconsejado a los pasajeros que consulten los planificadores de viaje el día del trayecto debido a las interrupciones previstas en el servicio.",
+   "summary": "Los conductores de autobuses y trenes regionales de todos los Países Bajos se declararon en huelga durante dos días tras el colapso de las negociaciones contractuales. Organizada por los sindicatos FNV y CNV, la huelga afecta a unos 13.000 trabajadores cubiertos por el convenio colectivo de transporte público, lo que provoca cancelaciones generalizadas y retrasos en los servicios operados por empresas como Arriva, EBS, Qbuzz, Keolis y Transdev. Los servicios de transporte urbano de Ámsterdam, Róterdam y La Haya, así como los servicios ferroviarios nacionales operados por NS, no participan en la huelga. La medida de presión sigue a las interrupciones anteriores de octubre. Los sindicatos afirmaron que los miembros rechazaron la oferta final de la patronal porque alteraba las dietas por horas irregulares y reducía los acuerdos para el personal de más edad. La organización empresarial VWOV defendió su oferta final afirmando que refleja los límites financieros del sector. Se han programado más acciones de huelga para diciembre si no se alcanza un acuerdo.",
    "demands": [
-    "Mejores turnos de trabajo",
-    "Retención de las compensaciones por horas irregulares",
-    "Mejora de las regulaciones de jubilación"
+    "Horarios de turnos mejores y más regulares",
+    "Protección de la antigüedad y de los acuerdos para los trabajadores de más edad",
+    "Un convenio colectivo de empleo justo"
    ],
-   "response": "La organización patronal VWOV declaró que su oferta final permitía aumentos salariales respetando los límites financieros del sector, pero fue rechazada por los miembros de los sindicatos.",
+   "response": "La organización empresarial VWOV declaró que su oferta final contemplaba aumentos salariales sin rebasar los límites financieros del sector, según fuentes informativas.",
    "updates": [
-    "Los sindicatos FNV y CNV anuncian una huelga nacional de dos días para el 23 y 24 de noviembre tras el fracaso de las negociaciones contractuales.",
-    "Los sindicatos confirman que la huelga seguirá adelante, con fechas adicionales programadas para el 3, 4, 14, 15 y 18 de diciembre."
+    "Los sindicatos FNV y CNV anunciaron una huelga de transporte nacional de dos días para los días 23 y 24 de noviembre tras el fracaso de las conversaciones.",
+    "Los tribunales aconsejaron a los visitantes afectados por la huelga de transporte que solicitaran la participación digital o el aplazamiento.",
+    "Comenzó en todos los Países Bajos la huelga de transporte regional de dos días, lo que provocó cancelaciones de servicios y retrasos."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "fr": {
-   "title": "Les syndicats annoncent une grève nationale des transports régionaux aux Pays-Bas en raison d'un conflit contractuel",
+   "title": "Les syndicats annoncent une grève nationale des transports régionaux aux Pays-Bas en raison d'un litige contractuel",
    "seoTitle": "Grève des transports régionaux à Utrecht",
    "tea": {
-    "why": "Les négociations collectives pour un nouveau contrat de transport public sont au point mort, les syndicats ayant rejeté l'offre finale des employeurs.",
-    "want": "De meilleures conditions de travail, notamment concernant les horaires de travail irréguliers, les indemnités pour heures irrégulières et les réglementations sur la retraite.",
-    "changed": "22 novembre : Les syndicats ont confirmé que la grève aura lieu les 23 et 24 novembre, avec d'autres dates prévues en décembre."
+    "why": "Les négociations sur la convention collective ont échoué après que les membres des syndicats ont rejeté massivement la dernière offre de contrat des employeurs.",
+    "want": "De meilleurs horaires de travail avec plus de régularité et la préservation des avantages liés à l'ancienneté au lieu des conditions proposées par les employeurs.",
+    "changed": "18 nov. 2026 : La FNV et la CNV ont annoncé une grève nationale des transports publics de deux jours pour les 23 et 24 novembre."
    },
-   "summary": "Les syndicats FNV et CNV ont annoncé une grève nationale dans le secteur du transport régional, prévue pour les 23 et 24 novembre 2026. Cette action fait suite à l'échec des négociations pour une nouvelle convention collective de travail (CAO) couvrant environ 13 000 employés, dont des chauffeurs de bus et du personnel de trains régionaux dans des entreprises telles qu'Arriva, Transdev, EBS et Qbuzz. Les membres des syndicats ont massivement rejeté l'offre finale des employeurs, invoquant des préoccupations concernant les indemnités pour horaires irréguliers et les changements proposés aux régimes de retraite. Bien que les syndicats aient prévu des jours de grève supplémentaires en décembre, ils ont déclaré que les services de transport urbain à Amsterdam, Rotterdam et La Haye restaient inchangés car ils relèvent d'accords différents. Les opérateurs de transport ont conseillé aux passagers de vérifier les planificateurs de voyage le jour du départ en raison des perturbations de service attendues.",
+   "summary": "Les conducteurs de bus et de trains régionaux à travers les Pays-Bas ont entamé une grève de deux jours après l'échec des négociations contractuelles. Organisée par les syndicats FNV et CNV, la grève touche environ 13 000 travailleurs couverts par la convention collective des transports publics, provoquant des annulations massives et des retards sur les services exploités par des entreprises telles qu'Arriva, EBS, Qbuzz, Keolis et Transdev. Les services de transport urbain d'Amsterdam, Rotterdam et La Haye ainsi que les services ferroviaires nationaux exploités par les NS ne participent pas à la grève. Cette action fait suite à de précédentes perturbations en octobre. Les syndicats ont déclaré que les membres avaient rejeté la dernière offre des employeurs parce qu'elle modifiait les indemnités pour heures irrégulières et réduisait les dispositions applicables au personnel âgé. L'organisation patronale VWOV a défendu sa dernière offre en affirmant qu'elle reflétait les limites financières du secteur. D'autres actions de grève ont été programmées pour décembre si aucun accord n'est trouvé.",
    "demands": [
-    "De meilleurs horaires de travail",
-    "Le maintien des indemnités pour heures irrégulières",
-    "Une amélioration des réglementations sur la retraite"
+    "Des horaires de travail meilleurs et plus réguliers",
+    "La protection de l'ancienneté et des dispositions pour les travailleurs âgés",
+    "Une convention collective de travail équitable"
    ],
-   "response": "L'organisation patronale VWOV a déclaré que son offre finale permettait des augmentations de salaire tout en respectant les limites financières du secteur, mais celle-ci a été rejetée par les membres des syndicats.",
+   "response": "L'organisation patronale VWOV a déclaré que sa dernière offre prévoyait des augmentations de salaire tout en respectant les limites financières du secteur, selon des sources d'information.",
    "updates": [
-    "Les syndicats FNV et CNV annoncent une grève nationale de deux jours pour les 23 et 24 novembre suite à l'échec des négociations contractuelles.",
-    "Les syndicats confirment que la grève aura lieu, avec d'autres dates prévues les 3, 4, 14, 15 et 18 décembre."
+    "Les syndicats FNV et CNV ont annoncé une grève nationale des transports de deux jours pour les 23 et 24 novembre après l'échec des discussions.",
+    "Les tribunaux ont conseillé aux visiteurs touchés par la grève des transports de demander une participation numérique ou un report.",
+    "La grève régionale des transports de deux jours a débuté à travers les Pays-Bas, provoquant des annulations de services et des retards."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "de": {
-   "title": "Gewerkschaften kündigen landesweiten Streik im niederländischen Regionalverkehr wegen Tarifstreit an",
-   "seoTitle": "Regionalverkehrsstreik in Utrecht",
+   "title": "Gewerkschaften kündigen bundesweiten regionalen ÖPNV-Streik in den Niederlanden wegen Tarifkonflikt an",
+   "seoTitle": "Regionaler Verkehrsstreik in Utrecht",
    "tea": {
-    "why": "Die Tarifverhandlungen für einen neuen öffentlichen Verkehrsvertrag sind ins Stocken geraten, nachdem die Gewerkschaften das letzte Angebot der Arbeitgeber abgelehnt haben.",
-    "want": "Verbesserte Arbeitsbedingungen, insbesondere in Bezug auf unregelmäßige Dienstpläne, Zulagen für unregelmäßige Arbeitszeiten und Rentenregelungen.",
-    "changed": "22. Nov.: Die Gewerkschaften bestätigten, dass der Streik am 23. und 24. November stattfinden wird, wobei weitere Termine für Dezember geplant sind."
+    "why": "Die Verhandlungen über den Manteltarifvertrag scheiterten, nachdem die Gewerkschaftsmitglieder das letzte Vertragsangebot der Arbeitgeber mit großer Mehrheit abgelehnt hatten.",
+    "want": "Bessere und regelmäßiger gestaltete Schichtpläne sowie die Beibehaltung von Dienstaltersvorteilen anstelle der von den Arbeitgebern vorgeschlagenen Bedingungen.",
+    "changed": "18. Nov. 2026: FNV und CNV kündigten einen zweitägigen bundesweiten Streik des öffentlichen Nahverkehrs für den 23. und 24. November an."
    },
-   "summary": "Die Gewerkschaften FNV und CNV haben einen landesweiten Streik im Regionalverkehrssektor für den 23. und 24. November 2026 angekündigt. Diese Maßnahme folgt auf das Scheitern der Verhandlungen für einen neuen Tarifvertrag (CAO), der etwa 13 000 Mitarbeiter umfasst, darunter Busfahrer und regionales Zugpersonal bei Unternehmen wie Arriva, Transdev, EBS und Qbuzz. Die Gewerkschaftsmitglieder lehnten das letzte Angebot der Arbeitgeber mit überwältigender Mehrheit ab und verwiesen auf Bedenken hinsichtlich der Zulagen für unregelmäßige Schichten und der vorgeschlagenen Änderungen an den Rentenplänen. Während die Gewerkschaften weitere Streiktage im Dezember geplant haben, erklärten sie, dass die städtischen Verkehrsbetriebe in Amsterdam, Rotterdam und Den Haag unberührt bleiben, da sie unter andere Vereinbarungen fallen. Die Verkehrsbetreiber haben den Fahrgästen geraten, aufgrund der erwarteten Dienstunterbrechungen am Reisetag die Reiseplaner zu überprüfen.",
+   "summary": "Regionale Bus- und Zugführer in den gesamten Niederlanden sind nach dem Scheitern der Tarifverhandlungen in einen zweitägigen Streik getreten. Der von den Gewerkschaften FNV und CNV organisierte Streik betrifft rund 13.000 Beschäftigte, die unter den Tarifvertrag für den öffentlichen Nahverkehr fallen, und führt zu massiven Zugausfällen und Verspätungen bei Diensten von Unternehmen wie Arriva, EBS, Qbuzz, Keolis und Transdev. Städtische Verkehrsbetriebe in Amsterdam, Rotterdam und Den Haag sowie der von den NS betriebene nationale Schienenverkehr beteiligen sich nicht an dem Streik. Die Aktion folgt auf frühere Störungen im Oktober. Gewerkschaften gaben an, Mitglieder hätten das letzte Angebot der Arbeitgeber abgelehnt, da es Zulagen für unregelmäßige Arbeitszeiten verändere und Regelungen für ältere Mitarbeiter zurückschraube. Die Arbeitgeberorganisation VWOV verteidigte ihr letztes Angebot mit der Begründung, es spiegele die finanziellen Grenzen des Sektors wider. Für den Fall, dass keine Einigung erzielt wird, sind für Dezember weitere Streikmaßnahmen angesetzt.",
    "demands": [
-    "Bessere Dienstpläne",
-    "Beibehaltung der Zulagen für unregelmäßige Arbeitszeiten",
-    "Verbesserte Rentenregelungen"
+    "Bessere und regelmäßigere Schichtpläne",
+    "Schutz der Dienstaltersregelungen und Regelungen für ältere Arbeitnehmer",
+    "Ein fairer kollektiver Arbeitsvertrag"
    ],
-   "response": "Der Arbeitgeberverband VWOV erklärte, dass sein letztes Angebot Lohnerhöhungen unter Einhaltung der finanziellen Grenzen des Sektors ermöglicht habe, dies jedoch von den Gewerkschaftsmitgliedern abgelehnt wurde.",
+   "response": "Die Arbeitgeberorganisation VWOV erklärte laut Nachrichtenquellen, ihr letztes Angebot sehe Gehaltserhöhungen vor und bleibe dabei innerhalb der finanziellen Grenzen des Sektors.",
    "updates": [
-    "Die Gewerkschaften FNV und CNV kündigen nach gescheiterten Tarifverhandlungen einen zweitägigen landesweiten Streik für den 23. und 24. November an.",
-    "Die Gewerkschaften bestätigen, dass der Streik stattfinden wird, mit weiteren geplanten Terminen am 3., 4., 14., 15. und 18. Dezember."
+    "Die Gewerkschaften FNV und CNV kündigten nach dem Scheitern der Gespräche einen zweitägigen bundesweiten Verkehrsstreik für den 23. und 24. November an.",
+    "Gerichte rieten von dem Verkehrsstreik betroffenen Besuchern dazu, digitale Teilnahme oder eine Vertagung zu beantragen.",
+    "Der zweitägige regionale Verkehrsstreik hat in den gesamten Niederlanden begonnen und zu Dienstausfällen und Verspätungen geführt."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "it": {
-   "title": "I sindacati annunciano uno sciopero nazionale del trasporto regionale olandese per una disputa contrattuale",
-   "seoTitle": "Sciopero del trasporto regionale a Utrecht",
+   "title": "I sindacati proclamano uno sciopero nazionale dei trasporti regionali olandesi per una controversia contrattuale",
+   "seoTitle": "Sciopero dei trasporti regionali a Utrecht",
    "tea": {
-    "why": "Le trattative per il rinnovo del contratto collettivo del trasporto pubblico si sono interrotte, con i sindacati che hanno respinto l'offerta finale dei datori di lavoro.",
-    "want": "Migliori condizioni di lavoro, in particolare riguardo ai turni irregolari, alle indennità per orari irregolari e alle normative pensionistiche.",
-    "changed": "22 novembre: I sindacati hanno confermato che lo sciopero si terrà il 23 e 24 novembre, con ulteriori date previste per dicembre."
+    "why": "I negoziati per il contratto collettivo si sono interrotti dopo che i membri dei sindacati hanno respinto a larga maggioranza l'offerta contrattuale finale dei datori di lavoro.",
+    "want": "Turni di lavoro migliori e più regolari e la conservazione dei benefici di anzianità anziché i termini proposti dai datori di lavoro.",
+    "changed": "18 nov 2026: FNV e CNV hanno annunciato uno sciopero nazionale dei trasporti pubblici di due giorni per il 23 e 24 novembre."
    },
-   "summary": "I sindacati FNV e CNV hanno annunciato uno sciopero nazionale nel settore del trasporto regionale, previsto per il 23 e 24 novembre 2026. L'azione segue il fallimento delle trattative per un nuovo contratto collettivo di lavoro (CAO) che copre circa 13 000 dipendenti, inclusi autisti di autobus e personale dei treni regionali presso aziende come Arriva, Transdev, EBS e Qbuzz. Gli iscritti ai sindacati hanno respinto a larga maggioranza l'offerta finale dei datori di lavoro, citando preoccupazioni sulle indennità per i turni irregolari e sulle modifiche proposte ai regimi pensionistici. Sebbene i sindacati abbiano pianificato ulteriori giornate di sciopero a dicembre, hanno dichiarato che i servizi di trasporto urbano ad Amsterdam, Rotterdam e L'Aia rimangono esclusi poiché soggetti ad accordi diversi. Gli operatori di trasporto hanno consigliato ai passeggeri di controllare i pianificatori di viaggio il giorno stesso della partenza a causa delle interruzioni previste.",
+   "summary": "I conducenti di autobus e treni regionali in tutti i Paesi Bassi hanno iniziato uno sciopero di due giorni dopo il fallimento dei negoziati contrattuali. Organizzato dai sindacati FNV e CNV, lo sciopero interessa circa 13.000 lavoratori coperti dal contratto collettivo dei trasporti pubblici, causando diffuse cancellazioni e ritardi sui servizi gestiti da aziende come Arriva, EBS, Qbuzz, Keolis e Transdev. I servizi di trasporto urbano di Amsterdam, Rotterdam e L'Aia, così come i servizi ferroviari nazionali gestiti da NS, non partecipano allo sciopero. L'azione fa seguito a precedenti disordini avvenuti in ottobre. I sindacati hanno dichiarato che i membri hanno respinto l'offerta finale dei datori di lavoro perché modificava le indennità per orari irregolari e riduceva le disposizioni per il personale più anziano. L'organizzazione datoriale VWOV ha difeso la propria offerta finale affermando che rispecchia i limiti finanziari del settore. Ulteriori azioni di sciopero sono state programmate per dicembre qualora non si raggiunga un accordo.",
    "demands": [
-    "Turni di lavoro migliori",
-    "Mantenimento delle indennità per orari irregolari",
-    "Miglioramento delle normative pensionistiche"
+    "Turni di lavoro migliori e più regolari",
+    "Tutela dell'anzianità e delle disposizioni per i lavoratori più anziani",
+    "Un contratto collettivo di lavoro equo"
    ],
-   "response": "L'organizzazione datoriale VWOV ha dichiarato che la sua offerta finale consentiva aumenti salariali rispettando i limiti finanziari del settore, ma è stata respinta dai membri dei sindacati.",
+   "response": "L'organizzazione datoriale VWOV ha dichiarato che la sua offerta finale prevedeva aumenti salariali pur rimanendo nei limiti finanziari del settore, secondo fonti giornalistiche.",
    "updates": [
-    "I sindacati FNV e CNV annunciano uno sciopero nazionale di due giorni per il 23 e 24 novembre dopo il fallimento delle trattative contrattuali.",
-    "I sindacati confermano che lo sciopero si terrà, con ulteriori date programmate per il 3, 4, 14, 15 e 18 dicembre."
+    "I sindacati FNV e CNV hanno annunciato uno sciopero nazionale dei trasporti di due giorni per il 23 e il 24 novembre dopo il fallimento dei colloqui.",
+    "I tribunali hanno consigliato ai visitatori interessati dallo sciopero dei trasporti di richiedere la partecipazione digitale o il rinvio.",
+    "È iniziato in tutti i Paesi Bassi lo sciopero dei trasporti regionali di due giorni, che ha causato cancellazioni di servizi e ritardi."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "pt": {
-   "title": "Sindicatos anunciam greve nacional de transporte regional nos Países Baixos devido a disputa contratual",
-   "seoTitle": "Greve de transporte regional em Utrecht",
+   "title": "Sindicatos anunciam greve nacional dos transportes regionais nos Países Baixos devido a litígio contratual",
+   "seoTitle": "Greve dos transportes regionais em Utrecht",
    "tea": {
-    "why": "As negociações de contratação coletiva para um novo contrato de transporte público estagnaram, com os sindicatos a rejeitarem a oferta final dos empregadores.",
-    "want": "Melhores condições de trabalho, especificamente em relação a escalas de turnos irregulares, subsídios por horas irregulares e regulamentos de reforma.",
-    "changed": "22 de novembro: Os sindicatos confirmaram que a greve avançará a 23 e 24 de novembro, com outras datas planeadas para dezembro."
+    "why": "As negociações do acordo coletivo goraram depois de os membros dos sindicatos terem rejeitado esmagadoramente a proposta contratual final dos empregadores.",
+    "want": "Melhores horários de trabalho com maior regularidade e a preservação dos benefícios de antiguidade em vez dos termos propostos pelos empregadores.",
+    "changed": "18 de nov. de 2026: FNV e CNV anunciaram uma greve nacional dos transportes públicos de dois dias para 23 e 24 de novembro."
    },
-   "summary": "Os sindicatos FNV e CNV anunciaram uma greve nacional no setor de transporte regional, agendada para 23 e 24 de novembro de 2026. Esta ação segue-se ao colapso das negociações para um novo contrato coletivo de trabalho (CAO) que abrange aproximadamente 13 000 funcionários, incluindo motoristas de autocarro e pessoal de comboios regionais em empresas como Arriva, Transdev, EBS e Qbuzz. Os membros dos sindicatos rejeitaram esmagadoramente a oferta final dos empregadores, citando preocupações sobre subsídios para turnos irregulares e alterações propostas aos regimes de reforma. Embora os sindicatos tenham planeado dias de greve adicionais em dezembro, declararam que os serviços de transporte urbano em Amesterdão, Roterdão e Haia permanecem inalterados, uma vez que estão abrangidos por acordos diferentes. Os operadores de transporte aconselharam os passageiros a verificar os planeadores de viagem no dia da deslocação devido às interrupções de serviço esperadas.",
+   "summary": "Os condutores de autocarros e comboios regionais em todos os Países Baixos iniciaram uma greve de dois dias após o colapso das negociações contratuais. Organizada pelos sindicatos FNV e CNV, a greve afeta cerca de 13.000 trabalhadores abrangidos pelo acordo coletivo de trabalho dos transportes públicos, provocando cancelamentos generalizados e atrasos nos serviços operados por empresas como Arriva, EBS, Qbuzz, Keolis e Transdev. Os serviços de transporte urbano em Amesterdão, Roterdão e Haia, bem como os serviços ferroviários nacionais operados pela NS, não fazem parte da greve. A ação surge na sequência de perturbações anteriores em outubro. Os sindicatos declararam que os membros rejeitaram a oferta final dos empregadores porque esta alterava os subsídios para horas irregulares e reduzia as disposições para o pessoal mais velho. A organização patronal VWOV defendeu a sua proposta final argumentando que a mesma reflete os limites financeiros do setor. Estão agendadas novas ações de greve para dezembro caso não seja alcançado um acordo.",
    "demands": [
-    "Melhores escalas de turnos",
-    "Retenção de subsídios por horas irregulares",
-    "Melhoria dos regulamentos de reforma"
+    "Horários de trabalho melhores e mais regulares",
+    "Proteção da antiguidade e das disposições aplicáveis aos trabalhadores mais velhos",
+    "Um contrato coletivo de trabalho justo"
    ],
-   "response": "A organização patronal VWOV declarou que a sua oferta final permitia aumentos salariais respeitando os limites financeiros do setor, mas esta foi rejeitada pelos membros dos sindicatos.",
+   "response": "A organização patronal VWOV declarou que a sua oferta final previa aumentos salariais mantendo-se dentro dos limites financeiros do setor, segundo fontes noticiosas.",
    "updates": [
-    "Os sindicatos FNV e CNV anunciam uma greve nacional de dois dias para 23 e 24 de novembro após o fracasso das negociações contratuais.",
-    "Os sindicatos confirmam que a greve avançará, com outras datas agendadas para 3, 4, 14, 15 e 18 de dezembro."
+    "Os sindicatos FNV e CNV anunciaram uma greve nacional dos transportes de dois dias para os dias 23 e 24 de novembro após o fracasso das conversações.",
+    "Os tribunais aconselharam os visitantes afetados pela greve dos transportes a solicitar a participação digital ou o adiamento.",
+    "Teve início em todos os Países Baixos a greve dos transportes regionais de dois dias, causando cancelamentos de serviços e atrasos."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "nl": {
-   "title": "Vakbonden kondigen landelijke staking streekvervoer aan om cao-conflict",
-   "seoTitle": "Staking streekvervoer Utrecht",
+   "title": "Vakbonden kondigen landelijke regionale ov-staking aan om cao-conflict",
+   "seoTitle": "Regionale vervoersstaking Utrecht",
    "tea": {
-    "why": "De cao-onderhandelingen voor een nieuw contract in het openbaar vervoer zijn vastgelopen, waarbij de vakbonden het eindbod van de werkgevers hebben afgewezen.",
-    "want": "Betere arbeidsvoorwaarden, specifiek met betrekking tot onregelmatige dienstroosters, vergoedingen voor onregelmatige uren en pensioenregelingen.",
-    "changed": "22 nov.: Vakbonden bevestigden dat de staking doorgaat op 23 en 24 november, met verdere data gepland voor december."
+    "why": "De onderhandelingen over de collectieve arbeidsovereenkomst liepen vast nadat vakbondsleden het laatste contractvoorstel van de werkgevers massaal hadden afgewezen.",
+    "want": "Beter en regelmatiger roosteren met meer voorspelbaarheid en het behoud van seniorenregelingen in plaats van de door de werkgevers voorgestelde voorwaarden.",
+    "changed": "18 nov. 2026: FNV en CNV kondigden een tweedaagse landelijke openbaarvervoerstaking aan voor 23 en 24 november."
    },
-   "summary": "De vakbonden FNV en CNV hebben een landelijke staking in het streekvervoer aangekondigd, gepland voor 23 en 24 november 2026. Deze actie volgt op het klappen van de onderhandelingen voor een nieuwe collectieve arbeidsovereenkomst (CAO) voor ongeveer 13.000 werknemers, waaronder buschauffeurs en regionaal treinpersoneel bij bedrijven zoals Arriva, Transdev, EBS en Qbuzz. De vakbondsleden hebben het eindbod van de werkgevers met grote meerderheid afgewezen, vanwege zorgen over onregelmatigheidstoeslagen en voorgestelde wijzigingen in pensioenregelingen. Hoewel de vakbonden extra stakingsdagen in december hebben gepland, gaven zij aan dat het stadsvervoer in Amsterdam, Rotterdam en Den Haag buiten schot blijft omdat deze onder andere afspraken vallen. Vervoerders hebben passagiers geadviseerd om op de dag van de reis de reisplanners te raadplegen vanwege verwachte verstoringen in de dienstregeling.",
+   "summary": "Regionale bus- en treinchauffeurs in heel Nederland zijn een tweedaagse staking begonnen nadat de cao-onderhandelingen zijn geklapt. De staking, georganiseerd door vakbonden FNV en CNV, treft zo'n 13.000 werknemers die onder de cao openbaar vervoer vallen, wat leidt tot grootschalige uitval en vertragingen bij diensten van vervoerders zoals Arriva, EBS, Qbuzz, Keolis en Transdev. Stadsvervoerders in Amsterdam, Rotterdam en Den Haag en landelijke spoorwegen geëxploiteerd door NS doen niet mee aan de staking. De actie volgt op eerdere verstoringen in oktober. Vakbonden lieten weten dat leden het eindbod van de werkgevers verwierpen omdat dit de onregelmatigheidstoeslagen aanpaste en regelingen voor oudere werknemers afschaalde. Werkgeversorganisatie VWOV verdedigde haar eindbod door te stellen dat dit binnen de financiële grenzen van de sector blijft. Verdere stakingsacties zijn gepland voor december als er geen akkoord wordt bereikt.",
    "demands": [
-    "Betere dienstroosters",
-    "Behoud van vergoedingen voor onregelmatige uren",
-    "Verbeterde pensioenregelingen"
+    "Betere en regelzamere roostering",
+    "Bescherming van anciënniteit en regelingen voor oudere werknemers",
+    "Een eerlijke collectieve arbeidsovereenkomst"
    ],
-   "response": "Werkgeversorganisatie VWOV stelde dat hun eindbod loonsverhogingen mogelijk maakte binnen de financiële kaders van de sector, maar dit werd door de vakbondsleden afgewezen.",
+   "response": "Werkgeversorganisatie VWOV verklaarde volgens nieuwsbronnen dat haar eindbod voorzag in loonsverhogingen en tegelijk binnen de financiële grenzen van de sector bleef.",
    "updates": [
-    "Vakbonden FNV en CNV kondigen een tweedaagse landelijke staking aan voor 23 en 24 november na mislukte cao-onderhandelingen.",
-    "Vakbonden bevestigen dat de staking doorgaat, met verdere data gepland op 3, 4, 14, 15 en 18 december."
+    "Vakbonden FNV en CNV kondigden een tweedaagse landelijke vervoersstaking aan voor 23 en 24 november nadat de gesprekken waren mislukt.",
+    "Rechtbanken adviseerden bezoekers die door de vervoersstaking werden getroffen om digitale deelname of uitstel aan te vragen.",
+    "De tweedaagse regionale vervoersstaking ging in heel Nederland van start, wat leidde tot rituitval en vertragingen."
    ],
    "conflicts": [],
    "numbers": {}
