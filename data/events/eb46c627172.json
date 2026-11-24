@@ -2,8 +2,8 @@
  "id": "eb46c627172",
  "slug": "belgrade-taxi-drivers-protest-nov-2026",
  "stage": "live",
- "title": "Belgrade taxi drivers protest city transport rule changes",
- "seoTitle": "Belgrade taxi drivers protest rule changes",
+ "title": "Belgrade taxi drivers protest proposed city transport regulations",
+ "seoTitle": "Belgrade taxi drivers protest city rules",
  "place": {
   "city": "Belgrade",
   "region": "Central Serbia",
@@ -15,8 +15,8 @@
  },
  "scope": "local",
  "causes": [
-  "transport",
   "labour",
+  "transport",
   "local-civic"
  ],
  "kind": "one-day",
@@ -29,53 +29,77 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Taxi drivers opposed proposed changes to Belgrade's taxi transport rules that remove quota limits on corporate taxi fleets.",
-  "want": "Drivers demanded the withdrawal of rule changes, audits of corporate taxi licenses issued over five years, and revoking illegal permits.",
-  "changed": "Nov 23: Taxi drivers blocked part of Nikola Pašić Square in Belgrade during the City Assembly session."
+  "why": "Belgrade taxi entrepreneurs protested proposed changes to city transport regulations that they said favored large taxi companies over individuals.",
+  "want": "Protesters demanded the withdrawal of proposed taxi rule changes and audits of all corporate taxi permits issued over the past five years.",
+  "changed": "Nov 23: Taxi drivers blocked part of Nikola Pašić Square during the city assembly meeting before concluding the protest in the afternoon."
  },
- "summary": "Taxi drivers represented by the Professional Association of Taxi Entrepreneurs (SITAB) gathered outside Belgrade's City Assembly on November 23, 2026. Protesters parked vehicles to block part of Nikola Pašić Square while the assembly met inside. SITAB opposed proposed amendments to the city's taxi transport rules that would remove a ten percent cap on vehicles operated by corporate entities. Organisers demanded the withdrawal of the proposed rule changes, an audit of corporate taxi licenses issued over the past five years, verification of legal requirements for companies and drivers, and the cancellation of unlawfully issued permits. In response, the City Secretariat for Public Transport stated the amendments were intended to align city rules with the Serbian Constitution by ensuring equal legal status and free competition for all business entities.",
+ "summary": "On November 23, 2026, taxi entrepreneurs in Belgrade held a protest outside the Belgrade City Assembly, blocking traffic on part of Nikola Pašić Square and towards King Alexander Boulevard. The demonstration was organized by the Professional Association of Taxi Entrepreneurs of Belgrade (SITAB). Protesters voiced opposition to proposed amendments to city taxi transport regulations, claiming the changes favored corporate fleets over individual entrepreneurs by removing company vehicle limits. SITAB demanded the immediate withdrawal of the proposed amendments from the assembly agenda and auditing of corporate permits. Belgrade transport authorities directed SITAB to negotiate with other taxi groups, which SITAB declined, demanding direct talks with the city secretariat.",
  "organizers": [
   "Strukovno udruženje taksi preduzetnika Beograda (SITAB)"
  ],
  "demands": [
-  "Withdraw proposed amendments to taxi transport rules from the City Assembly agenda",
-  "Review all taxi and vehicle permits granted to corporate entities over the past five years",
-  "Verify compliance of corporate taxi companies and drivers with legal requirements",
-  "Cancel all unlawfully issued taxi permits"
+  "Withdrawal of proposed amendments to the taxi transport decision",
+  "Audit of all taxi permits issued to corporate entities over the past five years",
+  "Verification of statutory compliance for corporate taxi firms and drivers",
+  "Revocation of illegally issued taxi permits"
  ],
- "response": "The Secretariat for Public Transport of the City of Belgrade stated that the proposed rule changes aim to align local regulations with the Serbian Constitution by ensuring equal legal standing for all market participants and prohibiting acts that restrict free competition.",
- "numbers": {},
+ "response": "The Secretariat for Public Transport instructed SITAB to negotiate with other taxi associations to reach agreement on the proposed changes, which SITAB refused while demanding direct talks with the city secretariat.",
+ "numbers": {
+  "crowd": {
+   "value": 200,
+   "text": "about 200 taxi vehicles according to N1",
+   "sources": [
+    6
+   ]
+  }
+ },
  "updates": [
   {
+   "at": "2026-11-20",
+   "text": "SITAB announced a protest for November 23 outside the Belgrade City Assembly against proposed taxi rule changes.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
    "at": "2026-11-23",
-   "text": "Taxi drivers gathered in vehicles outside the Belgrade City Assembly, blocking part of Nikola Pašić Square to protest proposed taxi rule changes.",
+   "text": "Around 200 taxi vehicles gathered at Nikola Pašić Square, blocking traffic outside the Belgrade City Assembly.",
    "sources": [
     4,
-    5
+    6
+   ]
+  },
+  {
+   "at": "2026-11-23",
+   "text": "The protest ended in the afternoon with traffic restored, as SITAB warned of larger actions if amendments are adopted.",
+   "sources": [
+    5,
+    6
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.danas.rs/vesti/ekonomija/taksisti-protest-23-novembar/",
+   "publisher": "danas.rs",
+   "title": "Taksisti najavili protest 23. novembra ispred Skupštine grada",
+   "publishedAt": "2026-11-20T07:45:02.000Z"
+  },
+  {
+   "n": 2,
    "url": "https://naslovi.net/2026-11-20/b92/taksi-rat-u-beogradu-najavljen-protest-u-centru-grada-taksisti-traze-povlacenje-spornih-izmena/42630407",
    "publisher": "naslovi.net",
    "title": "Taksisti dižu glas u Beogradu: U ponedeljak protest, sporne izmene podigle buru - Naslovi.net",
    "publishedAt": "2026-11-20T09:04:12.000Z"
   },
   {
-   "n": 2,
+   "n": 3,
    "url": "https://www.nin.rs/drustvo/vesti/130153/protest-taksista-u-centru-beograda-23-novembra-okupljanje-od-930-ispred-starog-dvora",
    "publisher": "nin.rs",
    "title": "Spremite se za gužve u Beogradu: Taksisti sutra izlaze na ulice - evo kada počinje protest i šta tačno traže!",
    "publishedAt": "2026-11-22T16:46:00.000Z"
-  },
-  {
-   "n": 3,
-   "url": "https://sagamedia.rs/24-sata-o-obrenovcu/37235-taksisti-najavili-protest-ispred-skupstine-grada",
-   "publisher": "sagamedia.rs",
-   "title": "TAKSISTI NAJAVILI PROTEST ISPRED SKUPŠTINE GRADA - SAGA Media",
-   "publishedAt": "2026-11-23T06:18:47.000Z"
   },
   {
    "n": 4,
@@ -86,30 +110,38 @@
   },
   {
    "n": 5,
-   "url": "https://n1info.rs/vesti/grad-beograd-najavio-izmene-odluke-o-taksi-prevozu-taksisti-protestuju/",
+   "url": "https://balkans.aljazeera.net/news/balkan/2026/11/23/protest-taksista-ispred-skupstine-beograda",
+   "publisher": "balkans.aljazeera.net",
+   "title": "Završen protest taksista u Beogradu",
+   "publishedAt": "2026-11-23T11:26:10.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://n1info.rs/vesti/zavrsen-protest-taksista-u-beogradu-nema-informacija-o-ispunjenju-njihovih-zahteva/",
    "publisher": "n1info.rs",
-   "title": "Grad Beograd najavio izmene Odluke o taksi prevozu, taksisti protestuju",
-   "publishedAt": "2026-11-23T08:56:58.823Z"
+   "title": "Završen protest taksista u Beogradu, nema informacija o ispunjenju njihovih zahteva",
+   "publishedAt": "2026-11-23T14:28:24.162Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.9,
- "publishers": 5,
- "reports24h": 4,
- "reportsPrev24h": 3,
+ "publishers": 6,
+ "reports24h": 2,
+ "reportsPrev24h": 5,
  "reports48h": 7,
  "firstSeenAt": "2026-11-20T08:52:20.350Z",
  "lastReportAt": "2026-11-23T14:28:24.162Z",
- "lastCheckedAt": "2026-11-24T06:54:55.626Z",
- "updatedAt": "2026-11-24T02:51:52.067Z",
+ "lastCheckedAt": "2026-11-24T10:57:34.237Z",
+ "updatedAt": "2026-11-24T10:52:50.906Z",
  "searchedAt": "2026-11-20T12:50:57.997Z",
  "responseSources": [
-  5
+  5,
+  6
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-24T02:51:52.067Z",
- "summaryOf": "958622b895ff",
+ "summarizedAt": "2026-11-24T10:52:50.906Z",
+ "summaryOf": "45d4107f0d97",
  "publishedAt": "2026-11-20T13:02:38.826Z",
  "i18n": {
   "of": "44d183adcfae72c1",
