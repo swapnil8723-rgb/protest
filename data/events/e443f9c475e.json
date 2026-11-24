@@ -13,44 +13,53 @@
   "citySlug": "warsaw",
   "regionSlug": "mazovia"
  },
- "scope": "local",
+ "scope": "nationwide",
  "causes": [
   "labour",
-  "jobs"
+  "prices"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-24",
- "status": "scheduled",
- "vibe": "heating-up",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
  "review": "pending",
  "reviewReasons": [
-  "low-confidence"
+  "tone-words"
  ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Workers and employers in the wood and furniture sector are protesting due to reduced timber supply, soaring material costs, and mass layoffs.",
-  "want": "Participants demand urgent government action regarding raw material availability, purchasing conditions, and the protection of jobs.",
-  "changed": "Nov 19: Organizers announced a protest scheduled for November 24 outside the Chancellery of the Prime Minister in Warsaw."
+  "why": "Protesters say reduced timber supplies, high raw material and energy costs, and foreign competition have triggered a severe industry crisis.",
+  "want": "They demand urgent action on timber availability, purchasing conditions, and measures to protect domestic production and employment.",
+  "changed": "Nov 24, 2026: Workers and employers rallied outside the Prime Minister's Chancellery in Warsaw to deliver a petition."
  },
- "summary": "Employees, trade unions, and employers from the wood and furniture industry are scheduled to rally in front of the Chancellery of the Prime Minister in Warsaw on November 24, 2026. According to reporting, the action is organised by the National Secretariat of Construction and Wood Industry of NSZZ „Solidarność”, with backing from other trade unions and industry organisations. Protesters are highlighting a dramatic industry downturn driven by restricted access to timber, high energy costs, and steep price increases over recent years, which have resulted in widespread job cuts and business closures. Participants plan to submit a petition to government representatives during the event.",
+ "summary": "Employees, trade unions, and employers from the wood and furniture industry held a demonstration outside the Prime Minister's Chancellery in Warsaw on November 24, 2026. Organised by the National Secretariat of Construction and Wood Industry of NSZZ \"Solidarność\", the rally brought together participants from across Poland to protest against worsening conditions in the sector. Organisers and participants cited shrinking timber harvests, supply restrictions from neighboring countries, soaring energy costs, and intense competition from Asian markets, which they say have led to massive job losses and factory closures. During the event, participants planned to hand over a petition to government representatives. According to reports, a working group meeting at the Ministry of Climate and Environment is scheduled for the following week to discuss the industry's challenges.",
  "organizers": [
   "Krajowy Sekretariat Budownictwa i Przemysłu Drzewnego NSZZ „Solidarność”"
  ],
  "demands": [
-  "Increase timber supply for the domestic industry",
-  "Improve purchasing conditions for raw materials",
-  "Protect production levels and local employment"
+  "Increase timber supply and availability for domestic processors",
+  "Improve raw material purchasing conditions",
+  "Protect production and employment in the wood and furniture sector"
  ],
- "response": "No official response reported in the sources.",
- "numbers": {},
+ "response": "No official government response to the protest was detailed in the sources, though a working group meeting at the Ministry of Climate and Environment was scheduled for the following week.",
+ "numbers": {
+  "crowd": {
+   "value": 1500,
+   "text": "ma być ok. 1500 osób",
+   "sources": [
+    3
+   ]
+  }
+ },
  "updates": [
   {
-   "at": "2026-11-19",
-   "text": "Organizers announced that a rally of the wood and furniture sector will take place on November 24 in Warsaw.",
+   "at": "2026-11-24",
+   "text": "A protest of wood and furniture sector workers and employers was scheduled outside the Prime Minister's Chancellery in Warsaw.",
    "sources": [
-    2
+    2,
+    3
    ]
   }
  ],
@@ -68,24 +77,40 @@
    "publisher": "rynekpapierniczy.pl",
    "title": "24 listopada przed KPRM w Warszawie - manifestacja sektora drzewno-meblarskiego | RynekPapierniczy.pl",
    "publishedAt": "2026-11-19T14:33:52.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.tokfm.pl/gospodarka/wielki-kryzys-w-branzy-meblarskiej-protest-pod-kancelaria-premiera",
+   "publisher": "tokfm.pl",
+   "title": "Kryzys i duże zwolnienia. Polska przestanie być liderem? Manifestacja branży meblarskiej w Warszawie",
+   "publishedAt": "2026-11-24T11:02:37.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://tvn24.pl/biznes/z-kraju/protest-przedstawicieli-branzy-drzewno-meblarskiej-w-warszawie-rzecznik-rzadu-o-szukaniu-rozwiazan-st9355399",
+   "publisher": "tvn24.pl",
+   "title": "Protest przedstawicieli branży drzewno-meblarskiej. Skala problemów jest \"alarmująca\"",
+   "publishedAt": "2026-11-24T14:38:45.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 0,
+ "confidence": 0.86,
+ "publishers": 4,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-20T00:52:41.472Z",
- "lastReportAt": "2026-11-19T14:33:52.000Z",
- "lastCheckedAt": "2026-11-24T18:53:15.372Z",
- "updatedAt": "2026-11-20T04:54:16.511Z",
+ "lastReportAt": "2026-11-24T14:38:45.000Z",
+ "lastCheckedAt": "2026-11-24T23:02:49.060Z",
+ "updatedAt": "2026-11-24T22:59:32.491Z",
  "searchedAt": "2026-11-20T04:50:42.732Z",
- "responseSources": [],
+ "responseSources": [
+  3
+ ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-20T04:54:16.511Z",
- "summaryOf": "a2346aed19a4",
+ "summarizedAt": "2026-11-24T22:59:32.491Z",
+ "summaryOf": "fbe66b0edf69",
  "publishedAt": "2026-11-20T04:54:31.525Z",
  "i18n": {
   "of": "07b55d82b0a80ae1",
@@ -217,5 +242,6 @@
    "conflicts": [],
    "numbers": {}
   }
- }
+ },
+ "endedOn": "2026-11-24"
 }

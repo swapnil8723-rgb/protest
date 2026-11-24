@@ -1,9 +1,9 @@
 {
  "id": "e90091ecd88",
- "slug": "",
- "stage": "candidate",
- "title": "Student dies after hunger strike for housing at La Sapienza",
- "seoTitle": "",
+ "slug": "rome-student-housing-strike-oct-2026",
+ "stage": "live",
+ "title": "Student hunger strike and tent protest at La Sapienza ends with death",
+ "seoTitle": "Rome student protest over housing",
  "place": {
   "city": "Rome",
   "region": "Lazio",
@@ -16,37 +16,108 @@
  "scope": "local",
  "causes": [
   "students",
+  "education",
   "housing"
  ],
- "kind": "one-day",
- "startedOn": "2026-11-23",
- "status": "ongoing",
- "vibe": "heating-up",
- "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": true,
+ "kind": "multi-day",
+ "startedOn": "2026-10-01",
+ "status": "ended",
+ "vibe": "wrapped-up",
+ "severity": "serious",
+ "review": "pending",
+ "reviewReasons": [
+  "serious",
+  "low-confidence"
+ ],
+ "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "A 58-year-old physics student lived in a tent and went on a hunger strike after failing to secure housing or student financial aid.",
+  "want": "Affordable student accommodation and proper financial support from university and regional authorities.",
+  "changed": "Nov 23, 2026: The protesting student was found dead near the Minerva statue on the university campus."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
- "numbers": {},
- "updates": [],
- "sources": [],
+ "summary": "A physics student at La Sapienza University in Rome carried out a multi-day tent occupation and hunger strike protesting the lack of student housing and financial support. The student, who previously experienced heart attacks and faced administrative hurdles with regional agency DiSCo Lazio, had been living on campus alongside housing committees since October. Following his death on the university grounds on November 23, authorities initiated investigations into the causes. University Rector Antonella Polimeni stated that university services, health authorities, and local bodies had engaged with him to propose concrete housing options.",
+ "organizers": [
+  "comitati per la casa"
+ ],
+ "demands": [
+  "A proper place to live, study, and eat",
+  "Student accommodation in a dormitory",
+  "Financial support for continuing studies"
+ ],
+ "response": "According to Rector Antonella Polimeni, university services and health authorities engaged with the student to offer concrete accommodation and support options.",
+ "numbers": {
+  "deaths": {
+   "value": 1,
+   "text": "The student was found dead near the Minerva statue after living in a tent and conducting a hunger strike.",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ },
+ "updates": [
+  {
+   "at": "2026-10-01",
+   "text": "The student began living in a tent on the La Sapienza campus after failing to secure regular accommodation or student subsidies.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
+   "at": "2026-11-19",
+   "text": "The student temporarily suspended his hunger strike due to deteriorating physical condition, planning to resume it later.",
+   "sources": [
+    2
+   ]
+  },
+  {
+   "at": "2026-11-23",
+   "text": "The 58-year-old student was found dead near the Minerva statue at La Sapienza university.",
+   "sources": [
+    1,
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.delo.si/novice/svet/umrl-starejsi-student-ki-je-iz-protesta-zivel-v-sotoru-in-gladovno-stavkal",
+   "publisher": "delo.si",
+   "title": "Umrl starejši študent, ki je iz protesta živel v šotoru in gladovno stavkal",
+   "publishedAt": "2026-11-23T19:40:00.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.romatoday.it/cronaca/alessandro-ingusci-morto-58-anni-universita.html",
+   "publisher": "romatoday.it",
+   "title": "Alessandro Ingusci morto alla Sapienza, chi era lo studente 58enne in sciopero della fame per un posto letto",
+   "publishedAt": "2026-11-24T05:39:50.000Z"
+  }
+ ],
  "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
- "reportsPrev24h": 0,
- "reports48h": 0,
+ "confidence": 0.7,
+ "publishers": 2,
+ "reports24h": 4,
+ "reportsPrev24h": 1,
+ "reports48h": 5,
  "firstSeenAt": "2026-11-24T10:57:03.103Z",
- "lastReportAt": "2026-11-24T10:57:03.103Z",
- "lastCheckedAt": "2026-11-24T10:57:03.103Z",
- "updatedAt": "2026-11-24T10:57:03.103Z"
+ "lastReportAt": "2026-11-24T13:05:00.000Z",
+ "lastCheckedAt": "2026-11-24T23:02:49.060Z",
+ "updatedAt": "2026-11-24T22:52:06.036Z",
+ "endedOn": "2026-11-23",
+ "responseSources": [
+  1
+ ],
+ "seriousInjuries": true,
+ "sensitive": true,
+ "summarizedAt": "2026-11-24T22:52:06.036Z",
+ "summaryOf": "de652102424b",
+ "distinctFrom": [
+  "e1013f10901",
+  "e8250ad3e77",
+  "eabcd38306e"
+ ]
 }
