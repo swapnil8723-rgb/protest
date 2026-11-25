@@ -2,7 +2,7 @@
  "id": "ef2535d7095",
  "slug": "seatac-anti-ice-airport-protest-nov-2026",
  "stage": "live",
- "title": "Demonstrators rally in SeaTac against ICE airport arrests",
+ "title": "Demonstrators rally in SeaTac against ICE actions at airport",
  "seoTitle": "SeaTac rally against ICE airport arrests",
  "place": {
   "city": "SeaTac",
@@ -16,39 +16,46 @@
  "scope": "local",
  "causes": [
   "immigration",
-  "labour",
-  "police"
+  "police",
+  "labour"
  ],
  "kind": "one-day",
- "startedOn": "2026-11-21",
+ "startedOn": "2026-11-24",
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Union workers and community members rallied against ICE involvement and passenger arrests at Sea-Tac Airport.",
-  "want": "Demonstrators called on Alaska Airlines and airport officials to condemn ICE and protect workers and passengers.",
-  "changed": "Nov 24: Hundreds rallied at Angle Lake Park, marched to Alaska Airlines headquarters, and some blocked a car carrying officials."
+  "why": "Protesters gathered following the Nov 21 detention of two airline passengers by federal immigration agents at Sea-Tac Airport.",
+  "want": "Demonstrators demanded ICE's removal from airports and called on Alaska Airlines to increase passenger and employee protections.",
+  "changed": "Nov 24: Over 100 demonstrators marched to Alaska Airlines headquarters after a rally at Angle Lake Park in SeaTac."
  },
- "summary": "Hundreds of union workers, community members, and elected officials gathered at Angle Lake Park in SeaTac to protest the detainment of two passengers by immigration agents inside an airplane jet bridge. Organised by labor groups including SEIU Local 6, the demonstration targeted U.S. Immigration and Customs Enforcement actions at the Seattle-Tacoma International Airport. Protesters demanded that Alaska Airlines, the airport, and the Port of Seattle implement changes to protect workers and passengers from federal immigration enforcement. After the main rally speeches, some participants marched to the airline's nearby headquarters, while a smaller group temporarily blocked a car carrying Seattle Mayor Katie Wilson before being moved aside by King County sheriff's deputies.",
+ "summary": "On November 24, 2026, over 100 airport workers, union members, and community advocates gathered at Angle Lake Park in SeaTac before marching to the headquarters of Alaska Airlines. The demonstration followed the November 21 arrest of two passengers by Immigration and Customs Enforcement agents on an airplane jet bridge at Seattle-Tacoma International Airport. The event was organized by labor unions and immigrant rights organizations, with speakers including King County Executive Girmay Zahilay, Seattle Mayor Katie Wilson, SeaTac Mayor Mohamed Egal, and SEIU Local 6 President Zenia Javalera. Demonstrators urged Alaska Airlines to require warrants for federal agents, limit shared passenger data, and advocate for removing immigration enforcement from airports. Following the rally, a group briefly blocked Mayor Wilson's vehicle before sheriff's deputies intervened without making arrests.",
  "organizers": [
-  "SEIU Local 6"
+  "SEIU Local 6",
+  "Super Familia"
  ],
  "demands": [
-  "Condemn ICE actions at the airport",
-  "Protect flyers and staff from federal immigration agents",
-  "Implement immediate safety changes at the airport"
+  "Remove ICE agents from airports",
+  "Require warrants for ICE agents accessing jet bridges",
+  "Limit passenger information shared with ICE",
+  "Protect airport employees who feel unsafe"
  ],
- "response": "According to the King County Sheriff's Office, deputies physically removed protesters who were blocking a vehicle in the parking lot area so that the Mayor could leave safely. No arrests were made and no use of force was reported. Alaska Airlines officials declined to meet with demonstrators marching to the company headquarters.",
+ "response": "Alaska Airlines stated it was concerned by the enforcement action, had no advance notice, and was investigating protocols. The King County Sheriff's Office reported deputies moved protesters blocking the Seattle mayor's car without arrests or reportable force.",
  "numbers": {
+  "crowd": {
+   "value": 100,
+   "text": "more than 100 protesters according to FOX 13",
+   "sources": [
+    2
+   ]
+  },
   "arrests": {
    "value": 0,
-   "text": "No arrests were made, according to KCSO.",
+   "text": "no arrests were made according to the King County Sheriff's Office",
    "sources": [
     1
    ]
@@ -56,26 +63,20 @@
  },
  "updates": [
   {
-   "at": "2026-11-24",
-   "text": "Hundreds of union workers and demonstrators rallied at Angle Lake Park in SeaTac against ICE airport operations.",
+   "at": "2026-11-21",
+   "text": "Immigration agents detained two passengers on a jet bridge at Seattle-Tacoma International Airport.",
    "sources": [
     1,
-    2
+    4
    ]
   },
   {
    "at": "2026-11-24",
-   "text": "Protesters marched to Alaska Airlines headquarters and a group temporarily blocked a car carrying Seattle Mayor Katie Wilson.",
+   "text": "Over 100 people rallied in SeaTac and marched to Alaska Airlines headquarters, demanding protections against airport ICE actions.",
    "sources": [
     1,
-    2
-   ]
-  },
-  {
-   "at": "2026-11-24",
-   "text": "King County sheriff's deputies intervened to clear the area around the blocked vehicle without making any arrests.",
-   "sources": [
-    1
+    2,
+    4
    ]
   }
  ],
@@ -89,30 +90,44 @@
   },
   {
    "n": 2,
+   "url": "https://www.fox13seattle.com/news/protesters-blocking-mayor-wilson-suv",
+   "publisher": "fox13seattle.com",
+   "title": "Video shows protesters blocking Mayor Wilson's SUV at anti-ICE rally",
+   "publishedAt": "2026-11-24T23:48:55.000Z"
+  },
+  {
+   "n": 3,
    "url": "https://www.seattletimes.com/seattle-news/protesters-against-ice-demand-action-from-alaska-airlines-sea-tac/",
    "publisher": "seattletimes.com",
    "title": "Protesters against ICE demand action from Alaska Airlines, Sea-Tac",
    "publishedAt": "2026-11-25T01:57:48.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.newsweek.com/protesters-march-on-alaska-airlines-headquarters-after-airport-ice-arrests-12765979",
+   "publisher": "newsweek.com",
+   "title": "Protesters March on Alaska Airlines Headquarters After Airport ICE Arrests - Newsweek",
+   "publishedAt": "2026-11-25T04:37:49.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
+ "confidence": 0.86,
+ "publishers": 4,
  "reports24h": 4,
  "reportsPrev24h": 0,
  "reports48h": 4,
  "firstSeenAt": "2026-11-25T02:55:49.236Z",
  "lastReportAt": "2026-11-25T04:37:49.000Z",
- "lastCheckedAt": "2026-11-25T07:04:08.117Z",
- "updatedAt": "2026-11-25T02:56:47.799Z",
+ "lastCheckedAt": "2026-11-25T10:59:54.001Z",
+ "updatedAt": "2026-11-25T10:52:51.458Z",
  "endedOn": "2026-11-24",
  "responseSources": [
   1,
-  2
+  4
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-25T02:56:47.799Z",
+ "summarizedAt": "2026-11-25T10:52:51.458Z",
  "publishedAt": "2026-11-25T02:56:55.006Z",
  "i18n": {
   "of": "54db983b3e8856c3",
@@ -271,5 +286,6 @@
  },
  "distinctFrom": [
   "e1a36b629f9"
- ]
+ ],
+ "summaryOf": "3b4a2b4504b9"
 }

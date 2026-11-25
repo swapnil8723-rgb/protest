@@ -2,8 +2,8 @@
  "id": "ee3dbd9afb1",
  "slug": "eisenach-ig-metall-warning-strike-nov-2026",
  "stage": "live",
- "title": "IG Metall workers stage 24-hour warning strike at Opel in Eisenach",
- "seoTitle": "Eisenach IG Metall warning strike",
+ "title": "Opel workers stage 24-hour warning strike in Eisenach",
+ "seoTitle": "Eisenach Opel 24-hour warning strike",
  "place": {
   "city": "Eisenach",
   "region": "Thuringia",
@@ -13,57 +13,86 @@
   "citySlug": "eisenach",
   "regionSlug": "thuringia"
  },
- "scope": "multi-city",
+ "scope": "local",
  "causes": [
   "labour",
-  "jobs"
+  "jobs",
+  "prices"
  ],
- "kind": "multi-day",
- "startedOn": "2026-11-20",
+ "kind": "one-day",
+ "startedOn": "2026-11-23",
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Industrial workers are staging warning strikes as part of ongoing collective bargaining in the metal and electrical industry.",
-  "want": "The union is demanding a 5 percent wage increase for a one-year term.",
-  "changed": "Nov 23: The union continued its all-day warning strikes, including the first 24-hour strike in the history of the Opel plant in Eisenach."
+  "why": "Workers rejected employer wage offers during collective bargaining in the metal and electrical industry.",
+  "want": "Union members demanded a 5 percent wage increase, profit sharing, and job and investment guarantees.",
+  "changed": "Nov 23: Opel staff in Eisenach initiated the first 24-hour warning strike in the plant's history."
  },
- "summary": "Industrial workers represented by the IG Metall union staged all-day warning strikes across Germany's metal and electrical industry, marking the continuation of a broader labor dispute. Notably, employees at the Opel plant in Eisenach participated in a 24-hour warning strike, representing a historic first for that location. The union is demanding a five percent pay increase over a one-year term. Employers, represented by Gesamtmetall, offered a 1.3 percent wage increase starting in July 2028 along with a conditional lump-sum payment over a 26-month term. Additional points of contention include rules regarding deviations from collective agreements. The actions were scheduled to run through Tuesday, ahead of further tariff negotiations in Mannheim.",
+ "summary": "On 23 November 2026, employees at the Opel plant and nearby supplier companies in Eisenach began a 24-hour warning strike organized by the IG Metall union. Around 250 staff joined at the start on Monday morning, halting plant production entirely. The walkout formed part of sector-wide warning strikes across Germany ahead of regional collective bargaining talks in Mannheim. Protesters demanded a 5 percent pay increase over a 12-month period, worker profit-sharing, relief for lower pay grades, and binding commitments regarding site investments and job security. In response, the Thuringian metal and electrical industry employers association called the strike unnecessary, arguing that solutions must be reached at the negotiating table given high domestic production costs.",
  "organizers": [
   "IG Metall"
  ],
  "demands": [
-  "Five percent more pay for a one-year term",
-  "Regulated and controllable procedures for any collective agreement deviations"
+  "5 percent pay increase",
+  "Employee profit sharing",
+  "Relief for lower pay grades",
+  "Binding job and investment commitments"
  ],
- "response": "According to the sources, employers represented by Gesamtmetall offered a 26-month term with a conditional lump-sum payment and a 1.3 percent pay rise starting in July 2028.",
- "numbers": {},
+ "response": "Matthias Kreft of the Association of the Metal and Electrical Industry in Thuringia stated the strike was unnecessary and that solutions must be reached through negotiations given high domestic costs.",
+ "numbers": {
+  "crowd": {
+   "value": 250,
+   "text": "around 250 workers according to MDR Thüringen",
+   "sources": [
+    1
+   ]
+  }
+ },
  "updates": [
   {
    "at": "2026-11-23",
-   "text": "IG Metall continued all-day warning strikes across the metal and electrical industry, featuring the first 24-hour strike at the Opel plant in Eisenach.",
+   "text": "Around 250 Opel and supplier employees in Eisenach started a 24-hour warning strike organized by IG Metall.",
    "sources": [
-    1,
-    2
+    1
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
+   "url": "https://www.mdr.de/nachrichten/thueringen/west-thueringen/eisenach/opel-ig-metall-tarif,streik-468.html",
+   "publisher": "mdr.de",
+   "title": "Erster 24-Stunden-Streik bei Opel Eisenach: IG Metall fordert mehr als nur fünf Prozent",
+   "publishedAt": "2026-11-23T09:46:24.261Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.ad-hoc-news.de/wirtschaft/ig-metall-bestreikt-bmw-mercedes-und-opel-in-eisenach/70546174",
+   "publisher": "ad-hoc-news.de",
+   "title": "IG Metall bestreikt BMW, Mercedes und Opel in Eisenach",
+   "publishedAt": "2026-11-23T09:55:44.000Z"
+  },
+  {
+   "n": 3,
    "url": "https://www.wiwo.de/unternehmen/industrie/tarifverhandlungen-ig-metall-bestreikt-werke-von-bmw-mercedes-und-co./100271213.html",
    "publisher": "wiwo.de",
    "title": "Tarifverhandlungen: IG Metall bestreikt Werke von BMW, Mercedes und Co.",
    "publishedAt": "2026-11-23T10:14:00.000Z"
   },
   {
-   "n": 2,
+   "n": 4,
+   "url": "https://www.sueddeutsche.de/panorama/tarifkonflikt-ig-metall-bestreikt-werke-von-autoherstellern-li.3584830",
+   "publisher": "sueddeutsche.de",
+   "title": "Tarifkonflikt: IG Metall bestreikt Werke von Autoherstellern",
+   "publishedAt": "2026-11-23T12:54:50.000Z"
+  },
+  {
+   "n": 5,
    "url": "https://www.aktien.news/ig-metall-setzt-warnstreiks-fort-tarifkonflikt-spitzt-sich-weiter-zu",
    "publisher": "aktien.news",
    "title": "IG Metall setzt Warnstreiks fort: Tarifkonflikt spitzt sich weiter zu",
@@ -71,22 +100,21 @@
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
+ "confidence": 0.9,
+ "publishers": 5,
  "reports24h": 0,
- "reportsPrev24h": 5,
- "reports48h": 5,
+ "reportsPrev24h": 2,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-23T10:56:49.026Z",
  "lastReportAt": "2026-11-23T15:06:16.604Z",
- "lastCheckedAt": "2026-11-25T07:04:08.117Z",
- "updatedAt": "2026-11-25T02:55:36.057Z",
- "endedOn": "2026-11-24",
+ "lastCheckedAt": "2026-11-25T10:59:54.001Z",
+ "updatedAt": "2026-11-25T10:52:47.421Z",
  "responseSources": [
-  1,
-  2
+  1
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-25T02:55:36.057Z",
- "publishedAt": "2026-11-25T02:56:55.006Z"
+ "summarizedAt": "2026-11-25T10:52:47.421Z",
+ "publishedAt": "2026-11-25T02:56:55.006Z",
+ "summaryOf": "3ee310b39413"
 }
