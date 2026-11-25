@@ -3,7 +3,7 @@
  "slug": "lisbon-unions-strike-state-budget-nov-2026",
  "stage": "live",
  "title": "Portuguese unions strike and protest in Lisbon against state budget",
- "seoTitle": "Lisbon unions strike against state budget",
+ "seoTitle": "Lisbon anti-budget strike and protest",
  "place": {
   "city": "Lisbon",
   "region": "Lisbon",
@@ -24,40 +24,41 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Workers are protesting against the proposed State Budget for 2027, arguing it worsens the loss of purchasing power.",
-  "want": "Higher wage increases, recovery of purchasing power, better working conditions, and stronger public services.",
-  "changed": "Nov 24: Unions held a national cross-sector strike and a demonstration outside the Assembly of the Republic."
+  "why": "Workers are striking and protesting against the 2027 State Budget, which they view as detrimental to their purchasing power.",
+  "want": "Protesters demand salary increases above inflation, restoration of purchasing power, better working conditions, and increased public service funding.",
+  "changed": "Nov 24: Unions held a nationwide strike and gathered outside the Assembly of the Republic in Lisbon during the final budget vote."
  },
- "summary": "Health, education, commerce, and other sector workers launched a nationwide strike and gathered for a demonstration outside the Assembly of the Republic in Lisbon. The action coincided with the final global vote on the State Budget for 2027. Organised by independent union structures such as S.TO.P., SITEU, STGSSP, the MUDAR banking union movement, and CGTP, the protesters criticised the budget for failing to correct the drop in workers' purchasing power, keeping wage increases below expected inflation, and neglecting public services such as health, education, and housing. Organisers called on workers to join the mobilization in front of Parliament to voice opposition to the government's fiscal choices.",
+ "summary": "Workers across sectors including education, healthcare, retail, and transport staged a nationwide strike and gathered outside the Assembly of the Republic in Lisbon. The industrial action coincided with the final global vote on the 2027 State Budget. Organised by several independent unions alongside trade union confederations, participants criticised the budget for failing to counter inflation-driven losses in purchasing power and inadequate public service investments. Authorities faced pressure from demonstrators demanding better wages, housing solutions, and support for healthcare and education.",
  "organizers": [
   "Sindicato de Todos os Profissionais da Educação (Stop)",
   "Sindicato Independente de Todos os Enfermeiros Unidos (SITEU)",
   "Sindicato dos Trabalhadores das Grandes Superfícies, Armazéns e Serviços de…",
-  "Movimento sindical MUDAR bancários",
+  "Movimento sindical MUDAR",
   "CGTP"
  ],
  "demands": [
-  "Wage increases that outpace inflation",
-  "Recovery of lost purchasing power",
+  "Salary increases above inflation",
+  "Recovery of purchasing power",
   "Better working conditions",
-  "Reinforcement of public services"
+  "Reinforcement of public services",
+  "Solutions for housing and cost of living"
  ],
  "response": "No official response reported in the sources.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-24",
-   "text": "Unions staged a national strike and gathered outside the Assembly of the Republic during the state budget vote.",
+   "text": "Unions staged a nationwide strike and a protest outside the Assembly of the Republic in Lisbon coinciding with the final vote on the 2027 State Budget.",
    "sources": [
     1,
-    2
+    2,
+    3,
+    4
    ]
   }
  ],
@@ -75,27 +76,183 @@
    "publisher": "executivedigest.sapo.pt",
    "title": "Hoje há greve nacional contra \"um Orçamento muito nefasto\". Escolas, hospitais, comércio e transportes vão sentir impactos",
    "publishedAt": "2026-11-24T06:45:12.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.rtp.pt/noticias/economia/protesto-contra-o-orcamento-temos-de-manter-pressao-sobre-este-governo_v1781289",
+   "publisher": "rtp.pt",
+   "title": "Protesto contra o Orçamento. \"Temos de manter pressão sobre este Governo\"",
+   "publishedAt": "2026-11-24T13:14:47.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.theportugalnews.com/news/2026-11-24/nationwide-strikes-affects-several-sectors-in-portugal/1121630",
+   "publisher": "theportugalnews.com",
+   "title": "Nationwide strikes affects several sectors in Portugal",
+   "publishedAt": "2026-11-24T16:13:00.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
+ "confidence": 0.86,
+ "publishers": 4,
  "reports24h": 4,
  "reportsPrev24h": 0,
  "reports48h": 4,
- "firstSeenAt": "2026-11-24T10:55:50.822Z",
+ "firstSeenAt": "2026-11-22T10:57:56.601Z",
  "lastReportAt": "2026-11-24T16:13:00.000Z",
- "lastCheckedAt": "2026-11-24T23:02:49.060Z",
- "updatedAt": "2026-11-24T22:51:52.090Z",
+ "lastCheckedAt": "2026-11-25T02:56:55.006Z",
+ "updatedAt": "2026-11-25T02:53:58.501Z",
  "endedOn": "2026-11-24",
  "responseSources": [],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-24T22:51:52.090Z",
- "summaryOf": "ef4b9051a422",
+ "summarizedAt": "2026-11-25T02:53:58.501Z",
  "distinctFrom": [
   "e36829fb101",
   "e3cea81e825"
  ],
- "publishedAt": "2026-11-24T23:02:49.060Z"
+ "publishedAt": "2026-11-24T23:02:49.060Z",
+ "i18n": {
+  "of": "13f056a863bbf0a4",
+  "at": "2026-11-25T03:00:27.061Z",
+  "tries": 1,
+  "es": {
+   "title": "Sindicatos portugueses se declaran en huelga y protestan en Lisboa contra los presupuestos del Estado",
+   "seoTitle": "Huelga y protesta contra los presupuestos en Lisboa",
+   "tea": {
+    "why": "Los trabajadores están en huelga y se manifiestan en contra de los Presupuestos del Estado de 2027, los cuales consideran perjudiciales para su poder adquisitivo.",
+    "want": "Los manifestantes exigen aumentos salariales por encima de la inflación, la recuperación del poder adquisitivo, mejores condiciones laborales y una mayor financiación de los servicios públicos.",
+    "changed": "24 de nov.: Los sindicatos convocaron una huelga nacional y se concentraron frente a la Asamblea de la República en Lisboa durante la votación final de los presupuestos."
+   },
+   "summary": "Trabajadores de diversos sectores, entre ellos educación, sanidad, comercio minorista y transporte, protagonizaron una huelga nacional y se congregaron ante la Asamblea de la República en Lisboa. La movilización coincidió con la votación final global de los Presupuestos del Estado de 2027. Organizada por varios sindicatos independientes junto a confederaciones sindicales, los participantes criticaron que los presupuestos no contrarrestan las pérdidas de poder adquisitivo causadas por la inflación ni prevén inversiones adecuadas en los servicios públicos. Las autoridades afrontaron la presión de los manifestantes, quienes exigieron mejores salarios, soluciones habitacionales y apoyo a la sanidad y a la educación.",
+   "demands": [
+    "Aumentos salariales por encima de la inflación",
+    "Recuperación del poder adquisitivo",
+    "Mejores condiciones laborales",
+    "Refuerzo de los servicios públicos",
+    "Soluciones para la vivienda y el coste de la vida"
+   ],
+   "response": "No se ha informado de ninguna respuesta oficial en las fuentes.",
+   "updates": [
+    "Los sindicatos llevaron a cabo una huelga nacional y una protesta frente a la Asamblea de la República en Lisboa coincidiendo con la votación final de los Presupuestos del Estado de 2027."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "fr": {
+   "title": "Des syndicats portugais font grève et manifestent à Lisbonne contre le budget de l'État",
+   "seoTitle": "Grève et manifestation anti-budget à Lisbonne",
+   "tea": {
+    "why": "Des travailleurs font grève et manifestent contre le budget de l'État pour 2027, qu'ils jugent préjudiciable à leur pouvoir d'achat.",
+    "want": "Les manifestants exigent des augmentations de salaire supérieures à l'inflation, la restauration du pouvoir d'achat, de meilleures conditions de travail et un financement accru des services publics.",
+    "changed": "24 nov. : Les syndicats ont mené une grève nationale et se sont rassemblés devant l'Assemblée de la République à Lisbonne lors du vote final du budget."
+   },
+   "summary": "Des travailleurs de divers secteurs, notamment l'éducation, la santé, le commerce de détail et les transports, ont organisé une grève nationale et se sont rassemblés devant l'Assemblée de la République à Lisbonne. Cette action syndicale a coïncidé avec le vote global final sur le budget de l'État pour 2027. Organisée par plusieurs syndicats indépendants aux côtés de confédérations syndicales, la contestation a dénoncé un budget incapable de contrer les pertes de pouvoir d'achat liées à l'inflation et des investissements insuffisants dans les services publics. Les autorités ont fait face à la pression de manifestants réclamant de meilleurs salaires, des solutions en matière de logement ainsi qu'un soutien renforcé à la santé et à l'éducation.",
+   "demands": [
+    "Augmentations de salaire supérieures à l'inflation",
+    "Restauration du pouvoir d'achat",
+    "Meilleures conditions de travail",
+    "Renforcement des services publics",
+    "Solutions pour le logement et le coût de la vie"
+   ],
+   "response": "Aucune réponse officielle signalée dans les sources.",
+   "updates": [
+    "Des syndicats ont organisé une grève nationale et une manifestation devant l'Assemblée de la République à Lisbonne en même temps que le vote final sur le budget de l'État pour 2027."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "de": {
+   "title": "Portugiesische Gewerkschaften streiken und demonstrieren in Lissabon gegen den Staatshaushalt",
+   "seoTitle": "Streik und Protest gegen den Haushalt in Lissabon",
+   "tea": {
+    "why": "Arbeiter streiken und demonstrieren gegen den Staatshaushalt 2027, den sie als schädlich für ihre Kaufkraft ansehen.",
+    "want": "Die Demonstranten fordern Lohnerhöhungen über der Inflationsrate, die Wiederherstellung der Kaufkraft, bessere Arbeitsbedingungen und eine Erhöhung der Mittel für den öffentlichen Dienst.",
+    "changed": "24. Nov.: Gewerkschaften hielten einen landesweiten Streik ab und versammelten sich während der finalen Haushaltsabstimmung vor der Assembleia da República in Lissabon."
+   },
+   "summary": "Arbeiter aus verschiedenen Sektoren wie Bildung, Gesundheitswesen, Einzelhandel und Transport hielten einen landesweiten Streik ab und versammelten sich vor der Assembleia da República in Lissabon. Die Arbeitsniederlegung fiel mit der globalen Schlussabstimmung über den Staatshaushalt 2027 zusammen. Organisiert von mehreren unabhängigen Gewerkschaften neben Gewerkschaftskonföderationen, kritisierten die Teilnehmer den Haushalt dafür, dass er den inflationsbedingten Kaufkraftverlusten nicht entgegenwirkt und unzureichende Investitionen in den öffentlichen Dienst vorsieht. Die Behörden sahen sich dem Druck von Demonstranten ausgesetzt, die bessere Löhne, Wohnraumlösungen und Unterstützung für das Gesundheits- und Bildungswesen forderten.",
+   "demands": [
+    "Lohnerhöhungen über der Inflationsrate",
+    "Wiederherstellung der Kaufkraft",
+    "Bessere Arbeitsbedingungen",
+    "Stärkung der öffentlichen Dienste",
+    "Lösungen für Wohnraum und Lebenshaltungskosten"
+   ],
+   "response": "In den Quellen wurde keine offizielle Reaktion gemeldet.",
+   "updates": [
+    "Gewerkschaften veranstalteten einen landesweiten Streik sowie eine Protestkundgebung vor der Assembleia da República in Lissabon zeitgleich mit der Endabstimmung über den Staatshaushalt 2027."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "it": {
+   "title": "I sindacati portoghesi scioperano e protestano a Lisbona contro la legge di bilancio",
+   "seoTitle": "Sciopero e protesta contro la manovra a Lisbona",
+   "tea": {
+    "why": "I lavoratori stanno scioperando e protestando contro il bilancio dello Stato per il 2027, che considerano dannoso per il loro potere d'acquisto.",
+    "want": "I manifestanti chiedono aumenti salariali superiori all'inflazione, il recupero del potere d'acquisto, migliori condizioni di lavoro e un incremento dei finanziamenti per i servizi pubblici.",
+    "changed": "24 nov.: I sindacati hanno indetto uno sciopero nazionale e si sono radunati davanti all'Assemblea della Repubblica a Lisbona durante il voto finale sul bilancio."
+   },
+   "summary": "Lavoratori di vari settori, tra cui istruzione, sanità, commercio al dettaglio e trasporti, hanno messo in atto uno sciopero nazionale e si sono radunati di fronte all'Assemblea della Repubblica a Lisbona. L'azione sindacale è coincisa con il voto finale globale sul bilancio dello Stato per il 2027. Organizzata da diversi sindacati indipendenti insieme a confederazioni sindacali, la mobilitazione ha criticato il bilancio per non essere riuscito a contrastare le perdite di potere d'acquisto dovute all'inflazione e per gli investimenti inadeguati nei servizi pubblici. Le autorità hanno affrontato la pressione dei manifestanti che chiedevano salari migliori, soluzioni abitative e sostegno per la sanità e l'istruzione.",
+   "demands": [
+    "Aumenti salariali superiori all'inflazione",
+    "Recupero del potere d'acquisto",
+    "Migliori condizioni di lavoro",
+    "Rafforzamento dei servizi pubblici",
+    "Soluzioni per la casa e il costo della vita"
+   ],
+   "response": "Nessuna risposta ufficiale riportata nelle fonti.",
+   "updates": [
+    "I sindacati hanno indetto uno sciopero nazionale e una protesta fuori dall'Assemblea della Repubblica a Lisbona in concomitanza con il voto finale sul bilancio dello Stato per il 2027."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "pt": {
+   "title": "Sindicatos portugueses fazem greve e protestam em Lisboa contra o Orçamento do Estado",
+   "seoTitle": "Greve e protesto contra o orçamento em Lisboa",
+   "tea": {
+    "why": "Trabalhadores estão em greve e a protestar contra o Orçamento do Estado para 2027, que consideram prejudicial para o seu poder de compra.",
+    "want": "Os manifestantes exigem aumentos salariais acima da inflação, a recuperação do poder de compra, melhores condições de trabalho e um aumento do financiamento dos serviços públicos.",
+    "changed": "24 nov.: Os sindicatos realizaram uma greve nacional e concentraram-se junto à Assembleia da República em Lisboa durante a votação final do orçamento."
+   },
+   "summary": "Trabalhadores de vários setores, incluindo educação, saúde, comércio e transportes, realizaram uma greve nacional e concentraram-se junto à Assembleia da República em Lisboa. A paralisação coincidiu com a votação global final do Orçamento do Estado para 2027. Organizada por vários sindicatos independentes juntamente com confederações sindicais, a iniciativa criticou o orçamento por falhar no combate à perda de poder de compra impulsionada pela inflação e por apresentar investimentos inadequados nos serviços públicos. As autoridades enfrentaram a pressão de manifestantes que exigiam melhores salários, soluções para a habitação e apoio à saúde e à educação.",
+   "demands": [
+    "Aumentos salariais acima da inflação",
+    "Recuperação do poder de compra",
+    "Melhores condições de trabalho",
+    "Reforço dos serviços públicos",
+    "Soluções para a habitação e custo de vida"
+   ],
+   "response": "Sem resposta oficial relatada nas fontes.",
+   "updates": [
+    "Os sindicatos realizaram uma greve nacional e um protesto junto à Assembleia da República em Lisboa coincidindo com a votação final do Orçamento do Estado para 2027."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "nl": {
+   "title": "Portugese vakbonden staken en protesteren in Lissabon tegen staatsbegroting",
+   "seoTitle": "Staking en protest tegen begroting in Lissabon",
+   "tea": {
+    "why": "Werknemers staken en protesteren tegen de staatsbegroting voor 2027, die zij nadelig vinden voor hun koopkracht.",
+    "want": "Demonstranten eisen loonsverhogingen boven de inflatie, herstel van de koopkracht, betere arbeidsomstandigheden en verhoogde financiering van openbare diensten.",
+    "changed": "24 nov.: Vakbonden hielden een landelijke staking en verzamelden zich tijdens de definitieve begrotingsstemming voor de Assembleia da República in Lissabon."
+   },
+   "summary": "Werknemers uit sectoren zoals onderwijs, zorg, detailhandel en transport hielden een landelijke staking en verzamelden zich voor de Assembleia da República in Lissabon. De actie viel samen met de definitieve globale stemming over de staatsbegroting voor 2027. Georganiseerd door verschillende onafhankelijke vakbonden naast vakbondsfederaties, bekritiseerden deelnemers de begroting omdat deze er niet in slaagt om de door inflatie veroorzaakte koopkrachtverliezen tegen te gaan en omdat investeringen in openbare diensten onvoldoende zijn. Autoriteiten kregen te maken met druk van demonstranten die eisten om betere lonen, oplossingen voor huisvesting en steun voor de gezondheidszorg en het onderwijs.",
+   "demands": [
+    "Loonsverhogingen boven de inflatie",
+    "Herstel van de koopkracht",
+    "Betere arbeidsomstandigheden",
+    "Versterking van openbare diensten",
+    "Oplossingen voor huisvesting en kosten van levensonderhoud"
+   ],
+   "response": "Geen officiële reactie gemeld in de bronnen.",
+   "updates": [
+    "Vakbonden hielden een landelijke staking en een protest buiten de Assembleia da República in Lissabon samenvallend met de eindstemming over de staatsbegroting voor 2027."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  }
+ }
 }
