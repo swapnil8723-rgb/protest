@@ -13,9 +13,10 @@
   "citySlug": "paris",
   "regionSlug": "ile-de-france"
  },
- "scope": "local",
+ "scope": "multi-city",
  "causes": [
-  "gender"
+  "gender",
+  "justice"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-28",
@@ -29,13 +30,13 @@
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Protesters are demonstrating against gender-based and sexual violence, citing systemic impunity and a lack of support for victims.",
-  "want": "They demand a comprehensive law against violence toward women and children, along with full budgetary funding for its implementation.",
-  "changed": "Nov 24: Organizers confirmed two separate routes through Paris for the November 28 demonstrations."
+  "why": "Protesters are demonstrating against gender-based and sexual violence, citing systemic failures and impunity for perpetrators.",
+  "want": "They demand a comprehensive law against violence towards women and children, along with increased funding and resources for victim support.",
+  "changed": "Nov 26: Authorities have not yet published official routes for the two separate marches planned in Paris."
  },
- "summary": "Feminist collectives in Paris have scheduled two separate marches for November 28, 2026, to protest gender-based and sexual violence. One march, organized by the Grève féministe collective, is set to depart from the Panthéon and proceed to Place d’Italie. A second march, organized by the Nous Toutes collective, is scheduled to depart from Place de la République toward Place de la Nation. These events follow the International Day for the Elimination of Violence against Women. Organizers, including various unions and associations, are calling for a comprehensive law to address violence against women and children. The demonstrations are part of a broader week of mobilization across France. Authorities have not yet finalized the specific routes or potential station closures, though organizers have publicized their planned paths.",
+ "summary": "Feminist collectives and various organisations have scheduled two separate marches in Paris for November 28, 2026, to protest against gender-based and sexual violence. One march, organised by the Grève féministe collective, is set to depart from the Panthéon and proceed to the Place d'Italie. A second march, organised by the NousToutes collective, is scheduled to travel from the Place de la République to the Place de la Nation to denounce gender-based, social, and state violence. These demonstrations are part of a nationwide week of mobilisation following the International Day for the Elimination of Violence Against Women. Participants are calling for a comprehensive law to protect victims and better state resources. Police have not yet confirmed the specific routes for these events.",
  "organizers": [
-  "Nous Toutes",
+  "NousToutes",
   "Grève féministe",
   "Attac",
   "Solidaires",
@@ -43,42 +44,35 @@
   "Amnesty International France"
  ],
  "demands": [
-  "Comprehensive law against violence toward women and children",
-  "Full budgetary funding for victim support",
-  "End to impunity for perpetrators",
-  "Increased resources for specialized associations"
+  "Comprehensive law against violence towards women and children",
+  "Increased budget for victim protection",
+  "Better prevention and education",
+  "End to impunity for perpetrators"
  ],
  "response": "No official response reported in the sources.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-23",
-   "text": "Feminist groups announced plans for marches in Paris on November 28.",
+   "text": "Organisers announced two separate routes for the Paris marches scheduled for November 28.",
    "sources": [
     1
    ]
   },
   {
-   "at": "2026-11-24",
-   "text": "Collectives confirmed two distinct routes for the upcoming demonstrations in the capital.",
+   "at": "2026-11-26",
+   "text": "Media reports confirm that police have not yet issued official route permits for the planned demonstrations.",
    "sources": [
-    2
-   ]
-  },
-  {
-   "at": "2026-11-25",
-   "text": "The Fondation des Femmes announced it will join the march from the Panthéon to Place d’Italie.",
-   "sources": [
-    3
+    4
    ]
   }
  ],
  "sources": [
   {
    "n": 1,
-   "url": "https://www.sortiraparis.com/no/nyheter/i-paris/articles/359003-demonstrasjon-mot-kjonnsbasert-vold-i-paris-lordag-28-november-informasjonen",
+   "url": "https://www.sortiraparis.com/actualites/a-paris/articles/359003-manifestation-contre-les-violences-sexistes-ce-samedi-28-novembre-a-paris-les-infos",
    "publisher": "sortiraparis.com",
-   "title": "Demonstrasjon mot kjønnsbasert vold i Paris lørdag 28. november: Dette vet vi",
+   "title": "Manifestation contre les violences sexistes ce samedi 28 novembre à Paris : les infos",
    "publishedAt": "2026-11-23T11:58:55.000Z"
   },
   {
@@ -94,26 +88,33 @@
    "publisher": "fondationdesfemmes.org",
    "title": "Manifestation 28 novembre 2026 à Paris : parcours, horaire",
    "publishedAt": "2026-11-25T11:57:59.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://www.thelocal.fr/20261126/france-to-hold-nationwide-protests-against-violence-towards-women",
+   "publisher": "thelocal.fr",
+   "title": "France to hold nationwide protests against violence towards women",
+   "publishedAt": "2026-11-26T08:36:06.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.8,
- "publishers": 3,
+ "confidence": 0.91,
+ "publishers": 4,
  "reports24h": 1,
- "reportsPrev24h": 0,
- "reports48h": 1,
+ "reportsPrev24h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-24T02:53:40.573Z",
- "lastReportAt": "2026-11-25T11:57:59.000Z",
- "lastCheckedAt": "2026-11-26T10:55:03.011Z",
- "updatedAt": "2026-11-26T02:54:48.961Z",
+ "lastReportAt": "2026-11-26T08:36:06.000Z",
+ "lastCheckedAt": "2026-11-26T14:11:25.765Z",
+ "updatedAt": "2026-11-26T14:08:04.264Z",
  "responseSources": [],
  "seriousInjuries": false,
  "sensitive": true,
- "summarizedAt": "2026-11-26T02:54:48.961Z",
- "summaryOf": "e6c6d818d530",
+ "summarizedAt": "2026-11-26T14:08:04.264Z",
+ "summaryOf": "f2ef0843fca3",
  "distinctFrom": [
-  "e938c5b6c0c"
+  "e938c5b6c0c",
+  "e5f2d697da6"
  ],
- "endedOn": "2026-11-28",
  "publishedAt": "2026-11-26T02:57:18.315Z"
 }

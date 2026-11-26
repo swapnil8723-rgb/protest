@@ -2,8 +2,8 @@
  "id": "ea8874938b9",
  "slug": "barcelona-catalonia-education-strike-nov-2026",
  "stage": "live",
- "title": "Education unions call for strike in Catalonia",
- "seoTitle": "Barcelona education strike",
+ "title": "Teachers strike and occupy Generalitat headquarters in Barcelona",
+ "seoTitle": "Barcelona teachers strike and occupy palace",
  "place": {
   "city": "Barcelona",
   "region": "Catalonia",
@@ -13,55 +13,75 @@
   "citySlug": "barcelona",
   "regionSlug": "catalonia"
  },
- "scope": "nationwide",
+ "scope": "local",
  "causes": [
-  "labour",
-  "education"
+  "education",
+  "labour"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-26",
- "status": "scheduled",
- "vibe": "heating-up",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Unions are protesting to demand increased teaching staff, better inclusive education resources, lower student-teacher ratios, and salary changes.",
-  "want": "Increased teaching staff, more inclusive education resources, reduced student-teacher ratios, and improved salary conditions.",
-  "changed": "Nov 25: The union Ustec filed a legal challenge with the TSJC to suspend the government-mandated minimum service requirements for the strike."
+  "why": "Teachers are protesting against the lack of progress in labor negotiations and demanding better working conditions and resources.",
+  "want": "Increased staffing, more resources for inclusive education, reduced student-teacher ratios, and improved salary conditions.",
+  "changed": "Nov 26: Teachers occupied the Palau de la Generalitat for two hours before being identified and removed by police."
  },
- "summary": "Education unions including Ustec, CGT, COS, and La Intersindical have called for a strike across Catalonia on November 26, 2026. The action follows a decision by the Asamblea Educativa de Catalunya to push for improved working conditions, including higher staffing levels and reduced student-teacher ratios. The Catalan government's Department of Business and Labor has established minimum service requirements, mandating that schools maintain specific staffing levels for teaching, dining, and extracurricular activities to ensure student safety. The union Ustec has criticized these requirements as excessive, noting they are stricter than those applied during a general strike on November 11. Consequently, the union has appealed to the High Court of Justice of Catalonia to suspend the government's minimum service order, arguing it infringes upon the fundamental right to strike.",
+ "summary": "On November 26, 2026, teachers in Barcelona held a strike and a surprise occupation of the Palau de la Generalitat to demand improvements in public education. Organised by unions including USTEC, CGT, Intersindical, CNT, and COS, along with the Assemblea Educativa de Catalunya, the action involved a group of teachers entering the government building to deliver a letter to President Salvador Illa. The occupation lasted approximately two hours before police removed the participants. Separately, thousands of teachers marched from Plaça Tetuan. The Department of Education reported an 11.7% strike participation rate, while unions estimated it at 20%. The strike also faced legal challenges regarding government-mandated minimum service levels, which unions contested in court as excessive.",
  "organizers": [
-  "Ustec",
+  "USTEC",
   "CGT",
+  "Intersindical",
+  "CNT",
   "COS",
-  "La Intersindical",
-  "Asamblea Educativa de Catalunya"
+  "Assemblea Educativa de Catalunya"
  ],
  "demands": [
   "Increase teaching staff",
   "More resources for inclusive education",
-  "Reduction of student-teacher ratios",
-  "New salary conditions"
+  "Reduce student-teacher ratios",
+  "Improve salary conditions"
  ],
- "response": "The Department of Business and Labor established minimum service requirements for the strike, mandating specific staffing levels for teaching and support services to ensure student safety and care.",
- "numbers": {},
+ "response": "The Generalitat announced it would open proceedings to determine potential criminal or administrative liabilities for the occupation. The Department of Education established minimum service requirements, which unions challenged in court.",
+ "numbers": {
+  "crowd": {
+   "value": 10000,
+   "text": "10,000 according to organisers; 5,000 according to the Guardia Urbana",
+   "sources": [
+    6
+   ]
+  }
+ },
  "updates": [
   {
-   "at": "2026-11-25",
-   "text": "The Department of Business and Labor set minimum service requirements for the upcoming November 26 strike.",
+   "at": "2026-11-26",
+   "text": "A group of teachers occupied the Palau de la Generalitat to demand negotiations with the president.",
    "sources": [
-    1,
-    2
+    4,
+    5,
+    6
    ]
   },
   {
-   "at": "2026-11-25",
-   "text": "The union Ustec filed a legal challenge with the TSJC to contest the minimum service requirements.",
+   "at": "2026-11-26",
+   "text": "Police removed the teachers from the building after identifying them.",
    "sources": [
-    3
+    5,
+    7
+   ]
+  },
+  {
+   "at": "2026-11-26",
+   "text": "Thousands of teachers marched in Barcelona as part of the strike action.",
+   "sources": [
+    6
    ]
   }
  ],
@@ -86,28 +106,61 @@
    "publisher": "catalunyapress.es",
    "title": "La huelga educativa de este jueves acaba en los tribunales: Ustec exige suspender los servicios mínimos",
    "publishedAt": "2026-11-25T17:12:07.000Z"
+  },
+  {
+   "n": 4,
+   "url": "https://elpais.com/espana/catalunya/2026-11-26/cataluna-vive-la-segunda-huelga-educativa-del-curso-en-un-momento-de-caida-de-la-movilizacion.html",
+   "publisher": "elpais.com",
+   "title": "Los profesores catalanes arrancan la segunda huelga del curso ocupando durante dos horas el Palau de la Generalitat",
+   "publishedAt": "2026-11-26T04:30:01.000Z"
+  },
+  {
+   "n": 5,
+   "url": "https://www.lavanguardia.com/vida/20261126/11693709/grupo-docentes-irrumpe-palau-generalitat-inicio-huelga-educativa.html",
+   "publisher": "lavanguardia.com",
+   "title": "Un grupo de docentes ocupa durante dos horas la Generalitat al inicio de la huelga",
+   "publishedAt": "2026-11-26T06:38:34.000Z"
+  },
+  {
+   "n": 6,
+   "url": "https://www.eldiario.es/catalunya/grupo-docentes-huelga-encierra-cocheras-palau-generalitat_1_13694411.html",
+   "publisher": "eldiario.es",
+   "title": "Un grupo de docentes en huelga se encierra en las cocheras del Palau de la Generalitat",
+   "publishedAt": "2026-11-26T07:32:53.000Z"
+  },
+  {
+   "n": 7,
+   "url": "https://www.lasexta.com/noticias/sociedad/huelga-profesores-barcelona-cincuentena-docentes-encierra-generalitat-exigir-mejoras-educacion-publica_202611266b07e5ab5cb1082f89b57dcd.html",
+   "publisher": "lasexta.com",
+   "title": "Huelga educativa en Barcelona: los Mossos desalojan a los profesores encerrados en el Palau de la Generalitat",
+   "publishedAt": "2026-11-26T07:54:19.000Z"
   }
  ],
- "conflicts": [],
+ "conflicts": [
+  "Police reported 5,000 protesters; organisers reported 10,000.",
+  "The Department of Education estimated 11.7% strike participation; unions estimated 20%."
+ ],
  "confidence": 0.8,
- "publishers": 3,
- "reports24h": 2,
- "reportsPrev24h": 1,
- "reports48h": 3,
+ "publishers": 7,
+ "reports24h": 6,
+ "reportsPrev24h": 2,
+ "reports48h": 8,
  "firstSeenAt": "2026-11-25T22:54:52.079Z",
- "lastReportAt": "2026-11-25T17:12:07.000Z",
- "lastCheckedAt": "2026-11-26T10:55:03.011Z",
- "updatedAt": "2026-11-26T02:55:21.722Z",
+ "lastReportAt": "2026-11-26T07:54:19.000Z",
+ "lastCheckedAt": "2026-11-26T14:11:25.765Z",
+ "updatedAt": "2026-11-26T14:07:30.408Z",
  "searchedAt": "2026-11-26T02:50:42.320Z",
  "endedOn": "2026-11-26",
  "responseSources": [
   1,
-  2
+  5,
+  6,
+  7
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-26T02:55:21.722Z",
- "summaryOf": "efc2f55a1190",
+ "summarizedAt": "2026-11-26T14:07:30.408Z",
+ "summaryOf": "c9dbb058335b",
  "publishedAt": "2026-11-26T02:57:18.315Z",
  "i18n": {
   "of": "d8f88001ff046d2a",
