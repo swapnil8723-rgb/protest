@@ -13,12 +13,12 @@
   "citySlug": "oslo",
   "regionSlug": "oslo"
  },
- "scope": "multi-city",
+ "scope": "local",
  "causes": [
   "labour"
  ],
  "kind": "multi-day",
- "startedOn": "2026-10-19",
+ "startedOn": "2026-10-20",
  "status": "ongoing",
  "vibe": "heating-up",
  "severity": "normal",
@@ -27,33 +27,51 @@
  "isOngoing": true,
  "published": true,
  "tea": {
-  "why": "Assistants demand equal pay and shift supplements for evening, night, and weekend work compared to colleagues in Virke-affiliated companies.",
-  "want": "Equal pay and working conditions for BPA assistants in NHO-affiliated companies.",
-  "changed": "Nov 25: Fagforbundet announced an escalation, with 22 additional members joining the strike from Nov 30, bringing the total to 44."
+  "why": "Assistants are striking for equal pay and better compensation for evening, night, and weekend work compared to colleagues in Virke companies.",
+  "want": "Equal pay and specific wage supplements for working evenings, nights, and weekends.",
+  "changed": "Nov 25: Fagforbundet announced an escalation of the strike, with 22 additional members joining on Nov 30, bringing the total to 44."
  },
- "summary": "The strike among user-controlled personal assistants (BPA) in Norway has been ongoing for over a month. Organised by Fagforbundet, the industrial action targets NHO Geneo over pay disparities. Protesters argue that assistants in NHO-affiliated companies receive lower compensation for inconvenient working hours than those in Virke-affiliated firms. Despite mediation attempts at the National Mediator's office, no resolution has been reached. Fagforbundet has announced a significant escalation, with 22 new members joining the strike on November 30, 2026, at companies including Human Care, Ecura BPA, and Stendi Assistanse, doubling the total number of strikers to 44. NHO Geneo maintains that they are willing to find a solution but has criticised the union's focus on specific tariff agreements.",
+ "summary": "Personal user-controlled assistants (BPA) in Oslo have been on strike since October 20, 2026, organized by the union Fagforbundet. The dispute concerns wage conditions for employees at NHO Geneo-affiliated companies. The union demands that these assistants receive the same pay and supplements for evening, night, and weekend work as their counterparts in Virke-organized companies. Mediation at the National Mediator's office on November 19 failed to reach a resolution. Consequently, Fagforbundet announced a significant escalation of the strike, with 22 additional members joining the action on November 30, doubling the total number of strikers to 44. NHO Geneo, represented by negotiator Sigurd Løkholm, has stated that the union's demands would exceed the framework established in the front-fag settlement and are therefore unacceptable.",
  "organizers": [
   "Fagforbundet"
  ],
  "demands": [
   "Equal pay for equal work",
-  "Improved supplements for evening, night, and weekend shifts"
+  "Wage supplements for evening work",
+  "Wage supplements for night work",
+  "Wage supplements for weekend work"
  ],
- "response": "NHO Geneo stated they are willing to find a solution and noted that Fagforbundet has previously agreed to lower wages for BPA in the municipal sector.",
- "numbers": {},
+ "response": "NHO Geneo negotiator Sigurd Løkholm stated that the union's demands would exceed the agreed-upon framework for the front-fag settlement and cannot be accepted.",
+ "numbers": {
+  "crowd": {
+   "value": 44,
+   "text": "Fagforbundet stated that 44 members will be on strike from November 30.",
+   "sources": [
+    2,
+    3
+   ]
+  }
+ },
  "updates": [
   {
-   "at": "2026-11-19",
-   "text": "Mediation between Fagforbundet and NHO Geneo at the National Mediator's office failed to produce a resolution.",
+   "at": "2026-10-20",
+   "text": "The strike among personal user-controlled assistants began.",
    "sources": [
-    1,
-    2
+    3
+   ]
+  },
+  {
+   "at": "2026-11-19",
+   "text": "Mediation between Fagforbundet and NHO Geneo at the National Mediator's office failed to produce a solution.",
+   "sources": [
+    1
    ]
   },
   {
    "at": "2026-11-25",
-   "text": "Fagforbundet announced an escalation of the strike, with 22 additional members joining from November 30.",
+   "text": "Fagforbundet announced an escalation, with 22 new members joining the strike on November 30.",
    "sources": [
+    2,
     3
    ]
   }
@@ -61,173 +79,203 @@
  "sources": [
   {
    "n": 1,
-   "url": "https://www.fagbladet.no/nyheter/bpa-streiken-mekling-og-mulig-opptrapping/765025",
-   "publisher": "fagbladet.no",
-   "title": "BPA-streiken: Mekling og mulig opptrapping",
-   "publishedAt": "2026-11-19T06:25:48.000Z"
-  },
-  {
-   "n": 2,
    "url": "https://www.dagensmedisin.no/bpa-fagforbundet-innenriks/assistent-streik-fortsetter-bpa-mekling-ga-ingen-losning/784618",
    "publisher": "dagensmedisin.no",
    "title": "Assistent-streik fortsetter – BPA-mekling ga ingen løsning",
    "publishedAt": "2026-11-19T13:21:59.000Z"
   },
   {
-   "n": 3,
+   "n": 2,
    "url": "https://www.fagforbundet.no/a/391827/dobler-antall-streikende-i-bpa-streiken/",
    "publisher": "fagforbundet.no",
    "title": "Dobler antall streikende i BPA-streiken",
    "publishedAt": "2026-11-25T11:38:37.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.fagbladet.no/nyheter/varsler-kraftig-opptrapping-av-bpa-streiken/765963",
+   "publisher": "fagbladet.no",
+   "title": "Varsler kraftig opptrapping av BPA-streiken",
+   "publishedAt": "2026-11-25T12:20:48.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.8,
  "publishers": 3,
- "reports24h": 1,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 1,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-10T09:54:18.178Z",
- "lastReportAt": "2026-11-25T11:38:37.000Z",
- "lastCheckedAt": "2026-11-25T23:01:19.268Z",
- "updatedAt": "2026-11-25T22:57:57.001Z",
+ "lastReportAt": "2026-11-25T12:20:48.000Z",
+ "lastCheckedAt": "2026-11-26T02:57:18.315Z",
+ "updatedAt": "2026-11-26T02:55:02.322Z",
  "responseSources": [
-  1
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-25T22:57:57.001Z",
- "summaryOf": "77ba1ebb7f87",
+ "summarizedAt": "2026-11-26T02:55:02.322Z",
+ "summaryOf": "c0b7b01faa38",
  "publishedAt": "2026-11-12T20:55:03.991Z",
  "i18n": {
-  "of": "6d98677e4733c6c6",
-  "at": "2026-11-25T23:02:06.348Z",
+  "of": "6bd2755df66e4f0d",
+  "at": "2026-11-26T02:59:05.474Z",
   "tries": 1,
   "es": {
    "title": "Los asistentes de BPA continúan la huelga en Oslo",
    "seoTitle": "Huelga de asistentes de BPA en Oslo",
    "tea": {
-    "why": "Los asistentes exigen igualdad salarial y complementos por turnos de tarde, noche y fin de semana en comparación con sus colegas de empresas afiliadas a Virke.",
-    "want": "Igualdad salarial y condiciones laborales para los asistentes de BPA en empresas afiliadas a NHO.",
-    "changed": "25 de noviembre: Fagforbundet anunció una escalada, con 22 miembros adicionales uniéndose a la huelga a partir del 30 de noviembre, lo que eleva el total a 44."
+    "why": "Los asistentes están en huelga por la igualdad salarial y una mejor compensación por el trabajo nocturno, vespertino y de fin de semana en comparación con sus colegas en las empresas de Virke.",
+    "want": "Igualdad salarial y complementos salariales específicos por trabajar por las tardes, noches y fines de semana.",
+    "changed": "25 de noviembre: Fagforbundet anunció una escalada de la huelga, con 22 miembros adicionales que se unirán el 30 de noviembre, lo que eleva el total a 44."
    },
-   "summary": "La huelga de los asistentes personales controlados por el usuario (BPA) en Noruega lleva más de un mes en curso. Organizada por Fagforbundet, la acción industrial se dirige contra NHO Geneo debido a las disparidades salariales. Los manifestantes argumentan que los asistentes en empresas afiliadas a NHO reciben una compensación menor por horarios laborales inconvenientes que aquellos en empresas afiliadas a Virke. A pesar de los intentos de mediación en la oficina del Mediador Nacional, no se ha llegado a ninguna resolución. Fagforbundet ha anunciado una escalada significativa, con 22 nuevos miembros uniéndose a la huelga el 30 de noviembre de 2026, en empresas como Human Care, Ecura BPA y Stendi Assistanse, duplicando el número total de huelguistas a 44. NHO Geneo sostiene que están dispuestos a encontrar una solución, pero ha criticado el enfoque del sindicato en acuerdos tarifarios específicos.",
+   "summary": "Los asistentes personales controlados por el usuario (BPA) en Oslo han estado en huelga desde el 20 de octubre de 2026, organizados por el sindicato Fagforbundet. La disputa se refiere a las condiciones salariales de los empleados en empresas afiliadas a NHO Geneo. El sindicato exige que estos asistentes reciban el mismo salario y complementos por el trabajo vespertino, nocturno y de fin de semana que sus homólogos en empresas organizadas por Virke. La mediación en la oficina del Mediador Nacional el 19 de noviembre no logró llegar a una resolución. En consecuencia, Fagforbundet anunció una escalada significativa de la huelga, con 22 miembros adicionales que se unirán a la acción el 30 de noviembre, duplicando el número total de huelguistas a 44. NHO Geneo, representado por el negociador Sigurd Løkholm, ha declarado que las demandas del sindicato excederían el marco establecido en el acuerdo front-fag y, por lo tanto, son inaceptables.",
    "demands": [
     "Igualdad salarial por igual trabajo",
-    "Mejora de los complementos por turnos de tarde, noche y fin de semana"
+    "Complementos salariales por trabajo vespertino",
+    "Complementos salariales por trabajo nocturno",
+    "Complementos salariales por trabajo de fin de semana"
    ],
-   "response": "NHO Geneo declaró que están dispuestos a encontrar una solución y señaló que Fagforbundet ha aceptado previamente salarios más bajos para BPA en el sector municipal.",
+   "response": "El negociador de NHO Geneo, Sigurd Løkholm, declaró que las demandas del sindicato excederían el marco acordado para el acuerdo front-fag y no pueden ser aceptadas.",
    "updates": [
-    "La mediación entre Fagforbundet y NHO Geneo en la oficina del Mediador Nacional no logró producir una resolución.",
-    "Fagforbundet anunció una escalada de la huelga, con 22 miembros adicionales uniéndose a partir del 30 de noviembre."
+    "Comenzó la huelga de los asistentes personales controlados por el usuario.",
+    "La mediación entre Fagforbundet y NHO Geneo en la oficina del Mediador Nacional no logró producir una solución.",
+    "Fagforbundet anunció una escalada, con 22 nuevos miembros que se unirán a la huelga el 30 de noviembre."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Fagforbundet declaró que 44 miembros estarán en huelga a partir del 30 de noviembre."
+   }
   },
   "fr": {
    "title": "Les assistants BPA poursuivent leur grève à Oslo",
    "seoTitle": "Grève des assistants BPA à Oslo",
    "tea": {
-    "why": "Les assistants exigent une égalité salariale et des suppléments pour les horaires de soirée, de nuit et de week-end par rapport à leurs collègues des entreprises affiliées à Virke.",
-    "want": "Une égalité salariale et des conditions de travail identiques pour les assistants BPA dans les entreprises affiliées à la NHO.",
-    "changed": "25 novembre : Fagforbundet a annoncé une escalade, avec 22 membres supplémentaires rejoignant la grève à partir du 30 novembre, portant le total à 44."
+    "why": "Les assistants sont en grève pour obtenir une égalité salariale et une meilleure compensation pour le travail en soirée, de nuit et le week-end par rapport à leurs collègues des entreprises Virke.",
+    "want": "Une égalité salariale et des compléments de salaire spécifiques pour le travail en soirée, de nuit et le week-end.",
+    "changed": "25 novembre : Fagforbundet a annoncé une intensification de la grève, avec 22 membres supplémentaires rejoignant le mouvement le 30 novembre, portant le total à 44."
    },
-   "summary": "La grève des assistants personnels contrôlés par l'utilisateur (BPA) en Norvège dure depuis plus d'un mois. Organisée par Fagforbundet, l'action syndicale vise NHO Geneo en raison des disparités salariales. Les manifestants soutiennent que les assistants des entreprises affiliées à la NHO reçoivent une rémunération inférieure pour les horaires de travail contraignants par rapport à ceux des entreprises affiliées à Virke. Malgré des tentatives de médiation auprès du bureau du Médiateur national, aucune résolution n'a été trouvée. Fagforbundet a annoncé une escalade significative, avec 22 nouveaux membres rejoignant la grève le 30 novembre 2026, dans des entreprises telles que Human Care, Ecura BPA et Stendi Assistanse, doublant ainsi le nombre total de grévistes à 44. NHO Geneo maintient qu'ils sont disposés à trouver une solution, mais a critiqué l'accent mis par le syndicat sur des accords tarifaires spécifiques.",
+   "summary": "Les assistants personnels contrôlés par l'utilisateur (BPA) à Oslo sont en grève depuis le 20 octobre 2026, sous l'organisation du syndicat Fagforbundet. Le conflit porte sur les conditions salariales des employés des entreprises affiliées à NHO Geneo. Le syndicat exige que ces assistants bénéficient du même salaire et des mêmes compléments pour le travail en soirée, de nuit et le week-end que leurs homologues des entreprises organisées par Virke. La médiation au bureau du Médiateur national le 19 novembre n'a pas permis de trouver une solution. Par conséquent, Fagforbundet a annoncé une intensification significative de la grève, avec 22 membres supplémentaires rejoignant le mouvement le 30 novembre, doublant le nombre total de grévistes à 44. NHO Geneo, représenté par le négociateur Sigurd Løkholm, a déclaré que les revendications du syndicat dépasseraient le cadre établi dans l'accord front-fag et sont donc inacceptables.",
    "demands": [
     "Égalité salariale pour un travail égal",
-    "Amélioration des suppléments pour les horaires de soirée, de nuit et de week-end"
+    "Compléments de salaire pour le travail en soirée",
+    "Compléments de salaire pour le travail de nuit",
+    "Compléments de salaire pour le travail le week-end"
    ],
-   "response": "NHO Geneo a déclaré qu'ils étaient disposés à trouver une solution et a noté que Fagforbundet avait précédemment accepté des salaires plus bas pour les BPA dans le secteur municipal.",
+   "response": "Le négociateur de NHO Geneo, Sigurd Løkholm, a déclaré que les revendications du syndicat dépasseraient le cadre convenu pour l'accord front-fag et ne peuvent être acceptées.",
    "updates": [
-    "La médiation entre Fagforbundet et NHO Geneo auprès du bureau du Médiateur national n'a pas permis de parvenir à une résolution.",
-    "Fagforbundet a annoncé une escalade de la grève, avec 22 membres supplémentaires rejoignant le mouvement à partir du 30 novembre."
+    "La grève des assistants personnels contrôlés par l'utilisateur a commencé.",
+    "La médiation entre Fagforbundet et NHO Geneo au bureau du Médiateur national n'a pas permis de trouver une solution.",
+    "Fagforbundet a annoncé une intensification, avec 22 nouveaux membres rejoignant la grève le 30 novembre."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Fagforbundet a déclaré que 44 membres seront en grève à partir du 30 novembre."
+   }
   },
   "de": {
    "title": "BPA-Assistenten setzen Streik in Oslo fort",
-   "seoTitle": "BPA-Assistentenstreik in Oslo",
+   "seoTitle": "BPA-Assistenten-Streik in Oslo",
    "tea": {
-    "why": "Die Assistenten fordern gleichen Lohn und Schichtzuschläge für Abend-, Nacht- und Wochenendarbeit im Vergleich zu Kollegen in Virke-angeschlossenen Unternehmen.",
-    "want": "Gleicher Lohn und gleiche Arbeitsbedingungen für BPA-Assistenten in NHO-angeschlossenen Unternehmen.",
-    "changed": "25. November: Fagforbundet kündigte eine Eskalation an, bei der sich ab dem 30. November 22 weitere Mitglieder dem Streik anschließen, womit die Gesamtzahl auf 44 steigt."
+    "why": "Die Assistenten streiken für gleiche Bezahlung und eine bessere Vergütung für Abend-, Nacht- und Wochenendarbeit im Vergleich zu Kollegen in Virke-Unternehmen.",
+    "want": "Gleiche Bezahlung und spezifische Lohnzuschläge für die Arbeit an Abenden, Nächten und Wochenenden.",
+    "changed": "25. November: Fagforbundet kündigte eine Ausweitung des Streiks an, wobei sich am 30. November 22 weitere Mitglieder anschließen, was die Gesamtzahl auf 44 erhöht."
    },
-   "summary": "Der Streik der nutzergesteuerten persönlichen Assistenten (BPA) in Norwegen dauert seit über einem Monat an. Die von Fagforbundet organisierte Arbeitskampfmaßnahme richtet sich aufgrund von Lohnunterschieden gegen NHO Geneo. Die Streikenden argumentieren, dass Assistenten in NHO-angeschlossenen Unternehmen eine geringere Vergütung für ungünstige Arbeitszeiten erhalten als diejenigen in Virke-angeschlossenen Firmen. Trotz Mediationsversuchen beim Büro des Nationalen Mediators wurde keine Lösung erzielt. Fagforbundet hat eine deutliche Eskalation angekündigt, bei der sich am 30. November 2026 22 neue Mitglieder dem Streik bei Unternehmen wie Human Care, Ecura BPA und Stendi Assistanse anschließen, wodurch sich die Gesamtzahl der Streikenden auf 44 verdoppelt. NHO Geneo hält daran fest, dass sie bereit sind, eine Lösung zu finden, hat jedoch den Fokus der Gewerkschaft auf spezifische Tarifverträge kritisiert.",
+   "summary": "Persönliche benutzergesteuerte Assistenten (BPA) in Oslo streiken seit dem 20. Oktober 2026, organisiert durch die Gewerkschaft Fagforbundet. Der Streit betrifft die Lohnbedingungen für Beschäftigte bei Unternehmen, die NHO Geneo angeschlossen sind. Die Gewerkschaft fordert, dass diese Assistenten denselben Lohn und dieselben Zuschläge für Abend-, Nacht- und Wochenendarbeit erhalten wie ihre Kollegen in Unternehmen, die bei Virke organisiert sind. Eine Schlichtung beim Büro des Nationalen Schlichters am 19. November führte zu keiner Einigung. Infolgedessen kündigte Fagforbundet eine deutliche Ausweitung des Streiks an, wobei sich am 30. November 22 weitere Mitglieder der Aktion anschließen, was die Gesamtzahl der Streikenden auf 44 verdoppelt. NHO Geneo, vertreten durch den Verhandlungsführer Sigurd Løkholm, hat erklärt, dass die Forderungen der Gewerkschaft den im front-fag-Abkommen festgelegten Rahmen überschreiten würden und daher inakzeptabel seien.",
    "demands": [
     "Gleicher Lohn für gleiche Arbeit",
-    "Verbesserte Zuschläge für Abend-, Nacht- und Wochenendschichten"
+    "Lohnzuschläge für Abendarbeit",
+    "Lohnzuschläge für Nachtarbeit",
+    "Lohnzuschläge für Wochenendarbeit"
    ],
-   "response": "NHO Geneo erklärte, dass sie bereit seien, eine Lösung zu finden, und merkte an, dass Fagforbundet zuvor niedrigere Löhne für BPA im kommunalen Sektor zugestimmt habe.",
+   "response": "Der NHO-Geneo-Verhandlungsführer Sigurd Løkholm erklärte, dass die Forderungen der Gewerkschaft den vereinbarten Rahmen für das front-fag-Abkommen überschreiten würden und nicht akzeptiert werden können.",
    "updates": [
-    "Die Mediation zwischen Fagforbundet und NHO Geneo beim Büro des Nationalen Mediators führte zu keiner Lösung.",
-    "Fagforbundet kündigte eine Eskalation des Streiks an, bei der sich ab dem 30. November 22 weitere Mitglieder anschließen."
+    "Der Streik der persönlichen benutzergesteuerten Assistenten hat begonnen.",
+    "Die Schlichtung zwischen Fagforbundet und NHO Geneo beim Büro des Nationalen Schlichters führte zu keiner Lösung.",
+    "Fagforbundet kündigte eine Ausweitung an, wobei sich am 30. November 22 neue Mitglieder dem Streik anschließen."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Fagforbundet gab an, dass ab dem 30. November 44 Mitglieder streiken werden."
+   }
   },
   "it": {
    "title": "Gli assistenti BPA continuano lo sciopero a Oslo",
    "seoTitle": "Sciopero degli assistenti BPA a Oslo",
    "tea": {
-    "why": "Gli assistenti richiedono parità salariale e supplementi per i turni serali, notturni e festivi rispetto ai colleghi delle aziende affiliate a Virke.",
-    "want": "Parità salariale e condizioni di lavoro per gli assistenti BPA nelle aziende affiliate a NHO.",
-    "changed": "25 novembre: Fagforbundet ha annunciato un'escalation, con 22 membri aggiuntivi che si uniranno allo sciopero dal 30 novembre, portando il totale a 44."
+    "why": "Gli assistenti sono in sciopero per la parità retributiva e una migliore compensazione per il lavoro serale, notturno e festivo rispetto ai colleghi nelle aziende Virke.",
+    "want": "Parità retributiva e supplementi salariali specifici per il lavoro serale, notturno e nei fine settimana.",
+    "changed": "25 novembre: Fagforbundet ha annunciato un'intensificazione dello sciopero, con 22 membri aggiuntivi che si uniranno il 30 novembre, portando il totale a 44."
    },
-   "summary": "Lo sciopero degli assistenti personali controllati dall'utente (BPA) in Norvegia è in corso da oltre un mese. Organizzata da Fagforbundet, l'azione sindacale prende di mira NHO Geneo a causa delle disparità salariali. I manifestanti sostengono che gli assistenti nelle aziende affiliate a NHO ricevano una compensazione inferiore per gli orari di lavoro disagiati rispetto a quelli nelle aziende affiliate a Virke. Nonostante i tentativi di mediazione presso l'ufficio del Mediatore nazionale, non è stata raggiunta alcuna risoluzione. Fagforbundet ha annunciato un'escalation significativa, con 22 nuovi membri che si uniranno allo sciopero il 30 novembre 2026, presso aziende tra cui Human Care, Ecura BPA e Stendi Assistanse, raddoppiando il numero totale di scioperanti a 44. NHO Geneo sostiene di essere disposta a trovare una soluzione, ma ha criticato l'attenzione del sindacato su specifici accordi tariffari.",
+   "summary": "Gli assistenti personali controllati dall'utente (BPA) a Oslo sono in sciopero dal 20 ottobre 2026, organizzati dal sindacato Fagforbundet. La controversia riguarda le condizioni salariali dei dipendenti presso le aziende affiliate a NHO Geneo. Il sindacato richiede che questi assistenti ricevano la stessa retribuzione e gli stessi supplementi per il lavoro serale, notturno e nei fine settimana dei loro omologhi nelle aziende organizzate da Virke. La mediazione presso l'ufficio del Mediatore Nazionale il 19 novembre non è riuscita a raggiungere una risoluzione. Di conseguenza, Fagforbundet ha annunciato un'intensificazione significativa dello sciopero, con 22 membri aggiuntivi che si uniranno all'azione il 30 novembre, raddoppiando il numero totale di scioperanti a 44. NHO Geneo, rappresentata dal negoziatore Sigurd Løkholm, ha dichiarato che le richieste del sindacato supererebbero il quadro stabilito nell'accordo front-fag e sono quindi inaccettabili.",
    "demands": [
-    "Parità salariale per lo stesso lavoro",
-    "Migliori supplementi per i turni serali, notturni e festivi"
+    "Parità retributiva per lo stesso lavoro",
+    "Supplementi salariali per il lavoro serale",
+    "Supplementi salariali per il lavoro notturno",
+    "Supplementi salariali per il lavoro nei fine settimana"
    ],
-   "response": "NHO Geneo ha dichiarato di essere disposta a trovare una soluzione e ha fatto notare che Fagforbundet ha precedentemente accettato salari più bassi per i BPA nel settore municipale.",
+   "response": "Il negoziatore di NHO Geneo, Sigurd Løkholm, ha dichiarato che le richieste del sindacato supererebbero il quadro concordato per l'accordo front-fag e non possono essere accettate.",
    "updates": [
-    "La mediazione tra Fagforbundet e NHO Geneo presso l'ufficio del Mediatore nazionale non ha prodotto una risoluzione.",
-    "Fagforbundet ha annunciato un'escalation dello sciopero, con 22 membri aggiuntivi che si uniranno dal 30 novembre."
+    "È iniziato lo sciopero degli assistenti personali controllati dall'utente.",
+    "La mediazione tra Fagforbundet e NHO Geneo presso l'ufficio del Mediatore Nazionale non ha prodotto una soluzione.",
+    "Fagforbundet ha annunciato un'intensificazione, con 22 nuovi membri che si uniranno allo sciopero il 30 novembre."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Fagforbundet ha dichiarato che 44 membri saranno in sciopero dal 30 novembre."
+   }
   },
   "pt": {
    "title": "Assistentes de BPA continuam greve em Oslo",
    "seoTitle": "Greve de assistentes de BPA em Oslo",
    "tea": {
-    "why": "Os assistentes exigem igualdade salarial e suplementos por turnos de noite, fim de semana e período noturno em comparação com colegas em empresas afiliadas à Virke.",
-    "want": "Igualdade salarial e condições de trabalho para assistentes de BPA em empresas afiliadas à NHO.",
-    "changed": "25 de novembro: O Fagforbundet anunciou uma escalada, com 22 membros adicionais a juntarem-se à greve a partir de 30 de novembro, elevando o total para 44."
+    "why": "Os assistentes estão em greve por igualdade salarial e melhor compensação pelo trabalho noturno, vespertino e ao fim de semana em comparação com colegas em empresas da Virke.",
+    "want": "Igualdade salarial e suplementos salariais específicos por trabalhar à noite, à tarde e aos fins de semana.",
+    "changed": "25 de novembro: O Fagforbundet anunciou uma escalada da greve, com 22 membros adicionais a juntarem-se no dia 30 de novembro, elevando o total para 44."
    },
-   "summary": "A greve entre assistentes pessoais controlados pelo utilizador (BPA) na Noruega está em curso há mais de um mês. Organizada pelo Fagforbundet, a ação industrial visa a NHO Geneo devido a disparidades salariais. Os manifestantes argumentam que os assistentes em empresas afiliadas à NHO recebem uma compensação menor por horários de trabalho inconvenientes do que aqueles em empresas afiliadas à Virke. Apesar das tentativas de mediação no gabinete do Mediador Nacional, não foi alcançada qualquer resolução. O Fagforbundet anunciou uma escalada significativa, com 22 novos membros a juntarem-se à greve a 30 de novembro de 2026, em empresas incluindo a Human Care, Ecura BPA e Stendi Assistanse, duplicando o número total de grevistas para 44. A NHO Geneo mantém que estão dispostos a encontrar uma solução, mas criticou o foco do sindicato em acordos tarifários específicos.",
+   "summary": "Os assistentes pessoais controlados pelo utilizador (BPA) em Oslo estão em greve desde 20 de outubro de 2026, organizados pelo sindicato Fagforbundet. O litígio diz respeito às condições salariais dos funcionários em empresas afiliadas à NHO Geneo. O sindicato exige que estes assistentes recebam o mesmo salário e suplementos pelo trabalho vespertino, noturno e ao fim de semana que os seus homólogos em empresas organizadas pela Virke. A mediação no gabinete do Mediador Nacional a 19 de novembro não conseguiu chegar a uma resolução. Consequentemente, o Fagforbundet anunciou uma escalada significativa da greve, com 22 membros adicionais a juntarem-se à ação a 30 de novembro, duplicando o número total de grevistas para 44. A NHO Geneo, representada pelo negociador Sigurd Løkholm, declarou que as exigências do sindicato excederiam o quadro estabelecido no acordo front-fag e são, portanto, inaceitáveis.",
    "demands": [
     "Igualdade salarial por trabalho igual",
-    "Melhoria dos suplementos para turnos de noite, fim de semana e período noturno"
+    "Suplementos salariais por trabalho vespertino",
+    "Suplementos salariais por trabalho noturno",
+    "Suplementos salariais por trabalho ao fim de semana"
    ],
-   "response": "A NHO Geneo declarou que estão dispostos a encontrar uma solução e notou que o Fagforbundet concordou anteriormente com salários mais baixos para BPA no setor municipal.",
+   "response": "O negociador da NHO Geneo, Sigurd Løkholm, declarou que as exigências do sindicato excederiam o quadro acordado para o acordo front-fag e não podem ser aceites.",
    "updates": [
-    "A mediação entre o Fagforbundet e a NHO Geneo no gabinete do Mediador Nacional não produziu uma resolução.",
-    "O Fagforbundet anunciou uma escalada da greve, com 22 membros adicionais a juntarem-se a partir de 30 de novembro."
+    "A greve dos assistentes pessoais controlados pelo utilizador começou.",
+    "A mediação entre o Fagforbundet e a NHO Geneo no gabinete do Mediador Nacional não produziu uma solução.",
+    "O Fagforbundet anunciou uma escalada, com 22 novos membros a juntarem-se à greve a 30 de novembro."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "O Fagforbundet declarou que 44 membros estarão em greve a partir de 30 de novembro."
+   }
   },
   "nl": {
-   "title": "BPA-assistenten zetten staking in Oslo voort",
-   "seoTitle": "Staking BPA-assistenten in Oslo",
+   "title": "BPA-assistenten staken door in Oslo",
+   "seoTitle": "Staking BPA-assistenten Oslo",
    "tea": {
-    "why": "Assistenten eisen gelijk loon en ploegentoeslagen voor avond-, nacht- en weekendwerk in vergelijking met collega's bij bedrijven die zijn aangesloten bij Virke.",
-    "want": "Gelijk loon en gelijke arbeidsvoorwaarden voor BPA-assistenten bij bedrijven die zijn aangesloten bij NHO.",
-    "changed": "25 november: Fagforbundet kondigde een escalatie aan, waarbij 22 extra leden zich vanaf 30 november bij de staking aansluiten, wat het totaal op 44 brengt."
+    "why": "De assistenten staken voor gelijk loon en een betere vergoeding voor avond-, nacht- en weekendwerk in vergelijking met collega's bij Virke-bedrijven.",
+    "want": "Gelijk loon en specifieke loontoeslagen voor werken in de avond, nacht en in het weekend.",
+    "changed": "25 november: Fagforbundet kondigde een uitbreiding van de staking aan, waarbij 22 extra leden zich op 30 november aansluiten, wat het totaal op 44 brengt."
    },
-   "summary": "De staking onder gebruikersgestuurde persoonlijke assistenten (BPA) in Noorwegen duurt al meer dan een maand. De actie, georganiseerd door Fagforbundet, richt zich tegen NHO Geneo vanwege loonverschillen. Betogers stellen dat assistenten bij NHO-aangesloten bedrijven een lagere vergoeding ontvangen voor ongunstige werktijden dan degenen bij Virke-aangesloten firma's. Ondanks bemiddelingspogingen bij het kantoor van de Nationale Bemiddelaar is er geen oplossing bereikt. Fagforbundet heeft een aanzienlijke escalatie aangekondigd, waarbij 22 nieuwe leden zich op 30 november 2026 bij de staking voegen bij bedrijven zoals Human Care, Ecura BPA en Stendi Assistanse, waardoor het totaal aantal stakers verdubbelt naar 44. NHO Geneo houdt vol dat zij bereid zijn een oplossing te vinden, maar heeft de focus van de vakbond op specifieke tariefafspraken bekritiseerd.",
+   "summary": "Persoonlijke gebruikersgestuurde assistenten (BPA) in Oslo staken sinds 20 oktober 2026, georganiseerd door de vakbond Fagforbundet. Het geschil betreft de loonvoorwaarden voor werknemers bij bedrijven die zijn aangesloten bij NHO Geneo. De vakbond eist dat deze assistenten hetzelfde loon en dezelfde toeslagen voor avond-, nacht- en weekendwerk ontvangen als hun collega's bij bedrijven die zijn georganiseerd door Virke. Bemiddeling bij het kantoor van de Nationale Bemiddelaar op 19 november leidde niet tot een oplossing. Als gevolg hiervan kondigde Fagforbundet een aanzienlijke uitbreiding van de staking aan, waarbij 22 extra leden zich op 30 november bij de actie aansluiten, waardoor het totaal aantal stakers verdubbelt naar 44. NHO Geneo, vertegenwoordigd door onderhandelaar Sigurd Løkholm, heeft verklaard dat de eisen van de vakbond het kader van het front-fag-akkoord zouden overschrijden en daarom onaanvaardbaar zijn.",
    "demands": [
     "Gelijk loon voor gelijk werk",
-    "Verbeterde toeslagen voor avond-, nacht- en weekenddiensten"
+    "Loontoeslagen voor avondwerk",
+    "Loontoeslagen voor nachtwerk",
+    "Loontoeslagen voor weekendwerk"
    ],
-   "response": "NHO Geneo verklaarde dat zij bereid zijn een oplossing te vinden en merkte op dat Fagforbundet eerder akkoord is gegaan met lagere lonen voor BPA in de gemeentelijke sector.",
+   "response": "NHO Geneo-onderhandelaar Sigurd Løkholm verklaarde dat de eisen van de vakbond het overeengekomen kader voor het front-fag-akkoord zouden overschrijden en niet kunnen worden geaccepteerd.",
    "updates": [
+    "De staking onder persoonlijke gebruikersgestuurde assistenten is begonnen.",
     "Bemiddeling tussen Fagforbundet en NHO Geneo bij het kantoor van de Nationale Bemiddelaar leidde niet tot een oplossing.",
-    "Fagforbundet kondigde een escalatie van de staking aan, waarbij 22 extra leden zich vanaf 30 november aansluiten."
+    "Fagforbundet kondigde een uitbreiding aan, waarbij 22 nieuwe leden zich op 30 november bij de staking aansluiten."
    ],
    "conflicts": [],
-   "numbers": {}
+   "numbers": {
+    "crowd": "Fagforbundet verklaarde dat 44 leden vanaf 30 november zullen staken."
+   }
   }
  },
  "distinctFrom": [

@@ -24,40 +24,38 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence",
+  "sources-disagree"
+ ],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Staff are protesting over pay, working conditions, and the company's decision to host a luxury farewell event for the outgoing CEO.",
-  "want": "Employees are demanding better pay, improved working conditions, and increased recognition.",
-  "changed": "Nov 25: The strike caused multiple train cancellations between London, Paris, and Lille."
+  "why": "Staff are protesting against stagnant wages, poor working conditions, and management's perceived lack of recognition for employees.",
+  "want": "Employees are demanding improved working conditions and salary increases.",
+  "changed": "Nov 25: Staff held a strike that caused multiple train cancellations between London, Paris, and Lille."
  },
- "summary": "On November 25, 2026, Eurostar staff initiated a strike that resulted in significant disruptions to rail services between London, Paris, and Lille. The industrial action was organised by the FO-Cheminots union, which stated that the walkout was a response to stalled annual pay negotiations and deteriorating working conditions. Protesters also cited a luxury farewell event for the outgoing CEO as a point of contention. Eurostar reported that the strike was unexpected and led to the cancellation of several services, advising passengers to avoid stations. While the company stated it remains open to constructive dialogue, union representatives described the social dialogue as broken. The strike saw high participation rates among drivers and station staff in Paris and Lille, with an assembly planned to discuss potential continuation of the movement.",
+ "summary": "On November 25, 2026, Eurostar staff initiated a strike that resulted in significant disruptions to rail services between London, Paris, and Lille. The action was organised by the FO-Cheminots union, which reported high participation rates among drivers, conductors, and station staff. Protesters cited ongoing frustrations regarding annual pay negotiations, where management reportedly proposed a 2.1% increase against 3.4% inflation, as well as concerns over workplace quality of life. Tensions were further exacerbated by a farewell event held for the outgoing CEO. Eurostar management described the industrial action as unexpected and advised passengers to avoid stations. The company stated it remains open to constructive dialogue with unions. While the strike caused multiple cancellations and delays, the company offered affected passengers refunds or the option to rebook their travel.",
  "organizers": [
-  "FO-Cheminots"
+  "FO-Cheminots",
+  "CGT"
  ],
  "demands": [
   "Salary increases",
   "Improved working conditions",
-  "Greater recognition for staff"
+  "Recognition of staff contributions"
  ],
- "response": "Eurostar stated it was informed of the action overnight and apologised for the inconvenience. The company advised passengers to rebook or seek refunds and noted that it remains willing to engage in constructive dialogue with the union.",
+ "response": "Eurostar stated that they were informed of the action overnight and apologised for the disruption. The company advised passengers not to travel and stated they remain willing to engage in constructive dialogue with the union.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-25",
-   "text": "Eurostar staff launched a strike, leading to the cancellation of several trains between London and Paris.",
+   "text": "Eurostar staff initiated a strike, leading to the cancellation of multiple services between London, Paris, and Lille.",
    "sources": [
     1,
     3,
-    4
-   ]
-  },
-  {
-   "at": "2026-11-25",
-   "text": "The FO-Cheminots union reported high participation rates among staff in Paris and Lille.",
-   "sources": [
+    4,
     5
    ]
   }
@@ -99,19 +97,22 @@
    "publishedAt": "2026-11-25T16:41:08.000Z"
   }
  ],
- "conflicts": [],
- "confidence": 0.9,
+ "conflicts": [
+  "The union FO-Cheminots disputed Eurostar's claim that the strike was unexpected or unannounced, stating that staff had warned management of potential action for months."
+ ],
+ "confidence": 0.75,
  "publishers": 5,
- "reports24h": 7,
+ "reports24h": 8,
  "reportsPrev24h": 0,
- "reports48h": 7,
- "firstSeenAt": "2026-11-25T10:58:25.758Z",
+ "reports48h": 8,
+ "firstSeenAt": "2026-11-25T10:57:51.120Z",
  "lastReportAt": "2026-11-25T16:41:08.000Z",
- "lastCheckedAt": "2026-11-25T23:01:19.268Z",
- "updatedAt": "2026-11-25T22:57:24.129Z",
+ "lastCheckedAt": "2026-11-26T02:57:18.315Z",
+ "updatedAt": "2026-11-26T02:54:13.269Z",
  "searchedAt": "2026-11-25T22:50:41.682Z",
  "distinctFrom": [
-  "e744c505715"
+  "e744c505715",
+  "ea2d7795d17"
  ],
  "endedOn": "2026-11-25",
  "responseSources": [
@@ -121,7 +122,7 @@
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-25T22:57:24.129Z",
- "summaryOf": "fbc6084cb7a0",
+ "summarizedAt": "2026-11-26T02:54:13.269Z",
+ "summaryOf": "05dd9c9b02cd",
  "publishedAt": "2026-11-25T23:01:19.268Z"
 }
