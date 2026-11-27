@@ -15,7 +15,8 @@
  },
  "scope": "multi-city",
  "causes": [
-  "gender"
+  "gender",
+  "justice"
  ],
  "kind": "one-day",
  "startedOn": "2026-11-25",
@@ -25,45 +26,48 @@
  "review": "pending",
  "reviewReasons": [
   "serious",
-  "low-confidence"
+  "low-confidence",
+  "sources-disagree"
  ],
  "isOngoing": false,
  "published": false,
  "tea": {
-  "why": "Protesters marched to demand an end to violence against women and to mark the International Day for the Elimination of Violence against Women.",
-  "want": "Demonstrators demanded crisis centers in every region, legal and psychological aid, legal definitions of femicide, and school education.",
-  "changed": "Nov 25: Thousands marched in Sofia and other cities on the International Day for the Elimination of Violence against Women."
+  "why": "People marched on International Day for Elimination of Violence against Women following recent assaults and murders in Bulgaria.",
+  "want": "Protesters demanded regional crisis centres, free support for victims, legal definitions of femicide, and school sex education.",
+  "changed": "Nov 25, 2026: Demonstrators marched through central Sofia and submitted demands to members of Parliament."
  },
- "summary": "Hundreds of people gathered in central Sofia for a demonstration in support of women who have faced violence, marking the International Day for the Elimination of Violence against Women. The event was organized by the Feminist Mobilizations collective and the LevFem group, with support from the Bulgarian Fund for Women. Demonstrators marched through major boulevards and squares, holding placards and chanting slogans. Similar protests took place in other Bulgarian cities including Plovdiv, Varna, Burgas, Veliko Tarnovo, Stara Zagora, Tryavna, and Sliven. Organisers called for the establishment of crisis counseling centers in every region, free legal and psychological assistance for victims, unified data collection, legislative amendments addressing femicide, and mandatory sex education in schools. The demands were submitted to members of Parliament with a deadline of December 10 for official responses.",
+ "summary": "Demonstrators marched through central Sofia on November 25, 2026, to mark the International Day for the Elimination of Violence against Women and protest gender-based violence. Organised by the Feminist Mobilisations collective and the LevFem group with support from the Bulgarian Fund for Women, the march proceeded from the Palace of Justice to the Triangle of Power. Similar rallies took place in several other Bulgarian cities. Organisers demanded crisis and counselling centres in every region, free legal and psychological support for victims, a unified national data collection system, mandatory age-appropriate sex education, and legal definitions for gender-based violence and femicide in the Criminal Code. They also called on lawmakers to transpose European Union directive 2024/1385 into Bulgarian law by June 2027. Organisers submitted their demands to all members of Parliament, requesting a response by December 10.",
  "organizers": [
-  "Feminist Mobilizations collective",
-  "LevFem group",
+  "Feminist Mobilisations",
+  "LevFem",
   "Bulgarian Fund for Women"
  ],
  "demands": [
-  "Establish crisis and counselling centres in every region",
-  "Ensure access to free legal and psychological assistance for victims",
-  "Introduce a unified official system for collecting data on violence against women",
-  "Legislative amendments addressing femicide and gender-based violence",
-  "Mandatory age-appropriate sex education in schools"
+  "Establish crisis and counselling centres in every Bulgarian region",
+  "Provide free legal and psychological aid to victims of violence",
+  "Create a unified official system to collect data on gender-based violence",
+  "Amend laws to define femicide and gender-based violence",
+  "Introduce mandatory age-appropriate sex education in schools"
  ],
  "response": "No official response reported in the sources.",
  "numbers": {
   "crowd": {
-   "value": 100,
-   "text": "Thousands of people marched through Sofia",
+   "value": 1000,
+   "text": "Thousands according to Novinite, while balgarianovinite.com reported hundreds",
    "sources": [
-    2
+    1,
+    3
    ]
   }
  },
  "updates": [
   {
    "at": "2026-11-25",
-   "text": "Hundreds to thousands of people marched in Sofia and other Bulgarian cities on the International Day for the Elimination of Violence against Women.",
+   "text": "Demonstrators gathered in Sofia and other Bulgarian cities to protest gender-based violence and present demands to lawmakers.",
    "sources": [
     1,
-    2
+    2,
+    3
    ]
   }
  ],
@@ -77,30 +81,42 @@
   },
   {
    "n": 2,
+   "url": "https://balkaninsight.com/2026/11/26/protesters-across-balkans-demand-action-to-curb-violence-against-women/bi/",
+   "publisher": "balkaninsight.com",
+   "title": "Protesters Across Balkans Demand Action to Curb Violence Against Women",
+   "publishedAt": "2026-11-26T10:08:53.000Z"
+  },
+  {
+   "n": 3,
    "url": "https://www.novinite.com/view_news.php?id=241801",
    "publisher": "novinite.com",
    "title": "Thousands March in Sofia Against Violence Toward Women - Novinite.com - Sofia News Agency"
   }
  ],
- "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 1,
- "reportsPrev24h": 1,
+ "conflicts": [
+  "Novinite reported thousands of participants, while balgarianovinite.com reported hundreds."
+ ],
+ "confidence": 0.65,
+ "publishers": 3,
+ "reports24h": 2,
+ "reportsPrev24h": 0,
  "reports48h": 2,
- "firstSeenAt": "2026-11-27T01:52:37.246Z",
+ "firstSeenAt": "2026-11-26T14:02:12.081Z",
  "lastReportAt": "2026-11-27T00:45:00.000Z",
- "lastCheckedAt": "2026-11-27T05:52:13.415Z",
- "updatedAt": "2026-11-27T05:52:06.769Z",
+ "lastCheckedAt": "2026-11-27T10:03:06.472Z",
+ "updatedAt": "2026-11-27T10:00:46.499Z",
  "distinctFrom": [
   "e98315aae4a",
-  "ec0eaeece80"
+  "ec0eaeece80",
+  "e7beb37b62f",
+  "ebf0a4d5789",
+  "e24bac6019a"
  ],
  "searchedAt": "2026-11-27T05:50:40.557Z",
  "endedOn": "2026-11-25",
  "responseSources": [],
  "seriousInjuries": false,
  "sensitive": true,
- "summarizedAt": "2026-11-27T05:52:06.769Z",
- "summaryOf": "af9b799603c1"
+ "summarizedAt": "2026-11-27T10:00:46.499Z",
+ "summaryOf": "29c539f583a8"
 }

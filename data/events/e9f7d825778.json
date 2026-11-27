@@ -1,9 +1,9 @@
 {
  "id": "e9f7d825778",
- "slug": "",
- "stage": "candidate",
+ "slug": "porto-metro-strike-nov-2026",
+ "stage": "live",
  "title": "Metro do Porto drivers strike over pay and working conditions",
- "seoTitle": "",
+ "seoTitle": "Porto metro drivers strike",
  "place": {
   "city": "Porto",
   "region": "Porto",
@@ -15,38 +15,90 @@
  },
  "scope": "local",
  "causes": [
-  "labour"
+  "labour",
+  "transport"
  ],
  "kind": "one-day",
- "startedOn": "2026-11-26",
+ "startedOn": "2026-11-27",
  "status": "ongoing",
- "vibe": "heating-up",
+ "vibe": "cooling-down",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "top-10",
+  "low-confidence"
+ ],
  "isOngoing": true,
- "published": false,
+ "published": true,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Drivers are protesting to demand better pay, improved working conditions, and compensation for irregular service schedules.",
+  "want": "Recovery of purchasing power, updated remuneration, improved work schedules, and better safety and social facility conditions.",
+  "changed": "Nov 27: The strike is underway, causing significant service reductions across the Metro do Porto network."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
+ "summary": "Metro do Porto drivers are participating in a one-day strike on November 27, 2026, organized by the Sindicato Nacional dos Maquinistas dos Caminhos de Ferro Portugueses (SMAQ). The industrial action has led to severe service disruptions, with the operator Via Porto announcing that trains will only run on the common trunk line between Senhora da Hora and Estádio do Dragão, and on the Yellow Line between Hospital São João and Santo Ovídio. The union is demanding the recovery of purchasing power, improved professional conditions, and better safety standards. The operator stated that service frequencies will be reduced to 15-minute intervals during peak hours and 30-minute intervals during off-peak hours. The strike follows a week of broader railway disruptions in Portugal involving CP – Comboios de Portugal.",
+ "organizers": [
+  "Sindicato Nacional dos Maquinistas dos Caminhos de Ferro Portugueses (SMAQ)"
+ ],
+ "demands": [
+  "Recovery of purchasing power",
+  "Updated remuneration",
+  "Improved work schedules",
+  "Better safety conditions",
+  "Improved social facility conditions"
+ ],
+ "response": "Via Porto, the concessionaire for the metro system, has issued service updates and warnings regarding the operational impact of the strike, advising passengers of reduced frequencies and limited routes.",
  "numbers": {},
- "updates": [],
- "sources": [],
+ "updates": [
+  {
+   "at": "2026-11-25",
+   "text": "The strike was announced, with the operator warning of significant service impacts starting Thursday evening.",
+   "sources": [
+    1
+   ]
+  },
+  {
+   "at": "2026-11-27",
+   "text": "The strike commenced, limiting metro operations to specific segments of the network.",
+   "sources": [
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://eco.sapo.pt/2026/11/25/greve-dos-maquinistas-reduz-servico-do-metro-do-porto-na-sexta-feira/",
+   "publisher": "eco.sapo.pt",
+   "title": "Greve dos maquinistas reduz serviço do Metro do Porto na sexta-feira",
+   "publishedAt": "2026-11-25T20:43:06.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.publico.pt/2026/11/27/sociedade/noticia/ultimo-dia-greve-cp-juntase-greve-maquinistas-metro-porto-2196498",
+   "publisher": "publico.pt",
+   "title": "No último dia de greve da CP, junta-se a greve de maquinistas do Metro do Porto",
+   "publishedAt": "2026-11-27T07:57:43.000Z"
+  }
+ ],
  "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
- "reportsPrev24h": 0,
- "reports48h": 0,
+ "confidence": 0.7,
+ "publishers": 2,
+ "reports24h": 1,
+ "reportsPrev24h": 3,
+ "reports48h": 4,
  "firstSeenAt": "2026-11-25T22:54:25.980Z",
- "lastReportAt": "2026-11-25T22:54:25.980Z",
- "lastCheckedAt": "2026-11-25T22:54:25.980Z",
- "updatedAt": "2026-11-25T22:54:25.980Z",
- "searchedAt": "2026-11-26T02:50:43.868Z"
+ "lastReportAt": "2026-11-27T07:57:43.000Z",
+ "lastCheckedAt": "2026-11-27T10:03:06.472Z",
+ "updatedAt": "2026-11-27T10:01:40.247Z",
+ "searchedAt": "2026-11-26T02:50:43.868Z",
+ "endedOn": "2026-11-27",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-11-27T10:01:40.247Z",
+ "summaryOf": "821c9a27f45f",
+ "publishedAt": "2026-11-27T10:03:06.472Z"
 }
