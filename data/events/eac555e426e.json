@@ -24,8 +24,10 @@
  "status": "ongoing",
  "vibe": "cooling-down",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
+ "review": "pending",
+ "reviewReasons": [
+  "top-10"
+ ],
  "isOngoing": true,
  "published": true,
  "tea": {
@@ -116,7 +118,7 @@
  "reports48h": 2,
  "firstSeenAt": "2026-11-24T02:55:36.251Z",
  "lastReportAt": "2026-11-27T08:42:51.085Z",
- "lastCheckedAt": "2026-11-27T10:03:06.472Z",
+ "lastCheckedAt": "2026-11-27T13:55:22.059Z",
  "updatedAt": "2026-11-27T10:00:34.358Z",
  "searchedAt": "2026-11-24T22:50:41.159Z",
  "responseSources": [],
@@ -126,149 +128,161 @@
  "summaryOf": "7cd1aed55b06",
  "publishedAt": "2026-11-24T23:02:49.060Z",
  "i18n": {
-  "of": "7625cad5419657db",
-  "at": "2026-11-26T18:00:06.737Z",
+  "of": "53164fdaef5cb11d",
+  "at": "2026-11-27T13:56:02.010Z",
   "tries": 1,
   "es": {
-   "title": "Huelga de camioneros en todo Irán contra las condiciones económicas",
-   "seoTitle": "Huelga de camioneros en Teherán",
+   "title": "Huelga de camioneros en todo Irán por el aumento de costes y las bajas tarifas",
+   "seoTitle": "Huelga de camioneros en Teherán por los costes",
    "tea": {
-    "why": "Los conductores protestan contra la alta inflación, el aumento de los costes de mantenimiento, la escasez de combustible y unas tarifas de transporte que no cubren los gastos operativos.",
-    "want": "Los conductores exigen una revisión inmediata de las tarifas de transporte para ajustarlas a la inflación y alivio ante los elevados costes de los repuestos, el combustible y los peajes.",
-    "changed": "26 de nov.: La huelga entró en su quinto día, y la Unión de Conductores de Camiones y Asociaciones de Transporte informó de participación en 18 ciudades."
+    "why": "Los camioneros protestan contra las tarifas de transporte estancadas, además de los crecientes costes de combustible, neumáticos, mantenimiento y seguros impulsados por la inflación.",
+    "want": "Los conductores exigen aumentos inmediatos en las tarifas de transporte que reflejen la inflación real y los costes vinculados al dólar para repuestos de vehículos, combustible y neumáticos.",
+    "changed": "27 de noviembre: El sindicato anunció que la huelga alcanzó su sexto día y se extendió a 20 ciudades de todo Irán."
    },
-   "summary": "Desde el 22 de noviembre de 2026, los camioneros en todo Irán, incluso en Teherán, están en huelga para protestar contra el deterioro de las condiciones económicas. Organizada por la Unión de Conductores de Camiones y Asociaciones de Transporte de todo Irán, la acción consiste en que los conductores se niegan a transportar carga hasta que se cumplan sus demandas de tarifas más altas. Los participantes citan el aumento de los costes de repuestos, neumáticos y combustible, junto con cuotas inadecuadas de diésel y peajes excesivos, como sus principales quejas. Según los informes, las terminales de carga en varias ciudades han cerrado y la huelga se ha expandido para incluir a 18 ciudades en su quinto día. Aunque la unión ha instado a los conductores a mantener la huelga, los funcionarios no han dado una respuesta formal a la interrupción en curso, aunque huelgas pasadas se han enfrentado a amenazas de castigo judicial.",
+   "summary": "Los camioneros iraníes iniciaron una huelga nacional el 22 de noviembre de 2026 en protesta por las tarifas de transporte estancadas en medio de una grave inflación y el aumento de los costes operativos. Organizada por el Sindicato de Camioneros y Asociaciones de Transporte de todo Irán, la huelga comenzó en ciudades como Teherán, Shiraz y Bandar Abbas antes de expandirse a 20 ciudades para el 27 de noviembre. Los conductores informaron de fuertes subidas de precios en neumáticos, repuestos, aceite de motor y cuotas de combustible, exigiendo ajustes en las tarifas de transporte alineados con la inflación real y los gastos de mantenimiento de los vehículos. El sindicato advirtió que los paros laborales prolongados podrían perturbar las cadenas de suministro nacionales y la fabricación. No se informó de ninguna respuesta oficial del gobierno en las fuentes.",
    "demands": [
-    "Revisión de las tarifas de transporte",
-    "Menores costes de repuestos y neumáticos",
-    "Mejora en la distribución de combustible",
-    "Reducción de peajes viales y municipales"
+    "Revisión inmediata de las tarifas de transporte en línea con la inflación",
+    "Reducción de costes o subvenciones para neumáticos, aceite de motor y piezas de repuesto",
+    "Mayores cuotas de gasóleo y mejor distribución de combustible",
+    "Reducción de los peajes viales y municipales",
+    "Solución a los retrasos en el pago de las tarifas de transporte"
    ],
-   "response": "No se informó de respuesta oficial en las fuentes.",
+   "response": "No se informó de ninguna respuesta oficial en las fuentes.",
    "updates": [
-    "La huelga comenzó en múltiples ciudades, incluidas Teherán, Shiraz y Bandar Abbas.",
-    "La huelga continuó por segundo día a medida que más conductores y operadores de vehículos Nissan se unían al movimiento.",
-    "La huelga entró en su quinto día, y la unión informó que participaban conductores en 18 ciudades."
+    "Los camioneros de Teherán, Shiraz, Bandar Abbas, Dezful y varias ciudades más inician un paro laboral por el aumento de los costes operativos.",
+    "La huelga entra en su segundo día con el cierre de terminales de carga en Bandar Abbas y Dezful, y la incorporación de los conductores de camionetas.",
+    "El Sindicato de Camioneros y Asociaciones de Transporte de todo Irán informa que la huelga se ha extendido a 18 ciudades en su quinto día.",
+    "La huelga llega a su sexto día con una participación que se expande a 20 ciudades, mientras los conductores prometen continuar hasta que se cumplan sus demandas."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "fr": {
-   "title": "Grève des camionneurs à travers l'Iran contre la situation économique",
+   "title": "Grève des camionneurs à travers l'Iran contre la hausse des coûts et la faiblesse des tarifs",
    "seoTitle": "Grève des camionneurs à Téhéran",
    "tea": {
-    "why": "Les conducteurs protestent contre la forte inflation, la hausse des coûts d'entretien, les pénuries de carburant et des tarifs de transport qui ne couvrent pas les frais d'exploitation.",
-    "want": "Les conducteurs exigent une révision immédiate des tarifs de transport pour correspondre à l'inflation ainsi qu'un allègement des coûts élevés des pièces de rechange, du carburant et des péages routiers.",
-    "changed": "26 nov. : La grève est entrée dans son cinquième jour, l'Union des conducteurs de camions et des associations de transport ayant signalé une participation dans 18 villes."
+    "why": "Les camionneurs protestent contre la stagnation des tarifs de transport ainsi que contre la flambée des coûts du carburant, des pneus, de l'entretien et des assurances provoquée par l'inflation.",
+    "want": "Les conducteurs exigent des augmentations immédiates des tarifs de fret reflétant l'inflation réelle et les coûts indexés sur le dollar pour les pièces de véhicules, le carburant et les pneus.",
+    "changed": "27 novembre : Le syndicat a annoncé que la grève en était à son sixième jour, s'étendant à 20 villes à travers l'Iran."
    },
-   "summary": "Depuis le 22 novembre 2026, les camionneurs à travers l'Iran, y compris à Téhéran, sont en grève pour protester contre la détérioration de la situation économique. Organisée par l'Union des conducteurs de camions et des associations de transport à travers l'Iran, l'action implique des conducteurs qui refusent de transporter du fret jusqu'à ce que leurs demandes de tarifs plus élevés soient satisfaites. Les participants mentionnent la hausse des coûts des pièces de rechange, des pneus et du carburant, ainsi que des quotas de diesel inadéquats et des péages excessifs, comme principaux griefs. Selon les rapports, les terminaux de fret de plusieurs villes ont été fermés et la grève s'est élargie pour inclure 18 villes d'ici le cinquième jour. Bien que l'union ait exhorté les conducteurs à maintenir la grève, les responsables n'ont fourni aucune réponse officielle à cette perturbation en cours, bien que les grèves passées aient fait face à des menaces de punition judiciaire.",
+   "summary": "Les camionneurs iraniens ont lancé une grève nationale le 22 novembre 2026, pour protester contre la stagnation des tarifs de transport dans un contexte de forte inflation et de hausse des coûts opérationnels. Organisée par le Syndicat des camionneurs et des associations de transport de tout l'Iran, la grève a débuté dans des villes telles que Téhéran, Shiraz et Bandar Abbas avant de s'étendre à 20 villes d'ici le 27 novembre. Les conducteurs ont fait état de fortes hausses de prix pour les pneus, les pièces de rechange, l'huile moteur et les quotas de carburant, exigeant des ajustements des tarifs de fret alignés sur l'inflation réelle et les dépenses d'entretien des véhicules. Le syndicat a averti que des arrêts de travail prolongés pourraient perturber les chaînes d'approvisionnement nationales et la fabrication. Aucune réponse officielle du gouvernement n'a été signalée dans les sources.",
    "demands": [
-    "Révision des tarifs de transport",
-    "Coûts réduits pour les pièces de rechange et les pneus",
-    "Amélioration de la distribution de carburant",
-    "Réduction des péages routiers et municipaux"
+    "Révision immédiate des tarifs de fret en fonction de l'inflation",
+    "Baisse des coûts ou subventions pour les pneus, l'huile moteur et les pièces de rechange",
+    "Augmentation des quotas de carburant diesel et amélioration de la distribution de carburant",
+    "Réduction des péages routiers et municipaux",
+    "Résolution des retards de paiement des frais de transport"
    ],
    "response": "Aucune réponse officielle signalée dans les sources.",
    "updates": [
-    "La grève a commencé dans plusieurs villes, notamment Téhéran, Chiraz et Bandar Abbas.",
-    "La grève s'est poursuivie pour une deuxième journée alors que davantage de conducteurs et d'opérateurs de véhicules Nissan se sont joints au mouvement.",
-    "La grève est entrée dans son cinquième jour, l'union signalant que des conducteurs de 18 villes y participaient."
+    "Des camionneurs à Téhéran, Shiraz, Bandar Abbas, Dezful et plusieurs autres villes entament un arrêt de travail en raison de la hausse des coûts d'exploitation.",
+    "La grève entre dans sa deuxième journée avec la fermeture de terminaux de fret à Bandar Abbas et Dezful, et le ralliement de conducteurs de pick-up.",
+    "Le Syndicat des camionneurs et des associations de transport de tout l'Iran signale que la grève s'est étendue à 18 villes lors de son cinquième jour.",
+    "La grève atteint son sixième jour avec une participation s'étendant à 20 villes, alors que les conducteurs jurent de continuer jusqu'à ce que les revendications soient satisfaites."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "de": {
-   "title": "Lkw-Fahrer streiken im ganzen Iran gegen wirtschaftliche Bedingungen",
-   "seoTitle": "Teheraner Lkw-Fahrer im Streik",
+   "title": "Lkw-Fahrer streiken im ganzen Iran gegen steigende Kosten und niedrige Tarife",
+   "seoTitle": "Teheraner Lkw-Fahrer streiken wegen Kosten",
    "tea": {
-    "why": "Fahrer protestieren gegen hohe Inflation, steigende Wartungskosten, Kraftstoffmangel und Frachtraten, die die Betriebskosten nicht decken.",
-    "want": "Fahrer fordern eine sofortige Überarbeitung der Frachtraten entsprechend der Inflation sowie Entlastung von den hohen Kosten für Ersatzteile, Kraftstoff und Straßengebühren.",
-    "changed": "26. Nov.: Der Streik ging in seinen fünften Tag, wobei die Vereinigung der Lkw-Fahrer und Transportverbände die Teilnahme in 18 Städten meldete."
+    "why": "Lkw-Fahrer protestieren gegen stagnierende Frachtraten sowie stark gestiegene Kosten für Kraftstoff, Reifen, Wartung und Versicherungen, die durch die Inflation angetrieben werden.",
+    "want": "Die Fahrer fordern sofortige Erhöhungen der Frachtraten, die die reale Inflation und die an den US-Dollar gekoppelten Kosten für Fahrzeugteile, Kraftstoff und Reifen widerspiegeln.",
+    "changed": "27. November: Die Gewerkschaft gab bekannt, dass der Streik seinen sechsten Tag erreicht hat und sich auf 20 Städte im ganzen Iran ausgeweitet hat."
    },
-   "summary": "Seit dem 22. November 2026 streiken Lkw-Fahrer im ganzen Iran, darunter in Teheran, um gegen die Verschlechterung der wirtschaftlichen Bedingungen zu protestieren. Die von der Vereinigung der Lkw-Fahrer und Transportverbände im ganzen Iran organisierte Aktion besteht darin, dass Fahrer sich weigern, Fracht zu transportieren, bis ihre Forderungen nach höheren Tarifen erfüllt sind. Die Teilnehmer nennen die steigenden Kosten für Ersatzteile, Reifen und Kraftstoff sowie unzureichende Dieselquoten und übermäßige Mautgebühren als Hauptbeschwerden. Berichten zufolge wurden Frachtterminals in mehreren Städten geschlossen, und der Streik hat sich bis zum fünften Tag auf 18 Städte ausgeweitet. Obwohl die Vereinigung die Fahrer aufgefordert hat, den Streik fortzusetzen, haben offizielle Stellen keine formelle Reaktion auf die anhaltende Störung abgegeben, obwohl vergangene Streiks mit drohenden gerichtlichen Strafen konfrontiert waren.",
+   "summary": "Iranische Lkw-Fahrer begannen am 22. November 2026 einen landesweiten Streik, um gegen stagnierende Frachtraten infolge einer schweren Inflation und steigender Betriebskosten zu protestieren. Organisiert von der Gewerkschaft der Lkw-Fahrer und Transportverbände im ganzen Iran, begann der Streik in Städten wie Teheran, Schiras und Bandar Abbas, bevor er sich bis zum 27. November auf 20 Städte ausweitete. Die Fahrer berichteten von drastischen Preiserhöhungen für Reifen, Ersatzteile, Motoröl und Kraftstoffquoten und forderten Anpassungen der Frachtraten, die an die tatsächliche Inflation und die Fahrzeugwartungskosten angepasst sind. Die Gewerkschaft warnte, dass anhaltende Arbeitsniederlegungen die inländischen Lieferketten und die Produktion stören könnten. In den Quellen wurde keine offizielle Regierungsreaktion gemeldet.",
    "demands": [
-    "Überarbeitung der Frachtraten",
-    "Geringere Kosten für Ersatzteile und Reifen",
-    "Verbesserte Kraftstoffverteilung",
-    "Senkung der Straßen- und kommunalen Mautgebühren"
+    "Sofortige Überarbeitung der Frachtraten entsprechend der Inflation",
+    "Senkung der Kosten oder Subventionen für Reifen, Motoröl und Ersatzteile",
+    "Höhere Dieseltreibstoffquoten und verbesserte Kraftstoffverteilung",
+    "Senkung der Straßen- und Mautgebühren",
+    "Behebung von Verzögerungen bei der Auszahlung von Transportgebühren"
    ],
    "response": "In den Quellen wurde keine offizielle Reaktion gemeldet.",
    "updates": [
-    "Der Streik begann in mehreren Städten, darunter Teheran, Schiras und Bandar Abbas.",
-    "Der Streik dauerte einen zweiten Tag an, da sich weitere Fahrer und Nissan-Fahrzeugbetreiber der Bewegung anschlossen.",
-    "Der Streik ging in seinen fünften Tag, wobei die Vereinigung meldete, dass Fahrer in 18 Städten teilnahmen."
+    "Lkw-Fahrer in Teheran, Schiras, Bandar Abbas, Desful und mehreren anderen Städten beginnen wegen steigender Betriebskosten einen Arbeitskampf.",
+    "Der Streik geht in seinen zweiten Tag, wobei Frachtterminals in Bandar Abbas und Desful geschlossen werden und sich Pick-up-Fahrer anschließen.",
+    "Die Gewerkschaft der Lkw-Fahrer und Transportverbände im ganzen Iran berichtet, dass sich der Streik am fünften Tag auf 18 Städte ausgeweitet hat.",
+    "Der Streik erreicht seinen sechsten Tag, wobei sich die Beteiligung auf 20 Städte ausweitet, während die Fahrer geloben, weiterzumachen, bis die Forderungen erfüllt sind."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "it": {
-   "title": "Autotrasportatori in sciopero in tutto l'Iran contro le condizioni economiche",
-   "seoTitle": "Sciopero autotrasportatori a Teheran",
+   "title": "Sciopero dei camionisti in tutto l'Iran contro l'aumento dei costi e le basse tariffe",
+   "seoTitle": "Camionisti in sciopero a Teheran per i costi",
    "tea": {
-    "why": "I conducenti protestano contro l'inflazione elevata, l'aumento dei costi di manutenzione, la carenza di carburante e tariffe di trasporto che non coprono le spese operative.",
-    "want": "I conducenti chiedono una revisione immediata delle tariffe di trasporto per adeguarle all'inflazione e un sollievo dai costi elevati per pezzi di ricambio, carburante e pedaggi stradali.",
-    "changed": "26 nov.: Lo sciopero è entrato nel suo quinto giorno, con l'Unione degli autotrasportatori e delle associazioni di autotrasporto che ha segnalato la partecipazione in 18 città."
+    "why": "I camionisti protestano contro le tariffe di trasporto stagnanti e l'aumento vertiginoso dei costi di carburante, pneumatici, manutenzione e assicurazione guidato dall'inflazione.",
+    "want": "Gli autisti chiedono aumenti immediati delle tariffe di trasporto che riflettano la reale inflazione e i costi legati al dollaro per i ricambi dei veicoli, il carburante e i pneumatici.",
+    "changed": "27 novembre: Il sindacato ha annunciato che lo sciopero ha raggiunto il suo sesto giorno, estendendosi a 20 città in tutto l'Iran."
    },
-   "summary": "Dal 22 novembre 2026, gli autotrasportatori in tutto l'Iran, compresa Teheran, sono in sciopero per protestare contro il deterioramento delle condizioni economiche. Organizzata dall'Unione degli autotrasportatori e delle associazioni di autotrasporto in tutto l'Iran, l'azione prevede che i conducenti rifiutino di trasportare merci fino a quando non saranno soddisfatte le loro richieste di tariffe più elevate. I partecipanti citano l'aumento dei costi di pezzi di ricambio, pneumatici e carburante, insieme a quote di gasolio inadeguate e pedaggi eccessivi, come principali rimostranze. Secondo i rapporti, i terminal merci in diverse città sono stati chiusi e lo sciopero si è esteso fino a comprendere 18 città entro il quinto giorno. Sebbene l'unione abbia esortato i conducenti a mantenere lo sciopero, i funzionari non hanno fornito una risposta formale alla perturbazione in corso, sebbene scioperi passati abbiano affrontato minacce di sanzioni giudiziarie.",
+   "summary": "I camionisti iraniani hanno avviato uno sciopero nazionale il 22 novembre 2026, protestando contro le tariffe di trasporto stagnanti a causa della grave inflazione e dei crescenti costi operativi. Organizzato dall'Unione dei camionisti e delle associazioni di trasporto di tutto l'Iran, lo sciopero è iniziato in città tra cui Teheran, Shiraz e Bandar Abbas prima di espandersi a 20 città entro il 27 novembre. Gli autisti hanno segnalato forti aumenti di prezzo per pneumatici, pezzi di ricambio, olio motore e quote di carburante, chiedendo adeguamenti delle tariffe di trasporto in linea con l'effettiva inflazione e le spese di manutenzione dei veicoli. Il sindacato ha avvertito che interruzioni del lavoro prolungate potrebbero interrompere le catene di approvvigionamento domestiche e la produzione. Nelle fonti non è stata riportata alcuna risposta ufficiale del governo.",
    "demands": [
-    "Revisione delle tariffe di trasporto",
-    "Costi inferiori per pezzi di ricambio e pneumatici",
-    "Miglioramento della distribuzione del carburante",
-    "Riduzione dei pedaggi stradali e municipali"
+    "Revisione immediata delle tariffe di trasporto in linea con l'inflazione",
+    "Riduzione dei costi o sussidi per pneumatici, olio motore e parti di ricambio",
+    "Quote di gasolio più elevate e migliore distribuzione del carburante",
+    "Riduzione dei pedaggi stradali e comunali",
+    "Risoluzione dei ritardi nel pagamento delle tariffe di trasporto"
    ],
    "response": "Nessuna risposta ufficiale riportata nelle fonti.",
    "updates": [
-    "Lo sciopero è iniziato in più città, tra cui Teheran, Shiraz e Bandar Abbas.",
-    "Lo sciopero è continuato per un secondo giorno mentre altri conducenti e operatori di veicoli Nissan si sono uniti al movimento.",
-    "Lo sciopero è entrato nel suo quinto giorno, con l'unione che ha riferito che i conducenti in 18 città stavano partecipando."
+    "I camionisti di Teheran, Shiraz, Bandar Abbas, Dezful e diverse altre città iniziano un'interruzione del lavoro a causa dell'aumento dei costi operativi.",
+    "Lo sciopero entra nel suo secondo giorno con la chiusura dei terminal merci a Bandar Abbas e Dezful e l'adesione dei conducenti di pickup.",
+    "L'Unione dei camionisti e delle associazioni di trasporto di tutto l'Iran riferisce che lo sciopero si è esteso a 18 città nel suo quinto giorno.",
+    "Lo sciopero raggiunge il sesto giorno con una partecipazione che si estende a 20 città, mentre gli autisti promettono di continuare fino a quando le richieste non saranno soddisfatte."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "pt": {
-   "title": "Motoristas de camião em greve em todo o Irão contra as condições económicas",
-   "seoTitle": "Greve de camionistas em Teerão",
+   "title": "Greve de camionistas em todo o Irão devido ao aumento de custos e tarifas baixas",
+   "seoTitle": "Camionistas em greve em Teerão devido a custos",
    "tea": {
-    "why": "Os condutores protestam contra a inflação elevada, o aumento dos custos de manutenção, a escassez de combustível e tarifas de frete que não cobrem as despesas operacionais.",
-    "want": "Os condutores exigem uma revisão imediata das tarifas de frete para corresponder à inflação e alívio face aos elevados custos de peças sobressalentes, combustível e portagens rodoviárias.",
-    "changed": "26 de nov.: A greve entrou no seu quinto dia, tendo a União de Condutores de Camiões e Associações de Transportes reportado participação em 18 cidades."
+    "why": "Os camionistas estão a protestar contra as tarifas de frete estagnadas, a par dos custos crescentes de combustível, pneus, manutenção e seguros impulsionados pela inflação.",
+    "want": "Os condutores exigem aumentos imediatos nas tarifas de frete que reflitam a inflação real e os custos atrelados ao dólar para peças de veículos, combustível e pneus.",
+    "changed": "27 de novembro: O sindicato anunciou que a greve atingiu o seu sexto dia, espalhando-se por 20 cidades em todo o Irão."
    },
-   "summary": "Desde 22 de novembro de 2026, os motoristas de camião em todo o Irão, incluindo em Teerão, estão em greve para protestar contra a deterioração das condições económicas. Organizada pela União de Condutores de Camiões e Associações de Transportes em todo o Irão, a ação consiste em condutores recusarem-se a transportar carga até que as suas exigências de tarifas mais altas sejam atendidas. Os participantes apontam o aumento dos custos de peças sobressalentes, pneus e combustível, juntamente com quotas de gasóleo inadequadas e portagens excessivas, como principais queixas. De acordo com relatórios, os terminais de carga em várias cidades foram encerrados e a greve expandiu-se para incluir 18 cidades no quinto dia. Embora a união tenha instado os condutores a manter a greve, as autoridades não forneceram uma resposta formal à perturbação em curso, embora greves anteriores tenham enfrentado ameaças de punição judicial.",
+   "summary": "Os camionistas iranianos iniciaram uma greve nacional a 22 de novembro de 2026, protestando contra as tarifas de frete estagnadas em plena inflação severa e custos operacionais crescentes. Organizada pela União de Camionistas e Associações de Transporte de todo o Irão, a greve começou em cidades como Teerão, Shiraz e Bandar Abbas antes de se expandir para 20 cidades até 27 de novembro. Os condutores relataram aumentos acentuados de preços em pneus, peças sobressalentes, óleo de motor e quotas de combustível, exigindo ajustes nas tarifas de frete alinhados com a inflação real e as despesas de manutenção de veículos. O sindicato alertou que paralisações de trabalho prolongadas poderiam perturbar as cadeias de abastecimento domésticas e a fabricação. Nenhuma resposta oficial do governo foi relatada nas fontes.",
    "demands": [
-    "Revisão das tarifas de frete",
-    "Custos mais baixos para peças sobressalentes e pneus",
-    "Melhoria na distribuição de combustível",
-    "Redução de portagens rodoviárias e municipais"
+    "Revisão imediata das tarifas de frete em linha com a inflação",
+    "Redução de custos ou subsídios para pneus, óleo de motor e peças sobressalentes",
+    "Quotas mais altas de gasóleo e melhor distribuição de combustível",
+    "Redução de portagens rodoviárias e municipais",
+    "Resolução dos atrasos no pagamento das taxas de transporte"
    ],
-   "response": "Nenhuma resposta oficial reportada nas fontes.",
+   "response": "Nenhuma resposta oficial relatada nas fontes.",
    "updates": [
-    "A greve começou em várias cidades, incluindo Teerão, Shiraz e Bandar Abbas.",
-    "A greve continuou por um segundo dia à medida que mais condutores e operadores de veículos Nissan se juntavam ao movimento.",
-    "A greve entrou no seu quinto dia, tendo a união reportado que condutores em 18 cidades estavam a participar."
+    "Camionistas em Teerão, Shiraz, Bandar Abbas, Dezful e várias outras cidades iniciam uma paralisação de trabalho devido ao aumento dos custos operacionais.",
+    "A greve entra no seu segundo dia com o encerramento de terminais de carga em Bandar Abbas e Dezful, e a adesão de condutores de carrinhas de caixa aberta.",
+    "A União de Camionistas e Associações de Transporte de todo o Irão relata que a greve se estendeu a 18 cidades no seu quinto dia.",
+    "A greve atinge o seu sexto dia com a participação a expandir-se para 20 cidades, enquanto os condutores prometem continuar até que as exigências sejam atendidas."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "nl": {
-   "title": "Vrachtwagenchauffeurs staken in heel Iran tegen economische omstandigheden",
-   "seoTitle": "Vrachtwagenchauffeurs staken in Teheran",
+   "title": "Vrachtwagenchauffeurs staken in heel Iran vanwege stijgende kosten en lage tarieven",
+   "seoTitle": "Teheraanse vrachtwagenchauffeurs staken om kosten",
    "tea": {
-    "why": "Chauffeurs protesteren tegen hoge inflatie, stijgende onderhoudskosten, brandstoftekorten en vrhttarieven die de operationele kosten niet dekken.",
-    "want": "Chauffeurs eisen een onmiddellijke herziening van de vrhttarieven om aan te sluiten bij de inflatie en verlichting van de hoge kosten voor reserveonderdelen, brandstof en tolheffingen.",
-    "changed": "26 nov.: De staking ging zijn vijfde dag in, waarbij de Vakbond van Vrachtwagenchauffeurs en Transportverenigingen melding maakte van deelname in 18 steden."
+    "why": "Vrachtwagenchauffeurs protesteren tegen stagnerende vrhttarieven en de sterk gestegen kosten voor brandstof, banden, onderhoud en verzekeringen als gevolg van inflatie.",
+    "want": "Chauffeurs eisen onmiddellijke verhogingen van de vrhttarieven die de reële inflatie en de aan de dollar gekoppelde kosten voor voertuigonderdelen, brandstof en banden weerspiegelen.",
+    "changed": "27 november: De vakbond kondigde aan dat de staking haar zesde dag bereikte en zich had verspreid naar 20 steden in heel Iran."
    },
-   "summary": "Sinds 22 november 2026 staken vrachtwagenchauffeurs in heel Iran, waaronder in Teheran, uit protest tegen de verslechterende economische omstandigheden. De actie, georganiseerd door de Vakbond van Vrachtwagenchauffeurs en Transportverenigingen in heel Iran, houdt in dat chauffeurs weigeren vracht te vervoeren totdat aan hun eisen voor hogere tarieven wordt voldaan. Deelnemers noemen de stijgende kosten van reserveonderdelen, banden en brandstof, samen met inadequate dieselquota en buitensporige tolgelden, als voornaamste grieven. Volgens berichten zijn vrachtterminals in verschillende steden gesloten en is de staking tegen de vijfde dag uitgegroeid tot 18 steden. Hoewel de vakbond er bij chauffeurs op heeft aangedrongen de staking vol te houden, hebben functionarissen geen formele reactie gegeven op de aanhoudende verstoring, hoewel eerdere stakingen te maken kregen met dreigingen van gerechtelijke straffen.",
+   "summary": "Iraanse vrachtwagenchauffeurs zijn op 22 november 2026 een landelijke staking begonnen uit protest tegen stagnerende vrhttarieven te midden van ernstige inflatie en stijgende operationele kosten. De staking, georganiseerd door de Vakbond van Vrachtwagenchauffeurs en Transportverenigingen in heel Iran, begon in steden waaronder Teheran, Shiraz en Bandar Abbas voordat deze tegen 27 november werd uitgebreid naar 20 steden. Chauffeurs meldden scherpe prijsstijgingen voor banden, reserveonderdelen, motorolie en brandstofquota, en eisten aanpassingen van de vrhttarieven die in lijn zijn met de daadwerkelijke inflatie en de onderhoudskosten van voertuigen. De vakbond waarschuwde dat langdurige werkonderbrekingen de binnenlandse bevoorradingsketens en de productie zouden kunnen verstoren. Er werd in de bronnen geen officiële reactie van de overheid gemeld.",
    "demands": [
-    "Herziening van vrhttarieven",
-    "Lagere kosten voor reserveonderdelen en banden",
-    "Verbeterde brandstofdistributie",
-    "Verlaging van weg- en gemeentelijke tolgelden"
+    "Onmiddellijke herziening van de vrhttarieven in lijn met de inflatie",
+    "Lager kosten of subsidies voor banden, motorolie en reserveonderdelen",
+    "Hogere dieselbrandstofquota en een betere brandstofdistributie",
+    "Verlaging van weg- en gemeentelijke tolheffingen",
+    "Aanpak van vertragingen bij de uitbetaling van transportvergoedingen"
    ],
    "response": "Geen officiële reactie gemeld in de bronnen.",
    "updates": [
-    "De staking begon in meerdere steden, waaronder Teheran, Shiraz en Bandar Abbas.",
-    "De staking ging een tweede dag door toen meer chauffeurs en operators van Nissan-voertuigen zich bij de beweging aansloten.",
-    "De staking ging zijn vijfde dag in, waarbij de vakbond meldde dat chauffeurs in 18 steden deelnamen."
+    "Vrachtwagenchauffeurs in Teheran, Shiraz, Bandar Abbas, Dezful en verschillende andere steden beginnen een werkonderbreking vanwege stijgende operationele kosten.",
+    "De staking gaat haar tweede dag in, waarbij vrachtterminals in Bandar Abbas en Dezful sluiten en pick-up-chauffeurs zich aansluiten.",
+    "De Vakbond van Vrachtwagenchauffeurs en Transportverenigingen in heel Iran meldt dat de staking zich op de vijfde dag heeft uitgebreid naar 18 steden.",
+    "De staking bereikt haar zesde dag en de deelname breidt zich uit naar 20 steden, terwijl chauffeurs beloven door te gaan totdat aan de eisen is voldaan."
    ],
    "conflicts": [],
    "numbers": {}
