@@ -17,65 +17,77 @@
  "causes": [
   "labour",
   "transport",
-  "prices"
+  "infrastructure"
  ],
  "kind": "multi-day",
  "startedOn": "2026-11-23",
- "status": "ongoing",
- "vibe": "peak-loud",
+ "status": "ended",
+ "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "top-10"
- ],
- "isOngoing": true,
+ "review": "auto",
+ "reviewReasons": [],
+ "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Train drivers faced declining purchasing power from inflation, unresolved pay issues, tough work schedules, and safety concerns.",
-  "want": "SMAQ demands higher wages, improved working conditions, updated rest periods, career progression, and strict railway safety standards.",
-  "changed": "Nov 26: The strike shifted to a partial format, resulting in 225 train cancellations out of 1,063 scheduled by 7 p.m."
+  "why": "Train drivers are protesting against rising living costs, lost purchasing power, unfavorable working hours, and rail safety concerns.",
+  "want": "Workers are demanding salary adjustments, better career progression, improved rest periods, staff facilities, and enhanced rail safety.",
+  "changed": "Nov 27: The five-day nationwide train drivers' strike concluded after disrupting rail services across the country."
  },
- "summary": "The National Union of Portuguese Railway Drivers launched a five-day nationwide strike on November 23, 2026, disrupting services run by state operator CP – Comboios de Portugal across the country, including Lisbon, Porto, and Coimbra. Organised by SMAQ, the strike stemmed from unresolved issues regarding salary adjustments, career progression, working hours, and railway safety standards. An Arbitration Tribunal mandated minimum services for November 24 and 25, during which over 57 percent of scheduled trains were cancelled on Tuesday, according to RTP. Industrial action shifted to a partial strike on November 26, though long-distance and regional lines continued to experience cancellations. CP offered full refunds or exchanges to passengers.",
+ "summary": "Train drivers across Portugal launched a five-day nationwide strike starting November 23, 2026, causing widespread cancellations and delays on urban, regional, and long-distance rail services operated by CP – Comboios de Portugal. The industrial action was organised by the National Union of Portuguese Railway Drivers (SMAQ) following a breakdown in collective bargaining negotiations. The union cited eroding purchasing power, difficult working hours, and the need for stronger rail safety measures as key grievances. An arbitration tribunal established minimum service levels for certain days, particularly affecting commuter lines in Lisbon, Porto, and Coimbra, as well as intercity routes. The state-owned railway operator advised passengers of service disruptions and offered ticket refunds or exchanges.",
  "organizers": [
-  "National Union of Portuguese Railway Drivers",
-  "SMAQ"
+  "National Union of Portuguese Railway Drivers (SMAQ)"
  ],
  "demands": [
-  "Salary adjustments for inflation",
-  "Improved working conditions and rest periods",
-  "Career progression opportunities",
-  "Adherence to safety standards and labor agreements"
+  "Salary adjustments and restoration of purchasing power",
+  "Better career progression and professional recognition",
+  "Improved working patterns and rest periods",
+  "Enhanced rail safety conditions and staff facilities",
+  "Full adherence to existing labour agreements"
  ],
- "response": "CP – Comboios de Portugal warned passengers of extensive service disruptions, offered full ticket refunds or free exchanges, and operated minimum train services mandated by the Arbitration Tribunal.",
+ "response": "According to the sources, the state-owned railway company CP – Comboios de Portugal warned passengers of disruptions, advised travellers to check schedules, and provided options for ticket refunds or exchanges. An arbitration tribunal also established minimum operational services during the strike period.",
  "numbers": {},
  "updates": [
   {
    "at": "2026-11-19",
-   "text": "SMAQ announced a nationwide five-day strike of CP train drivers scheduled from November 23 to 27 over pay and working conditions.",
+   "text": "The National Union of Portuguese Railway Drivers announced a five-day strike from November 23 to 27.",
    "sources": [
     1
    ]
   },
   {
    "at": "2026-11-19",
-   "text": "The Arbitration Tribunal set minimum transport service levels for November 24 and 25 during the planned CP strike.",
+   "text": "An arbitration tribunal issued a decision establishing minimum services for the upcoming railway strike.",
    "sources": [
     2
    ]
   },
   {
-   "at": "2026-11-24",
-   "text": "The strike caused the cancellation of 140 out of 246 scheduled trains on Tuesday, representing 57 percent of services, according to RTP.",
+   "at": "2026-11-23",
+   "text": "The nationwide railway strike began at midnight, impacting services operated by Comboios de Portugal.",
    "sources": [
-    6
+    4
+   ]
+  },
+  {
+   "at": "2026-11-24",
+   "text": "Interfax reported that over half of scheduled railway services were cancelled due to the ongoing walkout.",
+   "sources": [
+    7
    ]
   },
   {
    "at": "2026-11-26",
-   "text": "CP cancelled 225 out of 1,063 scheduled trains by 7 p.m. as industrial action transitioned to a partial strike.",
+   "text": "Publico reported continued cancellations across long-distance, regional, and urban rail services.",
    "sources": [
-    8,
-    9
+    8
+   ]
+  },
+  {
+   "at": "2026-11-27",
+   "text": "The five-day industrial action by train drivers concluded.",
+   "sources": [
+    4,
+    10
    ]
   }
  ],
@@ -110,24 +122,24 @@
   },
   {
    "n": 5,
+   "url": "https://www.rtp.pt/noticias/economia/greve-de-maquinistas-da-cp-segundo-dia-e-de-paralisacao-total-com-servicos-minimos-as-horas-de-ponta_n1781235",
+   "publisher": "rtp.pt",
+   "title": "Greve de maquinistas da CP. Segundo dia é de paralisação total com serviços mínimos às horas de ponta",
+   "publishedAt": "2026-11-24T10:44:22.000Z"
+  },
+  {
+   "n": 6,
    "url": "https://agerpres.ro/politic/2026/11/24/mae-atentionare-de-calatorie-portugalia---greva-generala-a-mecanicilor-de-locomotiva--1616183",
    "publisher": "agerpres.ro",
    "title": "MAE/Atenționare de călătorie: Portugalia - Grevă generală a mecanicilor de locomotivă",
    "publishedAt": "2026-11-24T10:15:16.000Z"
   },
   {
-   "n": 6,
+   "n": 7,
    "url": "https://www.interfax.ru/world/1131002",
    "publisher": "interfax.ru",
    "title": "Более половины поездов не вышли на маршруты в Португалии из-за забастовки машинистов",
    "publishedAt": "2026-11-24T10:28:00.000Z"
-  },
-  {
-   "n": 7,
-   "url": "https://www.rtp.pt/noticias/economia/greve-de-maquinistas-da-cp-volta-a-travar-mais-de-metade-dos-comboios_n1781484",
-   "publisher": "rtp.pt",
-   "title": "Mais de metade dos comboios parados ao segundo dia de greve total dos maquinistas",
-   "publishedAt": "2026-11-25T10:36:25.000Z"
   },
   {
    "n": 8,
@@ -142,27 +154,35 @@
    "publisher": "rtp.pt",
    "title": "Greve na CP continua em formato parcial. Número de supressões de comboios baixa",
    "publishedAt": "2026-11-26T09:23:23.000Z"
+  },
+  {
+   "n": 10,
+   "url": "https://wrp.org.uk/features/strike-wave-over-pay-across-europe/",
+   "publisher": "wrp.org.uk",
+   "title": "Strike Wave Over Pay Across Europe! - Workers Revolutionary Party",
+   "publishedAt": "2026-11-27T00:00:00.000Z"
   }
  ],
  "conflicts": [],
  "confidence": 0.9,
- "publishers": 8,
- "reports24h": 4,
+ "publishers": 9,
+ "reports24h": 5,
  "reportsPrev24h": 6,
- "reports48h": 10,
+ "reports48h": 11,
  "firstSeenAt": "2026-11-19T16:54:04.683Z",
- "lastReportAt": "2026-11-26T09:23:23.000Z",
- "lastCheckedAt": "2026-11-27T01:53:28.545Z",
- "updatedAt": "2026-11-27T01:52:00.261Z",
+ "lastReportAt": "2026-11-27T00:00:00.000Z",
+ "lastCheckedAt": "2026-11-27T05:52:13.415Z",
+ "updatedAt": "2026-11-27T05:51:41.336Z",
  "responseSources": [
   1,
   2,
-  8
+  3,
+  7
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-27T01:52:00.261Z",
- "summaryOf": "da5d80f21006",
+ "summarizedAt": "2026-11-27T05:51:41.336Z",
+ "summaryOf": "dbdc9e64500b",
  "distinctFrom": [
   "e36829fb101",
   "e83945ff77e",
@@ -176,158 +196,177 @@
  ],
  "publishedAt": "2026-11-19T20:56:38.568Z",
  "i18n": {
-  "of": "15315c48800eaa79",
-  "at": "2026-11-27T01:53:48.612Z",
+  "of": "89ad8cbe8f5b3458",
+  "at": "2026-11-27T05:52:59.878Z",
   "tries": 1,
   "es": {
-   "title": "Maquinistas de trenes portugueses se declaran en huelga por salarios y seguridad",
-   "seoTitle": "Maquinistas en Lisboa se declaran en huelga por salarios",
+   "title": "Maquinistas de trenes en Portugal se declaran en huelga por salarios y seguridad",
+   "seoTitle": "Maquinistas en Lisboa en huelga por salarios",
    "tea": {
-    "why": "Los maquinistas de trenes sufrieron una pérdida de poder adquisitivo debido a la inflación, problemas salariales sin resolver, horarios de trabajo duros y problemas de seguridad.",
-    "want": "SMAQ exige salarios más altos, mejores condiciones laborales, periodos de descanso actualizados, progresión profesional y normas estrictas de seguridad ferroviaria.",
-    "changed": "26 de nov.: La huelga pasó a un formato parcial, lo que provocó la cancelación de 225 trenes de los 1.063 programados antes de las 19:00 horas."
+    "why": "Los maquinistas de tren protestan contra el aumento del coste de la vida, la pérdida de poder adquisitivo, las horas de trabajo desfavorables y los problemas de seguridad ferroviaria.",
+    "want": "Los trabajadores exigen ajustes salariales, mejor progresión profesional, mejores periodos de descanso, instalaciones para el personal y mayor seguridad ferroviaria.",
+    "changed": "27 de nov.: La huelga nacional de maquinistas de tren de cinco días concluyó tras interrumpir los servicios ferroviarios en todo el país."
    },
-   "summary": "El Sindicato Nacional de Maquinistas Ferroviarios Portugueses inició una huelga nacional de cinco días el 23 de noviembre de 2026, interrumpiendo los servicios gestionados por el operador estatal CP – Comboios de Portugal en todo el país, incluyendo Lisboa, Oporto y Coímbra. Organizada por el SMAQ, la huelga se debió a cuestiones sin resolver relativas a los ajustes salariales, la progresión profesional, la jornada laboral y las normas de seguridad ferroviaria. Un tribunal de arbitraje ordenó servicios mínimos para los días 24 y 25 de noviembre, durante los cuales se canceló más del 57 por ciento de los trenes programados el martes, según RTP. La acción sindical pasó a ser una huelga parcial el 26 de noviembre, aunque las líneas de larga distancia y regionales siguieron sufriendo cancelaciones. CP ofreció reembolsos completos o cambios a los pasajeros.",
+   "summary": "Maquinistas de tren de todo Portugal iniciaron una huelga nacional de cinco días a partir del 23 de noviembre de 2026, lo que causó cancelaciones generalizadas y retrasos en los servicios ferroviarios urbanos, regionales y de larga distancia operados por CP – Comboios de Portugal. La acción sindical fue organizada por el Sindicato Nacional de Maquinistas de Ferrocarriles Portugueses (SMAQ) tras un estancamiento en las negociaciones de negociación colectiva. El sindicato citó la erosión del poder adquisitivo, las difíciles horas de trabajo y la necesidad de medidas de seguridad ferroviaria más sólidas como quejas principales. Un tribunal de arbitraje estableció niveles de servicios mínimos para determinados días, lo que afectó especialmente a las líneas de cercanías en Lisboa, Oporto y Coímbra, así como a las rutas interurbanas. La empresa ferroviaria estatal advirtió a los pasajeros sobre las interrupciones del servicio y ofreció reembolsos o cambios de billetes.",
    "demands": [
-    "Ajustes salariales por la inflación",
-    "Mejora de las condiciones laborales y de los periodos de descanso",
-    "Oportunidades de progresión profesional",
-    "Cumplimiento de las normas de seguridad y de los acuerdos laborales"
+    "Ajustes salariales y recuperación del poder adquisitivo",
+    "Mejor progresión profesional y reconocimiento profesional",
+    "Mejores patrones de trabajo y periodos de descanso",
+    "Condiciones mejoradas de seguridad ferroviaria e instalaciones para el personal",
+    "Cumplimiento total de los acuerdos laborales existentes"
    ],
-   "response": "CP – Comboios de Portugal advirtió a los pasajeros de amplias interrupciones del servicio, ofreció reembolsos completos de billetes o cambios gratuitos y operó los servicios mínimos de tren ordenados por el tribunal de arbitraje.",
+   "response": "Según las fuentes, la empresa ferroviaria estatal CP – Comboios de Portugal advirtió a los pasajeros sobre las interrupciones, aconsejó a los viajeros que comprobaran los horarios y ofreció opciones para el reembolso o cambio de billetes. Un tribunal de arbitraje también estableció servicios operativos mínimos durante el periodo de huelga.",
    "updates": [
-    "El SMAQ anunció una huelga nacional de cinco días de los maquinistas de CP programada del 23 al 27 de noviembre por cuestiones de salario y condiciones laborales.",
-    "El tribunal de arbitraje fijó los niveles mínimos de servicio de transporte para los días 24 y 25 de noviembre durante la huelga prevista de CP.",
-    "La huelga provocó la cancelación de 140 de los 246 trenes programados el martes, lo que representa el 57 por ciento de los servicios, según RTP.",
-    "CP canceló 225 de los 1.063 trenes programados a las 19:00 horas al pasar la acción sindical a ser una huelga parcial."
+    "El Sindicato Nacional de Maquinistas de Ferrocarriles Portugueses anunció una huelga de cinco días del 23 al 27 de noviembre.",
+    "Un tribunal de arbitraje emitió una decisión estableciendo servicios mínimos para la próxima huelga ferroviaria.",
+    "La huelga ferroviaria nacional comenzó a medianoche y afectó a los servicios operados por Comboios de Portugal.",
+    "Interfax informó que más de la mitad de los servicios ferroviarios programados fueron cancelados debido al paro en curso.",
+    "Publico informó de cancelaciones continuas en los servicios ferroviarios de larga distancia, regionales y urbanos.",
+    "La acción industrial de cinco días de los maquinistas de tren concluyó."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "fr": {
-   "title": "Grève des conducteurs de train portugais pour les salaires et la sécurité",
+   "title": "Les conducteurs de train portugais en grève pour les salaires et la sécurité",
    "seoTitle": "Grève des conducteurs de train à Lisbonne pour les salaires",
    "tea": {
-    "why": "Les conducteurs de train ont fait face à une baisse de leur pouvoir d'achat liée à l'inflation, à des problèmes salariaux non résolus, à des horaires de travail difficiles et à des préoccupations en matière de sécurité.",
-    "want": "Le SMAQ exige des salaires plus élevés, de meilleures conditions de travail, des périodes de repos actualisées, une progression de carrière et des normes strictes de sécurité ferroviaire.",
-    "changed": "26 nov. : La grève est passée à un format partiel, entraînant l'annulation de 225 trains sur 1 063 prévus d'ici 19 h."
+    "why": "Les conducteurs de train protestent contre la hausse du coût de la vie, la perte de pouvoir d'achat, des horaires de travail défavorables et des préoccupations concernant la sécurité ferroviaire.",
+    "want": "Les travailleurs exigent des ajustements salariaux, une meilleure progression de carrière, de meilleures périodes de repos, des installations pour le personnel et une sécurité ferroviaire renforcée.",
+    "changed": "27 nov. : La grève nationale des conducteurs de train d'une durée de cinq jours s'est achevée après avoir perturbé les services ferroviaires dans tout le pays."
    },
-   "summary": "Le Syndicat national des conducteurs de chemins de fer portugais a lancé une grève nationale de cinq jours le 23 novembre 2026, perturbant les services assurés par l'opérateur public CP – Comboios de Portugal dans tout le pays, notamment à Lisbonne, Porto et Coimbra. Organisée par le SMAQ, la grève découlait de problèmes non résolus concernant les ajustements salariaux, l'évolution de carrière, le temps de travail et les normes de sécurité ferroviaire. Un tribunal d'arbitrage a imposé des services minimums pour les 24 et 25 novembre, période durant laquelle plus de 57 pour cent des trains prévus ont été annulés mardi, selon RTP. Le mouvement de grève s'est transformé en grève partielle le 26 novembre, bien que les lignes grandes et régionales aient continué de subir des annulations. CP a offert des remboursements intégraux ou des échanges aux passagers.",
+   "summary": "Des conducteurs de train à travers le Portugal ont entamé une grève nationale de cinq jours à compter du 23 novembre 2026, provoquant des annulations massives et des retards sur les services ferroviaires urbains, régionaux et de grande ligne exploités par CP – Comboios de Portugal. L'action syndicale a été organisée par le Syndicat national des conducteurs de chemins de fer portugais (SMAQ) à la suite d'une rupture des négociations collectives. Le syndicat a invoqué l'érosion du pouvoir d'achat, des horaires de travail difficiles et la nécessité de mesures de sécurité ferroviaire plus strictes comme principaux griefs. Un tribunal d'arbitrage a établi des niveaux de service minimum pour certains jours, affectant particulièrement les lignes de trains de banlieue à Lisbonne, Porto et Coimbra, ainsi que les liaisons interurbaines. L'entreprise ferroviaire publique a averti les passagers des perturbations de service et a proposé des remboursements ou des échanges de billets.",
    "demands": [
-    "Ajustements salariaux face à l'inflation",
-    "Amélioration des conditions de travail et des périodes de repos",
-    "Opportunités d'évolution de carrière",
-    "Respect des normes de sécurité et des accords de travail"
+    "Ajustements salariaux et restauration du pouvoir d'achat",
+    "Meilleure progression de carrière et reconnaissance professionnelle",
+    "Amélioration des rythmes de travail et des périodes de repos",
+    "Conditions de sécurité ferroviaire renforcées et installations pour le personnel",
+    "Respect total des accords de travail existants"
    ],
-   "response": "CP – Comboios de Portugal a averti les passagers de perturbations importantes du service, a offert des remboursements complets de billets ou des échanges gratuits et a exploité les services ferroviaires minimaux ordonnés par le tribunal d'arbitrage.",
+   "response": "Selon les sources, l'entreprise ferroviaire publique CP – Comboios de Portugal a averti les passagers des perturbations, conseillé aux voyageurs de vérifier les horaires et fourni des options pour le remboursement ou l'échange des billets. Un tribunal d'arbitrage a également établi des services opérationnels minimums pendant la période de grève.",
    "updates": [
-    "Le SMAQ a annoncé une grève nationale de cinq jours des conducteurs de train de CP prévue du 23 au 27 novembre pour des raisons de salaire et de conditions de travail.",
-    "Le tribunal d'arbitrage a fixé les niveaux de service de transport minimum pour les 24 et 25 novembre pendant la grève prévue de CP.",
-    "La grève a provoqué l'annulation de 140 trains sur 246 prévus mardi, soit 57 pour cent des services, selon RTP.",
-    "CP a annulé 225 trains sur 1 063 prévus à 19 h alors que le mouvement de grève passait à une grève partielle."
+    "Le Syndicat national des conducteurs de chemins de fer portugais a annoncé une grève de cinq jours du 23 au 27 novembre.",
+    "Un tribunal d'arbitrage a rendu une décision établissant des services minimums pour la grève ferroviaire à venir.",
+    "La grève ferroviaire nationale a débuté à minuit, impactant les services exploités par Comboios de Portugal.",
+    "Interfax a rapporté que plus de la moitié des services ferroviaires programmés ont été annulés en raison de la grève en cours.",
+    "Publico a rapporté des annulations continues sur les services ferroviaires de grande ligne, régionaux et urbains.",
+    "L'action syndicale de cinq jours des conducteurs de train a pris fin."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "de": {
-   "title": "Streik portugiesischer Lokführer für höhere Löhne und Sicherheit",
-   "seoTitle": "Streik der Lissaboner Lokführer für höhere Löhne",
+   "title": "Portugiesische Zugführer streiken für Löhne und Sicherheit",
+   "seoTitle": "Lissaboner Zugführer streiken für Löhne",
    "tea": {
-    "why": "Lokführer waren mit sinkender Kaufkraft durch Inflation, ungelösten Lohnfragen, harten Arbeitszeiten und Sicherheitsbedenken konfrontiert.",
-    "want": "Die SMAQ fordert höhere Löhne, bessere Arbeitsbedingungen, angepasste Ruhezeiten, berufliche Aufstiegschancen und strenge Bahnsicherheitsstandards.",
-    "changed": "26. Nov.: Der Streik ging in ein partielles Format über, was bis 19 Uhr zur Annullierung von 225 von 1.063 geplanten Zügen führte."
+    "why": "Zugführer protestieren gegen steigende Lebenshaltungskosten, Kaufkraftverlust, ungünstige Arbeitszeiten und Bedenken bezüglich der Eisenbahnsicherheit.",
+    "want": "Die Beschäftigten fordern Gehaltsanpassungen, bessere Karriereentwicklung, verbesserte Ruhezeiten, Personalräume und eine erhöhte Eisenbahnsicherheit.",
+    "changed": "27. Nov.: Der fünftägige landesweite Streik der Zugführer ging zu Ende, nachdem er den Bahnverkehr im ganzen Land beeinträchtigt hatte."
    },
-   "summary": "Die Nationale Gewerkschaft der portugiesischen Eisenbahnlokführer rief am 23. November 2026 zu einem fünftägigen landesweiten Streik auf und störte damit die Dienste des staatlichen Betreibers CP – Comboios de Portugal im ganzen Land, einschließlich Lissabon, Porto und Coimbra. Organisiert von der SMAQ, resultierte der Streik aus ungelösten Problemen bezüglich Gehaltsanpassungen, beruflicher Entwicklung, Arbeitszeiten und Eisenbahnsicherheitsstandards. Ein Schiedsgericht ordnete Mindestdienste für den 24. und 25. November an, während derer laut RTP am Dienstag über 57 Prozent der planmäßigen Züge ausfielen. Am 26. November ging der Arbeitskampf in einen Teilstreik über, obwohl auf Fern- und Regionalstrecken weiterhin Züge ausfielen. CP bot den Fahrgästen vollständige Erstattungen oder Umtauschmöglichkeiten an.",
+   "summary": "Zugführer in ganz Portugal begannen am 23. November 2026 einen fünftägigen landesweiten Streik, der zu weitreichenden Zugausfällen und Verspätungen im städtischen, regionalen und Fernverkehr der CP – Comboios de Portugal führte. Die Arbeitskampfmaßnahme wurde von der Nationalen Gewerkschaft der portugiesischen Eisenbahnlokführer (SMAQ) nach einem Scheitern der Tarifverhandlungen organisiert. Die Gewerkschaft nannte als Hauptgründe die schwindende Kaufkraft, schwierige Arbeitszeiten und die Notwendigkeit stärkerer Sicherheitsmaßnahmen im Schienenverkehr. Ein Schiedsgericht legte für bestimmte Tage Mindestversorgungsleistungen fest, was insbesondere Pendlerstrecken in Lissabon, Porto und Coimbra sowie Intercity-Verbindungen betraf. Das staatliche Eisenbahnunternehmen warnte die Fahrgäste vor Betriebsstörungen und bot Ticketrückerstattungen oder -umtausch an.",
    "demands": [
-    "Gehaltsanpassungen für die Inflation",
-    "Verbesserte Arbeitsbedingungen und Ruhezeiten",
-    "Möglichkeiten zum beruflichen Aufstieg",
-    "Einhaltung von Sicherheitsstandards und Arbeitsvereinbarungen"
+    "Gehaltsanpassungen und Wiederherstellung der Kaufkraft",
+    "Bessere Karriereentwicklung und berufliche Anerkennung",
+    "Verbesserte Arbeitsmuster und Ruhezeiten",
+    "Verbesserte Eisenbahnsicherheitsbedingungen und Personalräume",
+    "Vollständige Einhaltung bestehender Arbeitsvereinbarungen"
    ],
-   "response": "CP – Comboios de Portugal warnte die Fahrgäste vor umfassenden Betriebsstörungen, bot vollständige Ticketrückerstattungen oder kostenlosen Umtausch an und betrieb die vom Schiedsgericht angeordneten Mindestzugdienste.",
+   "response": "Quellen zufolge warnte das staatliche Eisenbahnunternehmen CP – Comboios de Portugal die Fahrgäste vor Störungen, riet Reisenden, die Fahrpläne zu überprüfen, und stellte Optionen für Ticketrückerstattungen oder -umtausch zur Verfügung. Ein Schiedsgericht legte während des Streikzeitraums zudem Mindestbetriebsdienste fest.",
    "updates": [
-    "Die SMAQ kündigte einen fünftägigen landesweiten Streik der CP-Lokführer vom 23. bis 27. November wegen der Löhne und Arbeitsbedingungen an.",
-    "Das Schiedsgericht legte Mindestverkehrsdienste für den 24. und 25. November während des geplanten CP-Streiks fest.",
-    "Der Streik führte laut RTP am Dienstag zur Annullierung von 140 von 246 planmäßigen Zügen, was 57 Prozent der Dienste entspricht.",
-    "CP annullierte bis 19 Uhr 225 von 1.063 geplanten Zügen, da der Arbeitskampf in einen Teilstreik überging."
+    "Die Nationale Gewerkschaft der portugiesischen Eisenbahnlokführer kündigte einen fünftägigen Streik vom 23. bis 27. November an.",
+    "Ein Schiedsgericht erließ eine Entscheidung zur Festlegung von Mindestdiensten für den bevorstehenden Bahnstreik.",
+    "Der landesweite Bahnstreik begann um Mitternacht und betraf den Betrieb von Comboios de Portugal.",
+    "Interfax berichtete, dass aufgrund des laufenden Ausstands über die Hälfte der planmäßigen Zugverbindungen gestrichen wurden.",
+    "Publico berichtete über anhaltende Ausfälle im Fern-, Regional- und Stadtverkehr.",
+    "Der fünftägige Arbeitskampf der Zugführer ging zu Ende."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "it": {
-   "title": "I macchinisti dei treni portoghesi scioperano per salari e sicurezza",
-   "seoTitle": "I macchinisti di Lisbona scioperano per i salari",
+   "title": "I macchinisti portoghesi scioperano per salari e sicurezza",
+   "seoTitle": "Macchinisti a Lisbona in sciopero per i salari",
    "tea": {
-    "why": "I macchinisti dei treni hanno dovuto affrontare il calo del potere d'acquisto dovuto all'inflazione, questioni salariali irrisolte, orari di lavoro pesanti e problemi di sicurezza.",
-    "want": "Il SMAQ richiede salari più alti, migliori condizioni di lavoro, periodi di riposo aggiornati, progressione di carriera e rigidi standard di sicurezza ferroviaria.",
-    "changed": "26 nov.: Lo sciopero è passato a un formato parziale, portando alla cancellazione di 225 treni su 1.063 programmati entro le 19:00."
+    "why": "I macchinisti protestano contro l'aumento del costo della vita, la perdita di potere d'acquisto, gli orari di lavoro sfavorevoli e i problemi di sicurezza ferroviaria.",
+    "want": "I lavoratori chiedono adeguamenti salariali, una migliore progressione di carriera, periodi di riposo migliorati, strutture per il personale e maggiore sicurezza ferroviaria.",
+    "changed": "27 nov.: Lo sciopero nazionale di cinque giorni dei macchinisti si è concluso dopo aver interrotto i servizi ferroviari in tutto il paese."
    },
-   "summary": "Il Sindacato nazionale dei macchinisti ferroviari portoghesi ha indetto uno sciopero nazionale di cinque giorni il 23 novembre 2026, interrompendo i servizi gestiti dall'operatore statale CP – Comboios de Portugal in tutto il paese, comprese Lisbona, Porto e Coimbra. Organizzato dal SMAQ, lo sciopero è nato da questioni irrisolte relative ad adeguamenti salariali, progressione di carriera, orari di lavoro e standard di sicurezza ferroviaria. Un tribunale arbitrale ha imposto servizi minimi per il 24 e 25 novembre, durante i quali oltre il 57 percento dei treni programmati è stato cancellato martedì, secondo RTP. L'azione sindacale è passata a uno sciopero parziale il 26 novembre, sebbene le linee a lunga percorrenza e regionali abbiano continuato a registrare cancellazioni. CP ha offerto rimborsi completi o cambi ai passeggeri.",
+   "summary": "I macchinisti di tutto il Portogallo hanno avviato uno sciopero nazionale di cinque giorni a partire dal 23 novembre 2026, causando diffuse cancellazioni e ritardi sui servizi ferroviari urbani, regionali e a lunga percorrenza gestiti da CP – Comboios de Portugal. L'azione sindacale è stata organizzata dal Sindacato nazionale dei macchinisti ferroviari portoghesi (SMAQ) in seguito a una rottura nelle trattative di contrattazione collettiva. Il sindacato ha citato come principali rimostranze l'erosione del potere d'acquisto, i difficili orari di lavoro e la necessità di misure di sicurezza ferroviaria più forti. Un tribunale arbitrale ha stabilito livelli di servizio minimo per determinati giorni, colpendo in particolare le linee dei treni pendolari a Lisbona, Porto e Coimbra, nonché le rotte intercity. La compagnia ferroviaria statale ha avvisato i passeggeri delle interruzioni del servizio e ha offerto rimborsi o cambi di biglietto.",
    "demands": [
-    "Adeguamenti salariali per l'inflazione",
-    "Migliori condizioni di lavoro e periodi di riposo",
-    "Opportunità di progressione di carriera",
-    "Rispetto degli standard di sicurezza e degli accordi di lavoro"
+    "Adeguamenti salariali e ripristino del potere d'acquisto",
+    "Migliore progressione di carriera e riconoscimento professionale",
+    "Modelli di lavoro e periodi di riposo migliorati",
+    "Condizioni di sicurezza ferroviaria potenziate e strutture per il personale",
+    "Piena adesione ai contratti di lavoro esistenti"
    ],
-   "response": "CP – Comboios de Portugal ha avvisato i passeggeri di ampie interruzioni del servizio, ha offerto rimborsi completi dei biglietti o cambi gratuiti e ha fatto circolare i servizi ferroviari minimi ordinati dal tribunale arbitrale.",
+   "response": "Secondo le fonti, la compagnia ferroviaria statale CP – Comboios de Portugal ha avvisato i passeggeri dei disservizi, ha consigliato ai viaggiatori di controllare gli orari e ha fornito opzioni per il rimborso o il cambio dei biglietti. Un tribunale arbitrale ha anche stabilito servizi operativi minimi durante il periodo di sciopero.",
    "updates": [
-    "Il SMAQ ha annunciato uno sciopero nazionale di cinque giorni dei macchinisti di CP programmato dal 23 al 27 novembre per motivi di retribuzione e condizioni di lavoro.",
-    "Il tribunale arbitrale ha stabilito i livelli minimi di servizio di trasporto per il 24 e 25 novembre durante lo sciopero pianificato di CP.",
-    "Lo sciopero ha causato la cancellazione di 140 treni su 246 programmati martedì, pari al 57 percento dei servizi, secondo RTP.",
-    "CP ha cancellato 225 treni su 1.063 programmati entro le 19:00 mentre l'azione sindacale si trasformava in uno sciopero parziale."
+    "Il Sindacato nazionale dei macchinisti ferroviari portoghesi ha annunciato uno sciopero di cinque giorni dal 23 al 27 novembre.",
+    "Un tribunale arbitrale ha emesso una decisione che stabilisce i servizi minimi per il prossimo sciopero ferroviario.",
+    "Lo sciopero ferroviario nazionale è iniziato a mezzanotte, incidendo sui servizi gestiti da Comboios de Portugal.",
+    "Interfax ha riferito che oltre la metà dei servizi ferroviari programmati è stata cancellata a causa dell'agitazione in corso.",
+    "Publico ha riferito di continue cancellazioni sui servizi ferroviari a lunga percorrenza, regionali e urbani.",
+    "L'azione sindacale di cinque giorni dei macchinisti si è conclusa."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "pt": {
-   "title": "Maquinistas de comboios portugueses entram em greve por salários e segurança",
-   "seoTitle": "Maquinistas em Lisboa entram em greve por salários",
+   "title": "Maquinistas de comboio em Portugal entram em greve por salários e segurança",
+   "seoTitle": "Maquinistas em Lisboa em greve por salários",
    "tea": {
-    "why": "Os maquinistas de comboios enfrentaram uma diminuição do poder de compra devido à inflação, questões salariais por resolver, horários de trabalho difíceis e preocupações de segurança.",
-    "want": "O SMAQ exige salários mais altos, melhores condições de trabalho, períodos de descanso atualizados, progressão na carreira e normas rigorosas de segurança ferroviária.",
-    "changed": "26 de nov.: A greve passou para um formato parcial, resultando em 225 supressões de comboios em 1.063 programados até às 19:00."
+    "why": "Os maquinistas de comboio estão a protestar contra o aumento do custo de vida, a perda de poder de compra, horários de trabalho desfavoráveis e preocupações com a segurança ferroviária.",
+    "want": "Os trabalhadores exigem aumentos salariais, melhor progressão na carreira, períodos de descanso melhorados, instalações para o pessoal e maior segurança ferroviária.",
+    "changed": "27 nov.: A greve nacional de cinco dias dos maquinistas de comboio terminou após perturbar os serviços ferroviários em todo o país."
    },
-   "summary": "O Sindicato Nacional dos Maquinistas dos Caminhos de Ferro Portugueses iniciou uma greve nacional de cinco dias a 23 de novembro de 2026, perturbando os serviços assegurados pelo operador público CP – Comboios de Portugal em todo o país, incluindo Lisboa, Porto e Coimbra. Organizada pelo SMAQ, a greve decorreu de questões por resolver relativas a atualizações salariais, progressão na carreira, horário de trabalho e normas de segurança ferroviária. Um tribunal arbitral decretou serviços mínimos para os dias 24 e 25 de novembro, período durante o qual mais de 57 por cento dos comboios programados foram suprimidos na terça-feira, segundo a RTP. A ação de luta passou a greve parcial a 26 de novembro, embora as linhas de longo curso e regionais continuassem a registar supressões. A CP ofereceu reembolsos integrais ou trocas aos passageiros.",
+   "summary": "Maquinistas de comboio em todo o Portugal iniciaram uma greve nacional de cinco dias a partir de 23 de novembro de 2026, causando cancelamentos generalizados e atrasos nos serviços ferroviários urbanos, regionais e de longo curso operados pela CP – Comboios de Portugal. A greve foi organizada pelo Sindicato Nacional dos Maquinistas dos Caminhos de Ferro Portugueses (SMAQ) na sequência de um impasse nas negociações de contratação coletiva. O sindicato apontou a erosão do poder de compra, os horários de trabalho difíceis e a necessidade de medidas mais fortes de segurança ferroviária como as principais reivindicações. Um tribunal arbitral estabeleceu níveis de serviços mínimos para determinados dias, afetando particularmente as linhas suburbanas em Lisboa, Porto e Coimbra, bem como as rotas intercidades. A operadora ferroviária estatal avisou os passageiros sobre as perturbações no serviço e ofereceu reembolsos ou trocas de bilhetes.",
    "demands": [
-    "Atualizações salariais para a inflação",
-    "Melhores condições de trabalho e períodos de descanso",
-    "Oportunidades de progressão na carreira",
-    "Cumprimento das normas de segurança e dos acordos laborais"
+    "Atualizações salariais e recuperação do poder de compra",
+    "Melhor progressão na carreira e reconhecimento profissional",
+    "Padrões de trabalho e períodos de descanso melhorados",
+    "Condições de segurança ferroviária reforçadas e instalações para o pessoal",
+    "Cumprimento integral dos acordos laborais existentes"
    ],
-   "response": "A CP – Comboios de Portugal alertou os passageiros para extensas perturbações no serviço, ofereceu reembolsos integrais de bilhetes ou trocas gratuitas e operou os serviços mínimos de comboios decretados pelo tribunal arbitral.",
+   "response": "Segundo as fontes, a empresa ferroviária estatal CP – Comboios de Portugal avisou os passageiros sobre perturbações, aconselhou os viajantes a verificar os horários e disponibilizou opções para reembolso ou troca de bilhetes. Um tribunal arbitral também estabeleceu serviços operacionais mínimos durante o período de greve.",
    "updates": [
-    "O SMAQ anunciou uma greve nacional de cinco dias dos maquinistas da CP agendada de 23 a 27 de novembro devido a salários e condições de trabalho.",
-    "O tribunal arbitral fixou os níveis mínimos de serviço de transporte para os dias 24 e 25 de novembro durante a greve planeada da CP.",
-    "A greve provocou a supressão de 140 em 246 comboios programados na terça-feira, representando 57 por cento dos serviços, segundo a RTP.",
-    "A CP suprimiu 225 em 1.063 comboios programados até às 19:00 à medida que a ação de luta transitava para uma greve parcial."
+    "O Sindicato Nacional dos Maquinistas dos Caminhos de Ferro Portugueses anunciou uma greve de cinco dias de 23 a 27 de novembro.",
+    "Um tribunal arbitral emitiu uma decisão a estabelecer serviços mínimos para a próxima greve ferroviária.",
+    "A greve ferroviária nacional começou à meia-noite, afetando os serviços operados pela Comboios de Portugal.",
+    "A Interfax noticiou que mais metade dos serviços ferroviários programados foram cancelados devido à paralisação em curso.",
+    "O Publico noticiou cancelamentos continuados nos serviços ferroviários de longo curso, regionais e urbanos.",
+    "A ação de luta de cinco dias dos maquinistas de comboio terminou."
    ],
    "conflicts": [],
    "numbers": {}
   },
   "nl": {
-   "title": "Portugese treinomachinisten staken om loon en veiligheid",
-   "seoTitle": "Treinomachinisten in Lissabon staken om loon",
+   "title": "Portugese treinomachinevoerders staken om loon en veiligheid",
+   "seoTitle": "Treinmachinisten in Lissabon staken om loon",
    "tea": {
-    "why": "Treinomachinisten kregen te maken met dalende koopkracht door inflatie, onopgeloste loonkwesties, zware roosters en veiligheidszorg.",
-    "want": "SMAQ eist hogere lonen, betere arbeidsomstandigheden, aangepaste rusttijden, doorgroeimogelijkheden en strikte spoorwegveiligheidsnormen.",
-    "changed": "26 nov.: De staking ging over in een gedeeltelijk format, wat leidde tot 225 geschrapte treinen van de 1.063 geplande om 19.00 uur."
+    "why": "Treinmachinisten protesteren tegen stijgende kosten van levensonderhoud, koopkrachtverlies, ongunstige werktijden en zorgen over de spoorwegveiligheid.",
+    "want": "Werknemers eisen loonaanpassingen, betere carrièreontwikkeling, verbeterde rusttijden, personeelsfaciliteiten en een verbeterde spoorwegveiligheid.",
+    "changed": "27 nov.: De vijfdaagse landelijke staking van treinmachinisten werd beëindigd nadat deze de spoorwegdiensten in het hele land had ontregeld."
    },
-   "summary": "De Nationale Vakbond van Portugese Treinmachinisten begon op 23 november 2026 aan een landelijke staking van vijf dagen, waardoor de diensten van staatsvervoerder CP – Comboios de Portugal in het hele land, waaronder Lissabon, Porto en Coimbra, werden ontregeld. De staking, georganiseerd door SMAQ, vloeide voort uit onopgeloste kwesties rond loonaanpassing, loopbaanontwikkeling, werktijden en spoorwegveiligheidsnormen. Een arbitragetribunal verplichtte minimale diensten voor 24 en 25 november, waarna volgens RTP op dinsdag meer dan 57 procent van de geplande treinen werd geannuleerd. De actie ging op 26 november over in een gedeeltelijke staking, hoewel langeafstands- en regionale lijnen te maken bleven hebben met annuleringen. CP bood passagiers volledige terugbetalingen of omwisselingen aan.",
+   "summary": "Treinmachinisten in heel Portugal zijn op 23 november 2026 begonnen met een vijfdaagse landelijke staking, wat leidde tot grootschalige annuleringen en vertragingen bij stads-, regionale en langeafstandsspoorwoddiensten geëxploiteerd door CP – Comboios de Portugal. De actie werd georganiseerd door de Nationale Vakbond van Portugese Treinmachinisten (SMAQ) na een vastlopen van de cao-onderhandelingen. De vakbond noemde de afbrokkelende koopkracht, moeilijke werktijden en de noodzaak van sterkere spoorwegveiligheidsmaatregelen als belangrijkste grieven. Een scheidsgerecht stelde minimumdienstverleningsniveaus vast voor bepaalde dagen, wat met name forensenlijnen in Lissabon, Porto en Coimbra, evenals intercityroutes trof. De staatsspoorwegmaatschappij waarschuwde passagiers voor verstoringen van de dienstregeling en bood restituties of omwisselingen van tickets aan.",
    "demands": [
-    "Loonaanpassingen voor inflatie",
-    "Verbeterde arbeidsomstandigheden en rusttijden",
-    "Mogelijkheden voor loopbaanontwikkeling",
-    "Naleving van veiligheidsnormen en cao's"
+    "Loonaanpassingen en herstel van de koopkracht",
+    "Betere carrièreontwikkeling en professionele erkenning",
+    "Verbeterde werkroosters en rusttijden",
+    "Verhoogde spoorwegveiligheidsomstandigheden en personeelsfaciliteiten",
+    "Volledige naleving van bestaande arbeidsvoorwaardenovereenkomsten"
    ],
-   "response": "CP – Comboios de Portugal waarschuwde reizigers voor ingrijpende dienstverleningsstoringen, bood volledige kaartvergoedingen of gratis omwisselingen aan en reed met de door het arbitragetribunal verplichte minimale treindiensten.",
+   "response": "Volgens de bronnen waarschuwde het staatsspoorwegbedrijf CP – Comboios de Portugal passagiers voor verstoringen, adviseerde reizigers om dienstregelingen te controleren en bood opties voor restitutie of omwisseling van tickets. Een scheidsgerecht stelde tevens minimale operationele diensten vast tijdens de stakingsperiode.",
    "updates": [
-    "SMAQ kondigde een landelijke vijfdaagse staking aan van CP-treinmachinisten gepland van 23 tot 27 november om loon en arbeidsomstandigheden.",
-    "Het arbitragetribunal stelde minimale vervoersdiensten vast voor 24 en 25 november tijdens de geplande CP-staking.",
-    "De staking leidde tot de annulering van 140 van de 246 geplande treinen op dinsdag, wat neerkomt op 57 procent van de diensten, aldus RTP.",
-    "CP annuleerde 225 van de 1.063 geplande treinen om 19.00 uur toen de actie overging in een gedeeltelijke staking."
+    "De Nationale Vakbond van Portugese Treinmachinisten kondigde een staking van vijf dagen aan van 23 tot 27 november.",
+    "Een scheidsgerecht vaardigde een beslissing uit waarin minimumdiensten werden vastgesteld voor de komende spoorwegstaking.",
+    "De landelijke spoorwegstaking begon om middernacht en had impact op diensten geëxploiteerd door Comboios de Portugal.",
+    "Interfax meldde dat ruim de helft van de geplande spoorwegdiensten was geannuleerd vanwege de lopende werkonderbreking.",
+    "Publico meldde aanhoudende annuleringen op langeafstands-, regionale en stadstreindiensten.",
+    "De vijfdaagse staking door treinmachinisten liep ten einde."
    ],
    "conflicts": [],
    "numbers": {}
   }
- }
+ },
+ "endedOn": "2026-11-27"
 }
