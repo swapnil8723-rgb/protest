@@ -3,7 +3,7 @@
  "slug": "batumi-besiktas-fans-protest-nov-2026",
  "stage": "live",
  "title": "Besiktas fans clash with police and march in Batumi over Palestine",
- "seoTitle": "Batumi Besiktas fans protest",
+ "seoTitle": "Batumi march and clash over Palestine",
  "place": {
   "city": "Batumi",
   "region": "Adjara",
@@ -16,6 +16,7 @@
  "scope": "local",
  "causes": [
   "palestine",
+  "police",
   "war-peace"
  ],
  "kind": "one-day",
@@ -23,18 +24,16 @@
  "status": "ended",
  "vibe": "wrapped-up",
  "severity": "normal",
- "review": "pending",
- "reviewReasons": [
-  "low-confidence"
- ],
+ "review": "auto",
+ "reviewReasons": [],
  "isOngoing": false,
  "published": true,
  "tea": {
-  "why": "Supporters of Turkish football club Besiktas protested against Israel and in support of Palestine during a Europa League match.",
-  "want": "Protesters called for an end to the occupation and freedom for Palestine.",
-  "changed": "Nov 26: Georgian police and Besiktas fans clashed inside and outside Batumi Stadium, leading to the brief suspension of a match."
+  "why": "Fans gathered to express support for Palestine and protest against the opposing Israeli football team during a Europa League match.",
+  "want": "To protest occupation, show solidarity with Palestine, and display banners and flags.",
+  "changed": "Nov 26: Georgian police clashed with fans, leading to 16 detentions and a brief suspension of the football match."
  },
- "summary": "On November 26, 2026, supporters of the Turkish football club Besiktas marched through Batumi, Georgia, and gathered at Batumi Arena for a Europa League match against Israel's Hapoel Be'er Sheva. Demonstrators displayed pro-Palestine banners, leading to a confrontation with Georgian police who used water cannons, pepper spray, and physical force inside the stadium. The match was briefly suspended due to the violence before resuming and ending in a 2-1 victory for Besiktas. Besiktas and other Turkish clubs accused Georgian security of using disproportionate force, while Turkish and Georgian interior ministers held phone talks regarding the incident.",
+ "summary": "On November 26, 2026, fans of the Turkish football club Besiktas marched through Batumi, Georgia, and later clashed with Georgian police inside the Batumi Arena during a Europa League match against Israeli club Hapoel Be'er Sheva. The demonstrations were organized in solidarity with Palestine, featuring banners and flags with slogans such as \"Resist occupation, free Palestine.\" Tensions escalated when security forces intervened, resulting in a brief suspension of the match, the use of pepper spray and water cannons, and physical altercations. Besiktas and several other Turkish football clubs strongly condemned the Georgian authorities for using disproportionate force. Georgian officials reported detaining 16 people and injuring three police officers, while Turkish and Georgian interior ministers held phone talks regarding the incident.",
  "organizers": [
   "Besiktas"
  ],
@@ -42,7 +41,7 @@
   "Resist occupation",
   "Free Palestine"
  ],
- "response": "According to Civil.ge and The Telegraph, Georgian police used water cannons and pepper spray against fans. Turkish officials and clubs condemned the actions, alleging disproportionate use of force. Georgian Interior Minister Sulkhan Tamazashvili spoke with his Turkish counterpart, stating they tried to calm the situation.",
+ "response": "The Interior Ministry reported detaining 16 people and stated that three officers were injured. Georgian authorities also rejected claims that the unrest was linked to the display of a Palestinian flag by a fan, adding that UEFA officials confiscated the flags.",
  "numbers": {
   "crowd": {
    "value": 20000,
@@ -50,12 +49,26 @@
    "sources": [
     1
    ]
+  },
+  "arrests": {
+   "value": 16,
+   "text": "detaining 16 people",
+   "sources": [
+    2
+   ]
+  },
+  "injuries": {
+   "value": 3,
+   "text": "three officers were injured",
+   "sources": [
+    2
+   ]
   }
  },
  "updates": [
   {
    "at": "2026-11-26",
-   "text": "Besiktas fans gathered in Batumi's main square and marched loudly before the match.",
+   "text": "Besiktas fans marched loudly through Batumi and gathered in the city's largest square prior to the Europa League match.",
    "sources": [
     1,
     2
@@ -63,10 +76,28 @@
   },
   {
    "at": "2026-11-26",
-   "text": "Clashes erupted between fans and police inside Batumi Stadium, causing a brief suspension of the match.",
+   "text": "Clashes erupted between fans and Georgian police inside the stadium after banners and Palestinian flags were displayed.",
    "sources": [
     1,
-    2
+    2,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-26",
+   "text": "The match was briefly suspended during the first half before resuming and finishing in a 2-1 victory for Besiktas.",
+   "sources": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "at": "2026-11-26",
+   "text": "Turkish and Georgian interior ministers held phone talks to discuss the clashes and the treatment of Turkish supporters.",
+   "sources": [
+    2,
+    3
    ]
   }
  ],
@@ -84,168 +115,199 @@
    "publisher": "civil.ge",
    "title": "Turkish, Georgian Officials Hold Phone Talks As Batumi Football Match Erupts in Clashes - Civil Georgia",
    "publishedAt": "2026-11-26T21:43:41.000Z"
+  },
+  {
+   "n": 3,
+   "url": "https://www.aljazeera.com/sports/2026/11/26/georgian-police-clash-with-turkiyes-besiktas-fans-over-palestinian-flag?traffic_source=rss",
+   "publisher": "aljazeera.com",
+   "title": "Georgian police clash with Turkiye’s Besiktas fans over Palestinian flag",
+   "publishedAt": "2026-11-26T23:37:17.000Z"
   }
  ],
  "conflicts": [],
- "confidence": 0.7,
- "publishers": 2,
- "reports24h": 2,
+ "confidence": 0.85,
+ "publishers": 3,
+ "reports24h": 3,
  "reportsPrev24h": 0,
- "reports48h": 2,
+ "reports48h": 3,
  "firstSeenAt": "2026-11-26T21:54:52.899Z",
- "lastReportAt": "2026-11-26T21:43:41.000Z",
- "lastCheckedAt": "2026-11-26T21:57:58.221Z",
- "updatedAt": "2026-11-26T21:57:57.415Z",
+ "lastReportAt": "2026-11-26T23:37:17.000Z",
+ "lastCheckedAt": "2026-11-27T01:53:28.545Z",
+ "updatedAt": "2026-11-27T01:53:03.660Z",
  "endedOn": "2026-11-26",
  "responseSources": [
-  1,
-  2
+  2,
+  3
  ],
  "seriousInjuries": false,
  "sensitive": false,
- "summarizedAt": "2026-11-26T21:57:57.415Z",
- "summaryOf": "381571696ea4",
+ "summarizedAt": "2026-11-27T01:53:03.660Z",
+ "summaryOf": "59ccb32c409d",
  "publishedAt": "2026-11-26T21:57:58.221Z",
  "i18n": {
-  "of": "6933fef1080d113a",
-  "at": "2026-11-26T21:58:48.257Z",
+  "of": "61583557d434296a",
+  "at": "2026-11-27T01:53:54.703Z",
   "tries": 1,
   "es": {
    "title": "Aficionados del Besiktas se enfrentan a la policía y marchan en Batumi por Palestina",
-   "seoTitle": "Protesta de hinchas del Besiktas en Batumi",
+   "seoTitle": "Marcha y enfrentamientos en Batumi por Palestina",
    "tea": {
-    "why": "Partidarios del club de fútbol turco Besiktas protestaron contra Israel y en apoyo a Palestina durante un partido de la Liga Europa.",
-    "want": "Los manifestantes pidieron el fin de la ocupación y la libertad para Palestina.",
-    "changed": "26 de noviembre: La policía georgiana y los aficionados del Besiktas se enfrentaron dentro y fuera del estadio de Batumi, lo que provocó la suspensión temporal de un partido."
+    "why": "Los aficionados se reunieron para expresar su apoyo a Palestina y protestar contra el equipo de fútbol israelí rival durante un partido de la Liga Europa.",
+    "want": "Protestar contra la ocupación, mostrar solidaridad con Palestina y exhibir pancartas y banderas.",
+    "changed": "26 de nov.: La policía de Georgia se enfrentó a los aficionados, lo que dio lugar a 16 detenciones y a una breve suspensión del partido de fútbol."
    },
-   "summary": "El 26 de noviembre de 2026, seguidores del club de fútbol turco Besiktas marcharon por Batumi, Georgia, y se congregaron en el estadio de Batumi para un partido de la Liga Europa contra el Hapoel Be'er Sheva de Israel. Los manifestantes mostraron pancartas pro-Palestina, lo que derivó en un enfrentamiento con la policía georgiana, que empleó cañones de agua, gas pimienta y fuerza física dentro del recinto deportivo. El encuentro se suspendió brevemente debido a los altercados antes de reanudarse y finalizar con una victoria de 2-1 para el Besiktas. El Besiktas y otros clubes turcos acusaron a la seguridad de Georgia de emplear fuerza desproporcionada, mientras que los ministros de Interior de Turquía y Georgia mantuvieron conversaciones telefónicas sobre el incidente.",
+   "summary": "El 26 de noviembre de 2026, los aficionados del club de fútbol turco Besiktas marcharon por Batumi, Georgia, y posteriormente se enfrentaron a la policía georgiana dentro del Batumi Arena durante un partido de la Liga Europa contra el club israelí Hapoel Be'er Sheva. Las manifestaciones se organizaron en solidaridad con Palestina e incluyeron pancartas y banderas con lemas como \"Resiste a la ocupación, libera a Palestina\". Las tensiones aumentaron cuando las fuerzas de seguridad intervinieron, lo que provocó una breve suspensión del partido, el uso de gas pimienta y cañones de agua, y altercados físicos. El Besiktas y varios otros clubes de fútbol turcos condenaron enérgicamente a las autoridades georgianas por el uso de la fuerza desproporcionada. Los funcionarios georgianos informaron de la detención de 16 personas y de tres policías heridos, mientras que los ministros del Interior de Turquía y Georgia mantuvieron conversaciones telefónicas sobre el incidente.",
    "demands": [
     "Resistir la ocupación",
-    "Palestina libre"
+    "Liberar a Palestina"
    ],
-   "response": "Según Civil.ge y The Telegraph, la policía georgiana utilizó cañones de agua y gas pimienta contra los aficionados. Autoridades y clubes turcos condenaron los actos, al alegar un uso desproporcionado de la fuerza. El ministro del Interior de Georgia, Sulkhan Tamazashvili, habló con su homólogo turco y afirmó que intentaron calmar la situación.",
+   "response": "El Ministerio del Interior informó de la detención de 16 personas y declaró que tres agentes resultaron heridos. Las autoridades georgianas también rechazaron las afirmaciones de que los disturbios estuvieran relacionados con la exhibición de una bandera palestina por parte de un aficionado, y añadieron que los funcionarios de la UEFA confiscaron las banderas.",
    "updates": [
-    "Los aficionados del Besiktas se congregaron en la plaza principal de Batumi y marcharon ruidosamente antes del partido.",
-    "Se produjeron enfrentamientos entre los hinchas y la policía dentro del estadio de Batumi, lo que causó la breve suspensión del encuentro."
+    "Los aficionados del Besiktas marcharon ruidosamente por Batumi y se reunieron en la plaza más grande de la ciudad antes del partido de la Liga Europa.",
+    "Se produjeron enfrentamientos entre los aficionados y la policía georgiana dentro del estadio tras la exhibición de pancartas y banderas palestinas.",
+    "El partido fue suspendido brevemente durante la primera parte antes de reanudarse y terminar con una victoria por 2-1 para el Besiktas.",
+    "Los ministros del Interior turco y georgiano mantuvieron conversaciones telefónicas para debatir los enfrentamientos y el trato a los seguidores turcos."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "alrededor de 20.000 aficionados asistieron al partido"
+    "crowd": "alrededor de 20.000 aficionados asistieron al partido",
+    "arrests": "la detención de 16 personas",
+    "injuries": "tres agentes resultaron heridos"
    }
   },
   "fr": {
-   "title": "Des supporters de Beşiktaş s'affrontent avec la police et défilent à Batoumi pour la Palestine",
-   "seoTitle": "Protestation des supporters de Beşiktaş à Batoumi",
+   "title": "Des supporters de Beşiktaş s'affrontent avec la police et manifestent à Batoumi pour la Palestine",
+   "seoTitle": "Manifestation et affrontements à Batoumi pour la Palestine",
    "tea": {
-    "why": "Des supporters du club de football turc Beşiktaş ont protesté contre Israël et en soutien à la Palestine lors d'un match de Ligue Europa.",
-    "want": "Les manifestants ont appelé à la fin de l'occupation et à la liberté pour la Palestine.",
-    "changed": "26 nov. : La police géorgienne et les supporters de Beşiktaş se sont affrontés à l'intérieur et à l'extérieur du stade de Batoumi, entraînant la suspension brève d'un match."
+    "why": "Des supporters se sont rassemblés pour exprimer leur soutien à la Palestine et protester contre l'équipe de football israélienne adverse lors d'un match de la Ligue Europa.",
+    "want": "Protester contre l'occupation, montrer la solidarité avec la Palestine et afficher des banderoles et des drapeaux.",
+    "changed": "26 nov. : La police gégeoise s'est affrontée avec des supporters, entraînant 16 interpellations et une brève suspension du match de football."
    },
-   "summary": "Le 26 novembre 2026, des partisans du club de football turc Beşiktaş ont défilé à Batoumi, en Géorgie, et se sont rassemblés à l'Arena de Batoumi pour un match de Ligue Europa contre l'Hapoël Beer-Sheva d'Israël. Les manifestants ont affiché des banderoles pro-palestiniennes, ce qui a conduit à une confrontation avec la police géorgienne qui a utilisé des canons à eau, du gaz poivré et la force physique à l'intérieur du stade. Le match a été brièvement suspendu en raison des violences avant de reprendre et de se terminer par une victoire 2-1 pour Beşiktaş. Beşiktaş et d'autres clubs turcs ont accusé la sécurité géorgienne d'avoir fait usage d'une force disproportionnée, tandis que les ministres de l'Intérieur turc et géorgien ont eu des entretiens téléphoniques concernant l'incident.",
+   "summary": "Le 26 novembre 2026, des supporters du club de football turc Beşiktaş ont défilé à Batoumi, en Géorgie, avant de s'affronter avec la police géorgienne à l'intérieur de la Batumi Arena lors d'un match de la Ligue Europa contre le club israélien Hapoel Beer-Sheva. Les manifestations ont été organisées en solidarité avec la Palestine, avec des banderoles et des drapeaux portant des slogans tels que « Résistez à l'occupation, libérez la Palestine ». Les tensions ont dégénéré lorsque les forces de sécurité sont intervenue, entraînant une brève suspension du match, l'utilisation de gaz poivre et de canons à eau, ainsi que des altercations physiques. Beşiktaş et plusieurs autres clubs de football turcs ont fermement condamné les autorités géorgiennes pour l'utilisation d'une force disproportionnée. Des responsables géorgiens ont fait état de l'interpellation de 16 personnes et de trois policiers blessés, tandis que les ministres de l'Intérieur turc et géorgien ont eu des entretiens téléphoniques concernant l'incident.",
    "demands": [
     "Résister à l'occupation",
-    "Palestine libre"
+    "Libérer la Palestine"
    ],
-   "response": "Selon Civil.ge et The Telegraph, la police géorgienne a utilisé des canons à eau et du gaz poivré contre les supporters. Des responsables et des clubs turcs ont condamné ces actes, alléguant un recours disproportionné à la force. Le ministre géorgien de l'Intérieur, Sulkhan Tamazashvili, s'est entretenu par téléphone avec son homologue turc, affirmant qu'ils avaient tenté d'apaiser la situation.",
+   "response": "Le ministère de l'Intérieur a fait état de l'interpellation de 16 personnes et a déclaré que trois agents avaient été blessés. Les autorités géorgiennes ont également rejeté les affirmations selon lesquelles les troubles étaient liés à l'affichage d'un drapeau palestinien par un supporter, ajoutant que des responsables de l'UEFA avaient confisqué les drapeaux.",
    "updates": [
-    "Les supporters de Beşiktaş se sont rassemblés sur la place principale de Batoumi et ont défilé bruyamment avant le match.",
-    "Des affrontements ont éclaté entre les supporters et la police à l'intérieur du stade de Batoumi, provoquant une brève suspension du match."
+    "Des supporters de Beşiktaş ont défilé bruyamment dans Batoumi et se sont rassemblés sur la plus grande place de la ville avant le match de la Ligue Europa.",
+    "Des affrontements ont éclaté entre des supporters et la police géorgienne à l'intérieur du stade après l'affichage de banderoles et de drapeaux palestiniens.",
+    "Le match a été brièvement suspendu pendant la première mi-temps avant de reprendre et de se terminer par une victoire 2-1 pour Beşiktaş.",
+    "Les ministres de l'Intérieur turc et géorgien ont eu des entretiens téléphoniques pour discuter des affrontements et du traitement réservé aux supporters turcs."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "environ 20 000 supporters ont assisté au match"
+    "crowd": "environ 20 000 supporters ont assisté au match",
+    "arrests": "l'interpellation de 16 personnes",
+    "injuries": "trois agents ont été blessés"
    }
   },
   "de": {
-   "title": "Besiktas-Fans liefern sich Zusammenstöße mit der Polizei und demonstrieren in Batumi für Palästina",
-   "seoTitle": "Batumi Besiktas-Fans Protest",
+   "title": "Besiktas-Fans liefern sich Zusammenstöße mit der Polizei und marschieren in Batumi für Palästina",
+   "seoTitle": "Marsch und Zusammenstoß in Batumi wegen Palästina",
    "tea": {
-    "why": "Anhänger des türkischen Fußballclubs Besiktas protestierten während eines Europa-League-Spiels gegen Israel und zur Unterstützung Palästinas.",
-    "want": "Demonstranten forderten ein Ende der Besatzung und Freiheit für Palästina.",
-    "changed": "26. Nov.: Georgische Polizei und Besiktas-Fans gerieten innerhalb und außerhalb des Batumi-Stadions aneinander, was zur kurzen Unterbrechung eines Spiels führte."
+    "why": "Fans versammelten sich, um ihre Unterstützung für Palästina auszudrücken und während eines Europa-League-Spiels gegen die gegnerische israelische Fußballmannschaft zu protestieren.",
+    "want": "Gegen die Besatzung zu protestieren, Solidarität mit Palästina zu zeigen und Banner sowie Flaggen zu zeigen.",
+    "changed": "26. Nov.: Die georgische Polizei stieß mit Fans zusammen, was zu 16 Festnahmen und einer kurzen Unterbrechung des Fußballspiels führte."
    },
-   "summary": "Am 26. November 2026 zogen Anhänger des türkischen Fußballclubs Besiktas durch das georgische Batumi und versammelten sich in der Batumi Arena zu einem Europa-League-Spiel gegen das israelische Hapoel Be'er Scheva. Demonstranten zeigten pro-palästinensische Banner, was zu einer Auseinandersetzung mit der georgischen Polizei führte, die im Stadion Wasserwerfer, Pfefferspray und physische Gewalt einsetzte. Das Spiel wurde aufgrund der gewaltsamen Vorfälle kurzzeitig unterbrochen, bevor es fortgesetzt wurde und mit einem 2:1-Sieg für Besiktas endete. Besiktas und andere türkische Vereine warfen den georgischen Sicherheitskräften den Einsatz unverhältnismäßiger Gewalt vor, während die türkischen und georgischen Innenminister Telefonate über den Vorfall führten.",
+   "summary": "Am 26. November 2026 marschierten Fans des türkischen Fußballklubs Besiktas durch Batumi in Georgien und lieferten sich später während eines Europa-League-Spiels gegen den israelischen Klub Hapoel Be'er Sheva Zusammenstöße mit der georgischen Polizei in der Batumi Arena. Die Kundgebungen wurden aus Solidarität mit Palästina organisiert und zeigten Banner und Flaggen mit Slogans wie „Widerstand gegen die Besatzung, befreit Palästina“. Die Spannungen eskalierten, als Sicherheitskräfte eingriffen, was zu einer kurzen Unterbrechung des Spiels, dem Einsatz von Pfefferspray und Wasserwerfern sowie zu handgreiflichen Auseinandersetzungen führte. Besiktas und mehrere andere türkische Fußballklubs verurteilten die georgischen Behörden scharf für den Einsatz unverhältnismäßiger Gewalt. Georgische Beamte berichteten von der Festnahme von 16 Personen und drei verletzten Polizisten, während die türkischen und georgischen Innenminister Telefonate über den Vorfall führten.",
    "demands": [
     "Widerstand gegen die Besatzung",
-    "Freies Palästina"
+    "Palästina befreien"
    ],
-   "response": "Berichten von Civil.ge und The Telegraph zufolge setzte die georgische Polizei Wasserwerfer und Pfefferspray gegen Fans ein. Türkische Beamte und Vereine verurteilten die Maßnahmen und warfen einen unverhältnismäßigen Gewalteinsatz vor. Der georgische Innenminister Sulschan Tamasaschwili sprach mit seinem türkischen Amtskollegen und erklärte, man habe versucht, die Lage zu beruhigen.",
+   "response": "Das Innenministerium berichtete von der Festnahme von 16 Personen und erklärte, dass drei Beamte verletzt wurden. Die georgischen Behörden wiesen zudem Behauptungen zurück, die Unruhen stünden im Zusammenhang mit dem Zeigen einer palästinensischen Flagge durch einen Fan, und fügten hinzu, dass UEFA-Offizielle die Flaggen beschlagnahmten.",
    "updates": [
-    "Besiktas-Fans versammelten sich auf dem Hauptplatz von Batumi und marschierten vor dem Spiel lautstark umher.",
-    "Im Batumi-Stadion kam es zu Zusammenstößen zwischen Fans und Polizei, die eine kurze Unterbrechung des Spiels verursachten."
+    "Besiktas-Fans marschierten lautstark durch Batumi und versammelten sich vor dem Europa-League-Spiel auf dem größten Platz der Stadt.",
+    "Im Stadion kam es zu Zusammenstößen zwischen Fans und der georgischen Polizei, nachdem Banner und palästinensische Flaggen gezeigt worden waren.",
+    "Das Spiel wurde in der ersten Halbzeit kurz unterbrochen, bevor es fortgesetzt wurde und mit einem 2:1-Sieg für Besiktas endete.",
+    "Die türkischen und georgischen Innenminister führten Telefonate, um die Zusammenstöße und die Behandlung der türkischen Anhänger zu besprechen."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "rund 20.000 Fans besuchten das Spiel"
+    "crowd": "etwa 20.000 Fans besuchten das Spiel",
+    "arrests": "die Festnahme von 16 Personen",
+    "injuries": "drei Beamte wurden verletzt"
    }
   },
   "it": {
-   "title": "Tifosi del Besiktas si scontrano con la polizia e sfilano a Batumi per la Palestina",
-   "seoTitle": "Protesta tifosi Besiktas a Batumi",
+   "title": "I tifosi del Beşiktaş si scontrano con la polizia e marciano a Batumi per la Palestina",
+   "seoTitle": "Marcia e scontri a Batumi per la Palestina",
    "tea": {
-    "why": "I sostenitori del club calcistico turco Besiktas hanno protestato contro Israele e a sostegno della Palestina durante una partita di Europa League.",
-    "want": "I manifestanti hanno chiesto la fine dell'occupazione e la libertà per la Palestina.",
-    "changed": "26 nov: La polizia georgiana e i tifosi del Besiktas si sono scontrati dentro e fuori lo stadio di Batumi, portando alla breve sospensione di una partita."
+    "why": "I tifosi si sono radunati per esprimere sostegno alla Palestina e protestare contro la squadra di calcio israeliana avversaria durante una partita di Europa League.",
+    "want": "Protestare contro l'occupazione, mostrare solidarietà alla Palestina ed esporre striscioni e bandiere.",
+    "changed": "26 nov.: La polizia georgiana si è scontrata con i tifosi, portando a 16 arresti e a una breve sospensione della partita di calcio."
    },
-   "summary": "Il 26 novembre 2026, i sostenitori del club calcistico turco Besiktas hanno sfilato per Batumi, in Georgia, e si sono radunati presso l'Arena di Batumi per una partita di Europa League contro l'Hapoel Be'er Sheva di Israele. I dimostranti hanno esposto striscioni pro-Palestina, dando luogo a un confronto con la polizia georgiana che ha usato idranti, spray al peperoncino e forza fisica all'interno dello stadio. La partita è stata brevemente sospesa a causa delle violenze prima di riprendere e concludersi con una vittoria per 2-1 del Besiktas. Il Besiktas e altri club turchi hanno accusato la sicurezza georgiana di aver usato una forza sproporzionata, mentre i ministri degli Interni turco e georgiano hanno tenuto colloqui telefonici riguardo all'incidente.",
+   "summary": "Il 26 novembre 2026, i tifosi del club calcistico turco Beşiktaş hanno sfilato in corteo a Batumi, in Georgia, e in seguito si sono scontrati con la polizia georgiana all'interno della Batumi Arena durante una partita di Europa League contro il club israeliano Hapoel Be'er Sheva. Le manifestazioni sono state organizzate in solidarietà con la Palestina, con striscioni e bandiere recanti slogan come \"Resisti all'occupazione, libera la Palestina\". Le tensioni sono escalate quando le forze di sicurezza sono intervenute, provocando una breve sospensione della partita, l'uso di spray al peperoncino e idranti, e colluttazioni fisiche. Il Beşiktaş e molti altri club calcistici turchi hanno condannato con fermezza le autorità georgiane per l'uso di una forza sproporzionata. Le autorità georgiane hanno riferito di aver arrestato 16 persone e di aver ferito tre agenti di polizia, mentre i ministri dell'Interno turco e georgiano hanno tenuto colloqui telefonici in merito all'incidente.",
    "demands": [
     "Resistere all'occupazione",
-    "Palestina libera"
+    "Liberare la Palestina"
    ],
-   "response": "Secondo Civil.ge e The Telegraph, la polizia georgiana ha usato idranti e spray al peperoncino contro i tifosi. Funzionari e club turchi hanno condannato le azioni, sostenendo un uso sproporzionato della forza. Il ministro dell'Interno georgiano Sulkhan Tamazashvili ha parlato con la sua controparte turca, dichiarando di aver cercato di calmare la situazione.",
+   "response": "Il Ministero dell'Interno ha riferito di aver arrestato 16 persone e ha dichiarato che tre agenti sono rimasti feriti. Le autorità georgiane hanno anche respinto le affermazioni secondo cui i disordini fossero legati all'esposizione di una bandiera palestinese da parte di un tifoso, aggiungendo che i funzionari della UEFA hanno confiscato le bandiere.",
    "updates": [
-    "I tifosi del Besiktas si sono radunati nella piazza principale di Batumi e hanno sfilato rumorosamente prima della partita.",
-    "Sono scoppiati scontri tra i tifosi e la polizia all'interno dello stadio di Batumi, causando una breve sospensione della partita."
+    "I tifosi del Beşiktaş hanno marciato rumorosamente attraverso Batumi e si sono radunati nella piazza più grande della città prima della partita di Europa League.",
+    "Sono scoppiati scontri tra i tifosi e la polizia georgiana all'interno dello stadio dopo l'esposizione di striscioni e bandiere palestinesi.",
+    "La partita è stata brevemente sospesa durante il primo tempo prima di riprendere e concludersi con una vittoria per 2-1 del Beşiktaş.",
+    "I ministri dell'Interno turco e georgiano hanno tenuto colloqui telefonici per discutere degli scontri e del trattamento riservato ai sostenitori turchi."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "circa 20.000 tifosi hanno assistito alla partita"
+    "crowd": "circa 20.000 tifosi hanno assistito alla partita",
+    "arrests": "l'arresto di 16 persone",
+    "injuries": "tre agenti sono rimasti feriti"
    }
   },
   "pt": {
-   "title": "Adeptos do Beşiktaş confrontam-se com a polícia e marcham em Batumi pela Palestina",
-   "seoTitle": "Protesto adeptos Beşiktaş Batumi",
+   "title": "Adeptos do Beşiktaş confrontam a polícia e marcham em Batumi pela Palestina",
+   "seoTitle": "Marcha e confronto em Batumi pela Palestina",
    "tea": {
-    "why": "Apoiantes do clube de futebol turco Beşiktaş protestaram contra Israel e em apoio à Palestina durante um jogo da Liga Europa.",
-    "want": "Os manifestantes apelaram ao fim da ocupação e à liberdade para a Palestina.",
-    "changed": "26 nov.: A polícia georgiana e os adeptos do Beşiktaş confrontaram-se dentro e fora do Estádio de Batumi, levando à suspensão breve de um jogo."
+    "why": "Os adeptos reuniram-se para expressar apoio à Palestina e protestar contra a equipa de futebol israelita adversária durante um jogo da Liga Europa.",
+    "want": "Protestar contra a ocupação, mostrar solidariedade para com a Palestina e exibir faixas e bandeiras.",
+    "changed": "26 nov.: A polícia georgiana entrou em confronto com os adeptos, resultando em 16 detenções e numa breve suspensão do jogo de futebol."
    },
-   "summary": "A 26 de novembro de 2026, adeptos do clube de futebol turco Beşiktaş marcharam por Batumi, na Geórgia, e reuniram-se na Arena de Batumi para um jogo da Liga Europa contra o Hapoel Be'er Sheva de Israel. Os manifestantes exibiram faixas pró-Palestina, resultando num confronto com a polícia georgiana, que utilizou canhões de água, spray pimenta e força física dentro do estádio. O jogo foi brevemente suspenso devido à violência antes de ser retomado e terminar com uma vitória por 2-1 para o Beşiktaş. O Beşiktaş e outros clubes turcos acusaram a segurança georgiana de utilizar força desproporcionada, enquanto os ministros do Interior turco e georgiano mantiveram conversações telefónicas relativas ao incidente.",
+   "summary": "Em 26 de novembro de 2026, adeptos do clube de futebol turco Beşiktaş marcharam por Batumi, na Geórgia, e mais tarde confrontaram a polícia georgiana dentro da Batumi Arena durante um jogo da Liga Europa contra o clube israelita Hapoel Be'er Sheva. As manifestações foram organizadas em solidariedade para com a Palestina, exibindo faixas e bandeiras com slogans como \"Resistir à ocupação, libertar a Palestina\". As tensões escalaram quando as forças de segurança intervieram, resultando numa breve suspensão do jogo, no uso de spray pimenta e canhões de água, e em altercações físicas. O Beşiktaş e vários outros clubes de futebol turcos condenaram veementemente as autoridades georgianas pelo uso de força desproporcionada. As autoridades georgianas relataram a detenção de 16 pessoas e ferimentos em três polícias, enquanto os ministros do Interior turco e georgiano mantiveram conversações telefónicas sobre o incidente.",
    "demands": [
     "Resistir à ocupação",
-    "Palestina livre"
+    "Libertar a Palestina"
    ],
-   "response": "Segundo o Civil.ge e o The Telegraph, a polícia georgiana utilizou canhões de água e spray pimenta contra os adeptos. Autoridades e clubes turcos condenaram as ações, alegando o uso desproporcionado de força. O ministro do Interior da Geórgia, Sulkhan Tamazashvili, falou com o seu homólogo turco, afirmando que tentaram acalmar a situação.",
+   "response": "O Ministério do Interior relatou a detenção de 16 pessoas e afirmou que três agentes ficaram feridos. As autoridades georgianas rejeitaram também as alegações de que a agitação estivesse relacionada com a exibição de uma bandeira palestiniana por um adepto, acrescentando que os responsáveis da UEFA confiscaram as bandeiras.",
    "updates": [
-    "Os adeptos do Beşiktaş reuniram-se na praça principal de Batumi e marcharam barulhentamente antes do jogo.",
-    "Irromperam confrontos entre os adeptos e a polícia dentro do Estádio de Batumi, causando uma breve suspensão do jogo."
+    "Os adeptos do Beşiktaş marcharam ruidosamente por Batumi e reuniram-se na praça maior da cidade antes do jogo da Liga Europa.",
+    "eclodiram confrontos entre adeptos e a polícia georgiana dentro do estádio após a exibição de faixas e bandeiras palestinianas.",
+    "O jogo foi brevemente suspenso durante a primeira parte antes de ser retomado e terminar com uma vitória por 2-1 para o Beşiktaş.",
+    "Os ministros do Interior turco e georgiano mantiveram conversações telefónicas para debater os confrontos e o tratamento dado aos apoiantes turcos."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "cerca de 20.000 adeptos assistiram ao jogo"
+    "crowd": "cerca de 20 000 adeptos assistiram ao jogo",
+    "arrests": "a detenção de 16 pessoas",
+    "injuries": "três agentes ficaram feridos"
    }
   },
   "nl": {
-   "title": "Beşiktaş-fans botsen met politie en marcheren in Batoemi voor Palestina",
-   "seoTitle": "Batoemi Beşiktaş-fans protest",
+   "title": "Besiktas-fans botsen met politie en marcheren in Batoemi voor Palestina",
+   "seoTitle": "Batoemi-mars en botsing om Palestina",
    "tea": {
-    "why": "Supporters van de Turkse voetbalclub Beşiktaş protesteerden tegen Israël en betuigden steun aan Palestina tijdens een Europa League-wedstrijd.",
-    "want": "Demonstranten riepen op tot een einde aan de bezetting en vrijheid voor Palestina.",
-    "changed": "26 nov.: Georgische politie en Beşiktaş-fans botsten binnen en buiten het stadion van Batoemi, wat leidde tot de korte onderbreking van een wedstrijd."
+    "why": "Fans verzamelden zich om steun te betuigen aan Palestina en te protesteren tegen de tegenoverliggende Israëlische voetbalploeg tijdens een Europa League-wedstrijd.",
+    "want": "Protesteren tegen de bezetting, solidariteit tonen met Palestina en spandoeken en vlaggen tonen.",
+    "changed": "26 nov.: De Georgische politie botste met fans, wat leidde tot 16 aanhoudingen en een korte opschorting van de voetbalwedstrijd."
    },
-   "summary": "Op 26 november 2026 marcheerden aanhangers van de Turkse voetbalclub Beşiktaş door het Georgische Batoemi en verzamelden zich in de Batoemi Arena voor een Europa League-wedstrijd tegen het Israëlische Hapoel Be'er Sheva. Demonstranten toonden pro-Palestijnse spandoeken, wat leidde tot een confrontatie met de Georgische politie, die binnen het stadion waterkanonnen, pepperspray en fysieke kracht gebruikte. De wedstrijd werd kortgelegd vanwege het geweld voordat deze werd hervat en eindigde in een 2-1 overwinning voor Beşiktaş. Beşiktaş en andere Turkse clubs beschuldigden de Georgische beveiliging van het gebruik van onevenredig geweld, terwijl de Turkse en Georgische ministers van Binnenlandse Zaken telefonisch overleg voerden over het incident.",
+   "summary": "Op 26 november 2026 marcheerden fans van de Turkse voetbalclub Besiktas door Batoemi, Georgië, en botsten later met de Georgische politie in de Batumi Arena tijdens een Europa League-wedstrijd tegen de Israëlische club Hapoel Be'er Sheva. De demonstraties werden georganiseerd in solidariteit met Palestina, met spandoeken en vlaggen met slogans als \"Verzet je tegen de bezetting, bevrijd Palestina\". De spanningen liepen hoog op toen de veiligheidstroepen ingrepen, wat resulteerde in een korte opschorting van de wedstrijd, het gebruik van peperspray en waterkanonnen, en fysieke confrontaties. Besiktas en verschillende andere Turkse voetbalclubs veroordeelden de Georgische autoriteiten ten stelligste voor het gebruik van onevenredig geweld. Georgische functionarissen meldden dat 16 mensen waren aangehouden en drie politieagenten gewond waren geraakt, terwijl de Turkse en Georgische ministers van Binnenlandse Zaken telefoongesprekken voerden over het incident.",
    "demands": [
-    "Verzet tegen de bezetting",
-    "Vrij Palestina"
+    "Verzet je tegen de bezetting",
+    "Bevrijd Palestina"
    ],
-   "response": "Volgens Civil.ge en The Telegraph zette de Georgische politie waterkanonnen en pepperspray in tegen fans. Turkse functionarissen en clubs veroordeelden het handelen en beweerden dat er sprake was van onevenredig gebruik van geweld. De Georgische minister van Binnenlandse Zaken Sulkhan Tamazashvili sprak met zijn Turkse ambtgenoot en verklaarde dat ze probeerden de situatie te kalmeren.",
+   "response": "Het ministerie van Binnenlandse Zaken meldde de aanhouding van 16 mensen en verklaarde dat drie agenten gewond zijn geraakt. De Georgische autoriteiten verwierpen ook beweringen dat de onrust verband hield met het tonen van een Palestijnse vlag door een fan, en voegden eraan toe dat UEFA-functionarissen de vlaggen in beslag namen.",
    "updates": [
-    "Beşiktaş-fans verzamelden zich op het pleinenplein van Batoemi en marcheerden luidruchtig voorafgaand aan de wedstrijd.",
-    "Er braken rellen uit tussen fans en de politie in het stadion van Batoemi, wat leidde tot een korte onderbreking van de wedstrijd."
+    "Besiktas-fans marcheerden luidruchtig door Batoemi en verzamelden zich op het grootste plein van de stad voorafgaand aan de Europa League-wedstrijd.",
+    "Er braken botsingen uit tussen fans en de Georgische politie in het stadion nadat spandoeken en Palestijnse vlaggen waren getoond.",
+    "De wedstrijd werd tijdens de eerste helft kort opgeschort voordat deze werd hervat en eindigde in een 2-1 overwinning voor Besiktas.",
+    "De Turkse en Georgische ministers van Binnenlandse Zaken hielden telefoongesprekken om de botsingen en de behandeling van de Turkse supporters te bespreken."
    ],
    "conflicts": [],
    "numbers": {
-    "crowd": "ongeveer 20.000 fans woonden de wedstrijd bij"
+    "crowd": "ongeveer 20.000 fans woonden de wedstrijd bij",
+    "arrests": "het aanhouden van 16 mensen",
+    "injuries": "drie agenten raakten gewond"
    }
   }
  }

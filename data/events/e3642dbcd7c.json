@@ -1,9 +1,9 @@
 {
  "id": "e3642dbcd7c",
- "slug": "",
- "stage": "candidate",
+ "slug": "granada-metro-strike-nov-2026",
+ "stage": "live",
  "title": "Granada metro workers strike and march for wage parity",
- "seoTitle": "",
+ "seoTitle": "Granada metro workers strike",
  "place": {
   "city": "Granada",
   "region": "Andalusia",
@@ -15,37 +15,221 @@
  },
  "scope": "local",
  "causes": [
-  "labour"
+  "labour",
+  "transport"
  ],
- "kind": "one-day",
+ "kind": "multi-day",
  "startedOn": "2026-11-27",
- "status": "ongoing",
+ "status": "scheduled",
  "vibe": "heating-up",
  "severity": "normal",
- "review": "auto",
- "reviewReasons": [],
- "isOngoing": true,
- "published": false,
+ "review": "pending",
+ "reviewReasons": [
+  "low-confidence"
+ ],
+ "isOngoing": false,
+ "published": true,
  "tea": {
-  "why": "",
-  "want": "",
-  "changed": ""
+  "why": "Workers are striking because of an unresolved labor dispute over wages and working conditions compared to other metropolitan systems.",
+  "want": "Wage parity with the metro networks of Seville and Málaga and improvements to their collective bargaining agreement.",
+  "changed": "Nov 26: The Junta de Andalusia decreed minimum service levels of 60% for the upcoming two-day total strike."
  },
- "summary": "",
- "organizers": [],
- "demands": [],
- "response": "",
+ "summary": "Metro workers in Granada have called for two days of total strikes accompanied by demonstrations to demand wage parity with the metro systems in Seville and Málaga. According to news reports, the labor dispute involves the concessionaire company Avanza, which workers accuse of failing to meet their demands for improvements to their collective agreement. The actions follow a series of partial stoppages that began on October 30. Alongside the strikes, the employee committee scheduled a march through the capital starting at Calle Alondra and concluding at Plaza del Carmen, as well as a subsequent gathering at metro stops. In response to the labor action, the Junta of Andalusia has established a mandatory minimum service level of 60% during the strike days.",
+ "organizers": [
+  "comité de empresa",
+  "CSIF",
+  "CCOO",
+  "UGT"
+ ],
+ "demands": [
+  "Wage parity with Seville and Málaga metros",
+  "Improvements to collective bargaining agreements"
+ ],
+ "response": "According to the sources, the Junta of Andalusia decreed minimum service levels of 60% during the strike days, and the concessionaire company Avanza previously offered a salary increase.",
  "numbers": {},
- "updates": [],
- "sources": [],
+ "updates": [
+  {
+   "at": "2026-11-26",
+   "text": "The employee committee announced total strikes and demonstrations for Friday and Saturday, following previous partial stoppages.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
+   "at": "2026-11-26",
+   "text": "The Junta of Andalusia decreed minimum service levels of 60% for the strike dates.",
+   "sources": [
+    2
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "n": 1,
+   "url": "https://www.elindependientedegranada.es/economia/plantilla-metro-secunda-dos-jornadas-huelga",
+   "publisher": "elindependientedegranada.es",
+   "title": "La plantilla del Metro secunda dos jornadas de huelga total",
+   "publishedAt": "2026-11-26T17:34:07.000Z"
+  },
+  {
+   "n": 2,
+   "url": "https://www.granadaesnoticia.com/provincia/el-metro-afronta-dos-jornadas-de-huelga-total-este-viernes-y-sabado-con-servicios-minimos-del-60",
+   "publisher": "granadaesnoticia.com",
+   "title": "El Metro afronta dos jornadas de huelga total este viernes y sábado con servicios mínimos del 60%",
+   "publishedAt": "2026-11-26T18:54:05.000Z"
+  }
+ ],
  "conflicts": [],
- "confidence": 0,
- "publishers": 0,
- "reports24h": 0,
+ "confidence": 0.7,
+ "publishers": 2,
+ "reports24h": 2,
  "reportsPrev24h": 0,
- "reports48h": 0,
+ "reports48h": 2,
  "firstSeenAt": "2026-11-26T21:55:13.854Z",
- "lastReportAt": "2026-11-26T21:55:13.854Z",
- "lastCheckedAt": "2026-11-26T21:55:13.854Z",
- "updatedAt": "2026-11-26T21:55:13.854Z"
+ "lastReportAt": "2026-11-26T18:54:05.000Z",
+ "lastCheckedAt": "2026-11-27T01:53:28.545Z",
+ "updatedAt": "2026-11-27T01:53:21.338Z",
+ "searchedAt": "2026-11-27T01:50:53.451Z",
+ "endedOn": "2026-11-28",
+ "responseSources": [
+  1,
+  2
+ ],
+ "seriousInjuries": false,
+ "sensitive": false,
+ "summarizedAt": "2026-11-27T01:53:21.338Z",
+ "summaryOf": "957343b667f7",
+ "publishedAt": "2026-11-27T01:53:28.545Z",
+ "i18n": {
+  "of": "eb7358ed09e5cc03",
+  "at": "2026-11-27T01:54:12.162Z",
+  "tries": 1,
+  "es": {
+   "title": "Los trabajadores del metro de Granada se declaran en huelga y marchan por la paridad salarial",
+   "seoTitle": "Huelga de los trabajadores del metro de Granada",
+   "tea": {
+    "why": "Los trabajadores están en huelga debido a un conflicto laboral no resuelto sobre salarios y condiciones de trabajo en comparación con otros sistemas metropolitanos.",
+    "want": "Paridad salarial con las redes de metro de Sevilla y Málaga y mejoras en su convenio colectivo.",
+    "changed": "26 de nov.: La Junta de Andalucía decretó unos servicios mínimos del 60% para la próxima huelga total de dos días."
+   },
+   "summary": "Los trabajadores del metro de Granada han convocado dos días de huelga total acompañados de manifestaciones para exigir la paridad salarial con los sistemas de metro de Sevilla y Málaga. Según informes de prensa, el conflicto laboral involucra a la empresa concesionaria Avanza, a la que los trabajadores acusan de no atender sus demandas de mejoras en su convenio colectivo. Las acciones siguen a una serie de paros parciales iniciados el 30 de octubre. Paralelamente a las huelgas, el comité de empresa programó una marcha por la capital que comenzará en la calle Alondra y terminará en la plaza del Carmen, así como una concentración posterior en las paradas de metro. En respuesta a la acción laboral, la Junta de Andalucía ha establecido un servicio mínimo obligatorio del 60% durante los días de huelga.",
+   "demands": [
+    "Paridad salarial con los metros de Sevilla y Málaga",
+    "Mejoras en los convenios colectivos"
+   ],
+   "response": "Según las fuentes, la Junta de Andalucía decretó unos servicios mínimos del 60% durante los días de huelga, y la empresa concesionaria Avanza ofreció previamente un aumento salarial.",
+   "updates": [
+    "El comité de empresa anunció huelgas totales y manifestaciones para el viernes y el sábado, tras anteriores paros parciales.",
+    "La Junta de Andalucía decretó unos servicios mínimos del 60% para las fechas de la huelga."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "fr": {
+   "title": "Grève et manifestation des travailleurs du métro de Granada pour la parité salariale",
+   "seoTitle": "Grève des travailleurs du métro de Granada",
+   "tea": {
+    "why": "Les travailleurs font grève en raison d'un litige du travail non résolu concernant les salaires et les conditions de travail par rapport à d'autres réseaux métropolitains.",
+    "want": "La parité salariale avec les réseaux de métro de Sevilla et de Málaga ainsi que des améliorations de leur convention collective.",
+    "changed": "26 nov. : La Junta d'Andalousie a décrété un service minimum de 60 % pour la prochaine grève totale de deux jours."
+   },
+   "summary": "Les travailleurs du métro de Granada ont appelé à deux jours de grève totale accompagnés de manifestations pour exiger la parité salariale avec les réseaux de métro de Sevilla et de Málaga. Selon des articles de presse, le litige du travail implique l'entreprise concessionnaire Avanza, que les travailleurs accusent de ne pas avoir répondu à leurs demandes d'amélioration de leur convention collective. Ces actions font suite à une série d'arrêts partiels qui ont débuté le 30 octobre. En plus des grèves, le comité d'entreprise a programmé une marche à travers la capitale commençant rue Alondra et se terminant place del Carmen, ainsi qu'un rassemblement ultérieur aux arrêts de métro. En réponse à l'action syndicale, la Junta d'Andalousie a établi un service minimum obligatoire de 60 % pendant les jours de grève.",
+   "demands": [
+    "Parité salariale avec les métros de Sevilla et de Málaga",
+    "Améliorations des conventions collectives"
+   ],
+   "response": "Selon les sources, la Junta d'Andalousie a décrété un service minimum de 60 % pendant les jours de grève, et l'entreprise concessionnaire Avanza avait auparavant proposé une augmentation de salaire.",
+   "updates": [
+    "Le comité d'entreprise a annoncé des grèves totales et des manifestations pour vendredi et samedi, faisant suite à de précédents arrêts partiels.",
+    "La Junta d'Andalousie a décrété un service minimum de 60 % pour les dates de grève."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "de": {
+   "title": "Granadaer U-Bahn-Arbeiter streiken und demonstrieren für Lohnengleichheit",
+   "seoTitle": "Streik der U-Bahn-Arbeiter in Granada",
+   "tea": {
+    "why": "Die Arbeiter streiken aufgrund eines ungelösten Arbeitskonflikts über Gehälter und Arbeitsbedingungen im Vergleich zu anderen Metropolsystemen.",
+    "want": "Lohngleichheit mit den U-Bahn-Netzen von Sevilla und Málaga sowie Verbesserungen ihres Tarifvertrags.",
+    "changed": "26. Nov.: Die Junta von Andalusien hat für den bevorstehenden zweitägigen Totalstreik Mindestdienste von 60% angeordnet."
+   },
+   "summary": "U-Bahn-Arbeiter in Granada haben zu zweitägigen Totalstreiks begleitet von Demonstrationen aufgerufen, um Lohngleichheit mit den U-Bahn-Systemen in Sevilla und Málaga zu fordern. Medienberichten zufolge betrifft der Arbeitskonflikt das Konzessionsunternehmen Avanza, dem die Arbeiter vorwerfen, ihre Forderungen nach Verbesserungen des Tarifvertrags nicht zu erfüllen. Die Aktionen folgen auf eine Reihe von Teilstreiks, die am 30. Oktober begonnen hatten. Neben den Streiks plante der Betriebsausschuss einen Marsch durch die Hauptstadt, der in der Calle Alondra beginnt und an der Plaza del Carmen endet, sowie eine anschließende Kundgebung an U-Bahn-Haltestellen. Als Reaktion auf die Arbeitskampfmaßnahme hat die Junta von Andalusien an den Streiktagen einen obligatorischen Mindestdienst von 60% festgelegt.",
+   "demands": [
+    "Lohngleichheit mit den U-Bahnen von Sevilla und Málaga",
+    "Verbesserungen der Tarifverträge"
+   ],
+   "response": "Quellen zufolge ordnete die Junta von Andalusien an den Streiktagen Mindestdienste von 60% an, und das Konzessionsunternehmen Avanza bot zuvor eine Gehaltserhöhung an.",
+   "updates": [
+    "Der Betriebsausschuss kündigte Totalstreiks und Demonstrationen für Freitag und Samstag an, im Anschluss an vorherige Teilstreiks.",
+    "Die Junta von Andalusien ordnete für die Streiktermine Mindestdienste von 60% an."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "it": {
+   "title": "I lavoratori della metropolitana di Granada scioperano e manifestano per la parità salariale",
+   "seoTitle": "Scioperano i lavoratori della metropolitana di Granada",
+   "tea": {
+    "why": "I lavoratori sono in sciopero a causa di una controversia di lavoro irrisolta su salari e condizioni di lavoro rispetto ad altri sistemi metropolitani.",
+    "want": "Parità salariale con le reti metropolitane di Sevilla e Málaga e miglioramenti del loro contratto collettivo.",
+    "changed": "26 nov: La Junta dell'Andalusia ha decretato servizi minimi del 60% per il prossimo sciopero totale di due giorni."
+   },
+   "summary": "I lavoratori della metropolitana di Granada hanno indetto due giorni di sciopero totale accompagnati da manifestazioni per chiedere la parità salariale con i sistemi metropolitani di Sevilla e Málaga. Secondo notizie di stampa, la controversia di lavoro coinvolge l'azienda concessionaria Avanza, che i lavoratori accusano di non aver soddisfatto le loro richieste di miglioramento del contratto collettivo. Le azioni seguono una serie di scioperi parziali iniziati il 30 ottobre. Oltre agli scioperi, il comitato aziendale ha programmato un corteo attraverso la capitale con partenza da Calle Alondra e arrivo in Plaza del Carmen, oltre a un successivo raduno alle fermate della metropolitana. In risposta all'azione sindacale, la Junta dell'Andalusia ha stabilito un livello di servizio minimo obbligatorio del 60% durante i giorni di sciopero.",
+   "demands": [
+    "Parità salariale con le metropolitane di Sevilla e Málaga",
+    "Miglioramenti dei contratti collettivi"
+   ],
+   "response": "Secondo le fonti, la Junta dell'Andalusia ha decretato servizi minimi del 60% durante i giorni di sciopero e l'azienda concessionaria Avanza aveva precedentemente offerto un aumento di stipendio.",
+   "updates": [
+    "Il comitato aziendale ha annunciato scioperi totali e manifestazioni per venerdì e sabato, a seguito di precedenti scioperi parziali.",
+    "La Junta dell'Andalusia ha decretato servizi minimi del 60% per le date dello sciopero."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "pt": {
+   "title": "Trabalhadores do metro de Granada entram em greve e marcham por paridade salarial",
+   "seoTitle": "Trabalhadores do metro de Granada em greve",
+   "tea": {
+    "why": "Os trabalhadores estão em greve devido a um litígio laboral não resolvido sobre salários e condições de trabalho em comparação com outros sistemas metropolitanos.",
+    "want": "Paridade salarial com as redes de metro de Sevilla e Málaga e melhorias no seu acordo coletivo de trabalho.",
+    "changed": "26 de nov.: A Junta da Andaluzia decretou serviços mínimos de 60% para a próxima greve total de dois dias."
+   },
+   "summary": "Os trabalhadores do metro de Granada convocaram dois dias de greve total acompanhados de manifestações para exigir a paridade salarial com os sistemas de metro em Sevilla e Málaga. De acordo com notícias, o litígio laboral envolve a empresa concessionária Avanza, que os trabalhadores acusas de não cumprir as suas exigências de melhorias no acordo coletivo. As ações seguem-se a uma série de paralisações parciais iniciadas a 30 de outubro. A par das greves, a comissão de trabalhadores agendou uma marcha pela capital com início na Calle Alondra e conclusão na Plaza del Carmen, bem como um posterior ajuntamento nas paragens de metro. Em resposta à ação laboral, a Junta da Andaluzia estabeleceu um nível mínimo de serviço obrigatório de 60% durante os dias de greve.",
+   "demands": [
+    "Paridade salarial com os metros de Sevilla e Málaga",
+    "Melhorias aos acordos coletivos de trabalho"
+   ],
+   "response": "Segundo as fontes, a Junta da Andaluzia decretou serviços mínimos de 60% durante os dias de greve, e a empresa concessionária Avanza ofereceu anteriormente um aumento salarial.",
+   "updates": [
+    "A comissão de trabalhadores anunciou greves totais e manifestações para sexta-feira e sábado, na sequência de paralisações parciais anteriores.",
+    "A Junta da Andaluzia decretou serviços mínimos de 60% para as datas da greve."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  },
+  "nl": {
+   "title": "Metrowerkers in Granada staken en marcheren voor loongelijkheid",
+   "seoTitle": "Metrowerkers Granada staken",
+   "tea": {
+    "why": "Werknemers staken vanwege een onopgelost arbeidsconflict over lonen en arbeidsomstandigheden in vergelijking met andere metropolitaanse systemen.",
+    "want": "Loongelijkheid met de metronetwerken van Sevilla en Málaga en verbeteringen aan hun collectieve arbeidsovereenkomst.",
+    "changed": "26 nov.: De Junta van Andalusië heeft een minimale dienstverlening van 60% verordend voor de aankomende tweedaagse totale staking."
+   },
+   "summary": "Metrowerkers in Granada hebben opgeroepen tot twee dagen van totale stakingen vergezeld van demonstraties om loongelijkheid te eisen met de metrosystemen in Sevilla en Málaga. Volgens persberichten is bij het arbeidsconflict het concessiebedrijf Avanza betrokken, dat werknemers ervan beschuilen niet tegemoet te komen aan hun eisen voor verbeteringen van de collectieve overeenkomst. De acties volgen op een reeks gedeeltelijke werkonderbrekingen die op 30 oktober begrepen. Naast de stakingen heeft de ondernemingsraad een mars door de hoofdstad gepland die begint bij Calle Alondra en eindigt op Plaza del Carmen, evenals een volgende bijeenkomst bij metrohaltes. Als reactie op de arbeidsactie heeft de Junta van Andalusië een verplichte minimale dienstverlening van 60% vastgesteld tijdens de stakingsdagen.",
+   "demands": [
+    "Loongelijkheid met metro's van Sevilla en Málaga",
+    "Verbeteringen aan collectieve arbeidsovereenkomsten"
+   ],
+   "response": "Volgens de bronnen heeft de Junta van Andalusië een minimale dienstverlening van 60% verordend tijdens de stakingsdagen, en heeft het concessiebedrijf Avanza eerder een loonsverhoging aangeboden.",
+   "updates": [
+    "De ondernemingsraad kondigde totale stakingen en demonstraties aan voor vrijdag en zaterdag, volgend op eerdere gedeeltelijke werkonderbrekingen.",
+    "De Junta van Andalusië verordende een minimale dienstverlening van 60% voor de stakingsdata."
+   ],
+   "conflicts": [],
+   "numbers": {}
+  }
+ }
 }
